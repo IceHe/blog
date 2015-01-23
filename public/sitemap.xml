@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    <lastmod>2015-01-23T06:52:56.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2015/01/19/Assembly%20Language%20-%20Note%2014/</loc>
+    <lastmod>2015-01-20T10:29:11.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2015/01/19/my-new-post/</loc>
+    <lastmod>2015-01-20T10:28:59.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2015/01/19/hello-world/</loc>
+    <lastmod>2015-01-20T10:28:54.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2015/01/19/test/</loc>
+    <lastmod>2015-01-20T10:28:42.000Z</lastmod>
+  </url>
+  
+</urlset>
