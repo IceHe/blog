@@ -4,7 +4,7 @@
 
 # Site
 title: Ice He. 何志遠
-subtitle: 寧靜致遠。
+subtitle: Less is more. 寧靜致遠。
 description: IceHe 何志远 blog 个人博客 IT tech 软件 技术 record life 记录 人生 生活
 author: Ice He. 何志遠
 email: ice_he@foxmail.com
@@ -12,7 +12,7 @@ language: en_US #zh-CN
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://icehe.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -79,7 +79,7 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: metro-light-master #strict
+theme: jacman-master #metro-light-master
 exclude_generator: #它指的就是Plugins
 - hexo-generator-feed
 - hexo-generator-sitemap

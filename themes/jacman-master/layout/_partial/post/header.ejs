@@ -1,0 +1,28 @@
+<header class="article-info clearfix">
+  <h1 itemprop="name">
+    <% if(item.link) { %>
+      <a href="<%- item.link %>" target="_blank" title="<%= item.title %>"><%= item.title %></a><% } else { %>
+      <a href="<%- config.root %><%- item.path %>" title="<%= item.title %>" itemprop="url"><%= item.title %></a><% } %>
+  </h1>
+  <p class="article-author">By
+       <% if(theme.author.google_plus){ %>
+		<a href="https://plus.google.com/<%=theme.author.google_plus %>?rel=author" title="<%= config.author %>" target="_blank" itemprop="author"><%= config.author %></a>
+		<% }else{ %>
+		<a href="<%= config.url %>/about" title="<%= config.author %>" target="_blank" itemprop="author"><%= config.author %></a>
+		<% } %>
+  <p class="article-time">
+    <time datetime="<%= date_xml(item.date) %>" itemprop="datePublished"> <%= __('datepublished') %> <%= item.date.format(config.date_format) %></time>
+    
+  </p>
+  
+  <!-- 百度统计 -->
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?7076c1a5edd76a6bd49f8065ceecc7a4";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+</header>
