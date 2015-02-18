@@ -16,8 +16,8 @@ menu:
 widgets: 
 - category
 - tag
-#- tagcloud
-- recent_posts
+# - tagcloud
+# - recent_posts
 - links
 - rss
 ## provide seven widgets:category,tag,rss,archive,tagcloud,links,weibo

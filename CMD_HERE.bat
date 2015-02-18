@@ -1,1 +1,1 @@
-@echo off & call cmd
+@call cmd
