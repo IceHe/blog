@@ -12,7 +12,7 @@ language: en_US #zh-CN
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://icehe.github.io/
+url: http://icehe.gitcafe.com/ #http://icehe.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -83,10 +83,20 @@ theme: jacman-master #metro-light-master
 exclude_generator: #它指的就是Plugins
 - hexo-generator-feed
 - hexo-generator-sitemap
+- hexo-generator-baidu-sitemap
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
+#deploy:
+# type: github
+#  #repository: https://github.com/IceHe/icehe.github.io.git
+#  #branch: master
+#  repository: https://gitcafe.com/icehe/icehe.git
+#  branch: gitcafe-pages
+
+# Write the deployment in this way to deploy on both Github and Gitcafe~
 deploy:
-  type: github
-  repository: https://github.com/IceHe/icehe.github.io.git
-  branch: master
+    type: git
+    repo:
+        github: https://github.com/IceHe/icehe.github.io.git,master        
+        gitcafe: https://gitcafe.com/icehe/icehe.git,gitcafe-pages

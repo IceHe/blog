@@ -1,0 +1,1 @@
+@echo off & call cmd

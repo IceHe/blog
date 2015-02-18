@@ -2,7 +2,8 @@
 menu:
   Home: /
   Archives: /archives
-#  LifeLog: /archives
+  # LifeLog: /archives
+  # Message board: /message board
   About: /about
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
@@ -15,9 +16,10 @@ menu:
 widgets: 
 - category
 - tag
-#- recent_posts
+#- tagcloud
+- recent_posts
 - links
-#- rss
+- rss
 ## provide seven widgets:category,tag,rss,archive,tagcloud,links,weibo
 
 
@@ -89,8 +91,11 @@ google_analytics:
 ## You MUST upgrade to Universal Analytics first!
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
 baidu_tongji:
-  enable: false
-  sitecode:  ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
+  enable: true
+  sitecode:  7076c1a5edd76a6bd49f8065ceecc7a4 ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
+baidu_tongji2:
+  enable: true
+  sitecode:  12c45255658a0d4a51038c9dc53349f3 ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
 cnzz_tongji:
   enable: false
   siteid:    ## e.g. 1253575964 your cnzz tongji site id
@@ -113,6 +118,6 @@ google_cse:
 ## ---
 baidu_search:     ## http://zn.baidu.com/
   enable: true
-  id:   ## e.g. "783281470518440642"  for your baidu search id
+  id: "8026609685000529645"	## e.g. "783281470518440642"  for your baidu search id
   site: http://zhannei.baidu.com/cse/search  ## your can change to your site instead of the default site
   
