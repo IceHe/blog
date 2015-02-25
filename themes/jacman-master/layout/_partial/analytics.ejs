@@ -13,15 +13,19 @@ ga('send', 'pageview');
 
 <% if (theme.baidu_tongji.enable){ %>
 <script type="text/javascript">
-var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F<%= theme.baidu_tongji.sitecode %>' type='text/javascript'%3E%3C/script%3E"));
+if(-1 != location.href.indexOf("icehe.github.io")){
+	var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+	document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F<%= theme.baidu_tongji.sitecode %>' type='text/javascript'%3E%3C/script%3E"));
+}
 </script>
 <% } %>
 
 <% if (theme.baidu_tongji2.enable){ %>
 <script type="text/javascript">
-var _bdhmProtocol2 = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol2 + "hm.baidu.com/h.js%3F<%= theme.baidu_tongji2.sitecode %>' type='text/javascript'%3E%3C/script%3E"));
+if(-1 != location.href.indexOf("icehe.gitcafe.io")){
+	var _bdhmProtocol2 = (("https:" == document.location.protocol) ? " https://" : " http://");
+	document.write(unescape("%3Cscript src='" + _bdhmProtocol2 + "hm.baidu.com/h.js%3F<%= theme.baidu_tongji2.sitecode %>' type='text/javascript'%3E%3C/script%3E"));
+}
 </script>
 <% } %>
 

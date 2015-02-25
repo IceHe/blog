@@ -1,10 +1,10 @@
 ##### Menu
 menu:
-  Home: /
-  Archives: /archives
-  # LifeLog: /archives
+  Home 首页: /
+  Archives 归档: /archives
+  Life Logs 日志: /lifelogs
   # Message board: /message board
-  About: /about
+  About 简介: /about
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -41,12 +41,12 @@ index:
   
 #### Author information
 author:
-  intro_line1:  "Less is more."    ## your introduction on the bottom of the page
-  intro_line2:  "寧靜致遠。"  ## the 2nd line
+  intro_line1:  "Less is more."		## your introduction on the bottom of the page
+  intro_line2:  "寧靜致遠。"		## the 2nd line
   weibo:		icedes				## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo2:		2622530715			## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
-  weibo_verifier:					## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
-  tsina:							## e.g. 2176287895  Your weibo ID,It will be used in share button.
+  #weibo_verifier:					## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
+  #tsina:							## e.g. 2176287895  Your weibo ID,It will be used in share button.
   douban:		IceHeGZ				## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
   #zhihu:		he-zhi-yuan-15		## e.g. jark  for http://www.zhihu.com/people/jark
   email:		ice_he@foxmail.com	## e.g. imjark@gmail.com
@@ -54,20 +54,23 @@ author:
   github:		IceHe				## e.g. wuchong for https://github.com/wuchong
   #facebook:   	https://www.facebook.com/profile.php?id=100008252804677	## e.g. imjark for https://facebook.com/imjark
   #linkedin:   	http://cn.linkedin.com/pub/%E5%BF%97%E9%81%A0-%E4%BD%95/92/91/3ba	## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
-  google_plus:    					## e.g. "111190881341800841449" for https://plus.google.com/u/0/111190881341800841449, the "" is needed!
-  stackoverflow:  					## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
+  #google_plus:    					## e.g. "111190881341800841449" for https://plus.google.com/u/0/111190881341800841449, the "" is needed!
+  #stackoverflow:  					## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
 ## if you set them, the corresponding  share button will show on the footer
 
 #### Toc
 toc:
-  article: true   ## show contents in article.
-  aside: true     ## show contents in aside.
+  article: true		## show contents in article.
+  aside: false		## show contents in aside.
 ## you can set both of the value to true of neither of them.
 ## if you don't want display contents in a specified post,you can modify `front-matter` and add `toc: false`.
 
 #### Links
 links:
-  Gone with the wind.: http://290841032.qzone.qq.com,飘。Gone with the wind.
+  MyOldBlog - 飘。: http://290841032.qzone.qq.com,飘。Gone with the wind.
+  Tech Blog - 极地· 雪: http://sf-zhou.github.io/,极地· 雪
+  Tech Blog - Jan Fan: http://janfan.github.io/,Jan Fan
+  SF-_- 的 ACM 博客: http://blog.csdn.net/sf____,SF-_- 的 ACM 博客
 #  码农圈: https://coderq.com,一个面向程序员交流分享的新一代社区
 #  Jark's Blog: http://wuchong.me
 
@@ -75,7 +78,7 @@ links:
 
 #### Comment
 duoshuo_shortname: icehe	## e.g. wuchong   your duoshuo short name.
-disqus_shortname:  ## e.g. wuchong   your disqus short name.
+disqus_shortname: icehe		## e.g. wuchong   your disqus short name.
 
 #### Share button
 jiathis:
@@ -95,7 +98,7 @@ baidu_tongji:
   sitecode:  7076c1a5edd76a6bd49f8065ceecc7a4 ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
 baidu_tongji2:
   enable: true
-  sitecode:  12c45255658a0d4a51038c9dc53349f3 ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
+  sitecode:  68e951d2eed2725bdd8cf4b1900d632f ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
 cnzz_tongji:
   enable: false
   siteid:    ## e.g. 1253575964 your cnzz tongji site id
@@ -119,5 +122,9 @@ google_cse:
 baidu_search:     ## http://zn.baidu.com/
   enable: true
   id: "8026609685000529645"	## e.g. "783281470518440642"  for your baidu search id
+  site: http://zhannei.baidu.com/cse/search  ## your can change to your site instead of the default site
+baidu_search2:     ## http://zn.baidu.com/
+  enable: true
+  id: "915177976264389242"	## e.g. "783281470518440642"  for your baidu search id
   site: http://zhannei.baidu.com/cse/search  ## your can change to your site instead of the default site
   

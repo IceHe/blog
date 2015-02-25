@@ -1,5 +1,6 @@
 title: About
 date: 2015-01-20 18:26:55
+toc: false
 ---
 <span class="key_pos">Name:</span>		<span class="val_pos">	**Ice He. 何志遠**	&nbsp;&nbsp;	<span class="hidden">[<a href="#resume" onclick="document.getElementById('resume').className='';">Resume</a>]</span>	</span>	<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" class="pic_pos" style="height: 165px; width: auto;" />
 <span class="key_pos">E-mail:</span>	<span class="val_pos">	[ice_he@foxmail.com](mailto:ice_he@foxmail.com)	</span>

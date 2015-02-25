@@ -16,7 +16,7 @@ date: 2015-01-24 00:26:55
 <span class="key_pos">Frequently Use</span>	<span class="val_pos">C/C++,&nbsp; Java,&nbsp; PHP,&nbsp; JavaScript,&nbsp; jQuery,&nbsp; HTML,&nbsp; CSS,&nbsp; SQL,&nbsp; Qt Framework </span>	<br/>
 	<span class="key_pos">Know About</span>	<span class="val_pos">Linux(Ubutu/Fedora/CentOS),&nbsp; ASM,&nbsp; MySQL,&nbsp; SQL Server,&nbsp; Oracle,	</span>
 	<span class="val_pos">Yaf Framework,&nbsp; VB,&nbsp; XML,&nbsp; Unity-3D </span>	<br/>
-<span class="key_pos">Tech Blog</span>	<span class="val_pos">	[icehe.gitcafe.com](http://icehe.gitcafe.com/)	</span>	<br/>
+<span class="key_pos">Tech Blog</span>	<span class="val_pos">	[icehe.gitcafe.com](http://icehe.gitcafe.io/)	( the same - [icehe.gitcafe.com](http://icehe.github.io/) )	</span>	<br/>
 <span class="key_pos">Github</span>	<span class="val_pos icon-github">	&nbsp;[github.com/IceHe](https://github.com/IceHe)	</span>	<br/><br/>
 #### **Leadership**
 ---
@@ -31,18 +31,19 @@ date: 2015-01-24 00:26:55
 	<span class="val_pos">	2011华工院际比赛第一名；2013至2014年华工双人毽球争霸赛分获第一名、第二名</span>	<br/>
 <span class="key_pos">2011.07 ~ 2012.12</span><span class="val_pos">	优职英才（北京）教育科技公司 - 市场部 Intern.	</span>
 	<span class="val_pos">	About - 校园活动的筹划执行、品牌推广、微博营销号运营、文案	</span>
-	<span class="val_pos">	曾办讲座、交流会、公开课无数……	</span>	<br/>
+	<span class="val_pos">	曾办十数场讲座、交流会、公开课	</span>	<br/>
 <span class="key_pos">2011.09 ~ 2011.06</span><span class="val_pos">	华工学生职业发展协会 - 综合事务部 - Member	</span>
 	<span class="val_pos">	说服广州信诚人寿HR负责人为“超完美计划培训营”的优胜者提供经理人岗位2个与实习生岗位10个	</span>
 	<span class="val_pos">	说服南方报业集团传媒研究院为“职协企观月”活动提供40个免费参观南方报业集团的名额</span>
-	<span class="val_pos">	第一次筹办比赛~ 虽然很小：“就业服务月之公关危机”比赛	</span>	<br/><br/>
+	<span class="val_pos">	*纪念第一次筹办比赛，虽小：“就业服务月之公关危机”比赛	</span>	<br/><br/>
 #### **Education**
 ---
 <br/><span class="key_pos">2011.09 ~ 2015.07</span>	<span class="val_pos">	华南理工大学 - 软件学院 - 软件工程	</span>
 	<span class="val_pos">	微电子工艺实习(88,1/82)，	电路与电子技术实验(82,2/82)，	电路与电子技术(94,2/82)	</span>
 	<span class="val_pos">	金融软件实训(90,1/50)，	C++程序设计(90,7/82)，	数字逻辑(成绩90,排名9/82)	</span>	<br/>
 <span class="key_pos">2008.09 ~ 2011.07</span>	<span class="val_pos">	广州市执信中学	</span>
-	<span class="val_pos">	2008-2010年三好学生称号(20%)，2011届优秀毕业生称号(20%)	</span>	<br/>	<br/>
+	<span class="val_pos">	*本条目为校友相认而列。^_^	</span>	<br/>	<br/>	<br/>
+	<span class="val_pos hidden">	2008-2010年三好学生称号(20%)，2011届优秀毕业生称号(20%)	</span>
 #### **Others**
 ---
 <br/><span class="key_pos">Hobby</span>	<span class="val_pos">	运动 —— 毽球 - [华南理工毽球社社长](#sport)	</span>

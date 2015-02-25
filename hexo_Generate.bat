@@ -1,3 +1,1 @@
-hexo g
-
-echo [ pause ] & pause > nul
+hexo g && echo [ pause ] & pause > nul

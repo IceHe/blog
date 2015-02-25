@@ -12,7 +12,7 @@ language: en_US #zh-CN
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://icehe.github.io/ #http://icehe.gitcafe.io/
+url: http://icehe.gitcafe.io/ #http://icehe.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -98,5 +98,5 @@ exclude_generator: #它指的就是Plugins
 deploy:
     type: git
     repo:
-        #gitcafe: https://gitcafe.com/icehe/icehe.git,gitcafe-pages
-        github: https://github.com/IceHe/icehe.github.io.git,master
+        gitcafe: https://gitcafe.com/icehe/icehe.git,gitcafe-pages
+        #github: https://github.com/IceHe/icehe.github.io.git,master

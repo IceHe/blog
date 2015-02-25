@@ -1,3 +1,1 @@
-hexo clean
-
-echo [ pause ] & pause > nul
+hexo clean && echo [ pause ] & pause > nul
