@@ -5,14 +5,14 @@
 # Site
 title: Ice He. 何志遠
 subtitle: Less is more. 寧靜致遠。
-description: IceHe 何志远 blog 个人博客 IT tech 软件 技术 record life 记录 人生 生活
+description: IceHe 何志远 blog 博客 software development IT tech 软件 开发 技术 record life 记录 人生 生活
 author: Ice He. 何志遠
 email: ice_he@foxmail.com
 language: en_US #zh-CN
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://icehe.gitcafe.io/ #http://icehe.github.io/
+url: http://icehe.github.io/	#http://icehe.gitcafe.io/
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags

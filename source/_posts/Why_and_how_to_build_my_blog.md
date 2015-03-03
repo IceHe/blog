@@ -1,7 +1,7 @@
 title: Why and How to bulid my blog? 搭建我的个人博客。
 date: 2015-01-25 23:20:17
-tags: [blog]
-categories: [hexo]
+tags: [TECH, LIFE, build blog, hexo]
+categories: [web]
 description: Why 初衷、How 过程，Hexo Course 建站教程，Custom Points 定制点列表，Theme 主题，Others 其它，Reference Link 参考链接……
 ---
 ## Why - 初衷

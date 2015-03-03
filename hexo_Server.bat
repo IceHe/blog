@@ -1,1 +1,3 @@
-hexo s && echo [ pause ] & pause > nul
+@title Hexo - Server
+@echo hexo server
+@hexo s

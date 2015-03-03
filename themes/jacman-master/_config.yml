@@ -20,6 +20,7 @@ widgets:
 # - recent_posts
 - links
 - rss
+- donate
 ## provide seven widgets:category,tag,rss,archive,tagcloud,links,weibo
 
 
@@ -67,9 +68,10 @@ toc:
 
 #### Links
 links:
-  MyOldBlog - 飘。: http://290841032.qzone.qq.com,飘。Gone with the wind.
-  Tech Blog - 极地· 雪: http://sf-zhou.github.io/,极地· 雪
-  Tech Blog - Jan Fan: http://janfan.github.io/,Jan Fan
+  飘。Gone with the wind.: http://290841032.qzone.qq.com,飘。Gone with the wind.
+  极地 · 雪: http://sf-zhou.github.io/,极地 · 雪
+  Shiwey Yan: http://shiweyyan.github.io/,Shiwey Yan
+  Jan Fan: http://janfan.github.io/,Jan Fan
   SF-_- 的 ACM 博客: http://blog.csdn.net/sf____,SF-_- 的 ACM 博客
 #  码农圈: https://coderq.com,一个面向程序员交流分享的新一代社区
 #  Jark's Blog: http://wuchong.me

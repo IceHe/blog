@@ -1,1 +1,3 @@
-hexo clean && hexo g && hexo s && echo [ pause ] & pause > nul
+@title Hexo - Clean, Generate, Server
+@echo hexo clean ^&^& hexo generate ^&^& hexo server
+@hexo clean && hexo g && hexo s
