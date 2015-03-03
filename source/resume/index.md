@@ -16,7 +16,7 @@ date: 2015-01-24 00:26:55
 <span class="key_pos">Frequently Use</span>	<span class="val_pos">C/C++,&nbsp; Java,&nbsp; PHP,&nbsp; JavaScript,&nbsp; jQuery,&nbsp; HTML,&nbsp; CSS,&nbsp; SQL,&nbsp; Qt Framework </span>	<br/>
 	<span class="key_pos">Know About</span>	<span class="val_pos">Linux(Ubutu/Fedora/CentOS),&nbsp; ASM,&nbsp; MySQL,&nbsp; SQL Server,&nbsp; Oracle,	</span>
 	<span class="val_pos">Yaf Framework,&nbsp; VB,&nbsp; XML,&nbsp; Unity-3D </span>	<br/>
-<span class="key_pos">Tech Blog</span>	<span class="val_pos">	[icehe.gitcafe.com](http://icehe.gitcafe.io/)	( the same - [icehe.gitcafe.com](http://icehe.github.io/) )	</span>	<br/>
+<span class="key_pos">Tech Blog</span>	<span class="val_pos">	[icehe.github.com](http://icehe.github.io/)	( the same - [icehe.gitcafe.com](http://icehe.gitcafe.io/) )	</span>	<br/>
 <span class="key_pos">Github</span>	<span class="val_pos icon-github">	&nbsp;[github.com/IceHe](https://github.com/IceHe)	</span>	<br/><br/>
 #### **Leadership**
 ---

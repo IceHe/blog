@@ -1,0 +1,210 @@
+title: PHP empty() 和 isset() 的区别
+date: 2015-02-25 15:37:48
+tags: [TECH, coding]
+categories: [PHP]
+description: PHP empty() 和 isset() 的区别，以及 子问题：PHP 空字符串""、布尔值FALSE、空NULL 的区别。通过编程实例得到证。
+---
+<div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><b>子问题：</b><div>PHP 空字符串&quot;&quot;、布尔值FALSE、空NULL 的区别</div><div><br/></div><div>通过<b>编程求证，</b></div><div>以下是<b>显示的结果：</b></div><div>param=array(3) {<br/>
+&nbsp; [0]=&gt;<br/>
+&nbsp; string(0) &quot;&quot;<br/>
+&nbsp; [1]=&gt;<br/>
+&nbsp; bool(false)<br/>
+&nbsp; [2]=&gt;<br/>
+&nbsp; NULL<br/>
+}<br/>
+Remember that param[3] does not exist!<br/><br/><br/>
+empty 和 isset 的区别<br/>
+empty(&quot;&quot;)=bool(true)<br/>
+empty(FALSE)=bool(true)<br/>
+empty(NULL)=bool(true)<br/>
+empty(undefined)=bool(true)<br/><br/>
+isset(&quot;&quot;)=bool(true)<br/>
+isset(FALSE)=bool(true)<br/>
+isset(NULL)=bool(false)<br/>
+isset(undefined)=bool(false)<br/><br/><br/>
+调用不存在的参数发生的情况：<br/>
+(undefined param &apos;tmp&apos;)=PHP Notice:&nbsp; Undefined variable: tmp in C:\Users\IceHe\s<br/>
+cript\y.php on line 43<br/>
+NULL<br/>
+(param[3])=PHP Notice:&nbsp; Undefined offset: 3 in C:\Users\IceHe\script\y.php on li<br/>
+ne 45<br/>
+NULL<br/>
+以上运行结果，带有PHP的错误报告，是对不存在参数的提醒。<br/>
+调用不存在的参数实际得到是NULL<br/><br/>
+接下来关闭错误报告对于提醒Notice报告的显示。<br/><br/><br/>
+空字符串&quot;&quot;，布尔否FALSE，空NULL 之间的对比<br/>
+全等 ===<br/>
+&quot;&quot;===FALSE :bool(false)<br/>
+&quot;&quot;===NULL :bool(false)<br/>
+FALSE===NULL :bool(false)<br/><br/>
+等于 ==<br/>
+&quot;&quot;==FALSE :bool(true)<br/>
+&quot;&quot;==NULL :bool(true)<br/>
+FALSE==NULL :bool(true)<br/><br/>
+不全等 !==<br/>
+&quot;&quot;!==FALSE :bool(true)<br/>
+&quot;&quot;!==NULL :bool(true)<br/>
+FALSE!==NULL :bool(true)<br/><br/>
+不等于 !=<br/>
+&quot;&quot;!=FALSE :bool(false)<br/>
+&quot;&quot;!=NULL :bool(false)<br/>
+FALSE!=NULL :bool(false)<br/><br/><br/>
+!== 含义的探索<br/>
+TRUE!==FALSE :bool(true)<br/>
+&quot;abc&quot;!==&quot;xyz&quot; :bool(true)<br/>
+由以上结果可知!==含义为&quot;不全等&quot;，<br/>
+而非&quot;全不等！&quot;<br/><br/>
+string!==BOOLEAN :<br/>
+&quot;abc&quot;!==TRUE :bool(true)<br/>
+&quot;xyz&quot;!==FALSE :bool(true)<br/><br/>
+others!==NULL :<br/>
+&quot;abc&quot;!==NULL :bool(true)<br/>
+FALSE!==NULL :bool(true)<br/><br/><br/>
+不存在的参数 与 &quot;&quot;、FALSE、NULL 对比<br/>
+全等 ===<br/>
+(undefined)===&quot;&quot; :bool(false)<br/>
+(undefined)===FALSE :bool(false)<br/>
+(undefined)===NULL :bool(true)<br/><br/>
+等于 ==<br/>
+(undefined)==&quot;&quot; :bool(true)<br/>
+(undefined)==FALSE :bool(true)<br/>
+(undefined)==NULL :bool(true)<br/><br/>
+不全等 !==<br/>
+(undefined)!==&quot;&quot; :bool(true)<br/>
+(undefined)!==FALSE :bool(true)<br/>
+(undefined)!==NULL :bool(false)<br/><br/>
+不等于 !=<br/>
+(undefined)!=&quot;&quot; :bool(false)<br/>
+(undefined)!=FALSE :bool(false)<br/>
+(undefined)!=NULL :bool(false)</div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div><b>源代码：</b></div><div>&lt;?php<br/><br/>
+$param[0] = &quot;&quot;;<br/>
+$param[1] = FALSE;<br/>
+$param[2] = NULL;<br/>
+//$param[3] does not exist!<br/><br/>
+echo &quot;param=&quot;;<br/>
+var_dump($param);<br/>
+echo &quot;Remember that param[3] does not exist!\n&quot;;<br/>
+echo &quot;\n&quot;;<br/>
+echo &quot;\n&quot;;<br/><br/><br/><br/>
+echo &quot;empty 和 isset 的区别\n&quot;;<br/>
+echo &quot;empty(\&quot;\&quot;)=&quot;;<br/>
+var_dump(empty($param[0]));<br/>
+echo &quot;empty(FALSE)=&quot;;<br/>
+var_dump(empty($param[1]));<br/>
+echo &quot;empty(NULL)=&quot;;<br/>
+var_dump(empty($param[2]));<br/>
+echo &quot;empty(undefined)=&quot;;<br/>
+var_dump(empty($param[3]));<br/>
+echo &quot;\n&quot;;<br/><br/>
+echo &quot;isset(\&quot;\&quot;)=&quot;;<br/>
+var_dump(isset($param[0]));<br/>
+echo &quot;isset(FALSE)=&quot;;<br/>
+var_dump(isset($param[1]));<br/>
+echo &quot;isset(NULL)=&quot;;<br/>
+var_dump(isset($param[2]));<br/>
+echo &quot;isset(undefined)=&quot;;<br/>
+var_dump(isset($param[3]));<br/>
+echo &quot;\n&quot;;<br/>
+echo &quot;\n&quot;;<br/><br/><br/><br/>
+echo &quot;调用不存在的参数发生的情况：\n&quot;;<br/>
+echo &quot;(undefined param &apos;tmp&apos;)=&quot;;<br/>
+var_dump($tmp);<br/>
+echo &quot;(param[3])=&quot;;<br/>
+var_dump($param[3]);<br/>
+echo &quot;以上运行结果，带有PHP的错误报告，是对不存在参数的提醒。\n&quot;;<br/>
+echo &quot;调用不存在的参数实际得到是NULL\n&quot;;<br/>
+echo &quot;\n&quot;;<br/><br/>
+echo &quot;接下来关闭错误报告对于提醒Notice报告的显示。\n&quot;;<br/>
+error_reporting(E_ALL &amp; ~E_NOTICE);<br/>
+echo &quot;\n&quot;;<br/>
+echo &quot;\n&quot;;<br/><br/><br/><br/>
+echo &quot;空字符串\&quot;\&quot;，布尔否FALSE，空NULL 之间的对比\n&quot;;<br/>
+echo &quot;全等 ===\n&quot;;<br/>
+echo &quot;\&quot;\&quot;===FALSE :&quot;;<br/>
+var_dump(&quot;&quot;===FALSE);<br/>
+echo &quot;\&quot;\&quot;===NULL :&quot;;<br/>
+var_dump(&quot;&quot;===NULL);<br/>
+echo &quot;FALSE===NULL :&quot;;<br/>
+var_dump(FALSE===NULL);<br/>
+echo &quot;\n&quot;;<br/><br/>
+echo &quot;等于 ==\n&quot;;<br/>
+echo &quot;\&quot;\&quot;==FALSE :&quot;;<br/>
+var_dump(&quot;&quot;==FALSE);<br/>
+echo &quot;\&quot;\&quot;==NULL :&quot;;<br/>
+var_dump(&quot;&quot;==NULL);<br/>
+echo &quot;FALSE==NULL :&quot;;<br/>
+var_dump(FALSE==NULL);<br/>
+echo &quot;\n&quot;;<br/><br/>
+echo &quot;不全等 !==\n&quot;;<br/>
+echo &quot;\&quot;\&quot;!==FALSE :&quot;;<br/>
+var_dump(&quot;&quot;!==FALSE);<br/>
+echo &quot;\&quot;\&quot;!==NULL :&quot;;<br/>
+var_dump(&quot;&quot;!==NULL);<br/>
+echo &quot;FALSE!==NULL :&quot;;<br/>
+var_dump(FALSE!==NULL);<br/>
+echo &quot;\n&quot;;<br/><br/>
+echo &quot;不等于 !=\n&quot;;<br/>
+echo &quot;\&quot;\&quot;!=FALSE :&quot;;<br/>
+var_dump(&quot;&quot;!=FALSE);<br/>
+echo &quot;\&quot;\&quot;!=NULL :&quot;;<br/>
+var_dump(&quot;&quot;!=NULL);<br/>
+echo &quot;FALSE!=NULL :&quot;;<br/>
+var_dump(FALSE!=NULL);<br/>
+echo &quot;\n&quot;;<br/>
+echo &quot;\n&quot;;<br/><br/><br/><br/>
+echo &quot;!== 含义的探索\n&quot;;<br/>
+echo &quot;TRUE!==FALSE :&quot;;<br/>
+var_dump(TRUE!==FALSE);<br/>
+echo &quot;\&quot;abc\&quot;!==\&quot;xyz\&quot; :&quot;;<br/>
+var_dump(&quot;abc&quot;!==&quot;xyz&quot;);<br/>
+echo &quot;由以上结果可知!==含义为\&quot;不全等\&quot;，\n而非\&quot;全不等！\&quot;\n&quot;;<br/>
+echo &quot;\n&quot;;<br/><br/>
+echo &quot;string!==BOOLEAN :\n&quot;;<br/>
+echo &quot;\&quot;abc\&quot;!==TRUE :&quot;;<br/>
+var_dump(&quot;abc&quot;!==TRUE);<br/>
+echo &quot;\&quot;xyz\&quot;!==FALSE :&quot;;<br/>
+var_dump(&quot;xyz&quot;!==FALSE);<br/>
+echo &quot;\n&quot;;<br/><br/>
+echo &quot;others!==NULL :\n&quot;;<br/>
+echo &quot;\&quot;abc\&quot;!==NULL :&quot;;<br/>
+var_dump(&quot;abc&quot;!==NULL);<br/>
+echo &quot;FALSE!==NULL :&quot;;<br/>
+var_dump(FALSE!==NULL);<br/>
+echo &quot;\n&quot;;<br/>
+echo &quot;\n&quot;;<br/><br/><br/><br/>
+echo &quot;不存在的参数 与 \&quot;\&quot;、FALSE、NULL 对比\n&quot;;<br/>
+echo &quot;全等 ===\n&quot;;<br/>
+echo &quot;(undefined)===\&quot;\&quot; :&quot;;<br/>
+var_dump($param[3]===&quot;&quot;);<br/>
+echo &quot;(undefined)===FALSE :&quot;;<br/>
+var_dump($param[3]===FALSE);<br/>
+echo &quot;(undefined)===NULL :&quot;;<br/>
+var_dump($param[3]===NULL);<br/>
+echo &quot;\n&quot;;<br/><br/>
+echo &quot;等于 ==\n&quot;;<br/>
+echo &quot;(undefined)==\&quot;\&quot; :&quot;;<br/>
+var_dump($param[3]==&quot;&quot;);<br/>
+echo &quot;(undefined)==FALSE :&quot;;<br/>
+var_dump($param[3]==FALSE);<br/>
+echo &quot;(undefined)==NULL :&quot;;<br/>
+var_dump($param[3]==NULL);<br/>
+echo &quot;\n&quot;;<br/><br/>
+echo &quot;不全等 !==\n&quot;;<br/>
+echo &quot;(undefined)!==\&quot;\&quot; :&quot;;<br/>
+var_dump($param[3]!==&quot;&quot;);<br/>
+echo &quot;(undefined)!==FALSE :&quot;;<br/>
+var_dump($param[3]!==FALSE);<br/>
+echo &quot;(undefined)!==NULL :&quot;;<br/>
+var_dump($param[3]!==NULL);<br/>
+echo &quot;\n&quot;;<br/><br/>
+echo &quot;不等于 !=\n&quot;;<br/>
+echo &quot;(undefined)!=\&quot;\&quot; :&quot;;<br/>
+var_dump($param[3]!=&quot;&quot;);<br/>
+echo &quot;(undefined)!=FALSE :&quot;;<br/>
+var_dump($param[3]!=FALSE);<br/>
+echo &quot;(undefined)!=NULL :&quot;;<br/>
+var_dump($param[3]!=NULL);<br/>
+echo &quot;\n&quot;;<br/>
+echo &quot;\n&quot;;<br/><br/>
+system(&quot;pause&quot;);<br/><br/>
+?&gt;</div><div><br/></div><div><strong>Att - </strong><a title="Attachment 附件" href="http://7vzp67.com1.z0.glb.clouddn.com/PHP%20empty%28%29%20%E5%92%8C%20isset%28%29%20%E7%9A%84%E5%8C%BA%E5%88%AB/test_emptystr_false_null.php" target="_blank">test_emptystr_false_null.php</a><br/></div></div>
