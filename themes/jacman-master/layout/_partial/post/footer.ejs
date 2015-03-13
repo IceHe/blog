@@ -52,8 +52,9 @@
 	<!-- /form -->
 
 	<!-- btn_donate & tips -->
-	<div class="donate_bar">
-		<a class="btn_donate" name="donate" href="javascript:;" title="Donate 打赏" onclick="document.getElementById('donate').submit()"></a>
+	<div id="donate_board" class="donate_bar">
+		<!-- <a class="btn_donate" name="donate" href="javascript:;" title="Donate 打赏" onclick="document.getElementById('donate').submit()"></a> -->
+		<a id="btn_donate" class="btn_donate" href="javascript:;" title="Donate 打赏"></a>
 		<span class="donate_txt">
 			&uarr;<br/>
 			If you enjoy the article, please feel free to <span class="bold">donate~</span> Thx.<br/>
@@ -61,6 +62,39 @@
 		</span>
 	</div>
 	<!-- /btn_donate & tips -->
+	
+	<!-- donate guide -->
+	<div id="donate_guide" class="donate_bar" style="display: none;">
+		<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_00.jpg" title="Donate 打赏" height="164px" width="164px"/>
+		<span class="donate_txt">
+			&uarr;<br/>
+			Use App <span class="bold">Alipay</span>
+			to scan QRCode~ Thx for your support.<br/>
+			
+			用手机 <span class="bold">支付宝钱包</span>，
+			扫一扫即可~ 谢谢您的鼓励。<br/>
+			<br/>
+			
+			Or <a id="donate_on_web2" class="bold" href="javascript:donate_on_web();" title="Donate 打赏">click here</a> to donate on Web. /
+			
+			也可 <a id="donate_on_web1" class="bold" href="javascript:donate_on_web();" title="Donate 打赏">点击这里</a> 
+			在网页上打赏。<br/>
+		</span>
+	</div>
+	<!-- /donate guide -->
+	
+	<!-- donate script -->
+	<script type="text/javascript">
+		document.getElementById('btn_donate').onclick = function(){
+			$('#donate_board').attr('style', 'display: none;');
+			$('#donate_guide').attr('style', '');
+		}
+		
+		function donate_on_web(){
+			$('#donate').submit();
+		}
+	</script>
+	<!-- /donate script -->
 </div>
 <!-- /Donate Module -->
 

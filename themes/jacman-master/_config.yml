@@ -122,11 +122,14 @@ google_cse:
 ## title: search
 ## ---
 baidu_search:     ## http://zn.baidu.com/
-  enable: true
+  enable: false
   id: "8026609685000529645"	## e.g. "783281470518440642"  for your baidu search id
   site: http://zhannei.baidu.com/cse/search  ## your can change to your site instead of the default site
 baidu_search2:     ## http://zn.baidu.com/
-  enable: true
+  enable: false
   id: "915177976264389242"	## e.g. "783281470518440642"  for your baidu search id
   site: http://zhannei.baidu.com/cse/search  ## your can change to your site instead of the default site
-  
+tinysou:
+  enable: true
+  engineKeyGithub: "4b114b45fc7fe840f7cc"
+  engineKeyGitcafe: "1f746b2042ed54f07a8d"

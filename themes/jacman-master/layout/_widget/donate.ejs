@@ -1,7 +1,8 @@
-<!-- 打赏模块 -->
-<br/>
-<div class="donatepart">
+<!-- Donate Module -->
+	<br/>
 	<p class="asidetitle" style="display: none;">Donate 打赏</p>
+	
+	<!-- css -->
 	<style type="text/css">
 		.donate_bar{ text-align: center; }
 		.donate_bar a.btn_donate{
@@ -25,18 +26,21 @@
 		}
 		.bold{ font-weight: bold; }
 	</style>
-	<!-- 打赏表单 -->
+	<!-- /css -->
+	
+	<!-- form -->
 	<form id="donate" action="https://shenghuo.alipay.com/send/payment/fill.htm" method="POST" target="_blank" accept-charset="GBK" style="display: none;">
 		<input name="optEmail" type="hidden" value="ice_he@foxmail.com" />
 		<input name="payAmount" type="hidden" value="1.00" />
 		<input id="title" name="title" type="hidden" value="Donate to IceHe's blog. 打赏" />
 		<input name="memo" type="hidden" value="留下您的大名及联系方式(email,blog,etc)，多交流共勉共进：" />
 	</form>
-	<!-- /打赏表单 -->
+	<!-- /form -->
 
-	<!-- 打赏按钮 -->
-	<div class="donate_bar">
-		<a class="btn_donate" href="javascript:;" title="Donate 打赏" onclick="document.getElementById('donate').submit()"></a>
+	<!-- btn_donate & tips -->
+	<div id="donate_board_wdg" class="donate_bar">
+		<!-- <a id="btn_donate" class="btn_donate" href="javascript:;" title="Donate 打赏" onclick="document.getElementById('donate').submit()"></a> -->
+		<a id="btn_donate_wdg" class="btn_donate" href="javascript:;" title="Donate 打赏"></a>
 		<span class="donate_txt">
 			&uarr;<br/>
 			若本博客对您有帮助，
@@ -49,7 +53,40 @@
 			Thx for your support.
 		</span>
 	</div>
-	<!-- /打赏按钮 -->
-</div>
-<!-- /打赏模块 -->
-</div>
+	<!-- /btn_donate & tips -->
+	
+	<!-- donate guide -->
+	<div id="donate_guide_wdg" class="donate_bar" style="display: none;">
+		<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_00.jpg" title="Donate 打赏" height="164px" width="164px"/>
+		<span class="donate_txt">
+			&uarr;<br/>
+			用手机 <span class="bold">支付宝钱包</span>，
+			扫一扫即可~<br/>
+			谢谢您的鼓励。
+			
+			<br/>
+			Use App <span class="bold">Alipay</span>
+			to scan QRCode~<br/>
+			Thx for your support.<br/>
+			
+			<br/>
+			也可 <a id="donate_on_web1" class="bold" href="javascript:donate_on_web();" title="Donate 打赏">点击这里</a> 
+			在网页上打赏。<br/>
+			Or <a id="donate_on_web2" class="bold" href="javascript:donate_on_web();" title="Donate 打赏">click here</a> to donate on Web.
+		</span>
+	</div>
+	<!-- /donate guide -->
+		
+	<!-- donate script -->
+	<script type="text/javascript">
+		document.getElementById('btn_donate_wdg').onclick = function(){
+			$('#donate_board_wdg').attr('style', 'display: none;');
+			$('#donate_guide_wdg').attr('style', '');
+		}
+		
+		function donate_on_web(){
+			$('#donate').submit();
+		}
+	</script>
+	<!-- /donate script -->
+<!-- /Donate Module -->
