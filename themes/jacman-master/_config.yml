@@ -13,7 +13,8 @@ menu:
 ## ---
 
 #### Widgets
-widgets: 
+widgets:
+- site
 - category
 - tag
 # - tagcloud
@@ -30,10 +31,10 @@ rss: /atom.xml ## RSS address.
 #### Image
 imglogo:
   enable: true             ## display image logo true/false.
-  src: img/logo.png        ## `.svg` and `.png` are recommended,please put image into the theme folder `/jacman/source/img`.
-favicon: img/favicon.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/jacman/source/img`.     
-apple_icon: img/jacman.jpg ## size:114px*114px,please put image into the theme folder `/jacman/source/img`.
-author_img: img/author.jpg ## size:220px*220px.display author avatar picture.if don't want to display,please don't set this.
+  src: http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png	#img/logo.png        ## `.svg` and `.png` are recommended,please put image into the theme folder `/jacman/source/img`.
+favicon: http://7vzp68.com1.z0.glb.clouddn.com/common/favicon.ico	#img/favicon.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/jacman/source/img`.     
+apple_icon: http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg	#img/jacman.jpg ## size:114px*114px,please put image into the theme folder `/jacman/source/img`.
+author_img: http://7vzp68.com1.z0.glb.clouddn.com/common/author.jpg	#img/author.jpg ## size:220px*220px.display author avatar picture.if don't want to display,please don't set this.
 
 #### index post is expanding or not 
 index:
@@ -50,7 +51,7 @@ author:
   #tsina:							## e.g. 2176287895  Your weibo ID,It will be used in share button.
   douban:		IceHeGZ				## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
   #zhihu:		he-zhi-yuan-15		## e.g. jark  for http://www.zhihu.com/people/jark
-  email:		ice_he@foxmail.com	## e.g. imjark@gmail.com
+  email:		ice.he.hzy@gmail.com	## e.g. imjark@gmail.com
   #twitter:    	Ice_He_atPeking		## e.g. jarkwu for https://twitter.com/jarkwu
   github:		IceHe				## e.g. wuchong for https://github.com/wuchong
   #facebook:   	https://www.facebook.com/profile.php?id=100008252804677	## e.g. imjark for https://facebook.com/imjark
@@ -91,8 +92,12 @@ jiathis:
 #### Analytics
 google_analytics:
   enable: 	true
-  id:		UA-58773093-1	## e.g. UA-46321946-2 your google analytics ID.
-  site:      ## e.g. wuchong.me your google analytics site or set the value as auto.
+  id:  UA-60837823-1	## e.g. UA-46321946-2 your google analytics ID.
+  site:  auto	## e.g. wuchong.me your google analytics site or set the value as auto.
+google_analytics2:
+  enable: 	true
+  id:  UA-60837823-2	## e.g. UA-46321946-2 your google analytics ID.
+  site:  auto	## e.g. wuchong.me your google analytics site or set the value as auto.
 ## You MUST upgrade to Universal Analytics first!
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
 baidu_tongji:
@@ -133,3 +138,8 @@ tinysou:
   enable: true
   engineKeyGithub: "4b114b45fc7fe840f7cc"
   engineKeyGitcafe: "1f746b2042ed54f07a8d"
+  
+#### img图床 & att附件仓库
+repo:
+  img: http://7vzp68.com1.z0.glb.clouddn.com/
+  att: http://7vzp67.com1.z0.glb.clouddn.com/

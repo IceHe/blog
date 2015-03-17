@@ -79,7 +79,7 @@ description: Why 初衷、How 过程，Hexo Course 建站教程，Custom Points 
 - **404** 页面 —— [腾讯公益404](http://www.qq.com/404/)
 - **Domain name** 域名、设置DNS —— [教程](http://zipperary.com/2013/05/27/domain-name-and-dns/)，Goddady、dnspod.cn
 - **Bed room 图床**  —— 寄存图片，易上手的“[七牛](http://www.qiniu.com/)”、土豪和爱折腾者的“[又拍云](https://www.upyun.com/index.html)”
-- **Search 站内搜索** —— [Baidu 百度站内搜索](http://zhanzhang.baidu.com/guide/index) [ 指导：[hexo添加百度站内搜索](http://gengbiao.me/hexo/hexo%E6%B7%BB%E5%8A%A0%E7%99%BE%E5%BA%A6%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2/) ] 、[Google CSE](https://www.google.com/cse/)
+- **Search 站内搜索** —— [Baidu 百度站内搜索](http://zhanzhang.baidu.com/guide/index) [ 指导：[hexo添加百度站内搜索](http://gengbiao.me/hexo/hexo%E6%B7%BB%E5%8A%A0%E7%99%BE%E5%BA%A6%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2/) ] 、[Google CSE](https://www.google.com/cse/)、[微搜索](http://tinysou.com/)
 - **Site analysis** 网站分析服务 —— [百度统计](http://tongji.baidu.com/web/welcome/login)、[Google Analytics](http://www.google.com/analytics/)，可进行seo优化
 - **Sitemap** 站点地图 —— 使用上一条的网站分析服务后，主动提交sitemap到搜索引擎
 - **Speed optimize 访问速度优化** —— 手段繁多，[托管博客到gitcafe](http://zipperary.com/2013/11/23/hexo-to-gitcafe/)比较便捷

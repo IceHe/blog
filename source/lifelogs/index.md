@@ -15,4 +15,4 @@ date: 2014-11-08
 ---
 1. [一月：适应，北京。 Jan: adapt, Beijing.](/lifelogs/2015/01/index.html)
 2. [二月：压力，新年。 Feb: pressure, new year.](/lifelogs/2015/02/index.html)
-3. [三月：论文。 Mar: paper.](/lifelogs/2015/03/index.html)
+3. [三月：博客，论文。 Mar: paper.](/lifelogs/2015/03/index.html)

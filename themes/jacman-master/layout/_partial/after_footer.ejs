@@ -1,6 +1,14 @@
-<script src="<%- config.root %>js/jquery-2.0.3.min.js"></script>
-<script src="<%- config.root %>js/jquery.imagesloaded.min.js"></script>
-<script src="<%- config.root %>js/gallery.js"></script>
+<link href="//libs.cncdn.cn/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+<script id="jQueryLink" src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script> 
+<script type="text/javascript">
+	window.jQuery || document.write('<script src="<%- config.root %>js/jquery-2.0.3.min.js"><\/script>');
+</script>
+
+<!-- <script src="<%- config.root %>js/jquery.imagesloaded.min.js"></script> -->
+<!-- <script src="<%- config.root %>js/gallery.js"></script> -->
+<script src="<%= theme.repo.att %>js/jquery.imagesloaded.min.js"></script>
+<script src="<%= theme.repo.att %>js/gallery.js"></script>
 
 <script type="text/javascript">
 $(document).ready(function(){ 
@@ -125,7 +133,10 @@ $(document).ready(function(){
   })();
 </script> 
 <% } %>
-<% if( (config.disqus_shortname || theme.disqus_shortname)) { %>
+
+<!-- 下一行中加入了 false &&，阻止disqus的有关js脚本过早加载，优化网站的访问速度。
+	 现已在comment.ejs中重写了disqus的加载方式。 -->
+<% if( false && ((config.disqus_shortname || theme.disqus_shortname))) { %>
 <script type="text/javascript">
 <% if(config.disqus_shortname){ %>
 var disqus_shortname = '<%= config.disqus_shortname %>';

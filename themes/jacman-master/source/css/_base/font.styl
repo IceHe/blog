@@ -1,6 +1,7 @@
 /*! custom Font*/
 font-url(filename)
-  return '../font/' + filename
+  return 'http://7vzp67.com1.z0.glb.clouddn.com/fonts/' + filename
+  /*return '../font/' + filename*/
 
 customfont(family, filename)
   @font-face
@@ -13,7 +14,7 @@ customfont(family, filename)
     url(font-url(filename + '.woff')) format('woff'), 
     url(font-url(filename + '.ttf')) format('truetype')    
     
-customfont(font-custom-family,font-custom-filename)
+/*customfont(font-custom-family,font-custom-filename)*/
 
 /*! icon Font */
 iconfont(family, filename,font-icon-version)
@@ -27,6 +28,5 @@ iconfont(family, filename,font-icon-version)
          url(font-url(filename + ".ttf?v=#" + font-icon-version)) format("truetype"),
          url(font-url(filename + ".svg#fontawesomeregular?v=#" + font-icon-version)) format("svg")
 
-iconfont(font-icon-family,font-icon-filename,font-icon-version)
-
+/*iconfont(font-icon-family,font-icon-filename,font-icon-version)*/
 customfont(font-icon-diao,font-icon-diao-filename)

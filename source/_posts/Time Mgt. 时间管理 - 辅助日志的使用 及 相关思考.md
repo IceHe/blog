@@ -6,6 +6,8 @@ description: Explanations for Log Format - 日志记录格式说明。Pricinples
 ---
 **原标题**：《Explanations for Log Format - 日志记录格式说明》
 
+- **注**: *笔者的 日志记录格式 一直在 根据实际使用需求 进行调整，可能最近的日志 会与本文描述 有所不同。*
+
 ## Intro 引言
 1. 本文为 笔者的 时间使用情况**统计日志** 的 **格式说明**。
 2. 为笔者的 **时间管理经验** 作 **个人总结**，以资自勉。

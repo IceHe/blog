@@ -1,13 +1,30 @@
 <% if (theme.google_analytics.enable){ %>
 <script type="text/javascript">
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', '<%= theme.google_analytics.id %>', '<%= theme.google_analytics.site %>');  
-ga('send', 'pageview');
+if(-1 != location.href.indexOf("icehe.github.io")){
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', '<%= theme.google_analytics.id %>', '<%= theme.google_analytics.site %>');  
+	ga('send', 'pageview');
+}
 </script>
 <% } %>
+
+<% if (theme.google_analytics2.enable){ %>
+<script type="text/javascript">
+if(-1 != location.href.indexOf("icehe.gitcafe.io")){
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', '<%= theme.google_analytics2.id %>', '<%= theme.google_analytics2.site %>');  
+	ga('send', 'pageview');
+}
+</script>
+<% } %>
+
+
 
 <div style="display: none;">
 
@@ -30,6 +47,7 @@ if(-1 != location.href.indexOf("icehe.gitcafe.io")){
 <% } %>
 
 </div>
+
 
 <% if (theme.cnzz_tongji.enable){ %>
 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_<%= theme.cnzz_tongji.siteid %>'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s23.cnzz.com/z_stat.php%3Fid%3D<%= theme.cnzz_tongji.siteid %>' type='text/javascript'%3E%3C/script%3E"));</script>

@@ -3,6 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <%
+  var google_site_verification = '';
+  if(config.url == 'http://icehe.github.io'){
+	google_site_verification = config.google_analytics.github;
+  }else if(config.url == 'http://icehe.gitcafe.io'){
+	google_site_verification = config.google_analytics.gitcafe;
+  }
+  
   var title = page.title;
 
   if (is_archive()){
@@ -47,6 +54,11 @@
     <% } %>
     <%- css('css/style') %>
 	
-	<!-- 百度站内搜索 for github -->
+	<!-- 百度站内搜索 for github站 -->
 	<meta name="baidu-site-verification" content="HpoaJokwfB" />
+	
+	<!-- 谷歌站长工具 元标签验证码 -->
+	<meta name="google-site-verification" content="<%= google_site_verification %>" />
+	
+	<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>

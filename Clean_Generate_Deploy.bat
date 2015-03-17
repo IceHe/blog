@@ -1,3 +1,5 @@
+@title Hexo - Clean, Generate, Deploy to Gitcafe ^& Github
+
 @echo 处理过程中 请勿“中断”，否则将引起 _config.yml 文件的错误！
 @echo.
 @echo [ Press any key to Execute! ] & pause > nul
