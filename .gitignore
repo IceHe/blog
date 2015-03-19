@@ -6,3 +6,5 @@ node_modules/
 public/
 .deploy/
 /.deploy_git
+/themes/jacman
+/themes/jacman-master

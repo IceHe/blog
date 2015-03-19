@@ -20,16 +20,17 @@ Reference 参考资料：
 方便 您的访客、用户 转账捐赠、打赏您。
 
 <br/>**HTML 代码**：
-
-	<form action="https://shenghuo.alipay.com/send/payment/fill.htm"
-		method="POST" target="_blank" accept-charset="GBK">
-		<input name="optEmail" type="hidden" value="你的支付宝账号" />
-		<input name="payAmount" type="hidden" value="默认的捐赠金额" />
-		<input id="title" name="title" type="hidden" value="默认显示的付款说明" />
-		<input name="memo" type="hidden" value="备注" />
-		<input name="pay" type="image" value="转账"
-			src="https://img.alipay.com/sys/personalprod/style/mc/btn-index.png" />
-	</form>
+```html
+<form action="https://shenghuo.alipay.com/send/payment/fill.htm"
+	method="POST" target="_blank" accept-charset="GBK">
+	<input name="optEmail" type="hidden" value="你的支付宝账号" />
+	<input name="payAmount" type="hidden" value="默认的捐赠金额" />
+	<input id="title" name="title" type="hidden" value="默认显示的付款说明" />
+	<input name="memo" type="hidden" value="备注" />
+	<input name="pay" type="image" value="转账"
+		src="https://img.alipay.com/sys/personalprod/style/mc/btn-index.png" />
+</form>
+```
 
 *注意： 修正 其中 需要您填写的部分。*
 
@@ -39,7 +40,7 @@ Reference 参考资料：
 #### 笔者的 自定义的 “打赏”按钮
 ---
 <br/>**HTML 代码**：
-
+```html
 	<!-- 打赏表单 -->
 	<form id="donate" action="https://shenghuo.alipay.com/send/payment/fill.htm" 
 		method="POST" target="_blank" accept-charset="GBK" style="display: none;">
@@ -84,7 +85,7 @@ Reference 参考资料：
 		</span>
 	</div>
 	<!-- /打赏按钮 -->
-
+```
 - 注意： *本博客的 打赏按钮 的 实际代码 根据需求 会不断进行调整，有别于 以上代码。
 	所以，建议使用 Chrome的 审查元素、FireFox的 FireBug插件，对本博客的打赏按钮 自行研究。 *
 

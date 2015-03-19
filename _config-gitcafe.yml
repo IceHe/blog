@@ -80,7 +80,7 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: jacman-master #metro-light-master
+theme: jacman	#jacman-master
 exclude_generator: #它指的就是Plugins
 - hexo-generator-feed
 - hexo-generator-sitemap
