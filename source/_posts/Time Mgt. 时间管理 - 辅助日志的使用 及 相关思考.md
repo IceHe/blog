@@ -21,7 +21,7 @@ description: Explanations for Log Format - 日志记录格式说明。Pricinples
 ## Time Granularity 时间粒度
 用于 时间管理 的 “**时间粒度**” 据笔者个人 实践经验 定为：
 
-    30 minutes = 0.5 hour
+	30 minutes = 0.5 hour
 
 * **注**：*时间粒度 —— 时间管理 的 统计单位（笔者定义)*
 

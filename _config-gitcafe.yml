@@ -8,7 +8,7 @@ subtitle: Less is more. 寧靜致遠。
 description: IceHe 何志远 blog 博客 software development IT tech 软件 开发 技术 record life 记录 人生 生活
 author: Ice He 何志远
 email: ice.he.hzy@gmail.com
-language: en_US #zh-CN
+language: default
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -34,6 +34,7 @@ filename_case: 0
 render_drafts: false
 post_asset_folder: false
 relative_link: false
+#highlight is customed in the theme's _config.yml
 highlight:
   enable: true
   line_number: true

@@ -181,7 +181,9 @@ $(document).ready(function(){
   }); 
 </script>
 <% } %>
-<% if ((page.layout=='post'||page.layout=='page'||page.layout=='photo')&&theme.fancybox){ %>
+<% if (theme.fancybox){ %>
+<!-- 原条件为：(page.layout=='post'||page.layout=='page'||page.layout=='photo')&&theme.fancybox
+	 如此修改是为了：在首页也能使用fancybox -->
 <link rel="stylesheet" href="<%- config.root %>fancybox/jquery.fancybox.css" media="screen" type="text/css">
 <script src="<%- config.root %>fancybox/jquery.fancybox.pack.js"></script>
 <script type="text/javascript">

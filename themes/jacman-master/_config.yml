@@ -143,3 +143,10 @@ tinysou:
 repo:
   img: http://7vzp68.com1.z0.glb.clouddn.com/
   att: http://7vzp67.com1.z0.glb.clouddn.com/
+
+#原属性在icehe.blog.hexo下的_config.yml中，为了避免某bug，移到了这里。
+#某bug详情：http://wuchong.me/blog/2015/03/12/support-jacman-to-Hexo-3/
+highlight:
+  enable: true
+  line_number: true
+  tab_replace:
