@@ -1,5 +1,5 @@
 # icehe.blog.hexo
-Personal Blog - http://icehe.github.io
+Personal Blog - http://icehe.me
 
 Here are the blog generator configuration files.
 

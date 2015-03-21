@@ -6,4 +6,4 @@
 
 call php _config_sync.php
 
-copy /y _config-gitcafe.yml _config.yml && hexo clean && hexo g && hexo d && copy /y _config-github.yml _config.yml && echo [ pause ] & pause > nul
+copy /y _config-gitcafe.yml _config.yml && del .\source\CNAME && hexo clean && hexo g && hexo d && copy /y _config-github.yml _config.yml && copy /y CNAME .\source && echo [ pause ] & pause > nul

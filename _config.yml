@@ -12,7 +12,7 @@ language: default
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://icehe.github.io #http://icehe.gitcafe.io
+url: http://icehe.me #http://icehe.gitcafe.io
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
