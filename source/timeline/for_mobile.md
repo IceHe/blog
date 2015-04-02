@@ -1,4 +1,4 @@
-title: My Life Timeline
+title: My Life Timeline (for Mobile)
 date: 2015-01-24 19:07:58
 toc: false
 ---
