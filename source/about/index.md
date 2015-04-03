@@ -21,11 +21,11 @@ toc: false
 <br/>
 #### **Head Portrait**
 ---
-<br/>	<div class="center_div">	<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_00.jpg" class="pic_styl" />	<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_01a.jpg" class="pic_styl" />	<img id="qr_code" src="http://7vzp68.com1.z0.glb.clouddn.com/about/qrcode_01.jpg" class="pic_styl" />	<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" class="pic_styl" />	<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_03a.jpg" class="pic_styl" />
+<br/>	<div class="center">	<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_00.jpg" class="pic_styl" />	<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_01a.jpg" class="pic_styl" />	<img id="qr_code" src="http://7vzp68.com1.z0.glb.clouddn.com/about/qrcode_01.jpg" class="pic_styl" />	<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" class="pic_styl" />	<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_03a.jpg" class="pic_styl" />
 </div>
-<div id="more" class="center_div"> <i class="fa fa-toggle-down">&nbsp;</i>	<a href="#Social_Network" onclick="">Know more ...</a>	</div>
-<div id="life_img" class="center_div hidden">
+<div id="more" class="center"> <i class="fa fa-toggle-down">&nbsp;</i>	<a href="#Social_Network" onclick="">Know more ...</a>	</div>
+<div id="life_img" class="center hidden">
 	<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/dorm_00.jpg" style="height: 550px; width: 413;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/jianqiu_00.jpg" style="height: 550px; width: 413;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/memorable_00.jpg" style="height: 320px;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/handicraft_00.jpg" style="height: 320px;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/perform_00.jpg" style="height: 335px;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/jianqiu_01.gif" style="height: 335px;" />
 </div>
-<style type="text/css">	.key_pos{position: absolute; right: 75%; text-align: left;}	.val_pos{position: absolute; left: 27%;}	.hidden{display: none;}	.red{color: gray;}	article img.pic_styl{height: 165px; width: auto; margin-right: 10px;}	.center_div{text-align: center;}	</style>
+<style type="text/css">	.key_pos{position: absolute; right: 75%; text-align: left;}	.val_pos{position: absolute; left: 27%;}	.red{color: gray;}	article img.pic_styl{height: 165px; width: auto; margin-right: 10px;}	</style>
 <script src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>	<script type="text/javascript">$('#more').click(function(){$('#another_weibo').removeClass('hidden'); $('#life_img').removeClass('hidden'); $(this).addClass('hidden');}); </script>

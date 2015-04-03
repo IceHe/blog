@@ -51,7 +51,7 @@ date: 2015-01-24 00:26:55
 	<p class="key_pos fill">-----------------</p>	<p class="val_pos">	<i class="fa fa-pencil-square-o">&nbsp; </i>	写作 —— 经历、经验、生活、感悟 - Prev Blog [ <i class="fa fa-qq">&nbsp; </i>[ 飘。Gone with the wind. ](http://290841032.qzone.qq.com)]	</p>	<br/>
 <p class="key_pos"><span class="fill">----------</span>Contact</p>	<p class="val_pos">	<i class="fa fa-envelope">&nbsp;</i>	[ice.he.hzy@gmail.com](mailto:ice.he.hzy@gmail.com)	</p>
 <br/>
-<style type="text/css">	article .article-content p.key_pos{text-align: left; margin-left: 2%; display: inline;}	.val_pos{margin-left: 3%; display: inline;}	span.fill, p.fill{color: transparent; display: inline;};	.hidden{display: none;}	</style>
+<style type="text/css">	article .article-content p.key_pos{text-align: left; margin-left: 2%; display: inline;}	.val_pos{margin-left: 3%; display: inline;}	span.fill, p.fill{color: transparent; display: inline;};	</style>
 <script type="text/javascript">
 	function isPC(){
 		var userAgentInfo = navigator.userAgent;

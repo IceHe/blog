@@ -53,7 +53,6 @@ Reference 参考资料：
 
 	<!-- 打赏按钮的样式表 -->
 	<style type="text/css">
-		.donate_bar{ text-align: center; }
 		.donate_bar a.btn_donate{
 			display: inline-block;
 			width: 82px;
