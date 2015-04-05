@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Ice He. 何志遠
-subtitle: Less is more. 寧靜致遠。
+title: Ice He 何志遠
+subtitle: Less is more.   寧靜致遠。
 description: IceHe 何志远 blog 博客 software development IT tech 软件 开发 技术 record life 记录 人生 生活
 author: Ice He 何志远
 email: ice.he.hzy@gmail.com
@@ -66,7 +66,7 @@ logger_format: dev
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY MMM D
+date_format: YYYY MMM DD
 time_format: H:mm:ss
 
 # Pagination
