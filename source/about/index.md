@@ -16,7 +16,7 @@ toc: false
 <span class="key_pos">Githud</span>	<span class="val_pos">	<i class="fa fa-github">&nbsp;</i>	[Ice He](http://github.com/IceHe)	</span>
 <span class="key_pos">Weibo</span>		<span class="val_pos"> <i class="fa fa-weibo">&nbsp;</i>	[IceHe何志远](http://weibo.com/2181657940/)<span id="another_weibo" class="hidden">、&nbsp;[华工Ice是北漂的IT民工](#)</span>	</span>
 <span class="key_pos">Douban</span>	<span class="val_pos icon-douban">	&nbsp;[豆瓣](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count) </span>
-<span class="key_pos">WeChat</span>	<span class="val_pos">	<i class="fa fa-wechat">&nbsp;</i> <a href="javascript:void(0);" onclick="document.getElementById('qr_code_tip').className='red';">IceHooo</a>	<span id="qr_code_tip" class="hidden" style="margin-left:10px">**Scan QR Code** to Add me on WeChat <i class="fa fa-arrow-down"></i></span>	</span>
+<span class="key_pos">WeChat</span>	<span class="val_pos">	<i class="fa fa-wechat">&nbsp;</i> <a href="javascript:;" target="_top" onclick="document.getElementById('qr_code_tip').className='red';">IceHooo</a>	<span id="qr_code_tip" class="hidden" style="margin-left:10px">**Scan QR Code** to Add me on WeChat <i class="fa fa-arrow-down"></i></span>	</span>
 <span class="key_pos">Resume</span><span class="val_pos"> <i class="fa fa-file">&nbsp;</i>	[ Resume ](/resume)	&nbsp;&nbsp; <i class="fa fa-send">&nbsp;</i>	[ Timeline ](/timeline)	</span>
 <br/>
 #### **Head Portrait**
