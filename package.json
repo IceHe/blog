@@ -1,12 +1,12 @@
 {
   "hexo": {
-    "version": "3.0.0"
+    "version": "3.1.1"
   },
   "name": "hexo-site",
   "version": "3.0.0",
   "private": true,
   "dependencies": {
-    "hexo": "^3.0.0",
+    "hexo": "^3.1.1",
     "hexo-deployer-git": "0.0.3",
     "hexo-deployer-heroku": "0.0.3",
     "hexo-deployer-openshift": "0.0.1",
