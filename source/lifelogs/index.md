@@ -3,7 +3,7 @@ date: 2014-11-08
 ---
 ####Related
 ---
-* [**Archives - 文章归档 （按时间排序）**](/archives/)
+* [**Archives - 文章归档**&nbsp; (Sorted By Time)](/archives/)
 * [ My Life Timeline - 我的时间轴 ](/timeline)
 * [Explanations for Log Format - 日志记录格式的说明](/2015/03/02/Time%20Mgt.%20时间管理%20-%20辅助日志的使用%20及%20相关思考/#Log_Instance_日志实例)
 

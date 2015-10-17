@@ -5,11 +5,14 @@ toc: false
 ##### **Software**
 ---
 
-&nbsp;	**华工软件工程个人毕业设计 - [基于安全测量的安全管理系统](https://github.com/IceHe/SecureMgtSystemBasedOnSecureMeasurement)**	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	*2015.03 ~ 2015.05*
+
+&nbsp;	**微梦创科网络技术有限公司 - 手机微博 - 服务端研发工程师**	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	*2015.12 ~ Now*
+- About - PHP, MySQL, Yaf Framework	<br/>
+&nbsp;	**毕业设计 - [基于安全测量的安全管理系统](https://github.com/IceHe/SecureMgtSystemBasedOnSecureMeasurement)**	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	*2015.03 ~ 2015.05*
 - 包括：[安全测量模块](https://github.com/IceHe/Dimm)（可加载内核模块）、[安全管理系统](https://github.com/IceHe/SecureMonitor)（Qt GUI）。
 - 原理：用 SHA-1 分别计算进程在内存中的代码段与参数段，
 - 得出定长的信息摘要作为特征值（方便比对），去比对标准特征值，
-- 便可判断进程是否被篡改，或程序是否被替换（小把戏罢了…）。
+- 便可判断进程是否被篡改，或程序是否被替换。
 - About - C, C++, Qt Framework, CentOS 7, Loadable Kernel Module	<br/>
 &nbsp;	**<span class="icon-weibo">&nbsp;</span>微梦创科网络技术有限公司 - 手机微博 - 服务端研发 Intern.**	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	*2014.12 ~ 2015.02*
 - 手机微博管理后台v5 - 部分功能
@@ -21,8 +24,9 @@ toc: false
 - 华工教学云平台 - 使用Qt开发其Windows客户端，及Linux服务端程序中与客户端交互的部分
 - About - C++, Linux, C++ Qt Framework	<br/>
 <hr/><br/>**Proficient in** &nbsp;	&nbsp;	None.
-**Familiar with** &nbsp;	C/C++,&nbsp; Java,&nbsp; PHP,&nbsp; JavaScript,&nbsp; jQuery,&nbsp; HTML,&nbsp; CSS,&nbsp; SQL,&nbsp; Qt Framework
-**Know about** &nbsp;	&nbsp;	Mac OS,&nbsp; Linux(Ubutu/CentOS),&nbsp; ASM,&nbsp; MySQL,&nbsp; SQL Server,&nbsp; Oracle,&nbsp; Yaf Framework,&nbsp; VB,&nbsp; XML,&nbsp; Unity-3D,&nbsp; Loadable Kernel Module	<br/>
+**Familiar with** &nbsp;	PHP,&nbsp; C/C++,&nbsp; Java,&nbsp; JavaScript,&nbsp; jQuery,&nbsp; HTML,&nbsp; CSS,&nbsp; SQL,&nbsp; Qt Framework
+**Know about** &nbsp;	&nbsp;	Mac OS,&nbsp; Linux(Ubutu/CentOS),&nbsp; ASM,&nbsp; MySQL,&nbsp; SQL Server,&nbsp; Oracle,&nbsp; Yaf Framework,&nbsp; VB,&nbsp; XML,&nbsp; Unity-3D,&nbsp; Loadable Kernel Module
+**Tools** &nbsp; Vim,  tmux,  oh-my-zsh,  iTerm2,  Git,  Mac OS,  Firefox,  Shadowsocks,  Evernote,  Doit.im<br/>
 **Tech Blog** &nbsp;	&nbsp;	<i class="fa fa-cube"> &nbsp;</i>[icehe.me](http://icehe.github.io/)
 **Github**  &nbsp;	&nbsp;  &nbsp;	&nbsp;	&nbsp;	<i class="fa fa-github"> &nbsp;</i>[github.com/IceHe](https://github.com/IceHe)
 <br/><br/>
@@ -33,12 +37,12 @@ toc: false
 - 承办“2013全球创业周中国站《创业课堂》高校巡讲-华工站”活动，
 - 邀请到零点研究咨询集团董事长兼CEO袁岳先生作主讲嘉宾；
 - 参加2013年第三届全球创业周中国站校园伙伴高峰论坛（上海）、
-- 第三届梦想Safari素质教育论坛	<br/>
+- 第三届梦想Safari素质教育论坛（珠海）	<br/>
 **华南理工毽球社 - 社长**	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	*2012.09 ~ 2014.06*
 - 广东省第十五届高校杯毽球邀请赛 - 男子团体第七名（7/32）
 - 广东省第六届大学生毽球精英挑战赛 - 男子团体16强
 - 广东省第十六届高校杯毽球邀请赛 - 男子团体16强
-- 2011至2014年广州大学城毽球联赛分获第二名、第三名、第二名、第三名	
+- 2011至2014年广州大学城毽球联赛分获第二、第三、第二、第三	
 - 2011华工院际赛第一名；2013至2015华工双人毽球争霸赛分获第一、第二、第一名	<br/>
 **优职英才（北京）教育科技公司 - 市场部 - Intern.**	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	*2011.07 ~ 2012.12*
 - About - 校园活动的筹划执行、品牌推广、微博营销号运营、文案	

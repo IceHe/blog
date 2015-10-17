@@ -36,3 +36,4 @@ toc: false
 28. [15/06/28 stu36 joy42](/lifelogs/2015/06/d28.html)
 29. [15/06/29 stu34 joy41](/lifelogs/2015/06/d29.html)
 30. [15/06/30 stu25 spo16](/lifelogs/2015/06/d30.html)
+31. **[2015/06 Time Statistics](/lifelogs/2015/06/time_stat.html)**
