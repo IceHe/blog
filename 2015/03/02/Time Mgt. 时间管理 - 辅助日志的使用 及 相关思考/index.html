@@ -1,0 +1,1208 @@
+
+ <!DOCTYPE HTML>
+<html lang="default">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考 | Ice He 何志遠</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="IceHe何志远">
+    
+    <meta name="description" itemprop="description" content="Explanations for Log Format - 日志记录格式说明。Pricinples 原则，Transaction Category 事务类别，Time Granularity 时间粒度，Log Instance 日志实例，Schedule Plan 日程规划，Thoughts about Time Management 关于时间管理的思考。">
+    
+    
+    <meta name="description" content="Explanations for Log Format - 日志记录格式说明。Pricinples 原则，Transaction Category 事务类别，Time Granularity 时间粒度，Log Instance 日志实例，Schedule Plan 日程规划，Thoughts about Time Management 关于时间管理的思考。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考">
+<meta property="og:url" content="http://icehe.me/2015/03/02/Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考/index.html">
+<meta property="og:site_name" content="Ice He 何志遠">
+<meta property="og:description" content="Explanations for Log Format - 日志记录格式说明。Pricinples 原则，Transaction Category 事务类别，Time Granularity 时间粒度，Log Instance 日志实例，Schedule Plan 日程规划，Thoughts about Time Management 关于时间管理的思考。">
+<meta property="og:updated_time" content="2015-03-19T04:05:04.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考">
+<meta name="twitter:description" content="Explanations for Log Format - 日志记录格式说明。Pricinples 原则，Transaction Category 事务类别，Time Granularity 时间粒度，Log Instance 日志实例，Schedule Plan 日程规划，Thoughts about Time Management 关于时间管理的思考。">
+
+    
+    <link rel="alternative" href="/atom.xml" title="Ice He 何志遠" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon.ico">
+	<!-- <link rel="icon" href="/http://7vzp68.com1.z0.glb.clouddn.com/common/favicon.ico"> -->
+    
+    
+    <link rel="apple-touch-icon" href="/http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+	
+	<!-- 百度站内搜索 for github站 -->
+	<meta name="baidu-site-verification" content="HpoaJokwfB" />
+	
+	<!-- 谷歌站长工具 元标签验证码 -->
+	<meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
+	
+	<!-- Google Fonts from 360 CDN -->
+	<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	
+	<!-- Common CSS -->
+	<style type="text/css">
+		.center{ text-align: center; }
+		.hidden{ display: none;	}
+		span.hitokoto a{ color: white; } // for 一言
+	</style>
+	
+	<!-- font-awesome -->
+	<link href="//libs.cncdn.cn/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	
+	<!-- 一言 -->
+	<script type="text/javascript" src="http://api.hitokoto.us/rand?encode=js&charset=utf-8"></script>
+</head>
+
+  <body>
+    <header>
+      <div>
+		
+			<div id="imglogo">
+				<a href="/">
+					<!-- <img src="/http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="Ice He 何志遠" title="Ice He 何志遠"/> -->
+					<img src="http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="Ice He 何志遠" title="Ice He 何志遠"/>
+				</a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="Ice He 何志遠">Ice He 何志遠</a></h1>
+				<h2 class="blog-motto">Less is more.   寧靜致遠。</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="Menu">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">Articles 文章</a></li>
+					
+						<li><a href="/lifelogs">Life Logs 轨迹</a></li>
+					
+						<li><a href="/about">About 我</a></li>
+					
+					<li>
+ 					
+						
+						<form class="search">
+							<label>Search</label>
+							<input id="ts-search-input" type="text" name="q" size="30" placeholder="Search"><br>
+						</form>
+						
+						<script>
+							var option = null;
+							if(-1 != location.href.indexOf("icehe.me")){
+								option = {
+									engineKey: '4b114b45fc7fe840f7cc'
+								};
+							}else if(-1 != location.href.indexOf("icehe.gitcafe.io")){
+								option = {
+									engineKey: '1f746b2042ed54f07a8d'
+								};
+							}
+							
+							(function(w,d,t,u,n,s,e){
+								s = d.createElement(t);
+								s.src = u;
+								s.async = 1;
+								w[n] = function(r){
+									w[n].opts = r;
+								};
+								e = d.getElementsByTagName(t)[0];
+								e.parentNode.insertBefore(s, e);
+							})(window,document,'script','//tinysou-cdn.b0.upaiyun.com/ts.js','_ts');
+							_ts(option);
+						</script>
+						
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name" class="article-title">
+    
+      <a href="/2015/03/02/Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考/" title="Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考" itemprop="url" class="article-url">Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="http://icehe.me/about" title="IceHe何志远" target="_blank" itemprop="author">IceHe何志远</a>
+		
+  <p class="article-time">
+    <time datetime="2015-03-01T16:00:00.000Z" itemprop="datePublished"> Published 2015 Mar 02</time>
+  </p>
+  <p class="article-readtimes">
+    Read ( <span class="readtimes">x</span> )
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">Contents</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Intro_引言"><span class="toc-number">1.</span> <span class="toc-text">Intro 引言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pricinples_原则"><span class="toc-number">2.</span> <span class="toc-text">Pricinples 原则</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Time_Granularity_时间粒度"><span class="toc-number">3.</span> <span class="toc-text">Time Granularity 时间粒度</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#时间粒度为_30min_的原因"><span class="toc-number">3.1.</span> <span class="toc-text">时间粒度为 30min 的原因</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#记录、统计方便"><span class="toc-number">3.1.1.</span> <span class="toc-text">记录、统计方便</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#鼓励集中一段时间专心处理一件事务"><span class="toc-number">3.1.2.</span> <span class="toc-text">鼓励集中一段时间专心处理一件事务</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#循序渐进（日后或减小粒度）"><span class="toc-number">3.1.3.</span> <span class="toc-text">循序渐进（日后或减小粒度）</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Transaction_Category_事务类别"><span class="toc-number">4.</span> <span class="toc-text">Transaction Category 事务类别</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#四象限_时间管理方法"><span class="toc-number">4.1.</span> <span class="toc-text">四象限 时间管理方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#六类事务"><span class="toc-number">4.2.</span> <span class="toc-text">六类事务</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Log_Instance_日志实例"><span class="toc-number">5.</span> <span class="toc-text">Log Instance 日志实例</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#日志标题"><span class="toc-number">5.1.</span> <span class="toc-text">日志标题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#主要任务列表"><span class="toc-number">5.2.</span> <span class="toc-text">主要任务列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#记录简表"><span class="toc-number">5.3.</span> <span class="toc-text">记录简表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#记录细表"><span class="toc-number">5.4.</span> <span class="toc-text">记录细表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#事务限制表"><span class="toc-number">5.5.</span> <span class="toc-text">事务限制表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#每日总结统计表"><span class="toc-number">5.6.</span> <span class="toc-text">每日总结统计表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#随笔记录"><span class="toc-number">5.7.</span> <span class="toc-text">随笔记录</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#周_/_月_统计表"><span class="toc-number">5.8.</span> <span class="toc-text">周 / 月 统计表</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Schedule_Plan_日程规划"><span class="toc-number">6.</span> <span class="toc-text">Schedule Plan 日程规划</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Thoughts_about_Time_Mgt-_关于时间管理的感想"><span class="toc-number">7.</span> <span class="toc-text">Thoughts about Time Mgt. 关于时间管理的感想</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Epilog_结语"><span class="toc-number">7.1.</span> <span class="toc-text">Epilog 结语</span></a></li></ol></li></ol>
+		
+		</div>
+		
+		<p><strong>原标题</strong>：《Explanations for Log Format - 日志记录格式说明》</p>
+<ul>
+<li><strong>注</strong>: <em>笔者的 日志记录格式 一直在 根据实际使用需求 进行调整，可能最近的日志 会与本文描述 有所不同。</em></li>
+</ul>
+<h2 id="Intro_引言">Intro 引言</h2><ol>
+<li>本文为 笔者的 时间使用情况<strong>统计日志</strong> 的 <strong>格式说明</strong>。</li>
+<li>为笔者的 <strong>时间管理经验</strong> 作 <strong>个人总结</strong>，以资自勉。</li>
+<li>且为渐改 笔者过去 冗余繁杂 的 抒情行文风格，藉机练笔，以增 条理性，<strong>以臻</strong> 简洁有当 的 <strong>严谨文风</strong>。</li>
+</ol>
+<h2 id="Pricinples_原则">Pricinples 原则</h2><ol>
+<li><strong>简便</strong> —— 记录方式 简单、便捷。</li>
+<li><strong>适度</strong> —— 记录规则 不过于繁杂，避免 造成负担；也不过于简单，以便 数据分析、重用。</li>
+<li><strong>适用</strong> —— 符合使用者的 实际需求，可从 不断实践、反思中，得以改进。</li>
+</ol>
+<h2 id="Time_Granularity_时间粒度">Time Granularity 时间粒度</h2><p>用于 时间管理 的 “<strong>时间粒度</strong>” 据笔者个人 实践经验 定为：</p>
+<pre><code><span class="attribute">30 minutes </span>=<span class="string"> 0.5 hour</span>
+</code></pre><ul>
+<li><strong>注</strong>：<em>时间粒度 —— 时间管理 的 统计单位（笔者定义)</em></li>
+</ul>
+<h3 id="时间粒度为_30min_的原因"><strong>时间粒度为 30min 的原因</strong></h3><p>对笔者而言，1、10、15min 等 时间粒度过小，30min 则较为适用，因为：</p>
+<ol>
+<li><h4 id="记录、统计方便">记录、统计方便</h4><p> <strong>(a)</strong> 30min 的粒度易于 以每小时的整点与半点为界，<strong>等分一日的时间</strong>。<br> 方便 规划日程、统计 时间使用情况等。</p>
+<p> <strong>(b)</strong> 有对时间统计进行 适当模糊处理 的余地（如 四舍五入）。<br> 避免对时间管理产生过大的压力。</p>
+<p> （<strong>例</strong>：某 30min 用了 15min 以上读书，<br> 余下时间处理了些琐事，可将该 30min 归到读书时间。<br> 若过意不去，可在处理其它琐事的某 30min 内省出 15min 去读书，<br> 弥补回去，同时也平衡统计的 相对准确性。）<br><br></p>
+</li>
+<li><h4 id="鼓励集中一段时间专心处理一件事务">鼓励集中一段时间专心处理一件事务</h4><p> 为了 统计简便 与 数据简洁，<br> 使用者会倾向 尽可能集中长时间（至少 30min）处理一件（或同一类）事务。<br> 避免 多任务切换（三心两意同时处理多件事务）以免 工作效率下降。</p>
+<p> 该时间粒度 适于 <strong>配合 “番茄工作法”</strong> 使用。<br><br></p>
+</li>
+<li><h4 id="循序渐进（日后或减小粒度）">循序渐进（日后或减小粒度）</h4><p> 即使愿争分夺秒，过去若无足够的有关经验、思维、习惯等的 脑力积累，<br> 亦难以支撑 <strong>有效、不过度</strong> 的时间管理。</p>
+<p> <strong>若个人的 思维、习惯 足够良好，是可以 毋须使用 时间管理工具，就能管理好自己的生活的。</strong><br> 笔者脑力积累一般，所以需要 时间管理工具和统计数据 去时时 督促、勉励、改进自身。</p>
+<p> 做时间管理日志的主体是 笔者个人，没有 “私人秘书” 帮助，<br> 即使如今已有相当多可用的软硬件工具，<br>  <strong>但当使用的 时间管理技术 过于繁杂精细 时，<br> 该技术难免 沦为负担，干扰正常做事，<br> 结果反而违背 “有效利用时间” 的初衷，</strong><br> 勿忘初心。</p>
+</li>
+</ol>
+<p><br>笔者个人不使用大于 30min 的时间粒度。<br>因为，使用者的 生活节奏 越慢，场景切换频率 越低时，适用使用的时间粒度 才越大，<br>同时，时间粒度越大，时间使用情况统计的 精度越低。</p>
+<h2 id="Transaction_Category_事务类别">Transaction Category 事务类别</h2><h3 id="四象限_时间管理方法">四象限 时间管理方法</h3><p>经典的 “四象限 时间管理方法” 将工作分为四类：</p>
+<pre><code><span class="bullet">1. </span>重要 紧急；
+<span class="bullet">2. </span>重要 不紧急；
+<span class="bullet">3. </span>不重要 紧急；
+<span class="bullet">4. </span>不重要 不紧急。
+</code></pre><p>它适用于 时间规划的“战略”考虑，而非 时间统计日志。</p>
+<p>有部分的 时间管理软件、方法，给出的事务类别 又过多过细，不适用。<br>例：交通（Transport）、走动（Walk）、购物、娱乐、上网、看电影、喝酒(Drink)……（我也是醉了）</p>
+<h3 id="六类事务">六类事务</h3><p>根据笔者个人 生活实践 和 反复思考斟酌，<br>归纳了生活中的 <span id="transaction_category"><strong>六类事务</strong></span>，以下：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">编号No.</th>
+<th style="text-align:left">简写Abbr.</th>
+<th style="text-align:left">全称Ful.</th>
+<th style="text-align:left">描述Desc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><strong>1</strong></td>
+<td style="text-align:left">学 stu</td>
+<td style="text-align:left">学习 study</td>
+<td style="text-align:left">积累<strong>新知识</strong>、新奇<strong>体验</strong>，提升技能<strong>熟练度</strong> 的事务。</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>2</strong></td>
+<td style="text-align:left">动 spo</td>
+<td style="text-align:left">运动 sport</td>
+<td style="text-align:left"><strong>锻炼身体</strong> 的事务，有一定<strong>强度</strong>，正常步速、中等距离（30min 内）的走动也不算。</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>3</strong></td>
+<td style="text-align:left">读 rd</td>
+<td style="text-align:left">阅读 read</td>
+<td style="text-align:left"><strong>阅读</strong> / 收听 <strong>有益</strong> 且 非简单的消遣娱乐类 的 <strong>书籍</strong>、文章、视频等。</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>4</strong></td>
+<td style="text-align:left">乐 joy</td>
+<td style="text-align:left">乐事 joy</td>
+<td style="text-align:left"><strong>令人愉悦</strong>的事务，如娱乐消遣、社交等。</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>5</strong></td>
+<td style="text-align:left">必 mus</td>
+<td style="text-align:left">必须 must</td>
+<td style="text-align:left"><strong>不得不</strong>去处理、又无法归到其它类别的事务，如家务。</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>6</strong></td>
+<td style="text-align:left">废 was</td>
+<td style="text-align:left">荒废 waste</td>
+<td style="text-align:left">并非必须处理、又无益处、且不能让人愉悦的事务，即<strong>浪费时间</strong>的事。</td>
+</tr>
+</tbody>
+</table>
+<p><br>部分事务同时属于以上的 多个类别。<br>这时，只能依靠 个人价值判断 其属于哪个类别。<br>若简化判断，则可优先 归类于编号较小的 类别。</p>
+<h2 id="Log_Instance_日志实例">Log Instance 日志实例</h2><p>Log 时间使用情况统计日志 以 《 <a href="/lifelogs/2015/02/d23.html">15/02/23 stu0 rd55 joy30</a> 》 为例解释。<br>仅解释 最新的日志格式，不赘述 旧日志的格式。</p>
+<p>日志记录的时段为， <span id="valid_time"><strong>有效生活时间</strong></span>：</p>
+<pre><code>每日从 早晨醒来 直到 夜晚入睡 的时间。 即 24 小时减去睡眠时间。
+</code></pre><p>当由于晚睡 使用了 凌晨 00:00 后 属于第二天的部分时间，只要还没睡，该部分时间 统计到前一天去。</p>
+<ol>
+<li><h3 id="日志标题">日志标题</h3><pre><code><span class="number">15</span><span class="regexp">/02/</span><span class="number">23</span> stu0 rd55 joy30
+</code></pre><p> 当日处理的 主要事务 的 <a href="#transaction_category">类别</a>、时间占比。<br> <br><strong>格式</strong>：</p>
+<pre><code>yy/mm/dd type1 \<span class="keyword">d</span>\<span class="keyword">d</span> type2 \<span class="keyword">d</span>\<span class="keyword">d</span> …  
+年/月/日 事务类别 百分比
+</code></pre><p> <strong>(a)</strong> 事务类别：<a href="#transaction_category"><strong>事务的类别</strong></a> 的 英文简写。<br> <strong>(b)</strong> 百分比：<strong>某事务处理时长</strong> 在当日 <a href="#valid_time">有效生活时间</a> 中 所占的 <strong>百分比</strong>，此处则 仅精确到个位。<br><br></p>
+</li>
+<li><h3 id="主要任务列表">主要任务列表</h3><pre><code>Pri Tasks:
+[y] <span class="number">1</span>. see <span class="tag">a</span> motion picture with <span class="tag">a</span> friend
+[ ] <span class="number">2</span>. write “scripts”
+</code></pre><p> 当日 要专注处理 的 主要事务 的 是否完成、次序、简要描述。<br> <br><strong>格式</strong>：</p>
+<pre><code>[Y/<span class="keyword">N</span>] <span class="keyword">n</span>. task <span class="keyword">desc</span>
+[完成与否] 任务编号. 任务描述
+</code></pre><p> 行首的 复选框 代表任务的 完成情况，框内 <strong>打勾 / 留空</strong> 表示 该任务 <strong>已完成 / 未完成</strong>。</p>
+<p> 一日很短，精力、体力、自控力有限，最好 一时只专注一事 以提高效率。<br> 做一件事进入状态后，需避免 多任务切换，以便持续该 高效状态。<br> 所以 <strong>任务量</strong> 限定在 <strong>1 ~ 2 个为佳</strong>，最多不超过 3 个。<br><br></p>
+</li>
+<li><h3 id="记录简表">记录简表</h3><pre><code>08-11   必，读读，乐乐，乐乐，
+12-15 乐乐，乐乐，读读，学学，
+16-19 读读，读读，读读，乐乐，
+20-23 读读，读读，废废，读读，
+00-01 读读。
+</code></pre><p> 简要记录一日 <a href="#valid_time">有效生活时间</a> 内 所做事务 的 时段、<a href="#transaction_category">类别</a>。<br> <br><strong>格式</strong>：</p>
+<pre><code>08-11
+</code></pre><p> <strong>(a)</strong> 指：以8:00,9:00,10:00,11:00 等四个时点为起始的 单个小时时段，<br> 实际指 08:00 ~ 12:00 这 4 个小时。<br> <br></p>
+<pre><code>必，读读，乐乐，乐乐，
+</code></pre><p> <strong>(b)</strong> 以上的中文字，如 “必”、“乐”，指 所处时间段内 所处理事务的<a href="#transaction_category">类别</a>。<br> 中文逗号 “，” 分隔两个时长 1h 的时间段。<br><br></p>
+</li>
+<li><h3 id="记录细表">记录细表</h3><pre><code><span class="number">0830</span> 起
+<span class="number">0900</span> 必 洗漱 早餐 30m
+<span class="number">1000</span> 读 交通 听书 日记 阅读 <span class="number">1h</span>
+
+<span class="number">1400</span> 乐 朋友聊天 电影 午餐 <span class="number">4h</span>
+<span class="number">1900</span> 读 交通 总结 阅读 研究Evernote <span class="number">5h</span>
+
+<span class="number">2000</span> 乐 晚餐 <span class="number">1h</span>
+<span class="number">2200</span> 读 研究Evernote <span class="number">2h</span>
+
+<span class="number">2300</span> 废 尝试帮助父母安装软件 <span class="number">1h</span>
+<span class="number">0100</span> 读 尝试新软件 <span class="number">2h</span>
+<span class="number">0100</span> 睡
+</code></pre><p> 详细记录一日 <a href="#valid_time">有效生活时间</a> 内 所做事务 的 时段、<a href="#transaction_category">类别</a>、简述、时长。<br> <br><strong>格式</strong>：</p>
+<pre><code>2200
+</code></pre><p> <strong>(a)</strong> 每行起始处的 4 个数字，如 “2200”，代表 24小时制 的时间 22:00，<br> 指 该行文字描述的 事务结束时间。<br> 根据时间粒度的规则，它们都代表 整点（dd:00）或半点（dd:30）。<br> <br></p>
+<pre><code><span class="number">2000</span> 乐 晚餐 <span class="number">1h</span>
+<span class="number">2200</span> 读 研究Evernote <span class="number">2h</span>
+</code></pre><p> <strong>(b)</strong> 除 第一行 与 最后一行 代表时间点外，每行代表一个 <strong>时间段</strong>，<br> 具体时间段为 —— 从 前一行 起始处的 4 个数字代表的 时间点 开始，<br> 直到 当前行 起始处的 4 个数字代表的 时间点 结束。<br> 上例的 第二行 代表的具体时段为：20:00 ~ 22:00。</p>
+<p> <strong>(c)</strong> 每行起始处 的 4 个数字后的 第一个中文字，如 “必”，代表该时段 所处理 <strong>事务的<a href="#transaction_category">类别</a></strong>。<br> 然后，接下来文字代表 该时段 所处理事务的 简洁具体 的 描述。</p>
+<p> <strong>(d)</strong> 每行结尾处 代表时间长度 的文字，如 “1.5h”、“30m”，代表该时间段的 <strong>时间长度</strong>。<br><br></p>
+</li>
+<li><h3 id="事务限制表">事务限制表</h3><pre><code>微信(2 午/临睡)[<span class="link_label">y</span>][<span class="link_reference">y</span>]
+微博(1 随机)[y] x
+QQ(2 午/临睡)[<span class="link_label">y</span>][<span class="link_reference"> </span>]
+</code></pre><p> 当日 被限制处理 的事务 的 描述、限制情况。<br> <br><strong>格式</strong>：</p>
+<pre><code>事务描述 (日次限制 可处理的时点) [<span class="link_label">限额使用情况标记</span>][<span class="link_reference">…</span>][<span class="link_label">…</span>] xxx
+</code></pre><p> <strong>(a)</strong> 日次限制： 每天 允许处理指定事务 的 次数。<br> <strong>(b)</strong> 可处理的时点： 每天 允许处理指定事务 的时间点。<br> <strong>(c)</strong> 限额使用情况标记：复选框的个数 = 日次限制 的 次数，框内 <strong>打勾 / 留空</strong> 表示 该限额 <strong>被 / 未被</strong> 使用。<br> <strong>(d)</strong> 末尾 “x” 的个数： 超过限额 的 次数。<br><br></p>
+</li>
+<li><h3 id="每日总结统计表">每日总结统计表</h3><pre><code>类，时，<span class="comment">%</span>
+学 <span class="number">1</span> <span class="number">6.1</span>
+动 <span class="number">0</span>
+读 <span class="number">9</span> <span class="number">54.6</span>
+乐 <span class="number">5</span> <span class="number">30.3</span>
+必 <span class="number">0.5</span> <span class="number">3</span>
+废 <span class="number">1</span> <span class="number">6.1</span>
+总 <span class="number">16.5</span>
+</code></pre><p> 当日 处理各类事务 所使用的<strong>时长</strong>，以及 时长 <strong>在 有效生活时间 中的占比</strong>。<br><br> <strong>(a)</strong> 第一列：中文单字，表示 所统计事务的 <a href="#transaction_category"><strong>类别</strong></a>。<br> <strong>(b)</strong> 第二列：数字，表示 处理某事务 在当日 <strong><a href="#valid_time">有效生活时间</a></strong> 内 所使用的 <strong>小时数</strong>。<br> <strong>(c)</strong> 第三列：数字，表示 <strong>某事务处理时长</strong> 在当日 <a href="#valid_time">有效生活时间</a> 中 所占的 <strong>百分比</strong>，仅精确到十分位。<br> <strong>(d)</strong> 最末行：“总…”，表示 当日 <strong><a href="#valid_time">有效生活时间</a></strong> 的 <strong>时长</strong>。<br><br></p>
+</li>
+<li><h3 id="随笔记录">随笔记录</h3><p> <strong>情绪、感悟、灵感 总结</strong> 以及 其它内容 的记录。</p>
+<pre><code>2344
+今天很开心，xxxxxx……
+</code></pre><p> 该记录 置于日志的 “总结统计表” 之后，首行的 4 个数字 “2344” 表示 该记录撰写于 23:44。<br> 第二行起，开始编写 你想记录的内容，如 日记、情绪、灵感、感悟、总结 等。</p>
+<p> 因为，该内容 涉及笔者部分隐私，<br> 所以，笔者本博客的 <strong>Life Logs</strong> 经过编辑，<strong>缺省了 源日志的 该部分内容</strong>。<br> 不过，在此仍说明 原日志 中的这部分，希望有借鉴作用。<br><br></p>
+</li>
+<li><h3 id="周_/_月_统计表">周 / 月 统计表</h3><p> Log 周 / 日 时间使用情况统计日志 以 《 <a href="/lifelogs/2015/02/time_stat.html">2015/02 Time Statistics</a> 》 为例解释。</p>
+<p> 统计 属于<strong>该月的</strong> 几个<strong>周</strong> 以及 <strong>整个月</strong> 的 时间使用情况统计表。说明：<br> <strong>(a)</strong> 笔者的<strong> 一周 从 周一 开始</strong>。<br> <strong>(b)</strong> 当 月初 或 月末 的周 不完整在该月，即 某周的日期横跨两个月 时：<br> <strong>i.</strong> 该周有 1 ~ 3 天 属于该月，则该周的时间统计 归到 上或下一个月的 “周 / 月 统计表” 中；<br> <strong>ii.</strong> 该周有 4 ~ 6 天 属于该月，则属于该周的时间统计 归到 该月的 “周 / 月 统计表” 中。<br> <strong>(c)</strong> 月统计 的 时间范围 从当月 1 日，计算至 当月最后一日； 注意，它不会像 周统计 会跨月进行统计！</p>
+<p> 该表 <strong>类似于</strong> 上述 <strong>6.每日总结统计表</strong> 的格式。</p>
+<pre><code>（前 <span class="number">3</span> 周略）……
+
+<span class="variable">Week</span> <span class="number">4</span>
+<span class="number">15</span>/<span class="number">02</span>/<span class="number">23</span> ~ <span class="number">15</span>/<span class="number">03</span>/<span class="number">01</span>
+类，时，<span class="comment">%</span>
+学<span class="number">36.5</span>  <span class="number">30.3</span>
+动<span class="number">2.5</span>    <span class="number">2.1</span>
+读<span class="number">41.5</span>  <span class="number">34.4</span>
+乐<span class="number">35</span>    <span class="number">29.1</span>
+必<span class="number">3.5</span>    <span class="number">2.9</span>
+废<span class="number">1.5</span>    <span class="number">1.2</span>
+总<span class="number">120.5</span>
+
+<span class="variable">Monthly</span>
+<span class="number">2015</span>/<span class="number">02</span>
+类，时，<span class="comment">%</span>
+学<span class="number">162.3</span>  <span class="number">34.4</span>
+动<span class="number">11</span>      <span class="number">2.3</span>
+读<span class="number">140</span>    <span class="number">29.6</span>
+乐<span class="number">110</span>    <span class="number">23.3</span>
+必<span class="number">42</span>      <span class="number">8.9</span>
+废<span class="number">7</span>       <span class="number">1.5</span>
+总<span class="number">472.5</span>
+</code></pre></li>
+</ol>
+<h2 id="Schedule_Plan_日程规划">Schedule Plan 日程规划</h2><p>笔者曾经 在日志中 使用过 不少其它文字工具，后来，在实际使用中发现，它们不适合用于笔者。<br>如，<strong>日程规划表</strong>。</p>
+<pre><code>-<span class="ruby"><span class="number">11</span><span class="symbol">:</span><span class="number">30</span> 学，effecitive <span class="constant">C</span>++，<span class="number">1.5</span>h
+</span>-<span class="ruby"><span class="number">12</span><span class="symbol">:</span><span class="number">00</span> 乐，午饭 聊天，<span class="number">30</span>m
+</span>-<span class="ruby"><span class="number">16</span><span class="symbol">:</span><span class="number">30</span> 学，effecitive <span class="constant">C</span>++，<span class="number">4.5</span>h
+</span>-<span class="ruby"><span class="number">17</span><span class="symbol">:</span><span class="number">00</span> 读，晚饭 读书，<span class="number">30</span>m
+</span>-<span class="ruby"><span class="number">18</span><span class="symbol">:</span><span class="number">30</span> 动，毽球，<span class="number">1.5</span>h
+</span>-<span class="ruby"><span class="number">22</span><span class="symbol">:</span><span class="number">00</span> 乐，新声代，<span class="number">3.5</span>h
+</span>-<span class="ruby"><span class="number">23</span><span class="symbol">:</span><span class="number">00</span> 乐，夜宵（动漫） 洗澡，<span class="number">1</span>h
+</span>-<span class="ruby"><span class="number">00</span><span class="symbol">:</span><span class="number">00</span> 学，effecitive <span class="constant">C</span>++，<span class="number">1</span>h</span>
+</code></pre><p>因为，计划 常常 赶不上变化 —— 笔者在个人实践中，粗略统计了 日程规划 和 个人实际行动 的 平均契合度 不超过三成，<br>证实 笔者暂时难以从 提早进行 日程规划 的行为中获得 预想的效果。</p>
+<p>并不是 笔者生活中的 意外状况 比一般人多，而是笔者 陷于伪完美主义的陷阱 规划的日程 过于理想化 和 过于详细，弹性不足，<br>而且 笔者执行力不足，不懂得拒绝、取舍和坚持，频繁 打乱原有的 日程规划。<br>于是乎 提前规划的日程的行为 几无效用，成了纯粹的 自我心理安慰 的行为 —— 规划时，就产生了 自己已经将 日程规划 完满执行 的幻觉。</p>
+<p>最后，我自我安慰道：过于详细的日程规划 违背了笔者个人的 <strong><a href="http://www.paigu.com/a/519511/23779702.html" target="_blank" rel="external">人生主题</a></strong>，生活未免太死板、不变通，所以（暂时）放弃日程规划吧。</p>
+<ul>
+<li><strong>注</strong>:<em> <strong>人生主题</strong> 概念来自 《<a href="http://www.paigu.com/a/519511/23779702.html" target="_blank" rel="external">目标没用,职业生涯需要的其实是主题</a>》。</em></li>
+</ul>
+<h2 id="Thoughts_about_Time_Mgt-_关于时间管理的感想">Thoughts about Time Mgt. 关于时间管理的感想</h2><p>忘了是知乎的 <a href="http://zhuanlan.zhihu.com/lswlsw" target="_blank" rel="external">李松蔚</a> 老师 还是 <a href="http://zhuanlan.zhihu.com/happy" target="_blank" rel="external">动机在杭州</a> 老师说的，原话也没记牢，笔者仅回忆简单复述：</p>
+<pre><code>时间管理的目的，其实还是为了更好的享受生活。
+</code></pre><p>这句话令只是个平凡人的我 醍醐灌顶。</p>
+<h3 id="Epilog_结语"><strong>Epilog 结语</strong></h3><p>千万年来，人性中习成的 贪嗔痴慢疑 难以于一夕磨灭，笔者还是 难免功利。<br>但绝不过分追求 功名利禄，像机械人般，死板、病态地生活。</p>
+<p>或许再经磨砺后，想法还会改变，<br>但此刻，我想的是：<br><strong>静静的，安于一隅，做自己热爱的事情。<br>那，才是我心中的 理想乡。</strong></p>
+<p><br><strong>End. 以上。</strong></p>
+  
+	</div>
+		<!-- jiathis的点赞按钮！-->
+<!-- 有了多说评论框的“喜欢”按钮就足够了 -->
+<!-- JiaThis Button BEGIN -->
+<!--
+<div class="jiathis_style">
+	<a class="jiathis_like_tsina" data="width=120"></a>
+	<a class="jiathis_like_qzone"></a>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
+-->
+<!-- JiaThis Button END -->
+
+<!-- Donate Module -->
+<div>
+	<!-- css -->
+	<style type="text/css">
+		.donate_bar a.btn_donate{
+			display: inline-block;
+			width: 82px;
+			height: 82px;
+			background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
+			_background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat; 
+			
+			<!-- 因为本 hexo 生成的博客所用的 theme 的 a:hover 带动画效果，
+				 为了在让打赏按钮显示效果正常 而 添加了以下几行 css，
+				 嵌入其它博客时不一定要它们。 -->
+			-webkit-transition: background 0s;
+			-moz-transition: background 0s;
+			-o-transition: background 0s;
+			-ms-transition: background 0s;
+			transition: background 0s;
+			<!-- /让打赏按钮的效果显示正常 而 添加的几行 css 到此结束 -->
+		}
+		.donate_bar a.btn_donate:hover{ background-position: 0px -82px;}
+		.donate_bar .donate_txt {
+			display: block;
+			color: #9d9d9d;
+			font: 14px/2 "Microsoft Yahei";
+		}
+		.bold{ font-weight: bold; }
+	</style>
+	<!-- /css -->
+	
+	<!-- form -->
+	<form id="donate" action="https://shenghuo.alipay.com/send/payment/fill.htm" method="POST" target="_blank" accept-charset="GBK">
+		<input name="optEmail" type="hidden" value="ice_he@foxmail.com" />
+		<input name="payAmount" type="hidden" value="1.00" />
+		<input id="title" name="title" type="hidden" value="打赏《Time Mgt. 时间管理 -》"/>
+		<input name="memo" type="hidden" value="留下您的大名及联系方式(email,blog,etc)，多交流共勉共进：" />
+	</form>
+	<!-- /form -->
+
+	<!-- btn_donate & tips -->
+	<div id="donate_board" class="donate_bar center">
+		<a id="btn_donate" class="btn_donate" href="javascript:;" title="Donate 打赏"></a>
+		<span class="donate_txt">
+			&uarr;<br/>
+			If you enjoy the article, please feel free to <span class="bold">donate~</span> Thx.<br/>
+			若本文对您有帮助，<span class="bold">求打赏~</span> 谢谢您的鼓励。
+		</span>
+		<br/>
+	</div>
+	<!-- /btn_donate & tips -->
+	
+	<!-- donate guide -->
+	<div id="donate_guide" class="donate_bar center hidden">
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="3MPNAMMQA4C8Y">	&nbsp; &nbsp; 
+			<input type="image" width="auto" height="40em"
+				src="http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg" 
+				border="0" name="submit" alt="PayPal——最安全便捷的在线支付方式！"
+				style="margin-bottom: 0.5em;">
+			<img alt="" border="0" width="1" height="1" 
+				src="https://www.paypalobjects.com/zh_XC/i/scr/pixel.gif" >
+		</form>
+
+		<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg" title="Alipay_Scan_Payment" class="fancybox" rel="article0">
+			<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg" title="Donate 打赏" height="164px" width="164px"/>
+		</a> &nbsp; 
+		
+		<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" title="Alipay_Scan_Payment" class="fancybox" rel="article0">
+			<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" title="Thanks 谢谢~" height="164px" width="164px"/>
+		</a> &nbsp; 
+		
+		<a href="http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg" title="WeChat_Scan_Payment" class="fancybox" rel="article0">
+			<img src="http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg" title="Donate 打赏" height="164px" width="auto"/>
+		</a>
+		
+		<span class="donate_txt">
+			Use App <span class="bold"><a href="http://global.alipay.com/ospay/home.htm">Alipay</a> / <a href="http://www.wechat.com/en/">WeChat</a></span>
+			to scan QRCode~ Thx for your support.<br/>
+			
+			用手机 <span class="bold"><a href="https://mobile.alipay.com/index.htm">支付宝钱包</a> / <a href="http://weixin.qq.com/">微信</a></span>，
+			扫一扫即可~ 谢谢您的鼓励。<br/>
+			<br/>
+			
+			Or donate on <a id="donate_on_web2" class="bold" href="javascript:donate_on_web();" title="Donate 打赏">Web Alipay</a>. /
+			
+			也可用 <a id="donate_on_web1" class="bold" href="javascript:donate_on_web();" title="Donate 打赏">网页版支付宝</a> 
+			打赏。<br/>
+		</span>
+		<br/>
+	</div>
+	<!-- /donate guide -->
+	
+	<!-- donate script -->
+	<script type="text/javascript">
+		document.getElementById('btn_donate').onclick = function(){
+			$('#donate_board').addClass('hidden');
+			$('#donate_guide').removeClass('hidden');
+		}
+		
+		function donate_on_web(){
+			$('#donate').submit();
+		}
+	</script>
+	<!-- /donate script -->
+</div>
+<!-- /Donate Module -->
+
+<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/time-mgt/">time mgt</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/LIFE/">LIFE</a>
+  </div>
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://icehe.me/2015/03/02/Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考/" data-title="Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考 | Ice He 何志遠" data-tsina="undefined" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2015/03/04/Donate 打赏/" title="实现 博客网站的支付宝 打赏功能 —— Donate 打赏博主">
+  <strong>Prev：</strong><br/>
+  <span>
+  实现 博客网站的支付宝 打赏功能 —— Donate 打赏博主</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/2015/02/27/read/《幸福课》知乎专栏 - Note/"  title="《幸福课》知乎专栏 - Note">
+ <strong>Next：</strong><br/> 
+ <span>《幸福课》知乎专栏 - Note
+</span>
+</a>
+</div>
+
+</nav>
+
+	<section id="comments" class="comment"></section>
+
+<script type="text/javascript">
+	document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="2015/03/02/Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考/" data-title="Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考" data-url="http://icehe.me/2015/03/02/Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考/"></div>'
+		+ '<hr/>'
+		+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
+		+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
+		+ '</div>';
+	
+	function loadDisqus(){
+		var disqus_shortname = 'icehe';
+
+		(function(){
+			var dsq = document.createElement('script');
+			dsq.type = 'text/javascript';
+			dsq.async = true;
+			dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}());
+		
+		(function(){
+			var dsq = document.createElement('script');
+			dsq.type = 'text/javascript';
+			dsq.async = true;
+			dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}());
+		
+		document.getElementById('disqus_div').innerHTML = '<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>';
+	}
+</script>
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
+<aside class="clearfix">
+
+  <div class="sitelist" style="display: block;">
+	<p class="asidetitle">Cur Site 当前站点</p>
+    <ul>
+		<!-- <li>
+			<a  href="http://icehe.gitcafe.io/" class="bold">
+				<i class="fa fa-fighter-jet"></i>
+				在中国大陆，备用站更快。
+			</a>
+		</li> -->
+		
+		<li id="github_main"></li>
+		<li id="gitcafe_spare">	</li>
+    </ul>
+</div>
+<script type="text/javascript">
+
+	var isOnGithub = (-1 != location.href.indexOf("icehe.me"));
+	var isOnGitcafe = (-1 != location.href.indexOf("icehe.gitcafe.io"));
+
+	var main_fa_class = '';
+	var spare_fa_class = '';
+	
+	document.getElementById('github_main').innerHTML = '<a href="'
+		+ (isOnGithub ? 'javascript:;' : 'http://icehe.me/')
+		+ '" target="_top"><i class="fa '
+		+ (isOnGithub ? 'fa-check-square-o' : 'fa-square-o')
+		+ '"></i>&nbsp;Primary 主站 &nbsp;-&nbsp; GithubPage</a>';
+		
+	document.getElementById('gitcafe_spare').innerHTML = '<a href="'
+		+ (isOnGitcafe ? 'javascript:;' : 'http://icehe.gitcafe.io/')
+		+ '" target="_top"><i class="fa '
+		+ (isOnGitcafe ? 'fa-check-square-o' : 'fa-square-o')
+		+ '"></i>&nbsp;Mirror &nbsp; 备用 &nbsp;-&nbsp; 中国大陆</a>';
+		
+</script>
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">Categories 分类</p>
+		<ul>
+		
+			<li><a href="/categories/ASM/" title="ASM">ASM<sup>17</sup></a></li>
+		
+			<li><a href="/categories/Batch/" title="Batch">Batch<sup>4</sup></a></li>
+		
+			<li><a href="/categories/C/" title="C++">C++<sup>7</sup></a></li>
+		
+			<li><a href="/categories/IDE/" title="IDE">IDE<sup>1</sup></a></li>
+		
+			<li><a href="/categories/JavaScript/" title="JavaScript">JavaScript<sup>1</sup></a></li>
+		
+			<li><a href="/categories/Linux/" title="Linux">Linux<sup>7</sup></a></li>
+		
+			<li><a href="/categories/PHP/" title="PHP">PHP<sup>2</sup></a></li>
+		
+			<li><a href="/categories/Web/" title="Web">Web<sup>3</sup></a></li>
+		
+			<li><a href="/categories/read/" title="read">read<sup>1</sup></a></li>
+		
+			<li><a href="/categories/time-mgt/" title="time mgt">time mgt<sup>1</sup></a></li>
+		
+		</ul>
+</div>
+
+
+  
+<div class="tagslist">
+	<p class="asidetitle">Tags 标签</p>
+		<ul class="clearfix">
+		
+			<li><a href="/tags/TECH/" title="TECH">TECH<sup>34</sup></a></li>
+		
+			<li><a href="/tags/CentOS/" title="CentOS">CentOS<sup>7</sup></a></li>
+		
+			<li><a href="/tags/DOS/" title="DOS">DOS<sup>5</sup></a></li>
+		
+			<li><a href="/tags/build-blog/" title="build blog">build blog<sup>3</sup></a></li>
+		
+			<li><a href="/tags/LIFE/" title="LIFE">LIFE<sup>3</sup></a></li>
+		
+			<li><a href="/tags/handwritten/" title="handwritten">handwritten<sup>3</sup></a></li>
+		
+			<li><a href="/tags/Hexo/" title="Hexo">Hexo<sup>1</sup></a></li>
+		
+			<li><a href="/tags/Shadowsocks/" title="Shadowsocks">Shadowsocks<sup>1</sup></a></li>
+		
+			<li><a href="/tags/pip/" title="pip">pip<sup>1</sup></a></li>
+		
+			<li><a href="/tags/donate/" title="donate">donate<sup>1</sup></a></li>
+		
+			<li><a href="/tags/security/" title="security">security<sup>1</sup></a></li>
+		
+			<li><a href="/tags/SSH/" title="SSH">SSH<sup>1</sup></a></li>
+		
+			<li><a href="/tags/kernel/" title="kernel">kernel<sup>1</sup></a></li>
+		
+			<li><a href="/tags/optimize-code/" title="optimize code">optimize code<sup>1</sup></a></li>
+		
+			<li><a href="/tags/Eclipse/" title="Eclipse">Eclipse<sup>1</sup></a></li>
+		
+			<li><a href="/tags/Zend-Studio/" title="Zend Studio">Zend Studio<sup>1</sup></a></li>
+		
+			<li><a href="/tags/logic/" title="logic">logic<sup>1</sup></a></li>
+		
+			<li><a href="/tags/coding/" title="coding">coding<sup>1</sup></a></li>
+		
+			<li><a href="/tags/mount/" title="mount">mount<sup>1</sup></a></li>
+		
+		</ul>
+</div>
+
+
+  <div class="popularlist">
+	<p class="asidetitle">Read Top5 热榜</p>
+	<ul class="clearfix popularlist_ul"></ul>
+</div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">Links 友链</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="http://290841032.qzone.qq.com" target="_blank" title="飘。Gone with the wind.">Gone with the wind</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://sf-zhou.github.io/" target="_blank" title="极地 · 雪">极地 · 雪</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://shiweyyan.github.io/" target="_blank" title="Shiwey Yan">Shiwey Yan</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://janfan.github.io/" target="_blank" title="Jan Fan">Jan Fan</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  <div class="find_me">
+	<p class="asidetitle">Findme.im 立即找我</p>
+	<div class="puzzle center">
+		<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/find_me_00.png" />
+	</div>
+	<div class="center">
+		If you want to find me,<br/>
+		nothing can stop you.
+	</span>
+</div>
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS</a>
+</div>
+
+  <!-- Donate Module -->
+	<br/>
+	<p class="asidetitle" style="display: none;">Donate 打赏</p>
+	
+	<!-- css -->
+	<style type="text/css">
+		.donate_bar a.btn_donate{
+			display: inline-block;
+			width: 82px;
+			height: 82px;
+			background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
+			_background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat; 
+			
+			-webkit-transition: background 0s;
+			-moz-transition: background 0s;
+			-o-transition: background 0s;
+			-ms-transition: background 0s;
+			transition: background 0s;
+		}
+		.donate_bar a.btn_donate:hover{ background-position: 0px -82px; }
+		.donate_bar .donate_txt {
+			display: block;
+			color: #9d9d9d;
+			font: 14px/2 "Microsoft Yahei";
+		}
+		.bold{ font-weight: bold; }
+	</style>
+	<!-- /css -->
+
+	<!-- btn_donate & tips -->
+	<div id="donate_board_wdg" class="donate_bar center">
+		<a id="btn_donate_wdg" class="btn_donate" href="/2015/04/02/reward/" title="Reward 打赏" target="_top"></a>
+		<span class="donate_txt">
+			o(￣▽￣)/ &nbsp; 
+			<span style="font-weight: bold;">求打赏 !~</span><br/>
+			Reward me ~
+		</span>
+	</div>
+	<!-- /btn_donate & tips -->
+
+<!-- /Donate Module -->
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<div>
+			<!-- Present is a present. <br/>
+			卮言。 <br/>
+			test <br/> -->
+			<div id="hitokoto"><script>hitokoto()</script></div><br/>
+			&nbsp; &nbsp; &nbsp; &nbsp; <a href="http://hitokoto.us/index.html" target="_blank" style="font-weight: 60%; color: grey;">—— 一言 - ヒトコト</a><br/>
+		</div>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		<a href="https://github.com/IceHe" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		<a href="http://weibo.com/icedes" target="_blank" class="icon-weibo" title="微博"></a>
+		
+		
+		<a href="http://weibo.com/2622530715" target="_blank" class="icon-weibo" title="微博"></a>
+		
+		
+		
+		
+		
+		
+		<a href="https://www.douban.com/people/IceHeGZ" target="_blank" class="icon-douban" title="豆瓣"></a>
+		
+		
+		
+		
+		<a href="mailto:ice.he.hzy@gmail.com" target="_blank" class="icon-email" title="Email Me"></a>
+		
+	</div>
+		<p class="copyright">Powered by <a href="http://zespia.tw/hexo/" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Pacman">Jacman</a> © 2015 
+		
+		<a href="http://icehe.me/about" target="_blank" title="IceHe何志远">IceHe何志远</a>
+		
+		</p>
+</div>
+</footer>
+    <script id="jQueryLink" src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script> 
+<script type="text/javascript">
+	window.jQuery || document.write('<script src="/js/jquery-2.0.3.min.js"><\/script>');
+</script>
+
+<!-- <script src="/js/jquery.imagesloaded.min.js"></script> -->
+<!-- <script src="/js/gallery.js"></script> -->
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.imagesloaded.min.js"></script>
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/gallery.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else
+    {
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+        
+    }
+  });
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#nothing"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
+
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"icehe"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+
+<!-- 下一行中加入了 false &&，阻止disqus的有关js脚本过早加载，优化网站的访问速度。
+	 现已在comment.ejs中重写了disqus的加载方式。 -->
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+<script type="text/javascript">
+if(-1 != location.href.indexOf("icehe.me")){
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-60837823-1', 'auto');  
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+<script type="text/javascript">
+if(-1 != location.href.indexOf("icehe.gitcafe.io")){
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-60837823-2', 'auto');  
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+
+<div style="display: none;">
+
+	
+	<script type="text/javascript">
+	if(-1 != location.href.indexOf("icehe.me")){
+		var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+		document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F7076c1a5edd76a6bd49f8065ceecc7a4' type='text/javascript'%3E%3C/script%3E"));
+	}
+	</script>
+	
+
+	
+	<script type="text/javascript">
+	if(-1 != location.href.indexOf("icehe.gitcafe.io")){
+		var _bdhmProtocol2 = (("https:" == document.location.protocol) ? " https://" : " http://");
+		document.write(unescape("%3Cscript src='" + _bdhmProtocol2 + "hm.baidu.com/h.js%3F68e951d2eed2725bdd8cf4b1900d632f' type='text/javascript'%3E%3C/script%3E"));
+	}
+	</script>
+	
+
+</div>
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<!-- <a title="Back to Top"><img src="/img/scrollup.png"/></a> -->
+	<a title="Back to Top"><img src="//7vzp68.com1.z0.glb.clouddn.com/common/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Lean Cloud -->
+<script src="https://leancloud.cn/scripts/lib/av-0.5.0.min.js"></script>
+<script type="text/javascript">
+	AV.initialize("u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5");
+	// 初始化 param1：应用 id、param2：应用 key
+</script>
+
+<!-- page counter part -->
+<script>
+function addCount (Counter) {
+	url = $('.article-url').attr('href').trim();
+	title = $('.article-title').text().trim();
+	var query = new AV.Query(Counter);
+	//use url as unique idnetfication
+	query.equalTo("url",url);
+	query.find({
+		success: function(results){
+			if(results.length>0){
+				var counter = results[0];
+				counter.fetchWhenSave(true); //get recent result
+				counter.increment("time");
+				counter.save();
+			}else{
+				var newcounter = new Counter();
+				newcounter.set("title", title);
+				newcounter.set("url", url);
+				newcounter.set("time", 1);
+				newcounter.save(null, {
+					success: function(newcounter){
+						//alert('New object created');
+					},
+					error: function(newcounter,error){
+						//alert('Failed to create');
+					}
+				});
+			}
+		},
+		error: function(error){
+			// find null is not a error
+			//alert('Error:' + error.code + " " + error.message);
+		}
+	});
+}
+
+$(function(){
+	var Counter = AV.Object.extend("Counter");
+	// only increse visit counting when intering a page
+	if($('.article-title').length == 1)
+		addCount(Counter);
+	
+	// if popularlist widget exists, add item to it.
+	var popular_list = $('.popularlist');
+	if(1 == popular_list.length){
+		var query = new AV.Query(Counter);
+		query.descending("time");
+		query.limit(5);
+		query.find({
+			success: function(results){
+				for(var i = 0; i < results.length; ++i){
+					var counter = results[i];
+					title = counter.get("title");
+					url = counter.get("url");
+					time = counter.get("time");
+					
+					$('.popularlist_ul').append('<li><a href="'
+						+ url + '" name="'
+						+ title + '"><sup>'
+						+ time + ' &nbsp;</sup>'
+						+ title + '</a></li>'
+					);
+				}
+			},
+			error: function(error){
+				//alert("Error:" + error.code + " " + error.message);
+			}
+		});
+	}
+	
+	// if cur page is a post, set the post pageview.
+	var article_info = $(".article-info");
+	if(1 == article_info.length){
+		var query = new AV.Query(Counter);
+		query.equalTo("url", article_info.find(".article-title a").attr("href"));
+		query.limit(1);
+		query.find({
+			success: function(results){
+				if(1 == results.length){
+					var counter = results[0];
+					title = counter.get("title");
+					url = counter.get("url");
+					time = counter.get("time");
+					
+					article_info.find(".article-readtimes .readtimes").text(time);
+				}
+			},
+			error: function(error){
+				article_info.find(".article-readtimes .readtimes").text("?");
+				//alert("Error:" + error.code + " " + error.message);
+			}
+		});
+	}
+	
+	// if cur page is Home, set the post_list pageviews.
+	var post_list = $("#main[class!=post]");
+	if(0 != post_list.length){
+		var post_items = post_list.find(".post a");
+		for(var i = 0; i < post_items.length; ++i){
+			var url = post_items.eq(i).attr("href");
+			query.equalTo("url", url);
+			query.limit(1);
+			query.find({
+				success: function(results){
+					if(1 == results.length){
+						var counter = results[0];
+						title = counter.get("title");
+						url = counter.get("url");
+						time = counter.get("time");
+						
+						$(".post a[href='" + url + "']").find('.readtimes').text(time);
+					}
+				},
+				error: function(error){
+					//alert("Error:" + error.code + " " + error.message);
+				}
+			});
+		}
+	}
+});
+</script>
+<!-- /Lean Cloud -->
+  </body>
+</html>

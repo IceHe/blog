@@ -1,0 +1,1005 @@
+
+ <!DOCTYPE HTML>
+<html lang="default">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>Assembly Language 汇编语言 - Note 1 | Ice He 何志遠</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="IceHe何志远">
+    
+    <meta name="description" itemprop="description" content="寄存器，段寄存器，CS和IP，修改CS、IP的指令，查看CPU和内存。">
+    
+    
+    <meta name="description" content="寄存器，段寄存器，CS和IP，修改CS、IP的指令，查看CPU和内存。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Assembly Language 汇编语言 - Note 1">
+<meta property="og:url" content="http://icehe.me/2015/02/02/asm/Assembly Language - Note 1/index.html">
+<meta property="og:site_name" content="Ice He 何志遠">
+<meta property="og:description" content="寄存器，段寄存器，CS和IP，修改CS、IP的指令，查看CPU和内存。">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/4bc20fd901206044a792ae37d5ccd1b3.png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/8274851476c413d426e343e69e8e5187.png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/17ee180333575eb889d093caeb72a845.png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/706f7ccda236318f3be58b20c32a521d.png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/55b18e7e228e351d59ab509d2d91d089.png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/565deced8c0a4ce33c0b5eb86a066b28.png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/1ee20fb40a66fb58acb5ba8312ac301d.png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/a04b37ec53451fff31c98c59b1ee0343.png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/bac5af4d74353db662a06aaf11cbe162.png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/3c1fa34129c318f8ef086ac0725b126a.png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/6b62a7dc51f24ad3ee0932c29fade4fc.png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/386bad5a0f13c43e209df53c0b81298f.png">
+<meta property="og:updated_time" content="2015-03-16T07:29:53.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Assembly Language 汇编语言 - Note 1">
+<meta name="twitter:description" content="寄存器，段寄存器，CS和IP，修改CS、IP的指令，查看CPU和内存。">
+
+    
+    <link rel="alternative" href="/atom.xml" title="Ice He 何志遠" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon.ico">
+	<!-- <link rel="icon" href="/http://7vzp68.com1.z0.glb.clouddn.com/common/favicon.ico"> -->
+    
+    
+    <link rel="apple-touch-icon" href="/http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+	
+	<!-- 百度站内搜索 for github站 -->
+	<meta name="baidu-site-verification" content="HpoaJokwfB" />
+	
+	<!-- 谷歌站长工具 元标签验证码 -->
+	<meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
+	
+	<!-- Google Fonts from 360 CDN -->
+	<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	
+	<!-- Common CSS -->
+	<style type="text/css">
+		.center{ text-align: center; }
+		.hidden{ display: none;	}
+		span.hitokoto a{ color: white; } // for 一言
+	</style>
+	
+	<!-- font-awesome -->
+	<link href="//libs.cncdn.cn/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	
+	<!-- 一言 -->
+	<script type="text/javascript" src="http://api.hitokoto.us/rand?encode=js&charset=utf-8"></script>
+</head>
+
+  <body>
+    <header>
+      <div>
+		
+			<div id="imglogo">
+				<a href="/">
+					<!-- <img src="/http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="Ice He 何志遠" title="Ice He 何志遠"/> -->
+					<img src="http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="Ice He 何志遠" title="Ice He 何志遠"/>
+				</a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="Ice He 何志遠">Ice He 何志遠</a></h1>
+				<h2 class="blog-motto">Less is more.   寧靜致遠。</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="Menu">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">Articles 文章</a></li>
+					
+						<li><a href="/lifelogs">Life Logs 轨迹</a></li>
+					
+						<li><a href="/about">About 我</a></li>
+					
+					<li>
+ 					
+						
+						<form class="search">
+							<label>Search</label>
+							<input id="ts-search-input" type="text" name="q" size="30" placeholder="Search"><br>
+						</form>
+						
+						<script>
+							var option = null;
+							if(-1 != location.href.indexOf("icehe.me")){
+								option = {
+									engineKey: '4b114b45fc7fe840f7cc'
+								};
+							}else if(-1 != location.href.indexOf("icehe.gitcafe.io")){
+								option = {
+									engineKey: '1f746b2042ed54f07a8d'
+								};
+							}
+							
+							(function(w,d,t,u,n,s,e){
+								s = d.createElement(t);
+								s.src = u;
+								s.async = 1;
+								w[n] = function(r){
+									w[n].opts = r;
+								};
+								e = d.getElementsByTagName(t)[0];
+								e.parentNode.insertBefore(s, e);
+							})(window,document,'script','//tinysou-cdn.b0.upaiyun.com/ts.js','_ts');
+							_ts(option);
+						</script>
+						
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name" class="article-title">
+    
+      <a href="/2015/02/02/asm/Assembly Language - Note 1/" title="Assembly Language 汇编语言 - Note 1" itemprop="url" class="article-url">Assembly Language 汇编语言 - Note 1</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="http://icehe.me/about" title="IceHe何志远" target="_blank" itemprop="author">IceHe何志远</a>
+		
+  <p class="article-time">
+    <time datetime="2015-02-02T15:41:03.000Z" itemprop="datePublished"> Published 2015 Feb 02</time>
+  </p>
+  <p class="article-readtimes">
+    Read ( <span class="readtimes">x</span> )
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">Contents</strong>
+		
+			
+		
+		</div>
+		
+		<div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>教材：《汇编语言》（第二版）王爽 著 清华大学出版社</div><div><br></div><div><b>章一、基础知识</b></div><div><br></div><div>1.3 汇编语言的组成：</div><div>（1）汇编指令：机器码的助记符。（核心）</div><div>（2）伪指令：没有对应的机器码，由编译器执行，计算机并不执行。</div><div>（3）其它符号：如+、-、*、/等，由编译器识别，没有对应的机器码。</div><div><br></div><div>1.7 CPU对储存器的读写</div><div>总线从逻辑上分3类：地址线、数据线、控制线。</div><div><br></div><div><b>章二、寄存器</b></div><div><br></div><div>2.2 字在寄存器中的存储</div><div>低字节：权越小，越低。个位的数字的权是1，十位的权是2，百位的权是4，如此类推。</div><div>高字节：权比较大的位（该位的数字代表的分量较大），即为高字节。</div><div>与此相关的是——大小端、网络字节序</div><div><br></div><div>2.3</div><div>指令的两个操作对象的位数应该一致。</div><div><br></div><div>2.9 段寄存器</div><div>8086CPU有四个段寄存器：CS、DS、SS、ES。</div><div><br></div><div>2.10 CS和IP</div><div>CS为代码段（code segment?）寄存器，IP为指令指针（instruction ptr?）寄存器。</div><div>任意时刻CPU将CS:IP指向的内容当作指令执行。</div><div><br></div><div>2.11 修改CS、IP的指令</div><div>jmp指令：jmp 段地址:偏移地址 —— jmp 2AE3:3</div><div><br></div><div>8086CPU的工作过程：</div><div>（1）从CS:IP指向的内存单位读取指令，读取的指令进入指令缓存器</div><div>（2）IP指向下一条指令</div><div>（3）执行指令。（转到步骤（1），重复这个过程）</div><div><br></div><div><strong>Chapter2 实验1 查看CPU和内存，用机器指令和汇编指令编程</strong></div><div>Debug是DOS、Windows都提供的实模式（8086方式）程序的调试工具。</div><div>它可以查看CPU各种寄存器的内容、内存的情况和在机器码级跟踪程序的运行。</div><div><br></div><div>使用工具：<a href="evernote:///view/7264256/s33/17e88a1c-16e1-496e-9dbf-8546ace1ecaa/17e88a1c-16e1-496e-9dbf-8546ace1ecaa/" style="color:#69aa35" target="_blank" rel="external">win7 64位系统怎么使用debug</a></div><div><br></div>
+指令<br><div>R &nbsp; &nbsp; 查看、改变CPU<b>寄存器</b>的内容</div><div>D &nbsp; &nbsp; 查看<b>内存</b>中的内容</div><div>E &nbsp; &nbsp; <b>改写</b>内存中的内容</div><div>U &nbsp; &nbsp; 将内存中的机器指令<b>翻译成汇编指令</b></div><div>T &nbsp; &nbsp; <b>执行</b>一条（CS:IP指向的）机器指令</div><div>A &nbsp; &nbsp; <b>以汇编指令</b>的格式，在内存中<b>写入一条机器指令</b></div><div><b><br></b></div><div>G &nbsp; &nbsp; 跳转执行到指定的内存位置</div><div>P &nbsp; &nbsp; 程序执行到最后一步，必须使用的指令</div><div><b><br></b></div><div>通用寄存器：ax,bx,cx,dx</div><div>段寄存器：ds,es,ss,cs</div><div>偏移地址寄存器：sp.ip,bp,si,di</div><div>标志寄存器：flag</div><div><br></div><div>熟悉基础操作过程的截图：</div><div><img width="633px" height="380px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/4bc20fd901206044a792ae37d5ccd1b3.png"></div><div><br></div><div><img width="628px" height="310px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/8274851476c413d426e343e69e8e5187.png"></div><div><br></div><div><img width="614px" height="193px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/17ee180333575eb889d093caeb72a845.png"></div><div><br></div><div><img width="337px" height="161px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/706f7ccda236318f3be58b20c32a521d.png"></div><div><br></div><div><img width="619px" height="353px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/55b18e7e228e351d59ab509d2d91d089.png"></div><div><br></div><div><img width="317px" height="145px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/565deced8c0a4ce33c0b5eb86a066b28.png"></div><div><br></div><div><img width="564px" height="381px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/1ee20fb40a66fb58acb5ba8312ac301d.png"></div><div><br></div><div><img width="617px" height="284px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/a04b37ec53451fff31c98c59b1ee0343.png"></div><div><br></div><div><br></div><div>实验任务：</div><div>（1）</div><div><img width="231px" height="288px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/bac5af4d74353db662a06aaf11cbe162.png"></div><div><br></div><div><img width="573px" height="385px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/3c1fa34129c318f8ef086ac0725b126a.png"></div><div><br></div><div><img width="564px" height="377px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/6b62a7dc51f24ad3ee0932c29fade4fc.png"></div><div><br></div><div><img width="622px" height="369px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/386bad5a0f13c43e209df53c0b81298f.png"></div><div><br></div><div>（2）计算2的8次方。</div><div>(在内存2000:0开始写该程序）</div><div>mov ax, 1</div><div>add ax, ax</div><div>add ax, ax</div><div>add ax, ax</div><div>&nbsp; &nbsp; &nbsp;or</div><div>mov ax, 1</div><div>add ax, ax</div><div>jmp 2000:3 &nbsp; &nbsp; (暂时的知识不足以写出循环控制语句！)</div><div>（3）结论：内存FFF00H~FFFFFH为ROM区,内容可读但不可写。</div><div>（4）结论：8086的显存地址空间是A0000H～BFFFFH,其中B8000H～BFFFFH为80*25彩色字符模式显示缓冲区,当向这个地址空间写入数据时,这些数据会立即出现在显示器上。</div></div>  
+	</div>
+		<!-- jiathis的点赞按钮！-->
+<!-- 有了多说评论框的“喜欢”按钮就足够了 -->
+<!-- JiaThis Button BEGIN -->
+<!--
+<div class="jiathis_style">
+	<a class="jiathis_like_tsina" data="width=120"></a>
+	<a class="jiathis_like_qzone"></a>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
+-->
+<!-- JiaThis Button END -->
+
+<!-- Donate Module -->
+<div>
+	<!-- css -->
+	<style type="text/css">
+		.donate_bar a.btn_donate{
+			display: inline-block;
+			width: 82px;
+			height: 82px;
+			background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
+			_background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat; 
+			
+			<!-- 因为本 hexo 生成的博客所用的 theme 的 a:hover 带动画效果，
+				 为了在让打赏按钮显示效果正常 而 添加了以下几行 css，
+				 嵌入其它博客时不一定要它们。 -->
+			-webkit-transition: background 0s;
+			-moz-transition: background 0s;
+			-o-transition: background 0s;
+			-ms-transition: background 0s;
+			transition: background 0s;
+			<!-- /让打赏按钮的效果显示正常 而 添加的几行 css 到此结束 -->
+		}
+		.donate_bar a.btn_donate:hover{ background-position: 0px -82px;}
+		.donate_bar .donate_txt {
+			display: block;
+			color: #9d9d9d;
+			font: 14px/2 "Microsoft Yahei";
+		}
+		.bold{ font-weight: bold; }
+	</style>
+	<!-- /css -->
+	
+	<!-- form -->
+	<form id="donate" action="https://shenghuo.alipay.com/send/payment/fill.htm" method="POST" target="_blank" accept-charset="GBK">
+		<input name="optEmail" type="hidden" value="ice_he@foxmail.com" />
+		<input name="payAmount" type="hidden" value="1.00" />
+		<input id="title" name="title" type="hidden" value="打赏《Assembly Languag》"/>
+		<input name="memo" type="hidden" value="留下您的大名及联系方式(email,blog,etc)，多交流共勉共进：" />
+	</form>
+	<!-- /form -->
+
+	<!-- btn_donate & tips -->
+	<div id="donate_board" class="donate_bar center">
+		<a id="btn_donate" class="btn_donate" href="javascript:;" title="Donate 打赏"></a>
+		<span class="donate_txt">
+			&uarr;<br/>
+			If you enjoy the article, please feel free to <span class="bold">donate~</span> Thx.<br/>
+			若本文对您有帮助，<span class="bold">求打赏~</span> 谢谢您的鼓励。
+		</span>
+		<br/>
+	</div>
+	<!-- /btn_donate & tips -->
+	
+	<!-- donate guide -->
+	<div id="donate_guide" class="donate_bar center hidden">
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="3MPNAMMQA4C8Y">	&nbsp; &nbsp; 
+			<input type="image" width="auto" height="40em"
+				src="http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg" 
+				border="0" name="submit" alt="PayPal——最安全便捷的在线支付方式！"
+				style="margin-bottom: 0.5em;">
+			<img alt="" border="0" width="1" height="1" 
+				src="https://www.paypalobjects.com/zh_XC/i/scr/pixel.gif" >
+		</form>
+
+		<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg" title="Alipay_Scan_Payment" class="fancybox" rel="article0">
+			<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg" title="Donate 打赏" height="164px" width="164px"/>
+		</a> &nbsp; 
+		
+		<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" title="Alipay_Scan_Payment" class="fancybox" rel="article0">
+			<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" title="Thanks 谢谢~" height="164px" width="164px"/>
+		</a> &nbsp; 
+		
+		<a href="http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg" title="WeChat_Scan_Payment" class="fancybox" rel="article0">
+			<img src="http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg" title="Donate 打赏" height="164px" width="auto"/>
+		</a>
+		
+		<span class="donate_txt">
+			Use App <span class="bold"><a href="http://global.alipay.com/ospay/home.htm">Alipay</a> / <a href="http://www.wechat.com/en/">WeChat</a></span>
+			to scan QRCode~ Thx for your support.<br/>
+			
+			用手机 <span class="bold"><a href="https://mobile.alipay.com/index.htm">支付宝钱包</a> / <a href="http://weixin.qq.com/">微信</a></span>，
+			扫一扫即可~ 谢谢您的鼓励。<br/>
+			<br/>
+			
+			Or donate on <a id="donate_on_web2" class="bold" href="javascript:donate_on_web();" title="Donate 打赏">Web Alipay</a>. /
+			
+			也可用 <a id="donate_on_web1" class="bold" href="javascript:donate_on_web();" title="Donate 打赏">网页版支付宝</a> 
+			打赏。<br/>
+		</span>
+		<br/>
+	</div>
+	<!-- /donate guide -->
+	
+	<!-- donate script -->
+	<script type="text/javascript">
+		document.getElementById('btn_donate').onclick = function(){
+			$('#donate_board').addClass('hidden');
+			$('#donate_guide').removeClass('hidden');
+		}
+		
+		function donate_on_web(){
+			$('#donate').submit();
+		}
+	</script>
+	<!-- /donate script -->
+</div>
+<!-- /Donate Module -->
+
+<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/ASM/">ASM</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/TECH/">TECH</a>
+  </div>
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://icehe.me/2015/02/02/asm/Assembly Language - Note 1/" data-title="Assembly Language 汇编语言 - Note 1 | Ice He 何志遠" data-tsina="undefined" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2015/02/04/asm/Assembly Language - Note 2/" title="Assembly Language 汇编语言 - Note 2">
+  <strong>Prev：</strong><br/>
+  <span>
+  Assembly Language 汇编语言 - Note 2</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/2015/02/02/asm/在win7 64位系统上使用debug.exe/"  title="在win7 64位系统上使用 debug.exe （汇编学习准备）">
+ <strong>Next：</strong><br/> 
+ <span>在win7 64位系统上使用 debug.exe （汇编学习准备）
+</span>
+</a>
+</div>
+
+</nav>
+
+	<section id="comments" class="comment"></section>
+
+<script type="text/javascript">
+	document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="2015/02/02/asm/Assembly Language - Note 1/" data-title="Assembly Language 汇编语言 - Note 1" data-url="http://icehe.me/2015/02/02/asm/Assembly Language - Note 1/"></div>'
+		+ '<hr/>'
+		+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
+		+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
+		+ '</div>';
+	
+	function loadDisqus(){
+		var disqus_shortname = 'icehe';
+
+		(function(){
+			var dsq = document.createElement('script');
+			dsq.type = 'text/javascript';
+			dsq.async = true;
+			dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}());
+		
+		(function(){
+			var dsq = document.createElement('script');
+			dsq.type = 'text/javascript';
+			dsq.async = true;
+			dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}());
+		
+		document.getElementById('disqus_div').innerHTML = '<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>';
+	}
+</script>
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
+<aside class="clearfix">
+
+  <div class="sitelist" style="display: block;">
+	<p class="asidetitle">Cur Site 当前站点</p>
+    <ul>
+		<!-- <li>
+			<a  href="http://icehe.gitcafe.io/" class="bold">
+				<i class="fa fa-fighter-jet"></i>
+				在中国大陆，备用站更快。
+			</a>
+		</li> -->
+		
+		<li id="github_main"></li>
+		<li id="gitcafe_spare">	</li>
+    </ul>
+</div>
+<script type="text/javascript">
+
+	var isOnGithub = (-1 != location.href.indexOf("icehe.me"));
+	var isOnGitcafe = (-1 != location.href.indexOf("icehe.gitcafe.io"));
+
+	var main_fa_class = '';
+	var spare_fa_class = '';
+	
+	document.getElementById('github_main').innerHTML = '<a href="'
+		+ (isOnGithub ? 'javascript:;' : 'http://icehe.me/')
+		+ '" target="_top"><i class="fa '
+		+ (isOnGithub ? 'fa-check-square-o' : 'fa-square-o')
+		+ '"></i>&nbsp;Primary 主站 &nbsp;-&nbsp; GithubPage</a>';
+		
+	document.getElementById('gitcafe_spare').innerHTML = '<a href="'
+		+ (isOnGitcafe ? 'javascript:;' : 'http://icehe.gitcafe.io/')
+		+ '" target="_top"><i class="fa '
+		+ (isOnGitcafe ? 'fa-check-square-o' : 'fa-square-o')
+		+ '"></i>&nbsp;Mirror &nbsp; 备用 &nbsp;-&nbsp; 中国大陆</a>';
+		
+</script>
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">Categories 分类</p>
+		<ul>
+		
+			<li><a href="/categories/ASM/" title="ASM">ASM<sup>17</sup></a></li>
+		
+			<li><a href="/categories/Batch/" title="Batch">Batch<sup>4</sup></a></li>
+		
+			<li><a href="/categories/C/" title="C++">C++<sup>7</sup></a></li>
+		
+			<li><a href="/categories/IDE/" title="IDE">IDE<sup>1</sup></a></li>
+		
+			<li><a href="/categories/JavaScript/" title="JavaScript">JavaScript<sup>1</sup></a></li>
+		
+			<li><a href="/categories/Linux/" title="Linux">Linux<sup>7</sup></a></li>
+		
+			<li><a href="/categories/PHP/" title="PHP">PHP<sup>2</sup></a></li>
+		
+			<li><a href="/categories/Web/" title="Web">Web<sup>3</sup></a></li>
+		
+			<li><a href="/categories/read/" title="read">read<sup>1</sup></a></li>
+		
+			<li><a href="/categories/time-mgt/" title="time mgt">time mgt<sup>1</sup></a></li>
+		
+		</ul>
+</div>
+
+
+  
+<div class="tagslist">
+	<p class="asidetitle">Tags 标签</p>
+		<ul class="clearfix">
+		
+			<li><a href="/tags/TECH/" title="TECH">TECH<sup>34</sup></a></li>
+		
+			<li><a href="/tags/CentOS/" title="CentOS">CentOS<sup>7</sup></a></li>
+		
+			<li><a href="/tags/DOS/" title="DOS">DOS<sup>5</sup></a></li>
+		
+			<li><a href="/tags/build-blog/" title="build blog">build blog<sup>3</sup></a></li>
+		
+			<li><a href="/tags/LIFE/" title="LIFE">LIFE<sup>3</sup></a></li>
+		
+			<li><a href="/tags/handwritten/" title="handwritten">handwritten<sup>3</sup></a></li>
+		
+			<li><a href="/tags/Hexo/" title="Hexo">Hexo<sup>1</sup></a></li>
+		
+			<li><a href="/tags/Shadowsocks/" title="Shadowsocks">Shadowsocks<sup>1</sup></a></li>
+		
+			<li><a href="/tags/pip/" title="pip">pip<sup>1</sup></a></li>
+		
+			<li><a href="/tags/donate/" title="donate">donate<sup>1</sup></a></li>
+		
+			<li><a href="/tags/security/" title="security">security<sup>1</sup></a></li>
+		
+			<li><a href="/tags/SSH/" title="SSH">SSH<sup>1</sup></a></li>
+		
+			<li><a href="/tags/kernel/" title="kernel">kernel<sup>1</sup></a></li>
+		
+			<li><a href="/tags/optimize-code/" title="optimize code">optimize code<sup>1</sup></a></li>
+		
+			<li><a href="/tags/Eclipse/" title="Eclipse">Eclipse<sup>1</sup></a></li>
+		
+			<li><a href="/tags/Zend-Studio/" title="Zend Studio">Zend Studio<sup>1</sup></a></li>
+		
+			<li><a href="/tags/logic/" title="logic">logic<sup>1</sup></a></li>
+		
+			<li><a href="/tags/coding/" title="coding">coding<sup>1</sup></a></li>
+		
+			<li><a href="/tags/mount/" title="mount">mount<sup>1</sup></a></li>
+		
+		</ul>
+</div>
+
+
+  <div class="popularlist">
+	<p class="asidetitle">Read Top5 热榜</p>
+	<ul class="clearfix popularlist_ul"></ul>
+</div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">Links 友链</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="http://290841032.qzone.qq.com" target="_blank" title="飘。Gone with the wind.">Gone with the wind</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://sf-zhou.github.io/" target="_blank" title="极地 · 雪">极地 · 雪</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://shiweyyan.github.io/" target="_blank" title="Shiwey Yan">Shiwey Yan</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://janfan.github.io/" target="_blank" title="Jan Fan">Jan Fan</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  <div class="find_me">
+	<p class="asidetitle">Findme.im 立即找我</p>
+	<div class="puzzle center">
+		<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/find_me_00.png" />
+	</div>
+	<div class="center">
+		If you want to find me,<br/>
+		nothing can stop you.
+	</span>
+</div>
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS</a>
+</div>
+
+  <!-- Donate Module -->
+	<br/>
+	<p class="asidetitle" style="display: none;">Donate 打赏</p>
+	
+	<!-- css -->
+	<style type="text/css">
+		.donate_bar a.btn_donate{
+			display: inline-block;
+			width: 82px;
+			height: 82px;
+			background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
+			_background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat; 
+			
+			-webkit-transition: background 0s;
+			-moz-transition: background 0s;
+			-o-transition: background 0s;
+			-ms-transition: background 0s;
+			transition: background 0s;
+		}
+		.donate_bar a.btn_donate:hover{ background-position: 0px -82px; }
+		.donate_bar .donate_txt {
+			display: block;
+			color: #9d9d9d;
+			font: 14px/2 "Microsoft Yahei";
+		}
+		.bold{ font-weight: bold; }
+	</style>
+	<!-- /css -->
+
+	<!-- btn_donate & tips -->
+	<div id="donate_board_wdg" class="donate_bar center">
+		<a id="btn_donate_wdg" class="btn_donate" href="/2015/04/02/reward/" title="Reward 打赏" target="_top"></a>
+		<span class="donate_txt">
+			o(￣▽￣)/ &nbsp; 
+			<span style="font-weight: bold;">求打赏 !~</span><br/>
+			Reward me ~
+		</span>
+	</div>
+	<!-- /btn_donate & tips -->
+
+<!-- /Donate Module -->
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<div>
+			<!-- Present is a present. <br/>
+			卮言。 <br/>
+			test <br/> -->
+			<div id="hitokoto"><script>hitokoto()</script></div><br/>
+			&nbsp; &nbsp; &nbsp; &nbsp; <a href="http://hitokoto.us/index.html" target="_blank" style="font-weight: 60%; color: grey;">—— 一言 - ヒトコト</a><br/>
+		</div>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		<a href="https://github.com/IceHe" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		<a href="http://weibo.com/icedes" target="_blank" class="icon-weibo" title="微博"></a>
+		
+		
+		<a href="http://weibo.com/2622530715" target="_blank" class="icon-weibo" title="微博"></a>
+		
+		
+		
+		
+		
+		
+		<a href="https://www.douban.com/people/IceHeGZ" target="_blank" class="icon-douban" title="豆瓣"></a>
+		
+		
+		
+		
+		<a href="mailto:ice.he.hzy@gmail.com" target="_blank" class="icon-email" title="Email Me"></a>
+		
+	</div>
+		<p class="copyright">Powered by <a href="http://zespia.tw/hexo/" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Pacman">Jacman</a> © 2015 
+		
+		<a href="http://icehe.me/about" target="_blank" title="IceHe何志远">IceHe何志远</a>
+		
+		</p>
+</div>
+</footer>
+    <script id="jQueryLink" src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script> 
+<script type="text/javascript">
+	window.jQuery || document.write('<script src="/js/jquery-2.0.3.min.js"><\/script>');
+</script>
+
+<!-- <script src="/js/jquery.imagesloaded.min.js"></script> -->
+<!-- <script src="/js/gallery.js"></script> -->
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.imagesloaded.min.js"></script>
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/gallery.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else
+    {
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+        
+    }
+  });
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#nothing"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
+
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"icehe"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+
+<!-- 下一行中加入了 false &&，阻止disqus的有关js脚本过早加载，优化网站的访问速度。
+	 现已在comment.ejs中重写了disqus的加载方式。 -->
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+<script type="text/javascript">
+if(-1 != location.href.indexOf("icehe.me")){
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-60837823-1', 'auto');  
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+<script type="text/javascript">
+if(-1 != location.href.indexOf("icehe.gitcafe.io")){
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-60837823-2', 'auto');  
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+
+<div style="display: none;">
+
+	
+	<script type="text/javascript">
+	if(-1 != location.href.indexOf("icehe.me")){
+		var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+		document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F7076c1a5edd76a6bd49f8065ceecc7a4' type='text/javascript'%3E%3C/script%3E"));
+	}
+	</script>
+	
+
+	
+	<script type="text/javascript">
+	if(-1 != location.href.indexOf("icehe.gitcafe.io")){
+		var _bdhmProtocol2 = (("https:" == document.location.protocol) ? " https://" : " http://");
+		document.write(unescape("%3Cscript src='" + _bdhmProtocol2 + "hm.baidu.com/h.js%3F68e951d2eed2725bdd8cf4b1900d632f' type='text/javascript'%3E%3C/script%3E"));
+	}
+	</script>
+	
+
+</div>
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<!-- <a title="Back to Top"><img src="/img/scrollup.png"/></a> -->
+	<a title="Back to Top"><img src="//7vzp68.com1.z0.glb.clouddn.com/common/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Lean Cloud -->
+<script src="https://leancloud.cn/scripts/lib/av-0.5.0.min.js"></script>
+<script type="text/javascript">
+	AV.initialize("u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5");
+	// 初始化 param1：应用 id、param2：应用 key
+</script>
+
+<!-- page counter part -->
+<script>
+function addCount (Counter) {
+	url = $('.article-url').attr('href').trim();
+	title = $('.article-title').text().trim();
+	var query = new AV.Query(Counter);
+	//use url as unique idnetfication
+	query.equalTo("url",url);
+	query.find({
+		success: function(results){
+			if(results.length>0){
+				var counter = results[0];
+				counter.fetchWhenSave(true); //get recent result
+				counter.increment("time");
+				counter.save();
+			}else{
+				var newcounter = new Counter();
+				newcounter.set("title", title);
+				newcounter.set("url", url);
+				newcounter.set("time", 1);
+				newcounter.save(null, {
+					success: function(newcounter){
+						//alert('New object created');
+					},
+					error: function(newcounter,error){
+						//alert('Failed to create');
+					}
+				});
+			}
+		},
+		error: function(error){
+			// find null is not a error
+			//alert('Error:' + error.code + " " + error.message);
+		}
+	});
+}
+
+$(function(){
+	var Counter = AV.Object.extend("Counter");
+	// only increse visit counting when intering a page
+	if($('.article-title').length == 1)
+		addCount(Counter);
+	
+	// if popularlist widget exists, add item to it.
+	var popular_list = $('.popularlist');
+	if(1 == popular_list.length){
+		var query = new AV.Query(Counter);
+		query.descending("time");
+		query.limit(5);
+		query.find({
+			success: function(results){
+				for(var i = 0; i < results.length; ++i){
+					var counter = results[i];
+					title = counter.get("title");
+					url = counter.get("url");
+					time = counter.get("time");
+					
+					$('.popularlist_ul').append('<li><a href="'
+						+ url + '" name="'
+						+ title + '"><sup>'
+						+ time + ' &nbsp;</sup>'
+						+ title + '</a></li>'
+					);
+				}
+			},
+			error: function(error){
+				//alert("Error:" + error.code + " " + error.message);
+			}
+		});
+	}
+	
+	// if cur page is a post, set the post pageview.
+	var article_info = $(".article-info");
+	if(1 == article_info.length){
+		var query = new AV.Query(Counter);
+		query.equalTo("url", article_info.find(".article-title a").attr("href"));
+		query.limit(1);
+		query.find({
+			success: function(results){
+				if(1 == results.length){
+					var counter = results[0];
+					title = counter.get("title");
+					url = counter.get("url");
+					time = counter.get("time");
+					
+					article_info.find(".article-readtimes .readtimes").text(time);
+				}
+			},
+			error: function(error){
+				article_info.find(".article-readtimes .readtimes").text("?");
+				//alert("Error:" + error.code + " " + error.message);
+			}
+		});
+	}
+	
+	// if cur page is Home, set the post_list pageviews.
+	var post_list = $("#main[class!=post]");
+	if(0 != post_list.length){
+		var post_items = post_list.find(".post a");
+		for(var i = 0; i < post_items.length; ++i){
+			var url = post_items.eq(i).attr("href");
+			query.equalTo("url", url);
+			query.limit(1);
+			query.find({
+				success: function(results){
+					if(1 == results.length){
+						var counter = results[0];
+						title = counter.get("title");
+						url = counter.get("url");
+						time = counter.get("time");
+						
+						$(".post a[href='" + url + "']").find('.readtimes').text(time);
+					}
+				},
+				error: function(error){
+					//alert("Error:" + error.code + " " + error.message);
+				}
+			});
+		}
+	}
+});
+</script>
+<!-- /Lean Cloud -->
+  </body>
+</html>
