@@ -1669,7 +1669,7 @@ section.comment {
     position: relative;
     float: left;
     width: 18%;
-    margin: 2em 0 0 3%;
+    margin: 2em 0 2em 3%;
   }
 }
 .asidetitle {
@@ -1690,7 +1690,7 @@ section.comment {
   transition: color 0.5s;
 }
 .sitelist {
-  font-size: 95%;
+  font-size: 90%;
   margin-top: 0.5em;
 }
 @media only screen and (min-width: 768px) {
@@ -1711,7 +1711,7 @@ section.comment {
   padding: 0.5em 0;
 }
 .sitelist ul a {
-  font-size: 1em;
+  font-size: 85%;
   line-height: 1.5;
   display: block;
   padding: 0 3%;
@@ -1725,12 +1725,12 @@ section.comment {
   transition: color 0.25s;
 }
 .categorieslist {
-  font-size: 95%;
+  font-size: 90%;
 }
 @media only screen and (min-width: 768px) {
   .categorieslist {
     width: 45%;
-    float: left;
+    float: right;
     margin: 0 5% 0 0;
   }
 }
@@ -1745,14 +1745,16 @@ section.comment {
   border-bottom: 1px solid #ccc;
 }
 .categorieslist li a {
+  margin-left: 5%;
+  font-size: 80%;
   display: block;
-  padding: 0.24em 5%;
+  padding: 0.2em 2%;
 }
 .categorieslist li a:hover {
   color: #69c;
 }
 .tagslist {
-  font-size: 95%;
+  font-size: 90%;
   margin: 1em 0 0;
 }
 @media only screen and (min-width: 768px) {
@@ -1776,6 +1778,7 @@ section.comment {
   float: left;
 }
 .tagslist ul li a {
+  font-size: 85%;
   display: block;
   margin: 0.16em;
   padding: 0 0.3em;
@@ -1786,7 +1789,7 @@ section.comment {
   background: #f5f5f5;
 }
 .rsspart {
-  font-size: 95%;
+  font-size: 90%;
   background: #69c;
   width: 100%;
 }
@@ -1822,7 +1825,7 @@ section.comment {
   content: "\f09e";
 }
 .archiveslist {
-  font-size: 95%;
+  font-size: 90%;
   padding-right: 1em;
 }
 @media only screen and (min-width: 1024px) {
@@ -1955,7 +1958,7 @@ section.comment {
   padding: 0.5em 0;
 }
 .popularlist {
-  font-size: 95%;
+  font-size: 90%;
 }
 @media only screen and (min-width: 768px) {
   .popularlist {
@@ -1975,7 +1978,7 @@ section.comment {
   border-bottom: 1px solid #ccc;
 }
 .popularlist li a {
-  font-size: 85%;
+  font-size: 80%;
   display: block;
   padding: 0.4em 5%;
 }

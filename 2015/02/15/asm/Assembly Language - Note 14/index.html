@@ -17,7 +17,7 @@
   <meta name="description" content="使用BIOS进行键盘输入和磁盘读写。中断例程对键盘输入的处理。实例：使用 int 16h 中断例程读取键盘缓冲区；字符串的输入；应用 int 13h 中断例程对磁盘进行读写；编写包含多个功能子程序的中断例程。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Assembly Language 汇编语言 - Note 14">
-<meta property="og:url" content="http://icehe.gitcafe.io/2015/02/15/asm/Assembly Language - Note 14/index.html">
+<meta property="og:url" content="http://icehe.me/2015/02/15/asm/Assembly Language - Note 14/index.html">
 <meta property="og:site_name" content="Ice He 何志遠">
 <meta property="og:description" content="使用BIOS进行键盘输入和磁盘读写。中断例程对键盘输入的处理。实例：使用 int 16h 中断例程读取键盘缓冲区；字符串的输入；应用 int 13h 中断例程对磁盘进行读写；编写包含多个功能子程序的中断例程。">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%2014/Evernote%20Camera%20Roll%2020150117%20171602.png">
@@ -50,7 +50,7 @@
   <meta name="baidu-site-verification" content="HpoaJokwfB" />
 
   <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE" />
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
   <!-- Google Fonts from 360 CDN -->
   <link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -149,13 +149,13 @@
   </h1>
   <p class="article-author">By
        
-		<a href="http://icehe.gitcafe.io/about" title="IceHe何志远" target="_blank" itemprop="author">IceHe何志远</a>
+		<a href="http://icehe.me/about" title="IceHe何志远" target="_blank" itemprop="author">IceHe何志远</a>
 		
   <p class="article-time">
     <time datetime="2015-02-14T16:33:07.000Z" itemprop="datePublished"> Published 2015 Feb 15</time>
   </p>
   <p class="article-readtimes">
-    Read ( <span class="readtimes">x</span> )
+    Read ( <span class="readtimes">?</span> )
   </p>
 </header>
 	<div class="article-content">
@@ -455,7 +455,7 @@ end start</div><div><br></div><div><strong>Att - </strong><a title="Attachment �
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://icehe.gitcafe.io/2015/02/15/asm/Assembly Language - Note 14/" data-title="Assembly Language 汇编语言 - Note 14 | Ice He 何志遠" data-tsina="undefined" class="share clearfix">
+	  <div data-url="http://icehe.me/2015/02/15/asm/Assembly Language - Note 14/" data-title="Assembly Language 汇编语言 - Note 14 | Ice He 何志遠" data-tsina="undefined" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -490,7 +490,7 @@ end start</div><div><br></div><div><strong>Att - </strong><a title="Attachment �
 	<section id="comments" class="comment"></section>
 
 <script type="text/javascript">
-	document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="2015/02/15/asm/Assembly Language - Note 14/" data-title="Assembly Language 汇编语言 - Note 14" data-url="http://icehe.gitcafe.io/2015/02/15/asm/Assembly Language - Note 14/"></div>'
+	document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="2015/02/15/asm/Assembly Language - Note 14/" data-title="Assembly Language 汇编语言 - Note 14" data-url="http://icehe.me/2015/02/15/asm/Assembly Language - Note 14/"></div>'
 		+ '<hr/>'
 		+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
 		+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
@@ -525,40 +525,8 @@ end start</div><div><br></div><div><strong>Att - </strong><a title="Attachment �
 <div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
 <aside class="clearfix">
 
-  <div class="sitelist" style="display: block;">
-	<p class="asidetitle">Cur Site 当前站点</p>
-    <ul>
-		<!-- <li>
-			<a  href="http://icehe.gitcafe.io/" class="bold">
-				<i class="fa fa-fighter-jet"></i>
-				在中国大陆，备用站更快。
-			</a>
-		</li> -->
-		
-		<li id="github_main"></li>
-		<li id="gitcafe_spare">	</li>
-    </ul>
-</div>
-
-<script type="text/javascript">
-	var main_fa_class = '';
-	var spare_fa_class = '';
-	
-	document.getElementById('github_main').innerHTML = '<a href="'
-		+ (isOnGithub ? 'javascript:;' : 'http://icehe.me/')
-		+ '" target="_top"><i class="fa '
-		+ (isOnGithub ? 'fa-check-square-o' : 'fa-square-o')
-		+ '"></i>&nbsp;Primary 主站 &nbsp;-&nbsp; GithubPage</a>';
-		
-	document.getElementById('gitcafe_spare').innerHTML = '<a href="'
-		+ (isOnGitcafe ? 'javascript:;' : 'http://icehe.gitcafe.io/')
-		+ '" target="_top"><i class="fa '
-		+ (isOnGitcafe ? 'fa-check-square-o' : 'fa-square-o')
-		+ '"></i>&nbsp;Mirror &nbsp; 备用 &nbsp;-&nbsp; 中国大陆</a>';
-</script>
-
   <div class="popularlist">
-	<p class="asidetitle">Read Top5 热榜</p>
+	<p class="asidetitle">Read Top10 热榜</p>
 	<ul class="clearfix popularlist_ul"></ul>
 </div>
 
@@ -594,92 +562,93 @@ end start</div><div><br></div><div><strong>Att - </strong><a title="Attachment �
   
 <div class="tagslist">
 	<p class="asidetitle">Tags 标签</p>
-		<ul class="clearfix">
-		
-			<li><a href="/tags/TECH/" title="TECH">TECH<sup>34</sup></a></li>
-		
-			<li><a href="/tags/CentOS/" title="CentOS">CentOS<sup>7</sup></a></li>
-		
-			<li><a href="/tags/DOS/" title="DOS">DOS<sup>5</sup></a></li>
-		
-			<li><a href="/tags/LIFE/" title="LIFE">LIFE<sup>3</sup></a></li>
-		
-			<li><a href="/tags/build-blog/" title="build blog">build blog<sup>3</sup></a></li>
-		
-			<li><a href="/tags/handwritten/" title="handwritten">handwritten<sup>3</sup></a></li>
-		
-			<li><a href="/tags/donate/" title="donate">donate<sup>1</sup></a></li>
-		
-			<li><a href="/tags/Shadowsocks/" title="Shadowsocks">Shadowsocks<sup>1</sup></a></li>
-		
-			<li><a href="/tags/pip/" title="pip">pip<sup>1</sup></a></li>
-		
-			<li><a href="/tags/Hexo/" title="Hexo">Hexo<sup>1</sup></a></li>
-		
-			<li><a href="/tags/security/" title="security">security<sup>1</sup></a></li>
-		
-			<li><a href="/tags/SSH/" title="SSH">SSH<sup>1</sup></a></li>
-		
-			<li><a href="/tags/kernel/" title="kernel">kernel<sup>1</sup></a></li>
-		
-			<li><a href="/tags/optimize-code/" title="optimize code">optimize code<sup>1</sup></a></li>
-		
-			<li><a href="/tags/Eclipse/" title="Eclipse">Eclipse<sup>1</sup></a></li>
-		
-			<li><a href="/tags/Zend-Studio/" title="Zend Studio">Zend Studio<sup>1</sup></a></li>
-		
-			<li><a href="/tags/logic/" title="logic">logic<sup>1</sup></a></li>
-		
-			<li><a href="/tags/coding/" title="coding">coding<sup>1</sup></a></li>
-		
-			<li><a href="/tags/mount/" title="mount">mount<sup>1</sup></a></li>
-		
-		</ul>
+	<ul class="clearfix">
+	
+		<li><a href="/tags/TECH/" title="TECH">TECH<sup>34</sup></a></li>
+	
+		<li><a href="/tags/CentOS/" title="CentOS">CentOS<sup>7</sup></a></li>
+	
+		<li><a href="/tags/DOS/" title="DOS">DOS<sup>5</sup></a></li>
+	
+		<li><a href="/tags/build-blog/" title="build blog">build blog<sup>3</sup></a></li>
+	
+		<li><a href="/tags/handwritten/" title="handwritten">handwritten<sup>3</sup></a></li>
+	
+		<li><a href="/tags/LIFE/" title="LIFE">LIFE<sup>3</sup></a></li>
+	
+		<li><a href="/tags/kernel/" title="kernel">kernel<sup>1</sup></a></li>
+	
+		<li><a href="/tags/coding/" title="coding">coding<sup>1</sup></a></li>
+	
+		<li><a href="/tags/pip/" title="pip">pip<sup>1</sup></a></li>
+	
+		<li><a href="/tags/donate/" title="donate">donate<sup>1</sup></a></li>
+	
+		<li><a href="/tags/security/" title="security">security<sup>1</sup></a></li>
+	
+		<li><a href="/tags/SSH/" title="SSH">SSH<sup>1</sup></a></li>
+	
+		<li><a href="/tags/Shadowsocks/" title="Shadowsocks">Shadowsocks<sup>1</sup></a></li>
+	
+		<li><a href="/tags/optimize-code/" title="optimize code">optimize code<sup>1</sup></a></li>
+	
+		<li><a href="/tags/Eclipse/" title="Eclipse">Eclipse<sup>1</sup></a></li>
+	
+		<li><a href="/tags/Zend-Studio/" title="Zend Studio">Zend Studio<sup>1</sup></a></li>
+	
+		<li><a href="/tags/logic/" title="logic">logic<sup>1</sup></a></li>
+	
+		<li><a href="/tags/Hexo/" title="Hexo">Hexo<sup>1</sup></a></li>
+	
+		<li><a href="/tags/mount/" title="mount">mount<sup>1</sup></a></li>
+	
+	</ul>
 </div>
 
 
-  <div class="linkslist">
-  <p class="asidetitle">Links 友链</p>
-  <ul>
-      
-        <li>
-          
-          	<a href="http://290841032.qzone.qq.com" target="_blank" title="飘。Gone with the wind.">Gone with the wind</a>
-          
-        </li>
-      
-        <li>
-          
-          	<a href="http://sf-zhou.github.io/" target="_blank" title="极地 · 雪">极地 · 雪</a>
-          
-        </li>
-      
-        <li>
-          
-          	<a href="http://shiweyyan.github.io/" target="_blank" title="Shiwey Yan">Shiwey Yan</a>
-          
-        </li>
-      
-        <li>
-          
-          	<a href="http://janfan.github.io/" target="_blank" title="Jan Fan">Jan Fan</a>
-          
-        </li>
-      
-  </ul>
+  <div class="sitelist" style="display: block;">
+	<p class="asidetitle">Cur Site 当前站点</p>
+    <ul>
+		<!-- <li>
+			<a  href="http://icehe.gitcafe.io/" class="bold">
+				<i class="fa fa-fighter-jet"></i>
+				在中国大陆，备用站更快。
+			</a>
+		</li> -->
+		
+		<li id="github_main"></li>
+		<li id="gitcafe_spare">	</li>
+    </ul>
 </div>
+
+<script type="text/javascript">
+	var main_fa_class = '';
+	var spare_fa_class = '';
+	
+	document.getElementById('github_main').innerHTML = '<a href="'
+		+ (isOnGithub ? 'javascript:;' : 'http://icehe.me/')
+		+ '" target="_top"><i class="fa '
+		+ (isOnGithub ? 'fa-check-square-o' : 'fa-square-o')
+		+ '"></i>&nbsp;Primary 主站 &nbsp;-&nbsp; GithubPage</a>';
+		
+	document.getElementById('gitcafe_spare').innerHTML = '<a href="'
+		+ (isOnGitcafe ? 'javascript:;' : 'http://icehe.gitcafe.io/')
+		+ '" target="_top"><i class="fa '
+		+ (isOnGitcafe ? 'fa-check-square-o' : 'fa-square-o')
+		+ '"></i>&nbsp;Mirror &nbsp; 备用 &nbsp;-&nbsp; 中国大陆</a>';
+</script>
 
   <div class="rsspart">
 	<a href="/atom.xml" target="_blank" title="rss">RSS</a>
 </div>
 
   <!-- Donate Module -->
-	<br/>
 	<p class="asidetitle" style="display: none;">Donate 打赏</p>
 	
 	<!-- css -->
 	<style type="text/css">
 		.donate_bar a.btn_donate{
+			margin-top: 0.8em;
 			display: inline-block;
 			width: 82px;
 			height: 82px;
@@ -705,9 +674,8 @@ end start</div><div><br></div><div><strong>Att - </strong><a title="Attachment �
 	<!-- btn_donate & tips -->
 	<div id="donate_board_wdg" class="donate_bar center">
 		<a id="btn_donate_wdg" class="btn_donate" href="/2015/04/02/reward/" title="Reward 打赏" target="_top"></a>
-		<span class="donate_txt">
-			o(￣▽￣)/ &nbsp; 
-			<span style="font-weight: bold;">求打赏 !~</span><br/>
+		<span class="donate_txt" style="font-size: 80%;">
+			<span style="font-weight: bold;">求打赏 ! </span> 
 			Reward me ~
 		</span>
 	</div>
@@ -741,7 +709,7 @@ end start</div><div><br></div><div><strong>Att - </strong><a title="Attachment �
 	</div>
 	<p class="copyright">Powered by <a href="http://zespia.tw/hexo/" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Pacman">Jacman</a> © 2015 
 	
-	<a href="http://icehe.gitcafe.io/about" target="_blank" title="IceHe何志远">IceHe何志远</a>
+	<a href="http://icehe.me/about" target="_blank" title="IceHe何志远">IceHe何志远</a>
 	
 	</p>
 </div>
