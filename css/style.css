@@ -1711,7 +1711,7 @@ section.comment {
   margin: 0.4em 0;
 }
 .sitelist ul li {
-  font-size: 80%;
+  font-size: 85%;
   display: block;
 }
 .sitelist ul select {
@@ -1741,7 +1741,7 @@ section.comment {
 }
 .categorieslist li a {
   margin-left: 5%;
-  font-size: 80%;
+  font-size: 85%;
   display: block;
   padding: 0.2em 2%;
 }
@@ -1918,7 +1918,7 @@ section.comment {
   padding: 0.5em 0;
 }
 .linkslist ul a {
-  font-size: 80%;
+  font-size: 85%;
   line-height: 1.5;
   display: block;
   padding: 0 3%;
@@ -1973,7 +1973,7 @@ section.comment {
   border-bottom: 1px solid #ccc;
 }
 .popularlist li a {
-  font-size: 80%;
+  font-size: 85%;
   display: block;
   padding: 0.4em 5%;
 }
