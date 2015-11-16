@@ -1708,10 +1708,19 @@ section.comment {
   }
 }
 .sitelist ul {
-  margin: 0.3em 0;
+  margin: 0.4em 0;
+}
+.sitelist ul li {
+  font-size: 80%;
+  display: block;
+}
+.sitelist ul select {
+  margin-bottom: 0.3em;
+  display: block;
 }
 .categorieslist {
   font-size: 90%;
+  margin-top: 0.5em;
 }
 @media only screen and (min-width: 768px) {
   .categorieslist {
