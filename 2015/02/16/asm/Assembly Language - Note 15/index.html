@@ -17,7 +17,7 @@
   <meta name="description" content="附录：Intel系列微处理器的3种工作模式。汇编编译器（masm.exe）对jmp的相关处理，编译器中的地址计数器（AC），对伪操作指令的处理。用栈传递参数。无溢出除法的公式证明。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Assembly Language 汇编语言 - Note 15">
-<meta property="og:url" content="http://icehe.gitcafe.io/2015/02/16/asm/Assembly Language - Note 15/index.html">
+<meta property="og:url" content="http://icehe.me/2015/02/16/asm/Assembly Language - Note 15/index.html">
 <meta property="og:site_name" content="Ice He 何志遠">
 <meta property="og:description" content="附录：Intel系列微处理器的3种工作模式。汇编编译器（masm.exe）对jmp的相关处理，编译器中的地址计数器（AC），对伪操作指令的处理。用栈传递参数。无溢出除法的公式证明。">
 <meta property="og:updated_time" content="2015-03-04T10:21:49.000Z">
@@ -42,7 +42,7 @@
   <meta name="baidu-site-verification" content="HpoaJokwfB" />
 
   <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE" />
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
   <!-- Google Fonts from 360 CDN -->
   <link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -141,7 +141,7 @@
   </h1>
   <p class="article-author">By
        
-		<a href="http://icehe.gitcafe.io/about" title="IceHe何志远" target="_blank" itemprop="author">IceHe何志远</a>
+		<a href="http://icehe.me/about" title="IceHe何志远" target="_blank" itemprop="author">IceHe何志远</a>
 		
   <p class="article-time">
     <time datetime="2015-02-15T16:33:20.000Z" itemprop="datePublished"> Published 2015 Feb 16</time>
@@ -302,7 +302,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://icehe.gitcafe.io/2015/02/16/asm/Assembly Language - Note 15/" data-title="Assembly Language 汇编语言 - Note 15 | Ice He 何志遠" data-tsina="undefined" class="share clearfix">
+	  <div data-url="http://icehe.me/2015/02/16/asm/Assembly Language - Note 15/" data-title="Assembly Language 汇编语言 - Note 15 | Ice He 何志遠" data-tsina="undefined" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -337,7 +337,7 @@
 	<section id="comments" class="comment"></section>
 
 <script type="text/javascript">
-	document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="2015/02/16/asm/Assembly Language - Note 15/" data-title="Assembly Language 汇编语言 - Note 15" data-url="http://icehe.gitcafe.io/2015/02/16/asm/Assembly Language - Note 15/"></div>'
+	document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="2015/02/16/asm/Assembly Language - Note 15/" data-title="Assembly Language 汇编语言 - Note 15" data-url="http://icehe.me/2015/02/16/asm/Assembly Language - Note 15/"></div>'
 		+ '<hr/>'
 		+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
 		+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
@@ -368,19 +368,39 @@
 </div>  
       <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
 
+
+<script type="text/javascript">
+    function switch_widget_hidden(widget_a_elem){
+        widget_class = widget_a_elem.parentElement.parentElement.className;
+        var is_hidden = (document.querySelector('.' + widget_class + ' ul').className == 'hidden');
+		document.querySelector('.' + widget_class + ' ul').className = (is_hidden ? 'clearfix' : 'hidden');
+        document.querySelector('.' + widget_class + ' p i').className = (is_hidden ? 'fa fa-caret-up' : 'fa fa-caret-down');
+    }
+</script>
+
 <div id="asidepart">
 <div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
 <aside class="clearfix">
 
   <div class="popularlist">
-	<p class="asidetitle">Read Top10 热榜</p>
-	<ul class="clearfix popularlist_ul"></ul>
+	<p class="asidetitle">
+		<a href="javascript:;" onclick="switch_widget_hidden(this);">
+			Read Top10 热榜 &nbsp;
+			<i class="fa fa-caret-up"></i>
+		</a>
+	</p>
+	<ul id="popularlist_ul" class="clearfix"></ul>
 </div>
 
   
 <div class="categorieslist">
-	<p class="asidetitle">Categories 分类</p>
-	<ul>
+	<p class="asidetitle">
+		<a href="javascript:;" onclick="switch_widget_hidden(this);">
+		Categories 分类 &nbsp;
+			<i class="fa fa-caret-up"></i>
+		</a>
+	</p>
+	<ul class="clearfix">
 	
 		<li><a href="/categories/ASM/" title="ASM">ASM<sup>17</sup></a></li>
 	
@@ -408,8 +428,13 @@
 
   
 <div class="tagslist">
-	<p class="asidetitle">Tags 标签</p>
-	<ul class="clearfix">
+	<p class="asidetitle">
+		<a href="javascript:;" onclick="switch_widget_hidden(this);">
+			Tags 标签 &nbsp;
+			<i class="fa fa-caret-down"></i>
+		</a>
+	</p>
+	<ul class="hidden">
 	
 		<li><a href="/tags/TECH/" title="TECH">TECH<sup>34</sup></a></li>
 	
@@ -454,35 +479,34 @@
 
 
   <div class="sitelist" style="display: block;">
-	<p class="asidetitle">Cur Site 当前站点</p>
-    <ul>
-		<!-- <li>
-			<a  href="http://icehe.gitcafe.io/" class="bold">
-				<i class="fa fa-fighter-jet"></i>
-				在中国大陆，备用站更快。
-			</a>
-		</li> -->
-		
-		<li id="github_main"></li>
-		<li id="gitcafe_spare">	</li>
+	<p class="asidetitle">
+		<a href="javascript:;" onclick="switch_widget_hidden(this);">
+			Site 站点 &nbsp;
+			<i class="fa fa-caret-down"></i>
+		</a>
+	</p>
+	<ul class="clearfix">
+		<select class="cur_site" onchange="switch_site(this);">
+			<option value="icehe.me" id="github_option"> Primary 主站 - on Github</option>
+			<option value="icehe.gitcafe.io" id="gitcafe_option"> Mirror &nbsp; 备用 - on Gitcafe</option>
+			<option value="http://127.0.0.1:4000" id="local_option" class="hidden"> Test 测试 - on Localhost</option>
+		</select>
     </ul>
 </div>
 
 <script type="text/javascript">
-	var main_fa_class = '';
-	var spare_fa_class = '';
-	
-	document.getElementById('github_main').innerHTML = '<a href="'
-		+ (isOnGithub ? 'javascript:;' : 'http://icehe.me/')
-		+ '" target="_top"><i class="fa '
-		+ (isOnGithub ? 'fa-check-square-o' : 'fa-square-o')
-		+ '"></i>&nbsp;Primary 主站 &nbsp;-&nbsp; GithubPage</a>';
-		
-	document.getElementById('gitcafe_spare').innerHTML = '<a href="'
-		+ (isOnGitcafe ? 'javascript:;' : 'http://icehe.gitcafe.io/')
-		+ '" target="_top"><i class="fa '
-		+ (isOnGitcafe ? 'fa-check-square-o' : 'fa-square-o')
-		+ '"></i>&nbsp;Mirror &nbsp; 备用 &nbsp;-&nbsp; 中国大陆</a>';
+	if (isOnGithub) {
+		document.getElementById('github_option').selected = true;
+	} else if (isOnGitcafe) {
+		document.getElementById('gitcafe_option').selected = true;
+	} else {
+		document.getElementById('local_option').className = '';
+		document.getElementById('local_option').selected = true;
+	}
+
+	function switch_site(select) {
+		window.location.href = select.selectedOptions[0].value;
+	}
 </script>
 
   <div class="rsspart">
@@ -556,7 +580,7 @@
 	</div>
 	<p class="copyright">Powered by <a href="http://zespia.tw/hexo/" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Pacman">Jacman</a> © 2015 
 	
-	<a href="http://icehe.gitcafe.io/about" target="_blank" title="IceHe何志远">IceHe何志远</a>
+	<a href="http://icehe.me/about" target="_blank" title="IceHe何志远">IceHe何志远</a>
 	
 	</p>
 </div>
@@ -849,7 +873,7 @@ $(function(){
 					url = counter.get("url");
 					time = counter.get("time");
 					
-					$('.popularlist_ul').append('<li><a href="'
+					$('#popularlist_ul').append('<li><a href="'
 						+ url + '" name="'
 						+ title + '"><sup>'
 						+ time + ' &nbsp;</sup>'

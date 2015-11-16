@@ -1708,21 +1708,7 @@ section.comment {
   }
 }
 .sitelist ul {
-  padding: 0.5em 0;
-}
-.sitelist ul a {
-  font-size: 85%;
-  line-height: 1.5;
-  display: block;
-  padding: 0 3%;
-}
-.sitelist ul a:hover {
-  color: #69c;
-  -webkit-transition: color 0.25s;
-  -moz-transition: color 0.25s;
-  -o-transition: color 0.25s;
-  -ms-transition: color 0.25s;
-  transition: color 0.25s;
+  margin: 0.3em 0;
 }
 .categorieslist {
   font-size: 90%;
@@ -2014,6 +2000,9 @@ footer {
   margin-top: 1em;
   background: #1f1f1f;
   padding: 0 2% 0.5em;
+}
+.article-footer {
+  display: block;
 }
 #footer {
   width: 95%;
