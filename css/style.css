@@ -109,6 +109,21 @@ body {
   font-size: 100%;
   color: #817c7c;
   line-height: 1.5;
+  min-height: 100vh;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 small {
   font-size: 80%;
@@ -551,6 +566,14 @@ header nav ul li a:hover {
 }
 /* index layout */
 #container {
+  -webkit-flex: 1;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -o-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   width: 95%;
   margin: 0 auto;
 /*margin 0 0 0 auto*/
@@ -879,20 +902,29 @@ article header.article-info >h1 {
   }
 }
 article header.article-info >p.article-author {
-  padding: 0.3em 4% 0.3em 0;
+  padding: 0.3em 0.5% 0.3em 0;
   text-align: right;
-  border-bottom: 1px solid #dbdbdb;
+  font-size: 0.8em;
 }
 @media only screen and (min-width: 768px) {
   article header.article-info >p.article-author {
     float: right;
-    border-bottom: none;
+    margin-right: 1em;
+    padding-top: 0.1em;
+    font-size: 0.9em;
   }
 }
+article header.article-info >p.article-author:before {
+  font-family: "FontAwesome";
+  font-size: 130%;
+  content: "\f007";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 article header.article-info >p.article-time {
-  padding-top: 0.5em;
+  padding: 0.3em 0.5% 0.3em 0;
+  text-align: right;
   font-size: 0.8em;
-  text-align: center;
 }
 @media only screen and (min-width: 768px) {
   article header.article-info >p.article-time {
@@ -910,9 +942,9 @@ article header.article-info >p.article-time:before {
   -moz-osx-font-smoothing: grayscale;
 }
 article header.article-info >p.article-readtimes {
-  padding-top: 0.5em;
+  padding: 0.3em 0.5% 0.3em 0;
+  text-align: right;
   font-size: 0.8em;
-  text-align: center;
 }
 @media only screen and (min-width: 768px) {
   article header.article-info >p.article-readtimes {
@@ -1282,82 +1314,16 @@ footer.article-footer {
   background: #762c54;
   text-shadow: 0 1px #5e2343;
 }
-.qrcode {
-  width: 15em;
-  height: 15em;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -7.5em;
-  margin-left: -7.5em;
+.hoverqrcode {
   background: #fff;
-  border: 2px solid #ccc;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  border: 3px solid #2ca6cb;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
   display: inline-block;
-  opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
-  position: fixed;
-  text-align: center;
-  visibility: hidden;
-  z-index: 10;
-  -webkit-transition: opacity 0.5s;
-  -moz-transition: opacity 0.5s;
-  -o-transition: opacity 0.5s;
-  -ms-transition: opacity 0.5s;
-  transition: opacity 0.5s;
-}
-@media only screen and (min-width: 1024px) {
-  .qrcode {
-    width: 20em;
-    height: 20em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -10em;
-    margin-left: -10em;
-    position: fixed;
-  }
-}
-.qrcode span {
-  display: block;
-  width: 80%;
-  height: 1.5em;
-  font-size: 80%;
-  float: left;
-}
-.qrcode span:before {
-  content: none;
-}
-.qrcode a {
-  display: block;
-  width: 16%;
-  height: 1.5em;
-  float: left;
-}
-.qrcode img {
-  width: 90%;
-  height: 90%;
-}
-.qrclose:before {
-  font-family: "FontAwesome";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "\f057";
-  color: #ccc;
-}
-.qrclose:hover:before {
-  color: #669 !important;
+  position: absolute;
 }
 .overlay {
   display: none !important;
-}
-.overlay:target+.qrcode {
-  opacity: 1;
-  -ms-filter: none;
-  filter: none;
-  visibility: visible;
 }
 .comments-count {
   color: #d6d6d6;
@@ -1370,6 +1336,11 @@ footer.article-footer {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "\f075";
+}
+@media only screen and (max-width: 568px) {
+  .comments-count {
+    float: left;
+  }
 }
 .comments-count-link {
   padding: 0.5em;
@@ -1388,7 +1359,7 @@ footer.article-footer {
 @media only screen and (max-width: 568px) {
   .article-tags,
   .article-categories {
-    width: 100%;
+    margin-right: 1em !important;
   }
 }
 .article-tags {
@@ -2004,6 +1975,46 @@ section.comment {
 .find_me .puzzle {
   padding-top: 0.7em;
 }
+.doubanshow {
+  margin-top: 0.5em;
+}
+@media only screen and (min-width: 768px) {
+  .doubanshow {
+    width: 45%;
+    float: left;
+    margin: 0 5% 0 0;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .doubanshow {
+    width: 100%;
+    float: none;
+    margin: 1em 0 0;
+  }
+}
+.doubanshow div {
+  padding: 0.5em 0;
+}
+.github-card {
+  margin-top: 1.5em;
+}
+@media only screen and (min-width: 768px) {
+  .github-card {
+    width: 45%;
+    float: left;
+    margin: 0 5% 0 0;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .github-card {
+    width: 100%;
+    float: none;
+    margin: 1em 0 0;
+  }
+}
+.github-card div {
+  padding: 0.5em 0;
+}
 footer {
   display: none;
   margin-top: 1em;
@@ -2174,7 +2185,13 @@ footer {
   font-family: "fontdiao";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f142";
+  content: "\f147";
+}
+.icon-qzone:before {
+  font-family: "fontdiao";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f128";
 }
 .copyright {
   -webkit-font-smoothing: antialiased;
@@ -2196,13 +2213,32 @@ footer {
   color: #669;
   text-decoration: underline;
 }
+.cc-license {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.cc-license .cc-opacity {
+  opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+  border-bottom: none;
+}
+.cc-license .cc-opacity:hover {
+  opacity: 0.9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  filter: alpha(opacity=90);
+}
+.cc-license img {
+  display: inline-block;
+}
 .article-content pre,
 .article-content .highlight,
 .article-content .highlight pre {
-  background: #2d2d2d;
+  background: #eee;
   margin: 0.5em 0;
   padding: 0.5em 2%;
-  color: #ccc;
+  color: #4d4d4c;
   line-height: 1.5;
   font-size: 0.8em;
   -webkit-border-radius: 0.35em;
@@ -2219,7 +2255,7 @@ footer {
 }
 .article-content .highlight .gutter pre,
 .article-content .gist .gist-file .gist-data .line-numbers {
-  color: #666;
+  color: #999;
   font-size: 0.4em;
 }
 @media only screen and (min-width: 568px) {
@@ -2231,14 +2267,6 @@ footer {
 }
 .article-content pre {
   font-family: Monaco, Menlo, Consolas, Courier New, monospace;
-  background: #f5f5f5;
-  border: 1px solid #ccc;
-}
-.article-content pre code {
-  color: #333;
-  background: none;
-  text-shadow: none;
-  padding: 0;
 }
 .article-content .highlight {
   overflow: auto;
@@ -2266,7 +2294,7 @@ footer {
   zoom: 1;
   font-size: 0.85em;
   text-align: left;
-  color: #999;
+  color: #8e908c;
   line-height: 1em;
   padding: 0.5em 0;
   margin-bottom: 0.5em;
@@ -2291,7 +2319,7 @@ footer {
 }
 .article-content .gist {
   margin: 0.5em 0;
-  background: #2d2d2d;
+  background: #eee;
   padding: 1em 2%;
   -webkit-border-radius: 0.35em;
   -webkit-border-radius: 0.35em;
@@ -2318,11 +2346,11 @@ footer {
   margin: 0;
   padding: 0;
   border: none;
-  background: #2d2d2d;
+  background: #eee;
 }
 .article-content .gist .gist-file .gist-meta {
-  background: #2d2d2d;
-  color: #999;
+  background: #eee;
+  color: #8e908c;
   font: 0.85em "Georgia", serif;
   text-shadow: 0 0;
   padding: 0;
@@ -2337,7 +2365,7 @@ footer {
 }
 pre .comment,
 pre .title {
-  color: #999;
+  color: #8e908c;
 }
 pre .variable,
 pre .attribute,
@@ -2351,7 +2379,7 @@ pre .html .doctype,
 pre .css .id,
 pre .css .class,
 pre .css .pseudo {
-  color: #f2777a;
+  color: #c82829;
 }
 pre .number,
 pre .preprocessor,
@@ -2359,12 +2387,12 @@ pre .built_in,
 pre .literal,
 pre .params,
 pre .constant {
-  color: #f99157;
+  color: #f5871f;
 }
 pre .class,
 pre .ruby .class .title,
 pre .css .rules .attribute {
-  color: #9c9;
+  color: #718c00;
 }
 pre .string,
 pre .value,
@@ -2372,10 +2400,10 @@ pre .inheritance,
 pre .header,
 pre .ruby .symbol,
 pre .xml .cdata {
-  color: #9c9;
+  color: #718c00;
 }
 pre .css .hexcolor {
-  color: #6cc;
+  color: #3e999f;
 }
 pre .function,
 pre .python .decorator,
@@ -2385,11 +2413,11 @@ pre .ruby .title .keyword,
 pre .perl .sub,
 pre .javascript .title,
 pre .coffeescript .title {
-  color: #69c;
+  color: #4271ae;
 }
 pre .keyword,
 pre .javascript .function {
-  color: #c9c;
+  color: #8959a8;
 }
 .gallery {
   overflow: hidden;
