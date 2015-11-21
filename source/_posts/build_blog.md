@@ -310,8 +310,8 @@ description: Why 初衷、How 过程，Hexo Course 建站教程，Custom Points 
 ### Scource Code 源代码
 
 - [博客实体的代码](https://github.com/IceHe/icehe.github.io)
-- [生成博客用的代码](https://github.com/IceHe/blog_src)
-- [博客theme的代码](https://github.com/IceHe/blog_theme_jacman)
+- [生成博客用的代码](https://github.com/IceHe/icehe.me)
+- [博客theme的代码](https://github.com/IceHe/Jacman)
 
 ### Express Gratitude 鸣谢
 - Hexo Author —— [Tommy Chen](http://zespia.tw/)

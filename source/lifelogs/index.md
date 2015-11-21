@@ -5,7 +5,6 @@ date: 2014-11-08
 #### Related
 ---
 * [**Archives - 文章归档**&nbsp; (Sorted By Time)](/archives/)
-* [ My Life Timeline - 迄今为止的人生 ](/timeline)
 * [Explanations for Log Format - 日志记录格式的说明](/2015/11/13/Time%20Mgt.%20我的时间管理日志/)
 
 <br/>
@@ -27,4 +26,5 @@ date: 2014-11-08
 7. [七月：新浪，入职，新起点。 Jul: Sina, entry, new begining.](/lifelogs/2015/07/index.html)
 8. [八月：公司公寓，适应。 Aug: apartment, adapt.](/lifelogs/2015/08/index.html)
 9. [九月：单元测试，新人培训。 Sep: unit test, orientation.](/lifelogs/2015/09/index.html)
-10. [十月：音乐节，跟上节奏。 Oct: music festival, keep pace.](/lifelogs/2015/10/index.html)
+10. [十月：音乐节，运动。 Oct: music festival, sports.](/lifelogs/2015/10/index.html)
+11. 运动，疲劳。sports, tired.

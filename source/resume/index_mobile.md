@@ -11,8 +11,8 @@ toc: false
 - 开放平台API与微博移动端（WAP端H5页面、客户端App）间请求的聚合与适配对接
 - About - PHP, Nginx, Redis, Cent OS, Yaf Framework
 
-**毕业设计 - [基于进程安全测量的安全管理](https://github.com/IceHe/SecureMgtSystemBasedOnSecureMeasurement)** <span class="gap"></span> *2015.03 ~ 2015.05*
-- 包括：[安全测量模块](https://github.com/IceHe/Dimm)（Loadable Kernel Module）、[安全管理器](https://github.com/IceHe/SecureMonitor)（Qt GUI）。
+**毕业设计 - [基于进程安全测量的安全管理](https://github.com/IceHe/secure_mgt_by_dynamic_measuring)** <span class="gap"></span> *2015.03 ~ 2015.05*
+- 包括：[安全测量模块](https://github.com/IceHe/dimm)（Loadable Kernel Module）、[安全管理器](https://github.com/IceHe/secure_monitor)（Qt GUI）。
 - 原理：用 SHA-1 分别计算进程在内存中的代码段与参数段，
 - 得出定长的信息摘要作为特征值（方便比对），去比对标准特征值，
 - 便可判断进程是否被篡改，或程序是否被替换。
@@ -94,8 +94,6 @@ toc: false
 
 
 **Hobby**
-**Love using**
-- Evernote,&nbsp; Doit.im,&nbsp; Shadowsocks,&nbsp; FireFox,&nbsp; VimFX,&nbsp; Sublime Text,&nbsp; iTerm2,&nbsp; Noizio,&nbsp; [Time Out](http://www.dejal.com/timeout/),&nbsp; Manico,&nbsp; Moom,&nbsp; Côte & Ciel Backpack,&nbsp; MBPr13,&nbsp; iPhone Turquoise Silicone Case,&nbsp; Kindle PaperWhite,&nbsp; AKG Earplug 
 - <i class="fa fa-soccer-ball-o">&nbsp;</i> 运动：羽毛球、健身、毽球 &nbsp; &nbsp; <i class="fa fa-trophy"></i>[ 华工毽球社社长 ](#sport)
 - <i class="fa fa-book">&nbsp;</i> 阅读：技术、IT、心理学、杂 &nbsp; &nbsp; <span class="icon-douban"></span>[ 读过 ](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
 - <i class="fa fa-pencil-square-o">&nbsp;</i> 写作：难忘的人与事、生活与想法 &nbsp; &nbsp; <i class="fa fa-qq"></i>[ 旧博客 ](http://290841032.qzone.qq.com)

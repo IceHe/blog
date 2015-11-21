@@ -7,8 +7,8 @@ date: 2015-01-24 00:26:55
 	<p class="key_pos fill">0000.00 ~ 000000</p> <p class="val_pos"> MAPI（对外接口部门）- 微博移动端（手机、平板）各功能的服务端研发与维护，</p>
 	<p class="key_pos fill">0000.00 ~ 000000</p> <p class="val_pos"> 开放平台API与微博移动端（WAP端H5页面、客户端App）间请求的聚合与适配对接 </p>
 	<p class="key_pos fill">0000.00 ~ 000000</p> <p class="val_pos"> About - PHP, Nginx, Redis, Cent OS, Yaf Framework </p> <br/>
-<p class="key_pos">2015.03 ~ 2015.05</p><p class="val_pos bold">毕业设计 - [基于进程安全测量的安全管理](https://github.com/IceHe/SecureMgtSystemBasedOnSecureMeasurement) </p>
-	<p class="key_pos fill">0000.00 ~ 000000</p> <p class="val_pos"> 包括：[进程安全测量模块](https://github.com/IceHe/Dimm)（Loadable Kernel Module）、[进程安全管理器](https://github.com/IceHe/SecureMonitor)（Qt GUI）</p>
+<p class="key_pos">2015.03 ~ 2015.05</p><p class="val_pos bold">毕业设计 - [基于进程安全测量的安全管理](https://github.com/IceHe/secure_mgt_by_dynamic_measuring) </p>
+	<p class="key_pos fill">0000.00 ~ 000000</p> <p class="val_pos"> 包括：[进程安全测量模块](https://github.com/IceHe/dimm)（Loadable Kernel Module）、[进程安全管理器](https://github.com/IceHe/secure_monitor)（Qt GUI）</p>
 	<p class="key_pos fill">0000.00 ~ 000000</p> <p class="val_pos"> 原理：用 SHA-1 分别计算进程在内存中的代码段与参数段， </p>
 	<p class="key_pos fill">0000.00 ~ 000000</p> <p class="val_pos"> 得出定长的信息摘要作为特征值（方便比对），去比对标准特征值， </p>
 	<p class="key_pos fill">0000.00 ~ 000000</p> <p class="val_pos"> 便可判断进程是否被篡改，或程序是否被替换。 </p>
@@ -63,10 +63,7 @@ date: 2015-01-24 00:26:55
 	<span class="hidden"><p class="key_pos fill hidden">0000.00 ~ 000000</p> <p class="val_pos hidden"> *本条目为校友相认而列。^_^ </p> </span> <br/>
 #### **Others**
 ---
-<br/><p class="key_pos"><span class="fill">000000</span>Love using</p> <p class="val_pos"> Evernote,&nbsp; Doit.im,&nbsp; Shadowsocks,&nbsp; FireFox,&nbsp; VimFX,&nbsp; Sublime Text, </p>
-	<p class="key_pos fill">0000.00 ~ 000000</p> <p class="val_pos"> iTerm2,&nbsp; Noizio,&nbsp; [Time Out](http://www.dejal.com/timeout/),&nbsp; Manico,&nbsp; Moom,&nbsp; Côte & Ciel Backpack, </p>
-    <p class="key_pos fill">0000.00 ~ 000000</p> <p class="val_pos"> MBPr13,&nbsp; iPhone Turquoise Silicone Case,&nbsp; Kindle PaperWhite,&nbsp; AKG Earplug </p>
-<p class="key_pos"><span class="fill">000000000</span>Hobby</p> <p class="val_pos"> <i class="fa fa-soccer-ball-o">&nbsp;</i> 运动：羽毛球、健身、毽球 &nbsp; &nbsp; <i class="fa fa-trophy"></i>[ 华工毽球社社长 ](#sport) </p>
+<br/> <p class="key_pos"><span class="fill">000000000</span>Hobby</p> <p class="val_pos"> <i class="fa fa-soccer-ball-o">&nbsp;</i> 运动：羽毛球、健身、毽球 &nbsp; &nbsp; <i class="fa fa-trophy"></i>[ 华工毽球社社长 ](#sport) </p>
 	<p class="key_pos fill">0000.00 ~ 000000</p> <p class="val_pos"> <i class="fa fa-book">&nbsp;</i> 阅读：技术、IT、心理学、杂 &nbsp; &nbsp; <span class="icon-douban"></span>[ 读过 ](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count) </p>
 	<p class="key_pos fill">0000.00 ~ 000000</p> <p class="val_pos"> <i class="fa fa-pencil-square-o">&nbsp;</i> 写作：难忘的人与事、生活与想法 &nbsp; &nbsp; <i class="fa fa-qq"></i>[ 旧博客 ](http://290841032.qzone.qq.com) </p> <br/>
 <p class="key_pos"><span class="fill">00000000</span>Contact</p> <p class="val_pos"> <i class="fa fa-envelope">&nbsp;</i> [x@icehe.me](mailto:x@icehe.me) </p>

@@ -275,16 +275,24 @@ Log 时间使用情况统计日志以 《 [15/10/20 stu52 spo12 was3](/lifelogs/
 
 这些时间管理日志的源内容，都存在我的Evernote的笔记里面。
 
-上文中，除了记录细表、主要任务列表、纪律表、随笔记录等等由自己填写外，
+上文中，除了记录细表、主要任务列表
 其它的部分如周/月统计表、记录简表、日统计表的生成以及日志标题的修改，
 都是通过Python和AppleScript编写的脚本完成的。
 
 这些脚本读取Evernote中的有关日志内容，根据其中的记录细表得出统计结果；
 再根据结果补充Evernote源日志的内容。
 
-当然还有其它脚本将这些内容推送到本博客中。
+当然还有其它脚本将这些内容推送到本博客中。<br/>
 
-*（有关脚本详见我的[Github](https://github.com/IceHe)）*
+有关脚本详见我的[Github](https://github.com/IceHe)：
+
+** on OS X **
+- [操作Evernote用的AppleScript脚本](https://github.com/IceHe/AppleScript_for_Evernote)
+- [操作时间管理日志用的AppleScript脚本](https://github.com/IceHe/AppleScript_for_DayLog)
+- [操作时间管理日志用的Python脚本](https://github.com/IceHe/Python_for_DayLog)
+
+** on Windows **
+- [操作时间管理日志用的PHP、Batch脚本](https://github.com/IceHe/my_scripts_on_win) *（已弃用）*
 
 ## About Time Mgt.
 
