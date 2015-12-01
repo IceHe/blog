@@ -27,4 +27,4 @@ date: 2014-11-08
 8. [八月：公司公寓，适应。 Aug: apartment, adapt.](/lifelogs/2015/08/index.html)
 9. [九月：单元测试，新人培训。 Sep: unit test, orientation.](/lifelogs/2015/09/index.html)
 10. [十月：音乐节，运动。 Oct: music festival, sports.](/lifelogs/2015/10/index.html)
-11. 运动，疲劳。sports, tired.
+11. [十一月：运动，饮食，睡眠，好习惯。 Nov: sports, eating, sleep, good habits.](/lifelogs/2015/11/index.html)
