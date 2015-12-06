@@ -16,13 +16,13 @@ toc: false
 <br/> <span class="key_pos">Expr</span><span class="val_pos"> <i class="fa fa-th-list">&nbsp;</i> [Resume](/resume) </span>
 <span class="key_pos">Read</span> <span class="val_pos icon-douban"> &nbsp;[Douban](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count) </span>
 <span class="key_pos">Code</span> <span class="val_pos"> <i class="fa fa-github">&nbsp;</i> &nbsp;[Github](http://github.com/IceHe) </span> <br/>
-<span class="key_pos">Life</span> <span class="val_pos"><i class="fa fa-coffee">&nbsp;</i> [Timeline](/timeline) &nbsp;  &nbsp; &nbsp; </span>
-<span class="val_pos"> <i class="fa fa-gears">&nbsp;</i> [Tools](/tools/) </span>
+<span class="key_pos">Portrait</span> <span class="val_pos"> <i class="fa fa-gears">&nbsp;</i> [Tools](/tools/) </span>
+<span class="val_pos"> <i class="fa fa-coffee">&nbsp;</i> [Timeline](/timeline) &nbsp;  &nbsp; &nbsp; </span>
 <span class="val_pos"> <i class="fa fa-heart">&nbsp;</i> [Favourites](/favourites/) </span> <br/>
 <span class="key_pos">Social</span> <span class="val_pos icon-zhihu"> &nbsp;[Zhihu](http://www.zhihu.com/people/he-zhi-yuan-15) </span>
-<span class="val_pos"> <i class="fa fa-wechat">&nbsp;</i> <a href="javascript:;" target="_top" onclick="document.getElementById('qr_code_tip').className='red'; document.getElementById('qr_code').className='pic_styl';">IceHooo</a> <span id="qr_code_tip" class="hidden" style="margin-left:10px">**Scan QR Code** <i class="fa fa-arrow-down"></i></span> </span>
-<span class="val_pos"> <i class="fa fa-weibo">&nbsp;</i> [IceHe何志远](http://weibo.com/2181657940/) </span>
-<span class="val_pos icon-qzone"> &nbsp;[飘 Gone with the wind](http://290841032.qzone.qq.com) </span> <br/>
+<span class="val_pos"> <i class="fa fa-weibo">&nbsp;</i> [Weibo](http://weibo.com/2181657940/) </span>
+<span class="val_pos icon-qzone"> &nbsp;[QZone](http://290841032.qzone.qq.com) </span>
+<span class="val_pos"> <i class="fa fa-wechat">&nbsp;</i> <a href="javascript:;" target="_top" onclick="document.getElementById('qr_code_tip').className='red'; document.getElementById('qr_code').className='pic_styl';">WeChat</a> <span id="qr_code_tip" class="hidden" style="margin-left:10px">**Scan QR Code** <i class="fa fa-arrow-down"></i></span> </span> <br/>
 <span class="key_pos">Friends</span> <span class="val_pos"> <i class="fa fa-users">&nbsp;</i> [极地 · 雪](http://sf-zhou.github.io/) &nbsp;/&nbsp; [Shiwey Yan](http://shiweyyan.github.io/) &nbsp;/&nbsp; [Jan Fan](http://janfan.github.io/) </span>
 <br/>
 #### **Protrait**

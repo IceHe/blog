@@ -9,14 +9,14 @@ date: 2015-01-20 18:26:55
 
 - **MacBook Pro Retina 13-inch** 
 
-	i7 - 3.1 GHz / Mem 16 GB / HD 512 GB
+	i7 - 3.1 GHz / Mem 16 GB / SSD 512 GB
 	Mac是软件工程师最好的开发平台。
 
 	*努力用好了Windows，才能了无牵挂地换Mac。*
 
 - **iPhone6 plus**
 
-	64GB / Turquoise Silicone Case
+	64GB + Turquoise Silicone Case
 	稳定、流畅、省心、美观，续航不错、屏幕尺寸合适。
 
 	*把Evernote当手帐用，不带纸笔；
@@ -27,12 +27,12 @@ date: 2015-01-20 18:26:55
 
 - **iPad Air**
 
-	32GB / Red Smart Cover / 言外Involve Leather Bag
+	32GB + Red Smart Cover + 言外Involve Leather Bag
 	用于阅读技术类书籍。
 
 - **Kindle PaperWhite**
 
-	Amazon Onyx Black Leather Cover
+	+ Amazon Onyx Black Leather Cover
 	看书时间长的日子，还得用E-Ink屏。
 
 - **AKG K323XS**
@@ -45,7 +45,7 @@ date: 2015-01-20 18:26:55
 
 - **Côte & Ciel Backpack**
 
-	Isar Eco Yarn - Black Melange
+	Isar Eco Yarn / Black Melange
 	就是喜欢它别的外观设计。
 
 
@@ -56,7 +56,7 @@ date: 2015-01-20 18:26:55
 
 ### **Common**
 
-- **Evernote**
+- **Evernote (Premium)**
 
 	第二大脑，知识管理工具。
 
@@ -66,7 +66,7 @@ date: 2015-01-20 18:26:55
 
 	*用过很多同类软件，还是买了它的Premium版。*
 	
-- **Doit.im**
+- **Doit.im (Pro)**
 
 	事务管理、日程规划。 *有更好的替代App，只是用习惯了。*
 
