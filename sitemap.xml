@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://icehe.me/resume/index.html</loc>
+    <lastmod>2015-12-06T08:37:37.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://icehe.me/about/index.html</loc>
     <lastmod>2015-12-06T07:22:20.000Z</lastmod>
   </url>
@@ -17,13 +22,18 @@
   </url>
   
   <url>
+    <loc>http://icehe.me/lifelogs/2015/11/time_stat.html</loc>
+    <lastmod>2015-12-01T07:06:23.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://icehe.me/lifelogs/2015/11/index.html</loc>
     <lastmod>2015-12-01T07:06:23.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/11/time_stat.html</loc>
-    <lastmod>2015-12-01T07:06:23.000Z</lastmod>
+    <loc>http://icehe.me/lifelogs/2015/11/d30.html</loc>
+    <lastmod>2015-12-01T07:04:55.000Z</lastmod>
   </url>
   
   <url>
@@ -37,16 +47,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/11/d30.html</loc>
-    <lastmod>2015-12-01T07:04:55.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/lifelogs/2015/11/d27.html</loc>
-    <lastmod>2015-12-01T07:04:54.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2015/11/d26.html</loc>
     <lastmod>2015-12-01T07:04:54.000Z</lastmod>
   </url>
@@ -57,17 +57,22 @@
   </url>
   
   <url>
+    <loc>http://icehe.me/lifelogs/2015/11/d27.html</loc>
+    <lastmod>2015-12-01T07:04:54.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2015/11/d24.html</loc>
+    <lastmod>2015-12-01T07:04:53.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://icehe.me/lifelogs/2015/11/d22.html</loc>
     <lastmod>2015-12-01T07:04:53.000Z</lastmod>
   </url>
   
   <url>
     <loc>http://icehe.me/lifelogs/2015/11/d23.html</loc>
-    <lastmod>2015-12-01T07:04:53.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/lifelogs/2015/11/d24.html</loc>
     <lastmod>2015-12-01T07:04:53.000Z</lastmod>
   </url>
   
@@ -92,12 +97,12 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/11/d18.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/11/d16.html</loc>
     <lastmod>2015-12-01T07:04:51.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/11/d16.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/11/d18.html</loc>
     <lastmod>2015-12-01T07:04:51.000Z</lastmod>
   </url>
   
@@ -117,11 +122,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/11/d10.html</loc>
-    <lastmod>2015-12-01T07:04:49.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2015/11/d11.html</loc>
     <lastmod>2015-12-01T07:04:49.000Z</lastmod>
   </url>
@@ -132,8 +132,8 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/11/d08.html</loc>
-    <lastmod>2015-12-01T07:04:48.000Z</lastmod>
+    <loc>http://icehe.me/lifelogs/2015/11/d10.html</loc>
+    <lastmod>2015-12-01T07:04:49.000Z</lastmod>
   </url>
   
   <url>
@@ -142,8 +142,8 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/11/d05.html</loc>
-    <lastmod>2015-12-01T07:04:47.000Z</lastmod>
+    <loc>http://icehe.me/lifelogs/2015/11/d08.html</loc>
+    <lastmod>2015-12-01T07:04:48.000Z</lastmod>
   </url>
   
   <url>
@@ -153,6 +153,11 @@
   
   <url>
     <loc>http://icehe.me/lifelogs/2015/11/d04.html</loc>
+    <lastmod>2015-12-01T07:04:47.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2015/11/d05.html</loc>
     <lastmod>2015-12-01T07:04:47.000Z</lastmod>
   </url>
   
@@ -167,12 +172,12 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/11/d01.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/11/d02.html</loc>
     <lastmod>2015-12-01T07:04:46.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/11/d02.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/11/d01.html</loc>
     <lastmod>2015-12-01T07:04:46.000Z</lastmod>
   </url>
   
@@ -184,11 +189,6 @@
   <url>
     <loc>http://icehe.me/resume/index_mobile.html</loc>
     <lastmod>2015-11-20T06:44:10.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/resume/index.html</loc>
-    <lastmod>2015-11-20T06:43:58.000Z</lastmod>
   </url>
   
   <url>
