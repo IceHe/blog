@@ -23,12 +23,12 @@ date: 2015-01-24 00:26:55
 	<p class="key_pos fill">0000.00 ~ 000000</p> <p class="val_pos">华工教学云平台 - Windows客户端（C++ Qt GUI），及Linux服务端的部分功能</p>
 	<p class="key_pos fill">0000.00 ~ 000000</p> <p class="val_pos"> About - C++, CentOS 6, Fedora, Qt Framework </p> <br/> <br/> <hr/>
 <p class="key_pos"><span class="fill">0000000000</span>**Level**</p> <p class="val_pos"> <i class="fa fa-trophy"></i> Proficient &nbsp;>&nbsp; <i class="fa fa-star"></i> Familiar &nbsp;>&nbsp; <i class="fa fa-star-half-o"></i> Competent &nbsp;>&nbsp; <i class="fa fa-star-o"></i> Know </p> <br/>
-<p class="key_pos"><span class="fill">0000000000.</span>**Lang**</p> <p class="val_pos"> <i class="fa fa-star"></i> C/C++ &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> PHP,&nbsp; Python,&nbsp; Java,&nbsp; JavaScript &nbsp; &nbsp; <i class="fa fa-star-o"></i> ASM,&nbsp; VB </p> <br/>
-<p class="key_pos"><span class="fill">000000000000</span>**OS**</p> <p class="val_pos"> <i class="fa fa-star-half-o"></i> OS X,&nbsp; CentOS 6/7,&nbsp; Windows 7/8 &nbsp; &nbsp; <i class="fa fa-star-o"></i> Ubuntu </p> <br/>
+<p class="key_pos"><span class="fill">0000000000.</span>**Lang**</p> <p class="val_pos"> <i class="fa fa-star"></i> C/C++ &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> PHP,&nbsp; Python,&nbsp; JavaScript,&nbsp; Java &nbsp; &nbsp; <i class="fa fa-star-o"></i> ASM,&nbsp; VB </p> <br/>
+<p class="key_pos"><span class="fill">000000000000</span>**OS**</p> <p class="val_pos"> <i class="fa fa-star-half-o"></i> OS X,&nbsp; CentOS 6 / 7,&nbsp; Windows 7 / 8 &nbsp; &nbsp; <i class="fa fa-star-o"></i> Ubuntu </p> <br/>
 <p class="key_pos"><span class="fill">000000000000</span>**DB**</p> <p class="val_pos"> <i class="fa fa-star-half-o"></i> MySQL &nbsp; &nbsp; <i class="fa fa-star-o"></i> MS SQL Server 2008,&nbsp; Oracle DB </p> <br/>
-<p class="key_pos"><span class="fill">0000000000.</span>**Web**</p> <p class="val_pos"> <i class="fa fa-star-half-o"></i> HTML,&nbsp; CSS,&nbsp; jQuery &nbsp; &nbsp; <span class="hidden"><i class="fa fa-star-o"></i> Nginx,&nbsp; Redis,&nbsp; Charles </span></p> <br/>
-<p class="key_pos"><span class="fill">00000000000.</span>**IDE**</p> <p class="val_pos"> <i class="fa fa-star-half-o"></i> PhpStorm,&nbsp; Eclipse,&nbsp; Zend Studio,&nbsp; QtCreator,&nbsp; Visual Studio &nbsp; &nbsp; <i class="fa fa-star-o"></i> PyCharm<span class="hidden">,&nbsp; IntelliJ IDEA </span></p> <br/>
-<p class="key_pos"><span class="fill">000000000. </span>**Tools**</p> <p class="val_pos"> <i class="fa fa-star"></i> Vim,&nbsp; AppleScript,&nbsp; Batch file (Windows) &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> Git,&nbsp; tmux,&nbsp; oh-my-zsh,&nbsp; Shell script </p> <br/>
+<p class="key_pos"><span class="fill">0000000000.</span>**Web**</p> <p class="val_pos"> <i class="fa fa-star-half-o"></i> HTML,&nbsp; CSS,&nbsp; jQuery &nbsp; &nbsp; <i class="fa fa-star-o"></i> Nginx,&nbsp; Redis,&nbsp; XML </span> <br/>
+<p class="key_pos"><span class="fill">00000000000.</span>**IDE**</p> <p class="val_pos"> <i class="fa fa-star-half-o"></i> PhpStorm,&nbsp; PyCharm,&nbsp; Eclipse,&nbsp; QtCreator,&nbsp; Visual Studio &nbsp; &nbsp; <span class="hidden"><i class="fa fa-star-o"></i> Zend Studio,&nbsp; IntelliJ IDEA </span></p> <br/>
+<p class="key_pos"><span class="fill">000000000. </span>**Tools**</p> <p class="val_pos"> <i class="fa fa-star"></i> Git,&nbsp; Vim,&nbsp; Zsh,&nbsp; tmux,&nbsp; AppleScript &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> Batch file (Windows),&nbsp; Shell script </p> <br/>
 <p class="key_pos"><span class="fill">00000000.</span>**Others**</p> <p class="val_pos"> <i class="fa fa-star"></i> C++ Qt Framework &nbsp; &nbsp; <i class="fa fa-star-o"></i> Yar Framework,&nbsp; Loadable Kernel Module </p> <br/>
 <p class="key_pos"><span class="fill">000000.</span>Tech Blog</p> <p class="val_pos"><i class="fa fa-cube"> &nbsp;</i>[icehe.me](http://icehe.github.io/)  </p> <br/>
 <p class="key_pos"><span class="fill">000000000</span>Github</p> <p class="val_pos icon-github"> &nbsp;[github.com/IceHe](https://github.com/IceHe) </p> <br/> <br/>
@@ -59,13 +59,13 @@ date: 2015-01-24 00:26:55
 	<p class="key_pos fill">0000.00 ~ 000000</p> <p class="val_pos"> 金融软件实训 (90, 1/50)， C++程序设计 (90, 7/82)， 数字逻辑 (90, 9/82) </p> 
 	<p class="key_pos fill">0000.00 ~ 000000</p> <p class="val_pos"> 2013-2014学年度 校级三等奖学金 </p> <br/>
 <p class="key_pos">2008.09 ~ 2011.07</p><p class="val_pos bold">广州市执信中学 </p>
-	<p class="key_pos fill">0000.00 ~ 000000</p> <p class="val_pos"> 2008-2010年三好学生称号（20%），2011届优秀毕业生称号（20%）</p>
+	<p class="key_pos fill">0000.00 ~ 000000</p> <p class="val_pos"> 2008-2010等学年度 三好学生称号（20%），2011届优秀毕业生称号（20%）</p>
 	<span class="hidden"><p class="key_pos fill hidden">0000.00 ~ 000000</p> <p class="val_pos hidden"> *本条目为校友相认而列。^_^ </p> </span> <br/>
 #### **Others**
 ---
-<br/> <p class="key_pos"><span class="fill">000000000</span>Hobby</p> <p class="val_pos"> <i class="fa fa-soccer-ball-o">&nbsp;</i> 运动：羽毛球、健身、毽球 &nbsp; &nbsp; <i class="fa fa-trophy"></i>[ 华工毽球社社长 ](#sport) </p>
-	<p class="key_pos fill">0000.00 ~ 000000</p> <p class="val_pos"> <i class="fa fa-book">&nbsp;</i> 阅读：技术、IT、心理学、杂 &nbsp; &nbsp; <span class="icon-douban"></span>[ 读过 ](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count) </p>
-	<p class="key_pos fill">0000.00 ~ 000000</p> <p class="val_pos"> <i class="fa fa-pencil-square-o">&nbsp;</i> 写作：难忘的人与事、生活与想法 &nbsp; &nbsp; <i class="fa fa-qq"></i>[ 旧博客 ](http://290841032.qzone.qq.com) </p> <br/>
+<br/> <p class="key_pos"><span class="fill">000000000</span>Hobby</p> <p class="val_pos"> <i class="fa fa-soccer-ball-o">&nbsp;</i> 运动：羽毛球、健身、毽球 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<i class="fa fa-trophy"></i>[ 华工毽球社社长 ](#sport) </p>
+	<p class="key_pos fill">0000.00 ~ 000000</p> <p class="val_pos"> <i class="fa fa-book">&nbsp;</i> 阅读：技术、IT、心理学、杂 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="icon-douban"></span>[ 读过 ](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count) </p>
+	<p class="key_pos fill">0000.00 ~ 000000</p> <p class="val_pos"> <i class="fa fa-pencil-square-o">&nbsp;</i> 写作：难忘的人与事、生活与想法 &nbsp; <i class="fa fa-qq"></i>[ 旧博客 ](http://290841032.qzone.qq.com) </p> <br/>
 <p class="key_pos"><span class="fill">00000000</span>Contact</p> <p class="val_pos"> <i class="fa fa-envelope">&nbsp;</i> [x@icehe.me](mailto:x@icehe.me) </p>
 <br/>
 <style type="text/css"> article .article-content p.key_pos{text-align: left; margin-left: 2%; display: inline;} .val_pos{margin-left: 3%; display: inline;} span.fill, p.fill{color: transparent; display: inline;}; </style>
