@@ -47,10 +47,11 @@ toc: false
 	<p class="key_pos fill">0000 ~ 0000.</p> <p class="val_pos"> 没想到是他激励了我，而非那些被当作假想敌的牛人。 </p> <br/><br/>
 
 <p class="key_pos">**2015.07 ~ ?**&nbsp;</p> <p class="val_pos"> **新浪微博 - 北漂工作** </p> <br/>
+	<p class="key_pos fill">0000 ~ 0000.</p> <p class="val_pos"> 专注，努力学会取舍，追求极简主义。 </p> <br/>
 	<p class="key_pos fill">0000 ~ 0000.</p> <p class="val_pos"> 现在，每天坚持记账、写日记， </p>
 	<p class="key_pos fill">0000 ~ 0000.</p> <p class="val_pos"> 打羽毛球、健身、节制饮食、多喝水, </p>
 	<p class="key_pos fill">0000 ~ 0000.</p> <p class="val_pos"> 然后，读读书、学技术、学英语，再抽空写博客。 </p> <br/>
-	<p class="key_pos fill">0000 ~ 0000.</p> <p class="val_pos"> 希望不久之后，也能坚持每天早睡早起 ~ </p>
+	<p class="key_pos fill">0000 ~ 0000.</p> <p class="val_pos"> 希望不久之后，也能坚持每天早睡早起。 </p>
 	<p class="key_pos fill">0000 ~ 0000.</p> <p class="val_pos"> 工作方面早日独当一面。 </p> <br/>
 	<p class="key_pos fill">0000 ~ 0000.</p> <p class="val_pos"> [ <i class="fa fa-file">&nbsp;</i>Resume ](/resume) </p> <br/><br/>
 
