@@ -16,7 +16,7 @@
 	<meta name="description" content="CentOS 7 正式版，和 REDHAT 7 一样，Grub2不能正确引导windows分区。解决方法：修改 /boot/grub2/grub.cfg …… 重启时，将会出现win8的系统选单。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="(01) 恢复 Windows 的 开机引导 - CentOS 7">
-<meta property="og:url" content="http://icehe.gitcafe.io/2015/03/21/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/index.html">
+<meta property="og:url" content="http://icehe.me/2015/03/21/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/index.html">
 <meta property="og:site_name" content="Ice He 何志遠">
 <meta property="og:description" content="CentOS 7 正式版，和 REDHAT 7 一样，Grub2不能正确引导windows分区。解决方法：修改 /boot/grub2/grub.cfg …… 重启时，将会出现win8的系统选单。">
 <meta property="og:updated_time" content="2015-12-07T03:17:51.000Z">
@@ -45,7 +45,7 @@
   <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
 
   <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE" />
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
   <!-- Google Fonts from 360 CDN -->
   <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
@@ -317,7 +317,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://icehe.gitcafe.io/2015/03/21/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/" data-title="(01) 恢复 Windows 的 开机引导 - CentOS 7 | Ice He 何志遠" data-tsina="undefined" class="share clearfix">
+	  <div data-url="http://icehe.me/2015/03/21/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/" data-title="(01) 恢复 Windows 的 开机引导 - CentOS 7 | Ice He 何志遠" data-tsina="undefined" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -388,33 +388,33 @@ var duoshuoQuery = {short_name:"icehe"};
 
 
 
-document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="2015/03/21/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/" data-title="(01) 恢复 Windows 的 开机引导 - CentOS 7" data-url="http://icehe.gitcafe.io/2015/03/21/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/"></div>'
-	+ '<hr/>'
-	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
-	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
-	+ '</div>';
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="2015/03/21/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/" data-title="(01) 恢复 Windows 的 开机引导 - CentOS 7" data-url="http://icehe.me/2015/03/21/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/"></div>'
+//	+ '<hr/>'
+//	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
+//	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
+//	+ '</div>';
 
-function loadDisqus(){
-	var disqus_shortname = 'icehe';
+//function loadDisqus(){
+//	var disqus_shortname = 'icehe';
+//
+//	(function(){
+//		var dsq = document.createElement('script');
+//		dsq.type = 'text/javascript';
+//		dsq.async = true;
+//		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+//		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+//	}());
+//
+//	(function(){
+//		var dsq = document.createElement('script');
+//		dsq.type = 'text/javascript';
+//		dsq.async = true;
+//		dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+//		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+//	}());
 
-	(function(){
-		var dsq = document.createElement('script');
-		dsq.type = 'text/javascript';
-		dsq.async = true;
-		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	}());
-
-	(function(){
-		var dsq = document.createElement('script');
-		dsq.type = 'text/javascript';
-		dsq.async = true;
-		dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
-		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	}());
-
-	document.getElementById('disqus_div').innerHTML = '<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>';
-}
+//	document.getElementById('disqus_div').innerHTML = '<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>';
+//}
 
 </script>
 </div>  
@@ -485,10 +485,10 @@ function loadDisqus(){
 	<p class="asidetitle">
 		<a href="javascript:;" onclick="switch_widget_hidden(this);">
 			Tag 标签 &nbsp;
-			<i class="fa fa-caret-down"></i>
+			<i class="fa fa-caret-up"></i>
 		</a>
 	</p>
-	<ul class="hidden">
+	<ul class="clearfix">
 	
 		<li><a href="/tags/TECH/" title="TECH">TECH<sup>34</sup></a></li>
 	
@@ -533,6 +533,43 @@ function loadDisqus(){
 	</ul>
 </div>
 
+
+  <div class="sitelist" style="display: block;">
+	<p class="asidetitle">
+		<a href="javascript:;" onclick="switch_widget_hidden(this);">
+			Sites 站点 &nbsp;
+			<i class="fa fa-caret-down"></i>
+		</a>
+	</p>
+	<ul class="hidden">
+		<!--<select class="cur_site" onchange="switch_site(this);">-->
+			<!--<option value="http://icehe.me" id="github_option"> Primary 主站 - on Github</option>-->
+			<!--<option value="http://icehe.gitcafe.io" id="gitcafe_option"> Mirror 备用 - on Gitcafe</option>-->
+			<!--<option value="http://127.0.0.1:4000" id="local_option" class="hidden"> Test 测试 - on Localhost</option>-->
+		<!--</select>-->
+		<li>
+			&nbsp; &nbsp;Page Views &nbsp;=&nbsp; <b><span id="busuanzi_value_site_pv"></span></b>
+		</li>
+		<li>
+			&nbsp; &nbsp;Unique Visitors &nbsp;=&nbsp; <b><span id="busuanzi_value_site_uv"></span></b>
+		</li>
+	</ul>
+</div>
+
+<script type="text/javascript">
+	if (isOnGithub) {
+		document.getElementById('github_option').selected = true;
+	} else if (isOnGitcafe) {
+		document.getElementById('gitcafe_option').selected = true;
+	} else {
+		document.getElementById('local_option').className = '';
+		document.getElementById('local_option').selected = true;
+	}
+
+	function switch_site(select) {
+		window.location.href = select.selectedOptions[0].value;
+	}
+</script>
 
   <div class="rsspart">
 	<a href="/atom.xml" target="_blank" title="rss">RSS</a>
