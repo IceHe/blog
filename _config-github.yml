@@ -3,8 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
+# Hexo Configuration
+## Docs: http://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
 title: Ice He 何志遠
-subtitle: Less is more.   寧靜致遠。
+subtitle: Less is more 寧靜致遠
 description: IceHe 何志远 blog 博客 software development IT tech 软件 开发 技术 record life 记录 人生 生活
 author: IceHe何志远
 email: x@icehe.me
@@ -101,7 +106,8 @@ deploy:
     repo:
         #gitcafe: https://gitcafe.com/icehe/icehe.git,gitcafe-pages
         github: https://github.com/IceHe/icehe.github.io.git,master
-    
+
 google_analytics:
     github: vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI
     gitcafe: NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE
+
