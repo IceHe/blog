@@ -9,17 +9,17 @@ toc: false
 <span class="key_pos">Home</span>  <span class="val_pos"> <i class="fa fa-home">&nbsp;</i> Guangzhou - China  </span>
 <span class="key_pos">Corp</span>  <span class="val_pos"> <i class="fa fa-weibo">&nbsp;</i> Sina Weibo - Beijing </span>
 <span class="key_pos">Job</span>  <span class="val_pos"> <i class="fa fa-puzzle-piece">&nbsp;</i> Server-side Dev Engineer </span>
-<span class="key_pos">Tags</span>  <span class="val_pos"> <i class="fa fa-tag">&nbsp;</i> Zhixin,&nbsp; SCUT,&nbsp; 北漂,&nbsp; 毽球 </span>
-<span class="val_pos"> &nbsp; &nbsp; &nbsp;Shuttle Cock,&nbsp; Animate </span>
+<span class="key_pos">Tags</span>  <span class="val_pos"> <i class="fa fa-tag">&nbsp;</i> Zhixin,&nbsp; SCUT,&nbsp; Animate </span>
+<span class="val_pos"> &nbsp; &nbsp; &nbsp;Shuttle Cock,&nbsp; 毽球 </span>
 <br/>
 #### **Links**
 ---
-<br/> <span class="key_pos">Expr</span><span class="val_pos"> <i class="fa fa-th-list">&nbsp;</i> [Resume](/resume) &nbsp; </span>
-<span class="key_pos">Read</span> <span class="val_pos icon-douban"> &nbsp;[Douban](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count) &nbsp; </span>
-<span class="key_pos">Code</span> <span class="val_pos"> <i class="fa fa-github">&nbsp;</i> &nbsp;[Github](http://github.com/IceHe) &nbsp; </span> <br/>
-<span class="key_pos">Portrait</span> <span class="val_pos"> <i class="fa fa-gears">&nbsp;</i> [Tools](/tools/) &nbsp; </span>
-<span class="val_pos"> <i class="fa fa-coffee">&nbsp;</i> [Timeline](/timeline) &nbsp; </span>
-<span class="val_pos"> <i class="fa fa-heart">&nbsp;</i> [Favourites](/favourites/) &nbsp; </span> <br/>
+<br/> <span class="key_pos">Expr</span><span class="val_pos"> <i class="fa fa-th-list">&nbsp;</i> [Resume](/resume) &nbsp; 简历 </span>
+<span class="key_pos">Read</span> <span class="val_pos icon-douban"> &nbsp;[Douban](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count) &nbsp; 读过 </span>
+<span class="key_pos">Code</span> <span class="val_pos"> <i class="fa fa-github">&nbsp;</i> &nbsp;[Github](http://github.com/IceHe) &nbsp; &nbsp; </span> <br/>
+<span class="key_pos">Mine</span> <span class="val_pos"> <i class="fa fa-gears">&nbsp;</i> [Tools](/tools/) &nbsp; &nbsp;我的利器 </span>
+<span class="val_pos"> <i class="fa fa-coffee">&nbsp;</i> [Timeline](/timeline) &nbsp; &nbsp; </span>
+<span class="val_pos"> <i class="fa fa-heart">&nbsp;</i> [Favourites](/favourites/) &nbsp; 收藏 </span> <br/>
 <span class="key_pos">Social</span> <span class="val_pos icon-zhihu"> &nbsp;[Zhihu](http://www.zhihu.com/people/he-zhi-yuan-15) &nbsp; </span>
 <span class="val_pos"> <i class="fa fa-weibo">&nbsp;</i> [Weibo](http://weibo.com/2181657940/) &nbsp; </span>
 <span class="val_pos icon-qzone"> &nbsp;[QZone](http://290841032.qzone.qq.com) </span>

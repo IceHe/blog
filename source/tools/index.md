@@ -4,45 +4,9 @@ date: 2015-01-20 18:26:55
 
 *下文斜体文本为补充描述，可略过不读。*
 
-## **Devices**
+## **Software**
 
-- **MacBook Pro Retina 13-inch** 
-
-	i7 - 3.1 GHz / Mem 16 GB / SSD 512 GB ， Mac是软件工程师最佳的开发平台。
-	*努力用好了Windows，才能了无牵挂地换Mac。*
-
-- **iPhone6 plus**
-
-	64GB + Turquoise Silicone Case ， 稳定、流畅、省心、美观，续航不错、屏幕尺寸合适。
-	
-	*把Evernote当手帐用，不带纸笔； 一般阅读、视频、游戏比iPad更方便。<s>Rose Gray Leather Case</s> 官方真皮套易氧化变色（显脏），得买深色的。*
-
-- **Apple Watch Sport**
-
-	虚位以待！只等第二代产品发售！
-
-- **iPad Air**
-
-	32GB + Red Smart Cover + 言外Involve Leather Bag ， 用于阅读技术类书籍。
-
-- **Kindle PaperWhite**
-
-	\+ Amazon Onyx Black Leather Cover ， 看书时间长的日子，还得用E-Ink屏。
-
-- **AKG K323XS**
-
-	低级入门耳塞，好用不贵，坏了不心疼。 塞头大小适中(偏小)，适合长时间佩戴，时常当静音耳塞用。
-	
-	*SQ505闲置，因为头戴式容易压得耳朵疼，隔音效果也不好； 能盖住耳朵隔音效果好的大耳机，一般设备推不动，音效不好。*
-
-- **Côte & Ciel Backpack**
-
-	Isar Eco Yarn / Black Melange ， 就是喜欢它特别的外观设计。
-
-
-## **Apps**
-
-*以下为Mac平台下的软件。*
+*以下除最后一小节，均为Mac平台下的软件。*
 
 ### **Common**
 
@@ -277,4 +241,37 @@ date: 2015-01-20 18:26:55
 
 <br/>
 
-*以上这一小节是我换Mac前印象最深的Windows软件。*
+## **Hareware**
+
+- **MacBook Pro Retina 13-inch** 
+
+	i7 - 3.1 GHz / Mem 16 GB / SSD 512 GB ， Mac是软件工程师最佳的开发平台。
+	*努力用好了Windows，才能了无牵挂地换Mac。*
+
+- **iPhone6 plus**
+
+	64GB + Turquoise Silicone Case ， 稳定、流畅、省心、美观，续航不错、屏幕尺寸合适。
+	
+	*把Evernote当手帐用，不带纸笔； 一般阅读、视频、游戏比iPad更方便。<s>Rose Gray Leather Case</s> 官方真皮套易氧化变色（显脏），得买深色的。*
+
+- **Apple Watch Sport**
+
+	虚位以待！只等第二代产品发售！
+
+- **iPad Air**
+
+	32GB + Red Smart Cover + 言外Involve Leather Bag ， 用于阅读技术类书籍。
+
+- **Kindle PaperWhite**
+
+	\+ Amazon Onyx Black Leather Cover ， 看书时间长的日子，还得用E-Ink屏。
+
+- **AKG K323XS**
+
+	低级入门耳塞，好用不贵，坏了不心疼。 塞头大小适中(偏小)，适合长时间佩戴，时常当静音耳塞用。
+	
+	*SQ505闲置，因为头戴式容易压得耳朵疼，隔音效果也不好； 能盖住耳朵隔音效果好的大耳机，一般设备推不动，音效不好。*
+
+- **Côte & Ciel Backpack**
+
+	Isar Eco Yarn / Black Melange ， 就是喜欢它特别的外观设计。
