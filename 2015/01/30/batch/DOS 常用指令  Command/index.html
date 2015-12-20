@@ -16,7 +16,7 @@
 	<meta name="description" content="help，cmd_name /?，type，attrib，xcopy，netstat，reg，assoc，ftype，find，findstr，sort，comp，fc。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="DOS 常用指令  Command">
-<meta property="og:url" content="http://icehe.gitcafe.io/2015/01/30/batch/DOS 常用指令  Command/index.html">
+<meta property="og:url" content="http://icehe.me/2015/01/30/batch/DOS 常用指令  Command/index.html">
 <meta property="og:site_name" content="Ice He 何志遠">
 <meta property="og:description" content="help，cmd_name /?，type，attrib，xcopy，netstat，reg，assoc，ftype，find，findstr，sort，comp，fc。">
 <meta property="og:updated_time" content="2015-03-04T09:22:06.000Z">
@@ -45,7 +45,7 @@
   <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
 
   <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE" />
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
   <!-- Google Fonts from 360 CDN -->
   <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
@@ -318,7 +318,7 @@ FTYPE PerlScript=perl.exe %1 %*</div><div><b><br></b></div><div><b><br></b></div
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://icehe.gitcafe.io/2015/01/30/batch/DOS 常用指令  Command/" data-title="DOS 常用指令  Command | Ice He 何志遠" data-tsina="undefined" class="share clearfix">
+	  <div data-url="http://icehe.me/2015/01/30/batch/DOS 常用指令  Command/" data-title="DOS 常用指令  Command | Ice He 何志遠" data-tsina="undefined" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -389,7 +389,7 @@ var duoshuoQuery = {short_name:"icehe"};
 
 
 
-document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="2015/01/30/batch/DOS 常用指令  Command/" data-title="DOS 常用指令  Command" data-url="http://icehe.gitcafe.io/2015/01/30/batch/DOS 常用指令  Command/"></div>'
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="2015/01/30/batch/DOS 常用指令  Command/" data-title="DOS 常用指令  Command" data-url="http://icehe.me/2015/01/30/batch/DOS 常用指令  Command/"></div>'
 //	+ '<hr/>'
 //	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
 //	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
@@ -538,21 +538,19 @@ document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thr
   <div class="sitelist" style="display: block;">
 	<p class="asidetitle">
 		<a href="javascript:;" onclick="switch_widget_hidden(this);">
-			Sites 站点 &nbsp;
-			<i class="fa fa-caret-down"></i>
+			Statistics 统计 &nbsp;
+			<i class="fa fa-caret-up"></i>
 		</a>
 	</p>
-	<ul class="hidden">
+	<ul class="clearfix">
 		<!--<select class="cur_site" onchange="switch_site(this);">-->
 			<!--<option value="http://icehe.me" id="github_option"> Primary 主站 - on Github</option>-->
 			<!--<option value="http://icehe.gitcafe.io" id="gitcafe_option"> Mirror 备用 - on Gitcafe</option>-->
 			<!--<option value="http://127.0.0.1:4000" id="local_option" class="hidden"> Test 测试 - on Localhost</option>-->
 		<!--</select>-->
 		<li>
-			&nbsp; &nbsp;Page Views &nbsp;=&nbsp; <b><span id="busuanzi_value_site_pv"></span></b>
-		</li>
-		<li>
-			&nbsp; &nbsp;Unique Visitors &nbsp;=&nbsp; <b><span id="busuanzi_value_site_uv"></span></b>
+			&nbsp; &nbsp;PV &nbsp;=&nbsp; <b><span id="busuanzi_value_site_pv"></span></b>
+			&nbsp; &nbsp;UV &nbsp;=&nbsp; <b><span id="busuanzi_value_site_uv"></span></b>
 		</li>
 	</ul>
 </div>
@@ -851,15 +849,25 @@ $(document).ready(function(){
 
 	
 		if(isOnGithub){
-			var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-			document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F7076c1a5edd76a6bd49f8065ceecc7a4' type='text/javascript'%3E%3C/script%3E"));
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?7076c1a5edd76a6bd49f8065ceecc7a4";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
 		}
 	
 
 	
 		if(isOnGitcafe){
-			var _bdhmProtocol2 = (("https:" == document.location.protocol) ? " https://" : " http://");
-			document.write(unescape("%3Cscript src='" + _bdhmProtocol2 + "hm.baidu.com/h.js%3F68e951d2eed2725bdd8cf4b1900d632f' type='text/javascript'%3E%3C/script%3E"));
+			var _hmt2 = _hmt2 || [];
+			(function() {
+				var hm2 = document.createElement("script");
+				hm2.src = "//hm.baidu.com/hm.js?68e951d2eed2725bdd8cf4b1900d632f";
+				var s2 = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm2, s2);
+			})();
 		}
 	
 	
@@ -930,8 +938,9 @@ $(document).ready(function(){
   $(function(){
     var Counter = AV.Object.extend("Counter");
     // only increse visit counting when intering a page
-    if($('.article-title').length == 1)
+    if((isOnGithub || isOnGitcafe) && $('.article-title').length == 1) {
       addCount(Counter);
+    }
 
     // if popularlist widget exists, add item to it.
     var popular_list = $('.popularlist');

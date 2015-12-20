@@ -16,7 +16,7 @@
 	<meta name="description" content="IceHe 何志远 blog 博客 software development IT tech 软件 开发 技术 record life 记录 人生 生活">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Ice He 何志遠">
-<meta property="og:url" content="http://icehe.gitcafe.io/tags/TECH/page/3/index.html">
+<meta property="og:url" content="http://icehe.me/tags/TECH/page/3/index.html">
 <meta property="og:site_name" content="Ice He 何志遠">
 <meta property="og:description" content="IceHe 何志远 blog 博客 software development IT tech 软件 开发 技术 record life 记录 人生 生活">
 <meta name="twitter:card" content="summary">
@@ -44,7 +44,7 @@
   <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
 
   <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE" />
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
   <!-- Google Fonts from 360 CDN -->
   <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
@@ -422,15 +422,25 @@ $(document).ready(function(){
 
 	
 		if(isOnGithub){
-			var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-			document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F7076c1a5edd76a6bd49f8065ceecc7a4' type='text/javascript'%3E%3C/script%3E"));
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?7076c1a5edd76a6bd49f8065ceecc7a4";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
 		}
 	
 
 	
 		if(isOnGitcafe){
-			var _bdhmProtocol2 = (("https:" == document.location.protocol) ? " https://" : " http://");
-			document.write(unescape("%3Cscript src='" + _bdhmProtocol2 + "hm.baidu.com/h.js%3F68e951d2eed2725bdd8cf4b1900d632f' type='text/javascript'%3E%3C/script%3E"));
+			var _hmt2 = _hmt2 || [];
+			(function() {
+				var hm2 = document.createElement("script");
+				hm2.src = "//hm.baidu.com/hm.js?68e951d2eed2725bdd8cf4b1900d632f";
+				var s2 = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm2, s2);
+			})();
 		}
 	
 	
@@ -501,8 +511,9 @@ $(document).ready(function(){
   $(function(){
     var Counter = AV.Object.extend("Counter");
     // only increse visit counting when intering a page
-    if($('.article-title').length == 1)
+    if((isOnGithub || isOnGitcafe) && $('.article-title').length == 1) {
       addCount(Counter);
+    }
 
     // if popularlist widget exists, add item to it.
     var popular_list = $('.popularlist');
