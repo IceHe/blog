@@ -1,5 +1,5 @@
 title: My Life Timeline
-date: 2015-01-24 19:07:58
+date: 2015-01-24
 toc: false
 ---
 ###### **Born 出生** &nbsp; &nbsp; &nbsp; &nbsp; *Mar 16, 1992*

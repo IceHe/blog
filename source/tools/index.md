@@ -1,5 +1,5 @@
 title: My Tools 我的工具
-date: 2015-01-20 18:26:55
+date: 2015-11-21
 ---
 
 *下文斜体文本为补充描述，可略过不读。*
@@ -241,7 +241,7 @@ date: 2015-01-20 18:26:55
 
 <br/>
 
-## **Hareware**
+## **Hardware**
 
 - **MacBook Pro Retina 13-inch** 
 
@@ -275,3 +275,5 @@ date: 2015-01-20 18:26:55
 - **Côte & Ciel Backpack**
 
 	Isar Eco Yarn / Black Melange ， 就是喜欢它特别的外观设计。
+
+<br/>

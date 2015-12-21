@@ -1,5 +1,5 @@
 title: Resume - Ice He 何志远
-date: 2015-01-24 00:26:55
+date: 2015-01-24
 toc: false
 ---
 
