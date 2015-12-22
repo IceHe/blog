@@ -93,8 +93,9 @@ toc: false
 
 ###### **Related**
 
-- <i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;[Bookmarks &nbsp; 书签](/bookmarks)
+- <i class="fa fa-calendar">&nbsp;</i> [Life Logs &nbsp; 手帐](/lifelogs)
 - <i class="fa fa-gears">&nbsp;</i> [Tools &nbsp; 利器](/tools)
+- <i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;[Bookmarks &nbsp; 书签](/bookmarks)
 - <i class="fa fa-heart-o">&nbsp;</i> [Favourites &nbsp; 喜爱](/favourites)<br/><br/>
 
 ###### **Contact**
