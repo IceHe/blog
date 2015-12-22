@@ -35,4 +35,13 @@ toc: false
 
 - 专注，努力学会取舍，追求极简主义。
 - 现在，每天坚持记账、写日记，打羽毛球、健身、节制饮食、多喝水；然后，读读书、学技术、学英语，再抽空写博客。
-- 希望不久之后，也能坚持每天早睡早起。 工作方面早日独当一面。
+- 希望不久之后，也能坚持每天早睡早起。 工作方面早日独当一面。<br/><br/>
+
+###### **Related 相关**
+
+- <i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;[Bookmarks &nbsp; 书签](/bookmarks)
+- <i class="fa fa-gears">&nbsp;</i> [Tools &nbsp; 利器](/tools)
+- <i class="fa fa-heart-o">&nbsp;</i> [Favourites &nbsp; 喜爱](/favourites)
+- <span class="val_pos icon-douban"> &nbsp;[Books &nbsp; 读过](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
+- <i class="fa fa-github">&nbsp;</i> &nbsp;[Github &nbsp; 代码](http://github.com/IceHe)
+- <i class="fa fa-th-list">&nbsp;</i> [Resume &nbsp; 简历](/resume)<br/><br/>

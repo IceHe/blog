@@ -1,8 +1,8 @@
-title: Bookmark 书签
+title: Bookmarks 书签
 date: 2015-12-20
 ---
 
-## **Web Site 网站**
+## **Web Sites 网站**
 
 ### **Web Dev 开发**
 
@@ -72,7 +72,7 @@ date: 2015-12-20
 
 	国内最好的公开课平台，包含TED、Coursera、可汗学院的翻译视频。<br/><br/>
 
-### **Blog 博客**
+### **Blogs 博客**
 
 - [程序员博客墙](http://blogwall.us/)
 
@@ -82,7 +82,7 @@ date: 2015-12-20
 
 	Life Love Tech. 移动开发，编程感悟。<br/><br/>
 
-### **Tool 工具**
+### **Tools 工具**
 
 - [FIND密码网](http://www.findmima.com/)
 
@@ -96,7 +96,7 @@ date: 2015-12-20
 
 	备选方案。<br/><br/>
 
-## **Article 文章**
+## **Articles 文章**
 
 ### **Life 人生**
 
@@ -194,7 +194,7 @@ date: 2015-12-20
 
 	“送者心安，受者心欢。” <br/><br/>
 
-### **Think & Thought 思维**
+### **Think 思维**
 
 - [智商高低是因为思维习惯不同造成的吗？](https://www.zhihu.com/question/27283467)
 
@@ -347,3 +347,12 @@ date: 2015-12-20
 - [KTV不允许带酒水和零食违法不违法？](https://www.zhihu.com/question/35814611/answer/65416013)
 
 	合法权益。<br/><br/>
+
+## **Related 相关**
+
+- <i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;**Bookmarks &nbsp; 书签**
+- <i class="fa fa-gears">&nbsp;</i> [Tools &nbsp; 利器](/tools)
+- <i class="fa fa-heart-o">&nbsp;</i> [Favourites &nbsp; 喜爱](/favourites)
+- <span class="val_pos icon-douban"> &nbsp;[Books &nbsp; 读过](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
+- <i class="fa fa-github">&nbsp;</i> &nbsp;[Github &nbsp; 代码](http://github.com/IceHe)
+- <i class="fa fa-th-list">&nbsp;</i> [Resume &nbsp; 简历](/resume)<br/><br/>

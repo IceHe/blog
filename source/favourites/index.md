@@ -121,7 +121,7 @@ date: 2015-11-21
 
 <br/>
 
-## **Book 书**
+## **Books 书**
 
 - **国史大纲**
 
@@ -469,3 +469,16 @@ date: 2015-11-21
 - **太医来了** *（IPN 旗下播客节目）*
 
 	主打健康、饮食、身体、医疗等常识的科普，干货满满，听完收益颇丰。
+
+- 内核恐慌 *（IPN 旗下播客节目）*
+
+	Kernel Panic ，讨论关于软件开发各种话题的谈话节目。
+
+## **Related 相关**
+
+- <i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;[Bookmarks &nbsp; 书签](/bookmarks)
+- <i class="fa fa-gears">&nbsp;</i> [Tools &nbsp; 利器](/tools)
+- <i class="fa fa-heart-o">&nbsp;</i> **Favourites &nbsp; 喜爱**
+- <span class="val_pos icon-douban"> &nbsp;[Books &nbsp; 读过](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
+- <i class="fa fa-github">&nbsp;</i> &nbsp;[Github &nbsp; 代码](http://github.com/IceHe)
+- <i class="fa fa-th-list">&nbsp;</i> [Resume &nbsp; 简历](/resume)<br/><br/>

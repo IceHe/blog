@@ -17,9 +17,9 @@ toc: false
 <br/> <span class="key_pos">Expr</span><span class="val_pos"> <i class="fa fa-th-list">&nbsp;</i> [Resume](/resume) &nbsp; 简历 </span>
 <span class="key_pos">Read</span> <span class="val_pos icon-douban"> &nbsp;[Douban](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count) &nbsp; 读过 </span>
 <span class="key_pos">Code</span> <span class="val_pos"> <i class="fa fa-github">&nbsp;</i> &nbsp;[Github](http://github.com/IceHe) &nbsp; &nbsp; </span> <br/>
-<span class="key_pos">Mine</span> <span class="val_pos"> <i class="fa fa-gears">&nbsp;</i> [Tools](/tools/) &nbsp; &nbsp;我的利器 </span>
-<span class="val_pos"> <i class="fa fa-coffee">&nbsp;</i> [Timeline](/timeline) &nbsp; &nbsp; </span>
-<span class="val_pos"> <i class="fa fa-heart">&nbsp;</i> [Favourites](/favourites/) &nbsp; 收藏 </span> <br/>
+<span class="key_pos">Mine</span> <span class="val_pos"> <i class="fa fa-gears">&nbsp;</i> [Tools](/tools/) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;利器 </span>
+<span class="val_pos"> <i class="fa fa-hourglass-2">&nbsp;</i> [Timeline](/timeline) &nbsp; &nbsp; </span> <span class="val_pos hidden"> <i class="fa fa-bookmark">&nbsp;</i> &nbsp;[Bookmarks](/bookmarks) &nbsp; </span>
+<span class="val_pos"> <i class="fa fa-heart-o">&nbsp;</i> [Favourites](/favourites) &nbsp; 喜爱 </span> <br/>
 <span class="key_pos">Social</span> <span class="val_pos icon-zhihu"> &nbsp;[Zhihu](http://www.zhihu.com/people/he-zhi-yuan-15) &nbsp; </span>
 <span class="val_pos"> <i class="fa fa-weibo">&nbsp;</i> [Weibo](http://weibo.com/2181657940/) &nbsp; </span>
 <span class="val_pos icon-qzone"> &nbsp;[QZone](http://290841032.qzone.qq.com) </span>

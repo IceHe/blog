@@ -1,4 +1,4 @@
-title: My Tools 我的工具
+title: My Tools 我的利器
 date: 2015-11-21
 ---
 
@@ -276,4 +276,11 @@ date: 2015-11-21
 
 	Isar Eco Yarn / Black Melange ， 就是喜欢它特别的外观设计。
 
-<br/>
+## **Related**
+
+- <i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;[Bookmarks &nbsp; 书签](/bookmarks)
+- <i class="fa fa-gears">&nbsp;</i> **Tools &nbsp; 利器**
+- <i class="fa fa-heart-o">&nbsp;</i> [Favourites &nbsp; 喜爱](/favourites)
+- <span class="val_pos icon-douban"> &nbsp;[Books &nbsp; 读过](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
+- <i class="fa fa-github">&nbsp;</i> &nbsp;[Github &nbsp; 代码](http://github.com/IceHe)
+- <i class="fa fa-th-list">&nbsp;</i> [Resume &nbsp; 简历](/resume)<br/><br/>
