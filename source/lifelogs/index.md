@@ -1,20 +1,27 @@
-title: Life Logs
+title: Life Logs 手帐
 date: 2014-11-08
 ---
 
 #### Related
 ---
-* [**Archives - 文章归档**&nbsp; (Sorted By Time)](/archives/)
-* [Explanations for Log Format - 日志记录格式的说明](/2015/11/13/Time%20Mgt.%20我的时间管理日志/)
+- [**Archives - 文章归档**&nbsp; (Sorted By Time)](/archives/)
 
-<br/>
+- [Explanations for Log Format - 日志记录格式的说明](/2015/11/13/Time%20Mgt.%20我的时间管理日志/)<br/><br/>
+---
+- <i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;[Bookmarks &nbsp; 书签](/bookmarks)
+- <i class="fa fa-gears">&nbsp;</i> [Tools &nbsp; 利器](/tools)
+- <i class="fa fa-heart-o">&nbsp;</i> [Favourites &nbsp; 喜好](/favourites)
+- **<i class="fa fa-calendar">&nbsp;</i> Life Logs &nbsp; 手帐**
+- <span class="val_pos icon-douban"> &nbsp;[Books &nbsp; 读过](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
+- <i class="fa fa-github">&nbsp;</i> &nbsp;[Github &nbsp; 代码](http://github.com/IceHe)
+- <i class="fa fa-th-list">&nbsp;</i> [Resume &nbsp; 简历](/resume)<br/><br/>
+
 #### 2014
 ---
 0. [八至十二月 时间统计： 实习，校招。 Aug ~ Dec Time Stat: intership, campus recruiting.](/lifelogs/2014/2014 Aug~Dec Time Statistics - From aTimeLogger.html)
 11. [十一月：挣扎，旅行，云南。 Nov: struggle, travel, Yunnan, Lijiang.](/lifelogs/2014/11/index.html)
-12. [十二月：实习，旅行，北京。 Dec: intership, travel, Beijing.](/lifelogs/2014/12/index.html)
+12. [十二月：实习，旅行，北京。 Dec: intership, travel, Beijing.](/lifelogs/2014/12/index.html) <br/><br/>
 
-<br/>
 #### 2015
 ---
 1. [一月：适应，北京。 Jan: adapt, Beijing.](/lifelogs/2015/01/index.html)

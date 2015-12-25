@@ -182,9 +182,9 @@ date: 2015-12-20
 
 	不强求。
 
-- [追求不是一场冲刺赛](http://zhuanlan.zhihu.com/bocai/20193788)
+- [《不想靠谱》 知乎专栏](http://zhuanlan.zhihu.com/bocai)
 
-	表白，只是捅破了那层窗户纸，推开了那扇虚掩的门罢了。
+	两性关系。
 
 - [认为「只有我完美了，别人才会喜欢我」的想法有什么错误，该怎么解决？](https://www.zhihu.com/question/31280604)
 
@@ -192,7 +192,7 @@ date: 2015-12-20
 
 - [送礼的秘诀是什么？](https://www.zhihu.com/question/20455039)
 
-	“送者心安，受者心欢。” <br/><br/>
+	“送者心安，受者心欢。”<br/><br/>
 
 ### **Think 思维**
 
@@ -346,13 +346,17 @@ date: 2015-12-20
 
 - [KTV不允许带酒水和零食违法不违法？](https://www.zhihu.com/question/35814611/answer/65416013)
 
-	合法权益。<br/><br/>
+	合法权益。
+
+- [为什么有些大公司技术弱爆了？](https://www.zhihu.com/question/32039226)
+
+	实用主义。<br/><br/>
 
 ## **Related 相关**
 
 - <i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;**Bookmarks &nbsp; 书签**
 - <i class="fa fa-gears">&nbsp;</i> [Tools &nbsp; 利器](/tools)
-- <i class="fa fa-heart-o">&nbsp;</i> [Favourites &nbsp; 喜爱](/favourites)
+- <i class="fa fa-heart-o">&nbsp;</i> [Favourites &nbsp; 喜好](/favourites)
 - <i class="fa fa-calendar">&nbsp;</i> [Life Logs &nbsp; 手帐](/lifelogs)
 - <span class="val_pos icon-douban"> &nbsp;[Books &nbsp; 读过](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
 - <i class="fa fa-github">&nbsp;</i> &nbsp;[Github &nbsp; 代码](http://github.com/IceHe)

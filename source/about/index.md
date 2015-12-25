@@ -1,31 +1,28 @@
-title: About
+title: About 关于
 date: 2015-01-20 18:26:55
 toc: false
 ---
 #### **Me**
 ---
 <br/> <span class="key_pos">Name</span>  <span class="val_pos"> <i class="fa fa-user-secret">&nbsp;</i> &nbsp;**Ice He 何志远** &nbsp;&nbsp; </span>
-<span class="key_pos">Email</span>  <span class="val_pos"> <i class="fa fa-envelope-square">&nbsp;</i> &nbsp;[x@icehe.me](mailto:x@icehe.me) </span>
-<span class="key_pos">Home</span>  <span class="val_pos"> <i class="fa fa-home">&nbsp;</i> Guangzhou - China  </span>
-<span class="key_pos">Corp</span>  <span class="val_pos"> <i class="fa fa-weibo">&nbsp;</i> Sina Weibo - Beijing </span>
-<span class="key_pos">Job</span>  <span class="val_pos"> <i class="fa fa-puzzle-piece">&nbsp;</i> Server-side Dev Engineer </span>
-<span class="key_pos">Tags</span>  <span class="val_pos"> <i class="fa fa-tag">&nbsp;</i> Zhixin,&nbsp; SCUT,&nbsp; Animate </span>
-<span class="val_pos"> &nbsp; &nbsp; &nbsp;Shuttle Cock,&nbsp; 毽球 </span>
+<span class="key_pos">Email</span>  <span class="val_pos"> <i class="fa fa-envelope-square">&nbsp;</i> &nbsp;[x@icehe.me](mailto:x@icehe.me) </span> <span class="key_pos hidden">Home</span>  <span class="val_pos hidden"> <i class="fa fa-home">&nbsp;</i> Guangzhou - China  </span>
+<span class="key_pos">Job</span>  <span class="val_pos"> <i class="fa fa-weibo">&nbsp;</i> Beijing Sina Weibo - Mobile API </span>
+<span class="key_pos">Pos</span>  <span class="val_pos"> <i class="fa fa-puzzle-piece">&nbsp;</i> Server-side Dev Engineer </span>
+<span class="key_pos">Tags</span>  <span class="val_pos"> <i class="fa fa-tag">&nbsp;</i> Zhixin,&nbsp; SCUT,&nbsp; Guangzhou, </span>
+<span class="val_pos"> &nbsp; &nbsp; &nbsp;Animate,&nbsp; Shuttle Cock,&nbsp; 毽球 </span>
 <br/>
 #### **Links**
 ---
-<br/> <span class="key_pos">Expr</span><span class="val_pos"> <i class="fa fa-th-list">&nbsp;</i> [Resume](/resume) &nbsp; 简历 </span>
-<span class="key_pos">Read</span> <span class="val_pos icon-douban"> &nbsp;[Douban](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count) &nbsp; 读过 </span>
-<span class="key_pos">Code</span> <span class="val_pos"> <i class="fa fa-github">&nbsp;</i> &nbsp;[Github](http://github.com/IceHe) &nbsp; &nbsp; </span> <br/>
-<span class="key_pos">Mine</span> <span class="val_pos"> <i class="fa fa-gears">&nbsp;</i> [Tools](/tools/) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;利器 </span>
-<span class="val_pos"> <i class="fa fa-hourglass-2">&nbsp;</i> [Timeline](/timeline) &nbsp; &nbsp; &nbsp;光阴</span>
-<span class="val_pos"> <i class="fa fa-calendar">&nbsp;</i> [Life Logs](/lifelogs) &nbsp; &nbsp; 手帐 </span>
-<span class="val_pos"> <i class="fa fa-bookmark">&nbsp;</i> &nbsp;[Bookmarks](/bookmarks) &nbsp; </span>
-<span class="val_pos"> <i class="fa fa-heart-o">&nbsp;</i> [Favourites](/favourites) &nbsp; 喜爱 </span> <br/>
-<span class="key_pos">Social</span> <span class="val_pos icon-zhihu"> &nbsp;[Zhihu](http://www.zhihu.com/people/he-zhi-yuan-15) &nbsp; </span>
-<span class="val_pos"> <i class="fa fa-weibo">&nbsp;</i> [Weibo](http://weibo.com/2181657940/) &nbsp; </span>
-<span class="val_pos icon-qzone"> &nbsp;[QZone](http://290841032.qzone.qq.com) </span>
-<span class="val_pos"> <i class="fa fa-wechat">&nbsp;</i> <a href="javascript:;" target="_top" onclick="document.getElementById('qr_code_tip').className='red'; document.getElementById('qr_code').className='pic_styl';">WeChat</a> &nbsp; <span id="qr_code_tip" class="hidden" style="margin-left:10px">**Scan QR Code** <i class="fa fa-arrow-down"></i></span> </span> <br/>
+<br/> <span class="key_pos">Expr</span><span class="val_pos"> <i class="fa fa-th-list">&nbsp;</i> [Resume](/resume) &nbsp;简历 </span>
+<span class="key_pos">Code</span> <span class="val_pos"> <i class="fa fa-github">&nbsp;</i> &nbsp;[Github](http://github.com/IceHe) </span>
+<span class="key_pos">Read</span> <span class="val_pos icon-douban"> &nbsp;[Douban](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count) &nbsp; </span> <br/>
+<span class="key_pos">Mine</span> <span class="val_pos"> <i class="fa fa-calendar">&nbsp;</i> [Life Logs](/lifelogs) &nbsp;手帐</span>
+<span class="val_pos"> <i class="fa fa-gears">&nbsp;</i> [Tools](/tools/) &nbsp; &nbsp; &nbsp;  </span>
+<span class="val_pos"> <i class="fa fa-bookmark">&nbsp;</i> &nbsp;[Bookmarks](/bookmarks) </span>
+<span class="val_pos"> <i class="fa fa-heart-o">&nbsp;</i> [Favourites](/favourites) </span>
+<span class="val_pos"> <i class="fa fa-hourglass-2">&nbsp;</i> [Timeline](/timeline) </span> <br/>
+<span class="key_pos">Social</span> <span class="val_pos icon-zhihu"> &nbsp; [Zhihu](http://www.zhihu.com/people/he-zhi-yuan-15) &nbsp;<i class="fa fa-weibo">&nbsp;</i> [Weibo](http://weibo.com/2181657940/) &nbsp; </span>
+<span class="val_pos icon-qzone">&nbsp;[QZone](http://290841032.qzone.qq.com) &nbsp; <i class="fa fa-wechat">&nbsp;</i> <a href="javascript:;" target="_top" onclick="document.getElementById('qr_code_tip').className='red'; document.getElementById('qr_code').className='pic_styl';">WeChat</a> &nbsp; <span id="qr_code_tip" class="hidden" style="margin-left:10px">**Scan QR Code** <i class="fa fa-arrow-down"></i></span></span><br/>
 <span class="key_pos">Friends</span> <span class="val_pos"> <i class="fa fa-users">&nbsp;</i> [Jan Fan](http://janfan.github.io/) / [Shiwey Yan](http://shiweyyan.github.io/) / [极地 · 雪](http://sf-zhou.github.io/) </span>
 <br/>
 #### **Protrait**

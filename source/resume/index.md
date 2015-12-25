@@ -87,16 +87,16 @@ toc: false
 ## **Others**
 <br/>
 ###### **Hobby**
-- <i class="fa fa-soccer-ball-o">&nbsp;</i> 运动：毽球、羽毛球、健身 &nbsp; &nbsp; <i class="fa fa-trophy"></i>[ 华工毽球社社长 ](#sport)
+- <i class="fa fa-soccer-ball-o">&nbsp;</i> 运动：毽球、羽毛球、健身 &nbsp; &nbsp; <i class="fa fa-trophy"></i>[ 华工毽球社社长 ](#华南理工毽球社_-_社长_&nbsp;_&nbsp;_2012-09_~_2014-06)
 - <i class="fa fa-book">&nbsp;</i> 阅读：技术、IT、心理学、杂 &nbsp; &nbsp; <span class="icon-douban"></span>[ 读过的书 ](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
 - <i class="fa fa-pencil-square-o">&nbsp;</i> 写作：难忘的人与事、生活与想法 &nbsp; &nbsp; <span class=" icon-qzone"> [ 旧博客 ](http://290841032.qzone.qq.com) </span><br/><br/>
 
 ###### **Related**
 
-- <i class="fa fa-calendar">&nbsp;</i> [Life Logs &nbsp; 手帐](/lifelogs)
-- <i class="fa fa-gears">&nbsp;</i> [Tools &nbsp; 利器](/tools)
+- <i class="fa fa-calendar">&nbsp;</i> [Life Logs &nbsp; 自我管理日志](/lifelogs)
+- <i class="fa fa-gears">&nbsp;</i> [Tools &nbsp; 使用的工具](/tools)
 - <i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;[Bookmarks &nbsp; 书签](/bookmarks)
-- <i class="fa fa-heart-o">&nbsp;</i> [Favourites &nbsp; 喜爱](/favourites)<br/><br/>
+- <i class="fa fa-heart-o">&nbsp;</i> [Favourites &nbsp; 喜好](/favourites)<br/><br/>
 
 ###### **Contact**
 
