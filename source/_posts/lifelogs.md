@@ -1,12 +1,15 @@
-title: Life Logs 手帐
-date: 2014-11-08
+title: My Life Logs 手帐
+date: 2015-01-22
+categories: [me]
+tags: [me]
+description: 个人时间管理日志。
 ---
 
 #### Related
 ---
 - [**Archives - 文章归档**&nbsp; (Sorted By Time)](/archives/)
 
-- [Explanations for Log Format - 日志记录格式的说明](/2015/11/13/Time%20Mgt.%20我的时间管理日志/)<br/><br/>
+- [Explanations for Log Format - 日志记录格式的说明](/think/time_mgt/)<br/><br/>
 ---
 - <i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;[Bookmarks &nbsp; 书签](/bookmarks)
 - <i class="fa fa-gears">&nbsp;</i> [Tools &nbsp; 利器](/tools)

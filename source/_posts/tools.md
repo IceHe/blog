@@ -1,12 +1,9 @@
-title: 我的利器 | Mac 应用推荐 ( OS X, Cmd ) 
-date: 2015-12-24 21:35:02
-categories: [OS X]
-tags: [tool]
-description: Recommended Apps &nbsp;|&nbsp; 包括小部分Windows软件。（仅为跳转入口）
+title: My Tools 利器
+date: 2015-11-21
+categories: [me]
+tags: [me]
+description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommended Mac Apps
 ---
-<script type="text/javascript">
-	window.location.href='/tools';
-</script>
 
 *下文斜体文本为补充描述，可略过不读。*
 
@@ -343,8 +340,7 @@ description: Recommended Apps &nbsp;|&nbsp; 包括小部分Windows软件。（�
 - <i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;[Bookmarks &nbsp; 书签](/bookmarks)
 - <i class="fa fa-gears">&nbsp;</i> **Tools &nbsp; 利器**
 - <i class="fa fa-heart-o">&nbsp;</i> [Favourites &nbsp; 喜好](/favourites)
-- <i class="fa fa-calendar">&nbsp;</i> [Life Logs &nbsp; 手帐](/pages/lifelogs/)
+- <i class="fa fa-calendar">&nbsp;</i> [Life Logs &nbsp; 手帐](/lifelogs)
 - <span class="val_pos icon-douban"> &nbsp;[Books &nbsp; 读过](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
 - <i class="fa fa-github">&nbsp;</i> &nbsp;[Github &nbsp; 代码](http://github.com/IceHe)
 - <i class="fa fa-th-list">&nbsp;</i> [Resume &nbsp; 简历](/resume)<br/><br/>
-

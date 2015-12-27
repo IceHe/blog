@@ -1,14 +1,14 @@
-date: 2015-11-13
 title: Time Mgt. 我的时间管理日志
-tags: [LIFE]
-categories: [time mgt]
+date: 2015-11-13
+categories: [think]
+tags: [time mgt]
 description: Brief Explanations for Log Format - 我的时间管理日志格式的简要说明。Pricinples 原则，Transaction Category 事务类别，Time Granularity 时间粒度，Log Instance 日志实例，Schedule Plan 日程规划，Thoughts about Time Management 关于时间管理的思考。
 ---
 **原标题**：Explanations for Log Format - 日志记录格式说明
 **版本号**：v2.0（简版）
 **上一版**：[Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考](/old_version_posts/time_mgt_log_format.html)
 
-**链接：[我的所有时间管理日志](/pages/lifelogs/)**
+**链接：[我的所有时间管理日志](/lifelogs)**
 
 *时间管理日志格式一直根据实际使用进行调整，可能与本文描述不一致。*
 

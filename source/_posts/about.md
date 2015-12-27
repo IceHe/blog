@@ -1,5 +1,8 @@
-title: About 关于
-date: 2015-01-20 18:26:55
+title: Me 我
+date: 2015-01-20
+categories: [me]
+tags: [me]
+description: 这就是我。
 toc: false
 ---
 #### **Me**
@@ -16,12 +19,12 @@ toc: false
 <br/> <span class="key_pos">Expr</span><span class="val_pos"> <i class="fa fa-th-list">&nbsp;</i> [Resume](/resume) &nbsp;简历 </span>
 <span class="key_pos">Code</span> <span class="val_pos"> <i class="fa fa-github">&nbsp;</i> &nbsp;[Github](http://github.com/IceHe) </span>
 <span class="key_pos">Read</span> <span class="val_pos icon-douban"> &nbsp;[Douban](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count) &nbsp; </span> <br/>
-<span class="key_pos">Mine</span> <span class="val_pos"> <i class="fa fa-calendar">&nbsp;</i> [Life Logs](/pages/lifelogs/) &nbsp;手帐</span>
+<span class="key_pos">Mine</span> <span class="val_pos"> <i class="fa fa-calendar">&nbsp;</i> [Life Logs](/lifelogs) &nbsp;手帐</span>
 <span class="val_pos"> <i class="fa fa-gears">&nbsp;</i> [Tools](/tools/) &nbsp; &nbsp; &nbsp;  </span>
 <span class="val_pos"> <i class="fa fa-bookmark">&nbsp;</i> &nbsp;[Bookmarks](/bookmarks) </span>
 <span class="val_pos"> <i class="fa fa-heart-o">&nbsp;</i> [Favourites](/favourites) </span>
 <span class="val_pos"> <i class="fa fa-hourglass-2">&nbsp;</i> [Timeline](/timeline) </span> <br/>
-<span class="key_pos">Social</span> <span class="val_pos icon-zhihu"> &nbsp; [Zhihu](http://www.zhihu.com/people/he-zhi-yuan-15) &nbsp;<i class="fa fa-weibo">&nbsp;</i> [Weibo](http://weibo.com/2181657940/) &nbsp; </span>
+<span class="key_pos">Social</span> <span class="val_pos icon-zhihu"> &nbsp;[Zhihu](http://www.zhihu.com/people/he-zhi-yuan-15) &nbsp; <i class="fa fa-weibo">&nbsp;</i> [Weibo](http://weibo.com/2181657940/) &nbsp; </span>
 <span class="val_pos icon-qzone">&nbsp;[QZone](http://290841032.qzone.qq.com) &nbsp; <i class="fa fa-wechat">&nbsp;</i> <a href="javascript:;" target="_top" onclick="document.getElementById('qr_code_tip').className='red'; document.getElementById('qr_code').className='pic_styl';">WeChat</a> &nbsp; <span id="qr_code_tip" class="hidden" style="margin-left:10px">**Scan QR Code** <i class="fa fa-arrow-down"></i></span></span><br/>
 <span class="key_pos">Friends</span> <span class="val_pos"> <i class="fa fa-users">&nbsp;</i> [Jan Fan](http://janfan.github.io/) / [Shiwey Yan](http://shiweyyan.github.io/) / [极地 · 雪](http://sf-zhou.github.io/) </span>
 <br/>

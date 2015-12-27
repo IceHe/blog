@@ -1,5 +1,8 @@
 title: Resume - Ice He 何志远
 date: 2015-01-24
+categories: [me]
+tags: [me]
+description: 我的简历。
 toc: false
 ---
 
@@ -93,7 +96,7 @@ toc: false
 
 ###### **Related**
 
-- <i class="fa fa-calendar">&nbsp;</i> [Life Logs &nbsp; 自我管理日志](/pages/lifelogs/)
+- <i class="fa fa-calendar">&nbsp;</i> [Life Logs &nbsp; 自我管理日志](/lifelogs)
 - <i class="fa fa-gears">&nbsp;</i> [Tools &nbsp; 使用的工具](/tools)
 - <i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;[Bookmarks &nbsp; 书签](/bookmarks)
 - <i class="fa fa-heart-o">&nbsp;</i> [Favourites &nbsp; 喜好](/favourites)<br/><br/>

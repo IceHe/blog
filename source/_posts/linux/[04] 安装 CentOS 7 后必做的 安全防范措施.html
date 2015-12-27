@@ -1,8 +1,9 @@
 title: (04) 安装后必做的 安全防范措施 - CentOS 7
-date: 2015-03-28 11:30:32
-tags: [CentOS, security, SSH, TECH]
+date: 2015-03-28
 categories: Linux
+tags: [CentOS, secure, SSH, TECH]
 description: 更改 root 密碼；新增一個普通帳號；禁止 root 使用 SSH 登入；使用非常規的 SSH 端口；啟用公鑰驗證登入 SSH；每天自動更新；设置Firewall防火墙。
+toc: false
 ---
 <div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>Ref From:&nbsp;<a href="http://www.hkpug.net/2014/09/18/%E5%AE%89%E8%A3%9D-centos-7-%E5%BE%8C%E5%BF%85%E5%81%9A%E7%9A%84%E4%B8%83%E4%BB%B6%E4%BA%8B/" shape="rect" target="_blank">http://www.hkpug.net/2014/09/18/%E5%AE%89%E8%A3%9D-centos-7-%E5%BE%8C%E5%BF%85%E5%81%9A%E7%9A%84%E4%B8%83%E4%BB%B6%E4%BA%8B/</a></div><div>Original Title:&nbsp;安裝 CentOS 7 後必做的七件事</div><div><br clear="none"/></div><div><span style="color: #ff6600;"><strong>Notice:</strong> 安装桌面版的 CentOS 后，一般为了简便，暂时只用做第三步——</span></div><div><span style="color: #ff6600;">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;<strong>3. 禁止 root 使用 ssh 登入</strong></span></div><div><br clear="none"/></div><div style="font-size: 16px;"><div style="text-align: center; font-family: verdana, arial, sans-serif; font-size: 0.9em; color: #333333; background: #eeeeee;"><div style="text-align: center;"><div style="text-align: left; background: #eeeeee;"><table style="font-size: 100%; font-weight: inherit; font-style: inherit; font-variant: inherit;"><tbody><tr><td colspan="1" rowspan="1" style="vertical-align: top;"><div style="word-wrap: break-word; background: #eeeeee;"><div style="margin: 5px 0px 10px;"><a href="http://www.centos.org/" shape="rect" style="color: #0000ff; font-weight: normal; text-decoration: none;" target="_blank">CentOS</a> 是最多人用來運行伺服器的 Linux 版本，最新版本是 CentOS 7。<br clear="none"/>
 當你興趣勃勃地在一台主機或 VPS 上安裝 CentOS 7 後，首要的工作肯定是加強它的安全性，<br clear="none"/>
