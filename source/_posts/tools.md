@@ -1,8 +1,8 @@
-title: Mac 应用推荐 ( OS X, Cmd ) 
+title: 我的利器 | Mac 应用推荐 ( OS X, Cmd ) 
 date: 2015-12-24 21:35:02
 categories: [OS X]
 tags: [tool]
-description: Recommended Apps | 还包括小部分Windows软件推荐。
+description: Recommended Apps &nbsp;|&nbsp; 包括小部分Windows软件。（仅为跳转入口）
 ---
 <script type="text/javascript">
 	window.location.href='/tools';
@@ -54,7 +54,7 @@ description: Recommended Apps | 还包括小部分Windows软件推荐。
 
 - **[Vim](http://www.vim.org/)**
 
-	编辑器之神（Emacs则是神的编辑器）。服务端开发、运维要与服务器打交道，vi\* 是必学技能。
+	编辑器之神（Emacs则是神的编辑器）。服务端开发、运维经常要远程连接服务器，vi\* 自然是必学技能。
 
 - **[Zsh](http://zsh.sourceforge.net/)**
 
@@ -82,7 +82,7 @@ description: Recommended Apps | 还包括小部分Windows软件推荐。
 
 - **[Homebrew](http://brew.sh/)**
 
-	OS X下最好的包管理器。就如同agt-get之于Ubuntu，yum之于RedHat、CentOS的存在。
+	OS X下最好的包管理器。就如agt-get之于Ubuntu，yum之于RedHat、CentOS的存在。
 
 <br/>
 
@@ -90,7 +90,7 @@ description: Recommended Apps | 还包括小部分Windows软件推荐。
 
 - **[iTerm2](https://www.iterm2.com/)**
 
-	强大易用的命令行工具。*系统默认Terminal的替代品。*
+	强大易用的命令行工具。*系统默认Terminal的最佳替代品。*
 
 - **[PyCharm](https://www.jetbrains.com/pycharm/), &nbsp;[PhpStorm](https://www.jetbrains.com/phpstorm/)**
 
@@ -125,6 +125,18 @@ description: Recommended Apps | 还包括小部分Windows软件推荐。
 
 ### **System Tools**
 
+- **[Karabiner](https://pqrs.org/osx/karabiner/index.html.en)**
+
+	强大、稳定的键盘修改器，拥有大量预定义的神奇的修改方案。键盘党神器！
+
+- **[Seil](https://pqrs.org/osx/karabiner/seil.html.en)**
+
+	Karabiner 的补充，键盘改键工具，主要针对 Caps Lock，以及 Esc、Shift、Ctrl、Option 等！
+
+- **[ShowyEdge](https://pqrs.org/osx/ShowyEdge/index.html.en)**
+
+	输入法提示工具。显示一条样式可定制的色带在屏幕顶部，来提示当前在使用什么输入法，让你在全屏使用App时，也可以简单地区分！
+
 - **[Owly](https://itunes.apple.com/us/app/owly-display-sleep-prevention/id882812218?mt=12)**
 
 	防止Mac休眠的软件，顺带小巧的倒计时功能。
@@ -140,10 +152,6 @@ description: Recommended Apps | 还包括小部分Windows软件推荐。
 
 	App的快速启动/切换工具。
 	*Windows上已习惯迅速用快捷键与手势打开/切换程序， Mac的触摸板极好用，但我仍是不想老动光标的键盘党。*
-
-- **[Seil]()**
-
-	
 
 - **[ClipMenu](http://www.clipmenu.com/)**
 
@@ -335,8 +343,8 @@ description: Recommended Apps | 还包括小部分Windows软件推荐。
 - <i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;[Bookmarks &nbsp; 书签](/bookmarks)
 - <i class="fa fa-gears">&nbsp;</i> **Tools &nbsp; 利器**
 - <i class="fa fa-heart-o">&nbsp;</i> [Favourites &nbsp; 喜好](/favourites)
-- <i class="fa fa-calendar">&nbsp;</i> [Life Logs &nbsp; 手帐](/lifelogs)
+- <i class="fa fa-calendar">&nbsp;</i> [Life Logs &nbsp; 手帐](/pages/lifelogs/)
 - <span class="val_pos icon-douban"> &nbsp;[Books &nbsp; 读过](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
 - <i class="fa fa-github">&nbsp;</i> &nbsp;[Github &nbsp; 代码](http://github.com/IceHe)
 - <i class="fa fa-th-list">&nbsp;</i> [Resume &nbsp; 简历](/resume)<br/><br/>
-<span id="count_down">5</span> 秒后跳转。
+

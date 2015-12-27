@@ -8,7 +8,7 @@ description: Brief Explanations for Log Format - 我的时间管理日志格式�
 **版本号**：v2.0（简版）
 **上一版**：[Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考](/old_version_posts/time_mgt_log_format.html)
 
-**链接：[我的所有时间管理日志](/lifelogs)**
+**链接：[我的所有时间管理日志](/pages/lifelogs/)**
 
 *时间管理日志格式一直根据实际使用进行调整，可能与本文描述不一致。*
 

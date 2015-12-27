@@ -14,7 +14,7 @@ description: Why 初衷、How 过程，Hexo Course 建站教程，Custom Points 
 不如自己搭建个独一无二的。
 不但过程有意思，还能学到许多新知识。<br/><br/>
 
-可以用来记录[自己的人生](/lifelogs)，
+可以用来记录[自己的人生](/pages/lifelogs/)，
 放一些值得分享的技术、读书笔记和感想。 <br/><br/>
 
 ## How - 过程

@@ -2,7 +2,7 @@ title: 2015/08 stu34 spo5 was2
 date: 2015-08-01 00:00:00
 toc: false
 ---
-[**< Jul. 2015** - Prev 上一月](/lifelogs/2015/07/index.html) &nbsp; &nbsp; | &nbsp; &nbsp; [下一月 Next - **Sep. 2015 >**](/lifelogs/2015/09/index.html) &nbsp; &nbsp; |  &nbsp; &nbsp; [返回年历 **Back to Years ^**](/lifelogs/index.html)
+[**< Jul. 2015** - Prev 上一月](/lifelogs/2015/07/index.html) &nbsp; &nbsp; | &nbsp; &nbsp; [下一月 Next - **Sep. 2015 >**](/lifelogs/2015/09/index.html) &nbsp; &nbsp; |  &nbsp; &nbsp; [返回年历 **Back to Years ^**](/pages/lifelogs/)
 <br/>
 #### Logs 日志记录
 ---

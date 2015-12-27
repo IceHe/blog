@@ -1,5 +1,8 @@
 title: My Favourites 喜爱的事物
 date: 2015-11-21
+categories: [me]
+description: 收藏。
+tags: [me]
 ---
 
 *玩过、看过的之中，最喜欢这些。*

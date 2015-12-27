@@ -1,5 +1,8 @@
 title: Resume - Ice He 何志远
 date: 2015-01-24
+categories: [me]
+description: Recommended Apps &nbsp;|&nbsp; 包括小部分Windows软件。
+tags: [me]
 toc: false
 ---
 
