@@ -19,7 +19,7 @@
 阅读、学习、思考、总结，记录积累日多。不如自己搭个个人博客，来存放我的笔记和">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Why and How to bulid my blog? 搭建我的个人博客。">
-<meta property="og:url" content="http://icehe.gitcafe.io/old_version_posts/Why_and_how_to_build_my_blog.html">
+<meta property="og:url" content="http://icehe.me/old_version_posts/Why_and_how_to_build_my_blog.html">
 <meta property="og:site_name" content="Ice He 何志遠">
 <meta property="og:description" content="Why - 初衷偶然了解到日本的手账文化，心向往之。与其稀遗虚散平日思考产生的许多的观点和感悟，不如录于手账。
 后惊觉手写效率的有限，经一番挣扎，接受“未来是拇指时代”的现实，遂改用手机Apps如“印象笔记”记录。胜在可引用富文本、图片、音频等，且一切尽在云端，方便同步备份、归档、检索。自此放弃心爱的“手写”习惯，改用。
@@ -52,7 +52,7 @@
   <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
 
   <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE" />
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
   <!-- Google Fonts from 360 CDN -->
   <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
@@ -108,28 +108,11 @@
 				<li>
 				
 
-					<form class="search">
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8" target="_blank">
 						<label>Search</label>
-						<input id="st-default-search-input" class="st-default-search-input" type="text" name="q" size="30" placeholder="Find"><br>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Find in Google" />
+						<input type="hidden" name="q" value="site:icehe.me">
 					</form>
-
-					<script type="text/javascript">
-						var engineKey = null;
-						if (isOnGithub){
-							engineKey = 'Vx9bvsztAjmZR9hrgeyV'
-						} else if (isOnGitcafe){
-							engineKey = 'xqcpBnAGBRmDRWNsHpRq'
-						} else { // for testing at localhost
-							engineKey = 'Vx9bvsztAjmZR9hrgeyV'
-						}
-
-						(function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-						(w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-						e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-						})(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-
-						_st('install',engineKey,'2.0.0');
-					</script>
 
 				
 				</li>
@@ -137,6 +120,7 @@
 		</ul>
 	</nav>
 </div>
+
       </header>
       <div id="container">
         <div id="main" class="page" itemscope itemprop="blogPost">
@@ -350,7 +334,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://icehe.gitcafe.io/old_version_posts/Why_and_how_to_build_my_blog.html" data-title="Why and How to bulid my blog? 搭建我的个人博客。 | Ice He 何志遠" data-tsina="undefined" class="share clearfix">
+	  <div data-url="http://icehe.me/old_version_posts/Why_and_how_to_build_my_blog.html" data-title="Why and How to bulid my blog? 搭建我的个人博客。 | Ice He 何志遠" data-tsina="undefined" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -400,7 +384,7 @@ var duoshuoQuery = {short_name:"icehe"};
 
 
 
-document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="old_version_posts/Why_and_how_to_build_my_blog.html" data-title="Why and How to bulid my blog? 搭建我的个人博客。" data-url="http://icehe.gitcafe.io/old_version_posts/Why_and_how_to_build_my_blog.html"></div>'
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="old_version_posts/Why_and_how_to_build_my_blog.html" data-title="Why and How to bulid my blog? 搭建我的个人博客。" data-url="http://icehe.me/old_version_posts/Why_and_how_to_build_my_blog.html"></div>'
 //	+ '<hr/>'
 //	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
 //	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
@@ -648,18 +632,19 @@ $(document).ready(function(){
 
 	
 		if(isOnGitcafe){
-			var _hmt2 = _hmt2 || [];
+			var _hmt = _hmt || [];
 			(function() {
-				var hm2 = document.createElement("script");
-				hm2.src = "//hm.baidu.com/hm.js?68e951d2eed2725bdd8cf4b1900d632f";
-				var s2 = document.getElementsByTagName("script")[0];
-				s.parentNode.insertBefore(hm2, s2);
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?68e951d2eed2725bdd8cf4b1900d632f";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
 			})();
 		}
 	
 	
 	</script>
 </div>
+
 
 
 <!-- Analytics End -->
