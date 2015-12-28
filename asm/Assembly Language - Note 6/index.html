@@ -16,12 +16,12 @@
 	<meta name="description" content="转移指令的原理。操作符offset。jmp 指令：转移地在址指令中的、在寄存器中的、在内存中的。jcxz有条件转移指令，loop 循环指令，dec指令。编译器对转移位移的超界检测。在屏幕中间分别显示绿色、绿底红色、白底蓝色的字符串">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Assembly Language 汇编语言 - Note 6">
-<meta property="og:url" content="http://icehe.gitcafe.io/asm/Assembly Language - Note 6/index.html">
+<meta property="og:url" content="http://icehe.me/asm/Assembly Language - Note 6/index.html">
 <meta property="og:site_name" content="Ice He 何志遠">
 <meta property="og:description" content="转移指令的原理。操作符offset。jmp 指令：转移地在址指令中的、在寄存器中的、在内存中的。jcxz有条件转移指令，loop 循环指令，dec指令。编译器对转移位移的超界检测。在屏幕中间分别显示绿色、绿底红色、白底蓝色的字符串">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%206/Picture.jpeg">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%206/Picture.jpeg">
-<meta property="og:updated_time" content="2015-12-27T08:02:30.000Z">
+<meta property="og:updated_time" content="2015-12-27T13:09:25.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Assembly Language 汇编语言 - Note 6">
 <meta name="twitter:description" content="转移指令的原理。操作符offset。jmp 指令：转移地在址指令中的、在寄存器中的、在内存中的。jcxz有条件转移指令，loop 循环指令，dec指令。编译器对转移位移的超界检测。在屏幕中间分别显示绿色、绿底红色、白底蓝色的字符串">
@@ -47,7 +47,7 @@
   <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
 
   <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE" />
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
   <!-- Google Fonts from 360 CDN -->
   <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
@@ -155,13 +155,6 @@
   </p>
 </header>
 	<div class="article-content">
-		
-		<div id="toc" class="toc-article">
-			<strong class="toc-title">Contents</strong>
-		
-			
-		
-		</div>
 		
 		<div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>教材：《汇编语言》（第二版）王爽 著 清华大学出版社
 <div><br></div><b>章九、转移指令的原理</b><div><br></div><b>可以修改IP，或同时修改CS和IP</b>的指令统称为<b>转移指令。</b><div><br></div>
@@ -368,7 +361,7 @@ end start</div><div style="align: left;"><font size="2"><font face="Times New Ro
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://icehe.gitcafe.io/asm/Assembly Language - Note 6/" data-title="Assembly Language 汇编语言 - Note 6 | Ice He 何志遠" data-tsina="undefined" class="share clearfix">
+	  <div data-url="http://icehe.me/asm/Assembly Language - Note 6/" data-title="Assembly Language 汇编语言 - Note 6 | Ice He 何志遠" data-tsina="undefined" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -439,7 +432,7 @@ var duoshuoQuery = {short_name:"icehe"};
 
 
 
-document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="asm/Assembly Language - Note 6/" data-title="Assembly Language 汇编语言 - Note 6" data-url="http://icehe.gitcafe.io/asm/Assembly Language - Note 6/"></div>'
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="asm/Assembly Language - Note 6/" data-title="Assembly Language 汇编语言 - Note 6" data-url="http://icehe.me/asm/Assembly Language - Note 6/"></div>'
 //	+ '<hr/>'
 //	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
 //	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
@@ -903,7 +896,7 @@ $(document).ready(function(){
 			var _hmt = _hmt || [];
 			(function() {
 				var hm = document.createElement("script");
-				hm.src = "//hm.baidu.com/hm.js?7076c1a5edd76a6bd49f8065ceecc7a4";
+				hm.src = "//hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
 				var s = document.getElementsByTagName("script")[0];
 				s.parentNode.insertBefore(hm, s);
 			})();
