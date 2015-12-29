@@ -5,6 +5,8 @@ tags: [me]
 description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommended Mac Apps
 ---
 
+- *Last Updated on Dec 27, 2015*
+
 *下文斜体文本为补充描述，可略过不读。*
 
 ## **Software**

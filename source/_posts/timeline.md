@@ -5,8 +5,11 @@ tags: [me]
 description: 我的时间轴。
 toc: false
 ---
-###### **Born 出生** &nbsp; &nbsp; &nbsp; &nbsp; *Mar 16, 1992*
+
+- *Last Updated on Dec 27, 2015*
 <br/>
+
+###### **Born 出生** &nbsp; &nbsp; &nbsp; &nbsp; *Mar 16, 1992* <br/>
 ###### **培红小学 - 游戏的童年** &nbsp; &nbsp; &nbsp; &nbsp; *1999 ~ 2005*
 - 三年级开始于去网吧、游戏机室，躲避沉闷的生活。 竟自诩游戏打得好，学习又好… 爱唱、善唱女声的歌，变声期后保持住了。 <br/><br/>
 

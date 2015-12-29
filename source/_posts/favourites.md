@@ -5,6 +5,8 @@ tags: [me]
 description: 我的喜好。
 ---
 
+- *Last Updated on Dec 27, 2015*
+
 *玩过、看过的之中，最喜欢这些。*
 
 ## **Game 游戏**

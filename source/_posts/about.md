@@ -36,5 +36,7 @@ toc: false
 <div id="life_img" class="center hidden">
 	<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/dorm_00.jpg" style="height: 550px; width: 413;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/jianqiu_00.jpg" style="height: 550px; width: 413;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/memorable_00.jpg" style="height: 320px;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/handicraft_00.jpg" style="height: 320px;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/perform_00.jpg" style="height: 335px;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/jianqiu_01.gif" style="height: 335px;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/duokan_read_history.png" style="height: 550px; width: auto;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/sina_work_place.png" style="height: 550px; width:auto;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/home_desk.png" style="height: 335px; weith:auto;" />
 </div>
+
+- *Last Updated on Dec 27, 2015*
 <style type="text/css"> .key_pos{position: absolute; right: 75%; text-align: left;} .val_pos{position: absolute; left: 27%;} .red{color: gray;} article img.pic_styl{height: 165px; width: auto; margin-right: 10px;} </style>
 <script src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script> <script type="text/javascript">$('#more').click(function(){ $('#life_img').removeClass('hidden'); $(this).addClass('hidden');}); </script>

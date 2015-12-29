@@ -4,9 +4,10 @@ categories: [Web]
 tags: [TECH, Hexo]
 description: Why 初衷、How 过程，Hexo Course 建站教程，Custom Points 定制点，Theme 主题，Domain Name 域名，Bed Room 图床，Internal Site Search 站内搜索，404 找不到页面，Sitemap and RSS 站点地图与订阅，Site Analysis 网站分析，Page View 访问数的统计与显示，Others 其它。
 ---
-**上一版**：[Why and How to bulid my blog? 搭建我的个人博客。](/old_version_posts/Why_and_how_to_build_my_blog.html)
 
-**版本号**：v2.0（简版）
+- *Last Updated on Dec 27, 2015*
+
+**上一版**：[Why and How to bulid my blog? 搭建我的个人博客。](/old_version_posts/Why_and_how_to_build_my_blog.html)
 
 ## Why - 初衷
 
