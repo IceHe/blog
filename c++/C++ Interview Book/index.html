@@ -16,7 +16,7 @@
 	<meta name="description" content="多图慎入！！《程序员面试笔试宝典》（机械工业出版社） 的 手写笔记 的 图片存档。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="C++ Interview Book - Handwritten Notes">
-<meta property="og:url" content="http://icehe.gitcafe.io/c++/C++ Interview Book/index.html">
+<meta property="og:url" content="http://icehe.me/c++/C++ Interview Book/index.html">
 <meta property="og:site_name" content="Ice He 何志遠">
 <meta property="og:description" content="多图慎入！！《程序员面试笔试宝典》（机械工业出版社） 的 手写笔记 的 图片存档。">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/C%2B%2B%20Interview%20Book/interview_book%20%281%29.jpg">
@@ -104,7 +104,7 @@
   <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
 
   <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE" />
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
   <!-- Google Fonts from 360 CDN -->
   <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
@@ -163,7 +163,7 @@
 					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8" target="_blank">
 						<label>Search</label>
 						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Find" />
-						<input type="hidden" name="q" value="site:icehe.gitcafe.io">
+						<input type="hidden" name="q" value="site:icehe.me">
 					</form>
 
 				
@@ -341,7 +341,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://icehe.gitcafe.io/c++/C++ Interview Book/" data-title="C++ Interview Book - Handwritten Notes | Ice He 何志遠" data-tsina="undefined" class="share clearfix">
+	  <div data-url="http://icehe.me/c++/C++ Interview Book/" data-title="C++ Interview Book - Handwritten Notes | Ice He 何志遠" data-tsina="undefined" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -412,7 +412,7 @@ var duoshuoQuery = {short_name:"icehe"};
 
 
 
-document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="c++/C++ Interview Book/" data-title="C++ Interview Book - Handwritten Notes" data-url="http://icehe.gitcafe.io/c++/C++ Interview Book/"></div>'
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="c++/C++ Interview Book/" data-title="C++ Interview Book - Handwritten Notes" data-url="http://icehe.me/c++/C++ Interview Book/"></div>'
 //	+ '<hr/>'
 //	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
 //	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
@@ -1066,8 +1066,12 @@ $(document).ready(function(){
 <script type="text/javascript">
   $(window).load(function() {
     var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
-    if (1 == ds_like_button.length && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')) {
-      ds_like_button[0].click()
+    if (1 == ds_like_button.length
+            && "none" != document.getElementsByClassName('ds-meta')[0].style.display
+            && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
+    ) {
+      ds_like_button[0].click();
+      document.getElementsByClassName('ds-like-tooltip-close')[0].click();
       window.location.href = '#';
     }
   });

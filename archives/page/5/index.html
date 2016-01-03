@@ -16,7 +16,7 @@
 	<meta name="description" content="IceHe 何志远 blog 博客 software development IT tech 软件 开发 技术 record life 记录 人生 生活">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Ice He 何志遠">
-<meta property="og:url" content="http://icehe.gitcafe.io/archives/page/5/index.html">
+<meta property="og:url" content="http://icehe.me/archives/page/5/index.html">
 <meta property="og:site_name" content="Ice He 何志遠">
 <meta property="og:description" content="IceHe 何志远 blog 博客 software development IT tech 软件 开发 技术 record life 记录 人生 生活">
 <meta name="twitter:card" content="summary">
@@ -44,7 +44,7 @@
   <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
 
   <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE" />
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
   <!-- Google Fonts from 360 CDN -->
   <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
@@ -103,7 +103,7 @@
 					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8" target="_blank">
 						<label>Search</label>
 						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Find" />
-						<input type="hidden" name="q" value="site:icehe.gitcafe.io">
+						<input type="hidden" name="q" value="site:icehe.me">
 					</form>
 
 				
@@ -182,26 +182,26 @@
 
   <section class="post" itemscope itemprop="blogPost">
   
-    <a href="/asm/在win7 64位系统上使用debug.exe/" title="在win7 64位系统上使用 debug.exe" itemprop="url">
+    <a href="/asm/Assembly Language - Note 1/" title="Assembly Language 汇编语言 - Note 1" itemprop="url">
   
 
-    <time datetime="2015-02-02T14:48:43.000Z" itemprop="datePublished">2015 Feb 02</time>
+    <time datetime="2015-02-01T17:01:01.000Z" itemprop="datePublished">2015 Feb 02</time>
 
 
-    <h1 itemprop="name">在win7 64位系统上使用 debug.exe</h1>
+    <h1 itemprop="name">Assembly Language 汇编语言 - Note 1</h1>
 
   </a>
 </section>
 
   <section class="post" itemscope itemprop="blogPost">
   
-    <a href="/asm/Assembly Language - Note 1/" title="Assembly Language 汇编语言 - Note 1" itemprop="url">
+    <a href="/asm/在win7 64位系统上使用debug.exe/" title="在win7 64位系统上使用 debug.exe" itemprop="url">
   
 
     <time datetime="2015-02-01T16:00:00.000Z" itemprop="datePublished">2015 Feb 02</time>
 
 
-    <h1 itemprop="name">Assembly Language 汇编语言 - Note 1</h1>
+    <h1 itemprop="name">在win7 64位系统上使用 debug.exe</h1>
 
   </a>
 </section>
@@ -590,8 +590,12 @@ $(document).ready(function(){
 <script type="text/javascript">
   $(window).load(function() {
     var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
-    if (1 == ds_like_button.length && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')) {
-      ds_like_button[0].click()
+    if (1 == ds_like_button.length
+            && "none" != document.getElementsByClassName('ds-meta')[0].style.display
+            && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
+    ) {
+      ds_like_button[0].click();
+      document.getElementsByClassName('ds-like-tooltip-close')[0].click();
       window.location.href = '#';
     }
   });

@@ -16,10 +16,10 @@
 	<meta name="description" content="parameter-independent 参数无关的代码抽离templates。member function templates 运用成员函数模板接受所有兼容类型。请使用traits class表现类型信息。template metaprograming。new-handler。placement new ，placement delete。不要轻忽编译器的警告。Boost，TR1。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Effective C++ - Reading Note 4">
-<meta property="og:url" content="http://icehe.gitcafe.io/c++/Effective C++ - Reading Note 4/index.html">
+<meta property="og:url" content="http://icehe.me/c++/Effective C++ - Reading Note 4/index.html">
 <meta property="og:site_name" content="Ice He 何志遠">
 <meta property="og:description" content="parameter-independent 参数无关的代码抽离templates。member function templates 运用成员函数模板接受所有兼容类型。请使用traits class表现类型信息。template metaprograming。new-handler。placement new ，placement delete。不要轻忽编译器的警告。Boost，TR1。">
-<meta property="og:updated_time" content="2015-12-27T08:08:14.000Z">
+<meta property="og:updated_time" content="2016-01-03T08:08:53.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Effective C++ - Reading Note 4">
 <meta name="twitter:description" content="parameter-independent 参数无关的代码抽离templates。member function templates 运用成员函数模板接受所有兼容类型。请使用traits class表现类型信息。template metaprograming。new-handler。placement new ，placement delete。不要轻忽编译器的警告。Boost，TR1。">
@@ -45,7 +45,7 @@
   <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
 
   <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE" />
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
   <!-- Google Fonts from 360 CDN -->
   <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
@@ -104,7 +104,7 @@
 					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8" target="_blank">
 						<label>Search</label>
 						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Find" />
-						<input type="hidden" name="q" value="site:icehe.gitcafe.io">
+						<input type="hidden" name="q" value="site:icehe.me">
 					</form>
 
 				
@@ -133,7 +133,7 @@
     
   </p>
   <p class="article-time">
-    <time datetime="2015-01-26T16:00:00.000Z" itemprop="datePublished"> Published 2015 Jan 27</time>
+    <time datetime="2015-01-26T17:01:01.000Z" itemprop="datePublished"> Published 2015 Jan 27</time>
   </p>
 </header>
 	<div class="article-content">
@@ -283,7 +283,7 @@ std::new_handler NewHolderSupport&lt;T&gt;::currentHandler = 0;</font></div><div
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://icehe.gitcafe.io/c++/Effective C++ - Reading Note 4/" data-title="Effective C++ - Reading Note 4 | Ice He 何志遠" data-tsina="undefined" class="share clearfix">
+	  <div data-url="http://icehe.me/c++/Effective C++ - Reading Note 4/" data-title="Effective C++ - Reading Note 4 | Ice He 何志遠" data-tsina="undefined" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -297,18 +297,18 @@ std::new_handler NewHolderSupport&lt;T&gt;::currentHandler = 0;</font></div><div
 <nav class="article-nav clearfix">
  
  <div class="prev" >
- <a href="/c++/Effective C++ - Reading Note 3/" title="Effective C++ - Reading Note 3">
+ <a href="/c++/C++ Code Standards 编码标准/" title="C++ Code Standards 编码规范 - Handwritten Notes">
   <strong>Prev：</strong><br/>
   <span>
-  Effective C++ - Reading Note 3</span>
+  C++ Code Standards 编码规范 - Handwritten Notes</span>
 </a>
 </div>
 
 
 <div class="next">
-<a href="/c++/Effective C++ - Reading Note 1/"  title="Effective C++ - Reading Note 1">
+<a href="/c++/Effective C++ - Reading Note 3/"  title="Effective C++ - Reading Note 3">
  <strong>Next：</strong><br/> 
- <span>Effective C++ - Reading Note 1
+ <span>Effective C++ - Reading Note 3
 </span>
 </a>
 </div>
@@ -354,7 +354,7 @@ var duoshuoQuery = {short_name:"icehe"};
 
 
 
-document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="c++/Effective C++ - Reading Note 4/" data-title="Effective C++ - Reading Note 4" data-url="http://icehe.gitcafe.io/c++/Effective C++ - Reading Note 4/"></div>'
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="c++/Effective C++ - Reading Note 4/" data-title="Effective C++ - Reading Note 4" data-url="http://icehe.me/c++/Effective C++ - Reading Note 4/"></div>'
 //	+ '<hr/>'
 //	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
 //	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
@@ -1008,8 +1008,12 @@ $(document).ready(function(){
 <script type="text/javascript">
   $(window).load(function() {
     var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
-    if (1 == ds_like_button.length && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')) {
-      ds_like_button[0].click()
+    if (1 == ds_like_button.length
+            && "none" != document.getElementsByClassName('ds-meta')[0].style.display
+            && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
+    ) {
+      ds_like_button[0].click();
+      document.getElementsByClassName('ds-like-tooltip-close')[0].click();
       window.location.href = '#';
     }
   });

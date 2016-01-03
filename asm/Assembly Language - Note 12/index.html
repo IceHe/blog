@@ -16,7 +16,7 @@
 	<meta name="description" content="外中断。接口芯片和端口，可屏蔽中断、不可屏蔽中断。PC机键盘的处理过程。实例：编写 int 9 中断例程，并将其安装。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Assembly Language 汇编语言 - Note 12">
-<meta property="og:url" content="http://icehe.gitcafe.io/asm/Assembly Language - Note 12/index.html">
+<meta property="og:url" content="http://icehe.me/asm/Assembly Language - Note 12/index.html">
 <meta property="og:site_name" content="Ice He 何志遠">
 <meta property="og:description" content="外中断。接口芯片和端口，可屏蔽中断、不可屏蔽中断。PC机键盘的处理过程。实例：编写 int 9 中断例程，并将其安装。">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%2012/b6b5791f2db37228982a7c2731c95a54.gif">
@@ -28,7 +28,7 @@
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%2012/b6b5791f2db37228982a7c2731c95a54.gif">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%2012/b6b5791f2db37228982a7c2731c95a54.gif">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%2012/b6b5791f2db37228982a7c2731c95a54.gif">
-<meta property="og:updated_time" content="2015-12-27T08:22:46.000Z">
+<meta property="og:updated_time" content="2016-01-03T08:12:32.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Assembly Language 汇编语言 - Note 12">
 <meta name="twitter:description" content="外中断。接口芯片和端口，可屏蔽中断、不可屏蔽中断。PC机键盘的处理过程。实例：编写 int 9 中断例程，并将其安装。">
@@ -54,7 +54,7 @@
   <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
 
   <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE" />
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
   <!-- Google Fonts from 360 CDN -->
   <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
@@ -113,7 +113,7 @@
 					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8" target="_blank">
 						<label>Search</label>
 						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Find" />
-						<input type="hidden" name="q" value="site:icehe.gitcafe.io">
+						<input type="hidden" name="q" value="site:icehe.me">
 					</form>
 
 				
@@ -580,7 +580,7 @@ M&nbsp;&nbsp;&nbsp;32H, B2H<br>
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://icehe.gitcafe.io/asm/Assembly Language - Note 12/" data-title="Assembly Language 汇编语言 - Note 12 | Ice He 何志遠" data-tsina="undefined" class="share clearfix">
+	  <div data-url="http://icehe.me/asm/Assembly Language - Note 12/" data-title="Assembly Language 汇编语言 - Note 12 | Ice He 何志遠" data-tsina="undefined" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -594,18 +594,18 @@ M&nbsp;&nbsp;&nbsp;32H, B2H<br>
 <nav class="article-nav clearfix">
  
  <div class="prev" >
- <a href="/asm/Assembly Language - Note 14/" title="Assembly Language 汇编语言 - Note 14">
+ <a href="/asm/Assembly Language - Note 13/" title="Assembly Language 汇编语言 - Note 13">
   <strong>Prev：</strong><br/>
   <span>
-  Assembly Language 汇编语言 - Note 14</span>
+  Assembly Language 汇编语言 - Note 13</span>
 </a>
 </div>
 
 
 <div class="next">
-<a href="/asm/Assembly Language - Note 13/"  title="Assembly Language 汇编语言 - Note 13">
+<a href="/asm/Assembly Language - Note 11/"  title="Assembly Language 汇编语言 - Note 11">
  <strong>Next：</strong><br/> 
- <span>Assembly Language 汇编语言 - Note 13
+ <span>Assembly Language 汇编语言 - Note 11
 </span>
 </a>
 </div>
@@ -651,7 +651,7 @@ var duoshuoQuery = {short_name:"icehe"};
 
 
 
-document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="asm/Assembly Language - Note 12/" data-title="Assembly Language 汇编语言 - Note 12" data-url="http://icehe.gitcafe.io/asm/Assembly Language - Note 12/"></div>'
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="asm/Assembly Language - Note 12/" data-title="Assembly Language 汇编语言 - Note 12" data-url="http://icehe.me/asm/Assembly Language - Note 12/"></div>'
 //	+ '<hr/>'
 //	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
 //	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
@@ -1305,8 +1305,12 @@ $(document).ready(function(){
 <script type="text/javascript">
   $(window).load(function() {
     var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
-    if (1 == ds_like_button.length && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')) {
-      ds_like_button[0].click()
+    if (1 == ds_like_button.length
+            && "none" != document.getElementsByClassName('ds-meta')[0].style.display
+            && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
+    ) {
+      ds_like_button[0].click();
+      document.getElementsByClassName('ds-like-tooltip-close')[0].click();
       window.location.href = '#';
     }
   });
