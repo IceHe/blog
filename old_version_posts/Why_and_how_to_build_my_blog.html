@@ -19,7 +19,7 @@
 阅读、学习、思考、总结，记录积累日多。不如自己搭个个人博客，来存放我的笔记和">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Why and How to bulid my blog? 搭建我的个人博客。">
-<meta property="og:url" content="http://icehe.gitcafe.io/old_version_posts/Why_and_how_to_build_my_blog.html">
+<meta property="og:url" content="http://icehe.me/old_version_posts/Why_and_how_to_build_my_blog.html">
 <meta property="og:site_name" content="Ice He 何志遠">
 <meta property="og:description" content="Why - 初衷偶然了解到日本的手账文化，心向往之。与其稀遗虚散平日思考产生的许多的观点和感悟，不如录于手账。
 后惊觉手写效率的有限，经一番挣扎，接受“未来是拇指时代”的现实，遂改用手机Apps如“印象笔记”记录。胜在可引用富文本、图片、音频等，且一切尽在云端，方便同步备份、归档、检索。自此放弃心爱的“手写”习惯，改用。
@@ -52,7 +52,7 @@
   <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
 
   <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE" />
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
   <!-- Google Fonts from 360 CDN -->
   <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
@@ -111,7 +111,7 @@
 					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8" target="_blank">
 						<label>Search</label>
 						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Find" />
-						<input type="hidden" name="q" value="site:icehe.gitcafe.io">
+						<input type="hidden" name="q" value="site:icehe.me">
 					</form>
 
 				
@@ -334,7 +334,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://icehe.gitcafe.io/old_version_posts/Why_and_how_to_build_my_blog.html" data-title="Why and How to bulid my blog? 搭建我的个人博客。 | Ice He 何志遠" data-tsina="undefined" class="share clearfix">
+	  <div data-url="http://icehe.me/old_version_posts/Why_and_how_to_build_my_blog.html" data-title="Why and How to bulid my blog? 搭建我的个人博客。 | Ice He 何志遠" data-tsina="undefined" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -384,7 +384,7 @@ var duoshuoQuery = {short_name:"icehe"};
 
 
 
-document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="old_version_posts/Why_and_how_to_build_my_blog.html" data-title="Why and How to bulid my blog? 搭建我的个人博客。" data-url="http://icehe.gitcafe.io/old_version_posts/Why_and_how_to_build_my_blog.html"></div>'
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="old_version_posts/Why_and_how_to_build_my_blog.html" data-title="Why and How to bulid my blog? 搭建我的个人博客。" data-url="http://icehe.me/old_version_posts/Why_and_how_to_build_my_blog.html"></div>'
 //	+ '<hr/>'
 //	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
 //	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
@@ -448,7 +448,7 @@ document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thr
 		
 
 		<p class="copyright">
-		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2015 
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2016 
 		
 		<a href="/about" target="_blank" title="IceHe何志远">IceHe何志远</a>
 		
@@ -807,6 +807,19 @@ $(document).ready(function(){
 
 <!-- 不蒜子 网站计数 -->
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+<!-- 自动点击喜欢 -->
+<script type="text/javascript">
+  $(window).load(function() {
+    var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
+    if (1 == ds_like_button.length && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')) {
+      ds_like_button[0].click()
+      window.location.href = '#';
+    }
+  });
+</script>
+
 
     </body>
   </html>
