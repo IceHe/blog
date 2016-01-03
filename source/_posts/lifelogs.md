@@ -41,3 +41,4 @@ description: 个人时间管理日志。
 9. [九月：单元测试，新人培训。 Sep: unit test, orientation.](/lifelogs/2015/09/index.html)
 10. [十月：音乐节，运动。 Oct: music festival, sports.](/lifelogs/2015/10/index.html)
 11. [十一月：运动，饮食，睡眠，好习惯。 Nov: sports, eating, sleep, good habits.](/lifelogs/2015/11/index.html)
+12. [十二月：月度关键词。 Dec: keywords.](/lifelogs/2015/12/index.html)
