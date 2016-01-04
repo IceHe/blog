@@ -2,7 +2,7 @@ title: My Bookmarks 书签
 date: 2015-12-20
 categories: [me]
 tags: [me]
-description: 我收藏的网站、博客、文档、学习资料、文章、问答、专栏……
+description: 我收藏的网站、博客、文档、学习资料、文章、问答、专栏…
 ---
 
 - *Last Updated on Dec 27, 2015*

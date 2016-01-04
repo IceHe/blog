@@ -2,7 +2,7 @@ title: My Tools 利器
 date: 2015-11-21
 categories: [me]
 tags: [me]
-description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommended Mac Apps
+description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommended Mac Apps . &nbsp; 以及科技产品、外设、用具等。
 ---
 
 - *Last Updated on Dec 27, 2015*
