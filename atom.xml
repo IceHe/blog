@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Less is more 寧靜致遠]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://icehe.me/"/>
-  <updated>2016-01-04T07:46:42.000Z</updated>
+  <updated>2016-01-06T14:16:53.000Z</updated>
   <id>http://icehe.me/</id>
   
   <author>
@@ -13,6 +13,191 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[My Mac Shortcuts 快捷键列表]]></title>
+    <link href="http://icehe.me/my_mac_shortcuts/"/>
+    <id>http://icehe.me/my_mac_shortcuts/</id>
+    <published>2016-01-05T16:00:00.000Z</published>
+    <updated>2016-01-06T14:16:53.000Z</updated>
+    <content type="html"><![CDATA[<ul>
+<li><em>Last Updated on Jan 06, 2016</em></li>
+</ul>
+<h1 id="Explanation">Explanation</h1><p><em>Not all shortcuts , but my most frequent ones !</em><br><em>Not only the default shortcuts and the custom ones .</em></p>
+<h2 id="Key_Characters">Key Characters</h2><p> —— Power<br>⌘ —— Command ( Cmd )<br>⌥ —— Option | Alt ( on Windows )<br>^ —— Control ( Ctrl )<br>⇧ —— Shift ( Shf )<br>⇪ —— CapsLock<br>⇥ —— Tab<br>⎋ —— Escape ( Esc )<br>↩ —— Return ( Ret ) | Enter ( on Windows )<br>凵 —— Space</p>
+<p>↑ —— Up<br>↓ —— Down ( Dn )<br>← —— Left ( Lf )<br>→ —— Right ( Rg )</p>
+<p>Del —— Delete ( on Mac ) | Backspace ( on Windows )<br>Num —— Digits: 0 ~ 9</p>
+<h2 id="Abbreviations">Abbreviations</h2><p>Cmd —— Command<br>Ctrl —— Control<br>Esc —— Escape<br>Opt —— Option<br>Ret —— Return<br>Shf —— Shift<br>Del —— Delete</p>
+<p>Dn —— Down<br>Lf —— left<br>Rg —— Right</p>
+<p>Prev —— Previous<br>Btm —— Bottom</p>
+<p>App —— Application<br>Btn —— Button<br>Dir —— Directory</p>
+<p>Mv —— Move<br>Rm —— Remove</p>
+<p>Ld —— Leader<br>Pf —— Prefix</p>
+<p>&amp; —— And<br>| —— Or</p>
+<h2 id="Examples">Examples</h2><ul>
+<li><p>⌘ ⌥ a —— Manipulation</p>
+<p>   Press “Cmd”, “Opt” &amp; “a” at the same time to do the manipulation .</p>
+</li>
+<li><p>A —— Manipulation</p>
+<p>   The capital letter “A” means pressing “Shf” &amp; “a” at the same time !</p>
+</li>
+<li><p>Shortcut1 | Shortcut2 —— Manipulation</p>
+<p>   The manipulation has two shortcuts —— Shortcut1 &amp; Shortcut2 .</p>
+</li>
+<li><p>⌘ [ 1 | 2 ] —— Manipulation</p>
+<p>   Press “⌘ 1” or “⌘ 2” to do the manipulation .</p>
+</li>
+</ul>
+<h2 id="Meaning_of_Font_Style">Meaning of Font Style</h2><p><em>Bold —— I am unfamiliar with it .</em><br><em>Italic —— I seldom use it .</em></p>
+<h1 id="Default">Default</h1><ul>
+<li>Usually Common Used in Various of Apps *</li>
+</ul>
+<p><strong>  —— Wake Up </strong><br>^  —— Shut Down ( can choose to Sleep or Restart )<br><strong> ⌘ ^  —— Restart </strong><br><strong> ⌘ ⌥  —— Sleep </strong><br>^ ⇧  —— Display Sleep</p>
+<p>⌘ ^ f —— Full Screen | Revert<br>⌘ , —— Preferences<br>⌘ q —— Exit<br>⌘ w —— Close</p>
+<p>⌘ r —— Refresh<br>⌘ t —— New Tab<br>⌘ Num —— Switch Tab</p>
+<p>^ ⇥ —— Next Tab<br>^ ⇧ ⇥ —— Prev Tab<br>⌘ ⇥ —— Next App<br>⌘ ⇧ ⇥ —— Prev App</p>
+<p><strong> ⌘ [ —— Backward </strong><br><strong> ⌘ ] —— Forward </strong></p>
+<p>⌘ r —— Refresh<br><strong> ⌘ h —— Hide </strong><br><strong> ⌘ ⌥ h —— Hide All App but the Frontmost </strong><br>⌘ m —— Minimize to Dock</p>
+<ul>
+<li>⌘ ⌥ m —— Minimize All Windows of the Frontmost App *</li>
+</ul>
+<p>⌘ f —— Search<br><strong> ⌘ g —— Next Match </strong><br><strong> ⌘ ⇧ G —— Prev Match </strong></p>
+<p>⌘ n —— New<br>⌘ o —— Open<br>⌘ s —— Save<br>⌘ p —— Print</p>
+<p>⌘ a —— Select All<br>⌘ z —— Undo<br><strong> ⌘ ⇧ Z —— Redo </strong><br>⌘ c —— Copy<br>⌘ v —— Paste<br>⌘ ⌥ v —— Mv ( After ⌘ c )</p>
+<p>⌘ ← —— Home<br>⌘ → —— End<br>⌥ ← —— Prev Word<br>⌥ → —— Next Word</p>
+<p>( After Selection )<br>⌘ b —— Bold<br>⌘ u —— Underline<br>⌘ i —— Italic<br>⌘ + —— Bigger | Zoom In<br>⌘ - —— Smaller | Zoom Out</p>
+<h1 id="Activity_Monitor">Activity Monitor</h1><p><strong> ⌘ ⌥ f —— Filter Processes </strong><br>⌘ ⌥ q —— Quit the select Process</p>
+<h1 id="Amphetamine">Amphetamine</h1><p>⌥ F12 —— Mac Stays Awake<br>^ ⌥ F12 —— Allow Mac to Sleep</p>
+<h1 id="Baidu_Input">Baidu Input</h1><p><strong> ^ t —— [ Simple | Traditional ] Chinese Characters </strong><br><strong> ^ . —— [ Chinese | English ] Punctuation Marks </strong></p>
+<h1 id="Bartender_2">Bartender 2</h1><p>^ ⌥ ⇥ —— Show Bartender Bar<br>^ ⌥ ] —— Show All Status Icons in Menu Bar</p>
+<h1 id="BetterTouchTool">BetterTouchTool</h1><p><em>TrackPad Gesture —— Binding Shortcut or Action</em></p>
+<p>5 Finger Tap —— ⌘ ^ f<br>Corner Click Top Lf —— ⌥ ^ ;<br>Corner Click Top Rg —— ⌥ ^ ⇥<br>Corner Click Btm Lf —— ⌥ ^ /<br>Corner Click Btm Rg —— ⌘ d<br>Triangle Swipe Top Lf Corner —— ⌘ q</p>
+<h1 id="Charles">Charles</h1><p>⌘ ⇧ D —— DNS Spoofing Settings</p>
+<h1 id="CheatSheet">CheatSheet</h1><p>Long Press ⌘ —— CheatSheet</p>
+<h1 id="ClipMenu">ClipMenu</h1><p>^ ⌥ v —— ClipMenu<br><strong> ^ ⌥ ` —— Snippets </strong></p>
+<h1 id="Doit-im">Doit.im</h1><p><em>Web Version</em></p>
+<p>q —— Add ( Smart )<br>e —— Edit<br><strong> n —— New </strong><br>o —— Open<br>p —— Change Priority</p>
+<p>⌥ c —— Complete<br>⌘ s —— Save<br><strong> Fn Del —— Del </strong></p>
+<p>f —— Toggle Full Screen Mode<br>[ ⌘ | ⇧ ] LfClick —— Select Range</p>
+<p>j —— Next<br>k —— Prev<br><strong> u —— Back to Detail </strong></p>
+<p>gi —— Inbox<br>gt —— Today<br>gn —— to Next<br>gs —— to Scheduled<br>gw —— to Waiting<br>gp —— to Projects<br>⇧ ? —— Shortcut Tips<br>⇧ H —— Shortcut Tips</p>
+<h1 id="EuDict_Free">EuDict Free</h1><p><strong> ⇧ 凵 —— Light Peek </strong><br><strong> ⌘ ⇧ M —— Look up Word that Mouse Cursor Hovers </strong><br><strong> ⌘ ⇧ L —— Look up Selection </strong><br><strong> ⌘ ⇧ 2 —— Translate Selection </strong></p>
+<h1 id="Evernote">Evernote</h1><p>^ ⌥ r —— Search<br><strong> ^ ⌥ j —— New Note </strong><br>^ ⌥ 0 —— Paste to New Note<br><strong> ⌘ ^ s —— Sync </strong></p>
+<p><strong> ⌘ l —— Edit Note Title
+</strong> ⌘ ^ m —— Mv Note to the select Notebook <strong>
+</strong> ⌘ ⇧ I —— Get Note Info **</p>
+<p><strong> ⌘ ⇧ H —— Insert Horizontal Rule </strong><br><strong> ⌘ ⇧ T —— Insert To-Do </strong><br><em>⌘ ⇧ D —— Insert Date</em><br><em>⌘ ⇧ ⌥ D —— Insert Time</em><br><em>⌘ ⇧ L —— Insert Table</em></p>
+<p>( After Selection )<br>⇥ —— Increase Indent<br>⇧ ⇥ —— Decrease Indent</p>
+<p><strong> ⌘ k —— Add Link </strong><br><strong> ⌘ ⇧ K —— Rm Link </strong><br><strong> ⌘ ⇧ F —— Simplify ( Rm ) Formatting </strong></p>
+<p><em>⌘ ⇧ O —— Toggle Numbered List ( Ordered )</em><br><em>⌘ ⇧ U —— Toggle Bulleted List ( Unordered )</em></p>
+<p><em>⌘ ^ k —— Strikethrough</em><br><em>⌘ ^ h —— Highlight</em><br><em>⌘ ^ - —— Subscript</em></p>
+<h1 id="Finder">Finder</h1><p><strong> 凵 —— Quick Look </strong><br><strong> ⌘ d —— Duplicate </strong><br><strong> ⌘ e —— Eject Disk </strong><br>⌘ i —— Get Info</p>
+<p>⌘ ⇧ A —— Application<br><strong> ⌘ ⇧ C —— Computer </strong><br><strong> ⌘ ⇧ D —— Desktop </strong><br><strong> ⌘ ⇧ F —— All My Files </strong><br><strong> ⌘ ⇧ G —— to Folder </strong><br><strong> ⌘ ⇧ H —— Home </strong><br><em>⌘ ⇧ K —— Network</em><br><strong> ⌘ ⇧ O —— Documents </strong><br><em>⌘ ⇧ R —— AirDrop</em><br><em>⌘ ⇧ U —— Utilities</em><br>⌘ ⌥ l —— Downloads</p>
+<p><strong> ⌘ ⌥ T —— Add to SideBar </strong><br><strong> ⌘ l —— New Alias for a file </strong><br><strong> ⌘ r —— to Origin File of Alias </strong><br><strong> ⌘ ⇧ N —— New Folder </strong><br>⌘ [ 1 | 2 | 3 | 4 ] —— View the files in way of Icon | List | Column | CoverFlow</p>
+<p><strong> ⌘ ↑ —— to Parent Dir </strong><br><strong> ⌘ ^ ↑ —— Open Parent Dir in New Window </strong></p>
+<p><strong> ⌘ ↓ —— Open </strong></p>
+<p><strong> ⌘ ⇧ Del —— Empty Trash </strong><br><em>⌘ ⇧ ⌥ Del —— Empty Trash without Confirmation</em></p>
+<h1 id="Firefox">Firefox</h1><p>⌘ j —— Downloads<br>⌘ b —— Bookmarks ( Badly Use )<br><strong> ⌘ ⇧ B —— Manage Bookmarks </strong><br><strong> ⌘ ⇧ H —— History </strong><br><strong> ⌘ ⇧ A —— Extensions </strong></p>
+<p><strong> ⌘ u —— Page Source Code </strong><br><strong> ⌘ ⌥ i —— Inspect Elements </strong><br>⌘ ⌥ c —— Elements<br>⌘ ⌥ k —— Console<br>⌘ ⌥ q —— Network<br><strong> ⌘ ⌥ s —— JavaScript Debug </strong><br>⇧ F7 —— CSS</p>
+<p><strong> ⌘ ⌥ m —— Responsive Design Page View  ( for Mobile ) </strong><br><strong> ⌘ ⇧ J —— Browser Console </strong><br><strong> ⇧ F4 —— JavaScript Draft  ( for js test ) </strong></p>
+<h1 id="Foxmail">Foxmail</h1><p>⌘ ^ x —— Get New Messages<br>⌘ ↩ —— Send Message<br>⌘ n —— New Message<br>⌘ ⇧ ↑ —— Prev Mail Account<br>⌘ ⇧ ↓ —— Next Mail Account</p>
+<h1 id="IdeaVim">IdeaVim</h1><p><em>( Plugin for PhpStorm &amp; PyCharm )</em><br><em>Most Keys are Same as Vim , Just List my Custom Keys .</em></p>
+<p>H —— Prev Tab<br>L —— Next Tab</p>
+<p>^ s —— :w<br>^ w —— :q</p>
+<p>^ ] —— Find Declaration<br>^ t —— Back from Declaration</p>
+<h1 id="iTerm2">iTerm2</h1><p>⌘ / —— Find Cursor</p>
+<h1 id="Karabiner">Karabiner</h1><p><em>Not Only shortcuts, but also Change Layout of Keyboard !</em></p>
+<p>⌘ q ( Twice ) —— To Send one “⌘ q”<br>1234567890 —— !@#$%^&amp;*()<br>⇧ 1234567890 —— 1234567890<br>凵 asdfghjkl; —— 123456890</p>
+<p>Fn —— Mv Mouse Cursor to Centre of Current App Window<br>Fn b —— Toggle Bluetooth<br>Fn w —— Toggle Wifi<br>Fn [ 1 | 2 ] —— Switch Karabiner Setting Profile</p>
+<p>^ l —— Toggle Normal Mode  ( Use Vim Mode in all Apps )<br>⌘ d —— Show Desktop</p>
+<h1 id="Manico">Manico</h1><p>⌥ 1 —— Firefox<br>⌥ 2 —— iTerm2<br>⌥ 3 —— Chrome<br>^ ⌥ 凵 —— Activity_Monitor</p>
+<p>^ ⌥ 1 —— Script Editor ( for AppleScript )<br>^ ⌥ 2 —— System Preferences<br>^ ⌥ 3 —— Dash<br>^ ⌥ 5 —— Daily Task<br>^ ⌥ 7 —— Sequel Pro ( for MySQL )</p>
+<p>^ ⌥ q —— QQ<br>^ ⌥ w —— WeChat<br>^ ⌥ e —— Evernote<br>^ ⌥ t —— Thunder</p>
+<p>^ ⌥ a —— PyCharm<br>^ ⌥ s —— PhpStorm<br>^ ⌥ d —— Dictionary<br>^ ⌥ f —— Finder<br><strong> ^ ⌥ g —— Preview </strong></p>
+<p>^ ⌥ x —— FoxMail<br>^ ⌥ c —— Charles<br><strong> ^ ⌥ b —— Sublime Text </strong></p>
+<p><strong> ^ ⌥ y —— Typora </strong><br><strong> ^ ⌥ u —— EuDic Free </strong><br>^ ⌥ i —— iTunes<br>^ ⌥ p —— AppStore</p>
+<p>^ ⌥ h —— Photos<br>^ ⌥ k —— Karabiner</p>
+<p><strong> ^ ⌥ n —— NeteaseMusic </strong><br>^ ⌥ m —— Manico</p>
+<h1 id="Moom">Moom</h1><p>^ ⌥ z —— Moom</p>
+<p>( After “^ ⌥ z” )<br><strong> ⌥ [ ↑ | ↓ ] —— Mv Display </strong><br>w —— Lf Half<br>e —— Rg Half<br>r —— Revert<br>a —— Top Lf<br>s —— Top Rg<br>d —— Btm Lf<br>f —— Btm Rg<br><strong> z —— Full Screen </strong><br><strong> 凵 —— Fit to Desktop </strong></p>
+<h1 id="PhpStorm">PhpStorm</h1><p><strong> ^ d —— Debug </strong><br><strong> ^ ⇧ B —— Toggle BreakPoint </strong><br><strong> ⌥ ⇧ R —— Rerun </strong></p>
+<p><strong> ⌥ ⇧ I —— Step Into </strong><br><strong> ⌥ ⇧ O —— Step Out </strong></p>
+<p><strong> ⌥ ⇧ J —— Step Over ( Next Line ) </strong><br><strong> ⌥ ⇧ N —— Resume ( Next BreakPoint ) </strong></p>
+<p><strong> ⌘ ⌥ ⇧ C —— Copy Reference ( of cur line in cur file ) </strong><br><strong> ⌘ ⇧ C —— Copy Path </strong><br><strong> ⌘ ⇧ V —— Copy from History </strong></p>
+<p>⌘ f —— Find<br><strong> ⌘ ⇧ F —— Find in Paths </strong><br>⌘ r —— Replace<br><strong> ⌘ ⇧ R —— Replace in Paths </strong></p>
+<p><strong> ⌘ e —— Recent Files </strong><br><strong> ⌘ ⇧ E —— Recently Edited Files </strong></p>
+<p>⌘ o —— Find Class<br>⌘ ⇧ O —— Find File</p>
+<p>^ g —— Find Usage</p>
+<p>⌘ / —— Line Comment<br><strong> ⌘ ⌥ / —— Block Comment </strong></p>
+<p><strong> ⌘ ⇧ ↑ —— Move Line Up </strong><br><strong> ⌘ ⇧ ↓ —— Move Line Dn </strong></p>
+<p><em>⌥ ↑ —— Extend Selection</em><br><em>⌥ ↓ —— Shrink Selection</em></p>
+<h1 id="PyCharm">PyCharm</h1><p><em>Same as PhpStorm</em></p>
+<h1 id="QQ">QQ</h1><p>⌘ ^ a —— Capture ( Always! )<br><strong> ⌥ 凵 —— Swiftly </strong><br>⌘ ↑ —— Select Prev Chat<br>⌘ ↓ —— Select Next Chat</p>
+<h1 id="Seil">Seil</h1><p><em>With no shortcuts, but Change Layout of Keyboard !</em></p>
+<p><em>Also Need to Modify “System Preferences” -&gt; “Keyboards” -&gt; “Modifier Key…” for exchanging “CapsLock” &amp; Lf “Ctrl” .</em></p>
+<p>CapsLock —— Ctrl<br>Lf Ctrl —— Esc<br>Rg Opt —— CapsLock</p>
+<h1 id="System">System</h1><p><em>( System Preference -&gt; Keyboard )</em></p>
+<p>^ ↑ —— Mission Control<br><strong> ^ ↓ —— App Windows </strong><br><strong> ^ ← —— Prev Space </strong><br><strong> ^ → —— Next Space </strong><br>^ Num —— Switch to Desktop [Num]</p>
+<p>F11 —— Desktop<br>F12 —— Notification Center<br>^ F12 —— Do Not Disturb On/Off<br>⌘ ⌥ d —— Dock Hiding On/Off</p>
+<p><strong> ^ ⌥ ; —— Focus to Menu Bar </strong><br><strong> ^ ⌥ / —— Focus to Dock </strong><br><strong> ⌘ ` —— Focus to Active or Next Window </strong></p>
+<p>^ 凵 —— Spotlight<br>⌘ 凵 —— Prev Input Source<br><strong> ⌘ ⇧ 3 —— Capture Desktop </strong><br><strong> ⌘ ^ d —— Look Up in Dictionary </strong><br><strong> ⌘ ⌥ / —— Show Help Menu </strong></p>
+<h1 id="tmux">tmux</h1><p>^ q —— Prefix Key</p>
+<p>Pf r —— Reload ~/.tmux.conf<br><strong> Pf z —— Kill Session </strong></p>
+<p>Pf \ —— Split Window Horizontally<br>Pf - —— Split Window Vertically</p>
+<p>Pf ↑ —— Maximize Current Pane in New Window<br>Pf ↓ —— Put Current Pane back to its Parent Window</p>
+<p>Pf h —— Select Lf Pane<br>Pf j —— Select Dn Pane<br>Pf k —— Select Up Pane<br>Pf l —— Select Rg Pane</p>
+<p>Pf ^ h —— Resize Pane Lf<br>Pf ^ j —— Resize Pane Dn<br>Pf ^ k —— Resize Pane Up<br>Pf ^ l —— Resize Pane Rg</p>
+<p><em>Others are default as same as the description in the <a href="http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/tmux.1?query=tmux&amp;sec=1" target="_blank" rel="external">Official Docs</a></em></p>
+<h1 id="Vim">Vim</h1><p><em>Only List the Useful Keys that I’m unfamiliar with .</em></p>
+<p>x —— Del Char Forward</p>
+<p><strong> ⇧ X —— Del Char Backward </strong></p>
+<p><strong> s —— Del Char Forward &amp; then Insert </strong></p>
+<p><strong> ⇧ S —— Del Current Line &amp; then Insert </strong><br><strong> ⇧ C —— Del to End of Line &amp; then Insert </strong><br>** ⇧ D —— Del to End of Line</p>
+<p><strong> ⇧ Y —— Copy Line without Line Break ‘\n’ | ‘\r’
+</strong> ciw —— Del Word <strong>
+</strong> caw —— Del Word including the Following Spaces 凵 **</p>
+<p>xp —— Exchange the Current Char and the Next Char<br>ddp —— Exchange the Current Line and the Next Line</p>
+<p><strong> ge —— Goto Last Char of Prev Word </strong><br><strong> ga —— Show ASCII of Char </strong><br><strong> g8 —— Goto UTF-8 of Char </strong><br><strong> gf —— Open Path where Cursor is </strong></p>
+<p>u —— to Lowercase<br>⇧ U —— to Uppercase</p>
+<p>^ a —— Increase Num<br>^ x —— Decrease Num</p>
+<p>m —— Set Mark<br><strong> ‘ —— Jump to Mark </strong><br><strong> ` —— Jump to Mark </strong></p>
+<p><strong> ⇧ { —— Prev Paragraph </strong><br><strong> ⇧ } —— Next Paragraph </strong></p>
+<p><strong> [[ —— Head of Prev Function { </strong><br><strong> ]] —— Head of Next Function } </strong></p>
+<p>; —— Repeat the Last Manipulation from “F / f / T / t”<br><strong> “ —— Switch to some Register </strong><br><strong> - —— Head of Prev Line </strong><br><strong> ⇧ + —— Head of Next Line </strong></p>
+<p><strong> ⇧ ZZ —— Save &amp; Quit </strong><br><strong> ⇧ ZQ —— Quit without Saving </strong></p>
+<p><strong> ^ o —— Next Key will Act in Normal Mode ( in Insert Mode ), such as ^o then ⇧ A, or ^o then ⇧ I</strong></p>
+<p>( CTags )<br>^ ] —— Find Declaration<br>^ t —— Back from Declaration</p>
+<p><em>Others are default as same as the description in the <a href="http://www.vim.org/docs.php" target="_blank" rel="external">Official Summary</a></em></p>
+<p><em>Use the Vim Distribution <a href="http://vim.spf13.com/" target="_blank" rel="external">SPF13</a></em></p>
+<p><em>Maybe I will write another article for Vim Later .</em></p>
+<h1 id="VimFX">VimFX</h1><p><em>( Firefox Extension )</em></p>
+<p>o | c —— Focus Address Bar<br>p | v —— Open URL in Clipboard in Current Tab<br>P | V —— Open URL in Clipboard in New Tab<br>yy | dd —— Copy URL of Current Tab<br>J | z —— Backward<br>K | b —— Forward<br>gH —— History Menu<br>r —— Refresh<br>R —— Refresh ( including Cache )<br>ar —— Refresh All Tabs<br>aR —— Refresh All Tabs  ( including Cache )<br>s —— Stop Loading<br>as —— Stop All Loading</p>
+<p>j | ^ d | 凵 —— Scroll Dn a Half Page<br>k | ^ u | ⇧ 凵 —— Scroll Up a Half Page</p>
+<p>h —— Scroll Lf<br>l —— Scroll Rg<br>^ j —— Scroll Dn<br>^ k —— Scroll Up<br>^ f —— Scroll Dn a Whole Page<br>^ b —— Scroll Up a Whole Page<br>gg —— Scroll to Top<br>G —— Scroll to Btm</p>
+<p>x —— Close Current Tab<br>X —— Reopen Last Closed Tab<br>t —— New Tab<br><strong> yt | dt —— Duplicate Current Tab </strong><br>w | H —— Prev Tab<br>e | L —— Next Tab<br>0 | 1 | ( | ! —— First Tab<br>4 | $ —— Last Tab</p>
+<p>f —— Open Link in Current Tab<br>F —— Open Link in New Tab<br>Del —— Delete the Last Hint Character<br>凵 | ⇧ 凵 —— Switch Hint Layout<br><strong> gf —— Open Link in New Tab &amp; then Switch to it </strong><br><strong> gF —— Open Link in New Window </strong><br><strong> ^ v —— Select Focus Point </strong><br><strong> [ —— Prev Page </strong><br><strong> ] —— Next Page </strong><br><strong> gi —— Focus to First Input Box </strong></p>
+<p>/ —— Find<br><strong> a/ —— Find All </strong><br><strong> g/ —— Find in Links </strong><br>n —— Next Match<br>N —— Prev Match</p>
+<p>i —— Ignore Mode ( Ignore All VimFX Shortcuts )<br><strong> ^ i —— Exit Ignore Mode </strong><br><strong>  I —— Send Next Key Press to Page  ( Not as VimFX Shortcut ) </strong><br>? | Q —— Help Tips<br>⎋ | ^ [ | Z —— Cancel</p>
+<h1 id="WeChat">WeChat</h1><p>⌘ ↑ —— Prev Chat<br>⌘ ↓ —— Next Chat</p>
+<h1 id="Zsh">Zsh</h1><p>^ f —— Move Cursor Rg<br>^ b —— Move Cursor Lf<br>^ a —— Move Cursor to Head of Line<br>^ e —— Move Cursor to End of Line</p>
+<p>^ d —— Del Forward</p>
+<p>^ h —— Del Backward</p>
+<p>^ w —— Del Word<br>^ k —— Del to End of Line<br>^ u —— Del Line</p>
+<p>^ v —— Edit Command Line in Vim</p>
+<p><em>Use <a href="http://ohmyz.sh/" target="_blank" rel="external">oh-my-zsh</a> —— A framework for managing your ZSH configuration .</em></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[我的 OS X 快捷键列表索引。]]>
+    
+    </summary>
+    
+      <category term="me" scheme="http://icehe.me/tags/me/"/>
+    
+      <category term="shortcuts" scheme="http://icehe.me/tags/shortcuts/"/>
+    
+      <category term="mac" scheme="http://icehe.me/categories/mac/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Bye 2015]]></title>
@@ -2140,29 +2325,6 @@ KDE 桌面，过于高度自定义化，上手麻烦。<br clear="none" style="p
       <category term="logic" scheme="http://icehe.me/tags/logic/"/>
     
       <category term="PHP" scheme="http://icehe.me/categories/PHP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Eclipse快捷键 和 一点项目实践感想]]></title>
-    <link href="http://icehe.me/ide/Eclipse%E5%BF%AB%E6%8D%B7%E9%94%AE%20%E5%92%8C%20%E9%A1%B9%E7%9B%AE%E5%B7%A5%E4%BD%9C%E7%BB%8F%E9%AA%8C/"/>
-    <id>http://icehe.me/ide/Eclipse快捷键 和 项目工作经验/</id>
-    <published>2015-02-21T16:00:00.000Z</published>
-    <updated>2015-12-27T08:24:48.000Z</updated>
-    <content type="html"><![CDATA[<div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div><strong>&gt;Hot Key - Word + Browser：</strong></div><div><br></div><div>alt + 鼠标左键选择 ：选中方形区域内的文字等(word)</div><div>alt + d : 选中地址栏</div><div><br></div><div><strong>&gt;Hot Key -&nbsp;Zend Studio / Eclipse：</strong></div><div><br></div><div><strong>Ctrl+Shift+L 快捷键清单</strong></div><div><br></div><div>Ctrl+D 删除当前行</div><div><strong>Ctrl+K / Ctrl++Shift+K 参照选中的Word快速定位到下一个</strong></div><div><b>Ctrl+Shift+&gt; Matching Tag(类同上)，切换到对应的标签处！&nbsp;</b></div><div><b>Ctrl+F6 切换到当前另一个打开的文件</b></div><div><br></div><div>Alt+↓ 当前行和下面一行交互位置(特别实用,可以省去先剪切,再粘贴了)</div><div>Alt+↑ 当前行和上面一行交互位置(同上)</div><div><br></div><div>Ctrl+Shift+F 格式化当前代码</div><div><strong>Ctrl+Shift+P 定位到对于的匹配符(譬如{}) (从前面定位后面时,光标要在匹配符里面,后面到前面,则反之)</strong></div><div><strong>Ctrl+Shift+O&nbsp;快速生成import，当从网上拷贝一段程序后，不知道如何import进所调用的类，Ctrl+Shift+O</strong></div><div><br></div><div><b>Ctrl+Alt+N 新建文件~</b></div><div><strong>Shift+Alt+/ 显示方法参数提示！</strong></div><div>Shift+Alt+A&nbsp; 列编辑</div><div><br></div><div><strong>Ctrl+Shift+E Switch to Editor查看/切换到当前打开的文件</strong></div><div>Ctrl+Shift+R 查找资源</div><div>Ctrl+Shift+T 查找某个具体的类</div><div>Ctrl+Shift+G 查找某个函数、方法、常量等在哪些地方被调用了，刚好和F3相反。</div><div><br></div><div>Ctrl+H 全局查找，功能很丰富的，用的比较多</div><div>Ctrl+M 最大化当前的Edit或View (再按则反之)</div><div>Ctrl+Q 最后编辑的位置</div><div><strong>Ctrl+W 关闭当前打开的文件</strong></div><div><strong>Ctrl+Shift+W 关边当前所有打开的文件</strong></div><div><br></div><div><strong>Ctrl+Delete 删除光标的后一个词</strong></div><div><strong>Ctrl+Backspace 删除光标前的前一个词</strong></div><div><strong>Ctrl+Shift+Delete 从光标的位置开始，删除到行末！</strong></div><div><br></div><div><b>Ctrl+Shift+Enter 在当前行前插入一行</b></div><div><b>Shift+Enter 在当前行后插入一行</b></div><div><br></div><div>shift+end 此行第一个到最后一个</div><div>shift+home 此行最后一个到第一个</div><div><br></div><div>F3&nbsp;快速定位光标位置的某个类、方法和属性。</div><div><br></div><div>Ctrl+home 文件头</div><div>Ctrl+end 文件尾</div><div><br></div><div>Ctrl+E 快速显示当前Editer的下拉列表(如果当前页面没有显示的用黑体)</div><div><strong>Ctrl+O&nbsp;显示类中方法和属性的大纲，能快速定位类的方法和属性，在查找Bug时非常有用。</strong></div><div><strong>ALT+/&nbsp;能为用户提供内容的辅助，不要为记不全方法和属性名称犯愁，当记不全类、方法和属性的名字时，ALT+/</strong></div><div>Ctrl+L&nbsp;定位到当前编辑器的某一行，对非Java文件也有效。</div><div><br></div><div>Ctrl+Shift+X 把当前选中的文本全部变为大写</div><div>Ctrl+Shift+Y 把当前选中的文本全部变为小写</div><div><br></div><div><br></div><div><strong>&gt;项目实行经验：</strong></div><div><br></div><div>1. 抓重点，后面再微调细节。</div><div>技术实现先解决，界面细节以后说。</div><div><br></div><div>2. 执行好的编码（代码）规范</div><div>不同人写代码，代码得看起来像一个人写；</div><div>或者写好模版，再使用ctrl+shift+F的格式化工具！</div><div><br></div><div>3. 好的代码文件、类名、方法的命名，方便检索</div><div>ctrl+shift+R/T/G等快捷键，可以方便地检索它们。</div><div>而且看标题就能判断它们是什么，</div><div>而不用细看它们的路径来确定他们是哪个模块，干什么的。</div><div><br></div><div>4.小团队易推进</div><div>分工明确</div><div><br></div><div>5.良好的git版本管理</div><div>一定要他们学会用，不搞乱代码。</div><div><br></div><div><br></div><div><br></div><div>&gt;<strong>感悟</strong></div><div><br></div><div>14/12/31</div><div>程序员常常感兴趣、有冲劲地去学了一个新东西。</div><div>可是常常是没法学以致用，短时间内不需要去使用这个新知识。</div><div>结果，常常是几个月过后全忘光了！</div><div>给人不小的挫折感。学习曲线停滞不前。</div><div><br></div><div>所以，更该抓住学科、行业的核心——</div><div>我现在认为，是算法和数据结构。</div><div><br></div><div>15/01/09</div><div>工作量不多时，<strong>提高效率，尽快完成工作</strong>，</div><div>才能<strong>有时间</strong>的空闲，<strong>自学</strong>新知识！</div></div>
-]]></content>
-    <summary type="html">
-    <![CDATA[Hot Key：Word + Browser、Eclipse / Zend Studio。一些 项目实践经验、感悟。]]>
-    
-    </summary>
-    
-      <category term="Eclipse" scheme="http://icehe.me/tags/Eclipse/"/>
-    
-      <category term="TECH" scheme="http://icehe.me/tags/TECH/"/>
-    
-      <category term="Zend Studio" scheme="http://icehe.me/tags/Zend-Studio/"/>
-    
-      <category term="IDE" scheme="http://icehe.me/categories/IDE/"/>
     
   </entry>
   
