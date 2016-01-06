@@ -92,7 +92,8 @@ Pf —— Prefix
 
 **  —— Wake Up **
 ^  —— Shut Down ( can choose to Sleep or Restart )
-** ⌘ ^  —— Restart **
+** ⌘ ^  —— Force Restart **
+** ⌘ ^ ⌥  —— Force Shutdown **
 ** ⌘ ⌥  —— Sleep **
 ^ ⇧  —— Display Sleep
 
