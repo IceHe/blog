@@ -5,7 +5,7 @@ tags: [me, shortcuts]
 description: 我的 OS X 快捷键列表索引。
 ---
 
-- *Last Updated on Jan 06, 2016*
+- *Last Updated on Jan 07, 2016*
 
 # Explanation
 
@@ -314,14 +314,6 @@ gp —— to Projects
 ** ⌘ ⇧ J —— Browser Console **
 ** ⇧ F4 —— JavaScript Draft  ( for js test ) **
 
-# Foxmail
-
-⌘ ^ x —— Get New Messages
-⌘ ↩ —— Send Message
-⌘ n —— New Message
-⌘ ⇧ ↑ —— Prev Mail Account
-⌘ ⇧ ↓ —— Next Mail Account
-
 # IdeaVim
 
 *( Plugin for PhpStorm & PyCharm )*
@@ -357,6 +349,20 @@ Fn [ 1 | 2 ] —— Switch Karabiner Setting Profile
 ^ l —— Toggle Normal Mode  ( Use Vim Mode in all Apps )
 ⌘ d —— Show Desktop
 
+# Mail
+
+** ⌘ r —— Reply **
+** ⌘ ⇧ R —— Reply All **
+** ⌘ ⇧ N —— Get All New Mail **
+** ⌘ ⇧ J —— Set as Junk **
+** ⌘ ⇧ U —— Set as UnRead **
+** ⌘ ⇧ L —— Red Flag **
+** ⌘ ⌥ f —— Mailbox Search **
+
+** ⌘ 1 —— Inbox **
+** ⌘ 2 —— Sent **
+** ⌘ 3 —— Drafts **
+
 # Manico
 
 ⌥ 1 —— Firefox
@@ -381,7 +387,7 @@ Fn [ 1 | 2 ] —— Switch Karabiner Setting Profile
 ^ ⌥ f —— Finder
 ** ^ ⌥ g —— Preview **
 
-^ ⌥ x —— FoxMail
+^ ⌥ x —— Mail
 ^ ⌥ c —— Charles
 ** ^ ⌥ b —— Sublime Text **
 
