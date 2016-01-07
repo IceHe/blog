@@ -30,7 +30,7 @@ description: 我的 OS X 快捷键列表索引。
 ← —— Left ( Lf )
 → —— Right ( Rg )
 
-Del —— Delete ( on Mac ) | Backspace ( on Windows )
+⌫ —— Delete ( on Mac ) | Backspace ( on Windows )
 Num —— Digits: 0 ~ 9
 
 ## Abbreviations
@@ -118,7 +118,7 @@ Pf —— Prefix
 ** ⌘ h —— Hide **
 ** ⌘ ⌥ h —— Hide All App but the Frontmost **
 ⌘ m —— Minimize to Dock
-* ⌘ ⌥ m —— Minimize All Windows of the Frontmost App *
+*⌘ ⌥ m —— Minimize All Windows of the Frontmost App*
 
 ⌘ f —— Search
 ** ⌘ g —— Next Match **
@@ -140,6 +140,8 @@ Pf —— Prefix
 ⌘ → —— End
 ⌥ ← —— Prev Word
 ⌥ → —— Next Word
+
+** ⌘ ^ 凵 —— Emoji & Symbols **
 
 ( After Selection )
 ⌘ b —— Bold
@@ -204,7 +206,7 @@ p —— Change Priority
 
 ⌥ c —— Complete
 ⌘ s —— Save
-** Fn Del —— Del **
+** Fn ⌫ —— Del **
 
 f —— Toggle Full Screen Mode
 [ ⌘ | ⇧ ] LfClick —— Select Range
@@ -291,8 +293,8 @@ gp —— to Projects
 
 ** ⌘ ↓ —— Open **
 
-** ⌘ ⇧ Del —— Empty Trash **
-*⌘ ⇧ ⌥ Del —— Empty Trash without Confirmation*
+** ⌘ ⇧ ⌫ —— Empty Trash **
+*⌘ ⇧ ⌥ ⌫ —— Empty Trash without Confirmation*
 
 # Firefox
 
@@ -467,6 +469,10 @@ f —— Btm Rg
 ⌘ ↑ —— Select Prev Chat
 ⌘ ↓ —— Select Next Chat
 
+# Script Editor
+
+** ⌘ ⇧ O ——  **
+
 # Seil
 
 *With no shortcuts, but Change Layout of Keyboard !*
@@ -531,9 +537,9 @@ Pf ^ l —— Resize Pane Rg
 
 *Only List the Useful Keys that I’m unfamiliar with .*
 
-x —— Del Char Forward
+x —— Del Char Forward ⌦
 
-** ⇧ X —— Del Char Backward **
+** ⇧ X —— Del Char Backward ⌫ **
 
 ** s —— Del Char Forward & then Insert **
 
@@ -630,7 +636,7 @@ e | L —— Next Tab
 
 f —— Open Link in Current Tab
 F —— Open Link in New Tab
-Del —— Delete the Last Hint Character
+⌫ —— Delete the Last Hint Character
 凵 | ⇧ 凵 —— Switch Hint Layout
 ** gf —— Open Link in New Tab & then Switch to it **
 ** gF —— Open Link in New Window **
@@ -663,9 +669,9 @@ i —— Ignore Mode ( Ignore All VimFX Shortcuts )
 ^ a —— Move Cursor to Head of Line
 ^ e —— Move Cursor to End of Line
 
-^ d —— Del Forward
+^ d —— Del Forward ⌦
 
-^ h —— Del Backward
+^ h —— Del Backward ⌫
 
 ^ w —— Del Word
 ^ k —— Del to End of Line
