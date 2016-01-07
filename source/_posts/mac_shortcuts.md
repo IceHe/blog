@@ -263,6 +263,22 @@ gp —— to Projects
 *⌘ ^ h —— Highlight*
 *⌘ ^ - —— Subscript*
 
+# Evernote Web Clipper
+
+^ ~  —— Open Clip Mode
+^ ⇧ ~ —— Open Simply Clip Mode
+⎋ —— Exit
+
+( After "^ ~" or "^ ⇧")
+a —— All Main Text
+c —— Main Text without Advertisement
+f —— Full Web Page
+b —— Clip as a Bookmark
+** m —— Capture **
+↑ —— Extend Selection
+↓ —— Shrink Selection
+↩ —— Save
+
 # Finder
 
 ** 凵 —— Quick Look **
