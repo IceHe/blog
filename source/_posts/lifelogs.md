@@ -5,7 +5,7 @@ tags: [me]
 description: 个人时间管理日志。
 ---
 
-- *Last Updated on Dec 27, 2015*
+- *Last Updated on Jan 03, 2016*
 <br/>
 
 #### Related
