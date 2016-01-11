@@ -5,7 +5,7 @@ tags: [me]
 description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游戏…
 ---
 
-- *Last Updated on Dec 27, 2015*
+- *Last Updated on Jan 11, 2016*
 
 *玩过、看过的之中，最喜欢这些。*
 
@@ -38,7 +38,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 - **Principles of Economics**
 
-	《经济学原理》曼昆，经济学。
+	《经济学原理》，曼昆。
 
 - **The Seven Habits of Highly Effective People**
 
@@ -62,7 +62,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 - **The Information: A History, A Theory, A Flood**
 
-	《信息简史》，信息泛滥之害（最后一章）。
+	《信息简史》。（最后一章，信息泛滥之害）
 
 - **A Programmer's Rantings**
 
@@ -70,41 +70,39 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 - **Design Pattern**
 
-	《设计模式》，经典。
+	《设计模式》。
 
 - **Refactoring : Improving the Design of Existing Code**
 
-	《重构》，经典。
+	《重构》。
 
 - **Code Complete : A Practical Handbook of Software Construction**
 
-	《代码大全2》，总览。
-
-- **算法竞赛经典入门**
-
-	算法素养。
+	《代码大全2》。
 
 - **汇编语言**
 
-	底层。
+- **C++ Primer**
+
+- **算法竞赛经典入门**
 
 - **蔡志忠的漫画**
 
 <br/>
 
-## **FM 播客栏目**
+## **FM 播客**
 
 - **飞碟说**
 
-	选取社会热点为话题，用有趣的方式，对各种热点知识进行科普解说的动画脱口秀节目。风格诙谐、重口、无下限。 &nbsp;*@喜马拉雅FM*
+	选取社会热点为话题，用有趣的方式，对各种热点知识进行科普解说的动画脱口秀节目，风格诙谐、重口、无下限。 &nbsp;*@喜马拉雅FM*
 
 - **又一课**
 
-	又一课是罗辑思维2015年初推出的新品牌，帮你发现有趣的人，看到有趣的事，开拓眼界。 &nbsp;*@喜马拉雅FM*
+	罗辑思维出品，发现有趣的人，看到有趣的事，开拓眼界。 &nbsp;*@喜马拉雅FM*
 
 - **罗辑思维**
 
-	罗胖的读书分享。
+	知识与观点。
 
 - **锵锵三人行**
 
@@ -130,7 +128,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 	谈论时事热点、经济现象，是由正安康健创始人梁冬与21世纪商业评论主编吴伯凡主持的谈话节目。
 
-- **总裁在线** *（播客停更）*
+- **总裁在线** *（其播客停更）*
 
 	知名企业家、创业者、国企高管的访谈节目。 &nbsp;*@凤凰FM*
 
@@ -142,17 +140,67 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 	将就够用的英语学习类节目，知识密度不高，学习强度低。毕竟听FM都在一心二用的时候，不经意中复习或者学到一个词组短语已经很不错。 &nbsp;*@企鹅FM*
 
-- **充电时间** *（Loud News 旗下的系列节目）*
+- **充电时间**
 
-	频道：知乎哲野、专栏精粹、TMT创业者、电商治愈系、文化媒体人、资深管理人、进击的PM、左脑时刻、营销方法论、销售行为学。 &nbsp;*@喜马拉雅FM*
+	频道：知乎哲野、专栏精粹、TMT创业者、电商治愈系、文化媒体人、资深管理人、进击的PM、左脑时刻、营销方法论、销售行为学。*（Loud News 旗下的系列节目） &nbsp; @喜马拉雅FM*
 
-- **太医来了** *（IPN 旗下播客节目）*
+- **太医来了**
 
-	主打健康、饮食、身体、医疗等常识的科普，干货满满，听完收益颇丰。 &nbsp;*@Podcasts*
+	主打健康、饮食、身体、医疗等常识的科普，干货满满，听完收益颇丰。*（IPN 旗下播客节目） &nbsp; @Podcasts*
 
-- **内核恐慌** *（IPN 旗下播客节目）*
+- **内核恐慌**
 
-	Kernel Panic ，讨论关于软件开发各种话题的谈话节目。 &nbsp;*@Podcasts*
+	Kernel Panic ，讨论关于软件开发各种话题的谈话节目。*（IPN 旗下播客节目） &nbsp; @Podcasts*
+
+<br/>
+
+## **WeChat Official Accounts**
+
+- **PHP开发者**
+
+- **鹅厂网事**
+
+	技术干货。
+
+- **懒人在思考**
+
+	网络安全入门。国内安全专家余弦维护。
+
+- **道哥的黑板报**
+
+	技术杂谈。国内安全专家道哥维护，不定期更新。
+
+- **神秘的程序员们**
+
+	女设计师西乔画的漫画，一定能让程序员们会心一笑。
+
+- **吃惑**
+
+	健康饮食、正确健身。
+
+- **幸福课**
+
+	心理学。动机在杭州（陈海贤）维护。与[同名知乎专栏](http://zhuanlan.zhihu.com/happy)同步。
+
+- **李松蔚**
+
+	洞悉人心。与知乎专栏[《潜台词》](http://zhuanlan.zhihu.com/lswlsw)同步。
+
+- **有点自卑**
+
+	两性情感。
+
+- **杜绍斐**
+
+	男士穿着、时尚、趣闻。
+
+- **IT老友记**
+
+	每日IT业简讯。
+
+- **吴晓波频道**
+
+	财经见解，趣商业。
 
 <br/>
 
@@ -212,7 +260,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 - **三傻大闹宝莱坞**
 
-	好喝的鸡汤。
+	教育，振奋（鸡汤）。
 
 - **未麻的部屋**
 
@@ -382,10 +430,18 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 - **Deemo**
 
-	最爱的音乐游戏，最爱曲目：Magnolia 。只能说：雷亚出品，必属精品！超喜欢这个游戏工作室：Rayark（台湾）！
+	最爱的音乐游戏，最爱曲目：Magnolia 。超喜欢这个游戏工作室：Rayark（台湾）！
 
 	其它喜爱的曲目：
 	Nine point nine , Platinum , Utopiosphere , Yubikiri-genman , Invite , Run go run , Pulses , Electron , Walking by the sea , Beyond the Stratus , Angelic sphere , Leviathan , Suspenseful third day , Living in the one , Little corgis dream , The way we were , The red coronation , Knight of firmament , Cream stew , I can not say , Kireigoto , New World , Time forgotten , Reminiscence .
+
+- **Cytus**
+
+	雷亚出品，必属精品！
+
+- **Kingdom Rush**
+
+	《皇家守卫军》，塔防。
 
 - **Framed**
 
