@@ -1,17 +1,19 @@
 title: My Tools 利器
 date: 2015-11-21
-categories: [me]
-tags: [me]
+categories: [Mac]
+tags: [Mac]
 description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommended Mac Apps . &nbsp; 以及科技产品、外设、用具等。
 ---
 
-- *Last Updated on Jan 11, 2016*
+- *Last Updated on Jan 12, 2016*
 
 *下文斜体文本为补充描述，可略过不读。*
 
 ## **Software**
 
 *以下除最后一小节，均为Mac平台下的软件。*
+
+- *推荐：[少数派](http://sspai.com/) —— 高质量 App 推荐媒体，关于 iOS、Mac、硬件。*
 
 ### **Common**
 
@@ -39,15 +41,7 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
 	更习惯用 Chrome 的 Inspect Element 做 Web 的调试，而非 Firebug。
 
-### *Firefox Add-ons* 
-
-- **[Adblock Plus](https://adblockplus.org/zh_CN/)、[Adblock Plus Elem Hide Helper](https://adblockplus.org/zh_CN/elemhidehelper)**
-
-	广告过滤。*防止追踪、恶意域名，过滤横幅广告、弹窗广告以及视频广告。配合元素隐藏助手使用，可更轻松地建立元素隐藏规则。*
-
-- **[Flashblock](http://flashblock.mozdev.org/)**
-
-	屏蔽所有页面的 Flash 内容的加载；需要时，才点击加载。
+### *Firefox Add-Ons* 
 
 - **[VimFX](https://github.com/akhodakivskiy/VimFx)**
 
@@ -66,6 +60,18 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 - **[DownThemAll!](downthemall.net)**
 
 	批量下载工具。功能更强，多线下载，速度更快，非 P2P 下载用它代替迅雷与浏览器默认下载器。
+
+- **[Adblock Plus](https://adblockplus.org/zh_CN/)、[Adblock Plus Elem Hide Helper](https://adblockplus.org/zh_CN/elemhidehelper)**
+
+	广告过滤。*防止追踪、恶意域名，过滤横幅广告、弹窗广告以及视频广告。配合元素隐藏助手使用，可更轻松地建立元素隐藏规则。*
+
+- **[Flashblock](http://flashblock.mozdev.org/)**
+
+	屏蔽所有页面的 Flash 内容的加载；需要时，才点击加载。
+
+- **[Greasemonkey](http://www.greasespot.net/)**
+
+	使用 JavaScript 脚本自定义网站网页的布局、外观、操作等！有提供[油猴脚本网站](http://wiki.greasespot.net/User_Script_Hosting)。
 
 - **[FoxyProxy Standard](http://getfoxyproxy.org/)**
 
@@ -313,6 +319,8 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
 	便捷的 Hots 文件修改工具。*也是锦上添花的辅助软件，使用频率太低，所以不用。*
 
+- *附文：《 [OS X 有哪些值得装的小软件？](https://www.zhihu.com/question/27870072) 》*
+
 <br/>
 
 ### **iOS**
@@ -398,33 +406,21 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
 ### **Windows**
 
-- **[TortoisGit](https://tortoisegit.org/)**
+- **[TortoisGit](https://tortoisegit.org/)** —— 便捷好用的 Git 的客户端管理软件。
 
-	便捷好用的 Git 的客户端管理软件。
+- **[Fiddler](http://www.telerik.com/fiddler)** —— [抓包工具](http://m.open-open.com/m/lib/view/1375954572906.html)。
 
-- **[Fiddler](http://www.telerik.com/fiddler)**
+- **[EditPlus](https://www.editplus.com/)** —— 功能强大的文本编辑软件。
 
-	抓包工具。
+- **[StrokesPlus](http://www.strokesplus.com/)** —— [强大的全局鼠标手势软件](http://bbs.kafan.cn/thread-1410275-1-1.html)。
 
-- **[EditPlus](https://www.editplus.com/)**
+- **[Everything](https://www.voidtools.com/)** —— [强大的全局文件检索工具](http://xbeta.info/everything-search-tool.htm)（ [Q & A](http://my.oschina.net/alphajay/blog/79431?fromerr=k12K2L1s) ）。
 
-	功能强大的文本编辑软件。
+- **[Listary Pro](http://www.listary.com/)** —— [类似于 Everything，各有优劣](http://www.iplaysoft.com/listary.html)。
 
-- **[StrokesPlus](http://www.strokesplus.com/)**
+- **[AutoHotkey](https://autohotkey.com/)** —— [全局快捷键设置工具](http://xbeta.info/autohotkey-guide-2.htm)。
 
-	强大的全局鼠标手势软件。
-
-- **[Everything](https://www.voidtools.com/)**
-
-	强大的全局文件检索工具。
-
-- **[Listary Pro](http://www.listary.com/)**
-
-	类似于 Everything，各有优劣。
-
-- **[AutoHotkey](https://autohotkey.com/)**
-
-	全局快捷键设置工具。
+- *附文：《 [Windows常用软件推荐](http://wsgzao.github.io/post/windows/) 》*
 
 <br/>
 

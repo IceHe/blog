@@ -1,6 +1,6 @@
 title: Time Mgt. 我的时间管理日志
 date: 2015-11-13
-categories: [think]
+categories: [time mgt]
 tags: [time mgt]
 description: Brief Explanations for Log Format - 我的时间管理日志格式的简要说明。Pricinples 原则，Transaction Category 事务类别，Time Granularity 时间粒度，Log Instance 日志实例，Schedule Plan 日程规划，Thoughts about Time Management 关于时间管理的思考。
 ---

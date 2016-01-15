@@ -1,7 +1,7 @@
 title: My Life Logs 手帐
 date: 2015-01-22
-categories: [me]
-tags: [me]
+categories: [time mgt]
+tags: [time mgt]
 description: 个人时间管理日志。
 ---
 

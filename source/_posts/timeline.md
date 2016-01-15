@@ -1,7 +1,7 @@
 title: My Timeline 时间轴
 date: 2015-01-23
-categories: [me]
-tags: [me]
+categories: [whoami]
+tags: [whoami]
 description: 我的时间轴。
 toc: false
 ---

@@ -1,7 +1,7 @@
 title: Resume - Ice He 何志远
 date: 2015-01-24
-categories: [me]
-tags: [me]
+categories: [whoami]
+tags: [whoami]
 description: 我的简历。
 toc: false
 ---

@@ -1,7 +1,7 @@
 title: Me 我
 date: 2015-01-20
-categories: [me]
-tags: [me]
+categories: [whoami]
+tags: [whoami]
 description: 这就是我。
 toc: false
 ---

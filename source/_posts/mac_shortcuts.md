@@ -1,11 +1,13 @@
 title: My Mac Shortcuts 快捷键列表
 date: 2016-01-06
-categories: [mac]
-tags: [me, shortcuts]
+categories: [Mac]
+tags: [Mac]
 description: 我的 OS X 快捷键列表索引。
 ---
 
-- *Last Updated on Jan 07, 2016*
+- *Last Updated on Jan 13, 2016*
+
+- *Ref: 《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》*
 
 # Explanation
 
@@ -233,7 +235,7 @@ gp —— to Projects
 
 # Evernote
 
-^ ⌥ r —— Search
+^ ⌥ e —— Search
 ** ^ ⌥ j —— New Note **
 ^ ⌥ 0 —— Paste to New Note
 ** ⌘ ^ s —— Sync **
@@ -384,8 +386,8 @@ Fn [ 1 | 2 ] —— Switch Karabiner Setting Profile
 # Manico
 
 ⌥ 1 —— Firefox
-⌥ 2 —— iTerm2
-⌥ 3 —— Chrome
+⌥ 2 —— Evernote
+⌥ 3 —— iTerm2
 ^ ⌥ 凵 —— Activity_Monitor
 
 ^ ⌥ 1 —— Script Editor ( for AppleScript )
@@ -396,7 +398,7 @@ Fn [ 1 | 2 ] —— Switch Karabiner Setting Profile
 
 ^ ⌥ q —— QQ
 ^ ⌥ w —— WeChat
-^ ⌥ e —— Evernote
+^ ⌥ r —— Chrome
 ^ ⌥ t —— Thunder
 
 ^ ⌥ a —— PyCharm

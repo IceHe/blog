@@ -1,7 +1,7 @@
 title: How to Reward Me! 怎么打赏博主~
 date: 2015-04-02
-tags: [donate]
-categories: [Web]
+categories: [whoami]
+tags: [whoami]
 description: 来打赏博主吧~
 toc: false
 ---

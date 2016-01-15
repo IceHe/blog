@@ -1,7 +1,7 @@
 title: 实现 博客网站的支付宝 打赏功能 —— Donate 打赏博主
 date: 2015-03-04
 categories: [Web]
-tags: [TECH, donate]
+tags: [Web]
 description: 原有的支付宝个人收款主页停止服务。替代方案：可以使用一个简单的表单（form 标签），通过 POST 一键自动填写「支付宝转账页面」的信息。以及 笔者的 自定义的 “打赏”按钮。
 ---
 Reference 参考资料：
