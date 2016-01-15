@@ -35,8 +35,8 @@
   
 
   <!-- <link rel="stylesheet" href="/css/style.css" type="text/css"> -->
-  <link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/css/style.css" type="text/css">
-  <!--<link rel="stylesheet" href="/css/style.css" type="text/css">-->
+  <!--<link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/css/style.css" type="text/css">-->
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
 
   <!-- 百度站内搜索 for github站 icehe.me -->
   <!--<meta name="baidu-site-verification" content="04tLeUMqMf" />-->
@@ -123,19 +123,6 @@
 </div>
 <div id="main" class="archive-part clearfix">
   <div id="archive-page">
-
-  <section class="post" itemscope itemprop="blogPost">
-  
-    <a href="/linux/[06] Linux 通过 pip 安装使用 Shadowsocks - CentOS 7/" title="(06) Linux 通过 pip 安装使用 Shadowsocks - CentOS 7" itemprop="url">
-  
-
-    <time datetime="2015-03-30T16:00:00.000Z" itemprop="datePublished">2015 Mar 31</time>
-
-
-    <h1 itemprop="name">(06) Linux 通过 pip 安装使用 Shadowsocks - CentOS 7</h1>
-
-  </a>
-</section>
 
   <section class="post" itemscope itemprop="blogPost">
   
@@ -486,9 +473,13 @@ $(document).ready(function(){
 
             $('#popularlist_ul').append('<li><a href="'
                     + url + '" name="'
-                    + title + '"><sup>'
-                    + time + ' &nbsp;</sup>'
-                    + title + '</a></li>'
+                    + title + '">'
+                    + (1 == ((i + 1) % 5)
+                            ? ('<b>' + (i + 1) + ' </b>') : '')
+                    + '<sup>'
+                    + time + ' </sup> &nbsp;'
+                    + title
+                    + '</a></li>'
             );
           }
         },

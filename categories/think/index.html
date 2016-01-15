@@ -35,8 +35,8 @@
   
 
   <!-- <link rel="stylesheet" href="/css/style.css" type="text/css"> -->
-  <link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/css/style.css" type="text/css">
-  <!--<link rel="stylesheet" href="/css/style.css" type="text/css">-->
+  <!--<link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/css/style.css" type="text/css">-->
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
 
   <!-- 百度站内搜索 for github站 icehe.me -->
   <!--<meta name="baidu-site-verification" content="04tLeUMqMf" />-->
@@ -146,19 +146,6 @@
 
 
     <h1 itemprop="name">个人价值 与 极简主义/断舍离</h1>
-
-  </a>
-</section>
-
-  <section class="post" itemscope itemprop="blogPost">
-  
-    <a href="/think/time_mgt/" title="Time Mgt. 我的时间管理日志" itemprop="url">
-  
-
-    <time datetime="2015-11-12T16:00:00.000Z" itemprop="datePublished">2015 Nov 13</time>
-
-
-    <h1 itemprop="name">Time Mgt. 我的时间管理日志</h1>
 
   </a>
 </section>
@@ -434,9 +421,13 @@ $(document).ready(function(){
 
             $('#popularlist_ul').append('<li><a href="'
                     + url + '" name="'
-                    + title + '"><sup>'
-                    + time + ' &nbsp;</sup>'
-                    + title + '</a></li>'
+                    + title + '">'
+                    + (1 == ((i + 1) % 5)
+                            ? ('<b>' + (i + 1) + ' </b>') : '')
+                    + '<sup>'
+                    + time + ' </sup> &nbsp;'
+                    + title
+                    + '</a></li>'
             );
           }
         },

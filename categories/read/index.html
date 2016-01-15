@@ -35,8 +35,8 @@
   
 
   <!-- <link rel="stylesheet" href="/css/style.css" type="text/css"> -->
-  <link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/css/style.css" type="text/css">
-  <!--<link rel="stylesheet" href="/css/style.css" type="text/css">-->
+  <!--<link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/css/style.css" type="text/css">-->
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
 
   <!-- 百度站内搜索 for github站 icehe.me -->
   <!--<meta name="baidu-site-verification" content="04tLeUMqMf" />-->
@@ -123,6 +123,32 @@
 </div>
 <div id="main" class="archive-part clearfix">
   <div id="archive-page">
+
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/bookmarks/" title="My Bookmarks 书签" itemprop="url">
+  
+
+    <time datetime="2015-12-19T16:00:00.000Z" itemprop="datePublished">2015 Dec 20</time>
+
+
+    <h1 itemprop="name">My Bookmarks 书签</h1>
+
+  </a>
+</section>
+
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/favourites/" title="My Favourites 喜好" itemprop="url">
+  
+
+    <time datetime="2015-11-18T16:00:00.000Z" itemprop="datePublished">2015 Nov 19</time>
+
+
+    <h1 itemprop="name">My Favourites 喜好</h1>
+
+  </a>
+</section>
 
   <section class="post" itemscope itemprop="blogPost">
   
@@ -408,9 +434,13 @@ $(document).ready(function(){
 
             $('#popularlist_ul').append('<li><a href="'
                     + url + '" name="'
-                    + title + '"><sup>'
-                    + time + ' &nbsp;</sup>'
-                    + title + '</a></li>'
+                    + title + '">'
+                    + (1 == ((i + 1) % 5)
+                            ? ('<b>' + (i + 1) + ' </b>') : '')
+                    + '<sup>'
+                    + time + ' </sup> &nbsp;'
+                    + title
+                    + '</a></li>'
             );
           }
         },

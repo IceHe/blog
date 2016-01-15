@@ -1688,12 +1688,11 @@ section.comment {
 }
 .categorieslist {
   font-size: 90%;
-  margin-top: 0.5em;
 }
 @media only screen and (min-width: 768px) {
   .categorieslist {
     width: 45%;
-    float: right;
+    float: left;
     margin: 0 5% 0 0;
   }
 }
@@ -1704,17 +1703,22 @@ section.comment {
     margin: 1em 0 0;
   }
 }
-.categorieslist li {
-  border-bottom: 1px solid #ccc;
+.categorieslist ul {
+  padding: 0.25em 0;
 }
-.categorieslist li a {
-  margin-left: 5%;
+.categorieslist ul li {
+  float: left;
+}
+.categorieslist ul li a {
   font-size: 85%;
   display: block;
-  padding: 0.2em 2%;
+  margin: 0.3em 0.5em;
+  padding: 0.1em 0.4em;
+  background: #f0f0f0;
 }
-.categorieslist li a:hover {
+.categorieslist ul li a:hover {
   color: #69c;
+  background: #f5f5f5;
 }
 .tagslist {
   font-size: 90%;
@@ -1741,10 +1745,10 @@ section.comment {
   float: left;
 }
 .tagslist ul li a {
-  font-size: 85%;
+  font-size: 90%;
   display: block;
-  margin: 0.16em;
-  padding: 0 0.3em;
+  margin: 0.2em 0.2em;
+  padding: 0 0.4em;
   background: #e6e6e6;
 }
 .tagslist ul li a:hover {
@@ -1947,6 +1951,12 @@ section.comment {
 }
 .popularlist li a:hover {
   color: #69c;
+}
+.popularlist li:nth-child(5) {
+  border-bottom: 2.5px solid #ccc;
+}
+.popularlist li:nth-child(10) {
+  border-bottom: 2.5px solid #ccc;
 }
 .find_me {
   font-size: 95%;

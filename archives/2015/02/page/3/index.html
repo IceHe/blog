@@ -35,8 +35,8 @@
   
 
   <!-- <link rel="stylesheet" href="/css/style.css" type="text/css"> -->
-  <link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/css/style.css" type="text/css">
-  <!--<link rel="stylesheet" href="/css/style.css" type="text/css">-->
+  <!--<link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/css/style.css" type="text/css">-->
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
 
   <!-- 百度站内搜索 for github站 icehe.me -->
   <!--<meta name="baidu-site-verification" content="04tLeUMqMf" />-->
@@ -481,9 +481,13 @@ $(document).ready(function(){
 
             $('#popularlist_ul').append('<li><a href="'
                     + url + '" name="'
-                    + title + '"><sup>'
-                    + time + ' &nbsp;</sup>'
-                    + title + '</a></li>'
+                    + title + '">'
+                    + (1 == ((i + 1) % 5)
+                            ? ('<b>' + (i + 1) + ' </b>') : '')
+                    + '<sup>'
+                    + time + ' </sup> &nbsp;'
+                    + title
+                    + '</a></li>'
             );
           }
         },

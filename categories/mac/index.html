@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   
 
-	<title>Categories : mac | Ice He 何志遠</title>
+	<title>Categories : Mac | Ice He 何志遠</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 	
 	<meta name="author" content="IceHe何志远">
@@ -16,7 +16,7 @@
 	<meta name="description" content="IceHe 何志远 blog 博客 software development IT tech 软件 开发 技术 record life 记录 人生 生活">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Ice He 何志遠">
-<meta property="og:url" content="http://icehe.me/categories/mac/index.html">
+<meta property="og:url" content="http://icehe.me/categories/Mac/index.html">
 <meta property="og:site_name" content="Ice He 何志遠">
 <meta property="og:description" content="IceHe 何志远 blog 博客 software development IT tech 软件 开发 技术 record life 记录 人生 生活">
 <meta name="twitter:card" content="summary">
@@ -35,8 +35,8 @@
   
 
   <!-- <link rel="stylesheet" href="/css/style.css" type="text/css"> -->
-  <link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/css/style.css" type="text/css">
-  <!--<link rel="stylesheet" href="/css/style.css" type="text/css">-->
+  <!--<link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/css/style.css" type="text/css">-->
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
 
   <!-- 百度站内搜索 for github站 icehe.me -->
   <!--<meta name="baidu-site-verification" content="04tLeUMqMf" />-->
@@ -118,7 +118,7 @@
       
 
 <div class="archive-title" >
-  <h2 class="category-icon">mac</h2>
+  <h2 class="category-icon">Mac</h2>
   
 </div>
 <div id="main" class="archive-part clearfix">
@@ -133,6 +133,19 @@
 
 
     <h1 itemprop="name">My Mac Shortcuts 快捷键列表</h1>
+
+  </a>
+</section>
+
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/tools/" title="My Tools 利器" itemprop="url">
+  
+
+    <time datetime="2015-11-20T16:00:00.000Z" itemprop="datePublished">2015 Nov 21</time>
+
+
+    <h1 itemprop="name">My Tools 利器</h1>
 
   </a>
 </section>
@@ -408,9 +421,13 @@ $(document).ready(function(){
 
             $('#popularlist_ul').append('<li><a href="'
                     + url + '" name="'
-                    + title + '"><sup>'
-                    + time + ' &nbsp;</sup>'
-                    + title + '</a></li>'
+                    + title + '">'
+                    + (1 == ((i + 1) % 5)
+                            ? ('<b>' + (i + 1) + ' </b>') : '')
+                    + '<sup>'
+                    + time + ' </sup> &nbsp;'
+                    + title
+                    + '</a></li>'
             );
           }
         },

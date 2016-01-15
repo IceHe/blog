@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Less is more 寧靜致遠]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://icehe.me/"/>
-  <updated>2016-01-07T14:33:38.000Z</updated>
+  <updated>2016-01-15T12:52:20.000Z</updated>
   <id>http://icehe.me/</id>
   
   <author>
@@ -19,9 +19,12 @@
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
-    <updated>2016-01-07T14:33:38.000Z</updated>
+    <updated>2016-01-15T12:52:20.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li><em>Last Updated on Jan 07, 2016</em></li>
+<li><p><em>Last Updated on Jan 13, 2016</em></p>
+</li>
+<li><p><em>Ref: 《 <a href="https://support.apple.com/zh-cn/HT201236" target="_blank" rel="external">Mac 键盘快捷键</a> 》</em></p>
+</li>
 </ul>
 <h1 id="Explanation">Explanation</h1><p><em>Not all shortcuts , but my most frequent ones !</em><br><em>Not only the default shortcuts and the custom ones .</em></p>
 <h2 id="Key_Characters">Key Characters</h2><p> —— Power<br>⌘ —— Command ( Cmd )<br>⌥ —— Option | Alt ( on Windows )<br>^ —— Control ( Ctrl )<br>⇧ —— Shift ( Shf )<br>⇪ —— CapsLock<br>⇥ —— Tab<br>⎋ —— Escape ( Esc )<br>↩ —— Return ( Ret ) | Enter ( on Windows )<br>凵 —— Space</p>
@@ -80,7 +83,7 @@
 <p>j —— Next<br>k —— Prev<br><strong> u —— Back to Detail </strong></p>
 <p>gi —— Inbox<br>gt —— Today<br>gn —— to Next<br>gs —— to Scheduled<br>gw —— to Waiting<br>gp —— to Projects<br>⇧ ? —— Shortcut Tips<br>⇧ H —— Shortcut Tips</p>
 <h1 id="EuDict_Free">EuDict Free</h1><p><strong> ⇧ 凵 —— Light Peek </strong><br><strong> ⌘ ⇧ M —— Look up Word that Mouse Cursor Hovers </strong><br><strong> ⌘ ⇧ L —— Look up Selection </strong><br><strong> ⌘ ⇧ 2 —— Translate Selection </strong></p>
-<h1 id="Evernote">Evernote</h1><p>^ ⌥ r —— Search<br><strong> ^ ⌥ j —— New Note </strong><br>^ ⌥ 0 —— Paste to New Note<br><strong> ⌘ ^ s —— Sync </strong></p>
+<h1 id="Evernote">Evernote</h1><p>^ ⌥ e —— Search<br><strong> ^ ⌥ j —— New Note </strong><br>^ ⌥ 0 —— Paste to New Note<br><strong> ⌘ ^ s —— Sync </strong></p>
 <p><strong> ⌘ l —— Edit Note Title
 </strong> ⌘ ^ m —— Mv Note to the select Notebook <strong>
 </strong> ⌘ ⇧ I —— Get Note Info **</p>
@@ -111,9 +114,9 @@
 <p>^ l —— Toggle Normal Mode  ( Use Vim Mode in all Apps )<br>⌘ d —— Show Desktop</p>
 <h1 id="Mail">Mail</h1><p><strong> ⌘ r —— Reply </strong><br><strong> ⌘ ⇧ R —— Reply All </strong><br><strong> ⌘ ⇧ N —— Get All New Mail </strong><br><strong> ⌘ ⇧ J —— Set as Junk </strong><br><strong> ⌘ ⇧ U —— Set as UnRead </strong><br><strong> ⌘ ⇧ L —— Red Flag </strong><br><strong> ⌘ ⌥ f —— Mailbox Search </strong></p>
 <p><strong> ⌘ 1 —— Inbox </strong><br><strong> ⌘ 2 —— Sent </strong><br><strong> ⌘ 3 —— Drafts </strong></p>
-<h1 id="Manico">Manico</h1><p>⌥ 1 —— Firefox<br>⌥ 2 —— iTerm2<br>⌥ 3 —— Chrome<br>^ ⌥ 凵 —— Activity_Monitor</p>
+<h1 id="Manico">Manico</h1><p>⌥ 1 —— Firefox<br>⌥ 2 —— Evernote<br>⌥ 3 —— iTerm2<br>^ ⌥ 凵 —— Activity_Monitor</p>
 <p>^ ⌥ 1 —— Script Editor ( for AppleScript )<br>^ ⌥ 2 —— System Preferences<br>^ ⌥ 3 —— Dash<br>^ ⌥ 5 —— Daily Task<br>^ ⌥ 7 —— Sequel Pro ( for MySQL )</p>
-<p>^ ⌥ q —— QQ<br>^ ⌥ w —— WeChat<br>^ ⌥ e —— Evernote<br>^ ⌥ t —— Thunder</p>
+<p>^ ⌥ q —— QQ<br>^ ⌥ w —— WeChat<br>^ ⌥ r —— Chrome<br>^ ⌥ t —— Thunder</p>
 <p>^ ⌥ a —— PyCharm<br>^ ⌥ s —— PhpStorm<br>^ ⌥ d —— Dictionary<br>^ ⌥ f —— Finder<br><strong> ^ ⌥ g —— Preview </strong></p>
 <p>^ ⌥ x —— Mail<br>^ ⌥ c —— Charles<br><strong> ^ ⌥ b —— Sublime Text </strong></p>
 <p><strong> ^ ⌥ y —— Typora </strong><br><strong> ^ ⌥ u —— EuDic Free </strong><br>^ ⌥ i —— iTunes<br>^ ⌥ p —— AppStore</p>
@@ -193,11 +196,9 @@
     
     </summary>
     
-      <category term="me" scheme="http://icehe.me/tags/me/"/>
+      <category term="Mac" scheme="http://icehe.me/tags/Mac/"/>
     
-      <category term="shortcuts" scheme="http://icehe.me/tags/shortcuts/"/>
-    
-      <category term="mac" scheme="http://icehe.me/categories/mac/"/>
+      <category term="Mac" scheme="http://icehe.me/categories/Mac/"/>
     
   </entry>
   
@@ -206,7 +207,7 @@
     <link href="http://icehe.me/think/bye2015/"/>
     <id>http://icehe.me/think/bye2015/</id>
     <published>2016-01-02T16:00:00.000Z</published>
-    <updated>2016-01-11T12:57:34.000Z</updated>
+    <updated>2016-01-15T12:51:28.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li><em>Created on Dec 26, 2015</em></li>
 </ul>
@@ -276,9 +277,7 @@
     
     </summary>
     
-      <category term="me" scheme="http://icehe.me/tags/me/"/>
-    
-      <category term="summary" scheme="http://icehe.me/tags/summary/"/>
+      <category term="think" scheme="http://icehe.me/tags/think/"/>
     
       <category term="think" scheme="http://icehe.me/categories/think/"/>
     
@@ -289,295 +288,470 @@
     <link href="http://icehe.me/bookmarks/"/>
     <id>http://icehe.me/bookmarks/</id>
     <published>2015-12-19T16:00:00.000Z</published>
-    <updated>2016-01-11T13:58:07.000Z</updated>
+    <updated>2016-01-15T12:49:31.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li><em>Last Updated on Jan 12, 2016</em></li>
+<li><em>Last Updated on Jan 14, 2016</em></li>
 </ul>
-<h2 id="Web_Sites_网站"><strong>Web Sites 网站</strong></h2><h3 id="Web_Dev_开发"><strong>Web Dev 开发</strong></h3><ul>
-<li><p><a href="http://w3school.com.cn/" target="_blank" rel="external">w3school</a></p>
-<p>  Web基础知识快速入门，及其速查手册。</p>
+<h2 id="IT_信息技术"><strong>IT 信息技术</strong></h2><h3 id="OL_Tools_在线工具"><strong>OL Tools 在线工具</strong></h3><ul>
+<li><p><a href="http://tool.oschina.net/regex" target="_blank" rel="external">Regular Expr Test</a> —— 正则表达式测试。 </p>
 </li>
-<li><p><a href="http://tool.oschina.net/" target="_blank" rel="external">开源中国 在线工具</a></p>
-<p>  常用的Web开发、辅助编程的工具，以及各类Web知识的简易手册。</p>
+<li><p><a href="http://tool.oschina.net/hexconvert" target="_blank" rel="external">BHD Converter</a> —— 数值的进制转换（支持浮点数）。</p>
 </li>
-<li><p>CDN公共库</p>
-<p>  <a href="http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs" target="_blank" rel="external">百度开发者中心</a> 、 <a href="http://libs.useso.com/" target="_blank" rel="external">360的CDN服务</a>（常用前端公共库、Google公共库、Google字体库…）<br><br></p>
+<li><p>QrCode :&nbsp; <a href="http://tool.oschina.net/qr" target="_blank" rel="external">Generate</a> / <a href="http://tool.oschina.net/qr?type=2" target="_blank" rel="external">Decode</a> —— 二维码生成 / 解析。</p>
+</li>
+<li><p>Encrypt / Decrypt :&nbsp; <a href="http://tool.oschina.net/encrypt?type=3" target="_blank" rel="external">Base64</a> ,&nbsp; <a href="http://tool.oschina.net/encrypt?type=2" target="_blank" rel="external">Hash</a> ,&nbsp; <a href="http://tool.oschina.net/encrypt" target="_blank" rel="external">AES &amp; etc</a> —— 加密 / 解密。</p>
+</li>
+<li><p>Encoding Converter :&nbsp; <a href="http://tool.oschina.net/encode?type=4" target="_blank" rel="external">URL</a> ,&nbsp; <a href="http://tool.oschina.net/encode?type=3" target="_blank" rel="external">ASCII</a> ,&nbsp; <a href="http://tool.oschina.net/encode?type=2" target="_blank" rel="external">UTF-8</a> ,&nbsp; <a href="http://tool.oschina.net/encode?type=1" target="_blank" rel="external">Unicode</a> —— 编码转换。</p>
+</li>
+<li><p><a href="http://tool.oschina.net/" target="_blank" rel="external">OSChina Online Tools</a> —— 常用 Web 开发辅助工具、相关知识的简易手册。</p>
+</li>
+<li><p><a href="http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs" target="_blank" rel="external">百度开发者中心</a>、<a href="http://libs.useso.com/" target="_blank" rel="external">360 的 CDN 服务</a> —— CDN 公共库：常用前端公共库、Google 公共库、字体库… </p>
 </li>
 </ul>
+<p><br></p>
+<h3 id="Web_Refs_参考"><strong>Web Refs 参考</strong></h3><ul>
+<li><p><a href="http://tool.oschina.net/apidocs/apidoc?api=jquery" target="_blank" rel="external">jQuery Docs Refs</a></p>
+</li>
+<li><p><a href="http://w3school.com.cn/" target="_blank" rel="external">w3school</a> —— Web 基础知识入门与速查。</p>
+</li>
+<li><p><a href="http://www.divcss5.com/" target="_blank" rel="external">DIVCSS5</a> —— 学习 DIV + CSS 布局技术。</p>
+</li>
+<li><p><a href="https://en.wikipedia.org/wiki/ASCII#ASCII_printable_code_chart" target="_blank" rel="external">ASCII printable code chart</a> —— <a href="http://tool.oschina.net/commons?type=4" target="_blank" rel="external">对照表</a>。</p>
+</li>
+<li><p><a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#1xx_Informational" target="_blank" rel="external">List of HTTP status codes</a> —— <a href="http://tool.oschina.net/commons?type=5" target="_blank" rel="external">状态码</a>。</p>
+</li>
+<li><p><a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports" target="_blank" rel="external">List of TCP and UDP port numbers</a> —— <a href="http://tool.oschina.net/commons?type=7" target="_blank" rel="external">端口号</a>。</p>
+</li>
+<li><p><a href="https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Predefined_entities_in_XML" target="_blank" rel="external">List of XML and HTML character entity references</a> —— <a href="http://tool.oschina.net/commons?type=2" target="_blank" rel="external">字符实体引用</a>。</p>
+</li>
+<li><p><a href="http://tool.oschina.net/commons?type=3" target="_blank" rel="external">常用颜色对照表</a>、 <a href="http://www.divcss5.com/peise/" target="_blank" rel="external">网页设计常用色彩搭配表</a></p>
+</li>
+</ul>
+<p><br></p>
 <h3 id="Docs_文档"><strong>Docs 文档</strong></h3><p><br><em>最好的习惯：查阅官方网站的文档。</em></p>
 <ul>
-<li><p><a href="http://coolshell.cn//wp-content/uploads/2011/09/vim_cheat_sheet_for_programmers_print.png" target="_blank" rel="external">Vim Cheat Sheet</a></p>
-<p>  齐全的Vim键位操作总结图。</p>
+<li><p><a href="http://zsh.sourceforge.net/" target="_blank" rel="external">Z shell</a></p>
 </li>
-<li><p><a href="http://www.vim.org/docs.php" target="_blank" rel="external">Vim Docs</a></p>
-<p>  From Official:&nbsp; <a href="http://git-scm.com/" target="_blank" rel="external">Git-scm.com</a></p>
+<li><p><a href="http://coolshell.cn//wp-content/uploads/2011/09/vim_cheat_sheet_for_programmers_print.png" target="_blank" rel="external">Vim Cheat Sheet</a> —— Vim 键位操作总结图。</p>
 </li>
-<li><p><a href="http://git-scm.com/book/en/v2" target="_blank" rel="external">Git Docs</a></p>
-<p>  From Official:&nbsp; <a href="http://git-scm.com/" target="_blank" rel="external">Git-scm.com</a></p>
+<li><p><a href="http://www.vim.org/docs.php" target="_blank" rel="external">Vim Docs</a> —— from&nbsp; <a href="http://www.vim.org" target="_blank" rel="external">vim.org</a></p>
 </li>
-<li><p><a href="http://php.net/docs.php" target="_blank" rel="external">PHP Docs</a></p>
-<p>  From Official:&nbsp; <a href="http://php.net/" target="_blank" rel="external">PHP.net</a></p>
+<li><p><a href="http://git-scm.com/book/en/v2" target="_blank" rel="external">Git Docs</a> —— from&nbsp; <a href="http://git-scm.com/" target="_blank" rel="external">Git-scm.com</a></p>
 </li>
-<li><p><a href="https://docs.python.org/3/" target="_blank" rel="external">Python3 Docs</a></p>
-<p>  From Official:&nbsp; <a href="https://www.python.org/" target="_blank" rel="external">Python.org</a></p>
+<li><p><a href="http://php.net/docs.php" target="_blank" rel="external">PHP Docs</a> —— from&nbsp; <a href="http://php.net/" target="_blank" rel="external">PHP.net</a></p>
 </li>
-<li><p><a href="https://developer.apple.com/library/mac/navigation/" target="_blank" rel="external">Mac Developer Library</a></p>
-<p>  Including：<a href="https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html" target="_blank" rel="external">AppleScript Language Guide</a><br><br></p>
+<li><p><a href="https://docs.python.org/3/" target="_blank" rel="external">Python3 Docs</a> —— from&nbsp; <a href="https://www.python.org/" target="_blank" rel="external">Python.org</a></p>
+</li>
+<li><p><a href="https://developer.apple.com/library/mac/navigation/" target="_blank" rel="external">Mac Developer Library</a> —— including&nbsp; <a href="https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html" target="_blank" rel="external">AppleScript Language Guide</a></p>
 </li>
 </ul>
-<h3 id="Learn_学习"><strong>Learn 学习</strong></h3><ul>
-<li><p>Online Judge</p>
-<p>  <a href="https://leetcode.com/" target="_blank" rel="external">LeetCode</a>,&nbsp; <a href="https://uva.onlinejudge.org/" target="_blank" rel="external">UVa</a>,&nbsp; <a href="http://poj.org/" target="_blank" rel="external">PKU</a>,&nbsp; <a href="http://acm.hdu.edu.cn/" target="_blank" rel="external">HDU</a></p>
+<p><br></p>
+<h3 id="Algorithm_算法"><strong>Algorithm 算法</strong></h3><ul>
+<li><p><a href="http://lucida.me/blog/on-learning-algorithms/" target="_blank" rel="external">我的算法学习之路</a></p>
 </li>
-<li><p><a href="http://brucechen.gitcafe.io/#Books%20Reading" target="_blank" rel="external">BruceChen’s Wiki</a></p>
-<p>  编程知识笔记、速查清单。</p>
+<li><p><a href="http://blog.csdn.net/v_july_v" target="_blank" rel="external">结构之法 算法之道</a></p>
+</li>
+<li><p><a href="http://www.matrix67.com/blog/" target="_blank" rel="external">Matrix67: The Aha Moments</a></p>
+</li>
+<li><p><a href="http://courses.csail.mit.edu/6.851/" target="_blank" rel="external">Advanced Data Structures</a></p>
+</li>
+<li><p><a href="http://www.sorting-algorithms.com/" target="_blank" rel="external">Sorting Algorithm Animations</a></p>
+</li>
+<li><p><a href="http://visualgo.net/" target="_blank" rel="external">Visu Algo</a> —— Visualising data structures and algorithms through animation.</p>
+</li>
+<li><p><a href="https://www.quora.com/What-are-the-algorithms-required-to-solve-all-problems-using-C++-in-any-competitive-coding-contest" target="_blank" rel="external">Algorithms required to solve all problems (using C++) in any competitive coding contest?</a></p>
+</li>
+<li><p><a href="https://leetcode.com/" target="_blank" rel="external">LeetCode</a>,&nbsp; <a href="https://uva.onlinejudge.org/" target="_blank" rel="external">UVa</a>,&nbsp; <a href="http://poj.org/" target="_blank" rel="external">PKU</a>,&nbsp; <a href="http://acm.hdu.edu.cn/" target="_blank" rel="external">HDU</a> —— Online Judge</p>
+</li>
+</ul>
+<p><br></p>
+<h3 id="Coding_编码"><strong>Coding 编码</strong></h3><ul>
+<li><p><a href="http://zh.lucida.me/blog/on-programming-errors-2/" target="_blank" rel="external">关于编程错误的思考</a></p>
+</li>
+<li><p><a href="http://coolshell.cn/articles/1038.html" target="_blank" rel="external">编程命名中的7+1个提示</a></p>
+</li>
+<li><p><a href="https://github.com/PizzaLiu/PHP-FIG" target="_blank" rel="external">PHP PSR</a> —— 编码规范。</p>
+</li>
+<li><p><a href="http://blog.jobbole.com/82908/" target="_blank" rel="external">国外程序员整理的 PHP 资源大全</a> —— <a href="https://github.com/ziadoz/awesome-php" target="_blank" rel="external">Awesome PHP</a></p>
+</li>
+<li><p><a href="https://github.com/google/styleguide/" target="_blank" rel="external">Google Style Guides</a> —— 谷歌代码风格指南。</p>
+</li>
+<li><p><a href="http://graphics.stanford.edu/~seander/bithacks.html" target="_blank" rel="external">Bit Twiddling Hacks</a> —— 位计算与操作。</p>
+</li>
+<li><p><a href="http://www.catb.org/esr/structure-packing/" target="_blank" rel="external">The Lost Art of C Structure Packing</a> —— 结构体的对齐与压缩。</p>
+</li>
+<li><p><a href="http://blog.csdn.net/redguardtoo/article/details/7222501/" target="_blank" rel="external">一年成为Emacs高手(像神一样使用编辑器) </a></p>
+</li>
+<li><p><a href="http://www.oschina.net/news/12542/git-and-svn" target="_blank" rel="external">GIT和SVN之间的五个基本区别</a> —— <a href="http://boxysystems.com/index.php/5-fundamental-differences-between-git-svn/" target="_blank" rel="external">英文出处</a>。</p>
+</li>
+<li><p><a href="http://blog.jobbole.com/84903/" target="_blank" rel="external">十分钟搞清字符集和字符编码</a></p>
+</li>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=401458542&amp;idx=1&amp;sn=8b92d5fb274760558154eb38a7a796de&amp;scene=1&amp;srcid=0104vzltG2BqJX4KXEWMcK4N#rd" target="_blank" rel="external">中文编码杂谈</a></p>
+</li>
+</ul>
+<p><br></p>
+<h3 id="Read_阅读"><strong>Read 阅读</strong></h3><ul>
+<li><p><a href="http://lucida.me/blog/on-reading-books/" target="_blank" rel="external">如何阅读（ 技术 ）书籍</a></p>
+</li>
+<li><p><a href="http://lucida.me/blog/developer-reading-list/" target="_blank" rel="external">程序员必读书单 1.0</a></p>
+</li>
+<li><p><a href="https://www.zhihu.com/collection/19837238?utm_campaign=weekly188&amp;utm_medium=email&amp;page=1&amp;utm_source=weekly-digest" target="_blank" rel="external">程序员进阶之路</a></p>
+</li>
+<li><p><a href="http://coolshell.cn/articles/240.html" target="_blank" rel="external">非常不错的编程技术教程</a></p>
+</li>
+<li><p><a href="http://siberiawolf.com/free_programming/index.html" target="_blank" rel="external">免费的编程中文书籍索引</a></p>
+</li>
+<li><p><a href="http://daichuanqing.com/index.php/share" target="_blank" rel="external">用户体验、产品设计的学习资料</a></p>
+</li>
+<li><p><a href="http://blogwall.us/" target="_blank" rel="external">程序员博客墙</a> —— 优秀程序员的个人博客索引。</p>
+</li>
+<li><p><a href="http://brucechen.gitcafe.io/#Books%20Reading" target="_blank" rel="external">BruceChen’s Wiki</a> —— 编程知识笔记、速查清单。</p>
+</li>
+<li><p><a href="http://blog.jobbole.com/80621/" target="_blank" rel="external">Google技术开发指南：给大学生自学的建议</a></p>
+</li>
+<li><p><a href="https://github.com/braydie/HowToBeAProgrammer" target="_blank" rel="external">How to be a Programmer</a></p>
 </li>
 <li><p><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books-zh.md" target="_blank" rel="external">Free Programming Books</a></p>
-<p>  免费编程书籍。</p>
 </li>
-<li><p><a href="http://daichuanqing.com/index.php/share" target="_blank" rel="external">学习资料 | 晓生</a></p>
-<p>  用户体验、产品设计。</p>
+<li><p><a href="http://www.ccs.neu.edu/home/matthias/HtDP2e/index.html" target="_blank" rel="external">How to Design Programs</a></p>
 </li>
-<li><p><a href="http://www.shanbay.com/" target="_blank" rel="external">扇贝英语</a></p>
-<p>  一整套学习英语的系列App服务。</p>
+<li><p><a href="https://cnodejs.org/topic/551200e6d792542a29789a43" target="_blank" rel="external">深入浅出 Node.js 读书笔记</a></p>
 </li>
-<li><p><a href="http://open.163.com/" target="_blank" rel="external">网易公开课</a></p>
-<p>  国内最好的公开课平台，包含TED、Coursera、可汗学院的翻译视频。<br><br></p>
+<li><p><a href="http://songshuhui.net/archives/tag/%E8%AE%A1%E7%AE%97%E7%9A%84%E6%9E%81%E9%99%90" target="_blank" rel="external">计算的极限 系列文章</a></p>
+</li>
+<li><p><a href="http://www.jianshu.com/p/a70098a94d18?utm_campaign=hugo&amp;utm_medium=reader_share&amp;utm_content=note&amp;utm_source=weibo" target="_blank" rel="external">GO语言零基础入门资料整理</a></p>
 </li>
 </ul>
-<h3 id="Blogs_博客"><strong>Blogs 博客</strong></h3><ul>
-<li><p><a href="http://blogwall.us/" target="_blank" rel="external">程序员博客墙</a></p>
-<p>  优秀程序员的个人博客索引。</p>
+<p><br></p>
+<h3 id="Web_Dev_开发"><strong>Web Dev 开发</strong></h3><ul>
+<li><p><a href="http://openresty.org/download/agentzh-nginx-tutorials-zhcn.html" target="_blank" rel="external">agentzh 的 Nginx 教程</a></p>
 </li>
-<li><p><a href="http://lucida.me/" target="_blank" rel="external">Lucida</a></p>
-<p>  Life Love Tech. 移动开发，编程感悟。<br><br></p>
+<li><p><a href="https://www.giuem.com/chrome-devtools/" target="_blank" rel="external">Chrome 开发者工具教程</a></p>
 </li>
-</ul>
-<h3 id="Tools_工具"><strong>Tools 工具</strong></h3><ul>
-<li><p><a href="http://www.findmima.com/" target="_blank" rel="external">FIND密码网</a></p>
-<p>  社工库。</p>
+<li><p><a href="https://www.zhihu.com/question/26339902" target="_blank" rel="external">有哪些好用的前端开发软件？</a></p>
 </li>
-<li><p><a href="https://portal.shadowsocks.com/" target="_blank" rel="external">Shadowsocks</a></p>
-<p>  “跨越长城” 的神兵利器。</p>
+<li><p><a href="http://segmentfault.com/a/1190000000697532" target="_blank" rel="external">HTML 中 Head 头结构</a></p>
 </li>
-<li><p><a href="http://www.cup.com/staticip/?=panda" target="_blank" rel="external">Japan V_P_N</a></p>
-<p>  备选方案。<br><br></p>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=213790057&amp;idx=2&amp;sn=06296c4e3b67fa227b703c6d31a23b3e&amp;scene=5&amp;srcid=0925aDg44vjLgZvCaRNTmrKZ#rd" target="_blank" rel="external">TCP/IP 协议详解内容总结</a></p>
+</li>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=213726432&amp;idx=1&amp;sn=337e2442c23c811cb96bd8315e3d4916&amp;scene=5&amp;srcid=09208rmQfdovBALp0y138PM3#rd" target="_blank" rel="external">TCP/IP 协议栈及 OSI 参考模型详解</a></p>
+</li>
+<li><p><a href="http://blog.sina.com.cn/s/blog_e59371cc0102vg4n.html" target="_blank" rel="external">Linux TCP 队列相关参数的总结</a></p>
 </li>
 </ul>
-<h3 id="Relax_休闲"><strong>Relax 休闲</strong></h3><ul>
-<li><p><a href="http://sspai.com/" target="_blank" rel="external">少数派</a></p>
-<p>  高质量应用推荐媒体。<br><br></p>
+<p><br></p>
+<h3 id="Architecture_架构"><strong>Architecture 架构</strong></h3><ul>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5NDMwNjMzNA==&amp;mid=402417924&amp;idx=1&amp;sn=967ecd1fae2f9acb4356607222c94b3b&amp;scene=1&amp;srcid=1230UbcV9DsQeIqLXOuH5QUa#rd" target="_blank" rel="external">千万级规模高性能、高并发的网络架构经验</a> —— 微博平台架构。</p>
+</li>
+<li><p><a href="https://www.zhihu.com/question/29779732" target="_blank" rel="external">端游、手游服务端常用的架构是什么样的？</a></p>
+</li>
+<li><p><a href="https://www.zhihu.com/question/20790576" target="_blank" rel="external">大公司里怎样开发和部署前端代码？</a></p>
+</li>
+<li><p><a href="http://coolshell.cn/articles/8961.html" target="_blank" rel="external">从面向对象的设计模式看软件设计</a></p>
+</li>
+<li><p><a href="http://www.cnblogs.com/xing901022/p/4425124.html" target="_blank" rel="external">高扩展性网站的50条原则</a></p>
+</li>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5NTg2NTU0Ng==&amp;mid=210816035&amp;idx=3&amp;sn=7ad903e7be165e2c616c20fa2f148f63&amp;scene=1#rd" target="_blank" rel="external">架构腐化之谜</a></p>
 </li>
 </ul>
+<p><br></p>
+<h3 id="Linux"><strong>Linux</strong></h3><ul>
+<li><p><a href="https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard" target="_blank" rel="external">Filesystem Hierarchy Standard</a> —— 各目录用途。</p>
+</li>
+<li><p><a href="https://github.com/jlevy/the-art-of-command-line/blob/master/README.md" target="_blank" rel="external">The Art of Command Line</a> —— 命令行的艺术</p>
+</li>
+<li><p><a href="http://linuxtools-rst.readthedocs.org/zh_CN/latest/index.html" target="_blank" rel="external">Linux 工具快速教程</a></p>
+</li>
+<li><p><a href="http://www.tldp.org/" target="_blank" rel="external">The Linux Documentation Project</a></p>
+</li>
+<li><p><a href="http://x-slam.com/linux_kernel_qss_practice" target="_blank" rel="external">Linux 内核启示说＠实践篇</a></p>
+</li>
+<li><p><a href="http://shell909090.org/blog/archives/2671" target="_blank" rel="external">服务器操作系统的选择</a></p>
+</li>
+<li><p><a href="http://blog.jobbole.com/83212/" target="_blank" rel="external">国外程序员整理的系统管理员资源大全</a> —— <a href="https://github.com/kahun/awesome-sysadmin" target="_blank" rel="external">Awesome Sysadmin</a></p>
+</li>
+<li><p><a href="http://weibo.com/p/1001603847877217662768?mod=zwenzhang" target="_blank" rel="external">Linux 内核 TCP/IP 协议栈 系列文章</a></p>
+</li>
+<li><p><a href="http://blog.sina.com.cn/s/blog_e59371cc0102vg4n.html" target="_blank" rel="external">Linux TCP 队列相关参数的总结</a></p>
+</li>
+<li><p><a href="https://linux.cn/article-5927-1.html" target="_blank" rel="external">FreeBSD 和 Linux 有什么不同？</a></p>
+</li>
+<li><p><a href="http://blog.csdn.net/haoel/article/details/1542340" target="_blank" rel="external">Unix 传奇（上篇）</a>、<a href="http://blog.csdn.net/haoel/article/details/1542353" target="_blank" rel="external">Unix 传奇（下篇）</a></p>
+</li>
+<li><p><a href="http://coolshell.cn/articles/1023.html" target="_blank" rel="external">Unix 40年：昨天，今天和明天</a></p>
+</li>
+<li><p><a href="http://blog.csdn.net/haoel/article/details/1688006" target="_blank" rel="external">Unix 现状与未来</a></p>
+</li>
+</ul>
+<p><br></p>
+<h3 id="Secure_安全"><strong>Secure 安全</strong></h3><ul>
+<li><p><a href="http://drops.wooyun.org/" target="_blank" rel="external">WooYun 知识库</a></p>
+</li>
+<li><p><a href="http://wiki.wooyun.org/" target="_blank" rel="external">WooYun Wiki</a> —— 网络安全。</p>
+</li>
+<li><p><a href="http://www.findmima.com/" target="_blank" rel="external">FIND密码网</a> —— 社工库。</p>
+</li>
+<li><p><a href="https://blog.tonyseek.com/post/introduce-to-xss-and-csrf/" target="_blank" rel="external">总结 XSS 与 CSRF 两种跨站攻击</a></p>
+</li>
+<li><p><a href="https://github.com/evilcos/papers" target="_blank" rel="external">Web 安全入门</a> —— 国内安全专家，<a href="https://github.com/evilcos" target="_blank" rel="external">余弦</a>。</p>
+</li>
+<li><p><a href="http://blog.jobbole.com/61872/" target="_blank" rel="external">加盐密码哈希：如何正确使用</a> —— <a href="https://crackstation.net/hashing-security.htm" target="_blank" rel="external">英文出处</a>。</p>
+</li>
+</ul>
+<p><br></p>
+<h3 id="Career_职业生涯"><strong>Career 职业生涯</strong></h3><ul>
+<li><p><a href="https://www.zhihu.com/question/32039226" target="_blank" rel="external">为什么有些大公司技术弱爆了？</a></p>
+</li>
+<li><p><a href="http://coolshell.cn/articles/4506.html" target="_blank" rel="external">再谈“我是怎么招聘程序员的”（上）</a></p>
+</li>
+<li><p><a href="http://coolshell.cn/articles/4490.html" target="_blank" rel="external">再谈“我是怎么招聘程序员的”（下）</a></p>
+</li>
+<li><p><a href="http://lucida.me/blog/whiteboard-coding-demystified/" target="_blank" rel="external">白板编程浅谈——Why, What, How</a></p>
+</li>
+<li><p><a href="http://blog.jobbole.com/94148/" target="_blank" rel="external">不要自称是程序员，我十多年的 IT 职场总结</a> —— <a href="http://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/" target="_blank" rel="external">英文出处</a>。</p>
+</li>
+<li><p><a href="http://zh.lucida.me/blog/lean-technical-resume/" target="_blank" rel="external">精益技术简历之道——改善技术简历的47条原则</a> —— Google 工程师，<a href="http://lucida.me/" target="_blank" rel="external">Lucida</a>。 </p>
+</li>
+</ul>
+<p><br></p>
+<h3 id="Industry_行业"><strong>Industry 行业</strong></h3><ul>
+<li><p><a href="http://coolshell.cn/articles/5701.html" target="_blank" rel="external">SteveY对Amazon和Google平台的吐槽</a> —— <a href="https://en.wikipedia.org/wiki/Steve_Yegge" target="_blank" rel="external">Steve Yegge</a>。</p>
+</li>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;mid=403155826&amp;idx=1&amp;sn=e4956bccff521a20b7f84f446de0c751&amp;scene=1&amp;srcid=1221RF2fINJ6tweWs2r4CRg9#rd" target="_blank" rel="external">链家全解剖：必须佩服、也必须警惕的巨无霸</a></p>
+</li>
+<li><p><a href="http://coolshell.cn/articles/1295.html" target="_blank" rel="external">科技公司十大最愚蠢的错误</a></p>
+</li>
+<li><p><a href="http://coolshell.cn/articles/5815.html" target="_blank" rel="external">来信，创业和移动互联网</a></p>
+</li>
+<li><p><a href="http://coolshell.cn/articles/17066.html" target="_blank" rel="external">关于移动端的钓鱼式攻击</a></p>
+</li>
+<li><p><a href="http://blog.jobbole.com/89339/" target="_blank" rel="external">老外被中国app惊呆了</a> —— <a href="http://dangrover.com/blog/2014/12/01/chinese-mobile-app-ui-trends.html" target="_blank" rel="external">英文出处</a></p>
+</li>
+<li><p><a href="http://www.chinagfw.org/2015/09/blog-post_8.html" target="_blank" rel="external">History of G_F-W</a> —— <a href="http://www.chinagfw.org/" target="_blank" rel="external">功夫网与番羽_土啬</a>。</p>
+</li>
+<li><p><a href="https://citizenlab.org/2015/04/chinas-great-cannon/" target="_blank" rel="external">China’s Great Cannon</a></p>
+</li>
+</ul>
+<p><br></p>
+<h3 id="Mgt_管理"><strong>Mgt 管理</strong></h3><ul>
+<li><p><a href="http://card.weibo.com/article/h5/s#cid=1001603848245896980234" target="_blank" rel="external">故障之后</a> —— 故障之后，加流程还是改进技术？</p>
+</li>
+<li><p><a href="http://coolshell.cn/articles/10217.html" target="_blank" rel="external">加班与效率</a></p>
+</li>
+<li><p><a href="http://coolshell.cn/articles/11656.html" target="_blank" rel="external">开发团队的效率</a></p>
+</li>
+<li><p><a href="http://www.jianshu.com/p/9bf5fe5012ed" target="_blank" rel="external">产品小团队</a></p>
+</li>
+<li><p><a href="http://coolshell.cn/articles/4951.html" target="_blank" rel="external">软件公司的两种管理方式</a></p>
+</li>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=208891164&amp;idx=1&amp;sn=893d43e516f576917dcb99cfa421a226&amp;scene=5&amp;srcid=3vfJDE1cRf8X4ecZlk7h#rd" target="_blank" rel="external">成功技术领导者10条经验锤炼</a></p>
+</li>
+<li><p><a href="http://weibo.com/p/1001603844701638757947" target="_blank" rel="external">大公司高管做草根创业的几个坑</a></p>
+</li>
+<li><p><a href="https://www.zhihu.com/question/30991569/answer/50763087" target="_blank" rel="external">为什么创业公司开除员工的速度越快越好（fire fast）？</a></p>
+</li>
+</ul>
+<p><br></p>
+<h3 id="Oth_Tools_工具"><strong>Oth Tools 工具</strong></h3><ul>
+<li><p><a href="http://www.jikexueyuan.com/" target="_blank" rel="external">极客学院</a></p>
+</li>
+<li><p><a href="http://www.shanbay.com/" target="_blank" rel="external">扇贝英语</a> —— 一整套学习英语的系列 App 服务。</p>
+</li>
+<li><p><a href="http://open.163.com/" target="_blank" rel="external">网易公开课</a> —— 国内最好的公开课平台，包含 TED、Coursera、可汗学院的翻译视频。</p>
+</li>
+<li><p><a href="https://portal.shadowsocks.com/" target="_blank" rel="external">Shadowsocks</a> —— “跨越长城” 的神兵利器。</p>
+</li>
+<li><p><a href="http://www.cup.com/staticip/?=panda" target="_blank" rel="external">Japan V_P_N</a> —— 番羽_土啬备选方案。</p>
+</li>
+<li><p><a href="http://zhuanlan.zhihu.com/MacTips" target="_blank" rel="external">MacTips</a> —— 专注于分享 Mac 使用经验和技巧。</p>
+</li>
+</ul>
+<p><br></p>
 <h2 id="Articles_文章"><strong>Articles 文章</strong></h2><h3 id="Life_人生"><strong>Life 人生</strong></h3><ul>
-<li><p><a href="https://www.zhihu.com/question/24561532/answer/28240920" target="_blank" rel="external">若一辈子没有赚大钱，当大官，和自己爱的人在一起（哪怕一次），活着能算有意义吗？</a></p>
-<p>  灯塔。</p>
+<li><p><a href="https://www.zhihu.com/question/24561532/answer/28240920" target="_blank" rel="external">若一辈子没有赚大钱，当大官，和自己爱的人在一起（哪怕一次），活着能算有意义吗？</a> —— 灯塔。</p>
 </li>
-<li><p><a href="http://zhuanlan.zhihu.com/xiepanda/19582894" target="_blank" rel="external">为什么长大以后反而不容易快乐？</a></p>
-<p>  You are not the one. You are not special.</p>
+<li><p><a href="http://zhuanlan.zhihu.com/xiepanda/19582894" target="_blank" rel="external">为什么长大以后反而不容易快乐？</a> —— You are not the one. You are not special.</p>
 </li>
-<li><p><a href="http://zhuanlan.zhihu.com/lswlsw/19895904" target="_blank" rel="external">眼前的苟且，也正是诗和远方</a></p>
-<p>  迷茫。</p>
+<li><p><a href="http://zhuanlan.zhihu.com/lswlsw/19895904" target="_blank" rel="external">眼前的苟且，也正是诗和远方</a> —— 迷茫。</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/19988077" target="_blank" rel="external">苦难有什么价值？</a></p>
-<p>  没有价值。</p>
+<li><p><a href="https://www.zhihu.com/question/19988077" target="_blank" rel="external">苦难有什么价值？</a> —— 没有价值。</p>
 </li>
-<li><p><a href="http://www.douban.com/group/topic/36138010/" target="_blank" rel="external">Loser应该知道的6个残酷人生事实</a></p>
-<p>  “这个世界只关心你能给予什么。” &nbsp;—— 《六个可以让你变得更强大的残酷事实》译文。</p>
+<li><p><a href="http://www.douban.com/group/topic/36138010/" target="_blank" rel="external">Loser 应该知道的 6 个残酷人生事实</a></p>
+<p>  “这个世界只关心你能给予什么。” &nbsp;—— 《 六个可以让你变得更强大的残酷事实 》译文。</p>
 </li>
 <li><p><a href="https://www.zhihu.com/question/23721974/answer/25493813" target="_blank" rel="external">你曾经的老师说过的哪句话印象最为深刻，对你影响较大甚至在十多年或更久之后都记在心里？</a></p>
 <p>  我们用“我能做到什么”来判断和定位自己，而别人用“你已经做过什么”来判断和定位你。</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/20773220" target="_blank" rel="external">70 后和 80 后对于刚刚踏入社会的 90 后毕业生有什么建议？</a></p>
-<p>  “如果不能先学着适应环境，就不要妄想改变环境。”</p>
+<li><p><a href="https://www.zhihu.com/question/20773220" target="_blank" rel="external">70 后和 80 后对于刚刚踏入社会的 90 后毕业生有什么建议？</a> —— “如果不能先学着适应环境，就不要妄想改变环境。”</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/35670576/answer/64989492" target="_blank" rel="external">马云的缺陷是什么？</a></p>
-<p>  当年阿里巴巴的“十八罗汉”甘愿跟着马云，并不是因为马云能打鸡血、“忽悠”……</p>
+<li><p><a href="https://www.zhihu.com/question/35670576/answer/64989492" target="_blank" rel="external">马云的缺陷是什么？</a> —— 当年阿里巴巴的“十八罗汉”甘愿跟着马云，并不是因为马云能打鸡血、“忽悠”……</p>
 </li>
-<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzA3OTQ4NDkxOA==&amp;mid=202075659&amp;idx=1&amp;sn=350db3032e8f3dca423ba6b93935e33a&amp;scene=0#rd" target="_blank" rel="external">我们这一代人的困惑</a></p>
-<p>  大部分人的梦想永远都实现不了。</p>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzA3OTQ4NDkxOA==&amp;mid=202075659&amp;idx=1&amp;sn=350db3032e8f3dca423ba6b93935e33a&amp;scene=0#rd" target="_blank" rel="external">我们这一代人的困惑</a> —— 大部分人的梦想永远都实现不了。</p>
 </li>
-<li><p><a href="http://yixi.tv/lecture/177" target="_blank" rel="external">《感谢你给我机会上场》方励的一席演讲</a></p>
-<p>  循着乐趣前行。</p>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5NzExOTE2Ng==&amp;mid=208583700&amp;idx=1&amp;sn=9bb0ea491064b3ffb93e7f24f9fc04a3&amp;scene=5#rd" target="_blank" rel="external">精致的利己主义者和常青藤的绵羊</a> —— 中西。</p>
 </li>
-<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5NzExOTE2Ng==&amp;mid=208583700&amp;idx=1&amp;sn=9bb0ea491064b3ffb93e7f24f9fc04a3&amp;scene=5#rd" target="_blank" rel="external">精致的利己主义者和常青藤的绵羊</a></p>
-<p>  中西。</p>
+<li><p><a href="http://yixi.tv/lecture/177" target="_blank" rel="external">《 感谢你给我机会上场 》方励的一席演讲</a> —— 循着乐趣前行。</p>
 </li>
-<li><p><a href="http://zhuanlan.zhihu.com/happy" target="_blank" rel="external">《幸福课》动机在杭州 的知乎专栏</a></p>
-<p>  平常心。</p>
+<li><p><a href="http://zhuanlan.zhihu.com/happy" target="_blank" rel="external">《 幸福课 》动机在杭州 的知乎专栏</a> —— 平常心。</p>
 </li>
-<li><p><a href="http://zhuanlan.zhihu.com/lswlsw" target="_blank" rel="external">《潜台词》李松蔚 的知乎专栏</a></p>
-<p>  洞悉人心。<br><br></p>
+<li><p><a href="http://zhuanlan.zhihu.com/lswlsw" target="_blank" rel="external">《 潜台词 》李松蔚 的知乎专栏</a> —— 洞悉人心。</p>
 </li>
 </ul>
-<h3 id="Relation_关系"><strong>Relation 关系</strong></h3><ul>
-<li><p><a href="http://zhuanlan.zhihu.com/xinliyushenghuo/19993302" target="_blank" rel="external">本分和情分</a></p>
-<p>  “别人帮你，那是情分，不帮你，那是本分。容不容得下是你的气度，能不能让你容下是我的本事。”</p>
+<p><br></p>
+<h3 id="Rel_关系"><strong>Rel 关系</strong></h3><ul>
+<li><p><a href="http://zhuanlan.zhihu.com/xinliyushenghuo/19993302" target="_blank" rel="external">本分和情分</a> —— “别人帮你，那是情分，不帮你，那是本分。容不容得下是你的气度，能不能让你容下是我的本事。”</p>
 </li>
-<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzI5NzQ1MA==&amp;mid=207716479&amp;idx=1&amp;sn=195e46c808f83f95990bb3aff09a349b&amp;scene=1#rd" target="_blank" rel="external">圈子不同，不必强融</a></p>
-<p>  “怎么样才可以真正地做到不计较呢？强大到让别人计较你。”</p>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzI5NzQ1MA==&amp;mid=207716479&amp;idx=1&amp;sn=195e46c808f83f95990bb3aff09a349b&amp;scene=1#rd" target="_blank" rel="external">圈子不同，不必强融</a> —— “怎么样才可以真正地做到不计较呢？强大到让别人计较你。”</p>
 </li>
 <li><p><a href="http://www.vccoo.com/v/6a28e8" target="_blank" rel="external">孤独让人成瘾（下）：依赖真实的关系</a></p>
 <p>  “交一个真正的朋友是一件很累人的事，但是人生那么长，不累一累，那又该干嘛呢？”</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/22613634/answer/77378235" target="_blank" rel="external">为什么人越长大越孤单？</a></p>
-<p>  自我定型后，想要寻找与我们真正相似的人。</p>
+<li><p><a href="https://www.zhihu.com/question/22613634/answer/77378235" target="_blank" rel="external">为什么人越长大越孤单？</a> —— 自我定型后，想要寻找与我们真正相似的人。</p>
 </li>
-<li><p><a href="http://yue.fm/bg3x" target="_blank" rel="external">不让不够格的“朋友”牵绊前进的脚步</a></p>
-<p>  勿交损友。</p>
+<li><p><a href="http://yue.fm/bg3x" target="_blank" rel="external">不让不够格的“朋友”牵绊前进的脚步</a> —— 勿交损友。</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/27203367" target="_blank" rel="external">如何看待把妹知识？</a></p>
-<p>  成为优秀而真实的自己。</p>
+<li><p><a href="https://www.zhihu.com/question/27203367" target="_blank" rel="external">如何看待把妹知识？</a> —— 成为优秀而真实的自己。</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/23151702" target="_blank" rel="external">男女交往最忌讳什么？</a></p>
-<p>  月亮你要，六便士你还嫌少。</p>
+<li><p><a href="https://www.zhihu.com/question/23151702" target="_blank" rel="external">男女交往最忌讳什么？</a> —— 月亮你要，六便士你还嫌少。</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/26239595" target="_blank" rel="external">在大学里有哪些不错的恋爱建议？</a></p>
-<p>  不强求。</p>
+<li><p><a href="https://www.zhihu.com/question/26239595" target="_blank" rel="external">在大学里有哪些不错的恋爱建议？</a> —— 不强求。</p>
 </li>
 <li><p><a href="https://www.zhihu.com/question/29090643" target="_blank" rel="external">女性年纪大了就不好嫁人了吗？</a></p>
 <p>  如果你自己一个人的时候都搞不定你自己，如果你单身的时候都不能把自己搞的美美的，让你自己过得开心，你觉得你能搞定一个家庭么？你觉得婚姻就会是你的避风港湾了么？</p>
 </li>
-<li><p><a href="http://zhuanlan.zhihu.com/bocai" target="_blank" rel="external">《不想靠谱》 知乎专栏</a></p>
-<p>  两性关系。</p>
+<li><p><a href="http://zhuanlan.zhihu.com/bocai" target="_blank" rel="external">《 不想靠谱 》 知乎专栏</a> —— 两性关系。</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/31280604" target="_blank" rel="external">认为「只有我完美了，别人才会喜欢我」的想法有什么错误，该怎么解决？</a></p>
-<p>  吾生有涯。</p>
+<li><p><a href="https://www.zhihu.com/question/31280604" target="_blank" rel="external">认为「 只有我完美了，别人才会喜欢我 」的想法有什么错误，该怎么解决？</a> —— 吾生有涯。</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/20455039" target="_blank" rel="external">送礼的秘诀是什么？</a></p>
-<p>  “送者心安，受者心欢。”<br><br></p>
+<li><p><a href="https://www.zhihu.com/question/20455039" target="_blank" rel="external">送礼的秘诀是什么？</a> —— “送者心安，受者心欢。”</p>
 </li>
 </ul>
+<p><br></p>
 <h3 id="Think_思维"><strong>Think 思维</strong></h3><ul>
-<li><p><a href="https://www.zhihu.com/question/27283467" target="_blank" rel="external">智商高低是因为思维习惯不同造成的吗？</a></p>
-<p>  思考能力。</p>
+<li><p><a href="https://www.zhihu.com/question/27283467" target="_blank" rel="external">智商高低是因为思维习惯不同造成的吗？</a> —— 思考能力。</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/20416520" target="_blank" rel="external">如何从思维上彻底改变学习模式？</a> </p>
-<p>  实用主义 VS 完美主义。</p>
+<li><p><a href="https://www.zhihu.com/question/20416520" target="_blank" rel="external">如何从思维上彻底改变学习模式？</a> —— 实用主义 VS 完美主义。</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/28626263" target="_blank" rel="external">哪些素质很重要，却是读书学不来的？</a></p>
-<p>  纸上得来终觉浅，绝知此事要躬行。</p>
+<li><p><a href="https://www.zhihu.com/question/28626263" target="_blank" rel="external">哪些素质很重要，却是读书学不来的？</a> —— 纸上得来终觉浅，绝知此事要躬行。</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/21568048/answer/18848977" target="_blank" rel="external">人类为什么会有「雄心壮志」？为何有人「小富即安」，有人有「鸿鹄之志」？</a></p>
-<p>  成就动机 Achievement、亲和动机 Affiliation、影响力动机 power。</p>
+<li><p><a href="https://www.zhihu.com/question/21568048/answer/18848977" target="_blank" rel="external">人类为什么会有「 雄心壮志 」？为何有人「 小富即安 」，有人有「 鸿鹄之志 」？</a> —— 成就动机 Achievement、亲和动机 Affiliation、影响力动机 power。</p>
 </li>
-<li><p><a href="http://zhuanlan.zhihu.com/individual/19777122" target="_blank" rel="external">普通人怎么让自己更努力？(3)</a></p>
-<p>  发掘内心的真实想法…</p>
+<li><p><a href="http://zhuanlan.zhihu.com/individual/19777122" target="_blank" rel="external">普通人怎么让自己更努力？(3)</a> —— 发掘内心的真实想法…</p>
 </li>
-<li><p><a href="http://open.163.com/movie/2015/6/H/4/MAPPMO5L9_MAPPP7FH4.html" target="_blank" rel="external">Larry Smith：你为何不会成就伟业</a></p>
-<p>  庸人的借口。</p>
+<li><p><a href="http://open.163.com/movie/2015/6/H/4/MAPPMO5L9_MAPPP7FH4.html" target="_blank" rel="external">Larry Smith：你为何不会成就伟业</a> —— 庸人的借口。</p>
 </li>
-<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzEzNjI2MA==&amp;mid=206759033&amp;idx=1&amp;sn=84f86dd4e6078c8bd3e84e25ab00e93e&amp;scene=1#rd" target="_blank" rel="external">别让工作拖垮你，最实用的25条时间管理TIPS </a></p>
-<p>  时间管理的目的是为了提高效率，去做更多的工作？</p>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzEzNjI2MA==&amp;mid=206759033&amp;idx=1&amp;sn=84f86dd4e6078c8bd3e84e25ab00e93e&amp;scene=1#rd" target="_blank" rel="external">别让工作拖垮你，最实用的25条时间管理TIPS </a> —— 时间管理的目的是为了提高效率，去做更多的工作？</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/22879746" target="_blank" rel="external">男生有钱到底有多重要？</a></p>
-<p>  “有时候不在于它能带给你什么，而在于它能让你不失去什么”。自立，自尊。</p>
+<li><p><a href="https://www.zhihu.com/question/22879746" target="_blank" rel="external">男生有钱到底有多重要？</a> —— “有时候不在于它能带给你什么，而在于它能让你不失去什么”。自立，自尊。</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/26980854" target="_blank" rel="external">什么是「富人思维」？</a></p>
-<p>  自我投资。善假于物。</p>
+<li><p><a href="https://www.zhihu.com/question/26980854" target="_blank" rel="external">什么是「 富人思维 」？</a> —— 自我投资。善假于物。</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/26980862" target="_blank" rel="external">什么是「穷人思维」？</a></p>
-<p>  短视。金钱 VS 时间成本。</p>
+<li><p><a href="https://www.zhihu.com/question/26980862" target="_blank" rel="external">什么是「 穷人思维 」？</a> —— 短视。金钱 VS 时间成本。</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/38632401" target="_blank" rel="external">有什么知识，你知道后你的世界马上就不一样了？</a></p>
-<p>  不要看对方说了什么，而是思考他为什么说这个。</p>
+<li><p><a href="https://www.zhihu.com/question/38632401" target="_blank" rel="external">有什么知识，你知道后你的世界马上就不一样了？</a> —— 不要看对方说了什么，而是思考他为什么说这个。</p>
 </li>
-<li><p><a href="http://blog.hiddenwangcc.com/sharewithu" target="_blank" rel="external">个人成长理论、工具</a></p>
-<p>  可供参考。<br><br></p>
+<li><p><a href="https://www.zhihu.com/question/38632401/answer/77853819" target="_blank" rel="external">有什么知识，你知道后你的世界马上就不一样了？</a> —— 学好逻辑很有用！</p>
+</li>
+<li><p><a href="http://www.wtoutiao.com/p/pbayZp.html" target="_blank" rel="external">还有什么比揭人伤疤、往伤口撒盐更刺激的事呢?</a> —— 异见。</p>
+</li>
+<li><p><a href="http://www.360doc.com/content/15/0913/11/17262826_498824822.shtml" target="_blank" rel="external">有情调没情怀、有趣味没人情味的知乎社区</a></p>
+</li>
+<li><p><a href="http://blog.hiddenwangcc.com/sharewithu" target="_blank" rel="external">个人成长理论、工具</a> —— 可供参考。</p>
 </li>
 </ul>
+<p><br></p>
 <h3 id="Health_健康"><strong>Health 健康</strong></h3><ul>
-<li><p><a href="https://www.zhihu.com/question/24498231" target="_blank" rel="external">生命真的在于运动么？</a></p>
-<p>  生命在于运动。</p>
+<li><p><a href="https://www.zhihu.com/question/24498231" target="_blank" rel="external">生命真的在于运动么？</a> —— 生命在于运动。</p>
+</li>
+<li><p><a href="https://www.zhihu.com/question/20687290" target="_blank" rel="external">没有锻炼基础的人，如何增肌与减脂？</a> —— 汇总。</p>
+</li>
+<li><p><a href="http://zhuanlan.zhihu.com/oh-hard/19684185" target="_blank" rel="external">什么样的有氧才真让你瘦？</a> —— 高强度间歇有氧，在短时间内将高强度与低强度训练结合。</p>
 </li>
 <li><p><a href="http://zhuanlan.zhihu.com/oh-hard/20273384?utm_campaign=official_account&amp;utm_source=weibo&amp;utm_medium=zhihu&amp;utm_content=zhuanlan" target="_blank" rel="external">练腹肌？你这是在练水桶腰！</a></p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/20078304#answer-7173193" target="_blank" rel="external">22:00-6:00睡觉真的比2:00-10:00更有利健康吗？</a></p>
-<p>  早睡早起。</p>
+<li><p><a href="https://www.zhihu.com/question/20078304#answer-7173193" target="_blank" rel="external">22:00-6:00睡觉真的比2:00-10:00更有利健康吗？</a> —— 早睡早起。</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/27832076" target="_blank" rel="external">大学生或者上班族如何完美解决「早起毁一天」的问题？</a></p>
-<p>  Take it easy.</p>
+<li><p><a href="https://www.zhihu.com/question/27832076" target="_blank" rel="external">大学生或者上班族如何完美解决「早起毁一天」的问题？</a> —— Take it easy.</p>
 </li>
-<li><p><a href="http://chuansong.me/n/1238560" target="_blank" rel="external">跑步（运动）后，到底该不该吃东西？</a></p>
-<p>  运动完吃更好。</p>
+<li><p><a href="http://chuansong.me/n/1238560" target="_blank" rel="external">跑步（运动）后，到底该不该吃东西？</a> —— 运动完吃更好。</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/27579870" target="_blank" rel="external">哪些公认的健康食品其实并非那么健康？为什么？</a></p>
-<p>  沙拉，果汁…</p>
+<li><p><a href="https://www.zhihu.com/question/27579870" target="_blank" rel="external">哪些公认的健康食品其实并非那么健康？为什么？</a> —— 沙拉，果汁…</p>
 </li>
-<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzA5ODUxMjMzMw==&amp;mid=205342438&amp;idx=1&amp;sn=f6b92fd19c172d257ea928aa1e4a9f56&amp;scene=1&amp;srcid=10268XdbmcwIqId5H9CmOuo7#rd" target="_blank" rel="external">你的早餐吃对了吗？我们这次要追根究底…</a></p>
-<p>  起床后半小时尽快进食。</p>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzA5ODUxMjMzMw==&amp;mid=205342438&amp;idx=1&amp;sn=f6b92fd19c172d257ea928aa1e4a9f56&amp;scene=1&amp;srcid=10268XdbmcwIqId5H9CmOuo7#rd" target="_blank" rel="external">你的早餐吃对了吗？我们这次要追根究底…</a> —— 起床后半小时尽快进食。</p>
 </li>
 <li><p><a href="https://www.zhihu.com/question/19785262" target="_blank" rel="external">如何正确地刷牙？</a></p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/21031894" target="_blank" rel="external">洗牙到底安全不安全？</a></p>
-<p>  有益，不贵。</p>
+<li><p><a href="https://www.zhihu.com/question/21031894" target="_blank" rel="external">洗牙到底安全不安全？</a> —— 有益，不贵。</p>
 </li>
 <li><p><a href="https://www.zhihu.com/question/20632901?from=singlemessage&amp;isappinstalled1" target="_blank" rel="external">如何从小到大保护好牙齿？</a></p>
 </li>
-<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5NzA1MTcyMA==&amp;mid=204444629&amp;idx=1&amp;sn=cbab111041ec4302c8faac4aedf55a94&amp;scene=0#rd" target="_blank" rel="external">正确坐姿</a></p>
-<p>  腰椎、颈椎。</p>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5NzA1MTcyMA==&amp;mid=204444629&amp;idx=1&amp;sn=cbab111041ec4302c8faac4aedf55a94&amp;scene=0#rd" target="_blank" rel="external">正确坐姿</a> —— 腰椎、颈椎。</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/19985122" target="_blank" rel="external">怎样纠正成年人驼背、耸肩的体态？</a></p>
-<p>  挺拔。 <br><br></p>
+<li><p><a href="https://www.zhihu.com/question/19985122" target="_blank" rel="external">怎样纠正成年人驼背、耸肩的体态？</a> —— 挺拔。 </p>
 </li>
 </ul>
-<h3 id="English_英语"><strong>English 英语</strong></h3><ul>
-<li><p><a href="http://lucida.me/blog/english-for-programmers/" target="_blank" rel="external">程序员英语学习指引</a></p>
-<p>  “除非你阅读原版书籍和中文书籍一样顺畅，或者翻译书籍信息损失量太大，否则不需要刻意阅读原版。”</p>
+<p><br></p>
+<h3 id="EN_英语"><strong>EN 英语</strong></h3><ul>
+<li><p><a href="http://lucida.me/blog/english-for-programmers/" target="_blank" rel="external">程序员英语学习指引</a> —— “除非你阅读原版书籍和中文书籍一样顺畅，或者翻译书籍信息损失量太大，否则不需要刻意阅读原版。”</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/28640901/answer/63421701" target="_blank" rel="external">单词全认识却看不懂句子怎么办？</a></p>
-<p>  一词多义、语境、词组、语法、文化背景。</p>
+<li><p><a href="https://www.zhihu.com/question/28640901/answer/63421701" target="_blank" rel="external">单词全认识却看不懂句子怎么办？</a> —— 一词多义、语境、词组、语法、文化背景。</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/27702564" target="_blank" rel="external">每天坚持英语学习为什么还是学不好？</a></p>
-<p>  水滴石穿 VS 拼命猛进。</p>
+<li><p><a href="https://www.zhihu.com/question/27702564" target="_blank" rel="external">每天坚持英语学习为什么还是学不好？</a> —— 水滴石穿 VS 拼命猛进。</p>
 </li>
-<li><p><a href="http://www.miaopai.com/show/STmZrQy-nHwvBSpMYET7~Q__.htm" target="_blank" rel="external">BBC 英式英语发音视频教程</a></p>
-<p>  Elegant.</p>
+<li><p><a href="http://www.miaopai.com/show/STmZrQy-nHwvBSpMYET7~Q__.htm" target="_blank" rel="external">BBC 英式英语发音视频教程</a> —— Elegant.</p>
 </li>
-<li><p><a href="http://www.vjianke.com/YM3VH.clip" target="_blank" rel="external">美剧字幕组长讲述她如何练听力</a></p>
-<p>  方法。</p>
+<li><p><a href="http://www.vjianke.com/YM3VH.clip" target="_blank" rel="external">美剧字幕组长讲述她如何练听力</a> —— 方法。</p>
 </li>
-<li><p><a href="https://www.linkedin.com/pulse/39-incorrectly-used-words-can-make-you-look-bad-jeff-haden?trk=eml-b2_content_ecosystem_digest-recommended_articles-186-null&amp;midToken=AQGECgCdtokxPw&amp;fromEmail=fromEmail&amp;ut=2gQ0szrgpahCI1" target="_blank" rel="external">39 Incorrectly Used Words That Can Make You Look Bad</a><br><br></p>
+<li><p><a href="https://www.linkedin.com/pulse/39-incorrectly-used-words-can-make-you-look-bad-jeff-haden?trk=eml-b2_content_ecosystem_digest-recommended_articles-186-null&amp;midToken=AQGECgCdtokxPw&amp;fromEmail=fromEmail&amp;ut=2gQ0szrgpahCI1" target="_blank" rel="external">39 Incorrectly Used Words That Can Make You Look Bad</a></p>
 </li>
 </ul>
+<p><br></p>
 <h3 id="Finance_理财"><strong>Finance 理财</strong></h3><ul>
-<li><p><a href="https://www.zhihu.com/question/22818974" target="_blank" rel="external">普通人如何合理的理财投资，有哪些书可以学习阅读？</a></p>
-<p>  必修课。</p>
+<li><p><a href="https://www.zhihu.com/question/22818974" target="_blank" rel="external">普通人如何合理的理财投资，有哪些书可以学习阅读？</a> —— 必修课。</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/25258679" target="_blank" rel="external">如何看待「钱不是省出来的」这句话？</a></p>
-<p>  “该花的钱一定要花，不该花的钱一定要省。” 然后，要有智慧分辨两者的不同。</p>
+<li><p><a href="https://www.zhihu.com/question/25258679" target="_blank" rel="external">如何看待「 钱不是省出来的 」这句话？</a> —— “该花的钱一定要花，不该花的钱一定要省。” 然后，要有智慧分辨两者的不同。</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/20564224" target="_blank" rel="external">为什么跳槽加薪会比内部调薪要高？</a></p>
-<p>  瞬时市场定价。 <br><br></p>
+<li><p><a href="https://www.zhihu.com/question/20564224" target="_blank" rel="external">为什么跳槽加薪会比内部调薪要高？</a> —— 瞬时市场定价。 </p>
 </li>
 </ul>
+<p><br></p>
 <h3 id="Eat_吃"><strong>Eat 吃</strong></h3><ul>
-<li><p><a href="https://www.zhihu.com/question/30400300" target="_blank" rel="external">北京有哪些深藏不露的餐馆？</a></p>
-<p>  聊以自慰。 <br><br></p>
+<li><p><a href="https://www.zhihu.com/question/30400300" target="_blank" rel="external">北京有哪些深藏不露的餐馆？</a> —— 聊以自慰。 </p>
+</li>
+<li><p><a href="https://www.zhihu.com/question/19803431" target="_blank" rel="external">去香港一定不能错过哪些美食？</a></p>
+</li>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MDE4ODIzMg==&amp;mid=206234405&amp;idx=1&amp;sn=70dfa683c1db46303d18adc6fc6095a2&amp;scene=1#rd" target="_blank" rel="external">2015年中国100最佳餐厅完全榜单</a></p>
 </li>
 </ul>
+<p><br></p>
+<h3 id="Play_玩"><strong>Play 玩</strong></h3><ul>
+<li><a href="https://www.zhihu.com/question/21648404" target="_blank" rel="external">广州有什么「鲜为人知但很有意思」的景点？</a></li>
+</ul>
+<p><br></p>
 <h3 id="Buy_买"><strong>Buy 买</strong></h3><ul>
-<li><p><a href="https://www.zhihu.com/question/38821362" target="_blank" rel="external">有哪些尚未普及却非常好用的东西？</a></p>
-<p>  生活质量。</p>
+<li><p><a href="https://www.zhihu.com/question/38821362" target="_blank" rel="external">有哪些尚未普及却非常好用的东西？</a> —— 生活质量。</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/24023171" target="_blank" rel="external">一个人旅行有哪些必备神器？</a></p>
-<p>  实用。</p>
+<li><p><a href="https://www.zhihu.com/question/24023171" target="_blank" rel="external">一个人旅行有哪些必备神器？</a> —— 实用。</p>
 </li>
-<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5Njk4OTQwMQ==&amp;mid=401415614&amp;idx=1&amp;sn=16d3206bd1e3f502c4635b5348b151d1&amp;scene=1&amp;srcid=1207BJEB4qWQBFhX3Yq0zXH1#rd" target="_blank" rel="external">耳机选购大全：不败家！不白瞎！够用就好？</a></p>
-<p>  实用主义，极简主义。（好用，便携，高性价比） <br><br></p>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5Njk4OTQwMQ==&amp;mid=401415614&amp;idx=1&amp;sn=16d3206bd1e3f502c4635b5348b151d1&amp;scene=1&amp;srcid=1207BJEB4qWQBFhX3Yq0zXH1#rd" target="_blank" rel="external">耳机选购大全：不败家！不白瞎！够用就好？</a> —— 实用主义，极简主义。（好用，便携，高性价比） </p>
 </li>
 </ul>
-<h3 id="Others_其它"><strong>Others 其它</strong></h3><ul>
-<li><p><a href="https://www.zhihu.com/question/20502275" target="_blank" rel="external">如何系统地练字？</a></p>
-<p>  手写的乐趣。</p>
+<p><br></p>
+<h3 id="Oth_杂"><strong>Oth 杂</strong></h3><ul>
+<li><p><a href="https://www.zhihu.com/question/20502275" target="_blank" rel="external">如何系统地练字？</a> —— 手写的乐趣。</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/35814611/answer/65416013" target="_blank" rel="external">KTV不允许带酒水和零食违法不违法？</a></p>
-<p>  合法权益。</p>
+<li><p><a href="https://www.zhihu.com/question/35814611/answer/65416013" target="_blank" rel="external">KTV不允许带酒水和零食违法不违法？</a> —— 合法权益。</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/32039226" target="_blank" rel="external">为什么有些大公司技术弱爆了？</a></p>
-<p>  实用主义。<br><br></p>
+<li><p><a href="https://www.zhihu.com/question/22827881" target="_blank" rel="external">家居中有哪些设计不合理的地方？</a></p>
+</li>
+<li><p><a href="https://www.zhihu.com/question/21603465" target="_blank" rel="external">为什么不从小就向孩子还原社会的残酷？</a></p>
+</li>
+<li><p><a href="https://www.zhihu.com/question/19621705" target="_blank" rel="external">如何对孩子的无理要求说「不」？</a></p>
+</li>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MTIwNTYwMg==&amp;mid=402346946&amp;idx=1&amp;sn=8b2c0e87815358358eff466c25b0836b&amp;scene=5&amp;srcid=1209kGNJ89UQoUCc9M81CNEZ#rd" target="_blank" rel="external">我知道你看过不少神剧，但许多都「抄袭」它 </a></p>
 </li>
 </ul>
+<p><br></p>
 <h2 id="Related_相关"><strong>Related 相关</strong></h2><ul>
 <li><i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;<strong>Bookmarks &nbsp; 书签</strong></li>
 <li><i class="fa fa-gears">&nbsp;</i> <a href="/tools">Tools &nbsp; 利器</a></li>
@@ -593,9 +767,9 @@
     
     </summary>
     
-      <category term="me" scheme="http://icehe.me/tags/me/"/>
+      <category term="read" scheme="http://icehe.me/tags/read/"/>
     
-      <category term="me" scheme="http://icehe.me/categories/me/"/>
+      <category term="read" scheme="http://icehe.me/categories/read/"/>
     
   </entry>
   
@@ -604,7 +778,7 @@
     <link href="http://icehe.me/think/simple/"/>
     <id>http://icehe.me/think/simple/</id>
     <published>2015-12-11T16:00:00.000Z</published>
-    <updated>2015-12-27T08:27:31.000Z</updated>
+    <updated>2016-01-15T12:50:32.000Z</updated>
     <content type="html"><![CDATA[<p><em>PS：慎读，下文只是在重复别人说过的道理罢了。</em></p>
 <h2 id="价值"><strong>价值</strong></h2><p>有的人羽翼太过光辉，<br>让人觉得他们注定是自由的：<br>They will succeed without doubt.</p>
 <p>就算他们没有成功，<br>我也不会对其吝惜赞叹，<br>他们只是时运不济罢了。 <br><br></p>
@@ -685,7 +859,7 @@
     
     </summary>
     
-      <category term="simple" scheme="http://icehe.me/tags/simple/"/>
+      <category term="think" scheme="http://icehe.me/tags/think/"/>
     
       <category term="think" scheme="http://icehe.me/categories/think/"/>
     
@@ -696,12 +870,15 @@
     <link href="http://icehe.me/tools/"/>
     <id>http://icehe.me/tools/</id>
     <published>2015-11-20T16:00:00.000Z</published>
-    <updated>2016-01-11T13:52:33.000Z</updated>
+    <updated>2016-01-15T12:48:10.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li><em>Last Updated on Jan 11, 2016</em></li>
+<li><em>Last Updated on Jan 12, 2016</em></li>
 </ul>
 <p><em>下文斜体文本为补充描述，可略过不读。</em></p>
 <h2 id="Software"><strong>Software</strong></h2><p><em>以下除最后一小节，均为Mac平台下的软件。</em></p>
+<ul>
+<li><em>推荐：<a href="http://sspai.com/" target="_blank" rel="external">少数派</a> —— 高质量 App 推荐媒体，关于 iOS、Mac、硬件。</em></li>
+</ul>
 <h3 id="Common"><strong>Common</strong></h3><ul>
 <li><p><strong><a href="https://www.yinxiang.com/" target="_blank" rel="external">Evernote (Premium)</a></strong></p>
 <p>  第二大脑，知识管理工具。</p>
@@ -721,13 +898,7 @@
 <p>  更习惯用 Chrome 的 Inspect Element 做 Web 的调试，而非 Firebug。</p>
 </li>
 </ul>
-<h3 id="Firefox_Add-ons"><em>Firefox Add-ons</em></h3><ul>
-<li><p><strong><a href="https://adblockplus.org/zh_CN/" target="_blank" rel="external">Adblock Plus</a>、<a href="https://adblockplus.org/zh_CN/elemhidehelper" target="_blank" rel="external">Adblock Plus Elem Hide Helper</a></strong></p>
-<p>  广告过滤。<em>防止追踪、恶意域名，过滤横幅广告、弹窗广告以及视频广告。配合元素隐藏助手使用，可更轻松地建立元素隐藏规则。</em></p>
-</li>
-<li><p><strong><a href="http://flashblock.mozdev.org/" target="_blank" rel="external">Flashblock</a></strong></p>
-<p>  屏蔽所有页面的 Flash 内容的加载；需要时，才点击加载。</p>
-</li>
+<h3 id="Firefox_Add-Ons"><em>Firefox Add-Ons</em></h3><ul>
 <li><p><strong><a href="https://github.com/akhodakivskiy/VimFx" target="_blank" rel="external">VimFX</a></strong></p>
 <p>  使用 Vim 的快捷键去浏览、导航网页，减少使用鼠标的使用，键盘党神器！</p>
 <p>  <em><a href="http://www.vimperator.org/" target="_blank" rel="external">Vimperator</a> 拓展功能太强大，响应速度、稳定性、外观和易用性不如 VimFX。</em></p>
@@ -740,6 +911,15 @@
 </li>
 <li><p><strong><a href="downthemall.net">DownThemAll!</a></strong></p>
 <p>  批量下载工具。功能更强，多线下载，速度更快，非 P2P 下载用它代替迅雷与浏览器默认下载器。</p>
+</li>
+<li><p><strong><a href="https://adblockplus.org/zh_CN/" target="_blank" rel="external">Adblock Plus</a>、<a href="https://adblockplus.org/zh_CN/elemhidehelper" target="_blank" rel="external">Adblock Plus Elem Hide Helper</a></strong></p>
+<p>  广告过滤。<em>防止追踪、恶意域名，过滤横幅广告、弹窗广告以及视频广告。配合元素隐藏助手使用，可更轻松地建立元素隐藏规则。</em></p>
+</li>
+<li><p><strong><a href="http://flashblock.mozdev.org/" target="_blank" rel="external">Flashblock</a></strong></p>
+<p>  屏蔽所有页面的 Flash 内容的加载；需要时，才点击加载。</p>
+</li>
+<li><p><strong><a href="http://www.greasespot.net/" target="_blank" rel="external">Greasemonkey</a></strong></p>
+<p>  使用 JavaScript 脚本自定义网站网页的布局、外观、操作等！有提供<a href="http://wiki.greasespot.net/User_Script_Hosting" target="_blank" rel="external">油猴脚本网站</a>。</p>
 </li>
 <li><p><strong><a href="http://getfoxyproxy.org/" target="_blank" rel="external">FoxyProxy Standard</a></strong></p>
 <p>  代理服务器 与 VPN 的配置管理器。 </p>
@@ -915,6 +1095,8 @@
 <li><p><strong><a href="http://www.macupdate.com/app/mac/29949/gas-mask" target="_blank" rel="external">Gas Mask</a></strong></p>
 <p>  便捷的 Hots 文件修改工具。<em>也是锦上添花的辅助软件，使用频率太低，所以不用。</em></p>
 </li>
+<li><p><em>附文：《 <a href="https://www.zhihu.com/question/27870072" target="_blank" rel="external">OS X 有哪些值得装的小软件？</a> 》</em></p>
+</li>
 </ul>
 <p><br></p>
 <h3 id="iOS"><strong>iOS</strong></h3><ul>
@@ -976,26 +1158,21 @@
 </ul>
 <p><br></p>
 <h3 id="Windows"><strong>Windows</strong></h3><ul>
-<li><p><strong><a href="https://tortoisegit.org/" target="_blank" rel="external">TortoisGit</a></strong></p>
-<p>  便捷好用的 Git 的客户端管理软件。</p>
+<li><p><strong><a href="https://tortoisegit.org/" target="_blank" rel="external">TortoisGit</a></strong> —— 便捷好用的 Git 的客户端管理软件。</p>
 </li>
-<li><p><strong><a href="http://www.telerik.com/fiddler" target="_blank" rel="external">Fiddler</a></strong></p>
-<p>  抓包工具。</p>
+<li><p><strong><a href="http://www.telerik.com/fiddler" target="_blank" rel="external">Fiddler</a></strong> —— <a href="http://m.open-open.com/m/lib/view/1375954572906.html" target="_blank" rel="external">抓包工具</a>。</p>
 </li>
-<li><p><strong><a href="https://www.editplus.com/" target="_blank" rel="external">EditPlus</a></strong></p>
-<p>  功能强大的文本编辑软件。</p>
+<li><p><strong><a href="https://www.editplus.com/" target="_blank" rel="external">EditPlus</a></strong> —— 功能强大的文本编辑软件。</p>
 </li>
-<li><p><strong><a href="http://www.strokesplus.com/" target="_blank" rel="external">StrokesPlus</a></strong></p>
-<p>  强大的全局鼠标手势软件。</p>
+<li><p><strong><a href="http://www.strokesplus.com/" target="_blank" rel="external">StrokesPlus</a></strong> —— <a href="http://bbs.kafan.cn/thread-1410275-1-1.html" target="_blank" rel="external">强大的全局鼠标手势软件</a>。</p>
 </li>
-<li><p><strong><a href="https://www.voidtools.com/" target="_blank" rel="external">Everything</a></strong></p>
-<p>  强大的全局文件检索工具。</p>
+<li><p><strong><a href="https://www.voidtools.com/" target="_blank" rel="external">Everything</a></strong> —— <a href="http://xbeta.info/everything-search-tool.htm" target="_blank" rel="external">强大的全局文件检索工具</a>（ <a href="http://my.oschina.net/alphajay/blog/79431?fromerr=k12K2L1s" target="_blank" rel="external">Q &amp; A</a> ）。</p>
 </li>
-<li><p><strong><a href="http://www.listary.com/" target="_blank" rel="external">Listary Pro</a></strong></p>
-<p>  类似于 Everything，各有优劣。</p>
+<li><p><strong><a href="http://www.listary.com/" target="_blank" rel="external">Listary Pro</a></strong> —— <a href="http://www.iplaysoft.com/listary.html" target="_blank" rel="external">类似于 Everything，各有优劣</a>。</p>
 </li>
-<li><p><strong><a href="https://autohotkey.com/" target="_blank" rel="external">AutoHotkey</a></strong></p>
-<p>  全局快捷键设置工具。</p>
+<li><p><strong><a href="https://autohotkey.com/" target="_blank" rel="external">AutoHotkey</a></strong> —— <a href="http://xbeta.info/autohotkey-guide-2.htm" target="_blank" rel="external">全局快捷键设置工具</a>。</p>
+</li>
+<li><p><em>附文：《 <a href="http://wsgzao.github.io/post/windows/" target="_blank" rel="external">Windows常用软件推荐</a> 》</em></p>
 </li>
 </ul>
 <p><br></p>
@@ -1039,9 +1216,9 @@
     
     </summary>
     
-      <category term="me" scheme="http://icehe.me/tags/me/"/>
+      <category term="Mac" scheme="http://icehe.me/tags/Mac/"/>
     
-      <category term="me" scheme="http://icehe.me/categories/me/"/>
+      <category term="Mac" scheme="http://icehe.me/categories/Mac/"/>
     
   </entry>
   
@@ -1050,415 +1227,415 @@
     <link href="http://icehe.me/favourites/"/>
     <id>http://icehe.me/favourites/</id>
     <published>2015-11-18T16:00:00.000Z</published>
-    <updated>2016-01-11T12:47:48.000Z</updated>
+    <updated>2016-01-15T12:51:34.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li><em>Last Updated on Jan 11, 2016</em></li>
+<li><em>Last Updated on Jan 12, 2016</em></li>
 </ul>
 <p><em>玩过、看过的之中，最喜欢这些。</em></p>
 <h2 id="Books_书"><strong>Books 书</strong></h2><ul>
-<li><p><strong>国史大纲</strong></p>
+<li><p><strong><a href="http://book.douban.com/subject/1046492/" target="_blank" rel="external">国史大纲</a></strong></p>
 <p>  钱穆，通史。</p>
 </li>
-<li><p><strong>论语新解</strong></p>
+<li><p><strong><a href="http://book.douban.com/subject/6097222/" target="_blank" rel="external">论语新解</a></strong></p>
 <p>  钱穆，儒。</p>
 </li>
-<li><p><strong>中国哲学简史</strong></p>
+<li><p><strong><a href="http://book.douban.com/subject/5253759/" target="_blank" rel="external">中国哲学简史</a></strong></p>
 <p>  冯友兰，哲学。</p>
 </li>
-<li><p><strong>Social Psychology</strong></p>
+<li><p><strong><a href="http://book.douban.com/subject/1476651/" target="_blank" rel="external">Social Psychology</a></strong></p>
 <p>  《社会心理学》，经典教材。</p>
 </li>
-<li><p><strong>Thinking Fast and Slow</strong></p>
+<li><p><strong><a href="http://book.douban.com/subject/10785583/" target="_blank" rel="external">Thinking Fast and Slow</a></strong></p>
 <p>  《思考快与慢》，心理学经典。</p>
 </li>
-<li><p><strong>Predictably Irrational: The Hidden Forces That Shape Our Decisions</strong></p>
+<li><p><strong><a href="http://book.douban.com/subject/4929844/" target="_blank" rel="external">Predictably Irrational: The Hidden Forces That Shape Our Decisions</a></strong></p>
 </li>
-<li><p><strong>The Upside of Irrationality: The Unexpected Benefits of Defying Logic at Work and at Home</strong></p>
+<li><p><strong><a href="http://book.douban.com/subject/5253757/" target="_blank" rel="external">The Upside of Irrationality: The Unexpected Benefits of Defying Logic at Work and at Home</a></strong></p>
 <p>  《怪诞行为学》 1 &amp; 2，心理弱点。</p>
 </li>
-<li><p><strong>Principles of Economics</strong></p>
+<li><p><strong><a href="http://book.douban.com/subject/1138061/" target="_blank" rel="external">Principles of Economics</a></strong></p>
 <p>  《经济学原理》，曼昆。</p>
 </li>
-<li><p><strong>The Seven Habits of Highly Effective People</strong></p>
+<li><p><strong><a href="http://book.douban.com/subject/5325618/" target="_blank" rel="external">The Seven Habits of Highly Effective People</a></strong></p>
 <p>  《高效能人士的7个习惯》，个人成长。</p>
 </li>
-<li><p><strong>知日断舍离</strong></p>
+<li><p><strong><a href="http://book.douban.com/subject/24749465/" target="_blank" rel="external">知日断舍离</a></strong></p>
 <p>  极简主义。</p>
 </li>
-<li><p><strong>奇特的一生</strong></p>
+<li><p><strong><a href="http://book.douban.com/subject/1115353/" target="_blank" rel="external">奇特的一生</a></strong></p>
 <p>  手帐人生。</p>
 </li>
-<li><p><strong>Pomodoro Technique Illustrated: The Easy Way to Do More in Less Time</strong></p>
+<li><p><strong><a href="http://book.douban.com/subject/26099295/" target="_blank" rel="external">Pomodoro Technique Illustrated: The Easy Way to Do More in Less Time</a></strong></p>
 <p>  《番茄工作法》，专注当下。</p>
 </li>
-<li><p><strong>浪潮之巅</strong></p>
+<li><p><strong><a href="http://book.douban.com/subject/24738302/" target="_blank" rel="external">浪潮之巅</a></strong></p>
 <p>  IT历。</p>
 </li>
-<li><p><strong>The Information: A History, A Theory, A Flood</strong></p>
+<li><p><strong><a href="http://book.douban.com/subject/25752043/" target="_blank" rel="external">The Information: A History, A Theory, A Flood</a></strong></p>
 <p>  《信息简史》。（最后一章，信息泛滥之害）</p>
 </li>
-<li><p><strong>A Programmer’s Rantings</strong></p>
+<li><p><strong><a href="http://book.douban.com/subject/25884108/" target="_blank" rel="external">A Programmer’s Rantings</a></strong></p>
 <p>  《程序员的呐喊》，Steve Yegge以幽默、辛辣的口吻， 告诉我们一个资深程序员的独到见解。</p>
 </li>
-<li><p><strong>Design Pattern</strong></p>
+<li><p><strong><a href="http://book.douban.com/subject/1052241/" target="_blank" rel="external">Design Pattern</a></strong></p>
 <p>  《设计模式》。</p>
 </li>
-<li><p><strong>Refactoring : Improving the Design of Existing Code</strong></p>
+<li><p><strong><a href="http://book.douban.com/subject/4262627/" target="_blank" rel="external">Refactoring : Improving the Design of Existing Code</a></strong></p>
 <p>  《重构》。</p>
 </li>
-<li><p><strong>Code Complete : A Practical Handbook of Software Construction</strong></p>
+<li><p><strong><a href="http://book.douban.com/subject/1477390/" target="_blank" rel="external">Code Complete : A Practical Handbook of Software Construction</a></strong></p>
 <p>  《代码大全2》。</p>
 </li>
-<li><p><strong>汇编语言</strong></p>
+<li><p><strong><a href="http://book.douban.com/subject/3037562/" target="_blank" rel="external">汇编语言</a></strong></p>
 </li>
-<li><p><strong>C++ Primer</strong></p>
+<li><p><strong><a href="http://book.douban.com/subject/25708312/" target="_blank" rel="external">C++ Primer</a></strong></p>
 </li>
-<li><p><strong>算法竞赛经典入门</strong></p>
+<li><p><strong><a href="http://book.douban.com/subject/4138920/" target="_blank" rel="external">算法竞赛经典入门</a></strong></p>
 </li>
 <li><p><strong>蔡志忠的漫画</strong></p>
 </li>
 </ul>
 <p><br></p>
 <h2 id="FM_播客"><strong>FM 播客</strong></h2><ul>
-<li><p><strong>飞碟说</strong></p>
+<li><p><strong><a href="http://www.feidieshuo.com/" target="_blank" rel="external">飞碟说</a></strong></p>
 <p>  选取社会热点为话题，用有趣的方式，对各种热点知识进行科普解说的动画脱口秀节目，风格诙谐、重口、无下限。 &nbsp;<em>@喜马拉雅FM</em></p>
 </li>
-<li><p><strong>又一课</strong></p>
+<li><p><strong><a href="http://www.you1ke.com/" target="_blank" rel="external">又一课</a></strong></p>
 <p>  罗辑思维出品，发现有趣的人，看到有趣的事，开拓眼界。 &nbsp;<em>@喜马拉雅FM</em></p>
 </li>
-<li><p><strong>罗辑思维</strong></p>
+<li><p><strong><a href="http://www.luofans.com/" target="_blank" rel="external">罗辑思维</a></strong></p>
 <p>  知识与观点。</p>
 </li>
-<li><p><strong>锵锵三人行</strong></p>
+<li><p><strong><a href="http://phtv.ifeng.com/program/qqsrx/#01e74c9c-c77b-404f-958a-96e513ab1e00" target="_blank" rel="external">锵锵三人行</a></strong></p>
 <p>  独处的日子听，也可以听到高质量的谈话，改善自己的待人接物，拓宽知识与见解。 &nbsp;<em>@凤凰FM</em></p>
 </li>
-<li><p><strong>南都之声</strong></p>
+<li><p><strong><a href="http://diantai.ifeng.com/index.php/public/programnavDetails?pid=83069" target="_blank" rel="external">南都之声</a></strong></p>
 <p>  “有温度的城市生活。” &nbsp;<em>@凤凰FM</em></p>
 </li>
-<li><p><strong>三联听周刊</strong></p>
+<li><p><strong><a href="http://diantai.ifeng.com/index.php/#!/category/1/76316" target="_blank" rel="external">三联听周刊</a></strong></p>
 <p>  “三联生活周刊，一本杂志和他倡导的生活。” &nbsp;<em>@喜马拉雅FM</em></p>
 </li>
-<li><p><strong>凤凰周刊有声故事</strong></p>
+<li><p><strong><a href="http://diantai.ifeng.com/index.php/#!/category/1/65619" target="_blank" rel="external">凤凰周刊有声故事</a></strong></p>
 <p>  政治、经济、外交等专题文章的有声版，“传递影响时代的声音”。 &nbsp;<em>@凤凰FM</em></p>
 </li>
-<li><p><strong>一千零一夜</strong></p>
+<li><p><strong><a href="http://v.baidu.com/show/12190.htm?fr=ala9&amp;ty=26" target="_blank" rel="external">一千零一夜</a></strong></p>
 <p>  梁文道的读书体悟。</p>
 </li>
-<li><p><strong>冬吴相对论</strong> <em>（已停播）</em></p>
+<li><p><strong><a href="http://baike.baidu.com/link?url=5NbvRBuZzEb7ua9GywfrfeEVlbhPa-dnrwE7jnw0Mj9cv_2LWdqdl7_PBOW3bbROb2EKx91H4BHP7f-CJP9pal6ZvdY7Yp3xMdK7-9SKQPC" target="_blank" rel="external">冬吴相对论</a></strong> <em>（已停播）</em></p>
 <p>  谈论时事热点、经济现象，是由正安康健创始人梁冬与21世纪商业评论主编吴伯凡主持的谈话节目。</p>
 </li>
-<li><p><strong>总裁在线</strong> <em>（其播客停更）</em></p>
+<li><p><strong><a href="http://finance.ifeng.com/business/special/zczx108/" target="_blank" rel="external">总裁在线</a></strong> <em>（其播客停更）</em></p>
 <p>  知名企业家、创业者、国企高管的访谈节目。 &nbsp;<em>@凤凰FM</em></p>
 </li>
-<li><p><strong>许川知乎时间</strong></p>
+<li><p><strong><a href="http://www.ximalaya.com/1740592/album/276787" target="_blank" rel="external">许川知乎时间</a></strong></p>
 <p>  刷知乎也还是太浪费时间了，可以听是更好的选择。 &nbsp;<em>@企鹅FM</em></p>
 </li>
-<li><p><strong>口语天天练</strong></p>
+<li><p><strong><a href="http://www.ximalaya.com/17360770/album/305415" target="_blank" rel="external">口语天天练</a></strong></p>
 <p>  将就够用的英语学习类节目，知识密度不高，学习强度低。毕竟听FM都在一心二用的时候，不经意中复习或者学到一个词组短语已经很不错。 &nbsp;<em>@企鹅FM</em></p>
 </li>
-<li><p><strong>充电时间</strong></p>
+<li><p><strong><a href="http://www.ximalaya.com/zhubo/15450066/" target="_blank" rel="external">充电时间</a></strong></p>
 <p>  频道：知乎哲野、专栏精粹、TMT创业者、电商治愈系、文化媒体人、资深管理人、进击的PM、左脑时刻、营销方法论、销售行为学。<em>（Loud News 旗下的系列节目） &nbsp; @喜马拉雅FM</em></p>
 </li>
-<li><p><strong>太医来了</strong></p>
+<li><p><strong><a href="http://ipn.li/taiyilaile/" target="_blank" rel="external">太医来了</a></strong></p>
 <p>  主打健康、饮食、身体、医疗等常识的科普，干货满满，听完收益颇丰。<em>（IPN 旗下播客节目） &nbsp; @Podcasts</em></p>
 </li>
-<li><p><strong>内核恐慌</strong></p>
+<li><p><strong><a href="http://ipn.li/kernelpanic/" target="_blank" rel="external">内核恐慌</a></strong></p>
 <p>  Kernel Panic ，讨论关于软件开发各种话题的谈话节目。<em>（IPN 旗下播客节目） &nbsp; @Podcasts</em></p>
 </li>
 </ul>
 <p><br></p>
-<h2 id="WeChat_Official_Accounts"><strong>WeChat Official Accounts</strong></h2><ul>
+<h2 id="WeChat_OA_公众号"><strong>WeChat OA 公众号</strong></h2><ul>
 <li><p><strong>PHP开发者</strong></p>
 </li>
-<li><p><strong>鹅厂网事</strong></p>
+<li><p><strong><a href="http://chuansong.me/account/tencent_network" target="_blank" rel="external">鹅厂网事</a></strong></p>
 <p>  技术干货。</p>
 </li>
-<li><p><strong>懒人在思考</strong></p>
+<li><p><strong><a href="http://chuansong.me/account/lazy-thought" target="_blank" rel="external">懒人在思考</a></strong></p>
 <p>  网络安全入门。国内安全专家余弦维护。</p>
 </li>
-<li><p><strong>道哥的黑板报</strong></p>
+<li><p><strong><a href="http://www1.taosay.net/" target="_blank" rel="external">道哥的黑板报</a></strong></p>
 <p>  技术杂谈。国内安全专家道哥维护，不定期更新。</p>
 </li>
-<li><p><strong>神秘的程序员们</strong></p>
+<li><p><strong><a href="http://blog.xiqiao.info/category/programmers" target="_blank" rel="external">神秘的程序员们</a></strong></p>
 <p>  女设计师西乔画的漫画，一定能让程序员们会心一笑。</p>
 </li>
 <li><p><strong>吃惑</strong></p>
 <p>  健康饮食、正确健身。</p>
 </li>
-<li><p><strong>幸福课</strong></p>
+<li><p><strong><a href="http://chuansong.me/account/happinessclass" target="_blank" rel="external">幸福课</a></strong></p>
 <p>  心理学。动机在杭州（陈海贤）维护。与<a href="http://zhuanlan.zhihu.com/happy" target="_blank" rel="external">同名知乎专栏</a>同步。</p>
 </li>
-<li><p><strong>李松蔚</strong></p>
+<li><p><strong><a href="http://chuansong.me/account/therapistlsw" target="_blank" rel="external">李松蔚</a></strong></p>
 <p>  洞悉人心。与知乎专栏<a href="http://zhuanlan.zhihu.com/lswlsw" target="_blank" rel="external">《潜台词》</a>同步。</p>
 </li>
-<li><p><strong>有点自卑</strong></p>
+<li><p><strong><a href="http://chuansong.me/account/bocai_zhu" target="_blank" rel="external">有点自卑</a></strong></p>
 <p>  两性情感。</p>
 </li>
-<li><p><strong>杜绍斐</strong></p>
+<li><p><strong><a href="https://www.zhihu.com/people/shaofeidu" target="_blank" rel="external">杜绍斐</a></strong></p>
 <p>  男士穿着、时尚、趣闻。</p>
 </li>
-<li><p><strong>IT老友记</strong></p>
+<li><p><strong><a href="http://chuansong.me/account/itlaoyou-com" target="_blank" rel="external">IT老友记</a></strong></p>
 <p>  每日IT业简讯。</p>
 </li>
-<li><p><strong>吴晓波频道</strong></p>
+<li><p><strong><a href="http://chuansong.me/account/gh_b09cb640f644" target="_blank" rel="external">吴晓波频道</a></strong></p>
 <p>  财经见解，趣商业。</p>
 </li>
 </ul>
 <p><br></p>
 <h2 id="TV_Drama_电视剧"><strong>TV Drama 电视剧</strong></h2><ul>
-<li><p><strong>半泽直树</strong></p>
+<li><p><strong><a href="https://movie.douban.com/subject/24697949/" target="_blank" rel="external">半泽直树</a></strong></p>
 <p>  复仇，弱肉强食。</p>
 </li>
-<li><p><strong>最完美的离婚</strong></p>
+<li><p><strong><a href="https://movie.douban.com/subject_search?search_text=%E6%9C%80%E5%AE%8C%E7%BE%8E%E7%9A%84%E7%A6%BB%E5%A9%9A&amp;cat=1002" target="_blank" rel="external">最完美的离婚</a></strong></p>
 <p>  生活。</p>
 </li>
-<li><p><strong>Legal High</strong></p>
+<li><p><strong><a href="https://movie.douban.com/subject_search?search_text=Legal+High&amp;cat=1002" target="_blank" rel="external">Legal High</a></strong></p>
 <p>  法与情。</p>
 </li>
-<li><p><strong>Black Mirror</strong></p>
+<li><p><strong><a href="https://movie.douban.com/subject_search?search_text=Black+Mirror&amp;cat=1002" target="_blank" rel="external">Black Mirror</a></strong></p>
 <p>  《黑镜》，警世。</p>
 </li>
-<li><p><strong>Game of Thrones</strong></p>
+<li><p><strong><a href="https://movie.douban.com/subject_search?search_text=Game+of+Thrones&amp;cat=1002" target="_blank" rel="external">Game of Thrones</a></strong></p>
 <p>  《权力的游戏》，史诗。</p>
 </li>
 </ul>
 <p><br></p>
 <h2 id="Motion_Picture_电影"><strong>Motion Picture 电影</strong></h2><ul>
-<li><p><strong>夏洛特烦恼</strong></p>
+<li><p><strong><a href="https://movie.douban.com/subject/25964071/" target="_blank" rel="external">夏洛特烦恼</a></strong></p>
 <p>  凡人的梦。</p>
 </li>
-<li><p><strong>Léon</strong></p>
+<li><p><strong><a href="https://movie.douban.com/subject/1295644/" target="_blank" rel="external">Léon</a></strong></p>
 <p>  《这个杀手不太冷》</p>
 </li>
-<li><p><strong>Inception</strong></p>
+<li><p><strong><a href="https://movie.douban.com/subject/3541415/" target="_blank" rel="external">Inception</a></strong></p>
 <p>  《盗梦空间》，精彩的故事。</p>
 </li>
-<li><p><strong>Fight Club</strong></p>
+<li><p><strong><a href="http://www.imdb.com/title/tt0137523/" target="_blank" rel="external">Fight Club</a></strong></p>
 <p>  《搏击俱乐部》，另一个自我！</p>
 </li>
-<li><p><strong>The Godfather</strong></p>
+<li><p><strong><a href="https://movie.douban.com/subject/1291841/" target="_blank" rel="external">The Godfather</a></strong></p>
 <p>  教父系列，何为男人。</p>
 </li>
-<li><p><strong>Forrest Gump</strong></p>
+<li><p><strong><a href="https://movie.douban.com/subject/1292720/" target="_blank" rel="external">Forrest Gump</a></strong></p>
 <p>  《阿甘正传》，温暖。</p>
 </li>
-<li><p><strong>The Shawshank Redemption</strong></p>
+<li><p><strong><a href="https://movie.douban.com/subject/1292052/" target="_blank" rel="external">The Shawshank Redemption</a></strong></p>
 <p>  《肖申克的救赎》，自由。</p>
 </li>
-<li><p><strong>三傻大闹宝莱坞</strong></p>
+<li><p><strong><a href="https://movie.douban.com/subject/3793023/" target="_blank" rel="external">三傻大闹宝莱坞</a></strong></p>
 <p>  教育，振奋（鸡汤）。</p>
 </li>
-<li><p><strong>未麻的部屋</strong></p>
+<li><p><strong><a href="https://movie.douban.com/subject/1395091/" target="_blank" rel="external">未麻的部屋</a></strong></p>
 <p>  惊悚，精巧的叙事手法。</p>
 </li>
-<li><p><strong>千与千寻</strong></p>
+<li><p><strong><a href="https://movie.douban.com/subject/1291561/" target="_blank" rel="external">千与千寻</a></strong></p>
 <p>  追寻。</p>
 </li>
-<li><p><strong>麦兜故事</strong></p>
+<li><p><strong><a href="https://movie.douban.com/subject/1302476/" target="_blank" rel="external">麦兜故事</a></strong></p>
 <p>  童真。</p>
 </li>
-<li><p><strong>借东西的小人艾缇莉雅</strong></p>
+<li><p><strong><a href="https://movie.douban.com/subject/4202302/" target="_blank" rel="external">借东西的小人艾缇莉雅</a></strong></p>
 <p>  诗意。</p>
 </li>
-<li><p><strong>言叶之庭</strong></p>
+<li><p><strong><a href="https://movie.douban.com/subject/20470074/" target="_blank" rel="external">言叶之庭</a></strong></p>
 <p>  青涩。</p>
 </li>
-<li><p><strong>红猪</strong></p>
+<li><p><strong><a href="https://movie.douban.com/subject/1291838/" target="_blank" rel="external">红猪</a></strong></p>
 <p>  洒脱。</p>
 </li>
-<li><p><strong>夏日大作战</strong></p>
+<li><p><strong><a href="https://movie.douban.com/subject/3908423/" target="_blank" rel="external">夏日大作战</a></strong></p>
 <p>  夏。</p>
 </li>
-<li><p><strong>哈尔的移动城堡</strong></p>
+<li><p><strong><a href="https://movie.douban.com/subject/1308807/" target="_blank" rel="external">哈尔的移动城堡</a></strong></p>
 <p>  绚丽（我的最爱）。</p>
 </li>
 </ul>
 <p><br></p>
 <h2 id="Animate_动画"><strong>Animate 动画</strong></h2><ul>
-<li><p><strong>虫师</strong></p>
+<li><p><strong><a href="https://movie.douban.com/subject/1800597/" target="_blank" rel="external">虫师</a></strong></p>
 <p>  恬静，幽深。</p>
 </li>
-<li><p><strong>棋魂</strong></p>
+<li><p><strong><a href="https://movie.douban.com/subject/1474243/" target="_blank" rel="external">棋魂</a></strong></p>
 <p>  迷上围棋。</p>
 </li>
-<li><p><strong>寄生兽</strong></p>
+<li><p><strong><a href="http://baike.baidu.com/view/15161941.htm?fromtitle=%E5%AF%84%E7%94%9F%E5%85%BD%E7%94%9F%E5%91%BD%E7%9A%84%E5%87%86%E5%88%99&amp;fromid=15149279&amp;type=syn" target="_blank" rel="external">寄生兽</a></strong></p>
 <p>  人性。</p>
 </li>
-<li><p><strong>剑风传奇</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject_search?search_text=%E5%89%91%E9%A3%8E%E4%BC%A0%E5%A5%87&amp;cat=1002" target="_blank" rel="external">剑风传奇</a></strong></p>
 <p>  快意恩仇。</p>
 </li>
-<li><p><strong>一拳超人</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject/26339248/" target="_blank" rel="external">一拳超人</a></strong></p>
 <p>  反英雄主义。</p>
 </li>
-<li><p><strong>进击的巨人</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject_search?search_text=%E7%A0%B4%E5%88%83%E4%B9%8B%E5%89%91&amp;cat=1002" target="_blank" rel="external">进击的巨人</a></strong></p>
 <p>  热血。</p>
 </li>
-<li><p><strong>破刃之剑</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject_search?search_text=%E7%A0%B4%E5%88%83%E4%B9%8B%E5%89%91&amp;cat=1002" target="_blank" rel="external">破刃之剑</a></strong></p>
 <p>  机战。</p>
 </li>
-<li><p><strong>永远之久远</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject_search?search_text=%E6%B0%B8%E8%BF%9C%E4%B9%8B%E4%B9%85%E8%BF%9C&amp;cat=1002" target="_blank" rel="external">永远之久远</a></strong></p>
 <p>  异能。</p>
 </li>
-<li><p><strong>叛逆的鲁鲁修</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject_search?search_text=%E5%8F%9B%E9%80%86%E7%9A%84%E9%B2%81%E9%B2%81%E4%BF%AE&amp;cat=1002" target="_blank" rel="external">叛逆的鲁鲁修</a></strong></p>
 <p>  神作！智商、机战、政治、奇幻……</p>
 </li>
-<li><p><strong>高达 Seed &amp; Seed Destiny &amp; OO</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject/1766546/" target="_blank" rel="external">高达 Seed</a> &amp; <a href="http://movie.douban.com/subject/1766551/" target="_blank" rel="external">Seed Destiny</a> &amp; <a href="http://movie.douban.com/subject/2309838/" target="_blank" rel="external">OO</a></strong></p>
 <p>  神棍偶像剧。</p>
 </li>
-<li><p><strong>高达铁血的奥尔芬斯</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject/26538787/" target="_blank" rel="external">高达铁血的奥尔芬斯</a></strong></p>
 <p>  铁血。</p>
 </li>
-<li><p><strong>魔法少女小圆</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject_search?search_text=%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%86&amp;cat=1002" target="_blank" rel="external">魔法少女小圆</a></strong></p>
 <p>  神作！打破常规的魔女作品，虚渊玄作品！</p>
 </li>
-<li><p><strong>ONE OUTS~nobody wins but I!</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject/3199457/" target="_blank" rel="external">ONE OUTS~nobody wins but I!</a></strong></p>
 <p>  《超智游戏》，渡久地东亚！</p>
 </li>
-<li><p><strong>Fate / Stay Night</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject/1727200/" target="_blank" rel="external">Fate / Stay Night</a></strong></p>
 <p>  爱上Saber！</p>
 </li>
-<li><p><strong>Hunter X Hunter</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject/6748086/" target="_blank" rel="external">Hunter X Hunter</a></strong></p>
 <p>  《全职猎人》，富奸是天才！</p>
 </li>
-<li><p><strong>No Game No Life</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject/24883272/" target="_blank" rel="external">No Game No Life</a></strong></p>
 <p>  《游戏人生》，动漫就是要看得痛快。</p>
 </li>
-<li><p><strong>Guilty Crown</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject/6518736/" target="_blank" rel="external">Guilty Crown</a></strong></p>
 <p>  《罪恶王冠》，楪祈好美，音乐作品美哭。</p>
 </li>
-<li><p><strong>Overload</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject/25972406/" target="_blank" rel="external">Overload</a></strong></p>
 <p>  《不死者之王》，就喜欢装逼毫无违和感的满级主角。</p>
 </li>
-<li><p><strong>EVA</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject_search?search_text=%E6%96%B0%E4%B8%96%E7%BA%AA%E7%A6%8F%E9%9F%B3%E6%88%98%E5%A3%AB&amp;cat=1002" target="_blank" rel="external">EVA</a></strong></p>
 <p>  神作。</p>
 </li>
-<li><p><strong>我的青春恋爱物语果然有问题</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject_search?search_text=%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E6%81%8B%E7%88%B1%E7%89%A9%E8%AF%AD%E6%9E%9C%E7%84%B6%E6%9C%89%E9%97%AE%E9%A2%98&amp;cat=1002" target="_blank" rel="external">我的青春恋爱物语果然有问题</a></strong></p>
 <p>  少年心声。</p>
 </li>
-<li><p><strong>我的妹妹不可能那么可爱</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject_search?search_text=%E6%88%91%E7%9A%84%E5%A6%B9%E5%A6%B9%E4%B8%8D%E5%8F%AF%E8%83%BD%E9%82%A3%E4%B9%88%E5%8F%AF%E7%88%B1&amp;cat=1002" target="_blank" rel="external">我的妹妹不可能那么可爱</a></strong></p>
 <p>  好妹。</p>
 </li>
-<li><p><strong>少女月刊野崎君</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject/25850705/" target="_blank" rel="external">少女月刊野崎君</a></strong></p>
 <p>  恋上漫画家。</p>
 </li>
-<li><p><strong>邻座的怪同学</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject/10759936/" target="_blank" rel="external">邻座的怪同学</a></strong></p>
 <p>  女学霸。</p>
 </li>
-<li><p><strong>交响情人梦</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject_search?search_text=%E4%BA%A4%E5%93%8D%E6%83%85%E4%BA%BA%E6%A2%A6&amp;cat=1002" target="_blank" rel="external">交响情人梦</a></strong></p>
 <p>  野田妹。</p>
 </li>
-<li><p><strong>钱·未来式 / [ C ] THE MONEY OF SOUL AND POSSIBILITY CONTROL</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject/5413681/" target="_blank" rel="external">钱·未来式 / [ C ] THE MONEY OF SOUL AND POSSIBILITY CONTROL</a></strong></p>
 <p>  未来。</p>
 </li>
-<li><p><strong>Angel Beats!</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject/4202090/" target="_blank" rel="external">Angel Beats!</a></strong></p>
 <p>  音乐。</p>
 </li>
-<li><p><strong>花开伊吕波</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject/4935090/" target="_blank" rel="external">花开伊吕波</a></strong></p>
 <p>  小清新。</p>
 </li>
-<li><p><strong>冰菓</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject/10001418/" target="_blank" rel="external">冰菓</a></strong></p>
 <p>  清新。</p>
 </li>
-<li><p><strong>One Piece</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject/1453238/" target="_blank" rel="external">One Piece</a></strong></p>
 <p>  太长弃坑。</p>
 </li>
-<li><p><strong>火影忍者</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject/1427318/" target="_blank" rel="external">火影忍者</a></strong></p>
 <p>  动画入坑作，从只有几集时就开始追了，却没坚持到最后。</p>
 </li>
-<li><p><strong>罗小黑战记</strong></p>
+<li><p><strong><a href="http://movie.douban.com/subject/10477598/" target="_blank" rel="external">罗小黑战记</a></strong></p>
 <p>  萌~</p>
 </li>
 </ul>
 <p><br></p>
 <h2 id="Game_游戏"><strong>Game 游戏</strong></h2><h3 id="iOS"><strong>iOS</strong></h3><ul>
-<li><p><strong>Deemo</strong></p>
+<li><p><strong><a href="https://itunes.apple.com/en/app/deemo/id700637744?mt=8" target="_blank" rel="external">Deemo</a></strong></p>
 <p>  最爱的音乐游戏，最爱曲目：Magnolia 。超喜欢这个游戏工作室：Rayark（台湾）！</p>
 <p>  其它喜爱的曲目：<br>  Nine point nine , Platinum , Utopiosphere , Yubikiri-genman , Invite , Run go run , Pulses , Electron , Walking by the sea , Beyond the Stratus , Angelic sphere , Leviathan , Suspenseful third day , Living in the one , Little corgis dream , The way we were , The red coronation , Knight of firmament , Cream stew , I can not say , Kireigoto , New World , Time forgotten , Reminiscence .</p>
 </li>
-<li><p><strong>Cytus</strong></p>
+<li><p><strong><a href="https://itunes.apple.com/us/app/cytus/id485246824?mt=8" target="_blank" rel="external">Cytus</a></strong></p>
 <p>  雷亚出品，必属精品！</p>
 </li>
-<li><p><strong>Kingdom Rush</strong></p>
+<li><p><strong><a href="https://itunes.apple.com/en/app/kingdom-rush/id516378985?mt=8" target="_blank" rel="external">Kingdom Rush</a></strong></p>
 <p>  《皇家守卫军》，塔防。</p>
 </li>
-<li><p><strong>Framed</strong></p>
+<li><p><strong><a href="https://itunes.apple.com/en/app/framed/id886565180?mt=8" target="_blank" rel="external">Framed</a></strong></p>
 <p>  《致命框架》，解密游戏，玩法新奇，好玩不难。</p>
 </li>
-<li><p><strong>Monument Valley</strong></p>
+<li><p><strong><a href="https://itunes.apple.com/en/app/monument-valley/id728293409?mt=8" target="_blank" rel="external">Monument Valley</a></strong></p>
 <p>  《纪念碑谷》，游戏也可以是艺术品。</p>
 </li>
 </ul>
 <p><br></p>
 <h3 id="PC_桌面"><strong>PC 桌面</strong></h3><ul>
-<li><p><strong>Hearth Stone</strong></p>
+<li><p><strong><a href="http://hs.blizzard.cn/landing" target="_blank" rel="external">Hearth Stone</a></strong></p>
 <p>  《炉石传说》，勾起当年玩“游戏王”的卡牌游戏情结。</p>
 </li>
-<li><p><strong>Heroes of the Storm</strong></p>
+<li><p><strong><a href="http://heroes.blizzard.cn/landing" target="_blank" rel="external">Heroes of the Storm</a></strong></p>
 <p>  《风暴英雄》，有趣易上手。最喜欢跟朋友一起并肩作战、兴奋狂吼的感觉。</p>
 </li>
-<li><p><strong>Warcraft 3</strong></p>
+<li><p><strong><a href="http://us.blizzard.com/en-us/games/war3/" target="_blank" rel="external">Warcraft 3</a></strong></p>
 <p>  《魔兽争霸3 冰封王座》！ 当年多喜欢电子竞技，不过一切都过去， 之后崛起的Dota、Lol什么的就再也没有去玩了。</p>
 </li>
-<li><p><strong>三国志 9</strong></p>
+<li><p><strong><a href="http://www.gamecity.ne.jp/products/products/ee/new/san9/" target="_blank" rel="external">三国志 9</a></strong></p>
 <p>  战略游戏经典之作。</p>
 </li>
 </ul>
 <p><br></p>
-<h3 id="Handheld_Game_掌机"><strong>Handheld Game 掌机</strong></h3><ul>
-<li><p><strong>Pokemon</strong></p>
+<h3 id="Game_Boy_掌机"><strong>Game Boy 掌机</strong></h3><ul>
+<li><p><strong><a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon" target="_blank" rel="external">Pokemon</a></strong></p>
 <p>  《口袋怪物》系列，童年经典。</p>
 </li>
-<li><p><strong>Final Fantasy Tactics A2</strong></p>
+<li><p><strong><a href="http://ffta2.ffsky.cn/" target="_blank" rel="external">Final Fantasy Tactics A2</a></strong></p>
 <p>  《最终幻想战略版》 A &amp; A2 ！ 我最喜欢的游戏类型就是战棋，它就是我心目中的神作！ 最喜欢的最终幻想衍生游戏分支，我重玩次数最多的游戏， 献给这个系列的两作游戏的时间远超700小时。</p>
 </li>
-<li><p><strong>Kingdom Hearts Re Chain Of Memories</strong></p>
+<li><p><strong><a href="http://kingdomhearts.wikia.com/wiki/Kingdom_Hearts_Re:Chain_of_Memories" target="_blank" rel="external">Kingdom Hearts Re Chain Of Memories</a></strong></p>
 <p>  《国王之心：记忆之链》</p>
 </li>
-<li><p><strong>Dissidia Final Fantasy</strong></p>
+<li><p><strong><a href="https://en.wikipedia.org/wiki/Dissidia_Final_Fantasy" target="_blank" rel="external">Dissidia Final Fantasy</a></strong></p>
 <p>  《最终幻想：纷争》</p>
 </li>
-<li><p><strong>逆转裁判 系列</strong></p>
+<li><p><strong><a href="https://zh.wikipedia.org/wiki/%E9%80%86%E8%BD%AC%E8%A3%81%E5%88%A4%E7%B3%BB%E5%88%97" target="_blank" rel="external">逆转裁判 系列</a></strong></p>
 <p>  当之无愧的神作！律师的故事，有趣的玩法， 巧思妙绝、荡气回肠的剧情，让人久久不能平复！ 只通关一次怎么能完全体会其中绝伦的精彩……</p>
 </li>
 </ul>
 <p><br></p>
 <h3 id="Play_Station_2"><strong>Play Station 2</strong></h3><ul>
-<li><p><strong>Gundom Seed &amp; Seed Destiny</strong></p>
+<li><p><strong><a href="https://en.wikipedia.org/wiki/Gundam_Seed:_Rengou_vs._Z.A.F.T." target="_blank" rel="external">Gundom Seed &amp; Seed Destiny</a></strong></p>
 <p>  当年超迷高达。</p>
 </li>
-<li><p><strong>木叶的忍者英雄们 系列</strong></p>
+<li><p><strong><a href="http://www.baike.com/wiki/%E3%80%8A%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85%3A%E6%9C%A8%E5%8F%B6%E8%8B%B1%E9%9B%843%E3%80%8B" target="_blank" rel="external">木叶的忍者英雄们 系列</a></strong></p>
 <p>  我唯一精通的格斗游戏。 从火影只刚出几集动画，就开始追，可惜没追到最后。 有很长一段时期，我曾经是我们那一片街区，这个游戏打得最好的！</p>
 </li>
 </ul>
 <p><br></p>
 <h3 id="红白机"><strong>红白机</strong></h3><ul>
-<li><p><strong>热血系列</strong></p>
+<li><p><strong><a href="https://zh.wikipedia.org/wiki/%E7%86%B1%E8%A1%80%E7%B3%BB%E5%88%97" target="_blank" rel="external">热血系列</a></strong></p>
 <p>  热血硬派、热血高校、热血物语、热血足球、热血篮球、 热血进行曲、热血新记录、热血格斗传说……</p>
 </li>
 </ul>
 <p><br></p>
 <h3 id="Gal_Game"><strong>Gal Game</strong></h3><ul>
-<li><p><strong>沙耶之歌</strong></p>
+<li><p><strong><a href="https://zh.wikipedia.org/wiki/%E6%B2%99%E8%80%B6%E4%B9%8B%E6%AD%8C" target="_blank" rel="external">沙耶之歌</a></strong></p>
 <p>  我的重口Gal入门作，虚渊玄作品。</p>
 </li>
-<li><p><strong>壳之少女</strong></p>
+<li><p><strong><a href="https://zh.wikipedia.org/wiki/%E8%99%9A%E4%B9%8B%E5%B0%91%E5%A5%B3" target="_blank" rel="external">壳之少女</a></strong></p>
 <p>  超文艺、超重口。</p>
 </li>
-<li><p><strong>鬼哭街2011重制版</strong></p>
+<li><p><strong><a href="http://baike.baidu.com/view/8890991.htm" target="_blank" rel="external">鬼哭街2011重制版</a></strong></p>
 <p>  我想像中的现代中式武侠打斗的文字描写范本，虚渊玄作品。</p>
 </li>
 </ul>
 <p><br></p>
 <h3 id="实体游戏"><strong>实体游戏</strong></h3><ul>
-<li><p><strong>游戏王</strong></p>
+<li><p><strong><a href="https://zh.wikipedia.org/wiki/%E9%81%8A%E6%88%B2%E7%8E%8B%E9%9B%86%E6%8F%9B%E7%B4%99%E7%89%8C%E9%81%8A%E6%88%B2" target="_blank" rel="external">游戏王</a></strong></p>
 <p>  挚爱的卡牌游戏，当年花了不少钱去买正版卡牌， 几个损友一起愉快地玩了三年，然后初三戒了， 就再也没有继续下去，几个损友如今也难再见。</p>
 </li>
-<li><p><strong>围棋</strong></p>
+<li><p><strong><a href="https://zh.wikipedia.org/wiki/%E5%9B%B4%E6%A3%8B" target="_blank" rel="external">围棋</a></strong></p>
 <p>  深奥幽玄。 当年买了好几本大部头教材，小学中午不睡觉，在被窝里钻研。</p>
 </li>
-<li><p><strong>四子棋</strong></p>
+<li><p><strong><a href="https://zh.wikipedia.org/wiki/%E5%B1%8F%E9%A2%A8%E5%BC%8F%E5%9B%9B%E5%AD%90%E6%A3%8B" target="_blank" rel="external">四子棋</a></strong></p>
 </li>
-<li><p><strong>跳棋</strong></p>
+<li><p><strong><a href="https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E8%B7%B3%E6%A3%8B" target="_blank" rel="external">跳棋</a></strong></p>
 </li>
 </ul>
 <p><br></p>
@@ -1477,9 +1654,9 @@
     
     </summary>
     
-      <category term="me" scheme="http://icehe.me/tags/me/"/>
+      <category term="read" scheme="http://icehe.me/tags/read/"/>
     
-      <category term="me" scheme="http://icehe.me/categories/me/"/>
+      <category term="read" scheme="http://icehe.me/categories/read/"/>
     
   </entry>
   
@@ -1488,7 +1665,7 @@
     <link href="http://icehe.me/web/build_blog/"/>
     <id>http://icehe.me/web/build_blog/</id>
     <published>2015-11-13T16:00:00.000Z</published>
-    <updated>2015-12-29T10:20:30.000Z</updated>
+    <updated>2016-01-15T12:52:43.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li><em>Last Updated on Dec 27, 2015</em></li>
 </ul>
@@ -1600,9 +1777,7 @@
     
     </summary>
     
-      <category term="Hexo" scheme="http://icehe.me/tags/Hexo/"/>
-    
-      <category term="TECH" scheme="http://icehe.me/tags/TECH/"/>
+      <category term="Web" scheme="http://icehe.me/tags/Web/"/>
     
       <category term="Web" scheme="http://icehe.me/categories/Web/"/>
     
@@ -1613,7 +1788,7 @@
     <link href="http://icehe.me/think/time_mgt/"/>
     <id>http://icehe.me/think/time_mgt/</id>
     <published>2015-11-12T16:00:00.000Z</published>
-    <updated>2015-12-29T10:20:55.000Z</updated>
+    <updated>2016-01-15T12:57:19.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li><em>Last Updated on Dec 27, 2015</em></li>
 </ul>
@@ -1835,7 +2010,7 @@ Monthly
     
       <category term="time mgt" scheme="http://icehe.me/tags/time-mgt/"/>
     
-      <category term="think" scheme="http://icehe.me/categories/think/"/>
+      <category term="time mgt" scheme="http://icehe.me/categories/time-mgt/"/>
     
   </entry>
   
@@ -1844,7 +2019,7 @@ Monthly
     <link href="http://icehe.me/reward/"/>
     <id>http://icehe.me/reward/</id>
     <published>2015-04-01T16:00:00.000Z</published>
-    <updated>2015-12-29T10:18:24.000Z</updated>
+    <updated>2016-01-15T13:08:17.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li><em>Last Updated on Dec 27, 2015</em></li>
 </ul>
@@ -1856,9 +2031,9 @@ Monthly
     
     </summary>
     
-      <category term="donate" scheme="http://icehe.me/tags/donate/"/>
+      <category term="whoami" scheme="http://icehe.me/tags/whoami/"/>
     
-      <category term="Web" scheme="http://icehe.me/categories/Web/"/>
+      <category term="whoami" scheme="http://icehe.me/categories/whoami/"/>
     
   </entry>
   
@@ -1867,7 +2042,7 @@ Monthly
     <link href="http://icehe.me/linux/%5B06%5D%20Linux%20%E9%80%9A%E8%BF%87%20pip%20%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%20Shadowsocks%20-%20CentOS%207/"/>
     <id>http://icehe.me/linux/[06] Linux 通过 pip 安装使用 Shadowsocks - CentOS 7/</id>
     <published>2015-03-30T16:00:00.000Z</published>
-    <updated>2015-12-27T08:26:03.000Z</updated>
+    <updated>2016-01-15T12:54:37.000Z</updated>
     <content type="html"><![CDATA[<div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>Ref From:&nbsp;<a href="http://teddysun.com/339.html" shape="rect" target="_blank">http://teddysun.com/339.html</a></div><div>Original Title:&nbsp;CentOS下pip和shadowsocks的安装使用</div><div><span style="font-size: 12pt; color: rgb(255, 102, 0);"><strong><br clear="none"></strong></span></div><div><span style="font-size: 12pt; color: rgb(255, 102, 0);"><strong>Notice:</strong>&nbsp;需执行的步骤，已用&nbsp;<strong>橙色 标注</strong>。</span></div><div><span style="font-size: 12pt; color: rgb(255, 102, 0);"><br clear="none"></span></div><div style="font-size: 16px;"><div style="font-size: 12px; line-height: 1.5; font-family: &amp;apos;Microsoft YaHei&amp;apos;, SimSun, 宋体, tahoma, arial, sans-serif; background-image: -webkit-linear-gradient(top, rgb(255, 255, 255), rgb(238, 238, 238) 90px, rgb(247, 247, 247) 370px); background-repeat: no-repeat no-repeat;"><div style="margin: 0px 0px 20px; padding: 10px 9px; clear: both; width: 700px; border: 1px solid rgb(204, 204, 204); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; -webkit-box-shadow: rgb(255, 255, 255) 0px 0px 0px 1px inset, rgb(221, 221, 221) 0px 1px 2px; box-shadow: rgb(255, 255, 255) 0px 0px 0px 1px inset, rgb(221, 221, 221) 0px 1px 2px; background-image: -webkit-linear-gradient(bottom, rgb(238, 238, 238) 0%, rgb(255, 255, 255) 40px);"><div style="font-size: 14px; line-height: 2em; word-wrap: break-word; word-break: break-all;"><p style="margin: 0px 0px 14px; padding: 0px;">Pip是安装Python包的工具，提供了安装、列举已安装包、升级以及卸载包的功能。<br clear="none"></p><p style="margin: 0px 0px 14px; padding: 0px;">Pip 是对easy_install的取代，提供了和easy_install相同的查找包的功能，<br clear="none">
 因此可以使用easy_install安装的包也同样可以使用pip进行安装。</p><p style="margin: 0px 0px 14px; padding: 0px;">目前有很多Python程序都是可以直接通过Pip来一键安装了，<br clear="none">
 比如众所周知的Django、Markdown、<strong>Shadowsocks</strong>等。</p><p style="margin: 0px 0px 14px; padding: 0px;"><br clear="none"></p><p style="margin: 0px 0px 14px; padding: 0px;">简要介绍一下Pip的用法（以安装Shadowsocks举例）：<br clear="none"><strong>1. 安装package</strong><br clear="none">
@@ -1937,15 +2112,9 @@ AutoProxy（用于Firefox）、Proxy SwitchySharp（用于Chrome）</p><p style=
     
     </summary>
     
-      <category term="CentOS" scheme="http://icehe.me/tags/CentOS/"/>
-    
       <category term="Shadowsocks" scheme="http://icehe.me/tags/Shadowsocks/"/>
     
-      <category term="TECH" scheme="http://icehe.me/tags/TECH/"/>
-    
-      <category term="pip" scheme="http://icehe.me/tags/pip/"/>
-    
-      <category term="Linux" scheme="http://icehe.me/categories/Linux/"/>
+      <category term="Shadowsocks" scheme="http://icehe.me/categories/Shadowsocks/"/>
     
   </entry>
   
@@ -1954,7 +2123,7 @@ AutoProxy（用于Firefox）、Proxy SwitchySharp（用于Chrome）</p><p style=
     <link href="http://icehe.me/linux/%5B05%5D%20%E8%87%AA%E5%8A%A8%E6%8C%82%E8%BD%BD%20NTFS%20%E6%A0%BC%E5%BC%8F%E7%9A%84%20%E7%A1%AC%E7%9B%98%E5%88%86%E5%8C%BA%20-%20CentOS%207/"/>
     <id>http://icehe.me/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/</id>
     <published>2015-03-28T16:00:00.000Z</published>
-    <updated>2015-12-27T08:26:00.000Z</updated>
+    <updated>2016-01-15T12:31:50.000Z</updated>
     <content type="html"><![CDATA[<en-note><div><div>Ref From: <a shape="rect" href="http://blog.rekfan.com/articles/137.html" target="_blank">http://blog.rekfan.com/articles/137.html</a></div><div>Original Title: CentOS 6.3 自动挂载NTFS格式分区硬盘</div></div><div><br clear="none"></div><div><span style="color: #ff6600;"><strong>Notice: </strong>第一、二步不进行，改为使用以下指令安装ntfs-3g，</span></div><div><strong>             <span style="color: #ff6600;">yum install ntfs-3g</span></strong></div><div><br clear="none">默认情况下，CentOS 6.3不支持NTFS格式的磁盘读写。</div><div>要想把NTFS格式的磁盘挂载到CentOS 6.3，<br clear="none">需要安装第三方的插件ntfs-3g，这里我们采用编译安装插件。<br clear="none"><br clear="none">1. 安装编译器，否则不能成功编译。</div><div><strong>yum install gcc</strong><br clear="none">根据提示按Y安装完成<br clear="none"><br clear="none">2. 安装ntfs-3g</div><div>进入/home目录，把软件下载到此目录<br clear="none"><strong>cd /home</strong></div><div>下载<br clear="none"><strong>wget http://tuxera.com/opensource/ntfs-3g_ntfsprogs-2011.4.12.tgz</strong></div><div>解压</div><div><strong>tar zxvf ntfs-3g_ntfsprogs-2011.4.12.tgz</strong></div><div>进入目录<br clear="none"><strong>cd ntfs-3g_ntfsprogs-2011.4.12</strong></div><div>编译 &amp; 安装</div><div><strong>./configure &amp;&amp; make &amp;&amp; make install</strong></div><div>返回上一级目录<br clear="none"><strong>cd ..</strong></div><div>删除安装程序包<br clear="none"><strong>rm -r -f ntfs-3g_ntfsprogs*</strong></div><div><br clear="none"></div><div>3. 查看使用</div><div># 显示系统磁盘信息<br clear="none"><strong>fdisk -l</strong></div><div>#####################################################################<br clear="none">Disk /dev/sdb: 160.0 GB, 160041885696 bytes<br clear="none">255 heads, 63 sectors/track, 19457 cylinders<br clear="none">Units = cylinders of 16065 * 512 = 8225280 bytes<br clear="none">Sector size (logical/physical): 512 bytes / 512 bytes<br clear="none">I/O size (minimum/optimal): 512 bytes / 512 bytes<br clear="none">Disk identifier: 0x7ab8d700<br clear="none">Device Boot Start End Blocks Id System<br clear="none">/dev/sdb1 * 1 5222 41945683+ 7 HPFS/NTFS<br clear="none">/dev/sdb2 5223 10444 41945715 7 HPFS/NTFS<br clear="none">/dev/sdb3 10445 15666 41945715 7 HPFS/NTFS<br clear="none">/dev/sdb4 15667 19457 30451207+ 7 HPFS/NTFS<br clear="none"> http://blog.rekfan.com/?p=137<br clear="none">###################################################################<br clear="none">以上信息显示的是我的移动硬盘，总共160G,有四个NTFS分区<br clear="none"><br clear="none"><br clear="none">4. 挂载分区</div><div>目标：<br clear="none">/dev/sdb1 分区挂载到 /mnt/win1<br clear="none">/dev/sdb2 分区挂载到 /mnt/win2<br clear="none">/dev/sdb3 分区挂载到 /mnt/win3<br clear="none">/dev/sdb4 分区挂载到 /mnt/win4<br clear="none"></div><div><br clear="none"></div><div>进入/mnt目录，新建四个挂载目录<br clear="none">cd /mnt<br clear="none"><strong>mkdir win1 win2 win3 win4</strong><br clear="none"></div><div><br clear="none"></div><div>挂载<br clear="none"><strong>mount -t ntfs-3g /dev/sdb1 /mnt/win1</strong><br clear="none">mount -t ntfs-3g /dev/sdb2 /mnt/win2<br clear="none">mount -t ntfs-3g /dev/sdb3 /mnt/win3<br clear="none">mount -t ntfs-3g /dev/sdb4 /mnt/win4<br clear="none"><br clear="none">分区挂载完成，现在可以进入/mnt目录下面查看对应的文件夹，即就是你移动硬盘的分区<br clear="none"></div><div><br clear="none"></div><div>卸载命令：<br clear="none"><strong>umount /dev/sdb1</strong><br clear="none">umount /dev/sdb2<br clear="none">umount /dev/sdb3<br clear="none">umount /dev/sdb4<br clear="none"></div><div><br clear="none"></div><div><br clear="none">5. 如果想让系统开机自动挂载移动硬盘，编辑/etc/fstab<br clear="none"></div><div>更改之前先备份</div><div>cp /etc/fstab /etc/fstabbak</div><div>编辑<br clear="none">vi /etc/fstab<br clear="none"><br clear="none">在最后添加以下信息，以读写方式挂载磁盘<br clear="none">/dev/sdb1 /mnt/win1 ntfs-3g defaults 0 0<br clear="none">/dev/sdb2 /mnt/win2 ntfs-3g defaults 0 0<br clear="none">/dev/sdb3 /mnt/win3 ntfs-3g defaults 0 0<br clear="none">/dev/sdb4 /mnt/win4 ntfs-3g defaults 0 0<br clear="none"><br clear="none">:wq!保存，退出<br clear="none"><br clear="none">现在只要重启机器，会自动挂载移动硬盘<br clear="none"></div><div><br clear="none"></div><div><br clear="none"><strong>取消挂载的问题——</strong></div><div>umount的时候出现如下提示：<br clear="none">[root@rekfan.com /]# umount /dev/sdb1<br clear="none">umount: /mnt/upan: device is busy.<br clear="none">        (In some cases useful info about processes that use<br clear="none">         the device is found by lsof(8) or fuser(1))<br clear="none"><br clear="none"><strong>解决方法一</strong><br clear="none">[root@rekfan.com /]# lsof -w /mnt/upan<br clear="none">COMMAND   PID USER   FD   TYPE DEVICE SIZE/OFF    NODE NAME<br clear="none">bash    31761 root  cwd    DIR   8,18     8192 2316326 /mnt/upan/rekfan.com_120526<br clear="none"><br clear="none">[root@rekfan.com /]#<br clear="none">使用 lsof -w /mnt/upan 可以看出，有个命令窗口在/mnt/upan/rekfan.com_120526目录上，</div><div>关闭这个窗口，或退出这个挂载目录，再使用 umount 即可安全退出挂载的设备！<br clear="none"><br clear="none"><strong>解决方法二</strong><br clear="none">[root@rekfan.com /]#fuser -k /mnt/upan<br clear="none">#杀死所有正在访问指定文件的进程</div>
 </en-note>]]></content>
     <summary type="html">
@@ -1964,11 +2133,7 @@ AutoProxy（用于Firefox）、Proxy SwitchySharp（用于Chrome）</p><p style=
     
       <category term="CentOS" scheme="http://icehe.me/tags/CentOS/"/>
     
-      <category term="TECH" scheme="http://icehe.me/tags/TECH/"/>
-    
-      <category term="mount" scheme="http://icehe.me/tags/mount/"/>
-    
-      <category term="Linux" scheme="http://icehe.me/categories/Linux/"/>
+      <category term="CentOS" scheme="http://icehe.me/categories/CentOS/"/>
     
   </entry>
   
@@ -1977,7 +2142,7 @@ AutoProxy（用于Firefox）、Proxy SwitchySharp（用于Chrome）</p><p style=
     <link href="http://icehe.me/linux/%5B04%5D%20%E5%AE%89%E8%A3%85%20CentOS%207%20%E5%90%8E%E5%BF%85%E5%81%9A%E7%9A%84%20%E5%AE%89%E5%85%A8%E9%98%B2%E8%8C%83%E6%8E%AA%E6%96%BD/"/>
     <id>http://icehe.me/linux/[04] 安装 CentOS 7 后必做的 安全防范措施/</id>
     <published>2015-03-27T16:00:00.000Z</published>
-    <updated>2015-12-27T08:25:56.000Z</updated>
+    <updated>2016-01-15T12:56:19.000Z</updated>
     <content type="html"><![CDATA[<div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>Ref From:&nbsp;<a href="http://www.hkpug.net/2014/09/18/%E5%AE%89%E8%A3%9D-centos-7-%E5%BE%8C%E5%BF%85%E5%81%9A%E7%9A%84%E4%B8%83%E4%BB%B6%E4%BA%8B/" shape="rect" target="_blank">http://www.hkpug.net/2014/09/18/%E5%AE%89%E8%A3%9D-centos-7-%E5%BE%8C%E5%BF%85%E5%81%9A%E7%9A%84%E4%B8%83%E4%BB%B6%E4%BA%8B/</a></div><div>Original Title:&nbsp;安裝 CentOS 7 後必做的七件事</div><div><br clear="none"></div><div><span style="color: #ff6600;"><strong>Notice:</strong> 安装桌面版的 CentOS 后，一般为了简便，暂时只用做第三步——</span></div><div><span style="color: #ff6600;">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;<strong>3. 禁止 root 使用 ssh 登入</strong></span></div><div><br clear="none"></div><div style="font-size: 16px;"><div style="text-align: center; font-family: verdana, arial, sans-serif; font-size: 0.9em; color: #333333; background: #eeeeee;"><div style="text-align: center;"><div style="text-align: left; background: #eeeeee;"><table style="font-size: 100%; font-weight: inherit; font-style: inherit; font-variant: inherit;"><tbody><tr><td colspan="1" rowspan="1" style="vertical-align: top;"><div style="word-wrap: break-word; background: #eeeeee;"><div style="margin: 5px 0px 10px;"><a href="http://www.centos.org/" shape="rect" style="color: #0000ff; font-weight: normal; text-decoration: none;" target="_blank">CentOS</a> 是最多人用來運行伺服器的 Linux 版本，最新版本是 CentOS 7。<br clear="none">
 當你興趣勃勃地在一台主機或 VPS 上安裝 CentOS 7 後，首要的工作肯定是加強它的安全性，<br clear="none">
 以下列出的七件事，是你進一步配置系統和安裝其他軟件前必須做的。</div><div style="min-width: 0px; display: block; line-height: 160%;"><h3 style="padding-top: 0px; padding-bottom: 0px; font-size: 24px; line-height: 1.3; margin: 1em 0px 0.2em;">1. 更改 root 密碼</h3><p style="margin: 1em 0px; padding: 0px; display: block;">若果你是自行安裝 CentOS 7 的話，安裝程序會讓你自行設定 root 的密碼。<br clear="none">
@@ -2071,13 +2236,7 @@ AutoProxy（用于Firefox）、Proxy SwitchySharp（用于Chrome）</p><p style=
     
       <category term="CentOS" scheme="http://icehe.me/tags/CentOS/"/>
     
-      <category term="SSH" scheme="http://icehe.me/tags/SSH/"/>
-    
-      <category term="TECH" scheme="http://icehe.me/tags/TECH/"/>
-    
-      <category term="secure" scheme="http://icehe.me/tags/secure/"/>
-    
-      <category term="Linux" scheme="http://icehe.me/categories/Linux/"/>
+      <category term="CentOS" scheme="http://icehe.me/categories/CentOS/"/>
     
   </entry>
   
@@ -2086,7 +2245,7 @@ AutoProxy（用于Firefox）、Proxy SwitchySharp（用于Chrome）</p><p style=
     <link href="http://icehe.me/linux/%5B03%5D%20Update%20Kernel%20%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%20-%20CentOS%207/"/>
     <id>http://icehe.me/linux/[03] Update Kernel 升级内核 - CentOS 7/</id>
     <published>2015-03-26T16:00:00.000Z</published>
-    <updated>2015-12-27T08:25:53.000Z</updated>
+    <updated>2016-01-15T12:31:16.000Z</updated>
     <content type="html"><![CDATA[<en-note><div>Ref From: <a shape="rect" href="http://www.linuxidc.com/Linux/2015-02/112697.htm" target="_blank">http://www.linuxidc.com/Linux/2015-02/112697.htm</a></div><div>Original Title: CentOS 7 升级内核的方法</div><div><br clear="none"></div><div><p>默认<a shape="rect" title="CentOS" href="http://www.linuxidc.com/topicnews.aspx?tid=14" target="_blank">CentOS</a> 7的内核版本是3.10，<br clear="none">升级的原因是为了测试openvswitch的vlan技术，<br clear="none">默认openvswitch的2.3版本是允许CentOS 7默认内核3.10支持，<br clear="none">下面是软件与内核版本对比</p><p>    Open vSwitch  Linux kernel <br clear="none">  ------------  ------------- <br clear="none">      1.4.x      2.6.18 to 3.2 <br clear="none">      1.5.x      2.6.18 to 3.2 <br clear="none">      1.6.x      2.6.18 to 3.2 <br clear="none">      1.7.x      2.6.18 to 3.3 <br clear="none">      1.8.x      2.6.18 to 3.4 <br clear="none">      1.9.x      2.6.18 to 3.8 <br clear="none">      1.10.x    2.6.18 to 3.8 <br clear="none">      1.11.x    2.6.18 to 3.8 <br clear="none">      2.0.x      2.6.32 to 3.10 <br clear="none">      2.1.x      2.6.32 to 3.11 <br clear="none">      2.2.x      2.6.32 to 3.14</p><p>但如何想使用gre与vxlan的话，需要内核3.12以上的<br clear="none">    Protocol    Linux Kernel <br clear="none">  --------    ------------ <br clear="none">    GRE          3.11 <br clear="none">    VXLAN        3.12 <br clear="none">    LISP      &lt;not upstream&gt;<br clear="none">所以得升级内核。</p><p><br clear="none"></p><p>更新前，<strong><span style="text-decoration: underline;">查看 内核版本</span>：</strong></p><p>[root@ip-10-10-17-4 tmp]# <strong>uname -r</strong> <br clear="none">3.10.0-123.el7.x86_64</p><p>目前最新的内核是3.18.3为stable，是2015年1月18日更新，<br clear="none">具体信息查看https://www.kernel.org/ </p><p><span style="text-decoration: underline;"><strong><br clear="none">升级内核 的 方法</strong></span><strong>：</strong></p><p>1. 导入key<br clear="none"><strong>rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org</strong><br clear="none">如果你修改了repo的gpgcheck=0也可以不导入key</p><p>2.安装elrepo的yum源<br clear="none">提醒：在上一篇教程<span style="text-decoration: underline;"> <strong>[02] 用CentOS 7打造合适的科研环境 </strong></span>安装了第三方源后，此步则不需要。<br clear="none"><strong>rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm</strong></p><p>3. 安装内核<br clear="none">在yum的ELRepo源中，有mainline（3.18.3）这个内核版本<br clear="none"><strong>yum --enablerepo=elrepo-kernel install  kernel-ml-devel kernel-ml -y</strong></p><p><br clear="none"></p><p>选择了使用新安装的repo来安装3.18的内核，<br clear="none">如果使用其他的repo，看不到3.18版本内核。</p><p>更新后，查看内核版本：<br clear="none">[root@ip-10-10-17-4 tmp]# <strong>uname -r</strong> <br clear="none">3.10.0-123.el7.x86_64</p><p>重要提醒：目前内核还是默认的版本，<br clear="none">如果在这一步完成后你就直接reboot了，<br clear="none">重启后使用的内核版本还是默认的3.10，不会使用新的3.18。</p><p><br clear="none"></p><p>*4. 想<span style="text-decoration: underline;"><strong>修改启动的顺序</strong></span>，需要进行下一步，查看默认启动顺序：</p><p><strong>awk -F\' '$1==&quot;menuentry &quot; {print $2}' /etc/grub2.cfg</strong> <br clear="none">CentOS Linux (3.18.3-1.el7.elrepo.x86_64) 7 (Core) <br clear="none">CentOS Linux, with Linux 3.10.0-123.el7.x86_64 <br clear="none">CentOS Linux, with Linux 0-rescue-893b160e363b4ec7834719a7f06e67cf</p><p>默认启动的顺序是从0开始，但我们新内核是从头插入（目前位置在0，而3.10的是在1），<br clear="none">所以需要选择0，如果想生效最新的内核，需要：</p><p><strong>grub2-set-default 0</strong></p><p><br clear="none"></p><p>以上问题可以参考<a shape="rect" href="https://access.RedHat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/sec-Customizing_GRUB_2_Menu.html#sec-Changing_the_Default_Boot_Entry" target="_blank">https://access.RedHat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/sec-Customizing_GRUB_2_Menu.html#sec-Changing_the_Default_Boot_Entry</a></p><p>然后reboot重启，使用新的内核，下面是重启后使用的内核版本：<br clear="none">[root@ip-10-10-17-4 ~]# <strong>uname -r</strong> <br clear="none">3.18.3-1.el7.elrepo.x86_64</p><p>完成后内核已经是最新的了。</p></div>
 </en-note>]]></content>
     <summary type="html">
@@ -2096,11 +2255,7 @@ AutoProxy（用于Firefox）、Proxy SwitchySharp（用于Chrome）</p><p style=
     
       <category term="CentOS" scheme="http://icehe.me/tags/CentOS/"/>
     
-      <category term="TECH" scheme="http://icehe.me/tags/TECH/"/>
-    
-      <category term="kernel" scheme="http://icehe.me/tags/kernel/"/>
-    
-      <category term="Linux" scheme="http://icehe.me/categories/Linux/"/>
+      <category term="CentOS" scheme="http://icehe.me/categories/CentOS/"/>
     
   </entry>
   
@@ -2109,7 +2264,7 @@ AutoProxy（用于Firefox）、Proxy SwitchySharp（用于Chrome）</p><p style=
     <link href="http://icehe.me/linux/%5B02%5D%20Config%20System%20Envir%20%E9%85%8D%E7%BD%AE%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%20-%20CentOS%207/"/>
     <id>http://icehe.me/linux/[02] Config System Envir 配置系统环境 - CentOS 7/</id>
     <published>2015-03-25T16:00:00.000Z</published>
-    <updated>2015-12-27T08:25:38.000Z</updated>
+    <updated>2016-01-15T12:31:05.000Z</updated>
     <content type="html"><![CDATA[<div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div style="background-color: #ffffff;"><div style="width: 65.812%; display: block; min-height: 30px; box-sizing: border-box; margin-left: 2.5641%; max-width: 50em; text-align: justify;"><div style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px;">RefFrom:<a href="http://seisman.info/linux-environment-for-seismology-research.html" shape="rect" target="_blank" rel="external">http://seisman.info/linux-environment-for-seismology-research.html</a></div><div style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px;">Original Title:&nbsp;用CentOS 7打造合适的科研环境<br clear="none"></div><div><br></div><div><span style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; text-transform: none; color: rgb(255, 102, 0); font-size: 12pt;"><strong>Notice:&nbsp;</strong>若是按照前篇的文章《</span><font color="#FF6600" face="pt serif, georgia, times new roman, times, serif"><span style="line-height: 26px;">[00] U盘安装 CentOS 7</span></font><span style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none; color: rgb(255, 102, 0); font-size: 12pt; line-height: 1.6em;">》安装CentOS，<br></span><span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 此时应从&nbsp;</span><span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em; text-decoration: underline;"><strong>添加第三方源</strong></span> <span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">开始阅读，</span><span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">到</span> <strong style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">删除多余的kernel</strong> <span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">结束。</span></div><p style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-weight: normal; color: rgb(51, 51, 51); font-size: 16.8px; font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px;"><br clear="none"></p><p style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-weight: normal; color: rgb(51, 51, 51); font-size: 16.8px; font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px;">这篇博文记录了我用CentOS 7搭建<strong style="font-weight: bold;">地震学科研环境</strong>的过程，供我个人在未来重装系统时参考。对于其他地震学科研人员，也许有借鉴意义。</p><p style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-weight: normal; color: rgb(51, 51, 51); font-size: 16.8px; font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px;">阅读须知：</p><ol style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px; list-style: decimal; padding: 0px; margin: 0px 0px 10px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文适用于个人电脑，不适用于服务器；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">不推荐刚接触Linux的人使用CentOS发行版；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文尽量写的浅显易懂，但要求读者掌握Linux基础知识；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文所有操作均在CentOS 7下完成，其他发行版或多或少与CentOS&nbsp;7不同，因而仅供参考；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文所安装的软件纯粹出于个人习惯及喜好，读者应自己判断，按需安装；</li></ol><div style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px;"><h2 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 31.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id44" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">安装CentOS</a><br clear="none"></h2><p style="font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px 20px 0px;">CentOS&nbsp;7的安装与其他Linux发行版的安装差不多，个别地方稍有不同。</p><div><h3 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 24.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id45" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">准备工作</a><br clear="none"></h3><ol style="list-style-type: decimal; padding: 0px; margin: 0px 0px 10px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">准备材料
 <ul style="list-style-type: disc; padding: 0px; margin: 0px 0px 0px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">U盘：容量700M以上，用于制作U盘启动盘，因为在制作启动盘时会格式化U盘，所以U盘内不要包含重要资料</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;"><a href="http://mirrors.ustc.edu.cn/centos/7/isos/x86_64/CentOS-7.0-1406-x86_64-livecd.iso" shape="rect" style="border-bottom-width: thin; border-bottom-style: dashed; border-bottom-color: #a9a9a9; color: #000000; text-decoration: none;" target="_blank">CentOS 7.0 LiveCD&nbsp;ISO镜像文件</a><br clear="none"></li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;"><a href="http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/" shape="rect" style="border-bottom-width: thin; border-bottom-style: dashed; border-bottom-color: #a9a9a9; color: #000000; text-decoration: none;" target="_blank">Universal <span>USB</span> installer</a>：Windows下的U盘启动盘制作工具</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">一个已安装Windows的电脑：用于制作U盘启动盘</li></ul></li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">运行Universal <span>USB</span>&nbsp;installer并制作U盘启动盘</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">将U盘插入计算机，重启，进入BIOS选择从U盘启动，即可进入CentOS的LiveCD</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">进入LiveCD后，点击桌面的“Install to Hard&nbsp;Drive”即可安装</li></ol><p style="font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px 20px 0px;">注：Linux下可以通过<tt style="background-color: #f7f7f9; border-radius: 3px; color: #dd1144; font-family: Monaco,Menlo,Consolas,Courier New,monospace; font-size: 12px; white-space: nowrap; padding: 2px 4px 2px 4px; border: 1px solid #e1e1e8;">dd</tt>命令制作启动盘，但由于对原理不够了解，偶尔会导致制作失败，或制作成功后U盘容量有问题，还是用Windows下的Universal <span>USB</span>&nbsp;installer比较靠谱。</p></div><div><h3 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 24.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id46" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">安装过程</a><br clear="none"></h3><ol style="list-style-type: decimal; padding: 0px; margin: 0px 0px 10px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">选择安装过程中使用的语言，这里应<strong style="font-weight: bold;">使用英语，不要使用汉语</strong>。若安装界面使用汉语，最终安装的系统中会出现两个比较麻烦的问题：
 <ol style="list-style-type: decimal; padding: 0px; margin: 0px 0px 0px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">家目录下的系统文件夹，比如Downloads、Desktop等会以中文表示，这使得在命令行cd变得很麻烦；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">终端中某些字符用英文字体，某些字符用中文字体，效果非常差，需要自己修改终端字体方可；</li></ol></li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">选择区域和城市：Asia和Shanghai</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">键盘使用English(<span>US</span>)而不是English(<span>UK</span>)</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">Hostname可以改也可以不改，我用<tt style="background-color: #f7f7f9; border-radius: 3px; color: #dd1144; font-family: Monaco,Menlo,Consolas,Courier New,monospace; font-size: 12px; white-space: nowrap; padding: 2px 4px 2px 4px; border: 1px solid #e1e1e8;">saturn.geolab</tt></li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">安装的目的地，选择要使用的硬盘，在“Other Storage Options”处选择“I will configure&nbsp;partioning”，即手动分区</li></ol></div><div><h3 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 24.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id47" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">分区</a><br clear="none"></h3><p style="font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px 20px 0px;">CentOS&nbsp;7的分区似乎比较特别，自认为经验很丰富的我在第一次安装CentOS7时还是在分区上耽误了很多时间。后来找到比较合适的分区方法，如下：</p><ul style="list-style-type: disc; padding: 0px; margin: 0px 0px 10px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">点击“Click here to create them&nbsp;automatically”，即让安装程序帮忙分区</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">默认的分区方案是使用LVM，其好处在于“当机器有多块硬盘时，在使用的时候看上去只有一块”</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">默认的文件系统为XFS而不是以前常用的EXT4；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">自动分区完成后，再根据自己的需求，手动修改分区细节
@@ -2314,9 +2469,7 @@ $ sudo ln -s /opt/google/earth/free/googleearth /usr/bin/google-earth
     
       <category term="CentOS" scheme="http://icehe.me/tags/CentOS/"/>
     
-      <category term="TECH" scheme="http://icehe.me/tags/TECH/"/>
-    
-      <category term="Linux" scheme="http://icehe.me/categories/Linux/"/>
+      <category term="CentOS" scheme="http://icehe.me/categories/CentOS/"/>
     
   </entry>
   
@@ -2325,7 +2478,7 @@ $ sudo ln -s /opt/google/earth/free/googleearth /usr/bin/google-earth
     <link href="http://icehe.me/linux/%5B01%5D%20%E6%81%A2%E5%A4%8D%20Windows%20%E7%9A%84%20%E5%BC%80%E6%9C%BA%E5%BC%95%E5%AF%BC%20-%20CentOS%207/"/>
     <id>http://icehe.me/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/</id>
     <published>2015-03-20T16:00:00.000Z</published>
-    <updated>2015-12-27T08:25:42.000Z</updated>
+    <updated>2016-01-15T12:30:51.000Z</updated>
     <content type="html"><![CDATA[<en-note><div><span>Ref From: <a shape="rect" href="http://www.bkjia.com/xtzh/905081.html" target="_blank">http://www.bkjia.com/xtzh/905081.html</a></span></div><div><span>Original Title: CentOS 7安装后恢复Windows引导</span></div><div><br clear="none"></div><div>CentOS 7 正式版，和 REDHAT 7 一样，</div><div>Grub2不能正确引导windows分区。</div><div><br clear="none"></div><div><strong>解决方法：</strong></div><div><br clear="none"></div><div><strong>打开 /boot/grub2/grub.cfg</strong></div><div>在### END /etc/grub.d/00_header ###后，<strong>修改</strong>：</div><div><br clear="none"></div><div><strong>### BEGIN /etc/grub.d/30_os-prober ###</strong></div><div><strong>menuentry 'Windows 8 (loader) (on /dev/sda1)' --class windows --class os $menuentry_id_option 'osprober-chain-140E68540E6830C2' {</strong></div><div><strong>     insmod part_msdos</strong></div><div><strong>     insmod ntfs</strong></div><div><strong>     set root='hd0,msdos1'</strong></div><div><strong>     chainloader +1</strong></div><div><strong>}</strong></div><div><strong>### END /etc/grub.d/30_os-prober ###</strong></div><div><br clear="none"></div><div>重启时，将会出现win8的系统选单</div><div><br clear="none"></div><div><em>注意：set root 后面的参数按照实际情况填写</em></div>
 </en-note>]]></content>
     <summary type="html">
@@ -2335,9 +2488,7 @@ $ sudo ln -s /opt/google/earth/free/googleearth /usr/bin/google-earth
     
       <category term="CentOS" scheme="http://icehe.me/tags/CentOS/"/>
     
-      <category term="TECH" scheme="http://icehe.me/tags/TECH/"/>
-    
-      <category term="Linux" scheme="http://icehe.me/categories/Linux/"/>
+      <category term="CentOS" scheme="http://icehe.me/categories/CentOS/"/>
     
   </entry>
   
@@ -2346,7 +2497,7 @@ $ sudo ln -s /opt/google/earth/free/googleearth /usr/bin/google-earth
     <link href="http://icehe.me/linux/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/"/>
     <id>http://icehe.me/linux/[00] U盘安装 CentOS 7/</id>
     <published>2015-03-18T16:00:00.000Z</published>
-    <updated>2015-12-27T08:25:28.000Z</updated>
+    <updated>2016-01-15T12:30:41.000Z</updated>
     <content type="html"><![CDATA[<div>
 <span style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;">Ref From: <a href="http://www.centoscn.com/image-text/setup/2014/0724/3342.html" shape="rect" target="_blank">http://www.centoscn.com/image-text/setup/2014/0724/3342.html<br clear="none"></a>Original Title: centos 7 u盘安装</div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;">U盘刻录工具<strong>USBWriter</strong>：<a href="http://www.centoscn.com/CentosSoft/tool/2014/0720/3325.html" shape="rect" target="_blank">http://www.centoscn.com/CentosSoft/tool/2014/0720/3325.html</a><br clear="none">
 注意：使用USBWriter刻录完U盘，U盘需要使用恢复工具来恢复！<br clear="none"></div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;">CentOS 官网（自行下载 系统安装包，推荐 everything.iso 版本）：<a href="http://www.centos.org/" shape="rect" target="_blank">http://www.centos.org/</a><br clear="none">
@@ -2364,9 +2515,7 @@ KDE 桌面，过于高度自定义化，上手麻烦。<br clear="none" style="p
     
       <category term="CentOS" scheme="http://icehe.me/tags/CentOS/"/>
     
-      <category term="TECH" scheme="http://icehe.me/tags/TECH/"/>
-    
-      <category term="Linux" scheme="http://icehe.me/categories/Linux/"/>
+      <category term="CentOS" scheme="http://icehe.me/categories/CentOS/"/>
     
   </entry>
   
@@ -2375,7 +2524,7 @@ KDE 桌面，过于高度自定义化，上手麻烦。<br clear="none" style="p
     <link href="http://icehe.me/web/donate/"/>
     <id>http://icehe.me/web/donate/</id>
     <published>2015-03-03T16:00:00.000Z</published>
-    <updated>2015-12-27T08:01:01.000Z</updated>
+    <updated>2016-01-15T12:49:58.000Z</updated>
     <content type="html"><![CDATA[<p>Reference 参考资料：</p>
 <ul>
 <li>《<a href="http://www.zzyyss.com/archives/809" target="_blank" rel="external">博客网站支付宝打赏功能</a>》</li>
@@ -2399,9 +2548,7 @@ KDE 桌面，过于高度自定义化，上手麻烦。<br clear="none" style="p
     
     </summary>
     
-      <category term="TECH" scheme="http://icehe.me/tags/TECH/"/>
-    
-      <category term="donate" scheme="http://icehe.me/tags/donate/"/>
+      <category term="Web" scheme="http://icehe.me/tags/Web/"/>
     
       <category term="Web" scheme="http://icehe.me/categories/Web/"/>
     
@@ -2412,7 +2559,7 @@ KDE 桌面，过于高度自定义化，上手麻烦。<br clear="none" style="p
     <link href="http://icehe.me/read/%E3%80%8A%E5%B9%B8%E7%A6%8F%E8%AF%BE%E3%80%8B%E7%9F%A5%E4%B9%8E%E4%B8%93%E6%A0%8F%20-%20Note/"/>
     <id>http://icehe.me/read/《幸福课》知乎专栏 - Note/</id>
     <published>2015-02-26T16:00:00.000Z</published>
-    <updated>2015-12-27T08:26:20.000Z</updated>
+    <updated>2016-01-15T12:33:58.000Z</updated>
     <content type="html"><![CDATA[<div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><strong>Att - </strong><a title="Attachment 附件" href="http://7vzp67.com1.z0.glb.clouddn.com/%E3%80%8A%E5%B9%B8%E7%A6%8F%E8%AF%BE%E3%80%8B%E7%9F%A5%E4%B9%8E%E4%B8%93%E6%A0%8F%20-%20Note/%E3%80%8A%E5%B9%B8%E7%A6%8F%E8%AF%BE%E3%80%8B%E7%9F%A5%E4%B9%8E%E4%B8%93%E6%A0%8F_%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.rtf" target="_blank">《幸福课》知乎专栏_读书笔记.rtf</a><br><div><br></div><div><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:14.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">《幸福课》知乎专栏<a href="http://zhuanlan.zhihu.com/happy" target="_blank" rel="external"><span style="color:windowtext;text-decoration:none;text-underline:none">http://zhuanlan.zhihu.com/happy</span></a></span></b></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">幸福课一：一条河的上游和下游</span></b></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">我们所要的，并不只是没有心理症状。我们要的，是全心投入的生活、拼搏收获的喜悦、和谐真挚的情感、幸福充实的人生。这才是我们所要追求的东西。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">&nbsp;</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">幸福课四：钱的问题不是钱的问题</span></b></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">支配越多的钱财，你就需要越好的个人素质。越有钱，你越需要明白钱的限度。你要控制自己的欲望，克服无所不能的幻觉，尊重规律、敬畏他人。如果你已经有了这样的素质，巨额的财富对你是锦上添花，可没有这些钱，你也能让自己幸福。如果你没有这样的素质，巨额的财富就可能是雪上加霜，当然没这些钱，你也可能不会幸福。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">&nbsp;</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">幸福课五：欲望的变化和永恒</span></b></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt">电影《大卫<span lang="EN-US">.</span> 戈尔的一生》中有这样一段台词：</span></p><p align="left" style="margin-top:0cm;margin-right:0cm; margin-bottom:10.0pt;margin-left:36.0pt;text-align:left;line-height:115%; mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size:11.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family: 宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt">“</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt">幻想必须超越现实。因为在你到手的一刹那，你没办法也不会再想要它。为了继续存在，欲望的客体必须永远无法达成。你要的不是</span><span lang="EN-US" style="font-size:11.0pt;line-height:115%;mso-ascii-font-family:宋体; mso-fareast-font-family:宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt">“</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt">它</span><span lang="EN-US" style="font-size:11.0pt;line-height:115%; mso-ascii-font-family:宋体;mso-fareast-font-family:宋体;mso-bidi-font-family:宋体; mso-font-kerning:0pt">”</span><span style="font-size:11.0pt;line-height:115%; font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin; mso-bidi-font-family:宋体;mso-font-kerning:0pt">本身，而是对</span><span lang="EN-US" style="font-size:11.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family: 宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt">“</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt">它</span><span lang="EN-US" style="font-size:11.0pt;line-height:115%; mso-ascii-font-family:宋体;mso-fareast-font-family:宋体;mso-bidi-font-family:宋体; mso-font-kerning:0pt">”</span><span style="font-size:11.0pt;line-height:115%; font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin; mso-bidi-font-family:宋体;mso-font-kerning:0pt">的幻想。欲望与疯狂幻想相辅相成。这正是巴斯可所谓的真正的快乐。来自对未来快乐的白日梦，不然我们怎么会说</span><span lang="EN-US" style="font-size:11.0pt;line-height:115%;mso-ascii-font-family:宋体; mso-fareast-font-family:宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt">“</span><b><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt">猎比杀更为有趣</span></b><span lang="EN-US" style="font-size:11.0pt;line-height: 115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体;mso-bidi-font-family: 宋体;mso-font-kerning:0pt">”</span><span style="font-size:11.0pt;line-height: 115%;font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin; mso-bidi-font-family:宋体;mso-font-kerning:0pt">，或</span><span lang="EN-US" style="font-size:11.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family: 宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt">“</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt">小心你许下的愿望</span><span lang="EN-US" style="font-size:11.0pt;line-height:115%; mso-ascii-font-family:宋体;mso-fareast-font-family:宋体;mso-bidi-font-family:宋体; mso-font-kerning:0pt">”</span><span style="font-size:11.0pt;line-height:115%; font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin; mso-bidi-font-family:宋体;mso-font-kerning:0pt">，不是因为你会得到它，而是因为一旦得到它，你再也不会要它。所以拉康给我们的教训是，<b>心想事成的人绝对不会快乐，最符合人性的真谛是，尽力活在你的想法和理想中</b>，不要依据你达成多少欲望来衡量你的生活而该以获得多少真诚、怜悯、理性，甚至自我牺牲的时刻… 来衡量，因为到头来，衡量我们生平轻重的唯一标准，是你如何看待他人的生命。</span><span lang="EN-US" style="font-size: 11.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt">”</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt">我们人类的心理机制，并不是为追求幸福设计的</span><span style="font-size:11.0pt;line-height: 115%;font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">：</span></p><p align="left" style="margin-top:0cm;margin-right:0cm; margin-bottom:10.0pt;margin-left:36.0pt;text-align:left;line-height:115%; mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt">1</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体; mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family: 宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">.</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt">我们拥有通过逻辑和想象预测未来的能力</span><span style="font-size:11.0pt;line-height:115%; font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">。</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt">知道挣更多的钱能买到什么、做坏事会受什么惩罚，却很难预测未来心理状态。</span></p><p align="left" style="margin-top:0cm;margin-right:0cm; margin-bottom:10.0pt;margin-left:36.0pt;text-align:left;line-height:115%; mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt">2.</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体; mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family: 宋体;mso-font-kerning:0pt">喜新厌旧</span><span style="font-size:11.0pt;line-height: 115%;font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">。对自己拥有什么不敏感，而只对变化敏感。但欲望被激起时，你却相信永恒。只能从现在的感受，来窥探未来的影子。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">对于普通人，欲望不是敌人，更像酒肉朋友。既要它提供的动力、乐趣和方向，也要警惕被它带偏。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">更多时候，欲望所指引的，是易倦的消费性体验，<b>而发挥自身优势所产生的创造性体验，才是幸福永不枯竭的来源。</b>（欲望的特性：1.易倦性；2.短暂愉悦性；3.先天性；4.无穷无尽性。）</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">&nbsp;</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">幸福课六：选择什么呢？</span></b></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">看心理距离远的事物，只会看到轮廓。想象给遥远的事披上一件美丽的轻纱。看心理距离近的事物，才会看到细节，那些庸俗无奈的现实。所以张爱玲才会说：</span></u></p><p align="left" style="margin-top:0cm;margin-right:0cm; margin-bottom:10.0pt;margin-left:36.0pt;text-align:left;line-height:115%; mso-layout-grid-align:none;text-autospace:none"><u><span style="font-size:11.0pt; line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">“</span></u><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">每个男人心中都有一朵红玫瑰和一朵白玫瑰。娶了红玫瑰，久而久之，红的变了墙上的一抹蚊子血，白的还是床前明月光；娶了白玫瑰，白的便是衣服上沾的一粒饭黏子，红的却是心口上一颗朱砂痣。</span></u><u><span style="font-size:11.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family: 宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">”</span></u></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">心理距离近了，好处虚渺，坏处突出；心理距离远了，无视坏处，迷恋好处。</span></b></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">如何避免在选择中纠结？：</span></p><p align="left" style="margin-top:0cm;margin-right:0cm; margin-bottom:10.0pt;margin-left:36.0pt;text-align:left;line-height:115%; mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt; line-height:115%;font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font: minor-latin;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language: ZH-CN">我们认为存在一个更正确的选择的假设可能是错的。假设存在着两条不同的道路，分别指向了不同的生活，其中一条比另一条更远、更平、更正确，而我们的任务是找到它。这个假设可能是错的。没有回头路，<b>所谓的另一条路，不过是大脑虚构的别处的世界。</b>我们做选择时，只是在一个起点上，选择往哪里拐。未迈开脚步，就没有另一条道路，更没有哪条路更正确。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">做一个满意选择而非完美选择。完美主义者，花费太多时间选择，花费太少时间享受。当你为选择哪个事物更好而大费心机时，要明白，难以抉择说明它们本身就各有利弊。你要的不是反复的比较，而是想，<b>如果你只有一个选择，它让你满意吗？</b>满意的思维让你带着欣赏去看待自己的选择，而追求完美的思维却让你带着批判去找漏洞。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">PS：通常当你做完选择且无法更改的时候，你的感觉会比没做选择或者做了选择但还能更改的时候更好。一旦选择无法更改，心理免疫系统就开始工作，说服你自己做了做好的决策。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">&nbsp;</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">幸福课七：心理免疫系统</span></b></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">我们的心理并不是为追求幸福设计的，所以持久的快乐才那么难得，但它对承担苦难倒是很在行。苦难会让我们改变想法，而想法会帮助我们适应现实。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">逆境和挫折中的人所自动激发的对糟糕经历的积极态度，</span><span style="font-size:11.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family: 宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">“</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">往好处想</span><span style="font-size:11.0pt; line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">”</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">的思维，不仅不是问题，正是人适应性的体现。心理免疫系统既要敏感到能够抵御困难产生的痛苦，又不能敏感到扭曲现实。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">&nbsp;</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">幸福课八：休闲的快乐和蓬勃的幸福</span></b></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">不应该把幸福等同于简单的快乐。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">快乐有它的局限。首先，快乐更多指向消费而非创造。带来快乐的活动通常消耗时间金钱资源，所以我们的文化对休闲式快乐一直都颇有微词。其次，休闲式的快乐总是容易适应和厌倦。欲壑难填，要维持同样的快乐水平，我们的口味只好变得越来越重，而随时可以满足的欲望，只会让我们空虚。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">穷人的休闲式快乐，往褒里说叫安贫乐道，往贬里说就变不知进取了。富人的休闲式快乐，往褒里说叫生活品味，往贬里说就变玩物丧志了，相比起来，我们的文化更推崇</span></u><u><span style="font-size:11.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family: 宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">“</span></u><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">居安思危</span></u><u><span style="font-size:11.0pt; line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">”</span></u><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">、</span></u><u><span style="font-size:11.0pt; line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">“</span></u><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">未雨绸缪</span></u><u><span style="font-size:11.0pt; line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">”</span></u><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">。</span></u></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">行为遗传学的研究发现，人的快乐水平，由50%左右是先天遗传决定的，10%左右是环境决定的，只有40%是心理因素决定的。也就是说，后天再努力，快乐的操作空间仍有限。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">把幸福等同于快乐，既窄化了幸福的含义，又缩小了幸福提升的空间，实在不是好主意。更重要的，<b>相比于快乐的人生，我们更需要一个充盈、丰富、蓬勃、创造而有意义的人生。</b>这也是哲学家鄙视猪的原因。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">更全面的幸福模型</span></b><b><span style="font-size:11.0pt; line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">——</span></b><b><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">PERMA模型：</span></b></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:10.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">一、积极情绪（Positive Emotion）</span></p><p align="left" style="margin-top:0cm;margin-right:0cm; margin-bottom:10.0pt;margin-left:36.0pt;text-align:left;line-height:115%; mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:10.0pt; line-height:115%;font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font: minor-latin;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language: ZH-CN">积极情绪远不止于快乐</span></b><span style="font-size:10.0pt;line-height:115%; font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">，想想传统文化推崇的</span><span style="font-size:10.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family: 宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">“</span><span style="font-size:10.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">非淡泊无以明志，非宁静无以致远</span><span style="font-size:10.0pt; line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">”</span><span style="font-size:10.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">，相比于外向的激烈的快乐，<b>宁静也是一种积极情绪。</b></span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:10.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">二、专注和投入（Engagement）</span></p><p align="left" style="margin-top:0cm;margin-right:0cm; margin-bottom:10.0pt;margin-left:36.0pt;text-align:left;line-height:115%; mso-layout-grid-align:none;text-autospace:none"><span style="font-size:10.0pt; line-height:115%;font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font: minor-latin;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language: ZH-CN">在从事紧张激烈的活动，如攀岩、打球、舞蹈甚至考试时，我们并没有体会到太多的积极情绪</span><span style="font-size: 10.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">——</span><span style="font-size:10.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">我们压根就没来得及体会什么情绪。活动吸引了我们所有的注意力，专注投入中，我们感受和创造一种特殊的秩序和节奏。一切尽在掌控中，一切完美无缺，活动中我们用尽全力到身体和心灵的肌肉隐隐作痛，结束后却是如此踏实、安详和平静。我们感受到了自身的成长。这是专注的快乐。</span></p><p align="left" style="margin-top:0cm;margin-right:0cm; margin-bottom:10.0pt;margin-left:36.0pt;text-align:left;line-height:115%; mso-layout-grid-align:none;text-autospace:none"><span style="font-size:10.0pt; line-height:115%;font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font: minor-latin;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language: ZH-CN">通常，意识会分配一部分自我用于自我监控，防止自我做出不合常规的事情。越是容易焦虑、抑郁、强迫的人，我们称之为有神经症倾向的人，越是给自我更多的关注，对自我的监管越甚。但当专注于某个活动，用于监视的自我意识，也被投入到了活动中。<b>监视的防御性自我和被监视的自我齐心协力，对挑战性活动做出正确的反应，于是自我消失了。</b>随之消失的，是视觉知觉。我们全力创造一种优美的秩序，还原事物最该有的模样，直到任务结束。没错，这种叫做<b>福流</b>（Flow）的东西在生活中出现的频率，和幸福息息相关。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:10.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">三、人际关系（Relationship）</span></p><p align="left" style="margin-top:0cm;margin-right:0cm; margin-bottom:10.0pt;margin-left:36.0pt;text-align:left;line-height:115%; mso-layout-grid-align:none;text-autospace:none"><span style="font-size:10.0pt; line-height:115%;font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font: minor-latin;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language: ZH-CN">我们都生活在一定的社会关系中，爱和友谊是我们赖以生存的基础，朋友和亲人则承载着的温暖、骄傲、责任和生命意义。人际关系中，既有让我们感激的援手，也有有心无意的伤害。于是，我们学着感恩、宽容和谅解。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:10.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">四、人生意义（Meaning）</span></p><p align="left" style="margin-top:0cm;margin-right:0cm; margin-bottom:10.0pt;margin-left:36.0pt;text-align:left;line-height:115%; mso-layout-grid-align:none;text-autospace:none"><span style="font-size:10.0pt; line-height:115%;font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font: minor-latin;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language: ZH-CN">如果福流是幸福的全部，那么游戏玩家一定很幸福。他们同样也不少</span><span style="font-size:10.0pt; line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">“</span><span style="font-size:10.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">游戏害我一生</span><span style="font-size:10.0pt; line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">”</span><span style="font-size:10.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">的感叹。游戏虽然让我们投入，对我们人生意义的领悟，却实在没什么帮助，因此也无法带给我们持久的幸福。</span></p><p align="left" style="margin-top:0cm;margin-right:0cm; margin-bottom:10.0pt;margin-left:36.0pt;text-align:left;line-height:115%; mso-layout-grid-align:none;text-autospace:none"><span style="font-size:10.0pt; line-height:115%;font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font: minor-latin;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language: ZH-CN">要知道，<b>人生意义虽然事关重大，你却无法通过人生意义的思辨，来解决现实的问题，相反，正是在琐碎小事组成的现实生活出现问题，才让我们对人生意义心生困惑。</b>而如果我们明了这个问题的答案，我们就会坚定沉着，无论身处何地，知道心归何处。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:10.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">五、成就（Achievement）</span></p><p align="left" style="margin-top:0cm;margin-right:0cm; margin-bottom:10.0pt;margin-left:36.0pt;text-align:left;line-height:115%; mso-layout-grid-align:none;text-autospace:none"><span style="font-size:10.0pt; line-height:115%;font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font: minor-latin;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language: ZH-CN">没错，我们都希望自己成为人生赢家，有时候<b>不为金钱权色，而只为站在更高处，为赢而赢！</b></span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">PERMA指向的，正是一种创造的幸福，一种把我们自身与他人、社会福祉相联系的幸福，一种持久的幸福。这样的幸福，才配得上成为我们终身的目标。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">&nbsp;</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">幸福课九：记忆中的幸福</span></b></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">心理学家丹尼尔</span><span style="font-size:11.0pt; line-height:115%;font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font: minor-latin;mso-bidi-font-family:宋体;mso-font-kerning:0pt">·卡尼曼（<span lang="EN-US">Dianel Kahneman</span>）相信，存在着两个完全不同的自我：负责体验的</span><span lang="EN-US" style="font-size:11.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family: 宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt">“</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt">体验自我</span><span lang="EN-US" style="font-size:11.0pt;line-height:115%; mso-ascii-font-family:宋体;mso-fareast-font-family:宋体;mso-bidi-font-family:宋体; mso-font-kerning:0pt">”</span><span style="font-size:11.0pt;line-height:115%; font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin; mso-bidi-font-family:宋体;mso-font-kerning:0pt">和负责记忆的</span><span lang="EN-US" style="font-size:11.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family: 宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt">“</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt">记忆自我</span><span lang="EN-US" style="font-size:11.0pt;line-height:115%; mso-ascii-font-family:宋体;mso-fareast-font-family:宋体;mso-bidi-font-family:宋体; mso-font-kerning:0pt">”</span><span style="font-size:11.0pt;line-height:115%; font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin; mso-bidi-font-family:宋体;mso-font-kerning:0pt">。</span><span style="font-size: 11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family:Calibri; mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning:0pt; mso-ansi-language:ZH-CN">前者</span><span style="font-size:11.0pt;line-height: 115%;font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin; mso-bidi-font-family:宋体;mso-font-kerning:0pt">用于评价此时此地的感受，而</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">后者</span><span style="font-size:11.0pt;line-height: 115%;font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin; mso-bidi-font-family:宋体;mso-font-kerning:0pt">则用于评价和记录过去体验到的感受。按道理，</span><span lang="EN-US" style="font-size:11.0pt;line-height:115%;mso-ascii-font-family:宋体; mso-fareast-font-family:宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt">“</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt">记忆自我</span><span lang="EN-US" style="font-size:11.0pt;line-height:115%; mso-ascii-font-family:宋体;mso-fareast-font-family:宋体;mso-bidi-font-family:宋体; mso-font-kerning:0pt">”</span><span style="font-size:11.0pt;line-height:115%; font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin; mso-bidi-font-family:宋体;mso-font-kerning:0pt">所忠实记录的，正该是</span><span lang="EN-US" style="font-size:11.0pt;line-height:115%;mso-ascii-font-family:宋体; mso-fareast-font-family:宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt">“</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt">体验自我</span><span lang="EN-US" style="font-size:11.0pt;line-height:115%; mso-ascii-font-family:宋体;mso-fareast-font-family:宋体;mso-bidi-font-family:宋体; mso-font-kerning:0pt">”</span><span style="font-size:11.0pt;line-height:115%; font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin; mso-bidi-font-family:宋体;mso-font-kerning:0pt">曾感受到的，但事实并非如此。</span><span lang="EN-US" style="font-size:11.0pt;line-height:115%;mso-ascii-font-family:宋体; mso-fareast-font-family:宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt">“</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt">记忆自我</span><span lang="EN-US" style="font-size:11.0pt;line-height:115%; mso-ascii-font-family:宋体;mso-fareast-font-family:宋体;mso-bidi-font-family:宋体; mso-font-kerning:0pt">”</span><span style="font-size:11.0pt;line-height:115%; font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin; mso-bidi-font-family:宋体;mso-font-kerning:0pt">看起来更像是</span><span lang="EN-US" style="font-size:11.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family: 宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt">“</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt">剪辑师</span><span lang="EN-US" style="font-size:11.0pt;line-height:115%; mso-ascii-font-family:宋体;mso-fareast-font-family:宋体;mso-bidi-font-family:宋体; mso-font-kerning:0pt">”</span><span style="font-size:11.0pt;line-height:115%; font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin; mso-bidi-font-family:宋体;mso-font-kerning:0pt">而不是</span><span lang="EN-US" style="font-size:11.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family: 宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt">“</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt">录像师</span><span lang="EN-US" style="font-size:11.0pt;line-height:115%; mso-ascii-font-family:宋体;mso-fareast-font-family:宋体;mso-bidi-font-family:宋体; mso-font-kerning:0pt">”</span><span style="font-size:11.0pt;line-height:115%; font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin; mso-bidi-font-family:宋体;mso-font-kerning:0pt">。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">对于记忆中的感受而言，持续时间不是问题，高潮和结尾才是问题。</span></b><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">结尾好，则即以自我感觉就会良好；结尾糟糕，评价则会下降。Kahneman把记忆的这种规律称为</span><span style="font-size:11.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family: 宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">“</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">峰值-尾值定律</span><span style="font-size:11.0pt; line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">”</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">（peak-end rule）和持续时间忽略（duration neglect）。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">人类的心理，真不是为了追求幸福设计的。其中一个原因，对于什么带来更长久的幸福，我们所倚赖记忆，常常自作主张</span></u><u><span style="font-size:11.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family: 宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">——</span></u><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">不是有意撒谎，只是记不清楚。大部分感受，都烟消云散了，除了附着在跌宕起伏的故事情节上的那些。而记忆中的故事是喜剧还是悲剧，可能取决于，当你问</span></u><u><span style="font-size:11.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family: 宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">“</span></u><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">我能问最后一个问题吗？</span></u><u><span style="font-size: 11.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">”</span></u><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">时，得到的回答，是</span></u><u><span style="font-size: 11.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">“</span></u><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">爱过</span></u><u><span style="font-size:11.0pt; line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">”</span></u><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">，还是</span></u><u><span style="font-size:11.0pt; line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">“</span></u><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">去死</span></u><u><span style="font-size:11.0pt; line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">”</span></u><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">。</span></u></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">&nbsp;</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">幸福课十：棉花糖与幸福</span></b></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">知乎最近有这样一个帖子：如何搞定一个才华横溢但没有责任心的拖延症患者？一匿名用户回答：</span></u></p><p align="left" style="margin-top:0cm;margin-right:0cm; margin-bottom:10.0pt;margin-left:36.0pt;text-align:left;line-height:115%; mso-layout-grid-align:none;text-autospace:none"><u><span style="font-size:11.0pt; line-height:115%;font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font: minor-latin;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language: ZH-CN">说句题外话，我就是这样的人。</span></u></p><p align="left" style="margin-top:0cm;margin-right:0cm; margin-bottom:10.0pt;margin-left:36.0pt;text-align:left;line-height:115%; mso-layout-grid-align:none;text-autospace:none"><u><span style="font-size:11.0pt; line-height:115%;font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font: minor-latin;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language: ZH-CN">我口才很不错，形象也蛮讨巧，文凭，见识，谈吐，专业背景，都&quot;颇具设计感&quot;。所以很容易给人留下好印象。顺便我还是学生会干部出身，很有点策划头脑和文笔。我甚至还看起来还有爱心，很绅士。</span></u></p><p align="left" style="margin-top:0cm;margin-right:0cm; margin-bottom:10.0pt;margin-left:36.0pt;text-align:left;line-height:115%; mso-layout-grid-align:none;text-autospace:none"><u><span style="font-size:11.0pt; line-height:115%;font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font: minor-latin;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language: ZH-CN">但是我非常清楚，我什么都不会。你让我做的事我保准给你 100 个想法，然后给你烂尾了。你说不能拖延的，我保证会拖延。我在组会上永远再说未来的事情而不是已有的成果。</span></u></p><p align="left" style="margin-top:0cm;margin-right:0cm; margin-bottom:10.0pt;margin-left:36.0pt;text-align:left;line-height:115%; mso-layout-grid-align:none;text-autospace:none"><u><span style="font-size:11.0pt; line-height:115%;font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font: minor-latin;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language: ZH-CN">而且我毫无责任感，历次恋爱都以劈腿告终，屡次上床后不告而别。看似热心实则冷漠，从来记不清同事名字。</span></u></p><p align="left" style="margin-top:0cm;margin-right:0cm; margin-bottom:10.0pt;margin-left:36.0pt;text-align:left;line-height:115%; mso-layout-grid-align:none;text-autospace:none"><u><span style="font-size:11.0pt; line-height:115%;font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font: minor-latin;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language: ZH-CN">所以我真心建议你，对这种人，让他赶紧滚。他除了给你留下烂摊子之外别无意义，千万别被他瑰丽的言语和明亮的眸子欺骗，其实他浑浑噩噩，找不到回家的路。</span></u></p><p align="left" style="margin-top:0cm;margin-right:0cm; margin-bottom:10.0pt;margin-left:36.0pt;text-align:left;line-height:115%; mso-layout-grid-align:none;text-autospace:none"><u><span style="font-size:11.0pt; line-height:115%;font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font: minor-latin;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language: ZH-CN">我在明白这点之后，停止说话，停止想像，只做好无技术含量的工作，拿很少的薪水。终于觉得自己不再给世界找麻烦。</span></u></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">这真是最痛的领悟，却没带来最真的救赎。为什么看起来智商颇高的匿名君没能在工作中发挥其智商优势？为什么</span></u><u><span style="font-size:11.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family: 宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">“</span></u><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">拖延</span></u><u><span style="font-size:11.0pt; line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">”</span></u><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">会和</span></u><u><span style="font-size:11.0pt; line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">“</span></u><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">劈腿</span></u><u><span style="font-size:11.0pt; line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">”</span></u><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">、</span></u><u><span style="font-size:11.0pt; line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">“</span></u><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">冷漠</span></u><u><span style="font-size:11.0pt; line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">”</span></u><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">联系在一起？为什么作者明知问题所在，却无力自拔？这背后，其实都有一个共同的答案：意志力缺乏。</span></u></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">成年后我们所面对的诱惑，远非棉花糖可比。也因为如此，意志力缺乏对我们生活的危害，随处可见。我们因为没法抵御美食的诱惑而暴饮暴食（我一定是吃货的敌人），又因为没法抵御被窝或沙发的诱惑而懒于运动，于是，身体不健康了；我们因为没法抵御淘宝打折而过度消费，又因为觉得退休还远而懒于存钱，于是经济不健康了；我们因为一言不合而心生怨气，又因为懒于控制脾气而与人冲突，于是人际关系不健康了；我们可能因为没法抵御QQ、微博之类的网络工具而效率低下，又因为总被</span></u><u><span style="font-size:11.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family: 宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">“</span></u><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">更好的选择</span></u><u><span style="font-size:11.0pt; line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">”</span></u><u><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">吸引而心浮气躁，于是学习和工作不健康了。</span></u></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">延迟满足能力，即我们为未来更大的利益抵御当前较小的诱惑的能力，是意志力的本质，也是幸福的基石。</span></b></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">&nbsp;</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">幸福课十一：积极情绪的力量</span></b></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">积极情绪也让没法让我们更准确地认识世界。相反，它还常常把我们带到盲目乐观的沟里，让我们忽略细节和可能的危险。积极情绪能带领我们走向成功吗？答案是，有时候会。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">消极情绪有利于我们生存</span></b><span style="font-size:11.0pt; line-height:115%;font-family:宋体;mso-hansi-font-family:Calibri;mso-hansi-theme-font: minor-latin;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language: ZH-CN">，却缩小了我们和世界接触的范围。它让我们战战兢兢，如履薄冰。如果说消极情绪是一种防御工具，积极情绪则恰恰相反，它是一种拓展工具。喜悦、感激、宁静、兴趣、希望、自豪、有趣、激励、敬佩、爱，这些良好的感觉，让我们想看更宽广的世界，想与他人亲近。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">积极情绪和消极情绪一样，扭曲了我们对世界的看法</span></b><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">，只是偏差的方向不同。但这种不同，却意义重大。这是因为，对于生活，我们并不是傻傻的估计比例的旁观者，我们是参与者和投入者。不同情绪导致不同的偏差，并引发不同的行动。<b>而行动，才是成功与否的关键。</b></span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">&nbsp;</span></b></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><b><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">幸福课之十二：追求成功还是避免失败</span></b></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family: 宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">“</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">如果你考不上大学，你就只能去工地搬砖</span><span style="font-size: 11.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">”</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">；</span><span style="font-size:11.0pt;line-height: 115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体;mso-bidi-font-family: 宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">“</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">虽然你考上了大学，如果你不好好学习，你还是得去搬砖。</span><span style="font-size:11.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family: 宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">”</span><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">恐吓式的教育激发了我们对失败的恐惧，让我们不停寻找自己的缺陷和不足，努力补齐。它让我们相信，成功只是暂时的，一不小心，失败就会在前方等着我们。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">存在着两种不同的成就动机：<b>追求成功</b>和<b>避免失败</b>。很多人相信，相比于对成功的渴望，对失败的恐惧会是更大的动力。当我们前面那个宏伟的目标激发着前进的时候，我们是乐观的、充满希望、斗志和活力的。当我们被失败的恐惧所驱赶着的时候，我们是焦虑、战战兢兢、患得患失的。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">追求成功和避免失败的另一个差异，在于我们的关注点不同。<b>假如做一件事能增加成功的可能性，你会全力去做吗？追求成功的人会，因为</b></span><b><span style="font-size:11.0pt;line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family: 宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">“</span></b><b><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">增加成功的可能性</span></b><b><span style="font-size:11.0pt; line-height:115%;mso-ascii-font-family:宋体;mso-fareast-font-family:宋体; mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:ZH-CN">”</span></b><b><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">就已经是最好的理由了。</span></b></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">但避免失败的人可能不会。对他们来说，比成功更重要的是，是保护自己的自尊，让自己不受失败之苦。潜意识里，避免失败的人相信，如果一件事情不去做而没有成功，没有人会怀疑和嘲笑你。但是当你努力去做而没有成功时，别人都会认为你的能力有问题。怀疑和嘲笑就会纷至沓来。这对自尊是一种损坏。所以追求失败的人，有时候宁愿放弃努力，也不愿去面对失败。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">更多的人采取了折衷的策略：偷偷地给自己树立一个目标，却绝不向别人提起。这样如果失败，也只有自己知道，不会被别人笑话。可是，我们一直是自己行为的观察者。我们也是通过对自己的观察，来判断自己对这件事是否自信。偷偷摸摸树立的目标，其实已经在暗示我们自己，我们对这个目标并不自信。这种信念发生在潜意识层面，平时也许未必会表现出来，但在某些不容思考的压力下，在决定比赛胜负的关键时刻，它就会从眼神、动作、跑动中清晰无疑地显露出来。</span></p><p align="left" style="margin-bottom:10.0pt;text-align:left; line-height:115%;mso-layout-grid-align:none;text-autospace:none"><span style="font-size:11.0pt;line-height:115%;font-family:宋体;mso-hansi-font-family: Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:ZH-CN">避免失败式的教育造就了大量在学校或公司里被不安全感驱动着学习或工作的人。通常他们也一样很努力，却很焦虑。他们没法享受自己的学习和工作，欣赏自己的成长。他们很难经受压力，因此也很难有持久的动力。避免失败的动机让生活看着像逃离，即使获得某些成功，他们也无力体验到幸福。</span></p><p><span lang="EN-US">&nbsp;</span></p></div></div>
 ]]></content>
     <summary type="html">
@@ -2420,7 +2567,7 @@ KDE 桌面，过于高度自定义化，上手麻烦。<br clear="none" style="p
     
     </summary>
     
-      <category term="happiness" scheme="http://icehe.me/tags/happiness/"/>
+      <category term="read" scheme="http://icehe.me/tags/read/"/>
     
       <category term="read" scheme="http://icehe.me/categories/read/"/>
     
@@ -2431,7 +2578,7 @@ KDE 桌面，过于高度自定义化，上手麻烦。<br clear="none" style="p
     <link href="http://icehe.me/php/PHP%20empty()%20%E5%92%8C%20isset()%20%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
     <id>http://icehe.me/php/PHP empty() 和 isset() 的区别/</id>
     <published>2015-02-24T16:00:00.000Z</published>
-    <updated>2015-12-27T08:26:10.000Z</updated>
+    <updated>2016-01-15T12:33:37.000Z</updated>
     <content type="html"><![CDATA[<div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><b>子问题：</b><div>PHP 空字符串&quot;&quot;、布尔值FALSE、空NULL 的区别</div><div><br></div><div>通过<b>编程求证，</b></div><div>以下是<b>显示的结果：</b></div>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">param=array(3) &#123;&#10;[0]=&#62;&#10;string(0) &#34;&#34;&#10;[1]=&#62;&#10;bool(false)&#10;[2]=&#62;&#10;NULL&#10;&#125;&#10;Remember that param[3] does not exist!&#10;&#10;&#10;empty &#21644; isset &#30340;&#21306;&#21035;&#10;empty(&#34;&#34;)=bool(true)&#10;empty(FALSE)=bool(true)&#10;empty(NULL)=bool(true)&#10;empty(undefined)=bool(true)&#10;&#10;isset(&#34;&#34;)=bool(true)&#10;isset(FALSE)=bool(true)&#10;isset(NULL)=bool(false)&#10;isset(undefined)=bool(false)&#10;&#10;&#10;&#35843;&#29992;&#19981;&#23384;&#22312;&#30340;&#21442;&#25968;&#21457;&#29983;&#30340;&#24773;&#20917;&#65306;&#10;(undefined param &#39;tmp&#39;)=PHP Notice:  Undefined variable: tmp in C:\Users\IceHe\s&#10;cript\y.php on line 43&#10;NULL&#10;(param[3])=PHP Notice:  Undefined offset: 3 in C:\Users\IceHe\script\y.php on li&#10;ne 45&#10;NULL&#10;&#20197;&#19978;&#36816;&#34892;&#32467;&#26524;&#65292;&#24102;&#26377;PHP&#30340;&#38169;&#35823;&#25253;&#21578;&#65292;&#26159;&#23545;&#19981;&#23384;&#22312;&#21442;&#25968;&#30340;&#25552;&#37266;&#12290;&#10;&#35843;&#29992;&#19981;&#23384;&#22312;&#30340;&#21442;&#25968;&#23454;&#38469;&#24471;&#21040;&#26159;NULL&#10;&#10;&#25509;&#19979;&#26469;&#20851;&#38381;&#38169;&#35823;&#25253;&#21578;&#23545;&#20110;&#25552;&#37266;Notice&#25253;&#21578;&#30340;&#26174;&#31034;&#12290;&#10;&#10;&#10;&#31354;&#23383;&#31526;&#20018;&#34;&#34;&#65292;&#24067;&#23572;&#21542;FALSE&#65292;&#31354;NULL &#20043;&#38388;&#30340;&#23545;&#27604;&#10;&#20840;&#31561; ===&#10;&#34;&#34;===FALSE :bool(false)&#10;&#34;&#34;===NULL :bool(false)&#10;FALSE===NULL :bool(false)&#10;&#10;&#31561;&#20110; ==&#10;&#34;&#34;==FALSE :bool(true)&#10;&#34;&#34;==NULL :bool(true)&#10;FALSE==NULL :bool(true)&#10;&#10;&#19981;&#20840;&#31561; !==&#10;&#34;&#34;!==FALSE :bool(true)&#10;&#34;&#34;!==NULL :bool(true)&#10;FALSE!==NULL :bool(true)&#10;&#10;&#19981;&#31561;&#20110; !=&#10;&#34;&#34;!=FALSE :bool(false)&#10;&#34;&#34;!=NULL :bool(false)&#10;FALSE!=NULL :bool(false)&#10;&#10;&#10;!== &#21547;&#20041;&#30340;&#25506;&#32034;&#10;TRUE!==FALSE :bool(true)&#10;&#34;abc&#34;!==&#34;xyz&#34; :bool(true)&#10;&#30001;&#20197;&#19978;&#32467;&#26524;&#21487;&#30693;!==&#21547;&#20041;&#20026;&#34;&#19981;&#20840;&#31561;&#34;&#65292;&#10;&#32780;&#38750;&#34;&#20840;&#19981;&#31561;&#65281;&#34;&#10;&#10;string!==BOOLEAN :&#10;&#34;abc&#34;!==TRUE :bool(true)&#10;&#34;xyz&#34;!==FALSE :bool(true)&#10;&#10;others!==NULL :&#10;&#34;abc&#34;!==NULL :bool(true)&#10;FALSE!==NULL :bool(true)&#10;&#10;&#10;&#19981;&#23384;&#22312;&#30340;&#21442;&#25968; &#19982; &#34;&#34;&#12289;FALSE&#12289;NULL &#23545;&#27604;&#10;&#20840;&#31561; ===&#10;(undefined)===&#34;&#34; :bool(false)&#10;(undefined)===FALSE :bool(false)&#10;(undefined)===NULL :bool(true)&#10;&#10;&#31561;&#20110; ==&#10;(undefined)==&#34;&#34; :bool(true)&#10;(undefined)==FALSE :bool(true)&#10;(undefined)==NULL :bool(true)&#10;&#10;&#19981;&#20840;&#31561; !==&#10;(undefined)!==&#34;&#34; :bool(true)&#10;(undefined)!==FALSE :bool(true)&#10;(undefined)!==NULL :bool(false)&#10;&#10;&#19981;&#31561;&#20110; !=&#10;(undefined)!=&#34;&#34; :bool(false)&#10;(undefined)!=FALSE :bool(false)&#10;(undefined)!=NULL :bool(false)</span><br></pre></td></tr></table></figure>
 
@@ -2447,9 +2594,9 @@ KDE 桌面，过于高度自定义化，上手麻烦。<br clear="none" style="p
     
     </summary>
     
-      <category term="TECH" scheme="http://icehe.me/tags/TECH/"/>
+      <category term="PHP" scheme="http://icehe.me/tags/PHP/"/>
     
-      <category term="coding" scheme="http://icehe.me/tags/coding/"/>
+      <category term="exprience" scheme="http://icehe.me/tags/exprience/"/>
     
       <category term="PHP" scheme="http://icehe.me/categories/PHP/"/>
     
@@ -2460,7 +2607,7 @@ KDE 桌面，过于高度自定义化，上手麻烦。<br clear="none" style="p
     <link href="http://icehe.me/php/PHP%20%E9%80%BB%E8%BE%91%E8%AF%AD%E5%8F%A5%20var%20!==%20NULL%20%E6%98%AF%E5%90%A6%E7%AD%89%E4%BB%B7%E4%BA%8E%20isset(var)/"/>
     <id>http://icehe.me/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var)/</id>
     <published>2015-02-24T16:00:00.000Z</published>
-    <updated>2015-12-27T08:26:15.000Z</updated>
+    <updated>2016-01-15T12:33:43.000Z</updated>
     <content type="html"><![CDATA[<div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div><b>子问题：</b></div><div>PHP中&nbsp;!== 的逻辑含义</div><div><b><br></b></div><div><b><br></b></div><div><b>var === NULL&nbsp;</b>的意思是：
 <div>变量var 无论类型，还是值，都等于NULL。</div></div><b>var !== NULL</b> 的意思是：
 <div>变量var 无论类型，还是值，都不等于NULL。</div><div><br></div><div>设 <b>type</b>&nbsp;的意义为 var 的&nbsp;<b>类型等</b>于 NULL</div><div>设 <b>value</b>&nbsp;的意义为 var 的&nbsp;<b>值等</b>于 NULL</div><div>（ 以下 type、value 简写为 t 和 v ）</div><div><br></div><div>则&nbsp;<b>var ===&nbsp;NULL</b>&nbsp;的逻辑表达式</div><div>是&nbsp;<b>type &amp;&amp; value</b></div><div>则 <b>var !== NULL</b>&nbsp;的逻辑表达式</div><div>是&nbsp;<b>! type || ! value</b>&nbsp;</div><div>也可写为<b>&nbsp;! (type &amp;&amp; value)</b></div><div>（上面 5 行的结论，有PHP程序的运行结果作支持：</div><div>&nbsp; &nbsp; &nbsp;相关笔记记录&nbsp;<a href="/2015/03/04/php/PHP%20empty()%20和%20isset()%20的区别/" style="color: rgb(105, 170, 53);">PHP empty() 和 isset() 的区别</a>&nbsp;）</div><div><br></div><div>所以，<b>! (var ===&nbsp;NULL)</b></div><div><b>等价于&nbsp;</b><b>var !== NULL</b></div><div><b><br></b></div><div><b>=======================</b></div><div>引申：</div><div><b>var == NULL</b>&nbsp;的逻辑表达式是 <b>value</b></div><div><b>var != NULL</b>&nbsp;的逻辑表达式是&nbsp;<b>! value</b></div><div><b>! (var == NULL) 等价于&nbsp;</b><b>var != NULL</b></div><div>=========================</div><div><br></div><div><b>isset(var)</b> 的意思是：</div><div>检测变量var 是否设置，并且不是 NULL。</div><div>若 var 存在，并且值不是 NULL，则返回 TRUE，</div><div>否则返回 FALSE。</div><div><br></div><div>设 <b>exist</b> 的意义为&nbsp;变量&nbsp;<b>var</b> <b>存在</b></div><div>则&nbsp;<b>isset(var)</b> 的逻辑表达式</div><div>是 <b>exist &amp;&amp; var !== NULL</b>&nbsp;</div><div>也可写为 exist &amp;&amp; ! ( var === NULL )&nbsp;</div><div>即 exist &amp;&amp; ! ( type &amp;&amp; value )</div><div>即 exist &amp;&amp; ( ! type || ! value )</div><div><br></div><div>所以，严谨来说，isset(var)</div><div><b>不等价于&nbsp;var !== NULL</b></div><div><b>也</b></div><div><b>不</b><b>等价于 ! (var === NULL)</b></div><div><b><br></b></div><div>不过，exist这个变量在某些情景下，</div><div>与该具体问题无关时，在编程时，</div><div>可以用&nbsp;<b>isset(var) 代替&nbsp;</b><b>var !== NULL</b>。</div><div><b><br></b></div><div><br></div><div>关键结论：</div><div>var===NULL &nbsp; &nbsp; type &amp;&amp; value</div><div>var!==NULL &nbsp; &nbsp; ! type || ! value</div><div>isset(var) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;exist &amp;&amp; (! type || ! value)</div><div><br></div><div>! (var===NULL) 等价于 var !== NULL</div><div>isset(var) 不完全等价于&nbsp;var !== NULL</div></div>
@@ -2470,9 +2617,9 @@ KDE 桌面，过于高度自定义化，上手麻烦。<br clear="none" style="p
     
     </summary>
     
-      <category term="TECH" scheme="http://icehe.me/tags/TECH/"/>
+      <category term="PHP" scheme="http://icehe.me/tags/PHP/"/>
     
-      <category term="logic" scheme="http://icehe.me/tags/logic/"/>
+      <category term="exprience" scheme="http://icehe.me/tags/exprience/"/>
     
       <category term="PHP" scheme="http://icehe.me/categories/PHP/"/>
     
