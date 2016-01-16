@@ -1714,11 +1714,11 @@ section.comment {
   display: block;
   margin: 0.3em 0.5em;
   padding: 0.1em 0.4em;
-  background: #f0f0f0;
+  background: #e6e6e6;
 }
 .categorieslist ul li a:hover {
   color: #69c;
-  background: #f5f5f5;
+  background: #dbdbdb;
 }
 .tagslist {
   font-size: 90%;
@@ -1953,10 +1953,10 @@ section.comment {
   color: #69c;
 }
 .popularlist li:nth-child(5) {
-  border-bottom: 2.5px solid #ccc;
+  border-bottom: 2px solid #ccc;
 }
 .popularlist li:nth-child(10) {
-  border-bottom: 2.5px solid #ccc;
+  border-bottom: 2px solid #ccc;
 }
 .find_me {
   font-size: 95%;
