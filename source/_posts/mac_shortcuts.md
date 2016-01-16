@@ -5,7 +5,7 @@ tags: [Mac]
 description: 我的 OS X 快捷键列表索引。
 ---
 
-- *Last Updated on Jan 13, 2016*
+- *Updated on 2016-01-16*
 
 - *Ref: 《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》*
 
@@ -373,6 +373,7 @@ Fn [ 1 | 2 ] —— Switch Karabiner Setting Profile
 
 ** ⌘ r —— Reply **
 ** ⌘ ⇧ R —— Reply All **
+** ⌘ ⇧ D —— Send **
 ** ⌘ ⇧ N —— Get All New Mail **
 ** ⌘ ⇧ J —— Set as Junk **
 ** ⌘ ⇧ U —— Set as UnRead **
@@ -489,7 +490,7 @@ f —— Btm Rg
 
 # Script Editor
 
-** ⌘ ⇧ O ——  **
+⌘ ⇧ O —— Open Dictionary
 
 # Seil
 

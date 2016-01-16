@@ -5,7 +5,7 @@ tags: [read]
 description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游戏…
 ---
 
-- *Last Updated on Jan 12, 2016*
+- *Updated on 2016-01-16*
 
 *玩过、看过的之中，最喜欢这些。*
 
@@ -43,6 +43,10 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 - **[The Seven Habits of Highly Effective People](http://book.douban.com/subject/5325618/)**
 
 	《高效能人士的7个习惯》，个人成长。
+
+- **[King, Warrior, Magician, Lover](http://book.douban.com/subject/2893591/)
+
+	《国王，武士，祭司，诗人》，男人。
 
 - **[知日断舍离](http://book.douban.com/subject/24749465/)**
 
@@ -87,6 +91,10 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 - **[算法竞赛经典入门](http://book.douban.com/subject/4138920/)**
 
 - **蔡志忠的漫画**
+
+<br/>
+
+- <span class="val_pos icon-douban"> &nbsp;[...其它读过的书...](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
 
 <br/>
 
@@ -421,6 +429,10 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 - **[罗小黑战记](http://movie.douban.com/subject/10477598/)**
 
 	萌~
+
+<br/>
+
+- <span class="val_pos icon-douban"> &nbsp;[...其它看过的片...](http://movie.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
 
 <br/>
 

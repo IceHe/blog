@@ -6,7 +6,7 @@ description: 我的简历。
 toc: false
 ---
 
-- *Last Updated on Dec 27, 2015*
+- *Updated on 2015-12-27*
 
 ## **Software Tech**
 <br/>

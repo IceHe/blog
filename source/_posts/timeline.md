@@ -6,7 +6,7 @@ description: 我的时间轴。
 toc: false
 ---
 
-- *Last Updated on Dec 27, 2015*
+- *Updated on 2015-12-27*
 <br/>
 
 ###### **Born 出生** &nbsp; &nbsp; &nbsp; &nbsp; *Mar 16, 1992* <br/>

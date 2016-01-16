@@ -5,7 +5,7 @@ tags: [read]
 description: 我收藏的网站、博客、文档、学习资料、文章、问答、专栏…
 ---
 
-- *Last Updated on Jan 14, 2016*
+- *Updated on 2016-01-14*
 
 ## **IT 信息技术**
 

@@ -5,7 +5,7 @@ tags: [Mac]
 description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommended Mac Apps . &nbsp; 以及科技产品、外设、用具等。
 ---
 
-- *Last Updated on Jan 12, 2016*
+- *Updated on 2016-01-12*
 
 *下文斜体文本为补充描述，可略过不读。*
 
