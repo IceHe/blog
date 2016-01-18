@@ -280,6 +280,11 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 	窗口切换器。操作行云流水，窗口切换方面比 Manico 更优秀！
 	*但不能定制快捷键快速启动其它 App，因而被 Manico 替代。*
 
+- **[Synergy](http://synergy-project.org/)**
+
+	鼠标和键盘共享软件。多台来自 OS X、Linux、Windows 等不同平台的PC，可以共用一个鼠标与键盘！
+	*可惜我只用一台 MBP，要用其它设备，就远程桌面连接就够了。*
+
 - **[Time Out](http://www.dejal.com/timeout/)**
 
 	定时作息提醒工具。定时覆盖屏幕，提醒你离开电脑，去休息眼睛和身体。
@@ -467,4 +472,4 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 - <i class="fa fa-calendar">&nbsp;</i> [Life Logs &nbsp; 手帐](/lifelogs)
 - <span class="val_pos icon-douban"> &nbsp;[Books &nbsp; 读过](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
 - <i class="fa fa-github">&nbsp;</i> &nbsp;[Github &nbsp; 代码](http://github.com/IceHe)
-- <i class="fa fa-th-list">&nbsp;</i> [Resume &nbsp; 简历](/resume)<br/><br/>
+- <i class="fa fa-file-text-o">&nbsp;</i> [Resume &nbsp; 简历](/resume)<br/><br/>

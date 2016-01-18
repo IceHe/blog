@@ -19,9 +19,11 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - Encrypt / Decrypt :&nbsp; [Base64](http://tool.oschina.net/encrypt?type=3) ,&nbsp; [Hash](http://tool.oschina.net/encrypt?type=2) ,&nbsp; [AES & etc](http://tool.oschina.net/encrypt) —— 加密 / 解密。
 
-- Encoding Converter :&nbsp; [URL](http://tool.oschina.net/encode?type=4) ,&nbsp; [ASCII](http://tool.oschina.net/encode?type=3) ,&nbsp; [UTF-8](http://tool.oschina.net/encode?type=2) ,&nbsp; [Unicode](http://tool.oschina.net/encode?type=1) —— 编码转换。
+- Encoding Converter :&nbsp; [URL](http://tool.oschina.net/encode?type=4) ,&nbsp; [ASCII](http://tool.oschina.net/encode?type=3) ,&nbsp; [UTF-8](http://tool.oschina.net/encode?type=2) ,&nbsp; [Unicode](http://tool.oschina.net/encode?type=1) ,&nbsp; [Escape](http://www.bejson.com/enc/escape/) —— 编码转换。
 
 - [OSChina Online Tools](http://tool.oschina.net/) —— 常用 Web 开发辅助工具、相关知识的简易手册。
+
+- [BeJson](http://www.bejson.com/) —— JSON 格式校验，及网络、前端、转换、格式化等工具。
 
 - [百度开发者中心](http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs)、[360 的 CDN 服务](http://libs.useso.com/) —— CDN 公共库：常用前端公共库、Google 公共库、字体库… 
 
@@ -166,6 +168,8 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 <br/>
 
 ### **Architecture 架构**
+
+- [从无到有：微信后台系统的演进之路](http://www.infoq.com/cn/articles/the-road-of-the-growth-weixin-background)
 
 - [千万级规模高性能、高并发的网络架构经验](http://mp.weixin.qq.com/s?__biz=MjM5NDMwNjMzNA==&amp;mid=402417924&amp;idx=1&amp;sn=967ecd1fae2f9acb4356607222c94b3b&amp;scene=1&amp;srcid=1230UbcV9DsQeIqLXOuH5QUa#rd) —— 微博平台架构。
 
@@ -508,4 +512,4 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 - <i class="fa fa-calendar">&nbsp;</i> [Life Logs &nbsp; 手帐](/lifelogs)
 - <span class="val_pos icon-douban"> &nbsp;[Books &nbsp; 读过](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
 - <i class="fa fa-github">&nbsp;</i> &nbsp;[Github &nbsp; 代码](http://github.com/IceHe)
-- <i class="fa fa-th-list">&nbsp;</i> [Resume &nbsp; 简历](/resume)<br/><br/>
+- <i class="fa fa-file-text-o">&nbsp;</i> [Resume &nbsp; 简历](/resume)<br/><br/>
