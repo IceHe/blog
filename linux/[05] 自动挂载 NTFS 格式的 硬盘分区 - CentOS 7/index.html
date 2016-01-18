@@ -16,7 +16,7 @@
 	<meta name="description" content="用指令安装ntfs-3g： yum install ntfs-3g。挂载分区，mount -t ntfs-3g /dev/sdb1 /mnt/win1 …… 让系统开机自动挂载移动硬盘，需编辑/etc/fstab。取消挂载的问题，及其解决方法。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="(05) 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7">
-<meta property="og:url" content="http://icehe.gitcafe.io/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/index.html">
+<meta property="og:url" content="http://icehe.me/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="用指令安装ntfs-3g： yum install ntfs-3g。挂载分区，mount -t ntfs-3g /dev/sdb1 /mnt/win1 …… 让系统开机自动挂载移动硬盘，需编辑/etc/fstab。取消挂载的问题，及其解决方法。">
 <meta property="og:updated_time" content="2016-01-15T12:31:50.000Z">
@@ -45,16 +45,16 @@
   <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
 
   <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE" />
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
   <!-- Google Fonts from 360 CDN -->
   <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
 
   <!-- Common CSS -->
   <style type="text/css">
-    .center{ text-align: center; }
-    .hidden{ display: none;	}
-    /*span.hitokoto a{ color: white; } // for 一言*/
+    .center { text-align: center; }
+    .hidden { display: none; }
+    /*span.hitokoto a { color: white; } // for 一言*/
   </style>
 
   <!-- font-awesome -->
@@ -101,10 +101,10 @@
 				<li>
 				
 
-					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8" target="_blank">
+					<form class="search" action="/search/index.html" method="get" accept-charset="utf-8">
+					<!--<form class="search" action="" method="get" accept-charset="utf-8">-->
 						<label>Search</label>
-						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Find" />
-						<input type="hidden" name="q" value="site:icehe.gitcafe.io">
+						<input type="search" id="search" autocomplete="on" name="q" maxlength="20" placeholder="Find" />
 					</form>
 
 				
@@ -141,128 +141,7 @@
 		<en-note><div><div>Ref From: <a shape="rect" href="http://blog.rekfan.com/articles/137.html" target="_blank">http://blog.rekfan.com/articles/137.html</a></div><div>Original Title: CentOS 6.3 自动挂载NTFS格式分区硬盘</div></div><div><br clear="none"></div><div><span style="color: #ff6600;"><strong>Notice: </strong>第一、二步不进行，改为使用以下指令安装ntfs-3g，</span></div><div><strong>             <span style="color: #ff6600;">yum install ntfs-3g</span></strong></div><div><br clear="none">默认情况下，CentOS 6.3不支持NTFS格式的磁盘读写。</div><div>要想把NTFS格式的磁盘挂载到CentOS 6.3，<br clear="none">需要安装第三方的插件ntfs-3g，这里我们采用编译安装插件。<br clear="none"><br clear="none">1. 安装编译器，否则不能成功编译。</div><div><strong>yum install gcc</strong><br clear="none">根据提示按Y安装完成<br clear="none"><br clear="none">2. 安装ntfs-3g</div><div>进入/home目录，把软件下载到此目录<br clear="none"><strong>cd /home</strong></div><div>下载<br clear="none"><strong>wget http://tuxera.com/opensource/ntfs-3g_ntfsprogs-2011.4.12.tgz</strong></div><div>解压</div><div><strong>tar zxvf ntfs-3g_ntfsprogs-2011.4.12.tgz</strong></div><div>进入目录<br clear="none"><strong>cd ntfs-3g_ntfsprogs-2011.4.12</strong></div><div>编译 &amp; 安装</div><div><strong>./configure &amp;&amp; make &amp;&amp; make install</strong></div><div>返回上一级目录<br clear="none"><strong>cd ..</strong></div><div>删除安装程序包<br clear="none"><strong>rm -r -f ntfs-3g_ntfsprogs*</strong></div><div><br clear="none"></div><div>3. 查看使用</div><div># 显示系统磁盘信息<br clear="none"><strong>fdisk -l</strong></div><div>#####################################################################<br clear="none">Disk /dev/sdb: 160.0 GB, 160041885696 bytes<br clear="none">255 heads, 63 sectors/track, 19457 cylinders<br clear="none">Units = cylinders of 16065 * 512 = 8225280 bytes<br clear="none">Sector size (logical/physical): 512 bytes / 512 bytes<br clear="none">I/O size (minimum/optimal): 512 bytes / 512 bytes<br clear="none">Disk identifier: 0x7ab8d700<br clear="none">Device Boot Start End Blocks Id System<br clear="none">/dev/sdb1 * 1 5222 41945683+ 7 HPFS/NTFS<br clear="none">/dev/sdb2 5223 10444 41945715 7 HPFS/NTFS<br clear="none">/dev/sdb3 10445 15666 41945715 7 HPFS/NTFS<br clear="none">/dev/sdb4 15667 19457 30451207+ 7 HPFS/NTFS<br clear="none"> http://blog.rekfan.com/?p=137<br clear="none">###################################################################<br clear="none">以上信息显示的是我的移动硬盘，总共160G,有四个NTFS分区<br clear="none"><br clear="none"><br clear="none">4. 挂载分区</div><div>目标：<br clear="none">/dev/sdb1 分区挂载到 /mnt/win1<br clear="none">/dev/sdb2 分区挂载到 /mnt/win2<br clear="none">/dev/sdb3 分区挂载到 /mnt/win3<br clear="none">/dev/sdb4 分区挂载到 /mnt/win4<br clear="none"></div><div><br clear="none"></div><div>进入/mnt目录，新建四个挂载目录<br clear="none">cd /mnt<br clear="none"><strong>mkdir win1 win2 win3 win4</strong><br clear="none"></div><div><br clear="none"></div><div>挂载<br clear="none"><strong>mount -t ntfs-3g /dev/sdb1 /mnt/win1</strong><br clear="none">mount -t ntfs-3g /dev/sdb2 /mnt/win2<br clear="none">mount -t ntfs-3g /dev/sdb3 /mnt/win3<br clear="none">mount -t ntfs-3g /dev/sdb4 /mnt/win4<br clear="none"><br clear="none">分区挂载完成，现在可以进入/mnt目录下面查看对应的文件夹，即就是你移动硬盘的分区<br clear="none"></div><div><br clear="none"></div><div>卸载命令：<br clear="none"><strong>umount /dev/sdb1</strong><br clear="none">umount /dev/sdb2<br clear="none">umount /dev/sdb3<br clear="none">umount /dev/sdb4<br clear="none"></div><div><br clear="none"></div><div><br clear="none">5. 如果想让系统开机自动挂载移动硬盘，编辑/etc/fstab<br clear="none"></div><div>更改之前先备份</div><div>cp /etc/fstab /etc/fstabbak</div><div>编辑<br clear="none">vi /etc/fstab<br clear="none"><br clear="none">在最后添加以下信息，以读写方式挂载磁盘<br clear="none">/dev/sdb1 /mnt/win1 ntfs-3g defaults 0 0<br clear="none">/dev/sdb2 /mnt/win2 ntfs-3g defaults 0 0<br clear="none">/dev/sdb3 /mnt/win3 ntfs-3g defaults 0 0<br clear="none">/dev/sdb4 /mnt/win4 ntfs-3g defaults 0 0<br clear="none"><br clear="none">:wq!保存，退出<br clear="none"><br clear="none">现在只要重启机器，会自动挂载移动硬盘<br clear="none"></div><div><br clear="none"></div><div><br clear="none"><strong>取消挂载的问题——</strong></div><div>umount的时候出现如下提示：<br clear="none">[root@rekfan.com /]# umount /dev/sdb1<br clear="none">umount: /mnt/upan: device is busy.<br clear="none">        (In some cases useful info about processes that use<br clear="none">         the device is found by lsof(8) or fuser(1))<br clear="none"><br clear="none"><strong>解决方法一</strong><br clear="none">[root@rekfan.com /]# lsof -w /mnt/upan<br clear="none">COMMAND   PID USER   FD   TYPE DEVICE SIZE/OFF    NODE NAME<br clear="none">bash    31761 root  cwd    DIR   8,18     8192 2316326 /mnt/upan/rekfan.com_120526<br clear="none"><br clear="none">[root@rekfan.com /]#<br clear="none">使用 lsof -w /mnt/upan 可以看出，有个命令窗口在/mnt/upan/rekfan.com_120526目录上，</div><div>关闭这个窗口，或退出这个挂载目录，再使用 umount 即可安全退出挂载的设备！<br clear="none"><br clear="none"><strong>解决方法二</strong><br clear="none">[root@rekfan.com /]#fuser -k /mnt/upan<br clear="none">#杀死所有正在访问指定文件的进程</div>
 </en-note>  
 	</div>
-		<!-- jiathis的点赞按钮！-->
-<!-- 有了多说评论框的“喜欢”按钮就足够了 -->
-<!-- JiaThis Button BEGIN -->
-<!--
-<div class="jiathis_style">
-	<a class="jiathis_like_tsina" data="width=120"></a>
-	<a class="jiathis_like_qzone"></a>
-</div>
-<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
--->
-<!-- JiaThis Button END -->
-
-<!-- Donate Module -->
-<div>
-	<!-- css -->
-	<style type="text/css">
-		.donate_bar a.btn_donate{
-			display: inline-block;
-			width: 82px;
-			height: 82px;
-			background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
-			_background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat; 
-			
-			<!-- 因为本 hexo 生成的博客所用的 theme 的 a:hover 带动画效果，
-				 为了在让打赏按钮显示效果正常 而 添加了以下几行 css，
-				 嵌入其它博客时不一定要它们。 -->
-			-webkit-transition: background 0s;
-			-moz-transition: background 0s;
-			-o-transition: background 0s;
-			-ms-transition: background 0s;
-			transition: background 0s;
-			<!-- /让打赏按钮的效果显示正常 而 添加的几行 css 到此结束 -->
-		}
-		.donate_bar a.btn_donate:hover{ background-position: 0px -82px;}
-		.donate_bar .donate_txt {
-			display: block;
-			color: #9d9d9d;
-			font: 14px/2 "Microsoft Yahei";
-		}
-		.bold{ font-weight: bold; }
-	</style>
-	<!-- /css -->
-	
-	<!-- form -->
-	<form id="donate" action="https://shenghuo.alipay.com/send/payment/fill.htm" method="POST" target="_blank" accept-charset="GBK">
-		<input name="optEmail" type="hidden" value="ice_he@foxmail.com" />
-		<input name="payAmount" type="hidden" value="1.00" />
-		<input id="title" name="title" type="hidden" value="打赏《(05) 自动挂载 NTFS 格》"/>
-		<input name="memo" type="hidden" value="留下您的大名及联系方式(email,blog,etc)，多交流共勉共进：" />
-	</form>
-	<!-- /form -->
-
-	<!-- btn_donate & tips -->
-	<div id="donate_board" class="donate_bar center">
-		<a id="btn_donate" class="btn_donate" href="javascript:;" title="Donate 打赏"></a>
-		<span class="donate_txt">
-			&uarr;<br/>
-			If you enjoy the article, please feel free to <span class="bold">donate~</span> Thx.<br/>
-			若本文对您有帮助，<span class="bold">求打赏~</span> 谢谢您的鼓励。
-		</span>
-		<br/>
-	</div>
-	<!-- /btn_donate & tips -->
-	
-	<!-- donate guide -->
-	<div id="donate_guide" class="donate_bar center hidden">
-		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="3MPNAMMQA4C8Y">	&nbsp; &nbsp; 
-			<input type="image" width="auto" height="40em"
-				src="http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg" 
-				border="0" name="submit" alt="PayPal——最安全便捷的在线支付方式！"
-				style="margin-bottom: 0.5em;">
-			<img alt="" border="0" width="1" height="1" 
-				src="https://www.paypalobjects.com/zh_XC/i/scr/pixel.gif" >
-		</form>
-
-		<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg" title="Alipay_Scan_Payment" class="fancybox" rel="article0">
-			<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg" title="Donate 打赏" height="164px" width="164px"/>
-		</a> &nbsp; 
-		
-		<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" title="Alipay_Scan_Payment" class="fancybox" rel="article0">
-			<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" title="Thanks 谢谢~" height="164px" width="164px"/>
-		</a> &nbsp; 
-		
-		<a href="http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg" title="WeChat_Scan_Payment" class="fancybox" rel="article0">
-			<img src="http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg" title="Donate 打赏" height="164px" width="auto"/>
-		</a>
-		
-		<span class="donate_txt">
-			Use App <span class="bold"><a href="http://global.alipay.com/ospay/home.htm">Alipay</a> / <a href="http://www.wechat.com/en/">WeChat</a></span>
-			to scan QRCode~ Thx for your support.<br/>
-			
-			用手机 <span class="bold"><a href="https://mobile.alipay.com/index.htm">支付宝钱包</a> / <a href="http://weixin.qq.com/">微信</a></span>，
-			扫一扫即可~ 谢谢您的鼓励。<br/>
-			<br/>
-			
-			Or donate on <a id="donate_on_web2" class="bold" href="javascript:donate_on_web();" title="Donate 打赏">Web Alipay</a>. /
-			
-			也可用 <a id="donate_on_web1" class="bold" href="javascript:donate_on_web();" title="Donate 打赏">网页版支付宝</a> 
-			打赏。<br/>
-		</span>
-		<br/>
-	</div>
-	<!-- /donate guide -->
-	
-	<!-- donate script -->
-	<script type="text/javascript">
-		document.getElementById('btn_donate').onclick = function(){
-			$('#donate_board').addClass('hidden');
-			$('#donate_guide').removeClass('hidden');
-		}
-		
-		function donate_on_web(){
-			$('#donate').submit();
-		}
-	</script>
-	<!-- /donate script -->
-</div>
-<!-- /Donate Module -->
-
-<footer class="article-footer clearfix">
+		<footer class="article-footer clearfix">
 <div class="article-catetags">
 
 <div class="article-categories">
@@ -282,7 +161,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://icehe.gitcafe.io/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/" data-title="(05) 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
+	  <div data-url="http://icehe.me/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/" data-title="(05) 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -324,6 +203,7 @@
 
 <script type="text/javascript">
 
+
 var duoshuoQuery = {short_name:"icehe"};
 (function() {
 	var ds = document.createElement('script');
@@ -334,26 +214,10 @@ var duoshuoQuery = {short_name:"icehe"};
 	|| document.getElementsByTagName('body')[0]).appendChild(ds);
 })();
 
-//if (typeof DUOSHUO !== 'undefined')hookDUOSHUO_tp();
-//else $('[src="http://static.duoshuo.com/embed.js"]')[0].onload=hookDUOSHUO_tp;
-//function hookDUOSHUO_tp(){
-//	var _D_post=DUOSHUO.templates.post
-//	DUOSHUO.templates.post=function (e,t){
-//		var rs=_D_post(e,t);
-//		if(e.post.agent&&/^Mozilla/.test(e.post.agent))rs=rs.replace(/<\/div><p>/,show_ua(e.post.agent)+'</div><p>');
-//		return rs;
-//	}
-//}
-//function show_ua(string){
-//	$.ua.set(string);
-//	var sua=$.ua;
-//	if(sua.os.version=='x86_64')sua.os.version='x64';
-//	return '<span class="this_ua platform '+sua.os.name+'">'+sua.os.name+' '+sua.os.version+'</span><span class="this_ua browser '+sua.browser.name+'">'+sua.browser.name+'|'+sua.browser.version+'</span>';
-//}
 
 
 
-document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/" data-title="(05) 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7" data-url="http://icehe.gitcafe.io/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/"></div>'
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/" data-title="(05) 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7" data-url="http://icehe.me/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/"></div>'
 //	+ '<hr/>'
 //	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
 //	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
@@ -382,6 +246,7 @@ document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thr
 //}
 
 </script>
+
 </div>  
       <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
 
@@ -939,7 +804,6 @@ $(document).ready(function(){
     }
   });
 </script>
-
 
   </body>
 </html>

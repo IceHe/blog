@@ -16,7 +16,7 @@
 	<meta name="description" content="const，enum，inline。先初始化再使用变量。smart pointer 智能指针。virtual 虚函数。Destructor 析构函数。self-assignment 自赋值。new和delete。若不想使用编译器自动生成的函数，就该明确拒绝。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Effective C++ - Reading Note 1">
-<meta property="og:url" content="http://icehe.gitcafe.io/c++/Effective C++ - Reading Note 1/index.html">
+<meta property="og:url" content="http://icehe.me/c++/Effective C++ - Reading Note 1/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="const，enum，inline。先初始化再使用变量。smart pointer 智能指针。virtual 虚函数。Destructor 析构函数。self-assignment 自赋值。new和delete。若不想使用编译器自动生成的函数，就该明确拒绝。">
 <meta property="og:updated_time" content="2016-01-15T12:29:04.000Z">
@@ -45,16 +45,16 @@
   <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
 
   <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE" />
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
   <!-- Google Fonts from 360 CDN -->
   <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
 
   <!-- Common CSS -->
   <style type="text/css">
-    .center{ text-align: center; }
-    .hidden{ display: none;	}
-    /*span.hitokoto a{ color: white; } // for 一言*/
+    .center { text-align: center; }
+    .hidden { display: none; }
+    /*span.hitokoto a { color: white; } // for 一言*/
   </style>
 
   <!-- font-awesome -->
@@ -101,10 +101,10 @@
 				<li>
 				
 
-					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8" target="_blank">
+					<form class="search" action="/search/index.html" method="get" accept-charset="utf-8">
+					<!--<form class="search" action="" method="get" accept-charset="utf-8">-->
 						<label>Search</label>
-						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Find" />
-						<input type="hidden" name="q" value="site:icehe.gitcafe.io">
+						<input type="search" id="search" autocomplete="on" name="q" maxlength="20" placeholder="Find" />
 					</form>
 
 				
@@ -142,128 +142,7 @@
 &nbsp; &nbsp; &nbsp;...</font></div><div><font size="4">};</font></div><div><font size="4">这样，帮助重用，而且其子类就都不能调用复制构造函数和复制赋值操作符了。</font></div><div><font size="4"><br></font></div><div><font size="4"><br></font></div><div><font size="4"><b>条款7：为多态基类声明virtual析构函数</b></font></div><div><font size="4"><b>declare destructors virtual in polymorphic base classes.</b></font></div><div><font size="4"><b><br></b></font></div><div><font size="4">一个基类指针指向子类对象，</font></div><div><font size="4">当这个对象析构的时候，如果基类destructor非virtual，</font></div><div><font size="4">那么只会调用基类的destructor，而子类的则没有被调用，</font></div><div><font size="4">导致部分销毁对象，内存泄漏。</font></div><div><font size="4"><br></font></div><div><font size="4">基类有virtual函数，其子类就必须有相关的函数实现，即使其不重写。</font></div><div><font size="4"><br></font></div><div><font size="4">如果一个class不打算成为基类，就不要声明virtual函数。</font></div><div><font size="4"><br></font></div><div><font size="4">要实现virtual函数，必须携带vptr（virtual table pointer）虚函数表指针</font></div><div><font size="4">vptr指向一个有函数指针组成的数组，成为vtbl（virtual table）虚函数表。</font></div><div><font size="4">每一个带虚函数的class都带有一个相应的virtual table。</font></div><div><font size="4"><br></font></div><div><font size="4">当调用虚函数，取决于该对象的vptr虚函数指针所指的virtual table虚函数表，</font></div><div><font size="4">编译器在其中寻找适当的函数指针。</font></div><div><font size="4"><br></font></div><div><font size="4">而且这个虚指针增加了对象的大小，32位系统增加一个4Bytes的vptr，</font><span style="font-size: large;">64位则增加8Bytes。</span></div><div><font size="4">所以类内至少有一个virtual函数，才去声明虚的destructor。</font></div><div><font size="4"><br></font></div><div><font size="4">尽量不要集成STL中不含有virtual函数的容器。</font></div><div><font size="4"><br></font></div><div><font size="4">总结：</font></div><div><font size="4">带有polymorphic多态性质的base classes应该声明virtual destructor。</font></div><div><font size="4">或它带有任何virtual函数，它就该有虚析构函数。</font></div><div><font size="4">若一个class不作为base class使用，或不是为了多态，就别声明虚析构函数。</font></div><div><font size="4"><br></font></div><div><font size="4"><br></font></div><div><font size="4"><b>条款8：别让异常逃离析构函数</b></font></div><div><font size="4"><b>prevent exceptions from leaving destructors.</b></font></div><div><font size="4"><b><br></b></font></div><div><font size="4">析构函数绝对不要吐出异常。</font></div><div><font size="4">如果一个被析构函数调用的函数可能抛出异常，析构函数应该捕捉任何异常，</font></div><div><font size="4">然后吞下它们（不传播）或结束程序。</font></div><div><font size="4"><br></font></div><div><font size="4">如果客户需要对某个操作函数运行期间抛出的异常作出反应，</font></div><div><font size="4">那么class应该提供一个普通函数（而非在析构函数中）执行该操作。</font></div><div><font size="4"><br></font></div><div><font size="4">C++不欢迎在析构函数中抛出异常。</font></div><div><font size="4"><br></font></div><div><font size="4"><br></font></div><div><font size="4"><b>条款9：绝不在构造和析构过程中调用virtual函数</b></font></div><div><font size="4"><b>never call virtual function during construction or destruction</b></font></div><div><font size="4"><b><br></b></font></div><div><font size="4">在子类的构造函数运行时，</font><span style="font-size: large;">子类</span><span style="font-size: large;">自身类型被解析为基类，</span></div><div><span style="font-size: large;">调用的virtual函数是基类的，而不是子类的；</span></div><div><font size="4">析构函数一样，</font><span style="font-size: large;">子类</span><span style="font-size: large;">自身类型被解析为基类……</span></div><div><span style="font-size: large;"><br></span></div><div><font size="4">解决方法：</font></div><div><font size="4">最好将初始化代码，另外放在一个init初始化函数内。</font></div><div><font size="4"><br></font></div><div><font size="4"><br></font></div><div><font size="4"><b>条款10：令 operator= 返回一个reference to *this</b></font></div><div><font size="4"><b>have assignment operators return a reference to *this.</b></font></div><div><font size="4"><b><br></b></font></div><div><font size="4">x = y = z;//连锁赋值</font></div><div><font size="4">为了实现连锁赋值，赋值操作符必须返回一个reference指向操作符的左侧实参。</font></div><div><font size="4"><br></font></div><div><font size="4"><br></font></div><div><font size="4"><b>条款11：在operator=中处理“自我赋值”</b></font></div><div><font size="4"><b>handle assignment to self in operator=.</b></font></div><div><font size="4"><b><br></b></font></div><div><font size="4">赋值操作一般会先释放掉左值，再给左值赋值，</font></div><div><font size="4">假如左值右值是同一个对象，会导致“在停止使用资源之前意外释放了它”！</font></div><div><font size="4">所以</font></div><div><font size="4">Widget&amp; Widget::operator=(const Widget &amp;rhs){</font></div><div><font size="4">&nbsp; &nbsp; &nbsp;<b>if(this == &amp;rhs) return *this; // 证同测试 identity test</b></font></div><div><font size="4">&nbsp; &nbsp; &nbsp;...</font></div><div><font size="4">}</font></div><div><font size="4"><br></font></div><div><font size="4">还有其它方法的！</font></div><div><font size="4"><br></font></div><div><font size="4">确保对象自我赋值时operator=有良好的行为。</font></div><div><font size="4">有关技术包括：1.证同测试；2.copy-and-swap；3.精心周到的语句顺序。</font></div><div><font size="4"><br></font></div><div><span style="font-size: large;">2.copy-and-swap；</span></div><div><font size="4">Widget tmp(rhs);</font></div><div><font size="4">swap(temp); // 交换*this和rhs的数据</font></div><div><font size="4">return *this;</font></div><div><span style="font-size: large;"><br></span></div><div><span style="font-size: large;">3.精心周到的语句顺序。</span></div><div><font size="4">Bitmap *pOrig = pb;</font></div><div><font size="4">this.pb = new Bitmap(*rhs.pd); // 先创建复本</font></div><div><font size="4">delete pOrig; // 再delete原本</font></div><div><font size="4">return *this;</font></div><div><font size="4"><br></font></div><div><font size="4"><br></font></div><div><font size="4"><b>条款12：复制对象时勿忘其每一个成分</b></font></div><div><font size="4"><b>copy all parts of an object</b></font></div><div><font size="4"><b><br></b></font></div><div><font size="4">copying函数应该确保复制“对象内的所有成员变量”及“所有base class成分”。</font></div><div><font size="4"><br></font></div><div><font size="4">PriorityCustomer::PriorityCustomer（const&nbsp;</font><span style="font-size: large;">PriorityCustomer&amp; rhs)</span></div><div><span style="font-size: large;">&nbsp; &nbsp; &nbsp;<b>: Customer(rhs),</b></span></div><div><span style="font-size: large;">&nbsp; &nbsp; &nbsp; priority(rhs.priority){</span></div><div><span style="font-size: large;">&nbsp; &nbsp; &nbsp;...</span></div><div><span style="font-size: large;">}</span></div><div><span style="font-size: large;"><br></span></div><div><span style="font-size: large;">PriorityCustomer&amp;&nbsp;</span><span style="font-size: large;">PriorityCustomer::operator=(const&nbsp;</span><span style="font-size: large;">PriorityCustomer&amp; rhs){</span></div><div><font size="4">&nbsp; &nbsp; &nbsp;</font><span style="font-size: large;"><b>Customer::operator=(rhs);</b></span></div><div><font size="4">&nbsp; &nbsp; &nbsp;priority = rhs.priority; // 其它成员变量的赋值</font></div><div><font size="4">&nbsp; &nbsp; &nbsp;return *this;</font></div><div><font size="4">}</font></div><div><span style="font-size: large;"><br></span></div><div><span style="font-size: large;"><br></span></div><div><font size="4"><b>条款13：以对象管理资源</b></font></div><div><font size="4"><b>use objects to manage resources.</b></font></div><div><font size="4"><b><br></b></font></div><div><font size="4">Investment *pInv = createInvestment();</font></div><div><font size="4">... // 中间的代码可能抛出异常，可能return，</font></div><div><font size="4">&nbsp; &nbsp; &nbsp;// 导致最后无法运行到delete那一行，内存泄漏</font></div><div><font size="4">delete pInv;</font></div><div><font size="4"><br></font></div><div><font size="4">可以把资源放到对象里面，利用析构函数自动调用的机制，确保资源释放的问题。</font></div><div><font size="4">例如智能指针shared_ptr、unique_ptr。</font></div><div><font size="4">std::auto_ptr&lt;Investment&gt; pInv(createInvestment());</font></div><div><font size="4"><br></font></div><div><font size="4">关键：</font></div><div><font size="4">1.获得资源后立即放进管理对象内。</font><span style="font-size: large;">这个观念被称为“资源取得时机便是初始化时机”。</span></div><div><span style="font-size: large;">（Resource Acquisition Is Initialization——RAII）</span></div><div><span style="font-size: large;">2.管理对象运用析构函数确保资源被释放。</span></div><div><font size="4">若资源释放动作可能导致抛出异常，看条款8怎么处理。（另外使用一个普通函数进行该操作）</font></div><div><font size="4"><br></font></div><div><font size="4">auto_ptr和tr1::shared_ptr、unique_ptr等都在其析构函数内做delete而不是delete[]，</font></div><div><font size="4">意味着别将动态分配的array数组交给智能指针！会内存泄漏。</font></div><div><font size="4"><br></font></div><div><font size="4">C++并没有特别针对“动态分配数组”而设计类似的智能指针，</font></div><div><font size="4">vector、string可以取代动态分配而得的数组。</font></div><div><font size="4">boost::scored_array和boost::shared_array classes，就提供了以上你想要的内容，</font></div><div><font size="4">可是还没有采纳入C++标准库中。</font></div><div><font size="4"><br></font></div><div><font size="4"><br></font></div><div><font size="4"><b>条款14：在资源管理类中小心copying行为</b></font></div><div><font size="4"><b>think carefully about copying behaviour in resource-managing classes.</b></font></div><div><font size="4"><b><br></b></font></div><div><font size="4">RAII对象被复制，应该怎么处理，有两种方式：</font></div><div><font size="4">1.禁止复制。因为这样并不合理。</font></div><div><font size="4">2.使用类似于shared_ptr的引用计数（reference-count）。</font></div><div><font size="4"><br></font></div><div><font size="4">而且要注意：</font></div><div><font size="4">1.深拷贝底部资源</font></div><div><font size="4">2.或者转移底部资源的拥有权，如unique_ptr</font></div><div><font size="4"><br></font></div><div><font size="4"><br></font></div><div><font size="4"><b>条款15：在资源管理类中提供对原始资源的访问</b></font></div><div><font size="4"><b>provide access to raw resource in resource-managing classes.</b></font></div><div><font size="4"><b><br></b></font></div><div><font size="4">1.APIs往往要求访问原始资源raw resources，所以每个RAII class应该提供一个get()方法，<br></font></div><div><font size="4">2.对原始资源的访问可能经由显式转换或隐式转换。</font></div><div><font size="4">一般隐式转换较方便，显式转换较安全。</font></div><div><font size="4"><br></font></div><div><font size="4">class Font(){</font></div><div><font size="4">&nbsp; &nbsp; &nbsp;...</font></div><div><font size="4">&nbsp; &nbsp; &nbsp;FontHandle f; // 原始资源</font></div><div><font size="4">&nbsp; &nbsp; &nbsp;operator FontHandle() const // 隐式转换</font></div><div><font size="4">&nbsp; &nbsp; &nbsp;{ return f; }</font></div><div><font size="4">}</font></div><div><font size="4"><br></font></div><div><font size="4"><br></font></div><div><font size="4"><b>条款16：成对使用new和delete时要采用相同形式</b></font></div><div><font size="4"><b>use the same form in corresponding uses of new and delete.</b></font></div><div><font size="4"><b><br></b></font></div><div><font size="4">避免 typedef std::string AddressLines[4]; // 忘了typedef的用法自己查查！</font></div><div><font size="4">因为当你 std::string* pal = new AddressLines;</font></div><div><font size="4">别人不知道该用delete pal; 还是 delete[] pal;（这个才正确）。</font></div><div><font size="4"><br></font></div><div><font size="4">new时，使用了[]，必须在相应的delete表达式中也试用[]。</font></div><div><font size="4"><br></font></div><div><font size="4"><br></font></div><div><font size="4"><b>条款17：以独立语句将</b>new<b>ed对象置入智能指针</b></font></div><div><font size="4"><b>store newed objects in smart pointers in standalone statments.</b></font></div><div><font size="4"><b><br></b></font></div><div><font size="4">以独立语句将new出的对象储存于（置入）智能指针内。</font></div><div><font size="4">如果不这样做，一旦有一场被抛出，有可能导致难以察觉的资源泄漏。</font></div><div><font size="4"><br></font></div><div><font size="4">processWidget(std::tr1::shared_ptr&lt;Widget&gt;(new Widget), priority());</font></div><div><font size="4">不同编译器以何种顺序执行：</font></div><div><font size="4">A. &nbsp; &nbsp; new Widget</font></div><div><font size="4">B. &nbsp; &nbsp; tr1::shared_ptr的构造函数</font></div><div><font size="4">C. &nbsp; &nbsp; 调用priority()</font></div><div><font size="4"><br></font></div><div><font size="4">假如以ACB顺序执行，“</font><span style="font-size: large;">调用priority()</span><span style="font-size: large;">”时可能抛出异常，</span></div><div><span style="font-size: large;">导致new出的Widget没有及时放入智能指针，</span></div><div><font size="4">还是导致内存泄漏了……</font></div><div><font size="4"><br></font></div><div><font size="4">所以分开写成这样：</font></div><div><span style="font-size: large;">std::tr1::shared_ptr&lt;Widget&gt; pw(new Widget);</span></div><div><span style="font-size: large;">processWidget(pw, priority());</span></div><div><font size="4"><br></font></div><div><font size="4"><br></font></div><div><font size="4"><b>条款18：让借口容易被正确被使用，不易被误用</b></font></div><div><font size="4"><b>make interface easy to use correctly and hard to use incorrectly.</b></font></div><div><font size="4"><b><br></b></font></div><div><font size="4">函数调用的时候，参数的顺序可能出错，所以可以通过导入相应的类型预防。</font></div><div><font size="4">如：Date(const Month&amp; m, const Day&amp; d);</font></div><div><font size="4">// 而非直接用int指代月份和日，还可以用enum</font></div><div><font size="4"><br></font></div><div><font size="4">Investment* createInvestment(); // 这样要求用户记得delete，而且不超过1次</font></div><div><font size="4">不能将责任推给智能指针，因为用户还是可能忘记使用。所以</font></div><div><font size="4">std::tr1::shared_ptr&lt;Investment&gt; createInvestment();</font></div><div><font size="4">强行返回智能指针，先发制人，要求客户使用智能指针。</font></div><div><font size="4"><br></font></div><div><font size="4">智能指针可以指定删除器，而非总是使用delete。</font></div><div><span style="font-size: large;">std::tr1::shared_ptr&lt;Investment&gt; pInv(0, getRidOfInvestment);</span></div><div><span style="font-size: large;">getRidOfInvestment是作为删除器的函数名（函数指针）。</span></div><div><font size="4">上例并不够好，0只是个int，而非空指针，而智能指针坚持要一个指针，</font><font size="4">所以</font></div><div><span style="font-size: large;">std::tr1::shared_ptr&lt;Investment&gt; pInv(static_cast&lt;</span><span style="font-size: large;">Investment*</span><span style="font-size: large;">&gt;(0), getRidOfInvestment);</span></div><div><span style="font-size: large;"><br></span></div><div><font size="4">阻止误用的办法：建立新类型、限制类型上的操作，束缚对象值，以及消除客户的资源管理责任。</font></div><div><font size="4">tr1：：shared_ptr支持定制删除器 (custom deleter)。</font></div><div><font size="4">可以防范DLL问题，可被用来自动解除互斥锁（见条款14，原书）。</font></div></div>
   
 	</div>
-		<!-- jiathis的点赞按钮！-->
-<!-- 有了多说评论框的“喜欢”按钮就足够了 -->
-<!-- JiaThis Button BEGIN -->
-<!--
-<div class="jiathis_style">
-	<a class="jiathis_like_tsina" data="width=120"></a>
-	<a class="jiathis_like_qzone"></a>
-</div>
-<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
--->
-<!-- JiaThis Button END -->
-
-<!-- Donate Module -->
-<div>
-	<!-- css -->
-	<style type="text/css">
-		.donate_bar a.btn_donate{
-			display: inline-block;
-			width: 82px;
-			height: 82px;
-			background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
-			_background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat; 
-			
-			<!-- 因为本 hexo 生成的博客所用的 theme 的 a:hover 带动画效果，
-				 为了在让打赏按钮显示效果正常 而 添加了以下几行 css，
-				 嵌入其它博客时不一定要它们。 -->
-			-webkit-transition: background 0s;
-			-moz-transition: background 0s;
-			-o-transition: background 0s;
-			-ms-transition: background 0s;
-			transition: background 0s;
-			<!-- /让打赏按钮的效果显示正常 而 添加的几行 css 到此结束 -->
-		}
-		.donate_bar a.btn_donate:hover{ background-position: 0px -82px;}
-		.donate_bar .donate_txt {
-			display: block;
-			color: #9d9d9d;
-			font: 14px/2 "Microsoft Yahei";
-		}
-		.bold{ font-weight: bold; }
-	</style>
-	<!-- /css -->
-	
-	<!-- form -->
-	<form id="donate" action="https://shenghuo.alipay.com/send/payment/fill.htm" method="POST" target="_blank" accept-charset="GBK">
-		<input name="optEmail" type="hidden" value="ice_he@foxmail.com" />
-		<input name="payAmount" type="hidden" value="1.00" />
-		<input id="title" name="title" type="hidden" value="打赏《Effective C++ - 》"/>
-		<input name="memo" type="hidden" value="留下您的大名及联系方式(email,blog,etc)，多交流共勉共进：" />
-	</form>
-	<!-- /form -->
-
-	<!-- btn_donate & tips -->
-	<div id="donate_board" class="donate_bar center">
-		<a id="btn_donate" class="btn_donate" href="javascript:;" title="Donate 打赏"></a>
-		<span class="donate_txt">
-			&uarr;<br/>
-			If you enjoy the article, please feel free to <span class="bold">donate~</span> Thx.<br/>
-			若本文对您有帮助，<span class="bold">求打赏~</span> 谢谢您的鼓励。
-		</span>
-		<br/>
-	</div>
-	<!-- /btn_donate & tips -->
-	
-	<!-- donate guide -->
-	<div id="donate_guide" class="donate_bar center hidden">
-		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="3MPNAMMQA4C8Y">	&nbsp; &nbsp; 
-			<input type="image" width="auto" height="40em"
-				src="http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg" 
-				border="0" name="submit" alt="PayPal——最安全便捷的在线支付方式！"
-				style="margin-bottom: 0.5em;">
-			<img alt="" border="0" width="1" height="1" 
-				src="https://www.paypalobjects.com/zh_XC/i/scr/pixel.gif" >
-		</form>
-
-		<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg" title="Alipay_Scan_Payment" class="fancybox" rel="article0">
-			<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg" title="Donate 打赏" height="164px" width="164px"/>
-		</a> &nbsp; 
-		
-		<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" title="Alipay_Scan_Payment" class="fancybox" rel="article0">
-			<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" title="Thanks 谢谢~" height="164px" width="164px"/>
-		</a> &nbsp; 
-		
-		<a href="http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg" title="WeChat_Scan_Payment" class="fancybox" rel="article0">
-			<img src="http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg" title="Donate 打赏" height="164px" width="auto"/>
-		</a>
-		
-		<span class="donate_txt">
-			Use App <span class="bold"><a href="http://global.alipay.com/ospay/home.htm">Alipay</a> / <a href="http://www.wechat.com/en/">WeChat</a></span>
-			to scan QRCode~ Thx for your support.<br/>
-			
-			用手机 <span class="bold"><a href="https://mobile.alipay.com/index.htm">支付宝钱包</a> / <a href="http://weixin.qq.com/">微信</a></span>，
-			扫一扫即可~ 谢谢您的鼓励。<br/>
-			<br/>
-			
-			Or donate on <a id="donate_on_web2" class="bold" href="javascript:donate_on_web();" title="Donate 打赏">Web Alipay</a>. /
-			
-			也可用 <a id="donate_on_web1" class="bold" href="javascript:donate_on_web();" title="Donate 打赏">网页版支付宝</a> 
-			打赏。<br/>
-		</span>
-		<br/>
-	</div>
-	<!-- /donate guide -->
-	
-	<!-- donate script -->
-	<script type="text/javascript">
-		document.getElementById('btn_donate').onclick = function(){
-			$('#donate_board').addClass('hidden');
-			$('#donate_guide').removeClass('hidden');
-		}
-		
-		function donate_on_web(){
-			$('#donate').submit();
-		}
-	</script>
-	<!-- /donate script -->
-</div>
-<!-- /Donate Module -->
-
-<footer class="article-footer clearfix">
+		<footer class="article-footer clearfix">
 <div class="article-catetags">
 
 <div class="article-categories">
@@ -283,7 +162,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://icehe.gitcafe.io/c++/Effective C++ - Reading Note 1/" data-title="Effective C++ - Reading Note 1 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
+	  <div data-url="http://icehe.me/c++/Effective C++ - Reading Note 1/" data-title="Effective C++ - Reading Note 1 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -325,6 +204,7 @@
 
 <script type="text/javascript">
 
+
 var duoshuoQuery = {short_name:"icehe"};
 (function() {
 	var ds = document.createElement('script');
@@ -335,26 +215,10 @@ var duoshuoQuery = {short_name:"icehe"};
 	|| document.getElementsByTagName('body')[0]).appendChild(ds);
 })();
 
-//if (typeof DUOSHUO !== 'undefined')hookDUOSHUO_tp();
-//else $('[src="http://static.duoshuo.com/embed.js"]')[0].onload=hookDUOSHUO_tp;
-//function hookDUOSHUO_tp(){
-//	var _D_post=DUOSHUO.templates.post
-//	DUOSHUO.templates.post=function (e,t){
-//		var rs=_D_post(e,t);
-//		if(e.post.agent&&/^Mozilla/.test(e.post.agent))rs=rs.replace(/<\/div><p>/,show_ua(e.post.agent)+'</div><p>');
-//		return rs;
-//	}
-//}
-//function show_ua(string){
-//	$.ua.set(string);
-//	var sua=$.ua;
-//	if(sua.os.version=='x86_64')sua.os.version='x64';
-//	return '<span class="this_ua platform '+sua.os.name+'">'+sua.os.name+' '+sua.os.version+'</span><span class="this_ua browser '+sua.browser.name+'">'+sua.browser.name+'|'+sua.browser.version+'</span>';
-//}
 
 
 
-document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="c++/Effective C++ - Reading Note 1/" data-title="Effective C++ - Reading Note 1" data-url="http://icehe.gitcafe.io/c++/Effective C++ - Reading Note 1/"></div>'
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="c++/Effective C++ - Reading Note 1/" data-title="Effective C++ - Reading Note 1" data-url="http://icehe.me/c++/Effective C++ - Reading Note 1/"></div>'
 //	+ '<hr/>'
 //	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
 //	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
@@ -383,6 +247,7 @@ document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thr
 //}
 
 </script>
+
 </div>  
       <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
 
@@ -940,7 +805,6 @@ $(document).ready(function(){
     }
   });
 </script>
-
 
   </body>
 </html>

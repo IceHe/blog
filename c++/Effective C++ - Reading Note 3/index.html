@@ -16,7 +16,7 @@
 	<meta name="description" content="complilation dependencies 编译依存关系降至最低。public -&amp;gt; is-a关系。Interface, Inheritance 接口与继承。绝不重新定义继承而来的non-virtual函数。has-a 关系。多重继承。Implict Interface, Polymorphism 隐式接口和编译期多态。typename。学习处理模板化基类内的名称。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Effective C++ - Reading Note 3">
-<meta property="og:url" content="http://icehe.gitcafe.io/c++/Effective C++ - Reading Note 3/index.html">
+<meta property="og:url" content="http://icehe.me/c++/Effective C++ - Reading Note 3/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="complilation dependencies 编译依存关系降至最低。public -&amp;gt; is-a关系。Interface, Inheritance 接口与继承。绝不重新定义继承而来的non-virtual函数。has-a 关系。多重继承。Implict Interface, Polymorphism 隐式接口和编译期多态。typename。学习处理模板化基类内的名称。">
 <meta property="og:updated_time" content="2016-01-15T12:29:15.000Z">
@@ -45,16 +45,16 @@
   <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
 
   <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE" />
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
   <!-- Google Fonts from 360 CDN -->
   <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
 
   <!-- Common CSS -->
   <style type="text/css">
-    .center{ text-align: center; }
-    .hidden{ display: none;	}
-    /*span.hitokoto a{ color: white; } // for 一言*/
+    .center { text-align: center; }
+    .hidden { display: none; }
+    /*span.hitokoto a { color: white; } // for 一言*/
   </style>
 
   <!-- font-awesome -->
@@ -101,10 +101,10 @@
 				<li>
 				
 
-					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8" target="_blank">
+					<form class="search" action="/search/index.html" method="get" accept-charset="utf-8">
+					<!--<form class="search" action="" method="get" accept-charset="utf-8">-->
 						<label>Search</label>
-						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Find" />
-						<input type="hidden" name="q" value="site:icehe.gitcafe.io">
+						<input type="search" id="search" autocomplete="on" name="q" maxlength="20" placeholder="Find" />
 					</form>
 
 				
@@ -144,128 +144,7 @@ public:</div><div>&nbsp; &nbsp; &nbsp;virtual void fly(const Airport&amp; destin
 &nbsp; &nbsp; &nbsp; virtual int calc (const GameCharacter&amp; gc) const</div><div>&nbsp; &nbsp; &nbsp;{...}</div><div>&nbsp; &nbsp; &nbsp;...</div><div>};</div><div><br></div><div>HealthCalcFunc defaultHealthCalc;</div><div>class GameCharacter{</div><div>public:</div><div>&nbsp; &nbsp; &nbsp;explicit GameCharater(HealthCalcFunc phcf = &amp;defaultHealthCalc)</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : pHealthFunc(phcf)</div><div>&nbsp; &nbsp; &nbsp;{...}</div><div>&nbsp; &nbsp; &nbsp;int healthValue() const{</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return&nbsp;pHealthFunc-&gt;calc(*this);</div><div>&nbsp; &nbsp; &nbsp;}</div><div>private:</div><div>&nbsp; &nbsp; &nbsp;HealthCalcFunc *pHealthFunc;</div><div>};</div><div><b><br></b></div><div><b><br></b></div><div><b>条款36：绝不重新定义继承而来的non-virtual函数</b></div><div><b>never redefine an inherited non-virtual function.</b></div><div><b><br></b></div><div>non-virtual 函数是静态绑定的（dynamically bound），</div><div>virtual函数是动态绑定的（statically bound）。</div><div>所以virtual<b>根据该对象的实际类型</b>调用相应的函数，</div><div>而non-virtual则是<b>根据指针类型</b>去调用相应的函数的。</div><div><br></div><div>一个在基类内，声明为non-virtual的函数，它提供的特性</div><div>是为了该class建立起一个不变性（质），</div><div>凌驾其（继承它的子类的）特异性。</div><div>即是，适用于基类父类的该特性，同样适用于其所有子类对象。</div><div><br></div><div>不变性（invariant）；特异性（specialization）。</div><div><b><br></b></div><div><b><br></b></div><div><b>条款37：绝不重新定义继承而来的缺省参数值</b></div><div><b>never redefine a function&apos;s inherited default parameter value.</b></div><div><b><br></b></div><div>virtual函数是动态绑定（early binding前期绑定）的，</div><div>而缺省参数值却是静态绑定（late binding后期绑定）的！</div><div><br></div><div>子类virtual函数重新指定缺省值的话，是没有用的，</div><div>使用的缺省值还是基类的缺省值。</div><div><br></div><div><b><br></b></div><div><b>条款38：通过复合塑模出has-a或“根据某物实现出”</b></div><div><b>model &quot;has-a&quot; or &quot;is-implemented-int-terms of&quot; through composition.</b></div><div><b><br></b></div><div>composition复合，其同义词包括：</div><div>layering分层、containment内含、aggregation聚合，embedding内嵌。</div><div><br></div><div><br></div><div><b>条款39：</b><b>明智而审慎低使用private继承</b></div><div><b>use private inheritance judiciously.</b></div><div><br></div><div>private继承意味着is-implemented-in-terms-of（根据某物实现出）。</div><div>它通常比符合（composition）的级别低。</div><div>但当derived class需要访问protected base class的成员</div><div>或需要重新定义继承而来的virtual函数时，这么设计是合理的。</div><div><br></div><div>和复合（composition）不同，private继承可以造成empty base最优化。</div><div>这对致力于尺寸最小化的程序库开发者而言，可能很重要。</div><div><br></div><div><b><br></b></div><div><b>条款40：明智而审慎低使用多重继承</b></div></div><div><b>use multiple inheritance judiciouly.</b></div><div><b><br></b></div><div>virtual继承，防止derived class有多个base classes对象。</div><div>class File{...};</div><div>class InputFile : virtual public File{...};</div><div>class OutputFile : virtual public File{...};</div><div>clsss IOFile : public InputFile, public OutputFile{...};</div><div><br></div><div>但，virtual继承比non-virtual继承的兄弟们体积大，</div><div>访问virtual base classes的成员变量时，速度也变慢了。</div><div><br></div><div>1.多重继承比单一继承复杂。它可能导致新的歧义性，以及对virtual继承的需要。</div><div>2.virtual极成灰增加大小、速度、初始化（及赋值）复杂度等等成本。</div><div>如果virtual base classes不带有任何数据，将是最具实用价值的情况。</div><div>3.多重继承的确有正当用途。</div><div>其中一个情节设计“public继承某个Interface class”</div><div>和“private继承某个协助实现的class”的两两组合。</div><div><br></div><div><br></div><div><b>条款41：了解隐式接口和编译期多态</b></div><div><b>understand implicit interfaces and compile-time polymorphism.</b></div><div><b><br></b></div><div>1.classes和interfaces都支持接口和多态。</div><div>2.对classes而言接口是显式的（explicit），以函数签名为中心。</div><div>多态则是通过virtual函数发生于运行期。</div><div>3.对templates参数而言，接口是隐式的（implicit），奠基于有效表达式。</div><div><b>多态是通过template具现化和函数重载解析（function overloading resolution）</b></div><div>发生于编译期。</div><div><b><br></b></div><div><b><br></b></div><div><b>条款42：了解typename的双重意义</b></div><div><b>understand the two meanings of typename.</b></div><div><b><br></b></div><div>1.声明template参数时，前缀关键字class和typename可互换。</div><div>2.请使用关键字typename标识嵌套从属类型名称；</div><div>但不得在base class lists（基类列）或member initialization list（成员初值列）</div><div>内以它作为base class修饰符。</div><div><br></div><div>template&lt;typename T&gt;</div><div>void func(){</div><div>&nbsp; &nbsp; &nbsp;typename T::const_iterator&nbsp;iter(container.begin());</div><div>&nbsp; &nbsp; &nbsp;... // 只是以防T类型中有一个static成员也叫const_iterator，</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // typename关键字就说清楚了，这指的是类型，而非其它！</div><div>}</div><div><br></div><div><br></div><div><b>条款43：学习处理模板化基类内的名称</b></div><div><b>know how to access names in templatized base classes.</b></div><div><br></div><div>template&lt;typename Company&gt;</div><div>class LoggingMsgSender : public MsgSender&lt;Company&gt;{</div><div>public:<br></div><div>&nbsp; &nbsp; &nbsp;void sendClearMsg(const MsgInfo&amp; info){</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ...</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sendClear(info);</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ... // 虽然上一句是调用的是基类的函数，但是却无法通过编译！为什么呢？</div><div>&nbsp; &nbsp; &nbsp;}</div><div>};</div><div>因为这是类模板的编程：</div><div>首先不知道Company是什么类型。</div><div>不到编译期，MsgSender&lt;Company&gt;就还不会生成具体的模板类，</div><div>那么该子类就不知道它的父类具体是什么样子的！</div><div><br></div><div>解决方法：</div><div>1.最好</div><div><b>this-&gt;</b>sendClear(info);</div><div><br></div><div>2.</div><div>template&lt;typename Company&gt;</div><div>class LoggingMsgSender : public MsgSender&lt;Company&gt;{</div><div>public:<br></div><div>&nbsp; &nbsp; &nbsp;<b>using MsgSender&lt;Company&gt;::sendClear;</b></div><div>&nbsp; &nbsp; &nbsp;void sendClearMsg(const MsgInfo&amp; info){</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ...</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sendClear(info);</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ... // 虽然上一句是调用的是基类的函数，但是却无法通过编译！为什么呢？</div><div>&nbsp; &nbsp; &nbsp;}</div><div>};</div><div><br></div><div>3.最差</div><div><b>MsgSender&lt;Company&gt;::</b>sendClear(info);</div><div>因为如果该函数是virtual的，它会关闭virtual的绑定行为。</div><div><br></div><div>可在derived class templates内通过“this-&gt;”指涉base class templates内的成员名称，</div><div>或藉由一个明白写出的“base class资格修饰符”完成。</div></div>
   
 	</div>
-		<!-- jiathis的点赞按钮！-->
-<!-- 有了多说评论框的“喜欢”按钮就足够了 -->
-<!-- JiaThis Button BEGIN -->
-<!--
-<div class="jiathis_style">
-	<a class="jiathis_like_tsina" data="width=120"></a>
-	<a class="jiathis_like_qzone"></a>
-</div>
-<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
--->
-<!-- JiaThis Button END -->
-
-<!-- Donate Module -->
-<div>
-	<!-- css -->
-	<style type="text/css">
-		.donate_bar a.btn_donate{
-			display: inline-block;
-			width: 82px;
-			height: 82px;
-			background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
-			_background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat; 
-			
-			<!-- 因为本 hexo 生成的博客所用的 theme 的 a:hover 带动画效果，
-				 为了在让打赏按钮显示效果正常 而 添加了以下几行 css，
-				 嵌入其它博客时不一定要它们。 -->
-			-webkit-transition: background 0s;
-			-moz-transition: background 0s;
-			-o-transition: background 0s;
-			-ms-transition: background 0s;
-			transition: background 0s;
-			<!-- /让打赏按钮的效果显示正常 而 添加的几行 css 到此结束 -->
-		}
-		.donate_bar a.btn_donate:hover{ background-position: 0px -82px;}
-		.donate_bar .donate_txt {
-			display: block;
-			color: #9d9d9d;
-			font: 14px/2 "Microsoft Yahei";
-		}
-		.bold{ font-weight: bold; }
-	</style>
-	<!-- /css -->
-	
-	<!-- form -->
-	<form id="donate" action="https://shenghuo.alipay.com/send/payment/fill.htm" method="POST" target="_blank" accept-charset="GBK">
-		<input name="optEmail" type="hidden" value="ice_he@foxmail.com" />
-		<input name="payAmount" type="hidden" value="1.00" />
-		<input id="title" name="title" type="hidden" value="打赏《Effective C++ - 》"/>
-		<input name="memo" type="hidden" value="留下您的大名及联系方式(email,blog,etc)，多交流共勉共进：" />
-	</form>
-	<!-- /form -->
-
-	<!-- btn_donate & tips -->
-	<div id="donate_board" class="donate_bar center">
-		<a id="btn_donate" class="btn_donate" href="javascript:;" title="Donate 打赏"></a>
-		<span class="donate_txt">
-			&uarr;<br/>
-			If you enjoy the article, please feel free to <span class="bold">donate~</span> Thx.<br/>
-			若本文对您有帮助，<span class="bold">求打赏~</span> 谢谢您的鼓励。
-		</span>
-		<br/>
-	</div>
-	<!-- /btn_donate & tips -->
-	
-	<!-- donate guide -->
-	<div id="donate_guide" class="donate_bar center hidden">
-		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="3MPNAMMQA4C8Y">	&nbsp; &nbsp; 
-			<input type="image" width="auto" height="40em"
-				src="http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg" 
-				border="0" name="submit" alt="PayPal——最安全便捷的在线支付方式！"
-				style="margin-bottom: 0.5em;">
-			<img alt="" border="0" width="1" height="1" 
-				src="https://www.paypalobjects.com/zh_XC/i/scr/pixel.gif" >
-		</form>
-
-		<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg" title="Alipay_Scan_Payment" class="fancybox" rel="article0">
-			<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg" title="Donate 打赏" height="164px" width="164px"/>
-		</a> &nbsp; 
-		
-		<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" title="Alipay_Scan_Payment" class="fancybox" rel="article0">
-			<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" title="Thanks 谢谢~" height="164px" width="164px"/>
-		</a> &nbsp; 
-		
-		<a href="http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg" title="WeChat_Scan_Payment" class="fancybox" rel="article0">
-			<img src="http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg" title="Donate 打赏" height="164px" width="auto"/>
-		</a>
-		
-		<span class="donate_txt">
-			Use App <span class="bold"><a href="http://global.alipay.com/ospay/home.htm">Alipay</a> / <a href="http://www.wechat.com/en/">WeChat</a></span>
-			to scan QRCode~ Thx for your support.<br/>
-			
-			用手机 <span class="bold"><a href="https://mobile.alipay.com/index.htm">支付宝钱包</a> / <a href="http://weixin.qq.com/">微信</a></span>，
-			扫一扫即可~ 谢谢您的鼓励。<br/>
-			<br/>
-			
-			Or donate on <a id="donate_on_web2" class="bold" href="javascript:donate_on_web();" title="Donate 打赏">Web Alipay</a>. /
-			
-			也可用 <a id="donate_on_web1" class="bold" href="javascript:donate_on_web();" title="Donate 打赏">网页版支付宝</a> 
-			打赏。<br/>
-		</span>
-		<br/>
-	</div>
-	<!-- /donate guide -->
-	
-	<!-- donate script -->
-	<script type="text/javascript">
-		document.getElementById('btn_donate').onclick = function(){
-			$('#donate_board').addClass('hidden');
-			$('#donate_guide').removeClass('hidden');
-		}
-		
-		function donate_on_web(){
-			$('#donate').submit();
-		}
-	</script>
-	<!-- /donate script -->
-</div>
-<!-- /Donate Module -->
-
-<footer class="article-footer clearfix">
+		<footer class="article-footer clearfix">
 <div class="article-catetags">
 
 <div class="article-categories">
@@ -285,7 +164,7 @@ public:</div><div>&nbsp; &nbsp; &nbsp;virtual void fly(const Airport&amp; destin
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://icehe.gitcafe.io/c++/Effective C++ - Reading Note 3/" data-title="Effective C++ - Reading Note 3 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
+	  <div data-url="http://icehe.me/c++/Effective C++ - Reading Note 3/" data-title="Effective C++ - Reading Note 3 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -327,6 +206,7 @@ public:</div><div>&nbsp; &nbsp; &nbsp;virtual void fly(const Airport&amp; destin
 
 <script type="text/javascript">
 
+
 var duoshuoQuery = {short_name:"icehe"};
 (function() {
 	var ds = document.createElement('script');
@@ -337,26 +217,10 @@ var duoshuoQuery = {short_name:"icehe"};
 	|| document.getElementsByTagName('body')[0]).appendChild(ds);
 })();
 
-//if (typeof DUOSHUO !== 'undefined')hookDUOSHUO_tp();
-//else $('[src="http://static.duoshuo.com/embed.js"]')[0].onload=hookDUOSHUO_tp;
-//function hookDUOSHUO_tp(){
-//	var _D_post=DUOSHUO.templates.post
-//	DUOSHUO.templates.post=function (e,t){
-//		var rs=_D_post(e,t);
-//		if(e.post.agent&&/^Mozilla/.test(e.post.agent))rs=rs.replace(/<\/div><p>/,show_ua(e.post.agent)+'</div><p>');
-//		return rs;
-//	}
-//}
-//function show_ua(string){
-//	$.ua.set(string);
-//	var sua=$.ua;
-//	if(sua.os.version=='x86_64')sua.os.version='x64';
-//	return '<span class="this_ua platform '+sua.os.name+'">'+sua.os.name+' '+sua.os.version+'</span><span class="this_ua browser '+sua.browser.name+'">'+sua.browser.name+'|'+sua.browser.version+'</span>';
-//}
 
 
 
-document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="c++/Effective C++ - Reading Note 3/" data-title="Effective C++ - Reading Note 3" data-url="http://icehe.gitcafe.io/c++/Effective C++ - Reading Note 3/"></div>'
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="c++/Effective C++ - Reading Note 3/" data-title="Effective C++ - Reading Note 3" data-url="http://icehe.me/c++/Effective C++ - Reading Note 3/"></div>'
 //	+ '<hr/>'
 //	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
 //	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
@@ -385,6 +249,7 @@ document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thr
 //}
 
 </script>
+
 </div>  
       <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
 
@@ -942,7 +807,6 @@ $(document).ready(function(){
     }
   });
 </script>
-
 
   </body>
 </html>

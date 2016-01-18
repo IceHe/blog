@@ -16,7 +16,7 @@
 	<meta name="description" content="寄存器，段寄存器，CS和IP，修改CS、IP的指令，查看CPU和内存。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Assembly Language 汇编语言 - Note 1">
-<meta property="og:url" content="http://icehe.gitcafe.io/asm/Assembly Language - Note 1/index.html">
+<meta property="og:url" content="http://icehe.me/asm/Assembly Language - Note 1/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="寄存器，段寄存器，CS和IP，修改CS、IP的指令，查看CPU和内存。">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/4bc20fd901206044a792ae37d5ccd1b3.png">
@@ -57,16 +57,16 @@
   <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
 
   <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE" />
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
   <!-- Google Fonts from 360 CDN -->
   <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
 
   <!-- Common CSS -->
   <style type="text/css">
-    .center{ text-align: center; }
-    .hidden{ display: none;	}
-    /*span.hitokoto a{ color: white; } // for 一言*/
+    .center { text-align: center; }
+    .hidden { display: none; }
+    /*span.hitokoto a { color: white; } // for 一言*/
   </style>
 
   <!-- font-awesome -->
@@ -113,10 +113,10 @@
 				<li>
 				
 
-					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8" target="_blank">
+					<form class="search" action="/search/index.html" method="get" accept-charset="utf-8">
+					<!--<form class="search" action="" method="get" accept-charset="utf-8">-->
 						<label>Search</label>
-						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Find" />
-						<input type="hidden" name="q" value="site:icehe.gitcafe.io">
+						<input type="search" id="search" autocomplete="on" name="q" maxlength="20" placeholder="Find" />
 					</form>
 
 				
@@ -154,128 +154,7 @@
 指令<br><div>R &nbsp; &nbsp; 查看、改变CPU<b>寄存器</b>的内容</div><div>D &nbsp; &nbsp; 查看<b>内存</b>中的内容</div><div>E &nbsp; &nbsp; <b>改写</b>内存中的内容</div><div>U &nbsp; &nbsp; 将内存中的机器指令<b>翻译成汇编指令</b></div><div>T &nbsp; &nbsp; <b>执行</b>一条（CS:IP指向的）机器指令</div><div>A &nbsp; &nbsp; <b>以汇编指令</b>的格式，在内存中<b>写入一条机器指令</b></div><div><b><br></b></div><div>G &nbsp; &nbsp; 跳转执行到指定的内存位置</div><div>P &nbsp; &nbsp; 程序执行到最后一步，必须使用的指令</div><div><b><br></b></div><div>通用寄存器：ax,bx,cx,dx</div><div>段寄存器：ds,es,ss,cs</div><div>偏移地址寄存器：sp.ip,bp,si,di</div><div>标志寄存器：flag</div><div><br></div><div>熟悉基础操作过程的截图：</div><div><img width="633px" height="380px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/4bc20fd901206044a792ae37d5ccd1b3.png"></div><div><br></div><div><img width="628px" height="310px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/8274851476c413d426e343e69e8e5187.png"></div><div><br></div><div><img width="614px" height="193px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/17ee180333575eb889d093caeb72a845.png"></div><div><br></div><div><img width="337px" height="161px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/706f7ccda236318f3be58b20c32a521d.png"></div><div><br></div><div><img width="619px" height="353px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/55b18e7e228e351d59ab509d2d91d089.png"></div><div><br></div><div><img width="317px" height="145px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/565deced8c0a4ce33c0b5eb86a066b28.png"></div><div><br></div><div><img width="564px" height="381px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/1ee20fb40a66fb58acb5ba8312ac301d.png"></div><div><br></div><div><img width="617px" height="284px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/a04b37ec53451fff31c98c59b1ee0343.png"></div><div><br></div><div><br></div><div>实验任务：</div><div>（1）</div><div><img width="231px" height="288px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/bac5af4d74353db662a06aaf11cbe162.png"></div><div><br></div><div><img width="573px" height="385px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/3c1fa34129c318f8ef086ac0725b126a.png"></div><div><br></div><div><img width="564px" height="377px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/6b62a7dc51f24ad3ee0932c29fade4fc.png"></div><div><br></div><div><img width="622px" height="369px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/386bad5a0f13c43e209df53c0b81298f.png"></div><div><br></div><div>（2）计算2的8次方。</div><div>(在内存2000:0开始写该程序）</div><div>mov ax, 1</div><div>add ax, ax</div><div>add ax, ax</div><div>add ax, ax</div><div>&nbsp; &nbsp; &nbsp;or</div><div>mov ax, 1</div><div>add ax, ax</div><div>jmp 2000:3 &nbsp; &nbsp; (暂时的知识不足以写出循环控制语句！)</div><div>（3）结论：内存FFF00H~FFFFFH为ROM区,内容可读但不可写。</div><div>（4）结论：8086的显存地址空间是A0000H～BFFFFH,其中B8000H～BFFFFH为80*25彩色字符模式显示缓冲区,当向这个地址空间写入数据时,这些数据会立即出现在显示器上。</div></div>
   
 	</div>
-		<!-- jiathis的点赞按钮！-->
-<!-- 有了多说评论框的“喜欢”按钮就足够了 -->
-<!-- JiaThis Button BEGIN -->
-<!--
-<div class="jiathis_style">
-	<a class="jiathis_like_tsina" data="width=120"></a>
-	<a class="jiathis_like_qzone"></a>
-</div>
-<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
--->
-<!-- JiaThis Button END -->
-
-<!-- Donate Module -->
-<div>
-	<!-- css -->
-	<style type="text/css">
-		.donate_bar a.btn_donate{
-			display: inline-block;
-			width: 82px;
-			height: 82px;
-			background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
-			_background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat; 
-			
-			<!-- 因为本 hexo 生成的博客所用的 theme 的 a:hover 带动画效果，
-				 为了在让打赏按钮显示效果正常 而 添加了以下几行 css，
-				 嵌入其它博客时不一定要它们。 -->
-			-webkit-transition: background 0s;
-			-moz-transition: background 0s;
-			-o-transition: background 0s;
-			-ms-transition: background 0s;
-			transition: background 0s;
-			<!-- /让打赏按钮的效果显示正常 而 添加的几行 css 到此结束 -->
-		}
-		.donate_bar a.btn_donate:hover{ background-position: 0px -82px;}
-		.donate_bar .donate_txt {
-			display: block;
-			color: #9d9d9d;
-			font: 14px/2 "Microsoft Yahei";
-		}
-		.bold{ font-weight: bold; }
-	</style>
-	<!-- /css -->
-	
-	<!-- form -->
-	<form id="donate" action="https://shenghuo.alipay.com/send/payment/fill.htm" method="POST" target="_blank" accept-charset="GBK">
-		<input name="optEmail" type="hidden" value="ice_he@foxmail.com" />
-		<input name="payAmount" type="hidden" value="1.00" />
-		<input id="title" name="title" type="hidden" value="打赏《Assembly Languag》"/>
-		<input name="memo" type="hidden" value="留下您的大名及联系方式(email,blog,etc)，多交流共勉共进：" />
-	</form>
-	<!-- /form -->
-
-	<!-- btn_donate & tips -->
-	<div id="donate_board" class="donate_bar center">
-		<a id="btn_donate" class="btn_donate" href="javascript:;" title="Donate 打赏"></a>
-		<span class="donate_txt">
-			&uarr;<br/>
-			If you enjoy the article, please feel free to <span class="bold">donate~</span> Thx.<br/>
-			若本文对您有帮助，<span class="bold">求打赏~</span> 谢谢您的鼓励。
-		</span>
-		<br/>
-	</div>
-	<!-- /btn_donate & tips -->
-	
-	<!-- donate guide -->
-	<div id="donate_guide" class="donate_bar center hidden">
-		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="3MPNAMMQA4C8Y">	&nbsp; &nbsp; 
-			<input type="image" width="auto" height="40em"
-				src="http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg" 
-				border="0" name="submit" alt="PayPal——最安全便捷的在线支付方式！"
-				style="margin-bottom: 0.5em;">
-			<img alt="" border="0" width="1" height="1" 
-				src="https://www.paypalobjects.com/zh_XC/i/scr/pixel.gif" >
-		</form>
-
-		<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg" title="Alipay_Scan_Payment" class="fancybox" rel="article0">
-			<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg" title="Donate 打赏" height="164px" width="164px"/>
-		</a> &nbsp; 
-		
-		<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" title="Alipay_Scan_Payment" class="fancybox" rel="article0">
-			<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" title="Thanks 谢谢~" height="164px" width="164px"/>
-		</a> &nbsp; 
-		
-		<a href="http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg" title="WeChat_Scan_Payment" class="fancybox" rel="article0">
-			<img src="http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg" title="Donate 打赏" height="164px" width="auto"/>
-		</a>
-		
-		<span class="donate_txt">
-			Use App <span class="bold"><a href="http://global.alipay.com/ospay/home.htm">Alipay</a> / <a href="http://www.wechat.com/en/">WeChat</a></span>
-			to scan QRCode~ Thx for your support.<br/>
-			
-			用手机 <span class="bold"><a href="https://mobile.alipay.com/index.htm">支付宝钱包</a> / <a href="http://weixin.qq.com/">微信</a></span>，
-			扫一扫即可~ 谢谢您的鼓励。<br/>
-			<br/>
-			
-			Or donate on <a id="donate_on_web2" class="bold" href="javascript:donate_on_web();" title="Donate 打赏">Web Alipay</a>. /
-			
-			也可用 <a id="donate_on_web1" class="bold" href="javascript:donate_on_web();" title="Donate 打赏">网页版支付宝</a> 
-			打赏。<br/>
-		</span>
-		<br/>
-	</div>
-	<!-- /donate guide -->
-	
-	<!-- donate script -->
-	<script type="text/javascript">
-		document.getElementById('btn_donate').onclick = function(){
-			$('#donate_board').addClass('hidden');
-			$('#donate_guide').removeClass('hidden');
-		}
-		
-		function donate_on_web(){
-			$('#donate').submit();
-		}
-	</script>
-	<!-- /donate script -->
-</div>
-<!-- /Donate Module -->
-
-<footer class="article-footer clearfix">
+		<footer class="article-footer clearfix">
 <div class="article-catetags">
 
 <div class="article-categories">
@@ -295,7 +174,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://icehe.gitcafe.io/asm/Assembly Language - Note 1/" data-title="Assembly Language 汇编语言 - Note 1 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
+	  <div data-url="http://icehe.me/asm/Assembly Language - Note 1/" data-title="Assembly Language 汇编语言 - Note 1 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -337,6 +216,7 @@
 
 <script type="text/javascript">
 
+
 var duoshuoQuery = {short_name:"icehe"};
 (function() {
 	var ds = document.createElement('script');
@@ -347,26 +227,10 @@ var duoshuoQuery = {short_name:"icehe"};
 	|| document.getElementsByTagName('body')[0]).appendChild(ds);
 })();
 
-//if (typeof DUOSHUO !== 'undefined')hookDUOSHUO_tp();
-//else $('[src="http://static.duoshuo.com/embed.js"]')[0].onload=hookDUOSHUO_tp;
-//function hookDUOSHUO_tp(){
-//	var _D_post=DUOSHUO.templates.post
-//	DUOSHUO.templates.post=function (e,t){
-//		var rs=_D_post(e,t);
-//		if(e.post.agent&&/^Mozilla/.test(e.post.agent))rs=rs.replace(/<\/div><p>/,show_ua(e.post.agent)+'</div><p>');
-//		return rs;
-//	}
-//}
-//function show_ua(string){
-//	$.ua.set(string);
-//	var sua=$.ua;
-//	if(sua.os.version=='x86_64')sua.os.version='x64';
-//	return '<span class="this_ua platform '+sua.os.name+'">'+sua.os.name+' '+sua.os.version+'</span><span class="this_ua browser '+sua.browser.name+'">'+sua.browser.name+'|'+sua.browser.version+'</span>';
-//}
 
 
 
-document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="asm/Assembly Language - Note 1/" data-title="Assembly Language 汇编语言 - Note 1" data-url="http://icehe.gitcafe.io/asm/Assembly Language - Note 1/"></div>'
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="asm/Assembly Language - Note 1/" data-title="Assembly Language 汇编语言 - Note 1" data-url="http://icehe.me/asm/Assembly Language - Note 1/"></div>'
 //	+ '<hr/>'
 //	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
 //	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
@@ -395,6 +259,7 @@ document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thr
 //}
 
 </script>
+
 </div>  
       <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
 
@@ -952,7 +817,6 @@ $(document).ready(function(){
     }
   });
 </script>
-
 
   </body>
 </html>
