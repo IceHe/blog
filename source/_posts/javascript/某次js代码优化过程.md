@@ -33,7 +33,7 @@ blinklink();
 function blinklink() {
     //精简代码：去掉无效代码，减少闪烁的颜色，并使用jQuery写法
     if ($( '#blink').css('color' ) == "rgb(255, 0, 0)"){
-      $('#blink').css( 'color', 'white' );
+        $('#blink').css( 'color', 'white' );
     } else {
         $('#blink').css('color' , 'red' );
     }
@@ -50,10 +50,10 @@ blinklink();
 var color = 'red' ;
 function change_color() {
     if (color == 'red'){
-      color = 'white';
-      return 'white' ;
+        color = 'white';
+        return 'white' ;
     } else {
-      color = 'red';
+        color = 'red';
         return 'red';
     }
 }
@@ -70,9 +70,9 @@ setInterval("$('#blink').css('color', change_color);", 500);
 var color = 'red' ;
 function change_color() {
     if (color == 'red'){
-      color = 'white';
+        color = 'white';
     } else {
-      color = 'red';
+        color = 'red';
     }
     return color; //精简代码：return语句提取出来。
 }
@@ -85,8 +85,8 @@ setInterval("$('#blink').css('color', change_color);", 500);
 //精简代码：使用布尔变量，以及“ ?: ”表达语句。
 var isRed = true;
 function change_color(){
-      isRed = !isRed;
-      $('#blink').css('color' , isRed ? 'white' : 'red');
+    isRed = !isRed;
+    $('#blink').css('color' , isRed ? 'red' : 'white' );
 }
 setInterval('change_color();', 1000);
 ```
@@ -97,7 +97,7 @@ setInterval('change_color();', 1000);
 //精简代码：压缩语句
 var isRed = true;
 function change_color(){
-      $('#blink').css('color' , (isRed = !isRed) ? 'white' : 'red');
+    $('#blink').css('color' , (isRed = !isRed) ? 'red' : 'white');
 }
 setInterval('change_color();', 750);
 ```
@@ -120,9 +120,9 @@ setInterval('change_color();', 750);
 var color = 'red' ;
 function change_color() {
     if (color == 'red'){
-      color = 'white';
+        color = 'white';
     } else {
-      color = 'red';
+        color = 'red';
     }
     return color;
 }
