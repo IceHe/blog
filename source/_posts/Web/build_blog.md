@@ -5,7 +5,7 @@ tags: [Web]
 description: Why 初衷、How 过程，Hexo Course 建站教程，Custom Points 定制点，Theme 主题，Domain Name 域名，Bed Room 图床，Internal Site Search 站内搜索，404 找不到页面，Sitemap and RSS 站点地图与订阅，Site Analysis 网站分析，Page View 访问数的统计与显示，Others 其它。
 ---
 
-- *Updated on 2015-12-27*
+- *Updated on 2016-01-19*
 
 **上一版**：[Why and How to bulid my blog? 搭建我的个人博客。](/old_version_posts/Why_and_how_to_build_my_blog.html)
 
@@ -223,11 +223,14 @@ description: Why 初衷、How 过程，Hexo Course 建站教程，Custom Points 
 	百度站内搜索的体验也不佳。<br/><br/>
 	
 	推荐：
-	(1) 我的选择：[Swiftype](https://swiftype.com/)（低级免费版已经够用）
-	(2) 国外：[Algolia](https://www.algolia.com/)（收费，没选它是因为后来才知道）
+	(1) 我的选择：[Google CSE](https://cse.google.com/cse/) 
+	(2) 国外：[Algolia](https://www.algolia.com/)、[Swiftype](https://swiftype.com/)（先免费试用，后收费）
 	(3) 国内：<s>tinysou 微搜索</s>（已停止运营）
 	
-	具体配置过程可参考：[利用swiftype为hexo添加站内搜索v2.0](http://www.jerryfu.net/post/search-engine-for-hexo-with-swiftype-v2.html)
+	Google CSE 根据官方的流程一步步来即可；
+	使用本博客导航栏处的搜索框，可查看其中一种显示效果。
+	
+	而 Swiftype 具体配置过程可参考：[利用swiftype为hexo添加站内搜索v2.0](http://www.jerryfu.net/post/search-engine-for-hexo-with-swiftype-v2.html)
 	<br/>
 	
 11. #### PV/UV 访问数/访客数的统计与显示
