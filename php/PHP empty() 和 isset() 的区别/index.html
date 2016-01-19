@@ -16,7 +16,7 @@
 	<meta name="description" content="PHP empty() 和 isset() 的区别，以及 子问题：PHP 空字符串&quot;&quot;、布尔值FALSE、空NULL 的区别。通过编程实例得到证。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="PHP empty() 和 isset() 的区别">
-<meta property="og:url" content="http://icehe.gitcafe.io/php/PHP empty() 和 isset() 的区别/index.html">
+<meta property="og:url" content="http://icehe.me/php/PHP empty() 和 isset() 的区别/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="PHP empty() 和 isset() 的区别，以及 子问题：PHP 空字符串&quot;&quot;、布尔值FALSE、空NULL 的区别。通过编程实例得到证。">
 <meta property="og:updated_time" content="2016-01-15T12:33:37.000Z">
@@ -45,7 +45,7 @@
   <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
 
   <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE" />
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
   <!-- 微博开放平台 元标签验证码 -->
   <meta property="wb:webmaster" content="84efd5956048ab8f" />
@@ -172,14 +172,13 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://icehe.gitcafe.io/php/PHP empty() 和 isset() 的区别/" data-title="PHP empty() 和 isset() 的区别 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
+	  <div data-url="http://icehe.me/php/PHP empty() 和 isset() 的区别/" data-title="PHP empty() 和 isset() 的区别 | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
 	  </div>
 	
 	</div>
 
 
 </footer>
-
    	       
 	</article>
 	
@@ -228,7 +227,7 @@ var duoshuoQuery = {short_name:"icehe"};
 
 
 
-document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="php/PHP empty() 和 isset() 的区别/" data-title="PHP empty() 和 isset() 的区别" data-url="http://icehe.gitcafe.io/php/PHP empty() 和 isset() 的区别/"></div>'
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="php/PHP empty() 和 isset() 的区别/" data-title="PHP empty() 和 isset() 的区别" data-url="http://icehe.me/php/PHP empty() 和 isset() 的区别/"></div>'
 //	+ '<hr/>'
 //	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
 //	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
@@ -509,9 +508,12 @@ $(document).ready(function(){
   var $this = $('.share'),
       url = $this.attr('data-url'),
       encodedUrl = encodeURIComponent(url),
-      title = $this.attr('data-title'),
+//      title = $this.attr('data-title'),
       tsina = $this.attr('data-tsina'),
       description = $this.attr('description');
+  var title = '《 ' + $('.article-url').attr('title') + ' 》@IceHe何志远 的技术博客『 '
+          + document.getElementsByName('description')[0].content + '』';
+  var weibo_share_url = 'http://service.weibo.com/share/share.php?type=button&searchPic=true&style=full&title=' + title + '&url=' + encodedUrl + '&pic=http%3A%2F%2F7vzp68.com1.z0.glb.clouddn.com%2Fabout%2Favatar_03a.jpg&appkey=' + tsina;
   var html = [
   '<div class="hoverqrcode clearfix"></div>',
   '<a class="overlay" id="qrcode"></a>',
@@ -519,7 +521,7 @@ $(document).ready(function(){
   '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
   '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
   '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
-  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<a href="javascript:;" class="article-share-weibo" title="微博" onclick="window.open(\'' + weibo_share_url + '\', \'_blank\', \'width=615,height=505\')"></a>',
   '<span title="Share to"></span>'
   ].join('');
   $this.append(html);

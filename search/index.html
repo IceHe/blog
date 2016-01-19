@@ -6,23 +6,23 @@
   <meta charset="UTF-8">
   
 
-	<title>Google Site Search 站内搜索 | Ice He 何志远</title>
+	<title>Google CSE 站内搜索 | Ice He 何志远</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 	
 	<meta name="author" content="IceHe何志远">
 	
 
 	
-	<meta name="description" content="在本博客的搜索框中输入关键词，将在本页展示结果（需要您能访问 Google）。">
+	<meta name="description" content="CSE = Custom Search Engine. 在本博客的搜索框中输入关键词，将展示本站的谷歌搜索结果。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Google Site Search 站内搜索">
-<meta property="og:url" content="http://icehe.gitcafe.io/search/index.html">
+<meta property="og:title" content="Google CSE 站内搜索">
+<meta property="og:url" content="http://icehe.me/search/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
-<meta property="og:description" content="在本博客的搜索框中输入关键词，将在本页展示结果（需要您能访问 Google）。">
-<meta property="og:updated_time" content="2016-01-18T13:33:11.000Z">
+<meta property="og:description" content="CSE = Custom Search Engine. 在本博客的搜索框中输入关键词，将展示本站的谷歌搜索结果。">
+<meta property="og:updated_time" content="2016-01-19T09:20:36.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Google Site Search 站内搜索">
-<meta name="twitter:description" content="在本博客的搜索框中输入关键词，将在本页展示结果（需要您能访问 Google）。">
+<meta name="twitter:title" content="Google CSE 站内搜索">
+<meta name="twitter:description" content="CSE = Custom Search Engine. 在本博客的搜索框中输入关键词，将展示本站的谷歌搜索结果。">
 
   
   <link rel="alternative" href="/atom.xml" title="Ice He 何志远" type="application/atom+xml">
@@ -45,7 +45,7 @@
   <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
 
   <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE" />
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
   <!-- 微博开放平台 元标签验证码 -->
   <meta property="wb:webmaster" content="84efd5956048ab8f" />
@@ -125,7 +125,7 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name" class="article-title">
     
-      <a href="/search/" title="Google Site Search 站内搜索" itemprop="url" class="article-url">Google Site Search 站内搜索</a>
+      <a href="/search/" title="Google CSE 站内搜索" itemprop="url" class="article-url">Google CSE 站内搜索</a>
   </h1>
   <p class="article-readtimes">
     Read ( <span class="readtimes">?</span> )
@@ -142,12 +142,9 @@
 	<div class="article-content">
 		
 		<ul>
-<li>在 <a target="_self" href="javascript:;" onclick="$('#search').fadeOut(200).fadeIn(200).fadeOut(200).fadeIn(200); focusSearchInput();"><strong>搜索框</strong></a> 输入关键词后，按回车键，将在本页展示结果 ~</li>
-<li><strong> 需要您能访问 Google ！</strong></li>
-</ul>
-<p><gcse:searchresults-only></gcse:searchresults-only></p>
-<ul>
-<li>使用参考《 <a href="https://cse.google.com/cse/" target="_blank" rel="external">谷歌站内搜索</a> 》</li>
+<li><strong> 首先，需要您能访问 Google ！</strong></li>
+<li>在 <a target="_self" href="javascript:;" onclick="$('#search').fadeOut(200).fadeIn(200).fadeOut(200).fadeIn(200); focusSearchInput();"><strong>搜索框</strong></a> 输入关键词后，按回车键，将在本页展示结果 ~ <gcse:searchresults-only></gcse:searchresults-only></li>
+<li>参考《 <a href="https://cse.google.com/cse/" target="_blank" rel="external">Google Custom Search Engine</a> 》实现，不赘述。</li>
 </ul>
 <script id="jQueryLink" src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
 <script type="text/javascript">
@@ -155,16 +152,6 @@
 </script>
 
 <script text="text/javascript">
-  (function() {
-    var cx = '010792257197806788789:dpopjn23wd4';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
 
   function GetRequest() {
    var url = location.search; //获取url中"?"符后的字串
@@ -182,6 +169,16 @@
   var keyword = GetRequest()['q'];
   if (keyword != undefined) {
     $('#search').val(decodeURIComponent(keyword.replace('+', ' ')));
+      (function() {
+        var cx = '010792257197806788789:dpopjn23wd4';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+            '//cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
   }
 
   function focusSearchInput() {
@@ -189,25 +186,6 @@
     t.focus();
     t.selectionStart = t.selectionEnd = t.value.length;
   }
-
-  function getURL(url)   
-  {   
-          var xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-
-          xmlhttp.open("GET",url,false);   
-          xmlhttp.send();  
-          if (xmlhttp.readyState==4) {  
-              if(xmlhttp.Status!=200)
-                alert("No");   
-              else
-                alert('Yes');
-              return   xmlhttp.Status==200;   
-          }   
-          return   false;   
-  }
-
-  getURL('google.com');
-
 </script>
 
   
@@ -222,14 +200,13 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://icehe.gitcafe.io/search/" data-title="Google Site Search 站内搜索 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
+	  <div data-url="http://icehe.me/search/" data-title="Google CSE 站内搜索 | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
 	  </div>
 	
 	</div>
 
 
 </footer>
-
    	       
 	</article>
 	
@@ -270,7 +247,7 @@ var duoshuoQuery = {short_name:"icehe"};
 
 
 
-document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="search/" data-title="Google Site Search 站内搜索" data-url="http://icehe.gitcafe.io/search/"></div>'
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="search/" data-title="Google CSE 站内搜索" data-url="http://icehe.me/search/"></div>'
 //	+ '<hr/>'
 //	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
 //	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
@@ -551,9 +528,12 @@ $(document).ready(function(){
   var $this = $('.share'),
       url = $this.attr('data-url'),
       encodedUrl = encodeURIComponent(url),
-      title = $this.attr('data-title'),
+//      title = $this.attr('data-title'),
       tsina = $this.attr('data-tsina'),
       description = $this.attr('description');
+  var title = '《 ' + $('.article-url').attr('title') + ' 》@IceHe何志远 的技术博客『 '
+          + document.getElementsByName('description')[0].content + '』';
+  var weibo_share_url = 'http://service.weibo.com/share/share.php?type=button&searchPic=true&style=full&title=' + title + '&url=' + encodedUrl + '&pic=http%3A%2F%2F7vzp68.com1.z0.glb.clouddn.com%2Fabout%2Favatar_03a.jpg&appkey=' + tsina;
   var html = [
   '<div class="hoverqrcode clearfix"></div>',
   '<a class="overlay" id="qrcode"></a>',
@@ -561,7 +541,7 @@ $(document).ready(function(){
   '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
   '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
   '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
-  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<a href="javascript:;" class="article-share-weibo" title="微博" onclick="window.open(\'' + weibo_share_url + '\', \'_blank\', \'width=615,height=505\')"></a>',
   '<span title="Share to"></span>'
   ].join('');
   $this.append(html);
