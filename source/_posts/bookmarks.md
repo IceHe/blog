@@ -5,7 +5,7 @@ tags: [read]
 description: 我收藏的网站、博客、文档、学习资料、文章、问答、专栏…
 ---
 
-- *Updated on 2016-01-14*
+- *Updated on 2016-01-19*
 
 ## **IT 信息技术**
 
@@ -177,9 +177,13 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - [大公司里怎样开发和部署前端代码？](https://www.zhihu.com/question/20790576)
 
+- [如何用消息系统避免分布式事务？](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=401298826&amp;idx=1&amp;sn=02047f1d7591252a0ffc6a5ac6fe1874&amp;scene=1&amp;srcid=1230FaNRSmrYU81gqipYrm1d#rd)
+
 - [从面向对象的设计模式看软件设计](http://coolshell.cn/articles/8961.html)
 
 - [高扩展性网站的50条原则](http://www.cnblogs.com/xing901022/p/4425124.html)
+
+- [淘宝搜索技术博客](http://www.searchtb.com/)
 
 - [架构腐化之谜](http://mp.weixin.qq.com/s?__biz=MjM5NTg2NTU0Ng==&amp;mid=210816035&amp;idx=3&amp;sn=7ad903e7be165e2c616c20fa2f148f63&amp;scene=1#rd)
 

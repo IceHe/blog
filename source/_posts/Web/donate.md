@@ -262,4 +262,3 @@ window.onload = function () {
 	document.getElementById('donate_board_wdg').className = 'hidden';
 }
 </script>
-
