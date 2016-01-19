@@ -2,7 +2,7 @@ title: 某次无聊的 JavaScript 代码 优化过程
 date: 2015-02-20
 categories: [JavaScript]
 tags: [JavaScript, exprience]
-description: 目标功能：使id为blink的html标签闪烁。得到的原始代码，多个修改版本：用jQuery写，精简代码；避免每次使用jQuery选择器去检索标签和属性；改用布尔变量，以及“ ? &#58; ”语句；压缩语句。以及 过程中犯的愚蠢错误。
+description: 目标功能：使id为blink的html标签闪烁。优化原始代码：用jQuery精简代码；避免重复使用选择器去获得标签和属性；改用布尔变量及“ ? &#58; ”语句压缩语句。还有过程中犯的愚蠢错误。
 toc: false
 ---
 目标功能：使id为blink的html标签闪烁。
