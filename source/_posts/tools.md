@@ -39,7 +39,7 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
 	更习惯用 Chrome 的 Inspect Element 做 Web 的调试，而非 Firebug。
 
-- **[Typora](www.typora.io)
+- **[Typora](http://www.typora.io)**
 
 	极简 Markdown 编辑器，所见即所得，而且完全免费！
 
@@ -119,7 +119,8 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
 - **[Zsh](http://zsh.sourceforge.net/)**
 
-	比 bash 强大、高效的 Shell！但是配置比较复杂。
+	比 bash 强大、高效的 Shell！但是配置比较复杂。（说 Zsh 慢的，需要配备 SSD）
+	选择 Zsh 的原因可参考：[Comparison of Command Shells - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_command_shells) 
 
 - **[oh-my-zsh](http://ohmyz.sh/)**
 
