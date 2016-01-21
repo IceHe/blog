@@ -5,7 +5,7 @@ tags: [Mac]
 description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommended Mac Apps . &nbsp; 以及科技产品、外设、用具等。
 ---
 
-- *Updated on 2016-01-12*
+- *Updated on 2016-01-20*
 
 *下文斜体文本为补充描述，可略过不读。*
 
@@ -19,13 +19,11 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
 - **[Evernote (Premium)](https://www.yinxiang.com/)**
 
-	第二大脑，知识管理工具。
+	第二大脑，我的知识管理与 GTD 工具。
+	
+	*借鉴 GTD 产生了自己的方法，巧用 Evernote 代替了原来 Todo List 类软件的工作。*
 	
 	*好记性不如烂笔头。 还是书写记得更牢，但已是电子时代， 知识更新之快，纸笔难跟上。 用过很多同类软件，还是选择购买了 Premium 版的 Evernote。*
-	
-- **[Doit.im (Pro)](http://doit.im)**
-
-	事务管理、日程规划。 *有很多的替代 App，只是习惯用这个了。*
 
 - **[Shawdowsocks](https://portal.shadowsocks.com/)**
 
@@ -41,7 +39,13 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
 	更习惯用 Chrome 的 Inspect Element 做 Web 的调试，而非 Firebug。
 
-### *Firefox Add-Ons* 
+- **[Typora](www.typora.io)
+
+	极简 Markdown 编辑器，所见即所得，而且完全免费！
+
+<br/>
+
+### **Firefox Add-Ons**
 
 - **[VimFX](https://github.com/akhodakivskiy/VimFx)**
 
@@ -273,56 +277,75 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
 ### 我没用上的好软件
 
+<br/>
+
 不使用额外的 **PDF 阅读软件**，Mac 系统自带的 Preview 和 Firefox 就够用了。
 
 - **[Contexts](https://contexts.co/)**
 
 	窗口切换器。操作行云流水，窗口切换方面比 Manico 更优秀！
+	
 	*但不能定制快捷键快速启动其它 App，因而被 Manico 替代。*
 
 - **[Synergy](http://synergy-project.org/)**
 
 	鼠标和键盘共享软件。多台来自 OS X、Linux、Windows 等不同平台的PC，可以共用一个鼠标与键盘！
+	
 	*可惜我只用一台 MBP，要用其它设备，就远程桌面连接就够了。*
+
+- **[Doit.im (Pro)](http://doit.im)**
+
+	事务管理、日程规划。有很多的替代 App，只是习惯用这个了。
+	
+	*后来我借鉴它，产生了自己 Todo List 记录方法，用 Evernote 代替了这类 GTD 软件，进一步简化了我的工具。*
 
 - **[Time Out](http://www.dejal.com/timeout/)**
 
 	定时作息提醒工具。定时覆盖屏幕，提醒你离开电脑，去休息眼睛和身体。
+	
 	*我有规律的工作节奏，眼睛没有不适，所以已经停用许久。*
 
 - **[Boom](http://www.globaldelight.com/boom/index.php)**
 
 	音效增强软件。
+	
 	*锦上添花，但确实可有可无，可用于突破系统音量的上限。*
 
 - **[f.lux](https://justgetflux.com/)**
 
 	根据所在地当时的日照情况，自动调整屏幕色温、亮度，以保护眼睛。保证睡前的睡意比以往更浓。
+	
 	*根据其默认的设置，17点后的屏幕色调变化，我还是不适应，看得颇累。*
 
 - **[Nozio](http://noiz.io/)**
 
 	白噪音应用。模拟大自然的声音，屏蔽其它噪音干扰，帮助你放松睡眠，或保持专注、提高效率。
+	
 	*其实音乐听久了也累，戴个 3M 降噪耳塞，纯粹安静地工作就很专注、舒服。*
 
 - **[Alfred](https://www.alfredapp.com/)**
 
 	属于键盘流的神兵利器，Spotlight 的增强工具！
+	
 	*关键字缩写的检索还是 Spotlight 精准；要用命令的话，也基本在终端中操作，并没有多少 Alfred 之类软件的用武之地；要启动程序的话，我已有 Manico 的支持。*
 
 - **[CleanMyMac](http://cleanmymac.com/)**
 
 	Mac 系统清理软件。
+	
 	*OS X 本身已经够好够省心了，不需要过多的维护，这个外在的辅助软件只是锦上添花。*
 
 - **[LastPass](https://lastpass.com/)**
 
 	类似与 [1Password](https://agilebits.com/onepassword) 的密码管理工具。
+	
 	*一开始就没用惯，之后就算了，用浏览器自带的表单自动填写足矣。*
 
 - **[Gas Mask](http://www.macupdate.com/app/mac/29949/gas-mask)**
 
-	便捷的 Hots 文件修改工具。*也是锦上添花的辅助软件，使用频率太低，所以不用。*
+	便捷的 Hots 文件修改工具。
+	
+	*也是锦上添花的辅助软件，使用频率太低，所以不用。*
 
 - *附文：《 [OS X 有哪些值得装的小软件？](https://www.zhihu.com/question/27870072) 》*
 
@@ -373,10 +396,6 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 - **[随手记专业版](http://www.feidee.com/money/)**
 
 	首推的记账软件。
-
-- **[春雨医生](http://www.chunyuyisheng.com/)**
-
-	健康助手。*简单的疾病自判，以及了解各方面健康、医疗常识。*
 
 - **[车来了](http://www.chelaile.net.cn/)**
 

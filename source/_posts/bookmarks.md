@@ -147,6 +147,8 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - [GO语言零基础入门资料整理](http://www.jianshu.com/p/a70098a94d18?utm_campaign=hugo&utm_medium=reader_share&utm_content=note&utm_source=weibo)
 
+- [王垠的博客](http://www.yinwang.org/) —— 一个很有争议的人物，但是读他的文章还是很有启发的。
+
 <br/>
 
 ### **Web Dev 开发**
