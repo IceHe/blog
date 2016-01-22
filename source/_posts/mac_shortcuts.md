@@ -357,8 +357,8 @@ Triangle Swipe Top Lf Corner `⌘ q`
 *Not Only shortcuts, but also Change Layout of Keyboard !*
 
 `⌘ q` ( Twice ) To Send one "⌘ q"
-`1234567890` !@#$%^&*()
-`⇧ 1234567890` 1234567890
+`Num` !@#$%^&*()
+`⇧ Num` 1234567890
 `凵 asdfghjkl;` 123456890
 
 `Fn` Mv Mouse Cursor to Centre of Current App Window
