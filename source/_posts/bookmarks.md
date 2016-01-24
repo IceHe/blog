@@ -53,13 +53,13 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 <br/>*最好的习惯：查阅官方网站的文档。*
 
-- [Z shell](http://zsh.sourceforge.net/)
+- [Zsh Docs](http://zsh.sourceforge.net/Doc/) —— [Z shell](http://zsh.sourceforge.net/)
 
 - [Vim Cheat Sheet](http://coolshell.cn//wp-content/uploads/2011/09/vim_cheat_sheet_for_programmers_print.png) —— Vim 键位操作总结图。
 
 - [Vim Docs](http://www.vim.org/docs.php) —— from&nbsp; [vim.org](http://www.vim.org)
 
-- [Git Docs](http://git-scm.com/book/en/v2) —— from&nbsp; [Git-scm.com](http://git-scm.com/)
+- [Git Docs](http://git-scm.com/doc) —— from&nbsp; [Git-scm.com](http://git-scm.com/)
 
 - [PHP Docs](http://php.net/docs.php) —— from&nbsp; [PHP.net](http://php.net/)
 
