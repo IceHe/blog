@@ -45,64 +45,6 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
 <br/>
 
-### **Firefox Add-Ons**
-
-- **[VimFX](https://github.com/akhodakivskiy/VimFx)**
-
-	使用 Vim 的快捷键去浏览、导航网页，减少使用鼠标的使用，键盘党神器！
-	
-	*[Vimperator](http://www.vimperator.org/) 拓展功能太强大，响应速度、稳定性、外观和易用性不如 VimFX。*
-
-- **[Evernote Web Clipper](https://evernote.com/intl/zh-cn/webclipper/)**
-
-	一键收藏各类网页图文，保存到 Evernote。
-
-- **[xThunder](http://fxthunder.com/)**
-
-	统一管理浏览器各下载器的使用规则，支持迅雷、DownThemAll 等。
-
-- **[DownThemAll!](downthemall.net)**
-
-	批量下载工具。功能更强，多线下载，速度更快，非 P2P 下载用它代替迅雷与浏览器默认下载器。
-
-- **[Adblock Plus](https://adblockplus.org/zh_CN/)、[Adblock Plus Elem Hide Helper](https://adblockplus.org/zh_CN/elemhidehelper)**
-
-	广告过滤。*防止追踪、恶意域名，过滤横幅广告、弹窗广告以及视频广告。配合元素隐藏助手使用，可更轻松地建立元素隐藏规则。*
-
-- **[Flashblock](http://flashblock.mozdev.org/)**
-
-	屏蔽所有页面的 Flash 内容的加载；需要时，才点击加载。
-
-- **[Greasemonkey](http://www.greasespot.net/)**
-
-	使用 JavaScript 脚本自定义网站网页的布局、外观、操作等！有提供[油猴脚本网站](http://wiki.greasespot.net/User_Script_Hosting)。
-
-- **[FoxyProxy Standard](http://getfoxyproxy.org/)**
-
-	代理服务器 与 VPN 的配置管理器。 
-
-- **[JSONView](http://jsonview.com/)**
-
-	整洁有序地展示页面的 JSON 文本。
-
-- **[NoScript](https://noscript.net/)**
-
-	根据自定义的规则，屏蔽/通过 JavaScript、Java、Flash 以及其它插件等的页面内容，降低安全风险。
-
-- **[NumberedTabs](https://addons.mozilla.org/zh-CN/firefox/addon/numberedtabs/?src=api)**
-
-	显示标签页的编号，以便使用快捷键 ⌘ + 编号 切换至对应标签。
-
-- **[RequestPolicy](https://www.requestpolicy.com/)**
-
-	控制允许哪些跨站点的请求，改善隐私保护，避免遭遇跨站点请求伪造（CSRF）以及其它攻击。
-
-- **[Stylish](https://userstyles.org/)**
-
-	用户样式管理器。用自定义或别人预定义好的 CSS 定制各网页的外观。
-
-<br/>
-
 ### **Develop**
 
 <br/>
@@ -128,7 +70,7 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
 - **[tmux](https://tmux.github.io/)**
 
-	一个用于终端复用的软件，允许一个用户在一个终端窗口或远程终端会话中使用多个不同的终端会话。简而言之，可以形容它是个：命令行中的 “分屏工具”、桌面。
+	一个用于终端复用的软件，允许一个用户在一个终端窗口或远程终端会话中使用多个不同的终端会话。简而言之，可以形容它是个：命令行中的 「分屏工具」、桌面。
 
 - **[spf13](http://vim.spf13.com/)**
 
@@ -426,6 +368,64 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 - **[Bilibili](http://www.bilibili.com/)、[AcFun](http://www.acfun.tv/)**
 
 	*现在看视频不带弹幕，就觉得心缺了一块，食之无味。*
+
+<br/>
+
+### **Firefox Add-Ons**
+
+- **[VimFX](https://github.com/akhodakivskiy/VimFx)**
+
+	使用 Vim 的快捷键去浏览、导航网页，减少使用鼠标的使用，键盘党神器！
+	
+	*[Vimperator](http://www.vimperator.org/) 拓展功能太强大，响应速度、稳定性、外观和易用性不如 VimFX。*
+
+- **[Evernote Web Clipper](https://evernote.com/intl/zh-cn/webclipper/)**
+
+	一键收藏各类网页图文，保存到 Evernote。
+
+- **[xThunder](http://fxthunder.com/)**
+
+	统一管理浏览器各下载器的使用规则，支持迅雷、DownThemAll 等。
+
+- **[DownThemAll!](downthemall.net)**
+
+	批量下载工具。功能更强，多线下载，速度更快，非 P2P 下载用它代替迅雷与浏览器默认下载器。
+
+- **[Adblock Plus](https://adblockplus.org/zh_CN/)、[Adblock Plus Elem Hide Helper](https://adblockplus.org/zh_CN/elemhidehelper)**
+
+	广告过滤。*防止追踪、恶意域名，过滤横幅广告、弹窗广告以及视频广告。配合元素隐藏助手使用，可更轻松地建立元素隐藏规则。*
+
+- **[Flashblock](http://flashblock.mozdev.org/)**
+
+	屏蔽所有页面的 Flash 内容的加载；需要时，才点击加载。
+
+- **[Greasemonkey](http://www.greasespot.net/)**
+
+	使用 JavaScript 脚本自定义网站网页的布局、外观、操作等！有提供[油猴脚本网站](http://wiki.greasespot.net/User_Script_Hosting)。
+
+- **[FoxyProxy Standard](http://getfoxyproxy.org/)**
+
+	代理服务器 与 VPN 的配置管理器。 
+
+- **[JSONView](http://jsonview.com/)**
+
+	整洁有序地展示页面的 JSON 文本。
+
+- **[NoScript](https://noscript.net/)**
+
+	根据自定义的规则，屏蔽/通过 JavaScript、Java、Flash 以及其它插件等的页面内容，降低安全风险。
+
+- **[NumberedTabs](https://addons.mozilla.org/zh-CN/firefox/addon/numberedtabs/?src=api)**
+
+	显示标签页的编号，以便使用快捷键 ⌘ + 编号 切换至对应标签。
+
+- **[RequestPolicy](https://www.requestpolicy.com/)**
+
+	控制允许哪些跨站点的请求，改善隐私保护，避免遭遇跨站点请求伪造（CSRF）以及其它攻击。
+
+- **[Stylish](https://userstyles.org/)**
+
+	用户样式管理器。用自定义或别人预定义好的 CSS 定制各网页的外观。
 
 <br/>
 

@@ -241,8 +241,8 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - [为什么有些大公司技术弱爆了？](https://www.zhihu.com/question/32039226)
 
-- [再谈“我是怎么招聘程序员的”（上）](http://coolshell.cn/articles/4506.html)
-- [再谈“我是怎么招聘程序员的”（下）](http://coolshell.cn/articles/4490.html)
+- [再谈「我是怎么招聘程序员的」（上）](http://coolshell.cn/articles/4506.html)
+- [再谈「我是怎么招聘程序员的」（下）](http://coolshell.cn/articles/4490.html)
 
 - [白板编程浅谈——Why, What, How](http://lucida.me/blog/whiteboard-coding-demystified/)
 
@@ -324,15 +324,15 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - [Loser 应该知道的 6 个残酷人生事实](http://www.douban.com/group/topic/36138010/)
 
-	“这个世界只关心你能给予什么。” &nbsp;—— 《 六个可以让你变得更强大的残酷事实 》译文。
+	「这个世界只关心你能给予什么。」 &nbsp;—— 《 六个可以让你变得更强大的残酷事实 》译文。
 
 - [你曾经的老师说过的哪句话印象最为深刻，对你影响较大甚至在十多年或更久之后都记在心里？](https://www.zhihu.com/question/23721974/answer/25493813)
 
-	我们用“我能做到什么”来判断和定位自己，而别人用“你已经做过什么”来判断和定位你。
+	我们用「我能做到什么」来判断和定位自己，而别人用「你已经做过什么」来判断和定位你。
 
-- [70 后和 80 后对于刚刚踏入社会的 90 后毕业生有什么建议？](https://www.zhihu.com/question/20773220) —— “如果不能先学着适应环境，就不要妄想改变环境。”
+- [70 后和 80 后对于刚刚踏入社会的 90 后毕业生有什么建议？](https://www.zhihu.com/question/20773220) —— 「如果不能先学着适应环境，就不要妄想改变环境。」
 
-- [马云的缺陷是什么？](https://www.zhihu.com/question/35670576/answer/64989492) —— 当年阿里巴巴的“十八罗汉”甘愿跟着马云，并不是因为马云能打鸡血、“忽悠”……
+- [马云的缺陷是什么？](https://www.zhihu.com/question/35670576/answer/64989492) —— 当年阿里巴巴的「十八罗汉」甘愿跟着马云，并不是因为马云能打鸡血、“忽悠”……
 
 - [我们这一代人的困惑](http://mp.weixin.qq.com/s?__biz=MzA3OTQ4NDkxOA==&amp;mid=202075659&amp;idx=1&amp;sn=350db3032e8f3dca423ba6b93935e33a&amp;scene=0#rd) —— 大部分人的梦想永远都实现不了。
 
@@ -348,13 +348,13 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 ### **Rel 关系**
 
-- [本分和情分](http://zhuanlan.zhihu.com/xinliyushenghuo/19993302) —— “别人帮你，那是情分，不帮你，那是本分。容不容得下是你的气度，能不能让你容下是我的本事。”
+- [本分和情分](http://zhuanlan.zhihu.com/xinliyushenghuo/19993302) —— 「别人帮你，那是情分，不帮你，那是本分。容不容得下是你的气度，能不能让你容下是我的本事。」
 
-- [圈子不同，不必强融](http://mp.weixin.qq.com/s?__biz=MjM5MzI5NzQ1MA==&amp;mid=207716479&amp;idx=1&amp;sn=195e46c808f83f95990bb3aff09a349b&amp;scene=1#rd) —— “怎么样才可以真正地做到不计较呢？强大到让别人计较你。”
+- [圈子不同，不必强融](http://mp.weixin.qq.com/s?__biz=MjM5MzI5NzQ1MA==&amp;mid=207716479&amp;idx=1&amp;sn=195e46c808f83f95990bb3aff09a349b&amp;scene=1#rd) —— 「怎么样才可以真正地做到不计较呢？强大到让别人计较你。」
 
 - [孤独让人成瘾（下）：依赖真实的关系](http://www.vccoo.com/v/6a28e8)
 
-	“交一个真正的朋友是一件很累人的事，但是人生那么长，不累一累，那又该干嘛呢？”
+	「交一个真正的朋友是一件很累人的事，但是人生那么长，不累一累，那又该干嘛呢？」
 
 - [为什么人越长大越孤单？](https://www.zhihu.com/question/22613634/answer/77378235) —— 自我定型后，想要寻找与我们真正相似的人。
 
@@ -374,7 +374,7 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - [认为「 只有我完美了，别人才会喜欢我 」的想法有什么错误，该怎么解决？](https://www.zhihu.com/question/31280604) —— 吾生有涯。
 
-- [送礼的秘诀是什么？](https://www.zhihu.com/question/20455039) —— “送者心安，受者心欢。”
+- [送礼的秘诀是什么？](https://www.zhihu.com/question/20455039) —— 「送者心安，受者心欢。」
 
 <br/>
 
@@ -394,7 +394,7 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - [别让工作拖垮你，最实用的25条时间管理TIPS ](http://mp.weixin.qq.com/s?__biz=MjM5MzEzNjI2MA==&amp;mid=206759033&amp;idx=1&amp;sn=84f86dd4e6078c8bd3e84e25ab00e93e&amp;scene=1#rd) —— 时间管理的目的是为了提高效率，去做更多的工作？
 
-- [男生有钱到底有多重要？](https://www.zhihu.com/question/22879746) —— “有时候不在于它能带给你什么，而在于它能让你不失去什么”。自立，自尊。
+- [男生有钱到底有多重要？](https://www.zhihu.com/question/22879746) —— 「有时候不在于它能带给你什么，而在于它能让你不失去什么」。自立，自尊。
 
 - [什么是「 富人思维 」？](https://www.zhihu.com/question/26980854) —— 自我投资。善假于物。
 
@@ -446,7 +446,7 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 ### **EN 英语**
 
-- [程序员英语学习指引](http://lucida.me/blog/english-for-programmers/) —— “除非你阅读原版书籍和中文书籍一样顺畅，或者翻译书籍信息损失量太大，否则不需要刻意阅读原版。”
+- [程序员英语学习指引](http://lucida.me/blog/english-for-programmers/) —— 「除非你阅读原版书籍和中文书籍一样顺畅，或者翻译书籍信息损失量太大，否则不需要刻意阅读原版。」
 
 - [单词全认识却看不懂句子怎么办？](https://www.zhihu.com/question/28640901/answer/63421701) —— 一词多义、语境、词组、语法、文化背景。
 
@@ -464,7 +464,7 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - [普通人如何合理的理财投资，有哪些书可以学习阅读？](https://www.zhihu.com/question/22818974) —— 必修课。
 
-- [如何看待「 钱不是省出来的 」这句话？](https://www.zhihu.com/question/25258679) —— “该花的钱一定要花，不该花的钱一定要省。” 然后，要有智慧分辨两者的不同。
+- [如何看待「 钱不是省出来的 」这句话？](https://www.zhihu.com/question/25258679) —— 「该花的钱一定要花，不该花的钱一定要省。」 然后，要有智慧分辨两者的不同。
 
 - [为什么跳槽加薪会比内部调薪要高？](https://www.zhihu.com/question/20564224) —— 瞬时市场定价。 
 
