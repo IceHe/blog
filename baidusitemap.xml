@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://icehe.me/cmd/command_line/</loc>
+    <lastmod>2016-01-25T15:19:09.000Z</lastmod>
+    <data>
+        <display>
+        <title>CLI Note 命令行</title>
+        <pubTime>2016-01-24T12:12:50.000Z</pubTime>
+        
+        <tag>Command</tag>
+         
+         
+           
+             
+              <breadCrumb title="Command" url="http://icehe.me/categories/Command/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://icehe.me/cmd/git_note/</loc>
     <lastmod>2016-01-25T09:03:29.000Z</lastmod>
     <data>
@@ -499,26 +519,6 @@
            
              
               <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/cmd/command_line/</loc>
-    <lastmod>2016-01-24T12:38:56.000Z</lastmod>
-    <data>
-        <display>
-        <title>CLI Note 命令行</title>
-        <pubTime>2016-01-24T12:12:50.000Z</pubTime>
-        
-        <tag>Command</tag>
-         
-         
-           
-             
-              <breadCrumb title="Command" url="http://icehe.me/categories/Command/"/>
           
         </display>
     </data>
