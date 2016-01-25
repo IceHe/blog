@@ -16,13 +16,13 @@
 	<meta name="description" content="直接定址表。数据标号、地址标号。在其它段中，使用数据标号。写子程序计算sin(x)。实现子程序setscreen，为显示输出提供指定功能。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Assembly Language 汇编语言 - Note 13">
-<meta property="og:url" content="http://icehe.gitcafe.io/asm/Assembly Language - Note 13/index.html">
+<meta property="og:url" content="http://icehe.me/asm/Assembly Language - Note 13/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="直接定址表。数据标号、地址标号。在其它段中，使用数据标号。写子程序计算sin(x)。实现子程序setscreen，为显示输出提供指定功能。">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%2013/e8c800492bf9619ab7e61184592c770c.png">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%2013/488a2b294983eb6c4dc88d71380790e8.png">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%2013/18512c4d794b8a6c2c7ed46b68c9bcf7.png">
-<meta property="og:updated_time" content="2016-01-19T11:23:32.000Z">
+<meta property="og:updated_time" content="2016-01-25T02:31:14.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Assembly Language 汇编语言 - Note 13">
 <meta name="twitter:description" content="直接定址表。数据标号、地址标号。在其它段中，使用数据标号。写子程序计算sin(x)。实现子程序setscreen，为显示输出提供指定功能。">
@@ -48,7 +48,7 @@
   <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
 
   <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE" />
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
   <!-- 微博开放平台 元标签验证码 -->
   <meta property="wb:webmaster" content="84efd5956048ab8f" />
@@ -144,7 +144,10 @@
 </header>
 	<div class="article-content">
 		
-		<div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>教材：《汇编语言》（第二版）王爽 著 清华大学出版社</div><div><br></div><div><b>章十六、直接定址表</b></div><div><b><br></b></div><div>16.1 描述了单元长度的标号——<b>数据标号</b></div><div><br></div><div>（1）以下程序中，code、a、b、start、s（后面带冒号“:”）</div><div>都是<b><u>地址标号</u>，仅表示</b><b>内存单元</b>的<b>地址</b>。</div><div><br></div><div>assume cs:code<br>
+		
+<ul><li><em>Created on 2014-11</em></li></ul><br>
+
+<div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>教材：《汇编语言》（第二版）王爽 著 清华大学出版社</div><div><br></div><div><b>章十六、直接定址表</b></div><div><b><br></b></div><div>16.1 描述了单元长度的标号——<b>数据标号</b></div><div><br></div><div>（1）以下程序中，code、a、b、start、s（后面带冒号“:”）</div><div>都是<b><u>地址标号</u>，仅表示</b><b>内存单元</b>的<b>地址</b>。</div><div><br></div><div>assume cs:code<br>
 code segment<br><b>a:</b>&nbsp;&nbsp;&nbsp;&nbsp; db 1, 2, 3, 4, 5, 6, 7, 8<br><b>b:</b>&nbsp;&nbsp;&nbsp;&nbsp; dw 0<br><b>start:</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp; mov si, <b>offset</b> <b>a</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp; mov bx, <b>offset</b> <b>b</b><br>
@@ -634,7 +637,7 @@ sub3c1:<br>
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://icehe.gitcafe.io/asm/Assembly Language - Note 13/" data-title="Assembly Language 汇编语言 - Note 13 | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
+	  <div data-url="http://icehe.me/asm/Assembly Language - Note 13/" data-title="Assembly Language 汇编语言 - Note 13 | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -689,7 +692,7 @@ var duoshuoQuery = {short_name:"icehe"};
 
 
 
-document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="asm/Assembly Language - Note 13/" data-title="Assembly Language 汇编语言 - Note 13" data-url="http://icehe.gitcafe.io/asm/Assembly Language - Note 13/"></div>'
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="asm/Assembly Language - Note 13/" data-title="Assembly Language 汇编语言 - Note 13" data-url="http://icehe.me/asm/Assembly Language - Note 13/"></div>'
 //	+ '<hr/>'
 //	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
 //	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'

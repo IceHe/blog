@@ -16,10 +16,10 @@
 	<meta name="description" content="使用栈，将数据、代码、栈放入不同的段，编写并调试具有多个段的程序，以字符形式给出数据，大小写转换问题，[idata]直接寻址，[bx]间接寻址，[bx + idata]相对寻址，SI和DI寄存器。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Assembly Language 汇编语言 - Note 4">
-<meta property="og:url" content="http://icehe.gitcafe.io/asm/Assembly Language - Note 4/index.html">
+<meta property="og:url" content="http://icehe.me/asm/Assembly Language - Note 4/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="使用栈，将数据、代码、栈放入不同的段，编写并调试具有多个段的程序，以字符形式给出数据，大小写转换问题，[idata]直接寻址，[bx]间接寻址，[bx + idata]相对寻址，SI和DI寄存器。">
-<meta property="og:updated_time" content="2016-01-19T11:12:11.000Z">
+<meta property="og:updated_time" content="2016-01-25T02:29:13.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Assembly Language 汇编语言 - Note 4">
 <meta name="twitter:description" content="使用栈，将数据、代码、栈放入不同的段，编写并调试具有多个段的程序，以字符形式给出数据，大小写转换问题，[idata]直接寻址，[bx]间接寻址，[bx + idata]相对寻址，SI和DI寄存器。">
@@ -45,7 +45,7 @@
   <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
 
   <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE" />
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
   <!-- 微博开放平台 元标签验证码 -->
   <meta property="wb:webmaster" content="84efd5956048ab8f" />
@@ -141,7 +141,10 @@
 </header>
 	<div class="article-content">
 		
-		<div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>教材：《汇编语言》（第二版）王爽 著 清华大学出版社</div><div><br></div><div><b>章六、包含多个段的程序</b></div><div><br></div><div>程序取得所需空间的方法：</div><div>（1）在加载程序的时候为程序分配。</div><div>（2）在执行过程中向系统申请。（本教材不讨论该方法）</div><div><br></div>
+		
+<ul><li><em>Created on 2014-10</em></li></ul><br>
+
+<div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>教材：《汇编语言》（第二版）王爽 著 清华大学出版社</div><div><br></div><div><b>章六、包含多个段的程序</b></div><div><br></div><div>程序取得所需空间的方法：</div><div>（1）在加载程序的时候为程序分配。</div><div>（2）在执行过程中向系统申请。（本教材不讨论该方法）</div><div><br></div>
 6.1 在代码段中使用数据
 <div>assume cs:code<br>
 code segment<br>
@@ -182,7 +185,7 @@ end st</div><div><br></div><div>6.3 将数据、代码、栈放入不同的段</
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://icehe.gitcafe.io/asm/Assembly Language - Note 4/" data-title="Assembly Language 汇编语言 - Note 4 | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
+	  <div data-url="http://icehe.me/asm/Assembly Language - Note 4/" data-title="Assembly Language 汇编语言 - Note 4 | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -204,9 +207,9 @@ end st</div><div><br></div><div>6.3 将数据、代码、栈放入不同的段</
 
 
 <div class="next">
-<a href="/asm/Assembly Language - Note 2/"  title="Assembly Language 汇编语言 - Note 2">
+<a href="/asm/Assembly Language - Note 3/"  title="Assembly Language 汇编语言 - Note 3">
  <strong>Next：</strong><br/> 
- <span>Assembly Language 汇编语言 - Note 2
+ <span>Assembly Language 汇编语言 - Note 3
 </span>
 </a>
 </div>
@@ -237,7 +240,7 @@ var duoshuoQuery = {short_name:"icehe"};
 
 
 
-document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="asm/Assembly Language - Note 4/" data-title="Assembly Language 汇编语言 - Note 4" data-url="http://icehe.gitcafe.io/asm/Assembly Language - Note 4/"></div>'
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="asm/Assembly Language - Note 4/" data-title="Assembly Language 汇编语言 - Note 4" data-url="http://icehe.me/asm/Assembly Language - Note 4/"></div>'
 //	+ '<hr/>'
 //	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
 //	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'

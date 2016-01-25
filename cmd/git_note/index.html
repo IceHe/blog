@@ -16,10 +16,10 @@
 	<meta name="description" content="我的 Git 笔记，日常工作曾使用的指令组合。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Git Note 笔记">
-<meta property="og:url" content="http://icehe.gitcafe.io/cmd/git_note/index.html">
+<meta property="og:url" content="http://icehe.me/cmd/git_note/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="我的 Git 笔记，日常工作曾使用的指令组合。">
-<meta property="og:updated_time" content="2016-01-24T12:23:24.000Z">
+<meta property="og:updated_time" content="2016-01-25T09:03:29.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git Note 笔记">
 <meta name="twitter:description" content="我的 Git 笔记，日常工作曾使用的指令组合。">
@@ -45,7 +45,7 @@
   <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
 
   <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE" />
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
   <!-- 微博开放平台 元标签验证码 -->
   <meta property="wb:webmaster" content="84efd5956048ab8f" />
@@ -144,25 +144,29 @@
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">Contents</strong>
 		
-			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Ref"><span class="toc-number">1.</span> <span class="toc-text">Ref</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Setup_&_Config"><span class="toc-number">2.</span> <span class="toc-text">Setup & Config</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Get_&_Create_Proj"><span class="toc-number">3.</span> <span class="toc-text">Get & Create Proj</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Snapshot"><span class="toc-number">4.</span> <span class="toc-text">Snapshot</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Merge_&_Branch"><span class="toc-number">5.</span> <span class="toc-text">Merge & Branch</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Share_&_Update"><span class="toc-number">6.</span> <span class="toc-text">Share & Update</span></a></li></ol>
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Ref"><span class="toc-number">1.</span> <span class="toc-text">Ref</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Setup_&_Config"><span class="toc-number">2.</span> <span class="toc-text">Setup & Config</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Get_&_Create_Proj"><span class="toc-number">3.</span> <span class="toc-text">Get & Create Proj</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Snapshot"><span class="toc-number">4.</span> <span class="toc-text">Snapshot</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Merge_&_Branch"><span class="toc-number">5.</span> <span class="toc-text">Merge & Branch</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Share_&_Update"><span class="toc-number">6.</span> <span class="toc-text">Share & Update</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Inspect_&_Compare"><span class="toc-number">7.</span> <span class="toc-text">Inspect & Compare</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Patch"><span class="toc-number">8.</span> <span class="toc-text">Patch</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Debug"><span class="toc-number">9.</span> <span class="toc-text">Debug</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Email"><span class="toc-number">10.</span> <span class="toc-text">Email</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#External_Systems"><span class="toc-number">11.</span> <span class="toc-text">External Systems</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Administration"><span class="toc-number">12.</span> <span class="toc-text">Administration</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Server_Admin"><span class="toc-number">13.</span> <span class="toc-text">Server Admin</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Plumbing_Commands"><span class="toc-number">14.</span> <span class="toc-text">Plumbing Commands</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#To_be_continue_…"><span class="toc-number">15.</span> <span class="toc-text">To be continue …</span></a></li></ol>
 		
 		</div>
 		
 		<ul>
-<li><em>Updated on 2016-01-24</em></li>
+<li><p><em>Updated on 2016-01-24</em></p>
+</li>
+<li><p><em>PS: Omit the unusual commands at my work.</em></p>
+</li>
 </ul>
 <h2 id="Ref">Ref</h2><ul>
-<li><a href="http://git-scm.com/" target="_blank" rel="external">Offical Site</a> —— 官方网站</li>
-<li><a href="http://git-scm.com/doc" target="_blank" rel="external">Docs</a> —— 官方文档</li>
+<li><a href="http://git-scm.com/" target="_blank" rel="external">Git SCM</a> —— Offical Site</li>
+<li><a href="http://git-scm.com/doc" target="_blank" rel="external">Reference &amp; Book</a> —— Documentation</li>
 </ul>
+<p><br></p>
 <h2 id="Setup_&amp;_Config">Setup &amp; Config</h2><ul>
 <li><p><a href="http://git-scm.com/docs/git-help" target="_blank" rel="external">help</a></p>
-<p>  <code>--all</code> | <code>-a</code> All available commands<br>  <code>--web</code> | <code>-w</code> Display in browser</p>
+<p>  <code>--all</code> | <code>-a</code> All available commands.<br>  <code>--web</code> | <code>-w</code> Display in browser.</p>
 </li>
 <li><p><a href="http://git-scm.com/docs/git-config" target="_blank" rel="external">config</a></p>
 <p>  <code>git config [&lt;file-option&gt;] [type] [-z|--null] name [value [value_regex]]</code></p>
-<p>  <code>--list</code> | <code>-l</code> List all config variables<br>  <code>--edit</code> | <code>-e</code> Modify config file<br>  <code>--unset</code> Remove matching key</p>
-<p>  <code>--local</code> Write options to repository <code>.git/config</code><br>  <code>--global</code> … to global <code>~/.gitconfig</code><br>  <code>--system</code> … to system-wide <code>$(prefix)/etc/gitconfig</code></p>
+<p>  <code>--list</code> | <code>-l</code> List all config variables.<br>  <code>--edit</code> | <code>-e</code> Modify config file.<br>  <code>--unset</code> Remove matching key.</p>
+<p>  <code>--local</code> Write options to repository <code>.git/config</code> .<br>  <code>--global</code> … to global <code>~/.gitconfig</code><br>  <code>--system</code> … to system-wide <code>$(prefix)/etc/gitconfig</code></p>
 </li>
 </ul>
 <p><br></p>
@@ -171,27 +175,27 @@
 <p>  <code>--bare</code></p>
 </li>
 <li><p><a href="http://git-scm.com/docs/git-clone" target="_blank" rel="external">clone</a> <code>&lt;repository&gt; [&lt;directory&gt;]</code></p>
-<p>  <code>--branch &lt;branch_name&gt;</code> | <code>-b &lt;branch_name&gt;</code><br>  <code>--config &lt;key&gt;=&lt;value&gt;</code> | <code>-c &lt;key&gt;=&lt;value&gt;</code><br>  <code>--origin &lt;remote_name&gt;</code> | <code>-o &lt;remote_name&gt;</code> Use &lt;remote_name&gt; instead of ‘origin’</p>
+<p>  <code>--branch &lt;branch_name&gt;</code> | <code>-b &lt;branch_name&gt;</code><br>  <code>--config &lt;key&gt;=&lt;value&gt;</code> | <code>-c &lt;key&gt;=&lt;value&gt;</code><br>  <code>--origin &lt;remote_name&gt;</code> | <code>-o &lt;remote_name&gt;</code> Use &lt;remote_name&gt; instead of ‘origin’.</p>
 </li>
 </ul>
 <p><br></p>
 <h2 id="Snapshot">Snapshot</h2><ul>
-<li><p><code>HEAD</code> The latest version of current branch</p>
+<li><p><code>HEAD</code> The latest version of current branch.</p>
 </li>
 <li><p><a href="http://git-scm.com/docs/git-add" target="_blank" rel="external">add</a> <code>&lt;pathspec&gt;</code></p>
 <p>  <code>--all</code> | <code>-A</code></p>
 </li>
 <li><p><a href="http://git-scm.com/docs/git-status" target="_blank" rel="external">status</a></p>
-<p>  <code>--short</code> | <code>-s</code> Show in short-format</p>
+<p>  <code>--short</code> | <code>-s</code> Show in short-format.</p>
 </li>
 <li><p><a href="http://git-scm.com/docs/git-diff" target="_blank" rel="external">diff</a></p>
 </li>
 <li><p><a href="http://git-scm.com/docs/git-commit" target="_blank" rel="external">commit</a></p>
 <p>  <code>--all</code> | <code>-a</code><br>  <code>--message=&lt;msg&gt;</code> | <code>-m &lt;msg&gt;</code> Use given <msg> as the commit message.</msg></p>
-<p>  <code>--amend</code> Replace tip of current branch by creating a new commit<br>  <code>--no-edit</code> Use the selected commit message</p>
+<p>  <code>--amend</code> Replace tip of current branch by creating a new commit.<br>  <code>--no-edit</code> Use the selected commit message.</p>
 </li>
 <li><p><a href="http://git-scm.com/docs/git-reset" target="_blank" rel="external">reset</a> <code>[&lt;mode&gt;] [&lt;commit&gt;]</code></p>
-<p>  Reset current HEAD to the specified state<br>  <code>--hard</code> Resets the index and working tree</p>
+<p>  Reset current HEAD to the specified state.<br>  <code>--hard</code> Resets the index and working tree.</p>
 </li>
 <li><p><a href="http://git-scm.com/docs/git-rm" target="_blank" rel="external">rm</a>, <a href="http://git-scm.com/docs/git-mv" target="_blank" rel="external">mv</a> …</p>
 </li>
@@ -200,55 +204,86 @@
 <h2 id="Merge_&amp;_Branch">Merge &amp; Branch</h2><ul>
 <li><p><a href="http://git-scm.com/docs/git-branch" target="_blank" rel="external">branch</a></p>
 <p>  <code>--delete</code> | <code>-d</code><br>  <code>--force</code> | <code>-f</code><br>  <code>-D</code> Shortcut for <code>--delete --force</code></p>
-<p>  <code>--move</code> | <code>-m</code> Move / Rename<br>  <code>-M</code> Shortcut for <code>--move --force</code></p>
+<p>  <code>--move</code> | <code>-m</code> Move / Rename.<br>  <code>-M</code> Shortcut for <code>--move --force</code></p>
 <p>  <code>--all</code> | <code>-a</code></p>
 </li>
 <li><p><a href="http://git-scm.com/docs/git-checkout" target="_blank" rel="external">checkout</a> <code>[&lt;branch&gt;]</code></p>
-<p>  <code>-b &lt;new_branch&gt;</code> Create new branch<br>  <code>-B &lt;new_branch&gt;</code> … , if not already exists, reset it to &lt;start_point&gt;<br>  <code>&lt;start_point&gt;</code> The name of a commit at which to start the new branch. Defaults to HEAD.</p>
+<p>  <code>-b &lt;new_branch&gt;</code> Create new branch.<br>  <code>-B &lt;new_branch&gt;</code> … , if not already exists, reset it to &lt;start_point&gt;<br>  <code>&lt;start_point&gt;</code> The name of a commit at which to start the new branch. Defaults to HEAD.</p>
 <p>  <code>git checkout -- hello.c</code> </p>
 </li>
-<li><p><a href="http://git-scm.com/docs/git-merge" target="_blank" rel="external">merge</a>, <a href="http://git-scm.com/docs/git-mergetool" target="_blank" rel="external">mergetool</a> …</p>
-</li>
 <li><p><a href="http://git-scm.com/docs/git-log" target="_blank" rel="external">log</a></p>
-<p>  Show Commit logs<br>   <code>[\--] &lt;path&gt;…​</code> Show commits related to specified paths</p>
+<p>  Show Commit logs.<br>   <code>[\--] &lt;path&gt;…​</code> Show commits related to specified paths.</p>
 </li>
 <li><p><a href="http://git-scm.com/docs/git-stash" target="_blank" rel="external">stash</a></p>
-<p>  Use when you want to record the current state of the working directory and the index, but want to go back to a clean working directory.<br>  The command saves your local modifications away and reverts the working directory to match the HEAD commit</p>
-<p>  <code>list</code> List stashes you have<br>  <code>show [&lt;stash&gt;]</code> Show the changes recorded in specific stash<br>  <code>pop [&lt;stash&gt;]</code> Remove a single stashed state from the stash list and apply it on top of the current working tree state<br>  <code>&lt;stash&gt;</code> e.g. <code>stash@{&lt;revision&gt;}</code></p>
+<p>  Use when you want to record the current state of the working directory and the index, but want to go back to a clean working directory.<br>  The command saves your local modifications away and reverts the working directory to match the HEAD commit.</p>
+<p>  <code>list</code> List stashes you have<br>  <code>show [&lt;stash&gt;]</code> Show the changes recorded in specific stash.<br>  <code>pop [&lt;stash&gt;]</code> Remove a single stashed state from the stash list and apply it on top of the current working tree state.<br>  <code>&lt;stash&gt;</code> e.g. <code>stash@{&lt;revision&gt;}</code></p>
 </li>
-<li><p><a href="http://git-scm.com/docs/git-tag" target="_blank" rel="external">tag</a> …</p>
+<li><p><a href="http://git-scm.com/docs/git-merge" target="_blank" rel="external">merge</a>, <a href="http://git-scm.com/docs/git-mergetool" target="_blank" rel="external">mergetool</a> , <a href="http://git-scm.com/docs/git-tag" target="_blank" rel="external">tag</a> …<br><br></p>
 </li>
 </ul>
-<p><br></p>
 <h2 id="Share_&amp;_Update">Share &amp; Update</h2><ul>
-<li><p>pull</p>
-<p>  [remote] [branch]</p>
+<li><p><a href="http://git-scm.com/docs/git-fetch" target="_blank" rel="external">fetch</a> <code>[&lt;repository&gt; [&lt;refspec&gt;…​]]</code></p>
+<p>  Fetch branches and/or tags (collectively, “refs”) from one or more other repositories.<br>  <code>--all</code> Fetch all remotes.</p>
 </li>
-<li><p>push</p>
-<ul>
-<li>[remote] [branch]</li>
-</ul>
+<li><p><a href="http://git-scm.com/docs/git-pull" target="_blank" rel="external">pull</a> <code>[&lt;repository&gt; [&lt;refspec&gt;…​]]</code></p>
 </li>
-<li><p>remote</p>
-<ul>
-<li>add</li>
-<li>rm?</li>
-</ul>
+<li><p><a href="http://git-scm.com/docs/git-push" target="_blank" rel="external">push</a> <code>[&lt;repository&gt; [&lt;refspec&gt;…​]]</code></p>
 </li>
-<li><p>config</p>
-<ul>
-<li>—list</li>
-<li>—global</li>
-</ul>
+<li><p><a href="http://git-scm.com/docs/git-remote" target="_blank" rel="external">remote</a></p>
+<p>  <code>add [-t &lt;branch&gt;] &lt;name&gt; &lt;url&gt;</code><br>  <code>rename &lt;old&gt; &lt;new&gt;</code><br>  <code>remove &lt;name&gt;</code> | <code>rm &lt;name&gt;</code><br>  <code>show</code>, <code>set-url</code> …</p>
 </li>
-<li><p>checkout</p>
-<ul>
-<li>-b [new_branch_name]</li>
-<li>[branch_name]</li>
-</ul>
+<li><p><a href="http://git-scm.com/docs/git-submodule" target="_blank" rel="external">submodule</a> …</p>
 </li>
 </ul>
 <p><br></p>
+<h2 id="Inspect_&amp;_Compare">Inspect &amp; Compare</h2><ul>
+<li><p><a href="http://git-scm.com/docs/git-show" target="_blank" rel="external">show</a></p>
+</li>
+<li><p><a href="http://git-scm.com/docs/git-log" target="_blank" rel="external">log</a>, <a href="http://git-scm.com/docs/git-diff" target="_blank" rel="external">diff</a> See above.</p>
+</li>
+<li><p><a href="http://git-scm.com/docs/git-shortlog" target="_blank" rel="external">shortlog</a>, <a href="http://git-scm.com/docs/git-describe" target="_blank" rel="external">describe</a> …</p>
+</li>
+</ul>
+<p><br></p>
+<h2 id="Patch">Patch</h2><ul>
+<li><p><a href="http://git-scm.com/docs/git-revert" target="_blank" rel="external">revert</a></p>
+<p>  Revert some existing commits.</p>
+</li>
+<li><p><a href="http://git-scm.com/docs/git-diff" target="_blank" rel="external">diff</a> See above.</p>
+</li>
+<li><p><a href="http://git-scm.com/docs/git-apply" target="_blank" rel="external">apply</a>, <a href="http://git-scm.com/docs/git-cherry-pick" target="_blank" rel="external">cherry-pick</a>, <a href="http://git-scm.com/docs/git-rebase" target="_blank" rel="external">rebase</a> …</p>
+</li>
+</ul>
+<p><br></p>
+<h2 id="Debug">Debug</h2><ul>
+<li><a href="http://git-scm.com/docs/git-bisect" target="_blank" rel="external">bisect</a>, <a href="http://git-scm.com/docs/git-blame" target="_blank" rel="external">blame</a>, <a href="http://git-scm.com/docs/git-grep" target="_blank" rel="external">grep</a> …</li>
+</ul>
+<p><br></p>
+<h2 id="Email">Email</h2><ul>
+<li><a href="http://git-scm.com/docs/git-am" target="_blank" rel="external">am</a>, <a href="http://git-scm.com/docs/git-apply" target="_blank" rel="external">apply</a>, <a href="http://git-scm.com/docs/git-format-patch" target="_blank" rel="external">format-patch</a>, <a href="http://git-scm.com/docs/git-send-email" target="_blank" rel="external">send-email</a>, <a href="http://git-scm.com/docs/git-request-pull" target="_blank" rel="external">request-pull</a> …</li>
+</ul>
+<p><br></p>
+<h2 id="External_Systems">External Systems</h2><ul>
+<li><a href="http://git-scm.com/docs/git-svn" target="_blank" rel="external">svn</a>, <a href="http://git-scm.com/docs/git-fast-import" target="_blank" rel="external">fast-import</a> …</li>
+</ul>
+<p><br></p>
+<h2 id="Administration">Administration</h2><ul>
+<li><p><a href="http://git-scm.com/docs/git-clean" target="_blank" rel="external">clean</a> <code>[--] &lt;path&gt;…​</code></p>
+<p>  <code>-d</code> Remove untracked dir in addition to untracked files.</p>
+</li>
+<li><p><a href="http://git-scm.com/docs/git-gc" target="_blank" rel="external">gc</a>, <a href="http://git-scm.com/docs/git-fsck" target="_blank" rel="external">fsck</a>, <a href="http://git-scm.com/docs/git-reflog" target="_blank" rel="external">reflog</a>, <a href="http://git-scm.com/docs/git-filter-branch" target="_blank" rel="external">filter-branch</a>, <a href="http://git-scm.com/docs/git-instaweb" target="_blank" rel="external">instaweb</a>, <a href="http://git-scm.com/docs/git-archive" target="_blank" rel="external">archive</a>, <a href="http://git-scm.com/docs/git-bundle" target="_blank" rel="external">bundle</a> …</p>
+</li>
+</ul>
+<p><br></p>
+<h2 id="Server_Admin">Server Admin</h2><ul>
+<li><a href="http://git-scm.com/docs/git-daemon" target="_blank" rel="external">daemon</a>, <a href="http://git-scm.com/docs/git-update-server-info" target="_blank" rel="external">update-server-info</a> …</li>
+</ul>
+<p><br></p>
+<h2 id="Plumbing_Commands">Plumbing Commands</h2><ul>
+<li><a href="http://git-scm.com/docs/git-cat-file" target="_blank" rel="external">cat-file</a>, <a href="http://git-scm.com/docs/git-commit-tree" target="_blank" rel="external">commit-tree</a>, <a href="http://git-scm.com/docs/git-count-objects" target="_blank" rel="external">count-objects</a>, <a href="http://git-scm.com/docs/git-diff-index" target="_blank" rel="external">diff-index</a>, <a href="http://git-scm.com/docs/git-for-each-ref" target="_blank" rel="external">for-each-ref</a>, <a href="http://git-scm.com/docs/git-hash-object" target="_blank" rel="external">hash-object</a>, <a href="http://git-scm.com/docs/git-ls-files" target="_blank" rel="external">ls-files</a>, <a href="http://git-scm.com/docs/git-merge-base" target="_blank" rel="external">merge-base</a>, <a href="http://git-scm.com/docs/git-read-tree" target="_blank" rel="external">read-tree</a>, <a href="http://git-scm.com/docs/git-rev-list" target="_blank" rel="external">rev-list</a>, <a href="http://git-scm.com/docs/git-rev-parse" target="_blank" rel="external">rev-parse</a>, <a href="http://git-scm.com/docs/git-show-ref" target="_blank" rel="external">show-ref</a>, <a href="http://git-scm.com/docs/git-symbolic-ref" target="_blank" rel="external">symbolic-ref</a>, <a href="http://git-scm.com/docs/git-update-index" target="_blank" rel="external">update-index</a>, <a href="http://git-scm.com/docs/git-update-ref" target="_blank" rel="external">update-ref</a>, <a href="http://git-scm.com/docs/git-verify-pack" target="_blank" rel="external">verify-pack</a>, <a href="http://git-scm.com/docs/git-write-tree" target="_blank" rel="external">write-tree</a> …</li>
+</ul>
+<p><br></p>
+<h2 id="To_be_continue_…"><em>To be continue …</em></h2><p><br></p>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -271,7 +306,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://icehe.gitcafe.io/cmd/git_note/" data-title="Git Note 笔记 | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
+	  <div data-url="http://icehe.me/cmd/git_note/" data-title="Git Note 笔记 | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -326,7 +361,7 @@ var duoshuoQuery = {short_name:"icehe"};
 
 
 
-document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="cmd/git_note/" data-title="Git Note 笔记" data-url="http://icehe.gitcafe.io/cmd/git_note/"></div>'
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="cmd/git_note/" data-title="Git Note 笔记" data-url="http://icehe.me/cmd/git_note/"></div>'
 //	+ '<hr/>'
 //	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
 //	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
