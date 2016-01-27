@@ -6,7 +6,7 @@ description: 我的简历。
 toc: false
 ---
 
-- *Updated on 2016-01-22*
+- *Updated on 2016-01-27*
 
 ## **Software Tech**
 <br/>
@@ -16,7 +16,7 @@ toc: false
 - `PHP`, `Docker`, `Nginx`, `Redis`, `Yaf Framework`, Cent OS <br/><br/>
 
 ###### **毕业设计 - [基于进程安全测量的安全管理](https://github.com/IceHe/secure_mgt_by_dynamic_measuring)** &nbsp; &nbsp; *2015.03 ~ 2015.05*
-- 包括：[安全测量模块](https://github.com/IceHe/dimm)（Loadable Kernel Module）、[安全管理器](https://github.com/IceHe/secure_monitor)（Qt GUI）。
+- 包括：[安全测量模块](https://github.com/IceHe/dimm)（Linux Loadable Kernel Module）、[安全管理器](https://github.com/IceHe/secure_monitor)（Qt GUI）。
 - 原理：用 SHA-1 分别计算进程在内存中的代码段与参数段，
 得出定长的信息摘要作为特征值（方便比对），去比对标准特征值，
 便可判断进程是否被篡改，或程序是否被替换。
@@ -39,7 +39,7 @@ toc: false
 
 - **Lang** &nbsp; &nbsp; <i class="fa fa-star"></i> `C/C++` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `PHP`,&nbsp; `Python`,&nbsp; `JavaScript`,&nbsp; `Java` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> ASM,&nbsp; VB
 
-- **OS** &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `OS X`,&nbsp; `CentOS 6/7`,&nbsp; `Windows 7/8` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Ubuntu
+- **OS** &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `Mac OS X`,&nbsp; `CentOS 6/7`,&nbsp; `Windows 7/8` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Ubuntu
 
 - **DB** &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `MySQL` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> MS SQL Server 2008,&nbsp; Oracle DB
 
@@ -49,7 +49,7 @@ toc: false
 
 - **Tools** &nbsp; &nbsp; <i class="fa fa-star"></i> `AppleScript`,&nbsp; `Git`,&nbsp; `Vim`,&nbsp; `Zsh` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-half-o"></i> Batch file (Windows),&nbsp; Shell script
 
-- **Others** &nbsp; &nbsp; <i class="fa fa-star"></i> `Qt Framework` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Yar Framework,&nbsp; Loadable Kernel Module <br/><br/>
+- **Others** &nbsp; &nbsp; <i class="fa fa-star"></i> `Qt Framework` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Yaf Framework,&nbsp; Linux Loadable Kernel Module <br/><br/>
 
 ###### **Link**
 - **Tech Blog** &nbsp; &nbsp; <i class="fa fa-cube"> &nbsp;</i>[icehe.me](http://icehe.github.io/)
