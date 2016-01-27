@@ -22,6 +22,7 @@ description: 我的 OS X 命令行配置与总结。
 `exec` execute
 `OS` operating system
 
+`param` parameter
 `pwd` password
 `rd` read
 `rm` remove
@@ -253,6 +254,18 @@ description: 我的 OS X 命令行配置与总结。
 	`-s` Runs the **shell** specified by the SHELL env variable if it is set or the shell as specified in the pwd DB.
 
 
+- **`ifconfig interface [create] ... [parameters]` Configure network interface params.**
+	`ifconfig interface destroy`
+	`ifconfig -a [-L] [-d] [-m] [-r] [-u] [-v] [address_family]`
+	`ifconfig -l [-d] [-u] [address_family]`
+	`ifconfig [-L] [-d] [-m] [-r] [-u] [-v] [-C]`
+	`ifconfig interface vlan vlan-tag vlandev iface`
+	`ifconfig interface -vlandev iface`
+	`ifconfig interface bonddev iface`
+	`ifconfig interface -bonddev iface`
+	`ifconfig interface bondmode lacp | static`
+
+
 - **`uname [-amnprsv]` Print OS name.**
 
 	`-a` == `-manrsv`
@@ -267,7 +280,7 @@ description: 我的 OS X 命令行配置与总结。
 - **`uptime` Show how long system has been running.**
 
 
-- **`ps`**
+- **`ps` Process Status.**
 
 	- `-e`
 	- `-f`
