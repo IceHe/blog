@@ -11,8 +11,7 @@ description: 个人时间管理日志。
 #### Related
 ---
 - [**Archives - 文章归档**&nbsp; (Sorted By Time)](/archives/)
-
-- [Explanations for Log Format - 日志记录格式的说明](/think/time_mgt/)<br/><br/>
+- [Explanations for Log Format - 日志记录格式的说明](/think/time_mgt/)
 ---
 - <i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;[Bookmarks &nbsp; 书签](/bookmarks)
 - <i class="fa fa-gears">&nbsp;</i> [Tools &nbsp; 利器](/tools)
@@ -20,13 +19,17 @@ description: 个人时间管理日志。
 - **<i class="fa fa-calendar">&nbsp;</i> Life Logs &nbsp; 手帐**
 - <span class="val_pos icon-douban"> &nbsp;[Books &nbsp; 读过](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
 - <i class="fa fa-github">&nbsp;</i> &nbsp;[Github &nbsp; 代码](http://github.com/IceHe)
-- <i class="fa fa-file-text-o">&nbsp;</i> [Resume &nbsp; 简历](/resume)<br/><br/>
+- <i class="fa fa-file-text-o">&nbsp;</i> [Resume &nbsp; 简历](/resume)
+
+<br/>
 
 #### 2014
 ---
 0. [八至十二月 时间统计： 实习，校招。 Aug ~ Dec Time Stat: intership, campus recruiting.](/lifelogs/2014/2014 Aug~Dec Time Statistics - From aTimeLogger.html)
 11. [十一月：挣扎，旅行，云南。 Nov: struggle, travel, Yunnan, Lijiang.](/lifelogs/2014/11/index.html)
-12. [十二月：实习，旅行，北京。 Dec: intership, travel, Beijing.](/lifelogs/2014/12/index.html) <br/><br/>
+12. [十二月：实习，旅行，北京。 Dec: intership, travel, Beijing.](/lifelogs/2014/12/index.html)
+
+<br/>
 
 #### 2015
 ---
@@ -41,4 +44,10 @@ description: 个人时间管理日志。
 9. [九月：单元测试，新人培训。 Sep: unit test, orientation.](/lifelogs/2015/09/index.html)
 10. [十月：音乐节，运动。 Oct: music festival, sports.](/lifelogs/2015/10/index.html)
 11. [十一月：运动，饮食，睡眠，好习惯。 Nov: sports, eating, sleep, good habits.](/lifelogs/2015/11/index.html)
-12. [十二月：月度关键词。 Dec: keywords.](/lifelogs/2015/12/index.html)
+12. [十二月：学习，运动。 Dec: learn, sports.](/lifelogs/2015/12/index.html)
+
+<br/>
+
+#### 2016
+---
+1. [一月：月光，learn。 Jan: use up, .](/lifelogs/2016/01/index.html)
