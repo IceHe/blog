@@ -16,10 +16,10 @@
 	<meta name="description" content="我的 OS X 命令行配置与总结。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CLI Note 命令行">
-<meta property="og:url" content="http://icehe.gitcafe.io/cmd/command_line/index.html">
+<meta property="og:url" content="http://icehe.me/cmd/command_line/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="我的 OS X 命令行配置与总结。">
-<meta property="og:updated_time" content="2016-01-27T07:29:17.000Z">
+<meta property="og:updated_time" content="2016-01-29T08:20:40.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CLI Note 命令行">
 <meta name="twitter:description" content="我的 OS X 命令行配置与总结。">
@@ -45,7 +45,7 @@
   <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
 
   <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE" />
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
   <!-- 微博开放平台 元标签验证码 -->
   <meta property="wb:webmaster" content="84efd5956048ab8f" />
@@ -154,7 +154,7 @@
 <h2 id="Abbreviations">Abbreviations</h2><p><code>abbr</code> abbreviation<br><code>cmd</code> command<br><code>cmds</code> commands</p>
 <p><code>DB</code> database<br><code>del</code> delete<br><code>dir</code> directory<br><code>dirs</code> directories</p>
 <p><code>env</code> environment<br><code>exec</code> execute<br><code>OS</code> operating system</p>
-<p><code>pwd</code> password<br><code>rd</code> read<br><code>rm</code> remove<br><code>sth</code> something</p>
+<p><code>param</code> parameter<br><code>pwd</code> password<br><code>rd</code> read<br><code>rm</code> remove<br><code>sth</code> something</p>
 <h2 id="Zsh"><a href="http://zsh.sourceforge.net/" target="_blank" rel="external">Zsh</a></h2><ul>
 <li><p><a href="http://zsh.sourceforge.net/Doc/" target="_blank" rel="external"><strong>Docs</strong></a></p>
 </li>
@@ -171,7 +171,7 @@
 </li>
 <li><p>「Linux Shell 哪种更常用，这些shell各有什么特长？」知乎 <a href="https://www.zhihu.com/question/29380922/answer/44157927" target="_blank" rel="external">依云的回答</a> 摘要：</p>
 <ul>
-<li><code>bash</code>：通用，广泛可得。</li>
+<li><code>bash</code>：通用，广泛可得。(Powerful and always available.)</li>
 <li><code>zsh</code>：各种功能十分强大，尤其是补全和脚本，但也更复杂。</li>
 <li><code>fish</code>：对新用户友好，但不符合 POSIX 标准，别处复制的命令基本没法用！</li>
 <li>可参考：<a href="https://en.wikipedia.org/wiki/Comparison_of_command_shells" target="_blank" rel="external">Comparison of Command Shells - Wikipedia</a></li>
@@ -199,12 +199,17 @@
 <ul>
 <li><p><strong>Commonly Options</strong></p>
 <p>  <em>PS: Usually act as follows, but not always!</em></p>
-<p>  <code>-a</code> <strong>All</strong>: Exec cmds with many default options.<br>  <code>-d</code> Do with sth including <strong>dirs</strong>.<br>  <code>-f</code> <strong>Force</strong>: Do sth without confirmation.<br>  <code>-i</code> <strong>If</strong>: Need confirmation to do that.<br>  <code>-n</code> <strong>Not</strong>: When need confirmation, don’t do that.<br>  <code>-p</code> <strong>Preserve</strong> sth.<br>  <code>-r</code> | <code>-R</code> <strong>Recursive</strong>: Do with sth including entire subtree.<br>  <code>-v</code> <strong>Verbose</strong>: Show details.</p>
+<p>  <code>-a</code> <strong>All</strong>: Exec cmds with many default options.<br>  <code>-d</code> Do with sth including <strong>dirs</strong>.<br>  <code>-f</code> <strong>Force</strong>: Do sth without confirmation.<br>  <code>-i</code> <strong>If</strong>: Need confirmation to do sth.<br>  <code>-n</code> <strong>Not</strong>: When need confirmation, don’t do sth.<br>  <code>-p</code> <strong>Preserve</strong> sth.<br>  <code>-r</code> | <code>-R</code> <strong>Recursive</strong>: Do with sth including entire subtree.<br>  <code>-v</code> <strong>Verbose</strong>: Show details.</p>
 </li>
 </ul>
 <p><br></p>
 <ul>
-<li><strong><code>man command_name ...</code> Format &amp; display the cmd Manual.</strong>.</li>
+<li><strong><code>man cmd_name ...</code> Format &amp; display the cmd Manual.</strong>.</li>
+</ul>
+<ul>
+<li><p><strong><code>bash</code> Bourne-Again SHell</strong></p>
+<p>  An sh-compatible cmd language interpreter that cmds rd from the standard input or from a file.</p>
+</li>
 </ul>
 <ul>
 <li><p><strong><code>ls [-ACFGLRSTUalmrtu1] [file ...]</code> List dir Contents.</strong></p>
@@ -289,6 +294,9 @@
 </li>
 </ul>
 <ul>
+<li><strong><code>ifconfig interface [create] ... [parameters]</code> Configure network interface params.</strong><br>  <code>ifconfig interface destroy</code><br>  <code>ifconfig -a [-L] [-d] [-m] [-r] [-u] [-v] [address_family]</code><br>  <code>ifconfig -l [-d] [-u] [address_family]</code><br>  <code>ifconfig [-L] [-d] [-m] [-r] [-u] [-v] [-C]</code><br>  <code>ifconfig interface vlan vlan-tag vlandev iface</code><br>  <code>ifconfig interface -vlandev iface</code><br>  <code>ifconfig interface bonddev iface</code><br>  <code>ifconfig interface -bonddev iface</code><br>  <code>ifconfig interface bondmode lacp | static</code></li>
+</ul>
+<ul>
 <li><p><strong><code>uname [-amnprsv]</code> Print OS name.</strong></p>
 <p>  <code>-a</code> == <code>-manrsv</code><br>  <code>-m</code> Print the <strong>machine</strong> hardware name.<br>  <code>-n</code> … <strong>nodename</strong> (The system is known by nodename to communications network).<br>  <code>-p</code> … machine <strong>processor</strong> architecture name.<br>  <code>-r</code> … OS <strong>release</strong>.<br>  <code>-s</code> … <strong>OS</strong> name.<br>  <code>-v</code> … OS <strong>version</strong>.</p>
 </li>
@@ -297,7 +305,7 @@
 <li><strong><code>uptime</code> Show how long system has been running.</strong></li>
 </ul>
 <ul>
-<li><p><strong><code>ps</code></strong></p>
+<li><p><strong><code>ps</code> Process Status.</strong></p>
 <ul>
 <li><code>-e</code></li>
 <li><code>-f</code></li>
@@ -392,7 +400,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://icehe.gitcafe.io/cmd/command_line/" data-title="CLI Note 命令行 | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
+	  <div data-url="http://icehe.me/cmd/command_line/" data-title="CLI Note 命令行 | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -439,7 +447,7 @@ var duoshuoQuery = {short_name:"icehe"};
 
 
 
-document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="cmd/command_line/" data-title="CLI Note 命令行" data-url="http://icehe.gitcafe.io/cmd/command_line/"></div>'
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="cmd/command_line/" data-title="CLI Note 命令行" data-url="http://icehe.me/cmd/command_line/"></div>'
 //	+ '<hr/>'
 //	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
 //	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
