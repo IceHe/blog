@@ -44,7 +44,7 @@ description: 我的 OS X 命令行配置与总结。
     
 - 「Linux Shell 哪种更常用，这些shell各有什么特长？」知乎 [依云的回答](https://www.zhihu.com/question/29380922/answer/44157927) 摘要：
 
-	- `bash`：通用，广泛可得。
+	- `bash`：通用，广泛可得。(Powerful and always available.)
 	- `zsh`：各种功能十分强大，尤其是补全和脚本，但也更复杂。
 	- `fish`：对新用户友好，但不符合 POSIX 标准，别处复制的命令基本没法用！
 	- 可参考：[Comparison of Command Shells - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_command_shells)
@@ -81,15 +81,20 @@ description: 我的 OS X 命令行配置与总结。
 	`-a` **All**: Exec cmds with many default options.
 	`-d` Do with sth including **dirs**.
 	`-f` **Force**: Do sth without confirmation.
-	`-i` **If**: Need confirmation to do that.
-	`-n` **Not**: When need confirmation, don't do that.  
+	`-i` **If**: Need confirmation to do sth.
+	`-n` **Not**: When need confirmation, don't do sth.  
 	`-p` **Preserve** sth.
 	`-r` | `-R` **Recursive**: Do with sth including entire subtree. 
 	`-v` **Verbose**: Show details.
 
 <br/>
 
-- **`man command_name ...` Format & display the cmd Manual.**.
+- **`man cmd_name ...` Format & display the cmd Manual.**.
+
+
+- **`bash` Bourne-Again SHell**
+
+	An sh-compatible cmd language interpreter that cmds rd from the standard input or from a file.
 
 
 - **`ls [-ACFGLRSTUalmrtu1] [file ...]` List dir Contents.**
