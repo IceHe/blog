@@ -5,7 +5,7 @@ tags: [Mac]
 description: 我的 OS X 快捷键列表索引。
 ---
 
-- *Updated on 2016-01-22*
+- *Updated on 2016-02-02*
 
 - *Ref: 《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》*
 
@@ -412,15 +412,16 @@ Triangle Swipe Top Lf Corner `⌘ q`
 `^ ⌥ c` Charles
 ** `^ ⌥ b` Sublime Text **
 
-** `^ ⌥ y` Typora **
-** `^ ⌥ u` EuDic Free **
+`^ ⌥ y` Typora
+`^ ⌥ u` EuDic Free
 `^ ⌥ i` iTunes
+** `^ ⌥ o` ShadowsocksX **
 `^ ⌥ p` AppStore
 
 `^ ⌥ h` Photos
 `^ ⌥ k` Karabiner
 
-** `^ ⌥ n` NeteaseMusic **
+`^ ⌥ n` NeteaseMusic
 `^ ⌥ m` Manico
 
 # Moom
@@ -428,7 +429,7 @@ Triangle Swipe Top Lf Corner `⌘ q`
 `^ ⌥ z` Moom
 
 ( After `^ ⌥ z` )
-** `⌥ [ ↑ | ↓ ]` Mv Display **
+`⌥ [ ↑ | ↓ ]` Mv Display
 `w` Lf Half
 `e` Rg Half
 `r` Revert
@@ -441,7 +442,7 @@ Triangle Swipe Top Lf Corner `⌘ q`
 
 # PhpStorm
 
-** `^ d` Debug **
+** `⌥ ^ d` Debug **
 ** `^ ⇧ B` Toggle BreakPoint **
 ** `⌥ ⇧ R` Rerun **
 
@@ -638,7 +639,7 @@ Triangle Swipe Top Lf Corner `⌘ q`
 ** `-` Head of Prev Line **
 ** `⇧ +` Head of Next Line **
 
-** `⇧ ZZ` Save & Quit **
+`⇧ ZZ` Save & Quit
 ** `⇧ ZQ` Quit without Saving **
 
 ** `^ o` Next Key will Act in Normal Mode ( in Insert Mode ), such as ^o then ⇧ A, or ^o then ⇧ I**
@@ -704,7 +705,7 @@ Triangle Swipe Top Lf Corner `⌘ q`
 ** `gi` Focus to First Input Box **
 
 `/` Find
-** `a/` Find All **
+`a/` Find All
 ** `g/` Find in Links **
 `n` Next Match
 `N` Prev Match
