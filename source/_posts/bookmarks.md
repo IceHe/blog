@@ -11,7 +11,7 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 ### **OL Tools 在线工具**
 
-- [Regular Expr Test](http://tool.oschina.net/regex) —— 正则表达式测试。 
+- [Regular Expr Test](https://regex101.com/) —— [正则表达式测试](http://tool.oschina.net/regex)。
 
 - [BHD Converter](http://tool.oschina.net/hexconvert) —— 数值的进制转换（支持浮点数）。
 
