@@ -267,7 +267,7 @@
     <link href="http://icehe.me/cmd/git_note/"/>
     <id>http://icehe.me/cmd/git_note/</id>
     <published>2016-01-24T04:50:20.000Z</published>
-    <updated>2016-01-25T09:03:29.000Z</updated>
+    <updated>2016-02-03T08:00:46.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li><p><em>Updated on 2016-01-24</em></p>
 </li>
@@ -277,6 +277,7 @@
 <h2 id="Ref">Ref</h2><ul>
 <li><a href="http://git-scm.com/" target="_blank" rel="external">Git SCM</a> —— Offical Site</li>
 <li><a href="http://git-scm.com/doc" target="_blank" rel="external">Reference &amp; Book</a> —— Documentation</li>
+<li><a href="https://segmentfault.com/a/1190000004222489?utm_source=Weibo&amp;utm_medium=shareLink&amp;utm_campaign=socialShare" target="_blank" rel="external">闯过这 54 关，点亮你的 Git 技能树</a></li>
 </ul>
 <p><br></p>
 <h2 id="Setup_&amp;_Config">Setup &amp; Config</h2><ul>
@@ -317,7 +318,10 @@
 <li><p><a href="http://git-scm.com/docs/git-reset" target="_blank" rel="external">reset</a> <code>[&lt;mode&gt;] [&lt;commit&gt;]</code></p>
 <p>  Reset current HEAD to the specified state.<br>  <code>--hard</code> Resets the index and working tree.</p>
 </li>
-<li><p><a href="http://git-scm.com/docs/git-rm" target="_blank" rel="external">rm</a>, <a href="http://git-scm.com/docs/git-mv" target="_blank" rel="external">mv</a> …</p>
+<li><p><a href="http://git-scm.com/docs/git-mv" target="_blank" rel="external">mv</a></p>
+<p>  Move or rename a file, directory or a symlink.</p>
+</li>
+<li><p><a href="http://git-scm.com/docs/git-rm" target="_blank" rel="external">rm</a></p>
 </li>
 </ul>
 <p><br></p>
@@ -338,9 +342,14 @@
 <p>  Use when you want to record the current state of the working directory and the index, but want to go back to a clean working directory.<br>  The command saves your local modifications away and reverts the working directory to match the HEAD commit.</p>
 <p>  <code>list</code> List stashes you have<br>  <code>show [&lt;stash&gt;]</code> Show the changes recorded in specific stash.<br>  <code>pop [&lt;stash&gt;]</code> Remove a single stashed state from the stash list and apply it on top of the current working tree state.<br>  <code>&lt;stash&gt;</code> e.g. <code>stash@{&lt;revision&gt;}</code></p>
 </li>
-<li><p><a href="http://git-scm.com/docs/git-merge" target="_blank" rel="external">merge</a>, <a href="http://git-scm.com/docs/git-mergetool" target="_blank" rel="external">mergetool</a> , <a href="http://git-scm.com/docs/git-tag" target="_blank" rel="external">tag</a> …<br><br></p>
+<li><p><a href="http://git-scm.com/docs/git-tag" target="_blank" rel="external">tag</a> <code>[-a | -s | -u &lt;keyid&gt;] [-f] [-m &lt;msg&gt; | -F &lt;file&gt;]
+  &lt;tagname&gt; [&lt;commit&gt; | &lt;object&gt;]</code></p>
+<p>  Create, list, delete or verify a tag object signed with GPG<br>  Add a tag reference in refs/tags/, unless <code>-d</code>, <code>-l</code>, <code>-v</code> (to delete, list or verify tags).</p>
+</li>
+<li><p><a href="http://git-scm.com/docs/git-merge" target="_blank" rel="external">merge</a>, <a href="http://git-scm.com/docs/git-mergetool" target="_blank" rel="external">mergetool</a>  … </p>
 </li>
 </ul>
+<p><br></p>
 <h2 id="Share_&amp;_Update">Share &amp; Update</h2><ul>
 <li><p><a href="http://git-scm.com/docs/git-fetch" target="_blank" rel="external">fetch</a> <code>[&lt;repository&gt; [&lt;refspec&gt;…​]]</code></p>
 <p>  Fetch branches and/or tags (collectively, “refs”) from one or more other repositories.<br>  <code>--all</code> Fetch all remotes.</p>
@@ -371,7 +380,9 @@
 </li>
 <li><p><a href="http://git-scm.com/docs/git-diff" target="_blank" rel="external">diff</a> See above.</p>
 </li>
-<li><p><a href="http://git-scm.com/docs/git-apply" target="_blank" rel="external">apply</a>, <a href="http://git-scm.com/docs/git-cherry-pick" target="_blank" rel="external">cherry-pick</a>, <a href="http://git-scm.com/docs/git-rebase" target="_blank" rel="external">rebase</a> …</p>
+<li><p><a href="http://git-scm.com/docs/git-rebase" target="_blank" rel="external">rebase</a></p>
+</li>
+<li><p><a href="http://git-scm.com/docs/git-apply" target="_blank" rel="external">apply</a>, <a href="http://git-scm.com/docs/git-cherry-pick" target="_blank" rel="external">cherry-pick</a> …</p>
 </li>
 </ul>
 <p><br></p>
@@ -401,6 +412,21 @@
 <p><br></p>
 <h2 id="Plumbing_Commands">Plumbing Commands</h2><ul>
 <li><a href="http://git-scm.com/docs/git-cat-file" target="_blank" rel="external">cat-file</a>, <a href="http://git-scm.com/docs/git-commit-tree" target="_blank" rel="external">commit-tree</a>, <a href="http://git-scm.com/docs/git-count-objects" target="_blank" rel="external">count-objects</a>, <a href="http://git-scm.com/docs/git-diff-index" target="_blank" rel="external">diff-index</a>, <a href="http://git-scm.com/docs/git-for-each-ref" target="_blank" rel="external">for-each-ref</a>, <a href="http://git-scm.com/docs/git-hash-object" target="_blank" rel="external">hash-object</a>, <a href="http://git-scm.com/docs/git-ls-files" target="_blank" rel="external">ls-files</a>, <a href="http://git-scm.com/docs/git-merge-base" target="_blank" rel="external">merge-base</a>, <a href="http://git-scm.com/docs/git-read-tree" target="_blank" rel="external">read-tree</a>, <a href="http://git-scm.com/docs/git-rev-list" target="_blank" rel="external">rev-list</a>, <a href="http://git-scm.com/docs/git-rev-parse" target="_blank" rel="external">rev-parse</a>, <a href="http://git-scm.com/docs/git-show-ref" target="_blank" rel="external">show-ref</a>, <a href="http://git-scm.com/docs/git-symbolic-ref" target="_blank" rel="external">symbolic-ref</a>, <a href="http://git-scm.com/docs/git-update-index" target="_blank" rel="external">update-index</a>, <a href="http://git-scm.com/docs/git-update-ref" target="_blank" rel="external">update-ref</a>, <a href="http://git-scm.com/docs/git-verify-pack" target="_blank" rel="external">verify-pack</a>, <a href="http://git-scm.com/docs/git-write-tree" target="_blank" rel="external">write-tree</a> …</li>
+</ul>
+<p><br></p>
+<h2 id="-gitignore"><a href="https://git-scm.com/docs/gitignore" target="_blank" rel="external">.gitignore</a></h2><ul>
+<li>A file specifies intentionally untracked files that Git should ignore. Files already tracked are not affected.</li>
+<li><p>Gitignore <strong>patterns</strong> from multiple <strong>sources</strong>, with the following order of precedence, from highest to lowest:</p>
+<ul>
+<li>From cmd line.</li>
+<li>File <code>.gitignore</code> specifies files all developers will want to ignore</li>
+<li>File <code>$GIT_DIR/info/exclude</code> specifies files that are just useful to a particular repository.<br>e.g., auxiliary files are specific to one user’s workflow.</li>
+<li>The file specified by configuration variable <code>core.excludesFile</code> in the user’s file <code>~/.gitconfig</code>.<br>For ignoring some files in all situations. e.g., backup or temporary files generated by editors.</li>
+</ul>
+</li>
+<li><p><strong>Pattern Format</strong></p>
+<p>  to be continue …</p>
+</li>
 </ul>
 <p><br></p>
 <h2 id="To_be_continue_…"><em>To be continue …</em></h2><p><br></p>
@@ -482,9 +508,9 @@
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
-    <updated>2016-02-02T03:42:12.000Z</updated>
+    <updated>2016-02-07T15:46:35.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li><p><em>Updated on 2016-02-02</em></p>
+<li><p><em>Updated on 2016-02-07</em></p>
 </li>
 <li><p><em>Ref: 《 <a href="https://support.apple.com/zh-cn/HT201236" target="_blank" rel="external">Mac 键盘快捷键</a> 》</em></p>
 </li>
@@ -596,7 +622,8 @@
 <p><code>⌘ /</code> Line Comment<br><strong> <code>⌘ ⌥ /</code> Block Comment </strong></p>
 <p><strong> <code>⌘ ⇧ ↑</code> Move Line Up </strong><br><strong> <code>⌘ ⇧ ↓</code> Move Line Dn </strong></p>
 <p><em><code>⌥ ↑</code> Extend Selection</em><br><em><code>⌥ ↓</code> Shrink Selection</em></p>
-<h1 id="PyCharm">PyCharm</h1><p><em>Same as PhpStorm</em></p>
+<p><em>TODO: I need a chance to optimize ‘Run’ Shortcuts of PhpStorm &amp; PyCharm!</em></p>
+<h1 id="PyCharm">PyCharm</h1><p><em>Same as PhpStorm.</em></p>
 <h1 id="QQ">QQ</h1><p><code>⌘ ^ a</code> Capture ( Always! )<br><strong> <code>⌥ 凵</code> Swiftly </strong><br><code>⌘ ↑</code> Select Prev Chat<br><code>⌘ ↓</code> Select Next Chat</p>
 <h1 id="Script_Editor">Script Editor</h1><p><code>⌘ ⇧ O</code> Open Dictionary</p>
 <h1 id="Seil">Seil</h1><p><em>With no shortcuts, but Change Layout of Keyboard !</em></p>
@@ -757,12 +784,12 @@
     <link href="http://icehe.me/bookmarks/"/>
     <id>http://icehe.me/bookmarks/</id>
     <published>2015-12-19T16:00:00.000Z</published>
-    <updated>2016-01-24T10:20:34.000Z</updated>
+    <updated>2016-02-07T15:50:07.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li><em>Updated on 2016-01-19</em></li>
+<li><em>Updated on 2016-02-07</em></li>
 </ul>
 <h2 id="IT_信息技术"><strong>IT 信息技术</strong></h2><h3 id="OL_Tools_在线工具"><strong>OL Tools 在线工具</strong></h3><ul>
-<li><p><a href="http://tool.oschina.net/regex" target="_blank" rel="external">Regular Expr Test</a> —— 正则表达式测试。 </p>
+<li><p><a href="https://regex101.com/" target="_blank" rel="external">Regular Expr Test</a> —— <a href="http://tool.oschina.net/regex" target="_blank" rel="external">正则表达式测试</a>。</p>
 </li>
 <li><p><a href="http://tool.oschina.net/hexconvert" target="_blank" rel="external">BHD Converter</a> —— 数值的进制转换（支持浮点数）。</p>
 </li>
@@ -862,6 +889,8 @@
 </ul>
 <p><br></p>
 <h3 id="Read_阅读"><strong>Read 阅读</strong></h3><ul>
+<li><p><a href="http://zhuanlan.zhihu.com/xiao-jing-mo/19959253" target="_blank" rel="external">编程入门指南 v1.4</a></p>
+</li>
 <li><p><a href="http://lucida.me/blog/on-reading-books/" target="_blank" rel="external">如何阅读（ 技术 ）书籍</a></p>
 </li>
 <li><p><a href="http://lucida.me/blog/developer-reading-list/" target="_blank" rel="external">程序员必读书单 1.0</a></p>
@@ -915,6 +944,8 @@
 <p><br></p>
 <h3 id="Architecture_架构"><strong>Architecture 架构</strong></h3><ul>
 <li><p><a href="http://www.infoq.com/cn/articles/the-road-of-the-growth-weixin-background" target="_blank" rel="external">从无到有：微信后台系统的演进之路</a></p>
+</li>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=402465951&amp;idx=1&amp;sn=c76193b13b506d2c631bac8840a0f5b6&amp;scene=1&amp;srcid=0203LZGGRVEnbznCiOuiKo9H#rd" target="_blank" rel="external">追求极致：从技术细节看美团架构</a></p>
 </li>
 <li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5NDMwNjMzNA==&amp;mid=402417924&amp;idx=1&amp;sn=967ecd1fae2f9acb4356607222c94b3b&amp;scene=1&amp;srcid=1230UbcV9DsQeIqLXOuH5QUa#rd" target="_blank" rel="external">千万级规模高性能、高并发的网络架构经验</a> —— 微博平台架构。</p>
 </li>
@@ -1230,7 +1261,13 @@
 </li>
 <li><p><a href="https://www.zhihu.com/question/19621705" target="_blank" rel="external">如何对孩子的无理要求说「不」？</a></p>
 </li>
+<li><p><a href="https://www.zhihu.com/question/22208507" target="_blank" rel="external">怎样欣赏交响乐、歌剧、古典和美声这类音乐？</a></p>
+</li>
 <li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MTIwNTYwMg==&amp;mid=402346946&amp;idx=1&amp;sn=8b2c0e87815358358eff466c25b0836b&amp;scene=5&amp;srcid=1209kGNJ89UQoUCc9M81CNEZ#rd" target="_blank" rel="external">我知道你看过不少神剧，但许多都「抄袭」它 </a></p>
+</li>
+<li><p><a href="https://www.zhihu.com/question/25699277" target="_blank" rel="external">有哪些电影一定要趁年轻看？</a></p>
+</li>
+<li><p><a href="mp.weixin.qq.com/s?__biz=MzA4MjMwODUwNQ==&amp;mid=402644191&amp;idx=2&amp;sn=b1cce3992ff6f10eb9e4026d621724a1&amp;scene=1&amp;srcid=0202z7nxM3czSEJ0TUhH5VtX#rd">我是怎么找电子书的？</a></p>
 </li>
 </ul>
 <p><br></p>

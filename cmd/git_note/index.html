@@ -19,7 +19,7 @@
 <meta property="og:url" content="http://icehe.me/cmd/git_note/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="我的 Git 笔记，日常工作曾使用的指令组合。">
-<meta property="og:updated_time" content="2016-01-25T09:03:29.000Z">
+<meta property="og:updated_time" content="2016-02-03T08:00:46.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git Note 笔记">
 <meta name="twitter:description" content="我的 Git 笔记，日常工作曾使用的指令组合。">
@@ -144,7 +144,7 @@
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">Contents</strong>
 		
-			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Ref"><span class="toc-number">1.</span> <span class="toc-text">Ref</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Setup_&_Config"><span class="toc-number">2.</span> <span class="toc-text">Setup & Config</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Get_&_Create_Proj"><span class="toc-number">3.</span> <span class="toc-text">Get & Create Proj</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Snapshot"><span class="toc-number">4.</span> <span class="toc-text">Snapshot</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Merge_&_Branch"><span class="toc-number">5.</span> <span class="toc-text">Merge & Branch</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Share_&_Update"><span class="toc-number">6.</span> <span class="toc-text">Share & Update</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Inspect_&_Compare"><span class="toc-number">7.</span> <span class="toc-text">Inspect & Compare</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Patch"><span class="toc-number">8.</span> <span class="toc-text">Patch</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Debug"><span class="toc-number">9.</span> <span class="toc-text">Debug</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Email"><span class="toc-number">10.</span> <span class="toc-text">Email</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#External_Systems"><span class="toc-number">11.</span> <span class="toc-text">External Systems</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Administration"><span class="toc-number">12.</span> <span class="toc-text">Administration</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Server_Admin"><span class="toc-number">13.</span> <span class="toc-text">Server Admin</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Plumbing_Commands"><span class="toc-number">14.</span> <span class="toc-text">Plumbing Commands</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#To_be_continue_…"><span class="toc-number">15.</span> <span class="toc-text">To be continue …</span></a></li></ol>
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Ref"><span class="toc-number">1.</span> <span class="toc-text">Ref</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Setup_&_Config"><span class="toc-number">2.</span> <span class="toc-text">Setup & Config</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Get_&_Create_Proj"><span class="toc-number">3.</span> <span class="toc-text">Get & Create Proj</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Snapshot"><span class="toc-number">4.</span> <span class="toc-text">Snapshot</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Merge_&_Branch"><span class="toc-number">5.</span> <span class="toc-text">Merge & Branch</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Share_&_Update"><span class="toc-number">6.</span> <span class="toc-text">Share & Update</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Inspect_&_Compare"><span class="toc-number">7.</span> <span class="toc-text">Inspect & Compare</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Patch"><span class="toc-number">8.</span> <span class="toc-text">Patch</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Debug"><span class="toc-number">9.</span> <span class="toc-text">Debug</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Email"><span class="toc-number">10.</span> <span class="toc-text">Email</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#External_Systems"><span class="toc-number">11.</span> <span class="toc-text">External Systems</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Administration"><span class="toc-number">12.</span> <span class="toc-text">Administration</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Server_Admin"><span class="toc-number">13.</span> <span class="toc-text">Server Admin</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Plumbing_Commands"><span class="toc-number">14.</span> <span class="toc-text">Plumbing Commands</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-gitignore"><span class="toc-number">15.</span> <span class="toc-text">.gitignore</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#To_be_continue_…"><span class="toc-number">16.</span> <span class="toc-text">To be continue …</span></a></li></ol>
 		
 		</div>
 		
@@ -157,6 +157,7 @@
 <h2 id="Ref">Ref</h2><ul>
 <li><a href="http://git-scm.com/" target="_blank" rel="external">Git SCM</a> —— Offical Site</li>
 <li><a href="http://git-scm.com/doc" target="_blank" rel="external">Reference &amp; Book</a> —— Documentation</li>
+<li><a href="https://segmentfault.com/a/1190000004222489?utm_source=Weibo&amp;utm_medium=shareLink&amp;utm_campaign=socialShare" target="_blank" rel="external">闯过这 54 关，点亮你的 Git 技能树</a></li>
 </ul>
 <p><br></p>
 <h2 id="Setup_&amp;_Config">Setup &amp; Config</h2><ul>
@@ -197,7 +198,10 @@
 <li><p><a href="http://git-scm.com/docs/git-reset" target="_blank" rel="external">reset</a> <code>[&lt;mode&gt;] [&lt;commit&gt;]</code></p>
 <p>  Reset current HEAD to the specified state.<br>  <code>--hard</code> Resets the index and working tree.</p>
 </li>
-<li><p><a href="http://git-scm.com/docs/git-rm" target="_blank" rel="external">rm</a>, <a href="http://git-scm.com/docs/git-mv" target="_blank" rel="external">mv</a> …</p>
+<li><p><a href="http://git-scm.com/docs/git-mv" target="_blank" rel="external">mv</a></p>
+<p>  Move or rename a file, directory or a symlink.</p>
+</li>
+<li><p><a href="http://git-scm.com/docs/git-rm" target="_blank" rel="external">rm</a></p>
 </li>
 </ul>
 <p><br></p>
@@ -218,9 +222,14 @@
 <p>  Use when you want to record the current state of the working directory and the index, but want to go back to a clean working directory.<br>  The command saves your local modifications away and reverts the working directory to match the HEAD commit.</p>
 <p>  <code>list</code> List stashes you have<br>  <code>show [&lt;stash&gt;]</code> Show the changes recorded in specific stash.<br>  <code>pop [&lt;stash&gt;]</code> Remove a single stashed state from the stash list and apply it on top of the current working tree state.<br>  <code>&lt;stash&gt;</code> e.g. <code>stash@{&lt;revision&gt;}</code></p>
 </li>
-<li><p><a href="http://git-scm.com/docs/git-merge" target="_blank" rel="external">merge</a>, <a href="http://git-scm.com/docs/git-mergetool" target="_blank" rel="external">mergetool</a> , <a href="http://git-scm.com/docs/git-tag" target="_blank" rel="external">tag</a> …<br><br></p>
+<li><p><a href="http://git-scm.com/docs/git-tag" target="_blank" rel="external">tag</a> <code>[-a | -s | -u &lt;keyid&gt;] [-f] [-m &lt;msg&gt; | -F &lt;file&gt;]
+  &lt;tagname&gt; [&lt;commit&gt; | &lt;object&gt;]</code></p>
+<p>  Create, list, delete or verify a tag object signed with GPG<br>  Add a tag reference in refs/tags/, unless <code>-d</code>, <code>-l</code>, <code>-v</code> (to delete, list or verify tags).</p>
+</li>
+<li><p><a href="http://git-scm.com/docs/git-merge" target="_blank" rel="external">merge</a>, <a href="http://git-scm.com/docs/git-mergetool" target="_blank" rel="external">mergetool</a>  … </p>
 </li>
 </ul>
+<p><br></p>
 <h2 id="Share_&amp;_Update">Share &amp; Update</h2><ul>
 <li><p><a href="http://git-scm.com/docs/git-fetch" target="_blank" rel="external">fetch</a> <code>[&lt;repository&gt; [&lt;refspec&gt;…​]]</code></p>
 <p>  Fetch branches and/or tags (collectively, “refs”) from one or more other repositories.<br>  <code>--all</code> Fetch all remotes.</p>
@@ -251,7 +260,9 @@
 </li>
 <li><p><a href="http://git-scm.com/docs/git-diff" target="_blank" rel="external">diff</a> See above.</p>
 </li>
-<li><p><a href="http://git-scm.com/docs/git-apply" target="_blank" rel="external">apply</a>, <a href="http://git-scm.com/docs/git-cherry-pick" target="_blank" rel="external">cherry-pick</a>, <a href="http://git-scm.com/docs/git-rebase" target="_blank" rel="external">rebase</a> …</p>
+<li><p><a href="http://git-scm.com/docs/git-rebase" target="_blank" rel="external">rebase</a></p>
+</li>
+<li><p><a href="http://git-scm.com/docs/git-apply" target="_blank" rel="external">apply</a>, <a href="http://git-scm.com/docs/git-cherry-pick" target="_blank" rel="external">cherry-pick</a> …</p>
 </li>
 </ul>
 <p><br></p>
@@ -281,6 +292,21 @@
 <p><br></p>
 <h2 id="Plumbing_Commands">Plumbing Commands</h2><ul>
 <li><a href="http://git-scm.com/docs/git-cat-file" target="_blank" rel="external">cat-file</a>, <a href="http://git-scm.com/docs/git-commit-tree" target="_blank" rel="external">commit-tree</a>, <a href="http://git-scm.com/docs/git-count-objects" target="_blank" rel="external">count-objects</a>, <a href="http://git-scm.com/docs/git-diff-index" target="_blank" rel="external">diff-index</a>, <a href="http://git-scm.com/docs/git-for-each-ref" target="_blank" rel="external">for-each-ref</a>, <a href="http://git-scm.com/docs/git-hash-object" target="_blank" rel="external">hash-object</a>, <a href="http://git-scm.com/docs/git-ls-files" target="_blank" rel="external">ls-files</a>, <a href="http://git-scm.com/docs/git-merge-base" target="_blank" rel="external">merge-base</a>, <a href="http://git-scm.com/docs/git-read-tree" target="_blank" rel="external">read-tree</a>, <a href="http://git-scm.com/docs/git-rev-list" target="_blank" rel="external">rev-list</a>, <a href="http://git-scm.com/docs/git-rev-parse" target="_blank" rel="external">rev-parse</a>, <a href="http://git-scm.com/docs/git-show-ref" target="_blank" rel="external">show-ref</a>, <a href="http://git-scm.com/docs/git-symbolic-ref" target="_blank" rel="external">symbolic-ref</a>, <a href="http://git-scm.com/docs/git-update-index" target="_blank" rel="external">update-index</a>, <a href="http://git-scm.com/docs/git-update-ref" target="_blank" rel="external">update-ref</a>, <a href="http://git-scm.com/docs/git-verify-pack" target="_blank" rel="external">verify-pack</a>, <a href="http://git-scm.com/docs/git-write-tree" target="_blank" rel="external">write-tree</a> …</li>
+</ul>
+<p><br></p>
+<h2 id="-gitignore"><a href="https://git-scm.com/docs/gitignore" target="_blank" rel="external">.gitignore</a></h2><ul>
+<li>A file specifies intentionally untracked files that Git should ignore. Files already tracked are not affected.</li>
+<li><p>Gitignore <strong>patterns</strong> from multiple <strong>sources</strong>, with the following order of precedence, from highest to lowest:</p>
+<ul>
+<li>From cmd line.</li>
+<li>File <code>.gitignore</code> specifies files all developers will want to ignore</li>
+<li>File <code>$GIT_DIR/info/exclude</code> specifies files that are just useful to a particular repository.<br>e.g., auxiliary files are specific to one user’s workflow.</li>
+<li>The file specified by configuration variable <code>core.excludesFile</code> in the user’s file <code>~/.gitconfig</code>.<br>For ignoring some files in all situations. e.g., backup or temporary files generated by editors.</li>
+</ul>
+</li>
+<li><p><strong>Pattern Format</strong></p>
+<p>  to be continue …</p>
+</li>
 </ul>
 <p><br></p>
 <h2 id="To_be_continue_…"><em>To be continue …</em></h2><p><br></p>
