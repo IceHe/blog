@@ -5,7 +5,7 @@ tags: [read]
 description: 我收藏的网站、博客、文档、学习资料、文章、问答、专栏…
 ---
 
-- *Updated on 2016-01-19*
+- *Updated on 2016-02-06*
 
 ## **IT 信息技术**
 
@@ -172,6 +172,8 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 ### **Architecture 架构**
 
 - [从无到有：微信后台系统的演进之路](http://www.infoq.com/cn/articles/the-road-of-the-growth-weixin-background)
+
+- [追求极致：从技术细节看美团架构](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=402465951&amp;idx=1&amp;sn=c76193b13b506d2c631bac8840a0f5b6&amp;scene=1&amp;srcid=0203LZGGRVEnbznCiOuiKo9H#rd)
 
 - [千万级规模高性能、高并发的网络架构经验](http://mp.weixin.qq.com/s?__biz=MjM5NDMwNjMzNA==&amp;mid=402417924&amp;idx=1&amp;sn=967ecd1fae2f9acb4356607222c94b3b&amp;scene=1&amp;srcid=1230UbcV9DsQeIqLXOuH5QUa#rd) —— 微博平台架构。
 
@@ -507,6 +509,12 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 - [为什么不从小就向孩子还原社会的残酷？](https://www.zhihu.com/question/21603465)
 
 - [如何对孩子的无理要求说「不」？](https://www.zhihu.com/question/19621705)
+
+- [《美即是正义》知乎专栏](http://zhuanlan.zhihu.com/jennyyy) —— 颜。
+
+- [如何找到适合自己的发型？](https://www.zhihu.com/question/20407751)
+
+- [怎样欣赏交响乐、歌剧、古典和美声这类音乐？](https://www.zhihu.com/question/22208507)
 
 - [我知道你看过不少神剧，但许多都「抄袭」它 ](http://mp.weixin.qq.com/s?__biz=MjM5MTIwNTYwMg==&mid=402346946&idx=1&sn=8b2c0e87815358358eff466c25b0836b&scene=5&srcid=1209kGNJ89UQoUCc9M81CNEZ#rd)
 
