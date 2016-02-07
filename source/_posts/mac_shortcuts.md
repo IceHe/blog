@@ -5,7 +5,7 @@ tags: [Mac]
 description: 我的 OS X 快捷键列表索引。
 ---
 
-- *Updated on 2016-02-02*
+- *Updated on 2016-02-07*
 
 - *Ref: 《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》*
 
@@ -478,9 +478,11 @@ Triangle Swipe Top Lf Corner `⌘ q`
 *`⌥ ↑` Extend Selection*
 *`⌥ ↓` Shrink Selection*
 
+*TODO: I need a chance to optimize 'Run’ Shortcuts of PhpStorm & PyCharm!*
+
 # PyCharm
 
-*Same as PhpStorm*
+*Same as PhpStorm.*
 
 # QQ
 

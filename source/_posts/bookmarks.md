@@ -5,7 +5,7 @@ tags: [read]
 description: 我收藏的网站、博客、文档、学习资料、文章、问答、专栏…
 ---
 
-- *Updated on 2016-02-06*
+- *Updated on 2016-02-07*
 
 ## **IT 信息技术**
 
@@ -116,6 +116,8 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 <br/>
 
 ### **Read 阅读**
+
+- [编程入门指南 v1.4](http://zhuanlan.zhihu.com/xiao-jing-mo/19959253)
 
 - [如何阅读（ 技术 ）书籍](http://lucida.me/blog/on-reading-books/)
 
@@ -510,13 +512,13 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - [如何对孩子的无理要求说「不」？](https://www.zhihu.com/question/19621705)
 
-- [《美即是正义》知乎专栏](http://zhuanlan.zhihu.com/jennyyy) —— 颜。
-
-- [如何找到适合自己的发型？](https://www.zhihu.com/question/20407751)
-
 - [怎样欣赏交响乐、歌剧、古典和美声这类音乐？](https://www.zhihu.com/question/22208507)
 
 - [我知道你看过不少神剧，但许多都「抄袭」它 ](http://mp.weixin.qq.com/s?__biz=MjM5MTIwNTYwMg==&mid=402346946&idx=1&sn=8b2c0e87815358358eff466c25b0836b&scene=5&srcid=1209kGNJ89UQoUCc9M81CNEZ#rd)
+
+- [有哪些电影一定要趁年轻看？](https://www.zhihu.com/question/25699277)
+
+- [我是怎么找电子书的？](mp.weixin.qq.com/s?__biz=MzA4MjMwODUwNQ==&amp;mid=402644191&amp;idx=2&amp;sn=b1cce3992ff6f10eb9e4026d621724a1&amp;scene=1&amp;srcid=0202z7nxM3czSEJ0TUhH5VtX#rd)
 
 <br/>
 
