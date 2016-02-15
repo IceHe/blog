@@ -5,7 +5,7 @@ tags: [read]
 description: 我收藏的网站、博客、文档、学习资料、文章、问答、专栏…
 ---
 
-- *Updated on 2016-02-07*
+- *Updated on 2016-02-10*
 
 ## **IT 信息技术**
 
@@ -107,8 +107,6 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - [一年成为Emacs高手(像神一样使用编辑器) ](http://blog.csdn.net/redguardtoo/article/details/7222501/)
 
-- [GIT和SVN之间的五个基本区别](http://www.oschina.net/news/12542/git-and-svn) —— [英文出处](http://boxysystems.com/index.php/5-fundamental-differences-between-git-svn/)。
-
 - [十分钟搞清字符集和字符编码](http://blog.jobbole.com/84903/)
 
 - [中文编码杂谈](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=401458542&amp;idx=1&amp;sn=8b92d5fb274760558154eb38a7a796de&amp;scene=1&amp;srcid=0104vzltG2BqJX4KXEWMcK4N#rd)
@@ -150,6 +148,10 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 - [GO语言零基础入门资料整理](http://www.jianshu.com/p/a70098a94d18?utm_campaign=hugo&utm_medium=reader_share&utm_content=note&utm_source=weibo)
 
 - [王垠的博客](http://www.yinwang.org/) —— 一个很有争议的人物，但是读他的文章还是很有启发的。
+
+- [面向对象编程的弊端是什么？](https://www.zhihu.com/question/20275578/answer/26577791)
+
+- [知识的偏见 - 读《暗时间》的思考](http://www.jianshu.com/p/5c051b66c844) —— 「如果你手里有把锤子，所有东西看上去都想钉子。」
 
 <br/>
 
@@ -465,6 +467,8 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 <br/>
 
 ### **Finance 理财**
+
+- **[商业分析能力是怎样炼成的？](https://www.zhihu.com/question/20603837/answer/47073613)**
 
 - [普通人如何合理的理财投资，有哪些书可以学习阅读？](https://www.zhihu.com/question/22818974) —— 必修课。
 

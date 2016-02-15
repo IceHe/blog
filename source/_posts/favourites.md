@@ -48,6 +48,10 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 	《国王，武士，祭司，诗人》，男人。
 
+- **[万万没想到：用理工科思维理解世界](http://book.douban.com/subject/25986341/)**
+
+    理性。
+
 - **[知日断舍离](http://book.douban.com/subject/24749465/)**
 
 	极简主义。
@@ -209,6 +213,10 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 - **[吴晓波频道](http://chuansong.me/account/gh_b09cb640f644)**
 
 	财经见解，趣商业。
+
+- [爱迪生商业实验室](http://zhuanlan.zhihu.com/edisonlab)
+
+    商业独见。
 
 <br/>
 

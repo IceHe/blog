@@ -5,15 +5,19 @@ tags: [Command]
 description: 我的 Git 笔记，日常工作曾使用的指令组合。
 ---
 
-- *Updated on 2016-01-24*
+- *Updated on 2016-02-10*
 
-- *PS: Omit the unusual commands at my work.*
+- *I omit the unusual commands at my work.*
+- This is just my summary. If you want to learn Git, you'd better use [闯过这 54 关，点亮你的 Git 技能树](https://segmentfault.com/a/1190000004222489?utm_source=Weibo&utm_medium=shareLink&utm_campaign=socialShare) —— 在实际工作场景下学习使用。
 
 ## Ref
 
 - [Git SCM](http://git-scm.com/) —— Offical Site
 - [Reference & Book](http://git-scm.com/doc) —— Documentation
-- [闯过这 54 关，点亮你的 Git 技能树](https://segmentfault.com/a/1190000004222489?utm_source=Weibo&utm_medium=shareLink&utm_campaign=socialShare)
+- [闯过这 54 关，点亮你的 Git 技能树](https://segmentfault.com/a/1190000004222489?utm_source=Weibo&utm_medium=shareLink&utm_campaign=socialShare) —— 在实际工作场景下学习使用。实用主义。
+- [猴子都能懂的 Git 入门](http://backlogtool.com/git-guide/cn/) —— 深入浅出。（[英文版](http://backlogtool.com/git-guide/en/)）
+- [30 天精通 Git 版本控管](https://github.com/doggy8088/Learn-Git-in-30-days/) —— Git 概念的深入理解。深入理解。
+- [GIT和SVN之间的五个基本区别](http://www.oschina.net/news/12542/git-and-svn) —— [英文出处](http://boxysystems.com/index.php/5-fundamental-differences-between-git-svn/)。
 
 <br/>
 
