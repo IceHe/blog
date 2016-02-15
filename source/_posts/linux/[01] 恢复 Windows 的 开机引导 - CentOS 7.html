@@ -1,8 +1,0 @@
-title: (01) 恢复 Windows 的 开机引导 - CentOS 7
-date: 2015-03-21
-categories: [CentOS]
-tags: [CentOS]
-description: CentOS7正式版和Redhat7，Grub2不能正确引导windows分区。解决方法：修改/boot/grub2/grub.cfg… 重启时，将会出现win8的系统选单。
-toc: false
----
-<en-note><div><span>Ref From: <a shape="rect" href="http://www.bkjia.com/xtzh/905081.html" target="_blank">http://www.bkjia.com/xtzh/905081.html</a></span></div><div><span>Original Title: CentOS 7安装后恢复Windows引导</span></div><div><br clear="none"/></div><div>CentOS 7 正式版，和 REDHAT 7 一样，</div><div>Grub2不能正确引导windows分区。</div><div><br clear="none"/></div><div><strong>解决方法：</strong></div><div><br clear="none"/></div><div><strong>打开 /boot/grub2/grub.cfg</strong></div><div>在### END /etc/grub.d/00_header ###后，<strong>修改</strong>：</div><div><br clear="none"/></div><div><strong>### BEGIN /etc/grub.d/30_os-prober ###</strong></div><div><strong>menuentry 'Windows 8 (loader) (on /dev/sda1)' --class windows --class os $menuentry_id_option 'osprober-chain-140E68540E6830C2' {</strong></div><div><strong>     insmod part_msdos</strong></div><div><strong>     insmod ntfs</strong></div><div><strong>     set root='hd0,msdos1'</strong></div><div><strong>     chainloader +1</strong></div><div><strong>}</strong></div><div><strong>### END /etc/grub.d/30_os-prober ###</strong></div><div><br clear="none"/></div><div>重启时，将会出现win8的系统选单</div><div><br clear="none"/></div><div><em>注意：set root 后面的参数按照实际情况填写</em></div></div>
