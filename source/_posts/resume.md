@@ -13,47 +13,49 @@ toc: false
 ###### **<span class="icon-weibo">&nbsp;</span>微梦创科网络技术有限公司 - 手机微博 - 服务端研发 工程师** &nbsp; &nbsp; *2015.07 ~ Now*
 - MAPI（对外接口部门）- 微博移动端（手机、平板）各功能的服务端研发与维护，
 开放平台API与微博移动端（WAP端H5页面、客户端App）间请求的聚合与适配对接
-- `PHP`, `Docker`, `Nginx`, `Redis`, `Yaf Framework`, Cent OS <br/><br/>
+- *PHP , Docker , Nginx , Redis , Yaf Framework , Cent OS* <br/><br/>
 
 ###### **毕业设计 - [基于进程安全测量的安全管理](https://github.com/IceHe/secure_mgt_by_dynamic_measuring)** &nbsp; &nbsp; *2015.03 ~ 2015.05*
 - 包括：[安全测量模块](https://github.com/IceHe/dimm)（Linux Loadable Kernel Module）、[安全管理器](https://github.com/IceHe/secure_monitor)（Qt GUI）。
 - 原理：用 SHA-1 分别计算进程在内存中的代码段与参数段，
 得出定长的信息摘要作为特征值（方便比对），去比对标准特征值，
 便可判断进程是否被篡改，或程序是否被替换。
-- `C/C++`, `Loadable Kernel Module`, `CentOS 7`, Qt Framework <br/><br/>
+- *C/C++ , Loadable Kernel Module , CentOS 7 , Qt Framework* <br/><br/>
 
 ###### **<span class="icon-weibo">&nbsp;</span>微梦创科网络技术有限公司 - 手机微博 - 服务端研发 实习生** &nbsp; &nbsp; *2014.12 ~ 2015.02*
 - 手机微博管理后台v5（B/S）- 开发 「权限管理，业务方需求、运营内容配置」 等需求
-- `PHP`, `HTML`, `CSS`, `jQuery`, `MySQL`, Yaf Framework <br/><br/>
+- *PHP , HTML , CSS , jQuery , MySQL , Yaf Framework* <br/><br/>
 
 ###### **华为软件技术（深圳）有限公司  - 软件研发 实习生** &nbsp; &nbsp; *2014.07 ~ 2014.10*
 - 广东移动电子渠道项目（官网建设）- 开发 「移动商城」 、 「我的移动」 模块的部分需求
-- `JavaEE`, `Spring`, `Struct2`, MyBatis, OracleDB, JSP, jQuery <br/><br/>
+- *JavaEE , Spring , Struct2 , MyBatis , OracleDB , JSP , jQuery* <br/><br/>
 
 ###### **华南理工IBM实验室 - 成员** &nbsp; &nbsp; *2013.05 ~ 2014.05*
 - 华工教学云平台 - Windows客户端（C++ Qt GUI），及Linux服务端的部分功能
-- `C++`, `Qt Framework`, CentOS 6, Fedora <br/><br/>
+- *C++ , Qt Framework , CentOS 6 , Fedora* <br/><br/>
 
-###### **Skill**
+###### **Skills**
+
 - *Skill Level &nbsp; &nbsp; <i class="fa fa-trophy"></i> Proficient &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star"></i> Familiar &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-half-o"></i> Competent &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Know*
 
-- **Lang** &nbsp; &nbsp; <i class="fa fa-star"></i> `C/C++` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `PHP`,&nbsp; `Python`,&nbsp; `JavaScript`,&nbsp; `Java` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> ASM,&nbsp; VB
+- **Lang** &nbsp; &nbsp; &nbsp; <i class="fa fa-star"></i> `C/C++` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `PHP`,&nbsp; `Python`,&nbsp; `JavaScript`,&nbsp; `Java` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> ASM,&nbsp; VB
 
-- **OS** &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `Mac OS X`,&nbsp; `CentOS 6/7`,&nbsp; `Windows 7/8` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Ubuntu
+- **OS** &nbsp; &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `Mac OS X`,&nbsp; `CentOS 6/7`,&nbsp; `Windows 7/8` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Ubuntu
 
-- **DB** &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `MySQL` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> MS SQL Server 2008,&nbsp; Oracle DB
+- **DB** &nbsp; &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `MySQL` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> MS SQL Server 2008,&nbsp; Oracle DB
 
-- **Web** &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `HTML`,&nbsp; `CSS`,&nbsp; `jQuery` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Nginx,&nbsp; Redis,&nbsp; XML
+- **Web** &nbsp; &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `HTML`,&nbsp; `CSS`,&nbsp; `jQuery` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Nginx,&nbsp; Redis,&nbsp; XML
 
-- **IDE** &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `PhpStorm`,&nbsp; `PyCharm`,&nbsp; Eclipse,&nbsp; QtCreator,&nbsp; Visual Studio
+- **IDE** &nbsp; &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `PhpStorm`,&nbsp; `PyCharm`,&nbsp; Eclipse,&nbsp; QtCreator,&nbsp; Visual Studio
 
-- **Tools** &nbsp; &nbsp; <i class="fa fa-star"></i> `AppleScript`,&nbsp; `Git`,&nbsp; `Vim`,&nbsp; `Zsh` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-half-o"></i> Batch file (Windows),&nbsp; Shell script
+- **Tools** &nbsp; &nbsp; &nbsp; <i class="fa fa-star"></i> `AppleScript`,&nbsp; `Git`,&nbsp; `Vim`,&nbsp; `Zsh` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-half-o"></i> Batch file (Windows),&nbsp; Shell script
 
-- **Others** &nbsp; &nbsp; <i class="fa fa-star"></i> `Qt Framework` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Yaf Framework,&nbsp; Linux Loadable Kernel Module <br/><br/>
+- **Others** &nbsp; &nbsp; &nbsp; <i class="fa fa-star"></i> `Qt Framework` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Yaf Framework,&nbsp; Linux Loadable Kernel Module <br/><br/>
 
-###### **Link**
-- **Tech Blog** &nbsp; &nbsp; <i class="fa fa-cube"> &nbsp;</i>[icehe.me](http://icehe.github.io/)
-- **Github** &nbsp; &nbsp; <i class="fa fa-github"> &nbsp;</i>[github.com/IceHe](https://github.com/IceHe)<br/><br/>
+###### **Links**
+
+- **Tech Blog** &nbsp; &nbsp; &nbsp; <i class="fa fa-cube"> &nbsp;</i>[icehe.me](http://icehe.github.io/)
+- **Github** &nbsp; &nbsp; &nbsp; <i class="fa fa-github"> &nbsp;</i>[github.com/IceHe](https://github.com/IceHe)<br/><br/>
 
 ## **Leadership**
 <br/>
@@ -91,7 +93,7 @@ toc: false
 
 ## **Others**
 <br/>
-###### **Hobby**
+###### **Hobbies**
 - <i class="fa fa-soccer-ball-o">&nbsp;</i> 运动：毽球、羽毛球、健身 &nbsp; &nbsp; <i class="fa fa-trophy"></i>[ 华工毽球社社长 ](#华南理工毽球社_-_社长_&nbsp;_&nbsp;_2012-09_~_2014-06)
 - <i class="fa fa-book">&nbsp;</i> 阅读：技术、IT、心理学、杂 &nbsp; &nbsp; <span class="icon-douban"></span>[ 读过的书 ](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
 - <i class="fa fa-pencil-square-o">&nbsp;</i> 写作：难忘的人与事、生活与想法 &nbsp; &nbsp; <span class=" icon-qzone"> [ 旧博客 ](http://290841032.qzone.qq.com) </span><br/><br/>
