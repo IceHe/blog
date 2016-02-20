@@ -11,7 +11,7 @@ toc: false
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-heart">&nbsp;</i> Animate, Zhixin, Shuttle Cock, 毽球</sup> </span> <br/>
 <span class="key_pos">Job</span>  <span class="val_pos"> <i class="fa fa-weibo">&nbsp;</i> [Sina Weibo](http://weibo.com/2181657940/) - Mobile API </span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-puzzle-piece">&nbsp;</i> Server-side Development Engineer </sup> </span>
-<span class="val_pos"> <i class="fa fa-file-text-o">&nbsp;</i> [Resume](/resume) <sup>简历</sup> </span>
+<span class="val_pos"> <i class="fa fa-file-text-o">&nbsp;</i> [Resume](/resume) - 简历 </span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-gear">&nbsp;</i> Skills, Education, Leadership</sup> </span>
 <span class="val_pos"> <i class="fa fa-github">&nbsp;</i> &nbsp;[Github](http://github.com/IceHe) </span> <br/><br/> 
 
