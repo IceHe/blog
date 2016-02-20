@@ -5,7 +5,7 @@ tags: [Mac]
 description: 我的 OS X 快捷键列表索引。
 ---
 
-- *Updated on 2016-02-07*
+- *Updated on 2016-02-19*
 
 - *Ref: 《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》*
 
@@ -143,8 +143,6 @@ description: 我的 OS X 快捷键列表索引。
 `⌥ ←` Prev Word
 `⌥ →` Next Word
 
-** `⌘ ^ 凵` Emoji & Symbols **
-
 ( After Selection )
 `⌘ b` Bold
 `⌘ u` Underline
@@ -161,11 +159,6 @@ description: 我的 OS X 快捷键列表索引。
 
 `⌥ F12` Mac Stays Awake
 `^ ⌥ F12` Allow Mac to Sleep
-
-# Baidu Input
-
-** `^ t` [ Simple | Traditional ] Chinese Characters **
-** `^ .` [ Chinese | English ] Punctuation Marks **
 
 # Bartender 2
 
@@ -347,6 +340,19 @@ Triangle Swipe Top Lf Corner `⌘ q`
 
 `^ ]` Find Declaration
 `^ t` Back from Declaration
+
+# Input Sources
+
+`⌘ 凵` Switch Input Source
+** `⌘ ^ 凵` Emoji & Symbols **
+** `^ ⇧ 凵` Trackpad Handwriting **
+
+In "Pinyin - Simplified" input source:
+
+`[` Page up
+`]` Page down
+`⇥` Sort by
+`num` Select
 
 # iTerm2
 
@@ -739,5 +745,5 @@ Triangle Swipe Top Lf Corner `⌘ q`
 
 `^ v` Edit Command Line in Vim
 
-*Use [oh-my-zsh](http://ohmyz.sh/) A framework for managing your ZSH configuration .*
+*Use [oh-my-zsh](http://ohmyz.sh/) —— A framework for managing your ZSH configuration .*
 
