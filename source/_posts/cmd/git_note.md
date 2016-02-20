@@ -39,7 +39,7 @@ description: 我的 Git 笔记，日常工作曾使用的指令组合。
 
     `git diff` 查看 working tree 与 index file 的差别。
     `git diff --cached` 查看 index file 与 commit 的差别。
-    `git diff HEAD` 查看working tree和commit的差别。<br/><br/>
+    `git diff HEAD` 查看 working tree 和 commit 的差别。<br/><br/>
 
 - File 文件
 
