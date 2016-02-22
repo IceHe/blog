@@ -330,10 +330,10 @@ $ git checkout <commit_id>   # 恢复到 revert 前的 commit 的状态。
     `show [<stash>]` Show the changes recorded in specific stash.
     `pop [<stash>]` Rm a single stashed state from the stash list and apply it on top of the cur working tree state.
 
-    `<stash>` e.g. `stash@{<revision>}ster +10 ~0 -0 !]
+    `<stash>` e.g. `stash@{<revision>}ster +10 ~0 -0 !]`
     在这段提示的地方，你可以看到几个东西：
     master 代表目前工作目录是 master 分支，也是 Git 的预设分支名称。
-    “红色”的数字都代表 Untracked (未追踪)`<br/><br/>
+    “红色”的数字都代表 Untracked (未追踪)。<br/><br/>
 
 - [tag](http://git-scm.com/docs/git-tag) `[-f] [-m <msg>] <tag_name> [<commit> | <object>]`
 

@@ -1,11 +1,11 @@
 title: CLI Note 命令行
-date: 2016-01-24 20:12:50
+date: 2016-02-26
 categories: [Command]
 tags: [Command]
 description: 我的命令行指令总结，及相关配置。CLI = Command Line Interface
 ---
 
-- *Updated on 2016-01-27*
+- *Updated on 2016-02-26*
 
 ## Abbreviations
 
@@ -26,6 +26,8 @@ description: 我的命令行指令总结，及相关配置。CLI = Command Line 
 `pwd` password
 `rd` read
 `rm` remove
+
+`std` standard
 `sth` something
 
 ## [Zsh](http://zsh.sourceforge.net/)
@@ -91,11 +93,9 @@ description: 我的命令行指令总结，及相关配置。CLI = Command Line 
 
 - **`man cmd_name ...` Format & display the cmd Manual.**.
 
-
 - **`bash` Bourne-Again SHell**
 
-    An sh-compatible cmd language interpreter that cmds rd from the standard input or from a file.
-
+    An sh-compatible cmd language interpreter that cmds rd from the std input or from a file.
 
 - **`ls [-ACFGLRSTUalmrtu1] [file ...]` List dir Contents.**
 

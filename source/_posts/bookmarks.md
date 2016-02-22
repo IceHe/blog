@@ -5,7 +5,7 @@ tags: [read]
 description: 我收藏的网站、博客、文档、学习资料、文章、问答、专栏…
 ---
 
-- *Updated on 2016-02-17*
+- *Updated on 2016-02-22*
 
 ## **IT 信息技术**
 
@@ -53,7 +53,9 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 <br/>*最好的习惯：查阅官方网站的文档。*
 
-- [My Git Note](/cmd/git_note)
+- [My **Git** Note](/cmd/git_note)
+
+- [My **CLI** Note](/cmd/command_line) —— Command Line Interface
 
 - [Zsh Docs](http://zsh.sourceforge.net/Doc/) —— [Z shell](http://zsh.sourceforge.net/)
 
@@ -330,11 +332,11 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - [Loser 应该知道的 6 个残酷人生事实](http://www.douban.com/group/topic/36138010/)
 
-	「这个世界只关心你能给予什么。」 &nbsp;—— 《 六个可以让你变得更强大的残酷事实 》译文。
+    「这个世界只关心你能给予什么。」 &nbsp;—— 《 六个可以让你变得更强大的残酷事实 》译文。
 
 - [你曾经的老师说过的哪句话印象最为深刻，对你影响较大甚至在十多年或更久之后都记在心里？](https://www.zhihu.com/question/23721974/answer/25493813)
 
-	我们用「我能做到什么」来判断和定位自己，而别人用「你已经做过什么」来判断和定位你。
+    我们用「我能做到什么」来判断和定位自己，而别人用「你已经做过什么」来判断和定位你。
 
 - [70 后和 80 后对于刚刚踏入社会的 90 后毕业生有什么建议？](https://www.zhihu.com/question/20773220) —— 「如果不能先学着适应环境，就不要妄想改变环境。」
 
@@ -360,7 +362,7 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - [孤独让人成瘾（下）：依赖真实的关系](http://www.vccoo.com/v/6a28e8)
 
-	「交一个真正的朋友是一件很累人的事，但是人生那么长，不累一累，那又该干嘛呢？」
+    「交一个真正的朋友是一件很累人的事，但是人生那么长，不累一累，那又该干嘛呢？」
 
 - [为什么人越长大越孤单？](https://www.zhihu.com/question/22613634/answer/77378235) —— 自我定型后，想要寻找与我们真正相似的人。
 
@@ -374,7 +376,7 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - [女性年纪大了就不好嫁人了吗？](https://www.zhihu.com/question/29090643)
 
-	如果你自己一个人的时候都搞不定你自己，如果你单身的时候都不能把自己搞的美美的，让你自己过得开心，你觉得你能搞定一个家庭么？你觉得婚姻就会是你的避风港湾了么？
+    如果你自己一个人的时候都搞不定你自己，如果你单身的时候都不能把自己搞的美美的，让你自己过得开心，你觉得你能搞定一个家庭么？你觉得婚姻就会是你的避风港湾了么？
 
 - [《 不想靠谱 》 知乎专栏](http://zhuanlan.zhihu.com/bocai) —— 两性关系。
 
@@ -486,6 +488,8 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - [2015年中国100最佳餐厅完全榜单](http://mp.weixin.qq.com/s?__biz=MjM5MDE4ODIzMg==&amp;mid=206234405&amp;idx=1&amp;sn=70dfa683c1db46303d18adc6fc6095a2&amp;scene=1#rd)
 
+- [强烈谴责这24间美食，2015年里，你们让广州吃货们排队排得好苦啊！](http://mp.weixin.qq.com/s?__biz=MjM5MjMzMjY2MA==&amp;mid=403032662&amp;idx=1&amp;sn=e8e14422514eea571bf6145a25aa6946&amp;scene=1&amp;srcid=0217JjMdD2tqWQpDYrlnPgft#rd)
+
 <br/>
 
 ### **Play 玩**
@@ -523,6 +527,10 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 - [有哪些电影一定要趁年轻看？](https://www.zhihu.com/question/25699277)
 
 - [我是怎么找电子书的？](mp.weixin.qq.com/s?__biz=MzA4MjMwODUwNQ==&amp;mid=402644191&amp;idx=2&amp;sn=b1cce3992ff6f10eb9e4026d621724a1&amp;scene=1&amp;srcid=0202z7nxM3czSEJ0TUhH5VtX#rd)
+
+- [哪些知识技能一定要掌握？](https://www.zhihu.com/question/35112627)
+
+- [中国人，你要自信](http://v.qq.com/page/c/2/5/c0185ioi225.html)
 
 <br/>
 
