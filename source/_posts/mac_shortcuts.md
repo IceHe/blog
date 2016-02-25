@@ -5,7 +5,7 @@ tags: [Mac]
 description: 我的 OS X 快捷键列表索引。
 ---
 
-- *Updated on 2016-02-19*
+- *Updated on 2016-02-25*
 
 - *Ref: 《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》*
 
@@ -327,6 +327,10 @@ Triangle Swipe Top Lf Corner `⌘ q`
 ** `⌘ ⇧ J` Browser Console **
 ** `⇧ F4` JavaScript Draft  ( for js test ) **
 
+# HazeOver
+
+** `⌘ ⇧ ⌥ H` Toggle**
+
 # IdeaVim
 
 *( Plugin for PhpStorm & PyCharm )*
@@ -429,6 +433,7 @@ In "Pinyin - Simplified" input source:
 
 `^ ⌥ n` NeteaseMusic
 `^ ⌥ m` Manico
+`^ ⌥ '` HazeOver
 
 # Moom
 
