@@ -5,7 +5,7 @@ tags: [read]
 description: 我收藏的网站、博客、文档、学习资料、文章、问答、专栏…
 ---
 
-- *Updated on 2016-02-23*
+- *Updated on 2016-02-29*
 
 ## **IT 信息技术**
 
@@ -296,6 +296,8 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - [为什么创业公司开除员工的速度越快越好（fire fast）？](https://www.zhihu.com/question/30991569/answer/50763087)
 
+- [如何留住员工的心？这家公司的「员工留存率」高达 95%！](http://weibo.com/ttarticle/p/show?id=2309403945361273143607)
+
 <br/>
 
 ### **Oth Tools 工具**
@@ -474,6 +476,8 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - [普通人如何合理的理财投资，有哪些书可以学习阅读？](https://www.zhihu.com/question/22818974) —— 必修课。
 
+- [《天上不会掉馅饼》知乎专栏](http://zhuanlan.zhihu.com/wontfallinyourlap) —— 金融投资诈骗真相与投资方面的常识。
+
 - [如何看待「 钱不是省出来的 」这句话？](https://www.zhihu.com/question/25258679) —— 「该花的钱一定要花，不该花的钱一定要省。」 然后，要有智慧分辨两者的不同。
 
 - [为什么跳槽加薪会比内部调薪要高？](https://www.zhihu.com/question/20564224) —— 瞬时市场定价。 
@@ -494,6 +498,12 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - [广州有什么「鲜为人知但很有意思」的景点？](https://www.zhihu.com/question/21648404)
 
+- [怎样欣赏交响乐、歌剧、古典和美声这类音乐？](https://www.zhihu.com/question/22208507)
+
+- [我知道你看过不少神剧，但许多都「抄袭」它 ](http://mp.weixin.qq.com/s?__biz=MjM5MTIwNTYwMg==&mid=402346946&idx=1&sn=8b2c0e87815358358eff466c25b0836b&scene=5&srcid=1209kGNJ89UQoUCc9M81CNEZ#rd)
+
+- [有哪些电影一定要趁年轻看？](https://www.zhihu.com/question/25699277)
+
 <br/>
 
 ### **Buy 买**
@@ -510,6 +520,8 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - [如何系统地练字？](https://www.zhihu.com/question/20502275) —— 手写的乐趣。
 
+- [音乐的秘密](http://www.letv.com/ptv/vplay/24200614.html#vid=24200614) —— 梁欢制作的纪录片电影。
+
 - [KTV不允许带酒水和零食违法不违法？](https://www.zhihu.com/question/35814611/answer/65416013) —— 合法权益。
 
 - [家居中有哪些设计不合理的地方？](https://www.zhihu.com/question/22827881)
@@ -518,13 +530,7 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - [如何对孩子的无理要求说「不」？](https://www.zhihu.com/question/19621705)
 
-- [怎样欣赏交响乐、歌剧、古典和美声这类音乐？](https://www.zhihu.com/question/22208507)
-
-- [我知道你看过不少神剧，但许多都「抄袭」它 ](http://mp.weixin.qq.com/s?__biz=MjM5MTIwNTYwMg==&mid=402346946&idx=1&sn=8b2c0e87815358358eff466c25b0836b&scene=5&srcid=1209kGNJ89UQoUCc9M81CNEZ#rd)
-
-- [有哪些电影一定要趁年轻看？](https://www.zhihu.com/question/25699277)
-
-- [我是怎么找电子书的？](mp.weixin.qq.com/s?__biz=MzA4MjMwODUwNQ==&amp;mid=402644191&amp;idx=2&amp;sn=b1cce3992ff6f10eb9e4026d621724a1&amp;scene=1&amp;srcid=0202z7nxM3czSEJ0TUhH5VtX#rd)
+- [我是怎么找电子书的？](http://mp.weixin.qq.com/s?__biz=MzA4MjMwODUwNQ==&mid=402644191&idx=2&sn=b1cce3992ff6f10eb9e4026d621724a1&scene=1&srcid=0202z7nxM3czSEJ0TUhH5VtX#rd)
 
 <br/>
 
