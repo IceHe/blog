@@ -50,4 +50,5 @@ description: 个人时间管理日志。
 
 #### 2016
 ---
-1. [一月：月光，learn。 Jan: use up, .](/lifelogs/2016/01/index.html)
+1. [一月：月光，学习。 Jan: use up, learn.](/lifelogs/2016/01/index.html)
+2. [二月：休息, 懒。 Feb: Relax, lazy.](/lifelogs/2016/02/index.html)
