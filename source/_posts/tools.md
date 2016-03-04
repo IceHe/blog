@@ -5,7 +5,7 @@ tags: [Mac]
 description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommended Mac Apps . &nbsp; 以及科技产品、外设、用具等。
 ---
 
-- *Updated on 2016-02-26*
+- *Updated on 2016-03-03
 
 *下文斜体文本为补充描述，可略过不读。*
 
@@ -39,15 +39,15 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
     更习惯用 Chrome 的 Inspect Element 做 Web 的调试，而非 Firebug。
 
+- **[Squirrel](http://rime.im/)**
+
+    鼠须管输入法，是 Rime 中州韵输入法的 Mac 发行版。它是开源的，是属于极客的，神级输入法！
+
+    *「[ifanr 的推荐](http://www.ifanr.com/156409)」、「[Rime 输入法 — 鼠须管（Squirrel）词库添加及配置](http://www.jianshu.com/p/cffc0ea094a7)」*
+
 - **[Typora](http://www.typora.io)**
 
     极简 Markdown 编辑器，所见即所得，而且完全免费！
-
-- [鼠须管输入法](http://rime.im/)
-
-    当之无愧的神级输入法！（[ifanr 的推荐](http://www.ifanr.com/156409)）
-
-    *个人学习双拼后才改用它。*
 
 <br/>
 
@@ -94,7 +94,7 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
     OS X 下最好的包管理器。就如 agt-get 之于 Ubuntu，yum 之于 RedHat、CentOS 的存在。
 
-- [Homebrew Cask](http://caskroom.io/)
+- **[Homebrew Cask](http://caskroom.io/)**
 
     用命令行的方式安装、更新 Mac App，再也不用忍受 AppStore 缓慢的速度了！（[安装教程](http://ksmx.me/homebrew-cask-cli-workflow-to-install-mac-applications/)）
 
