@@ -5,7 +5,7 @@ tags: [Mac]
 description: 我的 OS X 快捷键列表索引。
 ---
 
-- *Updated on 2016-02-25*
+- *Updated on 2016-03-04*
 
 - *Ref: 《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》*
 
@@ -351,12 +351,31 @@ Triangle Swipe Top Lf Corner `⌘ q`
 ** `⌘ ^ 凵` Emoji & Symbols **
 ** `^ ⇧ 凵` Trackpad Handwriting **
 
-In "Pinyin - Simplified" input source:
+In "Pinyin - Simplified" (OS X default):
 
-`[` Page up
-`]` Page down
-`⇥` Sort by
+`[` Page Up
+`]` Page Down
+`⇥` Sort By
 `num` Select
+
+In "Squirrel" (Rime Input):
+
+** `⌃ f` Left**
+** `⌃ b` Right**
+** `⌃ a` Home**
+** `⌃ e` End**
+** `⌃ h` Backspace**
+** `⌃ d` Delete**
+** `⌃ u` | `⌃ [` Escape**
+** `^ k` | `⇧ ⌫` Remove the selected Candidate phrase from user dict**
+** `^ t` [ Simple | Traditional  ] Chinese Characters **
+** `^ .` [ Chinese | English  ] Punctuations **
+** `^ ⇧ 1` | `^ ⇧ !`  [ Half | Full  ] Shape Punctuations **
+
+In "Baidu Input" input source:
+
+** `^ t` [ Simple | Traditional  ] Chinese Characters **
+** `^ .` [ Chinese | English  ] Punctuation Marks **
 
 # iTerm2
 
