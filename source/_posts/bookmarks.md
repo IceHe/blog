@@ -5,11 +5,13 @@ tags: [read]
 description: 我收藏的网站、博客、文档、学习资料、文章、问答、专栏…
 ---
 
-- *Updated on 2016-02-29*
+- *Updated on 2016-03-03*
 
 ## **IT 信息技术**
 
 ### **OL Tools 在线工具**
+
+- [Public DNS](http://www.ip.cn/dns.html) —— 公共 DNS 服务器 IP 列表。
 
 - [Regular Expr Test](https://regex101.com/) —— [正则表达式测试](http://tool.oschina.net/regex)。
 
