@@ -5,7 +5,7 @@ tags: [Command]
 description: 我的 Git 笔记，日常工作曾使用的指令组合。
 ---
 
-- *Updated on 2016-02-20*
+- *Updated on 2016-03-04*
 
 - *Omit the unusual commands at my work.*
 
@@ -499,7 +499,19 @@ $ git checkout <commit_id>   # 恢复到 revert 前的 commit 的状态。
 
 ### Plumbing Cmds
 
-- [cat-file](http://git-scm.com/docs/git-cat-file), [commit-tree](http://git-scm.com/docs/git-commit-tree), [count-objects](http://git-scm.com/docs/git-count-objects), [diff-index](http://git-scm.com/docs/git-diff-index), [for-each-ref](http://git-scm.com/docs/git-for-each-ref), [hash-object](http://git-scm.com/docs/git-hash-object), [ls-files](http://git-scm.com/docs/git-ls-files), [merge-base](http://git-scm.com/docs/git-merge-base), [read-tree](http://git-scm.com/docs/git-read-tree), [rev-list](http://git-scm.com/docs/git-rev-list), [rev-parse](http://git-scm.com/docs/git-rev-parse), [show-ref](http://git-scm.com/docs/git-show-ref), [symbolic-ref](http://git-scm.com/docs/git-symbolic-ref), [update-index](http://git-scm.com/docs/git-update-index), [update-ref](http://git-scm.com/docs/git-update-ref), [verify-pack](http://git-scm.com/docs/git-verify-pack), [write-tree](http://git-scm.com/docs/git-write-tree) ...
+- [ls-files](http://git-scm.com/docs/git-ls-files)
+
+    Show info about files in the index and the working tree.
+
+    `--cached` | `-c` Show cached files in the output (default).
+    `--delete` | `-d` ... deleted ...
+    `--modified` | `-m` ... modified ...
+    `--others` | `-o` ... others ...
+    `--ignored` | `-i` ... ignored ...
+    `--stage` | `-i` ... stage ...
+    `--unmerged` | `-u` ... unmerged ...
+
+- [cat-file](http://git-scm.com/docs/git-cat-file), [commit-tree](http://git-scm.com/docs/git-commit-tree), [count-objects](http://git-scm.com/docs/git-count-objects), [diff-index](http://git-scm.com/docs/git-diff-index), [for-each-ref](http://git-scm.com/docs/git-for-each-ref), [hash-object](http://git-scm.com/docs/git-hash-object), [merge-base](http://git-scm.com/docs/git-merge-base), [read-tree](http://git-scm.com/docs/git-read-tree), [rev-list](http://git-scm.com/docs/git-rev-list), [rev-parse](http://git-scm.com/docs/git-rev-parse), [show-ref](http://git-scm.com/docs/git-show-ref), [symbolic-ref](http://git-scm.com/docs/git-symbolic-ref), [update-index](http://git-scm.com/docs/git-update-index), [update-ref](http://git-scm.com/docs/git-update-ref), [verify-pack](http://git-scm.com/docs/git-verify-pack), [write-tree](http://git-scm.com/docs/git-write-tree) ...
 
 <br/>
 
