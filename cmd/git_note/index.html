@@ -16,7 +16,7 @@
 	<meta name="description" content="我的 Git 笔记，日常工作曾使用的指令组合。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Git Note">
-<meta property="og:url" content="http://icehe.gitcafe.io/cmd/git_note/index.html">
+<meta property="og:url" content="http://icehe.me/cmd/git_note/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="我的 Git 笔记，日常工作曾使用的指令组合。">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/git%2Fgit_refname_relationship_00.jpg">
@@ -25,7 +25,7 @@
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/git%2Fgit_merge_result_00.png">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/git%2Fgit_rebase_result_00.png">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/git%2Fgit_merge_after_rebase_00.png">
-<meta property="og:updated_time" content="2016-02-25T02:25:49.000Z">
+<meta property="og:updated_time" content="2016-03-04T15:25:30.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git Note">
 <meta name="twitter:description" content="我的 Git 笔记，日常工作曾使用的指令组合。">
@@ -51,7 +51,7 @@
   <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
 
   <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="NtyG7UMq67z-p05L0Hd1wVQ1c5ju3gwEue3MzKZQNPE" />
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
   <!-- 微博开放平台 元标签验证码 -->
   <meta property="wb:webmaster" content="84efd5956048ab8f" />
@@ -155,7 +155,7 @@
 		</div>
 		
 		<ul>
-<li><p><em>Updated on 2016-02-20</em></p>
+<li><p><em>Updated on 2016-03-04</em></p>
 </li>
 <li><p><em>Omit the unusual commands at my work.</em></p>
 </li>
@@ -415,7 +415,12 @@
 <li><a href="http://git-scm.com/docs/git-daemon" target="_blank" rel="external">daemon</a>, <a href="http://git-scm.com/docs/git-update-server-info" target="_blank" rel="external">update-server-info</a> …</li>
 </ul>
 <h3 id="Plumbing_Cmds">Plumbing Cmds</h3><ul>
-<li><a href="http://git-scm.com/docs/git-cat-file" target="_blank" rel="external">cat-file</a>, <a href="http://git-scm.com/docs/git-commit-tree" target="_blank" rel="external">commit-tree</a>, <a href="http://git-scm.com/docs/git-count-objects" target="_blank" rel="external">count-objects</a>, <a href="http://git-scm.com/docs/git-diff-index" target="_blank" rel="external">diff-index</a>, <a href="http://git-scm.com/docs/git-for-each-ref" target="_blank" rel="external">for-each-ref</a>, <a href="http://git-scm.com/docs/git-hash-object" target="_blank" rel="external">hash-object</a>, <a href="http://git-scm.com/docs/git-ls-files" target="_blank" rel="external">ls-files</a>, <a href="http://git-scm.com/docs/git-merge-base" target="_blank" rel="external">merge-base</a>, <a href="http://git-scm.com/docs/git-read-tree" target="_blank" rel="external">read-tree</a>, <a href="http://git-scm.com/docs/git-rev-list" target="_blank" rel="external">rev-list</a>, <a href="http://git-scm.com/docs/git-rev-parse" target="_blank" rel="external">rev-parse</a>, <a href="http://git-scm.com/docs/git-show-ref" target="_blank" rel="external">show-ref</a>, <a href="http://git-scm.com/docs/git-symbolic-ref" target="_blank" rel="external">symbolic-ref</a>, <a href="http://git-scm.com/docs/git-update-index" target="_blank" rel="external">update-index</a>, <a href="http://git-scm.com/docs/git-update-ref" target="_blank" rel="external">update-ref</a>, <a href="http://git-scm.com/docs/git-verify-pack" target="_blank" rel="external">verify-pack</a>, <a href="http://git-scm.com/docs/git-write-tree" target="_blank" rel="external">write-tree</a> …</li>
+<li><p><a href="http://git-scm.com/docs/git-ls-files" target="_blank" rel="external">ls-files</a></p>
+<p>  Show info about files in the index and the working tree.</p>
+<p>  <code>--cached</code> | <code>-c</code> Show cached files in the output (default).<br>  <code>--delete</code> | <code>-d</code> … deleted …<br>  <code>--modified</code> | <code>-m</code> … modified …<br>  <code>--others</code> | <code>-o</code> … others …<br>  <code>--ignored</code> | <code>-i</code> … ignored …<br>  <code>--stage</code> | <code>-i</code> … stage …<br>  <code>--unmerged</code> | <code>-u</code> … unmerged …</p>
+</li>
+<li><p><a href="http://git-scm.com/docs/git-cat-file" target="_blank" rel="external">cat-file</a>, <a href="http://git-scm.com/docs/git-commit-tree" target="_blank" rel="external">commit-tree</a>, <a href="http://git-scm.com/docs/git-count-objects" target="_blank" rel="external">count-objects</a>, <a href="http://git-scm.com/docs/git-diff-index" target="_blank" rel="external">diff-index</a>, <a href="http://git-scm.com/docs/git-for-each-ref" target="_blank" rel="external">for-each-ref</a>, <a href="http://git-scm.com/docs/git-hash-object" target="_blank" rel="external">hash-object</a>, <a href="http://git-scm.com/docs/git-merge-base" target="_blank" rel="external">merge-base</a>, <a href="http://git-scm.com/docs/git-read-tree" target="_blank" rel="external">read-tree</a>, <a href="http://git-scm.com/docs/git-rev-list" target="_blank" rel="external">rev-list</a>, <a href="http://git-scm.com/docs/git-rev-parse" target="_blank" rel="external">rev-parse</a>, <a href="http://git-scm.com/docs/git-show-ref" target="_blank" rel="external">show-ref</a>, <a href="http://git-scm.com/docs/git-symbolic-ref" target="_blank" rel="external">symbolic-ref</a>, <a href="http://git-scm.com/docs/git-update-index" target="_blank" rel="external">update-index</a>, <a href="http://git-scm.com/docs/git-update-ref" target="_blank" rel="external">update-ref</a>, <a href="http://git-scm.com/docs/git-verify-pack" target="_blank" rel="external">verify-pack</a>, <a href="http://git-scm.com/docs/git-write-tree" target="_blank" rel="external">write-tree</a> …</p>
+</li>
 </ul>
 <p><br></p>
 <h3 id="-gitignore"><a href="https://git-scm.com/docs/gitignore" target="_blank" rel="external">.gitignore</a></h3><ul>
@@ -579,7 +584,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://icehe.gitcafe.io/cmd/git_note/" data-title="Git Note | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
+	  <div data-url="http://icehe.me/cmd/git_note/" data-title="Git Note | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -591,6 +596,14 @@
 	
 <nav class="article-nav clearfix">
  
+ <div class="prev" >
+ <a href="/think/2016_spring/" title="2016 Spring">
+  <strong>Prev：</strong><br/>
+  <span>
+  2016 Spring</span>
+</a>
+</div>
+
 
 <div class="next">
 <a href="/cmd/command_line/"  title="CLI Note 命令行">
@@ -626,7 +639,7 @@ var duoshuoQuery = {short_name:"icehe"};
 
 
 
-document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="cmd/git_note/" data-title="Git Note" data-url="http://icehe.gitcafe.io/cmd/git_note/"></div>'
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="cmd/git_note/" data-title="Git Note" data-url="http://icehe.me/cmd/git_note/"></div>'
 //	+ '<hr/>'
 //	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
 //	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
@@ -718,7 +731,7 @@ document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thr
 	
 		<li><a href="/categories/read/" title="read">read<sup>3</sup></a></li>
 	
-		<li><a href="/categories/think/" title="think">think<sup>2</sup></a></li>
+		<li><a href="/categories/think/" title="think">think<sup>3</sup></a></li>
 	
 		<li><a href="/categories/time-mgt/" title="time mgt">time mgt<sup>2</sup></a></li>
 	
