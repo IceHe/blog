@@ -5,13 +5,13 @@ tags: [read]
 description: 我收藏的网站、博客、文档、学习资料、文章、问答、专栏…
 ---
 
-- *Updated on 2016-03-03*
+- *Updated on 2016-03-07*
 
 ## **IT 信息技术**
 
 ### **OL Tools 在线工具**
 
-- [Public DNS](http://www.ip.cn/dns.html) —— 公共 DNS 服务器 IP 列表。
+- [Cheat-Sheets.org](http://www.cheat-sheets.org/) / [Our Favourite Cheat Sheets](http://whatis.techtarget.com/reference/Our-Favorite-Cheat-Sheets#operating) —— 知识速查清单。
 
 - [Regular Expr Test](https://regex101.com/) —— [正则表达式测试](http://tool.oschina.net/regex)。
 
@@ -23,11 +23,13 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - Encoding Converter :&nbsp; [URL](http://tool.oschina.net/encode?type=4) ,&nbsp; [ASCII](http://tool.oschina.net/encode?type=3) ,&nbsp; [UTF-8](http://tool.oschina.net/encode?type=2) ,&nbsp; [Unicode](http://tool.oschina.net/encode?type=1) ,&nbsp; [Escape](http://www.bejson.com/enc/escape/) —— 编码转换。
 
-- [OSChina Online Tools](http://tool.oschina.net/) —— 常用 Web 开发辅助工具、相关知识的简易手册。
-
 - [BeJson](http://www.bejson.com/) —— JSON 格式校验，及网络、前端、转换、格式化等工具。
 
-- [百度开发者中心](http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs)、[360 的 CDN 服务](http://libs.useso.com/) —— CDN 公共库：常用前端公共库、Google 公共库、字体库… 
+- [OSChina Online Tools](http://tool.oschina.net/) —— 常用 Web 开发辅助工具、相关知识的简易手册。
+
+- [百度开发者中心](http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs)、[360 的 CDN 服务](http://libs.useso.com/) —— CDN 公共库：常用前端公共库、Google 公共库、字体库…
+
+- [Public DNS](http://www.ip.cn/dns.html) —— 公共 DNS 服务器 IP 列表。
 
 <br/>
 
@@ -35,19 +37,70 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - [jQuery Docs Refs](http://tool.oschina.net/apidocs/apidoc?api=jquery)
 
+- [JavaScript](http://www.cheat-sheets.org/sites/javascript.su/) / [HTML & XHTML](http://www.cheat-sheets.org/sites/html.su/index.html) / [CSS](http://www.cheat-sheets.org/sites/css.su/) / [XML](http://www.cheat-sheets.org/sites/xml.su/) / [SQL](http://www.cheat-sheets.org/sites/sql.su/) in one page.
+
+- [JavaScript Ref (img)](http://javascript-reference.info/)
+
+- [PHP Value Comparison](http://www.blueshoes.org/en/developer/php_cheat_sheet)
+
+- [ASCII Table](http://www.asciitable.com/) —— [对照表](http://tool.oschina.net/commons?type=4)。
+
+- [URL Encoded Characters](http://www.cheat-sheets.org/sites/html.su/urlencoding.html)
+
+- [XML & HTML Character Entity Ref](http://www.elizabethcastro.com/html/extras/entities.html) —— [字符实体引用](http://tool.oschina.net/commons?type=2)。
+
 - [w3school](http://w3school.com.cn/) —— Web 基础知识入门与速查。
 
 - [DIVCSS5](http://www.divcss5.com/) —— 学习 DIV + CSS 布局技术。
 
-- [ASCII printable code chart](https://en.wikipedia.org/wiki/ASCII#ASCII_printable_code_chart) —— [对照表](http://tool.oschina.net/commons?type=4)。
+- [HTTP Status Codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#1xx_Informational) —— [状态码](http://tool.oschina.net/commons?type=5)。
 
-- [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#1xx_Informational) —— [状态码](http://tool.oschina.net/commons?type=5)。
-
-- [List of TCP and UDP port numbers](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports) —— [端口号](http://tool.oschina.net/commons?type=7)。
-
-- [List of XML and HTML character entity references](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Predefined_entities_in_XML) —— [字符实体引用](http://tool.oschina.net/commons?type=2)。
+- [TCP & UDP Port Numbers](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports) / [Another](https://www.gasmi.net/tcp.php) —— [端口号](http://tool.oschina.net/commons?type=7)。
 
 - [常用颜色对照表](http://tool.oschina.net/commons?type=3)、 [网页设计常用色彩搭配表](http://www.divcss5.com/peise/)
+
+<br/>
+
+#### Dynamic Cheat Sheets
+
+_PS: Need to screen the content of this section._
+
+- [Studying](http://www.cheatography.com/nataliemoore/cheat-sheets/studying/) / [Writing](http://www.cheatography.com/y0mbo/cheat-sheets/writing-cheat-sheet/) / [Markdown](http://www.cheatography.com/specialbrand/cheat-sheets/markdown/) / [Dramatica Theory](http://www.cheatography.com/permababy/cheat-sheets/dramatica-theory/)
+
+- [C](http://www.cheatography.com/pmg/cheat-sheets/c/) / [OO_Java](http://www.cheatography.com/tarinya/cheat-sheets/oo-java/) / [Closed-source Debugging with GDB](http://www.cheatography.com/fristle/cheat-sheets/closed-source-debugging-with-gdb/)
+
+- [Object Oriented Design](http://www.cheatography.com/david/cheat-sheets/object-oriented-design/) / [Object-Oriented Design Principles](http://www.cheatography.com/scottashipp/cheat-sheets/object-oriented-design-principles/)
+
+- [PHP](http://www.cheatography.com/krabat1/cheat-sheets/php/) / [PHP (more detail)](http://www.cheatography.com/davechild/cheat-sheets/php/) / [PHP-FIG PSR Standards](http://www.cheatography.com/davechild/cheat-sheets/php-fig-psr-standards/)
+
+- [Python](http://www.cheatography.com/davechild/cheat-sheets/python/) / [Essential Python](http://www.cheatography.com/sschaub/cheat-sheets/essential-python/) / [Ruby for Beginners](http://www.cheatography.com/laurennicoleroth/cheat-sheets/rubyforbeginners/)
+
+- [JavaScript](http://www.cheatography.com/davechild/cheat-sheets/javascript/) / [jQuery](http://www.cheatography.com/i3quest/cheat-sheets/jquery/) / [JavaScript RegExp](http://www.cheatography.com/savagedesign/cheat-sheets/javascript-regexp/) / [Regular Expressions](http://www.cheatography.com/davechild/cheat-sheets/regular-expressions/)
+
+- [Web Programming](http://www.cheatography.com/sanoj/cheat-sheets/web-programming/) / [HTTP Status Codes](http://www.cheatography.com/kstep/cheat-sheets/http-status-codes/)
+
+- [HTML4](http://www.cheatography.com/davechild/cheat-sheets/html4/) / [CSS2](http://www.cheatography.com/davechild/cheat-sheets/css2/) / [HTML Character Entities](http://www.cheatography.com/davechild/cheat-sheets/html-character-entities/) / [Bootstrap](http://www.cheatography.com/masonjo/cheat-sheets/bootstrap/) / [Font Awesome](http://www.cheatography.com/davechild/cheat-sheets/font-awesome/)
+
+- [Operating Systems](http://www.cheatography.com/makahoshi1/cheat-sheets/operating-systems/) / [CentOS](http://www.cheatography.com/mrinflictor/cheat-sheets/centos/) / [Ububtu server](http://www.cheatography.com/nielzzz/cheat-sheets/ububtu-server/)
+
+- [\*nix users and groups](http://www.cheatography.com/citguy/cheat-sheets/nix-users-and-groups/) / [i3 Window Manager Keyboard Shortcuts](http://www.cheatography.com/davechild/cheat-sheets/i3-window-manager/)
+
+- [tmux](http://www.cheatography.com/bechtold/cheat-sheets/tmux-the-terminal-multiplexer/) / [rsync](http://www.cheatography.com/richardjh/cheat-sheets/rsync/) / [cURL](http://www.cheatography.com/ankushagarwal11/cheat-sheets/curl-cheat-sheet/) / [lsof](http://www.cheatography.com/jnbangerter/cheat-sheets/lsof-commands/) / [grep](http://www.cheatography.com/tme520/cheat-sheets/grep/)
+
+- [Git](http://www.cheatography.com/samcollett/cheat-sheets/git/) / [Subversion](http://www.cheatography.com/davechild/cheat-sheets/subversion/)
+
+- [VI Editor](http://www.cheatography.com/ericg/cheat-sheets/vi-editor/) / [Essential Emacs](http://www.cheatography.com/shawnr/cheat-sheets/essential-emacs/) / [Emacs Markdown-mode](http://www.cheatography.com/xaon/cheat-sheets/emacs-markdown-mode/) / [Vim NERDTree](http://www.cheatography.com/stepk/cheat-sheets/vim-nerdtree/)
+
+- [MySQL](http://www.cheatography.com/davechild/cheat-sheets/mysql/) / [SQL Server](http://www.cheatography.com/davechild/cheat-sheets/sql-server/) / [Essential MySQL](http://www.cheatography.com/guslong/cheat-sheets/essential-mysql/) / [sqlite3](http://www.cheatography.com/richardjh/cheat-sheets/sqlite3/) / [Redis](http://www.cheatography.com/tasjaevan/cheat-sheets/redis/)
+
+- [TCP/IP Model Layers](http://www.cheatography.com/managedkaos/cheat-sheets/tcp-ip-model-layers/) / [Network lesson](http://www.cheatography.com/monsieur-h/cheat-sheets/network-lesson/) / [mod_rewrite](http://www.cheatography.com/davechild/cheat-sheets/mod-rewrite/)
+
+- [oAuth End Points](http://www.cheatography.com/kayalshri/cheat-sheets/oauth-end-points/) / [Onsite SEO](http://www.cheatography.com/colinbancmedia/cheat-sheets/onsite-seo-cheatsheet/)
+
+- [Change Management](http://www.cheatography.com/corlisspt/cheat-sheets/change-management/) / [Project Management](http://www.cheatography.com/nataliemoore/cheat-sheets/project-management/)
+
+- [Accounting Principles and Business Transactions](http://www.cheatography.com/thuhuong/cheat-sheets/accounting-principles-and-business-transactions/)
+    / [Sociology 344 Final](http://www.cheatography.com/connorb/cheat-sheets/sociology-344-final/) / [Quantitative Methods Final Exam](http://www.cheatography.com/rockcollector2/cheat-sheets/quantitative-methods-final-exam/)
 
 <br/>
 
@@ -545,3 +598,4 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 - <span class="val_pos icon-douban"> &nbsp;[Books &nbsp; 读过](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
 - <i class="fa fa-github">&nbsp;</i> &nbsp;[Github &nbsp; 代码](http://github.com/IceHe)
 - <i class="fa fa-file-text-o">&nbsp;</i> [Resume &nbsp; 简历](/resume)<br/><br/>
+

@@ -5,7 +5,7 @@ tags: [Mac]
 description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommended Mac Apps . &nbsp; 以及科技产品、外设、用具等。
 ---
 
-- *Updated on 2016-03-03
+- *Updated on 2016-03-06
 
 *下文斜体文本为补充描述，可略过不读。*
 
@@ -179,10 +179,6 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
     更好地组织你菜单栏的 App 图标。收起/隐藏毋需过多关注的 App 图标，指定 App 有通知可暂时显示其图标。
 
-- **[BetterTouchTool](http://www.boastr.net/)**
-
-    为 Mac 的触摸板定制更多手势操作。 *iOS 版 App 还可以用来让 iPhone、iPad 设备化身为 Mac 的触摸板。*
-
 - **[ClipMenu](http://www.clipmenu.com/)**
 
     剪贴板管理工具，支持纯文本、图片、RTF、PDF、URL 等各种格式， 包括剪贴历史记录、排序、大小写转换、自定义文段的调出。
@@ -287,6 +283,12 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
     Mac 系统清理软件。
 
     *OS X 本身已经够好够省心了，不需要过多的维护，这个外在的辅助软件只是锦上添花。*
+
+- **[BetterTouchTool](http://www.boastr.net/)**
+
+    为 Mac 的触摸板定制更多手势操作。 iOS 版 App 还可以用来让 iPhone、iPad 设备化身为 Mac 的触摸板。
+
+    *现已是收费软件，虽然不贵，但自定义的快捷键足以能让我驰骋 OS X。*
 
 - **[LastPass](https://lastpass.com/)**
 
