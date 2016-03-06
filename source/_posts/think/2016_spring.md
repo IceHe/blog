@@ -3,6 +3,7 @@ date: 2016-03-03
 categories: [think]
 tags: [think]
 description: 2016 年春，偶有所感。
+toc: false
 ---
 
 感觉自己太强迫症了。

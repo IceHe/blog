@@ -10,8 +10,9 @@ description: 个人时间管理日志。
 
 #### Related
 ---
-- [**Archives - 文章归档**&nbsp; (Sorted By Time)](/archives/)
-- [Explanations for Log Format - 日志记录格式的说明](/think/time_mgt/)
+- [**Archives - 文章归档**&nbsp; (sort by time)](/archives/)
+
+- [Explanations for Log Format - 日志记录格式的说明](/think/time_mgt/)<br/><br/>
 ---
 - <i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;[Bookmarks &nbsp; 书签](/bookmarks)
 - <i class="fa fa-gears">&nbsp;</i> [Tools &nbsp; 利器](/tools)
@@ -51,4 +52,4 @@ description: 个人时间管理日志。
 #### 2016
 ---
 1. [一月：月光，学习。 Jan: use up, learn.](/lifelogs/2016/01/index.html)
-2. [二月：休息, 懒。 Feb: Relax, lazy.](/lifelogs/2016/02/index.html)
+2. [二月：休息，懒。 Feb: Relax, lazy.](/lifelogs/2016/02/index.html)

@@ -7,7 +7,7 @@ toc: false
 ---
 <span class="key_pos">I'm</span>  <span class="val_pos"> <i class="fa fa-user-secret">&nbsp;</i> &nbsp;**<a href="#qr_code" target="_top" onclick="document.getElementById('qr_code').className='pic_styl'; setTimeout(function(){ $('#qr_code').fadeOut(500).fadeIn(2000); }, 500);">Ice He 何志远</a>** &nbsp;&nbsp; </span><span id="qr_code_tip" class="hidden" style="margin-left:10px; display:none;">**Scan QR Code** <i class="fa fa-arrow-down"></i></span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-paper-plane">&nbsp;</i> A Cantonese in Beijing</sup> </span>
-<span class="val_pos"> <i class="fa fa-envelope-square">&nbsp;</i> &nbsp;[x@icehe.me](mailto:x@icehe.me) </span>
+<span class="val_pos"> <i class="fa fa-envelope-square">&nbsp;</i> &nbsp;<x@icehe.me> </span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-heart">&nbsp;</i> Animate, Zhixin, Shuttle Cock, 毽球</sup> </span> <br/>
 <span class="key_pos">Job</span>  <span class="val_pos"> <i class="fa fa-weibo">&nbsp;</i> [Sina Weibo](http://weibo.com/2181657940/) - Mobile API </span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-puzzle-piece">&nbsp;</i> Server-side Development Engineer </sup> </span>
