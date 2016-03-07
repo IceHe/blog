@@ -498,10 +498,5 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
 ## **Related**
 
-- <i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;[Bookmarks &nbsp; 书签](/bookmarks)
-- <i class="fa fa-gears">&nbsp;</i> **Tools &nbsp; 利器**
-- <i class="fa fa-heart-o">&nbsp;</i> [Favourites &nbsp; 喜好](/favourites)
-- <i class="fa fa-calendar">&nbsp;</i> [Life Logs &nbsp; 手帐](/lifelogs)
-- <span class="val_pos icon-douban"> &nbsp;[Books &nbsp; 读过](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
-- <i class="fa fa-github">&nbsp;</i> &nbsp;[Github &nbsp; 代码](http://github.com/IceHe)
-- <i class="fa fa-file-text-o">&nbsp;</i> [Resume &nbsp; 简历](/resume)<br/><br/>
+- <i class="fa fa-list">&nbsp;</i> &nbsp;__[Index 博客目录](/index)__
+
