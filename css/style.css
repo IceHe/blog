@@ -1642,12 +1642,12 @@ section.comment {
 }
 .asidetitle {
   font-size: 1.1em;
-  color: #369;
+  color: #669;
   padding: 0 0 0.3125em 0;
   border-bottom: 0.1875em solid #ccc;
 }
 .asidetitle a {
-  color: #669;
+  color: #369;
 }
 .asidetitle a:hover {
   color: #69c;
