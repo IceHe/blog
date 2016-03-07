@@ -10,9 +10,8 @@ description: 本博客的导航页。
 
 ### __[Whoami](/categories/whoami)__
 
-- [Me 我](/about) <sup>me</sup>
+- [Me 我](/about) &nbsp;/&nbsp; [Resume 简历](/resume) <sup>me</sup>
 - [My Timeline 时间轴](/timeline) <sup>me</sup>
-- [Resume - Ice He 何志远](/resume) <sup>me</sup>
 - [How to Reward Me! 怎么打赏博主~](/reward)
 
 ### __[Command](/categories/Command)__
@@ -50,12 +49,12 @@ description: 本博客的导航页。
 
 ### __[CentOS 7](/categories/CentOS)__
 
-- [(00) U盘安装 - CentOS 7](/linux/[00] U盘安装 CentOS 7)
-- [(01) 恢复 Windows 的 开机引导 - CentOS 7](/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7)
-- [(02) Configure System Envir 配置系统环境 - CentOS 7 ](/linux/[02] Config System Envir 配置系统环境 - CentOS 7)
-- [(03) Update Kernel 升级内核 - CentOS 7](/linux/[03] Update Kernel 升级内核 - CentOS 7)
-- [(04) 安装后必做的 安全防范措施 - CentOS 7](/linux/[04] 安装 CentOS 7 后必做的 安全防范措施)
-- [(05) 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7](/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7)
+- [(00) U盘安装](/linux/[00] U盘安装 CentOS 7)
+- [(01) 恢复 Windows 的 开机引导](/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7)
+- [(02) Configure System Envir 配置系统环境](/linux/[02] Config System Envir 配置系统环境 - CentOS 7)
+- [(03) Update Kernel 升级内核](/linux/[03] Update Kernel 升级内核 - CentOS 7)
+- [(04) 安装后必做的 安全防范措施](/linux/[04] 安装 CentOS 7 后必做的 安全防范措施)
+- [(05) 自动挂载 NTFS 格式的 硬盘分区](/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7)
 
 ### __[Batch](/categories/Batch)__
 
@@ -69,7 +68,7 @@ description: 本博客的导航页。
 - [C++ Primer 5th - Handwritten Notes](/c++/C++ Primer 5th)
 - [C++ Interview Book - Handwritten Notes](/c++/C++ Interview Book)
 - [C++ Code Standards 编码规范 - Handwritten Notes](/c++/C++ Code Standards 编码标准)
-- Effective C++ Reading Note [「 1 」](/c++/Effective C++ - Reading Note 1) [「 2 」](/c++/Effective C++ - Reading Note 2) [「 3 」](/c++/Effective C++ - Reading Note 3) [「 4 」](/c++/Effective C++ - Reading Note 4)
+- Effective C++ Reading Note [「 1 」](/c++/Effective C++ - Reading Note 1)[「 2 」](/c++/Effective C++ - Reading Note 2)[「 3 」](/c++/Effective C++ - Reading Note 3)[「 4 」](/c++/Effective C++ - Reading Note 4)
 
 ### __[JavaScript](/javascript/某次js代码优化过程)__
 
