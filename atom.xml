@@ -3,9 +3,9 @@
   <title><![CDATA[Ice He 何志远]]></title>
   <subtitle><![CDATA[Less is more  宁静致远]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://icehe.gitcafe.io/"/>
-  <updated>2016-03-07T10:30:33.000Z</updated>
-  <id>http://icehe.gitcafe.io/</id>
+  <link href="http://icehe.me/"/>
+  <updated>2016-03-08T02:41:32.000Z</updated>
+  <id>http://icehe.me/</id>
   
   <author>
     <name><![CDATA[IceHe何志远]]></name>
@@ -16,10 +16,10 @@
   
   <entry>
     <title><![CDATA[Index 目录]]></title>
-    <link href="http://icehe.gitcafe.io/index/"/>
-    <id>http://icehe.gitcafe.io/index/</id>
+    <link href="http://icehe.me/index/"/>
+    <id>http://icehe.me/index/</id>
     <published>2016-03-06T16:00:00.000Z</published>
-    <updated>2016-03-07T10:30:33.000Z</updated>
+    <updated>2016-03-08T02:41:32.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li><em>Updated on 2016-03-07</em></li>
 <li><strong><a href="/archives">Archives 归档 (Sort by time)</a></strong></li>
@@ -57,12 +57,12 @@
 <li><a href="/lifelogs">My Life Logs 手帐</a> <sup>me</sup></li>
 </ul>
 <h3 id="CentOS_7"><strong><a href="/categories/CentOS">CentOS 7</a></strong></h3><ul>
-<li><a href="/linux/[00] U盘安装 CentOS 7">(00) U盘安装 - CentOS 7</a></li>
-<li><a href="/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7">(01) 恢复 Windows 的 开机引导 - CentOS 7</a></li>
-<li><a href="/linux/[02] Config System Envir 配置系统环境 - CentOS 7">(02) Configure System Envir 配置系统环境 - CentOS 7 </a></li>
-<li><a href="/linux/[03] Update Kernel 升级内核 - CentOS 7">(03) Update Kernel 升级内核 - CentOS 7</a></li>
-<li><a href="/linux/[04] 安装 CentOS 7 后必做的 安全防范措施">(04) 安装后必做的 安全防范措施 - CentOS 7</a></li>
-<li><a href="/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7">(05) 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7</a></li>
+<li><a href="/linux/[00] U盘安装 CentOS 7">(00) U盘安装</a></li>
+<li><a href="/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7">(01) 恢复 Windows 的 开机引导</a></li>
+<li><a href="/linux/[02] Config System Envir 配置系统环境 - CentOS 7">(02) Configure System Envir 配置系统环境</a></li>
+<li><a href="/linux/[03] Update Kernel 升级内核 - CentOS 7">(03) Update Kernel 升级内核</a></li>
+<li><a href="/linux/[04] 安装 CentOS 7 后必做的 安全防范措施">(04) 安装后必做的 安全防范措施</a></li>
+<li><a href="/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7">(05) 自动挂载 NTFS 格式的 硬盘分区</a></li>
 </ul>
 <h3 id="Batch"><strong><a href="/categories/Batch">Batch</a></strong></h3><ul>
 <li><a href="/batch/Batch 批处理指令 Command">Batch Cmd 批处理指令</a></li>
@@ -74,7 +74,7 @@
 <li><a href="/c++/C++ Primer 5th">C++ Primer 5th - Handwritten Notes</a></li>
 <li><a href="/c++/C++ Interview Book">C++ Interview Book - Handwritten Notes</a></li>
 <li><a href="/c++/C++ Code Standards 编码标准">C++ Code Standards 编码规范 - Handwritten Notes</a></li>
-<li>Effective C++ Reading Note <a href="/c++/Effective C++ - Reading Note 1">「 1 」</a> <a href="/c++/Effective C++ - Reading Note 2">「 2 」</a> <a href="/c++/Effective C++ - Reading Note 3">「 3 」</a> <a href="/c++/Effective C++ - Reading Note 4">「 4 」</a></li>
+<li>Effective C++ Reading Note <a href="/c++/Effective C++ - Reading Note 1">「 1 」</a><a href="/c++/Effective C++ - Reading Note 2">「 2 」</a><a href="/c++/Effective C++ - Reading Note 3">「 3 」</a><a href="/c++/Effective C++ - Reading Note 4">「 4 」</a></li>
 </ul>
 <h3 id="JavaScript"><strong><a href="/javascript/某次js代码优化过程">JavaScript</a></strong></h3><ul>
 <li><a href="/javascript/某次js代码优化过程">某次无聊的 JavaScript 代码 优化过程</a></li>
@@ -103,7 +103,7 @@
 <li>「15」 <a href="/asm/Assembly Language - Note 15/">附录内容：汇编编译器对jmp的处理，地址计数器（AC），处理伪操作指令，栈传递参数，无溢出除法…</a></li>
 </ul>
 <h3 id="Mine"><strong>Mine</strong></h3><ul>
-<li><a href="&#109;&#x61;&#x69;&#108;&#116;&#111;&#x3a;&#120;&#64;&#105;&#99;&#x65;&#104;&#101;&#46;&#x6d;&#101;">&#120;&#64;&#105;&#99;&#x65;&#104;&#101;&#46;&#x6d;&#101;</a> / <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a></li>
+<li><a href="&#x6d;&#97;&#x69;&#x6c;&#116;&#111;&#x3a;&#x78;&#x40;&#105;&#99;&#101;&#x68;&#101;&#46;&#x6d;&#101;">&#x78;&#x40;&#105;&#99;&#101;&#x68;&#101;&#46;&#x6d;&#101;</a> / <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a></li>
 <li><a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a> / <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">Old Blog</a></li>
 <li><a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> / <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></li>
 </ul>
@@ -117,16 +117,16 @@
     
     </summary>
     
-      <category term="read" scheme="http://icehe.gitcafe.io/tags/read/"/>
+      <category term="read" scheme="http://icehe.me/tags/read/"/>
     
-      <category term="read" scheme="http://icehe.gitcafe.io/categories/read/"/>
+      <category term="read" scheme="http://icehe.me/categories/read/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Git Note]]></title>
-    <link href="http://icehe.gitcafe.io/cmd/git_note/"/>
-    <id>http://icehe.gitcafe.io/cmd/git_note/</id>
+    <link href="http://icehe.me/cmd/git_note/"/>
+    <id>http://icehe.me/cmd/git_note/</id>
     <published>2016-02-14T16:00:00.000Z</published>
     <updated>2016-03-04T15:25:30.000Z</updated>
     <content type="html"><![CDATA[<ul>
@@ -543,16 +543,16 @@
     
     </summary>
     
-      <category term="Command" scheme="http://icehe.gitcafe.io/tags/Command/"/>
+      <category term="Command" scheme="http://icehe.me/tags/Command/"/>
     
-      <category term="Command" scheme="http://icehe.gitcafe.io/categories/Command/"/>
+      <category term="Command" scheme="http://icehe.me/categories/Command/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[CLI Note 命令行]]></title>
-    <link href="http://icehe.gitcafe.io/cmd/command_line/"/>
-    <id>http://icehe.gitcafe.io/cmd/command_line/</id>
+    <link href="http://icehe.me/cmd/command_line/"/>
+    <id>http://icehe.me/cmd/command_line/</id>
     <published>2016-01-24T12:12:50.000Z</published>
     <updated>2016-02-25T02:25:49.000Z</updated>
     <content type="html"><![CDATA[<ul>
@@ -790,18 +790,18 @@
     
     </summary>
     
-      <category term="Command" scheme="http://icehe.gitcafe.io/tags/Command/"/>
+      <category term="Command" scheme="http://icehe.me/tags/Command/"/>
     
-      <category term="Command" scheme="http://icehe.gitcafe.io/categories/Command/"/>
+      <category term="Command" scheme="http://icehe.me/categories/Command/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Google CSE 站内搜索]]></title>
-    <link href="http://icehe.gitcafe.io/search/"/>
-    <id>http://icehe.gitcafe.io/search/</id>
+    <link href="http://icehe.me/search/"/>
+    <id>http://icehe.me/search/</id>
     <published>2016-01-16T16:00:00.000Z</published>
-    <updated>2016-03-07T08:57:59.000Z</updated>
+    <updated>2016-03-08T02:41:37.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li><strong> 首先，需要您能访问 Google ！</strong></li>
 <li>在 <a target="_self" href="javascript:;" onclick="$('#search').fadeOut(200).fadeIn(200).fadeOut(200).fadeIn(200); focusSearchInput();"><strong>搜索框</strong></a> 输入关键词后，按回车键，将在本页展示结果 ~ <gcse:searchresults-only></gcse:searchresults-only></li>
@@ -855,16 +855,16 @@
     
     </summary>
     
-      <category term="Web" scheme="http://icehe.gitcafe.io/tags/Web/"/>
+      <category term="Web" scheme="http://icehe.me/tags/Web/"/>
     
-      <category term="Web" scheme="http://icehe.gitcafe.io/categories/Web/"/>
+      <category term="Web" scheme="http://icehe.me/categories/Web/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[My Mac Shortcuts 快捷键列表]]></title>
-    <link href="http://icehe.gitcafe.io/mac_shortcuts/"/>
-    <id>http://icehe.gitcafe.io/mac_shortcuts/</id>
+    <link href="http://icehe.me/mac_shortcuts/"/>
+    <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
     <updated>2016-03-04T14:03:44.000Z</updated>
     <content type="html"><![CDATA[<ul>
@@ -1056,16 +1056,16 @@
     
     </summary>
     
-      <category term="Mac" scheme="http://icehe.gitcafe.io/tags/Mac/"/>
+      <category term="Mac" scheme="http://icehe.me/tags/Mac/"/>
     
-      <category term="Mac" scheme="http://icehe.gitcafe.io/categories/Mac/"/>
+      <category term="Mac" scheme="http://icehe.me/categories/Mac/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Bye 2015]]></title>
-    <link href="http://icehe.gitcafe.io/think/bye2015/"/>
-    <id>http://icehe.gitcafe.io/think/bye2015/</id>
+    <link href="http://icehe.me/think/bye2015/"/>
+    <id>http://icehe.me/think/bye2015/</id>
     <published>2016-01-02T16:00:00.000Z</published>
     <updated>2016-02-15T02:52:01.000Z</updated>
     <content type="html"><![CDATA[<ul>
@@ -1137,20 +1137,20 @@
     
     </summary>
     
-      <category term="think" scheme="http://icehe.gitcafe.io/tags/think/"/>
+      <category term="think" scheme="http://icehe.me/tags/think/"/>
     
-      <category term="think" scheme="http://icehe.gitcafe.io/categories/think/"/>
+      <category term="think" scheme="http://icehe.me/categories/think/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[My Bookmarks 书签]]></title>
-    <link href="http://icehe.gitcafe.io/bookmarks/"/>
-    <id>http://icehe.gitcafe.io/bookmarks/</id>
+    <link href="http://icehe.me/bookmarks/"/>
+    <id>http://icehe.me/bookmarks/</id>
     <published>2015-12-19T16:00:00.000Z</published>
-    <updated>2016-03-07T09:56:13.000Z</updated>
+    <updated>2016-03-08T02:41:37.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li><em>Updated on 2016-03-07</em></li>
+<li><em>Updated on 2016-03-08</em></li>
 </ul>
 <h2 id="IT_信息技术"><strong>IT 信息技术</strong></h2><h3 id="OL_Tools_在线工具"><strong>OL Tools 在线工具</strong></h3><ul>
 <li><p><a href="http://www.cheat-sheets.org/" target="_blank" rel="external">Cheat-Sheets.org</a> / <a href="http://whatis.techtarget.com/reference/Our-Favorite-Cheat-Sheets#operating" target="_blank" rel="external">Our Favourite Cheat Sheets</a> —— 知识速查清单。</p>
@@ -1202,7 +1202,7 @@
 </li>
 </ul>
 <p><br></p>
-<h4 id="Dynamic_Cheat_Sheets">Dynamic Cheat Sheets</h4><p><em>PS: Need to screen the content of this section.</em></p>
+<h4 id="Dynamic_Cheat_Sheets"><a href="http://www.cheatography.com/" target="_blank" rel="external">Dynamic Cheat Sheets</a></h4><p><em>Need to screen the content of this section.</em> <sup><em>todo</em></sup></p>
 <ul>
 <li><p><a href="http://www.cheatography.com/nataliemoore/cheat-sheets/studying/" target="_blank" rel="external">Studying</a> / <a href="http://www.cheatography.com/y0mbo/cheat-sheets/writing-cheat-sheet/" target="_blank" rel="external">Writing</a> / <a href="http://www.cheatography.com/specialbrand/cheat-sheets/markdown/" target="_blank" rel="external">Markdown</a> / <a href="http://www.cheatography.com/permababy/cheat-sheets/dramatica-theory/" target="_blank" rel="external">Dramatica Theory</a></p>
 </li>
@@ -1248,34 +1248,34 @@
 </li>
 <li><p><a href="http://zsh.sourceforge.net/Doc/" target="_blank" rel="external">Zsh Docs</a> —— <a href="http://zsh.sourceforge.net/" target="_blank" rel="external">Z shell</a></p>
 </li>
-<li><p><a href="http://coolshell.cn//wp-content/uploads/2011/09/vim_cheat_sheet_for_programmers_print.png" target="_blank" rel="external">Vim Cheat Sheet</a> —— Vim 键位操作总结图。</p>
+<li><p><a href="http://coolshell.cn//wp-content/uploads/2011/09/vim_cheat_sheet_for_programmers_print.png" target="_blank" rel="external">Vim Cheat Sheet</a> —— Vim 键位操作总结图。 <sup><strong>Best</strong></sup></p>
 </li>
-<li><p><a href="http://www.vim.org/docs.php" target="_blank" rel="external">Vim Docs</a> —— from&nbsp; <a href="http://www.vim.org" target="_blank" rel="external">vim.org</a></p>
+<li><p><a href="http://www.vim.org/docs.php" target="_blank" rel="external">Vim Docs</a> —— from&nbsp; <a href="http://www.vim.org" target="_blank" rel="external">vim.org</a> <sup><em>todo</em></sup></p>
 </li>
 <li><p><a href="http://php.net/docs.php" target="_blank" rel="external">PHP Docs</a> —— from&nbsp; <a href="http://php.net/" target="_blank" rel="external">PHP.net</a></p>
 </li>
-<li><p><a href="https://docs.python.org/3/" target="_blank" rel="external">Python3 Docs</a> —— from&nbsp; <a href="https://www.python.org/" target="_blank" rel="external">Python.org</a></p>
+<li><p><a href="https://docs.python.org/3/" target="_blank" rel="external">Python3 Docs</a> —— from&nbsp; <a href="https://www.python.org/" target="_blank" rel="external">Python.org</a> <sup><em>todo</em></sup></p>
 </li>
 <li><p><a href="https://developer.apple.com/library/mac/navigation/" target="_blank" rel="external">Mac Developer Library</a> —— including&nbsp; <a href="https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html" target="_blank" rel="external">AppleScript Language Guide</a></p>
 </li>
 </ul>
 <p><br></p>
 <h3 id="Algorithm_算法"><strong>Algorithm 算法</strong></h3><ul>
-<li><p><a href="http://lucida.me/blog/on-learning-algorithms/" target="_blank" rel="external">我的算法学习之路</a></p>
+<li><p><a href="http://lucida.me/blog/on-learning-algorithms/" target="_blank" rel="external">我的算法学习之路</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://blog.csdn.net/v_july_v" target="_blank" rel="external">结构之法 算法之道</a></p>
+<li><p><a href="http://blog.csdn.net/v_july_v" target="_blank" rel="external">结构之法 算法之道</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://www.matrix67.com/blog/" target="_blank" rel="external">Matrix67: The Aha Moments</a></p>
+<li><p><a href="http://www.matrix67.com/blog/" target="_blank" rel="external">Matrix67: The Aha Moments</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://courses.csail.mit.edu/6.851/" target="_blank" rel="external">Advanced Data Structures</a></p>
+<li><p><a href="http://courses.csail.mit.edu/6.851/" target="_blank" rel="external">Advanced Data Structures</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://www.sorting-algorithms.com/" target="_blank" rel="external">Sorting Algorithm Animations</a></p>
+<li><p><a href="http://www.sorting-algorithms.com/" target="_blank" rel="external">Sorting Algorithm Animations</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://visualgo.net/" target="_blank" rel="external">Visu Algo</a> —— Visualising data structures and algorithms through animation.</p>
+<li><p><a href="http://visualgo.net/" target="_blank" rel="external">Visu Algo</a> —— Visualising data structures and algorithms through animation. <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="https://www.quora.com/What-are-the-algorithms-required-to-solve-all-problems-using-C++-in-any-competitive-coding-contest" target="_blank" rel="external">Algorithms required to solve all problems (using C++) in any competitive coding contest?</a></p>
+<li><p><a href="https://www.quora.com/What-are-the-algorithms-required-to-solve-all-problems-using-C++-in-any-competitive-coding-contest" target="_blank" rel="external">Algorithms required to solve all problems (using C++) in any competitive coding contest?</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="https://leetcode.com/" target="_blank" rel="external">LeetCode</a>,&nbsp; <a href="https://uva.onlinejudge.org/" target="_blank" rel="external">UVa</a>,&nbsp; <a href="http://poj.org/" target="_blank" rel="external">PKU</a>,&nbsp; <a href="http://acm.hdu.edu.cn/" target="_blank" rel="external">HDU</a> —— Online Judge</p>
+<li><p><a href="https://leetcode.com/" target="_blank" rel="external">LeetCode</a>,&nbsp; <a href="https://uva.onlinejudge.org/" target="_blank" rel="external">UVa</a>,&nbsp; <a href="http://poj.org/" target="_blank" rel="external">PKU</a>,&nbsp; <a href="http://acm.hdu.edu.cn/" target="_blank" rel="external">HDU</a> —— Online Judge <sup><em>todo</em></sup></p>
 </li>
 </ul>
 <p><br></p>
@@ -1286,15 +1286,15 @@
 </li>
 <li><p><a href="https://github.com/PizzaLiu/PHP-FIG" target="_blank" rel="external">PHP PSR</a> —— 编码规范。</p>
 </li>
-<li><p><a href="http://blog.jobbole.com/82908/" target="_blank" rel="external">国外程序员整理的 PHP 资源大全</a> —— <a href="https://github.com/ziadoz/awesome-php" target="_blank" rel="external">Awesome PHP</a></p>
+<li><p><a href="http://blog.jobbole.com/82908/" target="_blank" rel="external">国外程序员整理的 PHP 资源大全</a> —— <a href="https://github.com/ziadoz/awesome-php" target="_blank" rel="external">Awesome PHP</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="https://github.com/google/styleguide/" target="_blank" rel="external">Google Style Guides</a> —— 谷歌代码风格指南。</p>
+<li><p><a href="https://github.com/google/styleguide/" target="_blank" rel="external">Google Style Guides</a> —— 谷歌代码风格指南。 <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://graphics.stanford.edu/~seander/bithacks.html" target="_blank" rel="external">Bit Twiddling Hacks</a> —— 位计算与操作。</p>
+<li><p><a href="http://graphics.stanford.edu/~seander/bithacks.html" target="_blank" rel="external">Bit Twiddling Hacks</a> —— 位计算与操作。 <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://www.catb.org/esr/structure-packing/" target="_blank" rel="external">The Lost Art of C Structure Packing</a> —— 结构体的对齐与压缩。</p>
+<li><p><a href="http://www.catb.org/esr/structure-packing/" target="_blank" rel="external">The Lost Art of C Structure Packing</a> —— 结构体的对齐与压缩。 <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://blog.csdn.net/redguardtoo/article/details/7222501/" target="_blank" rel="external">一年成为Emacs高手(像神一样使用编辑器) </a></p>
+<li><p><a href="http://blog.csdn.net/redguardtoo/article/details/7222501/" target="_blank" rel="external">一年成为Emacs高手(像神一样使用编辑器) </a> <sup><em>todo</em></sup></p>
 </li>
 <li><p><a href="http://blog.jobbole.com/84903/" target="_blank" rel="external">十分钟搞清字符集和字符编码</a></p>
 </li>
@@ -1303,37 +1303,37 @@
 </ul>
 <p><br></p>
 <h3 id="Read_阅读"><strong>Read 阅读</strong></h3><ul>
-<li><p><a href="http://zhuanlan.zhihu.com/xiao-jing-mo/19959253" target="_blank" rel="external">编程入门指南 v1.4</a></p>
+<li><p><a href="http://zhuanlan.zhihu.com/xiao-jing-mo/19959253" target="_blank" rel="external">编程入门指南 v1.4</a> <sup><em>todo</em></sup></p>
 </li>
 <li><p><a href="http://lucida.me/blog/on-reading-books/" target="_blank" rel="external">如何阅读（ 技术 ）书籍</a></p>
 </li>
-<li><p><a href="http://lucida.me/blog/developer-reading-list/" target="_blank" rel="external">程序员必读书单 1.0</a></p>
+<li><p><a href="http://lucida.me/blog/developer-reading-list/" target="_blank" rel="external">程序员必读书单 1.0</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="https://www.zhihu.com/collection/19837238?utm_campaign=weekly188&amp;utm_medium=email&amp;page=1&amp;utm_source=weekly-digest" target="_blank" rel="external">程序员进阶之路</a></p>
+<li><p><a href="https://www.zhihu.com/collection/19837238?utm_campaign=weekly188&amp;utm_medium=email&amp;page=1&amp;utm_source=weekly-digest" target="_blank" rel="external">程序员进阶之路</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://coolshell.cn/articles/240.html" target="_blank" rel="external">非常不错的编程技术教程</a></p>
+<li><p><a href="http://coolshell.cn/articles/240.html" target="_blank" rel="external">非常不错的编程技术教程</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://siberiawolf.com/free_programming/index.html" target="_blank" rel="external">免费的编程中文书籍索引</a></p>
+<li><p><a href="http://siberiawolf.com/free_programming/index.html" target="_blank" rel="external">免费的编程中文书籍索引</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://daichuanqing.com/index.php/share" target="_blank" rel="external">用户体验、产品设计的学习资料</a></p>
+<li><p><a href="http://daichuanqing.com/index.php/share" target="_blank" rel="external">用户体验、产品设计的学习资料</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://blogwall.us/" target="_blank" rel="external">程序员博客墙</a> —— 优秀程序员的个人博客索引。</p>
+<li><p><a href="http://blogwall.us/" target="_blank" rel="external">程序员博客墙</a> —— 优秀程序员的个人博客索引。 <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://brucechen.gitcafe.io/#Books%20Reading" target="_blank" rel="external">BruceChen’s Wiki</a> —— 编程知识笔记、速查清单。</p>
+<li><p><a href="http://brucechen.gitcafe.io/#Books%20Reading" target="_blank" rel="external">BruceChen’s Wiki</a> —— 编程知识笔记、速查清单。 <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://blog.jobbole.com/80621/" target="_blank" rel="external">Google技术开发指南：给大学生自学的建议</a></p>
+<li><p><a href="http://blog.jobbole.com/80621/" target="_blank" rel="external">Google技术开发指南：给大学生自学的建议</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="https://github.com/braydie/HowToBeAProgrammer" target="_blank" rel="external">How to be a Programmer</a></p>
+<li><p><a href="https://github.com/braydie/HowToBeAProgrammer" target="_blank" rel="external">How to be a Programmer</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books-zh.md" target="_blank" rel="external">Free Programming Books</a></p>
+<li><p><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books-zh.md" target="_blank" rel="external">Free Programming Books</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://www.ccs.neu.edu/home/matthias/HtDP2e/index.html" target="_blank" rel="external">How to Design Programs</a></p>
+<li><p><a href="http://www.ccs.neu.edu/home/matthias/HtDP2e/index.html" target="_blank" rel="external">How to Design Programs</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="https://cnodejs.org/topic/551200e6d792542a29789a43" target="_blank" rel="external">深入浅出 Node.js 读书笔记</a></p>
+<li><p><a href="https://cnodejs.org/topic/551200e6d792542a29789a43" target="_blank" rel="external">深入浅出 Node.js 读书笔记</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://songshuhui.net/archives/tag/%E8%AE%A1%E7%AE%97%E7%9A%84%E6%9E%81%E9%99%90" target="_blank" rel="external">计算的极限 系列文章</a></p>
+<li><p><a href="http://songshuhui.net/archives/tag/%E8%AE%A1%E7%AE%97%E7%9A%84%E6%9E%81%E9%99%90" target="_blank" rel="external">计算的极限 系列文章</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://www.jianshu.com/p/a70098a94d18?utm_campaign=hugo&amp;utm_medium=reader_share&amp;utm_content=note&amp;utm_source=weibo" target="_blank" rel="external">GO语言零基础入门资料整理</a></p>
+<li><p><a href="http://www.jianshu.com/p/a70098a94d18?utm_campaign=hugo&amp;utm_medium=reader_share&amp;utm_content=note&amp;utm_source=weibo" target="_blank" rel="external">GO语言零基础入门资料整理</a> <sup><em>todo</em></sup></p>
 </li>
 <li><p><a href="http://www.yinwang.org/" target="_blank" rel="external">王垠的博客</a> —— 一个很有争议的人物，但是读他的文章还是很有启发的。</p>
 </li>
@@ -1344,32 +1344,34 @@
 </ul>
 <p><br></p>
 <h3 id="Web_Dev_开发"><strong>Web Dev 开发</strong></h3><ul>
-<li><p><a href="http://openresty.org/download/agentzh-nginx-tutorials-zhcn.html" target="_blank" rel="external">agentzh 的 Nginx 教程</a></p>
+<li><p><a href="http://openresty.org/download/agentzh-nginx-tutorials-zhcn.html" target="_blank" rel="external">agentzh 的 Nginx 教程</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="https://www.giuem.com/chrome-devtools/" target="_blank" rel="external">Chrome 开发者工具教程</a></p>
+<li><p><a href="https://www.giuem.com/chrome-devtools/" target="_blank" rel="external">Chrome 开发者工具教程</a> <sup><em>todo</em></sup></p>
 </li>
 <li><p><a href="https://www.zhihu.com/question/26339902" target="_blank" rel="external">有哪些好用的前端开发软件？</a></p>
 </li>
-<li><p><a href="http://segmentfault.com/a/1190000000697532" target="_blank" rel="external">HTML 中 Head 头结构</a></p>
+<li><p><a href="http://weibo.com/p/1001603847877217662768?mod=zwenzhang" target="_blank" rel="external">Linux 内核 TCP/IP 协议栈 系列文章</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=213790057&amp;idx=2&amp;sn=06296c4e3b67fa227b703c6d31a23b3e&amp;scene=5&amp;srcid=0925aDg44vjLgZvCaRNTmrKZ#rd" target="_blank" rel="external">TCP/IP 协议详解内容总结</a></p>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=213726432&amp;idx=1&amp;sn=337e2442c23c811cb96bd8315e3d4916&amp;scene=5&amp;srcid=09208rmQfdovBALp0y138PM3#rd" target="_blank" rel="external">TCP/IP 协议栈及 OSI 参考模型详解</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=213726432&amp;idx=1&amp;sn=337e2442c23c811cb96bd8315e3d4916&amp;scene=5&amp;srcid=09208rmQfdovBALp0y138PM3#rd" target="_blank" rel="external">TCP/IP 协议栈及 OSI 参考模型详解</a></p>
+<li><p><a href="http://blog.sina.com.cn/s/blog_e59371cc0102vg4n.html" target="_blank" rel="external">Linux TCP 队列相关参数的总结</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://blog.sina.com.cn/s/blog_e59371cc0102vg4n.html" target="_blank" rel="external">Linux TCP 队列相关参数的总结</a></p>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=213790057&amp;idx=2&amp;sn=06296c4e3b67fa227b703c6d31a23b3e&amp;scene=5&amp;srcid=0925aDg44vjLgZvCaRNTmrKZ#rd" target="_blank" rel="external">TCP/IP 协议详解内容总结</a> <sup><em>todo</em></sup></p>
+</li>
+<li><p><a href="http://segmentfault.com/a/1190000000697532" target="_blank" rel="external">HTML 中 Head 头结构</a> <sup><em>todo</em></sup></p>
 </li>
 </ul>
 <p><br></p>
 <h3 id="Architecture_架构"><strong>Architecture 架构</strong></h3><ul>
-<li><p><a href="http://www.infoq.com/cn/articles/the-road-of-the-growth-weixin-background" target="_blank" rel="external">从无到有：微信后台系统的演进之路</a></p>
+<li><p><a href="http://www.infoq.com/cn/articles/the-road-of-the-growth-weixin-background" target="_blank" rel="external">从无到有：微信后台系统的演进之路</a> <sup><strong>Best</strong></sup></p>
 </li>
 <li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=402465951&amp;idx=1&amp;sn=c76193b13b506d2c631bac8840a0f5b6&amp;scene=1&amp;srcid=0203LZGGRVEnbznCiOuiKo9H#rd" target="_blank" rel="external">追求极致：从技术细节看美团架构</a></p>
 </li>
 <li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5NDMwNjMzNA==&amp;mid=402417924&amp;idx=1&amp;sn=967ecd1fae2f9acb4356607222c94b3b&amp;scene=1&amp;srcid=1230UbcV9DsQeIqLXOuH5QUa#rd" target="_blank" rel="external">千万级规模高性能、高并发的网络架构经验</a> —— 微博平台架构。</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/29779732" target="_blank" rel="external">端游、手游服务端常用的架构是什么样的？</a></p>
+<li><p><a href="https://www.zhihu.com/question/29779732" target="_blank" rel="external">端游、手游服务端常用的架构是什么样的？</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/20790576" target="_blank" rel="external">大公司里怎样开发和部署前端代码？</a></p>
+<li><p><a href="https://www.zhihu.com/question/20790576" target="_blank" rel="external">大公司里怎样开发和部署前端代码？</a> <sup><strong>Best</strong></sup></p>
 </li>
 <li><p><a href="http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=401298826&amp;idx=1&amp;sn=02047f1d7591252a0ffc6a5ac6fe1874&amp;scene=1&amp;srcid=1230FaNRSmrYU81gqipYrm1d#rd" target="_blank" rel="external">如何用消息系统避免分布式事务？</a></p>
 </li>
@@ -1377,7 +1379,7 @@
 </li>
 <li><p><a href="http://www.cnblogs.com/xing901022/p/4425124.html" target="_blank" rel="external">高扩展性网站的50条原则</a></p>
 </li>
-<li><p><a href="http://www.searchtb.com/" target="_blank" rel="external">淘宝搜索技术博客</a></p>
+<li><p><a href="http://www.searchtb.com/" target="_blank" rel="external">淘宝搜索技术博客</a> <sup><em>todo</em></sup></p>
 </li>
 <li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5NTg2NTU0Ng==&amp;mid=210816035&amp;idx=3&amp;sn=7ad903e7be165e2c616c20fa2f148f63&amp;scene=1#rd" target="_blank" rel="external">架构腐化之谜</a></p>
 </li>
@@ -1386,21 +1388,17 @@
 <h3 id="Linux"><strong>Linux</strong></h3><ul>
 <li><p><a href="https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard" target="_blank" rel="external">Filesystem Hierarchy Standard</a> —— 各目录用途。</p>
 </li>
-<li><p><a href="https://github.com/jlevy/the-art-of-command-line/blob/master/README.md" target="_blank" rel="external">The Art of Command Line</a> —— 命令行的艺术</p>
+<li><p><a href="https://github.com/jlevy/the-art-of-command-line/blob/master/README.md" target="_blank" rel="external">The Art of Command Line</a> —— 命令行的艺术 <sup><strong>Best</strong></sup> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://linuxtools-rst.readthedocs.org/zh_CN/latest/index.html" target="_blank" rel="external">Linux 工具快速教程</a></p>
+<li><p><a href="http://linuxtools-rst.readthedocs.org/zh_CN/latest/index.html" target="_blank" rel="external">Linux 工具快速教程</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://www.tldp.org/" target="_blank" rel="external">The Linux Documentation Project</a></p>
+<li><p><a href="http://www.tldp.org/" target="_blank" rel="external">The Linux Documentation Project</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://x-slam.com/linux_kernel_qss_practice" target="_blank" rel="external">Linux 内核启示说＠实践篇</a></p>
+<li><p><a href="http://x-slam.com/linux_kernel_qss_practice" target="_blank" rel="external">Linux 内核启示说＠实践篇</a> <sup><em>todo</em></sup></p>
 </li>
 <li><p><a href="http://shell909090.org/blog/archives/2671" target="_blank" rel="external">服务器操作系统的选择</a></p>
 </li>
-<li><p><a href="http://blog.jobbole.com/83212/" target="_blank" rel="external">国外程序员整理的系统管理员资源大全</a> —— <a href="https://github.com/kahun/awesome-sysadmin" target="_blank" rel="external">Awesome Sysadmin</a></p>
-</li>
-<li><p><a href="http://weibo.com/p/1001603847877217662768?mod=zwenzhang" target="_blank" rel="external">Linux 内核 TCP/IP 协议栈 系列文章</a></p>
-</li>
-<li><p><a href="http://blog.sina.com.cn/s/blog_e59371cc0102vg4n.html" target="_blank" rel="external">Linux TCP 队列相关参数的总结</a></p>
+<li><p><a href="http://blog.jobbole.com/83212/" target="_blank" rel="external">国外程序员整理的系统管理员资源大全</a> —— <a href="https://github.com/kahun/awesome-sysadmin" target="_blank" rel="external">Awesome Sysadmin</a> <sup><em>todo</em></sup></p>
 </li>
 <li><p><a href="https://linux.cn/article-5927-1.html" target="_blank" rel="external">FreeBSD 和 Linux 有什么不同？</a></p>
 </li>
@@ -1413,17 +1411,17 @@
 </ul>
 <p><br></p>
 <h3 id="Secure_安全"><strong>Secure 安全</strong></h3><ul>
-<li><p><a href="http://drops.wooyun.org/" target="_blank" rel="external">WooYun 知识库</a></p>
+<li><p><a href="http://drops.wooyun.org/" target="_blank" rel="external">WooYun 知识库</a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://wiki.wooyun.org/" target="_blank" rel="external">WooYun Wiki</a> —— 网络安全。</p>
+<li><p><a href="http://wiki.wooyun.org/" target="_blank" rel="external">WooYun Wiki</a> —— 网络安全。 <sup><em>todo</em></sup></p>
 </li>
 <li><p><a href="http://www.findmima.com/" target="_blank" rel="external">FIND密码网</a> —— 社工库。</p>
 </li>
 <li><p><a href="https://blog.tonyseek.com/post/introduce-to-xss-and-csrf/" target="_blank" rel="external">总结 XSS 与 CSRF 两种跨站攻击</a></p>
 </li>
-<li><p><a href="https://github.com/evilcos/papers" target="_blank" rel="external">Web 安全入门</a> —— 国内安全专家，<a href="https://github.com/evilcos" target="_blank" rel="external">余弦</a>。</p>
+<li><p><a href="https://github.com/evilcos/papers" target="_blank" rel="external">Web 安全入门</a> —— 国内安全专家，<a href="https://github.com/evilcos" target="_blank" rel="external">余弦</a>。 <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://blog.jobbole.com/61872/" target="_blank" rel="external">加盐密码哈希：如何正确使用</a> —— <a href="https://crackstation.net/hashing-security.htm" target="_blank" rel="external">英文出处</a>。</p>
+<li><p><a href="http://blog.jobbole.com/61872/" target="_blank" rel="external">加盐密码哈希：如何正确使用</a> —— <a href="https://crackstation.net/hashing-security.htm" target="_blank" rel="external">英文出处</a>。 <sup><strong>Best</strong></sup></p>
 </li>
 </ul>
 <p><br></p>
@@ -1443,9 +1441,9 @@
 </ul>
 <p><br></p>
 <h3 id="Industry_行业"><strong>Industry 行业</strong></h3><ul>
-<li><p><a href="http://coolshell.cn/articles/5701.html" target="_blank" rel="external">SteveY对Amazon和Google平台的吐槽</a> —— <a href="https://en.wikipedia.org/wiki/Steve_Yegge" target="_blank" rel="external">Steve Yegge</a>。</p>
+<li><p><a href="http://coolshell.cn/articles/5701.html" target="_blank" rel="external">SteveY对Amazon和Google平台的吐槽</a> —— <a href="https://en.wikipedia.org/wiki/Steve_Yegge" target="_blank" rel="external">Steve Yegge</a>。 <sup><strong>Best</strong></sup></p>
 </li>
-<li><p><a href="http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;mid=403155826&amp;idx=1&amp;sn=e4956bccff521a20b7f84f446de0c751&amp;scene=1&amp;srcid=1221RF2fINJ6tweWs2r4CRg9#rd" target="_blank" rel="external">链家全解剖：必须佩服、也必须警惕的巨无霸</a></p>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;mid=403155826&amp;idx=1&amp;sn=e4956bccff521a20b7f84f446de0c751&amp;scene=1&amp;srcid=1221RF2fINJ6tweWs2r4CRg9#rd" target="_blank" rel="external">链家全解剖：必须佩服、也必须警惕的巨无霸</a> <sup><strong>Best</strong></sup></p>
 </li>
 <li><p><a href="http://coolshell.cn/articles/1295.html" target="_blank" rel="external">科技公司十大最愚蠢的错误</a></p>
 </li>
@@ -1455,14 +1453,14 @@
 </li>
 <li><p><a href="http://blog.jobbole.com/89339/" target="_blank" rel="external">老外被中国app惊呆了</a> —— <a href="http://dangrover.com/blog/2014/12/01/chinese-mobile-app-ui-trends.html" target="_blank" rel="external">英文出处</a></p>
 </li>
-<li><p><a href="http://www.chinagfw.org/2015/09/blog-post_8.html" target="_blank" rel="external">History of G_F-W</a> —— <a href="http://www.chinagfw.org/" target="_blank" rel="external">功夫网与番羽_土啬</a>。</p>
+<li><p><a href="http://www.chinagfw.org/2015/09/blog-post_8.html" target="_blank" rel="external">History of G_F-W</a> —— <a href="http://www.chinagfw.org/" target="_blank" rel="external">功夫网与番羽_土啬</a>。 <sup><strong>Best</strong></sup></p>
 </li>
 <li><p><a href="https://citizenlab.org/2015/04/chinas-great-cannon/" target="_blank" rel="external">China’s Great Cannon</a></p>
 </li>
 </ul>
 <p><br></p>
 <h3 id="Mgt_管理"><strong>Mgt 管理</strong></h3><ul>
-<li><p><a href="http://card.weibo.com/article/h5/s#cid=1001603848245896980234" target="_blank" rel="external">故障之后</a> —— 故障之后，加流程还是改进技术？</p>
+<li><p><a href="http://card.weibo.com/article/h5/s#cid=1001603848245896980234" target="_blank" rel="external">故障之后</a> —— 故障之后，加流程还是改进技术？ <sup><strong>Best</strong></sup></p>
 </li>
 <li><p><a href="http://coolshell.cn/articles/10217.html" target="_blank" rel="external">加班与效率</a></p>
 </li>
@@ -1476,18 +1474,18 @@
 </li>
 <li><p><a href="http://weibo.com/p/1001603844701638757947" target="_blank" rel="external">大公司高管做草根创业的几个坑</a></p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/30991569/answer/50763087" target="_blank" rel="external">为什么创业公司开除员工的速度越快越好（fire fast）？</a></p>
+<li><p><a href="https://www.zhihu.com/question/30991569/answer/50763087" target="_blank" rel="external">为什么创业公司开除员工的速度越快越好（fire fast）？</a> <sup><strong>Best</strong></sup></p>
 </li>
 <li><p><a href="http://weibo.com/ttarticle/p/show?id=2309403945361273143607" target="_blank" rel="external">如何留住员工的心？这家公司的「员工留存率」高达 95%！</a></p>
 </li>
 </ul>
 <p><br></p>
 <h3 id="Oth_Tools_工具"><strong>Oth Tools 工具</strong></h3><ul>
-<li><p><a href="http://www.jikexueyuan.com/" target="_blank" rel="external">极客学院</a></p>
+<li><p><a href="http://www.jikexueyuan.com/" target="_blank" rel="external">极客学院</a> <sup><em>todo</em></sup></p>
 </li>
 <li><p><a href="http://www.shanbay.com/" target="_blank" rel="external">扇贝英语</a> —— 一整套学习英语的系列 App 服务。</p>
 </li>
-<li><p><a href="http://open.163.com/" target="_blank" rel="external">网易公开课</a> —— 国内最好的公开课平台，包含 TED、Coursera、可汗学院的翻译视频。</p>
+<li><p><a href="http://open.163.com/" target="_blank" rel="external">网易公开课</a> —— 国内最好的公开课平台，包含 TED、Coursera、可汗学院的翻译视频。 <sup><em>todo</em></sup></p>
 </li>
 <li><p><a href="https://portal.shadowsocks.com/" target="_blank" rel="external">Shadowsocks</a> —— “跨越长城” 的神兵利器。</p>
 </li>
@@ -1501,15 +1499,15 @@
 <li><a href="http://zhuanlan.zhihu.com/uicircle/20506092" target="_blank" rel="external">写给大家看的中文排版指南</a></li>
 </ul>
 <h3 id="Life_人生"><strong>Life 人生</strong></h3><ul>
-<li><p><a href="https://www.zhihu.com/question/24561532/answer/28240920" target="_blank" rel="external">若一辈子没有赚大钱，当大官，和自己爱的人在一起（哪怕一次），活着能算有意义吗？</a> —— 灯塔。</p>
+<li><p><a href="https://www.zhihu.com/question/24561532/answer/28240920" target="_blank" rel="external">若一辈子没有赚大钱，当大官，和自己爱的人在一起（哪怕一次），活着能算有意义吗？</a> —— 灯塔。 <sup><strong>Best</strong></sup></p>
 </li>
-<li><p><a href="http://zhuanlan.zhihu.com/xiepanda/19582894" target="_blank" rel="external">为什么长大以后反而不容易快乐？</a> —— You are not the one. You are not special.</p>
+<li><p><a href="http://zhuanlan.zhihu.com/xiepanda/19582894" target="_blank" rel="external">为什么长大以后反而不容易快乐？</a> —— You are not the one. You are not special. <sup><strong>Best</strong></sup></p>
 </li>
-<li><p><a href="http://zhuanlan.zhihu.com/lswlsw/19895904" target="_blank" rel="external">眼前的苟且，也正是诗和远方</a> —— 迷茫。</p>
+<li><p><a href="http://zhuanlan.zhihu.com/lswlsw/19895904" target="_blank" rel="external">眼前的苟且，也正是诗和远方</a> —— 迷茫。 <sup><strong>Best</strong></sup></p>
 </li>
 <li><p><a href="https://www.zhihu.com/question/19988077" target="_blank" rel="external">苦难有什么价值？</a> —— 没有价值。</p>
 </li>
-<li><p><a href="http://www.douban.com/group/topic/36138010/" target="_blank" rel="external">Loser 应该知道的 6 个残酷人生事实</a></p>
+<li><p><a href="http://www.douban.com/group/topic/36138010/" target="_blank" rel="external">Loser 应该知道的 6 个残酷人生事实</a> <sup><strong>Best</strong></sup></p>
 <p>  「这个世界只关心你能给予什么。」 &nbsp;—— 《 六个可以让你变得更强大的残酷事实 》译文。</p>
 </li>
 <li><p><a href="https://www.zhihu.com/question/23721974/answer/25493813" target="_blank" rel="external">你曾经的老师说过的哪句话印象最为深刻，对你影响较大甚至在十多年或更久之后都记在心里？</a></p>
@@ -1523,7 +1521,9 @@
 </li>
 <li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5NzExOTE2Ng==&amp;mid=208583700&amp;idx=1&amp;sn=9bb0ea491064b3ffb93e7f24f9fc04a3&amp;scene=5#rd" target="_blank" rel="external">精致的利己主义者和常青藤的绵羊</a> —— 中西。</p>
 </li>
-<li><p><a href="http://yixi.tv/lecture/177" target="_blank" rel="external">《 感谢你给我机会上场 》方励的一席演讲</a> —— 循着乐趣前行。</p>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;mid=216723229&amp;idx=1&amp;sn=87c7dbb95abce565fa001c3a5063427a&amp;scene=1&amp;srcid=0308jCVD1x8LridYzELGd0ZS#rd" target="_blank" rel="external">风尘棋客</a></p>
+</li>
+<li><p><a href="http://yixi.tv/lecture/177" target="_blank" rel="external">《 感谢你给我机会上场 》方励的一席演讲</a> —— 循着乐趣前行。 <sup><strong>Best</strong></sup></p>
 </li>
 <li><p><a href="http://zhuanlan.zhihu.com/happy" target="_blank" rel="external">《 幸福课 》动机在杭州 的知乎专栏</a> —— 平常心。</p>
 </li>
@@ -1534,9 +1534,9 @@
 <h3 id="Rel_关系"><strong>Rel 关系</strong></h3><ul>
 <li><p><a href="http://zhuanlan.zhihu.com/xinliyushenghuo/19993302" target="_blank" rel="external">本分和情分</a> —— 「别人帮你，那是情分，不帮你，那是本分。容不容得下是你的气度，能不能让你容下是我的本事。」</p>
 </li>
-<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzI5NzQ1MA==&amp;mid=207716479&amp;idx=1&amp;sn=195e46c808f83f95990bb3aff09a349b&amp;scene=1#rd" target="_blank" rel="external">圈子不同，不必强融</a> —— 「怎么样才可以真正地做到不计较呢？强大到让别人计较你。」</p>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzI5NzQ1MA==&amp;mid=207716479&amp;idx=1&amp;sn=195e46c808f83f95990bb3aff09a349b&amp;scene=1#rd" target="_blank" rel="external">圈子不同，不必强融</a> —— 「怎么样才可以真正地做到不计较呢？强大到让别人计较你。」 <sup><strong>Best</strong></sup></p>
 </li>
-<li><p><a href="http://www.vccoo.com/v/6a28e8" target="_blank" rel="external">孤独让人成瘾（下）：依赖真实的关系</a></p>
+<li><p><a href="http://www.vccoo.com/v/6a28e8" target="_blank" rel="external">孤独让人成瘾（下）：依赖真实的关系</a> <sup><strong>Best</strong></sup></p>
 <p>  「交一个真正的朋友是一件很累人的事，但是人生那么长，不累一累，那又该干嘛呢？」</p>
 </li>
 <li><p><a href="https://www.zhihu.com/question/22613634/answer/77378235" target="_blank" rel="external">为什么人越长大越孤单？</a> —— 自我定型后，想要寻找与我们真正相似的人。</p>
@@ -1548,6 +1548,8 @@
 <li><p><a href="https://www.zhihu.com/question/23151702" target="_blank" rel="external">男女交往最忌讳什么？</a> —— 月亮你要，六便士你还嫌少。</p>
 </li>
 <li><p><a href="https://www.zhihu.com/question/26239595" target="_blank" rel="external">在大学里有哪些不错的恋爱建议？</a> —— 不强求。</p>
+</li>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;mid=215662699&amp;idx=1&amp;sn=d03dc12f1b0cab3fa191b80cf7697b76&amp;scene=18&amp;scene=1&amp;srcid=0308sLfw8T7lI35VCnfy6RVG#rd" target="_blank" rel="external">伤不起的盖茨比——那些年，我们没逆袭到的女神</a></p>
 </li>
 <li><p><a href="https://www.zhihu.com/question/29090643" target="_blank" rel="external">女性年纪大了就不好嫁人了吗？</a></p>
 <p>  如果你自己一个人的时候都搞不定你自己，如果你单身的时候都不能把自己搞的美美的，让你自己过得开心，你觉得你能搞定一个家庭么？你觉得婚姻就会是你的避风港湾了么？</p>
@@ -1563,7 +1565,7 @@
 </ul>
 <p><br></p>
 <h3 id="Think_思维"><strong>Think 思维</strong></h3><ul>
-<li><p><a href="https://www.zhihu.com/question/27283467" target="_blank" rel="external">智商高低是因为思维习惯不同造成的吗？</a> —— 思考能力。</p>
+<li><p><a href="https://www.zhihu.com/question/27283467" target="_blank" rel="external">智商高低是因为思维习惯不同造成的吗？</a> —— 思考能力。 <sup><strong>Best</strong></sup></p>
 </li>
 <li><p><a href="https://www.zhihu.com/question/20416520" target="_blank" rel="external">如何从思维上彻底改变学习模式？</a> —— 实用主义 VS 完美主义。</p>
 </li>
@@ -1573,7 +1575,7 @@
 </li>
 <li><p><a href="http://zhuanlan.zhihu.com/individual/19777122" target="_blank" rel="external">普通人怎么让自己更努力？(3)</a> —— 发掘内心的真实想法…</p>
 </li>
-<li><p><a href="http://open.163.com/movie/2015/6/H/4/MAPPMO5L9_MAPPP7FH4.html" target="_blank" rel="external">Larry Smith：你为何不会成就伟业</a> —— 庸人的借口。</p>
+<li><p><a href="http://open.163.com/movie/2015/6/H/4/MAPPMO5L9_MAPPP7FH4.html" target="_blank" rel="external">Larry Smith：你为何不会成就伟业</a> —— 庸人的借口。 <sup><strong>Best</strong></sup></p>
 </li>
 <li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzEzNjI2MA==&amp;mid=206759033&amp;idx=1&amp;sn=84f86dd4e6078c8bd3e84e25ab00e93e&amp;scene=1#rd" target="_blank" rel="external">别让工作拖垮你，最实用的25条时间管理TIPS </a> —— 时间管理的目的是为了提高效率，去做更多的工作？</p>
 </li>
@@ -1596,7 +1598,7 @@
 </ul>
 <p><br></p>
 <h3 id="Health_健康"><strong>Health 健康</strong></h3><ul>
-<li><p><a href="https://www.zhihu.com/question/24498231" target="_blank" rel="external">生命真的在于运动么？</a> —— 生命在于运动。</p>
+<li><p><a href="https://www.zhihu.com/question/24498231" target="_blank" rel="external">生命真的在于运动么？</a> —— 生命在于运动。 <sup><strong>Best</strong></sup></p>
 </li>
 <li><p><a href="https://www.zhihu.com/question/20687290" target="_blank" rel="external">没有锻炼基础的人，如何增肌与减脂？</a> —— 汇总。</p>
 </li>
@@ -1629,24 +1631,24 @@
 <h3 id="EN_英语"><strong>EN 英语</strong></h3><ul>
 <li><p><a href="http://lucida.me/blog/english-for-programmers/" target="_blank" rel="external">程序员英语学习指引</a> —— 「除非你阅读原版书籍和中文书籍一样顺畅，或者翻译书籍信息损失量太大，否则不需要刻意阅读原版。」</p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/28640901/answer/63421701" target="_blank" rel="external">单词全认识却看不懂句子怎么办？</a> —— 一词多义、语境、词组、语法、文化背景。</p>
+<li><p><a href="https://www.zhihu.com/question/28640901/answer/63421701" target="_blank" rel="external">单词全认识却看不懂句子怎么办？</a> —— 一词多义、语境、词组、语法、文化背景。 <sup><em>todo</em></sup></p>
 </li>
 <li><p><a href="https://www.zhihu.com/question/27702564" target="_blank" rel="external">每天坚持英语学习为什么还是学不好？</a> —— 水滴石穿 VS 拼命猛进。</p>
 </li>
-<li><p><a href="http://www.miaopai.com/show/STmZrQy-nHwvBSpMYET7~Q__.htm" target="_blank" rel="external">BBC 英式英语发音视频教程</a> —— Elegant.</p>
+<li><p><a href="http://www.miaopai.com/show/STmZrQy-nHwvBSpMYET7~Q__.htm" target="_blank" rel="external">BBC 英式英语发音视频教程</a> —— Elegant. <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="http://www.vjianke.com/YM3VH.clip" target="_blank" rel="external">美剧字幕组长讲述她如何练听力</a> —— 方法。</p>
+<li><p><a href="http://www.vjianke.com/YM3VH.clip" target="_blank" rel="external">美剧字幕组长讲述她如何练听力</a> —— 方法。 <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="https://www.linkedin.com/pulse/39-incorrectly-used-words-can-make-you-look-bad-jeff-haden?trk=eml-b2_content_ecosystem_digest-recommended_articles-186-null&amp;midToken=AQGECgCdtokxPw&amp;fromEmail=fromEmail&amp;ut=2gQ0szrgpahCI1" target="_blank" rel="external">39 Incorrectly Used Words That Can Make You Look Bad</a></p>
+<li><p><a href="https://www.linkedin.com/pulse/39-incorrectly-used-words-can-make-you-look-bad-jeff-haden?trk=eml-b2_content_ecosystem_digest-recommended_articles-186-null&amp;midToken=AQGECgCdtokxPw&amp;fromEmail=fromEmail&amp;ut=2gQ0szrgpahCI1" target="_blank" rel="external">39 Incorrectly Used Words That Can Make You Look Bad</a> <sup><em>todo</em></sup></p>
 </li>
 </ul>
 <p><br></p>
 <h3 id="Finance_理财"><strong>Finance 理财</strong></h3><ul>
-<li><p><strong><a href="https://www.zhihu.com/question/20603837/answer/47073613" target="_blank" rel="external">商业分析能力是怎样炼成的？</a></strong></p>
+<li><p><strong><a href="https://www.zhihu.com/question/20603837/answer/47073613" target="_blank" rel="external">商业分析能力是怎样炼成的？</a></strong> <sup><strong>Best</strong></sup></p>
 </li>
 <li><p><a href="https://www.zhihu.com/question/22818974" target="_blank" rel="external">普通人如何合理的理财投资，有哪些书可以学习阅读？</a> —— 必修课。</p>
 </li>
-<li><p><a href="http://zhuanlan.zhihu.com/wontfallinyourlap" target="_blank" rel="external">《天上不会掉馅饼》知乎专栏</a> —— 金融投资诈骗真相与投资方面的常识。</p>
+<li><p><a href="http://zhuanlan.zhihu.com/wontfallinyourlap" target="_blank" rel="external">《天上不会掉馅饼》知乎专栏</a> —— 金融投资诈骗真相与投资方面的常识。 <sup><strong>Best</strong></sup> <sup><em>todo</em></sup></p>
 </li>
 <li><p><a href="https://www.zhihu.com/question/25258679" target="_blank" rel="external">如何看待「 钱不是省出来的 」这句话？</a> —— 「该花的钱一定要花，不该花的钱一定要省。」 然后，要有智慧分辨两者的不同。</p>
 </li>
@@ -1668,9 +1670,9 @@
 </li>
 <li><p><a href="https://www.zhihu.com/question/22208507" target="_blank" rel="external">怎样欣赏交响乐、歌剧、古典和美声这类音乐？</a></p>
 </li>
-<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MTIwNTYwMg==&amp;mid=402346946&amp;idx=1&amp;sn=8b2c0e87815358358eff466c25b0836b&amp;scene=5&amp;srcid=1209kGNJ89UQoUCc9M81CNEZ#rd" target="_blank" rel="external">我知道你看过不少神剧，但许多都「抄袭」它 </a></p>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MTIwNTYwMg==&amp;mid=402346946&amp;idx=1&amp;sn=8b2c0e87815358358eff466c25b0836b&amp;scene=5&amp;srcid=1209kGNJ89UQoUCc9M81CNEZ#rd" target="_blank" rel="external">我知道你看过不少神剧，但许多都「抄袭」它 </a> <sup><em>todo</em></sup></p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/25699277" target="_blank" rel="external">有哪些电影一定要趁年轻看？</a></p>
+<li><p><a href="https://www.zhihu.com/question/25699277" target="_blank" rel="external">有哪些电影一定要趁年轻看？</a> <sup><em>todo</em></sup></p>
 </li>
 </ul>
 <p><br></p>
@@ -1679,16 +1681,16 @@
 </li>
 <li><p><a href="https://www.zhihu.com/question/24023171" target="_blank" rel="external">一个人旅行有哪些必备神器？</a> —— 实用。</p>
 </li>
-<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5Njk4OTQwMQ==&amp;mid=401415614&amp;idx=1&amp;sn=16d3206bd1e3f502c4635b5348b151d1&amp;scene=1&amp;srcid=1207BJEB4qWQBFhX3Yq0zXH1#rd" target="_blank" rel="external">耳机选购大全：不败家！不白瞎！够用就好？</a> —— 实用主义，极简主义。（好用，便携，高性价比） </p>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5Njk4OTQwMQ==&amp;mid=401415614&amp;idx=1&amp;sn=16d3206bd1e3f502c4635b5348b151d1&amp;scene=1&amp;srcid=1207BJEB4qWQBFhX3Yq0zXH1#rd" target="_blank" rel="external">耳机选购大全：不败家！不白瞎！够用就好？</a> —— 实用主义，极简主义。（好用，便携，高性价比）</p>
 </li>
 </ul>
 <p><br></p>
 <h3 id="Oth_杂"><strong>Oth 杂</strong></h3><ul>
 <li><p><a href="https://www.zhihu.com/question/20502275" target="_blank" rel="external">如何系统地练字？</a> —— 手写的乐趣。</p>
 </li>
-<li><p><a href="http://www.letv.com/ptv/vplay/24200614.html#vid=24200614" target="_blank" rel="external">音乐的秘密</a> —— 梁欢制作的纪录片电影。</p>
+<li><p><a href="http://www.letv.com/ptv/vplay/24200614.html#vid=24200614" target="_blank" rel="external">音乐的秘密</a> —— 梁欢制作的纪录片电影。 <sup><strong>Best</strong></sup></p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/35814611/answer/65416013" target="_blank" rel="external">KTV不允许带酒水和零食违法不违法？</a> —— 合法权益。</p>
+<li><p><a href="https://www.zhihu.com/question/35814611/answer/65416013" target="_blank" rel="external">KTV不允许带酒水和零食违法不违法？</a> —— 合法权益。 <sup><strong>Best</strong></sup></p>
 </li>
 <li><p><a href="https://www.zhihu.com/question/22827881" target="_blank" rel="external">家居中有哪些设计不合理的地方？</a></p>
 </li>
@@ -1696,12 +1698,16 @@
 </li>
 <li><p><a href="https://www.zhihu.com/question/19621705" target="_blank" rel="external">如何对孩子的无理要求说「不」？</a></p>
 </li>
-<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzA4MjMwODUwNQ==&amp;mid=402644191&amp;idx=2&amp;sn=b1cce3992ff6f10eb9e4026d621724a1&amp;scene=1&amp;srcid=0202z7nxM3czSEJ0TUhH5VtX#rd" target="_blank" rel="external">我是怎么找电子书的？</a></p>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzA4MjMwODUwNQ==&amp;mid=402644191&amp;idx=2&amp;sn=b1cce3992ff6f10eb9e4026d621724a1&amp;scene=1&amp;srcid=0202z7nxM3czSEJ0TUhH5VtX#rd" target="_blank" rel="external">我是怎么找电子书的？</a> <sup><em>todo</em></sup></p>
 </li>
 </ul>
 <p><br></p>
 <h2 id="Related_相关"><strong>Related 相关</strong></h2><ul>
-<li><i class="fa fa-list">&nbsp;</i> &nbsp;<strong><a href="/index">Index 博客目录</a></strong></li>
+<li><p><i class="fa fa-list">&nbsp;</i> &nbsp;<strong><a href="/index">Index 博客目录</a></strong></p>
+</li>
+<li><p>The item with <sup><em>todo</em></sup>&nbsp; implies it has <code>not been read-through</code>.</p>
+</li>
+<li>… with <sup><strong>Best</strong></sup>&nbsp; implies it is <code>one of the best</code>.</li>
 </ul>
 ]]></content>
     <summary type="html">
@@ -1709,18 +1715,18 @@
     
     </summary>
     
-      <category term="read" scheme="http://icehe.gitcafe.io/tags/read/"/>
+      <category term="read" scheme="http://icehe.me/tags/read/"/>
     
-      <category term="read" scheme="http://icehe.gitcafe.io/categories/read/"/>
+      <category term="read" scheme="http://icehe.me/categories/read/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[My Tools 利器]]></title>
-    <link href="http://icehe.gitcafe.io/tools/"/>
-    <id>http://icehe.gitcafe.io/tools/</id>
+    <link href="http://icehe.me/tools/"/>
+    <id>http://icehe.me/tools/</id>
     <published>2015-11-20T16:00:00.000Z</published>
-    <updated>2016-03-07T09:55:37.000Z</updated>
+    <updated>2016-03-08T02:41:36.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>*Updated on 2016-03-06</li>
 </ul>
@@ -2085,20 +2091,20 @@
     
     </summary>
     
-      <category term="Mac" scheme="http://icehe.gitcafe.io/tags/Mac/"/>
+      <category term="Mac" scheme="http://icehe.me/tags/Mac/"/>
     
-      <category term="Mac" scheme="http://icehe.gitcafe.io/categories/Mac/"/>
+      <category term="Mac" scheme="http://icehe.me/categories/Mac/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[My Favourites 喜好]]></title>
-    <link href="http://icehe.gitcafe.io/favourites/"/>
-    <id>http://icehe.gitcafe.io/favourites/</id>
+    <link href="http://icehe.me/favourites/"/>
+    <id>http://icehe.me/favourites/</id>
     <published>2015-11-18T16:00:00.000Z</published>
-    <updated>2016-03-07T09:56:50.000Z</updated>
+    <updated>2016-03-08T02:41:37.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li><em>Updated on 2016-01-16</em></li>
+<li><em>Updated on 2016-03-08</em></li>
 </ul>
 <p><em>玩过、看过的之中，最喜欢这些。</em></p>
 <h2 id="Books_书"><strong>Books 书</strong></h2><ul>
@@ -2534,16 +2540,16 @@
     
     </summary>
     
-      <category term="read" scheme="http://icehe.gitcafe.io/tags/read/"/>
+      <category term="read" scheme="http://icehe.me/tags/read/"/>
     
-      <category term="read" scheme="http://icehe.gitcafe.io/categories/read/"/>
+      <category term="read" scheme="http://icehe.me/categories/read/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Bulid Blog. 搭建个人博客]]></title>
-    <link href="http://icehe.gitcafe.io/web/build_blog/"/>
-    <id>http://icehe.gitcafe.io/web/build_blog/</id>
+    <link href="http://icehe.me/web/build_blog/"/>
+    <id>http://icehe.me/web/build_blog/</id>
     <published>2015-11-13T16:00:00.000Z</published>
     <updated>2016-02-15T02:52:01.000Z</updated>
     <content type="html"><![CDATA[<ul>
@@ -2658,16 +2664,16 @@
     
     </summary>
     
-      <category term="Web" scheme="http://icehe.gitcafe.io/tags/Web/"/>
+      <category term="Web" scheme="http://icehe.me/tags/Web/"/>
     
-      <category term="Web" scheme="http://icehe.gitcafe.io/categories/Web/"/>
+      <category term="Web" scheme="http://icehe.me/categories/Web/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Time Mgt. 我的时间管理日志]]></title>
-    <link href="http://icehe.gitcafe.io/think/time_mgt/"/>
-    <id>http://icehe.gitcafe.io/think/time_mgt/</id>
+    <link href="http://icehe.me/think/time_mgt/"/>
+    <id>http://icehe.me/think/time_mgt/</id>
     <published>2015-11-12T16:00:00.000Z</published>
     <updated>2016-02-15T02:52:01.000Z</updated>
     <content type="html"><![CDATA[<ul>
@@ -2889,16 +2895,16 @@ Monthly
     
     </summary>
     
-      <category term="time mgt" scheme="http://icehe.gitcafe.io/tags/time-mgt/"/>
+      <category term="time mgt" scheme="http://icehe.me/tags/time-mgt/"/>
     
-      <category term="time mgt" scheme="http://icehe.gitcafe.io/categories/time-mgt/"/>
+      <category term="time mgt" scheme="http://icehe.me/categories/time-mgt/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[How to Reward Me! 怎么打赏博主~]]></title>
-    <link href="http://icehe.gitcafe.io/reward/"/>
-    <id>http://icehe.gitcafe.io/reward/</id>
+    <link href="http://icehe.me/reward/"/>
+    <id>http://icehe.me/reward/</id>
     <published>2015-04-01T16:00:00.000Z</published>
     <updated>2016-02-15T02:52:01.000Z</updated>
     <content type="html"><![CDATA[<ul>
@@ -2958,16 +2964,16 @@ window.onload = function () {
     
     </summary>
     
-      <category term="whoami" scheme="http://icehe.gitcafe.io/tags/whoami/"/>
+      <category term="whoami" scheme="http://icehe.me/tags/whoami/"/>
     
-      <category term="whoami" scheme="http://icehe.gitcafe.io/categories/whoami/"/>
+      <category term="whoami" scheme="http://icehe.me/categories/whoami/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[(06) Linux 通过 pip 安装使用 Shadowsocks - CentOS 7]]></title>
-    <link href="http://icehe.gitcafe.io/linux/%5B06%5D%20Linux%20%E9%80%9A%E8%BF%87%20pip%20%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%20Shadowsocks%20-%20CentOS%207/"/>
-    <id>http://icehe.gitcafe.io/linux/[06] Linux 通过 pip 安装使用 Shadowsocks - CentOS 7/</id>
+    <link href="http://icehe.me/linux/%5B06%5D%20Linux%20%E9%80%9A%E8%BF%87%20pip%20%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%20Shadowsocks%20-%20CentOS%207/"/>
+    <id>http://icehe.me/linux/[06] Linux 通过 pip 安装使用 Shadowsocks - CentOS 7/</id>
     <published>2015-03-30T16:00:00.000Z</published>
     <updated>2016-02-15T02:52:01.000Z</updated>
     <content type="html"><![CDATA[<div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>Ref From:&nbsp;<a href="http://teddysun.com/339.html" shape="rect" target="_blank">http://teddysun.com/339.html</a></div><div>Original Title:&nbsp;CentOS下pip和shadowsocks的安装使用</div><div><span style="font-size: 12pt; color: rgb(255, 102, 0);"><strong><br clear="none"></strong></span></div><div><span style="font-size: 12pt; color: rgb(255, 102, 0);"><strong>Notice:</strong>&nbsp;需执行的步骤，已用&nbsp;<strong>橙色 标注</strong>。</span></div><div><span style="font-size: 12pt; color: rgb(255, 102, 0);"><br clear="none"></span></div><div style="font-size: 16px;"><div style="font-size: 12px; line-height: 1.5; font-family: &amp;apos;Microsoft YaHei&amp;apos;, SimSun, 宋体, tahoma, arial, sans-serif; background-image: -webkit-linear-gradient(top, rgb(255, 255, 255), rgb(238, 238, 238) 90px, rgb(247, 247, 247) 370px); background-repeat: no-repeat no-repeat;"><div style="margin: 0px 0px 20px; padding: 10px 9px; clear: both; width: 700px; border: 1px solid rgb(204, 204, 204); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; -webkit-box-shadow: rgb(255, 255, 255) 0px 0px 0px 1px inset, rgb(221, 221, 221) 0px 1px 2px; box-shadow: rgb(255, 255, 255) 0px 0px 0px 1px inset, rgb(221, 221, 221) 0px 1px 2px; background-image: -webkit-linear-gradient(bottom, rgb(238, 238, 238) 0%, rgb(255, 255, 255) 40px);"><div style="font-size: 14px; line-height: 2em; word-wrap: break-word; word-break: break-all;"><p style="margin: 0px 0px 14px; padding: 0px;">Pip是安装Python包的工具，提供了安装、列举已安装包、升级以及卸载包的功能。<br clear="none"></p><p style="margin: 0px 0px 14px; padding: 0px;">Pip 是对easy_install的取代，提供了和easy_install相同的查找包的功能，<br clear="none">
@@ -3039,16 +3045,16 @@ AutoProxy（用于Firefox）、Proxy SwitchySharp（用于Chrome）</p><p style=
     
     </summary>
     
-      <category term="Shadowsocks" scheme="http://icehe.gitcafe.io/tags/Shadowsocks/"/>
+      <category term="Shadowsocks" scheme="http://icehe.me/tags/Shadowsocks/"/>
     
-      <category term="Shadowsocks" scheme="http://icehe.gitcafe.io/categories/Shadowsocks/"/>
+      <category term="Shadowsocks" scheme="http://icehe.me/categories/Shadowsocks/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[(05) 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7]]></title>
-    <link href="http://icehe.gitcafe.io/linux/%5B05%5D%20%E8%87%AA%E5%8A%A8%E6%8C%82%E8%BD%BD%20NTFS%20%E6%A0%BC%E5%BC%8F%E7%9A%84%20%E7%A1%AC%E7%9B%98%E5%88%86%E5%8C%BA%20-%20CentOS%207/"/>
-    <id>http://icehe.gitcafe.io/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/</id>
+    <link href="http://icehe.me/linux/%5B05%5D%20%E8%87%AA%E5%8A%A8%E6%8C%82%E8%BD%BD%20NTFS%20%E6%A0%BC%E5%BC%8F%E7%9A%84%20%E7%A1%AC%E7%9B%98%E5%88%86%E5%8C%BA%20-%20CentOS%207/"/>
+    <id>http://icehe.me/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/</id>
     <published>2015-03-28T16:00:00.000Z</published>
     <updated>2016-02-15T02:52:01.000Z</updated>
     <content type="html"><![CDATA[<en-note><div><div>Ref From: <a shape="rect" href="http://blog.rekfan.com/articles/137.html" target="_blank">http://blog.rekfan.com/articles/137.html</a></div><div>Original Title: CentOS 6.3 自动挂载NTFS格式分区硬盘</div></div><div><br clear="none"></div><div><span style="color: #ff6600;"><strong>Notice: </strong>第一、二步不进行，改为使用以下指令安装ntfs-3g，</span></div><div><strong>             <span style="color: #ff6600;">yum install ntfs-3g</span></strong></div><div><br clear="none">默认情况下，CentOS 6.3不支持NTFS格式的磁盘读写。</div><div>要想把NTFS格式的磁盘挂载到CentOS 6.3，<br clear="none">需要安装第三方的插件ntfs-3g，这里我们采用编译安装插件。<br clear="none"><br clear="none">1. 安装编译器，否则不能成功编译。</div><div><strong>yum install gcc</strong><br clear="none">根据提示按Y安装完成<br clear="none"><br clear="none">2. 安装ntfs-3g</div><div>进入/home目录，把软件下载到此目录<br clear="none"><strong>cd /home</strong></div><div>下载<br clear="none"><strong>wget http://tuxera.com/opensource/ntfs-3g_ntfsprogs-2011.4.12.tgz</strong></div><div>解压</div><div><strong>tar zxvf ntfs-3g_ntfsprogs-2011.4.12.tgz</strong></div><div>进入目录<br clear="none"><strong>cd ntfs-3g_ntfsprogs-2011.4.12</strong></div><div>编译 &amp; 安装</div><div><strong>./configure &amp;&amp; make &amp;&amp; make install</strong></div><div>返回上一级目录<br clear="none"><strong>cd ..</strong></div><div>删除安装程序包<br clear="none"><strong>rm -r -f ntfs-3g_ntfsprogs*</strong></div><div><br clear="none"></div><div>3. 查看使用</div><div># 显示系统磁盘信息<br clear="none"><strong>fdisk -l</strong></div><div>#####################################################################<br clear="none">Disk /dev/sdb: 160.0 GB, 160041885696 bytes<br clear="none">255 heads, 63 sectors/track, 19457 cylinders<br clear="none">Units = cylinders of 16065 * 512 = 8225280 bytes<br clear="none">Sector size (logical/physical): 512 bytes / 512 bytes<br clear="none">I/O size (minimum/optimal): 512 bytes / 512 bytes<br clear="none">Disk identifier: 0x7ab8d700<br clear="none">Device Boot Start End Blocks Id System<br clear="none">/dev/sdb1 * 1 5222 41945683+ 7 HPFS/NTFS<br clear="none">/dev/sdb2 5223 10444 41945715 7 HPFS/NTFS<br clear="none">/dev/sdb3 10445 15666 41945715 7 HPFS/NTFS<br clear="none">/dev/sdb4 15667 19457 30451207+ 7 HPFS/NTFS<br clear="none"> http://blog.rekfan.com/?p=137<br clear="none">###################################################################<br clear="none">以上信息显示的是我的移动硬盘，总共160G,有四个NTFS分区<br clear="none"><br clear="none"><br clear="none">4. 挂载分区</div><div>目标：<br clear="none">/dev/sdb1 分区挂载到 /mnt/win1<br clear="none">/dev/sdb2 分区挂载到 /mnt/win2<br clear="none">/dev/sdb3 分区挂载到 /mnt/win3<br clear="none">/dev/sdb4 分区挂载到 /mnt/win4<br clear="none"></div><div><br clear="none"></div><div>进入/mnt目录，新建四个挂载目录<br clear="none">cd /mnt<br clear="none"><strong>mkdir win1 win2 win3 win4</strong><br clear="none"></div><div><br clear="none"></div><div>挂载<br clear="none"><strong>mount -t ntfs-3g /dev/sdb1 /mnt/win1</strong><br clear="none">mount -t ntfs-3g /dev/sdb2 /mnt/win2<br clear="none">mount -t ntfs-3g /dev/sdb3 /mnt/win3<br clear="none">mount -t ntfs-3g /dev/sdb4 /mnt/win4<br clear="none"><br clear="none">分区挂载完成，现在可以进入/mnt目录下面查看对应的文件夹，即就是你移动硬盘的分区<br clear="none"></div><div><br clear="none"></div><div>卸载命令：<br clear="none"><strong>umount /dev/sdb1</strong><br clear="none">umount /dev/sdb2<br clear="none">umount /dev/sdb3<br clear="none">umount /dev/sdb4<br clear="none"></div><div><br clear="none"></div><div><br clear="none">5. 如果想让系统开机自动挂载移动硬盘，编辑/etc/fstab<br clear="none"></div><div>更改之前先备份</div><div>cp /etc/fstab /etc/fstabbak</div><div>编辑<br clear="none">vi /etc/fstab<br clear="none"><br clear="none">在最后添加以下信息，以读写方式挂载磁盘<br clear="none">/dev/sdb1 /mnt/win1 ntfs-3g defaults 0 0<br clear="none">/dev/sdb2 /mnt/win2 ntfs-3g defaults 0 0<br clear="none">/dev/sdb3 /mnt/win3 ntfs-3g defaults 0 0<br clear="none">/dev/sdb4 /mnt/win4 ntfs-3g defaults 0 0<br clear="none"><br clear="none">:wq!保存，退出<br clear="none"><br clear="none">现在只要重启机器，会自动挂载移动硬盘<br clear="none"></div><div><br clear="none"></div><div><br clear="none"><strong>取消挂载的问题——</strong></div><div>umount的时候出现如下提示：<br clear="none">[root@rekfan.com /]# umount /dev/sdb1<br clear="none">umount: /mnt/upan: device is busy.<br clear="none">        (In some cases useful info about processes that use<br clear="none">         the device is found by lsof(8) or fuser(1))<br clear="none"><br clear="none"><strong>解决方法一</strong><br clear="none">[root@rekfan.com /]# lsof -w /mnt/upan<br clear="none">COMMAND   PID USER   FD   TYPE DEVICE SIZE/OFF    NODE NAME<br clear="none">bash    31761 root  cwd    DIR   8,18     8192 2316326 /mnt/upan/rekfan.com_120526<br clear="none"><br clear="none">[root@rekfan.com /]#<br clear="none">使用 lsof -w /mnt/upan 可以看出，有个命令窗口在/mnt/upan/rekfan.com_120526目录上，</div><div>关闭这个窗口，或退出这个挂载目录，再使用 umount 即可安全退出挂载的设备！<br clear="none"><br clear="none"><strong>解决方法二</strong><br clear="none">[root@rekfan.com /]#fuser -k /mnt/upan<br clear="none">#杀死所有正在访问指定文件的进程</div>
@@ -3058,16 +3064,16 @@ AutoProxy（用于Firefox）、Proxy SwitchySharp（用于Chrome）</p><p style=
     
     </summary>
     
-      <category term="CentOS" scheme="http://icehe.gitcafe.io/tags/CentOS/"/>
+      <category term="CentOS" scheme="http://icehe.me/tags/CentOS/"/>
     
-      <category term="CentOS" scheme="http://icehe.gitcafe.io/categories/CentOS/"/>
+      <category term="CentOS" scheme="http://icehe.me/categories/CentOS/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[(04) 安装后必做的 安全防范措施 - CentOS 7]]></title>
-    <link href="http://icehe.gitcafe.io/linux/%5B04%5D%20%E5%AE%89%E8%A3%85%20CentOS%207%20%E5%90%8E%E5%BF%85%E5%81%9A%E7%9A%84%20%E5%AE%89%E5%85%A8%E9%98%B2%E8%8C%83%E6%8E%AA%E6%96%BD/"/>
-    <id>http://icehe.gitcafe.io/linux/[04] 安装 CentOS 7 后必做的 安全防范措施/</id>
+    <link href="http://icehe.me/linux/%5B04%5D%20%E5%AE%89%E8%A3%85%20CentOS%207%20%E5%90%8E%E5%BF%85%E5%81%9A%E7%9A%84%20%E5%AE%89%E5%85%A8%E9%98%B2%E8%8C%83%E6%8E%AA%E6%96%BD/"/>
+    <id>http://icehe.me/linux/[04] 安装 CentOS 7 后必做的 安全防范措施/</id>
     <published>2015-03-27T16:00:00.000Z</published>
     <updated>2016-02-15T02:52:01.000Z</updated>
     <content type="html"><![CDATA[<div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>Ref From:&nbsp;<a href="http://www.hkpug.net/2014/09/18/%E5%AE%89%E8%A3%9D-centos-7-%E5%BE%8C%E5%BF%85%E5%81%9A%E7%9A%84%E4%B8%83%E4%BB%B6%E4%BA%8B/" shape="rect" target="_blank">http://www.hkpug.net/2014/09/18/%E5%AE%89%E8%A3%9D-centos-7-%E5%BE%8C%E5%BF%85%E5%81%9A%E7%9A%84%E4%B8%83%E4%BB%B6%E4%BA%8B/</a></div><div>Original Title:&nbsp;安裝 CentOS 7 後必做的七件事</div><div><br clear="none"></div><div><span style="color: #ff6600;"><strong>Notice:</strong> 安装桌面版的 CentOS 后，一般为了简便，暂时只用做第三步——</span></div><div><span style="color: #ff6600;">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;<strong>3. 禁止 root 使用 ssh 登入</strong></span></div><div><br clear="none"></div><div style="font-size: 16px;"><div style="text-align: center; font-family: verdana, arial, sans-serif; font-size: 0.9em; color: #333333; background: #eeeeee;"><div style="text-align: center;"><div style="text-align: left; background: #eeeeee;"><table style="font-size: 100%; font-weight: inherit; font-style: inherit; font-variant: inherit;"><tbody><tr><td colspan="1" rowspan="1" style="vertical-align: top;"><div style="word-wrap: break-word; background: #eeeeee;"><div style="margin: 5px 0px 10px;"><a href="http://www.centos.org/" shape="rect" style="color: #0000ff; font-weight: normal; text-decoration: none;" target="_blank">CentOS</a> 是最多人用來運行伺服器的 Linux 版本，最新版本是 CentOS 7。<br clear="none">
@@ -3161,16 +3167,16 @@ AutoProxy（用于Firefox）、Proxy SwitchySharp（用于Chrome）</p><p style=
     
     </summary>
     
-      <category term="CentOS" scheme="http://icehe.gitcafe.io/tags/CentOS/"/>
+      <category term="CentOS" scheme="http://icehe.me/tags/CentOS/"/>
     
-      <category term="CentOS" scheme="http://icehe.gitcafe.io/categories/CentOS/"/>
+      <category term="CentOS" scheme="http://icehe.me/categories/CentOS/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[(03) Update Kernel 升级内核 - CentOS 7]]></title>
-    <link href="http://icehe.gitcafe.io/linux/%5B03%5D%20Update%20Kernel%20%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%20-%20CentOS%207/"/>
-    <id>http://icehe.gitcafe.io/linux/[03] Update Kernel 升级内核 - CentOS 7/</id>
+    <link href="http://icehe.me/linux/%5B03%5D%20Update%20Kernel%20%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%20-%20CentOS%207/"/>
+    <id>http://icehe.me/linux/[03] Update Kernel 升级内核 - CentOS 7/</id>
     <published>2015-03-26T16:00:00.000Z</published>
     <updated>2016-02-15T02:52:01.000Z</updated>
     <content type="html"><![CDATA[<en-note><div>Ref From: <a shape="rect" href="http://www.linuxidc.com/Linux/2015-02/112697.htm" target="_blank">http://www.linuxidc.com/Linux/2015-02/112697.htm</a></div><div>Original Title: CentOS 7 升级内核的方法</div><div><br clear="none"></div><div><p>默认<a shape="rect" title="CentOS" href="http://www.linuxidc.com/topicnews.aspx?tid=14" target="_blank">CentOS</a> 7的内核版本是3.10，<br clear="none">升级的原因是为了测试openvswitch的vlan技术，<br clear="none">默认openvswitch的2.3版本是允许CentOS 7默认内核3.10支持，<br clear="none">下面是软件与内核版本对比</p><p>    Open vSwitch  Linux kernel <br clear="none">  ------------  ------------- <br clear="none">      1.4.x      2.6.18 to 3.2 <br clear="none">      1.5.x      2.6.18 to 3.2 <br clear="none">      1.6.x      2.6.18 to 3.2 <br clear="none">      1.7.x      2.6.18 to 3.3 <br clear="none">      1.8.x      2.6.18 to 3.4 <br clear="none">      1.9.x      2.6.18 to 3.8 <br clear="none">      1.10.x    2.6.18 to 3.8 <br clear="none">      1.11.x    2.6.18 to 3.8 <br clear="none">      2.0.x      2.6.32 to 3.10 <br clear="none">      2.1.x      2.6.32 to 3.11 <br clear="none">      2.2.x      2.6.32 to 3.14</p><p>但如何想使用gre与vxlan的话，需要内核3.12以上的<br clear="none">    Protocol    Linux Kernel <br clear="none">  --------    ------------ <br clear="none">    GRE          3.11 <br clear="none">    VXLAN        3.12 <br clear="none">    LISP      &lt;not upstream&gt;<br clear="none">所以得升级内核。</p><p><br clear="none"></p><p>更新前，<strong><span style="text-decoration: underline;">查看 内核版本</span>：</strong></p><p>[root@ip-10-10-17-4 tmp]# <strong>uname -r</strong> <br clear="none">3.10.0-123.el7.x86_64</p><p>目前最新的内核是3.18.3为stable，是2015年1月18日更新，<br clear="none">具体信息查看https://www.kernel.org/ </p><p><span style="text-decoration: underline;"><strong><br clear="none">升级内核 的 方法</strong></span><strong>：</strong></p><p>1. 导入key<br clear="none"><strong>rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org</strong><br clear="none">如果你修改了repo的gpgcheck=0也可以不导入key</p><p>2.安装elrepo的yum源<br clear="none">提醒：在上一篇教程<span style="text-decoration: underline;"> <strong>[02] 用CentOS 7打造合适的科研环境 </strong></span>安装了第三方源后，此步则不需要。<br clear="none"><strong>rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm</strong></p><p>3. 安装内核<br clear="none">在yum的ELRepo源中，有mainline（3.18.3）这个内核版本<br clear="none"><strong>yum --enablerepo=elrepo-kernel install  kernel-ml-devel kernel-ml -y</strong></p><p><br clear="none"></p><p>选择了使用新安装的repo来安装3.18的内核，<br clear="none">如果使用其他的repo，看不到3.18版本内核。</p><p>更新后，查看内核版本：<br clear="none">[root@ip-10-10-17-4 tmp]# <strong>uname -r</strong> <br clear="none">3.10.0-123.el7.x86_64</p><p>重要提醒：目前内核还是默认的版本，<br clear="none">如果在这一步完成后你就直接reboot了，<br clear="none">重启后使用的内核版本还是默认的3.10，不会使用新的3.18。</p><p><br clear="none"></p><p>*4. 想<span style="text-decoration: underline;"><strong>修改启动的顺序</strong></span>，需要进行下一步，查看默认启动顺序：</p><p><strong>awk -F\' '$1==&quot;menuentry &quot; {print $2}' /etc/grub2.cfg</strong> <br clear="none">CentOS Linux (3.18.3-1.el7.elrepo.x86_64) 7 (Core) <br clear="none">CentOS Linux, with Linux 3.10.0-123.el7.x86_64 <br clear="none">CentOS Linux, with Linux 0-rescue-893b160e363b4ec7834719a7f06e67cf</p><p>默认启动的顺序是从0开始，但我们新内核是从头插入（目前位置在0，而3.10的是在1），<br clear="none">所以需要选择0，如果想生效最新的内核，需要：</p><p><strong>grub2-set-default 0</strong></p><p><br clear="none"></p><p>以上问题可以参考<a shape="rect" href="https://access.RedHat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/sec-Customizing_GRUB_2_Menu.html#sec-Changing_the_Default_Boot_Entry" target="_blank">https://access.RedHat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/sec-Customizing_GRUB_2_Menu.html#sec-Changing_the_Default_Boot_Entry</a></p><p>然后reboot重启，使用新的内核，下面是重启后使用的内核版本：<br clear="none">[root@ip-10-10-17-4 ~]# <strong>uname -r</strong> <br clear="none">3.18.3-1.el7.elrepo.x86_64</p><p>完成后内核已经是最新的了。</p></div>
@@ -3180,16 +3186,16 @@ AutoProxy（用于Firefox）、Proxy SwitchySharp（用于Chrome）</p><p style=
     
     </summary>
     
-      <category term="CentOS" scheme="http://icehe.gitcafe.io/tags/CentOS/"/>
+      <category term="CentOS" scheme="http://icehe.me/tags/CentOS/"/>
     
-      <category term="CentOS" scheme="http://icehe.gitcafe.io/categories/CentOS/"/>
+      <category term="CentOS" scheme="http://icehe.me/categories/CentOS/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[(02) Configure System Envir 配置系统环境 - CentOS 7]]></title>
-    <link href="http://icehe.gitcafe.io/linux/%5B02%5D%20Config%20System%20Envir%20%E9%85%8D%E7%BD%AE%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%20-%20CentOS%207/"/>
-    <id>http://icehe.gitcafe.io/linux/[02] Config System Envir 配置系统环境 - CentOS 7/</id>
+    <link href="http://icehe.me/linux/%5B02%5D%20Config%20System%20Envir%20%E9%85%8D%E7%BD%AE%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%20-%20CentOS%207/"/>
+    <id>http://icehe.me/linux/[02] Config System Envir 配置系统环境 - CentOS 7/</id>
     <published>2015-03-25T16:00:00.000Z</published>
     <updated>2016-02-15T02:52:01.000Z</updated>
     <content type="html"><![CDATA[<div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div style="background-color: #ffffff;"><div style="width: 65.812%; display: block; min-height: 30px; box-sizing: border-box; margin-left: 2.5641%; max-width: 50em; text-align: justify;"><div style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px;">RefFrom:<a href="http://seisman.info/linux-environment-for-seismology-research.html" shape="rect" target="_blank" rel="external">http://seisman.info/linux-environment-for-seismology-research.html</a></div><div style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px;">Original Title:&nbsp;用CentOS 7打造合适的科研环境<br clear="none"></div><div><br></div><div><span style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; text-transform: none; color: rgb(255, 102, 0); font-size: 12pt;"><strong>Notice:&nbsp;</strong>若是按照前篇的文章《</span><font color="#FF6600" face="pt serif, georgia, times new roman, times, serif"><span style="line-height: 26px;">[00] U盘安装 CentOS 7</span></font><span style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none; color: rgb(255, 102, 0); font-size: 12pt; line-height: 1.6em;">》安装CentOS，<br></span><span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 此时应从&nbsp;</span><span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em; text-decoration: underline;"><strong>添加第三方源</strong></span> <span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">开始阅读，</span><span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">到</span> <strong style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">删除多余的kernel</strong> <span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">结束。</span></div><p style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-weight: normal; color: rgb(51, 51, 51); font-size: 16.8px; font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px;"><br clear="none"></p><p style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-weight: normal; color: rgb(51, 51, 51); font-size: 16.8px; font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px;">这篇博文记录了我用CentOS 7搭建<strong style="font-weight: bold;">地震学科研环境</strong>的过程，供我个人在未来重装系统时参考。对于其他地震学科研人员，也许有借鉴意义。</p><p style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-weight: normal; color: rgb(51, 51, 51); font-size: 16.8px; font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px;">阅读须知：</p><ol style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px; list-style: decimal; padding: 0px; margin: 0px 0px 10px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文适用于个人电脑，不适用于服务器；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">不推荐刚接触Linux的人使用CentOS发行版；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文尽量写的浅显易懂，但要求读者掌握Linux基础知识；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文所有操作均在CentOS 7下完成，其他发行版或多或少与CentOS&nbsp;7不同，因而仅供参考；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文所安装的软件纯粹出于个人习惯及喜好，读者应自己判断，按需安装；</li></ol><div style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px;"><h2 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 31.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id44" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">安装CentOS</a><br clear="none"></h2><p style="font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px 20px 0px;">CentOS&nbsp;7的安装与其他Linux发行版的安装差不多，个别地方稍有不同。</p><div><h3 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 24.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id45" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">准备工作</a><br clear="none"></h3><ol style="list-style-type: decimal; padding: 0px; margin: 0px 0px 10px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">准备材料
@@ -3394,16 +3400,16 @@ $ sudo ln -s /opt/google/earth/free/googleearth /usr/bin/google-earth
     
     </summary>
     
-      <category term="CentOS" scheme="http://icehe.gitcafe.io/tags/CentOS/"/>
+      <category term="CentOS" scheme="http://icehe.me/tags/CentOS/"/>
     
-      <category term="CentOS" scheme="http://icehe.gitcafe.io/categories/CentOS/"/>
+      <category term="CentOS" scheme="http://icehe.me/categories/CentOS/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[(01) 恢复 Windows 的 开机引导 - CentOS 7]]></title>
-    <link href="http://icehe.gitcafe.io/linux/%5B01%5D%20%E6%81%A2%E5%A4%8D%20Windows%20%E7%9A%84%20%E5%BC%80%E6%9C%BA%E5%BC%95%E5%AF%BC%20-%20CentOS%207/"/>
-    <id>http://icehe.gitcafe.io/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/</id>
+    <link href="http://icehe.me/linux/%5B01%5D%20%E6%81%A2%E5%A4%8D%20Windows%20%E7%9A%84%20%E5%BC%80%E6%9C%BA%E5%BC%95%E5%AF%BC%20-%20CentOS%207/"/>
+    <id>http://icehe.me/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/</id>
     <published>2015-03-20T16:00:00.000Z</published>
     <updated>2016-02-15T02:52:01.000Z</updated>
     <content type="html"><![CDATA[<en-note><div><span>Ref From: <a shape="rect" href="http://www.bkjia.com/xtzh/905081.html" target="_blank">http://www.bkjia.com/xtzh/905081.html</a></span></div><div><span>Original Title: CentOS 7安装后恢复Windows引导</span></div><div><br clear="none"></div><div>CentOS 7 正式版，和 REDHAT 7 一样，</div><div>Grub2不能正确引导windows分区。</div><div><br clear="none"></div><div><strong>解决方法：</strong></div><div><br clear="none"></div><div><strong>打开 /boot/grub2/grub.cfg</strong></div><div>在### END /etc/grub.d/00_header ###后，<strong>修改</strong>：</div><div><br clear="none"></div><div><strong>### BEGIN /etc/grub.d/30_os-prober ###</strong></div><div><strong>menuentry 'Windows 8 (loader) (on /dev/sda1)' --class windows --class os $menuentry_id_option 'osprober-chain-140E68540E6830C2' {</strong></div><div><strong>     insmod part_msdos</strong></div><div><strong>     insmod ntfs</strong></div><div><strong>     set root='hd0,msdos1'</strong></div><div><strong>     chainloader +1</strong></div><div><strong>}</strong></div><div><strong>### END /etc/grub.d/30_os-prober ###</strong></div><div><br clear="none"></div><div>重启时，将会出现win8的系统选单</div><div><br clear="none"></div><div><em>注意：set root 后面的参数按照实际情况填写</em></div>
@@ -3413,16 +3419,16 @@ $ sudo ln -s /opt/google/earth/free/googleearth /usr/bin/google-earth
     
     </summary>
     
-      <category term="CentOS" scheme="http://icehe.gitcafe.io/tags/CentOS/"/>
+      <category term="CentOS" scheme="http://icehe.me/tags/CentOS/"/>
     
-      <category term="CentOS" scheme="http://icehe.gitcafe.io/categories/CentOS/"/>
+      <category term="CentOS" scheme="http://icehe.me/categories/CentOS/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[(00) U盘安装 - CentOS 7]]></title>
-    <link href="http://icehe.gitcafe.io/linux/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/"/>
-    <id>http://icehe.gitcafe.io/linux/[00] U盘安装 CentOS 7/</id>
+    <link href="http://icehe.me/linux/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/"/>
+    <id>http://icehe.me/linux/[00] U盘安装 CentOS 7/</id>
     <published>2015-03-18T16:00:00.000Z</published>
     <updated>2016-02-15T02:52:01.000Z</updated>
     <content type="html"><![CDATA[<div>
@@ -3440,16 +3446,16 @@ KDE 桌面，过于高度自定义化，上手麻烦。<br clear="none" style="p
     
     </summary>
     
-      <category term="CentOS" scheme="http://icehe.gitcafe.io/tags/CentOS/"/>
+      <category term="CentOS" scheme="http://icehe.me/tags/CentOS/"/>
     
-      <category term="CentOS" scheme="http://icehe.gitcafe.io/categories/CentOS/"/>
+      <category term="CentOS" scheme="http://icehe.me/categories/CentOS/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[实现 博客网站的支付宝 打赏功能 —— Donate 打赏博主]]></title>
-    <link href="http://icehe.gitcafe.io/web/donate/"/>
-    <id>http://icehe.gitcafe.io/web/donate/</id>
+    <link href="http://icehe.me/web/donate/"/>
+    <id>http://icehe.me/web/donate/</id>
     <published>2015-03-03T16:00:00.000Z</published>
     <updated>2016-02-15T02:52:01.000Z</updated>
     <content type="html"><![CDATA[<ul>
@@ -3542,9 +3548,9 @@ window.onload = function () {
     
     </summary>
     
-      <category term="Web" scheme="http://icehe.gitcafe.io/tags/Web/"/>
+      <category term="Web" scheme="http://icehe.me/tags/Web/"/>
     
-      <category term="Web" scheme="http://icehe.gitcafe.io/categories/Web/"/>
+      <category term="Web" scheme="http://icehe.me/categories/Web/"/>
     
   </entry>
   
