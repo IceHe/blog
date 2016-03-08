@@ -5,7 +5,7 @@ tags: [read]
 description: 我收藏的网站、博客、文档、学习资料、文章、问答、专栏…
 ---
 
-- *Updated on 2016-03-07*
+- *Updated on 2016-03-08*
 
 ## **IT 信息技术**
 
@@ -61,9 +61,9 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 <br/>
 
-#### Dynamic Cheat Sheets
+#### [Dynamic Cheat Sheets](http://www.cheatography.com/)
 
-_PS: Need to screen the content of this section._
+_Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [Studying](http://www.cheatography.com/nataliemoore/cheat-sheets/studying/) / [Writing](http://www.cheatography.com/y0mbo/cheat-sheets/writing-cheat-sheet/) / [Markdown](http://www.cheatography.com/specialbrand/cheat-sheets/markdown/) / [Dramatica Theory](http://www.cheatography.com/permababy/cheat-sheets/dramatica-theory/)
 
@@ -112,13 +112,13 @@ _PS: Need to screen the content of this section._
 
 - [Zsh Docs](http://zsh.sourceforge.net/Doc/) —— [Z shell](http://zsh.sourceforge.net/)
 
-- [Vim Cheat Sheet](http://coolshell.cn//wp-content/uploads/2011/09/vim_cheat_sheet_for_programmers_print.png) —— Vim 键位操作总结图。
+- [Vim Cheat Sheet](http://coolshell.cn//wp-content/uploads/2011/09/vim_cheat_sheet_for_programmers_print.png) —— Vim 键位操作总结图。 <sup>__Best__</sup>
 
-- [Vim Docs](http://www.vim.org/docs.php) —— from&nbsp; [vim.org](http://www.vim.org)
+- [Vim Docs](http://www.vim.org/docs.php) —— from&nbsp; [vim.org](http://www.vim.org) <sup>_todo_</sup>
 
 - [PHP Docs](http://php.net/docs.php) —— from&nbsp; [PHP.net](http://php.net/)
 
-- [Python3 Docs](https://docs.python.org/3/) —— from&nbsp; [Python.org](https://www.python.org/)
+- [Python3 Docs](https://docs.python.org/3/) —— from&nbsp; [Python.org](https://www.python.org/) <sup>_todo_</sup>
 
 - [Mac Developer Library](https://developer.apple.com/library/mac/navigation/) —— including&nbsp; [AppleScript Language Guide](https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html)
 
@@ -126,21 +126,21 @@ _PS: Need to screen the content of this section._
 
 ### **Algorithm 算法**
 
-- [我的算法学习之路](http://lucida.me/blog/on-learning-algorithms/)
+- [我的算法学习之路](http://lucida.me/blog/on-learning-algorithms/) <sup>_todo_</sup>
 
-- [结构之法 算法之道](http://blog.csdn.net/v_july_v)
+- [结构之法 算法之道](http://blog.csdn.net/v_july_v) <sup>_todo_</sup>
 
-- [Matrix67: The Aha Moments](http://www.matrix67.com/blog/)
+- [Matrix67: The Aha Moments](http://www.matrix67.com/blog/) <sup>_todo_</sup>
 
-- [Advanced Data Structures](http://courses.csail.mit.edu/6.851/)
+- [Advanced Data Structures](http://courses.csail.mit.edu/6.851/) <sup>_todo_</sup>
 
-- [Sorting Algorithm Animations](http://www.sorting-algorithms.com/)
+- [Sorting Algorithm Animations](http://www.sorting-algorithms.com/) <sup>_todo_</sup>
 
-- [Visu Algo](http://visualgo.net/) —— Visualising data structures and algorithms through animation.
+- [Visu Algo](http://visualgo.net/) —— Visualising data structures and algorithms through animation. <sup>_todo_</sup>
 
-- [Algorithms required to solve all problems (using C++) in any competitive coding contest?](https://www.quora.com/What-are-the-algorithms-required-to-solve-all-problems-using-C++-in-any-competitive-coding-contest)
+- [Algorithms required to solve all problems (using C++) in any competitive coding contest?](https://www.quora.com/What-are-the-algorithms-required-to-solve-all-problems-using-C++-in-any-competitive-coding-contest) <sup>_todo_</sup>
 
-- [LeetCode](https://leetcode.com/),&nbsp; [UVa](https://uva.onlinejudge.org/),&nbsp; [PKU](http://poj.org/),&nbsp; [HDU](http://acm.hdu.edu.cn/) —— Online Judge
+- [LeetCode](https://leetcode.com/),&nbsp; [UVa](https://uva.onlinejudge.org/),&nbsp; [PKU](http://poj.org/),&nbsp; [HDU](http://acm.hdu.edu.cn/) —— Online Judge <sup>_todo_</sup>
 
 <br/>
 
@@ -152,15 +152,15 @@ _PS: Need to screen the content of this section._
 
 - [PHP PSR](https://github.com/PizzaLiu/PHP-FIG) —— 编码规范。
 
-- [国外程序员整理的 PHP 资源大全](http://blog.jobbole.com/82908/) —— [Awesome PHP](https://github.com/ziadoz/awesome-php)
+- [国外程序员整理的 PHP 资源大全](http://blog.jobbole.com/82908/) —— [Awesome PHP](https://github.com/ziadoz/awesome-php) <sup>_todo_</sup>
 
-- [Google Style Guides](https://github.com/google/styleguide/) —— 谷歌代码风格指南。
+- [Google Style Guides](https://github.com/google/styleguide/) —— 谷歌代码风格指南。 <sup>_todo_</sup>
 
-- [Bit Twiddling Hacks](http://graphics.stanford.edu/~seander/bithacks.html) —— 位计算与操作。
+- [Bit Twiddling Hacks](http://graphics.stanford.edu/~seander/bithacks.html) —— 位计算与操作。 <sup>_todo_</sup>
 
-- [The Lost Art of C Structure Packing](http://www.catb.org/esr/structure-packing/) —— 结构体的对齐与压缩。
+- [The Lost Art of C Structure Packing](http://www.catb.org/esr/structure-packing/) —— 结构体的对齐与压缩。 <sup>_todo_</sup>
 
-- [一年成为Emacs高手(像神一样使用编辑器) ](http://blog.csdn.net/redguardtoo/article/details/7222501/)
+- [一年成为Emacs高手(像神一样使用编辑器) ](http://blog.csdn.net/redguardtoo/article/details/7222501/) <sup>_todo_</sup>
 
 - [十分钟搞清字符集和字符编码](http://blog.jobbole.com/84903/)
 
@@ -170,37 +170,37 @@ _PS: Need to screen the content of this section._
 
 ### **Read 阅读**
 
-- [编程入门指南 v1.4](http://zhuanlan.zhihu.com/xiao-jing-mo/19959253)
+- [编程入门指南 v1.4](http://zhuanlan.zhihu.com/xiao-jing-mo/19959253) <sup>_todo_</sup>
 
 - [如何阅读（ 技术 ）书籍](http://lucida.me/blog/on-reading-books/)
 
-- [程序员必读书单 1.0](http://lucida.me/blog/developer-reading-list/)
+- [程序员必读书单 1.0](http://lucida.me/blog/developer-reading-list/) <sup>_todo_</sup>
 
-- [程序员进阶之路](https://www.zhihu.com/collection/19837238?utm_campaign=weekly188&utm_medium=email&page=1&utm_source=weekly-digest)
+- [程序员进阶之路](https://www.zhihu.com/collection/19837238?utm_campaign=weekly188&utm_medium=email&page=1&utm_source=weekly-digest) <sup>_todo_</sup>
 
-- [非常不错的编程技术教程](http://coolshell.cn/articles/240.html)
+- [非常不错的编程技术教程](http://coolshell.cn/articles/240.html) <sup>_todo_</sup>
 
-- [免费的编程中文书籍索引](http://siberiawolf.com/free_programming/index.html)
+- [免费的编程中文书籍索引](http://siberiawolf.com/free_programming/index.html) <sup>_todo_</sup>
 
-- [用户体验、产品设计的学习资料](http://daichuanqing.com/index.php/share)
+- [用户体验、产品设计的学习资料](http://daichuanqing.com/index.php/share) <sup>_todo_</sup>
 
-- [程序员博客墙](http://blogwall.us/) —— 优秀程序员的个人博客索引。
+- [程序员博客墙](http://blogwall.us/) —— 优秀程序员的个人博客索引。 <sup>_todo_</sup>
 
-- [BruceChen's Wiki](http://brucechen.gitcafe.io/#Books%20Reading) —— 编程知识笔记、速查清单。
+- [BruceChen's Wiki](http://brucechen.gitcafe.io/#Books%20Reading) —— 编程知识笔记、速查清单。 <sup>_todo_</sup>
 
-- [Google技术开发指南：给大学生自学的建议](http://blog.jobbole.com/80621/)
+- [Google技术开发指南：给大学生自学的建议](http://blog.jobbole.com/80621/) <sup>_todo_</sup>
 
-- [How to be a Programmer](https://github.com/braydie/HowToBeAProgrammer)
+- [How to be a Programmer](https://github.com/braydie/HowToBeAProgrammer) <sup>_todo_</sup>
 
-- [Free Programming Books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books-zh.md)
+- [Free Programming Books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books-zh.md) <sup>_todo_</sup>
 
-- [How to Design Programs](http://www.ccs.neu.edu/home/matthias/HtDP2e/index.html)
+- [How to Design Programs](http://www.ccs.neu.edu/home/matthias/HtDP2e/index.html) <sup>_todo_</sup>
 
-- [深入浅出 Node.js 读书笔记](https://cnodejs.org/topic/551200e6d792542a29789a43)
+- [深入浅出 Node.js 读书笔记](https://cnodejs.org/topic/551200e6d792542a29789a43) <sup>_todo_</sup>
 
-- [计算的极限 系列文章](http://songshuhui.net/archives/tag/%E8%AE%A1%E7%AE%97%E7%9A%84%E6%9E%81%E9%99%90)
+- [计算的极限 系列文章](http://songshuhui.net/archives/tag/%E8%AE%A1%E7%AE%97%E7%9A%84%E6%9E%81%E9%99%90) <sup>_todo_</sup>
 
-- [GO语言零基础入门资料整理](http://www.jianshu.com/p/a70098a94d18?utm_campaign=hugo&utm_medium=reader_share&utm_content=note&utm_source=weibo)
+- [GO语言零基础入门资料整理](http://www.jianshu.com/p/a70098a94d18?utm_campaign=hugo&utm_medium=reader_share&utm_content=note&utm_source=weibo) <sup>_todo_</sup>
 
 - [王垠的博客](http://www.yinwang.org/) —— 一个很有争议的人物，但是读他的文章还是很有启发的。
 
@@ -212,33 +212,35 @@ _PS: Need to screen the content of this section._
 
 ### **Web Dev 开发**
 
-- [agentzh 的 Nginx 教程](http://openresty.org/download/agentzh-nginx-tutorials-zhcn.html)
+- [agentzh 的 Nginx 教程](http://openresty.org/download/agentzh-nginx-tutorials-zhcn.html) <sup>_todo_</sup>
 
-- [Chrome 开发者工具教程](https://www.giuem.com/chrome-devtools/)
+- [Chrome 开发者工具教程](https://www.giuem.com/chrome-devtools/) <sup>_todo_</sup>
 
 - [有哪些好用的前端开发软件？](https://www.zhihu.com/question/26339902)
 
-- [HTML 中 Head 头结构](http://segmentfault.com/a/1190000000697532)
+- [Linux 内核 TCP/IP 协议栈 系列文章](http://weibo.com/p/1001603847877217662768?mod=zwenzhang) <sup>_todo_</sup>
 
-- [TCP/IP 协议详解内容总结](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&mid=213790057&idx=2&sn=06296c4e3b67fa227b703c6d31a23b3e&scene=5&srcid=0925aDg44vjLgZvCaRNTmrKZ#rd)
+- [TCP/IP 协议栈及 OSI 参考模型详解](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&mid=213726432&idx=1&sn=337e2442c23c811cb96bd8315e3d4916&scene=5&srcid=09208rmQfdovBALp0y138PM3#rd) <sup>_todo_</sup>
 
-- [TCP/IP 协议栈及 OSI 参考模型详解](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&mid=213726432&idx=1&sn=337e2442c23c811cb96bd8315e3d4916&scene=5&srcid=09208rmQfdovBALp0y138PM3#rd)
+- [Linux TCP 队列相关参数的总结](http://blog.sina.com.cn/s/blog_e59371cc0102vg4n.html) <sup>_todo_</sup>
 
-- [Linux TCP 队列相关参数的总结](http://blog.sina.com.cn/s/blog_e59371cc0102vg4n.html)
+- [TCP/IP 协议详解内容总结](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&mid=213790057&idx=2&sn=06296c4e3b67fa227b703c6d31a23b3e&scene=5&srcid=0925aDg44vjLgZvCaRNTmrKZ#rd) <sup>_todo_</sup>
+
+- [HTML 中 Head 头结构](http://segmentfault.com/a/1190000000697532) <sup>_todo_</sup>
 
 <br/>
 
 ### **Architecture 架构**
 
-- [从无到有：微信后台系统的演进之路](http://www.infoq.com/cn/articles/the-road-of-the-growth-weixin-background)
+- [从无到有：微信后台系统的演进之路](http://www.infoq.com/cn/articles/the-road-of-the-growth-weixin-background) <sup>__Best__</sup>
 
 - [追求极致：从技术细节看美团架构](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=402465951&amp;idx=1&amp;sn=c76193b13b506d2c631bac8840a0f5b6&amp;scene=1&amp;srcid=0203LZGGRVEnbznCiOuiKo9H#rd)
 
 - [千万级规模高性能、高并发的网络架构经验](http://mp.weixin.qq.com/s?__biz=MjM5NDMwNjMzNA==&amp;mid=402417924&amp;idx=1&amp;sn=967ecd1fae2f9acb4356607222c94b3b&amp;scene=1&amp;srcid=1230UbcV9DsQeIqLXOuH5QUa#rd) —— 微博平台架构。
 
-- [端游、手游服务端常用的架构是什么样的？](https://www.zhihu.com/question/29779732)
+- [端游、手游服务端常用的架构是什么样的？](https://www.zhihu.com/question/29779732) <sup>_todo_</sup>
 
-- [大公司里怎样开发和部署前端代码？](https://www.zhihu.com/question/20790576)
+- [大公司里怎样开发和部署前端代码？](https://www.zhihu.com/question/20790576) <sup>__Best__</sup>
 
 - [如何用消息系统避免分布式事务？](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=401298826&amp;idx=1&amp;sn=02047f1d7591252a0ffc6a5ac6fe1874&amp;scene=1&amp;srcid=1230FaNRSmrYU81gqipYrm1d#rd)
 
@@ -246,7 +248,7 @@ _PS: Need to screen the content of this section._
 
 - [高扩展性网站的50条原则](http://www.cnblogs.com/xing901022/p/4425124.html)
 
-- [淘宝搜索技术博客](http://www.searchtb.com/)
+- [淘宝搜索技术博客](http://www.searchtb.com/) <sup>_todo_</sup>
 
 - [架构腐化之谜](http://mp.weixin.qq.com/s?__biz=MjM5NTg2NTU0Ng==&amp;mid=210816035&amp;idx=3&amp;sn=7ad903e7be165e2c616c20fa2f148f63&amp;scene=1#rd)
 
@@ -256,21 +258,17 @@ _PS: Need to screen the content of this section._
 
 - [Filesystem Hierarchy Standard](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard) —— 各目录用途。
 
-- [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line/blob/master/README.md) —— 命令行的艺术
+- [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line/blob/master/README.md) —— 命令行的艺术 <sup>__Best__</sup> <sup>_todo_</sup>
 
-- [Linux 工具快速教程](http://linuxtools-rst.readthedocs.org/zh_CN/latest/index.html)
+- [Linux 工具快速教程](http://linuxtools-rst.readthedocs.org/zh_CN/latest/index.html) <sup>_todo_</sup>
 
-- [The Linux Documentation Project](http://www.tldp.org/)
+- [The Linux Documentation Project](http://www.tldp.org/) <sup>_todo_</sup>
 
-- [Linux 内核启示说＠实践篇](http://x-slam.com/linux_kernel_qss_practice)
+- [Linux 内核启示说＠实践篇](http://x-slam.com/linux_kernel_qss_practice) <sup>_todo_</sup>
 
 - [服务器操作系统的选择](http://shell909090.org/blog/archives/2671)
 
-- [国外程序员整理的系统管理员资源大全](http://blog.jobbole.com/83212/) —— [Awesome Sysadmin](https://github.com/kahun/awesome-sysadmin)
-
-- [Linux 内核 TCP/IP 协议栈 系列文章](http://weibo.com/p/1001603847877217662768?mod=zwenzhang)
-
-- [Linux TCP 队列相关参数的总结](http://blog.sina.com.cn/s/blog_e59371cc0102vg4n.html)
+- [国外程序员整理的系统管理员资源大全](http://blog.jobbole.com/83212/) —— [Awesome Sysadmin](https://github.com/kahun/awesome-sysadmin) <sup>_todo_</sup>
 
 - [FreeBSD 和 Linux 有什么不同？](https://linux.cn/article-5927-1.html)
 
@@ -284,17 +282,17 @@ _PS: Need to screen the content of this section._
 
 ### **Secure 安全**
 
-- [WooYun 知识库](http://drops.wooyun.org/)
+- [WooYun 知识库](http://drops.wooyun.org/) <sup>_todo_</sup>
 
-- [WooYun Wiki](http://wiki.wooyun.org/) —— 网络安全。
+- [WooYun Wiki](http://wiki.wooyun.org/) —— 网络安全。 <sup>_todo_</sup>
 
 - [FIND密码网](http://www.findmima.com/) —— 社工库。
 
 - [总结 XSS 与 CSRF 两种跨站攻击](https://blog.tonyseek.com/post/introduce-to-xss-and-csrf/)
 
-- [Web 安全入门](https://github.com/evilcos/papers) —— 国内安全专家，[余弦](https://github.com/evilcos)。
+- [Web 安全入门](https://github.com/evilcos/papers) —— 国内安全专家，[余弦](https://github.com/evilcos)。 <sup>_todo_</sup>
 
-- [加盐密码哈希：如何正确使用](http://blog.jobbole.com/61872/) —— [英文出处](https://crackstation.net/hashing-security.htm)。
+- [加盐密码哈希：如何正确使用](http://blog.jobbole.com/61872/) —— [英文出处](https://crackstation.net/hashing-security.htm)。 <sup>__Best__</sup>
 
 <br/>
 
@@ -315,9 +313,9 @@ _PS: Need to screen the content of this section._
 
 ### **Industry 行业**
 
-- [SteveY对Amazon和Google平台的吐槽](http://coolshell.cn/articles/5701.html) —— [Steve Yegge](https://en.wikipedia.org/wiki/Steve_Yegge)。
+- [SteveY对Amazon和Google平台的吐槽](http://coolshell.cn/articles/5701.html) —— [Steve Yegge](https://en.wikipedia.org/wiki/Steve_Yegge)。 <sup>__Best__</sup>
 
-- [链家全解剖：必须佩服、也必须警惕的巨无霸](http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;mid=403155826&amp;idx=1&amp;sn=e4956bccff521a20b7f84f446de0c751&amp;scene=1&amp;srcid=1221RF2fINJ6tweWs2r4CRg9#rd)
+- [链家全解剖：必须佩服、也必须警惕的巨无霸](http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;mid=403155826&amp;idx=1&amp;sn=e4956bccff521a20b7f84f446de0c751&amp;scene=1&amp;srcid=1221RF2fINJ6tweWs2r4CRg9#rd) <sup>__Best__</sup>
 
 - [科技公司十大最愚蠢的错误](http://coolshell.cn/articles/1295.html)
 
@@ -327,7 +325,7 @@ _PS: Need to screen the content of this section._
 
 - [老外被中国app惊呆了](http://blog.jobbole.com/89339/) —— [英文出处](http://dangrover.com/blog/2014/12/01/chinese-mobile-app-ui-trends.html)
 
-- [History of G_F-W](http://www.chinagfw.org/2015/09/blog-post_8.html) —— [功夫网与番羽_土啬](http://www.chinagfw.org/)。
+- [History of G_F-W](http://www.chinagfw.org/2015/09/blog-post_8.html) —— [功夫网与番羽_土啬](http://www.chinagfw.org/)。 <sup>__Best__</sup>
 
 - [China’s Great Cannon](https://citizenlab.org/2015/04/chinas-great-cannon/)
 
@@ -335,7 +333,7 @@ _PS: Need to screen the content of this section._
 
 ### **Mgt 管理**
 
-- [故障之后](http://card.weibo.com/article/h5/s#cid=1001603848245896980234) —— 故障之后，加流程还是改进技术？
+- [故障之后](http://card.weibo.com/article/h5/s#cid=1001603848245896980234) —— 故障之后，加流程还是改进技术？ <sup>__Best__</sup>
 
 - [加班与效率](http://coolshell.cn/articles/10217.html)
 
@@ -349,7 +347,7 @@ _PS: Need to screen the content of this section._
 
 - [大公司高管做草根创业的几个坑](http://weibo.com/p/1001603844701638757947)
 
-- [为什么创业公司开除员工的速度越快越好（fire fast）？](https://www.zhihu.com/question/30991569/answer/50763087)
+- [为什么创业公司开除员工的速度越快越好（fire fast）？](https://www.zhihu.com/question/30991569/answer/50763087) <sup>__Best__</sup>
 
 - [如何留住员工的心？这家公司的「员工留存率」高达 95%！](http://weibo.com/ttarticle/p/show?id=2309403945361273143607)
 
@@ -357,11 +355,11 @@ _PS: Need to screen the content of this section._
 
 ### **Oth Tools 工具**
 
-- [极客学院](http://www.jikexueyuan.com/)
+- [极客学院](http://www.jikexueyuan.com/) <sup>_todo_</sup>
 
 - [扇贝英语](http://www.shanbay.com/) —— 一整套学习英语的系列 App 服务。
 
-- [网易公开课](http://open.163.com/) —— 国内最好的公开课平台，包含 TED、Coursera、可汗学院的翻译视频。
+- [网易公开课](http://open.163.com/) —— 国内最好的公开课平台，包含 TED、Coursera、可汗学院的翻译视频。 <sup>_todo_</sup>
 
 - [Shadowsocks](https://portal.shadowsocks.com/) —— “跨越长城” 的神兵利器。
 
@@ -377,15 +375,15 @@ _PS: Need to screen the content of this section._
 
 ### **Life 人生**
 
-- [若一辈子没有赚大钱，当大官，和自己爱的人在一起（哪怕一次），活着能算有意义吗？](https://www.zhihu.com/question/24561532/answer/28240920) —— 灯塔。
+- [若一辈子没有赚大钱，当大官，和自己爱的人在一起（哪怕一次），活着能算有意义吗？](https://www.zhihu.com/question/24561532/answer/28240920) —— 灯塔。 <sup>__Best__</sup>
 
-- [为什么长大以后反而不容易快乐？](http://zhuanlan.zhihu.com/xiepanda/19582894) —— You are not the one. You are not special.
+- [为什么长大以后反而不容易快乐？](http://zhuanlan.zhihu.com/xiepanda/19582894) —— You are not the one. You are not special. <sup>__Best__</sup>
 
-- [眼前的苟且，也正是诗和远方](http://zhuanlan.zhihu.com/lswlsw/19895904) —— 迷茫。
+- [眼前的苟且，也正是诗和远方](http://zhuanlan.zhihu.com/lswlsw/19895904) —— 迷茫。 <sup>__Best__</sup>
 
 - [苦难有什么价值？](https://www.zhihu.com/question/19988077) —— 没有价值。
 
-- [Loser 应该知道的 6 个残酷人生事实](http://www.douban.com/group/topic/36138010/)
+- [Loser 应该知道的 6 个残酷人生事实](http://www.douban.com/group/topic/36138010/) <sup>__Best__</sup>
 
     「这个世界只关心你能给予什么。」 &nbsp;—— 《 六个可以让你变得更强大的残酷事实 》译文。
 
@@ -401,7 +399,9 @@ _PS: Need to screen the content of this section._
 
 - [精致的利己主义者和常青藤的绵羊](http://mp.weixin.qq.com/s?__biz=MjM5NzExOTE2Ng==&mid=208583700&idx=1&sn=9bb0ea491064b3ffb93e7f24f9fc04a3&scene=5#rd) —— 中西。
 
-- [《 感谢你给我机会上场 》方励的一席演讲](http://yixi.tv/lecture/177) —— 循着乐趣前行。
+- [风尘棋客](http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;mid=216723229&amp;idx=1&amp;sn=87c7dbb95abce565fa001c3a5063427a&amp;scene=1&amp;srcid=0308jCVD1x8LridYzELGd0ZS#rd)
+
+- [《 感谢你给我机会上场 》方励的一席演讲](http://yixi.tv/lecture/177) —— 循着乐趣前行。 <sup>__Best__</sup>
 
 - [《 幸福课 》动机在杭州 的知乎专栏](http://zhuanlan.zhihu.com/happy) —— 平常心。
 
@@ -413,9 +413,9 @@ _PS: Need to screen the content of this section._
 
 - [本分和情分](http://zhuanlan.zhihu.com/xinliyushenghuo/19993302) —— 「别人帮你，那是情分，不帮你，那是本分。容不容得下是你的气度，能不能让你容下是我的本事。」
 
-- [圈子不同，不必强融](http://mp.weixin.qq.com/s?__biz=MjM5MzI5NzQ1MA==&amp;mid=207716479&amp;idx=1&amp;sn=195e46c808f83f95990bb3aff09a349b&amp;scene=1#rd) —— 「怎么样才可以真正地做到不计较呢？强大到让别人计较你。」
+- [圈子不同，不必强融](http://mp.weixin.qq.com/s?__biz=MjM5MzI5NzQ1MA==&amp;mid=207716479&amp;idx=1&amp;sn=195e46c808f83f95990bb3aff09a349b&amp;scene=1#rd) —— 「怎么样才可以真正地做到不计较呢？强大到让别人计较你。」 <sup>__Best__</sup>
 
-- [孤独让人成瘾（下）：依赖真实的关系](http://www.vccoo.com/v/6a28e8)
+- [孤独让人成瘾（下）：依赖真实的关系](http://www.vccoo.com/v/6a28e8) <sup>__Best__</sup>
 
     「交一个真正的朋友是一件很累人的事，但是人生那么长，不累一累，那又该干嘛呢？」
 
@@ -428,6 +428,8 @@ _PS: Need to screen the content of this section._
 - [男女交往最忌讳什么？](https://www.zhihu.com/question/23151702) —— 月亮你要，六便士你还嫌少。
 
 - [在大学里有哪些不错的恋爱建议？](https://www.zhihu.com/question/26239595) —— 不强求。
+
+- [伤不起的盖茨比——那些年，我们没逆袭到的女神](http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;mid=215662699&amp;idx=1&amp;sn=d03dc12f1b0cab3fa191b80cf7697b76&amp;scene=18&amp;scene=1&amp;srcid=0308sLfw8T7lI35VCnfy6RVG#rd)
 
 - [女性年纪大了就不好嫁人了吗？](https://www.zhihu.com/question/29090643)
 
@@ -445,7 +447,7 @@ _PS: Need to screen the content of this section._
 
 ### **Think 思维**
 
-- [智商高低是因为思维习惯不同造成的吗？](https://www.zhihu.com/question/27283467) —— 思考能力。
+- [智商高低是因为思维习惯不同造成的吗？](https://www.zhihu.com/question/27283467) —— 思考能力。 <sup>__Best__</sup>
 
 - [如何从思维上彻底改变学习模式？](https://www.zhihu.com/question/20416520) —— 实用主义 VS 完美主义。
 
@@ -455,7 +457,7 @@ _PS: Need to screen the content of this section._
 
 - [普通人怎么让自己更努力？(3)](http://zhuanlan.zhihu.com/individual/19777122) —— 发掘内心的真实想法…
 
-- [Larry Smith：你为何不会成就伟业](http://open.163.com/movie/2015/6/H/4/MAPPMO5L9_MAPPP7FH4.html) —— 庸人的借口。
+- [Larry Smith：你为何不会成就伟业](http://open.163.com/movie/2015/6/H/4/MAPPMO5L9_MAPPP7FH4.html) —— 庸人的借口。 <sup>__Best__</sup>
 
 - [别让工作拖垮你，最实用的25条时间管理TIPS ](http://mp.weixin.qq.com/s?__biz=MjM5MzEzNjI2MA==&amp;mid=206759033&amp;idx=1&amp;sn=84f86dd4e6078c8bd3e84e25ab00e93e&amp;scene=1#rd) —— 时间管理的目的是为了提高效率，去做更多的工作？
 
@@ -479,7 +481,7 @@ _PS: Need to screen the content of this section._
 
 ### **Health 健康**
 
-- [生命真的在于运动么？](https://www.zhihu.com/question/24498231) —— 生命在于运动。
+- [生命真的在于运动么？](https://www.zhihu.com/question/24498231) —— 生命在于运动。 <sup>__Best__</sup>
 
 - [没有锻炼基础的人，如何增肌与减脂？](https://www.zhihu.com/question/20687290) —— 汇总。
 
@@ -513,25 +515,25 @@ _PS: Need to screen the content of this section._
 
 - [程序员英语学习指引](http://lucida.me/blog/english-for-programmers/) —— 「除非你阅读原版书籍和中文书籍一样顺畅，或者翻译书籍信息损失量太大，否则不需要刻意阅读原版。」
 
-- [单词全认识却看不懂句子怎么办？](https://www.zhihu.com/question/28640901/answer/63421701) —— 一词多义、语境、词组、语法、文化背景。
+- [单词全认识却看不懂句子怎么办？](https://www.zhihu.com/question/28640901/answer/63421701) —— 一词多义、语境、词组、语法、文化背景。 <sup>_todo_</sup>
 
 - [每天坚持英语学习为什么还是学不好？](https://www.zhihu.com/question/27702564) —— 水滴石穿 VS 拼命猛进。
 
-- [BBC 英式英语发音视频教程](http://www.miaopai.com/show/STmZrQy-nHwvBSpMYET7~Q__.htm) —— Elegant.
+- [BBC 英式英语发音视频教程](http://www.miaopai.com/show/STmZrQy-nHwvBSpMYET7~Q__.htm) —— Elegant. <sup>_todo_</sup>
 
-- [美剧字幕组长讲述她如何练听力](http://www.vjianke.com/YM3VH.clip) —— 方法。
+- [美剧字幕组长讲述她如何练听力](http://www.vjianke.com/YM3VH.clip) —— 方法。 <sup>_todo_</sup>
 
-- [39 Incorrectly Used Words That Can Make You Look Bad](https://www.linkedin.com/pulse/39-incorrectly-used-words-can-make-you-look-bad-jeff-haden?trk=eml-b2_content_ecosystem_digest-recommended_articles-186-null&midToken=AQGECgCdtokxPw&fromEmail=fromEmail&ut=2gQ0szrgpahCI1)
+- [39 Incorrectly Used Words That Can Make You Look Bad](https://www.linkedin.com/pulse/39-incorrectly-used-words-can-make-you-look-bad-jeff-haden?trk=eml-b2_content_ecosystem_digest-recommended_articles-186-null&midToken=AQGECgCdtokxPw&fromEmail=fromEmail&ut=2gQ0szrgpahCI1) <sup>_todo_</sup>
 
 <br/>
 
 ### **Finance 理财**
 
-- **[商业分析能力是怎样炼成的？](https://www.zhihu.com/question/20603837/answer/47073613)**
+- **[商业分析能力是怎样炼成的？](https://www.zhihu.com/question/20603837/answer/47073613)** <sup>__Best__</sup>
 
 - [普通人如何合理的理财投资，有哪些书可以学习阅读？](https://www.zhihu.com/question/22818974) —— 必修课。
 
-- [《天上不会掉馅饼》知乎专栏](http://zhuanlan.zhihu.com/wontfallinyourlap) —— 金融投资诈骗真相与投资方面的常识。
+- [《天上不会掉馅饼》知乎专栏](http://zhuanlan.zhihu.com/wontfallinyourlap) —— 金融投资诈骗真相与投资方面的常识。 <sup>__Best__</sup> <sup>_todo_</sup>
 
 - [如何看待「 钱不是省出来的 」这句话？](https://www.zhihu.com/question/25258679) —— 「该花的钱一定要花，不该花的钱一定要省。」 然后，要有智慧分辨两者的不同。
 
@@ -555,9 +557,9 @@ _PS: Need to screen the content of this section._
 
 - [怎样欣赏交响乐、歌剧、古典和美声这类音乐？](https://www.zhihu.com/question/22208507)
 
-- [我知道你看过不少神剧，但许多都「抄袭」它 ](http://mp.weixin.qq.com/s?__biz=MjM5MTIwNTYwMg==&mid=402346946&idx=1&sn=8b2c0e87815358358eff466c25b0836b&scene=5&srcid=1209kGNJ89UQoUCc9M81CNEZ#rd)
+- [我知道你看过不少神剧，但许多都「抄袭」它 ](http://mp.weixin.qq.com/s?__biz=MjM5MTIwNTYwMg==&mid=402346946&idx=1&sn=8b2c0e87815358358eff466c25b0836b&scene=5&srcid=1209kGNJ89UQoUCc9M81CNEZ#rd) <sup>_todo_</sup>
 
-- [有哪些电影一定要趁年轻看？](https://www.zhihu.com/question/25699277)
+- [有哪些电影一定要趁年轻看？](https://www.zhihu.com/question/25699277) <sup>_todo_</sup>
 
 <br/>
 
@@ -567,7 +569,7 @@ _PS: Need to screen the content of this section._
 
 - [一个人旅行有哪些必备神器？](https://www.zhihu.com/question/24023171) —— 实用。
 
-- [耳机选购大全：不败家！不白瞎！够用就好？](http://mp.weixin.qq.com/s?__biz=MjM5Njk4OTQwMQ==&amp;mid=401415614&amp;idx=1&amp;sn=16d3206bd1e3f502c4635b5348b151d1&amp;scene=1&amp;srcid=1207BJEB4qWQBFhX3Yq0zXH1#rd) —— 实用主义，极简主义。（好用，便携，高性价比） 
+- [耳机选购大全：不败家！不白瞎！够用就好？](http://mp.weixin.qq.com/s?__biz=MjM5Njk4OTQwMQ==&amp;mid=401415614&amp;idx=1&amp;sn=16d3206bd1e3f502c4635b5348b151d1&amp;scene=1&amp;srcid=1207BJEB4qWQBFhX3Yq0zXH1#rd) —— 实用主义，极简主义。（好用，便携，高性价比）
 
 <br/>
 
@@ -575,9 +577,9 @@ _PS: Need to screen the content of this section._
 
 - [如何系统地练字？](https://www.zhihu.com/question/20502275) —— 手写的乐趣。
 
-- [音乐的秘密](http://www.letv.com/ptv/vplay/24200614.html#vid=24200614) —— 梁欢制作的纪录片电影。
+- [音乐的秘密](http://www.letv.com/ptv/vplay/24200614.html#vid=24200614) —— 梁欢制作的纪录片电影。 <sup>__Best__</sup>
 
-- [KTV不允许带酒水和零食违法不违法？](https://www.zhihu.com/question/35814611/answer/65416013) —— 合法权益。
+- [KTV不允许带酒水和零食违法不违法？](https://www.zhihu.com/question/35814611/answer/65416013) —— 合法权益。 <sup>__Best__</sup>
 
 - [家居中有哪些设计不合理的地方？](https://www.zhihu.com/question/22827881)
 
@@ -585,11 +587,14 @@ _PS: Need to screen the content of this section._
 
 - [如何对孩子的无理要求说「不」？](https://www.zhihu.com/question/19621705)
 
-- [我是怎么找电子书的？](http://mp.weixin.qq.com/s?__biz=MzA4MjMwODUwNQ==&mid=402644191&idx=2&sn=b1cce3992ff6f10eb9e4026d621724a1&scene=1&srcid=0202z7nxM3czSEJ0TUhH5VtX#rd)
+- [我是怎么找电子书的？](http://mp.weixin.qq.com/s?__biz=MzA4MjMwODUwNQ==&mid=402644191&idx=2&sn=b1cce3992ff6f10eb9e4026d621724a1&scene=1&srcid=0202z7nxM3czSEJ0TUhH5VtX#rd) <sup>_todo_</sup>
 
 <br/>
 
 ## **Related 相关**
 
 - <i class="fa fa-list">&nbsp;</i> &nbsp;__[Index 博客目录](/index)__
+
+- The item with <sup>_todo_</sup>&nbsp; implies it has `not been read-through`.
+- … with <sup>__Best__</sup>&nbsp; implies it is `one of the best`.
 
