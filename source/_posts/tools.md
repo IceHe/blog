@@ -5,7 +5,7 @@ tags: [Mac]
 description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommended Mac Apps . &nbsp; 以及科技产品、外设、用具等。
 ---
 
-- *Updated on 2016-03-06
+- *Updated on 2016-03-10
 
 *下文斜体文本为补充描述，可略过不读。*
 
@@ -465,7 +465,7 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
 - **MacBook Pro Retina 13-inch**
 
-    i7 - 3.1 GHz / Mem 16 GB / SSD 512 GB + Magic Keyboard， Mac 是软件工程师最佳的开发平台。
+    i7 - 3.1 GHz / Mem 16 GB / SSD 512 GB + Magic Keyboard 2 + New Magic Trackpad， Mac 是软件工程师最佳的开发平台。
     *努力用好了 Windows，才能了无牵挂地换Mac。*
 
 - **iPhone6 plus**
