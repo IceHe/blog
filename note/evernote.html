@@ -1,0 +1,735 @@
+
+
+
+  <!DOCTYPE HTML>
+<html lang="default">
+<head>
+  <meta charset="UTF-8">
+  
+
+	<title>用 AppleScript 操作 Evernote / OS X | Ice He 何志远</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+	
+	<meta name="author" content="IceHe何志远">
+	
+
+	
+	<meta name="description" content="&amp;lt;!--date: 2016-03-12--&amp;gt;
+&amp;lt;!--categories: [AppleScript]--&amp;gt;
+&amp;lt;!--tags: [AppleScript]--&amp;gt;
+&amp;lt;!--description: 在 OS X 上，如何使用 AppleScript 操作 Evernote、OS X。--&amp;gt;
+
+Updated on 2016-03-11
+I supposed that you have lear">
+<meta property="og:type" content="website">
+<meta property="og:title" content="用 AppleScript 操作 Evernote / OS X">
+<meta property="og:url" content="http://icehe.me/note/evernote.html">
+<meta property="og:site_name" content="Ice He 何志远">
+<meta property="og:description" content="&amp;lt;!--date: 2016-03-12--&amp;gt;
+&amp;lt;!--categories: [AppleScript]--&amp;gt;
+&amp;lt;!--tags: [AppleScript]--&amp;gt;
+&amp;lt;!--description: 在 OS X 上，如何使用 AppleScript 操作 Evernote、OS X。--&amp;gt;
+
+Updated on 2016-03-11
+I supposed that you have lear">
+<meta property="og:updated_time" content="2016-03-10T16:24:30.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="用 AppleScript 操作 Evernote / OS X">
+<meta name="twitter:description" content="&amp;lt;!--date: 2016-03-12--&amp;gt;
+&amp;lt;!--categories: [AppleScript]--&amp;gt;
+&amp;lt;!--tags: [AppleScript]--&amp;gt;
+&amp;lt;!--description: 在 OS X 上，如何使用 AppleScript 操作 Evernote、OS X。--&amp;gt;
+
+Updated on 2016-03-11
+I supposed that you have lear">
+
+  
+  <link rel="alternative" href="/atom.xml" title="Ice He 何志远" type="application/atom+xml">
+  
+  
+  <link rel="icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon.ico">
+  
+  
+  <link rel="apple-touch-icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+  <link rel="apple-touch-icon-precomposed" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+  
+
+  <!-- <link rel="stylesheet" href="/css/style.css" type="text/css"> -->
+  <!--<link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/css/style.css" type="text/css">-->
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+  <!-- 百度站内搜索 for github站 icehe.me -->
+  <!--<meta name="baidu-site-verification" content="04tLeUMqMf" />-->
+  <!-- 百度站内搜索 for github站 icehe.github.io -->
+  <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
+
+  <!-- 谷歌站长工具 元标签验证码 -->
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
+
+  <!-- 微博开放平台 元标签验证码 -->
+  <meta property="wb:webmaster" content="84efd5956048ab8f" />
+
+  <!-- Google Fonts from 360 CDN -->
+  <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
+
+  <!-- Common CSS -->
+  <style type="text/css">
+    .center { text-align: center; }
+    .hidden { display: none; }
+    /*span.hitokoto a { color: white; } // for 一言*/
+  </style>
+
+  <!-- font-awesome -->
+  <link href="//libs.cncdn.cn/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- 一言 -->
+  <!-- <script type="text/javascript" src="http://api.hitokoto.us/rand?encode=js&charset=utf-8"></script> -->
+</head>
+
+    <body>
+      <header>
+        <script type="text/javascript">
+	// 判断现在个人站是在哪一个网址上！
+	var isOnGithub = (-1 != location.href.indexOf("icehe.me"));
+	var isOnGitcafe = (-1 != location.href.indexOf("icehe.gitcafe.io"));
+</script>
+
+
+<div>
+	
+		<div id="imglogo">
+			<a href="/">
+				<!-- <img src="/http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="Ice He 何志远" title="Ice He 何志远"/> -->
+				<img src="http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="Ice He 何志远" title="Ice He 何志远"/>
+			</a>
+		</div>
+	
+
+	<div id="textlogo">
+		<h1 class="site-name"><a href="/" title="Ice He 何志远">Ice He 何志远</a></h1>
+		<h2 class="blog-motto">Less is more  宁静致远</h2>
+	</div>
+	<div class="navbar">
+		<a class="navbutton navmobile" href="#" title="Menu"></a>
+	</div>
+	<nav class="animated">
+		<ul>
+			<ul>
+			
+				<li><a href="/">Blog 文</a></li>
+			
+				<li><a href="/index">Index 录</a></li>
+			
+				<li><a href="/about">Me 我</a></li>
+			
+				<li>
+				
+
+					<form class="search" action="/search/index.html" method="get" accept-charset="utf-8">
+					<!--<form class="search" action="" method="get" accept-charset="utf-8">-->
+						<label>Search</label>
+						<input type="search" id="search" autocomplete="on" name="q" maxlength="20" placeholder="Find" />
+					</form>
+
+				
+				</li>
+			</ul>
+		</ul>
+	</nav>
+</div>
+
+      </header>
+      <div id="container">
+        <div id="main" class="page" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name" class="article-title">
+    
+      <a href="/note/evernote.html" title="用 AppleScript 操作 Evernote / OS X" itemprop="url" class="article-url">用 AppleScript 操作 Evernote / OS X</a>
+  </h1>
+  <p class="article-readtimes">
+    Read ( <span class="readtimes">?</span> )
+  </p>
+  <p class="article-author"> By
+    
+    <a href="/about" title="IceHe何志远" target="_blank" itemprop="author">IceHe何志远</a>
+    
+  </p>
+  <p class="article-time">
+    <time datetime="2016-03-10T16:24:30.000Z" itemprop="datePublished"> Published 2016 Mar 11</time>
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">Contents</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#References"><span class="toc-number">1.</span> <span class="toc-text">References</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Evernote"><span class="toc-number">2.</span> <span class="toc-text">Evernote</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Evernote-1"><span class="toc-number">2.1.</span> <span class="toc-text">Evernote</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Notebook"><span class="toc-number">2.2.</span> <span class="toc-text">Notebook</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Note"><span class="toc-number">2.3.</span> <span class="toc-text">Note</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#OS_X"><span class="toc-number">3.</span> <span class="toc-text">OS X</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Is_application_running?"><span class="toc-number">3.1.</span> <span class="toc-text">Is application running?</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Is_network_available?"><span class="toc-number">3.2.</span> <span class="toc-text">Is network available?</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Switch_Wi-fi"><span class="toc-number">3.3.</span> <span class="toc-text">Switch Wi-fi</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Is_Bluetooth_ON?"><span class="toc-number">3.4.</span> <span class="toc-text">Is Bluetooth ON?</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Swith_Bluetooth"><span class="toc-number">3.5.</span> <span class="toc-text">Swith Bluetooth</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Input_Key_Code_/_Keystroke"><span class="toc-number">3.6.</span> <span class="toc-text">Input Key Code / Keystroke</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Eject_Disk"><span class="toc-number">3.7.</span> <span class="toc-text">Eject Disk</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Execute_Commands_in_iTerm"><span class="toc-number">3.8.</span> <span class="toc-text">Execute Commands in iTerm</span></a></li></ol></li></ol>
+		
+		</div>
+		
+		<!--date: 2016-03-12-->
+<!--categories: [AppleScript]-->
+<!--tags: [AppleScript]-->
+<!--description: 在 OS X 上，如何使用 AppleScript 操作 Evernote、OS X。-->
+<ul>
+<li><em>Updated on 2016-03-11</em></li>
+<li>I supposed that you have learned AppleScript, so I will not introduce it in detail. </li>
+<li>You can learn AppleScript in practice or my <a href="/applescript/applescript/">AppleScript Quick Start 快速入门</a>.</li>
+</ul>
+<h2 id="References"><strong>References</strong></h2><ul>
+<li><a href="/applescript/applescript/">AppleScript Quick Start 快速入门</a> —— My Blog Article</li>
+<li><a href="https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html" target="_blank" rel="external">AppleScript Fundamentals</a> —— Apple Official Docs</li>
+<li><a href="https://dev.evernote.com/doc/articles/applescript.php" target="_blank" rel="external">Mac Wrangle Evernote with AppleScript</a> / <a href="https://dev.yinxiang.com/doc/articles/applescript.php" target="_blank" rel="external">通过 AppleScript 连接印象笔记</a> —— Evernote Official Docs</li>
+<li><a href="https://dev.evernote.com/doc/articles/search_grammar.php" target="_blank" rel="external">Evernote Search Grammar</a> / <a href="https://dev.yinxiang.com/doc/articles/search_grammar.php" target="_blank" rel="external">搜索语法</a> —— How to Search Notes</li>
+<li><p><strong>App’s AppleScript Dictionary :</strong> Open App <code>Script Editor</code> → &nbsp;Enter <code>⌘ ⇧ o</code> → &nbsp;Choose <code>app_name.app</code> (if it supports AppleScript)</p>
+<p>  <strong>Evernote Dictionary :</strong> … → Choose <code>Evernote.app</code></p>
+</li>
+<li><p>My Github Repos:</p>
+<ol>
+<li><a href="https://github.com/IceHe/AppleScript_for_Evernote" target="_blank" rel="external">AppleScript_for_Evernote</a></li>
+<li><a href="https://github.com/IceHe/AppleScript_for_me" target="_blank" rel="external">AppleScript_for_me</a></li>
+</ol>
+</li>
+</ul>
+<p><br></p>
+<h2 id="Evernote"><strong>Evernote</strong></h2><p>I just list the code that I use most frequently.</p>
+<p>If you want further use of manipulating Evernote by AppleScript, you can read the official documentations from <a href="/applescript/evernote/#References">Apple and Evernote</a> and use other programming language to cooperate with AppleScript.</p>
+<p>There is only some sample code, so it cannot run successfully in this order.<br>But you can learn how to manipulate Evernote with AppleScript from it.<br><br></p>
+<h3 id="Evernote-1"><strong>Evernote</strong></h3><ul>
+<li>Launch, Sync, Wait, Quit</li>
+</ul>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- Launch Evernote</span></span><br><span class="line"><span class="keyword">tell</span> <span class="type">application</span> <span class="string">"Evernote"</span> <span class="keyword">to</span> <span class="command">launch</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- Quit Evernote</span></span><br><span class="line"><span class="keyword">tell</span> <span class="type">application</span> <span class="string">"Evernote"</span> <span class="keyword">to</span> quit</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Wait for Synchronizing</span></span><br><span class="line"><span class="keyword">if</span> <span class="type">application</span> <span class="string">"Evernote"</span> <span class="keyword">is</span> <span class="property">running</span> <span class="keyword">then</span></span><br><span class="line">    <span class="keyword">tell</span> <span class="type">application</span> <span class="string">"Evernote"</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">-- Synchronize Evernote</span></span><br><span class="line">        synchronize</span><br><span class="line"></span><br><span class="line">        <span class="keyword">repeat</span> <span class="keyword">with</span> i <span class="keyword">from</span> <span class="number">0</span> <span class="keyword">to</span> <span class="number">300</span></span><br><span class="line"></span><br><span class="line">            <span class="comment">-- Is Evernote synchronizing or not?</span></span><br><span class="line">            <span class="keyword">if</span> <span class="keyword">not</span> isSynchronizing <span class="keyword">then</span></span><br><span class="line"><span class="command">                return</span> i</span><br><span class="line">            <span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line"></span><br><span class="line">            <span class="command">delay</span> <span class="number">0.01</span></span><br><span class="line">        <span class="keyword">end</span> <span class="keyword">repeat</span></span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line"><span class="keyword">end</span> <span class="keyword">if</span></span><br></pre></td></tr></table></figure>
+<p><br></p>
+<h3 id="Notebook"><strong>Notebook</strong></h3><ul>
+<li>Exist, Create, Rename, Delete</li>
+</ul>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">tell</span> <span class="type">application</span> <span class="string">"Evernote"</span></span><br><span class="line">    <span class="keyword">set</span> notebook_name <span class="keyword">to</span> <span class="string">"nb_1"</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">-- Get Notebook</span></span><br><span class="line">    notebook notebook_name</span><br><span class="line">    <span class="comment">-- The above is usually equal to the below.</span></span><br><span class="line">    notebook named notebook_name</span><br><span class="line">    <span class="comment">-- But it's more clear when the keyword `notebook` with `named`.</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">-- Notebook exists or not?</span></span><br><span class="line">    notebook named notebook_name exists</span><br><span class="line"></span><br><span class="line">    <span class="comment">-- Create Notebook</span></span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> (notebook named notebook_name) exists <span class="keyword">then</span></span><br><span class="line">        create notebook notebook_name</span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">-- Rename Notebook</span></span><br><span class="line">    <span class="keyword">set</span> new_notebook_name <span class="keyword">to</span> <span class="string">"nb_2"</span></span><br><span class="line">    <span class="keyword">if</span> ((exists (notebook named notebook_name)) <span class="keyword">and</span> <span class="keyword">not</span> (exists (notebook named new_notebook_name))) <span class="keyword">then</span></span><br><span class="line">        <span class="keyword">set</span> <span class="property">name</span> <span class="keyword">of</span> (notebook named notebook_name) <span class="keyword">to</span> new_notebook_name</span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">-- Delete notebook</span></span><br><span class="line">    <span class="keyword">if</span> (notebook named notebook_name) exists <span class="keyword">then</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">-- Need confirmation</span></span><br><span class="line">        <span class="keyword">set</span> dialogReply <span class="keyword">to</span> <span class="command">display alert</span> ¬</span><br><span class="line">            <span class="string">"Warning!"</span> message (<span class="string">"Notebook named &#123;"</span> &amp; notebook_name &amp; <span class="string">"&#125;"</span>) ¬</span><br><span class="line">            <span class="keyword">as</span> warning ¬</span><br><span class="line">            buttons &#123;<span class="string">"Cancel"</span>, <span class="string">"Delete"</span>&#125; ¬</span><br><span class="line">            default button <span class="number">1</span> ¬</span><br><span class="line">            giving up <span class="keyword">after</span> <span class="number">9</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">-- Get the Result of the Dialog</span></span><br><span class="line">        <span class="keyword">if</span> <span class="string">"Delete"</span> = (button returned <span class="keyword">of</span> <span class="constant">result</span>) <span class="keyword">then</span></span><br><span class="line">        </span><br><span class="line">            <span class="comment">-- Delete notebook</span></span><br><span class="line">            delete (notebook named notebook_name)</span><br><span class="line">            </span><br><span class="line">        <span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">end</span> <span class="keyword">tell</span></span><br></pre></td></tr></table></figure>
+<p><br></p>
+<h3 id="Note"><strong>Note</strong></h3><ul>
+<li>Exist, Find, Create, Import, Export, Read, Rename, Delete</li>
+</ul>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">set</span> notebook_name <span class="keyword">to</span> <span class="string">"nb_1"</span></span><br><span class="line"><span class="keyword">set</span> enex_path <span class="keyword">to</span> <span class="string">"path_1"</span> <span class="comment"># as Unix dir path</span></span><br><span class="line"><span class="keyword">if</span> (notebook named notebook_name) exists <span class="keyword">then</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">-- Import Note</span></span><br><span class="line">    import (enex_path <span class="keyword">as</span> <span class="type">POSIX file</span>) <span class="keyword">to</span> notebook_name </span><br><span class="line">    </span><br><span class="line"><span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- Find Notes (by a search expression)</span></span><br><span class="line"><span class="comment">-- `find notes "search_expr"` returns a list that contains one or more notes.</span></span><br><span class="line"><span class="keyword">set</span> note_found <span class="keyword">to</span> find notes <span class="string">"intitle:\""</span> &amp; note_name &amp; <span class="string">"\""</span></span><br><span class="line"><span class="comment">-- Search Grammar: https://dev.evernote.com/doc/articles/search_grammar.php</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- Make sure that only one note specified by the search expression was found.</span></span><br><span class="line"><span class="comment">-- Just manipulate the specified one for avoiding misoperations.</span></span><br><span class="line"><span class="keyword">if</span> (<span class="command">count</span> <span class="keyword">of</span> note_found) = <span class="number">1</span> <span class="keyword">then</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">-- Read Note (as HTML)</span></span><br><span class="line">    <span class="keyword">set</span> html_cont <span class="keyword">to</span> HTML content <span class="keyword">of</span> (<span class="property">item</span> <span class="number">1</span> <span class="keyword">of</span> note_found)</span><br><span class="line">    </span><br><span class="line">    <span class="comment">-- Append Note (with plain text)</span></span><br><span class="line">    append (<span class="property">item</span> <span class="number">1</span> <span class="keyword">of</span> note_found) <span class="type">text</span> text_append</span><br><span class="line">    </span><br><span class="line">    <span class="comment">-- Export Note (as HTML)</span></span><br><span class="line">    <span class="keyword">set</span> html_path <span class="keyword">to</span> <span class="string">"html_path"</span></span><br><span class="line">    export note_found <span class="keyword">to</span> (<span class="type">POSIX file</span> html_path) format HTML</span><br><span class="line">    </span><br><span class="line">    <span class="comment">-- Export Note (as ENEX)</span></span><br><span class="line">    export note_found <span class="keyword">to</span> (<span class="type">POSIX file</span> enex_path)</span><br><span class="line">    </span><br><span class="line">    <span class="comment">-- Delete Note</span></span><br><span class="line">    delete <span class="property">item</span> <span class="number">1</span> <span class="keyword">of</span> note_found</span><br><span class="line">    </span><br><span class="line"><span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">set</span> new_note_name <span class="keyword">to</span> <span class="string">"note_b"</span></span><br><span class="line"><span class="keyword">set</span> note_found <span class="keyword">to</span> find notes <span class="string">"intitle:\""</span> &amp; note_name &amp; <span class="string">"\""</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (note_name ≠ new_note_name) <span class="keyword">and</span> (<span class="command">count</span> <span class="keyword">of</span> note_found) = <span class="number">1</span> <span class="keyword">then</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">-- Rename Note</span></span><br><span class="line">    <span class="keyword">set</span> title <span class="keyword">of</span> <span class="property">item</span> <span class="number">1</span> <span class="keyword">of</span> note_found <span class="keyword">to</span> new_note_name</span><br><span class="line">    </span><br><span class="line"><span class="keyword">end</span> <span class="keyword">if</span></span><br></pre></td></tr></table></figure>
+<p><br></p>
+<ul>
+<li>Simplify Formating</li>
+</ul>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">tell</span> <span class="type">application</span> <span class="string">"Evernote"</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">set</span> t_note <span class="keyword">to</span> (find notes (<span class="string">"intitle:\""</span> &amp; note_name &amp; <span class="string">"\""</span>))</span><br><span class="line">    <span class="keyword">set</span> t_note <span class="keyword">to</span> <span class="property">item</span> <span class="number">1</span> <span class="keyword">of</span> t_note</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">set</span> note_win <span class="keyword">to</span> open note window <span class="keyword">with</span> t_note</span><br><span class="line">    </span><br><span class="line">    <span class="comment">-- Wait for OS to react</span></span><br><span class="line">    <span class="command">delay</span> <span class="number">0.2</span></span><br><span class="line">    </span><br><span class="line">    <span class="command">activate</span> note_win</span><br><span class="line">    </span><br><span class="line">    <span class="comment">-- Use "System Events" to imitate user's manipulation</span></span><br><span class="line">    <span class="keyword">tell</span> <span class="type">application</span> <span class="string">"System Events"</span> </span><br><span class="line">    </span><br><span class="line">        <span class="comment">-- Put Cursor into Text Editor</span></span><br><span class="line">        key code <span class="number">48</span></span><br><span class="line">        <span class="command">delay</span> <span class="number">0.1</span></span><br><span class="line">        key code <span class="number">48</span></span><br><span class="line">        <span class="command">delay</span> <span class="number">0.1</span></span><br><span class="line">        </span><br><span class="line">        <span class="comment">-- Select All</span></span><br><span class="line">        keystroke <span class="string">"a"</span> using command down</span><br><span class="line">        <span class="command">delay</span> <span class="number">0.2</span></span><br><span class="line">        </span><br><span class="line">        <span class="comment">-- Simplify Formatting</span></span><br><span class="line">        keystroke <span class="string">"f"</span> using &#123;command down, shift down&#125;</span><br><span class="line">        <span class="command">delay</span> <span class="number">0.4</span></span><br><span class="line">        </span><br><span class="line">        <span class="comment">-- Save</span></span><br><span class="line">        keystroke <span class="string">"s"</span> using command down</span><br><span class="line">        <span class="command">delay</span> <span class="number">0.8</span></span><br><span class="line">        </span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line">    </span><br><span class="line">    close note_win</span><br><span class="line">    </span><br><span class="line"><span class="keyword">end</span> <span class="keyword">tell</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>Write Note content to Clipboard</li>
+</ul>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">tell</span> <span class="type">application</span> <span class="string">"Evernote"</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">set</span> t_note <span class="keyword">to</span> (find notes (<span class="string">"intitle:\""</span> &amp; note_name &amp; <span class="string">"\""</span>))</span><br><span class="line">    <span class="keyword">set</span> t_note <span class="keyword">to</span> <span class="property">item</span> <span class="number">1</span> <span class="keyword">of</span> t_note</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">set</span> note_win <span class="keyword">to</span> open note window <span class="keyword">with</span> t_note</span><br><span class="line">    <span class="command">activate</span> note_win</span><br><span class="line">    </span><br><span class="line"><span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- Use "System Events" to imitate user's manipulation</span></span><br><span class="line"><span class="keyword">tell</span> <span class="type">application</span> <span class="string">"System Events"</span></span><br><span class="line">    <span class="command">delay</span> <span class="number">0.1</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">-- Put Cursor into Text Editor</span></span><br><span class="line">    key code <span class="number">48</span></span><br><span class="line">    <span class="command">delay</span> <span class="number">0.1</span></span><br><span class="line">    key code <span class="number">48</span></span><br><span class="line">    <span class="command">delay</span> <span class="number">0.1</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">-- Select All</span></span><br><span class="line">    keystroke <span class="string">"a"</span> using command down</span><br><span class="line">    <span class="command">delay</span> <span class="number">0.2</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">-- Copy Text to the Clipment</span></span><br><span class="line">    keystroke <span class="string">"c"</span> using command down</span><br><span class="line">    <span class="command">delay</span> <span class="number">0.2</span></span><br><span class="line">    </span><br><span class="line"><span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">tell</span> <span class="type">application</span> <span class="string">"Evernote"</span></span><br><span class="line">    close note_win</span><br><span class="line"><span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line"><span class="command"></span><br><span class="line">return</span> <span class="command">the clipboard</span></span><br></pre></td></tr></table></figure>
+<p><br></p>
+<h2 id="OS_X"><strong>OS X</strong></h2><p>If your Mac does not have some commands as mentioned below, you can install them through <code>Homebrew</code>.</p>
+<h3 id="Is_application_running?">Is application running?</h3><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">set</span> app_name <span class="keyword">to</span> <span class="string">"app_1"</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">tell</span> <span class="type">application</span> <span class="string">"System Events"</span></span><br><span class="line"><span class="command">    return</span> (<span class="property">name</span> <span class="keyword">of</span> processes) <span class="keyword">contains</span> app_name</span><br><span class="line"><span class="keyword">end</span> <span class="keyword">tell</span></span><br></pre></td></tr></table></figure>
+<h3 id="Is_network_available?">Is network available?</h3><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">repeat</span> <span class="keyword">with</span> i <span class="keyword">from</span> <span class="number">1</span> <span class="keyword">to</span> <span class="number">5</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">try</span></span><br><span class="line"></span><br><span class="line">        <span class="command">do shell script</span> <span class="string">"ping -o baidu.com"</span></span><br><span class="line">        <span class="keyword">exit</span> <span class="keyword">repeat</span></span><br><span class="line">        </span><br><span class="line">    <span class="function_start"><span class="keyword">on</span></span> <span class="keyword">error</span></span><br><span class="line">    </span><br><span class="line">        <span class="command">delay</span> <span class="number">0.3</span></span><br><span class="line">        <span class="keyword">if</span> i = <span class="number">5</span> <span class="keyword">then</span> <span class="constant">return</span> <span class="constant">false</span></span><br><span class="line">        </span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">try</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">end</span> <span class="keyword">repeat</span></span><br><span class="line"><span class="command"></span><br><span class="line">return</span> <span class="constant">true</span></span><br></pre></td></tr></table></figure>
+<h3 id="Switch_Wi-fi">Switch Wi-fi</h3><p>You need to show Wi-Fi status in menu bar:<br><code>System Preferences</code> → <code>Network</code> → Check <code>Show Wi-Fi status in menu bar</code>.</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">set</span> flag <span class="keyword">to</span> <span class="constant">true</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">tell</span> <span class="type">application</span> <span class="string">"System Events"</span> <span class="keyword">to</span> <span class="keyword">tell</span> process <span class="string">"SystemUIServer"</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">set</span> wifi_menu <span class="keyword">to</span> (<span class="keyword">first</span> menu bar <span class="property">item</span> <span class="keyword">whose</span> description <span class="keyword">contains</span> <span class="string">"Wi-Fi"</span>) <span class="keyword">of</span> menu bar <span class="number">1</span></span><br><span class="line">    <span class="keyword">try</span></span><br><span class="line">        <span class="keyword">if</span> flag = <span class="constant">true</span> <span class="keyword">then</span></span><br><span class="line">        </span><br><span class="line">            <span class="keyword">if</span> description <span class="keyword">of</span> wifi_menu <span class="keyword">contains</span> <span class="string">"not enabled"</span> <span class="keyword">then</span></span><br><span class="line">                <span class="command">do shell script</span> <span class="string">"networksetup -setairportpower en0 on"</span></span><br><span class="line">            <span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line">            </span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span> flag = <span class="constant">false</span> <span class="keyword">then</span></span><br><span class="line">        </span><br><span class="line">            <span class="keyword">if</span> <span class="keyword">not</span> (description <span class="keyword">of</span> wifi_menu <span class="keyword">contains</span> <span class="string">"not enabled"</span>) <span class="keyword">then</span></span><br><span class="line">                <span class="command">do shell script</span> <span class="string">"networksetup -setairportpower en0 off"</span></span><br><span class="line">            <span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line">            </span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line"><span class="command">            return</span> <span class="string">"error"</span></span><br><span class="line">        <span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">try</span></span><br><span class="line">    </span><br><span class="line"><span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line"><span class="command"></span><br><span class="line">return</span> <span class="constant">true</span></span><br></pre></td></tr></table></figure>
+<h3 id="Is_Bluetooth_ON?">Is Bluetooth ON?</h3><p>You need to install the command <code>blueutil</code> (through <code>Homebrew</code>).</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">set</span> is_bluetooth_on <span class="keyword">to</span> <span class="command">do shell script</span> <span class="string">"/usr/local/bin/blueutil power"</span></span><br><span class="line"><span class="command"></span><br><span class="line">return</span> (<span class="string">"1"</span> = is_bluetooth_on)</span><br></pre></td></tr></table></figure>
+<h3 id="Swith_Bluetooth">Swith Bluetooth</h3><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">set</span> flag <span class="keyword">to</span> <span class="constant">true</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">tell</span> <span class="type">application</span> <span class="string">"System Preferences"</span></span><br><span class="line">    reveal pane <span class="property">id</span> <span class="string">"com.apple.preferences.Bluetooth"</span></span><br><span class="line">    <span class="command">delay</span> <span class="number">0.1</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">tell</span> <span class="type">application</span> <span class="string">"System Events"</span> <span class="keyword">to</span> <span class="keyword">tell</span> process <span class="string">"System Preferences"</span></span><br><span class="line">        <span class="keyword">set</span> bluetooth_switch <span class="keyword">to</span> button <span class="number">3</span> <span class="keyword">of</span> window <span class="number">1</span></span><br><span class="line">        </span><br><span class="line">        <span class="keyword">if</span> flag = <span class="constant">true</span> <span class="keyword">then</span></span><br><span class="line">            <span class="keyword">if</span> <span class="string">"Turn Bluetooth Off"</span> ≠ <span class="property">name</span> <span class="keyword">of</span> bluetooth_switch <span class="keyword">then</span></span><br><span class="line">                click bluetooth_switch</span><br><span class="line">            <span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line">            </span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span> flag = <span class="constant">false</span> <span class="keyword">then</span></span><br><span class="line">            <span class="keyword">if</span> <span class="string">"Turn Bluetooth Off"</span> = <span class="property">name</span> <span class="keyword">of</span> bluetooth_switch <span class="keyword">then</span></span><br><span class="line">                click bluetooth_switch</span><br><span class="line">            <span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line">            </span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line"><span class="command">            return</span> <span class="string">"error"</span></span><br><span class="line">        <span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line">        </span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line">    <span class="command">delay</span> <span class="number">0.1</span></span><br><span class="line">    quit</span><br><span class="line">    </span><br><span class="line"><span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line"><span class="command"></span><br><span class="line">return</span> <span class="constant">true</span></span><br></pre></td></tr></table></figure>
+<h3 id="Input_Key_Code_/_Keystroke">Input Key Code / Keystroke</h3><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">set</span> app_name <span class="keyword">to</span> <span class="string">"app_1"</span></span><br><span class="line"><span class="keyword">set</span> key_code <span class="keyword">to</span> <span class="string">"key_1"</span></span><br><span class="line"><span class="keyword">set</span> using_btn <span class="keyword">to</span> <span class="string">"btn_1"</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">tell</span> <span class="type">application</span> <span class="string">"System Events"</span> <span class="keyword">to</span> <span class="keyword">tell</span> process app_name</span><br><span class="line">    </span><br><span class="line">    <span class="command">delay</span> <span class="number">0.3</span> <span class="comment"># we have to wait for a while to make keystroke successful</span></span><br><span class="line">    key code key_code using using_btn</span><br><span class="line">    </span><br><span class="line"><span class="keyword">end</span> <span class="keyword">tell</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">set</span> app_name <span class="keyword">to</span> <span class="string">"app_1"</span></span><br><span class="line"><span class="keyword">set</span> key_char <span class="keyword">to</span> <span class="string">"key_1"</span></span><br><span class="line"><span class="keyword">set</span> using_btn <span class="keyword">to</span> <span class="string">"btn_1"</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">tell</span> <span class="type">application</span> <span class="string">"System Events"</span> <span class="keyword">to</span> <span class="keyword">tell</span> process app_name</span><br><span class="line">    </span><br><span class="line">    <span class="command">delay</span> <span class="number">0.3</span> <span class="comment"># we have to wait for a while to make keystroke successful</span></span><br><span class="line">    keystroke key_char using using_btn</span><br><span class="line">    </span><br><span class="line"><span class="keyword">end</span> <span class="keyword">tell</span></span><br></pre></td></tr></table></figure>
+<h3 id="Eject_Disk">Eject Disk</h3><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">tell</span> <span class="type">application</span> <span class="string">"Finder"</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">-- Specify a disk to eject</span></span><br><span class="line">    <span class="keyword">set</span> diskName <span class="keyword">to</span> <span class="string">"IceHe_OSX_Bak"</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">-- Check disk existence</span></span><br><span class="line">    <span class="keyword">try</span></span><br><span class="line">        disk diskName</span><br><span class="line">    <span class="function_start"><span class="keyword">on</span></span> <span class="keyword">error</span></span><br><span class="line">        <span class="command">display alert</span> (<span class="string">"Disk '"</span> &amp; diskName &amp; <span class="string">"' does Not Exist!"</span>)</span><br><span class="line"><span class="command">        return</span></span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">try</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">-- Eject specified one</span></span><br><span class="line">    eject disk diskName</span><br><span class="line">    </span><br><span class="line">    <span class="comment">-- Check &amp; display operation result</span></span><br><span class="line">    <span class="keyword">try</span></span><br><span class="line">        disk diskName</span><br><span class="line">        <span class="command">display alert</span> <span class="string">"FAIL to eject disk '"</span> &amp; diskName &amp; <span class="string">"'!"</span></span><br><span class="line">    <span class="function_start"><span class="keyword">on</span></span> <span class="keyword">error</span></span><br><span class="line">        <span class="command">display alert</span> <span class="string">"SUC to eject disk '"</span> &amp; diskName &amp; <span class="string">"'!"</span></span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">try</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">-- Eject all disks</span></span><br><span class="line">    eject <span class="keyword">the</span> disks</span><br><span class="line">    <span class="command">display dialog</span> <span class="string">"Successfully ejected disks."</span> buttons &#123;<span class="string">"Close"</span>&#125; default button <span class="string">"Close"</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">end</span> <span class="keyword">tell</span></span><br></pre></td></tr></table></figure>
+<h3 id="Execute_Commands_in_iTerm">Execute Commands in iTerm</h3><p>The version of iTerm is beta 3.0.</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">set</span> cmds <span class="keyword">to</span> &#123;<span class="string">"cmd_1"</span>, <span class="string">"cmd_2"</span>, <span class="string">"cmd_3"</span>&#125; </span><br><span class="line"></span><br><span class="line"><span class="keyword">set</span> isOpenAlready <span class="keyword">to</span> <span class="type">application</span> <span class="string">"iTerm"</span> <span class="keyword">is</span> <span class="property">running</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 启动终端，然后执行命令行	</span></span><br><span class="line"><span class="keyword">tell</span> <span class="type">application</span> <span class="string">"iTerm"</span></span><br><span class="line">    </span><br><span class="line">    <span class="command">activate</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># OS X 下有可能：iTerm 在脚本执行前已经运行，但还没窗口</span></span><br><span class="line">    <span class="keyword">set</span> without_win <span class="keyword">to</span> <span class="number">0</span> = (<span class="command">count</span> <span class="keyword">of</span> windows)</span><br><span class="line">    <span class="keyword">if</span> without_win <span class="keyword">then</span></span><br><span class="line">        create window <span class="keyword">with</span> default profile</span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    <span class="keyword">tell</span> current window</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># iTerm 在脚本执行前已经运行，且也有窗口时，</span></span><br><span class="line">        <span class="comment"># 新建一个 tab，避免影响其它 tab 的作业状态。</span></span><br><span class="line">        <span class="keyword">if</span> isOpenAlready <span class="keyword">and</span> <span class="keyword">not</span> without_win <span class="keyword">then</span></span><br><span class="line">            create <span class="constant">tab</span> <span class="keyword">with</span> default profile</span><br><span class="line">        <span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line">        </span><br><span class="line">        <span class="keyword">tell</span> current session</span><br><span class="line">            <span class="keyword">repeat</span> <span class="keyword">with</span> cmd <span class="keyword">in</span> cmds</span><br><span class="line">                <span class="command">write</span> <span class="type">text</span> cmd</span><br><span class="line">            <span class="keyword">end</span> <span class="keyword">repeat</span></span><br><span class="line">        <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line">        </span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line">    </span><br><span class="line"><span class="keyword">end</span> <span class="keyword">tell</span></span><br></pre></td></tr></table></figure>
+<p><br></p>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://icehe.me/note/evernote.html" data-title="用 AppleScript 操作 Evernote / OS X | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+   	       
+	</article>
+	
+	<section id="comments" class="comment"></section>
+
+
+<!-- Duoshuo Show UA -->
+<!--<link href="https://raw.githubusercontent.com/easunlee/make_duoshuo_show_ua/master/src/show.ua.css" rel="stylesheet">-->
+<!--<script type="text/javascript" async="" src="http://faisalman.github.io/ua-parser-js/src/ua-parser.js" charset="UTF-8"></script>-->
+
+
+<script type="text/javascript">
+
+
+var duoshuoQuery = {short_name:"icehe"};
+(function() {
+	var ds = document.createElement('script');
+	ds.type = 'text/javascript';ds.async = true;
+	ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+	ds.charset = 'UTF-8';
+	(document.getElementsByTagName('head')[0]
+	|| document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+
+
+
+
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="note/evernote.html" data-title="用 AppleScript 操作 Evernote / OS X" data-url="http://icehe.me/note/evernote.html"></div>'
+//	+ '<hr/>'
+//	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
+//	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
+//	+ '</div>';
+
+//function loadDisqus(){
+//	var disqus_shortname = 'icehe';
+//
+//	(function(){
+//		var dsq = document.createElement('script');
+//		dsq.type = 'text/javascript';
+//		dsq.async = true;
+//		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+//		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+//	}());
+//
+//	(function(){
+//		var dsq = document.createElement('script');
+//		dsq.type = 'text/javascript';
+//		dsq.async = true;
+//		dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+//		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+//	}());
+
+//	document.getElementById('disqus_div').innerHTML = '<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>';
+//}
+
+</script>
+
+</div>  
+      </div>
+      <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<div class="social-font" class="clearfix">
+		
+		<a href="https://github.com/IceHe" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		<a href="http://weibo.com/icedes" target="_blank" class="icon-weibo" title="微博"></a>
+		
+		
+		
+		
+		
+		
+		
+		<a href="https://www.douban.com/people/IceHeGZ" target="_blank" class="icon-douban" title="豆瓣"></a>
+		
+		
+		
+		
+		<a href="mailto:x@icehe.me" target="_blank" class="icon-email" title="Email Me"></a>
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2016 
+		
+		<a href="/about" target="_blank" title="IceHe何志远">IceHe何志远</a>
+		
+		
+		</p>
+</div>
+</footer>
+      <!--<script src="/js/jquery-2.0.3.min.js"></script>-->
+<script id="jQueryLink" src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript">
+  window.jQuery || document.write('<script src="/js/jquery-2.0.3.min.js"><\/script>');
+</script>
+
+<!--<script src="/js/jquery.imagesloaded.min.js"></script>-->
+<!--<script src="/js/gallery.js"></script>-->
+<!--<script src="/js/jquery.qrcode-0.12.0.min.js"></script>-->
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.imagesloaded.min.js"></script>
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/gallery.js"></script>
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.qrcode-0.12.0.min.js"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize();
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+    }
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+//      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var title = '《 ' + $('.article-url').attr('title') + ' 》@IceHe何志远 的技术博客『 '
+          + document.getElementsByName('description')[0].content + '』';
+  var weibo_share_url = 'http://service.weibo.com/share/share.php?type=button&searchPic=true&style=full&title=' + title + '&url=' + encodedUrl + '&pic=http%3A%2F%2F7vzp68.com1.z0.glb.clouddn.com%2Fabout%2Favatar_03a.jpg&appkey=' + tsina;
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="javascript:;" class="article-share-weibo" title="微博" onclick="window.open(\'' + weibo_share_url + '\', \'_blank\', \'width=615,height=505\')"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});
+</script>
+
+
+
+
+<!--<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">-->
+<!--<script src="/fancybox/jquery.fancybox.pack.js"></script>-->
+<link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+<div style="display: none;">
+	<script type="text/javascript">
+	
+		if(isOnGithub){
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-60837823-1', 'auto');  
+			ga('send', 'pageview');
+		}
+	
+
+	
+		if(isOnGitcafe){
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-60837823-2', 'auto');  
+			ga('send', 'pageview');
+		}
+	
+
+	
+		if(isOnGithub){
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		}
+	
+
+	
+		if(isOnGitcafe){
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?68e951d2eed2725bdd8cf4b1900d632f";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		}
+	
+	
+	</script>
+</div>
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+<div id="totop">
+	<!-- <a title="Back to Top"><img src="/img/scrollup.png"/></a> -->
+	<a title="Back to Top"><img src="//7vzp68.com1.z0.glb.clouddn.com/common/scrollup.png"/></a>
+</div>
+<!--<script src="/js/totop.js"></script>-->
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Lean Cloud Begin -->
+<script src="https://leancloud.cn/scripts/lib/av-0.5.0.min.js"></script>
+<script type="text/javascript">
+  AV.initialize("u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5");
+  // 初始化 param1：应用 id、param2：应用 key
+
+  function addCount (Counter) {
+    url = $('.article-url').attr('href').trim();
+    title = $('.article-title').text().trim();
+    var query = new AV.Query(Counter);
+    //use url as unique idnetfication
+    query.equalTo("url",url);
+    query.find({
+      success: function(results){
+        if(results.length>0){
+          var counter = results[0];
+          counter.fetchWhenSave(true); //get recent result
+          counter.increment("time");
+          counter.save();
+        }else{
+          var newcounter = new Counter();
+          newcounter.set("title", title);
+          newcounter.set("url", url);
+          newcounter.set("time", 1);
+          newcounter.save(null, {
+            success: function(newcounter){
+              //alert('New object created');
+            },
+            error: function(newcounter,error){
+              //alert('Failed to create');
+            }
+          });
+        }
+      },
+      error: function(error){
+        // find null is not a error
+        //alert('Error:' + error.code + " " + error.message);
+      }
+    });
+  }
+
+  $(function(){
+    var Counter = AV.Object.extend("Counter");
+    // only increse visit counting when intering a page
+    if((isOnGithub || isOnGitcafe) && $('.article-title').length == 1) {
+      addCount(Counter);
+    }
+
+    // if popularlist widget exists, add item to it.
+    var popular_list = $('.popularlist');
+    if(1 == popular_list.length){
+      var query = new AV.Query(Counter);
+      query.descending("time");
+      query.limit(15);
+      query.find({
+        success: function(results){
+          for(var i = 0; i < results.length; ++i){
+            var counter = results[i];
+            title = counter.get("title");
+            url = counter.get("url");
+            time = counter.get("time");
+
+            $('#popularlist_ul').append('<li><a href="'
+                    + url + '" name="'
+                    + title + '">'
+                    + (1 == ((i + 1) % 5)
+                            ? ('<b>' + (i + 1) + ' </b>') : '')
+                    + '<sup>'
+                    + time + ' </sup> &nbsp;'
+                    + title
+                    + '</a></li>'
+            );
+          }
+        },
+        error: function(error){
+          //alert("Error:" + error.code + " " + error.message);
+        }
+      });
+    }
+
+    // if cur page is a post, set the post pageview.
+    var article_info = $(".article-info");
+    if(1 == article_info.length){
+      var query = new AV.Query(Counter);
+      query.equalTo("url", article_info.find(".article-title a").attr("href"));
+      query.limit(1);
+      query.find({
+        success: function(results){
+          if(1 == results.length){
+            var counter = results[0];
+            title = counter.get("title");
+            url = counter.get("url");
+            time = counter.get("time");
+
+            article_info.find(".article-readtimes .readtimes").text(time);
+          }
+        },
+        error: function(error){
+          article_info.find(".article-readtimes .readtimes").text("?");
+          //alert("Error:" + error.code + " " + error.message);
+        }
+      });
+    }
+
+    // if cur page is Home, set the post_list pageviews.
+    var post_list = $("#main[class!=post]");
+    if(0 != post_list.length){
+      var post_items = post_list.find(".post a");
+      for(var i = 0; i < post_items.length; ++i){
+        var url = post_items.eq(i).attr("href");
+        query.equalTo("url", url);
+        query.limit(1);
+        query.find({
+          success: function(results){
+            if(1 == results.length){
+              var counter = results[0];
+              title = counter.get("title");
+              url = counter.get("url");
+              time = counter.get("time");
+
+              $(".post a[href='" + url + "']").find('.readtimes').text(time);
+            }
+          },
+          error: function(error){
+            //alert("Error:" + error.code + " " + error.message);
+          }
+        });
+      }
+    }
+  });
+
+  <!-- 百度 自动推送网页索引工具代码 -->
+  (function(){
+    var bp = document.createElement('script');
+    bp.src = '//push.zhanzhang.baidu.com/push.js';
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+
+</script>
+<!-- Lean Cloud End -->
+
+
+<!-- 不蒜子 网站计数 -->
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+<!-- 自动点击喜欢 -->
+<script type="text/javascript">
+  $(window).load(function() {
+    var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
+    if (1 == ds_like_button.length
+            && "none" != document.getElementsByClassName('ds-meta')[0].style.display
+            && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
+    ) {
+      ds_like_button[0].click();
+      document.getElementsByClassName('ds-like-tooltip-close')[0].click();
+      window.location.href = '#';
+    }
+  });
+</script>
+
+    </body>
+  </html>
+
+

@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Less is more  宁静致远]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://icehe.me/"/>
-  <updated>2016-03-08T02:41:32.000Z</updated>
+  <updated>2016-03-10T16:23:45.000Z</updated>
   <id>http://icehe.me/</id>
   
   <author>
@@ -15,11 +15,69 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[AppleScript Quick Start 快速入门]]></title>
+    <link href="http://icehe.me/applescript/applescript/"/>
+    <id>http://icehe.me/applescript/applescript/</id>
+    <published>2016-03-09T16:00:00.000Z</published>
+    <updated>2016-03-10T16:23:45.000Z</updated>
+    <content type="html"><![CDATA[<ul>
+<li><em>Updated on 2016-03-11</em></li>
+</ul>
+<h1 id="References"><strong>References</strong></h1><ul>
+<li><p><a href="https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html" target="_blank" rel="external">AppleScript Fundamentals</a> —— Apple Official Docs</p>
+</li>
+<li><p><strong>App’s AppleScript Dictionary :</strong></p>
+<p>  Open App <code>Script Editor</code> → &nbsp;Enter <code>⌘ ⇧ o</code> → &nbsp;Choose <code>app_name.app</code> (if it supports AppleScript)</p>
+</li>
+<li><p>My Github Repos:</p>
+<ol>
+<li><a href="https://github.com/IceHe/AppleScript_for_Evernote" target="_blank" rel="external">AppleScript_for_Evernote</a></li>
+<li><a href="https://github.com/IceHe/AppleScript_for_me" target="_blank" rel="external">AppleScript_for_me</a></li>
+</ol>
+</li>
+</ul>
+<p><br></p>
+<h1 id="Fundamentals"><strong>Fundamentals</strong></h1><ul>
+<li>Export <code>*.scpt</code> as a runable Application（导出为可运行程序）:<br>  Menu Bar <code>File</code> → <code>Export</code> → Choose Format <code>Application</code> → Click <code>Save</code></li>
+</ul>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- Comment</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">-- line comment</span></span><br><span class="line">    <span class="comment"># line comment</span></span><br><span class="line">    <span class="comment">(*</span><br><span class="line">        block comment</span><br><span class="line">        ...</span><br><span class="line">    *)</span></span><br></pre></td></tr></table></figure>
+<h2 id="Types">Types</h2><p>Types and their related operations.</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- String</span></span><br><span class="line"></span><br><span class="line">    <span class="string">"string"</span></span><br><span class="line">    <span class="comment"># The string must not be surrounded with single quotes!</span></span><br><span class="line">    <span class="comment"># It's wrong like this 'string'.</span></span><br><span class="line">    </span><br><span class="line"><span class="comment">-- Join String</span></span><br><span class="line"></span><br><span class="line">    <span class="string">"abc"</span> &amp; <span class="string">"123"</span>  <span class="comment"># "abc123"</span></span><br><span class="line">    </span><br><span class="line"></span><br><span class="line"><span class="comment">-- List</span></span><br><span class="line"></span><br><span class="line">    &#123;<span class="number">1</span>, <span class="number">7</span>, <span class="string">"Beethoven"</span>, <span class="number">4.5</span>&#125;</span><br><span class="line">    &#123;&#125;  <span class="comment"># Empty List</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- Length of List</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">set</span> a_list <span class="keyword">to</span> &#123;<span class="string">"foo"</span>, <span class="string">"bar"</span>&#125;</span><br><span class="line">    <span class="command">count</span> <span class="keyword">of</span> a_list  <span class="comment"># 2</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- Get a item from a list</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># item &lt;number&gt; of &lt;list&gt;</span></span><br><span class="line">    <span class="property">item</span> <span class="number">1</span> <span class="keyword">of</span> a_list  <span class="comment"># "foo"</span></span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line"><span class="comment">-- Record</span></span><br><span class="line"></span><br><span class="line">    &#123;product:<span class="string">"pen"</span>, price:<span class="number">1.45</span>&#125;</span><br><span class="line">    product <span class="keyword">of</span> rec  <span class="comment"># "pen"</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- Number</span></span><br><span class="line"></span><br><span class="line">    <span class="number">123</span>  <span class="comment"># integer</span></span><br><span class="line">    -<span class="number">94596</span>  <span class="comment"># negative integer</span></span><br><span class="line">    <span class="number">3.1415</span>  <span class="comment"># real</span></span><br><span class="line">    <span class="number">9.9999999999E+10</span>  <span class="comment"># scientific</span></span><br><span class="line">    </span><br><span class="line"><span class="comment">-- Class &amp; Other Objects</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># Ommited</span></span><br></pre></td></tr></table></figure>
+<h2 id="Basic_Operations">Basic Operations</h2><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- Assign Variable</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">set</span> myName <span class="keyword">to</span> <span class="string">"John"</span></span><br><span class="line">    <span class="keyword">copy</span> <span class="number">33</span> <span class="keyword">to</span> myAge</span><br><span class="line">    </span><br><span class="line"><span class="comment">-- Reference</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">a ref</span> <span class="keyword">to</span> something    </span><br><span class="line">    <span class="keyword">ref</span> <span class="keyword">to</span> something</span><br><span class="line"></span><br><span class="line"><span class="comment">-- &amp; Operator</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># It can be used on Text, Class, Object...</span></span><br><span class="line">    <span class="string">"hello"</span> &amp; <span class="string">", "</span> &amp; <span class="string">"world"</span>  <span class="comment"># Text</span></span><br><span class="line">    </span><br><span class="line"><span class="comment">-- as Operator</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># Converts, or coerces, a value of one class to a value of another class.</span></span><br><span class="line">    <span class="number">123</span> <span class="keyword">as</span> <span class="type">string</span>  <span class="comment"># "123"</span></span><br><span class="line">    <span class="string">"45"</span> <span class="keyword">as</span> <span class="type">integer</span>  <span class="comment"># "45"</span></span><br><span class="line">    <span class="string">"/Users/IceHe/.vimrc"</span> <span class="keyword">as</span> <span class="type">POSIX file</span>  <span class="comment"># file</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># integer, string or real</span></span><br><span class="line">    <span class="keyword">set</span> num <span class="keyword">to</span> <span class="string">"12306"</span> <span class="keyword">as</span> <span class="type">integer</span></span><br><span class="line">    </span><br><span class="line"><span class="comment">-- Calculate</span></span><br><span class="line"></span><br><span class="line">    <span class="number">1</span> + <span class="number">2</span>  <span class="comment"># 3</span></span><br><span class="line">    <span class="number">2</span> - <span class="number">3</span>  <span class="comment"># -1</span></span><br><span class="line">    <span class="number">3</span> * <span class="number">4.5</span>  <span class="comment"># 9.0  # real</span></span><br><span class="line">    <span class="number">3</span> / <span class="number">6</span>  <span class="comment"># 0.5</span></span><br><span class="line">    </span><br><span class="line">    <span class="number">2</span> ^ <span class="number">3</span>  <span class="comment"># 8.0  # 2 to the power of 3</span></span><br><span class="line">    <span class="number">9</span> <span class="keyword">div</span> <span class="number">4</span>  <span class="comment"># 2  # Divide Exactly</span></span><br><span class="line">    <span class="number">9</span> <span class="keyword">mod</span> <span class="number">4</span>  <span class="comment"># 1  # Remainer</span></span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line"><span class="comment">-- 获取变量的类型</span></span><br><span class="line"></span><br><span class="line">    <span class="type">class</span> <span class="keyword">of</span> &lt;variable_name&gt;</span><br><span class="line">    <span class="type">class</span> <span class="keyword">in</span> &lt;variable_name&gt;</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 包括 integer、real、text等</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- 逻辑运算</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">not</span> variable</span><br><span class="line">    <span class="type">class</span> <span class="keyword">of</span> variable</span><br></pre></td></tr></table></figure>
+<h3 id="Date">Date</h3><p>Src Code :<br><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">set</span> today <span class="keyword">to</span> <span class="command">current date</span></span><br><span class="line"><span class="command">log</span> today</span><br><span class="line"></span><br><span class="line"><span class="command">log</span> <span class="property">year</span> <span class="keyword">of</span> today</span><br><span class="line"><span class="command">log</span> <span class="property">month</span> <span class="keyword">of</span> today</span><br><span class="line"><span class="command">log</span> <span class="property">day</span> <span class="keyword">of</span> today</span><br><span class="line"><span class="command">log</span> <span class="property">time</span> <span class="keyword">of</span> today</span><br><span class="line"></span><br><span class="line"><span class="command">log</span> <span class="property">date string</span> <span class="keyword">of</span> today</span><br><span class="line"><span class="command">log</span> <span class="property">time string</span> <span class="keyword">of</span> today</span><br><span class="line"><span class="command">log</span> short <span class="property">date string</span> <span class="keyword">of</span> today</span><br><span class="line"></span><br><span class="line"><span class="keyword">set</span> <span class="property">year</span> <span class="keyword">of</span> today <span class="keyword">to</span> <span class="number">2008</span></span><br><span class="line"><span class="keyword">set</span> <span class="property">month</span> <span class="keyword">of</span> today <span class="keyword">to</span> <span class="number">12</span></span><br><span class="line"><span class="keyword">set</span> <span class="property">day</span> <span class="keyword">of</span> today <span class="keyword">to</span> <span class="number">24</span></span><br><span class="line"><span class="keyword">set</span> <span class="property">time</span> <span class="keyword">of</span> today <span class="keyword">to</span> <span class="number">3</span> * hours + <span class="number">12</span> * minutes + <span class="number">12</span></span><br><span class="line">—- hours &amp; minutes &amp; days &amp; months &amp; years are built-<span class="keyword">in</span></span><br><span class="line"><span class="command">log</span> today</span><br><span class="line"></span><br><span class="line"><span class="keyword">set</span> curDate <span class="keyword">to</span> <span class="command">current date</span></span><br><span class="line"><span class="keyword">set</span> doomDate <span class="keyword">to</span> <span class="type">date</span> <span class="string">"Friday, December 21, 2012 at 06:00:00"</span></span><br><span class="line"><span class="keyword">set</span> btwDate <span class="keyword">to</span> curDate - doomDate</span><br><span class="line"></span><br><span class="line"><span class="command">log</span> doomDate</span><br><span class="line"><span class="command">log</span> btwDate</span><br><span class="line"></span><br><span class="line"><span class="keyword">set</span> y <span class="keyword">to</span> btwDate <span class="keyword">div</span> (days * <span class="number">365</span>)</span><br><span class="line"><span class="keyword">set</span> d <span class="keyword">to</span> (btwDate - y * <span class="number">365</span> * days) <span class="keyword">div</span> days</span><br><span class="line"><span class="keyword">set</span> h <span class="keyword">to</span> (btwDate - y * <span class="number">365</span> * days - d * days) <span class="keyword">div</span> hours</span><br><span class="line"><span class="keyword">set</span> m <span class="keyword">to</span> (btwDate - y * <span class="number">365</span> * days - d * days - h * hours) <span class="keyword">div</span> minutes</span><br><span class="line"><span class="keyword">set</span> s <span class="keyword">to</span> (btwDate - y * <span class="number">365</span> * days - d * days - h * hours - m * minutes)</span><br><span class="line"></span><br><span class="line"><span class="command">log</span> <span class="string">"Countdown:"</span> &amp; y &amp; <span class="string">" "</span> &amp; m &amp; <span class="string">" "</span> &amp; d &amp; <span class="string">" "</span> &amp; h &amp; <span class="string">":"</span> &amp; m &amp; <span class="string">":"</span> &amp; s</span><br></pre></td></tr></table></figure></p>
+<p>Result :<br><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">(*date Saturday, September 19, 2015 at 16:50:34*)</span></span><br><span class="line"><span class="comment">(*2015*)</span></span><br><span class="line"><span class="comment">(*September*)</span></span><br><span class="line"><span class="comment">(*19*)</span></span><br><span class="line"><span class="comment">(*60634*)</span></span><br><span class="line"></span><br><span class="line"><span class="comment">(*Saturday, September 19, 2015*)</span></span><br><span class="line"><span class="comment">(*16:50:34*)</span></span><br><span class="line"><span class="comment">(*9/19/15*)</span></span><br><span class="line"><span class="comment">(*date Wednesday, December 24, 2008 at 03:12:12*)</span></span><br><span class="line"></span><br><span class="line"><span class="comment">(*date Friday, December 21, 2012 at 06:00:00*)</span></span><br><span class="line"><span class="comment">(*86613240*)</span></span><br><span class="line"><span class="comment">(*Countdown: 2years 14months 272days 11:14:0*)</span></span><br></pre></td></tr></table></figure></p>
+<h2 id="Conditional">Conditional</h2><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- contains, is contained by</span></span><br><span class="line"></span><br><span class="line">    &#123; <span class="string">"this"</span>, <span class="string">"is"</span>, <span class="number">1</span> + <span class="number">1</span>, <span class="string">"cool"</span> &#125; <span class="keyword">contains</span> &#123; <span class="string">"is"</span>, <span class="number">2</span> &#125;  <span class="comment"># true</span></span><br><span class="line">    &#123; <span class="string">"this"</span>, <span class="string">"is"</span>, <span class="number">2</span>, <span class="string">"cool"</span> &#125; <span class="keyword">contains</span> <span class="number">2</span>  <span class="comment"># true</span></span><br><span class="line">    <span class="number">2</span> <span class="keyword">is</span> <span class="keyword">contained by</span> &#123; <span class="string">"this"</span>, <span class="string">"is"</span>, <span class="number">2</span>, <span class="string">"cool"</span> &#125;  <span class="comment"># true</span></span><br><span class="line">    </span><br><span class="line"><span class="comment">-- equal to</span></span><br><span class="line"></span><br><span class="line">    (<span class="string">"1"</span> <span class="keyword">as</span> <span class="type">integer</span>) <span class="keyword">is</span> <span class="keyword">equal</span> <span class="keyword">to</span> <span class="number">1</span>  <span class="comment"># true</span></span><br><span class="line">    (<span class="string">"1"</span> <span class="keyword">as</span> <span class="type">integer</span>) <span class="keyword">is</span> <span class="keyword">not</span> <span class="keyword">equal</span> <span class="keyword">to</span> <span class="number">1</span>  <span class="comment"># false</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># Same as = and ≠</span></span><br><span class="line">    <span class="number">1</span> = <span class="number">1</span>  <span class="comment"># true</span></span><br><span class="line">    <span class="number">1</span> ≠ <span class="number">1</span>  <span class="comment"># false</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- greater than, less than</span></span><br><span class="line"></span><br><span class="line">    <span class="number">3</span> <span class="keyword">is</span> <span class="keyword">greater than</span> <span class="number">1</span>  <span class="comment"># true</span></span><br><span class="line">    <span class="number">2</span> <span class="keyword">is</span> <span class="keyword">less than</span> <span class="number">1</span>  <span class="comment"># false</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># Same as &gt; and &lt;</span></span><br><span class="line">    <span class="number">3</span> &gt; <span class="number">1</span>  <span class="comment"># true</span></span><br><span class="line">    <span class="number">2</span> &lt; <span class="number">1</span>  <span class="comment"># false</span></span><br><span class="line">    </span><br><span class="line"><span class="comment">-- starts with, ends with</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># Work with text objects and lists.</span></span><br><span class="line">    </span><br><span class="line">    <span class="string">"icehe"</span> <span class="keyword">starts with</span> <span class="string">"ice"</span>  <span class="comment"># true</span></span><br><span class="line">    <span class="string">"icehe"</span> <span class="keyword">ends with</span> <span class="string">"he"</span>  <span class="comment"># true</span></span><br><span class="line">    </span><br><span class="line">    &#123;<span class="string">"foo"</span>, <span class="string">"bar"</span>&#125; <span class="keyword">starts with</span> <span class="string">"foo"</span>  <span class="comment"># true</span></span><br><span class="line">    &#123;<span class="string">"foo"</span>, <span class="string">"bar"</span>&#125; <span class="keyword">ends with</span> <span class="string">"bar"</span>  <span class="comment"># true</span></span><br></pre></td></tr></table></figure>
+<h2 id="Control_Statements">Control Statements</h2><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- Conditional 逻辑语句</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># if &lt;expr&gt; then</span></span><br><span class="line">    <span class="comment">#     ...</span></span><br><span class="line">    <span class="comment"># else if &lt;expr&gt; then</span></span><br><span class="line">    <span class="comment">#     ...</span></span><br><span class="line">    <span class="comment"># else</span></span><br><span class="line">    <span class="comment">#     ...</span></span><br><span class="line">    <span class="comment"># end if</span></span><br><span class="line"></span><br><span class="line">    <span class="command">display alert</span> <span class="string">"Hello, world!"</span> buttons &#123;<span class="string">"Rudely decline"</span>, <span class="string">"Happily accept"</span>&#125;</span><br><span class="line">    <span class="keyword">set</span> theAnswer <span class="keyword">to</span> button returned <span class="keyword">of</span> <span class="keyword">the</span> <span class="constant">result</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> theAnswer <span class="keyword">is</span> <span class="string">"Rudely decline"</span> <span class="keyword">then</span></span><br><span class="line">        <span class="command">beep</span> <span class="number">5</span></span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> theAnswer <span class="keyword">is</span> <span class="string">"Happily accept"</span> <span class="keyword">then</span></span><br><span class="line">        <span class="command">say</span> <span class="string">"Hello."</span></span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        <span class="command">say</span> <span class="string">"Piffle!"</span></span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line">    </span><br><span class="line"><span class="comment">-- Loop 循环语句</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># Repeat forever</span></span><br><span class="line">    <span class="keyword">repeat</span></span><br><span class="line">         <span class="comment">-- commands to be repeated</span></span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">repeat</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># Repeat a given number of times</span></span><br><span class="line">    <span class="keyword">repeat</span> <span class="number">10</span> <span class="keyword">times</span></span><br><span class="line">         <span class="comment">-- commands to be repeated</span></span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">repeat</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- Conditional Loop</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">set</span> x <span class="keyword">to</span> <span class="number">5</span></span><br><span class="line">    <span class="keyword">repeat</span> <span class="keyword">while</span> x &gt; <span class="number">0</span></span><br><span class="line">        <span class="keyword">set</span> x <span class="keyword">to</span> x - <span class="number">1</span></span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">repeat</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">set</span> x <span class="keyword">to</span> <span class="number">5</span></span><br><span class="line">    <span class="keyword">repeat</span> <span class="keyword">until</span> x ≤ <span class="number">0</span></span><br><span class="line">        <span class="keyword">set</span> x <span class="keyword">to</span> x - <span class="number">1</span></span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">repeat</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># Loop with variable</span></span><br><span class="line">    <span class="keyword">repeat</span> <span class="keyword">with</span> i <span class="keyword">from</span> <span class="number">1</span> <span class="keyword">to</span> <span class="number">2000</span></span><br><span class="line">         <span class="comment">-- commands to be repeated</span></span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">repeat</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># Enumerate a list</span></span><br><span class="line">    <span class="keyword">set</span> total <span class="keyword">to</span> <span class="number">0</span></span><br><span class="line">    <span class="keyword">repeat</span> <span class="keyword">with</span> x <span class="keyword">in</span> &#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>&#125;</span><br><span class="line">        <span class="keyword">set</span> total <span class="keyword">to</span> total + x</span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">repeat</span></span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line"><span class="comment">-- Tell 命令块</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">tell</span> <span class="type">application</span> <span class="string">"Finder"</span></span><br><span class="line">        quit</span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment"># or express in one line</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">tell</span> <span class="type">application</span> <span class="string">"Microsoft Word"</span> <span class="keyword">to</span> quit</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment"># For events in the "Core Suite",</span></span><br><span class="line">    <span class="comment"># (activate, open, reopen, close, print, and quit)</span></span><br><span class="line">    <span class="comment"># the application may be supplied as the direct object to transitive commands:</span></span><br><span class="line">    </span><br><span class="line">    quit <span class="type">application</span> <span class="string">"Microsoft Word"</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment"># The concept of an object hierarchy can be expressed using nested blocks:</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">tell</span> <span class="type">application</span> <span class="string">"QuarkXPress"</span></span><br><span class="line">        <span class="keyword">tell</span> document <span class="number">1</span></span><br><span class="line">            <span class="keyword">tell</span> page <span class="number">2</span></span><br><span class="line">                <span class="keyword">tell</span> <span class="type">text</span> box <span class="number">1</span></span><br><span class="line">                    <span class="keyword">set</span> <span class="property">word</span> <span class="number">5</span> <span class="keyword">to</span> <span class="string">"Apple"</span></span><br><span class="line">                <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line">            <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line">        <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">tell</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment"># It can also be expressed using nested prepositional phrases:</span></span><br><span class="line">    </span><br><span class="line">    pixel <span class="number">7</span> <span class="keyword">of</span> row <span class="number">3</span> <span class="keyword">of</span> TIFF image <span class="string">"my bitmap"</span></span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line"><span class="comment">-- Handler</span></span><br><span class="line"></span><br><span class="line">    <span class="function_start"><span class="keyword">on</span></span> func_name(params...)</span><br><span class="line">         <span class="comment">-- subroutine commands</span></span><br><span class="line">    <span class="keyword">end</span> func_name</span><br><span class="line"></span><br><span class="line">    <span class="function_start"><span class="keyword">on</span></span> <span class="command">run</span></span><br><span class="line">         <span class="comment">-- commands</span></span><br><span class="line">    <span class="keyword">end</span> <span class="command">run</span></span><br><span class="line"></span><br><span class="line">    <span class="function_start"><span class="keyword">on</span></span> rock <span class="keyword">around</span> <span class="keyword">the</span> clock</span><br><span class="line">            <span class="command">display dialog</span> (clock <span class="keyword">as</span> <span class="type">string</span>)</span><br><span class="line">    <span class="keyword">end</span> rock</span><br><span class="line">    <span class="comment">-- called with:</span></span><br><span class="line">    rock <span class="keyword">around</span> <span class="keyword">the</span> <span class="command">current date</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">to</span> check <span class="keyword">for</span> yourNumber <span class="keyword">from</span> bottom <span class="keyword">thru</span> top</span><br><span class="line">        <span class="keyword">if</span> bottom ≤ yourNumber <span class="keyword">and</span> yourNumber ≤ top <span class="keyword">then</span></span><br><span class="line">            <span class="command">display dialog</span> <span class="string">"Congratulations! You scored."</span></span><br><span class="line">        <span class="keyword">end</span> <span class="keyword">if</span></span><br><span class="line">    <span class="keyword">end</span> check</span><br><span class="line">    <span class="comment">-- called with:</span></span><br><span class="line">    check <span class="keyword">for</span> <span class="number">8</span> <span class="keyword">from</span> <span class="number">7</span> <span class="keyword">thru</span> <span class="number">10</span></span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line"><span class="comment">-- Catch Error 捕获错误</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">try</span></span><br><span class="line">         <span class="comment">-- commands to be tested</span></span><br><span class="line">    <span class="function_start"><span class="keyword">on</span></span> <span class="keyword">error</span></span><br><span class="line">         <span class="comment">-- error commands</span></span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">try</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">-- Script</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">script</span> scriptName</span><br><span class="line">         <span class="comment">-- commands and handlers specific to the script</span></span><br><span class="line">    <span class="keyword">end</span> <span class="keyword">script</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># Script objects can use the same 'tell' structures that are used for application objects, and can be loaded from and saved to files.</span></span><br><span class="line">    <span class="comment"># Runtime execution time can be reduced in some cases by using script objects.</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">-- Execute AppleScript Scripts as Shell Commands</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">#!/usr/bin/osascript</span></span><br><span class="line">    <span class="comment">-- Beginning it with the following line and giving it execute permission</span></span><br></pre></td></tr></table></figure>
+<h2 id="Components">Components</h2><p>Src Code :<br><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- log 历史记录</span></span><br><span class="line"><span class="command">log</span> <span class="constant">pi</span></span><br><span class="line"><span class="command">log</span> test</span><br></pre></td></tr></table></figure></p>
+<p>Result :<br><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">(*3.14159265359*)</span></span><br><span class="line"><span class="comment">(*test*)</span></span><br></pre></td></tr></table></figure></p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- Execute Shell Commands</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">set</span> fileInfo <span class="keyword">to</span> <span class="command">do shell script</span> <span class="string">"cd ~; ls"</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">-- An audio message using a synthesized computer voice</span></span><br><span class="line"></span><br><span class="line">    <span class="command">say</span> <span class="string">"Hello, world!"</span></span><br><span class="line">    </span><br><span class="line"><span class="comment">-- Beep 5 times</span></span><br><span class="line">    </span><br><span class="line">    <span class="command">beep</span> <span class="number">5</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- Delay for 9.8 seconds</span></span><br><span class="line"></span><br><span class="line">    <span class="command">delay</span> <span class="number">9.8</span></span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line"><span class="comment">-- A modal window with “OK” and “Cancel” buttons</span></span><br><span class="line"></span><br><span class="line">    <span class="command">display dialog</span> <span class="string">"info_text"</span></span><br><span class="line">    </span><br><span class="line"><span class="comment">-- A modal window with a single “OK” button and an icon representing the app displaying the alert</span></span><br><span class="line"></span><br><span class="line">    <span class="command">display alert</span> <span class="string">"warning_text"</span></span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line"><span class="comment">-- ¬ character &amp; Dialog Samples</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># It can be produced by typing option-return in the Script Editor,</span></span><br><span class="line">    <span class="comment"># It denotes continuation of a single statement across multiple lines.)</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># For example:</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">-- Dialog</span></span><br><span class="line">    <span class="keyword">set</span> dialogReply <span class="keyword">to</span> <span class="command">display dialog</span> <span class="string">"Dialog Text"</span> ¬</span><br><span class="line">        default answer <span class="string">"Text Answer"</span> ¬</span><br><span class="line">        hidden answer <span class="constant">false</span> ¬</span><br><span class="line">        buttons &#123;<span class="string">"Skip"</span>, <span class="string">"Okay"</span>, <span class="string">"Cancel"</span>&#125; ¬</span><br><span class="line">        default button <span class="string">"Okay"</span> ¬</span><br><span class="line">        cancel button <span class="string">"Skip"</span> ¬</span><br><span class="line">        <span class="keyword">with</span> title <span class="string">"Dialog Window Title"</span> ¬</span><br><span class="line">        <span class="keyword">with</span> icon note ¬</span><br><span class="line">        giving up <span class="keyword">after</span> <span class="number">15</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">-- Choose from list</span></span><br><span class="line">    <span class="keyword">set</span> chosenListItem <span class="keyword">to</span> <span class="command">choose from list</span> &#123;<span class="string">"A"</span>, <span class="string">"B"</span>, <span class="string">"3"</span>&#125; ¬</span><br><span class="line">        <span class="keyword">with</span> title  <span class="string">"List Title"</span> ¬</span><br><span class="line">        <span class="keyword">with</span> prompt <span class="string">"Prompt Text"</span> ¬</span><br><span class="line">        default items <span class="string">"B"</span> ¬</span><br><span class="line">        OK button <span class="property">name</span> <span class="string">"Looks Good!"</span> ¬</span><br><span class="line">        cancel button <span class="property">name</span> <span class="string">"Nope, try again"</span> ¬</span><br><span class="line">        multiple selections allowed <span class="constant">false</span> ¬</span><br><span class="line">        <span class="keyword">with</span> empty selection allowed</span><br><span class="line"></span><br><span class="line">    <span class="comment">-- Alert</span></span><br><span class="line">    <span class="keyword">set</span> resultAlertReply <span class="keyword">to</span> <span class="command">display alert</span> <span class="string">"Alert Text"</span> ¬</span><br><span class="line">        <span class="keyword">as</span> warning ¬</span><br><span class="line">        buttons &#123;<span class="string">"Skip"</span>, <span class="string">"Okay"</span>, <span class="string">"Cancel"</span>&#125; ¬</span><br><span class="line">        default button <span class="number">2</span> ¬</span><br><span class="line">        cancel button <span class="number">1</span> ¬</span><br><span class="line">        giving up <span class="keyword">after</span> <span class="number">2</span></span><br><span class="line">        </span><br><span class="line"></span><br><span class="line"><span class="comment">-- Get Input 获取输入的数据</span></span><br><span class="line"></span><br><span class="line">    <span class="command">display dialog</span> <span class="string">"please input"</span> default answer <span class="string">""</span></span><br><span class="line">    <span class="command">log</span> <span class="type">text</span> returned <span class="keyword">of</span> <span class="constant">result</span></span><br></pre></td></tr></table></figure>
+<p><br></p>
+<h2 id="Advanced">Advanced</h2><ul>
+<li><p>Further use: </p>
+<ol>
+<li><a href="/applescript/evernote/">用 AppleScript 操作 Evernote / OS X</a></li>
+<li><a href="http://hints.macworld.com/article.php?story=20121106085330476" target="_blank" rel="external">A service to log Dictionary lookups </a></li>
+</ol>
+</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[在有编程基础的情况下，通过快速浏览示例代码，即可熟悉语法，快速入门 AppleScript。]]>
+    
+    </summary>
+    
+      <category term="AppleScript" scheme="http://icehe.me/tags/AppleScript/"/>
+    
+      <category term="AppleScript" scheme="http://icehe.me/categories/AppleScript/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Index 目录]]></title>
     <link href="http://icehe.me/index/"/>
     <id>http://icehe.me/index/</id>
     <published>2016-03-06T16:00:00.000Z</published>
-    <updated>2016-03-08T02:41:32.000Z</updated>
+    <updated>2016-03-10T15:38:15.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li><em>Updated on 2016-03-07</em></li>
 <li><strong><a href="/archives">Archives 归档 (Sort by time)</a></strong></li>
@@ -29,8 +87,8 @@
 <li><a href="/timeline">My Timeline 时间轴</a> <sup>me</sup></li>
 <li><a href="/reward">How to Reward Me! 怎么打赏博主~</a></li>
 </ul>
-<h3 id="Command"><strong><a href="/categories/Command">Command</a></strong></h3><ul>
-<li><a href="/cmd/command_line">CLI Note 命令行</a> <sup><em>todo</em></sup></li>
+<h3 id="Command"><strong><a href="/categories/Command">Command</a></strong></h3><!--- [CLI Note 命令行](/cmd/command_line) <sup>_todo_</sup>-->
+<ul>
 <li><a href="/cmd/git_note">Git Note</a></li>
 </ul>
 <h3 id="Mac"><strong><a href="/categories/Mac">Mac</a></strong></h3><ul>
@@ -103,7 +161,7 @@
 <li>「15」 <a href="/asm/Assembly Language - Note 15/">附录内容：汇编编译器对jmp的处理，地址计数器（AC），处理伪操作指令，栈传递参数，无溢出除法…</a></li>
 </ul>
 <h3 id="Mine"><strong>Mine</strong></h3><ul>
-<li><a href="&#x6d;&#97;&#x69;&#x6c;&#116;&#111;&#x3a;&#x78;&#x40;&#105;&#99;&#101;&#x68;&#101;&#46;&#x6d;&#101;">&#x78;&#x40;&#105;&#99;&#101;&#x68;&#101;&#46;&#x6d;&#101;</a> / <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a></li>
+<li><a href="&#x6d;&#97;&#105;&#x6c;&#x74;&#x6f;&#x3a;&#120;&#64;&#x69;&#x63;&#x65;&#x68;&#101;&#46;&#109;&#x65;">&#120;&#64;&#x69;&#x63;&#x65;&#x68;&#101;&#46;&#109;&#x65;</a> / <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a></li>
 <li><a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a> / <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">Old Blog</a></li>
 <li><a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> / <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></li>
 </ul>
@@ -550,253 +608,6 @@
   </entry>
   
   <entry>
-    <title><![CDATA[CLI Note 命令行]]></title>
-    <link href="http://icehe.me/cmd/command_line/"/>
-    <id>http://icehe.me/cmd/command_line/</id>
-    <published>2016-01-24T12:12:50.000Z</published>
-    <updated>2016-02-25T02:25:49.000Z</updated>
-    <content type="html"><![CDATA[<ul>
-<li><em>Updated on 2016-01-27</em></li>
-</ul>
-<h2 id="Abbreviations">Abbreviations</h2><p><code>abbr</code> abbreviation<br><code>cmd</code> command<br><code>cmds</code> commands</p>
-<p><code>DB</code> database<br><code>del</code> delete<br><code>dir</code> directory<br><code>dirs</code> directories</p>
-<p><code>env</code> environment<br><code>exec</code> execute<br><code>OS</code> operating system</p>
-<p><code>param</code> parameter<br><code>pwd</code> password<br><code>rd</code> read<br><code>rm</code> remove<br><code>sth</code> something</p>
-<h2 id="Zsh"><a href="http://zsh.sourceforge.net/" target="_blank" rel="external">Zsh</a></h2><ul>
-<li><p><a href="http://zsh.sourceforge.net/Doc/" target="_blank" rel="external"><strong>Docs</strong></a></p>
-</li>
-<li><p><a href="http://ohmyz.sh/" target="_blank" rel="external"><strong>oh-my-zsh</strong></a> &nbsp;&amp;&nbsp;  <a href="https://github.com/IceHe/oh-my-zsh" target="_blank" rel="external">my fork</a></p>
-</li>
-<li><p>Alias</p>
-<ul>
-<li><a href="https://github.com/IceHe/oh-my-zsh/blob/master/.zshrc" target="_blank" rel="external">.zshrc</a></li>
-<li><a href="https://github.com/IceHe/oh-my-zsh/blob/master/lib/directories.zsh" target="_blank" rel="external">dir</a></li>
-<li><a href="https://github.com/IceHe/oh-my-zsh/blob/master/plugins/git/git.plugin.zsh" target="_blank" rel="external">git</a></li>
-<li><a href="https://github.com/IceHe/oh-my-zsh/blob/master/plugins/tmux/tmux.plugin.zsh" target="_blank" rel="external">tmux</a></li>
-<li><a href="https://github.com/IceHe/oh-my-zsh/blob/master/plugins/vi-mode/vi-mode.plugin.zsh" target="_blank" rel="external">vi-mode</a></li>
-</ul>
-<p>「Linux Shell 哪种更常用，这些shell各有什么特长？」知乎 <a href="https://www.zhihu.com/question/29380922/answer/44157927" target="_blank" rel="external">依云的回答</a> 摘要：</p>
-<ul>
-<li><code>bash</code>：通用，广泛可得。(Powerful and always available.)</li>
-<li><code>zsh</code>：各种功能十分强大，尤其是补全和脚本，但也更复杂。</li>
-<li><code>fish</code>：对新用户友好，但不符合 POSIX 标准，别处复制的命令基本没法用！</li>
-<li>可参考：<a href="https://en.wikipedia.org/wiki/Comparison_of_command_shells" target="_blank" rel="external">Comparison of Command Shells - Wikipedia</a></li>
-</ul>
-</li>
-</ul>
-<p><br></p>
-<h2 id="Common">Common</h2><ul>
-<li><p><strong>Explanations</strong></p>
-<ul>
-<li><p><code>[-o]</code><br>Sth between <code>[</code> &amp; <code>]</code> is optional.<br>Option <code>-o</code> is optional.</p>
-</li>
-<li><p><code>[-abc]</code><br>Options <code>-a</code>, <code>-b</code> and <code>-c</code> can be used at the same time.</p>
-</li>
-<li><p><code>[-a | -b | -c]</code><br>The last option of <code>-a</code>, <code>-b</code> or <code>-c</code> overides the other previous options.  </p>
-</li>
-<li><p><code>[-A [-B]]</code><br>Option <code>-B</code> is valid if option <code>-A</code> is specified.</p>
-</li>
-<li><p><code>-d</code> <em>(Default)</em><br>Option <code>-d</code> is default option of the cmd.<br>It’s valid even if it isn’t specified.</p>
-</li>
-</ul>
-</li>
-</ul>
-<p><br></p>
-<ul>
-<li><p><strong>Commonly Options</strong></p>
-<p>  <em>PS: Usually act as follows, but not always!</em></p>
-<p>  <code>-a</code> <strong>All</strong>: Exec cmds with many default options.<br>  <code>-d</code> Do with sth including <strong>dirs</strong>.<br>  <code>-f</code> <strong>Force</strong>: Do sth without confirmation.<br>  <code>-i</code> <strong>If</strong>: Need confirmation to do sth.<br>  <code>-n</code> <strong>Not</strong>: When need confirmation, don’t do sth.<br>  <code>-p</code> <strong>Preserve</strong> sth.<br>  <code>-r</code> | <code>-R</code> <strong>Recursive</strong>: Do with sth including entire subtree.<br>  <code>-v</code> <strong>Verbose</strong>: Show details.</p>
-</li>
-</ul>
-<p><br></p>
-<ul>
-<li><strong><code>man cmd_name ...</code> Format &amp; display the cmd Manual.</strong>.</li>
-</ul>
-<ul>
-<li><p><strong><code>bash</code> Bourne-Again SHell</strong></p>
-<p>  An sh-compatible cmd language interpreter that cmds rd from the standard input or from a file.</p>
-</li>
-</ul>
-<ul>
-<li><p><strong><code>ls [-ACFGLRSTUalmrtu1] [file ...]</code> List dir Contents.</strong></p>
-<p>  <code>-1</code> Output to be <strong>one entry per line</strong>. &nbsp;<em>(Default option when not using terminals.)</em><br>  <code>-C</code> Multi-<strong>column</strong> output. &nbsp;<em>(Default option when using in termainals.)</em></p>
-<p>  <code>-A</code> List <strong>all</strong> except for <code>.</code> and <code>..</code>.<br>  <code>-a</code> <strong>All</strong>: Including hidden files (whose names begin with a dot <code>.</code>).</p>
-<p>  <code>-F</code> Display <strong>prompts</strong>:<br>   &nbsp; &nbsp; &nbsp; &nbsp; Slash <code>/</code> after each dir pathname<br>   &nbsp; &nbsp; &nbsp; &nbsp; Asterisk <code>*</code> after each executable<br>   &nbsp; &nbsp; &nbsp; &nbsp; At sign <code>@</code> after each symbolic link<br>   &nbsp; &nbsp; &nbsp; &nbsp; Equals sign <code>=</code> after each socket<br>   &nbsp; &nbsp; &nbsp; &nbsp; Percent sign <code>%</code> after each whiteout<br>   &nbsp; &nbsp; &nbsp; &nbsp; Vertical bar <code>|</code> after each FIFO</p>
-<p>  <code>-G</code> Colorized output. <em>(It’s equivalent to defining CLICOLOR in the env.)</em><br>  <code>-R</code> <strong>Recursively</strong> list subdirs encountered.</p>
-<p>  <code>-l</code> List in <strong>long</strong> format.<br>  <code>-m</code> <strong>Stream</strong> output format, items separated by commas.<br>  <code>-T</code> With complete <strong>time</strong> information.</p>
-<p>  <code>-r</code> List in <strong>reverse</strong> order.<br>  <code>-S</code> Sort files by <strong>size</strong>.<br>  <code>-t</code> Sort by <strong>time</strong> modified. </p>
-<p>  <code>-u</code> Use time of <strong>last access</strong>, instead of last modification of the file<br>  <code>-U</code> Use time of file <strong>creation</strong>, instead of …</p>
-</li>
-</ul>
-<ul>
-<li><p><strong><code>cd [-|-1|-2|-3|-4|-5|-6|-7|-8|-9]</code> Change Dir.</strong></p>
-<p>  <code>-</code> Back to previous working dir.<br>  <code>-1|-2|-3|-4|-5|-6|-7|-8|-9</code> Back to recently working dir in dir stacks.</p>
-</li>
-</ul>
-<ul>
-<li><p><strong><code>mv [-f | -i | -n] source target</code> Move file.</strong><br>  <code>mv source ... directory</code> mv files to a dir.</p>
-<p>  <code>-f</code> Force to overwrite existing files.<br>  <code>-i</code> Need confirmation …<br>  <code>-n</code> Don’t …</p>
-<p>  Be able to <strong>Rename</strong> a file.</p>
-</li>
-</ul>
-<ul>
-<li><p><strong><code>cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file</code> Copy files.</strong><br>  <code>cp source_file ... target_directory</code> cp files to a dir. </p>
-<p>  <code>-a</code> <strong>All</strong>: Same as <code>-pPR</code>.</p>
-<p>  <code>-f</code> Force to overwrite existing files.<br>  <code>-i</code> Need confirmation …<br>  <code>-n</code> Don’t …</p>
-<p>  <code>-p</code> <strong>Preserve</strong> Attributes as follows:<br>   &nbsp; &nbsp; &nbsp; &nbsp; modification time, access time, file flags, file mode, user ID, and group ID, as allowed by permissions.</p>
-<p>  <code>-X</code> Do not copy Extended Attributes (EAs) or resource forks.</p>
-<p>  <strong><code>-R</code> Recursive</strong><br>   &nbsp; &nbsp; &nbsp; &nbsp; <code>-H</code> If the option <code>-R</code> is specified, symbolic links on the cmd line are followed.<br>   &nbsp; &nbsp; &nbsp; &nbsp; <code>-L</code> …, <strong>all</strong> symbolic links are followed.<br>   &nbsp; &nbsp; &nbsp; &nbsp; <code>-P</code> …, <strong>no</strong> … followed. <em>(Default)</em></p>
-</li>
-</ul>
-<ul>
-<li><p><strong><code>rm [-dfiPRrvW] file ...</code> Rm files &amp; dir entries.</strong></p>
-<p>  <code>-d</code> Rm <strong>dirs</strong> as well.</p>
-<p>  <code>-f</code> Force to rm existing files.<br>  <code>-i</code> Need confirmation to rm …</p>
-<p>  <code>-r</code> | <code>-R</code> <strong>Recursive</strong>: rm including subtrees. It implies <code>-d</code> .</p>
-<p>  <code>-P</code> <strong>Permanently</strong> del files by overwriting three times! And then no one can re-read them. <a href="http://unix.stackexchange.com/questions/36870/whats-the-purpose-of-rm-p" target="_blank" rel="external">Here is WHY</a>.<br>  <code>-W</code> Undelete the named files. Only be used to recover files covered by whiteouts.</p>
-</li>
-</ul>
-<ul>
-<li><p><strong><code>mkdir [-p] [-m mode] directory_name</code> Make Dirs.</strong></p>
-<p>  <code>-p</code> Create <strong>intermediate</strong> dirs as required.</p>
-<p>  <code>-m mode</code> Set the mode of permission bits of the final created dir.<br>   &nbsp; &nbsp; &nbsp; &nbsp; Operation char <code>+</code> &amp; <code>-</code> can be used to modify the initial mode <code>a=rwx</code>.</p>
-</li>
-</ul>
-<ul>
-<li><p><strong><code>rmdir [-p] directory ...</code> Rm Dirs.</strong></p>
-<p>  <code>-p</code> Rm each dir component of a pathname, if they are empty.</p>
-</li>
-</ul>
-<ul>
-<li><p><strong><code>chmod [-R [-H | -L | -P]] mode file ...</code> Change file Modes.</strong><br>  <code>chmod [-R [-H | -L | -P]] [-a | +a | =a] ACE file ...</code></p>
-<p>  <code>[-R [-H | -L | -P]]</code> Same as <code>cp</code> cmd above.</p>
-<ul>
-<li><p><code>mode</code> may be absolute or symbolic. (<a href="https://en.wikipedia.org/wiki/File_system_permissions#Numeric_notation" target="_blank" rel="external">Numeric Notion of Filesystem Permissions</a>)</p>
-<p><strong>Absolute</strong> mode is an octal number constructed from the sum of one or more of the following values:<br><code>4000</code> Set-user-<strong>ID-on-execution bit</strong>: Executable files with this bit set will run with effective uid set to the <strong>uid</strong> of the file owner.<br><code>2000</code> Set-group-ID-on-execution bit: … set to the <strong>gid</strong> …<br><code>1000</code> <a href="https://en.wikipedia.org/wiki/Sticky_bit" target="_blank" rel="external"><strong>Sticky bit</strong></a>. (Only file/dir’s owner or root user can rename or del it, if set.)<br><code>0400</code> Allow <strong>rd</strong> by <strong>owner</strong>.<br><code>0200</code> … <strong>write</strong> …<br><code>0100</code> … <strong>execution</strong> … for files. Allow … to <strong>search</strong> in it for dirs.<br><code>0040</code> … <strong>rd</strong> by <strong>group members</strong>.<br><code>0020</code> … <strong>write</strong> …<br><code>0010</code> … <strong>execution</strong> … for files. Allow … to <strong>search</strong> … for dir.<br><code>0004</code> … <strong>rd</strong> by <strong>others</strong>.<br><code>0002</code> … <strong>write</strong> …<br><code>0001</code> … <strong>execution</strong> … for files. Allow … to <strong>search</strong> … for dir.</p>
-<p><strong>Symbolic</strong> mode is described by the following gramma:<br>- Who: <code>a</code> all, <code>u</code> user (owner), <code>g</code> group, <code>o</code> others.  <code>a = ugo</code>.<br>- Operation: <code>+</code> append, <code>-</code> rm, <code>=</code> assign.<br>- Permission: <code>r</code> rd, <code>w</code> write, <code>x</code> exec/search, <code>t</code> sticky,<br>&nbsp; &nbsp; &nbsp; &nbsp; <code>s</code> set-user-ID-on-execution &amp; set-group-ID-on-execution, <code>u</code> user, <code>g</code> group, <code>o</code> others,<br>&nbsp; &nbsp; &nbsp; &nbsp; <code>X</code> exec/search bits if it’s a dir or any of the exec/search bits are set in the original (unmodified) mode.</p>
-<p>Operations:<br>- <code>+</code> Append permissions to files.<br>- <code>-</code> Removing permissions from files.<br>- <code>=</code> Assigning permissions to files.</p>
-<p>Permission examples:<br>- <code>u+r</code> == original mode | <code>0400</code><br>- <code>g+w</code> == original mode | <code>0020</code><br>- <code>o-x</code> == original mode &amp; ~<code>0001</code><br>- <code>a=rwx</code> == original mode = <code>0777</code><br>- <code>+x</code> == <code>a+x</code></p>
-<p>Complete examples:<br><code>chmod +rwx ./test.sh</code> == <code>chmod 777 ./test.sh</code></p>
-</li>
-<li><p>Filesystem <a href="https://en.wikipedia.org/wiki/Access_control_list" target="_blank" rel="external"><strong>ACL</strong></a> is used to administrate file permissions. </p>
-</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li><p><strong><code>chown [-h] [-R [-H | -L | -P]] owner[:group] file ...</code> Change file Owner and group.</strong><br>  <code>chown [-h] [-R [-H | -L | -P]] :group file ...</code></p>
-<p>  <code>-h</code> If the file is a symbolic link, change the user ID and/or the group ID of the link itself.</p>
-<p>  <code>[-R [-H | -L | -P]]</code> Same as <code>cp</code> cmd above.</p>
-</li>
-</ul>
-<ul>
-<li><p><strong><code>su [- | -l | -m] [login [args]]</code> Substitute user identity.</strong></p>
-<p>  <code>-</code> | <code>-l</code> Simulate a <strong>full</strong> login.<br>  <code>-m</code> Leave the env <strong>unmodified</strong>.</p>
-</li>
-</ul>
-<ul>
-<li><p><strong><code>sudo -A | -b | -h | -i | -s</code> Exec a cmd as another user</strong></p>
-<p>  <code>-A</code> If require <strong>pwd</strong>, read it from the user’s terminal.<br>  <code>-b</code> Run the given cmd in the <strong>background</strong>.<br>  <code>-h</code> Print a short help message about <code>sudo</code> cmd.<br>  <code>-i</code> (Simulate <strong>initial</strong> login) Runs the shell specified by the pwd DB entry of the target user as a login shell.<br>  <code>-s</code> Runs the <strong>shell</strong> specified by the SHELL env variable if it is set or the shell as specified in the pwd DB.</p>
-</li>
-</ul>
-<ul>
-<li><strong><code>ifconfig interface [create] ... [parameters]</code> Configure network interface params.</strong><br>  <code>ifconfig interface destroy</code><br>  <code>ifconfig -a [-L] [-d] [-m] [-r] [-u] [-v] [address_family]</code><br>  <code>ifconfig -l [-d] [-u] [address_family]</code><br>  <code>ifconfig [-L] [-d] [-m] [-r] [-u] [-v] [-C]</code><br>  <code>ifconfig interface vlan vlan-tag vlandev iface</code><br>  <code>ifconfig interface -vlandev iface</code><br>  <code>ifconfig interface bonddev iface</code><br>  <code>ifconfig interface -bonddev iface</code><br>  <code>ifconfig interface bondmode lacp | static</code></li>
-</ul>
-<ul>
-<li><p><strong><code>uname [-amnprsv]</code> Print OS name.</strong></p>
-<p>  <code>-a</code> == <code>-manrsv</code><br>  <code>-m</code> Print the <strong>machine</strong> hardware name.<br>  <code>-n</code> … <strong>nodename</strong> (The system is known by nodename to communications network).<br>  <code>-p</code> … machine <strong>processor</strong> architecture name.<br>  <code>-r</code> … OS <strong>release</strong>.<br>  <code>-s</code> … <strong>OS</strong> name.<br>  <code>-v</code> … OS <strong>version</strong>.</p>
-</li>
-</ul>
-<ul>
-<li><strong><code>uptime</code> Show how long system has been running.</strong></li>
-</ul>
-<ul>
-<li><p><strong><code>ps</code> Process Status.</strong></p>
-<ul>
-<li><code>-e</code></li>
-<li><code>-f</code></li>
-</ul>
-</li>
-</ul>
-<ul>
-<li><strong><code>env</code></strong></li>
-<li><strong><code>cat</code></strong></li>
-<li><strong><code>kill</code></strong></li>
-<li><strong><code>jobs</code></strong></li>
-<li><strong><code>bg</code></strong></li>
-<li><strong><code>fg</code></strong></li>
-<li><strong><code>ln</code></strong></li>
-<li><strong><code>du</code></strong></li>
-<li><p><strong><code>df</code></strong></p>
-</li>
-<li><p><strong><code>rsync</code></strong></p>
-</li>
-<li><strong><code>netcat</code></strong></li>
-<li><strong><code>netstat</code></strong></li>
-<li><strong><code>ifconfig</code></strong></li>
-<li><strong><code>ping</code></strong></li>
-<li><strong><code>find</code></strong></li>
-<li><strong><code>grep</code></strong></li>
-<li><strong><code>less</code></strong></li>
-<li><strong><code>head</code></strong></li>
-<li><strong><code>tail</code></strong></li>
-<li><strong><code>awk</code></strong></li>
-<li><strong><code>sort</code></strong></li>
-<li><strong><code>xarg</code></strong></li>
-<li><strong><code>diff</code></strong></li>
-<li><strong><code>brew</code></strong></li>
-<li><strong><code>mount</code></strong></li>
-<li><strong><code>fdisk</code></strong></li>
-<li><strong><code>mkfs</code></strong></li>
-<li><strong><code>lsblk</code></strong></li>
-<li><strong><code>dig</code></strong></li>
-<li><strong><code>pstree</code></strong></li>
-<li><strong><code>pgrep</code></strong></li>
-<li><strong><code>pkill</code></strong></li>
-<li><strong><code>nohup</code></strong></li>
-<li><strong><code>disown</code></strong></li>
-<li><strong><code>mosh</code></strong></li>
-<li><strong><code>top</code></strong></li>
-<li><strong><code>htop</code></strong></li>
-<li><strong><code>lsof</code></strong></li>
-<li><strong><code>ssh</code></strong></li>
-</ul>
-<ul>
-<li><a href="https://github.com/jlevy/the-art-of-command-line/blob/master/README.md" target="_blank" rel="external">Art of CL</a></li>
-</ul>
-<p><br></p>
-<h2 id="Git"><a href="http://git-scm.com" target="_blank" rel="external">Git</a></h2><ul>
-<li><a href="/cmd/git_note">My Git Note</a></li>
-</ul>
-<p><br></p>
-<h2 id="Vim"><a href="http://www.vim.org/" target="_blank" rel="external">Vim</a></h2><ul>
-<li><a href="http://www.vim.org/docs.php" target="_blank" rel="external"><strong>Docs</strong></a></li>
-<li><a href="http://vim.spf13.com/" target="_blank" rel="external"><strong>SPF-13</strong></a> &nbsp;&amp;&nbsp; <a href="https://github.com/IceHe/spf13-vim" target="_blank" rel="external">my fork</a></li>
-<li><a href="/mac_shortcuts/#Vim">My Shortcut Note</a></li>
-<li><a href="http://coolshell.cn//wp-content/uploads/2011/09/vim_cheat_sheet_for_programmers_print.png" target="_blank" rel="external">Vim Cheat Sheet</a> —— 键位操作总结图。</li>
-</ul>
-<p><br></p>
-<h2 id="Todo">Todo</h2><ul>
-<li>to be continue …</li>
-</ul>
-<p><br></p>
-<h2 id="Related">Related</h2><ul>
-<li><a href="/mac_shortcuts">My Mac Shortcuts 快捷键列表</a></li>
-<li><strong>CLI Note 命令行</strong></li>
-</ul>
-]]></content>
-    <summary type="html">
-    <![CDATA[我的命令行指令总结，及相关配置。CLI = Command Line Interface]]>
-    
-    </summary>
-    
-      <category term="Command" scheme="http://icehe.me/tags/Command/"/>
-    
-      <category term="Command" scheme="http://icehe.me/categories/Command/"/>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[Google CSE 站内搜索]]></title>
     <link href="http://icehe.me/search/"/>
     <id>http://icehe.me/search/</id>
@@ -1148,9 +959,9 @@
     <link href="http://icehe.me/bookmarks/"/>
     <id>http://icehe.me/bookmarks/</id>
     <published>2015-12-19T16:00:00.000Z</published>
-    <updated>2016-03-08T02:41:37.000Z</updated>
+    <updated>2016-03-09T02:11:19.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li><em>Updated on 2016-03-08</em></li>
+<li><em>Updated on 2016-03-09</em></li>
 </ul>
 <h2 id="IT_信息技术"><strong>IT 信息技术</strong></h2><h3 id="OL_Tools_在线工具"><strong>OL Tools 在线工具</strong></h3><ul>
 <li><p><a href="http://www.cheat-sheets.org/" target="_blank" rel="external">Cheat-Sheets.org</a> / <a href="http://whatis.techtarget.com/reference/Our-Favorite-Cheat-Sheets#operating" target="_blank" rel="external">Our Favourite Cheat Sheets</a> —— 知识速查清单。</p>
@@ -1523,6 +1334,8 @@
 </li>
 <li><p><a href="http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;mid=216723229&amp;idx=1&amp;sn=87c7dbb95abce565fa001c3a5063427a&amp;scene=1&amp;srcid=0308jCVD1x8LridYzELGd0ZS#rd" target="_blank" rel="external">风尘棋客</a></p>
 </li>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;mid=233397081&amp;idx=1&amp;sn=836801a648013f925fca14de3572c45c&amp;scene=1&amp;srcid=0309TRipy9egTmxD0B51Q272#rd" target="_blank" rel="external">《论悲观主义的益处》阿兰·德·波顿</a></p>
+</li>
 <li><p><a href="http://yixi.tv/lecture/177" target="_blank" rel="external">《 感谢你给我机会上场 》方励的一席演讲</a> —— 循着乐趣前行。 <sup><strong>Best</strong></sup></p>
 </li>
 <li><p><a href="http://zhuanlan.zhihu.com/happy" target="_blank" rel="external">《 幸福课 》动机在杭州 的知乎专栏</a> —— 平常心。</p>
@@ -1726,7 +1539,7 @@
     <link href="http://icehe.me/tools/"/>
     <id>http://icehe.me/tools/</id>
     <published>2015-11-20T16:00:00.000Z</published>
-    <updated>2016-03-08T02:41:36.000Z</updated>
+    <updated>2016-03-10T12:41:24.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>*Updated on 2016-03-06</li>
 </ul>
@@ -2059,7 +1872,7 @@
 <p><br></p>
 <h2 id="Hardware"><strong>Hardware</strong></h2><ul>
 <li><p><strong>MacBook Pro Retina 13-inch</strong></p>
-<p>  i7 - 3.1 GHz / Mem 16 GB / SSD 512 GB + Magic Keyboard， Mac 是软件工程师最佳的开发平台。<br>  <em>努力用好了 Windows，才能了无牵挂地换Mac。</em></p>
+<p>  i7 - 3.1 GHz / Mem 16 GB / SSD 512 GB + Magic Keyboard 2 + New Magic Trackpad， Mac 是软件工程师最佳的开发平台。<br>  <em>努力用好了 Windows，才能了无牵挂地换Mac。</em></p>
 </li>
 <li><p><strong>iPhone6 plus</strong></p>
 <p>  64GB + Turquoise Silicone Case ， 稳定、流畅、省心、美观，续航不错、屏幕尺寸合适。</p>
@@ -2102,9 +1915,9 @@
     <link href="http://icehe.me/favourites/"/>
     <id>http://icehe.me/favourites/</id>
     <published>2015-11-18T16:00:00.000Z</published>
-    <updated>2016-03-08T02:41:37.000Z</updated>
+    <updated>2016-03-10T13:21:23.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li><em>Updated on 2016-03-08</em></li>
+<li><em>Updated on 2016-03-10</em></li>
 </ul>
 <p><em>玩过、看过的之中，最喜欢这些。</em></p>
 <h2 id="Books_书"><strong>Books 书</strong></h2><ul>
@@ -2270,7 +2083,7 @@
 </li>
 </ul>
 <p><br></p>
-<h2 id="TV_Drama_电视剧"><strong>TV Drama 电视剧</strong></h2><ul>
+<h2 id="TV_Dramas_电视剧"><strong>TV Dramas 电视剧</strong></h2><ul>
 <li><p><strong><a href="https://movie.douban.com/subject/24697949/" target="_blank" rel="external">半泽直树</a></strong></p>
 <p>  复仇，弱肉强食。</p>
 </li>
@@ -2340,14 +2153,20 @@
 </ul>
 <p><br></p>
 <h2 id="Animate_动画"><strong>Animate 动画</strong></h2><ul>
+<li><p><strong><a href="https://movie.douban.com/subject/25813424/" target="_blank" rel="external">乒乓</a></strong></p>
+<p>  人生，才能与努力。</p>
+</li>
 <li><p><strong><a href="https://movie.douban.com/subject/1800597/" target="_blank" rel="external">虫师</a></strong></p>
 <p>  恬静，幽深。</p>
 </li>
 <li><p><strong><a href="https://movie.douban.com/subject/1474243/" target="_blank" rel="external">棋魂</a></strong></p>
 <p>  迷上围棋。</p>
 </li>
+<li><p><strong><a href="https://movie.douban.com/review/7794549/" target="_blank" rel="external">亚人</a></strong></p>
+<p>  人性，理性。</p>
+</li>
 <li><p><strong><a href="http://baike.baidu.com/view/15161941.htm?fromtitle=%E5%AF%84%E7%94%9F%E5%85%BD%E7%94%9F%E5%91%BD%E7%9A%84%E5%87%86%E5%88%99&amp;fromid=15149279&amp;type=syn" target="_blank" rel="external">寄生兽</a></strong></p>
-<p>  人性。</p>
+<p>  人性，自然。</p>
 </li>
 <li><p><strong><a href="http://movie.douban.com/subject_search?search_text=%E5%89%91%E9%A3%8E%E4%BC%A0%E5%A5%87&amp;cat=1002" target="_blank" rel="external">剑风传奇</a></strong></p>
 <p>  快意恩仇。</p>
@@ -2439,7 +2258,7 @@
 <li><span class="val_pos icon-douban"> &nbsp;<a href="http://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">…其它看过的片…</a></span></li>
 </ul>
 <p><br></p>
-<h2 id="Game_游戏"><strong>Game 游戏</strong></h2><h3 id="iOS"><strong>iOS</strong></h3><ul>
+<h2 id="Games_游戏"><strong>Games 游戏</strong></h2><h3 id="iOS"><strong>iOS</strong></h3><ul>
 <li><p><strong><a href="https://itunes.apple.com/en/app/deemo/id700637744?mt=8" target="_blank" rel="external">Deemo</a></strong></p>
 <p>  最爱的音乐游戏，最爱曲目：Magnolia 。超喜欢这个游戏工作室：Rayark（台湾）！</p>
 <p>  其它喜爱的曲目：<br>  Nine point nine , Platinum , Utopiosphere , Yubikiri-genman , Invite , Run go run , Pulses , Electron , Walking by the sea , Beyond the Stratus , Angelic sphere , Leviathan , Suspenseful third day , Living in the one , Little corgis dream , The way we were , The red coronation , Knight of firmament , Cream stew , I can not say , Kireigoto , New World , Time forgotten , Reminiscence .</p>
@@ -2506,7 +2325,7 @@
 </li>
 </ul>
 <p><br></p>
-<h3 id="Gal_Game"><strong>Gal Game</strong></h3><ul>
+<h3 id="Gal_Games"><strong>Gal Games</strong></h3><ul>
 <li><p><strong><a href="https://zh.wikipedia.org/wiki/%E6%B2%99%E8%80%B6%E4%B9%8B%E6%AD%8C" target="_blank" rel="external">沙耶之歌</a></strong></p>
 <p>  我的重口Gal入门作，虚渊玄作品。</p>
 </li>
@@ -2529,6 +2348,42 @@
 </li>
 <li><p><strong><a href="https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E8%B7%B3%E6%A3%8B" target="_blank" rel="external">跳棋</a></strong></p>
 </li>
+</ul>
+<p><br></p>
+<h2 id="Singer_歌手">Singer 歌手</h2><ul>
+<li><strong>Twins</strong> <sup><strong>Most</strong></sup></li>
+<li><strong>古巨基</strong> <sup><strong>Most</strong></sup></li>
+<li><strong>卫兰</strong></li>
+<li><strong>陈奕迅</strong> <sup><strong>Most</strong></sup></li>
+<li>邓丽欣</li>
+<li>方力申</li>
+<li><strong>杨千嬅</strong> <sup><strong>Most</strong></sup></li>
+<li><strong>周杰伦</strong></li>
+<li>F.I.R</li>
+<li><strong>S.H.E</strong></li>
+<li><strong>Tank</strong></li>
+<li>王心凌</li>
+<li><strong>王力宏</strong></li>
+<li><strong>陶喆</strong> <sup><strong>Most</strong></sup></li>
+<li><strong>Rie fu</strong></li>
+<li>张敬轩</li>
+<li><strong>苏打绿</strong></li>
+<li>孙燕姿</li>
+<li>南拳妈妈</li>
+<li><strong>陈绮贞</strong> <sup><strong>Most</strong></sup></li>
+<li><strong>张韶涵</strong></li>
+<li><strong>梁静茹</strong> <sup><strong>Most</strong></sup></li>
+<li><strong>初音ミク</strong> <sup><strong>Most</strong></sup></li>
+<li>王菲</li>
+<li><strong>方大同</strong> <sup><strong>Most</strong></sup></li>
+<li>ClariS</li>
+<li>Egoist</li>
+<li>Supercell</li>
+<li><strong>小野リサ</strong> <sup><strong>Most</strong></sup></li>
+<li>羊毛とおはな</li>
+<li>陈洁仪</li>
+<li>Olivia Ong</li>
+<li>李荣浩</li>
 </ul>
 <p><br></p>
 <h2 id="Related_相关"><strong>Related 相关</strong></h2><ul>

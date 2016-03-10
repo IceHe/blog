@@ -32,7 +32,7 @@
 
     var url = window.location.href;
     if (-1 != url.indexOf(&apos;404.html&apos;)) { // visit">
-<meta property="og:updated_time" content="2016-01-18T13:08:52.000Z">
+<meta property="og:updated_time" content="2016-03-10T13:33:26.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="404">
 <meta name="twitter:description" content="404 &amp;nbsp;Not Found找不到您要的页面
@@ -174,9 +174,13 @@
         document.getElementById('url').innerHTML = url;
 
         if (-1 != url.indexOf('Donate%20%E6%89%93%E8%B5%8F')
-            || -1 != url.indexOf('Donate%E6%89%93%E8%B5%8F') 
+            || -1 != url.indexOf('Donate%E6%89%93%E8%B5%8F')
         ) {
             window.location.href = '/web/donate/';
+        }
+
+        if (-1 != url.indexOf('/think/2016_spring/')) {
+            window.location.href = '/note/2016_spring.html';
         }
 
         if (url.match(/http:\/\/icehe.me\/\d\d\d\d\/\d\d\/\d\d/)) {
