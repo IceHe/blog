@@ -5,8 +5,10 @@ tags: [read]
 description: 本博客的导航页。
 ---
 
-- *Updated on 2016-03-07*
-- __[Archives 归档 (Sort by time)](/archives)__
+- [Archives 归档 ( Sort by Time )](/archives)
+- _Updated on 2016-03-13_
+
+## Sort by Category
 
 ### __[Whoami](/categories/whoami)__
 
@@ -14,9 +16,14 @@ description: 本博客的导航页。
 - [My Timeline 时间轴](/timeline) <sup>me</sup>
 - [How to Reward Me! 怎么打赏博主~](/reward)
 
+### __[AppleScript](/categories/AppleScript)__
+
+- [AppleScript Quick Start 快速入门](/applescript/applescript/)
+- [用 AppleScript 操作 Evernote / OS X](/applescript/evernote_osx/)
+
 ### __[Command](/categories/Command)__
 
-- [CLI Note 命令行](/cmd/command_line) <sup>_todo_</sup>
+<!--- [CLI Note 命令行](/cmd/command_line) <sup>_todo_</sup>-->
 - [Git Note](/cmd/git_note)
 
 ### __[Mac](/categories/Mac)__
