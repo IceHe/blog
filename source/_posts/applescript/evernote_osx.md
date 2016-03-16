@@ -5,7 +5,7 @@ tags: [AppleScript]
 description: 在 OS X 上，如何使用 AppleScript 操作 Evernote、OS X。
 -----------------------------------------------------------------------
 
-- _Updated on 2016-03-13_
+- _Updated on 2016-03-16_
 - I supposed that you have learned AppleScript, so I will not introduce it in detail.
 - You can learn AppleScript in practice or my [AppleScript Quick Start 快速入门](/applescript/applescript/).
 
@@ -122,54 +122,62 @@ end tell
 
 ### __Note__
 
-- Exist, Find, Create, Import, Export, Read, Rename, Delete
+- Exist, Find, Create, Import, Export, Read, Rename, Move, Delete
 
 ``` applescript
-set notebook_name to "nb_1"
-set enex_path to "path_1" # as Unix dir path
-if (notebook named notebook_name) exists then
+tell application "Evernote"
+    set notebook_name to "nb_1"
+    set enex_path to "path_1" # as Unix dir path
+    if (notebook named notebook_name) exists then
 
-    -- Import Note
-    import (enex_path as POSIX file) to notebook_name
+        -- Import Note
+        import (enex_path as POSIX file) to notebook_name
 
-end if
+    end if
 
--- Find Notes (by a search expression)
--- `find notes "search_expr"` returns a list that contains one or more notes.
-set note_found to find notes "intitle:\"" & note_name & "\""
--- Search Grammar: https://dev.evernote.com/doc/articles/search_grammar.php
+    -- Find Notes (by a search expression)
+    -- `find notes "search_expr"` returns a list that contains one or more notes.
+    set note_found to find notes "intitle:\"" & note_name & "\""
+    -- Search Grammar: https://dev.evernote.com/doc/articles/search_grammar.php
 
--- Make sure that only one note specified by the search expression was found.
--- Just manipulate the specified one for avoiding misoperations.
-if (count of note_found) = 1 then
+    -- Make sure that only one note specified by the search expression was found.
+    -- Just manipulate the specified one for avoiding misoperations.
+    if (count of note_found) = 1 then
 
-    -- Read Note (as HTML)
-    set html_cont to HTML content of (item 1 of note_found)
+        -- Read Note (as HTML)
+        set html_cont to HTML content of (item 1 of note_found)
 
-    -- Append Note (with plain text)
-    append (item 1 of note_found) text text_append
+        -- Append Note (with plain text)
+        append (item 1 of note_found) text text_append
 
-    -- Export Note (as HTML)
-    set html_path to "html_path"
-    export note_found to (POSIX file html_path) format HTML
+        -- Export Note (as HTML)
+        set html_path to "html_path"
+        export note_found to (POSIX file html_path) format HTML
 
-    -- Export Note (as ENEX)
-    export note_found to (POSIX file enex_path)
+        -- Export Note (as ENEX)
+        export note_found to (POSIX file enex_path)
 
-    -- Delete Note
-    delete item 1 of note_found
+        -- Move Notes
+        set note_found to find notes "intitle:\"notebook_name\""
+        repeat with each_note in note_found
+            move each_note to notebook named "another_notebook_name"
+        end repeat
 
-end if
+        -- Delete Note
+        delete item 1 of note_found
 
-set new_note_name to "note_b"
-set note_found to find notes "intitle:\"" & note_name & "\""
+    end if
 
-if (note_name ≠ new_note_name) and (count of note_found) = 1 then
+    set new_note_name to "note_b"
+    set note_found to find notes "intitle:\"" & note_name & "\""
 
-    -- Rename Note
-    set title of item 1 of note_found to new_note_name
+    if (note_name ≠ new_note_name) and (count of note_found) = 1 then
 
-end if
+        -- Rename Note
+        set title of item 1 of note_found to new_note_name
+
+    end if
+end tell
 ```
 
 <br/>
