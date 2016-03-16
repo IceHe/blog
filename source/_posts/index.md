@@ -6,14 +6,13 @@ description: 本博客的导航页。
 ---
 
 - [Archives 归档 ( Sort by Time )](/archives)
-- _Updated on 2016-03-13_
+- _Updated on 2016-03-16_
 
 ## Sort by Category
 
 ### __[Whoami](/categories/whoami)__
 
 - [Me 我](/about) &nbsp;/&nbsp; [Resume 简历](/resume) <sup>me</sup>
-- [My Timeline 时间轴](/timeline) <sup>me</sup>
 - [How to Reward Me! 怎么打赏博主~](/reward)
 
 ### __[AppleScript](/categories/AppleScript)__
