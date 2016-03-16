@@ -471,7 +471,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [有什么知识，你知道后你的世界马上就不一样了？](https://www.zhihu.com/question/38632401) —— 不要看对方说了什么，而是思考他为什么说这个。
 
-- [有什么知识，你知道后你的世界马上就不一样了？](https://www.zhihu.com/question/38632401/answer/77853819) —— 学好逻辑很有用！
+- [有什么知识，你知道后你的世界马上就不一样了？](https://www.zhihu.com/question/38632401/answer/77853819) —— 学好逻辑很有用！<sup>_todo_</sup>
 
 - [还有什么比揭人伤疤、往伤口撒盐更刺激的事呢?](http://www.wtoutiao.com/p/pbayZp.html) —— 异见。
 
@@ -485,9 +485,9 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [生命真的在于运动么？](https://www.zhihu.com/question/24498231) —— 生命在于运动。 <sup>__Best__</sup>
 
-- [没有锻炼基础的人，如何增肌与减脂？](https://www.zhihu.com/question/20687290) —— 汇总。
+- [没有锻炼基础的人，如何增肌与减脂？](https://www.zhihu.com/question/20687290) —— 汇总。<sup>_todo_</sup>
 
-- [什么样的有氧才真让你瘦？](http://zhuanlan.zhihu.com/oh-hard/19684185) —— 高强度间歇有氧，在短时间内将高强度与低强度训练结合。
+- [什么样的有氧才真让你瘦？](http://zhuanlan.zhihu.com/oh-hard/19684185) —— 高强度间歇有氧，在短时间内将高强度与低强度训练结合。<sup>_todo_</sup>
 
 - [练腹肌？你这是在练水桶腰！](http://zhuanlan.zhihu.com/oh-hard/20273384?utm_campaign=official_account&utm_source=weibo&utm_medium=zhihu&utm_content=zhuanlan)
 
@@ -515,7 +515,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 ### **EN 英语**
 
-- [程序员英语学习指引](http://lucida.me/blog/english-for-programmers/) —— 「除非你阅读原版书籍和中文书籍一样顺畅，或者翻译书籍信息损失量太大，否则不需要刻意阅读原版。」
+- [程序员英语学习指引](http://lucida.me/blog/english-for-programmers/) —— 「除非你阅读原版书籍和中文书籍一样顺畅，或者翻译书籍信息损失量太大，否则不需要刻意阅读原版。」<sup>_todo_</sup>
 
 - [单词全认识却看不懂句子怎么办？](https://www.zhihu.com/question/28640901/answer/63421701) —— 一词多义、语境、词组、语法、文化背景。 <sup>_todo_</sup>
 
@@ -533,7 +533,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - **[商业分析能力是怎样炼成的？](https://www.zhihu.com/question/20603837/answer/47073613)** <sup>__Best__</sup>
 
-- [普通人如何合理的理财投资，有哪些书可以学习阅读？](https://www.zhihu.com/question/22818974) —— 必修课。
+- [普通人如何合理的理财投资，有哪些书可以学习阅读？](https://www.zhihu.com/question/22818974) —— 必修课。<sup>_todo_</sup>
 
 - [《天上不会掉馅饼》知乎专栏](http://zhuanlan.zhihu.com/wontfallinyourlap) —— 金融投资诈骗真相与投资方面的常识。 <sup>__Best__</sup> <sup>_todo_</sup>
 
