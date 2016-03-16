@@ -1,0 +1,684 @@
+
+
+
+  <!DOCTYPE HTML>
+<html lang="default">
+<head>
+  <meta charset="UTF-8">
+  
+
+	<title>Web Concepts | Ice He 何志远</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+	
+	<meta name="author" content="IceHe何志远">
+	
+
+	
+	<meta name="description" content="灰度发布灰度发布是指在黑与白之间，能够平滑过渡的一种发布方式。AB test就是一种灰度发布方式，让一部分用户继续用A，一部分用户开始用B，如果用户对B没有什么反对意见，那么逐步扩大范围，把所有用户都迁移到B上面来。灰度发布可以保证整体系统的稳定，在初始灰度的时候就可以发现、调整问题，以保证其影响度。
+Web安全色不同的平台（Mac、PC等）有不同的调色板，不同的浏览器也有自己的调色板。这就意味着">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Web Concepts">
+<meta property="og:url" content="http://icehe.me/note/web.html">
+<meta property="og:site_name" content="Ice He 何志远">
+<meta property="og:description" content="灰度发布灰度发布是指在黑与白之间，能够平滑过渡的一种发布方式。AB test就是一种灰度发布方式，让一部分用户继续用A，一部分用户开始用B，如果用户对B没有什么反对意见，那么逐步扩大范围，把所有用户都迁移到B上面来。灰度发布可以保证整体系统的稳定，在初始灰度的时候就可以发现、调整问题，以保证其影响度。
+Web安全色不同的平台（Mac、PC等）有不同的调色板，不同的浏览器也有自己的调色板。这就意味着">
+<meta property="og:updated_time" content="2016-03-16T07:49:21.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Web Concepts">
+<meta name="twitter:description" content="灰度发布灰度发布是指在黑与白之间，能够平滑过渡的一种发布方式。AB test就是一种灰度发布方式，让一部分用户继续用A，一部分用户开始用B，如果用户对B没有什么反对意见，那么逐步扩大范围，把所有用户都迁移到B上面来。灰度发布可以保证整体系统的稳定，在初始灰度的时候就可以发现、调整问题，以保证其影响度。
+Web安全色不同的平台（Mac、PC等）有不同的调色板，不同的浏览器也有自己的调色板。这就意味着">
+
+  
+  <link rel="alternative" href="/atom.xml" title="Ice He 何志远" type="application/atom+xml">
+  
+  
+  <link rel="icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon.ico">
+  
+  
+  <link rel="apple-touch-icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+  <link rel="apple-touch-icon-precomposed" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+  
+
+  <!-- <link rel="stylesheet" href="/css/style.css" type="text/css"> -->
+  <!--<link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/css/style.css" type="text/css">-->
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+  <!-- 百度站内搜索 for github站 icehe.me -->
+  <!--<meta name="baidu-site-verification" content="04tLeUMqMf" />-->
+  <!-- 百度站内搜索 for github站 icehe.github.io -->
+  <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
+
+  <!-- 谷歌站长工具 元标签验证码 -->
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
+
+  <!-- 微博开放平台 元标签验证码 -->
+  <meta property="wb:webmaster" content="84efd5956048ab8f" />
+
+  <!-- Google Fonts from 360 CDN -->
+  <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
+
+  <!-- Common CSS -->
+  <style type="text/css">
+    .center { text-align: center; }
+    .hidden { display: none; }
+    /*span.hitokoto a { color: white; } // for 一言*/
+  </style>
+
+  <!-- font-awesome -->
+  <link href="//libs.cncdn.cn/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- 一言 -->
+  <!-- <script type="text/javascript" src="http://api.hitokoto.us/rand?encode=js&charset=utf-8"></script> -->
+</head>
+
+    <body>
+      <header>
+        <script type="text/javascript">
+	// 判断现在个人站是在哪一个网址上！
+	var isOnGithub = (-1 != location.href.indexOf("icehe.me"));
+	var isOnGitcafe = (-1 != location.href.indexOf("icehe.gitcafe.io"));
+</script>
+
+
+<div>
+	
+		<div id="imglogo">
+			<a href="/">
+				<!-- <img src="/http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="Ice He 何志远" title="Ice He 何志远"/> -->
+				<img src="http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="Ice He 何志远" title="Ice He 何志远"/>
+			</a>
+		</div>
+	
+
+	<div id="textlogo">
+		<h1 class="site-name"><a href="/" title="Ice He 何志远">Ice He 何志远</a></h1>
+		<h2 class="blog-motto">Less is more  宁静致远</h2>
+	</div>
+	<div class="navbar">
+		<a class="navbutton navmobile" href="#" title="Menu"></a>
+	</div>
+	<nav class="animated">
+		<ul>
+			<ul>
+			
+				<li><a href="/">Blog 文</a></li>
+			
+				<li><a href="/about">Me 我</a></li>
+			
+				<li><a href="/index">Index 目录</a></li>
+			
+				<li>
+				
+
+					<form class="search" action="/search/index.html" method="get" accept-charset="utf-8">
+					<!--<form class="search" action="" method="get" accept-charset="utf-8">-->
+						<label>Search</label>
+						<input type="search" id="search" autocomplete="on" name="q" maxlength="20" placeholder="Find" />
+					</form>
+
+				
+				</li>
+			</ul>
+		</ul>
+	</nav>
+</div>
+
+      </header>
+      <div id="container">
+        <div id="main" class="page" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name" class="article-title">
+    
+      <a href="/note/web.html" title="Web Concepts" itemprop="url" class="article-url">Web Concepts</a>
+  </h1>
+  <p class="article-readtimes">
+    Read ( <span class="readtimes">?</span> )
+  </p>
+  <p class="article-author"> By
+    
+    <a href="/about" title="IceHe何志远" target="_blank" itemprop="author">IceHe何志远</a>
+    
+  </p>
+  <p class="article-time">
+    <time datetime="2016-03-16T07:49:21.000Z" itemprop="datePublished"> Published 2016 Mar 16</time>
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">Contents</strong>
+		
+			
+		
+		</div>
+		
+		<blockquote>
+<p>灰度发布<br>灰度发布是指在黑与白之间，能够平滑过渡的一种发布方式。<br>AB test就是一种灰度发布方式，让一部分用户继续用A，一部分用户开始用B，<br>如果用户对B没有什么反对意见，那么逐步扩大范围，把所有用户都迁移到B上面来。<br>灰度发布可以保证整体系统的稳定，在初始灰度的时候就可以发现、调整问题，以保证其影响度。</p>
+<p>Web安全色<br>不同的平台（Mac、PC等）有不同的调色板，不同的浏览器也有自己的调色板。<br>这就意味着对于一幅图，显示在Mac上的Web浏览器中的图像，<br>与它在PC上相同浏览器中显示的效果可能差别很大。</p>
+</blockquote>
+<p>256色里有40种颜色在Macintosh和Windows里显示的效果不一样，<br>所以能安全使用的只有216色。<br>为了尽量让用户看到色彩相同的网页，请尽量使用下面的216色。</p>
+<blockquote>
+<p>响应式（布局）设计<br>一个网站能够兼容多个终端——而不是为每个终端做一个特定的版本。<br>这个概念是为解决移动互联网浏览而诞生的。</p>
+</blockquote>
+<p>优点：<br>面对不同分辨率设备灵活性强<br>能够快捷解决多设备显示适应问题</p>
+<p>缺点：<br>兼容各种设备工作量大，效率低下<br>代码累赘，会出现隐藏无用的元素，加载时间加长<br>其实这是一种折中性质的设计解决方案，多方面因素影响而达不到最佳效果<br>一定程度上改变了网站原有的布局结构，会出现用户混淆的情况</p>
+<blockquote>
+<p>Node.js<br>Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台，<br>用来方便地搭建快速的 易于扩展的网络应用· Node.js 借助事件驱动，<br>非阻塞I/O 模型变得轻量和高效，非常适合运行在分布式设备的数据密集型的实时应用。<br>V8引擎执行Javascript的速度非常快，性能非常好。<br>Node对一些特殊用例进行了优化，提供了替代的API，<br>使得V8在非浏览器环境下运行得更好。</p>
+</blockquote>
+<p>V8引擎本身使用了一些最新的编译技术。<br>这使得用Javascript这类脚本语言编写出来的代码运行速度获得了极大提升，<br>却节省了开发成本。对性能的苛求是Node的一个关键因素。<br>Javascript是一个事件驱动语言，Node利用了这个优点，编写出可扩展性高的服务器。<br>Node采用了一个称为“事件循环(event loop）”的架构，<br>使得编写可扩展性高的服务器变得既容易又安全。提高服务器性能的技巧有多种多样。<br>Node选择了一种既能提高性能，又能减低开发复杂度的架构。<br>并发编程通常很复杂且布满地雷。Node绕过了这些，但仍提供很好的性能。</p>
+<blockquote>
+<p>Bootstrap（Web前端CSS框架）<br>Bootstrap是Twitter推出的一个开源的用于前端开发的工具包。<br>它由Twitter的设计师Mark Otto和Jacob Thornton合作开发，是一个CSS/HTML框架。<br>Bootstrap提供了优雅的HTML和CSS规范，它即是由动态CSS语言Less写成。<br>Bootstrap一经推出后颇受欢迎，一直是GitHub上的热门开源项目，<br>包括NASA的MSNBC（微软全国广播公司）的Breaking News都使用了该项目。</p>
+<p>LDAP - Lightweight Directory Access Protocol - 轻量目录访问协议<br>LDAP目录以树状的层次结构来存储数据。<br>如果你对自顶向下的DNS树或UNIX文件的目录树比较熟悉，也就很容易掌握LDAP目录树这个概念了。<br>就象DNS的主机名那样，LDAP目录记录的标识名（Distinguished Name，简称DN）是用来读取单个记录，<br>以及回溯到树的顶部。后面会做详细地介绍。</p>
+<p>Navigation - 导航<br>navbar<br>包含用于网站内所有网页中顶部链接的导航区域的定义或用于主页的快速启动区域的定义。</p>
+<p>面包屑（breadcrumb）<br>源于一个童话，在网站中就是一行层级属性链接组成的线性链接标示（我的表述），<br>比如：首页&gt;&gt;关于&gt;&gt;招聘&gt;&gt;职位，它可以清晰的显示出页面在站点整体结构中的位置，用户则不易迷失。</p>
+<p>MemCache<br>Memcache是一个高性能的分布式的内存对象缓存系统，<br>通过在内存里维护一个统一的巨大的hash表，它能够用来存储各种格式的数据，<br>包括图像、视频、文件以及数据库检索的结果等。<br>简单的说就是将数据调用到内存中，然后从内存中读取，从而大大提高读取速度。</p>
+</blockquote>
+<p> Memcached是以守护程序(监听)方式运行于一个或多个服务器中，随时会接收客户端的连接和操作。</p>
+<blockquote>
+<p>DOM 对象 opener<br>opener 属性是一个可读可写的属性，可返回对创建该窗口的 Window 对象的引用。<br>opener 属性非常有用，创建的窗口可以引用创建它的窗口所定义的属性和函数。<br>（例）<br>window.opener.showskin(select.join( ‘,’ ));</p>
+<p>CDN<br>CDN的全称是Content Delivery Network，即内容分发网络。<br>其基本思路是尽可能避开互联网上有可能影响数据传输速度和稳定性的瓶颈和环节，使内容传输的更快、更稳定。<br>通过在网络各处放置节点服务器所构成的在现有的互联网基础之上的一层智能虚拟网络，<br>CDN系统能够实时地根据网络流量和各节点的连接、负载状况以及到用户的距离和响应时间等综合信息<br>将用户的请求重新导向离用户最近的服务节点上。<br>其目的是使用户可就近取得所需内容，解决 Internet网络拥挤的状况，提高用户访问网站的响应速度。</p>
+<p>Markdown<br>Markdown还有一系列衍生版本，用于扩展Markdown的功能（如表格、脚注、内嵌HTML等等），<br>这些功能原初的Markdown尚不具备，同时，也能让Markdown转换成更多的格式，<br>例如LaTeX，Docbook。Markdown增强版中比较有名的有Markdown Extra、MultiMarkdown、 Maruku等。<br>这些衍生版本要么基于工具，如Pandoc；要么基于网站，<br>如GitHub和Wikipedia，在语法上基本兼容，但在换行等细节上也有改动。[1]</p>
+<p>EJS<br>是一个JavaScript模版库，用来从JSON数据中生成HTML字符串。<br>我的Hexo个人技术博客的Theme Jacman 就在使用它！<br>官网：<a href="http://www.embeddedjs.com/" target="_blank" rel="external">http://www.embeddedjs.com/</a></p>
+<p>ETL : Extract-Transform-Load<br>描述：将资料从来源端，经过萃取extract、转置transform、载入load至目的端的过程。</p>
+<p>MapReduce<br>map映射，reduce归约。MapReduce是一种编程模型，<br>用于大规模数据集（大于1TB）的并行计算。</p>
+</blockquote>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://icehe.me/note/web.html" data-title="Web Concepts | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+   	       
+	</article>
+	
+	<section id="comments" class="comment"></section>
+
+
+<!-- Duoshuo Show UA -->
+<!--<link href="https://raw.githubusercontent.com/easunlee/make_duoshuo_show_ua/master/src/show.ua.css" rel="stylesheet">-->
+<!--<script type="text/javascript" async="" src="http://faisalman.github.io/ua-parser-js/src/ua-parser.js" charset="UTF-8"></script>-->
+
+
+<script type="text/javascript">
+
+
+var duoshuoQuery = {short_name:"icehe"};
+(function() {
+	var ds = document.createElement('script');
+	ds.type = 'text/javascript';ds.async = true;
+	ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+	ds.charset = 'UTF-8';
+	(document.getElementsByTagName('head')[0]
+	|| document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+
+
+
+
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="note/web.html" data-title="Web Concepts" data-url="http://icehe.me/note/web.html"></div>'
+//	+ '<hr/>'
+//	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
+//	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
+//	+ '</div>';
+
+//function loadDisqus(){
+//	var disqus_shortname = 'icehe';
+//
+//	(function(){
+//		var dsq = document.createElement('script');
+//		dsq.type = 'text/javascript';
+//		dsq.async = true;
+//		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+//		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+//	}());
+//
+//	(function(){
+//		var dsq = document.createElement('script');
+//		dsq.type = 'text/javascript';
+//		dsq.async = true;
+//		dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+//		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+//	}());
+
+//	document.getElementById('disqus_div').innerHTML = '<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>';
+//}
+
+</script>
+
+</div>  
+      </div>
+      <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<div class="social-font" class="clearfix">
+		
+		<a href="https://github.com/IceHe" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		<a href="http://weibo.com/icedes" target="_blank" class="icon-weibo" title="微博"></a>
+		
+		
+		
+		
+		
+		
+		
+		<a href="https://www.douban.com/people/IceHeGZ" target="_blank" class="icon-douban" title="豆瓣"></a>
+		
+		
+		
+		
+		<a href="mailto:x@icehe.me" target="_blank" class="icon-email" title="Email Me"></a>
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2016 
+		
+		<a href="/about" target="_blank" title="IceHe何志远">IceHe何志远</a>
+		
+		
+		</p>
+</div>
+</footer>
+      <!--<script src="/js/jquery-2.0.3.min.js"></script>-->
+<script id="jQueryLink" src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript">
+  window.jQuery || document.write('<script src="/js/jquery-2.0.3.min.js"><\/script>');
+</script>
+
+<!--<script src="/js/jquery.imagesloaded.min.js"></script>-->
+<!--<script src="/js/gallery.js"></script>-->
+<!--<script src="/js/jquery.qrcode-0.12.0.min.js"></script>-->
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.imagesloaded.min.js"></script>
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/gallery.js"></script>
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.qrcode-0.12.0.min.js"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize();
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+    }
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+//      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var title = '《 ' + $('.article-url').attr('title') + ' 》@IceHe何志远 的技术博客『 '
+          + document.getElementsByName('description')[0].content + '』';
+  var weibo_share_url = 'http://service.weibo.com/share/share.php?type=button&searchPic=true&style=full&title=' + title + '&url=' + encodedUrl + '&pic=http%3A%2F%2F7vzp68.com1.z0.glb.clouddn.com%2Fabout%2Favatar_03a.jpg&appkey=' + tsina;
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="javascript:;" class="article-share-weibo" title="微博" onclick="window.open(\'' + weibo_share_url + '\', \'_blank\', \'width=615,height=505\')"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});
+</script>
+
+
+
+
+<!--<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">-->
+<!--<script src="/fancybox/jquery.fancybox.pack.js"></script>-->
+<link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+<div style="display: none;">
+	<script type="text/javascript">
+	
+		if(isOnGithub){
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-60837823-1', 'auto');  
+			ga('send', 'pageview');
+		}
+	
+
+	
+		if(isOnGitcafe){
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-60837823-2', 'auto');  
+			ga('send', 'pageview');
+		}
+	
+
+	
+		if(isOnGithub){
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		}
+	
+
+	
+		if(isOnGitcafe){
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?68e951d2eed2725bdd8cf4b1900d632f";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		}
+	
+	
+	</script>
+</div>
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+<div id="totop">
+	<!-- <a title="Back to Top"><img src="/img/scrollup.png"/></a> -->
+	<a title="Back to Top"><img src="//7vzp68.com1.z0.glb.clouddn.com/common/scrollup.png"/></a>
+</div>
+<!--<script src="/js/totop.js"></script>-->
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Lean Cloud Begin -->
+<script src="https://leancloud.cn/scripts/lib/av-0.5.0.min.js"></script>
+<script type="text/javascript">
+  AV.initialize("u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5");
+  // 初始化 param1：应用 id、param2：应用 key
+
+  function addCount (Counter) {
+    url = $('.article-url').attr('href').trim();
+    title = $('.article-title').text().trim();
+    var query = new AV.Query(Counter);
+    //use url as unique idnetfication
+    query.equalTo("url",url);
+    query.find({
+      success: function(results){
+        if(results.length>0){
+          var counter = results[0];
+          counter.fetchWhenSave(true); //get recent result
+          counter.increment("time");
+          counter.save();
+        }else{
+          var newcounter = new Counter();
+          newcounter.set("title", title);
+          newcounter.set("url", url);
+          newcounter.set("time", 1);
+          newcounter.save(null, {
+            success: function(newcounter){
+              //alert('New object created');
+            },
+            error: function(newcounter,error){
+              //alert('Failed to create');
+            }
+          });
+        }
+      },
+      error: function(error){
+        // find null is not a error
+        //alert('Error:' + error.code + " " + error.message);
+      }
+    });
+  }
+
+  $(function(){
+    var Counter = AV.Object.extend("Counter");
+    // only increse visit counting when intering a page
+    if((isOnGithub || isOnGitcafe) && $('.article-title').length == 1) {
+      addCount(Counter);
+    }
+
+    // if popularlist widget exists, add item to it.
+    var popular_list = $('.popularlist');
+    if(1 == popular_list.length){
+      var query = new AV.Query(Counter);
+      query.descending("time");
+      query.limit(15);
+      query.find({
+        success: function(results){
+          for(var i = 0; i < results.length; ++i){
+            var counter = results[i];
+            title = counter.get("title");
+            url = counter.get("url");
+            time = counter.get("time");
+
+            $('#popularlist_ul').append('<li><a href="'
+                    + url + '" name="'
+                    + title + '">'
+                    + (1 == ((i + 1) % 5)
+                            ? ('<b>' + (i + 1) + ' </b>') : '')
+                    + '<sup>'
+                    + time + ' </sup> &nbsp;'
+                    + title
+                    + '</a></li>'
+            );
+          }
+        },
+        error: function(error){
+          //alert("Error:" + error.code + " " + error.message);
+        }
+      });
+    }
+
+    // if cur page is a post, set the post pageview.
+    var article_info = $(".article-info");
+    if(1 == article_info.length){
+      var query = new AV.Query(Counter);
+      query.equalTo("url", article_info.find(".article-title a").attr("href"));
+      query.limit(1);
+      query.find({
+        success: function(results){
+          if(1 == results.length){
+            var counter = results[0];
+            title = counter.get("title");
+            url = counter.get("url");
+            time = counter.get("time");
+
+            article_info.find(".article-readtimes .readtimes").text(time);
+          }
+        },
+        error: function(error){
+          article_info.find(".article-readtimes .readtimes").text("?");
+          //alert("Error:" + error.code + " " + error.message);
+        }
+      });
+    }
+
+    // if cur page is Home, set the post_list pageviews.
+    var post_list = $("#main[class!=post]");
+    if(0 != post_list.length){
+      var post_items = post_list.find(".post a");
+      for(var i = 0; i < post_items.length; ++i){
+        var url = post_items.eq(i).attr("href");
+        query.equalTo("url", url);
+        query.limit(1);
+        query.find({
+          success: function(results){
+            if(1 == results.length){
+              var counter = results[0];
+              title = counter.get("title");
+              url = counter.get("url");
+              time = counter.get("time");
+
+              $(".post a[href='" + url + "']").find('.readtimes').text(time);
+            }
+          },
+          error: function(error){
+            //alert("Error:" + error.code + " " + error.message);
+          }
+        });
+      }
+    }
+  });
+
+  <!-- 百度 自动推送网页索引工具代码 -->
+  (function(){
+    var bp = document.createElement('script');
+    bp.src = '//push.zhanzhang.baidu.com/push.js';
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+
+</script>
+<!-- Lean Cloud End -->
+
+
+<!-- 不蒜子 网站计数 -->
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+<!-- 自动点击喜欢 -->
+<script type="text/javascript">
+  $(window).load(function() {
+    var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
+    if (1 == ds_like_button.length
+            && "none" != document.getElementsByClassName('ds-meta')[0].style.display
+            && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
+    ) {
+      ds_like_button[0].click();
+      document.getElementsByClassName('ds-like-tooltip-close')[0].click();
+      window.location.href = '#';
+    }
+  });
+</script>
+
+    </body>
+  </html>
+
+

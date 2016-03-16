@@ -1,0 +1,664 @@
+
+
+
+  <!DOCTYPE HTML>
+<html lang="default">
+<head>
+  <meta charset="UTF-8">
+  
+
+	<title>Vim Note | Ice He 何志远</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+	
+	<meta name="author" content="IceHe何志远">
+	
+
+	
+	<meta name="description" content="vim下unix和dos格式转换Vim取消粘贴的智能缩进Vim 字符编码转换VIM学习笔记 寄存器 (Registers)vim全局替换命令
+我在用的mac软件(1)–终端环境之iTerm2文本三巨头：zsh、tmux 和 vim
+Vim Note胡波给的帮助我排除vim疑难bug的方法：
+1--noplugins -u NONE&amp;#10;&amp;#10;%s/xxx/yyy/g &amp;#25991;&amp;#2">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Vim Note">
+<meta property="og:url" content="http://icehe.me/note/vim.html">
+<meta property="og:site_name" content="Ice He 何志远">
+<meta property="og:description" content="vim下unix和dos格式转换Vim取消粘贴的智能缩进Vim 字符编码转换VIM学习笔记 寄存器 (Registers)vim全局替换命令
+我在用的mac软件(1)–终端环境之iTerm2文本三巨头：zsh、tmux 和 vim
+Vim Note胡波给的帮助我排除vim疑难bug的方法：
+1--noplugins -u NONE&amp;#10;&amp;#10;%s/xxx/yyy/g &amp;#25991;&amp;#2">
+<meta property="og:updated_time" content="2016-03-16T07:18:12.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Vim Note">
+<meta name="twitter:description" content="vim下unix和dos格式转换Vim取消粘贴的智能缩进Vim 字符编码转换VIM学习笔记 寄存器 (Registers)vim全局替换命令
+我在用的mac软件(1)–终端环境之iTerm2文本三巨头：zsh、tmux 和 vim
+Vim Note胡波给的帮助我排除vim疑难bug的方法：
+1--noplugins -u NONE&amp;#10;&amp;#10;%s/xxx/yyy/g &amp;#25991;&amp;#2">
+
+  
+  <link rel="alternative" href="/atom.xml" title="Ice He 何志远" type="application/atom+xml">
+  
+  
+  <link rel="icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon.ico">
+  
+  
+  <link rel="apple-touch-icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+  <link rel="apple-touch-icon-precomposed" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+  
+
+  <!-- <link rel="stylesheet" href="/css/style.css" type="text/css"> -->
+  <!--<link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/css/style.css" type="text/css">-->
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+  <!-- 百度站内搜索 for github站 icehe.me -->
+  <!--<meta name="baidu-site-verification" content="04tLeUMqMf" />-->
+  <!-- 百度站内搜索 for github站 icehe.github.io -->
+  <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
+
+  <!-- 谷歌站长工具 元标签验证码 -->
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
+
+  <!-- 微博开放平台 元标签验证码 -->
+  <meta property="wb:webmaster" content="84efd5956048ab8f" />
+
+  <!-- Google Fonts from 360 CDN -->
+  <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
+
+  <!-- Common CSS -->
+  <style type="text/css">
+    .center { text-align: center; }
+    .hidden { display: none; }
+    /*span.hitokoto a { color: white; } // for 一言*/
+  </style>
+
+  <!-- font-awesome -->
+  <link href="//libs.cncdn.cn/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- 一言 -->
+  <!-- <script type="text/javascript" src="http://api.hitokoto.us/rand?encode=js&charset=utf-8"></script> -->
+</head>
+
+    <body>
+      <header>
+        <script type="text/javascript">
+	// 判断现在个人站是在哪一个网址上！
+	var isOnGithub = (-1 != location.href.indexOf("icehe.me"));
+	var isOnGitcafe = (-1 != location.href.indexOf("icehe.gitcafe.io"));
+</script>
+
+
+<div>
+	
+		<div id="imglogo">
+			<a href="/">
+				<!-- <img src="/http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="Ice He 何志远" title="Ice He 何志远"/> -->
+				<img src="http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="Ice He 何志远" title="Ice He 何志远"/>
+			</a>
+		</div>
+	
+
+	<div id="textlogo">
+		<h1 class="site-name"><a href="/" title="Ice He 何志远">Ice He 何志远</a></h1>
+		<h2 class="blog-motto">Less is more  宁静致远</h2>
+	</div>
+	<div class="navbar">
+		<a class="navbutton navmobile" href="#" title="Menu"></a>
+	</div>
+	<nav class="animated">
+		<ul>
+			<ul>
+			
+				<li><a href="/">Blog 文</a></li>
+			
+				<li><a href="/about">Me 我</a></li>
+			
+				<li><a href="/index">Index 目录</a></li>
+			
+				<li>
+				
+
+					<form class="search" action="/search/index.html" method="get" accept-charset="utf-8">
+					<!--<form class="search" action="" method="get" accept-charset="utf-8">-->
+						<label>Search</label>
+						<input type="search" id="search" autocomplete="on" name="q" maxlength="20" placeholder="Find" />
+					</form>
+
+				
+				</li>
+			</ul>
+		</ul>
+	</nav>
+</div>
+
+      </header>
+      <div id="container">
+        <div id="main" class="page" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name" class="article-title">
+    
+      <a href="/note/vim.html" title="Vim Note" itemprop="url" class="article-url">Vim Note</a>
+  </h1>
+  <p class="article-readtimes">
+    Read ( <span class="readtimes">?</span> )
+  </p>
+  <p class="article-author"> By
+    
+    <a href="/about" title="IceHe何志远" target="_blank" itemprop="author">IceHe何志远</a>
+    
+  </p>
+  <p class="article-time">
+    <time datetime="2016-03-16T07:18:12.000Z" itemprop="datePublished"> Published 2016 Mar 16</time>
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">Contents</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Vim_Note"><span class="toc-number">1.</span> <span class="toc-text">Vim Note</span></a></li></ol>
+		
+		</div>
+		
+		<p><a href="http://www.2cto.com/os/201309/244729.html" target="_blank" rel="external">vim下unix和dos格式转换</a><br><a href="http://www.cnblogs.com/end/archive/2012/06/01/2531147.html" target="_blank" rel="external">Vim取消粘贴的智能缩进</a><br><a href="http://www.cnblogs.com/jaiho/archive/2011/08/24/2056375.html" target="_blank" rel="external">Vim 字符编码转换</a><br><a href="http://yyq123.blogspot.hk/2010/10/vim-registers.html" target="_blank" rel="external">VIM学习笔记 寄存器 (Registers)</a><br><a href="http://andyss.blog.51cto.com/315552/131652" target="_blank" rel="external">vim全局替换命令</a></p>
+<p><a href="http://foocoder.com/blog/wo-zai-yong-de-macruan-jian.html/" target="_blank" rel="external">我在用的mac软件(1)–终端环境之iTerm2</a><br><a href="http://blog.jobbole.com/86571/" target="_blank" rel="external">文本三巨头：zsh、tmux 和 vim</a></p>
+<h1 id="Vim_Note">Vim Note</h1><p>胡波给的帮助我排除vim疑难bug的方法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">--noplugins -u NONE&#10;&#10;%s/xxx/yyy/g &#25991;&#20214;&#20840;&#23616;&#26367;&#25442;&#10;&#10;&#26080;&#34892;&#21495; set nonu&#10;&#35774;&#32622;&#34892;&#21495; set nu&#10;&#10;&#22240;&#20026;&#65292;Vim&#25554;&#20214;&#26368;&#21518;&#20915;&#23450;&#23436;&#20840;&#37319;&#29992;spf13&#30340;&#37197;&#32622;&#65281;&#10;&#25152;&#20197;&#65292;&#20197;&#21518;&#23601;&#21435;&#26597;&#30475;&#30340;&#23448;&#26041;&#32593;&#31449;&#21363;&#21487;&#65281;&#10;&#10;&#25554;&#20837;&#27169;&#24335;&#19979;&#10;Ctrl+w     &#21024;&#38500;&#20809;&#26631;&#24038;&#36793;&#30340;&#21333;&#35789;&#10;Ctrl+h     &#21024;&#38500;&#20809;&#26631;&#24038;&#36793;&#30340;&#23383;&#10;Ctrl+a     &#36755;&#20837;&#19978;&#19968;&#27425;&#25554;&#20837;&#27169;&#24335;&#36755;&#20837;&#30340;&#23383;&#31526;&#20018;&#10;Ctrl+r 0     &#31896;&#36148;&#10;Ctrl+r *     &#20174;&#31995;&#32479;&#21098;&#20999;&#26495;&#20013;&#31896;&#36148;&#10;Ctrl+r &#60;&#23492;&#23384;&#22120;&#21517;&#31216;&#62;     &#20174;&#30456;&#24212;&#23492;&#23384;&#22120;&#20013;&#21462;&#24471;&#20869;&#23481;&#36827;&#34892;&#31896;&#36148;&#10;Ctrl+o &#8230;     &#25353;&#23427;&#20043;&#21518;&#25191;&#34892;&#19968;&#20010;&#26222;&#36890;&#27169;&#24335;&#19979;&#30340;&#25351;&#20196;&#65292;&#28982;&#21518;&#20250;&#22238;&#21040;&#25554;&#20837;&#27169;&#24335;&#10;&#10;&#25991;&#26412;&#26367;&#25442;&#10;&#20351;&#29992; :s/&#27491;&#21017;&#34920;&#36798;&#24335;/&#26367;&#25442;&#25991;&#26412;/ &#21487;&#22312;&#26412;&#34892;&#20869;&#26367;&#25442;&#39318;&#27425;&#20986;&#29616;&#30340;&#21305;&#37197;&#10;&#20351;&#29992; :s/&#27491;&#21017;&#34920;&#36798;&#24335;/&#26367;&#25442;&#25991;&#26412;/g &#22312;&#26412;&#34892;&#20869;&#26367;&#25442;&#25152;&#26377;&#20986;&#29616;&#30340;&#21305;&#37197;&#10;&#20351;&#29992; :%s/&#27491;&#21017;&#34920;&#36798;&#24335;/&#26367;&#25442;&#25991;&#26412;/g &#22312;&#24403;&#21069;&#25991;&#20214;&#20869;&#26367;&#25442;&#25152;&#26377;&#20986;&#29616;&#30340;&#21305;&#37197;&#10;&#10;vim&#20195;&#30721;&#25240;&#21472;&#10;&#25240;&#21472;&#26041;&#24335;&#65306;fdm&#10;&#10;Insert&#31561;&#27169;&#24335;&#19979;&#65292;&#10;Ctrl+v Tab&#10;&#25165;&#33021;&#25104;&#21151;&#36755;&#20837;\t&#10;&#10;&#25105;&#19968;&#19968;&#33324;&#20351;&#29992;marker&#26041;&#24335;: set fdm=marker&#10;&#10;&#40664;&#35748;&#30340;marker&#26159;&#123;&#123;&#123;&#21644;&#125;&#125;&#125;&#65292;&#21487;&#20197;&#35774;&#32622;&#20026;&#20854;&#20182;&#65306;set foldmarker=//l,//c &#65288;&#24320;&#22987;&#26631;&#31614;//l &#20851;&#38381;&#26631;&#31614;//c&#65289;&#10;&#10;zc &#25240;&#21472;&#24403;&#21069;marker&#10;zo &#23637;&#24320;&#24403;&#21069;marker&#10;zC &#22312;&#25152;&#22312;&#33539;&#22260;&#20869;&#65292;&#36882;&#24402;&#25240;&#21472;&#25152;&#26377;&#10;zO &#22312;&#25152;&#22312;&#33539;&#22260;&#20869;&#65292;&#36882;&#24402;&#23637;&#24320;&#25152;&#26377;x&#10;zr &#23559;&#20840;&#25991;&#30340;&#25152;&#26377;&#25240;&#30090;&#20381;&#23652;&#27425;&#36890;&#36890;&#25171;&#38283;&#12290;reduce&#12290;&#10;zm &#23559;&#20840;&#25991;&#24050;&#25171;&#38283;&#30340;&#25240;&#30090;&#20381;&#23652;&#27425;&#36890;&#36890;&#20877;&#25240;&#30090;&#36215;&#20358;&#12290;more&#12290;&#10;&#10;zR &#20316;&#29992;&#21644; zr &#21516;&#65292;&#20294;&#26371;&#25171;&#38283;&#21547;&#24034;&#29376;&#25240;&#30090;&#65288;&#25240;&#30090;&#20013;&#21448;&#36996;&#26377;&#25240;&#30090;&#65289;&#30340;&#25152;&#26377;&#25240;&#30090;&#12290;&#10;zM &#20316;&#29992;&#21644; zm &#21516;&#65292;&#20294;&#23565;&#26044;&#24034;&#29376;&#25240;&#30090;&#20134;&#26377;&#20316;&#29992;&#12290;&#10;zi &#36889;&#26159;&#20491;&#20999;&#25563;&#65292;&#26159;&#25240;&#30090;&#33287;&#19981;&#25240;&#30090;&#25351;&#20196;&#38291;&#30340;&#20999;&#25563;&#12290;&#10;&#10;zd &#21024;&#38500;&#25240;&#21472;&#10;zD &#21024;&#38500;&#25152;&#26377;&#25240;&#21472;&#10;&#10;zn &#25171;&#38283;&#20840;&#25991;&#30340;&#25152;&#26377;&#25240;&#30090;&#12290;fold none&#12290;&#10;zN &#36889;&#26159; zn &#30340;&#30456;&#23565;&#25351;&#20196;&#65292;&#22238;&#24489;&#25152;&#26377;&#30340;&#25240;&#30090;&#12290;&#10;&#10;[z &#21040;&#25240;&#21472;&#24320;&#22987;&#22788;&#10;z[ &#21040;&#25240;&#21472;&#26411;&#23614;&#22788;&#10;&#10;zj &#19979;&#19968;&#20010;&#25240;&#21472;&#30340;&#24320;&#22987;&#22788;&#10;zk &#19978;&#19968;&#20010;&#25240;&#21472;&#30340;&#26411;&#23614;&#10;&#10;&#36824;&#26159;&#25918;&#21040;~/.vimrc&#20013;&#21543;&#10;set fdm=marker&#10;set foldmarker=//&#123;,//&#125;&#10;&#10;&#21462;&#28040;&#21305;&#37197; &#30340;&#24555;&#25463;&#38190;&#10;&#60;leader&#62; /&#10;&#10;Toggle comments&#10;&#60;Leader&#62;c&#60;space&#62;&#10;&#10;Surround&#10;if the cursor was inside &#34;foo bar&#34;, you could type cs&#34;&#39; to convert the text to &#39;foo bar&#39;&#10;&#10;Tagbar tag generation and navigation&#10;&#10;spf13-vim includes the Tagbar plugin. This plugin requires exuberant-ctags and will automatically generate tags for your open files. It also provides a panel to navigate easily via tags&#10;&#10;QuickStart CTRL-] while the cursor is on a keyword (such as a function name) to jump to it&#39;s definition.&#10;&#10;Customizations: spf13-vim binds &#60;Leader&#62;tt to toggle the tagbar panel&#10;&#10;Note: For full language support, run brew install ctags to install exuberant-ctags.&#10;&#10;Tip: Check out :help ctags for information about VIM&#39;s built-in ctag support. Tag navigation creates a stack which can traversed via Ctrl-] (to find the source of a token) and Ctrl-T (to jump back up one level).&#10;&#10;Fugitive deep git integration&#10;&#10;Fugitive adds pervasive git support to git directories in vim. For more information, use :help fugitive&#10;&#10;Use :Gstatus to view git status and type - on any file to stage or unstage it. Type p on a file to enter git add -p and stage specific hunks in the file.&#10;&#10;Use :Gdiff on an open file to see what changes have been made to that file&#10;&#10;Customizations:&#10;&#10;- &#60;leader&#62;gs :Gstatus&#10;- &#60;leader&#62;gd :Gdiff&#10;- &#60;leader&#62;gc :Gcommit&#10;- &#60;leader&#62;gb :Gblame&#10;- &#60;leader&#62;gl :Glog&#10;- &#60;leader&#62;gp :Git push&#10;- :Git ___ will pass anything along to git.&#10;&#10;NERDTree&#10;&#25171;&#24320; &#60;leader&#62; e&#10;&#25171;&#24320;&#38;&#20851;&#38381; ^e&#34;</span><br></pre></td></tr></table></figure>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://icehe.me/note/vim.html" data-title="Vim Note | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+   	       
+	</article>
+	
+	<section id="comments" class="comment"></section>
+
+
+<!-- Duoshuo Show UA -->
+<!--<link href="https://raw.githubusercontent.com/easunlee/make_duoshuo_show_ua/master/src/show.ua.css" rel="stylesheet">-->
+<!--<script type="text/javascript" async="" src="http://faisalman.github.io/ua-parser-js/src/ua-parser.js" charset="UTF-8"></script>-->
+
+
+<script type="text/javascript">
+
+
+var duoshuoQuery = {short_name:"icehe"};
+(function() {
+	var ds = document.createElement('script');
+	ds.type = 'text/javascript';ds.async = true;
+	ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+	ds.charset = 'UTF-8';
+	(document.getElementsByTagName('head')[0]
+	|| document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+
+
+
+
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="note/vim.html" data-title="Vim Note" data-url="http://icehe.me/note/vim.html"></div>'
+//	+ '<hr/>'
+//	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
+//	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
+//	+ '</div>';
+
+//function loadDisqus(){
+//	var disqus_shortname = 'icehe';
+//
+//	(function(){
+//		var dsq = document.createElement('script');
+//		dsq.type = 'text/javascript';
+//		dsq.async = true;
+//		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+//		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+//	}());
+//
+//	(function(){
+//		var dsq = document.createElement('script');
+//		dsq.type = 'text/javascript';
+//		dsq.async = true;
+//		dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+//		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+//	}());
+
+//	document.getElementById('disqus_div').innerHTML = '<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>';
+//}
+
+</script>
+
+</div>  
+      </div>
+      <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<div class="social-font" class="clearfix">
+		
+		<a href="https://github.com/IceHe" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		<a href="http://weibo.com/icedes" target="_blank" class="icon-weibo" title="微博"></a>
+		
+		
+		
+		
+		
+		
+		
+		<a href="https://www.douban.com/people/IceHeGZ" target="_blank" class="icon-douban" title="豆瓣"></a>
+		
+		
+		
+		
+		<a href="mailto:x@icehe.me" target="_blank" class="icon-email" title="Email Me"></a>
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2016 
+		
+		<a href="/about" target="_blank" title="IceHe何志远">IceHe何志远</a>
+		
+		
+		</p>
+</div>
+</footer>
+      <!--<script src="/js/jquery-2.0.3.min.js"></script>-->
+<script id="jQueryLink" src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript">
+  window.jQuery || document.write('<script src="/js/jquery-2.0.3.min.js"><\/script>');
+</script>
+
+<!--<script src="/js/jquery.imagesloaded.min.js"></script>-->
+<!--<script src="/js/gallery.js"></script>-->
+<!--<script src="/js/jquery.qrcode-0.12.0.min.js"></script>-->
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.imagesloaded.min.js"></script>
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/gallery.js"></script>
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.qrcode-0.12.0.min.js"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize();
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+    }
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+//      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var title = '《 ' + $('.article-url').attr('title') + ' 》@IceHe何志远 的技术博客『 '
+          + document.getElementsByName('description')[0].content + '』';
+  var weibo_share_url = 'http://service.weibo.com/share/share.php?type=button&searchPic=true&style=full&title=' + title + '&url=' + encodedUrl + '&pic=http%3A%2F%2F7vzp68.com1.z0.glb.clouddn.com%2Fabout%2Favatar_03a.jpg&appkey=' + tsina;
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="javascript:;" class="article-share-weibo" title="微博" onclick="window.open(\'' + weibo_share_url + '\', \'_blank\', \'width=615,height=505\')"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});
+</script>
+
+
+
+
+<!--<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">-->
+<!--<script src="/fancybox/jquery.fancybox.pack.js"></script>-->
+<link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+<div style="display: none;">
+	<script type="text/javascript">
+	
+		if(isOnGithub){
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-60837823-1', 'auto');  
+			ga('send', 'pageview');
+		}
+	
+
+	
+		if(isOnGitcafe){
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-60837823-2', 'auto');  
+			ga('send', 'pageview');
+		}
+	
+
+	
+		if(isOnGithub){
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		}
+	
+
+	
+		if(isOnGitcafe){
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?68e951d2eed2725bdd8cf4b1900d632f";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		}
+	
+	
+	</script>
+</div>
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+<div id="totop">
+	<!-- <a title="Back to Top"><img src="/img/scrollup.png"/></a> -->
+	<a title="Back to Top"><img src="//7vzp68.com1.z0.glb.clouddn.com/common/scrollup.png"/></a>
+</div>
+<!--<script src="/js/totop.js"></script>-->
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Lean Cloud Begin -->
+<script src="https://leancloud.cn/scripts/lib/av-0.5.0.min.js"></script>
+<script type="text/javascript">
+  AV.initialize("u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5");
+  // 初始化 param1：应用 id、param2：应用 key
+
+  function addCount (Counter) {
+    url = $('.article-url').attr('href').trim();
+    title = $('.article-title').text().trim();
+    var query = new AV.Query(Counter);
+    //use url as unique idnetfication
+    query.equalTo("url",url);
+    query.find({
+      success: function(results){
+        if(results.length>0){
+          var counter = results[0];
+          counter.fetchWhenSave(true); //get recent result
+          counter.increment("time");
+          counter.save();
+        }else{
+          var newcounter = new Counter();
+          newcounter.set("title", title);
+          newcounter.set("url", url);
+          newcounter.set("time", 1);
+          newcounter.save(null, {
+            success: function(newcounter){
+              //alert('New object created');
+            },
+            error: function(newcounter,error){
+              //alert('Failed to create');
+            }
+          });
+        }
+      },
+      error: function(error){
+        // find null is not a error
+        //alert('Error:' + error.code + " " + error.message);
+      }
+    });
+  }
+
+  $(function(){
+    var Counter = AV.Object.extend("Counter");
+    // only increse visit counting when intering a page
+    if((isOnGithub || isOnGitcafe) && $('.article-title').length == 1) {
+      addCount(Counter);
+    }
+
+    // if popularlist widget exists, add item to it.
+    var popular_list = $('.popularlist');
+    if(1 == popular_list.length){
+      var query = new AV.Query(Counter);
+      query.descending("time");
+      query.limit(15);
+      query.find({
+        success: function(results){
+          for(var i = 0; i < results.length; ++i){
+            var counter = results[i];
+            title = counter.get("title");
+            url = counter.get("url");
+            time = counter.get("time");
+
+            $('#popularlist_ul').append('<li><a href="'
+                    + url + '" name="'
+                    + title + '">'
+                    + (1 == ((i + 1) % 5)
+                            ? ('<b>' + (i + 1) + ' </b>') : '')
+                    + '<sup>'
+                    + time + ' </sup> &nbsp;'
+                    + title
+                    + '</a></li>'
+            );
+          }
+        },
+        error: function(error){
+          //alert("Error:" + error.code + " " + error.message);
+        }
+      });
+    }
+
+    // if cur page is a post, set the post pageview.
+    var article_info = $(".article-info");
+    if(1 == article_info.length){
+      var query = new AV.Query(Counter);
+      query.equalTo("url", article_info.find(".article-title a").attr("href"));
+      query.limit(1);
+      query.find({
+        success: function(results){
+          if(1 == results.length){
+            var counter = results[0];
+            title = counter.get("title");
+            url = counter.get("url");
+            time = counter.get("time");
+
+            article_info.find(".article-readtimes .readtimes").text(time);
+          }
+        },
+        error: function(error){
+          article_info.find(".article-readtimes .readtimes").text("?");
+          //alert("Error:" + error.code + " " + error.message);
+        }
+      });
+    }
+
+    // if cur page is Home, set the post_list pageviews.
+    var post_list = $("#main[class!=post]");
+    if(0 != post_list.length){
+      var post_items = post_list.find(".post a");
+      for(var i = 0; i < post_items.length; ++i){
+        var url = post_items.eq(i).attr("href");
+        query.equalTo("url", url);
+        query.limit(1);
+        query.find({
+          success: function(results){
+            if(1 == results.length){
+              var counter = results[0];
+              title = counter.get("title");
+              url = counter.get("url");
+              time = counter.get("time");
+
+              $(".post a[href='" + url + "']").find('.readtimes').text(time);
+            }
+          },
+          error: function(error){
+            //alert("Error:" + error.code + " " + error.message);
+          }
+        });
+      }
+    }
+  });
+
+  <!-- 百度 自动推送网页索引工具代码 -->
+  (function(){
+    var bp = document.createElement('script');
+    bp.src = '//push.zhanzhang.baidu.com/push.js';
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+
+</script>
+<!-- Lean Cloud End -->
+
+
+<!-- 不蒜子 网站计数 -->
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+<!-- 自动点击喜欢 -->
+<script type="text/javascript">
+  $(window).load(function() {
+    var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
+    if (1 == ds_like_button.length
+            && "none" != document.getElementsByClassName('ds-meta')[0].style.display
+            && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
+    ) {
+      ds_like_button[0].click();
+      document.getElementsByClassName('ds-like-tooltip-close')[0].click();
+      window.location.href = '#';
+    }
+  });
+</script>
+
+    </body>
+  </html>
+
+

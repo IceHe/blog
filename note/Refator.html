@@ -1,0 +1,743 @@
+
+
+
+  <!DOCTYPE HTML>
+<html lang="default">
+<head>
+  <meta charset="UTF-8">
+  
+
+	<title>Refator - Note | Ice He 何志远</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+	
+	<meta name="author" content="IceHe何志远">
+	
+
+	
+	<meta name="description" content="注意：
+别一边添加新功能，一边重构，一次只做其中一件事！
+一、好处：
+1 改进软件设计保持代码可读性，易于看懂其设计，从而方便改进软件设计，去除重复代码
+2 使软件更易于理解代码趋于简洁，可以便于看到更深远的设计问题。
+3 帮助找到bug
+4 提高编程效率
+二、何时重构：
+1 三次法则：第三次要做类似的事情时，应该重构事不过三，三则重构
+2 添加新特性时，重构帮助理解代码，改好结构，更利于添加新特">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Refator - Note">
+<meta property="og:url" content="http://icehe.me/note/Refator.html">
+<meta property="og:site_name" content="Ice He 何志远">
+<meta property="og:description" content="注意：
+别一边添加新功能，一边重构，一次只做其中一件事！
+一、好处：
+1 改进软件设计保持代码可读性，易于看懂其设计，从而方便改进软件设计，去除重复代码
+2 使软件更易于理解代码趋于简洁，可以便于看到更深远的设计问题。
+3 帮助找到bug
+4 提高编程效率
+二、何时重构：
+1 三次法则：第三次要做类似的事情时，应该重构事不过三，三则重构
+2 添加新特性时，重构帮助理解代码，改好结构，更利于添加新特">
+<meta property="og:updated_time" content="2016-03-14T14:16:49.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Refator - Note">
+<meta name="twitter:description" content="注意：
+别一边添加新功能，一边重构，一次只做其中一件事！
+一、好处：
+1 改进软件设计保持代码可读性，易于看懂其设计，从而方便改进软件设计，去除重复代码
+2 使软件更易于理解代码趋于简洁，可以便于看到更深远的设计问题。
+3 帮助找到bug
+4 提高编程效率
+二、何时重构：
+1 三次法则：第三次要做类似的事情时，应该重构事不过三，三则重构
+2 添加新特性时，重构帮助理解代码，改好结构，更利于添加新特">
+
+  
+  <link rel="alternative" href="/atom.xml" title="Ice He 何志远" type="application/atom+xml">
+  
+  
+  <link rel="icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon.ico">
+  
+  
+  <link rel="apple-touch-icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+  <link rel="apple-touch-icon-precomposed" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+  
+
+  <!-- <link rel="stylesheet" href="/css/style.css" type="text/css"> -->
+  <!--<link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/css/style.css" type="text/css">-->
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+  <!-- 百度站内搜索 for github站 icehe.me -->
+  <!--<meta name="baidu-site-verification" content="04tLeUMqMf" />-->
+  <!-- 百度站内搜索 for github站 icehe.github.io -->
+  <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
+
+  <!-- 谷歌站长工具 元标签验证码 -->
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
+
+  <!-- 微博开放平台 元标签验证码 -->
+  <meta property="wb:webmaster" content="84efd5956048ab8f" />
+
+  <!-- Google Fonts from 360 CDN -->
+  <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
+
+  <!-- Common CSS -->
+  <style type="text/css">
+    .center { text-align: center; }
+    .hidden { display: none; }
+    /*span.hitokoto a { color: white; } // for 一言*/
+  </style>
+
+  <!-- font-awesome -->
+  <link href="//libs.cncdn.cn/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- 一言 -->
+  <!-- <script type="text/javascript" src="http://api.hitokoto.us/rand?encode=js&charset=utf-8"></script> -->
+</head>
+
+    <body>
+      <header>
+        <script type="text/javascript">
+	// 判断现在个人站是在哪一个网址上！
+	var isOnGithub = (-1 != location.href.indexOf("icehe.me"));
+	var isOnGitcafe = (-1 != location.href.indexOf("icehe.gitcafe.io"));
+</script>
+
+
+<div>
+	
+		<div id="imglogo">
+			<a href="/">
+				<!-- <img src="/http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="Ice He 何志远" title="Ice He 何志远"/> -->
+				<img src="http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="Ice He 何志远" title="Ice He 何志远"/>
+			</a>
+		</div>
+	
+
+	<div id="textlogo">
+		<h1 class="site-name"><a href="/" title="Ice He 何志远">Ice He 何志远</a></h1>
+		<h2 class="blog-motto">Less is more  宁静致远</h2>
+	</div>
+	<div class="navbar">
+		<a class="navbutton navmobile" href="#" title="Menu"></a>
+	</div>
+	<nav class="animated">
+		<ul>
+			<ul>
+			
+				<li><a href="/">Blog 文</a></li>
+			
+				<li><a href="/about">Me 我</a></li>
+			
+				<li><a href="/index">Index 目录</a></li>
+			
+				<li>
+				
+
+					<form class="search" action="/search/index.html" method="get" accept-charset="utf-8">
+					<!--<form class="search" action="" method="get" accept-charset="utf-8">-->
+						<label>Search</label>
+						<input type="search" id="search" autocomplete="on" name="q" maxlength="20" placeholder="Find" />
+					</form>
+
+				
+				</li>
+			</ul>
+		</ul>
+	</nav>
+</div>
+
+      </header>
+      <div id="container">
+        <div id="main" class="page" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name" class="article-title">
+    
+      <a href="/note/Refator.html" title="Refator - Note" itemprop="url" class="article-url">Refator - Note</a>
+  </h1>
+  <p class="article-readtimes">
+    Read ( <span class="readtimes">?</span> )
+  </p>
+  <p class="article-author"> By
+    
+    <a href="/about" title="IceHe何志远" target="_blank" itemprop="author">IceHe何志远</a>
+    
+  </p>
+  <p class="article-time">
+    <time datetime="2016-03-14T14:16:49.000Z" itemprop="datePublished"> Published 2016 Mar 14</time>
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">Contents</strong>
+		
+			
+		
+		</div>
+		
+		<p>注意：</p>
+<p>别一边添加新功能，一边重构，<br>一次只做其中一件事！</p>
+<p>一、好处：</p>
+<p>1 改进软件设计<br>保持代码可读性，易于看懂其设计，<br>从而方便改进软件设计，<br>去除重复代码</p>
+<p>2 使软件更易于理解<br>代码趋于简洁，<br>可以便于看到更深远的设计问题。</p>
+<p>3 帮助找到bug</p>
+<p>4 提高编程效率</p>
+<p>二、何时重构：</p>
+<p>1 三次法则：第三次要做类似的事情时，应该重构<br>事不过三，三则重构</p>
+<p>2 添加新特性时，重构帮助理解代码，<br>改好结构，更利于添加新特性</p>
+<p>3 debug时，使代码更具可读性，<br>清晰到可以一眼看出bug</p>
+<p>4 复审代码时</p>
+<p>三、何时不该重构：</p>
+<p>1 应该重写，而非重构的症状：代码难以正常、稳定运作。</p>
+<p>2 大块头的软件，应该先重构为封装良好的小组件，<br>再对每个小组件的处理做考量</p>
+<p>3 临近最后期限，重构提升了效率，也不会来得及完成<br>证明早就该重构了</p>
+<p>四、重构的考量：</p>
+<ol>
+<li>重构与设计之间的考量<br>不需要过早对软件进行过度的设计，<br>过度灵活地适应未来可能的需求。</li>
+</ol>
+<p>但需要合理的预先设计，<br>然后根据需求一点点重构、进化，<br>当前就实现满足需求的最简单方案即可。</p>
+<p>灵活而复杂的设计多数时候都不需要。</p>
+<ol>
+<li>重构与性能之间的考量<br>重构使代码清晰，但往往可能使其性能下降，<br>但可读的代码容易优化性能，有需要的时候才做有用功，<br>过早地优化，可能会事倍功半，做了许多无用功。</li>
+</ol>
+<p>五、间接层的用途：</p>
+<p>1 允许逻辑共享<br>2 分开意图解释与具体实现<br>3 隔离变化<br>4 封装条件逻辑</p>
+<p>六、代码异味：</p>
+<p>1 重复的代码 Duplicated Code<br>2 过长的函数 Long Method<br>3 过大的类 Large Class<br>4 过长的参数列 Long Parameter List</p>
+<p>5发散式的变化 Deivergent Change<br>一个类受多种变化的影响<br>最好让每个类只受一种变化的影响</p>
+<p>6 霰弹式修改 Shotgun Surgery<br>与Divergent Change相反，它代表：<br>每遇到某种变化，都必须在许多不同类作出许多小修改。</p>
+<p>7 依恋情结 Feature Envy<br>对象技术要点：将数据和对数据的操作行为包装在一起。<br>函数对某个类的兴趣高过对自己所处类的兴趣，<br>通常访问焦点就是其它类的数据，<br>从另一个对象调用了许多取值函数，<br>那么这些操作难道不该搬到另一个对象的所属类中吗？</p>
+<p>8 数据泥团 Data Clumps<br>常常在不同的地方看到相同的三四项数据，<br>两个类中相同的字段、许多函数签名中有相同的参数。<br>应该将它们提炼到独立的对象中去，<br>然后就可以精简过长参数列、冗余的数据和重复的代码……</p>
+<p>9 基本类型偏执 Primitive Obsession<br>基本类型built-in type，构成了结构类型的积木块，<br>结构类型肯定会带来额外的开销。</p>
+<p>为了效率使用基本类型去代表货币、电话、邮政编码，<br>让逻辑变复杂，类型不安全，走回传统老路，<br>还丢掉了面向对象的优点，何苦呢？<br>真正性能优化应该花在重点上，而非细枝末节上。</p>
+<p>10 switch 惊悚现身 Switch Statements<br>面向对象程序的显著特征：少用switch语句。<br>因为它重复，可以用继承多态解决这个问题。</p>
+<p>11 平行继承体系 Parallel Inheritance Hierarchies<br>其实是Shotgun Surgery的特殊情况，症状：<br>每当为一个类增加一个子类，也必须为另一个类相应增加一个子类。<br>最好先用其中一个继承体系引用另一个继承体系的实例，<br>再慢慢用重构技巧将另一个体系消解掉。</p>
+<p>12 冗赘类 Lazy Class<br>每个类都需要人取创造、理解、维护，有代价（花钱和精力）。<br>如果一个类的存在价值，抵不上它的代价，就该消失。<br>某些类的存在是为了应对某种变化和的情况，<br>但很可能变化没有发生，或者变化不同于预期。</p>
+<p>13 夸夸其谈未来性 Speculative Generality<br>为了未来可能的情况，而预设某些设计，<br>造成系统更难理解和维护，到底值不值得？<br>多余的抽象层次、钩子、特殊情况，都不该存在！</p>
+<p>14 令人迷惑的暂时字段 Temporary Field<br>某个实例变量仅为某种特定情况而设，<br>当它不再被使用，怎么猜测它当初的设置目的，会令人发疯的。<br>当一个复杂的算法需要好几个变量，就很可能出现这种状况。</p>
+<p>15 过度耦合的消息链 Message Chains<br>消息链：用户向一个对象请求另一个对象，<br>然后后者又请求另一个对象，然后……</p>
+<p>一旦对象间的关系发生了变化（可能消息链断裂？），<br>就不得不做出相应的修改。<br>（个人经验不足，对此理解不深，在此不赘述，详看原文）</p>
+<p>16 中间人 Middle Man<br>对象的基本特征之一，封装：对外部世界隐藏其内部细节。<br>封装往往伴随着委托。<br>你可能看到一个类，有很多接口都委托给了其它类，这就是过度运用。<br>最好让该类跟直接处理事务的类进行交互，<br>中间过多的委托动作很可能是不必要的负担。</p>
+<p>17 狎昵关系 Inappropriate Intimacy<br>有时两个类过于紧密，花费太多代码用于探究相互间的private成分。<br>要不将它们的共同点提取到一个安全的类，然后共用新类，<br>或者使用委托delegate，来避免其过分紧密，但确实是不同的东西。<br>（个人经验不足，对此理解不深）</p>
+<p>18 异曲同工的类 Alternative Classes with Different Interfaces<br>做同一件事的两个类，却有着不同的签名。</p>
+<p>19 不完美的库类 Incomplete Library Class<br>复用常被视为对象的终极目的。<br>复用的意义常常被高估——大多数对象只要够用就好。</p>
+<p>库常常构造得不够好，这是难免的，因为任务艰巨，难以面面俱到。<br>如果想要完善库类，而且只要修改库类的一两个函数，<br>可以Introduce Foreign Method；<br>如果要添加一大堆额外行为，旧的运用Introduce Local Extension。<br>（个人经验不足，对此理解不深）</p>
+<p>20 幼稚的数据类 Data Class<br>Data Class：拥有一些字段，以及用于读写它们的set/get函数，除此之外一无长物。<br>它就是不会说话的数据容器，几乎一定被其它类细琐地操控着。<br>那些细琐的操作应该尝试搬移到它的身上，让其负起应负的责任。</p>
+<p>21 被拒绝的遗赠 Refused Bequest<br>子类应该继承超类的函数和数据，<br>如果它们不想、不需要继承呢？<br>因为可能其中有许多特性子类是不需要的。</p>
+<p>这意味着传统意义上的继承体系的设计错误。<br>如果子类复用了超类的实现，但拒绝继承超类的接口，<br>那何苦继承呢，如果硬要继承，可以对继承体系进行优化，<br>可是打乱了原有的继承关系有必要吗？<br>有Replace Inheritance with Delegation来解决这种问题。</p>
+<p>22 过多的注释 Comments<br>尽量让注释显得多余。<br>记录的应该是Why之类的言语，<br>而非How、What，让代码自解释。</p>
+<p>七、构筑测试体系：</p>
+<p>可靠、自动化的测试，方便排除bug，<br>可以证明代码修改后依然正常运行（回归测试）。</p>
+<p>要使测试的构建完善，使测试编写、进行、回显很方便，<br>否则没人愿意进行麻烦的测试，使流程推动技术革命，<br>而非增加太多没有用的人工审核流程，人都会贪方便。</p>
+<p>写实现时，思路比较清晰，就该顺手写好其测试用例，<br>看似麻烦，但是很有必要。<br>因为找bug的时间，比debug的时间还多，<br>找bug比解决bug还麻烦。</p>
+<p>在写实现之前，就写好测试有一定好处，<br>可以提醒自己，更关注接口而非实现，突出目标。</p>
+<p>小步快跑，快速推进，<br>每次编译后进行（针对刚实现完成部分的少数几个）测试，<br>频繁针对刚写好的代码进行测试，方便很快发现、理解、修复错误。</p>
+<p>最好每天都能完整跑完一次所有的测试，保证代码可靠性。<br>但是要谨记，测试并不能找出所有bug！</p>
+<p>八、重构列表：</p>
+<p>重构的记录格式——<br>1 名称name     重构词汇表<br>2 概要summary     简要介绍适用场景，所做的操作<br>3 动机motivation     为什么需要这种重构，什么情况不该使用<br>4 做法mechanics     详细步骤、方法<br>5 范例example     简单的例子说明重构手法的运作</p>
+<p>寻找引用点——<br>不要盲目使用文本搜索、替换，尤其正则，<br>因为不同的类的函数可能有相同的函数名，<br>可能还存在某个继承体系中，某个方法被多次覆盖重写的情况。</p>
+<p>还有利用反射机制对某个函数、类进行调用的方式，尽可能避免！<br>暂时的类型推导，引用检索，不一定能检索到，<br>所以会导致一定危险，你以为没有被使用的代码，<br>被用了反射机制的代码使用了！</p>
+<p>九、重新组织函数</p>
+<p>手段</p>
+<p>提取函数 将过长函数变短，职能单一化，单一责任原则<br>替换中间变量 没有变化的单一变量，直接用查询函数代替！<br>条件判断换为多态</p>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://icehe.me/note/Refator.html" data-title="Refator - Note | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+   	       
+	</article>
+	
+	<section id="comments" class="comment"></section>
+
+
+<!-- Duoshuo Show UA -->
+<!--<link href="https://raw.githubusercontent.com/easunlee/make_duoshuo_show_ua/master/src/show.ua.css" rel="stylesheet">-->
+<!--<script type="text/javascript" async="" src="http://faisalman.github.io/ua-parser-js/src/ua-parser.js" charset="UTF-8"></script>-->
+
+
+<script type="text/javascript">
+
+
+var duoshuoQuery = {short_name:"icehe"};
+(function() {
+	var ds = document.createElement('script');
+	ds.type = 'text/javascript';ds.async = true;
+	ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+	ds.charset = 'UTF-8';
+	(document.getElementsByTagName('head')[0]
+	|| document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+
+
+
+
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="note/Refator.html" data-title="Refator - Note" data-url="http://icehe.me/note/Refator.html"></div>'
+//	+ '<hr/>'
+//	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
+//	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
+//	+ '</div>';
+
+//function loadDisqus(){
+//	var disqus_shortname = 'icehe';
+//
+//	(function(){
+//		var dsq = document.createElement('script');
+//		dsq.type = 'text/javascript';
+//		dsq.async = true;
+//		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+//		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+//	}());
+//
+//	(function(){
+//		var dsq = document.createElement('script');
+//		dsq.type = 'text/javascript';
+//		dsq.async = true;
+//		dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+//		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+//	}());
+
+//	document.getElementById('disqus_div').innerHTML = '<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>';
+//}
+
+</script>
+
+</div>  
+      </div>
+      <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<div class="social-font" class="clearfix">
+		
+		<a href="https://github.com/IceHe" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		<a href="http://weibo.com/icedes" target="_blank" class="icon-weibo" title="微博"></a>
+		
+		
+		
+		
+		
+		
+		
+		<a href="https://www.douban.com/people/IceHeGZ" target="_blank" class="icon-douban" title="豆瓣"></a>
+		
+		
+		
+		
+		<a href="mailto:x@icehe.me" target="_blank" class="icon-email" title="Email Me"></a>
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2016 
+		
+		<a href="/about" target="_blank" title="IceHe何志远">IceHe何志远</a>
+		
+		
+		</p>
+</div>
+</footer>
+      <!--<script src="/js/jquery-2.0.3.min.js"></script>-->
+<script id="jQueryLink" src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript">
+  window.jQuery || document.write('<script src="/js/jquery-2.0.3.min.js"><\/script>');
+</script>
+
+<!--<script src="/js/jquery.imagesloaded.min.js"></script>-->
+<!--<script src="/js/gallery.js"></script>-->
+<!--<script src="/js/jquery.qrcode-0.12.0.min.js"></script>-->
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.imagesloaded.min.js"></script>
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/gallery.js"></script>
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.qrcode-0.12.0.min.js"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize();
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+    }
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+//      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var title = '《 ' + $('.article-url').attr('title') + ' 》@IceHe何志远 的技术博客『 '
+          + document.getElementsByName('description')[0].content + '』';
+  var weibo_share_url = 'http://service.weibo.com/share/share.php?type=button&searchPic=true&style=full&title=' + title + '&url=' + encodedUrl + '&pic=http%3A%2F%2F7vzp68.com1.z0.glb.clouddn.com%2Fabout%2Favatar_03a.jpg&appkey=' + tsina;
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="javascript:;" class="article-share-weibo" title="微博" onclick="window.open(\'' + weibo_share_url + '\', \'_blank\', \'width=615,height=505\')"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});
+</script>
+
+
+
+
+<!--<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">-->
+<!--<script src="/fancybox/jquery.fancybox.pack.js"></script>-->
+<link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+<div style="display: none;">
+	<script type="text/javascript">
+	
+		if(isOnGithub){
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-60837823-1', 'auto');  
+			ga('send', 'pageview');
+		}
+	
+
+	
+		if(isOnGitcafe){
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-60837823-2', 'auto');  
+			ga('send', 'pageview');
+		}
+	
+
+	
+		if(isOnGithub){
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		}
+	
+
+	
+		if(isOnGitcafe){
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?68e951d2eed2725bdd8cf4b1900d632f";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		}
+	
+	
+	</script>
+</div>
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+<div id="totop">
+	<!-- <a title="Back to Top"><img src="/img/scrollup.png"/></a> -->
+	<a title="Back to Top"><img src="//7vzp68.com1.z0.glb.clouddn.com/common/scrollup.png"/></a>
+</div>
+<!--<script src="/js/totop.js"></script>-->
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Lean Cloud Begin -->
+<script src="https://leancloud.cn/scripts/lib/av-0.5.0.min.js"></script>
+<script type="text/javascript">
+  AV.initialize("u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5");
+  // 初始化 param1：应用 id、param2：应用 key
+
+  function addCount (Counter) {
+    url = $('.article-url').attr('href').trim();
+    title = $('.article-title').text().trim();
+    var query = new AV.Query(Counter);
+    //use url as unique idnetfication
+    query.equalTo("url",url);
+    query.find({
+      success: function(results){
+        if(results.length>0){
+          var counter = results[0];
+          counter.fetchWhenSave(true); //get recent result
+          counter.increment("time");
+          counter.save();
+        }else{
+          var newcounter = new Counter();
+          newcounter.set("title", title);
+          newcounter.set("url", url);
+          newcounter.set("time", 1);
+          newcounter.save(null, {
+            success: function(newcounter){
+              //alert('New object created');
+            },
+            error: function(newcounter,error){
+              //alert('Failed to create');
+            }
+          });
+        }
+      },
+      error: function(error){
+        // find null is not a error
+        //alert('Error:' + error.code + " " + error.message);
+      }
+    });
+  }
+
+  $(function(){
+    var Counter = AV.Object.extend("Counter");
+    // only increse visit counting when intering a page
+    if((isOnGithub || isOnGitcafe) && $('.article-title').length == 1) {
+      addCount(Counter);
+    }
+
+    // if popularlist widget exists, add item to it.
+    var popular_list = $('.popularlist');
+    if(1 == popular_list.length){
+      var query = new AV.Query(Counter);
+      query.descending("time");
+      query.limit(15);
+      query.find({
+        success: function(results){
+          for(var i = 0; i < results.length; ++i){
+            var counter = results[i];
+            title = counter.get("title");
+            url = counter.get("url");
+            time = counter.get("time");
+
+            $('#popularlist_ul').append('<li><a href="'
+                    + url + '" name="'
+                    + title + '">'
+                    + (1 == ((i + 1) % 5)
+                            ? ('<b>' + (i + 1) + ' </b>') : '')
+                    + '<sup>'
+                    + time + ' </sup> &nbsp;'
+                    + title
+                    + '</a></li>'
+            );
+          }
+        },
+        error: function(error){
+          //alert("Error:" + error.code + " " + error.message);
+        }
+      });
+    }
+
+    // if cur page is a post, set the post pageview.
+    var article_info = $(".article-info");
+    if(1 == article_info.length){
+      var query = new AV.Query(Counter);
+      query.equalTo("url", article_info.find(".article-title a").attr("href"));
+      query.limit(1);
+      query.find({
+        success: function(results){
+          if(1 == results.length){
+            var counter = results[0];
+            title = counter.get("title");
+            url = counter.get("url");
+            time = counter.get("time");
+
+            article_info.find(".article-readtimes .readtimes").text(time);
+          }
+        },
+        error: function(error){
+          article_info.find(".article-readtimes .readtimes").text("?");
+          //alert("Error:" + error.code + " " + error.message);
+        }
+      });
+    }
+
+    // if cur page is Home, set the post_list pageviews.
+    var post_list = $("#main[class!=post]");
+    if(0 != post_list.length){
+      var post_items = post_list.find(".post a");
+      for(var i = 0; i < post_items.length; ++i){
+        var url = post_items.eq(i).attr("href");
+        query.equalTo("url", url);
+        query.limit(1);
+        query.find({
+          success: function(results){
+            if(1 == results.length){
+              var counter = results[0];
+              title = counter.get("title");
+              url = counter.get("url");
+              time = counter.get("time");
+
+              $(".post a[href='" + url + "']").find('.readtimes').text(time);
+            }
+          },
+          error: function(error){
+            //alert("Error:" + error.code + " " + error.message);
+          }
+        });
+      }
+    }
+  });
+
+  <!-- 百度 自动推送网页索引工具代码 -->
+  (function(){
+    var bp = document.createElement('script');
+    bp.src = '//push.zhanzhang.baidu.com/push.js';
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+
+</script>
+<!-- Lean Cloud End -->
+
+
+<!-- 不蒜子 网站计数 -->
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+<!-- 自动点击喜欢 -->
+<script type="text/javascript">
+  $(window).load(function() {
+    var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
+    if (1 == ds_like_button.length
+            && "none" != document.getElementsByClassName('ds-meta')[0].style.display
+            && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
+    ) {
+      ds_like_button[0].click();
+      document.getElementsByClassName('ds-like-tooltip-close')[0].click();
+      window.location.href = '#';
+    }
+  });
+</script>
+
+    </body>
+  </html>
+
+

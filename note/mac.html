@@ -1,0 +1,803 @@
+
+
+
+  <!DOCTYPE HTML>
+<html lang="default">
+<head>
+  <meta charset="UTF-8">
+  
+
+	<title>对 Mac 的看法 | Ice He 何志远</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+	
+	<meta name="author" content="IceHe何志远">
+	
+
+	
+	<meta name="description" content="Related: 我是效率控，工具控，ff，双拼，鼠须管，快捷键，插件
+
+OS X 10.11 El Capitan U盘启动盘制作与注意事项
+简洁优雅的Mac OS X软件安装体验
+借助 Homebrew Cask，教你快速下载安装 Mac App 新姿势
+Error while executing .plist file Path had bad ownership/permissions
+详">
+<meta property="og:type" content="website">
+<meta property="og:title" content="对 Mac 的看法">
+<meta property="og:url" content="http://icehe.me/note/mac.html">
+<meta property="og:site_name" content="Ice He 何志远">
+<meta property="og:description" content="Related: 我是效率控，工具控，ff，双拼，鼠须管，快捷键，插件
+
+OS X 10.11 El Capitan U盘启动盘制作与注意事项
+简洁优雅的Mac OS X软件安装体验
+借助 Homebrew Cask，教你快速下载安装 Mac App 新姿势
+Error while executing .plist file Path had bad ownership/permissions
+详">
+<meta property="og:updated_time" content="2016-03-16T06:44:52.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="对 Mac 的看法">
+<meta name="twitter:description" content="Related: 我是效率控，工具控，ff，双拼，鼠须管，快捷键，插件
+
+OS X 10.11 El Capitan U盘启动盘制作与注意事项
+简洁优雅的Mac OS X软件安装体验
+借助 Homebrew Cask，教你快速下载安装 Mac App 新姿势
+Error while executing .plist file Path had bad ownership/permissions
+详">
+
+  
+  <link rel="alternative" href="/atom.xml" title="Ice He 何志远" type="application/atom+xml">
+  
+  
+  <link rel="icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon.ico">
+  
+  
+  <link rel="apple-touch-icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+  <link rel="apple-touch-icon-precomposed" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+  
+
+  <!-- <link rel="stylesheet" href="/css/style.css" type="text/css"> -->
+  <!--<link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/css/style.css" type="text/css">-->
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+  <!-- 百度站内搜索 for github站 icehe.me -->
+  <!--<meta name="baidu-site-verification" content="04tLeUMqMf" />-->
+  <!-- 百度站内搜索 for github站 icehe.github.io -->
+  <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
+
+  <!-- 谷歌站长工具 元标签验证码 -->
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
+
+  <!-- 微博开放平台 元标签验证码 -->
+  <meta property="wb:webmaster" content="84efd5956048ab8f" />
+
+  <!-- Google Fonts from 360 CDN -->
+  <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
+
+  <!-- Common CSS -->
+  <style type="text/css">
+    .center { text-align: center; }
+    .hidden { display: none; }
+    /*span.hitokoto a { color: white; } // for 一言*/
+  </style>
+
+  <!-- font-awesome -->
+  <link href="//libs.cncdn.cn/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- 一言 -->
+  <!-- <script type="text/javascript" src="http://api.hitokoto.us/rand?encode=js&charset=utf-8"></script> -->
+</head>
+
+    <body>
+      <header>
+        <script type="text/javascript">
+	// 判断现在个人站是在哪一个网址上！
+	var isOnGithub = (-1 != location.href.indexOf("icehe.me"));
+	var isOnGitcafe = (-1 != location.href.indexOf("icehe.gitcafe.io"));
+</script>
+
+
+<div>
+	
+		<div id="imglogo">
+			<a href="/">
+				<!-- <img src="/http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="Ice He 何志远" title="Ice He 何志远"/> -->
+				<img src="http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="Ice He 何志远" title="Ice He 何志远"/>
+			</a>
+		</div>
+	
+
+	<div id="textlogo">
+		<h1 class="site-name"><a href="/" title="Ice He 何志远">Ice He 何志远</a></h1>
+		<h2 class="blog-motto">Less is more  宁静致远</h2>
+	</div>
+	<div class="navbar">
+		<a class="navbutton navmobile" href="#" title="Menu"></a>
+	</div>
+	<nav class="animated">
+		<ul>
+			<ul>
+			
+				<li><a href="/">Blog 文</a></li>
+			
+				<li><a href="/about">Me 我</a></li>
+			
+				<li><a href="/index">Index 目录</a></li>
+			
+				<li>
+				
+
+					<form class="search" action="/search/index.html" method="get" accept-charset="utf-8">
+					<!--<form class="search" action="" method="get" accept-charset="utf-8">-->
+						<label>Search</label>
+						<input type="search" id="search" autocomplete="on" name="q" maxlength="20" placeholder="Find" />
+					</form>
+
+				
+				</li>
+			</ul>
+		</ul>
+	</nav>
+</div>
+
+      </header>
+      <div id="container">
+        <div id="main" class="page" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name" class="article-title">
+    
+      <a href="/note/mac.html" title="对 Mac 的看法" itemprop="url" class="article-url">对 Mac 的看法</a>
+  </h1>
+  <p class="article-readtimes">
+    Read ( <span class="readtimes">?</span> )
+  </p>
+  <p class="article-author"> By
+    
+    <a href="/about" title="IceHe何志远" target="_blank" itemprop="author">IceHe何志远</a>
+    
+  </p>
+  <p class="article-time">
+    <time datetime="2016-03-16T06:44:52.000Z" itemprop="datePublished"> Published 2016 Mar 16</time>
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">Contents</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Sublime"><span class="toc-number">1.</span> <span class="toc-text">Sublime</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#对_Mac_的看法"><span class="toc-number">2.</span> <span class="toc-text">对 Mac 的看法</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#现状"><span class="toc-number">2.1.</span> <span class="toc-text">现状</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#为什么"><span class="toc-number">2.2.</span> <span class="toc-text">为什么</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Vim"><span class="toc-number">2.3.</span> <span class="toc-text">Vim</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Terminal"><span class="toc-number">2.4.</span> <span class="toc-text">Terminal</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Apps"><span class="toc-number">2.5.</span> <span class="toc-text">Apps</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Others"><span class="toc-number">2.6.</span> <span class="toc-text">Others</span></a></li></ol></li></ol>
+		
+		</div>
+		
+		<p>Related: 我是效率控，工具控，ff，双拼，鼠须管，快捷键，插件</p>
+<ul>
+<li><a href="http://www.weiosx.com/show-12-223-1.html" target="_blank" rel="external">OS X 10.11 El Capitan U盘启动盘制作与注意事项</a></li>
+<li><a href="http://ksmx.me/homebrew-cask-cli-workflow-to-install-mac-applications/" target="_blank" rel="external">简洁优雅的Mac OS X软件安装体验</a></li>
+<li><a href="http://sspai.com/32857" target="_blank" rel="external">借助 Homebrew Cask，教你快速下载安装 Mac App 新姿势</a></li>
+<li><a href="https://stackoverflow.com/questions/28063598/error-while-executing-plist-file-path-had-bad-ownership-permissions/28157098#28157098" target="_blank" rel="external">Error while executing .plist file Path had bad ownership/permissions</a></li>
+<li><a href="http://blog.sina.com.cn/s/blog_55f899fb0102dqi2.html" target="_blank" rel="external">详解MAC硬盘中各个文件夹</a></li>
+<li><a href="https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man5/launchd.plist.5.html" target="_blank" rel="external">OS X Launchctl Launchd .plist</a></li>
+<li><a href="superuser.com/questions/898124/the-application-someapp-app-can-t-be-opened">The application “SomeApp.app” can’t be opened</a></li>
+<li><a href="http://alvinalexander.com/mac-os-x/mac-osx-startup-crontab-launchd-jobs" target="_blank" rel="external">Mac crontab - Mac OS X startup jobs with crontab, er, launchd</a></li>
+<li><a href="https://segmentfault.com/a/1190000002963355" target="_blank" rel="external">Mac OS使用brew安装Nginx、MySQL、PHP-FPM的LAMP开发环境</a></li>
+<li><a href="http://www.jb51.net/os/MAC/302986.html" target="_blank" rel="external">Mac OS X下快速复制文件路径的方法</a></li>
+<li><a href="http://kidneyball.iteye.com/blog/1828427" target="_blank" rel="external">IdeaVim插件使用技巧 (For Jetbain IDE)</a></li>
+</ul>
+<h1 id="Sublime">Sublime</h1><ul>
+<li><a href="http://feliving.github.io/Sublime-Text-3-Documentation/vintage.html" target="_blank" rel="external">Vintage模式</a></li>
+<li><a href="http://zh.lucida.me/blog/sublime-text-complete-guide/" target="_blank" rel="external">Sublime Text 全程指南(Windows)</a></li>
+</ul>
+<p>PS：for OS X</p>
+<p>Abbr：</p>
+<ol>
+<li>Cmd  =  Command</li>
+<li>Shf  =  Shift</li>
+<li>Capital letter  =  Shf + <letter><br>  e.g.<pre><code><span class="setting">s  =  <span class="value">s</span></span>
+<span class="setting">S  =  <span class="value">Shf + s</span></span>
+</code></pre></letter></li>
+</ol>
+<p>Font:<br>Strikethrough  =  The operation can be replaced by vim’s related shortcut</p>
+<p>Key / Usage</p>
+<p>Window</p>
+<p>Cmd T     Reopen Recent Closed File<br>^ n     New Tab<br>^ N     New Window<br>Cmd w     Close Tab/Window</p>
+<p>Edit</p>
+<p>Alt Cmd V     Paste from History<br>Cmd V     Paste and Indent</p>
+<p>Text</p>
+<p>Cmd Enter     Insert Line Before     ( Vim: O )<br>Cmd Shf Enter     Insert Line After     ( Vim: o )</p>
+<p>Cmd Del     Delete to Home<br>Cmd D     Duplicate Line     ( Vim: yy )</p>
+<p>Line</p>
+<p>^ k     Delete to End     ( Vim: D )<br>^ K     Delete Line     ( Vim:: dd )</p>
+<p>^ Cmd Up     Swap Line Up<br>^ Cmd Dn     Swap Line Down</p>
+<p>Comment</p>
+<p>Cmd /     Toggle Comment<br>Alt Cmd /     Toggle Block Comment</p>
+<p>Convert Case</p>
+<p>Cmd k , Cmd u     Upper Case     ( Vim: gU )<br>Cmd k , Cmd l     Lower Case     ( Vim: gu )</p>
+<p>Selection</p>
+<p>^ m     Move between () {} [] etc     ( Vim: % )<br>^ M     Select Contents between () {} [] etc     ( Vim: vi ( { [ )</p>
+<p>^ Shf Up     Add Prev Line<br>^ Shf Dn     Add Next Line</p>
+<p>Cmd d     Expand Selection to Word     ( Vim: ve | vb )<br>Cmd l     Expand Selection to Line     ( Vim: V )</p>
+<p>Find</p>
+<p>^ f     Find     ( Vintage/Vim: / )<br>^ F     Find in Files</p>
+<p>Alt Cmd f     Replace<br>Alt Cmd e     Replace Next</p>
+<p>Under Find | Replace:</p>
+<pre><code>^ g     <span class="keyword">Find</span> <span class="keyword">Next</span>     ( Vim: n )
+^ G     <span class="keyword">Find</span> Prev     ( Vim: <span class="keyword">N</span> )
+
+Cmd Alt c     <span class="keyword">Toggle</span> Case-sensitive <span class="keyword">Mode</span>
+Cmd Alt w     <span class="keyword">Toggle</span> Whole matching <span class="keyword">Mode</span>
+Cmd Alt r     <span class="keyword">Toggle</span> Regex matching <span class="keyword">Mode</span>
+
+Alt <span class="keyword">Enter</span>     <span class="keyword">Find</span> <span class="keyword">All</span>
+^ Alt <span class="keyword">Enter</span>      <span class="keyword">Replace</span> <span class="keyword">All</span>
+</code></pre><p>View</p>
+<p>Cmd k , Cmd b     Toggle Sidebar</p>
+<p>^ `     Show Console<br>F6     Spell Check</p>
+<p>Layout</p>
+<p>Cmd Alt 1     Single<br>Cmd Alt 2~4     Split Tab Cols 2~4<br>Cmd Alt Shf 2~3      Split Tab Rows 2~3x</p>
+<p>Goto</p>
+<p>^ p     Goto File  (Then input the file name)<br>     @<symbol_name>     Goto Symbol  (of specified file)</symbol_name></p>
+<pre><code>#&lt;keyword&gt;     <span class="keyword">Goto</span> Keyword  (<span class="keyword">of</span> specified <span class="keyword">file</span>)
+:&lt;line_number&gt;     <span class="keyword">Goto</span> Line  (<span class="keyword">of</span> specified <span class="keyword">file</span>)
+</code></pre><p>^ g     Goto Line     ( Vim: <line_num>G )<br>^ r     Goto Symbol<br>^ R     Goto Symbol in Project<br>F12 | Cmd Alt Dn     Goto Definition</line_num></p>
+<p>^ -     Jump Forward<br>^ _     Jump Back</p>
+<p>Scroll</p>
+<p>^ l     Scroll to Selection<br>^ Up     Page Up     ( Vim: ^ b )<br>^ Dn     Page Down     ( Vim: ^ f )<br>^ Alt Up     Line Up<br>^ Alt Dn     Line Down</p>
+<p>Abbr：</p>
+<ol>
+<li>Cmd  =  Command</li>
+<li>Shf  =  Shift</li>
+<li>Capital letter  =  Shf + <letter><br>  e.g.<pre><code><span class="setting">s  =  <span class="value">s</span></span>
+<span class="setting">S  =  <span class="value">Shf + s</span></span>
+</code></pre></letter></li>
+</ol>
+<p>Font:<br>Strikethrough  =  The operation can be replaced by vim’s related shortcut</p>
+<p>Key / Usage</p>
+<p>Window</p>
+<p>Cmd T     Reopen Recent Closed File<br>^ n     New Tab<br>^ N     New Window<br>Cmd w     Close Tab/Window</p>
+<p>Edit</p>
+<p>Alt Cmd V     Paste from History<br>Cmd V     Paste and Indent</p>
+<p>Text</p>
+<p>Cmd Enter     Insert Line Before     ( Vim: O )<br>Cmd Shf Enter     Insert Line After     ( Vim: o )</p>
+<p>Cmd Del     Delete to Home<br>Cmd D     Duplicate Line     ( Vim: yy )</p>
+<p>Line</p>
+<p>^ k     Delete to End     ( Vim: D )<br>^ K     Delete Line     ( Vim:: dd )</p>
+<p>^ Cmd Up     Swap Line Up<br>^ Cmd Dn     Swap Line Down</p>
+<p>Comment</p>
+<p>Cmd /     Toggle Comment<br>Alt Cmd /     Toggle Block Comment</p>
+<p>Convert Case</p>
+<p>Cmd k , Cmd u     Upper Case     ( Vim: gU )<br>Cmd k , Cmd l     Lower Case     ( Vim: gu )</p>
+<p>Selection</p>
+<p>^ m     Move between () {} [] etc     ( Vim: % )<br>^ M     Select Contents between () {} [] etc     ( Vim: vi ( { [ )</p>
+<p>^ Shf Up     Add Prev Line<br>^ Shf Dn     Add Next Line</p>
+<p>Cmd d     Expand Selection to Word     ( Vim: ve | vb )<br>Cmd l     Expand Selection to Line     ( Vim: V )</p>
+<p>Find</p>
+<p>^ f     Find     ( Vintage/Vim: / )<br>^ F     Find in Files</p>
+<p>Alt Cmd f     Replace<br>Alt Cmd e     Replace Next</p>
+<p>Under Find | Replace:</p>
+<pre><code>^ g     <span class="keyword">Find</span> <span class="keyword">Next</span>     ( Vim: n )
+^ G     <span class="keyword">Find</span> Prev     ( Vim: <span class="keyword">N</span> )
+
+Cmd Alt c     <span class="keyword">Toggle</span> Case-sensitive <span class="keyword">Mode</span>
+Cmd Alt w     <span class="keyword">Toggle</span> Whole matching <span class="keyword">Mode</span>
+Cmd Alt r     <span class="keyword">Toggle</span> Regex matching <span class="keyword">Mode</span>
+
+Alt <span class="keyword">Enter</span>     <span class="keyword">Find</span> <span class="keyword">All</span>
+^ Alt <span class="keyword">Enter</span>      <span class="keyword">Replace</span> <span class="keyword">All</span>
+</code></pre><p>View</p>
+<p>Cmd k , Cmd b     Toggle Sidebar</p>
+<p>^ `     Show Console<br>F6     Spell Check</p>
+<p>Layout</p>
+<p>Cmd Alt 1     Single<br>Cmd Alt 2~4     Split Tab Cols 2~4<br>Cmd Alt Shf 2~3      Split Tab Rows 2~3x</p>
+<p>Goto</p>
+<p>^ p     Goto File  (Then input the file name)<br>     @<symbol_name>     Goto Symbol  (of specified file)</symbol_name></p>
+<pre><code>#&lt;keyword&gt;     <span class="keyword">Goto</span> Keyword  (<span class="keyword">of</span> specified <span class="keyword">file</span>)
+:&lt;line_number&gt;     <span class="keyword">Goto</span> Line  (<span class="keyword">of</span> specified <span class="keyword">file</span>)
+</code></pre><p>^ g     Goto Line     ( Vim: <line_num>G )<br>^ r     Goto Symbol<br>^ R     Goto Symbol in Project<br>F12 | Cmd Alt Dn     Goto Definition</line_num></p>
+<p>^ -     Jump Forward<br>^ _     Jump Back</p>
+<p>Scroll</p>
+<p>^ l     Scroll to Selection<br>^ Up     Page Up     ( Vim: ^ b )<br>^ Dn     Page Down     ( Vim: ^ f )<br>^ Alt Up     Line Up<br>^ Alt Dn     Line Down</p>
+<h1 id="对_Mac_的看法">对 Mac 的看法</h1><h2 id="现状">现状</h2><p>离不开Mac</p>
+<h2 id="为什么">为什么</h2><p>没传说中那么神…<br>但是还是很好用！<br>系统干净，无干扰！<br>配置环境上还是比Windows方便，<br>比Ubuntu等稳定流畅易用，<br>软件生态良好，产出更多免费或收费的优秀软件。</p>
+<h2 id="Vim">Vim</h2><p>运维、客户端开发必修！<br>VimFX 浏览器全局使用<br>只有Firefox满足！</p>
+<h2 id="Terminal">Terminal</h2><p>iTerm2 &amp; tmux &amp; oh-my-zsh！为什么不用fish！</p>
+<h2 id="Apps">Apps</h2><p>Geek，Focus！<br>Seil、karabiner好用！<br>给出「My Tools」链接！</p>
+<h2 id="Others">Others</h2><p>brew link php56<br>brew unlink php56<br>brew link php70</p>
+<p>以此自动改变当前使用php的版本！</p>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://icehe.me/note/mac.html" data-title="对 Mac 的看法 | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+   	       
+	</article>
+	
+	<section id="comments" class="comment"></section>
+
+
+<!-- Duoshuo Show UA -->
+<!--<link href="https://raw.githubusercontent.com/easunlee/make_duoshuo_show_ua/master/src/show.ua.css" rel="stylesheet">-->
+<!--<script type="text/javascript" async="" src="http://faisalman.github.io/ua-parser-js/src/ua-parser.js" charset="UTF-8"></script>-->
+
+
+<script type="text/javascript">
+
+
+var duoshuoQuery = {short_name:"icehe"};
+(function() {
+	var ds = document.createElement('script');
+	ds.type = 'text/javascript';ds.async = true;
+	ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+	ds.charset = 'UTF-8';
+	(document.getElementsByTagName('head')[0]
+	|| document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+
+
+
+
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="note/mac.html" data-title="对 Mac 的看法" data-url="http://icehe.me/note/mac.html"></div>'
+//	+ '<hr/>'
+//	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
+//	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
+//	+ '</div>';
+
+//function loadDisqus(){
+//	var disqus_shortname = 'icehe';
+//
+//	(function(){
+//		var dsq = document.createElement('script');
+//		dsq.type = 'text/javascript';
+//		dsq.async = true;
+//		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+//		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+//	}());
+//
+//	(function(){
+//		var dsq = document.createElement('script');
+//		dsq.type = 'text/javascript';
+//		dsq.async = true;
+//		dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+//		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+//	}());
+
+//	document.getElementById('disqus_div').innerHTML = '<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>';
+//}
+
+</script>
+
+</div>  
+      </div>
+      <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<div class="social-font" class="clearfix">
+		
+		<a href="https://github.com/IceHe" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		<a href="http://weibo.com/icedes" target="_blank" class="icon-weibo" title="微博"></a>
+		
+		
+		
+		
+		
+		
+		
+		<a href="https://www.douban.com/people/IceHeGZ" target="_blank" class="icon-douban" title="豆瓣"></a>
+		
+		
+		
+		
+		<a href="mailto:x@icehe.me" target="_blank" class="icon-email" title="Email Me"></a>
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2016 
+		
+		<a href="/about" target="_blank" title="IceHe何志远">IceHe何志远</a>
+		
+		
+		</p>
+</div>
+</footer>
+      <!--<script src="/js/jquery-2.0.3.min.js"></script>-->
+<script id="jQueryLink" src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript">
+  window.jQuery || document.write('<script src="/js/jquery-2.0.3.min.js"><\/script>');
+</script>
+
+<!--<script src="/js/jquery.imagesloaded.min.js"></script>-->
+<!--<script src="/js/gallery.js"></script>-->
+<!--<script src="/js/jquery.qrcode-0.12.0.min.js"></script>-->
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.imagesloaded.min.js"></script>
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/gallery.js"></script>
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.qrcode-0.12.0.min.js"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize();
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+    }
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+//      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var title = '《 ' + $('.article-url').attr('title') + ' 》@IceHe何志远 的技术博客『 '
+          + document.getElementsByName('description')[0].content + '』';
+  var weibo_share_url = 'http://service.weibo.com/share/share.php?type=button&searchPic=true&style=full&title=' + title + '&url=' + encodedUrl + '&pic=http%3A%2F%2F7vzp68.com1.z0.glb.clouddn.com%2Fabout%2Favatar_03a.jpg&appkey=' + tsina;
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="javascript:;" class="article-share-weibo" title="微博" onclick="window.open(\'' + weibo_share_url + '\', \'_blank\', \'width=615,height=505\')"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});
+</script>
+
+
+
+
+<!--<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">-->
+<!--<script src="/fancybox/jquery.fancybox.pack.js"></script>-->
+<link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+<div style="display: none;">
+	<script type="text/javascript">
+	
+		if(isOnGithub){
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-60837823-1', 'auto');  
+			ga('send', 'pageview');
+		}
+	
+
+	
+		if(isOnGitcafe){
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-60837823-2', 'auto');  
+			ga('send', 'pageview');
+		}
+	
+
+	
+		if(isOnGithub){
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		}
+	
+
+	
+		if(isOnGitcafe){
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?68e951d2eed2725bdd8cf4b1900d632f";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		}
+	
+	
+	</script>
+</div>
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+<div id="totop">
+	<!-- <a title="Back to Top"><img src="/img/scrollup.png"/></a> -->
+	<a title="Back to Top"><img src="//7vzp68.com1.z0.glb.clouddn.com/common/scrollup.png"/></a>
+</div>
+<!--<script src="/js/totop.js"></script>-->
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Lean Cloud Begin -->
+<script src="https://leancloud.cn/scripts/lib/av-0.5.0.min.js"></script>
+<script type="text/javascript">
+  AV.initialize("u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5");
+  // 初始化 param1：应用 id、param2：应用 key
+
+  function addCount (Counter) {
+    url = $('.article-url').attr('href').trim();
+    title = $('.article-title').text().trim();
+    var query = new AV.Query(Counter);
+    //use url as unique idnetfication
+    query.equalTo("url",url);
+    query.find({
+      success: function(results){
+        if(results.length>0){
+          var counter = results[0];
+          counter.fetchWhenSave(true); //get recent result
+          counter.increment("time");
+          counter.save();
+        }else{
+          var newcounter = new Counter();
+          newcounter.set("title", title);
+          newcounter.set("url", url);
+          newcounter.set("time", 1);
+          newcounter.save(null, {
+            success: function(newcounter){
+              //alert('New object created');
+            },
+            error: function(newcounter,error){
+              //alert('Failed to create');
+            }
+          });
+        }
+      },
+      error: function(error){
+        // find null is not a error
+        //alert('Error:' + error.code + " " + error.message);
+      }
+    });
+  }
+
+  $(function(){
+    var Counter = AV.Object.extend("Counter");
+    // only increse visit counting when intering a page
+    if((isOnGithub || isOnGitcafe) && $('.article-title').length == 1) {
+      addCount(Counter);
+    }
+
+    // if popularlist widget exists, add item to it.
+    var popular_list = $('.popularlist');
+    if(1 == popular_list.length){
+      var query = new AV.Query(Counter);
+      query.descending("time");
+      query.limit(15);
+      query.find({
+        success: function(results){
+          for(var i = 0; i < results.length; ++i){
+            var counter = results[i];
+            title = counter.get("title");
+            url = counter.get("url");
+            time = counter.get("time");
+
+            $('#popularlist_ul').append('<li><a href="'
+                    + url + '" name="'
+                    + title + '">'
+                    + (1 == ((i + 1) % 5)
+                            ? ('<b>' + (i + 1) + ' </b>') : '')
+                    + '<sup>'
+                    + time + ' </sup> &nbsp;'
+                    + title
+                    + '</a></li>'
+            );
+          }
+        },
+        error: function(error){
+          //alert("Error:" + error.code + " " + error.message);
+        }
+      });
+    }
+
+    // if cur page is a post, set the post pageview.
+    var article_info = $(".article-info");
+    if(1 == article_info.length){
+      var query = new AV.Query(Counter);
+      query.equalTo("url", article_info.find(".article-title a").attr("href"));
+      query.limit(1);
+      query.find({
+        success: function(results){
+          if(1 == results.length){
+            var counter = results[0];
+            title = counter.get("title");
+            url = counter.get("url");
+            time = counter.get("time");
+
+            article_info.find(".article-readtimes .readtimes").text(time);
+          }
+        },
+        error: function(error){
+          article_info.find(".article-readtimes .readtimes").text("?");
+          //alert("Error:" + error.code + " " + error.message);
+        }
+      });
+    }
+
+    // if cur page is Home, set the post_list pageviews.
+    var post_list = $("#main[class!=post]");
+    if(0 != post_list.length){
+      var post_items = post_list.find(".post a");
+      for(var i = 0; i < post_items.length; ++i){
+        var url = post_items.eq(i).attr("href");
+        query.equalTo("url", url);
+        query.limit(1);
+        query.find({
+          success: function(results){
+            if(1 == results.length){
+              var counter = results[0];
+              title = counter.get("title");
+              url = counter.get("url");
+              time = counter.get("time");
+
+              $(".post a[href='" + url + "']").find('.readtimes').text(time);
+            }
+          },
+          error: function(error){
+            //alert("Error:" + error.code + " " + error.message);
+          }
+        });
+      }
+    }
+  });
+
+  <!-- 百度 自动推送网页索引工具代码 -->
+  (function(){
+    var bp = document.createElement('script');
+    bp.src = '//push.zhanzhang.baidu.com/push.js';
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+
+</script>
+<!-- Lean Cloud End -->
+
+
+<!-- 不蒜子 网站计数 -->
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+<!-- 自动点击喜欢 -->
+<script type="text/javascript">
+  $(window).load(function() {
+    var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
+    if (1 == ds_like_button.length
+            && "none" != document.getElementsByClassName('ds-meta')[0].style.display
+            && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
+    ) {
+      ds_like_button[0].click();
+      document.getElementsByClassName('ds-like-tooltip-close')[0].click();
+      window.location.href = '#';
+    }
+  });
+</script>
+
+    </body>
+  </html>
+
+

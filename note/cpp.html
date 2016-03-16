@@ -1,0 +1,692 @@
+
+
+
+  <!DOCTYPE HTML>
+<html lang="default">
+<head>
+  <meta charset="UTF-8">
+  
+
+	<title>C++ Note | Ice He 何志远</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+	
+	<meta name="author" content="IceHe何志远">
+	
+
+	
+	<meta name="description" content="open与fopen区别errno的基本用法C placeholder 占位符sprintf函数引起的缓冲区溢出
+C/C++ 各类型 int, long, double, char计数范围（min~max）nt((unsigned int)(~0) &amp;gt;&amp;gt; 1) // maxint(~((unsigned int)(-1) &amp;gt;&amp;gt; 1))// min
+OR
+當題目涉及到求最大最">
+<meta property="og:type" content="website">
+<meta property="og:title" content="C++ Note">
+<meta property="og:url" content="http://icehe.me/note/cpp.html">
+<meta property="og:site_name" content="Ice He 何志远">
+<meta property="og:description" content="open与fopen区别errno的基本用法C placeholder 占位符sprintf函数引起的缓冲区溢出
+C/C++ 各类型 int, long, double, char计数范围（min~max）nt((unsigned int)(~0) &amp;gt;&amp;gt; 1) // maxint(~((unsigned int)(-1) &amp;gt;&amp;gt; 1))// min
+OR
+當題目涉及到求最大最">
+<meta property="og:updated_time" content="2016-03-16T07:59:04.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="C++ Note">
+<meta name="twitter:description" content="open与fopen区别errno的基本用法C placeholder 占位符sprintf函数引起的缓冲区溢出
+C/C++ 各类型 int, long, double, char计数范围（min~max）nt((unsigned int)(~0) &amp;gt;&amp;gt; 1) // maxint(~((unsigned int)(-1) &amp;gt;&amp;gt; 1))// min
+OR
+當題目涉及到求最大最">
+
+  
+  <link rel="alternative" href="/atom.xml" title="Ice He 何志远" type="application/atom+xml">
+  
+  
+  <link rel="icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon.ico">
+  
+  
+  <link rel="apple-touch-icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+  <link rel="apple-touch-icon-precomposed" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+  
+
+  <!-- <link rel="stylesheet" href="/css/style.css" type="text/css"> -->
+  <!--<link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/css/style.css" type="text/css">-->
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+  <!-- 百度站内搜索 for github站 icehe.me -->
+  <!--<meta name="baidu-site-verification" content="04tLeUMqMf" />-->
+  <!-- 百度站内搜索 for github站 icehe.github.io -->
+  <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
+
+  <!-- 谷歌站长工具 元标签验证码 -->
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
+
+  <!-- 微博开放平台 元标签验证码 -->
+  <meta property="wb:webmaster" content="84efd5956048ab8f" />
+
+  <!-- Google Fonts from 360 CDN -->
+  <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
+
+  <!-- Common CSS -->
+  <style type="text/css">
+    .center { text-align: center; }
+    .hidden { display: none; }
+    /*span.hitokoto a { color: white; } // for 一言*/
+  </style>
+
+  <!-- font-awesome -->
+  <link href="//libs.cncdn.cn/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- 一言 -->
+  <!-- <script type="text/javascript" src="http://api.hitokoto.us/rand?encode=js&charset=utf-8"></script> -->
+</head>
+
+    <body>
+      <header>
+        <script type="text/javascript">
+	// 判断现在个人站是在哪一个网址上！
+	var isOnGithub = (-1 != location.href.indexOf("icehe.me"));
+	var isOnGitcafe = (-1 != location.href.indexOf("icehe.gitcafe.io"));
+</script>
+
+
+<div>
+	
+		<div id="imglogo">
+			<a href="/">
+				<!-- <img src="/http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="Ice He 何志远" title="Ice He 何志远"/> -->
+				<img src="http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="Ice He 何志远" title="Ice He 何志远"/>
+			</a>
+		</div>
+	
+
+	<div id="textlogo">
+		<h1 class="site-name"><a href="/" title="Ice He 何志远">Ice He 何志远</a></h1>
+		<h2 class="blog-motto">Less is more  宁静致远</h2>
+	</div>
+	<div class="navbar">
+		<a class="navbutton navmobile" href="#" title="Menu"></a>
+	</div>
+	<nav class="animated">
+		<ul>
+			<ul>
+			
+				<li><a href="/">Blog 文</a></li>
+			
+				<li><a href="/about">Me 我</a></li>
+			
+				<li><a href="/index">Index 目录</a></li>
+			
+				<li>
+				
+
+					<form class="search" action="/search/index.html" method="get" accept-charset="utf-8">
+					<!--<form class="search" action="" method="get" accept-charset="utf-8">-->
+						<label>Search</label>
+						<input type="search" id="search" autocomplete="on" name="q" maxlength="20" placeholder="Find" />
+					</form>
+
+				
+				</li>
+			</ul>
+		</ul>
+	</nav>
+</div>
+
+      </header>
+      <div id="container">
+        <div id="main" class="page" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name" class="article-title">
+    
+      <a href="/note/cpp.html" title="C++ Note" itemprop="url" class="article-url">C++ Note</a>
+  </h1>
+  <p class="article-readtimes">
+    Read ( <span class="readtimes">?</span> )
+  </p>
+  <p class="article-author"> By
+    
+    <a href="/about" title="IceHe何志远" target="_blank" itemprop="author">IceHe何志远</a>
+    
+  </p>
+  <p class="article-time">
+    <time datetime="2016-03-16T07:59:04.000Z" itemprop="datePublished"> Published 2016 Mar 16</time>
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">Contents</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#C/C++_各类型_int,_long,_double,_char计数范围（min~max）"><span class="toc-number">1.</span> <span class="toc-text">C/C++ 各类型 int, long, double, char计数范围（min~max）</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#C++__CRT_SECURE_NO_WARNINGS_&_What’s_CRT_func"><span class="toc-number">2.</span> <span class="toc-text">C++ _CRT_SECURE_NO_WARNINGS & What’s CRT func</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#C++_double类型的精确度"><span class="toc-number">3.</span> <span class="toc-text">C++ double类型的精确度</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#多重loop，次数较多的放内层"><span class="toc-number">4.</span> <span class="toc-text">多重loop，次数较多的放内层</span></a></li></ol>
+		
+		</div>
+		
+		<p><a href="http://www.360doc.com/content/11/0901/14/2338020_144987612.shtml" target="_blank" rel="external">open与fopen区别</a><br><a href="http://blog.csdn.net/jediael_lu/article/details/8589194" target="_blank" rel="external">errno的基本用法</a><br><a href="http://zhidao.baidu.com/question/167147634.html" target="_blank" rel="external">C placeholder 占位符</a><br><a href="http://book.51cto.com/art/201311/419419.htm" target="_blank" rel="external">sprintf函数引起的缓冲区溢出</a><br><a href=""></a></p>
+<h1 id="C/C++_各类型_int,_long,_double,_char计数范围（min~max）">C/C++ 各类型 int, long, double, char计数范围（min~max）</h1><p>nt((unsigned int)(~0) &gt;&gt; 1) // max<br>int(~((unsigned int)(-1) &gt;&gt; 1))// min</p>
+<pre><code><span class="literal">OR</span>
+</code></pre><p>當題目涉及到求最大最小值時，最初的比較數字就應當設置爲INT_MAX或INT_MIN，更爲安全。</p>
+<p><limits.h>中有INT_MAX和INT_MIN的宏定義可直接使用。</limits.h></p>
+<p>或者自行定義宏</p>
+<p>#define INT_MAX 0x7fffffff</p>
+<p>#define INT_MIN 0x80000000</p>
+<p>INT_MAX = 2147483647</p>
+<p>INT_MIN = -2147483648</p>
+<p>這僅試用在没有限制範圍的情况下使用。</p>
+<p>否則同樣會出現其他連鎖的錯誤。</p>
+<pre><code><span class="literal">OR</span>
+</code></pre><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="preprocessor">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">&lt;limits&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span><br><span class="line"></span>&#123;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"type: \t\t"</span> &lt;&lt; <span class="string">"************size**************"</span>&lt;&lt; endl;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"bool: \t\t"</span> &lt;&lt; <span class="string">"所占字节数："</span> &lt;&lt; <span class="keyword">sizeof</span>(<span class="keyword">bool</span>);</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t最大值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">bool</span>&gt;::max)();</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t\t最小值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">bool</span>&gt;::min)() &lt;&lt; endl;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"char: \t\t"</span> &lt;&lt; <span class="string">"所占字节数："</span> &lt;&lt; <span class="keyword">sizeof</span>(<span class="keyword">char</span>);</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t最大值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">char</span>&gt;::max)();</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t\t最小值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">char</span>&gt;::min)() &lt;&lt; endl;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"signed char: \t"</span> &lt;&lt; <span class="string">"所占字节数："</span> &lt;&lt; <span class="keyword">sizeof</span>(<span class="keyword">signed</span> <span class="keyword">char</span>);</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t最大值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">signed</span> <span class="keyword">char</span>&gt;::max)();</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t\t最小值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">signed</span> <span class="keyword">char</span>&gt;::min)() &lt;&lt; endl;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"unsigned char: \t"</span> &lt;&lt; <span class="string">"所占字节数："</span> &lt;&lt; <span class="keyword">sizeof</span>(<span class="keyword">unsigned</span> <span class="keyword">char</span>);</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t最大值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">unsigned</span> <span class="keyword">char</span>&gt;::max)();</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t\t最小值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">unsigned</span> <span class="keyword">char</span>&gt;::min)() &lt;&lt; endl;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"wchar_t: \t"</span> &lt;&lt; <span class="string">"所占字节数："</span> &lt;&lt; <span class="keyword">sizeof</span>(<span class="keyword">wchar_t</span>);</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t最大值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">wchar_t</span>&gt;::max)();</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t\t最小值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">wchar_t</span>&gt;::min)() &lt;&lt; endl;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"short: \t\t"</span> &lt;&lt; <span class="string">"所占字节数："</span> &lt;&lt; <span class="keyword">sizeof</span>(<span class="keyword">short</span>);</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t最大值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">short</span>&gt;::max)();</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t\t最小值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">short</span>&gt;::min)() &lt;&lt; endl;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"int: \t\t"</span> &lt;&lt; <span class="string">"所占字节数："</span> &lt;&lt; <span class="keyword">sizeof</span>(<span class="keyword">int</span>);</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t最大值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">int</span>&gt;::max)();</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t最小值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">int</span>&gt;::min)() &lt;&lt; endl;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"unsigned: \t"</span> &lt;&lt; <span class="string">"所占字节数："</span> &lt;&lt; <span class="keyword">sizeof</span>(<span class="keyword">unsigned</span>);</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t最大值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">unsigned</span>&gt;::max)();</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t最小值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">unsigned</span>&gt;::min)() &lt;&lt; endl;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"long: \t\t"</span> &lt;&lt; <span class="string">"所占字节数："</span> &lt;&lt; <span class="keyword">sizeof</span>(<span class="keyword">long</span>);</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t最大值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">long</span>&gt;::max)();</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t最小值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">long</span>&gt;::min)() &lt;&lt; endl;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"unsigned long: \t"</span> &lt;&lt; <span class="string">"所占字节数："</span> &lt;&lt; <span class="keyword">sizeof</span>(<span class="keyword">unsigned</span> <span class="keyword">long</span>);</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t最大值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">unsigned</span> <span class="keyword">long</span>&gt;::max)();</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t最小值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">unsigned</span> <span class="keyword">long</span>&gt;::min)() &lt;&lt; endl;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"double: \t"</span> &lt;&lt; <span class="string">"所占字节数："</span> &lt;&lt; <span class="keyword">sizeof</span>(<span class="keyword">double</span>);</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t最大值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">double</span>&gt;::max)();</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t最小值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">double</span>&gt;::min)() &lt;&lt; endl;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"long double: \t"</span> &lt;&lt; <span class="string">"所占字节数："</span> &lt;&lt; <span class="keyword">sizeof</span>(<span class="keyword">long</span> <span class="keyword">double</span>);</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t最大值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">long</span> <span class="keyword">double</span>&gt;::max)();</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t最小值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">long</span> <span class="keyword">double</span>&gt;::min)() &lt;&lt; endl;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"float: \t\t"</span> &lt;&lt; <span class="string">"所占字节数："</span> &lt;&lt; <span class="keyword">sizeof</span>(<span class="keyword">float</span>);</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t最大值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">float</span>&gt;::max)();</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t最小值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">float</span>&gt;::min)() &lt;&lt; endl;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"size_t: \t"</span> &lt;&lt; <span class="string">"所占字节数："</span> &lt;&lt; <span class="keyword">sizeof</span>(<span class="keyword">size_t</span>);</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t最大值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">size_t</span>&gt;::max)();</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"\t最小值："</span> &lt;&lt; (numeric_limits&lt;<span class="keyword">size_t</span>&gt;::min)() &lt;&lt; endl;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"string: \t"</span> &lt;&lt; <span class="string">"所占字节数："</span> &lt;&lt; <span class="keyword">sizeof</span>(<span class="built_in">string</span>) &lt;&lt; endl;</span><br><span class="line">    <span class="comment">// &lt;&lt; "\t最大值：" &lt;&lt; (numeric_limits&lt;string&gt;::max)() &lt;&lt; "\t最小值：" &lt;&lt; (numeric_limits&lt;string&gt;::min)() &lt;&lt; endl;</span></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"type: \t\t"</span> &lt;&lt; <span class="string">"************size**************"</span>&lt;&lt; endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="C++__CRT_SECURE_NO_WARNINGS_&amp;_What’s_CRT_func"><a href="blog.csdn.net/kason2011/article/details/7803891">C++ _CRT_SECURE_NO_WARNINGS &amp; What’s CRT func</a></h1><p>什么是CRT函数</p>
+<p>C Runtime是windows平台下的一个概念。<br>一般来说，CRT函数就是标准的C语言函数。<br>例如，printf、scanf、strlen、fopen等函数就属于CRT函数。</p>
+<p>在windows下所有的CRT函数最终都是转化成为win32 API来执行的。<br>windows本身并没有在内核之上提供对CRT的支持。<br>CRT既可以通过静态连接来实现，也可以通过动态链接来实现（MSVCRT.DLL）。</p>
+<p>常用的安全CRT函数</p>
+<p>安全CRT（C Runtime Library = C运行时间库）函数，是微软公司对C/C++语言的扩展。<br>它在原来函数名后添加了“_s”后缀；<br>一般返回出错代码；<br>并将原来的函数返回值，作为一个参数，添加到函数输入参数列表的最后；<br>对带缓冲区参数的函数，还添加了表示缓冲区大小的输入参数，以防止内存溢出。</p>
+<p>在VC05中，如果不使用这些安全性函数，编译器会报告警告性错误。</p>
+<p>下面是若干常用的安全CRT函数：</p>
+<p>char <em>gets_s( char </em>buffer, size_t sizeInCharacters );   // <stdio.h><br>wchar_t <em>_getws_s( wchar_t </em>buffer, size_t sizeInCharacters );   // <stdio.h> or <wchar.h><br>errno_t _itoa_s( int value, char <em>buffer, size_t sizeInCharacters, int radix  ); // <stdlib.h><br>errno_t _itow_s( int value, wchar_t </stdlib.h></em>buffer, size_t sizeInCharacters, int radix  ); // <stdlib.h><br>errno_t _ultoa_s( unsigned long value, char <em>str, size_t sizeOfstr, int radix  ); // <stdlib.h><br>errno_t _ultow_s( unsigned long value, wchar_t </stdlib.h></em>str, size_t sizeOfstr, int radix  ); // <stdlib.h><br>int printf_s( const char <em>format [, argument]…  ); // <stdio.h><br>int wprintf_s( const wchar_t </stdio.h></em>format [, argument]…  ); // <stdio.h> or <wchar.h><br>int scanf_s( const char <em>format [, argument]…  ); // <stdio.h><br>int wscanf_s( const wchar_t </stdio.h></em>format [, argument]…  ); // <stdio.h> or <wchar.h><br>int sprintf_s( char <em>buffer, size_t sizeOfBuffer, const char </em>format [, argument] …  ); // <stdio.h><br>int swprintf_s( wchar_t <em>buffer, size_t sizeOfBuffer, const wchar_t </em>format [, argument]… ); // <stdio.h> or <wchar.h><br>int sscanf_s( const char <em>buffer, const char </em>format [, argument ] … ); // <stdio.h><br>int swscanf_s( const wchar_t <em>buffer, const wchar_t </em>format [, argument ] … ); // <stdio.h> or <wchar.h><br>int fprintf_s( FILE <em>stream, const char </em>format [, argument ]… ); // <stdio.h><br>int fwscanf_s( FILE <em>stream, const wchar_t </em>format [, argument ]…  ); // <stdio.h> or <wchar.h><br>int fscanf_s( FILE <em>stream, const char </em>format [, argument ]…  ); // <stdio.h><br>int fwscanf_s( FILE <em>stream, const wchar_t </em>format [, argument ]…  ); // <stdio.h> or <wchar.h><br>errno_t strcpy_s( char <em>strDestination, size_t sizeInBytes, const char </em>strSource  ); // <string.h><br>errno_t wcscpy_s( wchar_t <em>strDestination, size_t sizeInWords, const wchar_t </em>strSource  ); // <string.h> or <wchar.h><br>errno_t fopen_s( FILE<strong> pFile, const char <em>filename, const char </em>mode  ); // <stdio.h><br>errno_t _wfopen_s( FILE</stdio.h></strong> pFile, const wchar_t <em>filename, const wchar_t </em>mode  ); // <stdio.h> or <wchar.h><br>errno_t rand_s( unsigned int* randomValue ); // <stdlib.h></stdlib.h></wchar.h></stdio.h></wchar.h></string.h></string.h></wchar.h></stdio.h></stdio.h></wchar.h></stdio.h></stdio.h></wchar.h></stdio.h></stdio.h></wchar.h></stdio.h></stdio.h></wchar.h></stdio.h></wchar.h></stdio.h></stdlib.h></stdlib.h></wchar.h></stdio.h></stdio.h></p>
+<p>下面是若干安全函数原型用到的数据类型的定义：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#include &#60;crtdefs.h&#62;&#10;typedef  int  errno_t;&#10;typedef  unsigned short  wchar_t;&#10;#ifdef  _WIN64&#10;typedef  unsigned __int64  size_t;&#10;#else&#10;typedef  _W64 unsigned int  size_t;&#10;#endif</span><br></pre></td></tr></table></figure>
+<h1 id="C++_double类型的精确度">C++ double类型的精确度</h1><p>方法：printf(“%.50f\n”, 1.0/3);</p>
+<p>结果：0.33333333333333331000000000000000000000000000000000</p>
+<p>结论：16位</p>
+<h1 id="多重loop，次数较多的放内层">多重loop，次数较多的放内层</h1><p>在多重循环中，若有可能，<br>应将最长的循环放在最内层，<br>最短的循环放在最外层，<br>以减少 CPU 跨切循环层的次数。</p>
+<p>（例）<br>for (row = 0; row &lt; 100; row++)<br>{<br>    for (col = 0; col &lt; 5; col++) {<br>        sum += a[row][col];<br>    }<br>}<br>100次外部循环+500次内部循环 总共600次循环</p>
+<p>for (col = 0; col &lt; 5; col++)<br>{<br>    for (row = 0; row &lt; 100; row++) {<br>        sum += a[row][col];<br>    }<br>}<br>5次外部循环，500次内部循环 总共 550次循环</p>
+<p>其它：<br>还为了增加cache命中率,<br>cache问题，与二维数组的内存线性布局有关。</p>
+<p>ary[10][100]<br>for(row)<br>     for(col)<br>          process ary[i][j]…<br>因为二维数组的某一行中的每个列单元，<br>其物理存储位置距离比较近，cache命中率高；<br>而某一列的每个行单元的物理存储位置较远…&gt;)<br>}&gt;)&gt;)<br>}&gt;)</p>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://icehe.me/note/cpp.html" data-title="C++ Note | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+   	       
+	</article>
+	
+	<section id="comments" class="comment"></section>
+
+
+<!-- Duoshuo Show UA -->
+<!--<link href="https://raw.githubusercontent.com/easunlee/make_duoshuo_show_ua/master/src/show.ua.css" rel="stylesheet">-->
+<!--<script type="text/javascript" async="" src="http://faisalman.github.io/ua-parser-js/src/ua-parser.js" charset="UTF-8"></script>-->
+
+
+<script type="text/javascript">
+
+
+var duoshuoQuery = {short_name:"icehe"};
+(function() {
+	var ds = document.createElement('script');
+	ds.type = 'text/javascript';ds.async = true;
+	ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+	ds.charset = 'UTF-8';
+	(document.getElementsByTagName('head')[0]
+	|| document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+
+
+
+
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="note/cpp.html" data-title="C++ Note" data-url="http://icehe.me/note/cpp.html"></div>'
+//	+ '<hr/>'
+//	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
+//	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
+//	+ '</div>';
+
+//function loadDisqus(){
+//	var disqus_shortname = 'icehe';
+//
+//	(function(){
+//		var dsq = document.createElement('script');
+//		dsq.type = 'text/javascript';
+//		dsq.async = true;
+//		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+//		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+//	}());
+//
+//	(function(){
+//		var dsq = document.createElement('script');
+//		dsq.type = 'text/javascript';
+//		dsq.async = true;
+//		dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+//		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+//	}());
+
+//	document.getElementById('disqus_div').innerHTML = '<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>';
+//}
+
+</script>
+
+</div>  
+      </div>
+      <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<div class="social-font" class="clearfix">
+		
+		<a href="https://github.com/IceHe" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		<a href="http://weibo.com/icedes" target="_blank" class="icon-weibo" title="微博"></a>
+		
+		
+		
+		
+		
+		
+		
+		<a href="https://www.douban.com/people/IceHeGZ" target="_blank" class="icon-douban" title="豆瓣"></a>
+		
+		
+		
+		
+		<a href="mailto:x@icehe.me" target="_blank" class="icon-email" title="Email Me"></a>
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2016 
+		
+		<a href="/about" target="_blank" title="IceHe何志远">IceHe何志远</a>
+		
+		
+		</p>
+</div>
+</footer>
+      <!--<script src="/js/jquery-2.0.3.min.js"></script>-->
+<script id="jQueryLink" src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript">
+  window.jQuery || document.write('<script src="/js/jquery-2.0.3.min.js"><\/script>');
+</script>
+
+<!--<script src="/js/jquery.imagesloaded.min.js"></script>-->
+<!--<script src="/js/gallery.js"></script>-->
+<!--<script src="/js/jquery.qrcode-0.12.0.min.js"></script>-->
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.imagesloaded.min.js"></script>
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/gallery.js"></script>
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.qrcode-0.12.0.min.js"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize();
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+    }
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+//      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var title = '《 ' + $('.article-url').attr('title') + ' 》@IceHe何志远 的技术博客『 '
+          + document.getElementsByName('description')[0].content + '』';
+  var weibo_share_url = 'http://service.weibo.com/share/share.php?type=button&searchPic=true&style=full&title=' + title + '&url=' + encodedUrl + '&pic=http%3A%2F%2F7vzp68.com1.z0.glb.clouddn.com%2Fabout%2Favatar_03a.jpg&appkey=' + tsina;
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="javascript:;" class="article-share-weibo" title="微博" onclick="window.open(\'' + weibo_share_url + '\', \'_blank\', \'width=615,height=505\')"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});
+</script>
+
+
+
+
+<!--<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">-->
+<!--<script src="/fancybox/jquery.fancybox.pack.js"></script>-->
+<link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+<div style="display: none;">
+	<script type="text/javascript">
+	
+		if(isOnGithub){
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-60837823-1', 'auto');  
+			ga('send', 'pageview');
+		}
+	
+
+	
+		if(isOnGitcafe){
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-60837823-2', 'auto');  
+			ga('send', 'pageview');
+		}
+	
+
+	
+		if(isOnGithub){
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		}
+	
+
+	
+		if(isOnGitcafe){
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?68e951d2eed2725bdd8cf4b1900d632f";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		}
+	
+	
+	</script>
+</div>
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+<div id="totop">
+	<!-- <a title="Back to Top"><img src="/img/scrollup.png"/></a> -->
+	<a title="Back to Top"><img src="//7vzp68.com1.z0.glb.clouddn.com/common/scrollup.png"/></a>
+</div>
+<!--<script src="/js/totop.js"></script>-->
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Lean Cloud Begin -->
+<script src="https://leancloud.cn/scripts/lib/av-0.5.0.min.js"></script>
+<script type="text/javascript">
+  AV.initialize("u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5");
+  // 初始化 param1：应用 id、param2：应用 key
+
+  function addCount (Counter) {
+    url = $('.article-url').attr('href').trim();
+    title = $('.article-title').text().trim();
+    var query = new AV.Query(Counter);
+    //use url as unique idnetfication
+    query.equalTo("url",url);
+    query.find({
+      success: function(results){
+        if(results.length>0){
+          var counter = results[0];
+          counter.fetchWhenSave(true); //get recent result
+          counter.increment("time");
+          counter.save();
+        }else{
+          var newcounter = new Counter();
+          newcounter.set("title", title);
+          newcounter.set("url", url);
+          newcounter.set("time", 1);
+          newcounter.save(null, {
+            success: function(newcounter){
+              //alert('New object created');
+            },
+            error: function(newcounter,error){
+              //alert('Failed to create');
+            }
+          });
+        }
+      },
+      error: function(error){
+        // find null is not a error
+        //alert('Error:' + error.code + " " + error.message);
+      }
+    });
+  }
+
+  $(function(){
+    var Counter = AV.Object.extend("Counter");
+    // only increse visit counting when intering a page
+    if((isOnGithub || isOnGitcafe) && $('.article-title').length == 1) {
+      addCount(Counter);
+    }
+
+    // if popularlist widget exists, add item to it.
+    var popular_list = $('.popularlist');
+    if(1 == popular_list.length){
+      var query = new AV.Query(Counter);
+      query.descending("time");
+      query.limit(15);
+      query.find({
+        success: function(results){
+          for(var i = 0; i < results.length; ++i){
+            var counter = results[i];
+            title = counter.get("title");
+            url = counter.get("url");
+            time = counter.get("time");
+
+            $('#popularlist_ul').append('<li><a href="'
+                    + url + '" name="'
+                    + title + '">'
+                    + (1 == ((i + 1) % 5)
+                            ? ('<b>' + (i + 1) + ' </b>') : '')
+                    + '<sup>'
+                    + time + ' </sup> &nbsp;'
+                    + title
+                    + '</a></li>'
+            );
+          }
+        },
+        error: function(error){
+          //alert("Error:" + error.code + " " + error.message);
+        }
+      });
+    }
+
+    // if cur page is a post, set the post pageview.
+    var article_info = $(".article-info");
+    if(1 == article_info.length){
+      var query = new AV.Query(Counter);
+      query.equalTo("url", article_info.find(".article-title a").attr("href"));
+      query.limit(1);
+      query.find({
+        success: function(results){
+          if(1 == results.length){
+            var counter = results[0];
+            title = counter.get("title");
+            url = counter.get("url");
+            time = counter.get("time");
+
+            article_info.find(".article-readtimes .readtimes").text(time);
+          }
+        },
+        error: function(error){
+          article_info.find(".article-readtimes .readtimes").text("?");
+          //alert("Error:" + error.code + " " + error.message);
+        }
+      });
+    }
+
+    // if cur page is Home, set the post_list pageviews.
+    var post_list = $("#main[class!=post]");
+    if(0 != post_list.length){
+      var post_items = post_list.find(".post a");
+      for(var i = 0; i < post_items.length; ++i){
+        var url = post_items.eq(i).attr("href");
+        query.equalTo("url", url);
+        query.limit(1);
+        query.find({
+          success: function(results){
+            if(1 == results.length){
+              var counter = results[0];
+              title = counter.get("title");
+              url = counter.get("url");
+              time = counter.get("time");
+
+              $(".post a[href='" + url + "']").find('.readtimes').text(time);
+            }
+          },
+          error: function(error){
+            //alert("Error:" + error.code + " " + error.message);
+          }
+        });
+      }
+    }
+  });
+
+  <!-- 百度 自动推送网页索引工具代码 -->
+  (function(){
+    var bp = document.createElement('script');
+    bp.src = '//push.zhanzhang.baidu.com/push.js';
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+
+</script>
+<!-- Lean Cloud End -->
+
+
+<!-- 不蒜子 网站计数 -->
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+<!-- 自动点击喜欢 -->
+<script type="text/javascript">
+  $(window).load(function() {
+    var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
+    if (1 == ds_like_button.length
+            && "none" != document.getElementsByClassName('ds-meta')[0].style.display
+            && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
+    ) {
+      ds_like_button[0].click();
+      document.getElementsByClassName('ds-like-tooltip-close')[0].click();
+      window.location.href = '#';
+    }
+  });
+</script>
+
+    </body>
+  </html>
+
+

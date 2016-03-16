@@ -1,0 +1,737 @@
+
+
+
+  <!DOCTYPE HTML>
+<html lang="default">
+<head>
+  <meta charset="UTF-8">
+  
+
+	<title>PHP Note | Ice He 何志远</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+	
+	<meta name="author" content="IceHe何志远">
+	
+
+	
+	<meta name="description" content="Mac 安裝 pecl ，安裝 php extensionInstall PHP pear (要用pecl只要装pear)
+PHP 判断某函数是否存在function_exists($function_name)判断一个全局函数是否存在调用方法：$function_name($param)
+method_exists($object, $function_name)判断某对象是否存在某方法调用方法">
+<meta property="og:type" content="website">
+<meta property="og:title" content="PHP Note">
+<meta property="og:url" content="http://icehe.me/note/php.html">
+<meta property="og:site_name" content="Ice He 何志远">
+<meta property="og:description" content="Mac 安裝 pecl ，安裝 php extensionInstall PHP pear (要用pecl只要装pear)
+PHP 判断某函数是否存在function_exists($function_name)判断一个全局函数是否存在调用方法：$function_name($param)
+method_exists($object, $function_name)判断某对象是否存在某方法调用方法">
+<meta property="og:updated_time" content="2016-03-16T08:05:19.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="PHP Note">
+<meta name="twitter:description" content="Mac 安裝 pecl ，安裝 php extensionInstall PHP pear (要用pecl只要装pear)
+PHP 判断某函数是否存在function_exists($function_name)判断一个全局函数是否存在调用方法：$function_name($param)
+method_exists($object, $function_name)判断某对象是否存在某方法调用方法">
+
+  
+  <link rel="alternative" href="/atom.xml" title="Ice He 何志远" type="application/atom+xml">
+  
+  
+  <link rel="icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon.ico">
+  
+  
+  <link rel="apple-touch-icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+  <link rel="apple-touch-icon-precomposed" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+  
+
+  <!-- <link rel="stylesheet" href="/css/style.css" type="text/css"> -->
+  <!--<link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/css/style.css" type="text/css">-->
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+  <!-- 百度站内搜索 for github站 icehe.me -->
+  <!--<meta name="baidu-site-verification" content="04tLeUMqMf" />-->
+  <!-- 百度站内搜索 for github站 icehe.github.io -->
+  <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
+
+  <!-- 谷歌站长工具 元标签验证码 -->
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
+
+  <!-- 微博开放平台 元标签验证码 -->
+  <meta property="wb:webmaster" content="84efd5956048ab8f" />
+
+  <!-- Google Fonts from 360 CDN -->
+  <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
+
+  <!-- Common CSS -->
+  <style type="text/css">
+    .center { text-align: center; }
+    .hidden { display: none; }
+    /*span.hitokoto a { color: white; } // for 一言*/
+  </style>
+
+  <!-- font-awesome -->
+  <link href="//libs.cncdn.cn/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- 一言 -->
+  <!-- <script type="text/javascript" src="http://api.hitokoto.us/rand?encode=js&charset=utf-8"></script> -->
+</head>
+
+    <body>
+      <header>
+        <script type="text/javascript">
+	// 判断现在个人站是在哪一个网址上！
+	var isOnGithub = (-1 != location.href.indexOf("icehe.me"));
+	var isOnGitcafe = (-1 != location.href.indexOf("icehe.gitcafe.io"));
+</script>
+
+
+<div>
+	
+		<div id="imglogo">
+			<a href="/">
+				<!-- <img src="/http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="Ice He 何志远" title="Ice He 何志远"/> -->
+				<img src="http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="Ice He 何志远" title="Ice He 何志远"/>
+			</a>
+		</div>
+	
+
+	<div id="textlogo">
+		<h1 class="site-name"><a href="/" title="Ice He 何志远">Ice He 何志远</a></h1>
+		<h2 class="blog-motto">Less is more  宁静致远</h2>
+	</div>
+	<div class="navbar">
+		<a class="navbutton navmobile" href="#" title="Menu"></a>
+	</div>
+	<nav class="animated">
+		<ul>
+			<ul>
+			
+				<li><a href="/">Blog 文</a></li>
+			
+				<li><a href="/about">Me 我</a></li>
+			
+				<li><a href="/index">Index 目录</a></li>
+			
+				<li>
+				
+
+					<form class="search" action="/search/index.html" method="get" accept-charset="utf-8">
+					<!--<form class="search" action="" method="get" accept-charset="utf-8">-->
+						<label>Search</label>
+						<input type="search" id="search" autocomplete="on" name="q" maxlength="20" placeholder="Find" />
+					</form>
+
+				
+				</li>
+			</ul>
+		</ul>
+	</nav>
+</div>
+
+      </header>
+      <div id="container">
+        <div id="main" class="page" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name" class="article-title">
+    
+      <a href="/note/php.html" title="PHP Note" itemprop="url" class="article-url">PHP Note</a>
+  </h1>
+  <p class="article-readtimes">
+    Read ( <span class="readtimes">?</span> )
+  </p>
+  <p class="article-author"> By
+    
+    <a href="/about" title="IceHe何志远" target="_blank" itemprop="author">IceHe何志远</a>
+    
+  </p>
+  <p class="article-time">
+    <time datetime="2016-03-16T08:05:19.000Z" itemprop="datePublished"> Published 2016 Mar 16</time>
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">Contents</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#PHP_判断某函数是否存在"><span class="toc-number">1.</span> <span class="toc-text">PHP 判断某函数是否存在</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#PHP_对象的属性使用非常规命名时的访问方法"><span class="toc-number">2.</span> <span class="toc-text">PHP 对象的属性使用非常规命名时的访问方法</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Where_is_php-ini?"><span class="toc-number">3.</span> <span class="toc-text">Where is php.ini?</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#PHP_Comm_Func"><span class="toc-number">4.</span> <span class="toc-text">PHP Comm Func</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Install_PHPUnit_-_OS_X"><span class="toc-number">5.</span> <span class="toc-text">Install PHPUnit - OS X</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#PHP_Encoding_Convert_of_File_&_Str_文件、字符串编码转换"><span class="toc-number">6.</span> <span class="toc-text">PHP Encoding Convert of File & Str 文件、字符串编码转换</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#PHP_Why_无法调用一个存在的库函数"><span class="toc-number">7.</span> <span class="toc-text">PHP Why 无法调用一个存在的库函数</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Concepts"><span class="toc-number">8.</span> <span class="toc-text">Concepts</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#单例模式_误为_单利模式"><span class="toc-number">9.</span> <span class="toc-text">单例模式 误为 单利模式</span></a></li></ol>
+		
+		</div>
+		
+		<p><a href="blog.caesarchi.com/2012/03/mac-pecl-php-extension.html">Mac 安裝 pecl ，安裝 php extension</a><br><a href="http://www.cnblogs.com/bugY/archive/2012/07/06/2578972.html" target="_blank" rel="external">Install PHP pear (要用pecl只要装pear)</a><br><a href=""></a><br><a href=""></a></p>
+<h1 id="PHP_判断某函数是否存在">PHP 判断某函数是否存在</h1><p>function_exists($function_name)<br>判断一个全局函数是否存在<br>调用方法：$function_name($param)</p>
+<p>method_exists($object, $function_name)<br>判断某对象是否存在某方法<br>调用方法：$object-&gt;$function_name($param)</p>
+<p>（例）<br>$funcName = ‘test_func’;<br>method_exists($this, $funcName);<br>$this-&gt;$funcName($param);</p>
+<h1 id="PHP_对象的属性使用非常规命名时的访问方法">PHP 对象的属性使用非常规命名时的访问方法</h1><p>object(SimpleXMLElement)[10]<br>  public ‘source-url’ =&gt; string ‘file://C:\wamp\www\t_html_out.html’ (length=34)<br>  public ‘file-name’ =&gt; string ‘t_html_out.html’ (length=15)<br>  public ‘attachment’ =&gt; string ‘true’ (length=4)</p>
+<p>如上文中PHP对象的属性名 source-url、file-name，<br>它们使用了非常规的命名，如属性名中带有减号 - 。</p>
+<p>导致无法直接使用 $obj-&gt;source-url 的写法来访问！</p>
+<p>此时，使用特殊的语法：$obj-&gt;{“source-url”} 来访问。</p>
+<h1 id="Where_is_php-ini?">Where is php.ini?</h1><p>MacOS，brew 安装的php的 php.ini 文件在：<br>/usr/local/etc/php/版本号/php.ini</p>
+<h1 id="PHP_Comm_Func">PHP Comm Func</h1><p>mock     a. 仿制的，模拟的</p>
+<p>str_replace(src, dest, string)<br>urldecode(string)</p>
+<p>trim(string, … )<br>Strip whitespace(or other characters) from the beginning and end of string<br>trim     修剪</p>
+<p>strip_tags(string, … )<br>Strip HTML and PHP tag from a string<br>strip     剥去</p>
+<p>addslashes(string)<br>Quote string with slashes<br>给字符串中的需要转义的字符加上反斜杠（转义符）<br>slash     削减，\反斜杠<br>quote     引用</p>
+<p>ctype_type(string)<br>Check for numeric character(s)<br>Check if all of the characters in the provided string, text, are numerical.</p>
+<p>ctype_alnum(stirng)<br>Check for alphanumeric character(s)<br>alphabet     字母表<br>alphanumerice     字母数字的</p>
+<p>is_integer(var)<br>is_string(var)<br>is_array(var)</p>
+<p>array_keys(array)<br>Return all the keys or a subset of the keys of an array</p>
+<p>array_diff(array)</p>
+<p>array_merge(array)<br>If the input arrays have the same string keys, then the later value for that key will overwrite the previous one. If, however, the arrays contain numeric keys, the later value will not overwrite the original value, but will be appended.</p>
+<p>implode(string)<br>explode(string)</p>
+<h1 id="Install_PHPUnit_-_OS_X">Install PHPUnit - OS X</h1><p>操作系统版本：Mac OS 10.10.4 (14E46)</p>
+<p><a href="http://gitlab.weibo.cn/mobile-api/mobile-api-v5-application/wikis/unit-test-instruction" target="_blank" rel="external">http://gitlab.weibo.cn/mobile-api/mobile-api-v5-application/wikis/unit-test-instruction</a><br>unit test instruction:<br>PHPUnit生成代码覆盖率需要xdebug插件。所以需要安装该插件。</p>
+<p><a href="http://xdebug.org/docs/install" target="_blank" rel="external">http://xdebug.org/docs/install</a><br>XDEBUG EXTENSION FOR PHP | DOCUMENTATION:<br>PECL Installation</p>
+<p><a href="http://blog.caesarchi.com/2012/03/mac-pecl-php-extension.html" target="_blank" rel="external">http://blog.caesarchi.com/2012/03/mac-pecl-php-extension.html</a><br>Mac 安裝 pecl ，安裝 php extension:<br>wget <a href="http://pear.php.net/go-pear.phar" target="_blank" rel="external">http://pear.php.net/go-pear.phar</a><br>php -d detect_unicode=0 go-pear.phar</p>
+<p>接著會顯示一些選項，如果都不需要可以直接輸入enter跳過， 最後會顯示資訊如下，<br>Would you like to alter php.ini ?<br>當然輸入Y，自動設定php.ini 之後結束安裝。</p>
+<p>之後設定自己的PATH 環境變數，加入底下的路徑<br>export PATH=$PATH:/Users/$USER/pear/bin</p>
+<p>然后按照《XDEBUG EXTENSION FOR PHP》教程（上文第二个链接）所说，输入以下指令安装XDEBUG<br>pecl install xdebug</p>
+<p>发现提示错误：<br>Cannot find autoconf. Please check your autoconf installation and the<br>$PHP_AUTOCONF environment variable. Then, rerun this script.</p>
+<p>因此根据要求安装 autoconf<br>brew install autoconf<br>再次执行<br>pecl install xdebug</p>
+<p>安装成功后，显示结果的最后一行的用户提示如下：<br>You should add “zend_extension=/usr/lib/php/extensions/no-debug-non-zts-20121212/xdebug.so” to php.ini</p>
+<p>然后在php.ini末尾添加如下两行：<br>; MY OWN CONFIG FOR XDEBUG<br>zend_extension=/usr/lib/php/extensions/no-debug-non-zts-20121212/xdebug.so</p>
+<p>发现不知道php.ini文件在哪里，使用 php –ini 指令也无法确定位置<br><a href="http://stackoverflyeow.com/questions/9343151/where-is-php-ini-in-mac-os-x-lion-thought-it-was-in-usr-local-php5-lib" target="_blank" rel="external">http://stackoverflyeow.com/questions/9343151/where-is-php-ini-in-mac-os-x-lion-thought-it-was-in-usr-local-php5-lib</a><br>根据以上StackOverflow该问题的第一个答案，了解到系统默认版本的php还没有php.ini<br>sudo cp /private/etc/php.ini.default /private/etc/php.ini</p>
+<p>但是拷贝出来的文件没有写权限。<br>不一定按照以下指令执行，具体给那些角色赋予权限要看具体情况<br>sudo chmod a+w php.ini</p>
+<p>然后就可以顺利编辑 php.ini 了。</p>
+<p>然后根据《unit test instruction》教程（上文第一个链接）继续安装PHPUnit<br>根据以下内容操作无果……<br>“<br>v5代码目录下，包含了phpunit及其依赖包，可以直接执行该phpunit。<br>./vendor/phpunit/phpunit/phpunit –version<br>在tests目录下，执行<br>./vendor/phpunit/phpunit/phpunit src/<br>可以查看执行过程。 为了避免麻烦，也可以直接将./vendor/phpunit/phpunit/phpunit链接到/usr/bin目录下。<br>ln -s /data1/v5.weibo.cn/code/vendor/phpunit/phpunit/phpunit /usr/bin/<br>”</p>
+<p>于是，根据《unit test instruction》教程原文，执行“自己通过composer安装phpunit”的步骤。<br>安装composer：<br>curl -sS <a href="https://getcomposer.org/installer" target="_blank" rel="external">https://getcomposer.org/installer</a> | php<br>感觉资源十分不稳定，许多次执行指令后才成功安装，最好选择其它途径下载安装。</p>
+<p>执行安装<br>chmod a+x composer.phar<br>php composer.phar install –dev<br>装完……命令行没有识别出phpunit命令，什么鬼！<br>感觉实际上没有装好！我快崩溃了……什么过时教程。</p>
+<p>遭遇以上情况，使用brew进行安装<br>$ brew install phpunit<br>Error: No available formula for phpunit<br>Searching formulae…<br>Searching taps…<br>homebrew/php/phpunit-skeleton-generator             homebrew/php/phpunit</p>
+<p>这时发现，以上输出的提示 homebrew/php/phpunit，于是使用指令<br>brew install homebrew/php/phpunit</p>
+<h1 id="PHP_Encoding_Convert_of_File_&amp;_Str_文件、字符串编码转换">PHP Encoding Convert of File &amp; Str 文件、字符串编码转换</h1><p><a href="http://www.veryhuo.com/a/view/41348.html" target="_blank" rel="external">http://www.veryhuo.com/a/view/41348.html</a></p>
+<p>处理字符串时，需要字符编码转换，<br>碰到iconv转换失败的诡异问题。</p>
+<p>因为iconv有bug ，碰到一些生僻字就会无法转换，<br>当然了配置第二个参数时，可以稍微弥补一下默认缺陷，<br>不至于无法转换是截断，用法如下：</p>
+<p>iconv(“UTF-8″,”GB2312//IGNORE”,$data);<br>//IGNORE的意思是，碰到无法转换的字符，<br>//忽略失败，继续转换下面的内容。</p>
+<p>可以用另一个转换函数（mb_convert_encoding），<br>此函数效率不高，另外可省略第三参数，<br>自动识别内容编码，最好别用，影响效率，<br>还需注意，mb_convert_encoding和iconv参数顺序不同。</p>
+<p>mb_convert_encoding ( string $str , string $to_encoding [, mixed $from_encoding = mb_internal_encoding() ] )<br><a href="http://php.net/manual/zh/function.mb-convert-encoding.php" target="_blank" rel="external">http://php.net/manual/zh/function.mb-convert-encoding.php</a></p>
+<h1 id="PHP_Why_无法调用一个存在的库函数">PHP Why 无法调用一个存在的库函数</h1><p>当PHP的错误报告出现下文：<br>PHP Fatal error:  Call to undefined function mb_convert_encoding() in C:\Users\IceHe\script\y.php on line 4</p>
+<p>解决方法：<br>例如上文中找不到的函数是 mb_convert_encoding。<br>我搞清楚了它所在的dll（动态链接库）名为php_mbstring.dll，<br>此文件在php安装目录（C:\php）下的文件夹ext中。</p>
+<p>1.在php安装路径的根目录下，<br>     找到php.ini文件，如：c:/php/php.ini。<br>2.找到Dynamic Extensions的段落，在其中<br>     反注释 或 添加 以下这一句：<br>     extension=./ext/php_mbstring.dll<br>（即extension= path/php_mbstring.dll，路径加文件名）<br>3.命令行下，输入php /? 看看有没有载入成功。<br>     可能会显示：<br>Warning: PHP Startup: Unable to load dynamic library ‘C:\php\php_mbstring.dll’ -<br>The specified module could not be found.<br>in Unknown on line 0<br>Could not open input file: /?</p>
+<p>4.重启apache等webserver<br>     即可使用原来找不到的函数~<br>     CLI（命令行/脚本）模式下则不需要。</p>
+<h1 id="Concepts">Concepts</h1><p>SPL<br>Standard PHP Library</p>
+<p>PHPUnit是PHP应用的单元测试框架的业界标准</p>
+<p>PHP通过内置的FastCGI进程管理器(FPM)，可以非常高效地和轻量级的高性能Web服务器nginx进行通信。<br>nginx比Apache消耗更少的内存，能更好的处理并发请求，这在内存限制较多的虚拟主机环境中尤为重要。</p>
+<p>Redis<br>是一个开源、支持网络、基于内存，的高性能Key-Value存储系统（cache and store）。使用ANSI C编写。<br>通常被称为数据结构服务器，因为值（value）可以是 字符串(String), 哈希(Map), 列表(list), 集合(sets) 和 有序集合(sorted sets)等类型。</p>
+<p>Composer<br>新一代的PHP依赖管理工具，服务于 PHP 生态系统。<br>其中的很多理念都借鉴了 npm 和 Bundler。<br>它实际上包含了两个部分：Composer 和 Packagist</p>
+<p>Composer 是一个命令行工具，帮你为项目自动安装所依赖的开发包。<br>它包含了一个依赖解析器，用来处理开发包之间复杂的依赖关系；<br>另外，它还包含了下载器、安装器等。</p>
+<p>Packageist 是 Composer 的默认的开发包仓库。<br>可以将自己的安装包提交到 packagist，将来你在自己的 VCS （源码管理软件，比如 Github） 仓库中<br>新建了 tag 或更新了代码，packagist 都会自动构建一个新的开发包。<br>这就是 packagist 目前的运作方式，将来 packagist 将允许直接上传开发包。</p>
+<p>XDebug<br>调试器是软件开发过程中非常重要的一个工具，通过它，可以跟踪代码的执行过程，查看堆栈信息。<br>XDebug是一个PHP调试器，可以集成在常见的IDE中，提供设置断点、 查看堆栈信息等功能，<br>还可以和PHPUnit、KCacheGrind等工具配合，执行代码覆盖率测试和性能调优。</p>
+<p>依赖管理<br>如今有大量的PHP函数库、框架和组件可供选择，一个项目中可能会使用其中的若干——即项目的依赖。<br>到目前为止，PHP还没有有效的 项目依赖管理方案。即使你手工的管理它们，你还不得不处理其自动加载问题。</p>
+<p>目前主要有两个PHP包管理系统：Composer和PEAR，哪个适合你？答案是两个都需要。<br>    管理单个项目的依赖时使用Composer<br>    管理整个系统的PHP依赖时使用PEAR</p>
+<p>通常情况下，Composer包只在你项目中明确指定时才可用，而PEAR包在所有的PHP项目中可用。<br>尽管PEAR听起来似乎更简单，但是根据每个 项目制定方案可能更合适。</p>
+<p>缓存<br>PHP自身效率很高，但是执行创建远程连接、加载文件等操作时容易出现瓶颈，<br>幸运的是，我们有很多工具来加速这部分操作，或减少 这些耗时操作的执行次数。</p>
+<p>字节码缓存：在一个PHP文件被执行时，它先被编译为字节码(也称opcode)，然后这些字节码被执行。<br>如果文件没有修改，那么字节码也会保持不变， 这意味着编译这一步白白浪费了CPU资源。</p>
+<p>对象缓存：如果在取得一些数据之后，把它们缓存在系统中，<br>在后续对这些数据的请求 中，就可以直接使用缓存中的对象（对象变化较少），<br>这么做可以很大地提升系统性能，减少服务器的负载。<br>使用最多的内存对象缓存系统是APCu和memcached。<br>APCu是很好的一个对象缓存方案，它提供了简单的API来让你把对象存储在内存中，<br>而且 配置和使用都非常容易，它的一个缺点是只能在本机使用。<br>Memcached则是另外一种方式，它是一个单独的服务，<br>可以通过网络访问，这 意味着可以在一个地方写入数据，然后在不同的系统中访问这份数据。</p>
+<p>框架<br>框架抽象出底层通用的业务逻辑，给使用者了提供简单易用的接口。<br>不是所有的项目都需要框架，有时候原生的PHP就能满足需求，但需要框架时，有三种类型的框架可供选择：</p>
+<p>1 微框架：仅是一个包装器(Wrapper)，尽量快地把HTTP请求路由到回调函数、控制器或方法上，<br>有些框架也会提供一些函数库，如基本的数据库 操作。微框架主要用于构建远程HTTP服务。</p>
+<p>2 全能(Full-Stack)框架：在微框架的功能之上提供了更多的功能特性，如ORM，验证组件等。</p>
+<p>3 组件框架：一组独立功能库的集合，多个基于组件的框架集合在一起，甚至可以用作微框架或者全能框架。</p>
+<p>组件<br>如前所述，组件是另外一种创建、实现和发布开源代码的方式，当前社区存在很多组件库，最主要的两个：<br>    Packagist<br>    PEAR<br>这两个库都有用于安装和升级的命令行工具，已经在依赖管理部分讲述.</p>
+<p>Master-Slave<br>It’s a model of communication where one device or process has unidirectional control over one or more other devices. In some systems a master is elected from a group of eligible devices, with the other devices acting in the role of slaves.<br>In database replication, the master database is regarded as the authoritative source, and the slave databases are synchronized to it.</p>
+<p>Abbr List<br>MC     memcache<br>Vendor     供应商<br>BDD     行为驱动开发</p>
+<p>PHP 编码规范 - 过去未注意的部分<br>*（部门内使用，参考公认的标准，有参考价值）</p>
+<p>控制结构的关键字后必须要有一个空格符，而调用方法或函数时则一定不能有。</p>
+<p>纯PHP代码文件必须省略最后的 ?&gt; 结束标签。</p>
+<p>// 类声明范例<br>&lt;?php<br>namespace Vendor\Package;</p>
+<p>use FooClass;<br>use BarClass as Bar;<br>use OtherVendor\OtherPackage\BazClass;</p>
+<p>class ClassName extends ParentClass implements<br>    \ArrayAccess,<br>    \Countable,<br>    \Serializable<br>{<br>    // constants, properties, methods<br>}</p>
+<p>简单数组的新声明方式！<br>&lt;?php<br>$array = array(<br>    “foo” =&gt; “bar”,<br>    “bar” =&gt; “foo”,<br>);</p>
+<p>// 自 PHP 5.4 起<br>$array = [<br>    “foo” =&gt; “bar”,<br>    “bar” =&gt; “foo”,<br>];<br>?&gt;</p>
+<p>From: www.laruence.com/manual/yaf.classes.html#yaf.class.application.props._app<br>_app<br>    Yaf_Application通过特殊的方式实现了单利模式, 此属性保存当前实例</p>
+<h1 id="单例模式_误为_单利模式">单例模式 误为 单利模式</h1>  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://icehe.me/note/php.html" data-title="PHP Note | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+   	       
+	</article>
+	
+	<section id="comments" class="comment"></section>
+
+
+<!-- Duoshuo Show UA -->
+<!--<link href="https://raw.githubusercontent.com/easunlee/make_duoshuo_show_ua/master/src/show.ua.css" rel="stylesheet">-->
+<!--<script type="text/javascript" async="" src="http://faisalman.github.io/ua-parser-js/src/ua-parser.js" charset="UTF-8"></script>-->
+
+
+<script type="text/javascript">
+
+
+var duoshuoQuery = {short_name:"icehe"};
+(function() {
+	var ds = document.createElement('script');
+	ds.type = 'text/javascript';ds.async = true;
+	ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+	ds.charset = 'UTF-8';
+	(document.getElementsByTagName('head')[0]
+	|| document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+
+
+
+
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="note/php.html" data-title="PHP Note" data-url="http://icehe.me/note/php.html"></div>'
+//	+ '<hr/>'
+//	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
+//	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
+//	+ '</div>';
+
+//function loadDisqus(){
+//	var disqus_shortname = 'icehe';
+//
+//	(function(){
+//		var dsq = document.createElement('script');
+//		dsq.type = 'text/javascript';
+//		dsq.async = true;
+//		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+//		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+//	}());
+//
+//	(function(){
+//		var dsq = document.createElement('script');
+//		dsq.type = 'text/javascript';
+//		dsq.async = true;
+//		dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+//		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+//	}());
+
+//	document.getElementById('disqus_div').innerHTML = '<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>';
+//}
+
+</script>
+
+</div>  
+      </div>
+      <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<div class="social-font" class="clearfix">
+		
+		<a href="https://github.com/IceHe" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		<a href="http://weibo.com/icedes" target="_blank" class="icon-weibo" title="微博"></a>
+		
+		
+		
+		
+		
+		
+		
+		<a href="https://www.douban.com/people/IceHeGZ" target="_blank" class="icon-douban" title="豆瓣"></a>
+		
+		
+		
+		
+		<a href="mailto:x@icehe.me" target="_blank" class="icon-email" title="Email Me"></a>
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2016 
+		
+		<a href="/about" target="_blank" title="IceHe何志远">IceHe何志远</a>
+		
+		
+		</p>
+</div>
+</footer>
+      <!--<script src="/js/jquery-2.0.3.min.js"></script>-->
+<script id="jQueryLink" src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript">
+  window.jQuery || document.write('<script src="/js/jquery-2.0.3.min.js"><\/script>');
+</script>
+
+<!--<script src="/js/jquery.imagesloaded.min.js"></script>-->
+<!--<script src="/js/gallery.js"></script>-->
+<!--<script src="/js/jquery.qrcode-0.12.0.min.js"></script>-->
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.imagesloaded.min.js"></script>
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/gallery.js"></script>
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.qrcode-0.12.0.min.js"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize();
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+    }
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+//      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var title = '《 ' + $('.article-url').attr('title') + ' 》@IceHe何志远 的技术博客『 '
+          + document.getElementsByName('description')[0].content + '』';
+  var weibo_share_url = 'http://service.weibo.com/share/share.php?type=button&searchPic=true&style=full&title=' + title + '&url=' + encodedUrl + '&pic=http%3A%2F%2F7vzp68.com1.z0.glb.clouddn.com%2Fabout%2Favatar_03a.jpg&appkey=' + tsina;
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="javascript:;" class="article-share-weibo" title="微博" onclick="window.open(\'' + weibo_share_url + '\', \'_blank\', \'width=615,height=505\')"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});
+</script>
+
+
+
+
+<!--<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">-->
+<!--<script src="/fancybox/jquery.fancybox.pack.js"></script>-->
+<link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+<div style="display: none;">
+	<script type="text/javascript">
+	
+		if(isOnGithub){
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-60837823-1', 'auto');  
+			ga('send', 'pageview');
+		}
+	
+
+	
+		if(isOnGitcafe){
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-60837823-2', 'auto');  
+			ga('send', 'pageview');
+		}
+	
+
+	
+		if(isOnGithub){
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		}
+	
+
+	
+		if(isOnGitcafe){
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?68e951d2eed2725bdd8cf4b1900d632f";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		}
+	
+	
+	</script>
+</div>
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+<div id="totop">
+	<!-- <a title="Back to Top"><img src="/img/scrollup.png"/></a> -->
+	<a title="Back to Top"><img src="//7vzp68.com1.z0.glb.clouddn.com/common/scrollup.png"/></a>
+</div>
+<!--<script src="/js/totop.js"></script>-->
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Lean Cloud Begin -->
+<script src="https://leancloud.cn/scripts/lib/av-0.5.0.min.js"></script>
+<script type="text/javascript">
+  AV.initialize("u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5");
+  // 初始化 param1：应用 id、param2：应用 key
+
+  function addCount (Counter) {
+    url = $('.article-url').attr('href').trim();
+    title = $('.article-title').text().trim();
+    var query = new AV.Query(Counter);
+    //use url as unique idnetfication
+    query.equalTo("url",url);
+    query.find({
+      success: function(results){
+        if(results.length>0){
+          var counter = results[0];
+          counter.fetchWhenSave(true); //get recent result
+          counter.increment("time");
+          counter.save();
+        }else{
+          var newcounter = new Counter();
+          newcounter.set("title", title);
+          newcounter.set("url", url);
+          newcounter.set("time", 1);
+          newcounter.save(null, {
+            success: function(newcounter){
+              //alert('New object created');
+            },
+            error: function(newcounter,error){
+              //alert('Failed to create');
+            }
+          });
+        }
+      },
+      error: function(error){
+        // find null is not a error
+        //alert('Error:' + error.code + " " + error.message);
+      }
+    });
+  }
+
+  $(function(){
+    var Counter = AV.Object.extend("Counter");
+    // only increse visit counting when intering a page
+    if((isOnGithub || isOnGitcafe) && $('.article-title').length == 1) {
+      addCount(Counter);
+    }
+
+    // if popularlist widget exists, add item to it.
+    var popular_list = $('.popularlist');
+    if(1 == popular_list.length){
+      var query = new AV.Query(Counter);
+      query.descending("time");
+      query.limit(15);
+      query.find({
+        success: function(results){
+          for(var i = 0; i < results.length; ++i){
+            var counter = results[i];
+            title = counter.get("title");
+            url = counter.get("url");
+            time = counter.get("time");
+
+            $('#popularlist_ul').append('<li><a href="'
+                    + url + '" name="'
+                    + title + '">'
+                    + (1 == ((i + 1) % 5)
+                            ? ('<b>' + (i + 1) + ' </b>') : '')
+                    + '<sup>'
+                    + time + ' </sup> &nbsp;'
+                    + title
+                    + '</a></li>'
+            );
+          }
+        },
+        error: function(error){
+          //alert("Error:" + error.code + " " + error.message);
+        }
+      });
+    }
+
+    // if cur page is a post, set the post pageview.
+    var article_info = $(".article-info");
+    if(1 == article_info.length){
+      var query = new AV.Query(Counter);
+      query.equalTo("url", article_info.find(".article-title a").attr("href"));
+      query.limit(1);
+      query.find({
+        success: function(results){
+          if(1 == results.length){
+            var counter = results[0];
+            title = counter.get("title");
+            url = counter.get("url");
+            time = counter.get("time");
+
+            article_info.find(".article-readtimes .readtimes").text(time);
+          }
+        },
+        error: function(error){
+          article_info.find(".article-readtimes .readtimes").text("?");
+          //alert("Error:" + error.code + " " + error.message);
+        }
+      });
+    }
+
+    // if cur page is Home, set the post_list pageviews.
+    var post_list = $("#main[class!=post]");
+    if(0 != post_list.length){
+      var post_items = post_list.find(".post a");
+      for(var i = 0; i < post_items.length; ++i){
+        var url = post_items.eq(i).attr("href");
+        query.equalTo("url", url);
+        query.limit(1);
+        query.find({
+          success: function(results){
+            if(1 == results.length){
+              var counter = results[0];
+              title = counter.get("title");
+              url = counter.get("url");
+              time = counter.get("time");
+
+              $(".post a[href='" + url + "']").find('.readtimes').text(time);
+            }
+          },
+          error: function(error){
+            //alert("Error:" + error.code + " " + error.message);
+          }
+        });
+      }
+    }
+  });
+
+  <!-- 百度 自动推送网页索引工具代码 -->
+  (function(){
+    var bp = document.createElement('script');
+    bp.src = '//push.zhanzhang.baidu.com/push.js';
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+
+</script>
+<!-- Lean Cloud End -->
+
+
+<!-- 不蒜子 网站计数 -->
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+<!-- 自动点击喜欢 -->
+<script type="text/javascript">
+  $(window).load(function() {
+    var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
+    if (1 == ds_like_button.length
+            && "none" != document.getElementsByClassName('ds-meta')[0].style.display
+            && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
+    ) {
+      ds_like_button[0].click();
+      document.getElementsByClassName('ds-like-tooltip-close')[0].click();
+      window.location.href = '#';
+    }
+  });
+</script>
+
+    </body>
+  </html>
+
+

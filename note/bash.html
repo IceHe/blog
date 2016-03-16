@@ -1,0 +1,722 @@
+
+
+
+  <!DOCTYPE HTML>
+<html lang="default">
+<head>
+  <meta charset="UTF-8">
+  
+
+	<title>Bash - Note | Ice He 何志远</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+	
+	<meta name="author" content="IceHe何志远">
+	
+
+	
+	<meta name="description" content="Shell Script - Note
+
+http://www.linux-sxs.org/programming/bashcheat.html
+上一阶段学Bash的参考资料：≈http://www.mediacollege.com/cgi-bin/man/page.cgi?topic=bashhttp://ahei.info/chinese-bash-man.htmhttps://www.gnu">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Bash - Note">
+<meta property="og:url" content="http://icehe.me/note/bash.html">
+<meta property="og:site_name" content="Ice He 何志远">
+<meta property="og:description" content="Shell Script - Note
+
+http://www.linux-sxs.org/programming/bashcheat.html
+上一阶段学Bash的参考资料：≈http://www.mediacollege.com/cgi-bin/man/page.cgi?topic=bashhttp://ahei.info/chinese-bash-man.htmhttps://www.gnu">
+<meta property="og:updated_time" content="2016-03-16T06:50:11.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Bash - Note">
+<meta name="twitter:description" content="Shell Script - Note
+
+http://www.linux-sxs.org/programming/bashcheat.html
+上一阶段学Bash的参考资料：≈http://www.mediacollege.com/cgi-bin/man/page.cgi?topic=bashhttp://ahei.info/chinese-bash-man.htmhttps://www.gnu">
+
+  
+  <link rel="alternative" href="/atom.xml" title="Ice He 何志远" type="application/atom+xml">
+  
+  
+  <link rel="icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon.ico">
+  
+  
+  <link rel="apple-touch-icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+  <link rel="apple-touch-icon-precomposed" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+  
+
+  <!-- <link rel="stylesheet" href="/css/style.css" type="text/css"> -->
+  <!--<link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/css/style.css" type="text/css">-->
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+  <!-- 百度站内搜索 for github站 icehe.me -->
+  <!--<meta name="baidu-site-verification" content="04tLeUMqMf" />-->
+  <!-- 百度站内搜索 for github站 icehe.github.io -->
+  <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
+
+  <!-- 谷歌站长工具 元标签验证码 -->
+  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
+
+  <!-- 微博开放平台 元标签验证码 -->
+  <meta property="wb:webmaster" content="84efd5956048ab8f" />
+
+  <!-- Google Fonts from 360 CDN -->
+  <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
+
+  <!-- Common CSS -->
+  <style type="text/css">
+    .center { text-align: center; }
+    .hidden { display: none; }
+    /*span.hitokoto a { color: white; } // for 一言*/
+  </style>
+
+  <!-- font-awesome -->
+  <link href="//libs.cncdn.cn/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- 一言 -->
+  <!-- <script type="text/javascript" src="http://api.hitokoto.us/rand?encode=js&charset=utf-8"></script> -->
+</head>
+
+    <body>
+      <header>
+        <script type="text/javascript">
+	// 判断现在个人站是在哪一个网址上！
+	var isOnGithub = (-1 != location.href.indexOf("icehe.me"));
+	var isOnGitcafe = (-1 != location.href.indexOf("icehe.gitcafe.io"));
+</script>
+
+
+<div>
+	
+		<div id="imglogo">
+			<a href="/">
+				<!-- <img src="/http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="Ice He 何志远" title="Ice He 何志远"/> -->
+				<img src="http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="Ice He 何志远" title="Ice He 何志远"/>
+			</a>
+		</div>
+	
+
+	<div id="textlogo">
+		<h1 class="site-name"><a href="/" title="Ice He 何志远">Ice He 何志远</a></h1>
+		<h2 class="blog-motto">Less is more  宁静致远</h2>
+	</div>
+	<div class="navbar">
+		<a class="navbutton navmobile" href="#" title="Menu"></a>
+	</div>
+	<nav class="animated">
+		<ul>
+			<ul>
+			
+				<li><a href="/">Blog 文</a></li>
+			
+				<li><a href="/about">Me 我</a></li>
+			
+				<li><a href="/index">Index 目录</a></li>
+			
+				<li>
+				
+
+					<form class="search" action="/search/index.html" method="get" accept-charset="utf-8">
+					<!--<form class="search" action="" method="get" accept-charset="utf-8">-->
+						<label>Search</label>
+						<input type="search" id="search" autocomplete="on" name="q" maxlength="20" placeholder="Find" />
+					</form>
+
+				
+				</li>
+			</ul>
+		</ul>
+	</nav>
+</div>
+
+      </header>
+      <div id="container">
+        <div id="main" class="page" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name" class="article-title">
+    
+      <a href="/note/bash.html" title="Bash - Note" itemprop="url" class="article-url">Bash - Note</a>
+  </h1>
+  <p class="article-readtimes">
+    Read ( <span class="readtimes">?</span> )
+  </p>
+  <p class="article-author"> By
+    
+    <a href="/about" title="IceHe何志远" target="_blank" itemprop="author">IceHe何志远</a>
+    
+  </p>
+  <p class="article-time">
+    <time datetime="2016-03-16T06:50:11.000Z" itemprop="datePublished"> Published 2016 Mar 16</time>
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">Contents</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#DEFINITIONS"><span class="toc-number">1.</span> <span class="toc-text">DEFINITIONS</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#RESERVED_WORDS"><span class="toc-number">2.</span> <span class="toc-text">RESERVED WORDS</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Pipelines"><span class="toc-number">3.</span> <span class="toc-text">Pipelines</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#List_序列"><span class="toc-number">4.</span> <span class="toc-text">List 序列</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Quotes"><span class="toc-number">5.</span> <span class="toc-text">Quotes</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Parameters"><span class="toc-number">6.</span> <span class="toc-text">Parameters</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Positional_Parameters"><span class="toc-number">7.</span> <span class="toc-text">Positional Parameters</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Arrays"><span class="toc-number">8.</span> <span class="toc-text">Arrays</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Rd_Mark"><span class="toc-number">9.</span> <span class="toc-text">Rd Mark</span></a></li></ol>
+		
+		</div>
+		
+		<ul>
+<li><a href="/note/shell_note.html">Shell Script - Note</a></li>
+</ul>
+<p><a href="http://www.linux-sxs.org/programming/bashcheat.html" target="_blank" rel="external">http://www.linux-sxs.org/programming/bashcheat.html</a></p>
+<p>上一阶段学Bash的参考资料：<br>≈<br><a href="http://www.mediacollege.com/cgi-bin/man/page.cgi?topic=bash" target="_blank" rel="external">http://www.mediacollege.com/cgi-bin/man/page.cgi?topic=bash</a><br><a href="http://ahei.info/chinese-bash-man.htm" target="_blank" rel="external">http://ahei.info/chinese-bash-man.htm</a><br><a href="https://www.gnu.org/software/bash/manual/bashref.html" target="_blank" rel="external">https://www.gnu.org/software/bash/manual/bashref.html</a><br><a href="http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html" target="_blank" rel="external">http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html</a></p>
+<p>[ ] <a href="http://alvinalexander.com/blog/post/linux-unix/unix-linux-shell-script-reference-cheat-sheet" target="_blank" rel="external">http://alvinalexander.com/blog/post/linux-unix/unix-linux-shell-script-reference-cheat-sheet</a></p>
+<p>[ ] <a href="http://www.linuxtopia.org/online_books/advanced_bash_scripting_guide/refcards.html" target="_blank" rel="external">http://www.linuxtopia.org/online_books/advanced_bash_scripting_guide/refcards.html</a></p>
+<p>If  bash is invoked in this fashion, $0 is set to the name of the file, and the positional parameters are set to the remaining arguments.  Bash reads and  executes commands from this file, then exits.  Bash’s exit status is the exit status of the last command executed in the script. If no commands are executed, the exit status is 0.</p>
+<p>When   a   login   shell  exits,  bash  reads  and  executes  commands  from  the  file ~/.bash_logout, if it exists.</p>
+<p>login shell 读取 ~/.bash_profile, ~/.bash_login,  and ~/.profile<br>not login shell 读取 ~/.bashrc</p>
+<p>non-interactive shell: to run a shell script</p>
+<h1 id="DEFINITIONS">DEFINITIONS</h1><p>blank  A space or tab.</p>
+<p>word   A sequence of characters considered as a single unit by the shell.   Also  known as a token.</p>
+<p>name   A word consisting only of alphanumeric characters and underscores, and beginning with an alphabetic character or an underscore.  Also referred to as  an  identifier.</p>
+<p>metacharacter   A character that, when unquoted, separates words.  One of the following:  |  &amp; ; ( ) &lt; &gt; space tab</p>
+<p>control operator   A token that performs a control function.  It is one of the following symbols: || &amp; &amp;&amp; ; ;; ( ) | <newline></newline></p>
+<h1 id="RESERVED_WORDS">RESERVED WORDS</h1><p>Reserved words are words that have a special meaning to the shell.  The following words are recognized as reserved when unquoted and either the first word of a simple  command (see SHELL GRAMMAR below) or the third word of a case or for command:</p>
+<pre><code>!  <span class="keyword">case</span>   <span class="keyword">do</span> <span class="keyword">done</span> <span class="keyword">elif</span> <span class="keyword">else</span> <span class="keyword">esac</span> <span class="keyword">fi</span> <span class="keyword">for</span> <span class="keyword">function</span> <span class="keyword">if</span> <span class="keyword">in</span> select <span class="keyword">then</span> until <span class="keyword">while</span> { } time [[ ]]
+</code></pre><h1 id="Pipelines">Pipelines</h1><p>A pipeline is a sequence of one or more commands separated by the character |.  The format for a pipeline is:</p>
+<pre><code><span class="comment">[time <span class="comment">[-p]</span>]</span> <span class="comment">[ ! ]</span> command <span class="comment">[ | command2 ... ]</span>
+</code></pre><p>If  the  time reserved word precedes a pipeline, the elapsed as well as user and system time consumed by its execution are reported  when  the  pipeline  terminates.   The -p option  changes  the output format to that specified by POSIX.  The TIMEFORMAT variable may be set to a format string that specifies how the timing information should be  displayed; see the description of TIMEFORMAT under Shell Variables below.</p>
+<p>Each command in a pipeline is executed as a separate process (i.e., in a subshell).</p>
+<h1 id="List_序列">List 序列</h1><p>If a command is terminated by the control operator &amp;, the shell executes the command in the  background  in a subshell.  The shell does not wait for the command to finish, and the return status is 0.  Commands separated by a ; are executed sequentially; the shell waits  for  each command to terminate in turn.  The return status is the exit status of the last command executed</p>
+<p>＃ Compound Commands</p>
+<p>(list)</p>
+<p>list  is  executed  in a subshell environment (see COMMAND EXECUTION ENVIRONMENT below).  Variable assignments and builtin commands that affect the shell’s environment  do not remain in effect after the command completes.  The return status is the exit status of list.</p>
+<p>{ list; }</p>
+<p>list is simply executed in the current shell environment.  list must  be  terminated  with  a  newline  or  semicolon.   This is known as a group command.  The return status is the exit status of list.  Note that unlike the metacharacters ( and ),  { and } are reserved words and must occur where a reserved word is permitted to be recognized.  Since they do not cause a word  break,  they  must  be separated from list by whitespace.</p>
+<p>((expression))<br>The  expression is evaluated according to the rules described below under ARITHMETIC EVALUATION.  If the value of the expression is non-zero, the return status is  0;  otherwise  the  return  status  is 1.  This is exactly equivalent to let “expression”.</p>
+<p>[[ expression ]]<br>Return a status of 0 or 1 depending on the evaluation of the conditional expresMETIC EVALUATION.  If the value of the expression is non-zero, the return status is  0;  otherwise  the  return  status  is 1.  This is exactly equivalent to let “expression”.</p>
+<p>[[ expression ]]<br>Return a status of 0 or 1 depending on the evaluation of the conditional expression  expression.   Expressions  are  composed  of the primaries described below under CONDITIONAL EXPRESSIONS.  Word splitting and pathname  expansion  are  not performed  on  the  words  between the [[ and ]]; tilde expansion, parameter and variable expansion, arithmetic expansion, command substitution, process  substitution,  and quote removal are performed.  Conditional operators such as -f must be unquoted to be recognized as primaries.</p>
+<p>When the == and != operators are used, the string to the right of  the  operator is considered a pattern and matched according to the rules described below under Pattern Matching.  If the shell option nocasematch is enabled, the match is performed without regard to the case of alphabetic characters.  The return value is 0 if the string matches (==) or does not match (!=) the pattern,  and  1  otherwise.   Any  part  of  the  pattern may be quoted to force it to be matched as a string.</p>
+<p>An additional binary operator, =~, is available, with the same precedence as  == and  !=.  When it is used, the string to the right of the operator is considered an extended regular expression and matched accordingly (as  in  regex(3)).   The return  value  is  0 if the string matches the pattern, and 1 otherwise.  If the regular expression is  syntactically  incorrect,  the  conditional  expression’s return  value  is  2.   If the shell option nocasematch is enabled, the match is performed without regard to  the  case  of  alphabetic  characters.   Substrings matched  by parenthesized subexpressions within the regular expression are saved in the array variable BASH_REMATCH.  The element of BASH_REMATCH with index 0 is the  portion  of the string matching the entire regular expression.  The element of BASH_REMATCH with index n is the portion  of  the  string  matching  the  nth parenthesized subexpression.</p>
+<p>Expressions  may be combined using the following operators, listed in decreasing order of precedence:</p>
+<p>( expression )     Returns the value of expression.  This may be used to override the normal precedence of operators</p>
+<p>for name [ in word ] ; do list ; done</p>
+<p>The  list  of  words  following in is expanded, generating a list of items. The variable name is set to each element of this list in turn, and list is  executed each  time.   If  the in word is omitted, the for command executes list once for each positional parameter that is set (see PARAMETERS below).  The return status is  the  exit status of the last command that executes.  If the expansion of the items following in results in an empty list, no commands are executed,  and  the return status is 0.</p>
+<p>for (( expr1 ; expr2 ; expr3 )) ; do list ; done</p>
+<p>First,  the  arithmetic  expression  expr1  is  evaluated according to the rules described below under ARITHMETIC EVALUATION.  The arithmetic expression expr2 is then evaluated repeatedly until it evaluates to zero.  Each time expr2 evaluates to a non-zero value, list is executed and the  arithmetic  expression  expr3  is evaluated.   If  any  expression is omitted, it behaves as if it evaluates to 1. The return value is the exit status of the last command in  list  that  is  executed, or false if any of the expressions is invalid.</p>
+<p>select name [ in word ] ; do list ; done</p>
+<p>case word in [ [(] pattern [ | pattern ] … ) list ;; ] … esac</p>
+<p>if list; then list; [ elif list; then list; ] … [ else list; ] fi</p>
+<p>while list; do list; done<br>until list; do list; done</p>
+<p>[ function ] name () compound-command [redirection]</p>
+<p>This defines a function named name.  The reserved word function is optional.  If the function reserved word is supplied, the parentheses are optional.  The  body of  the function is the compound command compound-command (see Compound Commands above).  That command is usually a list of commands between { and }, but may  be any  command listed under Compound Commands above.  compound-command is executed whenever name is specified as the name of a simple  command.   Any  redirections (see  REDIRECTION below) specified when a function is defined are performed when the function is executed.  The exit status of  a  function  definition  is  zero unless  a  syntax error occurs or a readonly function with the same name already exists.  When executed, the exit status of a function is the exit status of  the last command executed in the body.  (See FUNCTIONS below.)</p>
+<p>＃ Comments</p>
+<p>A  word beginning  with  #  causes  that  word  and all remaining characters on that line to be ignored.</p>
+<h1 id="Quotes">Quotes</h1><p>A non-quoted backslash () is the escape character.  It preserves the literal value of the next character that follows, with the exception of <newline>.  If a \<newline> pair appears,  and  the  backslash is not itself quoted, the \<newline> is treated as a line continuation (that is, it is removed from the input stream and effectively ignored).</newline></newline></newline></p>
+<p>Enclosing characters in single quotes preserves the literal  value  of  each  character within  the quotes.  A single quote may not occur between single quotes, even when preceded by a backslash.</p>
+<p>Enclosing characters in double quotes preserves the literal  value  of  all  characters within  the  quotes,  with  the  exception  of  $, <code>, \, and, when history expansion is enabled, !.  The characters $ and</code> retain their special meaning within double  quotes. The  backslash  retains  its special meaning only when followed by one of the following characters: $, `, “, \, or <newline>.  A double  quote  may  be  quoted  within  double quotes  by  preceding  it with a backslash.  If enabled, history expansion will be performed unless an !  appearing in double quotes is escaped using a backslash.  The backslash preceding the !  is not removed.</newline></p>
+<p> Words of the form $’string’ are treated specially.  The word expands  to  string,  with backslash-escaped  characters  replaced as specified by the ANSI C standard.  Backslash escape sequences, if present, are decoded as follows:<br>     \a     alert (bell)<br>     \b     backspace<br>     \e     an escape character<br>\f     form feed<br>\n     new line<br>     \r     carriage return<br>     \t     horizontal tab<br>\v     vertical tab<br>     \     backslash<br>     \’     single quote<br>     \nnn   the eight-bit character whose value is the octal value nnn (one to  three digits)<br>     \xHH   the  eight-bit  character whose value is the hexadecimal value HH (one or two hex digits)<br>     \cx    a control-x character</p>
+<h1 id="Parameters">Parameters</h1><p>A variable has a value and zero or more attributes.  Attributes are assigned using the declare builtin command (see declare below  in  SHELL  BUILTIN  COMMANDS).</p>
+<p>A  parameter is set if it has been assigned a value.  The null string is a valid value. Once a variable is set, it may be unset only by using the unset  builtin command.</p>
+<p>A variable may be assigned to by a statement of the form</p>
+<pre><code><span class="keyword">name</span>=[<span class="keyword">value</span>]
+</code></pre><p>If  value  is  not given, the variable is assigned the null string.  All values undergo tilde expansion, parameter and variable  expansion,  command  substitution,  arithmetic expansion,  and  quote  removal (see EXPANSION below).  If the variable has its integer attribute set, then value is evaluated as an arithmetic expression even if the $((…)) expansion  is  not  used  (see Arithmetic Expansion below).  Word splitting is not performed, with the exception of “$@” as explained below under Special Parameters.   Pathname expansion is not performed.  Assignment statements may also appear as arguments to the alias, declare, typeset, export, readonly, and local builtin commands.</p>
+<h1 id="Positional_Parameters">Positional Parameters</h1><p>A positional parameter is a parameter denoted by one or more  digits,  other  than  the single  digit 0.  Positional parameters are assigned from the shell’s arguments when it is invoked, and may be reassigned using the set builtin command.  Positional parameters may  not be assigned to with assignment statements.  The positional parameters are temporarily replaced when a shell function is executed (see FUNCTIONS below).</p>
+<p>When a positional parameter consisting of more than a single digit is expanded, it must be enclosed in braces</p>
+<h1 id="Arrays">Arrays</h1><p>Bash provides one-dimensional array variables.  Any variable may be used as  an  array; the declare builtin will explicitly declare an array.  There is no maximum limit on the size of an array, nor any requirement that members be indexed or assigned contiguously. Arrays are indexed using integers and are zero-based.</p>
+<p>＃ Tilde Expansion</p>
+<p>~+     PWD<br>~-     OLDPWD<br>~-2     ……</p>
+<h1 id="Rd_Mark">Rd Mark</h1><p>Parameter Expansion</p>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://icehe.me/note/bash.html" data-title="Bash - Note | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+   	       
+	</article>
+	
+	<section id="comments" class="comment"></section>
+
+
+<!-- Duoshuo Show UA -->
+<!--<link href="https://raw.githubusercontent.com/easunlee/make_duoshuo_show_ua/master/src/show.ua.css" rel="stylesheet">-->
+<!--<script type="text/javascript" async="" src="http://faisalman.github.io/ua-parser-js/src/ua-parser.js" charset="UTF-8"></script>-->
+
+
+<script type="text/javascript">
+
+
+var duoshuoQuery = {short_name:"icehe"};
+(function() {
+	var ds = document.createElement('script');
+	ds.type = 'text/javascript';ds.async = true;
+	ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+	ds.charset = 'UTF-8';
+	(document.getElementsByTagName('head')[0]
+	|| document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+
+
+
+
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="note/bash.html" data-title="Bash - Note" data-url="http://icehe.me/note/bash.html"></div>'
+//	+ '<hr/>'
+//	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
+//	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'
+//	+ '</div>';
+
+//function loadDisqus(){
+//	var disqus_shortname = 'icehe';
+//
+//	(function(){
+//		var dsq = document.createElement('script');
+//		dsq.type = 'text/javascript';
+//		dsq.async = true;
+//		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+//		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+//	}());
+//
+//	(function(){
+//		var dsq = document.createElement('script');
+//		dsq.type = 'text/javascript';
+//		dsq.async = true;
+//		dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+//		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+//	}());
+
+//	document.getElementById('disqus_div').innerHTML = '<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>';
+//}
+
+</script>
+
+</div>  
+      </div>
+      <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<div class="social-font" class="clearfix">
+		
+		<a href="https://github.com/IceHe" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		<a href="http://weibo.com/icedes" target="_blank" class="icon-weibo" title="微博"></a>
+		
+		
+		
+		
+		
+		
+		
+		<a href="https://www.douban.com/people/IceHeGZ" target="_blank" class="icon-douban" title="豆瓣"></a>
+		
+		
+		
+		
+		<a href="mailto:x@icehe.me" target="_blank" class="icon-email" title="Email Me"></a>
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2016 
+		
+		<a href="/about" target="_blank" title="IceHe何志远">IceHe何志远</a>
+		
+		
+		</p>
+</div>
+</footer>
+      <!--<script src="/js/jquery-2.0.3.min.js"></script>-->
+<script id="jQueryLink" src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript">
+  window.jQuery || document.write('<script src="/js/jquery-2.0.3.min.js"><\/script>');
+</script>
+
+<!--<script src="/js/jquery.imagesloaded.min.js"></script>-->
+<!--<script src="/js/gallery.js"></script>-->
+<!--<script src="/js/jquery.qrcode-0.12.0.min.js"></script>-->
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.imagesloaded.min.js"></script>
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/gallery.js"></script>
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.qrcode-0.12.0.min.js"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize();
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+    }
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+//      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var title = '《 ' + $('.article-url').attr('title') + ' 》@IceHe何志远 的技术博客『 '
+          + document.getElementsByName('description')[0].content + '』';
+  var weibo_share_url = 'http://service.weibo.com/share/share.php?type=button&searchPic=true&style=full&title=' + title + '&url=' + encodedUrl + '&pic=http%3A%2F%2F7vzp68.com1.z0.glb.clouddn.com%2Fabout%2Favatar_03a.jpg&appkey=' + tsina;
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="javascript:;" class="article-share-weibo" title="微博" onclick="window.open(\'' + weibo_share_url + '\', \'_blank\', \'width=615,height=505\')"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});
+</script>
+
+
+
+
+<!--<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">-->
+<!--<script src="/fancybox/jquery.fancybox.pack.js"></script>-->
+<link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+<div style="display: none;">
+	<script type="text/javascript">
+	
+		if(isOnGithub){
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-60837823-1', 'auto');  
+			ga('send', 'pageview');
+		}
+	
+
+	
+		if(isOnGitcafe){
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-60837823-2', 'auto');  
+			ga('send', 'pageview');
+		}
+	
+
+	
+		if(isOnGithub){
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		}
+	
+
+	
+		if(isOnGitcafe){
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?68e951d2eed2725bdd8cf4b1900d632f";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		}
+	
+	
+	</script>
+</div>
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+<div id="totop">
+	<!-- <a title="Back to Top"><img src="/img/scrollup.png"/></a> -->
+	<a title="Back to Top"><img src="//7vzp68.com1.z0.glb.clouddn.com/common/scrollup.png"/></a>
+</div>
+<!--<script src="/js/totop.js"></script>-->
+<script src="http://7vzp67.com1.z0.glb.clouddn.com/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Lean Cloud Begin -->
+<script src="https://leancloud.cn/scripts/lib/av-0.5.0.min.js"></script>
+<script type="text/javascript">
+  AV.initialize("u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5");
+  // 初始化 param1：应用 id、param2：应用 key
+
+  function addCount (Counter) {
+    url = $('.article-url').attr('href').trim();
+    title = $('.article-title').text().trim();
+    var query = new AV.Query(Counter);
+    //use url as unique idnetfication
+    query.equalTo("url",url);
+    query.find({
+      success: function(results){
+        if(results.length>0){
+          var counter = results[0];
+          counter.fetchWhenSave(true); //get recent result
+          counter.increment("time");
+          counter.save();
+        }else{
+          var newcounter = new Counter();
+          newcounter.set("title", title);
+          newcounter.set("url", url);
+          newcounter.set("time", 1);
+          newcounter.save(null, {
+            success: function(newcounter){
+              //alert('New object created');
+            },
+            error: function(newcounter,error){
+              //alert('Failed to create');
+            }
+          });
+        }
+      },
+      error: function(error){
+        // find null is not a error
+        //alert('Error:' + error.code + " " + error.message);
+      }
+    });
+  }
+
+  $(function(){
+    var Counter = AV.Object.extend("Counter");
+    // only increse visit counting when intering a page
+    if((isOnGithub || isOnGitcafe) && $('.article-title').length == 1) {
+      addCount(Counter);
+    }
+
+    // if popularlist widget exists, add item to it.
+    var popular_list = $('.popularlist');
+    if(1 == popular_list.length){
+      var query = new AV.Query(Counter);
+      query.descending("time");
+      query.limit(15);
+      query.find({
+        success: function(results){
+          for(var i = 0; i < results.length; ++i){
+            var counter = results[i];
+            title = counter.get("title");
+            url = counter.get("url");
+            time = counter.get("time");
+
+            $('#popularlist_ul').append('<li><a href="'
+                    + url + '" name="'
+                    + title + '">'
+                    + (1 == ((i + 1) % 5)
+                            ? ('<b>' + (i + 1) + ' </b>') : '')
+                    + '<sup>'
+                    + time + ' </sup> &nbsp;'
+                    + title
+                    + '</a></li>'
+            );
+          }
+        },
+        error: function(error){
+          //alert("Error:" + error.code + " " + error.message);
+        }
+      });
+    }
+
+    // if cur page is a post, set the post pageview.
+    var article_info = $(".article-info");
+    if(1 == article_info.length){
+      var query = new AV.Query(Counter);
+      query.equalTo("url", article_info.find(".article-title a").attr("href"));
+      query.limit(1);
+      query.find({
+        success: function(results){
+          if(1 == results.length){
+            var counter = results[0];
+            title = counter.get("title");
+            url = counter.get("url");
+            time = counter.get("time");
+
+            article_info.find(".article-readtimes .readtimes").text(time);
+          }
+        },
+        error: function(error){
+          article_info.find(".article-readtimes .readtimes").text("?");
+          //alert("Error:" + error.code + " " + error.message);
+        }
+      });
+    }
+
+    // if cur page is Home, set the post_list pageviews.
+    var post_list = $("#main[class!=post]");
+    if(0 != post_list.length){
+      var post_items = post_list.find(".post a");
+      for(var i = 0; i < post_items.length; ++i){
+        var url = post_items.eq(i).attr("href");
+        query.equalTo("url", url);
+        query.limit(1);
+        query.find({
+          success: function(results){
+            if(1 == results.length){
+              var counter = results[0];
+              title = counter.get("title");
+              url = counter.get("url");
+              time = counter.get("time");
+
+              $(".post a[href='" + url + "']").find('.readtimes').text(time);
+            }
+          },
+          error: function(error){
+            //alert("Error:" + error.code + " " + error.message);
+          }
+        });
+      }
+    }
+  });
+
+  <!-- 百度 自动推送网页索引工具代码 -->
+  (function(){
+    var bp = document.createElement('script');
+    bp.src = '//push.zhanzhang.baidu.com/push.js';
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+
+</script>
+<!-- Lean Cloud End -->
+
+
+<!-- 不蒜子 网站计数 -->
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+<!-- 自动点击喜欢 -->
+<script type="text/javascript">
+  $(window).load(function() {
+    var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
+    if (1 == ds_like_button.length
+            && "none" != document.getElementsByClassName('ds-meta')[0].style.display
+            && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
+    ) {
+      ds_like_button[0].click();
+      document.getElementsByClassName('ds-like-tooltip-close')[0].click();
+      window.location.href = '#';
+    }
+  });
+</script>
+
+    </body>
+  </html>
+
+
