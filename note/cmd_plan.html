@@ -14,16 +14,31 @@
 	
 
 	
-	<meta name="description" content="Linux Tools Quick Tutorialcrontab 定时任务显示文件内容的linux终端命令(cat、head、less、tail等)每天一个linux命令（30）: chown命令chmod 查看及修改文件权限查找目录下的所有文件中是否含有某个字符串Unix 高手的 10 个习惯Linux常用系统信息查看命令CentOS系统中常用查看日志命令tar 解压 / 压缩监控 Linux">
+	<meta name="description" content="[ ] 0 Blg: CLI Note! #g
+[ ] pwd 命令用于显示当前目录。
+[ ] env 查看环境变量
+[ ] /etc/hosts：左侧 ip，右侧域名。（脑残不止一两次了！）
+[ ] 「命令行的艺术」https://github.com/jlevy/the-art-of-command-line/blob/master/README.md
+[ ] sed http://cools">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Cmd Plan">
 <meta property="og:url" content="http://icehe.me/note/cmd_plan.html">
 <meta property="og:site_name" content="Ice He 何志远">
-<meta property="og:description" content="Linux Tools Quick Tutorialcrontab 定时任务显示文件内容的linux终端命令(cat、head、less、tail等)每天一个linux命令（30）: chown命令chmod 查看及修改文件权限查找目录下的所有文件中是否含有某个字符串Unix 高手的 10 个习惯Linux常用系统信息查看命令CentOS系统中常用查看日志命令tar 解压 / 压缩监控 Linux">
-<meta property="og:updated_time" content="2016-03-16T08:23:41.000Z">
+<meta property="og:description" content="[ ] 0 Blg: CLI Note! #g
+[ ] pwd 命令用于显示当前目录。
+[ ] env 查看环境变量
+[ ] /etc/hosts：左侧 ip，右侧域名。（脑残不止一两次了！）
+[ ] 「命令行的艺术」https://github.com/jlevy/the-art-of-command-line/blob/master/README.md
+[ ] sed http://cools">
+<meta property="og:updated_time" content="2016-03-17T09:26:54.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Cmd Plan">
-<meta name="twitter:description" content="Linux Tools Quick Tutorialcrontab 定时任务显示文件内容的linux终端命令(cat、head、less、tail等)每天一个linux命令（30）: chown命令chmod 查看及修改文件权限查找目录下的所有文件中是否含有某个字符串Unix 高手的 10 个习惯Linux常用系统信息查看命令CentOS系统中常用查看日志命令tar 解压 / 压缩监控 Linux">
+<meta name="twitter:description" content="[ ] 0 Blg: CLI Note! #g
+[ ] pwd 命令用于显示当前目录。
+[ ] env 查看环境变量
+[ ] /etc/hosts：左侧 ip，右侧域名。（脑残不止一两次了！）
+[ ] 「命令行的艺术」https://github.com/jlevy/the-art-of-command-line/blob/master/README.md
+[ ] sed http://cools">
 
   
   <link rel="alternative" href="/atom.xml" title="Ice He 何志远" type="application/atom+xml">
@@ -139,7 +154,7 @@
     
   </p>
   <p class="article-time">
-    <time datetime="2016-03-16T08:23:41.000Z" itemprop="datePublished"> Published 2016 Mar 16</time>
+    <time datetime="2016-03-17T09:26:54.000Z" itemprop="datePublished"> Published 2016 Mar 17</time>
   </p>
 </header>
 	<div class="article-content">
@@ -147,11 +162,51 @@
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">Contents</strong>
 		
-			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Copy_File_&_Dir_to_another_dir"><span class="toc-number">1.</span> <span class="toc-text">Copy File & Dir to another dir</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#CentOS_6-5_Locale_Problem"><span class="toc-number">2.</span> <span class="toc-text">CentOS 6.5 Locale Problem</span></a></li></ol>
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#将代码从本地同步到服务端处"><span class="toc-number">1.</span> <span class="toc-text">将代码从本地同步到服务端处</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#将代码从服务端拷贝到本地来"><span class="toc-number">2.</span> <span class="toc-text">将代码从服务端拷贝到本地来</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Copy_File_&_Dir_to_another_dir"><span class="toc-number">3.</span> <span class="toc-text">Copy File & Dir to another dir</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#CentOS_6-5_Locale_Problem"><span class="toc-number">4.</span> <span class="toc-text">CentOS 6.5 Locale Problem</span></a></li></ol>
 		
 		</div>
 		
-		<p><a href="http://linuxtools-rst.readthedocs.org/zh_CN" target="_blank" rel="external">Linux Tools Quick Tutorial</a><br><a href="linuxtools-rst.readthedocs.org/zh_CN/latest/tool/crontab.html">crontab 定时任务</a><br><a href="http://www.jbxue.com/LINUXjishu/9606.html" target="_blank" rel="external">显示文件内容的linux终端命令(cat、head、less、tail等)</a><br><a href="http://www.cnblogs.com/peida/archive/2012/12/04/2800684.html" target="_blank" rel="external">每天一个linux命令（30）: chown命令</a><br><a href="http://www.cnblogs.com/CgenJ/archive/2011/07/28/2119454.html" target="_blank" rel="external">chmod 查看及修改文件权限</a><br><a href="http://zhidao.baidu.com/link?url=p2TZzZRgciRt_BhF8V1U6ECHgla2bHQcSvybourupgSMi9-LRZ5EciILv5ZQm6wKKXXG1tXH8gYg5OagHKfCuPZKz5UVobELUX3oE2Wq0_G" target="_blank" rel="external">查找目录下的所有文件中是否含有某个字符串</a><br><a href="http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=400665034&amp;idx=1&amp;sn=e123ee0e7acf0ad1dc79caa672348e3b&amp;scene=1&amp;srcid=11287mrCChrjerjkwuA0ej0K#rd" target="_blank" rel="external">Unix 高手的 10 个习惯</a><br><a href="http://blogread.cn/it/article/6209" target="_blank" rel="external">Linux常用系统信息查看命令</a><br><a href="http://www.centoscn.com/CentOS/help/2014/0310/2540.html" target="_blank" rel="external">CentOS系统中常用查看日志命令</a><br><a href="http://blog.chinaunix.net/uid-1840233-id-3147304.html" target="_blank" rel="external">tar 解压 / 压缩</a><br><a href="http://blog.jobbole.com/88704/" target="_blank" rel="external">监控 Linux 的 命令行工具</a><br><a href="http://os.51cto.com/art/201003/186325.htm" target="_blank" rel="external">详述Linux ftp命令的使用方法</a><br><a href="http://waiting.iteye.com/blog/643171" target="_blank" rel="external">rsync 简明教程</a><br><a href="http://www.oschina.net/translate/linux-netcat-command" target="_blank" rel="external">nc (netcat) - 网络工具中的瑞士军刀</a><br><a href="http://blog.jobbole.com/85378/" target="_blank" rel="external">20个 Unix/Linux 命令技巧</a><br><a href="http://www.111cn.net/sys/linux/78617.htm" target="_blank" rel="external">linux expect命令的使用方法介绍</a><br><a href="http://haiquan.sinaapp.com/2013/03/%E3%80%90%E5%8E%9F%E5%88%9B%E3%80%91bash%E4%B8%8Bctrl-c%E3%80%81ctrl-d%E5%92%8Cctrl-z%E7%9A%84%E5%8C%BA%E5%88%AB/" target="_blank" rel="external">Bash下Ctrl-C、Ctrl-D和Ctrl-Z的区别</a><br><a href="http://blog.csdn.net/duguduchong/article/details/8126778" target="_blank" rel="external">Linux Add “sudoer”</a><br><a href="http://xu020408.blog.163.com/blog/static/26548920097209315756/" target="_blank" rel="external">linux 文件名命名规则</a><br><a href="http://www.jb51.net/os/RedHat/105909.html" target="_blank" rel="external">CentOS 安装vsftp 建新用户的方法</a><br><a href="http://fanli7.net/a/caozuoxitong/Linux/20111123/145772.html" target="_blank" rel="external">Linux Partition n HD Type 分区和硬盘类型</a></p>
+		<p>[ ] 0 Blg: CLI Note! #g</p>
+<p>[ ] pwd 命令用于显示当前目录。</p>
+<p>[ ] env 查看环境变量</p>
+<p>[ ] /etc/hosts：左侧 ip，右侧域名。（脑残不止一两次了！）</p>
+<p>[ ] 「命令行的艺术」<a href="https://github.com/jlevy/the-art-of-command-line/blob/master/README.md" target="_blank" rel="external">https://github.com/jlevy/the-art-of-command-line/blob/master/README.md</a></p>
+<p>[ ] sed <a href="http://coolshell.cn/articles/9104.html" target="_blank" rel="external">http://coolshell.cn/articles/9104.html</a></p>
+<p>[ ] awk <a href="http://coolshell.cn/articles/9070.html" target="_blank" rel="external">http://coolshell.cn/articles/9070.html</a></p>
+<p>[ ] Linux查看环境变量当前信息和查看命令 <a href="http://os.51cto.com/art/201005/202463.htm" target="_blank" rel="external">http://os.51cto.com/art/201005/202463.htm</a></p>
+<p>[ ] Features - iTerm2 - Mac OS Terminal Replacement <a href="https://iterm2.com/features.html" target="_blank" rel="external">https://iterm2.com/features.html</a></p>
+<p>[ ] <a href="http://www.pixelbeat.org/cmdline.html" target="_blank" rel="external">http://www.pixelbeat.org/cmdline.html</a></p>
+<p>[ ] <a href="http://www.unixguide.net/linux/linuxshortcuts.shtml" target="_blank" rel="external">http://www.unixguide.net/linux/linuxshortcuts.shtml</a></p>
+<p>[ ] <a href="http://www.rain.org/~mkummel/unix.html" target="_blank" rel="external">http://www.rain.org/~mkummel/unix.html</a></p>
+<p>[ ] <a href="http://www.catonmat.net/blog/set-operations-in-unix-shell-simplified/" target="_blank" rel="external">http://www.catonmat.net/blog/set-operations-in-unix-shell-simplified/</a></p>
+<p>[ ] Bash <a href="http://www.mediacollege.com/cgi-bin/man/page.cgi?topic=bash" target="_blank" rel="external">http://www.mediacollege.com/cgi-bin/man/page.cgi?topic=bash</a></p>
+<p>[ ] <a href="https://www.quora.com/What-are-some-lesser-known-but-useful-Unix-commands" target="_blank" rel="external">https://www.quora.com/What-are-some-lesser-known-but-useful-Unix-commands</a></p>
+<p>[ ] <a href="https://www.quora.com/What-are-the-most-useful-Swiss-army-knife-one-liners-on-Unix" target="_blank" rel="external">https://www.quora.com/What-are-the-most-useful-Swiss-army-knife-one-liners-on-Unix</a></p>
+<p>[ ] <a href="https://www.quora.com/What-are-some-time-saving-tips-that-every-Linux-user-should-know" target="_blank" rel="external">https://www.quora.com/What-are-some-time-saving-tips-that-every-Linux-user-should-know</a></p>
+<p>[ ] man.linuxde.net</p>
+<p>[ ] Tools:<a href="http://explainshell.com/" target="_blank" rel="external">http://explainshell.com/</a></p>
+<p>删除文件夹实例：<br>rm -rf /var/log/httpd/access<br>将会删除/var/log/httpd/access目录以及其下所有文件、文件夹</p>
+<p>删除文件使用实例：<br>rm -f /var/log/httpd/access.log<br>将会强制删除/var/log/httpd/access.log这个文件</p>
+<p>linux下重命名文件或文件夹的命令mv既可以重命名，又可以移动文件或文件夹.<br>例子：将目录A重命名为B<br>mv A B<br>例子：将/a目录移动到/b下，并重命名为c<br>mv /a /b/c</p>
+<p>建立符号连接<br>ln -s src dest<br>为某一个文件在另外一个位置建立一个同步的链接，最常用的参数是-s<br>具体用法是：ln –s 源文件 目标文件。<br>当要在不同的目录，用到相同的文件时，不需要在每一个需要的目录下都放一个必须相同的文件，<br>只要在某个固定的目录，放上该文件，然后在其它 的目录下用ln命令链接（link）它就可以，不必重复的占用磁盘空间。<br>例如：ln –s /bin/less /usr/local/bin/less -s 是代号（symbolic）的意思。</p>
+<p>查找一个命令的绝对路径<br>where command_name</p>
+<p>MacOS下没有Linux的tree指令用以查看目录树，<br>可以用一下的指令来代替：<br>find . -print | sed -e ‘s;[^/]*/;|<strong><strong>;g;s;</strong></strong>|; |;g’</p>
+<p>wget<br>是一个从网络上自动下载文件的自由工具，支持通过HTTP、HTTPS、FTP三个最常见的TCP/IP协议下载，并可以使用HTTP代理。wget名称的由来是“World Wide Web”与“get”的结合。</p>
+<p>uname -a<br>查看系统的主要信息<br>（cat /etc/issue     查看系统版本）</p>
+<p>sudo -s 和 su root<br>切换到root权限下</p>
+<p>ifconfig<br>获取本机的ip等有关信息</p>
+<p>rsync</p>
+<h1 id="将代码从本地同步到服务端处">将代码从本地同步到服务端处</h1><p>rsync -avzP –delete –password-file=/Users/IceHe/.rsync.pwd –exclude=’.git’ –exclude=’.idea’ /Users/IceHe/Coding/Work/weibov5_code_RSYNC_DEV/ rsync://www@dev:8875/weibov5_code</p>
+<h1 id="将代码从服务端拷贝到本地来">将代码从服务端拷贝到本地来</h1><p>rsync -avzP –delete –password-file=/Users/IceHe/.rsync.pwd –exclude=’.git’ –exclude=’.idea’ rsync://www@dev:8875/weibov5_code /Users/IceHe/Coding/Work/weibov5_code_RSYNC_DEV</p>
+<p>git clone <url> <dest_path><br>设置dest_path，可以将文件放到指定的目录中</dest_path></url></p>
+<p>在vim中使用Shell指令<br>先输入“ :! ”，再输入你要使用的指令！</p>
+<p>lsof -i tcp:80 哪个程序占用了80端口？</p>
+<p>^old^new<br>替换前一条命令里的部分字符串。<br>场景：echo”wanderful”，其实是想输出echo”wonderful”。<br>只需要^a^o</p>
+<p>man ascii<br>显示ascii码表。</p>
+<p>netstat–tlnp<br>列出本机进程监听的端口号</p>
+<p>how to use Shadowsocks in Terminal on OS X<br><a href="http://www.jianshu.com/p/16d7275ec736" target="_blank" rel="external">http://www.jianshu.com/p/16d7275ec736</a></p>
+<hr>
+<p><a href="http://linuxtools-rst.readthedocs.org/zh_CN" target="_blank" rel="external">Linux Tools Quick Tutorial</a><br><a href="linuxtools-rst.readthedocs.org/zh_CN/latest/tool/crontab.html">crontab 定时任务</a><br><a href="http://www.jbxue.com/LINUXjishu/9606.html" target="_blank" rel="external">显示文件内容的linux终端命令(cat、head、less、tail等)</a><br><a href="http://www.cnblogs.com/peida/archive/2012/12/04/2800684.html" target="_blank" rel="external">每天一个linux命令（30）: chown命令</a><br><a href="http://www.cnblogs.com/CgenJ/archive/2011/07/28/2119454.html" target="_blank" rel="external">chmod 查看及修改文件权限</a><br><a href="http://zhidao.baidu.com/link?url=p2TZzZRgciRt_BhF8V1U6ECHgla2bHQcSvybourupgSMi9-LRZ5EciILv5ZQm6wKKXXG1tXH8gYg5OagHKfCuPZKz5UVobELUX3oE2Wq0_G" target="_blank" rel="external">查找目录下的所有文件中是否含有某个字符串</a><br><a href="http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=400665034&amp;idx=1&amp;sn=e123ee0e7acf0ad1dc79caa672348e3b&amp;scene=1&amp;srcid=11287mrCChrjerjkwuA0ej0K#rd" target="_blank" rel="external">Unix 高手的 10 个习惯</a><br><a href="http://blogread.cn/it/article/6209" target="_blank" rel="external">Linux常用系统信息查看命令</a><br><a href="http://www.centoscn.com/CentOS/help/2014/0310/2540.html" target="_blank" rel="external">CentOS系统中常用查看日志命令</a><br><a href="http://blog.chinaunix.net/uid-1840233-id-3147304.html" target="_blank" rel="external">tar 解压 / 压缩</a><br><a href="http://blog.jobbole.com/88704/" target="_blank" rel="external">监控 Linux 的 命令行工具</a><br><a href="http://os.51cto.com/art/201003/186325.htm" target="_blank" rel="external">详述Linux ftp命令的使用方法</a><br><a href="http://waiting.iteye.com/blog/643171" target="_blank" rel="external">rsync 简明教程</a><br><a href="http://www.oschina.net/translate/linux-netcat-command" target="_blank" rel="external">nc (netcat) - 网络工具中的瑞士军刀</a><br><a href="http://blog.jobbole.com/85378/" target="_blank" rel="external">20个 Unix/Linux 命令技巧</a><br><a href="http://www.111cn.net/sys/linux/78617.htm" target="_blank" rel="external">linux expect命令的使用方法介绍</a><br><a href="http://haiquan.sinaapp.com/2013/03/%E3%80%90%E5%8E%9F%E5%88%9B%E3%80%91bash%E4%B8%8Bctrl-c%E3%80%81ctrl-d%E5%92%8Cctrl-z%E7%9A%84%E5%8C%BA%E5%88%AB/" target="_blank" rel="external">Bash下Ctrl-C、Ctrl-D和Ctrl-Z的区别</a><br><a href="http://blog.csdn.net/duguduchong/article/details/8126778" target="_blank" rel="external">Linux Add “sudoer”</a><br><a href="http://xu020408.blog.163.com/blog/static/26548920097209315756/" target="_blank" rel="external">linux 文件名命名规则</a><br><a href="http://www.jb51.net/os/RedHat/105909.html" target="_blank" rel="external">CentOS 安装vsftp 建新用户的方法</a><br><a href="http://fanli7.net/a/caozuoxitong/Linux/20111123/145772.html" target="_blank" rel="external">Linux Partition n HD Type 分区和硬盘类型</a></p>
 <h1 id="Copy_File_&amp;_Dir_to_another_dir">Copy File &amp; Dir to another dir</h1><p>About Windows CMD<br><code>xcopy E:\Music_pop\*.mp3 /s d:\t_cp_mp3_0\.</code><br><code>for /r E:\Music_symphony %i in (*.mp3) do @echo %i &amp;&amp; @copy /y &quot;%i&quot; d:\t_cp_mp3_0</code></p>
 <h1 id="CentOS_6-5_Locale_Problem">CentOS 6.5 Locale Problem</h1><p>Problem:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ locale&#10;locale: Cannot set LC_CTYPE to default locale: No such file or directory&#10;locale: Cannot set LC_ALL to default locale: ?????????&#10;LANG=zh_CN.UTF-8&#10;LC_CTYPE=UTF-8&#10;LC_NUMERIC=&#34;zh_CN.UTF-8&#34;&#10;LC_TIME=&#34;zh_CN.UTF-8&#34;&#10;LC_COLLATE=&#34;zh_CN.UTF-8&#34;&#10;LC_MONETARY=&#34;zh_CN.UTF-8&#34;&#10;LC_MESSAGES=&#34;zh_CN.UTF-8&#34;&#10;LC_PAPER=&#34;zh_CN.UTF-8&#34;&#10;LC_NAME=&#34;zh_CN.UTF-8&#34;&#10;LC_ADDRESS=&#34;zh_CN.UTF-8&#34;&#10;LC_TELEPHONE=&#34;zh_CN.UTF-8&#34;&#10;LC_MEASUREMENT=&#34;zh_CN.UTF-8&#34;&#10;LC_IDENTIFICATION=&#34;zh_CN.UTF-8&#34;&#10;LC_ALL=</span><br></pre></td></tr></table></figure></p>
 <p>Solution:<br>I think that what you want to do is type:<br><code>export LC_ALL=&quot;zh_CN.UTF-8&quot;</code><br>However i think it’s not recommended to do this because it will override all your other locale settings. One thing you might try to avoid that is setting it to an empty string. In theory, that value is allowed to be empty which just tells your computer to use the settings above it.<br>export LC_ALL=””<br>I have no idea if that will work, but it’s worth a shot.</p>
