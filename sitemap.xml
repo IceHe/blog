@@ -3,22 +3,27 @@
   
   <url>
     <loc>http://icehe.me/note/index.html</loc>
-    <lastmod>2016-03-16T15:43:09.000Z</lastmod>
+    <lastmod>2016-03-17T07:53:02.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://icehe.me/note/inbox.html</loc>
-    <lastmod>2016-03-16T15:40:17.000Z</lastmod>
+    <loc>http://icehe.me/note/progress.html</loc>
+    <lastmod>2016-03-17T07:52:27.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://icehe.me/note/wechat.html</loc>
-    <lastmod>2016-03-16T11:02:03.000Z</lastmod>
+    <loc>http://icehe.me/note/web.html</loc>
+    <lastmod>2016-03-17T07:40:44.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://icehe.me/note/weibo.html</loc>
-    <lastmod>2016-03-16T11:01:34.000Z</lastmod>
+    <loc>http://icehe.me/note/unread.html</loc>
+    <lastmod>2016-03-17T07:36:34.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/bookmarks/</loc>
+    <lastmod>2016-03-17T07:04:31.000Z</lastmod>
   </url>
   
   <url>
@@ -34,11 +39,6 @@
   <url>
     <loc>http://icehe.me/note/cpp.html</loc>
     <lastmod>2016-03-16T07:59:04.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/note/web.html</loc>
-    <lastmod>2016-03-16T07:49:21.000Z</lastmod>
   </url>
   
   <url>
@@ -119,11 +119,6 @@
   <url>
     <loc>http://icehe.me/note/stanford_startup_course.html</loc>
     <lastmod>2016-03-14T13:19:40.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/bookmarks/</loc>
-    <lastmod>2016-03-14T09:38:07.000Z</lastmod>
   </url>
   
   <url>
@@ -362,6 +357,11 @@
   </url>
   
   <url>
+    <loc>http://icehe.me/c++/C++%20Primer%205th/</loc>
+    <lastmod>2016-02-15T02:52:01.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://icehe.me/c++/C++%20Interview%20Book/</loc>
     <lastmod>2016-02-15T02:52:01.000Z</lastmod>
   </url>
@@ -573,11 +573,6 @@
   
   <url>
     <loc>http://icehe.me/c++/Effective%20C++%20-%20Reading%20Note%201/</loc>
-    <lastmod>2016-02-15T02:52:01.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/c++/C++%20Primer%205th/</loc>
     <lastmod>2016-02-15T02:52:01.000Z</lastmod>
   </url>
   
@@ -1092,7 +1087,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/old_version_posts/time_mgt_log_format.html</loc>
+    <loc>http://icehe.me/categories/index.html</loc>
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
   </url>
   
@@ -1257,7 +1252,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/old_version_posts/Why_and_how_to_build_my_blog.html</loc>
+    <loc>http://icehe.me/old_version_posts/time_mgt_log_format.html</loc>
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
   </url>
   
@@ -1417,7 +1412,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/categories/index.html</loc>
+    <loc>http://icehe.me/old_version_posts/Why_and_how_to_build_my_blog.html</loc>
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
   </url>
   
