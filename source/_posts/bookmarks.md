@@ -59,6 +59,8 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - [常用颜色对照表](http://tool.oschina.net/commons?type=3)、 [网页设计常用色彩搭配表](http://www.divcss5.com/peise/)
 
+- [CSS之各种居中](https://segmentfault.com/a/1190000004260458)
+
 <br/>
 
 #### [Dynamic Cheat Sheets](http://www.cheatography.com/)
@@ -574,6 +576,22 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 - [一个人旅行有哪些必备神器？](https://www.zhihu.com/question/24023171) —— 实用。
 
 - [耳机选购大全：不败家！不白瞎！够用就好？](http://mp.weixin.qq.com/s?__biz=MjM5Njk4OTQwMQ==&amp;mid=401415614&amp;idx=1&amp;sn=16d3206bd1e3f502c4635b5348b151d1&amp;scene=1&amp;srcid=1207BJEB4qWQBFhX3Yq0zXH1#rd) —— 实用主义，极简主义。（好用，便携，高性价比）
+
+<br/>
+
+### __Clothing 衣__
+
+- [男生基本款](https://www.zhihu.com/question/29347945/answer/44802155)
+- [男生长得难看怎么办](https://www.zhihu.com/question/25485795)
+- [25岁后男生的20条基本穿衣准则](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=216957646&amp;idx=1&amp;sn=80e3631d64b405888258ffcb86b8268e&amp;scene=1#rd)
+- [男生如何找准自己的穿衣风格，提升衣着品味？](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=209430380&amp;idx=1&amp;sn=646eb69ae5116a1d634dfa70cdddee10&amp;scene=1#rd)
+- [惊爆！看完后他竟不想再穿羽绒服！](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=210316708&amp;idx=1&amp;sn=e34ae6d411a82d114358f5adac598861&amp;scene=1#rd)
+- [哪一款包可以优雅地放入MacBook、iPad和一些简单的日用品？](https://www.zhihu.com/question/30610574)
+- [知名度不如一线，质量却很好的品牌有哪些？](https://www.zhihu.com/question/35886615)
+- [男鞋二十二条军规](http://mp.weixin.qq.com/s?__biz=MjM5MTEwNTQxMg==&amp;mid=205293619&amp;idx=4&amp;sn=130382a4de42eb7e3099dca2fa320897&amp;scene=1#rd)
+- [惊！只有5款男鞋值得买？ ](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=209636065&amp;idx=1&amp;sn=66fe275dd21dcc2c170d355a992bc580&amp;scene=1#rd)
+- [有哪些双肩包潮牌推荐？](https://www.zhihu.com/question/20494311)
+- [爱美之心 - 收藏夹 - 知乎](https://www.zhihu.com/collection/20333571)
 
 <br/>
 
