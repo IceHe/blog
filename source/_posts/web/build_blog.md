@@ -7,7 +7,7 @@ description: Why初衷、How过程，Hexo建站，Theme主题，Domain Name域�
 
 - *Updated on 2016-01-19*
 
-**上一版**：[Why and How to bulid my blog? 搭建我的个人博客。](/old_version_posts/Why_and_how_to_build_my_blog.html)
+__上一版__：[Why and How to bulid my blog? 搭建我的个人博客。](/old_version_posts/Why_and_how_to_build_my_blog.html)
 
 ## Why - 初衷
 
@@ -32,7 +32,7 @@ description: Why初衷、How过程，Hexo建站，Theme主题，Domain Name域�
 还有，折腾才能学到真东西，
 下文做法、用法从略处，还请自行摸索。 <br/><br/>
 
-### **Intro 引子**
+### __Intro 引子__
 
 非软件、计算机专业的人，自行搭建个人博客其实不难。
 前人早已造好了各种“轮子”，只要根据网上的教程摸索一下，
@@ -57,11 +57,11 @@ description: Why初衷、How过程，Hexo建站，Theme主题，Domain Name域�
 可另行查阅。<br/><br/>
 
 为了让个人博客有足够定制空间的同时，尽可能降低维护成本，
-<u>**我选择了静态博客生成器：[Hexo](http://hexo.io/) !**</u>
+<u>__我选择了静态博客生成器：[Hexo](http://hexo.io/) !__</u>
 
 （有空会找机会再折腾一个动态博客） <br/><br/>
 
-### **Hexo Course 建站教程**
+### __Hexo Course 建站教程__
 
 广泛检索后，参阅了如下教程建站：
 - [hexo系列教程：（二）搭建hexo博客](http://zipperary.com/2013/05/28/hexo-guide-2/)
@@ -81,7 +81,7 @@ description: Why初衷、How过程，Hexo建站，Theme主题，Domain Name域�
 
 前人之述备矣，在此不再赘述基础部分。 <br/><br/>
 
-### **Custom Points 定制点**
+### __Custom Points 定制点__
 
 建站很容易，如果你的需求只是写写文字博客而已，可以到此结束了。
 但如果要完善博客到合乎自己的心意，那将是万里长征的第一步。<br/><br/>
@@ -91,201 +91,201 @@ description: Why初衷、How过程，Hexo建站，Theme主题，Domain Name域�
 让博客支持更多需要的模块、插件、外观效果等。 <br/><br/>
 
 1. #### Theme 主题
-	
-	Theme不单只提供不同的博客外观、视觉效果，
-	**通常还会提供许多功能模块的配套支持！
-	一般包括但不限于：评论、分享、RSS订阅、联系方式、百度/谷歌的统计分析、标签云。**<br/><br/>
 
-	官网上有提供很多第三方主题：[Hexo Themes](https://hexo.io/themes/)
+    Theme不单只提供不同的博客外观、视觉效果，
+    __通常还会提供许多功能模块的配套支持！
+    一般包括但不限于：评论、分享、RSS订阅、联系方式、百度/谷歌的统计分析、标签云。__<br/><br/>
 
-	我选用的是：[WuChong](http://wuchong.me/) 的 [**Jacman**](https://github.com/wuchong/jacman)
-	该主题作者的官方教程：[如何使用 Jacman 主题](http://wuchong.me/blog/2014/11/20/how-to-use-jacman/)
-	
-	Hexo官网的文档和API中有theme写法的说明，
-	可以自己重新写一个theme。 <br/><br/>
-	
+    官网上有提供很多第三方主题：[Hexo Themes](https://hexo.io/themes/)
+
+    我选用的是：[WuChong](http://wuchong.me/) 的 [__Jacman__](https://github.com/wuchong/jacman)
+    该主题作者的官方教程：[如何使用 Jacman 主题](http://wuchong.me/blog/2014/11/20/how-to-use-jacman/)
+
+    Hexo官网的文档和API中有theme写法的说明，
+    可以自己重新写一个theme。 <br/><br/>
+
 2. #### Comment 评论
-	
-	利用第三方社会化评论系统，可以便捷地为博客添加评论模块。
-	这些评论系统可以让你和你的访客在你的博客下添加评论，
-	还能审核、删除、迁移（博客变更后保留评论）、自定义评论框的外观效果等，
-	它们一般都提供足够的定制空间。<br/><br/>
-	
-	推荐：
-	(1) 国内：[多说](http://duoshuo.com/)
-	(2) 国外：[Disqus](https://disqus.com/)
-	
-	具体比较麻烦，一般不推荐自己编写。 <br/><br/>
-	
+
+    利用第三方社会化评论系统，可以便捷地为博客添加评论模块。
+    这些评论系统可以让你和你的访客在你的博客下添加评论，
+    还能审核、删除、迁移（博客变更后保留评论）、自定义评论框的外观效果等，
+    它们一般都提供足够的定制空间。<br/><br/>
+
+    推荐：
+    (1) 国内：[多说](http://duoshuo.com/)
+    (2) 国外：[Disqus](https://disqus.com/)
+
+    具体比较麻烦，一般不推荐自己编写。 <br/><br/>
+
 3. #### Share 分享
-	
-	添加分享模块可以方便自己或他人在第三方的社交平台分享你的博客内容。
-	
-	这还是借助第三方的帮助：
-	它们也会提供许多方便定制选项，
-	懂些HTML、CSS、JavaScript就能深度定制了。<br/><br/>
-	
-	推荐：
-	(1) [百度分享](http://share.baidu.com/)
-	(2) [jiathis](http://www.jiathis.com/)
-	(3) 自己编写（不会太难） <br/><br/>
-	
+
+    添加分享模块可以方便自己或他人在第三方的社交平台分享你的博客内容。
+
+    这还是借助第三方的帮助：
+    它们也会提供许多方便定制选项，
+    懂些HTML、CSS、JavaScript就能深度定制了。<br/><br/>
+
+    推荐：
+    (1) [百度分享](http://share.baidu.com/)
+    (2) [jiathis](http://www.jiathis.com/)
+    (3) 自己编写（不会太难） <br/><br/>
+
 4. #### About 关于页面
-	
-	一般用于介绍博主或博客的页面，
-	例如[我的“Me 我”页面](/about)。<br/><br/>
-	
+
+    一般用于介绍博主或博客的页面，
+    例如[我的“Me 我”页面](/about)。<br/><br/>
+
 5. #### 404 找不到页面
-	
-	当访问一个不存在于博客中的页面时，展示的提示页面。
-	例如[我的“404”页面](/not_found)。
-	
-	推荐：
-	[腾讯公益404](http://www.qq.com/404/) <br/><br/>
-	
+
+    当访问一个不存在于博客中的页面时，展示的提示页面。
+    例如[我的“404”页面](/not_found)。
+
+    推荐：
+    [腾讯公益404](http://www.qq.com/404/) <br/><br/>
+
 6. #### Domain Name 域名
-	
-	有只属于自己的个性化域名，简直自豪感满满，
-	因为终于有自己的个人网站了 T_T
-	
-	分两步：买域名，域名解析。<br/><br/>
-	
-	域名购买推荐：
-	(1) 国内老牌：[万网](http://wanwang.aliyun.com/)（已被阿里收购）
-	(2) 国外老牌：[GoDaddy](https://www.godaddy.com/)
-	(3) 我的选择：[NameCheap](https://www.namecheap.com)
-	
-	想要最低的价格，可以参考域名比价网站[ Domain Price Comparison](https://www.domcomp.com)。
-	推荐阅读知乎问答：[现在去哪里买 .com 域名最便宜？](http://www.zhihu.com/question/19551906)
-	因为买域名不能只考虑价格，还得考虑服务。 <br/><br/>
-	
-	域名解析推荐：
-	(1) 老牌：[万网](http://wanwang.aliyun.com/)（在万网买的域名，可以直接用它）
-	(2) 我的选择：[DNSPod](https://www.dnspod.cn/)（国内、免费、稳定、快速、用户友好）
-	
-	域名解析选择国内运营商，有利于提高国内访客的访问速度。
-	具体配置过程可参考：[购买域名、设置DNS](http://zipperary.com/2013/05/27/domain-name-and-dns/) <br/><br/>
-	
+
+    有只属于自己的个性化域名，简直自豪感满满，
+    因为终于有自己的个人网站了 T_T
+
+    分两步：买域名，域名解析。<br/><br/>
+
+    域名购买推荐：
+    (1) 国内老牌：[万网](http://wanwang.aliyun.com/)（已被阿里收购）
+    (2) 国外老牌：[GoDaddy](https://www.godaddy.com/)
+    (3) 我的选择：[NameCheap](https://www.namecheap.com)
+
+    想要最低的价格，可以参考域名比价网站[ Domain Price Comparison](https://www.domcomp.com)。
+    推荐阅读知乎问答：[现在去哪里买 .com 域名最便宜？](http://www.zhihu.com/question/19551906)
+    因为买域名不能只考虑价格，还得考虑服务。 <br/><br/>
+
+    域名解析推荐：
+    (1) 老牌：[万网](http://wanwang.aliyun.com/)（在万网买的域名，可以直接用它）
+    (2) 我的选择：[DNSPod](https://www.dnspod.cn/)（国内、免费、稳定、快速、用户友好）
+
+    域名解析选择国内运营商，有利于提高国内访客的访问速度。
+    具体配置过程可参考：[购买域名、设置DNS](http://zipperary.com/2013/05/27/domain-name-and-dns/) <br/><br/>
+
 7. #### Sitemap 站点地图 & RSS 订阅
-	
-	站点地图给搜索引擎的爬虫以及网站的订阅者，
-	说明了博客里有哪些链接、文章、页面内容，
-	提高博客在搜索引擎的抓取、收录效果，
-	给关注你博客的朋友，提供了订阅功能。 <br/><br/>
-	
-	具体配置过程可参考：
-	[hexo博客的优化技巧续](http://zipperary.com/2013/06/02/hexo-guide-5/)（推荐结合以下内容阅读）
-	<br/>
-	
+
+    站点地图给搜索引擎的爬虫以及网站的订阅者，
+    说明了博客里有哪些链接、文章、页面内容，
+    提高博客在搜索引擎的抓取、收录效果，
+    给关注你博客的朋友，提供了订阅功能。 <br/><br/>
+
+    具体配置过程可参考：
+    [hexo博客的优化技巧续](http://zipperary.com/2013/06/02/hexo-guide-5/)（推荐结合以下内容阅读）
+    <br/>
+
 8. #### Widget 闲杂模块
-	
-	除了博客的基本功能模块，还有一半需要额外添加的模块。
-	Hexo自带的功能：archive 归档、category 分类、tag 标签。
-	
-	其它的模块，如：[微博秀](http://jssdk.sinaapp.com/widget/weiboshow.php) <br/><br/>
-	
+
+    除了博客的基本功能模块，还有一半需要额外添加的模块。
+    Hexo自带的功能：archive 归档、category 分类、tag 标签。
+
+    其它的模块，如：[微博秀](http://jssdk.sinaapp.com/widget/weiboshow.php) <br/><br/>
+
 9. #### Bed Room 图床
-	
-	顾名思义，存放博客图片的地方。
-	
-	当然，可以直接存放到托管你静态博客代码的平台，
-	但是，它们的代码仓库的空间有限，以后就可能不够用了。
-	所以，你可以申请多个Github、Gitcafe等平台的账户，
-	用新的代码仓库来放额外的图片。 <br/><br/>
-	
-	但是，代码托管平台的访问速度也不够快，
-	会影响博客的加载速度，日后要迁移图片也麻烦。
-	
-	如果放在你的（云）服务器上，
-	动态的服务器也会出现流量和带宽有限的问题。 <br/><br/>
-	
-	所以，
-	博客里的图片，最好挂载到第三方CDN提供商那里，
-	提高博客网页的读取速度，提升访客体验，
-	也方便图片资源的迁移。 <br/><br/>
-	
-	推荐：
-	(1) 老牌：[又拍云](https://www.upyun.com/index.html)（服务好、价格高）
-	(2) 我的选择：[七牛云存储](http://www.qiniu.com/)（国内、免费、方便）
-	<br/>
-	
+
+    顾名思义，存放博客图片的地方。
+
+    当然，可以直接存放到托管你静态博客代码的平台，
+    但是，它们的代码仓库的空间有限，以后就可能不够用了。
+    所以，你可以申请多个Github、Gitcafe等平台的账户，
+    用新的代码仓库来放额外的图片。 <br/><br/>
+
+    但是，代码托管平台的访问速度也不够快，
+    会影响博客的加载速度，日后要迁移图片也麻烦。
+
+    如果放在你的（云）服务器上，
+    动态的服务器也会出现流量和带宽有限的问题。 <br/><br/>
+
+    所以，
+    博客里的图片，最好挂载到第三方CDN提供商那里，
+    提高博客网页的读取速度，提升访客体验，
+    也方便图片资源的迁移。 <br/><br/>
+
+    推荐：
+    (1) 老牌：[又拍云](https://www.upyun.com/index.html)（服务好、价格高）
+    (2) 我的选择：[七牛云存储](http://www.qiniu.com/)（国内、免费、方便）
+    <br/>
+
 10. #### Internal Site Search 站内搜索
-	
-	让访客可以自行搜索博客中感兴趣的内容。
-	
-	百度和Google都有提供站内搜索功能，
-	但是只能是搜索到你博客中被搜索引擎收录到的那部分内容。<br/><br/>
-	
-	对于一个新建的小网站来说，很可能被其收录的内容很少，
-	没有对博客足够齐全的索引，搜索结果差。
-	
-	国内的一般访客也访问不了Google，
-	百度站内搜索的体验也不佳。<br/><br/>
-	
-	推荐：
-	(1) 我的选择：[Google CSE](https://cse.google.com/cse/) 
-	(2) 国外：[Algolia](https://www.algolia.com/)、[Swiftype](https://swiftype.com/)（先免费试用，后收费）
-	(3) 国内：<s>tinysou 微搜索</s>（已停止运营）
-	
-	Google CSE 根据官方的流程一步步来即可；
-	使用本博客导航栏处的搜索框，可查看其中一种显示效果。
-	
-	而 Swiftype 具体配置过程可参考：[利用swiftype为hexo添加站内搜索v2.0](http://www.jerryfu.net/post/search-engine-for-hexo-with-swiftype-v2.html)
-	<br/>
-	
+
+    让访客可以自行搜索博客中感兴趣的内容。
+
+    百度和Google都有提供站内搜索功能，
+    但是只能是搜索到你博客中被搜索引擎收录到的那部分内容。<br/><br/>
+
+    对于一个新建的小网站来说，很可能被其收录的内容很少，
+    没有对博客足够齐全的索引，搜索结果差。
+
+    国内的一般访客也访问不了Google，
+    百度站内搜索的体验也不佳。<br/><br/>
+
+    推荐：
+    (1) 我的选择：[Google CSE](https://cse.google.com/cse/)
+    (2) 国外：[Algolia](https://www.algolia.com/)、[Swiftype](https://swiftype.com/)（先免费试用，后收费）
+    (3) 国内：~~tinysou 微搜索~~（已停止运营）
+
+    Google CSE 根据官方的流程一步步来即可；
+    使用本博客导航栏处的搜索框，可查看其中一种显示效果。
+
+    而 Swiftype 具体配置过程可参考：[利用swiftype为hexo添加站内搜索v2.0](http://www.jerryfu.net/post/search-engine-for-hexo-with-swiftype-v2.html)
+    <br/>
+
 11. #### PV/UV 访问数/访客数的统计与显示
-	
-	统计、显示博客每篇、每个页面的访问数。
-	
-	手段繁多，我参考了这个方法：
-	[使用LeanCloud平台为Hexo博客添加文章浏览量统计组件](http://crescentmoon.info/2014/12/11/popular-widget/)
-	它提供了统计、榜单显示的具体方法。<br/><br/>
-	
-	但是，你可能还需要：
-	在首页文章列表、文章页面上显示该文章的访问次数。
-	
-	具体方法，可以通过查看我博客页面的源代码了解，
-	或者到我的Github查看我的[博客theme的源代码](https://github.com/IceHe/blog_theme_jacman)。 <br/><br/>
-	
-	如果需要整个网站的页面访问量（PV）、独立访客数（UV）的统计与显示，
-	则可以参看这个第三方工具：[不蒜子 - 搞定你的网站计数](http://ibruce.info/2015/04/04/busuanzi/) <br/><br/>
-	
+
+    统计、显示博客每篇、每个页面的访问数。
+
+    手段繁多，我参考了这个方法：
+    [使用LeanCloud平台为Hexo博客添加文章浏览量统计组件](http://crescentmoon.info/2014/12/11/popular-widget/)
+    它提供了统计、榜单显示的具体方法。<br/><br/>
+
+    但是，你可能还需要：
+    在首页文章列表、文章页面上显示该文章的访问次数。
+
+    具体方法，可以通过查看我博客页面的源代码了解，
+    或者到我的Github查看我的[博客theme的源代码](https://github.com/IceHe/blog_theme_jacman)。 <br/><br/>
+
+    如果需要整个网站的页面访问量（PV）、独立访客数（UV）的统计与显示，
+    则可以参看这个第三方工具：[不蒜子 - 搞定你的网站计数](http://ibruce.info/2015/04/04/busuanzi/) <br/><br/>
+
 12. #### Site Analysis 网站分析服务
-	
-	帮助你去统计分析网站的各类数据，
-	包括且不限于查看UV、PV、IP数、来源网站、入口页面、受访页面、
-	访客地区、设备、系统、忠诚度，抓取网站收录到搜索引擎，提供seo优化建议等的服务。<br/><br/>
-	
-	推荐：
-	(1) [Google Analytics](http://www.google.com/analytics/)
-	(2) [百度统计](http://tongji.baidu.com/web/welcome/login)
-	
-	最好两个同时使用，还有它们的站长工具，体会其中的差异，
-	而且它们会派爬虫去抓取你的博客，其结果将会收录到搜索引擎~ <br/><br/>
-	
+
+    帮助你去统计分析网站的各类数据，
+    包括且不限于查看UV、PV、IP数、来源网站、入口页面、受访页面、
+    访客地区、设备、系统、忠诚度，抓取网站收录到搜索引擎，提供seo优化建议等的服务。<br/><br/>
+
+    推荐：
+    (1) [Google Analytics](http://www.google.com/analytics/)
+    (2) [百度统计](http://tongji.baidu.com/web/welcome/login)
+
+    最好两个同时使用，还有它们的站长工具，体会其中的差异，
+    而且它们会派爬虫去抓取你的博客，其结果将会收录到搜索引擎~ <br/><br/>
+
 13. #### Speed Optimize 访问速度优化
-	
-	手段繁多，
-	除了上文提到的将图片放到CDN服务商那里的方法外，
-	css文件、js脚本等也可以放到CDN那里，
-	把静态网站托管到更访问速度更好的平台（也包括CDN）上，
-	压缩图片到适当大小，优化theme、js脚本的代码……
-	在此不赘述。
-	
-	[托管博客到gitcafe](http://zipperary.com/2013/11/23/hexo-to-gitcafe/)比较便捷。 <br/><br/>
-	
+
+    手段繁多，
+    除了上文提到的将图片放到CDN服务商那里的方法外，
+    css文件、js脚本等也可以放到CDN那里，
+    把静态网站托管到更访问速度更好的平台（也包括CDN）上，
+    压缩图片到适当大小，优化theme、js脚本的代码……
+    在此不赘述。
+
+    [托管博客到gitcafe](http://zipperary.com/2013/11/23/hexo-to-gitcafe/)比较便捷。 <br/><br/>
+
 14. #### Ad 卖流量（广告）
-	
-	当你的网站做得一级棒，流量很大（访客很多）的时候，
-	就就可以靠卖广告挣点外快了，挣回网站的维护成本，
-	甚至养活自己，发大财￥<br/><br/>
-	
-	推荐：
-	(1) [Google AdSense](http://www.google.cn/intl/zh-CN/ads/ads_1.html)
-	(2) [百度广告](http://adm.baidu.com/index.html)
-	
-	还有很多其它广告平台，可自行查阅。 <br/><br/>
-	
+
+    当你的网站做得一级棒，流量很大（访客很多）的时候，
+    就就可以靠卖广告挣点外快了，挣回网站的维护成本，
+    甚至养活自己，发大财￥<br/><br/>
+
+    推荐：
+    (1) [Google AdSense](http://www.google.cn/intl/zh-CN/ads/ads_1.html)
+    (2) [百度广告](http://adm.baidu.com/index.html)
+
+    还有很多其它广告平台，可自行查阅。 <br/><br/>
+
 围绕上述各点，折腾了不少时间，
 当然也学到许多新的知识。 <br/><br/>
 
@@ -302,7 +302,7 @@ description: Why初衷、How过程，Hexo建站，Theme主题，Domain Name域�
 - Theme Author —— [WuChong](http://wuchong.me/)
 
 ### About Me 关于
-This's my [**brief intro**](/about). 这是我的[ **简介** ](/about)。
+This's my [__brief intro__](/about). 这是我的[ __简介__ ](/about)。
 
-**Thx for your reading. 感谢您的阅读。**
+__Thx for your reading. 感谢您的阅读。__
 <br/>
