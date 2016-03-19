@@ -244,7 +244,7 @@
 <li>「14」 <a href="/asm/Assembly Language - Note 14/">用 BIOS 进行键盘输入和磁盘读写，及相关实验</a></li>
 <li>「15」 <a href="/asm/Assembly Language - Note 15/">附录内容：汇编编译器对jmp的处理，地址计数器（AC），处理伪操作指令，栈传递参数，无溢出除法…</a></li>
 </ul>
-<h3 id="Mine"><strong><a href="/about/">Mine</a></strong></h3><p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#x6d;&#97;&#x69;&#x6c;&#116;&#111;&#x3a;&#120;&#x40;&#105;&#x63;&#101;&#x68;&#x65;&#x2e;&#109;&#101;">&#120;&#x40;&#105;&#x63;&#101;&#x68;&#x65;&#x2e;&#109;&#101;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
+<h3 id="Mine"><strong><a href="/about/">Mine</a></strong></h3><p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#x6d;&#97;&#x69;&#108;&#116;&#x6f;&#58;&#120;&#x40;&#x69;&#x63;&#101;&#x68;&#x65;&#46;&#x6d;&#x65;">&#120;&#x40;&#x69;&#x63;&#101;&#x68;&#x65;&#46;&#x6d;&#x65;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
 <h3 id="Others"><strong>Others</strong></h3><ul>
 <li>The article with superscript <sup><strong>me</strong></sup>&nbsp; implies it’s <code>about me</code>.</li>
 <li>… <sup><em>todo</em></sup>&nbsp; implies … <code>not completed</code>.</li>
@@ -2009,7 +2009,7 @@
     <link href="http://icehe.me/favourites/"/>
     <id>http://icehe.me/favourites/</id>
     <published>2015-11-18T16:00:00.000Z</published>
-    <updated>2016-03-19T11:17:43.000Z</updated>
+    <updated>2016-03-19T11:59:00.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li><em>Updated on 2016-03-19</em></li>
 </ul>
@@ -2174,6 +2174,9 @@
 </li>
 <li><p><a href="http://zhuanlan.zhihu.com/edisonlab" target="_blank" rel="external">爱迪生商业实验室</a></p>
 <p>  商业独见。</p>
+</li>
+<li><p><a href="http://chuansong.me/account/Professor-Li" target="_blank" rel="external">李叫兽</a></p>
+<p>  商业，文案。</p>
 </li>
 </ul>
 <p><br></p>
