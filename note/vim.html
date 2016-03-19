@@ -17,7 +17,9 @@
 	<meta name="description" content="vim下unix和dos格式转换Vim取消粘贴的智能缩进Vim 字符编码转换VIM学习笔记 寄存器 (Registers)vim全局替换命令
 我在用的mac软件(1)–终端环境之iTerm2文本三巨头：zsh、tmux 和 vim
 Vim Note胡波给的帮助我排除vim疑难bug的方法：
-1--noplugins -u NONE&amp;#10;&amp;#10;%s/xxx/yyy/g &amp;#25991;&amp;#2">
+–noplugins -u NONE
+%s/xxx/yyy/g 文件全局替换
+无行号 set nonu设置行">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Vim Note">
 <meta property="og:url" content="http://icehe.me/note/vim.html">
@@ -25,14 +27,18 @@ Vim Note胡波给的帮助我排除vim疑难bug的方法：
 <meta property="og:description" content="vim下unix和dos格式转换Vim取消粘贴的智能缩进Vim 字符编码转换VIM学习笔记 寄存器 (Registers)vim全局替换命令
 我在用的mac软件(1)–终端环境之iTerm2文本三巨头：zsh、tmux 和 vim
 Vim Note胡波给的帮助我排除vim疑难bug的方法：
-1--noplugins -u NONE&amp;#10;&amp;#10;%s/xxx/yyy/g &amp;#25991;&amp;#2">
-<meta property="og:updated_time" content="2016-03-16T07:18:12.000Z">
+–noplugins -u NONE
+%s/xxx/yyy/g 文件全局替换
+无行号 set nonu设置行">
+<meta property="og:updated_time" content="2016-03-18T09:14:27.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Vim Note">
 <meta name="twitter:description" content="vim下unix和dos格式转换Vim取消粘贴的智能缩进Vim 字符编码转换VIM学习笔记 寄存器 (Registers)vim全局替换命令
 我在用的mac软件(1)–终端环境之iTerm2文本三巨头：zsh、tmux 和 vim
 Vim Note胡波给的帮助我排除vim疑难bug的方法：
-1--noplugins -u NONE&amp;#10;&amp;#10;%s/xxx/yyy/g &amp;#25991;&amp;#2">
+–noplugins -u NONE
+%s/xxx/yyy/g 文件全局替换
+无行号 set nonu设置行">
 
   
   <link rel="alternative" href="/atom.xml" title="Ice He 何志远" type="application/atom+xml">
@@ -148,7 +154,7 @@ Vim Note胡波给的帮助我排除vim疑难bug的方法：
     
   </p>
   <p class="article-time">
-    <time datetime="2016-03-16T07:18:12.000Z" itemprop="datePublished"> Published 2016 Mar 16</time>
+    <time datetime="2016-03-18T09:14:27.000Z" itemprop="datePublished"> Published 2016 Mar 18</time>
   </p>
 </header>
 	<div class="article-content">
@@ -163,7 +169,49 @@ Vim Note胡波给的帮助我排除vim疑难bug的方法：
 		<p><a href="http://www.2cto.com/os/201309/244729.html" target="_blank" rel="external">vim下unix和dos格式转换</a><br><a href="http://www.cnblogs.com/end/archive/2012/06/01/2531147.html" target="_blank" rel="external">Vim取消粘贴的智能缩进</a><br><a href="http://www.cnblogs.com/jaiho/archive/2011/08/24/2056375.html" target="_blank" rel="external">Vim 字符编码转换</a><br><a href="http://yyq123.blogspot.hk/2010/10/vim-registers.html" target="_blank" rel="external">VIM学习笔记 寄存器 (Registers)</a><br><a href="http://andyss.blog.51cto.com/315552/131652" target="_blank" rel="external">vim全局替换命令</a></p>
 <p><a href="http://foocoder.com/blog/wo-zai-yong-de-macruan-jian.html/" target="_blank" rel="external">我在用的mac软件(1)–终端环境之iTerm2</a><br><a href="http://blog.jobbole.com/86571/" target="_blank" rel="external">文本三巨头：zsh、tmux 和 vim</a></p>
 <h1 id="Vim_Note">Vim Note</h1><p>胡波给的帮助我排除vim疑难bug的方法：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">--noplugins -u NONE&#10;&#10;%s/xxx/yyy/g &#25991;&#20214;&#20840;&#23616;&#26367;&#25442;&#10;&#10;&#26080;&#34892;&#21495; set nonu&#10;&#35774;&#32622;&#34892;&#21495; set nu&#10;&#10;&#22240;&#20026;&#65292;Vim&#25554;&#20214;&#26368;&#21518;&#20915;&#23450;&#23436;&#20840;&#37319;&#29992;spf13&#30340;&#37197;&#32622;&#65281;&#10;&#25152;&#20197;&#65292;&#20197;&#21518;&#23601;&#21435;&#26597;&#30475;&#30340;&#23448;&#26041;&#32593;&#31449;&#21363;&#21487;&#65281;&#10;&#10;&#25554;&#20837;&#27169;&#24335;&#19979;&#10;Ctrl+w     &#21024;&#38500;&#20809;&#26631;&#24038;&#36793;&#30340;&#21333;&#35789;&#10;Ctrl+h     &#21024;&#38500;&#20809;&#26631;&#24038;&#36793;&#30340;&#23383;&#10;Ctrl+a     &#36755;&#20837;&#19978;&#19968;&#27425;&#25554;&#20837;&#27169;&#24335;&#36755;&#20837;&#30340;&#23383;&#31526;&#20018;&#10;Ctrl+r 0     &#31896;&#36148;&#10;Ctrl+r *     &#20174;&#31995;&#32479;&#21098;&#20999;&#26495;&#20013;&#31896;&#36148;&#10;Ctrl+r &#60;&#23492;&#23384;&#22120;&#21517;&#31216;&#62;     &#20174;&#30456;&#24212;&#23492;&#23384;&#22120;&#20013;&#21462;&#24471;&#20869;&#23481;&#36827;&#34892;&#31896;&#36148;&#10;Ctrl+o &#8230;     &#25353;&#23427;&#20043;&#21518;&#25191;&#34892;&#19968;&#20010;&#26222;&#36890;&#27169;&#24335;&#19979;&#30340;&#25351;&#20196;&#65292;&#28982;&#21518;&#20250;&#22238;&#21040;&#25554;&#20837;&#27169;&#24335;&#10;&#10;&#25991;&#26412;&#26367;&#25442;&#10;&#20351;&#29992; :s/&#27491;&#21017;&#34920;&#36798;&#24335;/&#26367;&#25442;&#25991;&#26412;/ &#21487;&#22312;&#26412;&#34892;&#20869;&#26367;&#25442;&#39318;&#27425;&#20986;&#29616;&#30340;&#21305;&#37197;&#10;&#20351;&#29992; :s/&#27491;&#21017;&#34920;&#36798;&#24335;/&#26367;&#25442;&#25991;&#26412;/g &#22312;&#26412;&#34892;&#20869;&#26367;&#25442;&#25152;&#26377;&#20986;&#29616;&#30340;&#21305;&#37197;&#10;&#20351;&#29992; :%s/&#27491;&#21017;&#34920;&#36798;&#24335;/&#26367;&#25442;&#25991;&#26412;/g &#22312;&#24403;&#21069;&#25991;&#20214;&#20869;&#26367;&#25442;&#25152;&#26377;&#20986;&#29616;&#30340;&#21305;&#37197;&#10;&#10;vim&#20195;&#30721;&#25240;&#21472;&#10;&#25240;&#21472;&#26041;&#24335;&#65306;fdm&#10;&#10;Insert&#31561;&#27169;&#24335;&#19979;&#65292;&#10;Ctrl+v Tab&#10;&#25165;&#33021;&#25104;&#21151;&#36755;&#20837;\t&#10;&#10;&#25105;&#19968;&#19968;&#33324;&#20351;&#29992;marker&#26041;&#24335;: set fdm=marker&#10;&#10;&#40664;&#35748;&#30340;marker&#26159;&#123;&#123;&#123;&#21644;&#125;&#125;&#125;&#65292;&#21487;&#20197;&#35774;&#32622;&#20026;&#20854;&#20182;&#65306;set foldmarker=//l,//c &#65288;&#24320;&#22987;&#26631;&#31614;//l &#20851;&#38381;&#26631;&#31614;//c&#65289;&#10;&#10;zc &#25240;&#21472;&#24403;&#21069;marker&#10;zo &#23637;&#24320;&#24403;&#21069;marker&#10;zC &#22312;&#25152;&#22312;&#33539;&#22260;&#20869;&#65292;&#36882;&#24402;&#25240;&#21472;&#25152;&#26377;&#10;zO &#22312;&#25152;&#22312;&#33539;&#22260;&#20869;&#65292;&#36882;&#24402;&#23637;&#24320;&#25152;&#26377;x&#10;zr &#23559;&#20840;&#25991;&#30340;&#25152;&#26377;&#25240;&#30090;&#20381;&#23652;&#27425;&#36890;&#36890;&#25171;&#38283;&#12290;reduce&#12290;&#10;zm &#23559;&#20840;&#25991;&#24050;&#25171;&#38283;&#30340;&#25240;&#30090;&#20381;&#23652;&#27425;&#36890;&#36890;&#20877;&#25240;&#30090;&#36215;&#20358;&#12290;more&#12290;&#10;&#10;zR &#20316;&#29992;&#21644; zr &#21516;&#65292;&#20294;&#26371;&#25171;&#38283;&#21547;&#24034;&#29376;&#25240;&#30090;&#65288;&#25240;&#30090;&#20013;&#21448;&#36996;&#26377;&#25240;&#30090;&#65289;&#30340;&#25152;&#26377;&#25240;&#30090;&#12290;&#10;zM &#20316;&#29992;&#21644; zm &#21516;&#65292;&#20294;&#23565;&#26044;&#24034;&#29376;&#25240;&#30090;&#20134;&#26377;&#20316;&#29992;&#12290;&#10;zi &#36889;&#26159;&#20491;&#20999;&#25563;&#65292;&#26159;&#25240;&#30090;&#33287;&#19981;&#25240;&#30090;&#25351;&#20196;&#38291;&#30340;&#20999;&#25563;&#12290;&#10;&#10;zd &#21024;&#38500;&#25240;&#21472;&#10;zD &#21024;&#38500;&#25152;&#26377;&#25240;&#21472;&#10;&#10;zn &#25171;&#38283;&#20840;&#25991;&#30340;&#25152;&#26377;&#25240;&#30090;&#12290;fold none&#12290;&#10;zN &#36889;&#26159; zn &#30340;&#30456;&#23565;&#25351;&#20196;&#65292;&#22238;&#24489;&#25152;&#26377;&#30340;&#25240;&#30090;&#12290;&#10;&#10;[z &#21040;&#25240;&#21472;&#24320;&#22987;&#22788;&#10;z[ &#21040;&#25240;&#21472;&#26411;&#23614;&#22788;&#10;&#10;zj &#19979;&#19968;&#20010;&#25240;&#21472;&#30340;&#24320;&#22987;&#22788;&#10;zk &#19978;&#19968;&#20010;&#25240;&#21472;&#30340;&#26411;&#23614;&#10;&#10;&#36824;&#26159;&#25918;&#21040;~/.vimrc&#20013;&#21543;&#10;set fdm=marker&#10;set foldmarker=//&#123;,//&#125;&#10;&#10;&#21462;&#28040;&#21305;&#37197; &#30340;&#24555;&#25463;&#38190;&#10;&#60;leader&#62; /&#10;&#10;Toggle comments&#10;&#60;Leader&#62;c&#60;space&#62;&#10;&#10;Surround&#10;if the cursor was inside &#34;foo bar&#34;, you could type cs&#34;&#39; to convert the text to &#39;foo bar&#39;&#10;&#10;Tagbar tag generation and navigation&#10;&#10;spf13-vim includes the Tagbar plugin. This plugin requires exuberant-ctags and will automatically generate tags for your open files. It also provides a panel to navigate easily via tags&#10;&#10;QuickStart CTRL-] while the cursor is on a keyword (such as a function name) to jump to it&#39;s definition.&#10;&#10;Customizations: spf13-vim binds &#60;Leader&#62;tt to toggle the tagbar panel&#10;&#10;Note: For full language support, run brew install ctags to install exuberant-ctags.&#10;&#10;Tip: Check out :help ctags for information about VIM&#39;s built-in ctag support. Tag navigation creates a stack which can traversed via Ctrl-] (to find the source of a token) and Ctrl-T (to jump back up one level).&#10;&#10;Fugitive deep git integration&#10;&#10;Fugitive adds pervasive git support to git directories in vim. For more information, use :help fugitive&#10;&#10;Use :Gstatus to view git status and type - on any file to stage or unstage it. Type p on a file to enter git add -p and stage specific hunks in the file.&#10;&#10;Use :Gdiff on an open file to see what changes have been made to that file&#10;&#10;Customizations:&#10;&#10;- &#60;leader&#62;gs :Gstatus&#10;- &#60;leader&#62;gd :Gdiff&#10;- &#60;leader&#62;gc :Gcommit&#10;- &#60;leader&#62;gb :Gblame&#10;- &#60;leader&#62;gl :Glog&#10;- &#60;leader&#62;gp :Git push&#10;- :Git ___ will pass anything along to git.&#10;&#10;NERDTree&#10;&#25171;&#24320; &#60;leader&#62; e&#10;&#25171;&#24320;&#38;&#20851;&#38381; ^e&#34;</span><br></pre></td></tr></table></figure>
+<p>–noplugins -u NONE</p>
+<p>%s/xxx/yyy/g 文件全局替换</p>
+<p>无行号 set nonu<br>设置行号 set nu</p>
+<p>因为，Vim插件最后决定完全采用spf13的配置！<br>所以，以后就去查看的官方网站即可！</p>
+<p>插入模式下<br>Ctrl+w     删除光标左边的单词<br>Ctrl+h     删除光标左边的字<br>Ctrl+a     输入上一次插入模式输入的字符串<br>Ctrl+r 0     粘贴<br>Ctrl+r *     从系统剪切板中粘贴<br>Ctrl+r &lt;寄存器名称&gt;     从相应寄存器中取得内容进行粘贴<br>Ctrl+o …     按它之后执行一个普通模式下的指令，然后会回到插入模式</p>
+<p>文本替换<br>使用 :s/正则表达式/替换文本/ 可在本行内替换首次出现的匹配<br>使用 :s/正则表达式/替换文本/g 在本行内替换所有出现的匹配<br>使用 :%s/正则表达式/替换文本/g 在当前文件内替换所有出现的匹配</p>
+<p>vim代码折叠<br>折叠方式：fdm</p>
+<p>Insert等模式下，<br>Ctrl+v Tab<br>才能成功输入\t</p>
+<p>我一一般使用marker方式: set fdm=marker</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#40664;&#35748;&#30340;marker&#26159;&#123;&#123;&#123;&#21644;&#125;&#125;&#125;&#65292;&#21487;&#20197;&#35774;&#32622;&#20026;&#20854;&#20182;&#65306;set foldmarker=//l,//c &#65288;&#24320;&#22987;&#26631;&#31614;//l &#20851;&#38381;&#26631;&#31614;//c&#65289;</span><br></pre></td></tr></table></figure>
+<p>zc 折叠当前marker<br>zo 展开当前marker<br>zC 在所在范围内，递归折叠所有<br>zO 在所在范围内，递归展开所有x<br>zr 將全文的所有折疊依層次通通打開。reduce。<br>zm 將全文已打開的折疊依層次通通再折疊起來。more。</p>
+<p>zR 作用和 zr 同，但會打開含巢狀折疊（折疊中又還有折疊）的所有折疊。<br>zM 作用和 zm 同，但對於巢狀折疊亦有作用。<br>zi 這是個切換，是折疊與不折疊指令間的切換。</p>
+<p>zd 删除折叠<br>zD 删除所有折叠</p>
+<p>zn 打開全文的所有折疊。fold none。<br>zN 這是 zn 的相對指令，回復所有的折疊。</p>
+<p>[z 到折叠开始处<br>z[ 到折叠末尾处</p>
+<p>zj 下一个折叠的开始处<br>zk 上一个折叠的末尾</p>
+<p>还是放到~/.vimrc中吧<br>set fdm=marker<br>set foldmarker=//{,//}</p>
+<p>取消匹配 的快捷键</p>
+<p><leader> /</leader></p>
+<p>Toggle comments</p>
+<p><leader>c<space></space></leader></p>
+<p>Surround<br>if the cursor was inside “foo bar”, you could type cs”‘ to convert the text to ‘foo bar’</p>
+<p>Tagbar tag generation and navigation</p>
+<p>spf13-vim includes the Tagbar plugin. This plugin requires exuberant-ctags and will automatically generate tags for your open files. It also provides a panel to navigate easily via tags</p>
+<p>QuickStart CTRL-] while the cursor is on a keyword (such as a function name) to jump to it’s definition.</p>
+<p>Customizations: spf13-vim binds <leader>tt to toggle the tagbar panel</leader></p>
+<p>Note: For full language support, run brew install ctags to install exuberant-ctags.</p>
+<p>Tip: Check out :help ctags for information about VIM’s built-in ctag support. Tag navigation creates a stack which can traversed via Ctrl-] (to find the source of a token) and Ctrl-T (to jump back up one level).</p>
+<p>Fugitive deep git integration</p>
+<p>Fugitive adds pervasive git support to git directories in vim. For more information, use :help fugitive</p>
+<p>Use :Gstatus to view git status and type - on any file to stage or unstage it. Type p on a file to enter git add -p and stage specific hunks in the file.</p>
+<p>Use :Gdiff on an open file to see what changes have been made to that file</p>
+<p>Customizations:</p>
+<ul>
+<li><leader>gs :Gstatus</leader></li>
+<li><leader>gd :Gdiff</leader></li>
+<li><leader>gc :Gcommit</leader></li>
+<li><leader>gb :Gblame</leader></li>
+<li><leader>gl :Glog</leader></li>
+<li><leader>gp :Git push</leader></li>
+<li>:Git ___ will pass anything along to git.</li>
+</ul>
+<p>NERDTree<br>打开 <leader> e<br>打开&amp;关闭 ^e”</leader></p>
   
 	</div>
 		<footer class="article-footer clearfix">

@@ -7,35 +7,38 @@
   <meta charset="UTF-8">
   
 
-	<title>编写可读代码的艺术 - Note | Ice He 何志远</title>
+	<title>Eclipse - Shortcuts | Ice He 何志远</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 	
 	<meta name="author" content="IceHe何志远">
 	
 
 	
-	<meta name="description" content="下面是一些例子，这些单词更有表现力，可能适合你的语境：
-单词 / 更多选择send /deliver、dispatch、announce、distribute、route
-find /search、extract、locate、recover
-start /launch、create、begin、open
-make /create、set up、build、generate、compose、add">
+	<meta name="description" content="alt + 鼠标左键选择 ：选中方形区域内的文字等(word)alt + d : 选中地址栏
+
+Hot Key - Zend Studio / Eclipse：
+
+Ctrl+Shift+L 快捷键清单
+Ctrl+D 删除当前行Ctrl+K / Ctrl++Shift+K 参照选中的Word快速定位到下一个Ctrl+Shift+&amp;gt; Matching Tag(类同上)，切换到对应的标签处！Ctr">
 <meta property="og:type" content="website">
-<meta property="og:title" content="编写可读代码的艺术 - Note">
-<meta property="og:url" content="http://icehe.me/note/编写可读代码的艺术.html">
+<meta property="og:title" content="Eclipse - Shortcuts">
+<meta property="og:url" content="http://icehe.me/note/eclipse_shortcuts.html">
 <meta property="og:site_name" content="Ice He 何志远">
-<meta property="og:description" content="下面是一些例子，这些单词更有表现力，可能适合你的语境：
-单词 / 更多选择send /deliver、dispatch、announce、distribute、route
-find /search、extract、locate、recover
-start /launch、create、begin、open
-make /create、set up、build、generate、compose、add">
-<meta property="og:updated_time" content="2016-03-14T13:56:38.000Z">
+<meta property="og:description" content="alt + 鼠标左键选择 ：选中方形区域内的文字等(word)alt + d : 选中地址栏
+
+Hot Key - Zend Studio / Eclipse：
+
+Ctrl+Shift+L 快捷键清单
+Ctrl+D 删除当前行Ctrl+K / Ctrl++Shift+K 参照选中的Word快速定位到下一个Ctrl+Shift+&amp;gt; Matching Tag(类同上)，切换到对应的标签处！Ctr">
+<meta property="og:updated_time" content="2016-03-18T04:09:06.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="编写可读代码的艺术 - Note">
-<meta name="twitter:description" content="下面是一些例子，这些单词更有表现力，可能适合你的语境：
-单词 / 更多选择send /deliver、dispatch、announce、distribute、route
-find /search、extract、locate、recover
-start /launch、create、begin、open
-make /create、set up、build、generate、compose、add">
+<meta name="twitter:title" content="Eclipse - Shortcuts">
+<meta name="twitter:description" content="alt + 鼠标左键选择 ：选中方形区域内的文字等(word)alt + d : 选中地址栏
+
+Hot Key - Zend Studio / Eclipse：
+
+Ctrl+Shift+L 快捷键清单
+Ctrl+D 删除当前行Ctrl+K / Ctrl++Shift+K 参照选中的Word快速定位到下一个Ctrl+Shift+&amp;gt; Matching Tag(类同上)，切换到对应的标签处！Ctr">
 
   
   <link rel="alternative" href="/atom.xml" title="Ice He 何志远" type="application/atom+xml">
@@ -140,7 +143,7 @@ make /create、set up、build、generate、compose、add">
 		<header class="article-info clearfix">
   <h1 itemprop="name" class="article-title">
     
-      <a href="/note/编写可读代码的艺术.html" title="编写可读代码的艺术 - Note" itemprop="url" class="article-url">编写可读代码的艺术 - Note</a>
+      <a href="/note/eclipse_shortcuts.html" title="Eclipse - Shortcuts" itemprop="url" class="article-url">Eclipse - Shortcuts</a>
   </h1>
   <p class="article-readtimes">
     Read ( <span class="readtimes">?</span> )
@@ -151,7 +154,7 @@ make /create、set up、build、generate、compose、add">
     
   </p>
   <p class="article-time">
-    <time datetime="2016-03-14T13:56:38.000Z" itemprop="datePublished"> Published 2016 Mar 14</time>
+    <time datetime="2016-03-18T04:09:06.000Z" itemprop="datePublished"> Published 2016 Mar 18</time>
   </p>
 </header>
 	<div class="article-content">
@@ -163,55 +166,24 @@ make /create、set up、build、generate、compose、add">
 		
 		</div>
 		
-		<p>下面是一些例子，这些单词更有表现力，可能适合你的语境：</p>
-<p>单词 / 更多选择<br>send /<br>deliver、dispatch、announce、distribute、route</p>
-<p>find /<br>search、extract、locate、recover</p>
-<p>start /<br>launch、create、begin、open</p>
-<p>make /<br>create、set up、build、generate、compose、add、new</p>
-<p>用具体的名字代替抽象的名字</p>
-<p>在这种情况下，使用更精确的名字可能会有帮助。<br>如果不把循环索引命名为（i、j、k），<br>另一个选择可以是（club_i、members_i、user_i）<br>或者，更简化一点（ci、mi、ui）。</p>
-<p>这种方式会帮助把代码中的缺陷变得更明显：<br>if (clubs[ci].members[ui] == users[mi])</p>
-<p>#缺陷！第一个字母不匹配。</p>
-<p>如果用得正确，索引的第一个字母应该与数据的第一个字符匹配：<br>if (clubs[ci].members[mi] == users[ui])</p>
-<p>#OK。首字母匹配。</p>
-<p>DISALLOW_EVIL_CONSTRUCTORS这个名字并不是很好。<br>对于“邪恶”这个词的使用包含了对于一个有争议话题过于强烈的立场。<br>更重要的是，这个宏到底禁止了什么这一点是不清楚的。<br>它禁止了operator=()方法，但这个方法甚至根本就不是构造函数！<br>这个名字使用了几年，但最终换成了一个不那么嚣张而且更具体的名字：</p>
-<p>#define DISALLOW_COPY_AND_ASSIGN(ClassName) …</p>
-<p>让计量单位明确</p>
-<p>var start = (new Date()).getTime(); // top of the page<br>…<br>var elapsed = (new Date()).getTime() - start; // bottom of the page<br>document.writeln(“Load time was: “ + elapsed + “ seconds”);</p>
-<p>这段代码里没有明显的错误，但它不能正常运行，<br>因为getTime()会返回毫秒而非秒。<br>通过给变量结尾追加_ms，我们可以让所有的地方更明确：<br>var start_ms = (new Date()).getTime(); // top of the page<br>…<br>var elapsed_ms = (new Date()).getTime() - start_ms; // bottom of the page<br>document.writeln(“Load time w</p>
-<p>函数参数 / 带单位的参数<br>Start(int delay)<br>delay → delay_secs<br>CreateCache(int size)<br>size → size_mb<br>ThrottleDownload(float limit)<br>limit → max_kbps<br>Rotate(float angle)<br>angle → degrees_cw</p>
-<p>让代码隐含的前提显而易见</p>
-<p>下表给出更多需要给名字附加上额外信息的例子：<br>情形 / 量名 / 更好的名字<br>一个“纯文本”格式的密码，需要加密后才能进一步使用<br>password<br>plaintext_password<br>一条用户提供的注释，需要转义之后才能用于显示<br>comment<br>unescaped_comment<br>已转化为UTF-8格式的html字节<br>html<br>html_utf8<br>以“url方式编码”的输入数据<br>data<br>data_urlenc</p>
-<p>在小的作用域里可以使用短的名字<br>当你去短期度假时，你带的行李通常会比长假少。<br>同样，“作用域”小的标识符（对于多少行其他代码可见）也不用带上太多信息。<br>也就是说，因为所有的信息（变量的类型、它的初值、如何析构等）都很容易看到，所以可以用很短的名字。</p>
-<p>if (debug) {<br> map<string,int> m;<br> LookUpNamesNumbers(&amp;m);<br> Print(m);</string,int></p>
-<p>}</p>
-<p>尽管m这个名字并没有包含很多信息，但这不是个问题。因为读者已经有了需要理解这段代码的所有信息。</p>
-<p>变量名太长，通过现代编辑器的自动补全功能，<br>即可简单解决，让起长名没有了借口。</p>
-<p>第一章小结</p>
-<p>使用专业的单词——例如，不用Get，而用Fetch或者Download可能会更好，这由上下文决定。</p>
-<p>避免空泛的名字，像tmp和retval，除非使用它们有特殊的理由。</p>
-<p>使用具体的名字来更细致地描述事物——Server Can Start()这个名字就比CanListenOnPort更不清楚。</p>
-<p>给变量名带上重要的细节——例如，在值为毫秒的变量后面加上<em>ms，或者在还需要转义的，未处理的变量前面加上raw</em>。</p>
-<p>为作用域大的名字采用更长的名字——不要用让人费解的一个或两个字母的名字来命名在几屏之间都可见的变量。对于只存在于几行之间的变量用短一点的名字更好。</p>
-<p>有目的地使用大小写、下划线等——例如，你可以在类成员和局部变量后面加上”_”来区分它们。</p>
-<p>第二章<br>关键思想<br>要多问自己几遍：“这个名字会被别人解读成其他的含义吗？”要仔细审视这个名字。</p>
-<p>推荐用min和max来表示（包含）极限<br>建议：命名极限最清楚的方式是在要限制的东西前加上max<em>或者min</em>。</p>
-<p>推荐用first和last来表示包含的范围</p>
-<p>推荐用begin和end来表示包含/排除范围</p>
-<p>布尔变量</p>
-<p>下面是个危险的例子：<br>bool read_password = true;<br>这会有两种截然不同的解释：<br>我们需要读取密码。<br>已经读取了密码。<br>在本例中，最好避免用“read”这个词，用need_password或者user_is_authenticated这样的名字来代替。<br>通常来讲，加上像is、has、can或should这样的词，可以把布尔值变得更明确。<br>最好避免使用反义名字。例如，不要用：<br>bool disable_ssl = false;<br>而更简单易读（而且更紧凑）的表示方式是：<br>bool use_ssl = true;</p>
-<p>getMean()的实现是要遍历所有经过的数据并同时计算中值。如果有大量的数据的话，这样的一步可能会有很大的代价！但一个容易轻信的程序员可能会随意地调用getMean()，还以为这是个没什么代价的调用。<br>相反，这个方法应当重命名为像computeMean()这样的名字，后者听起来更像是有些代价的操作。（另一种做法是，用新的实现方法使它真的成为一个轻量级的操作。）</p>
-<p>下面是一个来自C++标准库中的例子。曾经有个很难发现的缺陷，使得我们的一台服务器慢得像蜗牛在爬，就是下面的代码造成的：<br>void ShrinkList(list<node>&amp; list, int max_size) {<br>    while (list.size() &gt; max_size) {<br>    FreeNode(list.back());<br>    list.pop_back();</node></p>
-<pre><code>}
-</code></pre><p>}<br>这里的“缺陷”是，作者不知道list.size()是一个O(n)操作——它要一个节点一个节点地历数列表，而不是只返回一个事先算好的个数，这就使得ShrinkList()成了一个O(n2)操作。</p>
-<p>假使size()的名字是countSize()或者countElements()，很可能就会避免相同的错误。C++标准库的作者可能是希望把它命名为size()以和所有其他的容器一致，就像vector和map。但是正因为他们的这个选择使得程序员很容易误把它当成一个快速的操作，就像其他的容器一样。</p>
-<p>将代码按照逻辑分块排序，使其清晰</p>
-<p>代码风格的一致性，比其风格正确性重要得多！<br>宁可遵守，不要随便打破。</p>
-<p>第二章小结</p>
-<p>如果多个代码块做相似的事情，尝试让它们有同样的剪影。（让相似、同类的代码，看起来也相似！很有先见性的指导。例如将所有变量拥有相同的缩进之类的事，是有价值的。）</p>
-<p>把代码按“列”对齐可以让代码更容易浏览。</p>
-<p>如果在一段代码中提到A、B和C，那么不要在另一段中说B、C和A。选择一个有意义的顺序，并始终用这样的顺序。</p>
-<p>用空行来把大块代码分成逻辑上的“段落”。))</p>
+		<p>alt + 鼠标左键选择 ：选中方形区域内的文字等(word)<br>alt + d : 选中地址栏</p>
+<blockquote>
+<p>Hot Key - Zend Studio / Eclipse：</p>
+</blockquote>
+<p>Ctrl+Shift+L 快捷键清单</p>
+<p>Ctrl+D 删除当前行<br>Ctrl+K / Ctrl++Shift+K 参照选中的Word快速定位到下一个<br>Ctrl+Shift+&gt; Matching Tag(类同上)，切换到对应的标签处！<br>Ctrl+F6 切换到当前另一个打开的文件</p>
+<p>Alt+↓ 当前行和下面一行交互位置(特别实用,可以省去先剪切,再粘贴了)<br>Alt+↑ 当前行和上面一行交互位置(同上)</p>
+<p>Ctrl+Shift+F 格式化当前代码<br>Ctrl+Shift+P 定位到对于的匹配符(譬如{}) (从前面定位后面时,光标要在匹配符里面,后面到前面,则反之)<br>Ctrl+Shift+O 快速生成import，当从网上拷贝一段程序后，不知道如何import进所调用的类，Ctrl+Shift+O</p>
+<p>Ctrl+Alt+N 新建文件~<br>Shift+Alt+/ 显示方法参数提示！<br>Shift+Alt+A  列编辑</p>
+<p>Ctrl+Shift+E Switch to Editor查看/切换到当前打开的文件<br>Ctrl+Shift+R 查找资源<br>Ctrl+Shift+T 查找某个具体的类<br>Ctrl+Shift+G 查找某个函数、方法、常量等在哪些地方被调用了，刚好和F3相反。</p>
+<p>Ctrl+H 全局查找，功能很丰富的，用的比较多<br>Ctrl+M 最大化当前的Edit或View (再按则反之)<br>Ctrl+Q 最后编辑的位置<br>Ctrl+W 关闭当前打开的文件<br>Ctrl+Shift+W 关边当前所有打开的文件</p>
+<p>Ctrl+Delete 删除光标的后一个词<br>Ctrl+Backspace 删除光标前的前一个词<br>Ctrl+Shift+Delete 从光标的位置开始，删除到行末！</p>
+<p>Ctrl+Shift+Enter 在当前行前插入一行<br>Shift+Enter 在当前行后插入一行</p>
+<p>shift+end 此行第一个到最后一个<br>shift+home 此行最后一个到第一个</p>
+<p>F3 快速定位光标位置的某个类、方法和属性。</p>
+<p>Ctrl+home 文件头<br>Ctrl+end 文件尾</p>
+<p>Ctrl+E 快速显示当前Editer的下拉列表(如果当前页面没有显示的用黑体)<br>Ctrl+O 显示类中方法和属性的大纲，能快速定位类的方法和属性，在查找Bug时非常有用。<br>ALT+/ 能为用户提供内容的辅助，不要为记不全方法和属性名称犯愁，当记不全类、方法和属性的名字时，ALT+/<br>Ctrl+L 定位到当前编辑器的某一行，对非Java文件也有效。</p>
+<p>Ctrl+Shift+X 把当前选中的文本全部变为大写<br>Ctrl+Shift+Y 把当前选中的文本全部变为小写</p>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -224,7 +196,7 @@ make /create、set up、build、generate、compose、add">
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://icehe.me/note/编写可读代码的艺术.html" data-title="编写可读代码的艺术 - Note | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
+	  <div data-url="http://icehe.me/note/eclipse_shortcuts.html" data-title="Eclipse - Shortcuts | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -258,7 +230,7 @@ var duoshuoQuery = {short_name:"icehe"};
 
 
 
-document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="note/编写可读代码的艺术.html" data-title="编写可读代码的艺术 - Note" data-url="http://icehe.me/note/编写可读代码的艺术.html"></div>'
+document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thread-key="note/eclipse_shortcuts.html" data-title="Eclipse - Shortcuts" data-url="http://icehe.me/note/eclipse_shortcuts.html"></div>'
 //	+ '<hr/>'
 //	+ '<div id="disqus_thread" style="text-align: center; margin: auto; margin-top: 20px; font-size: 120%">'
 //	+ '<a href="javascript:;" onclick="loadDisqus();">Click here to load <span class="bold">Disqus Comments</span></a>'

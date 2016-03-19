@@ -25,7 +25,7 @@
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/git%2Fgit_merge_result_00.png">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/git%2Fgit_rebase_result_00.png">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/git%2Fgit_merge_after_rebase_00.png">
-<meta property="og:updated_time" content="2016-03-04T15:25:30.000Z">
+<meta property="og:updated_time" content="2016-03-19T09:01:59.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git Note">
 <meta name="twitter:description" content="我的 Git 笔记，日常工作曾使用的指令组合。">
@@ -157,7 +157,7 @@
 		</div>
 		
 		<ul>
-<li><p><em>Updated on 2016-03-04</em></p>
+<li><p><em>Updated on 2016-03-19</em></p>
 </li>
 <li><p><em>Omit the unusual commands at my work.</em></p>
 </li>
@@ -185,9 +185,9 @@
 <p>  加上 option <code>-C</code> Git 会分析正在标注的文件，并且尝试找出文件中从别的地方复制过来的代码片段的原始出处。<br>  Git 不会显式地记录文件的重命名，而会记录快照，然后在事后尝试计算出重命名的动作。<br>  这其中有一个很有意思的特性就是你可以让 Git 找出所有的代码移动。<br><br></p>
 </li>
 <li><p>Text 文本</p>
+<p>  <code>git grep &quot;search_text&quot;</code> 在 Git 仓库中，查找代码片段。</p>
 </li>
 </ul>
-<p><code>git grep &quot;search_text&quot;</code> 在 Git 仓库中，查找代码片段。</p>
 <p><br></p>
 <h3 id="Index_索引">Index 索引</h3><p><code>git add &lt;file_path&gt;</code> 将需要提交的文件加入暂存区。</p>
 <p><code>git rm --cached &lt;file_path&gt;</code> 删除文件在 Git 中的索引，但保留原件！<br><code>--staged</code> = <code>--cached</code></p>
@@ -394,7 +394,8 @@
 </li>
 <li><p><a href="http://git-scm.com/docs/git-grep" target="_blank" rel="external">grep</a> <code>&lt;pattern&gt;</code></p>
 <p>  Print lines matching a pattern.</p>
-<p>  <code>--ignore-case</code> | <code>-i</code> Ignore case diff between the patterns and the files.<br>  <code>--line-number</code> | <code>-n</code> Prefix the line num to matching lines.</p>
+<p>  <code>--cached</code> Instead of searching tracked files in the working tree, search blobs registered in the index file.<br>  <code>--no-index</code> Search files in the current directory that is not managed by Git.<br>  <code>--untracked</code> In addition to searching in the tracked files in the working tree, search also in untracked files.</p>
+<p>  <code>--fixed-strings</code> | <code>-F</code> Use fixed strings for patterns (don’t interpret pattern as a regex).<br>  <code>--ignore-case</code> | <code>-i</code> Ignore case diff between the patterns and the files.<br>  <code>--line-number</code> | <code>-n</code> Prefix the line num to matching lines.</p>
 </li>
 </ul>
 <p><br></p>
