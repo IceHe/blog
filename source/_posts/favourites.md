@@ -583,39 +583,42 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 ## Singer 歌手
 
-- __Twins__ <sup>__Most__</sup>
-- __古巨基__ <sup>__Most__</sup>
+- __Twins <sup>Most</sup>__
+- __古巨基 <sup>Most</sup>__
 - __卫兰__
-- __陈奕迅__ <sup>__Most__</sup>
+- __陈奕迅 <sup>Most</sup>__
 - 邓丽欣
 - 方力申
-- __杨千嬅__ <sup>__Most__</sup>
+- __杨千嬅 <sup>Most</sup>__
 - __周杰伦__
 - F.I.R
 - __S.H.E__
 - __Tank__
 - 王心凌
 - __王力宏__
-- __陶喆__ <sup>__Most__</sup>
+- __陶喆 <sup>Most</sup>__
 - __Rie fu__
 - 张敬轩
 - __苏打绿__
 - 孙燕姿
 - 南拳妈妈
-- __陈绮贞__ <sup>__Most__</sup>
+- __陈绮贞 <sup>Most</sup>__
 - __张韶涵__
-- __梁静茹__ <sup>__Most__</sup>
-- __初音ミク__ <sup>__Most__</sup>
+- __梁静茹 <sup>Most</sup>__
+- __初音ミク <sup>Most</sup>__
 - 王菲
-- __方大同__ <sup>__Most__</sup>
+- __方大同 <sup>Most</sup>__
 - ClariS
 - Egoist
 - Supercell
-- __小野リサ__ <sup>__Most__</sup>
+- __小野リサ <sup>Most</sup>__
 - 羊毛とおはな
 - 陈洁仪
 - Olivia Ong
 - 李荣浩
+- __Paris Match <sup>Most</sup>__
+- __Pomplamoose <sup>Most</sup>__
+
 
 <br/>
 
