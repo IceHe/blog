@@ -13,7 +13,7 @@ toc: false
 ###### **<span class="icon-weibo">&nbsp;</span>微梦创科网络技术（中国）有限公司 - 手机微博 - 服务端研发 工程师** &nbsp; &nbsp; *2015.07 ~ Now*
 - MAPI（对外接口部门）- 微博移动端（手机、平板）各功能的服务端研发与维护，
 开放平台 API 与微博移动端（WAP 端 H5 页面、客户端 App）间请求的聚合与适配对接
-- *PHP , Docker , Nginx , Redis , Yaf Framework , Cent OS* <br/><br/>
+- *PHP , Docker , Nginx , Redis , Yaf Framework , CentOS* <br/><br/>
 
 ###### **毕业设计 - [基于进程安全测量的安全管理](https://github.com/IceHe/secure_mgt_by_dynamic_measuring)** &nbsp; &nbsp; *2015.03 ~ 2015.05*
 - 包括：[安全测量模块](https://github.com/IceHe/dimm)（Linux Loadable Kernel Module）、[安全管理器](https://github.com/IceHe/secure_monitor)（Qt GUI）。
