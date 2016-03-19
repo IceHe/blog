@@ -12,7 +12,7 @@ description: 本博客的导航页。
 
 ### __[Whoami](/categories/whoami)__
 
-- [Me 我](/about) &nbsp;/&nbsp; [Resume 简历](/resume) <sup>me</sup>
+- [Me 我](/about) &nbsp;/&nbsp; [Resume](/resume)<sup>简历</sup> <sup>me</sup>
 - [How to Reward Me! 怎么打赏博主~](/reward)
 
 ### __[AppleScript](/categories/AppleScript)__
@@ -105,11 +105,13 @@ description: 本博客的导航页。
 - 「14」 [用 BIOS 进行键盘输入和磁盘读写，及相关实验](/asm/Assembly Language - Note 14/)
 - 「15」 [附录内容：汇编编译器对jmp的处理，地址计数器（AC），处理伪操作指令，栈传递参数，无溢出除法…](/asm/Assembly Language - Note 15/)
 
-### __Mine__
+### __[Mine](/about/)__
 
-- <x@icehe.me> / [Github](https://github.com/IceHe)
-- [Weibo](http://weibo.com/2181657940/) / [Old Blog](http://290841032.qzone.qq.com/)
-- [What I Read](https://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count) / [See](https://movie.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
+<i class="fa fa-envelope-square">&nbsp;</i> <x@icehe.me>
+<i class="fa fa-github">&nbsp;</i> [Github](https://github.com/IceHe)
+<span class="icon-weibo">&nbsp;</span> [Weibo](http://weibo.com/2181657940/)
+<span class=" icon-qzone">&nbsp;</span> [What I wrote](http://290841032.qzone.qq.com/)
+<span class="val_pos icon-douban">&nbsp;</span> [What I Read](https://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count) or [See](https://movie.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
 
 
 ### __Others__
