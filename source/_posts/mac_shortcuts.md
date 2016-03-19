@@ -345,18 +345,34 @@ __`^ .` [ Chinese | English  ] Punctuation Marks__
 _Not Only shortcuts, but also Change Layout of Keyboard !_
 
 `⌘ q` ( Twice ) To Send one "⌘ q"
-`Num` !@#$%^&*()
-`⇧ Num` 1234567890
-`凵 asdfghjkl;` 123456890
 
 `Fn` Mv Mouse Cursor to Centre of Current App Window
 `Fn b` Toggle Bluetooth
 `Fn w` Toggle Wifi
 `Fn [ 1 | 2 ]` Switch Karabiner Setting Profile
 
-`^ l` Toggle Normal Mode  ( Use Vim Mode in all Apps )
-`^ d` Delete
-`^ h` Backspace
+`Fn h` ←
+`Fn j` ↓
+`Fn k` ↑
+`Fn l` →
+
+`Num` !@#$%^&*()
+`⇧ Num` 1234567890
+`凵 asdfghjkl;` 123456890
+
+`^ j` Ret
+
+`^ a` Home
+`^ e` End
+`^ f` Mv Forward
+`^ b` Mv Backward
+
+`^ d` Forward Del16,1992
+`^ h` Del
+
+`^ w` Del Preceding Word
+`^ u` Del to the Head of the Line
+`^ k` Del to the End of the Line
 
 # Mail
 
@@ -494,9 +510,8 @@ _With no shortcuts, but Change Layout of Keyboard !_
 _Also Need to Modify "System Preferences" -> "Keyboards" -> "Modifier Key…" for exchanging "CapsLock" & Lf "Ctrl" ._
 
 `CapsLock` Ctrl
-`Lf Ctrl` Esc
-`Rg ⌘` Ret
-`Rg ⌥` CapsLock
+`Lf Ctrl` CapsLock
+`Rg ⌘` Esc
 
 # System
 
