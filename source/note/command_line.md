@@ -356,6 +356,8 @@ title: CLI Note 命令行
 
 - to be continue ...
 
+- [realpath](http://stackoverflow.com/questions/5265702/how-to-get-full-path-of-a-file)
+
 <br/>
 
 ## Related

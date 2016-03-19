@@ -15,7 +15,6 @@ title: Vim Note
 
 胡波给的帮助我排除vim疑难bug的方法：
 
-```
 --noplugins -u NONE
 
 %s/xxx/yyy/g 文件全局替换
@@ -49,7 +48,9 @@ Ctrl+v Tab
 
 我一一般使用marker方式: set fdm=marker
 
+```
 默认的marker是{{{和}}}，可以设置为其他：set foldmarker=//l,//c （开始标签//l 关闭标签//c）
+```
 
 zc 折叠当前marker
 zo 展开当前marker
@@ -120,4 +121,4 @@ Customizations:
 NERDTree
 打开 <leader> e
 打开&关闭 ^e"
-```
+

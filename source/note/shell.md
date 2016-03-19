@@ -1,8 +1,7 @@
 title: Shell - Note
 ---
 
-```
-脚本首行     #!/bin/bash
+脚本首行     `#!/bin/bash`
 （表示使用该路径的程序来执行该文件）
 
 全局变量
@@ -22,21 +21,24 @@ $-     显示Shell使用的当前选项，与set命令功能相同
 
 赋值
 
+``` sh
 var_name=     # 赋空值
 var_name=number
 var_name="string with whitespace"
+```
 
 访问变量
 
-$var_name
+`$var_name`
 "\$var_name=$var_name"
 （“\”为转义符，消除“$”访问变量的含义）
 
 条件语句
 
-# “ [ ” 是布尔判断命令
-# “ ] ” 仅是为了配对而产生
+“ [ ” 是布尔判断命令
+“ ] ” 仅是为了配对而产生
 
+``` sh
 if [ expr0 ]
 then
      #statement0
@@ -49,9 +51,11 @@ fi
 # test 等同于 “ [ ”，同为布尔判断命令
 if test -f testDemo.sh     # 等同于下一行
 if [ -f Demo.sh ]
+```
 
 条件判断
 
+``` sh
 # 算术比较
 var1 -eq var2     # 等于
 … -nq …     # 不等于
@@ -78,34 +82,41 @@ str1 == str2
 str1 != str1
 -n str     # 字符串不为空
 -z str     # 字符串不为空串（NULL）
+```
 
 脚本退出
 
-exit n     # n 是退出码
+`exit n     # n 是退出码`
 
 循环语句
 
 for语句
 
+``` sh
 for variable in values
 do
      # statement
 done
+```
 
 while语句
 
+``` sh
 while condition
 do
      # statement
 done
+```
 
 until语句
 （与while相反，直到condition为True时停止）
 
+``` sh
 until condition
 do
      # statement
 done
+```
 
 break语句
 
@@ -119,11 +130,13 @@ continue语句
 
 case 语句
 
+``` sh
 case variable in
     pattern [ | pattern] ...) statements;;
     pattern [ | pattern] ...) statements;;
     ...
 esac
+```
 
 && 与 || 操作符
 
@@ -137,6 +150,7 @@ esac
 
 函数
 
+``` sh
 # 函数名前面的function关键字，可加可不加！
 [ function ] function_name()
 {
@@ -147,6 +161,7 @@ esac
 function_name
 # 带参数调用
 function_name $0 $1 $2 ...
+```
 
 : 操作符
 
@@ -162,6 +177,7 @@ expr命令
 
 手工命令行Shell计数器
 
+``` sh
 #!/bin/bash
 # 获取字符串的长度
 expr length "http://www.jellythink.com"
@@ -174,6 +190,7 @@ var=`expr 10 / 2`
 echo $var
 var=$(expr 10 \* 2)
 echo $var
+```
 
 在上面的脚本中，使用了反引号(“)，使用了该引号，就可以使expr的执行结果赋值给var变量，当然了，我们在脚本中也看到了$()来替换反引号的用法，这都是可以的。
 
@@ -182,8 +199,10 @@ echo $var
 printf命令
 
 带有格式化功能的echo。例：
+``` sh
 printf "%s\n" http://www.jellythink.com
 printf "%c + %s = %s\n" 1 10 11
+```
 
 return命令
 
@@ -238,6 +257,7 @@ echo ${i}_JellyThink     # 此时改写成${i}
 
 数组
 
+``` sh
 # 定义
 ary_name=(val1 val2 val3 …)
 
