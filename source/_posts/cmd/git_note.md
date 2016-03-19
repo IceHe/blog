@@ -5,7 +5,7 @@ tags: [Command]
 description: 我的 Git 笔记，日常工作曾使用的指令组合。
 ---
 
-- *Updated on 2016-03-04*
+- *Updated on 2016-03-19*
 
 - *Omit the unusual commands at my work.*
 
@@ -53,7 +53,7 @@ description: 我的 Git 笔记，日常工作曾使用的指令组合。
 
 - Text 文本
 
-`git grep "search_text"` 在 Git 仓库中，查找代码片段。
+    `git grep "search_text"` 在 Git 仓库中，查找代码片段。
 
 <br/>
 
@@ -468,6 +468,11 @@ $ git checkout <commit_id>   # 恢复到 revert 前的 commit 的状态。
 
     Print lines matching a pattern.
 
+    `--cached` Instead of searching tracked files in the working tree, search blobs registered in the index file.
+    `--no-index` Search files in the current directory that is not managed by Git.
+    `--untracked` In addition to searching in the tracked files in the working tree, search also in untracked files.
+
+    `--fixed-strings` | `-F` Use fixed strings for patterns (don't interpret pattern as a regex).
     `--ignore-case` | `-i` Ignore case diff between the patterns and the files.
     `--line-number` | `-n` Prefix the line num to matching lines.
 
