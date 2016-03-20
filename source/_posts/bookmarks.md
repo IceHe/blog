@@ -256,6 +256,8 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [架构腐化之谜](http://mp.weixin.qq.com/s?__biz=MjM5NTg2NTU0Ng==&amp;mid=210816035&amp;idx=3&amp;sn=7ad903e7be165e2c616c20fa2f148f63&amp;scene=1#rd)
 
+- [什么不要做？关于失败和优化](http://zhuanlan.zhihu.com/yilecoming/20587867)
+
 <br/>
 
 ### **Linux**
@@ -311,7 +313,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [不要自称是程序员，我十多年的 IT 职场总结](http://blog.jobbole.com/94148/) —— [英文出处](http://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/)。
 
-- [精益技术简历之道——改善技术简历的47条原则](http://zh.lucida.me/blog/lean-technical-resume/) —— Google 工程师，[Lucida](http://lucida.me/)。 
+- [精益技术简历之道——改善技术简历的47条原则](http://zh.lucida.me/blog/lean-technical-resume/) —— Google 工程师，[Lucida](http://lucida.me/)。
 
 <br/>
 
