@@ -5,14 +5,13 @@ tags: [read]
 description: 本博客的导航页。
 ---
 
-- [Archives 归档 ( Sort by Time )](/archives)
 - _Updated on 2016-03-16_
-
-## Sort by Category
+- [Archives 归档 ( Sort by Time )](/archives)
+- Sort by Category as follows.
 
 ### __[Whoami](/categories/whoami)__
 
-- [Me 我](/about) &nbsp;/&nbsp; [Resume](/resume)<sup>简历</sup> <sup>me</sup>
+- [Me 我](/about/) &nbsp;/&nbsp; [Resume](/resume)<sup>简历</sup> <sup>me</sup>
 - [How to Reward Me! 怎么打赏博主~](/reward)
 
 ### __[AppleScript](/categories/AppleScript)__
