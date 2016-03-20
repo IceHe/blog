@@ -9,8 +9,8 @@
 
 # Site
 title: Ice He 何志远
-subtitle: Less is more  宁静致远
-description: IceHe 何志远 blog 博客 software development IT tech 软件 开发 技术 record life 记录 人生 生活
+subtitle: Less is more. 宁静致远
+description: IceHe 何志远 blog 博客 software development technology 软件 开发 技术
 author: IceHe何志远
 email: x@icehe.me
 language: default
@@ -72,7 +72,7 @@ logger_format: dev
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY MMM DD
+date_format: YYYY.MM.DD
 time_format: H:mm:ss
 
 # Pagination
