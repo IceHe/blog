@@ -2,11 +2,8 @@ title: Note 笔记
 date: 2015-03-16
 ---
 
-- _Updated on 2016-03-17_
-
 ## Todo
 
-- [Unread](/note/unread.html)
 - [Plan 2016 !](/note/plan_2016.html)
 - [Blog Promotion Plan](/note/promotion_plan.html)
 - [Bookmarks](/bookmarks/)
