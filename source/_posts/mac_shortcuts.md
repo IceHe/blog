@@ -5,14 +5,14 @@ tags: [Mac]
 description: 我的 OS X 快捷键列表索引。
 ---
 
-- _Updated on 2016-03-18_
+- _Updated on 2016-03-21_
 
 - _Ref: 《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》_
 
 # Explanation
 
-_Not all shortcuts , but my most frequent ones !_
-_Not only the default shortcuts and the custom ones ._
+Not all shortcuts , but also my most frequent ones!
+Not only the default shortcuts, but alos the custom ones.
 
 ## Key Characters
 
@@ -37,33 +37,41 @@ _Not only the default shortcuts and the custom ones ._
 
 ## Abbreviations
 
-`Cmd` Command
-`Ctrl` Control
-`Esc` Escape
-`Opt` Option
-`Ret` Return
-`Shf` Shift
-`Del` Delete
+- Button
 
-`Dn` Down
-`Lf` left
-`Rg` Right
+    `Cmd` Command
+    `Ctrl` Control
+    `Esc` Escape
+    `Opt` Option
+    `Ret` Return
+    `Shf` Shift
+    `Del` Delete
 
-`Prev` Previous
-`Btm` Bottom
+- Direction & Position
 
-`App` Application
-`Btn` Button
-`Dir` Directory
+    `Dn` Down
+    `Lf` left
+    `Rg` Right
 
-`Mv` Move
-`Rm` Remove
+    `Prev` Previous
+    `Btm` Bottom
 
-`Ld` Leader
-`Pf` Prefix
+- Word
 
-`&` And
-`|` Or
+    `App` Application
+    `Btn` Button
+    `Dir` Directory
+
+    `Mv` Move
+    `Rm` Remove
+
+    `Ld` Leader
+    `Pf` Prefix
+
+- Symbol
+
+    `&` And
+    `|` Or
 
 ## Examples
 
@@ -85,85 +93,96 @@ _Not only the default shortcuts and the custom ones ._
 
 ## Meaning of Font Style
 
-_Bold I am unfamiliar with it ._
-_Italic I seldom use it ._
+__Bold__ : I am unfamiliar with it .
+_Italic_ : I seldom use it .
 
 # Default
 
-_Usually Common Used in Various of Apps_
+__Usually Common Used in Various of Apps__
 
-__`` Wake Up__
-`^ ` Shut Down ( can choose to Sleep or Restart )
-__`⌘ ^ ` Force Restart__
-__`⌘ ^ ⌥ ` Force Shutdown__
-__`⌘ ⌥ ` Sleep__
-`^ ⇧ ` Display Sleep
+- Power
 
-`⌘ ^ f` Full Screen | Revert
-`⌘ ,` Preferences
-`⌘ q` Exit
-`⌘ w` Close
+    __`` Wake Up__
+    `^ ` Shut Down ( can choose to Sleep or Restart )
+    __`⌘ ^ ` Force Restart__
+    __`⌘ ^ ⌥ ` Force Shutdown__
+    __`⌘ ⌥ ` Sleep__
+    `^ ⇧ ` Display Sleep
 
-`⌘ r` Refresh
-`⌘ t` New Tab
-`⌘ Num` Switch Tab
+- File or others
 
-`^ ⇥` Next Tab
-`^ ⇧ ⇥` Prev Tab
-`⌘ ⇥` Next App
-`⌘ ⇧ ⇥` Prev App
+    `⌘ n` New
+    `⌘ o` Open
+    `⌘ s` Save
+    `⌘ p` Print
 
-__`⌘ [` Backward__
-__`⌘ ]` Forward__
+- Window
 
-`⌘ r` Refresh
-__`⌘ h` Hide__
-__`⌘ ⌥ h` Hide All App but the Frontmost__
-`⌘ m` Minimize to Dock
-_`⌘ ⌥ m` Minimize All Windows of the Frontmost App_
+    `⌘ ^ f` Full Screen | Revert
+    `⌘ ,` Preferences
+    `⌘ q` Exit
+    `⌘ w` Close
 
-⌘ f Search
-__`⌘ g` Next Match__
-__`⌘ ⇧ G` Prev Match__
+    __`⌘ h` Hide__
+    __`⌘ ⌥ h` Hide All Apps But the Frontmost__
+    `⌘ m` Minimize to Dock
+    _`⌘ ⌥ m` Minimize All Windows of the Frontmost App_
 
-`⌘ n` New
-`⌘ o` Open
-`⌘ s` Save
-`⌘ p` Print
+- Tab
 
-`⌘ a` Select All
-`⌘ z` Undo
-__`⌘ ⇧ Z` Redo__
-`⌘ c` Copy
-`⌘ v` Paste
-`⌘ ⌥ v` Mv ( After `⌘ c` )
+    `⌘ r` Refresh
+    `⌘ t` New Tab
+    `⌘ Num` Switch Tab
 
-`⌘ ←` Home
-`⌘ →` End
-`⌥ ←` Prev Word
-`⌥ →` Next Word
+    `^ ⇥` Next Tab
+    `^ ⇧ ⇥` Prev Tab
+    `⌘ ⇥` Next App
+    `⌘ ⇧ ⇥` Prev App
 
-( After Selection )
-`⌘ b` Bold
-`⌘ u` Underline
-`⌘ i` Italic
-`⌘ +` Bigger | Zoom In
-`⌘ -` Smaller | Zoom Out
+- Edit
+
+    `⌘ f` Search
+    __`⌘ g` Next Match__
+    __`⌘ ⇧ G` Prev Match__
+
+    `⌘ a` Select All
+    `⌘ z` Undo
+    __`⌘ ⇧ Z` Redo__
+    `⌘ c` Copy
+    `⌘ v` Paste
+    `⌘ ⌥ v` Mv ( After `⌘ c` )
+
+    - After Selection
+    `⌘ b` Bold
+    `⌘ u` Underline
+    `⌘ i` Italic
+    `⌘ +` Bigger | Zoom In
+    `⌘ -` Smaller | Zoom Out
+
+- Mv
+
+    __`⌘ [` Backward__
+    __`⌘ ]` Forward__
+
+    `⌘ ←` Home
+    `⌘ →` End
+    `⌥ ←` Prev Word
+    `⌥ →` Next Word
 
 # Activity Monitor
 
 __`⌘ ⌥ f` Filter Processes__
-`⌘ ⌥ q` Quit the select Process
+__`⌘ ⌥ q` Quit the select Process__
 
 # Amphetamine
 
-`⌥ F12` Mac Stays Awake
-`^ ⌥ F12` Allow Mac to Sleep
+__`⌥ F12` Mac Stays Awake__
+__`^ ⌥ F12` Allow Mac to Sleep__
 
 # Bartender 2
 
-`^ ⌥ ⇥` Show Bartender Bar
-`^ ⌥ ]` Show All Status Icons in Menu Bar
+__`^ ⌥ ⇥` Show Bartender Bar__
+__`^ ⌥ ]` Show All Status Icons in Menu Bar__
 
 # Charles
 
@@ -171,120 +190,139 @@ __`⌘ ⌥ f` Filter Processes__
 
 # CheatSheet
 
-`Long Press ⌘` CheatSheet
+`Long Press ⌘` Activate
 
 # ClipMenu
 
-`^ ⌥ v` ClipMenu
-__<code>^ ⌥ \`</code> Snippets__
+`^ ⌥ v` Activate
 
 # EuDict Free
 
-__`⇧ 凵` Light Peek__
+`⇧ 凵` Light Peek
 __`⌘ ⇧ M` Look up Word that Mouse Cursor Hovers__
 __`⌘ ⇧ L` Look up Selection__
 __`⌘ ⇧ 2` Translate Selection__
 
 # Evernote
 
-`^ ⌥ e` Search
-__`^ ⌥ j` New Note__
-`^ ⌥ 0` Paste to New Note
-__`⌘ ^ s` Sync__
+- Note
 
-__`⌘ l` Edit Note Title__
-__`⌘ ^ m` Mv Note to the select Notebook__
-__`⌘ ⇧ I` Get Note Info__
+    __`⌘ ^ s` Sync__
 
-__`⌘ ⇧ H` Insert Horizontal Rule__
-__`⌘ ⇧ T` Insert To-Do__
-_`⌘ ⇧ D` Insert Date_
-_`⌘ ⇧ ⌥ D` Insert Time_
-_`⌘ ⇧ L` Insert Table_
+    __`⌘ l` Edit Note Title__
+    __`⌘ ^ m` Mv Note to the select Notebook__
+    __`⌘ ⇧ I` Get Note Info__
 
-( After Selection )
-`⇥` Increase Indent
-`⇧ ⇥` Decrease Indent
+- Edit
 
-__`⌘ k` Add Link__
-__`⌘ ⇧ K` Rm Link__
-__`⌘ ⇧ F` Simplify ( Rm ) Formatting__
+    __`⌘ ⇧ H` Insert Horizontal Rule__
+    __`⌘ ⇧ T` Insert To-Do__
+    _`⌘ ⇧ D` Insert Date_
+    _`⌘ ⇧ ⌥ D` Insert Time_
+    _`⌘ ⇧ L` Insert Table_
 
-_`⌘ ⇧ O` Toggle Numbered List ( Ordered )_
-_`⌘ ⇧ U` Toggle Bulleted List ( Unordered )_
+    - After Selection
 
-_`⌘ ^ k` Strikethrough_
-_`⌘ ^ h` Highlight_
-_`⌘ ^ -` Subscript_
+    `⇥` Increase Indent
+    `⇧ ⇥` Decrease Indent
+
+    __`⌘ k` Add Link__
+    __`⌘ ⇧ K` Rm Link__
+    __`⌘ ⇧ F` Simplify ( Rm ) Formatting__
+    `⌘ ⇧ V` Copy and Match Style
+
+    _`⌘ ⇧ O` Toggle Numbered List ( Ordered )_
+    _`⌘ ⇧ U` Toggle Bulleted List ( Unordered )_
+
+    _`⌘ ^ k` Strikethrough_
+    _`⌘ ^ -` Subscript_
+    ~~`⌘ ^ h` Highlight~~ &nbsp;(_Confilicted with Karabiner `^ h`._)
 
 # Evernote Web Clipper
 
-<code>^ \`</code>  Open Clip Mode
-<code>^ ⇧ \`</code> Open Simply Clip Mode
-`⎋` Exit
+- Activate
 
-( After <code>^ \`</code> or <code>^ ⇧ \`</code>)
-`a` All Main Text
-`c` Main Text without Advertisement
-`f` Full Web Page
-`b` Clip as a Bookmark
-__`m` Capture__
-`↑` Extend Selection
-`↓` Shrink Selection
-`↩` Save
+    <code>^ \`</code>  Open Clip Mode
+    __<code>^ ⇧ \`</code> Open Simply Clip Mode__
+    `⎋` Exit
+
+    - After <code>^ \`</code> or <code>^ ⇧ \`</code>
+
+    __`a` All Main Text__
+    __`c` Main Text without Advertisement__
+    __`f` Full Web Page__
+    __`b` Clip as a Bookmark__
+    __`m` Capture__
+    `↑` Extend Selection
+    `↓` Shrink Selection
+    `↩` Save
 
 # Finder
 
-__`凵` Quick Look__
-__`⌘ d` Duplicate__
-__`⌘ e` Eject Disk__
-`⌘ i` Get Info
+- File
 
-`⌘ ⇧ A` Application
-__`⌘ ⇧ C` Computer__
-__`⌘ ⇧ D` Desktop__
-__`⌘ ⇧ F` All My Files__
-__`⌘ ⇧ G` to Folder__
-__`⌘ ⇧ H` Home__
-_`⌘ ⇧ K` Network_
-__`⌘ ⇧ O` Documents__
-_`⌘ ⇧ R` AirDrop_
-_`⌘ ⇧ U` Utilities_
-`⌘ ⌥ l` Downloads
+    __`⌘ ↓` Open__
 
-__`⌘ ⌥ T` Add to SideBar__
-__`⌘ l` New Alias for a file__
-__`⌘ r` to Origin File of Alias__
-__`⌘ ⇧ N` New Folder__
-`⌘ [ 1 | 2 | 3 | 4 ]` View the files in way of Icon | List | Column | CoverFlow
+    __`⌘ d` Duplicate__
+    __`⌘ e` Eject Disk__
 
-__`⌘ ↑` to Parent Dir__
-__`⌘ ^ ↑` Open Parent Dir in New Window__
+    __`⌘ l` New Alias for a file__
+    __`⌘ r` to Origin File of Alias__
 
-__`⌘ ↓` Open__
+- Folder
 
-__`⌘ ⇧ ⌫` Empty Trash__
-_`⌘ ⇧ ⌥ ⌫` Empty Trash without Confirmation_
+    `⌘ ⇧ A` Application
+    __`⌘ ⇧ C` Computer__
+    `⌘ ⇧ D` Desktop
+    __`⌘ ⇧ F` All My Files__
+    __`⌘ ⇧ G` to Folder__
+    __`⌘ ⇧ H` Home__
+    _`⌘ ⇧ K` Network_
+    __`⌘ ⇧ O` Documents__
+    __`⌘ ⇧ R` AirDrop__
+    _`⌘ ⇧ U` Utilities_
+    `⌘ ⌥ l` Downloads
+
+    __`⌘ ⌥ T` Add to SideBar__
+    `⌘ ⇧ N` New Folder
+
+    __`⌘ ↑` to Parent Dir__
+    __`⌘ ^ ↑` Open Parent Dir in New Window__
+
+- View
+
+    __`凵` Quick Look__
+    `⌘ i` Get Info
+
+    `⌘ [ 1 | 2 | 3 | 4 ]` View the files in way of Icon | List | Column | CoverFlow
+
+    __`⌘ ⇧ ⌫` Empty Trash__
+    _`⌘ ⇧ ⌥ ⌫` Empty Trash without Confirmation_
 
 # Firefox
 
-`⌘ j` Downloads
-`⌘ b` Bookmarks ( Badly Use )
-__`⌘ ⇧ B` Manage Bookmarks__
-__`⌘ ⇧ H` History__
-__`⌘ ⇧ A` Extensions__
+- Common
 
-__`⌘ u` Page Source Code__
-__`⌘ ⌥ i` Inspect Elements__
-`⌘ ⌥ c` Elements
-`⌘ ⌥ k` Console
-`⌘ ⌥ q` Network
-__`⌘ ⌥ s` JavaScript Debug__
-`⇧ F7` CSS
+    `⌘ j` Downloads
+    _`⌘ b` Bookmarks ( Badly Use )_
+    __`⌘ ⇧ B` Manage Bookmarks__
+    __`⌘ ⇧ H` History__
+    __`⌘ ⇧ A` Extensions__
 
-__`⌘ ⌥ m` Responsive Design Page View  ( for Mobile )__
-__`⌘ ⇧ J` Browser Console__
-__`⇧ F4` JavaScript Draft  ( for js test )__
+- Development
+
+    __`⌘ ⌥ i` Inspect Elements__
+    `⌘ ⌥ c` Elements
+    `⌘ ⌥ k` Console
+    `⌘ ⌥ q` Network
+
+    __`⌘ ⌥ m` Responsive Design Page View  ( for Mobile )__
+    __`⌘ ⌥ s` JavaScript Debug__
+    __`⌘ ⇧ J` Browser Console__
+
+    __`⌘ u` Page Source Code__
+    `⇧ F7` CSS
+    __`⇧ F4` JavaScript Draft  ( for js test )__
 
 # HazeOver
 
@@ -292,49 +330,61 @@ __`⌘ ⇧ ⌥ H` Toggle__
 
 # IdeaVim
 
-_( Plugin for PhpStorm & PyCharm )_
+__IdeaVim is a  Plugin for PhpStorm & PyCharm.__
+
 _Most Keys are Same as Vim , Just List my Custom Keys._
 
-`H` Prev Tab
-`L` Next Tab
+- File
 
-`^ s` :w
-`^ w` :q
+    `^ s` :w
 
-`^ ]` Find Declaration
-`^ t` Back from Declaration
+- Tab
+
+    `H` Prev Tab
+    `L` Next Tab
+
+- Ctags Like
+
+    `^ ]` Find Declaration
+    `^ t` Back from Declaration
 
 # Input Sources
 
-`⌘ 凵` Switch Input Source
-__`⌘ ^ 凵` Emoji & Symbols__
-__`^ ⇧ 凵` Trackpad Handwriting__
+- Select
 
-In "Pinyin - Simplified" (OS X default):
+    `⌘ 凵` Switch Input Source
+    __`⌘ ^ 凵` Emoji & Symbols__
+    __`^ ⇧ 凵` Trackpad Handwriting__
 
-`[` Page Up
-`]` Page Down
-`⇥` Sort By
-`num` Select
+- Pinyin - Simplified (OS X default)
 
-In "Squirrel" (Rime Input):
+    `[` Page Up
+    `]` Page Down
+    `⇥` Sort By
+    `num` Select
 
-__`⌃ f` Left__
-__`⌃ b` Right__
-__`⌃ a` Home__
-__`⌃ e` End__
-__`⌃ h` Backspace__
-__`⌃ d` Delete__
-__`⌃ u` | `⌃ [` Escape__
-__`^ k` | `⇧ ⌫` Remove the selected Candidate phrase from user dict__
-__`^ t` [ Simple | Traditional  ] Chinese Characters__
-__`^ .` [ Chinese | English  ] Punctuations__
-__`^ ⇧ 1` | `^ ⇧ !`  [ Half | Full  ] Shape Punctuations__
+-  Squirrel (Rime Input)
 
-In "Baidu Input" input source:
+    __`^ t` [ Simple | Traditional  ] Chinese Characters__
+    __`^ .` [ Chinese | English  ] Punctuations__
+    __`^ ⇧ 1` | `^ ⇧ !`  [ Half | Full  ] Shape Punctuations__
 
-__`^ t` [ Simple | Traditional  ] Chinese Characters__
-__`^ .` [ Chinese | English  ] Punctuation Marks__
+    - Emacs Mode
+
+    __`⌃ f` Left__
+    __`⌃ b` Right__
+    __`⌃ a` Home__
+    __`⌃ e` End__
+    __`⌃ h` Backspace__
+    __`⌃ d` Delete__
+
+    __`⌃ u` | `⌃ [` Escape__
+    __`^ k` | `⇧ ⌫` Rm the selected Candidate phrase from user dict__
+
+- Baidu Input
+
+    __`^ t` [ Simple | Traditional  ] Chinese Characters__
+    __`^ .` [ Chinese | English  ] Punctuation Marks__
 
 # iTerm2
 
@@ -342,151 +392,195 @@ __`^ .` [ Chinese | English  ] Punctuation Marks__
 
 # Karabiner
 
-_Not Only shortcuts, but also Change Layout of Keyboard !_
+Not Only shortcuts, but also Change Layout of Keyboard!
 
-`⌘ q` ( Twice ) To Send one "⌘ q"
+- Setting
 
-`Fn` Mv Mouse Cursor to Centre of Current App Window
-`Fn b` Toggle Bluetooth
-`Fn w` Toggle Wifi
-`Fn [ 1 | 2 ]` Switch Karabiner Setting Profile
+    `Fn [ 1 | 2 ]` Switch Karabiner Setting Profile
 
-`Fn h` ←
-`Fn j` ↓
-`Fn k` ↑
-`Fn l` →
+- Quit
 
-`Num` !@#$%^&*()
-`⇧ Num` 1234567890
-`凵 asdfghjkl;` 123456890
+    `⌘ q`, `⌘ q` ( Twice ) To Send one real keystroke `⌘ q`
 
-`^ j` Ret
+- System
 
-`^ a` Home
-`^ e` End
-`^ f` Mv Forward
-`^ b` Mv Backward
+    `Fn b` Toggle Bluetooth
+    `Fn w` Toggle Wifi
 
-`^ d` Forward Del16,1992
-`^ h` Del
+- Input
 
-`^ w` Del Preceding Word
-`^ u` Del to the Head of the Line
-`^ k` Del to the End of the Line
+    `Num` = `!@#$%^&*()`
+    `⇧ Num` = `1234567890`
+    `凵 asdfghjkl;` = `123456890`
+
+- Mv
+
+    `Fn h` = `←`
+    `Fn j` = `↓`
+    `Fn k` = `↑`
+    `Fn l` = `→`
+
+    `⌥ b` = `⌥ ←` Mv to Prev Word
+    `⌥ f` = `⌥ →` Mv to Next Word
+
+- Emacs Mode
+
+    `^ j` = `↩` Ret
+
+    `^ f` = `←`
+    `^ b` = `→`
+    `^ a` = `⌘ ←` Home
+    `^ e` = `⌘ →` End
+
+    `^ d` = `Fn Del` Forward Del
+    `^ h` = `Del`
+
+    `^ w` Del Preceding Word
+    `^ u` Del to the Head of the Line
+    `^ k` Del to the End of the Line
 
 # Mail
 
-__`⌘ r` Reply__
-__`⌘ ⇧ R` Reply All__
-__`⌘ ⇧ D` Send__
-__`⌘ ⇧ N` Get All New Mail__
-__`⌘ ⇧ J` Set as Junk__
-__`⌘ ⇧ U` Set as UnRead__
-__`⌘ ⇧ L` Red Flag__
-__`⌘ ⌥ f` Mailbox Search__
+- Mail
 
-__`⌘ 1` Inbox__
-__`⌘ 2` Sent__
-__`⌘ 3` Drafts__
+    __`⌘ ⇧ N` Get All New Mail__
+
+    __`⌘ r` Reply__
+    __`⌘ ⇧ R` Reply All__
+    __`⌘ ⇧ D` Send__
+
+- Mark
+
+    __`⌘ ⇧ J` Set as Junk__
+    __`⌘ ⇧ U` Set as UnRead__
+    __`⌘ ⇧ L` Red Flag__
+    __`⌘ ⌥ f` Mailbox Search__
+
+- Box
+
+    __`⌘ 1` Inbox__
+    __`⌘ 2` Sent__
+    __`⌘ 3` Drafts__
 
 # Manico
 
-`⌥ 1` Firefox
-`⌥ 2` Evernote
-`⌥ 3` iTerm2
-`^ ⌥ 凵` Activity_Monitor
+- Most Frequent
 
-`^ ⌥ 1` Script Editor ( for AppleScript )
-`^ ⌥ 2` System Preferences
-`^ ⌥ 3` Dash
-`^ ⌥ 5` Daily Task
-`^ ⌥ 7` Sequel Pro ( for MySQL )
+    `⌥ 1` Firefox
+    `⌥ 2` iTerm3
 
-`^ ⌥ q` QQ
-`^ ⌥ w` WeChat
-`^ ⌥ r` Chrome
-`^ ⌥ t` Thunder
+- Num
 
-`^ ⌥ a` PyCharm
-`^ ⌥ s` PhpStorm
-`^ ⌥ d` Dictionary
-`^ ⌥ f` Finder
-__`^ ⌥ g` Preview__
+    `^ ⌥ 1` Script Editor ( for AppleScript )
+    `^ ⌥ 2` System Preferences
+    `^ ⌥ 3` Dash
+    `^ ⌥ 5` Daily Task
+    `^ ⌥ 6` HazeOver
+    `^ ⌥ 7` Sequel Pro ( MySQL Client )
 
-`^ ⌥ x` Mail
-`^ ⌥ c` Charles
-__`^ ⌥ b` Sublime Text__
+- Lf Hand
 
-`^ ⌥ y` Typora
-`^ ⌥ u` EuDic Free
-`^ ⌥ i` iTunes
-__`^ ⌥ o` ShadowsocksX__
-`^ ⌥ p` AppStore
+    `^ ⌥ 凵` Activity_Monitor
 
-`^ ⌥ h` Photos
-`^ ⌥ k` Karabiner
+    `^ ⌥ q` QQ
+    `^ ⌥ w` WeChat
+    `^ ⌥ e` Evernote
+    `^ ⌥ r` Chrome
+    `^ ⌥ t` Thunder
 
-`^ ⌥ n` NeteaseMusic
-`^ ⌥ m` Manico
-`^ ⌥ '` HazeOver
+    `^ ⌥ a` PyCharm
+    `^ ⌥ s` PhpStorm
+    `^ ⌥ d` Dictionary
+    `^ ⌥ f` Finder
+    __`^ ⌥ g` Preview__
+
+    `^ ⌥ x` Mail
+    `^ ⌥ c` Charles
+    __`^ ⌥ b` Sublime Text__
+
+- Rg Hand
+
+    `^ ⌥ y` Typora
+    `^ ⌥ u` EuDic Free
+    `^ ⌥ i` iTunes
+    __`^ ⌥ o` ShadowsocksX__
+    `^ ⌥ p` AppStore
+
+    `^ ⌥ h` Photos
+    `^ ⌥ k` Karabiner
+
+    `^ ⌥ n` NeteaseMusic
+    `^ ⌥ m` Manico
 
 # Moom
 
-`^ ⌥ z` Moom
+`^ ⌥ z` Activate
 
-( After `^ ⌥ z` )
-`⌥ [ ↑ | ↓ ]` Mv Display
-`a` Lf More Than Half
-`s` Lf Half
-`d` Rg Half
-`f` Rg More Than Half
-`z` Revert
-`q` Top Lf
-`w` Top Rg
-`e` Btm Lf
-`r` Btm Rg
-`v` Full Screen
-__`凵` Fit to Desktop__
+- After `^ ⌥ z`
+
+    `⌥ [ ↑ | ↓ ]` Mv the window to another Display
+
+    - Resize the window & mv it to …
+
+    `a` Lf Half
+    `s` Lf More Than Half
+    `d` Rg More Than Half
+    `f` Rg Half
+    `z` Original ( Revert )
+    `q` Top Lf
+    `w` Top Rg
+    `e` Btm Lf
+    `r` Btm Rg
+    `v` Full Screen
+    __`凵` Fit to Desktop__
 
 # PhpStorm
 
-__`⌥ ^ d` Debug__
-__`^ ⇧ B` Toggle BreakPoint__
-__`⌥ ⇧ R` Rerun__
+- Debug
 
-__`⌥ ⇧ I` Step Into__
-__`⌥ ⇧ O` Step Out__
+    __`⌥ ^ d` Debug__
+    __`^ ⇧ B` Toggle BreakPoint__
+    __`⌥ ⇧ R` Rerun__
 
-__`⌥ ⇧ J` Step Over ( Next Line )__
-__`⌥ ⇧ N` Resume ( Next BreakPoint )__
+    __`⌥ ⇧ I` Step Into__
+    __`⌥ ⇧ O` Step Out__
 
-__`⌘ ⌥ ⇧` C Copy Reference ( of cur line in cur file )__
-__`⌘ ⇧ C` Copy Path__
-__`⌘ ⇧ V` Copy from History__
+    __`⌥ ⇧ J` Step Over ( Next Line )__
+    __`⌥ ⇧ N` Resume ( Next BreakPoint )__
 
-`⌘ f` Find
-__`⌘ ⇧ F` Find in Paths__
-`⌘ r` Replace
-__`⌘ ⇧ R` Replace in Paths__
+- File
 
-__`⌘ e` Recent Files__
-__`⌘ ⇧ E` Recently Edited Files__
+    __`⌘ e` Recent Files__
+    __`⌘ ⇧ E` Recently Edited Files__
 
-`⌘ o` Find Class
-`⌘ ⇧ O` Find File
+    __`⌘ ⌥ ⇧ C` Copy Reference ( of cur line in cur file )__
+    __`⌘ ⇧ C` Copy Path__
+    __`⌘ ⇧ V` Copy from History__
 
-`^ g` Find Usage
+- Find
 
-`⌘ /` Line Comment
-__`⌘ ⌥ /` Block Comment__
+    `⌘ f` Find
+    __`⌘ ⇧ F` Find in Paths__
+    `⌘ r` Replace
+    __`⌘ ⇧ R` Replace in Paths__
 
-__`⌘ ⇧ ↑` Move Line Up__
-__`⌘ ⇧ ↓` Move Line Dn__
+    `⌘ o` Find Class
+    `⌘ ⇧ O` Find File
 
-_`⌥ ↑` Extend Selection_
-_`⌥ ↓` Shrink Selection_
+    `^ g` Find Usage
 
-_TODO: I need a chance to optimize 'Run’ Shortcuts of PhpStorm & PyCharm!_
+- Edit
+
+    `⌘ /` Line Comment
+    __`⌘ ⌥ /` Block Comment__
+
+    __`⌘ ⇧ ↑` Mv Line Up__
+    __`⌘ ⇧ ↓` Mv Line Dn__
+
+    _`⌥ ↑` Extend Selection_
+    _`⌥ ↓` Shrink Selection_
+
+_TODO: I need to re-configure these shortcuts in the futrue!_
 
 # PyCharm
 
@@ -494,10 +588,10 @@ _Same as PhpStorm._
 
 # QQ
 
-`⌘ ^ a` Capture ( Always! )
-__`⌥ 凵` Swiftly__
+`⌘ ^ a` Capture ( Can be used without opening QQ. )
 `⌘ ↑` Select Prev Chat
 `⌘ ↓` Select Next Chat
+__`⌥ 凵` Swiftly__
 
 # Script Editor
 
@@ -505,225 +599,339 @@ __`⌥ 凵` Swiftly__
 
 # Seil
 
-_With no shortcuts, but Change Layout of Keyboard !_
+- Change Key
 
-_Also Need to Modify "System Preferences" -> "Keyboards" -> "Modifier Key…" for exchanging "CapsLock" & Lf "Ctrl" ._
+    `⇪` CapsLock → `^` Ctrl
+    `^` Lf Ctrl → `⇪` CapsLock
+    `⌘` Rg Cmd → `⎋` Esc
 
-`CapsLock` Ctrl
-`Lf Ctrl` CapsLock
-`Rg ⌘` Esc
+Need to Modify `System Preferences → Keyboards → "Modifier Key` to exchange `CapsLock` & Lf `Ctrl`.
 
 # System
 
-_( System Preference -> Keyboard )_
+- Space
 
-`^ ↑` Mission Control
-__`^ ↓` App Windows__
-__`^ ←` Prev Space__
-__`^ →` Next Space__
-`^ Num` Switch to Desktop [Num]
+    __`^ ↑` Mission Control__
+    __`^ ↓` App Windows__
+    __`^ ←` Prev Space__
+    __`^ →` Next Space__
 
-`F1` Desktop
-`F12` Notification Center
-`^ F12` Do Not Disturb On/Off
-`⌘ ⌥ d` Dock Hiding On/Off
+    `^ Num` Switch to Desktop [Num]
+    `F1` Desktop
 
-__`^ ⌥ ;` Focus to Menu Bar__
-__`^ ⌥ /` Focus to Dock__
-__<code>⌘ \`</code> Focus to Active or Next Window__
+- Dock & Menubar & Sidebar
 
-`^ 凵` Spotlight
-`⌘ 凵` Prev Input Source
-__`⌘ ⇧ 3` Capture Desktop__
-__`⌘ ^ d` Look Up in Dictionary__
-__`⌘ ⌥ /` Show Help Menu__
+    `F12` Notification Center
+    `^ F12` Do Not Disturb On/Off
+    `⌘ ⌥ d` Dock Hiding On/Off
+
+    __`^ ⌥ '` Focus to Menu Bar__
+    __`^ ⌥ /` Focus to Dock__
+    __<code>⌘ \`</code> Focus to Active or Next Window__
+
+- Accessory
+
+    `^ 凵` Spotlight
+    __`⌘ ⇧ 3` Capture Desktop__
+    __`⌘ ^ d` Look Up in Dictionary__
+    __`⌘ ⌥ /` Show Help Menu__
+
+Modify them in `System Preference → Keyboard`.
 
 # tmux
 
-`^ q` Prefix Key
+`^ a` Prefix Key
 
-`Pf r` Reload ~/.tmux.conf
-__`Pf z` Kill Session__
+- After inputing Prefix Key `^ a`
 
-`Pf \` Split Window Horizontally
-`Pf -` Split Window Vertically
+    - Help
 
-`Pf ↑` Maximize Current Pane in New Window
-`Pf ↓` Put Current Pane back to its Parent Window
+    __`Pf ⇧ ?` List Keys__
 
-`Pf h` Select Lf Pane
-`Pf j` Select Dn Pane
-`Pf k` Select Up Pane
-`Pf l` Select Rg Pane
+    - Client (Session)
 
-`Pf ^ h` Resize Pane Lf
-`Pf ^ j` Resize Pane Dn
-`Pf ^ k` Resize Pane Up
-`Pf ^ l` Resize Pane Rg
+    __`Pf (` Prev Client__
+    __`Pf )` Next Client__
+
+    `Pf d` Detach Client
+    __`Pf z` Kill Client__
+
+    __`Pf $` Rename Session__
+
+    - Window
+
+    `Pf c` New Window
+    __`Pf &` Kill Window__
+
+    `Pf w` Choose Window
+    __`Pf p` Prev Window__
+    __`Pf n` Next Window__
+
+    - Layout
+
+    `Pf \` Split Window Horizontally
+    `Pf -` Split Window Vertically
+
+    __`Pf 凵` Another Layout__
+    `Pf ^ o` Rotate Window
+
+    __`Pf {` Swap Pane Up__
+    __`Pf }` Swap Pane Dn__
+
+        - Resize
+
+        `Pf ^ h` Resize Pane Lf
+        `Pf ^ j` Resize Pane Dn
+        `Pf ^ k` Resize Pane Up
+        `Pf ^ l` Resize Pane Rg
+
+    - Pane
+
+    `Pf x` Kill Pane
+
+    `Pf h` Select Lf Pane
+    `Pf j` Select Dn Pane
+    `Pf k` Select Up Pane
+    `Pf l` Select Rg Pane
+
+    __`Pf ↑` Maximize Current Pane in New Window__
+    __`Pf ↓` Put Current Pane back to its Parent Window__
+
+    - Copy Mode
+
+    `Pf [` Use Vim-like keys to copy string at Copy Mode.
+    __`Pf ]` Paste buffer.__
+
+    - Config
+
+    `Pf r` Reload ~/.tmux.conf
 
 _Others are default as same as the description in the [Official Docs](http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/tmux.1?query=tmux&sec=1)_
 
 # Typora
 
-__`⌘ ⇧ F` Full Screen__
-__`⌘ ⇧ B` Toggle Outline Panel__
+- Edit
 
-__`⌘ ⇧ C` Copy as Markdown__
-__`⌘ ⇧ V` Paste as Plain Text__
+    __`⌘ ⇧ C` Copy as Markdown__
+    __`⌘ ⇧ V` Paste as Plain Text__
 
-__`⌘ d` Select Word__
-__`⌘ e` Select Styled Code__
-__`⌘ l` Select Line/Sentence__
+    __`⌘ d` Select Word__
+    __`⌘ e` Select Styled Code__
+    __`⌘ l` Select Line/Sentence__
 
-__`⌘ ↑` to Top__
-__`⌘ ↓` to Bottom__
+- Find
 
-__`⌘ ⌥ f` Find & Replace__
-__`⌘ ⌥ e` Replace Next__
-__`⌘ [ 1 ~ 5 ]` Heading 1 ~ 5__
+    __`⌘ ⌥ f` Find & Replace__
+    __`⌘ ⌥ e` Replace Next__
 
-__`⌘ t` Table__
-__`⌘ ⌥ c` Code Fences__
-__`⌘ ⌥ b` Math Block__
-__`⌘ ⌥ q` Quote__
+- Paragraph
 
-__`⌘ ⌥ o` Ordered List__
-__`⌘ ⌥ u` Unordered List__
-__`⌘ ⌥ x` Task List__
+    __`⌘ [ 1 ~ 5 ]` Heading 1 ~ 5__
 
-__`⌘ ⌥ l` Link Reference__
-__`⌘ ⌥ r` Footnotes__
+    __`⌘ t` Table__
+    __`⌘ ⌥ c` Code Fences__
+    __`⌘ ⌥ b` Math Block__
+    __`⌘ ⌥ q` Quote__
 
-__`⌘ ⇧ ~` Code__
-__`^ ⇧ ~` Strike__
-__`⌘ ⇧ -` Horizontal Line__
+    __`⌘ ⌥ o` Ordered List__
+    __`⌘ ⌥ u` Unordered List__
+    __`⌘ ⌥ x` Task List__
 
-__`⌘ ⌥ a` Hyperlink__
-__`⌘ ⌥ i` Image__
-__`⌘ \` Clear Format__
+    __`⌘ ⌥ l` Link Reference__
+    __`⌘ ⌥ r` Footnotes__
+    __`⌘ ⇧ -` Horizontal Line__
+
+- Format
+
+    __`⌘ ⇧ ~` Code__
+    __`^ ⇧ ~` Strike__
+
+    __`⌘ ⌥ a` Hyperlink__
+    __`⌘ ⌥ i` Image__
+    __`⌘ \` Clear Format__
+
+- Mv
+
+    __`⌘ ↑` to Top__
+    __`⌘ ↓` to Bottom__
+
+- View
+
+    __`⌘ ⇧ F` Full Screen__
+    __`⌘ ⇧ B` Toggle Outline Panel__
 
 # Vim
 
-_Only List the Useful Keys that I’m unfamiliar with ._
+Only List the Useful Keys that I’m unfamiliar with.
 
-`x` Del Char Forward ⌦
+- Del
 
-__`⇧ X` Del Char Backward ⌫__
+    `x` Del Char Forward ⌦
+    __`⇧ X` Del Char Backward ⌫__
 
-__`s` Del Char Forward & then Insert__
+    __`s` Del Char Forward & then Insert__
+    __`⇧ S` Del Current Line & then Insert__
+    __`⇧ C` Del to End of Line & then Insert__
+    __`⇧ D` Del to End of Line__
 
-__`⇧ S` Del Current Line & then Insert__
-__`⇧ C` Del to End of Line & then Insert__
-__`⇧ D` Del to End of Line__
+- Selcet Range
 
-__`⇧ Y` Copy Line without Line Break '\n' | '\r'__
-__`ciw` Del Word__
-__`caw` Del Word including the Following Spaces 凵__
+    __`ciw` Del Word__
+    __`caw` Del Word including the Following Spaces 凵__
 
-`xp` Exchange the Current Char and the Next Char
-`ddp` Exchange the Current Line and the Next Line
+    __`ci*` Select & Manipulate the string surrounded by `*`.__
+    __`ca*` Select & Manipulate the string surrounded by `*` including `*`.__
 
-__`ge` Goto Last Char of Prev Word__
-__`ga` Show ASCII of Char__
-__`g8` Goto UTF-8 of Char__
-__`gf` Open Path where Cursor is__
+- Cp
 
-`u` to Lowercase
-`⇧ U` to Uppercase
+    __`⇧ Y` Copy Line without Line Break '\n' | '\r'__
 
-`^ a` Increase Num
-`^ x` Decrease Num
+- Exchange
 
-`m` Set Mark
-__`'` Jump to Mark__
-__<code>`</code> Jump to Mark__
+    `xp` Exchange the Current Char and the Next Char
+    `ddp` Exchange the Current Line and the Next Line
 
-__`⇧ {` Prev Paragraph__
-__`⇧ }` Next Paragraph__
+- Check Encoding Value
 
-__`[[` Head of Prev Function {__
-__`]]` Head of Next Function }__
+    __`ga` Show ASCII of Char__
+    __`g8` Goto UTF-8 of Char__
 
-`;` Repeat the Last Manipulation from "F / f / T / t"
-__`"` Switch to some Register__
-__`-` Head of Prev Line__
-__`⇧ +` Head of Next Line__
+- Open Path
 
-`⇧ ZZ` Save & Quit
-__`⇧ ZQ` Quit without Saving__
+    __`gf` Open Path where Cursor is__
 
-__`^ o` Next Key will Act in Normal Mode ( in Insert Mode ), such as ^o then ⇧ A, or ^o then ⇧ I__
+- Lower or Upper Case
 
-( CTags )
-`^ ]` Find Declaration
-`^ t` Back from Declaration
+    `u` to Lowercase
+    `⇧ U` to Uppercase
 
-_Others are default as same as the description in the [Official Summary](http://www.vim.org/docs.php)_
+- Increase or Decrese Num
 
-_Use the Vim Distribution [SPF13](http://vim.spf13.com/)_
+    `^ a` Increase Num
+    `^ x` Decrease Num
 
-_Maybe I will write another article for Vim Later ._
+- Mv Cursor
+
+    __`ge` Goto Last Char of Prev Word__
+
+    `m` Set Mark
+    __`'` Jump to Mark__
+    __<code>`</code> Jump to Mark__
+
+    __`⇧ {` Prev Paragraph__
+    __`⇧ }` Next Paragraph__
+
+    __`[[` Head of Prev Function {__
+    __`]]` Head of Next Function }__
+
+    `;` Repeat the Last Manipulation from "F / f / T / t"
+    __`"` Switch to some Register__
+    __`-` Head of Prev Line__
+    __`⇧ +` Head of Next Line__
+
+- Save & Quit
+
+    `⇧ ZZ` Save & Quit
+    __`⇧ ZQ` Quit without Saving__
+
+- CTags
+
+    `^ ]` Find Declaration
+    `^ t` Back from Declaration
+
+- _Others are default as same as the description in the [Official Summary](http://www.vim.org/docs.php)_
+
+- Use the Vim Distribution [SPF13](http://vim.spf13.com/)
+
+- _Maybe I will write another article for Vim Later ._
 
 # VimFX
 
-_( Firefox Extension )_
+__VimFX is a Firefox Extension.__
 
-`o | c` Focus Address Bar
-`p | v` Open URL in Clipboard in Current Tab
-`P | V` Open URL in Clipboard in New Tab
-`yy | dd` Copy URL of Current Tab
-`J | z` Backward
-`K | b` Forward
-`gH` History Menu
-`r` Refresh
-`R` Refresh ( including Cache )
-`ar` Refresh All Tabs
-`aR` Refresh All Tabs  ( including Cache )
-`s` Stop Loading
-`as` Stop All Loading
+- Visit
 
-`j | ^ d | 凵` Scroll Dn a Half Page
-`k | ^ u | ⇧ 凵` Scroll Up a Half Page
+    `o | c` Focus Address Bar
+    `p | v` Open URL in Clipboard in Current Tab
+    `P | V` Open URL in Clipboard in New Tab
+    `yy | dd` Copy URL of Current Tab
 
-`h` Scroll Lf
-`l` Scroll Rg
-`^ j` Scroll Dn
-`^ k` Scroll Up
-`^ f` Scroll Dn a Whole Page
-`^ b` Scroll Up a Whole Page
-`gg` Scroll to Top
-`G` Scroll to Btm
+    `r` Refresh
+    `R` Refresh ( including Cache )
 
-`x` Close Current Tab
-`X` Reopen Last Closed Tab
-`t` New Tab
-__`yt | dt` Duplicate Current Tab__
-`w | H` Prev Tab
-`e | L` Next Tab
-`0 | 1 | ( | !` First Tab
-`4 | $` Last Tab
+    `ar` Refresh All Tabs
+    `aR` Refresh All Tabs  ( including Cache )
 
-`f` Open Link in Current Tab
-`F` Open Link in New Tab
-`⌫` Delete the Last Hint Character
-`凵 | ⇧ 凵` Switch Hint Layout
-__`gf` Open Link in New Tab & then Switch to it__
-__`gF` Open Link in New Window__
-__`^ v` Select Focus Point__
-__`[` Prev Page__
-__`]` Next Page__
-__`gi` Focus to First Input Box__
+    `s` Stop Loading
+    `as` Stop All Loading
 
-`/` Find
-`a/` Find All
-__`g/` Find in Links__
-`n` Next Match
-`N` Prev Match
+- Goto
 
-`⇧ I` Ignore Mode ( Ignore All VimFX Shortcuts )
-__`^ i` Exit Ignore Mode__
-`? | Q` Help Tips
-`⎋ | ^ [ | Z` Cancel
+    `z` Backward
+    `b` Forward
+
+    `f` Open Link in Current Tab
+    `F` Open Link in New Tab
+
+    `⌫` Delete the Last Hint Character
+    `凵 | ⇧ 凵` Switch Hint Layout
+
+    __`gf` Open Link in New Tab & then Switch to it__
+    __`gF` Open Link in New Window__
+
+    __`[` Prev Page__
+    __`]` Next Page__
+
+    `gH` History Menu
+
+    __`gi` Focus to First Input Box__
+    __`^ v` Select Focus Point__
+
+- Tab
+
+    `x` Close Current Tab
+    `X` Reopen Last Closed Tab
+
+    `t` New Tab
+    __`yt | dt` Duplicate Current Tab__
+
+    `w | H` Prev Tab
+    `e | L` Next Tab
+
+    `0 | 1 | ( | !` First Tab
+    `4 | $` Last Tab
+
+- View
+
+    `j | ^ d | 凵` Scroll Dn a Half Page
+    `k | ^ u | ⇧ 凵` Scroll Up a Half Page
+
+    `h` Scroll Lf
+    `l` Scroll Rg
+
+    `^ j` Scroll Dn
+    `^ k` Scroll Up
+    `^ f` Scroll Dn a Whole Page
+    `^ b` Scroll Up a Whole Page
+
+    `gg` Scroll to Top
+    `G` Scroll to Btm
+
+- Find
+
+    `/` Find
+    `a/` Find All
+    __`g/` Find in Links__
+
+    `n` Next Match
+    `N` Prev Match
+
+- Others
+
+    `⇧ I` Ignore Mode ( Ignore All VimFX Shortcuts )
+    __`^ i` Exit Ignore Mode__
+    `? | Q` Help Tips
+    `⎋ | ^ [` Cancel
 
 # WeChat
 
@@ -732,20 +940,21 @@ __`^ i` Exit Ignore Mode__
 
 # Zsh
 
-`^ f` Move Cursor Rg
-`^ b` Move Cursor Lf
-`^ a` Move Cursor to Head of Line
-`^ e` Move Cursor to End of Line
-
-`^ d` Del Forward ⌦
-
-`^ h` Del Backward ⌫
-
-`^ w` Del Word
-`^ k` Del to End of Line
-`^ u` Del Line
-
 `^ v` Edit Command Line in Vim
 
-_Use [oh-my-zsh](http://ohmyz.sh/) —— A framework for managing your ZSH configuration ._
+- Emacs Mode
+
+    `^ f` Mv Cursor Rg
+    `^ b` Mv Cursor Lf
+    `^ a` Mv Cursor to Head of Line
+    `^ e` Mv Cursor to End of Line
+
+    `^ d` Del Forward ⌦
+    `^ h` Del Backward ⌫
+
+    `^ w` Del Word
+    `^ k` Del to End of Line
+    `^ u` Del Line
+
+- Use [oh-my-zsh](http://ohmyz.sh/) —— A framework for managing your ZSH configuration .
 
