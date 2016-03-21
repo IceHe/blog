@@ -7,7 +7,7 @@ description: 在有编程基础的情况下，通过快速浏览示例代码，�
 
 - _Updated on 2016-03-13_
 
-# __References__
+# References
 
 - [AppleScript Fundamentals](https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html) —— Apple Official Docs
 
@@ -20,9 +20,7 @@ description: 在有编程基础的情况下，通过快速浏览示例代码，�
     1. [AppleScript_for_Evernote](https://github.com/IceHe/AppleScript_for_Evernote)
     2. [AppleScript_for_me](https://github.com/IceHe/AppleScript_for_me)
 
-<br/>
-
-# __Fundamentals__
+# Fundamentals
 
 - Export `*.scpt` as a runable Application（导出为可运行程序）:
     Menu Bar `File` → `Export` → Choose Format `Application` → Click `Save`
@@ -140,7 +138,6 @@ Types and their related operations.
     not variable
     class of variable
 ```
-
 
 ### Date
 
@@ -387,20 +384,17 @@ Result :
 
 ## Components
 
-Src Code :
 ``` applescript
 -- log 历史记录
+
 log pi
 log test
-```
 
-Result :
-``` applescript
+# log result
 (*3.14159265359*)
 (*test*)
-```
 
-``` applescript
+
 -- Execute Shell Commands
 
     set fileInfo to do shell script "cd ~; ls"
@@ -471,9 +465,6 @@ Result :
     log text returned of result
 ```
 
-
-<br/>
-
 ## Advanced
 
 It is not the whole AppleScript above.
@@ -483,3 +474,4 @@ If you want know more in detail, please read [official documentations](https://d
 
     1. [用 AppleScript 操作 Evernote / OS X](/applescript/evernote/)
     2. [A service to log Dictionary lookups ](http://hints.macworld.com/article.php?story=20121106085330476)
+

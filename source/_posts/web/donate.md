@@ -9,18 +9,15 @@ description: 可用一个简单的表单（form 标签），通过POST一键自�
 
 原来的支付宝钱包有一个实用的功能 「**一键转账**」，使用便捷，且页面看起来专业、正规，令人放心。它对业务站点而言，无疑是个福音。普通博主、站长也常将其用于捐赠和打赏。但支付宝的[**个人收款主页 停止服务**](http://www.ithome.com/html/it/83096.htm)后，支付宝已经无法实现该功能了。
 
-<br/>
-
-#### 曲线救国 —— 新方法
----
+# 曲线救国 —— 新方法
 
 可以使用一个简单的**表单**（form 标签），通过**POST**一键自动填写「[支付宝转账页面](https://shenghuo.alipay.com/send/payment/fill.htm)」的信息。方便您的访客、用户转账捐赠、打赏您。
 
-<br/>
-
 - **HTML 代码**
+
 *注意：修正其中需要您填写的部分。*
-```html
+
+``` html
 <form action="https://shenghuo.alipay.com/send/payment/fill.htm"
 	method="POST" target="_blank" accept-charset="GBK">
 	<input name="optEmail" type="hidden" value="你的支付宝账号" />
@@ -32,23 +29,18 @@ description: 可用一个简单的表单（form 标签），通过POST一键自�
 </form>
 ```
 
-<br/>
-
 - **显示效果**
 
 <form action="https://shenghuo.alipay.com/send/payment/fill.htm" method="POST" target="_blank" accept-charset="GBK" style="margin-left: 25px; display: inline;">	<input name="optEmail" type="hidden" value="你的支付宝账号" />	<input name="payAmount" type="hidden" value="默认的捐赠金额" />	<input id="title" name="title" type="hidden" value="默认显示的付款说明" />	<input name="memo" type="hidden" value="备注" />	<input name="pay" type="image" value="转账" src="https://img.alipay.com/sys/personalprod/style/mc/btn-index.png" />	</form>
 
-<br/>
-
 - Reference 参考资料
 《[博客网站支付宝打赏功能](http://www.zzyyss.com/archives/809)》
 
-<br/>
+# 笔者的自定义的“打赏”按钮
 
-#### 笔者的自定义的“打赏”按钮
----
 - **HTML 代码**：
-```html
+
+``` html
 	<!-- 打赏表单 -->
 	<form id="donate" action="https://shenghuo.alipay.com/send/payment/fill.htm" 
 		method="POST" target="_blank" accept-charset="GBK" style="display: none;">
@@ -94,12 +86,11 @@ description: 可用一个简单的表单（form 标签），通过POST一键自�
 	<!-- /打赏按钮 -->
 ```
 
-<br/>
+# 进阶的 “打赏” 按钮
 
-#### 进阶的 “打赏” 按钮
----
 - 本博客的打赏按钮的实际代码根据需求不断进行调整，最后更新的版本如下：
-```html
+
+``` html
 <!-- Donate Module -->
 <div id="donate_module">
 	<!-- css -->
@@ -209,8 +200,6 @@ description: 可用一个简单的表单（form 标签），通过POST一键自�
 </div>
 <!-- /Donate Module -->
 ```
-
-<br/>
 
 - 以下是本博客打赏按钮的**显示效果**，*点击可以打赏博主哦~*
 

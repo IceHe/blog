@@ -9,7 +9,7 @@ description: 在 OS X 上，如何使用 AppleScript 操作 Evernote、OS X。
 - I supposed that you have learned AppleScript, so I will not introduce it in detail.
 - You can learn AppleScript in practice or my [AppleScript Quick Start 快速入门](/applescript/applescript/).
 
-## __References__
+# References
 
 - [AppleScript Quick Start 快速入门](/applescript/applescript/) —— My Blog Article
 - [AppleScript Fundamentals](https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html) —— Apple Official Docs
@@ -23,9 +23,7 @@ description: 在 OS X 上，如何使用 AppleScript 操作 Evernote、OS X。
     1. [AppleScript_for_Evernote](https://github.com/IceHe/AppleScript_for_Evernote)
     2. [AppleScript_for_me](https://github.com/IceHe/AppleScript_for_me)
 
-<br/>
-
-## __Evernote__
+# Evernote
 
 I just list the code that I use most frequently.
 
@@ -34,7 +32,7 @@ If you want further use of manipulating Evernote by AppleScript, you can read th
 There is only some sample code, so it cannot run successfully in this order.
 But you can learn how to manipulate Evernote with AppleScript from it.<br/><br/>
 
-### __Evernote__
+## Evernote
 
 - Launch, Sync, Wait, Quit
 
@@ -65,9 +63,7 @@ if application "Evernote" is running then
 end if
 ```
 
-<br/>
-
-### __Notebook__
+## Notebook
 
 - Exist, Create, Rename, Delete
 
@@ -118,9 +114,7 @@ tell application "Evernote"
 end tell
 ```
 
-<br/>
-
-### __Note__
+## Note
 
 - Exist, Find, Create, Import, Export, Read, Rename, Move, Delete
 
@@ -179,8 +173,6 @@ tell application "Evernote"
     end if
 end tell
 ```
-
-<br/>
 
 - Simplify Formating
 
@@ -265,13 +257,11 @@ end tell
 return the clipboard
 ```
 
-<br/>
-
-## __OS X__
+# OS X
 
 If your Mac does not have some commands as mentioned below, you can install them through `Homebrew`.
 
-### Is application running?
+## Is application running?
 
 ``` applescript
 set app_name to "app_1"
@@ -281,7 +271,7 @@ tell application "System Events"
 end tell
 ```
 
-### Is network available?
+## Is network available?
 
 ``` applescript
 repeat with i from 1 to 5
@@ -303,7 +293,7 @@ end repeat
 return true
 ```
 
-### Switch Wi-fi
+## Switch Wi-fi
 
 You need to show Wi-Fi status in menu bar:
 `System Preferences` → `Network` → Check `Show Wi-Fi status in menu bar`.
@@ -337,7 +327,7 @@ end tell
 return true
 ```
 
-### Is Bluetooth ON?
+## Is Bluetooth ON?
 
 You need to install the command `blueutil` (through `Homebrew`).
 
@@ -347,7 +337,7 @@ set is_bluetooth_on to do shell script "/usr/local/bin/blueutil power"
 return ("1" = is_bluetooth_on)
 ```
 
-### Swith Bluetooth
+## Swith Bluetooth
 
 ``` applescript
 set flag to true
@@ -382,7 +372,7 @@ end tell
 return true
 ```
 
-### Input Key Code / Keystroke
+## Input Key Code / Keystroke
 
 ``` applescript
 set app_name to "app_1"
@@ -410,7 +400,7 @@ tell application "System Events" to tell process app_name
 end tell
 ```
 
-### Eject Disk
+## Eject Disk
 
 ``` applescript
 tell application "Finder"
@@ -445,7 +435,7 @@ tell application "Finder"
 end tell
 ```
 
-### Execute Commands in iTerm
+## Execute Commands in iTerm
 
 The version of iTerm is beta 3.0.
 
@@ -484,6 +474,4 @@ tell application "iTerm"
 
 end tell
 ```
-
-<br/>
 

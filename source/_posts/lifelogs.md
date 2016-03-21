@@ -6,26 +6,20 @@ description: 个人时间管理日志。
 ---
 
 - *Updated on 2016-03-01*
-<br/>
 
-#### Related
----
+## Related
+
 - <i class="fa fa-list">&nbsp;</i> &nbsp;__[Index 博客目录](/index)__
-
 - [Explanations for Log Format - 日志记录格式的说明](/think/time_mgt/)
 
-<br/>
+## 2014
 
-#### 2014
----
 0. [八至十二月 时间统计： 实习，校招。 Aug ~ Dec Time Stat: intership, campus recruiting.](/lifelogs/2014/2014 Aug~Dec Time Statistics - From aTimeLogger.html)
 11. [十一月：挣扎，旅行，云南。 Nov: struggle, travel, Yunnan, Lijiang.](/lifelogs/2014/11/index.html)
 12. [十二月：实习，旅行，北京。 Dec: intership, travel, Beijing.](/lifelogs/2014/12/index.html)
 
-<br/>
+## 2015
 
-#### 2015
----
 1. [一月：适应，北京。 Jan: adapt, Beijing.](/lifelogs/2015/01/index.html)
 2. [二月：压力，新年。 Feb: pressure, new year.](/lifelogs/2015/02/index.html)
 3. [三月：技术博客，工具控。 Mar: tech blog, tool zealot.](/lifelogs/2015/03/index.html)
@@ -39,9 +33,7 @@ description: 个人时间管理日志。
 11. [十一月：运动，饮食，睡眠，好习惯。 Nov: sports, eating, sleep, good habits.](/lifelogs/2015/11/index.html)
 12. [十二月：学习，运动。 Dec: learn, sports.](/lifelogs/2015/12/index.html)
 
-<br/>
+## 2016
 
-#### 2016
----
 1. [一月：月光，学习。 Jan: use up, learn.](/lifelogs/2016/01/index.html)
 2. [二月：休息，懒。 Feb: Relax, lazy.](/lifelogs/2016/02/index.html)

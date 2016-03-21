@@ -7,9 +7,9 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - *Updated on 2016-03-17*
 
-## **IT 信息技术**
+# IT 信息技术
 
-### **OL Tools 在线工具**
+## OL Tools 在线工具
 
 - [Cheat-Sheets.org](http://www.cheat-sheets.org/) / [Our Favourite Cheat Sheets](http://whatis.techtarget.com/reference/Our-Favorite-Cheat-Sheets#operating) —— 知识速查清单。
 
@@ -31,9 +31,7 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - [Public DNS](http://www.ip.cn/dns.html) —— 公共 DNS 服务器 IP 列表。
 
-<br/>
-
-### **Web Refs 参考**
+## Web Refs 参考
 
 - [jQuery Docs Refs](http://tool.oschina.net/apidocs/apidoc?api=jquery)
 
@@ -61,9 +59,7 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - [CSS之各种居中](https://segmentfault.com/a/1190000004260458)
 
-<br/>
-
-#### [Dynamic Cheat Sheets](http://www.cheatography.com/)
+### [Dynamic Cheat Sheets](http://www.cheatography.com/)
 
 _Need to screen the content of this section._ <sup>_todo_</sup>
 
@@ -104,9 +100,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 - [Accounting Principles and Business Transactions](http://www.cheatography.com/thuhuong/cheat-sheets/accounting-principles-and-business-transactions/)
     / [Sociology 344 Final](http://www.cheatography.com/connorb/cheat-sheets/sociology-344-final/) / [Quantitative Methods Final Exam](http://www.cheatography.com/rockcollector2/cheat-sheets/quantitative-methods-final-exam/)
 
-<br/>
-
-### **Docs 文档**
+## Docs 文档
 
 <br/>*最好的习惯：查阅官方网站的文档。*
 
@@ -124,9 +118,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [Mac Developer Library](https://developer.apple.com/library/mac/navigation/) —— including&nbsp; [AppleScript Language Guide](https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html)
 
-<br/>
-
-### **Algorithm 算法**
+## Algorithm 算法
 
 - [我的算法学习之路](http://lucida.me/blog/on-learning-algorithms/) <sup>_todo_</sup>
 
@@ -144,9 +136,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [LeetCode](https://leetcode.com/),&nbsp; [UVa](https://uva.onlinejudge.org/),&nbsp; [PKU](http://poj.org/),&nbsp; [HDU](http://acm.hdu.edu.cn/) —— Online Judge <sup>_todo_</sup>
 
-<br/>
-
-### **Coding 编码**
+## Coding 编码
 
 - [关于编程错误的思考](http://zh.lucida.me/blog/on-programming-errors-2/)
 
@@ -168,9 +158,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [中文编码杂谈](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=401458542&amp;idx=1&amp;sn=8b92d5fb274760558154eb38a7a796de&amp;scene=1&amp;srcid=0104vzltG2BqJX4KXEWMcK4N#rd)
 
-<br/>
-
-### **Read 阅读**
+## Read 阅读
 
 - [编程入门指南 v1.4](http://zhuanlan.zhihu.com/xiao-jing-mo/19959253) <sup>_todo_</sup>
 
@@ -210,9 +198,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [知识的偏见 - 读《暗时间》的思考](http://www.jianshu.com/p/5c051b66c844) —— 「如果你手里有把锤子，所有东西看上去都想钉子。」
 
-<br/>
-
-### **Web Dev 开发**
+## Web Dev 开发
 
 - [design+code (前端教程)](https://designcode.io/) <sup>_todo_</sup>
 
@@ -232,9 +218,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [HTML 中 Head 头结构](http://segmentfault.com/a/1190000000697532) <sup>_todo_</sup>
 
-<br/>
-
-### **Architecture 架构**
+## Architecture 架构
 
 - [从无到有：微信后台系统的演进之路](http://www.infoq.com/cn/articles/the-road-of-the-growth-weixin-background) <sup>__Best__</sup>
 
@@ -258,9 +242,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [什么不要做？关于失败和优化](http://zhuanlan.zhihu.com/yilecoming/20587867)
 
-<br/>
-
-### **Linux**
+## Linux
 
 - [Filesystem Hierarchy Standard](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard) —— 各目录用途。
 
@@ -284,9 +266,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [Unix 现状与未来](http://blog.csdn.net/haoel/article/details/1688006)
 
-<br/>
-
-### **Secure 安全**
+## Secure 安全
 
 - [WooYun 知识库](http://drops.wooyun.org/) <sup>_todo_</sup>
 
@@ -300,9 +280,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [加盐密码哈希：如何正确使用](http://blog.jobbole.com/61872/) —— [英文出处](https://crackstation.net/hashing-security.htm)。 <sup>__Best__</sup>
 
-<br/>
-
-### **Career 职业生涯**
+## Career 职业生涯
 
 - [为什么有些大公司技术弱爆了？](https://www.zhihu.com/question/32039226)
 
@@ -315,9 +293,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [精益技术简历之道——改善技术简历的47条原则](http://zh.lucida.me/blog/lean-technical-resume/) —— Google 工程师，[Lucida](http://lucida.me/)。
 
-<br/>
-
-### **Industry 行业**
+## Industry 行业
 
 - [SteveY对Amazon和Google平台的吐槽](http://coolshell.cn/articles/5701.html) —— [Steve Yegge](https://en.wikipedia.org/wiki/Steve_Yegge)。 <sup>__Best__</sup>
 
@@ -335,9 +311,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [China’s Great Cannon](https://citizenlab.org/2015/04/chinas-great-cannon/)
 
-<br/>
-
-### **Mgt 管理**
+## Mgt 管理
 
 - [故障之后](http://card.weibo.com/article/h5/s#cid=1001603848245896980234) —— 故障之后，加流程还是改进技术？ <sup>__Best__</sup>
 
@@ -357,9 +331,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [如何留住员工的心？这家公司的「员工留存率」高达 95%！](http://weibo.com/ttarticle/p/show?id=2309403945361273143607)
 
-<br/>
-
-### **Oth Tools 工具**
+## Oth Tools 工具
 
 - [极客学院](http://www.jikexueyuan.com/) <sup>_todo_</sup>
 
@@ -373,13 +345,11 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [MacTips](http://zhuanlan.zhihu.com/MacTips) —— 专注于分享 Mac 使用经验和技巧。
 
-<br/>
-
-## **Articles 文章**
+# Articles 文章
 
 - [写给大家看的中文排版指南](http://zhuanlan.zhihu.com/uicircle/20506092)
 
-### **Life 人生**
+## Life 人生
 
 - [若一辈子没有赚大钱，当大官，和自己爱的人在一起（哪怕一次），活着能算有意义吗？](https://www.zhihu.com/question/24561532/answer/28240920) —— 灯塔。 <sup>__Best__</sup>
 
@@ -415,9 +385,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [《 潜台词 》李松蔚 的知乎专栏](http://zhuanlan.zhihu.com/lswlsw) —— 洞悉人心。
 
-<br/>
-
-### **Rel 关系**
+## Rel 关系
 
 - [本分和情分](http://zhuanlan.zhihu.com/xinliyushenghuo/19993302) —— 「别人帮你，那是情分，不帮你，那是本分。容不容得下是你的气度，能不能让你容下是我的本事。」
 
@@ -451,9 +419,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [送礼的秘诀是什么？](https://www.zhihu.com/question/20455039) —— 「送者心安，受者心欢。」
 
-<br/>
-
-### **Think 思维**
+## Think 思维
 
 - [智商高低是因为思维习惯不同造成的吗？](https://www.zhihu.com/question/27283467) —— 思考能力。 <sup>__Best__</sup>
 
@@ -485,9 +451,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [个人成长理论、工具](http://blog.hiddenwangcc.com/sharewithu) —— 可供参考。
 
-<br/>
-
-### **Health 健康**
+## Health 健康
 
 - [生命真的在于运动么？](https://www.zhihu.com/question/24498231) —— 生命在于运动。 <sup>__Best__</sup>
 
@@ -517,9 +481,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [怎样纠正成年人驼背、耸肩的体态？](https://www.zhihu.com/question/19985122) —— 挺拔。 
 
-<br/>
-
-### **EN 英语**
+## EN 英语
 
 - [程序员英语学习指引](http://lucida.me/blog/english-for-programmers/) —— 「除非你阅读原版书籍和中文书籍一样顺畅，或者翻译书籍信息损失量太大，否则不需要刻意阅读原版。」<sup>_todo_</sup>
 
@@ -533,9 +495,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [39 Incorrectly Used Words That Can Make You Look Bad](https://www.linkedin.com/pulse/39-incorrectly-used-words-can-make-you-look-bad-jeff-haden?trk=eml-b2_content_ecosystem_digest-recommended_articles-186-null&midToken=AQGECgCdtokxPw&fromEmail=fromEmail&ut=2gQ0szrgpahCI1) <sup>_todo_</sup>
 
-<br/>
-
-### **Finance 理财**
+## Finance 理财
 
 - **[商业分析能力是怎样炼成的？](https://www.zhihu.com/question/20603837/answer/47073613)** <sup>__Best__</sup>
 
@@ -547,9 +507,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [为什么跳槽加薪会比内部调薪要高？](https://www.zhihu.com/question/20564224) —— 瞬时市场定价。 
 
-<br/>
-
-### **Eat 吃**
+## Eat 吃
 
 - [北京有哪些深藏不露的餐馆？](https://www.zhihu.com/question/30400300) —— 聊以自慰。 
 
@@ -557,9 +515,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [2015年中国100最佳餐厅完全榜单](http://mp.weixin.qq.com/s?__biz=MjM5MDE4ODIzMg==&amp;mid=206234405&amp;idx=1&amp;sn=70dfa683c1db46303d18adc6fc6095a2&amp;scene=1#rd)
 
-<br/>
-
-### **Play 玩**
+## Play 玩
 
 - [广州有什么「鲜为人知但很有意思」的景点？](https://www.zhihu.com/question/21648404)
 
@@ -569,9 +525,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [有哪些电影一定要趁年轻看？](https://www.zhihu.com/question/25699277) <sup>_todo_</sup>
 
-<br/>
-
-### **Buy 买**
+## Buy 买
 
 - [有哪些尚未普及却非常好用的东西？](https://www.zhihu.com/question/38821362) —— 生活质量。
 
@@ -579,9 +533,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [耳机选购大全：不败家！不白瞎！够用就好？](http://mp.weixin.qq.com/s?__biz=MjM5Njk4OTQwMQ==&amp;mid=401415614&amp;idx=1&amp;sn=16d3206bd1e3f502c4635b5348b151d1&amp;scene=1&amp;srcid=1207BJEB4qWQBFhX3Yq0zXH1#rd) —— 实用主义，极简主义。（好用，便携，高性价比）
 
-<br/>
-
-### __Clothing 衣__
+## __Clothing 衣__
 
 - [男生基本款](https://www.zhihu.com/question/29347945/answer/44802155)
 - [男生长得难看怎么办](https://www.zhihu.com/question/25485795)
@@ -595,9 +547,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 - [有哪些双肩包潮牌推荐？](https://www.zhihu.com/question/20494311)
 - [爱美之心 - 收藏夹 - 知乎](https://www.zhihu.com/collection/20333571)
 
-<br/>
-
-### **Oth 杂**
+## Oth 杂
 
 - [如何系统地练字？](https://www.zhihu.com/question/20502275) —— 手写的乐趣。
 
@@ -613,9 +563,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [我是怎么找电子书的？](http://mp.weixin.qq.com/s?__biz=MzA4MjMwODUwNQ==&mid=402644191&idx=2&sn=b1cce3992ff6f10eb9e4026d621724a1&scene=1&srcid=0202z7nxM3czSEJ0TUhH5VtX#rd) <sup>_todo_</sup>
 
-<br/>
-
-## **Related 相关**
+# Related 相关
 
 - <i class="fa fa-list">&nbsp;</i> &nbsp;__[Index 博客目录](/index)__
 
