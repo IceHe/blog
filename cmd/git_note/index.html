@@ -3,17 +3,18 @@
   <!DOCTYPE HTML>
 <html lang="default">
 <head>
-  <meta charset="UTF-8">
-  
 
-	<title>Git Note | Ice He 何志远</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
-	
-	<meta name="author" content="IceHe何志远">
-	
+    <meta charset="UTF-8">
+    
+    <title>Git Note | Ice He 何志远</title>
 
-	
-	<meta name="description" content="我的 Git 笔记，日常工作曾使用的指令组合。">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+
+    <meta name="author" content="IceHe何志远"> 
+
+    
+
+    <meta name="description" content="我的 Git 笔记，日常工作曾使用的指令组合。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Git Note">
 <meta property="og:url" content="http://icehe.me/cmd/git_note/index.html">
@@ -30,34 +31,23 @@
 <meta name="twitter:title" content="Git Note">
 <meta name="twitter:description" content="我的 Git 笔记，日常工作曾使用的指令组合。">
 
-  
-  <link rel="alternative" href="/atom.xml" title="Ice He 何志远" type="application/atom+xml">
-  
-  
-  <link rel="icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon.ico">
-  
-  
-  <link rel="apple-touch-icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
-  <link rel="apple-touch-icon-precomposed" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
-  
+    <link rel="alternative" href="/atom.xml" title="Ice He 何志远" type="application/atom+xml">
 
-  <!-- <link rel="stylesheet" href="/css/style.css" type="text/css"> -->
-  <!--<link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/css/style.css" type="text/css">-->
-  <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link rel="icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon.ico">
+    <link rel="apple-touch-icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
 
-  <!-- 百度站内搜索 for github站 icehe.me -->
-  <!--<meta name="baidu-site-verification" content="04tLeUMqMf" />-->
-  <!-- 百度站内搜索 for github站 icehe.github.io -->
-  <!--<meta name="baidu-site-verification" content="HpoaJokwfB" />-->
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <!--<link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/css/style.css" type="text/css">-->
 
-  <!-- 谷歌站长工具 元标签验证码 -->
-  <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
+    <!-- 谷歌站长工具 元标签验证码 -->
+    <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
-  <!-- 微博开放平台 元标签验证码 -->
-  <meta property="wb:webmaster" content="84efd5956048ab8f" />
+    <!-- 微博开放平台 元标签验证码 -->
+    <meta property="wb:webmaster" content="84efd5956048ab8f" />
 
-  <!-- Google Fonts from 360 CDN -->
-  <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
+    <!-- Google Fonts from 360 CDN -->
+    <!-- 该字体停用 --><!--<link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
 
   <!-- Common CSS -->
   <style type="text/css">
@@ -647,6 +637,13 @@ document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thr
 </div>  
       <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
 
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">Contents</strong>
+ 
+ <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#References"><span class="toc-number">1.</span> <span class="toc-text">References</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Memo"><span class="toc-number">2.</span> <span class="toc-text">Memo</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Check_检查"><span class="toc-number">2.1.</span> <span class="toc-text">Check 检查</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Index_索引"><span class="toc-number">2.2.</span> <span class="toc-text">Index 索引</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Back_反悔"><span class="toc-number">2.3.</span> <span class="toc-text">Back 反悔</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Branch_分支"><span class="toc-number">2.4.</span> <span class="toc-text">Branch 分支</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Config_配置"><span class="toc-number">2.5.</span> <span class="toc-text">Config 配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pull_&_Push"><span class="toc-number">2.6.</span> <span class="toc-text">Pull & Push</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Rebase_变基"><span class="toc-number">2.7.</span> <span class="toc-text">Rebase 变基</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Abbreviations"><span class="toc-number">2.8.</span> <span class="toc-text">Abbreviations</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Short_Docs"><span class="toc-number">3.</span> <span class="toc-text">Short Docs</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Setup_&_Config"><span class="toc-number">3.1.</span> <span class="toc-text">Setup & Config</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Create_&_Get_Proj"><span class="toc-number">3.2.</span> <span class="toc-text">Create & Get Proj</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Snapshot"><span class="toc-number">3.3.</span> <span class="toc-text">Snapshot</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Branch_&_Merge"><span class="toc-number">3.4.</span> <span class="toc-text">Branch & Merge</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Share_&_Update"><span class="toc-number">3.5.</span> <span class="toc-text">Share & Update</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Inspect_&_Compare"><span class="toc-number">3.6.</span> <span class="toc-text">Inspect & Compare</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Patch"><span class="toc-number">3.7.</span> <span class="toc-text">Patch</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Debug"><span class="toc-number">3.8.</span> <span class="toc-text">Debug</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Administration"><span class="toc-number">3.9.</span> <span class="toc-text">Administration</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Email"><span class="toc-number">3.10.</span> <span class="toc-text">Email</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#External_Systems"><span class="toc-number">3.11.</span> <span class="toc-text">External Systems</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Server_Admin"><span class="toc-number">3.12.</span> <span class="toc-text">Server Admin</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Plumbing_Cmds"><span class="toc-number">3.13.</span> <span class="toc-text">Plumbing Cmds</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-gitignore"><span class="toc-number">3.14.</span> <span class="toc-text">.gitignore</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Concepts"><span class="toc-number">4.</span> <span class="toc-text">Concepts</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Commit_ID"><span class="toc-number">4.1.</span> <span class="toc-text">Commit ID</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Refname"><span class="toc-number">4.2.</span> <span class="toc-text">Refname</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Differ_^_and_~"><span class="toc-number">4.2.1.</span> <span class="toc-text">Differ ^ and ~</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#File_Statuses"><span class="toc-number">4.3.</span> <span class="toc-text">File Statuses</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Objects"><span class="toc-number">4.4.</span> <span class="toc-text">Objects</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Cmd_Prompt"><span class="toc-number">4.5.</span> <span class="toc-text">Cmd Prompt</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Reset_Mode"><span class="toc-number">4.6.</span> <span class="toc-text">Reset Mode</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#credential-helper"><span class="toc-number">4.7.</span> <span class="toc-text">credential.helper</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Rebase_Example"><span class="toc-number">4.8.</span> <span class="toc-text">Rebase Example</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hook"><span class="toc-number">4.9.</span> <span class="toc-text">Hook</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Zsh_Aliases"><span class="toc-number">5.</span> <span class="toc-text">Zsh Aliases</span></a></li></ol>
+ 
+  </div>
+
 
 <script type="text/javascript">
     function switch_widget_hidden(widget_a_elem){
@@ -860,6 +857,8 @@ $(document).ready(function(){
       m.removeClass('moveMain');
       a.css('display', 'block').removeClass('fadeOut');
       o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
       
     }
   });

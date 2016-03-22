@@ -1650,35 +1650,6 @@ section.comment {
   -ms-transition: color 0.5s;
   transition: color 0.5s;
 }
-.sitelist {
-  font-size: 90%;
-  margin-top: 0.5em;
-}
-@media only screen and (min-width: 768px) {
-  .sitelist {
-    width: 45%;
-    float: left;
-    margin: 0 5% 0 0;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .sitelist {
-    width: 100%;
-    float: none;
-    margin: 1em 0 0;
-  }
-}
-.sitelist ul {
-  margin: 0.4em 0;
-}
-.sitelist ul li {
-  font-size: 85%;
-  display: block;
-}
-.sitelist ul select {
-  margin-bottom: 0.3em;
-  display: block;
-}
 .categorieslist {
   font-size: 90%;
 }
@@ -1896,27 +1867,6 @@ section.comment {
   -ms-transition: color 0.25s;
   transition: color 0.25s;
 }
-.weiboshow {
-  font-size: 95%;
-  margin-top: 0.5em;
-}
-@media only screen and (min-width: 768px) {
-  .weiboshow {
-    width: 45%;
-    float: left;
-    margin: 0 5% 0 0;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .weiboshow {
-    width: 100%;
-    float: none;
-    margin: 1em 0 0;
-  }
-}
-.weiboshow iframe {
-  padding: 0.5em 0;
-}
 .popularlist {
   font-size: 90%;
 }
@@ -1950,70 +1900,6 @@ section.comment {
 }
 .popularlist li:nth-child(10) {
   border-bottom: 2px solid #ccc;
-}
-.find_me {
-  font-size: 95%;
-  margin-top: 0.5em;
-}
-.find_me .asidetitle {
-  margin-top: -0.8em;
-}
-@media only screen and (min-width: 768px) {
-  .find_me {
-    width: 45%;
-    float: left;
-    margin: 0 5% 0 0;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .find_me {
-    width: 100%;
-    float: none;
-    margin: 1em 0 0;
-  }
-}
-.find_me .puzzle {
-  padding-top: 0.7em;
-}
-.doubanshow {
-  margin-top: 0.5em;
-}
-@media only screen and (min-width: 768px) {
-  .doubanshow {
-    width: 45%;
-    float: left;
-    margin: 0 5% 0 0;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .doubanshow {
-    width: 100%;
-    float: none;
-    margin: 1em 0 0;
-  }
-}
-.doubanshow div {
-  padding: 0.5em 0;
-}
-.github-card {
-  margin-top: 1.5em;
-}
-@media only screen and (min-width: 768px) {
-  .github-card {
-    width: 45%;
-    float: left;
-    margin: 0 5% 0 0;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .github-card {
-    width: 100%;
-    float: none;
-    margin: 1em 0 0;
-  }
-}
-.github-card div {
-  padding: 0.5em 0;
 }
 footer {
   display: none;
