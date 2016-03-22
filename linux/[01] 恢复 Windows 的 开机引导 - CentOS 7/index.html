@@ -88,7 +88,7 @@
 
 	<div id="textlogo">
 		<h1 class="site-name"><a href="/" title="Ice He 何志远">Ice He 何志远</a></h1>
-		<h2 class="blog-motto">Less is more  宁静致远</h2>
+		<h2 class="blog-motto">More is in vain when less will serve.</h2>
 	</div>
 	<div class="navbar">
 		<a class="navbutton navmobile" href="#" title="Menu"></a>
@@ -97,11 +97,11 @@
 		<ul>
 			<ul>
 			
-				<li><a href="/">Blog 文</a></li>
-			
-				<li><a href="/about">Me 我</a></li>
+				<li><a href="/">Home 首页</a></li>
 			
 				<li><a href="/index">Index 目录</a></li>
+			
+				<li><a href="/about">Me 我</a></li>
 			
 				<li>
 				
@@ -129,18 +129,19 @@
     
       <a href="/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/" title="(01) 恢复 Windows 的 开机引导 - CentOS 7" itemprop="url" class="article-url">(01) 恢复 Windows 的 开机引导 - CentOS 7</a>
   </h1>
-  <p class="article-readtimes">
-    Read ( <span class="readtimes">?</span> )
-  </p>
-  <p class="article-author"> By
+  <p class="article-author hidden"> By
     
     <a href="/about" title="IceHe何志远" target="_blank" itemprop="author">IceHe何志远</a>
     
   </p>
-  <p class="article-time">
-    <time datetime="2015-03-20T16:00:00.000Z" itemprop="datePublished"> Published 2015 Mar 21</time>
+  <p class="article-readtimes">
+    <time datetime="2015-03-20T16:00:00.000Z" itemprop="datePublished">2015-03-21</time>&nbsp; / &nbsp;<span class="readtimes">?</span> views
   </p>
+  <!--<p class="article-time">-->
+    <!--<time datetime="2015-03-20T16:00:00.000Z" itemprop="datePublished"> Pub 2015-03-21</time>-->
+  <!--</p>-->
 </header>
+
 	<div class="article-content">
 		
 		<en-note><div><span>Ref From: <a shape="rect" href="http://www.bkjia.com/xtzh/905081.html" target="_blank">http://www.bkjia.com/xtzh/905081.html</a></span></div><div><span>Original Title: CentOS 7安装后恢复Windows引导</span></div><div><br clear="none"></div><div>CentOS 7 正式版，和 REDHAT 7 一样，</div><div>Grub2不能正确引导windows分区。</div><div><br clear="none"></div><div><strong>解决方法：</strong></div><div><br clear="none"></div><div><strong>打开 /boot/grub2/grub.cfg</strong></div><div>在### END /etc/grub.d/00_header ###后，<strong>修改</strong>：</div><div><br clear="none"></div><div><strong>### BEGIN /etc/grub.d/30_os-prober ###</strong></div><div><strong>menuentry 'Windows 8 (loader) (on /dev/sda1)' --class windows --class os $menuentry_id_option 'osprober-chain-140E68540E6830C2' {</strong></div><div><strong>     insmod part_msdos</strong></div><div><strong>     insmod ntfs</strong></div><div><strong>     set root='hd0,msdos1'</strong></div><div><strong>     chainloader +1</strong></div><div><strong>}</strong></div><div><strong>### END /etc/grub.d/30_os-prober ###</strong></div><div><br clear="none"></div><div>重启时，将会出现win8的系统选单</div><div><br clear="none"></div><div><em>注意：set root 后面的参数按照实际情况填写</em></div>
@@ -177,25 +178,30 @@
 	</article>
 	
 <nav class="article-nav clearfix">
- 
- <div class="prev" >
- <a href="/linux/[02] Config System Envir 配置系统环境 - CentOS 7/" title="(02) Configure System Envir 配置系统环境 - CentOS 7">
-  <strong>Prev：</strong><br/>
-  <span>
-  (02) Configure System Envir 配置系统环境 - CentOS 7</span>
-</a>
-</div>
+    
+    <div class="prev" >
+        <br/>
+        <a href="/linux/[02] Config System Envir 配置系统环境 - CentOS 7/" title="(02) Configure System Envir 配置系统环境 - CentOS 7">
+            <strong>Prev</strong><br/>
+            <span>
+                (02) Configure System Envir 配置系统环境 - CentOS 7
+            </span>
+        </a>
+    </div>
 
 
-<div class="next">
-<a href="/linux/[00] U盘安装 CentOS 7/"  title="(00) U盘安装 - CentOS 7">
- <strong>Next：</strong><br/> 
- <span>(00) U盘安装 - CentOS 7
-</span>
-</a>
-</div>
+    <div class="next">
+        <br/>
+        <a href="/linux/[00] U盘安装 CentOS 7/"  title="(00) U盘安装 - CentOS 7">
+            <strong>Next</strong><br/>
+            <span>
+                (00) U盘安装 - CentOS 7
+            </span>
+        </a>
+    </div>
 
 </nav>
+
 
 	<section id="comments" class="comment"></section>
 
@@ -268,24 +274,13 @@ document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thr
 <div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
 <aside class="clearfix">
 
-  <div class="popularlist">
-	<p class="asidetitle">
-		<a href="javascript:;" onclick="switch_widget_hidden(this);">
-			Top15 热榜 &nbsp;
-			<i class="fa fa-caret-up"></i>
-		</a>
-	</p>
-	<ul id="popularlist_ul" class="clearfix"></ul>
-</div>
-
-
   
 <div class="categorieslist">
 	<p class="asidetitle">
-		<a href="javascript:;" onclick="switch_widget_hidden(this);">
-		Categ 分类 &nbsp;
-			<i class="fa fa-caret-up"></i>
-		</a>
+		<!--<a href="javascript:;" onclick="switch_widget_hidden(this);">-->
+            Categ 分类 &nbsp;
+			<!--<i class="fa fa-caret-up"></i>-->
+		<!--</a>-->
 	</p>
 	<ul class="clearfix">
 	
@@ -320,6 +315,18 @@ document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thr
 		<li><a href="/categories/whoami/" title="whoami">whoami<sup>3</sup></a></li>
 	
 	</ul>
+</div>
+
+
+
+  <div class="popularlist">
+	<p class="asidetitle">
+		<!--<a href="javascript:;" onclick="switch_widget_hidden(this);">-->
+			Top15 热榜 &nbsp;
+			<!--<i class="fa fa-caret-up"></i>-->
+		<!--</a>-->
+	</p>
+	<ul id="popularlist_ul" class="clearfix"></ul>
 </div>
 
 

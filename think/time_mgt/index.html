@@ -19,7 +19,7 @@
 <meta property="og:url" content="http://icehe.me/think/time_mgt/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="Log Format时间日志格式。Principles原则，Transaction Categorees事务类别，Time Granularity时间粒度，Log Instance实例，Schedule规划。">
-<meta property="og:updated_time" content="2016-02-15T02:52:01.000Z">
+<meta property="og:updated_time" content="2016-03-21T14:17:31.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Time Mgt. 我的时间管理日志">
 <meta name="twitter:description" content="Log Format时间日志格式。Principles原则，Transaction Categorees事务类别，Time Granularity时间粒度，Log Instance实例，Schedule规划。">
@@ -88,7 +88,7 @@
 
 	<div id="textlogo">
 		<h1 class="site-name"><a href="/" title="Ice He 何志远">Ice He 何志远</a></h1>
-		<h2 class="blog-motto">Less is more  宁静致远</h2>
+		<h2 class="blog-motto">More is in vain when less will serve.</h2>
 	</div>
 	<div class="navbar">
 		<a class="navbutton navmobile" href="#" title="Menu"></a>
@@ -97,11 +97,11 @@
 		<ul>
 			<ul>
 			
-				<li><a href="/">Blog 文</a></li>
-			
-				<li><a href="/about">Me 我</a></li>
+				<li><a href="/">Home 首页</a></li>
 			
 				<li><a href="/index">Index 目录</a></li>
+			
+				<li><a href="/about">Me 我</a></li>
 			
 				<li>
 				
@@ -129,24 +129,25 @@
     
       <a href="/think/time_mgt/" title="Time Mgt. 我的时间管理日志" itemprop="url" class="article-url">Time Mgt. 我的时间管理日志</a>
   </h1>
-  <p class="article-readtimes">
-    Read ( <span class="readtimes">?</span> )
-  </p>
-  <p class="article-author"> By
+  <p class="article-author hidden"> By
     
     <a href="/about" title="IceHe何志远" target="_blank" itemprop="author">IceHe何志远</a>
     
   </p>
-  <p class="article-time">
-    <time datetime="2015-11-12T16:00:00.000Z" itemprop="datePublished"> Published 2015 Nov 13</time>
+  <p class="article-readtimes">
+    <time datetime="2015-11-12T16:00:00.000Z" itemprop="datePublished">2015-11-13</time>&nbsp; / &nbsp;<span class="readtimes">?</span> views
   </p>
+  <!--<p class="article-time">-->
+    <!--<time datetime="2015-11-12T16:00:00.000Z" itemprop="datePublished"> Pub 2015-11-13</time>-->
+  <!--</p>-->
 </header>
+
 	<div class="article-content">
 		
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">Contents</strong>
 		
-			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Principles_原则"><span class="toc-number">1.</span> <span class="toc-text">Principles 原则</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Time_Granularity_时间粒度"><span class="toc-number">2.</span> <span class="toc-text">Time Granularity 时间粒度</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Transaction_Category_事务类别"><span class="toc-number">3.</span> <span class="toc-text">Transaction Category 事务类别</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#六类事务"><span class="toc-number">3.1.</span> <span class="toc-text">六类事务</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Log_Example_日志实例"><span class="toc-number">4.</span> <span class="toc-text">Log Example 日志实例</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Schedule_Plan_日程规划"><span class="toc-number">5.</span> <span class="toc-text">Schedule Plan 日程规划</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Automation_自动化"><span class="toc-number">6.</span> <span class="toc-text">Automation 自动化</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#About_Time_Mgt-"><span class="toc-number">7.</span> <span class="toc-text">About Time Mgt.</span></a></li></ol>
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Principles_原则"><span class="toc-number">1.</span> <span class="toc-text">Principles 原则</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Time_Granularity_时间粒度"><span class="toc-number">2.</span> <span class="toc-text">Time Granularity 时间粒度</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Transaction_Category_事务类别"><span class="toc-number">3.</span> <span class="toc-text">Transaction Category 事务类别</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#六类事务"><span class="toc-number">3.1.</span> <span class="toc-text">六类事务</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Log_Example_日志实例"><span class="toc-number">4.</span> <span class="toc-text">Log Example 日志实例</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Schedule_Plan_日程规划"><span class="toc-number">5.</span> <span class="toc-text">Schedule Plan 日程规划</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Automation_自动化"><span class="toc-number">6.</span> <span class="toc-text">Automation 自动化</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#About_Time_Mgt-"><span class="toc-number">7.</span> <span class="toc-text">About Time Mgt.</span></a></li></ol>
 		
 		</div>
 		
@@ -156,20 +157,24 @@
 <p><strong>原标题</strong>：Explanations for Log Format - 日志记录格式说明<br><strong>上一版</strong>：<a href="/old_version_posts/time_mgt_log_format.html">Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考</a></p>
 <p><strong>链接：<a href="/lifelogs">我的所有时间管理日志</a></strong></p>
 <p><em>时间管理日志格式一直根据实际使用进行调整，可能与本文描述不一致。</em></p>
-<h2 id="Principles_原则">Principles 原则</h2><ol>
+<h1 id="Principles_原则">Principles 原则</h1><ol>
 <li><strong>简便</strong>：记录方式简便，只统计要用的信息，避免成为负担</li>
 <li><strong>有序</strong>：格式统一，便于数据的整理、分析</li>
 </ol>
-<h2 id="Time_Granularity_时间粒度">Time Granularity 时间粒度</h2><p><strong>时间粒度</strong>，即每个时段有多长。<br>类似于一节课有多长时间，据此规划、统计自己的时间。<br>对我而言，1、10或15min的时间粒度太小了，而 <strong>30min</strong> 就刚好，因为：</p>
+<h1 id="Time_Granularity_时间粒度">Time Granularity 时间粒度</h1><p><strong>时间粒度</strong>，即每个时段有多长。<br>类似于一节课有多长时间，据此规划、统计自己的时间。<br>对我而言，1、10或15min的时间粒度太小了，而 <strong>30min</strong> 就刚好，因为：</p>
 <ol>
-<li><strong>便于规划、统计</strong><br><u><strong>30min == 0.5hour</strong></u> 该时间粒度，就可以以每小时的整点、半点为界，等分一日的时间。</li>
-<li><strong>减轻压力</strong><br>适当对统计数据进行模糊处理（四舍五入），<br>让人少产生些心理压力，更利于坚持养成时间管理的习惯。<br><i>例如，某30min用了15min以上读书，<br>余下时间处理了些琐事，可将该30min归到读书时间。<br>若是过意不去，可在处理琐事的另一30min中<br>省出15min去读书，弥补回来，提高统计的准确性。</i></li>
-<li><strong>鼓励集中时间专心处理一件事</strong><br>为了统计更方便，使用者会倾向于尽可能集中时间去<br>（至少 30min）处理一件事（或同一类事务）。<br>避免多任务切换（三心两意同时处理多件事）导致效率下降。<br>刚好可以配合“<strong>番茄工作法</strong>”来使用。</li>
-<li><strong>循序渐进</strong>（日后慢慢将时间粒度定得更小）<br>因为人的自控力差异，不一定人人都有能力去争分夺秒地利用时间。<br>虽然现有许多可用的时间管理工具和方法，但当它们太复杂时，<br>难免会干扰正常做事，而非更好地做事，有违 “有效利用时间” 的初衷。</li>
+<li><p><strong>便于规划、统计</strong><br><u><strong>30min == 0.5hour</strong></u> 该时间粒度，就可以以每小时的整点、半点为界，等分一日的时间。</p>
+</li>
+<li><p><strong>减轻压力</strong><br>适当对统计数据进行模糊处理（四舍五入），<br>让人少产生些心理压力，更利于坚持养成时间管理的习惯。<br><em>例如，某30min用了15min以上读书，<br>余下时间处理了些琐事，可将该30min归到读书时间。<br>若是过意不去，可在处理琐事的另一30min中<br>省出15min去读书，弥补回来，提高统计的准确性。</em></p>
+</li>
+<li><p><strong>鼓励集中时间专心处理一件事</strong><br>为了统计更方便，使用者会倾向于尽可能集中时间去<br>（至少 30min）处理一件事（或同一类事务）。<br>避免多任务切换（三心两意同时处理多件事）导致效率下降。<br>刚好可以配合“<strong>番茄工作法</strong>”来使用。</p>
+</li>
+<li><p><strong>循序渐进</strong>（日后慢慢将时间粒度定得更小）<br>因为人的自控力差异，不一定人人都有能力去争分夺秒地利用时间。<br>虽然现有许多可用的时间管理工具和方法，但当它们太复杂时，<br>难免会干扰正常做事，而非更好地做事，有违 “有效利用时间” 的初衷。</p>
+</li>
 </ol>
 <p>因为，生活节奏越慢，切换去做不同（类）任务的频率越低，<br>可以用更大的时间粒度来规划、统计时间，<br>当然时间使用情况的统计结果的精度会降低。</p>
-<h2 id="Transaction_Category_事务类别">Transaction Category 事务类别</h2><p>事务的分类见仁见智。<br>有些时间管理软件或方法，给出的分类过多过细，<br>如公交、走动、购物、娱乐、上网、看电影、喝酒等，使用不便。</p>
-<h3 id="六类事务">六类事务</h3><p>我根据个人实际实践，将生活中的事务分为六类：</p>
+<h1 id="Transaction_Category_事务类别">Transaction Category 事务类别</h1><p>事务的分类见仁见智。<br>有些时间管理软件或方法，给出的分类过多过细，<br>如公交、走动、购物、娱乐、上网、看电影、喝酒等，使用不便。</p>
+<h2 id="六类事务">六类事务</h2><p>我根据个人实际实践，将生活中的事务分为六类：</p>
 <table>
 <thead>
 <tr>
@@ -219,7 +224,7 @@
 </tbody>
 </table>
 <p><br>有些事可以同属以上多个事务类别，<br>只能再靠个人判断将其再归类。<br><em>可以简单将其归类于编号较小的类别。</em></p>
-<h2 id="Log_Example_日志实例">Log Example 日志实例</h2><p>Log 时间使用情况统计日志以 《 <a href="/lifelogs/2015/10/d20.html">15/10/20 stu52 spo12 was3</a> 》 为例简要解释。<br>仅解释（截止至本日志更新之日）最新的日志格式，不赘述旧格式。</p>
+<h1 id="Log_Example_日志实例">Log Example 日志实例</h1><p>Log 时间使用情况统计日志以 《 <a href="/lifelogs/2015/10/d20.html">15/10/20 stu52 spo12 was3</a> 》 为例简要解释。<br>仅解释（截止至本日志更新之日）最新的日志格式，不赘述旧格式。</p>
 <p>日志仅记录<span id="valid_time"><strong>有效生活时间</strong></span>，即</p>
 <pre><code>每日从早晨醒来到夜晚入睡的时间。 即<span class="number">24</span>小时减去睡眠时间。
 </code></pre><p>凌晨00:00后才睡觉的时候，00:00后到入睡前的部分时间本属于第二天，<br>但是只要还没睡，该部分时间就统计到前一天的日志里去。</p>
@@ -234,7 +239,7 @@
 <li><p><strong>主要任务列表</strong></p>
 <pre><code># Pri Tasks
 <span class="string">[y]</span> Demand Development
-<span class="string">[ ]</span> Evernote Scripts &amp; Shell 
+<span class="string">[ ]</span> Evernote Scripts &amp; Shell
 </code></pre><p> <strong>格式</strong>：</p>
 <pre><code><span class="string">[Y/N]</span> task desc
 <span class="string">[完成与否]</span> 任务的简要描述
@@ -341,13 +346,13 @@ Monthly
 乐<span class="number">85.0</span>，<span class="number">16.5</span>
 必<span class="number">83.5</span>，<span class="number">16.2</span>
 废<span class="number">21.5</span>，<span class="number">4.2</span>
-总<span class="number">516.5</span>    
+总<span class="number">516.5</span>
 </code></pre></li>
 </ol>
-<h2 id="Schedule_Plan_日程规划">Schedule Plan 日程规划</h2><p>曾经使用过不少时间管理工具和方法，在实际使用中发现这些东西仅供参考，常常不适用于特定的个人。</p>
+<h1 id="Schedule_Plan_日程规划">Schedule Plan 日程规划</h1><p>曾经使用过不少时间管理工具和方法，在实际使用中发现这些东西仅供参考，常常不适用于特定的个人。</p>
 <p>例如，太详细的日程规划，对一般人来说不太现实，是谓：计划常常赶不上变化。<br>我一开始也不信邪，非要详细规划；可是在实践中，原计划只有三成左右能够如愿执行，效果不理想。<br>大概是因为日程定得过于详细，死板不够灵活，个人自控力又不足，不懂取舍和坚持，轻易打乱原计划…<br>于是提前规划日程成了心理安慰的行为 —— 规划时就产生了已经将日程完满执行的幻觉。</p>
 <p>所以，我还是循序渐进，慢慢提高自控力。</p>
-<h2 id="Automation_自动化">Automation 自动化</h2><p>这些时间管理日志的源内容，都存在我的Evernote的笔记里面。</p>
+<h1 id="Automation_自动化">Automation 自动化</h1><p>这些时间管理日志的源内容，都存在我的Evernote的笔记里面。</p>
 <p>上文中，除了记录细表、主要任务列表<br>其它的部分如周/月统计表、记录简表、日统计表的生成以及日志标题的修改，<br>都是通过Python和AppleScript编写的脚本完成的。</p>
 <p>这些脚本读取Evernote中的有关日志内容，根据其中的记录细表得出统计结果；<br>再根据结果补充Evernote源日志的内容。</p>
 <p>当然还有其它脚本将这些内容推送到本博客中。<br></p>
@@ -362,7 +367,7 @@ Monthly
 <ul>
 <li><a href="https://github.com/IceHe/my_scripts_on_win" target="_blank" rel="external">操作时间管理日志用的PHP、Batch脚本</a> <em>（已弃用）</em></li>
 </ul>
-<h2 id="About_Time_Mgt-">About Time Mgt.</h2><p>“我们工作是为了生活，而不是为了工作而活着。”<br>“时间管理的目的，其实还是为了更好的享受生活。”</p>
+<h1 id="About_Time_Mgt-">About Time Mgt.</h1><p>“我们工作是为了生活，而不是为了工作而活着。”<br>“时间管理的目的，其实还是为了更好的享受生活。”</p>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -396,25 +401,30 @@ Monthly
 	</article>
 	
 <nav class="article-nav clearfix">
- 
- <div class="prev" >
- <a href="/web/build_blog/" title="Bulid Blog. 搭建个人博客">
-  <strong>Prev：</strong><br/>
-  <span>
-  Bulid Blog. 搭建个人博客</span>
-</a>
-</div>
+    
+    <div class="prev" >
+        <br/>
+        <a href="/web/build_blog/" title="Bulid Blog. 搭建个人博客">
+            <strong>Prev</strong><br/>
+            <span>
+                Bulid Blog. 搭建个人博客
+            </span>
+        </a>
+    </div>
 
 
-<div class="next">
-<a href="/reward/"  title="How to Reward Me! 怎么打赏博主~">
- <strong>Next：</strong><br/> 
- <span>How to Reward Me! 怎么打赏博主~
-</span>
-</a>
-</div>
+    <div class="next">
+        <br/>
+        <a href="/reward/"  title="How to Reward Me! 怎么打赏博主~">
+            <strong>Next</strong><br/>
+            <span>
+                How to Reward Me! 怎么打赏博主~
+            </span>
+        </a>
+    </div>
 
 </nav>
+
 
 	<section id="comments" class="comment"></section>
 
@@ -487,24 +497,13 @@ document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thr
 <div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
 <aside class="clearfix">
 
-  <div class="popularlist">
-	<p class="asidetitle">
-		<a href="javascript:;" onclick="switch_widget_hidden(this);">
-			Top15 热榜 &nbsp;
-			<i class="fa fa-caret-up"></i>
-		</a>
-	</p>
-	<ul id="popularlist_ul" class="clearfix"></ul>
-</div>
-
-
   
 <div class="categorieslist">
 	<p class="asidetitle">
-		<a href="javascript:;" onclick="switch_widget_hidden(this);">
-		Categ 分类 &nbsp;
-			<i class="fa fa-caret-up"></i>
-		</a>
+		<!--<a href="javascript:;" onclick="switch_widget_hidden(this);">-->
+            Categ 分类 &nbsp;
+			<!--<i class="fa fa-caret-up"></i>-->
+		<!--</a>-->
 	</p>
 	<ul class="clearfix">
 	
@@ -539,6 +538,18 @@ document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thr
 		<li><a href="/categories/whoami/" title="whoami">whoami<sup>3</sup></a></li>
 	
 	</ul>
+</div>
+
+
+
+  <div class="popularlist">
+	<p class="asidetitle">
+		<!--<a href="javascript:;" onclick="switch_widget_hidden(this);">-->
+			Top15 热榜 &nbsp;
+			<!--<i class="fa fa-caret-up"></i>-->
+		<!--</a>-->
+	</p>
+	<ul id="popularlist_ul" class="clearfix"></ul>
 </div>
 
 

@@ -88,7 +88,7 @@
 
 	<div id="textlogo">
 		<h1 class="site-name"><a href="/" title="Ice He 何志远">Ice He 何志远</a></h1>
-		<h2 class="blog-motto">Less is more  宁静致远</h2>
+		<h2 class="blog-motto">More is in vain when less will serve.</h2>
 	</div>
 	<div class="navbar">
 		<a class="navbutton navmobile" href="#" title="Menu"></a>
@@ -97,11 +97,11 @@
 		<ul>
 			<ul>
 			
-				<li><a href="/">Blog 文</a></li>
-			
-				<li><a href="/about">Me 我</a></li>
+				<li><a href="/">Home 首页</a></li>
 			
 				<li><a href="/index">Index 目录</a></li>
+			
+				<li><a href="/about">Me 我</a></li>
 			
 				<li>
 				
@@ -129,18 +129,19 @@
     
       <a href="/linux/[02] Config System Envir 配置系统环境 - CentOS 7/" title="(02) Configure System Envir 配置系统环境 - CentOS 7" itemprop="url" class="article-url">(02) Configure System Envir 配置系统环境 - CentOS 7</a>
   </h1>
-  <p class="article-readtimes">
-    Read ( <span class="readtimes">?</span> )
-  </p>
-  <p class="article-author"> By
+  <p class="article-author hidden"> By
     
     <a href="/about" title="IceHe何志远" target="_blank" itemprop="author">IceHe何志远</a>
     
   </p>
-  <p class="article-time">
-    <time datetime="2015-03-25T16:00:00.000Z" itemprop="datePublished"> Published 2015 Mar 26</time>
+  <p class="article-readtimes">
+    <time datetime="2015-03-25T16:00:00.000Z" itemprop="datePublished">2015-03-26</time>&nbsp; / &nbsp;<span class="readtimes">?</span> views
   </p>
+  <!--<p class="article-time">-->
+    <!--<time datetime="2015-03-25T16:00:00.000Z" itemprop="datePublished"> Pub 2015-03-26</time>-->
+  <!--</p>-->
 </header>
+
 	<div class="article-content">
 		
 		<div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div style="background-color: #ffffff;"><div style="width: 65.812%; display: block; min-height: 30px; box-sizing: border-box; margin-left: 2.5641%; max-width: 50em; text-align: justify;"><div style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px;">RefFrom:<a href="http://seisman.info/linux-environment-for-seismology-research.html" shape="rect" target="_blank" rel="external">http://seisman.info/linux-environment-for-seismology-research.html</a></div><div style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px;">Original Title:&nbsp;用CentOS 7打造合适的科研环境<br clear="none"></div><div><br></div><div><span style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; text-transform: none; color: rgb(255, 102, 0); font-size: 12pt;"><strong>Notice:&nbsp;</strong>若是按照前篇的文章《</span><font color="#FF6600" face="pt serif, georgia, times new roman, times, serif"><span style="line-height: 26px;">[00] U盘安装 CentOS 7</span></font><span style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none; color: rgb(255, 102, 0); font-size: 12pt; line-height: 1.6em;">》安装CentOS，<br></span><span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 此时应从&nbsp;</span><span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em; text-decoration: underline;"><strong>添加第三方源</strong></span> <span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">开始阅读，</span><span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">到</span> <strong style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">删除多余的kernel</strong> <span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">结束。</span></div><p style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-weight: normal; color: rgb(51, 51, 51); font-size: 16.8px; font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px;"><br clear="none"></p><p style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-weight: normal; color: rgb(51, 51, 51); font-size: 16.8px; font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px;">这篇博文记录了我用CentOS 7搭建<strong style="font-weight: bold;">地震学科研环境</strong>的过程，供我个人在未来重装系统时参考。对于其他地震学科研人员，也许有借鉴意义。</p><p style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-weight: normal; color: rgb(51, 51, 51); font-size: 16.8px; font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px;">阅读须知：</p><ol style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px; list-style: decimal; padding: 0px; margin: 0px 0px 10px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文适用于个人电脑，不适用于服务器；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">不推荐刚接触Linux的人使用CentOS发行版；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文尽量写的浅显易懂，但要求读者掌握Linux基础知识；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文所有操作均在CentOS 7下完成，其他发行版或多或少与CentOS&nbsp;7不同，因而仅供参考；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文所安装的软件纯粹出于个人习惯及喜好，读者应自己判断，按需安装；</li></ol><div style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px;"><h2 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 31.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id44" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">安装CentOS</a><br clear="none"></h2><p style="font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px 20px 0px;">CentOS&nbsp;7的安装与其他Linux发行版的安装差不多，个别地方稍有不同。</p><div><h3 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 24.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id45" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">准备工作</a><br clear="none"></h3><ol style="list-style-type: decimal; padding: 0px; margin: 0px 0px 10px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">准备材料
@@ -372,25 +373,30 @@ $ sudo ln -s /opt/google/earth/free/googleearth /usr/bin/google-earth
 	</article>
 	
 <nav class="article-nav clearfix">
- 
- <div class="prev" >
- <a href="/linux/[03] Update Kernel 升级内核 - CentOS 7/" title="(03) Update Kernel 升级内核 - CentOS 7">
-  <strong>Prev：</strong><br/>
-  <span>
-  (03) Update Kernel 升级内核 - CentOS 7</span>
-</a>
-</div>
+    
+    <div class="prev" >
+        <br/>
+        <a href="/linux/[03] Update Kernel 升级内核 - CentOS 7/" title="(03) Update Kernel 升级内核 - CentOS 7">
+            <strong>Prev</strong><br/>
+            <span>
+                (03) Update Kernel 升级内核 - CentOS 7
+            </span>
+        </a>
+    </div>
 
 
-<div class="next">
-<a href="/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/"  title="(01) 恢复 Windows 的 开机引导 - CentOS 7">
- <strong>Next：</strong><br/> 
- <span>(01) 恢复 Windows 的 开机引导 - CentOS 7
-</span>
-</a>
-</div>
+    <div class="next">
+        <br/>
+        <a href="/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/"  title="(01) 恢复 Windows 的 开机引导 - CentOS 7">
+            <strong>Next</strong><br/>
+            <span>
+                (01) 恢复 Windows 的 开机引导 - CentOS 7
+            </span>
+        </a>
+    </div>
 
 </nav>
+
 
 	<section id="comments" class="comment"></section>
 
@@ -463,24 +469,13 @@ document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thr
 <div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
 <aside class="clearfix">
 
-  <div class="popularlist">
-	<p class="asidetitle">
-		<a href="javascript:;" onclick="switch_widget_hidden(this);">
-			Top15 热榜 &nbsp;
-			<i class="fa fa-caret-up"></i>
-		</a>
-	</p>
-	<ul id="popularlist_ul" class="clearfix"></ul>
-</div>
-
-
   
 <div class="categorieslist">
 	<p class="asidetitle">
-		<a href="javascript:;" onclick="switch_widget_hidden(this);">
-		Categ 分类 &nbsp;
-			<i class="fa fa-caret-up"></i>
-		</a>
+		<!--<a href="javascript:;" onclick="switch_widget_hidden(this);">-->
+            Categ 分类 &nbsp;
+			<!--<i class="fa fa-caret-up"></i>-->
+		<!--</a>-->
 	</p>
 	<ul class="clearfix">
 	
@@ -515,6 +510,18 @@ document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thr
 		<li><a href="/categories/whoami/" title="whoami">whoami<sup>3</sup></a></li>
 	
 	</ul>
+</div>
+
+
+
+  <div class="popularlist">
+	<p class="asidetitle">
+		<!--<a href="javascript:;" onclick="switch_widget_hidden(this);">-->
+			Top15 热榜 &nbsp;
+			<!--<i class="fa fa-caret-up"></i>-->
+		<!--</a>-->
+	</p>
+	<ul id="popularlist_ul" class="clearfix"></ul>
 </div>
 
 

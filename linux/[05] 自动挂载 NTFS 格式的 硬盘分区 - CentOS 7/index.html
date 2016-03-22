@@ -88,7 +88,7 @@
 
 	<div id="textlogo">
 		<h1 class="site-name"><a href="/" title="Ice He 何志远">Ice He 何志远</a></h1>
-		<h2 class="blog-motto">Less is more  宁静致远</h2>
+		<h2 class="blog-motto">More is in vain when less will serve.</h2>
 	</div>
 	<div class="navbar">
 		<a class="navbutton navmobile" href="#" title="Menu"></a>
@@ -97,11 +97,11 @@
 		<ul>
 			<ul>
 			
-				<li><a href="/">Blog 文</a></li>
-			
-				<li><a href="/about">Me 我</a></li>
+				<li><a href="/">Home 首页</a></li>
 			
 				<li><a href="/index">Index 目录</a></li>
+			
+				<li><a href="/about">Me 我</a></li>
 			
 				<li>
 				
@@ -129,18 +129,19 @@
     
       <a href="/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/" title="(05) 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7" itemprop="url" class="article-url">(05) 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7</a>
   </h1>
-  <p class="article-readtimes">
-    Read ( <span class="readtimes">?</span> )
-  </p>
-  <p class="article-author"> By
+  <p class="article-author hidden"> By
     
     <a href="/about" title="IceHe何志远" target="_blank" itemprop="author">IceHe何志远</a>
     
   </p>
-  <p class="article-time">
-    <time datetime="2015-03-28T16:00:00.000Z" itemprop="datePublished"> Published 2015 Mar 29</time>
+  <p class="article-readtimes">
+    <time datetime="2015-03-28T16:00:00.000Z" itemprop="datePublished">2015-03-29</time>&nbsp; / &nbsp;<span class="readtimes">?</span> views
   </p>
+  <!--<p class="article-time">-->
+    <!--<time datetime="2015-03-28T16:00:00.000Z" itemprop="datePublished"> Pub 2015-03-29</time>-->
+  <!--</p>-->
 </header>
+
 	<div class="article-content">
 		
 		<en-note><div><div>Ref From: <a shape="rect" href="http://blog.rekfan.com/articles/137.html" target="_blank">http://blog.rekfan.com/articles/137.html</a></div><div>Original Title: CentOS 6.3 自动挂载NTFS格式分区硬盘</div></div><div><br clear="none"></div><div><span style="color: #ff6600;"><strong>Notice: </strong>第一、二步不进行，改为使用以下指令安装ntfs-3g，</span></div><div><strong>             <span style="color: #ff6600;">yum install ntfs-3g</span></strong></div><div><br clear="none">默认情况下，CentOS 6.3不支持NTFS格式的磁盘读写。</div><div>要想把NTFS格式的磁盘挂载到CentOS 6.3，<br clear="none">需要安装第三方的插件ntfs-3g，这里我们采用编译安装插件。<br clear="none"><br clear="none">1. 安装编译器，否则不能成功编译。</div><div><strong>yum install gcc</strong><br clear="none">根据提示按Y安装完成<br clear="none"><br clear="none">2. 安装ntfs-3g</div><div>进入/home目录，把软件下载到此目录<br clear="none"><strong>cd /home</strong></div><div>下载<br clear="none"><strong>wget http://tuxera.com/opensource/ntfs-3g_ntfsprogs-2011.4.12.tgz</strong></div><div>解压</div><div><strong>tar zxvf ntfs-3g_ntfsprogs-2011.4.12.tgz</strong></div><div>进入目录<br clear="none"><strong>cd ntfs-3g_ntfsprogs-2011.4.12</strong></div><div>编译 &amp; 安装</div><div><strong>./configure &amp;&amp; make &amp;&amp; make install</strong></div><div>返回上一级目录<br clear="none"><strong>cd ..</strong></div><div>删除安装程序包<br clear="none"><strong>rm -r -f ntfs-3g_ntfsprogs*</strong></div><div><br clear="none"></div><div>3. 查看使用</div><div># 显示系统磁盘信息<br clear="none"><strong>fdisk -l</strong></div><div>#####################################################################<br clear="none">Disk /dev/sdb: 160.0 GB, 160041885696 bytes<br clear="none">255 heads, 63 sectors/track, 19457 cylinders<br clear="none">Units = cylinders of 16065 * 512 = 8225280 bytes<br clear="none">Sector size (logical/physical): 512 bytes / 512 bytes<br clear="none">I/O size (minimum/optimal): 512 bytes / 512 bytes<br clear="none">Disk identifier: 0x7ab8d700<br clear="none">Device Boot Start End Blocks Id System<br clear="none">/dev/sdb1 * 1 5222 41945683+ 7 HPFS/NTFS<br clear="none">/dev/sdb2 5223 10444 41945715 7 HPFS/NTFS<br clear="none">/dev/sdb3 10445 15666 41945715 7 HPFS/NTFS<br clear="none">/dev/sdb4 15667 19457 30451207+ 7 HPFS/NTFS<br clear="none"> http://blog.rekfan.com/?p=137<br clear="none">###################################################################<br clear="none">以上信息显示的是我的移动硬盘，总共160G,有四个NTFS分区<br clear="none"><br clear="none"><br clear="none">4. 挂载分区</div><div>目标：<br clear="none">/dev/sdb1 分区挂载到 /mnt/win1<br clear="none">/dev/sdb2 分区挂载到 /mnt/win2<br clear="none">/dev/sdb3 分区挂载到 /mnt/win3<br clear="none">/dev/sdb4 分区挂载到 /mnt/win4<br clear="none"></div><div><br clear="none"></div><div>进入/mnt目录，新建四个挂载目录<br clear="none">cd /mnt<br clear="none"><strong>mkdir win1 win2 win3 win4</strong><br clear="none"></div><div><br clear="none"></div><div>挂载<br clear="none"><strong>mount -t ntfs-3g /dev/sdb1 /mnt/win1</strong><br clear="none">mount -t ntfs-3g /dev/sdb2 /mnt/win2<br clear="none">mount -t ntfs-3g /dev/sdb3 /mnt/win3<br clear="none">mount -t ntfs-3g /dev/sdb4 /mnt/win4<br clear="none"><br clear="none">分区挂载完成，现在可以进入/mnt目录下面查看对应的文件夹，即就是你移动硬盘的分区<br clear="none"></div><div><br clear="none"></div><div>卸载命令：<br clear="none"><strong>umount /dev/sdb1</strong><br clear="none">umount /dev/sdb2<br clear="none">umount /dev/sdb3<br clear="none">umount /dev/sdb4<br clear="none"></div><div><br clear="none"></div><div><br clear="none">5. 如果想让系统开机自动挂载移动硬盘，编辑/etc/fstab<br clear="none"></div><div>更改之前先备份</div><div>cp /etc/fstab /etc/fstabbak</div><div>编辑<br clear="none">vi /etc/fstab<br clear="none"><br clear="none">在最后添加以下信息，以读写方式挂载磁盘<br clear="none">/dev/sdb1 /mnt/win1 ntfs-3g defaults 0 0<br clear="none">/dev/sdb2 /mnt/win2 ntfs-3g defaults 0 0<br clear="none">/dev/sdb3 /mnt/win3 ntfs-3g defaults 0 0<br clear="none">/dev/sdb4 /mnt/win4 ntfs-3g defaults 0 0<br clear="none"><br clear="none">:wq!保存，退出<br clear="none"><br clear="none">现在只要重启机器，会自动挂载移动硬盘<br clear="none"></div><div><br clear="none"></div><div><br clear="none"><strong>取消挂载的问题——</strong></div><div>umount的时候出现如下提示：<br clear="none">[root@rekfan.com /]# umount /dev/sdb1<br clear="none">umount: /mnt/upan: device is busy.<br clear="none">        (In some cases useful info about processes that use<br clear="none">         the device is found by lsof(8) or fuser(1))<br clear="none"><br clear="none"><strong>解决方法一</strong><br clear="none">[root@rekfan.com /]# lsof -w /mnt/upan<br clear="none">COMMAND   PID USER   FD   TYPE DEVICE SIZE/OFF    NODE NAME<br clear="none">bash    31761 root  cwd    DIR   8,18     8192 2316326 /mnt/upan/rekfan.com_120526<br clear="none"><br clear="none">[root@rekfan.com /]#<br clear="none">使用 lsof -w /mnt/upan 可以看出，有个命令窗口在/mnt/upan/rekfan.com_120526目录上，</div><div>关闭这个窗口，或退出这个挂载目录，再使用 umount 即可安全退出挂载的设备！<br clear="none"><br clear="none"><strong>解决方法二</strong><br clear="none">[root@rekfan.com /]#fuser -k /mnt/upan<br clear="none">#杀死所有正在访问指定文件的进程</div>
@@ -177,25 +178,30 @@
 	</article>
 	
 <nav class="article-nav clearfix">
- 
- <div class="prev" >
- <a href="/linux/[06] Linux 通过 pip 安装使用 Shadowsocks - CentOS 7/" title="(06) Linux 通过 pip 安装使用 Shadowsocks - CentOS 7">
-  <strong>Prev：</strong><br/>
-  <span>
-  (06) Linux 通过 pip 安装使用 Shadowsocks - CentOS 7</span>
-</a>
-</div>
+    
+    <div class="prev" >
+        <br/>
+        <a href="/linux/[06] Linux 通过 pip 安装使用 Shadowsocks - CentOS 7/" title="(06) Linux 通过 pip 安装使用 Shadowsocks - CentOS 7">
+            <strong>Prev</strong><br/>
+            <span>
+                (06) Linux 通过 pip 安装使用 Shadowsocks - CentOS 7
+            </span>
+        </a>
+    </div>
 
 
-<div class="next">
-<a href="/linux/[04] 安装 CentOS 7 后必做的 安全防范措施/"  title="(04) 安装后必做的 安全防范措施 - CentOS 7">
- <strong>Next：</strong><br/> 
- <span>(04) 安装后必做的 安全防范措施 - CentOS 7
-</span>
-</a>
-</div>
+    <div class="next">
+        <br/>
+        <a href="/linux/[04] 安装 CentOS 7 后必做的 安全防范措施/"  title="(04) 安装后必做的 安全防范措施 - CentOS 7">
+            <strong>Next</strong><br/>
+            <span>
+                (04) 安装后必做的 安全防范措施 - CentOS 7
+            </span>
+        </a>
+    </div>
 
 </nav>
+
 
 	<section id="comments" class="comment"></section>
 
@@ -268,24 +274,13 @@ document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thr
 <div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
 <aside class="clearfix">
 
-  <div class="popularlist">
-	<p class="asidetitle">
-		<a href="javascript:;" onclick="switch_widget_hidden(this);">
-			Top15 热榜 &nbsp;
-			<i class="fa fa-caret-up"></i>
-		</a>
-	</p>
-	<ul id="popularlist_ul" class="clearfix"></ul>
-</div>
-
-
   
 <div class="categorieslist">
 	<p class="asidetitle">
-		<a href="javascript:;" onclick="switch_widget_hidden(this);">
-		Categ 分类 &nbsp;
-			<i class="fa fa-caret-up"></i>
-		</a>
+		<!--<a href="javascript:;" onclick="switch_widget_hidden(this);">-->
+            Categ 分类 &nbsp;
+			<!--<i class="fa fa-caret-up"></i>-->
+		<!--</a>-->
 	</p>
 	<ul class="clearfix">
 	
@@ -320,6 +315,18 @@ document.getElementById('comments').innerHTML = '<div class="ds-thread" data-thr
 		<li><a href="/categories/whoami/" title="whoami">whoami<sup>3</sup></a></li>
 	
 	</ul>
+</div>
+
+
+
+  <div class="popularlist">
+	<p class="asidetitle">
+		<!--<a href="javascript:;" onclick="switch_widget_hidden(this);">-->
+			Top15 热榜 &nbsp;
+			<!--<i class="fa fa-caret-up"></i>-->
+		<!--</a>-->
+	</p>
+	<ul id="popularlist_ul" class="clearfix"></ul>
 </div>
 
 
