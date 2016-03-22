@@ -5,7 +5,7 @@ tags: [Mac]
 description: 我的 OS X 快捷键列表索引。
 ---
 
-- _Updated on 2016-03-21_
+- _Updated on 2016-03-23_
 
 - _Ref: 《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》_
 
@@ -96,9 +96,9 @@ Not only the default shortcuts, but alos the custom ones.
 __Bold__ : I am unfamiliar with it .
 _Italic_ : I seldom use it .
 
-# Default
+# Mac OS X
 
-__Usually Common Used in Various of Apps__
+Some of the keys above can be modified in `System Preference → Keyboard`.
 
 - Power
 
@@ -109,12 +109,25 @@ __Usually Common Used in Various of Apps__
     __`⌘ ⌥ ` Sleep__
     `^ ⇧ ` Display Sleep
 
-- File or others
+- Dock & Menubar & Sidebar
 
-    `⌘ n` New
-    `⌘ o` Open
-    `⌘ s` Save
-    `⌘ p` Print
+    `F12` Notification Center
+    `^ F12` Do Not Disturb On/Off
+    `⌘ ⌥ d` Dock Hiding On/Off
+
+    __`^ ⌥ '` Focus to Menu Bar__
+    __`^ ⌥ /` Focus to Dock__
+    __<code>⌘ \`</code> Focus to Active or Next Window__
+
+- Space
+
+    __`^ ↑` Mission Control__
+    __`^ ↓` App Windows__
+    __`^ ←` Prev Space__
+    __`^ →` Next Space__
+
+    `^ Num` Switch to Desktop [Num]
+    `F1` Desktop
 
 - Window
 
@@ -139,11 +152,31 @@ __Usually Common Used in Various of Apps__
     `⌘ ⇥` Next App
     `⌘ ⇧ ⇥` Prev App
 
+    __`⌘ [` Backward__
+    __`⌘ ]` Forward__
+
+- Accessory
+
+    `^ 凵` Spotlight
+    __`⌘ ⇧ 3` Capture Desktop__
+    __`⌘ ^ d` Look Up in Dictionary__
+    __`⌘ ⌥ /` Show Help Menu__
+
+- File or others
+
+    `⌘ n` New
+    `⌘ o` Open
+    `⌘ s` Save
+    `⌘ p` Print
+
 - Edit
 
     `⌘ f` Search
     __`⌘ g` Next Match__
     __`⌘ ⇧ G` Prev Match__
+
+    `⌥ ←` Prev Word
+    `⌥ →` Next Word
 
     `⌘ a` Select All
     `⌘ z` Undo
@@ -159,15 +192,18 @@ __Usually Common Used in Various of Apps__
     `⌘ +` Bigger | Zoom In
     `⌘ -` Smaller | Zoom Out
 
-- Mv
+- Emacs Mode
 
-    __`⌘ [` Backward__
-    __`⌘ ]` Forward__
+    A few people know that it's supported by default in Mac OS X.
 
-    `⌘ ←` Home
-    `⌘ →` End
-    `⌥ ←` Prev Word
-    `⌥ →` Next Word
+    `^ f` = `←`
+    `^ b` = `→`
+    `^ a` = `⌘ ←` Home
+    `^ e` = `⌘ →` End
+
+    `^ h` = `Del`
+    `^ d` = `Fn Del` Forward Del
+    `^ k` Del to the End of the Line
 
 # Activity Monitor
 
@@ -427,17 +463,8 @@ Not Only shortcuts, but also Change Layout of Keyboard!
 
     `^ j` = `↩` Ret
 
-    `^ f` = `←`
-    `^ b` = `→`
-    `^ a` = `⌘ ←` Home
-    `^ e` = `⌘ →` End
-
-    `^ d` = `Fn Del` Forward Del
-    `^ h` = `Del`
-
     `^ w` Del Preceding Word
     `^ u` Del to the Head of the Line
-    `^ k` Del to the End of the Line
 
 # Mail
 
@@ -606,37 +633,6 @@ __`⌥ 凵` Swiftly__
     `⌘` Rg Cmd → `⎋` Esc
 
 Need to Modify `System Preferences → Keyboards → "Modifier Key` to exchange `CapsLock` & Lf `Ctrl`.
-
-# System
-
-- Space
-
-    __`^ ↑` Mission Control__
-    __`^ ↓` App Windows__
-    __`^ ←` Prev Space__
-    __`^ →` Next Space__
-
-    `^ Num` Switch to Desktop [Num]
-    `F1` Desktop
-
-- Dock & Menubar & Sidebar
-
-    `F12` Notification Center
-    `^ F12` Do Not Disturb On/Off
-    `⌘ ⌥ d` Dock Hiding On/Off
-
-    __`^ ⌥ '` Focus to Menu Bar__
-    __`^ ⌥ /` Focus to Dock__
-    __<code>⌘ \`</code> Focus to Active or Next Window__
-
-- Accessory
-
-    `^ 凵` Spotlight
-    __`⌘ ⇧ 3` Capture Desktop__
-    __`⌘ ^ d` Look Up in Dictionary__
-    __`⌘ ⌥ /` Show Help Menu__
-
-Modify them in `System Preference → Keyboard`.
 
 # tmux
 
