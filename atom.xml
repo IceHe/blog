@@ -250,7 +250,7 @@
 <li>「15」 <a href="/asm/Assembly Language - Note 15/">附录内容：汇编编译器对jmp的处理，地址计数器（AC），处理伪操作指令，栈传递参数，无溢出除法…</a></li>
 </ul>
 <h3 id="Mine"><a href="/about/">Mine</a></h3><hr>
-<p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#x6d;&#x61;&#105;&#108;&#x74;&#111;&#58;&#120;&#x40;&#105;&#99;&#101;&#104;&#x65;&#46;&#109;&#101;">&#120;&#x40;&#105;&#99;&#101;&#104;&#x65;&#46;&#109;&#101;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
+<p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#111;&#58;&#x78;&#x40;&#x69;&#99;&#101;&#104;&#x65;&#x2e;&#109;&#101;">&#x78;&#x40;&#x69;&#99;&#101;&#104;&#x65;&#x2e;&#109;&#101;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
 <h3 id="Others">Others</h3><hr>
 <ul>
 <li>The article with superscript <sup><strong>me</strong></sup>&nbsp; implies it’s <code>about me</code>.</li>
@@ -731,7 +731,7 @@
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
-    <updated>2016-03-22T16:57:40.000Z</updated>
+    <updated>2016-03-23T02:10:19.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li><p><em>Updated on 2016-03-23</em></p>
 </li>
@@ -774,7 +774,7 @@
 </li>
 </ul>
 <h2 id="Meaning_of_Font_Style">Meaning of Font Style</h2><p><strong>Bold</strong> : I am unfamiliar with it .<br><em>Italic</em> : I seldom use it .</p>
-<h1 id="Mac_OS_X">Mac OS X</h1><p>Some of the keys above can be modified in <code>System Preference → Keyboard</code>.</p>
+<h1 id="Mac_OS_X">Mac OS X</h1><p>Some of the keys below can be modified in <code>System Preference → Keyboard</code>.<br>Some are default in operating system.<br>Some are modified by App <a href="#Karabiner">Karabiner</a>.</p>
 <ul>
 <li><p>Power</p>
 <p>  <strong><code></code> Wake Up</strong><br>  <code>^ </code> Shut Down ( can choose to Sleep or Restart )<br>  <strong><code>⌘ ^ </code> Force Restart</strong><br>  <strong><code>⌘ ^ ⌥ </code> Force Shutdown</strong><br>  <strong><code>⌘ ⌥ </code> Sleep</strong><br>  <code>^ ⇧ </code> Display Sleep</p>
@@ -814,6 +814,15 @@
 <p>  A few people know that it’s supported by default in Mac OS X.</p>
 <p>  <code>^ f</code> = <code>←</code><br>  <code>^ b</code> = <code>→</code><br>  <code>^ a</code> = <code>⌘ ←</code> Home<br>  <code>^ e</code> = <code>⌘ →</code> End</p>
 <p>  <code>^ h</code> = <code>Del</code><br>  <code>^ d</code> = <code>Fn Del</code> Forward Del<br>  <code>^ k</code> Del to the End of the Line</p>
+</li>
+<li><p>Others</p>
+<ul>
+<li><a href="#Activity_Monitor">Activity Monitor</a></li>
+<li><a href="#Finder">Finder</a></li>
+<li><a href="#Input_Sources">Input Sources</a></li>
+<li><a href="#Mail">Mail</a></li>
+<li><a href="#Script_Editor">Script Editor</a></li>
+</ul>
 </li>
 </ul>
 <h1 id="Activity_Monitor">Activity Monitor</h1><p><strong><code>⌘ ⌥ f</code> Filter Processes</strong><br><strong><code>⌘ ⌥ q</code> Quit the select Process</strong></p>
@@ -911,7 +920,7 @@
 <p>  <strong><code>^ t</code> [ Simple | Traditional  ] Chinese Characters</strong><br>  <strong><code>^ .</code> [ Chinese | English  ] Punctuation Marks</strong></p>
 </li>
 </ul>
-<h1 id="iTerm2">iTerm2</h1><p><code>⌘ /</code> Find Cursor</p>
+<h1 id="iTerm3">iTerm3</h1><p><code>⌘ /</code> Find Cursor</p>
 <h1 id="Karabiner">Karabiner</h1><p>Not Only shortcuts, but also Change Layout of Keyboard!</p>
 <ul>
 <li><p>Setting</p>
@@ -931,8 +940,7 @@
 <p>  <code>⌥ b</code> = <code>⌥ ←</code> Mv to Prev Word<br>  <code>⌥ f</code> = <code>⌥ →</code> Mv to Next Word</p>
 </li>
 <li><p>Emacs Mode</p>
-<p>  <code>^ j</code> = <code>↩</code> Ret</p>
-<p>  <code>^ w</code> Del Preceding Word<br>  <code>^ u</code> Del to the Head of the Line</p>
+<p>  <code>^ j</code> = <code>↩</code> Ret<br>  <code>^ w</code> Del Preceding Word</p>
 </li>
 </ul>
 <h1 id="Mail">Mail</h1><ul>
@@ -949,21 +957,21 @@
 </ul>
 <h1 id="Manico">Manico</h1><ul>
 <li><p>Most Frequent</p>
-<p>  <code>⌥ 1</code> Firefox<br>  <code>⌥ 2</code> iTerm3</p>
+<p>  <code>⌥ 1</code> <a href="#Firefox">Firefox</a><br>  <code>⌥ 2</code> <a href="#iTerm3">iTerm3</a></p>
 </li>
 <li><p>Num</p>
-<p>  <code>^ ⌥ 1</code> Script Editor ( for AppleScript )<br>  <code>^ ⌥ 2</code> System Preferences<br>  <code>^ ⌥ 3</code> Dash<br>  <code>^ ⌥ 5</code> Daily Task<br>  <code>^ ⌥ 6</code> HazeOver<br>  <code>^ ⌥ 7</code> Sequel Pro ( MySQL Client )</p>
+<p>  <code>^ ⌥ 1</code> <a href="#Script_Editor">Script Editor</a> ( for AppleScript )<br>  <code>^ ⌥ 2</code> System Preferences<br>  <code>^ ⌥ 3</code> Dash<br>  <code>^ ⌥ 5</code> Daily Task<br>  <code>^ ⌥ 6</code> HazeOver<br>  <code>^ ⌥ 7</code> Sequel Pro ( MySQL Client )</p>
 </li>
 <li><p>Lf Hand</p>
-<p>  <code>^ ⌥ 凵</code> Activity_Monitor</p>
-<p>  <code>^ ⌥ q</code> QQ<br>  <code>^ ⌥ w</code> WeChat<br>  <code>^ ⌥ e</code> Evernote<br>  <code>^ ⌥ r</code> Chrome<br>  <code>^ ⌥ t</code> Thunder</p>
-<p>  <code>^ ⌥ a</code> PyCharm<br>  <code>^ ⌥ s</code> PhpStorm<br>  <code>^ ⌥ d</code> Dictionary<br>  <code>^ ⌥ f</code> Finder<br>  <strong><code>^ ⌥ g</code> Preview</strong></p>
-<p>  <code>^ ⌥ x</code> Mail<br>  <code>^ ⌥ c</code> Charles<br>  <strong><code>^ ⌥ b</code> Sublime Text</strong></p>
+<p>  <code>^ ⌥ 凵</code> <a href="#Activity_Monitor">Activity_Monitor</a></p>
+<p>  <code>^ ⌥ q</code> <a href="#QQ">QQ</a><br>  <code>^ ⌥ w</code> <a href="#WeChat">WeChat</a><br>  <code>^ ⌥ e</code> <a href="#Evernote">Evernote</a><br>  <code>^ ⌥ r</code> Chrome<br>  <code>^ ⌥ t</code> Thunder</p>
+<p>  <code>^ ⌥ a</code> <a href="#PyCharm">PyCharm</a><br>  <code>^ ⌥ s</code> <a href="#PhpStorm">PhpStorm</a><br>  <code>^ ⌥ d</code> Dictionary<br>  <code>^ ⌥ f</code> <a href="#Finder">Finder</a><br>  <strong><code>^ ⌥ g</code> Preview</strong></p>
+<p>  <code>^ ⌥ x</code> <a href="#Mail">Mail</a><br>  <code>^ ⌥ c</code> <a href="#Charles">Charles</a><br>  <strong><code>^ ⌥ b</code> Sublime Text</strong></p>
 </li>
 <li><p>Rg Hand</p>
-<p>  <code>^ ⌥ y</code> Typora<br>  <code>^ ⌥ u</code> EuDic Free<br>  <code>^ ⌥ i</code> iTunes<br>  <strong><code>^ ⌥ o</code> ShadowsocksX</strong><br>  <code>^ ⌥ p</code> AppStore</p>
-<p>  <code>^ ⌥ h</code> Photos<br>  <code>^ ⌥ k</code> Karabiner</p>
-<p>  <code>^ ⌥ n</code> NeteaseMusic<br>  <code>^ ⌥ m</code> Manico</p>
+<p>  <code>^ ⌥ y</code> <a href="#Typora">Typora</a><br>  <code>^ ⌥ u</code> EuDic Free<br>  <code>^ ⌥ i</code> iTunes<br>  <strong><code>^ ⌥ o</code> ShadowsocksX</strong><br>  <code>^ ⌥ p</code> AppStore</p>
+<p>  <code>^ ⌥ h</code> Photos<br>  <code>^ ⌥ k</code> <a href="#Karabiner">Karabiner</a></p>
+<p>  <code>^ ⌥ n</code> NeteaseMusic<br>  <code>^ ⌥ m</code> <a href="#Manico">Manico</a></p>
 </li>
 </ul>
 <h1 id="Moom">Moom</h1><p><code>^ ⌥ z</code> Activate</p>

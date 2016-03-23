@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://icehe.me/mac_shortcuts/</loc>
+    <lastmod>2016-03-23T02:10:19.000Z</lastmod>
+    <data>
+        <display>
+        <title>My Mac Shortcuts 快捷键列表</title>
+        <pubTime>2016-01-05T16:00:00.000Z</pubTime>
+        
+        <tag>Mac</tag>
+         
+         
+           
+             
+              <breadCrumb title="Mac" url="http://icehe.me/categories/Mac/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://icehe.me/resume/</loc>
     <lastmod>2016-03-22T16:58:00.000Z</lastmod>
     <data>
@@ -17,26 +37,6 @@
            
              
               <breadCrumb title="whoami" url="http://icehe.me/categories/whoami/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/mac_shortcuts/</loc>
-    <lastmod>2016-03-22T16:57:40.000Z</lastmod>
-    <data>
-        <display>
-        <title>My Mac Shortcuts 快捷键列表</title>
-        <pubTime>2016-01-05T16:00:00.000Z</pubTime>
-        
-        <tag>Mac</tag>
-         
-         
-           
-             
-              <breadCrumb title="Mac" url="http://icehe.me/categories/Mac/"/>
           
         </display>
     </data>
