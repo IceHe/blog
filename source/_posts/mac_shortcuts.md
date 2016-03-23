@@ -98,7 +98,9 @@ _Italic_ : I seldom use it .
 
 # Mac OS X
 
-Some of the keys above can be modified in `System Preference → Keyboard`.
+Some of the keys below can be modified in `System Preference → Keyboard`.
+Some are default in operating system.
+Some are modified by App [Karabiner](#Karabiner).
 
 - Power
 
@@ -204,6 +206,14 @@ Some of the keys above can be modified in `System Preference → Keyboard`.
     `^ h` = `Del`
     `^ d` = `Fn Del` Forward Del
     `^ k` Del to the End of the Line
+
+- Others
+
+    - [Activity Monitor](#Activity_Monitor)
+    - [Finder](#Finder)
+    - [Input Sources](#Input_Sources)
+    - [Mail](#Mail)
+    - [Script Editor](#Script_Editor)
 
 # Activity Monitor
 
@@ -422,7 +432,7 @@ _Most Keys are Same as Vim , Just List my Custom Keys._
     __`^ t` [ Simple | Traditional  ] Chinese Characters__
     __`^ .` [ Chinese | English  ] Punctuation Marks__
 
-# iTerm2
+# iTerm3
 
 `⌘ /` Find Cursor
 
@@ -462,9 +472,7 @@ Not Only shortcuts, but also Change Layout of Keyboard!
 - Emacs Mode
 
     `^ j` = `↩` Ret
-
     `^ w` Del Preceding Word
-    `^ u` Del to the Head of the Line
 
 # Mail
 
@@ -493,12 +501,12 @@ Not Only shortcuts, but also Change Layout of Keyboard!
 
 - Most Frequent
 
-    `⌥ 1` Firefox
-    `⌥ 2` iTerm3
+    `⌥ 1` [Firefox](#Firefox)
+    `⌥ 2` [iTerm3](#iTerm3)
 
 - Num
 
-    `^ ⌥ 1` Script Editor ( for AppleScript )
+    `^ ⌥ 1` [Script Editor](#Script_Editor) ( for AppleScript )
     `^ ⌥ 2` System Preferences
     `^ ⌥ 3` Dash
     `^ ⌥ 5` Daily Task
@@ -507,37 +515,37 @@ Not Only shortcuts, but also Change Layout of Keyboard!
 
 - Lf Hand
 
-    `^ ⌥ 凵` Activity_Monitor
+    `^ ⌥ 凵` [Activity_Monitor](#Activity_Monitor)
 
-    `^ ⌥ q` QQ
-    `^ ⌥ w` WeChat
-    `^ ⌥ e` Evernote
+    `^ ⌥ q` [QQ](#QQ)
+    `^ ⌥ w` [WeChat](#WeChat)
+    `^ ⌥ e` [Evernote](#Evernote)
     `^ ⌥ r` Chrome
     `^ ⌥ t` Thunder
 
-    `^ ⌥ a` PyCharm
-    `^ ⌥ s` PhpStorm
+    `^ ⌥ a` [PyCharm](#PyCharm)
+    `^ ⌥ s` [PhpStorm](#PhpStorm)
     `^ ⌥ d` Dictionary
-    `^ ⌥ f` Finder
+    `^ ⌥ f` [Finder](#Finder)
     __`^ ⌥ g` Preview__
 
-    `^ ⌥ x` Mail
-    `^ ⌥ c` Charles
+    `^ ⌥ x` [Mail](#Mail)
+    `^ ⌥ c` [Charles](#Charles)
     __`^ ⌥ b` Sublime Text__
 
 - Rg Hand
 
-    `^ ⌥ y` Typora
+    `^ ⌥ y` [Typora](#Typora)
     `^ ⌥ u` EuDic Free
     `^ ⌥ i` iTunes
     __`^ ⌥ o` ShadowsocksX__
     `^ ⌥ p` AppStore
 
     `^ ⌥ h` Photos
-    `^ ⌥ k` Karabiner
+    `^ ⌥ k` [Karabiner](#Karabiner)
 
     `^ ⌥ n` NeteaseMusic
-    `^ ⌥ m` Manico
+    `^ ⌥ m` [Manico](#Manico)
 
 # Moom
 
