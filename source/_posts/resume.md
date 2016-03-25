@@ -1,4 +1,4 @@
-title: My Resume 简历
+title: My Resume 简历 —— 何志远
 date: 2015-01-24
 categories: [whoami]
 tags: [whoami]
@@ -6,9 +6,14 @@ description: 我的简历。
 toc: false
 ---
 
-- _Updated on 2016-03-21_
+- _Updated on 2016-03-25_
 
-# Software Tech
+# Basic Info
+ 
+- <i class="fa fa-user-secret">&nbsp;</i>&nbsp; __Ice He 何志远__
+- <i class="fa fa-envelope">&nbsp;&nbsp;</i> __<x@icehe.me>__
+
+# Technology
 
 ## **<span class="icon-weibo">&nbsp;</span>微梦创科网络技术（中国）有限公司 - 手机微博 - 服务端研发 工程师** &nbsp; &nbsp; *2015.07 ~ Now*
 - MAPI（对外接口部门）- 微博移动端（手机、平板）各功能的服务端研发与维护，
@@ -105,10 +110,6 @@ toc: false
 - <i class="fa fa-gears">&nbsp;</i> [Tools &nbsp; 使用的工具](/tools)
 - <i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;[Bookmarks &nbsp; 书签](/bookmarks)
 - <i class="fa fa-heart-o">&nbsp;</i> [Favourites &nbsp; 喜好](/favourites)
-
-## **Contact**
-
-- <i class="fa fa-envelope">&nbsp;&nbsp;</i><x@icehe.me>
 
 <style type="text/css">
 article .article-content h2 {
