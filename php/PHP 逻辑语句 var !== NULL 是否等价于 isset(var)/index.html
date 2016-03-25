@@ -6,7 +6,7 @@
 
     <meta charset="UTF-8">
     
-    <title>PHP 逻辑语句 var !== NULL 是否等价于 isset(var) | Ice He 何志远</title>
+    <title>PHP 的 var !== NULL 是否等价于 isset(var) | Ice He 何志远</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 
@@ -16,13 +16,13 @@
 
     <meta name="description" content="PHP中 !== 的逻辑含义，以及 与操作符===、==、!=、函数isset()、empty()的关系。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="PHP 逻辑语句 var !== NULL 是否等价于 isset(var)">
+<meta property="og:title" content="PHP 的 var !== NULL 是否等价于 isset(var)">
 <meta property="og:url" content="http://icehe.me/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var)/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="PHP中 !== 的逻辑含义，以及 与操作符===、==、!=、函数isset()、empty()的关系。">
-<meta property="og:updated_time" content="2016-02-15T02:52:01.000Z">
+<meta property="og:updated_time" content="2016-03-25T08:27:51.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="PHP 逻辑语句 var !== NULL 是否等价于 isset(var)">
+<meta name="twitter:title" content="PHP 的 var !== NULL 是否等价于 isset(var)">
 <meta name="twitter:description" content="PHP中 !== 的逻辑含义，以及 与操作符===、==、!=、函数isset()、empty()的关系。">
 
     <!-- Google Web Master Tool - Meta Tag Verification -->
@@ -110,7 +110,7 @@
 
     <h1 itemprop="name" class="article-title">
     
-        <a href="/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var)/" title="PHP 逻辑语句 var !== NULL 是否等价于 isset(var)" itemprop="url" class="article-url">PHP 逻辑语句 var !== NULL 是否等价于 isset(var)</a>
+        <a href="/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var)/" title="PHP 的 var !== NULL 是否等价于 isset(var)" itemprop="url" class="article-url">PHP 的 var !== NULL 是否等价于 isset(var)</a>
     
     </h1>
 
@@ -159,7 +159,7 @@
 
 
 <div class="article-share" id="share">
-    <div data-url="http://icehe.me/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var)/" data-title="PHP 逻辑语句 var !== NULL 是否等价于 isset(var) | Ice He 何志远" data-tsina="undefined" class="share clearfix">
+    <div data-url="http://icehe.me/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var)/" data-title="PHP 的 var !== NULL 是否等价于 isset(var) | Ice He 何志远" data-tsina="undefined" class="share clearfix">
     </div>
 </div>
 
@@ -183,10 +183,10 @@
     
     <div class="next">
         <br/>
-        <a href="/javascript/某次js代码优化过程/"  title="某次无聊的 JavaScript 代码 优化过程">
+        <a href="/javascript/某次js代码优化过程/"  title="某次 JavaScript 代码优化过程">
             <strong>Next</strong><br/>
             <span>
-                某次无聊的 JavaScript 代码 优化过程
+                某次 JavaScript 代码优化过程
             </span>
         </a>
     </div>
@@ -197,7 +197,7 @@
 
 <!-- Comments Begin -->
 <section id="comments" class="comment">
-    <div class="ds-thread" data-thread-key="php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var)/" data-title="PHP 逻辑语句 var !== NULL 是否等价于 isset(var)" data-url="http://icehe.me/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var)/"></div>
+    <div class="ds-thread" data-thread-key="php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var)/" data-title="PHP 的 var !== NULL 是否等价于 isset(var)" data-url="http://icehe.me/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var)/"></div>
 </section>
 
 <script type="text/javascript">
@@ -327,7 +327,7 @@ var duoshuoQuery = {short_name:"icehe"};
 <!-- Donate Begin -->
 <div id="donate_board_wdg" class="donate_bar center">
     <a id="btn_donate_wdg" class="btn_donate" href="/reward" title="Reward 打赏" target="_top"></a>
-    <span class="donate_txt copyright" style="font-size: 80%; font-weight: bold;">
+    <span class="donate_txt copyright" style="font-size: 78%; font-weight: bold;">
         &copy; 2016 Ice He All Rights Reserved.
     </span>
 </div>
@@ -664,8 +664,6 @@ var duoshuoQuery = {short_name:"icehe"};
                         $('#popularlist_ul').append('<li><a href="'
                                 + url + '" name="'
                                 + title + '">'
-                                + (1 == ((i + 1) % 5)
-                                        ? ('<b>' + (i + 1) + ' </b>') : '')
                                 + '<sup>'
                                 + time + ' </sup> &nbsp;'
                                 + title

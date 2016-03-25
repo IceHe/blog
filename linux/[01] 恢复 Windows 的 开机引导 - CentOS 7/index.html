@@ -6,7 +6,7 @@
 
     <meta charset="UTF-8">
     
-    <title>(01) 恢复 Windows 的 开机引导 - CentOS 7 | Ice He 何志远</title>
+    <title>CentOS 恢复 Windows 的开机引导 | Ice He 何志远</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 
@@ -16,13 +16,13 @@
 
     <meta name="description" content="CentOS7正式版和Redhat7，Grub2不能正确引导windows分区。解决方法：修改/boot/grub2/grub.cfg… 重启时，将会出现win8的系统选单。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="(01) 恢复 Windows 的 开机引导 - CentOS 7">
+<meta property="og:title" content="CentOS 恢复 Windows 的开机引导">
 <meta property="og:url" content="http://icehe.me/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="CentOS7正式版和Redhat7，Grub2不能正确引导windows分区。解决方法：修改/boot/grub2/grub.cfg… 重启时，将会出现win8的系统选单。">
-<meta property="og:updated_time" content="2016-02-15T02:52:01.000Z">
+<meta property="og:updated_time" content="2016-03-25T08:28:23.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="(01) 恢复 Windows 的 开机引导 - CentOS 7">
+<meta name="twitter:title" content="CentOS 恢复 Windows 的开机引导">
 <meta name="twitter:description" content="CentOS7正式版和Redhat7，Grub2不能正确引导windows分区。解决方法：修改/boot/grub2/grub.cfg… 重启时，将会出现win8的系统选单。">
 
     <!-- Google Web Master Tool - Meta Tag Verification -->
@@ -110,7 +110,7 @@
 
     <h1 itemprop="name" class="article-title">
     
-        <a href="/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/" title="(01) 恢复 Windows 的 开机引导 - CentOS 7" itemprop="url" class="article-url">(01) 恢复 Windows 的 开机引导 - CentOS 7</a>
+        <a href="/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/" title="CentOS 恢复 Windows 的开机引导" itemprop="url" class="article-url">CentOS 恢复 Windows 的开机引导</a>
     
     </h1>
 
@@ -157,7 +157,7 @@
 
 
 <div class="article-share" id="share">
-    <div data-url="http://icehe.me/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/" data-title="(01) 恢复 Windows 的 开机引导 - CentOS 7 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
+    <div data-url="http://icehe.me/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/" data-title="CentOS 恢复 Windows 的开机引导 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
     </div>
 </div>
 
@@ -170,10 +170,10 @@
     
     <div class="prev" >
         <br/>
-        <a href="/linux/[02] Config System Envir 配置系统环境 - CentOS 7/" title="(02) Configure System Envir 配置系统环境 - CentOS 7">
+        <a href="/linux/[02] Config System Envir 配置系统环境 - CentOS 7/" title="CentOS 配置系统环境">
             <strong>Prev</strong><br/>
             <span>
-                (02) Configure System Envir 配置系统环境 - CentOS 7
+                CentOS 配置系统环境
             </span>
         </a>
     </div>
@@ -181,10 +181,10 @@
     
     <div class="next">
         <br/>
-        <a href="/linux/[00] U盘安装 CentOS 7/"  title="(00) U盘安装 - CentOS 7">
+        <a href="/linux/[00] U盘安装 CentOS 7/"  title="U盘安装 CentOS">
             <strong>Next</strong><br/>
             <span>
-                (00) U盘安装 - CentOS 7
+                U盘安装 CentOS
             </span>
         </a>
     </div>
@@ -195,7 +195,7 @@
 
 <!-- Comments Begin -->
 <section id="comments" class="comment">
-    <div class="ds-thread" data-thread-key="linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/" data-title="(01) 恢复 Windows 的 开机引导 - CentOS 7" data-url="http://icehe.me/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/"></div>
+    <div class="ds-thread" data-thread-key="linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/" data-title="CentOS 恢复 Windows 的开机引导" data-url="http://icehe.me/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/"></div>
 </section>
 
 <script type="text/javascript">
@@ -325,7 +325,7 @@ var duoshuoQuery = {short_name:"icehe"};
 <!-- Donate Begin -->
 <div id="donate_board_wdg" class="donate_bar center">
     <a id="btn_donate_wdg" class="btn_donate" href="/reward" title="Reward 打赏" target="_top"></a>
-    <span class="donate_txt copyright" style="font-size: 80%; font-weight: bold;">
+    <span class="donate_txt copyright" style="font-size: 78%; font-weight: bold;">
         &copy; 2016 Ice He All Rights Reserved.
     </span>
 </div>
@@ -662,8 +662,6 @@ var duoshuoQuery = {short_name:"icehe"};
                         $('#popularlist_ul').append('<li><a href="'
                                 + url + '" name="'
                                 + title + '">'
-                                + (1 == ((i + 1) % 5)
-                                        ? ('<b>' + (i + 1) + ' </b>') : '')
                                 + '<sup>'
                                 + time + ' </sup> &nbsp;'
                                 + title

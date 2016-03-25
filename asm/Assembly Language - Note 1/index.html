@@ -6,7 +6,7 @@
 
     <meta charset="UTF-8">
     
-    <title>Assembly Language 汇编语言 - Note 1 | Ice He 何志远</title>
+    <title>ASM 汇编语言 - 1 | Ice He 何志远</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 
@@ -16,7 +16,7 @@
 
     <meta name="description" content="寄存器，段寄存器，CS和IP，修改CS、IP的指令，查看CPU和内存。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Assembly Language 汇编语言 - Note 1">
+<meta property="og:title" content="ASM 汇编语言 - 1">
 <meta property="og:url" content="http://icehe.me/asm/Assembly Language - Note 1/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="寄存器，段寄存器，CS和IP，修改CS、IP的指令，查看CPU和内存。">
@@ -32,9 +32,9 @@
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/3c1fa34129c318f8ef086ac0725b126a.png">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/6b62a7dc51f24ad3ee0932c29fade4fc.png">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/386bad5a0f13c43e209df53c0b81298f.png">
-<meta property="og:updated_time" content="2016-02-15T02:52:01.000Z">
+<meta property="og:updated_time" content="2016-03-25T08:10:36.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Assembly Language 汇编语言 - Note 1">
+<meta name="twitter:title" content="ASM 汇编语言 - 1">
 <meta name="twitter:description" content="寄存器，段寄存器，CS和IP，修改CS、IP的指令，查看CPU和内存。">
 
     <!-- Google Web Master Tool - Meta Tag Verification -->
@@ -122,7 +122,7 @@
 
     <h1 itemprop="name" class="article-title">
     
-        <a href="/asm/Assembly Language - Note 1/" title="Assembly Language 汇编语言 - Note 1" itemprop="url" class="article-url">Assembly Language 汇编语言 - Note 1</a>
+        <a href="/asm/Assembly Language - Note 1/" title="ASM 汇编语言 - 1" itemprop="url" class="article-url">ASM 汇编语言 - 1</a>
     
     </h1>
 
@@ -173,7 +173,7 @@
 
 
 <div class="article-share" id="share">
-    <div data-url="http://icehe.me/asm/Assembly Language - Note 1/" data-title="Assembly Language 汇编语言 - Note 1 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
+    <div data-url="http://icehe.me/asm/Assembly Language - Note 1/" data-title="ASM 汇编语言 - 1 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
     </div>
 </div>
 
@@ -186,10 +186,10 @@
     
     <div class="prev" >
         <br/>
-        <a href="/asm/Assembly Language - Note 2/" title="Assembly Language 汇编语言 - Note 2">
+        <a href="/asm/Assembly Language - Note 2/" title="ASM 汇编语言 - 2">
             <strong>Prev</strong><br/>
             <span>
-                Assembly Language 汇编语言 - Note 2
+                ASM 汇编语言 - 2
             </span>
         </a>
     </div>
@@ -211,7 +211,7 @@
 
 <!-- Comments Begin -->
 <section id="comments" class="comment">
-    <div class="ds-thread" data-thread-key="asm/Assembly Language - Note 1/" data-title="Assembly Language 汇编语言 - Note 1" data-url="http://icehe.me/asm/Assembly Language - Note 1/"></div>
+    <div class="ds-thread" data-thread-key="asm/Assembly Language - Note 1/" data-title="ASM 汇编语言 - 1" data-url="http://icehe.me/asm/Assembly Language - Note 1/"></div>
 </section>
 
 <script type="text/javascript">
@@ -341,7 +341,7 @@ var duoshuoQuery = {short_name:"icehe"};
 <!-- Donate Begin -->
 <div id="donate_board_wdg" class="donate_bar center">
     <a id="btn_donate_wdg" class="btn_donate" href="/reward" title="Reward 打赏" target="_top"></a>
-    <span class="donate_txt copyright" style="font-size: 80%; font-weight: bold;">
+    <span class="donate_txt copyright" style="font-size: 78%; font-weight: bold;">
         &copy; 2016 Ice He All Rights Reserved.
     </span>
 </div>
@@ -678,8 +678,6 @@ var duoshuoQuery = {short_name:"icehe"};
                         $('#popularlist_ul').append('<li><a href="'
                                 + url + '" name="'
                                 + title + '">'
-                                + (1 == ((i + 1) % 5)
-                                        ? ('<b>' + (i + 1) + ' </b>') : '')
                                 + '<sup>'
                                 + time + ' </sup> &nbsp;'
                                 + title

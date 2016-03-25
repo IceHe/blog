@@ -6,7 +6,7 @@
 
     <meta charset="UTF-8">
     
-    <title>Assembly Language 汇编语言 - Note 13 | Ice He 何志远</title>
+    <title>ASM 汇编语言 - 13 | Ice He 何志远</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 
@@ -16,16 +16,16 @@
 
     <meta name="description" content="直接定址表。数据标号、地址标号。在其它段中，使用数据标号。写子程序计算sin(x)。实现子程序setscreen，为显示输出提供指定功能。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Assembly Language 汇编语言 - Note 13">
+<meta property="og:title" content="ASM 汇编语言 - 13">
 <meta property="og:url" content="http://icehe.me/asm/Assembly Language - Note 13/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="直接定址表。数据标号、地址标号。在其它段中，使用数据标号。写子程序计算sin(x)。实现子程序setscreen，为显示输出提供指定功能。">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%2013/e8c800492bf9619ab7e61184592c770c.png">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%2013/488a2b294983eb6c4dc88d71380790e8.png">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%2013/18512c4d794b8a6c2c7ed46b68c9bcf7.png">
-<meta property="og:updated_time" content="2016-02-15T02:52:01.000Z">
+<meta property="og:updated_time" content="2016-03-25T08:13:15.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Assembly Language 汇编语言 - Note 13">
+<meta name="twitter:title" content="ASM 汇编语言 - 13">
 <meta name="twitter:description" content="直接定址表。数据标号、地址标号。在其它段中，使用数据标号。写子程序计算sin(x)。实现子程序setscreen，为显示输出提供指定功能。">
 
     <!-- Google Web Master Tool - Meta Tag Verification -->
@@ -113,7 +113,7 @@
 
     <h1 itemprop="name" class="article-title">
     
-        <a href="/asm/Assembly Language - Note 13/" title="Assembly Language 汇编语言 - Note 13" itemprop="url" class="article-url">Assembly Language 汇编语言 - Note 13</a>
+        <a href="/asm/Assembly Language - Note 13/" title="ASM 汇编语言 - 13" itemprop="url" class="article-url">ASM 汇编语言 - 13</a>
     
     </h1>
 
@@ -630,7 +630,7 @@ sub3c1:<br>
 
 
 <div class="article-share" id="share">
-    <div data-url="http://icehe.me/asm/Assembly Language - Note 13/" data-title="Assembly Language 汇编语言 - Note 13 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
+    <div data-url="http://icehe.me/asm/Assembly Language - Note 13/" data-title="ASM 汇编语言 - 13 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
     </div>
 </div>
 
@@ -643,10 +643,10 @@ sub3c1:<br>
     
     <div class="prev" >
         <br/>
-        <a href="/asm/Assembly Language - Note 14/" title="Assembly Language 汇编语言 - Note 14">
+        <a href="/asm/Assembly Language - Note 14/" title="ASM 汇编语言 - 14">
             <strong>Prev</strong><br/>
             <span>
-                Assembly Language 汇编语言 - Note 14
+                ASM 汇编语言 - 14
             </span>
         </a>
     </div>
@@ -654,10 +654,10 @@ sub3c1:<br>
     
     <div class="next">
         <br/>
-        <a href="/asm/Assembly Language - Note 12/"  title="Assembly Language 汇编语言 - Note 12">
+        <a href="/asm/Assembly Language - Note 12/"  title="ASM 汇编语言 - 12">
             <strong>Next</strong><br/>
             <span>
-                Assembly Language 汇编语言 - Note 12
+                ASM 汇编语言 - 12
             </span>
         </a>
     </div>
@@ -668,7 +668,7 @@ sub3c1:<br>
 
 <!-- Comments Begin -->
 <section id="comments" class="comment">
-    <div class="ds-thread" data-thread-key="asm/Assembly Language - Note 13/" data-title="Assembly Language 汇编语言 - Note 13" data-url="http://icehe.me/asm/Assembly Language - Note 13/"></div>
+    <div class="ds-thread" data-thread-key="asm/Assembly Language - Note 13/" data-title="ASM 汇编语言 - 13" data-url="http://icehe.me/asm/Assembly Language - Note 13/"></div>
 </section>
 
 <script type="text/javascript">
@@ -798,7 +798,7 @@ var duoshuoQuery = {short_name:"icehe"};
 <!-- Donate Begin -->
 <div id="donate_board_wdg" class="donate_bar center">
     <a id="btn_donate_wdg" class="btn_donate" href="/reward" title="Reward 打赏" target="_top"></a>
-    <span class="donate_txt copyright" style="font-size: 80%; font-weight: bold;">
+    <span class="donate_txt copyright" style="font-size: 78%; font-weight: bold;">
         &copy; 2016 Ice He All Rights Reserved.
     </span>
 </div>
@@ -1135,8 +1135,6 @@ var duoshuoQuery = {short_name:"icehe"};
                         $('#popularlist_ul').append('<li><a href="'
                                 + url + '" name="'
                                 + title + '">'
-                                + (1 == ((i + 1) % 5)
-                                        ? ('<b>' + (i + 1) + ' </b>') : '')
                                 + '<sup>'
                                 + time + ' </sup> &nbsp;'
                                 + title

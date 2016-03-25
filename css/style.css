@@ -1896,10 +1896,10 @@ section.comment {
   color: #69c;
 }
 .popularlist li:nth-child(5) {
-  border-bottom: 2px solid #ccc;
+  border-bottom: 3px solid #ccc;
 }
 .popularlist li:nth-child(10) {
-  border-bottom: 2px solid #ccc;
+  border-bottom: 3px solid #ccc;
 }
 footer {
   margin-top: 1em;

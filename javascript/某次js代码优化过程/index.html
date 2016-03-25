@@ -6,7 +6,7 @@
 
     <meta charset="UTF-8">
     
-    <title>某次无聊的 JavaScript 代码 优化过程 | Ice He 何志远</title>
+    <title>某次 JavaScript 代码优化过程 | Ice He 何志远</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 
@@ -16,13 +16,13 @@
 
     <meta name="description" content="目标功能：使id为blink的html标签闪烁。优化原始代码：用jQuery精简代码；避免重复使用选择器去获得标签和属性；改用布尔变量及“ ? &amp;#58; ”语句压缩语句。还有过程中犯的愚蠢错误。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="某次无聊的 JavaScript 代码 优化过程">
+<meta property="og:title" content="某次 JavaScript 代码优化过程">
 <meta property="og:url" content="http://icehe.me/javascript/某次js代码优化过程/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="目标功能：使id为blink的html标签闪烁。优化原始代码：用jQuery精简代码；避免重复使用选择器去获得标签和属性；改用布尔变量及“ ? &amp;#58; ”语句压缩语句。还有过程中犯的愚蠢错误。">
-<meta property="og:updated_time" content="2016-02-15T02:52:01.000Z">
+<meta property="og:updated_time" content="2016-03-25T08:33:15.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="某次无聊的 JavaScript 代码 优化过程">
+<meta name="twitter:title" content="某次 JavaScript 代码优化过程">
 <meta name="twitter:description" content="目标功能：使id为blink的html标签闪烁。优化原始代码：用jQuery精简代码；避免重复使用选择器去获得标签和属性；改用布尔变量及“ ? &amp;#58; ”语句压缩语句。还有过程中犯的愚蠢错误。">
 
     <!-- Google Web Master Tool - Meta Tag Verification -->
@@ -110,7 +110,7 @@
 
     <h1 itemprop="name" class="article-title">
     
-        <a href="/javascript/某次js代码优化过程/" title="某次无聊的 JavaScript 代码 优化过程" itemprop="url" class="article-url">某次无聊的 JavaScript 代码 优化过程</a>
+        <a href="/javascript/某次js代码优化过程/" title="某次 JavaScript 代码优化过程" itemprop="url" class="article-url">某次 JavaScript 代码优化过程</a>
     
     </h1>
 
@@ -167,7 +167,7 @@
 
 
 <div class="article-share" id="share">
-    <div data-url="http://icehe.me/javascript/某次js代码优化过程/" data-title="某次无聊的 JavaScript 代码 优化过程 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
+    <div data-url="http://icehe.me/javascript/某次js代码优化过程/" data-title="某次 JavaScript 代码优化过程 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
     </div>
 </div>
 
@@ -180,10 +180,10 @@
     
     <div class="prev" >
         <br/>
-        <a href="/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var)/" title="PHP 逻辑语句 var !== NULL 是否等价于 isset(var)">
+        <a href="/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var)/" title="PHP 的 var !== NULL 是否等价于 isset(var)">
             <strong>Prev</strong><br/>
             <span>
-                PHP 逻辑语句 var !== NULL 是否等价于 isset(var)
+                PHP 的 var !== NULL 是否等价于 isset(var)
             </span>
         </a>
     </div>
@@ -191,10 +191,10 @@
     
     <div class="next">
         <br/>
-        <a href="/asm/Assembly Language - Note 15/"  title="Assembly Language 汇编语言 - Note 15">
+        <a href="/asm/Assembly Language - Note 15/"  title="ASM 汇编语言 - 15">
             <strong>Next</strong><br/>
             <span>
-                Assembly Language 汇编语言 - Note 15
+                ASM 汇编语言 - 15
             </span>
         </a>
     </div>
@@ -205,7 +205,7 @@
 
 <!-- Comments Begin -->
 <section id="comments" class="comment">
-    <div class="ds-thread" data-thread-key="javascript/某次js代码优化过程/" data-title="某次无聊的 JavaScript 代码 优化过程" data-url="http://icehe.me/javascript/某次js代码优化过程/"></div>
+    <div class="ds-thread" data-thread-key="javascript/某次js代码优化过程/" data-title="某次 JavaScript 代码优化过程" data-url="http://icehe.me/javascript/某次js代码优化过程/"></div>
 </section>
 
 <script type="text/javascript">
@@ -335,7 +335,7 @@ var duoshuoQuery = {short_name:"icehe"};
 <!-- Donate Begin -->
 <div id="donate_board_wdg" class="donate_bar center">
     <a id="btn_donate_wdg" class="btn_donate" href="/reward" title="Reward 打赏" target="_top"></a>
-    <span class="donate_txt copyright" style="font-size: 80%; font-weight: bold;">
+    <span class="donate_txt copyright" style="font-size: 78%; font-weight: bold;">
         &copy; 2016 Ice He All Rights Reserved.
     </span>
 </div>
@@ -672,8 +672,6 @@ var duoshuoQuery = {short_name:"icehe"};
                         $('#popularlist_ul').append('<li><a href="'
                                 + url + '" name="'
                                 + title + '">'
-                                + (1 == ((i + 1) % 5)
-                                        ? ('<b>' + (i + 1) + ' </b>') : '')
                                 + '<sup>'
                                 + time + ' </sup> &nbsp;'
                                 + title

@@ -6,7 +6,7 @@
 
     <meta charset="UTF-8">
     
-    <title>Effective C++ - Reading Note 1 | Ice He 何志远</title>
+    <title>Effective C++ - 1 | Ice He 何志远</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 
@@ -16,13 +16,13 @@
 
     <meta name="description" content="const、enum、inline。先初始化再使用变量。smart pointer智能指针。virtual虚函数。Destructor析构函数。self-assignment自赋值。new和delete。若不想使用编译器自动生成的函数，就该明确拒绝。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Effective C++ - Reading Note 1">
+<meta property="og:title" content="Effective C++ - 1">
 <meta property="og:url" content="http://icehe.me/c++/Effective C++ - Reading Note 1/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="const、enum、inline。先初始化再使用变量。smart pointer智能指针。virtual虚函数。Destructor析构函数。self-assignment自赋值。new和delete。若不想使用编译器自动生成的函数，就该明确拒绝。">
-<meta property="og:updated_time" content="2016-02-15T02:52:01.000Z">
+<meta property="og:updated_time" content="2016-03-25T08:17:19.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Effective C++ - Reading Note 1">
+<meta name="twitter:title" content="Effective C++ - 1">
 <meta name="twitter:description" content="const、enum、inline。先初始化再使用变量。smart pointer智能指针。virtual虚函数。Destructor析构函数。self-assignment自赋值。new和delete。若不想使用编译器自动生成的函数，就该明确拒绝。">
 
     <!-- Google Web Master Tool - Meta Tag Verification -->
@@ -110,7 +110,7 @@
 
     <h1 itemprop="name" class="article-title">
     
-        <a href="/c++/Effective C++ - Reading Note 1/" title="Effective C++ - Reading Note 1" itemprop="url" class="article-url">Effective C++ - Reading Note 1</a>
+        <a href="/c++/Effective C++ - Reading Note 1/" title="Effective C++ - 1" itemprop="url" class="article-url">Effective C++ - 1</a>
     
     </h1>
 
@@ -161,7 +161,7 @@
 
 
 <div class="article-share" id="share">
-    <div data-url="http://icehe.me/c++/Effective C++ - Reading Note 1/" data-title="Effective C++ - Reading Note 1 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
+    <div data-url="http://icehe.me/c++/Effective C++ - Reading Note 1/" data-title="Effective C++ - 1 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
     </div>
 </div>
 
@@ -174,10 +174,10 @@
     
     <div class="prev" >
         <br/>
-        <a href="/c++/Effective C++ - Reading Note 2/" title="Effective C++ - Reading Note 2">
+        <a href="/c++/Effective C++ - Reading Note 2/" title="Effective C++ - 2">
             <strong>Prev</strong><br/>
             <span>
-                Effective C++ - Reading Note 2
+                Effective C++ - 2
             </span>
         </a>
     </div>
@@ -185,10 +185,10 @@
     
     <div class="next">
         <br/>
-        <a href="/resume/"  title="Resume - Ice He 何志远">
+        <a href="/resume/"  title="My Resume 简历 —— 何志远">
             <strong>Next</strong><br/>
             <span>
-                Resume - Ice He 何志远
+                My Resume 简历 —— 何志远
             </span>
         </a>
     </div>
@@ -199,7 +199,7 @@
 
 <!-- Comments Begin -->
 <section id="comments" class="comment">
-    <div class="ds-thread" data-thread-key="c++/Effective C++ - Reading Note 1/" data-title="Effective C++ - Reading Note 1" data-url="http://icehe.me/c++/Effective C++ - Reading Note 1/"></div>
+    <div class="ds-thread" data-thread-key="c++/Effective C++ - Reading Note 1/" data-title="Effective C++ - 1" data-url="http://icehe.me/c++/Effective C++ - Reading Note 1/"></div>
 </section>
 
 <script type="text/javascript">
@@ -329,7 +329,7 @@ var duoshuoQuery = {short_name:"icehe"};
 <!-- Donate Begin -->
 <div id="donate_board_wdg" class="donate_bar center">
     <a id="btn_donate_wdg" class="btn_donate" href="/reward" title="Reward 打赏" target="_top"></a>
-    <span class="donate_txt copyright" style="font-size: 80%; font-weight: bold;">
+    <span class="donate_txt copyright" style="font-size: 78%; font-weight: bold;">
         &copy; 2016 Ice He All Rights Reserved.
     </span>
 </div>
@@ -666,8 +666,6 @@ var duoshuoQuery = {short_name:"icehe"};
                         $('#popularlist_ul').append('<li><a href="'
                                 + url + '" name="'
                                 + title + '">'
-                                + (1 == ((i + 1) % 5)
-                                        ? ('<b>' + (i + 1) + ' </b>') : '')
                                 + '<sup>'
                                 + time + ' </sup> &nbsp;'
                                 + title
