@@ -1528,7 +1528,6 @@ section.comment {
 #toc.toc-aside {
   display: none;
   width: 13%;
-  position: fixed;
   right: 2%;
   top: 320px;
   overflow: hidden;
@@ -1545,8 +1544,9 @@ section.comment {
   transition: opacity 1s ease-out;
 }
 #toc.toc-aside strong {
+  font-weight: bold;
   padding: 0.3em 0;
-  color: #817c7c;
+  color: color-black;
 }
 #toc.toc-aside:hover {
   -webkit-transition: opacity 0.3s ease-out;
@@ -1559,14 +1559,16 @@ section.comment {
   filter: none;
 }
 #toc.toc-aside a {
+  font-size: 90%;
   -webkit-transition: color 1s ease-out;
   -moz-transition: color 1s ease-out;
   -o-transition: color 1s ease-out;
   -ms-transition: color 1s ease-out;
   transition: color 1s ease-out;
+  color: #817c7c;
 }
 #toc.toc-aside a:hover {
-  color: #69c;
+  color: #369;
   -webkit-transition: color 0.3s ease-out;
   -moz-transition: color 0.3s ease-out;
   -o-transition: color 0.3s ease-out;

@@ -14,9 +14,7 @@
 
     <meta name="author" content="IceHe何志远"> 
 
-    
-
-    <meta name="description" content="别雇佣平庸的人！绝对会后悔！宁缺毋滥。一开始5个人的公司，一个平庸的人足够毁掉公司！
+<meta name="description" content="别雇佣平庸的人！绝对会后悔！宁缺毋滥。一开始5个人的公司，一个平庸的人足够毁掉公司！
 联合创始人，必须相互有足够了解，最好相处过几年。
 尽可能雇佣优秀的人，他们可能会观察你的公司，你要努力尽快让公司走上正轨，吸引他们。创始人两到三个为佳，能力互补较好。雇佣员工尽可能少去维持公司，雇佣得慢，要求高，更容易激起员工使命感和拼劲。
 有一个足够好、能够激起你的使命感的点子。点子最好看起来有点笨，足够细小但">
@@ -65,7 +63,7 @@
 <body>
 
 <header>
-    
+
 <div>
     
     <div id="imglogo">
@@ -110,8 +108,9 @@
 
 </header>
 
+<!-- Container Begin -->
 <div id="container">
-    <div id="main" class="page" itemscope itemprop="blogPost">
+<div id="main" class="page" itemscope itemprop="blogPost">
 
 <article itemprop="articleBody">
 
@@ -216,7 +215,133 @@ var duoshuoQuery = {short_name:"icehe"};
 
 </div>  
 
+<!-- Sidebar Begin -->
+
+<div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
+
+
+<script type="text/javascript">
+    function switch_widget_hidden(widget_a_elem){
+        widget_class = widget_a_elem.parentElement.parentElement.className;
+        var is_hidden = (document.querySelector('.' + widget_class + ' ul').className == 'hidden');
+        document.querySelector('.' + widget_class + ' ul').className = (is_hidden ? 'clearfix' : 'hidden');
+        document.querySelector('.' + widget_class + ' p i').className = (is_hidden ? 'fa fa-caret-up' : 'fa fa-caret-down');
+    }
+</script>
+
+<div id="asidepart">
+
+<div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
+
+<aside class="clearfix">
+
+
+<div class="categorieslist">
+    <p class="asidetitle">
+        <!--<a href="javascript:;" onclick="switch_widget_hidden(this);">-->
+        Categ 分类 &nbsp;
+        <!--<i class="fa fa-caret-up"></i>-->
+        <!--</a>-->
+    </p>
+    <ul class="clearfix">
+        
+        <li><a href="/categories/ASM/" title="ASM">ASM<sup>17</sup></a></li>
+        
+        <li><a href="/categories/AppleScript/" title="AppleScript">AppleScript<sup>2</sup></a></li>
+        
+        <li><a href="/categories/Batch/" title="Batch">Batch<sup>4</sup></a></li>
+        
+        <li><a href="/categories/C/" title="C++">C++<sup>7</sup></a></li>
+        
+        <li><a href="/categories/CentOS/" title="CentOS">CentOS<sup>6</sup></a></li>
+        
+        <li><a href="/categories/Command/" title="Command">Command<sup>1</sup></a></li>
+        
+        <li><a href="/categories/JavaScript/" title="JavaScript">JavaScript<sup>1</sup></a></li>
+        
+        <li><a href="/categories/Mac/" title="Mac">Mac<sup>2</sup></a></li>
+        
+        <li><a href="/categories/PHP/" title="PHP">PHP<sup>2</sup></a></li>
+        
+        <li><a href="/categories/Shadowsocks/" title="Shadowsocks">Shadowsocks<sup>1</sup></a></li>
+        
+        <li><a href="/categories/Web/" title="Web">Web<sup>4</sup></a></li>
+        
+        <li><a href="/categories/read/" title="read">read<sup>4</sup></a></li>
+        
+        <li><a href="/categories/think/" title="think">think<sup>1</sup></a></li>
+        
+        <li><a href="/categories/time-mgt/" title="time mgt">time mgt<sup>2</sup></a></li>
+        
+        <li><a href="/categories/whoami/" title="whoami">whoami<sup>3</sup></a></li>
+        
+    </ul>
 </div>
+
+
+<div class="popularlist">
+    <p class="asidetitle">
+        <!--<a href="javascript:;" onclick="switch_widget_hidden(this);">-->
+            Top15 热榜 &nbsp;
+            <!--<i class="fa fa-caret-up"></i>-->
+        <!--</a>-->
+    </p>
+    <ul id="popularlist_ul" class="clearfix"></ul>
+</div>
+
+<div class="rsspart">
+    <a href="/atom.xml" target="_blank" title="rss">RSS</a>
+</div>
+
+<!-- Donate Module Begin -->
+
+<p class="asidetitle" style="display: none;">Donate 打赏</p>
+
+<!-- Donate CSS Begin -->
+<style type="text/css">
+    .donate_bar a.btn_donate{
+        margin-top: 0.8em;
+        display: inline-block;
+        width: 82px;
+        height: 82px;
+        background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
+        _background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
+
+        -webkit-transition: background 0s;
+        -moz-transition: background 0s;
+        -o-transition: background 0s;
+        -ms-transition: background 0s;
+        transition: background 0s;
+    }
+    .donate_bar a.btn_donate:hover{ background-position: 0px -82px; }
+    .donate_bar .donate_txt {
+        display: block;
+        color: #9d9d9d;
+        font: 14px/2 "Microsoft Yahei";
+    }
+    .bold { font-weight: bold; }
+</style>
+<!-- Donate CSS End -->
+
+<!-- Donate Begin -->
+<div id="donate_board_wdg" class="donate_bar center">
+    <a id="btn_donate_wdg" class="btn_donate" href="/reward" title="Reward 打赏" target="_top"></a>
+    <span class="donate_txt copyright" style="font-size: 78%; font-weight: bold;">
+        &copy; 2016 Ice He All Rights Reserved.
+    </span>
+</div>
+<!-- Donate End -->
+
+<!-- Donate Module End -->
+
+</aside>
+
+</div>
+
+<!-- Sidebar End -->
+
+</div>
+<!-- Container End -->
 
 
 
@@ -296,7 +421,7 @@ var duoshuoQuery = {short_name:"icehe"};
             getSize();
             if (myWidth >= 1024) {
                 $('header nav').removeClass('shownav');
-            }else{
+            } else {
                 m.removeClass('moveMain');
                 a.css('display', 'block').removeClass('fadeOut');
                 o.css('display', 'none');
@@ -316,7 +441,7 @@ var duoshuoQuery = {short_name:"icehe"};
         var $this = $('.share'),
                 url = $this.attr('data-url'),
                 encodedUrl = encodeURIComponent(url),
-//            title = $this.attr('data-title'),
+                //title = $this.attr('data-title'),
                 tsina = $this.attr('data-tsina'),
                 description = $this.attr('description');
 

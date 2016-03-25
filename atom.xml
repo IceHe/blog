@@ -148,7 +148,7 @@
     <link href="http://icehe.me/index/"/>
     <id>http://icehe.me/index/</id>
     <published>2016-03-06T16:00:00.000Z</published>
-    <updated>2016-03-25T08:24:19.000Z</updated>
+    <updated>2016-03-25T12:44:44.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>Updated on 2016-03-16</li>
 <li><a href="/archives">Archives 归档 ( Sort by Time )</a></li>
@@ -157,7 +157,7 @@
 <h3 id="Whoami"><a href="/categories/whoami">Whoami</a></h3><hr>
 <ul>
 <li><a href="/about/">Me 我</a> &nbsp;/&nbsp; <a href="/resume">Resume</a><sup>简历</sup> <sup>me</sup></li>
-<li><a href="/reward">How to Reward Me! 怎么打赏博主~</a></li>
+<li><a href="/reward">Reward Me 打赏博主</a></li>
 </ul>
 <h3 id="AppleScript"><a href="/categories/AppleScript">AppleScript</a></h3><hr>
 <ul>
@@ -172,7 +172,7 @@
 <h3 id="Mac"><a href="/categories/Mac">Mac</a></h3><hr>
 <ul>
 <li><a href="/tools">My Tools 利器</a> —— Mac 应用推荐 <sup>me</sup></li>
-<li><a href="/mac_shortcuts">My Mac Shortcuts 快捷键列表</a> <sup>me</sup></li>
+<li><a href="/mac_shortcuts">My Mac Shortcuts 快捷键</a> <sup>me</sup></li>
 </ul>
 <h3 id="Think"><a href="/categories/think">Think</a></h3><hr>
 <ul>
@@ -188,36 +188,36 @@
 <h3 id="Web"><a href="/categories/Web">Web</a></h3><hr>
 <ul>
 <li><a href="/search">Google CSE 站内搜索</a></li>
-<li><a href="/web/donate">实现 博客网站的支付宝 打赏功能 —— Donate 打赏博主</a></li>
-<li><a href="/web/build_blog/">Bulid Blog. 搭建个人博客</a></li>
+<li><a href="/web/donate">实现网站的支付宝打赏功能</a></li>
+<li><a href="/web/build_blog/">Bulid Blog 搭建个人博客</a></li>
 <li><a href="/404">404 Page</a></li>
 </ul>
 <h3 id="Time_Mgt"><a href="/categories/time-mgt">Time Mgt</a></h3><hr>
 <ul>
-<li><a href="/think/time_mgt">Time Mgt. 我的时间管理日志</a> <sup>me</sup></li>
+<li><a href="/think/time_mgt">Time Mgt 时间管理日志</a> <sup>me</sup></li>
 <li><a href="/lifelogs">My Life Logs 手帐</a> <sup>me</sup></li>
 </ul>
 <h3 id="CentOS_7"><a href="/categories/CentOS">CentOS 7</a></h3><hr>
 <ul>
-<li><a href="/linux/[00] U盘安装 CentOS 7">(00) U盘安装</a></li>
-<li><a href="/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7">(01) 恢复 Windows 的 开机引导</a></li>
-<li><a href="/linux/[02] Config System Envir 配置系统环境 - CentOS 7">(02) Configure System Envir 配置系统环境</a></li>
-<li><a href="/linux/[03] Update Kernel 升级内核 - CentOS 7">(03) Update Kernel 升级内核</a></li>
-<li><a href="/linux/[04] 安装 CentOS 7 后必做的 安全防范措施">(04) 安装后必做的 安全防范措施</a></li>
-<li><a href="/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7">(05) 自动挂载 NTFS 格式的 硬盘分区</a></li>
+<li><a href="/linux/[00] U盘安装 CentOS 7">U盘安装</a></li>
+<li><a href="/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7">恢复 Windows 的开机引导</a></li>
+<li><a href="/linux/[02] Config System Envir 配置系统环境 - CentOS 7">配置系统环境</a></li>
+<li><a href="/linux/[03] Update Kernel 升级内核 - CentOS 7">升级内核</a></li>
+<li><a href="/linux/[04] 安装 CentOS 7 后必做的 安全防范措施">安装后的安全防范措施</a></li>
+<li><a href="/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7">自动挂载 NTFS 格式的硬盘分区</a></li>
 </ul>
 <h3 id="Batch"><a href="/categories/Batch">Batch</a></h3><hr>
 <ul>
-<li><a href="/batch/Batch 批处理指令 Command">Batch Cmd 批处理指令</a></li>
-<li><a href="/batch/DOS 常用指令 Command">DOS Cmd 常用指令</a></li>
+<li><a href="/batch/Batch 批处理指令 Command">Batch Command 批处理指令</a></li>
+<li><a href="/batch/DOS 常用指令 Command">DOS Command 常用指令</a></li>
 <li><a href="/batch/DOS 特殊符号 Symbol">DOS Symbols 特殊符号</a></li>
-<li><a href="/batch/DOS 环境变量 Environment Variable">DOS Env Var 环境变量</a></li>
+<li><a href="/batch/DOS 环境变量 Environment Variable">DOS Environment Variable 环境变量</a></li>
 </ul>
 <h3 id="C++"><a href="/categories/C/">C++</a></h3><hr>
 <ul>
-<li><a href="/c++/C++ Primer 5th">C++ Primer 5th - Handwritten Notes</a></li>
-<li><a href="/c++/C++ Interview Book">C++ Interview Book - Handwritten Notes</a></li>
-<li><a href="/c++/C++ Code Standards 编码标准">C++ Code Standards 编码规范 - Handwritten Notes</a></li>
+<li><a href="/c++/C++ Primer 5th">C++ Primer 5th - Note</a></li>
+<li><a href="/c++/C++ Interview Book">C++ Interview Book - Note</a></li>
+<li><a href="/c++/C++ Code Standards 编码标准">C++ Code Standards 编码规范 - Note</a></li>
 <li>Effective C++ Reading Note <a href="/c++/Effective C++ - Reading Note 1">「 1 」</a><a href="/c++/Effective C++ - Reading Note 2">「 2 」</a><a href="/c++/Effective C++ - Reading Note 3">「 3 」</a><a href="/c++/Effective C++ - Reading Note 4">「 4 」</a></li>
 </ul>
 <h3 id="JavaScript"><a href="/javascript/某次js代码优化过程">JavaScript</a></h3><hr>
@@ -227,7 +227,7 @@
 <h3 id="PHP"><a href="/categories/PHP">PHP</a></h3><hr>
 <ul>
 <li><a href="/php/PHP%20empty%28%29%20%E5%92%8C%20isset%28%29%20%E7%9A%84%E5%8C%BA%E5%88%AB">PHP empty() 和 isset() 的区别</a></li>
-<li><a href="/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var">PHP 逻辑语句 var !== NULL 是否等价于 isset(var)</a>)</li>
+<li><a href="/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var">PHP var !== NULL 是否等价于 isset(var)</a>)</li>
 </ul>
 <h3 id="ASM"><a href="/categories/ASM">ASM</a></h3><hr>
 <ul>
@@ -250,7 +250,7 @@
 <li>「15」 <a href="/asm/Assembly Language - Note 15/">附录内容：汇编编译器对jmp的处理，地址计数器（AC），处理伪操作指令，栈传递参数，无溢出除法…</a></li>
 </ul>
 <h3 id="Mine"><a href="/about/">Mine</a></h3><hr>
-<p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#109;&#97;&#105;&#x6c;&#116;&#x6f;&#58;&#x78;&#64;&#x69;&#x63;&#101;&#x68;&#101;&#x2e;&#109;&#x65;">&#x78;&#64;&#x69;&#x63;&#101;&#x68;&#101;&#x2e;&#109;&#x65;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
+<p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#x6d;&#x61;&#105;&#x6c;&#116;&#111;&#x3a;&#x78;&#64;&#x69;&#x63;&#x65;&#x68;&#101;&#x2e;&#109;&#101;">&#x78;&#64;&#x69;&#x63;&#x65;&#x68;&#101;&#x2e;&#109;&#101;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
 <h3 id="Others">Others</h3><hr>
 <ul>
 <li>The article with superscript <sup><strong>me</strong></sup>&nbsp; implies it’s <code>about me</code>.</li>
@@ -273,7 +273,7 @@
     <link href="http://icehe.me/cmd/git_note/"/>
     <id>http://icehe.me/cmd/git_note/</id>
     <published>2016-02-14T16:00:00.000Z</published>
-    <updated>2016-03-21T12:53:21.000Z</updated>
+    <updated>2016-03-25T12:17:02.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li><p><em>Updated on 2016-03-19</em></p>
 </li>
@@ -727,11 +727,11 @@
   </entry>
   
   <entry>
-    <title><![CDATA[My Mac Shortcuts 快捷键表]]></title>
+    <title><![CDATA[My Mac Shortcuts 快捷键]]></title>
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
-    <updated>2016-03-25T08:23:19.000Z</updated>
+    <updated>2016-03-25T12:45:31.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li><p><em>Updated on 2016-03-23</em></p>
 </li>
@@ -1180,7 +1180,7 @@
 </ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[我的 OS X 快捷键列表索引。]]>
+    <![CDATA[我的 OS X 快捷键列表。]]>
     
     </summary>
     
@@ -3323,11 +3323,11 @@ AutoProxy（用于Firefox）、Proxy SwitchySharp（用于Chrome）</p><p style=
   </entry>
   
   <entry>
-    <title><![CDATA[CentOS Update Kernel 升级内核]]></title>
+    <title><![CDATA[CentOS 升级内核]]></title>
     <link href="http://icehe.me/linux/%5B03%5D%20Update%20Kernel%20%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%20-%20CentOS%207/"/>
     <id>http://icehe.me/linux/[03] Update Kernel 升级内核 - CentOS 7/</id>
     <published>2015-03-26T16:00:00.000Z</published>
-    <updated>2016-03-25T08:29:04.000Z</updated>
+    <updated>2016-03-25T12:36:17.000Z</updated>
     <content type="html"><![CDATA[<en-note><div>Ref From: <a shape="rect" href="http://www.linuxidc.com/Linux/2015-02/112697.htm" target="_blank">http://www.linuxidc.com/Linux/2015-02/112697.htm</a></div><div>Original Title: CentOS 7 升级内核的方法</div><div><br clear="none"></div><div><p>默认<a shape="rect" title="CentOS" href="http://www.linuxidc.com/topicnews.aspx?tid=14" target="_blank">CentOS</a> 7的内核版本是3.10，<br clear="none">升级的原因是为了测试openvswitch的vlan技术，<br clear="none">默认openvswitch的2.3版本是允许CentOS 7默认内核3.10支持，<br clear="none">下面是软件与内核版本对比</p><p>    Open vSwitch  Linux kernel <br clear="none">  ------------  ------------- <br clear="none">      1.4.x      2.6.18 to 3.2 <br clear="none">      1.5.x      2.6.18 to 3.2 <br clear="none">      1.6.x      2.6.18 to 3.2 <br clear="none">      1.7.x      2.6.18 to 3.3 <br clear="none">      1.8.x      2.6.18 to 3.4 <br clear="none">      1.9.x      2.6.18 to 3.8 <br clear="none">      1.10.x    2.6.18 to 3.8 <br clear="none">      1.11.x    2.6.18 to 3.8 <br clear="none">      2.0.x      2.6.32 to 3.10 <br clear="none">      2.1.x      2.6.32 to 3.11 <br clear="none">      2.2.x      2.6.32 to 3.14</p><p>但如何想使用gre与vxlan的话，需要内核3.12以上的<br clear="none">    Protocol    Linux Kernel <br clear="none">  --------    ------------ <br clear="none">    GRE          3.11 <br clear="none">    VXLAN        3.12 <br clear="none">    LISP      &lt;not upstream&gt;<br clear="none">所以得升级内核。</p><p><br clear="none"></p><p>更新前，<strong><span style="text-decoration: underline;">查看 内核版本</span>：</strong></p><p>[root@ip-10-10-17-4 tmp]# <strong>uname -r</strong> <br clear="none">3.10.0-123.el7.x86_64</p><p>目前最新的内核是3.18.3为stable，是2015年1月18日更新，<br clear="none">具体信息查看https://www.kernel.org/ </p><p><span style="text-decoration: underline;"><strong><br clear="none">升级内核 的 方法</strong></span><strong>：</strong></p><p>1. 导入key<br clear="none"><strong>rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org</strong><br clear="none">如果你修改了repo的gpgcheck=0也可以不导入key</p><p>2.安装elrepo的yum源<br clear="none">提醒：在上一篇教程<span style="text-decoration: underline;"> <strong>[02] 用CentOS 7打造合适的科研环境 </strong></span>安装了第三方源后，此步则不需要。<br clear="none"><strong>rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm</strong></p><p>3. 安装内核<br clear="none">在yum的ELRepo源中，有mainline（3.18.3）这个内核版本<br clear="none"><strong>yum --enablerepo=elrepo-kernel install  kernel-ml-devel kernel-ml -y</strong></p><p><br clear="none"></p><p>选择了使用新安装的repo来安装3.18的内核，<br clear="none">如果使用其他的repo，看不到3.18版本内核。</p><p>更新后，查看内核版本：<br clear="none">[root@ip-10-10-17-4 tmp]# <strong>uname -r</strong> <br clear="none">3.10.0-123.el7.x86_64</p><p>重要提醒：目前内核还是默认的版本，<br clear="none">如果在这一步完成后你就直接reboot了，<br clear="none">重启后使用的内核版本还是默认的3.10，不会使用新的3.18。</p><p><br clear="none"></p><p>*4. 想<span style="text-decoration: underline;"><strong>修改启动的顺序</strong></span>，需要进行下一步，查看默认启动顺序：</p><p><strong>awk -F\' '$1==&quot;menuentry &quot; {print $2}' /etc/grub2.cfg</strong> <br clear="none">CentOS Linux (3.18.3-1.el7.elrepo.x86_64) 7 (Core) <br clear="none">CentOS Linux, with Linux 3.10.0-123.el7.x86_64 <br clear="none">CentOS Linux, with Linux 0-rescue-893b160e363b4ec7834719a7f06e67cf</p><p>默认启动的顺序是从0开始，但我们新内核是从头插入（目前位置在0，而3.10的是在1），<br clear="none">所以需要选择0，如果想生效最新的内核，需要：</p><p><strong>grub2-set-default 0</strong></p><p><br clear="none"></p><p>以上问题可以参考<a shape="rect" href="https://access.RedHat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/sec-Customizing_GRUB_2_Menu.html#sec-Changing_the_Default_Boot_Entry" target="_blank">https://access.RedHat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/sec-Customizing_GRUB_2_Menu.html#sec-Changing_the_Default_Boot_Entry</a></p><p>然后reboot重启，使用新的内核，下面是重启后使用的内核版本：<br clear="none">[root@ip-10-10-17-4 ~]# <strong>uname -r</strong> <br clear="none">3.18.3-1.el7.elrepo.x86_64</p><p>完成后内核已经是最新的了。</p></div>
 </en-note>]]></content>
     <summary type="html">
@@ -3346,7 +3346,7 @@ AutoProxy（用于Firefox）、Proxy SwitchySharp（用于Chrome）</p><p style=
     <link href="http://icehe.me/linux/%5B02%5D%20Config%20System%20Envir%20%E9%85%8D%E7%BD%AE%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%20-%20CentOS%207/"/>
     <id>http://icehe.me/linux/[02] Config System Envir 配置系统环境 - CentOS 7/</id>
     <published>2015-03-25T16:00:00.000Z</published>
-    <updated>2016-03-25T08:28:41.000Z</updated>
+    <updated>2016-03-25T12:36:07.000Z</updated>
     <content type="html"><![CDATA[<div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div style="background-color: #ffffff;"><div style="width: 65.812%; display: block; min-height: 30px; box-sizing: border-box; margin-left: 2.5641%; max-width: 50em; text-align: justify;"><div style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px;">RefFrom:<a href="http://seisman.info/linux-environment-for-seismology-research.html" shape="rect" target="_blank" rel="external">http://seisman.info/linux-environment-for-seismology-research.html</a></div><div style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px;">Original Title:&nbsp;用CentOS 7打造合适的科研环境<br clear="none"></div><div><br></div><div><span style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; text-transform: none; color: rgb(255, 102, 0); font-size: 12pt;"><strong>Notice:&nbsp;</strong>若是按照前篇的文章《</span><font color="#FF6600" face="pt serif, georgia, times new roman, times, serif"><span style="line-height: 26px;">[00] U盘安装 CentOS 7</span></font><span style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none; color: rgb(255, 102, 0); font-size: 12pt; line-height: 1.6em;">》安装CentOS，<br></span><span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 此时应从&nbsp;</span><span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em; text-decoration: underline;"><strong>添加第三方源</strong></span> <span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">开始阅读，</span><span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">到</span> <strong style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">删除多余的kernel</strong> <span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">结束。</span></div><p style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-weight: normal; color: rgb(51, 51, 51); font-size: 16.8px; font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px;"><br clear="none"></p><p style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-weight: normal; color: rgb(51, 51, 51); font-size: 16.8px; font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px;">这篇博文记录了我用CentOS 7搭建<strong style="font-weight: bold;">地震学科研环境</strong>的过程，供我个人在未来重装系统时参考。对于其他地震学科研人员，也许有借鉴意义。</p><p style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-weight: normal; color: rgb(51, 51, 51); font-size: 16.8px; font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px;">阅读须知：</p><ol style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px; list-style: decimal; padding: 0px; margin: 0px 0px 10px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文适用于个人电脑，不适用于服务器；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">不推荐刚接触Linux的人使用CentOS发行版；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文尽量写的浅显易懂，但要求读者掌握Linux基础知识；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文所有操作均在CentOS 7下完成，其他发行版或多或少与CentOS&nbsp;7不同，因而仅供参考；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文所安装的软件纯粹出于个人习惯及喜好，读者应自己判断，按需安装；</li></ol><div style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px;"><h2 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 31.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id44" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">安装CentOS</a><br clear="none"></h2><p style="font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px 20px 0px;">CentOS&nbsp;7的安装与其他Linux发行版的安装差不多，个别地方稍有不同。</p><div><h3 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 24.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id45" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">准备工作</a><br clear="none"></h3><ol style="list-style-type: decimal; padding: 0px; margin: 0px 0px 10px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">准备材料
 <ul style="list-style-type: disc; padding: 0px; margin: 0px 0px 0px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">U盘：容量700M以上，用于制作U盘启动盘，因为在制作启动盘时会格式化U盘，所以U盘内不要包含重要资料</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;"><a href="http://mirrors.ustc.edu.cn/centos/7/isos/x86_64/CentOS-7.0-1406-x86_64-livecd.iso" shape="rect" style="border-bottom-width: thin; border-bottom-style: dashed; border-bottom-color: #a9a9a9; color: #000000; text-decoration: none;" target="_blank">CentOS 7.0 LiveCD&nbsp;ISO镜像文件</a><br clear="none"></li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;"><a href="http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/" shape="rect" style="border-bottom-width: thin; border-bottom-style: dashed; border-bottom-color: #a9a9a9; color: #000000; text-decoration: none;" target="_blank">Universal <span>USB</span> installer</a>：Windows下的U盘启动盘制作工具</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">一个已安装Windows的电脑：用于制作U盘启动盘</li></ul></li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">运行Universal <span>USB</span>&nbsp;installer并制作U盘启动盘</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">将U盘插入计算机，重启，进入BIOS选择从U盘启动，即可进入CentOS的LiveCD</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">进入LiveCD后，点击桌面的“Install to Hard&nbsp;Drive”即可安装</li></ol><p style="font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px 20px 0px;">注：Linux下可以通过<tt style="background-color: #f7f7f9; border-radius: 3px; color: #dd1144; font-family: Monaco,Menlo,Consolas,Courier New,monospace; font-size: 12px; white-space: nowrap; padding: 2px 4px 2px 4px; border: 1px solid #e1e1e8;">dd</tt>命令制作启动盘，但由于对原理不够了解，偶尔会导致制作失败，或制作成功后U盘容量有问题，还是用Windows下的Universal <span>USB</span>&nbsp;installer比较靠谱。</p></div><div><h3 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 24.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id46" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">安装过程</a><br clear="none"></h3><ol style="list-style-type: decimal; padding: 0px; margin: 0px 0px 10px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">选择安装过程中使用的语言，这里应<strong style="font-weight: bold;">使用英语，不要使用汉语</strong>。若安装界面使用汉语，最终安装的系统中会出现两个比较麻烦的问题：
 <ol style="list-style-type: decimal; padding: 0px; margin: 0px 0px 0px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">家目录下的系统文件夹，比如Downloads、Desktop等会以中文表示，这使得在命令行cd变得很麻烦；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">终端中某些字符用英文字体，某些字符用中文字体，效果非常差，需要自己修改终端字体方可；</li></ol></li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">选择区域和城市：Asia和Shanghai</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">键盘使用English(<span>US</span>)而不是English(<span>UK</span>)</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">Hostname可以改也可以不改，我用<tt style="background-color: #f7f7f9; border-radius: 3px; color: #dd1144; font-family: Monaco,Menlo,Consolas,Courier New,monospace; font-size: 12px; white-space: nowrap; padding: 2px 4px 2px 4px; border: 1px solid #e1e1e8;">saturn.geolab</tt></li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">安装的目的地，选择要使用的硬盘，在“Other Storage Options”处选择“I will configure&nbsp;partioning”，即手动分区</li></ol></div><div><h3 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 24.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id47" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">分区</a><br clear="none"></h3><p style="font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px 20px 0px;">CentOS&nbsp;7的分区似乎比较特别，自认为经验很丰富的我在第一次安装CentOS7时还是在分区上耽误了很多时间。后来找到比较合适的分区方法，如下：</p><ul style="list-style-type: disc; padding: 0px; margin: 0px 0px 10px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">点击“Click here to create them&nbsp;automatically”，即让安装程序帮忙分区</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">默认的分区方案是使用LVM，其好处在于“当机器有多块硬盘时，在使用的时候看上去只有一块”</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">默认的文件系统为XFS而不是以前常用的EXT4；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">自动分区完成后，再根据自己的需求，手动修改分区细节

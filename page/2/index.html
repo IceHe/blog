@@ -12,9 +12,7 @@
 
     <meta name="author" content="IceHe何志远"> 
 
-    
-
-    <meta name="description" content="IceHe 何志远 blog 博客 software development technology 软件 开发 技术">
+<meta name="description" content="IceHe 何志远 blog 博客 software development technology 软件 开发 技术">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Ice He 何志远">
 <meta property="og:url" content="http://icehe.me/page/2/index.html">
@@ -53,7 +51,7 @@
 <body>
 
 <header>
-    
+
 <div>
     
     <div id="imglogo">
@@ -98,6 +96,7 @@
 
 </header>
 
+<!-- Container Begin -->
 <div id="container">
     <div id="main">
 
@@ -218,9 +217,9 @@
     
 <section class="post" itemscope itemprop="blogitem">
     
-    <a href="/linux/[03] Update Kernel 升级内核 - CentOS 7/" title="CentOS Update Kernel 升级内核" itemprop="url">
+    <a href="/linux/[03] Update Kernel 升级内核 - CentOS 7/" title="CentOS 升级内核" itemprop="url">
     
-        <h1 itemprop="name">CentOS Update Kernel 升级内核</h1>
+        <h1 itemprop="name">CentOS 升级内核</h1>
     
         
         <p itemprop="description" >指令uname -r查看内核版本。升级内核的方法：导入key，安装elrepo的yum源，安装内核yum --enablerepo=elrepo-kernel install kernel-ml-devel kernel-ml -y。修改启动顺序 grub2-set-default 0，以此设置默认的启动的系统。</p>
@@ -424,6 +423,7 @@
 <!-- Sidebar End -->
 
 </div>
+<!-- Container End -->
 
 
 
@@ -503,7 +503,7 @@
             getSize();
             if (myWidth >= 1024) {
                 $('header nav').removeClass('shownav');
-            }else{
+            } else {
                 m.removeClass('moveMain');
                 a.css('display', 'block').removeClass('fadeOut');
                 o.css('display', 'none');

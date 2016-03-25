@@ -12,9 +12,7 @@
 
     <meta name="author" content="IceHe何志远"> 
 
-    
-
-    <meta name="description" content="Log Format时间日志格式。Principles原则，Transaction Categorees事务类别，Time Granularity时间粒度，Log Instance实例，Schedule规划。">
+<meta name="description" content="Log Format时间日志格式。Principles原则，Transaction Categorees事务类别，Time Granularity时间粒度，Log Instance实例，Schedule规划。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Time Mgt 时间管理日志">
 <meta property="og:url" content="http://icehe.me/think/time_mgt/index.html">
@@ -54,7 +52,7 @@
 <body>
 
 <header>
-    
+
 <div>
     
     <div id="imglogo">
@@ -101,7 +99,6 @@
 
 <!-- Container Begin -->
 <div id="container">
-
 <div id="main" class="post" itemscope itemprop="blogPost">
 
 <article itemprop="articleBody">
@@ -137,7 +134,7 @@
     <div id="toc" class="toc-article">
         <strong class="toc-title">Contents</strong>
         
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Principles_原则"><span class="toc-number">1.</span> <span class="toc-text">Principles 原则</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Time_Granularity_时间粒度"><span class="toc-number">2.</span> <span class="toc-text">Time Granularity 时间粒度</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Transaction_Category_事务类别"><span class="toc-number">3.</span> <span class="toc-text">Transaction Category 事务类别</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#六类事务"><span class="toc-number">3.1.</span> <span class="toc-text">六类事务</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Log_Example_日志实例"><span class="toc-number">4.</span> <span class="toc-text">Log Example 日志实例</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Schedule_Plan_日程规划"><span class="toc-number">5.</span> <span class="toc-text">Schedule Plan 日程规划</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Automation_自动化"><span class="toc-number">6.</span> <span class="toc-text">Automation 自动化</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#About_Time_Mgt-"><span class="toc-number">7.</span> <span class="toc-text">About Time Mgt.</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Principles_原则"><span class="toc-text">Principles 原则</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Time_Granularity_时间粒度"><span class="toc-text">Time Granularity 时间粒度</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Transaction_Category_事务类别"><span class="toc-text">Transaction Category 事务类别</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#六类事务"><span class="toc-text">六类事务</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Log_Example_日志实例"><span class="toc-text">Log Example 日志实例</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Schedule_Plan_日程规划"><span class="toc-text">Schedule Plan 日程规划</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Automation_自动化"><span class="toc-text">Automation 自动化</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#About_Time_Mgt-"><span class="toc-text">About Time Mgt.</span></a></li></ol>
         
     </div>
     
@@ -441,13 +438,6 @@ var duoshuoQuery = {short_name:"icehe"};
 
 <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
 
-<div id="toc" class="toc-aside">
-    <strong class="toc-title">Contents</strong>
-    
-    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Principles_原则"><span class="toc-number">1.</span> <span class="toc-text">Principles 原则</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Time_Granularity_时间粒度"><span class="toc-number">2.</span> <span class="toc-text">Time Granularity 时间粒度</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Transaction_Category_事务类别"><span class="toc-number">3.</span> <span class="toc-text">Transaction Category 事务类别</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#六类事务"><span class="toc-number">3.1.</span> <span class="toc-text">六类事务</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Log_Example_日志实例"><span class="toc-number">4.</span> <span class="toc-text">Log Example 日志实例</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Schedule_Plan_日程规划"><span class="toc-number">5.</span> <span class="toc-text">Schedule Plan 日程规划</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Automation_自动化"><span class="toc-number">6.</span> <span class="toc-text">Automation 自动化</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#About_Time_Mgt-"><span class="toc-number">7.</span> <span class="toc-text">About Time Mgt.</span></a></li></ol>
-    
-</div>
-
 
 <script type="text/javascript">
     function switch_widget_hidden(widget_a_elem){
@@ -569,9 +559,8 @@ var duoshuoQuery = {short_name:"icehe"};
 
 <!-- Sidebar End -->
 
-
 </div>
-<!-- Container Begin -->
+<!-- Container End -->
 
 
 
@@ -679,12 +668,10 @@ var duoshuoQuery = {short_name:"icehe"};
             getSize();
             if (myWidth >= 1024) {
                 $('header nav').removeClass('shownav');
-            }else{
+            } else {
                 m.removeClass('moveMain');
                 a.css('display', 'block').removeClass('fadeOut');
                 o.css('display', 'none');
-                
-                $('#toc.toc-aside').css('display', 'none');
                 
             }
         });
@@ -701,7 +688,7 @@ var duoshuoQuery = {short_name:"icehe"};
         var $this = $('.share'),
                 url = $this.attr('data-url'),
                 encodedUrl = encodeURIComponent(url),
-//            title = $this.attr('data-title'),
+                //title = $this.attr('data-title'),
                 tsina = $this.attr('data-tsina'),
                 description = $this.attr('description');
 

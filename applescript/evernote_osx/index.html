@@ -12,9 +12,7 @@
 
     <meta name="author" content="IceHe何志远"> 
 
-    
-
-    <meta name="description" content="在 OS X 上，如何使用 AppleScript 操作 Evernote、OS X。">
+<meta name="description" content="在 OS X 上，如何使用 AppleScript 操作 Evernote、OS X。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="用 AppleScript 操作 Evernote / OS X">
 <meta property="og:url" content="http://icehe.me/applescript/evernote_osx/index.html">
@@ -54,7 +52,7 @@
 <body>
 
 <header>
-    
+
 <div>
     
     <div id="imglogo">
@@ -101,7 +99,6 @@
 
 <!-- Container Begin -->
 <div id="container">
-
 <div id="main" class="post" itemscope itemprop="blogPost">
 
 <article itemprop="articleBody">
@@ -137,7 +134,7 @@
     <div id="toc" class="toc-article">
         <strong class="toc-title">Contents</strong>
         
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#References"><span class="toc-number">1.</span> <span class="toc-text">References</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Evernote"><span class="toc-number">2.</span> <span class="toc-text">Evernote</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Evernote-1"><span class="toc-number">2.1.</span> <span class="toc-text">Evernote</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Notebook"><span class="toc-number">2.2.</span> <span class="toc-text">Notebook</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Note"><span class="toc-number">2.3.</span> <span class="toc-text">Note</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#OS_X"><span class="toc-number">3.</span> <span class="toc-text">OS X</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Is_application_running?"><span class="toc-number">3.1.</span> <span class="toc-text">Is application running?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Is_network_available?"><span class="toc-number">3.2.</span> <span class="toc-text">Is network available?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Switch_Wi-fi"><span class="toc-number">3.3.</span> <span class="toc-text">Switch Wi-fi</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Is_Bluetooth_ON?"><span class="toc-number">3.4.</span> <span class="toc-text">Is Bluetooth ON?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Swith_Bluetooth"><span class="toc-number">3.5.</span> <span class="toc-text">Swith Bluetooth</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Input_Key_Code_/_Keystroke"><span class="toc-number">3.6.</span> <span class="toc-text">Input Key Code / Keystroke</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Eject_Disk"><span class="toc-number">3.7.</span> <span class="toc-text">Eject Disk</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Execute_Commands_in_iTerm"><span class="toc-number">3.8.</span> <span class="toc-text">Execute Commands in iTerm</span></a></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#References"><span class="toc-text">References</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Evernote"><span class="toc-text">Evernote</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Evernote-1"><span class="toc-text">Evernote</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Notebook"><span class="toc-text">Notebook</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Note"><span class="toc-text">Note</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#OS_X"><span class="toc-text">OS X</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Is_application_running?"><span class="toc-text">Is application running?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Is_network_available?"><span class="toc-text">Is network available?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Switch_Wi-fi"><span class="toc-text">Switch Wi-fi</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Is_Bluetooth_ON?"><span class="toc-text">Is Bluetooth ON?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Swith_Bluetooth"><span class="toc-text">Swith Bluetooth</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Input_Key_Code_/_Keystroke"><span class="toc-text">Input Key Code / Keystroke</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Eject_Disk"><span class="toc-text">Eject Disk</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Execute_Commands_in_iTerm"><span class="toc-text">Execute Commands in iTerm</span></a></li></ol></li></ol>
         
     </div>
     
@@ -270,13 +267,6 @@ var duoshuoQuery = {short_name:"icehe"};
 
 <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
 
-<div id="toc" class="toc-aside">
-    <strong class="toc-title">Contents</strong>
-    
-    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#References"><span class="toc-number">1.</span> <span class="toc-text">References</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Evernote"><span class="toc-number">2.</span> <span class="toc-text">Evernote</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Evernote-1"><span class="toc-number">2.1.</span> <span class="toc-text">Evernote</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Notebook"><span class="toc-number">2.2.</span> <span class="toc-text">Notebook</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Note"><span class="toc-number">2.3.</span> <span class="toc-text">Note</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#OS_X"><span class="toc-number">3.</span> <span class="toc-text">OS X</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Is_application_running?"><span class="toc-number">3.1.</span> <span class="toc-text">Is application running?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Is_network_available?"><span class="toc-number">3.2.</span> <span class="toc-text">Is network available?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Switch_Wi-fi"><span class="toc-number">3.3.</span> <span class="toc-text">Switch Wi-fi</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Is_Bluetooth_ON?"><span class="toc-number">3.4.</span> <span class="toc-text">Is Bluetooth ON?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Swith_Bluetooth"><span class="toc-number">3.5.</span> <span class="toc-text">Swith Bluetooth</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Input_Key_Code_/_Keystroke"><span class="toc-number">3.6.</span> <span class="toc-text">Input Key Code / Keystroke</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Eject_Disk"><span class="toc-number">3.7.</span> <span class="toc-text">Eject Disk</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Execute_Commands_in_iTerm"><span class="toc-number">3.8.</span> <span class="toc-text">Execute Commands in iTerm</span></a></li></ol></li></ol>
-    
-</div>
-
 
 <script type="text/javascript">
     function switch_widget_hidden(widget_a_elem){
@@ -398,9 +388,8 @@ var duoshuoQuery = {short_name:"icehe"};
 
 <!-- Sidebar End -->
 
-
 </div>
-<!-- Container Begin -->
+<!-- Container End -->
 
 
 
@@ -508,12 +497,10 @@ var duoshuoQuery = {short_name:"icehe"};
             getSize();
             if (myWidth >= 1024) {
                 $('header nav').removeClass('shownav');
-            }else{
+            } else {
                 m.removeClass('moveMain');
                 a.css('display', 'block').removeClass('fadeOut');
                 o.css('display', 'none');
-                
-                $('#toc.toc-aside').css('display', 'none');
                 
             }
         });
@@ -530,7 +517,7 @@ var duoshuoQuery = {short_name:"icehe"};
         var $this = $('.share'),
                 url = $this.attr('data-url'),
                 encodedUrl = encodeURIComponent(url),
-//            title = $this.attr('data-title'),
+                //title = $this.attr('data-title'),
                 tsina = $this.attr('data-tsina'),
                 description = $this.attr('description');
 

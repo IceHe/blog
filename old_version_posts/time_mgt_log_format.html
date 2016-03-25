@@ -14,9 +14,7 @@
 
     <meta name="author" content="IceHe何志远"> 
 
-    
-
-    <meta name="description" content="原标题：《Explanations for Log Format - 日志记录格式说明》版本号：v1.2
+<meta name="description" content="原标题：《Explanations for Log Format - 日志记录格式说明》版本号：v1.2
 
 注: 笔者的 日志记录格式 一直在 根据实际使用需求 进行调整，可能最近的日志 会与本文描述 有所不同。
 
@@ -77,7 +75,7 @@ Intro 引言
 <body>
 
 <header>
-    
+
 <div>
     
     <div id="imglogo">
@@ -122,8 +120,9 @@ Intro 引言
 
 </header>
 
+<!-- Container Begin -->
 <div id="container">
-    <div id="main" class="page" itemscope itemprop="blogPost">
+<div id="main" class="page" itemscope itemprop="blogPost">
 
 <article itemprop="articleBody">
 
@@ -158,7 +157,7 @@ Intro 引言
     <div id="toc" class="toc-article">
         <strong class="toc-title">Contents</strong>
         
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Intro_引言"><span class="toc-number">1.</span> <span class="toc-text">Intro 引言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pricinples_原则"><span class="toc-number">2.</span> <span class="toc-text">Pricinples 原则</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Time_Granularity_时间粒度"><span class="toc-number">3.</span> <span class="toc-text">Time Granularity 时间粒度</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#时间粒度为_30min_的原因"><span class="toc-number">3.1.</span> <span class="toc-text">时间粒度为 30min 的原因</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#记录、统计方便"><span class="toc-number">3.1.1.</span> <span class="toc-text">记录、统计方便</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#鼓励集中一段时间专心处理一件事务"><span class="toc-number">3.1.2.</span> <span class="toc-text">鼓励集中一段时间专心处理一件事务</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#循序渐进（日后或减小粒度）"><span class="toc-number">3.1.3.</span> <span class="toc-text">循序渐进（日后或减小粒度）</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Transaction_Category_事务类别"><span class="toc-number">4.</span> <span class="toc-text">Transaction Category 事务类别</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#四象限_时间管理方法"><span class="toc-number">4.1.</span> <span class="toc-text">四象限 时间管理方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#六类事务"><span class="toc-number">4.2.</span> <span class="toc-text">六类事务</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Log_Instance_日志实例"><span class="toc-number">5.</span> <span class="toc-text">Log Instance 日志实例</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#日志标题"><span class="toc-number">5.1.</span> <span class="toc-text">日志标题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#主要任务列表"><span class="toc-number">5.2.</span> <span class="toc-text">主要任务列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#记录简表"><span class="toc-number">5.3.</span> <span class="toc-text">记录简表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#记录细表"><span class="toc-number">5.4.</span> <span class="toc-text">记录细表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#事务限制表"><span class="toc-number">5.5.</span> <span class="toc-text">事务限制表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#每日总结统计表"><span class="toc-number">5.6.</span> <span class="toc-text">每日总结统计表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#随笔记录"><span class="toc-number">5.7.</span> <span class="toc-text">随笔记录</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#周_/_月_统计表"><span class="toc-number">5.8.</span> <span class="toc-text">周 / 月 统计表</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Schedule_Plan_日程规划"><span class="toc-number">6.</span> <span class="toc-text">Schedule Plan 日程规划</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Thoughts_about_Time_Mgt-_关于时间管理的感想"><span class="toc-number">7.</span> <span class="toc-text">Thoughts about Time Mgt. 关于时间管理的感想</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Intro_引言"><span class="toc-text">Intro 引言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pricinples_原则"><span class="toc-text">Pricinples 原则</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Time_Granularity_时间粒度"><span class="toc-text">Time Granularity 时间粒度</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#时间粒度为_30min_的原因"><span class="toc-text">时间粒度为 30min 的原因</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#记录、统计方便"><span class="toc-text">记录、统计方便</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#鼓励集中一段时间专心处理一件事务"><span class="toc-text">鼓励集中一段时间专心处理一件事务</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#循序渐进（日后或减小粒度）"><span class="toc-text">循序渐进（日后或减小粒度）</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Transaction_Category_事务类别"><span class="toc-text">Transaction Category 事务类别</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#四象限_时间管理方法"><span class="toc-text">四象限 时间管理方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#六类事务"><span class="toc-text">六类事务</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Log_Instance_日志实例"><span class="toc-text">Log Instance 日志实例</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#日志标题"><span class="toc-text">日志标题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#主要任务列表"><span class="toc-text">主要任务列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#记录简表"><span class="toc-text">记录简表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#记录细表"><span class="toc-text">记录细表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#事务限制表"><span class="toc-text">事务限制表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#每日总结统计表"><span class="toc-text">每日总结统计表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#随笔记录"><span class="toc-text">随笔记录</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#周_/_月_统计表"><span class="toc-text">周 / 月 统计表</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Schedule_Plan_日程规划"><span class="toc-text">Schedule Plan 日程规划</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Thoughts_about_Time_Mgt-_关于时间管理的感想"><span class="toc-text">Thoughts about Time Mgt. 关于时间管理的感想</span></a></li></ol>
         
     </div>
     
@@ -422,7 +421,133 @@ var duoshuoQuery = {short_name:"icehe"};
 
 </div>  
 
+<!-- Sidebar Begin -->
+
+<div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
+
+
+<script type="text/javascript">
+    function switch_widget_hidden(widget_a_elem){
+        widget_class = widget_a_elem.parentElement.parentElement.className;
+        var is_hidden = (document.querySelector('.' + widget_class + ' ul').className == 'hidden');
+        document.querySelector('.' + widget_class + ' ul').className = (is_hidden ? 'clearfix' : 'hidden');
+        document.querySelector('.' + widget_class + ' p i').className = (is_hidden ? 'fa fa-caret-up' : 'fa fa-caret-down');
+    }
+</script>
+
+<div id="asidepart">
+
+<div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
+
+<aside class="clearfix">
+
+
+<div class="categorieslist">
+    <p class="asidetitle">
+        <!--<a href="javascript:;" onclick="switch_widget_hidden(this);">-->
+        Categ 分类 &nbsp;
+        <!--<i class="fa fa-caret-up"></i>-->
+        <!--</a>-->
+    </p>
+    <ul class="clearfix">
+        
+        <li><a href="/categories/ASM/" title="ASM">ASM<sup>17</sup></a></li>
+        
+        <li><a href="/categories/AppleScript/" title="AppleScript">AppleScript<sup>2</sup></a></li>
+        
+        <li><a href="/categories/Batch/" title="Batch">Batch<sup>4</sup></a></li>
+        
+        <li><a href="/categories/C/" title="C++">C++<sup>7</sup></a></li>
+        
+        <li><a href="/categories/CentOS/" title="CentOS">CentOS<sup>6</sup></a></li>
+        
+        <li><a href="/categories/Command/" title="Command">Command<sup>1</sup></a></li>
+        
+        <li><a href="/categories/JavaScript/" title="JavaScript">JavaScript<sup>1</sup></a></li>
+        
+        <li><a href="/categories/Mac/" title="Mac">Mac<sup>2</sup></a></li>
+        
+        <li><a href="/categories/PHP/" title="PHP">PHP<sup>2</sup></a></li>
+        
+        <li><a href="/categories/Shadowsocks/" title="Shadowsocks">Shadowsocks<sup>1</sup></a></li>
+        
+        <li><a href="/categories/Web/" title="Web">Web<sup>4</sup></a></li>
+        
+        <li><a href="/categories/read/" title="read">read<sup>4</sup></a></li>
+        
+        <li><a href="/categories/think/" title="think">think<sup>1</sup></a></li>
+        
+        <li><a href="/categories/time-mgt/" title="time mgt">time mgt<sup>2</sup></a></li>
+        
+        <li><a href="/categories/whoami/" title="whoami">whoami<sup>3</sup></a></li>
+        
+    </ul>
 </div>
+
+
+<div class="popularlist">
+    <p class="asidetitle">
+        <!--<a href="javascript:;" onclick="switch_widget_hidden(this);">-->
+            Top15 热榜 &nbsp;
+            <!--<i class="fa fa-caret-up"></i>-->
+        <!--</a>-->
+    </p>
+    <ul id="popularlist_ul" class="clearfix"></ul>
+</div>
+
+<div class="rsspart">
+    <a href="/atom.xml" target="_blank" title="rss">RSS</a>
+</div>
+
+<!-- Donate Module Begin -->
+
+<p class="asidetitle" style="display: none;">Donate 打赏</p>
+
+<!-- Donate CSS Begin -->
+<style type="text/css">
+    .donate_bar a.btn_donate{
+        margin-top: 0.8em;
+        display: inline-block;
+        width: 82px;
+        height: 82px;
+        background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
+        _background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
+
+        -webkit-transition: background 0s;
+        -moz-transition: background 0s;
+        -o-transition: background 0s;
+        -ms-transition: background 0s;
+        transition: background 0s;
+    }
+    .donate_bar a.btn_donate:hover{ background-position: 0px -82px; }
+    .donate_bar .donate_txt {
+        display: block;
+        color: #9d9d9d;
+        font: 14px/2 "Microsoft Yahei";
+    }
+    .bold { font-weight: bold; }
+</style>
+<!-- Donate CSS End -->
+
+<!-- Donate Begin -->
+<div id="donate_board_wdg" class="donate_bar center">
+    <a id="btn_donate_wdg" class="btn_donate" href="/reward" title="Reward 打赏" target="_top"></a>
+    <span class="donate_txt copyright" style="font-size: 78%; font-weight: bold;">
+        &copy; 2016 Ice He All Rights Reserved.
+    </span>
+</div>
+<!-- Donate End -->
+
+<!-- Donate Module End -->
+
+</aside>
+
+</div>
+
+<!-- Sidebar End -->
+
+</div>
+<!-- Container End -->
 
 
 
@@ -502,7 +627,7 @@ var duoshuoQuery = {short_name:"icehe"};
             getSize();
             if (myWidth >= 1024) {
                 $('header nav').removeClass('shownav');
-            }else{
+            } else {
                 m.removeClass('moveMain');
                 a.css('display', 'block').removeClass('fadeOut');
                 o.css('display', 'none');
@@ -522,7 +647,7 @@ var duoshuoQuery = {short_name:"icehe"};
         var $this = $('.share'),
                 url = $this.attr('data-url'),
                 encodedUrl = encodeURIComponent(url),
-//            title = $this.attr('data-title'),
+                //title = $this.attr('data-title'),
                 tsina = $this.attr('data-tsina'),
                 description = $this.attr('description');
 
