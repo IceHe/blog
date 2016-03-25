@@ -78,11 +78,6 @@ Intro 引言
 
 <header>
     
-<script type="text/javascript">
-    // 判断现在个人站是在哪一个网址上！
-    var isOnGithub = (-1 != location.href.indexOf("icehe.me"));
-</script>
-
 <div>
     
     <div id="imglogo">
@@ -130,11 +125,14 @@ Intro 引言
 <div id="container">
     <div id="main" class="page" itemscope itemprop="blogPost">
 
-    <article itemprop="articleBody">
-        <header class="article-info clearfix">
+<article itemprop="articleBody">
+
+<header class="article-info clearfix">
+
     <h1 itemprop="name" class="article-title">
     
         <a href="/old_version_posts/time_mgt_log_format.html" title="Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考" itemprop="url" class="article-url">Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考</a>
+    
     </h1>
 
     <p class="article-author hidden"> By
@@ -144,7 +142,9 @@ Intro 引言
     </p>
 
     <p class="article-readtimes">
+
         <time datetime="2015-03-01T16:00:00.000Z" itemprop="datePublished">2015-03-02</time>&nbsp; / &nbsp;<span class="readtimes">?</span> views
+
     </p>
 
     <!--<p class="article-time">-->
@@ -153,16 +153,16 @@ Intro 引言
 
 </header>
 
-        <div class="article-content">
-            
-            <div id="toc" class="toc-article">
-                <strong class="toc-title">Contents</strong>
-                
-                <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Intro_引言"><span class="toc-number">1.</span> <span class="toc-text">Intro 引言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pricinples_原则"><span class="toc-number">2.</span> <span class="toc-text">Pricinples 原则</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Time_Granularity_时间粒度"><span class="toc-number">3.</span> <span class="toc-text">Time Granularity 时间粒度</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#时间粒度为_30min_的原因"><span class="toc-number">3.1.</span> <span class="toc-text">时间粒度为 30min 的原因</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#记录、统计方便"><span class="toc-number">3.1.1.</span> <span class="toc-text">记录、统计方便</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#鼓励集中一段时间专心处理一件事务"><span class="toc-number">3.1.2.</span> <span class="toc-text">鼓励集中一段时间专心处理一件事务</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#循序渐进（日后或减小粒度）"><span class="toc-number">3.1.3.</span> <span class="toc-text">循序渐进（日后或减小粒度）</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Transaction_Category_事务类别"><span class="toc-number">4.</span> <span class="toc-text">Transaction Category 事务类别</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#四象限_时间管理方法"><span class="toc-number">4.1.</span> <span class="toc-text">四象限 时间管理方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#六类事务"><span class="toc-number">4.2.</span> <span class="toc-text">六类事务</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Log_Instance_日志实例"><span class="toc-number">5.</span> <span class="toc-text">Log Instance 日志实例</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#日志标题"><span class="toc-number">5.1.</span> <span class="toc-text">日志标题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#主要任务列表"><span class="toc-number">5.2.</span> <span class="toc-text">主要任务列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#记录简表"><span class="toc-number">5.3.</span> <span class="toc-text">记录简表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#记录细表"><span class="toc-number">5.4.</span> <span class="toc-text">记录细表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#事务限制表"><span class="toc-number">5.5.</span> <span class="toc-text">事务限制表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#每日总结统计表"><span class="toc-number">5.6.</span> <span class="toc-text">每日总结统计表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#随笔记录"><span class="toc-number">5.7.</span> <span class="toc-text">随笔记录</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#周_/_月_统计表"><span class="toc-number">5.8.</span> <span class="toc-text">周 / 月 统计表</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Schedule_Plan_日程规划"><span class="toc-number">6.</span> <span class="toc-text">Schedule Plan 日程规划</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Thoughts_about_Time_Mgt-_关于时间管理的感想"><span class="toc-number">7.</span> <span class="toc-text">Thoughts about Time Mgt. 关于时间管理的感想</span></a></li></ol>
-                
-            </div>
-            
-            <p><strong>原标题</strong>：《Explanations for Log Format - 日志记录格式说明》<br><strong>版本号</strong>：v1.2</p>
+<div class="article-content">
+    
+    <div id="toc" class="toc-article">
+        <strong class="toc-title">Contents</strong>
+        
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Intro_引言"><span class="toc-number">1.</span> <span class="toc-text">Intro 引言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pricinples_原则"><span class="toc-number">2.</span> <span class="toc-text">Pricinples 原则</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Time_Granularity_时间粒度"><span class="toc-number">3.</span> <span class="toc-text">Time Granularity 时间粒度</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#时间粒度为_30min_的原因"><span class="toc-number">3.1.</span> <span class="toc-text">时间粒度为 30min 的原因</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#记录、统计方便"><span class="toc-number">3.1.1.</span> <span class="toc-text">记录、统计方便</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#鼓励集中一段时间专心处理一件事务"><span class="toc-number">3.1.2.</span> <span class="toc-text">鼓励集中一段时间专心处理一件事务</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#循序渐进（日后或减小粒度）"><span class="toc-number">3.1.3.</span> <span class="toc-text">循序渐进（日后或减小粒度）</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Transaction_Category_事务类别"><span class="toc-number">4.</span> <span class="toc-text">Transaction Category 事务类别</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#四象限_时间管理方法"><span class="toc-number">4.1.</span> <span class="toc-text">四象限 时间管理方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#六类事务"><span class="toc-number">4.2.</span> <span class="toc-text">六类事务</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Log_Instance_日志实例"><span class="toc-number">5.</span> <span class="toc-text">Log Instance 日志实例</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#日志标题"><span class="toc-number">5.1.</span> <span class="toc-text">日志标题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#主要任务列表"><span class="toc-number">5.2.</span> <span class="toc-text">主要任务列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#记录简表"><span class="toc-number">5.3.</span> <span class="toc-text">记录简表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#记录细表"><span class="toc-number">5.4.</span> <span class="toc-text">记录细表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#事务限制表"><span class="toc-number">5.5.</span> <span class="toc-text">事务限制表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#每日总结统计表"><span class="toc-number">5.6.</span> <span class="toc-text">每日总结统计表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#随笔记录"><span class="toc-number">5.7.</span> <span class="toc-text">随笔记录</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#周_/_月_统计表"><span class="toc-number">5.8.</span> <span class="toc-text">周 / 月 统计表</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Schedule_Plan_日程规划"><span class="toc-number">6.</span> <span class="toc-text">Schedule Plan 日程规划</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Thoughts_about_Time_Mgt-_关于时间管理的感想"><span class="toc-number">7.</span> <span class="toc-text">Thoughts about Time Mgt. 关于时间管理的感想</span></a></li></ol>
+        
+    </div>
+    
+    <p><strong>原标题</strong>：《Explanations for Log Format - 日志记录格式说明》<br><strong>版本号</strong>：v1.2</p>
 <ul>
 <li><strong>注</strong>: <em>笔者的 日志记录格式 一直在 根据实际使用需求 进行调整，可能最近的日志 会与本文描述 有所不同。</em></li>
 </ul>
@@ -379,28 +379,29 @@ Monthly
 <p>或许再经磨砺后，想法还会改变，<br>但此刻，我想的是：<br><strong>静静的，安于一隅，做自己热爱的事情。<br>那，才是我心中的 理想乡。</strong></p>
 <p><br><strong>End. 以上。</strong></p>
 
-        </div>
-        <footer class="article-footer clearfix">
-    <div class="article-catetags">
+</div>
+
+<footer class="article-footer clearfix">
+
+<div class="article-catetags">
     
     
 </div>
 
-    
-    <div class="article-share" id="share">
-        
-        <div data-url="http://icehe.me/old_version_posts/time_mgt_log_format.html" data-title="Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考 | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
-        </div>
-        
+
+<div class="article-share" id="share">
+    <div data-url="http://icehe.me/old_version_posts/time_mgt_log_format.html" data-title="Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
     </div>
-    
-    
+</div>
+
+
 </footer>
 
-    </article>
-    
+</article>
 
-    <!-- Comments Begin -->
+
+
+<!-- Comments Begin -->
 <section id="comments" class="comment">
     <div class="ds-thread" data-thread-key="old_version_posts/time_mgt_log_format.html" data-title="Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考" data-url="http://icehe.me/old_version_posts/time_mgt_log_format.html"></div>
 </section>
@@ -416,59 +417,18 @@ var duoshuoQuery = {short_name:"icehe"};
     || document.getElementsByTagName('body')[0]).appendChild(ds);
 })();
 </script>
-
 <!-- Comments End -->
+
 
 </div>  
 
 </div>
 
-<footer>
-    <div id="footer" >
-    
-    <div class="line">
-        <span></span>
-        <div class="author"></div>
-    </div>
-    
-    
-    <div class="social-font" class="clearfix">
-        
-        <a href="https://github.com/IceHe" target="_blank" class="icon-github" title="github"></a>
-        
-        
-        <a href="http://weibo.com/icedes" target="_blank" class="icon-weibo" title="微博"></a>
-        
-        
-        
-        
-        
-        
-        
-        <a href="https://www.douban.com/people/IceHeGZ" target="_blank" class="icon-douban" title="豆瓣"></a>
-        
-        
-        
-        
-        <a href="mailto:x@icehe.me" target="_blank" class="icon-email" title="Email Me"></a>
-        
-    </div>
-    
-    
-
-    <p class="copyright">
-        Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2016
-        
-        <a href="/about" target="_blank" title="IceHe何志远">IceHe何志远</a>
-        
-    </p>
-</div>
-
-</footer>
 
 
-<!-- JavaScript Resource -->
 
+
+<!-- JavaScript Resource Begin -->
 <script id="jQueryLink" src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
 <script type="text/javascript">
     window.jQuery || document.write('<script src="/js/jquery-2.0.3.min.js"><\/script>');
@@ -476,15 +436,32 @@ var duoshuoQuery = {short_name:"icehe"};
 <script src="http://7vzp67.com1.z0.glb.clouddn.com/js/gallery.js"></script>
 <script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.imagesloaded.min.js"></script>
 <script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.qrcode-0.12.0.min.js"></script>
-
 <!--<script src="/js/jquery-2.0.3.min.js"></script>-->
 <!--<script src="/js/jquery.imagesloaded.min.js"></script>-->
 <!--<script src="/js/gallery.js"></script>-->
 <!--<script src="/js/jquery.qrcode-0.12.0.min.js"></script>-->
+<!-- JavaScript Resource End -->
 
 
-<!-- For Responsive Design -->
 
+<!-- For Like Button Begin -->
+<script type="text/javascript">
+    /* Click Duoshuo 'Like' button automatically */
+    $(window).load(function() {
+        var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
+        if (1 == ds_like_button.length
+                && "none" != document.getElementsByClassName('ds-meta')[0].style.display
+                && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
+        ) {
+            ds_like_button[0].click();
+            document.getElementsByClassName('ds-like-tooltip-close')[0].click();
+            window.location.href = '#';
+        }
+    });
+</script>
+<!-- For Like Button End -->
+
+<!-- For Responsive Design Begin -->
 <script type="text/javascript">
     $(document).ready(function(){
         $('.navbar').click(function(){
@@ -534,18 +511,12 @@ var duoshuoQuery = {short_name:"icehe"};
         });
     });
 </script>
-
-
-<!-- For Post -->
-
-
-
-<!-- For Tags & Uategories-->
+<!-- For Responsive Design End -->
 
 
 
-<!-- Share -->
 
+<!-- Share Begin -->
 <script type="text/javascript">
     $(document).ready(function(){
         var $this = $('.share'),
@@ -604,17 +575,26 @@ var duoshuoQuery = {short_name:"icehe"};
         });
     });
 </script>
+<!-- Share End -->
 
 
 
-<!-- Fancybox -->
+<!-- Totop Begin -->
+<div id="totop">
+    <a title="Back to Top">
+        <img src="//7vzp68.com1.z0.glb.clouddn.com/common/scrollup.png"/>
+    </a>
+</div>
+<script src="/js/totop.js"></script>
+<!-- Totop End -->
 
+
+
+<!-- Fancybox Begin -->
 <link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.css" media="screen" type="text/css">
 <script src="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.pack.js"></script>
-
 <!--<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">-->
 <!--<script src="/fancybox/jquery.fancybox.pack.js"></script>-->
-
 <script type="text/javascript">
     $(document).ready(function(){
         $('.article-content').each(function(i){
@@ -635,78 +615,38 @@ var duoshuoQuery = {short_name:"icehe"};
         }
     });
 </script>
+<!-- Fancybox End -->
 
 
-
-<!-- Analytics -->
-
+<!-- Analytics Begin -->
 <div style="display: none;">
     <script type="text/javascript">
-        if(isOnGithub){
-            
-            /* Google Analytics */
+    
+        /* Google Analytics */
 
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-60837823-1', 'auto');
-            ga('send', 'pageview');
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-60837823-1', 'auto');
+        ga('send', 'pageview');
         
-            
-            /* Baidu Statistics */
+        
+        /* Baidu Statistics */
 
-            var _hmt = _hmt || [];
-            (function() {
-                var hm = document.createElement("script");
-                hm.src = "//hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
-                var s = document.getElementsByTagName("script")[0];
-                s.parentNode.insertBefore(hm, s);
-            })();
-        }
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    
     </script>
 </div>
+<!-- Analytics End -->
 
-
-
-<!-- MathJax -->
-
-
-
-<!-- Totop -->
-
-<div id="totop">
-    <a title="Back to Top">
-        <img src="//7vzp68.com1.z0.glb.clouddn.com/common/scrollup.png"/>
-    </a>
-</div>
-<script src="/js/totop.js"></script>
-
-
-
-<!-- Duoshuo -->
-
-<script type="text/javascript">
-    $(window).load(function() {
-
-        /* Click Duoshuo 'Like' button automatically */
-
-        var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
-
-        if (1 == ds_like_button.length
-                && "none" != document.getElementsByClassName('ds-meta')[0].style.display
-                && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
-        ) {
-            ds_like_button[0].click();
-            document.getElementsByClassName('ds-like-tooltip-close')[0].click();
-            window.location.href = '#';
-        }
-    });
-</script>
-
-
-<!-- Lean Cloud -->
-
+<!-- Lean Cloud Begin -->
 <script src="https://leancloud.cn/scripts/lib/av-0.5.0.min.js"></script>
 <script type="text/javascript">
 
@@ -717,56 +657,56 @@ var duoshuoQuery = {short_name:"icehe"};
             "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5" // 应用 key
     );
 
-    function addCount (Counter) {
+    function addCount(Counter) {
         url = $('.article-url').attr('href').trim();
         title = $('.article-title').text().trim();
         var query = new AV.Query(Counter);
 
         query.equalTo("url",url); // use url as unique idnetfication
         query.find({
-            success: function(results){
-                if(results.length>0){
+            success: function(results) {
+                if (results.length>0) {
                     var counter = results[0];
                     counter.fetchWhenSave(true); //get recent result
                     counter.increment("time");
                     counter.save();
-                }else{
+                } else {
                     var newcounter = new Counter();
                     newcounter.set("title", title);
                     newcounter.set("url", url);
                     newcounter.set("time", 1);
                     newcounter.save(null, {
-                        success: function(newcounter){
+                        success: function(newcounter) {
                             //alert('New object created');
                         },
-                        error: function(newcounter,error){
+                        error: function(newcounter,error) {
                             //alert('Failed to create');
                         }
                     });
                 }
             },
-            error: function(error){ // find null is not a error
+            error: function(error) { // find null is not a error
                 // alert('Error:' + error.code + " " + error.message);
             }
         });
     }
 
-    $(function(){
+    $(function() {
         var Counter = AV.Object.extend("Counter");
         // only increse visit counting when intering a page
-        if(isOnGithub && 1 == $('.article-title').length) {
+        if (1 == $('.article-title').length) {
             addCount(Counter);
         }
 
         // if popularlist widget exists, add item to it.
         var popular_list = $('.popularlist');
-        if(1 == popular_list.length){
+        if (1 == popular_list.length) {
             var query = new AV.Query(Counter);
             query.descending("time");
             query.limit(15);
             query.find({
-                success: function(results){
-                    for(var i = 0; i < results.length; ++i){
+                success: function(results) {
+                    for(var i = 0; i < results.length; ++i) {
                         var counter = results[i];
                         title = counter.get("title");
                         url = counter.get("url");
@@ -784,7 +724,7 @@ var duoshuoQuery = {short_name:"icehe"};
                         );
                     }
                 },
-                error: function(error){
+                error: function(error) {
                     //alert("Error:" + error.code + " " + error.message);
                 }
             });
@@ -792,13 +732,13 @@ var duoshuoQuery = {short_name:"icehe"};
 
         // if cur page is a post, set the post pageview.
         var article_info = $(".article-info");
-        if(1 == article_info.length){
+        if (1 == article_info.length) {
             var query = new AV.Query(Counter);
             query.equalTo("url", article_info.find(".article-title a").attr("href"));
             query.limit(1);
             query.find({
-                success: function(results){
-                    if(1 == results.length){
+                success: function(results) {
+                    if (1 == results.length) {
                         var counter = results[0];
                         title = counter.get("title");
                         url = counter.get("url");
@@ -807,7 +747,7 @@ var duoshuoQuery = {short_name:"icehe"};
                         article_info.find(".article-readtimes .readtimes").text(time);
                     }
                 },
-                error: function(error){
+                error: function(error) {
                     article_info.find(".article-readtimes .readtimes").text("?");
                     //alert("Error:" + error.code + " " + error.message);
                 }
@@ -816,15 +756,15 @@ var duoshuoQuery = {short_name:"icehe"};
 
         // if cur page is Home, set the post_list's pageviews.
         var post_list = $("#main[class!=post]");
-        if(0 != post_list.length){
+        if (0 != post_list.length) {
             var post_items = post_list.find(".post a");
-            for(var i = 0; i < post_items.length; ++i){
+            for (var i = 0; i < post_items.length; ++i) {
                 var url = post_items.eq(i).attr("href");
                 query.equalTo("url", url);
                 query.limit(1);
                 query.find({
-                    success: function(results){
-                        if(1 == results.length){
+                    success: function(results) {
+                        if (1 == results.length) {
                             var counter = results[0];
                             title = counter.get("title");
                             url = counter.get("url");
@@ -833,7 +773,7 @@ var duoshuoQuery = {short_name:"icehe"};
                             $(".post a[href='" + url + "']").find('.readtimes').text(time);
                         }
                     },
-                    error: function(error){
+                    error: function(error) {
                         //alert("Error:" + error.code + " " + error.message);
                     }
                 });
@@ -841,10 +781,11 @@ var duoshuoQuery = {short_name:"icehe"};
         }
     });
 </script>
+<!-- Lean Cloud End -->
+
 
 
 <!-- 不蒜子 -->
-
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 

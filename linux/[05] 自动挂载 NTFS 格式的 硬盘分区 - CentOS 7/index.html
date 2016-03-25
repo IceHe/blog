@@ -55,11 +55,6 @@
 
 <header>
     
-<script type="text/javascript">
-    // 判断现在个人站是在哪一个网址上！
-    var isOnGithub = (-1 != location.href.indexOf("icehe.me"));
-</script>
-
 <div>
     
     <div id="imglogo">
@@ -104,14 +99,19 @@
 
 </header>
 
+<!-- Container Begin -->
 <div id="container">
-    <div id="main" class="post" itemscope itemprop="blogPost">
 
-    <article itemprop="articleBody">
-        <header class="article-info clearfix">
+<div id="main" class="post" itemscope itemprop="blogPost">
+
+<article itemprop="articleBody">
+
+<header class="article-info clearfix">
+
     <h1 itemprop="name" class="article-title">
     
         <a href="/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/" title="(05) 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7" itemprop="url" class="article-url">(05) 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7</a>
+    
     </h1>
 
     <p class="article-author hidden"> By
@@ -121,7 +121,9 @@
     </p>
 
     <p class="article-readtimes">
+
         <time datetime="2015-03-28T16:00:00.000Z" itemprop="datePublished">2015-03-29</time>&nbsp; / &nbsp;<span class="readtimes">?</span> views
+
     </p>
 
     <!--<p class="article-time">-->
@@ -130,13 +132,15 @@
 
 </header>
 
-        <div class="article-content">
-            
-            <en-note><div><div>Ref From: <a shape="rect" href="http://blog.rekfan.com/articles/137.html" target="_blank">http://blog.rekfan.com/articles/137.html</a></div><div>Original Title: CentOS 6.3 自动挂载NTFS格式分区硬盘</div></div><div><br clear="none"></div><div><span style="color: #ff6600;"><strong>Notice: </strong>第一、二步不进行，改为使用以下指令安装ntfs-3g，</span></div><div><strong>             <span style="color: #ff6600;">yum install ntfs-3g</span></strong></div><div><br clear="none">默认情况下，CentOS 6.3不支持NTFS格式的磁盘读写。</div><div>要想把NTFS格式的磁盘挂载到CentOS 6.3，<br clear="none">需要安装第三方的插件ntfs-3g，这里我们采用编译安装插件。<br clear="none"><br clear="none">1. 安装编译器，否则不能成功编译。</div><div><strong>yum install gcc</strong><br clear="none">根据提示按Y安装完成<br clear="none"><br clear="none">2. 安装ntfs-3g</div><div>进入/home目录，把软件下载到此目录<br clear="none"><strong>cd /home</strong></div><div>下载<br clear="none"><strong>wget http://tuxera.com/opensource/ntfs-3g_ntfsprogs-2011.4.12.tgz</strong></div><div>解压</div><div><strong>tar zxvf ntfs-3g_ntfsprogs-2011.4.12.tgz</strong></div><div>进入目录<br clear="none"><strong>cd ntfs-3g_ntfsprogs-2011.4.12</strong></div><div>编译 &amp; 安装</div><div><strong>./configure &amp;&amp; make &amp;&amp; make install</strong></div><div>返回上一级目录<br clear="none"><strong>cd ..</strong></div><div>删除安装程序包<br clear="none"><strong>rm -r -f ntfs-3g_ntfsprogs*</strong></div><div><br clear="none"></div><div>3. 查看使用</div><div># 显示系统磁盘信息<br clear="none"><strong>fdisk -l</strong></div><div>#####################################################################<br clear="none">Disk /dev/sdb: 160.0 GB, 160041885696 bytes<br clear="none">255 heads, 63 sectors/track, 19457 cylinders<br clear="none">Units = cylinders of 16065 * 512 = 8225280 bytes<br clear="none">Sector size (logical/physical): 512 bytes / 512 bytes<br clear="none">I/O size (minimum/optimal): 512 bytes / 512 bytes<br clear="none">Disk identifier: 0x7ab8d700<br clear="none">Device Boot Start End Blocks Id System<br clear="none">/dev/sdb1 * 1 5222 41945683+ 7 HPFS/NTFS<br clear="none">/dev/sdb2 5223 10444 41945715 7 HPFS/NTFS<br clear="none">/dev/sdb3 10445 15666 41945715 7 HPFS/NTFS<br clear="none">/dev/sdb4 15667 19457 30451207+ 7 HPFS/NTFS<br clear="none"> http://blog.rekfan.com/?p=137<br clear="none">###################################################################<br clear="none">以上信息显示的是我的移动硬盘，总共160G,有四个NTFS分区<br clear="none"><br clear="none"><br clear="none">4. 挂载分区</div><div>目标：<br clear="none">/dev/sdb1 分区挂载到 /mnt/win1<br clear="none">/dev/sdb2 分区挂载到 /mnt/win2<br clear="none">/dev/sdb3 分区挂载到 /mnt/win3<br clear="none">/dev/sdb4 分区挂载到 /mnt/win4<br clear="none"></div><div><br clear="none"></div><div>进入/mnt目录，新建四个挂载目录<br clear="none">cd /mnt<br clear="none"><strong>mkdir win1 win2 win3 win4</strong><br clear="none"></div><div><br clear="none"></div><div>挂载<br clear="none"><strong>mount -t ntfs-3g /dev/sdb1 /mnt/win1</strong><br clear="none">mount -t ntfs-3g /dev/sdb2 /mnt/win2<br clear="none">mount -t ntfs-3g /dev/sdb3 /mnt/win3<br clear="none">mount -t ntfs-3g /dev/sdb4 /mnt/win4<br clear="none"><br clear="none">分区挂载完成，现在可以进入/mnt目录下面查看对应的文件夹，即就是你移动硬盘的分区<br clear="none"></div><div><br clear="none"></div><div>卸载命令：<br clear="none"><strong>umount /dev/sdb1</strong><br clear="none">umount /dev/sdb2<br clear="none">umount /dev/sdb3<br clear="none">umount /dev/sdb4<br clear="none"></div><div><br clear="none"></div><div><br clear="none">5. 如果想让系统开机自动挂载移动硬盘，编辑/etc/fstab<br clear="none"></div><div>更改之前先备份</div><div>cp /etc/fstab /etc/fstabbak</div><div>编辑<br clear="none">vi /etc/fstab<br clear="none"><br clear="none">在最后添加以下信息，以读写方式挂载磁盘<br clear="none">/dev/sdb1 /mnt/win1 ntfs-3g defaults 0 0<br clear="none">/dev/sdb2 /mnt/win2 ntfs-3g defaults 0 0<br clear="none">/dev/sdb3 /mnt/win3 ntfs-3g defaults 0 0<br clear="none">/dev/sdb4 /mnt/win4 ntfs-3g defaults 0 0<br clear="none"><br clear="none">:wq!保存，退出<br clear="none"><br clear="none">现在只要重启机器，会自动挂载移动硬盘<br clear="none"></div><div><br clear="none"></div><div><br clear="none"><strong>取消挂载的问题——</strong></div><div>umount的时候出现如下提示：<br clear="none">[root@rekfan.com /]# umount /dev/sdb1<br clear="none">umount: /mnt/upan: device is busy.<br clear="none">        (In some cases useful info about processes that use<br clear="none">         the device is found by lsof(8) or fuser(1))<br clear="none"><br clear="none"><strong>解决方法一</strong><br clear="none">[root@rekfan.com /]# lsof -w /mnt/upan<br clear="none">COMMAND   PID USER   FD   TYPE DEVICE SIZE/OFF    NODE NAME<br clear="none">bash    31761 root  cwd    DIR   8,18     8192 2316326 /mnt/upan/rekfan.com_120526<br clear="none"><br clear="none">[root@rekfan.com /]#<br clear="none">使用 lsof -w /mnt/upan 可以看出，有个命令窗口在/mnt/upan/rekfan.com_120526目录上，</div><div>关闭这个窗口，或退出这个挂载目录，再使用 umount 即可安全退出挂载的设备！<br clear="none"><br clear="none"><strong>解决方法二</strong><br clear="none">[root@rekfan.com /]#fuser -k /mnt/upan<br clear="none">#杀死所有正在访问指定文件的进程</div>
+<div class="article-content">
+    
+    <en-note><div><div>Ref From: <a shape="rect" href="http://blog.rekfan.com/articles/137.html" target="_blank">http://blog.rekfan.com/articles/137.html</a></div><div>Original Title: CentOS 6.3 自动挂载NTFS格式分区硬盘</div></div><div><br clear="none"></div><div><span style="color: #ff6600;"><strong>Notice: </strong>第一、二步不进行，改为使用以下指令安装ntfs-3g，</span></div><div><strong>             <span style="color: #ff6600;">yum install ntfs-3g</span></strong></div><div><br clear="none">默认情况下，CentOS 6.3不支持NTFS格式的磁盘读写。</div><div>要想把NTFS格式的磁盘挂载到CentOS 6.3，<br clear="none">需要安装第三方的插件ntfs-3g，这里我们采用编译安装插件。<br clear="none"><br clear="none">1. 安装编译器，否则不能成功编译。</div><div><strong>yum install gcc</strong><br clear="none">根据提示按Y安装完成<br clear="none"><br clear="none">2. 安装ntfs-3g</div><div>进入/home目录，把软件下载到此目录<br clear="none"><strong>cd /home</strong></div><div>下载<br clear="none"><strong>wget http://tuxera.com/opensource/ntfs-3g_ntfsprogs-2011.4.12.tgz</strong></div><div>解压</div><div><strong>tar zxvf ntfs-3g_ntfsprogs-2011.4.12.tgz</strong></div><div>进入目录<br clear="none"><strong>cd ntfs-3g_ntfsprogs-2011.4.12</strong></div><div>编译 &amp; 安装</div><div><strong>./configure &amp;&amp; make &amp;&amp; make install</strong></div><div>返回上一级目录<br clear="none"><strong>cd ..</strong></div><div>删除安装程序包<br clear="none"><strong>rm -r -f ntfs-3g_ntfsprogs*</strong></div><div><br clear="none"></div><div>3. 查看使用</div><div># 显示系统磁盘信息<br clear="none"><strong>fdisk -l</strong></div><div>#####################################################################<br clear="none">Disk /dev/sdb: 160.0 GB, 160041885696 bytes<br clear="none">255 heads, 63 sectors/track, 19457 cylinders<br clear="none">Units = cylinders of 16065 * 512 = 8225280 bytes<br clear="none">Sector size (logical/physical): 512 bytes / 512 bytes<br clear="none">I/O size (minimum/optimal): 512 bytes / 512 bytes<br clear="none">Disk identifier: 0x7ab8d700<br clear="none">Device Boot Start End Blocks Id System<br clear="none">/dev/sdb1 * 1 5222 41945683+ 7 HPFS/NTFS<br clear="none">/dev/sdb2 5223 10444 41945715 7 HPFS/NTFS<br clear="none">/dev/sdb3 10445 15666 41945715 7 HPFS/NTFS<br clear="none">/dev/sdb4 15667 19457 30451207+ 7 HPFS/NTFS<br clear="none"> http://blog.rekfan.com/?p=137<br clear="none">###################################################################<br clear="none">以上信息显示的是我的移动硬盘，总共160G,有四个NTFS分区<br clear="none"><br clear="none"><br clear="none">4. 挂载分区</div><div>目标：<br clear="none">/dev/sdb1 分区挂载到 /mnt/win1<br clear="none">/dev/sdb2 分区挂载到 /mnt/win2<br clear="none">/dev/sdb3 分区挂载到 /mnt/win3<br clear="none">/dev/sdb4 分区挂载到 /mnt/win4<br clear="none"></div><div><br clear="none"></div><div>进入/mnt目录，新建四个挂载目录<br clear="none">cd /mnt<br clear="none"><strong>mkdir win1 win2 win3 win4</strong><br clear="none"></div><div><br clear="none"></div><div>挂载<br clear="none"><strong>mount -t ntfs-3g /dev/sdb1 /mnt/win1</strong><br clear="none">mount -t ntfs-3g /dev/sdb2 /mnt/win2<br clear="none">mount -t ntfs-3g /dev/sdb3 /mnt/win3<br clear="none">mount -t ntfs-3g /dev/sdb4 /mnt/win4<br clear="none"><br clear="none">分区挂载完成，现在可以进入/mnt目录下面查看对应的文件夹，即就是你移动硬盘的分区<br clear="none"></div><div><br clear="none"></div><div>卸载命令：<br clear="none"><strong>umount /dev/sdb1</strong><br clear="none">umount /dev/sdb2<br clear="none">umount /dev/sdb3<br clear="none">umount /dev/sdb4<br clear="none"></div><div><br clear="none"></div><div><br clear="none">5. 如果想让系统开机自动挂载移动硬盘，编辑/etc/fstab<br clear="none"></div><div>更改之前先备份</div><div>cp /etc/fstab /etc/fstabbak</div><div>编辑<br clear="none">vi /etc/fstab<br clear="none"><br clear="none">在最后添加以下信息，以读写方式挂载磁盘<br clear="none">/dev/sdb1 /mnt/win1 ntfs-3g defaults 0 0<br clear="none">/dev/sdb2 /mnt/win2 ntfs-3g defaults 0 0<br clear="none">/dev/sdb3 /mnt/win3 ntfs-3g defaults 0 0<br clear="none">/dev/sdb4 /mnt/win4 ntfs-3g defaults 0 0<br clear="none"><br clear="none">:wq!保存，退出<br clear="none"><br clear="none">现在只要重启机器，会自动挂载移动硬盘<br clear="none"></div><div><br clear="none"></div><div><br clear="none"><strong>取消挂载的问题——</strong></div><div>umount的时候出现如下提示：<br clear="none">[root@rekfan.com /]# umount /dev/sdb1<br clear="none">umount: /mnt/upan: device is busy.<br clear="none">        (In some cases useful info about processes that use<br clear="none">         the device is found by lsof(8) or fuser(1))<br clear="none"><br clear="none"><strong>解决方法一</strong><br clear="none">[root@rekfan.com /]# lsof -w /mnt/upan<br clear="none">COMMAND   PID USER   FD   TYPE DEVICE SIZE/OFF    NODE NAME<br clear="none">bash    31761 root  cwd    DIR   8,18     8192 2316326 /mnt/upan/rekfan.com_120526<br clear="none"><br clear="none">[root@rekfan.com /]#<br clear="none">使用 lsof -w /mnt/upan 可以看出，有个命令窗口在/mnt/upan/rekfan.com_120526目录上，</div><div>关闭这个窗口，或退出这个挂载目录，再使用 umount 即可安全退出挂载的设备！<br clear="none"><br clear="none"><strong>解决方法二</strong><br clear="none">[root@rekfan.com /]#fuser -k /mnt/upan<br clear="none">#杀死所有正在访问指定文件的进程</div>
 </en-note>
-        </div>
-        <footer class="article-footer clearfix">
-    <div class="article-catetags">
+</div>
+
+<footer class="article-footer clearfix">
+
+<div class="article-catetags">
     
     <div class="article-categories">
         <span></span>
@@ -151,19 +155,17 @@
     
 </div>
 
-    
-    <div class="article-share" id="share">
-        
-        <div data-url="http://icehe.me/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/" data-title="(05) 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7 | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
-        </div>
-        
+
+<div class="article-share" id="share">
+    <div data-url="http://icehe.me/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/" data-title="(05) 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
     </div>
-    
-    
+</div>
+
+
 </footer>
 
-    </article>
-    
+</article>
+
 <nav class="article-nav clearfix">
     
     <div class="prev" >
@@ -190,7 +192,8 @@
 </nav>
 
 
-    <!-- Comments Begin -->
+
+<!-- Comments Begin -->
 <section id="comments" class="comment">
     <div class="ds-thread" data-thread-key="linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/" data-title="(05) 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7" data-url="http://icehe.me/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/"></div>
 </section>
@@ -206,12 +209,14 @@ var duoshuoQuery = {short_name:"icehe"};
     || document.getElementsByTagName('body')[0]).appendChild(ds);
 })();
 </script>
-
 <!-- Comments End -->
+
 
 </div>  
 
-    <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
+<!-- Sidebar Begin -->
+
+<div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
 
 
 <script type="text/javascript">
@@ -291,7 +296,7 @@ var duoshuoQuery = {short_name:"icehe"};
 
 <p class="asidetitle" style="display: none;">Donate 打赏</p>
 
-<!-- CSS Begin -->
+<!-- Donate CSS Begin -->
 <style type="text/css">
     .donate_bar a.btn_donate{
         margin-top: 0.8em;
@@ -313,19 +318,18 @@ var duoshuoQuery = {short_name:"icehe"};
         color: #9d9d9d;
         font: 14px/2 "Microsoft Yahei";
     }
-    .bold{ font-weight: bold; }
+    .bold { font-weight: bold; }
 </style>
-<!-- CSS End -->
+<!-- Donate CSS End -->
 
-<!-- Btn_donate & tips Begin -->
+<!-- Donate Begin -->
 <div id="donate_board_wdg" class="donate_bar center">
     <a id="btn_donate_wdg" class="btn_donate" href="/reward" title="Reward 打赏" target="_top"></a>
-    <span class="donate_txt" style="font-size: 80%; display:none;">
-        <span style="font-weight: bold;">求打赏 ! </span>
-        Reward me ~
+    <span class="donate_txt copyright" style="font-size: 80%; font-weight: bold;">
+        &copy; 2016 Ice He All Rights Reserved.
     </span>
 </div>
-<!-- Btn_donate & tips End -->
+<!-- Donate End -->
 
 <!-- Donate Module End -->
 
@@ -333,54 +337,17 @@ var duoshuoQuery = {short_name:"icehe"};
 
 </div>
 
+<!-- Sidebar End -->
+
+
 </div>
-
-<footer>
-    <div id="footer" >
-    
-    <div class="line">
-        <span></span>
-        <div class="author"></div>
-    </div>
-    
-    
-    <div class="social-font" class="clearfix">
-        
-        <a href="https://github.com/IceHe" target="_blank" class="icon-github" title="github"></a>
-        
-        
-        <a href="http://weibo.com/icedes" target="_blank" class="icon-weibo" title="微博"></a>
-        
-        
-        
-        
-        
-        
-        
-        <a href="https://www.douban.com/people/IceHeGZ" target="_blank" class="icon-douban" title="豆瓣"></a>
-        
-        
-        
-        
-        <a href="mailto:x@icehe.me" target="_blank" class="icon-email" title="Email Me"></a>
-        
-    </div>
-    
-    
-
-    <p class="copyright">
-        Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2016
-        
-        <a href="/about" target="_blank" title="IceHe何志远">IceHe何志远</a>
-        
-    </p>
-</div>
-
-</footer>
+<!-- Container Begin -->
 
 
-<!-- JavaScript Resource -->
 
+
+
+<!-- JavaScript Resource Begin -->
 <script id="jQueryLink" src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
 <script type="text/javascript">
     window.jQuery || document.write('<script src="/js/jquery-2.0.3.min.js"><\/script>');
@@ -388,15 +355,60 @@ var duoshuoQuery = {short_name:"icehe"};
 <script src="http://7vzp67.com1.z0.glb.clouddn.com/js/gallery.js"></script>
 <script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.imagesloaded.min.js"></script>
 <script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.qrcode-0.12.0.min.js"></script>
-
 <!--<script src="/js/jquery-2.0.3.min.js"></script>-->
 <!--<script src="/js/jquery.imagesloaded.min.js"></script>-->
 <!--<script src="/js/gallery.js"></script>-->
 <!--<script src="/js/jquery.qrcode-0.12.0.min.js"></script>-->
+<!-- JavaScript Resource End -->
 
 
-<!-- For Responsive Design -->
+<!-- For Post Begin -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        var ai = $('.article-content>iframe'),
+                ae = $('.article-content>embed'),
+                t  = $('#toc'),
+                ta = $('#toc.toc-aside'),
+                o  = $('.openaside'),
+                c  = $('.closeaside');
+        if(ai.length>0){
+            ai.wrap('<div class="video-container" />');
+        };
+        if(ae.length>0){
+            ae.wrap('<div class="video-container" />');
+        };
+        c.click(function(){
+            ta.css('display', 'block').addClass('fadeIn');
+        });
+        o.click(function(){
+            ta.css('display', 'none');
+        });
+        $(window).scroll(function(){
+            ta.css("top",Math.max(140,320-$(this).scrollTop()));
+        });
+    });
+</script>
+<!-- For Post End -->
 
+
+<!-- For Like Button Begin -->
+<script type="text/javascript">
+    /* Click Duoshuo 'Like' button automatically */
+    $(window).load(function() {
+        var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
+        if (1 == ds_like_button.length
+                && "none" != document.getElementsByClassName('ds-meta')[0].style.display
+                && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
+        ) {
+            ds_like_button[0].click();
+            document.getElementsByClassName('ds-like-tooltip-close')[0].click();
+            window.location.href = '#';
+        }
+    });
+</script>
+<!-- For Like Button End -->
+
+<!-- For Responsive Design Begin -->
 <script type="text/javascript">
     $(document).ready(function(){
         $('.navbar').click(function(){
@@ -446,44 +458,12 @@ var duoshuoQuery = {short_name:"icehe"};
         });
     });
 </script>
-
-
-<!-- For Post -->
-
-<script type="text/javascript">
-    $(document).ready(function(){
-        var ai = $('.article-content>iframe'),
-                ae = $('.article-content>embed'),
-                t  = $('#toc'),
-                ta = $('#toc.toc-aside'),
-                o  = $('.openaside'),
-                c  = $('.closeaside');
-        if(ai.length>0){
-            ai.wrap('<div class="video-container" />');
-        };
-        if(ae.length>0){
-            ae.wrap('<div class="video-container" />');
-        };
-        c.click(function(){
-            ta.css('display', 'block').addClass('fadeIn');
-        });
-        o.click(function(){
-            ta.css('display', 'none');
-        });
-        $(window).scroll(function(){
-            ta.css("top",Math.max(140,320-$(this).scrollTop()));
-        });
-    });
-</script>
+<!-- For Responsive Design End -->
 
 
 
-<!-- For Tags & Uategories-->
 
-
-
-<!-- Share -->
-
+<!-- Share Begin -->
 <script type="text/javascript">
     $(document).ready(function(){
         var $this = $('.share'),
@@ -542,17 +522,26 @@ var duoshuoQuery = {short_name:"icehe"};
         });
     });
 </script>
+<!-- Share End -->
 
 
 
-<!-- Fancybox -->
+<!-- Totop Begin -->
+<div id="totop">
+    <a title="Back to Top">
+        <img src="//7vzp68.com1.z0.glb.clouddn.com/common/scrollup.png"/>
+    </a>
+</div>
+<script src="/js/totop.js"></script>
+<!-- Totop End -->
 
+
+
+<!-- Fancybox Begin -->
 <link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.css" media="screen" type="text/css">
 <script src="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.pack.js"></script>
-
 <!--<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">-->
 <!--<script src="/fancybox/jquery.fancybox.pack.js"></script>-->
-
 <script type="text/javascript">
     $(document).ready(function(){
         $('.article-content').each(function(i){
@@ -573,78 +562,38 @@ var duoshuoQuery = {short_name:"icehe"};
         }
     });
 </script>
+<!-- Fancybox End -->
 
 
-
-<!-- Analytics -->
-
+<!-- Analytics Begin -->
 <div style="display: none;">
     <script type="text/javascript">
-        if(isOnGithub){
-            
-            /* Google Analytics */
+    
+        /* Google Analytics */
 
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-60837823-1', 'auto');
-            ga('send', 'pageview');
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-60837823-1', 'auto');
+        ga('send', 'pageview');
         
-            
-            /* Baidu Statistics */
+        
+        /* Baidu Statistics */
 
-            var _hmt = _hmt || [];
-            (function() {
-                var hm = document.createElement("script");
-                hm.src = "//hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
-                var s = document.getElementsByTagName("script")[0];
-                s.parentNode.insertBefore(hm, s);
-            })();
-        }
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    
     </script>
 </div>
+<!-- Analytics End -->
 
-
-
-<!-- MathJax -->
-
-
-
-<!-- Totop -->
-
-<div id="totop">
-    <a title="Back to Top">
-        <img src="//7vzp68.com1.z0.glb.clouddn.com/common/scrollup.png"/>
-    </a>
-</div>
-<script src="/js/totop.js"></script>
-
-
-
-<!-- Duoshuo -->
-
-<script type="text/javascript">
-    $(window).load(function() {
-
-        /* Click Duoshuo 'Like' button automatically */
-
-        var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
-
-        if (1 == ds_like_button.length
-                && "none" != document.getElementsByClassName('ds-meta')[0].style.display
-                && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
-        ) {
-            ds_like_button[0].click();
-            document.getElementsByClassName('ds-like-tooltip-close')[0].click();
-            window.location.href = '#';
-        }
-    });
-</script>
-
-
-<!-- Lean Cloud -->
-
+<!-- Lean Cloud Begin -->
 <script src="https://leancloud.cn/scripts/lib/av-0.5.0.min.js"></script>
 <script type="text/javascript">
 
@@ -655,56 +604,56 @@ var duoshuoQuery = {short_name:"icehe"};
             "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5" // 应用 key
     );
 
-    function addCount (Counter) {
+    function addCount(Counter) {
         url = $('.article-url').attr('href').trim();
         title = $('.article-title').text().trim();
         var query = new AV.Query(Counter);
 
         query.equalTo("url",url); // use url as unique idnetfication
         query.find({
-            success: function(results){
-                if(results.length>0){
+            success: function(results) {
+                if (results.length>0) {
                     var counter = results[0];
                     counter.fetchWhenSave(true); //get recent result
                     counter.increment("time");
                     counter.save();
-                }else{
+                } else {
                     var newcounter = new Counter();
                     newcounter.set("title", title);
                     newcounter.set("url", url);
                     newcounter.set("time", 1);
                     newcounter.save(null, {
-                        success: function(newcounter){
+                        success: function(newcounter) {
                             //alert('New object created');
                         },
-                        error: function(newcounter,error){
+                        error: function(newcounter,error) {
                             //alert('Failed to create');
                         }
                     });
                 }
             },
-            error: function(error){ // find null is not a error
+            error: function(error) { // find null is not a error
                 // alert('Error:' + error.code + " " + error.message);
             }
         });
     }
 
-    $(function(){
+    $(function() {
         var Counter = AV.Object.extend("Counter");
         // only increse visit counting when intering a page
-        if(isOnGithub && 1 == $('.article-title').length) {
+        if (1 == $('.article-title').length) {
             addCount(Counter);
         }
 
         // if popularlist widget exists, add item to it.
         var popular_list = $('.popularlist');
-        if(1 == popular_list.length){
+        if (1 == popular_list.length) {
             var query = new AV.Query(Counter);
             query.descending("time");
             query.limit(15);
             query.find({
-                success: function(results){
-                    for(var i = 0; i < results.length; ++i){
+                success: function(results) {
+                    for(var i = 0; i < results.length; ++i) {
                         var counter = results[i];
                         title = counter.get("title");
                         url = counter.get("url");
@@ -722,7 +671,7 @@ var duoshuoQuery = {short_name:"icehe"};
                         );
                     }
                 },
-                error: function(error){
+                error: function(error) {
                     //alert("Error:" + error.code + " " + error.message);
                 }
             });
@@ -730,13 +679,13 @@ var duoshuoQuery = {short_name:"icehe"};
 
         // if cur page is a post, set the post pageview.
         var article_info = $(".article-info");
-        if(1 == article_info.length){
+        if (1 == article_info.length) {
             var query = new AV.Query(Counter);
             query.equalTo("url", article_info.find(".article-title a").attr("href"));
             query.limit(1);
             query.find({
-                success: function(results){
-                    if(1 == results.length){
+                success: function(results) {
+                    if (1 == results.length) {
                         var counter = results[0];
                         title = counter.get("title");
                         url = counter.get("url");
@@ -745,7 +694,7 @@ var duoshuoQuery = {short_name:"icehe"};
                         article_info.find(".article-readtimes .readtimes").text(time);
                     }
                 },
-                error: function(error){
+                error: function(error) {
                     article_info.find(".article-readtimes .readtimes").text("?");
                     //alert("Error:" + error.code + " " + error.message);
                 }
@@ -754,15 +703,15 @@ var duoshuoQuery = {short_name:"icehe"};
 
         // if cur page is Home, set the post_list's pageviews.
         var post_list = $("#main[class!=post]");
-        if(0 != post_list.length){
+        if (0 != post_list.length) {
             var post_items = post_list.find(".post a");
-            for(var i = 0; i < post_items.length; ++i){
+            for (var i = 0; i < post_items.length; ++i) {
                 var url = post_items.eq(i).attr("href");
                 query.equalTo("url", url);
                 query.limit(1);
                 query.find({
-                    success: function(results){
-                        if(1 == results.length){
+                    success: function(results) {
+                        if (1 == results.length) {
                             var counter = results[0];
                             title = counter.get("title");
                             url = counter.get("url");
@@ -771,7 +720,7 @@ var duoshuoQuery = {short_name:"icehe"};
                             $(".post a[href='" + url + "']").find('.readtimes').text(time);
                         }
                     },
-                    error: function(error){
+                    error: function(error) {
                         //alert("Error:" + error.code + " " + error.message);
                     }
                 });
@@ -779,10 +728,11 @@ var duoshuoQuery = {short_name:"icehe"};
         }
     });
 </script>
+<!-- Lean Cloud End -->
+
 
 
 <!-- 不蒜子 -->
-
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 

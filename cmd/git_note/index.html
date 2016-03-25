@@ -61,11 +61,6 @@
 
 <header>
     
-<script type="text/javascript">
-    // 判断现在个人站是在哪一个网址上！
-    var isOnGithub = (-1 != location.href.indexOf("icehe.me"));
-</script>
-
 <div>
     
     <div id="imglogo">
@@ -110,14 +105,19 @@
 
 </header>
 
+<!-- Container Begin -->
 <div id="container">
-    <div id="main" class="post" itemscope itemprop="blogPost">
 
-    <article itemprop="articleBody">
-        <header class="article-info clearfix">
+<div id="main" class="post" itemscope itemprop="blogPost">
+
+<article itemprop="articleBody">
+
+<header class="article-info clearfix">
+
     <h1 itemprop="name" class="article-title">
     
         <a href="/cmd/git_note/" title="Git Note" itemprop="url" class="article-url">Git Note</a>
+    
     </h1>
 
     <p class="article-author hidden"> By
@@ -127,7 +127,9 @@
     </p>
 
     <p class="article-readtimes">
+
         <time datetime="2016-02-14T16:00:00.000Z" itemprop="datePublished">2016-02-15</time>&nbsp; / &nbsp;<span class="readtimes">?</span> views
+
     </p>
 
     <!--<p class="article-time">-->
@@ -136,16 +138,16 @@
 
 </header>
 
-        <div class="article-content">
-            
-            <div id="toc" class="toc-article">
-                <strong class="toc-title">Contents</strong>
-                
-                <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#References"><span class="toc-number">1.</span> <span class="toc-text">References</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Memo"><span class="toc-number">2.</span> <span class="toc-text">Memo</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Check_检查"><span class="toc-number">2.1.</span> <span class="toc-text">Check 检查</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Index_索引"><span class="toc-number">2.2.</span> <span class="toc-text">Index 索引</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Back_反悔"><span class="toc-number">2.3.</span> <span class="toc-text">Back 反悔</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Branch_分支"><span class="toc-number">2.4.</span> <span class="toc-text">Branch 分支</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Config_配置"><span class="toc-number">2.5.</span> <span class="toc-text">Config 配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pull_&_Push"><span class="toc-number">2.6.</span> <span class="toc-text">Pull & Push</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Rebase_变基"><span class="toc-number">2.7.</span> <span class="toc-text">Rebase 变基</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Abbreviations"><span class="toc-number">2.8.</span> <span class="toc-text">Abbreviations</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Short_Docs"><span class="toc-number">3.</span> <span class="toc-text">Short Docs</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Setup_&_Config"><span class="toc-number">3.1.</span> <span class="toc-text">Setup & Config</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Create_&_Get_Proj"><span class="toc-number">3.2.</span> <span class="toc-text">Create & Get Proj</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Snapshot"><span class="toc-number">3.3.</span> <span class="toc-text">Snapshot</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Branch_&_Merge"><span class="toc-number">3.4.</span> <span class="toc-text">Branch & Merge</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Share_&_Update"><span class="toc-number">3.5.</span> <span class="toc-text">Share & Update</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Inspect_&_Compare"><span class="toc-number">3.6.</span> <span class="toc-text">Inspect & Compare</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Patch"><span class="toc-number">3.7.</span> <span class="toc-text">Patch</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Debug"><span class="toc-number">3.8.</span> <span class="toc-text">Debug</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Administration"><span class="toc-number">3.9.</span> <span class="toc-text">Administration</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Email"><span class="toc-number">3.10.</span> <span class="toc-text">Email</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#External_Systems"><span class="toc-number">3.11.</span> <span class="toc-text">External Systems</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Server_Admin"><span class="toc-number">3.12.</span> <span class="toc-text">Server Admin</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Plumbing_Cmds"><span class="toc-number">3.13.</span> <span class="toc-text">Plumbing Cmds</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-gitignore"><span class="toc-number">3.14.</span> <span class="toc-text">.gitignore</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Concepts"><span class="toc-number">4.</span> <span class="toc-text">Concepts</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Commit_ID"><span class="toc-number">4.1.</span> <span class="toc-text">Commit ID</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Refname"><span class="toc-number">4.2.</span> <span class="toc-text">Refname</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Differ_^_and_~"><span class="toc-number">4.2.1.</span> <span class="toc-text">Differ ^ and ~</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#File_Statuses"><span class="toc-number">4.3.</span> <span class="toc-text">File Statuses</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Objects"><span class="toc-number">4.4.</span> <span class="toc-text">Objects</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Cmd_Prompt"><span class="toc-number">4.5.</span> <span class="toc-text">Cmd Prompt</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Reset_Mode"><span class="toc-number">4.6.</span> <span class="toc-text">Reset Mode</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#credential-helper"><span class="toc-number">4.7.</span> <span class="toc-text">credential.helper</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Rebase_Example"><span class="toc-number">4.8.</span> <span class="toc-text">Rebase Example</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hook"><span class="toc-number">4.9.</span> <span class="toc-text">Hook</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Zsh_Aliases"><span class="toc-number">5.</span> <span class="toc-text">Zsh Aliases</span></a></li></ol>
-                
-            </div>
-            
-            <ul>
+<div class="article-content">
+    
+    <div id="toc" class="toc-article">
+        <strong class="toc-title">Contents</strong>
+        
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#References"><span class="toc-number">1.</span> <span class="toc-text">References</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Memo"><span class="toc-number">2.</span> <span class="toc-text">Memo</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Check_检查"><span class="toc-number">2.1.</span> <span class="toc-text">Check 检查</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Index_索引"><span class="toc-number">2.2.</span> <span class="toc-text">Index 索引</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Back_反悔"><span class="toc-number">2.3.</span> <span class="toc-text">Back 反悔</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Branch_分支"><span class="toc-number">2.4.</span> <span class="toc-text">Branch 分支</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Config_配置"><span class="toc-number">2.5.</span> <span class="toc-text">Config 配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pull_&_Push"><span class="toc-number">2.6.</span> <span class="toc-text">Pull & Push</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Rebase_变基"><span class="toc-number">2.7.</span> <span class="toc-text">Rebase 变基</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Abbreviations"><span class="toc-number">2.8.</span> <span class="toc-text">Abbreviations</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Short_Docs"><span class="toc-number">3.</span> <span class="toc-text">Short Docs</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Setup_&_Config"><span class="toc-number">3.1.</span> <span class="toc-text">Setup & Config</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Create_&_Get_Proj"><span class="toc-number">3.2.</span> <span class="toc-text">Create & Get Proj</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Snapshot"><span class="toc-number">3.3.</span> <span class="toc-text">Snapshot</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Branch_&_Merge"><span class="toc-number">3.4.</span> <span class="toc-text">Branch & Merge</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Share_&_Update"><span class="toc-number">3.5.</span> <span class="toc-text">Share & Update</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Inspect_&_Compare"><span class="toc-number">3.6.</span> <span class="toc-text">Inspect & Compare</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Patch"><span class="toc-number">3.7.</span> <span class="toc-text">Patch</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Debug"><span class="toc-number">3.8.</span> <span class="toc-text">Debug</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Administration"><span class="toc-number">3.9.</span> <span class="toc-text">Administration</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Email"><span class="toc-number">3.10.</span> <span class="toc-text">Email</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#External_Systems"><span class="toc-number">3.11.</span> <span class="toc-text">External Systems</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Server_Admin"><span class="toc-number">3.12.</span> <span class="toc-text">Server Admin</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Plumbing_Cmds"><span class="toc-number">3.13.</span> <span class="toc-text">Plumbing Cmds</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-gitignore"><span class="toc-number">3.14.</span> <span class="toc-text">.gitignore</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Concepts"><span class="toc-number">4.</span> <span class="toc-text">Concepts</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Commit_ID"><span class="toc-number">4.1.</span> <span class="toc-text">Commit ID</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Refname"><span class="toc-number">4.2.</span> <span class="toc-text">Refname</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Differ_^_and_~"><span class="toc-number">4.2.1.</span> <span class="toc-text">Differ ^ and ~</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#File_Statuses"><span class="toc-number">4.3.</span> <span class="toc-text">File Statuses</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Objects"><span class="toc-number">4.4.</span> <span class="toc-text">Objects</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Cmd_Prompt"><span class="toc-number">4.5.</span> <span class="toc-text">Cmd Prompt</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Reset_Mode"><span class="toc-number">4.6.</span> <span class="toc-text">Reset Mode</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#credential-helper"><span class="toc-number">4.7.</span> <span class="toc-text">credential.helper</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Rebase_Example"><span class="toc-number">4.8.</span> <span class="toc-text">Rebase Example</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hook"><span class="toc-number">4.9.</span> <span class="toc-text">Hook</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Zsh_Aliases"><span class="toc-number">5.</span> <span class="toc-text">Zsh Aliases</span></a></li></ol>
+        
+    </div>
+    
+    <ul>
 <li><p><em>Updated on 2016-03-19</em></p>
 </li>
 <li><p><em>Omit the unusual commands at my work.</em></p>
@@ -521,9 +523,11 @@
 <h2 id="Hook"><a href="http://git-scm.com/book/zh/v2/%E8%87%AA%E5%AE%9A%E4%B9%89-Git-Git-%E9%92%A9%E5%AD%90" target="_blank" rel="external"><strong>Hook</strong></a></h2><p>钩子，暂略。</p>
 <h1 id="Zsh_Aliases"><a href="https://github.com/IceHe/oh-my-zsh/blob/master/plugins/git/git.plugin.zsh" target="_blank" rel="external"><strong>Zsh Aliases</strong></a></h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">alias</span> ga=<span class="string">'git add'</span></span><br><span class="line"><span class="built_in">alias</span> gaa=<span class="string">'git add --all'</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> gb=<span class="string">'git branch'</span></span><br><span class="line"><span class="built_in">alias</span> gba=<span class="string">'git branch -a'</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> gbs=<span class="string">'git bisect'</span></span><br><span class="line"><span class="built_in">alias</span> gbss=<span class="string">'git bisect start'</span></span><br><span class="line"><span class="built_in">alias</span> gbsb=<span class="string">'git bisect bad'</span></span><br><span class="line"><span class="built_in">alias</span> gbsg=<span class="string">'git bisect good'</span></span><br><span class="line"><span class="built_in">alias</span> gbsr=<span class="string">'git bisect reset'</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> gc=<span class="string">'git commit -v'</span></span><br><span class="line"><span class="built_in">alias</span> gc!=<span class="string">'git commit -v --amend'</span></span><br><span class="line"><span class="built_in">alias</span> gca!=<span class="string">'git commit -v -a --amend'</span></span><br><span class="line"><span class="built_in">alias</span> gcam=<span class="string">'git commit -a -m'</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> gco=<span class="string">'git checkout'</span></span><br><span class="line"><span class="built_in">alias</span> gcb=<span class="string">'git checkout -b'</span></span><br><span class="line"><span class="built_in">alias</span> gcm=<span class="string">'git checkout master'</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> gcf=<span class="string">'git config --list'</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> gcmsg=<span class="string">'git commit -m'</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> gcount=<span class="string">'git shortlog -sn'</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> gcp=<span class="string">'git cherry-pick'</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> gd=<span class="string">'git diff'</span></span><br><span class="line"><span class="built_in">alias</span> gdca=<span class="string">'git diff --cached'</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> gf=<span class="string">'git fetch'</span></span><br><span class="line"><span class="built_in">alias</span> gl=<span class="string">'git pull'</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> glg=<span class="string">'git log --stat --color'</span></span><br><span class="line"><span class="built_in">alias</span> glgp=<span class="string">'git log --stat --color -p'</span></span><br><span class="line"><span class="built_in">alias</span> glgg=<span class="string">'git log --graph --color'</span></span><br><span class="line"><span class="built_in">alias</span> glgga=<span class="string">'git log --graph --decorate --all'</span></span><br><span class="line"><span class="built_in">alias</span> glgm=<span class="string">'git log --graph --max-count=10'</span></span><br><span class="line"><span class="built_in">alias</span> glo=<span class="string">'git log --oneline --decorate --color'</span></span><br><span class="line"><span class="built_in">alias</span> glol=<span class="string">"git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit"</span></span><br><span class="line"><span class="built_in">alias</span> glola=<span class="string">"git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit --all"</span></span><br><span class="line"><span class="built_in">alias</span> glp=<span class="string">"_git_log_prettily"</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> gm=<span class="string">'git merge'</span></span><br><span class="line"><span class="built_in">alias</span> gmom=<span class="string">'git merge origin/master'</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> gp=<span class="string">'git push'</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> gr=<span class="string">'git remote'</span></span><br><span class="line"><span class="built_in">alias</span> gra=<span class="string">'git remote add'</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> grb=<span class="string">'git rebase'</span></span><br><span class="line"><span class="built_in">alias</span> grba=<span class="string">'git rebase --abort'</span></span><br><span class="line"><span class="built_in">alias</span> grbc=<span class="string">'git rebase --continue'</span></span><br><span class="line"><span class="built_in">alias</span> grbi=<span class="string">'git rebase -i'</span></span><br><span class="line"><span class="built_in">alias</span> grbm=<span class="string">'git rebase master'</span></span><br><span class="line"><span class="built_in">alias</span> grbs=<span class="string">'git rebase --skip'</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> grh=<span class="string">'git reset HEAD'</span></span><br><span class="line"><span class="built_in">alias</span> grhh=<span class="string">'git reset HEAD --hard'</span></span><br><span class="line"><span class="built_in">alias</span> grmv=<span class="string">'git remote rename'</span></span><br><span class="line"><span class="built_in">alias</span> grrm=<span class="string">'git remote remove'</span></span><br><span class="line"><span class="built_in">alias</span> grset=<span class="string">'git remote set-url'</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> gru=<span class="string">'git reset --'</span></span><br><span class="line"><span class="built_in">alias</span> grup=<span class="string">'git remote update'</span></span><br><span class="line"><span class="built_in">alias</span> grv=<span class="string">'git remote -v'</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> gs=<span class="string">'git status'</span></span><br><span class="line"><span class="built_in">alias</span> gsb=<span class="string">'git status -sb'</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> gts=<span class="string">'git tag -s'</span></span><br></pre></td></tr></table></figure>
 
-        </div>
-        <footer class="article-footer clearfix">
-    <div class="article-catetags">
+</div>
+
+<footer class="article-footer clearfix">
+
+<div class="article-catetags">
     
     <div class="article-categories">
         <span></span>
@@ -538,19 +542,17 @@
     
 </div>
 
-    
-    <div class="article-share" id="share">
-        
-        <div data-url="http://icehe.me/cmd/git_note/" data-title="Git Note | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
-        </div>
-        
+
+<div class="article-share" id="share">
+    <div data-url="http://icehe.me/cmd/git_note/" data-title="Git Note | Ice He 何志远" data-tsina="undefined" class="share clearfix">
     </div>
-    
-    
+</div>
+
+
 </footer>
 
-    </article>
-    
+</article>
+
 <nav class="article-nav clearfix">
     
     <div class="prev" >
@@ -577,7 +579,8 @@
 </nav>
 
 
-    <!-- Comments Begin -->
+
+<!-- Comments Begin -->
 <section id="comments" class="comment">
     <div class="ds-thread" data-thread-key="cmd/git_note/" data-title="Git Note" data-url="http://icehe.me/cmd/git_note/"></div>
 </section>
@@ -593,12 +596,14 @@ var duoshuoQuery = {short_name:"icehe"};
     || document.getElementsByTagName('body')[0]).appendChild(ds);
 })();
 </script>
-
 <!-- Comments End -->
+
 
 </div>  
 
-    <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
+<!-- Sidebar Begin -->
+
+<div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
 
 <div id="toc" class="toc-aside">
     <strong class="toc-title">Contents</strong>
@@ -685,7 +690,7 @@ var duoshuoQuery = {short_name:"icehe"};
 
 <p class="asidetitle" style="display: none;">Donate 打赏</p>
 
-<!-- CSS Begin -->
+<!-- Donate CSS Begin -->
 <style type="text/css">
     .donate_bar a.btn_donate{
         margin-top: 0.8em;
@@ -707,19 +712,18 @@ var duoshuoQuery = {short_name:"icehe"};
         color: #9d9d9d;
         font: 14px/2 "Microsoft Yahei";
     }
-    .bold{ font-weight: bold; }
+    .bold { font-weight: bold; }
 </style>
-<!-- CSS End -->
+<!-- Donate CSS End -->
 
-<!-- Btn_donate & tips Begin -->
+<!-- Donate Begin -->
 <div id="donate_board_wdg" class="donate_bar center">
     <a id="btn_donate_wdg" class="btn_donate" href="/reward" title="Reward 打赏" target="_top"></a>
-    <span class="donate_txt" style="font-size: 80%; display:none;">
-        <span style="font-weight: bold;">求打赏 ! </span>
-        Reward me ~
+    <span class="donate_txt copyright" style="font-size: 80%; font-weight: bold;">
+        &copy; 2016 Ice He All Rights Reserved.
     </span>
 </div>
-<!-- Btn_donate & tips End -->
+<!-- Donate End -->
 
 <!-- Donate Module End -->
 
@@ -727,54 +731,17 @@ var duoshuoQuery = {short_name:"icehe"};
 
 </div>
 
+<!-- Sidebar End -->
+
+
 </div>
-
-<footer>
-    <div id="footer" >
-    
-    <div class="line">
-        <span></span>
-        <div class="author"></div>
-    </div>
-    
-    
-    <div class="social-font" class="clearfix">
-        
-        <a href="https://github.com/IceHe" target="_blank" class="icon-github" title="github"></a>
-        
-        
-        <a href="http://weibo.com/icedes" target="_blank" class="icon-weibo" title="微博"></a>
-        
-        
-        
-        
-        
-        
-        
-        <a href="https://www.douban.com/people/IceHeGZ" target="_blank" class="icon-douban" title="豆瓣"></a>
-        
-        
-        
-        
-        <a href="mailto:x@icehe.me" target="_blank" class="icon-email" title="Email Me"></a>
-        
-    </div>
-    
-    
-
-    <p class="copyright">
-        Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2016
-        
-        <a href="/about" target="_blank" title="IceHe何志远">IceHe何志远</a>
-        
-    </p>
-</div>
-
-</footer>
+<!-- Container Begin -->
 
 
-<!-- JavaScript Resource -->
 
+
+
+<!-- JavaScript Resource Begin -->
 <script id="jQueryLink" src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
 <script type="text/javascript">
     window.jQuery || document.write('<script src="/js/jquery-2.0.3.min.js"><\/script>');
@@ -782,15 +749,60 @@ var duoshuoQuery = {short_name:"icehe"};
 <script src="http://7vzp67.com1.z0.glb.clouddn.com/js/gallery.js"></script>
 <script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.imagesloaded.min.js"></script>
 <script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.qrcode-0.12.0.min.js"></script>
-
 <!--<script src="/js/jquery-2.0.3.min.js"></script>-->
 <!--<script src="/js/jquery.imagesloaded.min.js"></script>-->
 <!--<script src="/js/gallery.js"></script>-->
 <!--<script src="/js/jquery.qrcode-0.12.0.min.js"></script>-->
+<!-- JavaScript Resource End -->
 
 
-<!-- For Responsive Design -->
+<!-- For Post Begin -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        var ai = $('.article-content>iframe'),
+                ae = $('.article-content>embed'),
+                t  = $('#toc'),
+                ta = $('#toc.toc-aside'),
+                o  = $('.openaside'),
+                c  = $('.closeaside');
+        if(ai.length>0){
+            ai.wrap('<div class="video-container" />');
+        };
+        if(ae.length>0){
+            ae.wrap('<div class="video-container" />');
+        };
+        c.click(function(){
+            ta.css('display', 'block').addClass('fadeIn');
+        });
+        o.click(function(){
+            ta.css('display', 'none');
+        });
+        $(window).scroll(function(){
+            ta.css("top",Math.max(140,320-$(this).scrollTop()));
+        });
+    });
+</script>
+<!-- For Post End -->
 
+
+<!-- For Like Button Begin -->
+<script type="text/javascript">
+    /* Click Duoshuo 'Like' button automatically */
+    $(window).load(function() {
+        var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
+        if (1 == ds_like_button.length
+                && "none" != document.getElementsByClassName('ds-meta')[0].style.display
+                && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
+        ) {
+            ds_like_button[0].click();
+            document.getElementsByClassName('ds-like-tooltip-close')[0].click();
+            window.location.href = '#';
+        }
+    });
+</script>
+<!-- For Like Button End -->
+
+<!-- For Responsive Design Begin -->
 <script type="text/javascript">
     $(document).ready(function(){
         $('.navbar').click(function(){
@@ -842,44 +854,12 @@ var duoshuoQuery = {short_name:"icehe"};
         });
     });
 </script>
-
-
-<!-- For Post -->
-
-<script type="text/javascript">
-    $(document).ready(function(){
-        var ai = $('.article-content>iframe'),
-                ae = $('.article-content>embed'),
-                t  = $('#toc'),
-                ta = $('#toc.toc-aside'),
-                o  = $('.openaside'),
-                c  = $('.closeaside');
-        if(ai.length>0){
-            ai.wrap('<div class="video-container" />');
-        };
-        if(ae.length>0){
-            ae.wrap('<div class="video-container" />');
-        };
-        c.click(function(){
-            ta.css('display', 'block').addClass('fadeIn');
-        });
-        o.click(function(){
-            ta.css('display', 'none');
-        });
-        $(window).scroll(function(){
-            ta.css("top",Math.max(140,320-$(this).scrollTop()));
-        });
-    });
-</script>
+<!-- For Responsive Design End -->
 
 
 
-<!-- For Tags & Uategories-->
 
-
-
-<!-- Share -->
-
+<!-- Share Begin -->
 <script type="text/javascript">
     $(document).ready(function(){
         var $this = $('.share'),
@@ -938,17 +918,26 @@ var duoshuoQuery = {short_name:"icehe"};
         });
     });
 </script>
+<!-- Share End -->
 
 
 
-<!-- Fancybox -->
+<!-- Totop Begin -->
+<div id="totop">
+    <a title="Back to Top">
+        <img src="//7vzp68.com1.z0.glb.clouddn.com/common/scrollup.png"/>
+    </a>
+</div>
+<script src="/js/totop.js"></script>
+<!-- Totop End -->
 
+
+
+<!-- Fancybox Begin -->
 <link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.css" media="screen" type="text/css">
 <script src="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.pack.js"></script>
-
 <!--<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">-->
 <!--<script src="/fancybox/jquery.fancybox.pack.js"></script>-->
-
 <script type="text/javascript">
     $(document).ready(function(){
         $('.article-content').each(function(i){
@@ -969,78 +958,38 @@ var duoshuoQuery = {short_name:"icehe"};
         }
     });
 </script>
+<!-- Fancybox End -->
 
 
-
-<!-- Analytics -->
-
+<!-- Analytics Begin -->
 <div style="display: none;">
     <script type="text/javascript">
-        if(isOnGithub){
-            
-            /* Google Analytics */
+    
+        /* Google Analytics */
 
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-60837823-1', 'auto');
-            ga('send', 'pageview');
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-60837823-1', 'auto');
+        ga('send', 'pageview');
         
-            
-            /* Baidu Statistics */
+        
+        /* Baidu Statistics */
 
-            var _hmt = _hmt || [];
-            (function() {
-                var hm = document.createElement("script");
-                hm.src = "//hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
-                var s = document.getElementsByTagName("script")[0];
-                s.parentNode.insertBefore(hm, s);
-            })();
-        }
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    
     </script>
 </div>
+<!-- Analytics End -->
 
-
-
-<!-- MathJax -->
-
-
-
-<!-- Totop -->
-
-<div id="totop">
-    <a title="Back to Top">
-        <img src="//7vzp68.com1.z0.glb.clouddn.com/common/scrollup.png"/>
-    </a>
-</div>
-<script src="/js/totop.js"></script>
-
-
-
-<!-- Duoshuo -->
-
-<script type="text/javascript">
-    $(window).load(function() {
-
-        /* Click Duoshuo 'Like' button automatically */
-
-        var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
-
-        if (1 == ds_like_button.length
-                && "none" != document.getElementsByClassName('ds-meta')[0].style.display
-                && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
-        ) {
-            ds_like_button[0].click();
-            document.getElementsByClassName('ds-like-tooltip-close')[0].click();
-            window.location.href = '#';
-        }
-    });
-</script>
-
-
-<!-- Lean Cloud -->
-
+<!-- Lean Cloud Begin -->
 <script src="https://leancloud.cn/scripts/lib/av-0.5.0.min.js"></script>
 <script type="text/javascript">
 
@@ -1051,56 +1000,56 @@ var duoshuoQuery = {short_name:"icehe"};
             "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5" // 应用 key
     );
 
-    function addCount (Counter) {
+    function addCount(Counter) {
         url = $('.article-url').attr('href').trim();
         title = $('.article-title').text().trim();
         var query = new AV.Query(Counter);
 
         query.equalTo("url",url); // use url as unique idnetfication
         query.find({
-            success: function(results){
-                if(results.length>0){
+            success: function(results) {
+                if (results.length>0) {
                     var counter = results[0];
                     counter.fetchWhenSave(true); //get recent result
                     counter.increment("time");
                     counter.save();
-                }else{
+                } else {
                     var newcounter = new Counter();
                     newcounter.set("title", title);
                     newcounter.set("url", url);
                     newcounter.set("time", 1);
                     newcounter.save(null, {
-                        success: function(newcounter){
+                        success: function(newcounter) {
                             //alert('New object created');
                         },
-                        error: function(newcounter,error){
+                        error: function(newcounter,error) {
                             //alert('Failed to create');
                         }
                     });
                 }
             },
-            error: function(error){ // find null is not a error
+            error: function(error) { // find null is not a error
                 // alert('Error:' + error.code + " " + error.message);
             }
         });
     }
 
-    $(function(){
+    $(function() {
         var Counter = AV.Object.extend("Counter");
         // only increse visit counting when intering a page
-        if(isOnGithub && 1 == $('.article-title').length) {
+        if (1 == $('.article-title').length) {
             addCount(Counter);
         }
 
         // if popularlist widget exists, add item to it.
         var popular_list = $('.popularlist');
-        if(1 == popular_list.length){
+        if (1 == popular_list.length) {
             var query = new AV.Query(Counter);
             query.descending("time");
             query.limit(15);
             query.find({
-                success: function(results){
-                    for(var i = 0; i < results.length; ++i){
+                success: function(results) {
+                    for(var i = 0; i < results.length; ++i) {
                         var counter = results[i];
                         title = counter.get("title");
                         url = counter.get("url");
@@ -1118,7 +1067,7 @@ var duoshuoQuery = {short_name:"icehe"};
                         );
                     }
                 },
-                error: function(error){
+                error: function(error) {
                     //alert("Error:" + error.code + " " + error.message);
                 }
             });
@@ -1126,13 +1075,13 @@ var duoshuoQuery = {short_name:"icehe"};
 
         // if cur page is a post, set the post pageview.
         var article_info = $(".article-info");
-        if(1 == article_info.length){
+        if (1 == article_info.length) {
             var query = new AV.Query(Counter);
             query.equalTo("url", article_info.find(".article-title a").attr("href"));
             query.limit(1);
             query.find({
-                success: function(results){
-                    if(1 == results.length){
+                success: function(results) {
+                    if (1 == results.length) {
                         var counter = results[0];
                         title = counter.get("title");
                         url = counter.get("url");
@@ -1141,7 +1090,7 @@ var duoshuoQuery = {short_name:"icehe"};
                         article_info.find(".article-readtimes .readtimes").text(time);
                     }
                 },
-                error: function(error){
+                error: function(error) {
                     article_info.find(".article-readtimes .readtimes").text("?");
                     //alert("Error:" + error.code + " " + error.message);
                 }
@@ -1150,15 +1099,15 @@ var duoshuoQuery = {short_name:"icehe"};
 
         // if cur page is Home, set the post_list's pageviews.
         var post_list = $("#main[class!=post]");
-        if(0 != post_list.length){
+        if (0 != post_list.length) {
             var post_items = post_list.find(".post a");
-            for(var i = 0; i < post_items.length; ++i){
+            for (var i = 0; i < post_items.length; ++i) {
                 var url = post_items.eq(i).attr("href");
                 query.equalTo("url", url);
                 query.limit(1);
                 query.find({
-                    success: function(results){
-                        if(1 == results.length){
+                    success: function(results) {
+                        if (1 == results.length) {
                             var counter = results[0];
                             title = counter.get("title");
                             url = counter.get("url");
@@ -1167,7 +1116,7 @@ var duoshuoQuery = {short_name:"icehe"};
                             $(".post a[href='" + url + "']").find('.readtimes').text(time);
                         }
                     },
-                    error: function(error){
+                    error: function(error) {
                         //alert("Error:" + error.code + " " + error.message);
                     }
                 });
@@ -1175,10 +1124,11 @@ var duoshuoQuery = {short_name:"icehe"};
         }
     });
 </script>
+<!-- Lean Cloud End -->
+
 
 
 <!-- 不蒜子 -->
-
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 

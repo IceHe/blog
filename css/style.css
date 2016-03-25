@@ -1902,7 +1902,6 @@ section.comment {
   border-bottom: 2px solid #ccc;
 }
 footer {
-  display: none;
   margin-top: 1em;
   background: #1f1f1f;
   padding: 0 2% 0.5em;
@@ -2093,10 +2092,10 @@ footer {
   }
 }
 .copyright a {
-  color: #669;
+  color: #fff;
 }
 .copyright a:hover {
-  color: #669;
+  color: color-red;
   text-decoration: underline;
 }
 .cc-license {

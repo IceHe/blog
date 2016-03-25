@@ -55,11 +55,6 @@
 
 <header>
     
-<script type="text/javascript">
-    // 判断现在个人站是在哪一个网址上！
-    var isOnGithub = (-1 != location.href.indexOf("icehe.me"));
-</script>
-
 <div>
     
     <div id="imglogo">
@@ -104,14 +99,19 @@
 
 </header>
 
+<!-- Container Begin -->
 <div id="container">
-    <div id="main" class="post" itemscope itemprop="blogPost">
 
-    <article itemprop="articleBody">
-        <header class="article-info clearfix">
+<div id="main" class="post" itemscope itemprop="blogPost">
+
+<article itemprop="articleBody">
+
+<header class="article-info clearfix">
+
     <h1 itemprop="name" class="article-title">
     
         <a href="/linux/[02] Config System Envir 配置系统环境 - CentOS 7/" title="(02) Configure System Envir 配置系统环境 - CentOS 7" itemprop="url" class="article-url">(02) Configure System Envir 配置系统环境 - CentOS 7</a>
+    
     </h1>
 
     <p class="article-author hidden"> By
@@ -121,7 +121,9 @@
     </p>
 
     <p class="article-readtimes">
+
         <time datetime="2015-03-25T16:00:00.000Z" itemprop="datePublished">2015-03-26</time>&nbsp; / &nbsp;<span class="readtimes">?</span> views
+
     </p>
 
     <!--<p class="article-time">-->
@@ -130,9 +132,9 @@
 
 </header>
 
-        <div class="article-content">
-            
-            <div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div style="background-color: #ffffff;"><div style="width: 65.812%; display: block; min-height: 30px; box-sizing: border-box; margin-left: 2.5641%; max-width: 50em; text-align: justify;"><div style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px;">RefFrom:<a href="http://seisman.info/linux-environment-for-seismology-research.html" shape="rect" target="_blank" rel="external">http://seisman.info/linux-environment-for-seismology-research.html</a></div><div style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px;">Original Title:&nbsp;用CentOS 7打造合适的科研环境<br clear="none"></div><div><br></div><div><span style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; text-transform: none; color: rgb(255, 102, 0); font-size: 12pt;"><strong>Notice:&nbsp;</strong>若是按照前篇的文章《</span><font color="#FF6600" face="pt serif, georgia, times new roman, times, serif"><span style="line-height: 26px;">[00] U盘安装 CentOS 7</span></font><span style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none; color: rgb(255, 102, 0); font-size: 12pt; line-height: 1.6em;">》安装CentOS，<br></span><span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 此时应从&nbsp;</span><span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em; text-decoration: underline;"><strong>添加第三方源</strong></span> <span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">开始阅读，</span><span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">到</span> <strong style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">删除多余的kernel</strong> <span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">结束。</span></div><p style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-weight: normal; color: rgb(51, 51, 51); font-size: 16.8px; font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px;"><br clear="none"></p><p style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-weight: normal; color: rgb(51, 51, 51); font-size: 16.8px; font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px;">这篇博文记录了我用CentOS 7搭建<strong style="font-weight: bold;">地震学科研环境</strong>的过程，供我个人在未来重装系统时参考。对于其他地震学科研人员，也许有借鉴意义。</p><p style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-weight: normal; color: rgb(51, 51, 51); font-size: 16.8px; font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px;">阅读须知：</p><ol style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px; list-style: decimal; padding: 0px; margin: 0px 0px 10px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文适用于个人电脑，不适用于服务器；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">不推荐刚接触Linux的人使用CentOS发行版；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文尽量写的浅显易懂，但要求读者掌握Linux基础知识；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文所有操作均在CentOS 7下完成，其他发行版或多或少与CentOS&nbsp;7不同，因而仅供参考；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文所安装的软件纯粹出于个人习惯及喜好，读者应自己判断，按需安装；</li></ol><div style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px;"><h2 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 31.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id44" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">安装CentOS</a><br clear="none"></h2><p style="font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px 20px 0px;">CentOS&nbsp;7的安装与其他Linux发行版的安装差不多，个别地方稍有不同。</p><div><h3 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 24.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id45" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">准备工作</a><br clear="none"></h3><ol style="list-style-type: decimal; padding: 0px; margin: 0px 0px 10px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">准备材料
+<div class="article-content">
+    
+    <div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div style="background-color: #ffffff;"><div style="width: 65.812%; display: block; min-height: 30px; box-sizing: border-box; margin-left: 2.5641%; max-width: 50em; text-align: justify;"><div style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px;">RefFrom:<a href="http://seisman.info/linux-environment-for-seismology-research.html" shape="rect" target="_blank" rel="external">http://seisman.info/linux-environment-for-seismology-research.html</a></div><div style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px;">Original Title:&nbsp;用CentOS 7打造合适的科研环境<br clear="none"></div><div><br></div><div><span style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; text-transform: none; color: rgb(255, 102, 0); font-size: 12pt;"><strong>Notice:&nbsp;</strong>若是按照前篇的文章《</span><font color="#FF6600" face="pt serif, georgia, times new roman, times, serif"><span style="line-height: 26px;">[00] U盘安装 CentOS 7</span></font><span style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none; color: rgb(255, 102, 0); font-size: 12pt; line-height: 1.6em;">》安装CentOS，<br></span><span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 此时应从&nbsp;</span><span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em; text-decoration: underline;"><strong>添加第三方源</strong></span> <span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">开始阅读，</span><span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">到</span> <strong style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">删除多余的kernel</strong> <span style="color: rgb(255, 102, 0); font-size: 12pt; font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; line-height: 1.6em;">结束。</span></div><p style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-weight: normal; color: rgb(51, 51, 51); font-size: 16.8px; font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px;"><br clear="none"></p><p style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-weight: normal; color: rgb(51, 51, 51); font-size: 16.8px; font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px;">这篇博文记录了我用CentOS 7搭建<strong style="font-weight: bold;">地震学科研环境</strong>的过程，供我个人在未来重装系统时参考。对于其他地震学科研人员，也许有借鉴意义。</p><p style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-weight: normal; color: rgb(51, 51, 51); font-size: 16.8px; font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px;">阅读须知：</p><ol style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px; list-style: decimal; padding: 0px; margin: 0px 0px 10px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文适用于个人电脑，不适用于服务器；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">不推荐刚接触Linux的人使用CentOS发行版；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文尽量写的浅显易懂，但要求读者掌握Linux基础知识；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文所有操作均在CentOS 7下完成，其他发行版或多或少与CentOS&nbsp;7不同，因而仅供参考；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">本文所安装的软件纯粹出于个人习惯及喜好，读者应自己判断，按需安装；</li></ol><div style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px;"><h2 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 31.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id44" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">安装CentOS</a><br clear="none"></h2><p style="font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px 20px 0px;">CentOS&nbsp;7的安装与其他Linux发行版的安装差不多，个别地方稍有不同。</p><div><h3 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 24.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id45" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">准备工作</a><br clear="none"></h3><ol style="list-style-type: decimal; padding: 0px; margin: 0px 0px 10px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">准备材料
 <ul style="list-style-type: disc; padding: 0px; margin: 0px 0px 0px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">U盘：容量700M以上，用于制作U盘启动盘，因为在制作启动盘时会格式化U盘，所以U盘内不要包含重要资料</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;"><a href="http://mirrors.ustc.edu.cn/centos/7/isos/x86_64/CentOS-7.0-1406-x86_64-livecd.iso" shape="rect" style="border-bottom-width: thin; border-bottom-style: dashed; border-bottom-color: #a9a9a9; color: #000000; text-decoration: none;" target="_blank">CentOS 7.0 LiveCD&nbsp;ISO镜像文件</a><br clear="none"></li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;"><a href="http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/" shape="rect" style="border-bottom-width: thin; border-bottom-style: dashed; border-bottom-color: #a9a9a9; color: #000000; text-decoration: none;" target="_blank">Universal <span>USB</span> installer</a>：Windows下的U盘启动盘制作工具</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">一个已安装Windows的电脑：用于制作U盘启动盘</li></ul></li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">运行Universal <span>USB</span>&nbsp;installer并制作U盘启动盘</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">将U盘插入计算机，重启，进入BIOS选择从U盘启动，即可进入CentOS的LiveCD</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">进入LiveCD后，点击桌面的“Install to Hard&nbsp;Drive”即可安装</li></ol><p style="font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px 20px 0px;">注：Linux下可以通过<tt style="background-color: #f7f7f9; border-radius: 3px; color: #dd1144; font-family: Monaco,Menlo,Consolas,Courier New,monospace; font-size: 12px; white-space: nowrap; padding: 2px 4px 2px 4px; border: 1px solid #e1e1e8;">dd</tt>命令制作启动盘，但由于对原理不够了解，偶尔会导致制作失败，或制作成功后U盘容量有问题，还是用Windows下的Universal <span>USB</span>&nbsp;installer比较靠谱。</p></div><div><h3 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 24.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id46" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">安装过程</a><br clear="none"></h3><ol style="list-style-type: decimal; padding: 0px; margin: 0px 0px 10px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">选择安装过程中使用的语言，这里应<strong style="font-weight: bold;">使用英语，不要使用汉语</strong>。若安装界面使用汉语，最终安装的系统中会出现两个比较麻烦的问题：
 <ol style="list-style-type: decimal; padding: 0px; margin: 0px 0px 0px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">家目录下的系统文件夹，比如Downloads、Desktop等会以中文表示，这使得在命令行cd变得很麻烦；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">终端中某些字符用英文字体，某些字符用中文字体，效果非常差，需要自己修改终端字体方可；</li></ol></li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">选择区域和城市：Asia和Shanghai</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">键盘使用English(<span>US</span>)而不是English(<span>UK</span>)</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">Hostname可以改也可以不改，我用<tt style="background-color: #f7f7f9; border-radius: 3px; color: #dd1144; font-family: Monaco,Menlo,Consolas,Courier New,monospace; font-size: 12px; white-space: nowrap; padding: 2px 4px 2px 4px; border: 1px solid #e1e1e8;">saturn.geolab</tt></li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">安装的目的地，选择要使用的硬盘，在“Other Storage Options”处选择“I will configure&nbsp;partioning”，即手动分区</li></ol></div><div><h3 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 24.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id47" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">分区</a><br clear="none"></h3><p style="font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px 20px 0px;">CentOS&nbsp;7的分区似乎比较特别，自认为经验很丰富的我在第一次安装CentOS7时还是在分区上耽误了很多时间。后来找到比较合适的分区方法，如下：</p><ul style="list-style-type: disc; padding: 0px; margin: 0px 0px 10px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">点击“Click here to create them&nbsp;automatically”，即让安装程序帮忙分区</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">默认的分区方案是使用LVM，其好处在于“当机器有多块硬盘时，在使用的时候看上去只有一块”</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">默认的文件系统为XFS而不是以前常用的EXT4；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">自动分区完成后，再根据自己的需求，手动修改分区细节
 <ul style="list-style-type: disc; padding: 0px; margin: 0px 0px 0px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;"><tt style="background-color: #f7f7f9; border-radius: 3px; color: #dd1144; font-family: Monaco,Menlo,Consolas,Courier New,monospace; font-size: 12px; white-space: nowrap; padding: 2px 4px 2px 4px; border: 1px solid #e1e1e8;">/boot</tt>：CentOS自动分配，一定不要乱改；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;"><tt style="background-color: #f7f7f9; border-radius: 3px; color: #dd1144; font-family: Monaco,Menlo,Consolas,Courier New,monospace; font-size: 12px; white-space: nowrap; padding: 2px 4px 2px 4px; border: 1px solid #e1e1e8;">/</tt>：根目录，理论上15G就够了，不过现在硬盘不值钱，多分一些以防万一；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;"><tt style="background-color: #f7f7f9; border-radius: 3px; color: #dd1144; font-family: Monaco,Menlo,Consolas,Courier New,monospace; font-size: 12px; white-space: nowrap; padding: 2px 4px 2px 4px; border: 1px solid #e1e1e8;">swap</tt>：与物理内存大小一致即可</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;"><tt style="background-color: #f7f7f9; border-radius: 3px; color: #dd1144; font-family: Monaco,Menlo,Consolas,Courier New,monospace; font-size: 12px; white-space: nowrap; padding: 2px 4px 2px 4px; border: 1px solid #e1e1e8;">/opt</tt>：个人习惯是将第三方软件都安装在<tt style="background-color: #f7f7f9; border-radius: 3px; color: #dd1144; font-family: Monaco,Menlo,Consolas,Courier New,monospace; font-size: 12px; white-space: nowrap; padding: 2px 4px 2px 4px; border: 1px solid #e1e1e8;">/opt</tt>下，所以分了70G</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;"><tt style="background-color: #f7f7f9; border-radius: 3px; color: #dd1144; font-family: Monaco,Menlo,Consolas,Courier New,monospace; font-size: 12px; white-space: nowrap; padding: 2px 4px 2px 4px; border: 1px solid #e1e1e8;">/home</tt>：余下的全部空间</li></ul></li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">点击“Begin to&nbsp;Install”开始安装</li></ul></div><div><h3 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 24.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id48" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">真正的安装</a><br clear="none"></h3><ol style="list-style-type: decimal; padding: 0px; margin: 0px 0px 10px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">设置root密码</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">创建一般用户</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">等待安装完成</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">安装完成，重启</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">重启后，同意License即可</li></ol></div></div><div style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px;"><h2 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 31.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id49" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">对系统的若干修改</a><br clear="none"></h2><div><h3 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 24.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id50" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">若干原则</a><br clear="none"></h3><p style="font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px 20px 0px;">为了搭建一个稳定的系统，尽量避免因为各种瞎折腾而导致的系统问题，特订立了一些软件安装的原则。具体参见《<a href="http://seisman.info/how-to-install-softwares-under-centos-7.html" shape="rect" style="border-bottom-width: thin; border-bottom-style: dashed; border-bottom-color: #a9a9a9; color: #000000; text-decoration: none;" target="_blank">CentOS 7下的软件安装方法与策略</a>》。</p></div><div><h3 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 24.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id51" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">给一般账号root权限</a><br clear="none"></h3><p style="font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px 20px 0px;">默认情况下，一般账号是没有root权限的。为什么不直接用root账号，而是要给一般账号root权限呢？</p><ul style="list-style-type: disc; padding: 0px; margin: 0px 0px 10px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;"><strong style="font-weight: bold;">日常工作中使用root账号，是非常糟糕且危险的习惯！无论是服务器还是个人电脑都是如此。</strong></li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">安装软件时需要root权限，只能<tt style="background-color: #f7f7f9; border-radius: 3px; color: #dd1144; font-family: Monaco,Menlo,Consolas,Courier New,monospace; font-size: 12px; white-space: nowrap; padding: 2px 4px 2px 4px; border: 1px solid #e1e1e8;">su</tt>切换到root账户再安装。对于习惯使用<tt style="background-color: #f7f7f9; border-radius: 3px; color: #dd1144; font-family: Monaco,Menlo,Consolas,Courier New,monospace; font-size: 12px; white-space: nowrap; padding: 2px 4px 2px 4px; border: 1px solid #e1e1e8;">sudo</tt>的人来说，还是有些麻烦。</li></ul><p style="font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px 20px 0px;">假设账户名为seisman，要授予他root权限，则要修改配置文件<tt style="background-color: #f7f7f9; border-radius: 3px; color: #dd1144; font-family: Monaco,Menlo,Consolas,Courier New,monospace; font-size: 12px; white-space: nowrap; padding: 2px 4px 2px 4px; border: 1px solid #e1e1e8;">/etc/sudoers</tt></p><pre style="overflow: auto; white-space: pre; word-break: normal; word-wrap: normal; background-color: #fdf6e3; color: #586e75; display: block; font-size: 13px; line-height: 20px; border-width: 1px; border-style: solid; border-color: rgba(0, 0, 0, 0.15); border-radius: 4px; font-family: Monaco,Menlo,Consolas,Courier New,monospace; padding: 9.5px; margin: 0px 0px 10px 0px;" xml:space="preserve">
@@ -329,9 +331,11 @@ $ rm -rf usr opt etc
 $ sudo ln -s /opt/google/earth/free/googleearth /usr/bin/google-earth
 </pre><p style="font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px 20px 0px;">安装完成后，启动后奔溃。。</p></div></div><div style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px;"><h2 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 31.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id112" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">参考</a><br clear="none"></h2><ol style="list-style-type: decimal; padding: 0px; margin: 0px 0px 10px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;"><a href="http://elrepo.org/tiki/tiki-index.php" shape="rect" style="border-bottom-width: thin; border-bottom-style: dashed; border-bottom-color: #a9a9a9; color: #000000; text-decoration: none;" target="_blank">ELRepo官方网站</a><br clear="none"></li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;"><a href="http://elrepo.org/tiki/kmod-nvidia" shape="rect" style="border-bottom-width: thin; border-bottom-style: dashed; border-bottom-color: #a9a9a9; color: #000000; text-decoration: none;" target="_blank">ELRepo&nbsp;kmod-nvidia</a><br clear="none"></li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;"><a href="http://wiki.centos.org/zh/AdditionalResources/Repositories/GoogleYumRepos" shape="rect" style="border-bottom-width: thin; border-bottom-style: dashed; border-bottom-color: #a9a9a9; color: #000000; text-decoration: none;" target="_blank">CentOS&nbsp;Yum软件库样例</a><br clear="none"></li></ol></div><div style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px;"><h2 style="font-family: Baskerville,Garamond,Georgia,&amp;apos; dejavu serif&amp;apos;,&amp;apos;times new roman&amp;apos;,times,serif; font-weight: normal; font-size: 31.5px; line-height: 40px; text-rendering: optimizelegibility; margin: 10px 0px 10px 0px;"><a href="http://seisman.info/#id113" shape="rect" style="text-decoration: none; color: #3875d7;" target="_blank">修订历史</a><br clear="none"></h2><ul style="list-style-type: disc; padding: 0px; margin: 0px 0px 10px 25px;"><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">2014-07-15：初稿；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">2014-09-05：EPEL已经发布正式版；修改了epel-release的下载链接；修订了import步骤的错误；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">2014-09-20：将小小输入法改为搜狗输入法；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">2014-11-20：使用zsh；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">2014-11-24：加入了VirtualBox虚拟机；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">2014-12-01：从ELRepo源中安装显卡驱动；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">2014-12-02：新增Opera浏览器和unrar；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">2014-12-27：新增pointdownload下载工具；google&nbsp;chrome采用非官方源镜像；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">2014-12-28：修订unrar的rpm文件链接；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">2015-01-03：新增同步网盘Dropbox和坚果云；删除pointdownload；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">2015-01-05：autojump直接从epel中安装；新增youtube-dl、you-get和2048-cli；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">2015-01-07：新增terminator和guake；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">2015-01-27：新增cpdf；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">2015-03-03：新增filezilla和transmission；</li><li style="line-height: 1.7em; list-style-position: outside; margin: 1px 0px 1px 20px;">2015-03-26：安装过程中不应使用中文安装界面；</li></ul></div><div style="font-family: &amp;apos; pt serif&amp;apos;, georgia, &amp;apos;times new roman&amp;apos;, times, serif; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.6em; color: rgb(51, 51, 51); font-size: 16.8px; display: block;"><p style="color: #6f6f6f; text-shadow: 1px 1px 3px rgba(50, 50, 50, 0.15); font-variant: normal; line-height: 1.6em; text-transform: none; margin: 20px 0px 20px 0px;">So what do you think? Did I miss something? Is any part unclear? Leave your comments below.</p></div></div></div></div>
 
-        </div>
-        <footer class="article-footer clearfix">
-    <div class="article-catetags">
+</div>
+
+<footer class="article-footer clearfix">
+
+<div class="article-catetags">
     
     <div class="article-categories">
         <span></span>
@@ -346,19 +350,17 @@ $ sudo ln -s /opt/google/earth/free/googleearth /usr/bin/google-earth
     
 </div>
 
-    
-    <div class="article-share" id="share">
-        
-        <div data-url="http://icehe.me/linux/[02] Config System Envir 配置系统环境 - CentOS 7/" data-title="(02) Configure System Envir 配置系统环境 - CentOS 7 | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
-        </div>
-        
+
+<div class="article-share" id="share">
+    <div data-url="http://icehe.me/linux/[02] Config System Envir 配置系统环境 - CentOS 7/" data-title="(02) Configure System Envir 配置系统环境 - CentOS 7 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
     </div>
-    
-    
+</div>
+
+
 </footer>
 
-    </article>
-    
+</article>
+
 <nav class="article-nav clearfix">
     
     <div class="prev" >
@@ -385,7 +387,8 @@ $ sudo ln -s /opt/google/earth/free/googleearth /usr/bin/google-earth
 </nav>
 
 
-    <!-- Comments Begin -->
+
+<!-- Comments Begin -->
 <section id="comments" class="comment">
     <div class="ds-thread" data-thread-key="linux/[02] Config System Envir 配置系统环境 - CentOS 7/" data-title="(02) Configure System Envir 配置系统环境 - CentOS 7" data-url="http://icehe.me/linux/[02] Config System Envir 配置系统环境 - CentOS 7/"></div>
 </section>
@@ -401,12 +404,14 @@ var duoshuoQuery = {short_name:"icehe"};
     || document.getElementsByTagName('body')[0]).appendChild(ds);
 })();
 </script>
-
 <!-- Comments End -->
+
 
 </div>  
 
-    <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
+<!-- Sidebar Begin -->
+
+<div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
 
 
 <script type="text/javascript">
@@ -486,7 +491,7 @@ var duoshuoQuery = {short_name:"icehe"};
 
 <p class="asidetitle" style="display: none;">Donate 打赏</p>
 
-<!-- CSS Begin -->
+<!-- Donate CSS Begin -->
 <style type="text/css">
     .donate_bar a.btn_donate{
         margin-top: 0.8em;
@@ -508,19 +513,18 @@ var duoshuoQuery = {short_name:"icehe"};
         color: #9d9d9d;
         font: 14px/2 "Microsoft Yahei";
     }
-    .bold{ font-weight: bold; }
+    .bold { font-weight: bold; }
 </style>
-<!-- CSS End -->
+<!-- Donate CSS End -->
 
-<!-- Btn_donate & tips Begin -->
+<!-- Donate Begin -->
 <div id="donate_board_wdg" class="donate_bar center">
     <a id="btn_donate_wdg" class="btn_donate" href="/reward" title="Reward 打赏" target="_top"></a>
-    <span class="donate_txt" style="font-size: 80%; display:none;">
-        <span style="font-weight: bold;">求打赏 ! </span>
-        Reward me ~
+    <span class="donate_txt copyright" style="font-size: 80%; font-weight: bold;">
+        &copy; 2016 Ice He All Rights Reserved.
     </span>
 </div>
-<!-- Btn_donate & tips End -->
+<!-- Donate End -->
 
 <!-- Donate Module End -->
 
@@ -528,54 +532,17 @@ var duoshuoQuery = {short_name:"icehe"};
 
 </div>
 
+<!-- Sidebar End -->
+
+
 </div>
-
-<footer>
-    <div id="footer" >
-    
-    <div class="line">
-        <span></span>
-        <div class="author"></div>
-    </div>
-    
-    
-    <div class="social-font" class="clearfix">
-        
-        <a href="https://github.com/IceHe" target="_blank" class="icon-github" title="github"></a>
-        
-        
-        <a href="http://weibo.com/icedes" target="_blank" class="icon-weibo" title="微博"></a>
-        
-        
-        
-        
-        
-        
-        
-        <a href="https://www.douban.com/people/IceHeGZ" target="_blank" class="icon-douban" title="豆瓣"></a>
-        
-        
-        
-        
-        <a href="mailto:x@icehe.me" target="_blank" class="icon-email" title="Email Me"></a>
-        
-    </div>
-    
-    
-
-    <p class="copyright">
-        Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2016
-        
-        <a href="/about" target="_blank" title="IceHe何志远">IceHe何志远</a>
-        
-    </p>
-</div>
-
-</footer>
+<!-- Container Begin -->
 
 
-<!-- JavaScript Resource -->
 
+
+
+<!-- JavaScript Resource Begin -->
 <script id="jQueryLink" src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
 <script type="text/javascript">
     window.jQuery || document.write('<script src="/js/jquery-2.0.3.min.js"><\/script>');
@@ -583,15 +550,60 @@ var duoshuoQuery = {short_name:"icehe"};
 <script src="http://7vzp67.com1.z0.glb.clouddn.com/js/gallery.js"></script>
 <script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.imagesloaded.min.js"></script>
 <script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.qrcode-0.12.0.min.js"></script>
-
 <!--<script src="/js/jquery-2.0.3.min.js"></script>-->
 <!--<script src="/js/jquery.imagesloaded.min.js"></script>-->
 <!--<script src="/js/gallery.js"></script>-->
 <!--<script src="/js/jquery.qrcode-0.12.0.min.js"></script>-->
+<!-- JavaScript Resource End -->
 
 
-<!-- For Responsive Design -->
+<!-- For Post Begin -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        var ai = $('.article-content>iframe'),
+                ae = $('.article-content>embed'),
+                t  = $('#toc'),
+                ta = $('#toc.toc-aside'),
+                o  = $('.openaside'),
+                c  = $('.closeaside');
+        if(ai.length>0){
+            ai.wrap('<div class="video-container" />');
+        };
+        if(ae.length>0){
+            ae.wrap('<div class="video-container" />');
+        };
+        c.click(function(){
+            ta.css('display', 'block').addClass('fadeIn');
+        });
+        o.click(function(){
+            ta.css('display', 'none');
+        });
+        $(window).scroll(function(){
+            ta.css("top",Math.max(140,320-$(this).scrollTop()));
+        });
+    });
+</script>
+<!-- For Post End -->
 
+
+<!-- For Like Button Begin -->
+<script type="text/javascript">
+    /* Click Duoshuo 'Like' button automatically */
+    $(window).load(function() {
+        var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
+        if (1 == ds_like_button.length
+                && "none" != document.getElementsByClassName('ds-meta')[0].style.display
+                && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
+        ) {
+            ds_like_button[0].click();
+            document.getElementsByClassName('ds-like-tooltip-close')[0].click();
+            window.location.href = '#';
+        }
+    });
+</script>
+<!-- For Like Button End -->
+
+<!-- For Responsive Design Begin -->
 <script type="text/javascript">
     $(document).ready(function(){
         $('.navbar').click(function(){
@@ -641,44 +653,12 @@ var duoshuoQuery = {short_name:"icehe"};
         });
     });
 </script>
-
-
-<!-- For Post -->
-
-<script type="text/javascript">
-    $(document).ready(function(){
-        var ai = $('.article-content>iframe'),
-                ae = $('.article-content>embed'),
-                t  = $('#toc'),
-                ta = $('#toc.toc-aside'),
-                o  = $('.openaside'),
-                c  = $('.closeaside');
-        if(ai.length>0){
-            ai.wrap('<div class="video-container" />');
-        };
-        if(ae.length>0){
-            ae.wrap('<div class="video-container" />');
-        };
-        c.click(function(){
-            ta.css('display', 'block').addClass('fadeIn');
-        });
-        o.click(function(){
-            ta.css('display', 'none');
-        });
-        $(window).scroll(function(){
-            ta.css("top",Math.max(140,320-$(this).scrollTop()));
-        });
-    });
-</script>
+<!-- For Responsive Design End -->
 
 
 
-<!-- For Tags & Uategories-->
 
-
-
-<!-- Share -->
-
+<!-- Share Begin -->
 <script type="text/javascript">
     $(document).ready(function(){
         var $this = $('.share'),
@@ -737,17 +717,26 @@ var duoshuoQuery = {short_name:"icehe"};
         });
     });
 </script>
+<!-- Share End -->
 
 
 
-<!-- Fancybox -->
+<!-- Totop Begin -->
+<div id="totop">
+    <a title="Back to Top">
+        <img src="//7vzp68.com1.z0.glb.clouddn.com/common/scrollup.png"/>
+    </a>
+</div>
+<script src="/js/totop.js"></script>
+<!-- Totop End -->
 
+
+
+<!-- Fancybox Begin -->
 <link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.css" media="screen" type="text/css">
 <script src="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.pack.js"></script>
-
 <!--<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">-->
 <!--<script src="/fancybox/jquery.fancybox.pack.js"></script>-->
-
 <script type="text/javascript">
     $(document).ready(function(){
         $('.article-content').each(function(i){
@@ -768,78 +757,38 @@ var duoshuoQuery = {short_name:"icehe"};
         }
     });
 </script>
+<!-- Fancybox End -->
 
 
-
-<!-- Analytics -->
-
+<!-- Analytics Begin -->
 <div style="display: none;">
     <script type="text/javascript">
-        if(isOnGithub){
-            
-            /* Google Analytics */
+    
+        /* Google Analytics */
 
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-60837823-1', 'auto');
-            ga('send', 'pageview');
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-60837823-1', 'auto');
+        ga('send', 'pageview');
         
-            
-            /* Baidu Statistics */
+        
+        /* Baidu Statistics */
 
-            var _hmt = _hmt || [];
-            (function() {
-                var hm = document.createElement("script");
-                hm.src = "//hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
-                var s = document.getElementsByTagName("script")[0];
-                s.parentNode.insertBefore(hm, s);
-            })();
-        }
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    
     </script>
 </div>
+<!-- Analytics End -->
 
-
-
-<!-- MathJax -->
-
-
-
-<!-- Totop -->
-
-<div id="totop">
-    <a title="Back to Top">
-        <img src="//7vzp68.com1.z0.glb.clouddn.com/common/scrollup.png"/>
-    </a>
-</div>
-<script src="/js/totop.js"></script>
-
-
-
-<!-- Duoshuo -->
-
-<script type="text/javascript">
-    $(window).load(function() {
-
-        /* Click Duoshuo 'Like' button automatically */
-
-        var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
-
-        if (1 == ds_like_button.length
-                && "none" != document.getElementsByClassName('ds-meta')[0].style.display
-                && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
-        ) {
-            ds_like_button[0].click();
-            document.getElementsByClassName('ds-like-tooltip-close')[0].click();
-            window.location.href = '#';
-        }
-    });
-</script>
-
-
-<!-- Lean Cloud -->
-
+<!-- Lean Cloud Begin -->
 <script src="https://leancloud.cn/scripts/lib/av-0.5.0.min.js"></script>
 <script type="text/javascript">
 
@@ -850,56 +799,56 @@ var duoshuoQuery = {short_name:"icehe"};
             "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5" // 应用 key
     );
 
-    function addCount (Counter) {
+    function addCount(Counter) {
         url = $('.article-url').attr('href').trim();
         title = $('.article-title').text().trim();
         var query = new AV.Query(Counter);
 
         query.equalTo("url",url); // use url as unique idnetfication
         query.find({
-            success: function(results){
-                if(results.length>0){
+            success: function(results) {
+                if (results.length>0) {
                     var counter = results[0];
                     counter.fetchWhenSave(true); //get recent result
                     counter.increment("time");
                     counter.save();
-                }else{
+                } else {
                     var newcounter = new Counter();
                     newcounter.set("title", title);
                     newcounter.set("url", url);
                     newcounter.set("time", 1);
                     newcounter.save(null, {
-                        success: function(newcounter){
+                        success: function(newcounter) {
                             //alert('New object created');
                         },
-                        error: function(newcounter,error){
+                        error: function(newcounter,error) {
                             //alert('Failed to create');
                         }
                     });
                 }
             },
-            error: function(error){ // find null is not a error
+            error: function(error) { // find null is not a error
                 // alert('Error:' + error.code + " " + error.message);
             }
         });
     }
 
-    $(function(){
+    $(function() {
         var Counter = AV.Object.extend("Counter");
         // only increse visit counting when intering a page
-        if(isOnGithub && 1 == $('.article-title').length) {
+        if (1 == $('.article-title').length) {
             addCount(Counter);
         }
 
         // if popularlist widget exists, add item to it.
         var popular_list = $('.popularlist');
-        if(1 == popular_list.length){
+        if (1 == popular_list.length) {
             var query = new AV.Query(Counter);
             query.descending("time");
             query.limit(15);
             query.find({
-                success: function(results){
-                    for(var i = 0; i < results.length; ++i){
+                success: function(results) {
+                    for(var i = 0; i < results.length; ++i) {
                         var counter = results[i];
                         title = counter.get("title");
                         url = counter.get("url");
@@ -917,7 +866,7 @@ var duoshuoQuery = {short_name:"icehe"};
                         );
                     }
                 },
-                error: function(error){
+                error: function(error) {
                     //alert("Error:" + error.code + " " + error.message);
                 }
             });
@@ -925,13 +874,13 @@ var duoshuoQuery = {short_name:"icehe"};
 
         // if cur page is a post, set the post pageview.
         var article_info = $(".article-info");
-        if(1 == article_info.length){
+        if (1 == article_info.length) {
             var query = new AV.Query(Counter);
             query.equalTo("url", article_info.find(".article-title a").attr("href"));
             query.limit(1);
             query.find({
-                success: function(results){
-                    if(1 == results.length){
+                success: function(results) {
+                    if (1 == results.length) {
                         var counter = results[0];
                         title = counter.get("title");
                         url = counter.get("url");
@@ -940,7 +889,7 @@ var duoshuoQuery = {short_name:"icehe"};
                         article_info.find(".article-readtimes .readtimes").text(time);
                     }
                 },
-                error: function(error){
+                error: function(error) {
                     article_info.find(".article-readtimes .readtimes").text("?");
                     //alert("Error:" + error.code + " " + error.message);
                 }
@@ -949,15 +898,15 @@ var duoshuoQuery = {short_name:"icehe"};
 
         // if cur page is Home, set the post_list's pageviews.
         var post_list = $("#main[class!=post]");
-        if(0 != post_list.length){
+        if (0 != post_list.length) {
             var post_items = post_list.find(".post a");
-            for(var i = 0; i < post_items.length; ++i){
+            for (var i = 0; i < post_items.length; ++i) {
                 var url = post_items.eq(i).attr("href");
                 query.equalTo("url", url);
                 query.limit(1);
                 query.find({
-                    success: function(results){
-                        if(1 == results.length){
+                    success: function(results) {
+                        if (1 == results.length) {
                             var counter = results[0];
                             title = counter.get("title");
                             url = counter.get("url");
@@ -966,7 +915,7 @@ var duoshuoQuery = {short_name:"icehe"};
                             $(".post a[href='" + url + "']").find('.readtimes').text(time);
                         }
                     },
-                    error: function(error){
+                    error: function(error) {
                         //alert("Error:" + error.code + " " + error.message);
                     }
                 });
@@ -974,10 +923,11 @@ var duoshuoQuery = {short_name:"icehe"};
         }
     });
 </script>
+<!-- Lean Cloud End -->
+
 
 
 <!-- 不蒜子 -->
-
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 

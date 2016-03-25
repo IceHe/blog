@@ -55,11 +55,6 @@
 
 <header>
     
-<script type="text/javascript">
-    // 判断现在个人站是在哪一个网址上！
-    var isOnGithub = (-1 != location.href.indexOf("icehe.me"));
-</script>
-
 <div>
     
     <div id="imglogo">
@@ -104,14 +99,19 @@
 
 </header>
 
+<!-- Container Begin -->
 <div id="container">
-    <div id="main" class="post" itemscope itemprop="blogPost">
 
-    <article itemprop="articleBody">
-        <header class="article-info clearfix">
+<div id="main" class="post" itemscope itemprop="blogPost">
+
+<article itemprop="articleBody">
+
+<header class="article-info clearfix">
+
     <h1 itemprop="name" class="article-title">
     
         <a href="/asm/Assembly Language - Note 15/" title="Assembly Language 汇编语言 - Note 15" itemprop="url" class="article-url">Assembly Language 汇编语言 - Note 15</a>
+    
     </h1>
 
     <p class="article-author hidden"> By
@@ -121,7 +121,9 @@
     </p>
 
     <p class="article-readtimes">
+
         <time datetime="2015-02-15T16:00:00.000Z" itemprop="datePublished">2015-02-16</time>&nbsp; / &nbsp;<span class="readtimes">?</span> views
+
     </p>
 
     <!--<p class="article-time">-->
@@ -130,16 +132,18 @@
 
 </header>
 
-        <div class="article-content">
-            
-            
+<div class="article-content">
+    
+    
 <ul><li><em>Created on 2014-11</em></li></ul><br>
 
 <div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>教材：《汇编语言》（第二版）王爽 著 清华大学出版社</div><div><br></div><div><br></div><b>附注1 <u>Intel</u>系列<u>微处理器</u>的<u>3种工作模式</u></b><div><b><br></b></div><div>重要版本8086/8088、80386。</div><div><br></div><div>80386具备了80286对多任务系统的支持，</div><div>又对8086/8088兼容。</div><div><br></div><div>它可以在以下3个模式下工作：</div><div>（1）<b>实模式</b>：工作方式相当于一个8086</div><div>（2）<b>保护</b>模式：提供支持多任务环境的工作方式，</div><div>&nbsp; &nbsp; &nbsp;建立爆出机制（这与VAX等小型机类似）。</div><div>（3）<b>模拟8086</b>模式：可从保护模式切换至其中的一种8086工作方式。</div><div>&nbsp; &nbsp; &nbsp;这种方式的提供使用户可以方便地在保护模式下运行一个或多个原8086程序。</div><div><br></div><div>PC<b>一开机</b>，处于<b>实模式</b>。<b>DOS</b>处于实模式。</div><div><b>Windows</b>系统在加载后，会将CPU切换到<b>保护模式</b>。</div><div>在<b>Windows下</b>运行一个<b>DOS</b>下的<b>程序</b>，CPU切换至</div><div><b>模拟8086</b>模式下运行该程序。</div><div><br></div><div><br></div><div><br></div><div><b>附注2 补码</b></div><div><br></div><div>特别注意点：1000 0000b = -128</div><div><br></div><div><br></div><div><br></div><div><b>附注3 <u>汇编编译</u>器（masm.exe）对<u>jmp的相关处理</u></b></div><div><br></div><div>1. 向前转移</div><div>先读到标号，后读到jmp指令</div><div>s: &nbsp; &nbsp; ...</div><div>&nbsp; &nbsp; &nbsp; &nbsp;...</div><div>&nbsp; &nbsp; &nbsp;jmp s（jmp short s / jmp near ptr s / jmp far ptr s）</div><div><br></div><div><b>编译器</b>中<b>有</b>一个<b>地址计数器（AC）</b>，</div><div>编译过程中，每读到一字节，AC+=1。</div><div>当编译器遇到一些伪操作时，如db / dw等，</div><div>会根据实际情况使AC增加。</div><div><br></div><div>向前转移时，complier读到 <b>标号s</b> 后，</div><div>记下此时<b>AC的值</b>为 <b>as</b>（annotation start？），</div><div>在读到 <b>jmp &nbsp;... s</b> 后，记下此时AC的值为 <b>aj</b>（annotation jmp？）。</div><div>那么可以通过 <b>as - aj</b>&nbsp;算出<b>位移值 disp</b>。</div><div><br></div><div>（1）若<b>disp</b>属于<b>[-128, 127]</b>，这不管汇编指令格式是：</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; jmp s / jmp short s / jmp near ptr s / jmp far ptr s</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>都</b>会转变<b>为 jmp short s</b> 所对应的<b>机器码：</b></div><div><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EB disp</b>（占 2 Bytes）；</div><div><br></div><div>（2）若disp属于<b>[-32768, 32767]</b>，则：</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对于 <b>jmp short</b> 将产生编译<b>错误</b>；</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对于 <b>jmp s、jmp near ptr s</b>，</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;将产生<b>jmp near ptr s</b> 所对应的<b>机器码：</b></div><div><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;E9 disp</b>（占 3 Bytes）；</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对于 <b>jmp far ptr s</b>，将产生对应的机器码：</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>EA 偏移地址 段地址</b>（占 5 Bytes）。</div><div><br></div><div><br></div><div>2.向后转移：</div><div>先读到jmp指令，后读到标号</div><div>&nbsp; &nbsp; &nbsp;jmp s（jmp short s / jmp near ptr s / jmp far ptr s）</div><div>&nbsp; &nbsp; &nbsp; &nbsp;...</div><div>s: &nbsp; &nbsp; ...</div><div><br></div><div>在此情况下，complier先读到 jmp ... s 指令，</div><div>由于还没读到 标号s，所以不能确定 其位置的AC值，</div><div>即不能确定 disp 值。</div><div><br></div><div>此时，complier将 jmp ... s 都当作 jmp short s 来读取，</div><div>记下jmp指令的位置和AC的值作为 aj（annotation jmp？），</div><div>并作以下处理：</div><div><br></div><div>a. 对于 jmp <b>short</b> s，complier生成&nbsp;<b>EB</b> 和 <b>一个</b> <b>nop</b> 指令，</div><div>&nbsp; &nbsp; &nbsp;即用 nop <b>预留 1 Byte&nbsp;</b>空间，存放 <b>8 bits</b> 的<b>disp</b>。</div><div><br></div><div>b. 对于 <b>jmp s</b> 和 jmp <b>near ptr</b> s，生成&nbsp;<b>E9&nbsp;</b>和 <b>两个 nop</b> 指令，</div><div>&nbsp; &nbsp; &nbsp;即&nbsp;预留 <b>2</b> Bytes，放 <b>16</b> bits 的disp。</div><div><br></div><div>c. 对于 jmp <b>far ptr</b> s， 生成 <b>EA</b>&nbsp;和 <b>四个</b> nop 指令，</div><div>&nbsp; &nbsp; &nbsp;即 预留 <b>4 Bytes</b>，放&nbsp;<b>段地址</b> 和&nbsp;<b>段地址</b>。</div><div><br></div><div>以上处理完后，当向后读到 标号s 时，</div><div>记下此时AC的值作为 as（annotation start？），</div><div>并计算出转移的位移量：<b>disp = as - aj</b>（公式与向前转移相同）。</div><div><br></div><div>（1）若<b>disp</b>属于<b>[-128, 127]</b>，这不管汇编指令格式是：</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; jmp s / jmp short s / jmp near ptr s / jmp far ptr s</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>都</b>在前面记下的 jmp ... s 指令位置处添上</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;jmp short s对应的机器码：<b>EB disp</b></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *注意：此时，对于&nbsp;jmp s 和 jmp near ptr s 格式，</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;在机器码 EB disp 后还有 1 条 nop 指令（空着）；</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;对于jmp far ptr s，在机器码EB disp后还有3条nop指令（空着）。</div><div><br></div><div>（2）若disp属于<b>[-32768, 32767]</b>，则：</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对于&nbsp;<b>jmp short</b>&nbsp;将产生编译<b>错误</b>；</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对于&nbsp;<b>jmp s、jmp near ptr s</b>，</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;在前面记下的 jmp ... s 指令位置处添上</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;jmp near ptr s对应的机器码：<b>E9 disp</b>（占 3 Bytes）；</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对于&nbsp;<b>jmp far ptr s</b>，在前面记下的 jmp ... s 指令位置处添上</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>EA 偏移地址 段地址</b>（占 5 Bytes）。</div><div><br></div><div><br></div><div><br></div><div><b>附注4 用栈传递参数</b></div><div><br></div><div>此技术和高级语言编译器的工作原理密切相关，</div><div>结合C语言的函数调用来描述。</div><div><br></div><div>栈传递参数原理：</div><div>由调用者将需要传递给子程序的参数压入栈中，</div><div>子程序从栈中去取得参数。</div><div><br></div><div>（例）</div><div>;说明：计算(a-b)^3，a、b为字型数据</div><div>;参数：进入子程序时，栈顶存放IP，后面依次存放a、b</div><div>;结果：<b>(dx:ax)=(a-b)^3</b></div><div>dif_cube:</div><div><b>&nbsp; &nbsp; &nbsp;push bp</b></div><div>&nbsp; &nbsp; &nbsp;mov bp, sp</div><div><b>&nbsp; &nbsp; &nbsp;mov ax, [bp + 4] &nbsp; &nbsp; ;后入栈的是a</b></div><div><b>&nbsp; &nbsp; &nbsp;sub ax, [bp + 6] &nbsp; &nbsp; ;先入栈的是b</b></div><div>&nbsp; &nbsp; &nbsp;mov bp, ax</div><div>&nbsp; &nbsp; &nbsp;mul bp</div><div>&nbsp; &nbsp; &nbsp;mul bp</div><div>&nbsp; &nbsp; &nbsp;pop bp</div><div>&nbsp; &nbsp; &nbsp;ret 4</div><div><br></div><div>一个子程序结尾有：<b>ret n</b></div><div>n为整数，意思是，将<b>栈顶</b>指针修<b>改为调用前的值</b>。</div><div><b>ret n</b> 功能等于&nbsp;<b>pop ip &nbsp; &nbsp;&nbsp;add sp, n</b></div><div><br></div><div>调用dif_cube程序的代码如下：</div><div>mov ax, 1 &nbsp; &nbsp; ;b</div><div>push ax</div><div>mov ax, 3 &nbsp; &nbsp; ;a</div><div>push ax</div><div>call diff_cube &nbsp; &nbsp; ;注意参数压栈的顺序</div><div><br></div><div><br></div><div>1.语句call diff_cube后，栈的情况： &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;IP &nbsp; &nbsp; &nbsp;a &nbsp; &nbsp; &nbsp; &nbsp;b</div><div>1000:0000 &nbsp; &nbsp; 00 00&nbsp;00 00&nbsp;00 00&nbsp;00 00 |&nbsp;00 00 XX XX 03 00 01 00</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>↑ ss:sp</b></div><div>2.dif_cube执行第1句push bp后：&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;bp &nbsp; &nbsp; &nbsp;IP &nbsp; &nbsp; &nbsp; a &nbsp; &nbsp; &nbsp; b</div><div>1000:0000 &nbsp; &nbsp; 00 00&nbsp;00 00&nbsp;00 00&nbsp;00 00 | ZZ ZZ XX XX 03 00 01 00</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>↑ ss:sp</b></div><div>3.所以，dif_cube 子程序以下语句中的 <b>[bp + 4]指 a</b>，<b>[bp + 6]指 b</b>。</div><div>mov ax, [bp + 4] &nbsp; &nbsp; ;后入栈的是a</div><div>sub ax, [bp + 6] &nbsp; &nbsp; ;先入栈的是b</div><div><br></div><div><br></div><div>利用<b>C程序，</b>了解<b>栈</b>在<b>参数传递</b>中的应用：</div><div>*.注意：在<b>C</b>语言中，<b>局部变量</b>也在<b>栈中存储</b>。</div><div><br></div><div>void add(int, int, int);</div><div>main(){</div><div>&nbsp; &nbsp; &nbsp;int a = 1;</div><div>&nbsp; &nbsp; &nbsp;int b = 2;</div><div>&nbsp; &nbsp; &nbsp;int c = 0;</div><div>&nbsp; &nbsp; &nbsp;add(a, b, c);</div><div>&nbsp; &nbsp; &nbsp;c++;</div><div>}</div><div>void add(int a, int b, int c){</div><div>&nbsp; &nbsp; &nbsp;c = a + b;</div><div>}</div><div><br></div><div>编译后的汇编程序：</div><div><br></div><div>mov bp, sp &nbsp; &nbsp; ;bp = 原栈顶位置 sp</div><div><b>sub sp, 6</b> &nbsp; &nbsp; <b>;栈顶sp - 6，留出空间存放数据段？</b></div><div><br></div><div>mov word ptr [bp - 6], 0001 &nbsp; &nbsp; ;int a</div><div>mov word ptr [bp - 4], 0002 &nbsp; &nbsp; ;int b</div><div>mov word ptr [bp - 2], 0000 &nbsp; &nbsp; ;int c</div><div><br></div><div>push [bp - 2] &nbsp; &nbsp; ;push c</div><div>push [bp - 4] &nbsp; &nbsp; ;push b</div><div>push [bp - 6] &nbsp; &nbsp; ;push a</div><div>call ADDR</div><div><br></div><div><b>add sp, 6 &nbsp; &nbsp; ;sp恢复回原栈顶top的位置？</b></div><div>inc word ptr [bp - 2]</div><div><br></div><div>ADDR:</div><div>&nbsp; &nbsp; &nbsp;push bp</div><div><br></div><div>&nbsp; &nbsp; &nbsp;mov bp, sp &nbsp; &nbsp; ;这里的bp = 新栈顶位置 sp</div><div>&nbsp; &nbsp; &nbsp;mov ax, [bp + 4] &nbsp; &nbsp; ;b</div><div>&nbsp; &nbsp; &nbsp;add ax, [bp + 6] &nbsp; &nbsp; ;a? &nbsp; &nbsp;<b>（有点蒙？这里我画图理解，放的应该是c？淡忘之后再分析一次）</b></div><div>&nbsp; &nbsp; &nbsp;mov [bp + 8], ax</div><div>&nbsp; &nbsp; &nbsp;mov sp, bp</div><div>&nbsp; &nbsp; &nbsp;</div><div>&nbsp; &nbsp; &nbsp;;栈的情况：a b c | a b c</div><div>&nbsp; &nbsp; &nbsp;; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;↑top=bp</div><div>&nbsp; &nbsp; &nbsp;;左边abc是压入的参数，右边abc是其源</div><div><br></div><div>&nbsp; &nbsp; &nbsp;pop bp</div><div>&nbsp; &nbsp; &nbsp;ret</div><div><br></div><div><br></div><div><br></div><div><b>附注5 （</b><b>无溢出除法</b><b>）公式证明</b></div><div><br></div><div><b>无溢出除法</b>公式：</div><div><br></div><div>H：x的高16位</div><div>L：x的低16位</div><div>int()：取商</div><div>rem()：取余</div><div><br></div><div>H = int( x / 65536) &nbsp; &nbsp; ; 即 H = x / 0FFFFH</div><div>L = rem( x / 65536) &nbsp; &nbsp; ; 即 L = x % 0FFFFH</div><div><b><br></b></div><div><b>X / n = int(H / n) * 65536 + [rem(H / n) * 65536 + L] / n</b></div><div><b><br></b></div><div>&nbsp; &nbsp; &nbsp;;乘以65536，等于左移16位</div><div>&nbsp; &nbsp; &nbsp;;1.被除数x的高16位，除以除数n得到，x/n的商的高16位；</div><div>&nbsp; &nbsp; &nbsp;;2.被除数x的高16位，除以除数n得到的余， 加上被除数x的低16位，</div><div>&nbsp; &nbsp; &nbsp;; &nbsp; 除以除数n得到，x/n的商的低16位。</div><div><br></div><div><br></div><div><b>综合研究</b></div><div>（因为寻找适用的tc.exe无果，此部分暂且放弃）</div><div>研究实验1 <b>搭建一个精简的C语言开发环境</b></div><div>研究实验2 <b>使用寄存器</b></div><div>研究实验3&nbsp;<b>使用内存空间</b></div><div>研究实验4&nbsp;<b>不用main函数编程</b></div><div>研究实验5&nbsp;<b>函数如何接收</b></div></div>
 
-        </div>
-        <footer class="article-footer clearfix">
-    <div class="article-catetags">
+</div>
+
+<footer class="article-footer clearfix">
+
+<div class="article-catetags">
     
     <div class="article-categories">
         <span></span>
@@ -154,19 +158,17 @@
     
 </div>
 
-    
-    <div class="article-share" id="share">
-        
-        <div data-url="http://icehe.me/asm/Assembly Language - Note 15/" data-title="Assembly Language 汇编语言 - Note 15 | Ice He 何志远" data-tsina="2181657940" class="share clearfix">
-        </div>
-        
+
+<div class="article-share" id="share">
+    <div data-url="http://icehe.me/asm/Assembly Language - Note 15/" data-title="Assembly Language 汇编语言 - Note 15 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
     </div>
-    
-    
+</div>
+
+
 </footer>
 
-    </article>
-    
+</article>
+
 <nav class="article-nav clearfix">
     
     <div class="prev" >
@@ -193,7 +195,8 @@
 </nav>
 
 
-    <!-- Comments Begin -->
+
+<!-- Comments Begin -->
 <section id="comments" class="comment">
     <div class="ds-thread" data-thread-key="asm/Assembly Language - Note 15/" data-title="Assembly Language 汇编语言 - Note 15" data-url="http://icehe.me/asm/Assembly Language - Note 15/"></div>
 </section>
@@ -209,12 +212,14 @@ var duoshuoQuery = {short_name:"icehe"};
     || document.getElementsByTagName('body')[0]).appendChild(ds);
 })();
 </script>
-
 <!-- Comments End -->
+
 
 </div>  
 
-    <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
+<!-- Sidebar Begin -->
+
+<div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
 
 
 <script type="text/javascript">
@@ -294,7 +299,7 @@ var duoshuoQuery = {short_name:"icehe"};
 
 <p class="asidetitle" style="display: none;">Donate 打赏</p>
 
-<!-- CSS Begin -->
+<!-- Donate CSS Begin -->
 <style type="text/css">
     .donate_bar a.btn_donate{
         margin-top: 0.8em;
@@ -316,19 +321,18 @@ var duoshuoQuery = {short_name:"icehe"};
         color: #9d9d9d;
         font: 14px/2 "Microsoft Yahei";
     }
-    .bold{ font-weight: bold; }
+    .bold { font-weight: bold; }
 </style>
-<!-- CSS End -->
+<!-- Donate CSS End -->
 
-<!-- Btn_donate & tips Begin -->
+<!-- Donate Begin -->
 <div id="donate_board_wdg" class="donate_bar center">
     <a id="btn_donate_wdg" class="btn_donate" href="/reward" title="Reward 打赏" target="_top"></a>
-    <span class="donate_txt" style="font-size: 80%; display:none;">
-        <span style="font-weight: bold;">求打赏 ! </span>
-        Reward me ~
+    <span class="donate_txt copyright" style="font-size: 80%; font-weight: bold;">
+        &copy; 2016 Ice He All Rights Reserved.
     </span>
 </div>
-<!-- Btn_donate & tips End -->
+<!-- Donate End -->
 
 <!-- Donate Module End -->
 
@@ -336,54 +340,17 @@ var duoshuoQuery = {short_name:"icehe"};
 
 </div>
 
+<!-- Sidebar End -->
+
+
 </div>
-
-<footer>
-    <div id="footer" >
-    
-    <div class="line">
-        <span></span>
-        <div class="author"></div>
-    </div>
-    
-    
-    <div class="social-font" class="clearfix">
-        
-        <a href="https://github.com/IceHe" target="_blank" class="icon-github" title="github"></a>
-        
-        
-        <a href="http://weibo.com/icedes" target="_blank" class="icon-weibo" title="微博"></a>
-        
-        
-        
-        
-        
-        
-        
-        <a href="https://www.douban.com/people/IceHeGZ" target="_blank" class="icon-douban" title="豆瓣"></a>
-        
-        
-        
-        
-        <a href="mailto:x@icehe.me" target="_blank" class="icon-email" title="Email Me"></a>
-        
-    </div>
-    
-    
-
-    <p class="copyright">
-        Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2016
-        
-        <a href="/about" target="_blank" title="IceHe何志远">IceHe何志远</a>
-        
-    </p>
-</div>
-
-</footer>
+<!-- Container Begin -->
 
 
-<!-- JavaScript Resource -->
 
+
+
+<!-- JavaScript Resource Begin -->
 <script id="jQueryLink" src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
 <script type="text/javascript">
     window.jQuery || document.write('<script src="/js/jquery-2.0.3.min.js"><\/script>');
@@ -391,15 +358,60 @@ var duoshuoQuery = {short_name:"icehe"};
 <script src="http://7vzp67.com1.z0.glb.clouddn.com/js/gallery.js"></script>
 <script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.imagesloaded.min.js"></script>
 <script src="http://7vzp67.com1.z0.glb.clouddn.com/js/jquery.qrcode-0.12.0.min.js"></script>
-
 <!--<script src="/js/jquery-2.0.3.min.js"></script>-->
 <!--<script src="/js/jquery.imagesloaded.min.js"></script>-->
 <!--<script src="/js/gallery.js"></script>-->
 <!--<script src="/js/jquery.qrcode-0.12.0.min.js"></script>-->
+<!-- JavaScript Resource End -->
 
 
-<!-- For Responsive Design -->
+<!-- For Post Begin -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        var ai = $('.article-content>iframe'),
+                ae = $('.article-content>embed'),
+                t  = $('#toc'),
+                ta = $('#toc.toc-aside'),
+                o  = $('.openaside'),
+                c  = $('.closeaside');
+        if(ai.length>0){
+            ai.wrap('<div class="video-container" />');
+        };
+        if(ae.length>0){
+            ae.wrap('<div class="video-container" />');
+        };
+        c.click(function(){
+            ta.css('display', 'block').addClass('fadeIn');
+        });
+        o.click(function(){
+            ta.css('display', 'none');
+        });
+        $(window).scroll(function(){
+            ta.css("top",Math.max(140,320-$(this).scrollTop()));
+        });
+    });
+</script>
+<!-- For Post End -->
 
+
+<!-- For Like Button Begin -->
+<script type="text/javascript">
+    /* Click Duoshuo 'Like' button automatically */
+    $(window).load(function() {
+        var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
+        if (1 == ds_like_button.length
+                && "none" != document.getElementsByClassName('ds-meta')[0].style.display
+                && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
+        ) {
+            ds_like_button[0].click();
+            document.getElementsByClassName('ds-like-tooltip-close')[0].click();
+            window.location.href = '#';
+        }
+    });
+</script>
+<!-- For Like Button End -->
+
+<!-- For Responsive Design Begin -->
 <script type="text/javascript">
     $(document).ready(function(){
         $('.navbar').click(function(){
@@ -449,44 +461,12 @@ var duoshuoQuery = {short_name:"icehe"};
         });
     });
 </script>
-
-
-<!-- For Post -->
-
-<script type="text/javascript">
-    $(document).ready(function(){
-        var ai = $('.article-content>iframe'),
-                ae = $('.article-content>embed'),
-                t  = $('#toc'),
-                ta = $('#toc.toc-aside'),
-                o  = $('.openaside'),
-                c  = $('.closeaside');
-        if(ai.length>0){
-            ai.wrap('<div class="video-container" />');
-        };
-        if(ae.length>0){
-            ae.wrap('<div class="video-container" />');
-        };
-        c.click(function(){
-            ta.css('display', 'block').addClass('fadeIn');
-        });
-        o.click(function(){
-            ta.css('display', 'none');
-        });
-        $(window).scroll(function(){
-            ta.css("top",Math.max(140,320-$(this).scrollTop()));
-        });
-    });
-</script>
+<!-- For Responsive Design End -->
 
 
 
-<!-- For Tags & Uategories-->
 
-
-
-<!-- Share -->
-
+<!-- Share Begin -->
 <script type="text/javascript">
     $(document).ready(function(){
         var $this = $('.share'),
@@ -545,17 +525,26 @@ var duoshuoQuery = {short_name:"icehe"};
         });
     });
 </script>
+<!-- Share End -->
 
 
 
-<!-- Fancybox -->
+<!-- Totop Begin -->
+<div id="totop">
+    <a title="Back to Top">
+        <img src="//7vzp68.com1.z0.glb.clouddn.com/common/scrollup.png"/>
+    </a>
+</div>
+<script src="/js/totop.js"></script>
+<!-- Totop End -->
 
+
+
+<!-- Fancybox Begin -->
 <link rel="stylesheet" href="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.css" media="screen" type="text/css">
 <script src="http://7vzp67.com1.z0.glb.clouddn.com/fancybox/jquery.fancybox.pack.js"></script>
-
 <!--<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">-->
 <!--<script src="/fancybox/jquery.fancybox.pack.js"></script>-->
-
 <script type="text/javascript">
     $(document).ready(function(){
         $('.article-content').each(function(i){
@@ -576,78 +565,38 @@ var duoshuoQuery = {short_name:"icehe"};
         }
     });
 </script>
+<!-- Fancybox End -->
 
 
-
-<!-- Analytics -->
-
+<!-- Analytics Begin -->
 <div style="display: none;">
     <script type="text/javascript">
-        if(isOnGithub){
-            
-            /* Google Analytics */
+    
+        /* Google Analytics */
 
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-60837823-1', 'auto');
-            ga('send', 'pageview');
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-60837823-1', 'auto');
+        ga('send', 'pageview');
         
-            
-            /* Baidu Statistics */
+        
+        /* Baidu Statistics */
 
-            var _hmt = _hmt || [];
-            (function() {
-                var hm = document.createElement("script");
-                hm.src = "//hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
-                var s = document.getElementsByTagName("script")[0];
-                s.parentNode.insertBefore(hm, s);
-            })();
-        }
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    
     </script>
 </div>
+<!-- Analytics End -->
 
-
-
-<!-- MathJax -->
-
-
-
-<!-- Totop -->
-
-<div id="totop">
-    <a title="Back to Top">
-        <img src="//7vzp68.com1.z0.glb.clouddn.com/common/scrollup.png"/>
-    </a>
-</div>
-<script src="/js/totop.js"></script>
-
-
-
-<!-- Duoshuo -->
-
-<script type="text/javascript">
-    $(window).load(function() {
-
-        /* Click Duoshuo 'Like' button automatically */
-
-        var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
-
-        if (1 == ds_like_button.length
-                && "none" != document.getElementsByClassName('ds-meta')[0].style.display
-                && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
-        ) {
-            ds_like_button[0].click();
-            document.getElementsByClassName('ds-like-tooltip-close')[0].click();
-            window.location.href = '#';
-        }
-    });
-</script>
-
-
-<!-- Lean Cloud -->
-
+<!-- Lean Cloud Begin -->
 <script src="https://leancloud.cn/scripts/lib/av-0.5.0.min.js"></script>
 <script type="text/javascript">
 
@@ -658,56 +607,56 @@ var duoshuoQuery = {short_name:"icehe"};
             "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5" // 应用 key
     );
 
-    function addCount (Counter) {
+    function addCount(Counter) {
         url = $('.article-url').attr('href').trim();
         title = $('.article-title').text().trim();
         var query = new AV.Query(Counter);
 
         query.equalTo("url",url); // use url as unique idnetfication
         query.find({
-            success: function(results){
-                if(results.length>0){
+            success: function(results) {
+                if (results.length>0) {
                     var counter = results[0];
                     counter.fetchWhenSave(true); //get recent result
                     counter.increment("time");
                     counter.save();
-                }else{
+                } else {
                     var newcounter = new Counter();
                     newcounter.set("title", title);
                     newcounter.set("url", url);
                     newcounter.set("time", 1);
                     newcounter.save(null, {
-                        success: function(newcounter){
+                        success: function(newcounter) {
                             //alert('New object created');
                         },
-                        error: function(newcounter,error){
+                        error: function(newcounter,error) {
                             //alert('Failed to create');
                         }
                     });
                 }
             },
-            error: function(error){ // find null is not a error
+            error: function(error) { // find null is not a error
                 // alert('Error:' + error.code + " " + error.message);
             }
         });
     }
 
-    $(function(){
+    $(function() {
         var Counter = AV.Object.extend("Counter");
         // only increse visit counting when intering a page
-        if(isOnGithub && 1 == $('.article-title').length) {
+        if (1 == $('.article-title').length) {
             addCount(Counter);
         }
 
         // if popularlist widget exists, add item to it.
         var popular_list = $('.popularlist');
-        if(1 == popular_list.length){
+        if (1 == popular_list.length) {
             var query = new AV.Query(Counter);
             query.descending("time");
             query.limit(15);
             query.find({
-                success: function(results){
-                    for(var i = 0; i < results.length; ++i){
+                success: function(results) {
+                    for(var i = 0; i < results.length; ++i) {
                         var counter = results[i];
                         title = counter.get("title");
                         url = counter.get("url");
@@ -725,7 +674,7 @@ var duoshuoQuery = {short_name:"icehe"};
                         );
                     }
                 },
-                error: function(error){
+                error: function(error) {
                     //alert("Error:" + error.code + " " + error.message);
                 }
             });
@@ -733,13 +682,13 @@ var duoshuoQuery = {short_name:"icehe"};
 
         // if cur page is a post, set the post pageview.
         var article_info = $(".article-info");
-        if(1 == article_info.length){
+        if (1 == article_info.length) {
             var query = new AV.Query(Counter);
             query.equalTo("url", article_info.find(".article-title a").attr("href"));
             query.limit(1);
             query.find({
-                success: function(results){
-                    if(1 == results.length){
+                success: function(results) {
+                    if (1 == results.length) {
                         var counter = results[0];
                         title = counter.get("title");
                         url = counter.get("url");
@@ -748,7 +697,7 @@ var duoshuoQuery = {short_name:"icehe"};
                         article_info.find(".article-readtimes .readtimes").text(time);
                     }
                 },
-                error: function(error){
+                error: function(error) {
                     article_info.find(".article-readtimes .readtimes").text("?");
                     //alert("Error:" + error.code + " " + error.message);
                 }
@@ -757,15 +706,15 @@ var duoshuoQuery = {short_name:"icehe"};
 
         // if cur page is Home, set the post_list's pageviews.
         var post_list = $("#main[class!=post]");
-        if(0 != post_list.length){
+        if (0 != post_list.length) {
             var post_items = post_list.find(".post a");
-            for(var i = 0; i < post_items.length; ++i){
+            for (var i = 0; i < post_items.length; ++i) {
                 var url = post_items.eq(i).attr("href");
                 query.equalTo("url", url);
                 query.limit(1);
                 query.find({
-                    success: function(results){
-                        if(1 == results.length){
+                    success: function(results) {
+                        if (1 == results.length) {
                             var counter = results[0];
                             title = counter.get("title");
                             url = counter.get("url");
@@ -774,7 +723,7 @@ var duoshuoQuery = {short_name:"icehe"};
                             $(".post a[href='" + url + "']").find('.readtimes').text(time);
                         }
                     },
-                    error: function(error){
+                    error: function(error) {
                         //alert("Error:" + error.code + " " + error.message);
                     }
                 });
@@ -782,10 +731,11 @@ var duoshuoQuery = {short_name:"icehe"};
         }
     });
 </script>
+<!-- Lean Cloud End -->
+
 
 
 <!-- 不蒜子 -->
-
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
