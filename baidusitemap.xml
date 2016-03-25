@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://icehe.me/cmd/git_note/</loc>
+    <lastmod>2016-03-25T13:00:40.000Z</lastmod>
+    <data>
+        <display>
+        <title>Git Note</title>
+        <pubTime>2016-02-14T16:00:00.000Z</pubTime>
+        
+        <tag>Command</tag>
+         
+         
+           
+             
+              <breadCrumb title="Command" url="http://icehe.me/categories/Command/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://icehe.me/mac_shortcuts/</loc>
     <lastmod>2016-03-25T12:45:31.000Z</lastmod>
     <data>
@@ -177,26 +197,6 @@
            
              
               <breadCrumb title="Web" url="http://icehe.me/categories/Web/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/cmd/git_note/</loc>
-    <lastmod>2016-03-25T12:17:02.000Z</lastmod>
-    <data>
-        <display>
-        <title>Git Note</title>
-        <pubTime>2016-02-14T16:00:00.000Z</pubTime>
-        
-        <tag>Command</tag>
-         
-         
-           
-             
-              <breadCrumb title="Command" url="http://icehe.me/categories/Command/"/>
           
         </display>
     </data>
