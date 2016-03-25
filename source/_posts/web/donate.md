@@ -1,4 +1,4 @@
-title: 实现博客网站的支付宝打赏功能
+title: 实现网站的支付宝打赏功能
 date: 2015-03-04
 categories: [Web]
 tags: [Web]

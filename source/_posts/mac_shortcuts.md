@@ -1,9 +1,9 @@
-title: My Mac Shortcuts 快捷键表
+title: My Mac Shortcuts 快捷键
 date: 2016-01-06
 categories: [Mac]
 tags: [Mac]
-description: 我的 OS X 快捷键列表索引。
----
+description: 我的 OS X 快捷键列表。
+---------------------------
 
 - _Updated on 2016-03-23_
 

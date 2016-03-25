@@ -1,4 +1,4 @@
-title: My Resume 简历 —— 何志远
+title: My Resume 何志远
 date: 2015-01-24
 categories: [whoami]
 tags: [whoami]

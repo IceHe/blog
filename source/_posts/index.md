@@ -13,7 +13,7 @@ description: 本博客的导航页。
 ---
 
 - [Me 我](/about/) &nbsp;/&nbsp; [Resume](/resume)<sup>简历</sup> <sup>me</sup>
-- [How to Reward Me! 怎么打赏博主~](/reward)
+- [Reward Me 打赏博主](/reward)
 
 ### [AppleScript](/categories/AppleScript)
 ---
@@ -31,7 +31,7 @@ description: 本博客的导航页。
 ---
 
 - [My Tools 利器](/tools) —— Mac 应用推荐 <sup>me</sup>
-- [My Mac Shortcuts 快捷键列表](/mac_shortcuts) <sup>me</sup>
+- [My Mac Shortcuts 快捷键](/mac_shortcuts) <sup>me</sup>
 
 ### [Think](/categories/think)
 ---
@@ -50,40 +50,40 @@ description: 本博客的导航页。
 ---
 
 - [Google CSE 站内搜索](/search)
-- [实现 博客网站的支付宝 打赏功能 —— Donate 打赏博主](/web/donate)
-- [Bulid Blog. 搭建个人博客](/web/build_blog/)
+- [实现网站的支付宝打赏功能](/web/donate)
+- [Bulid Blog 搭建个人博客](/web/build_blog/)
 - [404 Page](/404)
 
 ### [Time Mgt](/categories/time-mgt)
 ---
 
-- [Time Mgt. 我的时间管理日志](/think/time_mgt) <sup>me</sup>
+- [Time Mgt 时间管理日志](/think/time_mgt) <sup>me</sup>
 - [My Life Logs 手帐](/lifelogs) <sup>me</sup>
 
 ### [CentOS 7](/categories/CentOS)
 ---
 
-- [(00) U盘安装](/linux/[00] U盘安装 CentOS 7)
-- [(01) 恢复 Windows 的 开机引导](/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7)
-- [(02) Configure System Envir 配置系统环境](/linux/[02] Config System Envir 配置系统环境 - CentOS 7)
-- [(03) Update Kernel 升级内核](/linux/[03] Update Kernel 升级内核 - CentOS 7)
-- [(04) 安装后必做的 安全防范措施](/linux/[04] 安装 CentOS 7 后必做的 安全防范措施)
-- [(05) 自动挂载 NTFS 格式的 硬盘分区](/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7)
+- [U盘安装](/linux/[00] U盘安装 CentOS 7)
+- [恢复 Windows 的开机引导](/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7)
+- [配置系统环境](/linux/[02] Config System Envir 配置系统环境 - CentOS 7)
+- [升级内核](/linux/[03] Update Kernel 升级内核 - CentOS 7)
+- [安装后的安全防范措施](/linux/[04] 安装 CentOS 7 后必做的 安全防范措施)
+- [自动挂载 NTFS 格式的硬盘分区](/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7)
 
 ### [Batch](/categories/Batch)
 ---
 
-- [Batch Cmd 批处理指令](/batch/Batch 批处理指令 Command)
-- [DOS Cmd 常用指令](/batch/DOS 常用指令 Command)
+- [Batch Command 批处理指令](/batch/Batch 批处理指令 Command)
+- [DOS Command 常用指令](/batch/DOS 常用指令 Command)
 - [DOS Symbols 特殊符号](/batch/DOS 特殊符号 Symbol)
-- [DOS Env Var 环境变量](/batch/DOS 环境变量 Environment Variable)
+- [DOS Environment Variable 环境变量](/batch/DOS 环境变量 Environment Variable)
 
 ### [C++](/categories/C/)
 ---
 
-- [C++ Primer 5th - Handwritten Notes](/c++/C++ Primer 5th)
-- [C++ Interview Book - Handwritten Notes](/c++/C++ Interview Book)
-- [C++ Code Standards 编码规范 - Handwritten Notes](/c++/C++ Code Standards 编码标准)
+- [C++ Primer 5th - Note](/c++/C++ Primer 5th)
+- [C++ Interview Book - Note](/c++/C++ Interview Book)
+- [C++ Code Standards 编码规范 - Note](/c++/C++ Code Standards 编码标准)
 - Effective C++ Reading Note [「 1 」](/c++/Effective C++ - Reading Note 1)[「 2 」](/c++/Effective C++ - Reading Note 2)[「 3 」](/c++/Effective C++ - Reading Note 3)[「 4 」](/c++/Effective C++ - Reading Note 4)
 
 ### [JavaScript](/javascript/某次js代码优化过程)
@@ -95,7 +95,7 @@ description: 本博客的导航页。
 ---
 
 - [PHP empty\(\) 和 isset\(\) 的区别](/php/PHP%20empty%28%29%20%E5%92%8C%20isset%28%29%20%E7%9A%84%E5%8C%BA%E5%88%AB)
-- [PHP 逻辑语句 var !== NULL 是否等价于 isset(var)](/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var))
+- [PHP var !== NULL 是否等价于 isset(var)](/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var))
 
 ### [ASM](/categories/ASM)
 ---
