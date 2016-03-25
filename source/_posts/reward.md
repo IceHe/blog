@@ -1,4 +1,4 @@
-title: How to Reward Me! 怎么打赏博主~
+title: Reward Me 打赏博主
 date: 2015-04-02
 categories: [whoami]
 tags: [whoami]

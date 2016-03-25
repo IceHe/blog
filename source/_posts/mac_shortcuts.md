@@ -1,4 +1,4 @@
-title: My Mac Shortcuts 快捷键列表
+title: My Mac Shortcuts 快捷键表
 date: 2016-01-06
 categories: [Mac]
 tags: [Mac]

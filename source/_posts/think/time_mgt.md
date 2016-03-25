@@ -1,4 +1,4 @@
-title: Time Mgt. 我的时间管理日志
+title: Time Mgt 时间管理日志
 date: 2015-11-13
 categories: [time mgt]
 tags: [time mgt]

@@ -1,4 +1,4 @@
-title: Bulid Blog. 搭建个人博客
+title: Bulid Blog 搭建个人博客
 date: 2015-11-14
 categories: [Web]
 tags: [Web]

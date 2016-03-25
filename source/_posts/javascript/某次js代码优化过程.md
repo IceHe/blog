@@ -1,4 +1,4 @@
-title: 某次无聊的 JavaScript 代码 优化过程
+title: 某次 JavaScript 代码优化过程
 date: 2015-02-20
 categories: [JavaScript]
 tags: [JavaScript, exprience]

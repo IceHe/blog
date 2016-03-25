@@ -1,4 +1,4 @@
-title: Index 目录
+title: Blog Index 目录
 date: 2016-03-07
 categories: [read]
 tags: [read]
