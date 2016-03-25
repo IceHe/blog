@@ -1,4 +1,3 @@
-# icehe.blog.hexo
-Personal Blog - http://icehe.me
+# [icehe.me](http://icehe.me)
 
-Here are the blog generator configuration files.
+Here is my personal blog source code repo.
