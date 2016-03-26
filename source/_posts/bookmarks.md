@@ -132,6 +132,8 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [Visu Algo](http://visualgo.net/) —— Visualising data structures and algorithms through animation. <sup>_todo_</sup>
 
+- [Consistent Hashing 五分钟理解一致性哈希算法](http://blog.csdn.net/cywosp/article/details/23397179)
+
 - [Algorithms required to solve all problems (using C++) in any competitive coding contest?](https://www.quora.com/What-are-the-algorithms-required-to-solve-all-problems-using-C++-in-any-competitive-coding-contest) <sup>_todo_</sup>
 
 - [LeetCode](https://leetcode.com/),&nbsp; [UVa](https://uva.onlinejudge.org/),&nbsp; [PKU](http://poj.org/),&nbsp; [HDU](http://acm.hdu.edu.cn/) —— Online Judge <sup>_todo_</sup>
@@ -316,6 +318,8 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 ## Mgt 管理
 
 - [故障之后](http://card.weibo.com/article/h5/s#cid=1001603848245896980234) —— 故障之后，加流程还是改进技术？ <sup>__Best__</sup>
+
+- [Good Practice in Agile](http://www.jianshu.com/p/a21ff34ba22c)
 
 - [加班与效率](http://coolshell.cn/articles/10217.html)
 
