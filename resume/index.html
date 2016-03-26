@@ -20,7 +20,7 @@
 <meta property="og:url" content="http://icehe.me/resume/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="我的简历。">
-<meta property="og:updated_time" content="2016-03-25T12:37:22.000Z">
+<meta property="og:updated_time" content="2016-03-26T11:21:26.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="My Resume 何志远">
 <meta name="twitter:description" content="我的简历。">
@@ -130,11 +130,9 @@
 <div class="article-content">
     
     <ul>
-<li><em>Updated on 2016-03-25</em></li>
-</ul>
-<h1 id="Basic_Info">Basic Info</h1><ul>
-<li><i class="fa fa-user-secret">&nbsp;</i>&nbsp; <strong>Ice He 何志远</strong></li>
-<li><i class="fa fa-envelope">&nbsp;&nbsp;</i> <strong><a href="&#109;&#x61;&#105;&#x6c;&#x74;&#111;&#x3a;&#x78;&#x40;&#x69;&#x63;&#101;&#x68;&#101;&#x2e;&#109;&#x65;">&#x78;&#x40;&#x69;&#x63;&#101;&#x68;&#101;&#x2e;&#109;&#x65;</a></strong></li>
+<li>Updated on 2016-03-25</li>
+<li><i class="fa fa-user-secret">&nbsp;</i>&nbsp; <strong>Ice He</strong> 何志远</li>
+<li><i class="fa fa-envelope">&nbsp;&nbsp;</i> <strong><a href="&#109;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#120;&#x40;&#x69;&#x63;&#101;&#104;&#101;&#46;&#109;&#101;">&#120;&#x40;&#x69;&#x63;&#101;&#104;&#101;&#46;&#109;&#101;</a></strong></li>
 </ul>
 <h1 id="Technology">Technology</h1><h2 id="&nbsp;微梦创科网络技术（中国）有限公司_-_手机微博_-_服务端研发_工程师_&nbsp;_&nbsp;_2015-07_~_Now"><strong><span class="icon-weibo">&nbsp;</span>微梦创科网络技术（中国）有限公司 - 手机微博 - 服务端研发 工程师</strong> &nbsp; &nbsp; <em>2015.07 ~ Now</em></h2><ul>
 <li>MAPI（对外接口部门）- 微博移动端（手机、平板）各功能的服务端研发与维护，<br>开放平台 API 与微博移动端（WAP 端 H5 页面、客户端 App）间请求的聚合与适配对接</li>
@@ -375,7 +373,49 @@ var duoshuoQuery = {short_name:"icehe"};
             <!--<i class="fa fa-caret-up"></i>-->
         <!--</a>-->
     </p>
-    <ul id="popularlist_ul" class="clearfix"></ul>
+    <ul id="popularlist_ul" class="clearfix">
+        
+            <li><a href="javascript:;">1 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">2 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">3 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">4 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">5 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">6 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">7 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">8 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">9 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">10 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">11 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">12 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">13 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">14 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">15 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">16 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">17 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">18 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">19 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">20 &nbsp;loading ...</a></li>
+        
+    </ul>
 </div>
 
 <div class="rsspart">
@@ -737,6 +777,7 @@ var duoshuoQuery = {short_name:"icehe"};
         // if popularlist widget exists, add item to it.
         var popular_list = $('.popularlist');
         if (1 == popular_list.length) {
+//        if (false) {
             var query = new AV.Query(Counter);
             query.descending("time");
             query.limit(20);
@@ -745,18 +786,27 @@ var duoshuoQuery = {short_name:"icehe"};
                     for(var i = 0; i < results.length; ++i) {
                         var counter = results[i];
                         title = counter.get("title");
-                        url = counter.get("url");
-                        time = counter.get("time");
 
-                        $('#popularlist_ul').append('<li><a href="'
-                                + url + '" name="'
+//                        $('#popularlist_ul').append('<li><a href="'
+//                                + url + '" name="'
+//                                + title + '">'
+//                                + '<sup>'
+//                                + time + ' </sup> &nbsp;'
+//                                + title
+//                                + '</a></li>'
+//                        );
+                        $('#popularlist_ul li:eq(' + i + ')').html('<a href="'
+                                + counter.get("url") + '" name="'
                                 + title + '">'
                                 + '<sup>'
-                                + time + ' </sup> &nbsp;'
+                                + counter.get("time") + ' </sup> &nbsp;'
                                 + title
-                                + '</a></li>'
+                                + '</a>'
                         );
                     }
+//                    $('.popularlist').removeClass('hidden');
+//                    $('.popularlist').removeClass('hidden').addClass('fadeIn');
+//                    $('.popularlist').css('display', 'block').addClass('fadeIn');
                 },
                 error: function(error) {
                     //alert("Error:" + error.code + " " + error.message);

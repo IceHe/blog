@@ -24,7 +24,7 @@
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg">
-<meta property="og:updated_time" content="2016-03-25T08:32:49.000Z">
+<meta property="og:updated_time" content="2016-03-26T10:54:04.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Reward Me 打赏博主">
 <meta name="twitter:description" content="来打赏博主吧~">
@@ -134,7 +134,7 @@
 <div class="article-content">
     
     <ul>
-<li><em>Updated on 2016-01-18</em></li>
+<li>Updated on 2016-01-18</li>
 </ul>
 <p><div id="thx_text" class="hidden"><div class="center"><hr><br>搭建此博客期间，想到其它网站的<strong>捐赠</strong>功能，想必其实现不会太困难，于是查阅资料、动手尝试。<br>《<a href="/web/donate/"><strong>实现博客网站的支付宝打赏功能 —— Donate 打赏博主</strong></a>》记叙了本博客<strong>打赏</strong>功能的实现。<br><br>博主水平有限，仅为好奇实现了该模块，若本博客对您有帮助，仍期待您的打赏~谢谢您的鼓励和支持。<br>If you enjoy the blog, please feel free to donate~Thx for your support.<br><br></div></div></p>
 <script type="text/javascript">    window.onload=function(){    $('#btn_donate').click();    $('#donate_board').parent().append($('#thx_text').html());    }    </script>
@@ -334,7 +334,49 @@ var duoshuoQuery = {short_name:"icehe"};
             <!--<i class="fa fa-caret-up"></i>-->
         <!--</a>-->
     </p>
-    <ul id="popularlist_ul" class="clearfix"></ul>
+    <ul id="popularlist_ul" class="clearfix">
+        
+            <li><a href="javascript:;">1 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">2 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">3 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">4 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">5 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">6 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">7 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">8 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">9 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">10 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">11 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">12 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">13 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">14 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">15 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">16 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">17 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">18 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">19 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">20 &nbsp;loading ...</a></li>
+        
+    </ul>
 </div>
 
 <div class="rsspart">
@@ -696,6 +738,7 @@ var duoshuoQuery = {short_name:"icehe"};
         // if popularlist widget exists, add item to it.
         var popular_list = $('.popularlist');
         if (1 == popular_list.length) {
+//        if (false) {
             var query = new AV.Query(Counter);
             query.descending("time");
             query.limit(20);
@@ -704,18 +747,27 @@ var duoshuoQuery = {short_name:"icehe"};
                     for(var i = 0; i < results.length; ++i) {
                         var counter = results[i];
                         title = counter.get("title");
-                        url = counter.get("url");
-                        time = counter.get("time");
 
-                        $('#popularlist_ul').append('<li><a href="'
-                                + url + '" name="'
+//                        $('#popularlist_ul').append('<li><a href="'
+//                                + url + '" name="'
+//                                + title + '">'
+//                                + '<sup>'
+//                                + time + ' </sup> &nbsp;'
+//                                + title
+//                                + '</a></li>'
+//                        );
+                        $('#popularlist_ul li:eq(' + i + ')').html('<a href="'
+                                + counter.get("url") + '" name="'
                                 + title + '">'
                                 + '<sup>'
-                                + time + ' </sup> &nbsp;'
+                                + counter.get("time") + ' </sup> &nbsp;'
                                 + title
-                                + '</a></li>'
+                                + '</a>'
                         );
                     }
+//                    $('.popularlist').removeClass('hidden');
+//                    $('.popularlist').removeClass('hidden').addClass('fadeIn');
+//                    $('.popularlist').css('display', 'block').addClass('fadeIn');
                 },
                 error: function(error) {
                     //alert("Error:" + error.code + " " + error.message);

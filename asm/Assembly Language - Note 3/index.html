@@ -20,7 +20,7 @@
 <meta property="og:url" content="http://icehe.me/asm/Assembly Language - Note 3/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="汇编指令，伪指令，segment… ends，end，assume，编译和连接，执行过程的跟踪，单步调试，[BX]和loop指令，Debug程序的各种命令，段前缀，一段安全的空间。">
-<meta property="og:updated_time" content="2016-03-25T08:11:01.000Z">
+<meta property="og:updated_time" content="2016-03-26T10:58:13.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ASM 汇编语言 - 3">
 <meta name="twitter:description" content="汇编指令，伪指令，segment… ends，end，assume，编译和连接，执行过程的跟踪，单步调试，[BX]和loop指令，Debug程序的各种命令，段前缀，一段安全的空间。">
@@ -130,7 +130,7 @@
 <div class="article-content">
     
     
-<ul><li><em>Created on 2014-10</em></li></ul><br>
+<ul><li>Created on 2014-10</li></ul><br>
 
 <div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>教材：《汇编语言》（第二版）王爽 著 清华大学出版社</div><div><br></div><div><b>章四、第一个程序</b></div><div><br></div>
 4.2 源程序 例：
@@ -312,7 +312,49 @@ var duoshuoQuery = {short_name:"icehe"};
             <!--<i class="fa fa-caret-up"></i>-->
         <!--</a>-->
     </p>
-    <ul id="popularlist_ul" class="clearfix"></ul>
+    <ul id="popularlist_ul" class="clearfix">
+        
+            <li><a href="javascript:;">1 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">2 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">3 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">4 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">5 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">6 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">7 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">8 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">9 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">10 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">11 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">12 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">13 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">14 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">15 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">16 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">17 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">18 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">19 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">20 &nbsp;loading ...</a></li>
+        
+    </ul>
 </div>
 
 <div class="rsspart">
@@ -674,6 +716,7 @@ var duoshuoQuery = {short_name:"icehe"};
         // if popularlist widget exists, add item to it.
         var popular_list = $('.popularlist');
         if (1 == popular_list.length) {
+//        if (false) {
             var query = new AV.Query(Counter);
             query.descending("time");
             query.limit(20);
@@ -682,18 +725,27 @@ var duoshuoQuery = {short_name:"icehe"};
                     for(var i = 0; i < results.length; ++i) {
                         var counter = results[i];
                         title = counter.get("title");
-                        url = counter.get("url");
-                        time = counter.get("time");
 
-                        $('#popularlist_ul').append('<li><a href="'
-                                + url + '" name="'
+//                        $('#popularlist_ul').append('<li><a href="'
+//                                + url + '" name="'
+//                                + title + '">'
+//                                + '<sup>'
+//                                + time + ' </sup> &nbsp;'
+//                                + title
+//                                + '</a></li>'
+//                        );
+                        $('#popularlist_ul li:eq(' + i + ')').html('<a href="'
+                                + counter.get("url") + '" name="'
                                 + title + '">'
                                 + '<sup>'
-                                + time + ' </sup> &nbsp;'
+                                + counter.get("time") + ' </sup> &nbsp;'
                                 + title
-                                + '</a></li>'
+                                + '</a>'
                         );
                     }
+//                    $('.popularlist').removeClass('hidden');
+//                    $('.popularlist').removeClass('hidden').addClass('fadeIn');
+//                    $('.popularlist').css('display', 'block').addClass('fadeIn');
                 },
                 error: function(error) {
                     //alert("Error:" + error.code + " " + error.message);

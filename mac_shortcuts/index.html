@@ -20,7 +20,7 @@
 <meta property="og:url" content="http://icehe.me/mac_shortcuts/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="我的 OS X 快捷键列表。">
-<meta property="og:updated_time" content="2016-03-25T12:45:31.000Z">
+<meta property="og:updated_time" content="2016-03-26T10:47:58.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="My Mac Shortcuts 快捷键">
 <meta name="twitter:description" content="我的 OS X 快捷键列表。">
@@ -137,12 +137,13 @@
     </div>
     
     <ul>
-<li><p><em>Updated on 2016-03-23</em></p>
-</li>
-<li><p><em>Ref: 《 <a href="https://support.apple.com/zh-cn/HT201236" target="_blank" rel="external">Mac 键盘快捷键</a> 》</em></p>
-</li>
+<li>Updated on 2016-03-23</li>
+<li>Ref: 《 <a href="https://support.apple.com/zh-cn/HT201236" target="_blank" rel="external">Mac 键盘快捷键</a> 》</li>
 </ul>
-<h1 id="Explanation">Explanation</h1><p>Not all shortcuts , but also my most frequent ones!<br>Not only the default shortcuts, but alos the custom ones.</p>
+<h1 id="Explanation">Explanation</h1><ul>
+<li>Not all shortcuts , but also my most frequent ones!</li>
+<li>Not only the default shortcuts, but alos the custom ones.</li>
+</ul>
 <h2 id="Key_Characters">Key Characters</h2><p><code></code> Power<br><code>⌘</code> Command ( Cmd )<br><code>⌥</code> Option | Alt ( on Windows )<br><code>^</code> Control ( Ctrl )<br><code>⇧</code> Shift ( Shf )<br><code>⇪</code> CapsLock<br><code>⇥</code> Tab<br><code>⎋</code> Escape ( Esc )<br><code>↩</code> Return ( Ret ) | Enter ( on Windows )<br><code>凵</code> Space</p>
 <p><code>↑</code> Up<br><code>↓</code> Down ( Dn )<br><code>←</code> Left ( Lf )<br><code>→</code> Right ( Rg )</p>
 <p><code>⌫</code> Delete ( on Mac ) | Backspace ( on Windows )<br><code>Num</code> Digits: 0 ~ 9</p>
@@ -732,7 +733,49 @@ var duoshuoQuery = {short_name:"icehe"};
             <!--<i class="fa fa-caret-up"></i>-->
         <!--</a>-->
     </p>
-    <ul id="popularlist_ul" class="clearfix"></ul>
+    <ul id="popularlist_ul" class="clearfix">
+        
+            <li><a href="javascript:;">1 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">2 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">3 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">4 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">5 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">6 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">7 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">8 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">9 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">10 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">11 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">12 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">13 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">14 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">15 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">16 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">17 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">18 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">19 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">20 &nbsp;loading ...</a></li>
+        
+    </ul>
 </div>
 
 <div class="rsspart">
@@ -1094,6 +1137,7 @@ var duoshuoQuery = {short_name:"icehe"};
         // if popularlist widget exists, add item to it.
         var popular_list = $('.popularlist');
         if (1 == popular_list.length) {
+//        if (false) {
             var query = new AV.Query(Counter);
             query.descending("time");
             query.limit(20);
@@ -1102,18 +1146,27 @@ var duoshuoQuery = {short_name:"icehe"};
                     for(var i = 0; i < results.length; ++i) {
                         var counter = results[i];
                         title = counter.get("title");
-                        url = counter.get("url");
-                        time = counter.get("time");
 
-                        $('#popularlist_ul').append('<li><a href="'
-                                + url + '" name="'
+//                        $('#popularlist_ul').append('<li><a href="'
+//                                + url + '" name="'
+//                                + title + '">'
+//                                + '<sup>'
+//                                + time + ' </sup> &nbsp;'
+//                                + title
+//                                + '</a></li>'
+//                        );
+                        $('#popularlist_ul li:eq(' + i + ')').html('<a href="'
+                                + counter.get("url") + '" name="'
                                 + title + '">'
                                 + '<sup>'
-                                + time + ' </sup> &nbsp;'
+                                + counter.get("time") + ' </sup> &nbsp;'
                                 + title
-                                + '</a></li>'
+                                + '</a>'
                         );
                     }
+//                    $('.popularlist').removeClass('hidden');
+//                    $('.popularlist').removeClass('hidden').addClass('fadeIn');
+//                    $('.popularlist').css('display', 'block').addClass('fadeIn');
                 },
                 error: function(error) {
                     //alert("Error:" + error.code + " " + error.message);

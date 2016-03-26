@@ -258,7 +258,49 @@ var duoshuoQuery = {short_name:"icehe"};
             <!--<i class="fa fa-caret-up"></i>-->
         <!--</a>-->
     </p>
-    <ul id="popularlist_ul" class="clearfix"></ul>
+    <ul id="popularlist_ul" class="clearfix">
+        
+            <li><a href="javascript:;">1 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">2 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">3 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">4 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">5 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">6 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">7 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">8 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">9 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">10 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">11 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">12 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">13 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">14 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">15 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">16 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">17 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">18 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">19 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">20 &nbsp;loading ...</a></li>
+        
+    </ul>
 </div>
 
 <div class="rsspart">
@@ -592,6 +634,7 @@ var duoshuoQuery = {short_name:"icehe"};
         // if popularlist widget exists, add item to it.
         var popular_list = $('.popularlist');
         if (1 == popular_list.length) {
+//        if (false) {
             var query = new AV.Query(Counter);
             query.descending("time");
             query.limit(20);
@@ -600,18 +643,27 @@ var duoshuoQuery = {short_name:"icehe"};
                     for(var i = 0; i < results.length; ++i) {
                         var counter = results[i];
                         title = counter.get("title");
-                        url = counter.get("url");
-                        time = counter.get("time");
 
-                        $('#popularlist_ul').append('<li><a href="'
-                                + url + '" name="'
+//                        $('#popularlist_ul').append('<li><a href="'
+//                                + url + '" name="'
+//                                + title + '">'
+//                                + '<sup>'
+//                                + time + ' </sup> &nbsp;'
+//                                + title
+//                                + '</a></li>'
+//                        );
+                        $('#popularlist_ul li:eq(' + i + ')').html('<a href="'
+                                + counter.get("url") + '" name="'
                                 + title + '">'
                                 + '<sup>'
-                                + time + ' </sup> &nbsp;'
+                                + counter.get("time") + ' </sup> &nbsp;'
                                 + title
-                                + '</a></li>'
+                                + '</a>'
                         );
                     }
+//                    $('.popularlist').removeClass('hidden');
+//                    $('.popularlist').removeClass('hidden').addClass('fadeIn');
+//                    $('.popularlist').css('display', 'block').addClass('fadeIn');
                 },
                 error: function(error) {
                     //alert("Error:" + error.code + " " + error.message);

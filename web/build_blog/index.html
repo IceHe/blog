@@ -20,7 +20,7 @@
 <meta property="og:url" content="http://icehe.me/web/build_blog/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="Why初衷、How过程，Hexo建站，Theme主题，Domain Name域名，Bed Room图床，Google CSE站内搜索，404页面，Sitemap &amp; RSS站点地图与订阅，Site Analysis，Page View统计…">
-<meta property="og:updated_time" content="2016-03-25T08:19:50.000Z">
+<meta property="og:updated_time" content="2016-03-26T10:50:01.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Bulid Blog 搭建个人博客">
 <meta name="twitter:description" content="Why初衷、How过程，Hexo建站，Theme主题，Domain Name域名，Bed Room图床，Google CSE站内搜索，404页面，Sitemap &amp; RSS站点地图与订阅，Site Analysis，Page View统计…">
@@ -137,9 +137,11 @@
     </div>
     
     <ul>
-<li><em>Updated on 2016-01-19</em></li>
+<li><p>Updated on 2016-01-19</p>
+</li>
+<li><p>上一版《 <a href="/old_version_posts/Why_and_how_to_build_my_blog.html">Why and How to bulid my blog? 搭建我的个人博客</a> 》</p>
+</li>
 </ul>
-<p><strong>上一版</strong>：<a href="/old_version_posts/Why_and_how_to_build_my_blog.html">Why and How to bulid my blog? 搭建我的个人博客。</a></p>
 <h1 id="Why_-_初衷">Why - 初衷</h1><p>与其到各大博客平台去写博客，<br>不如自己搭建个独一无二的。<br>不但过程有意思，还能学到许多新知识。<br><br></p>
 <p>可以用来记录<a href="/lifelogs">自己的人生</a>，<br>放一些值得分享的技术、读书笔记和感想。</p>
 <h1 id="How_-_过程">How - 过程</h1><p>教程的各步骤描述得越详细，时效性往往越差。<br>网上的类似的教程多如牛毛，不差这篇。<br><br></p>
@@ -375,7 +377,49 @@ var duoshuoQuery = {short_name:"icehe"};
             <!--<i class="fa fa-caret-up"></i>-->
         <!--</a>-->
     </p>
-    <ul id="popularlist_ul" class="clearfix"></ul>
+    <ul id="popularlist_ul" class="clearfix">
+        
+            <li><a href="javascript:;">1 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">2 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">3 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">4 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">5 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">6 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">7 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">8 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">9 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">10 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">11 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">12 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">13 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">14 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">15 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">16 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">17 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">18 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">19 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">20 &nbsp;loading ...</a></li>
+        
+    </ul>
 </div>
 
 <div class="rsspart">
@@ -737,6 +781,7 @@ var duoshuoQuery = {short_name:"icehe"};
         // if popularlist widget exists, add item to it.
         var popular_list = $('.popularlist');
         if (1 == popular_list.length) {
+//        if (false) {
             var query = new AV.Query(Counter);
             query.descending("time");
             query.limit(20);
@@ -745,18 +790,27 @@ var duoshuoQuery = {short_name:"icehe"};
                     for(var i = 0; i < results.length; ++i) {
                         var counter = results[i];
                         title = counter.get("title");
-                        url = counter.get("url");
-                        time = counter.get("time");
 
-                        $('#popularlist_ul').append('<li><a href="'
-                                + url + '" name="'
+//                        $('#popularlist_ul').append('<li><a href="'
+//                                + url + '" name="'
+//                                + title + '">'
+//                                + '<sup>'
+//                                + time + ' </sup> &nbsp;'
+//                                + title
+//                                + '</a></li>'
+//                        );
+                        $('#popularlist_ul li:eq(' + i + ')').html('<a href="'
+                                + counter.get("url") + '" name="'
                                 + title + '">'
                                 + '<sup>'
-                                + time + ' </sup> &nbsp;'
+                                + counter.get("time") + ' </sup> &nbsp;'
                                 + title
-                                + '</a></li>'
+                                + '</a>'
                         );
                     }
+//                    $('.popularlist').removeClass('hidden');
+//                    $('.popularlist').removeClass('hidden').addClass('fadeIn');
+//                    $('.popularlist').css('display', 'block').addClass('fadeIn');
                 },
                 error: function(error) {
                     //alert("Error:" + error.code + " " + error.message);

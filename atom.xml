@@ -4,7 +4,7 @@
   <subtitle><![CDATA[More is in vain when less will serve.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://icehe.me/"/>
-  <updated>2016-03-21T12:38:59.000Z</updated>
+  <updated>2016-03-26T08:28:29.000Z</updated>
   <id>http://icehe.me/</id>
   
   <author>
@@ -19,9 +19,9 @@
     <link href="http://icehe.me/applescript/evernote_osx/"/>
     <id>http://icehe.me/applescript/evernote_osx/</id>
     <published>2016-03-12T16:00:00.000Z</published>
-    <updated>2016-03-21T12:38:59.000Z</updated>
+    <updated>2016-03-26T08:28:29.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li><em>Updated on 2016-03-16</em></li>
+<li>Updated on 2016-03-16</li>
 <li>I supposed that you have learned AppleScript, so I will not introduce it in detail.</li>
 <li>You can learn AppleScript in practice or my <a href="/applescript/applescript/">AppleScript Quick Start 快速入门</a>.</li>
 </ul>
@@ -93,9 +93,9 @@
     <link href="http://icehe.me/applescript/applescript/"/>
     <id>http://icehe.me/applescript/applescript/</id>
     <published>2016-03-10T16:00:00.000Z</published>
-    <updated>2016-03-21T12:41:52.000Z</updated>
+    <updated>2016-03-26T08:27:36.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li><em>Updated on 2016-03-13</em></li>
+<li>Updated on 2016-03-13</li>
 </ul>
 <h1 id="References">References</h1><ul>
 <li><p><a href="https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html" target="_blank" rel="external">AppleScript Fundamentals</a> —— Apple Official Docs</p>
@@ -250,7 +250,7 @@
 <li>「15」 <a href="/asm/Assembly Language - Note 15/">附录内容：汇编编译器对jmp的处理，地址计数器（AC），处理伪操作指令，栈传递参数，无溢出除法…</a></li>
 </ul>
 <h3 id="Mine"><a href="/about/">Mine</a></h3><hr>
-<p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#x6d;&#x61;&#105;&#108;&#116;&#111;&#58;&#120;&#x40;&#x69;&#x63;&#x65;&#x68;&#x65;&#x2e;&#109;&#101;">&#120;&#x40;&#x69;&#x63;&#x65;&#x68;&#x65;&#x2e;&#109;&#101;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
+<p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#109;&#x61;&#x69;&#108;&#x74;&#x6f;&#58;&#120;&#x40;&#105;&#99;&#x65;&#104;&#101;&#x2e;&#109;&#101;">&#120;&#x40;&#105;&#99;&#x65;&#104;&#101;&#x2e;&#109;&#101;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
 <h3 id="Others">Others</h3><hr>
 <ul>
 <li>The article with superscript <sup><strong>me</strong></sup>&nbsp; implies it’s <code>about me</code>.</li>
@@ -273,12 +273,10 @@
     <link href="http://icehe.me/cmd/git_note/"/>
     <id>http://icehe.me/cmd/git_note/</id>
     <published>2016-02-14T16:00:00.000Z</published>
-    <updated>2016-03-25T13:00:40.000Z</updated>
+    <updated>2016-03-26T08:28:56.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li><p><em>Updated on 2016-03-19</em></p>
-</li>
-<li><p><em>Omit the unusual commands at my work.</em></p>
-</li>
+<li>Updated on 2016-03-19</li>
+<li>Omit the unusual commands at my work.</li>
 </ul>
 <h1 id="References">References</h1><ul>
 <li><a href="http://git-scm.com/" target="_blank" rel="external">Git SCM</a> —— Official Site.</li>
@@ -731,14 +729,15 @@
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
-    <updated>2016-03-25T12:45:31.000Z</updated>
+    <updated>2016-03-26T10:47:58.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li><p><em>Updated on 2016-03-23</em></p>
-</li>
-<li><p><em>Ref: 《 <a href="https://support.apple.com/zh-cn/HT201236" target="_blank" rel="external">Mac 键盘快捷键</a> 》</em></p>
-</li>
+<li>Updated on 2016-03-23</li>
+<li>Ref: 《 <a href="https://support.apple.com/zh-cn/HT201236" target="_blank" rel="external">Mac 键盘快捷键</a> 》</li>
 </ul>
-<h1 id="Explanation">Explanation</h1><p>Not all shortcuts , but also my most frequent ones!<br>Not only the default shortcuts, but alos the custom ones.</p>
+<h1 id="Explanation">Explanation</h1><ul>
+<li>Not all shortcuts , but also my most frequent ones!</li>
+<li>Not only the default shortcuts, but alos the custom ones.</li>
+</ul>
 <h2 id="Key_Characters">Key Characters</h2><p><code></code> Power<br><code>⌘</code> Command ( Cmd )<br><code>⌥</code> Option | Alt ( on Windows )<br><code>^</code> Control ( Ctrl )<br><code>⇧</code> Shift ( Shf )<br><code>⇪</code> CapsLock<br><code>⇥</code> Tab<br><code>⎋</code> Escape ( Esc )<br><code>↩</code> Return ( Ret ) | Enter ( on Windows )<br><code>凵</code> Space</p>
 <p><code>↑</code> Up<br><code>↓</code> Down ( Dn )<br><code>←</code> Left ( Lf )<br><code>→</code> Right ( Rg )</p>
 <p><code>⌫</code> Delete ( on Mac ) | Backspace ( on Windows )<br><code>Num</code> Digits: 0 ~ 9</p>
@@ -1195,9 +1194,9 @@
     <link href="http://icehe.me/think/bye2015/"/>
     <id>http://icehe.me/think/bye2015/</id>
     <published>2016-01-02T16:00:00.000Z</published>
-    <updated>2016-03-21T13:10:22.000Z</updated>
+    <updated>2016-03-26T08:30:12.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li><em>Created on Dec 26, 2015</em></li>
+<li>Created on 2015-12-26</li>
 </ul>
 <h1 id="量化">量化</h1><ul>
 <li><p><strong><a href="/lifelogs#2015">2015全年时间使用情况</a></strong></p>
@@ -1276,9 +1275,9 @@
     <link href="http://icehe.me/bookmarks/"/>
     <id>http://icehe.me/bookmarks/</id>
     <published>2015-12-19T16:00:00.000Z</published>
-    <updated>2016-03-21T13:17:34.000Z</updated>
+    <updated>2016-03-26T11:11:19.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li><em>Updated on 2016-03-17</em></li>
+<li>Updated on 2016-03-26</li>
 </ul>
 <h1 id="IT_信息技术">IT 信息技术</h1><h2 id="OL_Tools_在线工具">OL Tools 在线工具</h2><ul>
 <li><p><a href="http://www.cheat-sheets.org/" target="_blank" rel="external">Cheat-Sheets.org</a> / <a href="http://whatis.techtarget.com/reference/Our-Favorite-Cheat-Sheets#operating" target="_blank" rel="external">Our Favourite Cheat Sheets</a> —— 知识速查清单。</p>
@@ -1399,6 +1398,8 @@
 </li>
 <li><p><a href="http://visualgo.net/" target="_blank" rel="external">Visu Algo</a> —— Visualising data structures and algorithms through animation. <sup><em>todo</em></sup></p>
 </li>
+<li><p><a href="http://blog.csdn.net/cywosp/article/details/23397179" target="_blank" rel="external">Consistent Hashing 五分钟理解一致性哈希算法</a></p>
+</li>
 <li><p><a href="https://www.quora.com/What-are-the-algorithms-required-to-solve-all-problems-using-C++-in-any-competitive-coding-contest" target="_blank" rel="external">Algorithms required to solve all problems (using C++) in any competitive coding contest?</a> <sup><em>todo</em></sup></p>
 </li>
 <li><p><a href="https://leetcode.com/" target="_blank" rel="external">LeetCode</a>,&nbsp; <a href="https://uva.onlinejudge.org/" target="_blank" rel="external">UVa</a>,&nbsp; <a href="http://poj.org/" target="_blank" rel="external">PKU</a>,&nbsp; <a href="http://acm.hdu.edu.cn/" target="_blank" rel="external">HDU</a> —— Online Judge <sup><em>todo</em></sup></p>
@@ -1509,6 +1510,8 @@
 </li>
 <li><p><a href="http://zhuanlan.zhihu.com/yilecoming/20587867" target="_blank" rel="external">什么不要做？关于失败和优化</a></p>
 </li>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&amp;mid=405001493&amp;idx=1&amp;sn=f0ecab9b31bad83fb065ac37bb728245&amp;scene=1&amp;srcid=0324wakUaG4F8lfZaqeiADpV#rd" target="_blank" rel="external">一名全栈工程师Node.js之路</a></p>
+</li>
 </ul>
 <h2 id="Linux">Linux</h2><ul>
 <li><p><a href="https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard" target="_blank" rel="external">Filesystem Hierarchy Standard</a> —— 各目录用途。</p>
@@ -1582,6 +1585,8 @@
 </ul>
 <h2 id="Mgt_管理">Mgt 管理</h2><ul>
 <li><p><a href="http://card.weibo.com/article/h5/s#cid=1001603848245896980234" target="_blank" rel="external">故障之后</a> —— 故障之后，加流程还是改进技术？ <sup><strong>Best</strong></sup></p>
+</li>
+<li><p><a href="http://www.jianshu.com/p/a21ff34ba22c" target="_blank" rel="external">Good Practice in Agile</a></p>
 </li>
 <li><p><a href="http://coolshell.cn/articles/10217.html" target="_blank" rel="external">加班与效率</a></p>
 </li>
@@ -1850,14 +1855,14 @@
     <link href="http://icehe.me/tools/"/>
     <id>http://icehe.me/tools/</id>
     <published>2015-11-20T16:00:00.000Z</published>
-    <updated>2016-03-21T13:38:32.000Z</updated>
+    <updated>2016-03-26T10:48:43.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li><em>Updated on 2016-03-10</em></li>
+<li>Updated on 2016-03-10</li>
+<li>下文斜体文本为补充描述，可略过。</li>
 </ul>
-<p><em>下文斜体文本为补充描述，可略过不读。</em></p>
-<h1 id="Software">Software</h1><p><em>以下除最后一小节，均为Mac平台下的软件。</em></p>
-<ul>
-<li><em>推荐：<a href="http://sspai.com/" target="_blank" rel="external">少数派</a> —— 高质量 App 推荐媒体，关于 iOS、Mac、硬件。</em></li>
+<h1 id="Software">Software</h1><ul>
+<li>以下除最后一小节，均为Mac平台下的软件。</li>
+<li>推荐：<a href="http://sspai.com/" target="_blank" rel="external">少数派</a> —— 高质量 App 推荐媒体，关于 iOS、Mac、硬件。</li>
 </ul>
 <h2 id="Common">Common</h2><ul>
 <li><p><a href="https://www.yinxiang.com/" target="_blank" rel="external">Evernote (Premium)</a></p>
@@ -2224,11 +2229,11 @@ article .article-content ul li p:first-child {
     <link href="http://icehe.me/favourites/"/>
     <id>http://icehe.me/favourites/</id>
     <published>2015-11-18T16:00:00.000Z</published>
-    <updated>2016-03-21T13:49:50.000Z</updated>
+    <updated>2016-03-26T10:46:47.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li><em>Updated on 2016-03-19</em></li>
+<li>Updated on 2016-03-19</li>
+<li>玩过、看过的之中，最喜欢这些。</li>
 </ul>
-<p><em>玩过、看过的之中，最喜欢这些。</em></p>
 <h1 id="Books_书">Books 书</h1><ul>
 <li><p><a href="http://book.douban.com/subject/1046492/" target="_blank" rel="external">国史大纲</a></p>
 <p>  钱穆，通史。</p>
@@ -2713,11 +2718,13 @@ article .article-content ul li p:first-child {
     <link href="http://icehe.me/web/build_blog/"/>
     <id>http://icehe.me/web/build_blog/</id>
     <published>2015-11-13T16:00:00.000Z</published>
-    <updated>2016-03-25T08:19:50.000Z</updated>
+    <updated>2016-03-26T10:50:01.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li><em>Updated on 2016-01-19</em></li>
+<li><p>Updated on 2016-01-19</p>
+</li>
+<li><p>上一版《 <a href="/old_version_posts/Why_and_how_to_build_my_blog.html">Why and How to bulid my blog? 搭建我的个人博客</a> 》</p>
+</li>
 </ul>
-<p><strong>上一版</strong>：<a href="/old_version_posts/Why_and_how_to_build_my_blog.html">Why and How to bulid my blog? 搭建我的个人博客。</a></p>
 <h1 id="Why_-_初衷">Why - 初衷</h1><p>与其到各大博客平台去写博客，<br>不如自己搭建个独一无二的。<br>不但过程有意思，还能学到许多新知识。<br><br></p>
 <p>可以用来记录<a href="/lifelogs">自己的人生</a>，<br>放一些值得分享的技术、读书笔记和感想。</p>
 <h1 id="How_-_过程">How - 过程</h1><p>教程的各步骤描述得越详细，时效性往往越差。<br>网上的类似的教程多如牛毛，不差这篇。<br><br></p>
@@ -2820,13 +2827,15 @@ article .article-content ul li p:first-child {
     <link href="http://icehe.me/think/time_mgt/"/>
     <id>http://icehe.me/think/time_mgt/</id>
     <published>2015-11-12T16:00:00.000Z</published>
-    <updated>2016-03-25T08:19:43.000Z</updated>
+    <updated>2016-03-26T10:53:41.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li><em>Updated on 2015-12-27</em></li>
+<li><p>Updated on 2015-12-27</p>
+</li>
+<li><p>链接：《 <a href="/lifelogs">我的所有时间管理日志</a> 》</p>
+</li>
+<li>旧版：《 <a href="/old_version_posts/time_mgt_log_format.html">Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考</a> 》</li>
+<li>补充： 时间管理日志格式一直根据实际使用进行调整，可能与本文描述不一致。</li>
 </ul>
-<p><strong>原标题</strong>：Explanations for Log Format - 日志记录格式说明<br><strong>上一版</strong>：<a href="/old_version_posts/time_mgt_log_format.html">Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考</a></p>
-<p><strong>链接：<a href="/lifelogs">我的所有时间管理日志</a></strong></p>
-<p><em>时间管理日志格式一直根据实际使用进行调整，可能与本文描述不一致。</em></p>
 <h1 id="Principles_原则">Principles 原则</h1><ol>
 <li><strong>简便</strong>：记录方式简便，只统计要用的信息，避免成为负担</li>
 <li><strong>有序</strong>：格式统一，便于数据的整理、分析</li>
@@ -3055,9 +3064,9 @@ Monthly
     <link href="http://icehe.me/reward/"/>
     <id>http://icehe.me/reward/</id>
     <published>2015-04-01T16:00:00.000Z</published>
-    <updated>2016-03-25T08:32:49.000Z</updated>
+    <updated>2016-03-26T10:54:04.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li><em>Updated on 2016-01-18</em></li>
+<li>Updated on 2016-01-18</li>
 </ul>
 <p><div id="thx_text" class="hidden"><div class="center"><hr><br>搭建此博客期间，想到其它网站的<strong>捐赠</strong>功能，想必其实现不会太困难，于是查阅资料、动手尝试。<br>《<a href="/web/donate/"><strong>实现博客网站的支付宝打赏功能 —— Donate 打赏博主</strong></a>》记叙了本博客<strong>打赏</strong>功能的实现。<br><br>博主水平有限，仅为好奇实现了该模块，若本博客对您有帮助，仍期待您的打赏~谢谢您的鼓励和支持。<br>If you enjoy the blog, please feel free to donate~Thx for your support.<br><br></div></div></p>
 <script type="text/javascript">    window.onload=function(){    $('#btn_donate').click();    $('#donate_board').parent().append($('#thx_text').html());    }    </script>

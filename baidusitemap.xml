@@ -4,19 +4,19 @@
 
     
   <url>
-    <loc>http://icehe.me/index/</loc>
-    <lastmod>2016-03-26T04:15:24.000Z</lastmod>
+    <loc>http://icehe.me/resume/</loc>
+    <lastmod>2016-03-26T11:21:26.000Z</lastmod>
     <data>
         <display>
-        <title>Blog Index 目录</title>
-        <pubTime>2016-03-06T16:00:00.000Z</pubTime>
+        <title>My Resume 何志远</title>
+        <pubTime>2015-01-23T16:00:00.000Z</pubTime>
         
-        <tag>read</tag>
+        <tag>whoami</tag>
          
          
            
              
-              <breadCrumb title="read" url="http://icehe.me/categories/read/"/>
+              <breadCrumb title="whoami" url="http://icehe.me/categories/whoami/"/>
           
         </display>
     </data>
@@ -24,39 +24,19 @@
 
     
   <url>
-    <loc>http://icehe.me/cmd/git_note/</loc>
-    <lastmod>2016-03-25T13:00:40.000Z</lastmod>
+    <loc>http://icehe.me/c++/C++%20Code%20Standards%20%E7%BC%96%E7%A0%81%E6%A0%87%E5%87%86/</loc>
+    <lastmod>2016-03-26T11:19:13.000Z</lastmod>
     <data>
         <display>
-        <title>Git Note</title>
-        <pubTime>2016-02-14T16:00:00.000Z</pubTime>
+        <title>C++ Code Standards 编码规范 - Note</title>
+        <pubTime>2015-01-27T16:00:00.000Z</pubTime>
         
-        <tag>Command</tag>
+        <tag>C++</tag>
          
          
            
              
-              <breadCrumb title="Command" url="http://icehe.me/categories/Command/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/mac_shortcuts/</loc>
-    <lastmod>2016-03-25T12:45:31.000Z</lastmod>
-    <data>
-        <display>
-        <title>My Mac Shortcuts 快捷键</title>
-        <pubTime>2016-01-05T16:00:00.000Z</pubTime>
-        
-        <tag>Mac</tag>
-         
-         
-           
-             
-              <breadCrumb title="Mac" url="http://icehe.me/categories/Mac/"/>
+              <breadCrumb title="C++" url="http://icehe.me/categories/C/"/>
           
         </display>
     </data>
@@ -65,7 +45,7 @@
     
   <url>
     <loc>http://icehe.me/c++/C++%20Interview%20Book/</loc>
-    <lastmod>2016-03-25T12:41:42.000Z</lastmod>
+    <lastmod>2016-03-26T11:19:06.000Z</lastmod>
     <data>
         <display>
         <title>C++ Interview Book - Note</title>
@@ -85,7 +65,7 @@
     
   <url>
     <loc>http://icehe.me/c++/C++%20Primer%205th/</loc>
-    <lastmod>2016-03-25T12:41:42.000Z</lastmod>
+    <lastmod>2016-03-26T11:18:59.000Z</lastmod>
     <data>
         <display>
         <title>C++ Primer 5th - Note</title>
@@ -104,12 +84,12 @@
 
     
   <url>
-    <loc>http://icehe.me/c++/C++%20Code%20Standards%20%E7%BC%96%E7%A0%81%E6%A0%87%E5%87%86/</loc>
-    <lastmod>2016-03-25T12:41:42.000Z</lastmod>
+    <loc>http://icehe.me/c++/Effective%20C++%20-%20Reading%20Note%204/</loc>
+    <lastmod>2016-03-26T11:18:52.000Z</lastmod>
     <data>
         <display>
-        <title>C++ Code Standards 编码规范 - Note</title>
-        <pubTime>2015-01-27T16:00:00.000Z</pubTime>
+        <title>Effective C++ - 4</title>
+        <pubTime>2015-01-26T17:01:01.000Z</pubTime>
         
         <tag>C++</tag>
          
@@ -124,12 +104,92 @@
 
     
   <url>
-    <loc>http://icehe.me/resume/</loc>
-    <lastmod>2016-03-25T12:37:22.000Z</lastmod>
+    <loc>http://icehe.me/c++/Effective%20C++%20-%20Reading%20Note%203/</loc>
+    <lastmod>2016-03-26T11:18:46.000Z</lastmod>
     <data>
         <display>
-        <title>My Resume 何志远</title>
-        <pubTime>2015-01-23T16:00:00.000Z</pubTime>
+        <title>Effective C++ - 3</title>
+        <pubTime>2015-01-26T16:00:00.000Z</pubTime>
+        
+        <tag>C++</tag>
+         
+         
+           
+             
+              <breadCrumb title="C++" url="http://icehe.me/categories/C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/c++/Effective%20C++%20-%20Reading%20Note%202/</loc>
+    <lastmod>2016-03-26T11:18:41.000Z</lastmod>
+    <data>
+        <display>
+        <title>Effective C++ - 2</title>
+        <pubTime>2015-01-25T17:01:01.000Z</pubTime>
+        
+        <tag>C++</tag>
+         
+         
+           
+             
+              <breadCrumb title="C++" url="http://icehe.me/categories/C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/c++/Effective%20C++%20-%20Reading%20Note%201/</loc>
+    <lastmod>2016-03-26T11:18:34.000Z</lastmod>
+    <data>
+        <display>
+        <title>Effective C++ - 1</title>
+        <pubTime>2015-01-25T16:00:00.000Z</pubTime>
+        
+        <tag>C++</tag>
+         
+         
+           
+             
+              <breadCrumb title="C++" url="http://icehe.me/categories/C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/lifelogs/</loc>
+    <lastmod>2016-03-26T11:13:49.000Z</lastmod>
+    <data>
+        <display>
+        <title>My Life Logs 手帐</title>
+        <pubTime>2015-01-21T16:00:00.000Z</pubTime>
+        
+        <tag>time mgt</tag>
+         
+         
+           
+             
+              <breadCrumb title="time mgt" url="http://icehe.me/categories/time-mgt/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/about/</loc>
+    <lastmod>2016-03-26T11:13:28.000Z</lastmod>
+    <data>
+        <display>
+        <title>Me 我</title>
+        <pubTime>2015-01-19T16:00:00.000Z</pubTime>
         
         <tag>whoami</tag>
          
@@ -137,6 +197,586 @@
            
              
               <breadCrumb title="whoami" url="http://icehe.me/categories/whoami/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/bookmarks/</loc>
+    <lastmod>2016-03-26T11:11:19.000Z</lastmod>
+    <data>
+        <display>
+        <title>My Bookmarks 书签</title>
+        <pubTime>2015-12-19T16:00:00.000Z</pubTime>
+        
+        <tag>read</tag>
+         
+         
+           
+             
+              <breadCrumb title="read" url="http://icehe.me/categories/read/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%208/</loc>
+    <lastmod>2016-03-26T10:58:13.000Z</lastmod>
+    <data>
+        <display>
+        <title>ASM 汇编语言 - 8</title>
+        <pubTime>2015-02-08T16:00:00.000Z</pubTime>
+        
+        <tag>ASM</tag>
+         
+         
+           
+             
+              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%203/</loc>
+    <lastmod>2016-03-26T10:58:13.000Z</lastmod>
+    <data>
+        <display>
+        <title>ASM 汇编语言 - 3</title>
+        <pubTime>2015-02-04T04:00:00.000Z</pubTime>
+        
+        <tag>ASM</tag>
+         
+         
+           
+             
+              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%2015/</loc>
+    <lastmod>2016-03-26T10:58:08.000Z</lastmod>
+    <data>
+        <display>
+        <title>ASM 汇编语言 - 15</title>
+        <pubTime>2015-02-15T16:00:00.000Z</pubTime>
+        
+        <tag>ASM</tag>
+         
+         
+           
+             
+              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%2014/</loc>
+    <lastmod>2016-03-26T10:58:02.000Z</lastmod>
+    <data>
+        <display>
+        <title>ASM 汇编语言 - 14</title>
+        <pubTime>2015-02-14T16:00:00.000Z</pubTime>
+        
+        <tag>ASM</tag>
+         
+         
+           
+             
+              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%2013/</loc>
+    <lastmod>2016-03-26T10:57:56.000Z</lastmod>
+    <data>
+        <display>
+        <title>ASM 汇编语言 - 13</title>
+        <pubTime>2015-02-13T17:01:01.000Z</pubTime>
+        
+        <tag>ASM</tag>
+         
+         
+           
+             
+              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%2012/</loc>
+    <lastmod>2016-03-26T10:57:49.000Z</lastmod>
+    <data>
+        <display>
+        <title>ASM 汇编语言 - 12</title>
+        <pubTime>2015-02-13T16:00:00.000Z</pubTime>
+        
+        <tag>ASM</tag>
+         
+         
+           
+             
+              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%2011/</loc>
+    <lastmod>2016-03-26T10:57:40.000Z</lastmod>
+    <data>
+        <display>
+        <title>ASM 汇编语言 - 11</title>
+        <pubTime>2015-02-12T16:00:00.000Z</pubTime>
+        
+        <tag>ASM</tag>
+         
+         
+           
+             
+              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%2010/</loc>
+    <lastmod>2016-03-26T10:57:34.000Z</lastmod>
+    <data>
+        <display>
+        <title>ASM 汇编语言 - 10</title>
+        <pubTime>2015-02-11T16:00:00.000Z</pubTime>
+        
+        <tag>ASM</tag>
+         
+         
+           
+             
+              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%209/</loc>
+    <lastmod>2016-03-26T10:57:29.000Z</lastmod>
+    <data>
+        <display>
+        <title>ASM 汇编语言 - 9</title>
+        <pubTime>2015-02-10T16:00:00.000Z</pubTime>
+        
+        <tag>ASM</tag>
+         
+         
+           
+             
+              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%207/</loc>
+    <lastmod>2016-03-26T10:57:12.000Z</lastmod>
+    <data>
+        <display>
+        <title>ASM 汇编语言 - 7</title>
+        <pubTime>2015-02-07T17:01:01.000Z</pubTime>
+        
+        <tag>ASM</tag>
+         
+         
+           
+             
+              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%207%20extra/</loc>
+    <lastmod>2016-03-26T10:57:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>ASM 汇编语言 - 7 extra</title>
+        <pubTime>2015-02-07T18:02:02.000Z</pubTime>
+        
+        <tag>ASM</tag>
+         
+         
+           
+             
+              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%206/</loc>
+    <lastmod>2016-03-26T10:57:01.000Z</lastmod>
+    <data>
+        <display>
+        <title>ASM 汇编语言 - 6</title>
+        <pubTime>2015-02-07T16:00:00.000Z</pubTime>
+        
+        <tag>ASM</tag>
+         
+         
+           
+             
+              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%205/</loc>
+    <lastmod>2016-03-26T10:56:51.000Z</lastmod>
+    <data>
+        <display>
+        <title>ASM 汇编语言 - 5</title>
+        <pubTime>2015-02-05T16:00:00.000Z</pubTime>
+        
+        <tag>ASM</tag>
+         
+         
+           
+             
+              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%204/</loc>
+    <lastmod>2016-03-26T10:56:42.000Z</lastmod>
+    <data>
+        <display>
+        <title>ASM 汇编语言 - 4</title>
+        <pubTime>2015-02-04T16:00:00.000Z</pubTime>
+        
+        <tag>ASM</tag>
+         
+         
+           
+             
+              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%202/</loc>
+    <lastmod>2016-03-26T10:55:56.000Z</lastmod>
+    <data>
+        <display>
+        <title>ASM 汇编语言 - 2</title>
+        <pubTime>2015-02-04T01:00:00.000Z</pubTime>
+        
+        <tag>ASM</tag>
+         
+         
+           
+             
+              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%201/</loc>
+    <lastmod>2016-03-26T10:55:49.000Z</lastmod>
+    <data>
+        <display>
+        <title>ASM 汇编语言 - 1</title>
+        <pubTime>2015-02-01T17:01:01.000Z</pubTime>
+        
+        <tag>ASM</tag>
+         
+         
+           
+             
+              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/web/donate/</loc>
+    <lastmod>2016-03-26T10:54:52.000Z</lastmod>
+    <data>
+        <display>
+        <title>实现网站的支付宝打赏功能</title>
+        <pubTime>2015-03-03T16:00:00.000Z</pubTime>
+        
+        <tag>Web</tag>
+         
+         
+           
+             
+              <breadCrumb title="Web" url="http://icehe.me/categories/Web/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/reward/</loc>
+    <lastmod>2016-03-26T10:54:04.000Z</lastmod>
+    <data>
+        <display>
+        <title>Reward Me 打赏博主</title>
+        <pubTime>2015-04-01T16:00:00.000Z</pubTime>
+        
+        <tag>whoami</tag>
+         
+         
+           
+             
+              <breadCrumb title="whoami" url="http://icehe.me/categories/whoami/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/think/time_mgt/</loc>
+    <lastmod>2016-03-26T10:53:41.000Z</lastmod>
+    <data>
+        <display>
+        <title>Time Mgt 时间管理日志</title>
+        <pubTime>2015-11-12T16:00:00.000Z</pubTime>
+        
+        <tag>time mgt</tag>
+         
+         
+           
+             
+              <breadCrumb title="time mgt" url="http://icehe.me/categories/time-mgt/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/web/build_blog/</loc>
+    <lastmod>2016-03-26T10:50:01.000Z</lastmod>
+    <data>
+        <display>
+        <title>Bulid Blog 搭建个人博客</title>
+        <pubTime>2015-11-13T16:00:00.000Z</pubTime>
+        
+        <tag>Web</tag>
+         
+         
+           
+             
+              <breadCrumb title="Web" url="http://icehe.me/categories/Web/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/tools/</loc>
+    <lastmod>2016-03-26T10:48:43.000Z</lastmod>
+    <data>
+        <display>
+        <title>My Tools 利器</title>
+        <pubTime>2015-11-20T16:00:00.000Z</pubTime>
+        
+        <tag>Mac</tag>
+         
+         
+           
+             
+              <breadCrumb title="Mac" url="http://icehe.me/categories/Mac/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/mac_shortcuts/</loc>
+    <lastmod>2016-03-26T10:47:58.000Z</lastmod>
+    <data>
+        <display>
+        <title>My Mac Shortcuts 快捷键</title>
+        <pubTime>2016-01-05T16:00:00.000Z</pubTime>
+        
+        <tag>Mac</tag>
+         
+         
+           
+             
+              <breadCrumb title="Mac" url="http://icehe.me/categories/Mac/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/favourites/</loc>
+    <lastmod>2016-03-26T10:46:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>My Favourites 喜好</title>
+        <pubTime>2015-11-18T16:00:00.000Z</pubTime>
+        
+        <tag>read</tag>
+         
+         
+           
+             
+              <breadCrumb title="read" url="http://icehe.me/categories/read/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/think/bye2015/</loc>
+    <lastmod>2016-03-26T08:30:12.000Z</lastmod>
+    <data>
+        <display>
+        <title>Bye 2015</title>
+        <pubTime>2016-01-02T16:00:00.000Z</pubTime>
+        
+        <tag>think</tag>
+         
+         
+           
+             
+              <breadCrumb title="think" url="http://icehe.me/categories/think/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/cmd/git_note/</loc>
+    <lastmod>2016-03-26T08:28:56.000Z</lastmod>
+    <data>
+        <display>
+        <title>Git Note</title>
+        <pubTime>2016-02-14T16:00:00.000Z</pubTime>
+        
+        <tag>Command</tag>
+         
+         
+           
+             
+              <breadCrumb title="Command" url="http://icehe.me/categories/Command/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/applescript/evernote_osx/</loc>
+    <lastmod>2016-03-26T08:28:29.000Z</lastmod>
+    <data>
+        <display>
+        <title>用 AppleScript 操作 Evernote / OS X</title>
+        <pubTime>2016-03-12T16:00:00.000Z</pubTime>
+        
+        <tag>AppleScript</tag>
+         
+         
+           
+             
+              <breadCrumb title="AppleScript" url="http://icehe.me/categories/AppleScript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/applescript/applescript/</loc>
+    <lastmod>2016-03-26T08:27:36.000Z</lastmod>
+    <data>
+        <display>
+        <title>AppleScript Quick Start 快速入门</title>
+        <pubTime>2016-03-10T16:00:00.000Z</pubTime>
+        
+        <tag>AppleScript</tag>
+         
+         
+           
+             
+              <breadCrumb title="AppleScript" url="http://icehe.me/categories/AppleScript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/index/</loc>
+    <lastmod>2016-03-26T04:15:24.000Z</lastmod>
+    <data>
+        <display>
+        <title>Blog Index 目录</title>
+        <pubTime>2016-03-06T16:00:00.000Z</pubTime>
+        
+        <tag>read</tag>
+         
+         
+           
+             
+              <breadCrumb title="read" url="http://icehe.me/categories/read/"/>
           
         </display>
     </data>
@@ -184,46 +824,6 @@
 
     
   <url>
-    <loc>http://icehe.me/web/donate/</loc>
-    <lastmod>2016-03-25T12:31:40.000Z</lastmod>
-    <data>
-        <display>
-        <title>实现网站的支付宝打赏功能</title>
-        <pubTime>2015-03-03T16:00:00.000Z</pubTime>
-        
-        <tag>Web</tag>
-         
-         
-           
-             
-              <breadCrumb title="Web" url="http://icehe.me/categories/Web/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/about/</loc>
-    <lastmod>2016-03-25T09:08:09.000Z</lastmod>
-    <data>
-        <display>
-        <title>Me 我</title>
-        <pubTime>2015-01-19T16:00:00.000Z</pubTime>
-        
-        <tag>whoami</tag>
-         
-         
-           
-             
-              <breadCrumb title="whoami" url="http://icehe.me/categories/whoami/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://icehe.me/javascript/%E6%9F%90%E6%AC%A1js%E4%BB%A3%E7%A0%81%E4%BC%98%E5%8C%96%E8%BF%87%E7%A8%8B/</loc>
     <lastmod>2016-03-25T08:33:15.000Z</lastmod>
     <data>
@@ -239,26 +839,6 @@
            
              
               <breadCrumb title="JavaScript" url="http://icehe.me/categories/JavaScript/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/reward/</loc>
-    <lastmod>2016-03-25T08:32:49.000Z</lastmod>
-    <data>
-        <display>
-        <title>Reward Me 打赏博主</title>
-        <pubTime>2015-04-01T16:00:00.000Z</pubTime>
-        
-        <tag>whoami</tag>
-         
-         
-           
-             
-              <breadCrumb title="whoami" url="http://icehe.me/categories/whoami/"/>
           
         </display>
     </data>
@@ -388,126 +968,6 @@
 
     
   <url>
-    <loc>http://icehe.me/web/build_blog/</loc>
-    <lastmod>2016-03-25T08:19:50.000Z</lastmod>
-    <data>
-        <display>
-        <title>Bulid Blog 搭建个人博客</title>
-        <pubTime>2015-11-13T16:00:00.000Z</pubTime>
-        
-        <tag>Web</tag>
-         
-         
-           
-             
-              <breadCrumb title="Web" url="http://icehe.me/categories/Web/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/think/time_mgt/</loc>
-    <lastmod>2016-03-25T08:19:43.000Z</lastmod>
-    <data>
-        <display>
-        <title>Time Mgt 时间管理日志</title>
-        <pubTime>2015-11-12T16:00:00.000Z</pubTime>
-        
-        <tag>time mgt</tag>
-         
-         
-           
-             
-              <breadCrumb title="time mgt" url="http://icehe.me/categories/time-mgt/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/c++/Effective%20C++%20-%20Reading%20Note%204/</loc>
-    <lastmod>2016-03-25T08:17:53.000Z</lastmod>
-    <data>
-        <display>
-        <title>Effective C++ - 4</title>
-        <pubTime>2015-01-26T17:01:01.000Z</pubTime>
-        
-        <tag>C++</tag>
-         
-         
-           
-             
-              <breadCrumb title="C++" url="http://icehe.me/categories/C/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/c++/Effective%20C++%20-%20Reading%20Note%202/</loc>
-    <lastmod>2016-03-25T08:17:41.000Z</lastmod>
-    <data>
-        <display>
-        <title>Effective C++ - 2</title>
-        <pubTime>2015-01-25T17:01:01.000Z</pubTime>
-        
-        <tag>C++</tag>
-         
-         
-           
-             
-              <breadCrumb title="C++" url="http://icehe.me/categories/C/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/c++/Effective%20C++%20-%20Reading%20Note%203/</loc>
-    <lastmod>2016-03-25T08:17:35.000Z</lastmod>
-    <data>
-        <display>
-        <title>Effective C++ - 3</title>
-        <pubTime>2015-01-26T16:00:00.000Z</pubTime>
-        
-        <tag>C++</tag>
-         
-         
-           
-             
-              <breadCrumb title="C++" url="http://icehe.me/categories/C/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/c++/Effective%20C++%20-%20Reading%20Note%201/</loc>
-    <lastmod>2016-03-25T08:17:19.000Z</lastmod>
-    <data>
-        <display>
-        <title>Effective C++ - 1</title>
-        <pubTime>2015-01-25T16:00:00.000Z</pubTime>
-        
-        <tag>C++</tag>
-         
-         
-           
-             
-              <breadCrumb title="C++" url="http://icehe.me/categories/C/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://icehe.me/batch/DOS%20%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%20Environment%20Variable/</loc>
     <lastmod>2016-03-25T08:16:42.000Z</lastmod>
     <data>
@@ -581,466 +1041,6 @@
            
              
               <breadCrumb title="Batch" url="http://icehe.me/categories/Batch/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%2015/</loc>
-    <lastmod>2016-03-25T08:15:39.000Z</lastmod>
-    <data>
-        <display>
-        <title>ASM 汇编语言 - 15</title>
-        <pubTime>2015-02-15T16:00:00.000Z</pubTime>
-        
-        <tag>ASM</tag>
-         
-         
-           
-             
-              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%2014/</loc>
-    <lastmod>2016-03-25T08:13:27.000Z</lastmod>
-    <data>
-        <display>
-        <title>ASM 汇编语言 - 14</title>
-        <pubTime>2015-02-14T16:00:00.000Z</pubTime>
-        
-        <tag>ASM</tag>
-         
-         
-           
-             
-              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%2013/</loc>
-    <lastmod>2016-03-25T08:13:15.000Z</lastmod>
-    <data>
-        <display>
-        <title>ASM 汇编语言 - 13</title>
-        <pubTime>2015-02-13T17:01:01.000Z</pubTime>
-        
-        <tag>ASM</tag>
-         
-         
-           
-             
-              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%2012/</loc>
-    <lastmod>2016-03-25T08:13:03.000Z</lastmod>
-    <data>
-        <display>
-        <title>ASM 汇编语言 - 12</title>
-        <pubTime>2015-02-13T16:00:00.000Z</pubTime>
-        
-        <tag>ASM</tag>
-         
-         
-           
-             
-              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%2011/</loc>
-    <lastmod>2016-03-25T08:12:53.000Z</lastmod>
-    <data>
-        <display>
-        <title>ASM 汇编语言 - 11</title>
-        <pubTime>2015-02-12T16:00:00.000Z</pubTime>
-        
-        <tag>ASM</tag>
-         
-         
-           
-             
-              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%2010/</loc>
-    <lastmod>2016-03-25T08:12:42.000Z</lastmod>
-    <data>
-        <display>
-        <title>ASM 汇编语言 - 10</title>
-        <pubTime>2015-02-11T16:00:00.000Z</pubTime>
-        
-        <tag>ASM</tag>
-         
-         
-           
-             
-              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%209/</loc>
-    <lastmod>2016-03-25T08:12:32.000Z</lastmod>
-    <data>
-        <display>
-        <title>ASM 汇编语言 - 9</title>
-        <pubTime>2015-02-10T16:00:00.000Z</pubTime>
-        
-        <tag>ASM</tag>
-         
-         
-           
-             
-              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%208/</loc>
-    <lastmod>2016-03-25T08:12:21.000Z</lastmod>
-    <data>
-        <display>
-        <title>ASM 汇编语言 - 8</title>
-        <pubTime>2015-02-08T16:00:00.000Z</pubTime>
-        
-        <tag>ASM</tag>
-         
-         
-           
-             
-              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%207/</loc>
-    <lastmod>2016-03-25T08:12:07.000Z</lastmod>
-    <data>
-        <display>
-        <title>ASM 汇编语言 - 7</title>
-        <pubTime>2015-02-07T17:01:01.000Z</pubTime>
-        
-        <tag>ASM</tag>
-         
-         
-           
-             
-              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%207%20extra/</loc>
-    <lastmod>2016-03-25T08:11:52.000Z</lastmod>
-    <data>
-        <display>
-        <title>ASM 汇编语言 - 7 extra</title>
-        <pubTime>2015-02-07T18:02:02.000Z</pubTime>
-        
-        <tag>ASM</tag>
-         
-         
-           
-             
-              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%206/</loc>
-    <lastmod>2016-03-25T08:11:41.000Z</lastmod>
-    <data>
-        <display>
-        <title>ASM 汇编语言 - 6</title>
-        <pubTime>2015-02-07T16:00:00.000Z</pubTime>
-        
-        <tag>ASM</tag>
-         
-         
-           
-             
-              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%205/</loc>
-    <lastmod>2016-03-25T08:11:27.000Z</lastmod>
-    <data>
-        <display>
-        <title>ASM 汇编语言 - 5</title>
-        <pubTime>2015-02-05T16:00:00.000Z</pubTime>
-        
-        <tag>ASM</tag>
-         
-         
-           
-             
-              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%204/</loc>
-    <lastmod>2016-03-25T08:11:13.000Z</lastmod>
-    <data>
-        <display>
-        <title>ASM 汇编语言 - 4</title>
-        <pubTime>2015-02-04T16:00:00.000Z</pubTime>
-        
-        <tag>ASM</tag>
-         
-         
-           
-             
-              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%203/</loc>
-    <lastmod>2016-03-25T08:11:01.000Z</lastmod>
-    <data>
-        <display>
-        <title>ASM 汇编语言 - 3</title>
-        <pubTime>2015-02-04T04:00:00.000Z</pubTime>
-        
-        <tag>ASM</tag>
-         
-         
-           
-             
-              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%202/</loc>
-    <lastmod>2016-03-25T08:10:49.000Z</lastmod>
-    <data>
-        <display>
-        <title>ASM 汇编语言 - 2</title>
-        <pubTime>2015-02-04T01:00:00.000Z</pubTime>
-        
-        <tag>ASM</tag>
-         
-         
-           
-             
-              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%201/</loc>
-    <lastmod>2016-03-25T08:10:36.000Z</lastmod>
-    <data>
-        <display>
-        <title>ASM 汇编语言 - 1</title>
-        <pubTime>2015-02-01T17:01:01.000Z</pubTime>
-        
-        <tag>ASM</tag>
-         
-         
-           
-             
-              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/lifelogs/</loc>
-    <lastmod>2016-03-21T14:19:44.000Z</lastmod>
-    <data>
-        <display>
-        <title>My Life Logs 手帐</title>
-        <pubTime>2015-01-21T16:00:00.000Z</pubTime>
-        
-        <tag>time mgt</tag>
-         
-         
-           
-             
-              <breadCrumb title="time mgt" url="http://icehe.me/categories/time-mgt/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/favourites/</loc>
-    <lastmod>2016-03-21T13:49:50.000Z</lastmod>
-    <data>
-        <display>
-        <title>My Favourites 喜好</title>
-        <pubTime>2015-11-18T16:00:00.000Z</pubTime>
-        
-        <tag>read</tag>
-         
-         
-           
-             
-              <breadCrumb title="read" url="http://icehe.me/categories/read/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/tools/</loc>
-    <lastmod>2016-03-21T13:38:32.000Z</lastmod>
-    <data>
-        <display>
-        <title>My Tools 利器</title>
-        <pubTime>2015-11-20T16:00:00.000Z</pubTime>
-        
-        <tag>Mac</tag>
-         
-         
-           
-             
-              <breadCrumb title="Mac" url="http://icehe.me/categories/Mac/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/bookmarks/</loc>
-    <lastmod>2016-03-21T13:17:34.000Z</lastmod>
-    <data>
-        <display>
-        <title>My Bookmarks 书签</title>
-        <pubTime>2015-12-19T16:00:00.000Z</pubTime>
-        
-        <tag>read</tag>
-         
-         
-           
-             
-              <breadCrumb title="read" url="http://icehe.me/categories/read/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/think/bye2015/</loc>
-    <lastmod>2016-03-21T13:10:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>Bye 2015</title>
-        <pubTime>2016-01-02T16:00:00.000Z</pubTime>
-        
-        <tag>think</tag>
-         
-         
-           
-             
-              <breadCrumb title="think" url="http://icehe.me/categories/think/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/applescript/applescript/</loc>
-    <lastmod>2016-03-21T12:41:52.000Z</lastmod>
-    <data>
-        <display>
-        <title>AppleScript Quick Start 快速入门</title>
-        <pubTime>2016-03-10T16:00:00.000Z</pubTime>
-        
-        <tag>AppleScript</tag>
-         
-         
-           
-             
-              <breadCrumb title="AppleScript" url="http://icehe.me/categories/AppleScript/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/applescript/evernote_osx/</loc>
-    <lastmod>2016-03-21T12:38:59.000Z</lastmod>
-    <data>
-        <display>
-        <title>用 AppleScript 操作 Evernote / OS X</title>
-        <pubTime>2016-03-12T16:00:00.000Z</pubTime>
-        
-        <tag>AppleScript</tag>
-         
-         
-           
-             
-              <breadCrumb title="AppleScript" url="http://icehe.me/categories/AppleScript/"/>
           
         </display>
     </data>
