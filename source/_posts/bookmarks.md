@@ -59,6 +59,8 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 - [CSS之各种居中](https://segmentfault.com/a/1190000004260458)
 
+- [Font Awesome](http://fontawesome.io/) / [IcoMoon](https://icomoon.io/#preview-free) —— Icon Font ( [Discussion](https://github.com/amfe/article/issues/2) )
+
 ### [Dynamic Cheat Sheets](http://www.cheatography.com/)
 
 _Need to screen the content of this section._ <sup>_todo_</sup>
@@ -285,6 +287,8 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 - [加盐密码哈希：如何正确使用](http://blog.jobbole.com/61872/) —— [英文出处](https://crackstation.net/hashing-security.htm)。 <sup>__Best__</sup>
 
 ## Career 职业生涯
+
+- [Why I Strive to be a 0.1x Engineer](http://benjiweber.co.uk/blog/2016/01/25/why-i-strive-to-be-a-0-1x-engineer/) —— 不折腾的哲学。
 
 - [为什么有些大公司技术弱爆了？](https://www.zhihu.com/question/32039226)
 
