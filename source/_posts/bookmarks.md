@@ -5,7 +5,7 @@ tags: [read]
 description: 我收藏的网站、博客、文档、学习资料、文章、问答、专栏…
 ---
 
-- *Updated on 2016-03-17*
+- Updated on 2016-03-26
 
 # IT 信息技术
 
@@ -241,6 +241,8 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 - [架构腐化之谜](http://mp.weixin.qq.com/s?__biz=MjM5NTg2NTU0Ng==&amp;mid=210816035&amp;idx=3&amp;sn=7ad903e7be165e2c616c20fa2f148f63&amp;scene=1#rd)
 
 - [什么不要做？关于失败和优化](http://zhuanlan.zhihu.com/yilecoming/20587867)
+
+- [一名全栈工程师Node.js之路](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&amp;mid=405001493&amp;idx=1&amp;sn=f0ecab9b31bad83fb065ac37bb728245&amp;scene=1&amp;srcid=0324wakUaG4F8lfZaqeiADpV#rd)
 
 ## Linux
 
