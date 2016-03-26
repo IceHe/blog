@@ -4,16 +4,18 @@
 
 <!DOCTYPE HTML>
 <html lang="default">
+
 <head>
 
-    <meta charset="UTF-8">
-    
-    <title>明智思考的艺术 - Note | Ice He 何志远</title>
+<meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+<title>明智思考的艺术 - Note | Ice He 何志远</title>
 
-    <meta name="author" content="IceHe何志远"> 
+<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 
+<meta name="author" content="IceHe何志远"> 
+
+<!-- Open Graph -->
 <meta name="description" content="备忘: 从最远一次没有看的报纸，开始看回来。
 试着用最少的信息生存！更少信息、选择，更不容易迷惑。其实没必要知道过多，容易分心，在学习的道路上走，检索需要知道的就好。
 失去方向才去广泛搜索才对。
@@ -49,29 +51,29 @@
 爱屋及乌，物件与具体人物微妙的，让人对某物产生喜恶的影响。
 激励排">
 
-    <!-- Google Web Master Tool - Meta Tag Verification -->
-    <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
+<!-- Google Web Master Tool - Meta Tag Verification -->
+<meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
-    <!-- Weibo Open Platform - Meta Tag Verification -->
-    <meta property="wb:webmaster" content="84efd5956048ab8f" />
+<!-- Weibo Open Platform - Meta Tag Verification -->
+<meta property="wb:webmaster" content="84efd5956048ab8f" />
 
-    <!-- RSS -->
-    <link rel="alternative" href="/atom.xml" title="Ice He 何志远" type="application/atom+xml">
+<!-- RSS -->
+<link rel="alternative" href="/atom.xml" title="Ice He 何志远" type="application/atom+xml">
 
-    <!-- Icons -->
-    <link rel="icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon.ico">
-    <link rel="apple-touch-icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
-    <link rel="apple-touch-icon-precomposed" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+<!-- Icons -->
+<link rel="icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon.ico">
+<link rel="apple-touch-icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+<link rel="apple-touch-icon-precomposed" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
 
-    <!-- Font-awesome -->
-    <link href="//libs.cncdn.cn/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- Font-awesome -->
+<link href="//libs.cncdn.cn/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="/css/style.css" type="text/css">
-    <style type="text/css">
-        .center { text-align: center; }
-        .hidden { display: none; }
-    </style>
+<!-- CSS -->
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+<style type="text/css">
+    .center { text-align: center; }
+    .hidden { display: none; }
+</style>
 
 </head>
 
@@ -143,15 +145,11 @@
     
     </p>
 
-    <p class="article-readtimes">
+    <p class="article-data">
 
-        <time datetime="2016-03-18T06:59:29.000Z" itemprop="datePublished">2016-03-18</time>&nbsp; / &nbsp;<span class="readtimes">?</span> views
+        <time class="article-time" datetime="2016-03-18T06:59:29.000Z" itemprop="datePublished">2016-03-18</time>&nbsp; / &nbsp;<span class="article-pageview">?</span> views
 
     </p>
-
-    <!--<p class="article-time">-->
-    <!--<time datetime="2016-03-18T06:59:29.000Z" itemprop="datePublished"> Pub 2016-03-18</time>-->
-    <!--</p>-->
 
 </header>
 
@@ -717,11 +715,11 @@ var duoshuoQuery = {short_name:"icehe"};
                         url = counter.get("url");
                         time = counter.get("time");
 
-                        article_info.find(".article-readtimes .readtimes").text(time);
+                        article_info.find(".article-pageview").text(time);
                     }
                 },
                 error: function(error) {
-                    article_info.find(".article-readtimes .readtimes").text("?");
+                    article_info.find(".article-pageview").text("?");
                     //alert("Error:" + error.code + " " + error.message);
                 }
             });

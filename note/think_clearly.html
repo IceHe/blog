@@ -4,16 +4,18 @@
 
 <!DOCTYPE HTML>
 <html lang="default">
+
 <head>
 
-    <meta charset="UTF-8">
-    
-    <title>清醒思考的艺术 - Note | Ice He 何志远</title>
+<meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+<title>清醒思考的艺术 - Note | Ice He 何志远</title>
 
-    <meta name="author" content="IceHe何志远"> 
+<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 
+<meta name="author" content="IceHe何志远"> 
+
+<!-- Open Graph -->
 <meta name="description" content="幸存谬误。以为自己就能成功，其实是小概率事件。
 选择标准和结果，因果倒置。
 人倾向于过度自信地估计事情。
@@ -49,29 +51,29 @@
 确认偏误2，干掉你的宠儿。找到反驳你的框架理论的证据，然后修正或颠覆它！
 权威偏误，尽可能去怀疑权威，思考求">
 
-    <!-- Google Web Master Tool - Meta Tag Verification -->
-    <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
+<!-- Google Web Master Tool - Meta Tag Verification -->
+<meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
-    <!-- Weibo Open Platform - Meta Tag Verification -->
-    <meta property="wb:webmaster" content="84efd5956048ab8f" />
+<!-- Weibo Open Platform - Meta Tag Verification -->
+<meta property="wb:webmaster" content="84efd5956048ab8f" />
 
-    <!-- RSS -->
-    <link rel="alternative" href="/atom.xml" title="Ice He 何志远" type="application/atom+xml">
+<!-- RSS -->
+<link rel="alternative" href="/atom.xml" title="Ice He 何志远" type="application/atom+xml">
 
-    <!-- Icons -->
-    <link rel="icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon.ico">
-    <link rel="apple-touch-icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
-    <link rel="apple-touch-icon-precomposed" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+<!-- Icons -->
+<link rel="icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon.ico">
+<link rel="apple-touch-icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+<link rel="apple-touch-icon-precomposed" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
 
-    <!-- Font-awesome -->
-    <link href="//libs.cncdn.cn/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- Font-awesome -->
+<link href="//libs.cncdn.cn/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="/css/style.css" type="text/css">
-    <style type="text/css">
-        .center { text-align: center; }
-        .hidden { display: none; }
-    </style>
+<!-- CSS -->
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+<style type="text/css">
+    .center { text-align: center; }
+    .hidden { display: none; }
+</style>
 
 </head>
 
@@ -143,15 +145,11 @@
     
     </p>
 
-    <p class="article-readtimes">
+    <p class="article-data">
 
-        <time datetime="2016-03-18T06:59:29.000Z" itemprop="datePublished">2016-03-18</time>&nbsp; / &nbsp;<span class="readtimes">?</span> views
+        <time class="article-time" datetime="2016-03-18T06:59:29.000Z" itemprop="datePublished">2016-03-18</time>&nbsp; / &nbsp;<span class="article-pageview">?</span> views
 
     </p>
-
-    <!--<p class="article-time">-->
-    <!--<time datetime="2016-03-18T06:59:29.000Z" itemprop="datePublished"> Pub 2016-03-18</time>-->
-    <!--</p>-->
 
 </header>
 
@@ -707,11 +705,11 @@ var duoshuoQuery = {short_name:"icehe"};
                         url = counter.get("url");
                         time = counter.get("time");
 
-                        article_info.find(".article-readtimes .readtimes").text(time);
+                        article_info.find(".article-pageview").text(time);
                     }
                 },
                 error: function(error) {
-                    article_info.find(".article-readtimes .readtimes").text("?");
+                    article_info.find(".article-pageview").text("?");
                     //alert("Error:" + error.code + " " + error.message);
                 }
             });

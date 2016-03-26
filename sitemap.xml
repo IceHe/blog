@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://icehe.me/index/</loc>
+    <lastmod>2016-03-26T04:15:24.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://icehe.me/cmd/git_note/</loc>
     <lastmod>2016-03-25T13:00:40.000Z</lastmod>
   </url>
@@ -9,11 +14,6 @@
   <url>
     <loc>http://icehe.me/mac_shortcuts/</loc>
     <lastmod>2016-03-25T12:45:31.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/index/</loc>
-    <lastmod>2016-03-25T12:44:44.000Z</lastmod>
   </url>
   
   <url>

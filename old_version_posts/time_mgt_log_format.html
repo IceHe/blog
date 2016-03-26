@@ -4,16 +4,18 @@
 
 <!DOCTYPE HTML>
 <html lang="default">
+
 <head>
 
-    <meta charset="UTF-8">
-    
-    <title>Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考 | Ice He 何志远</title>
+<meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+<title>Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考 | Ice He 何志远</title>
 
-    <meta name="author" content="IceHe何志远"> 
+<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 
+<meta name="author" content="IceHe何志远"> 
+
+<!-- Open Graph -->
 <meta name="description" content="原标题：《Explanations for Log Format - 日志记录格式说明》版本号：v1.2
 
 注: 笔者的 日志记录格式 一直在 根据实际使用需求 进行调整，可能最近的日志 会与本文描述 有所不同。
@@ -46,29 +48,29 @@ Intro 引言
 为笔者的 时间管理经验 作 个人总结，以资自勉。
 且为渐改 笔者过去 冗余繁杂 的 抒情行文风格，藉机练笔，以增">
 
-    <!-- Google Web Master Tool - Meta Tag Verification -->
-    <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
+<!-- Google Web Master Tool - Meta Tag Verification -->
+<meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
 
-    <!-- Weibo Open Platform - Meta Tag Verification -->
-    <meta property="wb:webmaster" content="84efd5956048ab8f" />
+<!-- Weibo Open Platform - Meta Tag Verification -->
+<meta property="wb:webmaster" content="84efd5956048ab8f" />
 
-    <!-- RSS -->
-    <link rel="alternative" href="/atom.xml" title="Ice He 何志远" type="application/atom+xml">
+<!-- RSS -->
+<link rel="alternative" href="/atom.xml" title="Ice He 何志远" type="application/atom+xml">
 
-    <!-- Icons -->
-    <link rel="icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon.ico">
-    <link rel="apple-touch-icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
-    <link rel="apple-touch-icon-precomposed" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+<!-- Icons -->
+<link rel="icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon.ico">
+<link rel="apple-touch-icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
+<link rel="apple-touch-icon-precomposed" href="http://7vzp68.com1.z0.glb.clouddn.com/common/jacman.jpg">
 
-    <!-- Font-awesome -->
-    <link href="//libs.cncdn.cn/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- Font-awesome -->
+<link href="//libs.cncdn.cn/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="/css/style.css" type="text/css">
-    <style type="text/css">
-        .center { text-align: center; }
-        .hidden { display: none; }
-    </style>
+<!-- CSS -->
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+<style type="text/css">
+    .center { text-align: center; }
+    .hidden { display: none; }
+</style>
 
 </head>
 
@@ -140,15 +142,11 @@ Intro 引言
     
     </p>
 
-    <p class="article-readtimes">
+    <p class="article-data">
 
-        <time datetime="2015-03-01T16:00:00.000Z" itemprop="datePublished">2015-03-02</time>&nbsp; / &nbsp;<span class="readtimes">?</span> views
+        <time class="article-time" datetime="2015-03-01T16:00:00.000Z" itemprop="datePublished">2015-03-02</time>&nbsp; / &nbsp;<span class="article-pageview">?</span> views
 
     </p>
-
-    <!--<p class="article-time">-->
-    <!--<time datetime="2015-03-01T16:00:00.000Z" itemprop="datePublished"> Pub 2015-03-02</time>-->
-    <!--</p>-->
 
 </header>
 
@@ -867,11 +865,11 @@ var duoshuoQuery = {short_name:"icehe"};
                         url = counter.get("url");
                         time = counter.get("time");
 
-                        article_info.find(".article-readtimes .readtimes").text(time);
+                        article_info.find(".article-pageview").text(time);
                     }
                 },
                 error: function(error) {
-                    article_info.find(".article-readtimes .readtimes").text("?");
+                    article_info.find(".article-pageview").text("?");
                     //alert("Error:" + error.code + " " + error.message);
                 }
             });
