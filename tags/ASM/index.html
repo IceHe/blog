@@ -391,8 +391,8 @@
     /* For the statistics of page views */
 
     AV.initialize(
-            "u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", // 应用 id
-            "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5" // 应用 key
+        "u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", // 应用 id
+        "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5" // 应用 key
     );
 
     function addCount(Counter) {
@@ -431,8 +431,11 @@
 
     $(function() {
         var Counter = AV.Object.extend("Counter");
-        // only increse visit counting when intering a page
-        if (1 == $('.article-title').length) {
+        // Only increse visit counting when it's a post
+        // and it's not the local site.
+        if (1 == $('.article-title').length
+            && (-1 != location.href.indexOf("icehe.me"))
+        ) {
             addCount(Counter);
         }
 

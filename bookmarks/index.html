@@ -20,7 +20,7 @@
 <meta property="og:url" content="http://icehe.me/bookmarks/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="我收藏的网站、博客、文档、学习资料、文章、问答、专栏…">
-<meta property="og:updated_time" content="2016-03-26T11:11:19.000Z">
+<meta property="og:updated_time" content="2016-03-26T12:16:44.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="My Bookmarks 书签">
 <meta name="twitter:description" content="我收藏的网站、博客、文档、学习资料、文章、问答、专栏…">
@@ -187,6 +187,8 @@
 <li><p><a href="http://tool.oschina.net/commons?type=3" target="_blank" rel="external">常用颜色对照表</a>、 <a href="http://www.divcss5.com/peise/" target="_blank" rel="external">网页设计常用色彩搭配表</a></p>
 </li>
 <li><p><a href="https://segmentfault.com/a/1190000004260458" target="_blank" rel="external">CSS之各种居中</a></p>
+</li>
+<li><p><a href="http://fontawesome.io/" target="_blank" rel="external">Font Awesome</a> / <a href="https://icomoon.io/#preview-free" target="_blank" rel="external">IcoMoon</a> —— Icon Font ( <a href="https://github.com/amfe/article/issues/2" target="_blank" rel="external">Discussion</a> )</p>
 </li>
 </ul>
 <h3 id="Dynamic_Cheat_Sheets"><a href="http://www.cheatography.com/" target="_blank" rel="external">Dynamic Cheat Sheets</a></h3><p><em>Need to screen the content of this section.</em> <sup><em>todo</em></sup></p>
@@ -412,6 +414,8 @@
 </li>
 </ul>
 <h2 id="Career_职业生涯">Career 职业生涯</h2><ul>
+<li><p><a href="http://benjiweber.co.uk/blog/2016/01/25/why-i-strive-to-be-a-0-1x-engineer/" target="_blank" rel="external">Why I Strive to be a 0.1x Engineer</a> —— 不折腾的哲学。</p>
+</li>
 <li><p><a href="https://www.zhihu.com/question/32039226" target="_blank" rel="external">为什么有些大公司技术弱爆了？</a></p>
 </li>
 <li><p><a href="http://coolshell.cn/articles/4506.html" target="_blank" rel="external">再谈「我是怎么招聘程序员的」（上）</a></p>
@@ -1204,8 +1208,8 @@ var duoshuoQuery = {short_name:"icehe"};
     /* For the statistics of page views */
 
     AV.initialize(
-            "u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", // 应用 id
-            "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5" // 应用 key
+        "u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", // 应用 id
+        "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5" // 应用 key
     );
 
     function addCount(Counter) {
@@ -1244,8 +1248,11 @@ var duoshuoQuery = {short_name:"icehe"};
 
     $(function() {
         var Counter = AV.Object.extend("Counter");
-        // only increse visit counting when intering a page
-        if (1 == $('.article-title').length) {
+        // Only increse visit counting when it's a post
+        // and it's not the local site.
+        if (1 == $('.article-title').length
+            && (-1 != location.href.indexOf("icehe.me"))
+        ) {
             addCount(Counter);
         }
 

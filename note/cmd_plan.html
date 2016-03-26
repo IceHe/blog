@@ -32,7 +32,7 @@
 [ ] /etc/hosts：左侧 ip，右侧域名。（脑残不止一两次了！）
 [ ] 「命令行的艺术」https://github.com/jlevy/the-art-of-command-line/blob/master/README.md
 [ ] sed http://cools">
-<meta property="og:updated_time" content="2016-03-17T09:26:54.000Z">
+<meta property="og:updated_time" content="2016-03-26T12:11:42.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Cmd Plan">
 <meta name="twitter:description" content="[ ] 0 Blg: CLI Note! #g
@@ -138,7 +138,7 @@
 
     <p class="article-data">
 
-        <time class="article-time" datetime="2016-03-17T09:26:54.000Z" itemprop="datePublished">2016-03-17</time>&nbsp; / &nbsp;<span class="article-pageview">?</span> views
+        <time class="article-time" datetime="2016-03-26T12:11:42.000Z" itemprop="datePublished">2016-03-26</time>&nbsp; / &nbsp;<span class="article-pageview">?</span> views
 
     </p>
 
@@ -149,7 +149,7 @@
     <div id="toc" class="toc-article">
         <strong class="toc-title">Contents</strong>
         
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#将代码从本地同步到服务端处"><span class="toc-text">将代码从本地同步到服务端处</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#将代码从服务端拷贝到本地来"><span class="toc-text">将代码从服务端拷贝到本地来</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Copy_File_&_Dir_to_another_dir"><span class="toc-text">Copy File & Dir to another dir</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#CentOS_6-5_Locale_Problem"><span class="toc-text">CentOS 6.5 Locale Problem</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#将代码从本地同步到服务端处"><span class="toc-text">将代码从本地同步到服务端处</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#将代码从服务端拷贝到本地来"><span class="toc-text">将代码从服务端拷贝到本地来</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Copy_File_&_Dir_to_another_dir"><span class="toc-text">Copy File & Dir to another dir</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#CentOS_6-5_Locale_Problem"><span class="toc-text">CentOS 6.5 Locale Problem</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#只显示常规目录"><span class="toc-text">只显示常规目录</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#只显示隐藏目录"><span class="toc-text">只显示隐藏目录</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#隐藏目录和非隐藏目录都显示"><span class="toc-text">隐藏目录和非隐藏目录都显示</span></a></li></ol>
         
     </div>
     
@@ -198,6 +198,9 @@
 <h1 id="CentOS_6-5_Locale_Problem">CentOS 6.5 Locale Problem</h1><p>Problem:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ locale&#10;locale: Cannot set LC_CTYPE to default locale: No such file or directory&#10;locale: Cannot set LC_ALL to default locale: ?????????&#10;LANG=zh_CN.UTF-8&#10;LC_CTYPE=UTF-8&#10;LC_NUMERIC=&#34;zh_CN.UTF-8&#34;&#10;LC_TIME=&#34;zh_CN.UTF-8&#34;&#10;LC_COLLATE=&#34;zh_CN.UTF-8&#34;&#10;LC_MONETARY=&#34;zh_CN.UTF-8&#34;&#10;LC_MESSAGES=&#34;zh_CN.UTF-8&#34;&#10;LC_PAPER=&#34;zh_CN.UTF-8&#34;&#10;LC_NAME=&#34;zh_CN.UTF-8&#34;&#10;LC_ADDRESS=&#34;zh_CN.UTF-8&#34;&#10;LC_TELEPHONE=&#34;zh_CN.UTF-8&#34;&#10;LC_MEASUREMENT=&#34;zh_CN.UTF-8&#34;&#10;LC_IDENTIFICATION=&#34;zh_CN.UTF-8&#34;&#10;LC_ALL=</span><br></pre></td></tr></table></figure></p>
 <p>Solution:<br>I think that what you want to do is type:<br><code>export LC_ALL=&quot;zh_CN.UTF-8&quot;</code><br>However i think it’s not recommended to do this because it will override all your other locale settings. One thing you might try to avoid that is setting it to an empty string. In theory, that value is allowed to be empty which just tells your computer to use the settings above it.<br>export LC_ALL=””<br>I have no idea if that will work, but it’s worth a shot.</p>
 <p>将这一句放到.zshrc等的Shell类的配置文件，<br><code>export LC_ALL=&quot;zh_CN.UTF-8&quot;</code><br>每次启动命令行，就都能正确本地化</p>
+<h1 id="只显示常规目录">只显示常规目录</h1><p>$ ls -d */<br>$ ls -F | grep /<br>$ ls -l | grep ^d<br>$ tree -dL 1</p>
+<h1 id="只显示隐藏目录">只显示隐藏目录</h1><p>$ ls -d .*/</p>
+<h1 id="隐藏目录和非隐藏目录都显示">隐藏目录和非隐藏目录都显示</h1><p>$ find -maxdepth 1 -type d</p>
 
 </div>
 
@@ -641,8 +644,8 @@ var duoshuoQuery = {short_name:"icehe"};
     /* For the statistics of page views */
 
     AV.initialize(
-            "u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", // 应用 id
-            "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5" // 应用 key
+        "u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", // 应用 id
+        "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5" // 应用 key
     );
 
     function addCount(Counter) {
@@ -681,8 +684,11 @@ var duoshuoQuery = {short_name:"icehe"};
 
     $(function() {
         var Counter = AV.Object.extend("Counter");
-        // only increse visit counting when intering a page
-        if (1 == $('.article-title').length) {
+        // Only increse visit counting when it's a post
+        // and it's not the local site.
+        if (1 == $('.article-title').length
+            && (-1 != location.href.indexOf("icehe.me"))
+        ) {
             addCount(Counter);
         }
 

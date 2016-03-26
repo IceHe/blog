@@ -250,7 +250,7 @@
 <li>「15」 <a href="/asm/Assembly Language - Note 15/">附录内容：汇编编译器对jmp的处理，地址计数器（AC），处理伪操作指令，栈传递参数，无溢出除法…</a></li>
 </ul>
 <h3 id="Mine"><a href="/about/">Mine</a></h3><hr>
-<p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#109;&#x61;&#x69;&#108;&#x74;&#x6f;&#58;&#120;&#x40;&#105;&#99;&#x65;&#104;&#101;&#x2e;&#109;&#101;">&#120;&#x40;&#105;&#99;&#x65;&#104;&#101;&#x2e;&#109;&#101;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
+<p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#x6d;&#97;&#105;&#108;&#116;&#111;&#58;&#x78;&#x40;&#x69;&#x63;&#x65;&#x68;&#101;&#46;&#109;&#101;">&#x78;&#x40;&#x69;&#x63;&#x65;&#x68;&#101;&#46;&#109;&#101;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
 <h3 id="Others">Others</h3><hr>
 <ul>
 <li>The article with superscript <sup><strong>me</strong></sup>&nbsp; implies it’s <code>about me</code>.</li>
@@ -1275,7 +1275,7 @@
     <link href="http://icehe.me/bookmarks/"/>
     <id>http://icehe.me/bookmarks/</id>
     <published>2015-12-19T16:00:00.000Z</published>
-    <updated>2016-03-26T11:11:19.000Z</updated>
+    <updated>2016-03-26T12:16:44.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>Updated on 2016-03-26</li>
 </ul>
@@ -1327,6 +1327,8 @@
 <li><p><a href="http://tool.oschina.net/commons?type=3" target="_blank" rel="external">常用颜色对照表</a>、 <a href="http://www.divcss5.com/peise/" target="_blank" rel="external">网页设计常用色彩搭配表</a></p>
 </li>
 <li><p><a href="https://segmentfault.com/a/1190000004260458" target="_blank" rel="external">CSS之各种居中</a></p>
+</li>
+<li><p><a href="http://fontawesome.io/" target="_blank" rel="external">Font Awesome</a> / <a href="https://icomoon.io/#preview-free" target="_blank" rel="external">IcoMoon</a> —— Icon Font ( <a href="https://github.com/amfe/article/issues/2" target="_blank" rel="external">Discussion</a> )</p>
 </li>
 </ul>
 <h3 id="Dynamic_Cheat_Sheets"><a href="http://www.cheatography.com/" target="_blank" rel="external">Dynamic Cheat Sheets</a></h3><p><em>Need to screen the content of this section.</em> <sup><em>todo</em></sup></p>
@@ -1552,6 +1554,8 @@
 </li>
 </ul>
 <h2 id="Career_职业生涯">Career 职业生涯</h2><ul>
+<li><p><a href="http://benjiweber.co.uk/blog/2016/01/25/why-i-strive-to-be-a-0-1x-engineer/" target="_blank" rel="external">Why I Strive to be a 0.1x Engineer</a> —— 不折腾的哲学。</p>
+</li>
 <li><p><a href="https://www.zhihu.com/question/32039226" target="_blank" rel="external">为什么有些大公司技术弱爆了？</a></p>
 </li>
 <li><p><a href="http://coolshell.cn/articles/4506.html" target="_blank" rel="external">再谈「我是怎么招聘程序员的」（上）</a></p>

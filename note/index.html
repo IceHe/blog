@@ -44,7 +44,7 @@ Health
 
 Grow
 3 学 English —— Rd, Write, Listen, Speak! D">
-<meta property="og:updated_time" content="2016-03-20T11:04:24.000Z">
+<meta property="og:updated_time" content="2016-03-26T12:11:59.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Note 笔记">
 <meta name="twitter:description" content="Todo
@@ -173,7 +173,7 @@ Grow
     
     <h2 id="Todo">Todo</h2><ul>
 <li><a href="/note/plan_2016.html">Plan 2016 !</a></li>
-<li><a href="/note/promotion_plan.html">Blog Promotion Plan</a></li>
+<li><a href="/note/promotion.html">Blog Promotion Plan</a></li>
 <li><a href="/bookmarks/">Bookmarks</a></li>
 </ul>
 <h3 id="Health">Health</h3><ul>
@@ -684,8 +684,8 @@ var duoshuoQuery = {short_name:"icehe"};
     /* For the statistics of page views */
 
     AV.initialize(
-            "u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", // 应用 id
-            "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5" // 应用 key
+        "u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", // 应用 id
+        "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5" // 应用 key
     );
 
     function addCount(Counter) {
@@ -724,8 +724,11 @@ var duoshuoQuery = {short_name:"icehe"};
 
     $(function() {
         var Counter = AV.Object.extend("Counter");
-        // only increse visit counting when intering a page
-        if (1 == $('.article-title').length) {
+        // Only increse visit counting when it's a post
+        // and it's not the local site.
+        if (1 == $('.article-title').length
+            && (-1 != location.href.indexOf("icehe.me"))
+        ) {
             addCount(Counter);
         }
 
