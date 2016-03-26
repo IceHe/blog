@@ -5,14 +5,11 @@ tags: [time mgt]
 description: Log Format时间日志格式。Principles原则，Transaction Categorees事务类别，Time Granularity时间粒度，Log Instance实例，Schedule规划。
 ---
 
-- *Updated on 2015-12-27*
+- Updated on 2015-12-27
 
-**原标题**：Explanations for Log Format - 日志记录格式说明
-**上一版**：[Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考](/old_version_posts/time_mgt_log_format.html)
-
-**链接：[我的所有时间管理日志](/lifelogs)**
-
-*时间管理日志格式一直根据实际使用进行调整，可能与本文描述不一致。*
+- 链接：《 [我的所有时间管理日志](/lifelogs) 》
+- 旧版：《 [Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考](/old_version_posts/time_mgt_log_format.html) 》
+- 补充： 时间管理日志格式一直根据实际使用进行调整，可能与本文描述不一致。
 
 # Principles 原则
 

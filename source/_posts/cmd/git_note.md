@@ -5,9 +5,8 @@ tags: [Command]
 description: 我的 Git 笔记，日常工作曾使用的指令组合。
 -----------------
 
-- *Updated on 2016-03-19*
-
-- *Omit the unusual commands at my work.*
+- Updated on 2016-03-19
+- Omit the unusual commands at my work.
 
 # References
 

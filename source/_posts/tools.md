@@ -5,15 +5,13 @@ tags: [Mac]
 description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommended Mac Apps . &nbsp; 以及科技产品、外设、用具等。
 ---
 
-- _Updated on 2016-03-10_
-
-_下文斜体文本为补充描述，可略过不读。_
+- Updated on 2016-03-10
+- 下文斜体文本为补充描述，可略过。
 
 # Software
 
-_以下除最后一小节，均为Mac平台下的软件。_
-
-- _推荐：[少数派](http://sspai.com/) —— 高质量 App 推荐媒体，关于 iOS、Mac、硬件。_
+- 以下除最后一小节，均为Mac平台下的软件。
+- 推荐：[少数派](http://sspai.com/) —— 高质量 App 推荐媒体，关于 iOS、Mac、硬件。
 
 ## Common
 

@@ -5,7 +5,7 @@ tags: [AppleScript]
 description: 在有编程基础的情况下，通过快速浏览示例代码，即可熟悉语法，快速入门 AppleScript。
 -----------------------------------------------------------
 
-- _Updated on 2016-03-13_
+- Updated on 2016-03-13
 
 # References
 

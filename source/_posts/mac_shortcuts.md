@@ -5,14 +5,13 @@ tags: [Mac]
 description: 我的 OS X 快捷键列表。
 ---------------------------
 
-- _Updated on 2016-03-23_
-
-- _Ref: 《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》_
+- Updated on 2016-03-23
+- Ref: 《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》
 
 # Explanation
 
-Not all shortcuts , but also my most frequent ones!
-Not only the default shortcuts, but alos the custom ones.
+- Not all shortcuts , but also my most frequent ones!
+- Not only the default shortcuts, but alos the custom ones.
 
 ## Key Characters
 

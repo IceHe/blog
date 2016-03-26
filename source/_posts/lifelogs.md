@@ -5,7 +5,7 @@ tags: [time mgt]
 description: 个人时间管理日志。
 ---
 
-- *Updated on 2016-03-01*
+- Updated on 2016-03-01
 
 ## Related
 
