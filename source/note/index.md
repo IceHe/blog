@@ -5,7 +5,7 @@ date: 2015-03-16
 ## Todo
 
 - [Plan 2016 !](/note/plan_2016.html)
-- [Blog Promotion Plan](/note/promotion_plan.html)
+- [Blog Promotion Plan](/note/promotion.html)
 - [Bookmarks](/bookmarks/)
 
 ### Health
