@@ -367,7 +367,7 @@
         if (1 == popular_list.length) {
             var query = new AV.Query(Counter);
             query.descending("time");
-            query.limit(15);
+            query.limit(20);
             query.find({
                 success: function(results) {
                     for(var i = 0; i < results.length; ++i) {
