@@ -84,12 +84,12 @@ description: 本博客的导航页。
 - [C++ Primer 5th - Note](/c++/C++ Primer 5th)
 - [C++ Interview Book - Note](/c++/C++ Interview Book)
 - [C++ Code Standards 编码规范 - Note](/c++/C++ Code Standards 编码标准)
-- Effective C++ Reading Note [「 1 」](/c++/Effective C++ - Reading Note 1)[「 2 」](/c++/Effective C++ - Reading Note 2)[「 3 」](/c++/Effective C++ - Reading Note 3)[「 4 」](/c++/Effective C++ - Reading Note 4)
+- Effective C++ - Note [「 1 」](/c++/Effective C++ - Reading Note 1)[「 2 」](/c++/Effective C++ - Reading Note 2)[「 3 」](/c++/Effective C++ - Reading Note 3)[「 4 」](/c++/Effective C++ - Reading Note 4)
 
 ### [JavaScript](/javascript/某次js代码优化过程)
 ---
 
-- [某次无聊的 JavaScript 代码 优化过程](/javascript/某次js代码优化过程)
+- [某次 JavaScript 代码优化过程](/javascript/某次js代码优化过程)
 
 ### [PHP](/categories/PHP)
 ---
