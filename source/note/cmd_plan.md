@@ -173,3 +173,18 @@ I have no idea if that will work, but it's worth a shot.
 将这一句放到.zshrc等的Shell类的配置文件，
 `export LC_ALL="zh_CN.UTF-8"`
 每次启动命令行，就都能正确本地化
+
+# 只显示常规目录
+
+$ ls -d */
+$ ls -F | grep /
+$ ls -l | grep ^d
+$ tree -dL 1
+
+# 只显示隐藏目录
+
+$ ls -d .*/
+
+# 隐藏目录和非隐藏目录都显示
+
+$ find -maxdepth 1 -type d
