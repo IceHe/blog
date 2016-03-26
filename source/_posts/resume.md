@@ -6,11 +6,8 @@ description: 我的简历。
 toc: false
 ---
 
-- _Updated on 2016-03-25_
-
-# Basic Info
- 
-- <i class="fa fa-user-secret">&nbsp;</i>&nbsp; __Ice He 何志远__
+- Updated on 2016-03-25
+- <i class="fa fa-user-secret">&nbsp;</i>&nbsp; __Ice He__ 何志远
 - <i class="fa fa-envelope">&nbsp;&nbsp;</i> __<x@icehe.me>__
 
 # Technology
