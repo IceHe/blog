@@ -20,7 +20,7 @@
 <meta property="og:url" content="http://icehe.me/favourites/index.html">
 <meta property="og:site_name" content="Ice He 何志远">
 <meta property="og:description" content="我喜欢的书籍、FM栏目、电影、电视剧、动画、游戏…">
-<meta property="og:updated_time" content="2016-03-26T10:46:47.000Z">
+<meta property="og:updated_time" content="2016-03-28T02:41:42.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="My Favourites 喜好">
 <meta name="twitter:description" content="我喜欢的书籍、FM栏目、电影、电视剧、动画、游戏…">
@@ -137,7 +137,7 @@
     </div>
     
     <ul>
-<li>Updated on 2016-03-19</li>
+<li>Updated on 2016-03-28</li>
 <li>玩过、看过的之中，最喜欢这些。</li>
 </ul>
 <h1 id="Books_书">Books 书</h1><ul>
@@ -384,7 +384,7 @@
 <li><p><strong><a href="https://movie.douban.com/review/7794549/" target="_blank" rel="external">亚人</a></strong></p>
 <p>  人性，理性。</p>
 </li>
-<li><p><a href="http://baike.baidu.com/view/15161941.htm?fromtitle=%E5%AF%84%E7%94%9F%E5%85%BD%E7%94%9F%E5%91%BD%E7%9A%84%E5%87%86%E5%88%&amp;fromid=15149279&amp;type=syn" target="_blank" rel="external">寄生兽</a>**</p>
+<li><p><a href="http://baike.baidu.com/view/15161941.htm?fromtitle=%E5%AF%84%E7%94%9F%E5%85%BD%E7%94%9F%E5%91%BD%E7%9A%84%E5%87%86%E5%88%&amp;fromid=15149279&amp;type=syn" target="_blank" rel="external">寄生兽</a></p>
 <p>  人性，自然。</p>
 </li>
 <li><p><a href="http://movie.douban.com/subject_search?search_text=%E5%89%91%E9%A3%8E%E4%BC%A0%E5%A5%87&amp;cat=1002" target="_blank" rel="external">剑风传奇</a></p>
@@ -1164,7 +1164,6 @@ var duoshuoQuery = {short_name:"icehe"};
         // if popularlist widget exists, add item to it.
         var popular_list = $('.popularlist');
         if (1 == popular_list.length) {
-//        if (false) {
             var query = new AV.Query(Counter);
             query.descending("time");
             query.limit(20);
@@ -1174,14 +1173,6 @@ var duoshuoQuery = {short_name:"icehe"};
                         var counter = results[i];
                         title = counter.get("title");
 
-//                        $('#popularlist_ul').append('<li><a href="'
-//                                + url + '" name="'
-//                                + title + '">'
-//                                + '<sup>'
-//                                + time + ' </sup> &nbsp;'
-//                                + title
-//                                + '</a></li>'
-//                        );
                         $('#popularlist_ul li:eq(' + i + ')').html('<a href="'
                                 + counter.get("url") + '" name="'
                                 + title + '">'
@@ -1191,9 +1182,6 @@ var duoshuoQuery = {short_name:"icehe"};
                                 + '</a>'
                         );
                     }
-//                    $('.popularlist').removeClass('hidden');
-//                    $('.popularlist').removeClass('hidden').addClass('fadeIn');
-//                    $('.popularlist').css('display', 'block').addClass('fadeIn');
                 },
                 error: function(error) {
                     //alert("Error:" + error.code + " " + error.message);

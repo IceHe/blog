@@ -690,7 +690,6 @@ var duoshuoQuery = {short_name:"icehe"};
         // if popularlist widget exists, add item to it.
         var popular_list = $('.popularlist');
         if (1 == popular_list.length) {
-//        if (false) {
             var query = new AV.Query(Counter);
             query.descending("time");
             query.limit(20);
@@ -700,14 +699,6 @@ var duoshuoQuery = {short_name:"icehe"};
                         var counter = results[i];
                         title = counter.get("title");
 
-//                        $('#popularlist_ul').append('<li><a href="'
-//                                + url + '" name="'
-//                                + title + '">'
-//                                + '<sup>'
-//                                + time + ' </sup> &nbsp;'
-//                                + title
-//                                + '</a></li>'
-//                        );
                         $('#popularlist_ul li:eq(' + i + ')').html('<a href="'
                                 + counter.get("url") + '" name="'
                                 + title + '">'
@@ -717,9 +708,6 @@ var duoshuoQuery = {short_name:"icehe"};
                                 + '</a>'
                         );
                     }
-//                    $('.popularlist').removeClass('hidden');
-//                    $('.popularlist').removeClass('hidden').addClass('fadeIn');
-//                    $('.popularlist').css('display', 'block').addClass('fadeIn');
                 },
                 error: function(error) {
                     //alert("Error:" + error.code + " " + error.message);

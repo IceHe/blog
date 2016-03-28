@@ -50,7 +50,7 @@ Week | Range | Study
 03 11 03/14 ~ 03/20 +1 X
 
 04 1">
-<meta property="og:updated_time" content="2016-03-18T06:59:29.000Z">
+<meta property="og:updated_time" content="2016-03-28T08:08:31.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Plan 2016!">
 <meta name="twitter:description" content="Bilibili 大作战 ！现在效率太低了！必须来个马拉松！
@@ -165,7 +165,7 @@ Week | Range | Study
 
     <p class="article-data">
 
-        <time class="article-time" datetime="2016-03-18T06:59:29.000Z" itemprop="datePublished">2016-03-18</time>&nbsp; / &nbsp;<span class="article-pageview">?</span> views
+        <time class="article-time" datetime="2016-03-28T08:08:31.000Z" itemprop="datePublished">2016-03-28</time>&nbsp; / &nbsp;<span class="article-pageview">?</span> views
 
     </p>
 
@@ -196,7 +196,7 @@ Week | Range | Study
 </li>
 <li><p>04 12 03/21 ~ 03/27 Cmd X</p>
 </li>
-<li><p>05 13 03/28 ~ 04/03 +1</p>
+<li><p>05 13 03/28 ~ 04/03 +1 X</p>
 </li>
 <li><p>06 14 04/04 ~ 04/10 Shell Script</p>
 </li>
@@ -726,7 +726,6 @@ var duoshuoQuery = {short_name:"icehe"};
         // if popularlist widget exists, add item to it.
         var popular_list = $('.popularlist');
         if (1 == popular_list.length) {
-//        if (false) {
             var query = new AV.Query(Counter);
             query.descending("time");
             query.limit(20);
@@ -736,14 +735,6 @@ var duoshuoQuery = {short_name:"icehe"};
                         var counter = results[i];
                         title = counter.get("title");
 
-//                        $('#popularlist_ul').append('<li><a href="'
-//                                + url + '" name="'
-//                                + title + '">'
-//                                + '<sup>'
-//                                + time + ' </sup> &nbsp;'
-//                                + title
-//                                + '</a></li>'
-//                        );
                         $('#popularlist_ul li:eq(' + i + ')').html('<a href="'
                                 + counter.get("url") + '" name="'
                                 + title + '">'
@@ -753,9 +744,6 @@ var duoshuoQuery = {short_name:"icehe"};
                                 + '</a>'
                         );
                     }
-//                    $('.popularlist').removeClass('hidden');
-//                    $('.popularlist').removeClass('hidden').addClass('fadeIn');
-//                    $('.popularlist').css('display', 'block').addClass('fadeIn');
                 },
                 error: function(error) {
                     //alert("Error:" + error.code + " " + error.message);
