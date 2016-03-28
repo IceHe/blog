@@ -81,7 +81,7 @@ toc: false
 
 ## **华工学生职业发展协会 - 综合事务部 - 成员** &nbsp; &nbsp; *2011.09 ~ 2012.06*
 - 说服广州信诚人寿 HR 负责人为 「超完美计划培训营」 优胜者提供岗位：经理人 2 个、实习生 10 个
-- 说服南方报业集团传媒研究院为「职协企观月活动提供 40 个免费参观南方报业集团的名额
+- 说服南方报业集团传媒研究院为「职协企观月」活动提供 40 个免费参观南方报业集团的名额
 - 举办 「就业服务月之公关危机」 比赛（纪念第一次办比赛，虽小）
 
 # Education
@@ -107,6 +107,7 @@ toc: false
 - <i class="fa fa-gears">&nbsp;</i> [Tools &nbsp; 使用的工具](/tools)
 - <i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;[Bookmarks &nbsp; 书签](/bookmarks)
 - <i class="fa fa-heart-o">&nbsp;</i> [Favourites &nbsp; 喜好](/favourites)
+- <i class="fa fa-linkedin-square">&nbsp;</i>&nbsp; [Linkedin &nbsp; 领英](http://www.linkedin.com/in/%E5%BF%97%E8%BF%9C-%E4%BD%95-3ba09192)
 
 <style type="text/css">
 article .article-content h2 {
