@@ -290,6 +290,8 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [Why I Strive to be a 0.1x Engineer](http://benjiweber.co.uk/blog/2016/01/25/why-i-strive-to-be-a-0-1x-engineer/) —— 不折腾的哲学。
 
+- [高薪的人都有哪些特质？](http://v.qq.com/boke/gplay/2b442d85914f70c4319a98f09ddbd54d_q020000017nmqu1_0_w019013i0lx.html) —— 职人介绍所第10期。
+
 - [为什么有些大公司技术弱爆了？](https://www.zhihu.com/question/32039226)
 
 - [再谈「我是怎么招聘程序员的」（上）](http://coolshell.cn/articles/4506.html)
