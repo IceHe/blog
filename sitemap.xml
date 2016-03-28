@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://icehe.me/resume/</loc>
+    <lastmod>2016-03-28T15:12:04.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/bookmarks/</loc>
+    <lastmod>2016-03-28T12:40:28.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/note/index.html</loc>
+    <lastmod>2016-03-28T10:14:55.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://icehe.me/note/plan_2016.html</loc>
     <lastmod>2016-03-28T08:08:31.000Z</lastmod>
   </url>
@@ -12,23 +27,8 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/bookmarks/</loc>
-    <lastmod>2016-03-26T12:16:44.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/note/index.html</loc>
-    <lastmod>2016-03-26T12:11:59.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://icehe.me/note/cmd_plan.html</loc>
     <lastmod>2016-03-26T12:11:42.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/resume/</loc>
-    <lastmod>2016-03-26T11:21:26.000Z</lastmod>
   </url>
   
   <url>
