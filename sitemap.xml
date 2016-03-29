@@ -2,13 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://icehe.me/resume/</loc>
-    <lastmod>2016-03-28T15:12:04.000Z</lastmod>
+    <loc>http://icehe.me/bookmarks/</loc>
+    <lastmod>2016-03-29T06:10:07.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://icehe.me/bookmarks/</loc>
-    <lastmod>2016-03-28T12:40:28.000Z</lastmod>
+    <loc>http://icehe.me/tools/</loc>
+    <lastmod>2016-03-29T03:25:20.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/resume/</loc>
+    <lastmod>2016-03-28T15:12:04.000Z</lastmod>
   </url>
   
   <url>
@@ -174,11 +179,6 @@
   <url>
     <loc>http://icehe.me/web/build_blog/</loc>
     <lastmod>2016-03-26T10:50:01.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/tools/</loc>
-    <lastmod>2016-03-26T10:48:43.000Z</lastmod>
   </url>
   
   <url>
