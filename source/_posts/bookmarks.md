@@ -383,6 +383,8 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [马云的缺陷是什么？](https://www.zhihu.com/question/35670576/answer/64989492) —— 当年阿里巴巴的「十八罗汉」甘愿跟着马云，并不是因为马云能打鸡血、“忽悠”……
 
+- [论底层青年如何逆袭到中上阶层：什么是命？如何革你的命？](https://www.douban.com/note/502334634/) —— 家世的积累，是你的起点。
+
 - [我们这一代人的困惑](http://mp.weixin.qq.com/s?__biz=MzA3OTQ4NDkxOA==&amp;mid=202075659&amp;idx=1&amp;sn=350db3032e8f3dca423ba6b93935e33a&amp;scene=0#rd) —— 大部分人的梦想永远都实现不了。
 
 - [精致的利己主义者和常青藤的绵羊](http://mp.weixin.qq.com/s?__biz=MjM5NzExOTE2Ng==&mid=208583700&idx=1&sn=9bb0ea491064b3ffb93e7f24f9fc04a3&scene=5#rd) —— 中西。
@@ -488,6 +490,8 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 - [洗牙到底安全不安全？](https://www.zhihu.com/question/21031894) —— 有益，不贵。
 
 - [如何从小到大保护好牙齿？](https://www.zhihu.com/question/20632901?from=singlemessage&isappinstalled1)
+
+- [午餐后如何洁齿护牙清理口腔，尤其上班族？](https://www.zhihu.com/question/30359724) —— 饭后刷牙！
 
 - [正确坐姿](http://mp.weixin.qq.com/s?__biz=MjM5NzA1MTcyMA==&mid=204444629&idx=1&sn=cbab111041ec4302c8faac4aedf55a94&scene=0#rd) —— 腰椎、颈椎。
 
