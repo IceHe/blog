@@ -26,6 +26,7 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 - [Shawdowsocks](https://portal.shadowsocks.com/)
 
     首推的番羽土啬工具。Mac 上配合 [ShadowsocksX](#System_Tools) 使用。
+    备选方案：VPN + CHNRoute + Dnsmasq。
 
 - [Firefox](http://www.firefox.com.cn/)
 
