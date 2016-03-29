@@ -5,7 +5,7 @@ tags: [read]
 description: 我收藏的网站、博客、文档、学习资料、文章、问答、专栏…
 ---
 
-- Updated on 2016-03-26
+- Updated on 2016-03-29
 
 # IT 信息技术
 
@@ -572,6 +572,8 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 - [为什么不从小就向孩子还原社会的残酷？](https://www.zhihu.com/question/21603465)
 
 - [如何对孩子的无理要求说「不」？](https://www.zhihu.com/question/19621705)
+
+- [问答：“爸爸，你说我长大后会有出息吗？”](http://mp.weixin.qq.com/s?__biz=MzI0MTEyMjk4Ng==&amp;mid=403265724&amp;idx=1&amp;sn=10d504fcd74a6c6d1bcca10d20d61cb0&amp;scene=1&amp;srcid=0327ZjFs3vG2A7zRSLKY8mkl#rd)
 
 - [我是怎么找电子书的？](http://mp.weixin.qq.com/s?__biz=MzA4MjMwODUwNQ==&mid=402644191&idx=2&sn=b1cce3992ff6f10eb9e4026d621724a1&scene=1&srcid=0202z7nxM3czSEJ0TUhH5VtX#rd) <sup>_todo_</sup>
 
