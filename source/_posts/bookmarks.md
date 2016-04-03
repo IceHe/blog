@@ -5,7 +5,7 @@ tags: [read]
 description: 我收藏的网站、博客、文档、学习资料、文章、问答、专栏…
 ---
 
-- Updated on 2016-03-29
+- Updated on 2016-04-03
 
 # IT 信息技术
 
@@ -308,6 +308,8 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 - [SteveY对Amazon和Google平台的吐槽](http://coolshell.cn/articles/5701.html) —— [Steve Yegge](https://en.wikipedia.org/wiki/Steve_Yegge)。 <sup>__Best__</sup>
 
 - [链家全解剖：必须佩服、也必须警惕的巨无霸](http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;mid=403155826&amp;idx=1&amp;sn=e4956bccff521a20b7f84f446de0c751&amp;scene=1&amp;srcid=1221RF2fINJ6tweWs2r4CRg9#rd) <sup>__Best__</sup>
+
+- [链家模式](http://mp.weixin.qq.com/s?__biz=MzI1MzE4NDg0MA==&mid=404328133&idx=1&sn=09d01bfebe463ecf296ac0caab8290c7&scene=2&srcid=0402B8XsxTGjY4kb7oMHbCLH&from=timeline&isappinstalled=0) —— 《逆天的链家又摊上事了，30G多达百万人隐私信息，惊现政府公务员名单》
 
 - [科技公司十大最愚蠢的错误](http://coolshell.cn/articles/1295.html)
 
