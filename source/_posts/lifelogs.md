@@ -5,7 +5,7 @@ tags: [time mgt]
 description: 个人时间管理日志。
 ---
 
-- Updated on 2016-03-01
+- Updated on 2016-04-04
 
 ## Related
 
@@ -37,3 +37,4 @@ description: 个人时间管理日志。
 
 1. [一月：月光，学习。 Jan: use up, learn.](/lifelogs/2016/01/index.html)
 2. [二月：休息，懒。 Feb: Relax, lazy.](/lifelogs/2016/02/index.html)
+3. [三月：迷乱，迁居。 Mar: confused, move house.](/lifelogs/2016/03/index.html)
