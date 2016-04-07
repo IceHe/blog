@@ -26,7 +26,7 @@
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/git%2Fgit_merge_result_00.png">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/git%2Fgit_rebase_result_00.png">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/git%2Fgit_merge_after_rebase_00.png">
-<meta property="og:updated_time" content="2016-03-26T08:28:56.000Z">
+<meta property="og:updated_time" content="2016-04-07T09:34:51.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git Note">
 <meta name="twitter:description" content="我的 Git 笔记，日常工作曾使用的指令组合。">
@@ -143,7 +143,7 @@
     </div>
     
     <ul>
-<li>Updated on 2016-03-19</li>
+<li>Updated on 2016-04-07</li>
 <li>Omit the unusual commands at my work.</li>
 </ul>
 <h1 id="References">References</h1><ul>
@@ -177,7 +177,7 @@
 <h2 id="Back_反悔">Back 反悔</h2><ul>
 <li><p>File 文件</p>
 <p>  <code>git checkout &lt;file_path&gt;</code> 将已被修改的文件恢复到上一次提交的状态。<br>  <code>git checkout &lt;commit_id&gt; &lt;file_path&gt;</code> 将已被修改的文件恢复到指定版本的状态。</p>
-<p>  <code>git reset HEAD &lt;file_path&gt;</code> 取消该文件的暂存状态（staged，即等待被 commit 的状态）。<br>  <code>git reset &lt;commit_id&gt; &lt;file_path&gt;</code> 取消该文件的暂存状态，将其 HEAD 指针移到指定 commit_id 的版本。<br><br></p>
+<p>  <code>git reset</code> 取消所有文件的暂存状态（staged，即等待被 commit 的状态）。<br>  <code>git reset HEAD &lt;file_path&gt;</code> 取消该文件的暂存状态。<br>  <code>git reset &lt;commit_id&gt; &lt;file_path&gt;</code> 取消该文件的暂存状态，将其 HEAD 指针移到指定 commit_id 的版本。<br><br></p>
 </li>
 <li><p>Commit 提交</p>
 <p>  <code>git commit --amend</code> 上一次提交的内容有误，对其进行补充或更正。</p>
