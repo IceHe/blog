@@ -5,7 +5,7 @@ tags: [Mac]
 description: 我的 OS X 快捷键列表。
 ---------------------------
 
-- Updated on 2016-03-23
+- Updated on 2016-04-07
 - Ref: 《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》
 
 # Explanation
@@ -183,6 +183,7 @@ Some are modified by App [Karabiner](#Karabiner).
     `⌘ z` Undo
     __`⌘ ⇧ Z` Redo__
     `⌘ c` Copy
+    __`⌘ ⌥ c` Copy Path ( of the selected file! )__
     `⌘ v` Paste
     `⌘ ⌥ v` Mv ( After `⌘ c` )
 
