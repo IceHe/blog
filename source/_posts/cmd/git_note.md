@@ -5,7 +5,7 @@ tags: [Command]
 description: 我的 Git 笔记，日常工作曾使用的指令组合。
 -----------------
 
-- Updated on 2016-03-19
+- Updated on 2016-04-07
 - Omit the unusual commands at my work.
 
 # References
@@ -69,7 +69,8 @@ description: 我的 Git 笔记，日常工作曾使用的指令组合。
     `git checkout <file_path>` 将已被修改的文件恢复到上一次提交的状态。
     `git checkout <commit_id> <file_path>` 将已被修改的文件恢复到指定版本的状态。
 
-    `git reset HEAD <file_path>` 取消该文件的暂存状态（staged，即等待被 commit 的状态）。
+    `git reset` 取消所有文件的暂存状态（staged，即等待被 commit 的状态）。
+    `git reset HEAD <file_path>` 取消该文件的暂存状态。
     `git reset <commit_id> <file_path>` 取消该文件的暂存状态，将其 HEAD 指针移到指定 commit_id 的版本。<br/><br/>
 
 - Commit 提交
