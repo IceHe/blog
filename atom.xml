@@ -250,7 +250,7 @@
 <li>「15」 <a href="/asm/Assembly Language - Note 15/">附录内容：汇编编译器对jmp的处理，地址计数器（AC），处理伪操作指令，栈传递参数，无溢出除法…</a></li>
 </ul>
 <h3 id="Mine"><a href="/about/">Mine</a></h3><hr>
-<p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#x6d;&#97;&#x69;&#x6c;&#116;&#x6f;&#x3a;&#x78;&#x40;&#x69;&#99;&#101;&#x68;&#101;&#46;&#x6d;&#x65;">&#x78;&#x40;&#x69;&#99;&#101;&#x68;&#101;&#46;&#x6d;&#x65;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
+<p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#111;&#x3a;&#120;&#x40;&#105;&#x63;&#x65;&#104;&#x65;&#46;&#x6d;&#101;">&#120;&#x40;&#105;&#x63;&#x65;&#104;&#x65;&#46;&#x6d;&#101;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
 <h3 id="Others">Others</h3><hr>
 <ul>
 <li>The article with superscript <sup><strong>me</strong></sup>&nbsp; implies it’s <code>about me</code>.</li>
@@ -729,9 +729,9 @@
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
-    <updated>2016-03-26T10:47:58.000Z</updated>
+    <updated>2016-04-07T09:25:54.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li>Updated on 2016-03-23</li>
+<li>Updated on 2016-04-07</li>
 <li>Ref: 《 <a href="https://support.apple.com/zh-cn/HT201236" target="_blank" rel="external">Mac 键盘快捷键</a> 》</li>
 </ul>
 <h1 id="Explanation">Explanation</h1><ul>
@@ -804,7 +804,7 @@
 <li><p>Edit</p>
 <p>  <code>⌘ f</code> Search<br>  <strong><code>⌘ g</code> Next Match</strong><br>  <strong><code>⌘ ⇧ G</code> Prev Match</strong></p>
 <p>  <code>⌥ ←</code> Prev Word<br>  <code>⌥ →</code> Next Word</p>
-<p>  <code>⌘ a</code> Select All<br>  <code>⌘ z</code> Undo<br>  <strong><code>⌘ ⇧ Z</code> Redo</strong><br>  <code>⌘ c</code> Copy<br>  <code>⌘ v</code> Paste<br>  <code>⌘ ⌥ v</code> Mv ( After <code>⌘ c</code> )</p>
+<p>  <code>⌘ a</code> Select All<br>  <code>⌘ z</code> Undo<br>  <strong><code>⌘ ⇧ Z</code> Redo</strong><br>  <code>⌘ c</code> Copy<br>  <strong><code>⌘ ⌥ c</code> Copy Path ( of the selected file! )</strong><br>  <code>⌘ v</code> Paste<br>  <code>⌘ ⌥ v</code> Mv ( After <code>⌘ c</code> )</p>
 <ul>
 <li>After Selection<br><code>⌘ b</code> Bold<br><code>⌘ u</code> Underline<br><code>⌘ i</code> Italic<br><code>⌘ +</code> Bigger | Zoom In<br><code>⌘ -</code> Smaller | Zoom Out</li>
 </ul>
