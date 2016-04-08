@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://icehe.me/tools/</loc>
+    <lastmod>2016-04-08T10:00:40.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://icehe.me/mac_shortcuts/</loc>
     <lastmod>2016-04-08T02:24:03.000Z</lastmod>
   </url>
@@ -42,11 +47,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d27.html</loc>
-    <lastmod>2016-04-04T10:34:15.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2016/03/d28.html</loc>
     <lastmod>2016-04-04T10:34:15.000Z</lastmod>
   </url>
@@ -57,12 +57,17 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d25.html</loc>
-    <lastmod>2016-04-04T10:34:14.000Z</lastmod>
+    <loc>http://icehe.me/lifelogs/2016/03/d27.html</loc>
+    <lastmod>2016-04-04T10:34:15.000Z</lastmod>
   </url>
   
   <url>
     <loc>http://icehe.me/lifelogs/2016/03/d26.html</loc>
+    <lastmod>2016-04-04T10:34:14.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2016/03/d25.html</loc>
     <lastmod>2016-04-04T10:34:14.000Z</lastmod>
   </url>
   
@@ -107,12 +112,12 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d16.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/03/d15.html</loc>
     <lastmod>2016-04-04T10:34:10.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d15.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/03/d16.html</loc>
     <lastmod>2016-04-04T10:34:10.000Z</lastmod>
   </url>
   
@@ -167,12 +172,12 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d03.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/03/d04.html</loc>
     <lastmod>2016-04-04T10:34:04.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d04.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/03/d03.html</loc>
     <lastmod>2016-04-04T10:34:04.000Z</lastmod>
   </url>
   
@@ -189,11 +194,6 @@
   <url>
     <loc>http://icehe.me/bookmarks/</loc>
     <lastmod>2016-04-03T09:11:16.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/tools/</loc>
-    <lastmod>2016-03-29T03:25:20.000Z</lastmod>
   </url>
   
   <url>
