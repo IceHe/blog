@@ -12,6 +12,7 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
 - 以下除最后一小节，均为Mac平台下的软件。
 - 推荐：[少数派](http://sspai.com/) —— 高质量 App 推荐媒体，关于 iOS、Mac、硬件。
+- [一日一技 ](http://sspai.com/tag/%E4%B8%80%E6%97%A5%E4%B8%80%E6%8A%80/?page=1) —— Mac 小技巧。
 
 ## Common
 
