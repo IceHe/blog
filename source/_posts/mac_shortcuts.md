@@ -5,7 +5,7 @@ tags: [Mac]
 description: 我的 OS X 快捷键列表。
 ---------------------------
 
-- Updated on 2016-04-07
+- Updated on 2016-04-08
 - Ref: 《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》
 
 # Explanation
@@ -255,9 +255,16 @@ __`⌘ ⇧ 2` Translate Selection__
 
     __`⌘ ^ s` Sync__
 
+    __`⌘ ⌥ f` Search in Notes__
+    __`⌘ j` Switch to a Note or Notebook__
+    `⌘ ⇧ j` Switch Notebook
+
     __`⌘ l` Edit Note Title__
     __`⌘ ^ m` Mv Note to the select Notebook__
     __`⌘ ⇧ I` Get Note Info__
+
+    __`⌘ +` Zoom In__
+    __`⌘ -` Zoom Out__
 
 - Edit
 
