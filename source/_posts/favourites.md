@@ -5,7 +5,7 @@ tags: [read]
 description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游戏…
 ---
 
-- Updated on 2016-03-28
+- Updated on 2016-04-10
 - 玩过、看过的之中，最喜欢这些。
 
 # Books 书
@@ -99,13 +99,15 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 # FM 播客
 
+尽量使用 Podcast 等泛用型播客客户端订阅为佳。
+
 - [飞碟说](http://www.feidieshuo.com/)
 
-    选取社会热点为话题，用有趣的方式，对各种热点知识进行科普解说的动画脱口秀节目，风格诙谐、重口、无下限。 &nbsp;*@喜马拉雅FM*
+    选取社会热点为话题，用有趣的方式，对各种热点知识进行科普解说的动画脱口秀节目，风格诙谐、重口、无下限。 &nbsp;_@喜马拉雅FM_
 
 - [又一课](http://www.you1ke.com/)
 
-    罗辑思维出品，发现有趣的人，看到有趣的事，开拓眼界。 &nbsp;*@喜马拉雅FM*
+    罗辑思维出品，发现有趣的人，看到有趣的事，开拓眼界。 &nbsp;_@喜马拉雅FM_
 
 - [罗辑思维](http://www.luofans.com/)
 
@@ -113,57 +115,59 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 - [锵锵三人行](http://phtv.ifeng.com/program/qqsrx/#01e74c9c-c77b-404f-958a-96e513ab1e00)
 
-    独处的日子听，也可以听到高质量的谈话，改善自己的待人接物，拓宽知识与见解。 &nbsp;*@凤凰FM*
+    独处的日子听，也可以听到高质量的谈话，改善自己的待人接物，拓宽知识与见解。 &nbsp;_@凤凰FM_
 
 - [南都之声](http://diantai.ifeng.com/index.php/public/programnavDetails?pid=83069)
 
-    「有温度的城市生活。」 &nbsp;*@凤凰FM*
+    「有温度的城市生活。」 &nbsp;_@凤凰FM_
 
 - [三联听周刊](http://diantai.ifeng.com/index.php/#!/category/1/76316)
 
-    「三联生活周刊，一本杂志和他倡导的生活。」 &nbsp;*@喜马拉雅FM*
+    「三联生活周刊，一本杂志和他倡导的生活。」 &nbsp;_@喜马拉雅FM_
 
 - [凤凰周刊有声故事](http://diantai.ifeng.com/index.php/#!/category/1/65619)
 
-    政治、经济、外交等专题文章的有声版，「传递影响时代的声音」。 &nbsp;*@凤凰FM*
+    政治、经济、外交等专题文章的有声版，「传递影响时代的声音」。 &nbsp;_@凤凰FM_
 
 - [一千零一夜](http://v.baidu.com/show/12190.htm?fr=ala9&ty=26)
 
     梁文道的读书体悟。
 
-- [冬吴相对论](http://baike.baidu.com/link?url=5NbvRBuZzEb7ua9GywfrfeEVlbhPa-dnrwE7jnw0Mj9cv_2LWdqdl7_PBOW3bbROb2EKx91H4BHP7f-CJP9paZvdY7Yp3xMdK7-9SKQPC) *（已停播）*
+- [冬吴相对论](http://baike.baidu.com/link?url=5NbvRBuZzEb7ua9GywfrfeEVlbhPa-dnrwE7jnw0Mj9cv_2LWdqdl7_PBOW3bbROb2EKx91H4BHP7f-CJP9paZvdY7Yp3xMdK7-9SKQPC) _（已停播）_
 
     谈论时事热点、经济现象，是由正安康健创始人梁冬与21世纪商业评论主编吴伯凡主持的谈话节目。
 
-- [总裁在线](http://finance.ifeng.com/business/special/zczx108/) *（其播客停更）*
+- [总裁在线](http://finance.ifeng.com/business/special/zczx108/) _（其播客停更）_
 
-    知名企业家、创业者、国企高管的访谈节目。 &nbsp;*@凤凰FM*
+    知名企业家、创业者、国企高管的访谈节目。 &nbsp;_@凤凰FM_
 
 - [许川知乎时间](http://www.ximalaya.com/1740592/album/276787)
 
-    刷知乎也还是太浪费时间了，可以听是更好的选择。 &nbsp;*@企鹅FM*
-
-- [口语天天练](http://www.ximalaya.com/17360770/album/305415)
-
-    将就够用的英语学习类节目，知识密度不高，学习强度低。毕竟听FM都在一心二用的时候，不经意中复习或者学到一个词组短语已经很不错。 &nbsp;*@企鹅FM*
+    刷知乎也还是太浪费时间了，可以听是更好的选择。 &nbsp;_@企鹅FM_
 
 - [充电时间](http://www.ximalaya.com/zhubo/15450066/)
 
-    频道：知乎哲野、专栏精粹、TMT创业者、电商治愈系、文化媒体人、资深管理人、进击的PM、左脑时刻、营销方法论、销售行为学。*（Loud News 旗下的系列节目） &nbsp; @喜马拉雅FM*
+    频道：知乎哲野、专栏精粹、TMT创业者、电商治愈系、文化媒体人、资深管理人、进击的PM、左脑时刻、营销方法论、销售行为学。_（Loud News 旗下的系列节目） &nbsp; @喜马拉雅FM_
 
 - [太医来了](http://ipn.li/taiyilaile/)
 
-    主打健康、饮食、身体、医疗等常识的科普，干货满满，听完收益颇丰。*（IPN 旗下播客节目） &nbsp; @Podcasts*
+    主打健康、饮食、身体、医疗等常识的科普，干货满满，听完收益颇丰。_（IPN 旗下播客节目） &nbsp; @Podcasts_
 
 - [内核恐慌](http://ipn.li/kernelpanic/)
 
-    Kernel Panic ，讨论关于软件开发各种话题的谈话节目。*（IPN 旗下播客节目） &nbsp; @Podcasts*
+    Kernel Panic ，讨论关于软件开发各种话题的谈话节目。_（IPN 旗下播客节目） &nbsp; @Podcasts_
+
+- 情感信箱
+
+    偷听女人心。 &nbsp; _@企鹅FM_
 
 # WeChat OA 公众号
 
 - __PHP开发者__
 
 - [鹅厂网事](http://chuansong.me/account/tencent_network)
+
+- [聊聊架构](http://chuansong.me/account/archtime)
 
     技术干货。
 
@@ -195,6 +199,10 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
     两性情感。
 
+- [KnowYourself](http://chuansong.me/account/knowyourself2015 "Test")
+
+    励志心理。
+
 - [杜绍斐](https://www.zhihu.com/people/shaofeidu)
 
     男士穿着、时尚、趣闻。
@@ -210,10 +218,6 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 - [爱迪生商业实验室](http://zhuanlan.zhihu.com/edisonlab)
 
     商业独见。
-
-- [李叫兽](http://chuansong.me/account/Professor-Li)
-
-    商业，文案。
 
 # TV Dramas 电视剧
 
