@@ -250,7 +250,7 @@
 <li>「15」 <a href="/asm/Assembly Language - Note 15/">附录内容：汇编编译器对jmp的处理，地址计数器（AC），处理伪操作指令，栈传递参数，无溢出除法…</a></li>
 </ul>
 <h3 id="Mine"><a href="/about/">Mine</a></h3><hr>
-<p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#109;&#97;&#105;&#108;&#116;&#x6f;&#58;&#120;&#x40;&#x69;&#99;&#101;&#104;&#x65;&#x2e;&#109;&#101;">&#120;&#x40;&#x69;&#99;&#101;&#104;&#x65;&#x2e;&#109;&#101;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
+<p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#x6d;&#97;&#x69;&#108;&#116;&#x6f;&#58;&#x78;&#64;&#105;&#x63;&#101;&#x68;&#101;&#x2e;&#x6d;&#101;">&#x78;&#64;&#105;&#x63;&#101;&#x68;&#101;&#x2e;&#x6d;&#101;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
 <h3 id="Others">Others</h3><hr>
 <ul>
 <li>The article with superscript <sup><strong>me</strong></sup>&nbsp; implies it’s <code>about me</code>.</li>
@@ -1871,7 +1871,7 @@
     <link href="http://icehe.me/tools/"/>
     <id>http://icehe.me/tools/</id>
     <published>2015-11-20T16:00:00.000Z</published>
-    <updated>2016-04-08T10:00:40.000Z</updated>
+    <updated>2016-04-08T10:17:53.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>Updated on 2016-04-08</li>
 <li>下文斜体文本为补充描述，可略过。</li>
@@ -1879,6 +1879,7 @@
 <h1 id="Software">Software</h1><ul>
 <li>以下除最后一小节，均为Mac平台下的软件。</li>
 <li>推荐：<a href="http://sspai.com/" target="_blank" rel="external">少数派</a> —— 高质量 App 推荐媒体，关于 iOS、Mac、硬件。</li>
+<li><a href="http://sspai.com/tag/%E4%B8%80%E6%97%A5%E4%B8%80%E6%8A%80/?page=1" target="_blank" rel="external">一日一技 </a> —— Mac 小技巧。</li>
 </ul>
 <h2 id="Common">Common</h2><ul>
 <li><p><a href="https://www.yinxiang.com/" target="_blank" rel="external">Evernote (Premium)</a></p>
@@ -2250,9 +2251,9 @@ article .article-content ul li p:first-child {
     <link href="http://icehe.me/favourites/"/>
     <id>http://icehe.me/favourites/</id>
     <published>2015-11-18T16:00:00.000Z</published>
-    <updated>2016-03-28T02:41:42.000Z</updated>
+    <updated>2016-04-10T14:39:50.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li>Updated on 2016-03-28</li>
+<li>Updated on 2016-04-10</li>
 <li>玩过、看过的之中，最喜欢这些。</li>
 </ul>
 <h1 id="Books_书">Books 书</h1><ul>
@@ -2326,7 +2327,8 @@ article .article-content ul li p:first-child {
 <li><p><span class="val_pos icon-douban"> &nbsp;<a href="http://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">…其它读过的书…</a></span></p>
 </li>
 </ul>
-<h1 id="FM_播客">FM 播客</h1><ul>
+<h1 id="FM_播客">FM 播客</h1><p>尽量使用 Podcast 等泛用型播客客户端订阅为佳。</p>
+<ul>
 <li><p><a href="http://www.feidieshuo.com/" target="_blank" rel="external">飞碟说</a></p>
 <p>  选取社会热点为话题，用有趣的方式，对各种热点知识进行科普解说的动画脱口秀节目，风格诙谐、重口、无下限。 &nbsp;<em>@喜马拉雅FM</em></p>
 </li>
@@ -2360,9 +2362,6 @@ article .article-content ul li p:first-child {
 <li><p><a href="http://www.ximalaya.com/1740592/album/276787" target="_blank" rel="external">许川知乎时间</a></p>
 <p>  刷知乎也还是太浪费时间了，可以听是更好的选择。 &nbsp;<em>@企鹅FM</em></p>
 </li>
-<li><p><a href="http://www.ximalaya.com/17360770/album/305415" target="_blank" rel="external">口语天天练</a></p>
-<p>  将就够用的英语学习类节目，知识密度不高，学习强度低。毕竟听FM都在一心二用的时候，不经意中复习或者学到一个词组短语已经很不错。 &nbsp;<em>@企鹅FM</em></p>
-</li>
 <li><p><a href="http://www.ximalaya.com/zhubo/15450066/" target="_blank" rel="external">充电时间</a></p>
 <p>  频道：知乎哲野、专栏精粹、TMT创业者、电商治愈系、文化媒体人、资深管理人、进击的PM、左脑时刻、营销方法论、销售行为学。<em>（Loud News 旗下的系列节目） &nbsp; @喜马拉雅FM</em></p>
 </li>
@@ -2372,11 +2371,16 @@ article .article-content ul li p:first-child {
 <li><p><a href="http://ipn.li/kernelpanic/" target="_blank" rel="external">内核恐慌</a></p>
 <p>  Kernel Panic ，讨论关于软件开发各种话题的谈话节目。<em>（IPN 旗下播客节目） &nbsp; @Podcasts</em></p>
 </li>
+<li><p>情感信箱</p>
+<p>  偷听女人心。 &nbsp; <em>@企鹅FM</em></p>
+</li>
 </ul>
 <h1 id="WeChat_OA_公众号">WeChat OA 公众号</h1><ul>
 <li><p><strong>PHP开发者</strong></p>
 </li>
 <li><p><a href="http://chuansong.me/account/tencent_network" target="_blank" rel="external">鹅厂网事</a></p>
+</li>
+<li><p><a href="http://chuansong.me/account/archtime" target="_blank" rel="external">聊聊架构</a></p>
 <p>  技术干货。</p>
 </li>
 <li><p><a href="http://chuansong.me/account/lazy-thought" target="_blank" rel="external">懒人在思考</a></p>
@@ -2400,6 +2404,9 @@ article .article-content ul li p:first-child {
 <li><p><a href="http://chuansong.me/account/bocai_zhu" target="_blank" rel="external">有点自卑</a></p>
 <p>  两性情感。</p>
 </li>
+<li><p><a href="http://chuansong.me/account/knowyourself2015" title="Test" target="_blank" rel="external">KnowYourself</a></p>
+<p>  励志心理。</p>
+</li>
 <li><p><a href="https://www.zhihu.com/people/shaofeidu" target="_blank" rel="external">杜绍斐</a></p>
 <p>  男士穿着、时尚、趣闻。</p>
 </li>
@@ -2411,9 +2418,6 @@ article .article-content ul li p:first-child {
 </li>
 <li><p><a href="http://zhuanlan.zhihu.com/edisonlab" target="_blank" rel="external">爱迪生商业实验室</a></p>
 <p>  商业独见。</p>
-</li>
-<li><p><a href="http://chuansong.me/account/Professor-Li" target="_blank" rel="external">李叫兽</a></p>
-<p>  商业，文案。</p>
 </li>
 </ul>
 <h1 id="TV_Dramas_电视剧">TV Dramas 电视剧</h1><ul>
