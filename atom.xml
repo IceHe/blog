@@ -250,7 +250,7 @@
 <li>「15」 <a href="/asm/Assembly Language - Note 15/">附录内容：汇编编译器对jmp的处理，地址计数器（AC），处理伪操作指令，栈传递参数，无溢出除法…</a></li>
 </ul>
 <h3 id="Mine"><a href="/about/">Mine</a></h3><hr>
-<p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#x6d;&#97;&#x69;&#108;&#116;&#x6f;&#58;&#x78;&#64;&#105;&#x63;&#101;&#x68;&#101;&#x2e;&#x6d;&#101;">&#x78;&#64;&#105;&#x63;&#101;&#x68;&#101;&#x2e;&#x6d;&#101;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
+<p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#x6d;&#97;&#105;&#108;&#x74;&#111;&#x3a;&#x78;&#64;&#x69;&#x63;&#x65;&#x68;&#101;&#46;&#x6d;&#x65;">&#x78;&#64;&#x69;&#x63;&#x65;&#x68;&#101;&#46;&#x6d;&#x65;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
 <h3 id="Others">Others</h3><hr>
 <ul>
 <li>The article with superscript <sup><strong>me</strong></sup>&nbsp; implies it’s <code>about me</code>.</li>
@@ -1871,9 +1871,9 @@
     <link href="http://icehe.me/tools/"/>
     <id>http://icehe.me/tools/</id>
     <published>2015-11-20T16:00:00.000Z</published>
-    <updated>2016-04-08T10:17:53.000Z</updated>
+    <updated>2016-04-11T08:27:31.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li>Updated on 2016-04-08</li>
+<li>Updated on 2016-04-11</li>
 <li>下文斜体文本为补充描述，可略过。</li>
 </ul>
 <h1 id="Software">Software</h1><ul>
@@ -2198,29 +2198,42 @@
 </li>
 </ul>
 <h1 id="Hardware">Hardware</h1><ul>
-<li><p>MacBook Pro Retina 13-inch</p>
+<li><p><a href="http://www.apple.com/cn/shop/buy-mac/macbook-pro?product=MF841CH/A&amp;step=config" target="_blank" rel="external">MacBook Pro Retina 13-inch</a></p>
 <p>  i7 - 3.1 GHz / Mem 16 GB / SSD 512 GB + Magic Keyboard 2 + New Magic Trackpad， Mac 是软件工程师最佳的开发平台。<br>  <em>努力用好了 Windows，才能了无牵挂地换Mac。</em></p>
 </li>
-<li><p>iPhone6 plus</p>
-<p>  64GB + Turquoise Silicone Case ， 稳定、流畅、省心、美观，续航不错、屏幕尺寸合适。</p>
+<li><p><a href="http://www.apple.com/cn/shop/product/MJ2R2CH/A/magic-trackpad-2?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2" target="_blank" rel="external">Magic Trackpad 2</a></p>
+<p>  比手感已经非常好的 Macbook 自带触摸板还要更胜一筹！第二代比第一代触摸板更大，有多级压感的反馈，手感细腻。</p>
+</li>
+<li><p><a href="http://www.apple.com/cn/shop/product/MLA22CH/A/magic-keyboard?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2" target="_blank" rel="external">Magic Keyboard</a></p>
+<p>  比 Macbook 自带键盘的布局更合理，还很轻便。可能你会觉得手感绵软，但我就是喜欢小巧省力的键盘，又安静不会打扰到周围工作的同事。</p>
+</li>
+<li><p><a href="http://www.apple.com/cn/shop/buy-iphone/iphone6" target="_blank" rel="external">iPhone6 plus</a></p>
+<p>  64GB + <a href="http://www.apple.com/cn/shop/product/MM6D2FE/A/iphone-6s-plus-%E7%A1%85%E8%83%B6%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E4%BA%AE%E7%B2%89%E8%89%B2?fnode=99" target="_blank" rel="external">Turquoise Silicone Case</a> ， 稳定、流畅、省心、美观，续航不错、屏幕尺寸合适。</p>
 <p>  <em>把 Evernote 当手帐用，不带纸笔； 一般阅读、视频、游戏比 iPad 更方便。<s>Rose Gray Leather Case</s> 官方真皮套易氧化变色（显脏），得买深色的。</em></p>
 </li>
-<li><p>Apple Watch Sport</p>
+<li><p><a href="http://www.apple.com/cn/shop/buy-watch/apple-watch-sport/38-%E6%AF%AB%E7%B1%B3%E6%B7%B1%E7%A9%BA%E7%81%B0%E8%89%B2%E9%93%9D%E9%87%91%E5%B1%9E%E8%A1%A8%E5%A3%B3-%E9%BB%91%E8%89%B2%E8%BF%90%E5%8A%A8%E5%9E%8B%E8%A1%A8%E5%B8%A6?product=MJ2X2CH/A&amp;step=detail" target="_blank" rel="external">Apple Watch Sport</a></p>
 <p>  38mm Space Gray Aluminum Case with Black Sport Band</p>
 <p>  <em>可作为番茄时钟来用；便于计时、设置闹钟、查看日期与天气；每日运动清况提示；信息推送更私密，不要掏出手机就可以快速浏览信息。</em></p>
 </li>
-<li><p>iPad Air</p>
-<p>  32GB + Red Smart Cover + 言外Involve Leather Bag ， 用于阅读技术类书籍。</p>
+<li><p><a href="http://www.apple.com/cn/ipad-air-2/" target="_blank" rel="external">iPad Air</a></p>
+<p>  32GB + <a href="http://www.apple.com/cn/shop/product/MGTM2FE/A/ipad-air-smart-cover-black" target="_blank" rel="external">Red Smart Cover</a> + 言外Involve Leather Bag ， 用于阅读技术类书籍。</p>
 </li>
-<li><p>Kindle PaperWhite</p>
-<p>  + Amazon Onyx Black Leather Cover ， 看书时间长的日子，还得用 E-Ink 屏。</p>
+<li><p><a href="https://www.amazon.cn/Kindle-Paperwhite%E7%94%B5%E5%AD%90%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A8-300-ppi%E7%94%B5%E5%AD%90%E5%A2%A8%E6%B0%B4%E8%A7%A6%E6%8E%A7%E5%B1%8F-%E5%86%85%E7%BD%AE%E9%98%85%E8%AF%BB%E7%81%AF-%E8%B6%85%E9%95%BF%E7%BB%AD%E8%88%AA/dp/B00QJDOLIO" target="_blank" rel="external">Kindle PaperWhite</a></p>
+<p>  + <a href="https://www.amazon.cn/%E4%BA%9A%E9%A9%AC%E9%80%8AKindle-Paperwhite%E7%9C%9F%E7%9A%AE%E4%BF%9D%E6%8A%A4%E5%A5%97/dp/B008BQH1NO" target="_blank" rel="external">Amazon Onyx Black Leather Cover</a> ， 看书时间长的日子，还得用 E-Ink 屏。</p>
 </li>
-<li><p>AKG K323XS</p>
-<p>  低级入门耳塞，好用不贵，坏了不心疼。 塞头大小适中(偏小)，适合长时间佩戴，时常当静音耳塞用。</p>
-<p>  <em>SQ505 闲置，因为头戴式容易压得耳朵疼，隔音效果也不好； 能盖住耳朵隔音效果好的大耳机，一般设备推不动，音效不好。</em></p>
-</li>
-<li><p>Côte &amp; Ciel Backpack</p>
+<li><p><a href="http://www.coteetciel.com/en-CN/isar-backpack-black-melange-laptop-bag" target="_blank" rel="external">Côte &amp; Ciel Backpack</a></p>
 <p>  Isar Eco Yarn / Black Melange ， 就是喜欢它特别的外观设计。</p>
+</li>
+<li><p><a href="http://item.jd.com/10132928766.html" target="_blank" rel="external">Sony SRS-X1-V</a></p>
+<p>  Bluetooth Wireless Speaker System (Purple).</p>
+<p>  不打扰别人情况下，尽量听外放，保护听力，也更舒服自在。</p>
+</li>
+<li><p><a href="http://detail.zol.com.cn/microphone/index362788.shtml" target="_blank" rel="external">AKG K323XS</a></p>
+<p>  低级入门耳塞，好用不贵，坏了不心疼。 塞头大小适中(偏小)，适合长时间佩戴，时常当静音耳塞用。</p>
+<p>  <em>SQ505 闲置，因为头戴式容易压得耳朵疼，隔音效果也不好； 能盖住耳朵隔音效果好的大耳机，一般设备推不动，音效不好。 // 音质尚佳，我会选择蓝牙入耳式耳塞；不行我也要有线控的，毕竟图个方便！</em></p>
+</li>
+<li><p><a href="http://www.mi.com/powerstrip/" target="_blank" rel="external">小米插线板</a></p>
+<p>  小巧精致，节省空间又好看，省了不少 USB 充电插头。</p>
 </li>
 </ul>
 <h1 id="Related">Related</h1><ul>
@@ -2228,9 +2241,9 @@
 </ul>
 <style type="text/css">
 article .article-content ul li p:first-child {
-     list-style: disc;
-     text-align: match-parent;
-     font-weight: bold;
+    list-style: disc;
+    text-align: match-parent;
+    font-weight: bold;
 }
 </style>
 
