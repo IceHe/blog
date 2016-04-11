@@ -5,7 +5,7 @@ tags: [Mac]
 description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommended Mac Apps . &nbsp; 以及科技产品、外设、用具等。
 ---
 
-- Updated on 2016-04-08
+- Updated on 2016-04-11
 - 下文斜体文本为补充描述，可略过。
 
 # Software
@@ -449,40 +449,58 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
 # Hardware
 
-- MacBook Pro Retina 13-inch
+- [MacBook Pro Retina 13-inch](http://www.apple.com/cn/shop/buy-mac/macbook-pro?product=MF841CH/A&step=config)
 
     i7 - 3.1 GHz / Mem 16 GB / SSD 512 GB + Magic Keyboard 2 + New Magic Trackpad， Mac 是软件工程师最佳的开发平台。
     _努力用好了 Windows，才能了无牵挂地换Mac。_
 
-- iPhone6 plus
+- [Magic Trackpad 2](http://www.apple.com/cn/shop/product/MJ2R2CH/A/magic-trackpad-2?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2)
 
-    64GB + Turquoise Silicone Case ， 稳定、流畅、省心、美观，续航不错、屏幕尺寸合适。
+    比手感已经非常好的 Macbook 自带触摸板还要更胜一筹！第二代比第一代触摸板更大，有多级压感的反馈，手感细腻。
+
+- [Magic Keyboard](http://www.apple.com/cn/shop/product/MLA22CH/A/magic-keyboard?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2)
+
+    比 Macbook 自带键盘的布局更合理，还很轻便。可能你会觉得手感绵软，但我就是喜欢小巧省力的键盘，又安静不会打扰到周围工作的同事。
+
+- [iPhone6 plus](http://www.apple.com/cn/shop/buy-iphone/iphone6)
+
+    64GB + [Turquoise Silicone Case](http://www.apple.com/cn/shop/product/MM6D2FE/A/iphone-6s-plus-%E7%A1%85%E8%83%B6%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E4%BA%AE%E7%B2%89%E8%89%B2?fnode=99) ， 稳定、流畅、省心、美观，续航不错、屏幕尺寸合适。
 
     _把 Evernote 当手帐用，不带纸笔； 一般阅读、视频、游戏比 iPad 更方便。<s>Rose Gray Leather Case</s> 官方真皮套易氧化变色（显脏），得买深色的。_
 
-- Apple Watch Sport
+- [Apple Watch Sport](http://www.apple.com/cn/shop/buy-watch/apple-watch-sport/38-%E6%AF%AB%E7%B1%B3%E6%B7%B1%E7%A9%BA%E7%81%B0%E8%89%B2%E9%93%9D%E9%87%91%E5%B1%9E%E8%A1%A8%E5%A3%B3-%E9%BB%91%E8%89%B2%E8%BF%90%E5%8A%A8%E5%9E%8B%E8%A1%A8%E5%B8%A6?product=MJ2X2CH/A&step=detail)
 
     38mm Space Gray Aluminum Case with Black Sport Band
 
     _可作为番茄时钟来用；便于计时、设置闹钟、查看日期与天气；每日运动清况提示；信息推送更私密，不要掏出手机就可以快速浏览信息。_
 
-- iPad Air
+- [iPad Air](http://www.apple.com/cn/ipad-air-2/)
 
-    32GB + Red Smart Cover + 言外Involve Leather Bag ， 用于阅读技术类书籍。
+    32GB + [Red Smart Cover](http://www.apple.com/cn/shop/product/MGTM2FE/A/ipad-air-smart-cover-black) + 言外Involve Leather Bag ， 用于阅读技术类书籍。
 
-- Kindle PaperWhite
+- [Kindle PaperWhite](https://www.amazon.cn/Kindle-Paperwhite%E7%94%B5%E5%AD%90%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A8-300-ppi%E7%94%B5%E5%AD%90%E5%A2%A8%E6%B0%B4%E8%A7%A6%E6%8E%A7%E5%B1%8F-%E5%86%85%E7%BD%AE%E9%98%85%E8%AF%BB%E7%81%AF-%E8%B6%85%E9%95%BF%E7%BB%AD%E8%88%AA/dp/B00QJDOLIO)
 
-    \+ Amazon Onyx Black Leather Cover ， 看书时间长的日子，还得用 E-Ink 屏。
+    \+ [Amazon Onyx Black Leather Cover](https://www.amazon.cn/%E4%BA%9A%E9%A9%AC%E9%80%8AKindle-Paperwhite%E7%9C%9F%E7%9A%AE%E4%BF%9D%E6%8A%A4%E5%A5%97/dp/B008BQH1NO) ， 看书时间长的日子，还得用 E-Ink 屏。
 
-- AKG K323XS
+- [Côte & Ciel Backpack](http://www.coteetciel.com/en-CN/isar-backpack-black-melange-laptop-bag)
+
+    Isar Eco Yarn / Black Melange ， 就是喜欢它特别的外观设计。
+
+- [Sony SRS-X1-V](http://item.jd.com/10132928766.html)
+
+    Bluetooth Wireless Speaker System (Purple).
+
+    不打扰别人情况下，尽量听外放，保护听力，也更舒服自在。
+
+- [AKG K323XS](http://detail.zol.com.cn/microphone/index362788.shtml)
 
     低级入门耳塞，好用不贵，坏了不心疼。 塞头大小适中(偏小)，适合长时间佩戴，时常当静音耳塞用。
 
-    _SQ505 闲置，因为头戴式容易压得耳朵疼，隔音效果也不好； 能盖住耳朵隔音效果好的大耳机，一般设备推不动，音效不好。_
+    _SQ505 闲置，因为头戴式容易压得耳朵疼，隔音效果也不好； 能盖住耳朵隔音效果好的大耳机，一般设备推不动，音效不好。 // 音质尚佳，我会选择蓝牙入耳式耳塞；不行我也要有线控的，毕竟图个方便！_
 
-- Côte & Ciel Backpack
+- [小米插线板](http://www.mi.com/powerstrip/)
 
-    Isar Eco Yarn / Black Melange ， 就是喜欢它特别的外观设计。
+    小巧精致，节省空间又好看，省了不少 USB 充电插头。
 
 # Related
 
@@ -490,9 +508,9 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
 <style type="text/css">
 article .article-content ul li p:first-child {
-     list-style: disc;
-     text-align: match-parent;
-     font-weight: bold;
+    list-style: disc;
+    text-align: match-parent;
+    font-weight: bold;
 }
 </style>
 
