@@ -1,6 +1,10 @@
 title: Cmd Plan
 ---
 
+[cUrl](https://curl.haxx.se/)
+
+[Make 命令教程](https://github.com/ruanyf/articles/blob/master/2015/2015-02-19-make.md)
+
 [ ] 0 Blg: CLI Note! #g
 
 [ ] pwd 命令用于显示当前目录。
@@ -188,3 +192,26 @@ $ ls -d .*/
 # 隐藏目录和非隐藏目录都显示
 
 $ find -maxdepth 1 -type d
+
+# hostname命令返回当前服务器的主机名。
+
+$ hostname
+
+# 显示当前的日期时间
+$ date
+2016年 03月 14日 星期一 17:32:35 CST
+
+# 显示本月日历
+$ cal
+      三月 2016
+日 一 二 三 四 五 六
+       1  2  3  4  5
+ 6  7  8  9 10 11 12
+13 14 15 16 17 18 19
+20 21 22 23 24 25 26
+27 28 29 30 31
+
+# 应用管理
+
+$ whatis nginx
+$ whereis nginx
