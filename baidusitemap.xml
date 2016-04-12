@@ -4,6 +4,31 @@
 
     
   <url>
+    <loc>http://icehe.me/think/digests/</loc>
+    <lastmod>2016-04-12T15:45:34.000Z</lastmod>
+    <data>
+        <display>
+        <title>Digests</title>
+        <pubTime>2016-04-11T16:00:00.000Z</pubTime>
+        
+        <tag>think</tag>
+         
+         
+           
+             
+              <breadCrumb title="think" url="http://icehe.me/categories/think/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+    
+    
+    
+  <url>
     <loc>http://icehe.me/bookmarks/</loc>
     <lastmod>2016-04-12T03:52:20.000Z</lastmod>
     <data>
@@ -63,7 +88,6 @@
     </url>
 
     
-    
   <url>
     <loc>http://icehe.me/mac_shortcuts/</loc>
     <lastmod>2016-04-08T02:24:03.000Z</lastmod>
@@ -103,7 +127,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>http://icehe.me/lifelogs/</loc>
@@ -177,7 +200,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>http://icehe.me/c++/C++%20Code%20Standards%20%E7%BC%96%E7%A0%81%E6%A0%87%E5%87%86/</loc>
@@ -1103,12 +1125,6 @@
     
     
     
-    
-    
-    
-    
-    
-    
   <url>
     <loc>http://icehe.me/search/</loc>
     <lastmod>2016-03-08T02:41:37.000Z</lastmod>
@@ -1161,47 +1177,6 @@
     
     
     
-    
-  <url>
-    <loc>http://icehe.me/read/%E3%80%8A%E5%B9%B8%E7%A6%8F%E8%AF%BE%E3%80%8B%E7%9F%A5%E4%B9%8E%E4%B8%93%E6%A0%8F%20-%20Note/</loc>
-    <lastmod>2016-02-15T02:52:01.000Z</lastmod>
-    <data>
-        <display>
-        <title>《幸福课》知乎专栏 - Note</title>
-        <pubTime>2015-02-26T16:00:00.000Z</pubTime>
-        
-        <tag>read</tag>
-         
-         
-           
-             
-              <breadCrumb title="read" url="http://icehe.me/categories/read/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/404/</loc>
-    <lastmod>2016-02-15T02:52:01.000Z</lastmod>
-    <data>
-        <display>
-        <title>404</title>
-        <pubTime>2015-01-18T16:00:00.000Z</pubTime>
-        
-        <tag>Web</tag>
-         
-         
-           
-             
-              <breadCrumb title="Web" url="http://icehe.me/categories/Web/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
   <url>
     <loc>http://icehe.me/php/PHP%20empty()%20%E5%92%8C%20isset()%20%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
     <lastmod>2016-02-15T02:52:01.000Z</lastmod>
@@ -1238,6 +1213,46 @@
            
              
               <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/404/</loc>
+    <lastmod>2016-02-15T02:52:01.000Z</lastmod>
+    <data>
+        <display>
+        <title>404</title>
+        <pubTime>2015-01-18T16:00:00.000Z</pubTime>
+        
+        <tag>Web</tag>
+         
+         
+           
+             
+              <breadCrumb title="Web" url="http://icehe.me/categories/Web/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/read/%E3%80%8A%E5%B9%B8%E7%A6%8F%E8%AF%BE%E3%80%8B%E7%9F%A5%E4%B9%8E%E4%B8%93%E6%A0%8F%20-%20Note/</loc>
+    <lastmod>2016-02-15T02:52:01.000Z</lastmod>
+    <data>
+        <display>
+        <title>《幸福课》知乎专栏 - Note</title>
+        <pubTime>2015-02-26T16:00:00.000Z</pubTime>
+        
+        <tag>read</tag>
+         
+         
+           
+             
+              <breadCrumb title="read" url="http://icehe.me/categories/read/"/>
           
         </display>
     </data>
