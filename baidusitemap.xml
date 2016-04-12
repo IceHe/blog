@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://icehe.me/bookmarks/</loc>
+    <lastmod>2016-04-12T03:52:20.000Z</lastmod>
+    <data>
+        <display>
+        <title>My Bookmarks 书签</title>
+        <pubTime>2015-12-19T16:00:00.000Z</pubTime>
+        
+        <tag>read</tag>
+         
+         
+           
+             
+              <breadCrumb title="read" url="http://icehe.me/categories/read/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://icehe.me/favourites/</loc>
     <lastmod>2016-04-11T09:19:59.000Z</lastmod>
     <data>
@@ -137,26 +157,6 @@
     
     
     
-    
-  <url>
-    <loc>http://icehe.me/bookmarks/</loc>
-    <lastmod>2016-04-03T09:11:16.000Z</lastmod>
-    <data>
-        <display>
-        <title>My Bookmarks 书签</title>
-        <pubTime>2015-12-19T16:00:00.000Z</pubTime>
-        
-        <tag>read</tag>
-         
-         
-           
-             
-              <breadCrumb title="read" url="http://icehe.me/categories/read/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>http://icehe.me/resume/</loc>
@@ -340,12 +340,12 @@
 
     
   <url>
-    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%208/</loc>
+    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%203/</loc>
     <lastmod>2016-03-26T10:58:13.000Z</lastmod>
     <data>
         <display>
-        <title>ASM 汇编语言 - 8</title>
-        <pubTime>2015-02-08T16:00:00.000Z</pubTime>
+        <title>ASM 汇编语言 - 3</title>
+        <pubTime>2015-02-04T04:00:00.000Z</pubTime>
         
         <tag>ASM</tag>
          
@@ -360,12 +360,12 @@
 
     
   <url>
-    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%203/</loc>
+    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%208/</loc>
     <lastmod>2016-03-26T10:58:13.000Z</lastmod>
     <data>
         <display>
-        <title>ASM 汇编语言 - 3</title>
-        <pubTime>2015-02-04T04:00:00.000Z</pubTime>
+        <title>ASM 汇编语言 - 8</title>
+        <pubTime>2015-02-08T16:00:00.000Z</pubTime>
         
         <tag>ASM</tag>
          
