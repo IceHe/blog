@@ -5,7 +5,7 @@ tags: [read]
 description: 我收藏的网站、博客、文档、学习资料、文章、问答、专栏…
 ---
 
-- Updated on 2016-04-03
+- Updated on 2016-04-12
 
 # IT 信息技术
 
@@ -30,6 +30,8 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 - [百度开发者中心](http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs)、[360 的 CDN 服务](http://libs.useso.com/) —— CDN 公共库：常用前端公共库、Google 公共库、字体库…
 
 - [Public DNS](http://www.ip.cn/dns.html) —— 公共 DNS 服务器 IP 列表。
+
+- [SDK.CN](https://www.sdk.cn/) —— 聚合各类优质技术服务资源。
 
 ## Web Refs 参考
 
