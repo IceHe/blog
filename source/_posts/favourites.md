@@ -558,9 +558,12 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 - [跳棋](https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E8%B7%B3%E6%A3%8B)
 
-# Singer 歌手
+# Singers 歌手
 
 - __Twins <sup>Most</sup>__
+
+    幼稚园、死性不改、梨涡浅笑、星光游乐园。
+
 - __古巨基 <sup>Most</sup>__
 - __卫兰__
 - __陈奕迅 <sup>Most</sup>__
