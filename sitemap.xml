@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://icehe.me/mac_shortcuts/</loc>
+    <lastmod>2016-04-13T06:27:05.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/bookmarks/</loc>
+    <lastmod>2016-04-13T02:57:59.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://icehe.me/think/digests/</loc>
     <lastmod>2016-04-12T15:52:18.000Z</lastmod>
   </url>
@@ -32,11 +42,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/bookmarks/</loc>
-    <lastmod>2016-04-12T03:52:20.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://icehe.me/favourites/</loc>
     <lastmod>2016-04-11T09:19:59.000Z</lastmod>
   </url>
@@ -44,11 +49,6 @@
   <url>
     <loc>http://icehe.me/tools/</loc>
     <lastmod>2016-04-11T09:05:31.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/mac_shortcuts/</loc>
-    <lastmod>2016-04-08T02:24:03.000Z</lastmod>
   </url>
   
   <url>
@@ -72,12 +72,12 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d30.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/03/d31.html</loc>
     <lastmod>2016-04-04T10:34:16.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d31.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/03/d30.html</loc>
     <lastmod>2016-04-04T10:34:16.000Z</lastmod>
   </url>
   
