@@ -5,7 +5,7 @@ tags: [Mac]
 description: 我的 OS X 快捷键列表。
 ---------------------------
 
-- Updated on 2016-04-08
+- Updated on 2016-04-13
 - Ref: 《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》
 
 # Explanation
@@ -229,6 +229,22 @@ __`^ ⌥ F12` Allow Mac to Sleep__
 
 __`^ ⌥ ⇥` Show Bartender Bar__
 __`^ ⌥ ]` Show All Status Icons in Menu Bar__
+
+# Calendar
+
+`⌘ n` New Event
+`⌘ r` Refresh Calendars
+
+`⌘ t` Today
+`⌘ ⇧ T` Go to Date
+
+`⌘ ←` Prev
+`⌘ →` Next
+
+`⌘ 1` By Day
+`⌘ 2` By Week
+`⌘ 3` By Month
+`⌘ 4` By Year
 
 # Charles
 
@@ -510,6 +526,7 @@ Not Only shortcuts, but also Change Layout of Keyboard!
 
     `⌥ 1` [Firefox](#Firefox)
     `⌥ 2` [iTerm3](#iTerm3)
+    `⌥ 3` [Calendar](#Calendar)
 
 - Num
 
