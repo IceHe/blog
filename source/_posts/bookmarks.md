@@ -5,7 +5,7 @@ tags: [read]
 description: 我收藏的网站、博客、文档、学习资料、文章、问答、专栏…
 ---
 
-- Updated on 2016-04-12
+- Updated on 2016-04-13
 
 # IT 信息技术
 
@@ -362,6 +362,8 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 - [MacTips](http://zhuanlan.zhihu.com/MacTips) —— 专注于分享 Mac 使用经验和技巧。
 
 # Articles 文章
+
+- [中文文案排版指北](https://github.com/mzlogin/chinese-copywriting-guidelines) （[EN](https://github.com/mzlogin/chinese-copywriting-guidelines/blob/Simplified/README.en.md)）
 
 - [写给大家看的中文排版指南](http://zhuanlan.zhihu.com/uicircle/20506092)
 
