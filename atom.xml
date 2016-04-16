@@ -250,7 +250,7 @@
 <li>「15」 <a href="/asm/Assembly Language - Note 15/">附录内容：汇编编译器对jmp的处理，地址计数器（AC），处理伪操作指令，栈传递参数，无溢出除法…</a></li>
 </ul>
 <h3 id="Mine"><a href="/about/">Mine</a></h3><hr>
-<p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#x6d;&#x61;&#105;&#x6c;&#116;&#x6f;&#x3a;&#120;&#x40;&#x69;&#99;&#101;&#104;&#x65;&#x2e;&#109;&#x65;">&#120;&#x40;&#x69;&#99;&#101;&#104;&#x65;&#x2e;&#109;&#x65;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
+<p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#x6d;&#x61;&#x69;&#108;&#x74;&#111;&#x3a;&#120;&#64;&#x69;&#99;&#101;&#x68;&#x65;&#x2e;&#x6d;&#x65;">&#120;&#64;&#x69;&#99;&#101;&#x68;&#x65;&#x2e;&#x6d;&#x65;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
 <h3 id="Others">Others</h3><hr>
 <ul>
 <li>The article with superscript <sup><strong>me</strong></sup>&nbsp; implies it’s <code>about me</code>.</li>
@@ -1281,14 +1281,17 @@
     <link href="http://icehe.me/bookmarks/"/>
     <id>http://icehe.me/bookmarks/</id>
     <published>2015-12-19T16:00:00.000Z</published>
-    <updated>2016-04-14T08:27:39.000Z</updated>
+    <updated>2016-04-16T15:16:46.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li>Updated on 2016-04-14</li>
+<li>Updated on 2016-04-16</li>
 </ul>
-<h1 id="IT_信息技术">IT 信息技术</h1><h2 id="OL_Tools_在线工具">OL Tools 在线工具</h2><ul>
+<h1 id="IT_信息技术">IT 信息技术</h1><ul>
+<li><a href="https://github.com/wizardforcel/w3school" target="_blank" rel="external">W3School 教程整理</a> <sup><em>todo</em></sup></li>
+</ul>
+<h2 id="OL_Tools_在线工具">OL Tools 在线工具</h2><ul>
 <li><p><a href="http://www.cheat-sheets.org/" target="_blank" rel="external">Cheat-Sheets.org</a> / <a href="http://whatis.techtarget.com/reference/Our-Favorite-Cheat-Sheets#operating" target="_blank" rel="external">Our Favourite Cheat Sheets</a> —— 知识速查清单。</p>
 </li>
-<li><p><a href="https://regex101.com/" target="_blank" rel="external">Regular Expr Test</a> —— <a href="http://tool.oschina.net/regex" target="_blank" rel="external">正则表达式测试</a>。</p>
+<li><p><a href="http://regex101.com/" target="_blank" rel="external">Regular Expr Test</a> —— <a href="http://tool.oschina.net/regex" target="_blank" rel="external">正则表达式测试</a>。</p>
 </li>
 <li><p><a href="http://tool.oschina.net/hexconvert" target="_blank" rel="external">BHD Converter</a> —— 数值的进制转换（支持浮点数）。</p>
 </li>
@@ -1339,7 +1342,7 @@
 <li><p><a href="http://fontawesome.io/" target="_blank" rel="external">Font Awesome</a> / <a href="https://icomoon.io/#preview-free" target="_blank" rel="external">IcoMoon</a> —— Icon Font ( <a href="https://github.com/amfe/article/issues/2" target="_blank" rel="external">Discussion</a> )</p>
 </li>
 </ul>
-<h3 id="Dynamic_Cheat_Sheets"><a href="http://www.cheatography.com/" target="_blank" rel="external">Dynamic Cheat Sheets</a></h3><p><em>Need to screen the content of this section.</em> <sup><em>todo</em></sup></p>
+<h3 id="Dynamic_Cheat_Sheets"><a href="http://www.cheatography.com/" target="_blank" rel="external">Dynamic Cheat Sheets</a></h3><p>Need to screen the content of this section. <sup><em>todo</em></sup></p>
 <ul>
 <li><p><a href="http://www.cheatography.com/nataliemoore/cheat-sheets/studying/" target="_blank" rel="external">Studying</a> / <a href="http://www.cheatography.com/y0mbo/cheat-sheets/writing-cheat-sheet/" target="_blank" rel="external">Writing</a> / <a href="http://www.cheatography.com/specialbrand/cheat-sheets/markdown/" target="_blank" rel="external">Markdown</a> / <a href="http://www.cheatography.com/permababy/cheat-sheets/dramatica-theory/" target="_blank" rel="external">Dramatica Theory</a></p>
 </li>
@@ -1378,7 +1381,7 @@
 <li><p><a href="http://www.cheatography.com/thuhuong/cheat-sheets/accounting-principles-and-business-transactions/" target="_blank" rel="external">Accounting Principles and Business Transactions</a><br>  / <a href="http://www.cheatography.com/connorb/cheat-sheets/sociology-344-final/" target="_blank" rel="external">Sociology 344 Final</a> / <a href="http://www.cheatography.com/rockcollector2/cheat-sheets/quantitative-methods-final-exam/" target="_blank" rel="external">Quantitative Methods Final Exam</a></p>
 </li>
 </ul>
-<h2 id="Docs_文档">Docs 文档</h2><p><br><em>最好的习惯：查阅官方网站的文档。</em></p>
+<h2 id="Docs_文档">Docs 文档</h2><p>最好的习惯：查阅官方网站的文档。</p>
 <ul>
 <li><p><a href="/cmd/git_note">My Git Note</a></p>
 </li>
@@ -1562,6 +1565,12 @@
 </li>
 </ul>
 <h2 id="Career_职业生涯">Career 职业生涯</h2><ul>
+<li><p><a href="http://www.apesk.com/mbti/dati.asp?" target="_blank" rel="external">免费的 MBTI 测试</a></p>
+</li>
+<li><p><a href="http://blog.knownsec.com/Knownsec_RD_Checklist/" target="_blank" rel="external">知道创宇研发技能表 v3.0</a></p>
+</li>
+<li><p><a href="http://zhuanlan.zhihu.com/p/20744178" target="_blank" rel="external">你要避免的软件开发模式</a> —— 歧途。</p>
+</li>
 <li><p><a href="http://benjiweber.co.uk/blog/2016/01/25/why-i-strive-to-be-a-0-1x-engineer/" target="_blank" rel="external">Why I Strive to be a 0.1x Engineer</a> —— 不折腾的哲学。</p>
 </li>
 <li><p><a href="http://v.qq.com/boke/gplay/2b442d85914f70c4319a98f09ddbd54d_q020000017nmqu1_0_w019013i0lx.html" target="_blank" rel="external">高薪的人都有哪些特质？</a> —— 职人介绍所第10期。</p>
@@ -1738,6 +1747,8 @@
 </li>
 <li><p><a href="http://www.360doc.com/content/15/0913/11/17262826_498824822.shtml" target="_blank" rel="external">有情调没情怀、有趣味没人情味的知乎社区</a></p>
 </li>
+<li><p><a href="https://www.zhihu.com/question/20139880" target="_blank" rel="external">学术方面该如何评价哈耶克？</a></p>
+</li>
 <li><p><a href="http://blog.hiddenwangcc.com/sharewithu" target="_blank" rel="external">个人成长理论、工具</a> —— 可供参考。</p>
 </li>
 </ul>
@@ -1826,17 +1837,28 @@
 </li>
 </ul>
 <h2 id="Clothing_衣"><strong>Clothing 衣</strong></h2><ul>
-<li><a href="https://www.zhihu.com/question/29347945/answer/44802155" target="_blank" rel="external">男生基本款</a></li>
-<li><a href="https://www.zhihu.com/question/25485795" target="_blank" rel="external">男生长得难看怎么办</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=216957646&amp;idx=1&amp;sn=80e3631d64b405888258ffcb86b8268e&amp;scene=1#rd" target="_blank" rel="external">25岁后男生的20条基本穿衣准则</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=209430380&amp;idx=1&amp;sn=646eb69ae5116a1d634dfa70cdddee10&amp;scene=1#rd" target="_blank" rel="external">男生如何找准自己的穿衣风格，提升衣着品味？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=210316708&amp;idx=1&amp;sn=e34ae6d411a82d114358f5adac598861&amp;scene=1#rd" target="_blank" rel="external">惊爆！看完后他竟不想再穿羽绒服！</a></li>
-<li><a href="https://www.zhihu.com/question/30610574" target="_blank" rel="external">哪一款包可以优雅地放入MacBook、iPad和一些简单的日用品？</a></li>
-<li><a href="https://www.zhihu.com/question/35886615" target="_blank" rel="external">知名度不如一线，质量却很好的品牌有哪些？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MjM5MTEwNTQxMg==&amp;mid=205293619&amp;idx=4&amp;sn=130382a4de42eb7e3099dca2fa320897&amp;scene=1#rd" target="_blank" rel="external">男鞋二十二条军规</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=209636065&amp;idx=1&amp;sn=66fe275dd21dcc2c170d355a992bc580&amp;scene=1#rd" target="_blank" rel="external">惊！只有5款男鞋值得买？ </a></li>
-<li><a href="https://www.zhihu.com/question/20494311" target="_blank" rel="external">有哪些双肩包潮牌推荐？</a></li>
-<li><a href="https://www.zhihu.com/collection/20333571" target="_blank" rel="external">爱美之心 - 收藏夹 - 知乎</a></li>
+<li><p><a href="https://www.zhihu.com/question/29347945/answer/44802155" target="_blank" rel="external">男生基本款</a></p>
+</li>
+<li><p><a href="https://www.zhihu.com/question/25485795" target="_blank" rel="external">男生长得难看怎么办</a></p>
+</li>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=216957646&amp;idx=1&amp;sn=80e3631d64b405888258ffcb86b8268e&amp;scene=1#rd" target="_blank" rel="external">25岁后男生的20条基本穿衣准则</a></p>
+</li>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=209430380&amp;idx=1&amp;sn=646eb69ae5116a1d634dfa70cdddee10&amp;scene=1#rd" target="_blank" rel="external">男生如何找准自己的穿衣风格，提升衣着品味？</a></p>
+</li>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=210316708&amp;idx=1&amp;sn=e34ae6d411a82d114358f5adac598861&amp;scene=1#rd" target="_blank" rel="external">惊爆！看完后他竟不想再穿羽绒服！</a></p>
+</li>
+<li><p><a href="https://www.zhihu.com/question/30610574" target="_blank" rel="external">哪一款包可以优雅地放入MacBook、iPad和一些简单的日用品？</a></p>
+</li>
+<li><p><a href="https://www.zhihu.com/question/35886615" target="_blank" rel="external">知名度不如一线，质量却很好的品牌有哪些？</a></p>
+</li>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MTEwNTQxMg==&amp;mid=205293619&amp;idx=4&amp;sn=130382a4de42eb7e3099dca2fa320897&amp;scene=1#rd" target="_blank" rel="external">男鞋二十二条军规</a></p>
+</li>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=209636065&amp;idx=1&amp;sn=66fe275dd21dcc2c170d355a992bc580&amp;scene=1#rd" target="_blank" rel="external">惊！只有5款男鞋值得买？ </a></p>
+</li>
+<li><p><a href="https://www.zhihu.com/question/20494311" target="_blank" rel="external">有哪些双肩包潮牌推荐？</a></p>
+</li>
+<li><p><a href="https://www.zhihu.com/collection/20333571" target="_blank" rel="external">爱美之心 - 收藏夹 - 知乎</a></p>
+</li>
 </ul>
 <h2 id="Oth_杂">Oth 杂</h2><ul>
 <li><p><a href="https://www.zhihu.com/question/20502275" target="_blank" rel="external">如何系统地练字？</a> —— 手写的乐趣。</p>
