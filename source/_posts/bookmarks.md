@@ -5,15 +5,17 @@ tags: [read]
 description: 我收藏的网站、博客、文档、学习资料、文章、问答、专栏…
 ---
 
-- Updated on 2016-04-13
+- Updated on 2016-04-16
 
 # IT 信息技术
+
+- [W3School 教程整理](https://github.com/wizardforcel/w3school) <sup>_todo_</sup>
 
 ## OL Tools 在线工具
 
 - [Cheat-Sheets.org](http://www.cheat-sheets.org/) / [Our Favourite Cheat Sheets](http://whatis.techtarget.com/reference/Our-Favorite-Cheat-Sheets#operating) —— 知识速查清单。
 
-- [Regular Expr Test](https://regex101.com/) —— [正则表达式测试](http://tool.oschina.net/regex)。
+- [Regular Expr Test](http://regex101.com/) —— [正则表达式测试](http://tool.oschina.net/regex)。
 
 - [BHD Converter](http://tool.oschina.net/hexconvert) —— 数值的进制转换（支持浮点数）。
 
@@ -65,7 +67,7 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 ### [Dynamic Cheat Sheets](http://www.cheatography.com/)
 
-_Need to screen the content of this section._ <sup>_todo_</sup>
+Need to screen the content of this section. <sup>_todo_</sup>
 
 - [Studying](http://www.cheatography.com/nataliemoore/cheat-sheets/studying/) / [Writing](http://www.cheatography.com/y0mbo/cheat-sheets/writing-cheat-sheet/) / [Markdown](http://www.cheatography.com/specialbrand/cheat-sheets/markdown/) / [Dramatica Theory](http://www.cheatography.com/permababy/cheat-sheets/dramatica-theory/)
 
@@ -106,7 +108,7 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 ## Docs 文档
 
-<br/>*最好的习惯：查阅官方网站的文档。*
+最好的习惯：查阅官方网站的文档。
 
 - [My Git Note](/cmd/git_note)
 
@@ -290,6 +292,12 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 ## Career 职业生涯
 
+- [免费的 MBTI 测试](http://www.apesk.com/mbti/dati.asp?)
+
+- [知道创宇研发技能表 v3.0](http://blog.knownsec.com/Knownsec_RD_Checklist/)
+
+- [你要避免的软件开发模式](http://zhuanlan.zhihu.com/p/20744178) —— 歧途。
+
 - [Why I Strive to be a 0.1x Engineer](http://benjiweber.co.uk/blog/2016/01/25/why-i-strive-to-be-a-0-1x-engineer/) —— 不折腾的哲学。
 
 - [高薪的人都有哪些特质？](http://v.qq.com/boke/gplay/2b442d85914f70c4319a98f09ddbd54d_q020000017nmqu1_0_w019013i0lx.html) —— 职人介绍所第10期。
@@ -469,6 +477,8 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 
 - [有情调没情怀、有趣味没人情味的知乎社区](http://www.360doc.com/content/15/0913/11/17262826_498824822.shtml)
 
+- [学术方面该如何评价哈耶克？](https://www.zhihu.com/question/20139880)
+
 - [个人成长理论、工具](http://blog.hiddenwangcc.com/sharewithu) —— 可供参考。
 
 ## Health 健康
@@ -558,15 +568,25 @@ _Need to screen the content of this section._ <sup>_todo_</sup>
 ## __Clothing 衣__
 
 - [男生基本款](https://www.zhihu.com/question/29347945/answer/44802155)
+
 - [男生长得难看怎么办](https://www.zhihu.com/question/25485795)
+
 - [25岁后男生的20条基本穿衣准则](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=216957646&amp;idx=1&amp;sn=80e3631d64b405888258ffcb86b8268e&amp;scene=1#rd)
+
 - [男生如何找准自己的穿衣风格，提升衣着品味？](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=209430380&amp;idx=1&amp;sn=646eb69ae5116a1d634dfa70cdddee10&amp;scene=1#rd)
+
 - [惊爆！看完后他竟不想再穿羽绒服！](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=210316708&amp;idx=1&amp;sn=e34ae6d411a82d114358f5adac598861&amp;scene=1#rd)
+
 - [哪一款包可以优雅地放入MacBook、iPad和一些简单的日用品？](https://www.zhihu.com/question/30610574)
+
 - [知名度不如一线，质量却很好的品牌有哪些？](https://www.zhihu.com/question/35886615)
+
 - [男鞋二十二条军规](http://mp.weixin.qq.com/s?__biz=MjM5MTEwNTQxMg==&amp;mid=205293619&amp;idx=4&amp;sn=130382a4de42eb7e3099dca2fa320897&amp;scene=1#rd)
+
 - [惊！只有5款男鞋值得买？ ](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=209636065&amp;idx=1&amp;sn=66fe275dd21dcc2c170d355a992bc580&amp;scene=1#rd)
+
 - [有哪些双肩包潮牌推荐？](https://www.zhihu.com/question/20494311)
+
 - [爱美之心 - 收藏夹 - 知乎](https://www.zhihu.com/collection/20333571)
 
 ## Oth 杂
