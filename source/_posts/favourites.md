@@ -212,7 +212,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
     男士穿着、时尚、趣闻。
 
-- [IT老友记](http://chuansong.me/account/itlaoyou-com)
+- [IT 老友记](http://chuansong.me/account/itlaoyou-com)
 
     每日 IT 业简讯。
 
@@ -230,7 +230,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
     复仇，弱肉强食。
 
-- [最完美的离婚](https://movie.douban.com/subject_search?search_text=%E6%9C%80%E5%AE%8C%E7%BE%8E%E7%9A%84%E7%A6%BB%E5%A9%9A&cat=1002)
+- [最完美的离婚](https://movie.douban.com/subject_search?search_text=%E6%9C%80%E5%AE%8C%E7%BE%8E%E7%9A%84%E7%A6%BB%E5%A9%9A&cat=1002*)
 
     生活。
 
@@ -318,7 +318,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 # Animate 动画
 
-- [乒乓](https://movie.douban.com/subject/25813424/)
+- __[乒乓](https://movie.douban.com/subject/25813424/)__
 
     人生，才能与努力。
 
@@ -330,7 +330,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
     迷上围棋。
 
-- [亚人](https://movie.douban.com/review/7794549/)
+- __[亚人](https://movie.douban.com/review/7794549/)__
 
     人性，理性。
 
@@ -616,7 +616,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 article .article-content ul li p:first-child {
      list-style: disc;
      text-align: match-parent;
-     font-weight: bold;
+     //font-weight: bold;
 }
 </style>
 
