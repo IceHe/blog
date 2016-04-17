@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%201/</loc>
+    <lastmod>2016-04-17T07:33:52.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://icehe.me/note/timeline.html</loc>
     <lastmod>2016-04-17T06:11:48.000Z</lastmod>
   </url>
@@ -32,12 +37,12 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/bookmarks/</loc>
+    <loc>http://icehe.me/think/life_framework/</loc>
     <lastmod>2016-04-16T16:00:00.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://icehe.me/think/life_framework/</loc>
+    <loc>http://icehe.me/bookmarks/</loc>
     <lastmod>2016-04-16T16:00:00.000Z</lastmod>
   </url>
   
@@ -117,18 +122,13 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d30.html</loc>
-    <lastmod>2016-04-04T10:34:16.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2016/03/d31.html</loc>
     <lastmod>2016-04-04T10:34:16.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d27.html</loc>
-    <lastmod>2016-04-04T10:34:15.000Z</lastmod>
+    <loc>http://icehe.me/lifelogs/2016/03/d30.html</loc>
+    <lastmod>2016-04-04T10:34:16.000Z</lastmod>
   </url>
   
   <url>
@@ -142,12 +142,17 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d26.html</loc>
-    <lastmod>2016-04-04T10:34:14.000Z</lastmod>
+    <loc>http://icehe.me/lifelogs/2016/03/d27.html</loc>
+    <lastmod>2016-04-04T10:34:15.000Z</lastmod>
   </url>
   
   <url>
     <loc>http://icehe.me/lifelogs/2016/03/d25.html</loc>
+    <lastmod>2016-04-04T10:34:14.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2016/03/d26.html</loc>
     <lastmod>2016-04-04T10:34:14.000Z</lastmod>
   </url>
   
@@ -192,12 +197,12 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d16.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/03/d15.html</loc>
     <lastmod>2016-04-04T10:34:10.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d15.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/03/d16.html</loc>
     <lastmod>2016-04-04T10:34:10.000Z</lastmod>
   </url>
   
@@ -387,11 +392,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%201/</loc>
-    <lastmod>2016-03-26T10:55:49.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://icehe.me/think/bye2015/</loc>
     <lastmod>2016-03-26T08:30:12.000Z</lastmod>
   </url>
@@ -457,6 +457,11 @@
   </url>
   
   <url>
+    <loc>http://icehe.me/note/bash.html</loc>
+    <lastmod>2016-03-18T06:59:29.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://icehe.me/note/calorie.html</loc>
     <lastmod>2016-03-18T06:59:29.000Z</lastmod>
   </url>
@@ -468,11 +473,6 @@
   
   <url>
     <loc>http://icehe.me/note/think_clearly.html</loc>
-    <lastmod>2016-03-18T06:59:29.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/note/bash.html</loc>
     <lastmod>2016-03-18T06:59:29.000Z</lastmod>
   </url>
   

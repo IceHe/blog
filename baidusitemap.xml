@@ -3,6 +3,26 @@
 
 
     
+  <url>
+    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%201/</loc>
+    <lastmod>2016-04-17T07:33:52.000Z</lastmod>
+    <data>
+        <display>
+        <title>ASM 汇编语言 - 1</title>
+        <pubTime>2015-02-01T17:01:01.000Z</pubTime>
+        
+        <tag>ASM</tag>
+         
+         
+           
+             
+              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
     
     
@@ -67,26 +87,6 @@
 
     
   <url>
-    <loc>http://icehe.me/bookmarks/</loc>
-    <lastmod>2016-04-16T16:00:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>My Bookmarks 书签</title>
-        <pubTime>2015-12-19T16:00:00.000Z</pubTime>
-        
-        <tag>read</tag>
-         
-         
-           
-             
-              <breadCrumb title="read" url="http://icehe.me/categories/read/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://icehe.me/think/life_framework/</loc>
     <lastmod>2016-04-16T16:00:00.000Z</lastmod>
     <data>
@@ -100,6 +100,26 @@
            
              
               <breadCrumb title="think" url="http://icehe.me/categories/think/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/bookmarks/</loc>
+    <lastmod>2016-04-16T16:00:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>My Bookmarks 书签</title>
+        <pubTime>2015-12-19T16:00:00.000Z</pubTime>
+        
+        <tag>read</tag>
+         
+         
+           
+             
+              <breadCrumb title="read" url="http://icehe.me/categories/read/"/>
           
         </display>
     </data>
@@ -713,26 +733,6 @@
         <display>
         <title>ASM 汇编语言 - 2</title>
         <pubTime>2015-02-04T01:00:00.000Z</pubTime>
-        
-        <tag>ASM</tag>
-         
-         
-           
-             
-              <breadCrumb title="ASM" url="http://icehe.me/categories/ASM/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%201/</loc>
-    <lastmod>2016-03-26T10:55:49.000Z</lastmod>
-    <data>
-        <display>
-        <title>ASM 汇编语言 - 1</title>
-        <pubTime>2015-02-01T17:01:01.000Z</pubTime>
         
         <tag>ASM</tag>
          

@@ -287,7 +287,7 @@ sup {
 <li>「15」 <a href="/asm/Assembly Language - Note 15/">附录内容：汇编编译器对jmp的处理，地址计数器（AC），处理伪操作指令，栈传递参数，无溢出除法…</a></li>
 </ul>
 <h3 id="Mine"><a href="/about/">Mine</a></h3><hr>
-<p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#109;&#97;&#x69;&#108;&#116;&#111;&#58;&#x78;&#x40;&#105;&#x63;&#101;&#104;&#x65;&#46;&#x6d;&#x65;">&#x78;&#x40;&#105;&#x63;&#101;&#104;&#x65;&#46;&#x6d;&#x65;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
+<p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#x6d;&#97;&#105;&#108;&#116;&#x6f;&#58;&#x78;&#x40;&#105;&#99;&#101;&#x68;&#101;&#46;&#x6d;&#101;">&#x78;&#x40;&#105;&#99;&#101;&#x68;&#101;&#46;&#x6d;&#101;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
 <h3 id="Others">Others</h3><hr>
 <ul>
 <li>The article with superscript <sup><strong>me</strong></sup>&nbsp; implies it’s <code>about me</code>.</li>
@@ -1459,6 +1459,10 @@ sup {
 </li>
 <li><p><a href="http://blog.jobbole.com/82908/" target="_blank" rel="external">国外程序员整理的 PHP 资源大全</a> —— <a href="https://github.com/ziadoz/awesome-php" target="_blank" rel="external">Awesome PHP</a> <sup><em>todo</em></sup></p>
 </li>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&amp;mid=405001493&amp;idx=1&amp;sn=f0ecab9b31bad83fb065ac37bb728245&amp;scene=1&amp;srcid=0324wakUaG4F8lfZaqeiADpV#rd" target="_blank" rel="external">一名全栈工程师Node.js之路</a></p>
+</li>
+<li><p><a href="http://coolshell.cn/articles/8961.html" target="_blank" rel="external">从面向对象的设计模式看软件设计</a></p>
+</li>
 <li><p><a href="https://github.com/google/styleguide/" target="_blank" rel="external">Google Style Guides</a> —— 谷歌代码风格指南。 <sup><em>todo</em></sup></p>
 </li>
 <li><p><a href="http://graphics.stanford.edu/~seander/bithacks.html" target="_blank" rel="external">Bit Twiddling Hacks</a> —— 位计算与操作。 <sup><em>todo</em></sup></p>
@@ -1547,17 +1551,15 @@ sup {
 </li>
 <li><p><a href="http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=401298826&amp;idx=1&amp;sn=02047f1d7591252a0ffc6a5ac6fe1874&amp;scene=1&amp;srcid=1230FaNRSmrYU81gqipYrm1d#rd" target="_blank" rel="external">如何用消息系统避免分布式事务？</a></p>
 </li>
-<li><p><a href="http://coolshell.cn/articles/8961.html" target="_blank" rel="external">从面向对象的设计模式看软件设计</a></p>
-</li>
-<li><p><a href="http://www.cnblogs.com/xing901022/p/4425124.html" target="_blank" rel="external">高扩展性网站的50条原则</a></p>
-</li>
 <li><p><a href="http://www.searchtb.com/" target="_blank" rel="external">淘宝搜索技术博客</a> <sup><em>todo</em></sup></p>
 </li>
 <li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5NTg2NTU0Ng==&amp;mid=210816035&amp;idx=3&amp;sn=7ad903e7be165e2c616c20fa2f148f63&amp;scene=1#rd" target="_blank" rel="external">架构腐化之谜</a></p>
 </li>
+<li><p><a href="http://www.cnblogs.com/xing901022/p/4425124.html" target="_blank" rel="external">高扩展性网站的50条原则</a></p>
+</li>
 <li><p><a href="http://zhuanlan.zhihu.com/yilecoming/20587867" target="_blank" rel="external">什么不要做？关于失败和优化</a></p>
 </li>
-<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&amp;mid=405001493&amp;idx=1&amp;sn=f0ecab9b31bad83fb065ac37bb728245&amp;scene=1&amp;srcid=0324wakUaG4F8lfZaqeiADpV#rd" target="_blank" rel="external">一名全栈工程师Node.js之路</a></p>
+<li><p><a href="https://github.com/ruanyf/articles/blob/master/2015/2015-02-01-mvc.md" target="_blank" rel="external">MVC，MVP 和 MVVM 的图示</a></p>
 </li>
 </ul>
 <h2 id="Linux">Linux</h2><ul>
@@ -1585,6 +1587,10 @@ sup {
 </li>
 </ul>
 <h2 id="Secure_安全">Secure 安全</h2><ul>
+<li><p><a href="https://github.com/ruanyf/articles/blob/master/2014/2014-05-11-oauth-2-0.md" target="_blank" rel="external">理解 OAuth 2.0</a></p>
+</li>
+<li><p><a href="https://github.com/ruanyf/articles/blob/master/2014/2014-09-20-illustration-ssl.md" target="_blank" rel="external">图解 SSL / TLS 协议</a></p>
+</li>
 <li><p><a href="http://drops.wooyun.org/" target="_blank" rel="external">WooYun 知识库</a> <sup><em>todo</em></sup></p>
 </li>
 <li><p><a href="http://wiki.wooyun.org/" target="_blank" rel="external">WooYun Wiki</a> —— 网络安全。 <sup><em>todo</em></sup></p>
@@ -1709,9 +1715,12 @@ sup {
 </li>
 <li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5NzExOTE2Ng==&amp;mid=208583700&amp;idx=1&amp;sn=9bb0ea491064b3ffb93e7f24f9fc04a3&amp;scene=5#rd" target="_blank" rel="external">精致的利己主义者和常青藤的绵羊</a> —— 中西。</p>
 </li>
-<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;mid=216723229&amp;idx=1&amp;sn=87c7dbb95abce565fa001c3a5063427a&amp;scene=1&amp;srcid=0308jCVD1x8LridYzELGd0ZS#rd" target="_blank" rel="external">风尘棋客</a></p>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;mid=405068698&amp;idx=1&amp;sn=a401b7eba92b3bc4378cb5ec8dfd7c48&amp;scene=1&amp;srcid=04011TWvm7WC8dEBpfJRwAIP#rd" target="_blank" rel="external">你的自控能力强么？｜研究：不快乐的人自控力更差</a> —— 吃好，睡好，保持好心情与好状态。</p>
+</li>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;mid=216723229&amp;idx=1&amp;sn=87c7dbb95abce565fa001c3a5063427a&amp;scene=1&amp;srcid=0308jCVD1x8LridYzELGd0ZS#rd" target="_blank" rel="external">风尘棋客</a> —— 他人的故事。</p>
 </li>
 <li><p><a href="http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;mid=233397081&amp;idx=1&amp;sn=836801a648013f925fca14de3572c45c&amp;scene=1&amp;srcid=0309TRipy9egTmxD0B51Q272#rd" target="_blank" rel="external">《论悲观主义的益处》阿兰·德·波顿</a></p>
+<p>  「他的音乐虽然哀伤，但却有振奋人心的功效。你会感到你的悲伤并不孤独。」</p>
 </li>
 <li><p><a href="http://yixi.tv/lecture/177" target="_blank" rel="external">《 感谢你给我机会上场 》方励的一席演讲</a> —— 循着乐趣前行。 <sup><strong>Best</strong></sup></p>
 </li>
@@ -1730,6 +1739,8 @@ sup {
 </li>
 <li><p><a href="https://www.zhihu.com/question/22613634/answer/77378235" target="_blank" rel="external">为什么人越长大越孤单？</a> —— 自我定型后，想要寻找与我们真正相似的人。</p>
 </li>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;mid=405129874&amp;idx=1&amp;sn=97889db6769448ff81a249be802c23a8&amp;scene=1&amp;srcid=0401FOHGUq43ZmJKAfljBV8z#rd" target="_blank" rel="external">谢谢你曾拒绝我｜被排斥会给一个人留下怎样的影响？</a> —— 低自尊。</p>
+</li>
 <li><p><a href="http://yue.fm/bg3x" target="_blank" rel="external">不让不够格的“朋友”牵绊前进的脚步</a> —— 勿交损友。</p>
 </li>
 <li><p><a href="https://www.zhihu.com/question/27203367" target="_blank" rel="external">如何看待把妹知识？</a> —— 成为优秀而真实的自己。</p>
@@ -1737,6 +1748,8 @@ sup {
 <li><p><a href="https://www.zhihu.com/question/23151702" target="_blank" rel="external">男女交往最忌讳什么？</a> —— 月亮你要，六便士你还嫌少。</p>
 </li>
 <li><p><a href="https://www.zhihu.com/question/26239595" target="_blank" rel="external">在大学里有哪些不错的恋爱建议？</a> —— 不强求。</p>
+</li>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;mid=404230721&amp;idx=1&amp;sn=e3bd39ad031e00199d0a74e835e1768c&amp;scene=1&amp;srcid=04022oqUaHFXY1bI7drd1BuL#rd" target="_blank" rel="external">为什么你的爱情会输给日常琐碎？｜相爱容易相处难</a></p>
 </li>
 <li><p><a href="http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;mid=215662699&amp;idx=1&amp;sn=d03dc12f1b0cab3fa191b80cf7697b76&amp;scene=18&amp;scene=1&amp;srcid=0308sLfw8T7lI35VCnfy6RVG#rd" target="_blank" rel="external">伤不起的盖茨比——那些年，我们没逆袭到的女神</a></p>
 </li>
@@ -1781,7 +1794,9 @@ sup {
 </li>
 <li><p><a href="http://www.360doc.com/content/15/0913/11/17262826_498824822.shtml" target="_blank" rel="external">有情调没情怀、有趣味没人情味的知乎社区</a></p>
 </li>
-<li><p><a href="https://www.zhihu.com/question/20139880" target="_blank" rel="external">学术方面该如何评价哈耶克？</a></p>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;mid=402827389&amp;idx=1&amp;sn=f6d26aacd8237df903e63a5012524b39&amp;scene=1&amp;srcid=0402ORLMG19eomT4kOhKNmEk#rd" target="_blank" rel="external">面对未知，如何能够免于恐惧？</a> —— 比起不确定的答案，我们宁可要一个坏答案。要悦纳不确定。</p>
+</li>
+<li><p><a href="https://www.zhihu.com/question/20139880" target="_blank" rel="external">学术方面该如何评价哈耶克？</a> —— 公正的游戏规则。</p>
 </li>
 <li><p><a href="http://blog.hiddenwangcc.com/sharewithu" target="_blank" rel="external">个人成长理论、工具</a> —— 可供参考。</p>
 </li>
@@ -2489,7 +2504,7 @@ article .article-content ul li p:first-child {
 <li><p><a href="https://www.zhihu.com/people/shaofeidu" target="_blank" rel="external">杜绍斐</a></p>
 <p>  男士穿着、时尚、趣闻。</p>
 </li>
-<li><p><a href="http://chuansong.me/account/itlaoyou-com" target="_blank" rel="external">IT老友记</a></p>
+<li><p><a href="http://chuansong.me/account/itlaoyou-com" target="_blank" rel="external">IT 老友记</a></p>
 <p>  每日 IT 业简讯。</p>
 </li>
 <li><p><a href="http://chuansong.me/account/gh_b09cb640f644" target="_blank" rel="external">吴晓波频道</a></p>
@@ -2503,7 +2518,7 @@ article .article-content ul li p:first-child {
 <li><p><a href="https://movie.douban.com/subject/24697949/" target="_blank" rel="external">半泽直树</a></p>
 <p>  复仇，弱肉强食。</p>
 </li>
-<li><p><a href="https://movie.douban.com/subject_search?search_text=%E6%9C%80%E5%AE%8C%E7%BE%8E%E7%9A%84%E7%A6%BB%E5%A9%9A&amp;cat=1002" target="_blank" rel="external">最完美的离婚</a></p>
+<li><p><a href="https://movie.douban.com/subject_search?search_text=%E6%9C%80%E5%AE%8C%E7%BE%8E%E7%9A%84%E7%A6%BB%E5%A9%9A&amp;cat=1002*" target="_blank" rel="external">最完美的离婚</a></p>
 <p>  生活。</p>
 </li>
 <li><p><a href="https://movie.douban.com/subject/26663070/" target="_blank" rel="external">家族的形式</a></p>
@@ -2570,7 +2585,7 @@ article .article-content ul li p:first-child {
 </li>
 </ul>
 <h1 id="Animate_动画">Animate 动画</h1><ul>
-<li><p><a href="https://movie.douban.com/subject/25813424/" target="_blank" rel="external">乒乓</a></p>
+<li><p><strong><a href="https://movie.douban.com/subject/25813424/" target="_blank" rel="external">乒乓</a></strong></p>
 <p>  人生，才能与努力。</p>
 </li>
 <li><p><a href="https://movie.douban.com/subject/1800597/" target="_blank" rel="external">虫师</a></p>
@@ -2579,7 +2594,7 @@ article .article-content ul li p:first-child {
 <li><p><a href="https://movie.douban.com/subject/1474243/" target="_blank" rel="external">棋魂</a></p>
 <p>  迷上围棋。</p>
 </li>
-<li><p><a href="https://movie.douban.com/review/7794549/" target="_blank" rel="external">亚人</a></p>
+<li><p><strong><a href="https://movie.douban.com/review/7794549/" target="_blank" rel="external">亚人</a></strong></p>
 <p>  人性，理性。</p>
 </li>
 <li><p><a href="http://baike.baidu.com/view/15161941.htm?fromtitle=%E5%AF%84%E7%94%9F%E5%85%BD%E7%94%9F%E5%91%BD%E7%9A%84%E5%87%86%E5%88%&amp;fromid=15149279&amp;type=syn" target="_blank" rel="external">寄生兽</a></p>
@@ -2807,7 +2822,7 @@ article .article-content ul li p:first-child {
 article .article-content ul li p:first-child {
      list-style: disc;
      text-align: match-parent;
-     font-weight: bold;
+     //font-weight: bold;
 }
 </style>
 
