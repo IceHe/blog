@@ -10,7 +10,7 @@
 # Site
 title: IceHe 何志远
 #subtitle: More is in vain when less will serve.
-subtitle: "Done is better than perfect. | 宁静致远"
+subtitle: "Done is better than perfect."
 description: IceHe 何志远 blog 博客 software development technology 软件 开发 技术
 author: IceHe何志远
 email: x@icehe.me
@@ -76,7 +76,7 @@ logger_format: dev
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: H:mm:ss
-updated_date_format: YY-M-D
+short_date_format: YY-MM-DD
 
 # Pagination
 ## Set per_page to 0 to disable pagination
