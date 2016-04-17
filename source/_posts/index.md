@@ -1,6 +1,6 @@
 title: Blog Index 目录
 date: 2016-03-07
-updated: 2016-03-16
+updated: 2016-04-17
 show_updated: true
 categories: [read]
 tags: [read]
@@ -15,6 +15,12 @@ description: 本博客的导航页。
 
 - [Me 我](/about/) &nbsp;/&nbsp; [Resume](/resume)<sup>简历</sup> <sup>me</sup>
 - [Reward Me 打赏博主](/reward)
+
+### [Think](/categories/think)
+---
+
+- [Life Framework](/think/life_framework/) <sup>me</sup>
+- [Bye 2015](/think/bye2015) <sup>me</sup>
 
 ### [AppleScript](/categories/AppleScript)
 ---
@@ -33,11 +39,6 @@ description: 本博客的导航页。
 
 - [My Tools 利器](/tools) —— Mac 应用推荐 <sup>me</sup>
 - [My Mac Shortcuts 快捷键](/mac_shortcuts) <sup>me</sup>
-
-### [Think](/categories/think)
----
-
-- [Bye 2015](/think/bye2015) <sup>me</sup>
 
 ### [Read](/categories/read)
 ---
