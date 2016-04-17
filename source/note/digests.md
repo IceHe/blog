@@ -1,9 +1,9 @@
 title: Digests
 date: 2016-04-12
-categories: [think]
-tags: [think]
-description: 一些书摘。
 ---
+<!--categories: [think]-->
+<!--tags: [think]-->
+<!--description: 一些书摘。-->
 
 ## Baby
 
