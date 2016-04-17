@@ -1,11 +1,12 @@
 title: Blog Index 目录
 date: 2016-03-07
+updated: 2016-03-16
+show_updated: true
 categories: [read]
 tags: [read]
 description: 本博客的导航页。
 ---
 
-- Updated on 2016-03-16
 - [Archives 归档 ( Sort by Time )](/archives)
 - Sort by Category as follows.
 

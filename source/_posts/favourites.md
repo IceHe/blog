@@ -1,11 +1,12 @@
 title: My Favourites 喜好
 date: 2015-11-19
+updated: 2016-04-10
+show_updated: true
 categories: [read]
 tags: [read]
 description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游戏…
 ---
 
-- Updated on 2016-04-10
 - 玩过、看过的之中，最喜欢这些。
 
 # Books 书

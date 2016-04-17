@@ -1,11 +1,12 @@
 title: My Mac Shortcuts 快捷键
 date: 2016-01-06
+updated: 2016-04-13
+show_updated: true
 categories: [Mac]
 tags: [Mac]
 description: 我的 OS X 快捷键列表。
 ---------------------------
 
-- Updated on 2016-04-13
 - Ref: 《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》
 
 # Explanation

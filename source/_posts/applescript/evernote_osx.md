@@ -1,11 +1,12 @@
 title: 用 AppleScript 操作 Evernote / OS X
 date: 2016-03-13
+updated: 2016-03-16
+show_updated: true
 categories: [AppleScript]
 tags: [AppleScript]
 description: 在 OS X 上，如何使用 AppleScript 操作 Evernote、OS X。
 -----------------------------------------------------------------------
 
-- Updated on 2016-03-16
 - I supposed that you have learned AppleScript, so I will not introduce it in detail.
 - You can learn AppleScript in practice or my [AppleScript Quick Start 快速入门](/applescript/applescript/).
 

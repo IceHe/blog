@@ -1,11 +1,11 @@
 title: Time Mgt 时间管理日志
 date: 2015-11-13
+updated: 2015-12-27
+show_updated: true
 categories: [time mgt]
 tags: [time mgt]
 description: Log Format时间日志格式。Principles原则，Transaction Categorees事务类别，Time Granularity时间粒度，Log Instance实例，Schedule规划。
 ---
-
-- Updated on 2015-12-27
 
 - 链接：《 [我的所有时间管理日志](/lifelogs) 》
 - 旧版：《 [Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考](/old_version_posts/time_mgt_log_format.html) 》

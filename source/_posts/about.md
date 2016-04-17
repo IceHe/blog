@@ -1,10 +1,13 @@
 title: Me 我
 date: 2015-01-20
+updated: 2016-04-17
+show_updated: true
 categories: [whoami]
 tags: [whoami]
 description: 这就是我。
 toc: false
----
+----------
+
 <span class="key_pos">I'm</span>  <span class="val_pos"> <i class="fa fa-user-secret">&nbsp;</i> &nbsp;**<a href="#qr_code" target="_top" onclick="document.getElementById('qr_code').className='pic_styl'; setTimeout(function(){ $('#qr_code').fadeOut(500).fadeIn(2000); }, 500);">Ice He 何志远</a>** &nbsp;&nbsp; </span><span id="qr_code_tip" class="hidden" style="margin-left:10px; display:none;">**Scan QR Code** <i class="fa fa-arrow-down"></i></span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-paper-plane">&nbsp;</i> A Cantonese in Beijing</sup> </span>
 <span class="val_pos"> <i class="fa fa-envelope-square">&nbsp;</i> &nbsp;<x@icehe.me> </span>
@@ -25,13 +28,14 @@ toc: false
 <span class="val_pos"> <i class="fa fa-gears">&nbsp;</i> [Tools](/tools/) &nbsp; &nbsp; &nbsp;  </span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Softwares, Hardwares</sup> </span> <br/>
 <span class="key_pos">Friends</span> <span class="val_pos"> <i class="fa fa-users">&nbsp;</i> [Jan Fan](http://janfan.github.io/) | [Shiwey Yan](http://shiweyyan.github.io/) <i class="hidden">/ [极地 · 雪](http://sf-zhou.github.io/)</i> </span>
-<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Outstanding | Game Developer <i class="hidden">/ ACMer</i></sup> </span> <br/><br/>
+<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Outstanding | Game Developer <i class="hidden">/ ACMer</i></sup> </span> <br/>
+<span class="key_pos">Motto</span> <span class="val_pos"> <i class="fa fa-comment">&nbsp;</i> More is in vain when less will serve. | 宁静致远。  </span> <br/><br/>
 
 ---
 <br/> <div class="center"> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_00.jpg" class="pic_styl" style="margin-left: 0px" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_01a.jpg" class="pic_styl" /> <img id="qr_code" src="http://7vzp68.com1.z0.glb.clouddn.com/about_original/qrcode_00.jpg" class="hidden pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_03a.jpg" class="pic_styl" />
 </div>
 <div id="more" class="center"> <i class="fa fa-toggle-down">&nbsp;</i> <a href="#Social_Network" onclick="">More</a> </div> <div id="life_img" class="center hidden"> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/memorable_00.jpg" style="height: 320px;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/dorm_00.jpg" style="height: 550px; width: 413;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/jianqiu_00.jpg" style="height: 550px; width: 413;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/handicraft_00.jpg" style="height: 320px;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/jianqiu_01.gif" style="height: 335px;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/duokan_read_history.png" style="height: 550px; width: auto;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/sina_work_place.png" style="height: 550px; width:auto;" /> </div> <br/>
-- Updated on 2016-03-07
+
 <sup>PV = <span id="busuanzi_value_site_pv"></span> ,&nbsp; UV = <span id="busuanzi_value_site_uv"></span></sup>
 
 <style type="text/css"> .key_pos{position: absolute; right: 75%; text-align: left;} .val_pos{position: absolute; left: 27%;} .red{color: gray;} article img.pic_styl{height: 140px; width: auto; margin-right: 10px;} </style>

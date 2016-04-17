@@ -1,12 +1,12 @@
 title: My Timeline 时间轴
 ---
 <!--date: 2015-01-23-->
+<!--updated: 2015-12-27-->
 <!--categories: [whoami]-->
 <!--tags: [whoami]-->
 <!--description: 我的时间轴。-->
 <!--toc: false-->
 
-- *Updated on 2015-12-27*
 <br/>
 
 ###### **Born 出生** &nbsp; &nbsp; &nbsp; &nbsp; *Mar 16, 1992* <br/>

@@ -1,11 +1,10 @@
 title: CLI Note 命令行
 ---
 <!--date: 2016-01-24 20:12:50-->
+<!--updated: 2016-01-27-->
 <!--categories: [Command]-->
 <!--tags: [Command]-->
 <!--description: 我的命令行指令总结，及相关配置。CLI = Command Line Interface-->
-
-- *Updated on 2016-01-27*
 
 ## Abbreviations
 

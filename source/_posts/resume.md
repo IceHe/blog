@@ -1,12 +1,13 @@
 title: My Resume 何志远
 date: 2015-01-24
+updated: 2016-03-25
+show_updated: true
 categories: [whoami]
 tags: [whoami]
 description: 我的简历。
 toc: false
 ---
 
-- Updated on 2016-03-25
 - <i class="fa fa-user-secret">&nbsp;</i>&nbsp; __Ice He__ 何志远
 - <i class="fa fa-envelope">&nbsp;&nbsp;</i> __<x@icehe.me>__
 
