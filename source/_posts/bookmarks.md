@@ -1,11 +1,11 @@
 title: My Bookmarks 书签
 date: 2015-12-20
+updated: 2016-04-17
+show_updated: true
 categories: [read]
 tags: [read]
 description: 我收藏的网站、博客、文档、学习资料、文章、问答、专栏…
 ---
-
-- Updated on 2016-04-16
 
 # IT 信息技术
 
@@ -233,6 +233,8 @@ Need to screen the content of this section. <sup>_todo_</sup>
 - [追求极致：从技术细节看美团架构](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=402465951&amp;idx=1&amp;sn=c76193b13b506d2c631bac8840a0f5b6&amp;scene=1&amp;srcid=0203LZGGRVEnbznCiOuiKo9H#rd)
 
 - [千万级规模高性能、高并发的网络架构经验](http://mp.weixin.qq.com/s?__biz=MjM5NDMwNjMzNA==&amp;mid=402417924&amp;idx=1&amp;sn=967ecd1fae2f9acb4356607222c94b3b&amp;scene=1&amp;srcid=1230UbcV9DsQeIqLXOuH5QUa#rd) —— 微博平台架构。
+
+- [新浪微博高可用服务保障体系演进](http://www.infoq.com/cn/presentations/sina-weibo-high-availability-service-support-system-evolution)
 
 - [端游、手游服务端常用的架构是什么样的？](https://www.zhihu.com/question/29779732) <sup>_todo_</sup>
 
