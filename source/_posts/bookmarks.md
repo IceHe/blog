@@ -154,6 +154,10 @@ Need to screen the content of this section. <sup>_todo_</sup>
 
 - [国外程序员整理的 PHP 资源大全](http://blog.jobbole.com/82908/) —— [Awesome PHP](https://github.com/ziadoz/awesome-php) <sup>_todo_</sup>
 
+- [一名全栈工程师Node.js之路](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&amp;mid=405001493&amp;idx=1&amp;sn=f0ecab9b31bad83fb065ac37bb728245&amp;scene=1&amp;srcid=0324wakUaG4F8lfZaqeiADpV#rd)
+
+- [从面向对象的设计模式看软件设计](http://coolshell.cn/articles/8961.html)
+
 - [Google Style Guides](https://github.com/google/styleguide/) —— 谷歌代码风格指南。 <sup>_todo_</sup>
 
 - [Bit Twiddling Hacks](http://graphics.stanford.edu/~seander/bithacks.html) —— 位计算与操作。 <sup>_todo_</sup>
@@ -242,17 +246,15 @@ Need to screen the content of this section. <sup>_todo_</sup>
 
 - [如何用消息系统避免分布式事务？](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=401298826&amp;idx=1&amp;sn=02047f1d7591252a0ffc6a5ac6fe1874&amp;scene=1&amp;srcid=1230FaNRSmrYU81gqipYrm1d#rd)
 
-- [从面向对象的设计模式看软件设计](http://coolshell.cn/articles/8961.html)
-
-- [高扩展性网站的50条原则](http://www.cnblogs.com/xing901022/p/4425124.html)
-
 - [淘宝搜索技术博客](http://www.searchtb.com/) <sup>_todo_</sup>
 
 - [架构腐化之谜](http://mp.weixin.qq.com/s?__biz=MjM5NTg2NTU0Ng==&amp;mid=210816035&amp;idx=3&amp;sn=7ad903e7be165e2c616c20fa2f148f63&amp;scene=1#rd)
 
+- [高扩展性网站的50条原则](http://www.cnblogs.com/xing901022/p/4425124.html)
+
 - [什么不要做？关于失败和优化](http://zhuanlan.zhihu.com/yilecoming/20587867)
 
-- [一名全栈工程师Node.js之路](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&amp;mid=405001493&amp;idx=1&amp;sn=f0ecab9b31bad83fb065ac37bb728245&amp;scene=1&amp;srcid=0324wakUaG4F8lfZaqeiADpV#rd)
+- [MVC，MVP 和 MVVM 的图示](https://github.com/ruanyf/articles/blob/master/2015/2015-02-01-mvc.md)
 
 ## Linux
 
@@ -279,6 +281,10 @@ Need to screen the content of this section. <sup>_todo_</sup>
 - [Unix 现状与未来](http://blog.csdn.net/haoel/article/details/1688006)
 
 ## Secure 安全
+
+- [理解 OAuth 2.0](https://github.com/ruanyf/articles/blob/master/2014/2014-05-11-oauth-2-0.md)
+
+- [图解 SSL / TLS 协议](https://github.com/ruanyf/articles/blob/master/2014/2014-09-20-illustration-ssl.md)
 
 - [WooYun 知识库](http://drops.wooyun.org/) <sup>_todo_</sup>
 
@@ -405,9 +411,13 @@ Need to screen the content of this section. <sup>_todo_</sup>
 
 - [精致的利己主义者和常青藤的绵羊](http://mp.weixin.qq.com/s?__biz=MjM5NzExOTE2Ng==&mid=208583700&idx=1&sn=9bb0ea491064b3ffb93e7f24f9fc04a3&scene=5#rd) —— 中西。
 
-- [风尘棋客](http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;mid=216723229&amp;idx=1&amp;sn=87c7dbb95abce565fa001c3a5063427a&amp;scene=1&amp;srcid=0308jCVD1x8LridYzELGd0ZS#rd)
+- [你的自控能力强么？｜研究：不快乐的人自控力更差](http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;mid=405068698&amp;idx=1&amp;sn=a401b7eba92b3bc4378cb5ec8dfd7c48&amp;scene=1&amp;srcid=04011TWvm7WC8dEBpfJRwAIP#rd) —— 吃好，睡好，保持好心情与好状态。
+
+- [风尘棋客](http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;mid=216723229&amp;idx=1&amp;sn=87c7dbb95abce565fa001c3a5063427a&amp;scene=1&amp;srcid=0308jCVD1x8LridYzELGd0ZS#rd) —— 他人的故事。
 
 - [《论悲观主义的益处》阿兰·德·波顿](http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;mid=233397081&amp;idx=1&amp;sn=836801a648013f925fca14de3572c45c&amp;scene=1&amp;srcid=0309TRipy9egTmxD0B51Q272#rd)
+
+    「他的音乐虽然哀伤，但却有振奋人心的功效。你会感到你的悲伤并不孤独。」
 
 - [《 感谢你给我机会上场 》方励的一席演讲](http://yixi.tv/lecture/177) —— 循着乐趣前行。 <sup>__Best__</sup>
 
@@ -427,6 +437,8 @@ Need to screen the content of this section. <sup>_todo_</sup>
 
 - [为什么人越长大越孤单？](https://www.zhihu.com/question/22613634/answer/77378235) —— 自我定型后，想要寻找与我们真正相似的人。
 
+- [谢谢你曾拒绝我｜被排斥会给一个人留下怎样的影响？](http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;mid=405129874&amp;idx=1&amp;sn=97889db6769448ff81a249be802c23a8&amp;scene=1&amp;srcid=0401FOHGUq43ZmJKAfljBV8z#rd) —— 低自尊。
+
 - [不让不够格的“朋友”牵绊前进的脚步](http://yue.fm/bg3x) —— 勿交损友。
 
 - [如何看待把妹知识？](https://www.zhihu.com/question/27203367) —— 成为优秀而真实的自己。
@@ -434,6 +446,8 @@ Need to screen the content of this section. <sup>_todo_</sup>
 - [男女交往最忌讳什么？](https://www.zhihu.com/question/23151702) —— 月亮你要，六便士你还嫌少。
 
 - [在大学里有哪些不错的恋爱建议？](https://www.zhihu.com/question/26239595) —— 不强求。
+
+- [为什么你的爱情会输给日常琐碎？｜相爱容易相处难](http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;mid=404230721&amp;idx=1&amp;sn=e3bd39ad031e00199d0a74e835e1768c&amp;scene=1&amp;srcid=04022oqUaHFXY1bI7drd1BuL#rd)
 
 - [伤不起的盖茨比——那些年，我们没逆袭到的女神](http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;mid=215662699&amp;idx=1&amp;sn=d03dc12f1b0cab3fa191b80cf7697b76&amp;scene=18&amp;scene=1&amp;srcid=0308sLfw8T7lI35VCnfy6RVG#rd)
 
@@ -479,7 +493,9 @@ Need to screen the content of this section. <sup>_todo_</sup>
 
 - [有情调没情怀、有趣味没人情味的知乎社区](http://www.360doc.com/content/15/0913/11/17262826_498824822.shtml)
 
-- [学术方面该如何评价哈耶克？](https://www.zhihu.com/question/20139880)
+- [面对未知，如何能够免于恐惧？](http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;mid=402827389&amp;idx=1&amp;sn=f6d26aacd8237df903e63a5012524b39&amp;scene=1&amp;srcid=0402ORLMG19eomT4kOhKNmEk#rd) —— 比起不确定的答案，我们宁可要一个坏答案。要悦纳不确定。
+
+- [学术方面该如何评价哈耶克？](https://www.zhihu.com/question/20139880) —— 公正的游戏规则。
 
 - [个人成长理论、工具](http://blog.hiddenwangcc.com/sharewithu) —— 可供参考。
 
