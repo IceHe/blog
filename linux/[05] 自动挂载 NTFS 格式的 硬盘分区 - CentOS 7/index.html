@@ -7,7 +7,7 @@
 
 <meta charset="UTF-8">
 
-<title>CentOS 自动挂载 NTFS 格式的硬盘分区 | Ice He 何志远</title>
+<title>CentOS 自动挂载 NTFS 格式的硬盘分区 | IceHe 何志远</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 
@@ -18,9 +18,9 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="CentOS 自动挂载 NTFS 格式的硬盘分区">
 <meta property="og:url" content="http://icehe.me/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/index.html">
-<meta property="og:site_name" content="Ice He 何志远">
+<meta property="og:site_name" content="IceHe 何志远">
 <meta property="og:description" content="用指令安装ntfs-3g：yum install ntfs-3g。挂载分区，mount -t ntfs-3g /dev/sdb1 /mnt/win1 … 系统开机自动挂载移动硬盘，需编辑/etc/fstab。取消挂载的Bug及其解决方法。">
-<meta property="og:updated_time" content="2016-03-25T08:30:15.000Z">
+<meta property="og:updated_time" content="2016-04-17T05:50:16.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CentOS 自动挂载 NTFS 格式的硬盘分区">
 <meta name="twitter:description" content="用指令安装ntfs-3g：yum install ntfs-3g。挂载分区，mount -t ntfs-3g /dev/sdb1 /mnt/win1 … 系统开机自动挂载移动硬盘，需编辑/etc/fstab。取消挂载的Bug及其解决方法。">
@@ -32,7 +32,7 @@
 <meta property="wb:webmaster" content="84efd5956048ab8f" />
 
 <!-- RSS -->
-<link rel="alternative" href="/atom.xml" title="Ice He 何志远" type="application/atom+xml">
+<link rel="alternative" href="/atom.xml" title="IceHe 何志远" type="application/atom+xml">
 
 <!-- Icons -->
 <link rel="icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon.ico">
@@ -59,14 +59,14 @@
     
     <div id="imglogo">
         <a href="/">
-            <!--<img src="/http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="Ice He 何志远" title="Ice He 何志远"/> -->
-            <img src="http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="Ice He 何志远" title="Ice He 何志远"/>
+            <!--<img src="/http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="IceHe 何志远" title="IceHe 何志远"/> -->
+            <img src="http://7vzp68.com1.z0.glb.clouddn.com/common/logo.png" alt="IceHe 何志远" title="IceHe 何志远"/>
         </a>
     </div>
     
     <div id="textlogo">
-        <h1 class="site-name"><a href="/" title="Ice He 何志远">Ice He 何志远</a></h1>
-        <h2 class="blog-motto">More is in vain when less will serve.</h2>
+        <h1 class="site-name"><a href="/" title="IceHe 何志远">IceHe 何志远</a></h1>
+        <h2 class="blog-motto">「 Done is better than perfect. 」</h2>
     </div>
 
     <div class="navbar">
@@ -120,17 +120,20 @@
     </p>
 
     <p class="article-data">
-
-        <time class="article-time" datetime="2015-03-28T16:00:00.000Z" itemprop="datePublished">2015-03-29</time>&nbsp; / &nbsp;<span class="article-pageview">?</span> views
-
+    
+        <time class="article-time" datetime="2015-03-28T16:00:00.000Z" itemprop="datePublished">
+            2015-03-29
+        </time>
+    
+        &nbsp;/&nbsp; <span class="article-pageview">?</span> views
     </p>
 
 </header>
 
 <div class="article-content">
     
-    <en-note><div><div>Ref From: <a shape="rect" href="http://blog.rekfan.com/articles/137.html" target="_blank">http://blog.rekfan.com/articles/137.html</a></div><div>Original Title: CentOS 6.3 自动挂载NTFS格式分区硬盘</div></div><div><br clear="none"></div><div><span style="color: #ff6600;"><strong>Notice: </strong>第一、二步不进行，改为使用以下指令安装ntfs-3g，</span></div><div><strong>             <span style="color: #ff6600;">yum install ntfs-3g</span></strong></div><div><br clear="none">默认情况下，CentOS 6.3不支持NTFS格式的磁盘读写。</div><div>要想把NTFS格式的磁盘挂载到CentOS 6.3，<br clear="none">需要安装第三方的插件ntfs-3g，这里我们采用编译安装插件。<br clear="none"><br clear="none">1. 安装编译器，否则不能成功编译。</div><div><strong>yum install gcc</strong><br clear="none">根据提示按Y安装完成<br clear="none"><br clear="none">2. 安装ntfs-3g</div><div>进入/home目录，把软件下载到此目录<br clear="none"><strong>cd /home</strong></div><div>下载<br clear="none"><strong>wget http://tuxera.com/opensource/ntfs-3g_ntfsprogs-2011.4.12.tgz</strong></div><div>解压</div><div><strong>tar zxvf ntfs-3g_ntfsprogs-2011.4.12.tgz</strong></div><div>进入目录<br clear="none"><strong>cd ntfs-3g_ntfsprogs-2011.4.12</strong></div><div>编译 &amp; 安装</div><div><strong>./configure &amp;&amp; make &amp;&amp; make install</strong></div><div>返回上一级目录<br clear="none"><strong>cd ..</strong></div><div>删除安装程序包<br clear="none"><strong>rm -r -f ntfs-3g_ntfsprogs*</strong></div><div><br clear="none"></div><div>3. 查看使用</div><div># 显示系统磁盘信息<br clear="none"><strong>fdisk -l</strong></div><div>#####################################################################<br clear="none">Disk /dev/sdb: 160.0 GB, 160041885696 bytes<br clear="none">255 heads, 63 sectors/track, 19457 cylinders<br clear="none">Units = cylinders of 16065 * 512 = 8225280 bytes<br clear="none">Sector size (logical/physical): 512 bytes / 512 bytes<br clear="none">I/O size (minimum/optimal): 512 bytes / 512 bytes<br clear="none">Disk identifier: 0x7ab8d700<br clear="none">Device Boot Start End Blocks Id System<br clear="none">/dev/sdb1 * 1 5222 41945683+ 7 HPFS/NTFS<br clear="none">/dev/sdb2 5223 10444 41945715 7 HPFS/NTFS<br clear="none">/dev/sdb3 10445 15666 41945715 7 HPFS/NTFS<br clear="none">/dev/sdb4 15667 19457 30451207+ 7 HPFS/NTFS<br clear="none"> http://blog.rekfan.com/?p=137<br clear="none">###################################################################<br clear="none">以上信息显示的是我的移动硬盘，总共160G,有四个NTFS分区<br clear="none"><br clear="none"><br clear="none">4. 挂载分区</div><div>目标：<br clear="none">/dev/sdb1 分区挂载到 /mnt/win1<br clear="none">/dev/sdb2 分区挂载到 /mnt/win2<br clear="none">/dev/sdb3 分区挂载到 /mnt/win3<br clear="none">/dev/sdb4 分区挂载到 /mnt/win4<br clear="none"></div><div><br clear="none"></div><div>进入/mnt目录，新建四个挂载目录<br clear="none">cd /mnt<br clear="none"><strong>mkdir win1 win2 win3 win4</strong><br clear="none"></div><div><br clear="none"></div><div>挂载<br clear="none"><strong>mount -t ntfs-3g /dev/sdb1 /mnt/win1</strong><br clear="none">mount -t ntfs-3g /dev/sdb2 /mnt/win2<br clear="none">mount -t ntfs-3g /dev/sdb3 /mnt/win3<br clear="none">mount -t ntfs-3g /dev/sdb4 /mnt/win4<br clear="none"><br clear="none">分区挂载完成，现在可以进入/mnt目录下面查看对应的文件夹，即就是你移动硬盘的分区<br clear="none"></div><div><br clear="none"></div><div>卸载命令：<br clear="none"><strong>umount /dev/sdb1</strong><br clear="none">umount /dev/sdb2<br clear="none">umount /dev/sdb3<br clear="none">umount /dev/sdb4<br clear="none"></div><div><br clear="none"></div><div><br clear="none">5. 如果想让系统开机自动挂载移动硬盘，编辑/etc/fstab<br clear="none"></div><div>更改之前先备份</div><div>cp /etc/fstab /etc/fstabbak</div><div>编辑<br clear="none">vi /etc/fstab<br clear="none"><br clear="none">在最后添加以下信息，以读写方式挂载磁盘<br clear="none">/dev/sdb1 /mnt/win1 ntfs-3g defaults 0 0<br clear="none">/dev/sdb2 /mnt/win2 ntfs-3g defaults 0 0<br clear="none">/dev/sdb3 /mnt/win3 ntfs-3g defaults 0 0<br clear="none">/dev/sdb4 /mnt/win4 ntfs-3g defaults 0 0<br clear="none"><br clear="none">:wq!保存，退出<br clear="none"><br clear="none">现在只要重启机器，会自动挂载移动硬盘<br clear="none"></div><div><br clear="none"></div><div><br clear="none"><strong>取消挂载的问题——</strong></div><div>umount的时候出现如下提示：<br clear="none">[root@rekfan.com /]# umount /dev/sdb1<br clear="none">umount: /mnt/upan: device is busy.<br clear="none">        (In some cases useful info about processes that use<br clear="none">         the device is found by lsof(8) or fuser(1))<br clear="none"><br clear="none"><strong>解决方法一</strong><br clear="none">[root@rekfan.com /]# lsof -w /mnt/upan<br clear="none">COMMAND   PID USER   FD   TYPE DEVICE SIZE/OFF    NODE NAME<br clear="none">bash    31761 root  cwd    DIR   8,18     8192 2316326 /mnt/upan/rekfan.com_120526<br clear="none"><br clear="none">[root@rekfan.com /]#<br clear="none">使用 lsof -w /mnt/upan 可以看出，有个命令窗口在/mnt/upan/rekfan.com_120526目录上，</div><div>关闭这个窗口，或退出这个挂载目录，再使用 umount 即可安全退出挂载的设备！<br clear="none"><br clear="none"><strong>解决方法二</strong><br clear="none">[root@rekfan.com /]#fuser -k /mnt/upan<br clear="none">#杀死所有正在访问指定文件的进程</div>
-</en-note>
+    <div><div>Ref From: <a shape="rect" href="http://blog.rekfan.com/articles/137.html" target="_blank">http://blog.rekfan.com/articles/137.html</a></div><div>Original Title: CentOS 6.3 自动挂载NTFS格式分区硬盘</div></div><div><br clear="none"></div><div><span style="color: #ff6600;"><strong>Notice: </strong>第一、二步不进行，改为使用以下指令安装ntfs-3g，</span></div><div><strong>             <span style="color: #ff6600;">yum install ntfs-3g</span></strong></div><div><br clear="none">默认情况下，CentOS 6.3不支持NTFS格式的磁盘读写。</div><div>要想把NTFS格式的磁盘挂载到CentOS 6.3，<br clear="none">需要安装第三方的插件ntfs-3g，这里我们采用编译安装插件。<br clear="none"><br clear="none">1. 安装编译器，否则不能成功编译。</div><div><strong>yum install gcc</strong><br clear="none">根据提示按Y安装完成<br clear="none"><br clear="none">2. 安装ntfs-3g</div><div>进入/home目录，把软件下载到此目录<br clear="none"><strong>cd /home</strong></div><div>下载<br clear="none"><strong>wget http://tuxera.com/opensource/ntfs-3g_ntfsprogs-2011.4.12.tgz</strong></div><div>解压</div><div><strong>tar zxvf ntfs-3g_ntfsprogs-2011.4.12.tgz</strong></div><div>进入目录<br clear="none"><strong>cd ntfs-3g_ntfsprogs-2011.4.12</strong></div><div>编译 &amp; 安装</div><div><strong>./configure &amp;&amp; make &amp;&amp; make install</strong></div><div>返回上一级目录<br clear="none"><strong>cd ..</strong></div><div>删除安装程序包<br clear="none"><strong>rm -r -f ntfs-3g_ntfsprogs*</strong></div><div><br clear="none"></div><div>3. 查看使用</div><div># 显示系统磁盘信息<br clear="none"><strong>fdisk -l</strong></div><div>#####################################################################<br clear="none">Disk /dev/sdb: 160.0 GB, 160041885696 bytes<br clear="none">255 heads, 63 sectors/track, 19457 cylinders<br clear="none">Units = cylinders of 16065 * 512 = 8225280 bytes<br clear="none">Sector size (logical/physical): 512 bytes / 512 bytes<br clear="none">I/O size (minimum/optimal): 512 bytes / 512 bytes<br clear="none">Disk identifier: 0x7ab8d700<br clear="none">Device Boot Start End Blocks Id System<br clear="none">/dev/sdb1 * 1 5222 41945683+ 7 HPFS/NTFS<br clear="none">/dev/sdb2 5223 10444 41945715 7 HPFS/NTFS<br clear="none">/dev/sdb3 10445 15666 41945715 7 HPFS/NTFS<br clear="none">/dev/sdb4 15667 19457 30451207+ 7 HPFS/NTFS<br clear="none"> http://blog.rekfan.com/?p=137<br clear="none">###################################################################<br clear="none">以上信息显示的是我的移动硬盘，总共160G,有四个NTFS分区<br clear="none"><br clear="none"><br clear="none">4. 挂载分区</div><div>目标：<br clear="none">/dev/sdb1 分区挂载到 /mnt/win1<br clear="none">/dev/sdb2 分区挂载到 /mnt/win2<br clear="none">/dev/sdb3 分区挂载到 /mnt/win3<br clear="none">/dev/sdb4 分区挂载到 /mnt/win4<br clear="none"></div><div><br clear="none"></div><div>进入/mnt目录，新建四个挂载目录<br clear="none">cd /mnt<br clear="none"><strong>mkdir win1 win2 win3 win4</strong><br clear="none"></div><div><br clear="none"></div><div>挂载<br clear="none"><strong>mount -t ntfs-3g /dev/sdb1 /mnt/win1</strong><br clear="none">mount -t ntfs-3g /dev/sdb2 /mnt/win2<br clear="none">mount -t ntfs-3g /dev/sdb3 /mnt/win3<br clear="none">mount -t ntfs-3g /dev/sdb4 /mnt/win4<br clear="none"><br clear="none">分区挂载完成，现在可以进入/mnt目录下面查看对应的文件夹，即就是你移动硬盘的分区<br clear="none"></div><div><br clear="none"></div><div>卸载命令：<br clear="none"><strong>umount /dev/sdb1</strong><br clear="none">umount /dev/sdb2<br clear="none">umount /dev/sdb3<br clear="none">umount /dev/sdb4<br clear="none"></div><div><br clear="none"></div><div><br clear="none">5. 如果想让系统开机自动挂载移动硬盘，编辑/etc/fstab<br clear="none"></div><div>更改之前先备份</div><div>cp /etc/fstab /etc/fstabbak</div><div>编辑<br clear="none">vi /etc/fstab<br clear="none"><br clear="none">在最后添加以下信息，以读写方式挂载磁盘<br clear="none">/dev/sdb1 /mnt/win1 ntfs-3g defaults 0 0<br clear="none">/dev/sdb2 /mnt/win2 ntfs-3g defaults 0 0<br clear="none">/dev/sdb3 /mnt/win3 ntfs-3g defaults 0 0<br clear="none">/dev/sdb4 /mnt/win4 ntfs-3g defaults 0 0<br clear="none"><br clear="none">:wq!保存，退出<br clear="none"><br clear="none">现在只要重启机器，会自动挂载移动硬盘<br clear="none"></div><div><br clear="none"></div><div><br clear="none"><strong>取消挂载的问题——</strong></div><div>umount的时候出现如下提示：<br clear="none">[root@rekfan.com /]# umount /dev/sdb1<br clear="none">umount: /mnt/upan: device is busy.<br clear="none">        (In some cases useful info about processes that use<br clear="none">         the device is found by lsof(8) or fuser(1))<br clear="none"><br clear="none"><strong>解决方法一</strong><br clear="none">[root@rekfan.com /]# lsof -w /mnt/upan<br clear="none">COMMAND   PID USER   FD   TYPE DEVICE SIZE/OFF    NODE NAME<br clear="none">bash    31761 root  cwd    DIR   8,18     8192 2316326 /mnt/upan/rekfan.com_120526<br clear="none"><br clear="none">[root@rekfan.com /]#<br clear="none">使用 lsof -w /mnt/upan 可以看出，有个命令窗口在/mnt/upan/rekfan.com_120526目录上，</div><div>关闭这个窗口，或退出这个挂载目录，再使用 umount 即可安全退出挂载的设备！<br clear="none"><br clear="none"><strong>解决方法二</strong><br clear="none">[root@rekfan.com /]#fuser -k /mnt/upan<br clear="none">#杀死所有正在访问指定文件的进程</div>
+
 </div>
 
 <footer class="article-footer clearfix">
@@ -152,7 +155,7 @@
 
 
 <div class="article-share" id="share">
-    <div data-url="http://icehe.me/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/" data-title="CentOS 自动挂载 NTFS 格式的硬盘分区 | Ice He 何志远" data-tsina="undefined" class="share clearfix">
+    <div data-url="http://icehe.me/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/" data-title="CentOS 自动挂载 NTFS 格式的硬盘分区 | IceHe 何志远" data-tsina="undefined" class="share clearfix">
     </div>
 </div>
 
@@ -263,7 +266,7 @@ var duoshuoQuery = {short_name:"icehe"};
         
         <li><a href="/categories/read/" title="read">read<sup>4</sup></a></li>
         
-        <li><a href="/categories/think/" title="think">think<sup>1</sup></a></li>
+        <li><a href="/categories/think/" title="think">think<sup>2</sup></a></li>
         
         <li><a href="/categories/time-mgt/" title="time mgt">time mgt<sup>2</sup></a></li>
         

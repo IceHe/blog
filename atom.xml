@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[Ice He 何志远]]></title>
-  <subtitle><![CDATA[More is in vain when less will serve.]]></subtitle>
+  <title><![CDATA[IceHe 何志远]]></title>
+  <subtitle><![CDATA[「 Done is better than perfect. 」]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://icehe.me/"/>
-  <updated>2016-03-26T08:28:29.000Z</updated>
+  <updated>2016-04-16T16:00:00.000Z</updated>
   <id>http://icehe.me/</id>
   
   <author>
@@ -15,13 +15,53 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[Life Framework]]></title>
+    <link href="http://icehe.me/think/life_framework/"/>
+    <id>http://icehe.me/think/life_framework/</id>
+    <published>2016-04-16T16:00:00.000Z</published>
+    <updated>2016-04-16T16:00:00.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="当下">当下</h1><p>优先级：</p>
+<p><strong>睡眠，饮食，运动，<br>英语，工作，技术，<br>博客，享乐</strong></p>
+<p>睡 7 h/d，日 17 h，周 119 h，学 10 / 16 = 60%</p>
+<h1 id="想法">想法</h1><p>人生主题：尝试。<br>尝试经历一切不同的人和事，<br>让自己的生命尽可能的有趣、快乐。</p>
+<p>遵守框架！<strong>执行力！<br>不交损友！</strong>忍耐寂寞，独处精进。<sup>社交费时</sup><br>欲求其上，必求其上上。<sup>志存高远</sup></p>
+<p>努力，才有可能！不努力，什么都不可能！<br><sup>沉沦消极时，也要坚持行动！唯此才能改变现状</sup></p>
+<p>努力也永远比不上“别人”！<br>但你（的境况）变得更好了！</p>
+<p>实践最高！80% 时间做事！<br><sup>我阅读过量了。能做事就不阅读！</sup></p>
+<h1 id="优先级">优先级</h1><p><strong>睡眠，饮食，运动</strong><br><sup>早睡早起，清淡节制，健美（多喝水，少垃圾食品饮料）</sup></p>
+<p><strong>英语，工作，技术</strong><br><sup>根基，职业精神，专注服务端</sup></p>
+<p>博客，享乐</p>
+<h1 id="方法论">方法论</h1><p>记账，计时；<br>约束，计划；<br>接纳，舍弃；<sup>接受一切负面情绪，断舍离</sup><br>整洁，理财。<sup>形象</sup></p>
+<p>理性思考，务实行动。<sup>取舍</sup><br>不要纠结，立即行动。<sup>果断</sup><br>五分钟快速启动。<sup>万事开头难</sup><br>忍耐欲望，坚持行动。<sup>坚持</sup><br>取消许可，牢记理由。<sup>信念</sup></p>
+<p>做最重要的事！<br>不重要的琐事自会找上门，<br>不必费心（安置处理）麻烦事。<br>Done is better than perfect.</p>
+<p>以终为始，要事第一。<sup>结果导向</sup><br>动疾心静，一时一事。<sup>雷厉风行，专注</sup><br>抓住重点，多想方法。<sup>效率、效果</sup><br>不苛完美，不责已悔。<sup>接纳不完美</sup></p>
+<p>抬头，挺胸，闭嘴；<br>抓脸，捋发，翘腿，秽言，xy。<sup>戒绝</sup></p>
+<style type="text/css">
+sup {
+    font-style: italic;
+    font-size: 70%;
+}
+</style>
+
+]]></content>
+    <summary type="html">
+    <![CDATA[生活框架，每日自省清单。]]>
+    
+    </summary>
+    
+      <category term="think" scheme="http://icehe.me/tags/think/"/>
+    
+      <category term="think" scheme="http://icehe.me/categories/think/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[用 AppleScript 操作 Evernote / OS X]]></title>
     <link href="http://icehe.me/applescript/evernote_osx/"/>
     <id>http://icehe.me/applescript/evernote_osx/</id>
     <published>2016-03-12T16:00:00.000Z</published>
-    <updated>2016-03-26T08:28:29.000Z</updated>
+    <updated>2016-03-15T16:00:00.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li>Updated on 2016-03-16</li>
 <li>I supposed that you have learned AppleScript, so I will not introduce it in detail.</li>
 <li>You can learn AppleScript in practice or my <a href="/applescript/applescript/">AppleScript Quick Start 快速入门</a>.</li>
 </ul>
@@ -93,11 +133,8 @@
     <link href="http://icehe.me/applescript/applescript/"/>
     <id>http://icehe.me/applescript/applescript/</id>
     <published>2016-03-10T16:00:00.000Z</published>
-    <updated>2016-03-26T08:27:36.000Z</updated>
-    <content type="html"><![CDATA[<ul>
-<li>Updated on 2016-03-13</li>
-</ul>
-<h1 id="References">References</h1><ul>
+    <updated>2016-03-12T16:00:00.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="References">References</h1><ul>
 <li><p><a href="https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html" target="_blank" rel="external">AppleScript Fundamentals</a> —— Apple Official Docs</p>
 </li>
 <li><p><strong>App’s AppleScript Dictionary :</strong></p>
@@ -148,9 +185,8 @@
     <link href="http://icehe.me/index/"/>
     <id>http://icehe.me/index/</id>
     <published>2016-03-06T16:00:00.000Z</published>
-    <updated>2016-03-26T04:15:24.000Z</updated>
+    <updated>2016-04-16T16:00:00.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li>Updated on 2016-03-16</li>
 <li><a href="/archives">Archives 归档 ( Sort by Time )</a></li>
 <li>Sort by Category as follows.</li>
 </ul>
@@ -158,6 +194,11 @@
 <ul>
 <li><a href="/about/">Me 我</a> &nbsp;/&nbsp; <a href="/resume">Resume</a><sup>简历</sup> <sup>me</sup></li>
 <li><a href="/reward">Reward Me 打赏博主</a></li>
+</ul>
+<h3 id="Think"><a href="/categories/think">Think</a></h3><hr>
+<ul>
+<li><a href="/think/life_framework/">Life Framework</a> <sup>me</sup></li>
+<li><a href="/think/bye2015">Bye 2015</a> <sup>me</sup></li>
 </ul>
 <h3 id="AppleScript"><a href="/categories/AppleScript">AppleScript</a></h3><hr>
 <ul>
@@ -173,10 +214,6 @@
 <ul>
 <li><a href="/tools">My Tools 利器</a> —— Mac 应用推荐 <sup>me</sup></li>
 <li><a href="/mac_shortcuts">My Mac Shortcuts 快捷键</a> <sup>me</sup></li>
-</ul>
-<h3 id="Think"><a href="/categories/think">Think</a></h3><hr>
-<ul>
-<li><a href="/think/bye2015">Bye 2015</a> <sup>me</sup></li>
 </ul>
 <h3 id="Read"><a href="/categories/read">Read</a></h3><hr>
 <ul>
@@ -250,7 +287,7 @@
 <li>「15」 <a href="/asm/Assembly Language - Note 15/">附录内容：汇编编译器对jmp的处理，地址计数器（AC），处理伪操作指令，栈传递参数，无溢出除法…</a></li>
 </ul>
 <h3 id="Mine"><a href="/about/">Mine</a></h3><hr>
-<p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#111;&#58;&#120;&#x40;&#105;&#99;&#x65;&#104;&#x65;&#46;&#x6d;&#101;">&#120;&#x40;&#105;&#99;&#x65;&#104;&#x65;&#46;&#x6d;&#101;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
+<p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#109;&#97;&#x69;&#108;&#116;&#111;&#58;&#x78;&#x40;&#105;&#x63;&#101;&#104;&#x65;&#46;&#x6d;&#x65;">&#x78;&#x40;&#105;&#x63;&#101;&#104;&#x65;&#46;&#x6d;&#x65;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
 <h3 id="Others">Others</h3><hr>
 <ul>
 <li>The article with superscript <sup><strong>me</strong></sup>&nbsp; implies it’s <code>about me</code>.</li>
@@ -273,9 +310,8 @@
     <link href="http://icehe.me/cmd/git_note/"/>
     <id>http://icehe.me/cmd/git_note/</id>
     <published>2016-02-14T16:00:00.000Z</published>
-    <updated>2016-04-07T09:34:51.000Z</updated>
+    <updated>2016-04-06T16:00:00.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li>Updated on 2016-04-07</li>
 <li>Omit the unusual commands at my work.</li>
 </ul>
 <h1 id="References">References</h1><ul>
@@ -729,9 +765,8 @@
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
-    <updated>2016-04-13T06:27:05.000Z</updated>
+    <updated>2016-04-12T16:00:00.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li>Updated on 2016-04-13</li>
 <li>Ref: 《 <a href="https://support.apple.com/zh-cn/HT201236" target="_blank" rel="external">Mac 键盘快捷键</a> 》</li>
 </ul>
 <h1 id="Explanation">Explanation</h1><ul>
@@ -1281,11 +1316,8 @@
     <link href="http://icehe.me/bookmarks/"/>
     <id>http://icehe.me/bookmarks/</id>
     <published>2015-12-19T16:00:00.000Z</published>
-    <updated>2016-04-17T02:46:24.000Z</updated>
-    <content type="html"><![CDATA[<ul>
-<li>Updated on 2016-04-17</li>
-</ul>
-<h1 id="IT_信息技术">IT 信息技术</h1><ul>
+    <updated>2016-04-16T16:00:00.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="IT_信息技术">IT 信息技术</h1><ul>
 <li><a href="https://github.com/wizardforcel/w3school" target="_blank" rel="external">W3School 教程整理</a> <sup><em>todo</em></sup></li>
 </ul>
 <h2 id="OL_Tools_在线工具">OL Tools 在线工具</h2><ul>
@@ -1904,9 +1936,8 @@
     <link href="http://icehe.me/tools/"/>
     <id>http://icehe.me/tools/</id>
     <published>2015-11-20T16:00:00.000Z</published>
-    <updated>2016-04-11T09:05:31.000Z</updated>
+    <updated>2016-04-10T16:00:00.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li>Updated on 2016-04-11</li>
 <li>以下除最后一小节，均为Mac平台下的软件。</li>
 </ul>
 <h1 id="Software">Software</h1><ul>
@@ -2297,9 +2328,8 @@ article .article-content ul li p:first-child {
     <link href="http://icehe.me/favourites/"/>
     <id>http://icehe.me/favourites/</id>
     <published>2015-11-18T16:00:00.000Z</published>
-    <updated>2016-04-11T09:19:59.000Z</updated>
+    <updated>2016-04-09T16:00:00.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li>Updated on 2016-04-10</li>
 <li>玩过、看过的之中，最喜欢这些。</li>
 </ul>
 <h1 id="Books_书">Books 书</h1><ul>
@@ -2420,6 +2450,9 @@ article .article-content ul li p:first-child {
 <li><p>情感信箱</p>
 <p>  偷听女人心。 &nbsp; <em>@企鹅FM</em></p>
 </li>
+<li><p>英语类</p>
+<p>  在 iOS 的 Podcast App 中，查看排名靠前的英语学习类播客即可。</p>
+</li>
 </ul>
 <h1 id="WeChat_OA_公众号">WeChat OA 公众号</h1><ul>
 <li><p><strong>PHP开发者</strong></p>
@@ -2457,7 +2490,7 @@ article .article-content ul li p:first-child {
 <p>  男士穿着、时尚、趣闻。</p>
 </li>
 <li><p><a href="http://chuansong.me/account/itlaoyou-com" target="_blank" rel="external">IT老友记</a></p>
-<p>  每日IT业简讯。</p>
+<p>  每日 IT 业简讯。</p>
 </li>
 <li><p><a href="http://chuansong.me/account/gh_b09cb640f644" target="_blank" rel="external">吴晓波频道</a></p>
 <p>  财经见解，趣商业。</p>
@@ -2470,7 +2503,7 @@ article .article-content ul li p:first-child {
 <li><p><a href="https://movie.douban.com/subject/24697949/" target="_blank" rel="external">半泽直树</a></p>
 <p>  复仇，弱肉强食。</p>
 </li>
-<li><p><a href="https://movie.douban.com/subject_search?search_text=%E6%9C%80%E5%AE%8C%E7%BE%8E%E7%9A%84%E7%A6%BB%E5%A9%9A&amp;cat=1002*" target="_blank" rel="external">最完美的离婚</a></p>
+<li><p><a href="https://movie.douban.com/subject_search?search_text=%E6%9C%80%E5%AE%8C%E7%BE%8E%E7%9A%84%E7%A6%BB%E5%A9%9A&amp;cat=1002" target="_blank" rel="external">最完美的离婚</a></p>
 <p>  生活。</p>
 </li>
 <li><p><a href="https://movie.douban.com/subject/26663070/" target="_blank" rel="external">家族的形式</a></p>
@@ -2537,7 +2570,7 @@ article .article-content ul li p:first-child {
 </li>
 </ul>
 <h1 id="Animate_动画">Animate 动画</h1><ul>
-<li><p><strong><a href="https://movie.douban.com/subject/25813424/" target="_blank" rel="external">乒乓</a></strong></p>
+<li><p><a href="https://movie.douban.com/subject/25813424/" target="_blank" rel="external">乒乓</a></p>
 <p>  人生，才能与努力。</p>
 </li>
 <li><p><a href="https://movie.douban.com/subject/1800597/" target="_blank" rel="external">虫师</a></p>
@@ -2546,7 +2579,7 @@ article .article-content ul li p:first-child {
 <li><p><a href="https://movie.douban.com/subject/1474243/" target="_blank" rel="external">棋魂</a></p>
 <p>  迷上围棋。</p>
 </li>
-<li><p><strong><a href="https://movie.douban.com/review/7794549/" target="_blank" rel="external">亚人</a></strong></p>
+<li><p><a href="https://movie.douban.com/review/7794549/" target="_blank" rel="external">亚人</a></p>
 <p>  人性，理性。</p>
 </li>
 <li><p><a href="http://baike.baidu.com/view/15161941.htm?fromtitle=%E5%AF%84%E7%94%9F%E5%85%BD%E7%94%9F%E5%91%BD%E7%9A%84%E5%87%86%E5%88%&amp;fromid=15149279&amp;type=syn" target="_blank" rel="external">寄生兽</a></p>
@@ -2576,8 +2609,11 @@ article .article-content ul li p:first-child {
 <li><p><a href="http://movie.douban.com/subject/26538787/" target="_blank" rel="external">高达铁血的奥尔芬斯</a></p>
 <p>  铁血。</p>
 </li>
+<li><p><a href="https://movie.douban.com/subject/26575153/" target="_blank" rel="external">Re：从零开始的异世界生活</a></p>
+<p>  轮回，未来。</p>
+</li>
 <li><p><a href="http://movie.douban.com/subject_search?search_text=%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%86&amp;cat=1002" target="_blank" rel="external">魔法少女小圆</a></p>
-<p>  神作！打破常规的魔女作品，虚渊玄作品！</p>
+<p>  神作！轮回，救赎。打破常规的魔女作品，虚渊玄作品！</p>
 </li>
 <li><p><a href="http://movie.douban.com/subject/3199457/" target="_blank" rel="external">ONE OUTS~nobody wins but I!</a></p>
 <p>  《超智游戏》，渡久地东亚！</p>
@@ -2792,12 +2828,9 @@ article .article-content ul li p:first-child {
     <link href="http://icehe.me/web/build_blog/"/>
     <id>http://icehe.me/web/build_blog/</id>
     <published>2015-11-13T16:00:00.000Z</published>
-    <updated>2016-03-26T10:50:01.000Z</updated>
+    <updated>2016-01-18T16:00:00.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li><p>Updated on 2016-01-19</p>
-</li>
-<li><p>上一版《 <a href="/old_version_posts/Why_and_how_to_build_my_blog.html">Why and How to bulid my blog? 搭建我的个人博客</a> 》</p>
-</li>
+<li>上一版《 <a href="/old_version_posts/Why_and_how_to_build_my_blog.html">Why and How to bulid my blog? 搭建我的个人博客</a> 》</li>
 </ul>
 <h1 id="Why_-_初衷">Why - 初衷</h1><p>与其到各大博客平台去写博客，<br>不如自己搭建个独一无二的。<br>不但过程有意思，还能学到许多新知识。<br><br></p>
 <p>可以用来记录<a href="/lifelogs">自己的人生</a>，<br>放一些值得分享的技术、读书笔记和感想。</p>
@@ -2901,12 +2934,9 @@ article .article-content ul li p:first-child {
     <link href="http://icehe.me/think/time_mgt/"/>
     <id>http://icehe.me/think/time_mgt/</id>
     <published>2015-11-12T16:00:00.000Z</published>
-    <updated>2016-03-26T10:53:41.000Z</updated>
+    <updated>2015-12-26T16:00:00.000Z</updated>
     <content type="html"><![CDATA[<ul>
-<li><p>Updated on 2015-12-27</p>
-</li>
-<li><p>链接：《 <a href="/lifelogs">我的所有时间管理日志</a> 》</p>
-</li>
+<li>链接：《 <a href="/lifelogs">我的所有时间管理日志</a> 》</li>
 <li>旧版：《 <a href="/old_version_posts/time_mgt_log_format.html">Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考</a> 》</li>
 <li>补充： 时间管理日志格式一直根据实际使用进行调整，可能与本文描述不一致。</li>
 </ul>
@@ -3138,11 +3168,8 @@ Monthly
     <link href="http://icehe.me/reward/"/>
     <id>http://icehe.me/reward/</id>
     <published>2015-04-01T16:00:00.000Z</published>
-    <updated>2016-03-26T10:54:04.000Z</updated>
-    <content type="html"><![CDATA[<ul>
-<li>Updated on 2016-01-18</li>
-</ul>
-<p><div id="thx_text" class="hidden"><div class="center"><hr><br>搭建此博客期间，想到其它网站的<strong>捐赠</strong>功能，想必其实现不会太困难，于是查阅资料、动手尝试。<br>《<a href="/web/donate/"><strong>实现博客网站的支付宝打赏功能 —— Donate 打赏博主</strong></a>》记叙了本博客<strong>打赏</strong>功能的实现。<br><br>博主水平有限，仅为好奇实现了该模块，若本博客对您有帮助，仍期待您的打赏~谢谢您的鼓励和支持。<br>If you enjoy the blog, please feel free to donate~Thx for your support.<br><br></div></div></p>
+    <updated>2016-01-17T16:00:00.000Z</updated>
+    <content type="html"><![CDATA[<p><div id="thx_text" class="hidden"><div class="center"><hr><br>搭建此博客期间，想到其它网站的<strong>捐赠</strong>功能，想必其实现不会太困难，于是查阅资料、动手尝试。<br>《<a href="/web/donate/"><strong>实现博客网站的支付宝打赏功能 —— Donate 打赏博主</strong></a>》记叙了本博客<strong>打赏</strong>功能的实现。<br><br>博主水平有限，仅为好奇实现了该模块，若本博客对您有帮助，仍期待您的打赏~谢谢您的鼓励和支持。<br>If you enjoy the blog, please feel free to donate~Thx for your support.<br><br></div></div></p>
 <script type="text/javascript">    window.onload=function(){    $('#btn_donate').click();    $('#donate_board').parent().append($('#thx_text').html());    }    </script>
 
 <style type="text/css">
@@ -3288,9 +3315,9 @@ AutoProxy（用于Firefox）、Proxy SwitchySharp（用于Chrome）</p><p style=
     <link href="http://icehe.me/linux/%5B05%5D%20%E8%87%AA%E5%8A%A8%E6%8C%82%E8%BD%BD%20NTFS%20%E6%A0%BC%E5%BC%8F%E7%9A%84%20%E7%A1%AC%E7%9B%98%E5%88%86%E5%8C%BA%20-%20CentOS%207/"/>
     <id>http://icehe.me/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/</id>
     <published>2015-03-28T16:00:00.000Z</published>
-    <updated>2016-03-25T08:30:15.000Z</updated>
-    <content type="html"><![CDATA[<en-note><div><div>Ref From: <a shape="rect" href="http://blog.rekfan.com/articles/137.html" target="_blank">http://blog.rekfan.com/articles/137.html</a></div><div>Original Title: CentOS 6.3 自动挂载NTFS格式分区硬盘</div></div><div><br clear="none"></div><div><span style="color: #ff6600;"><strong>Notice: </strong>第一、二步不进行，改为使用以下指令安装ntfs-3g，</span></div><div><strong>             <span style="color: #ff6600;">yum install ntfs-3g</span></strong></div><div><br clear="none">默认情况下，CentOS 6.3不支持NTFS格式的磁盘读写。</div><div>要想把NTFS格式的磁盘挂载到CentOS 6.3，<br clear="none">需要安装第三方的插件ntfs-3g，这里我们采用编译安装插件。<br clear="none"><br clear="none">1. 安装编译器，否则不能成功编译。</div><div><strong>yum install gcc</strong><br clear="none">根据提示按Y安装完成<br clear="none"><br clear="none">2. 安装ntfs-3g</div><div>进入/home目录，把软件下载到此目录<br clear="none"><strong>cd /home</strong></div><div>下载<br clear="none"><strong>wget http://tuxera.com/opensource/ntfs-3g_ntfsprogs-2011.4.12.tgz</strong></div><div>解压</div><div><strong>tar zxvf ntfs-3g_ntfsprogs-2011.4.12.tgz</strong></div><div>进入目录<br clear="none"><strong>cd ntfs-3g_ntfsprogs-2011.4.12</strong></div><div>编译 &amp; 安装</div><div><strong>./configure &amp;&amp; make &amp;&amp; make install</strong></div><div>返回上一级目录<br clear="none"><strong>cd ..</strong></div><div>删除安装程序包<br clear="none"><strong>rm -r -f ntfs-3g_ntfsprogs*</strong></div><div><br clear="none"></div><div>3. 查看使用</div><div># 显示系统磁盘信息<br clear="none"><strong>fdisk -l</strong></div><div>#####################################################################<br clear="none">Disk /dev/sdb: 160.0 GB, 160041885696 bytes<br clear="none">255 heads, 63 sectors/track, 19457 cylinders<br clear="none">Units = cylinders of 16065 * 512 = 8225280 bytes<br clear="none">Sector size (logical/physical): 512 bytes / 512 bytes<br clear="none">I/O size (minimum/optimal): 512 bytes / 512 bytes<br clear="none">Disk identifier: 0x7ab8d700<br clear="none">Device Boot Start End Blocks Id System<br clear="none">/dev/sdb1 * 1 5222 41945683+ 7 HPFS/NTFS<br clear="none">/dev/sdb2 5223 10444 41945715 7 HPFS/NTFS<br clear="none">/dev/sdb3 10445 15666 41945715 7 HPFS/NTFS<br clear="none">/dev/sdb4 15667 19457 30451207+ 7 HPFS/NTFS<br clear="none"> http://blog.rekfan.com/?p=137<br clear="none">###################################################################<br clear="none">以上信息显示的是我的移动硬盘，总共160G,有四个NTFS分区<br clear="none"><br clear="none"><br clear="none">4. 挂载分区</div><div>目标：<br clear="none">/dev/sdb1 分区挂载到 /mnt/win1<br clear="none">/dev/sdb2 分区挂载到 /mnt/win2<br clear="none">/dev/sdb3 分区挂载到 /mnt/win3<br clear="none">/dev/sdb4 分区挂载到 /mnt/win4<br clear="none"></div><div><br clear="none"></div><div>进入/mnt目录，新建四个挂载目录<br clear="none">cd /mnt<br clear="none"><strong>mkdir win1 win2 win3 win4</strong><br clear="none"></div><div><br clear="none"></div><div>挂载<br clear="none"><strong>mount -t ntfs-3g /dev/sdb1 /mnt/win1</strong><br clear="none">mount -t ntfs-3g /dev/sdb2 /mnt/win2<br clear="none">mount -t ntfs-3g /dev/sdb3 /mnt/win3<br clear="none">mount -t ntfs-3g /dev/sdb4 /mnt/win4<br clear="none"><br clear="none">分区挂载完成，现在可以进入/mnt目录下面查看对应的文件夹，即就是你移动硬盘的分区<br clear="none"></div><div><br clear="none"></div><div>卸载命令：<br clear="none"><strong>umount /dev/sdb1</strong><br clear="none">umount /dev/sdb2<br clear="none">umount /dev/sdb3<br clear="none">umount /dev/sdb4<br clear="none"></div><div><br clear="none"></div><div><br clear="none">5. 如果想让系统开机自动挂载移动硬盘，编辑/etc/fstab<br clear="none"></div><div>更改之前先备份</div><div>cp /etc/fstab /etc/fstabbak</div><div>编辑<br clear="none">vi /etc/fstab<br clear="none"><br clear="none">在最后添加以下信息，以读写方式挂载磁盘<br clear="none">/dev/sdb1 /mnt/win1 ntfs-3g defaults 0 0<br clear="none">/dev/sdb2 /mnt/win2 ntfs-3g defaults 0 0<br clear="none">/dev/sdb3 /mnt/win3 ntfs-3g defaults 0 0<br clear="none">/dev/sdb4 /mnt/win4 ntfs-3g defaults 0 0<br clear="none"><br clear="none">:wq!保存，退出<br clear="none"><br clear="none">现在只要重启机器，会自动挂载移动硬盘<br clear="none"></div><div><br clear="none"></div><div><br clear="none"><strong>取消挂载的问题——</strong></div><div>umount的时候出现如下提示：<br clear="none">[root@rekfan.com /]# umount /dev/sdb1<br clear="none">umount: /mnt/upan: device is busy.<br clear="none">        (In some cases useful info about processes that use<br clear="none">         the device is found by lsof(8) or fuser(1))<br clear="none"><br clear="none"><strong>解决方法一</strong><br clear="none">[root@rekfan.com /]# lsof -w /mnt/upan<br clear="none">COMMAND   PID USER   FD   TYPE DEVICE SIZE/OFF    NODE NAME<br clear="none">bash    31761 root  cwd    DIR   8,18     8192 2316326 /mnt/upan/rekfan.com_120526<br clear="none"><br clear="none">[root@rekfan.com /]#<br clear="none">使用 lsof -w /mnt/upan 可以看出，有个命令窗口在/mnt/upan/rekfan.com_120526目录上，</div><div>关闭这个窗口，或退出这个挂载目录，再使用 umount 即可安全退出挂载的设备！<br clear="none"><br clear="none"><strong>解决方法二</strong><br clear="none">[root@rekfan.com /]#fuser -k /mnt/upan<br clear="none">#杀死所有正在访问指定文件的进程</div>
-</en-note>]]></content>
+    <updated>2016-04-17T05:50:16.000Z</updated>
+    <content type="html"><![CDATA[<div><div>Ref From: <a shape="rect" href="http://blog.rekfan.com/articles/137.html" target="_blank">http://blog.rekfan.com/articles/137.html</a></div><div>Original Title: CentOS 6.3 自动挂载NTFS格式分区硬盘</div></div><div><br clear="none"></div><div><span style="color: #ff6600;"><strong>Notice: </strong>第一、二步不进行，改为使用以下指令安装ntfs-3g，</span></div><div><strong>             <span style="color: #ff6600;">yum install ntfs-3g</span></strong></div><div><br clear="none">默认情况下，CentOS 6.3不支持NTFS格式的磁盘读写。</div><div>要想把NTFS格式的磁盘挂载到CentOS 6.3，<br clear="none">需要安装第三方的插件ntfs-3g，这里我们采用编译安装插件。<br clear="none"><br clear="none">1. 安装编译器，否则不能成功编译。</div><div><strong>yum install gcc</strong><br clear="none">根据提示按Y安装完成<br clear="none"><br clear="none">2. 安装ntfs-3g</div><div>进入/home目录，把软件下载到此目录<br clear="none"><strong>cd /home</strong></div><div>下载<br clear="none"><strong>wget http://tuxera.com/opensource/ntfs-3g_ntfsprogs-2011.4.12.tgz</strong></div><div>解压</div><div><strong>tar zxvf ntfs-3g_ntfsprogs-2011.4.12.tgz</strong></div><div>进入目录<br clear="none"><strong>cd ntfs-3g_ntfsprogs-2011.4.12</strong></div><div>编译 &amp; 安装</div><div><strong>./configure &amp;&amp; make &amp;&amp; make install</strong></div><div>返回上一级目录<br clear="none"><strong>cd ..</strong></div><div>删除安装程序包<br clear="none"><strong>rm -r -f ntfs-3g_ntfsprogs*</strong></div><div><br clear="none"></div><div>3. 查看使用</div><div># 显示系统磁盘信息<br clear="none"><strong>fdisk -l</strong></div><div>#####################################################################<br clear="none">Disk /dev/sdb: 160.0 GB, 160041885696 bytes<br clear="none">255 heads, 63 sectors/track, 19457 cylinders<br clear="none">Units = cylinders of 16065 * 512 = 8225280 bytes<br clear="none">Sector size (logical/physical): 512 bytes / 512 bytes<br clear="none">I/O size (minimum/optimal): 512 bytes / 512 bytes<br clear="none">Disk identifier: 0x7ab8d700<br clear="none">Device Boot Start End Blocks Id System<br clear="none">/dev/sdb1 * 1 5222 41945683+ 7 HPFS/NTFS<br clear="none">/dev/sdb2 5223 10444 41945715 7 HPFS/NTFS<br clear="none">/dev/sdb3 10445 15666 41945715 7 HPFS/NTFS<br clear="none">/dev/sdb4 15667 19457 30451207+ 7 HPFS/NTFS<br clear="none"> http://blog.rekfan.com/?p=137<br clear="none">###################################################################<br clear="none">以上信息显示的是我的移动硬盘，总共160G,有四个NTFS分区<br clear="none"><br clear="none"><br clear="none">4. 挂载分区</div><div>目标：<br clear="none">/dev/sdb1 分区挂载到 /mnt/win1<br clear="none">/dev/sdb2 分区挂载到 /mnt/win2<br clear="none">/dev/sdb3 分区挂载到 /mnt/win3<br clear="none">/dev/sdb4 分区挂载到 /mnt/win4<br clear="none"></div><div><br clear="none"></div><div>进入/mnt目录，新建四个挂载目录<br clear="none">cd /mnt<br clear="none"><strong>mkdir win1 win2 win3 win4</strong><br clear="none"></div><div><br clear="none"></div><div>挂载<br clear="none"><strong>mount -t ntfs-3g /dev/sdb1 /mnt/win1</strong><br clear="none">mount -t ntfs-3g /dev/sdb2 /mnt/win2<br clear="none">mount -t ntfs-3g /dev/sdb3 /mnt/win3<br clear="none">mount -t ntfs-3g /dev/sdb4 /mnt/win4<br clear="none"><br clear="none">分区挂载完成，现在可以进入/mnt目录下面查看对应的文件夹，即就是你移动硬盘的分区<br clear="none"></div><div><br clear="none"></div><div>卸载命令：<br clear="none"><strong>umount /dev/sdb1</strong><br clear="none">umount /dev/sdb2<br clear="none">umount /dev/sdb3<br clear="none">umount /dev/sdb4<br clear="none"></div><div><br clear="none"></div><div><br clear="none">5. 如果想让系统开机自动挂载移动硬盘，编辑/etc/fstab<br clear="none"></div><div>更改之前先备份</div><div>cp /etc/fstab /etc/fstabbak</div><div>编辑<br clear="none">vi /etc/fstab<br clear="none"><br clear="none">在最后添加以下信息，以读写方式挂载磁盘<br clear="none">/dev/sdb1 /mnt/win1 ntfs-3g defaults 0 0<br clear="none">/dev/sdb2 /mnt/win2 ntfs-3g defaults 0 0<br clear="none">/dev/sdb3 /mnt/win3 ntfs-3g defaults 0 0<br clear="none">/dev/sdb4 /mnt/win4 ntfs-3g defaults 0 0<br clear="none"><br clear="none">:wq!保存，退出<br clear="none"><br clear="none">现在只要重启机器，会自动挂载移动硬盘<br clear="none"></div><div><br clear="none"></div><div><br clear="none"><strong>取消挂载的问题——</strong></div><div>umount的时候出现如下提示：<br clear="none">[root@rekfan.com /]# umount /dev/sdb1<br clear="none">umount: /mnt/upan: device is busy.<br clear="none">        (In some cases useful info about processes that use<br clear="none">         the device is found by lsof(8) or fuser(1))<br clear="none"><br clear="none"><strong>解决方法一</strong><br clear="none">[root@rekfan.com /]# lsof -w /mnt/upan<br clear="none">COMMAND   PID USER   FD   TYPE DEVICE SIZE/OFF    NODE NAME<br clear="none">bash    31761 root  cwd    DIR   8,18     8192 2316326 /mnt/upan/rekfan.com_120526<br clear="none"><br clear="none">[root@rekfan.com /]#<br clear="none">使用 lsof -w /mnt/upan 可以看出，有个命令窗口在/mnt/upan/rekfan.com_120526目录上，</div><div>关闭这个窗口，或退出这个挂载目录，再使用 umount 即可安全退出挂载的设备！<br clear="none"><br clear="none"><strong>解决方法二</strong><br clear="none">[root@rekfan.com /]#fuser -k /mnt/upan<br clear="none">#杀死所有正在访问指定文件的进程</div>
+]]></content>
     <summary type="html">
     <![CDATA[用指令安装ntfs-3g：yum install ntfs-3g。挂载分区，mount -t ntfs-3g /dev/sdb1 /mnt/win1 … 系统开机自动挂载移动硬盘，需编辑/etc/fstab。取消挂载的Bug及其解决方法。]]>
     
@@ -3410,9 +3437,9 @@ AutoProxy（用于Firefox）、Proxy SwitchySharp（用于Chrome）</p><p style=
     <link href="http://icehe.me/linux/%5B03%5D%20Update%20Kernel%20%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8%20-%20CentOS%207/"/>
     <id>http://icehe.me/linux/[03] Update Kernel 升级内核 - CentOS 7/</id>
     <published>2015-03-26T16:00:00.000Z</published>
-    <updated>2016-03-25T12:36:17.000Z</updated>
-    <content type="html"><![CDATA[<en-note><div>Ref From: <a shape="rect" href="http://www.linuxidc.com/Linux/2015-02/112697.htm" target="_blank">http://www.linuxidc.com/Linux/2015-02/112697.htm</a></div><div>Original Title: CentOS 7 升级内核的方法</div><div><br clear="none"></div><div><p>默认<a shape="rect" title="CentOS" href="http://www.linuxidc.com/topicnews.aspx?tid=14" target="_blank">CentOS</a> 7的内核版本是3.10，<br clear="none">升级的原因是为了测试openvswitch的vlan技术，<br clear="none">默认openvswitch的2.3版本是允许CentOS 7默认内核3.10支持，<br clear="none">下面是软件与内核版本对比</p><p>    Open vSwitch  Linux kernel <br clear="none">  ------------  ------------- <br clear="none">      1.4.x      2.6.18 to 3.2 <br clear="none">      1.5.x      2.6.18 to 3.2 <br clear="none">      1.6.x      2.6.18 to 3.2 <br clear="none">      1.7.x      2.6.18 to 3.3 <br clear="none">      1.8.x      2.6.18 to 3.4 <br clear="none">      1.9.x      2.6.18 to 3.8 <br clear="none">      1.10.x    2.6.18 to 3.8 <br clear="none">      1.11.x    2.6.18 to 3.8 <br clear="none">      2.0.x      2.6.32 to 3.10 <br clear="none">      2.1.x      2.6.32 to 3.11 <br clear="none">      2.2.x      2.6.32 to 3.14</p><p>但如何想使用gre与vxlan的话，需要内核3.12以上的<br clear="none">    Protocol    Linux Kernel <br clear="none">  --------    ------------ <br clear="none">    GRE          3.11 <br clear="none">    VXLAN        3.12 <br clear="none">    LISP      &lt;not upstream&gt;<br clear="none">所以得升级内核。</p><p><br clear="none"></p><p>更新前，<strong><span style="text-decoration: underline;">查看 内核版本</span>：</strong></p><p>[root@ip-10-10-17-4 tmp]# <strong>uname -r</strong> <br clear="none">3.10.0-123.el7.x86_64</p><p>目前最新的内核是3.18.3为stable，是2015年1月18日更新，<br clear="none">具体信息查看https://www.kernel.org/ </p><p><span style="text-decoration: underline;"><strong><br clear="none">升级内核 的 方法</strong></span><strong>：</strong></p><p>1. 导入key<br clear="none"><strong>rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org</strong><br clear="none">如果你修改了repo的gpgcheck=0也可以不导入key</p><p>2.安装elrepo的yum源<br clear="none">提醒：在上一篇教程<span style="text-decoration: underline;"> <strong>[02] 用CentOS 7打造合适的科研环境 </strong></span>安装了第三方源后，此步则不需要。<br clear="none"><strong>rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm</strong></p><p>3. 安装内核<br clear="none">在yum的ELRepo源中，有mainline（3.18.3）这个内核版本<br clear="none"><strong>yum --enablerepo=elrepo-kernel install  kernel-ml-devel kernel-ml -y</strong></p><p><br clear="none"></p><p>选择了使用新安装的repo来安装3.18的内核，<br clear="none">如果使用其他的repo，看不到3.18版本内核。</p><p>更新后，查看内核版本：<br clear="none">[root@ip-10-10-17-4 tmp]# <strong>uname -r</strong> <br clear="none">3.10.0-123.el7.x86_64</p><p>重要提醒：目前内核还是默认的版本，<br clear="none">如果在这一步完成后你就直接reboot了，<br clear="none">重启后使用的内核版本还是默认的3.10，不会使用新的3.18。</p><p><br clear="none"></p><p>*4. 想<span style="text-decoration: underline;"><strong>修改启动的顺序</strong></span>，需要进行下一步，查看默认启动顺序：</p><p><strong>awk -F\' '$1==&quot;menuentry &quot; {print $2}' /etc/grub2.cfg</strong> <br clear="none">CentOS Linux (3.18.3-1.el7.elrepo.x86_64) 7 (Core) <br clear="none">CentOS Linux, with Linux 3.10.0-123.el7.x86_64 <br clear="none">CentOS Linux, with Linux 0-rescue-893b160e363b4ec7834719a7f06e67cf</p><p>默认启动的顺序是从0开始，但我们新内核是从头插入（目前位置在0，而3.10的是在1），<br clear="none">所以需要选择0，如果想生效最新的内核，需要：</p><p><strong>grub2-set-default 0</strong></p><p><br clear="none"></p><p>以上问题可以参考<a shape="rect" href="https://access.RedHat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/sec-Customizing_GRUB_2_Menu.html#sec-Changing_the_Default_Boot_Entry" target="_blank">https://access.RedHat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/sec-Customizing_GRUB_2_Menu.html#sec-Changing_the_Default_Boot_Entry</a></p><p>然后reboot重启，使用新的内核，下面是重启后使用的内核版本：<br clear="none">[root@ip-10-10-17-4 ~]# <strong>uname -r</strong> <br clear="none">3.18.3-1.el7.elrepo.x86_64</p><p>完成后内核已经是最新的了。</p></div>
-</en-note>]]></content>
+    <updated>2016-04-17T05:49:59.000Z</updated>
+    <content type="html"><![CDATA[<div>Ref From: <a shape="rect" href="http://www.linuxidc.com/Linux/2015-02/112697.htm" target="_blank">http://www.linuxidc.com/Linux/2015-02/112697.htm</a></div><div>Original Title: CentOS 7 升级内核的方法</div><div><br clear="none"></div><div><p>默认<a shape="rect" title="CentOS" href="http://www.linuxidc.com/topicnews.aspx?tid=14" target="_blank">CentOS</a> 7的内核版本是3.10，<br clear="none">升级的原因是为了测试openvswitch的vlan技术，<br clear="none">默认openvswitch的2.3版本是允许CentOS 7默认内核3.10支持，<br clear="none">下面是软件与内核版本对比</p><p>    Open vSwitch  Linux kernel <br clear="none">  ------------  ------------- <br clear="none">      1.4.x      2.6.18 to 3.2 <br clear="none">      1.5.x      2.6.18 to 3.2 <br clear="none">      1.6.x      2.6.18 to 3.2 <br clear="none">      1.7.x      2.6.18 to 3.3 <br clear="none">      1.8.x      2.6.18 to 3.4 <br clear="none">      1.9.x      2.6.18 to 3.8 <br clear="none">      1.10.x    2.6.18 to 3.8 <br clear="none">      1.11.x    2.6.18 to 3.8 <br clear="none">      2.0.x      2.6.32 to 3.10 <br clear="none">      2.1.x      2.6.32 to 3.11 <br clear="none">      2.2.x      2.6.32 to 3.14</p><p>但如何想使用gre与vxlan的话，需要内核3.12以上的<br clear="none">    Protocol    Linux Kernel <br clear="none">  --------    ------------ <br clear="none">    GRE          3.11 <br clear="none">    VXLAN        3.12 <br clear="none">    LISP      &lt;not upstream&gt;<br clear="none">所以得升级内核。</p><p><br clear="none"></p><p>更新前，<strong><span style="text-decoration: underline;">查看 内核版本</span>：</strong></p><p>[root@ip-10-10-17-4 tmp]# <strong>uname -r</strong> <br clear="none">3.10.0-123.el7.x86_64</p><p>目前最新的内核是3.18.3为stable，是2015年1月18日更新，<br clear="none">具体信息查看https://www.kernel.org/ </p><p><span style="text-decoration: underline;"><strong><br clear="none">升级内核 的 方法</strong></span><strong>：</strong></p><p>1. 导入key<br clear="none"><strong>rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org</strong><br clear="none">如果你修改了repo的gpgcheck=0也可以不导入key</p><p>2.安装elrepo的yum源<br clear="none">提醒：在上一篇教程<span style="text-decoration: underline;"> <strong>[02] 用CentOS 7打造合适的科研环境 </strong></span>安装了第三方源后，此步则不需要。<br clear="none"><strong>rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm</strong></p><p>3. 安装内核<br clear="none">在yum的ELRepo源中，有mainline（3.18.3）这个内核版本<br clear="none"><strong>yum --enablerepo=elrepo-kernel install  kernel-ml-devel kernel-ml -y</strong></p><p><br clear="none"></p><p>选择了使用新安装的repo来安装3.18的内核，<br clear="none">如果使用其他的repo，看不到3.18版本内核。</p><p>更新后，查看内核版本：<br clear="none">[root@ip-10-10-17-4 tmp]# <strong>uname -r</strong> <br clear="none">3.10.0-123.el7.x86_64</p><p>重要提醒：目前内核还是默认的版本，<br clear="none">如果在这一步完成后你就直接reboot了，<br clear="none">重启后使用的内核版本还是默认的3.10，不会使用新的3.18。</p><p><br clear="none"></p><p>*4. 想<span style="text-decoration: underline;"><strong>修改启动的顺序</strong></span>，需要进行下一步，查看默认启动顺序：</p><p><strong>awk -F\' '$1==&quot;menuentry &quot; {print $2}' /etc/grub2.cfg</strong> <br clear="none">CentOS Linux (3.18.3-1.el7.elrepo.x86_64) 7 (Core) <br clear="none">CentOS Linux, with Linux 3.10.0-123.el7.x86_64 <br clear="none">CentOS Linux, with Linux 0-rescue-893b160e363b4ec7834719a7f06e67cf</p><p>默认启动的顺序是从0开始，但我们新内核是从头插入（目前位置在0，而3.10的是在1），<br clear="none">所以需要选择0，如果想生效最新的内核，需要：</p><p><strong>grub2-set-default 0</strong></p><p><br clear="none"></p><p>以上问题可以参考<a shape="rect" href="https://access.RedHat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/sec-Customizing_GRUB_2_Menu.html#sec-Changing_the_Default_Boot_Entry" target="_blank">https://access.RedHat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/sec-Customizing_GRUB_2_Menu.html#sec-Changing_the_Default_Boot_Entry</a></p><p>然后reboot重启，使用新的内核，下面是重启后使用的内核版本：<br clear="none">[root@ip-10-10-17-4 ~]# <strong>uname -r</strong> <br clear="none">3.18.3-1.el7.elrepo.x86_64</p><p>完成后内核已经是最新的了。</p></div>
+]]></content>
     <summary type="html">
     <![CDATA[指令uname -r查看内核版本。升级内核的方法：导入key，安装elrepo的yum源，安装内核yum --enablerepo=elrepo-kernel install kernel-ml-devel kernel-ml -y。修改启动顺序 grub2-set-default 0，以此设置默认的启动的系统。]]>
     
@@ -3643,38 +3670,11 @@ $ sudo ln -s /opt/google/earth/free/googleearth /usr/bin/google-earth
     <link href="http://icehe.me/linux/%5B01%5D%20%E6%81%A2%E5%A4%8D%20Windows%20%E7%9A%84%20%E5%BC%80%E6%9C%BA%E5%BC%95%E5%AF%BC%20-%20CentOS%207/"/>
     <id>http://icehe.me/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/</id>
     <published>2015-03-20T16:00:00.000Z</published>
-    <updated>2016-03-25T08:28:23.000Z</updated>
-    <content type="html"><![CDATA[<en-note><div><span>Ref From: <a shape="rect" href="http://www.bkjia.com/xtzh/905081.html" target="_blank">http://www.bkjia.com/xtzh/905081.html</a></span></div><div><span>Original Title: CentOS 7安装后恢复Windows引导</span></div><div><br clear="none"></div><div>CentOS 7 正式版，和 REDHAT 7 一样，</div><div>Grub2不能正确引导windows分区。</div><div><br clear="none"></div><div><strong>解决方法：</strong></div><div><br clear="none"></div><div><strong>打开 /boot/grub2/grub.cfg</strong></div><div>在### END /etc/grub.d/00_header ###后，<strong>修改</strong>：</div><div><br clear="none"></div><div><strong>### BEGIN /etc/grub.d/30_os-prober ###</strong></div><div><strong>menuentry 'Windows 8 (loader) (on /dev/sda1)' --class windows --class os $menuentry_id_option 'osprober-chain-140E68540E6830C2' {</strong></div><div><strong>     insmod part_msdos</strong></div><div><strong>     insmod ntfs</strong></div><div><strong>     set root='hd0,msdos1'</strong></div><div><strong>     chainloader +1</strong></div><div><strong>}</strong></div><div><strong>### END /etc/grub.d/30_os-prober ###</strong></div><div><br clear="none"></div><div>重启时，将会出现win8的系统选单</div><div><br clear="none"></div><div><em>注意：set root 后面的参数按照实际情况填写</em></div>
-</en-note>]]></content>
-    <summary type="html">
-    <![CDATA[CentOS7正式版和Redhat7，Grub2不能正确引导windows分区。解决方法：修改/boot/grub2/grub.cfg… 重启时，将会出现win8的系统选单。]]>
-    
-    </summary>
-    
-      <category term="CentOS" scheme="http://icehe.me/tags/CentOS/"/>
-    
-      <category term="CentOS" scheme="http://icehe.me/categories/CentOS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[U盘安装 CentOS]]></title>
-    <link href="http://icehe.me/linux/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/"/>
-    <id>http://icehe.me/linux/[00] U盘安装 CentOS 7/</id>
-    <published>2015-03-18T16:00:00.000Z</published>
-    <updated>2016-03-25T08:28:08.000Z</updated>
-    <content type="html"><![CDATA[<div>
-<span style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;">Ref From: <a href="http://www.centoscn.com/image-text/setup/2014/0724/3342.html" shape="rect" target="_blank">http://www.centoscn.com/image-text/setup/2014/0724/3342.html<br clear="none"></a>Original Title: centos 7 u盘安装</div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;">U盘刻录工具<strong>USBWriter</strong>：<a href="http://www.centoscn.com/CentosSoft/tool/2014/0720/3325.html" shape="rect" target="_blank">http://www.centoscn.com/CentosSoft/tool/2014/0720/3325.html</a><br clear="none">
-注意：使用USBWriter刻录完U盘，U盘需要使用恢复工具来恢复！<br clear="none"></div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;">CentOS 官网（自行下载 系统安装包，推荐 everything.iso 版本）：<a href="http://www.centos.org/" shape="rect" target="_blank">http://www.centos.org/</a><br clear="none">
-注意：<span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">everything.iso 安装包 的便捷在于：不用设置安装源，系统安装时，便安装好大部分需要使用的软件。</span><br clear="none"></div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;"><span style="text-decoration: underline;"><strong>USBWriter</strong></span> U盘刻录工具只有100多KB，非常方便：<br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image.jpg" type="image/jpeg" height="137" style="cursor: default;" width="412"><br clear="none" style="padding: 0px; margin: 0px;"><br clear="none" style="padding: 0px; margin: 0px;">
-U盘启动安装光盘制作完成后开始启动，记得在BIOS里设置U盘启动。<br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[1].jpg" type="image/jpeg" height="358" style="cursor: default;" width="476"></div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image.png" type="image/png" height="322" style="cursor: default;" width="580"></div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[1].png" type="image/png" height="435" style="cursor: default;" width="580"></div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">等待检查完就可以进入安装了，不想等待的按ESC退出，没发现具体的影响（影响暂不清楚）。</span><br clear="none" style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 18px;"><div style="padding: 0px; margin: 0px; word-break: break-all; position: absolute; width: 17px; height: 17px; right: -2px; top: 20px; background-image: url(http://tb2.bdstatic.com/tb/static-pb/img/user_hide_post_c1433d6.png); color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 18px; background-position: -6px -6px; background-repeat: no-repeat no-repeat;"> </div><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[2].png" type="image/png" height="1" style="cursor: default;" width="1"></div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">以下进入图形化安装界面<br clear="none"><strong>推荐 </strong>安装系统的<strong> 英文版本</strong>，以免日后使用 init 3 等文字模式（非图形界面）时，<br clear="none">
-系统编码不支持中文路径，以至无法访问中文路径下的文件或目录。<br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[3].png" type="image/png" height="435" style="cursor: default;" width="580"></span></div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">提醒：完全安装好后的第一次重启，记得 设置 汉语拼音键盘。<br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[4].png" type="image/png" height="435" style="cursor: default;" width="580"></span></div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">时区设置为 Shanghai。<br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[5].png" type="image/png" height="435" style="cursor: default;" width="580"></span></div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">若是 everything.iso 安装包，则 没必要设置安装源。<br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[6].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[7].png" type="image/png" height="435" style="cursor: default;" width="580"></span></div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;"><strong>推荐</strong> <strong>Gnome 桌面</strong>，用户友好，简便易用。<br clear="none">
-KDE 桌面，过于高度自定义化，上手麻烦。<br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[8].png" type="image/png" height="435" style="cursor: default;" width="580"></span></div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">若是 everything.iso 安装包，则 没必要设置网络。<br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[9].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[10].png" type="image/png" height="435" style="cursor: default;" width="580"></span><br clear="none" style="padding: 0px; margin: 0px; font-family: Verdana, Arial, Tahoma;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">接下来就是挂载文件目录到磁盘上啦</span><br clear="none" style="padding: 0px; margin: 0px; font-family: Verdana, Arial, Tahoma;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[11].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[12].png" type="image/png" height="435" style="cursor: default;" width="580"></span></div><div style="font-size: 16px;"><div style="background-color: rgb(255, 255, 255);"><div style="font-size: 12px; font-family: Verdana, Arial, Tahoma;"><div style="overflow: hidden;"><div style="overflow: hidden;"><div style="padding: 0px 0px 8px; margin: 0px; width: 712px; overflow: hidden;"><div style="padding: 12px 16px; margin: 0px; font-size: 14px; line-height: 25px; color: rgb(51, 51, 51);"><span style="padding: 0px; margin: 0px; font-family: Arial, 宋体; line-height: 24px;"><strong>推荐使用 LVM 自动分区</strong>，省心</span><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">省力。<br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[13].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[14].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[15].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[16].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[17].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[18].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[19].png" type="image/png" height="435" style="cursor: default;" width="580"></span><br clear="none" style="padding: 0px; margin: 0px;"><br clear="none" style="padding: 0px; margin: 0px;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">在安装的过程中，设置 root 密码，强度要好；<br clear="none">
-再创建一个常用账号，日后要使用 root 权限，则用 su root 指令。<br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[20].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[21].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[22].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[23].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[24].png" type="image/png" height="435" style="cursor: default;" width="580"></span><br clear="none" style="padding: 0px; margin: 0px;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">重启机器，完成剩余的</span><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">配置</span><br clear="none" style="padding: 0px; margin: 0px;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[25].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[26].png" type="image/png" height="348" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[27].png" type="image/png" height="348" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[28].png" type="image/png" height="348" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[29].png" type="image/png" height="348" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[30].png" type="image/png" height="348" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[31].png" type="image/png" height="348" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[32].png" type="image/png" height="326" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[33].png" type="image/png" height="326" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[34].png" type="image/png" height="326" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[35].png" type="image/png" height="326" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[36].png" type="image/png" height="326" style="cursor: default;" width="580"></span></div></div></div></div></div></div></div></span>
-</div>
+    <updated>2016-04-17T05:49:37.000Z</updated>
+    <content type="html"><![CDATA[<div><span>Ref From: <a shape="rect" href="http://www.bkjia.com/xtzh/905081.html" target="_blank">http://www.bkjia.com/xtzh/905081.html</a></span></div><div><span>Original Title: CentOS 7安装后恢复Windows引导</span></div><div><br clear="none"></div><div>CentOS 7 正式版，和 REDHAT 7 一样，</div><div>Grub2不能正确引导windows分区。</div><div><br clear="none"></div><div><strong>解决方法：</strong></div><div><br clear="none"></div><div><strong>打开 /boot/grub2/grub.cfg</strong></div><div>在### END /etc/grub.d/00_header ###后，<strong>修改</strong>：</div><div><br clear="none"></div><div><strong>### BEGIN /etc/grub.d/30_os-prober ###</strong></div><div><strong>menuentry 'Windows 8 (loader) (on /dev/sda1)' --class windows --class os $menuentry_id_option 'osprober-chain-140E68540E6830C2' {</strong></div><div><strong>     insmod part_msdos</strong></div><div><strong>     insmod ntfs</strong></div><div><strong>     set root='hd0,msdos1'</strong></div><div><strong>     chainloader +1</strong></div><div><strong>}</strong></div><div><strong>### END /etc/grub.d/30_os-prober ###</strong></div><div><br clear="none"></div><div>重启时，将会出现win8的系统选单</div><div><br clear="none"></div><div><em>注意：set root 后面的参数按照实际情况填写</em></div>
 ]]></content>
     <summary type="html">
-    <![CDATA[U盘刻录工具USBWriter。everything.iso安装包。推荐英文版本系统。推荐易用的Gnome桌面。推荐LVM 自动分区。设置足够强度的root密码；创建常用账号，日后要用root权限，则用su root指令。]]>
+    <![CDATA[CentOS7正式版和Redhat7，Grub2不能正确引导windows分区。解决方法：修改/boot/grub2/grub.cfg… 重启时，将会出现win8的系统选单。]]>
     
     </summary>
     
