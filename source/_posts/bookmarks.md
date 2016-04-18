@@ -294,6 +294,8 @@ Need to screen the content of this section. <sup>_todo_</sup>
 
 - [总结 XSS 与 CSRF 两种跨站攻击](https://blog.tonyseek.com/post/introduce-to-xss-and-csrf/)
 
+- [FreeRouterV2_HandBook.pdf](https://github.com/lifetyper/FreeRouter_V2/blob/master/FreeRouterV2_HandBook.pdf)
+
 - [Web 安全入门](https://github.com/evilcos/papers) —— 国内安全专家，[余弦](https://github.com/evilcos)。 <sup>_todo_</sup>
 
 - [加盐密码哈希：如何正确使用](http://blog.jobbole.com/61872/) —— [英文出处](https://crackstation.net/hashing-security.htm)。 <sup>__Best__</sup>
@@ -532,6 +534,8 @@ Need to screen the content of this section. <sup>_todo_</sup>
 - [怎样纠正成年人驼背、耸肩的体态？](https://www.zhihu.com/question/19985122) —— 挺拔。 
 
 ## EN 英语
+
+- [EssayForum](http://www.essayforum.com/) —— Free Writing, Editing, and Research Help for Students
 
 - [程序员英语学习指引](http://lucida.me/blog/english-for-programmers/) —— 「除非你阅读原版书籍和中文书籍一样顺畅，或者翻译书籍信息损失量太大，否则不需要刻意阅读原版。」<sup>_todo_</sup>
 
