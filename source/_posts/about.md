@@ -27,9 +27,9 @@ toc: false
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Books, Movies, Games …</sup> </span>
 <span class="val_pos"> <i class="fa fa-gears">&nbsp;</i> [Tools](/tools/) &nbsp; &nbsp; &nbsp;  </span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Softwares, Hardwares</sup> </span> <br/>
-<span class="key_pos">Friends</span> <span class="val_pos"> <i class="fa fa-users">&nbsp;</i> [Jan Fan](http://janfan.github.io/) | [Shiwey Yan](http://shiweyyan.github.io/) <i class="hidden">/ [极地 · 雪](http://sf-zhou.github.io/)</i> </span>
-<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Outstanding | Game Developer <i class="hidden">/ ACMer</i></sup> </span> <br/>
-<span class="key_pos">Motto</span> <span class="val_pos"> <i class="fa fa-comment">&nbsp;</i> More is in vain when less will serve. | 宁静致远。  </span> <br/><br/>
+<span class="key_pos">Friends</span> <span class="val_pos"> <i class="fa fa-users">&nbsp;</i> [Jan Fan](http://janfan.github.io/) | [Shiwey Yan](http://shiweyyan.github.io/) | SF Zhou </span>
+<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Web Secure | Game Developer | ACMer</sup> </span> <br/>
+<span class="key_pos">Mottos</span> <span class="val_pos"> <i class="fa fa-comment">&nbsp;</i> More is in vain when less will serve. | 宁静致远。  </span> <br/><br/>
 
 ---
 <br/> <div class="center"> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_00.jpg" class="pic_styl" style="margin-left: 0px" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_01a.jpg" class="pic_styl" /> <img id="qr_code" src="http://7vzp68.com1.z0.glb.clouddn.com/about_original/qrcode_00.jpg" class="hidden pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_03a.jpg" class="pic_styl" />
