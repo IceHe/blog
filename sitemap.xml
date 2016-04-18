@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://icehe.me/note/command_line.html</loc>
+    <lastmod>2016-04-18T02:21:00.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%201/</loc>
     <lastmod>2016-04-17T07:33:52.000Z</lastmod>
   </url>
@@ -9,11 +14,6 @@
   <url>
     <loc>http://icehe.me/note/timeline.html</loc>
     <lastmod>2016-04-17T06:11:48.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/note/command_line.html</loc>
-    <lastmod>2016-04-17T06:11:30.000Z</lastmod>
   </url>
   
   <url>

@@ -287,7 +287,7 @@ sup {
 <li>「15」 <a href="/asm/Assembly Language - Note 15/">附录内容：汇编编译器对jmp的处理，地址计数器（AC），处理伪操作指令，栈传递参数，无溢出除法…</a></li>
 </ul>
 <h3 id="Mine"><a href="/about/">Mine</a></h3><hr>
-<p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#x6d;&#97;&#105;&#108;&#116;&#x6f;&#58;&#x78;&#x40;&#105;&#99;&#101;&#x68;&#101;&#46;&#x6d;&#101;">&#x78;&#x40;&#105;&#99;&#101;&#x68;&#101;&#46;&#x6d;&#101;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
+<p><i class="fa fa-envelope-square">&nbsp;</i> <a href="&#x6d;&#x61;&#x69;&#108;&#x74;&#111;&#x3a;&#x78;&#x40;&#105;&#99;&#x65;&#104;&#x65;&#46;&#x6d;&#101;">&#x78;&#x40;&#105;&#99;&#x65;&#104;&#x65;&#46;&#x6d;&#101;</a><br><i class="fa fa-github">&nbsp;</i> <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a><br><span class="icon-weibo">&nbsp;</span> <a href="http://weibo.com/2181657940/" target="_blank" rel="external">Weibo</a><br><span class=" icon-qzone">&nbsp;</span> <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">What I wrote</a><br><span class="val_pos icon-douban">&nbsp;</span> <a href="https://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">What I Read</a> or <a href="https://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">See</a></p>
 <h3 id="Others">Others</h3><hr>
 <ul>
 <li>The article with superscript <sup><strong>me</strong></sup>&nbsp; implies it’s <code>about me</code>.</li>
@@ -1599,6 +1599,8 @@ sup {
 </li>
 <li><p><a href="https://blog.tonyseek.com/post/introduce-to-xss-and-csrf/" target="_blank" rel="external">总结 XSS 与 CSRF 两种跨站攻击</a></p>
 </li>
+<li><p><a href="https://github.com/lifetyper/FreeRouter_V2/blob/master/FreeRouterV2_HandBook.pdf" target="_blank" rel="external">FreeRouterV2_HandBook.pdf</a></p>
+</li>
 <li><p><a href="https://github.com/evilcos/papers" target="_blank" rel="external">Web 安全入门</a> —— 国内安全专家，<a href="https://github.com/evilcos" target="_blank" rel="external">余弦</a>。 <sup><em>todo</em></sup></p>
 </li>
 <li><p><a href="http://blog.jobbole.com/61872/" target="_blank" rel="external">加盐密码哈希：如何正确使用</a> —— <a href="https://crackstation.net/hashing-security.htm" target="_blank" rel="external">英文出处</a>。 <sup><strong>Best</strong></sup></p>
@@ -1834,6 +1836,8 @@ sup {
 </li>
 </ul>
 <h2 id="EN_英语">EN 英语</h2><ul>
+<li><p><a href="http://www.essayforum.com/" target="_blank" rel="external">EssayForum</a> —— Free Writing, Editing, and Research Help for Students</p>
+</li>
 <li><p><a href="http://lucida.me/blog/english-for-programmers/" target="_blank" rel="external">程序员英语学习指引</a> —— 「除非你阅读原版书籍和中文书籍一样顺畅，或者翻译书籍信息损失量太大，否则不需要刻意阅读原版。」<sup><em>todo</em></sup></p>
 </li>
 <li><p><a href="https://www.zhihu.com/question/28640901/answer/63421701" target="_blank" rel="external">单词全认识却看不懂句子怎么办？</a> —— 一词多义、语境、词组、语法、文化背景。 <sup><em>todo</em></sup></p>
