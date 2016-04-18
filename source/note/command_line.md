@@ -6,7 +6,16 @@ title: CLI Note 命令行
 <!--tags: [Command]-->
 <!--description: 我的命令行指令总结，及相关配置。CLI = Command Line Interface-->
 
-## Abbreviations
+# Temp
+
+`command &` run the process in background
+`^ z` suspend the process
+`bg` continue the process in background
+`fg` continue the process in foreground
+`bg %num` specify ...
+`fg %num` specify ...
+
+# Abbreviations
 
 `abbr` abbreviation
 `cmd` command
@@ -27,7 +36,7 @@ title: CLI Note 命令行
 `rm` remove
 `sth` something
 
-## [Zsh](http://zsh.sourceforge.net/)
+# [Zsh](http://zsh.sourceforge.net/)
 
 - [**Docs**](http://zsh.sourceforge.net/Doc/)
 
@@ -50,7 +59,7 @@ title: CLI Note 命令行
 
 <br/>
 
-## Common
+# Common
 
 -  **Explanations**
 
@@ -336,13 +345,13 @@ title: CLI Note 命令行
 
 <br/>
 
-## [Git](http://git-scm.com)
+# [Git](http://git-scm.com)
 
 - [My Git Note](/cmd/git_note)
 
 <br/>
 
-## [Vim](http://www.vim.org/)
+# [Vim](http://www.vim.org/)
 
 - [**Docs**](http://www.vim.org/docs.php)
 - [**SPF-13**](http://vim.spf13.com/) &nbsp;&&nbsp; [my fork](https://github.com/IceHe/spf13-vim)
@@ -351,7 +360,7 @@ title: CLI Note 命令行
 
 <br/>
 
-## Todo
+# Todo
 
 - to be continue ...
 
@@ -359,7 +368,7 @@ title: CLI Note 命令行
 
 <br/>
 
-## Related
+# Related
 
 - [My Mac Shortcuts 快捷键列表](/mac_shortcuts)
 - **CLI Note 命令行**
