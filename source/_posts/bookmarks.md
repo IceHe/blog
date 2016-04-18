@@ -256,6 +256,8 @@ Need to screen the content of this section. <sup>_todo_</sup>
 
 - [MVC，MVP 和 MVVM 的图示](https://github.com/ruanyf/articles/blob/master/2015/2015-02-01-mvc.md)
 
+- [谈谈系统设计的面试](http://zhuanlan.zhihu.com/p/20578447) —— 服务端的扩容、缓存与架构升级，评论更精彩。
+
 ## Linux
 
 - [Filesystem Hierarchy Standard](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard) —— 各目录用途。
