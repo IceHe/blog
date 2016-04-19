@@ -15,6 +15,11 @@ title: CLI Note 命令行
 `bg %num` specify ...
 `fg %num` specify ...
 
+Add SSH key for Git
+1. `ssh-keygen`
+2. `cat id_rsa.pub | pbcopy`
+3. Paste to add in Gitlab & etc
+
 # Abbreviations
 
 `abbr` abbreviation
