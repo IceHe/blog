@@ -170,6 +170,8 @@ Need to screen the content of this section. <sup>_todo_</sup>
 
 - [中文编码杂谈](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=401458542&amp;idx=1&amp;sn=8b92d5fb274760558154eb38a7a796de&amp;scene=1&amp;srcid=0104vzltG2BqJX4KXEWMcK4N#rd)
 
+- [技术管理者的创业工具箱](http://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=206233749&idx=1&sn=775d435c48db5eac47037f7721d426e6&scene=21#wechat_redirect)
+
 ## Read 阅读
 
 - [编程入门指南 v1.4](http://zhuanlan.zhihu.com/xiao-jing-mo/19959253) <sup>_todo_</sup>

@@ -176,6 +176,10 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
     技术干货。
 
+- [程序人生](http://chuansong.me/account/programmer_life)
+
+    服务端技术实践与感悟，以及杂谈。
+
 - [懒人在思考](http://chuansong.me/account/lazy-thought)
 
     网络安全入门。国内安全专家余弦维护。
