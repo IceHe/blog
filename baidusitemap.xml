@@ -3,6 +3,26 @@
 
 
     
+  <url>
+    <loc>http://icehe.me/bookmarks/</loc>
+    <lastmod>2016-04-19T16:00:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>My Bookmarks 书签</title>
+        <pubTime>2015-12-19T16:00:00.000Z</pubTime>
+        
+        <tag>read</tag>
+         
+         
+           
+             
+              <breadCrumb title="read" url="http://icehe.me/categories/read/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%201/</loc>
@@ -87,46 +107,6 @@
 
     
   <url>
-    <loc>http://icehe.me/think/life_framework/</loc>
-    <lastmod>2016-04-16T16:00:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>Life Framework</title>
-        <pubTime>2016-04-16T16:00:00.000Z</pubTime>
-        
-        <tag>think</tag>
-         
-         
-           
-             
-              <breadCrumb title="think" url="http://icehe.me/categories/think/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://icehe.me/bookmarks/</loc>
-    <lastmod>2016-04-16T16:00:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>My Bookmarks 书签</title>
-        <pubTime>2015-12-19T16:00:00.000Z</pubTime>
-        
-        <tag>read</tag>
-         
-         
-           
-             
-              <breadCrumb title="read" url="http://icehe.me/categories/read/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://icehe.me/index/</loc>
     <lastmod>2016-04-16T16:00:00.000Z</lastmod>
     <data>
@@ -160,6 +140,26 @@
            
              
               <breadCrumb title="whoami" url="http://icehe.me/categories/whoami/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/think/life_framework/</loc>
+    <lastmod>2016-04-16T16:00:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>Life Framework</title>
+        <pubTime>2016-04-16T16:00:00.000Z</pubTime>
+        
+        <tag>think</tag>
+         
+         
+           
+             
+              <breadCrumb title="think" url="http://icehe.me/categories/think/"/>
           
         </display>
     </data>
