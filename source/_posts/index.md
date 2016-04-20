@@ -1,7 +1,7 @@
 title: Blog Index 目录
 date: 2016-03-07
 updated: 2016-04-17
-show_updated: true
+show_updated: false
 categories: [read]
 tags: [read]
 description: 本博客的导航页。
