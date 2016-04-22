@@ -1,6 +1,6 @@
 title: My Bookmarks 书签
 date: 2015-12-20
-updated: 2016-04-17
+updated: 2016-04-20
 show_updated: true
 categories: [read]
 tags: [read]
@@ -172,6 +172,8 @@ Need to screen the content of this section. <sup>_todo_</sup>
 
 - [技术管理者的创业工具箱](http://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=206233749&idx=1&sn=775d435c48db5eac47037f7721d426e6&scene=21#wechat_redirect)
 
+- [编译器的工作过程](https://github.com/ruanyf/articles/blob/master/2014/2014-11-08-compiler.md) —— `./configure`, `make`, `make install`
+
 ## Read 阅读
 
 - [编程入门指南 v1.4](http://zhuanlan.zhihu.com/xiao-jing-mo/19959253) <sup>_todo_</sup>
@@ -232,6 +234,10 @@ Need to screen the content of this section. <sup>_todo_</sup>
 
 - [HTML 中 Head 头结构](http://segmentfault.com/a/1190000000697532) <sup>_todo_</sup>
 
+- [React 入门实例教程](https://github.com/ruanyf/articles/blob/master/2015/2015-03-31-react.md)
+
+- [高扩展性网站的50条原则](http://www.cnblogs.com/xing901022/p/4425124.html)
+
 ## Architecture 架构
 
 - [从无到有：微信后台系统的演进之路](http://www.infoq.com/cn/articles/the-road-of-the-growth-weixin-background) <sup>__Best__</sup>
@@ -251,8 +257,6 @@ Need to screen the content of this section. <sup>_todo_</sup>
 - [淘宝搜索技术博客](http://www.searchtb.com/) <sup>_todo_</sup>
 
 - [架构腐化之谜](http://mp.weixin.qq.com/s?__biz=MjM5NTg2NTU0Ng==&amp;mid=210816035&amp;idx=3&amp;sn=7ad903e7be165e2c616c20fa2f148f63&amp;scene=1#rd)
-
-- [高扩展性网站的50条原则](http://www.cnblogs.com/xing901022/p/4425124.html)
 
 - [什么不要做？关于失败和优化](http://zhuanlan.zhihu.com/yilecoming/20587867)
 
@@ -622,6 +626,8 @@ Need to screen the content of this section. <sup>_todo_</sup>
 - [音乐的秘密](http://www.letv.com/ptv/vplay/24200614.html#vid=24200614) —— 梁欢制作的纪录片电影。 <sup>__Best__</sup>
 
 - [KTV不允许带酒水和零食违法不违法？](https://www.zhihu.com/question/35814611/answer/65416013) —— 合法权益。 <sup>__Best__</sup>
+
+- [有哪些价格不贵逼格又高的家装家居？](https://www.zhihu.com/question/24399575/answer/93873520?utm_campaign=weekly211&utm_source=weekly-digest&utm_medium=email)
 
 - [家居中有哪些设计不合理的地方？](https://www.zhihu.com/question/22827881)
 
