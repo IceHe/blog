@@ -1,6 +1,6 @@
 title: My Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2016-04-13
+updated: 2016-04-22
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -640,7 +640,14 @@ Not Only shortcuts, but also Change Layout of Keyboard!
     _`⌥ ↑` Extend Selection_
     _`⌥ ↓` Shrink Selection_
 
-_TODO: I need to re-configure these shortcuts in the futrue!_
+- Navigate
+
+    `F2` Next Highlighted Error
+    `⇧ F2` Prev Highlighted Error
+
+- Refactor
+
+    `⇧ F6` Rename $variable, ClassName, functionName (Auto rename other related code!)
 
 # PyCharm
 
