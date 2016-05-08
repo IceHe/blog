@@ -1,6 +1,6 @@
 title: My Bookmarks 书签
 date: 2015-12-20
-updated: 2016-04-20
+updated: 2016-05-08
 show_updated: true
 categories: [read]
 tags: [read]
@@ -339,6 +339,8 @@ Need to screen the content of this section. <sup>_todo_</sup>
 
 - [链家模式](http://mp.weixin.qq.com/s?__biz=MzI1MzE4NDg0MA==&mid=404328133&idx=1&sn=09d01bfebe463ecf296ac0caab8290c7&scene=2&srcid=0402B8XsxTGjY4kb7oMHbCLH&from=timeline&isappinstalled=0) —— 《逆天的链家又摊上事了，30G多达百万人隐私信息，惊现政府公务员名单》
 
+- [碎片化信息的价值：懒惰与慰藉](http://chuansong.me/n/2848588)
+
 - [科技公司十大最愚蠢的错误](http://coolshell.cn/articles/1295.html)
 
 - [来信，创业和移动互联网](http://coolshell.cn/articles/5815.html)
@@ -636,6 +638,8 @@ Need to screen the content of this section. <sup>_todo_</sup>
 - [如何对孩子的无理要求说「不」？](https://www.zhihu.com/question/19621705)
 
 - [问答：“爸爸，你说我长大后会有出息吗？”](http://mp.weixin.qq.com/s?__biz=MzI0MTEyMjk4Ng==&amp;mid=403265724&amp;idx=1&amp;sn=10d504fcd74a6c6d1bcca10d20d61cb0&amp;scene=1&amp;srcid=0327ZjFs3vG2A7zRSLKY8mkl#rd)
+
+- [一部《欢乐颂》，一场中产阶级的自我意淫](http://fooads.com/post/572a97b96846962e0bb75504)
 
 - [我是怎么找电子书的？](http://mp.weixin.qq.com/s?__biz=MzA4MjMwODUwNQ==&mid=402644191&idx=2&sn=b1cce3992ff6f10eb9e4026d621724a1&scene=1&srcid=0202z7nxM3czSEJ0TUhH5VtX#rd) <sup>_todo_</sup>
 
