@@ -1,6 +1,6 @@
 title: My Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2016-04-22
+updated: 2016-05-08
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -188,7 +188,7 @@ Some are modified by App [Karabiner](#Karabiner).
     `⌘ v` Paste
     `⌘ ⌥ v` Mv ( After `⌘ c` )
 
-    - After Selection
+    - After Selection, then input:
     `⌘ b` Bold
     `⌘ u` Underline
     `⌘ i` Italic
@@ -272,11 +272,9 @@ __`⌘ ⇧ 2` Translate Selection__
 
     __`⌘ ^ s` Sync__
 
-    __`⌘ ⌥ f` Search in Notes__
-    __`⌘ j` Switch to a Note or Notebook__
-    `⌘ ⇧ j` Switch Notebook
+    `⌘ j` Search in Notes & Switch to a Note or Notebook
 
-    __`⌘ l` Edit Note Title__
+    `⌘ l` Edit Note Title
     __`⌘ ^ m` Mv Note to the select Notebook__
     __`⌘ ⇧ I` Get Note Info__
 
@@ -291,7 +289,7 @@ __`⌘ ⇧ 2` Translate Selection__
     _`⌘ ⇧ ⌥ D` Insert Time_
     _`⌘ ⇧ L` Insert Table_
 
-    - After Selection
+    - After Selection, then input:
 
     `⇥` Increase Indent
     `⇧ ⇥` Decrease Indent
@@ -308,6 +306,14 @@ __`⌘ ⇧ 2` Translate Selection__
     _`⌘ ^ -` Subscript_
     ~~`⌘ ^ h` Highlight~~ &nbsp;(_Confilicted with Karabiner `^ h`._)
 
+- Input
+
+    `*` then `凵` —— Bulleted List
+    `1.` then `凵` —— Numbered List
+
+    In a new line, input `-` 3 times then `↩` —— Horizontal Rule
+    In a new line, input <code>\`</code> 3 times then `↩` —— Code Quote
+
 # Evernote Web Clipper
 
 - Activate
@@ -316,7 +322,7 @@ __`⌘ ⇧ 2` Translate Selection__
     __<code>^ ⇧ \`</code> Open Simply Clip Mode__
     `⎋` Exit
 
-    - After <code>^ \`</code> or <code>^ ⇧ \`</code>
+    - After <code>^ \`</code> or <code>^ ⇧ \`</code> , then input:
 
     __`a` All Main Text__
     __`c` Main Text without Advertisement__
@@ -481,14 +487,18 @@ Not Only shortcuts, but also Change Layout of Keyboard!
 
     `Num` = `!@#$%^&*()`
     `⇧ Num` = `1234567890`
+
+    `凵 qwertyuiop[]` = `!@#$%^&*()-+`
     `凵 asdfghjkl;` = `123456890`
+    `凵 zxcvb` = `^ ⌥ zxcvb`
+    `凵 m,./` = `~_=\`
 
 - Mv
 
-    `Fn h` = `←`
-    `Fn j` = `↓`
-    `Fn k` = `↑`
-    `Fn l` = `→`
+    `Fn h`, `Fn s` = `←`
+    `Fn j`, `Fn f` = `↓`
+    `Fn k`, `Fn d` = `↑`
+    `Fn l`, `Fn g` = `→`
 
     `⌥ b` = `⌥ ←` Mv to Prev Word
     `⌥ f` = `⌥ →` Mv to Next Word
@@ -497,6 +507,10 @@ Not Only shortcuts, but also Change Layout of Keyboard!
 
     `^ j` = `↩` Ret
     `^ w` Del Preceding Word
+
+    <code>凵 \`</code> = `⎋` Esc
+    `凵 ⇥` = `⌫` Del
+    `凵 ^` = `↩` Ret
 
 # Mail
 
@@ -576,7 +590,7 @@ Not Only shortcuts, but also Change Layout of Keyboard!
 
 `^ ⌥ z` Activate
 
-- After `^ ⌥ z`
+- After `^ ⌥ z` , then input:
 
     `⌥ [ ↑ | ↓ ]` Mv the window to another Display
 
@@ -672,13 +686,13 @@ __`⌥ 凵` Swiftly__
     `^` Lf Ctrl → `⇪` CapsLock
     `⌘` Rg Cmd → `⎋` Esc
 
-Need to Modify `System Preferences → Keyboards → "Modifier Key` to exchange `CapsLock` & Lf `Ctrl`.
+Need to Modify `System Preferences → Keyboards → Modifier Key` to exchange `CapsLock` & Lf `Ctrl`.
 
 # tmux
 
 `^ a` Prefix Key
 
-- After inputing Prefix Key `^ a`
+- After inputing Prefix Key `^ a` , then input:
 
     - Help
 
