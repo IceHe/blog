@@ -1,6 +1,6 @@
 title: My Tools 利器
 date: 2015-11-21
-updated: 2016-04-11
+updated: 2016-05-08
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -484,9 +484,19 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
     \+ [Amazon Onyx Black Leather Cover](https://www.amazon.cn/%E4%BA%9A%E9%A9%AC%E9%80%8AKindle-Paperwhite%E7%9C%9F%E7%9A%AE%E4%BF%9D%E6%8A%A4%E5%A5%97/dp/B008BQH1NO) ， 看书时间长的日子，还得用 E-Ink 屏。
 
-- [Côte & Ciel Backpack](http://www.coteetciel.com/en-CN/isar-backpack-black-melange-laptop-bag)
+- [Bose QC20](http://www.bose.cn/product.aspx?cid=1418#1418)
 
-    Isar Eco Yarn / Black Melange ， 就是喜欢它特别的外观设计。
+    [QuietComfort® 20 Acoustic Noise Cancelling® headphones — Apple devices](https://www.bose.com/en_us/products/headphones/earphones/quietcomfort-20i-acoustic-noise-cancelling-headphones.html#v=qc20_apple_white)
+
+    目前市面上我所知的最好的降噪耳塞，主动降噪。
+
+    降噪后，可用更小的音量听音乐和播客；可以一键切换是否隔绝周围环境的声音。周围有规律的噪音大部分隔绝，人声不完全隔绝，再稍微播放音乐即可在很大程度上隔绝外部噪音。
+
+- [AKG K323XS](http://detail.zol.com.cn/microphone/index362788.shtml)
+
+    低级入门耳塞，好用不贵，坏了不心疼。 塞头大小适中(偏小)，适合长时间佩戴，时常当静音耳塞用。
+
+    SQ505 闲置，因为头戴式容易压得耳朵疼，隔音效果也不好； 能盖住耳朵隔音效果好的大耳机，一般设备推不动，音效不好。后悔没买带线控版，毕竟更方便。
 
 - [Sony SRS-X1-V](http://item.jd.com/10132928766.html)
 
@@ -494,15 +504,19 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
     不打扰别人情况下，尽量听外放，保护听力，也更舒服自在。
 
-- [AKG K323XS](http://detail.zol.com.cn/microphone/index362788.shtml)
+- [Côte & Ciel Backpack](http://www.coteetciel.com/en-CN/isar-backpack-black-melange-laptop-bag)
 
-    低级入门耳塞，好用不贵，坏了不心疼。 塞头大小适中(偏小)，适合长时间佩戴，时常当静音耳塞用。
-
-    SQ505 闲置，因为头戴式容易压得耳朵疼，隔音效果也不好； 能盖住耳朵隔音效果好的大耳机，一般设备推不动，音效不好。 // 音质尚佳，我会选择蓝牙入耳式耳塞；不行我也要有线控的，毕竟图个方便！
+    Isar Eco Yarn / Black Melange ， 就是喜欢它特别的外观设计。
 
 - [小米插线板](http://www.mi.com/powerstrip/)
 
     小巧精致，节省空间又好看，省了不少 USB 充电插头。
+
+- [TK-ONIGIRI](http://www.victorsport.com.cn/product_data.php?id=bVjabyTqrMjj666zMjEk67dD4xSyq)
+
+    Victor Sport 的 Thruster K ONIGIRI 突击鬼斩。
+
+    进攻型羽毛球拍，拉 28 磅的 YONEX 80 Power 线。谁叫我那么喜欢暴力打球呢？
 
 # Related
 
