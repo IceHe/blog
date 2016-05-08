@@ -1898,8 +1898,33 @@ section.comment {
 .popularlist li:nth-child(10) {
   border-bottom: 3px solid #ccc;
 }
-.popularlist li:nth-child(15) {
-  border-bottom: 3px solid #ccc;
+.recommendlist {
+  font-size: 90%;
+}
+@media only screen and (min-width: 768px) {
+  .recommendlist {
+    width: 45%;
+    float: left;
+    margin: 0 5% 0 0;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .recommendlist {
+    width: 100%;
+    float: none;
+    margin: 1em 0 0;
+  }
+}
+.recommendlist li {
+  border-bottom: 1px solid #ccc;
+}
+.recommendlist li a {
+  font-size: 85%;
+  display: block;
+  padding: 0.4em 5%;
+}
+.recommendlist li a:hover {
+  color: #69c;
 }
 footer {
   margin-top: 1em;

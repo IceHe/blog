@@ -65,7 +65,7 @@
     
     <div id="textlogo">
         <h1 class="site-name"><a href="/" title="IceHe 何志远">IceHe 何志远</a></h1>
-        <h2 class="blog-motto">「 Done is better than perfect. 」</h2>
+        <h2 class="blog-motto">More is in vain when less will serve.</h2>
     </div>
 
     <div class="navbar">
@@ -112,6 +112,36 @@
 <div id="main" class="archive-part clearfix">
 
     <div id="archive-page">
+        
+            <section class="post" itemscope itemprop="blogPost">
+    
+    <a href="/asm/Assembly Language - Note 7 extra/" title="ASM 汇编语言 - 7 extra" itemprop="url">
+    
+        <time datetime="2015-02-07T18:02:02.000Z" itemprop="datePublished">2015-02-08</time>
+        <h1 itemprop="name">ASM 汇编语言 - 7 extra</h1>
+    </a>
+</section>
+
+        
+            <section class="post" itemscope itemprop="blogPost">
+    
+    <a href="/asm/Assembly Language - Note 7/" title="ASM 汇编语言 - 7" itemprop="url">
+    
+        <time datetime="2015-02-07T17:01:01.000Z" itemprop="datePublished">2015-02-08</time>
+        <h1 itemprop="name">ASM 汇编语言 - 7</h1>
+    </a>
+</section>
+
+        
+            <section class="post" itemscope itemprop="blogPost">
+    
+    <a href="/asm/Assembly Language - Note 6/" title="ASM 汇编语言 - 6" itemprop="url">
+    
+        <time datetime="2015-02-07T16:00:00.000Z" itemprop="datePublished">2015-02-08</time>
+        <h1 itemprop="name">ASM 汇编语言 - 6</h1>
+    </a>
+</section>
+
         
             <section class="post" itemscope itemprop="blogPost">
     
@@ -163,19 +193,9 @@
 </section>
 
         
-            <section class="post" itemscope itemprop="blogPost">
-    
-    <a href="/asm/在win7 64位系统上使用debug.exe/" title="在win7 64位系统上使用 debug.exe" itemprop="url">
-    
-        <time datetime="2015-02-01T16:00:00.000Z" itemprop="datePublished">2015-02-02</time>
-        <h1 itemprop="name">在win7 64位系统上使用 debug.exe</h1>
-    </a>
-</section>
-
-        
         
         <nav id="page-nav" class="clearfix archive-nav">
-            <a class="extend prev" rel="prev" href="/tags/ASM/"><span></span>Prev</a><a class="page-number" href="/tags/ASM/">1</a><span class="page-number current">2</span>
+            <a class="extend prev" rel="prev" href="/tags/ASM/"><span></span>Prev</a><a class="page-number" href="/tags/ASM/">1</a><span class="page-number current">2</span><a class="page-number" href="/tags/ASM/page/3/">3</a><a class="extend next" rel="next" href="/tags/ASM/page/3/">Next<span></span></a>
         </nav>
         
     </div>
@@ -362,7 +382,7 @@
         title = $('.article-title').text().trim();
         var query = new AV.Query(Counter);
 
-        query.equalTo("url",url); // use url as unique idnetfication
+        query.equalTo("url", url); // use url as unique idnetfication
         query.find({
             success: function(results) {
                 if (results.length>0) {
@@ -406,7 +426,7 @@
         if (1 == popular_list.length) {
             var query = new AV.Query(Counter);
             query.descending("time");
-            query.limit(20);
+            query.limit(15);
             query.find({
                 success: function(results) {
                     for(var i = 0; i < results.length; ++i) {
@@ -429,6 +449,38 @@
             });
         }
 
+        // if recommendlist widget exists, add item to it.
+        var recommend_list = $('.recommendlist');
+        if (1 == recommend_list.length) {
+            var recommend_urls = [
+                '/batch/DOS 常用指令 Command/',
+                '/c++/C++ Interview Book/',
+                '/think/bye2015/',
+                '/cmd/git_note/',
+                '/tools/',
+//                '/bookmarks/',
+            ];
+            for (var i = 0; i < recommend_urls.length; ++i) {
+                query.equalTo("url", recommend_urls[i]); // use url as unique idnetfication
+                query.find({
+                    success: function(results) {
+                        if (results.length > 0) {
+                            var counter = results[0];
+                            var title = counter.get("title");
+
+                            $('#recommend_ul').append('<li><a href="'
+                                    + counter.get("url") + '" name="'
+                                    + title + '">'
+                                    + '<sup>'
+                                    + counter.get("time") + ' </sup> &nbsp;'
+                                    + title + '</a></li>'
+                            );
+                        }
+                    },
+                });
+            }
+        }
+
         // if cur page is a post, set the post pageview.
         var article_info = $(".article-info");
         if (1 == article_info.length) {
@@ -439,9 +491,9 @@
                 success: function(results) {
                     if (1 == results.length) {
                         var counter = results[0];
-                        title = counter.get("title");
-                        url = counter.get("url");
-                        time = counter.get("time");
+                        var title = counter.get("title");
+                        var url = counter.get("url");
+                        var time = counter.get("time");
 
                         article_info.find(".article-pageview").text(time);
                     }
@@ -465,9 +517,8 @@
                     success: function(results) {
                         if (1 == results.length) {
                             var counter = results[0];
-                            title = counter.get("title");
-                            url = counter.get("url");
-                            time = counter.get("time");
+                            var url = counter.get("url");
+                            var time = counter.get("time");
 
                             $(".post a[href='" + url + "']").find('.readtimes').text(time);
                         }

@@ -65,7 +65,7 @@
     
     <div id="textlogo">
         <h1 class="site-name"><a href="/" title="IceHe 何志远">IceHe 何志远</a></h1>
-        <h2 class="blog-motto">「 Done is better than perfect. 」</h2>
+        <h2 class="blog-motto">More is in vain when less will serve.</h2>
     </div>
 
     <div class="navbar">
@@ -328,7 +328,7 @@
         title = $('.article-title').text().trim();
         var query = new AV.Query(Counter);
 
-        query.equalTo("url",url); // use url as unique idnetfication
+        query.equalTo("url", url); // use url as unique idnetfication
         query.find({
             success: function(results) {
                 if (results.length>0) {
@@ -372,7 +372,7 @@
         if (1 == popular_list.length) {
             var query = new AV.Query(Counter);
             query.descending("time");
-            query.limit(20);
+            query.limit(15);
             query.find({
                 success: function(results) {
                     for(var i = 0; i < results.length; ++i) {
@@ -395,6 +395,38 @@
             });
         }
 
+        // if recommendlist widget exists, add item to it.
+        var recommend_list = $('.recommendlist');
+        if (1 == recommend_list.length) {
+            var recommend_urls = [
+                '/batch/DOS 常用指令 Command/',
+                '/c++/C++ Interview Book/',
+                '/think/bye2015/',
+                '/cmd/git_note/',
+                '/tools/',
+//                '/bookmarks/',
+            ];
+            for (var i = 0; i < recommend_urls.length; ++i) {
+                query.equalTo("url", recommend_urls[i]); // use url as unique idnetfication
+                query.find({
+                    success: function(results) {
+                        if (results.length > 0) {
+                            var counter = results[0];
+                            var title = counter.get("title");
+
+                            $('#recommend_ul').append('<li><a href="'
+                                    + counter.get("url") + '" name="'
+                                    + title + '">'
+                                    + '<sup>'
+                                    + counter.get("time") + ' </sup> &nbsp;'
+                                    + title + '</a></li>'
+                            );
+                        }
+                    },
+                });
+            }
+        }
+
         // if cur page is a post, set the post pageview.
         var article_info = $(".article-info");
         if (1 == article_info.length) {
@@ -405,9 +437,9 @@
                 success: function(results) {
                     if (1 == results.length) {
                         var counter = results[0];
-                        title = counter.get("title");
-                        url = counter.get("url");
-                        time = counter.get("time");
+                        var title = counter.get("title");
+                        var url = counter.get("url");
+                        var time = counter.get("time");
 
                         article_info.find(".article-pageview").text(time);
                     }
@@ -431,9 +463,8 @@
                     success: function(results) {
                         if (1 == results.length) {
                             var counter = results[0];
-                            title = counter.get("title");
-                            url = counter.get("url");
-                            time = counter.get("time");
+                            var url = counter.get("url");
+                            var time = counter.get("time");
 
                             $(".post a[href='" + url + "']").find('.readtimes').text(time);
                         }
