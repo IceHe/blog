@@ -9,8 +9,7 @@
 
 # Site
 title: IceHe 何志远
-#subtitle: More is in vain when less will serve.
-subtitle: "「 Done is better than perfect. 」"
+subtitle: More is in vain when less will serve.
 description: IceHe 何志远 blog 博客 software development technology 软件 开发 技术
 author: IceHe何志远
 email: x@icehe.me
@@ -80,7 +79,7 @@ short_date_format: YY-MM-DD
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 11
+per_page: 8
 pagination_dir: page
 
 # Disqus
