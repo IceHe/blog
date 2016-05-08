@@ -1,6 +1,6 @@
 title: Blog Index 目录
 date: 2016-03-07
-updated: 2016-04-17
+updated: 2016-05-08
 show_updated: false
 categories: [read]
 tags: [read]
@@ -10,99 +10,50 @@ description: 本博客的导航页。
 - [Archives 归档 ( Sort by Time )](/archives)
 - Sort by Category as follows.
 
-### [Whoami](/categories/whoami)
----
-
-- [Me 我](/about/) &nbsp;/&nbsp; [Resume](/resume)<sup>简历</sup> <sup>me</sup>
-- [Reward Me 打赏博主](/reward)
-
-### [Think](/categories/think)
----
-
-- [Life Framework](/think/life_framework/) <sup>me</sup>
-- [Bye 2015](/think/bye2015) <sup>me</sup>
-
-### [AppleScript](/categories/AppleScript)
----
-
-- [AppleScript Quick Start 快速入门](/applescript/applescript/)
-- [用 AppleScript 操作 Evernote / OS X](/applescript/evernote_osx/)
-
-### [Command](/categories/Command)
----
-
-<!--- [CLI Note 命令行](/cmd/command_line) <sup>_todo_</sup>-->
-- [Git Note](/cmd/git_note)
-
-### [Mac](/categories/Mac)
----
-
-- [My Tools 利器](/tools) —— Mac 应用推荐 <sup>me</sup>
-- [My Mac Shortcuts 快捷键](/mac_shortcuts) <sup>me</sup>
-
-### [Read](/categories/read)
----
-
-- Index 目录 <sup>this page</sup>
-- [My Bookmarks 书签](/bookmarks) <sup>me</sup>
-- [My Favourites 喜好](/favourites) <sup>me</sup>
-- [《幸福课》知乎专栏 - Note](/read/《幸福课》知乎专栏 - Note)
-
 ### [Web](/categories/Web)
 ---
 
-- [Google CSE 站内搜索](/search)
-- [实现网站的支付宝打赏功能](/web/donate)
 - [Bulid Blog 搭建个人博客](/web/build_blog/)
+- [实现网站的支付宝打赏功能](/web/donate)
+- [Google CSE 站内搜索](/search)
 - [404 Page](/404)
-
-### [Time Mgt](/categories/time-mgt)
----
-
-- [Time Mgt 时间管理日志](/think/time_mgt) <sup>me</sup>
-- [My Life Logs 手帐](/lifelogs) <sup>me</sup>
-
-### [CentOS 7](/categories/CentOS)
----
-
-- [U盘安装](/linux/[00] U盘安装 CentOS 7)
-- [恢复 Windows 的开机引导](/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7)
-- [配置系统环境](/linux/[02] Config System Envir 配置系统环境 - CentOS 7)
-- [升级内核](/linux/[03] Update Kernel 升级内核 - CentOS 7)
-- [安装后的安全防范措施](/linux/[04] 安装 CentOS 7 后必做的 安全防范措施)
-- [自动挂载 NTFS 格式的硬盘分区](/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7)
-
-### [Batch](/categories/Batch)
----
-
-- [Batch Command 批处理指令](/batch/Batch 批处理指令 Command)
-- [DOS Command 常用指令](/batch/DOS 常用指令 Command)
-- [DOS Symbols 特殊符号](/batch/DOS 特殊符号 Symbol)
-- [DOS Environment Variable 环境变量](/batch/DOS 环境变量 Environment Variable)
 
 ### [C++](/categories/C/)
 ---
 
-- [C++ Primer 5th - Note](/c++/C++ Primer 5th)
-- [C++ Interview Book - Note](/c++/C++ Interview Book)
-- [C++ Code Standards 编码规范 - Note](/c++/C++ Code Standards 编码标准)
+- [C++ Primer 5th - Note](/c++/C++ Primer 5th/)
+- [C++ Interview Book - Note](/c++/C++ Interview Book/)
+- [C++ Code Standards 编码规范 - Note](/c++/C++ Code Standards 编码标准/)
 - Effective C++ - Note [「 1 」](/c++/Effective C++ - Reading Note 1)[「 2 」](/c++/Effective C++ - Reading Note 2)[「 3 」](/c++/Effective C++ - Reading Note 3)[「 4 」](/c++/Effective C++ - Reading Note 4)
 
-### [JavaScript](/javascript/某次js代码优化过程)
+### [CentOS](/categories/CentOS)
 ---
 
-- [某次 JavaScript 代码优化过程](/javascript/某次js代码优化过程)
+- [U盘安装](/linux/[00] U盘安装 CentOS 7/)
+- [恢复 Windows 的开机引导](/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/)
+- [配置系统环境](/linux/[02] Config System Envir 配置系统环境 - CentOS 7/)
+- [升级内核](/linux/[03] Update Kernel 升级内核 - CentOS 7)
+- [安装后的安全防范措施](/linux/[04] 安装 CentOS 7 后必做的 安全防范措施/)
+- [自动挂载 NTFS 格式的硬盘分区](/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/)
 
-### [PHP](/categories/PHP)
+### [Batch 批处理](/categories/Batch)
 ---
 
-- [PHP empty\(\) 和 isset\(\) 的区别](/php/PHP%20empty%28%29%20%E5%92%8C%20isset%28%29%20%E7%9A%84%E5%8C%BA%E5%88%AB)
-- [PHP var !== NULL 是否等价于 isset(var)](/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var))
+- [Batch Command 批处理指令](/batch/Batch 批处理指令 Command/)
+- [DOS Command 常用指令](/batch/DOS 常用指令 Command/)
+- [DOS Symbols 特殊符号](/batch/DOS 特殊符号 Symbol/)
+- [DOS Environment Variable 环境变量](/batch/DOS 环境变量 Environment Variable/)
 
-### [ASM](/categories/ASM)
+### [AppleScript](/categories/AppleScript)
 ---
 
-- 准备：[在win7 64位系统上使用 debug.exe](/asm/在win7 64位系统上使用debug.exe)
+- [用 AppleScript 操作 Evernote / OS X](/applescript/evernote_osx/)
+- [AppleScript Quick Start 快速入门](/applescript/applescript/)
+
+### [ASM 汇编](/categories/ASM)
+---
+
+- 准备：[在win7 64位系统上使用 debug.exe](/asm/在win7 64位系统上使用debug.exe/)
 - 「1」[寄存器、CS、IP、CPU、内存](/asm/Assembly Language - Note 1/)
 - 「2」[大小端、寄存器、DS、[addr]、栈](/asm/Assembly Language - Note 2/)
 - 「3」[伪指令、编译、连接、调试，[BX]、loop、段前缀、内存空间](/asm/Assembly Language - Note 3/)
@@ -120,19 +71,51 @@ description: 本博客的导航页。
 - 「14」 [用 BIOS 进行键盘输入和磁盘读写，及相关实验](/asm/Assembly Language - Note 14/)
 - 「15」 [附录内容：汇编编译器对jmp的处理，地址计数器（AC），处理伪操作指令，栈传递参数，无溢出除法…](/asm/Assembly Language - Note 15/)
 
-### [Mine](/about/)
+### [Command](/categories/Command)
 ---
 
-<i class="fa fa-envelope-square">&nbsp;</i> <x@icehe.me>
-<i class="fa fa-github">&nbsp;</i> [Github](https://github.com/IceHe)
-<span class="icon-weibo">&nbsp;</span> [Weibo](http://weibo.com/2181657940/)
-<span class=" icon-qzone">&nbsp;</span> [What I wrote](http://290841032.qzone.qq.com/)
-<span class="val_pos icon-douban">&nbsp;</span> [What I Read](https://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count) or [See](https://movie.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
+- [Git Note](/cmd/git_note)
 
-
-### Others
+### [JavaScript](/javascript/某次js代码优化过程)
 ---
 
-- The article with superscript <sup>__me__</sup>&nbsp; implies it's `about me`.
-- ... <sup>_todo_</sup>&nbsp; implies ... `not completed`.
+- [某次 JavaScript 代码优化过程](/javascript/某次js代码优化过程/)
+
+### [PHP](/categories/PHP)
+---
+
+- [PHP empty\(\) 和 isset\(\) 的区别](/php/PHP%20empty%28%29%20%E5%92%8C%20isset%28%29%20%E7%9A%84%E5%8C%BA%E5%88%AB/)
+- <a href="/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var)/">PHP var !== NULL 是否等价于 isset()</a>
+
+### [Mac](/categories/Mac)
+---
+
+- [My Tools 利器](/tools) —— Mac 应用推荐
+- [My Mac Shortcuts 快捷键](/mac_shortcuts)
+
+### [Read](/categories/read)
+---
+
+- Index 目录 <sup>this page</sup>
+- [My Bookmarks 书签](/bookmarks)
+- [My Favourites 喜好](/favourites)
+- [《幸福课》知乎专栏 - Note](/read/《幸福课》知乎专栏 - Note/)
+
+### [Think](/categories/think)
+---
+
+- [Life Framework](/think/life_framework/)
+- [Bye 2015](/think/bye2015)
+
+### [Time Mgt](/categories/time-mgt)
+---
+
+- [My Life Logs 手帐](/lifelogs)
+- [Time Mgt 时间管理日志](/think/time_mgt)
+
+### [Whoami](/categories/whoami)
+---
+
+- [Me 我](/about/) &nbsp;/&nbsp; [Resume](/resume)<sup>简历</sup>
+- [Reward Me 打赏博主](/reward)
 
