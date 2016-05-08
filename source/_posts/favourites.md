@@ -1,6 +1,6 @@
 title: My Favourites 喜好
 date: 2015-11-19
-updated: 2016-04-10
+updated: 2016-05-08
 show_updated: true
 categories: [read]
 tags: [read]
@@ -227,6 +227,10 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 - [爱迪生商业实验室](http://zhuanlan.zhihu.com/edisonlab)
 
     商业独见。
+
+- [TOMsInsight](http://chuansong.me/account/TOMsInsight)
+
+    互联网数据深度分析报告。
 
 # TV Dramas 电视剧
 
