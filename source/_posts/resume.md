@@ -1,6 +1,6 @@
 title: My Resume 何志远
 date: 2015-01-24
-updated: 2016-03-25
+updated: 2016-05-08
 show_updated: true
 categories: [whoami]
 tags: [whoami]
@@ -15,8 +15,10 @@ toc: false
 
 ## **<span class="icon-weibo">&nbsp;</span>微梦创科网络技术（中国）有限公司 - 手机微博 - 服务端研发 工程师** &nbsp; &nbsp; *2015.07 ~ Now*
 - MAPI（对外接口部门）- 微博移动端（手机、平板）各功能的服务端研发与维护，
-开放平台 API 与微博移动端（WAP 端 H5 页面、客户端 App）间请求的聚合与适配对接
-- *PHP , Docker , Nginx , Redis , Yaf Framework , CentOS*
+开放平台 API 与微博移动端（WAP 端 H5 页面、客户端 App）间请求的聚合与适配对接；
+手机微博管理后台v5（B/S）- 打点频道、打点权限管理、打点操作、打点日志等模块
+- 2016.04 至今，参与 TopWeibo 微博头条项目，服务端研发与维护
+- *PHP , Docker , Nginx , Redis , Yaf , Lumen , CentOS*
 
 ## **毕业设计 - [基于进程安全测量的安全管理](https://github.com/IceHe/secure_mgt_by_dynamic_measuring)** &nbsp; &nbsp; *2015.03 ~ 2015.05*
 - 包括：[安全测量模块](https://github.com/IceHe/dimm)（Linux Loadable Kernel Module）、[安全管理器](https://github.com/IceHe/secure_monitor)（Qt GUI）。
@@ -41,19 +43,19 @@ toc: false
 
 - *Skill Level &nbsp; &nbsp; <i class="fa fa-trophy"></i> Proficient &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star"></i> Familiar &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-half-o"></i> Competent &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Know*
 
-- **Lang** &nbsp; &nbsp; &nbsp; <i class="fa fa-star"></i> `C/C++` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `PHP`,&nbsp; `Python`,&nbsp; `JavaScript`,&nbsp; `Java` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> ASM,&nbsp; VB
+- **Lang** &nbsp; &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `PHP`,&nbsp; `Python`,&nbsp; `JavaScript`,&nbsp; `C/C++`,&nbsp; `Java` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> ASM,&nbsp; VB
 
-- **OS** &nbsp; &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `Mac OS X`,&nbsp; `CentOS 6/7`,&nbsp; `Windows 7/8` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Ubuntu
+- **OS** &nbsp; &nbsp; &nbsp; <i class="fa fa-star"></i>  `Mac OS X` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `CentOS 6/7`,&nbsp; `Windows 7/8` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Ubuntu
 
 - **DB** &nbsp; &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `MySQL` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> MS SQL Server 2008,&nbsp; Oracle DB
 
-- **Web** &nbsp; &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `HTML`,&nbsp; `CSS`,&nbsp; `jQuery` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Nginx,&nbsp; Redis,&nbsp; XML
+- **Web** &nbsp; &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `HTML`,&nbsp; `CSS`,&nbsp; `jQuery` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Nginx,&nbsp; Redis
 
-- **IDE** &nbsp; &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `PhpStorm`,&nbsp; `PyCharm`,&nbsp; Eclipse,&nbsp; QtCreator,&nbsp; Visual Studio
+- **IDE** &nbsp; &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `PhpStorm`,&nbsp; `PyCharm` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Visual Studio,&nbsp; QtCreator,&nbsp; Eclipse
 
-- **Tools** &nbsp; &nbsp; &nbsp; <i class="fa fa-star"></i> `AppleScript`,&nbsp; `Git`,&nbsp; `Vim`,&nbsp; `Zsh` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-half-o"></i> Batch file (Windows),&nbsp; Shell script
+- **Tools** &nbsp; &nbsp; &nbsp; <i class="fa fa-star"></i> `AppleScript`,&nbsp; `Git`,&nbsp; `Vim`,&nbsp; `Zsh` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-half-o"></i> Shell script,&nbsp; Batch file (Windows)
 
-- **Others** &nbsp; &nbsp; &nbsp; <i class="fa fa-star"></i> `Qt Framework` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Yaf Framework,&nbsp; Linux Loadable Kernel Module
+- **Others** &nbsp; &nbsp; &nbsp; <i class="fa fa-star"></i> `Qt 4/5` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Yaf,&nbsp; Lumen,&nbsp; Linux Loadable Kernel Module
 
 ## **Links**
 
@@ -105,7 +107,8 @@ toc: false
 ## **Related**
 
 - <i class="fa fa-calendar">&nbsp;</i> [Life Logs &nbsp; 自我管理日志](/lifelogs)
-- <i class="fa fa-gears">&nbsp;</i> [Tools &nbsp; 使用的工具](/tools)
+- <i class="fa fa-gears">&nbsp;</i> [Tools &nbsp; 日常工具](/tools)
+- <i class="fa fa-keyboard-o">&nbsp;</i> [Shortcuts &nbsp; 快捷键](/mac_shortcuts)
 - <i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;[Bookmarks &nbsp; 书签](/bookmarks)
 - <i class="fa fa-heart-o">&nbsp;</i> [Favourites &nbsp; 喜好](/favourites)
 - <i class="fa fa-linkedin-square">&nbsp;</i>&nbsp; [Linkedin &nbsp; 领英](http://www.linkedin.com/in/%E5%BF%97%E8%BF%9C-%E4%BD%95-3ba09192)
