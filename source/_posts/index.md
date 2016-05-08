@@ -104,7 +104,6 @@ description: 本博客的导航页。
 ### [Think](/categories/think)
 ---
 
-- [Life Framework](/think/life_framework/)
 - [Bye 2015](/think/bye2015)
 
 ### [Time Mgt](/categories/time-mgt)
