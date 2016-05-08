@@ -1,6 +1,6 @@
 title: Me 我
 date: 2015-01-20
-updated: 2016-04-17
+updated: 2016-05-08
 show_updated: true
 categories: [whoami]
 tags: [whoami]
@@ -8,7 +8,7 @@ description: 这就是我。
 toc: false
 ----------
 
-<span class="key_pos">I'm</span>  <span class="val_pos"> <i class="fa fa-user-secret">&nbsp;</i> &nbsp;**<a href="#qr_code" target="_top" onclick="document.getElementById('qr_code').className='pic_styl'; setTimeout(function(){ $('#qr_code').fadeOut(500).fadeIn(2000); }, 500);">Ice He 何志远</a>** &nbsp;&nbsp; </span><span id="qr_code_tip" class="hidden" style="margin-left:10px; display:none;">**Scan QR Code** <i class="fa fa-arrow-down"></i></span>
+<span class="key_pos">I'm</span>  <span class="val_pos"> <i class="fa fa-user-secret">&nbsp;</i> &nbsp;__<a href="#qr_code" target="_top" onclick="document.getElementById('qr_code').className='pic_styl'; setTimeout(function(){ $('#qr_code').fadeOut(100).fadeIn(150).fadeOut(100).fadeIn(150); }, 200);">Ice He 何志远</a>__ </span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-paper-plane">&nbsp;</i> A Cantonese in Beijing</sup> </span>
 <span class="val_pos"> <i class="fa fa-envelope-square">&nbsp;</i> &nbsp;<x@icehe.me> </span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-heart">&nbsp;</i> Animate, Zhixin, Shuttle Cock, 毽球</sup> </span> <br/>
@@ -19,17 +19,21 @@ toc: false
 <span class="val_pos"> <i class="fa fa-github">&nbsp;</i> &nbsp;[Github](http://github.com/IceHe) </span> <br/><br/>
 
 ---
-<br/> <span class="key_pos">Mine</span> <span class="val_pos"> <i class="fa fa-list">&nbsp;</i> [Index](/index) </span>
-<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>博客目录</sup> </span>
-<span class="val_pos"> <i class="fa fa-calendar">&nbsp;</i> [Life Logs](/lifelogs) &nbsp;</span> <span class="val_pos hidden"> <i class="fa fa-hourglass-2">&nbsp;</i> [Timeline](/timeline) </span>
-<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Time Usage Statistics</sup> </span>
+<!--<br/> <span class="key_pos">Mine</span> <span class="val_pos"> <i class="fa fa-list">&nbsp;</i> [Index](/index) </span>-->
+<!--<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>博客目录</sup> </span>-->
+<br/> <span class="key_pos">Tech</span> <span class="val_pos"> <i class="fa fa-gears">&nbsp;</i> [Tools](/tools/) &nbsp; &nbsp; &nbsp;  </span>
+<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>工具控：Softwares & Hardwares</sup> </span>
+<span class="val_pos"> <i class="fa fa-keyboard-o">&nbsp;</i> [Shortcuts](/mac_shortcuts/) </span>
+<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>键盘党：Many Default & Custom</sup> </span>
+
+<br/> <span class="key_pos">Life</span> <span class="val_pos"> <i class="fa fa-calendar">&nbsp;</i> [Logs](/lifelogs) &nbsp;</span>
+<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>个人大数据：Time Usage Statistics</sup> </span>
 <span class="val_pos"> <i class="fa fa-heart-o">&nbsp;</i> [Favourites](/favourites) </span>
-<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Books, Movies, Games …</sup> </span>
-<span class="val_pos"> <i class="fa fa-gears">&nbsp;</i> [Tools](/tools/) &nbsp; &nbsp; &nbsp;  </span>
-<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Softwares, Hardwares</sup> </span> <br/>
+<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Articles, Books, Movies, Games …</sup> </span> <br/>
 <span class="key_pos">Friends</span> <span class="val_pos"> <i class="fa fa-users">&nbsp;</i> [Jan Fan](http://janfan.github.io/) | [Shiwey Yan](http://shiweyyan.github.io/) | SF Zhou </span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Web Secure | Game Developer | ACMer</sup> </span> <br/>
-<span class="key_pos">Mottos</span> <span class="val_pos"> <i class="fa fa-comment">&nbsp;</i> More is in vain when less will serve. | 宁静致远。  </span> <br/><br/>
+<span class="key_pos">Mottos</span> <span class="val_pos"> <i class="fa fa-comment">&nbsp;</i> 宁静致远。 </span>
+<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Done is better than perfect.</sup> </span> <br/> <br/>
 
 ---
 <br/> <div class="center"> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_00.jpg" class="pic_styl" style="margin-left: 0px" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_01a.jpg" class="pic_styl" /> <img id="qr_code" src="http://7vzp68.com1.z0.glb.clouddn.com/about_original/qrcode_00.jpg" class="hidden pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_03a.jpg" class="pic_styl" />
