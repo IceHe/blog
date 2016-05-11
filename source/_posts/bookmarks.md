@@ -1,6 +1,6 @@
 title: My Bookmarks 书签
 date: 2015-12-20
-updated: 2016-05-08
+updated: 2016-05-09
 show_updated: true
 categories: [read]
 tags: [read]
@@ -638,6 +638,8 @@ Need to screen the content of this section. <sup>_todo_</sup>
 - [为什么不从小就向孩子还原社会的残酷？](https://www.zhihu.com/question/21603465)
 
 - [如何对孩子的无理要求说「不」？](https://www.zhihu.com/question/19621705)
+
+- [刚做爸爸，觉得自己的时间都被孩子剥夺，该怎么调整心态？](https://www.zhihu.com/question/25095290/answer/30085442)
 
 - [问答：“爸爸，你说我长大后会有出息吗？”](http://mp.weixin.qq.com/s?__biz=MzI0MTEyMjk4Ng==&amp;mid=403265724&amp;idx=1&amp;sn=10d504fcd74a6c6d1bcca10d20d61cb0&amp;scene=1&amp;srcid=0327ZjFs3vG2A7zRSLKY8mkl#rd)
 
