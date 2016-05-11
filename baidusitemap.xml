@@ -3,36 +3,9 @@
 
 
     
-    
-    
-    
-    
-    
-    
-    
-  <url>
-    <loc>http://icehe.me/favourites/</loc>
-    <lastmod>2016-05-07T16:00:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>My Favourites 喜好</title>
-        <pubTime>2015-11-18T16:00:00.000Z</pubTime>
-        
-        <tag>read</tag>
-         
-         
-           
-             
-              <breadCrumb title="read" url="http://icehe.me/categories/read/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
   <url>
     <loc>http://icehe.me/bookmarks/</loc>
-    <lastmod>2016-05-07T16:00:00.000Z</lastmod>
+    <lastmod>2016-05-08T16:00:00.000Z</lastmod>
     <data>
         <display>
         <title>My Bookmarks 书签</title>
@@ -49,6 +22,13 @@
     </data>
     </url>
 
+    
+    
+    
+    
+    
+    
+    
     
   <url>
     <loc>http://icehe.me/mac_shortcuts/</loc>
@@ -117,6 +97,26 @@
         <display>
         <title>Blog Index 目录</title>
         <pubTime>2016-03-06T16:00:00.000Z</pubTime>
+        
+        <tag>read</tag>
+         
+         
+           
+             
+              <breadCrumb title="read" url="http://icehe.me/categories/read/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://icehe.me/favourites/</loc>
+    <lastmod>2016-05-07T16:00:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>My Favourites 喜好</title>
+        <pubTime>2015-11-18T16:00:00.000Z</pubTime>
         
         <tag>read</tag>
          

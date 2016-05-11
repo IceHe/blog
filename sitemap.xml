@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://icehe.me/bookmarks/</loc>
+    <lastmod>2016-05-08T16:00:00.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://icehe.me/lifelogs/2015/01/index.html</loc>
     <lastmod>2016-05-08T12:08:59.000Z</lastmod>
   </url>
@@ -37,16 +42,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/favourites/</loc>
-    <lastmod>2016-05-07T16:00:00.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/bookmarks/</loc>
-    <lastmod>2016-05-07T16:00:00.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://icehe.me/mac_shortcuts/</loc>
     <lastmod>2016-05-07T16:00:00.000Z</lastmod>
   </url>
@@ -63,6 +58,11 @@
   
   <url>
     <loc>http://icehe.me/index/</loc>
+    <lastmod>2016-05-07T16:00:00.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/favourites/</loc>
     <lastmod>2016-05-07T16:00:00.000Z</lastmod>
   </url>
   
