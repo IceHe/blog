@@ -11,8 +11,9 @@ toc: false
 <span class="key_pos">I'm</span>  <span class="val_pos"> <i class="fa fa-user-secret">&nbsp;</i> &nbsp;__<a href="#qr_code" target="_top" onclick="document.getElementById('qr_code').className='pic_styl'; setTimeout(function(){ $('#qr_code').fadeOut(100).fadeIn(150).fadeOut(100).fadeIn(150); }, 200);">Ice He 何志远</a>__ </span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-paper-plane">&nbsp;</i> A Cantonese in Beijing</sup> </span>
 <span class="val_pos"> <i class="fa fa-envelope-square">&nbsp;</i> &nbsp;<x@icehe.me> </span>
-<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-heart">&nbsp;</i> Animate, Zhixin, Shuttle Cock, 毽球</sup> </span> <br/>
-<span class="key_pos">Job</span>  <span class="val_pos"> <i class="fa fa-weibo">&nbsp;</i> [Sina Weibo](http://weibo.com/2181657940/) - Mobile API </span>
+<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-heart">&nbsp;</i> Animate, Zhixin, Shuttle Cock, 毽球</sup> </span>
+
+<br/> <span class="key_pos">Job</span>  <span class="val_pos"> <i class="fa fa-weibo">&nbsp;</i> [Sina Weibo](http://weibo.com/2181657940/) - Mobile API </span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-puzzle-piece">&nbsp;</i> Server-side Development Engineer </sup> </span>
 <span class="val_pos"> <i class="fa fa-file-text-o">&nbsp;</i> &nbsp;[Resume](/resume) </span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-gear">&nbsp;</i> 简历: Skills, Education, Leadership</sup> </span>
@@ -29,10 +30,15 @@ toc: false
 <br/> <span class="key_pos">Life</span> <span class="val_pos"> <i class="fa fa-calendar">&nbsp;</i> [Logs](/lifelogs) &nbsp;</span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>个人大数据：Time Usage Statistics</sup> </span>
 <span class="val_pos"> <i class="fa fa-heart-o">&nbsp;</i> [Favourites](/favourites) </span>
-<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Articles, Books, Movies, Games …</sup> </span> <br/>
-<span class="key_pos">Friends</span> <span class="val_pos"> <i class="fa fa-users">&nbsp;</i> [Jan Fan](http://janfan.github.io/) | [Shiwey Yan](http://shiweyyan.github.io/) | SF Zhou </span>
-<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Web Secure | Game Developer | ACMer</sup> </span> <br/>
-<span class="key_pos">Mottos</span> <span class="val_pos"> <i class="fa fa-comment">&nbsp;</i> 宁静致远。 </span>
+<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Articles, Books, Movies, Games …</sup> </span>
+
+<br/> <span class="key_pos">Done</span> <span class="val_pos icon-douban"> &nbsp; [Books](https://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)&nbsp; &nbsp; <i class="fa fa-film">&nbsp;</i> [Movies](https://movie.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)&nbsp; <span class="icon-qzone">[Old Articles](http://290841032.qzone.qq.com/)</span></span>
+<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>What I read, saw and wrote.</sup> </span>
+
+<br/> <span class="key_pos">Friends</span> <span class="val_pos"> <i class="fa fa-users">&nbsp;</i> [Jan Fan](http://janfan.github.io/) | [Shiwey Yan](http://shiweyyan.github.io/) | SF Zhou </span>
+<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Web Secure | Game Developer | ACMer</sup> </span>
+
+<br/> <span class="key_pos">Mottos</span> <span class="val_pos"> <i class="fa fa-comment">&nbsp;</i> 宁静致远。 </span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Done is better than perfect.</sup> </span> <br/> <br/>
 
 ---
