@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://icehe.me/note/index.html</loc>
+    <lastmod>2016-05-13T01:55:03.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://icehe.me/bookmarks/</loc>
     <lastmod>2016-05-08T16:00:00.000Z</lastmod>
   </url>
@@ -42,17 +47,12 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/mac_shortcuts/</loc>
+    <loc>http://icehe.me/about/</loc>
     <lastmod>2016-05-07T16:00:00.000Z</lastmod>
   </url>
   
   <url>
     <loc>http://icehe.me/lifelogs/</loc>
-    <lastmod>2016-05-07T16:00:00.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/tools/</loc>
     <lastmod>2016-05-07T16:00:00.000Z</lastmod>
   </url>
   
@@ -67,12 +67,17 @@
   </url>
   
   <url>
+    <loc>http://icehe.me/mac_shortcuts/</loc>
+    <lastmod>2016-05-07T16:00:00.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://icehe.me/resume/</loc>
     <lastmod>2016-05-07T16:00:00.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://icehe.me/about/</loc>
+    <loc>http://icehe.me/tools/</loc>
     <lastmod>2016-05-07T16:00:00.000Z</lastmod>
   </url>
   
@@ -237,11 +242,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%2012/</loc>
-    <lastmod>2016-04-23T12:31:42.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%2011/</loc>
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
   </url>
@@ -372,7 +372,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/note/index.html</loc>
+    <loc>http://icehe.me/linux/%5B01%5D%20%E6%81%A2%E5%A4%8D%20Windows%20%E7%9A%84%20%E5%BC%80%E6%9C%BA%E5%BC%95%E5%AF%BC%20-%20CentOS%207/</loc>
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
   </url>
   
@@ -423,11 +423,6 @@
   
   <url>
     <loc>http://icehe.me/note/2016_spring.html</loc>
-    <lastmod>2016-04-23T12:31:42.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/linux/%5B01%5D%20%E6%81%A2%E5%A4%8D%20Windows%20%E7%9A%84%20%E5%BC%80%E6%9C%BA%E5%BC%95%E5%AF%BC%20-%20CentOS%207/</loc>
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
   </url>
   
@@ -583,6 +578,11 @@
   
   <url>
     <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%2013/</loc>
+    <lastmod>2016-04-23T12:31:42.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/asm/Assembly%20Language%20-%20Note%2012/</loc>
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
   </url>
   

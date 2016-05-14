@@ -275,6 +275,8 @@
 </li>
 </ul>
 <h2 id="Coding_编码">Coding 编码</h2><ul>
+<li><p><a href="http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy" target="_blank" rel="external">编程的智慧</a> —— 编码习惯！</p>
+</li>
 <li><p><a href="http://zh.lucida.me/blog/on-programming-errors-2/" target="_blank" rel="external">关于编程错误的思考</a></p>
 </li>
 <li><p><a href="http://coolshell.cn/articles/1038.html" target="_blank" rel="external">编程命名中的7+1个提示</a></p>
@@ -1289,48 +1291,49 @@ var duoshuoQuery = {short_name:"icehe"};
     );
 
     function addCount(Counter) {
-        url = $('.article-url').attr('href').trim();
-        title = $('.article-title').text().trim();
-        var query = new AV.Query(Counter);
+        if (1 == $('.article-title').length
+                && (-1 != location.href.indexOf("icehe.me"))
+                && (-1 != location.href.indexOf("icehe.me/note/"))
+        ) {
+            url = $('.article-url').attr('href').trim();
+            title = $('.article-title').text().trim();
+            var query = new AV.Query(Counter);
 
-        query.equalTo("url", url); // use url as unique idnetfication
-        query.find({
-            success: function(results) {
-                if (results.length>0) {
-                    var counter = results[0];
-                    counter.fetchWhenSave(true); //get recent result
-                    counter.increment("time");
-                    counter.save();
-                } else {
-                    var newcounter = new Counter();
-                    newcounter.set("title", title);
-                    newcounter.set("url", url);
-                    newcounter.set("time", 1);
-                    newcounter.save(null, {
-                        success: function(newcounter) {
-                            //alert('New object created');
-                        },
-                        error: function(newcounter,error) {
-                            //alert('Failed to create');
-                        }
-                    });
+            query.equalTo("url", url); // use url as unique idnetfication
+            query.find({
+                success: function(results) {
+                    if (results.length>0) {
+                        var counter = results[0];
+                        counter.fetchWhenSave(true); //get recent result
+                        counter.increment("time");
+                        counter.save();
+                    } else {
+                        var newcounter = new Counter();
+                        newcounter.set("title", title);
+                        newcounter.set("url", url);
+                        newcounter.set("time", 1);
+                        newcounter.save(null, {
+                            success: function(newcounter) {
+                                //alert('New object created');
+                            },
+                            error: function(newcounter,error) {
+                                //alert('Failed to create');
+                            }
+                        });
+                    }
+                },
+                error: function(error) { // find null is not a error
+                    // alert('Error:' + error.code + " " + error.message);
                 }
-            },
-            error: function(error) { // find null is not a error
-                // alert('Error:' + error.code + " " + error.message);
-            }
-        });
+            });
+        }
     }
 
     $(function() {
         var Counter = AV.Object.extend("Counter");
         // Only increse visit counting when it's a post
         // and it's not the local site.
-        if (1 == $('.article-title').length
-            && (-1 != location.href.indexOf("icehe.me"))
-        ) {
-            addCount(Counter);
-        }
+        addCount(Counter);
 
         // if popularlist widget exists, add item to it.
         var popular_list = $('.popularlist');

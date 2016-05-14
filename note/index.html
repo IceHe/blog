@@ -26,7 +26,7 @@
 <meta property="og:description" content="Todo
 3 学 English —— Rd, Write, Listen, Speak! Doing
 2 深入 PHP  看饭本领： 看《深入 PHP xxx》 / PHP Cheat Sheet / PHP程序员的技术成长规划 / PHP 程序员解决问题能力的八个级别 / PHP7 革新与性能优化 / PHP 底层的运行机制与原理 / PHP7 的抽象语法树（AST）带来的变化/ 变量在 PH">
-<meta property="og:updated_time" content="2016-04-23T12:31:42.000Z">
+<meta property="og:updated_time" content="2016-05-13T01:55:03.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Note 笔记">
 <meta name="twitter:description" content="Todo
@@ -158,16 +158,16 @@
 <li>1 学 php-fpm 配置<hr></li>
 <li>0 深入 <a href="http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/0014344991049250a2c80ec84cb4861bbd1d9b2c0c2850e000" target="_blank" rel="external">JavaScript</a> / <a href="/note/js_note.html">JS - Note</a></li>
 <li>0 学 Node.js</li>
+<li>0 学 <a href="http://top.jobbole.com/21187/" target="_blank" rel="external">Ruby</a></li>
+<li>0 学 Scheme —— 函数式语言，新思维</li>
+<li>0 学 Emacs —— <a href="http://blog.csdn.net/redguardtoo/article/details/7222501/" target="_blank" rel="external">一年成为Emacs高手(像神一样使用编辑器) </a></li>
+<li>0 学 <a href="/note/refactor.html">Refator</a> —— <a href="/note/编写可读代码的艺术.html">编写可读代码的艺术</a> / <a href="http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy" target="_blank" rel="external">编程的智慧</a></li>
 </ul>
 <p><strong>Maybe</strong></p>
 <ul>
 <li>3 学 Math —— 根基：算法、数据结构、数据分析（学习资料见书签）。</li>
 <li>2 学 Logic —— <a href="https://www.zhihu.com/question/38632401/answer/77853819" target="_blank" rel="external">有什么知识，你知道后你的世界马上就不一样了？</a> —— 学好逻辑很有用！<hr></li>
-<li>0 学 <a href="/note/refactor.html">Refator</a> —— <a href="/note/编写可读代码的艺术.html">编写可读代码的艺术</a> / <a href="http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy" target="_blank" rel="external">编程的智慧</a></li>
 <li>0 FF 本地浏览器代理插件的完善，以便自定义代理规则，<a href="http://mydf.github.io/blog/autoproxy/" target="_blank" rel="external">AutoProxy代理规则简单写法</a>（实践）<hr></li>
-<li>0 学 <a href="http://top.jobbole.com/21187/" target="_blank" rel="external">Ruby</a></li>
-<li>0 学 Scheme —— 函数式语言，新思维</li>
-<li>0 学 Emacs —— <a href="http://blog.csdn.net/redguardtoo/article/details/7222501/" target="_blank" rel="external">一年成为Emacs高手(像神一样使用编辑器) </a></li>
 <li>0 试 WM —— <a href="http://i3wm.org/docs/userguide.html" target="_blank" rel="external">i3wm</a>, awesome wm, Divi, kwm, awesome</li>
 </ul>
 <p><strong>Work</strong></p>
@@ -665,48 +665,49 @@ var duoshuoQuery = {short_name:"icehe"};
     );
 
     function addCount(Counter) {
-        url = $('.article-url').attr('href').trim();
-        title = $('.article-title').text().trim();
-        var query = new AV.Query(Counter);
+        if (1 == $('.article-title').length
+                && (-1 != location.href.indexOf("icehe.me"))
+                && (-1 != location.href.indexOf("icehe.me/note/"))
+        ) {
+            url = $('.article-url').attr('href').trim();
+            title = $('.article-title').text().trim();
+            var query = new AV.Query(Counter);
 
-        query.equalTo("url", url); // use url as unique idnetfication
-        query.find({
-            success: function(results) {
-                if (results.length>0) {
-                    var counter = results[0];
-                    counter.fetchWhenSave(true); //get recent result
-                    counter.increment("time");
-                    counter.save();
-                } else {
-                    var newcounter = new Counter();
-                    newcounter.set("title", title);
-                    newcounter.set("url", url);
-                    newcounter.set("time", 1);
-                    newcounter.save(null, {
-                        success: function(newcounter) {
-                            //alert('New object created');
-                        },
-                        error: function(newcounter,error) {
-                            //alert('Failed to create');
-                        }
-                    });
+            query.equalTo("url", url); // use url as unique idnetfication
+            query.find({
+                success: function(results) {
+                    if (results.length>0) {
+                        var counter = results[0];
+                        counter.fetchWhenSave(true); //get recent result
+                        counter.increment("time");
+                        counter.save();
+                    } else {
+                        var newcounter = new Counter();
+                        newcounter.set("title", title);
+                        newcounter.set("url", url);
+                        newcounter.set("time", 1);
+                        newcounter.save(null, {
+                            success: function(newcounter) {
+                                //alert('New object created');
+                            },
+                            error: function(newcounter,error) {
+                                //alert('Failed to create');
+                            }
+                        });
+                    }
+                },
+                error: function(error) { // find null is not a error
+                    // alert('Error:' + error.code + " " + error.message);
                 }
-            },
-            error: function(error) { // find null is not a error
-                // alert('Error:' + error.code + " " + error.message);
-            }
-        });
+            });
+        }
     }
 
     $(function() {
         var Counter = AV.Object.extend("Counter");
         // Only increse visit counting when it's a post
         // and it's not the local site.
-        if (1 == $('.article-title').length
-            && (-1 != location.href.indexOf("icehe.me"))
-        ) {
-            addCount(Counter);
-        }
+        addCount(Counter);
 
         // if popularlist widget exists, add item to it.
         var popular_list = $('.popularlist');

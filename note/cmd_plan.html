@@ -664,48 +664,49 @@ var duoshuoQuery = {short_name:"icehe"};
     );
 
     function addCount(Counter) {
-        url = $('.article-url').attr('href').trim();
-        title = $('.article-title').text().trim();
-        var query = new AV.Query(Counter);
+        if (1 == $('.article-title').length
+                && (-1 != location.href.indexOf("icehe.me"))
+                && (-1 != location.href.indexOf("icehe.me/note/"))
+        ) {
+            url = $('.article-url').attr('href').trim();
+            title = $('.article-title').text().trim();
+            var query = new AV.Query(Counter);
 
-        query.equalTo("url", url); // use url as unique idnetfication
-        query.find({
-            success: function(results) {
-                if (results.length>0) {
-                    var counter = results[0];
-                    counter.fetchWhenSave(true); //get recent result
-                    counter.increment("time");
-                    counter.save();
-                } else {
-                    var newcounter = new Counter();
-                    newcounter.set("title", title);
-                    newcounter.set("url", url);
-                    newcounter.set("time", 1);
-                    newcounter.save(null, {
-                        success: function(newcounter) {
-                            //alert('New object created');
-                        },
-                        error: function(newcounter,error) {
-                            //alert('Failed to create');
-                        }
-                    });
+            query.equalTo("url", url); // use url as unique idnetfication
+            query.find({
+                success: function(results) {
+                    if (results.length>0) {
+                        var counter = results[0];
+                        counter.fetchWhenSave(true); //get recent result
+                        counter.increment("time");
+                        counter.save();
+                    } else {
+                        var newcounter = new Counter();
+                        newcounter.set("title", title);
+                        newcounter.set("url", url);
+                        newcounter.set("time", 1);
+                        newcounter.save(null, {
+                            success: function(newcounter) {
+                                //alert('New object created');
+                            },
+                            error: function(newcounter,error) {
+                                //alert('Failed to create');
+                            }
+                        });
+                    }
+                },
+                error: function(error) { // find null is not a error
+                    // alert('Error:' + error.code + " " + error.message);
                 }
-            },
-            error: function(error) { // find null is not a error
-                // alert('Error:' + error.code + " " + error.message);
-            }
-        });
+            });
+        }
     }
 
     $(function() {
         var Counter = AV.Object.extend("Counter");
         // Only increse visit counting when it's a post
         // and it's not the local site.
-        if (1 == $('.article-title').length
-            && (-1 != location.href.indexOf("icehe.me"))
-        ) {
-            addCount(Counter);
-        }
+        addCount(Counter);
 
         // if popularlist widget exists, add item to it.
         var popular_list = $('.popularlist');
