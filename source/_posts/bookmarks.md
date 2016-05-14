@@ -146,6 +146,8 @@ Need to screen the content of this section. <sup>_todo_</sup>
 
 ## Coding 编码
 
+- [编程的智慧](http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy) —— 编码习惯！
+
 - [关于编程错误的思考](http://zh.lucida.me/blog/on-programming-errors-2/)
 
 - [编程命名中的7+1个提示](http://coolshell.cn/articles/1038.html)
