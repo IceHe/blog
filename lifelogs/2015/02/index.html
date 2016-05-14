@@ -632,7 +632,7 @@ var duoshuoQuery = {short_name:"icehe"};
     function addCount(Counter) {
         if (1 == $('.article-title').length
                 && (-1 != location.href.indexOf("icehe.me"))
-                && (-1 != location.href.indexOf("icehe.me/note/"))
+                && (-1 == location.href.indexOf("icehe.me/note/"))
         ) {
             url = $('.article-url').attr('href').trim();
             title = $('.article-title').text().trim();
