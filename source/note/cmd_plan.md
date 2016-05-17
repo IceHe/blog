@@ -1,6 +1,8 @@
 title: Cmd Plan
 ---
 
+[bash的用法](https://github.com/ruanyf/articles/blob/master/dev/linux/bash.md)
+
 [SHELL编程之语法基础 – 邹立巍的博客](http://liwei.life/2016/05/16/69/)
 
 [bash命令一览](https://github.com/ruanyf/articles/blob/master/dev/linux/commands.md)

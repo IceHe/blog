@@ -87,7 +87,7 @@ Need to screen the content of this section. <sup>_todo_</sup>
 
 - [Operating Systems](http://www.cheatography.com/makahoshi1/cheat-sheets/operating-systems/) / [CentOS](http://www.cheatography.com/mrinflictor/cheat-sheets/centos/) / [Ububtu server](http://www.cheatography.com/nielzzz/cheat-sheets/ububtu-server/)
 
-- [\*nix users and groups](http://www.cheatography.com/citguy/cheat-sheets/nix-users-and-groups/) / [i3 Window Manager Keyboard Shortcuts](http://www.cheatography.com/davechild/cheat-sheets/i3-window-manager/)
+- [\*nix users and groups](http://www.cheatography.com/citguy/cheat-sheets/nix-users-and-groups/) / [i3 Window Manager Keyboard Shortcuts](http://www.cheatography.com/davechild/cheat-sheets/i4-window-manager/)
 
 - [tmux](http://www.cheatography.com/bechtold/cheat-sheets/tmux-the-terminal-multiplexer/) / [rsync](http://www.cheatography.com/richardjh/cheat-sheets/rsync/) / [cURL](http://www.cheatography.com/ankushagarwal11/cheat-sheets/curl-cheat-sheet/) / [lsof](http://www.cheatography.com/jnbangerter/cheat-sheets/lsof-commands/) / [grep](http://www.cheatography.com/tme520/cheat-sheets/grep/)
 
@@ -165,6 +165,8 @@ Need to screen the content of this section. <sup>_todo_</sup>
 - [Bit Twiddling Hacks](http://graphics.stanford.edu/~seander/bithacks.html) —— 位计算与操作。 <sup>_todo_</sup>
 
 - [The Lost Art of C Structure Packing](http://www.catb.org/esr/structure-packing/) —— 结构体的对齐与压缩。 <sup>_todo_</sup>
+
+- [Text Editors: What are the main differences between Vim and Emacs?](https://www.quora.com/Text-Editors-What-are-the-main-differences-between-Vim-and-Emacs) —— Vim VS Emacs!
 
 - [一年成为Emacs高手(像神一样使用编辑器) ](http://blog.csdn.net/redguardtoo/article/details/7222501/) <sup>_todo_</sup>
 
