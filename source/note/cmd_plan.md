@@ -1,7 +1,27 @@
 title: Cmd Plan
 ---
 
+[SHELL编程之语法基础 – 邹立巍的博客](http://liwei.life/2016/05/16/69/)
+
+[bash命令一览](https://github.com/ruanyf/articles/blob/master/dev/linux/commands.md)
+
+[Debian的用法](https://github.com/ruanyf/articles/blob/master/dev/linux/debian.md)
+
 [cUrl](https://curl.haxx.se/)
+
+[归档和备份](https://github.com/ruanyf/articles/blob/master/dev/bash/archiving.md)
+
+[一些好用的命令](http://popozhu.github.io/2013/06/24/%E4%B8%80%E4%BA%9B%E5%A5%BD%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4/)
+
+[进程处理](https://github.com/ruanyf/articles/blob/master/dev/linux/process.md)
+
+[软件包管理](https://github.com/ruanyf/articles/blob/master/dev/linux/package.md)
+
+[Linux常用操作](https://github.com/ruanyf/articles/blob/master/dev/linux/operations.md)
+
+[文件处理](https://github.com/ruanyf/articles/blob/master/dev/linux/file-processing.md)
+
+[]()
 
 [Make 命令教程](https://github.com/ruanyf/articles/blob/master/2015/2015-02-19-make.md)
 

@@ -21,12 +21,13 @@ date: 2015-03-16
 
 __Maybe__
 
-- 3 学 Math —— 根基：算法、数据结构、数据分析（学习资料见书签）。
+- 3 学 Math —— 根基：[算法](/note/algo_note.html)、数据结构、数据分析（学习资料见书签）。
 - 2 学 Logic —— [有什么知识，你知道后你的世界马上就不一样了？](https://www.zhihu.com/question/38632401/answer/77853819) —— 学好逻辑很有用！
 <hr/>
 - 0 FF 本地浏览器代理插件的完善，以便自定义代理规则，[AutoProxy代理规则简单写法](http://mydf.github.io/blog/autoproxy/)（实践）
 <hr/>
-- 0 试 WM —— [i3wm](http://i3wm.org/docs/userguide.html), awesome wm, Divi, kwm, awesome
+- 0 试 WM —— [i3wm](http://i3wm.org/docs/userguide.html)(据说mac的virtualbox配i3,秒开), awesome wm, Divi, kwm, awesome
+- 0 Other [Algo](/note/algo.html) , [Cpp](/note/cpp.html)
 
 __Work__
 
