@@ -1,6 +1,6 @@
 title: Me 我
 date: 2015-01-20
-updated: 2016-05-08
+updated: 2016-05-17
 show_updated: true
 categories: [whoami]
 tags: [whoami]
@@ -32,10 +32,10 @@ toc: false
 <span class="val_pos"> <i class="fa fa-heart-o">&nbsp;</i> [Favourites](/favourites) </span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Articles, Books, Movies, Games …</sup> </span>
 
-<br/> <span class="key_pos">Done</span> <span class="val_pos icon-douban"> &nbsp; [Books](https://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)&nbsp; &nbsp; <i class="fa fa-film">&nbsp;</i> [Movies](https://movie.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)&nbsp; <span class="icon-qzone">[Old Articles](http://290841032.qzone.qq.com/)</span></span>
+<br/> <span class="key_pos">Done</span> <span class="val_pos icon-douban">&nbsp; [Books](https://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)&nbsp; &nbsp; <i class="fa fa-film">&nbsp;</i> [Movies](https://movie.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count) &nbsp; <span class="icon-qzone"> [Old Articles](http://290841032.qzone.qq.com/)</span></span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>What I read, saw and wrote.</sup> </span>
 
-<br/> <span class="key_pos">Friends</span> <span class="val_pos"> <i class="fa fa-users">&nbsp;</i> [Jan Fan](http://janfan.github.io/) | [Shiwey Yan](http://shiweyyan.github.io/) | SF Zhou </span>
+<br/> <span class="key_pos">Friends</span> <span class="val_pos"> <i class="fa fa-users">&nbsp;</i> [Jan Fan](http://janfan.github.io/) &nbsp;|&nbsp; [Shiwey Yan](http://shiweyyan.github.io/) &nbsp;|&nbsp; SF Zhou </span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Web Secure | Game Developer | ACMer</sup> </span>
 
 <br/> <span class="key_pos">Mottos</span> <span class="val_pos"> <i class="fa fa-comment">&nbsp;</i> 宁静致远。 </span>
