@@ -60,7 +60,7 @@ Vim Note胡波给的帮助我排除vim疑难bug的方法：
 <link href="//libs.cncdn.cn/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- CSS -->
-<link rel="stylesheet" href="/css/style.css" type="text/css">
+<link rel="stylesheet" href="/css/style.css">
 <style type="text/css">
     .center { text-align: center; }
     .hidden { display: none; }
@@ -154,13 +154,13 @@ Vim Note胡波给的帮助我排除vim疑难bug的方法：
     <div id="toc" class="toc-article">
         <strong class="toc-title">Contents</strong>
         
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Vim_Note"><span class="toc-text">Vim Note</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Vim-Note"><span class="toc-text">Vim Note</span></a></li></ol>
         
     </div>
     
     <p><a href="http://www.2cto.com/os/201309/244729.html" target="_blank" rel="external">vim下unix和dos格式转换</a><br><a href="http://www.cnblogs.com/end/archive/2012/06/01/2531147.html" target="_blank" rel="external">Vim取消粘贴的智能缩进</a><br><a href="http://www.cnblogs.com/jaiho/archive/2011/08/24/2056375.html" target="_blank" rel="external">Vim 字符编码转换</a><br><a href="http://yyq123.blogspot.hk/2010/10/vim-registers.html" target="_blank" rel="external">VIM学习笔记 寄存器 (Registers)</a><br><a href="http://andyss.blog.51cto.com/315552/131652" target="_blank" rel="external">vim全局替换命令</a></p>
 <p><a href="http://foocoder.com/blog/wo-zai-yong-de-macruan-jian.html/" target="_blank" rel="external">我在用的mac软件(1)–终端环境之iTerm2</a><br><a href="http://blog.jobbole.com/86571/" target="_blank" rel="external">文本三巨头：zsh、tmux 和 vim</a></p>
-<h1 id="Vim_Note">Vim Note</h1><p>胡波给的帮助我排除vim疑难bug的方法：</p>
+<h1 id="Vim-Note"><a href="#Vim-Note" class="headerlink" title="Vim Note"></a>Vim Note</h1><p>胡波给的帮助我排除vim疑难bug的方法：</p>
 <p>–noplugins -u NONE</p>
 <p>%s/xxx/yyy/g 文件全局替换</p>
 <p>无行号 set nonu<br>设置行号 set nu</p>
@@ -170,7 +170,7 @@ Vim Note胡波给的帮助我排除vim疑难bug的方法：
 <p>vim代码折叠<br>折叠方式：fdm</p>
 <p>Insert等模式下，<br>Ctrl+v Tab<br>才能成功输入\t</p>
 <p>我一一般使用marker方式: set fdm=marker</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#40664;&#35748;&#30340;marker&#26159;&#123;&#123;&#123;&#21644;&#125;&#125;&#125;&#65292;&#21487;&#20197;&#35774;&#32622;&#20026;&#20854;&#20182;&#65306;set foldmarker=//l,//c &#65288;&#24320;&#22987;&#26631;&#31614;//l &#20851;&#38381;&#26631;&#31614;//c&#65289;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">默认的marker是&#123;&#123;&#123;和&#125;&#125;&#125;，可以设置为其他：set foldmarker=//l,//c （开始标签//l 关闭标签//c）</span><br></pre></td></tr></table></figure>
 <p>zc 折叠当前marker<br>zo 展开当前marker<br>zC 在所在范围内，递归折叠所有<br>zO 在所在范围内，递归展开所有x<br>zr 將全文的所有折疊依層次通通打開。reduce。<br>zm 將全文已打開的折疊依層次通通再折疊起來。more。</p>
 <p>zR 作用和 zr 同，但會打開含巢狀折疊（折疊中又還有折疊）的所有折疊。<br>zM 作用和 zm 同，但對於巢狀折疊亦有作用。<br>zi 這是個切換，是折疊與不折疊指令間的切換。</p>
 <p>zd 删除折叠<br>zD 删除所有折叠</p>

@@ -43,7 +43,7 @@
 <link href="//libs.cncdn.cn/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- CSS -->
-<link rel="stylesheet" href="/css/style.css" type="text/css">
+<link rel="stylesheet" href="/css/style.css">
 <style type="text/css">
     .center { text-align: center; }
     .hidden { display: none; }
@@ -137,7 +137,7 @@
     <div id="toc" class="toc-article">
         <strong class="toc-title">Contents</strong>
         
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Principles_原则"><span class="toc-text">Principles 原则</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Time_Granularity_时间粒度"><span class="toc-text">Time Granularity 时间粒度</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Transaction_Category_事务类别"><span class="toc-text">Transaction Category 事务类别</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#六类事务"><span class="toc-text">六类事务</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Log_Example_日志实例"><span class="toc-text">Log Example 日志实例</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Schedule_Plan_日程规划"><span class="toc-text">Schedule Plan 日程规划</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Automation_自动化"><span class="toc-text">Automation 自动化</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#About_Time_Mgt-"><span class="toc-text">About Time Mgt.</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Principles-原则"><span class="toc-text">Principles 原则</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Time-Granularity-时间粒度"><span class="toc-text">Time Granularity 时间粒度</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Transaction-Category-事务类别"><span class="toc-text">Transaction Category 事务类别</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#六类事务"><span class="toc-text">六类事务</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Log-Example-日志实例"><span class="toc-text">Log Example 日志实例</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Schedule-Plan-日程规划"><span class="toc-text">Schedule Plan 日程规划</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Automation-自动化"><span class="toc-text">Automation 自动化</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#About-Time-Mgt"><span class="toc-text">About Time Mgt.</span></a></li></ol>
         
     </div>
     
@@ -146,11 +146,11 @@
 <li>旧版：《 <a href="/old_version_posts/time_mgt_log_format.html">Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考</a> 》</li>
 <li>补充： 时间管理日志格式一直根据实际使用进行调整，可能与本文描述不一致。</li>
 </ul>
-<h1 id="Principles_原则">Principles 原则</h1><ol>
+<h1 id="Principles-原则"><a href="#Principles-原则" class="headerlink" title="Principles 原则"></a>Principles 原则</h1><ol>
 <li><strong>简便</strong>：记录方式简便，只统计要用的信息，避免成为负担</li>
 <li><strong>有序</strong>：格式统一，便于数据的整理、分析</li>
 </ol>
-<h1 id="Time_Granularity_时间粒度">Time Granularity 时间粒度</h1><p><strong>时间粒度</strong>，即每个时段有多长。<br>类似于一节课有多长时间，据此规划、统计自己的时间。<br>对我而言，1、10或15min的时间粒度太小了，而 <strong>30min</strong> 就刚好，因为：</p>
+<h1 id="Time-Granularity-时间粒度"><a href="#Time-Granularity-时间粒度" class="headerlink" title="Time Granularity 时间粒度"></a>Time Granularity 时间粒度</h1><p><strong>时间粒度</strong>，即每个时段有多长。<br>类似于一节课有多长时间，据此规划、统计自己的时间。<br>对我而言，1、10或15min的时间粒度太小了，而 <strong>30min</strong> 就刚好，因为：</p>
 <ol>
 <li><p><strong>便于规划、统计</strong><br><u><strong>30min == 0.5hour</strong></u> 该时间粒度，就可以以每小时的整点、半点为界，等分一日的时间。</p>
 </li>
@@ -162,8 +162,8 @@
 </li>
 </ol>
 <p>因为，生活节奏越慢，切换去做不同（类）任务的频率越低，<br>可以用更大的时间粒度来规划、统计时间，<br>当然时间使用情况的统计结果的精度会降低。</p>
-<h1 id="Transaction_Category_事务类别">Transaction Category 事务类别</h1><p>事务的分类见仁见智。<br>有些时间管理软件或方法，给出的分类过多过细，<br>如公交、走动、购物、娱乐、上网、看电影、喝酒等，使用不便。</p>
-<h2 id="六类事务">六类事务</h2><p>我根据个人实际实践，将生活中的事务分为六类：</p>
+<h1 id="Transaction-Category-事务类别"><a href="#Transaction-Category-事务类别" class="headerlink" title="Transaction Category 事务类别"></a>Transaction Category 事务类别</h1><p>事务的分类见仁见智。<br>有些时间管理软件或方法，给出的分类过多过细，<br>如公交、走动、购物、娱乐、上网、看电影、喝酒等，使用不便。</p>
+<h2 id="六类事务"><a href="#六类事务" class="headerlink" title="六类事务"></a>六类事务</h2><p>我根据个人实际实践，将生活中的事务分为六类：</p>
 <table>
 <thead>
 <tr>
@@ -213,99 +213,99 @@
 </tbody>
 </table>
 <p><br>有些事可以同属以上多个事务类别，<br>只能再靠个人判断将其再归类。<br><em>可以简单将其归类于编号较小的类别。</em></p>
-<h1 id="Log_Example_日志实例">Log Example 日志实例</h1><p>Log 时间使用情况统计日志以 《 <a href="/lifelogs/2015/10/d20.html">15/10/20 stu52 spo12 was3</a> 》 为例简要解释。<br>仅解释（截止至本日志更新之日）最新的日志格式，不赘述旧格式。</p>
+<h1 id="Log-Example-日志实例"><a href="#Log-Example-日志实例" class="headerlink" title="Log Example 日志实例"></a>Log Example 日志实例</h1><p>Log 时间使用情况统计日志以 《 <a href="/lifelogs/2015/10/d20.html">15/10/20 stu52 spo12 was3</a> 》 为例简要解释。<br>仅解释（截止至本日志更新之日）最新的日志格式，不赘述旧格式。</p>
 <p>日志仅记录<span id="valid_time"><strong>有效生活时间</strong></span>，即</p>
-<pre><code>每日从早晨醒来到夜晚入睡的时间。 即<span class="number">24</span>小时减去睡眠时间。
+<pre><code>每日从早晨醒来到夜晚入睡的时间。 即24小时减去睡眠时间。
 </code></pre><p>凌晨00:00后才睡觉的时候，00:00后到入睡前的部分时间本属于第二天，<br>但是只要还没睡，该部分时间就统计到前一天的日志里去。</p>
 <ol>
 <li><p><strong>日志标题</strong></p>
-<pre><code><span class="number">15</span>/<span class="number">10</span>/<span class="number">20</span> stu52 spo12 was3
+<pre><code>15/10/20 stu52 spo12 was3
 </code></pre><p> <strong>格式</strong>：</p>
-<pre><code>yy/mm/dd type1 \<span class="keyword">d</span>\<span class="keyword">d</span> type2 \<span class="keyword">d</span>\<span class="keyword">d</span> …
+<pre><code>yy/mm/dd type1 \d\d type2 \d\d …
 年/月/日 事务类别1 百分比 事务类别2 百分比
 </code></pre><p> <strong>(a)</strong> 事务类别：<a href="#Transaction_Category_事务类别">事务的类别</a>的英文简写。<br> <strong>(b)</strong> 百分比：某类事务所用的时长占全天<a href="#valid_time">有效生活时间</a>的百分比，此处仅精确到个位。<br><br></p>
 </li>
 <li><p><strong>主要任务列表</strong></p>
 <pre><code># Pri Tasks
-<span class="string">[y]</span> Demand Development
-<span class="string">[ ]</span> Evernote Scripts &amp; Shell
+[y] Demand Development
+[ ] Evernote Scripts &amp; Shell
 </code></pre><p> <strong>格式</strong>：</p>
-<pre><code><span class="string">[Y/N]</span> task desc
-<span class="string">[完成与否]</span> 任务的简要描述
+<pre><code>[Y/N] task desc
+[完成与否] 任务的简要描述
 </code></pre><p> 行首的复选框代表任务的完成情况，框内 打勾/留空 表示该任务 已完成/未完成。</p>
 <p> 一天很短，人的精力、体力有限，最好一段时间内只专注做一事提高效率，<br> 尽可能快速进入状态，避免多任务切换，所以<strong>任务量</strong>最好限定在<strong>1~2个</strong>，最多不超过3个。<br><br></p>
 </li>
 <li><p><strong>记录简表</strong></p>
-<pre><code><span class="preprocessor"># Time Table</span>
-<span class="number">07</span>-<span class="number">10</span> 〇必，学学，读废，学学，
-<span class="number">11</span>-<span class="number">14</span> 学学，动动，乐乐，学学，
-<span class="number">15</span>-<span class="number">18</span> 学学，学学，学学，乐乐，
-<span class="number">19</span>-<span class="number">22</span> 学学，必动，动必，读读，
-<span class="number">23</span>-<span class="number">02</span> 学必。
+<pre><code># Time Table
+07-10 〇必，学学，读废，学学，
+11-14 学学，动动，乐乐，学学，
+15-18 学学，学学，学学，乐乐，
+19-22 学学，必动，动必，读读，
+23-02 学必。
 </code></pre><p> 简要记录全天<a href="#valid_time">有效生活时间</a>内所做事务的时段、<a href="#Transaction_Category_事务类别">类别</a>。<br> <br><strong>格式</strong>：</p>
-<pre><code><span class="number">07</span>-<span class="number">10</span>
+<pre><code>07-10
 </code></pre><p> <strong>(a)</strong> 表示 7:00,8:00,9:00,10:00 等4个时间点，<br> 实指 08:00 ~ 11:00 这4个小时。<br> <br></p>
 <pre><code>〇必，学学，读废，学学，
 </code></pre><p> <strong>(b)</strong> 以上的中文字，如 “必”、“乐”，指所处时间段内所处理事务的<a href="#Transaction_Category_事务类别">类别</a>。<br> 中文逗号 “，” 分隔两个时长 1h 的时间段。<br> 中文字符“〇”为占位符，指在该时间段记录者还没醒。<br><br></p>
 </li>
 <li><p><strong>记录细表</strong></p>
-<pre><code><span class="preprocessor"># Time Detail</span>
+<pre><code># Time Detail
 to_time|type|desc|duration
-<span class="number">0730</span>起
-<span class="number">0800</span>必 内务 阅读 <span class="number">.5</span>
-<span class="number">0900</span>学 交通 英语 读书 <span class="number">1</span>
+0730起
+0800必 内务 阅读 .5
+0900学 交通 英语 读书 1
 
 ...(略）
 
-<span class="number">2200</span>必 休息 晚餐 内务 <span class="number">.5</span>
-<span class="number">2300</span>读 内务 听书 洗澡 思考 <span class="number">1</span>
-<span class="number">2330</span>学 写脚本 <span class="number">.5</span>
-<span class="number">0000</span>必 内务 <span class="number">.5</span>
-<span class="number">0000</span>睡
+2200必 休息 晚餐 内务 .5
+2300读 内务 听书 洗澡 思考 1
+2330学 写脚本 .5
+0000必 内务 .5
+0000睡
 </code></pre><p> 详细记录全天<a href="#valid_time">有效生活时间</a>内所做事务的时段、<a href="#Transaction_Category_事务类别">类别</a>、简要描述、时长。<br> <br><strong>格式</strong>：</p>
-<pre><code><span class="number">2200</span>
+<pre><code>2200
 </code></pre><p> <strong>(a)</strong> 每行行首处的4个数字，如“2200”，代表22:00（24小时制的时间），<br> 实指该行文字描述的事务结束时间。<br> 根据时间粒度的规则，它们都是整点（\d\d00）或半点（\d\d30）。<br> <br></p>
-<pre><code><span class="number">2200</span>必 休息 晚餐 内务 <span class="number">.5</span>
-<span class="number">2300</span>读 内务 听书 洗澡 思考 <span class="number">1</span>
+<pre><code>2200必 休息 晚餐 内务 .5
+2300读 内务 听书 洗澡 思考 1
 </code></pre><p> <strong>(b)</strong> 除整个记录细表的第一行与最后一行代表醒来和睡去时间点外，<br> 每行代表一个<strong>时间段</strong>，<br> 具体时间段从前一行起始处的4个数字代表的时间点开始，<br> 到当前行行首处的4个数字代表的时间点结束。<br> 上例的第二行代表的具体时段为：20:00~23:00。</p>
 <p> <strong>(c)</strong> 每行行首的4个数字后的第一个中文字，如“读”，<br> 代表该时段所处理事务的<a href="#Transaction_Category_事务类别"><strong>类别</strong></a>；<br> 接着用空格分隔的一个或多个文字串，除了最后一个数字字串，<br> 都是对该时段所处理事务的简要描述。</p>
 <p> <strong>(d)</strong> 每行结尾处的数字串，代表该时段的<strong>时间长度</strong>，单位是小时<br> 如“.5”（0.5的简写）、“1”，实指0.5小时、1小时。<br><br></p>
 </li>
 <li><p><strong>纪律表</strong></p>
-<pre><code># <span class="tag">Discipline</span>
-<span class="attr_selector">[y]</span>早起 (<span class="number">0830</span>前)
-<span class="attr_selector">[y]</span>早餐
+<pre><code># Discipline
+[y]早起 (0830前)
+[y]早餐
 
-<span class="attr_selector">[y]</span>英语
-<span class="attr_selector">[y]</span>运动
-<span class="attr_selector">[ ]</span>反省
+[y]英语
+[y]运动
+[ ]反省
 
 ...（略）
 </code></pre><p> <strong>格式</strong>：</p>
-<pre><code><span class="string">[Y/N]</span> discipline_desc
-<span class="string">[遵守与否]</span> 纪律的简要描述
+<pre><code>[Y/N] discipline_desc
+[遵守与否] 纪律的简要描述
 </code></pre><p> 日常纪律在当日的遵守情况，以及其简要描述。<br><br></p>
 </li>
 <li><p><strong>日统计表</strong></p>
-<pre><code><span class="preprocessor"># Time Stat</span>
+<pre><code># Time Stat
 类，时，%
-学<span class="number">8.5</span>，<span class="number">51.5</span>
-动<span class="number">2</span>，<span class="number">12.1</span>
-读<span class="number">1.5</span>，<span class="number">9.1</span>
-乐<span class="number">2</span>，<span class="number">12.1</span>
-必<span class="number">2</span>，<span class="number">12.1</span>
-废<span class="number">0.5</span>，<span class="number">3</span>
-总<span class="number">16.5</span>
+学8.5，51.5
+动2，12.1
+读1.5，9.1
+乐2，12.1
+必2，12.1
+废0.5，3
+总16.5
 </code></pre><p> 各类事务的中文简写、当日各类事务的所用时长，及其占全天有效生活时间的百分比；<br> 最末行的“总16.5”，表示全天<a href="#valid_time">有效生活时间</a>的长度为16.5小时。<br><br></p>
 </li>
 <li><p><strong>随笔记录</strong></p>
-<pre><code><span class="preprocessor"># Diary</span>
-<span class="number">0910</span>
+<pre><code># Diary
+0910
 唉，我好蠢啊！
 怎么办？
 ...（略）
 
-<span class="number">2344</span>
+2344
 今天很开心...
 </code></pre><p> 该部分位于日志的“统计表”后面，首行的4个数字“2344”表示该条记录撰写于当日23:44。<br> 第二行起，开始编写你想记录的内容，如日记、备忘、总结等任何内容。</p>
 <p> <em>本博客的LifeLogs经过编辑，缺省了源日志的该部分内容。</em><br><br></p>
@@ -313,35 +313,35 @@ to_time|type|desc|duration
 <li><p><strong>周 / 月 统计表</strong><br> 周和月的时间使用情况统计日志以《<a href="/lifelogs/2015/10/time_stat.html">2015/10 stu40 spo9 was4</a>》为例。</p>
 <p> 统计属于当月的几个周 以及整月的时间使用情况：<br> <strong>(a)</strong> 一周从周一开始<br> <strong>(b)</strong> 月初和月末的这两周的各天并一定全是属于当月的日子，即某周的各日横跨了两个月：<br>  &nbsp; &nbsp; <strong>I.</strong> 该周有1~3天属于当月，则该周的时间统计归到上或下一个月的“周/月统计表”中<br>  &nbsp; &nbsp; <strong>II.</strong> 该周有4~6天属于当月，则属于该周的时间统计归到当月的“周/月统计表”中<br> <strong>(c)</strong> 月统计的时间范围从当月1日至当月最后一日，它不会像周统计那样可能会跨月进行统计！</p>
 <p>  <strong>类似于</strong> 上述 <strong>6.（每日）统计表</strong> 的格式。</p>
-<pre><code>（前 <span class="number">4</span> 周略）……
+<pre><code>（前 4 周略）……
 
-Week <span class="number">5</span>
-<span class="number">15</span>/<span class="number">10</span>/<span class="number">26</span> ~ <span class="number">15</span>/<span class="number">11</span>/<span class="number">01</span>
+Week 5
+15/10/26 ~ 15/11/01
 类，时，%
-学<span class="number">55.5</span>，<span class="number">46.8</span>
-动<span class="number">10.0</span>，<span class="number">8.4</span>
-读<span class="number">16.0</span>，<span class="number">13.5</span>
-乐<span class="number">10.5</span>，<span class="number">8.9</span>
-必<span class="number">19.5</span>，<span class="number">16.5</span>
-废<span class="number">7.0</span>，<span class="number">5.9</span>
-总<span class="number">118.5</span>
+学55.5，46.8
+动10.0，8.4
+读16.0，13.5
+乐10.5，8.9
+必19.5，16.5
+废7.0，5.9
+总118.5
 
 Monthly
-<span class="number">2015</span>/<span class="number">10</span>
+2015/10
 类，时，%
-学<span class="number">206.0</span>，<span class="number">39.9</span>
-动<span class="number">47.0</span>，<span class="number">9.1</span>
-读<span class="number">73.5</span>，<span class="number">14.2</span>
-乐<span class="number">85.0</span>，<span class="number">16.5</span>
-必<span class="number">83.5</span>，<span class="number">16.2</span>
-废<span class="number">21.5</span>，<span class="number">4.2</span>
-总<span class="number">516.5</span>
+学206.0，39.9
+动47.0，9.1
+读73.5，14.2
+乐85.0，16.5
+必83.5，16.2
+废21.5，4.2
+总516.5
 </code></pre></li>
 </ol>
-<h1 id="Schedule_Plan_日程规划">Schedule Plan 日程规划</h1><p>曾经使用过不少时间管理工具和方法，在实际使用中发现这些东西仅供参考，常常不适用于特定的个人。</p>
+<h1 id="Schedule-Plan-日程规划"><a href="#Schedule-Plan-日程规划" class="headerlink" title="Schedule Plan 日程规划"></a>Schedule Plan 日程规划</h1><p>曾经使用过不少时间管理工具和方法，在实际使用中发现这些东西仅供参考，常常不适用于特定的个人。</p>
 <p>例如，太详细的日程规划，对一般人来说不太现实，是谓：计划常常赶不上变化。<br>我一开始也不信邪，非要详细规划；可是在实践中，原计划只有三成左右能够如愿执行，效果不理想。<br>大概是因为日程定得过于详细，死板不够灵活，个人自控力又不足，不懂取舍和坚持，轻易打乱原计划…<br>于是提前规划日程成了心理安慰的行为 —— 规划时就产生了已经将日程完满执行的幻觉。</p>
 <p>所以，我还是循序渐进，慢慢提高自控力。</p>
-<h1 id="Automation_自动化">Automation 自动化</h1><p>这些时间管理日志的源内容，都存在我的Evernote的笔记里面。</p>
+<h1 id="Automation-自动化"><a href="#Automation-自动化" class="headerlink" title="Automation 自动化"></a>Automation 自动化</h1><p>这些时间管理日志的源内容，都存在我的Evernote的笔记里面。</p>
 <p>上文中，除了记录细表、主要任务列表<br>其它的部分如周/月统计表、记录简表、日统计表的生成以及日志标题的修改，<br>都是通过Python和AppleScript编写的脚本完成的。</p>
 <p>这些脚本读取Evernote中的有关日志内容，根据其中的记录细表得出统计结果；<br>再根据结果补充Evernote源日志的内容。</p>
 <p>当然还有其它脚本将这些内容推送到本博客中。<br></p>
@@ -356,7 +356,7 @@ Monthly
 <ul>
 <li><a href="https://github.com/IceHe/my_scripts_on_win" target="_blank" rel="external">操作时间管理日志用的PHP、Batch脚本</a> <em>（已弃用）</em></li>
 </ul>
-<h1 id="About_Time_Mgt-">About Time Mgt.</h1><p>“我们工作是为了生活，而不是为了工作而活着。”<br>“时间管理的目的，其实还是为了更好的享受生活。”</p>
+<h1 id="About-Time-Mgt"><a href="#About-Time-Mgt" class="headerlink" title="About Time Mgt."></a>About Time Mgt.</h1><p>“我们工作是为了生活，而不是为了工作而活着。”<br>“时间管理的目的，其实还是为了更好的享受生活。”</p>
 
 </div>
 

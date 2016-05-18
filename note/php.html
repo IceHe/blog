@@ -51,7 +51,7 @@ method_exists($object, $function_name)判断某对象是否存在某方法调用
 <link href="//libs.cncdn.cn/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- CSS -->
-<link rel="stylesheet" href="/css/style.css" type="text/css">
+<link rel="stylesheet" href="/css/style.css">
 <style type="text/css">
     .center { text-align: center; }
     .hidden { display: none; }
@@ -145,20 +145,20 @@ method_exists($object, $function_name)判断某对象是否存在某方法调用
     <div id="toc" class="toc-article">
         <strong class="toc-title">Contents</strong>
         
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#PHP_判断某函数是否存在"><span class="toc-text">PHP 判断某函数是否存在</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#PHP_对象的属性使用非常规命名时的访问方法"><span class="toc-text">PHP 对象的属性使用非常规命名时的访问方法</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Where_is_php-ini?"><span class="toc-text">Where is php.ini?</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#PHP_Comm_Func"><span class="toc-text">PHP Comm Func</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Install_PHPUnit_-_OS_X"><span class="toc-text">Install PHPUnit - OS X</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#PHP_Encoding_Convert_of_File_&_Str_文件、字符串编码转换"><span class="toc-text">PHP Encoding Convert of File & Str 文件、字符串编码转换</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#PHP_Why_无法调用一个存在的库函数"><span class="toc-text">PHP Why 无法调用一个存在的库函数</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Concepts"><span class="toc-text">Concepts</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#单例模式_误为_单利模式"><span class="toc-text">单例模式 误为 单利模式</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#PHP-判断某函数是否存在"><span class="toc-text">PHP 判断某函数是否存在</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#PHP-对象的属性使用非常规命名时的访问方法"><span class="toc-text">PHP 对象的属性使用非常规命名时的访问方法</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Where-is-php-ini"><span class="toc-text">Where is php.ini?</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#PHP-Comm-Func"><span class="toc-text">PHP Comm Func</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Install-PHPUnit-OS-X"><span class="toc-text">Install PHPUnit - OS X</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#PHP-Encoding-Convert-of-File-amp-Str-文件、字符串编码转换"><span class="toc-text">PHP Encoding Convert of File & Str 文件、字符串编码转换</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#PHP-Why-无法调用一个存在的库函数"><span class="toc-text">PHP Why 无法调用一个存在的库函数</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Concepts"><span class="toc-text">Concepts</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#单例模式-误为-单利模式"><span class="toc-text">单例模式 误为 单利模式</span></a></li></ol>
         
     </div>
     
     <p><a href="blog.caesarchi.com/2012/03/mac-pecl-php-extension.html">Mac 安裝 pecl ，安裝 php extension</a><br><a href="http://www.cnblogs.com/bugY/archive/2012/07/06/2578972.html" target="_blank" rel="external">Install PHP pear (要用pecl只要装pear)</a><br><a href=""></a><br><a href=""></a></p>
-<h1 id="PHP_判断某函数是否存在">PHP 判断某函数是否存在</h1><p>function_exists($function_name)<br>判断一个全局函数是否存在<br>调用方法：$function_name($param)</p>
+<h1 id="PHP-判断某函数是否存在"><a href="#PHP-判断某函数是否存在" class="headerlink" title="PHP 判断某函数是否存在"></a>PHP 判断某函数是否存在</h1><p>function_exists($function_name)<br>判断一个全局函数是否存在<br>调用方法：$function_name($param)</p>
 <p>method_exists($object, $function_name)<br>判断某对象是否存在某方法<br>调用方法：$object-&gt;$function_name($param)</p>
 <p>（例）<br>$funcName = ‘test_func’;<br>method_exists($this, $funcName);<br>$this-&gt;$funcName($param);</p>
-<h1 id="PHP_对象的属性使用非常规命名时的访问方法">PHP 对象的属性使用非常规命名时的访问方法</h1><p>object(SimpleXMLElement)[10]<br>  public ‘source-url’ =&gt; string ‘file://C:\wamp\www\t_html_out.html’ (length=34)<br>  public ‘file-name’ =&gt; string ‘t_html_out.html’ (length=15)<br>  public ‘attachment’ =&gt; string ‘true’ (length=4)</p>
+<h1 id="PHP-对象的属性使用非常规命名时的访问方法"><a href="#PHP-对象的属性使用非常规命名时的访问方法" class="headerlink" title="PHP 对象的属性使用非常规命名时的访问方法"></a>PHP 对象的属性使用非常规命名时的访问方法</h1><p>object(SimpleXMLElement)[10]<br>  public ‘source-url’ =&gt; string ‘file://C:\wamp\www\t_html_out.html’ (length=34)<br>  public ‘file-name’ =&gt; string ‘t_html_out.html’ (length=15)<br>  public ‘attachment’ =&gt; string ‘true’ (length=4)</p>
 <p>如上文中PHP对象的属性名 source-url、file-name，<br>它们使用了非常规的命名，如属性名中带有减号 - 。</p>
 <p>导致无法直接使用 $obj-&gt;source-url 的写法来访问！</p>
 <p>此时，使用特殊的语法：$obj-&gt;{“source-url”} 来访问。</p>
-<h1 id="Where_is_php-ini?">Where is php.ini?</h1><p>MacOS，brew 安装的php的 php.ini 文件在：<br>/usr/local/etc/php/版本号/php.ini</p>
-<h1 id="PHP_Comm_Func">PHP Comm Func</h1><p>mock     a. 仿制的，模拟的</p>
+<h1 id="Where-is-php-ini"><a href="#Where-is-php-ini" class="headerlink" title="Where is php.ini?"></a>Where is php.ini?</h1><p>MacOS，brew 安装的php的 php.ini 文件在：<br>/usr/local/etc/php/版本号/php.ini</p>
+<h1 id="PHP-Comm-Func"><a href="#PHP-Comm-Func" class="headerlink" title="PHP Comm Func"></a>PHP Comm Func</h1><p>mock     a. 仿制的，模拟的</p>
 <p>str_replace(src, dest, string)<br>urldecode(string)</p>
 <p>trim(string, … )<br>Strip whitespace(or other characters) from the beginning and end of string<br>trim     修剪</p>
 <p>strip_tags(string, … )<br>Strip HTML and PHP tag from a string<br>strip     剥去</p>
@@ -170,7 +170,7 @@ method_exists($object, $function_name)判断某对象是否存在某方法调用
 <p>array_diff(array)</p>
 <p>array_merge(array)<br>If the input arrays have the same string keys, then the later value for that key will overwrite the previous one. If, however, the arrays contain numeric keys, the later value will not overwrite the original value, but will be appended.</p>
 <p>implode(string)<br>explode(string)</p>
-<h1 id="Install_PHPUnit_-_OS_X">Install PHPUnit - OS X</h1><p>操作系统版本：Mac OS 10.10.4 (14E46)</p>
+<h1 id="Install-PHPUnit-OS-X"><a href="#Install-PHPUnit-OS-X" class="headerlink" title="Install PHPUnit - OS X"></a>Install PHPUnit - OS X</h1><p>操作系统版本：Mac OS 10.10.4 (14E46)</p>
 <p><a href="http://gitlab.weibo.cn/mobile-api/mobile-api-v5-application/wikis/unit-test-instruction" target="_blank" rel="external">http://gitlab.weibo.cn/mobile-api/mobile-api-v5-application/wikis/unit-test-instruction</a><br>unit test instruction:<br>PHPUnit生成代码覆盖率需要xdebug插件。所以需要安装该插件。</p>
 <p><a href="http://xdebug.org/docs/install" target="_blank" rel="external">http://xdebug.org/docs/install</a><br>XDEBUG EXTENSION FOR PHP | DOCUMENTATION:<br>PECL Installation</p>
 <p><a href="http://blog.caesarchi.com/2012/03/mac-pecl-php-extension.html" target="_blank" rel="external">http://blog.caesarchi.com/2012/03/mac-pecl-php-extension.html</a><br>Mac 安裝 pecl ，安裝 php extension:<br>wget <a href="http://pear.php.net/go-pear.phar" target="_blank" rel="external">http://pear.php.net/go-pear.phar</a><br>php -d detect_unicode=0 go-pear.phar</p>
@@ -189,17 +189,17 @@ method_exists($object, $function_name)判断某对象是否存在某方法调用
 <p>执行安装<br>chmod a+x composer.phar<br>php composer.phar install –dev<br>装完……命令行没有识别出phpunit命令，什么鬼！<br>感觉实际上没有装好！我快崩溃了……什么过时教程。</p>
 <p>遭遇以上情况，使用brew进行安装<br>$ brew install phpunit<br>Error: No available formula for phpunit<br>Searching formulae…<br>Searching taps…<br>homebrew/php/phpunit-skeleton-generator             homebrew/php/phpunit</p>
 <p>这时发现，以上输出的提示 homebrew/php/phpunit，于是使用指令<br>brew install homebrew/php/phpunit</p>
-<h1 id="PHP_Encoding_Convert_of_File_&amp;_Str_文件、字符串编码转换">PHP Encoding Convert of File &amp; Str 文件、字符串编码转换</h1><p><a href="http://www.veryhuo.com/a/view/41348.html" target="_blank" rel="external">http://www.veryhuo.com/a/view/41348.html</a></p>
+<h1 id="PHP-Encoding-Convert-of-File-amp-Str-文件、字符串编码转换"><a href="#PHP-Encoding-Convert-of-File-amp-Str-文件、字符串编码转换" class="headerlink" title="PHP Encoding Convert of File &amp; Str 文件、字符串编码转换"></a>PHP Encoding Convert of File &amp; Str 文件、字符串编码转换</h1><p><a href="http://www.veryhuo.com/a/view/41348.html" target="_blank" rel="external">http://www.veryhuo.com/a/view/41348.html</a></p>
 <p>处理字符串时，需要字符编码转换，<br>碰到iconv转换失败的诡异问题。</p>
 <p>因为iconv有bug ，碰到一些生僻字就会无法转换，<br>当然了配置第二个参数时，可以稍微弥补一下默认缺陷，<br>不至于无法转换是截断，用法如下：</p>
 <p>iconv(“UTF-8″,”GB2312//IGNORE”,$data);<br>//IGNORE的意思是，碰到无法转换的字符，<br>//忽略失败，继续转换下面的内容。</p>
 <p>可以用另一个转换函数（mb_convert_encoding），<br>此函数效率不高，另外可省略第三参数，<br>自动识别内容编码，最好别用，影响效率，<br>还需注意，mb_convert_encoding和iconv参数顺序不同。</p>
 <p>mb_convert_encoding ( string $str , string $to_encoding [, mixed $from_encoding = mb_internal_encoding() ] )<br><a href="http://php.net/manual/zh/function.mb-convert-encoding.php" target="_blank" rel="external">http://php.net/manual/zh/function.mb-convert-encoding.php</a></p>
-<h1 id="PHP_Why_无法调用一个存在的库函数">PHP Why 无法调用一个存在的库函数</h1><p>当PHP的错误报告出现下文：<br>PHP Fatal error:  Call to undefined function mb_convert_encoding() in C:\Users\IceHe\script\y.php on line 4</p>
+<h1 id="PHP-Why-无法调用一个存在的库函数"><a href="#PHP-Why-无法调用一个存在的库函数" class="headerlink" title="PHP Why 无法调用一个存在的库函数"></a>PHP Why 无法调用一个存在的库函数</h1><p>当PHP的错误报告出现下文：<br>PHP Fatal error:  Call to undefined function mb_convert_encoding() in C:\Users\IceHe\script\y.php on line 4</p>
 <p>解决方法：<br>例如上文中找不到的函数是 mb_convert_encoding。<br>我搞清楚了它所在的dll（动态链接库）名为php_mbstring.dll，<br>此文件在php安装目录（C:\php）下的文件夹ext中。</p>
 <p>1.在php安装路径的根目录下，<br>     找到php.ini文件，如：c:/php/php.ini。<br>2.找到Dynamic Extensions的段落，在其中<br>     反注释 或 添加 以下这一句：<br>     extension=./ext/php_mbstring.dll<br>（即extension= path/php_mbstring.dll，路径加文件名）<br>3.命令行下，输入php /? 看看有没有载入成功。<br>     可能会显示：<br>Warning: PHP Startup: Unable to load dynamic library ‘C:\php\php_mbstring.dll’ -<br>The specified module could not be found.<br>in Unknown on line 0<br>Could not open input file: /?</p>
 <p>4.重启apache等webserver<br>     即可使用原来找不到的函数~<br>     CLI（命令行/脚本）模式下则不需要。</p>
-<h1 id="Concepts">Concepts</h1><p>SPL<br>Standard PHP Library</p>
+<h1 id="Concepts"><a href="#Concepts" class="headerlink" title="Concepts"></a>Concepts</h1><p>SPL<br>Standard PHP Library</p>
 <p>PHPUnit是PHP应用的单元测试框架的业界标准</p>
 <p>PHP通过内置的FastCGI进程管理器(FPM)，可以非常高效地和轻量级的高性能Web服务器nginx进行通信。<br>nginx比Apache消耗更少的内存，能更好的处理并发请求，这在内存限制较多的虚拟主机环境中尤为重要。</p>
 <p>Redis<br>是一个开源、支持网络、基于内存，的高性能Key-Value存储系统（cache and store）。使用ANSI C编写。<br>通常被称为数据结构服务器，因为值（value）可以是 字符串(String), 哈希(Map), 列表(list), 集合(sets) 和 有序集合(sorted sets)等类型。</p>
@@ -229,7 +229,7 @@ method_exists($object, $function_name)判断某对象是否存在某方法调用
 <p>简单数组的新声明方式！<br>&lt;?php<br>$array = array(<br>    “foo” =&gt; “bar”,<br>    “bar” =&gt; “foo”,<br>);</p>
 <p>// 自 PHP 5.4 起<br>$array = [<br>    “foo” =&gt; “bar”,<br>    “bar” =&gt; “foo”,<br>];<br>?&gt;</p>
 <p>From: www.laruence.com/manual/yaf.classes.html#yaf.class.application.props._app<br>_app<br>    Yaf_Application通过特殊的方式实现了单利模式, 此属性保存当前实例</p>
-<h1 id="单例模式_误为_单利模式">单例模式 误为 单利模式</h1>
+<h1 id="单例模式-误为-单利模式"><a href="#单例模式-误为-单利模式" class="headerlink" title="单例模式 误为 单利模式"></a>单例模式 误为 单利模式</h1>
 </div>
 
 <footer class="article-footer clearfix">

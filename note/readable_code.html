@@ -81,7 +81,7 @@ create、set up、b">
 <link href="//libs.cncdn.cn/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- CSS -->
-<link rel="stylesheet" href="/css/style.css" type="text/css">
+<link rel="stylesheet" href="/css/style.css">
 <style type="text/css">
     .center { text-align: center; }
     .hidden { display: none; }
@@ -175,34 +175,34 @@ create、set up、b">
     <div id="toc" class="toc-article">
         <strong class="toc-title">Contents</strong>
         
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Chapter_1"><span class="toc-text">Chapter 1</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#准确的单词表达"><span class="toc-text">准确的单词表达</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#用具体的名字代替抽象的名字"><span class="toc-text">用具体的名字代替抽象的名字</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#让计量单位明确"><span class="toc-text">让计量单位明确</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第一章小结"><span class="toc-text">第一章小结</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Chapter_2"><span class="toc-text">Chapter 2</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#布尔变量"><span class="toc-text">布尔变量</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第二章小结"><span class="toc-text">第二章小结</span></a></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Chapter-1"><span class="toc-text">Chapter 1</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#准确的单词表达"><span class="toc-text">准确的单词表达</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#用具体的名字代替抽象的名字"><span class="toc-text">用具体的名字代替抽象的名字</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#让计量单位明确"><span class="toc-text">让计量单位明确</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第一章小结"><span class="toc-text">第一章小结</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Chapter-2"><span class="toc-text">Chapter 2</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#布尔变量"><span class="toc-text">布尔变量</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第二章小结"><span class="toc-text">第二章小结</span></a></li></ol></li></ol>
         
     </div>
     
-    <h1 id="Chapter_1"><strong>Chapter 1</strong></h1><h2 id="准确的单词表达">准确的单词表达</h2><pre><code>下面是一些例子，这些单词更有表现力，可能适合你的语境：
+    <h1 id="Chapter-1"><a href="#Chapter-1" class="headerlink" title="Chapter 1"></a><strong>Chapter 1</strong></h1><h2 id="准确的单词表达"><a href="#准确的单词表达" class="headerlink" title="准确的单词表达"></a>准确的单词表达</h2><pre><code>下面是一些例子，这些单词更有表现力，可能适合你的语境：
 
-单词 / 更多选择 <span class="built_in">send</span> /
-deliver、<span class="built_in">dispatch</span>、announce、distribute、route
+单词 / 更多选择 send /
+deliver、dispatch、announce、distribute、route
 
 find /
 search、extract、locate、recover
 
-<span class="built_in">start</span> /
-launch、<span class="built_in">create</span>、begin、<span class="built_in">open</span>
+start /
+launch、create、begin、open
 
 make /
-<span class="built_in">create</span>、<span class="built_in">set</span> up、build、generate、compose、<span class="built_in">add</span>、<span class="built_in">new</span>
-</code></pre><h2 id="用具体的名字代替抽象的名字">用具体的名字代替抽象的名字</h2><pre><code>在这种情况下，使用更精确的名字可能会有帮助。
+create、set up、build、generate、compose、add、new
+</code></pre><h2 id="用具体的名字代替抽象的名字"><a href="#用具体的名字代替抽象的名字" class="headerlink" title="用具体的名字代替抽象的名字"></a>用具体的名字代替抽象的名字</h2><pre><code>在这种情况下，使用更精确的名字可能会有帮助。
 如果不把循环索引命名为（i、j、k），
 另一个选择可以是（club_i、members_i、user_i）
 或者，更简化一点（ci、mi、ui）。
 
 这种方式会帮助把代码中的缺陷变得更明显：
-`<span class="keyword">if</span> (clubs[ci]<span class="class">.members</span>[ui] == users[mi])`
+`if (clubs[ci].members[ui] == users[mi])`
 缺陷！第一个字母不匹配。
 
 如果用得正确，索引的第一个字母应该与数据的第一个字符匹配：
-`<span class="keyword">if</span> (clubs[ci]<span class="class">.members</span>[mi] == users[ui])`
+`if (clubs[ci].members[mi] == users[ui])`
 OK。首字母匹配。
 
 `DISALLOW_EVIL_CONSTRUCTORS` 这个名字并不是很好。
@@ -210,20 +210,20 @@ OK。首字母匹配。
 更重要的是，这个宏到底禁止了什么这一点是不清楚的。
 它禁止了`operator=()`方法，但这个方法甚至根本就不是构造函数！
 这个名字使用了几年，但最终换成了一个不那么嚣张而且更具体的名字：
-`<span class="hexcolor">#def</span>ine <span class="function"><span class="title">DISALLOW_COPY_AND_ASSIGN</span><span class="params">(ClassName)</span></span> ...`
-</code></pre><h2 id="让计量单位明确">让计量单位明确</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">var start = (<span class="keyword">new</span> Date()).getTime(); <span class="comment">// top of the page</span></span><br><span class="line">...</span><br><span class="line">var elapsed = (<span class="keyword">new</span> Date()).getTime() - start; <span class="comment">// bottom of the page</span></span><br><span class="line">document.writeln(<span class="string">"Load time was: "</span> + elapsed + <span class="string">" seconds"</span>);</span><br></pre></td></tr></table></figure>
+`#define DISALLOW_COPY_AND_ASSIGN(ClassName) ...`
+</code></pre><h2 id="让计量单位明确"><a href="#让计量单位明确" class="headerlink" title="让计量单位明确"></a>让计量单位明确</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">var start = (<span class="keyword">new</span> Date()).getTime(); <span class="comment">// top of the page</span></span><br><span class="line">...</span><br><span class="line">var elapsed = (<span class="keyword">new</span> Date()).getTime() - start; <span class="comment">// bottom of the page</span></span><br><span class="line">document.writeln(<span class="string">"Load time was: "</span> + elapsed + <span class="string">" seconds"</span>);</span><br></pre></td></tr></table></figure>
 <pre><code>这段代码里没有明显的错误，但它不能正常运行，
-因为<span class="function"><span class="title">getTime</span><span class="params">()</span></span>会返回毫秒而非秒。
+因为getTime()会返回毫秒而非秒。
 通过给变量结尾追加_ms，我们可以让所有的地方更明确：
 </code></pre><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">var start_ms = (<span class="keyword">new</span> Date()).getTime(); <span class="comment">// top of the page</span></span><br><span class="line">...</span><br><span class="line">var elapsed_ms = (<span class="keyword">new</span> Date()).getTime() - start_ms; <span class="comment">// bottom of the page</span></span><br><span class="line">document.writeln(<span class="string">"Load time w</span></span><br></pre></td></tr></table></figure>
 <pre><code>函数参数 / 带单位的参数
-<span class="function"><span class="title">Start</span><span class="params">(int delay)</span></span>
+Start(int delay)
 delay → delay_secs
-<span class="function"><span class="title">CreateCache</span><span class="params">(int size)</span></span>
+CreateCache(int size)
 size → size_mb
-<span class="function"><span class="title">ThrottleDownload</span><span class="params">(float limit)</span></span>
+ThrottleDownload(float limit)
 limit → max_kbps
-<span class="function"><span class="title">Rotate</span><span class="params">(float angle)</span></span>
+Rotate(float angle)
 angle → degrees_cw
 
 让代码隐含的前提显而易见
@@ -236,8 +236,8 @@ plaintext_password
 一条用户提供的注释，需要转义之后才能用于显示
 comment
 unescaped_comment
-已转化为UTF-<span class="number">8</span>格式的html字节
-<span class="tag">html</span>
+已转化为UTF-8格式的html字节
+html
 html_utf8
 以“url方式编码”的输入数据
 data
@@ -248,11 +248,11 @@ data_urlenc
 同样，“作用域”小的标识符（对于多少行其他代码可见）也不用带上太多信息。
 也就是说，因为所有的信息（变量的类型、它的初值、如何析构等）都很容易看到，所以可以用很短的名字。
 </code></pre><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (debug) &#123;</span><br><span class="line"> <span class="built_in">map</span>&lt;<span class="built_in">string</span>,<span class="keyword">int</span>&gt; m;</span><br><span class="line"> LookUpNamesNumbers(&amp;m);</span><br><span class="line"> Print(m);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<pre><code>尽管<span class="keyword">m</span>这个名字并没有包含很多信息，但这不是个问题。因为读者已经有了需要理解这段代码的所有信息。
+<pre><code>尽管m这个名字并没有包含很多信息，但这不是个问题。因为读者已经有了需要理解这段代码的所有信息。
 
 变量名太长，通过现代编辑器的自动补全功能，
 即可简单解决，让起长名没有了借口。
-</code></pre><h2 id="第一章小结">第一章小结</h2><ul>
+</code></pre><h2 id="第一章小结"><a href="#第一章小结" class="headerlink" title="第一章小结"></a>第一章小结</h2><ul>
 <li>使用专业的单词——例如，不用Get，而用Fetch或者Download可能会更好，这由上下文决定。</li>
 <li>避免空泛的名字，像tmp和retval，除非使用它们有特殊的理由。</li>
 <li>使用具体的名字来更细致地描述事物——Server Can Start()这个名字就比CanListenOnPort更不清楚。</li>
@@ -260,38 +260,38 @@ data_urlenc
 <li>为作用域大的名字采用更长的名字——不要用让人费解的一个或两个字母的名字来命名在几屏之间都可见的变量。对于只存在于几行之间的变量用短一点的名字更好。</li>
 <li>有目的地使用大小写、下划线等——例如，你可以在类成员和局部变量后面加上”_”来区分它们。</li>
 </ul>
-<h1 id="Chapter_2"><strong>Chapter 2</strong></h1><ul>
+<h1 id="Chapter-2"><a href="#Chapter-2" class="headerlink" title="Chapter 2"></a><strong>Chapter 2</strong></h1><ul>
 <li>关键思想：要多问自己几遍：“这个名字会被别人解读成其他的含义吗？”要仔细审视这个名字。</li>
 <li>推荐用min和max来表示（包含）极限<br>  建议：命名极限最清楚的方式是在要限制的东西前加上max<em>或者min</em>。</li>
 <li>推荐用first和last来表示包含的范围</li>
 <li>推荐用begin和end来表示包含/排除范围</li>
 </ul>
-<h2 id="布尔变量">布尔变量</h2><pre><code>下面是个危险的例子：
-<span class="built_in">bool</span> read_password = <span class="literal">true</span>;
+<h2 id="布尔变量"><a href="#布尔变量" class="headerlink" title="布尔变量"></a>布尔变量</h2><pre><code>下面是个危险的例子：
+bool read_password = true;
 这会有两种截然不同的解释：
 我们需要读取密码。
 已经读取了密码。
 在本例中，最好避免用“read”这个词，用need_password或者user_is_authenticated这样的名字来代替。
 通常来讲，加上像is、has、can或should这样的词，可以把布尔值变得更明确。
 最好避免使用反义名字。例如，不要用：
-`<span class="built_in">bool</span> disable_ssl = <span class="literal">false</span>;`
+`bool disable_ssl = false;`
 而更简单易读（而且更紧凑）的表示方式是：
-`<span class="built_in">bool</span> use_ssl = <span class="literal">true</span>;`
+`bool use_ssl = true;`
 
-getMean<span class="literal">()</span>的实现是要遍历所有经过的数据并同时计算中值。如果有大量的数据的话，这样的一步可能会有很大的代价！但一个容易轻信的程序员可能会随意地调用getMean<span class="literal">()</span>，还以为这是个没什么代价的调用。
-相反，这个方法应当重命名为像computeMean<span class="literal">()</span>这样的名字，后者听起来更像是有些代价的操作。（另一种做法是，用新的实现方法使它真的成为一个轻量级的操作。）
+getMean()的实现是要遍历所有经过的数据并同时计算中值。如果有大量的数据的话，这样的一步可能会有很大的代价！但一个容易轻信的程序员可能会随意地调用getMean()，还以为这是个没什么代价的调用。
+相反，这个方法应当重命名为像computeMean()这样的名字，后者听起来更像是有些代价的操作。（另一种做法是，用新的实现方法使它真的成为一个轻量级的操作。）
 
-下面是一个来自<span class="type">C</span>++标准库中的例子。曾经有个很难发现的缺陷，使得我们的一台服务器慢得像蜗牛在爬，就是下面的代码造成的：
+下面是一个来自C++标准库中的例子。曾经有个很难发现的缺陷，使得我们的一台服务器慢得像蜗牛在爬，就是下面的代码造成的：
 </code></pre><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">ShrinkList</span><span class="params">(<span class="built_in">list</span>&lt;Node&gt;&amp; <span class="built_in">list</span>, <span class="keyword">int</span> max_size)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">while</span> (<span class="built_in">list</span>.size() &gt; max_size) &#123;</span><br><span class="line">        FreeNode(<span class="built_in">list</span>.back());</span><br><span class="line">        <span class="built_in">list</span>.pop_back();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<pre><code>这里的“缺陷”是，作者不知道list.<span class="function"><span class="title">size</span><span class="params">()</span></span>是一个<span class="function"><span class="title">O</span><span class="params">(n)</span></span>操作——它要一个节点一个节点地历数列表，而不是只返回一个事先算好的个数，这就使得<span class="function"><span class="title">ShrinkList</span><span class="params">()</span></span>成了一个<span class="function"><span class="title">O</span><span class="params">(n2)</span></span>操作。
+<pre><code>这里的“缺陷”是，作者不知道list.size()是一个O(n)操作——它要一个节点一个节点地历数列表，而不是只返回一个事先算好的个数，这就使得ShrinkList()成了一个O(n2)操作。
 
-假使<span class="function"><span class="title">size</span><span class="params">()</span></span>的名字是<span class="function"><span class="title">countSize</span><span class="params">()</span></span>或者<span class="function"><span class="title">countElements</span><span class="params">()</span></span>，很可能就会避免相同的错误。C++标准库的作者可能是希望把它命名为<span class="function"><span class="title">size</span><span class="params">()</span></span>以和所有其他的容器一致，就像vector和map。但是正因为他们的这个选择使得程序员很容易误把它当成一个快速的操作，就像其他的容器一样。
+假使size()的名字是countSize()或者countElements()，很可能就会避免相同的错误。C++标准库的作者可能是希望把它命名为size()以和所有其他的容器一致，就像vector和map。但是正因为他们的这个选择使得程序员很容易误把它当成一个快速的操作，就像其他的容器一样。
 
 将代码按照逻辑分块排序，使其清晰
 
 代码风格的一致性，比其风格正确性重要得多！
 宁可遵守，不要随便打破。
-</code></pre><h2 id="第二章小结">第二章小结</h2><ul>
+</code></pre><h2 id="第二章小结"><a href="#第二章小结" class="headerlink" title="第二章小结"></a>第二章小结</h2><ul>
 <li><p>如果多个代码块做相似的事情，尝试让它们有同样的剪影。（让相似、同类的代码，看起来也相似！很有先见性的指导。例如将所有变量拥有相同的缩进之类的事，是有价值的。）</p>
 </li>
 <li><p>把代码按“列”对齐可以让代码更容易浏览。</p>
