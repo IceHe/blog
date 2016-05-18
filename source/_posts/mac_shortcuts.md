@@ -1,6 +1,6 @@
 title: My Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2016-05-08
+updated: 2016-05-17
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -178,6 +178,7 @@ Some are modified by App [Karabiner](#Karabiner).
     __`⌘ ⇧ G` Prev Match__
 
     `⌥ ←` Prev Word
+    `⌥ ←` Prev Word
     `⌥ →` Next Word
 
     `⌘ a` Select All
@@ -283,8 +284,8 @@ __`⌘ ⇧ 2` Translate Selection__
 
 - Edit
 
-    __`⌘ ⇧ H` Insert Horizontal Rule__
-    __`⌘ ⇧ T` Insert To-Do__
+    `⌘ ⇧ H` Insert Horizontal Rule
+    `⌘ ⇧ T` Insert To-Do
     _`⌘ ⇧ D` Insert Date_
     _`⌘ ⇧ ⌥ D` Insert Time_
     _`⌘ ⇧ L` Insert Table_
@@ -324,11 +325,11 @@ __`⌘ ⇧ 2` Translate Selection__
 
     - After <code>^ \`</code> or <code>^ ⇧ \`</code> , then input:
 
-    __`a` All Main Text__
-    __`c` Main Text without Advertisement__
-    __`f` Full Web Page__
-    __`b` Clip as a Bookmark__
-    __`m` Capture__
+    __`⇧ A` All Main Text__
+    __`⇧ C` Main Text without Advertisement__
+    __`⇧ F` Full Web Page__
+    `⇧ B` Clip as a Bookmark
+    __`⇧ M` Capture__
     `↑` Extend Selection
     `↓` Shrink Selection
     `↩` Save
@@ -387,10 +388,10 @@ __`⌘ ⇧ 2` Translate Selection__
 
 - Development
 
-    __`⌘ ⌥ i` Inspect Elements__
-    `⌘ ⌥ c` Elements
-    `⌘ ⌥ k` Console
-    `⌘ ⌥ q` Network
+    `⌘ ⌥ i` Inspect Elements
+    __`⌘ ⌥ c` Elements__
+    __`⌘ ⌥ k` Console__
+    __`⌘ ⌥ q` Network__
 
     __`⌘ ⌥ m` Responsive Design Page View  ( for Mobile )__
     __`⌘ ⌥ s` JavaScript Debug__
@@ -441,17 +442,17 @@ _Most Keys are Same as Vim , Just List my Custom Keys._
 
 -  Squirrel (Rime Input)
 
-    __`^ t` [ Simple | Traditional  ] Chinese Characters__
-    __`^ .` [ Chinese | English  ] Punctuations__
-    __`^ ⇧ 1` | `^ ⇧ !`  [ Half | Full  ] Shape Punctuations__
+    __`^ ⇧ 1` | `^ ⇧ !`  [ Half | Full ] Shape Punctuations__
+    __`^ ⇧ 2` | `^ ⇧ @` [ Simple | Traditional ] Chinese Characters__
+    __`^ ⇧ 3` | `^ ⇧ #` [ Chinese | English ] Punctuations__
 
     - Emacs Mode
 
-    __`⌃ f` Left__
-    __`⌃ b` Right__
-    __`⌃ a` Home__
-    __`⌃ e` End__
-    __`⌃ h` Backspace__
+    `⌃ f` Left
+    `⌃ b` Right
+    `⌃ a` Home
+    `⌃ e` End
+    `⌃ h` Backspace
     __`⌃ d` Delete__
 
     __`⌃ u` | `⌃ [` Escape__
@@ -459,8 +460,8 @@ _Most Keys are Same as Vim , Just List my Custom Keys._
 
 - Baidu Input
 
-    __`^ t` [ Simple | Traditional  ] Chinese Characters__
-    __`^ .` [ Chinese | English  ] Punctuation Marks__
+    `^ t` [ Simple | Traditional  ] Chinese Characters
+    `^ .` [ Chinese | English  ] Punctuation Marks
 
 # iTerm3
 
@@ -472,7 +473,7 @@ Not Only shortcuts, but also Change Layout of Keyboard!
 
 - Setting
 
-    `Fn [ 1 | 2 ]` Switch Karabiner Setting Profile
+    `Fn [ 1 | 2 | 3]` Switch Karabiner Setting Profile
 
 - Quit
 
@@ -488,17 +489,21 @@ Not Only shortcuts, but also Change Layout of Keyboard!
     `Num` = `!@#$%^&*()`
     `⇧ Num` = `1234567890`
 
-    `凵 qwertyuiop[]` = `!@#$%^&*()-+`
+    `凵 q` = `⎋` Esc
+    `凵 wert` = `←↑↓→`
+    `凵 y` = `~`
+
+    `凵 123456790-=` = `F1`, `F2`, …, `F12`
     `凵 asdfghjkl;` = `123456890`
     `凵 zxcvb` = `^ ⌥ zxcvb`
-    `凵 m,./` = `~_=\`
+    `凵 nm` = `=_`
 
 - Mv
 
-    `Fn h`, `Fn s` = `←`
-    `Fn j`, `Fn f` = `↓`
-    `Fn k`, `Fn d` = `↑`
-    `Fn l`, `Fn g` = `→`
+    `Fn h` = `←`
+    `Fn j` = `↓`
+    `Fn k` = `↑`
+    `Fn l` = `→`
 
     `⌥ b` = `⌥ ←` Mv to Prev Word
     `⌥ f` = `⌥ →` Mv to Next Word
@@ -519,12 +524,9 @@ Not Only shortcuts, but also Change Layout of Keyboard!
     __`⌘ ⇧ N` Get All New Mail__
 
     __`⌘ r` Reply__
-    __`⌘ ⇧ R` Reply All__
-    __`⌘ ⇧ D` Send__
 
 - Mark
 
-    __`⌘ ⇧ J` Set as Junk__
     __`⌘ ⇧ U` Set as UnRead__
     __`⌘ ⇧ L` Red Flag__
     __`⌘ ⌥ f` Mailbox Search__
@@ -566,11 +568,11 @@ Not Only shortcuts, but also Change Layout of Keyboard!
     `^ ⌥ s` [PhpStorm](#PhpStorm)
     `^ ⌥ d` Dictionary
     `^ ⌥ f` [Finder](#Finder)
-    __`^ ⌥ g` Preview__
+    `^ ⌥ g` Preview
 
     `^ ⌥ x` [Mail](#Mail)
     `^ ⌥ c` [Charles](#Charles)
-    __`^ ⌥ b` Sublime Text__
+    `^ ⌥ b` Sublime Text
 
 - Rg Hand
 
@@ -612,23 +614,23 @@ Not Only shortcuts, but also Change Layout of Keyboard!
 
 - Debug
 
-    __`⌥ ^ d` Debug__
-    __`^ ⇧ B` Toggle BreakPoint__
-    __`⌥ ⇧ R` Rerun__
+    `⌥ ^ d` Debug
+    `^ ⇧ B` Toggle BreakPoint
+    `⌥ ⇧ R` Rerun
 
-    __`⌥ ⇧ I` Step Into__
-    __`⌥ ⇧ O` Step Out__
+    `⌥ ⇧ I` Step Into
+    `⌥ ⇧ O` Step Out
 
     __`⌥ ⇧ J` Step Over ( Next Line )__
     __`⌥ ⇧ N` Resume ( Next BreakPoint )__
 
 - File
 
-    __`⌘ e` Recent Files__
+    `⌘ e` Recent Files
     __`⌘ ⇧ E` Recently Edited Files__
 
     __`⌘ ⌥ ⇧ C` Copy Reference ( of cur line in cur file )__
-    __`⌘ ⇧ C` Copy Path__
+    `⌘ ⇧ C` Copy Path
     __`⌘ ⇧ V` Copy from History__
 
 - Find
@@ -722,7 +724,7 @@ Need to Modify `System Preferences → Keyboards → Modifier Key` to exchange `
     `Pf \` Split Window Horizontally
     `Pf -` Split Window Vertically
 
-    __`Pf 凵` Another Layout__
+    `Pf 凵` Another Layout
     `Pf ^ o` Rotate Window
 
     __`Pf {` Swap Pane Up__
@@ -819,22 +821,22 @@ Only List the Useful Keys that I’m unfamiliar with.
     `x` Del Char Forward ⌦
     __`⇧ X` Del Char Backward ⌫__
 
-    __`s` Del Char Forward & then Insert__
+    `s` Del Char Forward & then Insert
     __`⇧ S` Del Current Line & then Insert__
     __`⇧ C` Del to End of Line & then Insert__
-    __`⇧ D` Del to End of Line__
+    `⇧ D` Del to End of Line
 
 - Selcet Range
 
     __`ciw` Del Word__
     __`caw` Del Word including the Following Spaces 凵__
 
-    __`ci*` Select & Manipulate the string surrounded by `*`.__
-    __`ca*` Select & Manipulate the string surrounded by `*` including `*`.__
+    `ci*` Select & Manipulate the string surrounded by `*`.
+    `ca*` Select & Manipulate the string surrounded by `*` including `*`.
 
 - Cp
 
-    __`⇧ Y` Copy Line without Line Break '\n' | '\r'__
+    `⇧ Y` Copy Line without Line Break '\n' | '\r'
 
 - Exchange
 
@@ -871,10 +873,7 @@ Only List the Useful Keys that I’m unfamiliar with.
     __`⇧ {` Prev Paragraph__
     __`⇧ }` Next Paragraph__
 
-    __`[[` Head of Prev Function {__
-    __`]]` Head of Next Function }__
-
-    `;` Repeat the Last Manipulation from "F / f / T / t"
+    __`"` Switch to some Register__
     __`"` Switch to some Register__
     __`-` Head of Prev Line__
     __`⇧ +` Head of Next Line__
