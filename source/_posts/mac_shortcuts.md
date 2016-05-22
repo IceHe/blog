@@ -1,6 +1,6 @@
 title: My Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2016-05-17
+updated: 2016-05-22
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -159,7 +159,7 @@ Some are modified by App [Karabiner](#Karabiner).
 
 - Accessory
 
-    `^ 凵` Spotlight
+    `⌥ 凵` Spotlight
     __`⌘ ⇧ 3` Capture Desktop__
     __`⌘ ^ d` Look Up in Dictionary__
     __`⌘ ⌥ /` Show Help Menu__
@@ -524,7 +524,6 @@ Not Only shortcuts, but also Change Layout of Keyboard!
     __`⌘ ⇧ N` Get All New Mail__
 
     __`⌘ r` Reply__
-
 - Mark
 
     __`⌘ ⇧ U` Set as UnRead__
@@ -611,6 +610,10 @@ Not Only shortcuts, but also Change Layout of Keyboard!
     __`凵` Fit to Desktop__
 
 # PhpStorm
+
+- Input
+
+    `^ 凵` Auto Complete
 
 - Debug
 
@@ -873,6 +876,7 @@ Only List the Useful Keys that I’m unfamiliar with.
     __`⇧ {` Prev Paragraph__
     __`⇧ }` Next Paragraph__
 
+    __`"` Switch to some Register__
     __`"` Switch to some Register__
     __`"` Switch to some Register__
     __`-` Head of Prev Line__
