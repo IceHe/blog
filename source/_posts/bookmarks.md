@@ -1,6 +1,6 @@
 title: My Bookmarks 书签
 date: 2015-12-20
-updated: 2016-05-17
+updated: 2016-05-22
 show_updated: true
 categories: [read]
 tags: [read]
@@ -13,7 +13,7 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 
 ## OL Tools 在线工具
 
-- [Cheat-Sheets.org](http://www.cheat-sheets.org/) / [Our Favourite Cheat Sheets](http://whatis.techtarget.com/reference/Our-Favorite-Cheat-Sheets#operating) —— 知识速查清单。
+- [OverAPI](http://overapi.com/) / [Cheat-Sheets.org](http://www.cheat-sheets.org/) / [Our Favourite Cheat Sheets](http://whatis.techtarget.com/reference/Our-Favorite-Cheat-Sheets#operating) —— 知识速查清单。
 
 - [Regular Expr Test](http://regex101.com/) —— [正则表达式测试](http://tool.oschina.net/regex)。
 
@@ -122,6 +122,8 @@ Need to screen the content of this section. <sup>_todo_</sup>
 
 - [Python3 Docs](https://docs.python.org/3/) —— from&nbsp; [Python.org](https://www.python.org/) <sup>_todo_</sup>
 
+- [Awesome Python](https://python.libhunt.com/) —— List of frameworks, packages, software and resources
+
 - [Mac Developer Library](https://developer.apple.com/library/mac/navigation/) —— including&nbsp; [AppleScript Language Guide](https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html)
 
 ## Algorithm 算法
@@ -145,6 +147,8 @@ Need to screen the content of this section. <sup>_todo_</sup>
 - [LeetCode](https://leetcode.com/),&nbsp; [UVa](https://uva.onlinejudge.org/),&nbsp; [PKU](http://poj.org/),&nbsp; [HDU](http://acm.hdu.edu.cn/) —— Online Judge <sup>_todo_</sup>
 
 ## Coding 编码
+
+- [Swagger](http://swagger.io/) —— The World's Most Popular Framework for APIs.
 
 - [编程的智慧](http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy) —— 编码习惯！
 
@@ -179,6 +183,8 @@ Need to screen the content of this section. <sup>_todo_</sup>
 - [编译器的工作过程](https://github.com/ruanyf/articles/blob/master/2014/2014-11-08-compiler.md) —— `./configure`, `make`, `make install`
 
 ## Read 阅读
+
+- [GitBook](https://www.gitbook.com/explore) <sup>_todo_</sup>
 
 - [编程入门指南 v1.4](http://zhuanlan.zhihu.com/xiao-jing-mo/19959253) <sup>_todo_</sup>
 
