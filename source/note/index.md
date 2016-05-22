@@ -16,7 +16,7 @@ date: 2015-03-16
 - 0 学 Node.js
 - 0 学 [Ruby](http://top.jobbole.com/21187/)
 - 0 学 Scheme —— 函数式语言，新思维
-- 0 学 Emacs —— [一年成为Emacs高手(像神一样使用编辑器) ](http://blog.csdn.net/redguardtoo/article/details/7222501/)
+- 0 学 Emacs —— [一年成为Emacs高手(像神一样使用编辑器) ](http://blog.csdn.net/redguardtoo/article/details/7222501/)  / [Vim and Emacs](http://evalapply.io/posts/2016-05-02-vim-and-emacs/)
 - 0 学 [Refator](/note/refactor.html) —— [编写可读代码的艺术](/note/编写可读代码的艺术.html) / [编程的智慧](http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy)
 
 __Maybe__
@@ -26,7 +26,7 @@ __Maybe__
 <hr/>
 - 0 FF 本地浏览器代理插件的完善，以便自定义代理规则，[AutoProxy代理规则简单写法](http://mydf.github.io/blog/autoproxy/)（实践）
 <hr/>
-- 0 试 WM —— [i3wm](http://i3wm.org/docs/userguide.html)(据说mac的virtualbox配i3,秒开), awesome wm, Divi, kwm, awesome
+- 0 试 WM —— [i3wm](http://i3wm.org/docs/userguide.html), [<i3 - improved tiling wm>](http://i3wm.org/) (据说mac的virtualbox配i3,秒开), [awesome wm](https://awesomewm.org/), Divi, [kwm](https://github.com/koekeishiya/kwm), awesome
 - 0 Other [Algo](/note/algo.html) , [Cpp](/note/cpp.html)
 
 __Work__
