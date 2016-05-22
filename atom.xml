@@ -736,7 +736,7 @@
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
-    <updated>2016-05-16T16:00:00.000Z</updated>
+    <updated>2016-05-21T16:00:00.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;Ref: 《 &lt;a href=&quot;https://support.apple.com/zh-cn/HT201236&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mac 键盘快捷键&lt;/a&gt; 》&lt;/li&gt;
@@ -803,7 +803,7 @@
 &lt;p&gt;  &lt;strong&gt;&lt;code&gt;⌘ [&lt;/code&gt; Backward&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌘ ]&lt;/code&gt; Forward&lt;/strong&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Accessory&lt;/p&gt;
-&lt;p&gt;  &lt;code&gt;^ 凵&lt;/code&gt; Spotlight&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌘ ⇧ 3&lt;/code&gt; Capture Desktop&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌘ ^ d&lt;/code&gt; Look Up in Dictionary&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌘ ⌥ /&lt;/code&gt; Show Help Menu&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;⌥ 凵&lt;/code&gt; Spotlight&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌘ ⇧ 3&lt;/code&gt; Capture Desktop&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌘ ^ d&lt;/code&gt; Look Up in Dictionary&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌘ ⌥ /&lt;/code&gt; Show Help Menu&lt;/strong&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;File or others&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;⌘ n&lt;/code&gt; New&lt;br&gt;  &lt;code&gt;⌘ o&lt;/code&gt; Open&lt;br&gt;  &lt;code&gt;⌘ s&lt;/code&gt; Save&lt;br&gt;  &lt;code&gt;⌘ p&lt;/code&gt; Print&lt;/p&gt;
@@ -1005,6 +1005,9 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;PhpStorm&quot;&gt;&lt;a href=&quot;#PhpStorm&quot; class=&quot;headerlink&quot; title=&quot;PhpStorm&quot;&gt;&lt;/a&gt;PhpStorm&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Input&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;^ 凵&lt;/code&gt; Auto Complete&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Debug&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;⌥ ^ d&lt;/code&gt; Debug&lt;br&gt;  &lt;code&gt;^ ⇧ B&lt;/code&gt; Toggle BreakPoint&lt;br&gt;  &lt;code&gt;⌥ ⇧ R&lt;/code&gt; Rerun&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;⌥ ⇧ I&lt;/code&gt; Step Into&lt;br&gt;  &lt;code&gt;⌥ ⇧ O&lt;/code&gt; Step Out&lt;/p&gt;
@@ -1138,7 +1141,7 @@
 &lt;p&gt;  &lt;strong&gt;&lt;code&gt;ge&lt;/code&gt; Goto Last Char of Prev Word&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;m&lt;/code&gt; Set Mark&lt;br&gt;  &lt;strong&gt;&lt;code&gt;&amp;#39;&lt;/code&gt; Jump to Mark&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;`&lt;/code&gt; Jump to Mark&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;  &lt;strong&gt;&lt;code&gt;⇧ {&lt;/code&gt; Prev Paragraph&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⇧ }&lt;/code&gt; Next Paragraph&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;  &lt;strong&gt;&lt;code&gt;&amp;quot;&lt;/code&gt; Switch to some Register&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;&amp;quot;&lt;/code&gt; Switch to some Register&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;-&lt;/code&gt; Head of Prev Line&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⇧ +&lt;/code&gt; Head of Next Line&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  &lt;strong&gt;&lt;code&gt;&amp;quot;&lt;/code&gt; Switch to some Register&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;&amp;quot;&lt;/code&gt; Switch to some Register&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;&amp;quot;&lt;/code&gt; Switch to some Register&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;-&lt;/code&gt; Head of Prev Line&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⇧ +&lt;/code&gt; Head of Next Line&lt;/strong&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Save &amp;amp; Quit&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;⇧ ZZ&lt;/code&gt; Save &amp;amp; Quit&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⇧ ZQ&lt;/code&gt; Quit without Saving&lt;/strong&gt;&lt;/p&gt;
@@ -1306,13 +1309,13 @@
     <link href="http://icehe.me/bookmarks/"/>
     <id>http://icehe.me/bookmarks/</id>
     <published>2015-12-19T16:00:00.000Z</published>
-    <updated>2016-05-16T16:00:00.000Z</updated>
+    <updated>2016-05-21T16:00:00.000Z</updated>
     
     <content type="html">&lt;h1 id=&quot;IT-信息技术&quot;&gt;&lt;a href=&quot;#IT-信息技术&quot; class=&quot;headerlink&quot; title=&quot;IT 信息技术&quot;&gt;&lt;/a&gt;IT 信息技术&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/wizardforcel/w3school&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;W3School 教程整理&lt;/a&gt; &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;OL-Tools-在线工具&quot;&gt;&lt;a href=&quot;#OL-Tools-在线工具&quot; class=&quot;headerlink&quot; title=&quot;OL Tools 在线工具&quot;&gt;&lt;/a&gt;OL Tools 在线工具&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.cheat-sheets.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Cheat-Sheets.org&lt;/a&gt; / &lt;a href=&quot;http://whatis.techtarget.com/reference/Our-Favorite-Cheat-Sheets#operating&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Our Favourite Cheat Sheets&lt;/a&gt; —— 知识速查清单。&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://overapi.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;OverAPI&lt;/a&gt; / &lt;a href=&quot;http://www.cheat-sheets.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Cheat-Sheets.org&lt;/a&gt; / &lt;a href=&quot;http://whatis.techtarget.com/reference/Our-Favorite-Cheat-Sheets#operating&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Our Favourite Cheat Sheets&lt;/a&gt; —— 知识速查清单。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://regex101.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Regular Expr Test&lt;/a&gt; —— &lt;a href=&quot;http://tool.oschina.net/regex&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;正则表达式测试&lt;/a&gt;。&lt;/p&gt;
 &lt;/li&gt;
@@ -1418,6 +1421,8 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://docs.python.org/3/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Python3 Docs&lt;/a&gt; —— from&amp;nbsp; &lt;a href=&quot;https://www.python.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Python.org&lt;/a&gt; &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://python.libhunt.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Awesome Python&lt;/a&gt; —— List of frameworks, packages, software and resources&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://developer.apple.com/library/mac/navigation/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mac Developer Library&lt;/a&gt; —— including&amp;nbsp; &lt;a href=&quot;https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;AppleScript Language Guide&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1442,6 +1447,8 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;Coding-编码&quot;&gt;&lt;a href=&quot;#Coding-编码&quot; class=&quot;headerlink&quot; title=&quot;Coding 编码&quot;&gt;&lt;/a&gt;Coding 编码&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://swagger.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Swagger&lt;/a&gt; —— The World’s Most Popular Framework for APIs.&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;编程的智慧&lt;/a&gt; —— 编码习惯！&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zh.lucida.me/blog/on-programming-errors-2/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;关于编程错误的思考&lt;/a&gt;&lt;/p&gt;
@@ -1476,6 +1483,8 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;Read-阅读&quot;&gt;&lt;a href=&quot;#Read-阅读&quot; class=&quot;headerlink&quot; title=&quot;Read 阅读&quot;&gt;&lt;/a&gt;Read 阅读&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.gitbook.com/explore&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitBook&lt;/a&gt; &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/xiao-jing-mo/19959253&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;编程入门指南 v1.4&lt;/a&gt; &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://lucida.me/blog/on-reading-books/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何阅读（ 技术 ）书籍&lt;/a&gt;&lt;/p&gt;
