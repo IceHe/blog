@@ -1,6 +1,6 @@
 title: My Favourites 喜好
 date: 2015-11-19
-updated: 2016-05-08
+updated: 2016-05-22
 show_updated: true
 categories: [read]
 tags: [read]
@@ -259,6 +259,10 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
     《权力的游戏》，史诗。
 
 # Motion Picture 电影
+
+- [Zootopia](https://movie.douban.com/subject/25662329/)
+
+    《疯狂动物城》，隐喻。
 
 - [夏洛特烦恼](https://movie.douban.com/subject/25964071/)
 
