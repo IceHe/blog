@@ -1,6 +1,6 @@
 title: My Tools 利器
 date: 2015-11-21
-updated: 2016-05-08
+updated: 2016-05-17
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -344,9 +344,10 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
     首推的记账软件。
 
-- [车来了](http://www.chelaile.net.cn/)
+- [车来了](http://www.chelaile.net.cn/)、[北京实时公交](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwjyoLbPoOHMAhUBoJQKHTTdCtoQFggdMAA&url=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fbei-jing-shi-shi-shi-gong-jiao%2Fid703306506%3Fmt%3D8&usg=AFQjCNHMrFugQlX7LH3jvhiv0zBKs40euw&sig2=o2QyQcOt_HsmKDuyuj502w&cad=rjt)
 
-    实时公交信息。附近车站的公交线路什么时候到站。它是同类软件中最好的。
+    查看实时公交信息，附近车站的公交线路什么时候到站。
+    「车来了」是同类软件中最用户友好的；但是，「北京实时公交」准确性更高。可用性比用户友好才更重要！
 
 - [Keep](https://itunes.apple.com/us/app/keep-yi-dong-jian-shen-jiao/id952694580?mt=8)
 
@@ -360,16 +361,14 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
     网易云音乐，音乐类软件的新标杆。能找到很多好歌单，发现冷门好歌，最喜欢在一首歌下面评论分享感受。
 
-- [Podcasts](http://www.apple.com/itunes/podcasts/)、[喜马拉雅FM](http://www.ximalaya.com/)、[凤凰FM](http://diantai.ifeng.com/)、[企鹅FM](http://fm.qq.com/)
+- [Podcasts](http://www.apple.com/itunes/podcasts/)
 
-    Podcasts，iOS 自带播客软件，无广告，最稳定，绝对不丢失播放进度，不二之选！
-    喜马拉雅FM，使用体验与内容俱佳，许多电台自媒体的首选独播平台。
-    凤凰FM，拥有凤凰传媒的版权内容，有我最喜欢的谈话节目《锵锵三人行》。
-    企鹅FM，腾讯出品用户体验必然好，娱乐类节目偏多，不适合我，但还是因为有我喜欢栏目在，只能留下。
-
-    基本所有电台类 App 我都用过，最后剩下它们。 因为内容为王，我通常都为了听喜欢的自媒体栏目被迫换 FM 类 App 的，然后发现产品体验好，就自然而然留下来了。
-
-    其实大部分播客节目都可以用泛用型播客客户端来订阅。其中首推 Podcasts，功能完备；还有 Castro，小巧易用，轻量级使用的不二之选！
+    Podcasts，iOS 自带泛用型播客 App，功能完备，无广告，最稳定，绝对不丢失播放进度，不二之选！
+    [Castro](http://supertop.co/castro/)，小巧易用，轻量级泛用型播客 App 的最佳选择！
+    [喜马拉雅FM](http://www.ximalaya.com/)，使用体验与内容俱佳，许多电台自媒体的首选独播平台。
+    [凤凰FM](http://diantai.ifeng.com/)，拥有凤凰传媒的版权内容，有我最喜欢的谈话节目《锵锵三人行》。
+    [企鹅FM](http://fm.qq.com/)，腾讯出品用户体验必然好，娱乐类节目偏多，不适合我，但还是因为有我喜欢栏目在，只能留下。
+    用过绝大多数 FM 类 App，唯剩它们。内容为王，通常都为了追喜欢的栏目被迫换 App 的，才发现某产品体验好，自然而然成为其用户。
 
 - [Bilibili](http://www.bilibili.com/)、[AcFun](http://www.acfun.tv/)
 
@@ -387,22 +386,6 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
     一键收藏各类网页图文，保存到 Evernote。
 
-- [xThunder](http://fxthunder.com/)
-
-    统一管理浏览器各下载器的使用规则，支持迅雷、DownThemAll 等。
-
-- [DownThemAll!](downthemall.net)
-
-    批量下载工具。功能更强，多线下载，速度更快，非 P2P 下载用它代替迅雷与浏览器默认下载器。
-
-- [Adblock Plus](https://adblockplus.org/zh_CN/)、[Adblock Plus Elem Hide Helper](https://adblockplus.org/zh_CN/elemhidehelper)
-
-    广告过滤。防止追踪、恶意域名，过滤横幅广告、弹窗广告以及视频广告。配合元素隐藏助手使用，可更轻松地建立元素隐藏规则。
-
-- [Flashblock](http://flashblock.mozdev.org/)
-
-    屏蔽所有页面的 Flash 内容的加载；需要时，才点击加载。
-
 - [Greasemonkey](http://www.greasespot.net/)
 
     使用 JavaScript 脚本自定义网站网页的布局、外观、操作等！有提供[油猴脚本网站](http://wiki.greasespot.net/User_Script_Hosting)。
@@ -415,17 +398,33 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
     整洁有序地展示页面的 JSON 文本。
 
+- [DownThemAll!](downthemall.net)
+
+    批量下载工具。功能更强，多线下载，速度更快，非 P2P 下载用它代替迅雷与浏览器默认下载器。
+
+- [xThunder](http://fxthunder.com/)
+
+    统一管理浏览器各下载器的使用规则，支持迅雷、DownThemAll 等。
+
+- [Adblock Plus](https://adblockplus.org/zh_CN/)、[Adblock Plus Elem Hide Helper](https://adblockplus.org/zh_CN/elemhidehelper)
+
+    广告过滤。防止追踪、恶意域名，过滤横幅广告、弹窗广告以及视频广告。配合元素隐藏助手使用，可更轻松地建立元素隐藏规则。
+
+- [Flashblock](http://flashblock.mozdev.org/)
+
+    屏蔽所有页面的 Flash 内容的加载；需要时，才点击加载。
+
 - [NoScript](https://noscript.net/)
 
     根据自定义的规则，屏蔽/通过 JavaScript、Java、Flash 以及其它插件等的页面内容，降低安全风险。
 
-- [NumberedTabs](https://addons.mozilla.org/zh-CN/firefox/addon/numberedtabs/?src=api)
-
-    显示标签页的编号，以便使用快捷键 ⌘ + 编号 切换至对应标签。
-
 - [RequestPolicy](https://www.requestpolicy.com/)
 
     控制允许哪些跨站点的请求，改善隐私保护，避免遭遇跨站点请求伪造（CSRF）以及其它攻击。
+
+- [NumberedTabs](https://addons.mozilla.org/zh-CN/firefox/addon/numberedtabs/?src=api)
+
+    显示标签页的编号，以便使用快捷键 ⌘ + 编号 切换至对应标签。
 
 - [Stylish](https://userstyles.org/)
 
@@ -453,16 +452,15 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
 - [MacBook Pro Retina 13-inch](http://www.apple.com/cn/shop/buy-mac/macbook-pro?product=MF841CH/A&step=config)
 
-    i7 - 3.1 GHz / Mem 16 GB / SSD 512 GB + Magic Keyboard 2 + New Magic Trackpad， Mac 是软件工程师最佳的开发平台。
-    努力用好了 Windows，才能了无牵挂地换Mac。
+    i7 - 3.1 GHz / Mem 16 GB / SSD 512 GB， Mac 是软件工程师最佳的工作平台。用好了 Windows，才能了无牵挂地换 Mac。
 
 - [Magic Trackpad 2](http://www.apple.com/cn/shop/product/MJ2R2CH/A/magic-trackpad-2?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2)
 
-    比手感已经非常好的 Macbook 自带触摸板还要更胜一筹！第二代比第一代触摸板更大，有多级压感的反馈，手感细腻。
+    Macbook 自带触摸板的手感已经非常好了，但它还要更胜一筹！第二代比第一代触摸面积更大，有三段式压感反馈，手感细腻。
 
 - [Magic Keyboard](http://www.apple.com/cn/shop/product/MLA22CH/A/magic-keyboard?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2)
 
-    比 Macbook 自带键盘的布局更合理，还很轻便。可能你会觉得手感绵软，但我就是喜欢小巧省力的键盘，又安静不会打扰到周围工作的同事。
+    比 Macbook 自带键盘的布局更合理，还很轻便。可能你会觉得手感绵软，但我就是喜欢小巧省力又安静的键盘，不会打扰到周围的人和自己。
 
 - [iPhone6 plus](http://www.apple.com/cn/shop/buy-iphone/iphone6)
 
@@ -500,9 +498,7 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
 - [Sony SRS-X1-V](http://item.jd.com/10132928766.html)
 
-    Bluetooth Wireless Speaker System (Purple).
-
-    不打扰别人情况下，尽量听外放，保护听力，也更舒服自在。
+    Bluetooth Wireless Speaker System (Purple)，不打扰别人情况下，尽量听外放，保护听力，也更舒服自在。
 
 - [Côte & Ciel Backpack](http://www.coteetciel.com/en-CN/isar-backpack-black-melange-laptop-bag)
 
