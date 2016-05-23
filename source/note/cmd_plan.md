@@ -237,3 +237,29 @@ $ cal
 
 $ whatis nginx
 $ whereis nginx
+
+# 命令行小技巧
+
+!! 重复上一个命令
+
+!$ 上一个命令中最后一个参数
+
+Ctrl-y 粘贴上一个被删除的词
+
+# Find 命令
+
+找出某个目录下面所有文件，然后删除
+
+$ find /some/path -type f -delete
+
+或者
+
+$ find /some/path -type f -exec rm -f {} \;
+
+找出某个目录下面指定类型的文件，然后删除
+
+$ find /some/path -type f -iname "*.txt" -exec rm -f {} \;
+
+# icdiff
+
+有颜色辅助，且分列显示的命令，比 diff 好用多了。
