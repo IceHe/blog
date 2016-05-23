@@ -9,26 +9,38 @@
 
 <meta charset="UTF-8">
 
-<title>Bash - Note | IceHe 何志远</title>
+<title>Vim Note | IceHe 何志远</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 
 <meta name="author" content="IceHe何志远"> 
 
 <!-- Open Graph -->
-<meta name="description" content="http://www.linux-sxs.org/programming/bashcheat.html
-上一阶段学Bash的参考资料：≈http://www.mediacollege.com/cgi-bin/man/page.cgi?topic=bashhttp://ahei.info/chinese-bash-man.htmhttps://www.gnu.org/software/bash/ma">
+<meta name="description" content="vim下unix和dos格式转换Vim取消粘贴的智能缩进Vim 字符编码转换VIM学习笔记 寄存器 (Registers)vim全局替换命令
+我在用的mac软件(1)–终端环境之iTerm2文本三巨头：zsh、tmux 和 vim
+Vim Note胡波给的帮助我排除vim疑难bug的方法：
+–noplugins -u NONE
+%s/xxx/yyy/g 文件全局替换
+无行号 set nonu设置行">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Bash - Note">
-<meta property="og:url" content="http://icehe.me/note/bash.html">
+<meta property="og:title" content="Vim Note">
+<meta property="og:url" content="http://icehe.me/notes/vim.html">
 <meta property="og:site_name" content="IceHe 何志远">
-<meta property="og:description" content="http://www.linux-sxs.org/programming/bashcheat.html
-上一阶段学Bash的参考资料：≈http://www.mediacollege.com/cgi-bin/man/page.cgi?topic=bashhttp://ahei.info/chinese-bash-man.htmhttps://www.gnu.org/software/bash/ma">
+<meta property="og:description" content="vim下unix和dos格式转换Vim取消粘贴的智能缩进Vim 字符编码转换VIM学习笔记 寄存器 (Registers)vim全局替换命令
+我在用的mac软件(1)–终端环境之iTerm2文本三巨头：zsh、tmux 和 vim
+Vim Note胡波给的帮助我排除vim疑难bug的方法：
+–noplugins -u NONE
+%s/xxx/yyy/g 文件全局替换
+无行号 set nonu设置行">
 <meta property="og:updated_time" content="2016-04-23T12:31:42.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Bash - Note">
-<meta name="twitter:description" content="http://www.linux-sxs.org/programming/bashcheat.html
-上一阶段学Bash的参考资料：≈http://www.mediacollege.com/cgi-bin/man/page.cgi?topic=bashhttp://ahei.info/chinese-bash-man.htmhttps://www.gnu.org/software/bash/ma">
+<meta name="twitter:title" content="Vim Note">
+<meta name="twitter:description" content="vim下unix和dos格式转换Vim取消粘贴的智能缩进Vim 字符编码转换VIM学习笔记 寄存器 (Registers)vim全局替换命令
+我在用的mac软件(1)–终端环境之iTerm2文本三巨头：zsh、tmux 和 vim
+Vim Note胡波给的帮助我排除vim疑难bug的方法：
+–noplugins -u NONE
+%s/xxx/yyy/g 文件全局替换
+无行号 set nonu设置行">
 
 <!-- Google Web Master Tool - Meta Tag Verification -->
 <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
@@ -116,7 +128,7 @@
 
     <h1 itemprop="name" class="article-title">
     
-        <a href="/note/bash.html" title="Bash - Note" itemprop="url" class="article-url">Bash - Note</a>
+        <a href="/notes/vim.html" title="Vim Note" itemprop="url" class="article-url">Vim Note</a>
     
     </h1>
 
@@ -142,68 +154,56 @@
     <div id="toc" class="toc-article">
         <strong class="toc-title">Contents</strong>
         
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#DEFINITIONS"><span class="toc-text">DEFINITIONS</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#RESERVED-WORDS"><span class="toc-text">RESERVED WORDS</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Pipelines"><span class="toc-text">Pipelines</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#List-序列"><span class="toc-text">List 序列</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Comments"><span class="toc-text">Comments</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Quotes"><span class="toc-text">Quotes</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Parameters"><span class="toc-text">Parameters</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Positional-Parameters"><span class="toc-text">Positional Parameters</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Arrays"><span class="toc-text">Arrays</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Rd-Mark"><span class="toc-text">Rd Mark</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Vim-Note"><span class="toc-text">Vim Note</span></a></li></ol>
         
     </div>
     
-    <p><a href="http://www.linux-sxs.org/programming/bashcheat.html" target="_blank" rel="external">http://www.linux-sxs.org/programming/bashcheat.html</a></p>
-<p>上一阶段学Bash的参考资料：<br>≈<br><a href="http://www.mediacollege.com/cgi-bin/man/page.cgi?topic=bash" target="_blank" rel="external">http://www.mediacollege.com/cgi-bin/man/page.cgi?topic=bash</a><br><a href="http://ahei.info/chinese-bash-man.htm" target="_blank" rel="external">http://ahei.info/chinese-bash-man.htm</a><br><a href="https://www.gnu.org/software/bash/manual/bashref.html" target="_blank" rel="external">https://www.gnu.org/software/bash/manual/bashref.html</a><br><a href="http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html" target="_blank" rel="external">http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html</a></p>
-<p>[ ] <a href="http://alvinalexander.com/blog/post/linux-unix/unix-linux-shell-script-reference-cheat-sheet" target="_blank" rel="external">http://alvinalexander.com/blog/post/linux-unix/unix-linux-shell-script-reference-cheat-sheet</a></p>
-<p>[ ] <a href="http://www.linuxtopia.org/online_books/advanced_bash_scripting_guide/refcards.html" target="_blank" rel="external">http://www.linuxtopia.org/online_books/advanced_bash_scripting_guide/refcards.html</a></p>
-<p>If  bash is invoked in this fashion, $0 is set to the name of the file, and the positional parameters are set to the remaining arguments.  Bash reads and  executes commands from this file, then exits.  Bash’s exit status is the exit status of the last command executed in the script. If no commands are executed, the exit status is 0.</p>
-<p>When   a   login   shell  exits,  bash  reads  and  executes  commands  from  the  file ~/.bash_logout, if it exists.</p>
-<p>login shell 读取 ~/.bash_profile, ~/.bash_login,  and ~/.profile<br>not login shell 读取 ~/.bashrc</p>
-<p>non-interactive shell: to run a shell script</p>
-<h1 id="DEFINITIONS"><a href="#DEFINITIONS" class="headerlink" title="DEFINITIONS"></a>DEFINITIONS</h1><p>blank  A space or tab.</p>
-<p>word   A sequence of characters considered as a single unit by the shell.   Also  known as a token.</p>
-<p>name   A word consisting only of alphanumeric characters and underscores, and beginning with an alphabetic character or an underscore.  Also referred to as  an  identifier.</p>
-<p>metacharacter   A character that, when unquoted, separates words.  One of the following:  |  &amp; ; ( ) &lt; &gt; space tab</p>
-<p>control operator   A token that performs a control function.  It is one of the following symbols: || &amp; &amp;&amp; ; ;; ( ) | <newline></newline></p>
-<h1 id="RESERVED-WORDS"><a href="#RESERVED-WORDS" class="headerlink" title="RESERVED WORDS"></a>RESERVED WORDS</h1><p>Reserved words are words that have a special meaning to the shell.  The following words are recognized as reserved when unquoted and either the first word of a simple  command (see SHELL GRAMMAR below) or the third word of a case or for command:</p>
-<pre><code>!  case   do done elif else esac fi for function if in select then until while { } time [[ ]]
-</code></pre><h1 id="Pipelines"><a href="#Pipelines" class="headerlink" title="Pipelines"></a>Pipelines</h1><p>A pipeline is a sequence of one or more commands separated by the character |.  The format for a pipeline is:</p>
-<pre><code>[time [-p]] [ ! ] command [ | command2 ... ]
-</code></pre><p>If  the  time reserved word precedes a pipeline, the elapsed as well as user and system time consumed by its execution are reported  when  the  pipeline  terminates.   The -p option  changes  the output format to that specified by POSIX.  The TIMEFORMAT variable may be set to a format string that specifies how the timing information should be  displayed; see the description of TIMEFORMAT under Shell Variables below.</p>
-<p>Each command in a pipeline is executed as a separate process (i.e., in a subshell).</p>
-<h1 id="List-序列"><a href="#List-序列" class="headerlink" title="List 序列"></a>List 序列</h1><p>If a command is terminated by the control operator &amp;, the shell executes the command in the  background  in a subshell.  The shell does not wait for the command to finish, and the return status is 0.  Commands separated by a ; are executed sequentially; the shell waits  for  each command to terminate in turn.  The return status is the exit status of the last command executed</p>
-<p>＃ Compound Commands</p>
-<p>(list)</p>
-<p>list  is  executed  in a subshell environment (see COMMAND EXECUTION ENVIRONMENT below).  Variable assignments and builtin commands that affect the shell’s environment  do not remain in effect after the command completes.  The return status is the exit status of list.</p>
-<p>{ list; }</p>
-<p>list is simply executed in the current shell environment.  list must  be  terminated  with  a  newline  or  semicolon.   This is known as a group command.  The return status is the exit status of list.  Note that unlike the metacharacters ( and ),  { and } are reserved words and must occur where a reserved word is permitted to be recognized.  Since they do not cause a word  break,  they  must  be separated from list by whitespace.</p>
-<p>((expression))<br>The  expression is evaluated according to the rules described below under ARITHMETIC EVALUATION.  If the value of the expression is non-zero, the return status is  0;  otherwise  the  return  status  is 1.  This is exactly equivalent to let “expression”.</p>
-<p>[[ expression ]]<br>Return a status of 0 or 1 depending on the evaluation of the conditional expresMETIC EVALUATION.  If the value of the expression is non-zero, the return status is  0;  otherwise  the  return  status  is 1.  This is exactly equivalent to let “expression”.</p>
-<p>[[ expression ]]<br>Return a status of 0 or 1 depending on the evaluation of the conditional expression  expression.   Expressions  are  composed  of the primaries described below under CONDITIONAL EXPRESSIONS.  Word splitting and pathname  expansion  are  not performed  on  the  words  between the [[ and ]]; tilde expansion, parameter and variable expansion, arithmetic expansion, command substitution, process  substitution,  and quote removal are performed.  Conditional operators such as -f must be unquoted to be recognized as primaries.</p>
-<p>When the == and != operators are used, the string to the right of  the  operator is considered a pattern and matched according to the rules described below under Pattern Matching.  If the shell option nocasematch is enabled, the match is performed without regard to the case of alphabetic characters.  The return value is 0 if the string matches (==) or does not match (!=) the pattern,  and  1  otherwise.   Any  part  of  the  pattern may be quoted to force it to be matched as a string.</p>
-<p>An additional binary operator, =~, is available, with the same precedence as  == and  !=.  When it is used, the string to the right of the operator is considered an extended regular expression and matched accordingly (as  in  regex(3)).   The return  value  is  0 if the string matches the pattern, and 1 otherwise.  If the regular expression is  syntactically  incorrect,  the  conditional  expression’s return  value  is  2.   If the shell option nocasematch is enabled, the match is performed without regard to  the  case  of  alphabetic  characters.   Substrings matched  by parenthesized subexpressions within the regular expression are saved in the array variable BASH_REMATCH.  The element of BASH_REMATCH with index 0 is the  portion  of the string matching the entire regular expression.  The element of BASH_REMATCH with index n is the portion  of  the  string  matching  the  nth parenthesized subexpression.</p>
-<p>Expressions  may be combined using the following operators, listed in decreasing order of precedence:</p>
-<p>( expression )     Returns the value of expression.  This may be used to override the normal precedence of operators</p>
-<p>for name [ in word ] ; do list ; done</p>
-<p>The  list  of  words  following in is expanded, generating a list of items. The variable name is set to each element of this list in turn, and list is  executed each  time.   If  the in word is omitted, the for command executes list once for each positional parameter that is set (see PARAMETERS below).  The return status is  the  exit status of the last command that executes.  If the expansion of the items following in results in an empty list, no commands are executed,  and  the return status is 0.</p>
-<p>for (( expr1 ; expr2 ; expr3 )) ; do list ; done</p>
-<p>First,  the  arithmetic  expression  expr1  is  evaluated according to the rules described below under ARITHMETIC EVALUATION.  The arithmetic expression expr2 is then evaluated repeatedly until it evaluates to zero.  Each time expr2 evaluates to a non-zero value, list is executed and the  arithmetic  expression  expr3  is evaluated.   If  any  expression is omitted, it behaves as if it evaluates to 1. The return value is the exit status of the last command in  list  that  is  executed, or false if any of the expressions is invalid.</p>
-<p>select name [ in word ] ; do list ; done</p>
-<p>case word in [ [(] pattern [ | pattern ] … ) list ;; ] … esac</p>
-<p>if list; then list; [ elif list; then list; ] … [ else list; ] fi</p>
-<p>while list; do list; done<br>until list; do list; done</p>
-<p>[ function ] name () compound-command [redirection]</p>
-<p>This defines a function named name.  The reserved word function is optional.  If the function reserved word is supplied, the parentheses are optional.  The  body of  the function is the compound command compound-command (see Compound Commands above).  That command is usually a list of commands between { and }, but may  be any  command listed under Compound Commands above.  compound-command is executed whenever name is specified as the name of a simple  command.   Any  redirections (see  REDIRECTION below) specified when a function is defined are performed when the function is executed.  The exit status of  a  function  definition  is  zero unless  a  syntax error occurs or a readonly function with the same name already exists.  When executed, the exit status of a function is the exit status of  the last command executed in the body.  (See FUNCTIONS below.)</p>
-<h1 id="Comments"><a href="#Comments" class="headerlink" title="Comments"></a>Comments</h1><p>A  word beginning  with  #  causes  that  word  and all remaining characters on that line to be ignored.</p>
-<h1 id="Quotes"><a href="#Quotes" class="headerlink" title="Quotes"></a>Quotes</h1><p>A non-quoted backslash () is the escape character.  It preserves the literal value of the next character that follows, with the exception of <newline>.  If a \<newline> pair appears,  and  the  backslash is not itself quoted, the \<newline> is treated as a line continuation (that is, it is removed from the input stream and effectively ignored).</newline></newline></newline></p>
-<p>Enclosing characters in single quotes preserves the literal  value  of  each  character within  the quotes.  A single quote may not occur between single quotes, even when preceded by a backslash.</p>
-<p>Enclosing characters in double quotes preserves the literal  value  of  all  characters within  the  quotes,  with  the  exception  of  $, <code>, \, and, when history expansion is enabled, !.  The characters $ and</code> retain their special meaning within double  quotes. The  backslash  retains  its special meaning only when followed by one of the following characters: $, `, “, \, or <newline>.  A double  quote  may  be  quoted  within  double quotes  by  preceding  it with a backslash.  If enabled, history expansion will be performed unless an !  appearing in double quotes is escaped using a backslash.  The backslash preceding the !  is not removed.</newline></p>
-<p> Words of the form $’string’ are treated specially.  The word expands  to  string,  with backslash-escaped  characters  replaced as specified by the ANSI C standard.  Backslash escape sequences, if present, are decoded as follows:<br>     \a     alert (bell)<br>     \b     backspace<br>     \e     an escape character<br>\f     form feed<br>\n     new line<br>     \r     carriage return<br>     \t     horizontal tab<br>\v     vertical tab<br>     \     backslash<br>     \’     single quote<br>     \nnn   the eight-bit character whose value is the octal value nnn (one to  three digits)<br>     \xHH   the  eight-bit  character whose value is the hexadecimal value HH (one or two hex digits)<br>     \cx    a control-x character</p>
-<h1 id="Parameters"><a href="#Parameters" class="headerlink" title="Parameters"></a>Parameters</h1><p>A variable has a value and zero or more attributes.  Attributes are assigned using the declare builtin command (see declare below  in  SHELL  BUILTIN  COMMANDS).</p>
-<p>A  parameter is set if it has been assigned a value.  The null string is a valid value. Once a variable is set, it may be unset only by using the unset  builtin command.</p>
-<p>A variable may be assigned to by a statement of the form</p>
-<pre><code>name=[value]
-</code></pre><p>If  value  is  not given, the variable is assigned the null string.  All values undergo tilde expansion, parameter and variable  expansion,  command  substitution,  arithmetic expansion,  and  quote  removal (see EXPANSION below).  If the variable has its integer attribute set, then value is evaluated as an arithmetic expression even if the $((…)) expansion  is  not  used  (see Arithmetic Expansion below).  Word splitting is not performed, with the exception of “$@” as explained below under Special Parameters.   Pathname expansion is not performed.  Assignment statements may also appear as arguments to the alias, declare, typeset, export, readonly, and local builtin commands.</p>
-<h1 id="Positional-Parameters"><a href="#Positional-Parameters" class="headerlink" title="Positional Parameters"></a>Positional Parameters</h1><p>A positional parameter is a parameter denoted by one or more  digits,  other  than  the single  digit 0.  Positional parameters are assigned from the shell’s arguments when it is invoked, and may be reassigned using the set builtin command.  Positional parameters may  not be assigned to with assignment statements.  The positional parameters are temporarily replaced when a shell function is executed (see FUNCTIONS below).</p>
-<p>When a positional parameter consisting of more than a single digit is expanded, it must be enclosed in braces</p>
-<h1 id="Arrays"><a href="#Arrays" class="headerlink" title="Arrays"></a>Arrays</h1><p>Bash provides one-dimensional array variables.  Any variable may be used as  an  array; the declare builtin will explicitly declare an array.  There is no maximum limit on the size of an array, nor any requirement that members be indexed or assigned contiguously. Arrays are indexed using integers and are zero-based.</p>
-<p>＃ Tilde Expansion</p>
-<p>~+     PWD<br>~-     OLDPWD<br>~-2     ……</p>
-<h1 id="Rd-Mark"><a href="#Rd-Mark" class="headerlink" title="Rd Mark"></a>Rd Mark</h1><p>Parameter Expansion</p>
+    <p><a href="http://www.2cto.com/os/201309/244729.html" target="_blank" rel="external">vim下unix和dos格式转换</a><br><a href="http://www.cnblogs.com/end/archive/2012/06/01/2531147.html" target="_blank" rel="external">Vim取消粘贴的智能缩进</a><br><a href="http://www.cnblogs.com/jaiho/archive/2011/08/24/2056375.html" target="_blank" rel="external">Vim 字符编码转换</a><br><a href="http://yyq123.blogspot.hk/2010/10/vim-registers.html" target="_blank" rel="external">VIM学习笔记 寄存器 (Registers)</a><br><a href="http://andyss.blog.51cto.com/315552/131652" target="_blank" rel="external">vim全局替换命令</a></p>
+<p><a href="http://foocoder.com/blog/wo-zai-yong-de-macruan-jian.html/" target="_blank" rel="external">我在用的mac软件(1)–终端环境之iTerm2</a><br><a href="http://blog.jobbole.com/86571/" target="_blank" rel="external">文本三巨头：zsh、tmux 和 vim</a></p>
+<h1 id="Vim-Note"><a href="#Vim-Note" class="headerlink" title="Vim Note"></a>Vim Note</h1><p>胡波给的帮助我排除vim疑难bug的方法：</p>
+<p>–noplugins -u NONE</p>
+<p>%s/xxx/yyy/g 文件全局替换</p>
+<p>无行号 set nonu<br>设置行号 set nu</p>
+<p>因为，Vim插件最后决定完全采用spf13的配置！<br>所以，以后就去查看的官方网站即可！</p>
+<p>插入模式下<br>Ctrl+w     删除光标左边的单词<br>Ctrl+h     删除光标左边的字<br>Ctrl+a     输入上一次插入模式输入的字符串<br>Ctrl+r 0     粘贴<br>Ctrl+r *     从系统剪切板中粘贴<br>Ctrl+r &lt;寄存器名称&gt;     从相应寄存器中取得内容进行粘贴<br>Ctrl+o …     按它之后执行一个普通模式下的指令，然后会回到插入模式</p>
+<p>文本替换<br>使用 :s/正则表达式/替换文本/ 可在本行内替换首次出现的匹配<br>使用 :s/正则表达式/替换文本/g 在本行内替换所有出现的匹配<br>使用 :%s/正则表达式/替换文本/g 在当前文件内替换所有出现的匹配</p>
+<p>vim代码折叠<br>折叠方式：fdm</p>
+<p>Insert等模式下，<br>Ctrl+v Tab<br>才能成功输入\t</p>
+<p>我一一般使用marker方式: set fdm=marker</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">默认的marker是&#123;&#123;&#123;和&#125;&#125;&#125;，可以设置为其他：set foldmarker=//l,//c （开始标签//l 关闭标签//c）</span><br></pre></td></tr></table></figure>
+<p>zc 折叠当前marker<br>zo 展开当前marker<br>zC 在所在范围内，递归折叠所有<br>zO 在所在范围内，递归展开所有x<br>zr 將全文的所有折疊依層次通通打開。reduce。<br>zm 將全文已打開的折疊依層次通通再折疊起來。more。</p>
+<p>zR 作用和 zr 同，但會打開含巢狀折疊（折疊中又還有折疊）的所有折疊。<br>zM 作用和 zm 同，但對於巢狀折疊亦有作用。<br>zi 這是個切換，是折疊與不折疊指令間的切換。</p>
+<p>zd 删除折叠<br>zD 删除所有折叠</p>
+<p>zn 打開全文的所有折疊。fold none。<br>zN 這是 zn 的相對指令，回復所有的折疊。</p>
+<p>[z 到折叠开始处<br>z[ 到折叠末尾处</p>
+<p>zj 下一个折叠的开始处<br>zk 上一个折叠的末尾</p>
+<p>还是放到~/.vimrc中吧<br>set fdm=marker<br>set foldmarker=//{,//}</p>
+<p>取消匹配 的快捷键</p>
+<p><leader> /</leader></p>
+<p>Toggle comments</p>
+<p><leader>c<space></space></leader></p>
+<p>Surround<br>if the cursor was inside “foo bar”, you could type cs”‘ to convert the text to ‘foo bar’</p>
+<p>Tagbar tag generation and navigation</p>
+<p>spf13-vim includes the Tagbar plugin. This plugin requires exuberant-ctags and will automatically generate tags for your open files. It also provides a panel to navigate easily via tags</p>
+<p>QuickStart CTRL-] while the cursor is on a keyword (such as a function name) to jump to it’s definition.</p>
+<p>Customizations: spf13-vim binds <leader>tt to toggle the tagbar panel</leader></p>
+<p>Note: For full language support, run brew install ctags to install exuberant-ctags.</p>
+<p>Tip: Check out :help ctags for information about VIM’s built-in ctag support. Tag navigation creates a stack which can traversed via Ctrl-] (to find the source of a token) and Ctrl-T (to jump back up one level).</p>
+<p>Fugitive deep git integration</p>
+<p>Fugitive adds pervasive git support to git directories in vim. For more information, use :help fugitive</p>
+<p>Use :Gstatus to view git status and type - on any file to stage or unstage it. Type p on a file to enter git add -p and stage specific hunks in the file.</p>
+<p>Use :Gdiff on an open file to see what changes have been made to that file</p>
+<p>Customizations:</p>
+<ul>
+<li><leader>gs :Gstatus</leader></li>
+<li><leader>gd :Gdiff</leader></li>
+<li><leader>gc :Gcommit</leader></li>
+<li><leader>gb :Gblame</leader></li>
+<li><leader>gl :Glog</leader></li>
+<li><leader>gp :Git push</leader></li>
+<li>:Git ___ will pass anything along to git.</li>
+</ul>
+<p>NERDTree<br>打开 <leader> e<br>打开&amp;关闭 ^e”</leader></p>
 
 </div>
 
@@ -216,7 +216,7 @@
 
 
 <div class="article-share" id="share">
-    <div data-url="http://icehe.me/note/bash.html" data-title="Bash - Note | IceHe 何志远" data-tsina="undefined" class="share clearfix">
+    <div data-url="http://icehe.me/notes/vim.html" data-title="Vim Note | IceHe 何志远" data-tsina="undefined" class="share clearfix">
     </div>
 </div>
 
@@ -229,7 +229,7 @@
 
 <!-- Comments Begin -->
 <section id="comments" class="comment">
-    <div class="ds-thread" data-thread-key="note/bash.html" data-title="Bash - Note" data-url="http://icehe.me/note/bash.html"></div>
+    <div class="ds-thread" data-thread-key="notes/vim.html" data-title="Vim Note" data-url="http://icehe.me/notes/vim.html"></div>
 </section>
 
 <script type="text/javascript">
@@ -652,7 +652,7 @@ var duoshuoQuery = {short_name:"icehe"};
     function addCount(Counter) {
         if (1 == $('.article-title').length
                 && (-1 != location.href.indexOf("icehe.me"))
-                && (-1 == location.href.indexOf("icehe.me/note/"))
+                && (-1 == location.href.indexOf("icehe.me/notes/"))
         ) {
             url = $('.article-url').attr('href').trim();
             title = $('.article-title').text().trim();

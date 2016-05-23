@@ -9,47 +9,29 @@
 
 <meta charset="UTF-8">
 
-<title>清醒思考的艺术 - Note | IceHe 何志远</title>
+<title>PHP Note | IceHe 何志远</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 
 <meta name="author" content="IceHe何志远"> 
 
 <!-- Open Graph -->
-<meta name="description" content="幸存谬误。以为自己就能成功，其实是小概率事件。
-选择标准和结果，因果倒置。
-人倾向于过度自信地估计事情。
-从众心理。
-忽视沉默成本，不责已悔。
-互惠偏误，别接受别人的恩惠，亏欠情绪导致接受施恩者的不合理请求。
-确认偏误，人倾向于维护自己的现有理论，对特殊情况视而不见，而不去修正自己的理论。
-确认偏误2，干掉你的宠儿。找到反驳你的框架理论的证据，然后修正或颠覆它！
-权威偏误，尽可能去怀疑权威，思考">
+<meta name="description" content="Mac 安裝 pecl ，安裝 php extensionInstall PHP pear (要用pecl只要装pear)
+PHP 判断某函数是否存在function_exists($function_name)判断一个全局函数是否存在调用方法：$function_name($param)
+method_exists($object, $function_name)判断某对象是否存在某方法调用方法">
 <meta property="og:type" content="website">
-<meta property="og:title" content="清醒思考的艺术 - Note">
-<meta property="og:url" content="http://icehe.me/note/think_clearly.html">
+<meta property="og:title" content="PHP Note">
+<meta property="og:url" content="http://icehe.me/notes/php.html">
 <meta property="og:site_name" content="IceHe 何志远">
-<meta property="og:description" content="幸存谬误。以为自己就能成功，其实是小概率事件。
-选择标准和结果，因果倒置。
-人倾向于过度自信地估计事情。
-从众心理。
-忽视沉默成本，不责已悔。
-互惠偏误，别接受别人的恩惠，亏欠情绪导致接受施恩者的不合理请求。
-确认偏误，人倾向于维护自己的现有理论，对特殊情况视而不见，而不去修正自己的理论。
-确认偏误2，干掉你的宠儿。找到反驳你的框架理论的证据，然后修正或颠覆它！
-权威偏误，尽可能去怀疑权威，思考">
+<meta property="og:description" content="Mac 安裝 pecl ，安裝 php extensionInstall PHP pear (要用pecl只要装pear)
+PHP 判断某函数是否存在function_exists($function_name)判断一个全局函数是否存在调用方法：$function_name($param)
+method_exists($object, $function_name)判断某对象是否存在某方法调用方法">
 <meta property="og:updated_time" content="2016-04-23T12:31:42.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="清醒思考的艺术 - Note">
-<meta name="twitter:description" content="幸存谬误。以为自己就能成功，其实是小概率事件。
-选择标准和结果，因果倒置。
-人倾向于过度自信地估计事情。
-从众心理。
-忽视沉默成本，不责已悔。
-互惠偏误，别接受别人的恩惠，亏欠情绪导致接受施恩者的不合理请求。
-确认偏误，人倾向于维护自己的现有理论，对特殊情况视而不见，而不去修正自己的理论。
-确认偏误2，干掉你的宠儿。找到反驳你的框架理论的证据，然后修正或颠覆它！
-权威偏误，尽可能去怀疑权威，思考">
+<meta name="twitter:title" content="PHP Note">
+<meta name="twitter:description" content="Mac 安裝 pecl ，安裝 php extensionInstall PHP pear (要用pecl只要装pear)
+PHP 判断某函数是否存在function_exists($function_name)判断一个全局函数是否存在调用方法：$function_name($param)
+method_exists($object, $function_name)判断某对象是否存在某方法调用方法">
 
 <!-- Google Web Master Tool - Meta Tag Verification -->
 <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
@@ -137,7 +119,7 @@
 
     <h1 itemprop="name" class="article-title">
     
-        <a href="/note/think_clearly.html" title="清醒思考的艺术 - Note" itemprop="url" class="article-url">清醒思考的艺术 - Note</a>
+        <a href="/notes/php.html" title="PHP Note" itemprop="url" class="article-url">PHP Note</a>
     
     </h1>
 
@@ -163,64 +145,91 @@
     <div id="toc" class="toc-article">
         <strong class="toc-title">Contents</strong>
         
-        
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#PHP-判断某函数是否存在"><span class="toc-text">PHP 判断某函数是否存在</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#PHP-对象的属性使用非常规命名时的访问方法"><span class="toc-text">PHP 对象的属性使用非常规命名时的访问方法</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Where-is-php-ini"><span class="toc-text">Where is php.ini?</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#PHP-Comm-Func"><span class="toc-text">PHP Comm Func</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Install-PHPUnit-OS-X"><span class="toc-text">Install PHPUnit - OS X</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#PHP-Encoding-Convert-of-File-amp-Str-文件、字符串编码转换"><span class="toc-text">PHP Encoding Convert of File & Str 文件、字符串编码转换</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#PHP-Why-无法调用一个存在的库函数"><span class="toc-text">PHP Why 无法调用一个存在的库函数</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Concepts"><span class="toc-text">Concepts</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#单例模式-误为-单利模式"><span class="toc-text">单例模式 误为 单利模式</span></a></li></ol>
         
     </div>
     
-    <ol>
-<li>幸存谬误。以为自己就能成功，其实是小概率事件。</li>
-<li>选择标准和结果，因果倒置。</li>
-<li>人倾向于过度自信地估计事情。</li>
-<li>从众心理。</li>
-<li>忽视沉默成本，不责已悔。</li>
-<li>互惠偏误，别接受别人的恩惠，亏欠情绪导致接受施恩者的不合理请求。</li>
-<li>确认偏误，人倾向于维护自己的现有理论，对特殊情况视而不见，而不去修正自己的理论。</li>
-<li>确认偏误2，干掉你的宠儿。找到反驳你的框架理论的证据，然后修正或颠覆它！</li>
-<li>权威偏误，尽可能去怀疑权威，思考求证。</li>
-<li>对比效应，和太好的比，好的也会是差的。</li>
-<li>现成偏误，根据你现有的知识和思维去思考一个问题，难免有所偏颇。因为有些思考材料是最近看过，所以可得性较强，会明显影响判断。</li>
-<li>好转前会先恶化，是废话，可能是一种陷阱，可能是事实。</li>
-<li>故事偏误，真实的故事，可能混杂了情感因素、情节，很多衍生的因果可能是有问题的，因果倒置、不严密等，要思考清楚。</li>
-<li>事后诸葛亮的假象，我们应该将提早的预判记入日记，日后验证。</li>
-<li>不要相信那些不懂装懂的人，如代替普朗克上台演讲的司机。</li>
-<li>控制错觉，我们常有可以影响客观事物的错觉，其实我们自己的影响力相当有限。</li>
-<li>积极过敏倾向，员工不在乎结婚，而在乎奖励。</li>
-<li>回归均值现象。</li>
-<li>公地悲剧，每个人为了利益，最终损害公共利益。</li>
-<li>结果偏误，结果好，不一定证明你做的判断和行动就是对的。可能只是概率性的撞大运。</li>
-<li>选择越少越令人幸福，不用困惑。想象只有这一个选择，它是否令你满意。</li>
-<li>讨喜偏误，外表漂亮，和我们相似(行为兴趣爱好性格)，恭维我们的人，都比较讨我们喜欢，于是我们更容易和他们达成合作和交易！但是注意将他们想象成我们不喜欢的人，让我们更理性判断这一次交易合作。</li>
-<li>敝帚自珍的效应，假如你拥有或者觉得快要拥有某物，会觉得他们属于自己。我们会觉得自己拥有的东西更有价值，其实不然，只是倾注在这一事物上的情感影响了我们理智的判断。</li>
-<li>…</li>
-<li>…</li>
-<li>…</li>
-<li>零风险偏误，为了彻底消除发生某种不好的事的概率，付出过大代价，完全没必要。</li>
-<li>稀缺性谬误，因为稀缺，所以看起来更有魅力，更好吃，也更贵，实际没有必要。</li>
-<li>…</li>
-<li>…</li>
-<li>锚定效应，定格你的心理价位。</li>
-<li>归纳法的谬误。一直不出问题，就以为没有问题，应谨慎理性判断。</li>
-<li>损失避免，风险厌恶。</li>
-<li>社会性懈怠，团队反而使人懒惰。</li>
-<li>(拍卖，竞争)赢家的诅咒，付出超越竞拍物价值的代价，而带来损失。</li>
-<li>基本特征谬误，关注一件事、一个戏剧、一本书，关注的应是本质、故事，而非人物、演员、作者，就事论事。</li>
-<li>因果倒置。</li>
-<li>光环效应。</li>
-<li>…</li>
-<li>…</li>
-<li>…</li>
-<li>…</li>
-<li>…</li>
-<li>…</li>
-<li>自利偏误，做好是因为我厉害，做坏是外部因素作怪。</li>
-<li>享乐适应症，对于物质类满足请只期待短期效果(3个月)。避免很长时间都不会适应的负面效应，如往返交通，交通，慢性疲劳等。持续的正面效应，与你如何利用时间有关。</li>
-<li>自我选择偏误。不要总以为，只有你最经常遭遇不好的事。只是因为不好的事对你来说比较都是消耗时间的事，坏的事也比好事更令人印象深刻，所以比较明显。</li>
-<li>神经官能症，认知失调。</li>
-<li>…</li>
-<li>认知失调，吃不到葡萄倒说葡萄酸。自我心理安慰。</li>
-<li>…</li>
-</ol>
-
+    <p><a href="blog.caesarchi.com/2012/03/mac-pecl-php-extension.html">Mac 安裝 pecl ，安裝 php extension</a><br><a href="http://www.cnblogs.com/bugY/archive/2012/07/06/2578972.html" target="_blank" rel="external">Install PHP pear (要用pecl只要装pear)</a><br><a href=""></a><br><a href=""></a></p>
+<h1 id="PHP-判断某函数是否存在"><a href="#PHP-判断某函数是否存在" class="headerlink" title="PHP 判断某函数是否存在"></a>PHP 判断某函数是否存在</h1><p>function_exists($function_name)<br>判断一个全局函数是否存在<br>调用方法：$function_name($param)</p>
+<p>method_exists($object, $function_name)<br>判断某对象是否存在某方法<br>调用方法：$object-&gt;$function_name($param)</p>
+<p>（例）<br>$funcName = ‘test_func’;<br>method_exists($this, $funcName);<br>$this-&gt;$funcName($param);</p>
+<h1 id="PHP-对象的属性使用非常规命名时的访问方法"><a href="#PHP-对象的属性使用非常规命名时的访问方法" class="headerlink" title="PHP 对象的属性使用非常规命名时的访问方法"></a>PHP 对象的属性使用非常规命名时的访问方法</h1><p>object(SimpleXMLElement)[10]<br>  public ‘source-url’ =&gt; string ‘file://C:\wamp\www\t_html_out.html’ (length=34)<br>  public ‘file-name’ =&gt; string ‘t_html_out.html’ (length=15)<br>  public ‘attachment’ =&gt; string ‘true’ (length=4)</p>
+<p>如上文中PHP对象的属性名 source-url、file-name，<br>它们使用了非常规的命名，如属性名中带有减号 - 。</p>
+<p>导致无法直接使用 $obj-&gt;source-url 的写法来访问！</p>
+<p>此时，使用特殊的语法：$obj-&gt;{“source-url”} 来访问。</p>
+<h1 id="Where-is-php-ini"><a href="#Where-is-php-ini" class="headerlink" title="Where is php.ini?"></a>Where is php.ini?</h1><p>MacOS，brew 安装的php的 php.ini 文件在：<br>/usr/local/etc/php/版本号/php.ini</p>
+<h1 id="PHP-Comm-Func"><a href="#PHP-Comm-Func" class="headerlink" title="PHP Comm Func"></a>PHP Comm Func</h1><p>mock     a. 仿制的，模拟的</p>
+<p>str_replace(src, dest, string)<br>urldecode(string)</p>
+<p>trim(string, … )<br>Strip whitespace(or other characters) from the beginning and end of string<br>trim     修剪</p>
+<p>strip_tags(string, … )<br>Strip HTML and PHP tag from a string<br>strip     剥去</p>
+<p>addslashes(string)<br>Quote string with slashes<br>给字符串中的需要转义的字符加上反斜杠（转义符）<br>slash     削减，\反斜杠<br>quote     引用</p>
+<p>ctype_type(string)<br>Check for numeric character(s)<br>Check if all of the characters in the provided string, text, are numerical.</p>
+<p>ctype_alnum(stirng)<br>Check for alphanumeric character(s)<br>alphabet     字母表<br>alphanumerice     字母数字的</p>
+<p>is_integer(var)<br>is_string(var)<br>is_array(var)</p>
+<p>array_keys(array)<br>Return all the keys or a subset of the keys of an array</p>
+<p>array_diff(array)</p>
+<p>array_merge(array)<br>If the input arrays have the same string keys, then the later value for that key will overwrite the previous one. If, however, the arrays contain numeric keys, the later value will not overwrite the original value, but will be appended.</p>
+<p>implode(string)<br>explode(string)</p>
+<h1 id="Install-PHPUnit-OS-X"><a href="#Install-PHPUnit-OS-X" class="headerlink" title="Install PHPUnit - OS X"></a>Install PHPUnit - OS X</h1><p>操作系统版本：Mac OS 10.10.4 (14E46)</p>
+<p><a href="http://gitlab.weibo.cn/mobile-api/mobile-api-v5-application/wikis/unit-test-instruction" target="_blank" rel="external">http://gitlab.weibo.cn/mobile-api/mobile-api-v5-application/wikis/unit-test-instruction</a><br>unit test instruction:<br>PHPUnit生成代码覆盖率需要xdebug插件。所以需要安装该插件。</p>
+<p><a href="http://xdebug.org/docs/install" target="_blank" rel="external">http://xdebug.org/docs/install</a><br>XDEBUG EXTENSION FOR PHP | DOCUMENTATION:<br>PECL Installation</p>
+<p><a href="http://blog.caesarchi.com/2012/03/mac-pecl-php-extension.html" target="_blank" rel="external">http://blog.caesarchi.com/2012/03/mac-pecl-php-extension.html</a><br>Mac 安裝 pecl ，安裝 php extension:<br>wget <a href="http://pear.php.net/go-pear.phar" target="_blank" rel="external">http://pear.php.net/go-pear.phar</a><br>php -d detect_unicode=0 go-pear.phar</p>
+<p>接著會顯示一些選項，如果都不需要可以直接輸入enter跳過， 最後會顯示資訊如下，<br>Would you like to alter php.ini ?<br>當然輸入Y，自動設定php.ini 之後結束安裝。</p>
+<p>之後設定自己的PATH 環境變數，加入底下的路徑<br>export PATH=$PATH:/Users/$USER/pear/bin</p>
+<p>然后按照《XDEBUG EXTENSION FOR PHP》教程（上文第二个链接）所说，输入以下指令安装XDEBUG<br>pecl install xdebug</p>
+<p>发现提示错误：<br>Cannot find autoconf. Please check your autoconf installation and the<br>$PHP_AUTOCONF environment variable. Then, rerun this script.</p>
+<p>因此根据要求安装 autoconf<br>brew install autoconf<br>再次执行<br>pecl install xdebug</p>
+<p>安装成功后，显示结果的最后一行的用户提示如下：<br>You should add “zend_extension=/usr/lib/php/extensions/no-debug-non-zts-20121212/xdebug.so” to php.ini</p>
+<p>然后在php.ini末尾添加如下两行：<br>; MY OWN CONFIG FOR XDEBUG<br>zend_extension=/usr/lib/php/extensions/no-debug-non-zts-20121212/xdebug.so</p>
+<p>发现不知道php.ini文件在哪里，使用 php –ini 指令也无法确定位置<br><a href="http://stackoverflyeow.com/questions/9343151/where-is-php-ini-in-mac-os-x-lion-thought-it-was-in-usr-local-php5-lib" target="_blank" rel="external">http://stackoverflyeow.com/questions/9343151/where-is-php-ini-in-mac-os-x-lion-thought-it-was-in-usr-local-php5-lib</a><br>根据以上StackOverflow该问题的第一个答案，了解到系统默认版本的php还没有php.ini<br>sudo cp /private/etc/php.ini.default /private/etc/php.ini</p>
+<p>但是拷贝出来的文件没有写权限。<br>不一定按照以下指令执行，具体给那些角色赋予权限要看具体情况<br>sudo chmod a+w php.ini</p>
+<p>然后就可以顺利编辑 php.ini 了。</p>
+<p>然后根据《unit test instruction》教程（上文第一个链接）继续安装PHPUnit<br>根据以下内容操作无果……<br>“<br>v5代码目录下，包含了phpunit及其依赖包，可以直接执行该phpunit。<br>./vendor/phpunit/phpunit/phpunit –version<br>在tests目录下，执行<br>./vendor/phpunit/phpunit/phpunit src/<br>可以查看执行过程。 为了避免麻烦，也可以直接将./vendor/phpunit/phpunit/phpunit链接到/usr/bin目录下。<br>ln -s /data1/v5.weibo.cn/code/vendor/phpunit/phpunit/phpunit /usr/bin/<br>”</p>
+<p>于是，根据《unit test instruction》教程原文，执行“自己通过composer安装phpunit”的步骤。<br>安装composer：<br>curl -sS <a href="https://getcomposer.org/installer" target="_blank" rel="external">https://getcomposer.org/installer</a> | php<br>感觉资源十分不稳定，许多次执行指令后才成功安装，最好选择其它途径下载安装。</p>
+<p>执行安装<br>chmod a+x composer.phar<br>php composer.phar install –dev<br>装完……命令行没有识别出phpunit命令，什么鬼！<br>感觉实际上没有装好！我快崩溃了……什么过时教程。</p>
+<p>遭遇以上情况，使用brew进行安装<br>$ brew install phpunit<br>Error: No available formula for phpunit<br>Searching formulae…<br>Searching taps…<br>homebrew/php/phpunit-skeleton-generator             homebrew/php/phpunit</p>
+<p>这时发现，以上输出的提示 homebrew/php/phpunit，于是使用指令<br>brew install homebrew/php/phpunit</p>
+<h1 id="PHP-Encoding-Convert-of-File-amp-Str-文件、字符串编码转换"><a href="#PHP-Encoding-Convert-of-File-amp-Str-文件、字符串编码转换" class="headerlink" title="PHP Encoding Convert of File &amp; Str 文件、字符串编码转换"></a>PHP Encoding Convert of File &amp; Str 文件、字符串编码转换</h1><p><a href="http://www.veryhuo.com/a/view/41348.html" target="_blank" rel="external">http://www.veryhuo.com/a/view/41348.html</a></p>
+<p>处理字符串时，需要字符编码转换，<br>碰到iconv转换失败的诡异问题。</p>
+<p>因为iconv有bug ，碰到一些生僻字就会无法转换，<br>当然了配置第二个参数时，可以稍微弥补一下默认缺陷，<br>不至于无法转换是截断，用法如下：</p>
+<p>iconv(“UTF-8″,”GB2312//IGNORE”,$data);<br>//IGNORE的意思是，碰到无法转换的字符，<br>//忽略失败，继续转换下面的内容。</p>
+<p>可以用另一个转换函数（mb_convert_encoding），<br>此函数效率不高，另外可省略第三参数，<br>自动识别内容编码，最好别用，影响效率，<br>还需注意，mb_convert_encoding和iconv参数顺序不同。</p>
+<p>mb_convert_encoding ( string $str , string $to_encoding [, mixed $from_encoding = mb_internal_encoding() ] )<br><a href="http://php.net/manual/zh/function.mb-convert-encoding.php" target="_blank" rel="external">http://php.net/manual/zh/function.mb-convert-encoding.php</a></p>
+<h1 id="PHP-Why-无法调用一个存在的库函数"><a href="#PHP-Why-无法调用一个存在的库函数" class="headerlink" title="PHP Why 无法调用一个存在的库函数"></a>PHP Why 无法调用一个存在的库函数</h1><p>当PHP的错误报告出现下文：<br>PHP Fatal error:  Call to undefined function mb_convert_encoding() in C:\Users\IceHe\script\y.php on line 4</p>
+<p>解决方法：<br>例如上文中找不到的函数是 mb_convert_encoding。<br>我搞清楚了它所在的dll（动态链接库）名为php_mbstring.dll，<br>此文件在php安装目录（C:\php）下的文件夹ext中。</p>
+<p>1.在php安装路径的根目录下，<br>     找到php.ini文件，如：c:/php/php.ini。<br>2.找到Dynamic Extensions的段落，在其中<br>     反注释 或 添加 以下这一句：<br>     extension=./ext/php_mbstring.dll<br>（即extension= path/php_mbstring.dll，路径加文件名）<br>3.命令行下，输入php /? 看看有没有载入成功。<br>     可能会显示：<br>Warning: PHP Startup: Unable to load dynamic library ‘C:\php\php_mbstring.dll’ -<br>The specified module could not be found.<br>in Unknown on line 0<br>Could not open input file: /?</p>
+<p>4.重启apache等webserver<br>     即可使用原来找不到的函数~<br>     CLI（命令行/脚本）模式下则不需要。</p>
+<h1 id="Concepts"><a href="#Concepts" class="headerlink" title="Concepts"></a>Concepts</h1><p>SPL<br>Standard PHP Library</p>
+<p>PHPUnit是PHP应用的单元测试框架的业界标准</p>
+<p>PHP通过内置的FastCGI进程管理器(FPM)，可以非常高效地和轻量级的高性能Web服务器nginx进行通信。<br>nginx比Apache消耗更少的内存，能更好的处理并发请求，这在内存限制较多的虚拟主机环境中尤为重要。</p>
+<p>Redis<br>是一个开源、支持网络、基于内存，的高性能Key-Value存储系统（cache and store）。使用ANSI C编写。<br>通常被称为数据结构服务器，因为值（value）可以是 字符串(String), 哈希(Map), 列表(list), 集合(sets) 和 有序集合(sorted sets)等类型。</p>
+<p>Composer<br>新一代的PHP依赖管理工具，服务于 PHP 生态系统。<br>其中的很多理念都借鉴了 npm 和 Bundler。<br>它实际上包含了两个部分：Composer 和 Packagist</p>
+<p>Composer 是一个命令行工具，帮你为项目自动安装所依赖的开发包。<br>它包含了一个依赖解析器，用来处理开发包之间复杂的依赖关系；<br>另外，它还包含了下载器、安装器等。</p>
+<p>Packageist 是 Composer 的默认的开发包仓库。<br>可以将自己的安装包提交到 packagist，将来你在自己的 VCS （源码管理软件，比如 Github） 仓库中<br>新建了 tag 或更新了代码，packagist 都会自动构建一个新的开发包。<br>这就是 packagist 目前的运作方式，将来 packagist 将允许直接上传开发包。</p>
+<p>XDebug<br>调试器是软件开发过程中非常重要的一个工具，通过它，可以跟踪代码的执行过程，查看堆栈信息。<br>XDebug是一个PHP调试器，可以集成在常见的IDE中，提供设置断点、 查看堆栈信息等功能，<br>还可以和PHPUnit、KCacheGrind等工具配合，执行代码覆盖率测试和性能调优。</p>
+<p>依赖管理<br>如今有大量的PHP函数库、框架和组件可供选择，一个项目中可能会使用其中的若干——即项目的依赖。<br>到目前为止，PHP还没有有效的 项目依赖管理方案。即使你手工的管理它们，你还不得不处理其自动加载问题。</p>
+<p>目前主要有两个PHP包管理系统：Composer和PEAR，哪个适合你？答案是两个都需要。<br>    管理单个项目的依赖时使用Composer<br>    管理整个系统的PHP依赖时使用PEAR</p>
+<p>通常情况下，Composer包只在你项目中明确指定时才可用，而PEAR包在所有的PHP项目中可用。<br>尽管PEAR听起来似乎更简单，但是根据每个 项目制定方案可能更合适。</p>
+<p>缓存<br>PHP自身效率很高，但是执行创建远程连接、加载文件等操作时容易出现瓶颈，<br>幸运的是，我们有很多工具来加速这部分操作，或减少 这些耗时操作的执行次数。</p>
+<p>字节码缓存：在一个PHP文件被执行时，它先被编译为字节码(也称opcode)，然后这些字节码被执行。<br>如果文件没有修改，那么字节码也会保持不变， 这意味着编译这一步白白浪费了CPU资源。</p>
+<p>对象缓存：如果在取得一些数据之后，把它们缓存在系统中，<br>在后续对这些数据的请求 中，就可以直接使用缓存中的对象（对象变化较少），<br>这么做可以很大地提升系统性能，减少服务器的负载。<br>使用最多的内存对象缓存系统是APCu和memcached。<br>APCu是很好的一个对象缓存方案，它提供了简单的API来让你把对象存储在内存中，<br>而且 配置和使用都非常容易，它的一个缺点是只能在本机使用。<br>Memcached则是另外一种方式，它是一个单独的服务，<br>可以通过网络访问，这 意味着可以在一个地方写入数据，然后在不同的系统中访问这份数据。</p>
+<p>框架<br>框架抽象出底层通用的业务逻辑，给使用者了提供简单易用的接口。<br>不是所有的项目都需要框架，有时候原生的PHP就能满足需求，但需要框架时，有三种类型的框架可供选择：</p>
+<p>1 微框架：仅是一个包装器(Wrapper)，尽量快地把HTTP请求路由到回调函数、控制器或方法上，<br>有些框架也会提供一些函数库，如基本的数据库 操作。微框架主要用于构建远程HTTP服务。</p>
+<p>2 全能(Full-Stack)框架：在微框架的功能之上提供了更多的功能特性，如ORM，验证组件等。</p>
+<p>3 组件框架：一组独立功能库的集合，多个基于组件的框架集合在一起，甚至可以用作微框架或者全能框架。</p>
+<p>组件<br>如前所述，组件是另外一种创建、实现和发布开源代码的方式，当前社区存在很多组件库，最主要的两个：<br>    Packagist<br>    PEAR<br>这两个库都有用于安装和升级的命令行工具，已经在依赖管理部分讲述.</p>
+<p>Master-Slave<br>It’s a model of communication where one device or process has unidirectional control over one or more other devices. In some systems a master is elected from a group of eligible devices, with the other devices acting in the role of slaves.<br>In database replication, the master database is regarded as the authoritative source, and the slave databases are synchronized to it.</p>
+<p>Abbr List<br>MC     memcache<br>Vendor     供应商<br>BDD     行为驱动开发</p>
+<p>PHP 编码规范 - 过去未注意的部分<br>*（部门内使用，参考公认的标准，有参考价值）</p>
+<p>控制结构的关键字后必须要有一个空格符，而调用方法或函数时则一定不能有。</p>
+<p>纯PHP代码文件必须省略最后的 ?&gt; 结束标签。</p>
+<p>// 类声明范例<br>&lt;?php<br>namespace Vendor\Package;</p>
+<p>use FooClass;<br>use BarClass as Bar;<br>use OtherVendor\OtherPackage\BazClass;</p>
+<p>class ClassName extends ParentClass implements<br>    \ArrayAccess,<br>    \Countable,<br>    \Serializable<br>{<br>    // constants, properties, methods<br>}</p>
+<p>简单数组的新声明方式！<br>&lt;?php<br>$array = array(<br>    “foo” =&gt; “bar”,<br>    “bar” =&gt; “foo”,<br>);</p>
+<p>// 自 PHP 5.4 起<br>$array = [<br>    “foo” =&gt; “bar”,<br>    “bar” =&gt; “foo”,<br>];<br>?&gt;</p>
+<p>From: www.laruence.com/manual/yaf.classes.html#yaf.class.application.props._app<br>_app<br>    Yaf_Application通过特殊的方式实现了单利模式, 此属性保存当前实例</p>
+<h1 id="单例模式-误为-单利模式"><a href="#单例模式-误为-单利模式" class="headerlink" title="单例模式 误为 单利模式"></a>单例模式 误为 单利模式</h1>
 </div>
 
 <footer class="article-footer clearfix">
@@ -232,7 +241,7 @@
 
 
 <div class="article-share" id="share">
-    <div data-url="http://icehe.me/note/think_clearly.html" data-title="清醒思考的艺术 - Note | IceHe 何志远" data-tsina="undefined" class="share clearfix">
+    <div data-url="http://icehe.me/notes/php.html" data-title="PHP Note | IceHe 何志远" data-tsina="undefined" class="share clearfix">
     </div>
 </div>
 
@@ -245,7 +254,7 @@
 
 <!-- Comments Begin -->
 <section id="comments" class="comment">
-    <div class="ds-thread" data-thread-key="note/think_clearly.html" data-title="清醒思考的艺术 - Note" data-url="http://icehe.me/note/think_clearly.html"></div>
+    <div class="ds-thread" data-thread-key="notes/php.html" data-title="PHP Note" data-url="http://icehe.me/notes/php.html"></div>
 </section>
 
 <script type="text/javascript">
@@ -668,7 +677,7 @@ var duoshuoQuery = {short_name:"icehe"};
     function addCount(Counter) {
         if (1 == $('.article-title').length
                 && (-1 != location.href.indexOf("icehe.me"))
-                && (-1 == location.href.indexOf("icehe.me/note/"))
+                && (-1 == location.href.indexOf("icehe.me/notes/"))
         ) {
             url = $('.article-url').attr('href').trim();
             title = $('.article-title').text().trim();
