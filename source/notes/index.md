@@ -9,8 +9,9 @@ date: 2015-03-16
     看饭本领： 看《深入 PHP xxx》 / [PHP Cheat Sheet](http://www.visibone.com/php/pb8.html) / [PHP程序员的技术成长规划](www.programcat.com/index/info/id/3) / [PHP 程序员解决问题能力的八个级别](https://linux.cn/article-6149-weibo.html) / [PHP7 革新与性能优化](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&mid=213740207&idx=1&sn=7f66f926f20dfa5e458e4d3ba70b7ae2&scene=5&srcid=0921Nfh4yACYqSrb0nedSSLq#rd) / [PHP 底层的运行机制与原理](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=400392225&amp;idx=1&amp;sn=9a9a99f9e26f5cf2c5de43acf477386a&amp;scene=1&amp;srcid=1114EoiWRMcR0ZM5tXYc4Buf#rd) / [PHP7 的抽象语法树（AST）带来的变化](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=401472619&amp;idx=1&amp;sn=85034ff0aa96b5fc3a2345d01906b862&amp;scene=1&amp;srcid=0104MWmCwCW5wiSsPApW2Nm9#rd)/ [变量在 PHP7 内部的实现（一）](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=401205993&amp;idx=1&amp;sn=af64b9c2fd91ed87457af3d38f334a25&amp;scene=1&amp;srcid=1230RmdMvPqFtpot4bOzzxgN#rd) / [（二）](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=401229562&amp;idx=1&amp;sn=710d813efc5be8280fc17c554a696d74&amp;scene=1&amp;srcid=12303QNjLyATdE4lysM8s29X#rd)
 - 2 学 客户端指令： [Plan](/notes/cmd_plan.html) / [CLI Note](/notes/command_line.html)
 - 2 学 [Bash](/notes/bash.html) / [Shell](/notes/shell.html) / [Debug](https://www.ibm.com/developerworks/cn/linux/l-cn-shell-debug/)
+- 1 学 [Nginx](https://github.com/ruanyf/articles/blob/master/dev/web/nginx.md) / [Http](https://github.com/ruanyf/articles/blob/master/dev/web/http.md)
 - 1 学 Redis
-- 1 学 php-fpm 配置
+- 1 学 php-fpm 配置 / [Apache](https://github.com/ruanyf/articles/blob/master/dev/linux/apache.md)
 <hr/>
 - 0 深入 [JavaScript](http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/0014344991049250a2c80ec84cb4861bbd1d9b2c0c2850e000) / [JS - Note](/notes/js_note.html)
 - 0 学 Node.js
@@ -26,7 +27,7 @@ __Maybe__
 <hr/>
 - 0 FF 本地浏览器代理插件的完善，以便自定义代理规则，[AutoProxy代理规则简单写法](http://mydf.github.io/blog/autoproxy/)（实践）
 <hr/>
-- 0 试 WM —— [i3wm](http://i3wm.org/docs/userguide.html), [<i3 - improved tiling wm>](http://i3wm.org/) (据说mac的virtualbox配i3,秒开), [awesome wm](https://awesomewm.org/), Divi, [kwm](https://github.com/koekeishiya/kwm), awesome
+- 0 试 WM —— [i3wm](http://i3wm.org/docs/userguide.html), [<i3 - improved tiling wm>](http://i3wm.org/) (据说mac的virtualbox配i3,秒开), [awesome wm](https://awesomewm.org/), Divi, [kwm](https://github.com/koekeishiya/kwm), [xMonad](https://github.com/ruanyf/articles/blob/master/dev/linux/xmonad.md)
 - 0 Other [Algo](/notes/algo.html) , [Cpp](/notes/cpp.html)
 
 __Work__

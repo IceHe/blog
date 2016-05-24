@@ -1,7 +1,11 @@
 title: Bash - Note
 ---
 
-http://www.linux-sxs.org/programming/bashcheat.html
+[Bash脚本](https://github.com/ruanyf/articles/blob/master/dev/linux/script.md)
+
+[ruanyf/articles/tree/master/dev/bash](https://github.com/ruanyf/articles/tree/master/dev/bash)
+
+[http://www.linux-sxs.org/programming/bashcheat.html](http://www.linux-sxs.org/programming/bashcheat.html)
 
 上一阶段学Bash的参考资料：
 ≈

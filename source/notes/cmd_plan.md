@@ -1,6 +1,10 @@
 title: Cmd Plan
 ---
 
+[Linux常用操作](https://github.com/ruanyf/articles/blob/master/dev/linux/operations.md)  —— watch, nmcli, fdisk
+
+[chmod 0000 权限用法](https://github.com/ruanyf/articles/blob/master/dev/linux/basic.md)
+
 [bash的用法](https://github.com/ruanyf/articles/blob/master/dev/linux/bash.md)
 
 [SHELL编程之语法基础 – 邹立巍的博客](http://liwei.life/2016/05/16/69/)
