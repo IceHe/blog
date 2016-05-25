@@ -1309,7 +1309,7 @@
     <link href="http://icehe.me/bookmarks/"/>
     <id>http://icehe.me/bookmarks/</id>
     <published>2015-12-19T16:00:00.000Z</published>
-    <updated>2016-05-21T16:00:00.000Z</updated>
+    <updated>2016-05-24T16:00:00.000Z</updated>
     
     <content type="html">&lt;h1 id=&quot;IT-信息技术&quot;&gt;&lt;a href=&quot;#IT-信息技术&quot; class=&quot;headerlink&quot; title=&quot;IT 信息技术&quot;&gt;&lt;/a&gt;IT 信息技术&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/wizardforcel/w3school&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;W3School 教程整理&lt;/a&gt; &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/li&gt;
@@ -1484,6 +1484,12 @@
 &lt;/ul&gt;
 &lt;h2 id=&quot;Read-阅读&quot;&gt;&lt;a href=&quot;#Read-阅读&quot; class=&quot;headerlink&quot; title=&quot;Read 阅读&quot;&gt;&lt;/a&gt;Read 阅读&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.gitbook.com/explore&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitBook&lt;/a&gt; &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.gitbook.com/book/braydie/how-to-be-a-programmer/details/zh&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;How to be a Programmer&lt;/a&gt; &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.gitbook.com/book/alexastva/the-ultimate-question-of-programming-refactoring-/details&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;The Ultimate Question of Programming, Refactoring, and Every&lt;/a&gt; &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/xiao-jing-mo/19959253&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;编程入门指南 v1.4&lt;/a&gt; &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -1525,6 +1531,8 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;Web-Dev-开发&quot;&gt;&lt;a href=&quot;#Web-Dev-开发&quot; class=&quot;headerlink&quot; title=&quot;Web Dev 开发&quot;&gt;&lt;/a&gt;Web Dev 开发&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://jsonapi.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;{json:api}&lt;/a&gt; —— B/S 间的 JSON 格式数据的传输规范&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://designcode.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;design+code (前端教程)&lt;/a&gt; &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://openresty.org/download/agentzh-nginx-tutorials-zhcn.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;agentzh 的 Nginx 教程&lt;/a&gt; &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -1619,6 +1627,8 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;Career-职业生涯&quot;&gt;&lt;a href=&quot;#Career-职业生涯&quot; class=&quot;headerlink&quot; title=&quot;Career 职业生涯&quot;&gt;&lt;/a&gt;Career 职业生涯&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ruanyf/articles/blob/master/blogbook/bookone/2011-12-06-zawinski.md&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;痛苦造就性格&lt;/a&gt; —— 编程创业是极度艰巨的！&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.apesk.com/mbti/dati.asp?&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;免费的 MBTI 测试&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://blog.knownsec.com/Knownsec_RD_Checklist/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;知道创宇研发技能表 v3.0&lt;/a&gt;&lt;/p&gt;
