@@ -1,6 +1,6 @@
 title: My Bookmarks 书签
 date: 2015-12-20
-updated: 2016-05-22
+updated: 2016-05-25
 show_updated: true
 categories: [read]
 tags: [read]
@@ -186,6 +186,10 @@ Need to screen the content of this section. <sup>_todo_</sup>
 
 - [GitBook](https://www.gitbook.com/explore) <sup>_todo_</sup>
 
+    - [How to be a Programmer](https://www.gitbook.com/book/braydie/how-to-be-a-programmer/details/zh) <sup>_todo_</sup>
+
+    - [The Ultimate Question of Programming, Refactoring, and Every](https://www.gitbook.com/book/alexastva/the-ultimate-question-of-programming-refactoring-/details) <sup>_todo_</sup>
+
 - [编程入门指南 v1.4](http://zhuanlan.zhihu.com/xiao-jing-mo/19959253) <sup>_todo_</sup>
 
 - [如何阅读（ 技术 ）书籍](http://lucida.me/blog/on-reading-books/)
@@ -225,6 +229,8 @@ Need to screen the content of this section. <sup>_todo_</sup>
 - [知识的偏见 - 读《暗时间》的思考](http://www.jianshu.com/p/5c051b66c844) —— 「如果你手里有把锤子，所有东西看上去都想钉子。」
 
 ## Web Dev 开发
+
+- [{json:api}](http://jsonapi.org/) —— B/S 间的 JSON 格式数据的传输规范
 
 - [design+code (前端教程)](https://designcode.io/) <sup>_todo_</sup>
 
@@ -319,6 +325,8 @@ Need to screen the content of this section. <sup>_todo_</sup>
 - [加盐密码哈希：如何正确使用](http://blog.jobbole.com/61872/) —— [英文出处](https://crackstation.net/hashing-security.htm)。 <sup>__Best__</sup>
 
 ## Career 职业生涯
+
+- [痛苦造就性格](https://github.com/ruanyf/articles/blob/master/blogbook/bookone/2011-12-06-zawinski.md) —— 编程创业是极度艰巨的！
 
 - [免费的 MBTI 测试](http://www.apesk.com/mbti/dati.asp?)
 
