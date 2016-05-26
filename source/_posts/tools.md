@@ -1,6 +1,6 @@
 title: My Tools 利器
 date: 2015-11-21
-updated: 2016-05-17
+updated: 2016-05-27
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -117,13 +117,17 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
     管理 MySQL 数据库的客户端工具，方便好用。
 
-- [Transmit](https://panic.com/transmit/)
-
-    FTP 客户端工具，方便好用。
-
 - [Charles](https://www.charlesproxy.com/)
 
     网络封包分析工具。它类同于 Windows 平台上的 Fiddler。
+
+- [Postman](http://www.getpostman.com/)
+
+    Chrome App. APIs 开发、测试、归档的辅助工具。
+
+- [Transmit](https://panic.com/transmit/)
+
+    FTP 客户端工具，方便好用。
 
 - [Dash](https://kapeli.com/dash)
 
@@ -202,6 +206,10 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
     OS X 系统自带的字典应用其实很好用.
 
+- [f.lux](https://justgetflux.com/)
+
+    根据所在地当时的日照情况，自动调整屏幕色温、亮度，以保护眼睛。保证睡前的睡意比以往更浓。
+
 - [EuDic Free](http://www.eudic.net/eudic/mac_dictionary.aspx)
 
     欧路词典，Mac 上最好用的词典，免费版就够用了。
@@ -224,17 +232,11 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
     但不能定制快捷键快速启动其它 App，因而被 Manico 替代。
 
-- [Synergy](http://synergy-project.org/)
+- GTD App
 
-    鼠标和键盘共享软件。多台来自 OS X、Linux、Windows 等不同平台的PC，可以共用一个鼠标与键盘！
+    事务管理、日程规划类的 App。
 
-    可惜我只用一台 MBP，要用其它设备，就远程桌面连接就够了。
-
-- [Doit.im (Pro)](http://doit.im)
-
-    事务管理、日程规划。有很多的替代 App，只是习惯用这个了。
-
-    后来我借鉴它，产生了自己 Todo List 记录方法，用 Evernote 代替了这类 GTD 软件，进一步简化了我的工具。
+    后来我借鉴它们，产生了自己 Todo List 记录方法，用 Evernote 代替了 GTD 类软件。最后，基本只用 Apple 自带的 Calendar 日历来管理日程了。
 
 - [Time Out](http://www.dejal.com/timeout/)
 
@@ -246,13 +248,7 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
     音效增强软件。
 
-    锦上添花，但确实可有可无，可用于突破系统音量的上限。
-
-- [f.lux](https://justgetflux.com/)
-
-    根据所在地当时的日照情况，自动调整屏幕色温、亮度，以保护眼睛。保证睡前的睡意比以往更浓。
-
-    根据其默认的设置，17点后的屏幕色调变化，我还是不适应，看得颇累。
+    可用于突破系统音量的上限，音量过大可能损坏 Macbook，请留意。
 
 - [Nozio](http://noiz.io/)
 
@@ -286,15 +282,9 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
 - [Gas Mask](http://www.macupdate.com/app/mac/29949/gas-mask)
 
-    便捷的 Hots 文件修改工具。
+    便捷的 Host 文件修改工具。
 
     也是锦上添花的辅助软件，使用频率太低，所以不用。
-
-- [Light](http://zuimeia.com/community/app/29643/?platform=2)
-
-    趣闻阅读App，早晚更新推送，同类中的精品。
-
-    极简主义，减少无效的阅读，保持专注。
 
 - 附文：《 [OS X 有哪些值得装的小软件？](https://www.zhihu.com/question/27870072) 》
 
@@ -388,7 +378,7 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
 - [Greasemonkey](http://www.greasespot.net/)
 
-    使用 JavaScript 脚本自定义网站网页的布局、外观、操作等！有提供[油猴脚本网站](http://wiki.greasespot.net/User_Script_Hosting)。
+    使用 JavaScript 脚本自定义网站网页的布局、外观、操作等！有 [提供油猴脚本的网站](http://wiki.greasespot.net/User_Script_Hosting)。
 
 - [FoxyProxy Standard](http://getfoxyproxy.org/)
 
