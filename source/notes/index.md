@@ -92,4 +92,6 @@ After 2016/07/09
 - [The Art of Readable Code - Note](/notes/art_of_readable_code.html) <sup>_todo_</sup>
 - [Firefox Stylish CSS - Square Tab](/notes/firefox_stylish_css.html)
 - [Eclipse - Shortcuts](/notes/eclipse_shortcuts.html)
+- [PHP empty() 和 isset() 的区别](/php/PHP empty() 和 isset() 的区别.html)
+- [PHP 的 var !== NULL 是否等价于 isset(var)](/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var).html)
 
