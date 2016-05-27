@@ -1,6 +1,6 @@
 title: My Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2016-05-26
+updated: 2016-05-27
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -1000,7 +1000,7 @@ __VimFX is a Firefox Extension.__
     - Vertical
 
     `gg` to Top
-    `G` to Btm
+    `G` | `ge` to Btm
 
     `j ` | `凵` Dn a Half Page
     `k ` | `⇧ 凵` Up a Half Page
