@@ -736,7 +736,7 @@
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
-    <updated>2016-05-25T16:00:00.000Z</updated>
+    <updated>2016-05-26T16:00:00.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;Ref: 《 &lt;a href=&quot;https://support.apple.com/zh-cn/HT201236&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mac 键盘快捷键&lt;/a&gt; 》&lt;/li&gt;
@@ -1223,7 +1223,7 @@
 &lt;li&gt;&lt;p&gt;Scroll&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Vertical&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;gg&lt;/code&gt; to Top&lt;br&gt;&lt;code&gt;G&lt;/code&gt; to Btm&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;gg&lt;/code&gt; to Top&lt;br&gt;&lt;code&gt;G&lt;/code&gt; | &lt;code&gt;ge&lt;/code&gt; to Btm&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;j&lt;/code&gt; | &lt;code&gt;凵&lt;/code&gt; Dn a Half Page&lt;br&gt;&lt;code&gt;k&lt;/code&gt; | &lt;code&gt;⇧ 凵&lt;/code&gt; Up a Half Page&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;d&lt;/code&gt; Dn a Whole Page&lt;br&gt;&lt;code&gt;q&lt;/code&gt; Up a Whole Page&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;^ j&lt;/code&gt; Dn&lt;br&gt;&lt;code&gt;^ k&lt;/code&gt; Up&lt;/p&gt;
@@ -1873,6 +1873,8 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;Think-思维&quot;&gt;&lt;a href=&quot;#Think-思维&quot; class=&quot;headerlink&quot; title=&quot;Think 思维&quot;&gt;&lt;/a&gt;Think 思维&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/21249109&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何用3个月毁掉你的室友？（大学生版）&lt;/a&gt; —— 写照。 &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/27283467&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;智商高低是因为思维习惯不同造成的吗？&lt;/a&gt; —— 思考能力。 &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/20416520&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何从思维上彻底改变学习模式？&lt;/a&gt; —— 实用主义 VS 完美主义。&lt;/p&gt;
