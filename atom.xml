@@ -2982,10 +2982,11 @@ article .article-content ul li p:first-child {
     <link href="http://icehe.me/web/build_blog/"/>
     <id>http://icehe.me/web/build_blog/</id>
     <published>2015-11-13T16:00:00.000Z</published>
-    <updated>2016-01-18T16:00:00.000Z</updated>
+    <updated>2016-05-28T16:00:00.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;上一版《 &lt;a href=&quot;/old_version_posts/Why_and_how_to_build_my_blog.html&quot;&gt;Why and How to bulid my blog? 搭建我的个人博客&lt;/a&gt; 》&lt;/li&gt;
+&lt;li&gt;2016-05-29 指向 zipperary.com 的外链失效，暂用其它链接替换了，待日后完善。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;Why-初衷&quot;&gt;&lt;a href=&quot;#Why-初衷&quot; class=&quot;headerlink&quot; title=&quot;Why - 初衷&quot;&gt;&lt;/a&gt;Why - 初衷&lt;/h1&gt;&lt;p&gt;与其到各大博客平台去写博客，&lt;br&gt;不如自己搭建个独一无二的。&lt;br&gt;不但过程有意思，还能学到许多新知识。&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;可以用来记录&lt;a href=&quot;/lifelogs&quot;&gt;自己的人生&lt;/a&gt;，&lt;br&gt;放一些值得分享的技术、读书笔记和感想。&lt;/p&gt;
@@ -3001,10 +3002,11 @@ article .article-content ul li p:first-child {
 &lt;p&gt;（有空会找机会再折腾一个动态博客）&lt;/p&gt;
 &lt;h2 id=&quot;Hexo-Course-建站教程&quot;&gt;&lt;a href=&quot;#Hexo-Course-建站教程&quot; class=&quot;headerlink&quot; title=&quot;Hexo Course 建站教程&quot;&gt;&lt;/a&gt;Hexo Course 建站教程&lt;/h2&gt;&lt;p&gt;广泛检索后，参阅了如下教程建站：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://zipperary.com/2013/05/28/hexo-guide-2/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo系列教程：（二）搭建hexo博客&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://zipperary.com/2013/05/29/hexo-guide-3/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo系列教程：（三）hexo博客的配置、使用&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://zipperary.com/2013/05/30/hexo-guide-4/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo系列教程：（四）hexo博客的优化技巧&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://zipperary.com/2013/06/02/hexo-guide-5/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo系列教程：（五）hexo博客的优化技巧续&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://wsgzao.github.io/post/hexo-guide/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;使用 GitHub 和 Hexo 搭建免费静态 Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;&lt;a href=&quot;http://zipperary.com/2013/05/28/hexo-guide-2/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo系列教程：（二）搭建hexo博客&lt;/a&gt;&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;&lt;a href=&quot;http://zipperary.com/2013/05/29/hexo-guide-3/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo系列教程：（三）hexo博客的配置、使用&lt;/a&gt;&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;&lt;a href=&quot;http://zipperary.com/2013/05/30/hexo-guide-4/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo系列教程：（四）hexo博客的优化技巧&lt;/a&gt;&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;&lt;a href=&quot;http://zipperary.com/2013/06/02/hexo-guide-5/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo系列教程：（五）hexo博客的优化技巧续&lt;/a&gt;&lt;/del&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;其中会提到，下文涉及的“&lt;a href=&quot;#Custom_Points_定制点&quot;&gt;定制点&lt;/a&gt;”的内容，包含功能模块的具体配置方法。&lt;/p&gt;
 &lt;p&gt;可能其中涉及各工具和模块已经有新版本，&lt;br&gt;具体操作细节最好参考它们最新的官方文档。&lt;br&gt;&lt;br&gt;&lt;/p&gt;
@@ -3029,9 +3031,10 @@ article .article-content ul li p:first-child {
 &lt;p&gt;域名购买推荐：&lt;br&gt;(1) 国内老牌：&lt;a href=&quot;http://wanwang.aliyun.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;万网&lt;/a&gt;（已被阿里收购）&lt;br&gt;(2) 国外老牌：&lt;a href=&quot;https://www.godaddy.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GoDaddy&lt;/a&gt;&lt;br&gt;(3) 我的选择：&lt;a href=&quot;https://www.namecheap.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;NameCheap&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;想要最低的价格，可以参考域名比价网站&lt;a href=&quot;https://www.domcomp.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt; Domain Price Comparison&lt;/a&gt;。&lt;br&gt;推荐阅读知乎问答：&lt;a href=&quot;http://www.zhihu.com/question/19551906&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;现在去哪里买 .com 域名最便宜？&lt;/a&gt;&lt;br&gt;因为买域名不能只考虑价格，还得考虑服务。&lt;/p&gt;
 &lt;p&gt;域名解析推荐：&lt;br&gt;(1) 老牌：&lt;a href=&quot;http://wanwang.aliyun.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;万网&lt;/a&gt;（在万网买的域名，可以直接用它）&lt;br&gt;(2) 我的选择：&lt;a href=&quot;https://www.dnspod.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;DNSPod&lt;/a&gt;（国内、免费、稳定、快速、用户友好）&lt;/p&gt;
-&lt;p&gt;域名解析选择国内运营商，有利于提高国内访客的访问速度。&lt;br&gt;具体配置过程可参考：&lt;a href=&quot;http://zipperary.com/2013/05/27/domain-name-and-dns/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;购买域名、设置DNS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;域名解析选择国内运营商，有利于提高国内访客的访问速度。&lt;br&gt;具体配置过程可参考： &lt;a href=&quot;https://wsgzao.github.io/post/hexo-guide/#%E5%9F%9F%E5%90%8D%E5%92%8CDNS&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;域名和DNS&lt;/a&gt;&lt;br&gt;&lt;del&gt;&lt;a href=&quot;http://zipperary.com/2013/05/27/domain-name-and-dns/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;购买域名、设置dns&lt;/a&gt;&lt;/del&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Sitemap-站点地图-amp-RSS-订阅&quot;&gt;&lt;a href=&quot;#Sitemap-站点地图-amp-RSS-订阅&quot; class=&quot;headerlink&quot; title=&quot;Sitemap 站点地图 &amp;amp; RSS 订阅&quot;&gt;&lt;/a&gt;&lt;strong&gt;Sitemap 站点地图 &amp;amp; RSS 订阅&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;站点地图给搜索引擎的爬虫以及网站的订阅者，&lt;br&gt;说明了博客里有哪些链接、文章、页面内容，&lt;br&gt;提高博客在搜索引擎的抓取、收录效果，&lt;br&gt;给关注你博客的朋友，提供了订阅功能。&lt;/p&gt;
-&lt;p&gt;具体配置过程可参考：&lt;br&gt;&lt;a href=&quot;http://zipperary.com/2013/06/02/hexo-guide-5/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo博客的优化技巧续&lt;/a&gt;（推荐结合以下内容阅读）&lt;/p&gt;
+&lt;p&gt;具体配置过程可参考：&lt;br&gt;&lt;del&gt;&lt;a href=&quot;http://zipperary.com/2013/06/02/hexo-guide-5/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo博客的优化技巧续&lt;/a&gt;（推荐结合以下内容阅读）&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TODO: 待日后补全细节，暂参考 &lt;a href=&quot;http://www.jianshu.com/p/bb35e703f9bf&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;RSS 和 sitemap&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Widget-闲杂模块&quot;&gt;&lt;a href=&quot;#Widget-闲杂模块&quot; class=&quot;headerlink&quot; title=&quot;Widget 闲杂模块&quot;&gt;&lt;/a&gt;&lt;strong&gt;Widget 闲杂模块&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;除了博客的基本功能模块，还有一半需要额外添加的模块。&lt;br&gt;Hexo自带的功能：archive 归档、category 分类、tag 标签。&lt;/p&gt;
 &lt;p&gt;其它的模块，如：&lt;a href=&quot;http://jssdk.sinaapp.com/widget/weiboshow.php&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;微博秀&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Bed-Room-图床&quot;&gt;&lt;a href=&quot;#Bed-Room-图床&quot; class=&quot;headerlink&quot; title=&quot;Bed Room 图床&quot;&gt;&lt;/a&gt;&lt;strong&gt;Bed Room 图床&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;顾名思义，存放博客图片的地方。&lt;/p&gt;
@@ -3056,7 +3059,8 @@ article .article-content ul li p:first-child {
 &lt;p&gt;推荐：&lt;br&gt;(1) &lt;a href=&quot;http://www.google.com/analytics/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Google Analytics&lt;/a&gt;&lt;br&gt;(2) &lt;a href=&quot;http://tongji.baidu.com/web/welcome/login&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;百度统计&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;最好两个同时使用，还有它们的站长工具，体会其中的差异，&lt;br&gt;而且它们会派爬虫去抓取你的博客，其结果将会收录到搜索引擎~&lt;/p&gt;
 &lt;h3 id=&quot;Speed-Optimize-访问速度优化&quot;&gt;&lt;a href=&quot;#Speed-Optimize-访问速度优化&quot; class=&quot;headerlink&quot; title=&quot;Speed Optimize 访问速度优化&quot;&gt;&lt;/a&gt;&lt;strong&gt;Speed Optimize 访问速度优化&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;手段繁多，&lt;br&gt;除了上文提到的将图片放到CDN服务商那里的方法外，&lt;br&gt;css文件、js脚本等也可以放到CDN那里，&lt;br&gt;把静态网站托管到更访问速度更好的平台（也包括CDN）上，&lt;br&gt;压缩图片到适当大小，优化theme、js脚本的代码……&lt;br&gt;在此不赘述。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://zipperary.com/2013/11/23/hexo-to-gitcafe/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;托管博客到gitcafe&lt;/a&gt;比较便捷。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;&lt;a href=&quot;http://zipperary.com/2013/11/23/hexo-to-gitcafe/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;托管博客到gitcafe&lt;/a&gt;&lt;/del&gt; 比较便捷。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TODO: 待日后补全细节，暂参考 &lt;a href=&quot;http://www.jianshu.com/p/3141cffc1b1b&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo系列教程之五：hexo博客同时托管在github和coding&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Ad-卖流量（广告）&quot;&gt;&lt;a href=&quot;#Ad-卖流量（广告）&quot; class=&quot;headerlink&quot; title=&quot;Ad 卖流量（广告）&quot;&gt;&lt;/a&gt;&lt;strong&gt;Ad 卖流量（广告）&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;当你的网站做得一级棒，流量很大（访客很多）的时候，&lt;br&gt;就就可以靠卖广告挣点外快了，挣回网站的维护成本，&lt;br&gt;甚至养活自己，发大财￥&lt;/p&gt;
 &lt;p&gt;推荐：&lt;br&gt;(1) &lt;a href=&quot;http://www.google.cn/intl/zh-CN/ads/ads_1.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Google AdSense&lt;/a&gt;&lt;br&gt;(2) &lt;a href=&quot;http://adm.baidu.com/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;百度广告&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;还有很多其它广告平台，可自行查阅。&lt;/p&gt;
