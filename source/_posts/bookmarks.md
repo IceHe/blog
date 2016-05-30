@@ -495,6 +495,8 @@ Need to screen the content of this section. <sup>_todo_</sup>
 
 ## Think 思维
 
+- [如何用3个月毁掉你的室友？（大学生版）](https://zhuanlan.zhihu.com/p/21249109) —— 写照。 <sup>__Best__</sup>
+
 - [智商高低是因为思维习惯不同造成的吗？](https://www.zhihu.com/question/27283467) —— 思考能力。 <sup>__Best__</sup>
 
 - [如何从思维上彻底改变学习模式？](https://www.zhihu.com/question/20416520) —— 实用主义 VS 完美主义。
