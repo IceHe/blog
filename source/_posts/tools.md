@@ -372,6 +372,10 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
     [Vimperator](http://www.vimperator.org/) 拓展功能太强大，响应速度、稳定性、外观和易用性不如 VimFX。
 
+- [Enter Selects](https://addons.mozilla.org/en-US/firefox/addon/enter-selects/)
+
+    在地址栏输入时，会根据内容自动匹配你可能想打开的内容，包括：收藏的书签、浏览历史、搜索引擎、选项卡。
+
 - [Evernote Web Clipper](https://evernote.com/intl/zh-cn/webclipper/)
 
     一键收藏各类网页图文，保存到 Evernote。
@@ -404,21 +408,21 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
     屏蔽所有页面的 Flash 内容的加载；需要时，才点击加载。
 
-- [NoScript](https://noscript.net/)
+- ~~[NoScript](https://noscript.net/)~~
 
-    根据自定义的规则，屏蔽/通过 JavaScript、Java、Flash 以及其它插件等的页面内容，降低安全风险。
+    ~~根据自定义的规则，屏蔽/通过 JavaScript、Java、Flash 以及其它插件等的页面内容，降低安全风险。~~ 除非对隐私要求高，不然没必要。
 
-- [RequestPolicy](https://www.requestpolicy.com/)
+- ~~[RequestPolicy](https://www.requestpolicy.com/)~~
 
-    控制允许哪些跨站点的请求，改善隐私保护，避免遭遇跨站点请求伪造（CSRF）以及其它攻击。
-
-- [NumberedTabs](https://addons.mozilla.org/zh-CN/firefox/addon/numberedtabs/?src=api)
-
-    显示标签页的编号，以便使用快捷键 ⌘ + 编号 切换至对应标签。
+    ~~控制允许哪些跨站点的请求，改善隐私保护，避免遭遇跨站点请求伪造（CSRF）以及其它攻击。~~ 除非对隐私要求高，不然没必要。
 
 - [Stylish](https://userstyles.org/)
 
     用户样式管理器。用自定义或别人预定义好的 CSS 定制各网页的外观。
+
+- [NumberedTabs](https://addons.mozilla.org/zh-CN/firefox/addon/numberedtabs/?src=api)
+
+    显示标签页的编号，以便使用快捷键 ⌘ + 编号 切换至对应标签。
 
 ## Windows
 
