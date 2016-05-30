@@ -273,7 +273,7 @@
     <link href="http://icehe.me/cmd/git_note/"/>
     <id>http://icehe.me/cmd/git_note/</id>
     <published>2016-02-14T16:00:00.000Z</published>
-    <updated>2016-04-06T16:00:00.000Z</updated>
+    <updated>2016-05-29T16:00:00.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;Omit the unusual commands at my work.&lt;/li&gt;
@@ -411,6 +411,7 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://git-scm.com/docs/git-stash&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;stash&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;  Stash the changes in a dirty working dir away.&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;git stash&lt;/code&gt; = &lt;code&gt;git stash save&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;list&lt;/code&gt; List stashes you have.&lt;br&gt;  &lt;code&gt;show [&amp;lt;stash&amp;gt;]&lt;/code&gt; Show the changes recorded in specific stash.&lt;br&gt;  &lt;code&gt;pop [&amp;lt;stash&amp;gt;]&lt;/code&gt; Rm a single stashed state from the stash list and apply it on top of the cur working tree state.&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;&amp;lt;stash&amp;gt;&lt;/code&gt; e.g. &lt;code&gt;stash@{&amp;lt;revision&amp;gt;}ster +10 ~0 -0 !&lt;/code&gt;&lt;br&gt;  在这段提示的地方，你可以看到几个东西：&lt;br&gt;  master 代表目前工作目录是 master 分支，也是 Git 的预设分支名称。&lt;br&gt;  “红色”的数字都代表 Untracked (未追踪)`&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/li&gt;
