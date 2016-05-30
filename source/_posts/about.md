@@ -11,7 +11,7 @@ toc: false
 <span class="key_pos">I'm</span>  <span class="val_pos"> <i class="fa fa-user-secret">&nbsp;</i> &nbsp;__<a href="#qr_code" target="_top" onclick="document.getElementById('qr_code').className='pic_styl'; setTimeout(function(){ $('#qr_code').fadeOut(100).fadeIn(150).fadeOut(100).fadeIn(150); }, 200);">Ice He 何志远</a>__ </span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-paper-plane">&nbsp;</i> A Cantonese in Beijing</sup> </span>
 <span class="val_pos"> <i class="fa fa-envelope-square">&nbsp;</i> &nbsp;<x@icehe.me> </span>
-<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-heart">&nbsp;</i> Animate, Zhixin, Shuttle Cock, 毽球</sup> </span>
+<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-heart">&nbsp;</i> Apple, Animate, Zhixin, Shuttle Cock, 毽球</sup> </span>
 
 <br/> <span class="key_pos">Job</span>  <span class="val_pos"> <i class="fa fa-weibo">&nbsp;</i> [Sina Weibo](http://weibo.com/2181657940/) - Mobile API </span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-puzzle-piece">&nbsp;</i> Server-side Development Engineer </sup> </span>
