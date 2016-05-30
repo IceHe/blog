@@ -1,6 +1,6 @@
 title: Git Note
 date: 2016-02-15
-updated: 2016-04-07
+updated: 2016-05-30
 show_updated: true
 categories: [Command]
 tags: [Command]
@@ -302,6 +302,8 @@ $ git checkout <commit_id>   # 恢复到 revert 前的 commit 的状态。
 - [stash](http://git-scm.com/docs/git-stash)
 
     Stash the changes in a dirty working dir away.
+
+    `git stash` = `git stash save`
 
     `list` List stashes you have.
     `show [<stash>]` Show the changes recorded in specific stash.
