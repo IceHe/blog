@@ -1,6 +1,6 @@
 title: Git Note
 date: 2016-02-15
-updated: 2016-05-30
+updated: 2016-05-31
 show_updated: true
 categories: [Command]
 tags: [Command]
@@ -692,79 +692,68 @@ $ git merge experiment
 # [**Zsh Aliases**](https://github.com/IceHe/oh-my-zsh/blob/master/plugins/git/git.plugin.zsh)
 
 ```sh
+alias g='git'
+
 alias ga='git add'
 alias gaa='git add --all'
 
 alias gb='git branch'
 alias gba='git branch -a'
 
-alias gbs='git bisect'
-alias gbss='git bisect start'
-alias gbsb='git bisect bad'
-alias gbsg='git bisect good'
-alias gbsr='git bisect reset'
+alias gbl='git blame -b -w'
 
 alias gc='git commit -v'
 alias gc!='git commit -v --amend'
 alias gca!='git commit -v -a --amend'
+alias gcm='git commit -m'
 alias gcam='git commit -a -m'
 
+alias gcf='git config'
+alias gcfl='git config -l'
+alias gce='git config -e'
+
+alias gcl='git clone --recursive'
+
 alias gco='git checkout'
+alias gcom'git checkout master'
 alias gcb='git checkout -b'
-alias gcm='git checkout master'
-
-alias gcf='git config --list'
-
-alias gcmsg='git commit -m'
-
-alias gcount='git shortlog -sn'
 
 alias gcp='git cherry-pick'
 
 alias gd='git diff'
-alias gdca='git diff --cached'
+alias gdc='git diff --cached'
+alias gdw='git diff --word-diff'
 
-alias gf='git fetch'
+alias gg='git gui citool'
+alias gga='git gui citool --amend'
+
+alias ggr='git grep'
+
+alias gk='\gitk --all --branches'
+alias gke='\gitk --all $(git log -g --pretty=format:%h)'
+
 alias gl='git pull'
 
-alias glg='git log --stat --color'
-alias glgp='git log --stat --color -p'
-alias glgg='git log --graph --color'
-alias glgga='git log --graph --decorate --all'
-alias glgm='git log --graph --max-count=10'
-alias glo='git log --oneline --decorate --color'
-alias glol="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-alias glola="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all"
-alias glp="_git_log_prettily"
-
-alias gm='git merge'
-alias gmom='git merge origin/master'
+alias glog='git log --oneline --decorate --graph'
 
 alias gp='git push'
 
-alias gr='git remote'
-alias gra='git remote add'
+alias grm='git remote'
+alias grma='git remote add'
+
+alias gr='git reset HEAD'
+alias grh='git reset HEAD --hard'
 
 alias grb='git rebase'
 alias grba='git rebase --abort'
 alias grbc='git rebase --continue'
 alias grbi='git rebase -i'
-alias grbm='git rebase master'
-alias grbs='git rebase --skip'
 
-alias grh='git reset HEAD'
-alias grhh='git reset HEAD --hard'
-alias grmv='git remote rename'
-alias grrm='git remote remove'
-alias grset='git remote set-url'
+alias gs='git status -sb'
 
-alias gru='git reset --'
-alias grup='git remote update'
-alias grv='git remote -v'
-
-alias gs='git status'
-alias gsb='git status -sb'
-
-alias gts='git tag -s'
+alias gst='git stash'
+alias gsd='git stash drop'
+alias gsl='git stash list'
+alias gsp='git stash pop'
 ```
 
