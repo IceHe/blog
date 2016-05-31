@@ -1,6 +1,6 @@
 title: My Tools 利器
 date: 2015-11-21
-updated: 2016-05-27
+updated: 2016-05-31
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -37,7 +37,7 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
 - [Chrome](https://www.google.com/chrome/)
 
-    更习惯用 Chrome 的 Inspect Element 做 Web 的调试，而非 Firebug。
+    Chrome 的 Inspect Element 做 Web 的调试，远胜 Firebug。
 
 - [Squirrel](http://rime.im/)
 
@@ -57,7 +57,7 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
     目前最广泛、好用的代码版本管理工具。程序员必修。
 
-- [Vim](http://www.vim.org/)
+- [Vim](http://www.vim.org/) | [Neovim](https://neovim.io/)
 
     编辑器之神（ Emacs 则是神的编辑器）。服务端开发、运维经常要远程连接服务器，vi\* 自然是必学技能。
 
@@ -408,13 +408,13 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
     屏蔽所有页面的 Flash 内容的加载；需要时，才点击加载。
 
-- ~~[NoScript](https://noscript.net/)~~
+<!--- ~~[NoScript](https://noscript.net/)~~-->
 
-    ~~根据自定义的规则，屏蔽/通过 JavaScript、Java、Flash 以及其它插件等的页面内容，降低安全风险。~~ 除非对隐私要求高，不然没必要。
+<!--~~根据自定义的规则，屏蔽/通过 JavaScript、Java、Flash 以及其它插件等的页面内容，降低安全风险。~~ 除非对隐私要求高，不然没必要。-->
 
-- ~~[RequestPolicy](https://www.requestpolicy.com/)~~
+<!--- ~~[RequestPolicy](https://www.requestpolicy.com/)~~-->
 
-    ~~控制允许哪些跨站点的请求，改善隐私保护，避免遭遇跨站点请求伪造（CSRF）以及其它攻击。~~ 除非对隐私要求高，不然没必要。
+<!--~~控制允许哪些跨站点的请求，改善隐私保护，避免遭遇跨站点请求伪造（CSRF）以及其它攻击。~~ 除非对隐私要求高，不然没必要。-->
 
 - [Stylish](https://userstyles.org/)
 
