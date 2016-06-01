@@ -1,6 +1,6 @@
 title: My Life Logs 手帐
 date: 2015-01-22
-updated: 2016-05-08
+updated: 2016-06-01
 show_updated: true
 categories: [time mgt]
 tags: [time mgt]
