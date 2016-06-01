@@ -1,6 +1,6 @@
 title: My Favourites 喜好
 date: 2015-11-19
-updated: 2016-05-22
+updated: 2016-05-31
 show_updated: true
 categories: [read]
 tags: [read]
@@ -94,9 +94,11 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 - [算法竞赛经典入门](http://book.douban.com/subject/4138920/)
 
-- __蔡志忠的漫画__
+- 蔡志忠的漫画
 
-- <span class="val_pos icon-douban"> &nbsp;[...其它读过的书...](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
+- <span class="val_pos icon-douban"> &nbsp;[其它读过的书](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
+
+    记下所有看过的书其实并没什么意义，以后就不在豆瓣更新了，只在博客此处记下心目中佳作。
 
 # FM 播客
 
@@ -384,9 +386,9 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 - [Re：从零开始的异世界生活](https://movie.douban.com/subject/26575153/)
 
-    轮回，未来。
+    轮回，执着。
 
-- [魔法少女小圆](http://movie.douban.com/subject_search?search_text=%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%86&cat=1002)
+- [魔法少女圆香](http://movie.douban.com/subject_search?search_text=%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%86&cat=1002)
 
     神作！轮回，救赎。打破常规的魔女作品，虚渊玄作品！
 
@@ -398,9 +400,13 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
     爱上Saber！
 
+- [Fate / Zero](http://movie.douban.com/subject/1727200/)
+
+    英雄的盛宴。
+
 - [Hunter X Hunter](http://movie.douban.com/subject/6748086/)
 
-    《全职猎人》，富奸是天才！
+    《全职猎人》，富奸是天才！心目中最宏大的动漫作品。
 
 - [No Game No Life](http://movie.douban.com/subject/24883272/)
 
@@ -416,7 +422,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 - [EVA](http://movie.douban.com/subject_search?search_text=%E6%96%B0%E4%B8%96%E7%BA%AA%E7%A6%8F%E9%9F%B3%E6%88%98%E5%A3%AB&cat=1002)
 
-    神作。
+    （上一世代的）神作。
 
 - [我的青春恋爱物语果然有问题](http://movie.douban.com/subject_search?search_text=%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E6%81%8B%E7%8B1%E7%89%A9%E8%AF%AD%E6%9E%9C%E7%84%B6%E6%9C%89%E9%97%AE%E9%A2%98&cat=1002)
 
@@ -432,7 +438,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 - [邻座的怪同学](http://movie.douban.com/subject/10759936/)
 
-    女学霸。
+    女学霸和男学霸的爱情故事。
 
 - [交响情人梦](http://movie.douban.com/subject_search?search_text=%E4%BA%A4%E5%93%8D%E6%83%85%E4%BA%BA%E6%A2%A6&cat=1002)
 
@@ -448,7 +454,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 - [花开伊吕波](http://movie.douban.com/subject/4935090/)
 
-    小清新。
+    花开之色。
 
 - [冰菓](http://movie.douban.com/subject/10001418/)
 
@@ -456,17 +462,19 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 - [One Piece](http://movie.douban.com/subject/1453238/)
 
-    太长弃坑。
+    心目中最燃作。太长弃坑。
 
 - [火影忍者](http://movie.douban.com/subject/1427318/)
 
-    动画入坑作，从只有几集时就开始追了，却没坚持到最后。
+    入宅作，从只有几集时就开始追了，却没坚持到最后。
 
 - [罗小黑战记](http://movie.douban.com/subject/10477598/)
 
     萌~
 
-- <span class="val_pos icon-douban"> &nbsp;[...其它看过的片...](http://movie.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
+- <span class="val_pos icon-douban"> &nbsp;[其它看过的片](http://movie.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
+
+    记下所有看过的片其实并没什么意义，以后就不在豆瓣更新了，只在博客此处记下心目中佳作。
 
 # Games 游戏
 
@@ -479,10 +487,6 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
     其它喜爱的曲目：
     Nine point nine , Platinum , Utopiosphere , Yubikiri-genman , Invite , Run go run , Pulses , Electron , Walking by the sea , Beyond the Stratus , Angelic sphere , Leviathan , Suspenseful third day , Living in the one , Little corgis dream , The way we were , The red coronation , Knight of firmament , Cream stew , I can not say , Kireigoto , New World , Time forgotten , Reminiscence .
 
-- [Cytus](https://itunes.apple.com/us/app/cytus/id485246824?mt=8)
-
-    雷亚出品，必属精品！
-
 - [Kingdom Rush](https://itunes.apple.com/en/app/kingdom-rush/id516378985?mt=8)
 
     《皇家守卫军》，塔防。
@@ -490,6 +494,10 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 - [Framed](https://itunes.apple.com/en/app/framed/id886565180?mt=8)
 
     《致命框架》，解密游戏，玩法新奇，好玩不难。
+
+- [Cytus](https://itunes.apple.com/us/app/cytus/id485246824?mt=8)
+
+    雷亚出品，必属精品！
 
 - [Monument Valley](https://itunes.apple.com/en/app/monument-valley/id728293409?mt=8)
 
