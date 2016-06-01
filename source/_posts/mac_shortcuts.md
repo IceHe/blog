@@ -1,6 +1,6 @@
 title: My Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2016-05-27
+updated: 2016-06-01
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -11,10 +11,9 @@ description: 我的 OS X 快捷键列表。
 
 # Explanation
 
-- Not all shortcuts , but also my most frequent ones!
-- Not only the default shortcuts, but alos the custom ones.
+- Include the most frequent-used __default__ shortcuts and all my __custom__ ones.
 
-## Key Characters
+## Key Symbols
 
 `` Power
 `⌘` Command ( Cmd )
@@ -32,13 +31,13 @@ description: 我的 OS X 快捷键列表。
 `←` Left ( Lf )
 `→` Right ( Rg )
 
-`⌫` Delete ( on Mac ) | Backspace ( on Windows )
+`⌫` Delete ( Del ) | Backspace ( on Windows )
 `Num` Digits: 0 ~ 9
 `Letter` Alphabet: a ~ z
 
 ## Abbreviations
 
-- Button
+- Buttons
 
     `Cmd` Command
     `Ctrl` Control
@@ -48,7 +47,7 @@ description: 我的 OS X 快捷键列表。
     `Shf` Shift
     `Del` Delete
 
-- Direction & Position
+- Directions & Positions
 
     `Dn` Down
     `Lf` left
@@ -57,7 +56,7 @@ description: 我的 OS X 快捷键列表。
     `Prev` Previous
     `Btm` Bottom
 
-- Word
+- Words
 
     `App` Application
     `Btn` Button
@@ -66,10 +65,12 @@ description: 我的 OS X 快捷键列表。
     `Mv` Move
     `Rm` Remove
 
+    `Str` String
+
     `Ld` Leader
     `Pf` Prefix
 
-- Symbol
+- Symbols
 
     `&` And
     `|` Or
@@ -85,6 +86,7 @@ description: 我的 OS X 快捷键列表。
     Press "Cmd", "Opt" & "a" at the same time to do the manipulation .
 
 - `A` Manipulation
+- `⇧ A` Manipulation
 
     The capital letter "A" means pressing "Shf" & "a" at the same time !
 
@@ -103,18 +105,19 @@ _Italic_ : I seldom use it .
 
 # Mac OS X
 
-Some of the keys below can be modified in `System Preference → Keyboard`.
 Some are default in operating system.
-Some are modified by App [Karabiner](#Karabiner).
+Some of the keys below can be modified in `System Preference → Keyboard`.
+Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
 
 - Power
 
-    __`` Wake Up__
-    `^ ` Shut Down ( can choose to Sleep or Restart )
-    __`⌘ ^ ` Force Restart__
-    __`⌘ ^ ⌥ ` Force Shutdown__
+    `` Wake Up
     `⌘ ⌥ ` Sleep
     `^ ⇧ ` Display Sleep
+    `^ ` Shut Down ( can choose to Sleep or Restart )
+
+    __`⌘ ^ ` Force Restart__
+    __`⌘ ^ ⌥ ` Force Shutdown__
 
 - Dock & Menubar & Sidebar
 
@@ -177,7 +180,7 @@ Some are modified by App [Karabiner](#Karabiner).
     `⌘ s` Save
     `⌘ p` Print
 
-    `⌘ ⇧ S` Save as …
+    __`⌘ ⇧ S` Save as__
 
 - Edit
 
@@ -185,7 +188,6 @@ Some are modified by App [Karabiner](#Karabiner).
     `⌘ g` Next Match
     `⌘ ⇧ G` Prev Match
 
-    `⌥ ←` Prev Word
     `⌥ ←` Prev Word
     `⌥ →` Next Word
 
@@ -198,9 +200,10 @@ Some are modified by App [Karabiner](#Karabiner).
     __`⌘ ⌥ c` Copy Path__
 
     `⌘ v` Paste
-    `⌘ ⌥ v` Mv ( After `⌘ c` )
+    `⌘ ⌥ v` Move ( After `⌘ c` )
 
     - After Selection, then input:
+
     `⌘ b` Bold
     `⌘ u` Underline
     `⌘ i` Italic
@@ -231,7 +234,7 @@ Some are modified by App [Karabiner](#Karabiner).
 
 # Activity Monitor
 
-__`⌘ ⌥ f` Filter Processes__
+`⌘ ⌥ f` Filter Processes
 __`⌘ ⌥ q` Quit the select Process__
 
 # Amphetamine
@@ -250,7 +253,7 @@ __`^ ⌥ ]` Show All Status Icons in Menu Bar__
 `⌘ r` Refresh Calendars
 
 `⌘ t` Today
-`⌘ ⇧ T` Go to Date
+__`⌘ ⇧ T` Go to Date__
 
 `⌘ ←` Prev
 `⌘ →` Next
@@ -276,8 +279,8 @@ __`^ ⌥ ]` Show All Status Icons in Menu Bar__
 # EuDict Free
 
 `⌥ 凵` Light Peek
-__`⌘ ⇧ N` Look up Selection__
 __`⌘ ⇧ M` Look up Word that Mouse Cursor Hovers__
+__`⌘ ⇧ L` Look up Selection__
 __`⌘ ⇧ 2` Translate Selection__
 
 # Evernote
@@ -325,8 +328,8 @@ __`⌘ ⇧ 2` Translate Selection__
     `*`, `凵` —— Bulleted List
     `1.`, `凵` —— Numbered List
 
-    In a new line, input `-` 3 times, `↩` —— Horizontal Rule
-    In a new line, input <code>\`</code> 3 times, `↩` —— Code Quote
+    In a new line, input `-` 3 times, `↩` —— insert Horizontal Rule
+    In a new line, input <code>\`</code> 3 times, `↩` —— insert Code Quote
 
 # Evernote Web Clipper
 
@@ -357,17 +360,17 @@ __`⌘ ⇧ 2` Translate Selection__
     __`⌘ d` Duplicate__
     `⌘ e` Eject Disk
 
-    __`⌘ l` New Alias for a file__
+    `⌘ l` New Alias for a file
     __`⌘ r` to Origin File of Alias__
 
 - Folder
 
     `⌘ ⇧ A` Application
-    __`⌘ ⇧ C` Computer__
+    `⌘ ⇧ C` Computer
     `⌘ ⇧ D` Desktop
-    __`⌘ ⇧ F` All My Files__
+    `⌘ ⇧ F` All My Files
     __`⌘ ⇧ G` to Folder__
-    __`⌘ ⇧ H` Home__
+    `⌘ ⇧ H` Home
     _`⌘ ⇧ K` Network_
     `⌘ ⇧ O` Documents
     __`⌘ ⇧ R` AirDrop__
@@ -390,7 +393,7 @@ __`⌘ ⇧ 2` Translate Selection__
     `⌘  3` View as columns
     `⌘  4` View as a cover flow
 
-    __`⌘ ⇧ ⌫` Empty Trash__
+    `⌘ ⇧ ⌫` Empty Trash
     _`⌘ ⇧ ⌥ ⌫` Empty Trash without Confirmation_
 
 # Firefox
@@ -398,9 +401,9 @@ __`⌘ ⇧ 2` Translate Selection__
 - Common
 
     `⌘ j` Downloads
-    _`⌘ b` Bookmarks ( Badly Use )_
+    ~~`⌘ b` Bookmarks ( Badly Use )~~
     __`⌘ ⇧ B` Manage Bookmarks__
-    __`⌘ ⇧ H` History__
+    __`⌘ ⇧ H` Toggle History__
     `⌘ ⇧ A` Extensions
 
 - Development
@@ -414,7 +417,7 @@ __`⌘ ⇧ 2` Translate Selection__
     _`⌘ ⌥ s` JavaScript Debug_
     _`⌘ ⇧ J` Browser Console_
 
-    __`⌘ u` Page Source Code__
+    `⌘ u` Page Source Code
     _`⇧ F7` CSS_
     __`⇧ F4` JavaScript Draft  ( for js test )__
 
@@ -507,6 +510,12 @@ Not Only shortcuts, but also Change Layout of Keyboard!
 
     `凵 123456790-=` = `F1`, `F2`, …, `F12`
 
+    - Num
+
+    `Num` = `!@#$%^&*()`
+    `⇧ Num` = `1234567890`
+    `凵 asdfghjkl;` = `123456890`
+
     - Easier Key Press
 
     `凵 q` = `^ ⌥ q`
@@ -514,13 +523,6 @@ Not Only shortcuts, but also Change Layout of Keyboard!
     `凵 e` = `^ ⌥ e`
     `凵 r` = `^ ⌥ r`
     `凵 t` = `^ ⌥ t`
-
-    - Num
-
-    `Num` = `!@#$%^&*()`
-    `⇧ Num` = `1234567890`
-
-    `凵 asdfghjkl;` = `123456890`
 
     - Del & Ret
 
@@ -561,7 +563,7 @@ Not Only shortcuts, but also Change Layout of Keyboard!
     `⌘  ⇧ r` Reply All
 
     _`⌘ ⇧ L` Red Flag_
-    __`⌘ ⌥ f` Mailbox Search__
+    `⌘ ⌥ f` Mailbox Search
 
     __`⌘ 1` Inbox__
     __`⌘ 2` Sent__
@@ -626,7 +628,7 @@ Not Only shortcuts, but also Change Layout of Keyboard!
     `⌥ .` Login Task
 
     `^ ⌥ n` Nozio
-    `^ ⌥ m` Sequel Pro ( MySQL Client )
+    `^ ⌥ m` Sequel Pro <!-- MySQL Client -->
 
 # Moom
 
@@ -660,15 +662,15 @@ Not Only shortcuts, but also Change Layout of Keyboard!
 
 - Debug
 
-    `⌥ ^ d` Debug
+    `⌥ ⇧ d` Debug
     `^ ⇧ B` Toggle BreakPoint
     `⌥ ⇧ R` Rerun
 
     `⌥ ⇧ I` Step Into
     `⌥ ⇧ O` Step Out
 
-    __`⌥ ⇧ J` Step Over ( Next Line )__
-    __`⌥ ⇧ N` Resume ( Next BreakPoint )__
+    `⌥ ⇧ J` Step Over ( Next Line )
+    `⌥ ⇧ N` Resume ( Next BreakPoint )
 
 - File
 
@@ -724,10 +726,12 @@ Same as PhpStorm.
 - Change Key
 
     `⇪` CapsLock → `^` Ctrl
-    `^` Ctrl → `⇪` CapsLock
+
+    <!--`^` Ctrl → `⇪` CapsLock-->
+    `^` Ctrl → `⎋` Esc
     `⌘` Rg Cmd → `⎋` Esc
 
-Need to Modify `System Preferences → Keyboards → Modifier Key` to exchange `CapsLock` & Lf `Ctrl`.
+Need to exchange `CapsLock` & Lf `Ctrl` in `System Preferences → Keyboards → Modifier Key` .
 
 # tmux
 
@@ -744,9 +748,9 @@ Need to Modify `System Preferences → Keyboards → Modifier Key` to exchange `
     __`Pf (` Prev Client__
     __`Pf )` Next Client__
 
-    `Pf d` Detach Client
-    __`Pf z` Kill Client__
+    <!--__`Pf z` Kill Client__-->
 
+    `Pf d` Detach Client
     _`Pf $` Rename Session_
 
     - Window
@@ -785,8 +789,8 @@ Need to Modify `System Preferences → Keyboards → Modifier Key` to exchange `
     `Pf k` Select Up Pane
     `Pf l` Select Rg Pane
 
-    __`Pf ↑` Maximize Current Pane in New Window__
-    __`Pf ↓` Put Current Pane back to its Parent Window__
+    `Pf ↑` Maximize Current Pane in New Window
+    `Pf ↓` Put Current Pane back to its Parent Window
 
     - Copy Mode
 
@@ -840,11 +844,6 @@ _Others are default as same as the description in the [Official Docs](http://www
     __`⌘ ⌥ a` Hyperlink__
     __`⌘ ⌥ i` Image__
     __`⌘ \` Clear Format__
-
-- Mv
-
-    __`⌘ ↑` to Top__
-    __`⌘ ↓` to Bottom__
 
 - View
 
@@ -908,7 +907,7 @@ Only List the Useful Keys that I’m unfamiliar with.
 
     __`ge` Goto Last Char of Prev Word__
 
-    __`"` Switch to some Register__
+    `"` Switch to some Register
     __`-` Head of Prev Line__
     __`⇧ +` Head of Next Line__
 
@@ -961,7 +960,7 @@ __VimFX is a Firefox Extension.__
 
     `t` New at the Last of Tabs
     `T` New at the Rg of Cur Tab
-    __`S` Duplicate__
+    `S` Duplicate
 
     `v` Open URL in Clipboard in Current Tab
     `V` Open URL in Clipboard in New Tab
@@ -992,8 +991,8 @@ __VimFX is a Firefox Extension.__
 
     `X` Reopen Last Closed Tab
 
-    __`gX` List of Last Closed Tabs__ of Tabs
-    __`^ p` Pin / Unpin__
+    `^ x` List of Last Closed Tabs of Tabs
+    `^ p` Pin / Unpin
 
 - Scroll
 
@@ -1021,8 +1020,8 @@ __VimFX is a Firefox Extension.__
 
     - Specified Pos
 
-    __`m` + `Letter` Mark the Page Pos represented by 'letter'__
-    __<code>\` Letter</code> | `' Letter` to the Mark represented by 'letter'__
+    `m` + `Letter` Mark the Page Pos represented by 'letter'
+    <code>\` Letter</code> | `' Letter` to the Mark represented by 'letter'
 
 - Navigate
 
@@ -1037,8 +1036,8 @@ __VimFX is a Firefox Extension.__
     `gh` Home
     __`gH` Cur Tab Visit History Menu__
 
-    __`[` Prev Page__
-    __`]` Next Page__
+    `[` Prev Page
+    `]` Next Page
 
 - Load
 
@@ -1062,10 +1061,10 @@ __VimFX is a Firefox Extension.__
 
 - Visual
 
-    __`i` Enter Visual Mode & Put Cursor at Head of Element
+    `i` Enter Visual Mode & Put Cursor at Head of Element
 
-    __`^ s` Enter Visual Mode & Select Element Text__
-    __`^ c` Copy Element Text__
+    `^ s` Enter Visual Mode & Select Element Text
+    `^ c` Copy Element Text
     __`^ v` Select Focus Point__
 
     - Visual Mode
@@ -1091,10 +1090,10 @@ __VimFX is a Firefox Extension.__
 
 - Others
 
-    __`Q` Click Elements of Browser__
+    `Q` Click Elements of Browser
 
     `I` Enter Ignore Mode ( Ignore All VimFX Shortcuts )
-    __`^ i` Exit Ignore Mode__
+    `^ i` Exit Ignore Mode
 
     `gr` Enter Reading Mode
 
@@ -1124,5 +1123,5 @@ __VimFX is a Firefox Extension.__
     `^ k` Del to End of Line
     `^ u` Del Line
 
-- Use [oh-my-zsh](http://ohmyz.sh/) —— A framework for managing your ZSH configuration .
-
+- [My aliases](https://github.com/IceHe/oh-my-zsh/blob/master/.zshrc) and [others](https://github.com/IceHe/oh-my-zsh) in oh-my-zsh.
+- [oh-my-zsh](http://ohmyz.sh/) —— A framework for managing your ZSH configuration .
