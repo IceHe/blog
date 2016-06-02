@@ -77,9 +77,9 @@
         <ul>
             <ul>
                 
-                <li><a href="/">Home 首页</a></li>
+                <li><a href="/">Timeline</a></li>
                 
-                <li><a href="/index">Index 目录</a></li>
+                <li><a href="/index">Index 总览</a></li>
                 
                 <li><a href="/bookmarks">Bookmarks</a></li>
                 
@@ -125,9 +125,14 @@
     
         <time datetime="2015-12-26T16:00:00.000Z" itemprop="dateUpdated">
             2015-12-27
-        </time>&nbsp;updated
+        </time>
+        upd
+        &nbsp;|&nbsp;
     
-        &nbsp;/&nbsp; <span class="article-pageview">?</span> views
+        <time class="article-time" datetime="2015-11-12T16:00:00.000Z" itemprop="datePublished">
+            2015-11-13
+        </time>
+        &nbsp;|&nbsp; <span class="article-pageview">?</span> views
     </p>
 
 </header>
@@ -417,7 +422,11 @@ Monthly
 
 <!-- Comments Begin -->
 <section id="comments" class="comment">
-    <div class="ds-thread" data-thread-key="think/time_mgt/" data-title="Time Mgt 时间管理日志" data-url="http://icehe.me/think/time_mgt/"></div>
+    <div class="ds-thread"
+         data-thread-key="think/time_mgt/"
+         data-title="Time Mgt 时间管理日志"
+         data-url="http://icehe.me/think/time_mgt/">
+    </div>
 </section>
 
 <script type="text/javascript">
@@ -643,7 +652,7 @@ var duoshuoQuery = {short_name:"icehe"};
             ta.css('display', 'none');
         });
         $(window).scroll(function(){
-            ta.css("top",Math.max(140,320-$(this).scrollTop()));
+            ta.css("top",Math.max(140, 320 - $(this).scrollTop()));
         });
     });
 </script>
