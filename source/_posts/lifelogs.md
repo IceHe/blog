@@ -7,9 +7,6 @@ tags: [time mgt]
 description: 个人时间管理日志。
 ---
 
-## Related
-
-- <i class="fa fa-list">&nbsp;</i> &nbsp;__[Index 博客目录](/index)__
 - [Explanations for Log Format - 日志记录格式的说明](/think/time_mgt/)
 
 ## 2014
