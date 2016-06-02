@@ -1,6 +1,6 @@
 title: Blog Index 目录
 date: 2016-03-07
-updated: 2016-05-08
+updated: 2016-06-02
 show_updated: false
 categories: [read]
 tags: [read]
@@ -81,12 +81,6 @@ description: 本博客的导航页。
 
 - [某次 JavaScript 代码优化过程](/javascript/某次js代码优化过程/)
 
-### [PHP](/categories/PHP)
----
-
-- [PHP empty\(\) 和 isset\(\) 的区别](/php/PHP%20empty%28%29%20%E5%92%8C%20isset%28%29%20%E7%9A%84%E5%8C%BA%E5%88%AB/)
-- <a href="/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var)/">PHP var !== NULL 是否等价于 isset()</a>
-
 ### [Mac](/categories/Mac)
 ---
 
@@ -115,6 +109,12 @@ description: 本博客的导航页。
 ### [Whoami](/categories/whoami)
 ---
 
-- [Me 我](/about/) &nbsp;/&nbsp; [Resume](/resume)<sup>简历</sup>
+- [Me 我](/about/)
+- [Resume](/resume)<sup>简历</sup>
 - [Reward Me 打赏博主](/reward)
 
+<!--### [PHP](/categories/PHP)-->
+<!-- --- -->
+
+<!-- - [PHP empty\(\) 和 isset\(\) 的区别](/php/PHP%20empty%28%29%20%E5%92%8C%20isset%28%29%20%E7%9A%84%E5%8C%BA%E5%88%AB/)-->
+<!-- - <a href="/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var)/">PHP var !== NULL 是否等价于 isset()</a>-->
