@@ -1124,4 +1124,4 @@ __VimFX is a Firefox Extension.__
     `^ u` Del Line
 
 - [My aliases](https://github.com/IceHe/oh-my-zsh/blob/master/.zshrc) and [others](https://github.com/IceHe/oh-my-zsh) in oh-my-zsh.
-- [oh-my-zsh](http://ohmyz.sh/) — A framework for managing your ZSH configuration .
+- [oh-my-zsh](http://ohmyz.sh/) - A framework for managing your ZSH configuration .
