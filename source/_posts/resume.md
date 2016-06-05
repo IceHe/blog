@@ -45,7 +45,7 @@ toc: false
 
 - **Lang** &nbsp; &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `PHP`,&nbsp; `Python`,&nbsp; `JavaScript`,&nbsp; `C/C++`,&nbsp; `Java` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> ASM,&nbsp; VB
 
-- **OS** &nbsp; &nbsp; &nbsp; <i class="fa fa-star"></i>  `Mac OS X` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `CentOS 6/7`,&nbsp; `Windows 7/8.1` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Ubuntu
+- **OS** &nbsp; &nbsp; &nbsp; <i class="fa fa-star"></i>  `Mac OS X` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `CentOS 6/7`,&nbsp; `Windows 7/8.1` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> `Ubuntu`
 
 - **DB** &nbsp; &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `MySQL` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> MS SQL Server 2008,&nbsp; Oracle DB
 

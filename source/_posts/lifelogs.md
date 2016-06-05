@@ -16,7 +16,7 @@ description: 个人时间管理日志。
 11. [十一月：挣扎，旅行，云南。](/lifelogs/2014/11/index.html)
     <sup>Nov: struggle, travel, Yunnan, Lijiang.</sup>
 12. [十二月：实习，旅行，北京。](/lifelogs/2014/12/index.html)
-    Dec: intership, travel, Beijing.
+    <sup>Dec: intership, travel, Beijing.</sup>
 
 ## 2015
 
