@@ -84,7 +84,7 @@ description: 本博客的导航页。
 ### [Mac](/categories/Mac)
 ---
 
-- [My Tools 利器](/tools) —— Mac 应用推荐
+- [My Tools 利器](/tools) - App 推荐
 - [My Mac Shortcuts 快捷键](/mac_shortcuts)
 
 ### [Read](/categories/read)

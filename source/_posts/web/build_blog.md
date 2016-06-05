@@ -301,8 +301,8 @@ __TODO: 待日后补全细节，暂参考 [Hexo系列教程之五：hexo博客�
 - [博客theme的代码](https://github.com/IceHe/Jacman)
 
 ## Express Gratitude 鸣谢
-- Hexo Author —— [Tommy Chen](http://zespia.tw/)
-- Theme Author —— [WuChong](http://wuchong.me/)
+- Hexo Author - [Tommy Chen](http://zespia.tw/)
+- Theme Author - [WuChong](http://wuchong.me/)
 
 ## About Me 关于
 This's my [__brief intro__](/about). 这是我的[ __简介__ ](/about)。

@@ -16,18 +16,18 @@ date: 2015-03-16
 - 0 深入 [JavaScript](http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/0014344991049250a2c80ec84cb4861bbd1d9b2c0c2850e000) / [JS - Note](/notes/js_note.html)
 - 0 学 Node.js
 - 0 学 [Ruby](http://top.jobbole.com/21187/)
-- 0 学 Scheme —— 函数式语言，新思维
-- 0 学 Emacs —— [一年成为Emacs高手(像神一样使用编辑器) ](http://blog.csdn.net/redguardtoo/article/details/7222501/)  / [Vim and Emacs](http://evalapply.io/posts/2016-05-02-vim-and-emacs/)
-- 0 学 [Refator](/notes/refactor.html) —— [编写可读代码的艺术](/notes/编写可读代码的艺术.html) / [编程的智慧](http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy)
+- 0 学 Scheme - 函数式语言，新思维
+- 0 学 Emacs - [一年成为Emacs高手(像神一样使用编辑器) ](http://blog.csdn.net/redguardtoo/article/details/7222501/)  / [Vim and Emacs](http://evalapply.io/posts/2016-05-02-vim-and-emacs/)
+- 0 学 [Refator](/notes/refactor.html) - [编写可读代码的艺术](/notes/编写可读代码的艺术.html) / [编程的智慧](http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy)
 
 __Maybe__
 
-- 3 学 Math —— 根基：[算法](/notes/algo_note.html)、数据结构、数据分析（学习资料见书签）。
-- 2 学 Logic —— [有什么知识，你知道后你的世界马上就不一样了？](https://www.zhihu.com/question/38632401/answer/77853819) —— 学好逻辑很有用！
+- 3 学 Math - 根基：[算法](/notes/algo_note.html)、数据结构、数据分析（学习资料见书签）。
+- 2 学 Logic - [有什么知识，你知道后你的世界马上就不一样了？](https://www.zhihu.com/question/38632401/answer/77853819) - 学好逻辑很有用！
 <hr/>
 - 0 FF 本地浏览器代理插件的完善，以便自定义代理规则，[AutoProxy代理规则简单写法](http://mydf.github.io/blog/autoproxy/)（实践）
 <hr/>
-- 0 试 WM —— [i3wm](http://i3wm.org/docs/userguide.html), [<i3 - improved tiling wm>](http://i3wm.org/) (据说mac的virtualbox配i3,秒开), [awesome wm](https://awesomewm.org/), Divi, [kwm](https://github.com/koekeishiya/kwm), [xMonad](https://github.com/ruanyf/articles/blob/master/dev/linux/xmonad.md)
+- 0 试 WM - [i3wm](http://i3wm.org/docs/userguide.html), [<i3 - improved tiling wm>](http://i3wm.org/) (据说mac的virtualbox配i3,秒开), [awesome wm](https://awesomewm.org/), Divi, [kwm](https://github.com/koekeishiya/kwm), [xMonad](https://github.com/ruanyf/articles/blob/master/dev/linux/xmonad.md)
     [i3 Cheat Sheet](https://www.cheatography.com/davechild/cheat-sheets/i3-window-manager/)
 - 0 Other [Algo](/notes/algo.html) , [Cpp](/notes/cpp.html)
 

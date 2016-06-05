@@ -9,7 +9,7 @@ description: 在有编程基础的情况下，通过快速浏览示例代码，�
 
 # References
 
-- [AppleScript Fundamentals](https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html) —— Apple Official Docs
+- [AppleScript Fundamentals](https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html) - Apple Official Docs
 
 - __App's AppleScript Dictionary :__
 

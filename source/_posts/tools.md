@@ -8,8 +8,8 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 ---
 
 - 除最后一小节，其它均为Mac平台下的软件。
-- [少数派](http://sspai.com/) —— 高质量 App 推荐媒体，关于 iOS、Mac、硬件。
-- [一日一技](http://sspai.com/tag/%E4%B8%80%E6%97%A5%E4%B8%80%E6%8A%80/?page=1) —— Mac 小技巧。
+- [少数派](http://sspai.com/) - 高质量 App 推荐媒体，关于 iOS、Mac、硬件。
+- [一日一技](http://sspai.com/tag/%E4%B8%80%E6%97%A5%E4%B8%80%E6%8A%80/?page=1) - Mac 小技巧。
 
 # Software
 
@@ -438,19 +438,19 @@ description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommend
 
 ## Windows
 
-- [TortoisGit](https://tortoisegit.org/) —— 便捷好用的 Git GUI 工具。
+- [TortoisGit](https://tortoisegit.org/) - 便捷好用的 Git GUI 工具。
 
-- [Fiddler](http://www.telerik.com/fiddler) —— [抓包工具](http://m.open-open.com/m/lib/view/1375954572906.html)。
+- [Fiddler](http://www.telerik.com/fiddler) - [抓包工具](http://m.open-open.com/m/lib/view/1375954572906.html)。
 
-- [EditPlus](https://www.editplus.com/) —— 功能强大的文本编辑软件。
+- [EditPlus](https://www.editplus.com/) - 功能强大的文本编辑软件。
 
-- [StrokesPlus](http://www.strokesplus.com/) —— 强大的 [全局鼠标手势软件](http://bbs.kafan.cn/thread-1410275-1-1.html)。
+- [StrokesPlus](http://www.strokesplus.com/) - 强大的 [全局鼠标手势软件](http://bbs.kafan.cn/thread-1410275-1-1.html)。
 
-- [Everything](https://www.voidtools.com/) —— 强大的 [全局文件检索工具](http://xbeta.info/everything-search-tool.htm)（ [Q & A](http://my.oschina.net/alphajay/blog/79431?fromerr=k12K2L1s) ）。
+- [Everything](https://www.voidtools.com/) - 强大的 [全局文件检索工具](http://xbeta.info/everything-search-tool.htm)（ [Q & A](http://my.oschina.net/alphajay/blog/79431?fromerr=k12K2L1s) ）。
 
-- [Listary Pro](http://www.listary.com/) —— 类似于 Everything，[各有优劣](http://www.iplaysoft.com/listary.html)。
+- [Listary Pro](http://www.listary.com/) - 类似于 Everything，[各有优劣](http://www.iplaysoft.com/listary.html)。
 
-- [AutoHotkey](https://autohotkey.com/) —— [全局快捷键设置工具](http://xbeta.info/autohotkey-guide-2.htm)。
+- [AutoHotkey](https://autohotkey.com/) - [全局快捷键设置工具](http://xbeta.info/autohotkey-guide-2.htm)。
 
 - Ref:《 [Windows常用软件推荐](http://wsgzao.github.io/post/windows/) 》
 

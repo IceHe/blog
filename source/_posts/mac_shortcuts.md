@@ -325,11 +325,11 @@ __`⌘ ⇧ 2` Translate Selection__
 
 - Input
 
-    `*`, `凵` —— Bulleted List
-    `1.`, `凵` —— Numbered List
+    `*`, `凵` - Bulleted List
+    `1.`, `凵` - Numbered List
 
-    In a new line, input `-` 3 times, `↩` —— insert Horizontal Rule
-    In a new line, input <code>\`</code> 3 times, `↩` —— insert Code Quote
+    In a new line, input `-` 3 times, `↩`-  insert Horizontal Rule
+    In a new line, input <code>\`</code> 3 times, `↩` - insert Code Quote
 
 # Evernote Web Clipper
 
@@ -1124,4 +1124,4 @@ __VimFX is a Firefox Extension.__
     `^ u` Del Line
 
 - [My aliases](https://github.com/IceHe/oh-my-zsh/blob/master/.zshrc) and [others](https://github.com/IceHe/oh-my-zsh) in oh-my-zsh.
-- [oh-my-zsh](http://ohmyz.sh/) —— A framework for managing your ZSH configuration .
+- [oh-my-zsh](http://ohmyz.sh/) — A framework for managing your ZSH configuration .

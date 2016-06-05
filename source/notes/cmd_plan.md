@@ -7,7 +7,7 @@ title: Cmd Plan
 
 <https://www.cheatography.com/nielzzz/cheat-sheets/ububtu-server/>
 
-[Linux常用操作](https://github.com/ruanyf/articles/blob/master/dev/linux/operations.md)  —— watch, nmcli, fdisk
+[Linux常用操作](https://github.com/ruanyf/articles/blob/master/dev/linux/operations.md) - watch, nmcli, fdisk
 
 [chmod 0000 权限用法](https://github.com/ruanyf/articles/blob/master/dev/linux/basic.md)
 

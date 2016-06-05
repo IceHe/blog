@@ -1,6 +1,6 @@
 title: My Resume 何志远
 date: 2015-01-24
-updated: 2016-05-17
+updated: 2016-06-04
 show_updated: true
 categories: [whoami]
 tags: [whoami]
@@ -13,7 +13,7 @@ toc: false
 
 # Technology
 
-## **<span class="icon-weibo">&nbsp;</span>微梦创科网络技术（中国）有限公司 - 手机微博 - 服务端研发 工程师** &nbsp; &nbsp; *2015.07 ~ Now*
+## **<span class="icon-weibo">&nbsp;</span>微梦创科网络技术（中国）有限公司 - 手机微博 - 服务端研发 工程师** &nbsp; &nbsp; *2015.07 ~ Today*
 - MAPI（对外接口部门）- 微博移动端（手机、平板）各功能的服务端研发与维护，
 开放平台 API 与微博移动端（WAP 端 H5 页面、客户端 App）间请求的聚合与适配对接；
 手机微博管理后台v5（B/S）- 打点频道、打点权限管理、打点操作、打点日志等模块
@@ -41,7 +41,7 @@ toc: false
 
 ## **Skills**
 
-- *Skill Level &nbsp; &nbsp; <i class="fa fa-trophy"></i> Proficient &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star"></i> Familiar &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-half-o"></i> Competent &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Know*
+- __Level__ &nbsp; &nbsp; <i class="fa fa-trophy"></i> Proficient &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star"></i> Familiar &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-half-o"></i> Competent &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Know
 
 - **Lang** &nbsp; &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `PHP`,&nbsp; `Python`,&nbsp; `JavaScript`,&nbsp; `C/C++`,&nbsp; `Java` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> ASM,&nbsp; VB
 
@@ -49,11 +49,11 @@ toc: false
 
 - **DB** &nbsp; &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `MySQL` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> MS SQL Server 2008,&nbsp; Oracle DB
 
-- **Web** &nbsp; &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `HTML`,&nbsp; `CSS`,&nbsp; `jQuery` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Nginx,&nbsp; Redis
+- **Web** &nbsp; &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `HTML`,&nbsp; `CSS`,&nbsp; `jQuery` &nbsp; &nbsp;>&nbsp; &nbsp;<i class="fa fa-star-o"></i> `Nginx`<!--,&nbsp; Redis-->
 
-- **IDE** &nbsp; &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `PhpStorm`,&nbsp; `PyCharm` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Visual Studio,&nbsp; QtCreator,&nbsp; Eclipse
+- **IDE** &nbsp; &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `PhpStorm`,&nbsp; `PyCharm` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> `Visual Studio`,&nbsp; `Eclipse`,&nbsp; QtCreator
 
-- **Tools** &nbsp; &nbsp; &nbsp; <i class="fa fa-star"></i> `AppleScript`,&nbsp; `Git`,&nbsp; `Vim`,&nbsp; `Zsh` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-half-o"></i> Shell script,&nbsp; Batch file (Windows)
+- **Tools** &nbsp; &nbsp; &nbsp; <i class="fa fa-star"></i> `AppleScript`,&nbsp; `Git`,&nbsp; `Vim`,&nbsp; `Zsh` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-half-o"></i> `Shell script`,&nbsp; Batch file (Windows)
 
 - **Others** &nbsp; &nbsp; &nbsp; <i class="fa fa-star"></i> `Qt 4/5` &nbsp; &nbsp;>&nbsp; &nbsp; <i class="fa fa-star-o"></i> Yaf,&nbsp; Lumen,&nbsp; Linux Loadable Kernel Module
 

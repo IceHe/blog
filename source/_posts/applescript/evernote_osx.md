@@ -12,10 +12,10 @@ description: 在 OS X 上，如何使用 AppleScript 操作 Evernote、OS X。
 
 # References
 
-- [AppleScript Quick Start 快速入门](/applescript/applescript/) —— My Blog Article
-- [AppleScript Fundamentals](https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html) —— Apple Official Docs
-- [Mac Wrangle Evernote with AppleScript](https://dev.evernote.com/doc/articles/applescript.php) / [通过 AppleScript 连接印象笔记](https://dev.yinxiang.com/doc/articles/applescript.php) —— Evernote Official Docs
-- [Evernote Search Grammar](https://dev.evernote.com/doc/articles/search_grammar.php) / [搜索语法](https://dev.yinxiang.com/doc/articles/search_grammar.php) —— How to Search Notes
+- [AppleScript Quick Start 快速入门](/applescript/applescript/) - My Blog Article
+- [AppleScript Fundamentals](https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html) - Apple Official Docs
+- [Mac Wrangle Evernote with AppleScript](https://dev.evernote.com/doc/articles/applescript.php) / [通过 AppleScript 连接印象笔记](https://dev.yinxiang.com/doc/articles/applescript.php) - Evernote Official Docs
+- [Evernote Search Grammar](https://dev.evernote.com/doc/articles/search_grammar.php) / [搜索语法](https://dev.yinxiang.com/doc/articles/search_grammar.php) - How to Search Notes
 - __App's AppleScript Dictionary :__ Open App `Script Editor` → &nbsp;Enter `⌘ ⇧ o` → &nbsp;Choose `app_name.app` (if it supports AppleScript)
 
     __Evernote Dictionary :__ … → Choose `Evernote.app`
