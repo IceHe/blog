@@ -4,7 +4,7 @@ updated: 2016-06-02
 show_updated: true
 categories: [Mac]
 tags: [Mac]
-description: Mac 应用推荐（包括小部分Windows软件）|&nbsp; Recommended Mac Apps . &nbsp; 以及科技产品、外设、用具等。
+description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 ---
 
 - 除最后一小节，其它均为Mac平台下的软件。
