@@ -3,20 +3,20 @@ title: Bash - Note
 
 [Bash脚本](https://github.com/ruanyf/articles/blob/master/dev/linux/script.md)
 
-[ruanyf/articles/tree/master/dev/bash](https://github.com/ruanyf/articles/tree/master/dev/bash)
+<https://github.com/ruanyf/articles/tree/master/dev/bash>
 
-[http://www.linux-sxs.org/programming/bashcheat.html](http://www.linux-sxs.org/programming/bashcheat.html)
+<http://www.linux-sxs.org/programming/bashcheat.html>
 
 上一阶段学Bash的参考资料：
 ≈
-http://www.mediacollege.com/cgi-bin/man/page.cgi?topic=bash
-http://ahei.info/chinese-bash-man.htm
-https://www.gnu.org/software/bash/manual/bashref.html
-http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html
+<http://www.mediacollege.com/cgi-bin/man/page.cgi?topic=bash>
+<http://ahei.info/chinese-bash-man.htm>
+<https://www.gnu.org/software/bash/manual/bashref.html>
+<http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html>
 
-[ ] http://alvinalexander.com/blog/post/linux-unix/unix-linux-shell-script-reference-cheat-sheet
+<http://alvinalexander.com/blog/post/linux-unix/unix-linux-shell-script-reference-cheat-sheet>
 
-[ ] http://www.linuxtopia.org/online_books/advanced_bash_scripting_guide/refcards.html
+<http://www.linuxtopia.org/online_books/advanced_bash_scripting_guide/refcards.html>
 
 If  bash is invoked in this fashion, $0 is set to the name of the file, and the positional parameters are set to the remaining arguments.  Bash reads and  executes commands from this file, then exits.  Bash's exit status is the exit status of the last command executed in the script. If no commands are executed, the exit status is 0.
 

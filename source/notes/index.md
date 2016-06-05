@@ -28,6 +28,7 @@ __Maybe__
 - 0 FF 本地浏览器代理插件的完善，以便自定义代理规则，[AutoProxy代理规则简单写法](http://mydf.github.io/blog/autoproxy/)（实践）
 <hr/>
 - 0 试 WM —— [i3wm](http://i3wm.org/docs/userguide.html), [<i3 - improved tiling wm>](http://i3wm.org/) (据说mac的virtualbox配i3,秒开), [awesome wm](https://awesomewm.org/), Divi, [kwm](https://github.com/koekeishiya/kwm), [xMonad](https://github.com/ruanyf/articles/blob/master/dev/linux/xmonad.md)
+    [i3 Cheat Sheet](https://www.cheatography.com/davechild/cheat-sheets/i3-window-manager/)
 - 0 Other [Algo](/notes/algo.html) , [Cpp](/notes/cpp.html)
 
 __Work__

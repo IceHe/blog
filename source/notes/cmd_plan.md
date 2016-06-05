@@ -1,6 +1,12 @@
 title: Cmd Plan
 ---
 
+<https://www.cheatography.com/citguy/cheat-sheets/nix-users-and-groups/>
+
+<https://www.cheatography.com/mrinflictor/cheat-sheets/centos/>
+
+<https://www.cheatography.com/nielzzz/cheat-sheets/ububtu-server/>
+
 [Linux常用操作](https://github.com/ruanyf/articles/blob/master/dev/linux/operations.md)  —— watch, nmcli, fdisk
 
 [chmod 0000 权限用法](https://github.com/ruanyf/articles/blob/master/dev/linux/basic.md)
@@ -27,47 +33,49 @@ title: Cmd Plan
 
 [文件处理](https://github.com/ruanyf/articles/blob/master/dev/linux/file-processing.md)
 
-[]()
+[grep](http://www.cheatography.com/tme520/cheat-sheets/grep/)
 
 [Make 命令教程](https://github.com/ruanyf/articles/blob/master/2015/2015-02-19-make.md)
 
-[ ] 0 Blg: CLI Note! #g
+lsof : list open files
 
-[ ] pwd 命令用于显示当前目录。
+0 Blg: CLI Note! #g
 
-[ ] env 查看环境变量
+pwd 命令用于显示当前目录。
 
-[ ] /etc/hosts：左侧 ip，右侧域名。（脑残不止一两次了！）
+env 查看环境变量
 
-[ ] 「命令行的艺术」https://github.com/jlevy/the-art-of-command-line/blob/master/README.md
+/etc/hosts：左侧 ip，右侧域名。（脑残不止一两次了！）
 
-[ ] sed http://coolshell.cn/articles/9104.html
+「命令行的艺术」<https://github.com/jlevy/the-art-of-command-line/blob/master/README.md>
 
-[ ] awk http://coolshell.cn/articles/9070.html
+sed <http://coolshell.cn/articles/9104.html>
 
-[ ] Linux查看环境变量当前信息和查看命令 http://os.51cto.com/art/201005/202463.htm
+awk <http://coolshell.cn/articles/9070.html>
 
-[ ] Features - iTerm2 - Mac OS Terminal Replacement https://iterm2.com/features.html
+<Linux查看环境变量当前信息和查看命令 http://os.51cto.com/art/201005/202463.htm>
 
-[ ] http://www.pixelbeat.org/cmdline.html
+<Features - iTerm2 - Mac OS Terminal Replacement https://iterm2.com/features.html>
 
-[ ] http://www.unixguide.net/linux/linuxshortcuts.shtml
+<http://www.pixelbeat.org/cmdline.html>
 
-[ ] http://www.rain.org/~mkummel/unix.html
+<http://www.unixguide.net/linux/linuxshortcuts.shtml>
 
-[ ] http://www.catonmat.net/blog/set-operations-in-unix-shell-simplified/
+<http://www.rain.org/~mkummel/unix.html>
 
-[ ] Bash http://www.mediacollege.com/cgi-bin/man/page.cgi?topic=bash
+<http://www.catonmat.net/blog/set-operations-in-unix-shell-simplified/>
 
-[ ] https://www.quora.com/What-are-some-lesser-known-but-useful-Unix-commands
+Bash <http://www.mediacollege.com/cgi-bin/man/page.cgi?topic=bash>
 
-[ ] https://www.quora.com/What-are-the-most-useful-Swiss-army-knife-one-liners-on-Unix
+<https://www.quora.com/What-are-some-lesser-known-but-useful-Unix-commands>
 
-[ ] https://www.quora.com/What-are-some-time-saving-tips-that-every-Linux-user-should-know
+<https://www.quora.com/What-are-the-most-useful-Swiss-army-knife-one-liners-on-Unix>
 
-[ ] man.linuxde.net
+<https://www.quora.com/What-are-some-time-saving-tips-that-every-Linux-user-should-know>
 
-[ ] Tools:http://explainshell.com/
+<http://man.linuxde.net>
+
+<http://explainshell.com/>
 
 删除文件夹实例：
 rm -rf /var/log/httpd/access
