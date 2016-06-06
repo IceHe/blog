@@ -740,7 +740,7 @@
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
-    <updated>2016-05-31T16:00:00.000Z</updated>
+    <updated>2016-06-05T16:00:00.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;Ref: 《 &lt;a href=&quot;https://support.apple.com/zh-cn/HT201236&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mac 键盘快捷键&lt;/a&gt; 》&lt;/li&gt;
@@ -955,7 +955,7 @@
 &lt;p&gt;  &lt;del&gt;&lt;code&gt;^ t&lt;/code&gt; [ Simple | Traditional  ] Chinese Characters&lt;/del&gt;&lt;br&gt;  &lt;del&gt;&lt;code&gt;^ .&lt;/code&gt; [ Chinese | English  ] Punctuation Marks&lt;/del&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&quot;iTerm3&quot;&gt;&lt;a href=&quot;#iTerm3&quot; class=&quot;headerlink&quot; title=&quot;iTerm3&quot;&gt;&lt;/a&gt;iTerm3&lt;/h1&gt;&lt;p&gt;&lt;code&gt;⌘ /&lt;/code&gt; Find Cursor&lt;/p&gt;
+&lt;h1 id=&quot;iTerm2&quot;&gt;&lt;a href=&quot;#iTerm2&quot; class=&quot;headerlink&quot; title=&quot;iTerm2&quot;&gt;&lt;/a&gt;iTerm2&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;&lt;code&gt;⌘ ;&lt;/code&gt; Autocomplete&lt;/strong&gt;&lt;br&gt;&lt;code&gt;⌘ /&lt;/code&gt; Find Cursor&lt;br&gt;&lt;em&gt;&lt;code&gt;⌘⌥ /&lt;/code&gt; Recent Directories&lt;/em&gt;&lt;br&gt;&lt;code&gt;⌘⇧ h&lt;/code&gt; Paste History&lt;/p&gt;
 &lt;h1 id=&quot;Karabiner&quot;&gt;&lt;a href=&quot;#Karabiner&quot; class=&quot;headerlink&quot; title=&quot;Karabiner&quot;&gt;&lt;/a&gt;Karabiner&lt;/h1&gt;&lt;p&gt;Not Only shortcuts, but also Change Layout of Keyboard!&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Setting&lt;/p&gt;
@@ -1005,7 +1005,7 @@
 &lt;/ul&gt;
 &lt;h1 id=&quot;Manico&quot;&gt;&lt;a href=&quot;#Manico&quot; class=&quot;headerlink&quot; title=&quot;Manico&quot;&gt;&lt;/a&gt;Manico&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Most Frequent&lt;/p&gt;
-&lt;p&gt;  &lt;code&gt;^ ⌥ q&lt;/code&gt; | &lt;code&gt;凵 q&lt;/code&gt; &lt;a href=&quot;#Firefox&quot;&gt;Firefox&lt;/a&gt;&lt;br&gt;  &lt;code&gt;^ ⌥ w&lt;/code&gt; | &lt;code&gt;凵 w&lt;/code&gt; &lt;a href=&quot;#iTerm3&quot;&gt;iTerm3&lt;/a&gt;&lt;br&gt;  &lt;code&gt;^ ⌥ e&lt;/code&gt; | &lt;code&gt;凵 e&lt;/code&gt; &lt;a href=&quot;#Evernote&quot;&gt;Evernote&lt;/a&gt;&lt;br&gt;  &lt;code&gt;^ ⌥ r&lt;/code&gt; | &lt;code&gt;凵 r&lt;/code&gt; &lt;a href=&quot;#Calendar&quot;&gt;Calendar&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;^ ⌥ q&lt;/code&gt; | &lt;code&gt;凵 q&lt;/code&gt; &lt;a href=&quot;#Firefox&quot;&gt;Firefox&lt;/a&gt;&lt;br&gt;  &lt;code&gt;^ ⌥ w&lt;/code&gt; | &lt;code&gt;凵 w&lt;/code&gt; &lt;a href=&quot;#iTerm2&quot;&gt;iTerm2&lt;/a&gt;&lt;br&gt;  &lt;code&gt;^ ⌥ e&lt;/code&gt; | &lt;code&gt;凵 e&lt;/code&gt; &lt;a href=&quot;#Evernote&quot;&gt;Evernote&lt;/a&gt;&lt;br&gt;  &lt;code&gt;^ ⌥ r&lt;/code&gt; | &lt;code&gt;凵 r&lt;/code&gt; &lt;a href=&quot;#Calendar&quot;&gt;Calendar&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Num&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;⌥ 1&lt;/code&gt; &lt;a href=&quot;#Script_Editor&quot;&gt;Script Editor&lt;/a&gt; ( for AppleScript )&lt;br&gt;  &lt;code&gt;⌥ 2&lt;/code&gt; System Preferences&lt;br&gt;  &lt;code&gt;⌥ 3&lt;/code&gt; Dash&lt;br&gt;  &lt;code&gt;⌥ 4&lt;/code&gt; Daily Task&lt;/p&gt;
@@ -1291,7 +1291,7 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/IceHe/oh-my-zsh/blob/master/.zshrc&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;My aliases&lt;/a&gt; and &lt;a href=&quot;https://github.com/IceHe/oh-my-zsh&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;others&lt;/a&gt; in oh-my-zsh.&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://ohmyz.sh/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;oh-my-zsh&lt;/a&gt; — A framework for managing your ZSH configuration .&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ohmyz.sh/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;oh-my-zsh&lt;/a&gt; - A framework for managing your ZSH configuration .&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     
@@ -2064,7 +2064,7 @@
     <link href="http://icehe.me/tools/"/>
     <id>http://icehe.me/tools/</id>
     <published>2015-11-20T16:00:00.000Z</published>
-    <updated>2016-06-01T16:00:00.000Z</updated>
+    <updated>2016-06-05T16:00:00.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;除最后一小节，其它均为Mac平台下的软件。&lt;/li&gt;
@@ -2132,11 +2132,8 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://dotfiles.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;dotfiles&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;  各路大神的 dotfiles 配置。（ &lt;a href=&quot;http://www.jianshu.com/p/7UJapk&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;dotfiles 是什么？&lt;/a&gt;）&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://skwp.github.io/dotfiles/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;YADR&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Yet Another Dotfile Repo，一个便捷的命令行配置方案，包括 Vim、Zsh、tmux、Git、RubyGems 以及 Alias 等各种配置。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;!--- [YADR](http://skwp.github.io/dotfiles/)--&gt;
+  &lt;!--Yet Another Dotfile Repo，一个便捷的命令行配置方案，包括 Vim、Zsh、tmux、Git、RubyGems 以及 Alias 等各种配置。--&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://brew.sh/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Homerew&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;  Mac OS X 的包管理器 &lt;sup&gt;Best&lt;/sup&gt; 。就如 agt-get 之于 Ubuntu，yum 之于 RedHat、CentOS 的存在。&lt;/p&gt;
