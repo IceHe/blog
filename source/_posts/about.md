@@ -1,6 +1,6 @@
 title: Me 我
 date: 2015-01-20
-updated: 2016-06-03
+updated: 2016-06-06
 show_updated: true
 categories: [whoami]
 tags: [whoami]
@@ -42,11 +42,11 @@ toc: false
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Done is better than perfect.</sup></span><br/><br/>
 
 ---
-<br/> <div class="center"> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_00.jpg" class="pic_styl" style="margin-left: 0px" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_01a.jpg" class="pic_styl" /> <img id="qr_code" src="http://7vzp68.com1.z0.glb.clouddn.com/about_original/qrcode_00.jpg" class="hidden pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_03a.jpg" class="pic_styl" />
-</div>
-<div id="more" class="center"> <i class="fa fa-toggle-down">&nbsp;</i> <a href="#Social_Network" onclick="">More</a> </div> <div id="life_img" class="center hidden"> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/memorable_00.jpg" style="height: 320px;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/dorm_00.jpg" style="height: 550px; width: 413;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/jianqiu_00.jpg" style="height: 550px; width: 413;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/handicraft_00.jpg" style="height: 320px;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/jianqiu_01.gif" style="height: 335px;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/duokan_read_history.png" style="height: 550px; width: auto;" /> &nbsp; <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/sina_work_place.png" style="height: 550px; width:auto;" /> </div> <br/>
 
-<sup>PV = <span id="busuanzi_value_site_pv"></span> ,&nbsp; UV = <span id="busuanzi_value_site_uv"></span></sup>
+<div class="center"><img id="qr_code" src="http://7vzp68.com1.z0.glb.clouddn.com/about_original/qrcode_00.jpg" class="hidden pic_styl"/></div>
+
+<div class="center"><sup>PV = <span id="busuanzi_value_site_pv"></span> , UV = <span id="busuanzi_value_site_uv"></span></sup></div>
 
 <style type="text/css">.key_pos{position: absolute; right: 75%; text-align: left;} .val_pos{position: absolute; left: 27%;} .red{color: gray;} article img.pic_styl{height: 140px; width: auto; margin-right: 10px;}</style>
-<script src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script> <script type="text/javascript">$('#more').click(function(){ $('#life_img').removeClass('hidden'); $(this).addClass('hidden');});</script>
+
+<script src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
