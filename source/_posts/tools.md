@@ -1,6 +1,6 @@
 title: My Tools 利器
 date: 2015-11-21
-updated: 2016-06-02
+updated: 2016-06-06
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -97,9 +97,9 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     各路大神的 dotfiles 配置。（ [dotfiles 是什么？](http://www.jianshu.com/p/7UJapk)）
 
-    - [YADR](http://skwp.github.io/dotfiles/)
+    <!--- [YADR](http://skwp.github.io/dotfiles/)-->
 
-    Yet Another Dotfile Repo，一个便捷的命令行配置方案，包括 Vim、Zsh、tmux、Git、RubyGems 以及 Alias 等各种配置。
+    <!--Yet Another Dotfile Repo，一个便捷的命令行配置方案，包括 Vim、Zsh、tmux、Git、RubyGems 以及 Alias 等各种配置。-->
 
 - [Homerew](http://brew.sh/)
 
