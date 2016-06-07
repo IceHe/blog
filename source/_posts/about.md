@@ -1,6 +1,6 @@
 title: Me 我
 date: 2015-01-20
-updated: 2016-06-06
+updated: 2016-06-07
 show_updated: true
 categories: [whoami]
 tags: [whoami]
@@ -11,7 +11,7 @@ toc: false
 <span class="key_pos">I'm</span> <span class="val_pos"> <i class="fa fa-user-secret">&nbsp;</i> &nbsp;__<a href="#qr_code" target="_top" onclick="document.getElementById('qr_code').className='pic_styl'; setTimeout(function(){ $('#qr_code').fadeOut(100).fadeIn(150).fadeOut(100).fadeIn(150); }, 200);">Ice He 何志远</a>__</span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-paper-plane">&nbsp;</i> A Cantonese in Beijing</sup></span>
 <span class="val_pos"> <i class="fa fa-envelope-square">&nbsp;</i> &nbsp;<x@icehe.me> </span>
-<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-heart">&nbsp;</i> Apple, Animate, Zhixin, Shuttle Cock, 毽球</sup></span>
+<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-heart">&nbsp;</i> Animate, Shuttle Cock, 毽球, 执信</sup></span>
 
 <br/> <span class="key_pos">Job</span> <span class="val_pos"> <i class="fa fa-weibo">&nbsp;</i> [Sina Weibo](http://weibo.com/2181657940/) - Mobile API </span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-puzzle-piece">&nbsp;</i> Server-side Development Engineer</sup></span>
@@ -28,15 +28,12 @@ toc: false
 <br/> <span class="key_pos">Life</span> <span class="val_pos"> <i class="fa fa-calendar">&nbsp;</i> [Logs](/lifelogs)</span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Time Usage Records & Statistics</sup></span>
 <span class="val_pos"> <i class="fa fa-heart-o">&nbsp;</i> [Favourites](/favourites)</span>
-<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Books, Movies, Games & etc.</sup></span>
+<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-book">&nbsp;</i>Books &nbsp;<i class="fa fa-film">&nbsp;</i>Movies &nbsp;<i class="fa fa-rocket">&nbsp;</i>Games & oth.</sup></span>
 <span class="val_pos icon-qzone">&nbsp; [Old Articles](http://290841032.qzone.qq.com/)</span>
-<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Good old time.</sup> </span>
+<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Good old days</sup> </span>
 
-<!--<br/> <span class="key_pos">Done</span> <span class="val_pos icon-douban">&nbsp; [Books](https://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)&nbsp; <i class="fa fa-film"></i>&nbsp; [Movies](https://movie.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count) <span class="icon-qzone"> [Articles](http://290841032.qzone.qq.com/)</span></span>-->
-<!--<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>I read, saw and wrote ( No update )</sup></span>-->
-
-<!--<br/> <span class="key_pos">Friends</span> <span class="val_pos"> <i class="fa fa-users"></i>&nbsp; [Jan Fan](http://janfan.github.io/) | [Shiwey Yan](http://shiweyyan.github.io/) | SF Zhou</span>-->
-<!--<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Web Secure | Game Developer | ACMer</sup> </span>-->
+<br/> <span class="key_pos">Friends</span> <span class="val_pos"> <i class="fa fa-users"></i>&nbsp; [Jan Fan](http://janfan.github.io/) | [Shiwey Yan](http://shiweyyan.github.io/) | SF Zhou</span>
+<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Web Secure | Game Developer | ACMer</sup> </span>
 
 <br/> <span class="key_pos">Mottos</span> <span class="val_pos"> <i class="fa fa-comment">&nbsp;</i> 宁静致远。</span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Done is better than perfect.</sup></span><br/><br/>
