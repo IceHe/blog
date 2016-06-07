@@ -1,6 +1,6 @@
 title: My Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2016-06-01
+updated: 2016-06-06
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -483,9 +483,12 @@ _Most Keys are Same as Vim , Just List my Custom Keys._
     ~~`^ t` [ Simple | Traditional  ] Chinese Characters~~
     ~~`^ .` [ Chinese | English  ] Punctuation Marks~~
 
-# iTerm3
+# iTerm2
 
+__`⌘ ;` Autocomplete__
 `⌘ /` Find Cursor
+_`⌘⌥ /` Recent Directories_
+`⌘⇧ h` Paste History
 
 # Karabiner
 
@@ -574,7 +577,7 @@ Not Only shortcuts, but also Change Layout of Keyboard!
 - Most Frequent
 
     `^ ⌥ q` | `凵 q` [Firefox](#Firefox)
-    `^ ⌥ w` | `凵 w` [iTerm3](#iTerm3)
+    `^ ⌥ w` | `凵 w` [iTerm2](#iTerm2)
     `^ ⌥ e` | `凵 e` [Evernote](#Evernote)
     `^ ⌥ r` | `凵 r` [Calendar](#Calendar)
 
