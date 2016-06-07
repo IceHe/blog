@@ -30,6 +30,8 @@ __Maybe__
 - 0 试 WM - [i3wm](http://i3wm.org/docs/userguide.html), [<i3 - improved tiling wm>](http://i3wm.org/) (据说mac的virtualbox配i3,秒开), [awesome wm](https://awesomewm.org/), Divi, [kwm](https://github.com/koekeishiya/kwm), [xMonad](https://github.com/ruanyf/articles/blob/master/dev/linux/xmonad.md)
     [i3 Cheat Sheet](https://www.cheatography.com/davechild/cheat-sheets/i3-window-manager/)
 - 0 Other [Algo](/notes/algo.html) , [Cpp](/notes/cpp.html)
+- 0 GDB [Closed-source Debugging with GDB](http://www.cheatography.com/fristle/cheat-sheets/closed-source-debugging-with-gdb/) <sup>Cheat Sheet</sup> <sup>_todo_</sup>
+
 
 __Work__
 
