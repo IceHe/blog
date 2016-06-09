@@ -1,5 +1,6 @@
 title: Cmd Plan
 ---
+<http://siberiawolf.com/free_programming/index.html#Shell>
 
 <https://www.cheatography.com/citguy/cheat-sheets/nix-users-and-groups/>
 
