@@ -1,6 +1,6 @@
 title: My Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2016-06-06
+updated: 2016-06-09
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -539,11 +539,11 @@ Not Only shortcuts, but also Change Layout of Keyboard!
 
     `凵 o` = `_`
     `凵 p` = `=`
-    `凵 [` = `-`
-    `凵 ]` = `+`
 
     `凵 '` = <code>\`</code>
     `凵 b` = `~`
+    `凵 n` = `-`
+    `凵 m` = `+`
 
 - Mv
 
