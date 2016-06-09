@@ -1,6 +1,6 @@
 title: My Tools 利器
 date: 2015-11-21
-updated: 2016-06-07
+updated: 2016-06-09
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -8,6 +8,7 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 ---
 
 - 除最后一小节，其它均为Mac平台下的软件。
+- [利器 - 创造者和他们的工具](http://liqi.io/) - 采访优秀的创造者，邀请其分享工作时所使用的工具，以及使用的方式和原则。
 - [少数派](http://sspai.com/) - 高质量 App 推荐媒体，关于 iOS、Mac、硬件。
 - [一日一技](http://sspai.com/tag/%E4%B8%80%E6%97%A5%E4%B8%80%E6%8A%80/?page=1) - Mac 小技巧。
 
@@ -537,6 +538,10 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 - [小米插线板](http://www.mi.com/powerstrip/)
 
     小巧精致，节省空间又好看，省了不少 USB 充电插头。
+
+- [极路由 1S](http://www.hiwifi.com/j1s-view)
+
+    小巧便宜，设置简单，满足一般的家庭使用。
 
 - [TK-ONIGIRI](http://www.victorsport.com.cn/product_data.php?id=bVjabyTqrMjj666zMjEk67dD4xSyq)
 
