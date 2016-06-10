@@ -26,25 +26,25 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
 - [Shawdowsocks](https://portal.shadowsocks.com/)
 
-    首推的番羽土啬工具。
-
-    Mac 的 [ShadowsocksX](#System_Tools)  + 浏览器的 proxy 类插件，如 FireFox 的 [FoxyProxy](https://getfoxyproxy.org/)，Chrome 的 [SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?hl=en)。
+    - 首推的 PC 番羽土啬方案：
+    
+        Shadowsocks 服务 + Mac 的 [ShadowsocksX](#System_Tools)  + 浏览器的 proxy 类插件，如 FireFox 的 [FoxyProxy](https://getfoxyproxy.org/)，Chrome 的 [SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?hl=en)。
 
     - 备选方案：[VPN](https://www.cup.com/staticip/?=panda) + [CHNRoute](https://github.com/fivesheep/chnroutes) + [Dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html)。
 
 - [Firefox](http://www.firefox.com.cn/)
 
-    配合 [VimFX](https://github.com/akhodakivskiy/VimFx) 拓展，可在浏览器内 __全局使用 Vim 键位__ 浏览网页、操作浏览器！键盘党神器。 <sup>Favourite</sup>
+    <sup>Favourite</sup> 配合 [VimFX](https://github.com/akhodakivskiy/VimFx) 拓展，可在浏览器内 __全局使用 Vim 键位__ 浏览网页、操作浏览器！键盘党神器。
 
     Chrome 很好，但更耗电，影响到了 Mac 的续航；更重要的是类 VimFX 的 Vimium、cVim 等 Chrome 拓展无法在页面未加载完毕的情况下使用 Vim 键位，不够极致。
 
 - [Chrome](https://www.google.com/chrome/)
 
-    用 Inspect Element 等 Develop Tools 做 Web 的开发、调试，远胜 FireFox 的 Firebug。 <sup>Dominant</sup>
+    <sup>Dominant</sup> 用 Inspect Element 等 Develop Tools 做 Web 的开发、调试，远胜 FireFox 的 Firebug。
 
 - [Squirrel](http://rime.im/)
 
-    鼠须管输入法 <sup>Best</sup> ，稳定、流畅、开源，个人可定制性极高。是 Rime 中州韵输入法的 Mac 发行版。
+    <sup>Best</sup> 鼠须管输入法，稳定、流畅、开源，个人可定制性极高。是 Rime 中州韵输入法的 Mac 发行版。
 
     - iFanr 爱范儿的推荐 《 [鼠须管，“神级”输入法](http://www.ifanr.com/156409) 》
     - 配置教程 《 [Rime 输入法 — 鼠须管（Squirrel）词库添加及配置](http://www.jianshu.com/p/cffc0ea094a7) 》
@@ -52,7 +52,7 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
 - [Typora](http://www.typora.io)
 
-    Markdown 编辑器 <sup>优雅、极简</sup> ，所见即所得。国人制作，完全免费，支持 Mac、Windows！
+    <sup>优雅、极简</sup> Markdown 编辑器，所见即所得。国人制作，完全免费，支持 Mac、Windows！
 
 ## Develop
 
@@ -64,15 +64,17 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
 - [Vim](http://www.vim.org/) | [Neovim](https://neovim.io/)
 
-    编辑器之神 <sup>God-like</sup>（ Emacs 则是神的编辑器）。
+    <sup>God-like</sup> 编辑器之神（ Emacs 则是神的编辑器）。
 
     服务端开发、运维经常要在远程服务器编辑文本，而 vi 是 \*nix 标配，遂 vi\* 自然是必备技能。
 
 - [Zsh](http://zsh.sourceforge.net/)
 
-    远比 Bash 强大、高效的 Shell！<sup>Powerful</sup>
-
-    但配置较为复杂。搭配 SSD ，才能充分发挥 Zsh 的目录相关操作的便利性。
+    <sup>Powerful</sup> 比 Bash 更强大、便捷、高效的 Shell！
+    
+    使用 oh-my-zsh 即可解决配置较为复杂的问题。可能你的电脑用 Zsh 比较慢，赶紧换 SSD 吧。
+    
+    Fish（另一种 Shell）虽然很好，但存在兼容性问题，有些 Bash 的指令需要改写才能运行在 Fish 上。
 
     - [Comparison of Command Shells - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_command_shells)
 
@@ -80,7 +82,7 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     管理 Zsh 配置的开源框架，预打包了相关的主题、插件、配置。
 
-    配置过程傻瓜化，一条安装指令就能让你能更畅快地享受 Zsh 的强大与高效！
+    配置过程傻瓜化，一条安装指令就能让你畅快地享受 Zsh 的强大与高效！
 
 - [tmux](https://tmux.github.io/)
 
