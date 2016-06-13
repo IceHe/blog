@@ -17,7 +17,7 @@ toc: false
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-puzzle-piece">&nbsp;</i> Server-side Development Engineer</sup></span>
 <span class="val_pos"> <i class="fa fa-file-text">&nbsp;</i> &nbsp;[Resume](/resume)</span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-gear">&nbsp;</i> Skills, Education, Leadership | 简历</sup></span>
-<span class="val_pos"> <i class="fa fa-github-alt">&nbsp;</i> &nbsp;[Github](http://github.com/IceHe)</span><br/><br/>
+<span class="val_pos"> <i class="fa fa-github-alt">&nbsp;</i> &nbsp;[GitHub](http://github.com/IceHe)</span><br/><br/>
 
 ---
 <br/> <span class="key_pos">Tech</span> <span class="val_pos"> <i class="fa fa-gears">&nbsp;</i> [Tools](/tools/)</span>

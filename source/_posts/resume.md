@@ -17,7 +17,7 @@ toc: false
 
 ## __Refs__
 - __Tech Blog__ &nbsp; &nbsp; &nbsp; <i class="fa fa-cube"> &nbsp;</i>[icehe.me](http://icehe.me)
-- __Github__ &nbsp; &nbsp; &nbsp; <i class="fa fa-github"> &nbsp;</i>[github.com/IceHe](https://github.com/IceHe)
+- __GitHub__ &nbsp; &nbsp; &nbsp; <i class="fa fa-github"> &nbsp;</i>[github.com/IceHe](https://github.com/IceHe)
 
 ## __Skills__
 - __Level__ &nbsp; &nbsp; <i class="fa fa-trophy"></i> __Proficient__ &nbsp; > &nbsp; <i class="fa fa-star"></i> __Familiar__ &nbsp; > &nbsp; <i class="fa fa-star-half-o"></i> Competent &nbsp; > &nbsp; <i class="fa fa-star-o"></i> Know
