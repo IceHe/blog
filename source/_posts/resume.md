@@ -1,6 +1,6 @@
 title: My Resume 何志远
 date: 2015-01-24
-updated: 2016-06-13
+updated: 2016-06-14
 show_updated: true
 categories: [whoami]
 tags: [whoami]
@@ -20,21 +20,37 @@ toc: false
 - __GitHub__ &nbsp; &nbsp; &nbsp; <i class="fa fa-github"> &nbsp;</i>[github.com/IceHe](https://github.com/IceHe)
 
 ## __Skills__
-- __Level__ &nbsp; &nbsp; <i class="fa fa-trophy"></i> __Proficient__ &nbsp; > &nbsp; <i class="fa fa-star"></i> __Familiar__ &nbsp; > &nbsp; <i class="fa fa-star-half-o"></i> Competent &nbsp; > &nbsp; <i class="fa fa-star-o"></i> Know
+- __Level__
 
-- __Lang__ &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> __`PHP`,&nbsp; `Python`,&nbsp; `JavaScript`,&nbsp; `C/C++`__,&nbsp; `Java` &nbsp; > &nbsp; <i class="fa fa-star-o"></i> `ASM`,&nbsp; `VB`
+    <i class="fa fa-trophy"></i> Proficient &nbsp; <i class="fa fa-star"></i> Familiar &nbsp; <i class="fa fa-star-half-o"></i> Competent &nbsp; <i class="fa fa-star-o"></i> Know
 
-- __OS__ &nbsp; &nbsp; <i class="fa fa-star"></i> __`Mac OS X`__ &nbsp; > &nbsp; <i class="fa fa-star-half-o"></i> `CentOS 6/7`,&nbsp; `Windows 7/8.1` &nbsp; > &nbsp; <i class="fa fa-star-o"></i> `Ubuntu`
+- __Language__
 
-- __DB__ &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> __`SQL`,&nbsp; `MySQL`__ &nbsp; > &nbsp; <i class="fa fa-star-o"></i> `MS SQL Server 2008`,&nbsp; `Oracle DB`
+    __<i class="fa fa-star-half-o"></i> `PHP` `Python` `C++`__ `C` `JavaScript` `Java` <i class="fa fa-star-o"></i> `ASM` `VB`
 
-- __Web__ &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> __`HTML`,&nbsp; `CSS`__,&nbsp; `jQuery` &nbsp; > &nbsp;<i class="fa fa-star-o"></i> `Nginx`<!--,&nbsp; Redis-->
+- __OS__
 
-- __IDE__ &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> __`PhpStorm`,&nbsp; `PyCharm`__ &nbsp; > &nbsp; <i class="fa fa-star-o"></i> `Visual Studio`,&nbsp; `Eclipse`,&nbsp; `QtCreator`
+    __<i class="fa fa-star"></i> `macOS`__ <i class="fa fa-star-half-o"></i> `CentOS 6 / 7` `Windows 7 / 8.1` <i class="fa fa-star-o"></i> `Ubuntu`
 
-- __Tools__ &nbsp; &nbsp; <i class="fa fa-star"></i> __`AppleScript`,&nbsp; `Git`,&nbsp; `Vim`,&nbsp; `Zsh`__ &nbsp; > &nbsp; <i class="fa fa-star-half-o"></i> __`Shell script`__,&nbsp; `Batch file`<sup>Windows</sup>
+- __DB__
 
-- __Others__ &nbsp; &nbsp; <i class="fa fa-star-half-o"></i> __`Qt 4/5`__ &nbsp; > &nbsp; <i class="fa fa-star-o"></i> `Yaf`,&nbsp; `Lumen`,&nbsp; `Linux Loadable Kernel Module`
+    __<i class="fa fa-star-half-o"></i> `SQL` `MySQL`__ <i class="fa fa-star-o"></i> `MS SQL Server 2008` `Oracle DB`
+
+- __Web__
+
+    __<i class="fa fa-star-half-o"></i> `HTML` `CSS` `jQuery`__<!-- <i class="fa fa-star-o"></i> `Nginx` Redis-->
+
+- __IDE__
+
+    __<i class="fa fa-star-half-o"></i> `PhpStorm` `PyCharm`__ <i class="fa fa-star-o"></i> `Visual Studio` `Eclipse` `QtCreator`
+
+- __Scripts__
+
+    __<i class="fa fa-star"></i> `AppleScript` <i class="fa fa-star-half-o"></i> `Shell script`__ `Batch file`<sup>(Windows)</sup>
+
+- __Tools & Others__
+
+    __<i class="fa fa-star"></i> `Git` `Vim` `Zsh`__ <i class="fa fa-star-half-o"></i> `Qt 4/5` `Yaf`
 
 # Career
 
