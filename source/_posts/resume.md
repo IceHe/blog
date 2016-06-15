@@ -1,6 +1,6 @@
 title: My Resume 何志远
 date: 2015-01-24
-updated: 2016-06-14
+updated: 2016-06-15
 show_updated: true
 categories: [whoami]
 tags: [whoami]
@@ -26,11 +26,11 @@ toc: false
 
 - __Language__
 
-    __<i class="fa fa-star-half-o"></i> `PHP` `Python` `C++`__ `C` `JavaScript` `Java` <i class="fa fa-star-o"></i> `ASM` `VB`
+    __<i class="fa fa-star-half-o"></i> `PHP` `Python` `C++`__ `JavaScript` `Java` `C` <i class="fa fa-star-o"></i> `ASM` `VB`
 
 - __OS__
 
-    __<i class="fa fa-star"></i> `macOS`__ <i class="fa fa-star-half-o"></i> `CentOS 6 / 7` `Windows 7 / 8.1` <i class="fa fa-star-o"></i> `Ubuntu`
+    __<i class="fa fa-star"></i> `macOS` <i class="fa fa-star-half-o"></i> `CentOS 6 / 7` `Windows 7 / 8.1`__ <i class="fa fa-star-o"></i> `Ubuntu`
 
 - __DB__
 
@@ -50,7 +50,7 @@ toc: false
 
 - __Tools & Others__
 
-    __<i class="fa fa-star"></i> `Git` `Vim` `Zsh`__ <i class="fa fa-star-half-o"></i> `Qt 4/5` `Yaf`
+    __<i class="fa fa-star"></i> `Git` `Vim` `Zsh` <i class="fa fa-star-half-o"></i> `Qt 4 / 5`__ `Yaf`
 
 # Career
 
@@ -62,10 +62,10 @@ toc: false
 - _PHP , Docker , Nginx , Redis , Yaf , Lumen , CentOS_
 
 ## __毕业设计 - [基于进程安全测量的安全管理](https://github.com/IceHe/secure_mgt_by_dynamic_measuring)__ &nbsp; &nbsp; _2015.03 ~ 2015.05_
-- 包括：[安全测量模块](https://github.com/IceHe/dimm)（Linux Loadable Kernel Module）、[安全管理器](https://github.com/IceHe/secure_monitor)（Qt GUI）。
+- 包括：[安全测量模块](https://github.com/IceHe/dimm)（Linux Loadable Kernel Module）、[安全管理器](https://github.com/IceHe/secure_monitor)（Qt GUI）
 - 原理：用 SHA-1 分别计算进程在内存中的代码段与参数段，
 得出定长的信息摘要作为特征值（方便比对），去比对标准特征值，
-便可判断进程是否被篡改，或程序是否被替换。
+便可判断进程是否被篡改，或程序是否被替换
 - _C/C++ , Loadable Kernel Module , CentOS 7 , Qt Framework_
 
 ## __<span class="icon-weibo">&nbsp;</span>[微梦创科网络技术（中国）有限公司](https://zh.wikipedia.org/wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A) - 手机微博 - 服务端研发 实习生__ &nbsp; &nbsp; _2014.12 ~ 2015.02_
@@ -97,10 +97,11 @@ toc: false
 邀请到零点研究咨询集团董事长兼 CEO [袁岳](http://baike.baidu.com/view/801470.htm) 先生作主讲嘉宾
 - 出席 2013 年 [第三届](http://page.renren.com/600002531/note/911026751)「全球创业周中国站校园伙伴高峰论坛」（上海），
 以及第三届「梦想 Safari 素质教育论坛」（珠海）
-- 成功举办「过来人托业杯职场精英挑战赛」大学城分赛区初赛、「黑苹果职业访问大赛」华工场、
-「一站到底」华工版、「职场好声音」讲座 2 场、「生存挑战营」（在陌生城市挣返校车钱）2 届，
+- 成功举办「过来人托业杯职场精英挑战赛」大学城分赛区初赛、
+「黑苹果职业访问大赛」华工场、 「一站到底」华工版、
+「职场好声音」讲座 2 场、「生存挑战营」（在陌生城市挣返校车钱）2 届，
 会员服务活动 6 场，素质拓展 2 场，主讲了策划撰写、商务礼仪 2 场培训
-- 在任期间，协会在社团联合会的社团年度综合测评中积 96.7 分，排名从第 36 跃升至第 5（5/59）
+- 任期内，协会在社团联合会的年度综合测评中积 96.7 分，排名从第 36 跃升至第 5（5/59）
 
 ## __华南理工毽球社 - 社长__ &nbsp; &nbsp; _2012.09 ~ 2014.06_
 - 2016.05.15 「京津冀天津毽球邀请赛」混合团体冠军（1/16）
@@ -113,7 +114,7 @@ toc: false
 - 2011「华工院际毽球赛」冠军
 
 ## __华工学生职业发展协会 - 综合事务部 - 干事__ &nbsp; &nbsp; _2011.09 ~ 2012.06_
-- 说服广州信诚人寿 HR 负责人为 「超完美计划培训营」 优胜者提供岗位：经理人 2 个、实习生 10 个
+- 说服广州信诚人寿 HR 负责人为「超完美计划培训营」优胜者提供岗位：经理人 2 个、实习生 10 个
 - 说服南方报业集团传媒研究院为「职协企观月」活动提供 40 个免费参观南方报业集团的名额
 - 举办 「就业服务月之公关危机」 比赛（纪念第一次办比赛，虽小）
 
