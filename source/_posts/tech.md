@@ -14,7 +14,7 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
     - The item with <sup>__Best__</sup>&nbsp; implies it is `one of the best`.
     - The item with <sup>_todo_</sup>&nbsp; implies it has `not been read-through`.
 
-## OL Tools 在线工具
+## Online Tools
 
 - Encoding Converter :&nbsp; [URL](http://tool.oschina.net/encode?type=4) ,&nbsp; [ASCII](http://tool.oschina.net/encode?type=3) ,&nbsp; [UTF-8](http://tool.oschina.net/encode?type=2) ,&nbsp; [Unicode](http://tool.oschina.net/encode?type=1) ,&nbsp; [Escape](http://www.bejson.com/enc/escape/) - 编码转换
 
@@ -34,7 +34,7 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 - [Public DNS](http://www.ip.cn/dns.html) - 公共 DNS 服务器 IP 列表
 
-## Web Refs 参考
+## Web Refs
 
 - [OverAPI](http://overapi.com/) / [Our Favourite Cheat Sheets](http://whatis.techtarget.com/reference/Our-Favorite-Cheat-Sheets#operating) - 速查清单
 
@@ -60,7 +60,7 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 <!--- [Writing](http://www.cheatography.com/y0mbo/cheat-sheets/writing-cheat-sheet/) / [Dramatica Theory](http://www.cheatography.com/permababy/cheat-sheets/dramatica-theory/) / [Accounting Principles and Business Transactions](http://www.cheatography.com/thuhuong/cheat-sheets/accounting-principles-and-business-transactions/) / [Sociology 344 Final](http://www.cheatography.com/connorb/cheat-sheets/sociology-344-final/) / -->
 
-## Docs 文档
+## Docs
 
 最好的习惯：查阅官方网站的文档。
 
@@ -90,7 +90,7 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
     Including [AppleScript Language Guide](https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html)
 
-## Algorithm 算法
+## Algorithm
 
 - [我的算法学习之路](http://lucida.me/blog/on-learning-algorithms/) <sup>_todo_</sup>
 
@@ -110,7 +110,7 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 <!--- [Algorithms required to solve all problems (using C++) in any competitive coding contest?](https://www.quora.com/What-are-the-algorithms-required-to-solve-all-problems-using-C++-in-any-competitive-coding-contest) <sup>_todo_</sup>-->
 
-## Coding 写代码
+## Coding
 
 - [关于编程错误的思考](http://zh.lucida.me/blog/on-programming-errors-2/)
 
@@ -140,7 +140,7 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 <!--- [The Lost Art of C Structure Packing](http://www.catb.org/esr/structure-packing/) - 结构体的对齐与压缩-->
 
-## Read 阅读
+## Read
 
 - [GitBook](https://www.gitbook.com/explore) <sup>_todo_</sup>
 
@@ -174,7 +174,7 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 <!--- [How to Design Programs](http://www.ccs.neu.edu/home/matthias/HtDP2e/index.html) <sup>_todo_</sup> 好像跟Shceme / Lisp 有关-->
 
-## Web Dev 开发
+## Web
 
 - [Nginx 教程](http://openresty.org/download/agentzh-nginx-tutorials-zhcn.html) <sup>_todo_</sup>
 
@@ -196,7 +196,7 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 <!--- [Linux TCP 队列相关参数的总结](http://blog.sina.com.cn/s/blog_e59371cc0102vg4n.html)很可能永远用不上-->
 
-## Architecture 架构
+## Architecture
 
 - [架构腐化之谜](http://mp.weixin.qq.com/s?__biz=MjM5NTg2NTU0Ng==&amp;mid=210816035&amp;idx=3&amp;sn=7ad903e7be165e2c616c20fa2f148f63&amp;scene=1#rd) <sup>__Best__</sup>
 
@@ -242,7 +242,7 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 - [Unix 现状与未来](http://blog.csdn.net/haoel/article/details/1688006)
 
-## Secure 安全
+## Secure
 
 - [理解 OAuth 2.0](https://github.com/ruanyf/articles/blob/master/2014/2014-05-11-oauth-2-0.md)
 
@@ -266,7 +266,7 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 <!--- [FIND密码网](http://www.findmima.com/) - 社工库-->
 
-## Career 职业生涯
+## Career
 
 - [免费的 MBTI 测试](http://www.apesk.com/mbti/dati.asp?)
 
@@ -289,7 +289,7 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 - [精益技术简历之道——改善技术简历的47条原则](http://zh.lucida.me/blog/lean-technical-resume/) - Google 工程师，[Lucida](http://lucida.me/)
 
-## IT Industry IT业
+## IT Industry
 
 - [碎片化信息的价值：懒惰与慰藉](http://chuansong.me/n/2848588) <sup>__Best__</sup>
 
@@ -305,7 +305,7 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 - [腾讯，竞争力和用户体验](http://coolshell.cn/articles/5901.html)
 
-## Mgt 管理
+## Management
 
 - [开发团队的效率](http://coolshell.cn/articles/11656.html)
 
