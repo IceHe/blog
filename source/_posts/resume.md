@@ -26,7 +26,7 @@ toc: false
 
 - __Language__
 
-    __<i class="fa fa-star-half-o"></i> `PHP` `Python` `C++`__ `JavaScript` `Java` `C` <i class="fa fa-star-o"></i> `ASM` `VB`
+    __<i class="fa fa-star-half-o"></i> `PHP` `Python` `C++`__ `C` `Java` `JavaScript` <i class="fa fa-star-o"></i> `ASM` `VB`
 
 - __OS__
 
