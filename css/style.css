@@ -868,7 +868,7 @@ header nav ul li a:hover {
 .page a:hover,
 .link a:hover,
 .photo a:hover {
-  color: #69c;
+  color: #69f;
 }
 @media only screen and (min-width: 768px) {
   article header.article-info {
@@ -1071,7 +1071,7 @@ article .article-content table th>code,
 article .article-content table td>code {
   font-family: Monaco, Menlo, Consolas, Courier New, monospace;
   background: #eee;
-  color: #b22222;
+  color: #36c;
   border: 1px solid #d6d6d6;
   padding: 0 5px;
   margin: 0 2px;
