@@ -7,6 +7,13 @@ tags: [read]
 description: 技术类书签：在线工具、文档、Wiki、技术博客…
 ---
 
+- __Original Version__
+    - [My Bookmarks 书签](/bookmarks/)
+
+- __Superscript 上标__
+    - The item with <sup>__Best__</sup>&nbsp; implies it is `one of the best`.
+    - The item with <sup>_todo_</sup>&nbsp; implies it has `not been read-through`.
+
 ## OL Tools 在线工具
 
 - Encoding Converter :&nbsp; [URL](http://tool.oschina.net/encode?type=4) ,&nbsp; [ASCII](http://tool.oschina.net/encode?type=3) ,&nbsp; [UTF-8](http://tool.oschina.net/encode?type=2) ,&nbsp; [Unicode](http://tool.oschina.net/encode?type=1) ,&nbsp; [Escape](http://www.bejson.com/enc/escape/) - 编码转换
@@ -319,12 +326,3 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
     相关：[Theory X and Theory Y](https://en.wikipedia.org/wiki/Theory_X_and_Theory_Y)
 
 <!--- [成功技术领导者10条经验锤炼](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=208891164&idx=1&sn=893d43e516f576917dcb99cfa421a226&scene=5&srcid=3vfJDE1cRf8X4ecZlk7h#rd) 初次看不明觉厉，再看没有感触，待观察。-->
-
-## Others 其它
-
-- Original Version
-    - [My Bookmarks 书签](/bookmarks/)
-
-- Superscript 上标
-    - The item with <sup>_todo_</sup>&nbsp; implies it has `not been read-through`.
-    - … with <sup>__Best__</sup>&nbsp; implies it is `one of the best`.
