@@ -8,8 +8,8 @@ description: 我收藏的网站、博客、文档、学习资料、文章、问�
 ---
 
 - 注意：__本文不再更新__，而是拆分为以下两篇文章，分别继续更新。
-- [My Tech Bookmarks 技术书签](/tech/)
-- [My Read Bookmarks 阅读书签](/read/)
+    - [My Tech Bookmarks 技术书签](/tech/)
+    - [My Read Bookmarks 阅读书签](/read/)
 
 # IT 信息技术
 
