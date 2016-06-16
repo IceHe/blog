@@ -1,11 +1,15 @@
 title: My Bookmarks 书签
 date: 2015-12-20
-updated: 2016-05-25
+updated: 2016-06-16
 show_updated: true
 categories: [read]
 tags: [read]
 description: 我收藏的网站、博客、文档、学习资料、文章、问答、专栏…
 ---
+
+- 注意：__本文不再更新__，而是拆分为以下两篇文章，分别继续更新。
+- [My Tech Bookmarks 技术书签](/tech/)
+- [My Read Bookmarks 阅读书签](/read/)
 
 # IT 信息技术
 
