@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://icehe.me/"/>
-  <updated>2016-06-15T16:00:00.000Z</updated>
+  <updated>2016-06-18T16:00:00.000Z</updated>
   <id>http://icehe.me/</id>
   
   <author>
@@ -14,6 +14,313 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My Read Bookmarks 阅读</title>
+    <link href="http://icehe.me/read/"/>
+    <id>http://icehe.me/read/</id>
+    <published>2016-06-16T16:00:00.000Z</published>
+    <updated>2016-06-18T16:00:00.000Z</updated>
+    
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Original Version&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/bookmarks/&quot;&gt;My Bookmarks 书签&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Superscript 上标&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The item with &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&amp;nbsp; implies it is &lt;code&gt;one of the best&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The item with &lt;sup&gt;Note&lt;/sup&gt;&amp;nbsp; implies it is &lt;code&gt;a link to my related note&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The item with &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&amp;nbsp; implies it has &lt;code&gt;not been read-through&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;Articles-文章&quot;&gt;&lt;a href=&quot;#Articles-文章&quot; class=&quot;headerlink&quot; title=&quot;Articles 文章&quot;&gt;&lt;/a&gt;Articles 文章&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.cse.buffalo.edu/~rapaport/howtostudy.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;How to Study: A Brief Guide&lt;/a&gt; &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/mzlogin/chinese-copywriting-guidelines&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;中文文案排版指北&lt;/a&gt;（ &lt;a href=&quot;https://github.com/mzlogin/chinese-copywriting-guidelines/blob/Simplified/README.en.md&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;EN&lt;/a&gt; ）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/uicircle/20506092&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;写给大家看的中文排版指南&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Life-人生&quot;&gt;&lt;a href=&quot;#Life-人生&quot; class=&quot;headerlink&quot; title=&quot;Life 人生&quot;&gt;&lt;/a&gt;Life 人生&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/24561532/answer/28240920&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;若一辈子没有赚大钱，当大官，和自己爱的人在一起（哪怕一次），活着能算有意义吗？&lt;/a&gt;- 灯塔 &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt; / &lt;a href=&quot;/read/meaning.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/xiepanda/19582894&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;为什么长大以后反而不容易快乐？&lt;/a&gt;- You are not the one. You are not special. &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt; / &lt;a href=&quot;/read/why_unhappy.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/lswlsw/19895904&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;眼前的苟且，也正是诗和远方&lt;/a&gt; - 迷茫 &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt; / &lt;a href=&quot;/read/poet.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/19988077&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;苦难有什么价值？&lt;/a&gt;- 没有价值&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzA5MTM0NzIwNQ==&amp;amp;mid=2649760227&amp;amp;idx=2&amp;amp;sn=89fcbaf26cb56a21da2c4364fa3c9359&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Loser 应该知道的 6 个残酷人生事实&lt;/a&gt; &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt; / &lt;a href=&quot;/read/cruel_reality.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;  「这个世界只关心你能给予什么。」英语原文：&lt;a href=&quot;http://www.cracked.com/blog/6-harsh-truths-that-will-make-you-better-person/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;6 Harsh Truths That Will Make You a Better Person&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/23721974/answer/25493813&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;你曾经的老师说过的哪句话印象最为深刻，对你影响较大甚至在十多年或更久之后都记在心里？&lt;/a&gt; &lt;sup&gt;&lt;a href=&quot;/read/teacher_said.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;  我们用「我能做到什么」来判断和定位自己，而别人用「你已经做过什么」来判断和定位你。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/20773220&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;70 后和 80 后对于刚刚踏入社会的 90 后毕业生有什么建议？&lt;/a&gt;- 「如果不能先学着适应环境，就不要妄想改变环境。」 &lt;sup&gt;&lt;a href=&quot;/read/suggestions_for_the_young.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/35670576/answer/64989492&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;马云的缺陷是什么？&lt;/a&gt; - 当年阿里巴巴的「十八罗汉」甘愿跟着马云，并不只是因为马云能打鸡血、“忽悠”……&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.douban.com/note/502334634/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;论底层青年如何逆袭到中上阶层：什么是命？如何革你的命？&lt;/a&gt;- 家世的积累，是你的起点 &lt;sup&gt;&lt;a href=&quot;/read/family_accumulation.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzA3OTQ4NDkxOA==&amp;amp;mid=202075659&amp;amp;idx=1&amp;amp;sn=350db3032e8f3dca423ba6b93935e33a&amp;amp;scene=0#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;我们这一代人的困惑&lt;/a&gt; - 大部分人的梦想永远都实现不了&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MjM5NzExOTE2Ng==&amp;amp;mid=208583700&amp;amp;idx=1&amp;amp;sn=9bb0ea491064b3ffb93e7f24f9fc04a3&amp;amp;scene=5#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;精致的利己主义者和常青藤的绵羊&lt;/a&gt; - 中西&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;amp;mid=405068698&amp;amp;idx=1&amp;amp;sn=a401b7eba92b3bc4378cb5ec8dfd7c48&amp;amp;scene=1&amp;amp;srcid=04011TWvm7WC8dEBpfJRwAIP#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;你的自控能力强么？｜研究：不快乐的人自控力更差&lt;/a&gt; - 吃好，睡好，保持好心情与好状态&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;amp;mid=216723229&amp;amp;idx=1&amp;amp;sn=87c7dbb95abce565fa001c3a5063427a&amp;amp;scene=1&amp;amp;srcid=0308jCVD1x8LridYzELGd0ZS#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;风尘棋客&lt;/a&gt; - 他人的故事&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;amp;mid=233397081&amp;amp;idx=1&amp;amp;sn=836801a648013f925fca14de3572c45c&amp;amp;scene=1&amp;amp;srcid=0309TRipy9egTmxD0B51Q272#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《 论悲观主义的益处 》阿兰·德·波顿&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;  「他的音乐虽然哀伤，但却有振奋人心的功效。你会感到你的悲伤并不孤独。」&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://yixi.tv/lecture/177&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《 感谢你给我机会上场 》方励的一席演讲&lt;/a&gt; - 循着乐趣前行 &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/happy&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《 幸福课 》动机在杭州 的知乎专栏&lt;/a&gt; - 平常心 &lt;sup&gt;&lt;a href=&quot;/read/happiness_course.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/lswlsw&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《 潜台词 》李松蔚 的知乎专栏&lt;/a&gt; - 洞悉人心&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Rel-关系&quot;&gt;&lt;a href=&quot;#Rel-关系&quot; class=&quot;headerlink&quot; title=&quot;Rel 关系&quot;&gt;&lt;/a&gt;Rel 关系&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/xinliyushenghuo/19993302&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;本分和情分&lt;/a&gt; -「别人帮你，那是情分，不帮你，那是本分。容不容得下是你的气度，能不能让你容下是我的本事。」&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MjM5MzI5NzQ1MA==&amp;amp;mid=207716479&amp;amp;idx=1&amp;amp;sn=195e46c808f83f95990bb3aff09a349b&amp;amp;scene=1#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;圈子不同，不必强融&lt;/a&gt; -「怎么样才可以真正地做到不计较呢？强大到让别人计较你。」&lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.vccoo.com/v/6a28e8&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;孤独让人成瘾（下）：依赖真实的关系&lt;/a&gt; &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;  「交一个真正的朋友是一件很累人的事，但是人生那么长，不累一累，那又该干嘛呢？」&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/22613634/answer/77378235&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;为什么人越长大越孤单？&lt;/a&gt;- 自我定型后，想要寻找与我们真正相似的人&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;amp;mid=405129874&amp;amp;idx=1&amp;amp;sn=97889db6769448ff81a249be802c23a8&amp;amp;scene=1&amp;amp;srcid=0401FOHGUq43ZmJKAfljBV8z#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;谢谢你曾拒绝我｜被排斥会给一个人留下怎样的影响？&lt;/a&gt;- 低自尊&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://yue.fm/bg3x&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;不让不够格的“朋友”牵绊前进的脚步&lt;/a&gt; - 勿交损友&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/27203367&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何看待把妹知识？&lt;/a&gt;- 成为优秀而真实的自己&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/23151702&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;男女交往最忌讳什么？&lt;/a&gt;- 月亮你要，六便士你还嫌少&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/26239595&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;在大学里有哪些不错的恋爱建议？&lt;/a&gt;- 不强求&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;amp;mid=404230721&amp;amp;idx=1&amp;amp;sn=e3bd39ad031e00199d0a74e835e1768c&amp;amp;scene=1&amp;amp;srcid=04022oqUaHFXY1bI7drd1BuL#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;为什么你的爱情会输给日常琐碎？｜相爱容易相处难&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;amp;mid=215662699&amp;amp;idx=1&amp;amp;sn=d03dc12f1b0cab3fa191b80cf7697b76&amp;amp;scene=18&amp;amp;scene=1&amp;amp;srcid=0308sLfw8T7lI35VCnfy6RVG#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;伤不起的盖茨比——那些年，我们没逆袭到的女神&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/29090643&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;女性年纪大了就不好嫁人了吗？&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;  如果你自己一个人的时候都搞不定你自己，如果你单身的时候都不能把自己搞的美美的，让你自己过得开心，你觉得你能搞定一个家庭么？你觉得婚姻就会是你的避风港湾了么？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/bocai&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《 不想靠谱 》 知乎专栏&lt;/a&gt; - 两性关系&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/31280604&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;认为「 只有我完美了，别人才会喜欢我 」的想法有什么错误，该怎么解决？&lt;/a&gt;- 吾生有涯&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/37373471&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;为什么很多优质女生找不到男朋友？&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/20455039&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;送礼的秘诀是什么？&lt;/a&gt;- 「送者心安，受者心欢。」&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Think-思维&quot;&gt;&lt;a href=&quot;#Think-思维&quot; class=&quot;headerlink&quot; title=&quot;Think 思维&quot;&gt;&lt;/a&gt;Think 思维&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/21249109&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何用3个月毁掉你的室友？（大学生版）&lt;/a&gt; - 写照 &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/27283467&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;智商高低是因为思维习惯不同造成的吗？&lt;/a&gt;- 思考能力 &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/20416520&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何从思维上彻底改变学习模式？&lt;/a&gt;- 实用主义 VS 完美主义&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/28626263&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;哪些素质很重要，却是读书学不来的？&lt;/a&gt;- 纸上得来终觉浅，绝知此事要躬行&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/21568048/answer/18848977&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;人类为什么会有「 雄心壮志 」？为何有人「 小富即安 」，有人有「 鸿鹄之志 」？&lt;/a&gt;- 成就动机 Achievement、亲和动机 Affiliation、影响力动机 Power&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/individual/19777122&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;普通人怎么让自己更努力？(3)&lt;/a&gt;- 发掘内心的真实想法…&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://open.163.com/movie/2015/6/H/4/MAPPMO5L9_MAPPP7FH4.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Larry Smith：你为何不会成就伟业&lt;/a&gt; - 庸人的借口 &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MjM5MzEzNjI2MA==&amp;amp;mid=206759033&amp;amp;idx=1&amp;amp;sn=84f86dd4e6078c8bd3e84e25ab00e93e&amp;amp;scene=1#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;别让工作拖垮你，最实用的 25 条时间管理 TIPS&lt;/a&gt; - 时间管理的目的是为了提高效率，去做更多的工作？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/22879746&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;男生有钱到底有多重要？&lt;/a&gt;- 「有时候不在于它能带给你什么，而在于它能让你不失去什么」。自立，自尊&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/26980854&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;什么是「 富人思维 」？&lt;/a&gt;- 自我投资，善假于物&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/26980862&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;什么是「 穷人思维 」？&lt;/a&gt;- 短视：金钱 VS 时间成本&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/38632401&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;有什么知识，你知道后你的世界马上就不一样了？&lt;/a&gt;- 不要看对方说了什么，而是思考他为什么说这个&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/38632401/answer/77853819&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;有什么知识，你知道后你的世界马上就不一样了？&lt;/a&gt;- 学好逻辑很有用！&lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.wtoutiao.com/p/pbayZp.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;还有什么比揭人伤疤、往伤口撒盐更刺激的事呢？&lt;/a&gt;- 异见&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.360doc.com/content/15/0913/11/17262826_498824822.shtml&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;有情调没情怀、有趣味没人情味的知乎社区&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://fooads.com/post/572a97b96846962e0bb75504&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;一部《 欢乐颂 》，一场中产阶级的自我意淫&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;amp;mid=402827389&amp;amp;idx=1&amp;amp;sn=f6d26aacd8237df903e63a5012524b39&amp;amp;scene=1&amp;amp;srcid=0402ORLMG19eomT4kOhKNmEk#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;面对未知，如何能够免于恐惧？&lt;/a&gt;- 比起不确定的答案，我们宁可要一个坏答案。要悦纳不确定。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/20139880&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;学术方面该如何评价哈耶克？&lt;/a&gt;- 公正的游戏规则&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://blog.hiddenwangcc.com/sharewithu&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;个人成长理论、工具&lt;/a&gt; - 可供参考&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Health-健康&quot;&gt;&lt;a href=&quot;#Health-健康&quot; class=&quot;headerlink&quot; title=&quot;Health 健康&quot;&gt;&lt;/a&gt;Health 健康&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/24498231&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;生命真的在于运动么？&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/20687290&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;没有锻炼基础的人，如何增肌与减脂？&lt;/a&gt;- 汇总&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/oh-hard/19684185&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;什么样的有氧才真让你瘦？&lt;/a&gt;- 高强度间歇有氧，在短时间内将高强度与低强度训练结合&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/oh-hard/20273384?utm_campaign=official_account&amp;amp;utm_source=weibo&amp;amp;utm_medium=zhihu&amp;amp;utm_content=zhuanlan&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;练腹肌？你这是在练水桶腰！&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/20078304#answer-7173193&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;22:00-6:00睡觉真的比2:00-10:00更有利健康吗？&lt;/a&gt;- 早睡早起&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://chuansong.me/n/1238560&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;跑步（运动）后，到底该不该吃东西？&lt;/a&gt;- 运动完，吃更好&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/27579870&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;哪些公认的健康食品其实并非那么健康？为什么？&lt;/a&gt;- 沙拉，果汁…&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzA5ODUxMjMzMw==&amp;amp;mid=205342438&amp;amp;idx=1&amp;amp;sn=f6b92fd19c172d257ea928aa1e4a9f56&amp;amp;scene=1&amp;amp;srcid=10268XdbmcwIqId5H9CmOuo7#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;你的早餐吃对了吗？我们这次要追根究底&lt;/a&gt; - 暂无定论，少吃高碳水食物&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/22292248&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;长期用耳塞听歌会导致听力下降吗？&lt;/a&gt;- 注意音量！&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/19785262&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何正确地刷牙？&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/21031894&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;洗牙到底安全不安全？&lt;/a&gt;- 有益，不贵&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/30359724&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;午餐后如何洁齿护牙清理口腔，尤其上班族？&lt;/a&gt;- 饭后刷牙！&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/19985122&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;怎样纠正成年人驼背、耸肩的体态？&lt;/a&gt;- 挺拔&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MjM5NzA1MTcyMA==&amp;amp;mid=204444629&amp;amp;idx=1&amp;amp;sn=cbab111041ec4302c8faac4aedf55a94&amp;amp;scene=0#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;正确坐姿&lt;/a&gt; - 腰椎、颈椎&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;EN-英语&quot;&gt;&lt;a href=&quot;#EN-英语&quot; class=&quot;headerlink&quot; title=&quot;EN 英语&quot;&gt;&lt;/a&gt;EN 英语&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://chuansong.me/n/301752741754&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;汉语对现代文明的贡献有多大？&lt;/a&gt;- Why you need to learn English !?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://lucida.me/blog/english-for-programmers/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;程序员英语学习指引&lt;/a&gt; &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;  「除非你阅读原版书籍和中文书籍一样顺畅，或者翻译书籍信息损失量太大，否则不需要刻意阅读原版。」&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/28640901/answer/63421701&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;单词全认识却看不懂句子怎么办？&lt;/a&gt;- 一词多义、语境、词组、语法、文化背景 &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/27702564&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;每天坚持英语学习为什么还是学不好？&lt;/a&gt;- 水滴石穿 VS 拼命猛进&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.miaopai.com/show/STmZrQy-nHwvBSpMYET7~Q__.htm&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;BBC 英式英语发音视频教程&lt;/a&gt; - Elegant &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.vjianke.com/YM3VH.clip&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;美剧字幕组长讲述她如何练听力&lt;/a&gt; - 方法 &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.essayforum.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;EssayForum&lt;/a&gt; - Free Writing, Editing, and Research Help for Students &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/pulse/39-incorrectly-used-words-can-make-you-look-bad-jeff-haden?trk=eml-b2_content_ecosystem_digest-recommended_articles-186-null&amp;amp;midToken=AQGECgCdtokxPw&amp;amp;fromEmail=fromEmail&amp;amp;ut=2gQ0szrgpahCI1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;39 Incorrectly Used Words That Can Make You Look Bad&lt;/a&gt; &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Finance-理财&quot;&gt;&lt;a href=&quot;#Finance-理财&quot; class=&quot;headerlink&quot; title=&quot;Finance 理财&quot;&gt;&lt;/a&gt;Finance 理财&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.zhihu.com/question/20603837/answer/47073613&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;商业分析能力是怎样炼成的？&lt;/a&gt;&lt;/strong&gt;&lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/22818974&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;普通人如何合理的理财投资，有哪些书可以学习阅读？&lt;/a&gt;- 必修 &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/wontfallinyourlap&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《 天上不会掉馅饼 》知乎专栏&lt;/a&gt; - 金融投资诈骗真相与投资方面的常识 &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/25258679&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何看待「 钱不是省出来的 」这句话？&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;  「该花的钱一定要花，不该花的钱一定要省。」 然后，要有智慧分辨两者的不同&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/20564224&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;为什么跳槽加薪会比内部调薪要高？&lt;/a&gt;- 瞬时市场定价&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Family-家&quot;&gt;&lt;a href=&quot;#Family-家&quot; class=&quot;headerlink&quot; title=&quot;Family 家&quot;&gt;&lt;/a&gt;Family 家&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/19621705&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何对孩子的无理要求说「不」？&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/21603465&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;为什么不从小就向孩子还原社会的残酷？&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/25095290/answer/30085442&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;刚做爸爸，觉得自己的时间都被孩子剥夺，该怎么调整心态？&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/24399575/answer/93873520?utm_campaign=weekly211&amp;amp;utm_source=weekly-digest&amp;amp;utm_medium=email&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;有哪些价格不贵逼格又高的家装家居？&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/22827881&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;家居中有哪些设计不合理的地方？&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Buy-买&quot;&gt;&lt;a href=&quot;#Buy-买&quot; class=&quot;headerlink&quot; title=&quot;Buy 买&quot;&gt;&lt;/a&gt;Buy 买&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/24023171&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;一个人旅行有哪些必备神器？&lt;/a&gt;- 实用&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/38821362&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;有哪些尚未普及却非常好用的东西？&lt;/a&gt;- 生活质量&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MjM5Njk4OTQwMQ==&amp;amp;mid=401415614&amp;amp;idx=1&amp;amp;sn=16d3206bd1e3f502c4635b5348b151d1&amp;amp;scene=1&amp;amp;srcid=1207BJEB4qWQBFhX3Yq0zXH1#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;耳机选购大全：不败家！不白瞎！够用就好？&lt;/a&gt;- 实用，极简（好用，便携，高性价比）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Eat-食&quot;&gt;&lt;a href=&quot;#Eat-食&quot; class=&quot;headerlink&quot; title=&quot;Eat 食&quot;&gt;&lt;/a&gt;Eat 食&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/30400300&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;北京有哪些深藏不露的餐馆？&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/19803431&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;去香港一定不能错过哪些美食？&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MjM5MDE4ODIzMg==&amp;amp;mid=206234405&amp;amp;idx=1&amp;amp;sn=70dfa683c1db46303d18adc6fc6095a2&amp;amp;scene=1#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;2015年中国100最佳餐厅完全榜单&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Play-乐&quot;&gt;&lt;a href=&quot;#Play-乐&quot; class=&quot;headerlink&quot; title=&quot;Play 乐&quot;&gt;&lt;/a&gt;Play 乐&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/20502275&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何系统地练字？&lt;/a&gt;- 手写的乐趣&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/22208507&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;怎样欣赏交响乐、歌剧、古典和美声这类音乐？&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/21648404&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;广州有什么「鲜为人知但很有意思」的景点？&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MjM5MTIwNTYwMg==&amp;amp;mid=402346946&amp;amp;idx=1&amp;amp;sn=8b2c0e87815358358eff466c25b0836b&amp;amp;scene=5&amp;amp;srcid=1209kGNJ89UQoUCc9M81CNEZ#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;我知道你看过不少神剧，但许多都「抄袭」它&lt;/a&gt; &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/25699277&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;有哪些电影一定要趁年轻看？&lt;/a&gt;&lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Clothing-衣&quot;&gt;&lt;a href=&quot;#Clothing-衣&quot; class=&quot;headerlink&quot; title=&quot;Clothing 衣&quot;&gt;&lt;/a&gt;Clothing 衣&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/29347945/answer/44802155&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;男生基本款&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/25485795&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;男生长得难看怎么办&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;amp;mid=216957646&amp;amp;idx=1&amp;amp;sn=80e3631d64b405888258ffcb86b8268e&amp;amp;scene=1#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;25岁后男生的20条基本穿衣准则&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;amp;mid=209430380&amp;amp;idx=1&amp;amp;sn=646eb69ae5116a1d634dfa70cdddee10&amp;amp;scene=1#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;男生如何找准自己的穿衣风格，提升衣着品味？&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;amp;mid=210316708&amp;amp;idx=1&amp;amp;sn=e34ae6d411a82d114358f5adac598861&amp;amp;scene=1#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;惊爆！看完后他竟不想再穿羽绒服！&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/30610574&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;哪一款包可以优雅地放入MacBook、iPad和一些简单的日用品？&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/35886615&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;知名度不如一线，质量却很好的品牌有哪些？&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MjM5MTEwNTQxMg==&amp;amp;mid=205293619&amp;amp;idx=4&amp;amp;sn=130382a4de42eb7e3099dca2fa320897&amp;amp;scene=1#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;男鞋二十二条军规&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;amp;mid=209636065&amp;amp;idx=1&amp;amp;sn=66fe275dd21dcc2c170d355a992bc580&amp;amp;scene=1#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;惊！只有5款男鞋值得买？&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/20494311&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;有哪些双肩包潮牌推荐？&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/collection/20333571&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;爱美之心 - 知乎收藏夹&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Oth-杂&quot;&gt;&lt;a href=&quot;#Oth-杂&quot; class=&quot;headerlink&quot; title=&quot;Oth 杂&quot;&gt;&lt;/a&gt;Oth 杂&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/35814611/answer/65416013&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;KTV不允许带酒水和零食违法不违法？&lt;/a&gt;- 合法权益 &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.letv.com/ptv/vplay/24200614.html#vid=24200614&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;音乐的秘密&lt;/a&gt; - 梁欢制作的纪录片电影。向不为人知的幕后音乐人致敬 &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/20093377#answer-700224&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何防止鞋带松掉？&lt;/a&gt;- 绑鞋带&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.shanbay.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;扇贝英语&lt;/a&gt; - 一整套学习英语的系列 App 服务&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://open.163.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;网易公开课&lt;/a&gt; - 国内最好的公开课平台，包含 TED、Coursera、可汗学院的翻译视频 &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;Others-其它&quot;&gt;&lt;a href=&quot;#Others-其它&quot; class=&quot;headerlink&quot; title=&quot;Others 其它&quot;&gt;&lt;/a&gt;Others 其它&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;最喜欢的 &lt;a href=&quot;/favourites/#Books-书&quot;&gt;书籍&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;最喜欢的 &lt;a href=&quot;/favourites/#WeChat-OA-公众号&quot;&gt;微信公众号&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;最喜欢的 &lt;a href=&quot;/favourites/#FM-播客&quot;&gt;播客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;最喜欢的 &lt;a href=&quot;/favourites/#Motion-Picture-电影&quot;&gt;电影&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;最喜欢的 &lt;a href=&quot;/favourites/#TV-Dramas-电视剧&quot;&gt;电视剧&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;最喜欢的 &lt;a href=&quot;/favourites/#Animate-动画&quot;&gt;动画&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;最喜欢的 &lt;a href=&quot;/favourites/#Games-游戏&quot;&gt;游戏&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;最喜欢的 &lt;a href=&quot;/favourites/#Singers-歌手&quot;&gt;歌手&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      阅读类书签：网站、博客、文章、问答、专栏…
+    
+    </summary>
+    
+      <category term="read" scheme="http://icehe.me/categories/read/"/>
+    
+    
+      <category term="read" scheme="http://icehe.me/tags/read/"/>
+    
+  </entry>
   
   <entry>
     <title>My Tech Bookmarks 技术</title>
@@ -4239,29 +4546,6 @@ $ sudo ln -s /opt/google/earth/free/googleearth /usr/bin/google-earth
     <summary type="html">
     
       添加第三方源：EPEL、ELRepo。使用yum-axelget插件后用yum安装软件时可并行下载，提高下载速度。sudo yum update全面更新。显卡驱动…
-    
-    </summary>
-    
-      <category term="CentOS" scheme="http://icehe.me/categories/CentOS/"/>
-    
-    
-      <category term="CentOS" scheme="http://icehe.me/tags/CentOS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CentOS 恢复 Windows 的开机引导</title>
-    <link href="http://icehe.me/linux/%5B01%5D%20%E6%81%A2%E5%A4%8D%20Windows%20%E7%9A%84%20%E5%BC%80%E6%9C%BA%E5%BC%95%E5%AF%BC%20-%20CentOS%207/"/>
-    <id>http://icehe.me/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/</id>
-    <published>2015-03-20T16:00:00.000Z</published>
-    <updated>2016-04-23T12:31:42.000Z</updated>
-    
-    <content type="html">&lt;div&gt;&lt;span&gt;Ref From: &lt;a shape=&quot;rect&quot; href=&quot;http://www.bkjia.com/xtzh/905081.html&quot; target=&quot;_blank&quot;&gt;http://www.bkjia.com/xtzh/905081.html&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Original Title: CentOS 7安装后恢复Windows引导&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br clear=&quot;none&quot;&gt;&lt;/div&gt;&lt;div&gt;CentOS 7 正式版，和 REDHAT 7 一样，&lt;/div&gt;&lt;div&gt;Grub2不能正确引导windows分区。&lt;/div&gt;&lt;div&gt;&lt;br clear=&quot;none&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;解决方法：&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;br clear=&quot;none&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;打开 /boot/grub2/grub.cfg&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;在### END /etc/grub.d/00_header ###后，&lt;strong&gt;修改&lt;/strong&gt;：&lt;/div&gt;&lt;div&gt;&lt;br clear=&quot;none&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;### BEGIN /etc/grub.d/30_os-prober ###&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;menuentry &#39;Windows 8 (loader) (on /dev/sda1)&#39; --class windows --class os $menuentry_id_option &#39;osprober-chain-140E68540E6830C2&#39; {&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;     insmod part_msdos&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;     insmod ntfs&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;     set root=&#39;hd0,msdos1&#39;&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;     chainloader +1&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;}&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;### END /etc/grub.d/30_os-prober ###&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;br clear=&quot;none&quot;&gt;&lt;/div&gt;&lt;div&gt;重启时，将会出现win8的系统选单&lt;/div&gt;&lt;div&gt;&lt;br clear=&quot;none&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;em&gt;注意：set root 后面的参数按照实际情况填写&lt;/em&gt;&lt;/div&gt;
-</content>
-    
-    <summary type="html">
-    
-      CentOS7正式版和Redhat7，Grub2不能正确引导windows分区。解决方法：修改/boot/grub2/grub.cfg… 重启时，将会出现win8的系统选单。
     
     </summary>
     
