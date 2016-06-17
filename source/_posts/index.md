@@ -1,6 +1,6 @@
 title: Blog Index 目录
 date: 2016-03-07
-updated: 2016-06-02
+updated: 2016-06-17
 show_updated: false
 categories: [read]
 tags: [read]
@@ -91,9 +91,10 @@ description: 本博客的导航页。
 ---
 
 - Index 目录 <sup>this page</sup>
-- [My Bookmarks 书签](/bookmarks)
 - [My Favourites 喜好](/favourites)
-- [《幸福课》知乎专栏 - Note](/read/《幸福课》知乎专栏 - Note/)
+- [My Read Bookmarks 阅读](/read)
+- [My Tech Bookmarks 技术](/tech)
+- ~~[My Bookmarks 书签](/bookmarks)~~
 
 ### [Think](/categories/think)
 ---
