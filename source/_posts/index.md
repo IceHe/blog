@@ -1,7 +1,7 @@
 title: Blog Index 目录
 date: 2016-03-07
-updated: 2016-06-17
-show_updated: false
+updated: 2016-06-18
+show_updated: true
 categories: [read]
 tags: [read]
 description: 本博客的导航页。
@@ -9,6 +9,11 @@ description: 本博客的导航页。
 
 - [Archives 归档 ( Sort by Time )](/archives)
 - Sort by Category as follows.
+
+### [Think](/categories/think)
+---
+
+- [Bye 2015](/think/bye2015)
 
 ### [Web](/categories/Web)
 ---
@@ -36,13 +41,10 @@ description: 本博客的导航页。
 - [安装后的安全防范措施](/linux/[04] 安装 CentOS 7 后必做的 安全防范措施/)
 - [自动挂载 NTFS 格式的硬盘分区](/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/)
 
-### [Batch 批处理](/categories/Batch)
+### [Command](/categories/Command)
 ---
 
-- [Batch Command 批处理指令](/batch/Batch 批处理指令 Command/)
-- [DOS Command 常用指令](/batch/DOS 常用指令 Command/)
-- [DOS Symbols 特殊符号](/batch/DOS 特殊符号 Symbol/)
-- [DOS Environment Variable 环境变量](/batch/DOS 环境变量 Environment Variable/)
+- [Git Note](/cmd/git_note)
 
 ### [AppleScript](/categories/AppleScript)
 ---
@@ -71,10 +73,13 @@ description: 本博客的导航页。
 - 「14」 [用 BIOS 进行键盘输入和磁盘读写，及相关实验](/asm/Assembly Language - Note 14/)
 - 「15」 [附录内容：汇编编译器对jmp的处理，地址计数器（AC），处理伪操作指令，栈传递参数，无溢出除法…](/asm/Assembly Language - Note 15/)
 
-### [Command](/categories/Command)
+### [Batch 批处理](/categories/Batch)
 ---
 
-- [Git Note](/cmd/git_note)
+- [Batch Command 批处理指令](/batch/Batch 批处理指令 Command/)
+- [DOS Command 常用指令](/batch/DOS 常用指令 Command/)
+- [DOS Symbols 特殊符号](/batch/DOS 特殊符号 Symbol/)
+- [DOS Environment Variable 环境变量](/batch/DOS 环境变量 Environment Variable/)
 
 ### [JavaScript](/javascript/某次js代码优化过程)
 ---
@@ -84,7 +89,7 @@ description: 本博客的导航页。
 ### [Mac](/categories/Mac)
 ---
 
-- [My Tools 利器](/tools) - App 推荐
+- [My Tools 利器](/tools) - App、硬件推荐
 - [My Mac Shortcuts 快捷键](/mac_shortcuts)
 
 ### [Read](/categories/read)
@@ -92,14 +97,9 @@ description: 本博客的导航页。
 
 - Index 目录 <sup>this page</sup>
 - [My Favourites 喜好](/favourites)
-- [My Read Bookmarks 阅读](/read)
 - [My Tech Bookmarks 技术](/tech)
+- [My Read Bookmarks 阅读](/read)
 - ~~[My Bookmarks 书签](/bookmarks)~~
-
-### [Think](/categories/think)
----
-
-- [Bye 2015](/think/bye2015)
 
 ### [Time Mgt](/categories/time-mgt)
 ---
