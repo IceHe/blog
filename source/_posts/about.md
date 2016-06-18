@@ -35,8 +35,8 @@ toc: false
 <br/> <span class="key_pos">Friends</span> <span class="val_pos"> <i class="fa fa-users"></i>&nbsp; [Jan Fan](http://janfan.github.io/) | [Shiwey Yan](http://shiweyyan.github.io/) | [SF Zhou](http://sf-zhou.github.io/)</span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Web Secure | Game Developer | ACMer</sup> </span>
 
-<br/> <span class="key_pos">Mottos</span> <span class="val_pos"> <i class="fa fa-comment">&nbsp;</i> 宁静致远。</span>
-<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Done is better than perfect.</sup></span>
+<br/> <span class="key_pos">Mottos</span> <span class="val_pos"> <i class="fa fa-comment">&nbsp;</i> Less is more. 宁静致远。</span>
+<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>More is in vain when less will serve.</sup></span><!--<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Done is better than perfect.</sup></span>-->
 
 <br/><span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>( PV = <span id="busuanzi_value_site_pv"></span> , UV = <span id="busuanzi_value_site_uv"></span> )</sup></span><br/><br/>
 
