@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>IceHe 何志远</title>
-  <subtitle>More is in vain when less will serve.</subtitle>
+  <subtitle>Open Knowledge Repo &amp; Thoughts</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://icehe.me/"/>
@@ -36,9 +36,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&quot;Articles-文章&quot;&gt;&lt;a href=&quot;#Articles-文章&quot; class=&quot;headerlink&quot; title=&quot;Articles 文章&quot;&gt;&lt;/a&gt;Articles 文章&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.cse.buffalo.edu/~rapaport/howtostudy.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;How to Study: A Brief Guide&lt;/a&gt; &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;h2 id=&quot;Article-文章&quot;&gt;&lt;a href=&quot;#Article-文章&quot; class=&quot;headerlink&quot; title=&quot;Article 文章&quot;&gt;&lt;/a&gt;Article 文章&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/mzlogin/chinese-copywriting-guidelines&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;中文文案排版指北&lt;/a&gt;（ &lt;a href=&quot;https://github.com/mzlogin/chinese-copywriting-guidelines/blob/Simplified/README.en.md&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;EN&lt;/a&gt; ）&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/uicircle/20506092&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;写给大家看的中文排版指南&lt;/a&gt;&lt;/p&gt;
@@ -47,40 +45,45 @@
 &lt;h2 id=&quot;Life-人生&quot;&gt;&lt;a href=&quot;#Life-人生&quot; class=&quot;headerlink&quot; title=&quot;Life 人生&quot;&gt;&lt;/a&gt;Life 人生&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/24561532/answer/28240920&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;若一辈子没有赚大钱，当大官，和自己爱的人在一起（哪怕一次），活着能算有意义吗？&lt;/a&gt;- 灯塔 &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt; / &lt;a href=&quot;/read/meaning.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/xiepanda/19582894&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;为什么长大以后反而不容易快乐？&lt;/a&gt;- You are not the one. You are not special. &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt; / &lt;a href=&quot;/read/why_unhappy.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/xiepanda/19582894&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;为什么长大以后反而不容易快乐？&lt;/a&gt;- You are not special. &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt; / &lt;a href=&quot;/read/why_unhappy.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/happy&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《 幸福课 》动机在杭州 的知乎专栏&lt;/a&gt; - 平常心 &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt; / &lt;a href=&quot;/read/happiness_course.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/lswlsw/19895904&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;眼前的苟且，也正是诗和远方&lt;/a&gt; - 迷茫 &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt; / &lt;a href=&quot;/read/poet.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/19988077&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;苦难有什么价值？&lt;/a&gt;- 没有价值&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzA5MTM0NzIwNQ==&amp;amp;mid=2649760227&amp;amp;idx=2&amp;amp;sn=89fcbaf26cb56a21da2c4364fa3c9359&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Loser 应该知道的 6 个残酷人生事实&lt;/a&gt; &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt; / &lt;a href=&quot;/read/cruel_reality.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;  「这个世界只关心你能给予什么。」英语原文：&lt;a href=&quot;http://www.cracked.com/blog/6-harsh-truths-that-will-make-you-better-person/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;6 Harsh Truths That Will Make You a Better Person&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;amp;mid=233397081&amp;amp;idx=1&amp;amp;sn=836801a648013f925fca14de3572c45c&amp;amp;scene=1&amp;amp;srcid=0309TRipy9egTmxD0B51Q272#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《 论悲观主义的益处 》阿兰·德·波顿&lt;/a&gt; &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt; / &lt;a href=&quot;/read/pessimist.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;  「如果你拒绝让你的悲伤压在身上，哪怕只有一个钟点的时光；假如你总是汲汲营营地试图提前避免或者推迟一切可能的伤痛；假如你认为痛苦是邪恶的，是可憎的，是理应消灭的，是异常变态的存在，那么你的心中显然窃据着舒适的宗教。对幸福的理解是多么浅薄啊，你这个贪图舒适且渺小的家伙！幸福与不幸乃双生姐妹，要么一起成长，要么一起萎缩，就像你的处境一样。」&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/23721974/answer/25493813&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;你曾经的老师说过的哪句话印象最为深刻，对你影响较大甚至在十多年或更久之后都记在心里？&lt;/a&gt; &lt;sup&gt;&lt;a href=&quot;/read/teacher_said.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;  我们用「我能做到什么」来判断和定位自己，而别人用「你已经做过什么」来判断和定位你。&lt;/p&gt;
+&lt;p&gt;  「我们用『我能做到什么』来判断和定位自己，而别人用『你已经做过什么』来判断和定位你。」&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/20773220&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;70 后和 80 后对于刚刚踏入社会的 90 后毕业生有什么建议？&lt;/a&gt;- 「如果不能先学着适应环境，就不要妄想改变环境。」 &lt;sup&gt;&lt;a href=&quot;/read/suggestions_for_the_young.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.douban.com/note/502334634/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;论底层青年如何逆袭到中上阶层：什么是命？如何革你的命？&lt;/a&gt; &lt;sup&gt;&lt;a href=&quot;/read/family_accumulation.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;  家世的积累，才是你的起点。&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/35670576/answer/64989492&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;马云的缺陷是什么？&lt;/a&gt; - 当年阿里巴巴的「十八罗汉」甘愿跟着马云，并不只是因为马云能打鸡血、“忽悠”……&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/20773220&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;70 后和 80 后对于刚刚踏入社会的 90 后毕业生有什么建议？&lt;/a&gt; &lt;sup&gt;&lt;a href=&quot;/read/suggestions_for_the_young.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;  「如果不能先学着适应环境，就不要妄想改变环境。」&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.douban.com/note/502334634/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;论底层青年如何逆袭到中上阶层：什么是命？如何革你的命？&lt;/a&gt;- 家世的积累，是你的起点 &lt;sup&gt;&lt;a href=&quot;/read/family_accumulation.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzA3OTQ4NDkxOA==&amp;amp;mid=202075659&amp;amp;idx=1&amp;amp;sn=350db3032e8f3dca423ba6b93935e33a&amp;amp;scene=0#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;我们这一代人的困惑&lt;/a&gt; - 大部分人的梦想永远都实现不了&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MjM5NzExOTE2Ng==&amp;amp;mid=208583700&amp;amp;idx=1&amp;amp;sn=9bb0ea491064b3ffb93e7f24f9fc04a3&amp;amp;scene=5#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;精致的利己主义者和常青藤的绵羊&lt;/a&gt; - 中西&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;amp;mid=405068698&amp;amp;idx=1&amp;amp;sn=a401b7eba92b3bc4378cb5ec8dfd7c48&amp;amp;scene=1&amp;amp;srcid=04011TWvm7WC8dEBpfJRwAIP#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;你的自控能力强么？｜研究：不快乐的人自控力更差&lt;/a&gt; - 吃好，睡好，保持好心情与好状态&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MjM5NzExOTE2Ng==&amp;amp;mid=208583700&amp;amp;idx=1&amp;amp;sn=9bb0ea491064b3ffb93e7f24f9fc04a3&amp;amp;scene=5#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;精致的利己主义者和常青藤的绵羊&lt;/a&gt; - 中西 &lt;sup&gt;&lt;a href=&quot;/read/excellent_sheep.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;amp;mid=216723229&amp;amp;idx=1&amp;amp;sn=87c7dbb95abce565fa001c3a5063427a&amp;amp;scene=1&amp;amp;srcid=0308jCVD1x8LridYzELGd0ZS#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;风尘棋客&lt;/a&gt; - 他人的故事&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;amp;mid=233397081&amp;amp;idx=1&amp;amp;sn=836801a648013f925fca14de3572c45c&amp;amp;scene=1&amp;amp;srcid=0309TRipy9egTmxD0B51Q272#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《 论悲观主义的益处 》阿兰·德·波顿&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;  「他的音乐虽然哀伤，但却有振奋人心的功效。你会感到你的悲伤并不孤独。」&lt;/p&gt;
-&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://yixi.tv/lecture/177&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《 感谢你给我机会上场 》方励的一席演讲&lt;/a&gt; - 循着乐趣前行 &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/happy&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《 幸福课 》动机在杭州 的知乎专栏&lt;/a&gt; - 平常心 &lt;sup&gt;&lt;a href=&quot;/read/happiness_course.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/lswlsw&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《 潜台词 》李松蔚 的知乎专栏&lt;/a&gt; - 洞悉人心&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/19988077&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;苦难有什么价值？&lt;/a&gt;- 无谓的苦难&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--- [我们这一代人的困惑](http://mp.weixin.qq.com/s?__biz=MzA3OTQ4NDkxOA==&amp;amp;mid=202075659&amp;amp;idx=1&amp;amp;sn=350db3032e8f3dca423ba6b93935e33a&amp;amp;scene=0#rd) - 大部分人的梦想永远都实现不了--&gt;
+&lt;!--- [马云的缺陷是什么？](https://www.zhihu.com/question/35670576/answer/64989492) - 当年阿里巴巴的「十八罗汉」甘愿跟着马云，并不只是因为马云能打鸡血、“忽悠”……--&gt;
+&lt;h2 id=&quot;Method-方法&quot;&gt;&lt;a href=&quot;#Method-方法&quot; class=&quot;headerlink&quot; title=&quot;Method 方法&quot;&gt;&lt;/a&gt;Method 方法&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.cse.buffalo.edu/~rapaport/howtostudy.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;How to Study: A Brief Guide&lt;/a&gt; - 方法论 &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt; / &lt;a href=&quot;/read/how_to_study.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;amp;mid=405068698&amp;amp;idx=1&amp;amp;sn=a401b7eba92b3bc4378cb5ec8dfd7c48&amp;amp;scene=1&amp;amp;srcid=04011TWvm7WC8dEBpfJRwAIP#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;你的自控能力强么？｜研究：不快乐的人自控力更差&lt;/a&gt; &lt;sup&gt;&lt;a href=&quot;/read/self_control.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;  吃好，睡好，保持好心情与好状态，做发自内心想做的事情&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;Rel-关系&quot;&gt;&lt;a href=&quot;#Rel-关系&quot; class=&quot;headerlink&quot; title=&quot;Rel 关系&quot;&gt;&lt;/a&gt;Rel 关系&lt;/h2&gt;&lt;ul&gt;
@@ -285,9 +288,13 @@
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/collection/20333571&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;爱美之心 - 知乎收藏夹&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;Oth-杂&quot;&gt;&lt;a href=&quot;#Oth-杂&quot; class=&quot;headerlink&quot; title=&quot;Oth 杂&quot;&gt;&lt;/a&gt;Oth 杂&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/35814611/answer/65416013&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;KTV不允许带酒水和零食违法不违法？&lt;/a&gt;- 合法权益 &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Legal-法律&quot;&gt;&lt;a href=&quot;#Legal-法律&quot; class=&quot;headerlink&quot; title=&quot;Legal 法律&quot;&gt;&lt;/a&gt;Legal 法律&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/28226028&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《Legal High》呈现的是怎样的三观？&lt;/a&gt;- 法律至高 &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/35814611/answer/65416013&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;KTV不允许带酒水和零食违法不违法？&lt;/a&gt;- 合法权益&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Oth-杂&quot;&gt;&lt;a href=&quot;#Oth-杂&quot; class=&quot;headerlink&quot; title=&quot;Oth 杂&quot;&gt;&lt;/a&gt;Oth 杂&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.letv.com/ptv/vplay/24200614.html#vid=24200614&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;音乐的秘密&lt;/a&gt; - 梁欢制作的纪录片电影。向不为人知的幕后音乐人致敬 &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/20093377#answer-700224&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何防止鞋带松掉？&lt;/a&gt;- 绑鞋带&lt;/p&gt;
@@ -296,8 +303,24 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://open.163.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;网易公开课&lt;/a&gt; - 国内最好的公开课平台，包含 TED、Coursera、可汗学院的翻译视频 &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/32219311&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;经济越发展，越难「寒门出贵子」吗？&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&quot;Others-其它&quot;&gt;&lt;a href=&quot;#Others-其它&quot; class=&quot;headerlink&quot; title=&quot;Others 其它&quot;&gt;&lt;/a&gt;Others 其它&lt;/h1&gt;&lt;ul&gt;
+&lt;h2 id=&quot;Notes-笔记&quot;&gt;&lt;a href=&quot;#Notes-笔记&quot; class=&quot;headerlink&quot; title=&quot;Notes 笔记&quot;&gt;&lt;/a&gt;Notes 笔记&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/read/meaning.html&quot;&gt;若一辈子没有赚大钱，当大官，和自己爱的人在一起（哪怕一次），活着能算有意义吗？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/why_unhappy.html&quot;&gt;为什么长大以后反而不容易快乐？&lt;/a&gt;&lt;!--- [《 幸福课 》动机在杭州 的知乎专栏](/read/.html)--&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/poet.html&quot;&gt;眼前的苟且，也正是诗和远方&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/cruel_reality.html&quot;&gt;Loser 应该知道的 6 个残酷人生事实&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/teacher_said.html&quot;&gt;你曾经的老师说过的哪句话印象最为深刻，对你影响较大甚至在十多年或更久之后都记在心里？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/family_accumulation.html&quot;&gt;论底层青年如何逆袭到中上阶层：什么是命？如何革你的命？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/suggestions_for_the_young.html&quot;&gt;70 后和 80 后对于刚刚踏入社会的 90 后毕业生有什么建议？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/excellent_sheep.html&quot;&gt;精致的利己主义者和常青藤的绵羊&lt;/a&gt;&lt;!--- [How to Study: A Brief Guide](/read/how_to_study.html)--&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/self_control.html&quot;&gt;你的自控能力强么？｜研究：不快乐的人自控力更差&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/.html&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/.html&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/.html&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Extra-额外&quot;&gt;&lt;a href=&quot;#Extra-额外&quot; class=&quot;headerlink&quot; title=&quot;Extra 额外&quot;&gt;&lt;/a&gt;Extra 额外&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;最喜欢的 &lt;a href=&quot;/favourites/#Books-书&quot;&gt;书籍&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;最喜欢的 &lt;a href=&quot;/favourites/#WeChat-OA-公众号&quot;&gt;微信公众号&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;最喜欢的 &lt;a href=&quot;/favourites/#FM-播客&quot;&gt;播客&lt;/a&gt;&lt;/li&gt;
@@ -327,7 +350,7 @@
     <link href="http://icehe.me/tech/"/>
     <id>http://icehe.me/tech/</id>
     <published>2016-06-13T16:00:00.000Z</published>
-    <updated>2016-06-15T16:00:00.000Z</updated>
+    <updated>2016-06-18T16:00:00.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Original Version&lt;/strong&gt;&lt;/p&gt;
@@ -483,6 +506,8 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://citizenlab.org/2015/04/chinas-great-cannon/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;China’s Great Cannon&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://blog.jobbole.com/102432/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;“字节序”是什么？&lt;/a&gt;- 大端与小端，深入浅出&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://blog.jobbole.com/84903/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;十分钟搞清字符集和字符编码&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;amp;mid=401458542&amp;amp;idx=1&amp;amp;sn=8b92d5fb274760558154eb38a7a796de&amp;amp;scene=1&amp;amp;srcid=0104vzltG2BqJX4KXEWMcK4N#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;中文编码杂谈&lt;/a&gt;&lt;/p&gt;
@@ -497,6 +522,8 @@
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.infoq.com/cn/articles/https-difficult&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;HTTPS 之难&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/20790576&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;大公司里怎样开发和部署前端代码？&lt;/a&gt;&lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/fouber/blog/issues/10&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;前端工程：基础篇&lt;/a&gt; - 分治：组件化开发与资源管理 &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;amp;mid=213726432&amp;amp;idx=1&amp;amp;sn=337e2442c23c811cb96bd8315e3d4916&amp;amp;scene=5&amp;amp;srcid=09208rmQfdovBALp0y138PM3#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;TCP/IP 协议栈及 OSI 参考模型详解&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -525,6 +552,8 @@
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.infoq.com/cn/articles/the-road-of-the-growth-weixin-background&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;从无到有：微信后台系统的演进之路&lt;/a&gt; &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/29779732&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;端游、手游服务端常用的架构是什么样的？&lt;/a&gt;&lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;amp;mid=2650992918&amp;amp;idx=1&amp;amp;sn=be5121c3c57257291a30715ef7130a90&amp;amp;scene=0#wechat_redirect&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;万亿级调用系统：微信序列号生成器架构设计及演变&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MjM5NDMwNjMzNA==&amp;amp;mid=402417924&amp;amp;idx=1&amp;amp;sn=967ecd1fae2f9acb4356607222c94b3b&amp;amp;scene=1&amp;amp;srcid=1230UbcV9DsQeIqLXOuH5QUa#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;千万级规模高性能、高并发的网络架构经验&lt;/a&gt; - 微博平台架构&lt;/p&gt;
 &lt;/li&gt;
@@ -790,11 +819,15 @@
     <link href="http://icehe.me/index/"/>
     <id>http://icehe.me/index/</id>
     <published>2016-03-06T16:00:00.000Z</published>
-    <updated>2016-06-01T16:00:00.000Z</updated>
+    <updated>2016-06-17T16:00:00.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;/archives&quot;&gt;Archives 归档 ( Sort by Time )&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Sort by Category as follows.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;Think&quot;&gt;&lt;a href=&quot;#Think&quot; class=&quot;headerlink&quot; title=&quot;Think&quot;&gt;&lt;/a&gt;&lt;a href=&quot;/categories/think&quot;&gt;Think&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/think/bye2015&quot;&gt;Bye 2015&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;Web&quot;&gt;&lt;a href=&quot;#Web&quot; class=&quot;headerlink&quot; title=&quot;Web&quot;&gt;&lt;/a&gt;&lt;a href=&quot;/categories/Web&quot;&gt;Web&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
 &lt;ul&gt;
@@ -819,12 +852,9 @@
 &lt;li&gt;&lt;a href=&quot;/linux/[04] 安装 CentOS 7 后必做的 安全防范措施/&quot;&gt;安装后的安全防范措施&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/&quot;&gt;自动挂载 NTFS 格式的硬盘分区&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;Batch-批处理&quot;&gt;&lt;a href=&quot;#Batch-批处理&quot; class=&quot;headerlink&quot; title=&quot;Batch 批处理&quot;&gt;&lt;/a&gt;&lt;a href=&quot;/categories/Batch&quot;&gt;Batch 批处理&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
+&lt;h3 id=&quot;Command&quot;&gt;&lt;a href=&quot;#Command&quot; class=&quot;headerlink&quot; title=&quot;Command&quot;&gt;&lt;/a&gt;&lt;a href=&quot;/categories/Command&quot;&gt;Command&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;/batch/Batch 批处理指令 Command/&quot;&gt;Batch Command 批处理指令&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/batch/DOS 常用指令 Command/&quot;&gt;DOS Command 常用指令&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/batch/DOS 特殊符号 Symbol/&quot;&gt;DOS Symbols 特殊符号&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/batch/DOS 环境变量 Environment Variable/&quot;&gt;DOS Environment Variable 环境变量&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/cmd/git_note&quot;&gt;Git Note&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;AppleScript&quot;&gt;&lt;a href=&quot;#AppleScript&quot; class=&quot;headerlink&quot; title=&quot;AppleScript&quot;&gt;&lt;/a&gt;&lt;a href=&quot;/categories/AppleScript&quot;&gt;AppleScript&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
 &lt;ul&gt;
@@ -851,9 +881,12 @@
 &lt;li&gt;「14」 &lt;a href=&quot;/asm/Assembly Language - Note 14/&quot;&gt;用 BIOS 进行键盘输入和磁盘读写，及相关实验&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;「15」 &lt;a href=&quot;/asm/Assembly Language - Note 15/&quot;&gt;附录内容：汇编编译器对jmp的处理，地址计数器（AC），处理伪操作指令，栈传递参数，无溢出除法…&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;Command&quot;&gt;&lt;a href=&quot;#Command&quot; class=&quot;headerlink&quot; title=&quot;Command&quot;&gt;&lt;/a&gt;&lt;a href=&quot;/categories/Command&quot;&gt;Command&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
+&lt;h3 id=&quot;Batch-批处理&quot;&gt;&lt;a href=&quot;#Batch-批处理&quot; class=&quot;headerlink&quot; title=&quot;Batch 批处理&quot;&gt;&lt;/a&gt;&lt;a href=&quot;/categories/Batch&quot;&gt;Batch 批处理&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;/cmd/git_note&quot;&gt;Git Note&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/batch/Batch 批处理指令 Command/&quot;&gt;Batch Command 批处理指令&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/batch/DOS 常用指令 Command/&quot;&gt;DOS Command 常用指令&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/batch/DOS 特殊符号 Symbol/&quot;&gt;DOS Symbols 特殊符号&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/batch/DOS 环境变量 Environment Variable/&quot;&gt;DOS Environment Variable 环境变量&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;JavaScript&quot;&gt;&lt;a href=&quot;#JavaScript&quot; class=&quot;headerlink&quot; title=&quot;JavaScript&quot;&gt;&lt;/a&gt;&lt;a href=&quot;/javascript/某次js代码优化过程&quot;&gt;JavaScript&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
 &lt;ul&gt;
@@ -861,19 +894,16 @@
 &lt;/ul&gt;
 &lt;h3 id=&quot;Mac&quot;&gt;&lt;a href=&quot;#Mac&quot; class=&quot;headerlink&quot; title=&quot;Mac&quot;&gt;&lt;/a&gt;&lt;a href=&quot;/categories/Mac&quot;&gt;Mac&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;/tools&quot;&gt;My Tools 利器&lt;/a&gt; - App 推荐&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/tools&quot;&gt;My Tools 利器&lt;/a&gt; - App、硬件推荐&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/mac_shortcuts&quot;&gt;My Mac Shortcuts 快捷键&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;Read&quot;&gt;&lt;a href=&quot;#Read&quot; class=&quot;headerlink&quot; title=&quot;Read&quot;&gt;&lt;/a&gt;&lt;a href=&quot;/categories/read&quot;&gt;Read&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;Index 目录 &lt;sup&gt;this page&lt;/sup&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/bookmarks&quot;&gt;My Bookmarks 书签&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/favourites&quot;&gt;My Favourites 喜好&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/read/《幸福课》知乎专栏 - Note/&quot;&gt;《幸福课》知乎专栏 - Note&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;Think&quot;&gt;&lt;a href=&quot;#Think&quot; class=&quot;headerlink&quot; title=&quot;Think&quot;&gt;&lt;/a&gt;&lt;a href=&quot;/categories/think&quot;&gt;Think&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;/think/bye2015&quot;&gt;Bye 2015&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/tech&quot;&gt;My Tech Bookmarks 技术&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read&quot;&gt;My Read Bookmarks 阅读&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;&lt;a href=&quot;/bookmarks&quot;&gt;My Bookmarks 书签&lt;/a&gt;&lt;/del&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;Time-Mgt&quot;&gt;&lt;a href=&quot;#Time-Mgt&quot; class=&quot;headerlink&quot; title=&quot;Time Mgt&quot;&gt;&lt;/a&gt;&lt;a href=&quot;/categories/time-mgt&quot;&gt;Time Mgt&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
 &lt;ul&gt;
