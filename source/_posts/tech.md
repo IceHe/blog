@@ -1,7 +1,7 @@
 title: My Tech Bookmarks 技术
 date: 2016-06-14
-updated: 2016-06-16
-show_updated: false
+updated: 2016-06-19
+show_updated: true
 categories: [read]
 tags: [read]
 description: 技术类书签：在线工具、文档、Wiki、技术博客…
@@ -164,6 +164,8 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 - [China’s Great Cannon](https://citizenlab.org/2015/04/chinas-great-cannon/)
 
+- [“字节序”是什么？](http://blog.jobbole.com/102432/)- 大端与小端，深入浅出
+
 - [十分钟搞清字符集和字符编码](http://blog.jobbole.com/84903/)
 
 - [中文编码杂谈](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=401458542&amp;idx=1&amp;sn=8b92d5fb274760558154eb38a7a796de&amp;scene=1&amp;srcid=0104vzltG2BqJX4KXEWMcK4N#rd)
@@ -181,6 +183,8 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 - [HTTPS 之难](http://www.infoq.com/cn/articles/https-difficult)
 
 - [大公司里怎样开发和部署前端代码？](https://www.zhihu.com/question/20790576)<sup>__Best__</sup>
+
+- [前端工程：基础篇](https://github.com/fouber/blog/issues/10) - 分治：组件化开发与资源管理 <sup>__Best__</sup>
 
 - [TCP/IP 协议栈及 OSI 参考模型详解](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&mid=213726432&idx=1&sn=337e2442c23c811cb96bd8315e3d4916&scene=5&srcid=09208rmQfdovBALp0y138PM3#rd)
 
@@ -211,6 +215,8 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 - [从无到有：微信后台系统的演进之路](http://www.infoq.com/cn/articles/the-road-of-the-growth-weixin-background) <sup>__Best__</sup>
 
 - [端游、手游服务端常用的架构是什么样的？](https://www.zhihu.com/question/29779732)<sup>__Best__</sup>
+
+- [万亿级调用系统：微信序列号生成器架构设计及演变](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650992918&idx=1&sn=be5121c3c57257291a30715ef7130a90&scene=0#wechat_redirect)
 
 - [千万级规模高性能、高并发的网络架构经验](http://mp.weixin.qq.com/s?__biz=MjM5NDMwNjMzNA==&amp;mid=402417924&amp;idx=1&amp;sn=967ecd1fae2f9acb4356607222c94b3b&amp;scene=1&amp;srcid=1230UbcV9DsQeIqLXOuH5QUa#rd) - 微博平台架构
 
