@@ -1,6 +1,6 @@
 title: My Tools 利器
 date: 2015-11-21
-updated: 2016-06-13
+updated: 2016-06-20
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -53,6 +53,14 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 - [Typora](http://www.typora.io) <sup>Elegant</sup>
 
     Markdown 编辑器，所见即所得。国人制作，完全免费，支持 Mac、Windows！
+
+- [WunderList](https://www.wunderlist.com/zh/)
+
+    Todo List 类软件，比 GTD 类简洁易用。用于事务管理、规划日程。
+
+    一开始用 [Doit.im](http://doit.im/cn/) 入门，Web 端的操作很极致高效，但移动端 App 不尽如人意。后来发现自己的生活很规律，无需复杂的管理，于是只用 Apple 自带的 Calendar。曾考虑过团队协作类的 App，如 [Worktile](https://worktile.com/)，可是它们的平台太重量级，不够简便易用，徒增无谓的操作。
+
+    现在，又开始用免费版 WunderList 了，任务管理的操作远不如 Web 端的 Doit.im 极致，但是 iOS、Mac 上的 客户端做得不错。各花入各眼，满足个人需求最重要。
 
 ## Develop
 
@@ -266,21 +274,21 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     App 窗口切换工具。操作行云流水，切换方面比 Manico 更优秀！但不能定制用于快速启动其它 App 的快捷键，因而被 Manico 替代。
 
-- GTD App
-
-    事务管理、日程规划类的 App。后来，基本只用 Apple 自带的 Calendar 来管理日程了。
-
 - [Time Out](http://www.dejal.com/timeout/)
 
     定时作息提醒工具。定时遮盖桌面的应用程序，提醒你离开电脑，去休息眼睛、活动身体。我的工作节奏比较有规律，眼睛没有不适，所以停用许久。
 
-- [Boom](http://www.globaldelight.com/boom/index.php)
-
-    音效增强软件。可用于突破系统音量的上限，留意音量过大可能损坏 Mac 音箱。
-
 - [Alfred](https://www.alfredapp.com/) <sup>键盘党的神兵利器</sup>
 
     Spotlight 的增强版！关键字缩写的检索还是 Spotlight 精准；要用命令的话，也基本在终端中操作，没有 Alfred 之流的用武之地；要启动程序的话，Manico 的支持足矣。
+
+- [Paw](https://luckymarmot.com/zh-hans/paw)
+
+    Mac 的 HTTP 客户端。功能全面、设计美观，用于与 REST 服务交互、以助构建 API，构建 HTTP 请求，检查来自服务器的响应，甚至可生成客户端代码。一般的需求下 [Postman](http://www.getpostman.com/) 就够用了，不需要购买它。
+
+- [Boom](http://www.globaldelight.com/boom/index.php)
+
+    音效增强软件。可用于突破系统音量的上限，留意音量过大可能损坏 Mac 音箱。
 
 - [CleanMyMac](http://cleanmymac.com/)
 
