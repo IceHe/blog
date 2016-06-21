@@ -13,29 +13,33 @@ toc: false
 <span class="val_pos"> <i class="fa fa-envelope-square">&nbsp;</i> &nbsp;<x@icehe.me> </span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-heart">&nbsp;</i> Animate, Shuttle Cock, 毽球, 执信</sup></span>
 
-<br/> <span class="key_pos">Job</span> <span class="val_pos"> <i class="fa fa-weibo">&nbsp;</i> [Sina Weibo](http://weibo.com/2181657940/) - Mobile API </span>
+<br/><span class="key_pos">Job</span> <span class="val_pos"> <i class="fa fa-weibo">&nbsp;</i> [Sina Weibo](http://weibo.com/2181657940/) - Mobile API </span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-puzzle-piece">&nbsp;</i> Server-side Development Engineer</sup></span>
 <span class="val_pos"> <i class="fa fa-file-text">&nbsp;</i> &nbsp;[Resume](/resume)</span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-gear">&nbsp;</i> Skills, Education, Leadership | 简历</sup></span>
 <span class="val_pos"> <i class="fa fa-github-alt">&nbsp;</i> &nbsp;[GitHub](http://github.com/IceHe)</span><br/><br/>
 
 ---
-<br/> <span class="key_pos">Tech</span> <span class="val_pos"> <i class="fa fa-gears">&nbsp;</i> [Tools](/tools/)</span>
+<br/><span class="key_pos">Tech</span> <span class="val_pos"> <i class="fa fa-gears">&nbsp;</i> [Tools](/tools/)</span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Softwares & Hardwares | 工具控</sup></span>
 <span class="val_pos"> <i class="fa fa-keyboard-o">&nbsp;</i> [Shortcuts](/mac_shortcuts/)</span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Default & Custom | 键盘党</sup></span>
+<span class="val_pos"> <i class="fa fa-cube">&nbsp;</i> [Tech](/favourites) Bookmarks</span>
+<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Online-Tools, Docs, Blogs, Articles</sup> </span>
 
-<br/> <span class="key_pos">Life</span> <span class="val_pos"> <i class="fa fa-calendar">&nbsp;</i> [Logs](/lifelogs)</span>
+<br/><span class="key_pos">Life</span> <span class="val_pos"> <i class="fa fa-calendar">&nbsp;</i> [Logs](/lifelogs)</span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Time Usage Records & Statistics</sup></span>
 <span class="val_pos"> <i class="fa fa-heart">&nbsp;</i> [Favourites](/favourites)</span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-book">&nbsp;</i>Books &nbsp;<i class="fa fa-film">&nbsp;</i>Movies &nbsp;<i class="fa fa-rocket">&nbsp;</i>Games …</sup></span>
-<span class="val_pos"> <i class="fa fa-pencil">&nbsp;</i> [Old Articles](http://290841032.qzone.qq.com/)</span>
+<span class="val_pos"> <i class="fa fa-book">&nbsp;</i> [Read](/favourites) Bookmarks</span>
+<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Articles, Columns, Q&A, Notes</sup> </span>
+<span class="val_pos"> <i class="fa fa-pencil">&nbsp;</i> [Old Articles](http://290841032.qzone.qq.com/) I wrote</span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Good old days</sup> </span>
 
-<br/> <span class="key_pos">Friends</span> <span class="val_pos"> <i class="fa fa-users"></i>&nbsp; [Jan Fan](http://janfan.github.io/) | [Shiwey Yan](http://shiweyyan.github.io/) | [SF Zhou](http://sf-zhou.github.io/)</span>
+<br/><span class="key_pos">Friends</span> <span class="val_pos"> <i class="fa fa-users"></i>&nbsp; [Jan Fan](http://janfan.github.io/) | [Shiwey Yan](http://shiweyyan.github.io/) | [SF Zhou](http://sf-zhou.github.io/)</span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Web Secure | Game Developer | ACMer</sup> </span>
 
-<br/> <span class="key_pos">Mottos</span> <span class="val_pos"> <i class="fa fa-comment">&nbsp;</i> Less is more. 宁静致远。</span>
+<br/><span class="key_pos">Mottos</span> <span class="val_pos"> <i class="fa fa-comment">&nbsp;</i> Less is more. 宁静致远。</span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>More is in vain when less will serve.</sup></span><!--<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Done is better than perfect.</sup></span>-->
 
 <br/><span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>( PV = <span id="busuanzi_value_site_pv"></span> , UV = <span id="busuanzi_value_site_uv"></span> )</sup></span><br/><br/>
