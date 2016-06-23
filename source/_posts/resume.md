@@ -125,7 +125,7 @@ toc: false
 # Others
 
 ## __Hobbies__
-- <i class="fa fa-soccer-ball-o">&nbsp;</i> 运动：毽球、羽毛球、健身 &nbsp; <i class="fa fa-trophy">&nbsp;</i>[华工毽球社社长](#华南理工毽球社_-_社长_&nbsp;_&nbsp;_2012-09_~_2014-06)
+- <i class="fa fa-soccer-ball-o">&nbsp;</i> 运动：毽球、羽毛球、健身 &nbsp; <i class="fa fa-trophy">&nbsp;</i>[华工毽球社社长](#华南理工毽球社-社长-nbsp-nbsp-2012-09-2014-06)
 - <i class="fa fa-book">&nbsp;</i> 阅读：软件、科技、心理学 &nbsp; <span class="icon-douban"></span> [读过的书](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
 - <i class="fa fa-pencil-square-o">&nbsp;</i> 写作：难忘的人和事、感悟 &nbsp; <span class=" icon-qzone"></span> [旧博客](http://290841032.qzone.qq.com)
 
