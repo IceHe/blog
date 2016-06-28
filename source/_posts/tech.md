@@ -278,7 +278,7 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 - [痛苦造就性格](https://github.com/ruanyf/articles/blob/master/blogbook/bookone/2011-12-06-zawinski.md) - 你选择什么？
 
-- [Why I Strive to be a 0.1x Engineer](http://benjiweber.co.uk/blog/2016/01/25/why-i-strive-to-be-a-0-1x-engineer/) - 不折腾的哲学
+- [Why I Strive to be a 0.1x Engineer](http://benjiweber.co.uk/blog/2016/01/25/why-i-strive-to-be-a-0-1x-engineer/) - 不折腾的哲学 <sup>[简译](https://github.com/ruanyf/articles/blob/master/gists/2016-01-27-01x-engineer.md)</sup>
 
 - [高薪的人都有哪些特质？](http://v.qq.com/boke/gplay/2b442d85914f70c4319a98f09ddbd54d_q020000017nmqu1_0_w019013i0lx.html)- 职人介绍所第 10 期
 
