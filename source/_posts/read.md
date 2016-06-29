@@ -1,0 +1,334 @@
+title: My Read Bookmarks 阅读
+date: 2016-06-17
+updated: 2016-06-20
+show_updated: true
+categories: [read]
+tags: [read]
+description: 阅读类书签：网站、博客、文章、问答、专栏…
+---
+
+- __Original Version__
+    - [My Bookmarks 书签](/bookmarks/)
+
+- __Superscript 上标__
+    - The item with <sup>__Best__</sup>&nbsp; implies it is `one of the best`.
+    - The item with <sup>Note</sup>&nbsp; implies it is `a link to my related note`.
+    - The item with <sup>_todo_</sup>&nbsp; implies it has `not been read-through`.
+
+- __Sigh__
+    过去囫囵吞枣，糟蹋了许多好文章；如今我要一一记下，细细咀嚼回味。
+
+## Article 文章
+
+- [中文文案排版指北](https://github.com/mzlogin/chinese-copywriting-guidelines)（ [EN](https://github.com/mzlogin/chinese-copywriting-guidelines/blob/Simplified/README.en.md) ）
+
+- [写给大家看的中文排版指南](http://zhuanlan.zhihu.com/uicircle/20506092)
+
+## Life 人生
+
+- [若一辈子没有赚大钱，当大官，和自己爱的人在一起（哪怕一次），活着能算有意义吗？](https://www.zhihu.com/question/24561532/answer/28240920)- 灯塔 <sup>__Best__ / [Note](/read/meaning.html)</sup>
+
+- [眼前的苟且，也正是诗和远方](http://zhuanlan.zhihu.com/lswlsw/19895904) - 迷茫 <sup>__Best__ / [Note](/read/poet.html)</sup>
+
+- [为什么长大以后反而不容易快乐？](http://zhuanlan.zhihu.com/xiepanda/19582894)- You are not special. <sup>__Best__ / [Note](/read/why_unhappy.html)</sup>
+
+- [《 幸福课 》动机在杭州 的知乎专栏](http://zhuanlan.zhihu.com/happy) - 平常心 <sup>__Best__ / [Note](/read/happiness_course.html)</sup>
+
+- [风尘棋客](http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;mid=216723229&amp;idx=1&amp;sn=87c7dbb95abce565fa001c3a5063427a&amp;scene=1&amp;srcid=0308jCVD1x8LridYzELGd0ZS#rd)  <sup>__Best__ / [Note](/read/chinese_chess.html)</sup>
+
+    「年轻的时候，我一直觉得世界上最酷的事情，莫过于无忧无虑地四处环游；可就在刚才，看到许银川在比以前更胖了的赵大胖面前推枰认负的那一刻，忽然觉得，能十年如一日地把一件看似简单的事情做到极致，或许更酷一点。」
+
+- [《 论悲观主义的益处 》阿兰·德·波顿](http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;mid=233397081&amp;idx=1&amp;sn=836801a648013f925fca14de3572c45c&amp;scene=1&amp;srcid=0309TRipy9egTmxD0B51Q272#rd) <sup>__Best__ / [Note](/read/pessimist.html)</sup>
+
+    「如果你拒绝让你的悲伤压在身上，哪怕只有一个钟点的时光；假如你总是汲汲营营地试图提前避免或者推迟一切可能的伤痛；假如你认为痛苦是邪恶的，是可憎的，是理应消灭的，是异常变态的存在，那么你的心中显然窃据着舒适的宗教。对幸福的理解是多么浅薄啊，你这个贪图舒适且渺小的家伙！幸福与不幸乃双生姐妹，要么一起成长，要么一起萎缩，就像你的处境一样。」
+
+- [Loser 应该知道的 6 个残酷人生事实](http://mp.weixin.qq.com/s?__biz=MzA5MTM0NzIwNQ==&mid=2649760227&idx=2&sn=89fcbaf26cb56a21da2c4364fa3c9359) <sup>__Best__ / [Note](/read/cruel_reality.html)</sup>
+
+    「这个世界只关心你能给予什么。」英语原文：[6 Harsh Truths That Will Make You a Better Person](http://www.cracked.com/blog/6-harsh-truths-that-will-make-you-better-person/)
+
+- [你曾经的老师说过的哪句话印象最为深刻，对你影响较大甚至在十多年或更久之后都记在心里？](https://www.zhihu.com/question/23721974/answer/25493813) <sup>[Note](/read/teacher_said.html)</sup>
+
+    「我们用『我能做到什么』来判断和定位自己，而别人用『你已经做过什么』来判断和定位你。」
+
+- [论底层青年如何逆袭到中上阶层：什么是命？如何革你的命？](https://www.douban.com/note/502334634/) <sup>[Note](/read/family_accumulation.html)</sup>
+
+    家世的积累，才是你的起点。
+
+- [70 后和 80 后对于刚刚踏入社会的 90 后毕业生有什么建议？](https://www.zhihu.com/question/20773220) <sup>[Note](/read/suggestions_for_the_young.html)</sup>
+
+    「如果不能先学着适应环境，就不要妄想改变环境。」
+
+- [精致的利己主义者和常青藤的绵羊](http://mp.weixin.qq.com/s?__biz=MjM5NzExOTE2Ng==&mid=208583700&idx=1&sn=9bb0ea491064b3ffb93e7f24f9fc04a3&scene=5#rd) - 中西 <sup>[Note](/read/excellent_sheep.html)</sup>
+
+- [《 感谢你给我机会上场 》方励的一席演讲](http://yixi.tv/lecture/177) - 循着乐趣前行 <sup>__Best__</sup>
+
+- [《 潜台词 》李松蔚 的知乎专栏](http://zhuanlan.zhihu.com/lswlsw) - 洞悉人心
+
+- [苦难有什么价值？](https://www.zhihu.com/question/19988077)- 无谓的苦难
+
+<!--- [我们这一代人的困惑](http://mp.weixin.qq.com/s?__biz=MzA3OTQ4NDkxOA==&amp;mid=202075659&amp;idx=1&amp;sn=350db3032e8f3dca423ba6b93935e33a&amp;scene=0#rd) - 大部分人的梦想永远都实现不了-->
+
+<!--- [马云的缺陷是什么？](https://www.zhihu.com/question/35670576/answer/64989492) - 当年阿里巴巴的「十八罗汉」甘愿跟着马云，并不只是因为马云能打鸡血、“忽悠”……-->
+
+## Method 方法
+
+- [How to Study: A Brief Guide](http://www.cse.buffalo.edu/~rapaport/howtostudy.html) - 方法论 <sup>__Best__ / [Note](/read/how_to_study.html)</sup>
+
+- [你的自控能力强么？｜研究：不快乐的人自控力更差](http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;mid=405068698&amp;idx=1&amp;sn=a401b7eba92b3bc4378cb5ec8dfd7c48&amp;scene=1&amp;srcid=04011TWvm7WC8dEBpfJRwAIP#rd) <sup>[Note](/read/self_control.html)</sup>
+
+    吃好，睡好，保持好心情与好状态，做发自内心想做的事情
+
+## Rel 关系
+
+- [本分和情分](http://zhuanlan.zhihu.com/xinliyushenghuo/19993302) -「别人帮你，那是情分，不帮你，那是本分。容不容得下是你的气度，能不能让你容下是我的本事。」
+
+- [圈子不同，不必强融](http://mp.weixin.qq.com/s?__biz=MjM5MzI5NzQ1MA==&amp;mid=207716479&amp;idx=1&amp;sn=195e46c808f83f95990bb3aff09a349b&amp;scene=1#rd) -「怎么样才可以真正地做到不计较呢？强大到让别人计较你。」<sup>__Best__</sup>
+
+- [孤独让人成瘾（下）：依赖真实的关系](http://www.vccoo.com/v/6a28e8) <sup>__Best__</sup>
+
+    「交一个真正的朋友是一件很累人的事，但是人生那么长，不累一累，那又该干嘛呢？」
+
+- [为什么人越长大越孤单？](https://www.zhihu.com/question/22613634/answer/77378235)- 自我定型后，想要寻找与我们真正相似的人
+
+- [谢谢你曾拒绝我｜被排斥会给一个人留下怎样的影响？](http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;mid=405129874&amp;idx=1&amp;sn=97889db6769448ff81a249be802c23a8&amp;scene=1&amp;srcid=0401FOHGUq43ZmJKAfljBV8z#rd)- 低自尊
+
+- [不让不够格的“朋友”牵绊前进的脚步](http://yue.fm/bg3x) - 勿交损友
+
+- [如何看待把妹知识？](https://www.zhihu.com/question/27203367)- 成为优秀而真实的自己
+
+- [男女交往最忌讳什么？](https://www.zhihu.com/question/23151702)- 月亮你要，六便士你还嫌少
+
+- [在大学里有哪些不错的恋爱建议？](https://www.zhihu.com/question/26239595)- 不强求
+
+- [为什么你的爱情会输给日常琐碎？｜相爱容易相处难](http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;mid=404230721&amp;idx=1&amp;sn=e3bd39ad031e00199d0a74e835e1768c&amp;scene=1&amp;srcid=04022oqUaHFXY1bI7drd1BuL#rd)
+
+- [伤不起的盖茨比——那些年，我们没逆袭到的女神](http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;mid=215662699&amp;idx=1&amp;sn=d03dc12f1b0cab3fa191b80cf7697b76&amp;scene=18&amp;scene=1&amp;srcid=0308sLfw8T7lI35VCnfy6RVG#rd)
+
+- [女性年纪大了就不好嫁人了吗？](https://www.zhihu.com/question/29090643)
+
+    如果你自己一个人的时候都搞不定你自己，如果你单身的时候都不能把自己搞的美美的，让你自己过得开心，你觉得你能搞定一个家庭么？你觉得婚姻就会是你的避风港湾了么？
+
+- [《 不想靠谱 》 知乎专栏](http://zhuanlan.zhihu.com/bocai) - 两性关系
+
+- [认为「 只有我完美了，别人才会喜欢我 」的想法有什么错误，该怎么解决？](https://www.zhihu.com/question/31280604)- 吾生有涯
+
+- [为什么很多优质女生找不到男朋友？](https://www.zhihu.com/question/37373471)
+
+- [送礼的秘诀是什么？](https://www.zhihu.com/question/20455039)- 「送者心安，受者心欢。」
+
+## Think 思维
+
+- [如何用3个月毁掉你的室友？（大学生版）](https://zhuanlan.zhihu.com/p/21249109) - 写照 <sup>__Best__</sup>
+
+- [智商高低是因为思维习惯不同造成的吗？](https://www.zhihu.com/question/27283467)- 思考能力 <sup>__Best__</sup>
+
+- [如何从思维上彻底改变学习模式？](https://www.zhihu.com/question/20416520)- 实用主义 VS 完美主义
+
+- [哪些素质很重要，却是读书学不来的？](https://www.zhihu.com/question/28626263)- 纸上得来终觉浅，绝知此事要躬行
+
+- [人类为什么会有「 雄心壮志 」？为何有人「 小富即安 」，有人有「 鸿鹄之志 」？](https://www.zhihu.com/question/21568048/answer/18848977)- 成就动机 Achievement、亲和动机 Affiliation、影响力动机 Power
+
+- [普通人怎么让自己更努力？(3)](http://zhuanlan.zhihu.com/individual/19777122)- 发掘内心的真实想法…
+
+- [Larry Smith：你为何不会成就伟业](http://open.163.com/movie/2015/6/H/4/MAPPMO5L9_MAPPP7FH4.html) - 庸人的借口 <sup>__Best__</sup>
+
+- [别让工作拖垮你，最实用的 25 条时间管理 TIPS](http://mp.weixin.qq.com/s?__biz=MjM5MzEzNjI2MA==&amp;mid=206759033&amp;idx=1&amp;sn=84f86dd4e6078c8bd3e84e25ab00e93e&amp;scene=1#rd) - 时间管理的目的是为了提高效率，去做更多的工作？
+
+- [男生有钱到底有多重要？](https://www.zhihu.com/question/22879746)- 「有时候不在于它能带给你什么，而在于它能让你不失去什么」。自立，自尊
+
+- [什么是「 富人思维 」？](https://www.zhihu.com/question/26980854)- 自我投资，善假于物
+
+- [什么是「 穷人思维 」？](https://www.zhihu.com/question/26980862)- 短视：金钱 VS 时间成本
+
+- [有什么知识，你知道后你的世界马上就不一样了？](https://www.zhihu.com/question/38632401)- 不要看对方说了什么，而是思考他为什么说这个
+
+- [有什么知识，你知道后你的世界马上就不一样了？](https://www.zhihu.com/question/38632401/answer/77853819)- 学好逻辑很有用！<sup>_todo_</sup>
+
+- [还有什么比揭人伤疤、往伤口撒盐更刺激的事呢？](http://www.wtoutiao.com/p/pbayZp.html)- 异见
+
+- [有情调没情怀、有趣味没人情味的知乎社区](http://www.360doc.com/content/15/0913/11/17262826_498824822.shtml)
+
+- [一部《 欢乐颂 》，一场中产阶级的自我意淫](http://fooads.com/post/572a97b96846962e0bb75504)
+
+- [面对未知，如何能够免于恐惧？](http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;mid=402827389&amp;idx=1&amp;sn=f6d26aacd8237df903e63a5012524b39&amp;scene=1&amp;srcid=0402ORLMG19eomT4kOhKNmEk#rd)- 比起不确定的答案，我们宁可要一个坏答案。要悦纳不确定。
+
+- [学术方面该如何评价哈耶克？](https://www.zhihu.com/question/20139880)- 公正的游戏规则
+
+- [个人成长理论、工具](http://blog.hiddenwangcc.com/sharewithu) - 可供参考
+
+## Health 健康
+
+- [生命真的在于运动么？](https://www.zhihu.com/question/24498231)
+
+- [没有锻炼基础的人，如何增肌与减脂？](https://www.zhihu.com/question/20687290)- 汇总
+
+- [什么样的有氧才真让你瘦？](http://zhuanlan.zhihu.com/oh-hard/19684185)- 高强度间歇有氧，在短时间内将高强度与低强度训练结合
+
+- [练腹肌？你这是在练水桶腰！](http://zhuanlan.zhihu.com/oh-hard/20273384?utm_campaign=official_account&utm_source=weibo&utm_medium=zhihu&utm_content=zhuanlan)
+
+- [22:00-6:00睡觉真的比2:00-10:00更有利健康吗？](https://www.zhihu.com/question/20078304#answer-7173193)- 早睡早起
+
+- [跑步（运动）后，到底该不该吃东西？](http://chuansong.me/n/1238560)- 运动完，吃更好
+
+- [哪些公认的健康食品其实并非那么健康？为什么？](https://www.zhihu.com/question/27579870)- 沙拉，果汁…
+
+- [你的早餐吃对了吗？我们这次要追根究底](http://mp.weixin.qq.com/s?__biz=MzA5ODUxMjMzMw==&amp;mid=205342438&amp;idx=1&amp;sn=f6b92fd19c172d257ea928aa1e4a9f56&amp;scene=1&amp;srcid=10268XdbmcwIqId5H9CmOuo7#rd) - 暂无定论，少吃高碳水食物
+
+- [长期用耳塞听歌会导致听力下降吗？](https://www.zhihu.com/question/22292248)- 注意音量！
+
+- [如何正确地刷牙？](https://www.zhihu.com/question/19785262)
+
+- [洗牙到底安全不安全？](https://www.zhihu.com/question/21031894)- 有益，不贵
+
+- [午餐后如何洁齿护牙清理口腔，尤其上班族？](https://www.zhihu.com/question/30359724)- 饭后刷牙！
+
+- [怎样纠正成年人驼背、耸肩的体态？](https://www.zhihu.com/question/19985122)- 挺拔
+
+- [正确坐姿](http://mp.weixin.qq.com/s?__biz=MjM5NzA1MTcyMA==&mid=204444629&idx=1&sn=cbab111041ec4302c8faac4aedf55a94&scene=0#rd) - 腰椎、颈椎
+
+## EN 英语
+
+- [汉语对现代文明的贡献有多大？](http://chuansong.me/n/301752741754)- Why you need to learn English !?
+
+- [程序员英语学习指引](http://lucida.me/blog/english-for-programmers/) <sup>_todo_</sup>
+
+    「除非你阅读原版书籍和中文书籍一样顺畅，或者翻译书籍信息损失量太大，否则不需要刻意阅读原版。」
+
+- [单词全认识却看不懂句子怎么办？](https://www.zhihu.com/question/28640901/answer/63421701)- 一词多义、语境、词组、语法、文化背景 <sup>_todo_</sup>
+
+- [每天坚持英语学习为什么还是学不好？](https://www.zhihu.com/question/27702564)- 水滴石穿 VS 拼命猛进
+
+- [BBC 英式英语发音视频教程](http://www.miaopai.com/show/STmZrQy-nHwvBSpMYET7~Q__.htm) - Elegant <sup>_todo_</sup>
+
+- [美剧字幕组长讲述她如何练听力](http://www.vjianke.com/YM3VH.clip) - 方法 <sup>_todo_</sup>
+
+- [EssayForum](http://www.essayforum.com/) - Free Writing, Editing, and Research Help for Students <sup>_todo_</sup>
+
+- [39 Incorrectly Used Words That Can Make You Look Bad](https://www.linkedin.com/pulse/39-incorrectly-used-words-can-make-you-look-bad-jeff-haden?trk=eml-b2_content_ecosystem_digest-recommended_articles-186-null&midToken=AQGECgCdtokxPw&fromEmail=fromEmail&ut=2gQ0szrgpahCI1) <sup>_todo_</sup>
+
+## Finance 理财
+
+- __[商业分析能力是怎样炼成的？](https://www.zhihu.com/question/20603837/answer/47073613)__<sup>__Best__</sup>
+
+- [普通人如何合理的理财投资，有哪些书可以学习阅读？](https://www.zhihu.com/question/22818974)- 必修 <sup>_todo_</sup>
+
+- [《 天上不会掉馅饼 》知乎专栏](http://zhuanlan.zhihu.com/wontfallinyourlap) - 金融投资诈骗真相与投资方面的常识 <sup>__Best__</sup>
+
+- [如何看待「 钱不是省出来的 」这句话？](https://www.zhihu.com/question/25258679)
+
+    「该花的钱一定要花，不该花的钱一定要省。」 然后，要有智慧分辨两者的不同
+
+- [为什么跳槽加薪会比内部调薪要高？](https://www.zhihu.com/question/20564224)- 瞬时市场定价
+
+## Family 家
+
+- [如何对孩子的无理要求说「不」？](https://www.zhihu.com/question/19621705)
+
+- [为什么不从小就向孩子还原社会的残酷？](https://www.zhihu.com/question/21603465)
+
+- [刚做爸爸，觉得自己的时间都被孩子剥夺，该怎么调整心态？](https://www.zhihu.com/question/25095290/answer/30085442)
+
+- [有哪些价格不贵逼格又高的家装家居？](https://www.zhihu.com/question/24399575/answer/93873520?utm_campaign=weekly211&utm_source=weekly-digest&utm_medium=email)
+
+- [家居中有哪些设计不合理的地方？](https://www.zhihu.com/question/22827881)
+
+## Buy 买
+
+- [一个人旅行有哪些必备神器？](https://www.zhihu.com/question/24023171)- 实用
+
+- [有哪些尚未普及却非常好用的东西？](https://www.zhihu.com/question/38821362)- 生活质量
+
+- [耳机选购大全：不败家！不白瞎！够用就好？](http://mp.weixin.qq.com/s?__biz=MjM5Njk4OTQwMQ==&amp;mid=401415614&amp;idx=1&amp;sn=16d3206bd1e3f502c4635b5348b151d1&amp;scene=1&amp;srcid=1207BJEB4qWQBFhX3Yq0zXH1#rd)- 实用，极简（好用，便携，高性价比）
+
+## Eat 食
+
+- [北京有哪些深藏不露的餐馆？](https://www.zhihu.com/question/30400300)
+
+- [去香港一定不能错过哪些美食？](https://www.zhihu.com/question/19803431)
+
+- [2015年中国100最佳餐厅完全榜单](http://mp.weixin.qq.com/s?__biz=MjM5MDE4ODIzMg==&amp;mid=206234405&amp;idx=1&amp;sn=70dfa683c1db46303d18adc6fc6095a2&amp;scene=1#rd)
+
+## Play 乐
+
+- [如何系统地练字？](https://www.zhihu.com/question/20502275)- 手写的乐趣
+
+- [怎样欣赏交响乐、歌剧、古典和美声这类音乐？](https://www.zhihu.com/question/22208507)
+
+- [广州有什么「鲜为人知但很有意思」的景点？](https://www.zhihu.com/question/21648404)
+
+- [我知道你看过不少神剧，但许多都「抄袭」它](http://mp.weixin.qq.com/s?__biz=MjM5MTIwNTYwMg==&mid=402346946&idx=1&sn=8b2c0e87815358358eff466c25b0836b&scene=5&srcid=1209kGNJ89UQoUCc9M81CNEZ#rd) <sup>_todo_</sup>
+
+- [有哪些电影一定要趁年轻看？](https://www.zhihu.com/question/25699277)<sup>_todo_</sup>
+
+## Clothing 衣
+
+- [男生基本款](https://www.zhihu.com/question/29347945/answer/44802155)
+
+- [男生长得难看怎么办](https://www.zhihu.com/question/25485795)
+
+- [25岁后男生的20条基本穿衣准则](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=216957646&amp;idx=1&amp;sn=80e3631d64b405888258ffcb86b8268e&amp;scene=1#rd)
+
+- [男生如何找准自己的穿衣风格，提升衣着品味？](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=209430380&amp;idx=1&amp;sn=646eb69ae5116a1d634dfa70cdddee10&amp;scene=1#rd)
+
+- [惊爆！看完后他竟不想再穿羽绒服！](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=210316708&amp;idx=1&amp;sn=e34ae6d411a82d114358f5adac598861&amp;scene=1#rd)
+
+- [哪一款包可以优雅地放入MacBook、iPad和一些简单的日用品？](https://www.zhihu.com/question/30610574)
+
+- [知名度不如一线，质量却很好的品牌有哪些？](https://www.zhihu.com/question/35886615)
+
+- [男鞋二十二条军规](http://mp.weixin.qq.com/s?__biz=MjM5MTEwNTQxMg==&amp;mid=205293619&amp;idx=4&amp;sn=130382a4de42eb7e3099dca2fa320897&amp;scene=1#rd)
+
+- [惊！只有5款男鞋值得买？](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=209636065&amp;idx=1&amp;sn=66fe275dd21dcc2c170d355a992bc580&amp;scene=1#rd)
+
+- [有哪些双肩包潮牌推荐？](https://www.zhihu.com/question/20494311)
+
+- [爱美之心 - 知乎收藏夹](https://www.zhihu.com/collection/20333571)
+
+## Legal 法律
+
+- [《Legal High》呈现的是怎样的三观？](https://www.zhihu.com/question/28226028)- 法律至高 <sup>__Best__</sup>
+
+- [KTV不允许带酒水和零食违法不违法？](https://www.zhihu.com/question/35814611/answer/65416013)- 合法权益
+
+## Oth 杂
+
+- [音乐的秘密](http://www.letv.com/ptv/vplay/24200614.html#vid=24200614) - 梁欢制作的纪录片电影。向不为人知的幕后音乐人致敬 <sup>__Best__</sup>
+
+- [如何防止鞋带松掉？](https://www.zhihu.com/question/20093377#answer-700224)- 绑鞋带
+
+- [扇贝英语](http://www.shanbay.com/) - 一整套学习英语的系列 App 服务
+
+- [网易公开课](http://open.163.com/) - 国内最好的公开课平台，包含 TED、Coursera、可汗学院的翻译视频 <sup>_todo_</sup>
+
+- [经济越发展，越难「寒门出贵子」吗？](https://www.zhihu.com/question/32219311)
+
+## Notes 笔记
+
+- [你的自控能力强么？｜研究：不快乐的人自控力更差](/read/self_control.html)
+- [若一辈子没有赚大钱，当大官，和自己爱的人在一起（哪怕一次），活着能算有意义吗？](/read/meaning.html)
+- [眼前的苟且，也正是诗和远方](/read/poet.html)
+- [为什么长大以后反而不容易快乐？](/read/why_unhappy.html)
+- [《 幸福课 》动机在杭州 的知乎专栏](/read/happiness_course.html)
+- [风尘棋客](/read/chinese_chess.html)
+- [《 论悲观主义的益处 》阿兰·德·波顿](/read/pessimist.html)
+- [Loser 应该知道的 6 个残酷人生事实](/read/cruel_reality.html)
+- [你曾经的老师说过的哪句话印象最为深刻，对你影响较大甚至在十多年或更久之后都记在心里？](/read/teacher_said.html)
+- [论底层青年如何逆袭到中上阶层：什么是命？如何革你的命？](/read/family_accumulation.html)
+- [70 后和 80 后对于刚刚踏入社会的 90 后毕业生有什么建议？](/read/suggestions_for_the_young.html)
+- [精致的利己主义者和常青藤的绵羊](/read/excellent_sheep.html)
+- [How to Study: A Brief Guide](/read/how_to_study.html)
+- [做事的方法](/read/how_to_do.html) <sup>Not noticed before</sup>
+- [](/read/.html)
+- [](/read/.html)
+- [](/read/.html)
+
+## Extra 额外
+
+- 最喜欢的 [书籍](/favourites/#Books-书)
+- 最喜欢的 [微信公众号](/favourites/#WeChat-OA-公众号)
+- 最喜欢的 [播客](/favourites/#FM-播客)
+- 最喜欢的 [电影](/favourites/#Motion-Picture-电影)
+- 最喜欢的 [电视剧](/favourites/#TV-Dramas-电视剧)
+- 最喜欢的 [动画](/favourites/#Animate-动画)
+- 最喜欢的 [游戏](/favourites/#Games-游戏)
+- 最喜欢的 [歌手](/favourites/#Singers-歌手)
