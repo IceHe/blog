@@ -81,7 +81,7 @@ description: My good old days - Photos & Memory
 
 - 工位
 
-    <img src="http://6vzp68.com1.z0.glb.clouddn.com/2016spring/workplace_00.png" class="fix_width">
+    <img src="http://7vzp68.com1.z0.glb.clouddn.com/2016spring/workplace_00.png" class="fix_width">
 
     某段时间的工位。<br/><br/>
 
