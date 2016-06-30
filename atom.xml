@@ -168,7 +168,7 @@
     
     <summary type="html">
     
-      My good old days - Photos &amp; Memory
+      Good old days. Photos &amp; Memory.
     
     </summary>
     
@@ -486,11 +486,16 @@
 &lt;li&gt;&lt;a href=&quot;/read/family_accumulation.html&quot;&gt;论底层青年如何逆袭到中上阶层：什么是命？如何革你的命？&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/read/suggestions_for_the_young.html&quot;&gt;70 后和 80 后对于刚刚踏入社会的 90 后毕业生有什么建议？&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/read/excellent_sheep.html&quot;&gt;精致的利己主义者和常青藤的绵羊&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/read/how_to_study.html&quot;&gt;How to Study: A Brief Guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/read/how_to_do.html&quot;&gt;做事的方法&lt;/a&gt; &lt;sup&gt;Not noticed before&lt;/sup&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/read/.html&quot;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/read/.html&quot;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/read/.html&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/how_to_study.html&quot;&gt;How to Study: A Brief Guide&lt;/a&gt;&lt;!--- [](/read/.html)--&gt;
+&lt;!--- [](/read/.html)--&gt;
+&lt;!--- [](/read/.html)--&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;More-更多&quot;&gt;&lt;a href=&quot;#More-更多&quot; class=&quot;headerlink&quot; title=&quot;More 更多&quot;&gt;&lt;/a&gt;More 更多&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Here are notes Not Mentioned Above.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/how_to_do.html&quot;&gt;做事的方法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/jian_qiu.html&quot;&gt;毽球踩球&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/calorie.html&quot;&gt;减肥每天需要摄入多少卡路里&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;Extra-额外&quot;&gt;&lt;a href=&quot;#Extra-额外&quot; class=&quot;headerlink&quot; title=&quot;Extra 额外&quot;&gt;&lt;/a&gt;Extra 额外&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;最喜欢的 &lt;a href=&quot;/favourites/#Books-书&quot;&gt;书籍&lt;/a&gt;&lt;/li&gt;
@@ -838,6 +843,15 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--- [成功技术领导者10条经验锤炼](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=208891164&amp;idx=1&amp;sn=893d43e516f576917dcb99cfa421a226&amp;scene=5&amp;srcid=3vfJDE1cRf8X4ecZlk7h#rd) 初次看不明觉厉，再看没有感触，待观察。--&gt;
+&lt;h2 id=&quot;My-Notes&quot;&gt;&lt;a href=&quot;#My-Notes&quot; class=&quot;headerlink&quot; title=&quot;My Notes&quot;&gt;&lt;/a&gt;My Notes&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/cmd/git_note&quot;&gt;My Git Note&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/tech/eclipse_shortcuts.html&quot;&gt;Eclipse - Shortcuts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/tech/firefox_stylish_css.html&quot;&gt;Firefox Stylish CSS - Square Tab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/tech/php/PHP empty() 和 isset() 的区别.html&quot;&gt;PHP empty() 和 isset() 的区别&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/tech/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var).html&quot;&gt;PHP 的 var !== NULL 是否等价于 isset(var)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/tech/career.html&quot;&gt;《程序员必读的职业规划书》Note&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/tech/resume_tips.html&quot;&gt;简历上的 精通、熟练、掌握、理解 英语怎么翻译？&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
     
     <summary type="html">
@@ -1086,6 +1100,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;/about/&quot;&gt;Me 我&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/resume&quot;&gt;Resume&lt;/a&gt;&lt;sup&gt;简历&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/moments/&quot;&gt;My Moments&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/reward&quot;&gt;Reward Me 打赏博主&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--### [PHP](/categories/PHP)--&gt;
