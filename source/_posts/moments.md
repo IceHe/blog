@@ -4,7 +4,7 @@ updated: 2016-06-28
 show_updated: false
 categories: [whoami]
 tags: [whoami]
-description: My good old days - Photos & Memory
+description: Good old days. Photos & Memory.
 ----------
 
 # Good old days
