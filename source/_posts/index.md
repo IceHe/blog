@@ -112,6 +112,7 @@ description: 本博客的导航页。
 
 - [Me 我](/about/)
 - [Resume](/resume)<sup>简历</sup>
+- [My Moments](/moments/)
 - [Reward Me 打赏博主](/reward)
 
 <!--### [PHP](/categories/PHP)-->
