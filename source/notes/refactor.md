@@ -1,4 +1,4 @@
-title: Refator - Note
+title: Refactor - Note
 ---
 
 注意：

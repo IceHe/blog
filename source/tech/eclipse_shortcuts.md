@@ -1,4 +1,5 @@
 title: Eclipse - Shortcuts
+date: 2015-01-20
 ---
 
 alt + 鼠标左键选择 ：选中方形区域内的文字等(word)

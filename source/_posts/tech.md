@@ -104,6 +104,10 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 - [Consistent Hashing 五分钟理解一致性哈希算法](http://blog.csdn.net/cywosp/article/details/23397179)
 
+- [尾递归调用](https://github.com/ruanyf/articles/blob/master/2015/2015-04-10-tail-call.md)
+
+- [随机问题 - 洗牌算法](http://mp.weixin.qq.com/s?__biz=MzA4NjE3MDg4OQ==&amp;mid=403338527&amp;idx=1&amp;sn=0c3649ba03268f8b9605b1b75e14cb8b&amp;scene=1&amp;srcid=0406vMkKTTz3LabAOl04P8L6#rd)
+
 <!--- [结构之法 算法之道](http://blog.csdn.net/v_july_v) <sup>_todo_</sup>-->
 
 <!--- [Matrix67: The Aha Moments](http://www.matrix67.com/blog/) <sup>_todo_</sup>-->
@@ -332,3 +336,14 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
     相关：[Theory X and Theory Y](https://en.wikipedia.org/wiki/Theory_X_and_Theory_Y)
 
 <!--- [成功技术领导者10条经验锤炼](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=208891164&idx=1&sn=893d43e516f576917dcb99cfa421a226&scene=5&srcid=3vfJDE1cRf8X4ecZlk7h#rd) 初次看不明觉厉，再看没有感触，待观察。-->
+
+## My Notes
+
+- [My Git Note](/cmd/git_note)
+- [Eclipse - Shortcuts](/tech/eclipse_shortcuts.html)
+- [Firefox Stylish CSS - Square Tab](/tech/firefox_stylish_css.html)
+- <a href="/tech/php/PHP empty() 和 isset() 的区别.html">PHP empty() 和 isset() 的区别</a>
+- <a href="/tech/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var).html">PHP 的 var !== NULL 是否等价于 isset(var)</a>
+- [《程序员必读的职业规划书》Note](/tech/career.html)
+- [简历上的 精通、熟练、掌握、理解 英语怎么翻译？](/tech/resume_tips.html)
+
