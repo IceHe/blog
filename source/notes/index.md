@@ -24,7 +24,10 @@ date: 2015-03-16
     - [Badminton Techniques](https://www.youtube.com/watch?v=6uj7UoR7YJ8&list=PL25A4AB13DD610A66)
     - [Coach Badminton](https://www.youtube.com/user/coachingbadminton)
 
+- 考虑「U+ 优财睿进系列」理财产品
+
+    - 存够 ￥1w 闲钱
+
 ## Uncategoried
 
-- [詹对广怡的启示](/notes/cpp.html)
-
+    - [詹对广怡的启示](/notes/cpp.html)
