@@ -1,6 +1,6 @@
 title: Blog Index 目录
 date: 2016-03-07
-updated: 2016-06-18
+updated: 2016-07-03
 show_updated: true
 categories: [read]
 tags: [read]
@@ -13,6 +13,7 @@ description: 本博客的导航页。
 ### [Think](/categories/think)
 ---
 
+- [2016 Summer](/think/2016_summer)
 - [Bye 2015](/think/bye2015)
 
 ### [Web](/categories/Web)
