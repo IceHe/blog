@@ -30,4 +30,4 @@ date: 2015-03-16
 
 ## Uncategoried
 
-    - [詹对广怡的启示](/notes/cpp.html)
+- [詹对广怡的启示](/notes/cpp.html)
