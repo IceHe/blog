@@ -9,7 +9,7 @@ description: Good old days. Photos & Memory.
 
 - Bye, my good old days : )
 
-# 执信
+## 执信
 
 ![](http://7vzp68.com1.z0.glb.clouddn.com/about/memorable_00.jpg)
 
@@ -19,7 +19,7 @@ description: Good old days. Photos & Memory.
 
 毁嗓的事我一直耿耿于怀了好几年，直到生活重心完全不同之后，才走出了想唱却再也唱不好的失落。毕竟已经习惯了安静工作学习，很少再有三心两意边唱边做作业的时候了。
 
-# 实习
+## 实习
 
 <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/glr_00.jpg" class="fix_width" />
 
@@ -29,9 +29,9 @@ description: Good old days. Photos & Memory.
 
 GLR 「过来人」后改名为「优职英才」，创业是残酷的，那几位创始人终究没能大获成功，这家公司现在成了他们的副业。大概他们又回去搞投行、咨询了，其实挺希望他们最后能做成这家公司，或者做成其它事业。
 
-# 华工
+## 华工
 
-## 毽球
+### 毽球
 
 ![](http://7vzp68.com1.z0.glb.clouddn.com/about/jianqiu_00.jpg)
 
@@ -41,7 +41,7 @@ GLR 「过来人」后改名为「优职英才」，创业是残酷的，那几�
 
 有幸拥有一帮强大的队友，这些年获得了 [一些小成绩](/resume/#华南理工毽球社-社长-nbsp-nbsp-2012-09-2014-06)，重要的是玩得开心。太多事想要做，现在只能偶尔玩玩了。
 
-## 电工
+### 电工
 
 <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/handicraft_02.jpg" class="fix_width" />
 
@@ -49,7 +49,7 @@ GLR 「过来人」后改名为「优职英才」，创业是残酷的，那几�
 
 微电子工艺实习课程里的一个自由发挥的手工作业。突然想到可以做个左轮手枪~
 
-## 社团
+### 社团
 
 <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/zonghe_00.jpg" class="fix_width" />
 
@@ -63,51 +63,51 @@ GLR 「过来人」后改名为「优职英才」，创业是残酷的，那几�
 
 职业体验协会的师兄毕业时的合照。
 
-## 多看
+### 多看
 
 ![](http://7vzp68.com1.z0.glb.clouddn.com/about/duokan_read_history_160621.png)
 
 多看阅历看起来挺多，其实其中许多都不长。感觉做了很多无效的阅读，其实可以省下时间去看更有营养的书、做更重要的事。
 
-## 宿舍
+### 宿舍
 
 ![](http://7vzp68.com1.z0.glb.clouddn.com/about/dorm_00.jpg)
 
 经常用整理宿舍来拖延回避困难、不想做的事，比如考试复习。
 
-# 新浪
+## 新浪
 
 <img src="http://7vzp68.com1.z0.glb.clouddn.com/2016spring/workplace_00.png" class="fix_width">
 
 某段时间的工位。
 
-# 毽球
+## 毽球
 
-## 亚军
+### 亚军
 
 <img src="http://7vzp68.com1.z0.glb.clouddn.com/2016spring/xingwuzhou_00.png" class="fix_width">
 <img src="http://7vzp68.com1.z0.glb.clouddn.com/2016spring/xingwuzhou_01.png" class="fix_width">
 
 <br/>在广东的时候，我的水平（中等）只能算战五渣。结果来到这种没有奖金的比赛（虽然也强但没那么多高手），凭着我们队年轻的体力优势（其它基本都是 30+、40+，甚至有 50+），在小组第二出线的情况下（真正技术不够强），逆转获得亚军（2/16）。运气太好，大概这是最后一次能拿到这么好的成绩了吧（虽然艰难，还是觉得有点水份）。
 
-## 冠军
+### 冠军
 
 <img src="http://7vzp68.com1.z0.glb.clouddn.com/2016spring/champion_02.png" class="fix_width">
 <img src="http://7vzp68.com1.z0.glb.clouddn.com/2016spring/champion_01.png" class="fix_width">
 
 <br/>然而，玩玩没想到，仅仅两个月后的这又一次天津之行，还是同样的队员，发生了同样的剧情，小组第二出线，然而结局却是我们拿到了冠军了！还是因为年轻体力好啊。天津真乃福地。
 
-# 家
+## 家
 
 <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/home_desk.png" class="fix_width">
 
 书桌。久违的家。
 
-# 文字
+## 文字
 
 可惜还有许多没被相片记录的时刻。
 
-## 小学
+### 小学
 
 - 三年级开始去黑网吧、游戏机室。曾自诩游戏打得好，学习又好…
 
@@ -115,7 +115,7 @@ GLR 「过来人」后改名为「优职英才」，创业是残酷的，那几�
 
 - 非常喜欢傻笑，还算幽默，很会讲笑话。
 
-## 初中
+### 初中
 
 - 玩游戏、看动漫最多的时期。
 
@@ -129,7 +129,7 @@ GLR 「过来人」后改名为「优职英才」，创业是残酷的，那几�
 
 - 这三年，在这「井底」轻易获得「还不错」的成绩，于是不够努力，把学习热情、脑力、思维、习惯落下了。
 
-## 执信
+### 执信
 
 - 入学前新生 QQ 群 KTV 聚会，还记得我用一曲张韶涵的《亲爱的那并不是爱情》技惊四座，于是那时有人被吐槽我的颜很外星人（快军训，剪了短发），但唱起歌来印象反差很大，给了大家很强烈的印象。
 
@@ -151,7 +151,7 @@ GLR 「过来人」后改名为「优职英才」，创业是残酷的，那几�
 
 - 后来意识到高一的朋友没有维持下去，高二开始也没好好深交朋友，是高中最大的遗憾。如果中大不行，最后华工都录取不上，高中的后两年就真的太失败了。
 
-## 华工
+### 华工
 
 - 高考后的暑假，偶遇校园牛人Jacky，惊奇，想模仿其成长路；实习于他所在的过来人公司，接触了许多牛人，视野大大拓展；重新开始大量阅读，但成了鸡血男，开始浮躁。
 
@@ -165,10 +165,23 @@ GLR 「过来人」后改名为「优职英才」，创业是残酷的，那几�
 
 - 大四悲喜交加的求职季，难免失意。遇到一个大四前几乎一直虚度而今奋发的同学，没想到是他激励了我，而非那些被当作假想敌的牛人。
 
-## 以后
+### 以后
 
 - 过去的都过去了，要往前看。
 
 - 走得越远，过去变得模糊，却看得更清楚了。
 
-<style type="text/css">article img.fix_width{width: 32em; height: auto;}img.fix_height{width: auto; height: 32em;}</style>
+<style type="text/css">
+article .article-content h2 {
+    font-weight: bold;
+    font-size: 1.8em;
+}
+article img.fix_width {
+    width: 32em;
+    height: auto;
+}
+img.fix_height {
+    width: auto;
+    height: 32em;
+}
+</style>
