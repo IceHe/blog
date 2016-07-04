@@ -2,7 +2,7 @@ title: 2016 Summer
 date: 2016-07-03
 categories: [think]
 tags: [think]
-description: 2016 年夏，半年记。
+description: 2016 年夏，上半年记。
 ---
 
 - 2016 年夏，年中总结。
