@@ -1,6 +1,6 @@
 title: My Life Logs 手帐
 date: 2015-01-22
-updated: 2016-06-01
+updated: 2016-07-04
 show_updated: true
 categories: [time mgt]
 tags: [time mgt]
@@ -56,4 +56,6 @@ description: 个人时间管理日志。
 4. [四月：加班，新项目。](/lifelogs/2016/04/index.html) 学 47 动 7 废 5
     <sup>Apr: work overtime, new project.</sup>
 5. [五月：微博头条，新朋友。](/lifelogs/2016/05/index.html) 学 50 动 11 废 4
-    <sup>May: TopWeibo, a new friend.</sup>
+    <sup>May: TopWeibo, new friends.</sup>
+6. [六月：疲累。](/lifelogs/2016/06/index.html) 学 46 动 10 废 4
+    <sup>Jun: Tired.</sup>
