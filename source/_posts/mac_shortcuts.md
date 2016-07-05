@@ -1,6 +1,6 @@
 title: My Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2016-06-09
+updated: 2016-07-05
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -579,7 +579,7 @@ Not Only shortcuts, but also Change Layout of Keyboard!
     `^ ⌥ q` | `凵 q` [Firefox](#Firefox)
     `^ ⌥ w` | `凵 w` [iTerm2](#iTerm2)
     `^ ⌥ e` | `凵 e` [Evernote](#Evernote)
-    `^ ⌥ r` | `凵 r` [Calendar](#Calendar)
+    `^ ⌥ r` | `凵 r` [Wunderlist](#Wunderlist)
 
 - Num
 
@@ -604,6 +604,7 @@ Not Only shortcuts, but also Change Layout of Keyboard!
     `⌥ f` [Finder](#Finder)
     `⌥ g` Preview
 
+    `^ ⌥ a` [Calendar](#Calendar)
     `^ ⌥ s` Safari
     `^ ⌥ d` MacID
     `^ ⌥ f` Flux
@@ -1107,6 +1108,22 @@ __VimFX is a Firefox Extension.__
 
 `⌘ ↑` Prev Chat
 `⌘ ↓` Next Chat
+
+# Wunderlist
+
+`⌘ s` Sync
+`⌘ n` New Item
+_`⌘ l` New List_
+
+__`⌘ d` Mark as Completed__
+`⌘ ⌫` Delete To-do
+
+`⌘ 1` Normal View
+`⌘ 2` Collapsed View
+`⌘ 3` Minified View
+
+_`⌘ e` Email To-do_
+_`⌘ ⇧ E` Edit Selected List_
 
 # Zsh
 
