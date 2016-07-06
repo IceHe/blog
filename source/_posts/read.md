@@ -1,10 +1,10 @@
 title: My Read Bookmarks 阅读
 date: 2016-06-17
-updated: 2016-06-20
+updated: 2016-07-05
 show_updated: true
 categories: [read]
 tags: [read]
-description: 阅读类书签：网站、博客、文章、问答、专栏…
+description: 阅读类书签：网站、博客、文章、问答、专栏、书籍、播客、微信公众号…
 ---
 
 - __Original Version__
@@ -18,7 +18,7 @@ description: 阅读类书签：网站、博客、文章、问答、专栏…
 - __Sigh__
     过去囫囵吞枣，糟蹋了许多好文章；如今我要一一记下，细细咀嚼回味。
 
-## Article 文章
+# Article 文章
 
 - [中文文案排版指北](https://github.com/mzlogin/chinese-copywriting-guidelines)（ [EN](https://github.com/mzlogin/chinese-copywriting-guidelines/blob/Simplified/README.en.md) ）
 
@@ -260,29 +260,29 @@ description: 阅读类书签：网站、博客、文章、问答、专栏…
 
 - [有哪些电影一定要趁年轻看？](https://www.zhihu.com/question/25699277)<sup>_todo_</sup>
 
-## Clothing 衣
+<!--## Clothing 衣-->
 
-- [男生基本款](https://www.zhihu.com/question/29347945/answer/44802155)
+<!--- [男生基本款](https://www.zhihu.com/question/29347945/answer/44802155)-->
 
-- [男生长得难看怎么办](https://www.zhihu.com/question/25485795)
+<!--- [男生长得难看怎么办](https://www.zhihu.com/question/25485795)-->
 
-- [25岁后男生的20条基本穿衣准则](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=216957646&amp;idx=1&amp;sn=80e3631d64b405888258ffcb86b8268e&amp;scene=1#rd)
+<!--- [25岁后男生的20条基本穿衣准则](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=216957646&amp;idx=1&amp;sn=80e3631d64b405888258ffcb86b8268e&amp;scene=1#rd)-->
 
-- [男生如何找准自己的穿衣风格，提升衣着品味？](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=209430380&amp;idx=1&amp;sn=646eb69ae5116a1d634dfa70cdddee10&amp;scene=1#rd)
+<!--- [男生如何找准自己的穿衣风格，提升衣着品味？](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=209430380&amp;idx=1&amp;sn=646eb69ae5116a1d634dfa70cdddee10&amp;scene=1#rd)-->
 
-- [惊爆！看完后他竟不想再穿羽绒服！](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=210316708&amp;idx=1&amp;sn=e34ae6d411a82d114358f5adac598861&amp;scene=1#rd)
+<!--- [惊爆！看完后他竟不想再穿羽绒服！](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=210316708&amp;idx=1&amp;sn=e34ae6d411a82d114358f5adac598861&amp;scene=1#rd)-->
 
-- [哪一款包可以优雅地放入MacBook、iPad和一些简单的日用品？](https://www.zhihu.com/question/30610574)
+<!--- [哪一款包可以优雅地放入MacBook、iPad和一些简单的日用品？](https://www.zhihu.com/question/30610574)-->
 
-- [知名度不如一线，质量却很好的品牌有哪些？](https://www.zhihu.com/question/35886615)
+<!--- [知名度不如一线，质量却很好的品牌有哪些？](https://www.zhihu.com/question/35886615)-->
 
-- [男鞋二十二条军规](http://mp.weixin.qq.com/s?__biz=MjM5MTEwNTQxMg==&amp;mid=205293619&amp;idx=4&amp;sn=130382a4de42eb7e3099dca2fa320897&amp;scene=1#rd)
+<!--- [男鞋二十二条军规](http://mp.weixin.qq.com/s?__biz=MjM5MTEwNTQxMg==&amp;mid=205293619&amp;idx=4&amp;sn=130382a4de42eb7e3099dca2fa320897&amp;scene=1#rd)-->
 
-- [惊！只有5款男鞋值得买？](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=209636065&amp;idx=1&amp;sn=66fe275dd21dcc2c170d355a992bc580&amp;scene=1#rd)
+<!--- [惊！只有5款男鞋值得买？](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=209636065&amp;idx=1&amp;sn=66fe275dd21dcc2c170d355a992bc580&amp;scene=1#rd)-->
 
-- [有哪些双肩包潮牌推荐？](https://www.zhihu.com/question/20494311)
+<!--- [有哪些双肩包潮牌推荐？](https://www.zhihu.com/question/20494311)-->
 
-- [爱美之心 - 知乎收藏夹](https://www.zhihu.com/collection/20333571)
+<!--- [爱美之心 - 知乎收藏夹](https://www.zhihu.com/collection/20333571)-->
 
 ## Legal 法律
 
@@ -290,7 +290,7 @@ description: 阅读类书签：网站、博客、文章、问答、专栏…
 
 - [KTV不允许带酒水和零食违法不违法？](https://www.zhihu.com/question/35814611/answer/65416013)- 合法权益
 
-## Oth 杂
+## Others 杂
 
 - [音乐的秘密](http://www.letv.com/ptv/vplay/24200614.html#vid=24200614) - 梁欢制作的纪录片电影。向不为人知的幕后音乐人致敬 <sup>__Best__</sup>
 
@@ -321,18 +321,167 @@ description: 阅读类书签：网站、博客、文章、问答、专栏…
 <!--- [](/read/.html)-->
 <!--- [](/read/.html)-->
 
-### More 更多
+### More
 
-- Here are notes Not Mentioned Above.
+Here are notes Not Mentioned Above.
 - [做事的方法](/read/how_to_do.html)
 - [毽球踩球](/read/jian_qiu.html)
 - [减肥每天需要摄入多少卡路里](/read/calorie.html)
 
-## Extra 额外
+# Books 书
 
-- 最喜欢的 [书籍](/favourites/#Books-书)
-- 最喜欢的 [微信公众号](/favourites/#WeChat-OA-公众号)
-- 最喜欢的 [播客](/favourites/#FM-播客)
+- [国史大纲](http://book.douban.com/subject/1046492/) - 钱穆，通史。
+
+- [论语新解](http://book.douban.com/subject/6097222/) - 钱穆，儒。
+
+- [中国哲学简史](http://book.douban.com/subject/5253759/) - 冯友兰，哲学。
+
+- [社会心理学](http://book.douban.com/subject/1476651/) <sup>__Best__</sup> - _Social Psychology_ _- 经典教材。
+
+- [思考快与慢](http://book.douban.com/subject/10785583/) - _Thinking Fast and Slow_ - 心理学经典。
+
+- 怪诞行为学 <sup>__Best__</sup> - 心理弱点。
+
+    1. _[Predictably Irrational: The Hidden Forces That Shape Our Decisions](http://book.douban.com/subject/4929844/)_
+    2. _[The Upside of Irrationality: The Unexpected Benefits of Defying Logic at Work and at Home](http://book.douban.com/subject/5253757)_
+
+- [经济学原理](http://book.douban.com/subject/1138061/) - _Principles of Economics_ - 曼昆。
+
+- [高效能人士的7个习惯](http://book.douban.com/subject/5325618/) - _The Seven Habits of Highly Effective People_ - 个人成长。
+
+- [国王，武士，祭司，诗人](http://book.douban.com/subject/2893591/) <sup>__Best__</sup> - _King, Warrior, Magician, Lover_ - 男人。
+
+- [万万没想到：用理工科思维理解世界](http://book.douban.com/subject/25986341/) - 理性。
+
+- [知日断舍离](http://book.douban.com/subject/24749465/) - 极简。
+
+- [奇特的一生](http://book.douban.com/subject/1115353/) - 手帐。
+
+- [番茄工作法](http://book.douban.com/subject/26099295/) - _Pomodoro Technique Illustrated: The Easy Way to Do More in Less Time_ - 专注当下。
+
+- [浪潮之巅](http://book.douban.com/subject/24738302/) - IT 史。
+
+- [信息简史](http://book.douban.com/subject/25752043/) - _The Information: A History, A Theory, A Flood_
+
+- [程序员的呐喊](http://book.douban.com/subject/25884108/) - _A Programmer's Rantings_
+
+    Steve Yegge 以幽默、辛辣的口吻，表达了作为一个资深程序员的独到见解。
+
+- [重构](http://book.douban.com/subject/4262627/) - _Refactoring : Improving the Design of Existing Code_
+
+- [代码大全2](http://book.douban.com/subject/1477390/) - _Code Complete : A Practical Handbook of Software Construction_
+
+- [设计模式](http://book.douban.com/subject/1052241/) - _Design Pattern_
+
+- [C++ Primer](http://book.douban.com/subject/25708312/)
+
+- [汇编语言](http://book.douban.com/subject/3037562/)
+
+- [算法竞赛经典入门](http://book.douban.com/subject/4138920/)
+
+- 蔡志忠的漫画
+
+- <span class="val_pos icon-douban"> [读过的书](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count) - 用豆瓣记录所有看过的书意义不大还麻烦，以后只在博客此处做记录。
+
+# FM 播客
+
+尽量使用 [Podcasts](http://www.apple.com/itunes/podcasts/) 等泛用型播客客户端订阅为佳。
+
+- [太医来了](http://ipn.li/taiyilaile/) <sup>__Best__</sup>
+
+    主打健康、饮食、身体、医疗等常识的科普，收益颇丰。（IPN 旗下播客节目）@Podcasts
+    - [15. 蛋白粉、阿胶、鱼翅、燕窝、虫草……我们不吃！都不吃！](http://ipn.li/taiyilaile/15/) - 补品、营养品
+    - [23. 包皮 GO!](http://ipn.li/taiyilaile/23/)
+    - [26. 有志青年独具慧眼，刚烈女子荡气回肠](http://ipn.li/taiyilaile/26/) —— 肛肠
+    - [38.「有的牙医就是享受手动刷牙的快感。」](http://ipn.li/taiyilaile/38/)
+    - [44. 减肥？减脂？减重？你到底要哪样？](http://ipn.li/taiyilaile/44/)
+    - [46. 听了那么多道理，还是睡不好这一觉](http://ipn.li/taiyilaile/46/)
+    - [52. 花间一壶酒](http://ipn.li/taiyilaile/52/) - 饮酒
+    - [54. 减肥怎么吃？](http://ipn.li/taiyilaile/54/)
+    - [59. 关于蛀牙，我们过去想得太简单了](http://ipn.li/taiyilaile/59/)
+    - [62. 膳食指南背后的故事](http://ipn.li/taiyilaile/62/)
+    - [63. 脱发考](http://ipn.li/taiyilaile/63/)
+    - [66. 膝盖考](http://ipn.li/taiyilaile/66/)
+    - [67. 补钙是个技术活](http://ipn.li/taiyilaile/67/)
+    - [68. 从牙套妹到女神的进化之路](http://ipn.li/taiyilaile/68/)
+    - [90. 刷牙出血，你别不当回事儿](http://ipn.li/taiyilaile/90/)
+
+- [内核恐慌](http://ipn.li/kernelpanic/)
+
+    Kernel Panic ，讨论关于软件开发各类话题的谈话节目。（IPN 旗下播客节目）@Podcasts
+    - [2. 键盘恐慌](http://ipn.li/kernelpanic/2/)
+    - [3. 静态网站生成器](http://ipn.li/kernelpanic/3/)
+    - [4. 编辑器巡礼](http://ipn.li/kernelpanic/4/)
+    - [5. 编程字体](http://ipn.li/kernelpanic/5/)
+    - [7. 软件包管理](http://ipn.li/kernelpanic/7/)
+    - [8.「集装箱化」与运维管理](http://ipn.li/kernelpanic/8/)
+    - [9. 程序员的理想工作环境](http://ipn.li/kernelpanic/9/)
+    - [12. 数学与编程](http://ipn.li/kernelpanic/12/)
+    - [15. 数据可视化与交互设计](http://ipn.li/kernelpanic/15/)
+    - [20. 设计模式](http://ipn.li/kernelpanic/20/)
+    - [28. In the Beginning was the Command Line](http://ipn.li/kernelpanic/28/)
+    - [29. Terminal Emulators](http://ipn.li/kernelpanic/29/)
+    - [31. 覃超专访（之一）](http://ipn.li/kernelpanic/31/)
+    - [32. 覃超专访（之二）](http://ipn.li/kernelpanic/32/)
+
+- [充电时间](http://www.ximalaya.com/zhubo/15450066/)
+
+    帮助主流经营者提升高价值信息内容获取效率，通过收听习惯保持知识结构与世界趋势吻合。
+
+    各子频道：知乎哲野、专栏精粹、TMT创业者、电商治愈系、文化媒体人、资深管理人、进击的PM、左脑时刻、营销方法论、销售行为学。（Loud News 旗下的系列节目） @喜马拉雅FM
+
+- [罗辑思维](http://www.luofans.com/) <sup>__Best__</sup> - 知识与观点。 @喜马拉雅FM
+
+- [锵锵三人行](http://phtv.ifeng.com/program/qqsrx/#01e74c9c-c77b-404f-958a-96e513ab1e00) - 独行时也可以听到高质量的谈话，了解他人的人生与生活见解。 @凤凰FM
+
+- [南都之声](http://diantai.ifeng.com/index.php/public/programnavDetails?pid=83069) -「有温度的城市生活。」 @凤凰FM
+
+- [三联听周刊](http://diantai.ifeng.com/index.php/#!/category/1/76316) -「三联生活周刊，一本杂志和他倡导的生活。」 @喜马拉雅FM
+
+- [凤凰周刊有声故事](http://diantai.ifeng.com/index.php/#!/category/1/65619) -「传递影响时代的声音」政治、经济、外交、民生。 @凤凰FM
+
+- [许川知乎时间](http://www.ximalaya.com/1740592/album/276787) - 听知乎（偏人生“鸡汤”类）。 @企鹅FM
+
+- [冬吴相对论](http://baike.baidu.com/link?url=5NbvRBuZzEb7ua9GywfrfeEVlbhPa-dnrwE7jnw0Mj9cv_2LWdqdl7_PBOW3bbROb2EKx91H4BHP7f-CJP9paZvdY7Yp3xMdK7-9SKQPC)（已停播）- 谈论时事热点、经济现象，梁冬与21世纪商业评论主编吴伯凡的谈话节目。
+
+- 英语类 - 在 iOS 的 Podcasts 中，订阅排名靠前的英语学习类播客基本都不错。
+
+<!--- 情感信箱 - 偷听女人心。 @企鹅FM-->
+
+<!--- [飞碟说](http://www.feidieshuo.com/)-->
+
+<!--选取社会热点为话题，用有趣的方式，对各种热点知识进行科普解说的动画脱口秀节目，风格诙谐、重口、无下限。但很碎片。 @喜马拉雅FM-->
+
+# 微信公众号
+
+- [鹅厂网事](http://chuansong.me/account/tencent_network)
+
+- [聊聊架构](http://chuansong.me/account/archtime)
+
+- [程序人生](http://chuansong.me/account/programmer_life) - 服务端技术实践与感悟，以及杂谈。
+
+- [懒人在思考](http://chuansong.me/account/lazy-thought) - 网络安全入门。 @余弦
+
+- [道哥的黑板报](http://www1.taosay.net/) - 技术杂谈。 @道哥
+
+- [幸福课](http://chuansong.me/account/happinessclass) <sup>__Best__</sup> - 心理学。/ 动机在杭州（陈海贤）运营。[同名知乎专栏](http://zhuanlan.zhihu.com/happy) 同步更新。
+
+- [李松蔚](http://chuansong.me/account/therapistlsw) <sup>__Best__</sup> - 洞悉人心。/ 知乎专栏 [《潜台词》](http://zhuanlan.zhihu.com/lswlsw) 同步更新。
+
+- [有点自卑](http://chuansong.me/account/bocai_zhu) - 两性情感。
+
+- [爱迪生商业实验室](http://zhuanlan.zhihu.com/edisonlab) <sup>__Best__</sup> - 商业独见。
+
+- [TOMsInsight](http://chuansong.me/account/TOMsInsight) - 互联网数据深度分析报告。
+
+- [吃惑](http://www.gzhphb.com/item/16/168190.html) - 健康饮食、正确健身。
+
+<!--- PHP开发者 - 伯乐在线旗下帐号-->
+
+<!--- [KnowYourself](http://chuansong.me/account/knowyourself2015) - 励志心理。-->
+
+# Extra 额外
+
 - 最喜欢的 [电影](/favourites/#Motion-Picture-电影)
 - 最喜欢的 [电视剧](/favourites/#TV-Dramas-电视剧)
 - 最喜欢的 [动画](/favourites/#Animate-动画)
