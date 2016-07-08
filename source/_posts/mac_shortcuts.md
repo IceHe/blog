@@ -605,9 +605,9 @@ Not Only shortcuts, but also Change Layout of Keyboard!
     `⌥ g` Preview
 
     `^ ⌥ a` [Calendar](#Calendar)
-    `^ ⌥ s` Safari
     `^ ⌥ d` MacID
-    `^ ⌥ f` Flux
+    `^ ⌥ f` Safari
+    `^ ⌥ l` Flux
 
     `^ ⌥ x` | `凵 x` Sublime Text
     `^ ⌥ c` | `凵 c` [Charles](#Charles)
