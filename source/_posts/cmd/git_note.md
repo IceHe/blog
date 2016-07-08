@@ -2,8 +2,8 @@ title: Git Note
 date: 2016-02-15
 updated: 2016-06-04
 show_updated: true
-categories: [Command]
-tags: [Command]
+categories: [Git]
+tags: [Git]
 description: 我的 Git 笔记，日常工作曾使用的指令组合。
 -----------------
 
