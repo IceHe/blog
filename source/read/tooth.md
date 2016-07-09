@@ -1,6 +1,5 @@
 title: 牙齿保健
 date: 2016-07-09
-toc: false
 ---
 
 # 牙齿保健
@@ -25,7 +24,7 @@ toc: false
                 - [每天刷牙为什么还会有龋齿？](https://www.zhihu.com/question/30582839/answer/48625166)
             - [使用牙线有必要性吗？](https://www.zhihu.com/question/20842469/answer/44441538)
             - [漱口水有何功效？有何副作用？](https://www.zhihu.com/question/20368732/answer/16323210)
-            - __[洗牙到底安全不安全？](https://www.zhihu.com/question/21031894/answer/17017915)__ <sup>__Best__</sup>
+            - [洗牙到底安全不安全？](https://www.zhihu.com/question/21031894/answer/17017915)
             - [如何从小到大保护好牙齿？](https://www.zhihu.com/question/20632901/answer/15702825)
             - [烤瓷牙为什么这么贵？是材料贵，还是其他什么原因？](https://www.zhihu.com/question/30674383)
 <!--- [金杯银杯，不如知友的口碑](https://zhuanlan.zhihu.com/p/20437258) - 2015 牙科科普推荐-->
@@ -127,7 +126,7 @@ toc: false
         - 医保、公司商业保险可部分报销
     - [拔智齿根断在里面了以后能长出来吗？留在里面有什么危害？](https://www.zhihu.com/question/38342913/answer/76016534)
 
-## 牙科问题尽早治疗
+## 尽早治疗
 
 - From
     - [“许大夫，我的 XX 该治吗？”](https://zhuanlan.zhihu.com/p/20294475)
