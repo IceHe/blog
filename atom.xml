@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://icehe.me/"/>
-  <updated>2016-07-04T13:50:17.000Z</updated>
+  <updated>2016-07-09T05:04:03.000Z</updated>
   <id>http://icehe.me/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://icehe.me/think/2016_summer/"/>
     <id>http://icehe.me/think/2016_summer/</id>
     <published>2016-07-02T16:00:00.000Z</published>
-    <updated>2016-07-04T13:50:17.000Z</updated>
+    <updated>2016-07-09T05:04:03.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;2016 年夏，年中总结。&lt;/li&gt;
@@ -83,12 +83,11 @@
 &lt;p&gt;路灯输烟花一段灿烂，烟花输路灯一世安稳。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;你选择？&lt;/p&gt;
-&lt;h2 id=&quot;损友&quot;&gt;&lt;a href=&quot;#损友&quot; class=&quot;headerlink&quot; title=&quot;损友&quot;&gt;&lt;/a&gt;损友&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;近朱者赤，近墨者黑。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;身边朋友的平均水平，很大程度上，代表了你在哪个段位上。&lt;/p&gt;
 &lt;h2 id=&quot;弯路&quot;&gt;&lt;a href=&quot;#弯路&quot; class=&quot;headerlink&quot; title=&quot;弯路&quot;&gt;&lt;/a&gt;弯路&lt;/h2&gt;&lt;p&gt;那些曾经的弯路，并不如想象中那么有意义。&lt;/p&gt;
 &lt;p&gt;实际上，它们确实浪费了我许多时间和精力，其实本可以做更重要的事情。不过没必要为了缓解劳苦无功的懊恼，而给它们强行附上意义。那些意义不过是为了合理化过度投入的沉没成本、缓解认知失调而生的说辞罢了。&lt;/p&gt;
+&lt;!--## 损友--&gt;
+&lt;!--「近朱者赤，近墨者黑。」--&gt;
+&lt;p&gt;身边朋友的平均水平，很大程度上，代表了你在哪个段位上。&lt;/p&gt;
 &lt;style type=&quot;text/css&quot;&gt;article img.fix_width{width: 32em; height: auto;}img.fix_height{height: 28em; width: auto;}&lt;/style&gt;
 </content>
     
@@ -411,7 +410,9 @@ img.fix_height {
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/22292248&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;长期用耳塞听歌会导致听力下降吗？&lt;/a&gt;- 注意音量！&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/19785262&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何正确地刷牙？&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/19785262&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何正确地刷牙？&lt;/a&gt; &lt;sup&gt;&lt;a href=&quot;/read/tooth.html&quot;&gt;Best Note&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/19825877/answer/15856166&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;电动牙刷刷牙相比手动刷牙有什么优缺点？&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/21031894&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;洗牙到底安全不安全？&lt;/a&gt;- 有益，不贵&lt;/p&gt;
 &lt;/li&gt;
@@ -524,30 +525,6 @@ img.fix_height {
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/32219311&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;经济越发展，越难「寒门出贵子」吗？&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;Notes-笔记&quot;&gt;&lt;a href=&quot;#Notes-笔记&quot; class=&quot;headerlink&quot; title=&quot;Notes 笔记&quot;&gt;&lt;/a&gt;Notes 笔记&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;/read/self_control.html&quot;&gt;你的自控能力强么？｜研究：不快乐的人自控力更差&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/read/meaning.html&quot;&gt;若一辈子没有赚大钱，当大官，和自己爱的人在一起（哪怕一次），活着能算有意义吗？&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/read/poet.html&quot;&gt;眼前的苟且，也正是诗和远方&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/read/why_unhappy.html&quot;&gt;为什么长大以后反而不容易快乐？&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/read/happiness_course.html&quot;&gt;《 幸福课 》动机在杭州 的知乎专栏&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/read/chinese_chess.html&quot;&gt;风尘棋客&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/read/pessimist.html&quot;&gt;《 论悲观主义的益处 》阿兰·德·波顿&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/read/cruel_reality.html&quot;&gt;Loser 应该知道的 6 个残酷人生事实&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/read/teacher_said.html&quot;&gt;你曾经的老师说过的哪句话印象最为深刻，对你影响较大甚至在十多年或更久之后都记在心里？&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/read/family_accumulation.html&quot;&gt;论底层青年如何逆袭到中上阶层：什么是命？如何革你的命？&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/read/suggestions_for_the_young.html&quot;&gt;70 后和 80 后对于刚刚踏入社会的 90 后毕业生有什么建议？&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/read/excellent_sheep.html&quot;&gt;精致的利己主义者和常青藤的绵羊&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/read/how_to_study.html&quot;&gt;How to Study: A Brief Guide&lt;/a&gt;&lt;!--- [](/read/.html)--&gt;
-&lt;!--- [](/read/.html)--&gt;
-&lt;!--- [](/read/.html)--&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;More&quot;&gt;&lt;a href=&quot;#More&quot; class=&quot;headerlink&quot; title=&quot;More&quot;&gt;&lt;/a&gt;More&lt;/h3&gt;&lt;p&gt;Here are notes Not Mentioned Above.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;/read/how_to_do.html&quot;&gt;做事的方法&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/read/jian_qiu.html&quot;&gt;毽球踩球&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/read/calorie.html&quot;&gt;减肥每天需要摄入多少卡路里&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h1 id=&quot;Books-书&quot;&gt;&lt;a href=&quot;#Books-书&quot; class=&quot;headerlink&quot; title=&quot;Books 书&quot;&gt;&lt;/a&gt;Books 书&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://book.douban.com/subject/1046492/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;国史大纲&lt;/a&gt; - 钱穆，通史。&lt;/p&gt;
 &lt;/li&gt;
@@ -608,12 +585,13 @@ img.fix_height {
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://ipn.li/taiyilaile/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;太医来了&lt;/a&gt; &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;  主打健康、饮食、身体、医疗等常识的科普，收益颇丰。（IPN 旗下播客节目）@Podcasts&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://ipn.li/taiyilaile/15/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;15. 蛋白粉、阿胶、鱼翅、燕窝、虫草……我们不吃！都不吃！&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ipn.li/taiyilaile/15/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;15. 蛋白粉、阿胶、鱼翅、燕窝、虫草……我们不吃！都不吃！&lt;/a&gt; - 补品、营养品&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://ipn.li/taiyilaile/23/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;23. 包皮 GO!&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://ipn.li/taiyilaile/38/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;38.「有的牙医就是享受手动刷牙的快感。」&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ipn.li/taiyilaile/26/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;26. 有志青年独具慧眼，刚烈女子荡气回肠&lt;/a&gt; —— 肛肠&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ipn.li/taiyilaile/38/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;38.「有的牙医就是享受手动刷牙的快感。」&lt;/a&gt; &lt;sup&gt;&lt;a href=&quot;/read/tooth.html&quot;&gt;Note&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://ipn.li/taiyilaile/44/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;44. 减肥？减脂？减重？你到底要哪样？&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://ipn.li/taiyilaile/46/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;46. 听了那么多道理，还是睡不好这一觉&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://ipn.li/taiyilaile/52/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;52. 花间一壶酒&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ipn.li/taiyilaile/52/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;52. 花间一壶酒&lt;/a&gt; - 饮酒&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://ipn.li/taiyilaile/54/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;54. 减肥怎么吃？&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://ipn.li/taiyilaile/59/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;59. 关于蛀牙，我们过去想得太简单了&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://ipn.li/taiyilaile/62/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;62. 膳食指南背后的故事&lt;/a&gt;&lt;/li&gt;
@@ -700,11 +678,36 @@ img.fix_height {
 &lt;li&gt;最喜欢的 &lt;a href=&quot;/favourites/#Games-游戏&quot;&gt;游戏&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;最喜欢的 &lt;a href=&quot;/favourites/#Singers-歌手&quot;&gt;歌手&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h1 id=&quot;Notes-笔记&quot;&gt;&lt;a href=&quot;#Notes-笔记&quot; class=&quot;headerlink&quot; title=&quot;Notes 笔记&quot;&gt;&lt;/a&gt;Notes 笔记&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/read/self_control.html&quot;&gt;你的自控能力强么？｜研究：不快乐的人自控力更差&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/meaning.html&quot;&gt;若一辈子没有赚大钱，当大官，和自己爱的人在一起（哪怕一次），活着能算有意义吗？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/poet.html&quot;&gt;眼前的苟且，也正是诗和远方&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/why_unhappy.html&quot;&gt;为什么长大以后反而不容易快乐？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/happiness_course.html&quot;&gt;《 幸福课 》动机在杭州 的知乎专栏&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/chinese_chess.html&quot;&gt;风尘棋客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/pessimist.html&quot;&gt;《 论悲观主义的益处 》阿兰·德·波顿&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/cruel_reality.html&quot;&gt;Loser 应该知道的 6 个残酷人生事实&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/teacher_said.html&quot;&gt;你曾经的老师说过的哪句话印象最为深刻，对你影响较大甚至在十多年或更久之后都记在心里？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/family_accumulation.html&quot;&gt;论底层青年如何逆袭到中上阶层：什么是命？如何革你的命？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/suggestions_for_the_young.html&quot;&gt;70 后和 80 后对于刚刚踏入社会的 90 后毕业生有什么建议？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/excellent_sheep.html&quot;&gt;精致的利己主义者和常青藤的绵羊&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/how_to_study.html&quot;&gt;How to Study: A Brief Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/tooth.html&quot;&gt;牙齿保健&lt;/a&gt; &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt; - 刷牙、蛀牙、智齿&lt;!--- [](/read/.html)--&gt;
+&lt;!--- [](/read/.html)--&gt;
+&lt;!--- [](/read/.html)--&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;More&quot;&gt;&lt;a href=&quot;#More&quot; class=&quot;headerlink&quot; title=&quot;More&quot;&gt;&lt;/a&gt;More&lt;/h2&gt;&lt;p&gt;Here are notes Not Mentioned Above.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/read/how_to_do.html&quot;&gt;做事的方法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/jian_qiu.html&quot;&gt;毽球踩球&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/calorie.html&quot;&gt;减肥每天需要摄入多少卡路里&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
     
     <summary type="html">
     
-      阅读类书签：网站、博客、文章、问答、专栏…
+      阅读类书签：网站、博客、文章、问答、专栏、书籍、播客、微信公众号…
     
     </summary>
     
@@ -1711,10 +1714,10 @@ img.fix_height {
     
     </summary>
     
-      <category term="Command" scheme="http://icehe.me/categories/Command/"/>
+      <category term="Git" scheme="http://icehe.me/categories/Git/"/>
     
     
-      <category term="Command" scheme="http://icehe.me/tags/Command/"/>
+      <category term="Git" scheme="http://icehe.me/tags/Git/"/>
     
   </entry>
   
@@ -2066,7 +2069,7 @@ img.fix_height {
 &lt;p&gt;  &lt;code&gt;^ ⌥ 凵&lt;/code&gt; &lt;a href=&quot;#Activity_Monitor&quot;&gt;Activity Monitor&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;⌥ q&lt;/code&gt; &lt;a href=&quot;#QQ&quot;&gt;QQ&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ w&lt;/code&gt; &lt;a href=&quot;#WeChat&quot;&gt;WeChat&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ e&lt;/code&gt; &lt;a href=&quot;#Mail&quot;&gt;Mail&lt;/a&gt; &lt;!-- Email --&gt;&lt;br&gt;  &lt;code&gt;⌥ r&lt;/code&gt; Chrome&lt;br&gt;  &lt;code&gt;⌥ t&lt;/code&gt; Thunder&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;⌥ a&lt;/code&gt; &lt;a href=&quot;#PyCharm&quot;&gt;PyCharm&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ s&lt;/code&gt; &lt;a href=&quot;#PhpStorm&quot;&gt;PhpStorm&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ d&lt;/code&gt; Dictionary&lt;br&gt;  &lt;code&gt;⌥ f&lt;/code&gt; &lt;a href=&quot;#Finder&quot;&gt;Finder&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ g&lt;/code&gt; Preview&lt;/p&gt;
-&lt;p&gt;  &lt;code&gt;^ ⌥ a&lt;/code&gt; &lt;a href=&quot;#Calendar&quot;&gt;Calendar&lt;/a&gt;&lt;br&gt;  &lt;code&gt;^ ⌥ s&lt;/code&gt; Safari&lt;br&gt;  &lt;code&gt;^ ⌥ d&lt;/code&gt; MacID&lt;br&gt;  &lt;code&gt;^ ⌥ f&lt;/code&gt; Flux&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;^ ⌥ a&lt;/code&gt; &lt;a href=&quot;#Calendar&quot;&gt;Calendar&lt;/a&gt;&lt;br&gt;  &lt;code&gt;^ ⌥ d&lt;/code&gt; MacID&lt;br&gt;  &lt;code&gt;^ ⌥ f&lt;/code&gt; Safari&lt;br&gt;  &lt;code&gt;^ ⌥ l&lt;/code&gt; Flux&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;^ ⌥ x&lt;/code&gt; | &lt;code&gt;凵 x&lt;/code&gt; Sublime Text&lt;br&gt;  &lt;code&gt;^ ⌥ c&lt;/code&gt; | &lt;code&gt;凵 c&lt;/code&gt; &lt;a href=&quot;#Charles&quot;&gt;Charles&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Rg Hand&lt;/p&gt;
