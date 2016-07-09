@@ -176,7 +176,9 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 
 - [长期用耳塞听歌会导致听力下降吗？](https://www.zhihu.com/question/22292248)- 注意音量！
 
-- [如何正确地刷牙？](https://www.zhihu.com/question/19785262)
+- [如何正确地刷牙？](https://www.zhihu.com/question/19785262) <sup>[Best Note](/read/tooth.html)</sup>
+
+- [电动牙刷刷牙相比手动刷牙有什么优缺点？](https://www.zhihu.com/question/19825877/answer/15856166)
 
 - [洗牙到底安全不安全？](https://www.zhihu.com/question/21031894)- 有益，不贵
 
@@ -477,7 +479,7 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 - [70 后和 80 后对于刚刚踏入社会的 90 后毕业生有什么建议？](/read/suggestions_for_the_young.html)
 - [精致的利己主义者和常青藤的绵羊](/read/excellent_sheep.html)
 - [How to Study: A Brief Guide](/read/how_to_study.html)
-- [牙齿保健](/read/tooth.html) - 刷牙、蛀牙、智齿
+- [牙齿保健](/read/tooth.html) <sup>__Best__</sup> - 刷牙、蛀牙、智齿
 <!--- [](/read/.html)-->
 <!--- [](/read/.html)-->
 <!--- [](/read/.html)-->
