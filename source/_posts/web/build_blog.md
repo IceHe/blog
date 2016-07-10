@@ -1,6 +1,6 @@
 title: Bulid Blog 搭建个人博客
 date: 2015-11-14
-updated: 2016-05-29
+updated: 2016-07-10
 show_updated: true
 categories: [Web]
 tags: [Web]
@@ -8,7 +8,7 @@ description: Why初衷、How过程，Hexo建站，Theme主题，Domain Name域�
 ---
 
 - 上一版《 [Why and How to bulid my blog? 搭建我的个人博客](/old_version_posts/Why_and_how_to_build_my_blog.html) 》
-- 2016-05-29 指向 zipperary.com 的外链失效，暂用其它链接替换了，待日后完善。
+- 失效链接已修复，如需帮助，望读者及时反馈。
 
 # Why - 初衷
 
@@ -66,10 +66,10 @@ description: Why初衷、How过程，Hexo建站，Theme主题，Domain Name域�
 
 广泛检索后，参阅了如下教程建站：
 - [使用 GitHub 和 Hexo 搭建免费静态 Blog](https://wsgzao.github.io/post/hexo-guide/)
-- ~~[hexo系列教程：（二）搭建hexo博客](http://zipperary.com/2013/05/28/hexo-guide-2/)~~
-- ~~[hexo系列教程：（三）hexo博客的配置、使用](http://zipperary.com/2013/05/29/hexo-guide-3/)~~
-- ~~[hexo系列教程：（四）hexo博客的优化技巧](http://zipperary.com/2013/05/30/hexo-guide-4/)~~
-- ~~[hexo系列教程：（五）hexo博客的优化技巧续](http://zipperary.com/2013/06/02/hexo-guide-5/)~~
+- [hexo系列教程：（二）搭建hexo博客](http://www.zipperary.com/2013/05/28/hexo-guide-2/)
+- [hexo系列教程：（三）hexo博客的配置、使用](http://www.zipperary.com/2013/05/29/hexo-guide-3/)
+- [hexo系列教程：（四）hexo博客的优化技巧](http://www.zipperary.com/2013/05/30/hexo-guide-4/)
+- [hexo系列教程：（五）hexo博客的优化技巧续](http://www.zipperary.com/2013/06/02/hexo-guide-5/)
 
 其中会提到，下文涉及的“[定制点](#Custom_Points_定制点)”的内容，包含功能模块的具体配置方法。
 
@@ -166,7 +166,7 @@ Hexo官网的文档和API中有theme写法的说明，
 
 域名解析选择国内运营商，有利于提高国内访客的访问速度。
 具体配置过程可参考： [域名和DNS](https://wsgzao.github.io/post/hexo-guide/#%E5%9F%9F%E5%90%8D%E5%92%8CDNS)
-~~[购买域名、设置dns](http://zipperary.com/2013/05/27/domain-name-and-dns/)~~
+[购买域名、设置dns](http://www.zipperary.com/2013/05/27/domain-name-and-dns/)
 
 ### __Sitemap 站点地图 & RSS 订阅__
 
@@ -176,7 +176,7 @@ Hexo官网的文档和API中有theme写法的说明，
 给关注你博客的朋友，提供了订阅功能。
 
 具体配置过程可参考：
-~~[hexo博客的优化技巧续](http://zipperary.com/2013/06/02/hexo-guide-5/)（推荐结合以下内容阅读）~~
+[hexo博客的优化技巧续](http://www.zipperary.com/2013/06/02/hexo-guide-5/)（推荐结合以下内容阅读）
 
 __TODO: 待日后补全细节，暂参考 [RSS 和 sitemap](http://www.jianshu.com/p/bb35e703f9bf)__
 
@@ -273,7 +273,7 @@ css文件、js脚本等也可以放到CDN那里，
 压缩图片到适当大小，优化theme、js脚本的代码……
 在此不赘述。
 
-~~[托管博客到gitcafe](http://zipperary.com/2013/11/23/hexo-to-gitcafe/)~~ 比较便捷。
+~~[托管博客到gitcafe](http://www.zipperary.com/2013/11/23/hexo-to-gitcafe/)~~ 比较便捷。
 
 __TODO: 待日后补全细节，暂参考 [Hexo系列教程之五：hexo博客同时托管在github和coding](http://www.jianshu.com/p/3141cffc1b1b)__
 
