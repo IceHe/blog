@@ -1,6 +1,6 @@
 title: My Read Bookmarks 阅读
 date: 2016-06-17
-updated: 2016-07-13
+updated: 2016-07-17
 show_updated: true
 categories: [read]
 tags: [read]
@@ -381,6 +381,7 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
     - [66. 膝盖考](http://ipn.li/taiyilaile/66/)
     - [67. 补钙是个技术活](http://ipn.li/taiyilaile/67/)
     - [68. 从牙套妹到女神的进化之路](http://ipn.li/taiyilaile/68/)
+    - [74. 拯救你的颈椎，从选购枕头开始](http://ipn.li/taiyilaile/74/)
     - [76. 体检的问题，医生们有时候也会纠结](http://ipn.li/taiyilaile/76/)
     - [87. 激光手术治疗近视，眼科医生怎么看？](http://ipn.li/taiyilaile/87/)
     - [90. 刷牙出血，你别不当回事儿](http://ipn.li/taiyilaile/90/)
