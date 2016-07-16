@@ -1,6 +1,6 @@
 title: My Tools 利器
 date: 2015-11-21
-updated: 2016-06-20
+updated: 2016-07-16
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -469,25 +469,27 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
 以下附带部分个人测评（使用感受）。
 
-- [MacBook Pro Retina 13-inch](http://www.apple.com/cn/shop/buy-mac/macbook-pro?product=MF841CH/A&step=config) <sup>Favourite</sup>
+- [MacBook Pro](http://www.apple.com/cn/shop/buy-mac/macbook-pro?product=MF841CH/A&step=config) Retina 13-inch - 手提电脑 <sup>Favourite</sup>
 
-    i7 - 3.1 GHz / Mem 16 GB / SSD 512 GB，Mac 是软件工程师的最佳工作平台！接近 Unix，稳定、省心。用好了 Windows，才了无牵挂地换了 Mac。
+    i7 - 3.1 GHz / Mem 16 GB / SSD 512 GB ，Mac 是软件工程师的最佳工作平台！
 
-- [Magic Trackpad 2](http://www.apple.com/cn/shop/product/MJ2R2CH/A/magic-trackpad-2?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2)
+    接近 Unix，稳定、省心。用好了 Windows，才了无牵挂地换了 Mac。
+
+- [Magic Trackpad 2](http://www.apple.com/cn/shop/product/MJ2R2CH/A/magic-trackpad-2?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2) - 触摸板
 
     Macbook 自带触摸板的手感已经非常好了，但它还要更胜一筹！第二代比第一代触摸面积大了不少，有三段式压感反馈，手感细腻。
 
     还是嫌它大了点，因为我的 Mac 光标移动速度向来调到最快，基本一次小幅度滑动，光标就到位了，不需要太大的触摸面积。
 
-- [Magic Keyboard](http://www.apple.com/cn/shop/product/MLA22CH/A/magic-keyboard?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2)
+- [Magic Keyboard](http://www.apple.com/cn/shop/product/MLA22CH/A/magic-keyboard?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2) - 键盘
 
-    小巧轻便，比 Macbook（包括 Air/Pro）自带键盘的布局更紧凑合理，手用更小幅度的移动就能触及所有按键，省力；而且键盘也不会太小太紧凑，所以不影响输入精度，很少按错键。
+    （第二代）小巧轻便，比 Macbook（包括 Air/Pro）自带键盘的布局更紧凑合理，手用更小幅度的移动就能触及所有按键，省力；而且键盘也不会太小太紧凑，所以不影响输入精度，很少按错键。
 
     可能你会觉得敲起来手感「绵软」，但作为「键盘党」的我，快捷键奇多且用得频繁，就觉得很舒适、省力，用久了手也不容易疲劳（特别是小指）；用起来也比较安静，不容易打扰到周围的人和自己。
 
     [键程](http://baike.baidu.com/view/1748635.htm) 不会太短，有舒适的反馈感。使用蓝牙 4.0 无线连接，功耗低，而且不用连接线这点，简直是强迫症福音；内置电池，Lighing 接口充电，一次充电续航三周以上，省心。
 
-- [iPhone6 plus](http://www.apple.com/cn/shop/buy-iphone/iphone6) <sup>Favourite</sup>
+- [iPhone6 plus](http://www.apple.com/cn/shop/buy-iphone/iphone6) - 手机 <sup>Favourite</sup>
 
     64GB + [Turquoise Silicone Case](http://www.apple.com/cn/shop/product/MM6D2FE/A/iphone-6s-plus-%E7%A1%85%E8%83%B6%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E4%BA%AE%E7%B2%89%E8%89%B2?fnode=99) ，稳定、流畅、省心、美观，续航不错、屏幕尺寸合适。
 
@@ -497,7 +499,7 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     <s>Rose Gray Leather Case</s> 官方真皮套易氧化变色（显脏），得买深色的。
 
-- [Apple Watch Sport](http://www.apple.com/cn/shop/buy-watch/apple-watch-sport/38-%E6%AF%AB%E7%B1%B3%E6%B7%B1%E7%A9%BA%E7%81%B0%E8%89%B2%E9%93%9D%E9%87%91%E5%B1%9E%E8%A1%A8%E5%A3%B3-%E9%BB%91%E8%89%B2%E8%BF%90%E5%8A%A8%E5%9E%8B%E8%A1%A8%E5%B8%A6?product=MJ2X2CH/A&step=detail)
+- [Apple Watch Sport](http://www.apple.com/cn/shop/buy-watch/apple-watch-sport/38-%E6%AF%AB%E7%B1%B3%E6%B7%B1%E7%A9%BA%E7%81%B0%E8%89%B2%E9%93%9D%E9%87%91%E5%B1%9E%E8%A1%A8%E5%A3%B3-%E9%BB%91%E8%89%B2%E8%BF%90%E5%8A%A8%E5%9E%8B%E8%A1%A8%E5%B8%A6?product=MJ2X2CH/A&step=detail) - 电子表
 
     38mm Space Gray Aluminum Case with Black Sport Band
 
@@ -505,17 +507,17 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     每日运动清况的提示，有利于提醒你多活动筋骨，保持运动习惯，促进健康。方便的计时功能，可结合番茄工作法使用。
 
-- [iPad Air](http://www.apple.com/cn/ipad-air-2/)
+- [iPad Air](http://www.apple.com/cn/ipad-air-2/) - 平板电脑
 
     32GB + [Red Smart Cover](http://www.apple.com/cn/shop/product/MGTM2FE/A/ipad-air-smart-cover-black) + 言外 Involve Leather Bag，多用于阅读技术类书籍，看看动漫、电影、公开课。
 
     结合 Magic Keyboard 使用，满足轻度使用，不用总是带笔记本电脑回住处。
 
-- [Kindle PaperWhite](https://www.amazon.cn/Kindle-Paperwhite%E7%94%B5%E5%AD%90%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A8-300-ppi%E7%94%B5%E5%AD%90%E5%A2%A8%E6%B0%B4%E8%A7%A6%E6%8E%A7%E5%B1%8F-%E5%86%85%E7%BD%AE%E9%98%85%E8%AF%BB%E7%81%AF-%E8%B6%85%E9%95%BF%E7%BB%AD%E8%88%AA/dp/B00QJDOLIO)
+- [Kindle Paperwhite](https://www.amazon.cn/Kindle-Paperwhite%E7%94%B5%E5%AD%90%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A8-300-ppi%E7%94%B5%E5%AD%90%E5%A2%A8%E6%B0%B4%E8%A7%A6%E6%8E%A7%E5%B1%8F-%E5%86%85%E7%BD%AE%E9%98%85%E8%AF%BB%E7%81%AF-%E8%B6%85%E9%95%BF%E7%BB%AD%E8%88%AA/dp/B00QJDOLIO) E-reader - 电子书
 
     \+ [Amazon Onyx Black Leather Cover](https://www.amazon.cn/%E4%BA%9A%E9%A9%AC%E9%80%8AKindle-Paperwhite%E7%9C%9F%E7%9A%AE%E4%BF%9D%E6%8A%A4%E5%A5%97/dp/B008BQH1NO) ，需要长时间看书时，还得用 E-Ink 屏，保护视力。
 
-- [Bose QC20](http://www.bose.cn/product.aspx?cid=1418#1418) <sup>Favourite</sup>
+- [Bose QC20](http://www.bose.cn/product.aspx?cid=1418#1418) - 耳塞 <sup>Favourite</sup>
 
     [QuietComfort® 20 Acoustic Noise Cancelling® headphones — Apple devices](https://www.bose.com/en_us/products/headphones/earphones/quietcomfort-20i-acoustic-noise-cancelling-headphones.html#v=qc20_apple_white)
 
@@ -525,13 +527,13 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     人声不能完全隔绝，但其音量会变得很小；主动降噪时，再稍微播放音乐或白噪音，即可在很大程度上隔绝外部噪音。它帮助我在嘈杂的办公室也能在静谧、专注地做事。虽然它贵，但花得值！
 
-- [AKG K323XS](http://detail.zol.com.cn/microphone/index362788.shtml)
+- [AKG K323XS](http://detail.zol.com.cn/microphone/index362788.shtml) - 耳塞
 
-    低级入门耳塞，好用不贵，坏了不心疼。塞头大小适中（偏小），适合长时间佩戴。在买 QC20 前，时常用它当静音耳塞用。后悔没买带线控版，毕竟通话、控制音量、音频播放会更方便！
+    低级入门的入耳式耳塞，好用不贵，坏了不心疼。塞头大小适中（偏小），适合长时间佩戴。在买 QC20 前，时常用它当静音耳塞用。后悔没买带线控版，毕竟通话、控制音量、音频播放会更方便！
 
     [SQ505](http://www.amazon.com/Technica-ATH-SQ505-Foldable-Dynamic-Headphones/dp/B004Y3KWX4?ie=UTF8&*Version*=1&*entries*=0) 闲置，因为头戴式容易压得耳朵疼，隔音效果也不好；能盖住耳朵隔音效果好的大耳机，一般设备推不动，音效不佳。
 
-- [Sony SRS-X1-V](http://item.jd.com/10132928766.html)
+- [Sony SRS-X1-V](http://item.jd.com/10132928766.html) - 蓝牙音箱 <sup>Favourite</sup>
 
     Bluetooth Wireless Speaker System (Purple)，不打扰别人情况下，尽量用音箱来外放，更舒服自在。
 
@@ -541,21 +543,31 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     音效还不错（对比类似价位的同类产品）；防水，可以在浴室使用。还是一分钱一分货。
 
-- [Côte & Ciel Backpack](http://www.coteetciel.com/en-CN/isar-backpack-black-melange-laptop-bag)
+- [Philips DiamondClean](https://www.amazon.cn/Philips-%E9%A3%9E%E5%88%A9%E6%B5%A6-HX9332-04%E9%92%BB%E7%9F%B3%E4%BA%AE%E7%99%BD%E5%9E%8B%E5%A3%B0%E6%B3%A2%E9%9C%87%E5%8A%A8%E7%89%99%E5%88%B7/dp/B007ZY5GV2/ref=sr_1_6?ie=UTF8&qid=1468507397&sr=8-6&keywords=philips+diamondclean) - 电动牙刷
+
+    Model HX9331/04 ，声波式电动牙刷，确实比手动刷干净多了！
+    -  总结：[电动牙刷刷牙相比手动刷牙有什么优缺点？](https://www.zhihu.com/question/19825877/answer/15856166)
+        - 电动比手动好，各种好（完爆）；
+        - 旋转式的比声波式的刷得干净；
+        - 声波式的比旋转式的磨损小；
+        - 用电动牙刷的话使劲别太大。
+    - My Related Note - [牙齿保健](/read/tooth.html)
+
+- [Côte & Ciel Backpack](http://www.coteetciel.com/en-CN/isar-backpack-black-melange-laptop-bag) - 背包
 
     Isar Eco Yarn / Black Melange ，就是喜欢它特别的外观设计。
 
     即使是小号的包，也还是偏大了，适合高大的人背。而且外形奇特，不容易搭配衣着，比较“挑人”。只是个尼龙材质的包，但价格不便宜，建议先试背，询问亲朋好友的意见后，再购买。
 
-- [小米插线板](http://www.mi.com/powerstrip/)
+- [小米插线板](http://www.mi.com/powerstrip/) - 插座
 
     小巧精致，节省空间又好看，省了不少 USB 充电插头。
 
-- [极路由 1S](http://www.hiwifi.com/j1s-view)
+- [极路由 1S](http://www.hiwifi.com/j1s-view) - 路由器
 
     小巧便宜，设置简单，满足一般的家庭使用。
 
-- [TK-ONIGIRI](http://www.victorsport.com.cn/product_data.php?id=bVjabyTqrMjj666zMjEk67dD4xSyq) <sup>Favourite</sup>
+- [TK-ONIGIRI](http://www.victorsport.com.cn/product_data.php?id=bVjabyTqrMjj666zMjEk67dD4xSyq) - 羽球拍 <sup>Favourite</sup>
 
     Victor Sport 的 Thruster K ONIGIRI 突击鬼斩。
 
