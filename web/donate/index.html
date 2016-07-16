@@ -7,7 +7,7 @@
 
 <meta charset="UTF-8">
 
-<title>实现网站的支付宝打赏功能 | IceHe 何志远</title>
+<title>实现网站的打赏功能 | IceHe 何志远</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 
@@ -16,19 +16,21 @@
 <!-- Open Graph -->
 <meta name="description" content="可用一个简单的表单（form 标签），通过POST一键自动填写「支付宝转账页面」的信息。还有，笔者自定义的“打赏”按钮方案！">
 <meta property="og:type" content="article">
-<meta property="og:title" content="实现网站的支付宝打赏功能">
+<meta property="og:title" content="实现网站的打赏功能">
 <meta property="og:url" content="http://icehe.me/web/donate/index.html">
 <meta property="og:site_name" content="IceHe 何志远">
 <meta property="og:description" content="可用一个简单的表单（form 标签），通过POST一键自动填写「支付宝转账页面」的信息。还有，笔者自定义的“打赏”按钮方案！">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg">
 <meta property="og:image" content="https://www.paypalobjects.com/zh_XC/i/scr/pixel.gif">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg">
-<meta property="og:updated_time" content="2016-01-17T16:00:00.000Z">
+<meta property="og:updated_time" content="2016-07-15T16:00:00.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="实现网站的支付宝打赏功能">
+<meta name="twitter:title" content="实现网站的打赏功能">
 <meta name="twitter:description" content="可用一个简单的表单（form 标签），通过POST一键自动填写「支付宝转账页面」的信息。还有，笔者自定义的“打赏”按钮方案！">
-<meta name="twitter:image" content="https://www.paypalobjects.com/zh_XC/i/scr/pixel.gif">
+<meta name="twitter:image" content="http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg">
 
 <!-- Google Web Master Tool - Meta Tag Verification -->
 <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
@@ -114,7 +116,7 @@
 
     <h1 itemprop="name" class="article-title">
     
-        <a href="/web/donate/" title="实现网站的支付宝打赏功能" itemprop="url" class="article-url">实现网站的支付宝打赏功能</a>
+        <a href="/web/donate/" title="实现网站的打赏功能" itemprop="url" class="article-url">实现网站的打赏功能</a>
     
     </h1>
 
@@ -127,8 +129,8 @@
     <p class="article-data">
     
         <span style="text-decoration: underline;">
-            <time datetime="2016-01-17T16:00:00.000Z" itemprop="dateUpdated">
-                2016-01-18
+            <time datetime="2016-07-15T16:00:00.000Z" itemprop="dateUpdated">
+                2016-07-16
             </time>
         upd</span>
         &nbsp;|&nbsp;
@@ -146,12 +148,109 @@
     <div id="toc" class="toc-article">
         <strong class="toc-title">Contents</strong>
         
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#曲线救国-——-新方法"><span class="toc-text">曲线救国 —— 新方法</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#笔者的自定义的“打赏”按钮"><span class="toc-text">笔者的自定义的“打赏”按钮</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#进阶的-“打赏”-按钮"><span class="toc-text">进阶的 “打赏” 按钮</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#注意"><span class="toc-text">注意</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#扫码打赏"><span class="toc-text">扫码打赏</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#获得二维码"><span class="toc-text">获得二维码</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#微信"><span class="toc-text">微信</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#支付宝"><span class="toc-text">支付宝</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#发布二维码"><span class="toc-text">发布二维码</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#展示二维码"><span class="toc-text">展示二维码</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#上一版原文"><span class="toc-text">上一版原文</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#曲线救国-——-新方法"><span class="toc-text">曲线救国 —— 新方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#笔者的自定义的“打赏”按钮"><span class="toc-text">笔者的自定义的“打赏”按钮</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#进阶的-“打赏”-按钮"><span class="toc-text">进阶的 “打赏” 按钮</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#实际效果"><span class="toc-text">实际效果</span></a></li></ol></li></ol>
         
     </div>
     
-    <p>原来的支付宝钱包有一个实用的功能 「<strong>一键转账</strong>」，使用便捷，且页面看起来专业、正规，令人放心。它对业务站点而言，无疑是个福音。普通博主、站长也常将其用于捐赠和打赏。但支付宝的<a href="http://www.ithome.com/html/it/83096.htm" target="_blank" rel="external"><strong>个人收款主页 停止服务</strong></a>后，支付宝已经无法实现该功能了。</p>
-<h1 id="曲线救国-——-新方法"><a href="#曲线救国-——-新方法" class="headerlink" title="曲线救国 —— 新方法"></a>曲线救国 —— 新方法</h1><p>可以使用一个简单的<strong>表单</strong>（form 标签），通过<strong>POST</strong>一键自动填写「<a href="https://shenghuo.alipay.com/send/payment/fill.htm" target="_blank" rel="external">支付宝转账页面</a>」的信息。方便您的访客、用户转账捐赠、打赏您。</p>
+    <h1 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h1><p>据网友 HaiSheng_Zhai 在本文评论中的反映，并经笔者简单测试后确认：</p>
+<ul>
+<li>下文中，<strong>以表单提交的方式，</strong>方便地<strong>用网页版 支付宝 支付的方法，已经失效。</strong></li>
+<li>以同样方式进行网页版 <strong>PalPay 支付的方法，仍可使用</strong>。</li>
+</ul>
+<h1 id="扫码打赏"><a href="#扫码打赏" class="headerlink" title="扫码打赏"></a>扫码打赏</h1><ul>
+<li>现在，路边摊都懂得将自己的 微信或支付宝 的 付款二维码 打印出来，粘贴到某处，方便顾客自行用扫码支付。</li>
+<li>建议采用<strong>「扫描支付宝、微信的付款二维码进行支付」</strong>的方式来实现打赏，简单易行。</li>
+</ul>
+<h2 id="获得二维码"><a href="#获得二维码" class="headerlink" title="获得二维码"></a>获得二维码</h2><ul>
+<li>将自己 微信或支付宝 的付款二维码 保存下来。</li>
+<li>推荐使用 <strong>微信</strong> 用于打赏支付。<ul>
+<li>因为微信扫码后可直接进入输入金额的环节</li>
+<li>它还有 <code>设置金额</code> 的功能，固定了赏金额之后，访客再扫码，直接进入最后的支付环节，更为便捷。</li>
+<li>反观支付宝，扫码后只是进入了个人页，还要再点击 <code>转账</code> 才能开始支付；</li>
+<li>当然，微信支付的提现服务需要一点点手续费，具体看个人能不能接受这点了。</li>
+</ul>
+</li>
+<li>它们的版本持续更新后，下文中的具体流程和文案可能与实际情况有出入。</li>
+</ul>
+<h3 id="微信"><a href="#微信" class="headerlink" title="微信"></a>微信</h3><ul>
+<li>打开 微信（显示应用首屏）；</li>
+<li>点击 首屏右上角的加号 <code>+</code> ；</li>
+<li>点击 下拉菜单中的 <code>收付款</code> 选项；</li>
+<li>点击 <code>我要收款</code> 按钮；</li>
+<li>长按（iOS的方式）屏幕中央的付款二维码，下方会弹出一个菜单；<ul>
+<li>可选：点击 屏幕右上角的 <code>设置金额</code> ，定死单次打赏的金额；</li>
+</ul>
+</li>
+<li>点击 从下方弹出的菜单中的 <code>保存图片</code> 选项；<ul>
+<li>可选：使用 手机系统的截屏功能，然后再处理截屏图片。</li>
+</ul>
+</li>
+</ul>
+<h3 id="支付宝"><a href="#支付宝" class="headerlink" title="支付宝"></a>支付宝</h3><ul>
+<li>打开 支付宝（显示应用首屏）；</li>
+<li>点击 首屏右上角的加号 <code>+</code> ；</li>
+<li>点击 下拉菜单中的 <code>我的二维码/收款</code> 选项；</li>
+<li>点击 屏幕右上角的三个点 <code>…</code>，下方会弹出一个菜单；</li>
+<li>点击 从下方弹出的菜单中的 <code>保存到相册</code> 选项；<ul>
+<li>可选：菜单中还包含 <code>换个样式</code> 选项，点击它，可简单改变二维码的显示效果。</li>
+</ul>
+</li>
+</ul>
+<h2 id="发布二维码"><a href="#发布二维码" class="headerlink" title="发布二维码"></a>发布二维码</h2><ul>
+<li>使用 <code>Photoshop</code>，或者手机 App <code>美图秀秀</code>、<code>Enlight</code> 等各种工具、方法，编辑二维码图片，打造出自己喜欢的视觉效果，或简洁，或华丽。</li>
+<li>将二维码图片存放到网络上，如 <code>图床</code> 中。<ul>
+<li><strong>方法一</strong>、注册 <a href="http://www.qiniu.com/" target="_blank" rel="external">七牛云存储</a>，把二维码图片存进去，再获得其引用地址。<ul>
+<li>以后可以将您需要在博客展示的图片，都存放到专门的<code>图床</code>（云存储）服务提供商那里，再引用；而非存放到您自己的博客服务器上，因为图床利于加快图片的加载速度。</li>
+<li>还有很多图床，可自行搜索选择。还是推荐 <code>七牛</code>，因为免费空间（10GB）大，方便易用，服务稳定。我只是其忠实用户，并没有收广告费。</li>
+</ul>
+</li>
+<li><strong>方法二</strong>、更简便的方法：把 <a href="http://weibo.com" target="_blank" rel="external">微博</a> 当图床。</li>
+<li>用一条微博将二维码图片发出去；</li>
+<li>在浏览器中，用右键点击微博中的该图片；</li>
+<li>点击右键菜单中的 <code>复制图片链接</code> 选项，就可以获得保存在新浪的二维码图片的网络地址，用于在博客引用图片。</li>
+</ul>
+</li>
+</ul>
+<h2 id="展示二维码"><a href="#展示二维码" class="headerlink" title="展示二维码"></a>展示二维码</h2><ul>
+<li>再在博客中引用，放到合适的位置上，配上合适的文案、排版，引导访客进行打赏。<ul>
+<li>带文章编辑器的博客系统，通常提供便捷的图片插入功能，可以根据具体情况自行操作。</li>
+<li>有些情况需要根据 <code>标记语言</code> 的语法自行输入，如：<ul>
+<li><strong>Markdown 语法</strong>：<code>![图片替代描述](图片的 URL &quot;图片标题&quot;)</code><ul>
+<li>图片替代描述：通常用于图片无法显示的情况，用这段文字内容来描述这张无法显示的图片。可不填。</li>
+<li>图片的 URL：上一步 <code>发布二维码</code> 时，获得的图片链接地址。</li>
+<li>图片标题：鼠标停留在这张图片上时，会悬浮显示的这段文字内容，会显示的文字内容。可不填。</li>
+<li>Markdown 进阶使用详见 <a href="http://www.appinn.com/markdown/#img" target="_blank" rel="external">Markdown 语法说明 (简体中文版)</a>。</li>
+<li>简单实例：<br>  <code>![](http://7vzp68.com1.z0.glb.clouddn.com/about/memorable_00.jpg)</code></li>
+<li>详细实例：<br>  <code>![二维码](http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg &quot;打赏&quot;)</code><br>  <img src="http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg" alt="二维码" title="打赏"></li>
+</ul>
+</li>
+<li><strong>HTML 语法</strong>：<code>&lt;img src=&quot;图片的 URL&quot; alt=&quot;图片替代描述&quot; title=&quot;图片标题&quot; /&gt;</code><ul>
+<li>其中各部分元素的说明，同上一点 <code>Markdown 语法</code> 所述。</li>
+<li>进阶使用详见 <a href="http://w3school.com.cn/tags/tag_img.asp" target="_blank" rel="external">HTML &lt;img&gt; 标签</a>。</li>
+<li>简单实例：<br>  <code>&lt;img src=&quot;http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg&quot;&gt;</code></li>
+<li>详细实例：<br>  <code>&lt;img src=&quot;http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg&quot; alt=&quot;二维码&quot; title=&quot;打赏&quot; /&gt;</code><br>  <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg" alt="二维码" title="打赏"></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>结尾<ul>
+<li>可以看看本博客打赏模块现在的 <a href="/reward/">做法和效果</a>。</li>
+<li>可以尝试打赏博主，看看整个完整的流程~</li>
+<li>经考虑，保留本文的上一版原文，因为以下部分仍有借鉴价值：<ul>
+<li>包含 PayPal 打赏 的实现方法。</li>
+<li>包含 打赏按钮 的实现方法。</li>
+<li><a href="/web/donate/#实际效果">实际效果见原文结尾 : )</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="上一版原文"><a href="#上一版原文" class="headerlink" title="上一版原文"></a>上一版原文</h1><ul>
+<li>原来的支付宝钱包有一个实用的功能 「<strong>一键转账</strong>」，使用便捷，且页面看起来专业、正规，令人放心。它对业务站点而言，无疑是个福音。普通博主、站长也常将其用于捐赠和打赏。但支付宝的<a href="http://www.ithome.com/html/it/83096.htm" target="_blank" rel="external"><strong>个人收款主页 停止服务</strong></a>后，支付宝已经无法实现该功能了。</li>
+</ul>
+<h2 id="曲线救国-——-新方法"><a href="#曲线救国-——-新方法" class="headerlink" title="曲线救国 —— 新方法"></a>曲线救国 —— 新方法</h2><p>可以使用一个简单的<strong>表单</strong>（form 标签），通过<strong>POST</strong>一键自动填写「<a href="https://shenghuo.alipay.com/send/payment/fill.htm" target="_blank" rel="external">支付宝转账页面</a>」的信息。方便您的访客、用户转账捐赠、打赏您。</p>
 <ul>
 <li><strong>HTML 代码</strong></li>
 </ul>
@@ -165,15 +264,15 @@
 <ul>
 <li>Reference 参考资料<br>《<a href="http://www.zzyyss.com/archives/809" target="_blank" rel="external">博客网站支付宝打赏功能</a>》</li>
 </ul>
-<h1 id="笔者的自定义的“打赏”按钮"><a href="#笔者的自定义的“打赏”按钮" class="headerlink" title="笔者的自定义的“打赏”按钮"></a>笔者的自定义的“打赏”按钮</h1><ul>
+<h2 id="笔者的自定义的“打赏”按钮"><a href="#笔者的自定义的“打赏”按钮" class="headerlink" title="笔者的自定义的“打赏”按钮"></a>笔者的自定义的“打赏”按钮</h2><ul>
 <li><strong>HTML 代码</strong>：</li>
 </ul>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 打赏表单 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">id</span>=<span class="string">"donate"</span> <span class="attr">action</span>=<span class="string">"https://shenghuo.alipay.com/send/payment/fill.htm"</span> </span><br><span class="line">	<span class="attr">method</span>=<span class="string">"POST"</span> <span class="attr">target</span>=<span class="string">"_blank"</span> <span class="attr">accept-charset</span>=<span class="string">"GBK"</span> <span class="attr">style</span>=<span class="string">"display: none;"</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"optEmail"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"您的支付宝账号"</span> /&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"payAmount"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"默认的打赏金额"</span> /&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">"title"</span> <span class="attr">name</span>=<span class="string">"title"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"默认显示的付款说明"</span> /&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"memo"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"备注"</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- /打赏表单 --&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 打赏按钮的样式表 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">"text/css"</span>&gt;</span><span class="undefined"></span><br><span class="line">	.donate_bar a.btn_donate&#123;</span><br><span class="line">		display: inline-block;</span><br><span class="line">		width: 82px;</span><br><span class="line">		height: 82px;</span><br><span class="line">		background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;</span><br><span class="line">		_background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat; </span><br><span class="line">	&#125;</span><br><span class="line">	.donate_bar a.btn_donate:hover&#123; background-position: 0px -82px;&#125;</span><br><span class="line">	.donate_bar .donate_txt &#123;</span><br><span class="line">		display: block;</span><br><span class="line">		color: #9d9d9d;</span><br><span class="line">		font: 14px/2 "Microsoft Yahei";</span><br><span class="line">	&#125;</span><br><span class="line"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- /打赏按钮的样式表 --&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 打赏按钮 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"donate_bar"</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"btn_donate"</span> <span class="attr">href</span>=<span class="string">"javascript:;"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span> </span><br><span class="line">		<span class="attr">onclick</span>=<span class="string">"document.getElementById('donate').submit()"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"donate_txt"</span>&gt;</span></span><br><span class="line">		&amp;uarr;<span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line">		If you enjoy the blog,</span><br><span class="line">		please feel free to donate~</span><br><span class="line">		Thx for your support.</span><br><span class="line">	<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"donate_txt"</span>&gt;</span></span><br><span class="line">		若本文对您有帮助，求打赏~ 谢谢您的支持和鼓励。</span><br><span class="line">	<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- /打赏按钮 --&gt;</span></span><br></pre></td></tr></table></figure>
-<h1 id="进阶的-“打赏”-按钮"><a href="#进阶的-“打赏”-按钮" class="headerlink" title="进阶的 “打赏” 按钮"></a>进阶的 “打赏” 按钮</h1><ul>
+<h2 id="进阶的-“打赏”-按钮"><a href="#进阶的-“打赏”-按钮" class="headerlink" title="进阶的 “打赏” 按钮"></a>进阶的 “打赏” 按钮</h2><ul>
 <li>本博客的打赏按钮的实际代码根据需求不断进行调整，最后更新的版本如下：</li>
 </ul>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- Donate Module --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"donate_module"</span>&gt;</span></span><br><span class="line">	<span class="comment">&lt;!-- css --&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">"text/css"</span>&gt;</span><span class="xml"></span><br><span class="line">		.donate_bar a.btn_donate&#123;</span><br><span class="line">			display: inline-block;</span><br><span class="line">			width: 82px;</span><br><span class="line">			height: 82px;</span><br><span class="line">			background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;</span><br><span class="line">			_background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;</span><br><span class="line"></span><br><span class="line">			<span class="comment">&lt;!-- 因为本 hexo 生成的博客所用的 theme 的 a:hover 带动画效果，</span><br><span class="line">				 为了在让打赏按钮显示效果正常 而 添加了以下几行 css，</span><br><span class="line">				 嵌入其它博客时不一定要它们。 --&gt;</span></span><br><span class="line">			-webkit-transition: background 0s;</span><br><span class="line">			-moz-transition: background 0s;</span><br><span class="line">			-o-transition: background 0s;</span><br><span class="line">			-ms-transition: background 0s;</span><br><span class="line">			transition: background 0s;</span><br><span class="line">			<span class="comment">&lt;!-- /让打赏按钮的效果显示正常 而 添加的几行 css 到此结束 --&gt;</span></span><br><span class="line">		&#125;</span><br><span class="line">		.donate_bar a.btn_donate:hover&#123; background-position: 0px -82px;&#125;</span><br><span class="line">		.donate_bar .donate_txt &#123;</span><br><span class="line">			display: block;</span><br><span class="line">			color: #9d9d9d;</span><br><span class="line">			font: 14px/2 "Microsoft Yahei";</span><br><span class="line">		&#125;</span><br><span class="line">		.bold&#123; font-weight: bold; &#125;</span><br><span class="line">	</span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line">	<span class="comment">&lt;!-- /css --&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="comment">&lt;!-- form --&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">form</span> <span class="attr">id</span>=<span class="string">"donate"</span> <span class="attr">action</span>=<span class="string">"https://shenghuo.alipay.com/send/payment/fill.htm"</span> <span class="attr">method</span>=<span class="string">"POST"</span> <span class="attr">target</span>=<span class="string">"_blank"</span> <span class="attr">accept-charset</span>=<span class="string">"GBK"</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"optEmail"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"ice_he@foxmail.com"</span> /&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"payAmount"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"1.00"</span> /&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">"title"</span> <span class="attr">name</span>=<span class="string">"title"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"打赏《&lt;%= item.title.substr(0, 16) %&gt;》"</span>/&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"memo"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"留下您的大名及联系方式(email,blog,etc)，多交流共勉共进："</span> /&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br><span class="line">	<span class="comment">&lt;!-- /form --&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="comment">&lt;!-- btn_donate &amp; tips --&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"donate_board"</span> <span class="attr">class</span>=<span class="string">"donate_bar center"</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">"btn_donate"</span> <span class="attr">class</span>=<span class="string">"btn_donate"</span> <span class="attr">target</span>=<span class="string">"_self"</span> <span class="attr">href</span>=<span class="string">"javascript:;"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"donate_txt"</span>&gt;</span></span><br><span class="line">			&amp;uarr;<span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line">			If you enjoy the article, please feel free to <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"bold"</span>&gt;</span>donate~<span class="tag">&lt;/<span class="name">span</span>&gt;</span> Thx.<span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line">			若本文对您有帮助，<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"bold"</span>&gt;</span>求打赏~<span class="tag">&lt;/<span class="name">span</span>&gt;</span> 谢谢您的鼓励。</span><br><span class="line">		<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">	<span class="comment">&lt;!-- /btn_donate &amp; tips --&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="comment">&lt;!-- donate guide --&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"donate_guide"</span> <span class="attr">class</span>=<span class="string">"donate_bar center hidden"</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"https://www.paypal.com/cgi-bin/webscr"</span> <span class="attr">method</span>=<span class="string">"post"</span> <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">name</span>=<span class="string">"cmd"</span> <span class="attr">value</span>=<span class="string">"_s-xclick"</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">name</span>=<span class="string">"hosted_button_id"</span> <span class="attr">value</span>=<span class="string">"3MPNAMMQA4C8Y"</span>&gt;</span>	&amp;nbsp; &amp;nbsp;</span><br><span class="line">			<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"image"</span> <span class="attr">width</span>=<span class="string">"auto"</span> <span class="attr">height</span>=<span class="string">"40em"</span></span><br><span class="line">				<span class="attr">src</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg"</span></span><br><span class="line">				<span class="attr">border</span>=<span class="string">"0"</span> <span class="attr">name</span>=<span class="string">"submit"</span> <span class="attr">alt</span>=<span class="string">"PayPal——最安全便捷的在线支付方式！"</span></span><br><span class="line">				<span class="attr">style</span>=<span class="string">"margin-bottom: 0.5em;"</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">img</span> <span class="attr">alt</span>=<span class="string">""</span> <span class="attr">border</span>=<span class="string">"0"</span> <span class="attr">width</span>=<span class="string">"1"</span> <span class="attr">height</span>=<span class="string">"1"</span></span><br><span class="line">				<span class="attr">src</span>=<span class="string">"https://www.paypalobjects.com/zh_XC/i/scr/pixel.gif"</span> &gt;</span></span><br><span class="line">		<span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br><span class="line"></span><br><span class="line">		<span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg"</span> <span class="attr">title</span>=<span class="string">"Alipay_Scan_Payment"</span> <span class="attr">class</span>=<span class="string">"fancybox"</span> <span class="attr">rel</span>=<span class="string">"article0"</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span> <span class="attr">height</span>=<span class="string">"164px"</span> <span class="attr">width</span>=<span class="string">"164px"</span>/&gt;</span></span><br><span class="line">		<span class="tag">&lt;/<span class="name">a</span>&gt;</span> &amp;nbsp;</span><br><span class="line"></span><br><span class="line">		<span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg"</span> <span class="attr">title</span>=<span class="string">"Alipay_Scan_Payment"</span> <span class="attr">class</span>=<span class="string">"fancybox"</span> <span class="attr">rel</span>=<span class="string">"article0"</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg"</span> <span class="attr">title</span>=<span class="string">"Thanks 谢谢~"</span> <span class="attr">height</span>=<span class="string">"164px"</span> <span class="attr">width</span>=<span class="string">"164px"</span>/&gt;</span></span><br><span class="line">		<span class="tag">&lt;/<span class="name">a</span>&gt;</span> &amp;nbsp;</span><br><span class="line"></span><br><span class="line">		<span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg"</span> <span class="attr">title</span>=<span class="string">"WeChat_Scan_Payment"</span> <span class="attr">class</span>=<span class="string">"fancybox"</span> <span class="attr">rel</span>=<span class="string">"article0"</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span> <span class="attr">height</span>=<span class="string">"164px"</span> <span class="attr">width</span>=<span class="string">"auto"</span>/&gt;</span></span><br><span class="line">		<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"></span><br><span class="line">		<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"donate_txt"</span>&gt;</span></span><br><span class="line">			Use App <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"bold"</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://global.alipay.com/ospay/home.htm"</span>&gt;</span>Alipay<span class="tag">&lt;/<span class="name">a</span>&gt;</span> / <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://www.wechat.com/en/"</span>&gt;</span>WeChat<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">			to scan QRCode~ Thx for your support.<span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line"></span><br><span class="line">			用手机 <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"bold"</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"https://mobile.alipay.com/index.htm"</span>&gt;</span>支付宝钱包<span class="tag">&lt;/<span class="name">a</span>&gt;</span> / <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://weixin.qq.com/"</span>&gt;</span>微信<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span>，</span><br><span class="line">			扫一扫即可~ 谢谢您的鼓励。<span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line"></span><br><span class="line">			Or donate on <span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">"donate_on_web2"</span> <span class="attr">class</span>=<span class="string">"bold"</span> <span class="attr">href</span>=<span class="string">"javascript:donate_on_web();"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span>&gt;</span>Web Alipay<span class="tag">&lt;/<span class="name">a</span>&gt;</span>. /</span><br><span class="line"></span><br><span class="line">			也可用 <span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">"donate_on_web1"</span> <span class="attr">class</span>=<span class="string">"bold"</span> <span class="attr">href</span>=<span class="string">"javascript:donate_on_web();"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span>&gt;</span>网页版支付宝<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">			打赏。<span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line">		<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">br</span>/&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">	<span class="comment">&lt;!-- /donate guide --&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="comment">&lt;!-- donate script --&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="javascript"></span><br><span class="line">		<span class="built_in">document</span>.getElementById(<span class="string">'btn_donate'</span>).onclick = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">			$(<span class="string">'#donate_board'</span>).addClass(<span class="string">'hidden'</span>);</span><br><span class="line">			$(<span class="string">'#donate_guide'</span>).removeClass(<span class="string">'hidden'</span>);</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		<span class="function"><span class="keyword">function</span> <span class="title">donate_on_web</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">			$(<span class="string">'#donate'</span>).submit();</span><br><span class="line">		&#125;</span><br><span class="line">	</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">	<span class="comment">&lt;!-- /donate script --&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- /Donate Module --&gt;</span></span><br></pre></td></tr></table></figure>
-<ul>
+<h2 id="实际效果"><a href="#实际效果" class="headerlink" title="实际效果"></a>实际效果</h2><ul>
 <li>以下是本博客打赏按钮的<strong>显示效果</strong>，<em>点击可以打赏博主哦~</em></li>
 </ul>
 <p><br></p>
@@ -244,7 +343,7 @@ window.onload = function () {
 
 
 <div class="article-share" id="share">
-    <div data-url="http://icehe.me/web/donate/" data-title="实现网站的支付宝打赏功能 | IceHe 何志远" data-tsina="undefined" class="share clearfix">
+    <div data-url="http://icehe.me/web/donate/" data-title="实现网站的打赏功能 | IceHe 何志远" data-tsina="undefined" class="share clearfix">
     </div>
 </div>
 
@@ -284,7 +383,7 @@ window.onload = function () {
 <section id="comments" class="comment">
     <div class="ds-thread"
          data-thread-key="web/donate/"
-         data-title="实现网站的支付宝打赏功能"
+         data-title="实现网站的打赏功能"
          data-url="http://icehe.me/web/donate/">
     </div>
 </section>
