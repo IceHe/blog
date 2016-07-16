@@ -66,17 +66,19 @@ description: 可用一个简单的表单（form 标签），通过POST一键自�
 - 再在博客中引用，放到合适的位置上，配上合适的文案、排版，引导访客进行打赏。
     - 带文章编辑器的博客系统，通常提供便捷的图片插入功能，可以根据具体情况自行操作。
     - 有些情况需要根据 `标记语言` 的语法自行输入，如：
-        - Markdown 语法：`![图片替代描述](图片的 URL "图片标题")`
+        - __Markdown 语法__：`![图片替代描述](图片的 URL "图片标题")`
             - 图片替代描述：通常用于图片无法显示的情况，用这段文字内容来描述这张无法显示的图片。可不填。
             - 图片的 URL：上一步 `发布二维码` 时，获得的图片链接地址。
             - 图片标题：鼠标停留在这张图片上时，会悬浮显示的这段文字内容，会显示的文字内容。可不填。
+            - Markdown 进阶使用详见 [Markdown 语法说明 (简体中文版)](http://www.appinn.com/markdown/#img)。
             - 简单实例：
                 `![](http://7vzp68.com1.z0.glb.clouddn.com/about/memorable_00.jpg)`
             - 详细实例：
                 `![二维码](http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg "打赏")`
                 ![二维码](http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg "打赏")
-        - HTML 语法：`<img src="图片的 URL" alt="图片替代描述" title="图片标题" />`
+        - __HTML 语法__：`<img src="图片的 URL" alt="图片替代描述" title="图片标题" />`
             - 其中各部分元素的说明，同上一点 `Markdown 语法` 所述。
+            - 进阶使用详见 [HTML &lt;img&gt; 标签](http://w3school.com.cn/tags/tag_img.asp)。
             - 简单实例：
                 `<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg">`
             - 详细实例：
