@@ -1,6 +1,6 @@
 title: My Tools 利器
 date: 2015-11-21
-updated: 2016-07-16
+updated: 2016-07-19
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -543,14 +543,28 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     音效还不错（对比类似价位的同类产品）；防水，可以在浴室使用。还是一分钱一分货。
 
-- [Philips DiamondClean](https://www.amazon.cn/Philips-%E9%A3%9E%E5%88%A9%E6%B5%A6-HX9332-04%E9%92%BB%E7%9F%B3%E4%BA%AE%E7%99%BD%E5%9E%8B%E5%A3%B0%E6%B3%A2%E9%9C%87%E5%8A%A8%E7%89%99%E5%88%B7/dp/B007ZY5GV2/ref=sr_1_6?ie=UTF8&qid=1468507397&sr=8-6&keywords=philips+diamondclean) - 电动牙刷
+- <http://item.jd.hk/1957485171.html#comments-list> <sup>To-Buy</sup>
+    - <http://search.jd.com/Search?keyword=%E7%B4%A2%E5%B0%BC%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA&enc=utf-8&wq=so%20ni%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA&pvid=2i6kgtqi.ip6kfe>
 
-    Model HX9331/04 ，声波式电动牙刷，确实比手动刷干净多了！
-    -  总结：[电动牙刷刷牙相比手动刷牙有什么优缺点？](https://www.zhihu.com/question/19825877/answer/15856166)
+- [Philips Sonicare DiamondClean Sonic Electric Rechargeable Toothbrush](https://www.amazon.com/Philips-Sonicare-DiamondClean-Rechargeable-HX9332/dp/B0052JN7XG/ref=sr_1_1_a_it?ie=UTF8&qid=1468933357&sr=8-1&keywords=hx9332) - 电动牙刷
+
+    Model HX9331/04, White，声波式电动牙刷，确实比手动刷干净多了！（[亚马逊中国](https://www.amazon.cn/Philips-%E9%A3%9E%E5%88%A9%E6%B5%A6-HX9332-04%E9%92%BB%E7%9F%B3%E4%BA%AE%E7%99%BD%E5%9E%8B%E5%A3%B0%E6%B3%A2%E9%9C%87%E5%8A%A8%E7%89%99%E5%88%B7/dp/B007ZY5GV2/ref=sr_1_6?ie=UTF8&qid=1468507397&sr=8-6&keywords=philips+diamondclean)）
+    - [电动牙刷刷牙相比手动刷牙有什么优缺点？](https://www.zhihu.com/question/19825877/answer/15856166)
+    -  总结：
         - 电动比手动好，各种好（完爆）；
         - 旋转式的比声波式的刷得干净；
         - 声波式的比旋转式的磨损小；
         - 用电动牙刷的话使劲别太大。
+    - My Related Note - [牙齿保健](/read/tooth.html)
+
+- [Philips Sonicare Airfloss Ultra](https://www.amazon.com/Philips-Sonicare-HX8332-Airfloss-Ultra/dp/B01AVE8AAG/ref=sr_1_1_a_it?ie=UTF8&qid=1468933177&sr=8-1&keywords=hx8332) - 冲牙器（水牙线）
+
+    Model HX8332/11，待体验。（[京东](http://item.jd.hk/1964052662.html)）
+    - 总结：
+        - [使用牙线有必要性吗？](https://www.zhihu.com/question/20842469/answer/44441538)
+        - 牙齿与牙齿间的缝隙，牙线或冲牙器，才能弄干净；
+        - 需要牙刷 + 牙线结合使用才能全面清洁牙齿。
+        - [清理牙缝哪家强？两款水牙线的主观评测](https://zhuanlan.zhihu.com/p/20475312)
     - My Related Note - [牙齿保健](/read/tooth.html)
 
 - [Côte & Ciel Backpack](http://www.coteetciel.com/en-CN/isar-backpack-black-melange-laptop-bag) - 背包
