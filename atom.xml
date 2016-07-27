@@ -1785,7 +1785,7 @@ img.fix_height {
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
-    <updated>2016-07-04T16:00:00.000Z</updated>
+    <updated>2016-07-26T16:00:00.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;Ref: 《 &lt;a href=&quot;https://support.apple.com/zh-cn/HT201236&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mac 键盘快捷键&lt;/a&gt; 》&lt;/li&gt;
@@ -2066,7 +2066,7 @@ img.fix_height {
 &lt;p&gt;  &lt;code&gt;⌥ y&lt;/code&gt; &lt;a href=&quot;#Typora&quot;&gt;Typora&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ u&lt;/code&gt; &lt;a href=&quot;#EuDict Free&quot;&gt;EuDic Free&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ i&lt;/code&gt; iTunes&lt;br&gt;  &lt;code&gt;⌥ o&lt;/code&gt; ShadowsocksX&lt;br&gt;  &lt;code&gt;⌥ p&lt;/code&gt; AppStore&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;^ ⌥ p&lt;/code&gt; Postman&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;⌥ h&lt;/code&gt; Photos&lt;br&gt;  &lt;code&gt;⌥ k&lt;/code&gt; &lt;a href=&quot;#Karabiner&quot;&gt;Karabiner&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ l&lt;/code&gt; &lt;a href=&quot;#Seil&quot;&gt;Seil&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;  &lt;code&gt;⌥ n&lt;/code&gt; Netease Music&lt;br&gt;  &lt;code&gt;⌥ m&lt;/code&gt; &lt;a href=&quot;#Manico&quot;&gt;Manico&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ ,&lt;/code&gt; Calculator&lt;br&gt;  &lt;code&gt;⌥ .&lt;/code&gt; Login Task&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;⌥ n&lt;/code&gt; Netease Music&lt;br&gt;  &lt;code&gt;⌥ m&lt;/code&gt; &lt;a href=&quot;#Manico&quot;&gt;Manico&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ ,&lt;/code&gt; Numi&lt;br&gt;  &lt;code&gt;⌥ .&lt;/code&gt; Login Task&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;^ ⌥ n&lt;/code&gt; Nozio&lt;br&gt;  &lt;code&gt;^ ⌥ m&lt;/code&gt; Sequel Pro &lt;!-- MySQL Client --&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -3137,7 +3137,7 @@ img.fix_height {
     <link href="http://icehe.me/tools/"/>
     <id>http://icehe.me/tools/</id>
     <published>2015-11-20T16:00:00.000Z</published>
-    <updated>2016-07-18T16:00:00.000Z</updated>
+    <updated>2016-07-26T16:00:00.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://liqi.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;利器 - 创造者和他们的工具&lt;/a&gt; 以及使用的方式和原则。&lt;/li&gt;
@@ -3322,6 +3322,9 @@ img.fix_height {
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.eudic.net/eudic/mac_dictionary.aspx&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;EuDic Free&lt;/a&gt; &lt;sup&gt;Free, Great&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;  欧路词典，Mac 上最好用的第三方词典。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://numi.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Numi&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;  系统默认计算器的替代方案。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://macpaw.com/encrypto&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Encrypto&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;  文件加密、解密软件。为文件和文件夹一个密码，正确方可解密访问。&lt;/p&gt;
