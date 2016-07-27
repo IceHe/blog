@@ -1,6 +1,6 @@
 title: My Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2016-07-05
+updated: 2016-07-27
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -628,7 +628,7 @@ Not Only shortcuts, but also Change Layout of Keyboard!
 
     `⌥ n` Netease Music
     `⌥ m` [Manico](#Manico)
-    `⌥ ,` Calculator
+    `⌥ ,` Numi
     `⌥ .` Login Task
 
     `^ ⌥ n` Nozio

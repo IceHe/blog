@@ -1,6 +1,6 @@
 title: My Tools 利器
 date: 2015-11-21
-updated: 2016-07-19
+updated: 2016-07-27
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -251,6 +251,10 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 - [EuDic Free](http://www.eudic.net/eudic/mac_dictionary.aspx) <sup>Free, Great</sup>
 
     欧路词典，Mac 上最好用的第三方词典。
+
+- [Numi](http://numi.io/)
+
+    系统默认计算器的替代方案。
 
 - [Encrypto](http://macpaw.com/encrypto)
 
