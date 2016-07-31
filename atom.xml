@@ -231,7 +231,7 @@ img.fix_height {
     <link href="http://icehe.me/read/"/>
     <id>http://icehe.me/read/</id>
     <published>2016-06-16T16:00:00.000Z</published>
-    <updated>2016-07-17T16:00:00.000Z</updated>
+    <updated>2016-07-30T16:00:00.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Original Version&lt;/strong&gt;&lt;/p&gt;
@@ -244,6 +244,7 @@ img.fix_height {
 &lt;li&gt;The item with &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&amp;nbsp; implies it is &lt;code&gt;one of the best&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;The item with &lt;sup&gt;Note&lt;/sup&gt;&amp;nbsp; implies it is &lt;code&gt;a link to my related note&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;The item with &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&amp;nbsp; implies it has &lt;code&gt;not been read-through&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The item with &lt;sup&gt;&lt;em&gt;temp&lt;/em&gt;&lt;/sup&gt;&amp;nbsp; implies it might &lt;code&gt;be removed one day&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Sigh&lt;/strong&gt;&lt;br&gt;  过去囫囵吞枣，糟蹋了许多好文章；如今我要一一记下，细细咀嚼回味。&lt;/p&gt;
@@ -658,6 +659,12 @@ img.fix_height {
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.gzhphb.com/item/16/168190.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;吃惑&lt;/a&gt; - 健康饮食、正确健身。&lt;/p&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://chuansong.me/account/knowledgewealth&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;大浪淘沙&lt;/a&gt; &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt; - 专注辟谣，有深度的财经、历史、文学、艺术、科普。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://chuansong.me/n/443267348048&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;多事之秋：从土耳其政变到南海仲裁&lt;/a&gt; &lt;sup&gt;&lt;em&gt;temp&lt;/em&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MjM5NzE2NTY0Ng==&amp;amp;mid=2650672679&amp;amp;idx=1&amp;amp;sn=aa72c26e937580b45df811e0efc957ee&amp;amp;scene=1&amp;amp;srcid=0703iYn1sTVmEdj8qxEMWwfd#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;穷是因为懒、被骗因为笨、女生被性侵因为穿的少——这些“奇葩”思想的根源在哪里？&lt;/a&gt; &lt;sup&gt;&lt;em&gt;temp&lt;/em&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--- PHP开发者 - 伯乐在线旗下帐号--&gt;
 &lt;!--- [KnowYourself](http://chuansong.me/account/knowyourself2015) - 励志心理。--&gt;
@@ -682,10 +689,7 @@ img.fix_height {
 &lt;li&gt;&lt;a href=&quot;/read/suggestions_for_the_young.html&quot;&gt;70 后和 80 后对于刚刚踏入社会的 90 后毕业生有什么建议？&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/read/excellent_sheep.html&quot;&gt;精致的利己主义者和常青藤的绵羊&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/read/how_to_study.html&quot;&gt;How to Study: A Brief Guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/read/tooth.html&quot;&gt;牙齿保健&lt;/a&gt; &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt; - 刷牙、蛀牙、智齿&lt;!--- [](/read/.html)--&gt;
-&lt;!--- [](/read/.html)--&gt;
-&lt;!--- [](/read/.html)--&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read/tooth.html&quot;&gt;牙齿保健&lt;/a&gt; &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt; - 刷牙、蛀牙、智齿&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;More&quot;&gt;&lt;a href=&quot;#More&quot; class=&quot;headerlink&quot; title=&quot;More&quot;&gt;&lt;/a&gt;More&lt;/h2&gt;&lt;p&gt;Here are notes Not Mentioned Above.&lt;/p&gt;
 &lt;ul&gt;
@@ -713,7 +717,7 @@ img.fix_height {
     <link href="http://icehe.me/tech/"/>
     <id>http://icehe.me/tech/</id>
     <published>2016-06-13T16:00:00.000Z</published>
-    <updated>2016-06-18T16:00:00.000Z</updated>
+    <updated>2016-07-30T16:00:00.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Original Version&lt;/strong&gt;&lt;/p&gt;
@@ -725,6 +729,7 @@ img.fix_height {
 &lt;ul&gt;
 &lt;li&gt;The item with &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&amp;nbsp; implies it is &lt;code&gt;one of the best&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;The item with &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&amp;nbsp; implies it has &lt;code&gt;not been read-through&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The item with &lt;sup&gt;&lt;em&gt;temp&lt;/em&gt;&lt;/sup&gt;&amp;nbsp; implies it might &lt;code&gt;be removed one day&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -844,6 +849,8 @@ img.fix_height {
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.quora.com/Text-Editors-What-are-the-main-differences-between-Vim-and-Emacs&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;What are the main differences between Vim and Emacs?&lt;/a&gt; - Vim VS Emacs!&lt;/p&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/36426051&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;有哪些老鸟程序员知道而新手不知道的小技巧？&lt;/a&gt; &lt;sup&gt;&lt;em&gt;temp&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--- [Swagger](http://swagger.io/) - The World&#39;s Most Popular Framework for APIs--&gt;
 &lt;!--- [Bit Twiddling Hacks](http://graphics.stanford.edu/~seander/bithacks.html) - 位计算与操作--&gt;
@@ -925,6 +932,10 @@ img.fix_height {
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MjM5NDMwNjMzNA==&amp;amp;mid=402417924&amp;amp;idx=1&amp;amp;sn=967ecd1fae2f9acb4356607222c94b3b&amp;amp;scene=1&amp;amp;srcid=1230UbcV9DsQeIqLXOuH5QUa#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;千万级规模高性能、高并发的网络架构经验&lt;/a&gt; - 微博平台架构&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/p/20578447&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;谈谈系统设计的面试&lt;/a&gt; - 服务端的扩容、缓存与架构升级（评论更精彩）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://en.m.wikipedia.org/wiki/Service-oriented_architecture&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Service-oriented architecture&lt;/a&gt; &lt;sup&gt;&lt;em&gt;temp&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/19907497&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;支付宝后台架构是怎样的？&lt;/a&gt; &lt;sup&gt;&lt;em&gt;temp&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;Linux&quot;&gt;&lt;a href=&quot;#Linux&quot; class=&quot;headerlink&quot; title=&quot;Linux&quot;&gt;&lt;/a&gt;Linux&lt;/h2&gt;&lt;ul&gt;
@@ -1318,7 +1329,7 @@ img.fix_height {
     <link href="http://icehe.me/cmd/git_note/"/>
     <id>http://icehe.me/cmd/git_note/</id>
     <published>2016-02-14T16:00:00.000Z</published>
-    <updated>2016-06-03T16:00:00.000Z</updated>
+    <updated>2016-07-30T16:00:00.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;Omit the unusual commands at my work.&lt;/li&gt;
@@ -1357,14 +1368,24 @@ img.fix_height {
 &lt;p&gt;  &lt;code&gt;git reset&lt;/code&gt; 取消所有文件的暂存状态（staged，即等待被 commit 的状态）。&lt;br&gt;  &lt;code&gt;git reset HEAD &amp;lt;file_path&amp;gt;&lt;/code&gt; 取消该文件的暂存状态。&lt;br&gt;  &lt;code&gt;git reset &amp;lt;commit_id&amp;gt; &amp;lt;file_path&amp;gt;&lt;/code&gt; 取消该文件的暂存状态，将其 HEAD 指针移到指定 commit_id 的版本。&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Commit 提交&lt;/p&gt;
-&lt;p&gt;  &lt;code&gt;git commit --amend&lt;/code&gt; 上一次提交的内容有误，对其进行补充或更正。&lt;/p&gt;
-&lt;p&gt;  &lt;code&gt;git reset --hard ORIG_HEAD&lt;/code&gt; 成功合并后反悔，回到合并前的状态。&lt;br&gt;  &lt;code&gt;git reset --soft HEAD^&lt;/code&gt; 取消上一次提交，但保留提交后的修改。&lt;br&gt;  &lt;code&gt;git reset --hard HEAD^&lt;/code&gt; 取消上一次提交，不保留提交后的修改。&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;  &lt;code&gt;git cherry-pick &amp;lt;commit_id&amp;gt;&lt;/code&gt; 将另一分支的某一个 commit 的修改，应用到当前的分支来。&lt;br&gt;  当某个分支将要被删除，但其中某些 commit 的修改是有用的，于是将其单独取出来。&lt;br&gt;  &lt;code&gt;git cherry-pick &amp;lt;commit_id&amp;gt; -e&lt;/code&gt; 提交前，需要重新编辑其提交说明。&lt;br&gt;  &lt;code&gt;git cherry-pick &amp;lt;commit_id&amp;gt; -n&lt;/code&gt; 执行 cherry-pick 操作，只为套用该 commit 修改，但不会自动提交。以便在进行一些其它修改后，再一并提交。&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;  &lt;code&gt;git revert commit_id&lt;/code&gt; 撤销某个 commit 的修改（以新建一个提交的方式）。一般在需要撤销的 commit 已经被 push 到远端服务器时，这么做。&lt;/p&gt;
-&lt;p&gt;  如果不慎 revert 了某次 commit 后，又反悔了，想恢复原来的状态，取消刚才的操作：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;遗漏了部分需要提交的变更后，将其补充到上一个提交：&lt;br&gt;&lt;code&gt;git commit --amend&lt;/code&gt; 上一次提交的内容有误，对其进行补充或更正。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;错误合并后，返回合并前的状态：&lt;br&gt;&lt;code&gt;git reset --hard ORIG_HEAD&lt;/code&gt; 成功合并后反悔，回到合并前的状态。&lt;br&gt;&lt;code&gt;git reset --soft HEAD^&lt;/code&gt; 取消上一次提交，但保留提交后的修改。&lt;br&gt;&lt;code&gt;git reset --hard HEAD^&lt;/code&gt; 取消上一次提交，不保留提交后的修改。&lt;/p&gt;
+&lt;p&gt;另一种方式：（未经笔者验证过）&lt;/p&gt;
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ git checkout &amp;lt;merge 操作时所在的分支&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ git reset --hard &amp;lt;merge 前的版本号（其 commit_id）&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;选取部分有用的变更，应用到另一分支上：&lt;br&gt;&lt;code&gt;git cherry-pick &amp;lt;commit_id&amp;gt;&lt;/code&gt; 将另一分支的某一个 commit 的修改，应用到当前的分支来。&lt;/p&gt;
+&lt;p&gt;当某个分支将要被删除，但其中某些 commit 的修改是有用的，于是将其单独取出来。&lt;br&gt;&lt;code&gt;git cherry-pick &amp;lt;commit_id&amp;gt; -e&lt;/code&gt; 提交前，需要重新编辑其提交说明。&lt;br&gt;&lt;code&gt;git cherry-pick &amp;lt;commit_id&amp;gt; -n&lt;/code&gt; 执行 cherry-pick 操作，只为套用该 commit 修改，但不会自动提交。以便在进行一些其它修改后，再一并提交。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;变更已经被提交到远端服务器后，回滚该变更：&lt;br&gt;&lt;code&gt;git revert commit_id&lt;/code&gt; 撤销某个 commit 的修改（以新建一个提交的方式）。一般在需要撤销的 commit 已经被 push 到远端服务器时，需要这么做。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;不慎 revert 了某次 commit 后，又反悔了，想恢复原来的状态，取消刚才的操作：&lt;/p&gt;
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ git reflog                  &lt;span class=&quot;comment&quot;&gt;# 查看 revert 操作的前的 commit 的 id&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ git checkout &amp;lt;commit_id&amp;gt;   &lt;span class=&quot;comment&quot;&gt;# 恢复到 revert 前的 commit 的状态。&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ git reflog                  &lt;span class=&quot;comment&quot;&gt;# 查看 revert 操作的前的 commit 的 id&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ git checkout &amp;lt;commit_id&amp;gt;   &lt;span class=&quot;comment&quot;&gt;# 恢复到 revert 前的 commit 的状态。&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h2 id=&quot;Branch-分支&quot;&gt;&lt;a href=&quot;#Branch-分支&quot; class=&quot;headerlink&quot; title=&quot;Branch 分支&quot;&gt;&lt;/a&gt;Branch 分支&lt;/h2&gt;&lt;p&gt;&lt;code&gt;git branch&lt;/code&gt; 查看分支。&lt;br&gt;&lt;code&gt;git branch &amp;lt;branch_name&amp;gt;&lt;/code&gt; 新建分支。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;git checkout -b &amp;lt;branch_name&amp;gt;&lt;/code&gt; 新建分支，并切换到该分支。&lt;br&gt;&lt;code&gt;git checkout &amp;lt;branch_name&amp;gt;&lt;/code&gt; 切换分支。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;git merge &amp;lt;branch_name&amp;gt;&lt;/code&gt; 将另一分支 &lt;branch_name&gt; 导入到当前分支。&lt;br&gt;&lt;code&gt;git merge --squash &amp;lt;branch_name&amp;gt;&lt;/code&gt; 把另一分支的所有提交合并成一个提交，并导入到当前分支。`&lt;/branch_name&gt;&lt;/p&gt;

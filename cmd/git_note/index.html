@@ -26,7 +26,7 @@
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/git%2Fgit_merge_result_00.png">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/git%2Fgit_rebase_result_00.png">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/git%2Fgit_merge_after_rebase_00.png">
-<meta property="og:updated_time" content="2016-06-03T16:00:00.000Z">
+<meta property="og:updated_time" content="2016-07-30T16:00:00.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git Note">
 <meta name="twitter:description" content="我的 Git 笔记，日常工作曾使用的指令组合。">
@@ -129,8 +129,8 @@
     <p class="article-data">
     
         <i class="fa fa-refresh"></i>
-        <time datetime="2016-06-03T16:00:00.000Z" itemprop="dateUpdated">
-            2016-06-04
+        <time datetime="2016-07-30T16:00:00.000Z" itemprop="dateUpdated">
+            2016-07-31
         </time>
         &nbsp;&nbsp;
     
@@ -191,14 +191,24 @@
 <p>  <code>git reset</code> 取消所有文件的暂存状态（staged，即等待被 commit 的状态）。<br>  <code>git reset HEAD &lt;file_path&gt;</code> 取消该文件的暂存状态。<br>  <code>git reset &lt;commit_id&gt; &lt;file_path&gt;</code> 取消该文件的暂存状态，将其 HEAD 指针移到指定 commit_id 的版本。<br><br></p>
 </li>
 <li><p>Commit 提交</p>
-<p>  <code>git commit --amend</code> 上一次提交的内容有误，对其进行补充或更正。</p>
-<p>  <code>git reset --hard ORIG_HEAD</code> 成功合并后反悔，回到合并前的状态。<br>  <code>git reset --soft HEAD^</code> 取消上一次提交，但保留提交后的修改。<br>  <code>git reset --hard HEAD^</code> 取消上一次提交，不保留提交后的修改。<br><br></p>
-<p>  <code>git cherry-pick &lt;commit_id&gt;</code> 将另一分支的某一个 commit 的修改，应用到当前的分支来。<br>  当某个分支将要被删除，但其中某些 commit 的修改是有用的，于是将其单独取出来。<br>  <code>git cherry-pick &lt;commit_id&gt; -e</code> 提交前，需要重新编辑其提交说明。<br>  <code>git cherry-pick &lt;commit_id&gt; -n</code> 执行 cherry-pick 操作，只为套用该 commit 修改，但不会自动提交。以便在进行一些其它修改后，再一并提交。<br><br></p>
-<p>  <code>git revert commit_id</code> 撤销某个 commit 的修改（以新建一个提交的方式）。一般在需要撤销的 commit 已经被 push 到远端服务器时，这么做。</p>
-<p>  如果不慎 revert 了某次 commit 后，又反悔了，想恢复原来的状态，取消刚才的操作：</p>
+<ol>
+<li><p>遗漏了部分需要提交的变更后，将其补充到上一个提交：<br><code>git commit --amend</code> 上一次提交的内容有误，对其进行补充或更正。</p>
+</li>
+<li><p>错误合并后，返回合并前的状态：<br><code>git reset --hard ORIG_HEAD</code> 成功合并后反悔，回到合并前的状态。<br><code>git reset --soft HEAD^</code> 取消上一次提交，但保留提交后的修改。<br><code>git reset --hard HEAD^</code> 取消上一次提交，不保留提交后的修改。</p>
+<p>另一种方式：（未经笔者验证过）</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git checkout &lt;merge 操作时所在的分支&gt;</span><br><span class="line">$ git reset --hard &lt;merge 前的版本号（其 commit_id）&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>选取部分有用的变更，应用到另一分支上：<br><code>git cherry-pick &lt;commit_id&gt;</code> 将另一分支的某一个 commit 的修改，应用到当前的分支来。</p>
+<p>当某个分支将要被删除，但其中某些 commit 的修改是有用的，于是将其单独取出来。<br><code>git cherry-pick &lt;commit_id&gt; -e</code> 提交前，需要重新编辑其提交说明。<br><code>git cherry-pick &lt;commit_id&gt; -n</code> 执行 cherry-pick 操作，只为套用该 commit 修改，但不会自动提交。以便在进行一些其它修改后，再一并提交。</p>
+</li>
+<li><p>变更已经被提交到远端服务器后，回滚该变更：<br><code>git revert commit_id</code> 撤销某个 commit 的修改（以新建一个提交的方式）。一般在需要撤销的 commit 已经被 push 到远端服务器时，需要这么做。</p>
+</li>
+<li><p>不慎 revert 了某次 commit 后，又反悔了，想恢复原来的状态，取消刚才的操作：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git reflog                  <span class="comment"># 查看 revert 操作的前的 commit 的 id</span></span><br><span class="line">$ git checkout &lt;commit_id&gt;   <span class="comment"># 恢复到 revert 前的 commit 的状态。</span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
 </li>
 </ul>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git reflog                  <span class="comment"># 查看 revert 操作的前的 commit 的 id</span></span><br><span class="line">$ git checkout &lt;commit_id&gt;   <span class="comment"># 恢复到 revert 前的 commit 的状态。</span></span><br></pre></td></tr></table></figure>
 <h2 id="Branch-分支"><a href="#Branch-分支" class="headerlink" title="Branch 分支"></a>Branch 分支</h2><p><code>git branch</code> 查看分支。<br><code>git branch &lt;branch_name&gt;</code> 新建分支。</p>
 <p><code>git checkout -b &lt;branch_name&gt;</code> 新建分支，并切换到该分支。<br><code>git checkout &lt;branch_name&gt;</code> 切换分支。</p>
 <p><code>git merge &lt;branch_name&gt;</code> 将另一分支 <branch_name> 导入到当前分支。<br><code>git merge --squash &lt;branch_name&gt;</code> 把另一分支的所有提交合并成一个提交，并导入到当前分支。`</branch_name></p>
