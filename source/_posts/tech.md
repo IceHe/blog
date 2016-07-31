@@ -1,6 +1,6 @@
 title: My Tech Bookmarks 技术
 date: 2016-06-14
-updated: 2016-06-19
+updated: 2016-07-31
 show_updated: true
 categories: [read]
 tags: [read]
@@ -13,6 +13,7 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 - __Superscript 上标__
     - The item with <sup>__Best__</sup>&nbsp; implies it is `one of the best`.
     - The item with <sup>_todo_</sup>&nbsp; implies it has `not been read-through`.
+    - The item with <sup>_temp_</sup>&nbsp; implies it might `be removed one day`.
 
 ## Online Tools
 
@@ -138,6 +139,8 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 - [What are the main differences between Vim and Emacs?](https://www.quora.com/Text-Editors-What-are-the-main-differences-between-Vim-and-Emacs) - Vim VS Emacs!
 
+- [有哪些老鸟程序员知道而新手不知道的小技巧？](https://www.zhihu.com/question/36426051) <sup>_temp_</sup>
+
 <!--- [Swagger](http://swagger.io/) - The World's Most Popular Framework for APIs-->
 
 <!--- [Bit Twiddling Hacks](http://graphics.stanford.edu/~seander/bithacks.html) - 位计算与操作-->
@@ -226,7 +229,10 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 - [谈谈系统设计的面试](http://zhuanlan.zhihu.com/p/20578447) - 服务端的扩容、缓存与架构升级（评论更精彩）
 
-<!--- [Service-oriented architecture](https://en.m.wikipedia.org/wiki/Service-oriented_architecture) <sup>to read</sup>-->
+- [Service-oriented architecture](https://en.m.wikipedia.org/wiki/Service-oriented_architecture) <sup>_temp_</sup>
+
+- [支付宝后台架构是怎样的？](https://www.zhihu.com/question/19907497) <sup>_temp_</sup>
+
 
 ## Linux
 
