@@ -226,6 +226,8 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 - [谈谈系统设计的面试](http://zhuanlan.zhihu.com/p/20578447) - 服务端的扩容、缓存与架构升级（评论更精彩）
 
+<!--- [Service-oriented architecture](https://en.m.wikipedia.org/wiki/Service-oriented_architecture) <sup>to read</sup>-->
+
 ## Linux
 
 - [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line/blob/master/README.md) <sup>__Best__</sup>
