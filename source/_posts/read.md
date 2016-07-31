@@ -1,6 +1,6 @@
 title: My Read Bookmarks 阅读
 date: 2016-06-17
-updated: 2016-07-18
+updated: 2016-07-31
 show_updated: true
 categories: [read]
 tags: [read]
@@ -14,6 +14,7 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
     - The item with <sup>__Best__</sup>&nbsp; implies it is `one of the best`.
     - The item with <sup>Note</sup>&nbsp; implies it is `a link to my related note`.
     - The item with <sup>_todo_</sup>&nbsp; implies it has `not been read-through`.
+    - The item with <sup>_temp_</sup>&nbsp; implies it might `be removed one day`.
 
 - __Sigh__
     过去囫囵吞枣，糟蹋了许多好文章；如今我要一一记下，细细咀嚼回味。
@@ -457,6 +458,11 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 
 - [吃惑](http://www.gzhphb.com/item/16/168190.html) - 健康饮食、正确健身。
 
+- [大浪淘沙](http://chuansong.me/account/knowledgewealth) <sup>__Best__</sup> - 专注辟谣，有深度的财经、历史、文学、艺术、科普。
+
+    - [多事之秋：从土耳其政变到南海仲裁](http://chuansong.me/n/443267348048) <sup>_temp_</sup>
+    - [穷是因为懒、被骗因为笨、女生被性侵因为穿的少——这些“奇葩”思想的根源在哪里？](http://mp.weixin.qq.com/s?__biz=MjM5NzE2NTY0Ng==&mid=2650672679&idx=1&sn=aa72c26e937580b45df811e0efc957ee&scene=1&srcid=0703iYn1sTVmEdj8qxEMWwfd#rd) <sup>_temp_</sup>
+
 <!--- PHP开发者 - 伯乐在线旗下帐号-->
 
 <!--- [KnowYourself](http://chuansong.me/account/knowyourself2015) - 励志心理。-->
@@ -485,9 +491,6 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 - [精致的利己主义者和常青藤的绵羊](/read/excellent_sheep.html)
 - [How to Study: A Brief Guide](/read/how_to_study.html)
 - [牙齿保健](/read/tooth.html) <sup>__Best__</sup> - 刷牙、蛀牙、智齿
-<!--- [](/read/.html)-->
-<!--- [](/read/.html)-->
-<!--- [](/read/.html)-->
 
 ## More
 
