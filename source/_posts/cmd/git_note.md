@@ -1,6 +1,6 @@
 title: Git Note
 date: 2016-02-15
-updated: 2016-06-04
+updated: 2016-07-31
 show_updated: true
 categories: [Git]
 tags: [Git]
@@ -76,25 +76,35 @@ description: 我的 Git 笔记，日常工作曾使用的指令组合。
 
 - Commit 提交
 
+    1. 遗漏了部分需要提交的变更后，将其补充到上一个提交：
     `git commit --amend` 上一次提交的内容有误，对其进行补充或更正。
 
+    2. 错误合并后，返回合并前的状态：
     `git reset --hard ORIG_HEAD` 成功合并后反悔，回到合并前的状态。
     `git reset --soft HEAD^` 取消上一次提交，但保留提交后的修改。
-    `git reset --hard HEAD^` 取消上一次提交，不保留提交后的修改。<br/><br/>
+    `git reset --hard HEAD^` 取消上一次提交，不保留提交后的修改。
 
+    另一种方式：（未经笔者验证过）
+    ``` sh
+    $ git checkout <merge 操作时所在的分支>
+    $ git reset --hard <merge 前的版本号（其 commit_id）>
+    ```
+
+    3. 选取部分有用的变更，应用到另一分支上：
     `git cherry-pick <commit_id>` 将另一分支的某一个 commit 的修改，应用到当前的分支来。
+
     当某个分支将要被删除，但其中某些 commit 的修改是有用的，于是将其单独取出来。
     `git cherry-pick <commit_id> -e` 提交前，需要重新编辑其提交说明。
-    `git cherry-pick <commit_id> -n` 执行 cherry-pick 操作，只为套用该 commit 修改，但不会自动提交。以便在进行一些其它修改后，再一并提交。<br/><br/>
+    `git cherry-pick <commit_id> -n` 执行 cherry-pick 操作，只为套用该 commit 修改，但不会自动提交。以便在进行一些其它修改后，再一并提交。
 
-    `git revert commit_id` 撤销某个 commit 的修改（以新建一个提交的方式）。一般在需要撤销的 commit 已经被 push 到远端服务器时，这么做。
+    4. 变更已经被提交到远端服务器后，回滚该变更：
+    `git revert commit_id` 撤销某个 commit 的修改（以新建一个提交的方式）。一般在需要撤销的 commit 已经被 push 到远端服务器时，需要这么做。
 
-    如果不慎 revert 了某次 commit 后，又反悔了，想恢复原来的状态，取消刚才的操作：
-
-``` sh
-$ git reflog                  # 查看 revert 操作的前的 commit 的 id
-$ git checkout <commit_id>   # 恢复到 revert 前的 commit 的状态。
-```
+    5. 不慎 revert 了某次 commit 后，又反悔了，想恢复原来的状态，取消刚才的操作：
+    ``` sh
+    $ git reflog                  # 查看 revert 操作的前的 commit 的 id
+    $ git checkout <commit_id>   # 恢复到 revert 前的 commit 的状态。
+    ```
 
 ## Branch 分支
 
