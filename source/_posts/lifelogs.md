@@ -1,6 +1,6 @@
 title: My Life Logs 手帐
 date: 2015-01-22
-updated: 2016-07-04
+updated: 2016-08-01
 show_updated: true
 categories: [time mgt]
 tags: [time mgt]
@@ -59,3 +59,5 @@ description: 个人时间管理日志。
     <sup>May: TopWeibo, new friends.</sup>
 6. [六月：疲累。](/lifelogs/2016/06/index.html) 学 46 动 10 废 4
     <sup>Jun: Tired.</sup>
+7. [七月：迷乱，冲绳。](/lifelogs/2016/07/index.html) 学 38 动 9 废 5
+    <sup>Jul: dizzy, Okinawa.</sup>
