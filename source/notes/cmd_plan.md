@@ -1,5 +1,6 @@
 title: Cmd Plan
 ---
+
 <http://siberiawolf.com/free_programming/index.html#Shell>
 
 <https://www.cheatography.com/citguy/cheat-sheets/nix-users-and-groups/>
@@ -276,3 +277,7 @@ $ find /some/path -type f -iname "*.txt" -exec rm -f {} \;
 # icdiff
 
 有颜色辅助，且分列显示的命令，比 diff 好用多了。
+
+# 列举包含某字符串的文件
+
+find ./ -type f | xargs grep 'www.baidu.com'
