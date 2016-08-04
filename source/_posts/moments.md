@@ -1,7 +1,7 @@
-title: My Moments
+title: My Moments 回忆
 date: 2016-06-28
-updated: 2016-06-28
-show_updated: false
+updated: 2016-08-04
+show_updated: true
 categories: [whoami]
 tags: [whoami]
 description: Good old days. Photos & Memory.
@@ -77,9 +77,17 @@ GLR 「过来人」后改名为「优职英才」，创业是残酷的，那几�
 
 ## 新浪
 
+<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/workplace_00.png" class="fix_width">
+
+在理想国际大厦的工位。
+
 <img src="http://7vzp68.com1.z0.glb.clouddn.com/2016spring/workplace_00.png" class="fix_width">
 
-某段时间的工位。
+在泰鹏大厦的工位。
+
+<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/workplace_01.png" class="fix_width">
+
+新浪总部大楼的新工位~
 
 ## 毽球
 
@@ -95,7 +103,7 @@ GLR 「过来人」后改名为「优职英才」，创业是残酷的，那几�
 <img src="http://7vzp68.com1.z0.glb.clouddn.com/2016spring/champion_02.png" class="fix_width">
 <img src="http://7vzp68.com1.z0.glb.clouddn.com/2016spring/champion_01.png" class="fix_width">
 
-<br/>然而，玩玩没想到，仅仅两个月后的这又一次天津之行，还是同样的队员，发生了同样的剧情，小组第二出线，然而结局却是我们拿到了冠军了！还是因为年轻体力好啊。天津真乃福地。
+<br/>然而，万万没想到，仅仅两个月后的这又一次天津之行，还是同样的队员，发生了同样的剧情，小组第二出线，然而结局却是我们拿到了冠军了！还是因为年轻体力好啊。天津真乃福地。
 
 ## 家
 
@@ -103,9 +111,21 @@ GLR 「过来人」后改名为「优职英才」，创业是残酷的，那几�
 
 书桌。久违的家。
 
+## 2016夏，冲绳
+
+<img src="http://7vzp68.com1.z0.glb.clouddn.com/Okinawa/aquarium_00.png" class="fix_width">
+
+<img src="http://7vzp68.com1.z0.glb.clouddn.com/Okinawa/izakaya_00.png" class="fix_width">
+
+新浪 MAPI 部门团队建设，日本之旅。
+
 ## 文字
 
-可惜还有许多没被相片记录的时刻。
+- 还有许多没被相片记录的时刻，如果都记录了下来那该多好。
+
+- 这些缺失，多少有点让人遗憾，仔细想想，不过是自恋情结罢了。
+
+- 不过，依然想说说自己。
 
 ### 小学
 
@@ -165,7 +185,11 @@ GLR 「过来人」后改名为「优职英才」，创业是残酷的，那几�
 
 - 大四悲喜交加的求职季，难免失意。遇到一个大四前几乎一直虚度而今奋发的同学，没想到是他激励了我，而非那些被当作假想敌的牛人。
 
+- [My Good Old Days](http://290841032.qzone.qq.com/) ( Old memory I wrote )
+
 ### 以后
+
+- 长进太慢，不知不觉，人生已过三分之一。
 
 - 过去的都过去了，要往前看。
 
