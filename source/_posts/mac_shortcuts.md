@@ -1,6 +1,6 @@
 title: My Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2016-07-27
+updated: 2016-08-04
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -139,6 +139,8 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
     `F1` Desktop
 
 - Window
+
+    __<code>⌘ \`</code> Switch windows of the current App__
 
     `⌘ ^ f` Full Screen | Revert
     `⌘ ,` Preferences
@@ -605,6 +607,7 @@ Not Only shortcuts, but also Change Layout of Keyboard!
     `⌥ g` Preview
 
     `^ ⌥ a` [Calendar](#Calendar)
+    `^ ⌥ s` Postman
     `^ ⌥ d` MacID
     `^ ⌥ f` Safari
     `^ ⌥ l` Flux
@@ -619,8 +622,6 @@ Not Only shortcuts, but also Change Layout of Keyboard!
     `⌥ i` iTunes
     `⌥ o` ShadowsocksX
     `⌥ p` AppStore
-
-    `^ ⌥ p` Postman
 
     `⌥ h` Photos
     `⌥ k` [Karabiner](#Karabiner)
