@@ -1,6 +1,6 @@
 title: Me 我
 date: 2015-01-20
-updated: 2016-06-09
+updated: 2016-08-04
 show_updated: true
 categories: [whoami]
 tags: [whoami]
@@ -46,7 +46,7 @@ toc: false
 
 ---
 
-<div class="center"><sub>图片“毫无 PS 痕迹”，但仅供参考，😰 请您以实物为准。</sub></div> <div class="center"><sub>__Warning__: The pictures are for reference only!</sub></div>  <div class="center"> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_00.jpg" class="pic_styl" style="margin-left: 0px" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_01a.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_08.png" class="pic_styl" /> </div> <div class="center"> <img id="qr_code" src="http://7vzp68.com1.z0.glb.clouddn.com/about_original/qrcode_00.jpg" class="hidden" /> </div> <div class="center"> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_03a.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_05.png" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_06.png" class="pic_styl" /> </div>
+<div class="center"><sub>__Warning__: The pictures are for reference only!</sub></div> <div class="center"><sub>图片“毫无 PS 痕迹”，但仅供参考，😰 请您以实物为准。</sub></div> <div class="center"> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_00.jpg" class="pic_styl" style="margin-left: 0px" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_01a.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_08.png" class="pic_styl" /> </div> <div class="center"> <img id="qr_code" src="http://7vzp68.com1.z0.glb.clouddn.com/about_original/qrcode_00.jpg" class="hidden" /> </div> <div class="center"> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_03a.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_05.png" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_06.png" class="pic_styl" /> </div><div class="center"><sub>__[My Moments 回忆](/moments/)__</sub></div>
 
 <style type="text/css">.key_pos{position: absolute; right: 75%; text-align: left;} .val_pos{position: absolute; left: 27%;} .red{color: gray;} article img.pic_styl{height: 140px; width: auto; margin-right: 10px;}</style>
 
