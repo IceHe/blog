@@ -323,6 +323,10 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 - [腾讯，竞争力和用户体验](http://coolshell.cn/articles/5901.html)
 
+- [如何看待滴滴收购 Uber 中国？](https://www.zhihu.com/question/48745473) <sup>_temp_</sup>
+
+- [Facebook 广告系统比谷歌先进在哪里？](https://www.zhihu.com/question/29847912/answer/101025439?utm_campaign=weekly225&utm_source=weekly-digest&utm_medium=email) <sup>_temp_</sup>
+
 ## Management
 
 - [开发团队的效率](http://coolshell.cn/articles/11656.html)
