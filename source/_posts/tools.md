@@ -42,14 +42,6 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     用 Inspect Element 等 Develop Tools 做 Web 的开发、调试，远胜 FireFox 的 Firebug。
 
-- [Squirrel](http://rime.im/) <sup>Best</sup>
-
-    鼠须管输入法，稳定、流畅、开源，个人可定制性极高。是 Rime 中州韵输入法的 Mac 发行版。
-
-    - iFanr 爱范儿的推荐 《 [鼠须管，“神级”输入法](http://www.ifanr.com/156409) 》
-    - 配置教程 《 [Rime 输入法 — 鼠须管（Squirrel）词库添加及配置](http://www.jianshu.com/p/cffc0ea094a7) 》
-    - 我自定义的 [Rime 配置](https://github.com/IceHe/Rime)、 [Dictionaries 词库](https://github.com/IceHe/dictionaries)
-
 - [Typora](http://www.typora.io) <sup>Elegant</sup>
 
     Markdown 编辑器，所见即所得。国人制作，完全免费，支持 Mac、Windows！
@@ -61,6 +53,18 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
     一开始用 [Doit.im](http://doit.im/cn/) 入门，Web 端的操作很极致高效，但移动端 App 不尽如人意。后来发现自己的生活很规律，无需复杂的管理，于是只用 Apple 自带的 Calendar。曾考虑过团队协作类的 App，如 [Worktile](https://worktile.com/)，可是它们的平台太重量级，不够简便易用，徒增无谓的操作。
 
     现在，又开始用免费版 WunderList 了，任务管理的操作远不如 Web 端的 Doit.im 极致，但是 iOS、Mac 上的 客户端做得不错。各花入各眼，满足个人需求最重要。
+
+- [Squirrel](http://rime.im/)
+
+    鼠须管输入法，稳定、流畅、开源，个人可定制性极高。是 Rime 中州韵输入法的 Mac 发行版。
+
+    折腾一番后，个人定制出来的输入法，从界面到操作细节都能很好地贴合个人习惯！
+    但是，词句齐全的成熟本地词库不多，以及云输入（在线匹配新词的功能）的缺失，输入生词时诸多不便。
+    所以，使用 Rime 几个月后，还是回归我惯用的 [百度输入法](https://shurufa.baidu.com/)（我手机输入法也用百度的）。
+
+    - iFanr 爱范儿的推荐 《 [鼠须管，“神级”输入法](http://www.ifanr.com/156409) 》
+    - 配置教程 《 [Rime 输入法 — 鼠须管（Squirrel）词库添加及配置](http://www.jianshu.com/p/cffc0ea094a7) 》
+    - 我自定义的 [Rime 配置](https://github.com/IceHe/Rime)、 [Dictionaries 词库](https://github.com/IceHe/dictionaries)
 
 ## Develop
 
