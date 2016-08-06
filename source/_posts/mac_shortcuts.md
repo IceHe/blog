@@ -503,6 +503,16 @@ _Most Keys are Same as Vim , Just List my Custom Keys._
     `⇥` Sort By
     `num` Select
 
+- Baidu Input <sup>__I use__</sup>
+
+    `^ t` [ Simple | Traditional ] Chinese Characters
+    __`^ .` [ Chinese | English ] Punctuation Marks__
+    __`⇧ 凵` [ 全角 | 半角 ] Punctuation Mark Types__
+    `^ p` [ 全拼 | 双拼 ] Chinese Input Modes
+
+    __`⌥ ⇧ B` Emoji & Symbols__
+    __`⌥ ⇧ 凵` Add a space between Chinese & English__
+
 -  Squirrel (Rime Input)
 
     __`^ ⇧ 1` | `^ ⇧ !`  [ Half | Full ] Shape Punctuations__
@@ -520,11 +530,6 @@ _Most Keys are Same as Vim , Just List my Custom Keys._
 
     `⌃ u` | `⌃ [` Escape
     `^ k` | `⇧ ⌫` Rm the selected Candidate phrase from user dict
-
-- ~~Baidu Input~~
-
-    ~~`^ t` [ Simple | Traditional  ] Chinese Characters~~
-    ~~`^ .` [ Chinese | English  ] Punctuation Marks~~
 
 # iTerm2
 
@@ -1041,7 +1046,7 @@ __VimFX is a Firefox Extension.__
     `X` Reopen Last Closed Tab
 
     `^ x` List of Last Closed Tabs of Tabs
-    `^ p` Pin / Unpin
+    `^ i` Pin / Unpin
 
 - Scroll
 
