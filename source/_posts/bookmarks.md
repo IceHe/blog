@@ -17,7 +17,7 @@ description: 本博客的导航页。
 ### [Read](/categories/read)
 ---
 
-- Bookmarks 书签 <sup>this page</sup>
+- Blog Bookmarks 博客书签 <sup>this page</sup>
 - [Technology Bookmarks 技术书签](/tech)
 - [Reading Bookmarks 阅读书签](/read)
 - [Favourites 喜好](/favourites)
