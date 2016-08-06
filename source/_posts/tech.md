@@ -1,4 +1,4 @@
-title: My Tech Bookmarks 技术
+title: Technology Bookmarks 技术类书签
 date: 2016-06-14
 updated: 2016-07-31
 show_updated: true

@@ -1,4 +1,4 @@
-title: My Read Bookmarks 阅读
+title: Reading Bookmarks 阅读类书签
 date: 2016-06-17
 updated: 2016-07-31
 show_updated: true

@@ -1,4 +1,4 @@
-title: My Resume 何志远
+title: Resume 何志远
 date: 2015-01-24
 updated: 2016-06-15
 show_updated: true

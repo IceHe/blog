@@ -1,4 +1,4 @@
-title: My Favourites 喜好
+title: Favourites 喜好
 date: 2015-11-19
 updated: 2016-07-04
 show_updated: true

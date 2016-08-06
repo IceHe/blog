@@ -1,4 +1,4 @@
-title: My Mac Shortcuts 快捷键
+title: Mac Shortcuts 快捷键
 date: 2016-01-06
 updated: 2016-08-06
 show_updated: true
