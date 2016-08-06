@@ -67,6 +67,8 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 
 - [苦难有什么价值？](https://www.zhihu.com/question/19988077)- 无谓的苦难
 
+- [你有什么道理后悔没有早点知道？](https://www.zhihu.com/question/23819007) <sup>_temp_</sup>
+
 <!--- [我们这一代人的困惑](http://mp.weixin.qq.com/s?__biz=MzA3OTQ4NDkxOA==&amp;mid=202075659&amp;idx=1&amp;sn=350db3032e8f3dca423ba6b93935e33a&amp;scene=0#rd) - 大部分人的梦想永远都实现不了-->
 
 <!--- [马云的缺陷是什么？](https://www.zhihu.com/question/35670576/answer/64989492) - 当年阿里巴巴的「十八罗汉」甘愿跟着马云，并不只是因为马云能打鸡血、“忽悠”……-->
@@ -154,6 +156,8 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 - [面对未知，如何能够免于恐惧？](http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;mid=402827389&amp;idx=1&amp;sn=f6d26aacd8237df903e63a5012524b39&amp;scene=1&amp;srcid=0402ORLMG19eomT4kOhKNmEk#rd)- 比起不确定的答案，我们宁可要一个坏答案。要悦纳不确定。
 
 - [学术方面该如何评价哈耶克？](https://www.zhihu.com/question/20139880)- 公正的游戏规则
+
+- [我们不要那么高尚，好不好？](https://zhuanlan.zhihu.com/p/21731126)- 结合评论更精彩 <sup>_temp_</sup>
 
 - [个人成长理论、工具](http://blog.hiddenwangcc.com/sharewithu) - 可供参考
 
