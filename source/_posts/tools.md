@@ -11,6 +11,11 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 - [少数派](http://sspai.com/) - 高质量 App 推荐媒体，关于 iOS、Mac、硬件。
 - [一日一技](http://sspai.com/tag/%E4%B8%80%E6%97%A5%E4%B8%80%E6%8A%80/?page=1) & [MacTips](http://zhuanlan.zhihu.com/MacTips) - Mac 使用经验和技巧。
 - 除最后一小节，其它均为Mac平台下的软件。
+- __Superscript 上标__
+    - The item with <sup>__Best__</sup>&nbsp; implies it is `one of the best`.
+    <!--- The item with <sup>Note</sup>&nbsp; implies it is `a link to my related note`.-->
+    <!--- The item with <sup>_todo_</sup>&nbsp; implies it has `not been read-through`.-->
+    - The item with <sup>_temp_</sup>&nbsp; implies it might `be removed one day`.
 
 # Software
 
@@ -168,6 +173,12 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     键盘码查询。不用查表，直接击键，即得出其键盘码。
 
+- [OpenEmu](http://openemu.org/)
+
+    游戏机模拟器！可以模拟众多的旧时代的游戏主机！
+
+    我又可以方便地玩我最喜欢的 NDS 游戏《最终幻想战略版 A2》啦！
+
 ## System Tools
 
 - [ShawdowsocksX](http://macappstore.org/shadowsocksx/)
@@ -273,6 +284,12 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
     白噪音应用。模拟大自然的声音，屏蔽其它噪音干扰，帮助保持专注，提高效率，放松睡眠。
 
     音乐听久了也累，有时戴个 3M 降噪耳塞，纯粹安静地工作就很专注、舒服，其实毋需白噪音。
+
+- [Quick Look plugins Awesome](https://github.com/sindresorhus/quick-look-plugins)
+
+    在 Finder 浏览时，选中文件，再按空格键便可以使用 macOS 提供的简单预览。
+
+    该 Github 仓库提供针对各种类型文件的更强大的预览功能的插件。
 
 ## 好但没派上用场
 
@@ -603,7 +620,6 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 <!--- [背包 Everlane | The Modern Snap Backpack](https://www.everlane.com/collections/mens-backpacks-bags/products/mens-modern-snap-backpack-navy)-->
 <!--- [Jabra ROX 无线耳塞](http://www.jabra.cn/music/jabra-rox-wireless)-->
 <!--- [Wireless Bluetooth Earbuds | JaybirdSport](http://www.jaybirdsport.com/x2-bluetooth-headphones/)-->
-<!--- []()-->
 
 <style type="text/css">
 article .article-content ul li p:first-child {
