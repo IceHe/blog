@@ -1,6 +1,6 @@
 title: My Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2016-08-04
+updated: 2016-08-06
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -243,6 +243,47 @@ __`⌘ ⌥ q` Quit the select Process__
 
 __`⌥ F12` Mac Stays Awake__
 __`^ ⌥ F12` Allow Mac to Sleep__
+
+# Atom
+
+- View
+
+    __`⌘ ⇧ P` Toggle Command Palette__ ( Find shortcuts )
+    `⌘ \` Toggle Tree View
+
+- File
+
+    __`^ ⇧ C` Copy Path__
+    __`^ ⇧ L` Select Grammar__
+    __`^ ⇧ U` Select Encoding__
+
+    `⌘ ⇧ O` Open Project Folder
+    `⌘ ⇧ T` Reopen Last Item
+
+- Edit
+
+    __`⌘ ]` Indent__
+    __`⌘ [` Outdent__
+
+- Find
+
+    __`⌘ F` Find in Buffer__
+    __`⌘ ⌥ F` Replace in Buffer__
+
+    __`⌘ B` Find Buffer__
+    __`⌘ P` Find File__
+    __`⌘ ⇧ B` Find Modified File__
+
+- Select
+
+    __`⌘ D` Select Next__
+    __`⌘ ^ G` Select All__
+
+- Package
+
+    __`^ ⇧ M` Markdown Preview__
+    __`⌘ ⌥ .` Close Tag ( HTML )__
+
 
 # Bartender 2
 
@@ -612,7 +653,7 @@ Not Only shortcuts, but also Change Layout of Keyboard!
     `^ ⌥ f` Safari
     `^ ⌥ l` Flux
 
-    `^ ⌥ x` | `凵 x` Sublime Text
+    `^ ⌥ u` | `凵 x` Atom
     `^ ⌥ c` | `凵 c` [Charles](#Charles)
 
 - Rg Hand
@@ -622,6 +663,9 @@ Not Only shortcuts, but also Change Layout of Keyboard!
     `⌥ i` iTunes
     `⌥ o` ShadowsocksX
     `⌥ p` AppStore
+
+    `^ ⌥ u` Sublime Text
+    `^ ⌥ i` Visual Studio Code
 
     `⌥ h` Photos
     `⌥ k` [Karabiner](#Karabiner)
