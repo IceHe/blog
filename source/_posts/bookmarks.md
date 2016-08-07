@@ -1,6 +1,6 @@
 title: Blog Bookmarks 博客书签
 date: 2015-12-20
-updated: 2016-08-06
+updated: 2016-08-07
 show_updated: true
 categories: [read]
 tags: [read]
@@ -25,7 +25,8 @@ description: 本博客的导航页。
 ### [Think](/categories/think)
 ---
 
-- [2016 Summer](/think/2016_summer)
+- [Life Manual 生活指北](/think/life_manual) <sup>__New!__</sup>
+- [2016 Summer](/think/2016_summer) <sup>__New!__</sup>
 - [Bye 2015](/think/bye2015)
 
 ### [Web](/categories/Web)
