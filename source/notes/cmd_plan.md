@@ -1,6 +1,8 @@
 title: Cmd Plan
 ---
 
+<http://www.cnblogs.com/kluan/p/4458278.html> du -m --max-depth=1
+
 <http://siberiawolf.com/free_programming/index.html#Shell>
 
 <https://www.cheatography.com/citguy/cheat-sheets/nix-users-and-groups/>
