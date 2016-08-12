@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://icehe.me/"/>
-  <updated>2016-08-07T16:00:00.000Z</updated>
+  <updated>2016-08-11T16:00:00.000Z</updated>
   <id>http://icehe.me/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://icehe.me/think/life_manual/"/>
     <id>http://icehe.me/think/life_manual/</id>
     <published>2016-08-06T16:00:00.000Z</published>
-    <updated>2016-08-07T16:00:00.000Z</updated>
+    <updated>2016-08-11T16:00:00.000Z</updated>
     
     <content type="html">&lt;h1 id=&quot;Self-Help-List&quot;&gt;&lt;a href=&quot;#Self-Help-List&quot; class=&quot;headerlink&quot; title=&quot;Self-Help List&quot;&gt;&lt;/a&gt;Self-Help List&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -101,6 +101,12 @@
 &lt;li&gt;但是更可能提高了“实际”「时间利用率」！&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;装瓶子：石头、沙子、水&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;瓶子放进了石头还能塞沙子，甚至还能再灌些水。&lt;/li&gt;
+&lt;li&gt;但放的顺序一错，石头就再也放不进去了。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;实践最高！80% 时间做事&lt;/p&gt;
@@ -1915,15 +1921,19 @@ img.fix_height {
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
-    <updated>2016-08-05T16:00:00.000Z</updated>
+    <updated>2016-08-11T16:00:00.000Z</updated>
     
     <content type="html">&lt;ul&gt;
-&lt;li&gt;Ref: 《 &lt;a href=&quot;https://support.apple.com/zh-cn/HT201236&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mac 键盘快捷键&lt;/a&gt; 》&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Here are the Mac shortcuts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the default ones that I use most frequently&lt;/li&gt;
+&lt;li&gt;all my custom ones.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&quot;Explanation&quot;&gt;&lt;a href=&quot;#Explanation&quot; class=&quot;headerlink&quot; title=&quot;Explanation&quot;&gt;&lt;/a&gt;Explanation&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;Include the most frequent-used &lt;strong&gt;default&lt;/strong&gt; shortcuts and all my &lt;strong&gt;custom&lt;/strong&gt; ones.&lt;/li&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ref: 《 &lt;a href=&quot;https://support.apple.com/zh-cn/HT201236&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mac 键盘快捷键&lt;/a&gt; 》&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;Key-Symbols&quot;&gt;&lt;a href=&quot;#Key-Symbols&quot; class=&quot;headerlink&quot; title=&quot;Key Symbols&quot;&gt;&lt;/a&gt;Key Symbols&lt;/h2&gt;&lt;p&gt;&lt;code&gt;&lt;/code&gt; Power&lt;br&gt;&lt;code&gt;⌘&lt;/code&gt; Command ( Cmd )&lt;br&gt;&lt;code&gt;⌥&lt;/code&gt; Option | Alt ( on Windows )&lt;br&gt;&lt;code&gt;^&lt;/code&gt; Control ( Ctrl )&lt;br&gt;&lt;code&gt;⇧&lt;/code&gt; Shift ( Shf )&lt;br&gt;&lt;code&gt;⇪&lt;/code&gt; CapsLock&lt;br&gt;&lt;code&gt;⇥&lt;/code&gt; Tab&lt;br&gt;&lt;code&gt;⎋&lt;/code&gt; Escape ( Esc )&lt;br&gt;&lt;code&gt;↩&lt;/code&gt; Return ( Ret ) | Enter ( on Windows )&lt;br&gt;&lt;code&gt;凵&lt;/code&gt; Space&lt;/p&gt;
+&lt;h1 id=&quot;Explanation&quot;&gt;&lt;a href=&quot;#Explanation&quot; class=&quot;headerlink&quot; title=&quot;Explanation&quot;&gt;&lt;/a&gt;Explanation&lt;/h1&gt;&lt;h2 id=&quot;Key-Symbols&quot;&gt;&lt;a href=&quot;#Key-Symbols&quot; class=&quot;headerlink&quot; title=&quot;Key Symbols&quot;&gt;&lt;/a&gt;Key Symbols&lt;/h2&gt;&lt;p&gt;&lt;code&gt;&lt;/code&gt; Power&lt;br&gt;&lt;code&gt;⌘&lt;/code&gt; Command ( Cmd )&lt;br&gt;&lt;code&gt;⌥&lt;/code&gt; Option | Alt ( on Windows )&lt;br&gt;&lt;code&gt;^&lt;/code&gt; Control ( Ctrl )&lt;br&gt;&lt;code&gt;⇧&lt;/code&gt; Shift ( Shf )&lt;br&gt;&lt;code&gt;⇪&lt;/code&gt; CapsLock&lt;br&gt;&lt;code&gt;⇥&lt;/code&gt; Tab&lt;br&gt;&lt;code&gt;⎋&lt;/code&gt; Escape ( Esc )&lt;br&gt;&lt;code&gt;↩&lt;/code&gt; Return ( Ret ) | Enter ( on Windows )&lt;br&gt;&lt;code&gt;凵&lt;/code&gt; Space&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;↑&lt;/code&gt; Up&lt;br&gt;&lt;code&gt;↓&lt;/code&gt; Down ( Dn )&lt;br&gt;&lt;code&gt;←&lt;/code&gt; Left ( Lf )&lt;br&gt;&lt;code&gt;→&lt;/code&gt; Right ( Rg )&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;⌫&lt;/code&gt; Delete ( Del ) | Backspace ( on Windows )&lt;br&gt;&lt;code&gt;Num&lt;/code&gt; Digits: 0 ~ 9&lt;br&gt;&lt;code&gt;Letter&lt;/code&gt; Alphabet: a ~ z&lt;/p&gt;
 &lt;h2 id=&quot;Abbreviations&quot;&gt;&lt;a href=&quot;#Abbreviations&quot; class=&quot;headerlink&quot; title=&quot;Abbreviations&quot;&gt;&lt;/a&gt;Abbreviations&lt;/h2&gt;&lt;ul&gt;
@@ -1972,7 +1982,7 @@ img.fix_height {
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Dock &amp;amp; Menubar &amp;amp; Sidebar&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;F12&lt;/code&gt; Notification Center&lt;br&gt;  &lt;code&gt;^ F12&lt;/code&gt; Do Not Disturb On/Off&lt;br&gt;  &lt;code&gt;⌘ ⌥ d&lt;/code&gt; Dock Hiding On/Off&lt;/p&gt;
-&lt;p&gt;  &lt;strong&gt;&lt;code&gt;⌥ c&lt;/code&gt; Focus to Dock&lt;/strong&gt; &lt;!-- under Dock --&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌥ v&lt;/code&gt; Focus to Menu Bar&lt;/strong&gt; &lt;!-- under menubaR --&gt;&lt;/p&gt;
+&lt;p&gt;  &lt;strong&gt;&lt;code&gt;^ ⌥ 凵&lt;/code&gt; Focus to Dock&lt;/strong&gt; &lt;!-- under Dock --&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌥ v&lt;/code&gt; Focus to Menu Bar&lt;/strong&gt; &lt;!-- under menubaR --&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Space&lt;/p&gt;
 &lt;p&gt;  &lt;strong&gt;&lt;code&gt;^ ↑&lt;/code&gt; Mission Control&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;^ ↓&lt;/code&gt; App Windows&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;^ ←&lt;/code&gt; Prev Space&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;^ →&lt;/code&gt; Next Space&lt;/strong&gt;&lt;/p&gt;
@@ -2025,6 +2035,12 @@ img.fix_height {
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h1 id=&quot;Acrobat-Reader&quot;&gt;&lt;a href=&quot;#Acrobat-Reader&quot; class=&quot;headerlink&quot; title=&quot;Acrobat Reader&quot;&gt;&lt;/a&gt;Acrobat Reader&lt;/h1&gt;&lt;p&gt;&lt;code&gt;⌘ ^ h&lt;/code&gt; Read Mode&lt;br&gt;&lt;code&gt;⇧ F4&lt;/code&gt; Show/Hide Tools Pane&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Zoom&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;⌘ 0&lt;/code&gt; Page Level&lt;br&gt;  &lt;code&gt;⌘ 1&lt;/code&gt; Actual Size&lt;br&gt;  &lt;code&gt;⌘ 2&lt;/code&gt; Fit Width&lt;br&gt;  &lt;code&gt;⌘ 3&lt;/code&gt; Fit Visible&lt;br&gt;  &lt;code&gt;⌘ 4&lt;/code&gt; Reflow&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&quot;Activity-Monitor&quot;&gt;&lt;a href=&quot;#Activity-Monitor&quot; class=&quot;headerlink&quot; title=&quot;Activity Monitor&quot;&gt;&lt;/a&gt;Activity Monitor&lt;/h1&gt;&lt;p&gt;&lt;code&gt;⌘ ⌥ f&lt;/code&gt; Filter Processes&lt;br&gt;&lt;strong&gt;&lt;code&gt;⌘ ⌥ q&lt;/code&gt; Quit the select Process&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&quot;Amphetamine&quot;&gt;&lt;a href=&quot;#Amphetamine&quot; class=&quot;headerlink&quot; title=&quot;Amphetamine&quot;&gt;&lt;/a&gt;Amphetamine&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;&lt;code&gt;⌥ F12&lt;/code&gt; Mac Stays Awake&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;&lt;code&gt;^ ⌥ F12&lt;/code&gt; Allow Mac to Sleep&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&quot;Atom&quot;&gt;&lt;a href=&quot;#Atom&quot; class=&quot;headerlink&quot; title=&quot;Atom&quot;&gt;&lt;/a&gt;Atom&lt;/h1&gt;&lt;ul&gt;
@@ -2054,11 +2070,37 @@ img.fix_height {
 &lt;p&gt;&lt;code&gt;⌘ t&lt;/code&gt; Today&lt;br&gt;&lt;strong&gt;&lt;code&gt;⌘ ⇧ T&lt;/code&gt; Go to Date&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;⌘ ←&lt;/code&gt; Prev&lt;br&gt;&lt;code&gt;⌘ →&lt;/code&gt; Next&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;⌘ 1&lt;/code&gt; By Day&lt;br&gt;&lt;code&gt;⌘ 2&lt;/code&gt; By Week&lt;br&gt;&lt;code&gt;⌘ 3&lt;/code&gt; By Month&lt;br&gt;&lt;code&gt;⌘ 4&lt;/code&gt; By Year&lt;/p&gt;
-&lt;h1 id=&quot;Charles&quot;&gt;&lt;a href=&quot;#Charles&quot; class=&quot;headerlink&quot; title=&quot;Charles&quot;&gt;&lt;/a&gt;Charles&lt;/h1&gt;&lt;p&gt;&lt;code&gt;⌘ r&lt;/code&gt; Start/Stop Recording&lt;br&gt;&lt;code&gt;⌘ ⇧ D&lt;/code&gt; DNS Spoofing Settings&lt;/p&gt;
+&lt;h1 id=&quot;Charles&quot;&gt;&lt;a href=&quot;#Charles&quot; class=&quot;headerlink&quot; title=&quot;Charles&quot;&gt;&lt;/a&gt;Charles&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Proxy&lt;/p&gt;
+&lt;p&gt;  &lt;strong&gt;&lt;code&gt;⌘ r&lt;/code&gt; Start | Stop Recording&lt;/strong&gt;&lt;br&gt;  &lt;code&gt;⌘ t&lt;/code&gt; Start | Stop Throttling&lt;br&gt;  &lt;code&gt;⌘ k&lt;/code&gt; Enable | Disable Breakpoints&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;⌘ ⇧ t&lt;/code&gt; Throttle Settings&lt;br&gt;  &lt;code&gt;⌘ ⇧ k&lt;/code&gt; Breakpoint Settings&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;⌘ ⇧ p&lt;/code&gt; macOS Proxy&lt;br&gt;  &lt;code&gt;⌘ ⇧ f&lt;/code&gt; Mozilla Firefox Proxy&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Session&lt;/p&gt;
+&lt;p&gt;  &lt;strong&gt;&lt;code&gt;⌘ ⌫&lt;/code&gt; Clear&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;⌘ o&lt;/code&gt; Open&lt;br&gt;  &lt;code&gt;⌘ n&lt;/code&gt; New&lt;br&gt;  &lt;code&gt;⌘ s&lt;/code&gt; Save&lt;br&gt;  &lt;code&gt;⌘ ⇧ s&lt;/code&gt; Save As&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;⌘ l&lt;/code&gt; Error Log&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;View&lt;/p&gt;
+&lt;p&gt;  &lt;strong&gt;&lt;code&gt;⌘ 0&lt;/code&gt; Sequence&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌘ 9&lt;/code&gt; Structure&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  &lt;strong&gt;&lt;code&gt;⌘ 1&lt;/code&gt; Overview&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌘ 2&lt;/code&gt; Request&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌘ 3&lt;/code&gt; Response&lt;/strong&gt;&lt;br&gt;  &lt;code&gt;⌘ 4&lt;/code&gt; Summary&lt;br&gt;  &lt;code&gt;⌘ 5&lt;/code&gt; Chart&lt;br&gt;  &lt;code&gt;⌘ 6&lt;/code&gt; Note&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;⌘ ⇧ H&lt;/code&gt; Focused Hosts&lt;br&gt;  &lt;code&gt;⌘ ⇧ V&lt;/code&gt; Viewer Mappings&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Tools&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;⌘ ⌥ d&lt;/code&gt; No Caching&lt;br&gt;  &lt;code&gt;⌘ ⌥ c&lt;/code&gt; Block Cookies&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;⌘ ⌥ m&lt;/code&gt; Map Remote&lt;br&gt;  &lt;code&gt;⌘ ⌥ l&lt;/code&gt; Map Local&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;⌘ ⌥ r&lt;/code&gt; Rewrite&lt;br&gt;  &lt;code&gt;⌘ ⌥ b&lt;/code&gt; Black List&lt;br&gt;  &lt;code&gt;⌘ ⌥ w&lt;/code&gt; White List&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌘ ⇧ D&lt;/code&gt; DNS Spoofing Settings ( Custom )&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;⌘ ⌥ i&lt;/code&gt; Mirror&lt;br&gt;  &lt;code&gt;⌘ ⌥ a&lt;/code&gt; Rewrite&lt;/p&gt;
+&lt;p&gt;  &lt;strong&gt;&lt;code&gt;⌘ m&lt;/code&gt; Compose ( Edit )&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌘ ⇧ M&lt;/code&gt; Compose New&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌘ ⇧ R&lt;/code&gt; Repeat&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&quot;CheatSheet&quot;&gt;&lt;a href=&quot;#CheatSheet&quot; class=&quot;headerlink&quot; title=&quot;CheatSheet&quot;&gt;&lt;/a&gt;CheatSheet&lt;/h1&gt;&lt;p&gt;&lt;code&gt;Long Press ⌘&lt;/code&gt; Activate&lt;/p&gt;
 &lt;h1 id=&quot;ClipMenu&quot;&gt;&lt;a href=&quot;#ClipMenu&quot; class=&quot;headerlink&quot; title=&quot;ClipMenu&quot;&gt;&lt;/a&gt;ClipMenu&lt;/h1&gt;&lt;p&gt;&lt;code&gt;^ ⌥ v&lt;/code&gt; | &lt;code&gt;凵 v&lt;/code&gt; Activate&lt;/p&gt;
 &lt;h1 id=&quot;EuDict-Free&quot;&gt;&lt;a href=&quot;#EuDict-Free&quot; class=&quot;headerlink&quot; title=&quot;EuDict Free&quot;&gt;&lt;/a&gt;EuDict Free&lt;/h1&gt;&lt;p&gt;&lt;code&gt;⌥ 凵&lt;/code&gt; Light Peek&lt;br&gt;&lt;strong&gt;&lt;code&gt;⌘ ⇧ M&lt;/code&gt; Look up Word that Mouse Cursor Hovers&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;&lt;code&gt;⌘ ⇧ L&lt;/code&gt; Look up Selection&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;&lt;code&gt;⌘ ⇧ 2&lt;/code&gt; Translate Selection&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&quot;Evernote&quot;&gt;&lt;a href=&quot;#Evernote&quot; class=&quot;headerlink&quot; title=&quot;Evernote&quot;&gt;&lt;/a&gt;Evernote&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Custom&lt;/p&gt;
+&lt;p&gt;  &lt;strong&gt;&lt;code&gt;⌥  &amp;#39;&lt;/code&gt; Quick Note&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌥  [&lt;/code&gt; Paste to Evernote&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌥  /&lt;/code&gt; Search in Evernote&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Note&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;⌘ ^ s&lt;/code&gt; Sync&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;⌘ j&lt;/code&gt; Search in Notes &amp;amp; Switch to a Note or Notebook&lt;/p&gt;
@@ -2205,23 +2247,57 @@ img.fix_height {
 &lt;h1 id=&quot;Manico&quot;&gt;&lt;a href=&quot;#Manico&quot; class=&quot;headerlink&quot; title=&quot;Manico&quot;&gt;&lt;/a&gt;Manico&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Most Frequent&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;^ ⌥ q&lt;/code&gt; | &lt;code&gt;凵 q&lt;/code&gt; &lt;a href=&quot;#Firefox&quot;&gt;Firefox&lt;/a&gt;&lt;br&gt;  &lt;code&gt;^ ⌥ w&lt;/code&gt; | &lt;code&gt;凵 w&lt;/code&gt; &lt;a href=&quot;#iTerm2&quot;&gt;iTerm2&lt;/a&gt;&lt;br&gt;  &lt;code&gt;^ ⌥ e&lt;/code&gt; | &lt;code&gt;凵 e&lt;/code&gt; &lt;a href=&quot;#Evernote&quot;&gt;Evernote&lt;/a&gt;&lt;br&gt;  &lt;code&gt;^ ⌥ r&lt;/code&gt; | &lt;code&gt;凵 r&lt;/code&gt; &lt;a href=&quot;#Wunderlist&quot;&gt;Wunderlist&lt;/a&gt;&lt;/p&gt;
+  &lt;!--`^ ⌥ t` | `凵 t` Spotlight--&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Num&lt;/p&gt;
-&lt;p&gt;  &lt;code&gt;⌥ 1&lt;/code&gt; &lt;a href=&quot;#Script_Editor&quot;&gt;Script Editor&lt;/a&gt; ( for AppleScript )&lt;br&gt;  &lt;code&gt;⌥ 2&lt;/code&gt; System Preferences&lt;br&gt;  &lt;code&gt;⌥ 3&lt;/code&gt; Dash&lt;br&gt;  &lt;code&gt;⌥ 4&lt;/code&gt; Daily Task&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Lf Num&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;⌥ 1&lt;/code&gt; &lt;a href=&quot;#Script_Editor&quot;&gt;Script Editor&lt;/a&gt; ( for AppleScript )&lt;br&gt;  &lt;code&gt;⌥ 2&lt;/code&gt; System Preferences&lt;br&gt;  &lt;code&gt;⌥ 3&lt;/code&gt; Dash&lt;br&gt;  &lt;code&gt;⌥ 4&lt;/code&gt; Daily Task&lt;br&gt;  &lt;code&gt;⌥ 5&lt;/code&gt; Transmit&lt;/p&gt;
+  &lt;!--`^ ⌥ 1` --&gt;
+&lt;p&gt;  &lt;code&gt;^ ⌥ 2&lt;/code&gt; System Infomation&lt;br&gt;  &lt;code&gt;^ ⌥ 3&lt;/code&gt; Disk Utility&lt;br&gt;  &lt;code&gt;^ ⌥ 4&lt;/code&gt; Font Book&lt;/p&gt;
+  &lt;!--`^ ⌥ 5` --&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Lf Hand&lt;/p&gt;
-&lt;p&gt;  &lt;code&gt;^ ⌥ 凵&lt;/code&gt; &lt;a href=&quot;#Activity_Monitor&quot;&gt;Activity Monitor&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;  &lt;code&gt;⌥ q&lt;/code&gt; &lt;a href=&quot;#QQ&quot;&gt;QQ&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ w&lt;/code&gt; &lt;a href=&quot;#WeChat&quot;&gt;WeChat&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ e&lt;/code&gt; &lt;a href=&quot;#Mail&quot;&gt;Mail&lt;/a&gt; &lt;!-- Email --&gt;&lt;br&gt;  &lt;code&gt;⌥ r&lt;/code&gt; Chrome&lt;br&gt;  &lt;code&gt;⌥ t&lt;/code&gt; Thunder&lt;/p&gt;
-&lt;p&gt;  &lt;code&gt;⌥ a&lt;/code&gt; &lt;a href=&quot;#PyCharm&quot;&gt;PyCharm&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ s&lt;/code&gt; &lt;a href=&quot;#PhpStorm&quot;&gt;PhpStorm&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ d&lt;/code&gt; Dictionary&lt;br&gt;  &lt;code&gt;⌥ f&lt;/code&gt; &lt;a href=&quot;#Finder&quot;&gt;Finder&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ g&lt;/code&gt; Preview&lt;/p&gt;
-&lt;p&gt;  &lt;code&gt;^ ⌥ a&lt;/code&gt; &lt;a href=&quot;#Calendar&quot;&gt;Calendar&lt;/a&gt;&lt;br&gt;  &lt;code&gt;^ ⌥ s&lt;/code&gt; Postman&lt;br&gt;  &lt;code&gt;^ ⌥ d&lt;/code&gt; MacID&lt;br&gt;  &lt;code&gt;^ ⌥ f&lt;/code&gt; Safari&lt;br&gt;  &lt;code&gt;^ ⌥ l&lt;/code&gt; Flux&lt;/p&gt;
-&lt;p&gt;  &lt;code&gt;^ ⌥ u&lt;/code&gt; | &lt;code&gt;凵 x&lt;/code&gt; Atom&lt;br&gt;  &lt;code&gt;^ ⌥ c&lt;/code&gt; | &lt;code&gt;凵 c&lt;/code&gt; &lt;a href=&quot;#Charles&quot;&gt;Charles&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Rg Num&lt;/p&gt;
+  &lt;!--`⌥ 6` --&gt;
+&lt;p&gt;  &lt;code&gt;⌥ 7&lt;/code&gt; Messages&lt;br&gt;  &lt;code&gt;⌥ 8&lt;/code&gt; Keychain Access&lt;br&gt;  &lt;code&gt;⌥ 9&lt;/code&gt; Language Switcher&lt;br&gt;  &lt;code&gt;⌥ 0&lt;/code&gt; Maps&lt;/p&gt;
+  &lt;!--`^ ⌥ 6` --&gt;
+  &lt;!--`^ ⌥ 7` --&gt;
+&lt;p&gt;  &lt;code&gt;^ ⌥ 8&lt;/code&gt; Key Codes&lt;/p&gt;
+  &lt;!--`^ ⌥ 9` --&gt;
+  &lt;!--`^ ⌥ 0` --&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Rg Hand&lt;/p&gt;
-&lt;p&gt;  &lt;code&gt;⌥ y&lt;/code&gt; &lt;a href=&quot;#Typora&quot;&gt;Typora&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ u&lt;/code&gt; &lt;a href=&quot;#EuDict Free&quot;&gt;EuDic Free&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ i&lt;/code&gt; iTunes&lt;br&gt;  &lt;code&gt;⌥ o&lt;/code&gt; ShadowsocksX&lt;br&gt;  &lt;code&gt;⌥ p&lt;/code&gt; AppStore&lt;/p&gt;
-&lt;p&gt;  &lt;code&gt;^ ⌥ u&lt;/code&gt; Sublime Text&lt;br&gt;  &lt;code&gt;^ ⌥ i&lt;/code&gt; Visual Studio Code&lt;/p&gt;
-&lt;p&gt;  &lt;code&gt;⌥ h&lt;/code&gt; Photos&lt;br&gt;  &lt;code&gt;⌥ k&lt;/code&gt; &lt;a href=&quot;#Karabiner&quot;&gt;Karabiner&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ l&lt;/code&gt; &lt;a href=&quot;#Seil&quot;&gt;Seil&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;  &lt;code&gt;⌥ n&lt;/code&gt; Netease Music&lt;br&gt;  &lt;code&gt;⌥ m&lt;/code&gt; &lt;a href=&quot;#Manico&quot;&gt;Manico&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ ,&lt;/code&gt; Numi&lt;br&gt;  &lt;code&gt;⌥ .&lt;/code&gt; Login Task&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Lf Char&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;⌥ q&lt;/code&gt; &lt;a href=&quot;#QQ&quot;&gt;QQ&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ w&lt;/code&gt; &lt;a href=&quot;#WeChat&quot;&gt;WeChat&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ e&lt;/code&gt; &lt;a href=&quot;#Mail&quot;&gt;Mail&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ r&lt;/code&gt; Preview&lt;br&gt;  &lt;code&gt;⌥ t&lt;/code&gt; Thunder&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;⌥ a&lt;/code&gt; &lt;a href=&quot;#PyCharm&quot;&gt;PyCharm&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ s&lt;/code&gt; &lt;a href=&quot;#PhpStorm&quot;&gt;PhpStorm&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ d&lt;/code&gt; Dictionary&lt;br&gt;  &lt;code&gt;⌥ f&lt;/code&gt; &lt;a href=&quot;#Finder&quot;&gt;Finder&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ g&lt;/code&gt; &lt;a href=&quot;#Acrobat Reader&quot;&gt;Acrobat Reader&lt;/a&gt; ( PDF )&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;^ ⌥ a&lt;/code&gt; &lt;a href=&quot;#Activity_Monitor&quot;&gt;Activity Monitor&lt;/a&gt;&lt;br&gt;  &lt;code&gt;^ ⌥ s&lt;/code&gt; Safari&lt;br&gt;  &lt;code&gt;^ ⌥ d&lt;/code&gt; MacID&lt;br&gt;  &lt;code&gt;^ ⌥ f&lt;/code&gt; Flux&lt;br&gt;  &lt;code&gt;^ ⌥ g&lt;/code&gt; OpenEmu ( Game )&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;⌥ z&lt;/code&gt; Chrome&lt;br&gt;  &lt;code&gt;⌥ x&lt;/code&gt; &lt;a href=&quot;#Postman&quot;&gt;Postman&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ c&lt;/code&gt; &lt;a href=&quot;#Calendar&quot;&gt;Calendar&lt;/a&gt;&lt;/p&gt;
+  &lt;!--`⌥ v` Focus to Menu Bar--&gt;
+&lt;p&gt;  &lt;code&gt;⌥ b&lt;/code&gt; Sublime Text&lt;/p&gt;
+  &lt;!--`^ ⌥ z` Moom--&gt;
+&lt;p&gt;  &lt;code&gt;^ ⌥ x&lt;/code&gt; | &lt;code&gt;凵 x&lt;/code&gt; Atom&lt;br&gt;  &lt;code&gt;^ ⌥ c&lt;/code&gt; | &lt;code&gt;凵 c&lt;/code&gt; &lt;a href=&quot;#Charles&quot;&gt;Charles&lt;/a&gt;&lt;/p&gt;
+  &lt;!--`^ ⌥ v` ClipMenu--&gt;
+  &lt;!--`^ ⌥ b` --&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Rg Char&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;⌥ y&lt;/code&gt; &lt;a href=&quot;#Typora&quot;&gt;Typora&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ u&lt;/code&gt; &lt;a href=&quot;#EuDict Free&quot;&gt;EuDic Free&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ i&lt;/code&gt; Office Excel&lt;br&gt;  &lt;code&gt;⌥ o&lt;/code&gt; Office Word&lt;br&gt;  &lt;code&gt;⌥ p&lt;/code&gt; Office PowerPoint&lt;/p&gt;
+  &lt;!--`⌥ [` Paste to Evernote--&gt;
+  &lt;!--`⌥ ]` --&gt;
+  &lt;!--`⌥ \` --&gt;
+&lt;p&gt;  &lt;code&gt;^ ⌥ y&lt;/code&gt; Visual Studio Code&lt;br&gt;  &lt;code&gt;^ ⌥ u&lt;/code&gt; &lt;a href=&quot;#QQ Music&quot;&gt;QQ Music&lt;/a&gt;&lt;br&gt;  &lt;code&gt;^ ⌥ i&lt;/code&gt; iTunes&lt;br&gt;  &lt;code&gt;^ ⌥ o&lt;/code&gt; ShadowsocksX&lt;br&gt;  &lt;code&gt;^ ⌥ p&lt;/code&gt; AppStore&lt;/p&gt;
+  &lt;!--`^ ⌥ [` --&gt;
+  &lt;!--`^ ⌥ ]` Expand Bartender 2--&gt;
+  &lt;!--`^ ⌥ \` --&gt;
+&lt;p&gt;  &lt;code&gt;⌥ h&lt;/code&gt; Photos&lt;/p&gt;
+  &lt;!--`⌥ j` Search in All Files--&gt;
+&lt;p&gt;  &lt;code&gt;⌥ k&lt;/code&gt; &lt;a href=&quot;#Karabiner&quot;&gt;Karabiner&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ l&lt;/code&gt; &lt;a href=&quot;#Seil&quot;&gt;Seil&lt;/a&gt;&lt;/p&gt;
+  &lt;!--`⌥ ;` Symbol `…`--&gt;
+  &lt;!--`⌥ &#39;` Quick Note in Evernote--&gt;
+&lt;p&gt;  &lt;code&gt;^ ⌥ h&lt;/code&gt; Time Machine&lt;br&gt;  &lt;code&gt;^ ⌥ j&lt;/code&gt; IntelliJ&lt;br&gt;  &lt;code&gt;^ ⌥ k&lt;/code&gt; Calculator&lt;br&gt;  &lt;code&gt;^ ⌥ l&lt;/code&gt; CLion&lt;br&gt;  &lt;code&gt;^ ⌥ ;&lt;/code&gt; Parallels Desktop&lt;/p&gt;
+  &lt;!--`^ ⌥ &#39;` --&gt;
+&lt;p&gt;  &lt;code&gt;⌥ n&lt;/code&gt; &lt;a href=&quot;#Netease Music&quot;&gt;Netease Music&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ m&lt;/code&gt; &lt;a href=&quot;#Manico&quot;&gt;Manico&lt;/a&gt;&lt;br&gt;  &lt;code&gt;⌥ ,&lt;/code&gt; Numi&lt;br&gt;  &lt;code&gt;⌥ .&lt;/code&gt; Login Task&lt;/p&gt;
+  &lt;!--`⌥ /` Search in Evernote--&gt;
 &lt;p&gt;  &lt;code&gt;^ ⌥ n&lt;/code&gt; Nozio&lt;br&gt;  &lt;code&gt;^ ⌥ m&lt;/code&gt; Sequel Pro &lt;!-- MySQL Client --&gt;&lt;/p&gt;
+  &lt;!--`^ ⌥ ,` --&gt;
+  &lt;!--`^ ⌥ .` --&gt;
+  &lt;!--`^ ⌥ /` Show Help Menu--&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;Moom&quot;&gt;&lt;a href=&quot;#Moom&quot; class=&quot;headerlink&quot; title=&quot;Moom&quot;&gt;&lt;/a&gt;Moom&lt;/h1&gt;&lt;p&gt;&lt;code&gt;^ ⌥ z&lt;/code&gt; | &lt;code&gt;凵 z&lt;/code&gt; Activate&lt;/p&gt;
@@ -2237,6 +2313,11 @@ img.fix_height {
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h1 id=&quot;Netease-Music&quot;&gt;&lt;a href=&quot;#Netease-Music&quot; class=&quot;headerlink&quot; title=&quot;Netease Music&quot;&gt;&lt;/a&gt;Netease Music&lt;/h1&gt;&lt;p&gt;&lt;code&gt;凵&lt;/code&gt; Play | Pause&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;⌘ →&lt;/code&gt; Next&lt;br&gt;&lt;code&gt;⌘ ←&lt;/code&gt; Prev&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;⌘ ↑&lt;/code&gt; Volume Up&lt;br&gt;&lt;code&gt;⌘ ↓&lt;/code&gt; Volume Down&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;⌘ l&lt;/code&gt; Dislike&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;&lt;code&gt;⌘ r&lt;/code&gt; Show | Hide Lyrics&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;⌘ ^ m&lt;/code&gt; Switch MiniPlayer&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&quot;PhpStorm&quot;&gt;&lt;a href=&quot;#PhpStorm&quot; class=&quot;headerlink&quot; title=&quot;PhpStorm&quot;&gt;&lt;/a&gt;PhpStorm&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Input&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;^ 凵&lt;/code&gt; Auto Complete&lt;/p&gt;
@@ -2267,6 +2348,9 @@ img.fix_height {
 &lt;/ul&gt;
 &lt;h1 id=&quot;PyCharm&quot;&gt;&lt;a href=&quot;#PyCharm&quot; class=&quot;headerlink&quot; title=&quot;PyCharm&quot;&gt;&lt;/a&gt;PyCharm&lt;/h1&gt;&lt;p&gt;Same as PhpStorm.&lt;/p&gt;
 &lt;h1 id=&quot;QQ&quot;&gt;&lt;a href=&quot;#QQ&quot; class=&quot;headerlink&quot; title=&quot;QQ&quot;&gt;&lt;/a&gt;QQ&lt;/h1&gt;&lt;p&gt;&lt;code&gt;⌘ ^ a&lt;/code&gt; Capture ( Can be used without opening QQ. )&lt;br&gt;&lt;code&gt;⌘ ↑&lt;/code&gt; Select Prev Chat&lt;br&gt;&lt;code&gt;⌘ ↓&lt;/code&gt; Select Next Chat&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;⌘ 1&lt;/code&gt; Switch to Messages&lt;br&gt;&lt;code&gt;⌘ 2&lt;/code&gt; Switch to Contacts&lt;br&gt;&lt;code&gt;⌘ 3&lt;/code&gt; Switch to Applications&lt;br&gt;&lt;code&gt;⌘ e&lt;/code&gt; Switch Mode Simple/Complete&lt;br&gt;&lt;strong&gt;&lt;code&gt;⌘ d&lt;/code&gt; Delete Chat&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&quot;QQ-Music&quot;&gt;&lt;a href=&quot;#QQ-Music&quot; class=&quot;headerlink&quot; title=&quot;QQ Music&quot;&gt;&lt;/a&gt;QQ Music&lt;/h1&gt;&lt;p&gt;&lt;code&gt;⌘ →&lt;/code&gt; Next&lt;br&gt;&lt;code&gt;⌘ ←&lt;/code&gt; Prev&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;⌘ ⌥ m&lt;/code&gt; Swith MiniPlayer&lt;/p&gt;
 &lt;h1 id=&quot;Script-Editor&quot;&gt;&lt;a href=&quot;#Script-Editor&quot; class=&quot;headerlink&quot; title=&quot;Script Editor&quot;&gt;&lt;/a&gt;Script Editor&lt;/h1&gt;&lt;p&gt;&lt;code&gt;⌘ ⇧ O&lt;/code&gt; Open Dictionary&lt;/p&gt;
 &lt;h1 id=&quot;Seil&quot;&gt;&lt;a href=&quot;#Seil&quot; class=&quot;headerlink&quot; title=&quot;Seil&quot;&gt;&lt;/a&gt;Seil&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Change Key&lt;/p&gt;
@@ -2727,7 +2811,7 @@ img.fix_height {
     <link href="http://icehe.me/tools/"/>
     <id>http://icehe.me/tools/</id>
     <published>2015-11-20T16:00:00.000Z</published>
-    <updated>2016-08-05T16:00:00.000Z</updated>
+    <updated>2016-08-11T16:00:00.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://liqi.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;利器 - 创造者和他们的工具&lt;/a&gt; 以及使用的方式和原则。&lt;/li&gt;
@@ -3146,16 +3230,15 @@ img.fix_height {
 &lt;p&gt;  而且戴耳机、耳塞，多少会压迫侧颊、耳朵、头部，耳道有异物感，始终不是最舒适的状态。长时间戴耳机、耳塞，又不注意清洁设备和耳朵，有可能导致中耳炎，请注意保护听力。&lt;/p&gt;
 &lt;p&gt;  音效还不错（对比类似价位的同类产品）；防水，可以在浴室使用。还是一分钱一分货。&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://item.jd.hk/1957485171.html#comments-list&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://item.jd.hk/1957485171.html#comments-list&lt;/a&gt; &lt;sup&gt;To-Buy&lt;/sup&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://search.jd.com/Search?keyword=%E7%B4%A2%E5%B0%BC%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA&amp;amp;enc=utf-8&amp;amp;wq=so%20ni%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA&amp;amp;pvid=2i6kgtqi.ip6kfe&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://search.jd.com/Search?keyword=%E7%B4%A2%E5%B0%BC%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA&amp;amp;enc=utf-8&amp;amp;wq=so%20ni%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA&amp;amp;pvid=2i6kgtqi.ip6kfe&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
+&lt;!--- &lt;http://item.jd.hk/1957485171.html#comments-list&gt; &lt;sup&gt;To-Buy&lt;/sup&gt;--&gt;
+&lt;!--- &lt;http://search.jd.com/Search?keyword=%E7%B4%A2%E5%B0%BC%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA&amp;enc=utf-8&amp;wq=so%20ni%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA&amp;pvid=2i6kgtqi.ip6kfe&gt;--&gt;
+&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Philips-Sonicare-DiamondClean-Rechargeable-HX9332/dp/B0052JN7XG/ref=sr_1_1_a_it?ie=UTF8&amp;amp;qid=1468933357&amp;amp;sr=8-1&amp;amp;keywords=hx9332&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Philips Sonicare DiamondClean Sonic Electric Rechargeable Toothbrush&lt;/a&gt; - 电动牙刷&lt;/p&gt;
 &lt;p&gt;  Model HX9331/04, White，声波式电动牙刷，确实比手动刷干净多了！（&lt;a href=&quot;https://www.amazon.cn/Philips-%E9%A3%9E%E5%88%A9%E6%B5%A6-HX9332-04%E9%92%BB%E7%9F%B3%E4%BA%AE%E7%99%BD%E5%9E%8B%E5%A3%B0%E6%B3%A2%E9%9C%87%E5%8A%A8%E7%89%99%E5%88%B7/dp/B007ZY5GV2/ref=sr_1_6?ie=UTF8&amp;amp;qid=1468507397&amp;amp;sr=8-6&amp;amp;keywords=philips+diamondclean&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;亚马逊中国&lt;/a&gt;）&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/19825877/answer/15856166&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;电动牙刷刷牙相比手动刷牙有什么优缺点？&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;总结：&lt;ul&gt;
+&lt;li&gt;Summary：&lt;ul&gt;
 &lt;li&gt;电动比手动好，各种好（完爆）；&lt;/li&gt;
 &lt;li&gt;旋转式的比声波式的刷得干净；&lt;/li&gt;
 &lt;li&gt;声波式的比旋转式的磨损小；&lt;/li&gt;
@@ -3165,14 +3248,21 @@ img.fix_height {
 &lt;li&gt;My Related Note - &lt;a href=&quot;/read/tooth.html&quot;&gt;牙齿保健&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Philips-Sonicare-HX8332-Airfloss-Ultra/dp/B01AVE8AAG/ref=sr_1_1_a_it?ie=UTF8&amp;amp;qid=1468933177&amp;amp;sr=8-1&amp;amp;keywords=hx8332&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Philips Sonicare Airfloss Ultra&lt;/a&gt; - 冲牙器（水牙线）&lt;/p&gt;
-&lt;p&gt;  Model HX8332/11，待体验。（&lt;a href=&quot;http://item.jd.hk/1964052662.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;京东&lt;/a&gt;）&lt;/p&gt;
+&lt;/ul&gt;
 &lt;ul&gt;
-&lt;li&gt;总结：&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Philips-Sonicare-HX8332-Airfloss-Ultra/dp/B01AVE8AAG/ref=sr_1_1_a_it?ie=UTF8&amp;amp;qid=1468933177&amp;amp;sr=8-1&amp;amp;keywords=hx8332&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Philips Sonicare Airfloss Ultra&lt;/a&gt; - 冲牙器（水牙线）&lt;/p&gt;
+&lt;p&gt;  Model HX8332/11。（&lt;a href=&quot;http://item.jd.hk/1964052662.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;京东&lt;/a&gt;）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Summary：&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/20842469/answer/44441538&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;使用牙线有必要性吗？&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;牙齿与牙齿间的缝隙，牙线或冲牙器，才能弄干净；&lt;/li&gt;
 &lt;li&gt;需要牙刷 + 牙线结合使用才能全面清洁牙齿。&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/20475312&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;清理牙缝哪家强？两款水牙线的主观评测&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Debate：&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://weibo.com/1878363622/E1OfvzJjo?from=page_1005051878363622_profile&amp;amp;wvr=6&amp;amp;mod=weibotime&amp;amp;type=comment#_rnd1471001024021&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;美国卫生署删除了“剔牙”“用牙线”的建议…&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.nydailynews.com/life-style/no-floss-u-s-health-department-article-1.2735915&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Flossing has no proven benefits, so U.S. health department stops recommending the practice&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;My Related Note - &lt;a href=&quot;/read/tooth.html&quot;&gt;牙齿保健&lt;/a&gt;&lt;/li&gt;
@@ -3192,6 +3282,13 @@ img.fix_height {
 &lt;p&gt;  Victor Sport 的 Thruster K ONIGIRI 突击鬼斩。&lt;/p&gt;
 &lt;p&gt;  进攻型羽毛球拍，重量 4U，拉 28 磅的 YONEX 80 Power 线。毕竟我喜欢暴力打球。&lt;/p&gt;
 &lt;p&gt;  打惯 3U 的球拍，一开始不适应，感觉它偏轻、没“手感”。挥拍扣杀时，感觉球拍不够重，惯性不够大，出力不足；但移动、挥拍、救球、回球来更快更灵活，省腕力，长时间打球省体力。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.merida.cn/?p=82&amp;amp;a=view&amp;amp;r=482&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Merida Duke 300&lt;/a&gt; - 山地车&lt;/p&gt;
+&lt;p&gt;  美利达公爵 300，入门级山地车。白色，24 速 + 油碟。&lt;/p&gt;
+&lt;p&gt;  主要用途：上下班通勤。&lt;br&gt;  安全装备：头盔 + 手套 + 车前灯 + 骑行背包。&lt;br&gt;  其它装备：防晒霜、魔术头巾、铁发箍。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.qdong365.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;智芯 Z1&lt;/a&gt; - 自行车智能硬件&lt;/p&gt;
+&lt;p&gt;  用于 &lt;a href=&quot;http://www.qdong365.com/web/page/product&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;骑行数据记录&lt;/a&gt;（定位、计时…）、车队组网互动、&lt;a href=&quot;http://www.qdong365.com/web/page/product&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;防盗&lt;/a&gt;！&lt;br&gt;  还可以进一步购买 &lt;a href=&quot;http://www.qdong365.com/web/page/insurance&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;自行车盗抢险&lt;/a&gt;，更放心、充分地用车。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--To Buy--&gt;
