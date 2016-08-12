@@ -726,7 +726,7 @@ Not Only shortcuts, but also Change Layout of Keyboard!
     `⌥ 7` Messages
     `⌥ 8` Keychain Access
     `⌥ 9` Language Switcher
-    `⌥ 0` Office PowerPoint
+    `⌥ 0` Maps
 
     <!--`^ ⌥ 6` -->
     <!--`^ ⌥ 7` -->
@@ -772,7 +772,7 @@ Not Only shortcuts, but also Change Layout of Keyboard!
     `⌥ u` [EuDic Free](#EuDict Free)
     `⌥ i` Office Excel
     `⌥ o` Office Word
-    `⌥ p` Maps
+    `⌥ p` Office PowerPoint
     <!--`⌥ [` Paste to Evernote-->
     <!--`⌥ ]` -->
     <!--`⌥ \` -->
