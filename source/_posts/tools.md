@@ -1,6 +1,6 @@
 title: Tools 利器
 date: 2015-11-21
-updated: 2016-08-06
+updated: 2016-08-12
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -568,28 +568,32 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     音效还不错（对比类似价位的同类产品）；防水，可以在浴室使用。还是一分钱一分货。
 
-- <http://item.jd.hk/1957485171.html#comments-list> <sup>To-Buy</sup>
-    - <http://search.jd.com/Search?keyword=%E7%B4%A2%E5%B0%BC%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA&enc=utf-8&wq=so%20ni%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA&pvid=2i6kgtqi.ip6kfe>
+<!--- <http://item.jd.hk/1957485171.html#comments-list> <sup>To-Buy</sup>-->
+<!--- <http://search.jd.com/Search?keyword=%E7%B4%A2%E5%B0%BC%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA&enc=utf-8&wq=so%20ni%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA&pvid=2i6kgtqi.ip6kfe>-->
 
 - [Philips Sonicare DiamondClean Sonic Electric Rechargeable Toothbrush](https://www.amazon.com/Philips-Sonicare-DiamondClean-Rechargeable-HX9332/dp/B0052JN7XG/ref=sr_1_1_a_it?ie=UTF8&qid=1468933357&sr=8-1&keywords=hx9332) - 电动牙刷
 
     Model HX9331/04, White，声波式电动牙刷，确实比手动刷干净多了！（[亚马逊中国](https://www.amazon.cn/Philips-%E9%A3%9E%E5%88%A9%E6%B5%A6-HX9332-04%E9%92%BB%E7%9F%B3%E4%BA%AE%E7%99%BD%E5%9E%8B%E5%A3%B0%E6%B3%A2%E9%9C%87%E5%8A%A8%E7%89%99%E5%88%B7/dp/B007ZY5GV2/ref=sr_1_6?ie=UTF8&qid=1468507397&sr=8-6&keywords=philips+diamondclean)）
     - [电动牙刷刷牙相比手动刷牙有什么优缺点？](https://www.zhihu.com/question/19825877/answer/15856166)
-    -  总结：
+    - Summary：
         - 电动比手动好，各种好（完爆）；
         - 旋转式的比声波式的刷得干净；
         - 声波式的比旋转式的磨损小；
         - 用电动牙刷的话使劲别太大。
     - My Related Note - [牙齿保健](/read/tooth.html)
 
+
 - [Philips Sonicare Airfloss Ultra](https://www.amazon.com/Philips-Sonicare-HX8332-Airfloss-Ultra/dp/B01AVE8AAG/ref=sr_1_1_a_it?ie=UTF8&qid=1468933177&sr=8-1&keywords=hx8332) - 冲牙器（水牙线）
 
-    Model HX8332/11，待体验。（[京东](http://item.jd.hk/1964052662.html)）
-    - 总结：
+    Model HX8332/11。（[京东](http://item.jd.hk/1964052662.html)）
+    - Summary：
         - [使用牙线有必要性吗？](https://www.zhihu.com/question/20842469/answer/44441538)
         - 牙齿与牙齿间的缝隙，牙线或冲牙器，才能弄干净；
         - 需要牙刷 + 牙线结合使用才能全面清洁牙齿。
         - [清理牙缝哪家强？两款水牙线的主观评测](https://zhuanlan.zhihu.com/p/20475312)
+    - Debate：
+        - [美国卫生署删除了“剔牙”“用牙线”的建议…](http://weibo.com/1878363622/E1OfvzJjo?from=page_1005051878363622_profile&wvr=6&mod=weibotime&type=comment#_rnd1471001024021)
+        - [Flossing has no proven benefits, so U.S. health department stops recommending the practice](http://www.nydailynews.com/life-style/no-floss-u-s-health-department-article-1.2735915)
     - My Related Note - [牙齿保健](/read/tooth.html)
 
 - [Côte & Ciel Backpack](http://www.coteetciel.com/en-CN/isar-backpack-black-melange-laptop-bag) - 背包
@@ -613,6 +617,19 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
     进攻型羽毛球拍，重量 4U，拉 28 磅的 YONEX 80 Power 线。毕竟我喜欢暴力打球。
 
     打惯 3U 的球拍，一开始不适应，感觉它偏轻、没“手感”。挥拍扣杀时，感觉球拍不够重，惯性不够大，出力不足；但移动、挥拍、救球、回球来更快更灵活，省腕力，长时间打球省体力。
+
+- [Merida Duke 300](http://www.merida.cn/?p=82&a=view&r=482) - 山地车
+
+    美利达公爵 300，入门级山地车。白色，24 速 + 油碟。
+
+    主要用途：上下班通勤。
+    安全装备：头盔 + 手套 + 车前灯 + 骑行背包。
+    其它装备：防晒霜、魔术头巾、铁发箍。
+
+- [智芯 Z1](http://www.qdong365.com/) - 自行车智能硬件
+
+    用于 [骑行数据记录](http://www.qdong365.com/web/page/product)（定位、计时…）、车队组网互动、[防盗](http://www.qdong365.com/web/page/product)！
+    还可以进一步购买 [自行车盗抢险](http://www.qdong365.com/web/page/insurance)，更放心、充分地用车。
 
 <!--To Buy-->
 
