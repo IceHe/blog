@@ -1,6 +1,6 @@
 title: Resume 何志远
 date: 2015-01-24
-updated: 2016-06-15
+updated: 2016-08-11
 show_updated: true
 categories: [whoami]
 tags: [whoami]
@@ -59,7 +59,7 @@ toc: false
 [开放平台](http://open.weibo.com/) API 与微博移动端（WAP 端 H5 页面、客户端 App）间请求的聚合与适配对接；
 手机微博管理后台v5（B/S）- 频道打点管理
 - 2016.04 至今，参与「[微博头条](https://itunes.apple.com/cn/app/wei-bo-tou-tiao/id713957166)」项目的服务端研发与维护
-- _PHP , Docker , Nginx , Redis , Yaf , Lumen , CentOS_
+- _PHP , Docker , Nginx , MySQL , Redis , Yaf , Lumen , CentOS_
 
 ## __毕业设计 - [基于进程安全测量的安全管理](https://github.com/IceHe/secure_mgt_by_dynamic_measuring)__ &nbsp; &nbsp; _2015.03 ~ 2015.05_
 - 包括：[安全测量模块](https://github.com/IceHe/dimm)（Linux Loadable Kernel Module）、[安全管理器](https://github.com/IceHe/secure_monitor)（Qt GUI）
@@ -78,7 +78,7 @@ toc: false
 
 ## __华南理工 IBM 实验室 - 成员__ &nbsp; &nbsp; _2013.03 ~ 2014.05_
 - 「华工教学云平台」Windows 客户端（C++ Qt GUI），及 Linux 服务端的部分功能
-- _C++ , Qt Framework , CentOS 6 , Fedora_
+- _C/C++ , Qt Framework , CentOS 6 , Fedora_
 
 # Education
 
@@ -125,17 +125,17 @@ toc: false
 # Others
 
 ## __Hobbies__
-- <i class="fa fa-soccer-ball-o">&nbsp;</i> 运动：毽球、羽毛球、健身 &nbsp; <i class="fa fa-trophy">&nbsp;</i>[华工毽球社社长](#华南理工毽球社-社长-nbsp-nbsp-2012-09-2014-06)
-- <i class="fa fa-book">&nbsp;</i> 阅读：软件、科技、心理学 &nbsp; <span class="icon-douban"></span> [读过的书](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
-- <i class="fa fa-pencil-square-o">&nbsp;</i> 写作：难忘的人和事、感悟 &nbsp; <span class=" icon-qzone"></span> [旧博客](http://290841032.qzone.qq.com)
+- <i class="fa fa-soccer-ball-o">&nbsp;</i> 运动：毽球、羽毛球、健身、骑行 &nbsp; <i class="fa fa-trophy">&nbsp;</i>[华工毽球社社长](#华南理工毽球社-社长-nbsp-nbsp-2012-09-2014-06)
+- <i class="fa fa-book">&nbsp;</i> 阅读：软件、科技、心理学、商业 &nbsp; <span class="icon-douban"></span> [读过的书](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
+- <i class="fa fa-pencil-square-o">&nbsp;</i> 写作：难忘的人和事、感悟 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class=" icon-qzone"></span> [旧博客](http://290841032.qzone.qq.com)
 
 ## __Related__
 
-- <i class="fa fa-calendar">&nbsp;</i> [Logs &nbsp;时间使用统计](http://icehe.me/lifelogs/) &nbsp;|&nbsp; 自律
+- <i class="fa fa-calendar">&nbsp;</i> [Logs &nbsp;时间统计](http://icehe.me/lifelogs/) &nbsp;|&nbsp; 自律
 - <i class="fa fa-gears">&nbsp;</i> [Tools &nbsp;利器](http://icehe.me/tools/) &nbsp;|&nbsp; 工具控
 - <i class="fa fa-keyboard-o">&nbsp;</i> [Shortcuts &nbsp;快捷键](http://icehe.me/mac_shortcuts) &nbsp;|&nbsp; 键盘党
-- <i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;[Tech Bookmarks](http://icehe.me/tech) &nbsp;|&nbsp; 技术
-- <i class="fa fa-bookmark">&nbsp;</i> &nbsp;[Read Bookmarks](http://icehe.me/read) &nbsp;|&nbsp; 阅读
+- <i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;[Technology Bookmarks](http://icehe.me/tech) &nbsp;|&nbsp; 技术
+- <i class="fa fa-bookmark">&nbsp;</i> &nbsp;[Reading Bookmarks](http://icehe.me/read) &nbsp;|&nbsp; 阅读
 - <i class="fa fa-heart">&nbsp;</i> [Favourites &nbsp;喜好](http://icehe.me/favourites) &nbsp;|&nbsp; 书、播客
 <!--- <i class="fa fa-linkedin-square">&nbsp;</i>&nbsp; [Linkedin &nbsp;领英](http://www.linkedin.com/in/%E5%BF%97%E8%BF%9C-%E4%BD%95-3ba09192)-->
 
