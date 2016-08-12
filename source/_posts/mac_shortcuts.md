@@ -1,17 +1,19 @@
 title: Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2016-08-06
+updated: 2016-08-12
 show_updated: true
 categories: [Mac]
 tags: [Mac]
 description: 我的 OS X 快捷键列表。
 ---------------------------
 
+- Here are the Mac shortcuts:
+    - the default ones that I use most frequently
+    - all my custom ones.
+
 - Ref: 《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》
 
 # Explanation
-
-- Include the most frequent-used __default__ shortcuts and all my __custom__ ones.
 
 ## Key Symbols
 
@@ -125,7 +127,7 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
     `^ F12` Do Not Disturb On/Off
     `⌘ ⌥ d` Dock Hiding On/Off
 
-    __`⌥ c` Focus to Dock__ <!-- under Dock -->
+    __`^ ⌥ 凵` Focus to Dock__ <!-- under Dock -->
     __`⌥ v` Focus to Menu Bar__ <!-- under menubaR -->
 
 - Space
@@ -234,6 +236,19 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
     - [Mail](#Mail)
     - [Script Editor](#Script_Editor)
 
+# Acrobat Reader
+
+`⌘ ^ h` Read Mode
+`⇧ F4` Show/Hide Tools Pane
+
+- Zoom
+
+    `⌘ 0` Page Level
+    `⌘ 1` Actual Size
+    `⌘ 2` Fit Width
+    `⌘ 3` Fit Visible
+    `⌘ 4` Reflow
+
 # Activity Monitor
 
 `⌘ ⌥ f` Filter Processes
@@ -308,8 +323,63 @@ __`⌘ ⇧ T` Go to Date__
 
 # Charles
 
-`⌘ r` Start/Stop Recording
-`⌘ ⇧ D` DNS Spoofing Settings
+- Proxy
+
+    __`⌘ r` Start | Stop Recording__
+    `⌘ t` Start | Stop Throttling
+    `⌘ k` Enable | Disable Breakpoints
+
+    `⌘ ⇧ t` Throttle Settings
+    `⌘ ⇧ k` Breakpoint Settings
+
+    `⌘ ⇧ p` macOS Proxy
+    `⌘ ⇧ f` Mozilla Firefox Proxy
+
+- Session
+
+    __`⌘ ⌫` Clear__
+
+    `⌘ o` Open
+    `⌘ n` New
+    `⌘ s` Save
+    `⌘ ⇧ s` Save As
+
+    `⌘ l` Error Log
+
+- View
+
+    __`⌘ 0` Sequence__
+    __`⌘ 9` Structure__
+
+    __`⌘ 1` Overview__
+    __`⌘ 2` Request__
+    __`⌘ 3` Response__
+    `⌘ 4` Summary
+    `⌘ 5` Chart
+    `⌘ 6` Note
+
+    `⌘ ⇧ H` Focused Hosts
+    `⌘ ⇧ V` Viewer Mappings
+
+- Tools
+
+    `⌘ ⌥ d` No Caching
+    `⌘ ⌥ c` Block Cookies
+
+    `⌘ ⌥ m` Map Remote
+    `⌘ ⌥ l` Map Local
+
+    `⌘ ⌥ r` Rewrite
+    `⌘ ⌥ b` Black List
+    `⌘ ⌥ w` White List
+    __`⌘ ⇧ D` DNS Spoofing Settings ( Custom )__
+
+    `⌘ ⌥ i` Mirror
+    `⌘ ⌥ a` Rewrite
+
+    __`⌘ m` Compose ( Edit )__
+    __`⌘ ⇧ M` Compose New__
+    __`⌘ ⇧ R` Repeat__
 
 # CheatSheet
 
@@ -327,6 +397,12 @@ __`⌘ ⇧ L` Look up Selection__
 __`⌘ ⇧ 2` Translate Selection__
 
 # Evernote
+
+- Custom
+
+    __`⌥  '` Quick Note__
+    __`⌥  [` Paste to Evernote__
+    __`⌥  /` Search in Evernote__
 
 - Note
 
@@ -628,61 +704,113 @@ Not Only shortcuts, but also Change Layout of Keyboard!
     `^ ⌥ w` | `凵 w` [iTerm2](#iTerm2)
     `^ ⌥ e` | `凵 e` [Evernote](#Evernote)
     `^ ⌥ r` | `凵 r` [Wunderlist](#Wunderlist)
+    <!--`^ ⌥ t` | `凵 t` Spotlight-->
 
-- Num
+- Lf Num
 
     `⌥ 1` [Script Editor](#Script_Editor) ( for AppleScript )
     `⌥ 2` System Preferences
     `⌥ 3` Dash
     `⌥ 4` Daily Task
+    `⌥ 5` Transmit
 
-- Lf Hand
+    <!--`^ ⌥ 1` -->
+    `^ ⌥ 2` System Infomation
+    `^ ⌥ 3` Disk Utility
+    `^ ⌥ 4` Font Book
+    <!--`^ ⌥ 5` -->
 
-    `^ ⌥ 凵` [Activity Monitor](#Activity_Monitor)
+- Rg Num
+
+    <!--`⌥ 6` -->
+    `⌥ 7` Messages
+    `⌥ 8` Keychain Access
+    `⌥ 9` Language Switcher
+    `⌥ 0` Office PowerPoint
+
+    <!--`^ ⌥ 6` -->
+    <!--`^ ⌥ 7` -->
+    `^ ⌥ 8` Key Codes
+    <!--`^ ⌥ 9` -->
+    <!--`^ ⌥ 0` -->
+
+- Lf Char
 
     `⌥ q` [QQ](#QQ)
     `⌥ w` [WeChat](#WeChat)
-    `⌥ e` [Mail](#Mail) <!-- Email -->
-    `⌥ r` Chrome
+    `⌥ e` [Mail](#Mail)
+    `⌥ r` Preview
     `⌥ t` Thunder
 
     `⌥ a` [PyCharm](#PyCharm)
     `⌥ s` [PhpStorm](#PhpStorm)
     `⌥ d` Dictionary
     `⌥ f` [Finder](#Finder)
-    `⌥ g` Preview
+    `⌥ g` [Acrobat Reader](#Acrobat Reader) ( PDF )
 
-    `^ ⌥ a` [Calendar](#Calendar)
-    `^ ⌥ s` Postman
+    `^ ⌥ a` [Activity Monitor](#Activity_Monitor)
+    `^ ⌥ s` Safari
     `^ ⌥ d` MacID
-    `^ ⌥ f` Safari
-    `^ ⌥ l` Flux
+    `^ ⌥ f` Flux
+    `^ ⌥ g` OpenEmu ( Game )
 
-    `^ ⌥ u` | `凵 x` Atom
+    `⌥ z` Chrome
+    `⌥ x` [Postman](#Postman)
+    `⌥ c` [Calendar](#Calendar)
+    <!--`⌥ v` Focus to Menu Bar-->
+    `⌥ b` Sublime Text
+
+    <!--`^ ⌥ z` Moom-->
+    `^ ⌥ x` | `凵 x` Atom
     `^ ⌥ c` | `凵 c` [Charles](#Charles)
+    <!--`^ ⌥ v` ClipMenu-->
+    <!--`^ ⌥ b` -->
 
-- Rg Hand
+- Rg Char
 
     `⌥ y` [Typora](#Typora)
     `⌥ u` [EuDic Free](#EuDict Free)
-    `⌥ i` iTunes
-    `⌥ o` ShadowsocksX
-    `⌥ p` AppStore
+    `⌥ i` Office Excel
+    `⌥ o` Office Word
+    `⌥ p` Maps
+    <!--`⌥ [` Paste to Evernote-->
+    <!--`⌥ ]` -->
+    <!--`⌥ \` -->
 
-    `^ ⌥ u` Sublime Text
-    `^ ⌥ i` Visual Studio Code
+    `^ ⌥ y` Visual Studio Code
+    `^ ⌥ u` [QQ Music](#QQ Music)
+    `^ ⌥ i` iTunes
+    `^ ⌥ o` ShadowsocksX
+    `^ ⌥ p` AppStore
+    <!--`^ ⌥ [` -->
+    <!--`^ ⌥ ]` Expand Bartender 2-->
+    <!--`^ ⌥ \` -->
 
     `⌥ h` Photos
+    <!--`⌥ j` Search in All Files-->
     `⌥ k` [Karabiner](#Karabiner)
     `⌥ l` [Seil](#Seil)
+    <!--`⌥ ;` Symbol `…`-->
+    <!--`⌥ '` Quick Note in Evernote-->
 
-    `⌥ n` Netease Music
+    `^ ⌥ h` Time Machine
+    `^ ⌥ j` IntelliJ
+    `^ ⌥ k` Calculator
+    `^ ⌥ l` CLion
+    `^ ⌥ ;` Parallels Desktop
+    <!--`^ ⌥ '` -->
+
+    `⌥ n` [Netease Music](#Netease Music)
     `⌥ m` [Manico](#Manico)
     `⌥ ,` Numi
     `⌥ .` Login Task
+    <!--`⌥ /` Search in Evernote-->
 
     `^ ⌥ n` Nozio
     `^ ⌥ m` Sequel Pro <!-- MySQL Client -->
+    <!--`^ ⌥ ,` -->
+    <!--`^ ⌥ .` -->
+    <!--`^ ⌥ /` Show Help Menu-->
 
 # Moom
 
@@ -707,6 +835,21 @@ Not Only shortcuts, but also Change Layout of Keyboard!
     `z` Original ( Revert )
     `v` Full Screen
     `凵` Fit to Desktop
+
+# Netease Music
+
+`凵` Play | Pause
+
+`⌘ →` Next
+`⌘ ←` Prev
+
+`⌘ ↑` Volume Up
+`⌘ ↓` Volume Down
+
+__`⌘ l` Dislike__
+__`⌘ r` Show | Hide Lyrics__
+
+__`⌘ ^ m` Switch MiniPlayer__
 
 # PhpStorm
 
@@ -770,6 +913,19 @@ Same as PhpStorm.
 `⌘ ^ a` Capture ( Can be used without opening QQ. )
 `⌘ ↑` Select Prev Chat
 `⌘ ↓` Select Next Chat
+
+`⌘ 1` Switch to Messages
+`⌘ 2` Switch to Contacts
+`⌘ 3` Switch to Applications
+`⌘ e` Switch Mode Simple/Complete
+__`⌘ d` Delete Chat__
+
+# QQ Music
+
+`⌘ →` Next
+`⌘ ←` Prev
+
+`⌘ ⌥ m` Swith MiniPlayer
 
 # Script Editor
 
