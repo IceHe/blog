@@ -1,6 +1,6 @@
 title: Resume 何志远
 date: 2015-01-24
-updated: 2016-08-11
+updated: 2016-08-13
 show_updated: true
 categories: [whoami]
 tags: [whoami]
@@ -20,46 +20,35 @@ toc: false
 - __GitHub__ &nbsp; &nbsp; &nbsp; <i class="fa fa-github"> &nbsp;</i>[github.com/IceHe](https://github.com/IceHe)
 
 ## __Skills__
-- __Level__
+- __Level__ &nbsp; &nbsp; <i class="fa fa-trophy"></i> Proficient &nbsp; &nbsp; <i class="fa fa-star"></i> Familiar &nbsp; <i class="fa fa-star-half-o"></i> Competent &nbsp; <i class="fa fa-star-o"></i> Know
 
-    <i class="fa fa-trophy"></i> Proficient &nbsp; <i class="fa fa-star"></i> Familiar &nbsp; <i class="fa fa-star-half-o"></i> Competent &nbsp; <i class="fa fa-star-o"></i> Know
+- __Language__ &nbsp; &nbsp; __<i class="fa fa-star-half-o"></i> `PHP 7` `C++ 11` `Python 3`__ `C` `Java` `JavaScript` &nbsp; <i class="fa fa-star-o"></i> `ASM` `VB`
 
-- __Language__
+- __OS__ &nbsp; &nbsp; __<i class="fa fa-star"></i> `macOS` &nbsp; <i class="fa fa-star-half-o"></i> `CentOS 6.5 / 7` `Windows 7 / 8.1`__ &nbsp; <i class="fa fa-star-o"></i> `Ubuntu`
 
-    __<i class="fa fa-star-half-o"></i> `PHP` `Python` `C++`__ `C` `Java` `JavaScript` <i class="fa fa-star-o"></i> `ASM` `VB`
+- __DB__ &nbsp; &nbsp; __<i class="fa fa-star-half-o"></i> `SQL` `MySQL`__ &nbsp; <i class="fa fa-star-o"></i> `MS SQL Server 2008` `Oracle DB`
 
-- __OS__
+- __Web__ &nbsp; &nbsp; __<i class="fa fa-star-half-o"></i> `HTML` `CSS` `jQuery`__ &nbsp; <i class="fa fa-star-o"></i> `Docker` `Redis` `Nginx`
 
-    __<i class="fa fa-star"></i> `macOS` <i class="fa fa-star-half-o"></i> `CentOS 6 / 7` `Windows 7 / 8.1`__ <i class="fa fa-star-o"></i> `Ubuntu`
+- __IDE__ &nbsp; &nbsp; __<i class="fa fa-star-half-o"></i> `PhpStorm` `PyCharm`__ &nbsp; <i class="fa fa-star-o"></i> `Visual Studio` `Eclipse` `QtCreator`
 
-- __DB__
+- __Scripts__ &nbsp; &nbsp; __<i class="fa fa-star"></i> `AppleScript` &nbsp; <i class="fa fa-star-half-o"></i> `Shell script`__ `Batch file`<sup>(Windows)</sup>
 
-    __<i class="fa fa-star-half-o"></i> `SQL` `MySQL`__ <i class="fa fa-star-o"></i> `MS SQL Server 2008` `Oracle DB`
-
-- __Web__
-
-    __<i class="fa fa-star-half-o"></i> `HTML` `CSS` `jQuery`__<!-- <i class="fa fa-star-o"></i> `Nginx` Redis-->
-
-- __IDE__
-
-    __<i class="fa fa-star-half-o"></i> `PhpStorm` `PyCharm`__ <i class="fa fa-star-o"></i> `Visual Studio` `Eclipse` `QtCreator`
-
-- __Scripts__
-
-    __<i class="fa fa-star"></i> `AppleScript` <i class="fa fa-star-half-o"></i> `Shell script`__ `Batch file`<sup>(Windows)</sup>
-
-- __Tools & Others__
-
-    __<i class="fa fa-star"></i> `Git` `Vim` `Zsh` <i class="fa fa-star-half-o"></i> `Qt 4 / 5`__ `Yaf`
+- __Tools & Others__ &nbsp; &nbsp; __<i class="fa fa-star"></i> `Git` `Vim` `Zsh` &nbsp; <i class="fa fa-star-half-o"></i> `Qt 4 / 5`__ `Yaf`
 
 # Career
 
 ## __<span class="icon-weibo">&nbsp;</span>[微梦创科网络技术（中国）有限公司](https://zh.wikipedia.org/wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A) - 手机微博 - 服务端研发 工程师__ &nbsp; _2015.07 ~ Today_
-- MAPI（对外接口部门）- 「[微博移动端](https://itunes.apple.com/cn/app/id350962117)」（手机、平板）各功能的服务端研发与维护；
-[开放平台](http://open.weibo.com/) API 与微博移动端（WAP 端 H5 页面、客户端 App）间请求的聚合与适配对接；
-手机微博管理后台v5（B/S）- 频道打点管理
-- 2016.04 至今，参与「[微博头条](https://itunes.apple.com/cn/app/wei-bo-tou-tiao/id713957166)」项目的服务端研发与维护
-- _PHP , Docker , Nginx , MySQL , Redis , Yaf , Lumen , CentOS_
+- MAPI（移动应用服务）部门 - 职责：「[微博移动端](https://itunes.apple.com/cn/app/id350962117)」（手机、平板）的服务端 API 的开发与维护，
+包括 [开放平台](http://open.weibo.com/) API 、各业务方 与 微博移动端（H5 端、客户端 App）之间信息的聚合与适配对接：
+    重新构建 微博移动 API v7 项目 Sora 的 Page 解析模块
+    开发维护 手机微博管理后台 v5（B/S）频道打点管理模块
+    编写 微博移动 API v5 项目的部分单元测试 …
+- 2016.04 ~ 2016.08 参与「[微博头条](https://itunes.apple.com/cn/app/wei-bo-tou-tiao/id713957166)」的服务端 API 及其 CMS 后台的开发与维护：
+    完全重构 频道订阅模块，开发维护 供产品运营人员使用的 CMS 频道列表管理后台
+    部分重构 微博头条客户端行为日志记录模块，兼容微博客户端的行为日志格式
+    开发维护 微博头条频道 Feed、微博广场头条流、热门微博头条流、文章与标签分享等 API
+- _PHP 7 , Docker , Nginx , Redis , MySQL , Yaf , Lumen , CentOS 6.5 , GitLab_
 
 ## __毕业设计 - [基于进程安全测量的安全管理](https://github.com/IceHe/secure_mgt_by_dynamic_measuring)__ &nbsp; &nbsp; _2015.03 ~ 2015.05_
 - 包括：[安全测量模块](https://github.com/IceHe/dimm)（Linux Loadable Kernel Module）、[安全管理器](https://github.com/IceHe/secure_monitor)（Qt GUI）
@@ -69,8 +58,8 @@ toc: false
 - _C/C++ , Loadable Kernel Module , CentOS 7 , Qt Framework_
 
 ## __<span class="icon-weibo">&nbsp;</span>[微梦创科网络技术（中国）有限公司](https://zh.wikipedia.org/wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A) - 手机微博 - 服务端研发 实习生__ &nbsp; &nbsp; _2014.12 ~ 2015.02_
-- 「手机微博管理后台」v5（B/S）- 开发 「权限管理，业务方需求、运营内容配置」 等需求
-- _PHP , HTML , CSS , jQuery , MySQL , Yaf Framework_
+- 「手机微博管理后台」v5（B/S）- 开发「活动管理，常量管理，日程管理」等模块
+- _PHP 5.6 , HTML , CSS , jQuery , MySQL , Yaf Framework_
 
 ## __[华为软件技术（深圳）有限公司](https://zh.wikipedia.org/wiki/%E5%8D%8E%E4%B8%BA)  - 软件研发 实习生__ &nbsp; &nbsp; _2014.07 ~ 2014.10_
 - 「广东移动电子渠道项目」（[官网](http://www.10086.cn/gd/index_200_200.html) 建设）- 开发「移动商城」、「我的移动」模块的部分需求
@@ -78,7 +67,7 @@ toc: false
 
 ## __华南理工 IBM 实验室 - 成员__ &nbsp; &nbsp; _2013.03 ~ 2014.05_
 - 「华工教学云平台」Windows 客户端（C++ Qt GUI），及 Linux 服务端的部分功能
-- _C/C++ , Qt Framework , CentOS 6 , Fedora_
+- _C/C++ , Qt Framework , CentOS 6.5 , Fedora_
 
 # Education
 
@@ -125,14 +114,14 @@ toc: false
 # Others
 
 ## __Hobbies__
-- <i class="fa fa-soccer-ball-o">&nbsp;</i> 运动：毽球、羽毛球、健身、骑行 &nbsp; <i class="fa fa-trophy">&nbsp;</i>[华工毽球社社长](#华南理工毽球社-社长-nbsp-nbsp-2012-09-2014-06)
+- <i class="fa fa-soccer-ball-o">&nbsp;</i> 运动：毽球、羽毛球、骑行、健身 &nbsp; <i class="fa fa-trophy">&nbsp;</i>[华工毽球社社长](#华南理工毽球社-社长-nbsp-nbsp-2012-09-2014-06)
 - <i class="fa fa-book">&nbsp;</i> 阅读：软件、科技、心理学、商业 &nbsp; <span class="icon-douban"></span> [读过的书](http://book.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
 - <i class="fa fa-pencil-square-o">&nbsp;</i> 写作：难忘的人和事、感悟 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class=" icon-qzone"></span> [旧博客](http://290841032.qzone.qq.com)
 
 ## __Related__
 
-- <i class="fa fa-calendar">&nbsp;</i> [Logs &nbsp;时间统计](http://icehe.me/lifelogs/) &nbsp;|&nbsp; 自律
 - <i class="fa fa-gears">&nbsp;</i> [Tools &nbsp;利器](http://icehe.me/tools/) &nbsp;|&nbsp; 工具控
+- <i class="fa fa-calendar">&nbsp;</i> [Logs &nbsp;时间统计](http://icehe.me/lifelogs/) &nbsp;|&nbsp; 自律
 - <i class="fa fa-keyboard-o">&nbsp;</i> [Shortcuts &nbsp;快捷键](http://icehe.me/mac_shortcuts) &nbsp;|&nbsp; 键盘党
 - <i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;[Technology Bookmarks](http://icehe.me/tech) &nbsp;|&nbsp; 技术
 - <i class="fa fa-bookmark">&nbsp;</i> &nbsp;[Reading Bookmarks](http://icehe.me/read) &nbsp;|&nbsp; 阅读
