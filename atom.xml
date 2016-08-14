@@ -1313,7 +1313,7 @@ img.fix_height {
   </entry>
   
   <entry>
-    <title>用 AppleScript 操作 Evernote / OS X</title>
+    <title>AppleScript 操作 Evernote 与 macOS</title>
     <link href="http://icehe.me/applescript/evernote_osx/"/>
     <id>http://icehe.me/applescript/evernote_osx/</id>
     <published>2016-03-12T16:00:00.000Z</published>
@@ -1378,7 +1378,7 @@ img.fix_height {
     
     <summary type="html">
     
-      在 OS X 上，如何使用 AppleScript 操作 Evernote、OS X。
+      检查控制 Wifi、蓝牙、硬盘、键盘输入，执行命令，操纵其它 App 等：如 Evernote 笔记的同步、检索、编辑、复制、删除、导入导出、重命名、移动笔记本、加标签…
     
     </summary>
     

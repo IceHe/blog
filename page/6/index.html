@@ -233,37 +233,6 @@
     
 <section class="post" itemscope itemprop="blogitem">
     
-    <a href="/batch/DOS 环境变量 Environment Variable/" title="DOS Environment Variable 环境变量" itemprop="url">
-    
-        <h1 itemprop="name">DOS Environment Variable 环境变量</h1>
-    
-        
-        <p itemprop="description" >DOS环境变量：&#37;APPDATA&#37;、&#37;CD&#37;、&#37;DATE&#37;、&#37;ERRORLEVEL&#37;、&#37;PATH&#37;、&#37;RANDOM&#37;、&#37;TEMP&#37;、&#37;TMP&#37;、&#37;TIME&#37;</p>
-        
-    
-        <p style="display:inline">
-            <span title="Page Views">
-                <i class="fa fa-eye"></i>
-                <span class="readtimes">?</span>
-            </span>
-            &nbsp; &nbsp;
-
-            <i class="fa fa-pencil"></i>
-            <time datetime="2015-01-29T16:00:00.000Z" itemprop="datePublished" title="Published Date">
-                2015-01-30
-            </time>
-
-        
-        </p>
-    </a>
-
-</section>
-
-
-
-    
-<section class="post" itemscope itemprop="blogitem">
-    
     <a href="/batch/DOS 常用指令 Command/" title="DOS Command 常用指令" itemprop="url">
     
         <h1 itemprop="name">DOS Command 常用指令</h1>
@@ -326,12 +295,43 @@
     
 <section class="post" itemscope itemprop="blogitem">
     
-    <a href="/c++/C++ Primer 5th/" title="C++ Primer 5th - Note" itemprop="url">
+    <a href="/batch/DOS 环境变量 Environment Variable/" title="DOS Environment Variable 环境变量" itemprop="url">
     
-        <h1 itemprop="name">C++ Primer 5th - Note</h1>
+        <h1 itemprop="name">DOS Environment Variable 环境变量</h1>
     
         
-        <p itemprop="description" >多图慎入！《C++ Primer 5th》中文版及部分其它C++相关的手写笔记的图片存档。</p>
+        <p itemprop="description" >DOS环境变量：&#37;APPDATA&#37;、&#37;CD&#37;、&#37;DATE&#37;、&#37;ERRORLEVEL&#37;、&#37;PATH&#37;、&#37;RANDOM&#37;、&#37;TEMP&#37;、&#37;TMP&#37;、&#37;TIME&#37;</p>
+        
+    
+        <p style="display:inline">
+            <span title="Page Views">
+                <i class="fa fa-eye"></i>
+                <span class="readtimes">?</span>
+            </span>
+            &nbsp; &nbsp;
+
+            <i class="fa fa-pencil"></i>
+            <time datetime="2015-01-29T16:00:00.000Z" itemprop="datePublished" title="Published Date">
+                2015-01-30
+            </time>
+
+        
+        </p>
+    </a>
+
+</section>
+
+
+
+    
+<section class="post" itemscope itemprop="blogitem">
+    
+    <a href="/c++/C++ Interview Book/" title="C++ Interview Book - Note" itemprop="url">
+    
+        <h1 itemprop="name">C++ Interview Book - Note</h1>
+    
+        
+        <p itemprop="description" >多图慎入！《程序员面试笔试宝典》（机械工业出版社）的手写笔记的图片存档。</p>
         
     
         <p style="display:inline">
@@ -423,18 +423,10 @@
 </div>
 
 
-<div class="recommendlist">
-    <p class="asidetitle">
-        Recommend 推荐
-    </p>
-
-    <ul id="recommend_ul" class="clearfix"></ul>
-</div>
-
 <div class="popularlist">
     <p class="asidetitle">
         <!--<a href="javascript:;" onclick="switch_widget_hidden(this);">-->
-            Top15 热榜 &nbsp;
+            Top20 热榜 &nbsp;
             <!--<i class="fa fa-caret-up"></i>-->
         <!--</a>-->
     </p>
@@ -469,6 +461,16 @@
             <li><a href="javascript:;">14 &nbsp;loading ...</a></li>
         
             <li><a href="javascript:;">15 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">16 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">17 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">18 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">19 &nbsp;loading ...</a></li>
+        
+            <li><a href="javascript:;">20 &nbsp;loading ...</a></li>
         
     </ul>
 </div>
@@ -714,13 +716,13 @@
                     if (results.length>0) {
                         var counter = results[0];
                         counter.fetchWhenSave(true); //get recent result
-                        counter.increment("time");
+                        counter.increment("pv");
                         counter.save();
                     } else {
                         var newcounter = new Counter();
                         newcounter.set("title", title);
                         newcounter.set("url", url);
-                        newcounter.set("time", 1);
+                        newcounter.set("pv", 1);
                         newcounter.save(null, {
                             success: function(newcounter) {
                                 //alert('New object created');
@@ -744,12 +746,20 @@
         // and it's not the local site.
         addCount(Counter);
 
-        // if popularlist widget exists, add item to it.
+        // if popularlist widget exists, append items to it.
         var popular_list = $('.popularlist');
         if (1 == popular_list.length) {
             var query = new AV.Query(Counter);
-            query.descending("time");
-            query.limit(15);
+            query.descending('pv');
+            query.limit(30);
+
+            var excluding_list = [
+                '/reward/',
+                '/bookmarks/'
+            ];
+            query.notContainedIn('url', excluding_list);
+
+            query.limit(20);
             query.find({
                 success: function(results) {
                     for(var i = 0; i < results.length; ++i) {
@@ -760,7 +770,7 @@
                                 + counter.get("url") + '" name="'
                                 + title + '">'
                                 + '<sup>'
-                                + counter.get("time") + ' </sup> &nbsp;'
+                                + counter.get("pv") + ' </sup> &nbsp;'
                                 + title
                                 + '</a>'
                         );
@@ -772,17 +782,21 @@
             });
         }
 
-        // if recommendlist widget exists, add item to it.
-        var recommend_list = $('.recommendlist');
-        if (1 == recommend_list.length) {
+//        // if recommendlist widget exists, add item to it.
+//        var recommend_list = $('.recommendlist');
+//        if (1 == recommend_list.length) {
+
+        // if popularlist widget exists, append items to it.
+        if (1 == popular_list.length) {
             var recommend_urls = [
-                '/c++/C++ Interview Book/',
-                '/applescript/evernote_osx/',
-                '/cmd/git_note/',
-                '/lifelogs/',
-                '/tools/'
+//                '/c++/C++ Interview Book/',
+//                '/applescript/evernote_osx/',
+//                '/applescript/applescript/',
+                '/think/bye2015/',
+                '/mac_shortcuts/'
             ];
-            for (var i = 0; i < recommend_urls.length; ++i) {
+
+            for (var i in recommend_urls) {
                 query.equalTo("url", recommend_urls[i]); // use url as unique idnetfication
                 query.find({
                     success: function(results) {
@@ -790,11 +804,12 @@
                             var counter = results[0];
                             var title = counter.get("title");
 
-                            $('#recommend_ul').append('<li><a href="'
+//                            $('#recommend_ul').append('<li><a href="'
+                            $('#popularlist_ul').append('<li><a href="'
                                     + counter.get("url") + '" name="'
                                     + title + '">'
-                                    + '<sup>'
-                                    + counter.get("time") + ' </sup> &nbsp;'
+                                    + '<sup><i class="fa fa-signal"></i>'
+                                    + /*counter.get("pv") +*/ ' </sup> &nbsp;'
                                     + title + '</a></li>'
                             );
                         }
@@ -815,9 +830,9 @@
                         var counter = results[0];
                         var title = counter.get("title");
                         var url = counter.get("url");
-                        var time = counter.get("time");
+                        var pv = counter.get("pv");
 
-                        article_info.find(".article-pageview").text(time);
+                        article_info.find(".article-pageview").text(pv);
                     }
                 },
                 error: function(error) {
@@ -840,9 +855,9 @@
                         if (1 == results.length) {
                             var counter = results[0];
                             var url = counter.get("url");
-                            var time = counter.get("time");
+                            var pv = counter.get("pv");
 
-                            $(".post a[href='" + url + "']").find('.readtimes').text(time);
+                            $(".post a[href='" + url + "']").find('.readtimes').text(pv);
                         }
                     },
                     error: function(error) {

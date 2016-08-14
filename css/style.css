@@ -1541,7 +1541,7 @@ section.comment {
 #toc.toc-aside strong {
   font-weight: bold;
   padding: 0.3em 0;
-  color: color-black;
+  color: #000;
 }
 #toc.toc-aside:hover {
   -webkit-transition: opacity 0.3s ease-out;
@@ -1893,9 +1893,15 @@ section.comment {
   color: #69c;
 }
 .popularlist li:nth-child(5) {
-  border-bottom: 3px solid #ccc;
+  border-bottom: 2px dotted #808080;
 }
 .popularlist li:nth-child(10) {
+  border-bottom: 2px dotted #808080;
+}
+.popularlist li:nth-child(15) {
+  border-bottom: 2px dotted #808080;
+}
+.popularlist li:nth-child(20) {
   border-bottom: 3px solid #ccc;
 }
 .recommendlist {
