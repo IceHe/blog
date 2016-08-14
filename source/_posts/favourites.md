@@ -1,25 +1,31 @@
 title: Favourites 喜好
 date: 2015-11-19
-updated: 2016-07-04
+updated: 2016-08-14
 show_updated: true
 categories: [read]
 tags: [read]
 description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游戏…
 ---
 
-- 心目中的佳作，记录于此。
+- __心目中的佳作，记录于此。__
+
+- Superscript 上标
+    - The item with <sup>__Best__</sup>&nbsp; implies it is `one of the best`.
+    - The item with <sup>_temp_</sup>&nbsp; implies it might `be removed one day`.
+    <!--- The item with <sup>_todo_</sup>&nbsp; implies it has `not been read-through`.-->
+    <!--- The item with <sup>Note</sup>&nbsp; implies it is `a link to my related note`.-->
 
 # Books 书
 
-- [My Read Bookmarks - Books](/read/#Books-书)
+- [Reading Bookmarks - Books](/read/#Books-书)
 
 # FM 播客
 
-- [My Read Bookmarks - FM](/read/#FM-播客)
+- [Reading Bookmarks - FM](/read/#FM-播客)
 
 # WeChat OA 公众号
 
-- [My Read Bookmarks - 微信公众号](/read/#微信公众号)
+- [Reading Bookmarks - 微信公众号](/read/#微信公众号)
 
 # TV Dramas 电视剧
 
@@ -35,11 +41,11 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
     不婚族？
 
-- [Legal High](https://movie.douban.com/subject_search?search_text=Legal+High&cat=1002)
+- [Legal High](https://movie.douban.com/subject_search?search_text=Legal+High&cat=1002) <sup>__Best__</sup>
 
     法律至高。
 
-- [Black Mirror](https://movie.douban.com/subject_search?search_text=Black+Mirror&cat=1002)
+- [Black Mirror](https://movie.douban.com/subject_search?search_text=Black+Mirror&cat=1002) <sup>__Best__</sup>
 
     《黑镜》，警世。
 
@@ -48,6 +54,10 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
     《权力的游戏》，史诗。
 
 # Motion Picture 电影
+
+- [The Secret Life of Walter Mitty](https://movie.douban.com/subject/2133323/)
+
+    《白日梦想家》，让梦境照进现实。
 
 - [Zootopia](https://movie.douban.com/subject/25662329/)
 
@@ -65,15 +75,15 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
     《盗梦空间》，精彩。
 
-- [Fight Club](http://www.imdb.com/title/tt0137523/)
+- [Fight Club](http://www.imdb.com/title/tt0137523/) <sup>__Best__</sup>
 
     《搏击俱乐部》，另一个自我！
 
-- [The Godfather](https://movie.douban.com/subject/1291841/)
+- [The Godfather](https://movie.douban.com/subject/1291841/) <sup>__Best__</sup>
 
     《教父》系列，何为男人。
 
-- [Forrest Gump](https://movie.douban.com/subject/1292720/)
+- [Forrest Gump](https://movie.douban.com/subject/1292720/) <sup>__Best__</sup>
 
     《阿甘正传》，温暖。
 
@@ -93,7 +103,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
     追寻。
 
-- [麦兜故事](https://movie.douban.com/subject/1302476/)
+- [麦兜故事](https://movie.douban.com/subject/1302476/) <sup>__Best__</sup>
 
     童真。
 
@@ -113,13 +123,13 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
     夏。
 
-- [哈尔的移动城堡](https://movie.douban.com/subject/1308807/) <sup>最爱</sup>
+- [哈尔的移动城堡](https://movie.douban.com/subject/1308807/) <sup>__Best__</sup> <sup>最爱</sup>
 
     绚丽。
 
 # Animate 动画
 
-- __[乒乓](https://movie.douban.com/subject/25813424/)__
+- __[乒乓](https://movie.douban.com/subject/25813424/)__ <sup>__Best__</sup>
 
     人生，天赋与努力。
 
@@ -131,7 +141,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
     围棋。
 
-- __[亚人](https://movie.douban.com/review/7794549/)__
+- __[亚人](https://movie.douban.com/review/7794549/)__ <sup>__Best__</sup>
 
     人性，理性。
 
@@ -139,9 +149,9 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
     人性，自然。
 
-- [剑风传奇](http://movie.douban.com/subject_search?search_text=%E5%89%91%E9%A3%8E%E4%BC%A0%E5%A5%87&cat=1002)
+- [剑风传奇](http://movie.douban.com/subject_search?search_text=%E5%89%91%E9%A3%8E%E4%BC%A0%E5%A5%87&cat=1002) <sup>__Best__</sup>
 
-    快意恩仇。
+    快意。
 
 - [一拳超人](http://movie.douban.com/subject/26339248/)
 
@@ -159,7 +169,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
     异能。
 
-- [叛逆的鲁鲁修](http://movie.douban.com/subject_search?search_text=%E5%8F%9B%E9%80%86%E7%9A%84%E9%B2%81%E9%B2%81%E4%BF%AE&cat=1002)
+- [叛逆的鲁鲁修](http://movie.douban.com/subject_search?search_text=%E5%8F%9B%E9%80%86%E7%9A%84%E9%B2%81%E9%B2%81%E4%BF%AE&cat=1002) <sup>__Best__</sup>
 
     剧情、奇幻、机战、政治…… 各元素熔于一炉的神作！
 
@@ -167,19 +177,19 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
     神棍偶像剧。
 
-- [高达铁血的奥尔芬斯](http://movie.douban.com/subject/26538787/)
+- [高达铁血的奥尔芬斯](http://movie.douban.com/subject/26538787/) <sup>__Best__</sup>
 
     铁血孤儿。
 
-- [Re：从零开始的异世界生活](https://movie.douban.com/subject/26575153/)
+- [Re：从零开始的异世界生活](https://movie.douban.com/subject/26575153/) <sup>__Best__</sup>
 
     轮回，执念。
 
-- [魔法少女圆香](http://movie.douban.com/subject_search?search_text=%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%86&cat=1002)
+- [魔法少女圆香](http://movie.douban.com/subject_search?search_text=%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%86&cat=1002) <sup>__Best__</sup>
 
     轮回，救赎。打破常规的魔女作品，虚渊玄作品！神作！
 
-- [ONE OUTS~nobody wins but I!](http://movie.douban.com/subject/3199457/)
+- [ONE OUTS~nobody wins but I!](http://movie.douban.com/subject/3199457/) <sup>__Best__</sup>
 
     《超智游戏》，渡久地东亚！智力碾压。
 
@@ -191,11 +201,11 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
     英雄的盛宴。
 
-- [Hunter X Hunter](http://movie.douban.com/subject/6748086/)
+- [Hunter X Hunter](http://movie.douban.com/subject/6748086/) <sup>__Best__</sup>
 
     《全职猎人》，富奸是天才！剧情世界的架构满分。
 
-- [No Game No Life](http://movie.douban.com/subject/24883272/)
+- [No Game No Life](http://movie.douban.com/subject/24883272/) <sup>__Best__</sup>
 
     《游戏人生》，动漫就是要看得痛快。
 
@@ -211,15 +221,15 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
     （上一世代的）神作。
 
-- [我的青春恋爱物语果然有问题](http://movie.douban.com/subject_search?search_text=%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E6%81%8B%E7%8B1%E7%89%A9%E8%AF%AD%E6%9E%9C%E7%84%B6%E6%9C%89%E9%97%AE%E9%A2%98&cat=1002)
+- [我的青春恋爱物语果然有问题](http://movie.douban.com/subject_search?search_text=%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E6%81%8B%E7%8B1%E7%89%A9%E8%AF%AD%E6%9E%9C%E7%84%B6%E6%9C%89%E9%97%AE%E9%A2%98&cat=1002) <sup>__Best__</sup>
 
     少年心声。
 
-- [我的妹妹不可能那么可爱](http://movie.douban.com/subject_search?search_text=%E6%88%91%E7%9A%84%E5%A6%B9%E5%A6%B9%E4%B8%8D%E5%8F%AF8%83%BD%E9%82%A3%E4%B9%88%E5%8F%AF%E7%88%B1&cat=1002)
+- [我的妹妹不可能那么可爱](http://movie.douban.com/subject_search?search_text=%E6%88%91%E7%9A%84%E5%A6%B9%E5%A6%B9%E4%B8%8D%E5%8F%AF8%83%BD%E9%82%A3%E4%B9%88%E5%8F%AF%E7%88%B1&cat=1002) <sup>__Best__</sup>
 
     傲矫。暴走的结局。
 
-- [少女月刊野崎君](http://movie.douban.com/subject/25850705/)
+- [少女月刊野崎君](http://movie.douban.com/subject/25850705/) <sup>__Best__</sup>
 
     恋上漫画家。
 
@@ -229,11 +239,15 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 - [交响情人梦](http://movie.douban.com/subject_search?search_text=%E4%BA%A4%E5%93%8D%E6%83%85%E4%BA%BA%E6%A2%A6&cat=1002)
 
-    野田妹。
+    野田妹~
 
 - [[ C ] THE MONEY OF SOUL AND POSSIBILITY CONTROL](http://movie.douban.com/subject/5413681/)
 
     未来。
+
+- [伪恋](https://movie.douban.com/subject_search?search_text=%E4%BC%AA%E6%81%8B&cat=1002)
+
+    恋爱喜剧。
 
 - [Angel Beats!](http://movie.douban.com/subject/4202090/)
 
@@ -243,7 +257,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
     花开之色。
 
-- [冰菓](http://movie.douban.com/subject/10001418/)
+- [冰菓](http://movie.douban.com/subject/10001418/) <sup>__Best__</sup>
 
     情愫。
 
@@ -255,7 +269,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
     入宅作，从只有几集动画时就开始追了，却没坚持到最后。
 
-- [罗小黑战记](http://movie.douban.com/subject/10477598/)
+- [罗小黑战记](http://movie.douban.com/subject/10477598/) <sup>__Best__</sup>
 
     萌~
 
@@ -267,7 +281,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 ## iOS
 
-- [Deemo](https://itunes.apple.com/en/app/deemo/id700637744?mt=8)
+- [Deemo](https://itunes.apple.com/en/app/deemo/id700637744?mt=8) <sup>__Best__</sup>
 
     最爱的音乐游戏，最爱曲目：Magnolia 。超喜欢这个游戏工作室：Rayark（台湾）！
 
@@ -278,7 +292,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
     《皇家守卫军》，塔防。
 
-- [Framed](https://itunes.apple.com/en/app/framed/id886565180?mt=8)
+- [Framed](https://itunes.apple.com/en/app/framed/id886565180?mt=8) <sup>__Best__</sup>
 
     《致命框架》，解密游戏，玩法新奇有趣。
 
@@ -296,7 +310,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
     《炉石传说》，勾起当年玩「游戏王」的卡牌情结。
 
-- [Warcraft 3](http://us.blizzard.com/en-us/games/war3/)
+- [Warcraft 3](http://us.blizzard.com/en-us/games/war3/) <sup>__Best__</sup>
 
     《魔兽争霸3 冰封王座》！当年多喜欢即时战略，不过这股风潮已经过去。之后崛起的 Dota、LOL 就没玩了。
 
@@ -306,7 +320,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 ## Game Boy 掌机
 
-- [Final Fantasy Tactics A2](http://ffta2.ffsky.cn/)
+- [Final Fantasy Tactics A2](http://ffta2.ffsky.cn/) <sup>__Best__</sup>
 
     《最终幻想战略版》 A & A2 ！ 我最喜欢的游戏类型就是战棋，它就是我心目中的神作！ 最喜欢的最终幻想衍生游戏分支，我重玩次数最多的游戏， 献给这个系列的两作游戏的时间远超700小时。
 
@@ -314,7 +328,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
     《国王之心：记忆之链》
 
-- [逆转裁判 系列](https://zh.wikipedia.org/wiki/%E9%80%86%E8%BD%AC%E8%A3%81%E5%88%A4%E7%B3%BB%E5%88%97)
+- [逆转裁判 系列](https://zh.wikipedia.org/wiki/%E9%80%86%E8%BD%AC%E8%A3%81%E5%88%A4%E7%B3%BB%E5%88%97) <sup>__Best__</sup>
 
     当之无愧的神作！律师的故事，有趣的玩法，巧思妙绝、荡气回肠的剧情，让人久久不能平复！只通关一次怎能完全体会其中绝伦的精彩……
 
@@ -338,7 +352,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 ## 红白机
 
-- [热血系列](https://zh.wikipedia.org/wiki/%E7%86%B1%E8%A1%80%E7%B3%BB%E5%88%97)
+- [热血系列](https://zh.wikipedia.org/wiki/%E7%86%B1%E8%A1%80%E7%B3%BB%E5%88%97) <sup>__Best__</sup>
 
     热血硬派、热血高校、热血物语、热血足球、热血篮球、 热血进行曲、热血新记录、热血格斗传说……
 
@@ -352,7 +366,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 ## Gal Games
 
-- [沙耶之歌](https://zh.wikipedia.org/wiki/%E6%B2%99%E8%80%B6%E4%B9%8B%E6%AD%8C)
+- [沙耶之歌](https://zh.wikipedia.org/wiki/%E6%B2%99%E8%80%B6%E4%B9%8B%E6%AD%8C) <sup>__Best__</sup>
 
     我的重口 Gal 入门作，虚渊玄作品。
 
@@ -360,17 +374,17 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
     超文艺，也超重口。
 
-- [鬼哭街2011重制版](http://baike.baidu.com/view/8890991.htm)
+- [鬼哭街2011重制版](http://baike.baidu.com/view/8890991.htm) <sup>__Best__</sup>
 
     我想象中的现代中式武侠打斗的文字描写范本，虚渊玄作品。
 
 ## 实体游戏
 
-- [游戏王](https://zh.wikipedia.org/wiki/%E9%81%8A%E6%88%B2%E7%8E%8B%E9%9B%86%E6%8F%9B%E7%B4%99%E7%89%8C%E9%81%8A%E6%88%B2)
+- [游戏王](https://zh.wikipedia.org/wiki/%E9%81%8A%E6%88%B2%E7%8E%8B%E9%9B%86%E6%8F%9B%E7%B4%99%E7%89%8C%E9%81%8A%E6%88%B2) <sup>__Best__</sup>
 
     挚爱的卡牌游戏，当年几个损友一起愉快地玩了三年，花了不少钱去买正版卡牌；初三戒了，就再也没有继续下去，几个损友如今也难再聚。
 
-- [围棋](https://zh.wikipedia.org/wiki/%E5%9B%B4%E6%A3%8B)
+- [围棋](https://zh.wikipedia.org/wiki/%E5%9B%B4%E6%A3%8B) <sup>__Best__</sup>
 
     深奥幽玄。当年买了好几本大部头教材，小学中午午睡时间我不睡觉，就在被窝里钻研。
 
