@@ -117,20 +117,20 @@
         
             <section class="post" itemscope itemprop="blogPost">
     
-    <a href="/c++/C++ Primer 5th/" title="C++ Primer 5th - Note" itemprop="url">
+    <a href="/c++/C++ Interview Book/" title="C++ Interview Book - Note" itemprop="url">
     
         <time datetime="2015-01-28T16:00:00.000Z" itemprop="datePublished">2015-01-29</time>
-        <h1 itemprop="name">C++ Primer 5th - Note</h1>
+        <h1 itemprop="name">C++ Interview Book - Note</h1>
     </a>
 </section>
 
         
             <section class="post" itemscope itemprop="blogPost">
     
-    <a href="/c++/C++ Interview Book/" title="C++ Interview Book - Note" itemprop="url">
+    <a href="/c++/C++ Primer 5th/" title="C++ Primer 5th - Note" itemprop="url">
     
         <time datetime="2015-01-28T16:00:00.000Z" itemprop="datePublished">2015-01-29</time>
-        <h1 itemprop="name">C++ Interview Book - Note</h1>
+        <h1 itemprop="name">C++ Primer 5th - Note</h1>
     </a>
 </section>
 
@@ -460,8 +460,9 @@
 //                '/applescript/applescript/',
                 '/mac_shortcuts/',
                 '/resume/',
+                '/about/',
                 '/think/bye2015/',
-                '/about/'
+                '/think/2016_summer/'
             ];
 
             for (var i in recommend_urls) {
@@ -476,8 +477,8 @@
                             $('#popularlist_ul').append('<li><a href="'
                                     + counter.get("url") + '" name="'
                                     + title + '">'
-                                    + '<sup><i class="fa fa-signal"></i>'
-                                    + /*counter.get("pv") +*/ ' </sup> &nbsp;'
+                                    + '<sup><i class="fa fa-signal">&nbsp;</i>'
+                                    + counter.get("pv") + ' </sup> &nbsp;'
                                     + title + '</a></li>'
                             );
                         }

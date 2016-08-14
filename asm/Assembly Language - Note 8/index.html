@@ -806,8 +806,9 @@ var duoshuoQuery = {short_name:"icehe"};
 //                '/applescript/applescript/',
                 '/mac_shortcuts/',
                 '/resume/',
+                '/about/',
                 '/think/bye2015/',
-                '/about/'
+                '/think/2016_summer/'
             ];
 
             for (var i in recommend_urls) {
@@ -822,8 +823,8 @@ var duoshuoQuery = {short_name:"icehe"};
                             $('#popularlist_ul').append('<li><a href="'
                                     + counter.get("url") + '" name="'
                                     + title + '">'
-                                    + '<sup><i class="fa fa-signal"></i>'
-                                    + /*counter.get("pv") +*/ ' </sup> &nbsp;'
+                                    + '<sup><i class="fa fa-signal">&nbsp;</i>'
+                                    + counter.get("pv") + ' </sup> &nbsp;'
                                     + title + '</a></li>'
                             );
                         }
