@@ -1,6 +1,6 @@
 title: Reading Bookmarks 阅读书签
 date: 2016-06-17
-updated: 2016-08-06
+updated: 2016-08-14
 show_updated: true
 categories: [read]
 tags: [read]
@@ -191,6 +191,8 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 
 - [怎样纠正成年人驼背、耸肩的体态？](https://www.zhihu.com/question/19985122)- 挺拔
 
+- [自慰的真正危害有哪些？](https://www.zhihu.com/question/20519139)- 哈哈
+
 - [正确坐姿](http://mp.weixin.qq.com/s?__biz=MjM5NzA1MTcyMA==&mid=204444629&idx=1&sn=cbab111041ec4302c8faac4aedf55a94&scene=0#rd) - 腰椎、颈椎
 
 ## EN 英语
@@ -216,6 +218,8 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 ## Finance 理财
 
 - __[商业分析能力是怎样炼成的？](https://www.zhihu.com/question/20603837/answer/47073613)__<sup>__Best__</sup>
+
+- [如何用保险保障自己的一生？](https://www.zhihu.com/question/22316395)- 安稳人生 <sup>__Best__</sup>
 
 - [普通人如何合理的理财投资，有哪些书可以学习阅读？](https://www.zhihu.com/question/22818974)- 必修 <sup>_todo_</sup>
 
@@ -263,9 +267,10 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 
 - [广州有什么「鲜为人知但很有意思」的景点？](https://www.zhihu.com/question/21648404)
 
-- [我知道你看过不少神剧，但许多都「抄袭」它](http://mp.weixin.qq.com/s?__biz=MjM5MTIwNTYwMg==&mid=402346946&idx=1&sn=8b2c0e87815358358eff466c25b0836b&scene=5&srcid=1209kGNJ89UQoUCc9M81CNEZ#rd) <sup>_todo_</sup>
+- [我知道你看过不少神剧，但许多都「抄袭」它](http://mp.weixin.qq.com/s?__biz=MjM5MTIwNTYwMg==&mid=402346946&idx=1&sn=8b2c0e87815358358eff466c25b0836b&scene=5&srcid=1209kGNJ89UQoUCc9M81CNEZ#rd) <sup>_temp_</sup>
+- [想要充实自己，有哪10本书和10部电影值得推荐？](https://www.zhihu.com/question/35005800/answer/61498512)<sup>_temp_</sup>
 
-- [有哪些电影一定要趁年轻看？](https://www.zhihu.com/question/25699277)<sup>_todo_</sup>
+- [有哪些电影一定要趁年轻看？](https://www.zhihu.com/question/25699277)<sup>_temp_</sup>
 
 <!--## Clothing 衣-->
 
