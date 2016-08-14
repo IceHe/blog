@@ -1,6 +1,6 @@
 title: Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2016-08-12
+updated: 2016-08-14
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -105,7 +105,7 @@ description: 我的 OS X 快捷键列表。
 __Bold__ : I am unfamiliar with it .
 _Italic_ : I seldom use it .
 
-# Mac OS X
+# macOS
 
 Some are default in operating system.
 Some of the keys below can be modified in `System Preference → Keyboard`.
@@ -609,10 +609,23 @@ _Most Keys are Same as Vim , Just List my Custom Keys._
 
 # iTerm2
 
-__`⌘ ;` Autocomplete__
-`⌘ /` Find Cursor
-_`⌘⌥ /` Recent Directories_
-`⌘⇧ h` Paste History
+- Edit
+
+    __`⌘ ;` Autocomplete__
+    __`⌘ ⇧ h` Paste History__
+    _`⌘ ⌥ /` Recent Directories_
+
+- Pane
+
+    __`⌘ d` Split Vertically__
+    __`⌘ ⇧ d` Split Horizontally__
+
+    `⌘ [` Prev Pane
+    `⌘ ]` Next Pane
+
+- Others
+
+    `⌘ /` Find Cursor
 
 # Karabiner
 
