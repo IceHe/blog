@@ -27,32 +27,6 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 - [Reading Bookmarks - 微信公众号](/read/#微信公众号)
 
-# TV Dramas 电视剧
-
-- [半泽直树](https://movie.douban.com/subject/24697949/)
-
-    复仇，弱肉强食。
-
-- [最完美的离婚](https://movie.douban.com/subject_search?search_text=%E6%9C%80%E5%AE%8C%E7%BE%8E%E7%9A%84%E7%A6%BB%E5%A9%9A&cat=1002*)
-
-    生活。
-
-- [家族的形式](https://movie.douban.com/subject/26663070/)
-
-    不婚族？
-
-- [Legal High](https://movie.douban.com/subject_search?search_text=Legal+High&cat=1002) <sup>__Best__</sup>
-
-    法律至高。
-
-- [Black Mirror](https://movie.douban.com/subject_search?search_text=Black+Mirror&cat=1002) <sup>__Best__</sup>
-
-    《黑镜》，警世。
-
-- [Game of Thrones](https://movie.douban.com/subject_search?search_text=Game+of+Thrones&cat=1002)
-
-    《权力的游戏》，史诗。
-
 # Motion Picture 电影
 
 - [The Secret Life of Walter Mitty](https://movie.douban.com/subject/2133323/)
@@ -126,6 +100,32 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 - [哈尔的移动城堡](https://movie.douban.com/subject/1308807/) <sup>__Best__</sup> <sup>最爱</sup>
 
     绚丽。
+
+# TV Dramas 电视剧
+
+- [半泽直树](https://movie.douban.com/subject/24697949/)
+
+    复仇，弱肉强食。
+
+- [最完美的离婚](https://movie.douban.com/subject_search?search_text=%E6%9C%80%E5%AE%8C%E7%BE%8E%E7%9A%84%E7%A6%BB%E5%A9%9A&cat=1002*)
+
+    生活。
+
+- [家族的形式](https://movie.douban.com/subject/26663070/)
+
+    不婚族？
+
+- [Legal High](https://movie.douban.com/subject_search?search_text=Legal+High&cat=1002) <sup>__Best__</sup>
+
+    法律至高。
+
+- [Black Mirror](https://movie.douban.com/subject_search?search_text=Black+Mirror&cat=1002) <sup>__Best__</sup>
+
+    《黑镜》，警世。
+
+- [Game of Thrones](https://movie.douban.com/subject_search?search_text=Game+of+Thrones&cat=1002)
+
+    《权力的游戏》，史诗。
 
 # Animate 动画
 
