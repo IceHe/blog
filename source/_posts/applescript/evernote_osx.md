@@ -1,4 +1,4 @@
-title: 用 AppleScript 操作 Evernote / OS X
+title: AppleScript 操作 Evernote / OS X
 date: 2016-03-13
 updated: 2016-03-16
 show_updated: false
