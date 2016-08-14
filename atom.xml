@@ -1927,7 +1927,7 @@ img.fix_height {
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
-    <updated>2016-08-11T16:00:00.000Z</updated>
+    <updated>2016-08-13T16:00:00.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Here are the Mac shortcuts:&lt;/p&gt;
@@ -1980,7 +1980,7 @@ img.fix_height {
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;Meaning-of-Font-Style&quot;&gt;&lt;a href=&quot;#Meaning-of-Font-Style&quot; class=&quot;headerlink&quot; title=&quot;Meaning of Font Style&quot;&gt;&lt;/a&gt;Meaning of Font Style&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Bold&lt;/strong&gt; : I am unfamiliar with it .&lt;br&gt;&lt;em&gt;Italic&lt;/em&gt; : I seldom use it .&lt;/p&gt;
-&lt;h1 id=&quot;Mac-OS-X&quot;&gt;&lt;a href=&quot;#Mac-OS-X&quot; class=&quot;headerlink&quot; title=&quot;Mac OS X&quot;&gt;&lt;/a&gt;Mac OS X&lt;/h1&gt;&lt;p&gt;Some are default in operating system.&lt;br&gt;Some of the keys below can be modified in &lt;code&gt;System Preference → Keyboard&lt;/code&gt;.&lt;br&gt;Some are modified by Apps &lt;a href=&quot;#Karabiner&quot;&gt;Karabiner&lt;/a&gt; , &lt;a href=&quot;#Seil&quot;&gt;Seil&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&quot;macOS&quot;&gt;&lt;a href=&quot;#macOS&quot; class=&quot;headerlink&quot; title=&quot;macOS&quot;&gt;&lt;/a&gt;macOS&lt;/h1&gt;&lt;p&gt;Some are default in operating system.&lt;br&gt;Some of the keys below can be modified in &lt;code&gt;System Preference → Keyboard&lt;/code&gt;.&lt;br&gt;Some are modified by Apps &lt;a href=&quot;#Karabiner&quot;&gt;Karabiner&lt;/a&gt; , &lt;a href=&quot;#Seil&quot;&gt;Seil&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Power&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;&lt;/code&gt; Wake Up&lt;br&gt;  &lt;code&gt;⌘ ⌥ &lt;/code&gt; Sleep&lt;br&gt;  &lt;code&gt;^ ⇧ &lt;/code&gt; Display Sleep&lt;br&gt;  &lt;code&gt;^ &lt;/code&gt; Shut Down ( can choose to Sleep or Restart )&lt;/p&gt;
@@ -2202,7 +2202,18 @@ img.fix_height {
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&quot;iTerm2&quot;&gt;&lt;a href=&quot;#iTerm2&quot; class=&quot;headerlink&quot; title=&quot;iTerm2&quot;&gt;&lt;/a&gt;iTerm2&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;&lt;code&gt;⌘ ;&lt;/code&gt; Autocomplete&lt;/strong&gt;&lt;br&gt;&lt;code&gt;⌘ /&lt;/code&gt; Find Cursor&lt;br&gt;&lt;em&gt;&lt;code&gt;⌘⌥ /&lt;/code&gt; Recent Directories&lt;/em&gt;&lt;br&gt;&lt;code&gt;⌘⇧ h&lt;/code&gt; Paste History&lt;/p&gt;
+&lt;h1 id=&quot;iTerm2&quot;&gt;&lt;a href=&quot;#iTerm2&quot; class=&quot;headerlink&quot; title=&quot;iTerm2&quot;&gt;&lt;/a&gt;iTerm2&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Edit&lt;/p&gt;
+&lt;p&gt;  &lt;strong&gt;&lt;code&gt;⌘ ;&lt;/code&gt; Autocomplete&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌘ ⇧ h&lt;/code&gt; Paste History&lt;/strong&gt;&lt;br&gt;  &lt;em&gt;&lt;code&gt;⌘ ⌥ /&lt;/code&gt; Recent Directories&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Pane&lt;/p&gt;
+&lt;p&gt;  &lt;strong&gt;&lt;code&gt;⌘ d&lt;/code&gt; Split Vertically&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌘ ⇧ d&lt;/code&gt; Split Horizontally&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;⌘ [&lt;/code&gt; Prev Pane&lt;br&gt;  &lt;code&gt;⌘ ]&lt;/code&gt; Next Pane&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Others&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;⌘ /&lt;/code&gt; Find Cursor&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&quot;Karabiner&quot;&gt;&lt;a href=&quot;#Karabiner&quot; class=&quot;headerlink&quot; title=&quot;Karabiner&quot;&gt;&lt;/a&gt;Karabiner&lt;/h1&gt;&lt;p&gt;Not Only shortcuts, but also Change Layout of Keyboard!&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Setting&lt;/p&gt;
@@ -3286,15 +3297,20 @@ img.fix_height {
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.victorsport.com.cn/product_data.php?id=bVjabyTqrMjj666zMjEk67dD4xSyq&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;TK-ONIGIRI&lt;/a&gt; - 羽球拍 &lt;sup&gt;Favourite&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;  Victor Sport 的 Thruster K ONIGIRI 突击鬼斩。&lt;/p&gt;
-&lt;p&gt;  进攻型羽毛球拍，重量 4U，拉 28 磅的 YONEX 80 Power 线。毕竟我喜欢暴力打球。&lt;/p&gt;
-&lt;p&gt;  打惯 3U 的球拍，一开始不适应，感觉它偏轻、没“手感”。挥拍扣杀时，感觉球拍不够重，惯性不够大，出力不足；但移动、挥拍、救球、回球来更快更灵活，省腕力，长时间打球省体力。&lt;/p&gt;
+&lt;p&gt;  进攻型羽毛球拍，重量 4U，手柄 G5 粗细，拉 28 磅的 YONEX 80 Power 线。毕竟我喜欢暴力打球。&lt;/p&gt;
+&lt;p&gt;  打惯 3U 的球拍，一开始不适应，感觉它偏轻、没“手感”。挥拍扣杀时，感觉球拍不够重，惯性不够大，出力不足。&lt;br&gt;  但移动、挥拍、救球、回球来更快更灵活，省腕力，长时间打球省体力。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://item.taobao.com/item.htm?spm=a1z09.2.0.0.H4Rwq7&amp;amp;id=14324807794&amp;amp;_u=euv5jet879d&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;YONEX 65FT 白 JP 版&lt;/a&gt; - 羽球鞋&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.merida.cn/?p=82&amp;amp;a=view&amp;amp;r=482&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Merida Duke 300&lt;/a&gt; - 山地车&lt;/p&gt;
-&lt;p&gt;  美利达公爵 300，入门级山地车。白色，24 速 + 油碟。&lt;/p&gt;
-&lt;p&gt;  主要用途：上下班通勤。&lt;br&gt;  安全装备：头盔 + 手套 + 车前灯 + 骑行背包。&lt;br&gt;  其它装备：防晒霜、魔术头巾、铁发箍。&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.merida.cn/?p=82&amp;amp;a=view&amp;amp;r=482&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Merida Duke 300&lt;/a&gt; - 自行车 &lt;sup&gt;Favourite&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;  美利达公爵 300，入门级山地车，白色款，24 速 + 油碟（刹车灵敏，手感好，持久耐用）。&lt;/p&gt;
+&lt;p&gt;  主要用于：上下班通勤。&lt;br&gt;  安全装备：头盔 + 手套 + 车前灯 + 骑行背包。&lt;br&gt;  其它装备：防晒霜、魔术头巾、铁发箍。&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.qdong365.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;智芯 Z1&lt;/a&gt; - 自行车智能硬件&lt;/p&gt;
 &lt;p&gt;  用于 &lt;a href=&quot;http://www.qdong365.com/web/page/product&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;骑行数据记录&lt;/a&gt;（定位、计时…）、车队组网互动、&lt;a href=&quot;http://www.qdong365.com/web/page/product&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;防盗&lt;/a&gt;！&lt;br&gt;  还可以进一步购买 &lt;a href=&quot;http://www.qdong365.com/web/page/insurance&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;自行车盗抢险&lt;/a&gt;，更放心、充分地用车。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--To Buy--&gt;
