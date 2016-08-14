@@ -450,7 +450,7 @@
 <li><p>Input</p>
 <ul>
 <li><p>Functional</p>
-<p><code>凵 123456790-=</code> = <code>F1</code>, <code>F2</code>, …, <code>F12</code></p>
+<p><code>Functional Keys</code> = <code>F1</code> ~ <code>F12</code><br><code>凵 123456790-=</code> = <code>Fn</code> + ( <code>F1</code> ~ <code>F12</code> )<br>e.g. Brightness, Music, Volume, Keyboard Light … Control</p>
 </li>
 <li><p>Num</p>
 <p><code>Num</code> = <code>!@#$%^&amp;*()</code><br><code>⇧ Num</code> = <code>1234567890</code><br><code>凵 asdfghjkl;</code> = <code>123456890</code></p>
@@ -1384,6 +1384,8 @@ var duoshuoQuery = {short_name:"icehe"};
             query.limit(30);
 
             var excluding_list = [
+                '/about/',
+                '/resume/',
                 '/reward/',
                 '/bookmarks/'
             ];
@@ -1422,8 +1424,10 @@ var duoshuoQuery = {short_name:"icehe"};
 //                '/c++/C++ Interview Book/',
 //                '/applescript/evernote_osx/',
 //                '/applescript/applescript/',
+                '/mac_shortcuts/',
+                '/resume/',
                 '/think/bye2015/',
-                '/mac_shortcuts/'
+                '/about/'
             ];
 
             for (var i in recommend_urls) {

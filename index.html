@@ -145,7 +145,7 @@
         <h1 itemprop="name">2016 Summer</h1>
     
         
-        <p itemprop="description" >2016 年夏，上半年记。</p>
+        <p itemprop="description" >写于 2016 年夏，一至八月小记。</p>
         
     
         <p style="display:inline">
@@ -160,6 +160,12 @@
                 2016-07-03
             </time>
 
+        
+            &nbsp; &nbsp;
+            <i class="fa fa-refresh"></i>
+            <time datetime="2016-08-13T16:00:00.000Z" itemprop="dateUpdated" title="Updated Date">
+                2016-08-14
+            </time>
         
         </p>
     </a>
@@ -194,8 +200,8 @@
         
             &nbsp; &nbsp;
             <i class="fa fa-refresh"></i>
-            <time datetime="2016-08-03T16:00:00.000Z" itemprop="dateUpdated" title="Updated Date">
-                2016-08-04
+            <time datetime="2016-08-13T16:00:00.000Z" itemprop="dateUpdated" title="Updated Date">
+                2016-08-14
             </time>
         
         </p>
@@ -778,6 +784,8 @@
             query.limit(30);
 
             var excluding_list = [
+                '/about/',
+                '/resume/',
                 '/reward/',
                 '/bookmarks/'
             ];
@@ -816,8 +824,10 @@
 //                '/c++/C++ Interview Book/',
 //                '/applescript/evernote_osx/',
 //                '/applescript/applescript/',
+                '/mac_shortcuts/',
+                '/resume/',
                 '/think/bye2015/',
-                '/mac_shortcuts/'
+                '/about/'
             ];
 
             for (var i in recommend_urls) {
