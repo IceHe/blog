@@ -614,22 +614,25 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     Victor Sport 的 Thruster K ONIGIRI 突击鬼斩。
 
-    进攻型羽毛球拍，重量 4U，拉 28 磅的 YONEX 80 Power 线。毕竟我喜欢暴力打球。
+    进攻型羽毛球拍，重量 4U，手柄 G5 粗细，拉 28 磅的 YONEX 80 Power 线。毕竟我喜欢暴力打球。
 
-    打惯 3U 的球拍，一开始不适应，感觉它偏轻、没“手感”。挥拍扣杀时，感觉球拍不够重，惯性不够大，出力不足；但移动、挥拍、救球、回球来更快更灵活，省腕力，长时间打球省体力。
+    打惯 3U 的球拍，一开始不适应，感觉它偏轻、没“手感”。挥拍扣杀时，感觉球拍不够重，惯性不够大，出力不足。
+    但移动、挥拍、救球、回球来更快更灵活，省腕力，长时间打球省体力。
 
-- [Merida Duke 300](http://www.merida.cn/?p=82&a=view&r=482) - 山地车
+    - [YONEX 65FT 白 JP 版](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.H4Rwq7&id=14324807794&_u=euv5jet879d) - 羽球鞋
 
-    美利达公爵 300，入门级山地车。白色，24 速 + 油碟。
+- [Merida Duke 300](http://www.merida.cn/?p=82&a=view&r=482) - 自行车 <sup>Favourite</sup>
 
-    主要用途：上下班通勤。
+    美利达公爵 300，入门级山地车，白色款，24 速 + 油碟（刹车灵敏，手感好，持久耐用）。
+
+    主要用于：上下班通勤。
     安全装备：头盔 + 手套 + 车前灯 + 骑行背包。
     其它装备：防晒霜、魔术头巾、铁发箍。
 
-- [智芯 Z1](http://www.qdong365.com/) - 自行车智能硬件
+    - [智芯 Z1](http://www.qdong365.com/) - 自行车智能硬件
 
-    用于 [骑行数据记录](http://www.qdong365.com/web/page/product)（定位、计时…）、车队组网互动、[防盗](http://www.qdong365.com/web/page/product)！
-    还可以进一步购买 [自行车盗抢险](http://www.qdong365.com/web/page/insurance)，更放心、充分地用车。
+        用于 [骑行数据记录](http://www.qdong365.com/web/page/product)（定位、计时…）、车队组网互动、[防盗](http://www.qdong365.com/web/page/product)！
+        还可以进一步购买 [自行车盗抢险](http://www.qdong365.com/web/page/insurance)，更放心、充分地用车。
 
 <!--To Buy-->
 
