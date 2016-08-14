@@ -618,7 +618,9 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     打惯 3U 的球拍，一开始不适应，感觉它偏轻、没“手感”。挥拍扣杀时，感觉球拍不够重，惯性不够大，出力不足。但移动、挥拍、救球、回球来更快更灵活，省腕力，长时间打球省体力。
 
-    - [YONEX 65FT 白 JP 版](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.H4Rwq7&id=14324807794&_u=euv5jet879d) - 羽球鞋
+    - __[YONEX 65FT 白 JP 版](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.H4Rwq7&id=14324807794&_u=euv5jet879d) - 羽球鞋__
+
+        终于买了双像样的鞋，为的是运动时能更舒适、灵活地移动，保护脚趾、脚掌、脚踝、膝盖。待体验。
 
 - [Merida Duke 300](http://www.merida.cn/?p=82&a=view&r=482) - 自行车 <sup>Favourite</sup>
 
