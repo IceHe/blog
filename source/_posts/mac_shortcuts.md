@@ -648,7 +648,9 @@ Not Only shortcuts, but also Change Layout of Keyboard!
 
     - Functional
 
-    `凵 123456790-=` = `F1`, `F2`, …, `F12`
+    `Functional Keys` = `F1` ~ `F12`
+    `凵 123456790-=` = `Fn` + ( `F1` ~ `F12` )
+    e.g. Brightness, Music, Volume, Keyboard Light … Control
 
     - Num
 
