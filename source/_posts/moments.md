@@ -111,14 +111,6 @@ GLR 「过来人」后改名为「优职英才」，创业是残酷的，那几�
 
 书桌。久违的家。
 
-## 2016夏，冲绳
-
-<img src="http://7vzp68.com1.z0.glb.clouddn.com/Okinawa/aquarium_00.png" class="fix_width">
-
-<img src="http://7vzp68.com1.z0.glb.clouddn.com/Okinawa/izakaya_00.png" class="fix_width">
-
-新浪 MAPI 部门团队建设，日本之旅。
-
 ## 文字
 
 - 还有许多没被相片记录的时刻，如果都记录了下来那该多好。
