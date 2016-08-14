@@ -1,6 +1,6 @@
 title: My Moments 回忆
 date: 2016-06-28
-updated: 2016-08-04
+updated: 2016-08-14
 show_updated: true
 categories: [whoami]
 tags: [whoami]
@@ -77,13 +77,9 @@ GLR 「过来人」后改名为「优职英才」，创业是残酷的，那几�
 
 ## 新浪
 
-<img src="http://7vzp68.com1.z0.glb.clouddn.com/about/workplace_00.png" class="fix_width">
-
-在理想国际大厦的工位。
-
 <img src="http://7vzp68.com1.z0.glb.clouddn.com/2016spring/workplace_00.png" class="fix_width">
 
-在泰鹏大厦的工位。
+曾经在泰鹏大厦时的工位。
 
 <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/workplace_01.png" class="fix_width">
 
@@ -114,10 +110,18 @@ GLR 「过来人」后改名为「优职英才」，创业是残酷的，那几�
 ## 文字
 
 - 还有许多没被相片记录的时刻，如果都记录了下来那该多好。
-
-- 这些缺失，多少有点让人遗憾，仔细想想，不过是自恋情结罢了。
-
-- 不过，依然想说说自己。
+    - 我旅行得不多，算是孤陋寡闻，没见过世面，大学期间去过不多
+        - 2012 上海 GCC 之行
+        - 2013 珠海、中山办生存挑战营
+        - 2013 四川、重庆旅行
+        - 2014 潮汕杯毽球比赛之行
+        - 2014 云南大理、丽江旅行
+    - 基本都是跟好朋友一起成行的，之后
+        - 2015 算是来了北京只身闯荡
+        - 2016 天津的两趟毽球比赛
+        - 2016 冲绳之旅
+- 但是转念又觉得这些缺失也没什么太值得遗憾的。人真是矛盾。
+- 仔细想想，不过是自恋情结罢了。
 
 ### 小学
 
