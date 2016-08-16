@@ -1,6 +1,6 @@
 title: Life Manual 生活指北
 date: 2016-08-07
-updated: 2016-08-12
+updated: 2016-08-16
 show_updated: false
 categories: [think]
 tags: [think]
@@ -34,7 +34,7 @@ toc: false
     - <u>__睡眠，饮食，运动__</u>
 
         - 早睡早起，清淡节制，健美
-        - 多喝水，少垃圾食品饮料
+        - 多喝温水，不洗冷水澡！少垃圾食品饮料
 
     - <u>__英语，工作，技术__</u>
 
