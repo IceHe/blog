@@ -1,6 +1,6 @@
 title: Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2016-08-14
+updated: 2016-08-17
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -496,7 +496,7 @@ __`⌘ ⇧ 2` Translate Selection__
     _`⌘ ⇧ U` Utilities_
     `⌘ ⌥ l` Downloads
 
-    __`⌘ ⌥ T` Add to SideBar__
+    <!--__`⌘ ⌥ T` Add to SideBar__-->
     `⌘ ⇧ N` New Folder
 
     __`⌘ ↑` to Parent Dir__
@@ -514,6 +514,13 @@ __`⌘ ⇧ 2` Translate Selection__
 
     `⌘ ⇧ ⌫` Empty Trash
     _`⌘ ⇧ ⌥ ⌫` Empty Trash without Confirmation_
+
+    <!--__`⌘ ⇧ T` Show | Hide Tab Bar__-->
+    __`⌘ ⇧ p` Show | Hide Preview__
+    __`⌘ ⌥ p` Show | Hide Path Bar__
+    __`⌘ ⌥ s` Show | Hide Sidebar__
+    __`⌘ ⌥ t` Show | Hide Tool Bar__
+    __`⌘ /` Show | Hide Status Bar__
 
 # Firefox
 
