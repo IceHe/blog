@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://icehe.me/"/>
-  <updated>2016-08-11T16:00:00.000Z</updated>
+  <updated>2016-08-15T16:00:00.000Z</updated>
   <id>http://icehe.me/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://icehe.me/think/life_manual/"/>
     <id>http://icehe.me/think/life_manual/</id>
     <published>2016-08-06T16:00:00.000Z</published>
-    <updated>2016-08-11T16:00:00.000Z</updated>
+    <updated>2016-08-15T16:00:00.000Z</updated>
     
     <content type="html">&lt;h1 id=&quot;Self-Help-List&quot;&gt;&lt;a href=&quot;#Self-Help-List&quot; class=&quot;headerlink&quot; title=&quot;Self-Help List&quot;&gt;&lt;/a&gt;Self-Help List&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -56,7 +56,7 @@
 &lt;li&gt;&lt;p&gt;&lt;u&gt;&lt;strong&gt;睡眠，饮食，运动&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;早睡早起，清淡节制，健美&lt;/li&gt;
-&lt;li&gt;多喝水，少垃圾食品饮料&lt;/li&gt;
+&lt;li&gt;多喝温水，不洗冷水澡！少垃圾食品饮料&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;u&gt;&lt;strong&gt;英语，工作，技术&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
@@ -2180,7 +2180,7 @@ img.fix_height {
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
-    <updated>2016-08-13T16:00:00.000Z</updated>
+    <updated>2016-08-16T16:00:00.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Here are the Mac shortcuts:&lt;/p&gt;
@@ -2401,13 +2401,16 @@ img.fix_height {
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Folder&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;⌘ ⇧ A&lt;/code&gt; Application&lt;br&gt;  &lt;code&gt;⌘ ⇧ C&lt;/code&gt; Computer&lt;br&gt;  &lt;code&gt;⌘ ⇧ D&lt;/code&gt; Desktop&lt;br&gt;  &lt;code&gt;⌘ ⇧ F&lt;/code&gt; All My Files&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌘ ⇧ G&lt;/code&gt; to Folder&lt;/strong&gt;&lt;br&gt;  &lt;code&gt;⌘ ⇧ H&lt;/code&gt; Home&lt;br&gt;  &lt;em&gt;&lt;code&gt;⌘ ⇧ K&lt;/code&gt; Network&lt;/em&gt;&lt;br&gt;  &lt;code&gt;⌘ ⇧ O&lt;/code&gt; Documents&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌘ ⇧ R&lt;/code&gt; AirDrop&lt;/strong&gt;&lt;br&gt;  &lt;em&gt;&lt;code&gt;⌘ ⇧ U&lt;/code&gt; Utilities&lt;/em&gt;&lt;br&gt;  &lt;code&gt;⌘ ⌥ l&lt;/code&gt; Downloads&lt;/p&gt;
-&lt;p&gt;  &lt;strong&gt;&lt;code&gt;⌘ ⌥ T&lt;/code&gt; Add to SideBar&lt;/strong&gt;&lt;br&gt;  &lt;code&gt;⌘ ⇧ N&lt;/code&gt; New Folder&lt;/p&gt;
+  &lt;!--__`⌘ ⌥ T` Add to SideBar__--&gt;
+&lt;p&gt;  &lt;code&gt;⌘ ⇧ N&lt;/code&gt; New Folder&lt;/p&gt;
 &lt;p&gt;  &lt;strong&gt;&lt;code&gt;⌘ ↑&lt;/code&gt; to Parent Dir&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌘ ^ ↑&lt;/code&gt; Open Parent Dir in New Window&lt;/strong&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;View&lt;/p&gt;
 &lt;p&gt;  &lt;strong&gt;&lt;code&gt;凵&lt;/code&gt; Quick Look&lt;/strong&gt;&lt;br&gt;  &lt;code&gt;⌘ i&lt;/code&gt; Get Info&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;⌘  1&lt;/code&gt; View the files in way of Icon&lt;br&gt;  &lt;code&gt;⌘  2&lt;/code&gt; View as a List&lt;br&gt;  &lt;code&gt;⌘  3&lt;/code&gt; View as columns&lt;br&gt;  &lt;code&gt;⌘  4&lt;/code&gt; View as a cover flow&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;⌘ ⇧ ⌫&lt;/code&gt; Empty Trash&lt;br&gt;  &lt;em&gt;&lt;code&gt;⌘ ⇧ ⌥ ⌫&lt;/code&gt; Empty Trash without Confirmation&lt;/em&gt;&lt;/p&gt;
+  &lt;!--__`⌘ ⇧ T` Show | Hide Tab Bar__--&gt;
+&lt;p&gt;  &lt;strong&gt;&lt;code&gt;⌘ ⇧ p&lt;/code&gt; Show | Hide Preview&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌘ ⌥ p&lt;/code&gt; Show | Hide Path Bar&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌘ ⌥ s&lt;/code&gt; Show | Hide Sidebar&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌘ ⌥ t&lt;/code&gt; Show | Hide Tool Bar&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;⌘ /&lt;/code&gt; Show | Hide Status Bar&lt;/strong&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;Firefox&quot;&gt;&lt;a href=&quot;#Firefox&quot; class=&quot;headerlink&quot; title=&quot;Firefox&quot;&gt;&lt;/a&gt;Firefox&lt;/h1&gt;&lt;ul&gt;
@@ -3624,7 +3627,13 @@ article .article-content ul li p:first-child {
 &lt;li&gt;&lt;a href=&quot;/read/#微信公众号&quot;&gt;Reading Bookmarks - 微信公众号&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;Motion-Picture-电影&quot;&gt;&lt;a href=&quot;#Motion-Picture-电影&quot; class=&quot;headerlink&quot; title=&quot;Motion Picture 电影&quot;&gt;&lt;/a&gt;Motion Picture 电影&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://movie.douban.com/subject/2133323/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;The Secret Life of Walter Mitty&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://movie.douban.com/subject/3041269/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Limitless&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;  《永无止境》，爽！&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://movie.douban.com/subject/25773932/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Whiplash&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;  《爆裂鼓手》，反励志 / 残酷鸡汤。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://movie.douban.com/subject/2133323/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;The Secret Life of Walter Mitty&lt;/a&gt; &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;  《白日梦想家》，让梦境照进现实。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://movie.douban.com/subject/25662329/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Zootopia&lt;/a&gt;&lt;/p&gt;
@@ -4319,7 +4328,7 @@ Monthly
     <link href="http://icehe.me/reward/"/>
     <id>http://icehe.me/reward/</id>
     <published>2015-04-01T16:00:00.000Z</published>
-    <updated>2016-07-09T16:00:00.000Z</updated>
+    <updated>2016-08-17T16:00:00.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;div id=&quot;thx_text&quot; class=&quot;hidden&quot;&gt;&lt;div class=&quot;center&quot;&gt;&lt;hr&gt;&lt;br&gt;搭建此博客期间，想到其它网站的&lt;strong&gt;捐赠&lt;/strong&gt;功能，想必其实现不会太困难，于是查阅资料、动手尝试。&lt;br&gt;《&lt;a href=&quot;/web/donate/&quot;&gt;&lt;strong&gt;实现博客网站的支付宝打赏功能 —— Donate 打赏博主&lt;/strong&gt;&lt;/a&gt;》记叙了本博客&lt;strong&gt;打赏&lt;/strong&gt;功能的实现。&lt;br&gt;&lt;br&gt;博主水平有限，仅为好奇实现了该模块，若本博客对您有帮助，仍期待您的打赏~谢谢您的鼓励和支持。&lt;br&gt;If you enjoy the blog, please feel free to donate~Thx for your support.&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;    window.onload=function(){    $(&#39;#btn_donate&#39;).click();    $(&#39;#donate_board&#39;).parent().append($(&#39;#thx_text&#39;).html());    }    &lt;/script&gt;
@@ -4349,7 +4358,7 @@ Monthly
     /* &lt;/donate-css&gt; */
 &lt;/style&gt;
 
-&lt;!--Donate Module--&gt;&lt;div id=&quot;donate_module&quot;&gt;&lt;!--form--&gt;&lt;form id=&quot;donate&quot; action=&quot;https://shenghuo.alipay.com/send/payment/fill.htm&quot; method=&quot;POST&quot; target=&quot;_blank&quot; accept-charset=&quot;GBK&quot;&gt;&lt;input name=&quot;optEmail&quot; type=&quot;hidden&quot; value=&quot;ice_he@foxmail.com&quot;&gt;&lt;input name=&quot;payAmount&quot; type=&quot;hidden&quot; value=&quot;1.00&quot;&gt;&lt;input id=&quot;title&quot; name=&quot;title&quot; type=&quot;hidden&quot; value=&quot;打赏《&lt;%= item.title.substr(0, 16) %&gt;》&quot;&gt;&lt;input name=&quot;memo&quot; type=&quot;hidden&quot; value=&quot;留下您的大名及联系方式(email,blog,etc)，多交流共勉共进：&quot;&gt;&lt;/form&gt;&lt;!--/form--&gt;&lt;!--btn_donate&amp;tips--&gt;&lt;div id=&quot;donate_board&quot; class=&quot;donate_bar center&quot;&gt;&lt;a id=&quot;btn_donate&quot; class=&quot;btn_donate&quot; target=&quot;_self&quot; href=&quot;javascript:;&quot; title=&quot;Donate 打赏&quot;&gt;&lt;/a&gt;&lt;span class=&quot;donate_txt&quot;&gt;&amp;uarr;&lt;br&gt;If you enjoy the article,please feel free to&lt;span class=&quot;bold&quot;&gt;donate~&lt;/span&gt;Thx.&lt;br&gt;若本文对您有帮助，&lt;span class=&quot;bold&quot;&gt;求打赏~&lt;/span&gt;谢谢您的鼓励。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;!--/btn_donate&amp;tips--&gt;&lt;!--donate guide--&gt;&lt;div id=&quot;donate_guide&quot; class=&quot;donate_bar center hidden&quot;&gt;&lt;form action=&quot;https://www.paypal.com/cgi-bin/webscr&quot; method=&quot;post&quot; target=&quot;_blank&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;cmd&quot; value=&quot;_s-xclick&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;hosted_button_id&quot; value=&quot;3MPNAMMQA4C8Y&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;input type=&quot;image&quot; width=&quot;auto&quot; height=&quot;40em&quot; src=&quot;http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg&quot; border=&quot;0&quot; name=&quot;submit&quot; alt=&quot;PayPal——最安全便捷的在线支付方式！&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; width=&quot;1&quot; height=&quot;1&quot; src=&quot;https://www.paypalobjects.com/zh_XC/i/scr/pixel.gif&quot;&gt;&lt;/form&gt;&lt;a href=&quot;http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg&quot; title=&quot;Alipay_Scan_Payment&quot; class=&quot;fancybox&quot; rel=&quot;external&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg&quot; title=&quot;Donate 打赏&quot; height=&quot;164px&quot; width=&quot;164px&quot;&gt;&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg&quot; title=&quot;Alipay_Scan_Payment&quot; class=&quot;fancybox&quot; rel=&quot;external&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg&quot; title=&quot;Thanks 谢谢~&quot; height=&quot;164px&quot; width=&quot;164px&quot;&gt;&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg&quot; title=&quot;WeChat_Scan_Payment&quot; class=&quot;fancybox&quot; rel=&quot;external&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg&quot; title=&quot;Donate 打赏&quot; height=&quot;164px&quot; width=&quot;164px&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;!--/donate guide--&gt;&lt;/div&gt;&lt;!--/Donate Module--&gt;
+&lt;!--Donate Module--&gt;&lt;div id=&quot;donate_module&quot;&gt;&lt;!--form--&gt;&lt;form id=&quot;donate&quot; action=&quot;https://shenghuo.alipay.com/send/payment/fill.htm&quot; method=&quot;POST&quot; target=&quot;_blank&quot; accept-charset=&quot;GBK&quot;&gt;&lt;input name=&quot;optEmail&quot; type=&quot;hidden&quot; value=&quot;ice_he@foxmail.com&quot;&gt;&lt;input name=&quot;payAmount&quot; type=&quot;hidden&quot; value=&quot;1.00&quot;&gt;&lt;input id=&quot;title&quot; name=&quot;title&quot; type=&quot;hidden&quot; value=&quot;打赏《&lt;%= item.title.substr(0, 16) %&gt;》&quot;&gt;&lt;input name=&quot;memo&quot; type=&quot;hidden&quot; value=&quot;留下您的大名及联系方式(email,blog,etc)，多交流共勉共进：&quot;&gt;&lt;/form&gt;&lt;!--/form--&gt;&lt;!--btn_donate&amp;tips--&gt;&lt;div id=&quot;donate_board&quot; class=&quot;donate_bar center&quot;&gt;&lt;a id=&quot;btn_donate&quot; class=&quot;btn_donate&quot; target=&quot;_self&quot; href=&quot;javascript:;&quot; title=&quot;Donate 打赏&quot;&gt;&lt;/a&gt;&lt;span class=&quot;donate_txt&quot;&gt;&amp;uarr;&lt;br&gt;If you enjoy the article,please feel free to&lt;span class=&quot;bold&quot;&gt;donate~&lt;/span&gt;Thx.&lt;br&gt;若本文对您有帮助，&lt;span class=&quot;bold&quot;&gt;求打赏~&lt;/span&gt;谢谢您的鼓励。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;!--/btn_donate&amp;tips--&gt;&lt;!--donate guide--&gt;&lt;div id=&quot;donate_guide&quot; class=&quot;donate_bar center hidden&quot;&gt;&lt;form action=&quot;https://www.paypal.com/cgi-bin/webscr&quot; method=&quot;post&quot; target=&quot;_blank&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;cmd&quot; value=&quot;_s-xclick&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;hosted_button_id&quot; value=&quot;3MPNAMMQA4C8Y&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;input type=&quot;image&quot; width=&quot;auto&quot; height=&quot;40em&quot; src=&quot;http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg&quot; border=&quot;0&quot; name=&quot;submit&quot; alt=&quot;PayPal——最安全便捷的在线支付方式！&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; width=&quot;1&quot; height=&quot;1&quot; src=&quot;https://www.paypalobjects.com/zh_XC/i/scr/pixel.gif&quot;&gt;&lt;/form&gt;&lt;a href=&quot;http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_03.png&quot; title=&quot;Alipay_Scan_Payment&quot; class=&quot;fancybox&quot; rel=&quot;external&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_03.png&quot; title=&quot;Donate 打赏&quot; height=&quot;164px&quot; width=&quot;164px&quot;&gt;&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg&quot; title=&quot;Alipay_Scan_Payment&quot; class=&quot;fancybox&quot; rel=&quot;external&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg&quot; title=&quot;Thanks 谢谢~&quot; height=&quot;164px&quot; width=&quot;164px&quot;&gt;&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png&quot; title=&quot;WeChat_Scan_Payment&quot; class=&quot;fancybox&quot; rel=&quot;external&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png&quot; title=&quot;Donate 打赏&quot; height=&quot;164px&quot; width=&quot;164px&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;!--/donate guide--&gt;&lt;/div&gt;&lt;!--/Donate Module--&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
 /* &lt;donate-script&gt; */
 document.getElementById(&#39;btn_donate&#39;).onclick = function(){
