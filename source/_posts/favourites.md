@@ -29,7 +29,15 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 # Motion Picture 电影
 
-- [The Secret Life of Walter Mitty](https://movie.douban.com/subject/2133323/)
+- [Limitless](https://movie.douban.com/subject/3041269/)
+
+    《永无止境》，爽！
+
+- [Whiplash](https://movie.douban.com/subject/25773932/)
+
+    《爆裂鼓手》，反励志 / 残酷鸡汤。
+
+- [The Secret Life of Walter Mitty](https://movie.douban.com/subject/2133323/) <sup>__Best__</sup>
 
     《白日梦想家》，让梦境照进现实。
 
