@@ -722,7 +722,10 @@ img.fix_height {
 &lt;li&gt;The item with &lt;sup&gt;&lt;em&gt;temp&lt;/em&gt;&lt;/sup&gt;&amp;nbsp; implies it might &lt;code&gt;be removed one day&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Sigh&lt;/strong&gt;&lt;br&gt;  过去囫囵吞枣，糟蹋了许多好文章；如今我要一一记下，细细咀嚼回味。&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Sigh&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;过去囫囵吞枣，糟蹋了许多好文章；如今我要一一记下，细细咀嚼回味。&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&quot;Article-文章&quot;&gt;&lt;a href=&quot;#Article-文章&quot; class=&quot;headerlink&quot; title=&quot;Article 文章&quot;&gt;&lt;/a&gt;Article 文章&lt;/h1&gt;&lt;ul&gt;
