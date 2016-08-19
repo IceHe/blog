@@ -626,9 +626,9 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     美利达公爵 300，入门级山地车，白色款，24 速 + 油碟（刹车灵敏，手感好，持久耐用）。
 
-    主要用于：上下班通勤。
-    安全装备：头盔 + 手套 + 车前灯 + 骑行背包。
-    其它装备：防晒霜、魔术头巾、铁发箍。
+    主要用于：上下班通勤，以及 方圆 20 km 内的日常出行。
+    安全装备：头盔 + 运动臂袖（护臂&防晒）+ 手套 + 车前灯 + 骑行背包。
+    其它装备：防晒霜 + 魔术头巾 or 铁发箍。
 
     - [智芯 Z1](http://www.qdong365.com/) - 自行车智能硬件
 
@@ -637,10 +637,11 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
 <!--To Buy-->
 
-<!--- [鞋拔 IKEA](http://www.ikea.com/cn/zh/catalog/products/50137128/)-->
-<!--- [背包 Everlane | The Modern Snap Backpack](https://www.everlane.com/collections/mens-backpacks-bags/products/mens-modern-snap-backpack-navy)-->
-<!--- [Jabra ROX 无线耳塞](http://www.jabra.cn/music/jabra-rox-wireless)-->
+<!--- [benjamin本杰明伞，大洋之舞，深海鱼群](https://s.taobao.com/search?spm=a230r.1.0.0.Q2vZtB&q=benjamin%E6%9C%AC%E6%9D%B0%E6%98%8E%E4%BC%9E&rs=up&rsclick=1&preq=Benjamin%E6%9C%AC%E6%9D%B0%E6%98%8E%E5%B7%A5%E4%BD%9C%E5%AE%A4&sort=sale-desc)-->
 <!--- [Wireless Bluetooth Earbuds | JaybirdSport](http://www.jaybirdsport.com/x2-bluetooth-headphones/)-->
+<!--- [Jabra ROX 无线耳塞](http://www.jabra.cn/music/jabra-rox-wireless)-->
+<!--- [背包 Everlane | The Modern Snap Backpack](https://www.everlane.com/collections/mens-backpacks-bags/products/mens-modern-snap-backpack-navy)-->
+<!--- [鞋拔 IKEA](http://www.ikea.com/cn/zh/catalog/products/50137128/)-->
 
 <style type="text/css">
 article .article-content ul li p:first-child {
