@@ -2989,8 +2989,8 @@ img.fix_height {
 &lt;h3 id=&quot;Read&quot;&gt;&lt;a href=&quot;#Read&quot; class=&quot;headerlink&quot; title=&quot;Read&quot;&gt;&lt;/a&gt;&lt;a href=&quot;/categories/read&quot;&gt;Read&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;Blog Bookmarks 博客书签 &lt;sup&gt;this page&lt;/sup&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/tech&quot;&gt;Technology Bookmarks 技术书签&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/read&quot;&gt;Reading Bookmarks 阅读书签&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt; &lt;a href=&quot;/tech&quot;&gt;Technology Bookmarks 技术书签&lt;/a&gt;&lt;/strong&gt; &lt;sup&gt;&lt;strong&gt;&lt;em&gt;Updated&lt;/em&gt;&lt;/strong&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;/read&quot;&gt;Reading Bookmarks 阅读书签&lt;/a&gt;&lt;/strong&gt; &lt;sup&gt;&lt;strong&gt;&lt;em&gt;Updated&lt;/em&gt;&lt;/strong&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/favourites&quot;&gt;Favourites 喜好&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;Think&quot;&gt;&lt;a href=&quot;#Think&quot; class=&quot;headerlink&quot; title=&quot;Think&quot;&gt;&lt;/a&gt;&lt;a href=&quot;/categories/think&quot;&gt;Think&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
