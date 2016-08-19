@@ -1,6 +1,6 @@
 title: Reading Bookmarks 阅读书签
 date: 2016-06-17
-updated: 2016-08-14
+updated: 2016-08-19
 show_updated: true
 categories: [read]
 tags: [read]
@@ -195,7 +195,7 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 
 - [正确坐姿](http://mp.weixin.qq.com/s?__biz=MjM5NzA1MTcyMA==&mid=204444629&idx=1&sn=cbab111041ec4302c8faac4aedf55a94&scene=0#rd) - 腰椎、颈椎
 
-## EN 英语
+## English 英语
 
 - [汉语对现代文明的贡献有多大？](http://chuansong.me/n/301752741754)- Why you need to learn English !?
 
@@ -207,13 +207,20 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 
 - [每天坚持英语学习为什么还是学不好？](https://www.zhihu.com/question/27702564)- 水滴石穿 VS 拼命猛进
 
-- [BBC 英式英语发音视频教程](http://www.miaopai.com/show/STmZrQy-nHwvBSpMYET7~Q__.htm) - Elegant <sup>_todo_</sup>
+- [翻译真是一条永远走不完的长路啊](https://www.zhihu.com/collection/38698717) - 知乎收藏夹
 
-- [美剧字幕组长讲述她如何练听力](http://www.vjianke.com/YM3VH.clip) - 方法 <sup>_todo_</sup>
+    - [如何让自己的英语写作达到英语母语者的水平？](https://www.zhihu.com/question/20903135)
 
-- [EssayForum](http://www.essayforum.com/) - Free Writing, Editing, and Research Help for Students <sup>_todo_</sup>
+    - [有哪些高级的英语表达技巧，让人一听就感觉很地道？](https://www.zhihu.com/question/24544386)
 
-- [39 Incorrectly Used Words That Can Make You Look Bad](https://www.linkedin.com/pulse/39-incorrectly-used-words-can-make-you-look-bad-jeff-haden?trk=eml-b2_content_ecosystem_digest-recommended_articles-186-null&midToken=AQGECgCdtokxPw&fromEmail=fromEmail&ut=2gQ0szrgpahCI1) <sup>_todo_</sup>
+- [BBC 英式英语发音视频教程](http://www.miaopai.com/show/STmZrQy-nHwvBSpMYET7~Q__.htm) - Elegant <sup>_todo_</sup> <sup>_temp_</sup>
+
+- [美剧字幕组长讲述她如何练听力](http://www.vjianke.com/YM3VH.clip) - 方法 <sup>_todo_</sup> <sup>_temp_</sup>
+
+
+- [EssayForum](http://www.essayforum.com/) - Free Writing, Editing, and Research Help for Students <sup>_todo_</sup> <sup>_temp_</sup>
+
+- [39 Incorrectly Used Words That Can Make You Look Bad](https://www.linkedin.com/pulse/39-incorrectly-used-words-can-make-you-look-bad-jeff-haden?trk=eml-b2_content_ecosystem_digest-recommended_articles-186-null&midToken=AQGECgCdtokxPw&fromEmail=fromEmail&ut=2gQ0szrgpahCI1) <sup>_todo_</sup> <sup>_temp_</sup>
 
 ## Finance 理财
 
@@ -245,6 +252,10 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 
 ## Buy 买
 
+- [100 元以下有什么好伞？](https://www.zhihu.com/question/23365655) <sup>_temp_</sup>
+
+- [有哪些不为外行所知的好产品或好品牌？](https://www.zhihu.com/question/20228439) <sup>_temp_</sup>
+
 - [一个人旅行有哪些必备神器？](https://www.zhihu.com/question/24023171)- 实用
 
 - [有哪些尚未普及却非常好用的东西？](https://www.zhihu.com/question/38821362)- 生活质量
@@ -253,11 +264,13 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 
 ## Eat 食
 
+- [食べ物](https://www.zhihu.com/collection/39354991) <sup>__Best__</sup>
+
 - [北京有哪些深藏不露的餐馆？](https://www.zhihu.com/question/30400300)
 
-- [去香港一定不能错过哪些美食？](https://www.zhihu.com/question/19803431)
+- [去香港一定不能错过哪些美食？](https://www.zhihu.com/question/19803431) <sup>_temp_</sup>
 
-- [2015年中国100最佳餐厅完全榜单](http://mp.weixin.qq.com/s?__biz=MjM5MDE4ODIzMg==&amp;mid=206234405&amp;idx=1&amp;sn=70dfa683c1db46303d18adc6fc6095a2&amp;scene=1#rd)
+- [2015年中国100最佳餐厅完全榜单](http://mp.weixin.qq.com/s?__biz=MjM5MDE4ODIzMg==&amp;mid=206234405&amp;idx=1&amp;sn=70dfa683c1db46303d18adc6fc6095a2&amp;scene=1#rd) <sup>_temp_</sup>
 
 ## Play 乐
 
