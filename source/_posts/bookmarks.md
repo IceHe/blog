@@ -18,8 +18,8 @@ description: 本博客的导航页。
 ---
 
 - Blog Bookmarks 博客书签 <sup>this page</sup>
-- [Technology Bookmarks 技术书签](/tech)
-- [Reading Bookmarks 阅读书签](/read)
+- __ [Technology Bookmarks 技术书签](/tech)__ <sup>___Updated___</sup>
+- __[Reading Bookmarks 阅读书签](/read)__ <sup>___Updated___</sup>
 - [Favourites 喜好](/favourites)
 
 ### [Think](/categories/think)
