@@ -1,6 +1,6 @@
 title: Reading Bookmarks 阅读书签
 date: 2016-06-17
-updated: 2016-08-19
+updated: 2016-08-21
 show_updated: true
 categories: [read]
 tags: [read]
@@ -17,7 +17,7 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
     - The item with <sup>_temp_</sup>&nbsp; implies it might `be removed one day`.
 
 - __Sigh__
-    过去囫囵吞枣，糟蹋了许多好文章；如今我要一一记下，细细咀嚼回味。
+    - 过去囫囵吞枣，糟蹋了许多好文章；如今我要一一记下，细细咀嚼回味。
 
 # Article 文章
 
@@ -113,11 +113,13 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 
 - [《 不想靠谱 》 知乎专栏](http://zhuanlan.zhihu.com/bocai) - 两性关系
 
-- [认为「 只有我完美了，别人才会喜欢我 」的想法有什么错误，该怎么解决？](https://www.zhihu.com/question/31280604)- 吾生有涯
-
 - [为什么很多优质女生找不到男朋友？](https://www.zhihu.com/question/37373471)
 
+- [认为「 只有我完美了，别人才会喜欢我 」的想法有什么错误，该怎么解决？](https://www.zhihu.com/question/31280604)- 吾生有涯
+
 - [送礼的秘诀是什么？](https://www.zhihu.com/question/20455039)- 「送者心安，受者心欢。」
+
+- [中国的劝酒文化背后的逻辑是什么？](https://www.zhihu.com/question/28311266)- 服从性 & 诚意测试
 
 ## Think 思维
 
