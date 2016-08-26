@@ -1,6 +1,6 @@
 title: Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2016-08-17
+updated: 2016-08-26
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -745,10 +745,10 @@ Not Only shortcuts, but also Change Layout of Keyboard!
 - Rg Num
 
     <!--`⌥ 6` -->
-    `⌥ 7` Messages
+    <!--`⌥ 7` -->
     `⌥ 8` Keychain Access
     `⌥ 9` Language Switcher
-    `⌥ 0` Maps
+    <!--`⌥ 0` -->
 
     <!--`^ ⌥ 6` -->
     <!--`^ ⌥ 7` -->
