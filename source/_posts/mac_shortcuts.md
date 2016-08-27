@@ -216,7 +216,7 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
 
 - Emacs Mode
 
-    A few people know that it's supported by default in Mac OS X.
+    A few people know that it's supported by default in macOS.
 
     `^ f` = `←`
     `^ b` = `→`
