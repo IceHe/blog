@@ -1,6 +1,6 @@
 title: Tools 利器
 date: 2015-11-21
-updated: 2016-08-12
+updated: 2016-08-29
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -46,10 +46,6 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 - [Chrome](https://www.google.com/chrome/)
 
     用 Inspect Element 等 Develop Tools 做 Web 的开发、调试，远胜 FireFox 的 Firebug。
-
-- [Typora](http://www.typora.io) <sup>Elegant</sup>
-
-    Markdown 编辑器，所见即所得。国人制作，完全免费，支持 Mac、Windows！
 
 - [WunderList](https://www.wunderlist.com/zh/)
 
@@ -135,19 +131,23 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     Mac OS X 下的终端仿真机，是系统默认自带的 Terminal 的最佳替代 App。
 
+- [Dash](https://kapeli.com/dash) <sup>To the point</sup>
+
+    查阅 API 参考文档、管理代码片段的工具。功能单一却精准。
+
 - [PyCharm](https://www.jetbrains.com/pycharm/), &nbsp;[PhpStorm](https://www.jetbrains.com/phpstorm/) <sup>Master Piece</sup>
 
     Python、PHP 的最佳 IDE！现阶段类型推导做得最好，各方面可圈可点。配合 IdeaVim 插件可用 Vim 键位编辑，因而可少记很多相关的 IDE 快捷键。
 
     - [JetBrains](https://www.jetbrains.com/products.html) 出品的其它 IDE： [IntelliJ IDEA](https://www.jetbrains.com/idea/)、[WebStorm](https://www.jetbrains.com/webstorm/)、[RubyMine](https://www.jetbrains.com/ruby/)、[CLion](https://www.jetbrains.com/clion/) 等。
 
-- [Parallel Desktop](http://www.parallels.com/landingpage/pd/general/?src=r&pd11) <sup>Great</sup>
-
-    虚拟机软件，将 Windows、Ubuntu 等操作系统无缝贴合到 OS X 中去，使用流畅自然。
-
 - [Sublime Text](http://www.sublimetext.com/) <sup>Popular</sup>
 
     代码编辑器，我用其替代 TextEdit 作为默认的文本编辑器。Vintage 模式，可用 Vim 键位操作。
+
+- [Typora](http://www.typora.io) <sup>Elegant</sup>
+
+    Markdown 编辑器，所见即所得。国人制作，完全免费，支持 Mac、Windows！
 
 - [Squel Pro](http://www.sequelpro.com/) <sup>Free</sup>
 
@@ -161,13 +161,13 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     APIs 开发、测试、归档的辅助工具。
 
+- [iHosts](https://itunes.apple.com/us/app/ihosts/id1102004240?mt=12)
+
+    灵活管理 macOS 的 Hosts 的上佳方案。
+
 - [Transmit](https://panic.com/transmit/)
 
-    FTP 工具。
-
-- [Dash](https://kapeli.com/dash) <sup>To the point 功能单一却精准</sup>
-
-    查阅 API 参考文档、管理代码片段的工具。
+    FTP 的 GUI 工具。
 
 - [Key Codes](https://manytricks.com/keycodes/)
 
@@ -178,6 +178,10 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
     游戏机模拟器！可以模拟众多的旧时代的游戏主机！
 
     我又可以方便地玩我最喜欢的 NDS 游戏《最终幻想战略版 A2》啦！
+
+- [Parallel Desktop](http://www.parallels.com/landingpage/pd/general/?src=r&pd11) <sup>Great</sup>
+
+    虚拟机软件，将 Windows、Ubuntu 等操作系统无缝贴合到 OS X 中去，使用流畅自然。
 
 ## System Tools
 
@@ -194,6 +198,10 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 - [Karabiner](https://pqrs.org/osx/karabiner/index.html.en) <sup>Geek</sup>
 
     强大、稳定的键位修改工具，预定义了大量奇巧的修改方案。键盘党神器！
+
+    仔细研究使用文档发现，可自定义快捷键去启动 App，打开文件和网址，甚至运行命令行！
+
+    发挥想象力，配合命令行的命令和脚本，还有 AppleScript 等，可以做到更多有趣又实用的事。
 
 - [Seil](https://pqrs.org/osx/karabiner/seil.html.en)
 
