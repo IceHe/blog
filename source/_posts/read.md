@@ -199,6 +199,8 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 
 - [自慰的真正危害有哪些？](https://www.zhihu.com/question/20519139)- 无碍
 
+- [日常生活中有哪些所谓的性知识是错误的？](https://www.zhihu.com/question/20576450)- 常识
+
 ## English 英语
 
 - [汉语对现代文明的贡献有多大？](http://chuansong.me/n/301752741754)- Why you need to learn English !?
@@ -288,6 +290,8 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 - [想要充实自己，有哪10本书和10部电影值得推荐？](https://www.zhihu.com/question/35005800/answer/61498512)<sup>_temp_</sup>
 
 - [有哪些电影一定要趁年轻看？](https://www.zhihu.com/question/25699277)<sup>_temp_</sup>
+
+- [有哪些好看的负能量电影？](https://www.zhihu.com/question/30994199/answer/51731600)- 不愿心塞，一直没看 <sup>_temp_</sup>
 
 <!--## Clothing 衣-->
 
