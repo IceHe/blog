@@ -1,6 +1,6 @@
 title: Tools 利器
 date: 2015-11-21
-updated: 2016-08-29
+updated: 2016-09-01
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -16,6 +16,7 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
     <!--- The item with <sup>Note</sup>&nbsp; implies it is `a link to my related note`.-->
     <!--- The item with <sup>_todo_</sup>&nbsp; implies it has `not been read-through`.-->
     - The item with <sup>_temp_</sup>&nbsp; implies it might `be removed one day`.
+    - & etc…
 
 # Software
 
@@ -55,17 +56,12 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     现在，又开始用免费版 WunderList 了，任务管理的操作远不如 Web 端的 Doit.im 极致，但是 iOS、Mac 上的 客户端做得不错。各花入各眼，满足个人需求最重要。
 
-- [Squirrel](http://rime.im/)
+- 双拼输入方案！<sup>Favourite</sup>
 
-    鼠须管输入法，稳定、流畅、开源，个人可定制性极高。是 Rime 中州韵输入法的 Mac 发行版。
+    效率！效率！比五笔容易掌握太多，性价比高，赶紧走出你的舒适区来学习双拼吧！
 
-    折腾一番后，个人定制出来的输入法，从界面到操作细节都能很好地贴合个人习惯！
-    但是，词句齐全的成熟本地词库不多，以及云输入（在线匹配新词的功能）的缺失，输入生词时诸多不便。
-    所以，使用 Rime 几个月后，还是回归我惯用的 [百度输入法](https://shurufa.baidu.com/)（我手机输入法也用百度的）。
-
-    - iFanr 爱范儿的推荐 《 [鼠须管，“神级”输入法](http://www.ifanr.com/156409) 》
-    - 配置教程 《 [Rime 输入法 — 鼠须管（Squirrel）词库添加及配置](http://www.jianshu.com/p/cffc0ea094a7) 》
-    - 我自定义的 [Rime 配置](https://github.com/IceHe/Rime)、 [Dictionaries 词库](https://github.com/IceHe/dictionaries)
+    - [做少数派中的少数派：双拼输入快速入门](http://sspai.com/32809)
+    - [选择输入法的哲学：兼论双拼的优缺点](http://sspai.com/33019)
 
 ## Develop
 
@@ -121,13 +117,13 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     Mac OS X 的包管理器。就如 agt-get 之于 Ubuntu，yum 之于 RedHat、CentOS 的存在。
 
-- [Homebrew Cask](http://caskroom.io/)
+- [Homebrew Cask](http://caskroom.io/) <sup>Great</sup>
 
     用命令行的方式安装、更新 Mac App，再也不用忍受 AppStore 缓慢的下载速度了！
 
 ### Apps
 
-- [iTerm2](https://www.iterm2.com/) <sup>Powerful</sup>
+- [iTerm2](https://www.iterm2.com/) <sup>Best</sup>
 
     Mac OS X 下的终端仿真机，是系统默认自带的 Terminal 的最佳替代 App。
 
@@ -141,9 +137,17 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     - [JetBrains](https://www.jetbrains.com/products.html) 出品的其它 IDE： [IntelliJ IDEA](https://www.jetbrains.com/idea/)、[WebStorm](https://www.jetbrains.com/webstorm/)、[RubyMine](https://www.jetbrains.com/ruby/)、[CLion](https://www.jetbrains.com/clion/) 等。
 
-- [Sublime Text](http://www.sublimetext.com/) <sup>Popular</sup>
+- [Atom](https://atom.io/) <sup>Modern</sup>
+
+    相当现代的代码编辑器，体验一流，但是冷启动颇慢，不如 Sublime Text 3 快如闪电。
+
+- [Sublime Text 3](http://www.sublimetext.com/) <sup>Popular</sup>
 
     代码编辑器，我用其替代 TextEdit 作为默认的文本编辑器。Vintage 模式，可用 Vim 键位操作。
+
+- [CodeRunner](https://coderunnerapp.com/) <sup>for Freshman</sup>
+
+    支持众多常用语言的轻量级 IDE！学习、调试很方便。
 
 - [Typora](http://www.typora.io) <sup>Elegant</sup>
 
@@ -153,11 +157,11 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     管理 MySQL 数据库的 GUI 工具。
 
-- [Charles](https://www.charlesproxy.com/) <sup>Powerful</sup>
+- [Charles](https://www.charlesproxy.com/) <sup>Best</sup>
 
     网络封包分析（抓包）工具。如 Fiddler 之于 Windows。
 
-- [Postman](http://www.getpostman.com/)
+- [Postman](http://www.getpostman.com/) <sup>Powerful</sup>
 
     APIs 开发、测试、归档的辅助工具。
 
@@ -179,15 +183,17 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     我又可以方便地玩我最喜欢的 NDS 游戏《最终幻想战略版 A2》啦！
 
-- [Parallel Desktop](http://www.parallels.com/landingpage/pd/general/?src=r&pd11) <sup>Great</sup>
+- [Parallel Desktop](http://www.parallels.com/landingpage/pd/general/?src=r&pd11) <sup>Best</sup>
 
     虚拟机软件，将 Windows、Ubuntu 等操作系统无缝贴合到 OS X 中去，使用流畅自然。
 
+- [Adobe Acrobat Reader DC](https://get.adobe.com/cn/reader/)
+
+    一般情况下，不使用额外的 __PDF 阅读软件__，Mac 系统自带的 Preview 就够用了。
+
+    但要在商务等正式场景下的 PDF 文件有高端用法，这是还是得 Adobe 家亲自来处理（例如：签证申请文件、合同、保密文件等）。
+
 ## System Tools
-
-- [ShawdowsocksX](http://macappstore.org/shadowsocksx/)
-
-    ShadowsocksX 是在 Mac 上配合 Shadowsock 工作的软件。
 
 - Time Machine <sup>Required</sup>
 
@@ -195,31 +201,41 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     要有忧患意识，不要等硬盘坏了、Mac 丢了，才追悔莫及。
 
-- [Karabiner](https://pqrs.org/osx/karabiner/index.html.en) <sup>Geek</sup>
+- [ShawdowsocksX](http://macappstore.org/shadowsocksx/) <sup>Ladder</sup>
+
+    ShadowsocksX 是在 Mac 上配合 Shadowsock 工作的软件。
+
+- [Manico](http://manico.im/) <sup>Shortcuts, Best</sup>
+
+    为 macOS 设计快速启动、切换 App 的工具。
+
+    我是键盘党，以前用 Windows 已惯用快捷键与手势迅速打开、切换程序，因此找到了它。
+
+- [Karabiner](https://pqrs.org/osx/karabiner/index.html.en) <sup>Geek, Best</sup>
 
     强大、稳定的键位修改工具，预定义了大量奇巧的修改方案。键盘党神器！
 
-    仔细研究使用文档发现，可自定义快捷键去启动 App，打开文件和网址，甚至运行命令行！
+    可自定义快捷键去启动、切换 App，打开文件和网址，甚至运行命令行！
 
-    发挥想象力，配合命令行的命令和脚本，还有 AppleScript 等，可以做到更多有趣又实用的事。
+    发挥想象力，配合命令行和脚本（如 AppleScript）等，还能做到更多！可实现 Manico 的功能，但是过程麻烦，没必要过分折腾（说得就是我自己）。
+
+- [Keyboard Maestro](https://www.keyboardmaestro.com/main/) <sup>Geek, Best</sup>
+
+    限制你的只有你的想象力！高度自定义的效率工具，难以一语道尽玄机。
+
+    可以尝试用它 [定制系统全局 Vim 快捷键](https://www.zhihu.com/question/27158546/answer/70958190)，可以 [配合 Keymo 用键盘控制鼠标](https://www.zhihu.com/question/27158546/answer/70958190)，可以替代 aText、TextExpander 拓展文本输入效率，甚至替代 Manico 快速启动、切换 Apps！
 
 - [Seil](https://pqrs.org/osx/karabiner/seil.html.en)
 
     Karabiner 的补充，主要修改 Caps Lock、 Esc、Shift、Ctrl、Option 等按键的键位。
 
-- [Manico](http://manico.im/) <sup>Shortcuts</sup>
-
-    快速启动、切换 App 的工具。
-
-    我是键盘党，以前用 Windows 已惯用快捷键与手势迅速打开、切换程序，因此找到了它。
-
 - [Amphetamine](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12)
 
-    防止 Mac 休眠。比同类软件 Caffine、Owly 都更功能完备、好用。
+    防止 Mac 休眠。比同类软件 [Caffine](https://itunes.apple.com/us/app/caffeine/id411246225?mt=12)、[Owly](https://itunes.apple.com/us/app/owly-display-sleep-prevention/id882812218?mt=12) 都更功能完备、好用。
 
     原因：Mac 每次休眠后都会重启软件，导致软件丢失部分上下文，于是我无法在完全一样的环境下持续工作，一定程度上打断了工作，降低了效率。
 
-- [Moom](https://manytricks.com/moom/)
+- [Moom](https://manytricks.com/moom/) <sup>Efficient, Best</sup>
 
     窗口布局软件，便捷地移动、缩放窗口，更好地利用桌面空间。
 
@@ -229,7 +245,7 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     瞬间找到当前正在使用窗口。除当前激活的窗口，其它窗口都会显示阴影，让人更专注与当前窗口的工作。
 
-- [Bartender 2](https://www.macbartender.com/)
+- [Bartender 2](https://www.macbartender.com/) <sup>Clean Menubar</sup>
 
     收起或彻底隐藏毋需过多关注的菜单栏 App 图标。
 
@@ -239,15 +255,7 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     支持 URL、纯文本、RTF、图片、文件等各种格式，包括剪贴历史、排序、大小写转换、自定义文段的调出。
 
-- [MacID](http://macid.co/) <sup>Cool</sup>
-
-    可使您的其它 Apple 设备可唤醒、解锁 Mac、甚至进行提权操作。
-
-    iPhone、iPad、AppleWatch 用蓝牙链接 Mac 后，可以用 TouchID、iOS 密码、设备的靠近和远离（距离）、蓝牙连接状态或触摸板手势等，来唤醒、解锁 Mac，或锁屏、提权。
-
-    当指定便携设备远离 Mac，Mac 就会自动锁屏并发出提示；重新靠近 Mac 时，Mac 自动唤醒解锁！
-
-- [CheatSheet](https://www.mediaatelier.com/CheatSheet/) <sup>Tips</sup>
+- [CheatSheet](https://www.mediaatelier.com/CheatSheet/) <sup>Tips, for Freshman</sup>
 
     快捷键快速提醒工具。长按 Command 键，显示当前程序的快捷键列表，方便快速入门 Mac 各处的快捷键。
 
@@ -263,9 +271,18 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     输入法状态提示。显示一条样式可定制的色带在屏幕顶部，以提示正在使用什么输入法，在全屏使用 App 时，也能轻易区分输入法状态！
 
-- Dictionary <sup>Great Enough</sup>
+- [MPlayerX](http://mplayerx.org) <sup>Great</sup>
 
-    OS X 系统自带的字典应用。
+    视频播放软件。
+
+- [Numi](http://numi.io/) <sup>Great</sup>
+
+    系统默认计算器的替代方案。单位换算好用啊！例如，您输入：
+
+    ```
+    1 day in sec       // Print: 86,400 s
+    547 day in year    // Print: 1 yr 6 mon. 2 day
+    ```
 
 - [f.lux](https://justgetflux.com/)
 
@@ -275,77 +292,133 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     欧路词典，Mac 上最好用的第三方词典。
 
-- [Numi](http://numi.io/)
+- Dictionary <sup>Great Enough</sup>
 
-    系统默认计算器的替代方案。
+    OS X 系统自带的字典应用。
 
-- [Encrypto](http://macpaw.com/encrypto)
+- Ref：[OS X 有哪些值得装的小软件？](https://www.zhihu.com/question/27870072)
 
-    文件加密、解密软件。为文件和文件夹一个密码，正确方可解密访问。
+## 不常用 / 鸡肋
 
-- [MPlayerX](http://mplayerx.org) <sup>Great</sup>
-
-    视频播放软件。
-
-- [Nozio](http://noiz.io/)
-
-    白噪音应用。模拟大自然的声音，屏蔽其它噪音干扰，帮助保持专注，提高效率，放松睡眠。
-
-    音乐听久了也累，有时戴个 3M 降噪耳塞，纯粹安静地工作就很专注、舒服，其实毋需白噪音。
-
-- [Quick Look plugins Awesome](https://github.com/sindresorhus/quick-look-plugins)
-
-    在 Finder 浏览时，选中文件，再按空格键便可以使用 macOS 提供的简单预览。
-
-    该 Github 仓库提供针对各种类型文件的更强大的预览功能的插件。
-
-## 好但没派上用场
-
-不使用额外的 __PDF 阅读软件__，Mac 系统自带的 Preview 就够用了。
-
-- [Contexts](https://contexts.co/)
-
-    App 窗口切换工具。操作行云流水，切换方面比 Manico 更优秀！但不能定制用于快速启动其它 App 的快捷键，因而被 Manico 替代。
-
-- [Time Out](http://www.dejal.com/timeout/)
-
-    定时作息提醒工具。定时遮盖桌面的应用程序，提醒你离开电脑，去休息眼睛、活动身体。我的工作节奏比较有规律，眼睛没有不适，所以停用许久。
+放在这里的有一些公认很好的 Apps，别吃惊，且看我的理由。
 
 - [Alfred](https://www.alfredapp.com/) <sup>键盘党的神兵利器</sup>
 
     Spotlight 的增强版！关键字缩写的检索还是 Spotlight 精准；要用命令的话，也基本在终端中操作，没有 Alfred 之流的用武之地；要启动程序的话，Manico 的支持足矣。
 
-- [Paw](https://luckymarmot.com/zh-hans/paw)
+    很多人把它说得神乎其神，其实我并不觉得有大用。毕竟你要敲字符串，Alfred 智能检索猜出：你要做的事，或者要打开的程序或文件，或者要运行脚本…… 然后，你再选一个执行。
 
-    Mac 的 HTTP 客户端。功能全面、设计美观，用于与 REST 服务交互、以助构建 API，构建 HTTP 请求，检查来自服务器的响应，甚至可生成客户端代码。一般的需求下 [Postman](http://www.getpostman.com/) 就够用了，不需要购买它。
-
-- [Boom](http://www.globaldelight.com/boom/index.php)
-
-    音效增强软件。可用于突破系统音量的上限，留意音量过大可能损坏 Mac 音箱。
-
-- [CleanMyMac](http://cleanmymac.com/)
-
-    Mac 系统清理软件。OS X 本身已经够好用、省心，毋需过多维护，它只不过锦上添花（画蛇添足、无关痛痒）。
+    __我更喜欢敲快捷键「一步到位」告诉 Mac 要做的事！__毕竟我喜欢编制这些繁杂的 "tricks" 并深深印到脑子里，证据是：我键盘上的快捷键空间都被快用光啦！
 
 - [BetterTouchTool](http://www.boastr.net/)
 
-    为 Mac 的触摸板定制更多手势操作。iOS 版 App 还可以用来让 iPhone、iPad 设备化身为 Mac 的触摸板。现已是收费软件，但不贵。可是自定义的快捷键足以能让我驰骋 OS X，用不上它。
+    为 Mac 的触摸板定制更多手势操作。iOS 版 App 还可以用来让 iPhone、iPad 设备化身为 Mac 的触摸板。现已是收费软件，但不贵。
 
-- [LastPass](https://lastpass.com/) & [1Password](https://agilebits.com/onepassword)
+    可是作为键盘党，自定义的快捷键足以让我驰骋 OS X，基本没机会用它。
+
+- [Boom](http://www.globaldelight.com/boom/index.php) <sup>不推荐</sup>
+
+    音效增强软件。可用于突破系统音量的上限，留意音量过大可能损坏 Mac 音箱。可有可无。
+
+- [CleanMyMac](http://cleanmymac.com/) <sup>不推荐</sup>
+
+    Mac 系统清理软件。macOS 本身已经够好用、省心，毋需过多维护，它只不过锦上添花，不客气地说，是画蛇添足、无关痛痒。
+
+- [Contexts](https://contexts.co/) <sup>Great</sup>
+
+    App 窗口切换工具。操作行云流水，切换方面比 Manico 更优秀！但不能定制用于快速启动其它 App 的快捷键，因而被 Manico 替代。
+
+- [Default Folder X](http://stclairsoft.com/DefaultFolderX/) and [Path Finder](http://cocoatech.com/pathfinder/) <sup>不推荐</sup>
+
+    用于替代、增强系统默认的文件管理器 Finder。
+
+    我通常都用终端命令行去管理文件系统，Finder 的快捷键烂熟于心，没必要额外的用户友好的 GUI 工具的帮助。而且这两款软件并非免费。
+
+- [Encrypto](http://macpaw.com/encrypto)
+
+    文件加密、解密软件。为文件和文件夹一个密码，正确方可解密访问。真的很少碰到需要使用的场合。
+
+- [Keymo](https://manytricks.com/keymo/) <sup>不推荐</sup>
+
+    使用键盘操作鼠标，四象限定位法颇有创意！
+
+    作为键盘党的我，真要用鼠标的时候，还是用触控板舒心。向来触摸板使用最高的触控敏感度（移动速度），效率毋庸置疑。
+
+- [LastPass](https://lastpass.com/) and [1Password](https://agilebits.com/onepassword)
 
     密码管理工具。一直用不惯，之后发现用浏览器自带的密码记录与 Apple 的 KeyChain Access 足矣。
 
-- Ref：[OS X 有哪些值得装的小软件？](https://www.zhihu.com/question/27870072)
+- [MacID](http://macid.co/) <sup>不推荐</sup>
+
+    可使您的其它 Apple 设备可唤醒、解锁 Mac、甚至进行提权操作。
+
+    iPhone、iPad、AppleWatch 用蓝牙链接 Mac 后，可以用 TouchID、iOS 密码、设备的靠近和远离（距离）、蓝牙连接状态或触摸板手势等，来唤醒、解锁 Mac，或锁屏、提权。当指定便携设备远离 Mac，Mac 就会自动锁屏并发出提示；重新靠近 Mac 时，Mac 自动唤醒解锁！
+
+    但蓝牙不时断连后，并不总能快速重连成功，比较恼人，所以弃用。
+
+- [Nozio](http://noiz.io/)
+
+    白噪音应用。模拟大自然的声音，屏蔽其它噪音干扰，帮助保持专注，提高效率，放松睡眠。
+
+    音乐听久了也累，有时戴个 3M 降噪耳塞，纯粹安静地工作就很专注、舒服，其实毋需白噪音，所以它依然可有可无。
+
+- [Paw](https://luckymarmot.com/zh-hans/paw)
+
+    Mac 的 HTTP 客户端。功能全面、设计美观，用于与 REST 服务交互、以助构建 API，构建 HTTP 请求，检查来自服务器的响应，甚至可生成客户端代码。一般的需求下 [Postman](http://www.getpostman.com/) 就够用了，不需要买它。
+
+- [Quick Look plugins](https://github.com/sindresorhus/quick-look-plugins)
+
+    在 Finder 浏览时，选中文件，再按空格键便可以使用 macOS 提供的简单预览。
+
+    该 Github 仓库提供针对各种类型文件的更强大的预览功能的插件。是否有大用见仁见智，对我来说有点鸡肋，留着也无碍。
+
+- [Quiver](http://happenapps.com/#quiver) <sup>Powerful</sup>
+
+    程序员神器，日记、笔记、摘抄、编写文档、收录代码片段，真是好用！
+
+    支持标记语言，如 Markdown、LaTeX；可粘贴图片，文本生成流程图、时序图、状态图… 除了多平台同步的功能不行之外，秒杀其它所有云笔记软件！
+
+    可惜入坑太晚，我用印象笔记足矣，没必要挥动这样的“牛刀”了。
+
+- [Shortcat](https://shortcatapp.com/) <sup>不推荐</sup>
+
+    UI 上的 Spotlight，暂时难堪大用……
+
+- [Squirrel](http://rime.im/)  <sup>Geek but 不推荐</sup>
+
+    鼠须管输入法，稳定、流畅、开源，个人可定制性极高。是 Rime 中州韵输入法的 Mac 发行版。
+
+    折腾一番后，个人定制出来的输入法，从界面到操作细节都能很好地贴合个人习惯！
+
+    但是，词句齐全的成熟本地词库不多，以及云输入（在线匹配新词的功能）的缺失，__输入生词时诸多不便__，时间久了有点疲累。所以，使用 Rime 几个月后，还是回归我惯用的 [百度输入法](https://shurufa.baidu.com/)（我手机输入法也用百度的）。
+
+    - iFanr 爱范儿的推荐 《 [鼠须管，“神级”输入法](http://www.ifanr.com/156409) 》
+    - 配置教程 《 [Rime 输入法 — 鼠须管（Squirrel）词库添加及配置](http://www.jianshu.com/p/cffc0ea094a7) 》
+    - 我自定义的 [Rime 配置](https://github.com/IceHe/Rime)、 [Dictionaries 词库](https://github.com/IceHe/dictionaries)
+
+- [TextExpander](https://textexpander.com/) and [aText](https://www.trankynam.com/atext/) <sup>Great</sup>
+
+    使用缩写写法，来输入重复、高频的内容，按照模板生成内容，加速你的文本输入、处理速度！
+
+    aText 等于 TextExpander 的简化版，价格便宜多了，但功能更少、不够稳定。
+
+    说实话，按照我对缩写的依赖程度，使用 Keyboard Maestro 就能实现这部分基本的「缩写拓展」的功能！更高阶的功能用不上。
+
+- [Time Out](http://www.dejal.com/timeout/) <sup>Health</sup>
+
+    定时作息提醒工具。定时遮盖桌面的应用程序，提醒你离开电脑，去休息眼睛、活动身体。
+
+    我的工作节奏比较有规律，眼睛较少不适，所以很少用。如人饮水，冷暖自知，自己多注意身体才是王道。
+
+- [Visual Studio Code](https://code.visualstudio.com/) <sup>Not Great Enough</sup>
+
+    启动速度介于 Sublime Text 3 与 Atom 之间。简洁好用，只是插件、其它体验还不够 Atom 多和好，地位颇为尴尬，所以少用。
 
 ## iOS
 
 - Mail
 
     iOS 自带邮箱客户端，其实已经足够好用。
-
-- [Ai Search](https://itunes.apple.com/cn/app/ai-search-ge-xing-hua-sou/id936310061?mt=8)
-
-    免费的搜索聚合工具。不用番羽土啬就可以用谷歌搜索！
 
 - [MyWeather](https://itunes.apple.com/us/app/myweather-10-day-weather-forecast/id1003715695?mt=8)
 
@@ -379,18 +452,19 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     国内最好的公开课平台。
 
-- [随手记专业版](http://www.feidee.com/money/) <sup>Favourite</sup>
+- [随手记专业版](http://www.feidee.com/money/) <sup>Favourite, Best</sup>
 
     我用得最顺手的记账软件。
 
-- [车来了](http://www.chelaile.net.cn/) & [北京实时公交](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwjyoLbPoOHMAhUBoJQKHTTdCtoQFggdMAA&url=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fbei-jing-shi-shi-shi-gong-jiao%2Fid703306506%3Fmt%3D8&usg=AFQjCNHMrFugQlX7LH3jvhiv0zBKs40euw&sig2=o2QyQcOt_HsmKDuyuj502w&cad=rjt)
+- [车来了](http://www.chelaile.net.cn/) and [北京实时公交](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwjyoLbPoOHMAhUBoJQKHTTdCtoQFggdMAA&url=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fbei-jing-shi-shi-shi-gong-jiao%2Fid703306506%3Fmt%3D8&usg=AFQjCNHMrFugQlX7LH3jvhiv0zBKs40euw&sig2=o2QyQcOt_HsmKDuyuj502w&cad=rjt)
 
     查看实时公交信息，看附近车站的公交线路什么时候到站。
 
     「车来了」是同类软件中最用户友好的；但「北京实时公交」准确性更高。但可用性比用户友好更重要！
 
-<!--- [Keep](https://itunes.apple.com/us/app/keep-yi-dong-jian-shen-jiao/id952694580?mt=8)-->
-<!--移动健身教练。-->
+- [Keep](https://itunes.apple.com/us/app/keep-yi-dong-jian-shen-jiao/id952694580?mt=8)
+
+    移动健身教练。
 
 - [Douban FM](http://douban.fm/)
 
@@ -414,13 +488,15 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     用过绝大多数 FM 类 App，唯剩它们。内容为王，通常都为了追喜欢的栏目被迫换 App 的，才发现某产品体验好，自然而然成为其用户。
 
-- [Bilibili](http://www.bilibili.com/) <sup>Favourite</sup> & [AcFun](http://www.acfun.tv/)
+- [Bilibili](http://www.bilibili.com/) <sup>Favourite, Best</sup> & [AcFun](http://www.acfun.tv/)
 
     现在看视频不带弹幕，就总觉得差点意思。
 
+- 各种日常的 网购、O2O 等其它生活实用 Apps，人尽皆知，没必要推荐了。
+
 ## Firefox Add-Ons
 
-- [VimFX](https://github.com/akhodakivskiy/VimFx) <sup>Favourite</sup>
+- [VimFX](https://github.com/akhodakivskiy/VimFx) <sup>Favourite, Best</sup>
 
     用 Vim 的键位去浏览、导航网页，减少使用鼠标的使用，键盘党神器！
 
@@ -432,13 +508,9 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     在地址栏输入时，会根据内容自动匹配你可能想打开的内容，包括：收藏的书签、浏览历史、搜索引擎、选项卡。
 
-- [Evernote Web Clipper](https://evernote.com/intl/zh-cn/webclipper/) <sup>Efficient, Required</sup>
+- [Evernote Web Clipper](https://evernote.com/intl/zh-cn/webclipper/) <sup>Efficient, Required, Best</sup>
 
     一键收藏各类网页图文，保存到 Evernote。
-
-- [Greasemonkey](http://www.greasespot.net/)
-
-    使用 JavaScript 脚本自定义网站网页的布局、外观、操作等！有提供油猴脚本的 [网站](http://wiki.greasespot.net/User_Script_Hosting)。
 
 - [FoxyProxy Standard](http://getfoxyproxy.org/) <sup>Required</sup>
 
@@ -455,6 +527,10 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 - [xThunder](http://fxthunder.com/)
 
     统一管理浏览器各下载器的调用，支持迅雷、DownThemAll 等。
+
+- [Greasemonkey](http://www.greasespot.net/) <sup>__Geek__</sup>
+
+    使用 JavaScript 脚本自定义网站网页的布局、外观、操作等！有提供油猴脚本的 [网站](http://wiki.greasespot.net/User_Script_Hosting)。
 
 - [Adblock Plus](https://adblockplus.org/zh_CN/) & [Adblock Plus Elem Hide Helper](https://adblockplus.org/zh_CN/elemhidehelper) <sup>Focus, Required</sup>
 
@@ -478,7 +554,7 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
 - [NumberedTabs](https://addons.mozilla.org/zh-CN/firefox/addon/numberedtabs/?src=api)
 
-    显示标签页的编号，以便用快捷键 ⌘ + 编号 切换至对应标签。
+    显示标签页的编号。以便用快捷键 ⌘ + 编号（Firefox 自带功能） 切换至对应标签。
 
 ## Windows
 
