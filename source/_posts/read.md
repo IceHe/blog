@@ -1,6 +1,6 @@
 title: Reading Bookmarks 阅读书签
 date: 2016-06-17
-updated: 2016-08-31
+updated: 2016-09-01
 show_updated: true
 categories: [read]
 tags: [read]
@@ -237,6 +237,8 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 - [普通人如何合理的理财投资，有哪些书可以学习阅读？](https://www.zhihu.com/question/22818974)- 必修 <sup>_todo_</sup>
 
 - [《 天上不会掉馅饼 》知乎专栏](http://zhuanlan.zhihu.com/wontfallinyourlap) - 金融投资诈骗真相与投资方面的常识 <sup>__Best__</sup>
+
+- [大学生应该持一种怎样的存钱/花钱态度？](https://www.zhihu.com/question/20201206)- 投资自己
 
 - [如何看待「 钱不是省出来的 」这句话？](https://www.zhihu.com/question/25258679)
 
