@@ -18,7 +18,7 @@ description: 本博客的导航页。
 ---
 
 - Blog Bookmarks 博客书签 <sup>this page</sup>
-- __ [Technology Bookmarks 技术书签](/tech)__ <sup>___Updated___</sup>
+- __ [Technology Bookmarks 技术书签](/tech)__
 - __[Reading Bookmarks 阅读书签](/read)__ <sup>___Updated___</sup>
 - [Favourites 喜好](/favourites)
 
@@ -28,6 +28,12 @@ description: 本博客的导航页。
 - [Life Manual 生活指北](/think/life_manual) <sup>__New!__</sup>
 - [2016 Summer](/think/2016_summer) <sup>__New!__</sup>
 - [Bye 2015](/think/bye2015)
+
+### [Mac](/categories/Mac)
+---
+
+- [Tools 利器](/tools) - App、硬件推荐 <sup>___Updated___</sup>
+- [Mac Shortcuts 快捷键](/mac_shortcuts) <sup>___Updated___</sup>
 
 ### [Web](/categories/Web)
 ---
@@ -99,12 +105,6 @@ description: 本博客的导航页。
 ---
 
 - [某次 JavaScript 代码优化过程](/javascript/某次js代码优化过程/)
-
-### [Mac](/categories/Mac)
----
-
-- [Tools 利器](/tools) - App、硬件推荐
-- [Mac Shortcuts 快捷键](/mac_shortcuts)
 
 ### [Time Mgt](/categories/time-mgt)
 ---
