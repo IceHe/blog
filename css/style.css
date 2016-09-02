@@ -505,6 +505,7 @@ header nav {
   header nav {
     float: right;
     width: auto;
+    margin-top: 2em;
     max-height: none;
   }
 }

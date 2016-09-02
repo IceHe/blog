@@ -24,7 +24,7 @@ Add SSH key for">
 <meta property="og:site_name" content="IceHe 何志远">
 <meta property="og:description" content="Tempcommand &amp;amp; run the process in background^ z suspend the processbg continue the process in backgroundfg continue the process in foregroundbg %num specify …fg %num specify …
 Add SSH key for">
-<meta property="og:updated_time" content="2016-06-05T04:24:09.000Z">
+<meta property="og:updated_time" content="2016-09-02T07:16:52.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CLI Note 命令行">
 <meta name="twitter:description" content="Tempcommand &amp;amp; run the process in background^ z suspend the processbg continue the process in backgroundfg continue the process in foregroundbg %num specify …fg %num specify …
@@ -84,11 +84,7 @@ Add SSH key for">
                 
                 <li><a href="/">Home</a></li>
                 
-                <li><a href="/bookmarks">Index</a></li>
-                
-                <li><a href="/tech">Tech</a></li>
-                
-                <li><a href="/read">Read</a></li>
+                <li><a href="/bookmarks">Map</a></li>
                 
                 <li><a href="/about">Me</a></li>
                 
@@ -131,8 +127,8 @@ Add SSH key for">
     <p class="article-data">
     
         <i class="fa fa-pencil"></i>
-        <time class="article-time" datetime="2016-06-05T04:24:09.000Z" itemprop="datePublished">
-            2016-06-05
+        <time class="article-time" datetime="2016-09-02T07:16:52.000Z" itemprop="datePublished">
+            2016-09-02
         </time>
         &nbsp;&nbsp;
         <i class="fa fa-eye"></i>
@@ -196,7 +192,7 @@ Add SSH key for">
 </li>
 <li><p><code>[-abc]</code><br>Options <code>-a</code>, <code>-b</code> and <code>-c</code> can be used at the same time.</p>
 </li>
-<li><p><code>[-a | -b | -c]</code><br>The last option of <code>-a</code>, <code>-b</code> or <code>-c</code> overides the other previous options.  </p>
+<li><p><code>[-a | -b | -c]</code><br>The last option of <code>-a</code>, <code>-b</code> or <code>-c</code> overides the other previous options.</p>
 </li>
 <li><p><code>[-A [-B]]</code><br>Option <code>-B</code> is valid if option <code>-A</code> is specified.</p>
 </li>
@@ -228,7 +224,7 @@ Add SSH key for">
 <p>  <code>-F</code> Display <strong>prompts</strong>:<br>   &nbsp; &nbsp; &nbsp; &nbsp; Slash <code>/</code> after each dir pathname<br>   &nbsp; &nbsp; &nbsp; &nbsp; Asterisk <code>*</code> after each executable<br>   &nbsp; &nbsp; &nbsp; &nbsp; At sign <code>@</code> after each symbolic link<br>   &nbsp; &nbsp; &nbsp; &nbsp; Equals sign <code>=</code> after each socket<br>   &nbsp; &nbsp; &nbsp; &nbsp; Percent sign <code>%</code> after each whiteout<br>   &nbsp; &nbsp; &nbsp; &nbsp; Vertical bar <code>|</code> after each FIFO</p>
 <p>  <code>-G</code> Colorized output. <em>(It’s equivalent to defining CLICOLOR in the env.)</em><br>  <code>-R</code> <strong>Recursively</strong> list subdirs encountered.</p>
 <p>  <code>-l</code> List in <strong>long</strong> format.<br>  <code>-m</code> <strong>Stream</strong> output format, items separated by commas.<br>  <code>-T</code> With complete <strong>time</strong> information.</p>
-<p>  <code>-r</code> List in <strong>reverse</strong> order.<br>  <code>-S</code> Sort files by <strong>size</strong>.<br>  <code>-t</code> Sort by <strong>time</strong> modified. </p>
+<p>  <code>-r</code> List in <strong>reverse</strong> order.<br>  <code>-S</code> Sort files by <strong>size</strong>.<br>  <code>-t</code> Sort by <strong>time</strong> modified.</p>
 <p>  <code>-u</code> Use time of <strong>last access</strong>, instead of last modification of the file<br>  <code>-U</code> Use time of file <strong>creation</strong>, instead of …</p>
 </li>
 </ul>
@@ -244,7 +240,7 @@ Add SSH key for">
 </li>
 </ul>
 <ul>
-<li><p><strong><code>cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file</code> Copy files.</strong><br>  <code>cp source_file ... target_directory</code> cp files to a dir. </p>
+<li><p><strong><code>cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file</code> Copy files.</strong><br>  <code>cp source_file ... target_directory</code> cp files to a dir.</p>
 <p>  <code>-a</code> <strong>All</strong>: Same as <code>-pPR</code>.</p>
 <p>  <code>-f</code> Force to overwrite existing files.<br>  <code>-i</code> Need confirmation …<br>  <code>-n</code> Don’t …</p>
 <p>  <code>-p</code> <strong>Preserve</strong> Attributes as follows:<br>   &nbsp; &nbsp; &nbsp; &nbsp; modification time, access time, file flags, file mode, user ID, and group ID, as allowed by permissions.</p>
@@ -282,7 +278,7 @@ Add SSH key for">
 <p>Permission examples:<br>- <code>u+r</code> == original mode | <code>0400</code><br>- <code>g+w</code> == original mode | <code>0020</code><br>- <code>o-x</code> == original mode &amp; ~<code>0001</code><br>- <code>a=rwx</code> == original mode = <code>0777</code><br>- <code>+x</code> == <code>a+x</code></p>
 <p>Complete examples:<br><code>chmod +rwx ./test.sh</code> == <code>chmod 777 ./test.sh</code></p>
 </li>
-<li><p>Filesystem <a href="https://en.wikipedia.org/wiki/Access_control_list" target="_blank" rel="external"><strong>ACL</strong></a> is used to administrate file permissions. </p>
+<li><p>Filesystem <a href="https://en.wikipedia.org/wiki/Access_control_list" target="_blank" rel="external"><strong>ACL</strong></a> is used to administrate file permissions.</p>
 </li>
 </ul>
 </li>
