@@ -3186,22 +3186,22 @@ img.fix_height {
   </entry>
   
   <entry>
-    <title>Blog Bookmarks 博客书签</title>
+    <title>Blog Map 博客地图</title>
     <link href="http://icehe.me/bookmarks/"/>
     <id>http://icehe.me/bookmarks/</id>
     <published>2015-12-19T16:00:00.000Z</published>
-    <updated>2016-08-06T16:00:00.000Z</updated>
+    <updated>2016-09-02T16:00:00.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;这里是 &lt;strong&gt;本博客的导航页。&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot; title=&quot;目录&quot;&gt;&lt;/a&gt;目录&lt;/h1&gt;&lt;ul&gt;
+&lt;h2 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot; title=&quot;目录&quot;&gt;&lt;/a&gt;&lt;strong&gt;目录&lt;/strong&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;/archives&quot;&gt;Archives 归档 ( Sort by Time )&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Sort by Category as follows.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;Read&quot;&gt;&lt;a href=&quot;#Read&quot; class=&quot;headerlink&quot; title=&quot;Read&quot;&gt;&lt;/a&gt;&lt;a href=&quot;/categories/read&quot;&gt;Read&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
 &lt;ul&gt;
-&lt;li&gt;Blog Bookmarks 博客书签 &lt;sup&gt;this page&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Blog Map 博客地图 &lt;sup&gt;this page&lt;/sup&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt; &lt;a href=&quot;/tech&quot;&gt;Technology Bookmarks 技术书签&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;/read&quot;&gt;Reading Bookmarks 阅读书签&lt;/a&gt;&lt;/strong&gt; &lt;sup&gt;&lt;strong&gt;&lt;em&gt;Updated&lt;/em&gt;&lt;/strong&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/favourites&quot;&gt;Favourites 喜好&lt;/a&gt;&lt;/li&gt;
@@ -3288,7 +3288,7 @@ img.fix_height {
 &lt;h3 id=&quot;Whoami&quot;&gt;&lt;a href=&quot;#Whoami&quot; class=&quot;headerlink&quot; title=&quot;Whoami&quot;&gt;&lt;/a&gt;&lt;a href=&quot;/categories/whoami&quot;&gt;Whoami&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;/about/&quot;&gt;Me 我&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/resume&quot;&gt;Resume&lt;/a&gt;&lt;sup&gt;简历&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/resume&quot;&gt;CV 简历&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/moments/&quot;&gt;My Moments&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/reward&quot;&gt;Reward Me 打赏博主&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
