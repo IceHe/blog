@@ -1,6 +1,6 @@
-title: Blog Bookmarks 博客书签
+title: Blog Map 博客地图
 date: 2015-12-20
-updated: 2016-08-07
+updated: 2016-09-03
 show_updated: true
 categories: [read]
 tags: [read]
@@ -9,7 +9,7 @@ description: 本博客的导航页。
 
 - 这里是 __本博客的导航页。__
 
-# 目录
+## __目录__
 
 - [Archives 归档 ( Sort by Time )](/archives)
 - Sort by Category as follows.
@@ -17,7 +17,7 @@ description: 本博客的导航页。
 ### [Read](/categories/read)
 ---
 
-- Blog Bookmarks 博客书签 <sup>this page</sup>
+- Blog Map 博客地图 <sup>this page</sup>
 - __ [Technology Bookmarks 技术书签](/tech)__
 - __[Reading Bookmarks 阅读书签](/read)__ <sup>___Updated___</sup>
 - [Favourites 喜好](/favourites)
@@ -116,8 +116,8 @@ description: 本博客的导航页。
 ---
 
 - [Me 我](/about/)
-- [Resume](/resume)<sup>简历</sup>
 - [My Moments](/moments/)
+- [IceHe's CV 简历](/resume)
 - [Reward Me 打赏博主](/reward)
 
 <!--### [PHP](/categories/PHP)-->
