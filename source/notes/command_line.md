@@ -76,7 +76,7 @@ Add SSH key for Git
     Options `-a`, `-b` and `-c` can be used at the same time.
 
     - `[-a | -b | -c]`
-    The last option of `-a`, `-b` or `-c` overides the other previous options.  
+    The last option of `-a`, `-b` or `-c` overides the other previous options.
 
     - `[-A [-B]]`
     Option `-B` is valid if option `-A` is specified.
@@ -95,9 +95,9 @@ Add SSH key for Git
     `-d` Do with sth including **dirs**.
     `-f` **Force**: Do sth without confirmation.
     `-i` **If**: Need confirmation to do sth.
-    `-n` **Not**: When need confirmation, don't do sth.  
+    `-n` **Not**: When need confirmation, don't do sth.
     `-p` **Preserve** sth.
-    `-r` | `-R` **Recursive**: Do with sth including entire subtree. 
+    `-r` | `-R` **Recursive**: Do with sth including entire subtree.
     `-v` **Verbose**: Show details.
 
 <br/>
@@ -129,13 +129,13 @@ Add SSH key for Git
     `-G` Colorized output. *(It's equivalent to defining CLICOLOR in the env.)*
     `-R` **Recursively** list subdirs encountered.
 
-    `-l` List in **long** format. 
+    `-l` List in **long** format.
     `-m` **Stream** output format, items separated by commas.
     `-T` With complete **time** information.
 
     `-r` List in **reverse** order.
     `-S` Sort files by **size**.
-    `-t` Sort by **time** modified. 
+    `-t` Sort by **time** modified.
 
     `-u` Use time of **last access**, instead of last modification of the file
     `-U` Use time of file **creation**, instead of ...
@@ -158,7 +158,7 @@ Add SSH key for Git
 
 
 - **`cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file` Copy files.**
-    `cp source_file ... target_directory` cp files to a dir. 
+    `cp source_file ... target_directory` cp files to a dir.
 
     `-a` **All**: Same as `-pPR`.
 
@@ -194,7 +194,7 @@ Add SSH key for Git
 
     `-p` Create **intermediate** dirs as required.
 
-    `-m mode` Set the mode of permission bits of the final created dir. 
+    `-m mode` Set the mode of permission bits of the final created dir.
      &nbsp; &nbsp; &nbsp; &nbsp; Operation char `+` & `-` can be used to modify the initial mode `a=rwx`.
 
 
@@ -228,7 +228,7 @@ Add SSH key for Git
     \- Who: `a` all, `u` user (owner), `g` group, `o` others.  `a = ugo`.
     \- Operation: `+` append, `-` rm, `=` assign.
     \- Permission: `r` rd, `w` write, `x` exec/search, `t` sticky,
-     &nbsp; &nbsp; &nbsp; &nbsp; `s` set-user-ID-on-execution & set-group-ID-on-execution, `u` user, `g` group, `o` others, 
+     &nbsp; &nbsp; &nbsp; &nbsp; `s` set-user-ID-on-execution & set-group-ID-on-execution, `u` user, `g` group, `o` others,
      &nbsp; &nbsp; &nbsp; &nbsp; `X` exec/search bits if it's a dir or any of the exec/search bits are set in the original (unmodified) mode.
 
     Operations:
@@ -246,7 +246,7 @@ Add SSH key for Git
     Complete examples:
     `chmod +rwx ./test.sh` == `chmod 777 ./test.sh`
 
-    - Filesystem [**ACL**](https://en.wikipedia.org/wiki/Access_control_list) is used to administrate file permissions. 
+    - Filesystem [**ACL**](https://en.wikipedia.org/wiki/Access_control_list) is used to administrate file permissions.
 
 
 - **`chown [-h] [-R [-H | -L | -P]] owner[:group] file ...` Change file Owner and group.**
