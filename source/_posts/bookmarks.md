@@ -116,8 +116,8 @@ description: 本博客的导航页。
 ---
 
 - [Me 我](/about/)
+- [CV 简历](/resume)
 - [My Moments](/moments/)
-- [IceHe's CV 简历](/resume)
 - [Reward Me 打赏博主](/reward)
 
 <!--### [PHP](/categories/PHP)-->

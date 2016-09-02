@@ -1,4 +1,4 @@
-title: IceHe's CV 简历
+title: CV 简历
 date: 2015-01-24
 updated: 2016-08-13
 show_updated: true

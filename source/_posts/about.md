@@ -1,7 +1,7 @@
 title: Me 我
 date: 2015-01-20
 updated: 2016-09-03
-show_updated: true
+show_updated: false
 categories: [whoami]
 tags: [whoami]
 description: It's me.
@@ -15,7 +15,7 @@ toc: false
 
 <br/><span class="key_pos">Job</span> <span class="val_pos"> <i class="fa fa-weibo">&nbsp;</i> [Sina Weibo](http://weibo.com/2181657940/) - Mobile API </span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-puzzle-piece">&nbsp;</i> Server-side Development Engineer</sup></span>
-<span class="val_pos"> <i class="fa fa-file-text">&nbsp;</i> &nbsp;[Resume](/resume)</span>
+<span class="val_pos"> <i class="fa fa-file-text">&nbsp;</i> &nbsp;[Curriculum Vitae](/resume)</span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-gear">&nbsp;</i> Skills, Education, Leadership | 简历</sup></span>
 <span class="val_pos"> <i class="fa fa-github-alt">&nbsp;</i> &nbsp;[GitHub](http://github.com/IceHe)</span><br/><br/>
 
