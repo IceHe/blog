@@ -161,6 +161,8 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 
 - [我们不要那么高尚，好不好？](https://zhuanlan.zhihu.com/p/21731126)- 结合评论更精彩 <sup>_temp_</sup>
 
+- [有哪些优秀的沟通思路？](https://www.zhihu.com/question/36088643) <sup>_temp_</sup>
+
 - [个人成长理论、工具](http://blog.hiddenwangcc.com/sharewithu) - 可供参考
 
 ## Health 健康
@@ -215,14 +217,15 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 
 - [翻译真是一条永远走不完的长路啊](https://www.zhihu.com/collection/38698717) - 知乎收藏夹
 
-    - [如何让自己的英语写作达到英语母语者的水平？](https://www.zhihu.com/question/20903135)
+    - [如何让自己的英语写作达到英语母语者的水平？](https://www.zhihu.com/question/20903135) <sup>_todo_</sup> <sup>_temp_</sup>
 
-    - [有哪些高级的英语表达技巧，让人一听就感觉很地道？](https://www.zhihu.com/question/24544386)
-
-- [BBC 英式英语发音视频教程](http://www.miaopai.com/show/STmZrQy-nHwvBSpMYET7~Q__.htm) - Elegant <sup>_todo_</sup> <sup>_temp_</sup>
+    - [有哪些高级的英语表达技巧，让人一听就感觉很地道？](https://www.zhihu.com/question/24544386) <sup>_todo_</sup> <sup>_temp_</sup>
 
 - [美剧字幕组长讲述她如何练听力](http://www.vjianke.com/YM3VH.clip) - 方法 <sup>_todo_</sup> <sup>_temp_</sup>
 
+- [BBC 英式英语发音视频教程](http://www.miaopai.com/show/STmZrQy-nHwvBSpMYET7~Q__.htm) - Elegant <sup>_todo_</sup> <sup>_temp_</sup>
+
+- [怎么练好英语口语？](https://www.zhihu.com/question/20097263) <sup>_todo_</sup> <sup>_temp_</sup>
 
 - [EssayForum](http://www.essayforum.com/) - Free Writing, Editing, and Research Help for Students <sup>_todo_</sup> <sup>_temp_</sup>
 
