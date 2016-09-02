@@ -1,10 +1,10 @@
 title: Me 我
 date: 2015-01-20
-updated: 2016-08-20
+updated: 2016-09-03
 show_updated: true
 categories: [whoami]
 tags: [whoami]
-description: 这就是我。
+description: It's me.
 toc: false
 ----------
 
@@ -12,7 +12,6 @@ toc: false
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-paper-plane">&nbsp;</i> A Cantonese in Beijing</sup></span>
 <span class="val_pos"> <i class="fa fa-envelope-square">&nbsp;</i> &nbsp;<x@icehe.me> </span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-heart">&nbsp;</i> 羽毛球, 毽球, 骑行, 执信, 广州, 动漫</sup></span>
-<!--<span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-heart">&nbsp;</i> Animate, Shuttle Cock, 毽球, 执信</sup></span>-->
 
 <br/><span class="key_pos">Job</span> <span class="val_pos"> <i class="fa fa-weibo">&nbsp;</i> [Sina Weibo](http://weibo.com/2181657940/) - Mobile API </span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-puzzle-piece">&nbsp;</i> Server-side Development Engineer</sup></span>
@@ -50,8 +49,26 @@ toc: false
 
 ---
 
-<div class="center"><sub>__Warning__: The pictures are for reference only!</sub></div> <div class="center"><sub>图片 “毫无 PS 痕迹” 惹，仅供参考，😰 请您以实物为准（逃</sup></div><div class="center"> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_00.jpg" class="pic_styl" style="margin-left: 0px" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_01a.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_08.png" class="pic_styl" /> </div> <div class="center"> <img id="qr_code" src="http://7vzp68.com1.z0.glb.clouddn.com/about_original/qrcode_00.jpg" class="hidden" /> </div> <div class="center"> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_03a.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_05.png" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_06.png" class="pic_styl" /> </div> <div class="center"><sub>__[Memory 回忆](/moments/)__</sub></div>
+<br/><div class="center"> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_00.jpg" class="pic_styl" style="margin-left: 0px" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_01a.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_08.png" class="pic_styl" /> </div> <div class="center"> <img id="qr_code" src="http://7vzp68.com1.z0.glb.clouddn.com/about_original/qrcode_00.jpg" class="hidden" /> </div> <div class="center"> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_03a.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_05.png" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_06.png" class="pic_styl" /> </div> <div class="center"><sub>图片 “毫无 PS 痕迹” 惹，仅供参考，😰 请您以实物为准（逃</sup></div> <div class="center"><sub>__Warning__: The pictures are for reference only!</sub></div> <div class="center"><sub>__[Memory 回忆](/moments/)__</sub></div>
 
-<style type="text/css">.key_pos{position: absolute; right: 75%; text-align: left;} .val_pos{position: absolute; left: 27%;} .red{color: gray;} article img.pic_styl{height: 140px; width: auto; margin-right: 10px;}</style>
+<style type="text/css">
+.key_pos {
+    position: absolute;
+    right: 75%;
+    text-align: left;
+}
+.val_pos {
+    position: absolute;
+    left: 27%;
+}
+.red {
+    color: gray;
+}
+article img.pic_styl {
+    height: 140px;
+    width: auto;
+    margin-right: 10px;
+}
+</style>
 
 <script src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
