@@ -33,7 +33,7 @@ toc: true
 
 - __IDE__ &nbsp; &nbsp; __<i class="fa fa-star-half-o"></i> `PhpStorm` `PyCharm`__ &nbsp; <i class="fa fa-star-o"></i> `Visual Studio` `Eclipse` `QtCreator`
 
-- __Scripts__ &nbsp; &nbsp; __<i class="fa fa-star"></i> `AppleScript` &nbsp; <i class="fa fa-star-half-o"></i> `Shell script`__ `Batch file`<sup>(Windows)</sup>
+- __Scripts__ &nbsp; &nbsp; __<i class="fa fa-star"></i> `AppleScript` &nbsp; <i class="fa fa-star-half-o"></i> `Shell script`__ `Batch file`
 
 - __Tools & Others__ &nbsp; &nbsp; __<i class="fa fa-star"></i> `Git` `Vim` `Zsh` &nbsp; <i class="fa fa-star-half-o"></i> `Qt 4 / 5`__ `Yaf`
 
