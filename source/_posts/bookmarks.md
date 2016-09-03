@@ -19,21 +19,21 @@ description: 本博客的导航页。
 
 - Blog Map 博客地图 <sup>this page</sup>
 - __ [Technology Bookmarks 技术书签](/tech)__
-- __[Reading Bookmarks 阅读书签](/read)__ <sup>___Updated___</sup>
+- __[Reading Bookmarks 阅读书签](/read)__ <sup>_Updated_</sup>
 - [Favourites 喜好](/favourites)
+
+### [Mac](/categories/Mac) | Efficiency
+---
+
+- __[Tools 利器](/tools) - App、硬件推荐__ <sup>_Updated_</sup>
+- __[Mac Shortcuts 快捷键](/mac_shortcuts)__ <sup>_Updated_</sup>
 
 ### [Think](/categories/think)
 ---
 
-- [Life Manual 生活指北](/think/life_manual) <sup>__New!__</sup>
-- [2016 Summer](/think/2016_summer) <sup>__New!__</sup>
+- [Life Manual 生活指北](/think/life_manual) <sup>__New__</sup>
+- [2016 Summer](/think/2016_summer) <sup>__New__</sup>
 - [Bye 2015](/think/bye2015)
-
-### [Mac](/categories/Mac)
----
-
-- [Tools 利器](/tools) - App、硬件推荐 <sup>___Updated___</sup>
-- [Mac Shortcuts 快捷键](/mac_shortcuts) <sup>___Updated___</sup>
 
 ### [Web](/categories/Web)
 ---
