@@ -1,6 +1,6 @@
 title: Favourites 喜好
 date: 2015-11-19
-updated: 2016-08-14
+updated: 2016-09-03
 show_updated: true
 categories: [read]
 tags: [read]
@@ -256,6 +256,10 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 - [伪恋](https://movie.douban.com/subject_search?search_text=%E4%BC%AA%E6%81%8B&cat=1002)
 
     恋爱喜剧。
+
+- [齐木楠雄的灾难](https://movie.douban.com/subject/26801048/)
+
+    笑得根本停不下来… 哈哈哈…
 
 - [Angel Beats!](http://movie.douban.com/subject/4202090/)
 
