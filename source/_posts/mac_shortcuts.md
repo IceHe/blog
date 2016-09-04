@@ -1,10 +1,10 @@
 title: Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2016-08-31
+updated: 2016-09-04
 show_updated: true
 categories: [Mac]
 tags: [Mac]
-description: 我的 OS X 快捷键列表。
+description: 我的 macOS 快捷键列表。
 ---------------------------
 
 - Here are the Mac shortcuts:
@@ -34,6 +34,7 @@ description: 我的 OS X 快捷键列表。
 `→` Right ( Rg )
 
 `⌫` Delete ( Del ) | Backspace ( on Windows )
+
 `Num` Digits: 0 ~ 9
 `Letter` Alphabet: a ~ z
 
@@ -87,6 +88,7 @@ description: 我的 OS X 快捷键列表。
 
     __Bold__ : I am unfamiliar with it .
     _Italic_ : I seldom use it .
+    <sup>_custom_</sup> : Added by myself .
 
 - `⌘ ⌥ a` Manipulation
 
@@ -111,6 +113,8 @@ Some are common & default in operating system.
 Some of the keys below can be modified in `System Preference → Keyboard`.
 Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
 
+## System
+
 - Power
 
     `` Wake Up
@@ -123,40 +127,86 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
 
 - Accessory
 
-    `凵 x` = `^ ⌥ ⇧ X` Spotlight
-    `Fn F` | `^ ⌥ f` Search in All Files
+    `凵 x` = `^ ⌥ ⇧ X` Spotlight <sup>_custom_</sup>
+    `Fn F` | `^ ⌥ f` Search in All Files <sup>_custom_</sup>
 
-    `⌥ /` Show Help Menu
+    `⌥ /` Show Help Menu <sup>_custom_</sup>
 
-## Window & Tab
+- Space
 
-- Window
+    `^ ↑` Mission Control
+    `^ ↓` App Windows
+    `^ ←` Prev Space
+    `^ →` Next Space
 
-    <code>⌘ \`</code> Switch windows of the current App
+    `^ Num` Switch to the num<sub> th</sub> Desktop
+    `F1` | `⎋ m` Desktop <sup>_custom_</sup>
 
-    `⌘ ^ f` Full Screen | Revert
-    `⌘ ,` Preferences
-    `⌘ q` Exit
-    `⌘ w` Close
+- Dock & Menubar & Sidebar
 
-    `⌘ h` Hide
-    `⌘ ⌥ h` Hide All Apps But the Frontmost
-    `⌘ m` Minimize to Dock
-    _`⌘ ⌥ m` Minimize All Windows of the Frontmost App_
+    `F12` Notification Center <sup>_custom_</sup>
+    `^ F12` Do Not Disturb On/Off <sup>_custom_</sup>
+    `⌘ ⌥ d` Dock Hiding On/Off
 
-- Tab
+    __`^ ⌥ 凵` Focus to Dock__ <sup>_custom_</sup>
+    `⌥ [` Focus to Menu Bar <sup>_custom_</sup>
 
-    `⌘ r` Refresh
-    `⌘ t` New Tab
-    `⌘ Num` Switch Tab
+- Accessory
 
-    `^ ⇥` Next Tab
-    `^ ⇧ ⇥` Prev Tab
-    `⌘ ⇥` Next App
-    `⌘ ⇧ ⇥` Prev App
+    `⌘ ⇧ 3` Capture Desktop
+    `⌘ ^ d` Look Up in Dictionary
 
-    `⌘ [` Backward
-    `⌘ ]` Forward
+## Finder
+
+- File
+
+    __`⌘ ↓` Open__
+
+    `⌘ d` Duplicate
+    `⌘ e` Eject Disk
+
+    `⌘ l` New Alias for a file
+    __`⌘ r` to Origin File of Alias__
+
+- Folder
+
+    `⌘ ⇧ A` Application
+    `⌘ ⇧ C` Computer
+    `⌘ ⇧ D` Desktop
+    `⌘ ⇧ F` All My Files
+    __`⌘ ⇧ G` to Folder__
+    `⌘ ⇧ H` Home
+    _`⌘ ⇧ K` Network_
+    `⌘ ⇧ O` Documents
+    __`⌘ ⇧ R` AirDrop__
+    _`⌘ ⇧ U` Utilities_
+    `⌘ ⌥ l` Downloads
+
+    <!--__`⌘ ⌥ T` Add to SideBar__-->
+    `⌘ ⇧ N` New Folder
+
+    __`⌘ ↑` to Parent Dir__
+    __`⌘ ^ ↑` Open Parent Dir in New Window__
+
+- View
+
+    `凵` Quick Look
+    `⌘ i` Get Info
+
+    `⌘  1` View the files in way of Icon
+    `⌘  2` View as a List
+    `⌘  3` View as columns
+    `⌘  4` View as a cover flow
+
+    `⌘ ⇧ ⌫` Empty Trash
+    _`⌘ ⇧ ⌥ ⌫` Empty Trash without Confirmation_
+
+    <!--__`⌘ ⇧ T` Show | Hide Tab Bar__-->
+    __`⌘ ⇧ p` Show | Hide Preview__
+    __`⌘ ⌥ p` Show | Hide Path Bar__
+    __`⌘ ⌥ s` Show | Hide Sidebar__
+    __`⌘ ⌥ t` Show | Hide Tool Bar__
+    __`⌘ /` Show | Hide Status Bar__
 
 ## File & Edit
 
@@ -197,6 +247,36 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
     `⌘ +` Bigger | Zoom In
     `⌘ -` Smaller | Zoom Out
 
+## Window & Tab
+
+- Window
+
+    <code>⌘ \`</code> Switch windows of the current App
+
+    `⌘ ^ f` Toggle Full Screen
+    `⌘ ,` Preferences
+    `⌘ q` Exit
+    `⌘ w` Close
+
+    `⌘ h` Hide
+    `⌘ ⌥ h` Hide All Apps But the Frontmost
+    `⌘ m` Minimize to Dock
+    _`⌘ ⌥ m` Minimize All Windows of the Frontmost App_
+
+- Tab
+
+    `⌘ r` Refresh
+    `⌘ t` New Tab
+    `⌘ Num` Switch Tab
+
+    `^ ⇥` Next Tab
+    `^ ⇧ ⇥` Prev Tab
+    `⌘ ⇥` Next App
+    `⌘ ⇧ ⇥` Prev App
+
+    `⌘ [` Backward
+    `⌘ ]` Forward
+
 ## Emacs Mode
 
 A few people know that it's supported by default in macOS.
@@ -207,56 +287,85 @@ A few people know that it's supported by default in macOS.
 `^ a` = `⌘ ←` Home
 `^ e` = `⌘ →` End
 
-`^ h` = `Del`
-`^ d` = `Fn Del` Forward Del
+`^ h` = `⌫`
+`^ d` = `Fn ⌫` Forward Del
 `^ k` Del to the End of the Line
 
-They are also enabled in `iTerm2`.
+- They are also enabled in `iTerm2` :
 
-- Added by myself in Karabiner/private.xml:
+    - modified by `.zshrc` in `Zsh`
+    - modified by `.vimrc.local` in `Vim`
 
-    `^ u` = `^ a`, `^ k` Del the whole Line
+- More
 
-## Seldom
+    - Modified by `Karabiner`
 
-- Dock & Menubar & Sidebar
+    `^ w` Del Preceding Word
 
-    `F12` Notification Center
-    `^ F12` Do Not Disturb On/Off
-    `⌘ ⌥ d` Dock Hiding On/Off
+    - Added in `Karabiner/private.xml`
 
-    __`^ ⌥ 凵` Focus to Dock__
-    `⌥ [` Focus to Menu Bar
+    `^ u` = `^ a`, `^ k` Del the whole Line <sup>_custom_</sup>
 
-- Space
+## Input Sources
 
-    __`^ ↑` Mission Control__
-    __`^ ↓` App Windows__
-    `^ ←` Prev Space
-    `^ →` Next Space
+- Select
 
-    `^ Num` Switch to Desktop [Num]
-    `F1` Desktop
+    Rg `⌥` | `⌘ 凵` Switch Input Source
+    `⌘ ^ 凵` Emoji & Symbols
+    __`^ ⇧ 凵` Trackpad Handwriting__
 
-- Accessory
+- Pinyin - Simplified (macOS default)
 
-    __`⌘ ⇧ 3` Capture Desktop__
-    `⌘ ^ d` Look Up in Dictionary
+    `[` Page Up
+    `]` Page Down
+    `⇥` Sort By
+    `num` Select
 
-- Other System Apps
+- Baidu Input <sup>__Now I use__</sup>
 
-    - [Activity Monitor](#Activity_Monitor)
-    - [Finder](#Finder)
-    - [Input Sources](#Input_Sources)
-    - [Mail](#Mail)
-    - [Script Editor](#Script_Editor)
+    `^ t` [ Simple | Traditional ] Chinese Characters
+    __`^ .` [ Chinese | English ] Punctuation Marks__
+    __`⇧ 凵` [ 全角 | 半角 ] Punctuation Mark Types__
+    __`^ p` [ 全拼 | 双拼 ] Chinese Input Modes__
 
-# Crazy Remap!
+    __`⌥ ⇧ B` Emoji & Symbols__
+    __`⌥ ⇧ 凵` Add a space between Chinese & English__
+
+-  Squirrel ( Rime Input )
+
+    `^ ⇧ 1` [ Half | Full ] Shape Punctuations
+    `^ ⇧ 2` [ Simple | Traditional ] Chinese Characters
+    `^ ⇧ 3` [ Chinese | English ] Punctuations
+
+## Calendar
+
+`⌘ n` New Event
+`⌘ r` Refresh Calendars
+
+`⌘ t` Today
+__`⌘ ⇧ T` Go to Date__
+
+`⌘ ←` Prev
+`⌘ →` Next
+
+`⌘ 1` By Day
+`⌘ 2` By Week
+`⌘ 3` By Month
+`⌘ 4` By Year
+
+## Activity Monitor
+
+`⌘ ⌥ f` Filter Processes
+`⌘ ⌥ q` Quit the selected Process
+
+# Crazy Remappings
 
 - Supported by __Krabiner__ & __Manico__ & __Seil__
 
     - __Remap__ the key codes.
     - __Open or Switch__ to the specified __app or URL__.
+
+- They are all custom.
 
 ## Layout `凵` `⎋`
 
@@ -267,9 +376,10 @@ They are also enabled in `iTerm2`.
 
     e.g. Functional keys control Brightness, Music, Volume, Keyboard Light …
 
-    <code>凵 ⇥</code> = <code>^ \`</code> Evernote Web Cliper in Firefox
+    `凵 ⇥` = `⎋` Escape
+    `凵 ^` = `↩` Return
 
-    <!--<code>凵 \`</code> -->
+    <code>凵 \`</code> = <code>^ \`</code> Evernote Web Cliper in Firefox
     `凵 1234…` = Functional Keys
     <!--`凵 1` = ``-->
     <!--`凵 2` = ``-->
@@ -284,6 +394,7 @@ They are also enabled in `iTerm2`.
     <!--`凵 -` = ``-->
     <!--`凵 =` = ``-->
 
+    <code>⎋ \`</code>Admin MAPI
     `⎋ 1` [Amazon.cn](https://amazon.cn)
     <!--` 2` -->
     <!--` 3` -->
@@ -295,27 +406,35 @@ They are also enabled in `iTerm2`.
     <!--`⎋ 8` -->
     `⎋ 9` GltLab Weibo
     `⎋ 0` Admin TopWeibo
-    <!--`⎋ -` -->
-    <!--`⎋ =` -->
+
+    `⎋ -` input `--` ( Decrease Operation )
+    `⎋ =` input `==` ( Equal Operation )
 
 - qwer …
+
+    `凵 ⇥` = `⌫` Del
+    `凵 ^` = `↩` Ret
 
     `凵 q` [Firefox](#Firefox)
     `凵 w` [iTerm2](#iTerm2)
     `凵 e` [Evernote](#Evernote)
     `凵 r` [Wunderlist](#Wunderlist)
     `凵 t` [EuDic Free](#EuDict Free)
-
     `凵 y` [Typora](#Typora)
+
     `凵 u` = `⌫` Del
-    `凵 i` = `↩` Return
+    `凵 i` = `↩` Ret
+
     `凵 o` = `-`
     `凵 p` = `=`
+    `⎋ o` = `⇧ -` = `_`
+    `⎋ p` = `⇧ =` = `=`
+
     `凵 [` = `⇧ [` = `{`
     `凵 ]` = `⇧ ]` = `}`
     `凵 \` = `⇧ \` = `|`
 
-    `⎋ q` Admin MAPI
+    <!--`⎋ q` -->
     `⎋ w` [Weibo](http://weibo.com)
     `⎋ e` [Google](https://google.com)
     `⎋ r` [Baidu](https://baidu.com)
@@ -324,11 +443,11 @@ They are also enabled in `iTerm2`.
     <!--`⎋ y` -->
     `⎋ u` [GitHub](https://github.com/IceHe)
     `⎋ i` [IceHe.me](http://icehe.me)
-    <!--`⎋ o` -->
-    <!--`⎋ p` -->
+
     `⎋ [` = `⇧ [` = `{`
     `⎋ ]` = `⇧ ]` = `}`
-    `⎋ \` = `⇧ \` = `|`
+
+    `⎋ \` input `\\`
 
 - asdf …
 
@@ -358,11 +477,12 @@ They are also enabled in `iTerm2`.
     <!--`⎋ v` -->
     <!--`⎋ b` -->
 
-    <!--`⎋ n` -->
-    `⎋ m` = `F1`
+    `⎋ n` = `Fn F4` Launchpad
+    `⎋ m` = `F1` Desktop
+
     `⎋ ,` = `⇧ ,` = `<`
-    `⎋ .` = `⇧ .` = `>`
-    `⎋ /` = `⇧ \` = `|`
+    `⎋ .` input  `->` ( Arrow Operator )
+    `⎋ /` input `//` ( Comment )
 
 ## Layout `Fn` `⌥` `^`
 
@@ -410,9 +530,10 @@ They are also enabled in `iTerm2`.
 
 - qwer …
 
+    <!--`Fn w` Toggle Wifi-->
+
     `Fn q` [QQ](#QQ)
     `Fn w` [WeChat](#WeChat)
-    <!--`Fn w` Toggle Wifi-->
     `Fn e` [Mail](#Mail)
     `Fn r` Preview
     `Fn t` Thunder
@@ -442,7 +563,7 @@ They are also enabled in `iTerm2`.
     `⌥ u` [QQ Music](#QQ Music)
     `⌥ i` iTunes
     <!--`⌥ o` -->
-    <!--`⌥ p` -->
+    `⌥ p` Sina VPN
     <!--`⌥ [` -->
     `⌥ ]` Expand [Bartender 2]([#Bartender 2])
     <!--`⌥ \` -->
@@ -473,15 +594,13 @@ They are also enabled in `iTerm2`.
     <!--`^ ⌥ a` -->
     <!--`^ ⌥ s` -->
     <!--`^ ⌥ d` -->
-    `^ ⌥ f` Search in All Files
+    <!--`^ ⌥ f` Search in All Files-->
     <!--`^ ⌥ g` -->
 
-    `Fn h` | `s h` ←
-    `Fn j` | `s j` ↓
-    `Fn k` | `s k` ↑
-    `Fn l` | `s l` →
-
-    e.g. `s h`: Hold `s` then `h`
+    `Fn h` ←
+    `Fn j` ↓
+    `Fn k` ↑
+    `Fn l` →
 
     `Fn ;` Parallels Desktop
     `Fn '` = `^ ⌥  ⇧ '` Quick Note in Evernote
@@ -509,12 +628,6 @@ They are also enabled in `iTerm2`.
     `Fn b` [Atom](#Atom)
     <!--`Fn b` Toggle Bluetooth-->
 
-    `Fn n` [Netease Music](#Netease Music)
-    `Fn m` [Manico](#Manico)
-    `Fn ,` Numi ( Calculator )
-    <!--`Fn .` -->
-    <!--`Fn /` -->
-
     `⌥ z` App Store
     `⌥ x` Xcode
     `⌥ c` [Calendar](#Calendar)
@@ -526,6 +639,12 @@ They are also enabled in `iTerm2`.
     <!--`^ ⌥ c` -->
     <!--`^ ⌥ v` -->
     <!--`^ ⌥ b` -->
+
+    `Fn n` [Netease Music](#Netease Music)
+    `Fn m` [Manico](#Manico)
+    `Fn ,` Numi ( Calculator )
+    <!--`Fn .` -->
+    <!--`Fn /` -->
 
     `⌥ n` Nozio
     `⌥ m` Sequel Pro ( MySQL )
@@ -539,33 +658,125 @@ They are also enabled in `iTerm2`.
     <!--`^ ⌥ .` -->
     <!--`^ ⌥ /` -->
 
-# Apps
+## [Manico](http://manico.im/)
 
-## [Acrobat Reader](https://get.adobe.com/cn/reader/)
+The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-凵-⎋) and [Layout Fn ⌥](#Layout-Fn-⌥)
 
-`⌘ ^ h` Read Mode
-`⇧ F4` Show/Hide Tools Pane
+## [Karabiner](https://pqrs.org/osx/karabiner/index.html.en)
 
-- Zoom
+Not only shortcuts, but also change layout of keyboard!
 
-    `⌘ 0` Page Level
-    `⌘ 1` Actual Size
-    `⌘ 2` Fit Width
-    `⌘ 3` Fit Visible
-    `⌘ 4` Reflow
+- Quit
 
-## Activity Monitor
+    `⌘ q`, `⌘ q` (Twice) To Send one real keystroke `⌘ q`
 
-`⌘ ⌥ f` Filter Processes
-__`⌘ ⌥ q` Quit the select Process__
+- Profile
 
-## [Amphetamine](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12)
+    `Fn Num` Switch Karabiner setting profile
 
-__`⌥ F12` Mac Stays Awake__
-__`^ ⌥ F12` Allow Mac to Sleep__
+- Emacs Mode
 
-<!--
-## Atom
+    `^ w` Del Preceding Word
+
+- Input Sources
+
+    Rg `⌥` = `⌘ 凵` Switch Input Source
+
+## [Seil](https://pqrs.org/osx/karabiner/seil.html.en)
+
+- Change Key
+
+    `⇪` Caps → `^` Ctrl
+    `^` Ctrl → `⌥` Rg Opt
+
+    `⌘` Rg Cmd → `⎋` Esc
+    `⌥` Rg Opt → `⌘` Rg Cmd
+
+    Need to exchange `CapsLock` & Lf `Ctrl` in `System Preferences → Keyboards → Modifier Key` .
+
+## [Keyboard Maestro](https://www.keyboardmaestro.com/main/)
+
+- Global Macro
+
+    __`^ ⌥  y` Launch Keyboard Maestro Editor__
+    __`^ ⌥  o` Toggle All Micro__
+    __`^ ⌥  ⇧ T` Trigger macro by Name__
+    `^ F1` Quick Macro
+
+- Search in Web
+
+    `^ ⌥  a` Amazon
+    `^ ⌥  b` Baidu
+    `^ ⌥  d` Douban
+    `^ ⌥  g` Google
+    `^ ⌥  j` JD.com
+    `^ ⌥  m` Tmall
+    `^ ⌥  t` Taobao
+    `^ ⌥  w` Weibo
+    `^ ⌥  z` Zhihu
+
+- Abbrs
+
+    - Auto
+
+        Type string `_hi`, it will be reaplaced by the time string `hh:mm`
+        Type `_ymd`, reaplaced by `yy/MM/dd`
+        Type `_Ymd`, reaplaced by `yyyy/MM/dd`
+
+    - Symbols
+
+        Type `_up`, reaplaced by the charactor `↑`
+        Type `_dn`, reaplaced by `↓`
+        Type `_lf`, reaplaced by `←`
+        Type `_rg`, reaplaced by `→`
+        Type `_esc`, reaplaced by `⎋`
+        Type `_tab`, reaplaced by `⇥`
+        Type `_cap`, reaplaced by `⇪`
+        Type `_shf`, reaplaced by `⇧`
+        Type `_opt` or `_alt`, reaplaced by `⌥`
+        Type `_cmd`, reaplaced by `⌘`
+        Type `_spa`, reaplaced by `凵`
+        Type `_del`, reaplaced by `⌫`
+        Type `_ent` or `_ret`, reaplaced by `↩`
+        Type `_app`, reaplaced by ``
+
+# Contact
+
+## Mail
+
+<!--__`⌘ ⇧ N` Get All New Mail__ ( Default )-->
+__`⌘ ^ s` Get All New Mail__ <sup>_custom_</sup>
+
+`⌘ r` Reply
+`⌘  ⇧ r` Reply All
+
+_`⌘ ⇧ L` Red Flag_
+`⌘ ⌥ f` Mailbox Search
+
+__`⌘ 1` Inbox__
+__`⌘ 2` Sent__
+__`⌘ 3` Drafts__
+
+## [QQ](http://im.qq.com/macqq/)
+
+`⌘ ^ a` Capture ( Can be used without opening QQ. )
+`⌘ ↑` Select Prev Chat
+`⌘ ↓` Select Next Chat
+
+`⌘ 1` Switch to Messages
+`⌘ 2` Switch to Contacts
+`⌘ 3` Switch to Applications
+`⌘ e` Switch Mode Simple/Complete
+__`⌘ d` Delete Chat__
+
+## [WeChat](http://www.wechat.com/cgi-bin/readtemplate?t=mac&lang=en_US)
+
+`⌘ ↑` Prev Chat
+`⌘ ↓` Next Chat
+
+# Editors
+
+## [Atom](https://atom.io/)
 
 - View
 
@@ -573,6 +784,8 @@ __`^ ⌥ F12` Allow Mac to Sleep__
     `⌘ \` Toggle Tree View
 
 - File
+
+    `^ s` Save <sup>_custom_</sup>
 
     __`^ ⇧ C` Copy Path__
     __`^ ⇧ L` Select Grammar__
@@ -604,466 +817,71 @@ __`^ ⌥ F12` Allow Mac to Sleep__
 
     __`^ ⇧ M` Markdown Preview__
     __`⌘ ⌥ .` Close Tag ( HTML )__
--->
 
-## Bartender 2
+## [Sublime Text](https://www.sublimetext.com/)
 
-__`^ ⌥ ] Show Bartender Bar__
-__`⌥ ]` Show All Status Icons in Menu Bar__
+`^ s` Save <sup>_custom_</sup>
 
-## Calendar
+## [VS Code](https://code.visualstudio.com/)
 
-`⌘ n` New Event
-`⌘ r` Refresh Calendars
+aka Visual Studio Code
 
-`⌘ t` Today
-__`⌘ ⇧ T` Go to Date__
+`^ s` Save <sup>_custom_</sup>
 
-`⌘ ←` Prev
-`⌘ →` Next
+## Script Editor
 
-`⌘ 1` By Day
-`⌘ 2` By Week
-`⌘ 3` By Month
-`⌘ 4` By Year
+`⌘ ⇧ O` Open Dictionary
 
-## Charles
-
-- Proxy
-
-    __`⌘ r` Start | Stop Recording__
-    `⌘ t` Start | Stop Throttling
-    `⌘ k` Enable | Disable Breakpoints
-
-    `⌘ ⇧ t` Throttle Settings
-    `⌘ ⇧ k` Breakpoint Settings
-
-    `⌘ ⇧ p` macOS Proxy
-    `⌘ ⇧ f` Mozilla Firefox Proxy
-
-- Session
-
-    __`⌘ ⌫` Clear__
-
-    `⌘ o` Open
-    `⌘ n` New
-    `⌘ s` Save
-    `⌘ ⇧ s` Save As
-
-    `⌘ l` Error Log
-
-- View
-
-    __`⌘ 0` Sequence__
-    __`⌘ 9` Structure__
-
-    __`⌘ 1` Overview__
-    __`⌘ 2` Request__
-    __`⌘ 3` Response__
-    `⌘ 4` Summary
-    `⌘ 5` Chart
-    `⌘ 6` Note
-
-    `⌘ ⇧ H` Focused Hosts
-    `⌘ ⇧ V` Viewer Mappings
-
-- Tools
-
-    `⌘ ⌥ d` No Caching
-    `⌘ ⌥ c` Block Cookies
-
-    `⌘ ⌥ m` Map Remote
-    `⌘ ⌥ l` Map Local
-
-    `⌘ ⌥ r` Rewrite
-    `⌘ ⌥ b` Black List
-    `⌘ ⌥ w` White List
-    __`⌘ ⇧ D` DNS Spoofing Settings ( Custom )__
-
-    `⌘ ⌥ i` Mirror
-    `⌘ ⌥ a` Rewrite
-
-    __`⌘ m` Compose ( Edit )__
-    __`⌘ ⇧ M` Compose New__
-    __`⌘ ⇧ R` Repeat__
-
-## CheatSheet
-
-`Long Press ⌘` Activate
-
-## ClipMenu
-
-`凵 v` | `^ ⌥ ⇧ V` Activate
-
-## Code Editors
-
-- Atom
-
-    `^ s` Save ( Custom )
-
-- Sublime Text
-
-    `^ s` Save ( Custom )
-
-- Visual Studio Code
-
-    `^ s` Save ( Custom )
-
-## Dash
-
-- Search
-
-__`^ ⌥  f` Global Search in Dash__
-<!--`^ ⌥  v` Search in Dash using the selected text-->
-
-- View
-
-__`⌘ ⇧ B` Open Online Page__
-`⌘ b` Open Local Page
-
-- Snippets
-
-`⌘ n` New
-`⌘ ⇧ U` New from Clipboard
-
-## EuDict Free
-
-`⌥ 凵` Light Peek
-__`⌘ ⇧ M` Look up Word that Mouse Cursor Hovers__
-__`⌘ ⇧ L` Look up Selection__
-__`⌘ ⇧ 2` Translate Selection__
-
-## Evernote
-
-- Custom
-
-    __`⌥  j` Search in Evernote__
-    __`^ ⌥  ⇧ '` | `Fn '` Quick Note__
-    __`^ ⌥  ⇧ y` | `Fn y` Paste to Evernote__
-
-- Note
-
-    `⌘ ^ s` Sync
-
-    `⌘ j` Search in Notes & Switch to a Note or Notebook
-
-    `⌘ l` Edit Note Title
-    __`⌘ ^ m` Mv Note to the select Notebook__
-    __`⌘ ⇧ I` Get Note Info__
-
-    `⌘ +` Zoom In
-    `⌘ -` Zoom Out
+## [Typora](http://www.typora.io)
 
 - Edit
 
-    `⌘ ⇧ H` Insert Horizontal Rule
-    `⌘ ⇧ T` Insert To-Do
-    _`⌘ ⇧ D` Insert Date_
-    _`⌘ ⇧ ⌥ D` Insert Time_
-    _`⌘ ⇧ L` Insert Table_
+    __`⌘ ⇧ C` Copy as Markdown__
+    __`⌘ ⇧ V` Paste as Plain Text__
 
-    - After Selection, then input:
+    __`⌘ d` Select Word__
+    __`⌘ e` Select Styled Code__
+    __`⌘ l` Select Line/Sentence__
 
-    `⇥` Increase Indent
-    `⇧ ⇥` Decrease Indent
+- Find
 
-    __`⌘ k` Add Link__
-    __`⌘ ⇧ K` Rm Link__
-    `⌘ ⇧ F` Simplify ( Rm ) Formatting
-    `⌘ ⇧ V` Copy and Match Style
+    __`⌘ ⌥ f` Find & Replace__
+    __`⌘ ⌥ e` Replace Next__
 
-    __`⌘ ⇧ O` Toggle Numbered List ( Ordered )__
-    __`⌘ ⇧ U` Toggle Bulleted List ( Unordered )__
+- Paragraph
 
-    `⌘ ^ k` Strikethrough
-    _`⌘ ^ -` Subscript_
-    _`⌘ ^ h` Highlight_
+    __`⌘ [ 1 ~ 5 ]` Heading 1 ~ 5__
 
-- Input
+    __`⌘ t` Table__
+    __`⌘ ⌥ c` Code Fences__
+    __`⌘ ⌥ b` Math Block__
+    __`⌘ ⌥ q` Quote__
 
-    `*`, `凵` - Bulleted List
-    `1.`, `凵` - Numbered List
+    __`⌘ ⌥ o` Ordered List__
+    __`⌘ ⌥ u` Unordered List__
+    __`⌘ ⌥ x` Task List__
 
-    In a new line, input `-` 3 times, `↩`-  insert Horizontal Rule
-    In a new line, input <code>\`</code> 3 times, `↩` - insert Code Quote
+    __`⌘ ⌥ l` Link Reference__
+    __`⌘ ⌥ r` Footnotes__
+    __`⌘ ⇧ -` Horizontal Line__
 
-## Evernote Web Clipper
+- Format
 
-- Activate
+    __`⌘ ⇧ ~` Code__
+    __`^ ⇧ ~` Strike__
 
-    <code>凵 \`</code> = <code>^ \`</code>  Open Clip Mode
-    __<code>^ ⇧ \`</code> Open Simply Clip Mode__
-    `⎋` Exit
-
-    - After <code>^ \`</code> or <code>^ ⇧ \`</code> , then input:
-
-    __`⇧ A` All Main Text__
-    __`⇧ C` Main Text without Advertisement__
-    __`⇧ F` Full Web Page__
-    `⇧ B` Clip as a Bookmark
-    __`⇧ M` Capture__
-
-    `↑` Extend Selection
-    `↓` Shrink Selection
-    `↩` Save
-
-## Finder
-
-- File
-
-    __`⌘ ↓` Open__
-
-    __`⌘ d` Duplicate__
-    `⌘ e` Eject Disk
-
-    `⌘ l` New Alias for a file
-    __`⌘ r` to Origin File of Alias__
-
-- Folder
-
-    `⌘ ⇧ A` Application
-    `⌘ ⇧ C` Computer
-    `⌘ ⇧ D` Desktop
-    `⌘ ⇧ F` All My Files
-    __`⌘ ⇧ G` to Folder__
-    `⌘ ⇧ H` Home
-    _`⌘ ⇧ K` Network_
-    `⌘ ⇧ O` Documents
-    __`⌘ ⇧ R` AirDrop__
-    _`⌘ ⇧ U` Utilities_
-    `⌘ ⌥ l` Downloads
-
-    <!--__`⌘ ⌥ T` Add to SideBar__-->
-    `⌘ ⇧ N` New Folder
-
-    __`⌘ ↑` to Parent Dir__
-    __`⌘ ^ ↑` Open Parent Dir in New Window__
+    __`⌘ ⌥ a` Hyperlink__
+    __`⌘ ⌥ i` Image__
+    __`⌘ \` Clear Format__
 
 - View
 
-    __`凵` Quick Look__
-    `⌘ i` Get Info
+    __`⌘ ⇧ F` Full Screen__
+    __`⌘ ⇧ B` Toggle Outline Panel__
 
-    `⌘  1` View the files in way of Icon
-    `⌘  2` View as a List
-    `⌘  3` View as columns
-    `⌘  4` View as a cover flow
+# IDEs
 
-    `⌘ ⇧ ⌫` Empty Trash
-    _`⌘ ⇧ ⌥ ⌫` Empty Trash without Confirmation_
-
-    <!--__`⌘ ⇧ T` Show | Hide Tab Bar__-->
-    __`⌘ ⇧ p` Show | Hide Preview__
-    __`⌘ ⌥ p` Show | Hide Path Bar__
-    __`⌘ ⌥ s` Show | Hide Sidebar__
-    __`⌘ ⌥ t` Show | Hide Tool Bar__
-    __`⌘ /` Show | Hide Status Bar__
-
-## Firefox
-
-- Common
-
-    `⌘ j` Downloads
-    ~~`⌘ b` Bookmarks ( Badly Use )~~
-    __`⌘ ⇧ B` Manage Bookmarks__
-    __`⌘ ⇧ H` Toggle History__
-    `⌘ ⇧ A` Extensions
-
-- Development
-
-    `⌘ ⌥ i` Inspect Elements
-    _`⌘ ⌥ c` Elements_
-    _`⌘ ⌥ k` Console_
-    _`⌘ ⌥ q` Network_
-
-    _`⌘ ⌥ m` Responsive Design Page View  ( for Mobile )_
-    _`⌘ ⌥ s` JavaScript Debug_
-    _`⌘ ⇧ J` Browser Console_
-
-    `⌘ u` Page Source Code
-    _`⇧ F7` CSS_
-    __`⇧ F4` JavaScript Draft  ( for js test )__
-
-## HazeOver
-
-_`⌘ ⇧ ⌥ H` Toggle_
-
-## IdeaVim
-
-__IdeaVim is a  Plugin for PhpStorm & PyCharm.__
-
-_Most Keys are Same as Vim , Just List my Custom Keys._
-
-- File
-
-    `^ s` :w
-
-- Tab
-
-    `H` Prev Tab
-    `L` Next Tab
-
-- Ctags Like
-
-    `^ ]` Find Declaration
-    `^ t` Back from Declaration
-
-## Input Sources
-
-- Select
-
-    `⌘ 凵` | `Fn f` Switch Input Source
-    `⌘ ^ 凵` Emoji & Symbols
-    __`^ ⇧ 凵` Trackpad Handwriting__
-
-- Pinyin - Simplified (OS X default)
-
-    `[` Page Up
-    `]` Page Down
-    `⇥` Sort By
-    `num` Select
-
-- Baidu Input <sup>__I use__</sup>
-
-    `^ t` [ Simple | Traditional ] Chinese Characters
-    __`^ .` [ Chinese | English ] Punctuation Marks__
-    __`⇧ 凵` [ 全角 | 半角 ] Punctuation Mark Types__
-    `^ p` [ 全拼 | 双拼 ] Chinese Input Modes
-
-    __`⌥ ⇧ B` Emoji & Symbols__
-    __`⌥ ⇧ 凵` Add a space between Chinese & English__
-
--  Squirrel (Rime Input)
-
-    __`^ ⇧ 1` | `^ ⇧ !`  [ Half | Full ] Shape Punctuations__
-    __`^ ⇧ 2` | `^ ⇧ @` [ Simple | Traditional ] Chinese Characters__
-    __`^ ⇧ 3` | `^ ⇧ #` [ Chinese | English ] Punctuations__
-
-    - Emacs Mode
-
-    `⌃ f` Left
-    `⌃ b` Right
-    `⌃ a` Home
-    `⌃ e` End
-    `⌃ h` Backspace
-    __`⌃ d` Delete__
-
-    `⌃ u` | `⌃ [` Escape
-    `^ k` | `⇧ ⌫` Rm the selected Candidate phrase from user dict
-
-## iTerm2
-
-- Edit
-
-    __`⌘ ;` Autocomplete__
-    __`⌘ ⇧ h` Paste History__
-    _`⌘ ⌥ /` Recent Directories_
-
-- Pane
-
-    __`⌘ d` Split Vertically__
-    __`⌘ ⇧ d` Split Horizontally__
-
-    `⌘ [` Prev Pane
-    `⌘ ]` Next Pane
-
-- Others
-
-    `⌘ /` Find Cursor
-
-## Karabiner
-
-Not Only shortcuts, but also Change Layout of Keyboard!
-
-- Quit
-
-    `⌘ q`, `⌘ q` (Twice) To Send one real keystroke `⌘ q`
-
-- Profile
-
-    `Fn Num` Switch Karabiner Setting Profile
-
-- Emacs Mode
-
-    `^ w` Del Preceding Word
-
-- Input Method
-
-    Rg `⌥` = `⌘ 凵` Switch Input Methods
-
-- Others: [Crazy Remap!](#Crazy Remap!)
-
-## Mail
-
-- Mail
-
-    <!--__`⌘ ⇧ N` Get All New Mail__ ( Default )-->
-    __`⌘ ^ s` Get All New Mail__ ( Custom )
-
-    `⌘ r` Reply
-    `⌘  ⇧ r` Reply All
-
-    _`⌘ ⇧ L` Red Flag_
-    `⌘ ⌥ f` Mailbox Search
-
-    __`⌘ 1` Inbox__
-    __`⌘ 2` Sent__
-    __`⌘ 3` Drafts__
-
-## [Manico](http://manico.im/)
-
-- See [Crazy Remap!](#Crazy Remap!)
-
-## Moom
-
-`凵 z` | `^ ⌥ ⇧ Z` Activate
-
-- After `凵 z` | `^ ⌥ ⇧ Z` , then input:
-
-    `⌥ ↑` | `⌥ ↓` Mv the window to the prev | next display
-
-    - Resize the window & mv it to …
-
-    `凵` Fit to Desktop
-    `z` Original ( Revert )
-
-    `q` Lf More Than Half
-    `w` Rg More Than Half
-    `a` Lf Half
-    `s` Rg Half
-
-    `e` Top Lf
-    `r` Top Rg
-    `d` Btm Lf
-    `f` Btm Rg
-
-    `1` Horizontal Lf
-    `2` Horizontal Mid
-    `3` Horizontal Rg
-
-    `y` Top Lf
-    `u` Top Mid
-    `i` Top Rg
-    `h` Btm Lf
-    `j` Btm Mid
-    `k` Btm Rg
-
-## Netease Music
-
-`凵` Play | Pause
-
-`⌘ →` Next
-`⌘ ←` Prev
-
-`⌘ ↑` Volume Up
-`⌘ ↓` Volume Down
-
-__`⌘ l` Dislike__
-__`⌘ r` Show | Hide Lyrics__
-
-__`⌘ ^ m` Switch MiniPlayer__
-
-## PhpStorm
+## [PhpStorm](https://www.jetbrains.com/phpstorm/)
 
 - Input
 
@@ -1071,7 +889,7 @@ __`⌘ ^ m` Switch MiniPlayer__
 
 - Debug
 
-    `⌥ ⇧ d` Debug
+    `⌥ ⇧ D` Debug
     `^ ⇧ B` Toggle BreakPoint
     `⌥ ⇧ R` Rerun
 
@@ -1114,57 +932,224 @@ __`⌘ ^ m` Switch MiniPlayer__
 
 - Refactor
 
-    `⇧ F6` Rename $variable, ClassName, functionName (Auto rename other related code!)
+    `⇧ F6` Rename `$variableName`, `ClassName`, `functionName` ( Auto rename other related code )
 
-## PyCharm
+### [AceJump](https://plugins.jetbrains.com/plugin/7086)
 
-Same as PhpStorm.
+It is a plugin for IDEs from [JetBrains](https://www.jetbrains.com/).
 
-## QQ
+- First, Simple hit `^ ;`
+- Then type a charactor
+- At last, type the matching character to the specified place!
 
-`⌘ ^ a` Capture ( Can be used without opening QQ. )
-`⌘ ↑` Select Prev Chat
-`⌘ ↓` Select Next Chat
+### [IdeaVim](https://plugins.jetbrains.com/plugin/164?pr=idea)
 
-`⌘ 1` Switch to Messages
-`⌘ 2` Switch to Contacts
-`⌘ 3` Switch to Applications
-`⌘ e` Switch Mode Simple/Complete
-__`⌘ d` Delete Chat__
+It is a plugin for IDEs from [JetBrains](https://www.jetbrains.com/).
 
-## QQ Music
+Most keys are same as Vim , Just list my custom keys.
 
-`⌘ →` Next
-`⌘ ←` Prev
+- File
 
-`⌘ ⌥ m` Switch MiniPlayer
+    `^ s` :w
 
-## Script Editor
+- Tab
 
-`⌘ ⇧ O` Open Dictionary
+    `H` Prev Tab
+    `L` Next Tab
 
-## Seil
+- Ctags Like
 
-- Change Key
+    `^ ]` Find Declaration
+    `^ t` Back from Declaration
 
-    `⇪` Caps → `^` Ctrl
-    `^` Ctrl → `⌥` Rg Opt
+## [JetBrains](https://www.jetbrains.com/)
 
-    `⌘` Rg Cmd → `⎋` Esc
-    `⌥` Rg Opt → `⌘` Rg Cmd
+The shortcuts in other IDEs from JetBrains are same as PhpStorm.
 
-    Need to exchange `CapsLock` & Lf `Ctrl` in `System Preferences → Keyboards → Modifier Key` .
+Such as CLion, IntelliJ IDEA, RubyMine, PyCharm and so on.
 
-- Others: [Crazy Remap!](#Crazy Remap!)
-## tmux
+## [Qt Creator](https://www.qt.io/)
 
-`^ a` Prefix Key (aka `Pf`)
+Todo
 
-- After inputing Prefix Key `^ a` (`Pf`) , then input:
+# System Assitant
+
+## [Amphetamine](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12)
+
+__`⌥ F12` Mac Stays Awake__
+__`^ ⌥ F12` Allow Mac to Sleep__
+
+## [Bartender 2](https://www.macbartender.com/)
+
+__`^ ⌥ ]` Show Bartender Bar__
+__`⌥ ]` Show All Status Icons in Menu Bar__
+
+## [CheatSheet](https://www.mediaatelier.com/CheatSheet/)
+
+`Long Press ⌘` Activate
+
+## [ClipMenu](http://www.clipmenu.com/)
+
+`凵 v` = `^ ⌥ ⇧ V` Activate
+
+## [HazeOver](https://hazeover.com/)
+
+_`⌘ ⇧ ⌥ H` Toggle_
+
+## [Moom](https://manytricks.com/moom/)
+
+`凵 z` = `^ ⌥ ⇧ Z` Activate
+
+- After `凵 z` | `^ ⌥ ⇧ Z` , then input:
+
+    `⌘ ↑` | `⌘ ↓` Mv the window to the prev | next display
+
+    - Resize the window & mv it to …
+
+    `凵` Fit to Desktop
+    `z` Original ( Revert )
+
+    `q` Lf More Than Half
+    `w` Rg More Than Half
+    `a` Lf Half
+    `s` Rg Half
+
+    `e` Top Lf
+    `r` Top Rg
+    `d` Btm Lf
+    `f` Btm Rg
+
+    `1` Horizontal Lf
+    `2` Horizontal Mid
+    `3` Horizontal Rg
+
+    `y` Top Lf
+    `u` Top Mid
+    `i` Top Rg
+
+    `h` Btm Lf
+    `j` Btm Mid
+    `k` Btm Rg
+
+# Development
+
+## [Charles](https://www.charlesproxy.com/)
+
+- Proxy
+
+    `⌘ r` Start | Stop Recording
+    __`⌘ t` Start | Stop Throttling__
+    __`⌘ k` Enable | Disable Breakpoints__
+
+    __`⌘ ⇧ t` Throttle Settings__
+    __`⌘ ⇧ k` Breakpoint Settings__
+
+    __`⌘ ⇧ p` macOS Proxy__
+    __`⌘ ⇧ f` Mozilla Firefox Proxy__
+
+- Session
+
+    `⌘ ⌫` Clear
+
+    `⌘ o` Open
+    `⌘ n` New
+    `⌘ s` Save
+    `⌘ ⇧ s` Save As
+
+    `⌘ l` Error Log
+
+- View
+
+    __`⌘ 0` Sequence__
+    __`⌘ 9` Structure__
+
+    __`⌘ 1` Overview__
+    __`⌘ 2` Request__
+    __`⌘ 3` Response__
+
+    _`⌘ 4` Summary_
+    _`⌘ 5` Chart_
+    _`⌘ 6` Note_
+
+    __`⌘ ⇧ H` Focused Hosts__
+    __`⌘ ⇧ V` Viewer Mappings__
+
+- Tools
+
+    __`⌘ ⌥ d` No Caching__
+    __`⌘ ⌥ c` Block Cookies__
+
+    __`⌘ ⌥ m` Map Remote__
+    __`⌘ ⌥ l` Map Local__
+
+    __`⌘ ⌥ r` Rewrite__
+    __`⌘ ⌥ b` Black List__
+    __`⌘ ⌥ w` White List__
+    `⌘ ⇧ D` DNS Spoofing Settings <sup>_custom_</sup>
+
+    `⌘ ⌥ i` Mirror
+    `⌘ ⌥ a` Rewrite
+
+    __`⌘ m` Compose ( Edit )__
+    __`⌘ ⇧ M` Compose New__
+    __`⌘ ⇧ R` Repeat__
+
+## [Dash](https://kapeli.com/dash)
+
+<!--- Search-->
+
+<!--__`^ ⌥  f` Global Search in Dash__-->
+<!--`^ ⌥  v` Search in Dash using the selected text-->
+
+- View
+
+    __`⌘ ⇧ B` Open Online Page__
+    `⌘ b` Open Local Page
+
+- Snippets
+
+    `⌘ n` New
+    `⌘ ⇧ U` New from Clipboard
+
+## [iHosts](http://toolinbox.net/en/iHosts/)
+
+`⌘ ⇧ E` Open Menu
+
+## [iTerm2](https://www.iterm2.com/)
+
+Due to the help from `tmux` and `Zsh`, I don't need much support from `iTerm` as follows.
+
+- Edit
+
+    _`⌘ ;` Autocomplete_
+    _`⌘ ⇧ h` Paste History_
+    _`⌘ ⌥ /` Recent Directories_
+
+- Tab
+
+    `⌘ Num` Switch Tab
+
+- Pane
+
+    __`⌘ d` Split Vertically__
+    __`⌘ ⇧ d` Split Horizontally__
+
+    `⌘ [` Prev Pane
+    `⌘ ]` Next Pane
+
+- Others
+
+    `⌘ /` Find Cursor
+
+### [tmux](https://tmux.github.io/)
+
+`^ q` Prefix Key (aka `Pf`)
+
+- After inputing Prefix Key `Pf` , then input:
 
     - Help
 
-    __`Pf ⇧ ?` List Keys__
+    __`Pf ⇧ /` List Keys__
 
     - Client (Session)
 
@@ -1217,8 +1202,8 @@ __`⌘ d` Delete Chat__
 
     - Copy Mode
 
-    `Pf [` Use Vim-like keys to copy string at Copy Mode.
-    __`Pf ]` Paste buffer.__
+    `Pf [` Use Vim-like keys to copy string at Copy Mode
+    `Pf ]` Paste buffer
 
     - Config
 
@@ -1226,66 +1211,34 @@ __`⌘ d` Delete Chat__
 
 _Others are default as same as the description in the [Official Docs](http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/tmux.1?query=tmux&sec=1)_
 
-## Typora
-
-- Edit
-
-    __`⌘ ⇧ C` Copy as Markdown__
-    __`⌘ ⇧ V` Paste as Plain Text__
-
-    __`⌘ d` Select Word__
-    __`⌘ e` Select Styled Code__
-    __`⌘ l` Select Line/Sentence__
-
-- Find
-
-    __`⌘ ⌥ f` Find & Replace__
-    __`⌘ ⌥ e` Replace Next__
-
-- Paragraph
-
-    __`⌘ [ 1 ~ 5 ]` Heading 1 ~ 5__
-
-    __`⌘ t` Table__
-    __`⌘ ⌥ c` Code Fences__
-    __`⌘ ⌥ b` Math Block__
-    __`⌘ ⌥ q` Quote__
-
-    __`⌘ ⌥ o` Ordered List__
-    __`⌘ ⌥ u` Unordered List__
-    __`⌘ ⌥ x` Task List__
-
-    __`⌘ ⌥ l` Link Reference__
-    __`⌘ ⌥ r` Footnotes__
-    __`⌘ ⇧ -` Horizontal Line__
-
-- Format
-
-    __`⌘ ⇧ ~` Code__
-    __`^ ⇧ ~` Strike__
-
-    __`⌘ ⌥ a` Hyperlink__
-    __`⌘ ⌥ i` Image__
-    __`⌘ \` Clear Format__
-
-- View
-
-    __`⌘ ⇧ F` Full Screen__
-    __`⌘ ⇧ B` Toggle Outline Panel__
-
-## Vim
+### [Vim](http://www.vim.org/)
 
 Only List the Useful Keys that I’m unfamiliar with.
 
-- Del
+- I use the Vim Distribution [spf13-vim](http://vim.spf13.com/)
 
-    `x` Del Char Forward ⌦
-    __`⇧ X` Del Char Backward ⌫__
+- Mv Cursor
 
-    `s` Del Char Forward & then Insert
-    `⇧ S` Del Current Line & then Insert
-    `⇧ C` Del to End of Line & then Insert
-    `⇧ D` Del to End of Line
+    `^ o` Prev Cursor Pos
+    `^ i` Next Cursor Pos
+
+    `{` Prev Blank Line
+    `}` Next Blank Line
+
+    __`ge` Goto Last Char of Prev Word__
+
+    `"` Switch to some Register
+    __`-` Head of Prev Line__
+    __`⇧ +` Head of Next Line__
+
+- [EasyMotion](https://github.com/easymotion/vim-easymotion)
+
+    It's a Vim plugin. [spf13-vim](http://vim.spf13.com/) makes it easier to use:
+
+    1. In normal mode `,`, `,` ( Twice ) then input a cursor motion instruction,
+        such as `w`, `e`, `b`, `f*`, `F*`, `t*`, `T*` or etc.
+    2. The screen will display some keycues.
+    3. If you input one of the keycues, then your cursor will get to the specified place.
 
 - Selcet Range
 
@@ -1298,23 +1251,42 @@ Only List the Useful Keys that I’m unfamiliar with.
     `ci*` Select & Manipulate the string surrounded by `*`.
     `ca*` Select & Manipulate the string surrounded by `*` including `*`.
 
+- Column Edit Mode
+
+    Example:
+
+    1. In normal mode `^ v` then select a block area
+    2. `⇧ I` then type some string to insert
+    3. `⎋`, `⎋` ( Twice ) to apply the insertion at each line heading of the selected block area
+
+- Search & Replace
+
+    `:%s/search_str/replace_str/g` = `:g/search_str/replace_str/`
+    - Input `:` to switch to Command Mode
+    - `%` means finding each occurence of `search_str`
+    - `s` means replacing operation
+    - `g` means replacing globally
+
+    Ref: [Search and replace](http://vim.wikia.com/wiki/Search_and_replace) , [Vim 字符串替换及小技巧](http://xstarcd.github.io/wiki/vim/vim_replace_encodeing.html)
+
 - Cp
 
     `⇧ Y` Copy from the cursor to the end of line
+
+- Del
+
+    `x` Del Char Forward ⌦
+    __`⇧ X` Del Char Backward ⌫__
+
+    `s` Del Char Forward & then Insert
+    `⇧ S` Del Current Line & then Insert
+    `⇧ C` Del to End of Line & then Insert
+    `⇧ D` Del to End of Line
 
 - Exchange
 
     `xp` Exchange the Current Char and the Next Char
     `ddp` Exchange the Current Line and the Next Line
-
-- Check Encoding Value
-
-    __`ga` Show ASCII of Char__
-    __`g8` Goto UTF-8 of Char__
-
-- Open Path
-
-    __`gf` Open Path where Cursor is__
 
 - Lower or Upper Case
 
@@ -1326,13 +1298,14 @@ Only List the Useful Keys that I’m unfamiliar with.
     `^ a` Increase Num
     `^ x` Decrease Num
 
-- Mv Cursor
+- Check Encoding Value
 
-    __`ge` Goto Last Char of Prev Word__
+    __`ga` Show ASCII of Char__
+    __`g8` Goto UTF-8 of Char__
 
-    `"` Switch to some Register
-    __`-` Head of Prev Line__
-    __`⇧ +` Head of Next Line__
+- Open Path
+
+    __`gf` Open Path where Cursor is__
 
 - Save & Quit
 
@@ -1346,13 +1319,164 @@ Only List the Useful Keys that I’m unfamiliar with.
 
 - _Others are default as same as the description in the [Official Summary](http://www.vim.org/docs.php)_
 
-- Use the Vim Distribution [SPF13](http://vim.spf13.com/)
+- TODO: Maybe oneday I will write another article for Vim and will move the content about Vim above to it._
 
-- _Maybe I will write another article for Vim Later ._
+### [Zsh](http://zsh.sourceforge.net/)
 
-## VimFX
+`^ v` Edit Command Line in Vim
 
-__VimFX is a Firefox Extension.__
+- Emacs Mode
+
+    `^ f` Mv Cursor Rg
+    `^ b` Mv Cursor Lf
+    `^ a` Mv Cursor to Head of Line
+    `^ e` Mv Cursor to End of Line
+
+    `^ d` Del Forward ⌦
+    `^ h` Del Backward ⌫
+
+    `^ w` Del Word
+    `^ k` Del to End of Line
+    `^ u` Del Line
+
+- Aliases
+
+    - [.zshrc](https://github.com/IceHe/oh-my-zsh/blob/master/.zshrc)
+    - [dir](https://github.com/IceHe/oh-my-zsh/blob/master/lib/directories.zsh)
+    - [git](https://github.com/IceHe/oh-my-zsh/blob/master/plugins/git/git.plugin.zsh)
+    - [tmux](https://github.com/IceHe/oh-my-zsh/blob/master/plugins/tmux/tmux.plugin.zsh)
+    - [vi-mode](https://github.com/IceHe/oh-my-zsh/blob/master/plugins/vi-mode/vi-mode.plugin.zsh)
+
+- [**oh-my-zsh**](http://ohmyz.sh/) &nbsp;&&nbsp;  [my fork](https://github.com/IceHe/oh-my-zsh)
+
+- [**Docs**](http://zsh.sourceforge.net/Doc/)
+
+# Other Tools
+
+## [Acrobat Reader](https://get.adobe.com/cn/reader/)
+
+`⌘ ^ h` Read Mode
+`⇧ F4` Show/Hide Tools Pane
+
+- Zoom
+
+    `⌘ 0` Page Level
+    `⌘ 1` Actual Size
+    `⌘ 2` Fit Width
+    `⌘ 3` Fit Visible
+    `⌘ 4` Reflow
+
+## Dictionary
+
+`⌘ Num` Switch Dictionary
+
+## [EuDict Free](https://www.eudic.net/eudic/mac_dictionary.aspx)
+
+`⌥ 凵` Light Peek
+__`⌘ ⇧ M` Look up Word that Mouse Cursor Hovers__
+__`⌘ ⇧ L` Look up Selection__
+__`⌘ ⇧ 2` Translate Selection__
+
+## [Evernote](https://www.yinxiang.com/download/?offer=www_menu)
+
+- Note
+
+    `⌘ ^ s` Sync
+
+    `⌘ j` Search in Notes & Switch to a Note or Notebook
+
+    __`⌥  j` Search in Evernote__ <sup>_custom_</sup>
+    __`^ ⌥  ⇧ '` | `Fn '` Quick Note__ <sup>_custom_</sup>
+    __`^ ⌥  ⇧ y` | `Fn y` Paste to Evernote__ <sup>_custom_</sup>
+
+    `⌘ l` Edit Note Title
+    __`⌘ ^ m` Mv Note to the select Notebook__
+    __`⌘ ⇧ I` Get Note Info__
+
+    `⌘ +` Zoom In
+    `⌘ -` Zoom Out
+
+- Edit
+
+    `⌘ ⇧ H` Insert Horizontal Rule
+    `⌘ ⇧ T` Insert To-Do
+    _`⌘ ⇧ D` Insert Date_
+    _`⌘ ⇧ ⌥ D` Insert Time_
+    _`⌘ ⇧ L` Insert Table_
+
+    - After Selection, then input:
+
+    `⇥` Increase Indent
+    `⇧ ⇥` Decrease Indent
+
+    __`⌘ k` Add Link__
+    __`⌘ ⇧ K` Rm Link__
+    `⌘ ⇧ F` Simplify ( Rm ) Formatting
+    `⌘ ⇧ V` Copy and Match Style
+
+    __`⌘ ⇧ O` Toggle Numbered List ( Ordered )__
+    __`⌘ ⇧ U` Toggle Bulleted List ( Unordered )__
+
+    `⌘ ^ k` Strikethrough
+    _`⌘ ^ -` Subscript_
+    _`⌘ ^ h` Highlight_
+
+- Input
+
+    `*`, `凵` - Bulleted List
+    `1.`, `凵` - Numbered List
+
+    In a new line, input `-` 3 times, `↩`-  insert Horizontal Rule
+    In a new line, input <code>\`</code> 3 times, `↩` - insert Code Quote
+
+### [Web Clipper](https://evernote.com/intl/zh-cn/webclipper/)
+
+- Activate
+
+    <code>凵 \`</code> = <code>^ \`</code>  Open Clip Mode
+    __<code>^ ⇧ \`</code> Open Simply Clip Mode__
+    `⎋` Exit
+
+    - After <code>^ \`</code> or <code>^ ⇧ \`</code> , then input:
+
+    __`⇧ A` All Main Text__
+    __`⇧ C` Main Text without Advertisement__
+    __`⇧ F` Full Web Page__
+    `⇧ B` Clip as a Bookmark
+    __`⇧ M` Capture__
+
+    `↑` Extend Selection
+    `↓` Shrink Selection
+    `↩` Save
+
+## [Firefox](http://www.firefox.com.cn/)
+
+- Common
+
+    `⌘ j` Downloads
+    ~~`⌘ b` Bookmarks ( Badly Use )~~
+    __`⌘ ⇧ B` Manage Bookmarks__
+    __`⌘ ⇧ H` Toggle History__
+    `⌘ ⇧ A` Extensions
+
+- Development
+
+    `⌘ ⌥ i` Inspect Elements
+    _`⌘ ⌥ c` Elements_
+    _`⌘ ⌥ k` Console_
+    _`⌘ ⌥ q` Network_
+
+    _`⌘ ⌥ m` Responsive Design Page View  ( for Mobile )_
+    _`⌘ ⌥ s` JavaScript Debug_
+    _`⌘ ⇧ J` Browser Console_
+
+    `⌘ u` Page Source Code
+    _`⇧ F7` CSS_
+    __`⇧ F4` JavaScript Draft  ( for js test )__
+
+### [VimFX](https://addons.mozilla.org/en-US/firefox/addon/vimfx/)
+
+It is a Firefox Extension.
 
 - Input
 
@@ -1523,12 +1647,31 @@ __VimFX is a Firefox Extension.__
     `?` Help Tips
     `⎋` | `^ [` Cancel
 
-## WeChat
+## Music
 
-`⌘ ↑` Prev Chat
-`⌘ ↓` Next Chat
+### [Netease](http://music.163.com/#/download)
 
-## Wunderlist
+`凵` Play | Pause
+
+`⌘ →` Next
+`⌘ ←` Prev
+
+`⌘ ↑` Volume Up
+`⌘ ↓` Volume Down
+
+__`⌘ l` Dislike__
+__`⌘ r` Show | Hide Lyrics__
+
+__`⌘ ^ m` Switch MiniPlayer__
+
+### [QQ](http://y.qq.com/download/index.html)
+
+`⌘ →` Next
+`⌘ ←` Prev
+
+`⌘ ⌥ m` Switch MiniPlayer
+
+## [Wunderlist](https://www.wunderlist.com/zh/)
 
 `⌘ s` Sync
 `⌘ n` New Item
@@ -1543,24 +1686,3 @@ __`⌘ d` Mark as Completed__
 
 _`⌘ e` Email To-do_
 _`⌘ ⇧ E` Edit Selected List_
-
-## Zsh
-
-`^ v` Edit Command Line in Vim
-
-- Emacs Mode
-
-    `^ f` Mv Cursor Rg
-    `^ b` Mv Cursor Lf
-    `^ a` Mv Cursor to Head of Line
-    `^ e` Mv Cursor to End of Line
-
-    `^ d` Del Forward ⌦
-    `^ h` Del Backward ⌫
-
-    `^ w` Del Word
-    `^ k` Del to End of Line
-    `^ u` Del Line
-
-- [My aliases](https://github.com/IceHe/oh-my-zsh/blob/master/.zshrc) and [others](https://github.com/IceHe/oh-my-zsh) in oh-my-zsh.
-- [oh-my-zsh](http://ohmyz.sh/) - A framework for managing your ZSH configuration .
