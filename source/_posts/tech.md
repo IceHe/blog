@@ -31,7 +31,7 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 - [OSChina Online Tools](http://tool.oschina.net/) - 常用 Web 开发辅助工具、相关知识的简易手册
 
-- [百度开发者中心](http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs) / [360 的 CDN 服务](http://libs.useso.com/) -  CDN 公共库：Google、前端、字体…
+- [360 的 CDN 服务](http://libs.useso.com/) - CDN 公共库：Google、前端、字体…
 
 - [Public DNS](http://www.ip.cn/dns.html) - 公共 DNS 服务器 IP 列表
 
@@ -358,4 +358,3 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 - <a href="/tech/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var).html">PHP 的 var !== NULL 是否等价于 isset(var)</a>
 - [《程序员必读的职业规划书》Note](/tech/career.html)
 - [简历上的 精通、熟练、掌握、理解 英语怎么翻译？](/tech/resume_tips.html)
-
