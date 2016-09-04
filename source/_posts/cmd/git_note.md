@@ -122,8 +122,8 @@ description: 我的 Git 笔记，日常工作曾使用的指令组合。
 `git config user.name "icehe"` 设置用户名。
 `git config user.email "x@icehe.me"` 设置邮箱。
 
-`git credential.helper osxkeychain` 长久储存密码，不用每次输入（OS X）。
-`git config credential.helper store` 长久储存密码，不用每次输入（非 OS X）。
+`git credential.helper osxkeychain` 长久储存密码，不用每次输入（macOS）。
+`git config credential.helper store` 长久储存密码，不用每次输入（非 macOS）。
 `git config --unset credential.helper` 密码更改后，重新设定。
 
 ## Pull & Push

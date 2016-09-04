@@ -51,7 +51,7 @@ description: 本博客的导航页。
 ### [AppleScript](/categories/AppleScript)
 ---
 
-- [用 AppleScript 操作 Evernote / OS X](/applescript/evernote_osx/)
+- [用 AppleScript 操作 Evernote / macOS](/applescript/evernote_osx/)
 - [AppleScript Quick Start 快速入门](/applescript/applescript/)
 
 ### [ASM 汇编](/categories/ASM)

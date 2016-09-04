@@ -258,7 +258,7 @@ end tell
 return the clipboard
 ```
 
-# OS X
+# macOS
 
 If your Mac does not have some commands as mentioned below, you can install them through `Homebrew`.
 
@@ -450,7 +450,7 @@ tell application "iTerm"
 
     activate
 
-    # OS X 下有可能：iTerm 在脚本执行前已经运行，但还没窗口
+    # macOS 下有可能：iTerm 在脚本执行前已经运行，但还没窗口
     set without_win to 0 = (count of windows)
     if without_win then
         create window with default profile
