@@ -1,28 +1,30 @@
 title: Tools 利器
 date: 2015-11-21
-updated: 2016-09-01
+updated: 2016-09-04
 show_updated: true
 categories: [Mac]
 tags: [Mac]
 description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 ---
 
-- [利器 - 创造者和他们的工具](http://liqi.io/) 以及使用的方式和原则。
-- [少数派](http://sspai.com/) - 高质量 App 推荐媒体，关于 iOS、Mac、硬件。
-- [一日一技](http://sspai.com/tag/%E4%B8%80%E6%97%A5%E4%B8%80%E6%8A%80/?page=1) & [MacTips](http://zhuanlan.zhihu.com/MacTips) - Mac 使用经验和技巧。
-- 除最后一小节，其它均为Mac平台下的软件。
+- 除 [Windows](#Windows) 小节，其它均为Mac平台下的软件。
+- __References__
+    - [利器 - 创造者和他们的工具](http://liqi.io/) 以及使用的方式和原则。
+    - [少数派](http://sspai.com/) - 高质量 App 推荐媒体，关于 iOS、Mac、硬件。
+    - [一日一技](http://sspai.com/tag/%E4%B8%80%E6%97%A5%E4%B8%80%E6%8A%80/?page=1) & [MacTips](http://zhuanlan.zhihu.com/MacTips) - Mac 使用经验和技巧。
 - __Superscript 上标__
     - The item with <sup>__Best__</sup>&nbsp; implies it is `one of the best`.
     <!--- The item with <sup>Note</sup>&nbsp; implies it is `a link to my related note`.-->
     <!--- The item with <sup>_todo_</sup>&nbsp; implies it has `not been read-through`.-->
     - The item with <sup>_temp_</sup>&nbsp; implies it might `be removed one day`.
-    - & etc…
+    - The item with <sup>__free__</sup>&nbsp; emphasizes it is cost-free.
+    - And so on…
 
 # Software
 
 ## Common
 
-- [Evernote (Premium)](https://www.yinxiang.com/) <sup>First</sup>
+- [Evernote (Premium)](https://www.yinxiang.com/) <sup>Favourite</sup>
 
     第二大脑，知识管理工具。
 
@@ -54,7 +56,7 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     一开始用 [Doit.im](http://doit.im/cn/) 入门，Web 端的操作很极致高效，但移动端 App 不尽如人意。后来发现自己的生活很规律，无需复杂的管理，于是只用 Apple 自带的 Calendar。曾考虑过团队协作类的 App，如 [Worktile](https://worktile.com/)，可是它们的平台太重量级，不够简便易用，徒增无谓的操作。
 
-    现在，又开始用免费版 WunderList 了，任务管理的操作远不如 Web 端的 Doit.im 极致，但是 iOS、Mac 上的 客户端做得不错。各花入各眼，满足个人需求最重要。
+    现在，又开始用免费版 WunderList 了，任务管理的操作远不如 Web 端的 Doit.im 极致，但是 iOS、Mac 上的 客户端做得不错。总之，各花入各眼，满足个人需求就好。
 
 - 双拼输入方案！<sup>Favourite</sup>
 
@@ -99,7 +101,7 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     允许一个用户在一个终端窗口或一个远程终端会话中，使用多个终端会话。
 
-- [spf13](http://vim.spf13.com/)
+- [spf13-vim](http://vim.spf13.com/) <sup>Essential</sup>
 
     一整套 Vim 配置方案。
 
@@ -115,7 +117,7 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
 - [Homebrew](http://brew.sh/) <sup>Best</sup>
 
-    Mac OS X 的包管理器。就如 agt-get 之于 Ubuntu，yum 之于 RedHat、CentOS 的存在。
+    macOS 的包管理器。就如 agt-get 之于 Ubuntu，yum 之于 RedHat、CentOS 的存在。
 
 - [Homebrew Cask](http://caskroom.io/) <sup>Great</sup>
 
@@ -125,7 +127,7 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
 - [iTerm2](https://www.iterm2.com/) <sup>Best</sup>
 
-    Mac OS X 下的终端仿真机，是系统默认自带的 Terminal 的最佳替代 App。
+    macOS 下的终端仿真机，是系统默认自带的 Terminal 的最佳替代 App。
 
 - [Dash](https://kapeli.com/dash) <sup>To the point</sup>
 
@@ -133,21 +135,25 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
 - [PyCharm](https://www.jetbrains.com/pycharm/), &nbsp;[PhpStorm](https://www.jetbrains.com/phpstorm/) <sup>Master Piece</sup>
 
-    Python、PHP 的最佳 IDE！现阶段类型推导做得最好，各方面可圈可点。配合 IdeaVim 插件可用 Vim 键位编辑，因而可少记很多相关的 IDE 快捷键。
+    Python、PHP 的最佳 IDE！现阶段类型推导做得最好，各方面可圈可点。配合 [IdeaVim](https://plugins.jetbrains.com/plugin/164?pr=idea) 插件可用 Vim 键位编辑，因而可少记很多相关的 IDE 快捷键。
 
     - [JetBrains](https://www.jetbrains.com/products.html) 出品的其它 IDE： [IntelliJ IDEA](https://www.jetbrains.com/idea/)、[WebStorm](https://www.jetbrains.com/webstorm/)、[RubyMine](https://www.jetbrains.com/ruby/)、[CLion](https://www.jetbrains.com/clion/) 等。
-
-- [Atom](https://atom.io/) <sup>Modern</sup>
-
-    相当现代的代码编辑器，体验一流，但是冷启动颇慢，不如 Sublime Text 3 快如闪电。
-
-- [Sublime Text 3](http://www.sublimetext.com/) <sup>Popular</sup>
-
-    代码编辑器，我用其替代 TextEdit 作为默认的文本编辑器。Vintage 模式，可用 Vim 键位操作。
 
 - [CodeRunner](https://coderunnerapp.com/) <sup>for Freshman</sup>
 
     支持众多常用语言的轻量级 IDE！学习、调试很方便。
+
+- [Parallel Desktop](http://www.parallels.com/landingpage/pd/general/?src=r&pd11) <sup>Best</sup>
+
+    虚拟机软件，将 Windows、Ubuntu 等操作系统无缝贴合到 macOS 中去，使用流畅自然。
+
+- [Atom](https://atom.io/) <sup>Modern</sup>
+
+    相当现代的代码编辑器，体验一流，但是冷启动颇慢，不如 Sublime Text 的启动快如闪电。
+
+- [Sublime Text](http://www.sublimetext.com/) <sup>Popular</sup>
+
+    代码编辑器，我用其替代 TextEdit 作为默认的文本编辑器。Vintage 模式，可用 Vim 键位操作。
 
 - [Typora](http://www.typora.io) <sup>Elegant</sup>
 
@@ -167,7 +173,7 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
 - [iHosts](https://itunes.apple.com/us/app/ihosts/id1102004240?mt=12)
 
-    灵活管理 macOS 的 Hosts 的上佳方案。
+    灵活管理 macOS 的 hosts 的上佳方案。
 
 - [Transmit](https://panic.com/transmit/)
 
@@ -183,10 +189,6 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     我又可以方便地玩我最喜欢的 NDS 游戏《最终幻想战略版 A2》啦！
 
-- [Parallel Desktop](http://www.parallels.com/landingpage/pd/general/?src=r&pd11) <sup>Best</sup>
-
-    虚拟机软件，将 Windows、Ubuntu 等操作系统无缝贴合到 OS X 中去，使用流畅自然。
-
 - [Adobe Acrobat Reader DC](https://get.adobe.com/cn/reader/)
 
     一般情况下，不使用额外的 __PDF 阅读软件__，Mac 系统自带的 Preview 就够用了。
@@ -197,7 +199,7 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
 - Time Machine <sup>Required</sup>
 
-    OS X 自带的系统备份、恢复软件。
+    macOS 自带的系统备份、恢复软件。
 
     要有忧患意识，不要等硬盘坏了、Mac 丢了，才追悔莫及。
 
@@ -271,7 +273,7 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     输入法状态提示。显示一条样式可定制的色带在屏幕顶部，以提示正在使用什么输入法，在全屏使用 App 时，也能轻易区分输入法状态！
 
-- [MPlayerX](http://mplayerx.org) <sup>Great</sup>
+- [MPlayerX](http://mplayerx.org)
 
     视频播放软件。
 
@@ -284,7 +286,7 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
     547 day in year    // Print: 1 yr 6 mon. 2 day
     ```
 
-- [f.lux](https://justgetflux.com/)
+- [f.lux](https://justgetflux.com/) <sup>Health</sup>
 
     根据所在地当时的日照，自动调整屏幕色温、亮度，减少蓝光对眼睛的刺激，以调整激素水平，保护正常睡眠节律。
 
@@ -294,9 +296,9 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
 - Dictionary <sup>Great Enough</sup>
 
-    OS X 系统自带的字典应用。
+    macOS 系统自带的字典应用。
 
-- Ref：[OS X 有哪些值得装的小软件？](https://www.zhihu.com/question/27870072)
+- Ref：[macOS 有哪些值得装的小软件？](https://www.zhihu.com/question/27870072)
 
 ## 不常用 / 鸡肋
 
@@ -304,17 +306,17 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
 - [Alfred](https://www.alfredapp.com/) <sup>键盘党的神兵利器</sup>
 
-    Spotlight 的增强版！关键字缩写的检索还是 Spotlight 精准；要用命令的话，也基本在终端中操作，没有 Alfred 之流的用武之地；要启动程序的话，Manico 的支持足矣。
+    Spotlight 的增强版！关键字缩写的检索还是 Spotlight 精准；要用命令的话，也基本在终端中操作，没有 Alfred 之流的用武之地；要启动程序的话，有 Manico 的支持足矣。
 
     很多人把它说得神乎其神，其实我并不觉得有大用。毕竟你要敲字符串，Alfred 智能检索猜出：你要做的事，或者要打开的程序或文件，或者要运行脚本…… 然后，你再选一个执行。
 
-    __我更喜欢敲快捷键「一步到位」告诉 Mac 要做的事！__毕竟我喜欢编制这些繁杂的 "tricks" 并深深印到脑子里，证据是：我键盘上的快捷键空间都被快用光啦！
+    __我更喜欢敲快捷键「一步到位」告诉 Mac 要做的事！__毕竟我喜欢编制这些繁杂的 "tricks" 并深深印到脑子里，现在我键盘上好按的快捷键组合都被快用光啦！
 
 - [BetterTouchTool](http://www.boastr.net/)
 
     为 Mac 的触摸板定制更多手势操作。iOS 版 App 还可以用来让 iPhone、iPad 设备化身为 Mac 的触摸板。现已是收费软件，但不贵。
 
-    可是作为键盘党，自定义的快捷键足以让我驰骋 OS X，基本没机会用它。
+    可是作为键盘党，自定义的快捷键足以让我驰骋 macOS，基本没机会用它。
 
 - [Boom](http://www.globaldelight.com/boom/index.php) <sup>不推荐</sup>
 
@@ -326,45 +328,45 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
 - [Contexts](https://contexts.co/) <sup>Great</sup>
 
-    App 窗口切换工具。操作行云流水，切换方面比 Manico 更优秀！但不能定制用于快速启动其它 App 的快捷键，因而被 Manico 替代。
+    App 窗口切换工具。操作行云流水，切换方面比 Manico 更优秀！但不能定制用于快速启动 App 的快捷键，因而被 Manico 替代。
 
 - [Default Folder X](http://stclairsoft.com/DefaultFolderX/) and [Path Finder](http://cocoatech.com/pathfinder/) <sup>不推荐</sup>
 
     用于替代、增强系统默认的文件管理器 Finder。
 
-    我通常都用终端命令行去管理文件系统，Finder 的快捷键烂熟于心，没必要额外的用户友好的 GUI 工具的帮助。而且这两款软件并非免费。
+    我通常都用终端命令行去管理文件系统，Finder 的快捷键烂熟于心，没必要再加额外的工具帮助。而且这两款软件并非免费。
 
 - [Encrypto](http://macpaw.com/encrypto)
 
-    文件加密、解密软件。为文件和文件夹一个密码，正确方可解密访问。真的很少碰到需要使用的场合。
+    文件加密、解密软件。为文件和文件夹设置密码，输入正确方可解密访问。真的很少碰到需要使用的场合。
 
 - [Keymo](https://manytricks.com/keymo/) <sup>不推荐</sup>
 
     使用键盘操作鼠标，四象限定位法颇有创意！
 
-    作为键盘党的我，真要用鼠标的时候，还是用触控板舒心。向来触摸板使用最高的触控敏感度（移动速度），效率毋庸置疑。
+    作为键盘党的我，真要用到鼠标的时候，还是用触控板比较舒心。我的触摸板、鼠标的触控灵敏度（移动速度）向来调到最高，操作还是很快的。
 
 - [LastPass](https://lastpass.com/) and [1Password](https://agilebits.com/onepassword)
 
-    密码管理工具。一直用不惯，之后发现用浏览器自带的密码记录与 Apple 的 KeyChain Access 足矣。
+    密码管理工具。一直用不惯，之后发现用浏览器自带的帐号密码记录与 macOS、iOS 上的 KeyChain Access 足矣。
 
 - [MacID](http://macid.co/) <sup>不推荐</sup>
 
-    可使您的其它 Apple 设备可唤醒、解锁 Mac、甚至进行提权操作。
+    可用其它 Apple 设备唤醒、解锁 Mac、甚至授权「提权」操作。
 
     iPhone、iPad、AppleWatch 用蓝牙链接 Mac 后，可以用 TouchID、iOS 密码、设备的靠近和远离（距离）、蓝牙连接状态或触摸板手势等，来唤醒、解锁 Mac，或锁屏、提权。当指定便携设备远离 Mac，Mac 就会自动锁屏并发出提示；重新靠近 Mac 时，Mac 自动唤醒解锁！
 
-    但蓝牙不时断连后，并不总能快速重连成功，比较恼人，所以弃用。
+    但蓝牙不时断连后，并不总能快速重连成功，比较恼人。新一代的 macOS 也将会原生支持 Apple 设备解锁 Mac。所以弃用。
 
 - [Nozio](http://noiz.io/)
 
     白噪音应用。模拟大自然的声音，屏蔽其它噪音干扰，帮助保持专注，提高效率，放松睡眠。
 
-    音乐听久了也累，有时戴个 3M 降噪耳塞，纯粹安静地工作就很专注、舒服，其实毋需白噪音，所以它依然可有可无。
+    音乐听久了也累，有时戴个 3M 降噪耳塞，纯粹安静地工作就很专注、舒服，其实毋需白噪音，所以可有可无。
 
 - [Paw](https://luckymarmot.com/zh-hans/paw)
 
-    Mac 的 HTTP 客户端。功能全面、设计美观，用于与 REST 服务交互、以助构建 API，构建 HTTP 请求，检查来自服务器的响应，甚至可生成客户端代码。一般的需求下 [Postman](http://www.getpostman.com/) 就够用了，不需要买它。
+    Mac 的 HTTP 客户端。功能全面、设计美观，用于与 REST 服务交互、以助构建 API、HTTP 请求，检查来自服务器的响应，甚至可生成客户端代码。一般的需求下 [Postman](http://www.getpostman.com/) 就够用了，不需要买它。
 
 - [Quick Look plugins](https://github.com/sindresorhus/quick-look-plugins)
 
@@ -378,7 +380,7 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     支持标记语言，如 Markdown、LaTeX；可粘贴图片，文本生成流程图、时序图、状态图… 除了多平台同步的功能不行之外，秒杀其它所有云笔记软件！
 
-    可惜入坑太晚，我用印象笔记足矣，没必要挥动这样的“牛刀”了。
+    可惜入坑太晚，我用印象笔记足矣，不想再费力挥动这样的“牛刀”。
 
 - [Shortcat](https://shortcatapp.com/) <sup>不推荐</sup>
 
@@ -390,7 +392,7 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     折腾一番后，个人定制出来的输入法，从界面到操作细节都能很好地贴合个人习惯！
 
-    但是，词句齐全的成熟本地词库不多，以及云输入（在线匹配新词的功能）的缺失，__输入生词时诸多不便__，时间久了有点疲累。所以，使用 Rime 几个月后，还是回归我惯用的 [百度输入法](https://shurufa.baidu.com/)（我手机输入法也用百度的）。
+    但是，词句齐全的成熟本地词库不多，以及云输入（在线匹配新词的功能）的缺失，__输入生词时诸多不便__，时间久了有点疲累。所以，使用 Rime 几个月后，还是回归我惯用的 [百度输入法](https://shurufa.baidu.com/)（我手机输入法也用它）。
 
     - iFanr 爱范儿的推荐 《 [鼠须管，“神级”输入法](http://www.ifanr.com/156409) 》
     - 配置教程 《 [Rime 输入法 — 鼠须管（Squirrel）词库添加及配置](http://www.jianshu.com/p/cffc0ea094a7) 》
@@ -412,7 +414,7 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
 - [Visual Studio Code](https://code.visualstudio.com/) <sup>Not Great Enough</sup>
 
-    启动速度介于 Sublime Text 3 与 Atom 之间。简洁好用，只是插件、其它体验还不够 Atom 多和好，地位颇为尴尬，所以少用。
+    启动速度介于 Sublime Text 与 Atom 之间。简洁好用，只是插件、其它体验还不够 Atom 多和好，地位颇为尴尬，所以少用。
 
 ## iOS
 
@@ -508,15 +510,15 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     在地址栏输入时，会根据内容自动匹配你可能想打开的内容，包括：收藏的书签、浏览历史、搜索引擎、选项卡。
 
-- [Evernote Web Clipper](https://evernote.com/intl/zh-cn/webclipper/) <sup>Efficient, Required, Best</sup>
+- [Evernote Web Clipper](https://evernote.com/intl/zh-cn/webclipper/) <sup>Efficient, Best</sup>
 
     一键收藏各类网页图文，保存到 Evernote。
 
-- [FoxyProxy Standard](http://getfoxyproxy.org/) <sup>Required</sup>
+- [FoxyProxy Standard](http://getfoxyproxy.org/) <sup>Web Development</sup>
 
     代理服务配置工具。
 
-- [JSONView](http://jsonview.com/) <sup>Required</sup>
+- [JSONView](http://jsonview.com/) <sup>Web Development</sup>
 
     清晰明了地展示页面的 JSON 格式数据。
 
@@ -532,7 +534,7 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     使用 JavaScript 脚本自定义网站网页的布局、外观、操作等！有提供油猴脚本的 [网站](http://wiki.greasespot.net/User_Script_Hosting)。
 
-- [Adblock Plus](https://adblockplus.org/zh_CN/) & [Adblock Plus Elem Hide Helper](https://adblockplus.org/zh_CN/elemhidehelper) <sup>Focus, Required</sup>
+- [Adblock Plus](https://adblockplus.org/zh_CN/) & [Adblock Plus Elem Hide Helper](https://adblockplus.org/zh_CN/elemhidehelper) <sup>Focus, Clean</sup>
 
     广告过滤。防止追踪、屏蔽恶意域名，过滤横幅广告、弹窗广告以及视频广告。配合元素隐藏助手使用，可更轻松地建立元素隐藏规则。
 
@@ -582,21 +584,21 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     i7 - 3.1 GHz / Mem 16 GB / SSD 512 GB ，Mac 是软件工程师的最佳工作平台！
 
-    接近 Unix，稳定、省心。用好了 Windows，才了无牵挂地换了 Mac。
+    Unix-like，稳定、省心。用好了 Windows，才了无牵挂地换了 Mac。
 
 - [Magic Trackpad 2](http://www.apple.com/cn/shop/product/MJ2R2CH/A/magic-trackpad-2?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2) - 触摸板
 
     Macbook 自带触摸板的手感已经非常好了，但它还要更胜一筹！第二代比第一代触摸面积大了不少，有三段式压感反馈，手感细腻。
 
-    还是嫌它大了点，因为我的 Mac 光标移动速度向来调到最快，基本一次小幅度滑动，光标就到位了，不需要太大的触摸面积。
+    还是嫌它大了点，因为我的 Mac 光标移动速度向来调到最快，基本一次小幅度滑动，光标就到位了，不需要太大的触控面积。
 
 - [Magic Keyboard](http://www.apple.com/cn/shop/product/MLA22CH/A/magic-keyboard?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2) - 键盘
 
-    （第二代）小巧轻便，比 Macbook（包括 Air/Pro）自带键盘的布局更紧凑合理，手用更小幅度的移动就能触及所有按键，省力；而且键盘也不会太小太紧凑，所以不影响输入精度，很少按错键。
+    （第二代）小巧轻便，Mac 的键盘布局紧凑合理，手用更小幅度的移动就能触及所有按键，省力。
 
-    可能你会觉得敲起来手感「绵软」，但作为「键盘党」的我，快捷键奇多且用得频繁，就觉得很舒适、省力，用久了手也不容易疲劳（特别是小指）；用起来也比较安静，不容易打扰到周围的人和自己。
+    可能你会觉得敲起来手感「绵软」，但作为「键盘党」的我，快捷键奇多且用得频繁，就觉得很舒适、省力，用久了手也不容易疲劳（特别是小指）；用起来也比较安静，不容易打扰到别人。
 
-    [键程](http://baike.baidu.com/view/1748635.htm) 不会太短，有舒适的反馈感。使用蓝牙 4.0 无线连接，功耗低，而且不用连接线这点，简直是强迫症福音；内置电池，Lighing 接口充电，一次充电续航三周以上，省心。
+    [键程](http://baike.baidu.com/view/1748635.htm) 不会太短，有舒适的反馈感。使用蓝牙 4.0 无线连接，功耗低；没有连接线这点，简直是强迫症福音；内置电池，Lighing 接口充电，一次充电续航三周以上，省心。
 
 - [iPhone6 plus](http://www.apple.com/cn/shop/buy-iphone/iphone6) - 手机 <sup>Favourite</sup>
 
@@ -626,7 +628,7 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     \+ [Amazon Onyx Black Leather Cover](https://www.amazon.cn/%E4%BA%9A%E9%A9%AC%E9%80%8AKindle-Paperwhite%E7%9C%9F%E7%9A%AE%E4%BF%9D%E6%8A%A4%E5%A5%97/dp/B008BQH1NO) ，需要长时间看书时，还得用 E-Ink 屏，保护视力。
 
-- [Bose QC20](http://www.bose.cn/product.aspx?cid=1418#1418) - 耳塞 <sup>Favourite</sup>
+- [Bose QC20](http://www.bose.cn/product.aspx?cid=1418#1418) - 耳塞 <sup>Favourite, Best</sup>
 
     [QuietComfort® 20 Acoustic Noise Cancelling® headphones — Apple devices](https://www.bose.com/en_us/products/headphones/earphones/quietcomfort-20i-acoustic-noise-cancelling-headphones.html#v=qc20_apple_white)
 
@@ -655,7 +657,7 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 <!--- <http://item.jd.hk/1957485171.html#comments-list> <sup>To-Buy</sup>-->
 <!--- <http://search.jd.com/Search?keyword=%E7%B4%A2%E5%B0%BC%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA&enc=utf-8&wq=so%20ni%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA&pvid=2i6kgtqi.ip6kfe>-->
 
-- [Philips Sonicare DiamondClean Sonic Electric Rechargeable Toothbrush](https://www.amazon.com/Philips-Sonicare-DiamondClean-Rechargeable-HX9332/dp/B0052JN7XG/ref=sr_1_1_a_it?ie=UTF8&qid=1468933357&sr=8-1&keywords=hx9332) - 电动牙刷
+- [Philips Sonicare DiamondClean Sonic Electric Rechargeable Toothbrush](https://www.amazon.com/Philips-Sonicare-DiamondClean-Rechargeable-HX9332/dp/B0052JN7XG/ref=sr_1_1_a_it?ie=UTF8&qid=1468933357&sr=8-1&keywords=hx9332) - 电动牙刷 <sup>Favourite</sup>
 
     Model HX9331/04, White，声波式电动牙刷，确实比手动刷干净多了！（[亚马逊中国](https://www.amazon.cn/Philips-%E9%A3%9E%E5%88%A9%E6%B5%A6-HX9332-04%E9%92%BB%E7%9F%B3%E4%BA%AE%E7%99%BD%E5%9E%8B%E5%A3%B0%E6%B3%A2%E9%9C%87%E5%8A%A8%E7%89%99%E5%88%B7/dp/B007ZY5GV2/ref=sr_1_6?ie=UTF8&qid=1468507397&sr=8-6&keywords=philips+diamondclean)）
     - [电动牙刷刷牙相比手动刷牙有什么优缺点？](https://www.zhihu.com/question/19825877/answer/15856166)
@@ -704,7 +706,8 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     - __[YONEX 65FT 白 JP 版](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.H4Rwq7&id=14324807794&_u=euv5jet879d) - 羽球鞋__
 
-        终于买了双像样的鞋，为的是运动时能更舒适、灵活地移动，保护脚趾、脚掌、脚踝、膝盖。待体验。
+        终于买了双像样的羽球鞋，为的是运动时能更舒适、灵活地移动，保护脚趾、脚掌、脚踝、膝盖。
+        快速移动、跳跃后，脚跟落地，能明显感受到它的抗震性很好。
 
 - [Merida Duke 300](http://www.merida.cn/?p=82&a=view&r=482) - 自行车 <sup>Favourite</sup>
 
