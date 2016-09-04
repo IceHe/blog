@@ -215,7 +215,7 @@
 <p><code>git checkout -b &lt;branch_name&gt;</code> 新建分支，并切换到该分支。<br><code>git checkout &lt;branch_name&gt;</code> 切换分支。</p>
 <p><code>git merge &lt;branch_name&gt;</code> 将另一分支 <branch_name> 导入到当前分支。<br><code>git merge --squash &lt;branch_name&gt;</code> 把另一分支的所有提交合并成一个提交，并导入到当前分支。`</branch_name></p>
 <h2 id="Config-配置"><a href="#Config-配置" class="headerlink" title="Config 配置"></a>Config 配置</h2><p><code>git config user.name &quot;icehe&quot;</code> 设置用户名。<br><code>git config user.email &quot;x@icehe.me&quot;</code> 设置邮箱。</p>
-<p><code>git credential.helper osxkeychain</code> 长久储存密码，不用每次输入（OS X）。<br><code>git config credential.helper store</code> 长久储存密码，不用每次输入（非 OS X）。<br><code>git config --unset credential.helper</code> 密码更改后，重新设定。</p>
+<p><code>git credential.helper osxkeychain</code> 长久储存密码，不用每次输入（macOS）。<br><code>git config credential.helper store</code> 长久储存密码，不用每次输入（非 macOS）。<br><code>git config --unset credential.helper</code> 密码更改后，重新设定。</p>
 <h2 id="Pull-amp-Push"><a href="#Pull-amp-Push" class="headerlink" title="Pull &amp; Push"></a>Pull &amp; Push</h2><p><code>git pull faraway another:master</code> 将远端 faraway 仓库的 another 分支，拉到本地 master 分支。<br><code>git push faraway master:another</code> 从本地的 master 分支，推送到远端的 faraway 的仓库的 another 分支。</p>
 <p><code>git config http.postBuffer 524288000</code> 当更新的内容较多时，Git 的缓存区可能不够用，可能导致 <code>git push</code> 失败，需用该指令增加缓存空间。</p>
 <h2 id="Rebase-变基"><a href="#Rebase-变基" class="headerlink" title="Rebase 变基"></a>Rebase 变基</h2><p><code>git rebase &lt;branch_name&gt;</code> 变基的操作可能会发生 “冲突” 等意外状况。<br><code>git rebase --continue</code> 修复 “冲突” 等意外后，执行它以继续变基操作。<br><code>git rebase --abort</code> 假如情况弄得一团糟，需要中途中止变基操作时，运行该指令。</p>
@@ -1107,8 +1107,8 @@ var duoshuoQuery = {short_name:"icehe"};
             query.limit(30);
 
             var excluding_list = [
-                '/about/',
-                '/resume/',
+//                '/about/',
+//                '/resume/',
                 '/reward/',
                 '/bookmarks/'
             ];
@@ -1148,11 +1148,13 @@ var duoshuoQuery = {short_name:"icehe"};
 //                '/applescript/evernote_osx/',
 //                '/applescript/applescript/',
 //                 '/think/bye2015/',
+//                '/think/2016_summer/',
+//                '/resume/',
+//                '/about/',
+                '/read/',
+                '/tech/',
                 '/mac_shortcuts/',
-                '/think/2016_summer/',
-                '/tools/',
-                '/resume/',
-                '/about/'
+                '/tools/'
             ];
 
             for (var i in recommend_urls) {
