@@ -283,3 +283,7 @@ $ find /some/path -type f -iname "*.txt" -exec rm -f {} \;
 # 列举包含某字符串的文件
 
 find ./ -type f | xargs grep 'www.baidu.com'
+
+# pmset
+
+mac 电源管理

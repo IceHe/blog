@@ -1,6 +1,6 @@
 title: Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2016-09-04
+updated: 2016-09-09
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -491,21 +491,21 @@ __`⌘ ⇧ T` Go to Date__
     `Fn 1` [Script Editor](#Script_Editor) ( for AppleScript )
     `Fn 2` System Preferences
     `Fn 3` Dictionary
-    `Fn 4` Transmit
+    ~~`Fn 4` Transmit~~
     `Fn 5` Daily Task
     <!--`Fn 6` -->
     <!--`Fn 7` -->
-    `Fn 8` Key Codes
+    ~~`Fn 8` Key Codes~~
     <!--`Fn 9` -->
     <!--`Fn 0` -->
     <!--`Fn -` -->
     <!--`Fn =` -->
 
     <code>⌥ \`</code> Finder
-    `⌥ 1` Keychain Access
-    `⌥ 2` System Infomation
-    `⌥ 3` Disk Utility
-    `⌥ 4` Font Book
+    ~~`⌥ 1` Keychain Access~~
+    ~~`⌥ 2` System Infomation~~
+    ~~`⌥ 3` Disk Utility~~
+    ~~`⌥ 4` Font Book~~
     <!--`⌥ 5` -->
     <!--`⌥ 6` -->
     <!--`⌥ 7` -->
@@ -530,7 +530,7 @@ __`⌘ ⇧ T` Go to Date__
 
 - qwer …
 
-    <!--`Fn w` Toggle Wifi-->
+    `Fn w` Toggle Wifi
 
     `Fn q` [QQ](#QQ)
     `Fn w` [WeChat](#WeChat)
@@ -540,7 +540,7 @@ __`⌘ ⇧ T` Go to Date__
 
     `Fn y` = `^ ⌥  ⇧ y` Paste to Evernote
     `Fn u` Flux
-    `Fn i` MacID
+    <!--`Fn i` -->
     `Fn o` ShadowsocksX
     `Fn p` MPlayerX
     <!--`Fn [` -->
@@ -769,6 +769,8 @@ __`⌘ 3` Drafts__
 `⌘ e` Switch Mode Simple/Complete
 __`⌘ d` Delete Chat__
 
+`⌘ ^ s` Toggle Full Screen
+
 ## [WeChat](http://www.wechat.com/cgi-bin/readtemplate?t=mac&lang=en_US)
 
 `⌘ ↑` Prev Chat
@@ -888,6 +890,8 @@ aka Visual Studio Code
     `^ 凵` Auto Complete
 
 - Debug
+
+    __`⌘ ⇧ W` Add to Watches__
 
     `⌥ ⇧ D` Debug
     `^ ⇧ B` Toggle BreakPoint

@@ -1,6 +1,6 @@
 title: Tools 利器
 date: 2015-11-21
-updated: 2016-09-04
+updated: 2016-09-17
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -505,10 +505,6 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
     [Vimperator](http://www.vimperator.org/) 拓展功能太强大，响应速度、稳定性、外观和易用性不如 VimFX。
 
     - 我的 VimFX [设置](/mac_shortcuts/#VimFX)
-
-- [Enter Selects](https://addons.mozilla.org/en-US/firefox/addon/enter-selects/) <sup>Efficient</sup>
-
-    在地址栏输入时，会根据内容自动匹配你可能想打开的内容，包括：收藏的书签、浏览历史、搜索引擎、选项卡。
 
 - [Evernote Web Clipper](https://evernote.com/intl/zh-cn/webclipper/) <sup>Efficient, Best</sup>
 
