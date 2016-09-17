@@ -107,6 +107,37 @@
     
 <section class="post" itemscope itemprop="blogitem">
     
+    <a href="/asm/Assembly Language - Note 10/" title="ASM 汇编语言 - 10" itemprop="url">
+    
+        <h1 itemprop="name">ASM 汇编语言 - 10</h1>
+    
+        
+        <p itemprop="description" >int指令，中断例程。实现2*2456^2。将一个全是字母，以0结尾的字符串，转化为大写。用7ch中断例程实现loop指令的功能。BIOS和DOS所提供的中断例程，及其中断例程的安装过程及其应用。</p>
+        
+    
+        <p style="display:inline">
+            <span title="Page Views">
+                <i class="fa fa-eye"></i>
+                <span class="readtimes">?</span>
+            </span>
+            &nbsp; &nbsp;
+
+            <i class="fa fa-pencil"></i>
+            <time datetime="2015-02-11T16:00:00.000Z" itemprop="datePublished" title="Published Date">
+                2015-02-12
+            </time>
+
+        
+        </p>
+    </a>
+
+</section>
+
+
+
+    
+<section class="post" itemscope itemprop="blogitem">
+    
     <a href="/asm/Assembly Language - Note 9/" title="ASM 汇编语言 - 9" itemprop="url">
     
         <h1 itemprop="name">ASM 汇编语言 - 9</h1>
@@ -321,37 +352,6 @@
 
 
 
-    
-<section class="post" itemscope itemprop="blogitem">
-    
-    <a href="/asm/Assembly Language - Note 3/" title="ASM 汇编语言 - 3" itemprop="url">
-    
-        <h1 itemprop="name">ASM 汇编语言 - 3</h1>
-    
-        
-        <p itemprop="description" >汇编指令，伪指令，segment… ends，end，assume，编译和连接，执行过程的跟踪，单步调试，[BX]和loop指令，Debug程序的各种命令，段前缀，一段安全的空间。</p>
-        
-    
-        <p style="display:inline">
-            <span title="Page Views">
-                <i class="fa fa-eye"></i>
-                <span class="readtimes">?</span>
-            </span>
-            &nbsp; &nbsp;
-
-            <i class="fa fa-pencil"></i>
-            <time datetime="2015-02-04T04:00:00.000Z" itemprop="datePublished" title="Published Date">
-                2015-02-04
-            </time>
-
-        
-        </p>
-    </a>
-
-</section>
-
-
-
 
 <nav id="page-nav" class="clearfix unexpand">
     <a class="extend prev" rel="prev" href="/page/4/"><span></span>Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><a class="page-number" href="/page/7/">7</a><a class="page-number" href="/page/8/">8</a><a class="extend next" rel="next" href="/page/6/">Next<span></span></a>
@@ -383,7 +383,7 @@
 <div class="categorieslist">
     <p class="asidetitle">
         <!--<a href="javascript:;" onclick="switch_widget_hidden(this);">-->
-        Categories 分类 &nbsp;
+        Categories &nbsp;
         <!--<i class="fa fa-caret-up"></i>-->
         <!--</a>-->
     </p>
@@ -411,7 +411,7 @@
         
         <li><a href="/categories/read/" title="read">read<sup>4</sup></a></li>
         
-        <li><a href="/categories/think/" title="think">think<sup>3</sup></a></li>
+        <li><a href="/categories/think/" title="think">think<sup>4</sup></a></li>
         
         <li><a href="/categories/time-mgt/" title="time mgt">time mgt<sup>2</sup></a></li>
         
@@ -424,7 +424,7 @@
 <div class="popularlist">
     <p class="asidetitle">
         <!--<a href="javascript:;" onclick="switch_widget_hidden(this);">-->
-            Top20 热榜 &nbsp;
+            Top 20 & Push &nbsp;
             <!--<i class="fa fa-caret-up"></i>-->
         <!--</a>-->
     </p>
@@ -789,7 +789,7 @@
         // if popularlist widget exists, append items to it.
         if (1 == popular_list.length) {
             var recommend_urls = [
-//                '/c++/C++ Interview Book/',
+                '/c++/C++ Interview Book/',
 //                '/applescript/evernote_osx/',
 //                '/applescript/applescript/',
 //                 '/think/bye2015/',
@@ -798,8 +798,9 @@
 //                '/about/',
                 '/read/',
                 '/tech/',
-                '/mac_shortcuts/',
-                '/tools/'
+//                '/mac_shortcuts/',
+                '/tools/',
+                '/cmd/git_note/'
             ];
 
             for (var i in recommend_urls) {
