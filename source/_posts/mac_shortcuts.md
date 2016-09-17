@@ -1,6 +1,6 @@
 title: Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2016-09-09
+updated: 2016-09-17
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -10,6 +10,9 @@ description: 我的 macOS 快捷键列表。
 - Here are the Mac shortcuts:
     - the default ones that I use most frequently
     - all my custom ones.
+- Superscript (上标) :
+    - The item with <sup>_custom_</sup>&nbsp; implies it might `be custom by me`.
+    - The item with <sup>_temp_</sup>&nbsp; implies it might `be removed one day`.
 
 - Ref: 《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》
 
@@ -127,10 +130,9 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
 
 - Accessory
 
-    `凵 x` = `^ ⌥ ⇧ X` Spotlight <sup>_custom_</sup>
-    `Fn F` | `^ ⌥ f` Search in All Files <sup>_custom_</sup>
-
-    `⌥ /` Show Help Menu <sup>_custom_</sup>
+    `⌥ 凵` Spotlight <sup>_custom_</sup>
+    `⌥ f` Search in All Files <sup>_custom_</sup>
+    `^ ⌥ /` Show Help Menu <sup>_custom_</sup>
 
 - Space
 
@@ -141,6 +143,7 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
 
     `^ Num` Switch to the num<sub> th</sub> Desktop
     `F1` | `⎋ m` Desktop <sup>_custom_</sup>
+    `⎋ n` Launchpad <sup>_custom_</sup>
 
 - Dock & Menubar & Sidebar
 
@@ -149,12 +152,12 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
     `⌘ ⌥ d` Dock Hiding On/Off
 
     __`^ ⌥ 凵` Focus to Dock__ <sup>_custom_</sup>
-    `⌥ [` Focus to Menu Bar <sup>_custom_</sup>
+    <code>⌥ \`</code> Focus to Menu Bar <sup>_custom_</sup>
 
 - Accessory
 
     `⌘ ⇧ 3` Capture Desktop
-    `⌘ ^ d` Look Up in Dictionary
+    `⌘ ^ w` Look Up in Dictionary <sup>_custom_</sup>
 
 ## Finder
 
@@ -201,8 +204,8 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
     `⌘ ⇧ ⌫` Empty Trash
     _`⌘ ⇧ ⌥ ⌫` Empty Trash without Confirmation_
 
-    <!--__`⌘ ⇧ T` Show | Hide Tab Bar__-->
-    __`⌘ ⇧ p` Show | Hide Preview__
+    __`⌘ ⇧ T` Show | Hide Tab Bar__
+    __`⌘ ⇧ P` Show | Hide Preview__
     __`⌘ ⌥ p` Show | Hide Path Bar__
     __`⌘ ⌥ s` Show | Hide Sidebar__
     __`⌘ ⌥ t` Show | Hide Tool Bar__
@@ -310,7 +313,7 @@ A few people know that it's supported by default in macOS.
 
 - Select
 
-    Rg `⌥` | `⌘ 凵` Switch Input Source
+    Left `^` | `⌘ 凵` Switch Input Source
     `⌘ ^ 凵` Emoji & Symbols
     __`^ ⇧ 凵` Trackpad Handwriting__
 
@@ -367,154 +370,91 @@ __`⌘ ⇧ T` Go to Date__
 
 - They are all custom.
 
-## Layout `凵` `⎋`
+## Layout `凵`
 
 - 1234 …
 
     `Functional Keys` = `F1` ~ `F12`
-    `凵 123456790-=` = `Functional Keys`
 
-    e.g. Functional keys control Brightness, Music, Volume, Keyboard Light …
+    `凵 ⇥` __Prefix Key__
+    e.g. If press it and then press another App shortcut, the App will launch.
 
-    `凵 ⇥` = `⎋` Escape
     `凵 ^` = `↩` Return
 
-    <code>凵 \`</code> = <code>^ \`</code> Evernote Web Cliper in Firefox
-    `凵 1234…` = Functional Keys
-    <!--`凵 1` = ``-->
-    <!--`凵 2` = ``-->
-    <!--`凵 3` = ``-->
-    <!--`凵 4` = ``-->
-    <!--`凵 5` = ``-->
+    <code>凵 \`</code> System Preferences
+    `凵 1` [Dash](#Dash)
+    `凵 2` [WeChat](#WeChat)
+    `凵 3` [Mail](#Mail)
+    `凵 4` [Finder](#Finder)
+    `凵 5` Preview
     <!--`凵 6` = ``-->
-    <!--`凵 7` = ``-->
-    <!--`凵 8` = ``-->
-    <!--`凵 9` = ``-->
+    `凵 7` Sequel Pro ( MySQL )
+    `凵 8` [Karabiner](#Karabiner)
+    `凵 9` [Seil](#Seil)
     <!--`凵 0` = ``-->
-    <!--`凵 -` = ``-->
-    <!--`凵 =` = ``-->
-
-    <code>⎋ \`</code>Admin MAPI
-    `⎋ 1` [Amazon.cn](https://amazon.cn)
-    <!--` 2` -->
-    <!--` 3` -->
-    `⎋ 4` [localhost:4000](http://localhost:4000)
-    `⎋ 5` [Tmall](https://tmall.com)
-
-    <!--`⎋ 6` -->
-    `⎋ 7` [JD](https://jd.com)
-    <!--`⎋ 8` -->
-    `⎋ 9` GltLab Weibo
-    `⎋ 0` Admin TopWeibo
-
-    `⎋ -` input `--` ( Decrease Operation )
-    `⎋ =` input `==` ( Equal Operation )
+    `凵 -` = `_`
+    `凵 =` = `+`
 
 - qwer …
 
     `凵 ⇥` = `⌫` Del
     `凵 ^` = `↩` Ret
 
-    `凵 q` [Firefox](#Firefox)
-    `凵 w` [iTerm2](#iTerm2)
+    `凵 q` [QQ](#QQ)
+    `凵 w` [Wunderlist](#Wunderlist)
     `凵 e` [Evernote](#Evernote)
-    `凵 r` [Wunderlist](#Wunderlist)
-    `凵 t` [EuDic Free](#EuDict Free)
-    `凵 y` [Typora](#Typora)
+    `凵 r` [Firefox](#Firefox)
+    `凵 t` [iTerm2](#iTerm2)
+    `凵 y` [EuDic Free](#EuDict-Free)
 
     `凵 u` = `⌫` Del
     `凵 i` = `↩` Ret
 
-    `凵 o` = `-`
-    `凵 p` = `=`
-    `⎋ o` = `⇧ -` = `_`
-    `⎋ p` = `⇧ =` = `=`
+    `凵 o` [Atom](#Atom)
+    `凵 p` Postman
 
     `凵 [` = `⇧ [` = `{`
     `凵 ]` = `⇧ ]` = `}`
     `凵 \` = `⇧ \` = `|`
-
-    <!--`⎋ q` -->
-    `⎋ w` [Weibo](http://weibo.com)
-    `⎋ e` [Google](https://google.com)
-    `⎋ r` [Baidu](https://baidu.com)
-    `⎋ t` [Taobao](https://taobao.com)
-
-    <!--`⎋ y` -->
-    `⎋ u` [GitHub](https://github.com/IceHe)
-    `⎋ i` [IceHe.me](http://icehe.me)
-
-    `⎋ [` = `⇧ [` = `{`
-    `⎋ ]` = `⇧ ]` = `}`
-
-    `⎋ \` input `\\`
 
 - asdf …
 
     `凵 asdfghjkl;` = `1234567890`
     `凵 '` = <code>\`</code>
 
-    `⎋ asdfghjkl;` = `!@#$%^&*()`
-    <!--`⎋ '` -->
-
 - zxcv …
 
-    `凵 z` = `^ ⌥ ⇧ Z` [Moom](#Moom)
-    `凵 x` = `^ ⌥ ⇧ X` Spotlight
+    `凵 z` [Moom](#Moom)
+    `凵 x` [PhpStorm](#PhpStorm)
     `凵 c` [Charles](#Charles)
-    `凵 v` = `^ ⌥ ⇧ V` [ClipMenu](#ClipMenu)
-    `凵 b` Sublime Text
+    `凵 v` [ClipMenu](#ClipMenu)
+    `凵 b` [Sublime Text](#Sublime-Text)
 
-    <!--`凵 n` -->
-    <!--`凵 m` -->
-    `凵 ,` = `⇧ ,` = `<`
-    `凵 .` = `⇧ .` = `>`
-    `凵 /` = `\`
+    `凵 n` [Netease Music](#Netease)
+    `凵 m` Keyboard Maestro
+    <!-- `凵 ,`  -->
+    <!-- `凵 .`  -->
+    `凵 /` = <code>⇧ \`</code> = `~`
 
-    `⎋ z` [Zhihu](https://zhihu.com)
-    <!--`⎋ x` -->
-    <!--`⎋ c` -->
-    <!--`⎋ v` -->
-    <!--`⎋ b` -->
-
-    `⎋ n` = `Fn F4` Launchpad
-    `⎋ m` = `F1` Desktop
-
-    `⎋ ,` = `⇧ ,` = `<`
-    `⎋ .` input  `->` ( Arrow Operator )
-    `⎋ /` input `//` ( Comment )
-
-## Layout `Fn` `⌥` `^`
+## Layout `⌥` `^`
 
 - 1234 …
 
-    `Fn 1` [Script Editor](#Script_Editor) ( for AppleScript )
-    `Fn 2` System Preferences
-    `Fn 3` Dictionary
-    ~~`Fn 4` Transmit~~
-    `Fn 5` Daily Task
-    <!--`Fn 6` -->
-    <!--`Fn 7` -->
-    ~~`Fn 8` Key Codes~~
-    <!--`Fn 9` -->
-    <!--`Fn 0` -->
-    <!--`Fn -` -->
-    <!--`Fn =` -->
-
-    <code>⌥ \`</code> Finder
-    ~~`⌥ 1` Keychain Access~~
-    ~~`⌥ 2` System Infomation~~
-    ~~`⌥ 3` Disk Utility~~
-    ~~`⌥ 4` Font Book~~
-    <!--`⌥ 5` -->
+    <!-- <code>⌥ \`</code>  -->
+    `⌥ 1` [Script Editor](#Script_Editor) ( for AppleScript )
+    `⌥ 2` System Information
+    `⌥ 3` Disk Utility
+    `⌥ 4` Font Book
+    `⌥ 5` Transmit
     <!--`⌥ 6` -->
     <!--`⌥ 7` -->
-    <!--`⌥ 8` -->
+    `⌥ 8` Keychain Access
     <!--`⌥ 9` -->
     <!--`⌥ 0` -->
     <!--`⌥ -` -->
     <!--`⌥ =` -->
 
+    <!-- <code>^ ⌥ \`</code>  -->
     <!--`^ ⌥ 1` -->
     <!--`^ ⌥ 2` -->
     <!--`^ ⌥ 3` -->
@@ -526,113 +466,80 @@ __`⌘ ⇧ T` Go to Date__
     <!--`^ ⌥ 9` -->
     <!--`^ ⌥ 0` -->
     <!--`^ ⌥ -` -->
-    <!--`^ ⌥ =` -->
+    <!--`⌥ =` -->
 
 - qwer …
-
-    `Fn w` Toggle Wifi
-
-    `Fn q` [QQ](#QQ)
-    `Fn w` [WeChat](#WeChat)
-    `Fn e` [Mail](#Mail)
-    `Fn r` Preview
-    `Fn t` Thunder
-
-    `Fn y` = `^ ⌥  ⇧ y` Paste to Evernote
-    `Fn u` Flux
-    <!--`Fn i` -->
-    `Fn o` ShadowsocksX
-    `Fn p` MPlayerX
-    <!--`Fn [` -->
-    <!--`Fn ]` -->
-    <!--`Fn \` -->
 
     `⌥ q` Qt Creator
     `⌥ w` Word
     `⌥ e` Excel
-    `⌥ r` PowerPoint
-    `⌥ t` Time Machine
+    `⌥ r` [RubyMine](#JetBrains)
+    `⌥ t` Thunder
 
-    <!--`^ ⌥ q` -->
-    <!--`^ ⌥ w` -->
-    <!--`^ ⌥ e` -->
-    <!--`^ ⌥ r` -->
-    <!--`^ ⌥ t` -->
-
-    <!--`⌥ y` -->
-    `⌥ u` [QQ Music](#QQ Music)
+    `⌥ y` [Typora](#Typora)
+    `⌥ u` Flux
     `⌥ i` iTunes
-    <!--`⌥ o` -->
-    `⌥ p` Sina VPN
-    <!--`⌥ [` -->
-    `⌥ ]` Expand [Bartender 2]([#Bartender 2])
-    <!--`⌥ \` -->
+    `⌥ o` ShadowsocksX
+    `⌥ p` PowerPoint
 
-    <!--`^ ⌥ y` -->
-    <!--`^ ⌥ u` -->
-    <!--`^ ⌥ i` -->
-    <!--`^ ⌥ o` -->
-    <!--`^ ⌥ p` -->
-    <!--`^ ⌥ [` -->
-    `^ ⌥ ]` Show [Bartender 2]([#Bartender 2])
-    <!--`^ ⌥ \` -->
+    `⌥ [` Paste to [Evernote](#Evernote)
+    `⌥ ]` Expand [Bartender 2](#Bartender-2)
+    <!-- `⌥ \`  -->
+
+    `^ ⌥ q` [QQ Music](#QQ-1)
+    `^ ⌥ w` Windows XP
+    `^ ⌥ e` Wireshark
+    `^ ⌥ r` Reminder
+    `^ ⌥ t` Time Machine
+
+    <!-- `^ ⌥ u`  -->
+    <!-- `^ ⌥ i`  -->
+    `^ ⌥ o` OpenEmu
+    `^ ⌥ p` Parallels Desktop
+    <!-- `^ ⌥ [`  -->
+    `^ ⌥ ]` Show [Bartender 2](#Bartender-2)
+    <!-- `^ ⌥ \`  -->
 
 - asdf …
 
-    `Fn a` [PyCharm](#PyCharm)
-    `Fn s` [PhpStorm](#PhpStorm)
-    `Fn d` Dash
-    `Fn f` = `^ ⌥ f` Search in All Files
-    `Fn g` [Acrobat Reader](#Acrobat Reader) ( PDF )
-
-    `⌥ a` [Activity Monitor](#Activity_Monitor)
+    `⌥ a` [PyCharm](#JetBrains)
     `⌥ s` Safari
-    `⌥ d` CLion
-    `⌥ f` IntelliJ IDEA
-    `⌥ g` OpenEmu ( Game )
-
-    <!--`^ ⌥ a` -->
-    <!--`^ ⌥ s` -->
-    <!--`^ ⌥ d` -->
-    <!--`^ ⌥ f` Search in All Files-->
-    <!--`^ ⌥ g` -->
-
-    `Fn h` ←
-    `Fn j` ↓
-    `Fn k` ↑
-    `Fn l` →
-
-    `Fn ;` Parallels Desktop
-    `Fn '` = `^ ⌥  ⇧ '` Quick Note in Evernote
+    `⌥ d` [Dictionary](#Dictionary)
+    `⌥ f` = `^ ⌥ f` Search in All Files
+    `⌥ g` [Acrobat Reader](#Acrobat-Reader) ( PDF )
 
     `⌥ h` Photos
-    `⌥ j` Search in Evernote
-    `⌥ k` [Karabiner](#Karabiner)
-    `⌥ l` [Seil](#Seil)
+    `⌥ j` [IntelliJ IDEA](#JetBrains)
+    `⌥ k` Calculator
+    `⌥ l` Language Switcher
     `⌥ ;` Input the symbol `…`
     `⌥ '` Quick Note in Evernote
 
-    <!--`^ ⌥ h` -->
-    <!--`^ ⌥ j` -->
-    `^ ⌥ k` Calculator
-    `^ ⌥ l` Language Switcher
-    <!--`^ ⌥ ;` -->
-    <!--`^ ⌥ '` -->
+    `^ ⌥ a` [Activity Monitor](#Activity-Monitor)
+    `^ ⌥ s` Sina VPN
+    `^ ⌥ d` [Calendar](#Calendar)
+    <!-- `^ ⌥ f`  -->
+    `^ ⌥ g` DataGrip
+
+    <!-- `^ ⌥ j`  -->
+    <!-- `^ ⌥ k`  -->
+    `^ ⌥ l` Console
+    <!-- `^ ⌥ ;`  -->
+    <!-- `^ ⌥ '`  -->
 
 - zxcv …
 
-    <!--`Fn z` -->
-    `Fn x` [Postman](#Postman)
-    `Fn c` Chrome
-    `Fn v` RubyMine
-    `Fn b` [Atom](#Atom)
-    <!--`Fn b` Toggle Bluetooth-->
-
     `⌥ z` App Store
     `⌥ x` Xcode
-    `⌥ c` [Calendar](#Calendar)
-    `⌥ v` Visual Studio Code
-    <!--`^ ⌥ b` -->
+    `⌥ c` [CLion](#JetBrains)
+    `⌥ v` [Visual Studio Code](#VS-Code)
+    <!-- `⌥ b`  -->
+
+    `⌥ n` Numi ( Calculator )
+    `⌥ m` [Moom](#Moom)
+    <!-- `⌥ ,`  -->
+    <!-- `⌥ .`  -->
+    `⌥ /` Search in Evernote
 
     <!--`^ ⌥ z` -->
     <!--`^ ⌥ x` -->
@@ -640,23 +547,87 @@ __`⌘ ⇧ T` Go to Date__
     <!--`^ ⌥ v` -->
     <!--`^ ⌥ b` -->
 
-    `Fn n` [Netease Music](#Netease Music)
-    `Fn m` [Manico](#Manico)
-    `Fn ,` Numi ( Calculator )
-    <!--`Fn .` -->
-    <!--`Fn /` -->
-
-    `⌥ n` Nozio
-    `⌥ m` Sequel Pro ( MySQL )
-    `⌥ ,` Console ( Log )
-    <!--`⌥ .` -->
-    <!--`⌥ /` -->
-
-    <!--`^ ⌥ n` -->
-    <!--`^ ⌥ m` -->
+    `^ ⌥ n` Nozio
+    `^ ⌥ m` MPlayerX
     <!--`^ ⌥ ,` -->
     <!--`^ ⌥ .` -->
     <!--`^ ⌥ /` -->
+
+## Layout `Fn`
+
+- qwer …
+
+    `Fn w` Toggle Wifi
+
+- asdf …
+
+    `Fn h` ←
+    `Fn j` ↓
+    `Fn k` ↑
+    `Fn l` →
+
+- zxcv …
+
+    `Fn b` Toggle Bluetooth
+
+## Layout `⎋`
+
+- 1234 …
+
+    `⎋ 123456790-=` = `Functional Keys`
+    e.g. Functional keys control Brightness, Music, Volume, Keyboard Light …
+
+    <!-- <code>⎋ \`</code>  -->
+    <!-- `⎋ 1`  -->
+    <!-- `⎋ 2` -->
+    <!-- `⎋ 3` -->
+    <!-- `⎋ 4`  -->
+    <!-- `⎋ 5`  -->
+
+    <!-- `⎋ 6` -->
+    <!-- `⎋ 7`  -->
+    <!--`⎋ 8` -->
+    <!-- `⎋ 9` GltLab Weibo -->
+    <!-- `⎋ 0` Admin TopWeibo -->
+
+    <!-- `⎋ -`  -->
+    <!-- `⎋ =`  -->
+
+- qwer …
+
+    `⎋ q` [QrCode](http://tool.oschina.net/qr)
+    `⎋ w` [Weibo](http://weibo.com)
+    `⎋ e` Sina ERP
+    `⎋ r` Sina Redmine
+    `⎋ t` [GitHub](https://github.com/IceHe)
+
+    <!-- `⎋ y` -->
+    `⎋ u` [URL Encode / Decode](http://www.bejson.com/enc/urlencode/)
+    `⎋ i` [IceHe.me](http://icehe.me)
+    `⎋ o` Sina Open Platform
+    `⎋ p` MAPI Admin
+    <!-- `⎋ [`  -->
+    <!-- `⎋ ]`  -->
+    <!-- `⎋ \`  -->
+
+- asdf …
+
+    `⎋ asdfghjkl;` = `!@#$%^&*()`
+    <!--`⎋ '` -->
+
+- zxcv …
+
+    `⎋ z` [Zhihu](https://zhihu.com)
+    <!--`⎋ x` -->
+    `⎋ c` [localhost:4000](http://localhost:4000)
+    <!--`⎋ v` -->
+    `⎋ b` Weibo GitLab
+
+    `⎋ n` = `Fn F4` Launchpad
+    `⎋ m` = `F1` Desktop
+    <!-- `⎋ ,`  -->
+    `⎋ .` input  `->` ( Arrow Operator )
+    <!-- `⎋ /`  -->
 
 ## [Manico](http://manico.im/)
 
@@ -698,7 +669,7 @@ Not only shortcuts, but also change layout of keyboard!
 
 - Global Macro
 
-    __`^ ⌥  y` Launch Keyboard Maestro Editor__
+    __`^ ⌥  y` __
     __`^ ⌥  o` Toggle All Micro__
     __`^ ⌥  ⇧ T` Trigger macro by Name__
     `^ F1` Quick Macro
@@ -1002,16 +973,17 @@ _`⌘ ⇧ ⌥ H` Toggle_
 
 ## [Moom](https://manytricks.com/moom/)
 
-`凵 z` = `^ ⌥ ⇧ Z` Activate
+`凵 z` Activate
 
-- After `凵 z` | `^ ⌥ ⇧ Z` , then input:
+- After `凵 z` , then input:
 
     `⌘ ↑` | `⌘ ↓` Mv the window to the prev | next display
 
     - Resize the window & mv it to …
 
     `凵` Fit to Desktop
-    `z` Original ( Revert )
+    `v` Original ( Revert )
+    `z` Arrange Windows ( to Fixd Custom Layout )
 
     `q` Lf More Than Half
     `w` Rg More Than Half
@@ -1026,14 +998,15 @@ _`⌘ ⇧ ⌥ H` Toggle_
     `1` Horizontal Lf
     `2` Horizontal Mid
     `3` Horizontal Rg
+    `4` Horizontal Mid Larger
 
-    `y` Top Lf
-    `u` Top Mid
-    `i` Top Rg
+    `u` Top Lf
+    `i` Top Mid
+    `o` Top Rg
 
-    `h` Btm Lf
-    `j` Btm Mid
-    `k` Btm Rg
+    `j` Btm Lf
+    `k` Btm Mid
+    `l` Btm Rg
 
 # Development
 
@@ -1389,9 +1362,9 @@ __`⌘ ⇧ 2` Translate Selection__
 
     `⌘ j` Search in Notes & Switch to a Note or Notebook
 
-    __`⌥  j` Search in Evernote__ <sup>_custom_</sup>
-    __`^ ⌥  ⇧ '` | `Fn '` Quick Note__ <sup>_custom_</sup>
-    __`^ ⌥  ⇧ y` | `Fn y` Paste to Evernote__ <sup>_custom_</sup>
+    __`⌥ [` Paste to Evernote__ <sup>_custom_</sup>
+    __`⌥ '` Quick Note__ <sup>_custom_</sup>
+    __`⌥ /` Search in Evernote__ <sup>_custom_</sup>
 
     `⌘ l` Edit Note Title
     __`⌘ ^ m` Mv Note to the select Notebook__
