@@ -1,6 +1,6 @@
 title: Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2016-09-17
+updated: 2016-09-18
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -363,12 +363,17 @@ __`⌘ ⇧ T` Go to Date__
 
 # Crazy Remappings
 
-- Supported by __Krabiner__ & __Manico__ & __Seil__
+- Supported by
+
+    - __[Keyboard Maestro](#Keyboard-Maestro)__
+    - __[Karabiner](#Karabiner)__
+    - __[Seil](#Seil)__
+
+- They are all custom to
 
     - __Remap__ the key codes.
     - __Open or Switch__ to the specified __app or URL__.
 
-- They are all custom.
 
 ## Layout `凵`
 
@@ -629,9 +634,54 @@ __`⌘ ⇧ T` Go to Date__
     `⎋ .` input  `->` ( Arrow Operator )
     <!-- `⎋ /`  -->
 
-## [Manico](http://manico.im/)
+<!-- ## [Manico](http://manico.im/)
 
-The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-凵-⎋) and [Layout Fn ⌥](#Layout-Fn-⌥)
+The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-凵-⎋) and [Layout Fn ⌥](#Layout-Fn-⌥) -->
+
+## [Keyboard Maestro](https://www.keyboardmaestro.com/main/)
+
+- Global Macro
+
+    __`⌘ ^ ⇧ O` Toggle All Micro__
+    <!-- `⌘ ^ ⇧ T` Trigger macro by Name -->
+    <!-- `⌥ F1` Quick Macro -->
+
+- Search in Web
+
+    `⌘ ^ ⇧ A` Amazon
+    `⌘ ^ ⇧ B` Baidu
+    `⌘ ^ ⇧ D` Douban
+    `⌘ ^ ⇧ G` Google
+    `⌘ ^ ⇧ J` JD.com
+    `⌘ ^ ⇧ M` Tmall
+    `⌘ ^ ⇧ T` Taobao
+    `⌘ ^ ⇧ W` Weibo
+    `⌘ ^ ⇧ Z` Zhihu
+
+- Abbrs
+
+    - Auto
+
+        Type string `|hi`, it will be reaplaced by the time string `hh:mm`
+        Type `|ymd`, reaplaced by `yy/MM/dd`
+        Type `|Ymd`, reaplaced by `yyyy/MM/dd`
+
+    - Symbols
+
+        Type `|up`, reaplaced by the charactor `↑`
+        Type `|dn`, reaplaced by `↓`
+        Type `|lf`, reaplaced by `←`
+        Type `|rg`, reaplaced by `→`
+        Type `|esc`, reaplaced by `⎋`
+        Type `|tab`, reaplaced by `⇥`
+        Type `|cap`, reaplaced by `⇪`
+        Type `|shf`, reaplaced by `⇧`
+        Type `|opt` or `|alt`, reaplaced by `⌥`
+        Type `|cmd`, reaplaced by `⌘`
+        Type `|spa`, reaplaced by `凵`
+        Type `|del`, reaplaced by `⌫`
+        Type `|ent` or `|ret`, reaplaced by `↩`
+        Type `|app`, reaplaced by ``
 
 ## [Karabiner](https://pqrs.org/osx/karabiner/index.html.en)
 
@@ -664,52 +714,6 @@ Not only shortcuts, but also change layout of keyboard!
     `⌥` Rg Opt → `⌘` Rg Cmd
 
     Need to exchange `CapsLock` & Lf `Ctrl` in `System Preferences → Keyboards → Modifier Key` .
-
-## [Keyboard Maestro](https://www.keyboardmaestro.com/main/)
-
-- Global Macro
-
-    __`^ ⌥  y` __
-    __`^ ⌥  o` Toggle All Micro__
-    __`^ ⌥  ⇧ T` Trigger macro by Name__
-    `^ F1` Quick Macro
-
-- Search in Web
-
-    `^ ⌥  a` Amazon
-    `^ ⌥  b` Baidu
-    `^ ⌥  d` Douban
-    `^ ⌥  g` Google
-    `^ ⌥  j` JD.com
-    `^ ⌥  m` Tmall
-    `^ ⌥  t` Taobao
-    `^ ⌥  w` Weibo
-    `^ ⌥  z` Zhihu
-
-- Abbrs
-
-    - Auto
-
-        Type string `_hi`, it will be reaplaced by the time string `hh:mm`
-        Type `_ymd`, reaplaced by `yy/MM/dd`
-        Type `_Ymd`, reaplaced by `yyyy/MM/dd`
-
-    - Symbols
-
-        Type `_up`, reaplaced by the charactor `↑`
-        Type `_dn`, reaplaced by `↓`
-        Type `_lf`, reaplaced by `←`
-        Type `_rg`, reaplaced by `→`
-        Type `_esc`, reaplaced by `⎋`
-        Type `_tab`, reaplaced by `⇥`
-        Type `_cap`, reaplaced by `⇪`
-        Type `_shf`, reaplaced by `⇧`
-        Type `_opt` or `_alt`, reaplaced by `⌥`
-        Type `_cmd`, reaplaced by `⌘`
-        Type `_spa`, reaplaced by `凵`
-        Type `_del`, reaplaced by `⌫`
-        Type `_ent` or `_ret`, reaplaced by `↩`
-        Type `_app`, reaplaced by ``
 
 # Contact
 
