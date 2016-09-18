@@ -1,6 +1,6 @@
 title: Tools 利器
 date: 2015-11-21
-updated: 2016-09-17
+updated: 2016-09-18
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -207,25 +207,27 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     ShadowsocksX 是在 Mac 上配合 Shadowsock 工作的软件。
 
-- [Manico](http://manico.im/) <sup>Shortcuts, Best</sup>
+- [Manico](http://manico.im/) <sup>Shortcuts</sup>
 
     为 macOS 设计快速启动、切换 App 的工具。
 
     我是键盘党，以前用 Windows 已惯用快捷键与手势迅速打开、切换程序，因此找到了它。
 
-- [Karabiner](https://pqrs.org/osx/karabiner/index.html.en) <sup>Geek, Best</sup>
-
-    强大、稳定的键位修改工具，预定义了大量奇巧的修改方案。键盘党神器！
-
-    可自定义快捷键去启动、切换 App，打开文件和网址，甚至运行命令行！
-
-    发挥想象力，配合命令行和脚本（如 AppleScript）等，还能做到更多！可实现 Manico 的功能，但是过程麻烦，没必要过分折腾（说得就是我自己）。
+    如果你乐于折腾，可以用 [Keyboard Maestro](https://www.keyboardmaestro.com/main/) 完全实现 Manico 的功能，甚至添加进阶功能，做得更加贴合个人使用习惯。
 
 - [Keyboard Maestro](https://www.keyboardmaestro.com/main/) <sup>Geek, Best</sup>
 
     限制你的只有你的想象力！高度自定义的效率工具，难以一语道尽玄机。
 
-    可以尝试用它 [定制系统全局 Vim 快捷键](https://www.zhihu.com/question/27158546/answer/70958190)，可以 [配合 Keymo 用键盘控制鼠标](https://www.zhihu.com/question/27158546/answer/70958190)，可以替代 aText、TextExpander 拓展文本输入效率，甚至替代 Manico 快速启动、切换 Apps！
+    可以尝试用它 [定制系统全局 Vim 快捷键](https://www.zhihu.com/question/27158546/answer/70958190)，可以 [配合 Keymo 用键盘控制鼠标](https://www.zhihu.com/question/27158546/answer/70958190)，可以替代 aText、TextExpander 用以拓展文本，提升打字效率，甚至替代 Manico 用以快速启动、切换 Apps，并贴合个人使用习惯为其添加进阶功能！
+
+- [Karabiner](https://pqrs.org/osx/karabiner/index.html.en) <sup>Geek, Best</sup>
+
+    强大、稳定的键位修改工具，预定义了大量奇巧的修改方案。键盘党神器！
+
+    可自定义快捷键去启动、切换 App，打开文件和网址，快速输入关键词跳转到网站的搜索页，甚至运行命令行！
+
+    发挥想象力，配合命令行和脚本（如 AppleScript）等，还能做到更多！例如，它也可以实现 Manico 的功能，不过得费些时间。
 
 - [Seil](https://pqrs.org/osx/karabiner/seil.html.en)
 
