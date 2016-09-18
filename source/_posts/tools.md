@@ -213,13 +213,11 @@ description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
 
     我是键盘党，以前用 Windows 已惯用快捷键与手势迅速打开、切换程序，因此找到了它。
 
-    如果你乐于折腾，可以用 [Keyboard Maestro](https://www.keyboardmaestro.com/main/) 完全实现 Manico 的功能，甚至添加进阶功能，做得更加贴合个人使用习惯。
-
 - [Keyboard Maestro](https://www.keyboardmaestro.com/main/) <sup>Geek, Best</sup>
 
     限制你的只有你的想象力！高度自定义的效率工具，难以一语道尽玄机。
 
-    可以尝试用它 [定制系统全局 Vim 快捷键](https://www.zhihu.com/question/27158546/answer/70958190)，可以 [配合 Keymo 用键盘控制鼠标](https://www.zhihu.com/question/27158546/answer/70958190)，可以替代 aText、TextExpander 用以拓展文本，提升打字效率，甚至替代 Manico 用以快速启动、切换 Apps，并贴合个人使用习惯为其添加进阶功能！
+    可以尝试用它 [定制系统全局 Vim 快捷键](https://www.zhihu.com/question/27158546/answer/70958190)；可以 [配合 Keymo 用键盘控制鼠标](https://www.zhihu.com/question/27158546/answer/70958190)；可以替代 aText、TextExpander，用以拓展文本，提升打字效率；甚至完全替代 Manico，用以快速启动、切换 Apps，并贴合个人使用习惯为其添加进阶功能！
 
 - [Karabiner](https://pqrs.org/osx/karabiner/index.html.en) <sup>Geek, Best</sup>
 
