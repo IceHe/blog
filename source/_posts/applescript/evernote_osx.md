@@ -1,10 +1,10 @@
 title: AppleScript 操作 Evernote 与 macOS
 date: 2016-03-13
-updated: 2016-03-16
-show_updated: false
+updated: 2016-09-21
+show_updated: true
 categories: [AppleScript]
 tags: [AppleScript]
-description: 检查控制 Wifi、蓝牙、硬盘、键盘输入，执行命令，操纵其它 App 等：如 Evernote 笔记的同步、检索、编辑、复制、删除、导入导出、重命名、移动笔记本、加标签… 
+description: 检查控制 Wifi、蓝牙、硬盘、键盘输入，执行命令，操纵其它 App 等：如 Evernote 笔记的同步、检索、编辑、复制、删除、导入导出、重命名、移动笔记本、加标签…
 -----------------------------------------------------------------------
 
 - I supposed that you have learned AppleScript, so I will not introduce it in detail.
@@ -265,10 +265,32 @@ If your Mac does not have some commands as mentioned below, you can install them
 ## Is application running?
 
 ``` applescript
-set app_name to "app_1"
+set app_name to "app_x"
 
 tell application "System Events"
     return (name of processes) contains app_name
+end tell
+```
+## Is application on Dock?
+
+``` applescript
+set app_name to "app_x"
+
+tell application "System Events"
+    tell process "Dock"
+        tell list 1
+
+            try
+                set dockItemTest to UI element app_name -- test if the application is in the Dock
+            on error
+                return false
+            end try
+
+            click UI element app_name -- Optional: Click it on Dock (Active the app)
+
+            return true
+        end tell
+    end tell
 end tell
 ```
 
@@ -278,13 +300,12 @@ end tell
 repeat with i from 1 to 5
 
     try
-
-        do shell script "ping -o baidu.com"
+        do shell script "ping -c 4 baidu.com"
         exit repeat
 
     on error
 
-        delay 0.3
+        delay 0.2
         if i = 5 then return false
 
     end try
@@ -401,7 +422,7 @@ tell application "System Events" to tell process app_name
 end tell
 ```
 
-## Eject Disk
+## Eject Disks
 
 ``` applescript
 tell application "Finder"
@@ -445,12 +466,12 @@ set cmds to {"cmd_1", "cmd_2", "cmd_3"}
 
 set isOpenAlready to application "iTerm" is running
 
-# 启动终端，然后执行命令行
+-- 启动终端，然后执行命令行
 tell application "iTerm"
 
     activate
 
-    # macOS 下有可能：iTerm 在脚本执行前已经运行，但还没窗口
+    -- macOS 下有可能：iTerm 在脚本执行前已经运行，但还没窗口
     set without_win to 0 = (count of windows)
     if without_win then
         create window with default profile
@@ -459,8 +480,8 @@ tell application "iTerm"
 
     tell current window
 
-        # iTerm 在脚本执行前已经运行，且也有窗口时，
-        # 新建一个 tab，避免影响其它 tab 的作业状态。
+        -- iTerm 在脚本执行前已经运行，且也有窗口时，
+        -- 新建一个 tab，避免影响其它 tab 的作业状态。
         if isOpenAlready and not without_win then
             create tab with default profile
         end if
@@ -476,3 +497,98 @@ tell application "iTerm"
 end tell
 ```
 
+## Get local IP address
+
+``` applescript
+-- Physical: 物理网口的 IP
+set cur_ip to do shell script "/sbin/ifconfig en7|grep inet|grep -v 127.0.0.1|grep -v inet6|awk '{print $2}'|tr -d 'addr:'"
+
+if cur_ip = "" then
+    -- Wireless: 无线网络的 IP
+    set cur_ip to do shell script "/sbin/ifconfig en0|grep inet|grep -v 127.0.0.1|grep -v inet6|awk '{print $2}'|tr -d 'addr:'"
+end if
+
+if cur_ip = "" then
+    -- All: 全部网络的 IP
+    set cur_ip to do shell script "/sbin/ifconfig -a|grep inet|grep -v 127.0.0.1|grep -v inet6|awk '{print $2}'|tr -d 'addr:'"
+end if
+
+if cur_ip ≠ "" then
+    -- Copy the IP address to the macOS clipboard
+    do shell script "echo '" & cur_ip & "' | tr -d \"\\n\" | pbcopy"
+
+    display alert "IP: " & cur_ip
+end if
+```
+
+## Startup Tasks
+
+``` applescript
+on run argv
+
+    if script = class of argv then
+        set is_startup to true
+    else
+        set is_startup to (item 1 of argv)
+    end if
+
+    -- Append the records to the list
+    set apps to {}
+    set apps to apps & {{name:"iStat Menus", ac_power:true}} # Slow
+    set apps to apps & {{name:"Moom", ac_power:true}}
+    set apps to apps & {{name:"ClipMenu", ac_power:true}}
+    set apps to apps & {{name:"Bartender 2", ac_power:true}}
+    set apps to apps & {{name:"HyperDock Helper", ac_power:true}}
+    set apps to apps & {{name:"Amphetamine", ac_power:true}}
+    set apps to apps & {{name:"Flux", ac_power:true}}
+    set apps to apps & {{name:"HazeOver", ac_power:true}}
+    set apps to apps & {{name:"ShadowsocksX", online:true}}
+    set apps to apps & {{name:"Firefox", ac_power:true, online:true}} # Slow
+    set apps to apps & {{name:"iHosts", ac_power:true, online:true}}
+    set apps to apps & {{name:"Evernote", ac_power:true, online:true}}
+
+    set is_ac_power to run script (POSIX file "/Users/IceHe/Documents/AppleScript/Lib/is_ac_power.scpt")
+    set is_online to run script (POSIX file "/Users/IceHe/Documents/AppleScript/Lib/is_network_available.scpt")
+
+    repeat with each_app in apps
+        set is_allowed to true
+
+        try
+            if (online of each_app) ≠ is_online then
+                set is_allowed to false
+            end if
+        on error -- -1728: undefined field 'online'
+            -- do nothing
+        end try
+
+        try
+            if (ac_power of each_app) ≠ is_ac_power then
+                set is_allowed to false
+            end if
+        on error -- -1728: undefined field 'ac_power'
+            -- do nothing
+        end try
+
+        if is_startup then
+            if is_allowed and not (run script (POSIX file "/Users/IceHe/Documents/AppleScript/Lib/is_app_running.scpt") with parameters {name of each_app}) then
+                tell application (name of each_app) to launch
+            end if
+
+        else
+            if not is_allowed and (run script (POSIX file "/Users/IceHe/Documents/AppleScript/Lib/is_app_running.scpt") with parameters {name of each_app}) then
+                tell application (name of each_app) to quit
+            end if
+        end if
+    end repeat
+
+    -- Romove iStatMenus from Dock
+    if is_startup then
+        set target_app to "iStat Menus"
+
+        if (run script (POSIX file "/Users/IceHe/Documents/AppleScript/Lib/is_app_running.scpt") with parameters target_app) and (run script (POSIX file "/Users/IceHe/Documents/AppleScript/Lib/is_app_on_dock.scpt") with parameters target_app) then
+            tell application target_app to quit
+        end if
+    end if
+
+end run
+```
