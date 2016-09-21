@@ -262,6 +262,14 @@ return the clipboard
 
 If your Mac does not have some commands as mentioned below, you can install them through `Homebrew`.
 
+## Is Mac on AC Power?
+
+``` applescript
+set is_ac_power to do shell script "pmset -g batt | grep -q 'AC Power' && echo 1 || echo 0"
+
+return ("1" = is_ac_power)
+```
+
 ## Is application running?
 
 ``` applescript
@@ -271,6 +279,7 @@ tell application "System Events"
     return (name of processes) contains app_name
 end tell
 ```
+
 ## Is application on Dock?
 
 ``` applescript
