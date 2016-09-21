@@ -462,33 +462,29 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 
 - [南都之声](http://diantai.ifeng.com/index.php/public/programnavDetails?pid=83069) -「有温度的城市生活。」 @凤凰FM
 
-- [三联听周刊](http://diantai.ifeng.com/index.php/#!/category/1/76316) -「三联生活周刊，一本杂志和他倡导的生活。」 @喜马拉雅FM
+- [三联听周刊](http://diantai.ifeng.com/index.php/#!/category/1/76316) <sup>_temp_</sup> -「三联生活周刊，一本杂志和他倡导的生活。」 @喜马拉雅FM
 
-- [凤凰周刊有声故事](http://diantai.ifeng.com/index.php/#!/category/1/65619) -「传递影响时代的声音」政治、经济、外交、民生。 @凤凰FM
+- [凤凰周刊有声故事](http://diantai.ifeng.com/index.php/#!/category/1/65619) <sup>_temp_</sup> -「传递影响时代的声音」政治、经济、外交、民生。 @凤凰FM
 
 - [许川知乎时间](http://www.ximalaya.com/1740592/album/276787) - 听知乎（偏人生“鸡汤”类）。 @企鹅FM
 
-- [冬吴相对论](http://baike.baidu.com/link?url=5NbvRBuZzEb7ua9GywfrfeEVlbhPa-dnrwE7jnw0Mj9cv_2LWdqdl7_PBOW3bbROb2EKx91H4BHP7f-CJP9paZvdY7Yp3xMdK7-9SKQPC)（已停播）- 谈论时事热点、经济现象，梁冬与21世纪商业评论主编吴伯凡的谈话节目。
+- [冬吴相对论](http://baike.baidu.com/link?url=5NbvRBuZzEb7ua9GywfrfeEVlbhPa-dnrwE7jnw0Mj9cv_2LWdqdl7_PBOW3bbROb2EKx91H4BHP7f-CJP9paZvdY7Yp3xMdK7-9SKQPC)（已停播）<sup>_temp_</sup> - 谈论时事热点、经济现象，梁冬与21世纪商业评论主编吴伯凡的谈话节目。
 
 - 英语类 - 在 iOS 的 Podcasts 中，订阅排名靠前的英语学习类播客基本都不错。
-
-<!--- 情感信箱 - 偷听女人心。 @企鹅FM-->
-
-<!--- [飞碟说](http://www.feidieshuo.com/)-->
 
 <!--选取社会热点为话题，用有趣的方式，对各种热点知识进行科普解说的动画脱口秀节目，风格诙谐、重口、无下限。但很碎片。 @喜马拉雅FM-->
 
 # 微信公众号
 
-- [鹅厂网事](http://chuansong.me/account/tencent_network)
+<!-- - [鹅厂网事](http://chuansong.me/account/tencent_network) -->
 
-- [聊聊架构](http://chuansong.me/account/archtime)
+<!-- - [聊聊架构](http://chuansong.me/account/archtime) -->
 
-- [程序人生](http://chuansong.me/account/programmer_life) - 服务端技术实践与感悟，以及杂谈。
+- [程序人生](http://chuansong.me/account/programmer_life) <sup>_temp_</sup> - 服务端技术实践与感悟，以及杂谈。
 
-- [懒人在思考](http://chuansong.me/account/lazy-thought) - 网络安全入门。 @余弦
+- [懒人在思考](http://chuansong.me/account/lazy-thought) <sup>_temp_</sup> - 网络安全入门。 @余弦
 
-- [道哥的黑板报](http://www1.taosay.net/) - 技术杂谈。 @道哥
+<!-- - [道哥的黑板报](http://www1.taosay.net/) - 技术杂谈。 @道哥 <sup>_temp_</sup> -->
 
 - [幸福课](http://chuansong.me/account/happinessclass) <sup>__Best__</sup> - 心理学。/ 动机在杭州（陈海贤）运营。[同名知乎专栏](http://zhuanlan.zhihu.com/happy) 同步更新。
 
@@ -498,9 +494,9 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 
 - [爱迪生商业实验室](http://zhuanlan.zhihu.com/edisonlab) <sup>__Best__</sup> - 商业独见。
 
-- [TOMsInsight](http://chuansong.me/account/TOMsInsight) - 互联网数据深度分析报告。
+- [TOMsInsight](http://chuansong.me/account/TOMsInsight) <sup>_temp_</sup> - 互联网数据深度分析报告。
 
-- [吃惑](http://www.gzhphb.com/item/16/168190.html) - 健康饮食、正确健身。
+- [吃惑](http://www.gzhphb.com/item/16/168190.html) <sup>_temp_</sup> - 健康饮食、正确健身。
 
 - [大浪淘沙](http://chuansong.me/account/knowledgewealth) <sup>__Best__</sup> - 专注辟谣，有深度的财经、历史、文学、艺术、科普。
 
