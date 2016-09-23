@@ -1,6 +1,6 @@
 title: Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2016-09-18
+updated: 2016-09-23
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -386,9 +386,9 @@ __`⌘ ⇧ T` Go to Date__
 
     `凵 ^` = `↩` Return
 
-    <code>凵 \`</code> System Preferences
+    <!--<code>凵 \`</code> -->
     `凵 1` [Dash](#Dash)
-    `凵 2` [WeChat](#WeChat)
+    `凵 2` System Preferences
     `凵 3` [Mail](#Mail)
     `凵 4` [Finder](#Finder)
     `凵 5` Preview
@@ -436,7 +436,7 @@ __`⌘ ⇧ T` Go to Date__
     `凵 b` [Sublime Text](#Sublime-Text)
 
     `凵 n` [Netease Music](#Netease)
-    `凵 m` Keyboard Maestro
+    `凵 m` [Keyboard Maestro](#Keyboard-Maestro)
     <!-- `凵 ,`  -->
     <!-- `凵 .`  -->
     `凵 /` = <code>⇧ \`</code> = `~`
@@ -447,7 +447,7 @@ __`⌘ ⇧ T` Go to Date__
 
     <!-- <code>⌥ \`</code>  -->
     `⌥ 1` [Script Editor](#Script_Editor) ( for AppleScript )
-    `⌥ 2` System Information
+    `⌥ 2` Word
     `⌥ 3` Disk Utility
     `⌥ 4` Font Book
     `⌥ 5` Transmit
@@ -461,7 +461,7 @@ __`⌘ ⇧ T` Go to Date__
 
     <!-- <code>^ ⌥ \`</code>  -->
     <!--`^ ⌥ 1` -->
-    <!--`^ ⌥ 2` -->
+    `^ ⌥ 2` System Information
     <!--`^ ⌥ 3` -->
     <!--`^ ⌥ 4` -->
     <!--`^ ⌥ 5` -->
@@ -476,7 +476,7 @@ __`⌘ ⇧ T` Go to Date__
 - qwer …
 
     `⌥ q` Qt Creator
-    `⌥ w` Word
+    `⌥ w` [WeChat](#WeChat)
     `⌥ e` Excel
     `⌥ r` [RubyMine](#JetBrains)
     `⌥ t` Thunder
@@ -643,7 +643,7 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 - Global Macro
 
     __`⌘ ^ ⇧ O` Toggle All Micro__
-    <!-- `⌘ ^ ⇧ T` Trigger macro by Name -->
+    <!-- `⌘ ^ ⌥ ⇧ T` Trigger macro by Name -->
     <!-- `⌥ F1` Quick Macro -->
 
 - Search in Web
@@ -1349,6 +1349,7 @@ Only List the Useful Keys that I’m unfamiliar with.
 
 ## Dictionary
 
+`⌘ ⇧ D` Look Up in Dictionary
 `⌘ Num` Switch Dictionary
 
 ## [EuDict Free](https://www.eudic.net/eudic/mac_dictionary.aspx)
