@@ -138,7 +138,7 @@ __Related__
 - <i class="fa fa-keyboard-o">&nbsp;</i> [Shortcuts &nbsp;快捷键](http://icehe.me/mac_shortcuts) &nbsp;|&nbsp; 键盘党
 - <i class="fa fa-bookmark-o">&nbsp;</i> &nbsp;[Technology Bookmarks](http://icehe.me/tech) &nbsp;|&nbsp; 技术
 - <i class="fa fa-bookmark">&nbsp;</i> &nbsp;[Reading Bookmarks](http://icehe.me/read) &nbsp;|&nbsp; 阅读
-- <i class="fa fa-heart">&nbsp;</i> [Favourites &nbsp;喜好](http://icehe.me/favourites) &nbsp;|&nbsp; 书、播客
+- <i class="fa fa-heart">&nbsp;</i> [Favorites &nbsp;喜好](http://icehe.me/favourites) &nbsp;|&nbsp; 书、播客
 <!--- <i class="fa fa-linkedin-square">&nbsp;</i>&nbsp; [Linkedin &nbsp;领英](http://www.linkedin.com/in/%E5%BF%97%E8%BF%9C-%E4%BD%95-3ba09192)-->
 
 <style type="text/css">

@@ -29,7 +29,7 @@ toc: false
 
 <br/><span class="key_pos">Life</span> <span class="val_pos"> <i class="fa fa-calendar">&nbsp;</i> [Logs](/lifelogs)</span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Time Usage Records & Statistics</sup></span>
-<span class="val_pos"> <i class="fa fa-heart">&nbsp;</i> [Favourites](/favourites)</span>
+<span class="val_pos"> <i class="fa fa-heart">&nbsp;</i> [Favorites](/favourites)</span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup><i class="fa fa-book">&nbsp;</i>Books &nbsp;<i class="fa fa-film">&nbsp;</i>Movies &nbsp;<i class="fa fa-rocket">&nbsp;</i>Games …</sup></span>
 <span class="val_pos"> <i class="fa fa-book">&nbsp;</i> [Reading](/read) Bookmarks</span>
 <span class="val_pos"> &nbsp; &nbsp; &nbsp;<sup>Articles, Columns, Q&A, Notes</sup> </span>
