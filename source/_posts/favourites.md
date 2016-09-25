@@ -295,7 +295,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 
 - [Deemo](https://itunes.apple.com/en/app/deemo/id700637744?mt=8) <sup>__Best__</sup>
 
-    最爱的音乐游戏，最爱曲目：Magnolia 。超喜欢这个游戏工作室：Rayark（台湾）！
+    最爱的音乐游戏！最爱曲目：Magnolia 。超喜欢这个游戏工作室：Rayark（台湾）！
 
     其它喜爱的曲目：
     Nine point nine , Platinum , Utopiosphere , Yubikiri-genman , Invite , Run go run , Pulses , Electron , Walking by the sea , Beyond the Stratus , Angelic sphere , Leviathan , Suspenseful third day , Living in the one , Little corgis dream , The way we were , The red coronation , Knight of firmament , Cream stew , I can not say , Kireigoto , New World , Time forgotten , Reminiscence … ( No update now )
