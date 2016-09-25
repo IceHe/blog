@@ -37,7 +37,7 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 ## Web Refs
 
-- [OverAPI](http://overapi.com/) / [Our Favourite Cheat Sheets](http://whatis.techtarget.com/reference/Our-Favorite-Cheat-Sheets#operating) - 速查清单
+- [OverAPI](http://overapi.com/) / [Our Favorite Cheat Sheets](http://whatis.techtarget.com/reference/Our-Favorite-Cheat-Sheets#operating) - 速查清单
 
 - [W3School](http://w3school.com.cn/) - Web 知识入门与速查
 

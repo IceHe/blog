@@ -20,7 +20,7 @@ description: 本博客的导航页。
 - Blog Map 博客地图 <sup>this page</sup>
 - __ [Technology Bookmarks 技术书签](/tech)__
 - __[Reading Bookmarks 阅读书签](/read)__ <sup>_Updated_</sup>
-- [Favourites 喜好](/favourites)
+- [Favorites 喜好](/favourites)
 
 ### [Mac](/categories/Mac) | Efficiency
 ---

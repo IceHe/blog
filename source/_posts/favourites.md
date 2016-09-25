@@ -1,4 +1,4 @@
-title: Favourites 喜好
+title: Favorites 喜好
 date: 2015-11-19
 updated: 2016-09-03
 show_updated: true
@@ -453,4 +453,3 @@ article .article-content ul li p:first-child {
     //font-weight: bold;
 }
 </style>
-
