@@ -1,6 +1,6 @@
 title: Blog Map 博客地图
 date: 2015-12-20
-updated: 2016-09-03
+updated: 2016-09-25
 show_updated: true
 categories: [read]
 tags: [read]
@@ -32,7 +32,8 @@ description: 本博客的导航页。
 ---
 
 - [Life Manual 生活指北](/think/life_manual) <sup>__New__</sup>
-- [2016 Summer](/think/2016_summer) <sup>__New__</sup>
+- [2016 Fall](/think/2016_fall) <sup>__New__</sup>
+- [2016 Summer](/think/2016_summer)
 - [Bye 2015](/think/bye2015)
 
 ### [Web](/categories/Web)
