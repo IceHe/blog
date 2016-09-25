@@ -727,7 +727,7 @@ description: 我的 Mac Apps、电子产品推荐。
 
         Unix-like，稳定、省心。用好了 Windows，才了无牵挂地换了 Mac。
 
-        - [Magic Keyboard](http://www.apple.com/cn/shop/product/MLA22CH/A/magic-keyboard?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2) - 键盘 <sup>[_闲置待转售_](https://2.taobao.com/credit/credit.htm?spm=2007.1000338.0.0.S43alW&userIdCode=UvFNGOFvyvGHSvQTT)</sup>
+        - [Magic Keyboard](http://www.apple.com/cn/shop/product/MLA22CH/A/magic-keyboard?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2) - 键盘
 
             （第二代）小巧轻便。Mac 的键盘布局紧凑合理，手用更小幅度的移动就能触及所有按键，省力。
 
@@ -737,7 +737,7 @@ description: 我的 Mac Apps、电子产品推荐。
 
             使用蓝牙 4.0 无线连接，功耗低 —— 没有连接线，这点简直是洁癖和强迫症的福音；内置电池，Lightning 接口充电，一次充电能够续航三周以上，省心。
 
-        - [Magic Trackpad 2](http://www.apple.com/cn/shop/product/MJ2R2CH/A/magic-trackpad-2?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2) - 触摸板 <sup>[_闲置待转售_](https://2.taobao.com/credit/credit.htm?spm=2007.1000338.0.0.S43alW&userIdCode=UvFNGOFvyvGHSvQTT)</sup>
+        - [Magic Trackpad 2](http://www.apple.com/cn/shop/product/MJ2R2CH/A/magic-trackpad-2?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2) - 触摸板
 
             Macbook 自带触摸板的手感已经非常好了，但它还要更胜一筹！第二代比第一代触摸面积大了不少，有三段式压感反馈，手感细腻。
 
@@ -757,7 +757,7 @@ description: 我的 Mac Apps、电子产品推荐。
 
         我很喜欢 [Black Silicone Case](http://www.apple.com/cn/shop/product/MMW82FE/A/iphone-7-%E7%A1%85%E8%83%B6%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E9%BB%91%E8%89%B2?fnode=99)（官方硅胶保护壳）的轻微磨砂质感，舒适、不滑手。
 
-    - iPhone 6 Plus Gold <sup>_备用_、[_待转售_](https://2.taobao.com/credit/credit.htm?spm=2007.1000338.0.0.S43alW&userIdCode=UvFNGOFvyvGHSvQTT)</sup>
+    - iPhone 6 Plus Gold <sup>_备用_</sup>
 
         64GB + [Turquoise Silicone Case](http://www.apple.com/cn/shop/product/MM6D2FE/A/iphone-6s-plus-%E7%A1%85%E8%83%B6%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E4%BA%AE%E7%B2%89%E8%89%B2?fnode=99) ，续航不错、屏幕尺寸合适。
 
@@ -796,7 +796,7 @@ description: 我的 Mac Apps、电子产品推荐。
 
 - Tablet
 
-    - [iPad Air](http://www.apple.com/cn/ipad-air-2/) <sup>[_闲置待转售_](https://2.taobao.com/item.htm?id=539039133369)</sup>
+    - [iPad Air](http://www.apple.com/cn/ipad-air-2/) <!--<sup>[_闲置待转售_](https://2.taobao.com/item.htm?id=539039133369)</sup>-->
 
         32GB + [Red Smart Cover](http://www.apple.com/cn/shop/product/MGTM2FE/A/ipad-air-smart-cover-black) + 言外 Involve Leather Bag，多用于阅读技术类书籍，看看动漫、电影、公开课。
 
@@ -958,14 +958,14 @@ description: 我的 Mac Apps、电子产品推荐。
 
 <!--To Buy-->
 
-<!--- [Wireless Bluetooth Earbuds | JaybirdSport](http://www.jaybirdsport.com/x2-bluetooth-headphones/)-->
-<!--- [Jabra ROX 无线耳塞](http://www.jabra.cn/music/jabra-rox-wireless)-->
 <!--- [背包 Everlane | The Modern Snap Backpack](https://www.everlane.com/collections/mens-backpacks-bags/products/mens-modern-snap-backpack-navy)-->
 <!--- [鞋拔 IKEA](http://www.ikea.com/cn/zh/catalog/products/50137128/)-->
 
 <!--- <http://item.jd.hk/1957485171.html#comments-list> <sup>To-Buy</sup>-->
 <!--- <http://search.jd.com/Search?keyword=%E7%B4%A2%E5%B0%BC%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA&enc=utf-8&wq=so%20ni%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA&pvid=2i6kgtqi.ip6kfe>-->
 
+<!--- [Wireless Bluetooth Earbuds | JaybirdSport](http://www.jaybirdsport.com/x2-bluetooth-headphones/)-->
+<!--- [Jabra ROX 无线耳塞](http://www.jabra.cn/music/jabra-rox-wireless)-->
 
 <style type="text/css">
 article .article-content ul li p:first-child {
