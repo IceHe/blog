@@ -936,7 +936,7 @@ description: 我的 Mac Apps、电子产品推荐。
 
         轻便、好看，直接推拉杆上连接伞骨的圆环，不用按按钮，就可以开合。
 
-    - [Topumbrella 纯黑超轻迷你折叠伞](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.CoCGMf&id=533037933646&_u=puv5jet438a) <sup>[_闲置待转售_](https://2.taobao.com/credit/credit.htm?spm=2007.1000338.0.0.S43alW&userIdCode=UvFNGOFvyvGHSvQTT)</sup>
+    - [Topumbrella 纯黑超轻迷你折叠伞](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.CoCGMf&id=533037933646&_u=puv5jet438a) <sup>[_闲置待转售_](https://2.taobao.com/item.htm?id=538897572100)</sup>
 
         非常轻便，有防止大风吹反伞面以致折断伞骨的设计。
 
