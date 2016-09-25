@@ -4,7 +4,7 @@ updated: 2016-09-18
 show_updated: true
 categories: [Mac]
 tags: [Mac]
-description: 我的 Mac Apps （包括 Windows）与电子产品推荐。
+description: 我的 Mac Apps、电子产品推荐。
 ---
 
 - 除 [Windows](#Windows) 小节，其它均为Mac平台下的软件。
