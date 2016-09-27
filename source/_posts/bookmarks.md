@@ -1,6 +1,6 @@
 title: Blog Map 博客地图
 date: 2015-12-20
-updated: 2016-09-25
+updated: 2016-09-27
 show_updated: true
 categories: [read]
 tags: [read]
@@ -18,15 +18,15 @@ description: 本博客的导航页。
 ---
 
 - Blog Map 博客地图 <sup>this page</sup>
-- __ [Technology Bookmarks 技术书签](/tech)__
-- __[Reading Bookmarks 阅读书签](/read)__ <sup>_Updated_</sup>
+- [__Technology Bookmarks 技术书签__](/tech)
+- [__Reading Bookmarks 阅读书签__](/read)
 - [Favorites 喜好](/favourites)
 
 ### [Mac](/categories/Mac) | Efficiency
 ---
 
-- __[Tools 利器](/tools) - App、硬件推荐__ <sup>_Updated_</sup>
-- __[Mac Shortcuts 快捷键](/mac_shortcuts)__ <sup>_Updated_</sup>
+- [__Tools 利器__](/tools) - App、硬件推荐
+- [__Mac Shortcuts 快捷键__](/mac_shortcuts)
 
 ### [Think](/categories/think)
 ---
@@ -39,7 +39,7 @@ description: 本博客的导航页。
 ### [Web](/categories/Web)
 ---
 
-- [Bulid Blog 搭建个人博客](/web/build_blog/)
+- [Build Blog 搭建个人博客](/web/build_blog/)
 - [实现网站的支付宝打赏功能](/web/donate)
 - [Google CSE 站内搜索](/search)
 - [404 Page](/404)
