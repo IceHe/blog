@@ -1,6 +1,6 @@
 title: Reading Bookmarks 阅读书签
 date: 2016-06-17
-updated: 2016-09-21
+updated: 2016-09-27
 show_updated: true
 categories: [read]
 tags: [read]
@@ -122,6 +122,8 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 - [送礼的秘诀是什么？](https://www.zhihu.com/question/20455039)- 「送者心安，受者心欢。」
 
 - [中国的劝酒文化背后的逻辑是什么？](https://www.zhihu.com/question/28311266)- 服从性 & 诚意测试
+
+- [父母真的只是为了孩子吗？](https://zhuanlan.zhihu.com/p/22558083)- 为了“自己” <sup>_temp_</sup>
 
 ## Think 思维
 
