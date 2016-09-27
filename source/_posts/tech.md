@@ -1,6 +1,6 @@
 title: Technology Bookmarks 技术书签
 date: 2016-06-14
-updated: 2016-08-06
+updated: 2016-09-27
 show_updated: true
 categories: [read]
 tags: [read]
@@ -30,8 +30,6 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 - [Value Converter](http://tool.oschina.net/hexconvert) - 数值的进制转换（支持浮点数）
 
 - [OSChina Online Tools](http://tool.oschina.net/) - 常用 Web 开发辅助工具、相关知识的简易手册
-
-- [360 的 CDN 服务](http://libs.useso.com/) - CDN 公共库：Google、前端、字体…
 
 - [Public DNS](http://www.ip.cn/dns.html) - 公共 DNS 服务器 IP 列表
 
@@ -99,7 +97,7 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 - [Sorting Algorithm Animations](http://www.sorting-algorithms.com/) <sup>_todo_</sup>
 
-- [Visu Algo](http://visualgo.net/) - Visualising data structures and algorithms through animation. <sup>_todo_</sup>
+- [Visual Algo](http://visualgo.net/) - Visualising data structures and algorithms through animation. <sup>_todo_</sup>
 
 - [LeetCode](https://leetcode.com/) / [UVa](https://uva.onlinejudge.org/) / [PKU](http://poj.org/) / [HDU](http://acm.hdu.edu.cn/) - Online Judge
 
@@ -203,6 +201,8 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 - [{json:api}](http://jsonapi.org/) - B/S 间的 JSON 格式数据的传输规范
 
+- [为什么全栈JavaScript经常被黑，而Java却不会被黑？](https://www.zhihu.com/question/43165251/answer/95373570)- “全栈”之路 <sup>_temp_</sup>
+
 <!--- [design+code (前端教程)](https://designcode.io/) <sup>_todo_</sup>-->
 
 <!--- [Linux TCP 队列相关参数的总结](http://blog.sina.com.cn/s/blog_e59371cc0102vg4n.html)很可能永远用不上-->
@@ -229,10 +229,13 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 - [谈谈系统设计的面试](http://zhuanlan.zhihu.com/p/20578447) - 服务端的扩容、缓存与架构升级（评论更精彩）
 
+- [西乔的漫画《神秘的程序员们》](http://chuansong.me/account/coderstory)- 此处推荐《[架构师成长之路](http://chuansong.me/n/802248948967)》系列：深入浅出！
+
 - [Service-oriented architecture](https://en.m.wikipedia.org/wiki/Service-oriented_architecture) <sup>_temp_</sup>
 
 - [支付宝后台架构是怎样的？](https://www.zhihu.com/question/19907497) <sup>_temp_</sup>
 
+- [常见的网站服务器架构有哪些？](https://www.zhihu.com/question/20657269/answer/32678620)- 演进 <sup>_temp_</sup>
 
 ## Linux
 
@@ -260,6 +263,10 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 - [Unix 现状与未来](http://blog.csdn.net/haoel/article/details/1688006)
 
+- [一份 Docker 的反方辩论 —— 我还是用 Heroku 好了](https://linux.cn/article-7737-1.html) <sup>_temp_</sup>
+
+- [Docker 正方登场 —— 未来正在远方……](https://linux.cn/article-7777-1.html?utm_source=weibo&utm_medium=weibo) <sup>_temp_</sup>
+
 ## Secure
 
 - [理解 OAuth 2.0](https://github.com/ruanyf/articles/blob/master/2014/2014-05-11-oauth-2-0.md)
@@ -286,6 +293,8 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 ## Career
 
+- [计算机行业还能火几年？](https://www.zhihu.com/question/27809894/answer/98696858)- 前景！？
+
 - [免费的 MBTI 测试](http://www.apesk.com/mbti/dati.asp?)
 
 - [痛苦造就性格](https://github.com/ruanyf/articles/blob/master/blogbook/bookone/2011-12-06-zawinski.md) - 你选择什么？
@@ -307,6 +316,8 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 
 - [精益技术简历之道——改善技术简历的47条原则](http://zh.lucida.me/blog/lean-technical-resume/) - Google 工程师，[Lucida](http://lucida.me/)
 
+- [如何优雅地参加技术分享会？](https://zhuanlan.zhihu.com/p/22322885)- 听技术分享的意义 <sup>_temp_</sup>
+
 ## IT Industry
 
 - [碎片化信息的价值：懒惰与慰藉](http://chuansong.me/n/2848588) <sup>__Best__</sup>
@@ -324,6 +335,8 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
 - [腾讯，竞争力和用户体验](http://coolshell.cn/articles/5901.html)
 
 - [如何看待滴滴收购 Uber 中国？](https://www.zhihu.com/question/48745473) <sup>_temp_</sup>
+
+- [如何评价滴滴收购 Uber 之后费用大幅上涨？](https://www.zhihu.com/question/50115346) <sup>_temp_</sup>
 
 - [Facebook 广告系统比谷歌先进在哪里？](https://www.zhihu.com/question/29847912/answer/101025439?utm_campaign=weekly225&utm_source=weekly-digest&utm_medium=email) <sup>_temp_</sup>
 
@@ -346,6 +359,8 @@ description: 技术类书签：在线工具、文档、Wiki、技术博客…
     译文：[软件公司的两种管理方式](http://coolshell.cn/articles/4951.html)
 
     相关：[Theory X and Theory Y](https://en.wikipedia.org/wiki/Theory_X_and_Theory_Y)
+
+- [如何看待阿里巴巴安全部门的月饼事件？](https://www.zhihu.com/question/50600301) <sup>_temp_</sup>
 
 <!--- [成功技术领导者10条经验锤炼](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=208891164&idx=1&sn=893d43e516f576917dcb99cfa421a226&scene=5&srcid=3vfJDE1cRf8X4ecZlk7h#rd) 初次看不明觉厉，再看没有感触，待观察。-->
 
