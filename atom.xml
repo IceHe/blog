@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://icehe.me/"/>
-  <updated>2016-09-25T16:00:00.000Z</updated>
+  <updated>2016-09-26T16:00:00.000Z</updated>
   <id>http://icehe.me/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="http://icehe.me/think/2016_fall/"/>
     <id>http://icehe.me/think/2016_fall/</id>
     <published>2016-09-16T16:00:00.000Z</published>
-    <updated>2016-09-25T16:00:00.000Z</updated>
+    <updated>2016-09-26T16:00:00.000Z</updated>
     
-    <content type="html">&lt;h1 id=&quot;秋&quot;&gt;&lt;a href=&quot;#秋&quot; class=&quot;headerlink&quot; title=&quot;秋&quot;&gt;&lt;/a&gt;秋&lt;/h1&gt;&lt;p&gt;清爽的九月，正好是北京最舒服的时候。只可惜北京的秋天太短，之后又是我讨厌的冬天。&lt;/p&gt;
+    <content type="html">&lt;h1 id=&quot;文摘&quot;&gt;&lt;a href=&quot;#文摘&quot; class=&quot;headerlink&quot; title=&quot;文摘&quot;&gt;&lt;/a&gt;文摘&lt;/h1&gt;&lt;h1 id=&quot;秋&quot;&gt;&lt;a href=&quot;#秋&quot; class=&quot;headerlink&quot; title=&quot;秋&quot;&gt;&lt;/a&gt;秋&lt;/h1&gt;&lt;p&gt;清爽的九月，正好是北京最舒服的时候。只可惜北京的秋天太短，之后又是我讨厌的冬天。&lt;/p&gt;
 &lt;h2 id=&quot;每日反馈与计划&quot;&gt;&lt;a href=&quot;#每日反馈与计划&quot; class=&quot;headerlink&quot; title=&quot;每日反馈与计划&quot;&gt;&lt;/a&gt;&lt;a href=&quot;/think/life_manual/#执行力推动计划&quot;&gt;每日反馈与计划&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;我的 &lt;a href=&quot;http://weibo.com/2181657940&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;微博&lt;/a&gt; 从最近开始，每天发布前一天的反馈和当天的计划。其实我私下一直有写反馈和计划，不过通常更简短。&lt;/p&gt;
 &lt;/li&gt;
@@ -127,14 +127,7 @@
 &lt;li&gt;致力生产（工作、成就）&lt;/li&gt;
 &lt;li&gt;挣到更多的钱（或提升地位）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&quot;文摘&quot;&gt;&lt;a href=&quot;#文摘&quot; class=&quot;headerlink&quot; title=&quot;文摘&quot;&gt;&lt;/a&gt;文摘&lt;/h1&gt;&lt;h2 id=&quot;代码的-3C-标准&quot;&gt;&lt;a href=&quot;#代码的-3C-标准&quot; class=&quot;headerlink&quot; title=&quot;代码的 3C 标准&quot;&gt;&lt;/a&gt;代码的 3C 标准&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;摘自 &lt;a href=&quot;http://weibo.com/ruanyf&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ruanyf&lt;/a&gt; 的 &lt;a href=&quot;http://weibo.com/1400854834/E12lWwXAJ?refer_flag=1001030103_&amp;amp;type=comment&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;微博&lt;/a&gt;：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;代码（code）的 3C 标准：可理解 Comprehensible、正确 Correct、可复用 Composable。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;长日无痕（三）&quot;&gt;&lt;a href=&quot;#长日无痕（三）&quot; class=&quot;headerlink&quot; title=&quot;长日无痕（三）&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/22137900&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;长日无痕（三）&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;h2 id=&quot;大观&quot;&gt;&lt;a href=&quot;#大观&quot; class=&quot;headerlink&quot; title=&quot;大观&quot;&gt;&lt;/a&gt;大观&lt;/h2&gt;&lt;h3 id=&quot;长日无痕（三）&quot;&gt;&lt;a href=&quot;#长日无痕（三）&quot; class=&quot;headerlink&quot; title=&quot;长日无痕（三）&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/22137900&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;长日无痕（三）&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Work-life balance? 有舍才有得。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;他最头疼的事情是让美国员工多些狼性，少些 work-life balance。&lt;/p&gt;
@@ -142,7 +135,7 @@
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;月饼与价值观&quot;&gt;&lt;a href=&quot;#月饼与价值观&quot; class=&quot;headerlink&quot; title=&quot;月饼与价值观&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://weibo.com/ttarticle/p/show?id=2309404019941551568956&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;月饼与价值观&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;h3 id=&quot;月饼与价值观&quot;&gt;&lt;a href=&quot;#月饼与价值观&quot; class=&quot;headerlink&quot; title=&quot;月饼与价值观&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://weibo.com/ttarticle/p/show?id=2309404019941551568956&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;月饼与价值观&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;这篇“李菊福”（理据服），道出了程序员的心里话。&lt;/p&gt;
 &lt;p&gt;  再引用 &lt;a href=&quot;http://weibo.com/737747767?refer_flag=1001030101_&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;和菜头&lt;/a&gt; 的 &lt;a href=&quot;http://weibo.com/1642398891/E8dDp3z0M?from=page_1005051642398891_profile&amp;amp;wvr=6&amp;amp;mod=weibotime&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;微博&lt;/a&gt;：&lt;/p&gt;
 &lt;blockquote&gt;
@@ -150,10 +143,56 @@
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&quot;时寒冰：剖析楼市真相与趋势&quot;&gt;&lt;a href=&quot;#时寒冰：剖析楼市真相与趋势&quot; class=&quot;headerlink&quot; title=&quot;时寒冰：剖析楼市真相与趋势&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzA4NzY1ODMzNA==&amp;amp;mid=2648987610&amp;amp;idx=1&amp;amp;sn=6a37b8a882ad3bc2537f8caaaa5c0593&amp;amp;mpshare=1&amp;amp;scene=1&amp;amp;srcid=0926Z8qEPeJjI7VIeXbI1vxz#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;时寒冰：剖析楼市真相与趋势&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;实业家的愤懑&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;做实业老老实实养活几千号工人，创造就业，生产产品，为社会做贡献，然而努力了十几年，却不如人家一幢楼赚得多。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;  这算得上是不健康的经济现象吧？我对未来感到悲观。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;破灭&lt;/p&gt;
+&lt;p&gt;  买不起房子，更别说北京的房子了；也没钱移民，所以难以肉身翻墙逃离这个地方。我还没好好见识过欧美的花花世界，不确定自己会不会更喜欢那个地方，不过我猜自己大概还是更爱这里。&lt;/p&gt;
+&lt;p&gt;  可是房价上涨何时是个尽头？我相信我国之后的几十年还会变得更繁荣，但是我还是觉得一定能够在有生之年看到我国房地产泡沫的破灭，或许就在不远的将来。如果我能够活到 70 岁，那么离我离开这个世界的那一天还有 46 年 —— 我不希望泡沫破得太晚，以致人生后半段随着崩溃的经济，一直走下坡路。&lt;/p&gt;
+&lt;p&gt;  比起国家为保房地产「饮鸩止渴」，我更希望房价早日回归它的真实价值。「长痛不如短痛」，或许代价很大，但是继续维持现状不怕日后「站得更高摔得更惨」吗？我国的经济会触底，但是还是有很大可能慢慢地恢复过来，然后更健康地增长，生活随之又慢慢地变好 —— 我更喜欢「先抑后扬」的人生图景。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;看不透&lt;/p&gt;
+&lt;p&gt;  不是精英，不是权贵，看不透这荒诞的现实。房价疯狂，手上的钱不断贬值，挣的钱又不多…… 我能做什么呢？还是有一些事可以做的：买不起房子，但是租得起；没钱移民，但是有钱学英语。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;注意健康，买好商业保险（意外、重大疾病），保证病得起。&lt;/li&gt;
+&lt;li&gt;留足“过冬的粮食”（应急的储蓄），将就着过日子，成本不会高。&lt;/li&gt;
+&lt;li&gt;舍得投资自己，磨练秉性、才能。有学习的能力、挣钱的本领，无论什么世道，至少能挣口饭吃。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Coding&quot;&gt;&lt;a href=&quot;#Coding&quot; class=&quot;headerlink&quot; title=&quot;Coding&quot;&gt;&lt;/a&gt;Coding&lt;/h2&gt;&lt;h3 id=&quot;代码的-3C-标准&quot;&gt;&lt;a href=&quot;#代码的-3C-标准&quot; class=&quot;headerlink&quot; title=&quot;代码的 3C 标准&quot;&gt;&lt;/a&gt;代码的 3C 标准&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;摘录自 &lt;a href=&quot;http://weibo.com/ruanyf&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ruanyf&lt;/a&gt; 的 &lt;a href=&quot;http://weibo.com/1400854834/E12lWwXAJ?refer_flag=1001030103_&amp;amp;type=comment&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;微博&lt;/a&gt;：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;代码（code）的 3C 标准：可理解 Comprehensible、正确 Correct、可复用 Composable。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;null-的处理&quot;&gt;&lt;a href=&quot;#null-的处理&quot; class=&quot;headerlink&quot; title=&quot;null 的处理&quot;&gt;&lt;/a&gt;null 的处理&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;摘录自 &lt;a href=&quot;http://www.yinwang.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;王垠的博客&lt;/a&gt; 文章《&lt;a href=&quot;http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;编程的智慧&lt;/a&gt;》：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;函数作者：明确声明不接受 null 参数，当参数是 null 时立即崩溃。不要试图对 null 进行“容错”，不要让程序继续往下执行。如果调用者使用了 null 作为参数，邧么调用者（而不是函数作者）应该对程序的崩溃负全责。&lt;/p&gt;
+&lt;p&gt;上面的例子之所以成为问题，就在于人们对于 null 的“容忍态度”。这种“保护式”的写法，试图“容错”，试图“优雅地处理 null”，其结果是让调用者更加肆无忌惮的传递 null 给你的函数。到后来，你的代码里出现一堆堆 nonsense 的情况，null 可以在任何地方出现，都不知道到底是哪里产生出来的。谁也不知道出现了 null 是什么意思，该做什么，所有人都把 null 踢给其他人。最后这 null 像瘟疫一样蔓延开来，到处都是，成为一场噩梦。&lt;/p&gt;
+&lt;p&gt;正确的做法，其实是强硬的态度。你要告诉函数的使用者，我的参数全都不能是 null，如果你给我 null，程序崩溃了该你自己负责。至于调用者代码里有 null 怎么办，他自己该知道怎么处理(参考以上几条)，不应该由函数作者来操心。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;  真知灼见值得复习。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&quot;电影&quot;&gt;&lt;a href=&quot;#电影&quot; class=&quot;headerlink&quot; title=&quot;电影&quot;&gt;&lt;/a&gt;电影&lt;/h1&gt;&lt;h2 id=&quot;Limitless-永无止境&quot;&gt;&lt;a href=&quot;#Limitless-永无止境&quot; class=&quot;headerlink&quot; title=&quot;Limitless 永无止境&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://movie.douban.com/subject/3041269/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Limitless&lt;/a&gt; 永无止境&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;一部爽片。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;做一个高智商的人是怎样的感觉？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;白日梦想家&quot;&gt;&lt;a href=&quot;#白日梦想家&quot; class=&quot;headerlink&quot; title=&quot;白日梦想家&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://movie.douban.com/subject/2133323/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;白日梦想家&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;《The Secret Life of Walter Mitty》&lt;/p&gt;
+&lt;p&gt;  我就是一个经常做白日梦的人。愿：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;让梦境照进现实。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -175,14 +214,6 @@
 其次最大的感受就是：我离理想（“疯魔”）的奋斗状态还太远。
 
 取舍不坚决，不能够舍弃其它一切，为核心目标而奋斗。正是我所欠缺的。 --&gt;
-&lt;h2 id=&quot;白日梦想家&quot;&gt;&lt;a href=&quot;#白日梦想家&quot; class=&quot;headerlink&quot; title=&quot;白日梦想家&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://movie.douban.com/subject/2133323/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;白日梦想家&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;《The Secret Life of Walter Mitty》&lt;/p&gt;
-&lt;p&gt;  我就是一个经常做白日梦的人。愿：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;让梦境照进现实。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h1 id=&quot;尾声&quot;&gt;&lt;a href=&quot;#尾声&quot; class=&quot;headerlink&quot; title=&quot;尾声&quot;&gt;&lt;/a&gt;尾声&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;博客更像我公开的「笔记本」—— 我不一定会发布新文章，但是我会强迫症似地不断更新、完善旧文章。&lt;/p&gt;
 &lt;/li&gt;
@@ -207,27 +238,111 @@
   </entry>
   
   <entry>
-    <title>Life Manual 生活指北</title>
+    <title>Life Exp 生活指北</title>
     <link href="http://icehe.me/think/life_manual/"/>
     <id>http://icehe.me/think/life_manual/</id>
     <published>2016-08-06T16:00:00.000Z</published>
-    <updated>2016-09-17T16:00:00.000Z</updated>
+    <updated>2016-09-27T16:00:00.000Z</updated>
     
-    <content type="html">&lt;h1 id=&quot;Self-Help-List&quot;&gt;&lt;a href=&quot;#Self-Help-List&quot; class=&quot;headerlink&quot; title=&quot;Self-Help List&quot;&gt;&lt;/a&gt;Self-Help List&lt;/h1&gt;&lt;h2 id=&quot;人生主题&quot;&gt;&lt;a href=&quot;#人生主题&quot; class=&quot;headerlink&quot; title=&quot;人生主题&quot;&gt;&lt;/a&gt;人生主题&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;尝试！&lt;/strong&gt;尝试经历一切不同的人和事，让自己的生命尽可能的有趣、快乐。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;人生目标&quot;&gt;&lt;a href=&quot;#人生目标&quot; class=&quot;headerlink&quot; title=&quot;人生目标&quot;&gt;&lt;/a&gt;人生目标&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;没想清楚&lt;/p&gt;
+    <content type="html">&lt;p&gt;总结积累（尚浅）的人生经验。&lt;/p&gt;
+&lt;h1 id=&quot;Me&quot;&gt;&lt;a href=&quot;#Me&quot; class=&quot;headerlink&quot; title=&quot;Me&quot;&gt;&lt;/a&gt;Me&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;性格&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;但是，希望自己想清楚的时候，能够有能力做到。&lt;/li&gt;
-&lt;li&gt;所以，要培养更强的能力（日后拥有 更大的可能性、更多的选择）。&lt;/li&gt;
-&lt;li&gt;这需要努力。努力，就是当前的目标。&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;强迫症&lt;/p&gt;
+&lt;p&gt;  囿于细节，重复劳动 –&amp;gt; 浪费时间。&lt;/p&gt;
+&lt;p&gt;  药方：实用主义。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;工具控&lt;/p&gt;
+&lt;p&gt;  战术上勤奋，战略上懒惰 –&amp;gt; 净做无用功。&lt;/p&gt;
+&lt;p&gt;  药方：多思考、总结&lt;!--，增长智慧--&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;懒惰&lt;/p&gt;
+&lt;p&gt;  愿望美好，执行不力 –&amp;gt; 靡不有初，鲜克有终（虎头蛇尾）。&lt;/p&gt;
+&lt;p&gt;  药方：Done is better than perfect.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;为何坚持努力？&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;目标&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;努力才有可能！不努力，什么都不可能。（《钢炼》）&lt;/li&gt;
-&lt;li&gt;努力也永远比不上“别人”，但你（的境况）会变得更好！&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;人生目标：没想清楚&lt;/p&gt;
+&lt;p&gt;  但是希望自己想清楚的时候，能够有能力做到。&lt;br&gt;  所以要培养更强的能力，获得更多的选择。&lt;br&gt;  这需要努力，所以努力就是当前的目标。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;人生主题：&lt;strong&gt;尝试&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  尝试经历更多不同的人和事，让自己尽可能的有趣、快乐。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;前提：足够的物质基础 –&amp;gt; 挣钱 –&amp;gt; &lt;strong&gt;进步&lt;/strong&gt;（现阶段）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;Life-Exp&quot;&gt;&lt;a href=&quot;#Life-Exp&quot; class=&quot;headerlink&quot; title=&quot;Life Exp&quot;&gt;&lt;/a&gt;Life Exp&lt;/h1&gt;&lt;p&gt;Q&amp;amp;A 自问自答，原则、方法、经验……&lt;/p&gt;
+&lt;p&gt;我每想“明白”一些事，都总结到这里，不断更新，以免遗忘。迷惑的时候，我就会看看本文。&lt;/p&gt;
+&lt;h2 id=&quot;原则&quot;&gt;&lt;a href=&quot;#原则&quot; class=&quot;headerlink&quot; title=&quot;原则&quot;&gt;&lt;/a&gt;原则&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;u&gt;&lt;strong&gt;带着脑袋做事&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;抓住重点&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  用 &lt;strong&gt;80/20 原则&lt;/strong&gt; 取舍&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;多想方法&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  做事讲究 &lt;strong&gt;方法（论）&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;做&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;hr&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;优先级&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;适度 &amp;gt;&amp;gt; 极端&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  走极端，容易认知失调，因而周期性摇摆于两个极端。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;结果 &amp;gt;&amp;gt; 过程&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  虽然过程很重要，但是结果更重要！&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;做 &amp;gt;&amp;gt; 学 &amp;gt;&amp;gt; 读&lt;/strong&gt;（ &amp;gt;&amp;gt; 想 &amp;gt;= 玩 ）&lt;/p&gt;
+&lt;p&gt;  实践 &amp;gt; 学习（做笔记）&amp;gt;&amp;gt; 阅读 &amp;gt; 空想 &amp;gt;= 玩乐&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;便捷 &amp;gt; 简洁&lt;/strong&gt; （ &amp;gt;&amp;gt; 杂乱 &amp;gt; 极简 ）&lt;/p&gt;
+&lt;p&gt;  效率第一 &amp;gt; 还是有点强迫症 &amp;gt; 省下精力做要事 &amp;gt; 费力整理，虽悦己，但属于奢侈的快感（机会成本大）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;节俭 &amp;gt; 吝啬 &amp;gt; 奢侈&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  必要就买（省心、优化工具、高效）&amp;gt; 设法用时间、精力来省钱（机会成本太大）&amp;gt; 喜欢就买，奢靡浪费&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;实用 &amp;gt; 好看&lt;/strong&gt;（ &amp;gt; 难看 ）&lt;/p&gt;
+&lt;p&gt;  实用 &amp;gt; 爱美之心（例如，我买的极轻伞，伞面太小了）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;hr&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;简化&lt;/p&gt;
+&lt;p&gt;  人脑一时间只能记住很有限的东西，所以下文将自顶向下逐步细化，便于：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;在精神、身体状况不佳的时候，至少能够把握顶层的少数几条重要原则。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;无力深思熟虑的时候，可以简化思考，直接根据这里总结的经验来行动。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;方法论&quot;&gt;&lt;a href=&quot;#方法论&quot; class=&quot;headerlink&quot; title=&quot;方法论&quot;&gt;&lt;/a&gt;方法论&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;带着脑袋做事：… ，多想方法。&lt;ul&gt;
+&lt;li&gt;我打算暴力拉开外卖胶袋，然而北大大神刘亦然选择巧妙撕开。&lt;/li&gt;
+&lt;li&gt;我才意识到自己的思维习惯问题：懒得动脑子。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;动力&quot;&gt;&lt;a href=&quot;#动力&quot; class=&quot;headerlink&quot; title=&quot;动力&quot;&gt;&lt;/a&gt;动力&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;努力&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;努力才有可能！不努力，什么都不可能。（《钢炼》）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;努力也永远比不上“别人”，但你（的境况）会变得更好！&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;虽然相对值追不上，但绝对值会上升。&lt;/li&gt;
 &lt;li&gt;小心攀比，它可能会摧毁你的自信，让你丧失前进的动力。&lt;/li&gt;
 &lt;/ul&gt;
@@ -235,147 +350,157 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;优先级&quot;&gt;&lt;a href=&quot;#优先级&quot; class=&quot;headerlink&quot; title=&quot;优先级&quot;&gt;&lt;/a&gt;优先级&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;u&gt;&lt;strong&gt;睡眠，饮食，运动&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+&lt;h3 id=&quot;空闲阶段&quot;&gt;&lt;a href=&quot;#空闲阶段&quot; class=&quot;headerlink&quot; title=&quot;空闲阶段&quot;&gt;&lt;/a&gt;空闲阶段&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;做事还是阅读？&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;早睡早起，清淡节制，健美&lt;/li&gt;
-&lt;li&gt;多喝温水，不洗冷水澡！少垃圾食品饮料&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;u&gt;&lt;strong&gt;英语，工作，技术&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;根基，职业精神（敬业），专注服务端&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;博客，享乐&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;方法论&quot;&gt;&lt;a href=&quot;#方法论&quot; class=&quot;headerlink&quot; title=&quot;方法论&quot;&gt;&lt;/a&gt;方法论&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;抓住重点，多想方法&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;u&gt;&lt;strong&gt;带着脑袋做事。&lt;/strong&gt;&lt;/u&gt;&lt;ul&gt;
-&lt;li&gt;我打算暴力拉开外卖胶袋，然而北大大神刘亦然选择巧妙撕开。&lt;/li&gt;
-&lt;li&gt;我才意识到自己的思维习惯问题：懒得动脑子。&lt;/li&gt;
+&lt;li&gt;必须做事，别阅读！&lt;ul&gt;
+&lt;li&gt;阅读简单，做事很难，所以我经常用阅读来逃避做事。我已经读得太多了。&lt;/li&gt;
+&lt;li&gt;只有做事才能产生价值，阅读只能算是娱乐。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;u&gt;&lt;strong&gt;以终为始&lt;/strong&gt;&lt;/u&gt;，要事第一！&lt;/p&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;决策阶段&quot;&gt;&lt;a href=&quot;#决策阶段&quot; class=&quot;headerlink&quot; title=&quot;决策阶段&quot;&gt;&lt;/a&gt;决策阶段&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;重要&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;定义&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;「重要」&lt;u&gt;&lt;strong&gt;对达成人生目标大有裨益的。&lt;/strong&gt;&lt;/u&gt;&lt;/li&gt;
+&lt;li&gt;「重要」对达成人生目标大有裨益的。&lt;/li&gt;
 &lt;li&gt;「最重要」最有助于达成人生目标的。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;u&gt;&lt;strong&gt;取舍&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;取舍&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;每做一件事之前，三思：&lt;u&gt;&lt;strong&gt;这件事到底重不重要！？&lt;/strong&gt;&lt;/u&gt;&lt;/li&gt;
+&lt;li&gt;80/20 原则：这件事到底重不重要！？&lt;/li&gt;
+&lt;li&gt;做事优先级：&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;健康&lt;/strong&gt;：睡眠，饮食，运动&lt;br&gt; 早睡早起，清淡、七分饱，恢复精力&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;进步&lt;/strong&gt;：英语，工作，技术，博客&lt;br&gt; 根基，职业精神，专注服务端，展示自我&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;享乐&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;做最重要的事&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;以终为始&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;不重要的琐事自然会找上门，不必费心处理。&lt;/li&gt;
+&lt;li&gt;结果导向&lt;ul&gt;
+&lt;li&gt;好的结果才是最重要的，不过分纠结于过程中的细枝末节。&lt;/li&gt;
+&lt;li&gt;例如「准确而完美的时间统计记录」并不代表「事情做得完满」。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;结果导向&lt;/p&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;要事第一&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;不过分纠结于细枝末节。&lt;/li&gt;
-&lt;li&gt;「准确而完美的时间统计记录」并不代表「事情做得完满」！&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;p&gt;做最重要的事，不重要的琐事自然会找上门，不必费心处理。&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;u&gt;&lt;strong&gt;朝着抵抗力最大的路径走！&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;装瓶子&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;以前总是优先做简单的事情，以逃避「困难且重要的事情」。&lt;/p&gt;
+&lt;li&gt;首先把石头装进瓶子，再装沙子，再灌水，最后还能放盐。&lt;/li&gt;
+&lt;li&gt;但是装的顺序一反，石头就再也放不进去了。&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;还不如缩短每天做事的时间，但要首先去做「困难且重要的事情」！&lt;/p&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;行动阶段&quot;&gt;&lt;a href=&quot;#行动阶段&quot; class=&quot;headerlink&quot; title=&quot;行动阶段&quot;&gt;&lt;/a&gt;行动阶段&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;朝着抵抗力最大的路径前进&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;为了保证「要事第一」，允许（尝试）用更多时间放松，来恢复精力。&lt;ul&gt;
-&lt;li&gt;即使降低了时间统计记录中“名义”上的「时间利用率」；&lt;/li&gt;
-&lt;li&gt;但是更可能提高了“实际”上的「时间利用率」！&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;p&gt;问：“不想做最重要的事，怎么办？”&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;p&gt;以前总是先做简单的事情来「逃避」困难且重要的事情。&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;装满瓶子：石头、沙子、水&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;还不如缩短每天做事的时间，但是必须先做「困难且重要的事情」！&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;瓶子首先放进了石头，然后还能塞些沙子，最后还能再灌些水，甚至溶解些盐进去。&lt;/li&gt;
-&lt;li&gt;但放的顺序一错，石头就再也放不进去了。&lt;/li&gt;
+&lt;li&gt;允许使用更多的时间放松来恢复精力。&lt;ul&gt;
+&lt;li&gt;虽然降低了时间统计记录中的「名义时间利用率」；&lt;/li&gt;
+&lt;li&gt;但是提高了「实际时间利用率」！&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;实践最高！80% 时间做事&lt;/p&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;五分钟快速启动&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;阅读是相对简单的事。我已经阅读得太多了，能做事就别阅读！&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;p&gt;问：“决定了要做什么事，但是没动力开始，怎么办？”&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;万事开头难。可以靠「惯性」前进，但是也需要「初速度」。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;五分钟快速启动&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;一时一事&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;万事开头难。靠「惯性」前进，也需要「初速度」。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;p&gt;问：“做事容易分神，导致精力涣散、效率低下，怎么办？”&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;u&gt;&lt;strong&gt;一时一事&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;专注，一段时间只做一件事；做完一件事，再做另一件事。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;专注，一段时间只做一件事。&lt;/li&gt;
-&lt;li&gt;做完一件事，再做另一件事。&lt;ul&gt;
-&lt;li&gt;一旦开始干某件事，在做完之前，即使碰到、想到其它什么想干的事，也不要理会！如果后来忘记了，那就算了，因为：通常这件事根本就不重要，或者过后还会回想起来。&lt;/li&gt;
-&lt;li&gt;反面例子：打开微博 App，决定发一条微博分享一个见解；启动后，瞥见某条微博很有趣，就点击进去看了，还把转发、评论给看了，然后开始刷微博… 过了好一会才想起发微博的事！&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;一旦开始做一件事，在做完之前碰到想到其它要做想做的事，通通都用 Wunderlist 记下来，做完再说！&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;虽然死板，但是只能这样：不然思绪越走越远，会因为忘了最初的目的，而做了许多没用的事，浪费时间和精力。&lt;/li&gt;
+&lt;li&gt;反面例子：打开微博 App 发表一个见解，刚好瞥见某条微博很有趣，于是就点击查看，还看了热门的转发评论，然后开始刷微博……过了好一会才想起发微博的事！&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;不苛完美，不责已悔&lt;/p&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;不苛完美，不责已悔&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;接纳，接受一切负面情绪，接纳愚蠢可笑的自己。&lt;/li&gt;
-&lt;li&gt;自责，于事无补，还不如立即行动！&lt;/li&gt;
-&lt;li&gt;Done is better than perfect.&lt;ul&gt;
-&lt;li&gt;不要妄想做得完美，而幻想凑出一整段时间来集中做好一件事。&lt;/li&gt;
-&lt;li&gt;这只会「温水煮青蛙」，拖延进度。&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;问：“总是觉得自己做事做得不够好（事实上也是），导致自责懊恼，情绪不佳，难以继续高效做事，怎么办？”&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;悦纳，接受一切负面情绪，接纳愚蠢可笑的自己。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;自责，于事无补，还不如立即行动！&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Done is better than perfect.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;例如，不要妄想做得完美，而幻想凑出一整段时间来集中做好一件事，这只会导致「温水煮青蛙」拖延进度而已。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;取消许可，牢记理由&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;取消许可，牢记理由&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;坚定信念。&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;问：“觉得自己做事做得还行或者已经没有动力了，想要放松、放弃、放纵，怎么办？”&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;想要放弃的时候，不要总是想着过去曾经做出的努力，以致过分放松，随意 “犒劳” 自己。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;想要放弃的时候，不要总是想着过去曾经做出的努力，以致过分放松，随意 “犒劳” 自己。&lt;ul&gt;
 &lt;li&gt;比如「吃顿好的，庆祝减肥成功！」&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;而是去回想，让你坚持做出那么多努力的理由，这样可以让你能够坚持得更久。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;消极沉沦的时候，也要坚持行动！&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;颓废也要坚持做事&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;唯此才能改变现状。&lt;ul&gt;
-&lt;li&gt;颓废不会因为休息放纵而消退。&lt;/li&gt;
-&lt;li&gt;积极向上更可能改善状态，至少还能有一点收获。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;p&gt;问：“很颓废，什么都不想做，只想（过度）休息、放松、玩乐，怎么办？”&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;替换习惯 &lt;sup&gt;&lt;em&gt;verifying&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;更要坚持做事！只有这样才能改变现状。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;自控力&lt;/p&gt;
+&lt;li&gt;颓废不会因为过度的休息放松而消失；&lt;/li&gt;
+&lt;li&gt;积极向上反而更有可能改善状态，至少还能获得有一些做事的成果。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;养成习惯&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;有限，像血糖，用完没有力气了。&lt;/li&gt;
-&lt;li&gt;如肌肉，锻炼就会断裂再生长。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;形成习惯的事，几乎不消耗自控力。&lt;/strong&gt;&lt;ul&gt;
-&lt;li&gt;刷牙，吃饭，上洗手间，等自动化的动作流程。&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;问：“自控力（自制力）不够用，每天有效（足够强度）的工作学习坚持不了多久，我弱爆了，怎么办？”&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;自控力是有限的，像血糖，用完它，人就没有力气了。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;例如肌肉，锻炼了，它就会断裂然后再长得更大。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;形成习惯的事，几乎不消耗自控力。&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;刷牙、吃饭、上洗手间等，都能够由大脑自动进行，甚至已经产生了肌肉记忆，不需要额外的思考。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;养成/替换 习惯&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;习惯回路&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;触机：触发条件。&lt;ul&gt;
-&lt;li&gt;时间、地点、人或物、事件（看、听、做）&lt;/li&gt;
+&lt;li&gt;时间、地点、人或物、事件（看、听、做）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;行为：惯常的反应、行为。&lt;/li&gt;
@@ -384,11 +509,9 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;替换方法&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;想改变行为，先分析出其触机与奖赏。&lt;/li&gt;
-&lt;li&gt;用另一种能获得同样或类似奖赏的新行为，以替换旧行为，形成新的习惯回路。&lt;ul&gt;
+&lt;li&gt;想改变习惯，先分析出其触机与奖赏。&lt;/li&gt;
+&lt;li&gt;用另一种能获得同样或类似奖赏的新行为，来替换旧行为，从而形成新的习惯回路。&lt;ul&gt;
 &lt;li&gt;循序渐进，慢慢替换为更好的新行为，直到替换为最终的目标行为。&lt;/li&gt;
-&lt;li&gt;或者一步到位，绑定一些额外的足够好的奖赏到目标行为上。&lt;br&gt;  这些额外的奖赏一般难以从该行为直接获得。&lt;ul&gt;
-&lt;li&gt;比如，做成一件事，去看电影、旅行、玩，买某样好东西。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -397,134 +520,369 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;其次&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;远离诱惑&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;雷厉风行&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;果断。想到该做什么，立即行动。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;p&gt;问：“经常被游戏、影视剧、聚会吸引，浪费了很多时间，怎么办？”&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;动疾心静&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;清醒。知道自己此刻在干嘛，不偏离方向。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;欲求其上，必求其上上&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;志存高远。目标要定得高，即使完成不了，也能督促你走得更远。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;p&gt;除了「远离」，没有更好的方法，不要试图考验自身羸弱的自控力。&lt;/p&gt;
+&lt;p&gt;  我做不到“悬梁刺股”，即使做到了，也透支了自控力，也难以持之以恒（以便养成习惯，这样更高明）。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;细节&quot;&gt;&lt;a href=&quot;#细节&quot; class=&quot;headerlink&quot; title=&quot;细节&quot;&gt;&lt;/a&gt;细节&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;言行&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;动疾心静&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;形象：整洁。&lt;/li&gt;
-&lt;li&gt;印象：谨慎，小声，谦逊。&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;问：“不知不觉就做了很多蠢事，例如看朋友打游戏太久、打游戏，即使知道自己本来应该要做什么，在那一刻也忘了，怎么办？”&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;那些时候，你已经失去对自己的省察心（失神状态），根本没有意识到自己在干什么，所以也意识不到自己该干什么。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;清醒。知道自己此刻在干嘛，不偏离方向。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;远离（诱惑）不良的工作学习环境，创造安静、少干扰的环境。&lt;/li&gt;
+&lt;li&gt;番茄工作法。闹钟让你在那一刻抽离出来，重获对自己的省察力。&lt;sup&gt;trying&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;保持良好的精神、身体状态，尽力自控力。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;雷厉风行&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;问：“优柔寡断，不知道该做，怎么办？”&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;这时状态应该不太好，不要纠结太久。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;果断。想到该做什么就做什么，立即行动，打破坏状态。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;欲求其上，必求其上上&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;问：“总是达不到既定的目标，怎么办？”&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;志存高远。目标要定得高，即使完成不了，也能督促你走得更远。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;所以，可以定一个比原来的目标更高的目标，但是不能定得太过分，以致直接放弃。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;情境&quot;&gt;&lt;a href=&quot;#情境&quot; class=&quot;headerlink&quot; title=&quot;情境&quot;&gt;&lt;/a&gt;情境&lt;/h2&gt;&lt;p&gt;目标：省时间，省精力（省心），高效，进步（做正事）。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;情境&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  目标&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;细则&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;犯错&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  进步。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;犯错后，反省、总结，记录到本文。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;想到改善的方法就去尝试，无效/效果不好，再剔除，「不断试错，适时调整」，再更新本文。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;交通、内务&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  利用碎片时间&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;公交、地铁&lt;/p&gt;
+&lt;p&gt;  学英语 &amp;gt; 读书 &amp;gt; 看动漫、影视，玩游戏（放松）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;骑行、奔走、洗澡、内务&lt;/p&gt;
+&lt;p&gt;  思考问题、反省 &amp;gt; 听英语 &amp;gt; 听播客 &amp;gt; 好友电话聊天（排解烦闷）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;工具&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  「君子善假于物也」，不囿于物。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;工具太复杂，使用起来会打乱思路和做事的节奏，使做事碎片化，低效。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;不过工具而已，用得舒心就好，不必纠结，重要是要用工具把事做成。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;使用手机&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  高效的辅助工具&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;iPhone&lt;/p&gt;
+&lt;p&gt;  软件和硬件都稳定、省心；习惯 iOS 切换到 Android 成本高；满足虚荣心。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;用小屏 iPhone，不用大屏（Plus）&lt;/p&gt;
+&lt;p&gt;  方便单手操作，提高任何情况下的操作效率；容易插进口袋。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;旧款大屏留作备用机&lt;/p&gt;
+&lt;p&gt;  取代 iPad，看视频、阅读；不用带充电宝，带两台手机就行了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Apps&lt;/p&gt;
+&lt;p&gt;  效率、实用 &amp;gt; 整洁、好看&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;图标排列：使用频率越高，放在越靠前的屏，放在越顺手的位置。&lt;/p&gt;
+&lt;p&gt;  而非强迫症似地按照颜色排列。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;要用到 Apps 全下载好 &amp;gt; 只留最常用的。&lt;/p&gt;
+&lt;p&gt;  如果想要用某个 App 到的时候，却没有，还不方便下载。&lt;br&gt;  反正闪存容量充足，没必要为了强迫症似的极简而导致更多的麻烦。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;记时&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  自省，提高效率：用于优化工具、改进方法论。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;每天以半小时为单位，划分出六种类型的事务，来对自己进行 &lt;a href=&quot;/think/time_mgt&quot;&gt;时间使用情况的统计&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;  写好 &lt;a href=&quot;https://github.com/IceHe/Python_for_Day_Log&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;脚本&lt;/a&gt; 定期统计每周、每月、每年的时间使用情况，并会定期发布到 &lt;a href=&quot;/lifelogs&quot;&gt;Life Logs&lt;/a&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;每天早上总结前一天的计划执行情况，并做好当天的做事计划。每天发布到我的 &lt;a href=&quot;http://weibo.com/icedes&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;微博&lt;/a&gt; 上。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;工作、学习&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  营造有利于专注的环境。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;安静：佩戴降噪耳机，如果还不够安静，低音量播放白噪声或音乐，足够覆盖外部干扰。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;少打扰：在公司找其它地方办公，小的玻璃会议室、茶水区、公共休息、接待区等。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;手机、电脑开启「勿扰模式」（同事还是可以用 QQ、电话联系上）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;写作、写代码&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  专注，减少犯错。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;创造 和 规整 不可能同时做到。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;写作：叙述成文 和 咬文嚼字 不可能同时做到。&lt;/li&gt;
+&lt;li&gt;写代码：编写逻辑、流程 和 格式化、重构 不可能同时做到。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;强迫症发作&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  减少做无用功的时间，节约精力。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;事不过三：不要反复阅读、背诵、检查确认。&lt;/p&gt;
+&lt;p&gt;  假如麻木了，做事的时候已经无法思考，就换别的事做，恢复精力。&lt;/p&gt;
+&lt;p&gt;  不然重复浪费时间，做的都是无用功！&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;不要追求完美。这是不可能的！&lt;/p&gt;
+&lt;p&gt;  强迫自己接受：Done is better than perfect.&lt;/p&gt;
+&lt;p&gt;  不行就转移注意力，干别的事去。时间会治愈一切。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;消费、理财&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  便捷、增值、降风险。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;尽量只用手机支付，别用现金（不用去 ATM 取钱）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;支付：手机 &amp;gt; 刷卡（信用卡 &amp;gt; 储蓄卡）&amp;gt; 现金&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;手机支付：微信 &amp;gt; 支付宝 &amp;gt; Apple Pay&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;支付方：信用卡 &amp;gt; 花呗 &amp;gt; 余额 | 余额宝 &amp;gt; 储蓄卡&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;记账方便，设定默认支付账户为信用卡。&lt;/li&gt;
+&lt;li&gt;结算方便，只要每月底发工资的时候，给信用卡还一次款就行了，避免经常提现到账户。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;记账：了解开支，合理控制消费（节俭）。&lt;/p&gt;
+&lt;p&gt;  数据足够指导如何消费就行。如果记账方法太过复杂，财务工作会很浪费时间、精力。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;记账目的重点不在于分类和统计非常精准，相对准确即可；降低记账难度，方法不要太复杂。&lt;/li&gt;
+&lt;li&gt;精简记账类型：达不到统计提醒（反馈）目的的账目类型，全都去掉或合并。&lt;/li&gt;
+&lt;li&gt;尽量抓大放小，只记每次充值公交卡、饭卡，用了多少钱；而非建立一个饭卡账户、一个公交卡账户，去单独记每次坐车吃饭的钱…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;分散投资：配额：微信 = 房金所 = 金蛋理财（= U+优财？）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;买保险：重大疾病保险 + 癌症险 + 人身意外险？（需要投资型险种？）&lt;/p&gt;
+&lt;p&gt;  Ref: &lt;a href=&quot;https://www.zhihu.com/question/22316395&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何用保险保障自己的一生？&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;形象&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  留下好印象。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;外貌：整洁。&lt;/li&gt;
+&lt;li&gt;言行：谨慎，小声，谦逊。&lt;/li&gt;
 &lt;li&gt;禁止：抓脸，捋发，翘腿，秽言。&lt;/li&gt;
 &lt;li&gt;应该：抬头，挺胸，闭嘴。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;反省&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;说话&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  慎言、学习（暂时「展示自己」是次要的）。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;计时，计划、反馈。&lt;/li&gt;
-&lt;li&gt;记账，理财。（节俭，合理消费）&lt;/li&gt;
+&lt;li&gt;（尽量）不说话，少说话。&lt;/li&gt;
+&lt;li&gt;引导别人多说，从中学习。&lt;/li&gt;
+&lt;li&gt;照顾别人感受。&lt;/li&gt;
+&lt;li&gt;基于事实，别想当然，别自以为是。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;交友&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;社交&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  减少无用社交。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;勿交损友，社交费时。&lt;/li&gt;
-&lt;li&gt;忍耐寂寞，独处精进。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;p&gt;勿交损友&lt;/p&gt;
+&lt;p&gt;  如果ta没有比我更优秀的地方，我就不交这个朋友。（三人行必有我师）&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;时间利用&quot;&gt;&lt;a href=&quot;#时间利用&quot; class=&quot;headerlink&quot; title=&quot;时间利用&quot;&gt;&lt;/a&gt;时间利用&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;睡 7 h/d，日 17 h，周 119 h，学 9 / 16 = 56%&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;End-of-List&quot;&gt;&lt;a href=&quot;#End-of-List&quot; class=&quot;headerlink&quot; title=&quot;End of List&quot;&gt;&lt;/a&gt;End of List&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;本清单是个人的阅读与生活经历、见解的结合产物。&lt;/li&gt;
-&lt;li&gt;一些概念、方法，出自他人的文章、书籍，暂未详细列出索引，待完善。&lt;/li&gt;
-&lt;li&gt;如对其中一些部分感兴趣或有疑惑，可自行搜索，或在评论处询问博主。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&quot;执行力推动计划&quot;&gt;&lt;a href=&quot;#执行力推动计划&quot; class=&quot;headerlink&quot; title=&quot;执行力推动计划&quot;&gt;&lt;/a&gt;执行力推动计划&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;启动于 2016/09/03&lt;/li&gt;
-&lt;li&gt;地点&lt;ul&gt;
-&lt;li&gt;微博发布&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;时间&lt;ul&gt;
-&lt;li&gt;每天临睡2325，计划明天。&lt;/li&gt;
-&lt;li&gt;每日起床0730，总结昨天（计划今天？）&lt;/li&gt;
-&lt;li&gt;周日临睡2300，总结本周，计划下周。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;格式&lt;ul&gt;
-&lt;li&gt;0903反馈：0）s 完美。2）a 完成。3）b 未完成，还行。4）&lt;/li&gt;
-&lt;li&gt;0904计划：0）xxx。1）yyy。2）zzz。3）ooo。4）—。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;反馈&lt;ul&gt;
-&lt;li&gt;分级 &amp;amp; 评价&lt;ul&gt;
-&lt;li&gt;主观判断类事务&lt;ul&gt;
-&lt;li&gt;a 完美、极致！&lt;ul&gt;
-&lt;li&gt;方法过程：创新！&lt;/li&gt;
-&lt;li&gt;成果：全面远超期望！&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;b 优秀、不错。&lt;ul&gt;
-&lt;li&gt;方法过程：寻求突破。&lt;/li&gt;
-&lt;li&gt;成果：部分超出期望，优秀。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;c 完成。&lt;ul&gt;
-&lt;li&gt;方法过程：困于舒适区。&lt;/li&gt;
-&lt;li&gt;成果：限于完成，差强人意。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;d 未完成。&lt;ul&gt;
-&lt;li&gt;说明：差点？那就是未完成！这是工作！&lt;/li&gt;
-&lt;li&gt;方法过程：态度、能力尚待改进…&lt;/li&gt;
-&lt;li&gt;成果：部分目标未完成！&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;e 没做、糟糕！&lt;ul&gt;
-&lt;li&gt;过程：糟糕…&lt;/li&gt;
-&lt;li&gt;成果：没做，大部分工作目标未完成！&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;忍耐寂寞，独处精进&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;微博、朋友圈：每天只能午饭、晚临睡的时候，刷。&lt;/li&gt;
+&lt;li&gt;不看其它社交网络（Facebook 等）。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;绝对标准类（是/否）&lt;ul&gt;
-&lt;li&gt;a 习惯！形成习惯！&lt;/li&gt;
-&lt;li&gt;b 连击。连续多次完成。&lt;/li&gt;
-&lt;li&gt;c 完成。&lt;/li&gt;
-&lt;li&gt;d 没做到。&lt;ul&gt;
-&lt;li&gt;{努力|至少}尝试过，但都一样…&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;听音乐、播客&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  保护听力。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;音量不要太大：播客听清就可以了。&lt;/li&gt;
+&lt;li&gt;音乐也别听太久：耳塞插久了，特别入耳式，可能导致耳部炎症。&lt;/li&gt;
+&lt;li&gt;不打扰其他人的情况下，尽可能使用外放设备（例如蓝牙音箱）。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;e 没做！&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;保健&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  预防疾病。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;感冒：平时多喝温水，合理穿衣，不洗冷水澡！&lt;/li&gt;
+&lt;li&gt;没胃口：少垃圾食品饮料。&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;睡觉&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  避免打扰，提高睡眠质量。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;至少睡满 7 小时：恢复精力&lt;/li&gt;
+&lt;li&gt;早睡早起：保持生物钟稳定、内分泌平衡&lt;/li&gt;
+&lt;li&gt;佩戴耳塞：保持安静&lt;/li&gt;
+&lt;li&gt;佩戴眼罩：保持黑暗&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;微信&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  限于实用，不要消遣。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;只删掉再也不用的对话，其它都别动！&lt;/p&gt;
+&lt;p&gt;  删掉的对话迟早又会回来，追求视线清净没有意义。&lt;/p&gt;
+&lt;p&gt;  怕杂乱找不到想要的对话，删掉也还是要到联系人一栏去重新开启对话。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;每天最多只刷两次朋友圈，看完就关闭朋友圈，下次看再去开启。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;新浪绩效评价标准&lt;ul&gt;
-&lt;li&gt;A：工作成果远超期望，绩效明显优于其他人，工作态度积极主动，工作方法有所创新，并对提升部门/团队目标有显著贡献，是岗位标杆。&lt;/li&gt;
-&lt;li&gt;B：工作成果优秀，多个工作目标超出期望，工作态度积极主动，工作中不断寻求突破和改进。&lt;/li&gt;
-&lt;li&gt;C：工作成果满足期望，各绩效目标均能够达成，具备与工作职责匹配的知识、能力、效率和主动性。&lt;/li&gt;
-&lt;li&gt;D：工作成果部分满足期望，尚有部分工作目标未完成，工作态度、工作能力或两方面尚存在待改进之处。&lt;/li&gt;
-&lt;li&gt;E：工作成果远低于期望，大部分工作目标未达成。&lt;/li&gt;
-&lt;li&gt;说明：上文评价参照此标准制定。&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;微博&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  偶尔消遣，不要过度。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;每天最多只刷两次，看完就切换帐号，下次看再切换回去。&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;电脑&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  高频使用工具，效率最大化！&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;98% 以上的时间都在使用自己的工具，所以尽情贴合自身习惯，改造它。&lt;/p&gt;
+&lt;p&gt;  当不适应其它人正常的电脑配置时候，坦然面对，反正已经用自己的工具省了很多时间。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;双重备份：移动硬盘 + iCloud（待购），有备无患。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;工位&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  强调：效率 &amp;gt; 好看。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;便捷，方便工作。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;不用每天擦桌子，保持整洁就好，脏了再擦。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;注意财物安全：临走把电脑锁起来，因为丢不起！&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;住处&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  强调：效率 &amp;gt;&amp;gt; 好看。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;便捷，方便生活，压缩内务所需时间。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;不用每周打扫，保持整洁就好，脏了再打扫。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-</content>
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;别人的错误&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  理性。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;用别人的错误惩罚自己：糟蹋自己，报复别人，愚不可及！&lt;/p&gt;
+&lt;p&gt;  自学能力很重要，我以前太依赖老师和学校了。老师对你不好，就不好好学那一科，这是自我惩罚，太蠢了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- # 执行力推动计划
+
+- 启动于 2016/09/03
+- 地点
+    - 微博发布
+- 时间
+    - 每天临睡2325，计划明天。
+    - 每日起床0730，总结昨天（计划今天？）
+    - 周日临睡2300，总结本周，计划下周。
+- 格式
+    - 0903反馈：0）s 完美。2）a 完成。3）b 未完成，还行。4）
+    - 0904计划：0）xxx。1）yyy。2）zzz。3）ooo。4）---。
+- 反馈
+    - 分级 &amp; 评价
+        - 主观判断类事务
+            - a 完美、极致！
+                - 方法过程：创新！
+                - 成果：全面远超期望！
+            - b 优秀、不错。
+                - 方法过程：寻求突破。
+                - 成果：部分超出期望，优秀。
+            - c 完成。
+                - 方法过程：困于舒适区。
+                - 成果：限于完成，差强人意。
+            - d 未完成。
+                - 说明：差点？那就是未完成！这是工作！
+                - 方法过程：态度、能力尚待改进…
+                - 成果：部分目标未完成！
+            - e 没做、糟糕！
+                - 过程：糟糕…
+                - 成果：没做，大部分工作目标未完成！
+        - 绝对标准类（是/否）
+            - a 习惯！形成习惯！
+            - b 连击。连续多次完成。
+            - c 完成。
+            - d 没做到。
+                - {努力|至少}尝试过，但都一样…
+            - e 没做！
+    - 新浪绩效评价标准
+        - A：工作成果远超期望，绩效明显优于其他人，工作态度积极主动，工作方法有所创新，并对提升部门/团队目标有显著贡献，是岗位标杆。
+        - B：工作成果优秀，多个工作目标超出期望，工作态度积极主动，工作中不断寻求突破和改进。
+        - C：工作成果满足期望，各绩效目标均能够达成，具备与工作职责匹配的知识、能力、效率和主动性。
+        - D：工作成果部分满足期望，尚有部分工作目标未完成，工作态度、工作能力或两方面尚存在待改进之处。
+        - E：工作成果远低于期望，大部分工作目标未达成。
+        - 说明：上文评价参照此标准制定。 --&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!-- - 当前最重要
+    - 早上：迅速完成内务。
+    - 中午&amp;amp;傍晚：按时吃饭，饭后洗漱。
+    - 上午：首先做最重要的事，进入做正事状态。
+    - 下午：高效工作。 - 晚上：高校学习。
+    - 凌晨：保证睡眠。
+- 做事优先级
+    - 见前文。 --&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</content>
     
     <summary type="html">
     
-      Self-Help List 自助清单
+      Life Experience &amp; Self-Help Manual.
     
     </summary>
     
@@ -1016,7 +1374,7 @@ img.fix_height {
     <link href="http://icehe.me/read/"/>
     <id>http://icehe.me/read/</id>
     <published>2016-06-16T16:00:00.000Z</published>
-    <updated>2016-09-20T16:00:00.000Z</updated>
+    <updated>2016-09-26T16:00:00.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Original Version&lt;/strong&gt;&lt;/p&gt;
@@ -1129,6 +1487,8 @@ img.fix_height {
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/20455039&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;送礼的秘诀是什么？&lt;/a&gt;- 「送者心安，受者心欢。」&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/28311266&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;中国的劝酒文化背后的逻辑是什么？&lt;/a&gt;- 服从性 &amp;amp; 诚意测试&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/22558083&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;父母真的只是为了孩子吗？&lt;/a&gt;- 为了“自己” &lt;sup&gt;&lt;em&gt;temp&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;Think-思维&quot;&gt;&lt;a href=&quot;#Think-思维&quot; class=&quot;headerlink&quot; title=&quot;Think 思维&quot;&gt;&lt;/a&gt;Think 思维&lt;/h2&gt;&lt;ul&gt;
@@ -1550,7 +1910,7 @@ img.fix_height {
     <link href="http://icehe.me/tech/"/>
     <id>http://icehe.me/tech/</id>
     <published>2016-06-13T16:00:00.000Z</published>
-    <updated>2016-08-05T16:00:00.000Z</updated>
+    <updated>2016-09-26T16:00:00.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Original Version&lt;/strong&gt;&lt;/p&gt;
@@ -1580,8 +1940,6 @@ img.fix_height {
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://tool.oschina.net/hexconvert&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Value Converter&lt;/a&gt; - 数值的进制转换（支持浮点数）&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://tool.oschina.net/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;OSChina Online Tools&lt;/a&gt; - 常用 Web 开发辅助工具、相关知识的简易手册&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://libs.useso.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;360 的 CDN 服务&lt;/a&gt; - CDN 公共库：Google、前端、字体…&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.ip.cn/dns.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Public DNS&lt;/a&gt; - 公共 DNS 服务器 IP 列表&lt;/p&gt;
 &lt;/li&gt;
@@ -1645,7 +2003,7 @@ img.fix_height {
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.sorting-algorithms.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Sorting Algorithm Animations&lt;/a&gt; &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://visualgo.net/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Visu Algo&lt;/a&gt; - Visualising data structures and algorithms through animation. &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://visualgo.net/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Visual Algo&lt;/a&gt; - Visualising data structures and algorithms through animation. &lt;sup&gt;&lt;em&gt;todo&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://leetcode.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;LeetCode&lt;/a&gt; / &lt;a href=&quot;https://uva.onlinejudge.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;UVa&lt;/a&gt; / &lt;a href=&quot;http://poj.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;PKU&lt;/a&gt; / &lt;a href=&quot;http://acm.hdu.edu.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;HDU&lt;/a&gt; - Online Judge&lt;/p&gt;
 &lt;/li&gt;
@@ -1742,6 +2100,8 @@ img.fix_height {
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://jsonapi.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;{json:api}&lt;/a&gt; - B/S 间的 JSON 格式数据的传输规范&lt;/p&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/43165251/answer/95373570&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;为什么全栈JavaScript经常被黑，而Java却不会被黑？&lt;/a&gt;- “全栈”之路 &lt;sup&gt;&lt;em&gt;temp&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--- [design+code (前端教程)](https://designcode.io/) &lt;sup&gt;_todo_&lt;/sup&gt;--&gt;
 &lt;!--- [Linux TCP 队列相关参数的总结](http://blog.sina.com.cn/s/blog_e59371cc0102vg4n.html)很可能永远用不上--&gt;
@@ -1766,9 +2126,13 @@ img.fix_height {
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/p/20578447&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;谈谈系统设计的面试&lt;/a&gt; - 服务端的扩容、缓存与架构升级（评论更精彩）&lt;/p&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://chuansong.me/account/coderstory&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;西乔的漫画《神秘的程序员们》&lt;/a&gt;- 此处推荐《&lt;a href=&quot;http://chuansong.me/n/802248948967&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;架构师成长之路&lt;/a&gt;》系列：深入浅出！&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://en.m.wikipedia.org/wiki/Service-oriented_architecture&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Service-oriented architecture&lt;/a&gt; &lt;sup&gt;&lt;em&gt;temp&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/19907497&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;支付宝后台架构是怎样的？&lt;/a&gt; &lt;sup&gt;&lt;em&gt;temp&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/20657269/answer/32678620&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;常见的网站服务器架构有哪些？&lt;/a&gt;- 演进 &lt;sup&gt;&lt;em&gt;temp&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;Linux&quot;&gt;&lt;a href=&quot;#Linux&quot; class=&quot;headerlink&quot; title=&quot;Linux&quot;&gt;&lt;/a&gt;Linux&lt;/h2&gt;&lt;ul&gt;
@@ -1795,6 +2159,10 @@ img.fix_height {
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://blog.csdn.net/haoel/article/details/1688006&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Unix 现状与未来&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://linux.cn/article-7737-1.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;一份 Docker 的反方辩论 —— 我还是用 Heroku 好了&lt;/a&gt; &lt;sup&gt;&lt;em&gt;temp&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://linux.cn/article-7777-1.html?utm_source=weibo&amp;amp;utm_medium=weibo&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker 正方登场 —— 未来正在远方……&lt;/a&gt; &lt;sup&gt;&lt;em&gt;temp&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;Secure&quot;&gt;&lt;a href=&quot;#Secure&quot; class=&quot;headerlink&quot; title=&quot;Secure&quot;&gt;&lt;/a&gt;Secure&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ruanyf/articles/blob/master/2014/2014-05-11-oauth-2-0.md&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;理解 OAuth 2.0&lt;/a&gt;&lt;/p&gt;
@@ -1820,6 +2188,8 @@ img.fix_height {
 &lt;/ul&gt;
 &lt;!--- [FIND密码网](http://www.findmima.com/) - 社工库--&gt;
 &lt;h2 id=&quot;Career&quot;&gt;&lt;a href=&quot;#Career&quot; class=&quot;headerlink&quot; title=&quot;Career&quot;&gt;&lt;/a&gt;Career&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/27809894/answer/98696858&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;计算机行业还能火几年？&lt;/a&gt;- 前景！？&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.apesk.com/mbti/dati.asp?&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;免费的 MBTI 测试&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ruanyf/articles/blob/master/blogbook/bookone/2011-12-06-zawinski.md&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;痛苦造就性格&lt;/a&gt; - 你选择什么？&lt;/p&gt;
@@ -1841,6 +2211,8 @@ img.fix_height {
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://zh.lucida.me/blog/lean-technical-resume/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;精益技术简历之道——改善技术简历的47条原则&lt;/a&gt; - Google 工程师，&lt;a href=&quot;http://lucida.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Lucida&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/22322885&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何优雅地参加技术分享会？&lt;/a&gt;- 听技术分享的意义 &lt;sup&gt;&lt;em&gt;temp&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;IT-Industry&quot;&gt;&lt;a href=&quot;#IT-Industry&quot; class=&quot;headerlink&quot; title=&quot;IT Industry&quot;&gt;&lt;/a&gt;IT Industry&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://chuansong.me/n/2848588&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;碎片化信息的价值：懒惰与慰藉&lt;/a&gt; &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -1858,6 +2230,8 @@ img.fix_height {
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://coolshell.cn/articles/5901.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;腾讯，竞争力和用户体验&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/48745473&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何看待滴滴收购 Uber 中国？&lt;/a&gt; &lt;sup&gt;&lt;em&gt;temp&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/50115346&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何评价滴滴收购 Uber 之后费用大幅上涨？&lt;/a&gt; &lt;sup&gt;&lt;em&gt;temp&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/29847912/answer/101025439?utm_campaign=weekly225&amp;amp;utm_source=weekly-digest&amp;amp;utm_medium=email&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Facebook 广告系统比谷歌先进在哪里？&lt;/a&gt; &lt;sup&gt;&lt;em&gt;temp&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -1878,6 +2252,8 @@ img.fix_height {
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://programmers.stackexchange.com/questions/45776/why-do-business-analysts-and-project-managers-get-higher-salaries-than-programmer&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Why do business analysts and project managers get higher salaries than programmers?&lt;/a&gt; &lt;sup&gt;&lt;strong&gt;Best&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;  译文：&lt;a href=&quot;http://coolshell.cn/articles/4951.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;软件公司的两种管理方式&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;  相关：&lt;a href=&quot;https://en.wikipedia.org/wiki/Theory_X_and_Theory_Y&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Theory X and Theory Y&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/50600301&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何看待阿里巴巴安全部门的月饼事件？&lt;/a&gt; &lt;sup&gt;&lt;em&gt;temp&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--- [成功技术领导者10条经验锤炼](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=208891164&amp;idx=1&amp;sn=893d43e516f576917dcb99cfa421a226&amp;scene=5&amp;srcid=3vfJDE1cRf8X4ecZlk7h#rd) 初次看不明觉厉，再看没有感触，待观察。--&gt;
@@ -3492,7 +3868,7 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
     <link href="http://icehe.me/bookmarks/"/>
     <id>http://icehe.me/bookmarks/</id>
     <published>2015-12-19T16:00:00.000Z</published>
-    <updated>2016-09-24T16:00:00.000Z</updated>
+    <updated>2016-09-26T16:00:00.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;这里是 &lt;strong&gt;本博客的导航页。&lt;/strong&gt;&lt;/li&gt;
@@ -3504,14 +3880,14 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 &lt;h3 id=&quot;Read&quot;&gt;&lt;a href=&quot;#Read&quot; class=&quot;headerlink&quot; title=&quot;Read&quot;&gt;&lt;/a&gt;&lt;a href=&quot;/categories/read&quot;&gt;Read&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;Blog Map 博客地图 &lt;sup&gt;this page&lt;/sup&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt; &lt;a href=&quot;/tech&quot;&gt;Technology Bookmarks 技术书签&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;/read&quot;&gt;Reading Bookmarks 阅读书签&lt;/a&gt;&lt;/strong&gt; &lt;sup&gt;&lt;em&gt;Updated&lt;/em&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/tech&quot;&gt;&lt;strong&gt;Technology Bookmarks 技术书签&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/read&quot;&gt;&lt;strong&gt;Reading Bookmarks 阅读书签&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/favourites&quot;&gt;Favorites 喜好&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;Mac-Efficiency&quot;&gt;&lt;a href=&quot;#Mac-Efficiency&quot; class=&quot;headerlink&quot; title=&quot;Mac | Efficiency&quot;&gt;&lt;/a&gt;&lt;a href=&quot;/categories/Mac&quot;&gt;Mac&lt;/a&gt; | Efficiency&lt;/h3&gt;&lt;hr&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;/tools&quot;&gt;Tools 利器&lt;/a&gt; - App、硬件推荐&lt;/strong&gt; &lt;sup&gt;&lt;em&gt;Updated&lt;/em&gt;&lt;/sup&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;/mac_shortcuts&quot;&gt;Mac Shortcuts 快捷键&lt;/a&gt;&lt;/strong&gt; &lt;sup&gt;&lt;em&gt;Updated&lt;/em&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/tools&quot;&gt;&lt;strong&gt;Tools 利器&lt;/strong&gt;&lt;/a&gt; - App、硬件推荐&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/mac_shortcuts&quot;&gt;&lt;strong&gt;Mac Shortcuts 快捷键&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;Think&quot;&gt;&lt;a href=&quot;#Think&quot; class=&quot;headerlink&quot; title=&quot;Think&quot;&gt;&lt;/a&gt;&lt;a href=&quot;/categories/think&quot;&gt;Think&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
 &lt;ul&gt;
@@ -3522,7 +3898,7 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 &lt;/ul&gt;
 &lt;h3 id=&quot;Web&quot;&gt;&lt;a href=&quot;#Web&quot; class=&quot;headerlink&quot; title=&quot;Web&quot;&gt;&lt;/a&gt;&lt;a href=&quot;/categories/Web&quot;&gt;Web&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;/web/build_blog/&quot;&gt;Bulid Blog 搭建个人博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/web/build_blog/&quot;&gt;Build Blog 搭建个人博客&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/web/donate&quot;&gt;实现网站的支付宝打赏功能&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/search&quot;&gt;Google CSE 站内搜索&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/404&quot;&gt;404 Page&lt;/a&gt;&lt;/li&gt;
