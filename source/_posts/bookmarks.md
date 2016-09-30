@@ -31,7 +31,7 @@ description: 本博客的导航页。
 ### [Think](/categories/think)
 ---
 
-- [Life Exp 生活指北](/think/life_manual) <sup>__New__</sup>
+- [__Life Exp 生活指北__](/think/life_manual) <sup>__New__</sup>
 - [2016 Fall](/think/2016_fall) <sup>__New__</sup>
 - [2016 Summer](/think/2016_summer)
 - [Bye 2015](/think/bye2015)
