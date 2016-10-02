@@ -386,7 +386,7 @@ __`⌘ ⇧ T` Go to Date__
 
     `凵 ^` = `↩` Return
 
-    <!--<code>凵 \`</code> -->
+    <code>凵 \`</code> Moom -> Arrange Windows
     `凵 1` [Dash](#Dash)
     `凵 2` System Preferences
     `凵 3` [Mail](#Mail)
