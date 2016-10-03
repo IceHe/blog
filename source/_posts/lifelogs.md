@@ -1,6 +1,6 @@
 title: Life Logs 手帐
 date: 2015-01-22
-updated: 2016-09-01
+updated: 2016-10-03
 show_updated: true
 categories: [time mgt]
 tags: [time mgt]
@@ -63,3 +63,5 @@ description: 个人时间管理日志。
     <sup>Jul: dizzy, Okinawa.</sup>
 8. [八月：晚睡，迁到新浪新总部。](/lifelogs/2016/08/index.html) 学 50 动 10 废 5
     <sup>Aug: sleep late, move to the new Sina headquarter.</sup>
+9. [九月：计划，反馈，月光，纠结，讲究方法。](/lifelogs/2016/09/index.html) 学 51 动 11 废 6
+    <sup>Sep: plan & feedback, use up, hesitating, methodology</sup>
