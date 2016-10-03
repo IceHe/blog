@@ -1,6 +1,6 @@
 title: Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2016-09-23
+updated: 2016-10-02
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -1463,7 +1463,7 @@ It is a Firefox Extension.
 - Input
 
     `c` Input in Address Bar
-    `gi` Input in First Input Box
+    `i` Input in First Input Box
 
 - Link
 
@@ -1472,6 +1472,7 @@ It is a Firefox Extension.
 
     __`gf` Open Link in New Tab & Switch to it__
     __`gF` Open Link in New Window__
+    __`gm` Right Click Link (Open context menu)__
 
     __`^ f` Open Links in New Tabs__
 
@@ -1523,6 +1524,8 @@ It is a Firefox Extension.
     `^ x` List of Last Closed Tabs of Tabs
     `^ i` Pin / Unpin
 
+
+
 - Scroll
 
     - Vertical
@@ -1558,6 +1561,7 @@ It is a Firefox Extension.
     `b` Forward
 
     __`^ l` Last Visited__
+    __`gl` the longest unvisited
 
     __`gu` Upper-level Page__
     __`gU` Top-level Page__
@@ -1590,7 +1594,7 @@ It is a Firefox Extension.
 
 - Visual
 
-    `i` Enter Visual Mode & Put Cursor at Head of Element
+    `gi` Enter Visual Mode & Put Cursor at Head of Element
 
     `^ s` Enter Visual Mode & Select Element Text
     `^ c` Copy Element Text
@@ -1622,9 +1626,11 @@ It is a Firefox Extension.
     `Q` Click Elements of Browser
 
     `I` Enter Ignore Mode ( Ignore All VimFX Shortcuts )
-    `^ i` Exit Ignore Mode
+    `^ n` Exit Ignore Mode (Back to Normal Mode)
 
     `gr` Enter Reading Mode
+
+    `gB` Edit VimFX Blacklist
 
     `?` Help Tips
     `⎋` | `^ [` Cancel
