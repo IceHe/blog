@@ -3018,7 +3018,7 @@ img.fix_height {
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
-    <updated>2016-09-22T16:00:00.000Z</updated>
+    <updated>2016-10-01T16:00:00.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;Here are the Mac shortcuts:&lt;ul&gt;
@@ -3212,8 +3212,7 @@ img.fix_height {
 &lt;p&gt;  &lt;code&gt;Functional Keys&lt;/code&gt; = &lt;code&gt;F1&lt;/code&gt; ~ &lt;code&gt;F12&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;凵 ⇥&lt;/code&gt; &lt;strong&gt;Prefix Key&lt;/strong&gt;&lt;br&gt;  e.g. If press it and then press another App shortcut, the App will launch.&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;凵 ^&lt;/code&gt; = &lt;code&gt;↩&lt;/code&gt; Return&lt;/p&gt;
-  &lt;!--&lt;code&gt;凵 \`&lt;/code&gt; --&gt;
-&lt;p&gt;  &lt;code&gt;凵 1&lt;/code&gt; &lt;a href=&quot;#Dash&quot;&gt;Dash&lt;/a&gt;&lt;br&gt;  &lt;code&gt;凵 2&lt;/code&gt; System Preferences&lt;br&gt;  &lt;code&gt;凵 3&lt;/code&gt; &lt;a href=&quot;#Mail&quot;&gt;Mail&lt;/a&gt;&lt;br&gt;  &lt;code&gt;凵 4&lt;/code&gt; &lt;a href=&quot;#Finder&quot;&gt;Finder&lt;/a&gt;&lt;br&gt;  &lt;code&gt;凵 5&lt;/code&gt; Preview&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;凵 `&lt;/code&gt; Moom -&amp;gt; Arrange Windows&lt;br&gt;  &lt;code&gt;凵 1&lt;/code&gt; &lt;a href=&quot;#Dash&quot;&gt;Dash&lt;/a&gt;&lt;br&gt;  &lt;code&gt;凵 2&lt;/code&gt; System Preferences&lt;br&gt;  &lt;code&gt;凵 3&lt;/code&gt; &lt;a href=&quot;#Mail&quot;&gt;Mail&lt;/a&gt;&lt;br&gt;  &lt;code&gt;凵 4&lt;/code&gt; &lt;a href=&quot;#Finder&quot;&gt;Finder&lt;/a&gt;&lt;br&gt;  &lt;code&gt;凵 5&lt;/code&gt; Preview&lt;/p&gt;
   &lt;!--`凵 6` = ``--&gt;
 &lt;p&gt;  &lt;code&gt;凵 7&lt;/code&gt; Sequel Pro ( MySQL )&lt;br&gt;  &lt;code&gt;凵 8&lt;/code&gt; &lt;a href=&quot;#Karabiner&quot;&gt;Karabiner&lt;/a&gt;&lt;br&gt;  &lt;code&gt;凵 9&lt;/code&gt; &lt;a href=&quot;#Seil&quot;&gt;Seil&lt;/a&gt;&lt;/p&gt;
   &lt;!--`凵 0` = ``--&gt;
@@ -3778,11 +3777,11 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 &lt;h3 id=&quot;VimFX&quot;&gt;&lt;a href=&quot;#VimFX&quot; class=&quot;headerlink&quot; title=&quot;VimFX&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/vimfx/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;VimFX&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;It is a Firefox Extension.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Input&lt;/p&gt;
-&lt;p&gt;  &lt;code&gt;c&lt;/code&gt; Input in Address Bar&lt;br&gt;  &lt;code&gt;gi&lt;/code&gt; Input in First Input Box&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;c&lt;/code&gt; Input in Address Bar&lt;br&gt;  &lt;code&gt;i&lt;/code&gt; Input in First Input Box&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Link&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;f&lt;/code&gt; Open Link in Current Tab&lt;br&gt;  &lt;code&gt;F&lt;/code&gt; Open Link in New Tab&lt;/p&gt;
-&lt;p&gt;  &lt;strong&gt;&lt;code&gt;gf&lt;/code&gt; Open Link in New Tab &amp;amp; Switch to it&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;gF&lt;/code&gt; Open Link in New Window&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  &lt;strong&gt;&lt;code&gt;gf&lt;/code&gt; Open Link in New Tab &amp;amp; Switch to it&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;gF&lt;/code&gt; Open Link in New Window&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;gm&lt;/code&gt; Right Click Link (Open context menu)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;  &lt;strong&gt;&lt;code&gt;^ f&lt;/code&gt; Open Links in New Tabs&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;  &lt;strong&gt;&lt;code&gt;yf&lt;/code&gt; Copy a link URL&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;C&lt;/code&gt; Copy URL of Current Tab to Clipboard&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -3816,6 +3815,8 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Scroll&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Vertical&lt;/p&gt;
@@ -3835,7 +3836,7 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Navigate&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;z&lt;/code&gt; Backward&lt;br&gt;  &lt;code&gt;b&lt;/code&gt; Forward&lt;/p&gt;
-&lt;p&gt;  &lt;strong&gt;&lt;code&gt;^ l&lt;/code&gt; Last Visited&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  &lt;strong&gt;&lt;code&gt;^ l&lt;/code&gt; Last Visited&lt;/strong&gt;&lt;br&gt;  __&lt;code&gt;gl&lt;/code&gt; the longest unvisited&lt;/p&gt;
 &lt;p&gt;  &lt;strong&gt;&lt;code&gt;gu&lt;/code&gt; Upper-level Page&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;code&gt;gU&lt;/code&gt; Top-level Page&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;gh&lt;/code&gt; Home&lt;br&gt;  &lt;strong&gt;&lt;code&gt;gH&lt;/code&gt; Cur Tab Visit History Menu&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;[&lt;/code&gt; Prev Page&lt;br&gt;  &lt;code&gt;]&lt;/code&gt; Next Page&lt;/p&gt;
@@ -3850,7 +3851,7 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 &lt;p&gt;  &lt;code&gt;n&lt;/code&gt; Next Match&lt;br&gt;  &lt;code&gt;N&lt;/code&gt; Prev Match&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Visual&lt;/p&gt;
-&lt;p&gt;  &lt;code&gt;i&lt;/code&gt; Enter Visual Mode &amp;amp; Put Cursor at Head of Element&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;gi&lt;/code&gt; Enter Visual Mode &amp;amp; Put Cursor at Head of Element&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;^ s&lt;/code&gt; Enter Visual Mode &amp;amp; Select Element Text&lt;br&gt;  &lt;code&gt;^ c&lt;/code&gt; Copy Element Text&lt;br&gt;  &lt;strong&gt;&lt;code&gt;^ v&lt;/code&gt; Select Focus Point&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Visual Mode&lt;/p&gt;
@@ -3865,8 +3866,9 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Others&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;Q&lt;/code&gt; Click Elements of Browser&lt;/p&gt;
-&lt;p&gt;  &lt;code&gt;I&lt;/code&gt; Enter Ignore Mode ( Ignore All VimFX Shortcuts )&lt;br&gt;  &lt;code&gt;^ i&lt;/code&gt; Exit Ignore Mode&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;I&lt;/code&gt; Enter Ignore Mode ( Ignore All VimFX Shortcuts )&lt;br&gt;  &lt;code&gt;^ n&lt;/code&gt; Exit Ignore Mode (Back to Normal Mode)&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;gr&lt;/code&gt; Enter Reading Mode&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;gB&lt;/code&gt; Edit VimFX Blacklist&lt;/p&gt;
 &lt;p&gt;  &lt;code&gt;?&lt;/code&gt; Help Tips&lt;br&gt;  &lt;code&gt;⎋&lt;/code&gt; | &lt;code&gt;^ [&lt;/code&gt; Cancel&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
