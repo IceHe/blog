@@ -1,6 +1,6 @@
 title: Blog Map 博客地图
 date: 2015-12-20
-updated: 2016-09-28
+updated: 2016-10-05
 show_updated: true
 categories: [read]
 tags: [read]
@@ -9,7 +9,25 @@ description: 本博客的导航页。
 
 - 这里是 __本博客的导航页。__
 
-## __目录__
+## __Welcome__
+
+- __This blog is my open notebook.__
+
+    建立这个博客，首先是为了「记录、总结知识和见解」，其次才是「分享知识、展示自我」。
+
+    但是单纯囤积知识和见解意义不大，只想聚焦核心的观念和方法论，不断磨淬。
+
+    所以我总是在完善旧文章，却不常发布新文章 ——「贵精不贵多」。
+
+    <!-- 比起悦人，这里更是悦己的场所。 -->
+
+- __Record & Share__
+
+    用 Evernote 可以做到「记录」，但是难以「分享」；用 GitHub 可以同时做到两者，但是达不到理想的展示效果，所以做了这个博客。
+
+    平日里想要阐发的见闻、见解主要发到 [微博](http://weibo.com/icedes) 和朋友圈，凑够一篇长文才会发到这里。
+
+## __Index__
 
 - [Archives 归档 ( Sort by Time )](/archives)
 - Sort by Category as follows.
@@ -22,7 +40,7 @@ description: 本博客的导航页。
 - [__Reading Bookmarks 阅读书签__](/read)
 - [Favorites 喜好](/favourites)
 
-### [Mac](/categories/Mac) | Efficiency
+### [Mac](/categories/Mac)
 ---
 
 - [__Tools 利器__](/tools) - App、硬件推荐
