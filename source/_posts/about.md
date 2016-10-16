@@ -5,7 +5,7 @@ show_updated: true
 categories: [whoami]
 tags: [whoami]
 description: Intro / Technology / Experience / Education / Leadership / etc.
-toc: true
+toc: false
 ---
 
 # __Me__
