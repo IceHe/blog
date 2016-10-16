@@ -134,8 +134,7 @@ description: 本博客的导航页。
 ### [Whoami](/categories/whoami)
 ---
 
-- [Me 我](/about/)
-- [CV 简历](/resume)
+- [CV 简历](/about/)
 - [My Moments](/moments/)
 - [Reward Me 打赏博主](/reward)
 
