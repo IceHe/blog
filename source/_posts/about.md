@@ -22,7 +22,7 @@ toc: false
 - __Tech__
 
     <i class="fa fa-github-alt">&nbsp;</i> [GitHub](http://github.com/IceHe) 代码
-    &nbsp; &nbsp; <sup>Auto Scripts, Tool Confs, Blog Src</sup>
+    &nbsp; &nbsp; <sup>Auto Scripts, Tools' Configs, Blog Src</sup>
     <i class="fa fa-gears">&nbsp;</i> [Tools](/tools/) 工具控
     &nbsp; &nbsp; <sup>Softwares & Hardwares</sup>
     <i class="fa fa-keyboard-o">&nbsp;</i> [Shortcuts](/mac_shortcuts/) 键盘党
