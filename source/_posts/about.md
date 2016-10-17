@@ -16,47 +16,49 @@ toc: false
     &nbsp; &nbsp; <sup><i class="fa fa-paper-plane">&nbsp;</i> A Cantonese in Beijing</sup>
     <i class="fa fa-weibo">&nbsp;</i> [Weibo](http://weibo.com/2181657940/) Mobile API
     &nbsp; &nbsp; <sup><i class="fa fa-puzzle-piece">&nbsp;</i> Server-side Development Engineer</sup>
-    <i class="fa fa-envelope-o">&nbsp;</i> <x@icehe.me><br/><br/>
+    <i class="fa fa-envelope">&nbsp;</i> <x@icehe.me>
+    &nbsp; &nbsp; <sup><i class="fa fa-eye-slash">&nbsp;</i> bDhzbDQ3czY2NjM=</sup>
 
 - __Tech__
 
+    <i class="fa fa-github-alt">&nbsp;</i> [GitHub](http://github.com/IceHe) 代码
+    &nbsp; &nbsp; <sup>Auto Scripts, Tool Confs, Blog Src</sup>
     <i class="fa fa-gears">&nbsp;</i> [Tools](/tools/) 工具控
-    &nbsp; &nbsp;<sup>Softwares & Hardwares</sup>
+    &nbsp; &nbsp; <sup>Softwares & Hardwares</sup>
     <i class="fa fa-keyboard-o">&nbsp;</i> [Shortcuts](/mac_shortcuts/) 键盘党
-    &nbsp; &nbsp;<sup>Default & Custom</sup>
+    &nbsp; &nbsp; <sup>Default & Custom</sup>
     <i class="fa fa-cube">&nbsp;</i> [Technology](/tech) Bookmarks
-    &nbsp; &nbsp;<sup>Online-Tools, Docs, Blogs, Articles</sup>
-    <i class="fa fa-github-alt">&nbsp;</i> [GitHub](http://github.com/IceHe)<br/><br/>
+    &nbsp; &nbsp; <sup>Online-Tools, Docs, Blogs, Articles</sup>
 
 - __Life__
 
     <i class="fa fa-calendar">&nbsp;</i> [Logs](/lifelogs) 自我量化
-    &nbsp; &nbsp;<sup>Time Usage Rec. & Statistics</sup>
+    &nbsp; &nbsp; <sup>Time Usage Rec. & Statistics</sup>
     <i class="fa fa-heart">&nbsp;</i> [Favorites](/favourites) 喜好
-    &nbsp; &nbsp;<sup>Books, Movies, Games …</sup>
+    &nbsp; &nbsp; <sup>Books, Movies, Games …</sup>
     <i class="fa fa-book">&nbsp;</i> [Reading](/read) Bookmarks
-    &nbsp; &nbsp;<sup>Articles, Columns, Q&A, Notes</sup><br/><br/>
+    &nbsp; &nbsp; <sup>Articles, Columns, Q&A, Notes</sup>
 
 - __Past__
 
     <i class="fa fa-camera-retro">&nbsp;</i> [My Moments](/moments/)
-    &nbsp; &nbsp;<sup>Good old days</sup>
+    &nbsp; &nbsp; <sup>Good old days</sup>
     <i class="fa fa-pencil">&nbsp;</i> [Old Articles](http://290841032.qzone.qq.com/)
-    &nbsp; &nbsp;<sup>When I was teen</sup><br/><br/>
+    &nbsp; &nbsp; <sup>When I was teen</sup>
 
 - __Belief__
 
     <i class="fa fa-street-view">&nbsp;</i> [Jan Fan](http://janfan.github.io/) | [Shiwey Yan](http://shiweyyan.github.io/) | [SF Zhou](http://sf-zhou.github.io/)
-    &nbsp; &nbsp;<sup>Web Secure | Game Developer | ACMer</sup>
-    <i class="fa fa-comment-o">&nbsp;</i> Less is more. 宁静致远。
-    &nbsp; &nbsp; <sup><i class="fa fa-heart-o">&nbsp;</i> 羽毛球, 毽球, 执信, 广州, 美食, 动漫</sup>
-    <i class="fa fa-check">&nbsp;</i> Done is better than perfect.<br/><br/>
+    &nbsp; &nbsp; <sup>Web Secure | Game Developer | ACMer</sup>
+    <i class="fa fa-circle-o">&nbsp;</i> Less is more. &nbsp;宁静致远。
+    &nbsp; &nbsp; <sup><i class="fa fa-heart">&nbsp;</i> 羽毛球, 毽球, 执信, 广州, 美食, 动漫</sup>
+    <i class="fa fa-check">&nbsp;</i> Done is better than perfect.
 
 # Technology
 
 ## <i class="hidden">Refs</i>
-<i class="fa fa-home">&nbsp;</i> [__Blog:__ icehe.me](http://icehe.me)
-<i class="fa fa-github-alt">&nbsp;</i> [__GitHub:__ IceHe](http://github.com/IceHe)
+<i class="fa fa-home">&nbsp;</i>&nbsp; [__Blog:__ &nbsp;icehe.me](http://icehe.me)
+<i class="fa fa-github-alt">&nbsp;</i>&nbsp; [__GitHub:__ &nbsp;IceHe](http://github.com/IceHe)
 
 ## <i class="hidden">Skills</i>
 __Skills__ &nbsp; &nbsp; <i class="fa fa-trophy"></i> Proficient &nbsp; <i class="fa fa-star"></i> Familiar &nbsp; <i class="fa fa-star-half-o"></i> Competent &nbsp; <i class="fa fa-star-o"></i> Know
