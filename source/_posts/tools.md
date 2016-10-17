@@ -1,6 +1,6 @@
 title: Tools 利器
 date: 2015-11-21
-updated: 2016-10-05
+updated: 2016-10-18
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -799,13 +799,17 @@ description: 我的 Mac Apps、电子产品推荐。
 
         结合 Magic Keyboard 能够满足轻度使用，不用总是携带笔记本电脑回住处。
 
-    - [Kindle Paperwhite](https://www.amazon.cn/Kindle-Paperwhite%E7%94%B5%E5%AD%90%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A8-300-ppi%E7%94%B5%E5%AD%90%E5%A2%A8%E6%B0%B4%E8%A7%A6%E6%8E%A7%E5%B1%8F-%E5%86%85%E7%BD%AE%E9%98%85%E8%AF%BB%E7%81%AF-%E8%B6%85%E9%95%BF%E7%BB%AD%E8%88%AA/dp/B00QJDOLIO) E-reader - 电子阅读器 <sup>[_闲置待转售_](https://2.taobao.com/item.htm?id=538645531365)</sup>
+    - ~~[Kindle Paperwhite](https://www.amazon.cn/Kindle-Paperwhite%E7%94%B5%E5%AD%90%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A8-300-ppi%E7%94%B5%E5%AD%90%E5%A2%A8%E6%B0%B4%E8%A7%A6%E6%8E%A7%E5%B1%8F-%E5%86%85%E7%BD%AE%E9%98%85%E8%AF%BB%E7%81%AF-%E8%B6%85%E9%95%BF%E7%BB%AD%E8%88%AA/dp/B00QJDOLIO) E-reader - 电子阅读器~~ <sup>_Sold_</sup>
 
-        \+ [Amazon Onyx Black Leather Cover](https://www.amazon.cn/%E4%BA%9A%E9%A9%AC%E9%80%8AKindle-Paperwhite%E7%9C%9F%E7%9A%AE%E4%BF%9D%E6%8A%A4%E5%A5%97/dp/B008BQH1NO) ，需要长时间看书时，还得用 E-Ink 屏，保护视力。
+        ~~\+ [Amazon Onyx Black Leather Cover](https://www.amazon.cn/%E4%BA%9A%E9%A9%AC%E9%80%8AKindle-Paperwhite%E7%9C%9F%E7%9A%AE%E4%BF%9D%E6%8A%A4%E5%A5%97/dp/B008BQH1NO)~~ ，需要长时间看书时，还得用 E-Ink 屏，保护视力。
 
 ## Sound
 
 - Headphone
+
+    - [Bose QC30](https://www.bose.cn/zh_cn/products/headphones/earphones/quietcontrol-30.html#v=qc30_black) <sup>_to buy_</sup>
+
+        无线蓝牙连接，充电 2 h，续航 10 h。
 
     - [Bose QC20](http://www.bose.cn/product.aspx?cid=1418#1418) <sup>Favorite, Best</sup>
 
@@ -817,13 +821,17 @@ description: 我的 Mac Apps、电子产品推荐。
 
         人声不能完全隔绝，但其音量会变得很小；主动降噪时，再稍微播放音乐或白噪音，即可在很大程度上隔绝外部噪音。它帮助我在嘈杂的办公室也能在静谧、专注地做事。虽然它贵，但花得值！
 
-    - [AKG K323XS](http://detail.zol.com.cn/microphone/index362788.shtml) <sup>_备用_</sup>
+    - [SONY MDR-EX750BT](http://www.sonystyle.com.cn/products/headphone/mdr_ex750bt.htm) <sup>_wish_</sup>
 
-        低级入门的入耳式耳塞，好用不贵，坏了不心疼。塞头大小适中（偏小），适合长时间佩戴。在买 QC20 前，时常用它当静音耳塞用。后悔没买带线控版，毕竟通话、控制音量、音频播放会更方便！
+        颈戴入耳式耳塞，外观亮骚，无线蓝牙耳塞中的佼佼者！
 
-    - [ATH SQ505](http://www.amazon.com/Technica-ATH-SQ505-Foldable-Dynamic-Headphones/dp/B004Y3KWX4?ie=UTF8&*Version*=1&*entries*=0) <sup>[_闲置待转售_](https://2.taobao.com/credit/credit.htm?spm=2007.1000338.0.0.S43alW&userIdCode=UvFNGOFvyvGHSvQTT)</sup>
+    - ~~[AKG K323XS](http://detail.zol.com.cn/microphone/index362788.shtml)~~ <sup>_unused_</sup>
 
-        因为头戴式容易压得耳朵疼，隔音效果也不好；能盖住耳朵隔音效果好的大耳机，一般设备推不动，音效不佳。
+        ~~低级入门的入耳式耳塞，好用不贵，坏了不心疼。塞头大小适中（偏小），适合长时间佩戴。在买 QC20 前，时常用它当静音耳塞用。后悔没买带线控版，毕竟通话、控制音量、音频播放会更方便。~~
+
+    - ~~[ATH SQ505](http://www.amazon.com/Technica-ATH-SQ505-Foldable-Dynamic-Headphones/dp/B004Y3KWX4?ie=UTF8&*Version*=1&*entries*=0)~~ <sup>_Sold_</sup>
+
+        ~~因为头戴式容易压得耳朵疼，隔音效果也不好；能盖住耳朵隔音效果好的大耳机，一般设备推不动，音效不佳。~~
 
 <br/><hr/>
 
@@ -837,7 +845,7 @@ description: 我的 Mac Apps、电子产品推荐。
 
         而且戴耳机、耳塞，多少会压迫侧颊、耳朵、头部，耳道有异物感，始终不是最舒适的状态。长时间戴耳机、耳塞，又不注意清洁设备和耳朵，有可能导致中耳炎，请注意保护听力。
 
-        音效还不错（对比类似价位的同类产品）；防水，可以在浴室使用。还是一分钱一分货。
+        音效还不错（对比类似价位的同类产品）；续航持久；无线连接迅速；防水，可以在浴室使用。还是一分钱一分货啊。
 
 ## Health
 
@@ -925,7 +933,7 @@ description: 我的 Mac Apps、电子产品推荐。
 
 - Umbrella
 
-    - [BENJAMIN 本傑明傘](https://www.taobao.com/product/benjamin%E6%9C%AC%E5%82%91%E6%98%8E%E5%82%98.htm) <sup>_to buy_</sup>
+    - [BENJAMIN 本傑明傘](https://www.taobao.com/product/benjamin%E6%9C%AC%E5%82%91%E6%98%8E%E5%82%98.htm) <sup>_wish_</sup>
 
         大洋之舞 or 深海鱼群。
 
@@ -933,9 +941,9 @@ description: 我的 Mac Apps、电子产品推荐。
 
         轻便、好看，直接推拉杆上连接伞骨的圆环，不用按按钮，就可以开合。
 
-    - [Topumbrella 纯黑超轻迷你折叠伞](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.CoCGMf&id=533037933646&_u=puv5jet438a) <sup>[_闲置待转售_](https://2.taobao.com/item.htm?id=538897572100)</sup>
+    - ~~[Topumbrella 纯黑超轻迷你折叠伞](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.CoCGMf&id=533037933646&_u=puv5jet438a)~~ <sup>_unused_</sup>
 
-        非常轻便，有防止大风吹反伞面以致折断伞骨的设计。
+        ~~非常轻便，有防止大风吹反伞面以致折断伞骨的设计。~~但是伞面太小，不够实用，更适合用于遮阳。
 
 <br/><hr/>
 
@@ -947,6 +955,11 @@ description: 我的 Mac Apps、电子产品推荐。
 
         即使是小号的包，也还是偏大了，适合高大的人背。而且外形奇特，不容易搭配衣着，比较“挑人”。只是个尼龙材质的包，但价格不便宜，建议先试背，询问亲朋好友的意见后，再购买。
 
+    - [Rains Msn Bag](https://www.rains.dk/collections/backpacks/products/msn-bag?variant=16742951681) <sup>_wish_</sup>
+
+        坐飞机看到旁边妹子背的这款包很好看。也在考虑 [Backpack、Backpack Mini](https://www.rains.dk/collections/backpacks)。
+        <!-- （[淘宝](https://world.taobao.com/item/532027551703.htm?spm=a312a.7700714.0.0.FOAJqC#detail)） -->
+
     - [迪卡侬 骑行背包](https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-14623109746.39.6z07wX&id=37930654463&scene=taobao_shop&skuId=3157441268509)
 
         有了自行车之后，就在公司待到比较晚才回住处，因为懒得背电脑回去使用。带回去的东西少，小包更方便。
@@ -955,13 +968,8 @@ description: 我的 Mac Apps、电子产品推荐。
 
 <!--To Buy-->
 
-<!--- [背包 Everlane | The Modern Snap Backpack](https://www.everlane.com/collections/mens-backpacks-bags/products/mens-modern-snap-backpack-navy)-->
 <!--- [鞋拔 IKEA](http://www.ikea.com/cn/zh/catalog/products/50137128/)-->
 
-<!--- <http://item.jd.hk/1957485171.html#comments-list> <sup>To-Buy</sup>-->
-<!--- <http://search.jd.com/Search?keyword=%E7%B4%A2%E5%B0%BC%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA&enc=utf-8&wq=so%20ni%E8%93%9D%E7%89%99%E8%80%B3%E6%9C%BA&pvid=2i6kgtqi.ip6kfe>-->
-
-<!--- [Wireless Bluetooth Earbuds | JaybirdSport](http://www.jaybirdsport.com/x2-bluetooth-headphones/)-->
 <!--- [Jabra ROX 无线耳塞](http://www.jabra.cn/music/jabra-rox-wireless)-->
 
 <style type="text/css">
