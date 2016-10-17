@@ -133,20 +133,20 @@
         
             <section class="post" itemscope itemprop="blogPost">
     
-    <a href="/batch/DOS 环境变量 Environment Variable/" title="DOS Environment Variable 环境变量" itemprop="url">
+    <a href="/batch/DOS 特殊符号 Symbol/" title="DOS Symbol 特殊符号" itemprop="url">
     
         <time datetime="2015-01-29T16:00:00.000Z" itemprop="datePublished">2015-01-30</time>
-        <h1 itemprop="name">DOS Environment Variable 环境变量</h1>
+        <h1 itemprop="name">DOS Symbol 特殊符号</h1>
     </a>
 </section>
 
         
             <section class="post" itemscope itemprop="blogPost">
     
-    <a href="/batch/DOS 特殊符号 Symbol/" title="DOS Symbol 特殊符号" itemprop="url">
+    <a href="/batch/DOS 环境变量 Environment Variable/" title="DOS Environment Variable 环境变量" itemprop="url">
     
         <time datetime="2015-01-29T16:00:00.000Z" itemprop="datePublished">2015-01-30</time>
-        <h1 itemprop="name">DOS Symbol 特殊符号</h1>
+        <h1 itemprop="name">DOS Environment Variable 环境变量</h1>
     </a>
 </section>
 
@@ -384,7 +384,6 @@
             query.limit(30);
 
             var excluding_list = [
-//                '/about/',
                 '/resume/', /* Removed */
                 '/index/', /* Removed */
                 '/reward/',
@@ -420,7 +419,7 @@
 //        if (1 == recommend_list.length) {
 
         // if popularlist widget exists, append items to it.
-        if (1 == popular_list.length) {
+        if (false && /*Tmp Disabled for Test*/ 1 == popular_list.length) {
             var recommend_urls = [
                 '/c++/C++ Interview Book/',
 //                '/applescript/evernote_osx/',

@@ -120,7 +120,7 @@
             </span>
             &nbsp; &nbsp;
 
-            <i class="fa fa-pencil"></i>
+            <i class="fa fa-edit"></i>
             <time datetime="2015-01-28T16:00:00.000Z" itemprop="datePublished" title="Published Date">
                 2015-01-29
             </time>
@@ -151,7 +151,7 @@
             </span>
             &nbsp; &nbsp;
 
-            <i class="fa fa-pencil"></i>
+            <i class="fa fa-edit"></i>
             <time datetime="2015-01-28T16:00:00.000Z" itemprop="datePublished" title="Published Date">
                 2015-01-29
             </time>
@@ -182,7 +182,7 @@
             </span>
             &nbsp; &nbsp;
 
-            <i class="fa fa-pencil"></i>
+            <i class="fa fa-edit"></i>
             <time datetime="2015-01-27T16:00:00.000Z" itemprop="datePublished" title="Published Date">
                 2015-01-28
             </time>
@@ -213,7 +213,7 @@
             </span>
             &nbsp; &nbsp;
 
-            <i class="fa fa-pencil"></i>
+            <i class="fa fa-edit"></i>
             <time datetime="2015-01-26T17:01:01.000Z" itemprop="datePublished" title="Published Date">
                 2015-01-27
             </time>
@@ -244,7 +244,7 @@
             </span>
             &nbsp; &nbsp;
 
-            <i class="fa fa-pencil"></i>
+            <i class="fa fa-edit"></i>
             <time datetime="2015-01-26T16:00:00.000Z" itemprop="datePublished" title="Published Date">
                 2015-01-27
             </time>
@@ -275,7 +275,7 @@
             </span>
             &nbsp; &nbsp;
 
-            <i class="fa fa-pencil"></i>
+            <i class="fa fa-edit"></i>
             <time datetime="2015-01-25T17:01:01.000Z" itemprop="datePublished" title="Published Date">
                 2015-01-26
             </time>
@@ -306,7 +306,7 @@
             </span>
             &nbsp; &nbsp;
 
-            <i class="fa fa-pencil"></i>
+            <i class="fa fa-edit"></i>
             <time datetime="2015-01-25T16:00:00.000Z" itemprop="datePublished" title="Published Date">
                 2015-01-26
             </time>
@@ -337,7 +337,7 @@
             </span>
             &nbsp; &nbsp;
 
-            <i class="fa fa-pencil"></i>
+            <i class="fa fa-edit"></i>
             <time datetime="2015-01-21T16:00:00.000Z" itemprop="datePublished" title="Published Date">
                 2015-01-22
             </time>
@@ -428,7 +428,8 @@
 <div class="popularlist">
     <p class="asidetitle">
         <!--<a href="javascript:;" onclick="switch_widget_hidden(this);">-->
-            Top 20 & Push &nbsp;
+            <!--Top 20 & Push &nbsp;-->
+            Top 20
             <!--<i class="fa fa-caret-up"></i>-->
         <!--</a>-->
     </p>
@@ -756,7 +757,6 @@
             query.limit(30);
 
             var excluding_list = [
-//                '/about/',
                 '/resume/', /* Removed */
                 '/index/', /* Removed */
                 '/reward/',
@@ -792,7 +792,7 @@
 //        if (1 == recommend_list.length) {
 
         // if popularlist widget exists, append items to it.
-        if (1 == popular_list.length) {
+        if (false && /*Tmp Disabled for Test*/ 1 == popular_list.length) {
             var recommend_urls = [
                 '/c++/C++ Interview Book/',
 //                '/applescript/evernote_osx/',

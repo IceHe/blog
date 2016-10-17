@@ -120,7 +120,7 @@
             </span>
             &nbsp; &nbsp;
 
-            <i class="fa fa-pencil"></i>
+            <i class="fa fa-edit"></i>
             <time datetime="2015-02-04T04:00:00.000Z" itemprop="datePublished" title="Published Date">
                 2015-02-04
             </time>
@@ -151,7 +151,7 @@
             </span>
             &nbsp; &nbsp;
 
-            <i class="fa fa-pencil"></i>
+            <i class="fa fa-edit"></i>
             <time datetime="2015-02-04T01:00:00.000Z" itemprop="datePublished" title="Published Date">
                 2015-02-04
             </time>
@@ -182,7 +182,7 @@
             </span>
             &nbsp; &nbsp;
 
-            <i class="fa fa-pencil"></i>
+            <i class="fa fa-edit"></i>
             <time datetime="2015-02-01T17:01:01.000Z" itemprop="datePublished" title="Published Date">
                 2015-02-02
             </time>
@@ -213,7 +213,7 @@
             </span>
             &nbsp; &nbsp;
 
-            <i class="fa fa-pencil"></i>
+            <i class="fa fa-edit"></i>
             <time datetime="2015-02-01T16:00:00.000Z" itemprop="datePublished" title="Published Date">
                 2015-02-02
             </time>
@@ -244,7 +244,7 @@
             </span>
             &nbsp; &nbsp;
 
-            <i class="fa fa-pencil"></i>
+            <i class="fa fa-edit"></i>
             <time datetime="2015-01-30T16:00:00.000Z" itemprop="datePublished" title="Published Date">
                 2015-01-31
             </time>
@@ -260,12 +260,12 @@
     
 <section class="post" itemscope itemprop="blogitem">
     
-    <a href="/batch/DOS 常用指令 Command/" title="DOS Command 常用指令" itemprop="url">
+    <a href="/batch/DOS 特殊符号 Symbol/" title="DOS Symbol 特殊符号" itemprop="url">
     
-        <h1 itemprop="name">DOS Command 常用指令</h1>
+        <h1 itemprop="name">DOS Symbol 特殊符号</h1>
     
         
-        <p itemprop="description" >help, cmd_name /?, type, attrib, xcopy, netstat, reg, assoc, ftype, find, findstr, sort, comp, fc</p>
+        <p itemprop="description" >指令符号：短路"与"执行&#38;&#38; 短路"或"执行&#166;&#166; 连续执行&#38; 管道&#166; 指令隐藏显示@ 注释&#58;&#58;</p>
         
     
         <p style="display:inline">
@@ -275,7 +275,7 @@
             </span>
             &nbsp; &nbsp;
 
-            <i class="fa fa-pencil"></i>
+            <i class="fa fa-edit"></i>
             <time datetime="2015-01-29T16:00:00.000Z" itemprop="datePublished" title="Published Date">
                 2015-01-30
             </time>
@@ -306,7 +306,7 @@
             </span>
             &nbsp; &nbsp;
 
-            <i class="fa fa-pencil"></i>
+            <i class="fa fa-edit"></i>
             <time datetime="2015-01-29T16:00:00.000Z" itemprop="datePublished" title="Published Date">
                 2015-01-30
             </time>
@@ -322,12 +322,12 @@
     
 <section class="post" itemscope itemprop="blogitem">
     
-    <a href="/batch/DOS 特殊符号 Symbol/" title="DOS Symbol 特殊符号" itemprop="url">
+    <a href="/batch/DOS 常用指令 Command/" title="DOS Command 常用指令" itemprop="url">
     
-        <h1 itemprop="name">DOS Symbol 特殊符号</h1>
+        <h1 itemprop="name">DOS Command 常用指令</h1>
     
         
-        <p itemprop="description" >指令符号：短路"与"执行&#38;&#38; 短路"或"执行&#166;&#166; 连续执行&#38; 管道&#166; 指令隐藏显示@ 注释&#58;&#58;</p>
+        <p itemprop="description" >help, cmd_name /?, type, attrib, xcopy, netstat, reg, assoc, ftype, find, findstr, sort, comp, fc</p>
         
     
         <p style="display:inline">
@@ -337,7 +337,7 @@
             </span>
             &nbsp; &nbsp;
 
-            <i class="fa fa-pencil"></i>
+            <i class="fa fa-edit"></i>
             <time datetime="2015-01-29T16:00:00.000Z" itemprop="datePublished" title="Published Date">
                 2015-01-30
             </time>
@@ -422,7 +422,8 @@
 <div class="popularlist">
     <p class="asidetitle">
         <!--<a href="javascript:;" onclick="switch_widget_hidden(this);">-->
-            Top 20 & Push &nbsp;
+            <!--Top 20 & Push &nbsp;-->
+            Top 20
             <!--<i class="fa fa-caret-up"></i>-->
         <!--</a>-->
     </p>
@@ -750,7 +751,6 @@
             query.limit(30);
 
             var excluding_list = [
-//                '/about/',
                 '/resume/', /* Removed */
                 '/index/', /* Removed */
                 '/reward/',
@@ -786,7 +786,7 @@
 //        if (1 == recommend_list.length) {
 
         // if popularlist widget exists, append items to it.
-        if (1 == popular_list.length) {
+        if (false && /*Tmp Disabled for Test*/ 1 == popular_list.length) {
             var recommend_urls = [
                 '/c++/C++ Interview Book/',
 //                '/applescript/evernote_osx/',

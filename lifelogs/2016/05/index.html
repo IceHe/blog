@@ -138,7 +138,7 @@ Logs 日志记录
 
     <p class="article-data">
     
-        <i class="fa fa-pencil"></i>
+        <i class="fa fa-edit"></i>
         <time class="article-time" datetime="2016-04-30T16:00:00.000Z" itemprop="datePublished">
             2016-05-01
         </time>
@@ -300,7 +300,8 @@ var duoshuoQuery = {short_name:"icehe"};
 <div class="popularlist">
     <p class="asidetitle">
         <!--<a href="javascript:;" onclick="switch_widget_hidden(this);">-->
-            Top 20 & Push &nbsp;
+            <!--Top 20 & Push &nbsp;-->
+            Top 20
             <!--<i class="fa fa-caret-up"></i>-->
         <!--</a>-->
     </p>
@@ -689,7 +690,6 @@ var duoshuoQuery = {short_name:"icehe"};
             query.limit(30);
 
             var excluding_list = [
-//                '/about/',
                 '/resume/', /* Removed */
                 '/index/', /* Removed */
                 '/reward/',
@@ -725,7 +725,7 @@ var duoshuoQuery = {short_name:"icehe"};
 //        if (1 == recommend_list.length) {
 
         // if popularlist widget exists, append items to it.
-        if (1 == popular_list.length) {
+        if (false && /*Tmp Disabled for Test*/ 1 == popular_list.length) {
             var recommend_urls = [
                 '/c++/C++ Interview Book/',
 //                '/applescript/evernote_osx/',

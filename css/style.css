@@ -1901,9 +1901,6 @@ section.comment {
 .popularlist li:nth-child(15) {
   border-bottom: 2px dotted #808080;
 }
-.popularlist li:nth-child(20) {
-  border-bottom: 3px solid #ccc;
-}
 .recommendlist {
   font-size: 90%;
 }
