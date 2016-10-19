@@ -1,6 +1,6 @@
 title: Tools 利器
 date: 2015-11-21
-updated: 2016-10-18
+updated: 2016-10-20
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -292,6 +292,16 @@ description: 我的 Mac Apps、电子产品推荐。
     - [iStat Menus](https://bjango.com/mac/istatmenus/)
 
         支持顶部菜单栏部分自定义，显示硬件状态的监控软件。方便查看 CPU、内存、网络、硬盘及其它硬件的状态，还有日期时间栏的定制。
+
+    - [HyperSwitcher](https://bahoom.com/hyperswitch) <sup>Best</sup>
+
+        窗口切换（关于 `⌘ ⇥`, <code>⌘ \`</code>）增强的软件。
+
+        系统自带的窗口切换不够好用，特别是切换属于同一应用的多个窗口：
+
+        - 使用三指下滑的触摸板手势或快捷键 `^ ↓`，可以显示当前应用的所有窗口，然后点击选择其中一个进行切换，但是不够快捷。
+        - 使用快捷键 <code>⌘ \`</code> 足够快捷，但是兼容性不佳，很多应用没办法靠它来切换同一应用。
+        - HyperSwitcher 完美解决了这个问题，而且还对窗口切换的功能进行了进一步增强！例如，选择切换的窗口时，会显示各应用的缩略图。
 
     - [HyperDock](https://bahoom.com/hyperdock/)
 
@@ -766,7 +776,7 @@ description: 我的 Mac Apps、电子产品推荐。
         比小屏 iPhone 更适合阅读和看视频，又比 iPad Mini 更便携、方便单手操作，挤地铁公交的时候用也没问题，也是最适合玩手机游戏的尺寸。
 
         [Turquoise Silicone Case](http://www.apple.com/cn/shop/product/MM6D2FE/A/iphone-6s-plus-%E7%A1%85%E8%83%B6%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E4%BA%AE%E7%B2%89%E8%89%B2?fnode=99)（宝石绿官方硅胶保护壳），一分钱一分货，用久了也能保持悦目的颜色。
-        <s>[Rose Gray Leather Case](http://www.apple.com/cn/shop/product/MM362FE/A/iphone-6s-plus-%E7%9A%AE%E9%9D%A9%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E6%B5%B7%E8%93%9D%E8%89%B2?fnode=99)</s> 官方真皮保护壳易氧化变色，显脏，所以得买深色的。
+        ~~[Rose Gray Leather Case](http://www.apple.com/cn/shop/product/MM362FE/A/iphone-6s-plus-%E7%9A%AE%E9%9D%A9%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E6%B5%B7%E8%93%9D%E8%89%B2?fnode=99) 官方真皮保护壳易氧化变色，显脏，所以得买深色的。~~
 
 <br/><hr/>
 
@@ -801,13 +811,13 @@ description: 我的 Mac Apps、电子产品推荐。
 
     - ~~[Kindle Paperwhite](https://www.amazon.cn/Kindle-Paperwhite%E7%94%B5%E5%AD%90%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A8-300-ppi%E7%94%B5%E5%AD%90%E5%A2%A8%E6%B0%B4%E8%A7%A6%E6%8E%A7%E5%B1%8F-%E5%86%85%E7%BD%AE%E9%98%85%E8%AF%BB%E7%81%AF-%E8%B6%85%E9%95%BF%E7%BB%AD%E8%88%AA/dp/B00QJDOLIO) E-reader - 电子阅读器~~ <sup>_Sold_</sup>
 
-        ~~\+ [Amazon Onyx Black Leather Cover](https://www.amazon.cn/%E4%BA%9A%E9%A9%AC%E9%80%8AKindle-Paperwhite%E7%9C%9F%E7%9A%AE%E4%BF%9D%E6%8A%A4%E5%A5%97/dp/B008BQH1NO)~~ ，需要长时间看书时，还得用 E-Ink 屏，保护视力。
+        ~~\+ [Amazon Onyx Black Leather Cover](https://www.amazon.cn/%E4%BA%9A%E9%A9%AC%E9%80%8AKindle-Paperwhite%E7%9C%9F%E7%9A%AE%E4%BF%9D%E6%8A%A4%E5%A5%97/dp/B008BQH1NO) ，需要长时间看书时，还得用 E-Ink 屏，保护视力。~~
 
 ## Sound
 
 - Headphone
 
-    - [Bose QC30](https://www.bose.cn/zh_cn/products/headphones/earphones/quietcontrol-30.html#v=qc30_black) <sup>_to buy_</sup>
+    - [Bose QC30](https://www.bose.cn/zh_cn/products/headphones/earphones/quietcontrol-30.html#v=qc30_black) <sup>_wish_</sup>
 
         无线蓝牙连接，充电 2 h，续航 10 h。
 
@@ -943,7 +953,7 @@ description: 我的 Mac Apps、电子产品推荐。
 
     - ~~[Topumbrella 纯黑超轻迷你折叠伞](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.CoCGMf&id=533037933646&_u=puv5jet438a)~~ <sup>_unused_</sup>
 
-        ~~非常轻便，有防止大风吹反伞面以致折断伞骨的设计。~~但是伞面太小，不够实用，更适合用于遮阳。
+        ~~非常轻便，有防止大风吹反伞面以致折断伞骨的设计。但是伞面太小，不够实用，更适合用于遮阳。~~
 
 <br/><hr/>
 
