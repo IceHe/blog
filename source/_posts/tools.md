@@ -1,6 +1,6 @@
 title: Tools 利器
 date: 2015-11-21
-updated: 2016-10-20
+updated: 2016-10-23
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -549,6 +549,7 @@ description: 我的 Mac Apps、电子产品推荐。
     - [__分答__](https://itunes.apple.com/us/app/fen-da-zhi-fu-fei-yu-yin-wen/id1114450317?mt=8) - 音频问答平台。
     - [__Light__](https://itunes.apple.com/us/app/light-mei-ri-qu-wen-jing-xuan/id1011708578?mt=8) - 每日趣闻精选。
     - [__豌豆荚一览__](https://itunes.apple.com/us/app/wan-dou-jia-yi-lan-zai-yi/id1003672393?mt=8) - 资讯类 Apps 内容汇总。
+    - __得到__ - Todo
 
 - Podcasts 播客
 
@@ -558,21 +559,21 @@ description: 我的 Mac Apps、电子产品推荐。
 
         iOS 自带泛用型播客 App，功能完备，无广告，最稳定，绝对不丢失播放进度，不二之选！
 
-    - [__Castro__](http://supertop.co/castro/)
+    - ~~[__Castro__](http://supertop.co/castro/)~~
 
-        小巧易用，轻量级泛用型播客 App 的最佳选择！
+        ~~小巧易用，轻量级泛用型播客 App 的最佳选择！~~
 
     - [__喜马拉雅FM__](http://www.ximalaya.com/)
 
         使用体验与内容俱佳，许多电台自媒体的首选独播平台。
 
-    - [__凤凰FM__](http://diantai.ifeng.com/)
+    - ~~[__凤凰FM__](http://diantai.ifeng.com/)~~
 
-        拥有凤凰传媒的版权内容，有我最喜欢的谈话节目《锵锵三人行》。
+        ~~拥有凤凰传媒的版权内容，有我最喜欢的谈话节目《锵锵三人行》。~~
 
-    - [__企鹅FM__](http://fm.qq.com/)
+    - ~~[__企鹅FM__](http://fm.qq.com/)~~
 
-        腾讯出品用户体验必然好，娱乐类节目偏多。
+        ~~腾讯出品用户体验必然好，娱乐类节目偏多。~~
 
 <br/><hr/>
 
@@ -623,6 +624,26 @@ description: 我的 Mac Apps、电子产品推荐。
     - [Google Authenticator](https://itunes.apple.com/en/app/google-authenticator/id388497605?mt=8) <sup>Required</sup>
 
         两步验证器。提高安全意识，能开启两步验证的网络服务都开启，别嫌麻烦。
+
+    - 讯飞输入法
+
+        Todo
+
+    - 搜狗输入法
+
+        Todo
+
+    - Pin
+
+        Todo
+
+    - Shadowsockrocket
+
+        Todo
+
+    - QQ 同步助手
+
+        英文 iOS 的中文联系人排序、合并、去重、修改以及备份等。Todo
 
 <!-- - [车来了](http://www.chelaile.net.cn/)
     - [北京实时公交](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwjyoLbPoOHMAhUBoJQKHTTdCtoQFggdMAA&url=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fbei-jing-shi-shi-shi-gong-jiao%2Fid703306506%3Fmt%3D8&usg=AFQjCNHMrFugQlX7LH3jvhiv0zBKs40euw&sig2=o2QyQcOt_HsmKDuyuj502w&cad=rjt) <sup>_temp_</sup>
