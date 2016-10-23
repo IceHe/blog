@@ -51,7 +51,7 @@ toc: false
     <i class="fa fa-street-view">&nbsp;</i> [Jan Fan](http://janfan.github.io/) | [Shiwey Yan](http://shiweyyan.github.io/) | [SF Zhou](http://sf-zhou.github.io/)
     &nbsp; &nbsp; <sup>Web Secure | Game Developer | ACMer</sup>
     <i class="fa fa-circle-o">&nbsp;</i> Less is more. &nbsp;宁静致远。
-    &nbsp; &nbsp; <sup><i class="fa fa-heart">&nbsp;</i> 羽毛球, 毽球, 执信, 广州, 美食, 动漫</sup>
+    &nbsp; &nbsp; <sup><i class="fa fa-heart">&nbsp;</i> 羽毛球, 毽球, 动漫, 日剧, 美食, 整洁</sup>
     <i class="fa fa-check">&nbsp;</i> Done is better than perfect.
 
 # Technology
