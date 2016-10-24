@@ -1,21 +1,19 @@
 title: Tools 利器
 date: 2015-11-21
-updated: 2016-10-23
+updated: 2016-10-24
 show_updated: true
 categories: [Mac]
 tags: [Mac]
 description: 我的 Mac Apps、电子产品推荐。
 ---
 
-- 除 [Windows](#Windows) 小节，其它均为Mac平台下的软件。
-- __References__
+- 主要介绍 macOS、[iOS](#iOS) 的 Apps，简要提及 [Windows](#Windows)。
+- __References 参考__
     - [利器 - 创造者和他们的工具](http://liqi.io/) 以及使用的方式和原则。
     - [少数派](http://sspai.com/) - 高质量 App 推荐媒体，关于 iOS、Mac、硬件。
     - [一日一技](http://sspai.com/tag/%E4%B8%80%E6%97%A5%E4%B8%80%E6%8A%80/?page=1) & [MacTips](http://zhuanlan.zhihu.com/MacTips) - Mac 使用经验和技巧。
 - __Superscript 上标__
     - The item with <sup>__Best__</sup>&nbsp; implies it is `one of the best`.
-    <!--- The item with <sup>Note</sup>&nbsp; implies it is `a link to my related note`.-->
-    <!--- The item with <sup>_todo_</sup>&nbsp; implies it has `not been read-through`.-->
     - The item with <sup>_temp_</sup>&nbsp; implies it might `be removed one day`.
     - The item with <sup>__free__</sup>&nbsp; emphasizes it is cost-free.
     - And so on…
@@ -30,9 +28,9 @@ description: 我的 Mac Apps、电子产品推荐。
 
         第二大脑，知识管理工具。
 
-        好记性不如烂笔头，而如今知识更新之快，纸笔已跟不上，于是笔记软件大放异彩。云端存储同步，不怕丢，便于检索。总是死记硬背没有出路，不能被检索的知识毫无意义。
+        好记性不如烂笔头，而如今知识更新之快，纸笔已跟不上，于是笔记软件大放异彩。云端存储同步，不怕丢，便于检索，甚至搜索图片中的文字。总是死记硬背没有出路，不能被检索的知识毫无意义。
 
-        从许多备选中选择了 Evernote，是因为它提供了最为开放的可编程 API，我可以写脚本定制进阶的操作。
+        从许多备选中选择了 Evernote，是因为它提供了最为开放的可编程 API，我可以写脚本定制进阶的笔记操作。
 
     - [Wunderlist](https://www.wunderlist.com/zh/)
 
@@ -44,7 +42,7 @@ description: 我的 Mac Apps、电子产品推荐。
 
     - 双拼输入方案！<sup>Favorite</sup>
 
-        效率！效率！比五笔容易掌握太多，性价比高，赶紧走出你的舒适区来学习双拼吧！
+        高效，易学！比五笔容易掌握太多了，学习的性价比高，赶紧走出你的舒适区来试试双拼吧！
 
         - [做少数派中的少数派：双拼输入快速入门](http://sspai.com/32809)
         - [选择输入法的哲学：兼论双拼的优缺点](http://sspai.com/33019)
@@ -57,7 +55,7 @@ description: 我的 Mac Apps、电子产品推荐。
 
         - 首选的 PC 番羽土啬方案：
 
-            Shadowsocks 服务 + Mac 的 [ShadowsocksX](#System_Tools)  + 浏览器的 proxy 类插件（如 FireFox 的 [FoxyProxy](https://getfoxyproxy.org/)，Chrome 的 [SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?hl=en)）。
+            Shadowsocks 服务 + Mac 的 [ShadowsocksX](https://github.com/shadowsocks/ShadowsocksX-NG) + 浏览器的 proxy 类插件（如 FireFox 的 [FoxyProxy](https://getfoxyproxy.org/)，Chrome 的 [SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?hl=en)）。
 
         - 备选方案：[VPN](https://www.cup.com/staticip/?=panda) + [CHNRoute](https://github.com/fivesheep/chnroutes) + [Dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html)。
 
@@ -65,7 +63,9 @@ description: 我的 Mac Apps、电子产品推荐。
 
         配合 [VimFX](https://github.com/akhodakivskiy/VimFx) 拓展，可在浏览器内 __全局使用 Vim 键位__ 浏览网页、操作浏览器！键盘党神器。
 
-        Chrome 很好，但更耗电，影响到了 Mac 的续航；更重要的是类 VimFX 的 Vimium、cVim 等 Chrome 拓展无法在页面未加载完毕的情况下使用 Vim 键位，不够极致。
+        Chrome 很好，但更耗电，影响到了 Mac 的续航；更重要的是类 VimFX 的 [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)、[cVim](https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh) 等 Chrome 拓展无法在页面未加载完毕的情况下使用 Vim 键位，不够极致。
+
+        不过，Firefox 冷启动较慢，界面不够 Safari、Chrome 漂亮。毕竟工具是拿来用的，最重要的是高效。
 
     - [Chrome](https://www.google.com/chrome/)
 
@@ -107,7 +107,7 @@ description: 我的 Mac Apps、电子产品推荐。
 
         Fish（另一种 Shell）虽然很好，但存在兼容性问题，有些 Bash 的指令需要改写才能运行在 Fish 上。
 
-        - [Comparison of Command Shells - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_command_shells)
+        - Ref: [Comparison of Command Shells - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_command_shells)
 
     - [oh-my-zsh](http://ohmyz.sh/) <sup>Efficient</sup>
 
@@ -189,7 +189,11 @@ description: 我的 Mac Apps、电子产品推荐。
 
     - [Charles](https://www.charlesproxy.com/) <sup>Best</sup>
 
-        网络封包分析（抓包）工具。如 Fiddler 之于 Windows。
+        网络封包分析（抓包）工具。如 Fiddler 之于 Windows。主要用于「应用层」的分析。
+
+    - [Wireshark](https://www.wireshark.org/) <sup>Powerful</sup>
+
+        网络封包分析工具。比 Charles 强大得多，但是也复杂得多。主要用于「网络层」的分析。
 
     - [Postman](http://www.getpostman.com/) <sup>Powerful</sup>
 
@@ -342,6 +346,7 @@ description: 我的 Mac Apps、电子产品推荐。
         ShadowsocksX 是在 Mac 上配合 Shadowsock 工作的软件。
 
     - [MPlayerX](http://mplayerx.org)
+    - [VLC](http://www.videolan.org/index.html)
 
         视频播放软件。
 
@@ -394,13 +399,13 @@ description: 我的 Mac Apps、电子产品推荐。
 
         UI 上的 Spotlight，暂时难堪大用……
 
-    <!-- - [MacID](http://macid.co/) <sup>不推荐</sup>
+    - [MacID](http://macid.co/) <sup>不推荐</sup>
 
         可用其它 Apple 设备唤醒、解锁 Mac、甚至授权「提权」操作。
 
         iPhone、iPad、AppleWatch 用蓝牙链接 Mac 后，可以用 TouchID、iOS 密码、设备的靠近和远离（距离）、蓝牙连接状态或触摸板手势等，来唤醒、解锁 Mac，或锁屏、提权。当指定便携设备远离 Mac，Mac 就会自动锁屏并发出提示；重新靠近 Mac 时，Mac 自动唤醒解锁！
 
-        但蓝牙不时断连后，并不总能快速重连成功，比较恼人。新一代的 macOS 也将会原生支持 Apple 设备解锁 Mac。所以弃用。 -->
+        但蓝牙不时断连后，并不总能快速重连成功，比较恼人。新一代的 macOS 也将会原生支持 Apple 设备解锁 Mac。所以弃用，其它同类型的软件也半斤八两，均不推荐使用。
 
 <br/><hr/>
 
@@ -546,10 +551,10 @@ description: 我的 Mac Apps、电子产品推荐。
 - Information & Knowledge 资讯
 
     - [__知乎__](https://itunes.apple.com/cn/app/zhi-hu-yu-shi-jie-fen-xiang/id432274380?mt=8) - 优质问答社区。
+    - [__得到__](https://www.igetget.com/) -「罗辑思维」团队推出的主打 __知识服务__ 的 App。
     - [__分答__](https://itunes.apple.com/us/app/fen-da-zhi-fu-fei-yu-yin-wen/id1114450317?mt=8) - 音频问答平台。
     - [__Light__](https://itunes.apple.com/us/app/light-mei-ri-qu-wen-jing-xuan/id1011708578?mt=8) - 每日趣闻精选。
     - [__豌豆荚一览__](https://itunes.apple.com/us/app/wan-dou-jia-yi-lan-zai-yi/id1003672393?mt=8) - 资讯类 Apps 内容汇总。
-    - __得到__ - Todo
 
 - Podcasts 播客
 
@@ -563,9 +568,9 @@ description: 我的 Mac Apps、电子产品推荐。
 
         ~~小巧易用，轻量级泛用型播客 App 的最佳选择！~~
 
-    - [__喜马拉雅FM__](http://www.ximalaya.com/)
+    - [__喜马拉雅FM__](http://www.ximalaya.com/) <sup>Popular</sup>
 
-        使用体验与内容俱佳，许多电台自媒体的首选独播平台。
+        使用体验与内容俱佳，许多电台自媒体的首选独播平台。当之无愧的国内第一播客平台。
 
     - ~~[__凤凰FM__](http://diantai.ifeng.com/)~~
 
@@ -625,25 +630,25 @@ description: 我的 Mac Apps、电子产品推荐。
 
         两步验证器。提高安全意识，能开启两步验证的网络服务都开启，别嫌麻烦。
 
-    - 讯飞输入法
+    - [讯飞输入法](http://www.xunfei.cn/) <sup>Favorite</sup>
 
-        Todo
+        在非手写输入的键盘，竟然可以滑动键盘以手写方式输入！公认业界第一的语音识别输入能力（准确率高，支持方言，我已经越来越多地使用语音进行日常输入了）！支持 3D Touch 移动光标。
 
-    - 搜狗输入法
+    - [搜狗输入法](http://shouji.sogou.com/) <sup>Great</sup>
 
-        Todo
+        云输入匹配词语最准的输入法（个人感受）。唯一一个拥有 OCR 识别输入功能的输入法（留着备用）！。语音输入不足为奇，但是它独有更进一步的「语音修改」功能，使其更简便易用！
 
-    - Pin
+    - [Pin](https://itunes.apple.com/cn/app/pin-jian-tie-ban-kuo-zhan/id1039643846?mt=8) <sup>Favorite</sup>
 
-        Todo
+        基于剪贴板的效率工具，功能扩展：文本分词、提取 URL、电话号码、多设备剪贴板同步……
 
-    - Shadowsockrocket
+    - [Shadowsockrocket](https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8) <sup>Favorite</sup>
 
-        Todo
+        iOS 上配合 Shadowsocks 使用的番羽土啬利器。
 
-    - QQ 同步助手
+    - [QQ 同步助手](https://pim.qq.com/)
 
-        英文 iOS 的中文联系人排序、合并、去重、修改以及备份等。Todo
+        我将其用于：英文版 iOS 的中文联系人排序、合并、去重、修改以及备份等。
 
 <!-- - [车来了](http://www.chelaile.net.cn/)
     - [北京实时公交](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwjyoLbPoOHMAhUBoJQKHTTdCtoQFggdMAA&url=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fbei-jing-shi-shi-shi-gong-jiao%2Fid703306506%3Fmt%3D8&usg=AFQjCNHMrFugQlX7LH3jvhiv0zBKs40euw&sig2=o2QyQcOt_HsmKDuyuj502w&cad=rjt) <sup>_temp_</sup>
@@ -652,9 +657,9 @@ description: 我的 Mac Apps、电子产品推荐。
 
     「车来了」是同类软件中最用户友好的；但「北京实时公交」准确性更高。但可用性比用户友好更重要！ -->
 
-<!-- - [Keep](https://itunes.apple.com/us/app/keep-yi-dong-jian-shen-jiao/id952694580?mt=8) <sup>_temp_</sup>
+- [Keep](https://itunes.apple.com/us/app/keep-yi-dong-jian-shen-jiao/id952694580?mt=8) <sup>_temp_</sup>
 
-    移动健身教练。 -->
+    移动健身教练。
 
 ## Add-Ons
 
@@ -852,17 +857,19 @@ description: 我的 Mac Apps、电子产品推荐。
 
         人声不能完全隔绝，但其音量会变得很小；主动降噪时，再稍微播放音乐或白噪音，即可在很大程度上隔绝外部噪音。它帮助我在嘈杂的办公室也能在静谧、专注地做事。虽然它贵，但花得值！
 
-    - [SONY MDR-EX750BT](http://www.sonystyle.com.cn/products/headphone/mdr_ex750bt.htm) <sup>_wish_</sup>
+    - [SONY MDR-EX750BT](http://www.sonystyle.com.cn/products/headphone/mdr_ex750bt.htm) <sup>_portable_</sup>
 
-        颈戴入耳式耳塞，外观亮骚，无线蓝牙耳塞中的佼佼者！
+        颈戴入耳式耳塞，外观亮骚，音质出众（只对比各蓝牙耳塞，且不含头戴式耳机），便于携带；续航 7.5 h，没电时，也可用外接耳机线连接其它设备继续使用。无线蓝牙耳塞中的佼佼者！
 
-    - ~~[AKG K323XS](http://detail.zol.com.cn/microphone/index362788.shtml)~~ <sup>_unused_</sup>
-
-        ~~低级入门的入耳式耳塞，好用不贵，坏了不心疼。塞头大小适中（偏小），适合长时间佩戴。在买 QC20 前，时常用它当静音耳塞用。后悔没买带线控版，毕竟通话、控制音量、音频播放会更方便。~~
-
-    - ~~[ATH SQ505](http://www.amazon.com/Technica-ATH-SQ505-Foldable-Dynamic-Headphones/dp/B004Y3KWX4?ie=UTF8&*Version*=1&*entries*=0)~~ <sup>_Sold_</sup>
-
-        ~~因为头戴式容易压得耳朵疼，隔音效果也不好；能盖住耳朵隔音效果好的大耳机，一般设备推不动，音效不佳。~~
+    - Others 其它无线蓝牙入耳式耳塞
+        - ~~[AKG K323XS](http://detail.zol.com.cn/microphone/index362788.shtml)~~ <sup>_unused_</sup>
+            ~~低级入门的入耳式耳塞，好用不贵，坏了不心疼。塞头大小适中（偏小），适合长时间佩戴。在买 QC20 前，时常用它当静音耳塞用。后悔没买带线控版，毕竟通话、控制音量、音频播放会更方便。~~
+        - ~~[ATH SQ505](http://www.amazon.com/Technica-ATH-SQ505-Foldable-Dynamic-Headphones/dp/B004Y3KWX4?ie=UTF8&*Version*=1&*entries*=0)~~ <sup>_Sold_</sup>
+            ~~因为头戴式容易压得耳朵疼，隔音效果也不好；能盖住耳朵隔音效果好的大耳机，一般设备推不动，音效不佳。~~
+        - Candidate List
+            - [Beoplay H5](http://www.beoplay.cn/products/beoplayh5.php#at-a-glance)
+            - [Jaybird X2](http://www.jaybirdsport.com/x2-bluetooth-headphones/)
+            - [Jabra ROX 无线耳塞](http://www.jabra.cn/music/jabra-rox-wireless)
 
 <br/><hr/>
 
@@ -1000,8 +1007,6 @@ description: 我的 Mac Apps、电子产品推荐。
 <!--To Buy-->
 
 <!--- [鞋拔 IKEA](http://www.ikea.com/cn/zh/catalog/products/50137128/)-->
-
-<!--- [Jabra ROX 无线耳塞](http://www.jabra.cn/music/jabra-rox-wireless)-->
 
 <style type="text/css">
 article .article-content ul li p:first-child {
