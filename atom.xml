@@ -3721,10 +3721,15 @@ img.fix_height {
 &lt;li&gt;all my custom ones.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Superscript (上标) :&lt;/p&gt;
-&lt;ul&gt;
+&lt;li&gt;Superscript (上标) :&lt;ul&gt;
 &lt;li&gt;The item with &lt;sup&gt;&lt;em&gt;custom&lt;/em&gt;&lt;/sup&gt;&amp;nbsp; implies it might &lt;code&gt;be custom by me&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;The item with &lt;sup&gt;&lt;em&gt;temp&lt;/em&gt;&lt;/sup&gt;&amp;nbsp; implies it might &lt;code&gt;be removed one day&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Latest Updated:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Decrease the shortcuts about &lt;code&gt;^&lt;/code&gt; control, even though they’re easy to use.&lt;/li&gt;
+&lt;li&gt;Because my left little finger is often in pain after severely using keyboard for a while.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Ref: 《 &lt;a href=&quot;https://support.apple.com/zh-cn/HT201236&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mac 键盘快捷键&lt;/a&gt; 》&lt;/p&gt;
