@@ -13,6 +13,9 @@ description: 我的 macOS 快捷键列表。
 - Superscript (上标) :
     - The item with <sup>_custom_</sup>&nbsp; implies it might `be custom by me`.
     - The item with <sup>_temp_</sup>&nbsp; implies it might `be removed one day`.
+- Latest Updated:
+    - Decrease the shortcuts about `^` control, even though they're easy to use.
+    - Because my left little finger is often in pain after severely using keyboard for a while.
 
 - Ref: 《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》
 
