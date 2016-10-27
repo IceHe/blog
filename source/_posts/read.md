@@ -81,6 +81,8 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 
     吃好，睡好，保持好心情与好状态，做发自内心想做的事情
 
+- [自控力极差的人如何自救？](https://www.zhihu.com/question/21368231) <sup>_tmp_</sup>
+
 ## Rel 关系
 
 - [本分和情分](http://zhuanlan.zhihu.com/xinliyushenghuo/19993302) -「别人帮你，那是情分，不帮你，那是本分。容不容得下是你的气度，能不能让你容下是我的本事。」
@@ -504,6 +506,8 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 
     - [多事之秋：从土耳其政变到南海仲裁](http://chuansong.me/n/443267348048) <sup>_temp_</sup>
     - [穷是因为懒、被骗因为笨、女生被性侵因为穿的少——这些“奇葩”思想的根源在哪里？](http://mp.weixin.qq.com/s?__biz=MjM5NzE2NTY0Ng==&mid=2650672679&idx=1&sn=aa72c26e937580b45df811e0efc957ee&scene=1&srcid=0703iYn1sTVmEdj8qxEMWwfd#rd) <sup>_temp_</sup>
+
+- [君临](http://chuansong.me/account/junlin_1980) - 富有价值的商业洞见！
 
 <!--- PHP开发者 - 伯乐在线旗下帐号-->
 
