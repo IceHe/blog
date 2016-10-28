@@ -1,6 +1,6 @@
 title: Tools 利器
 date: 2015-11-21
-updated: 2016-10-24
+updated: 2016-10-28
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -39,6 +39,14 @@ description: 我的 Mac Apps、电子产品推荐。
         一开始用 [Doit.im](http://doit.im/cn/) 入门，Web 端的操作很极致高效，但移动端 App 不尽如人意。后来发现自己的生活很规律，无需复杂的管理，于是只用 Apple 自带的 Calendar。曾考虑过团队协作类的 App，如 [Worktile](https://worktile.com/)，可是它们的平台太重量级，不够简便易用，徒增无谓的操作。
 
         现在，又开始用免费版 Wunderlist 了，任务管理的操作远不如 Web 端的 Doit.im 极致，但是 iOS、Mac 上的 客户端做得不错。总之，各花入各眼，满足个人需求就好。
+
+    - [1Password](https://agilebits.com/onepassword)
+
+        著名的密码管理工具。一个密码管理所有其它密码，自动填写网站的帐号和密码。
+
+        之前一直用不惯，觉得用浏览器自带的帐号密码记录的 macOS、iOS 上的 KeyChain Access 足矣，大不了再找一个可以加密的程序保存起来。工作之后经济独立了，更加注意自己的财产安全和个人隐私，密码越来越多还杂乱，还有一些额外的保密信息要保存。不得不用额外的密码管理工具了。
+
+        - Related: [Dashlane](https://www.dashlane.com/), [LastPass](https://lastpass.com/)…
 
     - 双拼输入方案！<sup>Favorite</sup>
 
@@ -410,12 +418,6 @@ description: 我的 Mac Apps、电子产品推荐。
 <br/><hr/>
 
 - Enhance
-
-    - [1Password](https://agilebits.com/onepassword)
-
-    - [LastPass](https://lastpass.com/)
-
-        密码管理工具。一直用不惯，之后发现用浏览器自带的帐号密码记录与 macOS、iOS 上的 KeyChain Access 足矣。
 
     - [Quick Look plugins](https://github.com/sindresorhus/quick-look-plugins)
 
