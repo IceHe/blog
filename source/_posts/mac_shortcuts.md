@@ -893,7 +893,8 @@ __`⌥ ]` Show All Status Icons in Menu Bar__
 
 ## [ClipMenu](http://www.clipmenu.com/)
 
-`凵 v` = `^ ⌥ ⇧ V` Activate
+`⌥ v` History Menu
+`⌥ .` Main Menu
 
 ## [HazeOver](https://hazeover.com/)
 
