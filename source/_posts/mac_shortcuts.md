@@ -1,6 +1,6 @@
 title: Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2016-10-25
+updated: 2016-10-28
 show_updated: true
 categories: [Mac]
 tags: [Mac]
@@ -393,6 +393,7 @@ e.g. If press it and then press another App shortcut, the App will launch.
     `凵 3` [Evernote](#Evernote)
     `凵 4` [Chrome](#Chrome)
     `凵 5` [Firefox](#Firefox)
+    `凵 6` [1Password](#1Password)
     `凵 7` [Keyboard Maestro](#Keyboard-Maestro)
     `凵 8` [Karabiner](#Karabiner)
     `凵 9` [Seil](#Seil)
@@ -865,7 +866,16 @@ Such as CLion, IntelliJ IDEA, RubyMine, PyCharm and so on.
 
 Todo
 
-# System Assitant
+# System Assistant
+
+## [1Password](https://1password.com/)
+
+`⌘ \` Fill Login on current web page
+`⌘ ⇧ \` Show 1Password Mini
+`^ ⌥ ⇧ L` Lock 1Password
+
+`⌘ e` Edit
+`⌘ s` Save
 
 ## [Amphetamine](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12)
 
