@@ -391,9 +391,8 @@ e.g. If press it and then press another App shortcut, the App will launch.
     `凵 1` [Dash](#Dash)
     `凵 2` [Wunderlist](#Wunderlist)
     `凵 3` [Evernote](#Evernote)
-    `凵 4` [Chrome](#Chrome)
-    `凵 5` [Firefox](#Firefox)
-    `凵 6` [1Password](#1Password)
+    `凵 4` [Firefox](#Firefox)
+    `凵 5` [Chrome](#Chrome)
     `凵 7` [Keyboard Maestro](#Keyboard-Maestro)
     `凵 8` [Karabiner](#Karabiner)
     `凵 9` [Seil](#Seil)
@@ -454,7 +453,8 @@ e.g. If press it and then press another App shortcut, the App will launch.
 
     `⌥ ⇧ O` ShadowsocksX
     `⌥ ⇧ P` PowerPoint
-    `^ ⇧ ]` Show [Bartender 2](#Bartender-2)
+    `⌥ ⇧ ]` Show [Bartender 2](#Bartender-2)
+    `⌥ ⇧  \` [1Password](#1Password)
 
     `^ ⌥ ⇧ W` Windows XP
     `^ ⌥ ⇧ P` Parallels Desktop
@@ -871,7 +871,7 @@ Todo
 ## [1Password](https://1password.com/)
 
 `⌘ \` Fill Login on current web page
-`⌘ ⇧ \` Show 1Password Mini
+`⌥ \` Show 1Password Mini
 `^ ⌥ ⇧ L` Lock 1Password
 
 `⌘ e` Edit
