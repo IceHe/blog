@@ -1,5 +1,7 @@
 
 
+
+
 <!DOCTYPE HTML>
 <html lang="default">
 
@@ -7,23 +9,41 @@
 
 <meta charset="UTF-8">
 
-<title>DOS Environment Variable 环境变量 | IceHe 何志远</title>
+<title>Tmp Note | IceHe 何志远</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 
 <meta name="author" content="IceHe何志远"> 
 
 <!-- Open Graph -->
-<meta name="description" content="DOS环境变量：&amp;#37;APPDATA&amp;#37;、&amp;#37;CD&amp;#37;、&amp;#37;DATE&amp;#37;、&amp;#37;ERRORLEVEL&amp;#37;、&amp;#37;PATH&amp;#37;、&amp;#37;RANDOM&amp;#37;、&amp;#37;TEMP&amp;#37;、&amp;#37;TMP&amp;#37;、&amp;#37;TIME&amp;#37;">
-<meta property="og:type" content="article">
-<meta property="og:title" content="DOS Environment Variable 环境变量">
-<meta property="og:url" content="http://icehe.me/batch/DOS 环境变量 Environment Variable/index.html">
+<meta name="description" content="Google 技巧：不让 google.com 跳转到 google.com.hk
+直接用http://www.google.com/ncr，ncr是no country redirection，是一个强制不跳转的命令；
+用https://www.google.com/，https协议。
+
+Charles 技巧
+Proxy：代理调试，例如手机使用Charles进行调试。
+HTTPS：SSL 截获、">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tmp Note">
+<meta property="og:url" content="http://icehe.me/notes/tmp.html">
 <meta property="og:site_name" content="IceHe 何志远">
-<meta property="og:description" content="DOS环境变量：&amp;#37;APPDATA&amp;#37;、&amp;#37;CD&amp;#37;、&amp;#37;DATE&amp;#37;、&amp;#37;ERRORLEVEL&amp;#37;、&amp;#37;PATH&amp;#37;、&amp;#37;RANDOM&amp;#37;、&amp;#37;TEMP&amp;#37;、&amp;#37;TMP&amp;#37;、&amp;#37;TIME&amp;#37;">
-<meta property="og:updated_time" content="2016-04-23T12:31:42.000Z">
+<meta property="og:description" content="Google 技巧：不让 google.com 跳转到 google.com.hk
+直接用http://www.google.com/ncr，ncr是no country redirection，是一个强制不跳转的命令；
+用https://www.google.com/，https协议。
+
+Charles 技巧
+Proxy：代理调试，例如手机使用Charles进行调试。
+HTTPS：SSL 截获、">
+<meta property="og:updated_time" content="2016-10-30T07:00:24.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="DOS Environment Variable 环境变量">
-<meta name="twitter:description" content="DOS环境变量：&amp;#37;APPDATA&amp;#37;、&amp;#37;CD&amp;#37;、&amp;#37;DATE&amp;#37;、&amp;#37;ERRORLEVEL&amp;#37;、&amp;#37;PATH&amp;#37;、&amp;#37;RANDOM&amp;#37;、&amp;#37;TEMP&amp;#37;、&amp;#37;TMP&amp;#37;、&amp;#37;TIME&amp;#37;">
+<meta name="twitter:title" content="Tmp Note">
+<meta name="twitter:description" content="Google 技巧：不让 google.com 跳转到 google.com.hk
+直接用http://www.google.com/ncr，ncr是no country redirection，是一个强制不跳转的命令；
+用https://www.google.com/，https协议。
+
+Charles 技巧
+Proxy：代理调试，例如手机使用Charles进行调试。
+HTTPS：SSL 截获、">
 
 <!-- Google Web Master Tool - Meta Tag Verification -->
 <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
@@ -101,7 +121,7 @@
 
 <!-- Container Begin -->
 <div id="container">
-<div id="main" class="post" itemscope itemprop="blogPost">
+<div id="main" class="page" itemscope itemprop="blogPost">
 
 <article itemprop="articleBody">
 
@@ -109,7 +129,7 @@
 
     <h1 itemprop="name" class="article-title">
     
-        <a href="/batch/DOS 环境变量 Environment Variable/" title="DOS Environment Variable 环境变量" itemprop="url" class="article-url">DOS Environment Variable 环境变量</a>
+        <a href="/notes/tmp.html" title="Tmp Note" itemprop="url" class="article-url">Tmp Note</a>
     
     </h1>
 
@@ -122,8 +142,8 @@
     <p class="article-data">
     
         <i class="fa fa-edit"></i>
-        <time class="article-time" datetime="2015-01-29T16:00:00.000Z" itemprop="datePublished">
-            2015-01-30
+        <time class="article-time" datetime="2016-10-30T07:00:24.000Z" itemprop="datePublished">
+            2016-10-30
         </time>
         &nbsp;&nbsp;
         <i class="fa fa-eye"></i>
@@ -134,30 +154,106 @@
 
 <div class="article-content">
     
-    <div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>变量 类型 描述&nbsp;</div><div>%ALLUSERSPROFILE%</div><div>&nbsp;局部</div><div>&nbsp;返回“所有用户配置文件”的位置。</div><div>&nbsp;</div><div>%APPDATA%</div><div>&nbsp;局部</div><div>&nbsp;返回默认情况下应用程序存储数据的位置。</div><div>&nbsp;</div><div><b>%CD%</b></div><div>&nbsp;局部</div><div>&nbsp;返回<b>当前目录</b>字符串。</div><div>&nbsp;</div><div>%CMDCMDLINE%</div><div>&nbsp;局部</div><div>&nbsp;返回用来启动当前的 Cmd.exe 的准确命令行。</div><div>&nbsp;</div><div>%CMDEXTVERSION%</div><div>&nbsp;系统</div><div>&nbsp;返回当前的“命令处理程序扩展”的版本号。</div><div>&nbsp;</div><div>%COMPUTERNAME%</div><div>&nbsp;系统</div><div>&nbsp;返回计算机的名称。</div><div>&nbsp;</div><div>%COMSPEC%</div><div>&nbsp;系统</div><div>&nbsp;返回命令行解释器可执行程序的准确路径。</div><div>&nbsp;</div><div><b>%DATE%</b></div><div>&nbsp;系统</div><div>&nbsp;返回<b>当前日期</b>。使用与date /t命令相同的格式。由 Cmd.exe 生成。有关 date 命令的详细信息，请参阅 Date。</div><div>&nbsp;</div><div><b>%ERRORLEVEL%</b></div><div>&nbsp;系统</div><div>&nbsp;返回<b>上一条命令的错误代码</b>。通常用非零值表示错误。</div><div><b><br></b></div><div><b>*.注意：有些指令不会改变</b><b>%ERRORLEVEL%</b><b>的值！</b></div><div><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 如echo、setlocal、pause……</b></div><div>&nbsp;</div><div><br></div><div>%HOMEDRIVE%</div><div>&nbsp;系统</div><div>&nbsp;返回连接到用户主目录的本地工作站驱动器号。基于主目录值而设置。用户主目录是在“本地用户和组”中指定的。</div><div>&nbsp;</div><div>%HOMEPATH%</div><div>&nbsp;系统</div><div>&nbsp;返回用户主目录的完整路径。基于主目录值而设置。用户主目录是在“本地用户和组”中指定的。</div><div>&nbsp;</div><div>%HOMESHARE%</div><div>&nbsp;系统</div><div>&nbsp;返回用户的共享主目录的网络路径。基于主目录值而设置。用户主目录是在“本地用户和组”中指定的。</div><div>&nbsp;</div><div>%LOGONSERVER%</div><div>&nbsp;局部</div><div>&nbsp;返回验证当前登录会话的域控制器的名称。</div><div>&nbsp;</div><div>%NUMBER_OF_PROCESSORS%</div><div>&nbsp;系统</div><div>&nbsp;指定安装在计算机上的处理器的数目。</div><div>&nbsp;</div><div>%OS%</div><div>&nbsp;系统</div><div>&nbsp;返回操作系统名称。Windows 2000 会将该操作系统显示为 Windows NT。</div><div>&nbsp;</div><div><b>%PATH%</b></div><div>&nbsp;系统</div><div>&nbsp;指定<b>可执行文件的搜索路径</b>。</div><div>&nbsp;</div><div>%PATHEXT%</div><div>&nbsp;系统</div><div>&nbsp;返回操作系统认为可执行的文件扩展名的列表。</div><div>&nbsp;</div><div>%PROCESSOR_ARCHITECTURE%</div><div>&nbsp;系统</div><div>&nbsp;返回处理器的芯片体系结构。值：x86 或 IA64（基于 Itanium）。</div><div>&nbsp;</div><div>%PROCESSOR_IDENTFIER%</div><div>&nbsp;系统</div><div>&nbsp;返回处理器说明。</div><div>&nbsp;</div><div>%PROCESSOR_LEVEL%</div><div>&nbsp;系统</div><div>&nbsp;返回计算机上安装的处理器的型号。</div><div>&nbsp;</div><div>%PROCESSOR_REVISION%</div><div>&nbsp;系统</div><div>&nbsp;返回处理器的版本号。</div><div>&nbsp;</div><div>%PROMPT%</div><div>&nbsp;局部</div><div>&nbsp;返回当前解释程序的命令提示符设置。由 Cmd.exe 生成。</div><div>&nbsp;</div><div><b>%RANDOM%</b></div><div>&nbsp;系统</div><div>&nbsp;返回 <b>0 到 32767</b> 之间的<b>任意十进制数字</b>。由 Cmd.exe 生成。</div><div>&nbsp;</div><div>%SYSTEMDRIVE%</div><div>&nbsp;系统</div><div>&nbsp;返回包含 Windows 服务器操作系统根目录（即系统根目录）的驱动器。</div><div>&nbsp;</div><div>%SYSTEMROOT%</div><div>&nbsp;系统</div><div>&nbsp;返回 Windows 服务器操作系统目录的位置。</div><div>&nbsp;</div><div><b>%TEMP% 和 %TMP%</b></div><div>&nbsp;系统和用户</div><div>&nbsp;返回对当前登录用户可用的应用程序所使用的默认临时目录。有些应用程序需要 TEMP，而其他应用程序则需要 TMP。</div><div>&nbsp;</div><div><b>%TIME%</b></div><div>&nbsp;系统</div><div>&nbsp;返回<b>当前时间</b>。使用与 time /t 命令相同的格式。由 Cmd.exe 生成。有关 time 命令的详细信息，请参阅 Time。</div><div>&nbsp;</div><div>%USERDOMAIN%</div><div>&nbsp;局部</div><div>&nbsp;返回包含用户帐户的域的名称。</div><div>&nbsp;</div><div>%USERNAME%</div><div>&nbsp;局部</div><div>&nbsp;返回当前登录的用户的名称。</div><div>&nbsp;</div><div>%USERPROFILE%</div><div>&nbsp;局部</div><div>&nbsp;返回当前用户的配置文件的位置。</div><div>&nbsp;</div><div>%WINDIR%</div><div>&nbsp;系统</div><div>&nbsp;返回操作系统目录的位置。</div></div>
-
+    <div id="toc" class="toc-article">
+        <strong class="toc-title">Contents</strong>
+        
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Google-技巧：不让-google-com-跳转到-google-com-hk"><span class="toc-text">Google 技巧：不让 google.com 跳转到 google.com.hk</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Charles-技巧"><span class="toc-text">Charles 技巧</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#CentOS-安装-PHP7"><span class="toc-text">CentOS 安装 PHP7</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#PhpStorm-配置-远程调试-Xdebug"><span class="toc-text">PhpStorm 配置 远程调试 Xdebug</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#设置更长的超时时间，以便-Xdebug-调试"><span class="toc-text">设置更长的超时时间，以便 Xdebug 调试</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#rsync-配置"><span class="toc-text">rsync 配置</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#基于-Composer-的-PHP-模块化开发"><span class="toc-text">基于 Composer 的 PHP 模块化开发</span></a></li></ol>
+        
+    </div>
+    
+    <h1 id="Google-技巧：不让-google-com-跳转到-google-com-hk"><a href="#Google-技巧：不让-google-com-跳转到-google-com-hk" class="headerlink" title="Google 技巧：不让 google.com 跳转到 google.com.hk"></a>Google 技巧：不让 google.com 跳转到 google.com.hk</h1><ul>
+<li>直接用<a href="http://www.google.com/ncr，ncr是no" target="_blank" rel="external">http://www.google.com/ncr，ncr是no</a> country redirection，是一个强制不跳转的命令；</li>
+<li>用<a href="https://www.google.com/，https协议。" target="_blank" rel="external">https://www.google.com/，https协议。</a></li>
+</ul>
+<h1 id="Charles-技巧"><a href="#Charles-技巧" class="headerlink" title="Charles 技巧"></a>Charles 技巧</h1><ul>
+<li>Proxy：代理调试，例如手机使用Charles进行调试。</li>
+<li>HTTPS：SSL 截获、代理，需要安装加密证书。</li>
+<li>View：Structure/Squence 按照请求（路由层级）或顺序，查看请求。</li>
+<li>Filter：过滤，通过 关键词 或 Proxy-&gt;Recording Settings。</li>
+<li>Request Response：查看请求、响应的参数和内容，以 JSON、列表 或 文本 等格式查看。</li>
+<li>DNS Spoofing：DNS 欺骗。从一个网址映射到另一网址或 IP 地址。</li>
+<li>Map Remote：端口映射。例如，从80端口81端口</li>
+<li>Throttling：模拟慢速网络。</li>
+<li>Edit：修改包内容。</li>
+<li>Repeat：压力测试。</li>
+<li>Breakpoints：断点，还有 Rewrite 功能等…</li>
+<li>…</li>
+</ul>
+<h1 id="CentOS-安装-PHP7"><a href="#CentOS-安装-PHP7" class="headerlink" title="CentOS 安装 PHP7"></a>CentOS 安装 PHP7</h1><ul>
+<li>在当时另一台已经装好 PHP7 的开发机，用 <code>php-config</code> 查看安装 PHP7 时用的安装指令参数！</li>
+<li>然后，下载源码 PHP7 源码:<ul>
+<li><code>./configure xxx-prefix=安装路径</code></li>
+<li><code>make</code></li>
+<li><code>make install</code></li>
+</ul>
+</li>
+<li>安装各种需要用的 PHP7 组件：<ul>
+<li><code>git clone xxx</code> 下载组件的源码</li>
+<li><code>/path/to/php7/bin/phpize</code></li>
+<li><code>./configure xxx-prefix?=/path/to/php7</code></li>
+<li><code>make</code></li>
+<li><code>make install</code></li>
+<li>如果缺了什么相关库的开发包用 <code>yum install xxx-devel</code> 安装 （devel代表带源码的开发包）</li>
+</ul>
+</li>
+<li><code>php -m</code> 看各组件是否安装好了！</li>
+<li>配置 nginx</li>
+<li>启动 php-fpm <code>/path/to/php7/sbin/php-fpm</code></li>
+</ul>
+<h1 id="PhpStorm-配置-远程调试-Xdebug"><a href="#PhpStorm-配置-远程调试-Xdebug" class="headerlink" title="PhpStorm 配置 远程调试 Xdebug"></a>PhpStorm 配置 远程调试 Xdebug</h1><ul>
+<li>在PhpStorm打开要debug的project</li>
+<li><p>右上角点击打开一个下拉小菜单，点击Edit Configurations</p>
+</li>
+<li><p>添加一个PHP Remote Debug，添加一个服务器</p>
+<ul>
+<li>填入要进行远程调试环境的主机的 IP</li>
+<li>勾选 Use Path mappings<br>（端口据说使用默认的80就好，不过有时记得根据实际情况调试）<br>路径填入：与该本地project对应的在远程主机的目录</li>
+</ul>
+</li>
+<li><p>记得 Ide key (session id) 填入的值<br>必须与远程主机的 php.ini 中 xdebug 写的 ide 一致</p>
+</li>
+<li><p>xdebug 的安装过程颇为复杂，请另寻安装教程。</p>
+</li>
+<li>xdebug 安装后，还需要配置到 /etc/php.ini<ul>
+<li>工作时远程主机的 xdebug 的配置文件路径为：/etc/php.d/xdebug.ini</li>
+<li>当时该配置文件的内容为：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">[xdebug]</span><br><span class="line">xdebug.remote_enable = On</span><br><span class="line">xdebug.remote_connect_back = Off</span><br><span class="line">xdebug.remote_host = 10.209.2.181（当前本机的ip）</span><br><span class="line">xdebug.remote_port = 9000</span><br><span class="line">xdebug.idekey = phpstorm</span><br><span class="line">xdebug.remote_autostart = 1</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="设置更长的超时时间，以便-Xdebug-调试"><a href="#设置更长的超时时间，以便-Xdebug-调试" class="headerlink" title="设置更长的超时时间，以便 Xdebug 调试"></a>设置更长的超时时间，以便 Xdebug 调试</h1><ul>
+<li>修改 php-fpm 的 v5.conf 配置文件<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">[v5.weibo.cn]</span><br><span class="line">user = www</span><br><span class="line">group = www</span><br><span class="line">listen = 127.0.0.1:9015</span><br><span class="line">listen.allowed_clients = 127.0.0</span><br><span class="line">pm.max_children = 10</span><br><span class="line">;pm.start_servers = 10</span><br><span class="line">;pm.min_spare_servers = 5</span><br><span class="line">;pm.max_spare_servers = 20</span><br><span class="line">pm.max_requests = 1500</span><br><span class="line">slowlog = /data1/v5.weibo.cn/logs/php/$pool-slow_log</span><br><span class="line">;request_slowlog_timeout = 10</span><br><span class="line">;request_terminate_timeout = 30</span><br><span class="line">request_slowlog_timeout = 300</span><br><span class="line">request_terminate_timeout = 300</span><br><span class="line">catch_workers_output</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h1 id="rsync-配置"><a href="#rsync-配置" class="headerlink" title="rsync 配置"></a>rsync 配置</h1><ol>
+<li><p>在 server 的 <code>/etc/rysnc.conf</code> 添加设置，对某目录进行rsync支持。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">[project_name]</span><br><span class="line">hosts allow = 10.0.0.0/8</span><br><span class="line">hosts deny  = *</span><br><span class="line">read only   = false</span><br><span class="line">list        = false</span><br><span class="line">path        = /path/to/project</span><br><span class="line">auth users  = user_name</span><br><span class="line">secrets file = /path/to/rsync.pass</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在 server 的 <code>/path/to/rsync.pass</code> 文件中添加用户和密码，以冒号分隔两者。（该文件的权限位需设为 <code>600</code>）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">user_name:passwd</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在本机写 rsync 的脚本。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/sh</span><br><span class="line">rsync -rltgoDP --delete --password-file=/path/to/.rsync.pwd --exclude=&apos;/path/need/to/exclude&apos; /path/to/local_project/ rsync://&lt;user_name&gt;@&lt;server_ip_addr&gt;:&lt;port_number&gt;/project_name</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在本机创建文件 /path/to/.rsync.pwd，并将密码写入其中。（建议其可读写的权限设置得更严格）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">passwd</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>给本机的 rsync 脚本赋予运行权限， 给 server 的项目目录 /path/to/project 赋予对应 rsync 用户的写入权限，然后运行 rysnc 脚本即可。</p>
+</li>
+</ol>
+<h1 id="基于-Composer-的-PHP-模块化开发"><a href="#基于-Composer-的-PHP-模块化开发" class="headerlink" title="基于 Composer 的 PHP 模块化开发"></a>基于 Composer 的 PHP 模块化开发</h1>
 </div>
 
 <footer class="article-footer clearfix">
 
 <div class="article-catetags">
     
-    <div class="article-categories">
-        <span></span>
-        <a class="article-category-link" href="/categories/Batch/">Batch</a>
-    </div>
-    
-    
-    <div class="article-tags hidden">
-        
-        <span></span> <a href="/tags/Batch/">Batch</a>
-    </div>
     
 </div>
 
 
 <div class="article-share" id="share">
-    <div data-url="http://icehe.me/batch/DOS 环境变量 Environment Variable/" data-title="DOS Environment Variable 环境变量 | IceHe 何志远" data-tsina="undefined" class="share clearfix">
+    <div data-url="http://icehe.me/notes/tmp.html" data-title="Tmp Note | IceHe 何志远" data-tsina="undefined" class="share clearfix">
     </div>
 </div>
 
@@ -166,39 +262,14 @@
 
 </article>
 
-<nav class="article-nav clearfix">
-    
-    <div class="prev" >
-        <br/>
-        <a href="/batch/DOS 常用指令 Command/" title="DOS Command 常用指令">
-            <strong>Prev</strong><br/>
-            <span>
-                DOS Command 常用指令
-            </span>
-        </a>
-    </div>
-    
-    
-    <div class="next">
-        <br/>
-        <a href="/batch/DOS 特殊符号 Symbol/"  title="DOS Symbol 特殊符号">
-            <strong>Next</strong><br/>
-            <span>
-                DOS Symbol 特殊符号
-            </span>
-        </a>
-    </div>
-    
-</nav>
-
 
 
 <!-- Comments Begin -->
 <section id="comments" class="comment">
     <div class="ds-thread"
-         data-thread-key="batch/DOS 环境变量 Environment Variable/"
-         data-title="DOS Environment Variable 环境变量"
-         data-url="http://icehe.me/batch/DOS 环境变量 Environment Variable/">
+         data-thread-key="notes/tmp.html"
+         data-title="Tmp Note"
+         data-url="http://icehe.me/notes/tmp.html">
     </div>
 </section>
 
@@ -405,34 +476,6 @@ var duoshuoQuery = {short_name:"icehe"};
 <!--<script src="/js/jquery.qrcode-0.12.0.min.js"></script>-->
 <!-- JavaScript Resource End -->
 
-
-<!-- For Post Begin -->
-<script type="text/javascript">
-    $(document).ready(function(){
-        var ai = $('.article-content>iframe'),
-                ae = $('.article-content>embed'),
-                t  = $('#toc'),
-                ta = $('#toc.toc-aside'),
-                o  = $('.openaside'),
-                c  = $('.closeaside');
-        if(ai.length>0){
-            ai.wrap('<div class="video-container" />');
-        };
-        if(ae.length>0){
-            ae.wrap('<div class="video-container" />');
-        };
-        c.click(function(){
-            ta.css('display', 'block').addClass('fadeIn');
-        });
-        o.click(function(){
-            ta.css('display', 'none');
-        });
-        $(window).scroll(function(){
-            ta.css("top",Math.max(140, 320 - $(this).scrollTop()));
-        });
-    });
-</script>
-<!-- For Post End -->
 
 
 <!-- For Like Button Begin -->
@@ -835,6 +878,8 @@ var duoshuoQuery = {short_name:"icehe"};
 </body>
 
 </html>
+
+
 
 
 

@@ -1,5 +1,7 @@
 
 
+
+
 <!DOCTYPE HTML>
 <html lang="default">
 
@@ -7,23 +9,29 @@
 
 <meta charset="UTF-8">
 
-<title>DOS Environment Variable 环境变量 | IceHe 何志远</title>
+<title>More effective C++ | IceHe 何志远</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 
 <meta name="author" content="IceHe何志远"> 
 
 <!-- Open Graph -->
-<meta name="description" content="DOS环境变量：&amp;#37;APPDATA&amp;#37;、&amp;#37;CD&amp;#37;、&amp;#37;DATE&amp;#37;、&amp;#37;ERRORLEVEL&amp;#37;、&amp;#37;PATH&amp;#37;、&amp;#37;RANDOM&amp;#37;、&amp;#37;TEMP&amp;#37;、&amp;#37;TMP&amp;#37;、&amp;#37;TIME&amp;#37;">
-<meta property="og:type" content="article">
-<meta property="og:title" content="DOS Environment Variable 环境变量">
-<meta property="og:url" content="http://icehe.me/batch/DOS 环境变量 Environment Variable/index.html">
+<meta name="description" content="条款1：仔细区别pointers和referencesdistinguish between pointers and references.
+references引用必须总是代表一个对象，必须在声明时初始化。pointer就有可能不指向（代表）任何对象。
+当你知道你需要指向某个东西，而且绝不会改变指向其他东西，或是你实现一个操作符，而其语法需求无法由pointer达成，就该选择reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="More effective C++">
+<meta property="og:url" content="http://icehe.me/notes/more_effective_cpp.html">
 <meta property="og:site_name" content="IceHe 何志远">
-<meta property="og:description" content="DOS环境变量：&amp;#37;APPDATA&amp;#37;、&amp;#37;CD&amp;#37;、&amp;#37;DATE&amp;#37;、&amp;#37;ERRORLEVEL&amp;#37;、&amp;#37;PATH&amp;#37;、&amp;#37;RANDOM&amp;#37;、&amp;#37;TEMP&amp;#37;、&amp;#37;TMP&amp;#37;、&amp;#37;TIME&amp;#37;">
-<meta property="og:updated_time" content="2016-04-23T12:31:42.000Z">
+<meta property="og:description" content="条款1：仔细区别pointers和referencesdistinguish between pointers and references.
+references引用必须总是代表一个对象，必须在声明时初始化。pointer就有可能不指向（代表）任何对象。
+当你知道你需要指向某个东西，而且绝不会改变指向其他东西，或是你实现一个操作符，而其语法需求无法由pointer达成，就该选择reference">
+<meta property="og:updated_time" content="2016-10-30T10:12:14.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="DOS Environment Variable 环境变量">
-<meta name="twitter:description" content="DOS环境变量：&amp;#37;APPDATA&amp;#37;、&amp;#37;CD&amp;#37;、&amp;#37;DATE&amp;#37;、&amp;#37;ERRORLEVEL&amp;#37;、&amp;#37;PATH&amp;#37;、&amp;#37;RANDOM&amp;#37;、&amp;#37;TEMP&amp;#37;、&amp;#37;TMP&amp;#37;、&amp;#37;TIME&amp;#37;">
+<meta name="twitter:title" content="More effective C++">
+<meta name="twitter:description" content="条款1：仔细区别pointers和referencesdistinguish between pointers and references.
+references引用必须总是代表一个对象，必须在声明时初始化。pointer就有可能不指向（代表）任何对象。
+当你知道你需要指向某个东西，而且绝不会改变指向其他东西，或是你实现一个操作符，而其语法需求无法由pointer达成，就该选择reference">
 
 <!-- Google Web Master Tool - Meta Tag Verification -->
 <meta name="google-site-verification" content="vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI" />
@@ -101,7 +109,7 @@
 
 <!-- Container Begin -->
 <div id="container">
-<div id="main" class="post" itemscope itemprop="blogPost">
+<div id="main" class="page" itemscope itemprop="blogPost">
 
 <article itemprop="articleBody">
 
@@ -109,7 +117,7 @@
 
     <h1 itemprop="name" class="article-title">
     
-        <a href="/batch/DOS 环境变量 Environment Variable/" title="DOS Environment Variable 环境变量" itemprop="url" class="article-url">DOS Environment Variable 环境变量</a>
+        <a href="/notes/more_effective_cpp.html" title="More effective C++" itemprop="url" class="article-url">More effective C++</a>
     
     </h1>
 
@@ -122,8 +130,8 @@
     <p class="article-data">
     
         <i class="fa fa-edit"></i>
-        <time class="article-time" datetime="2015-01-29T16:00:00.000Z" itemprop="datePublished">
-            2015-01-30
+        <time class="article-time" datetime="2016-10-30T10:12:14.000Z" itemprop="datePublished">
+            2016-10-30
         </time>
         &nbsp;&nbsp;
         <i class="fa fa-eye"></i>
@@ -134,7 +142,55 @@
 
 <div class="article-content">
     
-    <div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>变量 类型 描述&nbsp;</div><div>%ALLUSERSPROFILE%</div><div>&nbsp;局部</div><div>&nbsp;返回“所有用户配置文件”的位置。</div><div>&nbsp;</div><div>%APPDATA%</div><div>&nbsp;局部</div><div>&nbsp;返回默认情况下应用程序存储数据的位置。</div><div>&nbsp;</div><div><b>%CD%</b></div><div>&nbsp;局部</div><div>&nbsp;返回<b>当前目录</b>字符串。</div><div>&nbsp;</div><div>%CMDCMDLINE%</div><div>&nbsp;局部</div><div>&nbsp;返回用来启动当前的 Cmd.exe 的准确命令行。</div><div>&nbsp;</div><div>%CMDEXTVERSION%</div><div>&nbsp;系统</div><div>&nbsp;返回当前的“命令处理程序扩展”的版本号。</div><div>&nbsp;</div><div>%COMPUTERNAME%</div><div>&nbsp;系统</div><div>&nbsp;返回计算机的名称。</div><div>&nbsp;</div><div>%COMSPEC%</div><div>&nbsp;系统</div><div>&nbsp;返回命令行解释器可执行程序的准确路径。</div><div>&nbsp;</div><div><b>%DATE%</b></div><div>&nbsp;系统</div><div>&nbsp;返回<b>当前日期</b>。使用与date /t命令相同的格式。由 Cmd.exe 生成。有关 date 命令的详细信息，请参阅 Date。</div><div>&nbsp;</div><div><b>%ERRORLEVEL%</b></div><div>&nbsp;系统</div><div>&nbsp;返回<b>上一条命令的错误代码</b>。通常用非零值表示错误。</div><div><b><br></b></div><div><b>*.注意：有些指令不会改变</b><b>%ERRORLEVEL%</b><b>的值！</b></div><div><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 如echo、setlocal、pause……</b></div><div>&nbsp;</div><div><br></div><div>%HOMEDRIVE%</div><div>&nbsp;系统</div><div>&nbsp;返回连接到用户主目录的本地工作站驱动器号。基于主目录值而设置。用户主目录是在“本地用户和组”中指定的。</div><div>&nbsp;</div><div>%HOMEPATH%</div><div>&nbsp;系统</div><div>&nbsp;返回用户主目录的完整路径。基于主目录值而设置。用户主目录是在“本地用户和组”中指定的。</div><div>&nbsp;</div><div>%HOMESHARE%</div><div>&nbsp;系统</div><div>&nbsp;返回用户的共享主目录的网络路径。基于主目录值而设置。用户主目录是在“本地用户和组”中指定的。</div><div>&nbsp;</div><div>%LOGONSERVER%</div><div>&nbsp;局部</div><div>&nbsp;返回验证当前登录会话的域控制器的名称。</div><div>&nbsp;</div><div>%NUMBER_OF_PROCESSORS%</div><div>&nbsp;系统</div><div>&nbsp;指定安装在计算机上的处理器的数目。</div><div>&nbsp;</div><div>%OS%</div><div>&nbsp;系统</div><div>&nbsp;返回操作系统名称。Windows 2000 会将该操作系统显示为 Windows NT。</div><div>&nbsp;</div><div><b>%PATH%</b></div><div>&nbsp;系统</div><div>&nbsp;指定<b>可执行文件的搜索路径</b>。</div><div>&nbsp;</div><div>%PATHEXT%</div><div>&nbsp;系统</div><div>&nbsp;返回操作系统认为可执行的文件扩展名的列表。</div><div>&nbsp;</div><div>%PROCESSOR_ARCHITECTURE%</div><div>&nbsp;系统</div><div>&nbsp;返回处理器的芯片体系结构。值：x86 或 IA64（基于 Itanium）。</div><div>&nbsp;</div><div>%PROCESSOR_IDENTFIER%</div><div>&nbsp;系统</div><div>&nbsp;返回处理器说明。</div><div>&nbsp;</div><div>%PROCESSOR_LEVEL%</div><div>&nbsp;系统</div><div>&nbsp;返回计算机上安装的处理器的型号。</div><div>&nbsp;</div><div>%PROCESSOR_REVISION%</div><div>&nbsp;系统</div><div>&nbsp;返回处理器的版本号。</div><div>&nbsp;</div><div>%PROMPT%</div><div>&nbsp;局部</div><div>&nbsp;返回当前解释程序的命令提示符设置。由 Cmd.exe 生成。</div><div>&nbsp;</div><div><b>%RANDOM%</b></div><div>&nbsp;系统</div><div>&nbsp;返回 <b>0 到 32767</b> 之间的<b>任意十进制数字</b>。由 Cmd.exe 生成。</div><div>&nbsp;</div><div>%SYSTEMDRIVE%</div><div>&nbsp;系统</div><div>&nbsp;返回包含 Windows 服务器操作系统根目录（即系统根目录）的驱动器。</div><div>&nbsp;</div><div>%SYSTEMROOT%</div><div>&nbsp;系统</div><div>&nbsp;返回 Windows 服务器操作系统目录的位置。</div><div>&nbsp;</div><div><b>%TEMP% 和 %TMP%</b></div><div>&nbsp;系统和用户</div><div>&nbsp;返回对当前登录用户可用的应用程序所使用的默认临时目录。有些应用程序需要 TEMP，而其他应用程序则需要 TMP。</div><div>&nbsp;</div><div><b>%TIME%</b></div><div>&nbsp;系统</div><div>&nbsp;返回<b>当前时间</b>。使用与 time /t 命令相同的格式。由 Cmd.exe 生成。有关 time 命令的详细信息，请参阅 Time。</div><div>&nbsp;</div><div>%USERDOMAIN%</div><div>&nbsp;局部</div><div>&nbsp;返回包含用户帐户的域的名称。</div><div>&nbsp;</div><div>%USERNAME%</div><div>&nbsp;局部</div><div>&nbsp;返回当前登录的用户的名称。</div><div>&nbsp;</div><div>%USERPROFILE%</div><div>&nbsp;局部</div><div>&nbsp;返回当前用户的配置文件的位置。</div><div>&nbsp;</div><div>%WINDIR%</div><div>&nbsp;系统</div><div>&nbsp;返回操作系统目录的位置。</div></div>
+    <div id="toc" class="toc-article">
+        <strong class="toc-title">Contents</strong>
+        
+        
+        
+    </div>
+    
+    <p>条款1：仔细区别pointers和references<br>distinguish between pointers and references.</p>
+<p>references引用必须总是代表一个对象，必须在声明时初始化。<br>pointer就有可能不指向（代表）任何对象。</p>
+<p>当你知道你需要指向某个东西，而且绝不会改变指向其他东西，<br>或是你实现一个操作符，而其语法需求无法由pointer达成，就该选择references。<br>否则采用pointers。</p>
+<p>条款2：最好使用C++转型操作符<br>prefer C++-style casts.</p>
+<p>const_cast：用来去除表达式中的常量性constness或变易性volatileness。旧式转换做不到。</p>
+<p>dynamic_cast：用来执行继承体系中“安全的向下转型或跨系转型动作”。<br>无法应用在缺乏虚函数的类型身上（条款24）。</p>
+<p>static_cast：不涉及继承机制的类型执行转型。</p>
+<p>reinterpret _cast：此操作符的转换结果几乎总是与编译平台息息相关，所以它不具有移植性。</p>
+<p>向下转型：父类对象指向子类。<br>向上转型：将子类对象转为父类对象。</p>
+<p>条款3：绝对不要以多态（polymorphically）方式处理数组<br>nver treat arrays polymorphically.</p>
+<p>C++也允许通过base class 的 pointers 和 references 来操作 derived class objects 所形成的数组。</p>
+<p>derived classes通常比base classes有更多的data members，所以其object比基类的大。<br>当你声明base class 的 array，编译器按照 i * sizeof(base class object) 来分配内存，或按照这个大小来处理它。<br>当void func(const BaseClass ary[])函数传入的参数是DerivedClass ary[] 时，处理的结果就无法预期了。</p>
+<p>delete [] ary 时，调用的是ary的声明类型对应的析构函数，而非调用其实际类型的析构函数。<br>因为C++语言规范中说，通过base class pointer去删除一个由derived classes objects组成的数组，其结果未定义！</p>
+<p>绝对不要以多态（polymorphically）方式处理数组，会产生你意想不到的结果！</p>
+<p>条款4：非必要不提供default constructor<br>avoid gratuitous default constructors.</p>
+<p>它意味着在没有外来信息的情况下初始化对象，有时这样的对象是没有意义的！<br>所以别提供default constructor了，<br>因为这还影响classes的效率，让调用者测试其行为而付出空间代价（程序库和执行文件变大）。</p>
+<p>不提供default constructor的问题：<br>（1）初始化数组<br>OneClass *p = new OneClass[c]; // 错误！无法调用默认构造函数<br>可以这样解决<br>OneClass p[] = {<br>     OneClass(param1),<br>     OneClass(param2),<br>     …<br>};<br>但只用于non-heap数组，无法用于heap数组。</p>
+<p>所以，更一般化的解决方法是使用“指针数组”，而非“对象数组”。<br>OneClass *ary[10];<br>for(…){ // 然后这样初始化<br>     ary[i] = new OneClass(param);<br>}<br>但必须记得：<br>a. 删除数组的所有对象，否则内存泄漏；<br>b. 需要存放指针，有结构开销，内存消耗大一些。</p>
+<p>避免以上b点关于“用太多内存”的问题，可以避免：<br>先为该数组分配raw memory，然后使用placement new在这块内存上构造OneClass objects。<br>void <em>rawMemory = operator new[](10 </em> sizeof(OneClass));<br>OneClass <em>array = static_cast&lt;OneClass</em>&gt;(rawMemory);<br>for(int i = 0; i &lt; 10; ++i){<br>     new (&amp;array[i])  OneClass(ID Number); // 没看懂！<br>} // 说是，利用placement new 构造这块内存中的OneClass objects<br>而且在数组内的对象结束生命时，以手动方式调用其destructors，<br>最后还得以调用operator detele[]的方式释放raw memory：<br>for(int i = 9; i &gt;= 0; –i){ // 以其构造顺序的相反顺序析构掉<br>     array[i].~OneClass();<br>}<br>operator delete<a href="rawMemory"></a>; // 释放rawMemory</p>
+<p>（不提供default constructor的问题：）<br>（2）classes不提供default constructor，它们将不适用于许多template-based container classes。</p>
+<p>此条款的其它论述有点麻烦，其它部还是直接看原书较好。</p>
+<p>条款5：对定制的“类型转换函数”保持警觉<br>be wary of user-defined conversion functions.</p>
+<p>C++允许编译器在不同类型之间执行隐式转换implicit conversions。<br>最好不要提供任何类型转换函数。</p>
+<p>因为它们的出现可能导致错误（非预期）的函数被调用。</p>
+<p>解决办法：<br>以功能对等的另一个函数取代类型转换操作符。如，toDouble()。<br>或者<br>将构造函数声明为explicit的——编译器不能因隐式类型转换的需要而调用他们。</p>
+<p>条款6：区别increment/decrement操作符的前置（prefix）和后置（postfix）形式<br>distinguish between prefix and postfix forms of increment and decrement operators.</p>
+<p>++increment和–decrement操作符的前置式或后置式都没有参数。<br>为了填平语言上的漏洞，只能让后置式有一个int参数，并且在它被调用时，编译器默默地为该int指定一个0值。</p>
+<p>C时代，++前置式的含义：increment and fetch（累加然后取出）；<br>++后置式：fetch and increment（取出然后累加）。–decrement操作符类同。<br>这些就是++、–操作符如何实现的正式规范。</p>
+<p>条款7：千万不要重载&amp;&amp;，||和“,”（逗号）操作符<br>never overload &amp;&amp; , || , or “,” .</p>
+<p>重载了它们之后，就无法判断这些操作符左边的还是右边的expression表达式更早执行了！<br>&amp;&amp;、||的短路功能丢失，逗号操作符的从左到右的执行顺序不能被保证。</p>
+<p>条款8：了解各种不同意义的new和delete<br>understand the different meanings of new and delete.</p>
+<p>条款9:利用destructors避免泄漏资源<br>use destructors to prevent resource leaks.</p>
+<p>条款10:在constructors内阻止资源泄漏<br>prevent resource leaks in constructors.</p>
+<p>条款11:禁止异常（exceptions）流出destructors之外<br>prevent exceptions from leaving destructors.</p>
+<p>条款12:了解“抛出一个exception”与“传递一个参数”或“调用一个虚函数”之间的差异<br>understand how throwing an exception differs from passing a parameter or calling a virtual function.</p>
+<p>条款13:以by reference方式捕捉exceptions<br>catch exceptions by reference.</p>
+<p>条款14:明智运用exception specifications<br>use exception specifications judiciously.</p>
+<p>条款15:了解异常处理（exception handling）的成本<br>understand the costs of exception handling.</p>
+<p>条款16:谨记80-20法则<br>remember the 80-20 rule.</p>
+<p>条款17:考虑使用lazy evaluation（缓式评估）<br>consider using lazy evaluation.</p>
+<p>条款18:分期摊还预期的计算成本<br>amortize the cost of experted computations.</p>
+<p>条款19:协助完成“返回值优化（RVO）”<br>facilitate the return value optimization.</p>
 
 </div>
 
@@ -142,22 +198,12 @@
 
 <div class="article-catetags">
     
-    <div class="article-categories">
-        <span></span>
-        <a class="article-category-link" href="/categories/Batch/">Batch</a>
-    </div>
-    
-    
-    <div class="article-tags hidden">
-        
-        <span></span> <a href="/tags/Batch/">Batch</a>
-    </div>
     
 </div>
 
 
 <div class="article-share" id="share">
-    <div data-url="http://icehe.me/batch/DOS 环境变量 Environment Variable/" data-title="DOS Environment Variable 环境变量 | IceHe 何志远" data-tsina="undefined" class="share clearfix">
+    <div data-url="http://icehe.me/notes/more_effective_cpp.html" data-title="More effective C++ | IceHe 何志远" data-tsina="undefined" class="share clearfix">
     </div>
 </div>
 
@@ -166,39 +212,14 @@
 
 </article>
 
-<nav class="article-nav clearfix">
-    
-    <div class="prev" >
-        <br/>
-        <a href="/batch/DOS 常用指令 Command/" title="DOS Command 常用指令">
-            <strong>Prev</strong><br/>
-            <span>
-                DOS Command 常用指令
-            </span>
-        </a>
-    </div>
-    
-    
-    <div class="next">
-        <br/>
-        <a href="/batch/DOS 特殊符号 Symbol/"  title="DOS Symbol 特殊符号">
-            <strong>Next</strong><br/>
-            <span>
-                DOS Symbol 特殊符号
-            </span>
-        </a>
-    </div>
-    
-</nav>
-
 
 
 <!-- Comments Begin -->
 <section id="comments" class="comment">
     <div class="ds-thread"
-         data-thread-key="batch/DOS 环境变量 Environment Variable/"
-         data-title="DOS Environment Variable 环境变量"
-         data-url="http://icehe.me/batch/DOS 环境变量 Environment Variable/">
+         data-thread-key="notes/more_effective_cpp.html"
+         data-title="More effective C++"
+         data-url="http://icehe.me/notes/more_effective_cpp.html">
     </div>
 </section>
 
@@ -405,34 +426,6 @@ var duoshuoQuery = {short_name:"icehe"};
 <!--<script src="/js/jquery.qrcode-0.12.0.min.js"></script>-->
 <!-- JavaScript Resource End -->
 
-
-<!-- For Post Begin -->
-<script type="text/javascript">
-    $(document).ready(function(){
-        var ai = $('.article-content>iframe'),
-                ae = $('.article-content>embed'),
-                t  = $('#toc'),
-                ta = $('#toc.toc-aside'),
-                o  = $('.openaside'),
-                c  = $('.closeaside');
-        if(ai.length>0){
-            ai.wrap('<div class="video-container" />');
-        };
-        if(ae.length>0){
-            ae.wrap('<div class="video-container" />');
-        };
-        c.click(function(){
-            ta.css('display', 'block').addClass('fadeIn');
-        });
-        o.click(function(){
-            ta.css('display', 'none');
-        });
-        $(window).scroll(function(){
-            ta.css("top",Math.max(140, 320 - $(this).scrollTop()));
-        });
-    });
-</script>
-<!-- For Post End -->
 
 
 <!-- For Like Button Begin -->
@@ -835,6 +828,8 @@ var duoshuoQuery = {short_name:"icehe"};
 </body>
 
 </html>
+
+
 
 
 
