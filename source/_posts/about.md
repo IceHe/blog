@@ -12,12 +12,12 @@ toc: false
 
 - __I'm__
 
-    <i class="fa fa-user-secret">&nbsp;</i><a href="#qr_code" onclick="document.getElementById('qr_code').className='center pic_styl'; setTimeout(function(){ $('#qr_code').fadeOut(100).fadeIn(150).fadeOut(100).fadeIn(150); }, 200);"> Ice He 何志远 </a>
+    <i class="fa fa-user-secret">&nbsp;</i> Ice He
     &nbsp; &nbsp; <sup><i class="fa fa-paper-plane">&nbsp;</i> A Cantonese in Beijing</sup>
     <i class="fa fa-weibo">&nbsp;</i> [Weibo](http://weibo.com/2181657940/) Mobile API
     &nbsp; &nbsp; <sup><i class="fa fa-puzzle-piece">&nbsp;</i> Server-side Development Engineer</sup>
-    <i class="fa fa-envelope">&nbsp;</i> <x@icehe.me>
-    &nbsp; &nbsp; <sup><i class="fa fa-eye-slash">&nbsp;</i> bDhzbDQ3czY2NjM=</sup>
+    <i class="fa fa-envelope">&nbsp;</i> x#icehe.me
+    &nbsp; &nbsp; <sup><i class="fa fa-eye-slash">&nbsp;</i> Replace # with @</sup>
 
 - __Tech__
 
@@ -164,8 +164,8 @@ __优职英才（北京）教育科技公司 - 市场部 - 实习生__ &nbsp; &n
 - 校园推广活动的筹划执行、品牌建设、微博营销号运营、文案
 - 曾于广州各高校执行十数场推广公司品牌的讲座、交流会、公开课
 
-<br/><hr/><br/><div class="center"> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_00.jpg" class="pic_styl" style="margin-left: 0px" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_01a.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_08.png" class="pic_styl" /> </div> <div class="center"> <img id="qr_code" src="http://7vzp68.com1.z0.glb.clouddn.com/about_original/qrcode_00.jpg" class="hidden" /> </div> <div class="center"> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_03a.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_05.png" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_06.png" class="pic_styl" /> </div></div>
-<div class="center"><sub>图片 “毫无 PS 痕迹” 惹，仅供参考，😰 请您以实物为准（逃</sup></div> <div class="center"><sub>__Warning__: The pictures are for reference only!</sub></div> <div class="center"><sub>PV = <span id="busuanzi_value_site_pv"></span> , UV = <span id="busuanzi_value_site_uv"></span></sub></div>
+<br/><hr/><br/><div class="center"> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_00.jpg" class="pic_styl" style="margin-left: 0px" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_01a.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_08.png" class="pic_styl" /> </div> <div class="center"> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_03a.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_05.png" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_06.png" class="pic_styl" /> </div></div>
+<div class="center"><sub>图片 <span class="hidden">“毫无 PS 痕迹” 惹，</span>仅供参考，😰 请您以实物为准（逃</sup></div> <div class="center"><sub>__Warning__: The pictures are for reference only!</sub></div> <div class="hidden center"><sub>PV = <span id="busuanzi_value_site_pv"></span> , UV = <span id="busuanzi_value_site_uv"></span></sub></div>
 
 
 <script src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
