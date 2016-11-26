@@ -661,13 +661,13 @@ var duoshuoQuery = {short_name:"icehe"};
                     if (results.length>0) {
                         var counter = results[0];
                         counter.fetchWhenSave(true); //get recent result
-                        counter.increment("pv");
+                        counter.increment("time");
                         counter.save();
                     } else {
                         var newcounter = new Counter();
                         newcounter.set("title", title);
                         newcounter.set("url", url);
-                        newcounter.set("pv", 1);
+                        newcounter.set("time", 1);
                         newcounter.save(null, {
                             success: function(newcounter) {
                                 //alert('New object created');
@@ -695,7 +695,7 @@ var duoshuoQuery = {short_name:"icehe"};
         var popular_list = $('.popularlist');
         if (1 == popular_list.length) {
             var query = new AV.Query(Counter);
-            query.descending('pv');
+            query.descending('time');
             query.limit(30);
 
             var excluding_list = [
@@ -717,7 +717,7 @@ var duoshuoQuery = {short_name:"icehe"};
                                 + counter.get("url") + '" name="'
                                 + title + '">'
                                 + '<sup>'
-                                + counter.get("pv") + ' </sup> &nbsp;'
+                                + counter.get("time") + ' </sup> &nbsp;'
                                 + title
                                 + '</a>'
                         );
@@ -763,7 +763,7 @@ var duoshuoQuery = {short_name:"icehe"};
                                     + counter.get("url") + '" name="'
                                     + title + '">'
                                     + '<sup><i class="fa fa-signal">&nbsp;</i>'
-                                    + counter.get("pv") + ' </sup> &nbsp;'
+                                    + counter.get("time") + ' </sup> &nbsp;'
                                     + title + '</a></li>'
                             );
                         }
@@ -784,9 +784,9 @@ var duoshuoQuery = {short_name:"icehe"};
                         var counter = results[0];
                         var title = counter.get("title");
                         var url = counter.get("url");
-                        var pv = counter.get("pv");
+                        var time = counter.get("time");
 
-                        article_info.find(".article-pageview").text(pv);
+                        article_info.find(".article-pageview").text(time);
                     }
                 },
                 error: function(error) {
@@ -809,9 +809,9 @@ var duoshuoQuery = {short_name:"icehe"};
                         if (1 == results.length) {
                             var counter = results[0];
                             var url = counter.get("url");
-                            var pv = counter.get("pv");
+                            var time = counter.get("time");
 
-                            $(".post a[href='" + url + "']").find('.readtimes').text(pv);
+                            $(".post a[href='" + url + "']").find('.readtimes').text(time);
                         }
                     },
                     error: function(error) {

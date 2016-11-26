@@ -105,12 +105,12 @@
     
 <section class="post" itemscope itemprop="blogitem">
     
-    <a href="/c++/C++ Primer 5th/" title="C++ Primer 5th - Note" itemprop="url">
+    <a href="/c++/C++ Interview Book/" title="C++ Interview Book - Note" itemprop="url">
     
-        <h1 itemprop="name">C++ Primer 5th - Note</h1>
+        <h1 itemprop="name">C++ Interview Book - Note</h1>
     
         
-        <p itemprop="description" >多图慎入！《C++ Primer 5th》中文版及部分其它C++相关的手写笔记的图片存档。</p>
+        <p itemprop="description" >多图慎入！《程序员面试笔试宝典》（机械工业出版社）的手写笔记的图片存档。</p>
         
     
         <p style="display:inline">
@@ -136,12 +136,12 @@
     
 <section class="post" itemscope itemprop="blogitem">
     
-    <a href="/c++/C++ Interview Book/" title="C++ Interview Book - Note" itemprop="url">
+    <a href="/c++/C++ Primer 5th/" title="C++ Primer 5th - Note" itemprop="url">
     
-        <h1 itemprop="name">C++ Interview Book - Note</h1>
+        <h1 itemprop="name">C++ Primer 5th - Note</h1>
     
         
-        <p itemprop="description" >多图慎入！《程序员面试笔试宝典》（机械工业出版社）的手写笔记的图片存档。</p>
+        <p itemprop="description" >多图慎入！《C++ Primer 5th》中文版及部分其它C++相关的手写笔记的图片存档。</p>
         
     
         <p style="display:inline">
@@ -719,13 +719,13 @@
                     if (results.length>0) {
                         var counter = results[0];
                         counter.fetchWhenSave(true); //get recent result
-                        counter.increment("pv");
+                        counter.increment("time");
                         counter.save();
                     } else {
                         var newcounter = new Counter();
                         newcounter.set("title", title);
                         newcounter.set("url", url);
-                        newcounter.set("pv", 1);
+                        newcounter.set("time", 1);
                         newcounter.save(null, {
                             success: function(newcounter) {
                                 //alert('New object created');
@@ -753,7 +753,7 @@
         var popular_list = $('.popularlist');
         if (1 == popular_list.length) {
             var query = new AV.Query(Counter);
-            query.descending('pv');
+            query.descending('time');
             query.limit(30);
 
             var excluding_list = [
@@ -775,7 +775,7 @@
                                 + counter.get("url") + '" name="'
                                 + title + '">'
                                 + '<sup>'
-                                + counter.get("pv") + ' </sup> &nbsp;'
+                                + counter.get("time") + ' </sup> &nbsp;'
                                 + title
                                 + '</a>'
                         );
@@ -821,7 +821,7 @@
                                     + counter.get("url") + '" name="'
                                     + title + '">'
                                     + '<sup><i class="fa fa-signal">&nbsp;</i>'
-                                    + counter.get("pv") + ' </sup> &nbsp;'
+                                    + counter.get("time") + ' </sup> &nbsp;'
                                     + title + '</a></li>'
                             );
                         }
@@ -842,9 +842,9 @@
                         var counter = results[0];
                         var title = counter.get("title");
                         var url = counter.get("url");
-                        var pv = counter.get("pv");
+                        var time = counter.get("time");
 
-                        article_info.find(".article-pageview").text(pv);
+                        article_info.find(".article-pageview").text(time);
                     }
                 },
                 error: function(error) {
@@ -867,9 +867,9 @@
                         if (1 == results.length) {
                             var counter = results[0];
                             var url = counter.get("url");
-                            var pv = counter.get("pv");
+                            var time = counter.get("time");
 
-                            $(".post a[href='" + url + "']").find('.readtimes').text(pv);
+                            $(".post a[href='" + url + "']").find('.readtimes').text(time);
                         }
                     },
                     error: function(error) {
