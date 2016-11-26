@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>IceHe.me</title>
-  <subtitle>More is in vain when less will serve.</subtitle>
+  <subtitle>Less.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://icehe.me/"/>
@@ -9,7 +9,7 @@
   <id>http://icehe.me/</id>
   
   <author>
-    <name>IceHe</name>
+    <name>Ice He</name>
     <email>x@icehe.me</email>
   </author>
   
