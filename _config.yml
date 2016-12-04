@@ -10,10 +10,10 @@
 # Site
 title: IceHe.me
 subtitle: More is in vain when less will serve.
-description: IceHe blog 博客 software development technology 软件 开发 技术
-author: IceHe
+description: More is in vain when less will serve.
+author: Ice He
 email: x@icehe.me
-language: default
+language: en
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -88,7 +88,7 @@ disqus_shortname: # in Theme Jacman _config.yml
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: jacman  #jacman-master
+theme: next  #jacman-master
 exclude_generator: #它指的就是Plugins
 - hexo-generator-feed
 - hexo-generator-sitemap
