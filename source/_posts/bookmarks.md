@@ -1,39 +1,31 @@
 title: Blog Map 博客地图
 date: 2015-12-20
 updated: 2016-10-05
-show_updated: true
 categories: [read]
 tags: [read]
 description: 本博客的导航页。
 ---
-
-- 这里是 __本博客的导航页。__
-
+<!--
 ## __Welcome__
 
 - __This blog is my open notebook.__
 
     建立这个博客，首先是为了「记录、总结知识和见解」，其次才是「分享知识、展示自我」。
-
     但是单纯囤积知识和见解意义不大，只想聚焦核心的观念和方法论，不断磨淬。
-
     所以我总是在完善旧文章，却不常发布新文章 ——「贵精不贵多」。
-
-    <!-- 比起悦人，这里更是悦己的场所。 -->
+    比起悦人，这里更是悦己的场所。
 
 - __Record & Share__
 
     用 Evernote 可以做到「记录」，但是难以「分享」；用 GitHub 可以同时做到两者，但是达不到理想的展示效果，所以做了这个博客。
-
     平日里想要阐发的见闻、见解主要发到 [微博](http://weibo.com/icedes) 和朋友圈，凑够一篇长文才会发到这里。
-
+-->
 ## __Index__
 
 - [Archives 归档 ( Sort by Time )](/archives)
 - Sort by Category as follows.
 
 ### [Read](/categories/read)
----
 
 - Blog Map 博客地图 <sup>this page</sup>
 - [__Technology Bookmarks 技术书签__](/tech)
@@ -41,13 +33,11 @@ description: 本博客的导航页。
 - [Favorites 喜好](/favourites)
 
 ### [Mac](/categories/Mac)
----
 
 - [__Tools 利器__](/tools) - App、硬件推荐
 - [__Mac Shortcuts 快捷键__](/mac_shortcuts)
 
 ### [Think](/categories/think)
----
 
 - [__Life Exp 生活指北__](/think/life_manual) <sup>__New__</sup>
 - [2016 Fall](/think/2016_fall) <sup>__New__</sup>
@@ -55,7 +45,6 @@ description: 本博客的导航页。
 - [Bye 2015](/think/bye2015)
 
 ### [Web](/categories/Web)
----
 
 - [Build Blog 搭建个人博客](/web/build_blog/)
 - [实现网站的支付宝打赏功能](/web/donate)
@@ -63,7 +52,6 @@ description: 本博客的导航页。
 - [404 Page](/404)
 
 ### [C++](/categories/C/)
----
 
 - [C++ Primer 5th - Note](/c++/C++ Primer 5th/)
 - [C++ Interview Book - Note](/c++/C++ Interview Book/)
@@ -71,7 +59,6 @@ description: 本博客的导航页。
 - Effective C++ - Note [「 1 」](/c++/Effective C++ - Reading Note 1)[「 2 」](/c++/Effective C++ - Reading Note 2)[「 3 」](/c++/Effective C++ - Reading Note 3)[「 4 」](/c++/Effective C++ - Reading Note 4)
 
 ### [CentOS](/categories/CentOS)
----
 
 - [U盘安装](/linux/[00] U盘安装 CentOS 7/)
 - [恢复 Windows 的开机引导](/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/)
@@ -81,18 +68,15 @@ description: 本博客的导航页。
 - [自动挂载 NTFS 格式的硬盘分区](/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/)
 
 ### [Command](/categories/Command)
----
 
 - [Git Note](/cmd/git_note)
 
 ### [AppleScript](/categories/AppleScript)
----
 
 - [用 AppleScript 操作 Evernote / macOS](/applescript/evernote_osx/)
 - [AppleScript Quick Start 快速入门](/applescript/applescript/)
 
 ### [ASM 汇编](/categories/ASM)
----
 
 - 准备：[在win7 64位系统上使用 debug.exe](/asm/在win7 64位系统上使用debug.exe/)
 - 「1」[寄存器、CS、IP、CPU、内存](/asm/Assembly Language - Note 1/)
@@ -113,7 +97,6 @@ description: 本博客的导航页。
 - 「15」 [附录内容：汇编编译器对jmp的处理，地址计数器（AC），处理伪操作指令，栈传递参数，无溢出除法…](/asm/Assembly Language - Note 15/)
 
 ### [Batch 批处理](/categories/Batch)
----
 
 - [Batch Command 批处理指令](/batch/Batch 批处理指令 Command/)
 - [DOS Command 常用指令](/batch/DOS 常用指令 Command/)
@@ -121,25 +104,21 @@ description: 本博客的导航页。
 - [DOS Environment Variable 环境变量](/batch/DOS 环境变量 Environment Variable/)
 
 ### [JavaScript](/javascript/某次js代码优化过程)
----
 
 - [某次 JavaScript 代码优化过程](/javascript/某次js代码优化过程/)
 
 ### [Time Mgt](/categories/time-mgt)
----
 
 - [Life Logs 手帐](/lifelogs)
 - [Time Mgt 时间管理日志](/think/time_mgt)
 
 ### [Whoami](/categories/whoami)
----
 
 - [CV 简历](/about/)
 - [My Moments](/moments/)
 - [Reward Me 打赏博主](/reward)
 
 <!--### [PHP](/categories/PHP)-->
-<!-- --- -->
 
 <!-- - [PHP empty\(\) 和 isset\(\) 的区别](/php/PHP%20empty%28%29%20%E5%92%8C%20isset%28%29%20%E7%9A%84%E5%8C%BA%E5%88%AB/)-->
 <!-- - <a href="/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var)/">PHP var !== NULL 是否等价于 isset()</a>-->
