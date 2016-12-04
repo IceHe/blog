@@ -1,18 +1,16 @@
 title: CV 简历
 date: 2015-01-20
 updated: 2016-10-16
-show_updated: true
 categories: [whoami]
 tags: [whoami]
-description: Intro / Technology / Experience / Education / Leadership / etc.
-toc: false
+description: Intro / Tech / Exp / Edu / etc.
 ---
 
-# __Me__
+# __Me 我__
 
 - __I'm__
 
-    <i class="fa fa-user-secret">&nbsp;</i> Ice He
+    <i class="fa fa-user-secret">&nbsp;</i> Ice He | Hzy
     &nbsp; &nbsp; <sup><i class="fa fa-paper-plane">&nbsp;</i> A Cantonese in Beijing</sup>
     <i class="fa fa-weibo">&nbsp;</i> [Weibo](http://weibo.com/2181657940/) Mobile API
     &nbsp; &nbsp; <sup><i class="fa fa-puzzle-piece">&nbsp;</i> Server-side Development Engineer</sup>
@@ -54,31 +52,25 @@ toc: false
     &nbsp; &nbsp; <sup><i class="fa fa-heart">&nbsp;</i> 羽毛球, 毽球, 动漫, 日剧, 美食, 整洁</sup>
     <i class="fa fa-check">&nbsp;</i> Done is better than perfect.
 
-# Technology
+---
 
-## <i class="hidden">Refs</i>
-<i class="fa fa-home">&nbsp;</i>&nbsp; [__Blog:__ &nbsp;icehe.me](http://icehe.me)
-<i class="fa fa-github-alt">&nbsp;</i>&nbsp; [__GitHub:__ &nbsp;IceHe](http://github.com/IceHe)
+# Tech 技术
 
-## <i class="hidden">Skills</i>
-__Skills__ &nbsp; &nbsp; <i class="fa fa-trophy"></i> Proficient &nbsp; <i class="fa fa-star"></i> Familiar &nbsp; <i class="fa fa-star-half-o"></i> Competent &nbsp; <i class="fa fa-star-o"></i> Know
+- __Blog__ &nbsp; &nbsp; <i class="fa fa-home"></i> [icehe.me](http://icehe.me)
+- __GitHub__ &nbsp; &nbsp; <i class="fa fa-github-alt"></i> [IceHe](http://github.com/IceHe)
+- \-\-\-
+- <u>__Skills__ &nbsp; &nbsp; <i class="fa fa-trophy"></i> Proficient &nbsp; <i class="fa fa-star"></i> Familiar &nbsp; <i class="fa fa-star-half-o"></i> Competent &nbsp; <i class="fa fa-star-o"></i> Know</u>
+- __Lang__ &nbsp; &nbsp; __<i class="fa fa-star-half-o"></i> `PHP` `C++` `Python`__ `C` `Java` `JavaScript` &nbsp; <i class="fa fa-star-o"></i> `ASM` `VB`
+- __OS__ &nbsp; &nbsp; __<i class="fa fa-star"></i> `macOS` &nbsp; <i class="fa fa-star-half-o"></i> `CentOS 6.5 / 7` `Windows 7 / 8.1`__ &nbsp; <i class="fa fa-star-o"></i> `Ubuntu`
+- __DB__ &nbsp; &nbsp; __<i class="fa fa-star-half-o"></i> `SQL` `MySQL`__ &nbsp; <i class="fa fa-star-o"></i> `MS SQL Server 2008` `Oracle DB`
+- __Web__ &nbsp; &nbsp; __<i class="fa fa-star-half-o"></i> `HTML` `CSS` `jQuery`__ &nbsp; <i class="fa fa-star-o"></i> `Docker` `Redis` `Nginx`
+- __IDE__ &nbsp; &nbsp; __<i class="fa fa-star-half-o"></i> `PhpStorm` `PyCharm`__ &nbsp; <i class="fa fa-star-o"></i> `Visual Studio` `Eclipse` `QtCreator`
+- __Scripts__ &nbsp; &nbsp; __<i class="fa fa-star"></i> `AppleScript` &nbsp; <i class="fa fa-star-half-o"></i> `Shell script`__ `Batch file`
+- __Tools & Others__ &nbsp; &nbsp; __<i class="fa fa-star"></i> `Git` `Vim` `Zsh` &nbsp; <i class="fa fa-star-half-o"></i> `Qt 4 / 5`__
 
 ---
-__Lang__ &nbsp; &nbsp; __<i class="fa fa-star-half-o"></i> `PHP` `C++` `Python`__ `C` `Java` `JavaScript` &nbsp; <i class="fa fa-star-o"></i> `ASM` `VB`
 
-__OS__ &nbsp; &nbsp; __<i class="fa fa-star"></i> `macOS` &nbsp; <i class="fa fa-star-half-o"></i> `CentOS 6.5 / 7` `Windows 7 / 8.1`__ &nbsp; <i class="fa fa-star-o"></i> `Ubuntu`
-
-__DB__ &nbsp; &nbsp; __<i class="fa fa-star-half-o"></i> `SQL` `MySQL`__ &nbsp; <i class="fa fa-star-o"></i> `MS SQL Server 2008` `Oracle DB`
-
-__Web__ &nbsp; &nbsp; __<i class="fa fa-star-half-o"></i> `HTML` `CSS` `jQuery`__ &nbsp; <i class="fa fa-star-o"></i> `Docker` `Redis` `Nginx`
-
-__IDE__ &nbsp; &nbsp; __<i class="fa fa-star-half-o"></i> `PhpStorm` `PyCharm`__ &nbsp; <i class="fa fa-star-o"></i> `Visual Studio` `Eclipse` `QtCreator`
-
-__Scripts__ &nbsp; &nbsp; __<i class="fa fa-star"></i> `AppleScript` &nbsp; <i class="fa fa-star-half-o"></i> `Shell script`__ `Batch file`
-
-__Tools & Others__ &nbsp; &nbsp; __<i class="fa fa-star"></i> `Git` `Vim` `Zsh` &nbsp; <i class="fa fa-star-half-o"></i> `Qt 4 / 5`__
-
-# Experience
+# Exp 经历
 
 ## <i class="hidden">微博移动 - 服务端开发</i>
 __<span class="icon-weibo">&nbsp;</span>[微梦创科网络技术（中国）有限公司](https://zh.wikipedia.org/wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A) - 手机微博 - 服务端研发 工程师__ &nbsp; _2015.07 ~ Today_
@@ -116,9 +108,11 @@ __华南理工 IBM 实验室 - 成员__ &nbsp; &nbsp; _2013.03 ~ 2014.05_
 - 「华工教学云平台」Windows 客户端（C++ Qt GUI），及 Linux 服务端的部分功能
 - _C/C++ , Qt Framework , CentOS 6.5 , Fedora_
 
-# Education
+---
 
-## <i class="hidden">华南理工 - 软件工程</i>
+# Edu 教育
+
+## <i class="hidden">华南理工 - 软件</i>
 __[华南理工大学](https://zh.wikipedia.org/wiki/%E5%8D%8E%E5%8D%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6) - 软件学院 - 软件工程__ &nbsp; &nbsp; _2011.09 ~ 2015.07_
 - 微电子工艺实习（88, 1/82），电路与电子技术（94, 2/82），电路与电子技术实验（82, 2/82）
 金融软件实训（90, 1/50），C++程序设计（90, 7/82），数字逻辑（90, 9/82）
@@ -128,7 +122,9 @@ __[华南理工大学](https://zh.wikipedia.org/wiki/%E5%8D%8E%E5%8D%97%E7%90%86
 __[广州市执信中学](https://zh.wikipedia.org/wiki/%E5%B9%BF%E5%B7%9E%E5%B8%82%E6%89%A7%E4%BF%A1%E4%B8%AD%E5%AD%A6)__ &nbsp; &nbsp; _2008.09 ~ 2011.07_
 - 2008-2010年「三好学生」称号（前 20%），2011届「优秀毕业生称号」（前 20%）
 
-# Leadership
+---
+
+# Oth 其它
 
 ## <i class="hidden">华工职业体验协会 - 会长</i>
 __华南理工职业体验协会 - 会长__ &nbsp; &nbsp; _2013.03 ~ 2014.06_
@@ -164,22 +160,16 @@ __优职英才（北京）教育科技公司 - 市场部 - 实习生__ &nbsp; &n
 - 校园推广活动的筹划执行、品牌建设、微博营销号运营、文案
 - 曾于广州各高校执行十数场推广公司品牌的讲座、交流会、公开课
 
-<br/><hr/><br/><div class="center"> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_00.jpg" class="pic_styl" style="margin-left: 0px" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_01a.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_08.png" class="pic_styl" /> </div> <div class="center"> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_03a.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_05.png" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_06.png" class="pic_styl" /> </div></div>
-<div class="center"><sub>图片 <span class="hidden">“毫无 PS 痕迹” 惹，</span>仅供参考，😰 请您以实物为准（逃</sup></div> <div class="center"><sub>__Warning__: The pictures are for reference only!</sub></div> <div class="hidden center"><sub>PV = <span id="busuanzi_value_site_pv"></span> , UV = <span id="busuanzi_value_site_uv"></span></sub></div>
+---
 
-
-<script src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
+<div class="center"> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_00.jpg" class="pic_styl" style="margin-left: 0px" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_01a.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_08.png" class="pic_styl" /> </div> <div class="center"> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_03a.jpg" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_05.png" class="pic_styl" /> <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_06.png" class="pic_styl" /> </div>
+<div class="center"><sub>图片 <span class="hidden">“毫无 PS 痕迹” 惹，</span>仅供参考，😰 请您以实物为准（逃</sup></div> <div class="center"><sub>__Warning__: The pictures are for reference only!</sub></div> <div class="center"><sub>PV = <span id="busuanzi_value_site_pv"></span> , UV = <span id="busuanzi_value_site_uv"></span></sub></div>
 
 <style type="text/css">
-article img.pic_styl {
+.post-body .fancybox img.pic_styl {
+    display: inline !important;
     height: 140px;
     width: auto;
     margin-right: 10px;
-}
-article .article-content h2 {
-    /*margin-top: 1.8em;*/
-    margin-top: 0.5em;
-    font-size: 105%;
-    border-bottom: 0px;
 }
 </style>
