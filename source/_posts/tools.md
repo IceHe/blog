@@ -1,7 +1,6 @@
 title: Tools 利器
 date: 2015-11-21
 updated: 2016-10-28
-show_updated: true
 categories: [Mac]
 tags: [Mac]
 description: 我的 Mac Apps、电子产品推荐。

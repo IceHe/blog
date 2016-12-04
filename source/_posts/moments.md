@@ -1,7 +1,6 @@
 title: My Moments 回忆
 date: 2016-06-28
 updated: 2016-08-14
-show_updated: true
 categories: [whoami]
 tags: [whoami]
 description: Good old days. Photos & Memory.

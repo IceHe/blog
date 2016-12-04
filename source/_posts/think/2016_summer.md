@@ -1,7 +1,6 @@
 title: 2016 Summer
 date: 2016-07-03
 updated: 2016-08-14
-show_updated: true
 categories: [think]
 tags: [think]
 description: 写于 2016 年夏，一至八月小记。

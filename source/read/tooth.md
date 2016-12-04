@@ -1,7 +1,6 @@
 title: 牙齿保健
 date: 2016-07
 updated: 2016-08-03
-show_updated: true
 ---
 
 # 牙齿保健

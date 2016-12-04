@@ -1,7 +1,6 @@
 title: Bulid Blog 搭建个人博客
 date: 2015-11-14
 updated: 2016-07-10
-show_updated: true
 categories: [Web]
 tags: [Web]
 description: Why初衷、How过程，Hexo建站，Theme主题，Domain Name域名，Bed Room图床，Google CSE站内搜索，404页面，Sitemap & RSS站点地图与订阅，Site Analysis，Page View统计…

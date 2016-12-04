@@ -1,7 +1,6 @@
 title: 实现网站的打赏功能
 date: 2015-03-04
 updated: 2016-08-18
-show_updated: true
 categories: [Web]
 tags: [Web]
 description: 可用一个简单的表单（form 标签），通过POST一键自动填写「支付宝转账页面」的信息。还有，笔者自定义的“打赏”按钮方案！

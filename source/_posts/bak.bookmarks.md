@@ -1,7 +1,6 @@
 title: My Bookmarks 书签
 date: 2100-12-31
 updated: 2016-06-16
-show_updated: true
 categories: [read]
 tags: [read]
 description: 我收藏的网站、博客、文档、学习资料、文章、问答、专栏…

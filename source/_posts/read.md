@@ -1,7 +1,6 @@
 title: Reading Bookmarks 阅读书签
 date: 2016-06-17
 updated: 2016-09-27
-show_updated: true
 categories: [read]
 tags: [read]
 description: 阅读类书签：网站、博客、文章、问答、专栏、书籍、播客、微信公众号…

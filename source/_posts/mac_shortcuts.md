@@ -1,7 +1,6 @@
 title: Mac Shortcuts 快捷键
 date: 2016-01-06
 updated: 2016-10-28
-show_updated: true
 categories: [Mac]
 tags: [Mac]
 description: 我的 macOS 快捷键列表。

@@ -1,7 +1,6 @@
 title: Reward Me 打赏博主
 date: 2015-04-02
 updated: 2016-08-18
-show_updated: true
 categories: [whoami]
 tags: [whoami]
 description: 来打赏博主吧~

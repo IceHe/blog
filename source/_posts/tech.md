@@ -1,7 +1,6 @@
 title: Technology Bookmarks 技术书签
 date: 2016-06-14
 updated: 2016-11-25
-show_updated: true
 categories: [read]
 tags: [read]
 description: 技术类书签：工具、文档、Wiki、技术博客…

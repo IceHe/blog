@@ -1,7 +1,6 @@
 title: Favorites 喜好
 date: 2015-11-19
 updated: 2016-09-03
-show_updated: true
 categories: [read]
 tags: [read]
 description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游戏…
