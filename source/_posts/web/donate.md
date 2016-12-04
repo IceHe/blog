@@ -124,7 +124,7 @@ description: 可用一个简单的表单（form 标签），通过POST一键自�
 
 ``` html
 	<!-- 打赏表单 -->
-	<form id="donate" action="https://shenghuo.alipay.com/send/payment/fill.htm" 
+	<form id="donate" action="https://shenghuo.alipay.com/send/payment/fill.htm"
 		method="POST" target="_blank" accept-charset="GBK" style="display: none;">
 		<input name="optEmail" type="hidden" value="您的支付宝账号" />
 		<input name="payAmount" type="hidden" value="默认的打赏金额" />
@@ -140,7 +140,7 @@ description: 可用一个简单的表单（form 标签），通过POST一键自�
 			width: 82px;
 			height: 82px;
 			background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
-			_background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat; 
+			_background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
 		}
 		.donate_bar a.btn_donate:hover{ background-position: 0px -82px;}
 		.donate_bar .donate_txt {
@@ -153,7 +153,7 @@ description: 可用一个简单的表单（form 标签），通过POST一键自�
 
 	<!-- 打赏按钮 -->
 	<div class="donate_bar">
-		<a class="btn_donate" href="javascript:;" title="Donate 打赏" 
+		<a class="btn_donate" href="javascript:;" title="Donate 打赏"
 			onclick="document.getElementById('donate').submit()"></a>
 		<span class="donate_txt">
 			&uarr;<br/>
@@ -234,8 +234,6 @@ description: 可用一个简单的表单（form 标签），通过POST一键自�
 				src="http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg"
 				border="0" name="submit" alt="PayPal——最安全便捷的在线支付方式！"
 				style="margin-bottom: 0.5em;">
-			<img alt="" border="0" width="1" height="1"
-				src="https://www.paypalobjects.com/zh_XC/i/scr/pixel.gif" >
 		</form>
 
 		<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg" title="Alipay_Scan_Payment" class="fancybox" rel="article0">
@@ -314,7 +312,7 @@ description: 可用一个简单的表单（form 标签），通过POST一键自�
 	/* </donate-css> */
 </style>
 
-<!--Donate Module--><div id="donate_module"><!--form--><form id="donate"action="https://shenghuo.alipay.com/send/payment/fill.htm"method="POST"target="_blank"accept-charset="GBK"><input name="optEmail"type="hidden"value="ice_he@foxmail.com"/><input name="payAmount"type="hidden"value="1.00"/><input id="title"name="title"type="hidden"value="打赏《<%= item.title.substr(0, 16) %>》"/><input name="memo"type="hidden"value="留下您的大名及联系方式(email,blog,etc)，多交流共勉共进："/></form><!--/form--><!--btn_donate&tips--><div id="donate_board"class="donate_bar center"><a id="btn_donate"class="btn_donate"target="_self"href="javascript:;"title="Donate 打赏"></a><span class="donate_txt">&uarr;<br/>If you enjoy the article,please feel free to<span class="bold">donate~</span>Thx.<br/>若本文对您有帮助，<span class="bold">求打赏~</span>谢谢您的鼓励。</span><br/></div><!--/btn_donate&tips--><!--donate guide--><div id="donate_guide"class="donate_bar center hidden"><form action="https://www.paypal.com/cgi-bin/webscr"method="post"target="_blank"><input type="hidden"name="cmd"value="_s-xclick"><input type="hidden"name="hosted_button_id"value="3MPNAMMQA4C8Y">&nbsp;&nbsp;<input type="image"width="auto"height="40em"src="http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg"border="0"name="submit"alt="PayPal——最安全便捷的在线支付方式！"><img alt=""border="0"width="1"height="1"src="https://www.paypalobjects.com/zh_XC/i/scr/pixel.gif"></form><a href="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg"title="Alipay_Scan_Payment"class="fancybox"rel="article0"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_03.png"title="Donate 打赏"height="164px"width="164px"/></a>&nbsp;<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg"title="Alipay_Scan_Payment"class="fancybox"rel="article0"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg"title="Thanks 谢谢~"height="164px"width="164px"/></a>&nbsp;<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png"title="WeChat_Scan_Payment"class="fancybox"rel="article0"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png"title="Donate 打赏"height="164px"width="164px"/></a><br/><br/><span class="donate_txt">Use App<span class="bold"><a href="http://global.alipay.com/ospay/home.htm">Alipay</a>/<a href="http://www.wechat.com/en/">WeChat</a></span>to scan QRCode~Thx for your support.<br/>用手机<span class="bold"><a href="https://mobile.alipay.com/index.htm">支付宝钱包</a>/<a href="http://weixin.qq.com/">微信</a></span>，扫一扫即可~谢谢您的鼓励。<br/><br/>Or donate on<a id="donate_on_web2"class="bold"href="javascript:donate_on_web();"title="Donate 打赏">Web Alipay</a>./也可用<a id="donate_on_web1"class="bold"href="javascript:donate_on_web();"title="Donate 打赏">网页版支付宝</a>打赏。<br/></span></div><!--/donate guide--></div><!--/Donate Module-->
+<!--Donate Module--><div id="donate_module"><!--form--><form id="donate"action="https://shenghuo.alipay.com/send/payment/fill.htm"method="POST"target="_blank"accept-charset="GBK"><input name="optEmail"type="hidden"value="ice_he@foxmail.com"/><input name="payAmount"type="hidden"value="1.00"/><input id="title"name="title"type="hidden"value="打赏《<%= item.title.substr(0, 16) %>》"/><input name="memo"type="hidden"value="留下您的大名及联系方式(email,blog,etc)，多交流共勉共进："/></form><!--/form--><!--btn_donate&tips--><div id="donate_board"class="donate_bar center"><a id="btn_donate"class="btn_donate"target="_self"href="javascript:;"title="Donate 打赏"></a><span class="donate_txt">&uarr;<br/>If you enjoy the article,please feel free to<span class="bold">donate~</span>Thx.<br/>若本文对您有帮助，<span class="bold">求打赏~</span>谢谢您的鼓励。</span><br/></div><!--/btn_donate&tips--><!--donate guide--><div id="donate_guide"class="donate_bar center hidden"><form action="https://www.paypal.com/cgi-bin/webscr"method="post"target="_blank"><input type="hidden"name="cmd"value="_s-xclick"><input type="hidden"name="hosted_button_id"value="3MPNAMMQA4C8Y">&nbsp;&nbsp;<input type="image"width="auto"height="40em"src="http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg"border="0"name="submit"alt="PayPal——最安全便捷的在线支付方式！"></form><a href="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg"title="Alipay_Scan_Payment"class="fancybox"rel="article0"style="display:inline-table"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_03.png"title="Donate 打赏"height="164px"width="164px"/></a>&nbsp;<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg"title="Alipay_Scan_Payment"class="fancybox"rel="article0"style="display:inline-table"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg"title="Thanks 谢谢~"height="164px"width="164px"/></a>&nbsp;<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png"title="WeChat_Scan_Payment"class="fancybox"rel="article0"style="display:inline-table"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png"title="Donate 打赏"height="164px"width="164px"/></a><br/><br/><span class="donate_txt">Use App<span class="bold"><a href="http://global.alipay.com/ospay/home.htm">Alipay</a>/<a href="http://www.wechat.com/en/">WeChat</a></span>to scan QRCode~Thx for your support.<br/>用手机<span class="bold"><a href="https://mobile.alipay.com/index.htm">支付宝钱包</a>/<a href="http://weixin.qq.com/">微信</a></span>，扫一扫即可~谢谢您的鼓励。<br/><br/>Or donate on<a id="donate_on_web2"class="bold"href="javascript:donate_on_web();"title="Donate 打赏">Web Alipay</a>./也可用<a id="donate_on_web1"class="bold"href="javascript:donate_on_web();"title="Donate 打赏">网页版支付宝</a>打赏。<br/></span></div><!--/donate guide--></div><!--/Donate Module-->
 
 <script type="text/javascript">
 /* <donate-script> */
