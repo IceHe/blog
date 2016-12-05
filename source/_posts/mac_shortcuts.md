@@ -15,7 +15,6 @@ description: 我的 macOS 快捷键列表。
 - Latest Updated:
     - Decrease the shortcuts about `^` control, even though they're easy to use.
     - Because my left little finger is often in pain after severely using keyboard for a while.
-
 - Ref: 《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》
 
 # Explanation
