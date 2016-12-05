@@ -1,11 +1,10 @@
 title: Bulid Blog 搭建个人博客
 date: 2015-11-14
-updated: 2016-07-10
+updated: 2016-12-05
 categories: [Web]
 tags: [Web]
 description: Why初衷、How过程，Hexo建站，Theme主题，Domain Name域名，Bed Room图床，Google CSE站内搜索，404页面，Sitemap & RSS站点地图与订阅，Site Analysis，Page View统计…
 ---
-
 - 上一版《 [Why and How to bulid my blog? 搭建我的个人博客](/old_version_posts/Why_and_how_to_build_my_blog.html) 》
 - 失效链接已修复，如需帮助，望读者及时反馈。
 
@@ -13,7 +12,7 @@ description: Why初衷、How过程，Hexo建站，Theme主题，Domain Name域�
 
 与其到各大博客平台去写博客，
 不如自己搭建个独一无二的。
-不但过程有意思，还能学到许多新知识。<br/><br/>
+不但过程有意思，还能学到许多新知识。
 
 可以用来记录[自己的人生](/lifelogs)，
 放一些值得分享的技术、读书笔记和感想。
@@ -21,13 +20,13 @@ description: Why初衷、How过程，Hexo建站，Theme主题，Domain Name域�
 # How - 过程
 
 教程的各步骤描述得越详细，时效性往往越差。
-网上的类似的教程多如牛毛，不差这篇。<br/><br/>
+网上的类似的教程多如牛毛，不差这篇。
 
 所以，我并不打算详细写，
 只简略说明过程与所用的“轮子”（工具、模块），
 并列出本人参阅的教程文章的链接，
 其它更具体的细节自行百度/Google，
-查阅其它教程与相关工具模块的官方文档。<br/><br/>
+查阅其它教程与相关工具模块的官方文档。
 
 还有，折腾才能学到真东西，
 下文做法、用法从略处，还请自行摸索。
@@ -36,25 +35,25 @@ description: Why初衷、How过程，Hexo建站，Theme主题，Domain Name域�
 
 非软件、计算机专业的人，自行搭建个人博客其实不难。
 前人早已造好了各种“轮子”，只要根据网上的教程摸索一下，
-动动手指头就可以组装出自己的博客。<br/><br/>
+动动手指头就可以组装出自己的博客。
 
 可以用isnowfy的[静态页面生成静态博客](http://isnowfy.github.io/about-simple-cn.html)的方法，
 对一个新手来说，那感觉真是妙极了！
 
 当时就想：不如自己写个博客生成器吧！
-那当真是一件蛮有Geek的事啊。<br/><br/>
+那当真是一件蛮有Geek的事啊。
 
 但吾生有崖，而知也无涯，
 没必要自己重新“造轮子”，
 阅源码解其精妙未尝不可。
 君子善假于物，省出时间，
-去做真正想做的事情岂不是更好。<br/><br/>
+去做真正想做的事情岂不是更好。
 
 搭建博客的方法，除了用不同的静态博客生成器来生成外，
 还可以租用或搭建一个服务器，来运行一个动态博客，
 其中最出名的非[Wordpress](https://wordpress.com/)莫属，
 现在有更多性能优越、更便于搭建维护的博客框架，
-可另行查阅。<br/><br/>
+可另行查阅。
 
 为了让个人博客有足够定制空间的同时，尽可能降低维护成本，
 <u>__我选择了静态博客生成器：[Hexo](http://hexo.io/) !__</u>
@@ -73,7 +72,7 @@ description: Why初衷、How过程，Hexo建站，Theme主题，Domain Name域�
 其中会提到，下文涉及的“[定制点](#Custom_Points_定制点)”的内容，包含功能模块的具体配置方法。
 
 可能其中涉及各工具和模块已经有新版本，
-具体操作细节最好参考它们最新的官方文档。<br/><br/>
+具体操作细节最好参考它们最新的官方文档。
 
 有探索精神的直接可直接参照[Hexo官网](https://hexo.io/zh-cn/)，
 它提供中/英文的各种帮助信息，
@@ -85,7 +84,7 @@ description: Why初衷、How过程，Hexo建站，Theme主题，Domain Name域�
 ## Custom Points 定制点
 
 建站很容易，如果你的需求只是写写文字博客而已，可以到此结束了。
-但如果要完善博客到合乎自己的心意，那将是万里长征的第一步。<br/><br/>
+但如果要完善博客到合乎自己的心意，那将是万里长征的第一步。
 
 要获得更大的定制余地，让自己的博客更独一无二，
 最好懂些网页技术，就可以修改别人工具模块的源代码，
@@ -98,8 +97,13 @@ __通常还会提供许多功能模块的配套支持！
 一般包括但不限于：评论、分享、RSS订阅、联系方式、百度/谷歌的统计分析、标签云。__
 
 官网上有提供很多第三方主题：[Hexo Themes](https://hexo.io/themes/)
-我选用的是：[WuChong](http://wuchong.me/) 的 [__Jacman__](https://github.com/wuchong/jacman)
-该主题作者的官方教程：[如何使用 Jacman 主题](http://wuchong.me/blog/2014/11/20/how-to-use-jacman/)
+~~我选用的是：[WuChong](http://wuchong.me/) 的 [__Jacman__](https://github.com/wuchong/jacman)~~
+~~该主题作者的官方教程：[如何使用 Jacman 主题](http://wuchong.me/blog/2014/11/20/how-to-use-jacman/)~~
+现在我选用的是：[IIssNan](http://iissnan.com/) 的 [__Next__](http://theme-next.iissnan.com/)（官方文档）
+
+__它包含了以下绝大多数的定制点，不需要自己折腾太多，也可以很快做好。__
+如果你更喜欢 DIY，想要亲手试一试第一次搭建静态微博，
+从中多了解学习些细节问题，当然更好。
 
 Hexo官网的文档和API中有theme写法的说明，
 可以自己重新写一个theme。
