@@ -16,20 +16,17 @@ description: 检查控制 Wifi、蓝牙、硬盘、键盘输入，执行命令�
 - [Mac Wrangle Evernote with AppleScript](https://dev.evernote.com/doc/articles/applescript.php) / [通过 AppleScript 连接印象笔记](https://dev.yinxiang.com/doc/articles/applescript.php) - Evernote Official Docs
 - [Evernote Search Grammar](https://dev.evernote.com/doc/articles/search_grammar.php) / [搜索语法](https://dev.yinxiang.com/doc/articles/search_grammar.php) - How to Search Notes
 - __App's AppleScript Dictionary :__ Open App `Script Editor` → &nbsp;Enter `⌘ ⇧ o` → &nbsp;Choose `app_name.app` (if it supports AppleScript)
-
     __Evernote Dictionary :__ … → Choose `Evernote.app`
-
 - My Github Repos:
     1. [AppleScript_for_Evernote](https://github.com/IceHe/AppleScript_for_Evernote)
     2. [AppleScript_for_me](https://github.com/IceHe/AppleScript_for_me)
 
 # Evernote
+---
 
-I just list the code that I use most frequently.
-
-If you want further use of manipulating Evernote by AppleScript, you can read the official documentations from [Apple and Evernote](/applescript/evernote/#References) and use other programming language to cooperate with AppleScript.
-
-There is only some sample code, so it cannot run successfully in this order.
+- I just list the code that I use most frequently.
+- If you want further use of manipulating Evernote by AppleScript, you can read the official documentations from [Apple and Evernote](/applescript/evernote/#References) and use other programming language to cooperate with AppleScript.
+- There is only some sample code, so it cannot run successfully in this order.
 But you can learn how to manipulate Evernote with AppleScript from it.<br/><br/>
 
 ## Evernote
