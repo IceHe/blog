@@ -3,7 +3,8 @@ date: 2015-12-20
 updated: 2016-10-05
 categories: [read]
 tags: [read]
-description: 本博客的导航页。
+description: 博客导航。
+toc: false
 ---
 <!--
 ## __Welcome__
@@ -20,9 +21,11 @@ description: 本博客的导航页。
     用 Evernote 可以做到「记录」，但是难以「分享」；用 GitHub 可以同时做到两者，但是达不到理想的展示效果，所以做了这个博客。
     平日里想要阐发的见闻、见解主要发到 [微博](http://weibo.com/icedes) 和朋友圈，凑够一篇长文才会发到这里。
 -->
-## __Index__
+
+### Ori Index
 
 - [Archives 归档 ( Sort by Time )](/archives)
+- [Categories 分类](/categories)
 - Sort by Category as follows.
 
 ### [Read](/categories/read)
