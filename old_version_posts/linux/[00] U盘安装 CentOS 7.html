@@ -1,0 +1,831 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="google-site-verification" content="google34949e442e488102" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="IceHe.me" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon_h.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="U盘刻录工具USBWriter。everything.iso安装包。推荐英文版本系统。推荐易用的Gnome桌面。推荐LVM 自动分区。设置足够强度的root密码；创建常用账号，日后要用root权限，则用su root指令。">
+<meta name="keywords">
+<meta property="og:type" content="website">
+<meta property="og:title" content="U盘安装 CentOS">
+<meta property="og:url" content="http://icehe.me/old_version_posts/linux/[00] U盘安装 CentOS 7.html">
+<meta property="og:site_name" content="IceHe.me">
+<meta property="og:description" content="U盘刻录工具USBWriter。everything.iso安装包。推荐英文版本系统。推荐易用的Gnome桌面。推荐LVM 自动分区。设置足够强度的root密码；创建常用账号，日后要用root权限，则用su root指令。">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image.jpg">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[1].jpg">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image.png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[1].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[2].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[3].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[4].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[5].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[6].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[7].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[8].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[9].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[10].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[11].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[12].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[13].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[14].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[15].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[16].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[17].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[18].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[19].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[20].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[21].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[22].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[23].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[24].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[25].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[26].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[27].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[28].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[29].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[30].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[31].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[32].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[33].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[34].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[35].png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[36].png">
+<meta property="og:updated_time" content="2016-12-06T10:20:36.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="U盘安装 CentOS">
+<meta name="twitter:description" content="U盘刻录工具USBWriter。everything.iso安装包。推荐英文版本系统。推荐易用的Gnome桌面。推荐LVM 自动分区。设置足够强度的root密码；创建常用账号，日后要用root权限，则用su root指令。">
+<meta name="twitter:image" content="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"display":"always"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://icehe.me/old_version_posts/linux/[00] U盘安装 CentOS 7.html"/>
+
+
+
+
+
+  <title>
+  
+
+  
+    U盘安装 CentOS | IceHe.me
+  
+</title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-60837823-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+
+  <div class="container one-collumn   ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">IceHe.me</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">More is in vain when less will serve.</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-cube"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-map">
+          <a href="/bookmarks" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-bookmark"></i> <br />
+            
+            Map
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-cv">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user-secret"></i> <br />
+            
+            CV
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+<style type="text/css">
+    .center { text-align: center; }
+    .bold   { font-weight: bold; }
+    .hidden { display: none; }
+</style>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+  <header class="post-header">
+
+	<h2 class="post-title" itemprop="name headline">U盘安装 CentOS</h2>
+
+
+	<div class="post-meta">
+		<div class="post-description">U盘刻录工具USBWriter。everything.iso安装包。推荐英文版本系统。推荐易用的Gnome桌面。推荐LVM 自动分区。设置足够强度的root密码；创建常用账号，日后要用root权限，则用su root指令。</div>
+	</div>
+
+
+</header>
+
+    
+    
+      <div>
+<span style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;">Ref From: <a href="http://www.centoscn.com/image-text/setup/2014/0724/3342.html" shape="rect" target="_blank">http://www.centoscn.com/image-text/setup/2014/0724/3342.html<br clear="none"></a>Original Title: centos 7 u盘安装</div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;">U盘刻录工具<strong>USBWriter</strong>：<a href="http://www.centoscn.com/CentosSoft/tool/2014/0720/3325.html" shape="rect" target="_blank">http://www.centoscn.com/CentosSoft/tool/2014/0720/3325.html</a><br clear="none">
+注意：使用USBWriter刻录完U盘，U盘需要使用恢复工具来恢复！<br clear="none"></div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;">CentOS 官网（自行下载 系统安装包，推荐 everything.iso 版本）：<a href="http://www.centos.org/" shape="rect" target="_blank">http://www.centos.org/</a><br clear="none">
+注意：<span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">everything.iso 安装包 的便捷在于：不用设置安装源，系统安装时，便安装好大部分需要使用的软件。</span><br clear="none"></div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;"><span style="text-decoration: underline;"><strong>USBWriter</strong></span> U盘刻录工具只有100多KB，非常方便：<br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image.jpg" type="image/jpeg" height="137" style="cursor: default;" width="412"><br clear="none" style="padding: 0px; margin: 0px;"><br clear="none" style="padding: 0px; margin: 0px;">
+U盘启动安装光盘制作完成后开始启动，记得在BIOS里设置U盘启动。<br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[1].jpg" type="image/jpeg" height="358" style="cursor: default;" width="476"></div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image.png" type="image/png" height="322" style="cursor: default;" width="580"></div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[1].png" type="image/png" height="435" style="cursor: default;" width="580"></div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">等待检查完就可以进入安装了，不想等待的按ESC退出，没发现具体的影响（影响暂不清楚）。</span><br clear="none" style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 18px;"><div style="padding: 0px; margin: 0px; word-break: break-all; position: absolute; width: 17px; height: 17px; right: -2px; top: 20px; background-image: url(http://tb2.bdstatic.com/tb/static-pb/img/user_hide_post_c1433d6.png); color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 18px; background-position: -6px -6px; background-repeat: no-repeat no-repeat;"> </div><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[2].png" type="image/png" height="1" style="cursor: default;" width="1"></div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">以下进入图形化安装界面<br clear="none"><strong>推荐 </strong>安装系统的<strong> 英文版本</strong>，以免日后使用 init 3 等文字模式（非图形界面）时，<br clear="none">
+系统编码不支持中文路径，以至无法访问中文路径下的文件或目录。<br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[3].png" type="image/png" height="435" style="cursor: default;" width="580"></span></div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">提醒：完全安装好后的第一次重启，记得 设置 汉语拼音键盘。<br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[4].png" type="image/png" height="435" style="cursor: default;" width="580"></span></div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">时区设置为 Shanghai。<br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[5].png" type="image/png" height="435" style="cursor: default;" width="580"></span></div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">若是 everything.iso 安装包，则 没必要设置安装源。<br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[6].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[7].png" type="image/png" height="435" style="cursor: default;" width="580"></span></div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;"><strong>推荐</strong> <strong>Gnome 桌面</strong>，用户友好，简便易用。<br clear="none">
+KDE 桌面，过于高度自定义化，上手麻烦。<br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[8].png" type="image/png" height="435" style="cursor: default;" width="580"></span></div><div style="color: rgb(51, 51, 51); font-size: 14px; line-height: 25px; padding: 12px 16px; margin: 0px;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">若是 everything.iso 安装包，则 没必要设置网络。<br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[9].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[10].png" type="image/png" height="435" style="cursor: default;" width="580"></span><br clear="none" style="padding: 0px; margin: 0px; font-family: Verdana, Arial, Tahoma;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">接下来就是挂载文件目录到磁盘上啦</span><br clear="none" style="padding: 0px; margin: 0px; font-family: Verdana, Arial, Tahoma;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[11].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[12].png" type="image/png" height="435" style="cursor: default;" width="580"></span></div><div style="font-size: 16px;"><div style="background-color: rgb(255, 255, 255);"><div style="font-size: 12px; font-family: Verdana, Arial, Tahoma;"><div style="overflow: hidden;"><div style="overflow: hidden;"><div style="padding: 0px 0px 8px; margin: 0px; width: 712px; overflow: hidden;"><div style="padding: 12px 16px; margin: 0px; font-size: 14px; line-height: 25px; color: rgb(51, 51, 51);"><span style="padding: 0px; margin: 0px; font-family: Arial, 宋体; line-height: 24px;"><strong>推荐使用 LVM 自动分区</strong>，省心</span><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">省力。<br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[13].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[14].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[15].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[16].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[17].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[18].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[19].png" type="image/png" height="435" style="cursor: default;" width="580"></span><br clear="none" style="padding: 0px; margin: 0px;"><br clear="none" style="padding: 0px; margin: 0px;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">在安装的过程中，设置 root 密码，强度要好；<br clear="none">
+再创建一个常用账号，日后要使用 root 权限，则用 su root 指令。<br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[20].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[21].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[22].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[23].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[24].png" type="image/png" height="435" style="cursor: default;" width="580"></span><br clear="none" style="padding: 0px; margin: 0px;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">重启机器，完成剩余的</span><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;">配置</span><br clear="none" style="padding: 0px; margin: 0px;"><span style="padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Arial, 宋体; line-height: 24px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[25].png" type="image/png" height="435" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[26].png" type="image/png" height="348" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[27].png" type="image/png" height="348" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[28].png" type="image/png" height="348" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[29].png" type="image/png" height="348" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[30].png" type="image/png" height="348" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[31].png" type="image/png" height="348" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[32].png" type="image/png" height="326" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[33].png" type="image/png" height="326" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[34].png" type="image/png" height="326" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[35].png" type="image/png" height="326" style="cursor: default;" width="580"><br clear="none" style="padding: 0px; margin: 0px;"><img src="http://7vzp68.com1.z0.glb.clouddn.com/%5B00%5D%20U%E7%9B%98%E5%AE%89%E8%A3%85%20CentOS%207/Image%20[36].png" type="image/png" height="326" style="cursor: default;" width="580"></span></div></div></div></div></div></div></div></span>
+</div>
+
+    
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="old_version_posts/linux/[00] U盘安装 CentOS 7.html"
+           data-title="U盘安装 CentOS" data-url="http://icehe.me/old_version_posts/linux/[00] U盘安装 CentOS 7.html">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png"
+               alt="Ice He" />
+          <p class="site-author-name" itemprop="name">Ice He</p>
+          <p class="site-description motion-element" itemprop="description">Less.</p>
+        </div>
+
+        <div class="hidden post-toc" style="max-height: 1220px; width: calc(100% + 0px);" id="popular-post-div">
+          <div class="post-toc-content">
+            <ol class="nav" id="popular-list"></ol>
+          </div>
+        </div>
+
+        <!--
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/">
+              <span class="site-state-item-count">50</span>
+              <span class="site-state-item-name">posts</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">12</span>
+                <span class="site-state-item-name">categs</span>
+              
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">13</span>
+                <span class="site-state-item-name">tags</span>
+              
+            </div>
+          
+
+        </nav>
+        -->
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Ice He</span>
+</div>
+
+
+
+        
+
+<div class="busuanzi-count">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+
+  
+  
+</div>
+
+
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"icehe"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+    
+    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+    <script src="/js/src/hook-duoshuo.js"></script>
+  
+
+
+
+
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            if ((-1 != location.href.indexOf("icehe.me")) // 在 icehe.me 的域名下
+              && (-1 == location.href.indexOf("icehe.me/notes/")) // 不在 icehe.me/notes 的域名下
+            ) {
+              counter.increment("time");
+            }
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    function ranking(Counter, is_post) {
+        var popular_list = $('#popular-list2');
+        var is_post = (popular_list.length == 1);
+        var count = is_post ? 20 : 10;
+        if (!is_post) {
+            popular_list = $('#popular-list');
+            if (popular_list.length == 0) {
+                return;
+            }
+            $('#popular-post-div').removeClass('hidden');
+        }
+
+        var query = new AV.Query(Counter);
+        query.descending('time');
+        query.limit(count + 10);
+
+        //var regex = new RegExp('^.*?(?<!linux).*$', 'i');
+        //query.matches('url', regex);
+
+        var excluding_list = [
+            //'/reward/',
+            //'/bookmarks/',
+            '/search/', /* Hidden */
+            '/index/', /* Removed */
+            '/resume/', /* Removed */
+            '/linux/[06] Linux 通过 pip 安装使用 Shadowsocks - CentOS 7/',
+            '/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/',
+            '/linux/[04] 安装 CentOS 7 后必做的 安全防范措施/',
+            '/linux/[03] Update Kernel 升级内核 - CentOS 7/',
+            '/linux/[02] Config System Envir 配置系统环境 - CentOS 7/',
+            '/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/',
+            '/linux/[00] U盘安装 CentOS 7/'
+        ];
+        query.notContainedIn('url', excluding_list);
+
+        query.limit(count);
+        query.find()
+            .done(function (results) {
+                if (results.length === 0) {
+                    return;
+                }
+
+                    popular_list.append(
+                        '<li class="nav-item nav-level-1 bold" style="'
+                        + 'border-bottom-width: 1px; '
+                        + 'border-bottom-style: solid; '
+                        + 'border-bottom-color: #ccc;"> '
+                        + '<i class="fa fa-fire"></i> &nbsp;'
+                        + '<span class="nav-text"> Top N </span> '
+                        + '</li>'
+                    );
+                for (var i = 0; i < results.length; ++i) {
+                    var counter = results[i];
+                    title = counter.get("title");
+
+                    popular_list.append(
+                        '<li class="nav-item nav-level-1" '
+                        + ((i + 1) % 10 == 0
+                            ? 'style="border-bottom-width: 1px; '
+                                + 'border-bottom-style: solid;'
+                                + 'border-bottom-color: #ccc;"'
+                            : '')
+                        + '> '
+                        + '<span class="nav-number"> '
+                        + ((i + 1) % 10) + '. &nbsp;'
+                        + '</span> '
+                        + '<a class="nav-link" href="' + counter.get("url") + '"> '
+                        + '<span class="nav-text"> ' + counter.get('title') + ' </span> '
+                        + '</a> '
+                        + '<span class="nav-number"> '
+                        + '<sup> &nbsp;' + counter.get('time') + ' </sup> '
+                        + '</span> '
+                        + '</li>'
+                    );
+                }
+                if (!is_post) {
+                    popular_list.append(
+                        '<li class="nav-item nav-level-1"> '
+                        + '<i class="fa fa-eye"></i> &nbsp;'
+                        + '<a class="nav-link" href="/bookmarks"> '
+                        + '<span class="nav-text bold"> See More </span> '
+                        + '</a> </li>'
+                    );
+                    popular_list.append(
+                        '<li class="nav-item nav-level-1"> '
+                        + '<span class="nav-number"> &nbsp; </span> '
+                        + '<a class="nav-link" href="/bookmarks"> '
+                        + '<span class="nav-text bold"> &nbsp; </span> '
+                        + '</a> </li>'
+                    );
+                }
+          })
+          .fail(function (object, error) {
+              console.log("Error: " + error.code + " " + error.message);
+          });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+      ranking(Counter);
+    });
+  </script>
+
+
+
+  
+
+  
+
+  <script>
+    $(window).load(function() {
+        var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
+        if (1 == ds_like_button.length
+                && "none" != document.getElementsByClassName('ds-meta')[0].style.display
+                && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
+        ) {
+            ds_like_button[0].click();
+            document.getElementsByClassName('ds-like-tooltip-close')[0].click();
+            window.location.href = '#';
+        }
+    });
+  </script>
+
+
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+
+
+</body>
+</html>
