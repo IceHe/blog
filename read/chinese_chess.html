@@ -65,7 +65,9 @@
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+  
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
@@ -168,7 +170,7 @@ From: http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;amp;mid=216723229&amp
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
+      hm.src = "https://hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
       var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(hm, s);
     })();
@@ -854,8 +856,9 @@ From: http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;amp;mid=216723229&amp
         //query.matches('url', regex);
 
         var excluding_list = [
-            //'/reward/',
-            //'/bookmarks/',
+            //'/about/',
+            '/bookmarks/',
+            '/reward/',
             '/search/', /* Hidden */
             '/index/', /* Removed */
             '/resume/', /* Removed */
@@ -914,7 +917,7 @@ From: http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;amp;mid=216723229&amp
                         '<li class="nav-item nav-level-1"> '
                         + '<i class="fa fa-eye"></i> &nbsp;'
                         + '<a class="nav-link" href="/bookmarks"> '
-                        + '<span class="nav-text bold"> See More </span> '
+                        + '<span class="nav-text bold"> More </span> '
                         + '</a> </li>'
                     );
                     popular_list.append(
