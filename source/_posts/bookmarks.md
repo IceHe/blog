@@ -1,11 +1,11 @@
-title: Blog Map 博客地图
+title: Navigation 博客导航
 date: 2015-12-20
 updated: 2016-10-05
 categories: [read]
 tags: [read]
-description: 博客导航。
-toc: false
+description: Top N 热榜，分类列表。
 ---
+
 <!--
 ## __Welcome__
 
@@ -22,15 +22,19 @@ toc: false
     平日里想要阐发的见闻、见解主要发到 [微博](http://weibo.com/icedes) 和朋友圈，凑够一篇长文才会发到这里。
 -->
 
+Sort by Category as follows except the `PV` part.
+
 ### PV
 
 <div class="post-toc" style="max-height: 1220px; width: calc(100% + 0px);" id="popular-post-div2"> <div class="post-toc-content"> <ol class="nav" id="popular-list2"></ol> </div> </div>
 
-### Index
+### [Think](/categories/think)
 
-- [Archives 归档 ( Sort by Time )](/archives)
-- [Categories 分类](/categories)
-- Sort by Category as follows.
+- [2016 Winter](/think/2016_winter) <sup>__New__</sup>
+- [2016 Fall](/think/2016_fall)
+- [2016 Summer](/think/2016_summer)
+- [Bye 2015](/think/bye2015)
+- [__Life Exp 生活指北__](/think/life_manual)
 
 ### [Read](/categories/read)
 
@@ -43,13 +47,6 @@ toc: false
 
 - [__Tools 利器__](/tools) - App、硬件推荐
 - [__Mac Shortcuts 快捷键__](/mac_shortcuts)
-
-### [Think](/categories/think)
-
-- [__Life Exp 生活指北__](/think/life_manual) <sup>__New__</sup>
-- [2016 Fall](/think/2016_fall) <sup>__New__</sup>
-- [2016 Summer](/think/2016_summer)
-- [Bye 2015](/think/bye2015)
 
 ### [Web](/categories/Web)
 
@@ -124,6 +121,11 @@ toc: false
 - [CV 简历](/about/)
 - [My Moments](/moments/)
 - [Reward Me 打赏博主](/reward)
+
+<!-- ### Other Index -->
+
+<!-- - [Archives 归档 ( Sort by Time )](/archives) -->
+<!-- - [Categories 分类](/categories) -->
 
 <!--### [PHP](/categories/PHP)-->
 
