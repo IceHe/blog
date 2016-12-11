@@ -3,7 +3,7 @@ date: 2016-06-28
 updated: 2016-08-14
 categories: [whoami]
 tags: [whoami]
-description: Good old days. Photos & Memory.
+description: Good old days. Photos & Memory：执信，华工，毽球，社团，悦读，新浪微博，小时候，未来……
 ----------
 
 - Bye, my good old days : )

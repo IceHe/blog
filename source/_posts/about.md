@@ -3,7 +3,7 @@ date: 2015-01-20
 updated: 2016-10-16
 categories: [whoami]
 tags: [whoami]
-description: Intro / Tech / Exp / Edu / etc.
+description: Intro / Tech / Exp / Edu / etc.：微博移动部服务端研发（PHP），华为软件实习（Java），华南理工软件工程（本科），工具控（macOS、iOS），键盘党（快捷键），华工职业体验协会会长（社团），优职英才实习（市场部），毽球（华工毽球社社长），羽毛球，执信中学……
 ---
 
 # __Me 我__
