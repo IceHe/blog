@@ -1,6 +1,6 @@
 title: Life Logs 手帐
 date: 2015-01-22
-updated: 2016-12-17
+updated: 2016-12-18
 categories: [time mgt]
 tags: [time mgt]
 description: 个人时间管理日志。
