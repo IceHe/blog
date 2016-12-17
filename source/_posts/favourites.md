@@ -1,29 +1,22 @@
 title: Favorites 喜好
 date: 2015-11-19
-updated: 2016-09-03
+updated: 2016-12-17
 categories: [read]
 tags: [read]
-description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游戏…
+description: 我喜欢的书籍、电影、电视剧、动画、游戏…
 ---
 
-- __心目中的佳作，记录于此。__
-- Superscript 上标
-    - The item with <sup>__Best__</sup>&nbsp; implies it is `one of the best`.
-    - The item with <sup>_temp_</sup>&nbsp; implies it might `be removed one day`.
-    <!--- The item with <sup>_todo_</sup>&nbsp; implies it has `not been read-through`.-->
-    <!--- The item with <sup>Note</sup>&nbsp; implies it is `a link to my related note`.-->
+- __所爱之物记录于此。__
+- 喜欢的东西太多了，只记录最钟爱的。
+
+# Sports 运动
+
+- 羽毛球
+- [毽球](/about/#华工毽球社-社长)
 
 # Books 书
 
 - [Reading Bookmarks - Books](/read/#Books-书)
-
-# FM 播客
-
-- [Reading Bookmarks - FM](/read/#FM-播客)
-
-# WeChat OA 公众号
-
-- [Reading Bookmarks - 微信公众号](/read/#微信公众号)
 
 # Motion Picture 电影
 
@@ -68,7 +61,7 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 - [哈尔的移动城堡](https://movie.douban.com/subject/1308807/) <sup>__Best__</sup> <sup>最爱 No.2</sup>
     绚丽。
 - [你的名字。](https://movie.douban.com/subject/1308807/) <sup>__Best__</sup> <sup>最爱 No.1</sup>
-    梦？
+    梦。
 
 # TV Dramas 电视剧
 
@@ -82,8 +75,6 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
     法律至高。
 - [Black Mirror](https://movie.douban.com/subject_search?search_text=Black+Mirror&cat=1002) <sup>__Best__</sup>
     《黑镜》，警世。
-- [Game of Thrones](https://movie.douban.com/subject_search?search_text=Game+of+Thrones&cat=1002)
-    《权力的游戏》，史诗。
 
 # Animate 动画
 
@@ -149,6 +140,8 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
     恋爱喜剧。
 - [齐木楠雄的灾难](https://movie.douban.com/subject/26801048/)
     笑得根本停不下来… 哈哈哈…
+- [冰上的尤里](https://movie.douban.com/subject/26756212/)
+    华丽。
 - [Angel Beats!](http://movie.douban.com/subject/4202090/)
     音乐。
 - [花开伊吕波](http://movie.douban.com/subject/4935090/)
@@ -161,6 +154,8 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
     入宅作，从只有几集动画时就开始追了，却没坚持到最后。
 - [罗小黑战记](http://movie.douban.com/subject/10477598/) <sup>__Best__</sup>
     萌~
+- [信长的忍者](https://movie.douban.com/subject/26757958/)
+    萌~
 - <span class="val_pos icon-douban"> &nbsp;[其它看过的片](http://movie.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
     用豆瓣记录所有看过的片意义不大还麻烦，以后只在博客此处做记录。
 
@@ -169,26 +164,18 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 ## iOS
 
 - [Deemo](https://itunes.apple.com/en/app/deemo/id700637744?mt=8) <sup>__Best__</sup>
-    最爱的音乐游戏！最爱曲目：Magnolia 。超喜欢这个游戏工作室：Rayark（台湾）！
-    - 其它喜爱的曲目：
-        Nine point nine , Platinum , Utopiosphere , Yubikiri-genman , Invite , Run go run , Pulses , Electron , Walking by the sea , Beyond the Stratus , Angelic sphere , Leviathan , Suspenseful third day , Living in the one , Little corgis dream , The way we were , The red coronation , Knight of firmament , Cream stew , I can not say , Kireigoto , New World , Time forgotten , Reminiscence … ( No update now )
-- [Kingdom Rush](https://itunes.apple.com/en/app/kingdom-rush/id516378985?mt=8)
-    《皇家守卫军》，塔防。
-- [Framed](https://itunes.apple.com/en/app/framed/id886565180?mt=8) <sup>__Best__</sup>
-    《致命框架》，解密游戏，玩法新奇有趣。
-- [Monument Valley](https://itunes.apple.com/en/app/monument-valley/id728293409?mt=8)
-    《纪念碑谷》，游戏也可以是艺术品。
+    最爱的音乐游戏！最喜爱的曲目： Magnolia , Walking by the sea , Living in the one.
 
-## PC 桌面
+## PC
 
-- [Heroes of the Storm](http://heroes.blizzard.cn/landing)
-    《风暴英雄》，有趣易上手。最喜欢跟朋友一起并肩作战，半夜兴奋狂吼。
-- [Hearth Stone](http://hs.blizzard.cn/landing)
-    《炉石传说》，勾起当年玩「游戏王」的卡牌情结。
-- [Warcraft 3](http://us.blizzard.com/en-us/games/war3/) <sup>__Best__</sup>
-    《魔兽争霸3 冰封王座》！当年多喜欢即时战略，不过这股风潮已经过去。之后崛起的 Dota、LOL 就没玩了。
 - [三国志 9](http://www.gamecity.ne.jp/products/products/ee/new/san9/)
     战略游戏经典之作。
+- [Hearth Stone](http://hs.blizzard.cn/landing)
+    《炉石传说》，勾起当年玩「游戏王」的卡牌情结。
+- [Heroes of the Storm](http://heroes.blizzard.cn/landing)
+    《风暴英雄》，有趣易上手。最喜欢跟朋友一起并肩作战，半夜兴奋狂吼。
+- [Warcraft 3](http://us.blizzard.com/en-us/games/war3/) <sup>__Best__</sup>
+    《魔兽争霸3 冰封王座》！当年多喜欢即时战略，不过这股风潮已经过去。之后崛起的 Dota、LOL 就没玩了。
 
 ## Game Boy 掌机
 
@@ -228,60 +215,35 @@ description: 我喜欢的书籍、FM栏目、电影、电视剧、动画、游�
 - [鬼哭街2011重制版](http://baike.baidu.com/view/8890991.htm) <sup>__Best__</sup>
     我想象中的现代中式武侠打斗的文字描写范本，虚渊玄作品。
 
-## 实体游戏
+## Others 其它
 
 - [游戏王](https://zh.wikipedia.org/wiki/%E9%81%8A%E6%88%B2%E7%8E%8B%E9%9B%86%E6%8F%9B%E7%B4%99%E7%89%8C%E9%81%8A%E6%88%B2) <sup>__Best__</sup>
     挚爱的卡牌游戏，当年几个损友一起愉快地玩了三年，花了不少钱去买正版卡牌；初三戒了，就再也没有继续下去，几个损友如今也难再聚。
 - [围棋](https://zh.wikipedia.org/wiki/%E5%9B%B4%E6%A3%8B) <sup>__Best__</sup>
     深奥幽玄。当年买了好几本大部头教材，小学中午午睡时间我不睡觉，就在被窝里钻研。
-- [四子棋](https://zh.wikipedia.org/wiki/%E5%B1%8F%E9%A2%A8%E5%BC%8F%E5%9B%9B%E5%AD%90%E6%A3%8B)
-- [跳棋](https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E8%B7%B3%E6%A3%8B)
-    当年自己发明了许多玩法。
 
 # Singers 歌手
 
-- __Twins <sup>Most</sup>__
-<!--幼稚园、死性不改、梨涡浅笑、星光游乐园。-->
-- __古巨基 <sup>Most</sup>__
-- 卫诗
-- __卫兰__
-- __陈奕迅 <sup>Most</sup>__
-- 邓丽欣
-- 方力申
-- __杨千嬅 <sup>Most</sup>__
-- __周杰伦__
-- __F.I.R__
-- __S.H.E__
-- __Tank__
-- 王心凌
-- __王力宏__
-- __陶喆 <sup>Most</sup>__
-- Rie fu
-- 张敬轩
-- __苏打绿__
-- 孙燕姿
-- __南拳妈妈__
-- __陈绮贞 <sup>Most</sup>__
-- __张韶涵__
-- __梁静茹 <sup>Most</sup>__
-- __初音ミク <sup>Most</sup>__
+- Twins <sup>__Best__</sup>
+- 古巨基
+- 陈奕迅 <sup>__Best__</sup>
+- 杨千嬅 <sup>__Best__</sup>
+- 卫兰
+- 周杰伦
+- 王力宏
+- 陶喆
+- F.I.R.
+- S.H.E.
+- Tank
+- 南拳妈妈
+- 梁静茹 <sup>__Best__</sup>
+- 张韶涵
+- 苏打绿 <sup>__Best__</sup>
+- 陈绮贞 <sup>__Best__</sup>
+- 方大同 <sup>__Best__</sup>
+- 初音ミク <sup>__Best__</sup>
 - 王菲
-- __方大同 <sup>Most</sup>__
-- __ClariS__
-- __Egoist__
+- ClariS
+- Egoist
 - Supercell
-- __小野リサ__
-- 羊毛とおはな
-- 陈洁仪
-- Olivia Ong
 - 李荣浩
-- Paris Match
-- Pomplamoose
-
-<style type="text/css">
-article .article-content ul li p:first-child {
-    list-style: disc;
-    text-align: match-parent;
-    //font-weight: bold;
-}
-</style>
