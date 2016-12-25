@@ -1,9 +1,9 @@
 title: Navigation 博客导航
 date: 2015-12-20
-updated: 2016-10-05
+updated: 2016-12-25
 categories: [read]
 tags: [read]
-description: Top N 热榜，分类列表。
+description: PV Top N 热榜、文章分类列表。
 ---
 
 <!--
@@ -22,58 +22,41 @@ description: Top N 热榜，分类列表。
     平日里想要阐发的见闻、见解主要发到 [微博](http://weibo.com/icedes) 和朋友圈，凑够一篇长文才会发到这里。
 -->
 
-Sort by Category as follows except the `PV` part.
+<!-- ### Other Index
+
+- [Archives 归档 ( Sort by Time )](/archives)
+- [Categories 分类](/categories) -->
+
+<!-- ### [PHP](/categories/PHP)
+
+- [PHP empty\(\) 和 isset\(\) 的区别](/php/PHP%20empty%28%29%20%E5%92%8C%20isset%28%29%20%E7%9A%84%E5%8C%BA%E5%88%AB/)
+- <a href="/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var)/">PHP var !== NULL 是否等价于 isset()</a> -->
 
 ### PV
 
 <div class="post-toc" style="max-height: 1220px; width: calc(100% + 0px);" id="popular-post-div2"> <div class="post-toc-content"> <ol class="nav" id="popular-list2"></ol> </div> </div>
 
+<br/>Sort by Category as follows.
+
 ### [Think](/categories/think)
 
-- [2016 Winter](/think/2016_winter) <sup>__New__</sup>
 - [2016 Fall](/think/2016_fall)
 - [2016 Summer](/think/2016_summer)
 - [Bye 2015](/think/bye2015)
 - [__Life Exp 生活指北__](/think/life_manual)
 
-### [Read](/categories/read)
+### [Command](/categories/Command)
 
-- Blog Map 博客地图 <sup>this page</sup>
-- [__Technology Bookmarks 技术书签__](/tech)
-- [__Reading Bookmarks 阅读书签__](/read)
-- [Favorites 喜好](/favourites)
+- [Git Note](/cmd/git_note)
 
-### [Mac](/categories/Mac)
-
-- [__Tools 利器__](/tools) - App、硬件推荐
-- [__Mac Shortcuts 快捷键__](/mac_shortcuts)
-
-### [Web](/categories/Web)
-
-- [Build Blog 搭建个人博客](/web/build_blog/)
-- [实现网站的支付宝打赏功能](/web/donate)
-- [Google CSE 站内搜索](/search)
-- [404 Page](/404)
-
-### [C++](/categories/C/)
-
-- [C++ Primer 5th - Note](/c++/C++ Primer 5th/)
-- [C++ Interview Book - Note](/c++/C++ Interview Book/)
-- [C++ Code Standards 编码规范 - Note](/c++/C++ Code Standards 编码标准/)
-- Effective C++ - Note [「 1 」](/c++/Effective C++ - Reading Note 1)[「 2 」](/c++/Effective C++ - Reading Note 2)[「 3 」](/c++/Effective C++ - Reading Note 3)[「 4 」](/c++/Effective C++ - Reading Note 4)
-
-### [CentOS](/categories/CentOS)
+<!-- ### [CentOS](/categories/CentOS)
 
 - [U盘安装](/linux/[00] U盘安装 CentOS 7/)
 - [恢复 Windows 的开机引导](/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/)
 - [配置系统环境](/linux/[02] Config System Envir 配置系统环境 - CentOS 7/)
 - [升级内核](/linux/[03] Update Kernel 升级内核 - CentOS 7)
 - [安装后的安全防范措施](/linux/[04] 安装 CentOS 7 后必做的 安全防范措施/)
-- [自动挂载 NTFS 格式的硬盘分区](/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/)
-
-### [Command](/categories/Command)
-
-- [Git Note](/cmd/git_note)
+- [自动挂载 NTFS 格式的硬盘分区](/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/) -->
 
 ### [AppleScript](/categories/AppleScript)
 
@@ -107,27 +90,41 @@ Sort by Category as follows except the `PV` part.
 - [DOS Symbols 特殊符号](/batch/DOS 特殊符号 Symbol/)
 - [DOS Environment Variable 环境变量](/batch/DOS 环境变量 Environment Variable/)
 
+### [C++](/categories/C/)
+
+- [C++ Primer 5th - Note](/c++/C++ Primer 5th/)
+- [C++ Interview Book - Note](/c++/C++ Interview Book/)
+- [C++ Code Standards 编码规范 - Note](/c++/C++ Code Standards 编码标准/)
+- Effective C++ - Note [「 1 」](/c++/Effective C++ - Reading Note 1)[「 2 」](/c++/Effective C++ - Reading Note 2)[「 3 」](/c++/Effective C++ - Reading Note 3)[「 4 」](/c++/Effective C++ - Reading Note 4)
+
 ### [JavaScript](/javascript/某次js代码优化过程)
 
 - [某次 JavaScript 代码优化过程](/javascript/某次js代码优化过程/)
+
+### [Mac](/categories/Mac)
+
+- [__Tools 利器__](/tools) - Apps、硬件推荐
+- [__Mac Shortcuts 快捷键__](/mac_shortcuts)
+
+### [Read](/categories/read)
+
+- Blog Map 博客地图 <sup>this page</sup>
+- [__Technology Bookmarks 技术书签__](/tech)
+- [__Reading Bookmarks 阅读书签__](/read)
+- [Favorites 喜好](/favourites)
 
 ### [Time Mgt](/categories/time-mgt)
 
 - [Life Logs 手帐](/lifelogs)
 - [Time Mgt 时间管理日志](/think/time_mgt)
 
+### [Web](/categories/Web)
+
+- [Build Blog 搭建个人博客](/web/build_blog/)
+- [实现网站的支付宝打赏功能](/web/donate)
+
 ### [Whoami](/categories/whoami)
 
 - [CV 简历](/about/)
 - [My Moments](/moments/)
 - [Reward Me 打赏博主](/reward)
-
-<!-- ### Other Index -->
-
-<!-- - [Archives 归档 ( Sort by Time )](/archives) -->
-<!-- - [Categories 分类](/categories) -->
-
-<!--### [PHP](/categories/PHP)-->
-
-<!-- - [PHP empty\(\) 和 isset\(\) 的区别](/php/PHP%20empty%28%29%20%E5%92%8C%20isset%28%29%20%E7%9A%84%E5%8C%BA%E5%88%AB/)-->
-<!-- - <a href="/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var)/">PHP var !== NULL 是否等价于 isset()</a>-->
