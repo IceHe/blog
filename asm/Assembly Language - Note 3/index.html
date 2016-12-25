@@ -65,9 +65,7 @@
 
 
 
-  
-
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
@@ -96,7 +94,7 @@
 <meta property="og:url" content="http://icehe.me/asm/Assembly Language - Note 3/index.html">
 <meta property="og:site_name" content="IceHe.me">
 <meta property="og:description" content="汇编指令，伪指令，segment… ends，end，assume，编译和连接，执行过程的跟踪，单步调试，[BX]和loop指令，Debug程序的各种命令，段前缀，一段安全的空间。">
-<meta property="og:updated_time" content="2016-12-05T06:16:41.000Z">
+<meta property="og:updated_time" content="2016-12-25T10:14:06.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ASM 汇编语言 - 3">
 <meta name="twitter:description" content="汇编指令，伪指令，segment… ends，end，assume，编译和连接，执行过程的跟踪，单步调试，[BX]和loop指令，Debug程序的各种命令，段前缀，一段安全的空间。">
@@ -185,7 +183,9 @@
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
-  <p class="site-subtitle">More is in vain when less will serve.</p>
+    
+      <p class="site-subtitle">More is in vain when less will serve.</p>
+    
 </div>
 
 <div class="site-nav-toggle">
@@ -206,19 +206,19 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-cube"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-quote-left"></i> <br />
             
-            Home
+            Articles
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-map">
+        <li class="menu-item menu-item-nav">
           <a href="/bookmarks" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-bookmark"></i> <br />
             
-            Map
+            Nav
           </a>
         </li>
       
@@ -226,7 +226,7 @@
         <li class="menu-item menu-item-cv">
           <a href="/about" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-user-secret"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-star"></i> <br />
             
             CV
           </a>
@@ -297,60 +297,38 @@
 
         <div class="post-meta">
 
-          
-          
-             <span id="/asm/Assembly Language - Note 3/" class="leancloud_visitors" data-flag-title="ASM 汇编语言 - 3">
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <!-- 只显示图标，不显示文本 -->
-               <span class="hidden post-meta-item-text">Visitors </span>
-               <span class="leancloud-visitors-count"></span>
-               <span class="post-meta-divider">|</span>
-              </span>
-          
-
           <span class="post-time">
             
               <span class="post-meta-item-icon">
-                <i class="fa fa-pencil"></i>
+                
+                  <i class="fa fa-calendar-plus-o"></i>
+                
               </span>
-              <!-- 只显示图标，不显示文本 -->
-              <span class="hidden post-meta-item-text">Posted on</span>
+              
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-04-03T00:00:00+08:00">
-                2015-04-03
-              </time>
+              
+                2015.04
+              
             
 
             
-              <span class="post-meta-divider">|</span>
-            
 
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-refresh"></i>
-              </span>
-              <!-- 只显示图标，不显示文本 -->
-              <span class="hidden post-meta-item-text">Post modified</span>
-              <time title="Post modified" itemprop="dateModified" datetime="2016-12-05T14:16:41+08:00">
-                2016-12-05
-              </time>
             
           </span>
 
           
             <span class="post-category" >
+            
               <span class="post-meta-divider">|</span>
+            
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <!-- 只显示图标，不显示文本 -->
-              <span class="hidden post-meta-item-text">In</span>
+              
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/ASM/" itemprop="url" rel="index">
-                    <span itemprop="name">ASM</span>
-                  </a>
+                    <span itemprop="name">ASM</span></a>
                 </span>
 
                 
@@ -360,16 +338,17 @@
           
 
           
-            
-              <!--
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <a href="/asm/Assembly Language - Note 3/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="asm/Assembly Language - Note 3/" itemprop="commentCount"></span>
-                </a>
+
+          
+          
+            <span id="/asm/Assembly Language - Note 3/" class="hidden leancloud_visitors" data-flag-title="ASM 汇编语言 - 3">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
               </span>
-              -->
-            
+              
+              <span class="leancloud-visitors-count"></span>
+            </span>
           
 
           
@@ -392,7 +371,6 @@
       
       
 
-      <!-- 只显示 description，不显示 "显示更多" 的文本及链接 -->
       
         
 <ul><li>Created on 2014-10</li></ul><br>
@@ -582,12 +560,15 @@ end</div></div>
 
         <!--
         <nav class="site-state motion-element">
-          <div class="site-state-item site-state-posts">
-            <a href="/">
-              <span class="site-state-item-count">50</span>
-              <span class="site-state-item-name">posts</span>
-            </a>
-          </div>
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/">
+                <span class="site-state-item-count">49</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
 
           
             <div class="site-state-item site-state-categories">
@@ -608,7 +589,6 @@ end</div></div>
           
 
         </nav>
-        -->
 
         
           <div class="feed-link motion-element">
@@ -618,6 +598,7 @@ end</div></div>
             </a>
           </div>
         
+        -->
 
         <div class="links-of-author motion-element">
           
@@ -650,10 +631,13 @@ end</div></div>
   
   &copy; 
   <span itemprop="copyrightYear">2016</span>
+  <!--
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Ice He</span>
+  - <span class="author" itemprop="copyrightHolder">Ice He</span>. &nbsp;All rights reserved.
+  -->
+  <span class="author" itemprop="copyrightHolder">IceHe</span>
 </div>
 
 
@@ -765,11 +749,8 @@ end</div></div>
   </script>
 
   
-    
-    
-    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
-    <script src="/js/src/hook-duoshuo.js"></script>
-  
+
+
 
 
 
@@ -789,6 +770,16 @@ end</div></div>
   <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
   <script>AV.initialize("u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5");</script>
   <script>
+    function timeDesc(time) {
+      return time / 1000 >= 1 ? '1k +' : (
+        time / 600 >= 1 ? '600 +' : (
+          time / 300 >= 1 ? '300 +' : (
+            time / 100 >= 1 ? '100 +' : '99 -'
+          )
+        )
+      );
+    }
+
     function showTime(Counter) {
       var query = new AV.Query(Counter);
       var entries = [];
@@ -812,9 +803,13 @@ end</div></div>
             var item = results[i];
             var url = item.get('url');
             var time = item.get('time');
+            if (time < 300) {
+              break;
+            }
             var element = document.getElementById(url);
 
-            $(element).find(COUNT_CONTAINER_REF).text(time);
+            $(element).find(COUNT_CONTAINER_REF).text(timeDesc(time));
+            $(element).removeClass('hidden');
           }
           for(var i = 0; i < entries.length; i++) {
             var url = entries[i];
@@ -850,7 +845,7 @@ end</div></div>
             counter.save(null, {
               success: function(counter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+                $element.find('.leancloud-visitors-count').text(timeDesc(counter.get('time')));
               },
               error: function(counter, error) {
                 console.log('Failed to save Visitor num, with error message: ' + error.message);
@@ -870,7 +865,7 @@ end</div></div>
             newcounter.save(null, {
               success: function(newcounter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+                $element.find('.leancloud-visitors-count').text(timeDesc(newcounter.get('time')));
               },
               error: function(newcounter, error) {
                 console.log('Failed to create');
@@ -889,6 +884,7 @@ end</div></div>
         var is_post = (popular_list.length == 1);
         var count = is_post ? 20 : 10;
         if (!is_post) {
+            // return; // Break for Simplicity!
             popular_list = $('#popular-list');
             if (popular_list.length == 0) {
                 return;
@@ -904,7 +900,7 @@ end</div></div>
         //query.matches('url', regex);
 
         var excluding_list = [
-            //'/about/',
+            '/about/',
             '/bookmarks/',
             '/reward/',
             '/search/', /* Hidden */
@@ -933,12 +929,13 @@ end</div></div>
                         + 'border-bottom-style: solid; '
                         + 'border-bottom-color: #ccc;"> '
                         + '<i class="fa fa-fire"></i> &nbsp;'
-                        + '<span class="nav-text"> Top N </span> '
+                        + '<span class="nav-text"> PV </span> '
                         + '</li>'
                     );
                 for (var i = 0; i < results.length; ++i) {
                     var counter = results[i];
-                    title = counter.get("title");
+                    var title = counter.get("title");
+                    var time = timeDesc(counter.get('time'));
 
                     popular_list.append(
                         '<li class="nav-item nav-level-1" '
@@ -955,7 +952,7 @@ end</div></div>
                         + '<span class="nav-text"> ' + counter.get('title') + ' </span> '
                         + '</a> '
                         + '<span class="nav-number"> '
-                        + '<sup> &nbsp;' + counter.get('time') + ' </sup> '
+                        + '<sup> &nbsp;' + time + ' </sup> '
                         + '</span> '
                         + '</li>'
                     );
@@ -963,17 +960,16 @@ end</div></div>
                 if (!is_post) {
                     popular_list.append(
                         '<li class="nav-item nav-level-1"> '
-                        + '<i class="fa fa-eye"></i> &nbsp;'
-                        + '<a class="nav-link" href="/bookmarks"> '
-                        + '<span class="nav-text bold"> More </span> '
-                        + '</a> </li>'
+                        //+ '<i class="fa fa-eye"></i> &nbsp;'
+                        + '+. &nbsp; '
+                        + '<a class="nav-link" href="/bookmarks"><span class="nav-text bold">More </span></a> </li>'
                     );
                     popular_list.append(
                         '<li class="nav-item nav-level-1"> '
                         + '<span class="nav-number"> &nbsp; </span> '
                         + '<a class="nav-link" href="/bookmarks"> '
-                        + '<span class="nav-text bold"> &nbsp; </span> '
-                        + '</a> </li>'
+                        + '<span class="nav-text"> &nbsp; </span></a> '
+                        + '</li>'
                     );
                 }
           })
@@ -996,25 +992,6 @@ end</div></div>
 
 
   
-
-  
-
-  <script>
-    $(window).load(function() {
-        var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
-        if (1 == ds_like_button.length
-                && "none" != document.getElementsByClassName('ds-meta')[0].style.display
-                && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
-        ) {
-            ds_like_button[0].click();
-            document.getElementsByClassName('ds-like-tooltip-close')[0].click();
-            window.location.href = '#';
-        }
-    });
-  </script>
-
-
-
   
 <script>
 (function(){

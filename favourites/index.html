@@ -65,9 +65,7 @@
 
 
 
-  
-
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
@@ -90,16 +88,16 @@
 
 
 
-<meta name="description" content="我喜欢的书籍、FM栏目、电影、电视剧、动画、游戏…">
+<meta name="description" content="我喜欢的书籍、电影、电视剧、动画、游戏…">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Favorites 喜好">
 <meta property="og:url" content="http://icehe.me/favourites/index.html">
 <meta property="og:site_name" content="IceHe.me">
-<meta property="og:description" content="我喜欢的书籍、FM栏目、电影、电视剧、动画、游戏…">
-<meta property="og:updated_time" content="2016-09-02T16:00:00.000Z">
+<meta property="og:description" content="我喜欢的书籍、电影、电视剧、动画、游戏…">
+<meta property="og:updated_time" content="2016-12-16T16:00:00.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Favorites 喜好">
-<meta name="twitter:description" content="我喜欢的书籍、FM栏目、电影、电视剧、动画、游戏…">
+<meta name="twitter:description" content="我喜欢的书籍、电影、电视剧、动画、游戏…">
 
 
 
@@ -185,7 +183,9 @@
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
-  <p class="site-subtitle">More is in vain when less will serve.</p>
+    
+      <p class="site-subtitle">More is in vain when less will serve.</p>
+    
 </div>
 
 <div class="site-nav-toggle">
@@ -206,19 +206,19 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-cube"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-quote-left"></i> <br />
             
-            Home
+            Articles
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-map">
+        <li class="menu-item menu-item-nav">
           <a href="/bookmarks" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-bookmark"></i> <br />
             
-            Map
+            Nav
           </a>
         </li>
       
@@ -226,7 +226,7 @@
         <li class="menu-item menu-item-cv">
           <a href="/about" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-user-secret"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-star"></i> <br />
             
             CV
           </a>
@@ -297,60 +297,38 @@
 
         <div class="post-meta">
 
-          
-          
-             <span id="/favourites/" class="leancloud_visitors" data-flag-title="Favorites 喜好">
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <!-- 只显示图标，不显示文本 -->
-               <span class="hidden post-meta-item-text">Visitors </span>
-               <span class="leancloud-visitors-count"></span>
-               <span class="post-meta-divider">|</span>
-              </span>
-          
-
           <span class="post-time">
             
               <span class="post-meta-item-icon">
-                <i class="fa fa-pencil"></i>
+                
+                  <i class="fa fa-refresh"></i>
+                
               </span>
-              <!-- 只显示图标，不显示文本 -->
-              <span class="hidden post-meta-item-text">Posted on</span>
+              
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-11-19T00:00:00+08:00">
-                2015-11-19
-              </time>
+              
+                2016.12
+              
             
 
             
-              <span class="post-meta-divider">|</span>
-            
 
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-refresh"></i>
-              </span>
-              <!-- 只显示图标，不显示文本 -->
-              <span class="hidden post-meta-item-text">Post modified</span>
-              <time title="Post modified" itemprop="dateModified" datetime="2016-09-03T00:00:00+08:00">
-                2016-09-03
-              </time>
             
           </span>
 
           
             <span class="post-category" >
+            
               <span class="post-meta-divider">|</span>
+            
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <!-- 只显示图标，不显示文本 -->
-              <span class="hidden post-meta-item-text">In</span>
+              
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/read/" itemprop="url" rel="index">
-                    <span itemprop="name">read</span>
-                  </a>
+                    <span itemprop="name">read</span></a>
                 </span>
 
                 
@@ -360,16 +338,17 @@
           
 
           
-            
-              <!--
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <a href="/favourites/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="favourites/" itemprop="commentCount"></span>
-                </a>
+
+          
+          
+            <span id="/favourites/" class="hidden leancloud_visitors" data-flag-title="Favorites 喜好">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
               </span>
-              -->
-            
+              
+              <span class="leancloud-visitors-count"></span>
+            </span>
           
 
           
@@ -378,7 +357,7 @@
 
           
               <div class="post-description">
-                  我喜欢的书籍、FM栏目、电影、电视剧、动画、游戏…
+                  我喜欢的书籍、电影、电视剧、动画、游戏…
               </div>
           
 
@@ -392,26 +371,17 @@
       
       
 
-      <!-- 只显示 description，不显示 "显示更多" 的文本及链接 -->
       
         <ul>
-<li><strong>心目中的佳作，记录于此。</strong></li>
-<li>Superscript 上标<ul>
-<li>The item with <sup><strong>Best</strong></sup>&nbsp; implies it is <code>one of the best</code>.</li>
-<li>The item with <sup><em>temp</em></sup>&nbsp; implies it might <code>be removed one day</code>.<!--- The item with <sup>_todo_</sup>&nbsp; implies it has `not been read-through`.-->
-<!--- The item with <sup>Note</sup>&nbsp; implies it is `a link to my related note`.-->
-</li>
+<li><strong>所爱之物记录于此。</strong></li>
+<li>喜欢的东西太多了，只记录最钟爱的。</li>
 </ul>
-</li>
+<h1 id="Sports-运动"><a href="#Sports-运动" class="headerlink" title="Sports 运动"></a>Sports 运动</h1><ul>
+<li>羽毛球</li>
+<li><a href="/about/#华工毽球社-社长">毽球</a></li>
 </ul>
 <h1 id="Books-书"><a href="#Books-书" class="headerlink" title="Books 书"></a>Books 书</h1><ul>
 <li><a href="/read/#Books-书">Reading Bookmarks - Books</a></li>
-</ul>
-<h1 id="FM-播客"><a href="#FM-播客" class="headerlink" title="FM 播客"></a>FM 播客</h1><ul>
-<li><a href="/read/#FM-播客">Reading Bookmarks - FM</a></li>
-</ul>
-<h1 id="WeChat-OA-公众号"><a href="#WeChat-OA-公众号" class="headerlink" title="WeChat OA 公众号"></a>WeChat OA 公众号</h1><ul>
-<li><a href="/read/#微信公众号">Reading Bookmarks - 微信公众号</a></li>
 </ul>
 <h1 id="Motion-Picture-电影"><a href="#Motion-Picture-电影" class="headerlink" title="Motion Picture 电影"></a>Motion Picture 电影</h1><ul>
 <li><a href="https://movie.douban.com/subject/3041269/" target="_blank" rel="external">Limitless</a><br>  《永无止境》，爽！</li>
@@ -434,7 +404,7 @@
 <li><a href="https://movie.douban.com/subject/1291838/" target="_blank" rel="external">红猪</a><br>  洒脱。</li>
 <li><a href="https://movie.douban.com/subject/3908423/" target="_blank" rel="external">夏日大作战</a><br>  夏。</li>
 <li><a href="https://movie.douban.com/subject/1308807/" target="_blank" rel="external">哈尔的移动城堡</a> <sup><strong>Best</strong></sup> <sup>最爱 No.2</sup><br>  绚丽。</li>
-<li><a href="https://movie.douban.com/subject/1308807/" target="_blank" rel="external">你的名字。</a> <sup><strong>Best</strong></sup> <sup>最爱 No.1</sup><br>  梦？</li>
+<li><a href="https://movie.douban.com/subject/1308807/" target="_blank" rel="external">你的名字。</a> <sup><strong>Best</strong></sup> <sup>最爱 No.1</sup><br>  梦。</li>
 </ul>
 <h1 id="TV-Dramas-电视剧"><a href="#TV-Dramas-电视剧" class="headerlink" title="TV Dramas 电视剧"></a>TV Dramas 电视剧</h1><ul>
 <li><a href="https://movie.douban.com/subject/24697949/" target="_blank" rel="external">半泽直树</a><br>  复仇，弱肉强食。</li>
@@ -442,7 +412,6 @@
 <li><a href="https://movie.douban.com/subject/26663070/" target="_blank" rel="external">家族的形式</a><br>  不婚族？</li>
 <li><a href="https://movie.douban.com/subject_search?search_text=Legal+High&amp;cat=1002" target="_blank" rel="external">Legal High</a> <sup><strong>Best</strong></sup><br>  法律至高。</li>
 <li><a href="https://movie.douban.com/subject_search?search_text=Black+Mirror&amp;cat=1002" target="_blank" rel="external">Black Mirror</a> <sup><strong>Best</strong></sup><br>  《黑镜》，警世。</li>
-<li><a href="https://movie.douban.com/subject_search?search_text=Game+of+Thrones&amp;cat=1002" target="_blank" rel="external">Game of Thrones</a><br>  《权力的游戏》，史诗。</li>
 </ul>
 <h1 id="Animate-动画"><a href="#Animate-动画" class="headerlink" title="Animate 动画"></a>Animate 动画</h1><ul>
 <li><strong><a href="https://movie.douban.com/subject/25813424/" target="_blank" rel="external">乒乓</a></strong> <sup><strong>Best</strong></sup><br>  人生，天赋与努力。</li>
@@ -476,28 +445,24 @@
 <li><a href="http://movie.douban.com/subject/5413681/" target="_blank" rel="external">[ C ] THE MONEY OF SOUL AND POSSIBILITY CONTROL</a><br>  未来。</li>
 <li><a href="https://movie.douban.com/subject_search?search_text=%E4%BC%AA%E6%81%8B&amp;cat=1002" target="_blank" rel="external">伪恋</a><br>  恋爱喜剧。</li>
 <li><a href="https://movie.douban.com/subject/26801048/" target="_blank" rel="external">齐木楠雄的灾难</a><br>  笑得根本停不下来… 哈哈哈…</li>
+<li><a href="https://movie.douban.com/subject/26756212/" target="_blank" rel="external">冰上的尤里</a><br>  华丽。</li>
 <li><a href="http://movie.douban.com/subject/4202090/" target="_blank" rel="external">Angel Beats!</a><br>  音乐。</li>
 <li><a href="http://movie.douban.com/subject/4935090/" target="_blank" rel="external">花开伊吕波</a><br>  花开之色。</li>
 <li><a href="http://movie.douban.com/subject/10001418/" target="_blank" rel="external">冰菓</a> <sup><strong>Best</strong></sup><br>  情愫。</li>
 <li><a href="http://movie.douban.com/subject/1453238/" target="_blank" rel="external">One Piece</a><br>  心目中的最燃作。无奈太长弃坑。</li>
 <li><a href="http://movie.douban.com/subject/1427318/" target="_blank" rel="external">火影忍者</a><br>  入宅作，从只有几集动画时就开始追了，却没坚持到最后。</li>
 <li><a href="http://movie.douban.com/subject/10477598/" target="_blank" rel="external">罗小黑战记</a> <sup><strong>Best</strong></sup><br>  萌~</li>
+<li><a href="https://movie.douban.com/subject/26757958/" target="_blank" rel="external">信长的忍者</a><br>  萌~</li>
 <li><span class="val_pos icon-douban"> &nbsp;<a href="http://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">其它看过的片</a><br>  用豆瓣记录所有看过的片意义不大还麻烦，以后只在博客此处做记录。</span></li>
 </ul>
 <h1 id="Games-游戏"><a href="#Games-游戏" class="headerlink" title="Games 游戏"></a>Games 游戏</h1><h2 id="iOS"><a href="#iOS" class="headerlink" title="iOS"></a>iOS</h2><ul>
-<li><a href="https://itunes.apple.com/en/app/deemo/id700637744?mt=8" target="_blank" rel="external">Deemo</a> <sup><strong>Best</strong></sup><br>  最爱的音乐游戏！最爱曲目：Magnolia 。超喜欢这个游戏工作室：Rayark（台湾）！<ul>
-<li>其它喜爱的曲目：<br>  Nine point nine , Platinum , Utopiosphere , Yubikiri-genman , Invite , Run go run , Pulses , Electron , Walking by the sea , Beyond the Stratus , Angelic sphere , Leviathan , Suspenseful third day , Living in the one , Little corgis dream , The way we were , The red coronation , Knight of firmament , Cream stew , I can not say , Kireigoto , New World , Time forgotten , Reminiscence … ( No update now )</li>
+<li><a href="https://itunes.apple.com/en/app/deemo/id700637744?mt=8" target="_blank" rel="external">Deemo</a> <sup><strong>Best</strong></sup><br>  最爱的音乐游戏！最喜爱的曲目： Magnolia , Walking by the sea , Living in the one.</li>
 </ul>
-</li>
-<li><a href="https://itunes.apple.com/en/app/kingdom-rush/id516378985?mt=8" target="_blank" rel="external">Kingdom Rush</a><br>  《皇家守卫军》，塔防。</li>
-<li><a href="https://itunes.apple.com/en/app/framed/id886565180?mt=8" target="_blank" rel="external">Framed</a> <sup><strong>Best</strong></sup><br>  《致命框架》，解密游戏，玩法新奇有趣。</li>
-<li><a href="https://itunes.apple.com/en/app/monument-valley/id728293409?mt=8" target="_blank" rel="external">Monument Valley</a><br>  《纪念碑谷》，游戏也可以是艺术品。</li>
-</ul>
-<h2 id="PC-桌面"><a href="#PC-桌面" class="headerlink" title="PC 桌面"></a>PC 桌面</h2><ul>
-<li><a href="http://heroes.blizzard.cn/landing" target="_blank" rel="external">Heroes of the Storm</a><br>  《风暴英雄》，有趣易上手。最喜欢跟朋友一起并肩作战，半夜兴奋狂吼。</li>
-<li><a href="http://hs.blizzard.cn/landing" target="_blank" rel="external">Hearth Stone</a><br>  《炉石传说》，勾起当年玩「游戏王」的卡牌情结。</li>
-<li><a href="http://us.blizzard.com/en-us/games/war3/" target="_blank" rel="external">Warcraft 3</a> <sup><strong>Best</strong></sup><br>  《魔兽争霸3 冰封王座》！当年多喜欢即时战略，不过这股风潮已经过去。之后崛起的 Dota、LOL 就没玩了。</li>
+<h2 id="PC"><a href="#PC" class="headerlink" title="PC"></a>PC</h2><ul>
 <li><a href="http://www.gamecity.ne.jp/products/products/ee/new/san9/" target="_blank" rel="external">三国志 9</a><br>  战略游戏经典之作。</li>
+<li><a href="http://hs.blizzard.cn/landing" target="_blank" rel="external">Hearth Stone</a><br>  《炉石传说》，勾起当年玩「游戏王」的卡牌情结。</li>
+<li><a href="http://heroes.blizzard.cn/landing" target="_blank" rel="external">Heroes of the Storm</a><br>  《风暴英雄》，有趣易上手。最喜欢跟朋友一起并肩作战，半夜兴奋狂吼。</li>
+<li><a href="http://us.blizzard.com/en-us/games/war3/" target="_blank" rel="external">Warcraft 3</a> <sup><strong>Best</strong></sup><br>  《魔兽争霸3 冰封王座》！当年多喜欢即时战略，不过这股风潮已经过去。之后崛起的 Dota、LOL 就没玩了。</li>
 </ul>
 <h2 id="Game-Boy-掌机"><a href="#Game-Boy-掌机" class="headerlink" title="Game Boy 掌机"></a>Game Boy 掌机</h2><ul>
 <li><a href="http://ffta2.ffsky.cn/" target="_blank" rel="external">Final Fantasy Tactics A2</a> <sup><strong>Best</strong></sup><br>  《最终幻想战略版》 A &amp; A2 ！ 我最喜欢的游戏类型就是战棋，它就是我心目中的神作！ 最喜欢的最终幻想衍生游戏分支，我重玩次数最多的游戏， 献给这个系列的两作游戏的时间远超700小时。</li>
@@ -520,57 +485,35 @@
 <li><a href="https://zh.wikipedia.org/wiki/%E8%99%9A%E4%B9%8B%E5%B0%91%E5%A5%B3" target="_blank" rel="external">壳之少女</a><br>  超文艺，也超重口。</li>
 <li><a href="http://baike.baidu.com/view/8890991.htm" target="_blank" rel="external">鬼哭街2011重制版</a> <sup><strong>Best</strong></sup><br>  我想象中的现代中式武侠打斗的文字描写范本，虚渊玄作品。</li>
 </ul>
-<h2 id="实体游戏"><a href="#实体游戏" class="headerlink" title="实体游戏"></a>实体游戏</h2><ul>
+<h2 id="Others-其它"><a href="#Others-其它" class="headerlink" title="Others 其它"></a>Others 其它</h2><ul>
 <li><a href="https://zh.wikipedia.org/wiki/%E9%81%8A%E6%88%B2%E7%8E%8B%E9%9B%86%E6%8F%9B%E7%B4%99%E7%89%8C%E9%81%8A%E6%88%B2" target="_blank" rel="external">游戏王</a> <sup><strong>Best</strong></sup><br>  挚爱的卡牌游戏，当年几个损友一起愉快地玩了三年，花了不少钱去买正版卡牌；初三戒了，就再也没有继续下去，几个损友如今也难再聚。</li>
 <li><a href="https://zh.wikipedia.org/wiki/%E5%9B%B4%E6%A3%8B" target="_blank" rel="external">围棋</a> <sup><strong>Best</strong></sup><br>  深奥幽玄。当年买了好几本大部头教材，小学中午午睡时间我不睡觉，就在被窝里钻研。</li>
-<li><a href="https://zh.wikipedia.org/wiki/%E5%B1%8F%E9%A2%A8%E5%BC%8F%E5%9B%9B%E5%AD%90%E6%A3%8B" target="_blank" rel="external">四子棋</a></li>
-<li><a href="https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E8%B7%B3%E6%A3%8B" target="_blank" rel="external">跳棋</a><br>  当年自己发明了许多玩法。</li>
 </ul>
 <h1 id="Singers-歌手"><a href="#Singers-歌手" class="headerlink" title="Singers 歌手"></a>Singers 歌手</h1><ul>
-<li><strong>Twins <sup>Most</sup></strong><!--幼稚园、死性不改、梨涡浅笑、星光游乐园。--></li>
-<li><strong>古巨基 <sup>Most</sup></strong></li>
-<li>卫诗</li>
-<li><strong>卫兰</strong></li>
-<li><strong>陈奕迅 <sup>Most</sup></strong></li>
-<li>邓丽欣</li>
-<li>方力申</li>
-<li><strong>杨千嬅 <sup>Most</sup></strong></li>
-<li><strong>周杰伦</strong></li>
-<li><strong>F.I.R</strong></li>
-<li><strong>S.H.E</strong></li>
-<li><strong>Tank</strong></li>
-<li>王心凌</li>
-<li><strong>王力宏</strong></li>
-<li><strong>陶喆 <sup>Most</sup></strong></li>
-<li>Rie fu</li>
-<li>张敬轩</li>
-<li><strong>苏打绿</strong></li>
-<li>孙燕姿</li>
-<li><strong>南拳妈妈</strong></li>
-<li><strong>陈绮贞 <sup>Most</sup></strong></li>
-<li><strong>张韶涵</strong></li>
-<li><strong>梁静茹 <sup>Most</sup></strong></li>
-<li><strong>初音ミク <sup>Most</sup></strong></li>
+<li>Twins <sup><strong>Best</strong></sup></li>
+<li>古巨基</li>
+<li>陈奕迅 <sup><strong>Best</strong></sup></li>
+<li>杨千嬅 <sup><strong>Best</strong></sup></li>
+<li>卫兰</li>
+<li>周杰伦</li>
+<li>王力宏</li>
+<li>陶喆</li>
+<li>F.I.R.</li>
+<li>S.H.E.</li>
+<li>Tank</li>
+<li>南拳妈妈</li>
+<li>梁静茹 <sup><strong>Best</strong></sup></li>
+<li>张韶涵</li>
+<li>苏打绿 <sup><strong>Best</strong></sup></li>
+<li>陈绮贞 <sup><strong>Best</strong></sup></li>
+<li>方大同 <sup><strong>Best</strong></sup></li>
+<li>初音ミク <sup><strong>Best</strong></sup></li>
 <li>王菲</li>
-<li><strong>方大同 <sup>Most</sup></strong></li>
-<li><strong>ClariS</strong></li>
-<li><strong>Egoist</strong></li>
+<li>ClariS</li>
+<li>Egoist</li>
 <li>Supercell</li>
-<li><strong>小野リサ</strong></li>
-<li>羊毛とおはな</li>
-<li>陈洁仪</li>
-<li>Olivia Ong</li>
 <li>李荣浩</li>
-<li>Paris Match</li>
-<li>Pomplamoose</li>
 </ul>
-<style type="text/css">
-article .article-content ul li p:first-child {
-    list-style: disc;
-    text-align: match-parent;
-    //font-weight: bold;
-}
-</style>
 
       
     </div>
@@ -735,12 +678,15 @@ article .article-content ul li p:first-child {
 
         <!--
         <nav class="site-state motion-element">
-          <div class="site-state-item site-state-posts">
-            <a href="/">
-              <span class="site-state-item-count">50</span>
-              <span class="site-state-item-name">posts</span>
-            </a>
-          </div>
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/">
+                <span class="site-state-item-count">49</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
 
           
             <div class="site-state-item site-state-categories">
@@ -761,7 +707,6 @@ article .article-content ul li p:first-child {
           
 
         </nav>
-        -->
 
         
           <div class="feed-link motion-element">
@@ -771,6 +716,7 @@ article .article-content ul li p:first-child {
             </a>
           </div>
         
+        -->
 
         <div class="links-of-author motion-element">
           
@@ -797,7 +743,7 @@ article .article-content ul li p:first-child {
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Books-书"><span class="nav-number">1.</span> <span class="nav-text">Books 书</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#FM-播客"><span class="nav-number">2.</span> <span class="nav-text">FM 播客</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#WeChat-OA-公众号"><span class="nav-number">3.</span> <span class="nav-text">WeChat OA 公众号</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Motion-Picture-电影"><span class="nav-number">4.</span> <span class="nav-text">Motion Picture 电影</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#TV-Dramas-电视剧"><span class="nav-number">5.</span> <span class="nav-text">TV Dramas 电视剧</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Animate-动画"><span class="nav-number">6.</span> <span class="nav-text">Animate 动画</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Games-游戏"><span class="nav-number">7.</span> <span class="nav-text">Games 游戏</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#iOS"><span class="nav-number">7.1.</span> <span class="nav-text">iOS</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#PC-桌面"><span class="nav-number">7.2.</span> <span class="nav-text">PC 桌面</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Game-Boy-掌机"><span class="nav-number">7.3.</span> <span class="nav-text">Game Boy 掌机</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Play-Station-2"><span class="nav-number">7.4.</span> <span class="nav-text">Play Station 2</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#红白机"><span class="nav-number">7.5.</span> <span class="nav-text">红白机</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Gal-Games"><span class="nav-number">7.6.</span> <span class="nav-text">Gal Games</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#实体游戏"><span class="nav-number">7.7.</span> <span class="nav-text">实体游戏</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Singers-歌手"><span class="nav-number">8.</span> <span class="nav-text">Singers 歌手</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Sports-运动"><span class="nav-number">1.</span> <span class="nav-text">Sports 运动</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Books-书"><span class="nav-number">2.</span> <span class="nav-text">Books 书</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Motion-Picture-电影"><span class="nav-number">3.</span> <span class="nav-text">Motion Picture 电影</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#TV-Dramas-电视剧"><span class="nav-number">4.</span> <span class="nav-text">TV Dramas 电视剧</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Animate-动画"><span class="nav-number">5.</span> <span class="nav-text">Animate 动画</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Games-游戏"><span class="nav-number">6.</span> <span class="nav-text">Games 游戏</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#iOS"><span class="nav-number">6.1.</span> <span class="nav-text">iOS</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#PC"><span class="nav-number">6.2.</span> <span class="nav-text">PC</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Game-Boy-掌机"><span class="nav-number">6.3.</span> <span class="nav-text">Game Boy 掌机</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Play-Station-2"><span class="nav-number">6.4.</span> <span class="nav-text">Play Station 2</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#红白机"><span class="nav-number">6.5.</span> <span class="nav-text">红白机</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Gal-Games"><span class="nav-number">6.6.</span> <span class="nav-text">Gal Games</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Others-其它"><span class="nav-number">6.7.</span> <span class="nav-text">Others 其它</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Singers-歌手"><span class="nav-number">7.</span> <span class="nav-text">Singers 歌手</span></a></li></ol></div>
             
 
           </div>
@@ -819,10 +765,13 @@ article .article-content ul li p:first-child {
   
   &copy; 
   <span itemprop="copyrightYear">2016</span>
+  <!--
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Ice He</span>
+  - <span class="author" itemprop="copyrightHolder">Ice He</span>. &nbsp;All rights reserved.
+  -->
+  <span class="author" itemprop="copyrightHolder">IceHe</span>
 </div>
 
 
@@ -934,11 +883,8 @@ article .article-content ul li p:first-child {
   </script>
 
   
-    
-    
-    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
-    <script src="/js/src/hook-duoshuo.js"></script>
-  
+
+
 
 
 
@@ -958,6 +904,16 @@ article .article-content ul li p:first-child {
   <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
   <script>AV.initialize("u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5");</script>
   <script>
+    function timeDesc(time) {
+      return time / 1000 >= 1 ? '1k +' : (
+        time / 600 >= 1 ? '600 +' : (
+          time / 300 >= 1 ? '300 +' : (
+            time / 100 >= 1 ? '100 +' : '99 -'
+          )
+        )
+      );
+    }
+
     function showTime(Counter) {
       var query = new AV.Query(Counter);
       var entries = [];
@@ -981,9 +937,13 @@ article .article-content ul li p:first-child {
             var item = results[i];
             var url = item.get('url');
             var time = item.get('time');
+            if (time < 300) {
+              break;
+            }
             var element = document.getElementById(url);
 
-            $(element).find(COUNT_CONTAINER_REF).text(time);
+            $(element).find(COUNT_CONTAINER_REF).text(timeDesc(time));
+            $(element).removeClass('hidden');
           }
           for(var i = 0; i < entries.length; i++) {
             var url = entries[i];
@@ -1019,7 +979,7 @@ article .article-content ul li p:first-child {
             counter.save(null, {
               success: function(counter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+                $element.find('.leancloud-visitors-count').text(timeDesc(counter.get('time')));
               },
               error: function(counter, error) {
                 console.log('Failed to save Visitor num, with error message: ' + error.message);
@@ -1039,7 +999,7 @@ article .article-content ul li p:first-child {
             newcounter.save(null, {
               success: function(newcounter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+                $element.find('.leancloud-visitors-count').text(timeDesc(newcounter.get('time')));
               },
               error: function(newcounter, error) {
                 console.log('Failed to create');
@@ -1058,6 +1018,7 @@ article .article-content ul li p:first-child {
         var is_post = (popular_list.length == 1);
         var count = is_post ? 20 : 10;
         if (!is_post) {
+            // return; // Break for Simplicity!
             popular_list = $('#popular-list');
             if (popular_list.length == 0) {
                 return;
@@ -1073,7 +1034,7 @@ article .article-content ul li p:first-child {
         //query.matches('url', regex);
 
         var excluding_list = [
-            //'/about/',
+            '/about/',
             '/bookmarks/',
             '/reward/',
             '/search/', /* Hidden */
@@ -1102,12 +1063,13 @@ article .article-content ul li p:first-child {
                         + 'border-bottom-style: solid; '
                         + 'border-bottom-color: #ccc;"> '
                         + '<i class="fa fa-fire"></i> &nbsp;'
-                        + '<span class="nav-text"> Top N </span> '
+                        + '<span class="nav-text"> PV </span> '
                         + '</li>'
                     );
                 for (var i = 0; i < results.length; ++i) {
                     var counter = results[i];
-                    title = counter.get("title");
+                    var title = counter.get("title");
+                    var time = timeDesc(counter.get('time'));
 
                     popular_list.append(
                         '<li class="nav-item nav-level-1" '
@@ -1124,7 +1086,7 @@ article .article-content ul li p:first-child {
                         + '<span class="nav-text"> ' + counter.get('title') + ' </span> '
                         + '</a> '
                         + '<span class="nav-number"> '
-                        + '<sup> &nbsp;' + counter.get('time') + ' </sup> '
+                        + '<sup> &nbsp;' + time + ' </sup> '
                         + '</span> '
                         + '</li>'
                     );
@@ -1132,17 +1094,16 @@ article .article-content ul li p:first-child {
                 if (!is_post) {
                     popular_list.append(
                         '<li class="nav-item nav-level-1"> '
-                        + '<i class="fa fa-eye"></i> &nbsp;'
-                        + '<a class="nav-link" href="/bookmarks"> '
-                        + '<span class="nav-text bold"> More </span> '
-                        + '</a> </li>'
+                        //+ '<i class="fa fa-eye"></i> &nbsp;'
+                        + '+. &nbsp; '
+                        + '<a class="nav-link" href="/bookmarks"><span class="nav-text bold">More </span></a> </li>'
                     );
                     popular_list.append(
                         '<li class="nav-item nav-level-1"> '
                         + '<span class="nav-number"> &nbsp; </span> '
                         + '<a class="nav-link" href="/bookmarks"> '
-                        + '<span class="nav-text bold"> &nbsp; </span> '
-                        + '</a> </li>'
+                        + '<span class="nav-text"> &nbsp; </span></a> '
+                        + '</li>'
                     );
                 }
           })
@@ -1165,25 +1126,6 @@ article .article-content ul li p:first-child {
 
 
   
-
-  
-
-  <script>
-    $(window).load(function() {
-        var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
-        if (1 == ds_like_button.length
-                && "none" != document.getElementsByClassName('ds-meta')[0].style.display
-                && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
-        ) {
-            ds_like_button[0].click();
-            document.getElementsByClassName('ds-like-tooltip-close')[0].click();
-            window.location.href = '#';
-        }
-    });
-  </script>
-
-
-
   
 <script>
 (function(){

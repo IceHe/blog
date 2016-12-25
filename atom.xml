@@ -437,7 +437,7 @@
     
     <summary type="html">
     
-      写于 2016 年秋，八至十月小记，冬将至。
+      八至十月小记，冬将至：「尽力买最好的」的消费观，断舍离，恶习，选择困难，反思，碎碎念……
     
     </summary>
     
@@ -1447,7 +1447,7 @@
     
     <summary type="html">
     
-      写于 2016 年夏，一至八月小记。
+      一至八月小记：我的第一个有一点点分量的毽球比赛亚军和冠军！借调到微博头条项目组，搬到新的居所，冲绳之旅，搬入新浪新总部大楼，生活的意外……
     
     </summary>
     
@@ -1607,7 +1607,7 @@ img.fix_height {
     
     <summary type="html">
     
-      Good old days. Photos &amp; Memory.
+      Good old days. Photos &amp; Memory：执信，华工，毽球，社团，悦读，新浪微博，小时候，未来……
     
     </summary>
     
@@ -1970,7 +1970,7 @@ img.fix_height {
     <link href="http://icehe.me/tech/"/>
     <id>http://icehe.me/tech/</id>
     <published>2016-06-13T16:00:00.000Z</published>
-    <updated>2016-11-24T16:00:00.000Z</updated>
+    <updated>2016-12-24T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Web"><a href="#Web" class="headerlink" title="Web"></a>Web</h2><ul>
 <li><a href="http://www.bejson.com/" target="_blank" rel="external">BeJson</a> - JSON 格式校验、格式化，及网络、前端、编码、转换等相关工具</li>
@@ -2082,6 +2082,7 @@ img.fix_height {
 <li><a href="http://coolshell.cn/articles/17066.html" target="_blank" rel="external">关于移动端的钓鱼式攻击</a></li>
 </ul>
 <h2 id="Career"><a href="#Career" class="headerlink" title="Career"></a>Career</h2><ul>
+<li><a href="http://mindhacks.cn/2011/11/04/how-to-interview-a-person-for-two-years/" target="_blank" rel="external">怎样花两年时间去面试一个人</a></li>
 <li><a href="https://www.zhihu.com/question/27809894/answer/98696858" target="_blank" rel="external">计算机行业还能火几年？</a>- 前景！？</li>
 <li><a href="http://benjiweber.co.uk/blog/2016/01/25/why-i-strive-to-be-a-0-1x-engineer/" target="_blank" rel="external">Why I Strive to be a 0.1x Engineer</a> - 不折腾的哲学 <sup><a href="https://github.com/ruanyf/articles/blob/master/gists/2016-01-27-01x-engineer.md" target="_blank" rel="external">简译</a></sup></li>
 <li><a href="http://v.qq.com/boke/gplay/2b442d85914f70c4319a98f09ddbd54d_q020000017nmqu1_0_w019013i0lx.html" target="_blank" rel="external">高薪的人都有哪些特质？</a>- 职人介绍所第 10 期</li>
@@ -2855,10 +2856,23 @@ img.fix_height {
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
-    <updated>2016-10-27T16:00:00.000Z</updated>
+    <updated>2016-12-10T16:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<ul>
-<li>Here are the Mac shortcuts:<ul>
+    <content type="html"><![CDATA[<h2 id="想说的话"><a href="#想说的话" class="headerlink" title="想说的话"></a>想说的话</h2><ul>
+<li>本来还想着在放弃更新之前，再最后更新一次，发布自己最新版的快捷键方案，再去宣布不再更新这篇文章。</li>
+<li><p>可是何苦呢？假如真的下定了决心，就不要再做这种无谓的事情了。这种事是没有尽头的。</p>
+</li>
+<li><p>没什么不好意思承认的，写这篇文章，一开始就是想炫耀自己的「与众不同」。至少表明了自己是「键盘党」，酷爱快捷键，算是一个“有个性”、“独特”的少数派。然而做这种事真的有意义吗？</p>
+</li>
+<li><p>一个人的「特别」并不是靠如此廉价地文字标榜出来的，或是靠外在的认可，或是靠内在的实质证明的。</p>
+</li>
+<li>码这种文字纯属浪费时间，太具体的东西，只能作为例子，作为固化的知识，时效性太差。</li>
+<li><p>思想真不是那么廉价的东西，转化成思想，反而有长久的指导意义。</p>
+</li>
+<li><p>（帕累托法则/二八法则）先只做关键部分的改进，用更少的工具完成更多的工作，符合直觉（容易学习、习惯，不容易犯错），更加明确，循序渐进。</p>
+</li>
+<li><p>Here are the Mac shortcuts:</p>
+<ul>
 <li>the default ones that I use most frequently</li>
 <li>all my custom ones.</li>
 </ul>
@@ -2926,18 +2940,17 @@ img.fix_height {
 <p>  <strong><code>⌘ ^ </code> Force Restart</strong><br>  <strong><code>⌘ ^ ⌥ </code> Force Shutdown</strong></p>
 </li>
 <li><p>Accessory</p>
-<p>  <code>⌘ 凵</code> Spotlight <sup><em>custom</em></sup><br>  <code>⌥ ⇧ F</code> Search in All Files <sup><em>custom</em></sup><br>  <code>^ ⇧ /</code> Show Help Menu <sup><em>custom</em></sup></p>
+<p>  <code>⌘ 凵</code> Spotlight <sup><em>custom</em></sup><br>  <code>⌥ 凵</code> Switch Input Sources <sup><em>custom</em></sup><br>  <code>⌥ ⇧ F</code> Search in All Files <sup><em>custom</em></sup><br>  <code>^ ⇧ /</code> Show Help Menu <sup><em>custom</em></sup></p>
 </li>
 <li><p>Space</p>
 <p>  <code>^ ↑</code> Mission Control<br>  <code>^ ↓</code> App Windows<br>  <code>^ ←</code> Prev Space<br>  <code>^ →</code> Next Space</p>
-<p>  <code>^ Num</code> Switch to the num<sub> th</sub> Desktop<br>  <code>F1</code> Desktop <sup><em>custom</em></sup><br>  <code>⎋ n</code> Launchpad <sup><em>custom</em></sup></p>
+<p>  <code>^ Num</code> Switch to the num<sub> th</sub> Desktop<br>  <code>F1</code> Desktop <sup><em>custom</em></sup><br>  <code>⎋ 4</code> Launchpad <sup><em>custom</em></sup></p>
 </li>
 <li><p>Dock &amp; Menubar &amp; Sidebar</p>
 <p>  <code>F12</code> Notification Center <sup><em>custom</em></sup><br>  <code>^ F12</code> Do Not Disturb On/Off <sup><em>custom</em></sup><br>  <code>⌘ ⌥ d</code> Dock Hiding On/Off</p>
-<p>  <strong><code>^ ⌥ 凵</code> Focus to Dock</strong> <sup><em>custom</em></sup><br>  <code>⌥ `</code> Focus to Menu Bar <sup><em>custom</em></sup></p>
 </li>
 <li><p>Accessory</p>
-<p>  <code>⌘ ⇧ 3</code> Capture Desktop<br>  <code>⌘ ^ w</code> Look Up in Dictionary <sup><em>custom</em></sup></p>
+<p>  <code>⌘ ⇧ 3</code> Capture Desktop</p>
 </li>
 </ul>
 <h2 id="Finder"><a href="#Finder" class="headerlink" title="Finder"></a>Finder</h2><ul>
@@ -2947,8 +2960,7 @@ img.fix_height {
 <p>  <code>⌘ l</code> New Alias for a file<br>  <strong><code>⌘ r</code> to Origin File of Alias</strong></p>
 </li>
 <li><p>Folder</p>
-<p>  <code>⌘ ⇧ A</code> Application<br>  <code>⌘ ⇧ C</code> Computer<br>  <code>⌘ ⇧ D</code> Desktop<br>  <code>⌘ ⇧ F</code> All My Files<br>  <strong><code>⌘ ⇧ G</code> to Folder</strong><br>  <code>⌘ ⇧ H</code> Home<br>  <em><code>⌘ ⇧ K</code> Network</em><br>  <code>⌘ ⇧ O</code> Documents<br>  <strong><code>⌘ ⇧ R</code> AirDrop</strong><br>  <em><code>⌘ ⇧ U</code> Utilities</em><br>  <code>⌘ ⌥ l</code> Downloads</p>
-  <!--__`⌘ ⌥ T` Add to SideBar__-->
+<p>  <code>⌘ ⇧ A</code> Application<br>  <em><code>⌘ ⇧ C</code> Computer</em><br>  <code>⌘ ⇧ D</code> Desktop<br>  <code>⌘ ⇧ F</code> All My Files<br>  <strong><code>⌘ ⇧ G</code> to Folder</strong><br>  <code>⌘ ⇧ H</code> Home<br>  <em><code>⌘ ⇧ K</code> Network</em><br>  <code>⌘ ⇧ O</code> Documents<br>  <strong><code>⌘ ⇧ R</code> AirDrop</strong><br>  <em><code>⌘ ⇧ U</code> Utilities</em><br>  <code>⌘ ⌥ l</code> Downloads</p>
 <p>  <code>⌘ ⇧ N</code> New Folder</p>
 <p>  <strong><code>⌘ ↑</code> to Parent Dir</strong><br>  <strong><code>⌘ ^ ↑</code> Open Parent Dir in New Window</strong></p>
 </li>
@@ -3522,7 +3534,7 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 </ul>
 <h2 id="Firefox"><a href="#Firefox" class="headerlink" title="Firefox"></a><a href="http://www.firefox.com.cn/" target="_blank" rel="external">Firefox</a></h2><ul>
 <li><p>Common</p>
-<p>  <code>⌘ j</code> Downloads<br>  <del><code>⌘ b</code> Bookmarks ( Badly Use )</del><br>  <strong><code>⌘ ⇧ B</code> Manage Bookmarks</strong><br>  <strong><code>⌘ ⇧ H</code> Toggle History</strong><br>  <code>⌘ ⇧ A</code> Extensions</p>
+<p>  <code>⌘ j</code> Downloads<br>  <code>⌘ b</code> Bookmarks ( Badly Use )<br>  <strong><code>⌘ ⇧ B</code> Manage Bookmarks</strong><br>  <strong><code>⌘ ⇧ H</code> Toggle History</strong><br>  <code>⌘ ⇧ A</code> Extensions</p>
 </li>
 <li><p>Development</p>
 <p>  <code>⌘ ⌥ i</code> Inspect Elements<br>  <em><code>⌘ ⌥ c</code> Elements</em><br>  <em><code>⌘ ⌥ k</code> Console</em><br>  <em><code>⌘ ⌥ q</code> Network</em></p>
@@ -3562,8 +3574,7 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 </li>
 <li><p>Close Tab</p>
 <p><code>x</code> Close Current Tab</p>
-<p><strong><code>^ r</code> Close All Tabs on the Right
-</strong><code>^ o</code> Close All Other Tabs</p>
+<p><code>^ r</code> Close All Tabs on the Right<br><code>^ o</code> Close All Other Tabs</p>
 </li>
 <li><p>Regret Op</p>
 <p><code>X</code> Reopen Last Closed Tab</p>
@@ -3659,7 +3670,7 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
     <link href="http://icehe.me/think/bye2015/"/>
     <id>http://icehe.me/think/bye2015/</id>
     <published>2016-01-02T16:00:00.000Z</published>
-    <updated>2016-12-05T04:33:31.000Z</updated>
+    <updated>2016-12-11T05:20:35.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li>Created on 2015-12-26</li>
@@ -3768,7 +3779,7 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
     
     <summary type="html">
     
-      2015 年的总结与感想。
+      2015 年总结与感想：毕设、论文，在微博工作，进步，看开了人与人之间的差距，时间管理，学英语，阅读，实用主义，极简主义，健康最重要，花钱，主动，听音乐，独立，自白……
     
     </summary>
     
@@ -3780,11 +3791,11 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
   </entry>
   
   <entry>
-    <title>Blog Map 博客地图</title>
+    <title>Navigation 博客导航</title>
     <link href="http://icehe.me/bookmarks/"/>
     <id>http://icehe.me/bookmarks/</id>
     <published>2015-12-19T16:00:00.000Z</published>
-    <updated>2016-10-04T16:00:00.000Z</updated>
+    <updated>2016-12-24T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<!--
 ## __Welcome__
@@ -3801,52 +3812,34 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
     用 Evernote 可以做到「记录」，但是难以「分享」；用 GitHub 可以同时做到两者，但是达不到理想的展示效果，所以做了这个博客。
     平日里想要阐发的见闻、见解主要发到 [微博](http://weibo.com/icedes) 和朋友圈，凑够一篇长文才会发到这里。
 -->
+<!-- ### Other Index
+
+- [Archives 归档 ( Sort by Time )](/archives)
+- [Categories 分类](/categories) -->
+<!-- ### [PHP](/categories/PHP)
+
+- [PHP empty\(\) 和 isset\(\) 的区别](/php/PHP%20empty%28%29%20%E5%92%8C%20isset%28%29%20%E7%9A%84%E5%8C%BA%E5%88%AB/)
+- <a href="/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var)/">PHP var !== NULL 是否等价于 isset()</a> -->
 <h3 id="PV"><a href="#PV" class="headerlink" title="PV"></a>PV</h3><div class="post-toc" style="max-height: 1220px; width: calc(100% + 0px);" id="popular-post-div2"> <div class="post-toc-content"> <ol class="nav" id="popular-list2"></ol> </div> </div>
 
-<h3 id="Index"><a href="#Index" class="headerlink" title="Index"></a>Index</h3><ul>
-<li><a href="/archives">Archives 归档 ( Sort by Time )</a></li>
-<li><a href="/categories">Categories 分类</a></li>
-<li>Sort by Category as follows.</li>
-</ul>
-<h3 id="Read"><a href="#Read" class="headerlink" title="Read"></a><a href="/categories/read">Read</a></h3><ul>
-<li>Blog Map 博客地图 <sup>this page</sup></li>
-<li><a href="/tech"><strong>Technology Bookmarks 技术书签</strong></a></li>
-<li><a href="/read"><strong>Reading Bookmarks 阅读书签</strong></a></li>
-<li><a href="/favourites">Favorites 喜好</a></li>
-</ul>
-<h3 id="Mac"><a href="#Mac" class="headerlink" title="Mac"></a><a href="/categories/Mac">Mac</a></h3><ul>
-<li><a href="/tools"><strong>Tools 利器</strong></a> - App、硬件推荐</li>
-<li><a href="/mac_shortcuts"><strong>Mac Shortcuts 快捷键</strong></a></li>
-</ul>
+<p><br>Sort by Category as follows.</p>
 <h3 id="Think"><a href="#Think" class="headerlink" title="Think"></a><a href="/categories/think">Think</a></h3><ul>
-<li><a href="/think/life_manual"><strong>Life Exp 生活指北</strong></a> <sup><strong>New</strong></sup></li>
-<li><a href="/think/2016_fall">2016 Fall</a> <sup><strong>New</strong></sup></li>
+<li><a href="/think/2016_fall">2016 Fall</a></li>
 <li><a href="/think/2016_summer">2016 Summer</a></li>
 <li><a href="/think/bye2015">Bye 2015</a></li>
-</ul>
-<h3 id="Web"><a href="#Web" class="headerlink" title="Web"></a><a href="/categories/Web">Web</a></h3><ul>
-<li><a href="/web/build_blog/">Build Blog 搭建个人博客</a></li>
-<li><a href="/web/donate">实现网站的支付宝打赏功能</a></li>
-<li><a href="/search">Google CSE 站内搜索</a></li>
-<li><a href="/404">404 Page</a></li>
-</ul>
-<h3 id="C"><a href="#C" class="headerlink" title="C++"></a><a href="/categories/C/">C++</a></h3><ul>
-<li><a href="/c++/C++ Primer 5th/">C++ Primer 5th - Note</a></li>
-<li><a href="/c++/C++ Interview Book/">C++ Interview Book - Note</a></li>
-<li><a href="/c++/C++ Code Standards 编码标准/">C++ Code Standards 编码规范 - Note</a></li>
-<li>Effective C++ - Note <a href="/c++/Effective C++ - Reading Note 1">「 1 」</a><a href="/c++/Effective C++ - Reading Note 2">「 2 」</a><a href="/c++/Effective C++ - Reading Note 3">「 3 」</a><a href="/c++/Effective C++ - Reading Note 4">「 4 」</a></li>
-</ul>
-<h3 id="CentOS"><a href="#CentOS" class="headerlink" title="CentOS"></a><a href="/categories/CentOS">CentOS</a></h3><ul>
-<li><a href="/linux/[00] U盘安装 CentOS 7/">U盘安装</a></li>
-<li><a href="/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/">恢复 Windows 的开机引导</a></li>
-<li><a href="/linux/[02] Config System Envir 配置系统环境 - CentOS 7/">配置系统环境</a></li>
-<li><a href="/linux/[03] Update Kernel 升级内核 - CentOS 7">升级内核</a></li>
-<li><a href="/linux/[04] 安装 CentOS 7 后必做的 安全防范措施/">安装后的安全防范措施</a></li>
-<li><a href="/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/">自动挂载 NTFS 格式的硬盘分区</a></li>
+<li><a href="/think/life_manual"><strong>Life Exp 生活指北</strong></a></li>
 </ul>
 <h3 id="Command"><a href="#Command" class="headerlink" title="Command"></a><a href="/categories/Command">Command</a></h3><ul>
 <li><a href="/cmd/git_note">Git Note</a></li>
 </ul>
+<!-- ### [CentOS](/categories/CentOS)
+
+- [U盘安装](/linux/[00] U盘安装 CentOS 7/)
+- [恢复 Windows 的开机引导](/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/)
+- [配置系统环境](/linux/[02] Config System Envir 配置系统环境 - CentOS 7/)
+- [升级内核](/linux/[03] Update Kernel 升级内核 - CentOS 7)
+- [安装后的安全防范措施](/linux/[04] 安装 CentOS 7 后必做的 安全防范措施/)
+- [自动挂载 NTFS 格式的硬盘分区](/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/) -->
 <h3 id="AppleScript"><a href="#AppleScript" class="headerlink" title="AppleScript"></a><a href="/categories/AppleScript">AppleScript</a></h3><ul>
 <li><a href="/applescript/evernote_osx/">用 AppleScript 操作 Evernote / macOS</a></li>
 <li><a href="/applescript/applescript/">AppleScript Quick Start 快速入门</a></li>
@@ -3876,26 +3869,43 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <li><a href="/batch/DOS 特殊符号 Symbol/">DOS Symbols 特殊符号</a></li>
 <li><a href="/batch/DOS 环境变量 Environment Variable/">DOS Environment Variable 环境变量</a></li>
 </ul>
+<h3 id="C"><a href="#C" class="headerlink" title="C++"></a><a href="/categories/C/">C++</a></h3><ul>
+<li><a href="/c++/C++ Primer 5th/">C++ Primer 5th - Note</a></li>
+<li><a href="/c++/C++ Interview Book/">C++ Interview Book - Note</a></li>
+<li><a href="/c++/C++ Code Standards 编码标准/">C++ Code Standards 编码规范 - Note</a></li>
+<li>Effective C++ - Note <a href="/c++/Effective C++ - Reading Note 1">「 1 」</a><a href="/c++/Effective C++ - Reading Note 2">「 2 」</a><a href="/c++/Effective C++ - Reading Note 3">「 3 」</a><a href="/c++/Effective C++ - Reading Note 4">「 4 」</a></li>
+</ul>
 <h3 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a><a href="/javascript/某次js代码优化过程">JavaScript</a></h3><ul>
 <li><a href="/javascript/某次js代码优化过程/">某次 JavaScript 代码优化过程</a></li>
+</ul>
+<h3 id="Mac"><a href="#Mac" class="headerlink" title="Mac"></a><a href="/categories/Mac">Mac</a></h3><ul>
+<li><a href="/tools"><strong>Tools 利器</strong></a> - Apps、硬件推荐</li>
+<li><a href="/mac_shortcuts"><strong>Mac Shortcuts 快捷键</strong></a></li>
+</ul>
+<h3 id="Read"><a href="#Read" class="headerlink" title="Read"></a><a href="/categories/read">Read</a></h3><ul>
+<li>Blog Map 博客地图 <sup>this page</sup></li>
+<li><a href="/tech"><strong>Technology Bookmarks 技术书签</strong></a></li>
+<li><a href="/read"><strong>Reading Bookmarks 阅读书签</strong></a></li>
+<li><a href="/favourites">Favorites 喜好</a></li>
 </ul>
 <h3 id="Time-Mgt"><a href="#Time-Mgt" class="headerlink" title="Time Mgt"></a><a href="/categories/time-mgt">Time Mgt</a></h3><ul>
 <li><a href="/lifelogs">Life Logs 手帐</a></li>
 <li><a href="/think/time_mgt">Time Mgt 时间管理日志</a></li>
+</ul>
+<h3 id="Web"><a href="#Web" class="headerlink" title="Web"></a><a href="/categories/Web">Web</a></h3><ul>
+<li><a href="/web/build_blog/">Build Blog 搭建个人博客</a></li>
+<li><a href="/web/donate">实现网站的支付宝打赏功能</a></li>
 </ul>
 <h3 id="Whoami"><a href="#Whoami" class="headerlink" title="Whoami"></a><a href="/categories/whoami">Whoami</a></h3><ul>
 <li><a href="/about/">CV 简历</a></li>
 <li><a href="/moments/">My Moments</a></li>
 <li><a href="/reward">Reward Me 打赏博主</a></li>
 </ul>
-<!--### [PHP](/categories/PHP)-->
-<!-- - [PHP empty\(\) 和 isset\(\) 的区别](/php/PHP%20empty%28%29%20%E5%92%8C%20isset%28%29%20%E7%9A%84%E5%8C%BA%E5%88%AB/)-->
-<!-- - <a href="/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var)/">PHP var !== NULL 是否等价于 isset()</a>-->
 ]]></content>
     
     <summary type="html">
     
-      博客导航。
+      PV Top N 热榜、文章分类列表。
     
     </summary>
     
@@ -4592,26 +4602,18 @@ article .article-content ul li p:first-child {
     <link href="http://icehe.me/favourites/"/>
     <id>http://icehe.me/favourites/</id>
     <published>2015-11-18T16:00:00.000Z</published>
-    <updated>2016-09-02T16:00:00.000Z</updated>
+    <updated>2016-12-16T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
-<li><strong>心目中的佳作，记录于此。</strong></li>
-<li>Superscript 上标<ul>
-<li>The item with <sup><strong>Best</strong></sup>&nbsp; implies it is <code>one of the best</code>.</li>
-<li>The item with <sup><em>temp</em></sup>&nbsp; implies it might <code>be removed one day</code>.<!--- The item with <sup>_todo_</sup>&nbsp; implies it has `not been read-through`.-->
-<!--- The item with <sup>Note</sup>&nbsp; implies it is `a link to my related note`.-->
-</li>
+<li><strong>所爱之物记录于此。</strong></li>
+<li>喜欢的东西太多了，只记录最钟爱的。</li>
 </ul>
-</li>
+<h1 id="Sports-运动"><a href="#Sports-运动" class="headerlink" title="Sports 运动"></a>Sports 运动</h1><ul>
+<li>羽毛球</li>
+<li><a href="/about/#华工毽球社-社长">毽球</a></li>
 </ul>
 <h1 id="Books-书"><a href="#Books-书" class="headerlink" title="Books 书"></a>Books 书</h1><ul>
 <li><a href="/read/#Books-书">Reading Bookmarks - Books</a></li>
-</ul>
-<h1 id="FM-播客"><a href="#FM-播客" class="headerlink" title="FM 播客"></a>FM 播客</h1><ul>
-<li><a href="/read/#FM-播客">Reading Bookmarks - FM</a></li>
-</ul>
-<h1 id="WeChat-OA-公众号"><a href="#WeChat-OA-公众号" class="headerlink" title="WeChat OA 公众号"></a>WeChat OA 公众号</h1><ul>
-<li><a href="/read/#微信公众号">Reading Bookmarks - 微信公众号</a></li>
 </ul>
 <h1 id="Motion-Picture-电影"><a href="#Motion-Picture-电影" class="headerlink" title="Motion Picture 电影"></a>Motion Picture 电影</h1><ul>
 <li><a href="https://movie.douban.com/subject/3041269/" target="_blank" rel="external">Limitless</a><br>  《永无止境》，爽！</li>
@@ -4634,7 +4636,7 @@ article .article-content ul li p:first-child {
 <li><a href="https://movie.douban.com/subject/1291838/" target="_blank" rel="external">红猪</a><br>  洒脱。</li>
 <li><a href="https://movie.douban.com/subject/3908423/" target="_blank" rel="external">夏日大作战</a><br>  夏。</li>
 <li><a href="https://movie.douban.com/subject/1308807/" target="_blank" rel="external">哈尔的移动城堡</a> <sup><strong>Best</strong></sup> <sup>最爱 No.2</sup><br>  绚丽。</li>
-<li><a href="https://movie.douban.com/subject/1308807/" target="_blank" rel="external">你的名字。</a> <sup><strong>Best</strong></sup> <sup>最爱 No.1</sup><br>  梦？</li>
+<li><a href="https://movie.douban.com/subject/1308807/" target="_blank" rel="external">你的名字。</a> <sup><strong>Best</strong></sup> <sup>最爱 No.1</sup><br>  梦。</li>
 </ul>
 <h1 id="TV-Dramas-电视剧"><a href="#TV-Dramas-电视剧" class="headerlink" title="TV Dramas 电视剧"></a>TV Dramas 电视剧</h1><ul>
 <li><a href="https://movie.douban.com/subject/24697949/" target="_blank" rel="external">半泽直树</a><br>  复仇，弱肉强食。</li>
@@ -4642,7 +4644,6 @@ article .article-content ul li p:first-child {
 <li><a href="https://movie.douban.com/subject/26663070/" target="_blank" rel="external">家族的形式</a><br>  不婚族？</li>
 <li><a href="https://movie.douban.com/subject_search?search_text=Legal+High&amp;cat=1002" target="_blank" rel="external">Legal High</a> <sup><strong>Best</strong></sup><br>  法律至高。</li>
 <li><a href="https://movie.douban.com/subject_search?search_text=Black+Mirror&amp;cat=1002" target="_blank" rel="external">Black Mirror</a> <sup><strong>Best</strong></sup><br>  《黑镜》，警世。</li>
-<li><a href="https://movie.douban.com/subject_search?search_text=Game+of+Thrones&amp;cat=1002" target="_blank" rel="external">Game of Thrones</a><br>  《权力的游戏》，史诗。</li>
 </ul>
 <h1 id="Animate-动画"><a href="#Animate-动画" class="headerlink" title="Animate 动画"></a>Animate 动画</h1><ul>
 <li><strong><a href="https://movie.douban.com/subject/25813424/" target="_blank" rel="external">乒乓</a></strong> <sup><strong>Best</strong></sup><br>  人生，天赋与努力。</li>
@@ -4676,28 +4677,24 @@ article .article-content ul li p:first-child {
 <li><a href="http://movie.douban.com/subject/5413681/" target="_blank" rel="external">[ C ] THE MONEY OF SOUL AND POSSIBILITY CONTROL</a><br>  未来。</li>
 <li><a href="https://movie.douban.com/subject_search?search_text=%E4%BC%AA%E6%81%8B&amp;cat=1002" target="_blank" rel="external">伪恋</a><br>  恋爱喜剧。</li>
 <li><a href="https://movie.douban.com/subject/26801048/" target="_blank" rel="external">齐木楠雄的灾难</a><br>  笑得根本停不下来… 哈哈哈…</li>
+<li><a href="https://movie.douban.com/subject/26756212/" target="_blank" rel="external">冰上的尤里</a><br>  华丽。</li>
 <li><a href="http://movie.douban.com/subject/4202090/" target="_blank" rel="external">Angel Beats!</a><br>  音乐。</li>
 <li><a href="http://movie.douban.com/subject/4935090/" target="_blank" rel="external">花开伊吕波</a><br>  花开之色。</li>
 <li><a href="http://movie.douban.com/subject/10001418/" target="_blank" rel="external">冰菓</a> <sup><strong>Best</strong></sup><br>  情愫。</li>
 <li><a href="http://movie.douban.com/subject/1453238/" target="_blank" rel="external">One Piece</a><br>  心目中的最燃作。无奈太长弃坑。</li>
 <li><a href="http://movie.douban.com/subject/1427318/" target="_blank" rel="external">火影忍者</a><br>  入宅作，从只有几集动画时就开始追了，却没坚持到最后。</li>
 <li><a href="http://movie.douban.com/subject/10477598/" target="_blank" rel="external">罗小黑战记</a> <sup><strong>Best</strong></sup><br>  萌~</li>
+<li><a href="https://movie.douban.com/subject/26757958/" target="_blank" rel="external">信长的忍者</a><br>  萌~</li>
 <li><span class="val_pos icon-douban"> &nbsp;<a href="http://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">其它看过的片</a><br>  用豆瓣记录所有看过的片意义不大还麻烦，以后只在博客此处做记录。</span></li>
 </ul>
 <h1 id="Games-游戏"><a href="#Games-游戏" class="headerlink" title="Games 游戏"></a>Games 游戏</h1><h2 id="iOS"><a href="#iOS" class="headerlink" title="iOS"></a>iOS</h2><ul>
-<li><a href="https://itunes.apple.com/en/app/deemo/id700637744?mt=8" target="_blank" rel="external">Deemo</a> <sup><strong>Best</strong></sup><br>  最爱的音乐游戏！最爱曲目：Magnolia 。超喜欢这个游戏工作室：Rayark（台湾）！<ul>
-<li>其它喜爱的曲目：<br>  Nine point nine , Platinum , Utopiosphere , Yubikiri-genman , Invite , Run go run , Pulses , Electron , Walking by the sea , Beyond the Stratus , Angelic sphere , Leviathan , Suspenseful third day , Living in the one , Little corgis dream , The way we were , The red coronation , Knight of firmament , Cream stew , I can not say , Kireigoto , New World , Time forgotten , Reminiscence … ( No update now )</li>
+<li><a href="https://itunes.apple.com/en/app/deemo/id700637744?mt=8" target="_blank" rel="external">Deemo</a> <sup><strong>Best</strong></sup><br>  最爱的音乐游戏！最喜爱的曲目： Magnolia , Walking by the sea , Living in the one.</li>
 </ul>
-</li>
-<li><a href="https://itunes.apple.com/en/app/kingdom-rush/id516378985?mt=8" target="_blank" rel="external">Kingdom Rush</a><br>  《皇家守卫军》，塔防。</li>
-<li><a href="https://itunes.apple.com/en/app/framed/id886565180?mt=8" target="_blank" rel="external">Framed</a> <sup><strong>Best</strong></sup><br>  《致命框架》，解密游戏，玩法新奇有趣。</li>
-<li><a href="https://itunes.apple.com/en/app/monument-valley/id728293409?mt=8" target="_blank" rel="external">Monument Valley</a><br>  《纪念碑谷》，游戏也可以是艺术品。</li>
-</ul>
-<h2 id="PC-桌面"><a href="#PC-桌面" class="headerlink" title="PC 桌面"></a>PC 桌面</h2><ul>
-<li><a href="http://heroes.blizzard.cn/landing" target="_blank" rel="external">Heroes of the Storm</a><br>  《风暴英雄》，有趣易上手。最喜欢跟朋友一起并肩作战，半夜兴奋狂吼。</li>
-<li><a href="http://hs.blizzard.cn/landing" target="_blank" rel="external">Hearth Stone</a><br>  《炉石传说》，勾起当年玩「游戏王」的卡牌情结。</li>
-<li><a href="http://us.blizzard.com/en-us/games/war3/" target="_blank" rel="external">Warcraft 3</a> <sup><strong>Best</strong></sup><br>  《魔兽争霸3 冰封王座》！当年多喜欢即时战略，不过这股风潮已经过去。之后崛起的 Dota、LOL 就没玩了。</li>
+<h2 id="PC"><a href="#PC" class="headerlink" title="PC"></a>PC</h2><ul>
 <li><a href="http://www.gamecity.ne.jp/products/products/ee/new/san9/" target="_blank" rel="external">三国志 9</a><br>  战略游戏经典之作。</li>
+<li><a href="http://hs.blizzard.cn/landing" target="_blank" rel="external">Hearth Stone</a><br>  《炉石传说》，勾起当年玩「游戏王」的卡牌情结。</li>
+<li><a href="http://heroes.blizzard.cn/landing" target="_blank" rel="external">Heroes of the Storm</a><br>  《风暴英雄》，有趣易上手。最喜欢跟朋友一起并肩作战，半夜兴奋狂吼。</li>
+<li><a href="http://us.blizzard.com/en-us/games/war3/" target="_blank" rel="external">Warcraft 3</a> <sup><strong>Best</strong></sup><br>  《魔兽争霸3 冰封王座》！当年多喜欢即时战略，不过这股风潮已经过去。之后崛起的 Dota、LOL 就没玩了。</li>
 </ul>
 <h2 id="Game-Boy-掌机"><a href="#Game-Boy-掌机" class="headerlink" title="Game Boy 掌机"></a>Game Boy 掌机</h2><ul>
 <li><a href="http://ffta2.ffsky.cn/" target="_blank" rel="external">Final Fantasy Tactics A2</a> <sup><strong>Best</strong></sup><br>  《最终幻想战略版》 A &amp; A2 ！ 我最喜欢的游戏类型就是战棋，它就是我心目中的神作！ 最喜欢的最终幻想衍生游戏分支，我重玩次数最多的游戏， 献给这个系列的两作游戏的时间远超700小时。</li>
@@ -4720,62 +4717,40 @@ article .article-content ul li p:first-child {
 <li><a href="https://zh.wikipedia.org/wiki/%E8%99%9A%E4%B9%8B%E5%B0%91%E5%A5%B3" target="_blank" rel="external">壳之少女</a><br>  超文艺，也超重口。</li>
 <li><a href="http://baike.baidu.com/view/8890991.htm" target="_blank" rel="external">鬼哭街2011重制版</a> <sup><strong>Best</strong></sup><br>  我想象中的现代中式武侠打斗的文字描写范本，虚渊玄作品。</li>
 </ul>
-<h2 id="实体游戏"><a href="#实体游戏" class="headerlink" title="实体游戏"></a>实体游戏</h2><ul>
+<h2 id="Others-其它"><a href="#Others-其它" class="headerlink" title="Others 其它"></a>Others 其它</h2><ul>
 <li><a href="https://zh.wikipedia.org/wiki/%E9%81%8A%E6%88%B2%E7%8E%8B%E9%9B%86%E6%8F%9B%E7%B4%99%E7%89%8C%E9%81%8A%E6%88%B2" target="_blank" rel="external">游戏王</a> <sup><strong>Best</strong></sup><br>  挚爱的卡牌游戏，当年几个损友一起愉快地玩了三年，花了不少钱去买正版卡牌；初三戒了，就再也没有继续下去，几个损友如今也难再聚。</li>
 <li><a href="https://zh.wikipedia.org/wiki/%E5%9B%B4%E6%A3%8B" target="_blank" rel="external">围棋</a> <sup><strong>Best</strong></sup><br>  深奥幽玄。当年买了好几本大部头教材，小学中午午睡时间我不睡觉，就在被窝里钻研。</li>
-<li><a href="https://zh.wikipedia.org/wiki/%E5%B1%8F%E9%A2%A8%E5%BC%8F%E5%9B%9B%E5%AD%90%E6%A3%8B" target="_blank" rel="external">四子棋</a></li>
-<li><a href="https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E8%B7%B3%E6%A3%8B" target="_blank" rel="external">跳棋</a><br>  当年自己发明了许多玩法。</li>
 </ul>
 <h1 id="Singers-歌手"><a href="#Singers-歌手" class="headerlink" title="Singers 歌手"></a>Singers 歌手</h1><ul>
-<li><strong>Twins <sup>Most</sup></strong><!--幼稚园、死性不改、梨涡浅笑、星光游乐园。--></li>
-<li><strong>古巨基 <sup>Most</sup></strong></li>
-<li>卫诗</li>
-<li><strong>卫兰</strong></li>
-<li><strong>陈奕迅 <sup>Most</sup></strong></li>
-<li>邓丽欣</li>
-<li>方力申</li>
-<li><strong>杨千嬅 <sup>Most</sup></strong></li>
-<li><strong>周杰伦</strong></li>
-<li><strong>F.I.R</strong></li>
-<li><strong>S.H.E</strong></li>
-<li><strong>Tank</strong></li>
-<li>王心凌</li>
-<li><strong>王力宏</strong></li>
-<li><strong>陶喆 <sup>Most</sup></strong></li>
-<li>Rie fu</li>
-<li>张敬轩</li>
-<li><strong>苏打绿</strong></li>
-<li>孙燕姿</li>
-<li><strong>南拳妈妈</strong></li>
-<li><strong>陈绮贞 <sup>Most</sup></strong></li>
-<li><strong>张韶涵</strong></li>
-<li><strong>梁静茹 <sup>Most</sup></strong></li>
-<li><strong>初音ミク <sup>Most</sup></strong></li>
+<li>Twins <sup><strong>Best</strong></sup></li>
+<li>古巨基</li>
+<li>陈奕迅 <sup><strong>Best</strong></sup></li>
+<li>杨千嬅 <sup><strong>Best</strong></sup></li>
+<li>卫兰</li>
+<li>周杰伦</li>
+<li>王力宏</li>
+<li>陶喆</li>
+<li>F.I.R.</li>
+<li>S.H.E.</li>
+<li>Tank</li>
+<li>南拳妈妈</li>
+<li>梁静茹 <sup><strong>Best</strong></sup></li>
+<li>张韶涵</li>
+<li>苏打绿 <sup><strong>Best</strong></sup></li>
+<li>陈绮贞 <sup><strong>Best</strong></sup></li>
+<li>方大同 <sup><strong>Best</strong></sup></li>
+<li>初音ミク <sup><strong>Best</strong></sup></li>
 <li>王菲</li>
-<li><strong>方大同 <sup>Most</sup></strong></li>
-<li><strong>ClariS</strong></li>
-<li><strong>Egoist</strong></li>
+<li>ClariS</li>
+<li>Egoist</li>
 <li>Supercell</li>
-<li><strong>小野リサ</strong></li>
-<li>羊毛とおはな</li>
-<li>陈洁仪</li>
-<li>Olivia Ong</li>
 <li>李荣浩</li>
-<li>Paris Match</li>
-<li>Pomplamoose</li>
 </ul>
-<style type="text/css">
-article .article-content ul li p:first-child {
-    list-style: disc;
-    text-align: match-parent;
-    //font-weight: bold;
-}
-</style>
 ]]></content>
     
     <summary type="html">
     
-      我喜欢的书籍、FM栏目、电影、电视剧、动画、游戏…
+      我喜欢的书籍、电影、电视剧、动画、游戏…
     
     </summary>
     
@@ -4791,11 +4766,51 @@ article .article-content ul li p:first-child {
     <link href="http://icehe.me/web/build_blog/"/>
     <id>http://icehe.me/web/build_blog/</id>
     <published>2015-11-13T16:00:00.000Z</published>
-    <updated>2016-12-04T16:00:00.000Z</updated>
+    <updated>2016-12-17T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li>上一版《 <a href="/old_version_posts/Why_and_how_to_build_my_blog.html">Why and How to bulid my blog? 搭建我的个人博客</a> 》</li>
 <li>失效链接已修复，如需帮助，望读者及时反馈。</li>
+</ul>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><ul>
+<li>写了这么多，删掉挺可惜的，毕竟自己写的，难免不舍得啊。<ul>
+<li>但是这种东西，网上太多了，简直泛滥。</li>
+</ul>
+</li>
+<li>我写的真的价值不大。特别是我遇到了 Next 这个 Hexo Theme，它包办基本上我所想要的几乎所有博客功能，配置简单。<ul>
+<li>现在 Next 这个 Hexo Theme 应该是 Hexo 中最受欢迎的主题吧！</li>
+</ul>
+</li>
+<li>但是这造成了一个问题：<ul>
+<li>做个人博客是为了独立、独特，彰显个性（乃至于逼格）。</li>
+<li>用别人的主题还好，可以选择一个不流行人用得少的，但是配置起来麻烦，还缺少很多功能支持，要自己折腾。我自己现在就特别讨厌没有意义的折腾。</li>
+<li>但是还要选择一个比较流行的主题，虽然配置性不过，但是感觉还是太雷同了…</li>
+</ul>
+</li>
+<li>但是深一层想想，如果你是一个有思想深度的人，或者创造了很多干货，哪怕你只是用微博发，还是用 CSDN，甚至只是用 GitHub 来写，无论什么载体都是无所谓的。<ul>
+<li>外表的不一样是独特的，但是真正的与众不同、特立独行，不光在外表上的，更深层次是思想上的。<ul>
+<li>另说：当然外表也是独特性一个很大的体现，看哪个领域，出版界、时尚界，好像还有点意义。但对于技术圈、学术圈，外表真的是无关紧要，至少不是重要的。</li>
+</ul>
+</li>
+<li>所以我不想纠结这些东西，我想到了自己做博客的目的。<ul>
+<li>总结自己的思想，不断有进步的依据</li>
+<li>分享自己的所思所想，干货。</li>
+<li>展示自己，推销自己（虚荣）。</li>
+</ul>
+</li>
+<li>重要是个人的价值，而不是炫目的外表。工作，最重要的是出成果，而不是「完美」、「好看」，没有意义。<ul>
+<li>毕竟 Done is better than perfect.</li>
+</ul>
+</li>
+<li>我意识到其它一切都是外物，身体健康、学习能力、思考能力、行为习惯、行动能力，这些才是最重要，可以带得走的。<ul>
+<li>你的手机、电脑、房子、朋友、存款，一切都没有了，你依然可以自由独立地在这个世界上活得好好的。</li>
+<li>我想要成为这样的人。</li>
+<li>就这样。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>2016-12-18</li>
 </ul>
 <h1 id="Why-初衷"><a href="#Why-初衷" class="headerlink" title="Why - 初衷"></a>Why - 初衷</h1><p>与其到各大博客平台去写博客，<br>不如自己搭建个独一无二的。<br>不但过程有意思，还能学到许多新知识。</p>
 <p>可以用来记录<a href="/lifelogs">自己的人生</a>，<br>放一些值得分享的技术、读书笔记和感想。</p>
@@ -4885,7 +4900,7 @@ article .article-content ul li p:first-child {
 <li>Theme Author - <a href="http://wuchong.me/" target="_blank" rel="external">WuChong</a></li>
 </ul>
 <h2 id="About-Me-关于"><a href="#About-Me-关于" class="headerlink" title="About Me 关于"></a>About Me 关于</h2><p>This’s my <a href="/about"><strong>brief intro</strong></a>. 这是我的<a href="/about"> <strong>简介</strong> </a>。</p>
-<p><strong>Thx for your reading. 感谢您的阅读。</strong><br><br></p>
+<p><strong>Thx for your reading. 感谢您的阅读。</strong></p>
 ]]></content>
     
     <summary type="html">
@@ -5413,7 +5428,7 @@ window.onload = function () {
     <link href="http://icehe.me/asm/Assembly%20Language%20-%20Note%2015/"/>
     <id>http://icehe.me/asm/Assembly Language - Note 15/</id>
     <published>2015-04-15T16:00:00.000Z</published>
-    <updated>2016-12-05T06:18:57.000Z</updated>
+    <updated>2016-12-25T10:14:46.000Z</updated>
     
     <content type="html"><![CDATA[
 <ul><li>Created on 2014-11</li></ul><br>
@@ -5439,7 +5454,7 @@ window.onload = function () {
     <link href="http://icehe.me/asm/Assembly%20Language%20-%20Note%2014/"/>
     <id>http://icehe.me/asm/Assembly Language - Note 14/</id>
     <published>2015-04-14T16:00:00.000Z</published>
-    <updated>2016-12-05T06:18:50.000Z</updated>
+    <updated>2016-12-25T10:14:42.000Z</updated>
     
     <content type="html"><![CDATA[
 <ul><li>Created on 2014-11</li></ul><br>

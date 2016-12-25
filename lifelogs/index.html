@@ -65,9 +65,7 @@
 
 
 
-  
-
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
@@ -96,7 +94,7 @@
 <meta property="og:url" content="http://icehe.me/lifelogs/index.html">
 <meta property="og:site_name" content="IceHe.me">
 <meta property="og:description" content="个人时间管理日志。">
-<meta property="og:updated_time" content="2016-10-31T16:00:00.000Z">
+<meta property="og:updated_time" content="2016-12-17T16:00:00.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Life Logs 手帐">
 <meta name="twitter:description" content="个人时间管理日志。">
@@ -185,7 +183,9 @@
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
-  <p class="site-subtitle">More is in vain when less will serve.</p>
+    
+      <p class="site-subtitle">More is in vain when less will serve.</p>
+    
 </div>
 
 <div class="site-nav-toggle">
@@ -206,19 +206,19 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-cube"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-quote-left"></i> <br />
             
-            Home
+            Articles
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-map">
+        <li class="menu-item menu-item-nav">
           <a href="/bookmarks" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-bookmark"></i> <br />
             
-            Map
+            Nav
           </a>
         </li>
       
@@ -226,7 +226,7 @@
         <li class="menu-item menu-item-cv">
           <a href="/about" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-user-secret"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-star"></i> <br />
             
             CV
           </a>
@@ -297,60 +297,38 @@
 
         <div class="post-meta">
 
-          
-          
-             <span id="/lifelogs/" class="leancloud_visitors" data-flag-title="Life Logs 手帐">
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <!-- 只显示图标，不显示文本 -->
-               <span class="hidden post-meta-item-text">Visitors </span>
-               <span class="leancloud-visitors-count"></span>
-               <span class="post-meta-divider">|</span>
-              </span>
-          
-
           <span class="post-time">
             
               <span class="post-meta-item-icon">
-                <i class="fa fa-pencil"></i>
+                
+                  <i class="fa fa-refresh"></i>
+                
               </span>
-              <!-- 只显示图标，不显示文本 -->
-              <span class="hidden post-meta-item-text">Posted on</span>
+              
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-01-22T00:00:00+08:00">
-                2015-01-22
-              </time>
+              
+                2016.12
+              
             
 
             
-              <span class="post-meta-divider">|</span>
-            
 
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-refresh"></i>
-              </span>
-              <!-- 只显示图标，不显示文本 -->
-              <span class="hidden post-meta-item-text">Post modified</span>
-              <time title="Post modified" itemprop="dateModified" datetime="2016-11-01T00:00:00+08:00">
-                2016-11-01
-              </time>
             
           </span>
 
           
             <span class="post-category" >
+            
               <span class="post-meta-divider">|</span>
+            
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <!-- 只显示图标，不显示文本 -->
-              <span class="hidden post-meta-item-text">In</span>
+              
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/time-mgt/" itemprop="url" rel="index">
-                    <span itemprop="name">time mgt</span>
-                  </a>
+                    <span itemprop="name">time mgt</span></a>
                 </span>
 
                 
@@ -360,16 +338,17 @@
           
 
           
-            
-              <!--
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <a href="/lifelogs/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="lifelogs/" itemprop="commentCount"></span>
-                </a>
+
+          
+          
+            <span id="/lifelogs/" class="hidden leancloud_visitors" data-flag-title="Life Logs 手帐">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
               </span>
-              -->
-            
+              
+              <span class="leancloud-visitors-count"></span>
+            </span>
           
 
           
@@ -392,11 +371,24 @@
       
       
 
-      <!-- 只显示 description，不显示 "显示更多" 的文本及链接 -->
       
-        <ul>
-<li>新：正在不断实践尝试中，制定完善新方法…</li>
-<li>旧：<a href="/think/time_mgt/">Explanations for Log Format - 日志记录格式的说明</a></li>
+        <h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><ul>
+<li>虽然我不再更新这里的统计日志了，但是我并没有停止记录时间使用情况。我只是转而使用一个时间统计方式很契合我既有习惯的 App「<a href="https://itunes.apple.com/us/app/blockytime-simply-track-you/id1086617993?mt=8" target="_blank" rel="external">BlockyTime</a> 时间块」。既然有一个现成的足够好的解决方案，何苦要自己折腾呢，还有很多或重要或美好的事情等着我去做呢。</li>
+<li>自己搭建了一个用于统计时间使用情况的系统：<ul>
+<li>Evernote：精确到半小时的每天时间使用情况的原始记录。</li>
+<li>AppleScript 脚本 + Python 脚本：根据模板添加新一天的空白统计日志，统计、更新 Evernote 中每天的统计日志，同时将统计结果也输出到数据库中。</li>
+<li>MySQL：存储每日、每周、每月、每年的时间统计结果，各类事务的时长，以及对百分比等。</li>
+<li>博客：每个月定时推送到博客的 LifeLogs 上。</li>
+</ul>
+</li>
+<li>这个系统已经用了两年了。如果折腾一个东西是想要证明极客范，那么目的已经达到了。虽然好像做这件事意义不是很大，它对其他人的通用性也不强，但是学习相关知识、尝试方法、调试脚本和系统，确确实实花费了许多时间。而现在我决定精简自己的生活。</li>
+<li>我为什么要做时间统计？其实我看《<a href="https://book.douban.com/subject/1115353/" target="_blank" rel="external">奇特的一生</a>》之前就已经开始这样做了，正如《<a href="https://book.douban.com/subject/10828002/" target="_blank" rel="external">游戏改变世界</a>》所说，我想把现实生活过成「游戏」的样子，拥有及时的正面反馈，每努力半小时我都可以记录下来，好像我的经验值又涨了——看今天除了睡觉 50% 的时间都有好好学习呢！</li>
+<li>然而现在我到达了一个瓶颈，陷入了一个怪圈。瓶颈：经过长时间的实践努力和统计验证，知道了每天除去睡觉时间，每天 50% 的时间好好学习、工作是很难的，一周、一月平均 35% 已经非常不错了！怪圈：我确确实实投入了更多时间去努力，虽然我可能也注重效率，但却忽略了实效，重要的是成果，我可以正确地做事了，但更需要做正确的事，做最重要的事。不然一切不过是盲目的自我感动，劳而无功、南辕北辙，不过徒劳。我之前对日常工作不够关注（虽然工作也只是手段），我太贪心，关注太多无谓的多余的东西。</li>
+<li>我决定花更多时间去思考，花更多时间去放空、娱乐，然后心情愉快、精力充沛地去做真正正确的事。</li>
+<li>2016-12-18</li>
+</ul>
+<h2 id="格式说明"><a href="#格式说明" class="headerlink" title="格式说明"></a>格式说明</h2><ul>
+<li><a href="/think/time_mgt/">Explanations for Log Format - 日志记录格式的说明</a></li>
 </ul>
 <h2 id="2016"><a href="#2016" class="headerlink" title="2016"></a>2016</h2><ol>
 <li><a href="/lifelogs/2016/01/index.html">一月：月光，学习。</a> 学 49 动 8 废 5<br> <sup>Jan: use up, learn.</sup></li>
@@ -409,7 +401,6 @@
 <li><a href="/lifelogs/2016/08/index.html">八月：晚睡，迁到新浪新总部。</a> 学 50 动 10 废 5<br> <sup>Aug: sleep late, move to the new Sina headquarter.</sup></li>
 <li><a href="/lifelogs/2016/09/index.html">九月：计划，反馈，月光，纠结，讲究方法。</a> 学 51 动 11 废 6<br> <sup>Sep: plan &amp; feedback, use up, hesitating, methodology</sup></li>
 <li><a href="/lifelogs/2016/10/index.html">十月：重构，痛苦，精简。</a> 学 44 动 11 废 8<br><sup>Oct: refactor, pain, less.</sup></li>
-<li>New Method! 决定改用新方法。</li>
 </ol>
 <h2 id="2015"><a href="#2015" class="headerlink" title="2015"></a>2015</h2><ol>
 <li><a href="/lifelogs/2015/01/index.html">一月：适应，北京。</a> 学 40 动 4 废 3<br> <sup>Jan: adapt, Beijing.</sup></li>
@@ -594,12 +585,15 @@
 
         <!--
         <nav class="site-state motion-element">
-          <div class="site-state-item site-state-posts">
-            <a href="/">
-              <span class="site-state-item-count">50</span>
-              <span class="site-state-item-name">posts</span>
-            </a>
-          </div>
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/">
+                <span class="site-state-item-count">49</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
 
           
             <div class="site-state-item site-state-categories">
@@ -620,7 +614,6 @@
           
 
         </nav>
-        -->
 
         
           <div class="feed-link motion-element">
@@ -630,6 +623,7 @@
             </a>
           </div>
         
+        -->
 
         <div class="links-of-author motion-element">
           
@@ -656,7 +650,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#2016"><span class="nav-number">1.</span> <span class="nav-text">2016</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2015"><span class="nav-number">2.</span> <span class="nav-text">2015</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2014"><span class="nav-number">3.</span> <span class="nav-text">2014</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#后记"><span class="nav-number">1.</span> <span class="nav-text">后记</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#格式说明"><span class="nav-number">2.</span> <span class="nav-text">格式说明</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2016"><span class="nav-number">3.</span> <span class="nav-text">2016</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2015"><span class="nav-number">4.</span> <span class="nav-text">2015</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2014"><span class="nav-number">5.</span> <span class="nav-text">2014</span></a></li></ol></div>
             
 
           </div>
@@ -678,10 +672,13 @@
   
   &copy; 
   <span itemprop="copyrightYear">2016</span>
+  <!--
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Ice He</span>
+  - <span class="author" itemprop="copyrightHolder">Ice He</span>. &nbsp;All rights reserved.
+  -->
+  <span class="author" itemprop="copyrightHolder">IceHe</span>
 </div>
 
 
@@ -793,11 +790,8 @@
   </script>
 
   
-    
-    
-    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
-    <script src="/js/src/hook-duoshuo.js"></script>
-  
+
+
 
 
 
@@ -817,6 +811,16 @@
   <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
   <script>AV.initialize("u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5");</script>
   <script>
+    function timeDesc(time) {
+      return time / 1000 >= 1 ? '1k +' : (
+        time / 600 >= 1 ? '600 +' : (
+          time / 300 >= 1 ? '300 +' : (
+            time / 100 >= 1 ? '100 +' : '99 -'
+          )
+        )
+      );
+    }
+
     function showTime(Counter) {
       var query = new AV.Query(Counter);
       var entries = [];
@@ -840,9 +844,13 @@
             var item = results[i];
             var url = item.get('url');
             var time = item.get('time');
+            if (time < 300) {
+              break;
+            }
             var element = document.getElementById(url);
 
-            $(element).find(COUNT_CONTAINER_REF).text(time);
+            $(element).find(COUNT_CONTAINER_REF).text(timeDesc(time));
+            $(element).removeClass('hidden');
           }
           for(var i = 0; i < entries.length; i++) {
             var url = entries[i];
@@ -878,7 +886,7 @@
             counter.save(null, {
               success: function(counter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+                $element.find('.leancloud-visitors-count').text(timeDesc(counter.get('time')));
               },
               error: function(counter, error) {
                 console.log('Failed to save Visitor num, with error message: ' + error.message);
@@ -898,7 +906,7 @@
             newcounter.save(null, {
               success: function(newcounter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+                $element.find('.leancloud-visitors-count').text(timeDesc(newcounter.get('time')));
               },
               error: function(newcounter, error) {
                 console.log('Failed to create');
@@ -917,6 +925,7 @@
         var is_post = (popular_list.length == 1);
         var count = is_post ? 20 : 10;
         if (!is_post) {
+            // return; // Break for Simplicity!
             popular_list = $('#popular-list');
             if (popular_list.length == 0) {
                 return;
@@ -932,7 +941,7 @@
         //query.matches('url', regex);
 
         var excluding_list = [
-            //'/about/',
+            '/about/',
             '/bookmarks/',
             '/reward/',
             '/search/', /* Hidden */
@@ -961,12 +970,13 @@
                         + 'border-bottom-style: solid; '
                         + 'border-bottom-color: #ccc;"> '
                         + '<i class="fa fa-fire"></i> &nbsp;'
-                        + '<span class="nav-text"> Top N </span> '
+                        + '<span class="nav-text"> PV </span> '
                         + '</li>'
                     );
                 for (var i = 0; i < results.length; ++i) {
                     var counter = results[i];
-                    title = counter.get("title");
+                    var title = counter.get("title");
+                    var time = timeDesc(counter.get('time'));
 
                     popular_list.append(
                         '<li class="nav-item nav-level-1" '
@@ -983,7 +993,7 @@
                         + '<span class="nav-text"> ' + counter.get('title') + ' </span> '
                         + '</a> '
                         + '<span class="nav-number"> '
-                        + '<sup> &nbsp;' + counter.get('time') + ' </sup> '
+                        + '<sup> &nbsp;' + time + ' </sup> '
                         + '</span> '
                         + '</li>'
                     );
@@ -991,17 +1001,16 @@
                 if (!is_post) {
                     popular_list.append(
                         '<li class="nav-item nav-level-1"> '
-                        + '<i class="fa fa-eye"></i> &nbsp;'
-                        + '<a class="nav-link" href="/bookmarks"> '
-                        + '<span class="nav-text bold"> More </span> '
-                        + '</a> </li>'
+                        //+ '<i class="fa fa-eye"></i> &nbsp;'
+                        + '+. &nbsp; '
+                        + '<a class="nav-link" href="/bookmarks"><span class="nav-text bold">More </span></a> </li>'
                     );
                     popular_list.append(
                         '<li class="nav-item nav-level-1"> '
                         + '<span class="nav-number"> &nbsp; </span> '
                         + '<a class="nav-link" href="/bookmarks"> '
-                        + '<span class="nav-text bold"> &nbsp; </span> '
-                        + '</a> </li>'
+                        + '<span class="nav-text"> &nbsp; </span></a> '
+                        + '</li>'
                     );
                 }
           })
@@ -1024,25 +1033,6 @@
 
 
   
-
-  
-
-  <script>
-    $(window).load(function() {
-        var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
-        if (1 == ds_like_button.length
-                && "none" != document.getElementsByClassName('ds-meta')[0].style.display
-                && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
-        ) {
-            ds_like_button[0].click();
-            document.getElementsByClassName('ds-like-tooltip-close')[0].click();
-            window.location.href = '#';
-        }
-    });
-  </script>
-
-
-
   
 <script>
 (function(){

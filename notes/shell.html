@@ -65,9 +65,7 @@
 
 
 
-  
-
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
@@ -203,7 +201,9 @@ $$     脚本的进程号$?     前一指令的退出码$">
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
-  <p class="site-subtitle">More is in vain when less will serve.</p>
+    
+      <p class="site-subtitle">More is in vain when less will serve.</p>
+    
 </div>
 
 <div class="site-nav-toggle">
@@ -224,19 +224,19 @@ $$     脚本的进程号$?     前一指令的退出码$">
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-cube"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-quote-left"></i> <br />
             
-            Home
+            Articles
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-map">
+        <li class="menu-item menu-item-nav">
           <a href="/bookmarks" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-bookmark"></i> <br />
             
-            Map
+            Nav
           </a>
         </li>
       
@@ -244,7 +244,7 @@ $$     脚本的进程号$?     前一指令的退出码$">
         <li class="menu-item menu-item-cv">
           <a href="/about" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-user-secret"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-star"></i> <br />
             
             CV
           </a>
@@ -407,12 +407,15 @@ $$     脚本的进程号$?     前一指令的退出码$">
 
         <!--
         <nav class="site-state motion-element">
-          <div class="site-state-item site-state-posts">
-            <a href="/">
-              <span class="site-state-item-count">50</span>
-              <span class="site-state-item-name">posts</span>
-            </a>
-          </div>
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/">
+                <span class="site-state-item-count">49</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
 
           
             <div class="site-state-item site-state-categories">
@@ -433,7 +436,6 @@ $$     脚本的进程号$?     前一指令的退出码$">
           
 
         </nav>
-        -->
 
         
           <div class="feed-link motion-element">
@@ -443,6 +445,7 @@ $$     脚本的进程号$?     前一指令的退出码$">
             </a>
           </div>
         
+        -->
 
         <div class="links-of-author motion-element">
           
@@ -475,10 +478,13 @@ $$     脚本的进程号$?     前一指令的退出码$">
   
   &copy; 
   <span itemprop="copyrightYear">2016</span>
+  <!--
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Ice He</span>
+  - <span class="author" itemprop="copyrightHolder">Ice He</span>. &nbsp;All rights reserved.
+  -->
+  <span class="author" itemprop="copyrightHolder">IceHe</span>
 </div>
 
 
@@ -586,11 +592,8 @@ $$     脚本的进程号$?     前一指令的退出码$">
   </script>
 
   
-    
-    
-    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
-    <script src="/js/src/hook-duoshuo.js"></script>
-  
+
+
 
 
 
@@ -610,6 +613,16 @@ $$     脚本的进程号$?     前一指令的退出码$">
   <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
   <script>AV.initialize("u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5");</script>
   <script>
+    function timeDesc(time) {
+      return time / 1000 >= 1 ? '1k +' : (
+        time / 600 >= 1 ? '600 +' : (
+          time / 300 >= 1 ? '300 +' : (
+            time / 100 >= 1 ? '100 +' : '99 -'
+          )
+        )
+      );
+    }
+
     function showTime(Counter) {
       var query = new AV.Query(Counter);
       var entries = [];
@@ -633,9 +646,13 @@ $$     脚本的进程号$?     前一指令的退出码$">
             var item = results[i];
             var url = item.get('url');
             var time = item.get('time');
+            if (time < 300) {
+              break;
+            }
             var element = document.getElementById(url);
 
-            $(element).find(COUNT_CONTAINER_REF).text(time);
+            $(element).find(COUNT_CONTAINER_REF).text(timeDesc(time));
+            $(element).removeClass('hidden');
           }
           for(var i = 0; i < entries.length; i++) {
             var url = entries[i];
@@ -671,7 +688,7 @@ $$     脚本的进程号$?     前一指令的退出码$">
             counter.save(null, {
               success: function(counter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+                $element.find('.leancloud-visitors-count').text(timeDesc(counter.get('time')));
               },
               error: function(counter, error) {
                 console.log('Failed to save Visitor num, with error message: ' + error.message);
@@ -691,7 +708,7 @@ $$     脚本的进程号$?     前一指令的退出码$">
             newcounter.save(null, {
               success: function(newcounter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+                $element.find('.leancloud-visitors-count').text(timeDesc(newcounter.get('time')));
               },
               error: function(newcounter, error) {
                 console.log('Failed to create');
@@ -710,6 +727,7 @@ $$     脚本的进程号$?     前一指令的退出码$">
         var is_post = (popular_list.length == 1);
         var count = is_post ? 20 : 10;
         if (!is_post) {
+            // return; // Break for Simplicity!
             popular_list = $('#popular-list');
             if (popular_list.length == 0) {
                 return;
@@ -725,7 +743,7 @@ $$     脚本的进程号$?     前一指令的退出码$">
         //query.matches('url', regex);
 
         var excluding_list = [
-            //'/about/',
+            '/about/',
             '/bookmarks/',
             '/reward/',
             '/search/', /* Hidden */
@@ -754,12 +772,13 @@ $$     脚本的进程号$?     前一指令的退出码$">
                         + 'border-bottom-style: solid; '
                         + 'border-bottom-color: #ccc;"> '
                         + '<i class="fa fa-fire"></i> &nbsp;'
-                        + '<span class="nav-text"> Top N </span> '
+                        + '<span class="nav-text"> PV </span> '
                         + '</li>'
                     );
                 for (var i = 0; i < results.length; ++i) {
                     var counter = results[i];
-                    title = counter.get("title");
+                    var title = counter.get("title");
+                    var time = timeDesc(counter.get('time'));
 
                     popular_list.append(
                         '<li class="nav-item nav-level-1" '
@@ -776,7 +795,7 @@ $$     脚本的进程号$?     前一指令的退出码$">
                         + '<span class="nav-text"> ' + counter.get('title') + ' </span> '
                         + '</a> '
                         + '<span class="nav-number"> '
-                        + '<sup> &nbsp;' + counter.get('time') + ' </sup> '
+                        + '<sup> &nbsp;' + time + ' </sup> '
                         + '</span> '
                         + '</li>'
                     );
@@ -784,17 +803,16 @@ $$     脚本的进程号$?     前一指令的退出码$">
                 if (!is_post) {
                     popular_list.append(
                         '<li class="nav-item nav-level-1"> '
-                        + '<i class="fa fa-eye"></i> &nbsp;'
-                        + '<a class="nav-link" href="/bookmarks"> '
-                        + '<span class="nav-text bold"> More </span> '
-                        + '</a> </li>'
+                        //+ '<i class="fa fa-eye"></i> &nbsp;'
+                        + '+. &nbsp; '
+                        + '<a class="nav-link" href="/bookmarks"><span class="nav-text bold">More </span></a> </li>'
                     );
                     popular_list.append(
                         '<li class="nav-item nav-level-1"> '
                         + '<span class="nav-number"> &nbsp; </span> '
                         + '<a class="nav-link" href="/bookmarks"> '
-                        + '<span class="nav-text bold"> &nbsp; </span> '
-                        + '</a> </li>'
+                        + '<span class="nav-text"> &nbsp; </span></a> '
+                        + '</li>'
                     );
                 }
           })
@@ -817,25 +835,6 @@ $$     脚本的进程号$?     前一指令的退出码$">
 
 
   
-
-  
-
-  <script>
-    $(window).load(function() {
-        var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
-        if (1 == ds_like_button.length
-                && "none" != document.getElementsByClassName('ds-meta')[0].style.display
-                && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
-        ) {
-            ds_like_button[0].click();
-            document.getElementsByClassName('ds-like-tooltip-close')[0].click();
-            window.location.href = '#';
-        }
-    });
-  </script>
-
-
-
   
 <script>
 (function(){

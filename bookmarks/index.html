@@ -65,9 +65,7 @@
 
 
 
-  
-
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
@@ -90,16 +88,16 @@
 
 
 
-<meta name="description" content="博客导航。">
+<meta name="description" content="PV Top N 热榜、文章分类列表。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Blog Map 博客地图">
+<meta property="og:title" content="Navigation 博客导航">
 <meta property="og:url" content="http://icehe.me/bookmarks/index.html">
 <meta property="og:site_name" content="IceHe.me">
-<meta property="og:description" content="博客导航。">
-<meta property="og:updated_time" content="2016-10-04T16:00:00.000Z">
+<meta property="og:description" content="PV Top N 热榜、文章分类列表。">
+<meta property="og:updated_time" content="2016-12-24T16:00:00.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Blog Map 博客地图">
-<meta name="twitter:description" content="博客导航。">
+<meta name="twitter:title" content="Navigation 博客导航">
+<meta name="twitter:description" content="PV Top N 热榜、文章分类列表。">
 
 
 
@@ -133,7 +131,7 @@
 
 
 
-  <title> Blog Map 博客地图 | IceHe.me </title>
+  <title> Navigation 博客导航 | IceHe.me </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -185,7 +183,9 @@
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
-  <p class="site-subtitle">More is in vain when less will serve.</p>
+    
+      <p class="site-subtitle">More is in vain when less will serve.</p>
+    
 </div>
 
 <div class="site-nav-toggle">
@@ -206,19 +206,19 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-cube"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-quote-left"></i> <br />
             
-            Home
+            Articles
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-map">
+        <li class="menu-item menu-item-nav">
           <a href="/bookmarks" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-bookmark"></i> <br />
             
-            Map
+            Nav
           </a>
         </li>
       
@@ -226,7 +226,7 @@
         <li class="menu-item menu-item-cv">
           <a href="/about" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-user-secret"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-star"></i> <br />
             
             CV
           </a>
@@ -289,7 +289,7 @@
             
             
               
-                Blog Map 博客地图
+                Navigation 博客导航
               
             
           </h1>
@@ -297,60 +297,38 @@
 
         <div class="post-meta">
 
-          
-          
-             <span id="/bookmarks/" class="leancloud_visitors" data-flag-title="Blog Map 博客地图">
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <!-- 只显示图标，不显示文本 -->
-               <span class="hidden post-meta-item-text">Visitors </span>
-               <span class="leancloud-visitors-count"></span>
-               <span class="post-meta-divider">|</span>
-              </span>
-          
-
           <span class="post-time">
             
               <span class="post-meta-item-icon">
-                <i class="fa fa-pencil"></i>
+                
+                  <i class="fa fa-refresh"></i>
+                
               </span>
-              <!-- 只显示图标，不显示文本 -->
-              <span class="hidden post-meta-item-text">Posted on</span>
+              
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-12-20T00:00:00+08:00">
-                2015-12-20
-              </time>
+              
+                2016.12
+              
             
 
             
-              <span class="post-meta-divider">|</span>
-            
 
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-refresh"></i>
-              </span>
-              <!-- 只显示图标，不显示文本 -->
-              <span class="hidden post-meta-item-text">Post modified</span>
-              <time title="Post modified" itemprop="dateModified" datetime="2016-10-05T00:00:00+08:00">
-                2016-10-05
-              </time>
             
           </span>
 
           
             <span class="post-category" >
+            
               <span class="post-meta-divider">|</span>
+            
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <!-- 只显示图标，不显示文本 -->
-              <span class="hidden post-meta-item-text">In</span>
+              
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/read/" itemprop="url" rel="index">
-                    <span itemprop="name">read</span>
-                  </a>
+                    <span itemprop="name">read</span></a>
                 </span>
 
                 
@@ -360,16 +338,17 @@
           
 
           
-            
-              <!--
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <a href="/bookmarks/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="bookmarks/" itemprop="commentCount"></span>
-                </a>
+
+          
+          
+            <span id="/bookmarks/" class="hidden leancloud_visitors" data-flag-title="Navigation 博客导航">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
               </span>
-              -->
-            
+              
+              <span class="leancloud-visitors-count"></span>
+            </span>
           
 
           
@@ -378,7 +357,7 @@
 
           
               <div class="post-description">
-                  博客导航。
+                  PV Top N 热榜、文章分类列表。
               </div>
           
 
@@ -392,7 +371,6 @@
       
       
 
-      <!-- 只显示 description，不显示 "显示更多" 的文本及链接 -->
       
         <!--
 ## __Welcome__
@@ -409,52 +387,34 @@
     用 Evernote 可以做到「记录」，但是难以「分享」；用 GitHub 可以同时做到两者，但是达不到理想的展示效果，所以做了这个博客。
     平日里想要阐发的见闻、见解主要发到 [微博](http://weibo.com/icedes) 和朋友圈，凑够一篇长文才会发到这里。
 -->
+<!-- ### Other Index
+
+- [Archives 归档 ( Sort by Time )](/archives)
+- [Categories 分类](/categories) -->
+<!-- ### [PHP](/categories/PHP)
+
+- [PHP empty\(\) 和 isset\(\) 的区别](/php/PHP%20empty%28%29%20%E5%92%8C%20isset%28%29%20%E7%9A%84%E5%8C%BA%E5%88%AB/)
+- <a href="/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var)/">PHP var !== NULL 是否等价于 isset()</a> -->
 <h3 id="PV"><a href="#PV" class="headerlink" title="PV"></a>PV</h3><div class="post-toc" style="max-height: 1220px; width: calc(100% + 0px);" id="popular-post-div2"> <div class="post-toc-content"> <ol class="nav" id="popular-list2"></ol> </div> </div>
 
-<h3 id="Index"><a href="#Index" class="headerlink" title="Index"></a>Index</h3><ul>
-<li><a href="/archives">Archives 归档 ( Sort by Time )</a></li>
-<li><a href="/categories">Categories 分类</a></li>
-<li>Sort by Category as follows.</li>
-</ul>
-<h3 id="Read"><a href="#Read" class="headerlink" title="Read"></a><a href="/categories/read">Read</a></h3><ul>
-<li>Blog Map 博客地图 <sup>this page</sup></li>
-<li><a href="/tech"><strong>Technology Bookmarks 技术书签</strong></a></li>
-<li><a href="/read"><strong>Reading Bookmarks 阅读书签</strong></a></li>
-<li><a href="/favourites">Favorites 喜好</a></li>
-</ul>
-<h3 id="Mac"><a href="#Mac" class="headerlink" title="Mac"></a><a href="/categories/Mac">Mac</a></h3><ul>
-<li><a href="/tools"><strong>Tools 利器</strong></a> - App、硬件推荐</li>
-<li><a href="/mac_shortcuts"><strong>Mac Shortcuts 快捷键</strong></a></li>
-</ul>
+<p><br>Sort by Category as follows.</p>
 <h3 id="Think"><a href="#Think" class="headerlink" title="Think"></a><a href="/categories/think">Think</a></h3><ul>
-<li><a href="/think/life_manual"><strong>Life Exp 生活指北</strong></a> <sup><strong>New</strong></sup></li>
-<li><a href="/think/2016_fall">2016 Fall</a> <sup><strong>New</strong></sup></li>
+<li><a href="/think/2016_fall">2016 Fall</a></li>
 <li><a href="/think/2016_summer">2016 Summer</a></li>
 <li><a href="/think/bye2015">Bye 2015</a></li>
-</ul>
-<h3 id="Web"><a href="#Web" class="headerlink" title="Web"></a><a href="/categories/Web">Web</a></h3><ul>
-<li><a href="/web/build_blog/">Build Blog 搭建个人博客</a></li>
-<li><a href="/web/donate">实现网站的支付宝打赏功能</a></li>
-<li><a href="/search">Google CSE 站内搜索</a></li>
-<li><a href="/404">404 Page</a></li>
-</ul>
-<h3 id="C"><a href="#C" class="headerlink" title="C++"></a><a href="/categories/C/">C++</a></h3><ul>
-<li><a href="/c++/C++ Primer 5th/">C++ Primer 5th - Note</a></li>
-<li><a href="/c++/C++ Interview Book/">C++ Interview Book - Note</a></li>
-<li><a href="/c++/C++ Code Standards 编码标准/">C++ Code Standards 编码规范 - Note</a></li>
-<li>Effective C++ - Note <a href="/c++/Effective C++ - Reading Note 1">「 1 」</a><a href="/c++/Effective C++ - Reading Note 2">「 2 」</a><a href="/c++/Effective C++ - Reading Note 3">「 3 」</a><a href="/c++/Effective C++ - Reading Note 4">「 4 」</a></li>
-</ul>
-<h3 id="CentOS"><a href="#CentOS" class="headerlink" title="CentOS"></a><a href="/categories/CentOS">CentOS</a></h3><ul>
-<li><a href="/linux/[00] U盘安装 CentOS 7/">U盘安装</a></li>
-<li><a href="/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/">恢复 Windows 的开机引导</a></li>
-<li><a href="/linux/[02] Config System Envir 配置系统环境 - CentOS 7/">配置系统环境</a></li>
-<li><a href="/linux/[03] Update Kernel 升级内核 - CentOS 7">升级内核</a></li>
-<li><a href="/linux/[04] 安装 CentOS 7 后必做的 安全防范措施/">安装后的安全防范措施</a></li>
-<li><a href="/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/">自动挂载 NTFS 格式的硬盘分区</a></li>
+<li><a href="/think/life_manual"><strong>Life Exp 生活指北</strong></a></li>
 </ul>
 <h3 id="Command"><a href="#Command" class="headerlink" title="Command"></a><a href="/categories/Command">Command</a></h3><ul>
 <li><a href="/cmd/git_note">Git Note</a></li>
 </ul>
+<!-- ### [CentOS](/categories/CentOS)
+
+- [U盘安装](/linux/[00] U盘安装 CentOS 7/)
+- [恢复 Windows 的开机引导](/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/)
+- [配置系统环境](/linux/[02] Config System Envir 配置系统环境 - CentOS 7/)
+- [升级内核](/linux/[03] Update Kernel 升级内核 - CentOS 7)
+- [安装后的安全防范措施](/linux/[04] 安装 CentOS 7 后必做的 安全防范措施/)
+- [自动挂载 NTFS 格式的硬盘分区](/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/) -->
 <h3 id="AppleScript"><a href="#AppleScript" class="headerlink" title="AppleScript"></a><a href="/categories/AppleScript">AppleScript</a></h3><ul>
 <li><a href="/applescript/evernote_osx/">用 AppleScript 操作 Evernote / macOS</a></li>
 <li><a href="/applescript/applescript/">AppleScript Quick Start 快速入门</a></li>
@@ -484,21 +444,38 @@
 <li><a href="/batch/DOS 特殊符号 Symbol/">DOS Symbols 特殊符号</a></li>
 <li><a href="/batch/DOS 环境变量 Environment Variable/">DOS Environment Variable 环境变量</a></li>
 </ul>
+<h3 id="C"><a href="#C" class="headerlink" title="C++"></a><a href="/categories/C/">C++</a></h3><ul>
+<li><a href="/c++/C++ Primer 5th/">C++ Primer 5th - Note</a></li>
+<li><a href="/c++/C++ Interview Book/">C++ Interview Book - Note</a></li>
+<li><a href="/c++/C++ Code Standards 编码标准/">C++ Code Standards 编码规范 - Note</a></li>
+<li>Effective C++ - Note <a href="/c++/Effective C++ - Reading Note 1">「 1 」</a><a href="/c++/Effective C++ - Reading Note 2">「 2 」</a><a href="/c++/Effective C++ - Reading Note 3">「 3 」</a><a href="/c++/Effective C++ - Reading Note 4">「 4 」</a></li>
+</ul>
 <h3 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a><a href="/javascript/某次js代码优化过程">JavaScript</a></h3><ul>
 <li><a href="/javascript/某次js代码优化过程/">某次 JavaScript 代码优化过程</a></li>
+</ul>
+<h3 id="Mac"><a href="#Mac" class="headerlink" title="Mac"></a><a href="/categories/Mac">Mac</a></h3><ul>
+<li><a href="/tools"><strong>Tools 利器</strong></a> - Apps、硬件推荐</li>
+<li><a href="/mac_shortcuts"><strong>Mac Shortcuts 快捷键</strong></a></li>
+</ul>
+<h3 id="Read"><a href="#Read" class="headerlink" title="Read"></a><a href="/categories/read">Read</a></h3><ul>
+<li>Blog Map 博客地图 <sup>this page</sup></li>
+<li><a href="/tech"><strong>Technology Bookmarks 技术书签</strong></a></li>
+<li><a href="/read"><strong>Reading Bookmarks 阅读书签</strong></a></li>
+<li><a href="/favourites">Favorites 喜好</a></li>
 </ul>
 <h3 id="Time-Mgt"><a href="#Time-Mgt" class="headerlink" title="Time Mgt"></a><a href="/categories/time-mgt">Time Mgt</a></h3><ul>
 <li><a href="/lifelogs">Life Logs 手帐</a></li>
 <li><a href="/think/time_mgt">Time Mgt 时间管理日志</a></li>
+</ul>
+<h3 id="Web"><a href="#Web" class="headerlink" title="Web"></a><a href="/categories/Web">Web</a></h3><ul>
+<li><a href="/web/build_blog/">Build Blog 搭建个人博客</a></li>
+<li><a href="/web/donate">实现网站的支付宝打赏功能</a></li>
 </ul>
 <h3 id="Whoami"><a href="#Whoami" class="headerlink" title="Whoami"></a><a href="/categories/whoami">Whoami</a></h3><ul>
 <li><a href="/about/">CV 简历</a></li>
 <li><a href="/moments/">My Moments</a></li>
 <li><a href="/reward">Reward Me 打赏博主</a></li>
 </ul>
-<!--### [PHP](/categories/PHP)-->
-<!-- - [PHP empty\(\) 和 isset\(\) 的区别](/php/PHP%20empty%28%29%20%E5%92%8C%20isset%28%29%20%E7%9A%84%E5%8C%BA%E5%88%AB/)-->
-<!-- - <a href="/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var)/">PHP var !== NULL 是否等价于 isset()</a>-->
 
       
     </div>
@@ -582,7 +559,7 @@
     <div class="post-spread">
       
         <div class="ds-share flat" data-thread-key="bookmarks/"
-     data-title="Blog Map 博客地图"
+     data-title="Navigation 博客导航"
      data-content=""
      data-url="http://icehe.me/bookmarks/">
   <div class="ds-share-inline">
@@ -612,7 +589,7 @@
   <div class="comments" id="comments">
     
       <div class="ds-thread" data-thread-key="bookmarks/"
-           data-title="Blog Map 博客地图" data-url="http://icehe.me/bookmarks/">
+           data-title="Navigation 博客导航" data-url="http://icehe.me/bookmarks/">
       </div>
     
   </div>
@@ -663,12 +640,15 @@
 
         <!--
         <nav class="site-state motion-element">
-          <div class="site-state-item site-state-posts">
-            <a href="/">
-              <span class="site-state-item-count">50</span>
-              <span class="site-state-item-name">posts</span>
-            </a>
-          </div>
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/">
+                <span class="site-state-item-count">49</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
 
           
             <div class="site-state-item site-state-categories">
@@ -689,7 +669,6 @@
           
 
         </nav>
-        -->
 
         
           <div class="feed-link motion-element">
@@ -699,6 +678,7 @@
             </a>
           </div>
         
+        -->
 
         <div class="links-of-author motion-element">
           
@@ -725,7 +705,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#PV"><span class="nav-number">1.</span> <span class="nav-text">PV</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Index"><span class="nav-number">2.</span> <span class="nav-text">Index</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Read"><span class="nav-number">3.</span> <span class="nav-text">Read</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Mac"><span class="nav-number">4.</span> <span class="nav-text">Mac</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Think"><span class="nav-number">5.</span> <span class="nav-text">Think</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Web"><span class="nav-number">6.</span> <span class="nav-text">Web</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#C"><span class="nav-number">7.</span> <span class="nav-text">C++</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CentOS"><span class="nav-number">8.</span> <span class="nav-text">CentOS</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Command"><span class="nav-number">9.</span> <span class="nav-text">Command</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#AppleScript"><span class="nav-number">10.</span> <span class="nav-text">AppleScript</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ASM-汇编"><span class="nav-number">11.</span> <span class="nav-text">ASM 汇编</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Batch-批处理"><span class="nav-number">12.</span> <span class="nav-text">Batch 批处理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#JavaScript"><span class="nav-number">13.</span> <span class="nav-text">JavaScript</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Time-Mgt"><span class="nav-number">14.</span> <span class="nav-text">Time Mgt</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Whoami"><span class="nav-number">15.</span> <span class="nav-text">Whoami</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#PV"><span class="nav-number">1.</span> <span class="nav-text">PV</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Think"><span class="nav-number">2.</span> <span class="nav-text">Think</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Command"><span class="nav-number">3.</span> <span class="nav-text">Command</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#AppleScript"><span class="nav-number">4.</span> <span class="nav-text">AppleScript</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ASM-汇编"><span class="nav-number">5.</span> <span class="nav-text">ASM 汇编</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Batch-批处理"><span class="nav-number">6.</span> <span class="nav-text">Batch 批处理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#C"><span class="nav-number">7.</span> <span class="nav-text">C++</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#JavaScript"><span class="nav-number">8.</span> <span class="nav-text">JavaScript</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Mac"><span class="nav-number">9.</span> <span class="nav-text">Mac</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Read"><span class="nav-number">10.</span> <span class="nav-text">Read</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Time-Mgt"><span class="nav-number">11.</span> <span class="nav-text">Time Mgt</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Web"><span class="nav-number">12.</span> <span class="nav-text">Web</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Whoami"><span class="nav-number">13.</span> <span class="nav-text">Whoami</span></a></li></ol></div>
             
 
           </div>
@@ -747,10 +727,13 @@
   
   &copy; 
   <span itemprop="copyrightYear">2016</span>
+  <!--
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Ice He</span>
+  - <span class="author" itemprop="copyrightHolder">Ice He</span>. &nbsp;All rights reserved.
+  -->
+  <span class="author" itemprop="copyrightHolder">IceHe</span>
 </div>
 
 
@@ -862,11 +845,8 @@
   </script>
 
   
-    
-    
-    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
-    <script src="/js/src/hook-duoshuo.js"></script>
-  
+
+
 
 
 
@@ -886,6 +866,16 @@
   <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
   <script>AV.initialize("u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5");</script>
   <script>
+    function timeDesc(time) {
+      return time / 1000 >= 1 ? '1k +' : (
+        time / 600 >= 1 ? '600 +' : (
+          time / 300 >= 1 ? '300 +' : (
+            time / 100 >= 1 ? '100 +' : '99 -'
+          )
+        )
+      );
+    }
+
     function showTime(Counter) {
       var query = new AV.Query(Counter);
       var entries = [];
@@ -909,9 +899,13 @@
             var item = results[i];
             var url = item.get('url');
             var time = item.get('time');
+            if (time < 300) {
+              break;
+            }
             var element = document.getElementById(url);
 
-            $(element).find(COUNT_CONTAINER_REF).text(time);
+            $(element).find(COUNT_CONTAINER_REF).text(timeDesc(time));
+            $(element).removeClass('hidden');
           }
           for(var i = 0; i < entries.length; i++) {
             var url = entries[i];
@@ -947,7 +941,7 @@
             counter.save(null, {
               success: function(counter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+                $element.find('.leancloud-visitors-count').text(timeDesc(counter.get('time')));
               },
               error: function(counter, error) {
                 console.log('Failed to save Visitor num, with error message: ' + error.message);
@@ -967,7 +961,7 @@
             newcounter.save(null, {
               success: function(newcounter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+                $element.find('.leancloud-visitors-count').text(timeDesc(newcounter.get('time')));
               },
               error: function(newcounter, error) {
                 console.log('Failed to create');
@@ -986,6 +980,7 @@
         var is_post = (popular_list.length == 1);
         var count = is_post ? 20 : 10;
         if (!is_post) {
+            // return; // Break for Simplicity!
             popular_list = $('#popular-list');
             if (popular_list.length == 0) {
                 return;
@@ -1001,7 +996,7 @@
         //query.matches('url', regex);
 
         var excluding_list = [
-            //'/about/',
+            '/about/',
             '/bookmarks/',
             '/reward/',
             '/search/', /* Hidden */
@@ -1030,12 +1025,13 @@
                         + 'border-bottom-style: solid; '
                         + 'border-bottom-color: #ccc;"> '
                         + '<i class="fa fa-fire"></i> &nbsp;'
-                        + '<span class="nav-text"> Top N </span> '
+                        + '<span class="nav-text"> PV </span> '
                         + '</li>'
                     );
                 for (var i = 0; i < results.length; ++i) {
                     var counter = results[i];
-                    title = counter.get("title");
+                    var title = counter.get("title");
+                    var time = timeDesc(counter.get('time'));
 
                     popular_list.append(
                         '<li class="nav-item nav-level-1" '
@@ -1052,7 +1048,7 @@
                         + '<span class="nav-text"> ' + counter.get('title') + ' </span> '
                         + '</a> '
                         + '<span class="nav-number"> '
-                        + '<sup> &nbsp;' + counter.get('time') + ' </sup> '
+                        + '<sup> &nbsp;' + time + ' </sup> '
                         + '</span> '
                         + '</li>'
                     );
@@ -1060,17 +1056,16 @@
                 if (!is_post) {
                     popular_list.append(
                         '<li class="nav-item nav-level-1"> '
-                        + '<i class="fa fa-eye"></i> &nbsp;'
-                        + '<a class="nav-link" href="/bookmarks"> '
-                        + '<span class="nav-text bold"> More </span> '
-                        + '</a> </li>'
+                        //+ '<i class="fa fa-eye"></i> &nbsp;'
+                        + '+. &nbsp; '
+                        + '<a class="nav-link" href="/bookmarks"><span class="nav-text bold">More </span></a> </li>'
                     );
                     popular_list.append(
                         '<li class="nav-item nav-level-1"> '
                         + '<span class="nav-number"> &nbsp; </span> '
                         + '<a class="nav-link" href="/bookmarks"> '
-                        + '<span class="nav-text bold"> &nbsp; </span> '
-                        + '</a> </li>'
+                        + '<span class="nav-text"> &nbsp; </span></a> '
+                        + '</li>'
                     );
                 }
           })
@@ -1093,25 +1088,6 @@
 
 
   
-
-  
-
-  <script>
-    $(window).load(function() {
-        var ds_like_button = document.getElementsByClassName('ds-like-thread-button');
-        if (1 == ds_like_button.length
-                && "none" != document.getElementsByClassName('ds-meta')[0].style.display
-                && -1 == document.getElementsByClassName('ds-thread-like-text')[0].innerHTML.indexOf('已喜欢')
-        ) {
-            ds_like_button[0].click();
-            document.getElementsByClassName('ds-like-tooltip-close')[0].click();
-            window.location.href = '#';
-        }
-    });
-  </script>
-
-
-
   
 <script>
 (function(){
