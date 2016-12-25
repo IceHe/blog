@@ -4,9 +4,9 @@
   <subtitle>More is in vain when less will serve.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://icehe.me/"/>
+  <link href="http://www.icehe.me/"/>
   <updated>2016-10-23T16:00:00.000Z</updated>
-  <id>http://icehe.me/</id>
+  <id>http://www.icehe.me/</id>
   
   <author>
     <name>Ice He</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>2016 Fall</title>
-    <link href="http://icehe.me/think/2016_fall/"/>
-    <id>http://icehe.me/think/2016_fall/</id>
+    <link href="http://www.icehe.me/think/2016_fall/"/>
+    <id>http://www.icehe.me/think/2016_fall/</id>
     <published>2016-09-16T16:00:00.000Z</published>
     <updated>2016-10-23T16:00:00.000Z</updated>
     
@@ -441,17 +441,17 @@
     
     </summary>
     
-      <category term="think" scheme="http://icehe.me/categories/think/"/>
+      <category term="think" scheme="http://www.icehe.me/categories/think/"/>
     
     
-      <category term="think" scheme="http://icehe.me/tags/think/"/>
+      <category term="think" scheme="http://www.icehe.me/tags/think/"/>
     
   </entry>
   
   <entry>
     <title>Life Exp 生活指北</title>
-    <link href="http://icehe.me/think/life_manual/"/>
-    <id>http://icehe.me/think/life_manual/</id>
+    <link href="http://www.icehe.me/think/life_manual/"/>
+    <id>http://www.icehe.me/think/life_manual/</id>
     <published>2016-08-06T16:00:00.000Z</published>
     <updated>2016-10-22T16:00:00.000Z</updated>
     
@@ -1197,17 +1197,17 @@
     
     </summary>
     
-      <category term="think" scheme="http://icehe.me/categories/think/"/>
+      <category term="think" scheme="http://www.icehe.me/categories/think/"/>
     
     
-      <category term="think" scheme="http://icehe.me/tags/think/"/>
+      <category term="think" scheme="http://www.icehe.me/tags/think/"/>
     
   </entry>
   
   <entry>
     <title>2016 Summer</title>
-    <link href="http://icehe.me/think/2016_summer/"/>
-    <id>http://icehe.me/think/2016_summer/</id>
+    <link href="http://www.icehe.me/think/2016_summer/"/>
+    <id>http://www.icehe.me/think/2016_summer/</id>
     <published>2016-07-02T16:00:00.000Z</published>
     <updated>2016-08-13T16:00:00.000Z</updated>
     
@@ -1451,17 +1451,17 @@
     
     </summary>
     
-      <category term="think" scheme="http://icehe.me/categories/think/"/>
+      <category term="think" scheme="http://www.icehe.me/categories/think/"/>
     
     
-      <category term="think" scheme="http://icehe.me/tags/think/"/>
+      <category term="think" scheme="http://www.icehe.me/tags/think/"/>
     
   </entry>
   
   <entry>
     <title>My Moments 回忆</title>
-    <link href="http://icehe.me/moments/"/>
-    <id>http://icehe.me/moments/</id>
+    <link href="http://www.icehe.me/moments/"/>
+    <id>http://www.icehe.me/moments/</id>
     <published>2016-06-27T16:00:00.000Z</published>
     <updated>2016-08-13T16:00:00.000Z</updated>
     
@@ -1611,17 +1611,17 @@ img.fix_height {
     
     </summary>
     
-      <category term="whoami" scheme="http://icehe.me/categories/whoami/"/>
+      <category term="whoami" scheme="http://www.icehe.me/categories/whoami/"/>
     
     
-      <category term="whoami" scheme="http://icehe.me/tags/whoami/"/>
+      <category term="whoami" scheme="http://www.icehe.me/tags/whoami/"/>
     
   </entry>
   
   <entry>
     <title>Reading Bookmarks 阅读书签</title>
-    <link href="http://icehe.me/read/"/>
-    <id>http://icehe.me/read/</id>
+    <link href="http://www.icehe.me/read/"/>
+    <id>http://www.icehe.me/read/</id>
     <published>2016-06-16T16:00:00.000Z</published>
     <updated>2016-09-26T16:00:00.000Z</updated>
     
@@ -1958,17 +1958,17 @@ img.fix_height {
     
     </summary>
     
-      <category term="read" scheme="http://icehe.me/categories/read/"/>
+      <category term="read" scheme="http://www.icehe.me/categories/read/"/>
     
     
-      <category term="read" scheme="http://icehe.me/tags/read/"/>
+      <category term="read" scheme="http://www.icehe.me/tags/read/"/>
     
   </entry>
   
   <entry>
     <title>Technology Bookmarks 技术书签</title>
-    <link href="http://icehe.me/tech/"/>
-    <id>http://icehe.me/tech/</id>
+    <link href="http://www.icehe.me/tech/"/>
+    <id>http://www.icehe.me/tech/</id>
     <published>2016-06-13T16:00:00.000Z</published>
     <updated>2016-12-24T16:00:00.000Z</updated>
     
@@ -2142,17 +2142,17 @@ img.fix_height {
     
     </summary>
     
-      <category term="read" scheme="http://icehe.me/categories/read/"/>
+      <category term="read" scheme="http://www.icehe.me/categories/read/"/>
     
     
-      <category term="read" scheme="http://icehe.me/tags/read/"/>
+      <category term="read" scheme="http://www.icehe.me/tags/read/"/>
     
   </entry>
   
   <entry>
     <title>AppleScript 操作 Evernote 与 macOS</title>
-    <link href="http://icehe.me/applescript/evernote_osx/"/>
-    <id>http://icehe.me/applescript/evernote_osx/</id>
+    <link href="http://www.icehe.me/applescript/evernote_osx/"/>
+    <id>http://www.icehe.me/applescript/evernote_osx/</id>
     <published>2016-03-12T16:00:00.000Z</published>
     <updated>2016-09-21T16:00:00.000Z</updated>
     
@@ -2223,17 +2223,17 @@ img.fix_height {
     
     </summary>
     
-      <category term="AppleScript" scheme="http://icehe.me/categories/AppleScript/"/>
+      <category term="AppleScript" scheme="http://www.icehe.me/categories/AppleScript/"/>
     
     
-      <category term="AppleScript" scheme="http://icehe.me/tags/AppleScript/"/>
+      <category term="AppleScript" scheme="http://www.icehe.me/tags/AppleScript/"/>
     
   </entry>
   
   <entry>
     <title>AppleScript Quick Start 快速入门</title>
-    <link href="http://icehe.me/applescript/applescript/"/>
-    <id>http://icehe.me/applescript/applescript/</id>
+    <link href="http://www.icehe.me/applescript/applescript/"/>
+    <id>http://www.icehe.me/applescript/applescript/</id>
     <published>2016-03-10T16:00:00.000Z</published>
     <updated>2016-03-12T16:00:00.000Z</updated>
     
@@ -2275,17 +2275,17 @@ img.fix_height {
     
     </summary>
     
-      <category term="AppleScript" scheme="http://icehe.me/categories/AppleScript/"/>
+      <category term="AppleScript" scheme="http://www.icehe.me/categories/AppleScript/"/>
     
     
-      <category term="AppleScript" scheme="http://icehe.me/tags/AppleScript/"/>
+      <category term="AppleScript" scheme="http://www.icehe.me/tags/AppleScript/"/>
     
   </entry>
   
   <entry>
     <title>Git Note</title>
-    <link href="http://icehe.me/cmd/git_note/"/>
-    <id>http://icehe.me/cmd/git_note/</id>
+    <link href="http://www.icehe.me/cmd/git_note/"/>
+    <id>http://www.icehe.me/cmd/git_note/</id>
     <published>2016-02-14T16:00:00.000Z</published>
     <updated>2016-07-30T16:00:00.000Z</updated>
     
@@ -2844,17 +2844,17 @@ img.fix_height {
     
     </summary>
     
-      <category term="Git" scheme="http://icehe.me/categories/Git/"/>
+      <category term="Git" scheme="http://www.icehe.me/categories/Git/"/>
     
     
-      <category term="Git" scheme="http://icehe.me/tags/Git/"/>
+      <category term="Git" scheme="http://www.icehe.me/tags/Git/"/>
     
   </entry>
   
   <entry>
     <title>Mac Shortcuts 快捷键</title>
-    <link href="http://icehe.me/mac_shortcuts/"/>
-    <id>http://icehe.me/mac_shortcuts/</id>
+    <link href="http://www.icehe.me/mac_shortcuts/"/>
+    <id>http://www.icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
     <updated>2016-12-10T16:00:00.000Z</updated>
     
@@ -3118,7 +3118,7 @@ img.fix_height {
 </li>
 <li><p>qwer …</p>
 <p>  <code>⎋ q</code> Qiniu Cloud<br>  <code>⎋ w</code> <a href="http://weibo.com" target="_blank" rel="external">Weibo</a><br>  <code>⎋ e</code> Sina ERP<br>  <code>⎋ r</code> Sina Redmine<br>  <code>⎋ t</code> <a href="https://www.taobao.com/" target="_blank" rel="external">Taobao</a></p>
-<p>  <code>⎋ u</code> <a href="http://www.bejson.com/enc/urlencode/" target="_blank" rel="external">URL Encode / Decode</a><br>  <code>⎋ i</code> <a href="http://icehe.me">IceHe.me</a><br>  <code>⎋ o</code> Sina Open Platform<br>  <code>⎋ p</code> <a href="http://www.apple.com/cn/" target="_blank" rel="external">Apple Store</a></p>
+<p>  <code>⎋ u</code> <a href="http://www.bejson.com/enc/urlencode/" target="_blank" rel="external">URL Encode / Decode</a><br>  <code>⎋ i</code> <a href="http://icehe.me" target="_blank" rel="external">IceHe.me</a><br>  <code>⎋ o</code> Sina Open Platform<br>  <code>⎋ p</code> <a href="http://www.apple.com/cn/" target="_blank" rel="external">Apple Store</a></p>
 </li>
 <li><p>asdf …</p>
 <p>  <code>⎋ a</code> <a href="https://developer.apple.com/library/content/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html" target="_blank" rel="external">AppleScript Manual</a><br>  <code>⎋ s</code> <a href="http://sspai.com/" target="_blank" rel="external">Sspai</a><br>  <code>⎋ d</code> <a href="http://icehe.duoshuo.com/admin/" target="_blank" rel="external">Duoshuo</a><br>  <code>⎋ f</code> Fangjs<br>  <code>⎋ g</code> <a href="https://github.com/IceHe" target="_blank" rel="external">GitHub</a></p>
@@ -3658,17 +3658,17 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
     
     </summary>
     
-      <category term="Mac" scheme="http://icehe.me/categories/Mac/"/>
+      <category term="Mac" scheme="http://www.icehe.me/categories/Mac/"/>
     
     
-      <category term="Mac" scheme="http://icehe.me/tags/Mac/"/>
+      <category term="Mac" scheme="http://www.icehe.me/tags/Mac/"/>
     
   </entry>
   
   <entry>
     <title>Bye 2015</title>
-    <link href="http://icehe.me/think/bye2015/"/>
-    <id>http://icehe.me/think/bye2015/</id>
+    <link href="http://www.icehe.me/think/bye2015/"/>
+    <id>http://www.icehe.me/think/bye2015/</id>
     <published>2016-01-02T16:00:00.000Z</published>
     <updated>2016-12-11T05:20:35.000Z</updated>
     
@@ -3783,17 +3783,17 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
     
     </summary>
     
-      <category term="think" scheme="http://icehe.me/categories/think/"/>
+      <category term="think" scheme="http://www.icehe.me/categories/think/"/>
     
     
-      <category term="think" scheme="http://icehe.me/tags/think/"/>
+      <category term="think" scheme="http://www.icehe.me/tags/think/"/>
     
   </entry>
   
   <entry>
     <title>Navigation 博客导航</title>
-    <link href="http://icehe.me/bookmarks/"/>
-    <id>http://icehe.me/bookmarks/</id>
+    <link href="http://www.icehe.me/bookmarks/"/>
+    <id>http://www.icehe.me/bookmarks/</id>
     <published>2015-12-19T16:00:00.000Z</published>
     <updated>2016-12-24T16:00:00.000Z</updated>
     
@@ -3909,17 +3909,17 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
     
     </summary>
     
-      <category term="read" scheme="http://icehe.me/categories/read/"/>
+      <category term="read" scheme="http://www.icehe.me/categories/read/"/>
     
     
-      <category term="read" scheme="http://icehe.me/tags/read/"/>
+      <category term="read" scheme="http://www.icehe.me/tags/read/"/>
     
   </entry>
   
   <entry>
     <title>Tools 利器</title>
-    <link href="http://icehe.me/tools/"/>
-    <id>http://icehe.me/tools/</id>
+    <link href="http://www.icehe.me/tools/"/>
+    <id>http://www.icehe.me/tools/</id>
     <published>2015-11-20T16:00:00.000Z</published>
     <updated>2016-10-27T16:00:00.000Z</updated>
     
@@ -4590,17 +4590,17 @@ article .article-content ul li p:first-child {
     
     </summary>
     
-      <category term="Mac" scheme="http://icehe.me/categories/Mac/"/>
+      <category term="Mac" scheme="http://www.icehe.me/categories/Mac/"/>
     
     
-      <category term="Mac" scheme="http://icehe.me/tags/Mac/"/>
+      <category term="Mac" scheme="http://www.icehe.me/tags/Mac/"/>
     
   </entry>
   
   <entry>
     <title>Favorites 喜好</title>
-    <link href="http://icehe.me/favourites/"/>
-    <id>http://icehe.me/favourites/</id>
+    <link href="http://www.icehe.me/favourites/"/>
+    <id>http://www.icehe.me/favourites/</id>
     <published>2015-11-18T16:00:00.000Z</published>
     <updated>2016-12-16T16:00:00.000Z</updated>
     
@@ -4754,17 +4754,17 @@ article .article-content ul li p:first-child {
     
     </summary>
     
-      <category term="read" scheme="http://icehe.me/categories/read/"/>
+      <category term="read" scheme="http://www.icehe.me/categories/read/"/>
     
     
-      <category term="read" scheme="http://icehe.me/tags/read/"/>
+      <category term="read" scheme="http://www.icehe.me/tags/read/"/>
     
   </entry>
   
   <entry>
     <title>Bulid Blog 搭建个人博客</title>
-    <link href="http://icehe.me/web/build_blog/"/>
-    <id>http://icehe.me/web/build_blog/</id>
+    <link href="http://www.icehe.me/web/build_blog/"/>
+    <id>http://www.icehe.me/web/build_blog/</id>
     <published>2015-11-13T16:00:00.000Z</published>
     <updated>2016-12-17T16:00:00.000Z</updated>
     
@@ -4909,17 +4909,17 @@ article .article-content ul li p:first-child {
     
     </summary>
     
-      <category term="Web" scheme="http://icehe.me/categories/Web/"/>
+      <category term="Web" scheme="http://www.icehe.me/categories/Web/"/>
     
     
-      <category term="Web" scheme="http://icehe.me/tags/Web/"/>
+      <category term="Web" scheme="http://www.icehe.me/tags/Web/"/>
     
   </entry>
   
   <entry>
     <title>Time Mgt 时间管理日志</title>
-    <link href="http://icehe.me/think/time_mgt/"/>
-    <id>http://icehe.me/think/time_mgt/</id>
+    <link href="http://www.icehe.me/think/time_mgt/"/>
+    <id>http://www.icehe.me/think/time_mgt/</id>
     <published>2015-11-12T16:00:00.000Z</published>
     <updated>2016-12-04T16:00:00.000Z</updated>
     
@@ -5162,17 +5162,17 @@ Monthly
     
     </summary>
     
-      <category term="time mgt" scheme="http://icehe.me/categories/time-mgt/"/>
+      <category term="time mgt" scheme="http://www.icehe.me/categories/time-mgt/"/>
     
     
-      <category term="time mgt" scheme="http://icehe.me/tags/time-mgt/"/>
+      <category term="time mgt" scheme="http://www.icehe.me/tags/time-mgt/"/>
     
   </entry>
   
   <entry>
     <title>Reward Me 打赏博主</title>
-    <link href="http://icehe.me/reward/"/>
-    <id>http://icehe.me/reward/</id>
+    <link href="http://www.icehe.me/reward/"/>
+    <id>http://www.icehe.me/reward/</id>
     <published>2015-05-01T16:00:00.000Z</published>
     <updated>2016-08-17T16:00:00.000Z</updated>
     
@@ -5232,17 +5232,17 @@ window.onload = function () {
     
     </summary>
     
-      <category term="whoami" scheme="http://icehe.me/categories/whoami/"/>
+      <category term="whoami" scheme="http://www.icehe.me/categories/whoami/"/>
     
     
-      <category term="whoami" scheme="http://icehe.me/tags/whoami/"/>
+      <category term="whoami" scheme="http://www.icehe.me/tags/whoami/"/>
     
   </entry>
   
   <entry>
     <title>实现网站的打赏功能</title>
-    <link href="http://icehe.me/web/donate/"/>
-    <id>http://icehe.me/web/donate/</id>
+    <link href="http://www.icehe.me/web/donate/"/>
+    <id>http://www.icehe.me/web/donate/</id>
     <published>2015-04-30T16:00:00.000Z</published>
     <updated>2016-08-17T16:00:00.000Z</updated>
     
@@ -5416,17 +5416,17 @@ window.onload = function () {
     
     </summary>
     
-      <category term="Web" scheme="http://icehe.me/categories/Web/"/>
+      <category term="Web" scheme="http://www.icehe.me/categories/Web/"/>
     
     
-      <category term="Web" scheme="http://icehe.me/tags/Web/"/>
+      <category term="Web" scheme="http://www.icehe.me/tags/Web/"/>
     
   </entry>
   
   <entry>
     <title>ASM 汇编语言 - 15</title>
-    <link href="http://icehe.me/asm/Assembly%20Language%20-%20Note%2015/"/>
-    <id>http://icehe.me/asm/Assembly Language - Note 15/</id>
+    <link href="http://www.icehe.me/asm/Assembly%20Language%20-%20Note%2015/"/>
+    <id>http://www.icehe.me/asm/Assembly Language - Note 15/</id>
     <published>2015-04-15T16:00:00.000Z</published>
     <updated>2016-12-25T10:14:46.000Z</updated>
     
@@ -5442,17 +5442,17 @@ window.onload = function () {
     
     </summary>
     
-      <category term="ASM" scheme="http://icehe.me/categories/ASM/"/>
+      <category term="ASM" scheme="http://www.icehe.me/categories/ASM/"/>
     
     
-      <category term="ASM" scheme="http://icehe.me/tags/ASM/"/>
+      <category term="ASM" scheme="http://www.icehe.me/tags/ASM/"/>
     
   </entry>
   
   <entry>
     <title>ASM 汇编语言 - 14</title>
-    <link href="http://icehe.me/asm/Assembly%20Language%20-%20Note%2014/"/>
-    <id>http://icehe.me/asm/Assembly Language - Note 14/</id>
+    <link href="http://www.icehe.me/asm/Assembly%20Language%20-%20Note%2014/"/>
+    <id>http://www.icehe.me/asm/Assembly Language - Note 14/</id>
     <published>2015-04-14T16:00:00.000Z</published>
     <updated>2016-12-25T10:14:42.000Z</updated>
     
@@ -5613,10 +5613,10 @@ end start</div><div><br></div><div><strong>Att - </strong><a title="Attachment �
     
     </summary>
     
-      <category term="ASM" scheme="http://icehe.me/categories/ASM/"/>
+      <category term="ASM" scheme="http://www.icehe.me/categories/ASM/"/>
     
     
-      <category term="ASM" scheme="http://icehe.me/tags/ASM/"/>
+      <category term="ASM" scheme="http://www.icehe.me/tags/ASM/"/>
     
   </entry>
   

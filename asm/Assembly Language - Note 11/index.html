@@ -1,0 +1,1144 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="google-site-verification" content="google34949e442e488102" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="ASM," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="IceHe.me" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon_h.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="端口的读写，in/out指令。shl和shr指令。CMOS RAM芯片，其中存储的时间信息。访问CMOS RAM。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ASM 汇编语言 - 11">
+<meta property="og:url" content="http://www.icehe.me/asm/Assembly Language - Note 11/index.html">
+<meta property="og:site_name" content="IceHe.me">
+<meta property="og:description" content="端口的读写，in/out指令。shl和shr指令。CMOS RAM芯片，其中存储的时间信息。访问CMOS RAM。">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%2011/tmp.png">
+<meta property="og:updated_time" content="2016-12-25T10:14:33.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ASM 汇编语言 - 11">
+<meta name="twitter:description" content="端口的读写，in/out指令。shl和shr指令。CMOS RAM芯片，其中存储的时间信息。访问CMOS RAM。">
+<meta name="twitter:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%2011/tmp.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"display":"always"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://www.icehe.me/asm/Assembly Language - Note 11/"/>
+
+
+
+
+
+  <title> ASM 汇编语言 - 11 | IceHe.me </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-60837823-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+
+  <div class="container one-collumn  page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">IceHe.me</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+    
+      <p class="site-subtitle">More is in vain when less will serve.</p>
+    
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-quote-left"></i> <br />
+            
+            Articles
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-nav">
+          <a href="/bookmarks" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-bookmark"></i> <br />
+            
+            Nav
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-cv">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-star"></i> <br />
+            
+            CV
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+<style type="text/css">
+    .center { text-align: center; }
+    .bold   { font-weight: bold; }
+    .hidden { display: none; }
+</style>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://www.icehe.me/asm/Assembly Language - Note 11/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Ice He">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="IceHe.me">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="IceHe.me" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                ASM 汇编语言 - 11
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                
+                  <i class="fa fa-calendar-plus-o"></i>
+                
+              </span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-04-12T00:00:00+08:00">
+              
+                2015.04
+              
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/ASM/" itemprop="url" rel="index">
+                    <span itemprop="name">ASM</span></a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+
+          
+          
+            <span id="/asm/Assembly Language - Note 11/" class="hidden leancloud_visitors" data-flag-title="ASM 汇编语言 - 11">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              
+              <span class="leancloud-visitors-count"></span>
+            </span>
+          
+
+          
+
+          
+
+          
+              <div class="post-description">
+                  端口的读写，in/out指令。shl和shr指令。CMOS RAM芯片，其中存储的时间信息。访问CMOS RAM。
+              </div>
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+<ul><li>Created on 2014-11</li></ul><br>
+
+<div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>教材：《汇编语言》（第二版）王爽 著 清华大学出版社</div><div><br></div><div><b>章十四、端口</b></div><div><b><br></b></div><div>PC系统中，和CPU通过总线项链的芯片除存储器外，还有：</div><div>（1）各种接口卡（如，网卡、显卡）上的接口芯片，它们控制接口卡进行工作</div><div>（2）主板上的接口芯片，CPU通过它们对部分外设进行访问</div><div>（3）其它芯片，用来存储相关的系统信息，或进行相关的IO处理</div><div><br></div><div>这些芯片中，都有一组可以由CPU读写的寄存器。</div><div>物理上它们在不同芯片中，但在以下两点上相同：</div><div>（1）都和CPU的总线相连，当然这种连接是通过它们所在的芯片进行的</div><div>（2）CPU对它们进行读写时，都通过控制线向它们所在的芯片发出端口读写命令</div><div><br></div><div>可见，CPU将这些寄存器当作端口，</div><div>对其统一编址，建立统一的地址端口空间。</div><div><br></div><div>CPU可直接读写以下3个地方的数据：</div><div>（1）CPU内部的寄存器</div><div>（2）内存单元</div><div>（3）端口</div><div><br></div><div><br></div><div>14.1 <b>端口</b>的<b>读写</b></div><div>PC系统中，CPU最多可以定位<b>64K</b>个不同的<b>端口</b>，<b>0~65535</b></div><div>对<b>端口</b>的<b>读写指令</b>只有两条：<b>in</b>、<b>out</b></div><div>而无push、pop、mov等指令</div><div><br></div><div><b>访问</b>端口：</div><div><b>in al, 60h</b></div><div>（1）CPU通过地址线将地址信息60h发出</div><div>（2）CPU通过控制线发出端口读命令，选中端口所在的芯片，</div><div>&nbsp; &nbsp; &nbsp;并通知它，将要从中读取数据</div><div>（3）端口所在的芯片将60h端口中的数据通过数据线送入CPU</div><div><br></div><div><b>写入</b>端口：</div><div><b>out 20h, al</b></div><div>类同上一条</div><div><br></div><div><br></div><div>14.2 <b>CMOS &nbsp;RAM</b> 芯片</div><div><br></div><div>CMOS &nbsp;RAM&nbsp;芯片 一般<b>简称 CMOS</b>。特征如下：</div><div>（1）包含一个实时钟，和一个128个存储单元的RAM存储器。</div><div>&nbsp; &nbsp; &nbsp;（早期计算机为64Bytes）</div><div>（2）靠电池供电，关机后其内部实时钟仍可正常工作，RAM中的信息不丢失。</div><div>（3）128个字节的RAM中，内部实时钟占用0~0dh单元来保存时间，</div><div>&nbsp; &nbsp; &nbsp;其余大部分单元用于保存系统配置信息，供系统启动时BIOS程序读取。</div><div>&nbsp; &nbsp; &nbsp;BIOS也提供了相关程序，使开机时可配置CMOS &nbsp;RAM中的系统信息。</div><div>（4）该芯片内部有两个端口，地址分别为70h、71h。通过它们读写CMOS RAM。</div><div>（5）70h为地址端口，存放要访问的CMOS RAM单元的地址；</div><div>&nbsp; &nbsp; &nbsp;71h为数据端口，存放从选定的CMOS RAM单元中读取的数据。</div><div>&nbsp; &nbsp; &nbsp;如读取CMOS的2号存储单元：</div><div>&nbsp; &nbsp; &nbsp;a. 将 2 送入端口 70h</div><div>&nbsp; &nbsp; &nbsp;b. 从端口 71h 读 2 号单元的内容</div><div><br></div><div>检测点14.1</div><div>编程：读取CMOS RAM的2号单元的内容 / 将0写入该单元</div><div>assume cs:code<br>
+code segment<br>
+start:</div><div>&nbsp;&nbsp;&nbsp;&nbsp; ;read CMOS RAM unit2<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov al, 2<br>
+&nbsp;&nbsp;&nbsp;&nbsp; out 70h, al<br>
+&nbsp;&nbsp;&nbsp;&nbsp; in al, 71h<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; ;write unit2<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov al, 2<br>
+&nbsp;&nbsp;&nbsp;&nbsp; out 70h, al<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov al, 0<br>
+&nbsp;&nbsp;&nbsp;&nbsp; out 71h, al<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br><u>&nbsp; &nbsp; &nbsp;</u><b><u>;in/out指令，好像只能凭借al寄存器来做参数中转&nbsp; &nbsp;</u></b> &nbsp;</div><div><br></div><div>&nbsp; &nbsp; &nbsp;;test operator&apos;s result<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov al, 2<br>
+&nbsp;&nbsp;&nbsp;&nbsp; out 70h, al<br>
+&nbsp;&nbsp;&nbsp;&nbsp; in al, 71h</div><div><br></div><div><b>&nbsp; &nbsp; &nbsp;;大概是CMOS的2单元一直在变</b></div><div><b>&nbsp; &nbsp; &nbsp;;从&nbsp;71h&nbsp;读到 al 的数据并不是预想中的 0</b></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov ax, 4c00h<br>
+&nbsp;&nbsp;&nbsp;&nbsp; int 21h<br>
+code ends<br>
+end start</div><div><br></div><div><br></div><div>14.3 <b>shl</b> 和 <b>shr</b> 指令</div><div>它们是<b>逻辑移位指令</b></div><div><b><br></b></div><div><b>shl</b> —— <b>逻辑左移</b>：</div><div>（1）将一个寄存器或内存单元中的数据向<b>左移</b>位</div><div>（2）将<b>最后移出</b>的一<b>位写入CF</b>中</div><div>（3）<b>低位</b>用<b>0补充</b></div><div>指令：</div><div>mov al, 10000001b</div><div><b>shl al, 1</b> &nbsp; &nbsp; ;左移一位</div><div><br></div><div><b>shr</b> —— 逻辑右移：</div><div>（1）将一个寄存器或内存单元中的数据向<b>右移</b>位</div><div>（2）将<b>最后移出</b>的<b>一位写入CF</b>中</div><div>（3）<b>高位</b>用<b>0补充</b></div><div><b><br></b></div><div><b><br></b></div><div>检测点14.2</div><div>计算 (ax) = (ax) * 10</div><div>（1）第一版</div><div>assume cs:code<br>
+code segment<br>
+start:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov ax, 2<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; <b>shl ax, 1</b>&nbsp;&nbsp;&nbsp;&nbsp; <b>; ax * 2</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov bx, ax<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div><div><u>&nbsp; &nbsp; &nbsp;<b>;</b><b>shl/shr指令，若用</b><b>立即数作为参数时，</b></u></div><div><u>&nbsp; &nbsp; &nbsp;<b>;立即数必须为1（每次仅允许移一位！）</b></u></div><div>&nbsp;&nbsp;&nbsp;&nbsp; <b>shl ax, 1&nbsp;&nbsp;&nbsp;&nbsp; ; ax * 4<br>
+&nbsp;&nbsp;&nbsp;&nbsp; shl ax, 1&nbsp;&nbsp;&nbsp;&nbsp; ; ax * 8</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; add ax, bx<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov ax, 4c00h<br>
+&nbsp;&nbsp;&nbsp;&nbsp; int 21h<br>
+code ends<br>
+end start</div><div><br></div><div>（2）第二版</div><div>assume cs:code<br>
+code segment<br>
+start:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov ax, 2<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; shl ax, 1&nbsp;&nbsp;&nbsp;&nbsp; ; ax * 2<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov bx, ax<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br><u>&nbsp;&nbsp;&nbsp;&nbsp;</u> <b><u>;当移位数大于1时，要先将移位数置于CL中，然后再用CL移位。<br>
+&nbsp;&nbsp;&nbsp;&nbsp; ;可以使用8位立即数指定范围从1到31的移位次数</u><br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov cl, 2<br>
+&nbsp;&nbsp;&nbsp;&nbsp; shl ax, cl&nbsp;&nbsp;&nbsp;&nbsp; ; ax * 8</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; add ax, bx<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov ax, 4c00h<br>
+&nbsp;&nbsp;&nbsp;&nbsp; int 21h<br>
+code ends<br>
+end start</div><div><br></div><div><br></div><div>14.4 CMOS &nbsp;RAM 中存储的时间信息</div><div><b>CMOS RAM</b> <b>存着</b>当前的时间：</div><div><b>年、月、日、时、分、秒</b>。</div><div><br></div><div><b>信息</b>的<b>长度</b>均为 <b>1 Byte</b>。</div><div><b>存放单元</b>为：<b>秒0 分2 时4 日7 月8 年9</b></div><div>这些数据<b>以BCD码</b>的方式<b>存放。</b></div><div><b><br></b></div><div><b>BCD码</b>：</div><div>以4位二进制数，表示十进制数码的编码方式，如下：</div><div>0-0000，1-0001，2-0010，3-0011，4-0100，</div><div>5-0101，6-0110，7-0111，8-1000，9-1001。</div><div><br></div><div>1 Byte 可表示 2个BCD码，如 0001 0100b 表示 14。</div><div>（以上为BCD码中的8421版本，其它详情请看<a href="http://baike.baidu.com/link?url=jh2w0DfroFs6zztCYEmXpxVTIAWmpHaF7cJ6lWWxXLCniVWaxFs_tbJ_HwAMHl2_dOorIxg8MwsTTgJCg8xs7_" target="_blank" rel="external">百度百科</a>）</div><div><br></div><div>在屏幕中间显示当前‘分钟’：</div><div>assume cs:code<br>
+code segment<br>
+start:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov al, 2&nbsp;&nbsp;&nbsp;&nbsp; ;如上文，单元2 存放着‘分钟’信息<br>
+&nbsp;&nbsp;&nbsp;&nbsp; <b>out 70h, al<br>
+&nbsp;&nbsp;&nbsp;&nbsp; in al, 71h</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; <b>mov ah, al<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov cl, 4<br>
+&nbsp;&nbsp;&nbsp;&nbsp; shr ah, cl&nbsp;&nbsp;&nbsp;&nbsp; ;右移4位，取高四位<br>
+&nbsp;&nbsp;&nbsp;&nbsp; and al, 00001111b</b>&nbsp;&nbsp;&nbsp;&nbsp; <b>;保留低四位</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; <b>add ah, 30h&nbsp;&nbsp;&nbsp;&nbsp; ;+30h 转换为对应数字的ascii<br>
+&nbsp;&nbsp;&nbsp;&nbsp; add al, 30h</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov bx, 0b800h&nbsp;&nbsp;&nbsp;&nbsp; ;输出到屏幕<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov ds, bx<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov byte ptr ds:[160 * 12 + 40 * 2], ah<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov byte ptr ds:[160 * 12 + 40 * 2 + 2], al<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov ax, 4c00h<br>
+&nbsp;&nbsp;&nbsp;&nbsp; int 21h<br>
+code ends<br>
+end start</div><div><br></div><div><br></div><div><br></div><div><b>实验14 访问CMOS RAM</b></div><div>编程：以“年/月/日 时:分:秒”的格式，显示当前的日期、时间。</div><div>注意：CMOS RAM 中存储着系统的配置信息，除了保存时间信息的单元外，</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 不要向其它单元写内容，否则将引起一些系统错误。</div><div><br></div><div>assume cs:code<br>
+time_pos segment<br>
+&nbsp;&nbsp;&nbsp;&nbsp; <b>db 9, 8, 7, 4, 2, 0</b><br>
+time_pos ends</div><div><br></div><div><img width="619px" height="69px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%2011/tmp.png"><br><b><br></b></div><div><b>;上一个段不满 16 Bytes (8 Words)<br>
+;新起的段也只从 下一个 16Bytes * n 的内存位置开始（见上图）<br>
+;16Bytes * n 即 10h * n</b><br>
+time_delimiter segment<br>
+&nbsp;&nbsp;&nbsp;&nbsp; <b>db &apos;/&apos;, &apos;/&apos;, &apos; &apos;, &apos;:&apos;, &apos;:&apos;, &apos;$&apos;</b><br>
+time_delimiter ends<br><br>
+time_str segment<br>
+&nbsp;&nbsp;&nbsp;&nbsp; <b>db 18 dup (0)</b><br>
+time_str ends<br><br>
+code segment<br>
+start:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov ax, time_pos<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov ds, ax<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov si, 0<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov ax, time_str<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov es, ax<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov di, 0<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov cx, 6<br>
+circle:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; ;暂存寄存器<br>
+&nbsp;&nbsp;&nbsp;&nbsp; push cx<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; ;从端口获取当前时间<br>
+&nbsp;&nbsp;&nbsp;&nbsp; <b>mov al, ds:[si]<br>
+&nbsp;&nbsp;&nbsp;&nbsp; out 70h, al<br>
+&nbsp;&nbsp;&nbsp;&nbsp; in al, 71h</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; ;切分当前时间的CBD码，存到不同的存储单元中<br>
+&nbsp;&nbsp;&nbsp;&nbsp; push cx<br>
+&nbsp;&nbsp;&nbsp;&nbsp; <b>mov ah, al<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov cl, 4<br>
+&nbsp;&nbsp;&nbsp;&nbsp; shr ah, cl<br>
+&nbsp;&nbsp;&nbsp;&nbsp; and al, 00001111b</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp; pop cx<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; ;将BCD码转换为，对应数字的ASCII码<br>
+&nbsp;&nbsp;&nbsp;&nbsp; add ah, 30h<br>
+&nbsp;&nbsp;&nbsp;&nbsp; add al, 30h<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; ;将时间拼接成字符串，暂存到指定内存中<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov es:[di], ah<br>
+&nbsp;&nbsp;&nbsp;&nbsp; inc di<br>
+&nbsp;&nbsp;&nbsp;&nbsp; ;es:[di]访问的是段time_str<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov es:[di], al<br>
+&nbsp;&nbsp;&nbsp;&nbsp; inc di<br>
+&nbsp;&nbsp;&nbsp;&nbsp; ;ds:16[si]访问的是段time_delimiter<br>
+&nbsp;&nbsp;&nbsp;&nbsp; <b>mov bl, ds:16[si]</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp; <b>;为什么idata（直接数/常量）偏移量是16而非6？</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp; ;答：段time_str只用db指令声明了6Bytes的数据，<br>
+&nbsp;&nbsp;&nbsp;&nbsp; ;&nbsp;&nbsp;&nbsp;&nbsp; 但紧邻的段time_delimiter并非从上一个段<br>
+&nbsp;&nbsp;&nbsp;&nbsp; ;&nbsp;&nbsp;&nbsp;&nbsp; time_str的第7字节开始的，而是从下一个<br>
+&nbsp;&nbsp;&nbsp;&nbsp; ;&nbsp;&nbsp;&nbsp;&nbsp; 16Bytes * n的内存位置开始的！<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov byte ptr es:[di], bl<br>
+&nbsp;&nbsp;&nbsp;&nbsp; inc di<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; inc si<br>
+&nbsp;&nbsp;&nbsp;&nbsp; loop circle<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; ;locate cursor<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov bh, 0&nbsp;&nbsp;&nbsp;&nbsp; ;第0页<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov dh, 12&nbsp;&nbsp;&nbsp;&nbsp; ;第12行<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov dl, 30&nbsp;&nbsp;&nbsp;&nbsp; ;第30列<br>
+&nbsp;&nbsp;&nbsp;&nbsp; <b>mov ah, 2&nbsp;&nbsp;&nbsp;&nbsp; ;设置光标位置，int 10h的2号子程序<br>
+&nbsp;&nbsp;&nbsp;&nbsp; int 10h</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; ;print time_str<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov ax, time_str<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov ds, ax&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov dx, 0&nbsp;&nbsp;&nbsp;&nbsp; <b>;ds:dx指向字符串，&apos;$&apos;作为结束符</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp; <b>mov ah, 9&nbsp;&nbsp;&nbsp;&nbsp; ;在光标位置处显示字符串，int 21h的9号子程序<br>
+&nbsp;&nbsp;&nbsp;&nbsp; int 21h</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; mov ax, 4c00h<br>
+&nbsp;&nbsp;&nbsp;&nbsp; int 21h<br>
+code ends<br>
+end start</div><div><br></div><div><strong>Att - </strong><a title="Attachment 附件" href="http://7vzp67.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%2011/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E7%AC%AC%E5%8D%81%E5%9B%9B%E7%AB%A0%E5%AE%9E%E9%AA%8C14.asm" target="_blank">汇编语言第十四章实验14.asm</a><br></div></div>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>比起赞赏 ^_^ 更爱打赏</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_01.png" alt="Ice He WeChat Pay"/>
+          <p>WeChat 微信</p>
+          <!--<p>微信打赏</p>-->
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_04.png" alt="Ice He Alipay"/>
+          <p>Alipay 支付宝</p>
+          <!--<p>支付宝打赏</p>-->
+        </div>
+      
+    </div>
+  </div>
+
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/ASM/" rel="tag"># ASM</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/asm/Assembly Language - Note 10/" rel="next" title="ASM 汇编语言 - 10">
+                <i class="fa fa-chevron-left"></i> ASM 汇编语言 - 10
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/asm/Assembly Language - Note 12/" rel="prev" title="ASM 汇编语言 - 12">
+                ASM 汇编语言 - 12 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <div class="ds-share flat" data-thread-key="asm/Assembly Language - Note 11/"
+     data-title="ASM 汇编语言 - 11"
+     data-content=""
+     data-url="http://www.icehe.me/asm/Assembly Language - Note 11/">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
+
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="asm/Assembly Language - Note 11/"
+           data-title="ASM 汇编语言 - 11" data-url="http://www.icehe.me/asm/Assembly Language - Note 11/">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png"
+               alt="Ice He" />
+          <p class="site-author-name" itemprop="name">Ice He</p>
+          <p class="site-description motion-element" itemprop="description">Less.</p>
+        </div>
+
+        <div class="hidden post-toc" style="max-height: 1220px; width: calc(100% + 0px);" id="popular-post-div">
+          <div class="post-toc-content">
+            <ol class="nav" id="popular-list"></ol>
+          </div>
+        </div>
+
+        <!--
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/">
+                <span class="site-state-item-count">49</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">12</span>
+                <span class="site-state-item-name">categs</span>
+              
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">13</span>
+                <span class="site-state-item-name">tags</span>
+              
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+        -->
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <!--
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  - <span class="author" itemprop="copyrightHolder">Ice He</span>. &nbsp;All rights reserved.
+  -->
+  <span class="author" itemprop="copyrightHolder">IceHe</span>
+</div>
+
+
+
+        
+
+<div class="busuanzi-count">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+
+  
+  
+</div>
+
+
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"icehe"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5");</script>
+  <script>
+    function timeDesc(time) {
+      return time / 1000 >= 1 ? '1k +' : (
+        time / 600 >= 1 ? '600 +' : (
+          time / 300 >= 1 ? '300 +' : (
+            time / 100 >= 1 ? '100 +' : '99 -'
+          )
+        )
+      );
+    }
+
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            if (time < 300) {
+              break;
+            }
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(timeDesc(time));
+            $(element).removeClass('hidden');
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            if ((-1 != location.href.indexOf("icehe.me")) // 在 icehe.me 的域名下
+              && (-1 == location.href.indexOf("icehe.me/notes/")) // 不在 icehe.me/notes 的域名下
+            ) {
+              counter.increment("time");
+            }
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(timeDesc(counter.get('time')));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(timeDesc(newcounter.get('time')));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    function ranking(Counter, is_post) {
+        var popular_list = $('#popular-list2');
+        var is_post = (popular_list.length == 1);
+        var count = is_post ? 20 : 10;
+        if (!is_post) {
+            // return; // Break for Simplicity!
+            popular_list = $('#popular-list');
+            if (popular_list.length == 0) {
+                return;
+            }
+            $('#popular-post-div').removeClass('hidden');
+        }
+
+        var query = new AV.Query(Counter);
+        query.descending('time');
+        query.limit(count + 10);
+
+        //var regex = new RegExp('^.*?(?<!linux).*$', 'i');
+        //query.matches('url', regex);
+
+        var excluding_list = [
+            '/about/',
+            '/bookmarks/',
+            '/reward/',
+            '/search/', /* Hidden */
+            '/index/', /* Removed */
+            '/resume/', /* Removed */
+            '/linux/[06] Linux 通过 pip 安装使用 Shadowsocks - CentOS 7/',
+            '/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/',
+            '/linux/[04] 安装 CentOS 7 后必做的 安全防范措施/',
+            '/linux/[03] Update Kernel 升级内核 - CentOS 7/',
+            '/linux/[02] Config System Envir 配置系统环境 - CentOS 7/',
+            '/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/',
+            '/linux/[00] U盘安装 CentOS 7/'
+        ];
+        query.notContainedIn('url', excluding_list);
+
+        query.limit(count);
+        query.find()
+            .done(function (results) {
+                if (results.length === 0) {
+                    return;
+                }
+
+                    popular_list.append(
+                        '<li class="nav-item nav-level-1 bold" style="'
+                        + 'border-bottom-width: 1px; '
+                        + 'border-bottom-style: solid; '
+                        + 'border-bottom-color: #ccc;"> '
+                        + '<i class="fa fa-fire"></i> &nbsp;'
+                        + '<span class="nav-text"> PV </span> '
+                        + '</li>'
+                    );
+                for (var i = 0; i < results.length; ++i) {
+                    var counter = results[i];
+                    var title = counter.get("title");
+                    var time = timeDesc(counter.get('time'));
+
+                    popular_list.append(
+                        '<li class="nav-item nav-level-1" '
+                        + ((i + 1) % 10 == 0
+                            ? 'style="border-bottom-width: 1px; '
+                                + 'border-bottom-style: solid;'
+                                + 'border-bottom-color: #ccc;"'
+                            : '')
+                        + '> '
+                        + '<span class="nav-number"> '
+                        + ((i + 1) % 10) + '. &nbsp;'
+                        + '</span> '
+                        + '<a class="nav-link" href="' + counter.get("url") + '"> '
+                        + '<span class="nav-text"> ' + counter.get('title') + ' </span> '
+                        + '</a> '
+                        + '<span class="nav-number"> '
+                        + '<sup> &nbsp;' + time + ' </sup> '
+                        + '</span> '
+                        + '</li>'
+                    );
+                }
+                if (!is_post) {
+                    popular_list.append(
+                        '<li class="nav-item nav-level-1"> '
+                        //+ '<i class="fa fa-eye"></i> &nbsp;'
+                        + '+. &nbsp; '
+                        + '<a class="nav-link" href="/bookmarks"><span class="nav-text bold">More </span></a> </li>'
+                    );
+                    popular_list.append(
+                        '<li class="nav-item nav-level-1"> '
+                        + '<span class="nav-number"> &nbsp; </span> '
+                        + '<a class="nav-link" href="/bookmarks"> '
+                        + '<span class="nav-text"> &nbsp; </span></a> '
+                        + '</li>'
+                    );
+                }
+          })
+          .fail(function (object, error) {
+              console.log("Error: " + error.code + " " + error.message);
+          });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+      ranking(Counter);
+    });
+  </script>
+
+
+
+  
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+
+
+</body>
+</html>
