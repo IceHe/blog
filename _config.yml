@@ -73,7 +73,7 @@ logger_format: dev
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-home_date_format: YYYY-MM
+simple_date: YYYY.MM
 date_format: YYYY-MM-DD
 time_format: H:mm:ss
 short_date_format: YY-MM-DD
