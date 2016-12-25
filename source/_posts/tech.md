@@ -1,6 +1,6 @@
 title: Technology Bookmarks 技术书签
 date: 2016-06-14
-updated: 2016-11-25
+updated: 2016-12-25
 categories: [read]
 tags: [read]
 description: 技术类书签：工具、文档、Wiki、技术博客…
@@ -127,6 +127,7 @@ description: 技术类书签：工具、文档、Wiki、技术博客…
 
 ## Career
 
+- [怎样花两年时间去面试一个人](http://mindhacks.cn/2011/11/04/how-to-interview-a-person-for-two-years/)
 - [计算机行业还能火几年？](https://www.zhihu.com/question/27809894/answer/98696858)- 前景！？
 - [Why I Strive to be a 0.1x Engineer](http://benjiweber.co.uk/blog/2016/01/25/why-i-strive-to-be-a-0-1x-engineer/) - 不折腾的哲学 <sup>[简译](https://github.com/ruanyf/articles/blob/master/gists/2016-01-27-01x-engineer.md)</sup>
 - [高薪的人都有哪些特质？](http://v.qq.com/boke/gplay/2b442d85914f70c4319a98f09ddbd54d_q020000017nmqu1_0_w019013i0lx.html)- 职人介绍所第 10 期
