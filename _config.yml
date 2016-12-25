@@ -17,7 +17,7 @@ language: en
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://icehe.me
+url: http://www.icehe.me
 root: /
 #permalink: :year/:month/:day/:title/
 permalink: :title/
@@ -109,6 +109,7 @@ deploy:
     type: git
     repo:
         github: git@github.com:IceHe/icehe.github.io.git,master
+        coding: git@git.coding.net:IceHe/icehe.coding.me.git,master
 
 google_analytics:
     github: vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI
