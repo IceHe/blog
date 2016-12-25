@@ -1,0 +1,1001 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="google-site-verification" content="google34949e442e488102" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="ASM," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="IceHe.me" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon_h.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="寄存器，段寄存器，CS和IP，修改CS、IP的指令，查看CPU和内存。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ASM 汇编语言 - 1">
+<meta property="og:url" content="http://www.icehe.me/asm/Assembly Language - Note 1/index.html">
+<meta property="og:site_name" content="IceHe.me">
+<meta property="og:description" content="寄存器，段寄存器，CS和IP，修改CS、IP的指令，查看CPU和内存。">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/4bc20fd901206044a792ae37d5ccd1b3.png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/8274851476c413d426e343e69e8e5187.png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/17ee180333575eb889d093caeb72a845.png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/706f7ccda236318f3be58b20c32a521d.png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/55b18e7e228e351d59ab509d2d91d089.png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/565deced8c0a4ce33c0b5eb86a066b28.png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/1ee20fb40a66fb58acb5ba8312ac301d.png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/a04b37ec53451fff31c98c59b1ee0343.png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/bac5af4d74353db662a06aaf11cbe162.png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/3c1fa34129c318f8ef086ac0725b126a.png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/6b62a7dc51f24ad3ee0932c29fade4fc.png">
+<meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/386bad5a0f13c43e209df53c0b81298f.png">
+<meta property="og:updated_time" content="2016-12-25T10:13:46.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ASM 汇编语言 - 1">
+<meta name="twitter:description" content="寄存器，段寄存器，CS和IP，修改CS、IP的指令，查看CPU和内存。">
+<meta name="twitter:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/4bc20fd901206044a792ae37d5ccd1b3.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"display":"always"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://www.icehe.me/asm/Assembly Language - Note 1/"/>
+
+
+
+
+
+  <title> ASM 汇编语言 - 1 | IceHe.me </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-60837823-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+
+  <div class="container one-collumn  page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">IceHe.me</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+    
+      <p class="site-subtitle">More is in vain when less will serve.</p>
+    
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-quote-left"></i> <br />
+            
+            Articles
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-nav">
+          <a href="/bookmarks" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-bookmark"></i> <br />
+            
+            Nav
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-cv">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-star"></i> <br />
+            
+            CV
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+<style type="text/css">
+    .center { text-align: center; }
+    .bold   { font-weight: bold; }
+    .hidden { display: none; }
+</style>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://www.icehe.me/asm/Assembly Language - Note 1/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Ice He">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="IceHe.me">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="IceHe.me" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                ASM 汇编语言 - 1
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                
+                  <i class="fa fa-calendar-plus-o"></i>
+                
+              </span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-04-02T00:00:00+08:00">
+              
+                2015.04
+              
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/ASM/" itemprop="url" rel="index">
+                    <span itemprop="name">ASM</span></a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+
+          
+          
+            <span id="/asm/Assembly Language - Note 1/" class="hidden leancloud_visitors" data-flag-title="ASM 汇编语言 - 1">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              
+              <span class="leancloud-visitors-count"></span>
+            </span>
+          
+
+          
+
+          
+
+          
+              <div class="post-description">
+                  寄存器，段寄存器，CS和IP，修改CS、IP的指令，查看CPU和内存。
+              </div>
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+<ul><li>Created on 2014-10</li></ul><br>
+
+<div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>教材：《汇编语言》（第二版）王爽 著 清华大学出版社</div><div><br></div><div><b>章一、基础知识</b></div><div><br></div><div>1.3 汇编语言的组成：</div><div>（1）汇编指令：机器码的助记符。（核心）</div><div>（2）伪指令：没有对应的机器码，由编译器执行，计算机并不执行。</div><div>（3）其它符号：如+、-、*、/等，由编译器识别，没有对应的机器码。</div><div><br></div><div>1.7 CPU对储存器的读写</div><div>总线从逻辑上分3类：地址线、数据线、控制线。</div><div><br></div><div><b>章二、寄存器</b></div><div><br></div><div>2.2 字在寄存器中的存储</div><div>低字节：权越小，越低。个位的数字的权是1，十位的权是2，百位的权是4，如此类推。</div><div>高字节：权比较大的位（该位的数字代表的分量较大），即为高字节。</div><div>与此相关的是——大小端、网络字节序</div><div><br></div><div>2.3</div><div>指令的两个操作对象的位数应该一致。</div><div><br></div><div>2.9 段寄存器</div><div>8086CPU有四个段寄存器：CS、DS、SS、ES。</div><div><br></div><div>2.10 CS和IP</div><div>CS为代码段（code segment?）寄存器，IP为指令指针（instruction ptr?）寄存器。</div><div>任意时刻CPU将CS:IP指向的内容当作指令执行。</div><div><br></div><div>2.11 修改CS、IP的指令</div><div>jmp指令：jmp 段地址:偏移地址 —— jmp 2AE3:3</div><div><br></div><div>8086CPU的工作过程：</div><div>（1）从CS:IP指向的内存单位读取指令，读取的指令进入指令缓存器</div><div>（2）IP指向下一条指令</div><div>（3）执行指令。（转到步骤（1），重复这个过程）</div><div><br></div><div><strong>Chapter2 实验1 查看CPU和内存，用机器指令和汇编指令编程</strong></div><div>Debug是DOS、Windows都提供的实模式（8086方式）程序的调试工具。</div><div>它可以查看CPU各种寄存器的内容、内存的情况和在机器码级跟踪程序的运行。</div><div><br></div><div>使用工具：<a href="evernote:///view/7264256/s33/17e88a1c-16e1-496e-9dbf-8546ace1ecaa/17e88a1c-16e1-496e-9dbf-8546ace1ecaa/" style="color:#69aa35" target="_blank" rel="external">win7 64位系统怎么使用debug</a></div><div><br></div>
+指令<br><div>R &nbsp; &nbsp; 查看、改变CPU<b>寄存器</b>的内容</div><div>D &nbsp; &nbsp; 查看<b>内存</b>中的内容</div><div>E &nbsp; &nbsp; <b>改写</b>内存中的内容</div><div>U &nbsp; &nbsp; 将内存中的机器指令<b>翻译成汇编指令</b></div><div>T &nbsp; &nbsp; <b>执行</b>一条（CS:IP指向的）机器指令</div><div>A &nbsp; &nbsp; <b>以汇编指令</b>的格式，在内存中<b>写入一条机器指令</b></div><div><b><br></b></div><div>G &nbsp; &nbsp; 跳转执行到指定的内存位置</div><div>P &nbsp; &nbsp; 程序执行到最后一步，必须使用的指令</div><div><b><br></b></div><div>通用寄存器：ax,bx,cx,dx</div><div>段寄存器：ds,es,ss,cs</div><div>偏移地址寄存器：sp.ip,bp,si,di</div><div>标志寄存器：flag</div><div><br></div><div>熟悉基础操作过程的截图：</div><div><img width="633px" height="380px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/4bc20fd901206044a792ae37d5ccd1b3.png"></div><div><br></div><div><img width="628px" height="310px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/8274851476c413d426e343e69e8e5187.png"></div><div><br></div><div><img width="614px" height="193px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/17ee180333575eb889d093caeb72a845.png"></div><div><br></div><div><img width="337px" height="161px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/706f7ccda236318f3be58b20c32a521d.png"></div><div><br></div><div><img width="619px" height="353px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/55b18e7e228e351d59ab509d2d91d089.png"></div><div><br></div><div><img width="317px" height="145px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/565deced8c0a4ce33c0b5eb86a066b28.png"></div><div><br></div><div><img width="564px" height="381px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/1ee20fb40a66fb58acb5ba8312ac301d.png"></div><div><br></div><div><img width="617px" height="284px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/a04b37ec53451fff31c98c59b1ee0343.png"></div><div><br></div><div><br></div><div>实验任务：</div><div>（1）</div><div><img width="231px" height="288px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/bac5af4d74353db662a06aaf11cbe162.png"></div><div><br></div><div><img width="573px" height="385px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/3c1fa34129c318f8ef086ac0725b126a.png"></div><div><br></div><div><img width="564px" height="377px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/6b62a7dc51f24ad3ee0932c29fade4fc.png"></div><div><br></div><div><img width="622px" height="369px" src="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%201/386bad5a0f13c43e209df53c0b81298f.png"></div><div><br></div><div>（2）计算2的8次方。</div><div>(在内存2000:0开始写该程序）</div><div>mov ax, 1</div><div>add ax, ax</div><div>add ax, ax</div><div>add ax, ax</div><div>&nbsp; &nbsp; &nbsp;or</div><div>mov ax, 1</div><div>add ax, ax</div><div>jmp 2000:3 &nbsp; &nbsp; (暂时的知识不足以写出循环控制语句！)</div><div>（3）结论：内存FFF00H~FFFFFH为ROM区,内容可读但不可写。</div><div>（4）结论：8086的显存地址空间是A0000H～BFFFFH,其中B8000H～BFFFFH为80*25彩色字符模式显示缓冲区,当向这个地址空间写入数据时,这些数据会立即出现在显示器上。</div></div>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>比起赞赏 ^_^ 更爱打赏</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_01.png" alt="Ice He WeChat Pay"/>
+          <p>WeChat 微信</p>
+          <!--<p>微信打赏</p>-->
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_04.png" alt="Ice He Alipay"/>
+          <p>Alipay 支付宝</p>
+          <!--<p>支付宝打赏</p>-->
+        </div>
+      
+    </div>
+  </div>
+
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/ASM/" rel="tag"># ASM</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/asm/Assembly Language - Note 2/" rel="next" title="ASM 汇编语言 - 2">
+                <i class="fa fa-chevron-left"></i> ASM 汇编语言 - 2
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/asm/Assembly Language - Note 3/" rel="prev" title="ASM 汇编语言 - 3">
+                ASM 汇编语言 - 3 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <div class="ds-share flat" data-thread-key="asm/Assembly Language - Note 1/"
+     data-title="ASM 汇编语言 - 1"
+     data-content=""
+     data-url="http://www.icehe.me/asm/Assembly Language - Note 1/">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
+
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="asm/Assembly Language - Note 1/"
+           data-title="ASM 汇编语言 - 1" data-url="http://www.icehe.me/asm/Assembly Language - Note 1/">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png"
+               alt="Ice He" />
+          <p class="site-author-name" itemprop="name">Ice He</p>
+          <p class="site-description motion-element" itemprop="description">Less.</p>
+        </div>
+
+        <div class="hidden post-toc" style="max-height: 1220px; width: calc(100% + 0px);" id="popular-post-div">
+          <div class="post-toc-content">
+            <ol class="nav" id="popular-list"></ol>
+          </div>
+        </div>
+
+        <!--
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/">
+                <span class="site-state-item-count">49</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">12</span>
+                <span class="site-state-item-name">categs</span>
+              
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">13</span>
+                <span class="site-state-item-name">tags</span>
+              
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+        -->
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <!--
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  - <span class="author" itemprop="copyrightHolder">Ice He</span>. &nbsp;All rights reserved.
+  -->
+  <span class="author" itemprop="copyrightHolder">IceHe</span>
+</div>
+
+
+
+        
+
+<div class="busuanzi-count">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+
+  
+  
+</div>
+
+
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"icehe"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5");</script>
+  <script>
+    function timeDesc(time) {
+      return time / 1000 >= 1 ? '1k +' : (
+        time / 600 >= 1 ? '600 +' : (
+          time / 300 >= 1 ? '300 +' : (
+            time / 100 >= 1 ? '100 +' : '99 -'
+          )
+        )
+      );
+    }
+
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            if (time < 300) {
+              break;
+            }
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(timeDesc(time));
+            $(element).removeClass('hidden');
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            if ((-1 != location.href.indexOf("icehe.me")) // 在 icehe.me 的域名下
+              && (-1 == location.href.indexOf("icehe.me/notes/")) // 不在 icehe.me/notes 的域名下
+            ) {
+              counter.increment("time");
+            }
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(timeDesc(counter.get('time')));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(timeDesc(newcounter.get('time')));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    function ranking(Counter, is_post) {
+        var popular_list = $('#popular-list2');
+        var is_post = (popular_list.length == 1);
+        var count = is_post ? 20 : 10;
+        if (!is_post) {
+            // return; // Break for Simplicity!
+            popular_list = $('#popular-list');
+            if (popular_list.length == 0) {
+                return;
+            }
+            $('#popular-post-div').removeClass('hidden');
+        }
+
+        var query = new AV.Query(Counter);
+        query.descending('time');
+        query.limit(count + 10);
+
+        //var regex = new RegExp('^.*?(?<!linux).*$', 'i');
+        //query.matches('url', regex);
+
+        var excluding_list = [
+            '/about/',
+            '/bookmarks/',
+            '/reward/',
+            '/search/', /* Hidden */
+            '/index/', /* Removed */
+            '/resume/', /* Removed */
+            '/linux/[06] Linux 通过 pip 安装使用 Shadowsocks - CentOS 7/',
+            '/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/',
+            '/linux/[04] 安装 CentOS 7 后必做的 安全防范措施/',
+            '/linux/[03] Update Kernel 升级内核 - CentOS 7/',
+            '/linux/[02] Config System Envir 配置系统环境 - CentOS 7/',
+            '/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/',
+            '/linux/[00] U盘安装 CentOS 7/'
+        ];
+        query.notContainedIn('url', excluding_list);
+
+        query.limit(count);
+        query.find()
+            .done(function (results) {
+                if (results.length === 0) {
+                    return;
+                }
+
+                    popular_list.append(
+                        '<li class="nav-item nav-level-1 bold" style="'
+                        + 'border-bottom-width: 1px; '
+                        + 'border-bottom-style: solid; '
+                        + 'border-bottom-color: #ccc;"> '
+                        + '<i class="fa fa-fire"></i> &nbsp;'
+                        + '<span class="nav-text"> PV </span> '
+                        + '</li>'
+                    );
+                for (var i = 0; i < results.length; ++i) {
+                    var counter = results[i];
+                    var title = counter.get("title");
+                    var time = timeDesc(counter.get('time'));
+
+                    popular_list.append(
+                        '<li class="nav-item nav-level-1" '
+                        + ((i + 1) % 10 == 0
+                            ? 'style="border-bottom-width: 1px; '
+                                + 'border-bottom-style: solid;'
+                                + 'border-bottom-color: #ccc;"'
+                            : '')
+                        + '> '
+                        + '<span class="nav-number"> '
+                        + ((i + 1) % 10) + '. &nbsp;'
+                        + '</span> '
+                        + '<a class="nav-link" href="' + counter.get("url") + '"> '
+                        + '<span class="nav-text"> ' + counter.get('title') + ' </span> '
+                        + '</a> '
+                        + '<span class="nav-number"> '
+                        + '<sup> &nbsp;' + time + ' </sup> '
+                        + '</span> '
+                        + '</li>'
+                    );
+                }
+                if (!is_post) {
+                    popular_list.append(
+                        '<li class="nav-item nav-level-1"> '
+                        //+ '<i class="fa fa-eye"></i> &nbsp;'
+                        + '+. &nbsp; '
+                        + '<a class="nav-link" href="/bookmarks"><span class="nav-text bold">More </span></a> </li>'
+                    );
+                    popular_list.append(
+                        '<li class="nav-item nav-level-1"> '
+                        + '<span class="nav-number"> &nbsp; </span> '
+                        + '<a class="nav-link" href="/bookmarks"> '
+                        + '<span class="nav-text"> &nbsp; </span></a> '
+                        + '</li>'
+                    );
+                }
+          })
+          .fail(function (object, error) {
+              console.log("Error: " + error.code + " " + error.message);
+          });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+      ranking(Counter);
+    });
+  </script>
+
+
+
+  
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+
+
+</body>
+</html>
