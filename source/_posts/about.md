@@ -14,7 +14,7 @@ description: Intro / Tech / Exp / Edu / etc.：微博移动部服务端研发（
     &nbsp; &nbsp; <sup><i class="fa fa-paper-plane"></i>&nbsp; A Cantonese in Beijing</sup>
     <i class="fa fa-font"></i>&nbsp; Less. &nbsp;宁静致远。
     &nbsp; &nbsp; <sup><i class="fa fa-heart"></i>&nbsp; 羽毛球, 毽球, 动漫, 整洁</sup>
-    <i class="fa fa-weibo"></i>&nbsp; [Weibo](http://weibo.com/2181657940/) Mobile API
+    <i class="fa fa-weibo"></i>&nbsp; Weibo Mobile API
     &nbsp; &nbsp; <sup><i class="fa fa-puzzle-piece"></i>&nbsp; PHP Server-side Development</sup>
     <i class="fa fa-envelope-o"></i>&nbsp; x#icehe.me
     &nbsp; &nbsp; <sup><i class="fa fa-eye-slash"></i>&nbsp; Replace # with @</sup>
