@@ -460,8 +460,8 @@ end</div></div>
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/asm/Assembly Language - Note 2/" rel="next" title="ASM 汇编语言 - 2">
-                <i class="fa fa-chevron-left"></i> ASM 汇编语言 - 2
+              <a href="/asm/Assembly Language - Note 1/" rel="next" title="ASM 汇编语言 - 1">
+                <i class="fa fa-chevron-left"></i> ASM 汇编语言 - 1
               </a>
             
           </div>
@@ -483,6 +483,7 @@ end</div></div>
     </footer>
   </article>
 
+  
 
 
     <div class="post-spread">
@@ -804,7 +805,7 @@ end</div></div>
             var url = item.get('url');
             var time = item.get('time');
             if (time < 300) {
-              break;
+              continue;
             }
             var element = document.getElementById(url);
 
@@ -980,11 +981,17 @@ end</div></div>
 
     $(function() {
       var Counter = AV.Object.extend("Counter");
-      if ($('.leancloud_visitors').length == 1) {
-        addCount(Counter);
-      } else if ($('.post-title-link').length > 1) {
+      if ($('#is_index').length == 1) {
         showTime(Counter);
+      } else {
+        addCount(Counter);
       }
+      // 等待 Next 开源项目的人修复
+      //if ($('.leancloud_visitors').length == 1) {
+      //  addCount(Counter);
+      //} else if ($('.post-title-link').length > 1) {
+      //  showTime(Counter);
+      //}
       ranking(Counter);
     });
   </script>

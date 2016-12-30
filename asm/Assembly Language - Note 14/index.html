@@ -608,6 +608,7 @@ end start</div><div><br></div><div><strong>Att - </strong><a title="Attachment �
     </footer>
   </article>
 
+  
 
 
     <div class="post-spread">
@@ -929,7 +930,7 @@ end start</div><div><br></div><div><strong>Att - </strong><a title="Attachment �
             var url = item.get('url');
             var time = item.get('time');
             if (time < 300) {
-              break;
+              continue;
             }
             var element = document.getElementById(url);
 
@@ -1105,11 +1106,17 @@ end start</div><div><br></div><div><strong>Att - </strong><a title="Attachment �
 
     $(function() {
       var Counter = AV.Object.extend("Counter");
-      if ($('.leancloud_visitors').length == 1) {
-        addCount(Counter);
-      } else if ($('.post-title-link').length > 1) {
+      if ($('#is_index').length == 1) {
         showTime(Counter);
+      } else {
+        addCount(Counter);
       }
+      // 等待 Next 开源项目的人修复
+      //if ($('.leancloud_visitors').length == 1) {
+      //  addCount(Counter);
+      //} else if ($('.post-title-link').length > 1) {
+      //  showTime(Counter);
+      //}
       ranking(Counter);
     });
   </script>

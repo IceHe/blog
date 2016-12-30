@@ -683,7 +683,7 @@ From: http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;amp;mid=405068698&amp
             var url = item.get('url');
             var time = item.get('time');
             if (time < 300) {
-              break;
+              continue;
             }
             var element = document.getElementById(url);
 
@@ -859,11 +859,17 @@ From: http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;amp;mid=405068698&amp
 
     $(function() {
       var Counter = AV.Object.extend("Counter");
-      if ($('.leancloud_visitors').length == 1) {
-        addCount(Counter);
-      } else if ($('.post-title-link').length > 1) {
+      if ($('#is_index').length == 1) {
         showTime(Counter);
+      } else {
+        addCount(Counter);
       }
+      // 等待 Next 开源项目的人修复
+      //if ($('.leancloud_visitors').length == 1) {
+      //  addCount(Counter);
+      //} else if ($('.post-title-link').length > 1) {
+      //  showTime(Counter);
+      //}
       ranking(Counter);
     });
   </script>
