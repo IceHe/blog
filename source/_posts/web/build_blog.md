@@ -1,12 +1,25 @@
 title: Bulid Blog 搭建个人博客
 date: 2015-11-14
-updated: 2016-12-05
+updated: 2017-01-02
 categories: [Web]
 tags: [Web]
 description: Why初衷、How过程，Hexo建站，Theme主题，Domain Name域名，Bed Room图床，Google CSE站内搜索，404页面，Sitemap & RSS站点地图与订阅，Site Analysis，Page View统计…
 ---
 - 上一版《 [Why and How to bulid my blog? 搭建我的个人博客](/old_version_posts/Why_and_how_to_build_my_blog.html) 》
 - 失效链接已修复，如需帮助，望读者及时反馈。
+
+# 后记
+
+- 写了不少，舍不得删掉。但是这类教程，网上已经够多了，再写价值不大。特别是知道了 Next 这个 Hexo 主题之后。
+- 这个 Hexo 主题基本包办了我想要的几乎所有博客功能，而且配置方法也很简单。
+- 但是这些便利性造成了一个问题：
+    - 做个人博客是为了彰显个人的独特个性和审美。
+    - 用别人做好的博客主题，可以选择一个不热门的，但是配置起来麻烦，很可能缺少一些特别的功能支持，要自己 DIY。而我自己现在就特别讨厌没有意义的折腾。
+    - 要是选择一个比较流行的博客主题，虽然功能齐全，但是会觉得不够独特，容易跟别人撞主题，感觉就跟「撞衫」一个道理。
+- 但是要是再仔细想想，如果你是一个会思考有思想的人，总能提出独特的观点，无论你是用微博、CSDN、博客园还是随便哪个平台发，都是无所谓的，总会赢得别人的认同。
+    - 外观与众不同，当然可以算作是是独特的。但是真正的与众不同、特立独行，不光在表面上，更应该是思想上的，不然我觉的就没啥意思。
+- 算了吧，保留本文，不过不再更新了。 
+- 记于 2017-01-02
 
 # Why - 初衷
 
@@ -308,7 +321,5 @@ __TODO: 待日后补全细节，暂参考 [Hexo系列教程之五：hexo博客�
 - Theme Author - [WuChong](http://wuchong.me/)
 
 ## About Me 关于
-This's my [__brief intro__](/about). 这是我的[ __简介__ ](/about)。
-
-__Thx for your reading. 感谢您的阅读。__
-<br/>
+- This's my [__brief intro__](/about). 这是我的[ __简介__ ](/about)。
+- __Thx for your reading. 感谢您的阅读。__
