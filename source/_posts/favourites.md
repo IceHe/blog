@@ -78,6 +78,8 @@ description: 我喜欢的书籍、电影、电视剧、动画、游戏…
 
 # Animate 动画
 
+- __[排球少年](https://www.douban.com/search?q=%E6%8E%92%E7%90%83%E5%B0%91%E5%B9%B4)__
+    新世代的灌篮！
 - __[乒乓](https://movie.douban.com/subject/25813424/)__ <sup>__Best__</sup>
     人生，天赋与努力。
 - [虫师](https://movie.douban.com/subject/1800597/)
@@ -130,6 +132,8 @@ description: 我喜欢的书籍、电影、电视剧、动画、游戏…
     傲矫。暴走的结局。
 - [少女月刊野崎君](http://movie.douban.com/subject/25850705/) <sup>__Best__</sup>
     恋上漫画家。
+- [甘城光辉游乐园](https://movie.douban.com/subject/25812280/)
+    欢乐。
 - [邻座的怪同学](http://movie.douban.com/subject/10759936/)
     女学霸和男学霸的爱情故事。
 - [交响情人梦](http://movie.douban.com/subject_search?search_text=%E4%BA%A4%E5%93%8D%E6%83%85%E4%BA%BA%E6%A2%A6&cat=1002)
