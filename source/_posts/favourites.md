@@ -79,14 +79,14 @@ description: 我喜欢的书籍、电影、电视剧、动画、游戏…
 # Animate 动画
 
 - __[排球少年](https://www.douban.com/search?q=%E6%8E%92%E7%90%83%E5%B0%91%E5%B9%B4)__
-    新世代的灌篮！
+    新世代的灌篮！ <sup>__Best__</sup>
 - __[乒乓](https://movie.douban.com/subject/25813424/)__ <sup>__Best__</sup>
     人生，天赋与努力。
 - [虫师](https://movie.douban.com/subject/1800597/)
     恬静，幽深。
 - [棋魂](https://movie.douban.com/subject/1474243/)
     围棋。
-- __[亚人](https://movie.douban.com/review/7794549/)__ <sup>__Best__</sup>
+- [亚人](https://movie.douban.com/review/7794549/)
     人性，理性。
 - [寄生兽](http://baike.baidu.com/view/15161941.htm?fromtitle=%E5%AF%84%E7%94%9F%E5%85%BD%E7%94%9F%E5%91%BD%E7%9A%84%E5%87%86%E5%88%&fromid=15149279&type=syn)
     人性，自然。
@@ -104,7 +104,7 @@ description: 我喜欢的书籍、电影、电视剧、动画、游戏…
     剧情、奇幻、机战、政治…… 各元素熔于一炉的神作！
 - [高达 Seed](http://movie.douban.com/subject/1766546/) & [Seed Destiny](http://movie.douban.com/subject/1766551/) & [OO](http://mov.douban.com/subject/2309838/)
     神棍偶像剧。
-- [高达铁血的奥尔芬斯](http://movie.douban.com/subject/26538787/) <sup>__Best__</sup>
+- [高达铁血的奥尔芬斯](http://movie.douban.com/subject/26538787/)
     铁血孤儿。
 - [Re：从零开始的异世界生活](https://movie.douban.com/subject/26575153/) <sup>__Best__</sup>
     轮回，执念。
@@ -122,7 +122,7 @@ description: 我喜欢的书籍、电影、电视剧、动画、游戏…
     《游戏人生》，动漫就是要看得痛快。
 - [Guilty Crown](http://movie.douban.com/subject/6518736/)
     《罪恶王冠》，楪祈好美，音乐作品美哭。
-- [Overload](http://movie.douban.com/subject/25972406/)
+- [Overlord](http://movie.douban.com/subject/25972406/)
     《不死者之王》，就喜欢装逼毫无违和感的满级主角。
 - [EVA](http://movie.douban.com/subject_search?search_text=%E6%96%B0%E4%B8%96%E7%BA%AA%E7%A6%8F%E9%9F%B3%E6%88%98%E5%A3%AB&cat=1002)
     （上一世代的）神作。
@@ -246,7 +246,6 @@ description: 我喜欢的书籍、电影、电视剧、动画、游戏…
 - 陈绮贞 <sup>__Best__</sup>
 - 方大同 <sup>__Best__</sup>
 - 初音ミク <sup>__Best__</sup>
-- 王菲
 - ClariS
 - Egoist
 - Supercell
