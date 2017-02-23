@@ -13,9 +13,10 @@ description: Exp / Edu / Oth：微博移动 - 服务端研发 - PHP，华南理�
         <sup><i class="fa fa-paper-plane"></i> A Cantonese in Beijing</sup>
     - <i class="fa fa-fw fa-font"></i> Less. 宁静致远。
         <sup><i class="fa fa-heart"></i> Animate , Badminton , 毽球</sup>
-    - <i class="fa fa-fw fa-weibo"></i> Weibo Mobile API
+    - <i class="fa fa-fw fa-weibo"></i> [Weibo](http://weibo.com/icedes) Mobile API
         <sup><i class="fa fa-puzzle-piece"></i> PHP Server-side Dev</sup>
     - <i class="fa fa-fw fa-envelope-o"></i> x#icehe.me
+        <sup><i class="fa fa-wechat"></i> IceHooo</sup>
 - __Traits__
     - <i class="fa fa-fw fa-gears"></i> [Tools](/tools/) 工具控
         <sup>Softwares & Hardwares</sup>
