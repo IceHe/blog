@@ -1,0 +1,833 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="google-site-verification" content="google34949e442e488102" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="IceHe" />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Ice He" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon_h.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="条款1：仔细区别pointers和referencesdistinguish between pointers and references.
+references引用必须总是代表一个对象，必须在声明时初始化。pointer就有可能不指向（代表）任何对象。
+当你知道你需要指向某个东西，而且绝不会改变指向其他东西，或是你实现一个操作符，而其语法需求无法由pointer达成，就该选择reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="More effective C++">
+<meta property="og:url" content="http://icehe.me/notes/more_effective_cpp.html">
+<meta property="og:site_name" content="Ice He">
+<meta property="og:description" content="条款1：仔细区别pointers和referencesdistinguish between pointers and references.
+references引用必须总是代表一个对象，必须在声明时初始化。pointer就有可能不指向（代表）任何对象。
+当你知道你需要指向某个东西，而且绝不会改变指向其他东西，或是你实现一个操作符，而其语法需求无法由pointer达成，就该选择reference">
+<meta property="og:updated_time" content="2016-10-30T10:12:14.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="More effective C++">
+<meta name="twitter:description" content="条款1：仔细区别pointers和referencesdistinguish between pointers and references.
+references引用必须总是代表一个对象，必须在声明时初始化。pointer就有可能不指向（代表）任何对象。
+当你知道你需要指向某个东西，而且绝不会改变指向其他东西，或是你实现一个操作符，而其语法需求无法由pointer达成，就该选择reference">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"display":"always"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://icehe.me/notes/more_effective_cpp.html"/>
+
+
+
+
+
+  <title>
+  
+
+  
+    More effective C++ | Ice He
+  
+</title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-60837823-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+
+  <div class="container one-collumn   ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Ice He</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+    
+      <p class="site-subtitle">More is in vain when less will serve.</p>
+    
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-quote-left"></i> <br />
+            
+            Articles
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-nav">
+          <a href="/bookmarks" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-bookmark"></i> <br />
+            
+            Nav
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-cv">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-star"></i> <br />
+            
+            CV
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+<style type="text/css">
+    .center { text-align: center; }
+    .bold   { font-weight: bold; }
+    .hidden { display: none; }
+</style>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+  <header class="post-header">
+
+	<h2 class="post-title" itemprop="name headline">More effective C++</h2>
+
+
+
+</header>
+
+    
+    
+      <p>条款1：仔细区别pointers和references<br>distinguish between pointers and references.</p>
+<p>references引用必须总是代表一个对象，必须在声明时初始化。<br>pointer就有可能不指向（代表）任何对象。</p>
+<p>当你知道你需要指向某个东西，而且绝不会改变指向其他东西，<br>或是你实现一个操作符，而其语法需求无法由pointer达成，就该选择references。<br>否则采用pointers。</p>
+<p>条款2：最好使用C++转型操作符<br>prefer C++-style casts.</p>
+<p>const_cast：用来去除表达式中的常量性constness或变易性volatileness。旧式转换做不到。</p>
+<p>dynamic_cast：用来执行继承体系中“安全的向下转型或跨系转型动作”。<br>无法应用在缺乏虚函数的类型身上（条款24）。</p>
+<p>static_cast：不涉及继承机制的类型执行转型。</p>
+<p>reinterpret _cast：此操作符的转换结果几乎总是与编译平台息息相关，所以它不具有移植性。</p>
+<p>向下转型：父类对象指向子类。<br>向上转型：将子类对象转为父类对象。</p>
+<p>条款3：绝对不要以多态（polymorphically）方式处理数组<br>nver treat arrays polymorphically.</p>
+<p>C++也允许通过base class 的 pointers 和 references 来操作 derived class objects 所形成的数组。</p>
+<p>derived classes通常比base classes有更多的data members，所以其object比基类的大。<br>当你声明base class 的 array，编译器按照 i * sizeof(base class object) 来分配内存，或按照这个大小来处理它。<br>当void func(const BaseClass ary[])函数传入的参数是DerivedClass ary[] 时，处理的结果就无法预期了。</p>
+<p>delete [] ary 时，调用的是ary的声明类型对应的析构函数，而非调用其实际类型的析构函数。<br>因为C++语言规范中说，通过base class pointer去删除一个由derived classes objects组成的数组，其结果未定义！</p>
+<p>绝对不要以多态（polymorphically）方式处理数组，会产生你意想不到的结果！</p>
+<p>条款4：非必要不提供default constructor<br>avoid gratuitous default constructors.</p>
+<p>它意味着在没有外来信息的情况下初始化对象，有时这样的对象是没有意义的！<br>所以别提供default constructor了，<br>因为这还影响classes的效率，让调用者测试其行为而付出空间代价（程序库和执行文件变大）。</p>
+<p>不提供default constructor的问题：<br>（1）初始化数组<br>OneClass *p = new OneClass[c]; // 错误！无法调用默认构造函数<br>可以这样解决<br>OneClass p[] = {<br>     OneClass(param1),<br>     OneClass(param2),<br>     …<br>};<br>但只用于non-heap数组，无法用于heap数组。</p>
+<p>所以，更一般化的解决方法是使用“指针数组”，而非“对象数组”。<br>OneClass *ary[10];<br>for(…){ // 然后这样初始化<br>     ary[i] = new OneClass(param);<br>}<br>但必须记得：<br>a. 删除数组的所有对象，否则内存泄漏；<br>b. 需要存放指针，有结构开销，内存消耗大一些。</p>
+<p>避免以上b点关于“用太多内存”的问题，可以避免：<br>先为该数组分配raw memory，然后使用placement new在这块内存上构造OneClass objects。<br>void <em>rawMemory = operator new[](10 </em> sizeof(OneClass));<br>OneClass <em>array = static_cast&lt;OneClass</em>&gt;(rawMemory);<br>for(int i = 0; i &lt; 10; ++i){<br>     new (&amp;array[i])  OneClass(ID Number); // 没看懂！<br>} // 说是，利用placement new 构造这块内存中的OneClass objects<br>而且在数组内的对象结束生命时，以手动方式调用其destructors，<br>最后还得以调用operator detele[]的方式释放raw memory：<br>for(int i = 9; i &gt;= 0; –i){ // 以其构造顺序的相反顺序析构掉<br>     array[i].~OneClass();<br>}<br>operator delete<a href="rawMemory"></a>; // 释放rawMemory</p>
+<p>（不提供default constructor的问题：）<br>（2）classes不提供default constructor，它们将不适用于许多template-based container classes。</p>
+<p>此条款的其它论述有点麻烦，其它部还是直接看原书较好。</p>
+<p>条款5：对定制的“类型转换函数”保持警觉<br>be wary of user-defined conversion functions.</p>
+<p>C++允许编译器在不同类型之间执行隐式转换implicit conversions。<br>最好不要提供任何类型转换函数。</p>
+<p>因为它们的出现可能导致错误（非预期）的函数被调用。</p>
+<p>解决办法：<br>以功能对等的另一个函数取代类型转换操作符。如，toDouble()。<br>或者<br>将构造函数声明为explicit的——编译器不能因隐式类型转换的需要而调用他们。</p>
+<p>条款6：区别increment/decrement操作符的前置（prefix）和后置（postfix）形式<br>distinguish between prefix and postfix forms of increment and decrement operators.</p>
+<p>++increment和–decrement操作符的前置式或后置式都没有参数。<br>为了填平语言上的漏洞，只能让后置式有一个int参数，并且在它被调用时，编译器默默地为该int指定一个0值。</p>
+<p>C时代，++前置式的含义：increment and fetch（累加然后取出）；<br>++后置式：fetch and increment（取出然后累加）。–decrement操作符类同。<br>这些就是++、–操作符如何实现的正式规范。</p>
+<p>条款7：千万不要重载&amp;&amp;，||和“,”（逗号）操作符<br>never overload &amp;&amp; , || , or “,” .</p>
+<p>重载了它们之后，就无法判断这些操作符左边的还是右边的expression表达式更早执行了！<br>&amp;&amp;、||的短路功能丢失，逗号操作符的从左到右的执行顺序不能被保证。</p>
+<p>条款8：了解各种不同意义的new和delete<br>understand the different meanings of new and delete.</p>
+<p>条款9:利用destructors避免泄漏资源<br>use destructors to prevent resource leaks.</p>
+<p>条款10:在constructors内阻止资源泄漏<br>prevent resource leaks in constructors.</p>
+<p>条款11:禁止异常（exceptions）流出destructors之外<br>prevent exceptions from leaving destructors.</p>
+<p>条款12:了解“抛出一个exception”与“传递一个参数”或“调用一个虚函数”之间的差异<br>understand how throwing an exception differs from passing a parameter or calling a virtual function.</p>
+<p>条款13:以by reference方式捕捉exceptions<br>catch exceptions by reference.</p>
+<p>条款14:明智运用exception specifications<br>use exception specifications judiciously.</p>
+<p>条款15:了解异常处理（exception handling）的成本<br>understand the costs of exception handling.</p>
+<p>条款16:谨记80-20法则<br>remember the 80-20 rule.</p>
+<p>条款17:考虑使用lazy evaluation（缓式评估）<br>consider using lazy evaluation.</p>
+<p>条款18:分期摊还预期的计算成本<br>amortize the cost of experted computations.</p>
+<p>条款19:协助完成“返回值优化（RVO）”<br>facilitate the return value optimization.</p>
+
+    
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="notes/more_effective_cpp.html"
+           data-title="More effective C++" data-url="http://icehe.me/notes/more_effective_cpp.html">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png"
+               alt="Ice He" />
+          <p class="site-author-name" itemprop="name">Ice He</p>
+          <p class="site-description motion-element" itemprop="description">Less.</p>
+        </div>
+
+        <div class="hidden post-toc" style="max-height: 1220px; width: calc(100% + 0px);" id="popular-post-div">
+          <div class="post-toc-content">
+            <ol class="nav" id="popular-list"></ol>
+          </div>
+        </div>
+
+        <!--
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/">
+                <span class="site-state-item-count">50</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">12</span>
+                <span class="site-state-item-name">categs</span>
+              
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">13</span>
+                <span class="site-state-item-name">tags</span>
+              
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+        -->
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2015 - 
+  <span itemprop="copyrightYear">2017</span>
+  <!--
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  - <span class="author" itemprop="copyrightHolder">Ice He</span>. &nbsp;All rights reserved.
+  -->
+  <span class="author" itemprop="copyrightHolder">IceHe</span>
+</div>
+
+
+
+        
+
+<div class="busuanzi-count">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+
+  
+  
+</div>
+
+
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"icehe"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5");</script>
+  <script>
+    function timeDesc(time) {
+      return time / 1000 >= 1 ? '1k +' : (
+        time / 600 >= 1 ? '600 +' : (
+          time / 300 >= 1 ? '300 +' : (
+            time / 100 >= 1 ? '100 +' : '99 -'
+          )
+        )
+      );
+    }
+
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            if (time < 300) {
+              continue;
+            }
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(timeDesc(time));
+            $(element).removeClass('hidden');
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            if ((-1 != location.href.indexOf("icehe.me")) // 在 icehe.me 的域名下
+              && (-1 == location.href.indexOf("icehe.me/notes/")) // 不在 icehe.me/notes 的域名下
+            ) {
+              counter.increment("time");
+            }
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(timeDesc(counter.get('time')));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(timeDesc(newcounter.get('time')));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    function ranking(Counter, is_post) {
+        var popular_list = $('#popular-list2');
+        var is_post = (popular_list.length == 1);
+        var count = is_post ? 20 : 10;
+        if (!is_post) {
+            // return; // Break for Simplicity!
+            popular_list = $('#popular-list');
+            if (popular_list.length == 0) {
+                return;
+            }
+            $('#popular-post-div').removeClass('hidden');
+        }
+
+        var query = new AV.Query(Counter);
+        query.descending('time');
+        query.limit(count + 10);
+
+        //var regex = new RegExp('^.*?(?<!linux).*$', 'i');
+        //query.matches('url', regex);
+
+        var excluding_list = [
+            '/about/',
+            '/bookmarks/',
+            '/reward/',
+            '/search/', /* Hidden */
+            '/index/', /* Removed */
+            '/resume/', /* Removed */
+            '/linux/[06] Linux 通过 pip 安装使用 Shadowsocks - CentOS 7/',
+            '/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/',
+            '/linux/[04] 安装 CentOS 7 后必做的 安全防范措施/',
+            '/linux/[03] Update Kernel 升级内核 - CentOS 7/',
+            '/linux/[02] Config System Envir 配置系统环境 - CentOS 7/',
+            '/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/',
+            '/linux/[00] U盘安装 CentOS 7/'
+        ];
+        query.notContainedIn('url', excluding_list);
+
+        query.limit(count);
+        query.find()
+            .done(function (results) {
+                if (results.length === 0) {
+                    return;
+                }
+
+                    popular_list.append(
+                        '<li class="nav-item nav-level-1 bold" style="'
+                        + 'border-bottom-width: 1px; '
+                        + 'border-bottom-style: solid; '
+                        + 'border-bottom-color: #ccc;"> '
+                        + '<i class="fa fa-fire"></i> &nbsp;'
+                        + '<span class="nav-text"> PV </span> '
+                        + '</li>'
+                    );
+                for (var i = 0; i < results.length; ++i) {
+                    var counter = results[i];
+                    var title = counter.get("title");
+                    var time = timeDesc(counter.get('time'));
+
+                    popular_list.append(
+                        '<li class="nav-item nav-level-1" '
+                        + ((i + 1) % 10 == 0
+                            ? 'style="border-bottom-width: 1px; '
+                                + 'border-bottom-style: solid;'
+                                + 'border-bottom-color: #ccc;"'
+                            : '')
+                        + '> '
+                        + '<span class="nav-number"> '
+                        + ((i + 1) % 10) + '. &nbsp;'
+                        + '</span> '
+                        + '<a class="nav-link" href="' + counter.get("url") + '"> '
+                        + '<span class="nav-text"> ' + counter.get('title') + ' </span> '
+                        + '</a> '
+                        + '<span class="nav-number"> '
+                        + '<sup> &nbsp;' + time + ' </sup> '
+                        + '</span> '
+                        + '</li>'
+                    );
+                }
+                if (!is_post) {
+                    popular_list.append(
+                        '<li class="nav-item nav-level-1"> '
+                        //+ '<i class="fa fa-eye"></i> &nbsp;'
+                        + '+. &nbsp; '
+                        + '<a class="nav-link" href="/bookmarks"><span class="nav-text bold">More </span></a> </li>'
+                    );
+                    popular_list.append(
+                        '<li class="nav-item nav-level-1"> '
+                        + '<span class="nav-number"> &nbsp; </span> '
+                        + '<a class="nav-link" href="/bookmarks"> '
+                        + '<span class="nav-text"> &nbsp; </span></a> '
+                        + '</li>'
+                    );
+                }
+          })
+          .fail(function (object, error) {
+              console.log("Error: " + error.code + " " + error.message);
+          });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('#is_index').length == 1) {
+        showTime(Counter);
+      } else {
+        addCount(Counter);
+      }
+      // 等待 Next 开源项目的人修复
+      //if ($('.leancloud_visitors').length == 1) {
+      //  addCount(Counter);
+      //} else if ($('.post-title-link').length > 1) {
+      //  showTime(Counter);
+      //}
+      ranking(Counter);
+    });
+  </script>
+
+
+
+  
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+
+
+</body>
+</html>

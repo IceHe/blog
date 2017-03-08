@@ -1,0 +1,1246 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="google-site-verification" content="google34949e442e488102" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="time mgt," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Ice He" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon_h.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="Log Format 时间日志格式。Principles 原则，Transaction Categories 事务类别，Time Granularity 时间粒度，Log Instance 实例，Schedule 规划。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Time Mgt 时间管理日志">
+<meta property="og:url" content="http://icehe.me/think/time_mgt/index.html">
+<meta property="og:site_name" content="Ice He">
+<meta property="og:description" content="Log Format 时间日志格式。Principles 原则，Transaction Categories 事务类别，Time Granularity 时间粒度，Log Instance 实例，Schedule 规划。">
+<meta property="og:updated_time" content="2016-12-04T16:00:00.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Time Mgt 时间管理日志">
+<meta name="twitter:description" content="Log Format 时间日志格式。Principles 原则，Transaction Categories 事务类别，Time Granularity 时间粒度，Log Instance 实例，Schedule 规划。">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"display":"always"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://icehe.me/think/time_mgt/"/>
+
+
+
+
+
+  <title> Time Mgt 时间管理日志 | Ice He </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-60837823-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?ba81ef13fc65c4dcf8cf8586d25818a4";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+
+  <div class="container one-collumn  page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Ice He</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+    
+      <p class="site-subtitle">More is in vain when less will serve.</p>
+    
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-quote-left"></i> <br />
+            
+            Articles
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-nav">
+          <a href="/bookmarks" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-bookmark"></i> <br />
+            
+            Nav
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-cv">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-star"></i> <br />
+            
+            CV
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+<style type="text/css">
+    .center { text-align: center; }
+    .bold   { font-weight: bold; }
+    .hidden { display: none; }
+</style>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://icehe.me/think/time_mgt/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Ice He">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Ice He">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Ice He" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Time Mgt 时间管理日志
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                
+                  <i class="fa fa-refresh"></i>
+                
+              </span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-11-13T00:00:00+08:00">
+              
+                2016.12
+              
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/time-mgt/" itemprop="url" rel="index">
+                    <span itemprop="name">time mgt</span></a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+
+          
+          
+            <span id="/think/time_mgt/" class="hidden leancloud_visitors" data-flag-title="Time Mgt 时间管理日志">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              
+              <span class="leancloud-visitors-count"></span>
+            </span>
+          
+
+          
+
+          
+
+          
+              <div class="post-description">
+                  Log Format 时间日志格式。Principles 原则，Transaction Categories 事务类别，Time Granularity 时间粒度，Log Instance 实例，Schedule 规划。
+              </div>
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <ul>
+<li>链接：《 <a href="/lifelogs">我所有的时间统计日志</a> 》</li>
+<li>启发：《 <a href="https://book.douban.com/subject/1115353/" target="_blank" rel="external">奇特的一生</a> 》 <a href="https://zh.wikipedia.org/zh-hans/%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7%C2%B7%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%BE%B7%E7%BD%97%E7%BB%B4%E5%A5%87%C2%B7%E6%9F%B3%E6%AF%94%E6%AD%87%E5%A4%AB" target="_blank" rel="external">柳比歇夫</a> 的时间统计法</li>
+<li>旧版：《 <a href="/old_version_posts/time_mgt_log_format.html">Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考</a> 》</li>
+<li>补充：时间管理日志格式一直根据实际使用进行调整，可能与本文描述不一致。</li>
+<li>最新：2016-12-05<ul>
+<li>本文仅供参考，各位需要自己试着摸索适合自己的方法，才是正道。</li>
+<li>现在我已经不用 Evernote 来做时间记录，以及 AppleScript 和 Python 脚本来跑统计结果了。</li>
+<li>而是用 iOS 的 App —— BlockyTime（时间块），它的特点刚好非常适合我使用。<ul>
+<li>以后可能还是会用脚本去自行统计 BlockyTime 其中时间记录，找出自己感兴趣的东西，深入了解自己。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="Principles-原则"><a href="#Principles-原则" class="headerlink" title="Principles 原则"></a>Principles 原则</h1><ol>
+<li><strong>简便</strong>：记录方式简便，只统计要用的信息，避免成为负担</li>
+<li><strong>有序</strong>：格式统一，便于数据的整理、分析</li>
+</ol>
+<h1 id="Time-Granularity-时间粒度"><a href="#Time-Granularity-时间粒度" class="headerlink" title="Time Granularity 时间粒度"></a>Time Granularity 时间粒度</h1><p><strong>时间粒度</strong>，即每个时段有多长。<br>类似于一节课有多长时间，据此规划、统计自己的时间。<br>对我而言，1、10或15min的时间粒度太小了，而 <strong>30min</strong> 就刚好，因为：</p>
+<ol>
+<li><p><strong>便于规划、统计</strong><br><u><strong>30min == 0.5hour</strong></u> 该时间粒度，就可以以每小时的整点、半点为界，等分一日的时间。</p>
+</li>
+<li><p><strong>减轻压力</strong><br>适当对统计数据进行模糊处理（四舍五入），<br>让人少产生些心理压力，更利于坚持养成时间管理的习惯。<br><em>例如，某30min用了15min以上读书，<br>余下时间处理了些琐事，可将该30min归到读书时间。<br>若是过意不去，可在处理琐事的另一30min中<br>省出15min去读书，弥补回来，提高统计的准确性。</em></p>
+</li>
+<li><p><strong>鼓励集中时间专心处理一件事</strong><br>为了统计更方便，使用者会倾向于尽可能集中时间去<br>（至少 30min）处理一件事（或同一类事务）。<br>避免多任务切换（三心两意同时处理多件事）导致效率下降。<br>刚好可以配合“<strong>番茄工作法</strong>”来使用。</p>
+</li>
+<li><p><strong>循序渐进</strong>（日后慢慢将时间粒度定得更小）<br>因为人的自控力差异，不一定人人都有能力去争分夺秒地利用时间。<br>虽然现有许多可用的时间管理工具和方法，但当它们太复杂时，<br>难免会干扰正常做事，而非更好地做事，有违 “有效利用时间” 的初衷。</p>
+</li>
+</ol>
+<p>因为，生活节奏越慢，切换去做不同（类）任务的频率越低，<br>可以用更大的时间粒度来规划、统计时间，<br>当然时间使用情况的统计结果的精度会降低。</p>
+<h1 id="Transaction-Category-事务类别"><a href="#Transaction-Category-事务类别" class="headerlink" title="Transaction Category 事务类别"></a>Transaction Category 事务类别</h1><p>事务的分类见仁见智。<br>有些时间管理软件或方法，给出的分类过多过细，<br>如公交、走动、购物、娱乐、上网、看电影、喝酒等，使用不便。</p>
+<h2 id="六类事务"><a href="#六类事务" class="headerlink" title="六类事务"></a>六类事务</h2><p>我根据个人实际实践，将生活中的事务分为六类：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">编号No.</th>
+<th style="text-align:left">简写Abbr.</th>
+<th style="text-align:left">全称Ful.</th>
+<th style="text-align:left">描述Desc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><strong>1</strong></td>
+<td style="text-align:left">学 stu</td>
+<td style="text-align:left">学习 study</td>
+<td style="text-align:left">积累新<strong>知识</strong>、新奇的体验，提升技能熟练度等</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>2</strong></td>
+<td style="text-align:left">动 spo</td>
+<td style="text-align:left">运动 sport</td>
+<td style="text-align:left"><strong>锻炼</strong>身体，有一定强度的运动，正常步速、中等距离（30min内）的走动不算</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>3</strong></td>
+<td style="text-align:left">读 rd</td>
+<td style="text-align:left">阅读 read</td>
+<td style="text-align:left"><strong>阅读</strong>/收听有益且非简单的消遣娱乐类的书籍、文章、视频等</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>4</strong></td>
+<td style="text-align:left">乐 joy</td>
+<td style="text-align:left">乐事 joy</td>
+<td style="text-align:left">令人<strong>愉悦</strong>的事，如娱乐消遣、社交等</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>5</strong></td>
+<td style="text-align:left">必 mus</td>
+<td style="text-align:left">必须 must</td>
+<td style="text-align:left"><strong>不得不</strong>去处理、又无法归到其它类别的事，如家务</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>6</strong></td>
+<td style="text-align:left">废 was</td>
+<td style="text-align:left">荒废 waste</td>
+<td style="text-align:left">并非必须处理、又无益处、且不能让人愉悦的事，就是<strong>浪费时间</strong>的</td>
+</tr>
+</tbody>
+</table>
+<p>有些事可以同属以上多个事务类别，<br>只能再靠个人判断将其再归类。<br><em>可以简单将其归类于编号较小的类别。</em></p>
+<h1 id="Log-Example-日志实例"><a href="#Log-Example-日志实例" class="headerlink" title="Log Example 日志实例"></a>Log Example 日志实例</h1><p>Log 时间使用情况统计日志以 《 <a href="/lifelogs/2015/10/d20.html">15/10/20 stu52 spo12 was3</a> 》 为例简要解释。<br>仅解释（截止至本日志更新之日）最新的日志格式，不赘述旧格式。</p>
+<p>日志仅记录<span id="valid_time"><strong>有效生活时间</strong></span>，即</p>
+<pre><code>每日从早晨醒来到夜晚入睡的时间。 即24小时减去睡眠时间。
+</code></pre><p>凌晨00:00后才睡觉的时候，00:00后到入睡前的部分时间本属于第二天，<br>但是只要还没睡，该部分时间就统计到前一天的日志里去。</p>
+<ol>
+<li><p><strong>日志标题</strong></p>
+<pre><code>15/10/20 stu52 spo12 was3
+</code></pre><p> <strong>格式</strong>：</p>
+<pre><code>yy/mm/dd type1 \d\d type2 \d\d …
+年/月/日 事务类别1 百分比 事务类别2 百分比
+</code></pre><p> <strong>(a)</strong> 事务类别：<a href="#Transaction_Category_事务类别">事务的类别</a>的英文简写。<br> <strong>(b)</strong> 百分比：某类事务所用的时长占全天<a href="#valid_time">有效生活时间</a>的百分比，此处仅精确到个位。</p>
+</li>
+<li><p><strong>主要任务列表</strong></p>
+<pre><code># Pri Tasks
+[y] Demand Development
+[ ] Evernote Scripts &amp; Shell
+</code></pre><p> <strong>格式</strong>：</p>
+<pre><code>[Y/N] task desc
+[完成与否] 任务的简要描述
+</code></pre><p> 行首的复选框代表任务的完成情况，框内 打勾/留空 表示该任务 已完成/未完成。</p>
+<p> 一天很短，人的精力、体力有限，最好一段时间内只专注做一事提高效率，<br> 尽可能快速进入状态，避免多任务切换，所以<strong>任务量</strong>最好限定在<strong>1~2个</strong>，最多不超过3个。</p>
+</li>
+<li><p><strong>记录简表</strong></p>
+<pre><code># Time Table
+07-10 〇必，学学，读废，学学，
+11-14 学学，动动，乐乐，学学，
+15-18 学学，学学，学学，乐乐，
+19-22 学学，必动，动必，读读，
+23-02 学必。
+</code></pre><p> 简要记录全天<a href="#valid_time">有效生活时间</a>内所做事务的时段、<a href="#Transaction_Category_事务类别">类别</a>。<br> <strong>格式</strong>：</p>
+<pre><code>07-10
+</code></pre><p> <strong>(a)</strong> 表示 7:00,8:00,9:00,10:00 等4个时间点，<br> 实指 08:00 ~ 11:00 这4个小时。</p>
+</li>
+</ol>
+<pre><code>    〇必，学学，读废，学学，
+
+**(b)** 以上的中文字，如 “必”、“乐”，指所处时间段内所处理事务的[类别](#Transaction_Category_事务类别)。
+中文逗号 “，” 分隔两个时长 1h 的时间段。
+中文字符“〇”为占位符，指在该时间段记录者还没醒。
+</code></pre><ol>
+<li><p><strong>记录细表</strong></p>
+<pre><code># Time Detail
+to_time|type|desc|duration
+0730起
+0800必 内务 阅读 .5
+0900学 交通 英语 读书 1
+
+...(略）
+
+2200必 休息 晚餐 内务 .5
+2300读 内务 听书 洗澡 思考 1
+2330学 写脚本 .5
+0000必 内务 .5
+0000睡
+</code></pre><p> 详细记录全天<a href="#valid_time">有效生活时间</a>内所做事务的时段、<a href="#Transaction_Category_事务类别">类别</a>、简要描述、时长。<br> <strong>格式</strong>：</p>
+<pre><code>2200
+</code></pre><p> <strong>(a)</strong> 每行行首处的4个数字，如“2200”，代表22:00（24小时制的时间），<br> 实指该行文字描述的事务结束时间。<br> 根据时间粒度的规则，它们都是整点（\d\d00）或半点（\d\d30）。</p>
+<pre><code>2200必 休息 晚餐 内务 .5
+2300读 内务 听书 洗澡 思考 1
+</code></pre><p> <strong>(b)</strong> 除整个记录细表的第一行与最后一行代表醒来和睡去时间点外，<br> 每行代表一个<strong>时间段</strong>，<br> 具体时间段从前一行起始处的4个数字代表的时间点开始，<br> 到当前行行首处的4个数字代表的时间点结束。<br> 上例的第二行代表的具体时段为：20:00~23:00。</p>
+<p> <strong>(c)</strong> 每行行首的4个数字后的第一个中文字，如“读”，<br> 代表该时段所处理事务的<a href="#Transaction_Category_事务类别"><strong>类别</strong></a>；<br> 接着用空格分隔的一个或多个文字串，除了最后一个数字字串，<br> 都是对该时段所处理事务的简要描述。</p>
+<p> <strong>(d)</strong> 每行结尾处的数字串，代表该时段的<strong>时间长度</strong>，单位是小时<br> 如“.5”（0.5的简写）、“1”，实指0.5小时、1小时。</p>
+</li>
+<li><p><strong>纪律表</strong></p>
+<pre><code># Discipline
+[y]早起 (0830前)
+[y]早餐
+
+[y]英语
+[y]运动
+[ ]反省
+
+...（略）
+</code></pre><p> <strong>格式</strong>：</p>
+<pre><code>[Y/N] discipline_desc
+[遵守与否] 纪律的简要描述
+</code></pre><p> 日常纪律在当日的遵守情况，以及其简要描述。</p>
+</li>
+<li><p><strong>日统计表</strong></p>
+<pre><code># Time Stat
+类，时，%
+学8.5，51.5
+动2，12.1
+读1.5，9.1
+乐2，12.1
+必2，12.1
+废0.5，3
+总16.5
+</code></pre><p> 各类事务的中文简写、当日各类事务的所用时长，及其占全天有效生活时间的百分比；<br> 最末行的“总16.5”，表示全天<a href="#valid_time">有效生活时间</a>的长度为16.5小时。</p>
+</li>
+<li><p><strong>随笔记录</strong></p>
+<pre><code># Diary
+0910
+唉，我好蠢啊！
+怎么办？
+...（略）
+
+2344
+今天很开心...
+</code></pre><p> 该部分位于日志的“统计表”后面，首行的4个数字“2344”表示该条记录撰写于当日23:44。<br> 第二行起，开始编写你想记录的内容，如日记、备忘、总结等任何内容。</p>
+<p> <em>本博客的LifeLogs经过编辑，缺省了源日志的该部分内容。</em></p>
+</li>
+<li><p><strong>周 / 月 统计表</strong><br> 周和月的时间使用情况统计日志以《<a href="/lifelogs/2015/10/time_stat.html">2015/10 stu40 spo9 was4</a>》为例。</p>
+<p> 统计属于当月的几个周 以及整月的时间使用情况：<br> <strong>(a)</strong> 一周从周一开始<br> <strong>(b)</strong> 月初和月末的这两周的各天并一定全是属于当月的日子，即某周的各日横跨了两个月：<br>  &nbsp; &nbsp; <strong>I.</strong> 该周有1~3天属于当月，则该周的时间统计归到上或下一个月的“周/月统计表”中<br>  &nbsp; &nbsp; <strong>II.</strong> 该周有4~6天属于当月，则属于该周的时间统计归到当月的“周/月统计表”中<br> <strong>(c)</strong> 月统计的时间范围从当月1日至当月最后一日，它不会像周统计那样可能会跨月进行统计！</p>
+<p>  <strong>类似于</strong> 上述 <strong>6.（每日）统计表</strong> 的格式。</p>
+<pre><code>（前 4 周略）……
+
+Week 5
+15/10/26 ~ 15/11/01
+类，时，%
+学55.5，46.8
+动10.0，8.4
+读16.0，13.5
+乐10.5，8.9
+必19.5，16.5
+废7.0，5.9
+总118.5
+
+Monthly
+2015/10
+类，时，%
+学206.0，39.9
+动47.0，9.1
+读73.5，14.2
+乐85.0，16.5
+必83.5，16.2
+废21.5，4.2
+总516.5
+</code></pre></li>
+</ol>
+<h1 id="Schedule-Plan-日程规划"><a href="#Schedule-Plan-日程规划" class="headerlink" title="Schedule Plan 日程规划"></a>Schedule Plan 日程规划</h1><p>曾经使用过不少时间管理工具和方法，在实际使用中发现这些东西仅供参考，常常不适用于特定的个人。</p>
+<p>例如，太详细的日程规划，对一般人来说不太现实，是谓：计划常常赶不上变化。<br>我一开始也不信邪，非要详细规划；可是在实践中，原计划只有三成左右能够如愿执行，效果不理想。<br>大概是因为日程定得过于详细，死板不够灵活，个人自控力又不足，不懂取舍和坚持，轻易打乱原计划…<br>于是提前规划日程成了心理安慰的行为 —— 规划时就产生了已经将日程完满执行的幻觉。</p>
+<p>所以，我还是循序渐进，慢慢提高自控力。</p>
+<h1 id="Automation-自动化"><a href="#Automation-自动化" class="headerlink" title="Automation 自动化"></a>Automation 自动化</h1><p>这些时间管理日志的源内容，都存在我的Evernote的笔记里面。</p>
+<p>上文中，除了记录细表、主要任务列表<br>其它的部分如周/月统计表、记录简表、日统计表的生成以及日志标题的修改，<br>都是通过Python和AppleScript编写的脚本完成的。</p>
+<p>这些脚本读取Evernote中的有关日志内容，根据其中的记录细表得出统计结果；<br>再根据结果补充Evernote源日志的内容。</p>
+<p>当然还有其它脚本将这些内容推送到本博客中。</p>
+<p>有关脚本详见我的<a href="https://github.com/IceHe" target="_blank" rel="external">Github</a>：</p>
+<p><strong> on macOS </strong></p>
+<ul>
+<li><a href="https://github.com/IceHe/AppleScript_for_Evernote" target="_blank" rel="external">操作 Evernote 用的 AppleScript 脚本</a></li>
+<li><a href="https://github.com/IceHe/AppleScript_for_DayLog" target="_blank" rel="external">操作时间管理日志用的 AppleScript 脚本</a></li>
+<li><a href="https://github.com/IceHe/Python_for_DayLog" target="_blank" rel="external">操作时间管理日志用的 Python 脚本</a></li>
+</ul>
+<p><strong> on Windows </strong></p>
+<ul>
+<li><a href="https://github.com/IceHe/my_scripts_on_win" target="_blank" rel="external">操作时间管理日志用的 PHP、Batch 脚本</a> <em>（已弃用）</em></li>
+</ul>
+<h1 id="About-Time-Mgt"><a href="#About-Time-Mgt" class="headerlink" title="About Time Mgt."></a>About Time Mgt.</h1><p>“我们工作是为了生活，而不是为了工作而活着。”<br>“时间管理的目的，其实还是为了更好的享受生活。”</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div><i class="fa fa-fw fa-coffee"></i> Donate</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_01.png" alt="Ice He WeChat Pay"/>
+          <p>WeChat 微信</p>
+          <!--<p>微信打赏</p>-->
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_04.png" alt="Ice He Alipay"/>
+          <p>Alipay 支付宝</p>
+          <!--<p>支付宝打赏</p>-->
+        </div>
+      
+    </div>
+  </div>
+
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/time-mgt/" rel="tag"># time mgt</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/reward/" rel="next" title="Reward Me 打赏博主">
+                <i class="fa fa-chevron-left"></i> Reward Me 打赏博主
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/web/build_blog/" rel="prev" title="Bulid Blog 搭建个人博客">
+                Bulid Blog 搭建个人博客 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+  
+
+
+    <div class="post-spread">
+      
+        <div class="ds-share flat" data-thread-key="think/time_mgt/"
+     data-title="Time Mgt 时间管理日志"
+     data-content=""
+     data-url="http://icehe.me/think/time_mgt/">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
+
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="think/time_mgt/"
+           data-title="Time Mgt 时间管理日志" data-url="http://icehe.me/think/time_mgt/">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png"
+               alt="Ice He" />
+          <p class="site-author-name" itemprop="name">Ice He</p>
+          <p class="site-description motion-element" itemprop="description">Less.</p>
+        </div>
+
+        <div class="hidden post-toc" style="max-height: 1220px; width: calc(100% + 0px);" id="popular-post-div">
+          <div class="post-toc-content">
+            <ol class="nav" id="popular-list"></ol>
+          </div>
+        </div>
+
+        <!--
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/">
+                <span class="site-state-item-count">50</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">12</span>
+                <span class="site-state-item-name">categs</span>
+              
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">13</span>
+                <span class="site-state-item-name">tags</span>
+              
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+        -->
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Principles-原则"><span class="nav-number">1.</span> <span class="nav-text">Principles 原则</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Time-Granularity-时间粒度"><span class="nav-number">2.</span> <span class="nav-text">Time Granularity 时间粒度</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Transaction-Category-事务类别"><span class="nav-number">3.</span> <span class="nav-text">Transaction Category 事务类别</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#六类事务"><span class="nav-number">3.1.</span> <span class="nav-text">六类事务</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Log-Example-日志实例"><span class="nav-number">4.</span> <span class="nav-text">Log Example 日志实例</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Schedule-Plan-日程规划"><span class="nav-number">5.</span> <span class="nav-text">Schedule Plan 日程规划</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Automation-自动化"><span class="nav-number">6.</span> <span class="nav-text">Automation 自动化</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#About-Time-Mgt"><span class="nav-number">7.</span> <span class="nav-text">About Time Mgt.</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2015 - 
+  <span itemprop="copyrightYear">2017</span>
+  <!--
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  - <span class="author" itemprop="copyrightHolder">Ice He</span>. &nbsp;All rights reserved.
+  -->
+  <span class="author" itemprop="copyrightHolder">IceHe</span>
+</div>
+
+
+
+        
+
+<div class="busuanzi-count">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+
+  
+  
+</div>
+
+
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"icehe"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5");</script>
+  <script>
+    function timeDesc(time) {
+      return time / 1000 >= 1 ? '1k +' : (
+        time / 600 >= 1 ? '600 +' : (
+          time / 300 >= 1 ? '300 +' : (
+            time / 100 >= 1 ? '100 +' : '99 -'
+          )
+        )
+      );
+    }
+
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            if (time < 300) {
+              continue;
+            }
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(timeDesc(time));
+            $(element).removeClass('hidden');
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            if ((-1 != location.href.indexOf("icehe.me")) // 在 icehe.me 的域名下
+              && (-1 == location.href.indexOf("icehe.me/notes/")) // 不在 icehe.me/notes 的域名下
+            ) {
+              counter.increment("time");
+            }
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(timeDesc(counter.get('time')));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(timeDesc(newcounter.get('time')));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    function ranking(Counter, is_post) {
+        var popular_list = $('#popular-list2');
+        var is_post = (popular_list.length == 1);
+        var count = is_post ? 20 : 10;
+        if (!is_post) {
+            // return; // Break for Simplicity!
+            popular_list = $('#popular-list');
+            if (popular_list.length == 0) {
+                return;
+            }
+            $('#popular-post-div').removeClass('hidden');
+        }
+
+        var query = new AV.Query(Counter);
+        query.descending('time');
+        query.limit(count + 10);
+
+        //var regex = new RegExp('^.*?(?<!linux).*$', 'i');
+        //query.matches('url', regex);
+
+        var excluding_list = [
+            '/about/',
+            '/bookmarks/',
+            '/reward/',
+            '/search/', /* Hidden */
+            '/index/', /* Removed */
+            '/resume/', /* Removed */
+            '/linux/[06] Linux 通过 pip 安装使用 Shadowsocks - CentOS 7/',
+            '/linux/[05] 自动挂载 NTFS 格式的 硬盘分区 - CentOS 7/',
+            '/linux/[04] 安装 CentOS 7 后必做的 安全防范措施/',
+            '/linux/[03] Update Kernel 升级内核 - CentOS 7/',
+            '/linux/[02] Config System Envir 配置系统环境 - CentOS 7/',
+            '/linux/[01] 恢复 Windows 的 开机引导 - CentOS 7/',
+            '/linux/[00] U盘安装 CentOS 7/'
+        ];
+        query.notContainedIn('url', excluding_list);
+
+        query.limit(count);
+        query.find()
+            .done(function (results) {
+                if (results.length === 0) {
+                    return;
+                }
+
+                    popular_list.append(
+                        '<li class="nav-item nav-level-1 bold" style="'
+                        + 'border-bottom-width: 1px; '
+                        + 'border-bottom-style: solid; '
+                        + 'border-bottom-color: #ccc;"> '
+                        + '<i class="fa fa-fire"></i> &nbsp;'
+                        + '<span class="nav-text"> PV </span> '
+                        + '</li>'
+                    );
+                for (var i = 0; i < results.length; ++i) {
+                    var counter = results[i];
+                    var title = counter.get("title");
+                    var time = timeDesc(counter.get('time'));
+
+                    popular_list.append(
+                        '<li class="nav-item nav-level-1" '
+                        + ((i + 1) % 10 == 0
+                            ? 'style="border-bottom-width: 1px; '
+                                + 'border-bottom-style: solid;'
+                                + 'border-bottom-color: #ccc;"'
+                            : '')
+                        + '> '
+                        + '<span class="nav-number"> '
+                        + ((i + 1) % 10) + '. &nbsp;'
+                        + '</span> '
+                        + '<a class="nav-link" href="' + counter.get("url") + '"> '
+                        + '<span class="nav-text"> ' + counter.get('title') + ' </span> '
+                        + '</a> '
+                        + '<span class="nav-number"> '
+                        + '<sup> &nbsp;' + time + ' </sup> '
+                        + '</span> '
+                        + '</li>'
+                    );
+                }
+                if (!is_post) {
+                    popular_list.append(
+                        '<li class="nav-item nav-level-1"> '
+                        //+ '<i class="fa fa-eye"></i> &nbsp;'
+                        + '+. &nbsp; '
+                        + '<a class="nav-link" href="/bookmarks"><span class="nav-text bold">More </span></a> </li>'
+                    );
+                    popular_list.append(
+                        '<li class="nav-item nav-level-1"> '
+                        + '<span class="nav-number"> &nbsp; </span> '
+                        + '<a class="nav-link" href="/bookmarks"> '
+                        + '<span class="nav-text"> &nbsp; </span></a> '
+                        + '</li>'
+                    );
+                }
+          })
+          .fail(function (object, error) {
+              console.log("Error: " + error.code + " " + error.message);
+          });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('#is_index').length == 1) {
+        showTime(Counter);
+      } else {
+        addCount(Counter);
+      }
+      // 等待 Next 开源项目的人修复
+      //if ($('.leancloud_visitors').length == 1) {
+      //  addCount(Counter);
+      //} else if ($('.post-title-link').length > 1) {
+      //  showTime(Counter);
+      //}
+      ranking(Counter);
+    });
+  </script>
+
+
+
+  
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+
+
+</body>
+</html>
