@@ -157,7 +157,7 @@
     
     <summary type="html">
     
-      2016 年 11 月至 2017 年 2 月，冬小记。
+      十一月至次年二月，冬小记。精简。
     
     </summary>
     
@@ -3956,16 +3956,17 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
     <link href="http://icehe.me/bookmarks/"/>
     <id>http://icehe.me/bookmarks/</id>
     <published>2015-12-19T16:00:00.000Z</published>
-    <updated>2016-12-31T16:00:00.000Z</updated>
+    <updated>2017-03-09T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="PV"><a href="#PV" class="headerlink" title="PV"></a>PV</h3><div class="post-toc" style="max-height: 1220px; width: calc(100% + 0px);" id="popular-post-div2"> <div class="post-toc-content"> <ol class="nav" id="popular-list2"></ol> </div> </div>
 
 <p><br>Sort by categories as follows.</p>
 <h3 id="Think"><a href="#Think" class="headerlink" title="Think"></a><a href="/categories/think">Think</a></h3><ul>
+<li><a href="/think/2016_winter">2016 Winter</a> <sup><strong>New</strong></sup></li>
 <li><a href="/think/2016_fall">2016 Fall</a></li>
 <li><a href="/think/2016_summer">2016 Summer</a></li>
 <li><a href="/think/bye2015">Bye 2015</a></li>
-<li><a href="/think/life_manual"><strong>Life Exp 生活指北</strong></a></li>
+<li><a href="/think/life_manual">Life Exp 生活指北</a></li>
 </ul>
 <h3 id="Command"><a href="#Command" class="headerlink" title="Command"></a><a href="/categories/Command">Command</a></h3><ul>
 <li><a href="/cmd/git_note">Git Note</a></li>
