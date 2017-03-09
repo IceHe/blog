@@ -1,6 +1,6 @@
 title: Navigation 博客导航
 date: 2015-12-20
-updated: 2017-01-01
+updated: 2017-03-10
 categories: [read]
 tags: [read]
 description: PV Top N 热榜、文章分类列表。
@@ -14,10 +14,11 @@ description: PV Top N 热榜、文章分类列表。
 
 ### [Think](/categories/think)
 
+- [2016 Winter](/think/2016_winter) <sup>__New__</sup>
 - [2016 Fall](/think/2016_fall)
 - [2016 Summer](/think/2016_summer)
 - [Bye 2015](/think/bye2015)
-- [__Life Exp 生活指北__](/think/life_manual)
+- [Life Exp 生活指北](/think/life_manual)
 
 ### [Command](/categories/Command)
 
