@@ -1,6 +1,6 @@
 title: Tools 利器
 date: 2015-11-21
-updated: 2017-03-12
+updated: 2017-03-13
 categories: [Mac]
 tags: [Mac]
 description: 我的 Mac Apps、电子产品推荐。
@@ -224,9 +224,8 @@ description: 我的 Mac Apps、电子产品推荐。
         欧路词典，Mac 上最好用的第三方词典。
     - [ShawdowsocksX](http://macappstore.org/shadowsocksx/) <sup>Ladder</sup>
         ShadowsocksX 是在 Mac 上配合 Shadowsock 工作的软件。
-    - [MPlayerX](http://mplayerx.org)
-    - [VLC](http://www.videolan.org/index.html)
-        视频播放软件。
+    - [IINA Player](https://lhc70000.github.io/iina/)
+        视频播放软件。比 [~~MPlayerX~~](http://mplayerx.org)、[~~VLC~~](http://www.videolan.org/index.html) 都好用！
     - [Numi](http://numi.io/) <sup>Great</sup>
         系统默认计算器的替代方案。单位换算好用啊！例如，您输入：
         ```

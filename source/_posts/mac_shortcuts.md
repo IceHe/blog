@@ -1,6 +1,6 @@
 title: Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2017-03-12
+updated: 2017-03-13
 categories: [Mac]
 tags: [Mac]
 description: 我的 macOS 快捷键列表。
@@ -415,17 +415,19 @@ e.g. If press it and then press another App shortcut, the App will launch.
     `⌥ i` iTunes
     `⌥ o` OpenEmu
     `⌥ p` Postman
+    `⌥ \` [1Password](#1Password)
 
     `⌥ ⇧ Q` [Stickes](#Stickes)
     `⌥ ⇧ W` Word
     `⌥ ⇧ E` Eject the disks
 
+    `⌥ ⇧ I` Show the local IP Address
     `⌥ ⇧ P` PowerPoint
     `⌥ ⇧ ]` Show [Bartender 2](#Bartender-2)
     `⌥ ]` Show [Bartender 2](#Bartender-2)
-    `⌥ \` [1Password](#1Password)
 
     `^ ⌥ ⇧ E` Excel
+    `^ ⌥ ⇧ I` IINA Player
 
 - asdf …
 
@@ -452,7 +454,6 @@ e.g. If press it and then press another App shortcut, the App will launch.
 - zxcv …
 
     `⌥ z` [Moom](#Moom) ( Arrangement )
-    `⌥ x` MPlayerX
     `⌥ c` [Charles](#Charles)
     `⌥ v` [ClipMenu](#ClipMenu) ( History Menu )
 
