@@ -1,6 +1,6 @@
 title: Tools 利器
 date: 2015-11-21
-updated: 2017-03-13
+updated: 2017-03-14
 categories: [Mac]
 tags: [Mac]
 description: 我的 Mac Apps、电子产品推荐。
@@ -200,6 +200,8 @@ description: 我的 Mac Apps、电子产品推荐。
     - [Moom](https://manytricks.com/moom/) <sup>Efficient, Best</sup>
         窗口布局软件，便捷地移动、缩放窗口，更好地利用桌面空间。
         - 有关文章：《[说说 Mac 分屏的事(2) - Moom 的10个技巧](http://zhuanlan.zhihu.com/MacTips/20258341)》
+    - [Spectacle](https://www.spectacleapp.com/)
+        后来我用 Moom 形成了固定的套路，主要用左右分屏和全屏等布局，更简洁的  就能满足了。
     - [Bartender 2](https://www.macbartender.com/) <sup>Clean Menubar</sup>
         收起或彻底隐藏毋需过多关注的菜单栏 App 图标。
     - [HyperSwitcher](https://bahoom.com/hyperswitch) <sup>Best</sup>
