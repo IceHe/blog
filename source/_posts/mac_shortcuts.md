@@ -1,6 +1,6 @@
 title: Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2017-03-13
+updated: 2017-03-14
 categories: [Mac]
 tags: [Mac]
 description: 我的 macOS 快捷键列表。
@@ -367,7 +367,7 @@ e.g. If press it and then press another App shortcut, the App will launch.
 
 - 1234 …
 
-    <!-- <code>凵 \`</code> Moom -> Arrange Windows -->
+    <!-- <code>凵 \`</code> -->
     `凵 1` [1Passord](#1Password)
     `凵 2` [2Do](#2Do)
     `凵 3` [Evernote](#Evernote)
@@ -453,18 +453,16 @@ e.g. If press it and then press another App shortcut, the App will launch.
 
 - zxcv …
 
-    `⌥ z` [Moom](#Moom) ( Arrangement )
     `⌥ c` [Charles](#Charles)
     `⌥ v` [ClipMenu](#ClipMenu) ( History Menu )
 
     `⌥ n` [Netease Music](#Netease)
-    `⌥ m` [Moom](#Moom) ( Settings )
+    `⌥ m` Sequel Pro ( MySQL )
     `⌥ ,` Console
     `⌥ /` Search in Evernote
 
     `⌥ ⇧ C` [Calendar](#Calendar)
     `⌥ ⇧ V` [ClipMenu](#ClipMenu) ( Main Menu )
-    `⌥ ⇧ M` Sequel Pro ( MySQL )
 
     `^ ⌥ ⇧ V` Sina VPN
 
@@ -475,8 +473,6 @@ e.g. If press it and then press another App shortcut, the App will launch.
     `Fn w` Toggle Wifi
 
 - asdf …
-
-    `Fn a` `Fn s` `Fn d` `Fn f` Used for Moom
 
     `Fn h` ←
     `Fn j` ↓
@@ -802,42 +798,24 @@ __`⌥ ]` Show All Status Icons in Menu Bar__
 `⌥ v` History Menu
 `⌥ .` Main Menu
 
-### [Moom](https://manytricks.com/moom/)
+### [Spectable](https://www.spectacleapp.com/)
 
-`凵 z` Activate
+Resize the window & mv it to …
 
-- After `凵 z` , then input:
+`⌥ z` Undo
+`⌥ y` Redo
 
-    `⌘ ↑` | `⌘ ↓` Mv the window to the prev | next display
+`Fn d` Lf Half | More Than Half
+`Fn f` Rg Half | More Than Half
+`Fn g` Fit to Desktop
+`Fn c` Center
 
-    - Resize the window & mv it to …
+`Fn w` Top Lf
+`Fn e` Top Rg
+`Fn r` Btm Lf
+`Fn t` Btm Rg
 
-    `凵` Fit to Desktop
-    `v` Original ( Revert )
-    `z` Arrange Windows ( to Fixd Custom Layout )
-
-    `q` Lf More Than Half
-    `w` Rg More Than Half
-    `a` Lf Half
-    `s` Rg Half
-
-    `e` Top Lf
-    `r` Top Rg
-    `d` Btm Lf
-    `f` Btm Rg
-
-    `1` Horizontal Lf
-    `2` Horizontal Mid
-    `3` Horizontal Rg
-    `4` Horizontal Mid Larger
-
-    `u` Top Lf
-    `i` Top Mid
-    `o` Top Rg
-
-    `j` Btm Lf
-    `k` Btm Mid
-    `l` Btm Rg
+`Fn s` Lf | Mid | Rg 1/3
 
 ## Development
 
