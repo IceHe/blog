@@ -802,20 +802,20 @@ __`⌥ ]` Show All Status Icons in Menu Bar__
 
 Resize the window & mv it to …
 
-`⌥ z` Undo
-`⌥ y` Redo
-
-`Fn d` Lf Half | More Than Half
-`Fn f` Rg Half | More Than Half
+`Fn d` Lf 1/2 | 3/5 | 1/3
+`Fn f` Rg 1/2 | 3/5 | 1/3
 `Fn g` Fit to Desktop
 `Fn c` Center
 
-`Fn w` Top Lf
-`Fn e` Top Rg
-`Fn r` Btm Lf
-`Fn t` Btm Rg
+`Fn w` Top Lf 1/4
+`Fn e` Top Rg 1/4
+`Fn r` Btm Lf 1/4
+`Fn t` Btm Rg 1/4
 
 `Fn s` Lf | Mid | Rg 1/3
+
+`⌥ z` Undo
+`⌥ y` Redo
 
 ## Development
 
