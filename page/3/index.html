@@ -29,6 +29,9 @@
 
 
 
+
+
+
   
   
   <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
@@ -105,7 +108,7 @@
   var CONFIG = {
     root: '/',
     scheme: 'Mist',
-    sidebar: {"display":"always"},
+    sidebar: {"display":"always","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
     fancybox: true,
     motion: true,
     duoshuo: {
@@ -138,11 +141,13 @@
   
 
 
+
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-60837823-1', 'auto');
   ga('send', 'pageview');
 </script>
@@ -165,6 +170,8 @@
 
 
 
+
+
   
   
 
@@ -174,27 +181,29 @@
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-meta ">
-  
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
 
-  <div class="custom-logo-site-title">
-    <a href="/"  class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <span class="site-title">Ice He</span>
-      <span class="logo-line-after"><i></i></span>
-    </a>
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Ice He</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">More is in vain when less will serve.</p>
+      
   </div>
-    
-      <p class="site-subtitle">More is in vain when less will serve.</p>
-    
-</div>
 
-<div class="site-nav-toggle">
-  <button>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-  </button>
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
 </div>
 
 <nav class="site-nav">
@@ -266,20 +275,17 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://icehe.me/think/time_mgt/">
+    <link itemprop="mainEntityOfPage" href="http://icehe.me/think/time_mgt/">
 
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Ice He">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Ice He">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="Ice He" src="">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Ice He">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png">
     </span>
-  </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ice He">
+    </span>
 
     
       <header class="post-header">
@@ -300,7 +306,6 @@
         
 
         <div class="post-meta">
-
           <span class="post-time">
             
               <span class="post-meta-item-icon">
@@ -361,6 +366,8 @@
 
           
 
+          
+
         </div>
       </header>
     
@@ -389,8 +396,13 @@
       
     </div>
 
+    <div>
+      
+    </div>
 
     <footer class="post-footer">
+      
+
       
 
       
@@ -417,20 +429,17 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://icehe.me/reward/">
+    <link itemprop="mainEntityOfPage" href="http://icehe.me/reward/">
 
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Ice He">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Ice He">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="Ice He" src="">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Ice He">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png">
     </span>
-  </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ice He">
+    </span>
 
     
       <header class="post-header">
@@ -451,7 +460,6 @@
         
 
         <div class="post-meta">
-
           <span class="post-time">
             
               <span class="post-meta-item-icon">
@@ -512,6 +520,8 @@
 
           
 
+          
+
         </div>
       </header>
     
@@ -540,8 +550,13 @@
       
     </div>
 
+    <div>
+      
+    </div>
 
     <footer class="post-footer">
+      
+
       
 
       
@@ -568,20 +583,17 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://icehe.me/web/donate/">
+    <link itemprop="mainEntityOfPage" href="http://icehe.me/web/donate/">
 
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Ice He">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Ice He">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="Ice He" src="">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Ice He">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png">
     </span>
-  </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ice He">
+    </span>
 
     
       <header class="post-header">
@@ -602,7 +614,6 @@
         
 
         <div class="post-meta">
-
           <span class="post-time">
             
               <span class="post-meta-item-icon">
@@ -663,6 +674,8 @@
 
           
 
+          
+
         </div>
       </header>
     
@@ -691,8 +704,13 @@
       
     </div>
 
+    <div>
+      
+    </div>
 
     <footer class="post-footer">
+      
+
       
 
       
@@ -719,20 +737,17 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://icehe.me/asm/Assembly Language - Note 15/">
+    <link itemprop="mainEntityOfPage" href="http://icehe.me/asm/Assembly Language - Note 15/">
 
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Ice He">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Ice He">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="Ice He" src="">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Ice He">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png">
     </span>
-  </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ice He">
+    </span>
 
     
       <header class="post-header">
@@ -753,7 +768,6 @@
         
 
         <div class="post-meta">
-
           <span class="post-time">
             
               <span class="post-meta-item-icon">
@@ -814,6 +828,8 @@
 
           
 
+          
+
         </div>
       </header>
     
@@ -842,8 +858,13 @@
       
     </div>
 
+    <div>
+      
+    </div>
 
     <footer class="post-footer">
+      
+
       
 
       
@@ -870,20 +891,17 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://icehe.me/asm/Assembly Language - Note 14/">
+    <link itemprop="mainEntityOfPage" href="http://icehe.me/asm/Assembly Language - Note 14/">
 
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Ice He">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Ice He">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="Ice He" src="">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Ice He">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png">
     </span>
-  </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ice He">
+    </span>
 
     
       <header class="post-header">
@@ -904,7 +922,6 @@
         
 
         <div class="post-meta">
-
           <span class="post-time">
             
               <span class="post-meta-item-icon">
@@ -965,6 +982,8 @@
 
           
 
+          
+
         </div>
       </header>
     
@@ -993,8 +1012,13 @@
       
     </div>
 
+    <div>
+      
+    </div>
 
     <footer class="post-footer">
+      
+
       
 
       
@@ -1021,20 +1045,17 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://icehe.me/asm/Assembly Language - Note 13/">
+    <link itemprop="mainEntityOfPage" href="http://icehe.me/asm/Assembly Language - Note 13/">
 
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Ice He">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Ice He">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="Ice He" src="">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Ice He">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png">
     </span>
-  </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ice He">
+    </span>
 
     
       <header class="post-header">
@@ -1055,7 +1076,6 @@
         
 
         <div class="post-meta">
-
           <span class="post-time">
             
               <span class="post-meta-item-icon">
@@ -1116,6 +1136,8 @@
 
           
 
+          
+
         </div>
       </header>
     
@@ -1144,8 +1166,13 @@
       
     </div>
 
+    <div>
+      
+    </div>
 
     <footer class="post-footer">
+      
+
       
 
       
@@ -1172,20 +1199,17 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://icehe.me/asm/Assembly Language - Note 12/">
+    <link itemprop="mainEntityOfPage" href="http://icehe.me/asm/Assembly Language - Note 12/">
 
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Ice He">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Ice He">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="Ice He" src="">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Ice He">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png">
     </span>
-  </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ice He">
+    </span>
 
     
       <header class="post-header">
@@ -1206,7 +1230,6 @@
         
 
         <div class="post-meta">
-
           <span class="post-time">
             
               <span class="post-meta-item-icon">
@@ -1267,6 +1290,8 @@
 
           
 
+          
+
         </div>
       </header>
     
@@ -1295,8 +1320,13 @@
       
     </div>
 
+    <div>
+      
+    </div>
 
     <footer class="post-footer">
+      
+
       
 
       
@@ -1323,20 +1353,17 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://icehe.me/asm/Assembly Language - Note 11/">
+    <link itemprop="mainEntityOfPage" href="http://icehe.me/asm/Assembly Language - Note 11/">
 
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Ice He">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Ice He">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="Ice He" src="">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Ice He">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png">
     </span>
-  </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ice He">
+    </span>
 
     
       <header class="post-header">
@@ -1357,7 +1384,6 @@
         
 
         <div class="post-meta">
-
           <span class="post-time">
             
               <span class="post-meta-item-icon">
@@ -1418,6 +1444,8 @@
 
           
 
+          
+
         </div>
       </header>
     
@@ -1446,8 +1474,13 @@
       
     </div>
 
+    <div>
+      
+    </div>
 
     <footer class="post-footer">
+      
+
       
 
       
@@ -1473,7 +1506,7 @@
   </nav>
 
 
-
+          
           </div>
           
 
@@ -1505,7 +1538,9 @@
                src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png"
                alt="Ice He" />
           <p class="site-author-name" itemprop="name">Ice He</p>
-          <p class="site-description motion-element" itemprop="description">Less.</p>
+           
+              <p class="site-description motion-element" itemprop="description">Less.</p>
+          
         </div>
 
         <div class="hidden post-toc" style="max-height: 1220px; width: calc(100% + 0px);" id="popular-post-div">
@@ -1516,7 +1551,7 @@
 
         <!--
         <nav class="site-state motion-element">
-        
+
           
             <div class="site-state-item site-state-posts">
               <a href="/">
@@ -1527,15 +1562,19 @@
           
 
           
+            
+            
             <div class="site-state-item site-state-categories">
-              
+              <a href="/categories/index.html">
                 <span class="site-state-item-count">12</span>
                 <span class="site-state-item-name">categs</span>
-              
+              </a>
             </div>
           
 
           
+            
+            
             <div class="site-state-item site-state-tags">
               
                 <span class="site-state-item-count">13</span>
@@ -1554,7 +1593,6 @@
             </a>
           </div>
         
-        -->
 
         <div class="links-of-author motion-element">
           
@@ -1570,6 +1608,8 @@
 
 
       </section>
+
+      
 
       
 
@@ -1616,9 +1656,13 @@
       </div>
     </footer>
 
-    <div class="back-to-top">
-      <i class="fa fa-arrow-up"></i>
-    </div>
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+    
   </div>
 
   
@@ -1638,6 +1682,7 @@
 
 
   
+
 
 
 
@@ -1701,6 +1746,10 @@
   </script>
 
   
+
+
+
+
 
 
 
@@ -1793,16 +1842,16 @@
               && (-1 == location.href.indexOf("icehe.me/notes/")) // 不在 icehe.me/notes 的域名下
             ) {
               counter.increment("time");
+              counter.save(null, {
+                success: function(counter) {
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(timeDesc(counter.get('time')));
+                },
+                error: function(counter, error) {
+                  console.log('Failed to save Visitor num, with error message: ' + error.message);
+                }
+              });
             }
-            counter.save(null, {
-              success: function(counter) {
-                var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(timeDesc(counter.get('time')));
-              },
-              error: function(counter, error) {
-                console.log('Failed to save Visitor num, with error message: ' + error.message);
-              }
-            });
           } else {
             var newcounter = new Counter();
             /* Set ACL */
@@ -1969,6 +2018,8 @@
 
   
 
+
+  
 
 </body>
 </html>

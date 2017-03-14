@@ -29,6 +29,9 @@
 
 
 
+
+
+
   
   
   <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
@@ -114,7 +117,7 @@
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/2016spring/champion_02.png">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/2016spring/champion_01.png">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/home_desk.png">
-<meta property="og:updated_time" content="2016-08-13T16:00:00.000Z">
+<meta property="og:updated_time" content="2017-03-14T16:00:00.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="My Moments 回忆">
 <meta name="twitter:description" content="Good old days. Photos &amp; Memory：执信，华工，毽球，社团，悦读，新浪微博，小时候，未来……">
@@ -127,7 +130,7 @@
   var CONFIG = {
     root: '/',
     scheme: 'Mist',
-    sidebar: {"display":"always"},
+    sidebar: {"display":"always","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
     fancybox: true,
     motion: true,
     duoshuo: {
@@ -160,11 +163,13 @@
   
 
 
+
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-60837823-1', 'auto');
   ga('send', 'pageview');
 </script>
@@ -187,6 +192,8 @@
 
 
 
+
+
   
   
 
@@ -194,27 +201,29 @@
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-meta ">
-  
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
 
-  <div class="custom-logo-site-title">
-    <a href="/"  class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <span class="site-title">Ice He</span>
-      <span class="logo-line-after"><i></i></span>
-    </a>
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Ice He</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">More is in vain when less will serve.</p>
+      
   </div>
-    
-      <p class="site-subtitle">More is in vain when less will serve.</p>
-    
-</div>
 
-<div class="site-nav-toggle">
-  <button>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-  </button>
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
 </div>
 
 <nav class="site-nav">
@@ -286,20 +295,17 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://icehe.me/moments/">
+    <link itemprop="mainEntityOfPage" href="http://icehe.me/moments/">
 
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Ice He">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Ice He">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="Ice He" src="">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Ice He">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png">
     </span>
-  </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ice He">
+    </span>
 
     
       <header class="post-header">
@@ -317,7 +323,6 @@
         
 
         <div class="post-meta">
-
           <span class="post-time">
             
               <span class="post-meta-item-icon">
@@ -328,7 +333,7 @@
               
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-06-28T00:00:00+08:00">
               
-                2016.08
+                2017.03
               
             
 
@@ -370,6 +375,8 @@
               
               <span class="leancloud-visitors-count"></span>
             </span>
+          
+
           
 
           
@@ -512,6 +519,18 @@
 <li>大四悲喜交加的求职季，难免失意。遇到一个大四前几乎一直虚度而今奋发的同学，没想到是他激励了我，而非那些被当作假想敌的牛人。</li>
 <li><a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">My Good Old Days</a> ( Old memory I wrote )</li>
 </ul>
+<h3 id="新浪-1"><a href="#新浪-1" class="headerlink" title="新浪"></a>新浪</h3><ul>
+<li>2014 年冬来北京新浪实习，北漂的生活还挺自由的。</li>
+<li>2015 年夏 7 月正式入职。至 2016 年冬，工作生活安逸闲适，长进缓慢。</li>
+<li>2016 年春至夏，临时调到「微博头条」项目组帮忙，据说做得还不错。年中黯然。</li>
+<li>2016 年夏，回到原部门。至 2017 年春，重构部门主项目。</li>
+<li>2017 年春，工作依然是重构。再一次深入思考自己想要怎样的生活和人生。</li>
+</ul>
+<h3 id="定位"><a href="#定位" class="headerlink" title="定位"></a>定位</h3><ul>
+<li>平凡得不能再平凡。曾经以为自己能够成为自己生活中的「英雄」，后来发现自己只是个「孬种」。</li>
+<li>家底薄，没钱买房，要给二老养老。看脸，勉强；看身高，三级残废。资质平庸，贪图安逸，只会嘴炮。</li>
+<li>想要看我过去的丑态，请探寻我的 <a href="http://290841032.qzone.qq.com/" target="_blank" rel="external">QQ 空间</a>；后来发生的无聊故事，见本博客的 <a href="/categories/think/">Think 系列文章</a>，以及我的 <a href="http://weibo.com/icedes" target="_blank" rel="external">微博</a> 和朋友圈（IceHooo）。</li>
+</ul>
 <h3 id="以后"><a href="#以后" class="headerlink" title="以后"></a>以后</h3><ul>
 <li>长进太慢，不知不觉，人生已过三分之一。</li>
 <li>过去的都过去了，要往前看。</li>
@@ -572,6 +591,12 @@ img.fix_height {
       
     </div>
 
+    <div>
+      
+        
+
+      
+    </div>
 
     <footer class="post-footer">
       
@@ -580,6 +605,10 @@ img.fix_height {
             <a href="/tags/whoami/" rel="tag"># whoami</a>
           
         </div>
+      
+
+      
+        
       
 
       
@@ -636,7 +665,7 @@ img.fix_height {
     </div>
   </div>
 
-
+          
           </div>
           
 
@@ -685,7 +714,9 @@ img.fix_height {
                src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png"
                alt="Ice He" />
           <p class="site-author-name" itemprop="name">Ice He</p>
-          <p class="site-description motion-element" itemprop="description">Less.</p>
+           
+              <p class="site-description motion-element" itemprop="description">Less.</p>
+          
         </div>
 
         <div class="hidden post-toc" style="max-height: 1220px; width: calc(100% + 0px);" id="popular-post-div">
@@ -696,7 +727,7 @@ img.fix_height {
 
         <!--
         <nav class="site-state motion-element">
-        
+
           
             <div class="site-state-item site-state-posts">
               <a href="/">
@@ -707,15 +738,19 @@ img.fix_height {
           
 
           
+            
+            
             <div class="site-state-item site-state-categories">
-              
+              <a href="/categories/index.html">
                 <span class="site-state-item-count">12</span>
                 <span class="site-state-item-name">categs</span>
-              
+              </a>
             </div>
           
 
           
+            
+            
             <div class="site-state-item site-state-tags">
               
                 <span class="site-state-item-count">13</span>
@@ -734,7 +769,6 @@ img.fix_height {
             </a>
           </div>
         
-        -->
 
         <div class="links-of-author motion-element">
           
@@ -761,12 +795,14 @@ img.fix_height {
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#执信"><span class="nav-number">1.</span> <span class="nav-text">执信</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#实习"><span class="nav-number">2.</span> <span class="nav-text">实习</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#华工"><span class="nav-number">3.</span> <span class="nav-text">华工</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#毽球"><span class="nav-number">3.1.</span> <span class="nav-text">毽球</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#电工"><span class="nav-number">3.2.</span> <span class="nav-text">电工</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#社团"><span class="nav-number">3.3.</span> <span class="nav-text">社团</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#多看"><span class="nav-number">3.4.</span> <span class="nav-text">多看</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#宿舍"><span class="nav-number">3.5.</span> <span class="nav-text">宿舍</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#新浪"><span class="nav-number">4.</span> <span class="nav-text">新浪</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#毽球-1"><span class="nav-number">5.</span> <span class="nav-text">毽球</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#亚军"><span class="nav-number">5.1.</span> <span class="nav-text">亚军</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#冠军"><span class="nav-number">5.2.</span> <span class="nav-text">冠军</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#家"><span class="nav-number">6.</span> <span class="nav-text">家</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文字"><span class="nav-number">7.</span> <span class="nav-text">文字</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#小学"><span class="nav-number">7.1.</span> <span class="nav-text">小学</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#初中"><span class="nav-number">7.2.</span> <span class="nav-text">初中</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#执信-1"><span class="nav-number">7.3.</span> <span class="nav-text">执信</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#华工-1"><span class="nav-number">7.4.</span> <span class="nav-text">华工</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#以后"><span class="nav-number">7.5.</span> <span class="nav-text">以后</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#执信"><span class="nav-number">1.</span> <span class="nav-text">执信</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#实习"><span class="nav-number">2.</span> <span class="nav-text">实习</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#华工"><span class="nav-number">3.</span> <span class="nav-text">华工</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#毽球"><span class="nav-number">3.1.</span> <span class="nav-text">毽球</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#电工"><span class="nav-number">3.2.</span> <span class="nav-text">电工</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#社团"><span class="nav-number">3.3.</span> <span class="nav-text">社团</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#多看"><span class="nav-number">3.4.</span> <span class="nav-text">多看</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#宿舍"><span class="nav-number">3.5.</span> <span class="nav-text">宿舍</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#新浪"><span class="nav-number">4.</span> <span class="nav-text">新浪</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#毽球-1"><span class="nav-number">5.</span> <span class="nav-text">毽球</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#亚军"><span class="nav-number">5.1.</span> <span class="nav-text">亚军</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#冠军"><span class="nav-number">5.2.</span> <span class="nav-text">冠军</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#家"><span class="nav-number">6.</span> <span class="nav-text">家</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文字"><span class="nav-number">7.</span> <span class="nav-text">文字</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#小学"><span class="nav-number">7.1.</span> <span class="nav-text">小学</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#初中"><span class="nav-number">7.2.</span> <span class="nav-text">初中</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#执信-1"><span class="nav-number">7.3.</span> <span class="nav-text">执信</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#华工-1"><span class="nav-number">7.4.</span> <span class="nav-text">华工</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#新浪-1"><span class="nav-number">7.5.</span> <span class="nav-text">新浪</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#定位"><span class="nav-number">7.6.</span> <span class="nav-text">定位</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#以后"><span class="nav-number">7.7.</span> <span class="nav-text">以后</span></a></li></ol></li></ol></div>
             
 
           </div>
         </section>
       <!--/noindex-->
+      
+
       
 
     </div>
@@ -812,9 +848,13 @@ img.fix_height {
       </div>
     </footer>
 
-    <div class="back-to-top">
-      <i class="fa fa-arrow-up"></i>
-    </div>
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+    
   </div>
 
   
@@ -834,6 +874,7 @@ img.fix_height {
 
 
   
+
 
 
 
@@ -901,6 +942,10 @@ img.fix_height {
   </script>
 
   
+
+
+
+
 
 
 
@@ -993,16 +1038,16 @@ img.fix_height {
               && (-1 == location.href.indexOf("icehe.me/notes/")) // 不在 icehe.me/notes 的域名下
             ) {
               counter.increment("time");
+              counter.save(null, {
+                success: function(counter) {
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(timeDesc(counter.get('time')));
+                },
+                error: function(counter, error) {
+                  console.log('Failed to save Visitor num, with error message: ' + error.message);
+                }
+              });
             }
-            counter.save(null, {
-              success: function(counter) {
-                var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(timeDesc(counter.get('time')));
-              },
-              error: function(counter, error) {
-                console.log('Failed to save Visitor num, with error message: ' + error.message);
-              }
-            });
           } else {
             var newcounter = new Counter();
             /* Set ACL */
@@ -1169,6 +1214,8 @@ img.fix_height {
 
   
 
+
+  
 
 </body>
 </html>
