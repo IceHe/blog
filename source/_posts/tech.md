@@ -1,10 +1,16 @@
 title: Technology Bookmarks 技术书签
 date: 2016-06-14
-updated: 2016-12-25
+updated: 2017-03-14
 categories: [read]
 tags: [read]
 description: 技术类书签：工具、文档、Wiki、技术博客…
 ---
+
+- 优秀内容很多，但人生太有限，不可尽揽。本来我还想着给碰到每一篇优秀的文章写下自己的笔记呢……
+- __人生本来就杂乱无常，「完美」只是镜花水月，就如西西弗斯的滚石。盲目接近完美追求完美，是一种徒劳和悲剧。还不如接受不完美，习惯和它共处。__-
+- 我就是一个典型的「强迫症、细节控」，我不想再这样下去了。人生太短暂了，何不及时行乐享受乐趣，或是追寻更有意义的事。
+- 记于 2017-03-14。
+
 
 ## Web
 
@@ -22,7 +28,8 @@ description: 技术类书签：工具、文档、Wiki、技术博客…
 - [Vim Cheat Sheet](http://coolshell.cn//wp-content/uploads/2011/09/vim_cheat_sheet_for_programmers_print.png) - Vim 键位操作总结图
 - [PHP Value Comparison](http://www.blueshoes.org/en/developer/php_cheat_sheet) PHP 变量比较结果参考
 - [Mac Developer Library](https://developer.apple.com/library/mac/navigation/): [AppleScript Language Guide](https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html)
-- [Object Oriented Design](http://www.cheatography.com/david/cheat-sheets/object-oriented-design/) (Cheat Sheet)
+- [Object Oriented Design](http://www.cheatography.com/david/cheat-sheets/object-oriented-design/) ( Cheat Sheet )
+- [PHP The Right Way](http://www.phptherightway.com/) <sup>_todo_</sup>
 
 ## Algorithm
 
@@ -38,6 +45,8 @@ description: 技术类书签：工具、文档、Wiki、技术博客…
 
 - [关于编程错误的思考](http://zh.lucida.me/blog/on-programming-errors-2/)
 - [编程的智慧](http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy) - 编码习惯！
+- [一些软件设计的原则](http://coolshell.cn/articles/4535.html)
+- [变量命名指南](http://blog.jobbole.com/109645/)
 - [编程命名中的7+1个提示](http://coolshell.cn/articles/1038.html)
 - [你要避免的软件开发模式](http://zhuanlan.zhihu.com/p/20744178) - 歧途
 - [从面向对象的设计模式看软件设计](http://coolshell.cn/articles/8961.html)
@@ -48,6 +57,7 @@ description: 技术类书签：工具、文档、Wiki、技术博客…
 - [编译器的工作过程](https://github.com/ruanyf/articles/blob/master/2014/2014-11-08-compiler.md) - `./configure`, `make`, `make install`
 - [What are the main differences between Vim and Emacs?](https://www.quora.com/Text-Editors-What-are-the-main-differences-between-Vim-and-Emacs) - Vim VS Emacs!
 - [有哪些老鸟程序员知道而新手不知道的小技巧？](https://www.zhihu.com/question/36426051) <sup>_temp_</sup>
+- [为什么文件名要小写？](http://www.ruanyifeng.com/blog/2017/02/filename-should-be-lowercase.html) <sup>_temp_</sup>
 
 ## Read
 
@@ -59,6 +69,7 @@ description: 技术类书签：工具、文档、Wiki、技术博客…
 - [面向对象编程的弊端是什么？](https://www.zhihu.com/question/20275578/answer/26577791)<sup>__Best__</sup>
 - [程序员博客墙](http://www.wangminli.com/blogwall/) - 优秀程序员的个人博客索引
 - [王垠的博客](http://www.yinwang.org/) - 一个很有争议的人物，但是读他的文章还是让人很有启发
+- [开源许可证都有什么区别，一般开源项目用什么许可证？](https://www.zhihu.com/question/28292322) <sup>_temp_</sup>
 - [History of G_F-W](http://www.chinagfw.org/2015/09/blog-post_8.html) - [功夫网与番羽_土啬](http://www.chinagfw.org/) <sup>__Best__</sup>
 - [China’s Great Cannon](https://citizenlab.org/2015/04/chinas-great-cannon/)
 - [“字节序”是什么？](http://blog.jobbole.com/102432/)- 大端与小端，深入浅出
@@ -74,11 +85,12 @@ description: 技术类书签：工具、文档、Wiki、技术博客…
 - [TCP/IP 协议栈及 OSI 参考模型详解](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&mid=213726432&idx=1&sn=337e2442c23c811cb96bd8315e3d4916&scene=5&srcid=09208rmQfdovBALp0y138PM3#rd)
 - [TCP/IP 协议详解内容总结](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&mid=213790057&idx=2&sn=06296c4e3b67fa227b703c6d31a23b3e&scene=5&srcid=0925aDg44vjLgZvCaRNTmrKZ#rd)
 - [高扩展性网站的50条原则](http://www.cnblogs.com/xing901022/p/4425124.html)
-- [FreeRouterV2_HandBook.pdf](https://github.com/lifetyper/FreeRouter_V2/blob/master/FreeRouterV2_HandBook.pdf)
-- [{json:api}](http://jsonapi.org/) - B/S 间的 JSON 格式数据的传输规范
+- [FreeRouterV2_HandBook.pdf](https://github.com/lifetyper/FreeRouter_V2/blob/master/FreeRouterV2_HandBook.pdf) <sup>_temp_</sup>
+- [{json:api}](http://jsonapi.org/) - B/S 间的 JSON 格式数据的传输规范 <sup>_temp_</sup>
 - [为什么全栈JavaScript经常被黑，而Java却不会被黑？](https://www.zhihu.com/question/43165251/answer/95373570)- “全栈”之路 <sup>_temp_</sup>
 <!--- [design+code (前端教程)](https://designcode.io/) <sup>_todo_</sup>-->
 <!--- [Linux TCP 队列相关参数的总结](http://blog.sina.com.cn/s/blog_e59371cc0102vg4n.html)很可能永远用不上-->
+- [PHP-FPM 不完全指南](https://www.tooto.cc/archives/193) <sup>_todo_</sup>
 
 ## Architecture
 
@@ -91,6 +103,7 @@ description: 技术类书签：工具、文档、Wiki、技术博客…
 - [端游、手游服务端常用的架构是什么样的？](https://www.zhihu.com/question/29779732)<sup>__Best__</sup>
 - [万亿级调用系统：微信序列号生成器架构设计及演变](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650992918&idx=1&sn=be5121c3c57257291a30715ef7130a90&scene=0#wechat_redirect)
 - [千万级规模高性能、高并发的网络架构经验](http://mp.weixin.qq.com/s?__biz=MjM5NDMwNjMzNA==&amp;mid=402417924&amp;idx=1&amp;sn=967ecd1fae2f9acb4356607222c94b3b&amp;scene=1&amp;srcid=1230UbcV9DsQeIqLXOuH5QUa#rd) - 微博平台架构
+- [从优化性能到应对峰值流量：微博缓存服务化的设计与实践](http://weibo.com/ttarticle/p/show?id=2309404013728432540615#_rnd1489474458983)
 - [谈谈系统设计的面试](http://zhuanlan.zhihu.com/p/20578447) - 服务端的扩容、缓存与架构升级（评论更精彩）
 - [西乔的漫画《神秘的程序员们》](http://chuansong.me/account/coderstory)- 此处推荐《[架构师成长之路](http://chuansong.me/n/802248948967)》系列：深入浅出！
 - [Service-oriented architecture](https://en.m.wikipedia.org/wiki/Service-oriented_architecture) <sup>_temp_</sup>
@@ -120,9 +133,11 @@ description: 技术类书签：工具、文档、Wiki、技术博客…
 - [知道创宇研发技能表 v3.0](http://blog.knownsec.com/Knownsec_RD_Checklist/)
 - [总结 XSS 与 CSRF 两种跨站攻击](https://blog.tonyseek.com/post/introduce-to-xss-and-csrf/)
 - [Web 安全入门](https://github.com/evilcos/papers) - 国内安全专家，[余弦](https://github.com/evilcos)
+- [我的通行你的证](http://lvwei.me/passport.html) - 帐号体系的安全 <sup>__Best__</sup>
 - [加盐密码哈希：如何正确使用](http://blog.jobbole.com/61872/) - [英文出处](https://crackstation.net/hashing-security.htm) <sup>__Best__</sup>
 - [CNNIC 干过的那些破事儿](https://program-think.blogspot.com/2010/02/about-cnnic.html) - 警告：不要在国内注册和使用 CN 域名
 - [CNNIC 证书的危害及各种清除方法](https://program-think.blogspot.com/2010/02/remove-cnnic-cert.html)
+- [矛与盾：二进制漏洞攻防思想对抗](http://www.freebuf.com/articles/system/127207.html?from=groupmessage&isappinstalled=0)
 - [关于移动端的钓鱼式攻击](http://coolshell.cn/articles/17066.html)
 
 ## Career
@@ -139,9 +154,14 @@ description: 技术类书签：工具、文档、Wiki、技术博客…
     译文：[不要自称是程序员，我十多年的 IT 职场总结](http://blog.jobbole.com/94148/)
 - [精益技术简历之道——改善技术简历的47条原则](http://zh.lucida.me/blog/lean-technical-resume/) - Google 工程师，[Lucida](http://lucida.me/)
 - [如何优雅地参加技术分享会？](https://zhuanlan.zhihu.com/p/22322885)- 听技术分享的意义 <sup>_temp_</sup>
+- [左耳朵耗子：不灌鸡汤，说真的年龄渐长，技术人的发展之路该怎么走？](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650995135&idx=1&sn=758336ff3ecbfdc239d80a11a7122344&chksm=bdbf01ec8ac888fa1c24d310bb34ca257c4ba06e3d92a1d32d05803498e10624d0c525c1cc59&mpshare=1&scene=1&srcid=1229uZN9HTY7NE6ZuPIyse2t#rd)
 
 ## IT Industry
 
+- [Hacker News](https://news.ycombinator.com/)
+- [Reddit](https://www.reddit.com/)
+<!-- - Pocket (App) -->
+<!-- - Quora ? -->
 - [碎片化信息的价值：懒惰与慰藉](http://chuansong.me/n/2848588) <sup>__Best__</sup>
 - [SteveY对Amazon和Google平台的吐槽](http://coolshell.cn/articles/5701.html) - [Steve Yegge](https://en.wikipedia.org/wiki/Steve_Yegge)。 <sup>__Best__</sup>
 - [链家全解剖：必须佩服、也必须警惕的巨无霸](http://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;mid=403155826&amp;idx=1&amp;sn=e4956bccff521a20b7f84f446de0c751&amp;scene=1&amp;srcid=1221RF2fINJ6tweWs2r4CRg9#rd) <sup>__Best__</sup>
@@ -165,6 +185,7 @@ description: 技术类书签：工具、文档、Wiki、技术博客…
     译文：[软件公司的两种管理方式](http://coolshell.cn/articles/4951.html)
     相关：[Theory X and Theory Y](https://en.wikipedia.org/wiki/Theory_X_and_Theory_Y)
 - [如何看待阿里巴巴安全部门的月饼事件？](https://www.zhihu.com/question/50600301) <sup>_temp_</sup>
+- [从第三方服务角度看公司技术部门如何正确计算投入产出比～](http://weibo.com/ttarticle/p/show?id=2309404061670841429641)
 <!--- [成功技术领导者10条经验锤炼](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=208891164&idx=1&sn=893d43e516f576917dcb99cfa421a226&scene=5&srcid=3vfJDE1cRf8X4ecZlk7h#rd) 初次看不明觉厉，再看没有感触，待观察。-->
 
 ## My Notes
@@ -174,8 +195,9 @@ description: 技术类书签：工具、文档、Wiki、技术博客…
 - [Firefox Stylish CSS - Square Tab](/tech/firefox_stylish_css.html)
 - <a href="/tech/php/PHP empty() 和 isset() 的区别.html">PHP empty() 和 isset() 的区别</a>
 - <a href="/tech/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var).html">PHP 的 var !== NULL 是否等价于 isset(var)</a>
-- [《程序员必读的职业规划书》Note](/tech/career.html)
 - [简历上的 精通、熟练、掌握、理解 英语怎么翻译？](/tech/resume_tips.html)
+- [《程序员必读的职业规划书》Note](/tech/career.html)
+- [招聘相关微博摘录](/tech/recruit.html) <sup>Great</sup>
 
 ## Last
 
