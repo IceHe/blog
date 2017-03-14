@@ -1,6 +1,6 @@
 title: Navigation 博客导航
 date: 2015-12-20
-updated: 2017-03-10
+updated: 2017-03-15
 categories: [read]
 tags: [read]
 description: PV Top N 热榜、文章分类列表。
@@ -70,14 +70,14 @@ description: PV Top N 热榜、文章分类列表。
 ### [Mac](/categories/Mac)
 
 - [__Tools 利器__](/tools) - Apps、硬件推荐
-- [__Mac Shortcuts 快捷键__](/mac_shortcuts)
+- [Mac Shortcuts 快捷键](/mac_shortcuts)
 
 ### [Read](/categories/read)
 
 - Navigation 博客导航 <sup>current page</sup>
-- [__Technology Bookmarks 技术书签__](/tech)
-- [__Reading Bookmarks 阅读书签__](/read)
-- [Favorites 喜好](/favourites)
+- [__Technology Bookmarks__ 技术书签](/tech)
+- [__Reading Bookmarks__ 阅读书签](/read)
+- [__Favorites 喜好__](/favourites)
 
 ### [Time Mgt](/categories/time-mgt)
 
@@ -91,8 +91,8 @@ description: PV Top N 热榜、文章分类列表。
 
 ### [Whoami](/categories/whoami)
 
-- [CV 简历](/about/)
-- [My Moments](/moments/)
+- [__CV 简历__](/about/)
+- [__My Moments__](/moments/)
 - [Reward Me 打赏博主](/reward)
 
 ### Indices
@@ -109,6 +109,8 @@ description: PV Top N 热榜、文章分类列表。
     - 这个博客，首先是为了__「记录、总结」__知识和见解，其次才是「分享、展示」。
         - 我当然希望有更多的访客，但是更在意这片小天地是否每一处都符合自己的心意（强迫症）。
         - 所以，我常常在完善旧文章，很少发布新文章。虽然文章少，但是一般都比较长。
+---
+
 - __撰文标准__
     - __不追赶容易过时的技术__
         - 软件技术日新月异，其中大多数不过昙花一现，很快就会被层出不穷的优秀后来者所取代。
@@ -126,3 +128,11 @@ description: PV Top N 热榜、文章分类列表。
             - 不断地记录，为的是拥有依据，不断用于思考、总结、反省、复习，积累经验，螺旋式上升，变得更理性、成熟，更了解自己，更坦诚面对自己，更少地重蹈覆辙。
         - 没错「听过很多道理，依然过不好这一生」。因为每个人都是不一样的，不同的经历、性格、观念，没有亲历过的东西，就不会有深刻的体会，自然不容易明白其中的道理，更难说践行了。「纸上得来终觉浅，绝知此事要躬行」。
     - 记于 2017-01-01
+
+---
+
+- 后记
+    - __生活本来就是一团乱麻，「完美」是镜花水月。盲目接近完美、追求完美，是一种徒劳，甚至是悲剧，就如西西弗斯的滚石。__
+    - 追求整洁、秩序、完满，还不如由它杂乱、不堪，来得省心。我就是一个典型的「强迫症、细节控」，不想再这样下去了。人生太短暂了，何不及时行乐享受乐趣，或是追寻更有意义的事。
+    - 不过，还是想留一个地方，可以跟自己一个人好好说说话。
+    - 记于 2017-03-15，生日前一天。
