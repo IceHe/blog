@@ -1,6 +1,6 @@
 title: Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2017-03-14
+updated: 2017-03-15
 categories: [Mac]
 tags: [Mac]
 description: 我的 macOS 快捷键列表。
@@ -19,6 +19,8 @@ description: 我的 macOS 快捷键列表。
 
 帕累托法则（二八法则）：先只做关键部分的改进，用更少的工具完成更多的工作，符合直觉（容易学习、习惯，不容易犯错），更加明确，循序渐进。
 
+## Explanation
+
 - Here are the Mac shortcuts:
     - the default ones that I use most frequently
     - all my custom ones.
@@ -29,8 +31,6 @@ description: 我的 macOS 快捷键列表。
     - Decrease the shortcuts about `^` control, even though they're easy to use.
     - Because my left little finger is often in pain after severely using keyboard for a while.
 - Ref: 《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》
-
-## Explanation
 
 ### Key Symbols
 
