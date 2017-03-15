@@ -393,3 +393,4 @@ Here are notes Not Mentioned Above.
 - [做事的方法](/read/how_to_do.html)
 - [毽球踩球](/read/jian_qiu.html)
 - [减肥每天需要摄入多少卡路里](/read/calorie.html)
+- [《The Power of Less》书摘](/read/power_of_less.html)
