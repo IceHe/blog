@@ -1043,13 +1043,26 @@ Only List the Useful Keys that I’m unfamiliar with.
 
 - Search & Replace
 
-    `:%s/search_str/replace_str/g` = `:g/search_str/replace_str/`
-    - Input `:` to switch to Command Mode
-    - `%` means finding each occurence of `search_str`
-    - `s` means replacing operation
-    - `g` means replacing globally
-
-    Ref: [Search and replace](http://vim.wikia.com/wiki/Search_and_replace) , [Vim 字符串替换及小技巧](http://xstarcd.github.io/wiki/vim/vim_replace_encodeing.html)
+    - `:%s/search_str/replace_str/gci`
+        - `:` switch to Command Mode
+        - `%` find __each occurence__ of `search_str`
+        - `s` replace operation
+        - `g` replace __globally__
+        - `c` ask for __confirmation__
+        - `i` __case insensitive__ , `I` case __sensitive__
+    - `:'<,'>s/foo/bar/g`
+        - `'<,'>` replace __within a visual selection__ (when compiled with +visual)
+    - `:5,12$/foo/bar/g`
+        - `5` , `12` start from line 5 to the line 12
+    - `:.,$/foo/bar/g`
+        - `.` , `$` start from the __current line__ to the __last line__
+    - `:.,+2s/foo/bar/g`
+        - `.` , `+2` start from the current line to the __next two lines__
+    - `:'a,'bs/foo/bar/g`
+        - `'a` , `'b` start from the __mark a__ to the __mark b__
+    - `:g/^baz/s/foo/bar/g`
+        - Change each 'foo' to 'bar' in __each line starting with 'baz'__
+    - Ref: [Search and replace](http://vim.wikia.com/wiki/Search_and_replace) , [Vim 字符串替换及小技巧](http://xstarcd.github.io/wiki/vim/vim_replace_encodeing.html)
 
 - Cp
 
