@@ -21,7 +21,7 @@ description: 我的 macOS 快捷键列表。
 
 ## Explanation
 
-- 《[Mac Efficiency 效率指北](/mac/efficient/)》is about what I think of the shortcuts.
+- 《[Mac Efficiency 效率指北](/mac/efficiency)》is about what I think of the shortcuts.
 - Here are the Mac shortcuts:
     - the default ones that I use most frequently
     - all my custom ones.
