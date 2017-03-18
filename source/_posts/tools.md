@@ -6,8 +6,6 @@ tags: [Mac]
 description: 我的 Mac Apps、电子产品推荐。
 ---
 
-## Intro
-
 - 主要介绍 macOS、[iOS](#iOS) 的 Apps，简要提及 [Windows](#Windows)。
 - __Principles 原则__
     - 选择工具，最重要的是「实用」，「美观」次之，「价格」不要太贵就行。
