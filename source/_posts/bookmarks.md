@@ -13,7 +13,7 @@ description: PV Top N 热榜、文章分类列表。
 ## Recent
 
 - [2016 Winter](/think/2016_winter)
-- [Mac Efficiency 效率指北](/mac/effciency)
+- [Mac Efficiency 效率指北](/mac/efficiency)
 
 ## Favorite
 
@@ -81,7 +81,7 @@ description: PV Top N 热榜、文章分类列表。
 ### [Mac](/categories/Mac)
 
 - [__Tools__ 利器](/tools) - Apps、硬件推荐
-- [Mac Efficiency 效率指北](/mac/effciency)
+- [Mac Efficiency 效率指北](/mac/efficiency)
 - [Mac Shortcuts 快捷键](/mac_shortcuts)
 
 ### [Read](/categories/read)
