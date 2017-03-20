@@ -157,7 +157,7 @@
     
     <summary type="html">
     
-      十一月至次年二月，冬小记。精简。
+      十一月至次年二月，冬小记。独立思考，刻意学习，精简，成为怎样的人，迷思，碎碎念。
     
     </summary>
     
@@ -2151,6 +2151,7 @@ img.fix_height {
 <li><a href="/read/how_to_do.html">做事的方法</a></li>
 <li><a href="/read/jian_qiu.html">毽球踩球</a></li>
 <li><a href="/read/calorie.html">减肥每天需要摄入多少卡路里</a></li>
+<li><a href="/read/power_of_less.html">《The Power of Less》书摘</a></li>
 </ul>
 ]]></content>
     
@@ -2509,12 +2510,12 @@ img.fix_height {
     <link href="http://icehe.me/cmd/git_note/"/>
     <id>http://icehe.me/cmd/git_note/</id>
     <published>2016-02-14T16:00:00.000Z</published>
-    <updated>2016-07-30T16:00:00.000Z</updated>
+    <updated>2017-03-14T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li>Omit the unusual commands at my work.</li>
 </ul>
-<h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><ul>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul>
 <li><a href="http://git-scm.com/" target="_blank" rel="external">Git SCM</a> —— Official Site</li>
 <li><a href="http://git-scm.com/book/en/v2" target="_blank" rel="external">Git Book</a> - Official Guide 细致全面（<a href="http://git-scm.com/book/zh/v2" target="_blank" rel="external">简体中文版</a>）</li>
 <li><a href="http://git-scm.com/docs" target="_blank" rel="external">Git Reference</a> - Official Docs</li>
@@ -2524,9 +2525,14 @@ img.fix_height {
 <li><a href="https://github.com/doggy8088/Learn-Git-in-30-days/" target="_blank" rel="external">30 天精通 Git 版本控管</a> - 深入理解</li>
 <li><a href="http://www.oschina.net/news/12542/git-and-svn" target="_blank" rel="external">GIT和SVN之间的五个基本区别</a> - <a href="http://boxysystems.com/index.php/5-fundamental-differences-between-git-svn/" target="_blank" rel="external">英文出处</a></li>
 </ul>
-<h1 id="Memo"><a href="#Memo" class="headerlink" title="Memo"></a>Memo</h1><p>笔者不时得用上但常忘记的指令。</p>
-<p><em>PS: HEAD 代表的是最近的一次提交。</em></p>
-<h2 id="Check-检查"><a href="#Check-检查" class="headerlink" title="Check 检查"></a>Check 检查</h2><ul>
+<h2 id="Memo"><a href="#Memo" class="headerlink" title="Memo"></a>Memo</h2><p>笔者不时得用上但常忘记的指令。<br>提要：<code>HEAD</code> 代表的是最近的一次提交（ <a href="#Refname">Refname</a> ）。</p>
+<h3 id="Frequent-频繁"><a href="#Frequent-频繁" class="headerlink" title="Frequent 频繁"></a>Frequent 频繁</h3><p>凭印象简单罗列出以下个人常用命令，仅供参考。</p>
+<p><code>git status</code><br><code>git diff</code> : <code>--cached</code> , <code>HEAD^</code> compare to the past of the past , <code>--word-diff</code><br><code>git pull</code> : <code>[remote_name:branch_name]</code><br><code>git add</code> ( <code>git rm</code> , <code>git mv</code> ) : <code>-u</code> the updated , <code>-A</code> all<br><code>git commit</code> : <code>--amend</code> fix | append , <code>-m</code> commit msg , <code>-a</code> add all<br><code>git push</code></p>
+<p><code>git stash</code> : <code>pop</code> , <code>list</code> , <code>drop [stack_id]</code> , <code>clear</code> all</p>
+<p><code>git log</code> : <code>--stat</code><br><code>git reflog</code><br><code>git reset</code> : <code>--hard</code> , <code>[commit_id]</code><br><code>git rebase</code> : <code>-i</code> , <code>--continue</code> , <code>--abort</code></p>
+<p><code>git checkout</code> : <code>[branch_name]</code> switch to , <code>[path/to/file|dir]</code> back to the past , <code>-b [branch_name]</code> new branch<br><code>git branch</code> : <code>-a</code> list all , <code>-d</code> delete | <code>-D</code> force to delete<br><code>git cherry-pick [commit_id]</code></p>
+<p><code>git remote add [name] [url]</code><br><code>git config</code> : <code>-e</code> edit , <code>--list</code></p>
+<h3 id="Check-检查"><a href="#Check-检查" class="headerlink" title="Check 检查"></a>Check 检查</h3><ul>
 <li>Commit 提交<ul>
 <li><code>git status -s</code> 查看仓库状态（以短格式）。</li>
 <li><code>git reflog</code> 最近的 Git 操作历史。</li>
@@ -2552,7 +2558,7 @@ img.fix_height {
 </ul>
 </li>
 </ul>
-<h2 id="Index-索引"><a href="#Index-索引" class="headerlink" title="Index 索引"></a>Index 索引</h2><ul>
+<h3 id="Index-索引"><a href="#Index-索引" class="headerlink" title="Index 索引"></a>Index 索引</h3><ul>
 <li><code>git add &lt;file_path&gt;</code> 将需要提交的文件加入暂存区。</li>
 <li>---</li>
 <li><code>git rm --cached &lt;file_path&gt;</code> 删除文件在 Git 中的索引，但保留原件！</li>
@@ -2561,7 +2567,7 @@ img.fix_height {
 <li><code>git commit -m &quot;commit_desc&quot;</code> 提交修改，并添加描述。</li>
 <li><code>git commit -am &quot;commit_desc&quot;</code> 自动将被修改、删除的文件（不包括未加入索引的文件）加入暂存区，并提交。</li>
 </ul>
-<h2 id="Back-反悔"><a href="#Back-反悔" class="headerlink" title="Back 反悔"></a>Back 反悔</h2><ul>
+<h3 id="Back-反悔"><a href="#Back-反悔" class="headerlink" title="Back 反悔"></a>Back 反悔</h3><ul>
 <li>File 文件<ul>
 <li><code>git checkout &lt;file_path&gt;</code> 将已被修改的文件恢复到上一次提交的状态。</li>
 <li><code>git checkout &lt;commit_id&gt; &lt;file_path&gt;</code> 将已被修改的文件恢复到指定版本的状态。</li>
@@ -2604,36 +2610,40 @@ img.fix_height {
 </ol>
 </li>
 </ul>
-<h2 id="Branch-分支"><a href="#Branch-分支" class="headerlink" title="Branch 分支"></a>Branch 分支</h2><ul>
+<h3 id="Branch-分支"><a href="#Branch-分支" class="headerlink" title="Branch 分支"></a>Branch 分支</h3><ul>
 <li><code>git branch</code> 查看分支。</li>
 <li><code>git branch &lt;branch_name&gt;</code> 新建分支。</li>
 <li>---</li>
 <li><code>git checkout -b &lt;branch_name&gt;</code> 新建分支，并切换到该分支。</li>
 <li><code>git checkout &lt;branch_name&gt;</code> 切换分支。</li>
 <li>---</li>
-<li><code>git merge &lt;branch_name&gt;</code> 将另一分支 <branch_name> 导入到当前分支。</branch_name></li>
-<li><code>git merge --squash &lt;branch_name&gt;</code> 把另一分支的所有提交合并成一个提交，并导入到当前分支。`</li>
+<li>_<code>git merge &lt;branch_name&gt;</code> 将另一分支 <branch_name> 导入到当前分支。_</branch_name></li>
+<li>_<code>git merge --squash &lt;branch_name&gt;</code> 把另一分支的所有提交合并成一个提交，并导入到当前分支。`_</li>
+<li>---</li>
+<li><code>git fetch -p</code> 删除远程不存在的分支。</li>
+<li><code>git branch --merged | egrep -v &quot;(^\*|master|dev)&quot; | xargs git branch -d</code> 删除所有已经合并到主干的本地分支 ( <a href="http://stackoverflow.com/questions/6127328/how-can-i-delete-all-git-branches-which-have-been-merged" target="_blank" rel="external">Ref</a> )</li>
 </ul>
-<h2 id="Config-配置"><a href="#Config-配置" class="headerlink" title="Config 配置"></a>Config 配置</h2><ul>
+<h3 id="Config-配置"><a href="#Config-配置" class="headerlink" title="Config 配置"></a>Config 配置</h3><ul>
 <li><code>git config user.name &quot;icehe&quot;</code> 设置用户名。</li>
 <li><code>git config user.email &quot;x@icehe.me&quot;</code> 设置邮箱。</li>
 <li>---</li>
 <li><code>git credential.helper osxkeychain</code> 长久储存密码，不用每次输入（macOS）。</li>
 <li><code>git config credential.helper store</code> 长久储存密码，不用每次输入（非 macOS）。</li>
 <li><code>git config --unset credential.helper</code> 密码更改后，重新设定。</li>
+<li>最后，还是建议为 Git 配置 SSH Keys 或 GPG Keys，提交拉取代码免登录，既安全又方便。</li>
 </ul>
-<h2 id="Pull-amp-Push"><a href="#Pull-amp-Push" class="headerlink" title="Pull &amp; Push"></a>Pull &amp; Push</h2><ul>
+<h3 id="Pull-amp-Push"><a href="#Pull-amp-Push" class="headerlink" title="Pull &amp; Push"></a>Pull &amp; Push</h3><ul>
 <li><code>git pull faraway another:master</code> 将远端 faraway 仓库的 another 分支，拉到本地 master 分支。</li>
 <li><code>git push faraway master:another</code> 从本地的 master 分支，推送到远端的 faraway 的仓库的 another 分支。</li>
 <li>---</li>
-<li><code>git config http.postBuffer 524288000</code> 当更新的内容较多时，Git 的缓存区可能不够用，可能导致 <code>git push</code> 失败，需用该指令增加缓存空间。</li>
+<li><em><code>git config http.postBuffer 524288000</code> 当更新的内容较多时，Git 的缓存区可能不够用，可能导致 <code>git push</code> 失败，需用该指令增加缓存空间。</em></li>
 </ul>
-<h2 id="Rebase-变基"><a href="#Rebase-变基" class="headerlink" title="Rebase 变基"></a>Rebase 变基</h2><ul>
+<h3 id="Rebase-变基"><a href="#Rebase-变基" class="headerlink" title="Rebase 变基"></a>Rebase 变基</h3><ul>
 <li><code>git rebase &lt;branch_name&gt;</code> 变基的操作可能会发生 “冲突” 等意外状况。</li>
 <li><code>git rebase --continue</code> 修复 “冲突” 等意外后，执行它以继续变基操作。</li>
 <li><code>git rebase --abort</code> 假如情况弄得一团糟，需要中途中止变基操作时，运行该指令。</li>
 </ul>
-<h2 id="Abbreviations"><a href="#Abbreviations" class="headerlink" title="Abbreviations"></a>Abbreviations</h2><ul>
+<h2 id="Short-Docs"><a href="#Short-Docs" class="headerlink" title="Short Docs"></a>Short Docs</h2><h3 id="Abbreviations"><a href="#Abbreviations" class="headerlink" title="Abbreviations"></a>Abbreviations</h3><ul>
 <li><code>abbr</code> abbreviation</li>
 <li><code>addr</code> address</li>
 <li><code>auto</code> automatically</li>
@@ -2662,7 +2672,7 @@ img.fix_height {
 <li><code>rm</code> remove</li>
 <li><code>var</code> variable</li>
 </ul>
-<h1 id="Short-Docs"><a href="#Short-Docs" class="headerlink" title="Short Docs"></a>Short Docs</h1><h2 id="Setup-amp-Config"><a href="#Setup-amp-Config" class="headerlink" title="Setup &amp; Config"></a>Setup &amp; Config</h2><ul>
+<h3 id="Setup-amp-Config"><a href="#Setup-amp-Config" class="headerlink" title="Setup &amp; Config"></a>Setup &amp; Config</h3><ul>
 <li><a href="http://git-scm.com/docs/git-help" target="_blank" rel="external">help</a><br>  Display help info.<ul>
 <li><code>--all</code> | <code>-a</code> All available cmds.</li>
 </ul>
@@ -2680,7 +2690,7 @@ img.fix_height {
 </ul>
 </li>
 </ul>
-<h2 id="Create-amp-Get-Proj"><a href="#Create-amp-Get-Proj" class="headerlink" title="Create &amp; Get Proj"></a>Create &amp; Get Proj</h2><ul>
+<h3 id="Create-amp-Get-Proj"><a href="#Create-amp-Get-Proj" class="headerlink" title="Create &amp; Get Proj"></a>Create &amp; Get Proj</h3><ul>
 <li><a href="http://git-scm.com/docs/git-init" target="_blank" rel="external">init</a><br>  Create an empty Git repo or reinitialize an existing one.<ul>
 <li><code>--bare</code> 创建裸仓库。裸仓库在 Git 服务器上，纯粹为了共享使用，没有 working dir，其目录一般以 .git 结尾。</li>
 </ul>
@@ -2690,13 +2700,16 @@ img.fix_height {
 </ul>
 </li>
 </ul>
-<h2 id="Snapshot"><a href="#Snapshot" class="headerlink" title="Snapshot"></a>Snapshot</h2><!--- `HEAD` The latest version of cur branch. (Need improving)-->
+<h3 id="Snapshot"><a href="#Snapshot" class="headerlink" title="Snapshot"></a>Snapshot</h3><!--- `HEAD` The latest version of cur branch. (Need improving)-->
 <ul>
-<li><a href="http://git-scm.com/docs/git-add" target="_blank" rel="external">add</a> <code>&lt;pathspec&gt;</code><br>  Add file contents to the index.<ul>
+<li><p><a href="http://git-scm.com/docs/git-add" target="_blank" rel="external">add</a> <code>&lt;pathspec&gt;</code><br>  Add file contents to the index.</p>
+<ul>
 <li><code>--all</code> | <code>-A</code></li>
+<li><code>--update</code> | <code>-u</code> <strong>Update the file modified in the working tree!</strong></li>
 </ul>
 </li>
-<li><a href="http://git-scm.com/docs/git-status" target="_blank" rel="external">status</a><br>  Show the working tree status.<ul>
+<li><p><a href="http://git-scm.com/docs/git-status" target="_blank" rel="external">status</a><br>  Show the working tree status.</p>
+<ul>
 <li><code>--short</code> | <code>-s</code> Show in short-format.</li>
 </ul>
 </li>
@@ -2729,7 +2742,7 @@ img.fix_height {
 </ul>
 </li>
 </ul>
-<h2 id="Branch-amp-Merge"><a href="#Branch-amp-Merge" class="headerlink" title="Branch &amp; Merge"></a>Branch &amp; Merge</h2><ul>
+<h3 id="Branch-amp-Merge"><a href="#Branch-amp-Merge" class="headerlink" title="Branch &amp; Merge"></a>Branch &amp; Merge</h3><ul>
 <li><a href="http://git-scm.com/docs/git-branch" target="_blank" rel="external">branch</a> <code>[&lt;option&gt;] &lt;branch_name&gt;</code><br>  List, create, or del branches.<ul>
 <li><code>--delete</code> | <code>-d</code></li>
 <li><code>--force</code> | <code>-f</code></li>
@@ -2786,9 +2799,10 @@ img.fix_height {
 </li>
 <li><a href="http://git-scm.com/docs/git-mergetool" target="_blank" rel="external">mergetool</a> …</li>
 </ul>
-<h2 id="Share-amp-Update"><a href="#Share-amp-Update" class="headerlink" title="Share &amp; Update"></a>Share &amp; Update</h2><ul>
+<h3 id="Share-amp-Update"><a href="#Share-amp-Update" class="headerlink" title="Share &amp; Update"></a>Share &amp; Update</h3><ul>
 <li><a href="http://git-scm.com/docs/git-fetch" target="_blank" rel="external">fetch</a> <code>[&lt;options&gt;] [&lt;repo&gt;]</code><br>  Download objs and refs from another repo.<ul>
 <li><code>--all</code> Fetch all remotes.</li>
+<li><code>--prune</code> | <code>-p</code> Before fetching, <strong>remove any remote-tracking references that no longer exist on the remote</strong>.</li>
 </ul>
 </li>
 <li><a href="http://git-scm.com/docs/git-pull" target="_blank" rel="external">pull</a> <code>[&lt;options&gt;] [&lt;repo&gt;]</code><br>  Fetch from and integrate with another repo or a local branch.<br>  In its default mode, <code>git pull</code> is shorthand for <code>git fetch</code> followed by <code>git merge FETCH_HEAD</code>.</li>
@@ -2805,7 +2819,7 @@ img.fix_height {
 </li>
 <li><a href="http://git-scm.com/docs/git-submodule" target="_blank" rel="external">submodule</a><br>  Initialize, update or inspect submodules.</li>
 </ul>
-<h2 id="Inspect-amp-Compare"><a href="#Inspect-amp-Compare" class="headerlink" title="Inspect &amp; Compare"></a>Inspect &amp; Compare</h2><ul>
+<h3 id="Inspect-amp-Compare"><a href="#Inspect-amp-Compare" class="headerlink" title="Inspect &amp; Compare"></a>Inspect &amp; Compare</h3><ul>
 <li><a href="http://git-scm.com/docs/git-show" target="_blank" rel="external">show</a><br>  Show various types of objs.</li>
 <li><a href="http://git-scm.com/docs/git-shortlog" target="_blank" rel="external">shortlog</a> <code>[&lt;options&gt;] [&lt;revision range&gt;] [[\--] &lt;path&gt;…]</code><br>  Summarize git log output.<ul>
 <li><code>--summary</code> | <code>-s</code> Suppress commit desc and provide a commit count summary only.</li>
@@ -2815,7 +2829,7 @@ img.fix_height {
 <li><a href="http://git-scm.com/docs/git-log" target="_blank" rel="external">log</a>, <a href="http://git-scm.com/docs/git-diff" target="_blank" rel="external">diff</a> &nbsp; <em>See above.</em></li>
 <li><a href="http://git-scm.com/docs/git-describe" target="_blank" rel="external">describe</a> …</li>
 </ul>
-<h2 id="Patch"><a href="#Patch" class="headerlink" title="Patch"></a>Patch</h2><ul>
+<h3 id="Patch"><a href="#Patch" class="headerlink" title="Patch"></a>Patch</h3><ul>
 <li><a href="http://git-scm.com/docs/git-revert" target="_blank" rel="external">revert</a> <code>&lt;commit&gt;…</code><br>  Revert some existing commits.<ul>
 <li><code>git revert --continue</code> Continue the operation in progress using the info <code>.git/sequencer</code>. Can be used to continue after resolving conflicts in a failed cherry-pick or revert.</li>
 <li><code>git revert --quit</code> Clear the sequencer state after a failed cherry-pick or revert.</li>
@@ -2843,7 +2857,7 @@ img.fix_height {
 <li><a href="http://git-scm.com/docs/git-diff" target="_blank" rel="external">diff</a> &nbsp; <em>See above.</em></li>
 <li><a href="http://git-scm.com/docs/git-apply" target="_blank" rel="external">apply</a> …</li>
 </ul>
-<h2 id="Debug"><a href="#Debug" class="headerlink" title="Debug"></a>Debug</h2><ul>
+<h3 id="Debug"><a href="#Debug" class="headerlink" title="Debug"></a>Debug</h3><ul>
 <li><a href="http://git-scm.com/docs/git-bisect" target="_blank" rel="external">bisect</a> <code>&lt;subcommand&gt; &lt;options&gt;</code><br>  Use binary search to find the commit that introduced a bug.<br>  Subcommands: <code>start</code>, <code>good</code>, <code>bad</code>, <code>reset</code> …</li>
 <li><a href="http://git-scm.com/docs/git-blame" target="_blank" rel="external">blame</a> <code>&lt;file&gt;</code><br>  Show what revision and author last modified each line of a file.<ul>
 <li><code>-b</code> Show blank SHA-1 for boundary commits. This can also be controlled via the <code>blame.blankboundary</code> config opt.</li>
@@ -2866,23 +2880,23 @@ img.fix_height {
 </ul>
 </li>
 </ul>
-<h2 id="Administration"><a href="#Administration" class="headerlink" title="Administration"></a>Administration</h2><ul>
+<h3 id="Administration"><a href="#Administration" class="headerlink" title="Administration"></a>Administration</h3><ul>
 <li><a href="http://git-scm.com/docs/git-reflog" target="_blank" rel="external">reflog</a><br>  Manage reflog info.<ul>
 <li><code>--all</code> Process the reflogs of all references.</li>
 </ul>
 </li>
 <li><a href="http://git-scm.com/docs/git-clean" target="_blank" rel="external">clean</a>, <a href="http://git-scm.com/docs/git-gc" target="_blank" rel="external">gc</a>, <a href="http://git-scm.com/docs/git-fsck" target="_blank" rel="external">fsck</a>, <a href="http://git-scm.com/docs/git-filter-branch" target="_blank" rel="external">filter-branch</a>, <a href="http://git-scm.com/docs/git-instaweb" target="_blank" rel="external">instaweb</a>, <a href="http://git-scm.com/docs/git-archive" target="_blank" rel="external">archive</a>, <a href="http://git-scm.com/docs/git-bundle" target="_blank" rel="external">bundle</a> …</li>
 </ul>
-<h2 id="Email"><a href="#Email" class="headerlink" title="Email"></a>Email</h2><ul>
+<h3 id="Email"><a href="#Email" class="headerlink" title="Email"></a>Email</h3><ul>
 <li><a href="http://git-scm.com/docs/git-am" target="_blank" rel="external">am</a>, <a href="http://git-scm.com/docs/git-apply" target="_blank" rel="external">apply</a>, <a href="http://git-scm.com/docs/git-format-patch" target="_blank" rel="external">format-patch</a>, <a href="http://git-scm.com/docs/git-send-email" target="_blank" rel="external">send-email</a>, <a href="http://git-scm.com/docs/git-request-pull" target="_blank" rel="external">request-pull</a> …</li>
 </ul>
-<h2 id="External-Systems"><a href="#External-Systems" class="headerlink" title="External Systems"></a>External Systems</h2><ul>
+<h3 id="External-Systems"><a href="#External-Systems" class="headerlink" title="External Systems"></a>External Systems</h3><ul>
 <li><a href="http://git-scm.com/docs/git-svn" target="_blank" rel="external">svn</a>, <a href="http://git-scm.com/docs/git-fast-import" target="_blank" rel="external">fast-import</a> …</li>
 </ul>
-<h2 id="Server-Admin"><a href="#Server-Admin" class="headerlink" title="Server Admin"></a>Server Admin</h2><ul>
+<h3 id="Server-Admin"><a href="#Server-Admin" class="headerlink" title="Server Admin"></a>Server Admin</h3><ul>
 <li><a href="http://git-scm.com/docs/git-daemon" target="_blank" rel="external">daemon</a>, <a href="http://git-scm.com/docs/git-update-server-info" target="_blank" rel="external">update-server-info</a> …</li>
 </ul>
-<h2 id="Plumbing-Cmds"><a href="#Plumbing-Cmds" class="headerlink" title="Plumbing Cmds"></a>Plumbing Cmds</h2><ul>
+<h3 id="Plumbing-Cmds"><a href="#Plumbing-Cmds" class="headerlink" title="Plumbing Cmds"></a>Plumbing Cmds</h3><ul>
 <li><a href="http://git-scm.com/docs/git-ls-files" target="_blank" rel="external">ls-files</a><br>  Show info about files in the index and the working tree.<ul>
 <li><code>--cached</code> | <code>-c</code> Show cached files in the output (default).</li>
 <li><code>--delete</code> | <code>-d</code> … deleted …</li>
@@ -2895,7 +2909,7 @@ img.fix_height {
 </li>
 <li><a href="http://git-scm.com/docs/git-cat-file" target="_blank" rel="external">cat-file</a>, <a href="http://git-scm.com/docs/git-commit-tree" target="_blank" rel="external">commit-tree</a>, <a href="http://git-scm.com/docs/git-count-objects" target="_blank" rel="external">count-objects</a>, <a href="http://git-scm.com/docs/git-diff-index" target="_blank" rel="external">diff-index</a>, <a href="http://git-scm.com/docs/git-for-each-ref" target="_blank" rel="external">for-each-ref</a>, <a href="http://git-scm.com/docs/git-hash-object" target="_blank" rel="external">hash-object</a>, <a href="http://git-scm.com/docs/git-merge-base" target="_blank" rel="external">merge-base</a>, <a href="http://git-scm.com/docs/git-read-tree" target="_blank" rel="external">read-tree</a>, <a href="http://git-scm.com/docs/git-rev-list" target="_blank" rel="external">rev-list</a>, <a href="http://git-scm.com/docs/git-rev-parse" target="_blank" rel="external">rev-parse</a>, <a href="http://git-scm.com/docs/git-show-ref" target="_blank" rel="external">show-ref</a>, <a href="http://git-scm.com/docs/git-symbolic-ref" target="_blank" rel="external">symbolic-ref</a>, <a href="http://git-scm.com/docs/git-update-index" target="_blank" rel="external">update-index</a>, <a href="http://git-scm.com/docs/git-update-ref" target="_blank" rel="external">update-ref</a>, <a href="http://git-scm.com/docs/git-verify-pack" target="_blank" rel="external">verify-pack</a>, <a href="http://git-scm.com/docs/git-write-tree" target="_blank" rel="external">write-tree</a> …</li>
 </ul>
-<h2 id="gitignore"><a href="#gitignore" class="headerlink" title=".gitignore"></a><a href="https://git-scm.com/docs/gitignore" target="_blank" rel="external">.gitignore</a></h2><ul>
+<h3 id="gitignore"><a href="#gitignore" class="headerlink" title=".gitignore"></a><a href="https://git-scm.com/docs/gitignore" target="_blank" rel="external">.gitignore</a></h3><ul>
 <li>A file specifies intentionally untracked files that Git should ignore. Files already tracked are not affected.</li>
 <li>Gitignore <strong>patterns</strong> from multiple <strong>sources</strong>, with the following order of precedence, from highest to lowest:<ul>
 <li>From cmd line.</li>
@@ -2914,15 +2928,15 @@ img.fix_height {
 </ul>
 </li>
 </ul>
-<h1 id="Concepts"><a href="#Concepts" class="headerlink" title="Concepts"></a>Concepts</h1><ul>
+<h2 id="Concepts"><a href="#Concepts" class="headerlink" title="Concepts"></a>Concepts</h2><ul>
 <li>Git 中的部分概念、指令的简要笔记。</li>
 </ul>
-<h2 id="Commit-ID"><a href="#Commit-ID" class="headerlink" title="Commit ID"></a><strong>Commit ID</strong></h2><ul>
+<h3 id="Commit-ID"><a href="#Commit-ID" class="headerlink" title="Commit ID"></a><strong>Commit ID</strong></h3><ul>
 <li>Git 对象 id 是透过内容进行 SHA1 哈希后的结果，所以很长。</li>
 <li>在 Git 标示 “绝对名称” 时，可以用前面几个字符代替，最少不可低于 4 个字符。</li>
 <li>也就是说 4 ~ 40 个字符长度的 “绝对名称” 都是可以用的。</li>
 </ul>
-<h2 id="Refname"><a href="#Refname" class="headerlink" title="Refname"></a><strong>Refname</strong></h2><ul>
+<h3 id="Refname"><a href="#Refname" class="headerlink" title="Refname"></a><strong>Refname</strong></h3><ul>
 <li>“参照名称” 简单来说就是 Git 对象的一个 “指针”，用来指向特定 Git 对象，所以可以把 “参照名称” 想像成 Git 对象绝对名称的别名 （Alias），用来帮助记忆。</li>
 <li><code>HEAD</code> 代表最新版本，tag 标签名称，这些都是 “参照名称”，总之就是为了让你好记而已。<br>  不过当你输入参照名称的 “简称” 时，预设 Git 会依照以下顺序搜寻适当的参照名称，<br>  只要找到对应的文件，就会立刻回传该文件内容的“对象绝对名称”：<ul>
 <li><code>.git/&lt;参照简称&gt;</code></li>
@@ -2936,7 +2950,7 @@ img.fix_height {
 <li>Git 参照名称又有区分“一般参照”与“符号参照”，两者的用途一模一样，只在于内容不太一样。</li>
 <li>“符号参照” 会指向另一个 “一般参照”，而 “一般参照” 则是指向一个 Git 物件的 “绝对名称”。</li>
 </ul>
-<h3 id="Differ-and"><a href="#Differ-and" class="headerlink" title="Differ ^ and ~"></a>Differ ^ and ~</h3><p><strong>相对名称表示法 ^ 与 ~ 的差异</strong></p>
+<h4 id="Differ-and"><a href="#Differ-and" class="headerlink" title="Differ ^ and ~"></a>Differ ^ and ~</h4><p><strong>相对名称表示法 ^ 与 ~ 的差异</strong></p>
 <ul>
 <li>关于 ~ 的意义，代表“第一个上层 commit 对象”的意思。</li>
 <li>关于 ^ 代表的意思则是“拥有多个上层 commit 对象时，要代表第几个第一代的上层对象”。</li>
@@ -2949,18 +2963,18 @@ img.fix_height {
 <li>上述概念比较抽象，透过图解更清晰易懂。</li>
 <li>如上图所示，想找到 C 这个 commit 对象的相对路径下的其它 commit 对象（上层对象），<br>  由于 C 这个 commit 对象有三个上层对象，这代表这个 commit 对象是透过合并而被建立的，<br>  那么要透过“相对名称”找到每一个路径，就必须搭配组合 ^ 与 ~ 的使用技巧，才能定位到每个想开启的版本。</li>
 </ul>
-<h2 id="File-Statuses"><a href="#File-Statuses" class="headerlink" title="File Statuses"></a><strong>File Statuses</strong></h2><ul>
+<h3 id="File-Statuses"><a href="#File-Statuses" class="headerlink" title="File Statuses"></a><strong>File Statuses</strong></h3><ul>
 <li>“索引” 的目的主要用来纪录 “有哪些文件即将要被提交到下一个 commit 版本中”。</li>
 <li>换句话说，如果你想要提交一个版本到 Git c昂哭，那么你一定要先更新索引状态，变更才会被提交出去。<br>  <code>Index</code> 索引<br>  <code>Cache</code> 缓存<br>  <code>Directory cache</code> 目录缓存<br>  <code>Current directory cache</code> 当前目录缓存<br>  <code>Staging area</code> 等待被 commit 的地方<br>  <code>Staged files</code> 等待被 commit 的文件</li>
 </ul>
 <p><img src="http://7vzp68.com1.z0.glb.clouddn.com/git%2Fgit_file_status_00.jpg" alt="Git File Statuses"></p>
 <p><code>untracked</code> 未追踪的，代表尚未被加入 Git 仓库的文件状态<br><code>unmodified</code> 未修改的，代表文件第一次被加入，或是文件内容与 HEAD 内容一致的状态<br><code>modified</code> 已修改的，代表文件已经被修改过，或是文件内容与 HEAD 内容不一致的状态<br><code>staged</code> 等待被 commit 的，代表下次执行 git commit 会将这些文件全部送入仓库</p>
-<h2 id="Objects"><a href="#Objects" class="headerlink" title="Objects"></a><strong>Objects</strong></h2><p><img src="http://7vzp68.com1.z0.glb.clouddn.com/git%2Fgit_objects_sample_00.jpg" alt="Git Objects Relationship"></p>
+<h3 id="Objects"><a href="#Objects" class="headerlink" title="Objects"></a><strong>Objects</strong></h3><p><img src="http://7vzp68.com1.z0.glb.clouddn.com/git%2Fgit_objects_sample_00.jpg" alt="Git Objects Relationship"></p>
 <ul>
 <li><strong>blob 对象</strong><br>  就是工作目录中某个文件的 “内容”，且只有内容而已，当你执行 git add 指令的同时，这些新增文件的内容就会立刻被写入成为 blob 对象，文件名则是对象内容的哈希运算结果，没有任何其它信息，像是文件时间、原本的文件名或文件的其它信息，都会储存在其它类型的对象里（也就是 tree 文件）。</li>
 <li><strong>tree 对象</strong><br>  这类文件会储存特定目录下的所有信息，包含该目录下的文件名、对应的 blob 对象名称、文件连结（symbolic link）或其他 tree 对象等等。由于 tree 对象可以包含其它 tree 物件，所以浏览 tree 对象的方式其实就跟文件系统中的“文件夹”没两样。简单来说，tree 对象这就是在特定版本下某个文件夹的快照（Snapshot）。</li>
 <li><strong>commit 对象</strong><br>  用来记录有那些 tree 对象包含在版本中，一个 commit 对象代表着 Git 的一次提交，记录着特定提交版本有哪些 tree 对象、以及版本提交的时间、纪录信息等等，通常还会记录上一层的 commit 对象名称只有第一次 commit 的版本没有上层 commit 对象名称。</li>
-<li><strong>tag 对象</strong><br>  是一个容器，通常用来关联特定一个 commit 对象（也可以关联到特定 blob、tree 对象），并额外储存一些额外的参考信息（metadata），例如: tag 名称。使用 tag 对象最常见的情况是替特定一个版本的 commit 对象标示一个易懂的名称，可能是代表某个特定发行的版本，或是拥有某个特殊意义的版本。）<h2 id="Cmd-Prompt"><a href="#Cmd-Prompt" class="headerlink" title="Cmd Prompt"></a><strong>Cmd Prompt</strong></h2></li>
+<li><strong>tag 对象</strong><br>  是一个容器，通常用来关联特定一个 commit 对象（也可以关联到特定 blob、tree 对象），并额外储存一些额外的参考信息（metadata），例如: tag 名称。使用 tag 对象最常见的情况是替特定一个版本的 commit 对象标示一个易懂的名称，可能是代表某个特定发行的版本，或是拥有某个特殊意义的版本。）<h3 id="Cmd-Prompt"><a href="#Cmd-Prompt" class="headerlink" title="Cmd Prompt"></a><strong>Cmd Prompt</strong></h3></li>
 <li>命令行提示符中，位于路径后面的 Git 相关提示：<code>[master +10 ~0 -0 !]</code><br>  <em>PS:  具体显示效果根据命令行配置而不同。</em></li>
 <li>在这段提示的地方，可以看到几个东西：<ul>
 <li><code>master</code> 代表目前工作目录是 master 分支，也是 Git 的预设分支名称。</li>
@@ -2971,7 +2985,7 @@ img.fix_height {
 </ul>
 </li>
 </ul>
-<h2 id="Reset-Mode"><a href="#Reset-Mode" class="headerlink" title="Reset Mode"></a><strong>Reset Mode</strong></h2><p>除了默认的 mixed 模式，还有 soft 和 hard 模式。欲了解受各模式影响的部分，请参照下面的表格。</p>
+<h3 id="Reset-Mode"><a href="#Reset-Mode" class="headerlink" title="Reset Mode"></a><strong>Reset Mode</strong></h3><p>除了默认的 mixed 模式，还有 soft 和 hard 模式。欲了解受各模式影响的部分，请参照下面的表格。</p>
 <table>
 <thead>
 <tr>
@@ -3007,7 +3021,7 @@ img.fix_height {
 <li>复原修改过的索引的状态（mixed）。</li>
 <li>彻底取消最近的提交（hard）。</li>
 </ul>
-<h2 id="credential-helper"><a href="#credential-helper" class="headerlink" title="credential.helper"></a><strong>credential.helper</strong></h2><ul>
+<h3 id="credential-helper"><a href="#credential-helper" class="headerlink" title="credential.helper"></a><strong>credential.helper</strong></h3><ul>
 <li>Git 拥有一个凭证系统来处理密码储存的事，避免用户总是需要重复输入密码。<ul>
 <li><code>git config credential.helper &lt;options&gt;</code></li>
 </ul>
@@ -3021,7 +3035,7 @@ img.fix_height {
 </ul>
 </li>
 </ul>
-<h2 id="Rebase-Example"><a href="#Rebase-Example" class="headerlink" title="Rebase Example"></a><strong>Rebase Example</strong></h2><p><img src="http://7vzp68.com1.z0.glb.clouddn.com/git%2Fgit_merge_result_00.png" alt="Git Merge Result"></p>
+<h3 id="Rebase-Example"><a href="#Rebase-Example" class="headerlink" title="Rebase Example"></a><strong>Rebase Example</strong></h3><p><img src="http://7vzp68.com1.z0.glb.clouddn.com/git%2Fgit_merge_result_00.png" alt="Git Merge Result"></p>
 <ul>
 <li>整合分支最容易的方法是 merge 命令。它会把两个分支的最新快照（C3 和 C4）以及二者最近的共同祖先（C2）进行三方合并，合并的结果是生成一个新的快照（并提交）。</li>
 </ul>
@@ -3051,10 +3065,10 @@ img.fix_height {
 <li>总的原则是，只对尚未推送或分享给别人的本地修改执行变基操作清理历史，从不对已推送至别处的提交执行变基操作，这样，你才能享受到两种方式（变基VS合并）带来的便利。</li>
 <li>更多的变基例子参考 <a href="http://git-scm.com/book/en/v2/Git-Branching-Rebasing" target="_blank" rel="external">Git 分支 - 变基</a>。</li>
 </ul>
-<h2 id="Hook"><a href="#Hook" class="headerlink" title="Hook"></a><a href="http://git-scm.com/book/zh/v2/%E8%87%AA%E5%AE%9A%E4%B9%89-Git-Git-%E9%92%A9%E5%AD%90" target="_blank" rel="external"><strong>Hook</strong></a></h2><ul>
+<h3 id="Hook"><a href="#Hook" class="headerlink" title="Hook"></a><a href="http://git-scm.com/book/zh/v2/%E8%87%AA%E5%AE%9A%E4%B9%89-Git-Git-%E9%92%A9%E5%AD%90" target="_blank" rel="external"><strong>Hook</strong></a></h3><ul>
 <li>钩子，暂略。</li>
 </ul>
-<h1 id="Zsh-Aliases"><a href="#Zsh-Aliases" class="headerlink" title="Zsh Aliases"></a><a href="https://github.com/IceHe/oh-my-zsh/blob/master/plugins/git/git.plugin.zsh" target="_blank" rel="external"><strong>Zsh Aliases</strong></a></h1><ul>
+<h2 id="Zsh-Aliases"><a href="#Zsh-Aliases" class="headerlink" title="Zsh Aliases"></a><a href="https://github.com/IceHe/oh-my-zsh/blob/master/plugins/git/git.plugin.zsh" target="_blank" rel="external"><strong>Zsh Aliases</strong></a></h2><ul>
 <li>All details : <a href="https://github.com/IceHe/oh-my-zsh/blob/master/plugins/git/git.plugin.zsh" target="_blank" rel="external">https://github.com/IceHe/oh-my-zsh/blob/master/plugins/git/git.plugin.zsh</a></li>
 </ul>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">alias</span> g=<span class="string">'git'</span></div><div class="line"></div><div class="line"><span class="built_in">alias</span> ga=<span class="string">'git add'</span></div><div class="line"><span class="built_in">alias</span> gaa=<span class="string">'git add --all'</span></div><div class="line"></div><div class="line"><span class="built_in">alias</span> gb=<span class="string">'git branch'</span></div><div class="line"><span class="built_in">alias</span> gba=<span class="string">'git branch -a'</span></div><div class="line"></div><div class="line"><span class="built_in">alias</span> gbl=<span class="string">'git blame -b -w'</span></div><div class="line"></div><div class="line"><span class="built_in">alias</span> gc=<span class="string">'git commit -v'</span></div><div class="line"><span class="built_in">alias</span> gc!=<span class="string">'git commit -v --amend'</span></div><div class="line"><span class="built_in">alias</span> gca!=<span class="string">'git commit -v -a --amend'</span></div><div class="line"><span class="built_in">alias</span> gcm=<span class="string">'git commit -m'</span></div><div class="line"><span class="built_in">alias</span> gcam=<span class="string">'git commit -a -m'</span></div><div class="line"></div><div class="line"><span class="built_in">alias</span> gcf=<span class="string">'git config'</span></div><div class="line"><span class="built_in">alias</span> gcfl=<span class="string">'git config -l'</span></div><div class="line"><span class="built_in">alias</span> gce=<span class="string">'git config -e'</span></div><div class="line"></div><div class="line"><span class="built_in">alias</span> gcl=<span class="string">'git clone --recursive'</span></div><div class="line"></div><div class="line"><span class="built_in">alias</span> gco=<span class="string">'git checkout'</span></div><div class="line"><span class="built_in">alias</span> gcom<span class="string">'git checkout master'</span></div><div class="line"><span class="built_in">alias</span> gcb=<span class="string">'git checkout -b'</span></div><div class="line"></div><div class="line"><span class="built_in">alias</span> gcp=<span class="string">'git cherry-pick'</span></div><div class="line"></div><div class="line"><span class="built_in">alias</span> gd=<span class="string">'git diff'</span></div><div class="line"><span class="built_in">alias</span> gdc=<span class="string">'git diff --cached'</span></div><div class="line"><span class="built_in">alias</span> gdw=<span class="string">'git diff --word-diff'</span></div><div class="line"></div><div class="line"><span class="built_in">alias</span> gg=<span class="string">'git gui citool'</span></div><div class="line"><span class="built_in">alias</span> gga=<span class="string">'git gui citool --amend'</span></div><div class="line"></div><div class="line"><span class="built_in">alias</span> ggr=<span class="string">'git grep'</span></div><div class="line"></div><div class="line"><span class="built_in">alias</span> gk=<span class="string">'\gitk --all --branches'</span></div><div class="line"><span class="built_in">alias</span> gke=<span class="string">'\gitk --all $(git log -g --pretty=format:%h)'</span></div><div class="line"></div><div class="line"><span class="built_in">alias</span> gl=<span class="string">'git pull'</span></div><div class="line"></div><div class="line"><span class="built_in">alias</span> glog=<span class="string">'git log --oneline --decorate --graph'</span></div><div class="line"></div><div class="line"><span class="built_in">alias</span> gp=<span class="string">'git push'</span></div><div class="line"></div><div class="line"><span class="built_in">alias</span> grm=<span class="string">'git remote'</span></div><div class="line"><span class="built_in">alias</span> grma=<span class="string">'git remote add'</span></div><div class="line"></div><div class="line"><span class="built_in">alias</span> gr=<span class="string">'git reset HEAD'</span></div><div class="line"><span class="built_in">alias</span> grh=<span class="string">'git reset HEAD --hard'</span></div><div class="line"></div><div class="line"><span class="built_in">alias</span> grb=<span class="string">'git rebase'</span></div><div class="line"><span class="built_in">alias</span> grba=<span class="string">'git rebase --abort'</span></div><div class="line"><span class="built_in">alias</span> grbc=<span class="string">'git rebase --continue'</span></div><div class="line"><span class="built_in">alias</span> grbi=<span class="string">'git rebase -i'</span></div><div class="line"></div><div class="line"><span class="built_in">alias</span> gs=<span class="string">'git status -sb'</span></div><div class="line"></div><div class="line"><span class="built_in">alias</span> gst=<span class="string">'git stash'</span></div><div class="line"><span class="built_in">alias</span> gsd=<span class="string">'git stash drop'</span></div><div class="line"><span class="built_in">alias</span> gsl=<span class="string">'git stash list'</span></div><div class="line"><span class="built_in">alias</span> gsp=<span class="string">'git stash pop'</span></div></pre></td></tr></table></figure>
@@ -3078,13 +3092,14 @@ img.fix_height {
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
-    <updated>2017-03-13T16:00:00.000Z</updated>
+    <updated>2017-03-17T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Keep-it-simple"><a href="#Keep-it-simple" class="headerlink" title="Keep it simple"></a>Keep it simple</h2><p>本来还想着在放弃更新之前，再最后更新一次，发布自己最新版的快捷键方案，再去宣布不再更新这篇文章。<br>可是何苦呢？假如真的下定了决心，就不要再做这种无谓的事情了。这种事是没有尽头的。</p>
 <p>没什么不好意思承认的，写这篇文章，一开始就是想炫耀自己的「与众不同」。至少表明了自己是「键盘党」，酷爱快捷键，算是一个“有个性”、“独特”的少数派。然而做这种事真的有意义吗？</p>
 <p>一个人的「特别」并不是靠如此廉价地文字标榜出来的，或是靠外在的认可，或是靠内在的实质证明的。<br>码这种文字纯属浪费时间，太具体的东西，只能作为例子，作为固化的知识，时效性太差。<br>思想真不是那么廉价的东西，转化成思想，反而有长久的指导意义。</p>
 <p>帕累托法则（二八法则）：先只做关键部分的改进，用更少的工具完成更多的工作，符合直觉（容易学习、习惯，不容易犯错），更加明确，循序渐进。</p>
-<ul>
+<h2 id="Explanation"><a href="#Explanation" class="headerlink" title="Explanation"></a>Explanation</h2><ul>
+<li>《<a href="/mac/efficiency">Mac Efficiency 效率指北</a>》is about what I think of the shortcuts.</li>
 <li>Here are the Mac shortcuts:<ul>
 <li>the default ones that I use most frequently</li>
 <li>all my custom ones.</li>
@@ -3102,7 +3117,7 @@ img.fix_height {
 </li>
 <li>Ref: 《 <a href="https://support.apple.com/zh-cn/HT201236" target="_blank" rel="external">Mac 键盘快捷键</a> 》</li>
 </ul>
-<h2 id="Explanation"><a href="#Explanation" class="headerlink" title="Explanation"></a>Explanation</h2><h3 id="Key-Symbols"><a href="#Key-Symbols" class="headerlink" title="Key Symbols"></a>Key Symbols</h3><p><code></code> Power<br><code>⌘</code> Command ( Cmd )<br><code>⌥</code> Option | Alt ( on Windows )<br><code>^</code> Control ( Ctrl )<br><code>⇧</code> Shift ( Shf )<br><code>⇪</code> CapsLock<br><code>⇥</code> Tab<br><code>⎋</code> Escape ( Esc )<br><code>↩</code> Return ( Ret ) | Enter ( on Windows )<br><code>凵</code> Space</p>
+<h3 id="Key-Symbols"><a href="#Key-Symbols" class="headerlink" title="Key Symbols"></a>Key Symbols</h3><p><code></code> Power<br><code>⌘</code> Command ( Cmd )<br><code>⌥</code> Option | Alt ( on Windows )<br><code>^</code> Control ( Ctrl )<br><code>⇧</code> Shift ( Shf )<br><code>⇪</code> CapsLock<br><code>⇥</code> Tab<br><code>⎋</code> Escape ( Esc )<br><code>↩</code> Return ( Ret ) | Enter ( on Windows )<br><code>凵</code> Space</p>
 <p><code>↑</code> Up<br><code>↓</code> Down ( Dn )<br><code>←</code> Left ( Lf )<br><code>→</code> Right ( Rg )</p>
 <p><code>⌫</code> Delete ( Del ) | Backspace ( on Windows )</p>
 <p><code>Num</code> Digits: 0 ~ 9<br><code>Letter</code> Alphabet: a ~ z</p>
@@ -3572,14 +3587,41 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 </ol>
 </li>
 <li><p>Search &amp; Replace</p>
-<p>  <code>:%s/search_str/replace_str/g</code> = <code>:g/search_str/replace_str/</code></p>
 <ul>
-<li>Input <code>:</code> to switch to Command Mode</li>
-<li><code>%</code> means finding each occurence of <code>search_str</code></li>
-<li><code>s</code> means replacing operation</li>
-<li><p><code>g</code> means replacing globally</p>
-<p>Ref: <a href="http://vim.wikia.com/wiki/Search_and_replace" target="_blank" rel="external">Search and replace</a> , <a href="http://xstarcd.github.io/wiki/vim/vim_replace_encodeing.html" target="_blank" rel="external">Vim 字符串替换及小技巧</a></p>
+<li><code>:%s/search_str/replace_str/gci</code><ul>
+<li><code>:</code> switch to Command Mode</li>
+<li><code>%</code> find <strong>each occurence</strong> of <code>search_str</code></li>
+<li><code>s</code> replace operation</li>
+<li><code>g</code> replace <strong>globally</strong></li>
+<li><code>c</code> ask for <strong>confirmation</strong></li>
+<li><code>i</code> <strong>case insensitive</strong> , <code>I</code> case <strong>sensitive</strong></li>
+</ul>
 </li>
+<li><code>:&#39;&lt;,&#39;&gt;s/foo/bar/g</code><ul>
+<li><code>&#39;&lt;,&#39;&gt;</code> replace <strong>within a visual selection</strong> (when compiled with +visual)</li>
+</ul>
+</li>
+<li><code>:5,12$/foo/bar/g</code><ul>
+<li><code>5</code> , <code>12</code> start from line 5 to the line 12</li>
+</ul>
+</li>
+<li><code>:.,$/foo/bar/g</code><ul>
+<li><code>.</code> , <code>$</code> start from the <strong>current line</strong> to the <strong>last line</strong></li>
+</ul>
+</li>
+<li><code>:.,+2s/foo/bar/g</code><ul>
+<li><code>.</code> , <code>+2</code> start from the current line to the <strong>next two lines</strong></li>
+</ul>
+</li>
+<li><code>:&#39;a,&#39;bs/foo/bar/g</code><ul>
+<li><code>&#39;a</code> , <code>&#39;b</code> start from the <strong>mark a</strong> to the <strong>mark b</strong></li>
+</ul>
+</li>
+<li><code>:g/^baz/s/foo/bar/g</code><ul>
+<li>Change each ‘foo’ to ‘bar’ in <strong>each line starting with ‘baz’</strong></li>
+</ul>
+</li>
+<li>Ref: <a href="http://vim.wikia.com/wiki/Search_and_replace" target="_blank" rel="external">Search and replace</a> , <a href="http://xstarcd.github.io/wiki/vim/vim_replace_encodeing.html" target="_blank" rel="external">Vim 字符串替换及小技巧</a></li>
 </ul>
 </li>
 <li><p>Cp</p>
@@ -3950,13 +3992,21 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
     <link href="http://icehe.me/bookmarks/"/>
     <id>http://icehe.me/bookmarks/</id>
     <published>2015-12-19T16:00:00.000Z</published>
-    <updated>2017-03-14T16:00:00.000Z</updated>
+    <updated>2017-03-17T16:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="PV"><a href="#PV" class="headerlink" title="PV"></a>PV</h3><div class="post-toc" style="max-height: 1220px; width: calc(100% + 0px);" id="popular-post-div2"> <div class="post-toc-content"> <ol class="nav" id="popular-list2"></ol> </div> </div>
+    <content type="html"><![CDATA[<h2 id="Top-20"><a href="#Top-20" class="headerlink" title="Top 20"></a>Top 20</h2><div class="post-toc" style="max-height: 1220px; width: calc(100% + 0px);" id="popular-post-div2"> <div class="post-toc-content"> <ol class="nav" id="popular-list2"></ol> </div> </div>
 
-<p><br>Sort by categories as follows.</p>
-<h3 id="Think"><a href="#Think" class="headerlink" title="Think"></a><a href="/categories/think">Think</a></h3><ul>
-<li><a href="/think/2016_winter">2016 Winter</a> <sup><strong>New</strong></sup></li>
+<h2 id="Recent"><a href="#Recent" class="headerlink" title="Recent"></a>Recent</h2><ul>
+<li><a href="/think/2016_winter">2016 Winter</a></li>
+<li><a href="/mac/efficiency">Mac Efficiency 效率指北</a></li>
+</ul>
+<h2 id="Favorite"><a href="#Favorite" class="headerlink" title="Favorite"></a>Favorite</h2><ul>
+<li><a href="/tools">Tools 利器</a> - Apps、硬件推荐</li>
+<li><a href="#C">C++</a> 系列</li>
+<li><a href="#ASM-汇编">ASM</a> 系列</li>
+</ul>
+<h2 id="Categories"><a href="#Categories" class="headerlink" title="Categories"></a>Categories</h2><h3 id="Think"><a href="#Think" class="headerlink" title="Think"></a><a href="/categories/think">Think</a></h3><ul>
+<li><a href="/think/2016_winter">2016 Winter</a></li>
 <li><a href="/think/2016_fall">2016 Fall</a></li>
 <li><a href="/think/2016_summer">2016 Summer</a></li>
 <li><a href="/think/bye2015">Bye 2015</a></li>
@@ -4004,14 +4054,15 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <li><a href="/javascript/某次js代码优化过程/">某次 JavaScript 代码优化过程</a></li>
 </ul>
 <h3 id="Mac"><a href="#Mac" class="headerlink" title="Mac"></a><a href="/categories/Mac">Mac</a></h3><ul>
-<li><a href="/tools"><strong>Tools 利器</strong></a> - Apps、硬件推荐</li>
+<li><a href="/tools"><strong>Tools</strong> 利器</a> - Apps、硬件推荐</li>
+<li><a href="/mac/efficiency">Mac Efficiency 效率指北</a></li>
 <li><a href="/mac_shortcuts">Mac Shortcuts 快捷键</a></li>
 </ul>
 <h3 id="Read"><a href="#Read" class="headerlink" title="Read"></a><a href="/categories/read">Read</a></h3><ul>
 <li>Navigation 博客导航 <sup>current page</sup></li>
 <li><a href="/tech"><strong>Technology Bookmarks</strong> 技术书签</a></li>
 <li><a href="/read"><strong>Reading Bookmarks</strong> 阅读书签</a></li>
-<li><a href="/favourites"><strong>Favorites 喜好</strong></a></li>
+<li><a href="/favourites"><strong>Favorites</strong> 喜好</a></li>
 </ul>
 <h3 id="Time-Mgt"><a href="#Time-Mgt" class="headerlink" title="Time Mgt"></a><a href="/categories/time-mgt">Time Mgt</a></h3><ul>
 <li><a href="/lifelogs">Life Logs 手帐</a></li>
@@ -4026,7 +4077,7 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <li><a href="/moments/"><strong>My Moments</strong></a></li>
 <li><a href="/reward">Reward Me 打赏博主</a></li>
 </ul>
-<h3 id="Indices"><a href="#Indices" class="headerlink" title="Indices"></a>Indices</h3><ul>
+<h2 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h2><h3 id="Default-Indices"><a href="#Default-Indices" class="headerlink" title="Default Indices"></a>Default Indices</h3><ul>
 <li><a href="/archives">Archives 归档</a> ( Sort by Time )</li>
 <li><a href="/categories">Categories 分类</a> ( Generated by the Hexo theme)</li>
 </ul>
@@ -4107,7 +4158,7 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
     <published>2015-11-20T16:00:00.000Z</published>
     <updated>2017-03-13T16:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Intro"><a href="#Intro" class="headerlink" title="Intro"></a>Intro</h2><ul>
+    <content type="html"><![CDATA[<ul>
 <li>主要介绍 macOS、<a href="#iOS">iOS</a> 的 Apps，简要提及 <a href="#Windows">Windows</a>。</li>
 <li><strong>Principles 原则</strong><ul>
 <li>选择工具，最重要的是「实用」，「美观」次之，「价格」不要太贵就行。</li>

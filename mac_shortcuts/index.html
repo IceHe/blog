@@ -97,7 +97,7 @@
 <meta property="og:url" content="http://icehe.me/mac_shortcuts/index.html">
 <meta property="og:site_name" content="Ice He">
 <meta property="og:description" content="我的 macOS 快捷键列表。">
-<meta property="og:updated_time" content="2017-03-13T16:00:00.000Z">
+<meta property="og:updated_time" content="2017-03-17T16:00:00.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Mac Shortcuts 快捷键">
 <meta name="twitter:description" content="我的 macOS 快捷键列表。">
@@ -383,7 +383,8 @@
 <p>没什么不好意思承认的，写这篇文章，一开始就是想炫耀自己的「与众不同」。至少表明了自己是「键盘党」，酷爱快捷键，算是一个“有个性”、“独特”的少数派。然而做这种事真的有意义吗？</p>
 <p>一个人的「特别」并不是靠如此廉价地文字标榜出来的，或是靠外在的认可，或是靠内在的实质证明的。<br>码这种文字纯属浪费时间，太具体的东西，只能作为例子，作为固化的知识，时效性太差。<br>思想真不是那么廉价的东西，转化成思想，反而有长久的指导意义。</p>
 <p>帕累托法则（二八法则）：先只做关键部分的改进，用更少的工具完成更多的工作，符合直觉（容易学习、习惯，不容易犯错），更加明确，循序渐进。</p>
-<ul>
+<h2 id="Explanation"><a href="#Explanation" class="headerlink" title="Explanation"></a>Explanation</h2><ul>
+<li>《<a href="/mac/efficiency">Mac Efficiency 效率指北</a>》is about what I think of the shortcuts.</li>
 <li>Here are the Mac shortcuts:<ul>
 <li>the default ones that I use most frequently</li>
 <li>all my custom ones.</li>
@@ -401,7 +402,7 @@
 </li>
 <li>Ref: 《 <a href="https://support.apple.com/zh-cn/HT201236" target="_blank" rel="external">Mac 键盘快捷键</a> 》</li>
 </ul>
-<h2 id="Explanation"><a href="#Explanation" class="headerlink" title="Explanation"></a>Explanation</h2><h3 id="Key-Symbols"><a href="#Key-Symbols" class="headerlink" title="Key Symbols"></a>Key Symbols</h3><p><code></code> Power<br><code>⌘</code> Command ( Cmd )<br><code>⌥</code> Option | Alt ( on Windows )<br><code>^</code> Control ( Ctrl )<br><code>⇧</code> Shift ( Shf )<br><code>⇪</code> CapsLock<br><code>⇥</code> Tab<br><code>⎋</code> Escape ( Esc )<br><code>↩</code> Return ( Ret ) | Enter ( on Windows )<br><code>凵</code> Space</p>
+<h3 id="Key-Symbols"><a href="#Key-Symbols" class="headerlink" title="Key Symbols"></a>Key Symbols</h3><p><code></code> Power<br><code>⌘</code> Command ( Cmd )<br><code>⌥</code> Option | Alt ( on Windows )<br><code>^</code> Control ( Ctrl )<br><code>⇧</code> Shift ( Shf )<br><code>⇪</code> CapsLock<br><code>⇥</code> Tab<br><code>⎋</code> Escape ( Esc )<br><code>↩</code> Return ( Ret ) | Enter ( on Windows )<br><code>凵</code> Space</p>
 <p><code>↑</code> Up<br><code>↓</code> Down ( Dn )<br><code>←</code> Left ( Lf )<br><code>→</code> Right ( Rg )</p>
 <p><code>⌫</code> Delete ( Del ) | Backspace ( on Windows )</p>
 <p><code>Num</code> Digits: 0 ~ 9<br><code>Letter</code> Alphabet: a ~ z</p>
@@ -871,14 +872,41 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 </ol>
 </li>
 <li><p>Search &amp; Replace</p>
-<p>  <code>:%s/search_str/replace_str/g</code> = <code>:g/search_str/replace_str/</code></p>
 <ul>
-<li>Input <code>:</code> to switch to Command Mode</li>
-<li><code>%</code> means finding each occurence of <code>search_str</code></li>
-<li><code>s</code> means replacing operation</li>
-<li><p><code>g</code> means replacing globally</p>
-<p>Ref: <a href="http://vim.wikia.com/wiki/Search_and_replace" target="_blank" rel="external">Search and replace</a> , <a href="http://xstarcd.github.io/wiki/vim/vim_replace_encodeing.html" target="_blank" rel="external">Vim 字符串替换及小技巧</a></p>
+<li><code>:%s/search_str/replace_str/gci</code><ul>
+<li><code>:</code> switch to Command Mode</li>
+<li><code>%</code> find <strong>each occurence</strong> of <code>search_str</code></li>
+<li><code>s</code> replace operation</li>
+<li><code>g</code> replace <strong>globally</strong></li>
+<li><code>c</code> ask for <strong>confirmation</strong></li>
+<li><code>i</code> <strong>case insensitive</strong> , <code>I</code> case <strong>sensitive</strong></li>
+</ul>
 </li>
+<li><code>:&#39;&lt;,&#39;&gt;s/foo/bar/g</code><ul>
+<li><code>&#39;&lt;,&#39;&gt;</code> replace <strong>within a visual selection</strong> (when compiled with +visual)</li>
+</ul>
+</li>
+<li><code>:5,12$/foo/bar/g</code><ul>
+<li><code>5</code> , <code>12</code> start from line 5 to the line 12</li>
+</ul>
+</li>
+<li><code>:.,$/foo/bar/g</code><ul>
+<li><code>.</code> , <code>$</code> start from the <strong>current line</strong> to the <strong>last line</strong></li>
+</ul>
+</li>
+<li><code>:.,+2s/foo/bar/g</code><ul>
+<li><code>.</code> , <code>+2</code> start from the current line to the <strong>next two lines</strong></li>
+</ul>
+</li>
+<li><code>:&#39;a,&#39;bs/foo/bar/g</code><ul>
+<li><code>&#39;a</code> , <code>&#39;b</code> start from the <strong>mark a</strong> to the <strong>mark b</strong></li>
+</ul>
+</li>
+<li><code>:g/^baz/s/foo/bar/g</code><ul>
+<li>Change each ‘foo’ to ‘bar’ in <strong>each line starting with ‘baz’</strong></li>
+</ul>
+</li>
+<li>Ref: <a href="http://vim.wikia.com/wiki/Search_and_replace" target="_blank" rel="external">Search and replace</a> , <a href="http://xstarcd.github.io/wiki/vim/vim_replace_encodeing.html" target="_blank" rel="external">Vim 字符串替换及小技巧</a></li>
 </ul>
 </li>
 <li><p>Cp</p>
@@ -1296,7 +1324,7 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">12</span>
+                <span class="site-state-item-count">13</span>
                 <span class="site-state-item-name">categs</span>
               </a>
             </div>
@@ -1307,7 +1335,7 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
             
             <div class="site-state-item site-state-tags">
               
-                <span class="site-state-item-count">13</span>
+                <span class="site-state-item-count">14</span>
                 <span class="site-state-item-name">tags</span>
               
             </div>
@@ -1323,6 +1351,7 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
             </a>
           </div>
         
+        -->
 
         <div class="links-of-author motion-element">
           
