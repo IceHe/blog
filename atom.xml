@@ -3299,14 +3299,19 @@ img.fix_height {
 </li>
 </ul>
 <h3 id="Layout-Fn"><a href="#Layout-Fn" class="headerlink" title="Layout Fn"></a>Layout <code>Fn</code></h3><ul>
-<li><p>qwer …</p>
-<p>  <code>Fn w</code> Toggle Wifi</p>
-</li>
-<li><p>asdf …</p>
+<li>Arrange the windows ( Frequently Used )</li>
+</ul>
+<p>Resize &amp; Move the windows as <a href="https://www.spectacleapp.com/" target="_blank" rel="external">Spectable</a> an <a href="https://manytricks.com/moom/" target="_blank" rel="external">Moom</a></p>
+<p><code>Fn d</code> Lf 1/2<br><code>Fn f</code> Rg 1/2</p>
+<p><code>Fn e</code> Lf 3/5<br><code>Fn r</code> Rg 3/5</p>
+<p><code>Fn g</code> Fit to Desktop</p>
+<p><code>Fn q</code> Top Lf 1/4<br><code>Fn w</code> Top Rg 1/4<br><code>Fn a</code> Btm Lf 1/4<br><code>Fn s</code> Btm Rg 1/4</p>
+<ul>
+<li><p>Directions</p>
 <p>  <code>Fn h</code> ←<br>  <code>Fn j</code> ↓<br>  <code>Fn k</code> ↑<br>  <code>Fn l</code> →</p>
 </li>
-<li><p>zxcv …</p>
-<p>  <code>Fn b</code> Toggle Bluetooth</p>
+<li><p>Rarely Used</p>
+<p>  <del><code>Fn w</code> Toggle Wifi</del><br>  <del><code>Fn b</code> Toggle Bluetooth</del></p>
 </li>
 </ul>
 <h3 id="Layout-⎋"><a href="#Layout-⎋" class="headerlink" title="Layout ⎋"></a>Layout <code>⎋</code></h3><ul>
@@ -3457,11 +3462,6 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <h3 id="Bartender-2"><a href="#Bartender-2" class="headerlink" title="Bartender 2"></a><a href="https://www.macbartender.com/" target="_blank" rel="external">Bartender 2</a></h3><p><strong><code>^ ⌥ ]</code> Show Bartender Bar</strong><br><strong><code>⌥ ]</code> Show All Status Icons in Menu Bar</strong></p>
 <h3 id="CheatSheet"><a href="#CheatSheet" class="headerlink" title="CheatSheet"></a><a href="https://www.mediaatelier.com/CheatSheet/" target="_blank" rel="external">CheatSheet</a></h3><p><code>Long Press ⌘</code> Activate</p>
 <h3 id="ClipMenu"><a href="#ClipMenu" class="headerlink" title="ClipMenu"></a><a href="http://www.clipmenu.com/" target="_blank" rel="external">ClipMenu</a></h3><p><code>⌥ v</code> History Menu<br><code>⌥ .</code> Main Menu</p>
-<h3 id="Spectable"><a href="#Spectable" class="headerlink" title="Spectable"></a><a href="https://www.spectacleapp.com/" target="_blank" rel="external">Spectable</a></h3><p>Resize the window &amp; mv it to …</p>
-<p><code>Fn d</code> Lf 1/2 | 3/5 | 1/3<br><code>Fn f</code> Rg 1/2 | 3/5 | 1/3<br><code>Fn g</code> Fit to Desktop<br><code>Fn c</code> Center</p>
-<p><code>Fn w</code> Top Lf 1/4<br><code>Fn e</code> Top Rg 1/4<br><code>Fn r</code> Btm Lf 1/4<br><code>Fn t</code> Btm Rg 1/4</p>
-<p><code>Fn s</code> Lf | Mid | Rg 1/3</p>
-<p><code>⌥ z</code> Undo<br><code>⌥ y</code> Redo</p>
 <h2 id="Development"><a href="#Development" class="headerlink" title="Development"></a>Development</h2><h3 id="Charles"><a href="#Charles" class="headerlink" title="Charles"></a><a href="https://www.charlesproxy.com/" target="_blank" rel="external">Charles</a></h3><ul>
 <li><p>Proxy</p>
 <p>  <code>⌘ r</code> Start | Stop Recording<br>  <strong><code>⌘ t</code> Start | Stop Throttling</strong><br>  <strong><code>⌘ k</code> Enable | Disable Breakpoints</strong></p>
