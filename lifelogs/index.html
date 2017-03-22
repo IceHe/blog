@@ -626,6 +626,7 @@
         function loadDisqus() {
           $('#disqus_switch').hide();
           $('#disqus_thread').show();
+          run_disqus_script('count.js');
           run_disqus_script('embed.js');
         }
       </script>
@@ -903,7 +904,7 @@
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
       }
 
-      run_disqus_script('count.js');
+      //run_disqus_script('count.js');
 
       
         var disqus_config = function () {

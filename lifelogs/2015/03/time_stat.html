@@ -310,6 +310,7 @@ Week 215/03/09 ~ 15/03/15类，时，%学20.5 &amp;nbsp; &amp;nbsp; 1">
         function loadDisqus() {
           $('#disqus_switch').hide();
           $('#disqus_thread').show();
+          run_disqus_script('count.js');
           run_disqus_script('embed.js');
         }
       </script>
@@ -558,7 +559,7 @@ Week 215/03/09 ~ 15/03/15类，时，%学20.5 &amp;nbsp; &amp;nbsp; 1">
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
       }
 
-      run_disqus_script('count.js');
+      //run_disqus_script('count.js');
 
       
         var disqus_config = function () {

@@ -513,6 +513,7 @@ From: http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;amp;mid=216723229&amp
         function loadDisqus() {
           $('#disqus_switch').hide();
           $('#disqus_thread').show();
+          run_disqus_script('count.js');
           run_disqus_script('embed.js');
         }
       </script>
@@ -761,7 +762,7 @@ From: http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&amp;amp;mid=216723229&amp
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
       }
 
-      run_disqus_script('count.js');
+      //run_disqus_script('count.js');
 
       
         var disqus_config = function () {

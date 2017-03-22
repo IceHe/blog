@@ -633,6 +633,7 @@ end start</div><div><br></div><div>后记：</div><div>1. 趁着对12.10小节�
         function loadDisqus() {
           $('#disqus_switch').hide();
           $('#disqus_thread').show();
+          run_disqus_script('count.js');
           run_disqus_script('embed.js');
         }
       </script>
@@ -885,7 +886,7 @@ end start</div><div><br></div><div>后记：</div><div>1. 趁着对12.10小节�
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
       }
 
-      run_disqus_script('count.js');
+      //run_disqus_script('count.js');
 
       
         var disqus_config = function () {

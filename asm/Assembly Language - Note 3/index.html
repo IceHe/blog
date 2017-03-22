@@ -477,8 +477,8 @@ end</div></div>
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/asm/Assembly Language - Note 2/" rel="next" title="ASM 汇编语言 - 2">
-                <i class="fa fa-chevron-left"></i> ASM 汇编语言 - 2
+              <a href="/asm/Assembly Language - Note 1/" rel="next" title="ASM 汇编语言 - 1">
+                <i class="fa fa-chevron-left"></i> ASM 汇编语言 - 1
               </a>
             
           </div>
@@ -558,6 +558,7 @@ end</div></div>
         function loadDisqus() {
           $('#disqus_switch').hide();
           $('#disqus_thread').show();
+          run_disqus_script('count.js');
           run_disqus_script('embed.js');
         }
       </script>
@@ -810,7 +811,7 @@ end</div></div>
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
       }
 
-      run_disqus_script('count.js');
+      //run_disqus_script('count.js');
 
       
         var disqus_config = function () {

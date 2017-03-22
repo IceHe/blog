@@ -363,6 +363,7 @@ Vim Note胡波给的帮助我排除vim疑难bug的方法：
         function loadDisqus() {
           $('#disqus_switch').hide();
           $('#disqus_thread').show();
+          run_disqus_script('count.js');
           run_disqus_script('embed.js');
         }
       </script>
@@ -611,7 +612,7 @@ Vim Note胡波给的帮助我排除vim疑难bug的方法：
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
       }
 
-      run_disqus_script('count.js');
+      //run_disqus_script('count.js');
 
       
         var disqus_config = function () {
