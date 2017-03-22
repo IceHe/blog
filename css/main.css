@@ -442,7 +442,7 @@ body {
   }
 }
 .main {
-  padding-bottom: 150px;
+  padding-bottom: 120px;
 }
 .main-inner {
   margin: 0 auto;
@@ -914,7 +914,7 @@ pre .javascript .function {
   }
 }
 .comments {
-  margin: 15px 20px 0;
+  margin: 0 20px 0;
 }
 .tag-cloud {
   text-align: center;
@@ -1799,7 +1799,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #36ffff;
+  background: #f5ff5c;
 }
 .links-of-blogroll {
   font-size: 13px;
