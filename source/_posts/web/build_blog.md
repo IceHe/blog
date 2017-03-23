@@ -1,6 +1,6 @@
 title: Bulid Blog 搭建个人博客
 date: 2015-11-14
-updated: 2017-01-02
+updated: 2017-03-24
 categories: [Web]
 tags: [Web]
 description: Why 初衷、How 过程，Hexo 建站，Theme 主题，Domain Name 域名，Bed Room 图床，Google CSE 站内搜索，404 页面，Sitemap & RSS 站点地图与订阅，Site Analysis，Page View 统计…
@@ -129,10 +129,11 @@ Hexo官网的文档和API中有theme写法的说明，
 它们一般都提供足够的定制空间。
 
 推荐：
-(1) 国内：[多说](http://duoshuo.com/)
+(1) 国内：[畅言](http://changyan.kuaizhan.com/) （可惜需要网站备案…）
 (2) 国外：[Disqus](https://disqus.com/)
+原来国内能用 ~~[多说](http://duoshuo.com/)~~ 可惜 2017 年 6 月 1 日关停了服务。
 
-具体比较麻烦，一般不推荐自己编写。
+具体评论系统搭建比较麻烦，有能用的，就不推荐自己折腾。
 
 ### __Share 分享__
 
