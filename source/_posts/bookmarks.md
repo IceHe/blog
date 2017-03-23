@@ -116,7 +116,7 @@ description: PV Top N 热榜、文章分类列表。
 
 ### Thanks
 
-- Welcome to [__IceHe.me__](https://icehe.me) ~
+- Welcome to [__IceHe.me__](http://icehe.me) ~
     - 我可以用 Evernote「记录」，但是难以「分享」；用 GitHub 可以同时做到两者，但是展示效果不佳；所以做了这个博客，顺道满足了自己对审美的追求和享受。
         - 只可惜我不懂「前端、设计」，无法更进一步，只能在他人成果的基础上修修补补，做成这个样子。
         - 所以说，比起「悦人」，这里更是 __「悦己」__ 的场所。
