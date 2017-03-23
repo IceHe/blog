@@ -10,13 +10,13 @@ description: Exp / Edu / Oth：微博移动 - 服务端研发 - PHP，华南理�
 
 - __I'm__
     - <i class="fa fa-fw fa-star"></i> Ice He / Hzy
-        <sup><i class="fa fa-paper-plane"></i> A Cantonese in Beijing</sup>
+        <sup><i class="fa fa-fw fa-paper-plane"></i> A Cantonese in Beijing</sup>
     - <i class="fa fa-fw fa-font"></i> Less. 宁静致远。
-        <sup><i class="fa fa-heart"></i> Animate , Badminton , 毽球</sup>
+        <sup><i class="fa fa-fw fa-heart"></i> Animate , Badminton , 毽球</sup>
     - <i class="fa fa-fw fa-weibo"></i> [Weibo](http://weibo.com/icedes) Mobile API
-        <sup><i class="fa fa-puzzle-piece"></i> PHP Server-side Dev</sup>
+        <sup><i class="fa fa-fw fa-puzzle-piece"></i> PHP Server-side Dev</sup>
     - <i class="fa fa-fw fa-envelope-o"></i> x#icehe.me
-        <sup><i class="fa fa-wechat"></i> IceHooo</sup>
+        <sup><i class="fa fa-fw fa-wechat"></i> IceHooo</sup>
 - __Traits__
     - <i class="fa fa-fw fa-gears"></i> [Tools](/tools/) 工具控
         <sup>Softwares & Hardwares</sup>
@@ -44,7 +44,7 @@ description: Exp / Edu / Oth：微博移动 - 服务端研发 - PHP，华南理�
 
 # Tech 技术
 
-- <i class="fa fa-fw fa-cube"></i> __Blog__ : [icehe.me](https://icehe.me)
+- <i class="fa fa-fw fa-cube"></i> __Blog__ : [icehe.me](http://icehe.me)
     <sup>Web , Thoughts , C++ …</sup>
 
 - <i class="fa fa-fw fa-github-alt"></i> __GitHub__ : [IceHe](https://github.com/IceHe)
