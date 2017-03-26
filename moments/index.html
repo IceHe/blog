@@ -1016,10 +1016,12 @@ img.fix_height {
   <script>AV.initialize("u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5");</script>
   <script>
     function timeDesc(time) {
-      return time / 1000 >= 1 ? '1k +' : (
-        time / 600 >= 1 ? '600 +' : (
-          time / 300 >= 1 ? '300 +' : (
-            time / 100 >= 1 ? '100 +' : '99 -'
+      return time / 3000 >= 1 ? '3k +' : (
+        time / 1000 >= 1 ? '1k +' : (
+          time / 600 >= 1 ? '600 +' : (
+            time / 300 >= 1 ? '300 +' : (
+              time / 100 >= 1 ? '100 +' : '99 -'
+            )
           )
         )
       );
@@ -1208,13 +1210,6 @@ img.fix_height {
                         //+ '<i class="fa fa-eye"></i> &nbsp;'
                         + '+. &nbsp; '
                         + '<a class="nav-link" href="/bookmarks"><span class="nav-text bold">More </span></a> </li>'
-                    );
-                    popular_list.append(
-                        '<li class="nav-item nav-level-1"> '
-                        + '<span class="nav-number"> &nbsp; </span> '
-                        + '<a class="nav-link" href="/bookmarks"> '
-                        + '<span class="nav-text"> &nbsp; </span></a> '
-                        + '</li>'
                     );
                 }
           })
