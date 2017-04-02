@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://icehe.me/"/>
-  <updated>2017-03-31T16:00:00.000Z</updated>
+  <updated>2017-03-08T16:00:00.000Z</updated>
   <id>http://icehe.me/</id>
   
   <author>
@@ -14,356 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>PHP 日常开发杂谈</title>
-    <link href="http://icehe.me/php/php_coding/"/>
-    <id>http://icehe.me/php/php_coding/</id>
-    <published>2017-03-31T16:00:00.000Z</published>
-    <updated>2017-03-31T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      最近部门主项目重构的过程中，工程编码的一些小结。
-    
-    </summary>
-    
-      <category term="php" scheme="http://icehe.me/categories/php/"/>
-    
-    
-      <category term="php" scheme="http://icehe.me/tags/php/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Mac Efficiency 效率指北</title>
-    <link href="http://icehe.me/mac/efficiency/"/>
-    <id>http://icehe.me/mac/efficiency/</id>
-    <published>2017-03-31T16:00:00.000Z</published>
-    <updated>2017-03-31T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<ul>
-<li>《<a href="/mac_shortcuts">Mac Shortcuts 快捷键</a>》列举了绝大多数我用的快捷键。</li>
-<li>《<a href="/tools">Tools 利器</a>》列举了我绝大多数我用的 Apps。</li>
-<li>不同于上文，本文说的是对「如何高效地使用 Mac」的个人见解和建议，仅供参考。<ul>
-<li>有部分叙述与《<a href="/tools">Tools 利器</a>》重复。</li>
-<li>本文会列举不少快捷键，但不会所有的都说。因为它们只是我为了引出想说的东西而举的例子。</li>
-<li>我一开始也是 Windows 用户，后来才用 macOS，所以本文会说到 Windows 和 macOS 之间的差异和对比。</li>
-<li>除非有额外的说明，否则默认都是 macOS 上用的快捷键。</li>
-</ul>
-</li>
-</ul>
-<h2 id="好处"><a href="#好处" class="headerlink" title="好处"></a>好处</h2><ul>
-<li>原来不习惯使用快捷键的人，和刚转到 macOS 平台用惯 Windows 快捷键的人，难免要学习、重新适应，不过这是值得的。<strong>熟悉一些基本的快捷键，操作效率就能显著提升。</strong><ul>
-<li>用上瘾之后，可能甚至恨不得连触控板都不用了（走火入魔）…… 显然我是尝试过的，感觉并不好。触控板的操作更符合直觉，几乎没有学习成本。<br>（而试图用键盘完全取代触控板的 Apps，要不学习曲线不平缓，很难适应，否则还不如直接用触控板操作来得快，而且手指的操作压力也很大，长时间敲键盘为生的人手指手腕是会痛的。）</li>
-</ul>
-</li>
-<li>先熟悉通用性强、常用的 macOS 系统快捷键。<br>  绝大多数第三方 Apps 都会遵循系统快捷键的设计逻辑和设置规律，复用大多数常用的快捷键，降低学习新 App 快捷键的成本，以便用户使用。</li>
-<li>再熟悉常用 Apps 的常用快捷键。<br>  日常使用的 Apps 一般就没几个，可以参考二八法则，只学习其中 20% 常用 Apps 的 20% 常用快捷键，就能以较低的学习成本大大提升效率。</li>
-<li>继续进阶，你可以改键盘的键位，使用增强功能的 Apps。<ul>
-<li>修改不合理（你认为的）的键盘键位。比如我也认同「大写锁定」功能不值得占据 <code>⇪</code> 这个好按的键位，中文使用者就很少输入大写字母，连问多英文使用者也会修改这个键。<ul>
-<li>可能你适应了新键位之后，你用别人的电脑或者别人用你的 Mac 都会不方便，但是你想想你是不是正常情况下 98% 都只使用自己的设备，所以这么提升效率是值得的！</li>
-</ul>
-</li>
-<li>许多 Apps 可以增强系统的功能，比如防止 Mac 睡眠、调整窗口布局、截图录屏、科学上网、隐藏菜单栏无用的图标等，总有一款能解决你的痛点。</li>
-</ul>
-</li>
-</ul>
-<h2 id="键位符号、写法说明"><a href="#键位符号、写法说明" class="headerlink" title="键位符号、写法说明"></a>键位符号、写法说明</h2><p><code></code> Power<br><code>⌘</code> Command ( Cmd ) | Window （ on Windows ）<br><code>⌥</code> Option | Alt ( on Windows )<br><code>^</code> Control ( Ctrl )<br><code>⇧</code> Shift ( Shf )<br><code>⇪</code> CapsLock 大小写切换<br><code>⇥</code> Tab<br><code>⎋</code> Escape ( Esc )<br><code>↩</code> Return ( Ret ) | Enter ( on Windows ) 回车<br><code>凵</code> Space 空格<br><code>↑</code> <code>↓</code> <code>←</code> <code>→</code> Up, Down, Left, Right 方向键<br><code>⌫</code> Delete ( Del ) | Backspace ( on Windows ) 删除/退格<br><code>Num</code> Digits: 0 ~ 9</p>
-<p><code>^ a</code> = Control + a<br><code>⎋, b</code> = 先按 <code>⎋</code> 再按 <code>b</code></p>
-<h2 id="macOS"><a href="#macOS" class="headerlink" title="macOS"></a>macOS</h2><p>Ref: 《 <a href="https://support.apple.com/zh-cn/HT201236" target="_blank" rel="external">Mac 键盘快捷键</a> 》</p>
-<h3 id="Default-默认"><a href="#Default-默认" class="headerlink" title="Default 默认"></a>Default 默认</h3><h4 id="基本的-zxcv"><a href="#基本的-zxcv" class="headerlink" title="基本的 zxcv"></a>基本的 zxcv</h4><p>剪切、复制、粘贴、撤销、重做</p>
-<ul>
-<li><strong>剪切、复制、粘贴</strong>：最高频的操作，Windows 上是 <code>^ x</code>、<code>^ c</code>、<code>^ v</code>；而 macOS 上则是 <code>⌘ x</code>、<code>⌘ c</code>、<code>⌘ v</code>。<ul>
-<li>刚从 Windows 切换到 macOS 时会不适应。习惯之后就会发现 <code>⌘</code> 在空格旁边，离大拇指很近，它相关的组合快捷键其实比 <code>^</code> 的敲起来舒服多了。</li>
-</ul>
-</li>
-<li><strong>撤销、重做</strong>：不同于 Windows 用 <code>^ y</code> 来进行「重做」（即取消 <code>^ z</code> 的撤销操作）；而 macOS 用 <code>⌘ ⇧ Z</code>。<ul>
-<li>当你 macOS 的快捷键用多了，会习惯猜测一个操作对应的快捷键组合额外加上 <code>⇧</code> 后，就能触发相反的操作。正如上文的 <code>⌘ ⇧ Z</code> 之于 <code>⌘ z</code> ，又如 <code>⌘ ⇧ ⇥</code> 之于 <code>⌘ ⇥</code>（即「正向/反向切换 Apps」）。</li>
-</ul>
-</li>
-<li><strong>启示</strong>：「<strong>相关快捷键之间存在内在的逻辑规律和关联</strong>」是个好设计。<ul>
-<li>它能促进用户对「某一操作该对应哪个快捷键组合」产生一种直觉，用户可以籍此更容易猜出想要的快捷键在哪，大大减轻记忆快捷键的负担。<ul>
-<li>比如，上述的「快捷键组合加 <code>⇧</code> 能触发反向操作」的规律。</li>
-</ul>
-</li>
-<li>还有 <strong>某操作所用的快捷键组合，通常跟该操作的英语（单词）表述有关</strong>：<ul>
-<li>比如，以上 <code>⌘ c</code> 的 <code>c</code> 即 <code>copy</code>，<code>⌘ x</code> 的 <code>x</code> 像剪刀，也能跟 <code>cut</code> 扯上关系。</li>
-<li>快捷键组合确实有这样的规律，但是也不总是这样。比如，<code>⌘ v</code> 的 <code>v</code> 跟 <code>paste</code> 就没有明显的关联。题外话：当然你仍然可以说 <code>v</code> 像插入内容的标识，或者说它暗示 <code>verbatim</code>（逐字的、一字不差的），实际上这两个说法太 afterism（后验主义）了。</li>
-<li>为什么「撤销、剪切、复制、粘贴」的快捷键对应 <code>zxcv</code> 等键位？<a href="https://www.google.com/#newwindow=1&amp;safe=active&amp;q=why+v+for+paste&amp;*" target="_blank" rel="external">最显而易见的原因</a> 是「<code>zxv</code> 离 <code>c</code> copy 很近，这些操作互有关联，适合放到一起，敲起来更方便。」</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h4 id="文本编辑"><a href="#文本编辑" class="headerlink" title="文本编辑"></a>文本编辑</h4><ul>
-<li><strong>基本</strong>：<code>⌘ b</code> 加粗、<code>⌘ i</code> 斜体、<code>⌘ u</code> 下划线，<code>⌘ =</code> / <code>⌘ -</code> 放大/缩小字体（或界面的显示）……</li>
-<li>进阶：<ul>
-<li><strong>选中</strong> 文本：（Selection）<ul>
-<li>按住 <code>⇧</code> 不放，再按 <code>↑↓←→</code> 等方向键，</li>
-</ul>
-</li>
-<li><strong>删除</strong>：<ul>
-<li><code>Fn ⌫</code> 后向删除字符，跟 <code>⌫</code> 前向删除相反。</li>
-<li><code>⌥ ⌫</code> 前向删除一个（中英）单词（或字符串），当然也有对应的 <code>Fn ⌥ ⌫</code> 后向操作。<br>  注意 macOS 对中文单词的判定并不总能合乎你的期待。</li>
-</ul>
-</li>
-<li><strong>Emacs</strong>：<br>  系统内置文本编辑控件内置部分 Emacs 式的编辑快捷键。<ul>
-<li>跳转：<code>^ a</code> 即 Windows 的 <code>Home</code>，<code>^e</code> 即 <code>End</code>。</li>
-<li>删除：<code>^ k</code> 即删除光标当前位置至行尾处的字符。</li>
-<li>方向：<code>^b</code> 即 <code>←</code>，<code>^ f</code> 即 <code>→</code> 等。</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h4 id="文件、目录"><a href="#文件、目录" class="headerlink" title="文件、目录"></a>文件、目录</h4><p>移动、删除、预览、打开、向上、查看文件属性</p>
-<ul>
-<li><strong>文件移动</strong>：在 Windows 先用 <code>^ x</code> 剪切，再用 <code>^ v</code> 粘贴；而 macOS 则先用 <code>⌘ c</code> “复制”目标文件，再在目标目录下用 <code>⌘ ⌥ v</code> “粘贴”，此时文件「移动」成功！……<ul>
-<li>如果你习惯使用 Windows 后来才转用 macOS，可能会不适应 macOS Finder（文件管理器）移动文件的思路。(只有文件移动才会这样…奇葩)</li>
-<li>解释：先用 <code>⌘ c</code> 并非一定表示「复制」的操作，也可能是「移动」，具体是哪一种操作，取决于后续用哪个快捷键；如果后用 <code>⌘ v</code> 即是「复制、粘贴」，<code>⌘ ⌥ v</code> 则是「剪切、粘贴」即「移动」（你会发现这两个快捷键也是关联的，并不难记）。</li>
-<li><strong>进行文本操作时</strong>，还是用 <code>⌘ x</code> 剪切，用 <strong><code>⌘ ⌥ v</code> 会显示最近的剪切复制的文本历史，可以选择其中一个进行粘贴</strong>。</li>
-</ul>
-</li>
-<li><strong>删除</strong>：<code>⇧ ⌫</code>，只是进入废纸篓；完全删除则需要清空废纸篓，或者用命令行进行删除操作。</li>
-<li><strong>预览</strong>：选中文件，然后按空格键 <code>凵</code> 即可便捷地预览内容，这样一般情况下就用不着专门启动一个 App 来查看文件了，除非需要修改。配合 <a href="https://github.com/sindresorhus/quick-look-plugins" target="_blank" rel="external">预览插件</a> 效果更佳。</li>
-<li><strong>打开</strong>：Windows 上用户会习惯用 <code>↩</code> 来打开文件和应用；然而这样做在 macOS 则是 <code>重命名</code>，如需打开要用 <code>⌘ ↓</code>。 </li>
-<li><strong>向上</strong>：即跳转到上一层目录 <code>⌘ ↑</code>。</li>
-<li><strong>查看文件属性</strong>：<code>⌘ i</code> 通常打开这个「文件属性」信息框，是为了 —— <strong>修改这类文件默认用什么 App 打开</strong>，修改 App 的图标、获取其图标等。</li>
-<li>不常用/非必需：<ul>
-<li><strong>文件复制</strong>：macOS 用 <code>⌘ d</code> 即「制作副本」，等于在同一目录下先用 <code>⌘ c</code> 再用 <code>⌘ v</code>。</li>
-<li><strong>制作「替身」</strong>：你可能会将一些文件复制多份，然后放在不同地方，可能是为了便于访问。但是除非为了备份，否则这么做会令你难以对其进行有效的「控制版本」。<ul>
-<li>还不如用 <code>⌘ l</code> 为其制作一个「替身」，将其放到其它地方，例如桌面。「替身」用程序员的话来说，就是指向源文件的「指针」或者「软连接」。然后打开替身等于打开了原始文件，可以进行编辑；删除「替身」也不会影响到原始文件。</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h4 id="其它常用"><a href="#其它常用" class="headerlink" title="其它常用"></a>其它常用</h4><ul>
-<li><strong>设置</strong>：<code>⌘ ,</code>，我印象中没碰到过不默认使用它来打开设置选项的 App。</li>
-<li><strong>窗口</strong>：<code>⌘ ^ f</code> 最大化，<code>⌘ h</code> 隐藏（相比之下 <code>⌘ m</code> 最小化就没用了），<code>⌘ ⌥ h</code> 隐藏当前窗口之外的所有窗口（很好用）。</li>
-<li><strong>浏览器</strong>：<code>⌘ [</code> 前进、<code>⌘ ]</code> 后退。在 Finder 中也能用。</li>
-<li><strong>输入法</strong>：<code>^ 凵</code> 切换输入法；注意系统自带输入法是用 <code>[</code> 和 <code>]</code> 进行候选字前后翻页的，而非一般的 <code>,</code> 和 <code>.</code>。</li>
-<li><strong>关机</strong>：记住 <code>^ </code> 关机就够用了，还有 <code>^ ⇧ </code> 屏幕睡眠、<code>⌘ ⌥ </code>（硬盘）睡眠。<br>  macOS 虽然越来越不稳定了，需要强制重启来恢复系统的崩溃（只是我的情况，毕竟我经常折腾操作系统）。</li>
-<li><strong>Spotlight</strong>：习惯使用 <code>⌘ 凵</code> 进行系统全局搜索，就不用总是打开 Finder 和 LaunchPad 来找文件和 Apps 了。</li>
-<li><strong>功能键</strong>：即键盘最顶上的一排按钮（2016 年底新款 MacBook Pro 取消这排实体按键），控制「屏幕亮度、音量、音乐播放」等按键较常用，「任务控制（F3 处）、LaunchPad（F4 处）」等可以由触摸板的手势「三指上划、拇指加另外三指内划」来代替（详见 <code>系统设置</code> → <code>触摸板</code> 处）。</li>
-<li>除去不想提的快捷键，没有想起来的那些，一般也都不太重要，在此略过。</li>
-</ul>
-<h3 id="Custom-自定义"><a href="#Custom-自定义" class="headerlink" title="Custom 自定义"></a>Custom 自定义</h3><ul>
-<li>在 <code>系统设置</code> → <code>键盘</code> → <code>快捷键</code> 中可以修改很多（不是全部）系统默认的快捷键。<ul>
-<li>主要是将一些你觉得不合理的快捷键组合改得顺手，或者将用不上的快捷键去掉，以免误触。<ul>
-<li>特别是对某些快捷键组合已经形成根深蒂固习惯的人，会记不住新的快捷键，经常按错。</li>
-</ul>
-</li>
-<li>其中左侧候选栏中的 <code>应用快捷键</code>，可以用来重写全部或指定应用的某些快捷键。</li>
-</ul>
-</li>
-</ul>
-<h2 id="浏览器"><a href="#浏览器" class="headerlink" title="浏览器"></a>浏览器</h2><p>作为最最常用的 App，最值得熟练使用快捷键提升效率。</p>
-<h3 id="常用通用快捷键"><a href="#常用通用快捷键" class="headerlink" title="常用通用快捷键"></a>常用通用快捷键</h3><ul>
-<li><strong>恢复（重新打开）最近关闭的标签页</strong>：<code>⌘ ⇧ T</code>，很有用的快捷键。<br>  特别是误关某些网页时，可以快速恢复而不用去浏览历史找。</li>
-<li>页面浏览：刷新 <code>⌘ r</code>（Windows 则用 <code>F5</code> 刷新）；<br>  <code>凵</code> 向下滚动一页，<code>⇧ 凵</code> 相反；<code>↑↓←→</code> 也可以小幅度滚动页面。</li>
-<li>访问历史：<code>⌘ [</code> 前进，<code>⌘ ]</code> 后退，详情 <code>⌘ y</code>。</li>
-<li>切换标签页（Tab）：<code>^ ⇥</code> 下一个（右），<code>^ ⇧ ⇥</code> 上一个（左）；<br>  <code>⌘ 1~9</code> 跳到第 1~9 个标签页，如果一共超过 9 个标签页，<code>⌘ 9</code> 则是跳转到最后一个而非第 9 个。</li>
-<li>显示比例：<code>⌘ =</code> 放大，<code>⌘ -</code> 缩小，<code>⌘ 0</code> 恢复正常（默认）。 </li>
-<li>收藏夹：<code>⌘ d</code> 添加到收藏夹，<code>⌘ ⌥ b</code> 管理收藏夹。</li>
-<li>其它：<code>⌘ ,</code> 设置，<code>⌘ ⇧ H</code> 主页……</li>
-</ul>
-<h3 id="进阶-Vim-式插件"><a href="#进阶-Vim-式插件" class="headerlink" title="进阶 Vim 式插件"></a>进阶 Vim 式插件</h3><ul>
-<li><a href="http://www.firefox.com.cn/" target="_blank" rel="external">Firefox</a> + <a href="https://github.com/akhodakivskiy/VimFx" target="_blank" rel="external">VimFX</a><ul>
-<li>熟悉 Vim 的话，用起来很顺手；在学 Vim 的话，在一定程度上（设置键位的含义有一定关联但不全都是这样）可以帮助你熟练 Vim 的键位操作。</li>
-<li>高效率！只用基本的操作，你就能感觉不错。毕竟能用一个指头的就不用两个指头，指头能在越靠近键盘中心区的操作就越省力。</li>
-<li>进阶的操作可以慢慢来。<br>配合 <a href="https://github.com/akhodakivskiy/VimFx" target="_blank" rel="external">VimFX</a> 拓展，可在浏览器内 <strong>全局使用 Vim 键位</strong> 浏览网页、操作浏览器！键盘党神器。</li>
-<li>Chrome 很好，但更耗电，影响到了 Mac 的续航；更重要的是类 VimFX 的 <a href="https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb" target="_blank" rel="external">Vimium</a>、<a href="https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh" target="_blank" rel="external">cVim</a> 等 Chrome 拓展无法在页面未加载完毕的情况下使用 Vim 键位，不够极致。</li>
-<li>不过 Firefox 冷启动较慢，界面不够 Safari、Chrome 漂亮。毕竟工具是拿来用的，最重要的是高效。<br>（可惜我使用时会碰到一些奇怪的 bug）<br>用 Vim 的键位去浏览、导航网页，减少使用鼠标的使用，键盘党神器！</li>
-<li>Firefox : <a href="https://github.com/akhodakivskiy/VimFx" target="_blank" rel="external"><strong>VimFX</strong></a> <sup>Favorite, Best</sup><ul>
-<li><a href="http://www.vimperator.org/" target="_blank" rel="external"><del>Vimperator</del></a> 拓展功能太强大，响应速度、稳定性、外观和易用性不如 VimFX。</li>
-<li>我的 VimFX <a href="/mac_shortcuts/#VimFX">设置</a></li>
-</ul>
-</li>
-<li>Chrome : <a href="https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en" target="_blank" rel="external"><strong>Vimium</strong></a> <sup>Simple</sup><ul>
-<li><a href="https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh?hl=en" target="_blank" rel="external"><del>cVim</del></a> <sup>Powerful</sup> 功能更强大、丰富、可配置，但需要用类似 <code>.vimrc</code> 的文本方式进行调整功能配置，比较麻烦。</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Chrome + Vimium<ul>
-<li>（根据 Tools 的说法来说）不如 Firefox 全局来的爽快<br>（要不是 Firefox 有 bug，我就坚持用 Firefox 了…… 真是太可惜了）</li>
-<li>等待页面加载完，才能用快捷键，有点遗憾，但勉强可以接受！总好过没有！</li>
-<li>可以考虑 <a href="">cVim</a>，不过要靠文本来进行键位配置。我作为工具控当然不怕这么折腾配置，虽然有我信服的 Geek 用户推荐 cVim 更好用，但是现在的我除非心血来潮，否则绝对不想再折腾了，Vimium 够用了。</li>
-</ul>
-</li>
-</ul>
-<h3 id="其它插件"><a href="#其它插件" class="headerlink" title="其它插件"></a>其它插件</h3><ul>
-<li>TODO</li>
-<li>根据需求自行选择。<ul>
-<li>不要盲目相信插件的宣传简介，还有别人吹嘘的效果，自己体会，一切根据自己感受来选择，没有明显的提升，还让浏览器变得更慢更容易崩溃得不偿失……</li>
-<li>尽量保持精简。除了必要、大大提高效率的插件或 App，就都卸载了吧。</li>
-</ul>
-</li>
-<li>还有 Chrome App，可以选择比如 Postman 类似的 App。<ul>
-<li>当然用起来肯定不如原生（Native）App 好用，特别是 Web App 封装出来的原生 App，开发是很方便，大多数用起来不敢恭维（不然我就用滴滴清单而不是 2Do 了）。</li>
-</ul>
-</li>
-</ul>
-<h2 id="命令行"><a href="#命令行" class="headerlink" title="命令行"></a>命令行</h2><p>程序员相关。<br>工具链推荐：Zsh + Vim + tmux + iTerm 2</p>
-<ul>
-<li><a href="http://zsh.sourceforge.net/" target="_blank" rel="external"><strong>Zsh</strong></a><br>  可能 <a href="https://fishshell.com/" target="_blank" rel="external">Fish</a> 配置、使用更友好一点点，但是它对 Bash 的兼容性不够好，Bash 的脚本或指令组合不一定能在 Fish 上跑，相反亦然，影响通用性。Zsh 在这方面则基本没有问题。<a href="https://en.wikipedia.org/wiki/Comparison_of_command_shells" target="_blank" rel="external">综合各方面进行对比</a>，我认为 Zsh 暂时是各种 Shell 中最好的选择。<ul>
-<li><strong>快速切换目录</strong>：最常用最便捷的功能<ul>
-<li>直接输入目录的路径，毋需添加 cd 指令，即可切换到指定路径。</li>
-<li>输入不完整路径（或者指令）然后按 <code>⇥</code>，自动补全目录（或指令），或者列出相似的候选项。</li>
-<li>输入 <code>-</code> 或 <code>1</code> 命令切换到上一个目录，<code>1</code> ~ <code>9</code> 则是回到之前第 n 个访问的目录。</li>
-</ul>
-</li>
-<li>Shell 内置的 <strong>Emacs 式快捷键</strong>（keybindings）<ul>
-<li>跳转：<code>^ a</code> 光标移至行首，<code>^ e</code> 移至行末。</li>
-<li>删除：<code>^ u</code> 删除光标当前位置至行首处的输入，<code>^ k</code> 相反，即删除至行末；<br>  <code>^ w</code> 删除前一个单词，<code>^ h</code> = <code>⌫</code> 删除前一个字符。</li>
-<li>移动光标：<code>⎋, b</code> 移动到上一个单词，<code>⎋, f</code> 移动到下一个（<code>meta b</code> / <code>meta f</code> for Bash）。</li>
-<li>命令行历史：<code>↑</code> 上一条命令，<code>↓</code> 下一条（<code>^ p</code> / <code>^ n</code> 也可以）。</li>
-<li>确认：<code>^ h</code> = <code>↩</code> 确认指令。</li>
-</ul>
-</li>
-<li><strong>命令别名</strong>（Aliases）<ul>
-<li>通常用来给常用命令指定一个「缩写」，一遍更便捷地输入长的命令组合。作为程序员，我的手速、输入准确率都一般，就特别喜欢输入缩写命令。<ul>
-<li>例如，我让 <code>gs</code> = <code>git status</code>，<code>gp</code> = <code>git push</code> 等（见 <a href="/cmd/git_note/#Zsh-Aliases">Git Aliases</a> 和我的 <a href="https://github.com/IceHe/oh-my-zsh/blob/master/.zshrc" target="_blank" rel="external">.zshrc</a> 配置）。</li>
-</ul>
-</li>
-<li><code>alias</code> 命令，列出所有的 aliases。</li>
-</ul>
-</li>
-<li>Zsh 还有许多好东西，这里暂略，可以根据自己的需求，自行查阅学习。<ul>
-<li>可以简单参阅我的 <a href="https://github.com/IceHe/oh-my-zsh/blob/master/.zshrc" target="_blank" rel="external">.zshrc</a> 配置。注意以上特性并不都是 Zsh 特有的，详看 <a href="https://en.wikipedia.org/wiki/Comparison_of_command_shells" target="_blank" rel="external">各种 Shell 的对比</a>。</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="http://www.vim.org/" target="_blank" rel="external"><strong>Vim</strong></a>（也可以选择 <a href="https://neovim.io/" target="_blank" rel="external">Neovim</a>）<ul>
-<li>首先，通用性有保证！服务器没有 GUI 界面，可能没有 Emacs，但是基本不可能没有 Vi*，学会 Vim 保证你在几乎任何服务器环境下都能无碍地编辑文本。</li>
-<li>其次，拓展广。很多 IDE 和编辑器都有 Vim 插件，不用记太多各个 Apps 专有的快捷键，学会 Vim 就可以在其中进行绝大多数常用的文本编辑操作，减轻记忆负担，提升效率。<ul>
-<li>例如，Sublime Text 系列就自带 Vintage Mode 专门支持 Vim 键位的操作。</li>
-</ul>
-</li>
-<li>各种 Shell（命令行）除了自带 Emacs 式的快捷键，其实也有 Vim 式的快捷键，可以尝试一下，看看自己习不习惯。</li>
-</ul>
-</li>
-<li><a href="https://tmux.github.io/" target="_blank" rel="external"><strong>tmux</strong></a><br>  终端多路复用软件，即命令行中的「窗口管理」、「分屏工具」。<ul>
-<li>允许一个用户在一个终端窗口或一个远程终端会话中，使用多个终端会话。</li>
-<li>tmux 由 <a href="https://www.gnu.org/software/screen/manual/screen.html" target="_blank" rel="external">screen</a> 发展过来，许多命令都是类似的。screen 虽不如后来者 tmux 易用、强大、美观，但是更通用，大多数服务器都有 screen 命令。</li>
-</ul>
-</li>
-<li><a href="https://www.iterm2.com/" target="_blank" rel="external"><strong>iTerm2</strong></a><br>  功能、可配置性比系统自带的终端 Terminal 强大许多。对命令行的使用环境要求不高的话，用 Terminal 也没差，只要适合自己，够用就好。</li>
-</ul>
-<h2 id="全局进阶"><a href="#全局进阶" class="headerlink" title="全局进阶"></a>全局进阶</h2><ul>
-<li>Karabiner<ul>
-<li>改键：</li>
-<li>我将 <code>⇪</code> 改成 <code>^</code>。这么敲跟 <code>^</code>、<code>⌘</code> 组合的快捷键会顺手很多。</li>
-<li>原来的 <code>^</code> 键则用于触发 <code>^ 凵</code> 以便一键切换输入法。<ul>
-<li>用专用的单键 <code>^</code> 比用 <code>⇧</code> 或 <code>⇪</code> 来切换输入法，更不容易影响正常的操作。特别是用 Vim 输入中文时，因为 Vim 有太多跟 <code>⇧</code> 相关的操作。</li>
-<li>我用右手掌小鱼际（即靠近小指的部分手掌）去按原来的 <code>^</code> 键位，觉得比较方便，这样的话双手就基本不用远离键盘中心区了（参考盲打键盘的标准姿势）。</li>
-</ul>
-</li>
-<li>我从键盘上完全移除了 <code>⇪</code> 的大写锁定功能（不改其它键来实现该功能）。<ul>
-<li>因为很少用到，Vim 党可以先以小写写完，在用 <code>U</code> 指令全部改写为大写，大不了全用 <code>⇧</code> 来输入大写字母。</li>
-</ul>
-</li>
-<li>右 <code>⌘</code> 改成 <code>⎋</code>。因为左小指挪到键盘左上角的 <code>⎋</code> 略远，<ul>
-<li>正如上文所说，这样的话双手就基本不用远离键盘中心区了（参考盲打键盘的标准姿势）。</li>
-<li>而且等于让比较强健的右大拇指去代替比较弱的小拇指（高强度使用经常会疼）去按 <code>⎋</code>。</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>Manico<ul>
-<li>快速启动、切换 Apps</li>
-</ul>
-</li>
-<li>Keyboard Maestro<ul>
-<li>很不错，可以代替很多软件。<ul>
-<li>脚本软件（AppleScript 的基本操作）</li>
-<li>TextExpander</li>
-<li>快捷键设置软件！如 Manico。<ul>
-<li>如：快速切换或打开软件<ul>
-<li>通过简单的条件判断，可以设置开启条件、场景等等</li>
-<li>例如网络、蓝牙、相关App开启状态等相关条件</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Karabiner + Seil<ul>
-<li>可以该键位，让键位更合理，用更简单的动作来操作<ul>
-<li>一个按键来切换输入法。</li>
-<li>Esc、Ctrl 位置调整！</li>
-<li>数字键、功能键、方向键、符号键等的调整</li>
-</ul>
-</li>
-<li>（注意：暂时不支持 macOS Sierra 及往后的版本。新一代开发中 <a href="https://github.com/tekezo/Karabiner-Elements6VGi）" target="_blank" rel="external">https://github.com/tekezo/Karabiner-Elements6VGi）</a></li>
-</ul>
-</li>
-<li>Spectacle | Moom<ul>
-<li>窗口大小调动！</li>
-</ul>
-</li>
-<li>HyperSwitchy<ul>
-<li>程序窗口切换！<ul>
-<li>系统级别的不好用，简直有 Bug</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Bartender 2<ul>
-<li>简洁的工具栏</li>
-</ul>
-</li>
-<li>ShowyEdge <ul>
-<li>直观查看输入法状态<br>istat bar ?</li>
-</ul>
-</li>
-<li>HazeOver<ul>
-<li>给非活跃的 App 窗口打上阴影！</li>
-</ul>
-</li>
-<li>Alfred？<ul>
-<li>我用不上，毕竟我会自己写 AppleScript 脚本等等，直接调 快捷键去触发它们就好了。</li>
-<li>或者将脚本封装成 macApp 用 Spotlight 就能迅速匹配到该 App，然后迅速启动。</li>
-<li>我这个效率老鸟，真是想不到自己什么场景需要 Alfred 了？（希望可以有其它人告诉我这个答案）</li>
-</ul>
-</li>
-<li>Quick Look Plugins<ul>
-<li>按空格键，可以预览看图片、文本等等，比较方便，不一定非要用 App 打开才能看到内容。</li>
-</ul>
-</li>
-<li>AppleScript<ul>
-<li>进阶：直接操控操作系统的事件、配置、窗口，它必须学。</li>
-<li>其实也你一般没必要折腾，一般就有相关的 App 帮你解决问题，总会有办法的。</li>
-</ul>
-</li>
-<li>Automator<ul>
-<li>macOS 的按键精灵，有时候写 jQuery、JS 脚本不方便，Shell、Python、PHP 以致 AppleScript 写起来都麻烦，不如直接手动做。</li>
-<li>这是若只是重复性的简单操作，可能还不如直接 Automator 直接录制键盘、鼠标的操作来呢！</li>
-</ul>
-</li>
-</ul>
-<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>其实没什么，不过这些我可是折腾了挺久的。<br>其实并不值得折腾太久，但还是要好好稍微研究一下的，还是可以节省不少时间的，只要不要折腾过头。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      我这个「工具控、键盘党」如何使用 Mac。
-    
-    </summary>
-    
-      <category term="Mac" scheme="http://icehe.me/categories/Mac/"/>
-    
-    
-      <category term="Mac" scheme="http://icehe.me/tags/Mac/"/>
-    
-  </entry>
   
   <entry>
     <title>2016 Winter</title>
@@ -5976,6 +5626,216 @@ window.onload = function () {
     
     
       <category term="whoami" scheme="http://icehe.me/tags/whoami/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>实现网站的打赏功能</title>
+    <link href="http://icehe.me/web/donate/"/>
+    <id>http://icehe.me/web/donate/</id>
+    <published>2015-04-30T16:00:00.000Z</published>
+    <updated>2016-08-17T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h1><p>据网友 HaiSheng_Zhai 在本文评论中的反映，并经笔者简单测试后确认：</p>
+<ul>
+<li>下文中，<strong>以表单提交的方式，</strong>方便地<strong>用网页版 支付宝 支付的方法，已经失效。</strong></li>
+<li>以同样方式进行网页版 <strong>PalPay 支付的方法，仍可使用</strong>。</li>
+</ul>
+<h1 id="扫码打赏"><a href="#扫码打赏" class="headerlink" title="扫码打赏"></a>扫码打赏</h1><ul>
+<li>现在，路边摊都懂得将自己的 微信或支付宝 的 付款二维码 打印出来，粘贴到某处，方便顾客自行用扫码支付。</li>
+<li>建议采用<strong>「扫描支付宝、微信的付款二维码进行支付」</strong>的方式来实现打赏，简单易行。</li>
+</ul>
+<h2 id="获得二维码"><a href="#获得二维码" class="headerlink" title="获得二维码"></a>获得二维码</h2><ul>
+<li>将自己 微信或支付宝 的付款二维码 保存下来。</li>
+<li>它们的版本持续更新后，下文中的具体流程和文案可能与实际情况有出入。</li>
+</ul>
+<h3 id="微信"><a href="#微信" class="headerlink" title="微信"></a>微信</h3><ul>
+<li>打开 微信（显示应用首屏）；</li>
+<li>点击 首屏右上角的加号 <code>+</code> ；</li>
+<li>点击 下拉菜单中的 <code>收付款</code> 选项；</li>
+<li>点击 <code>我要收款</code> 按钮；</li>
+<li>长按（iOS的方式）屏幕中央的付款二维码，下方会弹出一个菜单；<ul>
+<li>可选：点击 屏幕右上角的 <code>设置金额</code> ，定死单次打赏的金额；</li>
+</ul>
+</li>
+<li>点击 从下方弹出的菜单中的 <code>保存图片</code> 选项；<ul>
+<li>可选：使用 手机系统的截屏功能，然后再处理截屏图片。</li>
+</ul>
+</li>
+</ul>
+<h3 id="支付宝"><a href="#支付宝" class="headerlink" title="支付宝"></a>支付宝</h3><ul>
+<li>打开 支付宝（显示应用首屏）；</li>
+<li>点击 首屏右上角的加号 <code>+</code> ；</li>
+<li>点击 下拉菜单中的 <code>收款</code> 选项；<ul>
+<li>可选：点击 二维码图片 正下方的 <code>设置金额</code>，定死单次打赏的金额；</li>
+</ul>
+</li>
+<li>点击 二维码图片 右下方的 <code>下载</code> 图标按钮。</li>
+</ul>
+<h2 id="发布二维码"><a href="#发布二维码" class="headerlink" title="发布二维码"></a>发布二维码</h2><ul>
+<li>使用 <code>Photoshop</code>，或者手机 App <code>美图秀秀</code>、<code>Enlight</code> 等各种工具、方法，编辑二维码图片，打造出自己喜欢的视觉效果，或简洁，或华丽。</li>
+<li>将二维码图片存放到网络上，如 <code>图床</code> 中。<ul>
+<li><strong>方法一</strong>、注册 <a href="http://www.qiniu.com/" target="_blank" rel="external">七牛云存储</a>，把二维码图片存进去，再获得其引用地址。<ul>
+<li>以后可以将您需要在博客展示的图片，都存放到专门的<code>图床</code>（云存储）服务提供商那里，再引用；而非存放到您自己的博客服务器上，因为图床利于加快图片的加载速度。</li>
+<li>还有很多图床，可自行搜索选择。还是推荐 <code>七牛</code>，因为免费空间（10GB）大，方便易用，服务稳定。我只是其忠实用户，并没有收广告费。</li>
+</ul>
+</li>
+<li><strong>方法二</strong>、更简便的方法：把 <a href="http://weibo.com" target="_blank" rel="external">微博</a> 当图床。</li>
+<li>用一条微博将二维码图片发出去；</li>
+<li>在浏览器中，用右键点击微博中的该图片；</li>
+<li>点击右键菜单中的 <code>复制图片链接</code> 选项，就可以获得保存在新浪的二维码图片的网络地址，用于在博客引用图片。</li>
+</ul>
+</li>
+</ul>
+<h2 id="展示二维码"><a href="#展示二维码" class="headerlink" title="展示二维码"></a>展示二维码</h2><ul>
+<li>再在博客中引用，放到合适的位置上，配上合适的文案、排版，引导访客进行打赏。<ul>
+<li>带文章编辑器的博客系统，通常提供便捷的图片插入功能，可以根据具体情况自行操作。</li>
+<li>有些情况需要根据 <code>标记语言</code> 的语法自行输入，如：<ul>
+<li><strong>Markdown 语法</strong>：<code>![图片替代描述](图片的 URL &quot;图片标题&quot;)</code><ul>
+<li>图片替代描述：通常用于图片无法显示的情况，用这段文字内容来描述这张无法显示的图片。可不填。</li>
+<li>图片的 URL：上一步 <code>发布二维码</code> 时，获得的图片链接地址。</li>
+<li>图片标题：鼠标停留在这张图片上时，会悬浮显示的这段文字内容，会显示的文字内容。可不填。</li>
+<li>Markdown 进阶使用详见 <a href="http://www.appinn.com/markdown/#img" target="_blank" rel="external">Markdown 语法说明 (简体中文版)</a>。</li>
+<li>简单实例：<br>  <code>![](http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png)</code></li>
+<li>详细实例：<br>  <code>![二维码](http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png &quot;打赏&quot;)</code>  <!--![二维码](http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png height="164px" width="164px" "打赏")-->
+  <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png" height="164px" width="164px" alt="二维码" title="打赏"></li>
+</ul>
+</li>
+<li><strong>HTML 语法</strong>：<code>&lt;img src=&quot;图片的 URL&quot; alt=&quot;图片替代描述&quot; title=&quot;图片标题&quot; /&gt;</code><ul>
+<li>其中各部分元素的说明，同上一点 <code>Markdown 语法</code> 所述。</li>
+<li>进阶使用详见 <a href="http://w3school.com.cn/tags/tag_img.asp" target="_blank" rel="external">HTML &lt;img&gt; 标签</a>。</li>
+<li>简单实例：<br>  <code>&lt;img src=&quot;http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_03.png&quot;&gt;</code></li>
+<li>详细实例：<br>  <code>&lt;img src=&quot;http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_03.png&quot; alt=&quot;二维码&quot; title=&quot;打赏&quot; /&gt;</code><br>  <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_03.png" height="164px" width="164px" alt="二维码" title="打赏"></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>结尾<ul>
+<li>可以看看本博客打赏模块现在的 <a href="/reward/">做法和效果</a>。</li>
+<li>可以尝试打赏博主，看看整个完整的流程~</li>
+<li>经考虑，保留本文的上一版原文，因为以下部分仍有借鉴价值：<ul>
+<li>包含 PayPal 打赏 的实现方法。</li>
+<li>包含 打赏按钮 的实现方法。</li>
+<li><a href="/web/donate/#实际效果">实际效果见原文结尾 : )</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="上一版原文"><a href="#上一版原文" class="headerlink" title="上一版原文"></a>上一版原文</h1><ul>
+<li>原来的支付宝钱包有一个实用的功能 「<strong>一键转账</strong>」，使用便捷，且页面看起来专业、正规，令人放心。它对业务站点而言，无疑是个福音。普通博主、站长也常将其用于捐赠和打赏。但支付宝的<a href="http://www.ithome.com/html/it/83096.htm" target="_blank" rel="external"><strong>个人收款主页 停止服务</strong></a>后，支付宝已经无法实现该功能了。</li>
+</ul>
+<h2 id="曲线救国-——-新方法"><a href="#曲线救国-——-新方法" class="headerlink" title="曲线救国 —— 新方法"></a>曲线救国 —— 新方法</h2><p>可以使用一个简单的<strong>表单</strong>（form 标签），通过<strong>POST</strong>一键自动填写「<a href="https://shenghuo.alipay.com/send/payment/fill.htm" target="_blank" rel="external">支付宝转账页面</a>」的信息。方便您的访客、用户转账捐赠、打赏您。</p>
+<ul>
+<li><strong>HTML 代码</strong></li>
+</ul>
+<p><em>注意：修正其中需要您填写的部分。</em></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"https://shenghuo.alipay.com/send/payment/fill.htm"</span></span></div><div class="line">	<span class="attr">method</span>=<span class="string">"POST"</span> <span class="attr">target</span>=<span class="string">"_blank"</span> <span class="attr">accept-charset</span>=<span class="string">"GBK"</span>&gt;</div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"optEmail"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"你的支付宝账号"</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"payAmount"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"默认的捐赠金额"</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">"title"</span> <span class="attr">name</span>=<span class="string">"title"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"默认显示的付款说明"</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"memo"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"备注"</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"pay"</span> <span class="attr">type</span>=<span class="string">"image"</span> <span class="attr">value</span>=<span class="string">"转账"</span></span></div><div class="line">		<span class="attr">src</span>=<span class="string">"https://img.alipay.com/sys/personalprod/style/mc/btn-index.png"</span> /&gt;</div><div class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li><strong>显示效果</strong></li>
+</ul>
+<form action="https://shenghuo.alipay.com/send/payment/fill.htm" method="POST" target="_blank" accept-charset="GBK" style="margin-left: 25px; display: inline;">    <input name="optEmail" type="hidden" value="你的支付宝账号">    <input name="payAmount" type="hidden" value="默认的捐赠金额">    <input id="title" name="title" type="hidden" value="默认显示的付款说明">    <input name="memo" type="hidden" value="备注">    <input name="pay" type="image" value="转账" src="https://img.alipay.com/sys/personalprod/style/mc/btn-index.png">    </form>
+
+<ul>
+<li>Reference 参考资料<br>《<a href="http://www.zzyyss.com/archives/809" target="_blank" rel="external">博客网站支付宝打赏功能</a>》</li>
+</ul>
+<h2 id="笔者的自定义的“打赏”按钮"><a href="#笔者的自定义的“打赏”按钮" class="headerlink" title="笔者的自定义的“打赏”按钮"></a>笔者的自定义的“打赏”按钮</h2><ul>
+<li><strong>HTML 代码</strong>：</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div></pre></td><td class="code"><pre><div class="line"><span class="comment">&lt;!-- 打赏表单 --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">id</span>=<span class="string">"donate"</span> <span class="attr">action</span>=<span class="string">"https://shenghuo.alipay.com/send/payment/fill.htm"</span></span></div><div class="line">	<span class="attr">method</span>=<span class="string">"POST"</span> <span class="attr">target</span>=<span class="string">"_blank"</span> <span class="attr">accept-charset</span>=<span class="string">"GBK"</span> <span class="attr">style</span>=<span class="string">"display: none;"</span>&gt;</div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"optEmail"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"您的支付宝账号"</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"payAmount"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"默认的打赏金额"</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">"title"</span> <span class="attr">name</span>=<span class="string">"title"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"默认显示的付款说明"</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"memo"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"备注"</span> /&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- /打赏表单 --&gt;</span></div><div class="line"></div><div class="line"><span class="comment">&lt;!-- 打赏按钮的样式表 --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">"text/css"</span>&gt;</span><span class="undefined"></span></div><div class="line">	.donate_bar a.btn_donate&#123;</div><div class="line">		display: inline-block;</div><div class="line">		width: 82px;</div><div class="line">		height: 82px;</div><div class="line">		background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;</div><div class="line">		_background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;</div><div class="line">	&#125;</div><div class="line">	.donate_bar a.btn_donate:hover&#123; background-position: 0px -82px;&#125;</div><div class="line">	.donate_bar .donate_txt &#123;</div><div class="line">		display: block;</div><div class="line">		color: #9d9d9d;</div><div class="line">		font: 14px/2 "Microsoft Yahei";</div><div class="line">	&#125;</div><div class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- /打赏按钮的样式表 --&gt;</span></div><div class="line"></div><div class="line"><span class="comment">&lt;!-- 打赏按钮 --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"donate_bar"</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"btn_donate"</span> <span class="attr">href</span>=<span class="string">"javascript:;"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span></span></div><div class="line">		<span class="attr">onclick</span>=<span class="string">"document.getElementById('donate').submit()"</span>&gt;<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"donate_txt"</span>&gt;</span></div><div class="line">		&amp;uarr;<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">		If you enjoy the blog,</div><div class="line">		please feel free to donate~</div><div class="line">		Thx for your support.</div><div class="line">	<span class="tag">&lt;/<span class="name">span</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"donate_txt"</span>&gt;</span></div><div class="line">		若本文对您有帮助，求打赏~ 谢谢您的支持和鼓励。</div><div class="line">	<span class="tag">&lt;/<span class="name">span</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- /打赏按钮 --&gt;</span></div></pre></td></tr></table></figure>
+<h2 id="进阶的-“打赏”-按钮"><a href="#进阶的-“打赏”-按钮" class="headerlink" title="进阶的 “打赏” 按钮"></a>进阶的 “打赏” 按钮</h2><ul>
+<li>本博客的打赏按钮的实际代码根据需求不断进行调整，最后更新的版本如下：</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div></pre></td><td class="code"><pre><div class="line"><span class="comment">&lt;!-- Donate Module --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"donate_module"</span>&gt;</span></div><div class="line">	<span class="comment">&lt;!-- css --&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">"text/css"</span>&gt;</span><span class="xml"></span></div><div class="line">		.donate_bar a.btn_donate&#123;</div><div class="line">			display: inline-block;</div><div class="line">			width: 82px;</div><div class="line">			height: 82px;</div><div class="line">			background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;</div><div class="line">			_background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;</div><div class="line"></div><div class="line">			<span class="comment">&lt;!-- 因为本 hexo 生成的博客所用的 theme 的 a:hover 带动画效果，</span></div><div class="line">				 为了在让打赏按钮显示效果正常 而 添加了以下几行 css，</div><div class="line">				 嵌入其它博客时不一定要它们。 --&gt;</div><div class="line">			-webkit-transition: background 0s;</div><div class="line">			-moz-transition: background 0s;</div><div class="line">			-o-transition: background 0s;</div><div class="line">			-ms-transition: background 0s;</div><div class="line">			transition: background 0s;</div><div class="line">			<span class="comment">&lt;!-- /让打赏按钮的效果显示正常 而 添加的几行 css 到此结束 --&gt;</span></div><div class="line">		&#125;</div><div class="line">		.donate_bar a.btn_donate:hover&#123; background-position: 0px -82px;&#125;</div><div class="line">		.donate_bar .donate_txt &#123;</div><div class="line">			display: block;</div><div class="line">			color: #9d9d9d;</div><div class="line">			font: 14px/2 "Microsoft Yahei";</div><div class="line">		&#125;</div><div class="line">		.bold&#123; font-weight: bold; &#125;</div><div class="line">	<span class="tag">&lt;/<span class="name">style</span>&gt;</span></div><div class="line">	<span class="comment">&lt;!-- /css --&gt;</span></div><div class="line"></div><div class="line">	<span class="comment">&lt;!-- form --&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">form</span> <span class="attr">id</span>=<span class="string">"donate"</span> <span class="attr">action</span>=<span class="string">"https://shenghuo.alipay.com/send/payment/fill.htm"</span> <span class="attr">method</span>=<span class="string">"POST"</span> <span class="attr">target</span>=<span class="string">"_blank"</span> <span class="attr">accept-charset</span>=<span class="string">"GBK"</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"optEmail"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"ice_he@foxmail.com"</span> /&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"payAmount"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"1.00"</span> /&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">"title"</span> <span class="attr">name</span>=<span class="string">"title"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"打赏《&lt;%= item.title.substr(0, 16) %&gt;》"</span>/&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"memo"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"留下您的大名及联系方式(email,blog,etc)，多交流共勉共进："</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;/<span class="name">form</span>&gt;</span></div><div class="line">	<span class="comment">&lt;!-- /form --&gt;</span></div><div class="line"></div><div class="line">	<span class="comment">&lt;!-- btn_donate &amp; tips --&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"donate_board"</span> <span class="attr">class</span>=<span class="string">"donate_bar center"</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">"btn_donate"</span> <span class="attr">class</span>=<span class="string">"btn_donate"</span> <span class="attr">target</span>=<span class="string">"_self"</span> <span class="attr">href</span>=<span class="string">"javascript:;"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"donate_txt"</span>&gt;</span></div><div class="line">			&amp;uarr;<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">			If you enjoy the article, please feel free to <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"bold"</span>&gt;</span>donate~<span class="tag">&lt;/<span class="name">span</span>&gt;</span> Thx.<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">			若本文对您有帮助，<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"bold"</span>&gt;</span>求打赏~<span class="tag">&lt;/<span class="name">span</span>&gt;</span> 谢谢您的鼓励。</div><div class="line">		<span class="tag">&lt;/<span class="name">span</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">	<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">	<span class="comment">&lt;!-- /btn_donate &amp; tips --&gt;</span></div><div class="line"></div><div class="line">	<span class="comment">&lt;!-- donate guide --&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"donate_guide"</span> <span class="attr">class</span>=<span class="string">"donate_bar center hidden"</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"https://www.paypal.com/cgi-bin/webscr"</span> <span class="attr">method</span>=<span class="string">"post"</span> <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;</span></div><div class="line">			<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">name</span>=<span class="string">"cmd"</span> <span class="attr">value</span>=<span class="string">"_s-xclick"</span>&gt;</span></div><div class="line">			<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">name</span>=<span class="string">"hosted_button_id"</span> <span class="attr">value</span>=<span class="string">"3MPNAMMQA4C8Y"</span>&gt;</span>	&amp;nbsp; &amp;nbsp;</div><div class="line">			<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"image"</span> <span class="attr">width</span>=<span class="string">"auto"</span> <span class="attr">height</span>=<span class="string">"40em"</span></span></div><div class="line">				<span class="attr">src</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg"</span></div><div class="line">				<span class="attr">border</span>=<span class="string">"0"</span> <span class="attr">name</span>=<span class="string">"submit"</span> <span class="attr">alt</span>=<span class="string">"PayPal——最安全便捷的在线支付方式！"</span></div><div class="line">				<span class="attr">style</span>=<span class="string">"margin-bottom: 0.5em;"</span>&gt;</div><div class="line">		<span class="tag">&lt;/<span class="name">form</span>&gt;</span></div><div class="line"></div><div class="line">		<span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg"</span> <span class="attr">title</span>=<span class="string">"Alipay_Scan_Payment"</span> <span class="attr">class</span>=<span class="string">"fancybox"</span> <span class="attr">rel</span>=<span class="string">"article0"</span>&gt;</span></div><div class="line">			<span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span> <span class="attr">height</span>=<span class="string">"164px"</span> <span class="attr">width</span>=<span class="string">"164px"</span>/&gt;</span></div><div class="line">		<span class="tag">&lt;/<span class="name">a</span>&gt;</span> &amp;nbsp;</div><div class="line"></div><div class="line">		<span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg"</span> <span class="attr">title</span>=<span class="string">"Alipay_Scan_Payment"</span> <span class="attr">class</span>=<span class="string">"fancybox"</span> <span class="attr">rel</span>=<span class="string">"article0"</span>&gt;</span></div><div class="line">			<span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg"</span> <span class="attr">title</span>=<span class="string">"Thanks 谢谢~"</span> <span class="attr">height</span>=<span class="string">"164px"</span> <span class="attr">width</span>=<span class="string">"164px"</span>/&gt;</span></div><div class="line">		<span class="tag">&lt;/<span class="name">a</span>&gt;</span> &amp;nbsp;</div><div class="line"></div><div class="line">		<span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg"</span> <span class="attr">title</span>=<span class="string">"WeChat_Scan_Payment"</span> <span class="attr">class</span>=<span class="string">"fancybox"</span> <span class="attr">rel</span>=<span class="string">"article0"</span>&gt;</span></div><div class="line">			<span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span> <span class="attr">height</span>=<span class="string">"164px"</span> <span class="attr">width</span>=<span class="string">"auto"</span>/&gt;</span></div><div class="line">		<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line"></div><div class="line">		<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"donate_txt"</span>&gt;</span></div><div class="line">			Use App <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"bold"</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://global.alipay.com/ospay/home.htm"</span>&gt;</span>Alipay<span class="tag">&lt;/<span class="name">a</span>&gt;</span> / <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://www.wechat.com/en/"</span>&gt;</span>WeChat<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></div><div class="line">			to scan QRCode~ Thx for your support.<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line"></div><div class="line">			用手机 <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"bold"</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"https://mobile.alipay.com/index.htm"</span>&gt;</span>支付宝钱包<span class="tag">&lt;/<span class="name">a</span>&gt;</span> / <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://weixin.qq.com/"</span>&gt;</span>微信<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span>，</div><div class="line">			扫一扫即可~ 谢谢您的鼓励。<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">			<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line"></div><div class="line">			Or donate on <span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">"donate_on_web2"</span> <span class="attr">class</span>=<span class="string">"bold"</span> <span class="attr">href</span>=<span class="string">"javascript:donate_on_web();"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span>&gt;</span>Web Alipay<span class="tag">&lt;/<span class="name">a</span>&gt;</span>. /</div><div class="line"></div><div class="line">			也可用 <span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">"donate_on_web1"</span> <span class="attr">class</span>=<span class="string">"bold"</span> <span class="attr">href</span>=<span class="string">"javascript:donate_on_web();"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span>&gt;</span>网页版支付宝<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">			打赏。<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">		<span class="tag">&lt;/<span class="name">span</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">	<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">	<span class="comment">&lt;!-- /donate guide --&gt;</span></div><div class="line"></div><div class="line">	<span class="comment">&lt;!-- donate script --&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="javascript"></span></div><div class="line">		<span class="built_in">document</span>.getElementById(<span class="string">'btn_donate'</span>).onclick = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">			$(<span class="string">'#donate_board'</span>).addClass(<span class="string">'hidden'</span>);</div><div class="line">			$(<span class="string">'#donate_guide'</span>).removeClass(<span class="string">'hidden'</span>);</div><div class="line">		&#125;</div><div class="line"></div><div class="line">		<span class="function"><span class="keyword">function</span> <span class="title">donate_on_web</span>(<span class="params"></span>)</span>&#123;</div><div class="line">			$(<span class="string">'#donate'</span>).submit();</div><div class="line">		&#125;</div><div class="line">	<span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line">	<span class="comment">&lt;!-- /donate script --&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- /Donate Module --&gt;</span></div></pre></td></tr></table></figure>
+<h2 id="实际效果"><a href="#实际效果" class="headerlink" title="实际效果"></a>实际效果</h2><ul>
+<li>以下是本博客打赏按钮的<strong>显示效果</strong>，<em>点击可以打赏博主哦~</em></li>
+</ul>
+<p><br></p>
+<style type="text/css">
+    /* <donate-css> */
+    .donate_bar a.btn_donate{
+        display: inline-block;
+        width: 82px;
+        height: 82px;
+        background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
+        _background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
+
+        -webkit-transition: background 0s;
+        -moz-transition: background 0s;
+        -o-transition: background 0s;
+        -ms-transition: background 0s;
+        transition: background 0s;
+    }
+    .donate_bar a.btn_donate:hover{ background-position: 0px -82px;}
+    .donate_bar .donate_txt {
+        display: block;
+        color: #9d9d9d;
+        font: 14px/2 "Microsoft Yahei";
+    }
+    .bold{ font-weight: bold; }
+    /* </donate-css> */
+</style>
+
+<!--Donate Module--><div id="donate_module"><!--form--><form id="donate" action="https://shenghuo.alipay.com/send/payment/fill.htm" method="POST" target="_blank" accept-charset="GBK"><input name="optEmail" type="hidden" value="ice_he@foxmail.com"><input name="payAmount" type="hidden" value="1.00"><input id="title" name="title" type="hidden" value="打赏《<%= item.title.substr(0, 16) %>》"><input name="memo" type="hidden" value="留下您的大名及联系方式(email,blog,etc)，多交流共勉共进："></form><!--/form--><!--btn_donate&tips--><div id="donate_board" class="donate_bar center"><a id="btn_donate" class="btn_donate" target="_self" href="javascript:;" title="Donate 打赏"></a><span class="donate_txt">&uarr;<br>If you enjoy the article,please feel free to<span class="bold">donate~</span>Thx.<br>若本文对您有帮助，<span class="bold">求打赏~</span>谢谢您的鼓励。</span><br></div><!--/btn_donate&tips--><!--donate guide--><div id="donate_guide" class="donate_bar center hidden"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"><input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="3MPNAMMQA4C8Y">&nbsp;&nbsp;<input type="image" width="auto" height="40em" src="http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg" border="0" name="submit" alt="PayPal——最安全便捷的在线支付方式！"></form><a href="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg" title="Alipay_Scan_Payment" class="fancybox" rel="external" style="display:inline-table" target="_blank"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_03.png" title="Donate 打赏" height="164px" width="164px"></a>&nbsp;<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" title="Alipay_Scan_Payment" class="fancybox" rel="external" style="display:inline-table" target="_blank"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" title="Thanks 谢谢~" height="164px" width="164px"></a>&nbsp;<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png" title="WeChat_Scan_Payment" class="fancybox" rel="external" style="display:inline-table" target="_blank"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png" title="Donate 打赏" height="164px" width="164px"></a><br><br><span class="donate_txt">Use App<span class="bold"><a href="http://global.alipay.com/ospay/home.htm" target="_blank" rel="external">Alipay</a>/<a href="http://www.wechat.com/en/" target="_blank" rel="external">WeChat</a></span>to scan QRCode~Thx for your support.<br>用手机<span class="bold"><a href="https://mobile.alipay.com/index.htm" target="_blank" rel="external">支付宝钱包</a>/<a href="http://weixin.qq.com/" target="_blank" rel="external">微信</a></span>，扫一扫即可~谢谢您的鼓励。<br><br>Or donate on<a id="donate_on_web2" class="bold" href="javascript:donate_on_web();" title="Donate 打赏" target="_blank" rel="external">Web Alipay</a>./也可用<a id="donate_on_web1" class="bold" href="javascript:donate_on_web();" title="Donate 打赏" target="_blank" rel="external">网页版支付宝</a>打赏。<br></span></div><!--/donate guide--></div><!--/Donate Module-->
+<script type="text/javascript">
+/* <donate-script> */
+document.getElementById('btn_donate').onclick = function(){
+    $('#donate_board').addClass('hidden');
+    $('#donate_guide').removeClass('hidden');
+}
+function donate_on_web(){
+    $('#donate').submit();
+}
+/* </donate-script> */
+
+var original_window_onload = window.onload;
+window.onload = function () {
+    if (original_window_onload) {
+        original_window_onload();
+    }
+    document.getElementById('donate_board_wdg').className = 'hidden';
+}
+</script>
+]]></content>
+    
+    <summary type="html">
+    
+      可用一个简单的表单（form 标签），通过POST一键自动填写「支付宝转账页面」的信息。还有，笔者自定义的“打赏”按钮方案！
+    
+    </summary>
+    
+      <category term="Web" scheme="http://icehe.me/categories/Web/"/>
+    
+    
+      <category term="Web" scheme="http://icehe.me/tags/Web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ASM 汇编语言 - 15</title>
+    <link href="http://icehe.me/asm/Assembly%20Language%20-%20Note%2015/"/>
+    <id>http://icehe.me/asm/Assembly Language - Note 15/</id>
+    <published>2015-04-15T16:00:00.000Z</published>
+    <updated>2016-12-25T10:14:46.000Z</updated>
+    
+    <content type="html"><![CDATA[
+<ul><li>Created on 2014-11</li></ul><br>
+
+<div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>教材：《汇编语言》（第二版）王爽 著 清华大学出版社</div><div><br></div><div><br></div><b>附注1 <u>Intel</u>系列<u>微处理器</u>的<u>3种工作模式</u></b><div><b><br></b></div><div>重要版本8086/8088、80386。</div><div><br></div><div>80386具备了80286对多任务系统的支持，</div><div>又对8086/8088兼容。</div><div><br></div><div>它可以在以下3个模式下工作：</div><div>（1）<b>实模式</b>：工作方式相当于一个8086</div><div>（2）<b>保护</b>模式：提供支持多任务环境的工作方式，</div><div>&nbsp; &nbsp; &nbsp;建立爆出机制（这与VAX等小型机类似）。</div><div>（3）<b>模拟8086</b>模式：可从保护模式切换至其中的一种8086工作方式。</div><div>&nbsp; &nbsp; &nbsp;这种方式的提供使用户可以方便地在保护模式下运行一个或多个原8086程序。</div><div><br></div><div>PC<b>一开机</b>，处于<b>实模式</b>。<b>DOS</b>处于实模式。</div><div><b>Windows</b>系统在加载后，会将CPU切换到<b>保护模式</b>。</div><div>在<b>Windows下</b>运行一个<b>DOS</b>下的<b>程序</b>，CPU切换至</div><div><b>模拟8086</b>模式下运行该程序。</div><div><br></div><div><br></div><div><br></div><div><b>附注2 补码</b></div><div><br></div><div>特别注意点：1000 0000b = -128</div><div><br></div><div><br></div><div><br></div><div><b>附注3 <u>汇编编译</u>器（masm.exe）对<u>jmp的相关处理</u></b></div><div><br></div><div>1. 向前转移</div><div>先读到标号，后读到jmp指令</div><div>s: &nbsp; &nbsp; ...</div><div>&nbsp; &nbsp; &nbsp; &nbsp;...</div><div>&nbsp; &nbsp; &nbsp;jmp s（jmp short s / jmp near ptr s / jmp far ptr s）</div><div><br></div><div><b>编译器</b>中<b>有</b>一个<b>地址计数器（AC）</b>，</div><div>编译过程中，每读到一字节，AC+=1。</div><div>当编译器遇到一些伪操作时，如db / dw等，</div><div>会根据实际情况使AC增加。</div><div><br></div><div>向前转移时，complier读到 <b>标号s</b> 后，</div><div>记下此时<b>AC的值</b>为 <b>as</b>（annotation start？），</div><div>在读到 <b>jmp &nbsp;... s</b> 后，记下此时AC的值为 <b>aj</b>（annotation jmp？）。</div><div>那么可以通过 <b>as - aj</b>&nbsp;算出<b>位移值 disp</b>。</div><div><br></div><div>（1）若<b>disp</b>属于<b>[-128, 127]</b>，这不管汇编指令格式是：</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; jmp s / jmp short s / jmp near ptr s / jmp far ptr s</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>都</b>会转变<b>为 jmp short s</b> 所对应的<b>机器码：</b></div><div><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EB disp</b>（占 2 Bytes）；</div><div><br></div><div>（2）若disp属于<b>[-32768, 32767]</b>，则：</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对于 <b>jmp short</b> 将产生编译<b>错误</b>；</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对于 <b>jmp s、jmp near ptr s</b>，</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;将产生<b>jmp near ptr s</b> 所对应的<b>机器码：</b></div><div><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;E9 disp</b>（占 3 Bytes）；</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对于 <b>jmp far ptr s</b>，将产生对应的机器码：</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>EA 偏移地址 段地址</b>（占 5 Bytes）。</div><div><br></div><div><br></div><div>2.向后转移：</div><div>先读到jmp指令，后读到标号</div><div>&nbsp; &nbsp; &nbsp;jmp s（jmp short s / jmp near ptr s / jmp far ptr s）</div><div>&nbsp; &nbsp; &nbsp; &nbsp;...</div><div>s: &nbsp; &nbsp; ...</div><div><br></div><div>在此情况下，complier先读到 jmp ... s 指令，</div><div>由于还没读到 标号s，所以不能确定 其位置的AC值，</div><div>即不能确定 disp 值。</div><div><br></div><div>此时，complier将 jmp ... s 都当作 jmp short s 来读取，</div><div>记下jmp指令的位置和AC的值作为 aj（annotation jmp？），</div><div>并作以下处理：</div><div><br></div><div>a. 对于 jmp <b>short</b> s，complier生成&nbsp;<b>EB</b> 和 <b>一个</b> <b>nop</b> 指令，</div><div>&nbsp; &nbsp; &nbsp;即用 nop <b>预留 1 Byte&nbsp;</b>空间，存放 <b>8 bits</b> 的<b>disp</b>。</div><div><br></div><div>b. 对于 <b>jmp s</b> 和 jmp <b>near ptr</b> s，生成&nbsp;<b>E9&nbsp;</b>和 <b>两个 nop</b> 指令，</div><div>&nbsp; &nbsp; &nbsp;即&nbsp;预留 <b>2</b> Bytes，放 <b>16</b> bits 的disp。</div><div><br></div><div>c. 对于 jmp <b>far ptr</b> s， 生成 <b>EA</b>&nbsp;和 <b>四个</b> nop 指令，</div><div>&nbsp; &nbsp; &nbsp;即 预留 <b>4 Bytes</b>，放&nbsp;<b>段地址</b> 和&nbsp;<b>段地址</b>。</div><div><br></div><div>以上处理完后，当向后读到 标号s 时，</div><div>记下此时AC的值作为 as（annotation start？），</div><div>并计算出转移的位移量：<b>disp = as - aj</b>（公式与向前转移相同）。</div><div><br></div><div>（1）若<b>disp</b>属于<b>[-128, 127]</b>，这不管汇编指令格式是：</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; jmp s / jmp short s / jmp near ptr s / jmp far ptr s</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>都</b>在前面记下的 jmp ... s 指令位置处添上</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;jmp short s对应的机器码：<b>EB disp</b></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *注意：此时，对于&nbsp;jmp s 和 jmp near ptr s 格式，</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;在机器码 EB disp 后还有 1 条 nop 指令（空着）；</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;对于jmp far ptr s，在机器码EB disp后还有3条nop指令（空着）。</div><div><br></div><div>（2）若disp属于<b>[-32768, 32767]</b>，则：</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对于&nbsp;<b>jmp short</b>&nbsp;将产生编译<b>错误</b>；</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对于&nbsp;<b>jmp s、jmp near ptr s</b>，</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;在前面记下的 jmp ... s 指令位置处添上</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;jmp near ptr s对应的机器码：<b>E9 disp</b>（占 3 Bytes）；</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对于&nbsp;<b>jmp far ptr s</b>，在前面记下的 jmp ... s 指令位置处添上</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>EA 偏移地址 段地址</b>（占 5 Bytes）。</div><div><br></div><div><br></div><div><br></div><div><b>附注4 用栈传递参数</b></div><div><br></div><div>此技术和高级语言编译器的工作原理密切相关，</div><div>结合C语言的函数调用来描述。</div><div><br></div><div>栈传递参数原理：</div><div>由调用者将需要传递给子程序的参数压入栈中，</div><div>子程序从栈中去取得参数。</div><div><br></div><div>（例）</div><div>;说明：计算(a-b)^3，a、b为字型数据</div><div>;参数：进入子程序时，栈顶存放IP，后面依次存放a、b</div><div>;结果：<b>(dx:ax)=(a-b)^3</b></div><div>dif_cube:</div><div><b>&nbsp; &nbsp; &nbsp;push bp</b></div><div>&nbsp; &nbsp; &nbsp;mov bp, sp</div><div><b>&nbsp; &nbsp; &nbsp;mov ax, [bp + 4] &nbsp; &nbsp; ;后入栈的是a</b></div><div><b>&nbsp; &nbsp; &nbsp;sub ax, [bp + 6] &nbsp; &nbsp; ;先入栈的是b</b></div><div>&nbsp; &nbsp; &nbsp;mov bp, ax</div><div>&nbsp; &nbsp; &nbsp;mul bp</div><div>&nbsp; &nbsp; &nbsp;mul bp</div><div>&nbsp; &nbsp; &nbsp;pop bp</div><div>&nbsp; &nbsp; &nbsp;ret 4</div><div><br></div><div>一个子程序结尾有：<b>ret n</b></div><div>n为整数，意思是，将<b>栈顶</b>指针修<b>改为调用前的值</b>。</div><div><b>ret n</b> 功能等于&nbsp;<b>pop ip &nbsp; &nbsp;&nbsp;add sp, n</b></div><div><br></div><div>调用dif_cube程序的代码如下：</div><div>mov ax, 1 &nbsp; &nbsp; ;b</div><div>push ax</div><div>mov ax, 3 &nbsp; &nbsp; ;a</div><div>push ax</div><div>call diff_cube &nbsp; &nbsp; ;注意参数压栈的顺序</div><div><br></div><div><br></div><div>1.语句call diff_cube后，栈的情况： &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;IP &nbsp; &nbsp; &nbsp;a &nbsp; &nbsp; &nbsp; &nbsp;b</div><div>1000:0000 &nbsp; &nbsp; 00 00&nbsp;00 00&nbsp;00 00&nbsp;00 00 |&nbsp;00 00 XX XX 03 00 01 00</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>↑ ss:sp</b></div><div>2.dif_cube执行第1句push bp后：&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;bp &nbsp; &nbsp; &nbsp;IP &nbsp; &nbsp; &nbsp; a &nbsp; &nbsp; &nbsp; b</div><div>1000:0000 &nbsp; &nbsp; 00 00&nbsp;00 00&nbsp;00 00&nbsp;00 00 | ZZ ZZ XX XX 03 00 01 00</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>↑ ss:sp</b></div><div>3.所以，dif_cube 子程序以下语句中的 <b>[bp + 4]指 a</b>，<b>[bp + 6]指 b</b>。</div><div>mov ax, [bp + 4] &nbsp; &nbsp; ;后入栈的是a</div><div>sub ax, [bp + 6] &nbsp; &nbsp; ;先入栈的是b</div><div><br></div><div><br></div><div>利用<b>C程序，</b>了解<b>栈</b>在<b>参数传递</b>中的应用：</div><div>*.注意：在<b>C</b>语言中，<b>局部变量</b>也在<b>栈中存储</b>。</div><div><br></div><div>void add(int, int, int);</div><div>main(){</div><div>&nbsp; &nbsp; &nbsp;int a = 1;</div><div>&nbsp; &nbsp; &nbsp;int b = 2;</div><div>&nbsp; &nbsp; &nbsp;int c = 0;</div><div>&nbsp; &nbsp; &nbsp;add(a, b, c);</div><div>&nbsp; &nbsp; &nbsp;c++;</div><div>}</div><div>void add(int a, int b, int c){</div><div>&nbsp; &nbsp; &nbsp;c = a + b;</div><div>}</div><div><br></div><div>编译后的汇编程序：</div><div><br></div><div>mov bp, sp &nbsp; &nbsp; ;bp = 原栈顶位置 sp</div><div><b>sub sp, 6</b> &nbsp; &nbsp; <b>;栈顶sp - 6，留出空间存放数据段？</b></div><div><br></div><div>mov word ptr [bp - 6], 0001 &nbsp; &nbsp; ;int a</div><div>mov word ptr [bp - 4], 0002 &nbsp; &nbsp; ;int b</div><div>mov word ptr [bp - 2], 0000 &nbsp; &nbsp; ;int c</div><div><br></div><div>push [bp - 2] &nbsp; &nbsp; ;push c</div><div>push [bp - 4] &nbsp; &nbsp; ;push b</div><div>push [bp - 6] &nbsp; &nbsp; ;push a</div><div>call ADDR</div><div><br></div><div><b>add sp, 6 &nbsp; &nbsp; ;sp恢复回原栈顶top的位置？</b></div><div>inc word ptr [bp - 2]</div><div><br></div><div>ADDR:</div><div>&nbsp; &nbsp; &nbsp;push bp</div><div><br></div><div>&nbsp; &nbsp; &nbsp;mov bp, sp &nbsp; &nbsp; ;这里的bp = 新栈顶位置 sp</div><div>&nbsp; &nbsp; &nbsp;mov ax, [bp + 4] &nbsp; &nbsp; ;b</div><div>&nbsp; &nbsp; &nbsp;add ax, [bp + 6] &nbsp; &nbsp; ;a? &nbsp; &nbsp;<b>（有点蒙？这里我画图理解，放的应该是c？淡忘之后再分析一次）</b></div><div>&nbsp; &nbsp; &nbsp;mov [bp + 8], ax</div><div>&nbsp; &nbsp; &nbsp;mov sp, bp</div><div>&nbsp; &nbsp; &nbsp;</div><div>&nbsp; &nbsp; &nbsp;;栈的情况：a b c | a b c</div><div>&nbsp; &nbsp; &nbsp;; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;↑top=bp</div><div>&nbsp; &nbsp; &nbsp;;左边abc是压入的参数，右边abc是其源</div><div><br></div><div>&nbsp; &nbsp; &nbsp;pop bp</div><div>&nbsp; &nbsp; &nbsp;ret</div><div><br></div><div><br></div><div><br></div><div><b>附注5 （</b><b>无溢出除法</b><b>）公式证明</b></div><div><br></div><div><b>无溢出除法</b>公式：</div><div><br></div><div>H：x的高16位</div><div>L：x的低16位</div><div>int()：取商</div><div>rem()：取余</div><div><br></div><div>H = int( x / 65536) &nbsp; &nbsp; ; 即 H = x / 0FFFFH</div><div>L = rem( x / 65536) &nbsp; &nbsp; ; 即 L = x % 0FFFFH</div><div><b><br></b></div><div><b>X / n = int(H / n) * 65536 + [rem(H / n) * 65536 + L] / n</b></div><div><b><br></b></div><div>&nbsp; &nbsp; &nbsp;;乘以65536，等于左移16位</div><div>&nbsp; &nbsp; &nbsp;;1.被除数x的高16位，除以除数n得到，x/n的商的高16位；</div><div>&nbsp; &nbsp; &nbsp;;2.被除数x的高16位，除以除数n得到的余， 加上被除数x的低16位，</div><div>&nbsp; &nbsp; &nbsp;; &nbsp; 除以除数n得到，x/n的商的低16位。</div><div><br></div><div><br></div><div><b>综合研究</b></div><div>（因为寻找适用的tc.exe无果，此部分暂且放弃）</div><div>研究实验1 <b>搭建一个精简的C语言开发环境</b></div><div>研究实验2 <b>使用寄存器</b></div><div>研究实验3&nbsp;<b>使用内存空间</b></div><div>研究实验4&nbsp;<b>不用main函数编程</b></div><div>研究实验5&nbsp;<b>函数如何接收</b></div></div>
+]]></content>
+    
+    <summary type="html">
+    
+      Intel系列微处理器的3种工作模式。汇编编译器（masm.exe）对jmp的相关处理，编译器中的地址计数器（AC），对伪操作指令的处理。用栈传递参数。无溢出除法的公式证明。
+    
+    </summary>
+    
+      <category term="ASM" scheme="http://icehe.me/categories/ASM/"/>
+    
+    
+      <category term="ASM" scheme="http://icehe.me/tags/ASM/"/>
     
   </entry>
   
