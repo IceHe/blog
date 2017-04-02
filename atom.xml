@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://icehe.me/"/>
-  <updated>2017-03-08T16:00:00.000Z</updated>
+  <updated>2017-03-31T16:00:00.000Z</updated>
   <id>http://icehe.me/</id>
   
   <author>
@@ -14,6 +14,356 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PHP 日常开发杂谈</title>
+    <link href="http://icehe.me/php/php_coding/"/>
+    <id>http://icehe.me/php/php_coding/</id>
+    <published>2017-03-31T16:00:00.000Z</published>
+    <updated>2017-03-31T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      最近部门主项目重构的过程中，工程编码的一些小结。
+    
+    </summary>
+    
+      <category term="php" scheme="http://icehe.me/categories/php/"/>
+    
+    
+      <category term="php" scheme="http://icehe.me/tags/php/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac Efficiency 效率指北</title>
+    <link href="http://icehe.me/mac/efficiency/"/>
+    <id>http://icehe.me/mac/efficiency/</id>
+    <published>2017-03-31T16:00:00.000Z</published>
+    <updated>2017-03-31T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul>
+<li>《<a href="/mac_shortcuts">Mac Shortcuts 快捷键</a>》列举了绝大多数我用的快捷键。</li>
+<li>《<a href="/tools">Tools 利器</a>》列举了我绝大多数我用的 Apps。</li>
+<li>不同于上文，本文说的是对「如何高效地使用 Mac」的个人见解和建议，仅供参考。<ul>
+<li>有部分叙述与《<a href="/tools">Tools 利器</a>》重复。</li>
+<li>本文会列举不少快捷键，但不会所有的都说。因为它们只是我为了引出想说的东西而举的例子。</li>
+<li>我一开始也是 Windows 用户，后来才用 macOS，所以本文会说到 Windows 和 macOS 之间的差异和对比。</li>
+<li>除非有额外的说明，否则默认都是 macOS 上用的快捷键。</li>
+</ul>
+</li>
+</ul>
+<h2 id="好处"><a href="#好处" class="headerlink" title="好处"></a>好处</h2><ul>
+<li>原来不习惯使用快捷键的人，和刚转到 macOS 平台用惯 Windows 快捷键的人，难免要学习、重新适应，不过这是值得的。<strong>熟悉一些基本的快捷键，操作效率就能显著提升。</strong><ul>
+<li>用上瘾之后，可能甚至恨不得连触控板都不用了（走火入魔）…… 显然我是尝试过的，感觉并不好。触控板的操作更符合直觉，几乎没有学习成本。<br>（而试图用键盘完全取代触控板的 Apps，要不学习曲线不平缓，很难适应，否则还不如直接用触控板操作来得快，而且手指的操作压力也很大，长时间敲键盘为生的人手指手腕是会痛的。）</li>
+</ul>
+</li>
+<li>先熟悉通用性强、常用的 macOS 系统快捷键。<br>  绝大多数第三方 Apps 都会遵循系统快捷键的设计逻辑和设置规律，复用大多数常用的快捷键，降低学习新 App 快捷键的成本，以便用户使用。</li>
+<li>再熟悉常用 Apps 的常用快捷键。<br>  日常使用的 Apps 一般就没几个，可以参考二八法则，只学习其中 20% 常用 Apps 的 20% 常用快捷键，就能以较低的学习成本大大提升效率。</li>
+<li>继续进阶，你可以改键盘的键位，使用增强功能的 Apps。<ul>
+<li>修改不合理（你认为的）的键盘键位。比如我也认同「大写锁定」功能不值得占据 <code>⇪</code> 这个好按的键位，中文使用者就很少输入大写字母，连问多英文使用者也会修改这个键。<ul>
+<li>可能你适应了新键位之后，你用别人的电脑或者别人用你的 Mac 都会不方便，但是你想想你是不是正常情况下 98% 都只使用自己的设备，所以这么提升效率是值得的！</li>
+</ul>
+</li>
+<li>许多 Apps 可以增强系统的功能，比如防止 Mac 睡眠、调整窗口布局、截图录屏、科学上网、隐藏菜单栏无用的图标等，总有一款能解决你的痛点。</li>
+</ul>
+</li>
+</ul>
+<h2 id="键位符号、写法说明"><a href="#键位符号、写法说明" class="headerlink" title="键位符号、写法说明"></a>键位符号、写法说明</h2><p><code></code> Power<br><code>⌘</code> Command ( Cmd ) | Window （ on Windows ）<br><code>⌥</code> Option | Alt ( on Windows )<br><code>^</code> Control ( Ctrl )<br><code>⇧</code> Shift ( Shf )<br><code>⇪</code> CapsLock 大小写切换<br><code>⇥</code> Tab<br><code>⎋</code> Escape ( Esc )<br><code>↩</code> Return ( Ret ) | Enter ( on Windows ) 回车<br><code>凵</code> Space 空格<br><code>↑</code> <code>↓</code> <code>←</code> <code>→</code> Up, Down, Left, Right 方向键<br><code>⌫</code> Delete ( Del ) | Backspace ( on Windows ) 删除/退格<br><code>Num</code> Digits: 0 ~ 9</p>
+<p><code>^ a</code> = Control + a<br><code>⎋, b</code> = 先按 <code>⎋</code> 再按 <code>b</code></p>
+<h2 id="macOS"><a href="#macOS" class="headerlink" title="macOS"></a>macOS</h2><p>Ref: 《 <a href="https://support.apple.com/zh-cn/HT201236" target="_blank" rel="external">Mac 键盘快捷键</a> 》</p>
+<h3 id="Default-默认"><a href="#Default-默认" class="headerlink" title="Default 默认"></a>Default 默认</h3><h4 id="基本的-zxcv"><a href="#基本的-zxcv" class="headerlink" title="基本的 zxcv"></a>基本的 zxcv</h4><p>剪切、复制、粘贴、撤销、重做</p>
+<ul>
+<li><strong>剪切、复制、粘贴</strong>：最高频的操作，Windows 上是 <code>^ x</code>、<code>^ c</code>、<code>^ v</code>；而 macOS 上则是 <code>⌘ x</code>、<code>⌘ c</code>、<code>⌘ v</code>。<ul>
+<li>刚从 Windows 切换到 macOS 时会不适应。习惯之后就会发现 <code>⌘</code> 在空格旁边，离大拇指很近，它相关的组合快捷键其实比 <code>^</code> 的敲起来舒服多了。</li>
+</ul>
+</li>
+<li><strong>撤销、重做</strong>：不同于 Windows 用 <code>^ y</code> 来进行「重做」（即取消 <code>^ z</code> 的撤销操作）；而 macOS 用 <code>⌘ ⇧ Z</code>。<ul>
+<li>当你 macOS 的快捷键用多了，会习惯猜测一个操作对应的快捷键组合额外加上 <code>⇧</code> 后，就能触发相反的操作。正如上文的 <code>⌘ ⇧ Z</code> 之于 <code>⌘ z</code> ，又如 <code>⌘ ⇧ ⇥</code> 之于 <code>⌘ ⇥</code>（即「正向/反向切换 Apps」）。</li>
+</ul>
+</li>
+<li><strong>启示</strong>：「<strong>相关快捷键之间存在内在的逻辑规律和关联</strong>」是个好设计。<ul>
+<li>它能促进用户对「某一操作该对应哪个快捷键组合」产生一种直觉，用户可以籍此更容易猜出想要的快捷键在哪，大大减轻记忆快捷键的负担。<ul>
+<li>比如，上述的「快捷键组合加 <code>⇧</code> 能触发反向操作」的规律。</li>
+</ul>
+</li>
+<li>还有 <strong>某操作所用的快捷键组合，通常跟该操作的英语（单词）表述有关</strong>：<ul>
+<li>比如，以上 <code>⌘ c</code> 的 <code>c</code> 即 <code>copy</code>，<code>⌘ x</code> 的 <code>x</code> 像剪刀，也能跟 <code>cut</code> 扯上关系。</li>
+<li>快捷键组合确实有这样的规律，但是也不总是这样。比如，<code>⌘ v</code> 的 <code>v</code> 跟 <code>paste</code> 就没有明显的关联。题外话：当然你仍然可以说 <code>v</code> 像插入内容的标识，或者说它暗示 <code>verbatim</code>（逐字的、一字不差的），实际上这两个说法太 afterism（后验主义）了。</li>
+<li>为什么「撤销、剪切、复制、粘贴」的快捷键对应 <code>zxcv</code> 等键位？<a href="https://www.google.com/#newwindow=1&amp;safe=active&amp;q=why+v+for+paste&amp;*" target="_blank" rel="external">最显而易见的原因</a> 是「<code>zxv</code> 离 <code>c</code> copy 很近，这些操作互有关联，适合放到一起，敲起来更方便。」</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="文本编辑"><a href="#文本编辑" class="headerlink" title="文本编辑"></a>文本编辑</h4><ul>
+<li><strong>基本</strong>：<code>⌘ b</code> 加粗、<code>⌘ i</code> 斜体、<code>⌘ u</code> 下划线，<code>⌘ =</code> / <code>⌘ -</code> 放大/缩小字体（或界面的显示）……</li>
+<li>进阶：<ul>
+<li><strong>选中</strong> 文本：（Selection）<ul>
+<li>按住 <code>⇧</code> 不放，再按 <code>↑↓←→</code> 等方向键，</li>
+</ul>
+</li>
+<li><strong>删除</strong>：<ul>
+<li><code>Fn ⌫</code> 后向删除字符，跟 <code>⌫</code> 前向删除相反。</li>
+<li><code>⌥ ⌫</code> 前向删除一个（中英）单词（或字符串），当然也有对应的 <code>Fn ⌥ ⌫</code> 后向操作。<br>  注意 macOS 对中文单词的判定并不总能合乎你的期待。</li>
+</ul>
+</li>
+<li><strong>Emacs</strong>：<br>  系统内置文本编辑控件内置部分 Emacs 式的编辑快捷键。<ul>
+<li>跳转：<code>^ a</code> 即 Windows 的 <code>Home</code>，<code>^e</code> 即 <code>End</code>。</li>
+<li>删除：<code>^ k</code> 即删除光标当前位置至行尾处的字符。</li>
+<li>方向：<code>^b</code> 即 <code>←</code>，<code>^ f</code> 即 <code>→</code> 等。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="文件、目录"><a href="#文件、目录" class="headerlink" title="文件、目录"></a>文件、目录</h4><p>移动、删除、预览、打开、向上、查看文件属性</p>
+<ul>
+<li><strong>文件移动</strong>：在 Windows 先用 <code>^ x</code> 剪切，再用 <code>^ v</code> 粘贴；而 macOS 则先用 <code>⌘ c</code> “复制”目标文件，再在目标目录下用 <code>⌘ ⌥ v</code> “粘贴”，此时文件「移动」成功！……<ul>
+<li>如果你习惯使用 Windows 后来才转用 macOS，可能会不适应 macOS Finder（文件管理器）移动文件的思路。(只有文件移动才会这样…奇葩)</li>
+<li>解释：先用 <code>⌘ c</code> 并非一定表示「复制」的操作，也可能是「移动」，具体是哪一种操作，取决于后续用哪个快捷键；如果后用 <code>⌘ v</code> 即是「复制、粘贴」，<code>⌘ ⌥ v</code> 则是「剪切、粘贴」即「移动」（你会发现这两个快捷键也是关联的，并不难记）。</li>
+<li><strong>进行文本操作时</strong>，还是用 <code>⌘ x</code> 剪切，用 <strong><code>⌘ ⌥ v</code> 会显示最近的剪切复制的文本历史，可以选择其中一个进行粘贴</strong>。</li>
+</ul>
+</li>
+<li><strong>删除</strong>：<code>⇧ ⌫</code>，只是进入废纸篓；完全删除则需要清空废纸篓，或者用命令行进行删除操作。</li>
+<li><strong>预览</strong>：选中文件，然后按空格键 <code>凵</code> 即可便捷地预览内容，这样一般情况下就用不着专门启动一个 App 来查看文件了，除非需要修改。配合 <a href="https://github.com/sindresorhus/quick-look-plugins" target="_blank" rel="external">预览插件</a> 效果更佳。</li>
+<li><strong>打开</strong>：Windows 上用户会习惯用 <code>↩</code> 来打开文件和应用；然而这样做在 macOS 则是 <code>重命名</code>，如需打开要用 <code>⌘ ↓</code>。 </li>
+<li><strong>向上</strong>：即跳转到上一层目录 <code>⌘ ↑</code>。</li>
+<li><strong>查看文件属性</strong>：<code>⌘ i</code> 通常打开这个「文件属性」信息框，是为了 —— <strong>修改这类文件默认用什么 App 打开</strong>，修改 App 的图标、获取其图标等。</li>
+<li>不常用/非必需：<ul>
+<li><strong>文件复制</strong>：macOS 用 <code>⌘ d</code> 即「制作副本」，等于在同一目录下先用 <code>⌘ c</code> 再用 <code>⌘ v</code>。</li>
+<li><strong>制作「替身」</strong>：你可能会将一些文件复制多份，然后放在不同地方，可能是为了便于访问。但是除非为了备份，否则这么做会令你难以对其进行有效的「控制版本」。<ul>
+<li>还不如用 <code>⌘ l</code> 为其制作一个「替身」，将其放到其它地方，例如桌面。「替身」用程序员的话来说，就是指向源文件的「指针」或者「软连接」。然后打开替身等于打开了原始文件，可以进行编辑；删除「替身」也不会影响到原始文件。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="其它常用"><a href="#其它常用" class="headerlink" title="其它常用"></a>其它常用</h4><ul>
+<li><strong>设置</strong>：<code>⌘ ,</code>，我印象中没碰到过不默认使用它来打开设置选项的 App。</li>
+<li><strong>窗口</strong>：<code>⌘ ^ f</code> 最大化，<code>⌘ h</code> 隐藏（相比之下 <code>⌘ m</code> 最小化就没用了），<code>⌘ ⌥ h</code> 隐藏当前窗口之外的所有窗口（很好用）。</li>
+<li><strong>浏览器</strong>：<code>⌘ [</code> 前进、<code>⌘ ]</code> 后退。在 Finder 中也能用。</li>
+<li><strong>输入法</strong>：<code>^ 凵</code> 切换输入法；注意系统自带输入法是用 <code>[</code> 和 <code>]</code> 进行候选字前后翻页的，而非一般的 <code>,</code> 和 <code>.</code>。</li>
+<li><strong>关机</strong>：记住 <code>^ </code> 关机就够用了，还有 <code>^ ⇧ </code> 屏幕睡眠、<code>⌘ ⌥ </code>（硬盘）睡眠。<br>  macOS 虽然越来越不稳定了，需要强制重启来恢复系统的崩溃（只是我的情况，毕竟我经常折腾操作系统）。</li>
+<li><strong>Spotlight</strong>：习惯使用 <code>⌘ 凵</code> 进行系统全局搜索，就不用总是打开 Finder 和 LaunchPad 来找文件和 Apps 了。</li>
+<li><strong>功能键</strong>：即键盘最顶上的一排按钮（2016 年底新款 MacBook Pro 取消这排实体按键），控制「屏幕亮度、音量、音乐播放」等按键较常用，「任务控制（F3 处）、LaunchPad（F4 处）」等可以由触摸板的手势「三指上划、拇指加另外三指内划」来代替（详见 <code>系统设置</code> → <code>触摸板</code> 处）。</li>
+<li>除去不想提的快捷键，没有想起来的那些，一般也都不太重要，在此略过。</li>
+</ul>
+<h3 id="Custom-自定义"><a href="#Custom-自定义" class="headerlink" title="Custom 自定义"></a>Custom 自定义</h3><ul>
+<li>在 <code>系统设置</code> → <code>键盘</code> → <code>快捷键</code> 中可以修改很多（不是全部）系统默认的快捷键。<ul>
+<li>主要是将一些你觉得不合理的快捷键组合改得顺手，或者将用不上的快捷键去掉，以免误触。<ul>
+<li>特别是对某些快捷键组合已经形成根深蒂固习惯的人，会记不住新的快捷键，经常按错。</li>
+</ul>
+</li>
+<li>其中左侧候选栏中的 <code>应用快捷键</code>，可以用来重写全部或指定应用的某些快捷键。</li>
+</ul>
+</li>
+</ul>
+<h2 id="浏览器"><a href="#浏览器" class="headerlink" title="浏览器"></a>浏览器</h2><p>作为最最常用的 App，最值得熟练使用快捷键提升效率。</p>
+<h3 id="常用通用快捷键"><a href="#常用通用快捷键" class="headerlink" title="常用通用快捷键"></a>常用通用快捷键</h3><ul>
+<li><strong>恢复（重新打开）最近关闭的标签页</strong>：<code>⌘ ⇧ T</code>，很有用的快捷键。<br>  特别是误关某些网页时，可以快速恢复而不用去浏览历史找。</li>
+<li>页面浏览：刷新 <code>⌘ r</code>（Windows 则用 <code>F5</code> 刷新）；<br>  <code>凵</code> 向下滚动一页，<code>⇧ 凵</code> 相反；<code>↑↓←→</code> 也可以小幅度滚动页面。</li>
+<li>访问历史：<code>⌘ [</code> 前进，<code>⌘ ]</code> 后退，详情 <code>⌘ y</code>。</li>
+<li>切换标签页（Tab）：<code>^ ⇥</code> 下一个（右），<code>^ ⇧ ⇥</code> 上一个（左）；<br>  <code>⌘ 1~9</code> 跳到第 1~9 个标签页，如果一共超过 9 个标签页，<code>⌘ 9</code> 则是跳转到最后一个而非第 9 个。</li>
+<li>显示比例：<code>⌘ =</code> 放大，<code>⌘ -</code> 缩小，<code>⌘ 0</code> 恢复正常（默认）。 </li>
+<li>收藏夹：<code>⌘ d</code> 添加到收藏夹，<code>⌘ ⌥ b</code> 管理收藏夹。</li>
+<li>其它：<code>⌘ ,</code> 设置，<code>⌘ ⇧ H</code> 主页……</li>
+</ul>
+<h3 id="进阶-Vim-式插件"><a href="#进阶-Vim-式插件" class="headerlink" title="进阶 Vim 式插件"></a>进阶 Vim 式插件</h3><ul>
+<li><a href="http://www.firefox.com.cn/" target="_blank" rel="external">Firefox</a> + <a href="https://github.com/akhodakivskiy/VimFx" target="_blank" rel="external">VimFX</a><ul>
+<li>熟悉 Vim 的话，用起来很顺手；在学 Vim 的话，在一定程度上（设置键位的含义有一定关联但不全都是这样）可以帮助你熟练 Vim 的键位操作。</li>
+<li>高效率！只用基本的操作，你就能感觉不错。毕竟能用一个指头的就不用两个指头，指头能在越靠近键盘中心区的操作就越省力。</li>
+<li>进阶的操作可以慢慢来。<br>配合 <a href="https://github.com/akhodakivskiy/VimFx" target="_blank" rel="external">VimFX</a> 拓展，可在浏览器内 <strong>全局使用 Vim 键位</strong> 浏览网页、操作浏览器！键盘党神器。</li>
+<li>Chrome 很好，但更耗电，影响到了 Mac 的续航；更重要的是类 VimFX 的 <a href="https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb" target="_blank" rel="external">Vimium</a>、<a href="https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh" target="_blank" rel="external">cVim</a> 等 Chrome 拓展无法在页面未加载完毕的情况下使用 Vim 键位，不够极致。</li>
+<li>不过 Firefox 冷启动较慢，界面不够 Safari、Chrome 漂亮。毕竟工具是拿来用的，最重要的是高效。<br>（可惜我使用时会碰到一些奇怪的 bug）<br>用 Vim 的键位去浏览、导航网页，减少使用鼠标的使用，键盘党神器！</li>
+<li>Firefox : <a href="https://github.com/akhodakivskiy/VimFx" target="_blank" rel="external"><strong>VimFX</strong></a> <sup>Favorite, Best</sup><ul>
+<li><a href="http://www.vimperator.org/" target="_blank" rel="external"><del>Vimperator</del></a> 拓展功能太强大，响应速度、稳定性、外观和易用性不如 VimFX。</li>
+<li>我的 VimFX <a href="/mac_shortcuts/#VimFX">设置</a></li>
+</ul>
+</li>
+<li>Chrome : <a href="https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en" target="_blank" rel="external"><strong>Vimium</strong></a> <sup>Simple</sup><ul>
+<li><a href="https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh?hl=en" target="_blank" rel="external"><del>cVim</del></a> <sup>Powerful</sup> 功能更强大、丰富、可配置，但需要用类似 <code>.vimrc</code> 的文本方式进行调整功能配置，比较麻烦。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Chrome + Vimium<ul>
+<li>（根据 Tools 的说法来说）不如 Firefox 全局来的爽快<br>（要不是 Firefox 有 bug，我就坚持用 Firefox 了…… 真是太可惜了）</li>
+<li>等待页面加载完，才能用快捷键，有点遗憾，但勉强可以接受！总好过没有！</li>
+<li>可以考虑 <a href="">cVim</a>，不过要靠文本来进行键位配置。我作为工具控当然不怕这么折腾配置，虽然有我信服的 Geek 用户推荐 cVim 更好用，但是现在的我除非心血来潮，否则绝对不想再折腾了，Vimium 够用了。</li>
+</ul>
+</li>
+</ul>
+<h3 id="其它插件"><a href="#其它插件" class="headerlink" title="其它插件"></a>其它插件</h3><ul>
+<li>TODO</li>
+<li>根据需求自行选择。<ul>
+<li>不要盲目相信插件的宣传简介，还有别人吹嘘的效果，自己体会，一切根据自己感受来选择，没有明显的提升，还让浏览器变得更慢更容易崩溃得不偿失……</li>
+<li>尽量保持精简。除了必要、大大提高效率的插件或 App，就都卸载了吧。</li>
+</ul>
+</li>
+<li>还有 Chrome App，可以选择比如 Postman 类似的 App。<ul>
+<li>当然用起来肯定不如原生（Native）App 好用，特别是 Web App 封装出来的原生 App，开发是很方便，大多数用起来不敢恭维（不然我就用滴滴清单而不是 2Do 了）。</li>
+</ul>
+</li>
+</ul>
+<h2 id="命令行"><a href="#命令行" class="headerlink" title="命令行"></a>命令行</h2><p>程序员相关。<br>工具链推荐：Zsh + Vim + tmux + iTerm 2</p>
+<ul>
+<li><a href="http://zsh.sourceforge.net/" target="_blank" rel="external"><strong>Zsh</strong></a><br>  可能 <a href="https://fishshell.com/" target="_blank" rel="external">Fish</a> 配置、使用更友好一点点，但是它对 Bash 的兼容性不够好，Bash 的脚本或指令组合不一定能在 Fish 上跑，相反亦然，影响通用性。Zsh 在这方面则基本没有问题。<a href="https://en.wikipedia.org/wiki/Comparison_of_command_shells" target="_blank" rel="external">综合各方面进行对比</a>，我认为 Zsh 暂时是各种 Shell 中最好的选择。<ul>
+<li><strong>快速切换目录</strong>：最常用最便捷的功能<ul>
+<li>直接输入目录的路径，毋需添加 cd 指令，即可切换到指定路径。</li>
+<li>输入不完整路径（或者指令）然后按 <code>⇥</code>，自动补全目录（或指令），或者列出相似的候选项。</li>
+<li>输入 <code>-</code> 或 <code>1</code> 命令切换到上一个目录，<code>1</code> ~ <code>9</code> 则是回到之前第 n 个访问的目录。</li>
+</ul>
+</li>
+<li>Shell 内置的 <strong>Emacs 式快捷键</strong>（keybindings）<ul>
+<li>跳转：<code>^ a</code> 光标移至行首，<code>^ e</code> 移至行末。</li>
+<li>删除：<code>^ u</code> 删除光标当前位置至行首处的输入，<code>^ k</code> 相反，即删除至行末；<br>  <code>^ w</code> 删除前一个单词，<code>^ h</code> = <code>⌫</code> 删除前一个字符。</li>
+<li>移动光标：<code>⎋, b</code> 移动到上一个单词，<code>⎋, f</code> 移动到下一个（<code>meta b</code> / <code>meta f</code> for Bash）。</li>
+<li>命令行历史：<code>↑</code> 上一条命令，<code>↓</code> 下一条（<code>^ p</code> / <code>^ n</code> 也可以）。</li>
+<li>确认：<code>^ h</code> = <code>↩</code> 确认指令。</li>
+</ul>
+</li>
+<li><strong>命令别名</strong>（Aliases）<ul>
+<li>通常用来给常用命令指定一个「缩写」，一遍更便捷地输入长的命令组合。作为程序员，我的手速、输入准确率都一般，就特别喜欢输入缩写命令。<ul>
+<li>例如，我让 <code>gs</code> = <code>git status</code>，<code>gp</code> = <code>git push</code> 等（见 <a href="/cmd/git_note/#Zsh-Aliases">Git Aliases</a> 和我的 <a href="https://github.com/IceHe/oh-my-zsh/blob/master/.zshrc" target="_blank" rel="external">.zshrc</a> 配置）。</li>
+</ul>
+</li>
+<li><code>alias</code> 命令，列出所有的 aliases。</li>
+</ul>
+</li>
+<li>Zsh 还有许多好东西，这里暂略，可以根据自己的需求，自行查阅学习。<ul>
+<li>可以简单参阅我的 <a href="https://github.com/IceHe/oh-my-zsh/blob/master/.zshrc" target="_blank" rel="external">.zshrc</a> 配置。注意以上特性并不都是 Zsh 特有的，详看 <a href="https://en.wikipedia.org/wiki/Comparison_of_command_shells" target="_blank" rel="external">各种 Shell 的对比</a>。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="http://www.vim.org/" target="_blank" rel="external"><strong>Vim</strong></a>（也可以选择 <a href="https://neovim.io/" target="_blank" rel="external">Neovim</a>）<ul>
+<li>首先，通用性有保证！服务器没有 GUI 界面，可能没有 Emacs，但是基本不可能没有 Vi*，学会 Vim 保证你在几乎任何服务器环境下都能无碍地编辑文本。</li>
+<li>其次，拓展广。很多 IDE 和编辑器都有 Vim 插件，不用记太多各个 Apps 专有的快捷键，学会 Vim 就可以在其中进行绝大多数常用的文本编辑操作，减轻记忆负担，提升效率。<ul>
+<li>例如，Sublime Text 系列就自带 Vintage Mode 专门支持 Vim 键位的操作。</li>
+</ul>
+</li>
+<li>各种 Shell（命令行）除了自带 Emacs 式的快捷键，其实也有 Vim 式的快捷键，可以尝试一下，看看自己习不习惯。</li>
+</ul>
+</li>
+<li><a href="https://tmux.github.io/" target="_blank" rel="external"><strong>tmux</strong></a><br>  终端多路复用软件，即命令行中的「窗口管理」、「分屏工具」。<ul>
+<li>允许一个用户在一个终端窗口或一个远程终端会话中，使用多个终端会话。</li>
+<li>tmux 由 <a href="https://www.gnu.org/software/screen/manual/screen.html" target="_blank" rel="external">screen</a> 发展过来，许多命令都是类似的。screen 虽不如后来者 tmux 易用、强大、美观，但是更通用，大多数服务器都有 screen 命令。</li>
+</ul>
+</li>
+<li><a href="https://www.iterm2.com/" target="_blank" rel="external"><strong>iTerm2</strong></a><br>  功能、可配置性比系统自带的终端 Terminal 强大许多。对命令行的使用环境要求不高的话，用 Terminal 也没差，只要适合自己，够用就好。</li>
+</ul>
+<h2 id="全局进阶"><a href="#全局进阶" class="headerlink" title="全局进阶"></a>全局进阶</h2><ul>
+<li>Karabiner<ul>
+<li>改键：</li>
+<li>我将 <code>⇪</code> 改成 <code>^</code>。这么敲跟 <code>^</code>、<code>⌘</code> 组合的快捷键会顺手很多。</li>
+<li>原来的 <code>^</code> 键则用于触发 <code>^ 凵</code> 以便一键切换输入法。<ul>
+<li>用专用的单键 <code>^</code> 比用 <code>⇧</code> 或 <code>⇪</code> 来切换输入法，更不容易影响正常的操作。特别是用 Vim 输入中文时，因为 Vim 有太多跟 <code>⇧</code> 相关的操作。</li>
+<li>我用右手掌小鱼际（即靠近小指的部分手掌）去按原来的 <code>^</code> 键位，觉得比较方便，这样的话双手就基本不用远离键盘中心区了（参考盲打键盘的标准姿势）。</li>
+</ul>
+</li>
+<li>我从键盘上完全移除了 <code>⇪</code> 的大写锁定功能（不改其它键来实现该功能）。<ul>
+<li>因为很少用到，Vim 党可以先以小写写完，在用 <code>U</code> 指令全部改写为大写，大不了全用 <code>⇧</code> 来输入大写字母。</li>
+</ul>
+</li>
+<li>右 <code>⌘</code> 改成 <code>⎋</code>。因为左小指挪到键盘左上角的 <code>⎋</code> 略远，<ul>
+<li>正如上文所说，这样的话双手就基本不用远离键盘中心区了（参考盲打键盘的标准姿势）。</li>
+<li>而且等于让比较强健的右大拇指去代替比较弱的小拇指（高强度使用经常会疼）去按 <code>⎋</code>。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Manico<ul>
+<li>快速启动、切换 Apps</li>
+</ul>
+</li>
+<li>Keyboard Maestro<ul>
+<li>很不错，可以代替很多软件。<ul>
+<li>脚本软件（AppleScript 的基本操作）</li>
+<li>TextExpander</li>
+<li>快捷键设置软件！如 Manico。<ul>
+<li>如：快速切换或打开软件<ul>
+<li>通过简单的条件判断，可以设置开启条件、场景等等</li>
+<li>例如网络、蓝牙、相关App开启状态等相关条件</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Karabiner + Seil<ul>
+<li>可以该键位，让键位更合理，用更简单的动作来操作<ul>
+<li>一个按键来切换输入法。</li>
+<li>Esc、Ctrl 位置调整！</li>
+<li>数字键、功能键、方向键、符号键等的调整</li>
+</ul>
+</li>
+<li>（注意：暂时不支持 macOS Sierra 及往后的版本。新一代开发中 <a href="https://github.com/tekezo/Karabiner-Elements6VGi）" target="_blank" rel="external">https://github.com/tekezo/Karabiner-Elements6VGi）</a></li>
+</ul>
+</li>
+<li>Spectacle | Moom<ul>
+<li>窗口大小调动！</li>
+</ul>
+</li>
+<li>HyperSwitchy<ul>
+<li>程序窗口切换！<ul>
+<li>系统级别的不好用，简直有 Bug</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Bartender 2<ul>
+<li>简洁的工具栏</li>
+</ul>
+</li>
+<li>ShowyEdge <ul>
+<li>直观查看输入法状态<br>istat bar ?</li>
+</ul>
+</li>
+<li>HazeOver<ul>
+<li>给非活跃的 App 窗口打上阴影！</li>
+</ul>
+</li>
+<li>Alfred？<ul>
+<li>我用不上，毕竟我会自己写 AppleScript 脚本等等，直接调 快捷键去触发它们就好了。</li>
+<li>或者将脚本封装成 macApp 用 Spotlight 就能迅速匹配到该 App，然后迅速启动。</li>
+<li>我这个效率老鸟，真是想不到自己什么场景需要 Alfred 了？（希望可以有其它人告诉我这个答案）</li>
+</ul>
+</li>
+<li>Quick Look Plugins<ul>
+<li>按空格键，可以预览看图片、文本等等，比较方便，不一定非要用 App 打开才能看到内容。</li>
+</ul>
+</li>
+<li>AppleScript<ul>
+<li>进阶：直接操控操作系统的事件、配置、窗口，它必须学。</li>
+<li>其实也你一般没必要折腾，一般就有相关的 App 帮你解决问题，总会有办法的。</li>
+</ul>
+</li>
+<li>Automator<ul>
+<li>macOS 的按键精灵，有时候写 jQuery、JS 脚本不方便，Shell、Python、PHP 以致 AppleScript 写起来都麻烦，不如直接手动做。</li>
+<li>这是若只是重复性的简单操作，可能还不如直接 Automator 直接录制键盘、鼠标的操作来呢！</li>
+</ul>
+</li>
+</ul>
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>其实没什么，不过这些我可是折腾了挺久的。<br>其实并不值得折腾太久，但还是要好好稍微研究一下的，还是可以节省不少时间的，只要不要折腾过头。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      我这个「工具控、键盘党」如何使用 Mac。
+    
+    </summary>
+    
+      <category term="Mac" scheme="http://icehe.me/categories/Mac/"/>
+    
+    
+      <category term="Mac" scheme="http://icehe.me/tags/Mac/"/>
+    
+  </entry>
   
   <entry>
     <title>2016 Winter</title>
@@ -2174,7 +2524,7 @@ img.fix_height {
     <link href="http://icehe.me/tech/"/>
     <id>http://icehe.me/tech/</id>
     <published>2016-06-13T16:00:00.000Z</published>
-    <updated>2017-03-14T16:00:00.000Z</updated>
+    <updated>2017-03-28T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li>好内容很多，但人生太有限，不可尽揽。本来我还想着给碰到的每一篇好文章写下笔记呢……</li>
@@ -2245,6 +2595,7 @@ img.fix_height {
 <h2 id="Web-1"><a href="#Web-1" class="headerlink" title="Web"></a>Web</h2><ul>
 <li><a href="http://openresty.org/download/agentzh-nginx-tutorials-zhcn.html" target="_blank" rel="external">Nginx 教程</a> <sup><em>todo</em></sup></li>
 <li><a href="http://www.infoq.com/cn/articles/https-difficult" target="_blank" rel="external">HTTPS 之难</a></li>
+<li><a href="http://louiszhai.github.io/2016/11/02/ajax/" target="_blank" rel="external">AJAX 知识体系梳理</a></li>
 <li><a href="https://www.zhihu.com/question/20790576" target="_blank" rel="external">大公司里怎样开发和部署前端代码？</a><sup><strong>Best</strong></sup></li>
 <li><a href="https://github.com/fouber/blog/issues/10" target="_blank" rel="external">前端工程：基础篇</a> - 分治：组件化开发与资源管理 <sup><strong>Best</strong></sup></li>
 <li><a href="http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=213726432&amp;idx=1&amp;sn=337e2442c23c811cb96bd8315e3d4916&amp;scene=5&amp;srcid=09208rmQfdovBALp0y138PM3#rd" target="_blank" rel="external">TCP/IP 协议栈及 OSI 参考模型详解</a></li>
@@ -3413,32 +3764,49 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <h3 id="Script-Editor"><a href="#Script-Editor" class="headerlink" title="Script Editor"></a>Script Editor</h3><p><code>⌘ ⇧ O</code> Open Dictionary<br><code>⌘ r</code> Run the script<br><code>⌘ .</code> Stop the script</p>
 <h2 id="IDEs"><a href="#IDEs" class="headerlink" title="IDEs"></a>IDEs</h2><h3 id="PhpStorm"><a href="#PhpStorm" class="headerlink" title="PhpStorm"></a><a href="https://www.jetbrains.com/phpstorm/" target="_blank" rel="external">PhpStorm</a></h3><ul>
 <li><p>Code</p>
-<p>  <strong><code>⌘ ⇧ ↩</code> Complete Current Statement</strong><br>  <strong><code>⌘ ⌥ l</code> Reformat Code</strong><br>  <strong><code>⌘ ⇧ V</code> Copy from History</strong></p>
-<p>  <code>^ 凵</code> Auto Complete<br>  <code>⇧ F6</code> Rename <code>$variableName</code>, <code>ClassName</code>, <code>functionName</code> ( Auto rename other related code )</p>
+<p>  <strong><code>^ 凵</code> Auto Complete</strong><br>  <strong><code>⌥ ↩</code> Show Intention Actions</strong></p>
+<p>  <strong><code>⌘ ⌥ l</code> Reformat Code</strong><br>  <strong><code>⌘ ⇧ G</code> Select All Occurrences</strong><br>  <strong><code>⌘ ⇧ ↩</code> Complete Current Statement</strong><br>  <strong><code>⌘ ⇧ V</code> Copy from History</strong></p>
+<p>  <strong><code>⌥ ↑</code> Extend Selection</strong><br>  <strong><code>⌥ ↓</code> Shrink Selection</strong></p>
+<p>  <code>⌘ /</code> Line Comment<br>  <strong><code>⌘ ⌥ /</code> Block Comment</strong></p>
+<p>  <code>^ ⌥ e</code> Rename <code>$variableName</code>, <code>ClassName</code>, <code>functionName</code> ( Auto rename other related code )<br>  <strong><code>⌥ ^ r</code> Refactor This</strong></p>
+<p>  <strong><code>^ ⌥ h</code> Toggle Parameter Name</strong></p>
 </li>
 <li><p>Debug</p>
-<p>  <strong><code>⌘ ⇧ W</code> Add to Watches</strong></p>
-<p>  <code>^ ⌥ d</code> Debug<br>  <code>^ ⇧ B</code> Toggle BreakPoint<br>  <code>^ ⌥ r</code> Rerun</p>
-<p>  <code>^ ⌥ i</code> Step Into<br>  <code>^ ⌥ o</code> Step Out</p>
-<p>  <code>^ ⌥ j</code> Step Over ( Next Line )<br>  <code>^ ⌥ n</code> Resume ( Next BreakPoint )</p>
+<p>  <code>^ ⇧ B</code> Toggle BreakPoint<br>  <strong><code>^ ⇧ E</code> Edit BreakPoint ( Break if conditional is true)</strong><br>  <code>^ ⇧ w</code> Add to Watches</p>
+<p>  <code>^ ⇧ d</code> Debug<br>  <code>^ ⇧ r</code> Rerun<br>  <code>^ ⇧ s</code> Stop</p>
+<p>  <code>^ ⇧ i</code> Step Into<br>  <code>^ ⇧ o</code> Step Out</p>
+<p>  <code>^ ⇧ n</code> Next BreakPoint ( Resume )<br>  <code>^ ⇧ j</code> Next Line ( Step Over )</p>
 </li>
 <li><p>File</p>
-<p>  <code>⌘ e</code> Recent Files<br>  <code>⌘ ⇧ E</code> Recently Edited Files</p>
-<p>  <code>⌘ ⇧ C</code> Copy Path<br>  <strong><code>⌘ ⌥ ⇧ C</code> Copy Reference ( of cur line in cur file )</strong></p>
+<p>  <strong><code>⇧ ↩</code> Open in a new Editor Window</strong><br>  <code>⌘ ⇧ C</code> Copy Path</p>
 </li>
 <li><p>Find</p>
 <p>  <code>⌘ f</code> Find<br>  <code>⌘ ⇧ F</code> Find in Paths<br>  <code>⌘ r</code> Replace<br>  <code>⌘ ⇧ R</code> Replace in Paths</p>
-<p>  <code>⌘ o</code> Find Class<br>  <code>⌘ ⇧ O</code> Find File</p>
-<p>  <code>^ g</code> Find Usage</p>
-</li>
-<li><p>Edit</p>
-<p>  <code>⌘ /</code> Line Comment<br>  <strong><code>⌘ ⌥ /</code> Block Comment</strong></p>
+<p>  <code>⌘ o</code> Find Class<br>  <code>⌘ ⇧ O</code> Find File<br>  <strong><code>⌘ ⌥ o</code> Find Symbols ( Class, Files, Methods, Functions )</strong><br>  <code>⇧, ⇧</code> Search (Everything) Everywhere</p>
+<p>  <code>^ g</code> Find Usage<br>  <code>⌘ ⇧ A</code> Find Actions</p>
 </li>
 <li><p>Navigate</p>
-<p>  <strong><code>⌘ 1~9</code> Jump to the specified Tool Window</strong><br>  <strong><code>⌘ ↑</code> | <code>⌘ ↓</code> Jump to Navigation Bar</strong><br>  <code>⌘ ⇧ A</code> Find Actions</p>
+<p>  <code>⌘ e</code> Recent Files<br>  <code>⌘ ⇧ E</code> Recently Edited Files</p>
+<p>  <strong><code>⌘ ⇧ T</code> Test Subject : Jump to Test for current file | Create Test for it</strong><br>  <strong><code>⌘ ↑</code> | <code>⌘ ↓</code> Navigation Bar</strong><br>  <strong><code>⌘ u</code> Super Class or Interface</strong></p>
 <p>  <code>F2</code> Next Highlighted Error<br>  <code>⇧ F2</code> Prev Highlighted Error</p>
+<p>  <strong><code>⌘ 1~9</code> Jump to the specified Tool Window</strong><br>  <code>⌘ 1</code> Project<br>  <code>⌘ 2</code> Favorites ( Projects, Bookmarks, Breakpoints )<br>  <code>⌘ 3</code> Find<br>  <code>⌘ 4</code> Debug<br>  <code>⌘ 6</code> Todo<br>  <code>⌘ 7</code> Structure<br>  <code>⌘ 9</code> Version Control</p>
+</li>
+<li><p>Tools</p>
+<p>  <strong><code>^ ⇧ q</code> Terminal</strong><br>  <strong><code>^ ⇧ s</code> Test RESTful Web Service</strong></p>
+<p>  <strong><code>⌘ ^ h</code> Hide All Tool Windows</strong><br>  <strong><code>⌘ ⇧ ↑↓←→</code> Extend | Shrink Tool Window</strong></p>
+</li>
+<li><p>VCS: History &amp; Compare</p>
+<p>  <strong><code>⌥ ^ l</code> Local History -&gt; Show History</strong></p>
+  <!--__`⌥ ^ r` Git -> Resolve Conflicts__-->
+<p>  <strong><code>⌥ ^ a</code> Git -&gt; Annotate</strong><br>  <strong><code>⌥ ^ s</code> Git -&gt; Compare with the Same Repository Version</strong><br>  <strong><code>⌥ ^ b</code> Git -&gt; Compare with Branch …</strong><br>  <strong><code>⌥ ^ .</code> Git -&gt; Compare with …</strong></p>
 </li>
 </ul>
+<!--
+- TODO: 
+    - Language Injection in `⌥ ↩`
+    - Code -> Inspect Code… 语法检查等
+    - Code -> Locate Duplicates
+-->
 <h4 id="AceJump"><a href="#AceJump" class="headerlink" title="AceJump"></a><a href="https://plugins.jetbrains.com/plugin/7086" target="_blank" rel="external">AceJump</a></h4><p>It is a plugin for IDEs from <a href="https://www.jetbrains.com/" target="_blank" rel="external">JetBrains</a>.</p>
 <ul>
 <li>First, Simple hit <code>^ ;</code></li>
@@ -4157,85 +4525,124 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
     <link href="http://icehe.me/tools/"/>
     <id>http://icehe.me/tools/</id>
     <published>2015-11-20T16:00:00.000Z</published>
-    <updated>2017-03-24T16:00:00.000Z</updated>
+    <updated>2017-04-01T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
-<li>主要介绍 macOS、<a href="#iOS">iOS</a> 的 Apps，简要提及 <a href="#Windows">Windows</a>。</li>
+<li>主要介绍 <strong>macOS、<a href="#iOS">iOS</a> 的 Apps</strong>（下文 Apple 指代 macOS + iOS）；只简单提及 <a href="#Windows">Windows</a>。<ul>
+<li>适合自己的工具，才是最好的工具。所以本文仅供参考，自行尝试才是正道。</li>
+</ul>
+</li>
 <li><strong>Principles 原则</strong><ul>
-<li>选择工具，最重要的是「实用」，「美观」次之，「价格」不要太贵就行。</li>
-<li>「常用」的工具才值得折腾，使用机会少的工具就凑合着用吧，不要荒废大好时光。</li>
-<li>适合自己的工具，才是最好的工具。所以可以参考本文，进行尝试。</li>
+<li>「常用」的工具才值得折腾，不常用的工具凑合着用就行了。</li>
+<li>选择工具，最重要的是「实用」，「美观」次之，「价格」不要太贵就行。<ul>
+<li>稳定：不能引起系统崩溃，起码提升效率的收益得超过崩溃重启的损失。</li>
+<li>简洁易用：满足实际的需求即可，不需要花哨、多余的功能。<ul>
+<li>参考 KISS 和 SR 原则（Keep it simple stupid &amp; single responsibility）。</li>
+</ul>
+</li>
+<li>设置项齐全：可以根据自身习惯调整 App，让它用起来更顺手、省心。<ul>
+<li>比如，设置好 App 各常用功能的快捷键，以便调用；或设置好自动运行的条件，以后就不用再费心了。</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 <li><strong>References 部分参考</strong><ul>
-<li><a href="http://liqi.io/" target="_blank" rel="external">利器 - 创造者和他们的工具</a> 以及使用的方式和原则。</li>
-<li><a href="http://sspai.com/" target="_blank" rel="external">少数派</a> - 高质量 App 推荐媒体，关于 iOS、Mac、硬件。</li>
-<li><a href="http://zhuanlan.zhihu.com/MacTips" target="_blank" rel="external">MacTips</a> - Mac 使用经验和技巧。</li>
+<li><a href="http://sspai.com/" target="_blank" rel="external"><strong>少数派</strong></a> - 高质量 App 推荐媒体，关于 iOS、Mac、硬件。</li>
+<li><a href="http://liqi.io/" target="_blank" rel="external"><strong>利器 - 创造者和他们的工具</strong></a> 以及使用的方式和原则。</li>
+<li><a href="https://github.com/hzlzh/Best-App" target="_blank" rel="external"><strong>Best App</strong></a> - List in GitHub</li>
+<li><a href="https://www.zhihu.com/question/27870072" target="_blank" rel="external"><strong>macOS 有哪些值得装的小软件？</strong></a></li>
+<li><a href="http://zhuanlan.zhihu.com/MacTips" target="_blank" rel="external"><strong>MacTips</strong></a> - Mac 使用经验和技巧。</li>
+<li>…</li>
 </ul>
 </li>
-<li>The item with the supscript <sup><strong>Best</strong></sup>&nbsp; implies it is <code>one of the best</code> and so on.</li>
-<li>删除了一些原来有记录的 Apps，虽然我长时间用过它们，但还是觉得它们没有提及的价值（它们连弃用的理由也没必要说明）。</li>
+<li><strong>Meaning of Font Format 字体格式的含义</strong><ul>
+<li><del>删除线</del> 标识的一定是我现在不用的 Apps。</li>
+<li><strong>粗体</strong> 标识的通常是在用的 Apps。</li>
+<li>同时有 <strong><del>删除线和粗体</del></strong> 标识的 Apps，我现在不用但值得一试。</li>
+</ul>
+</li>
 </ul>
 <h2 id="Software"><a href="#Software" class="headerlink" title="Software"></a>Software</h2><h3 id="Common"><a href="#Common" class="headerlink" title="Common"></a>Common</h3><ul>
-<li>Usual<ul>
-<li><a href="https://www.yinxiang.com/" target="_blank" rel="external">Evernote (Premium)</a> <sup>Favorite</sup><br>  云笔记，第二大脑（知识管理）。<ul>
-<li>好记性不如烂笔头，而如今知识更新之快，纸笔已跟不上，于是笔记软件大放异彩。云端存储同步，不怕丢，便于检索，甚至搜索图片中的文字。总是死记硬背没有出路，不能被检索的知识毫无意义。<!-- - 从许多备选中选择了 Evernote，是因为它提供了最为开放的可编程 API，我可以写脚本定制进阶的笔记操作。 --></li>
-</ul>
-</li>
-<li><a href="https://www.2doapp.com/" target="_blank" rel="external">2Do</a> <sup>Favorite</sup><br>  GTD 类事务管理。<ul>
-<li>功能齐全、好用，用法可简可繁。快捷键完备，深得我这个键盘党的喜爱！推荐使用 iCloud Reminders 的 CalDAV 同步方式。</li>
-<li>一开始用 <a href="http://doit.im/cn/" target="_blank" rel="external">Doit.im</a> 入门 GTD，虽然它的 Web 端的操作很极致高效，但客户端做得不尽人意。后来发现自己的生活很规律，无需复杂的管理，于是只用 Apple 自带的 Calendar。考虑过团队协作类的 App，如 <a href="https://worktile.com/" target="_blank" rel="external">Worktile</a>，但团队协作的功能都用不上，个人管理的功能又不够简便易用。后来又用免费版 <a href="https://www.wunderlist.com/zh/" target="_blank" rel="external">Wunderlist</a> 了，任务管理的操作远不如 Web 端的 Doit.im 极致，但客户端做得不错，勉强满足个人需求。现在用 2Do。</li>
-</ul>
-</li>
-<li><a href="https://agilebits.com/onepassword" target="_blank" rel="external">1Password</a><br>  密码管理。一（两）个密码管理所有其它密码，可自动填写网站的帐号和密码表单进行登录。<ul>
-<li>以前一直用不惯，觉得用浏览器自带的自动登录和 iCloud 的 KeyChain Access 来记录管理帐号和密码足矣。工作之后经济独立了，更加注意保护自己的个人隐私和财产安全了，要管理相关的虚拟信息多而杂乱，还有部分需要额外的加密。所以不得不开始使用密码管理工具。</li>
-<li>Other choices :<ul>
-<li><a href="https://www.dashlane.com/" target="_blank" rel="external"><strong>Dashlane</strong></a> : Excellent but expensive!</li>
-<li><a href="https://lastpass.com/" target="_blank" rel="external"><strong>LastPass</strong></a> : Able to use for free.</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>双拼输入方案！<sup>Favorite</sup><br>  高效，易学！比五笔容易掌握得多，习得的性价比高，赶紧走出你的舒适区来试试双拼吧！<ul>
-<li><a href="http://sspai.com/32809" target="_blank" rel="external">《做少数派中的少数派：双拼输入快速入门》</a></li>
-<li><a href="http://sspai.com/33019" target="_blank" rel="external">《选择输入法的哲学：兼论双拼的优缺点》</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<hr>
-<ul>
 <li>Web<ul>
-<li><a href="https://portal.shadowsocks.com/" target="_blank" rel="external">Shawdowsocks</a> <sup>Ladder</sup><ul>
-<li>首选的 PC 番羽土啬方案：<br>  Shadowsocks 服务 + Mac 的 <a href="https://github.com/shadowsocks/ShadowsocksX-NG" target="_blank" rel="external">ShadowsocksX-NG</a> + 浏览器的 proxy 类插件：<br>  如 FireFox 的 <a href="https://getfoxyproxy.org/" target="_blank" rel="external">FoxyProxy</a>，Chrome 的 <a href="https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?hl=en" target="_blank" rel="external">SwitchyOmega</a>。</li>
-<li>备选方案：<a href="https://www.cup.com/staticip/?=panda" target="_blank" rel="external">VPN</a> + <a href="https://github.com/fivesheep/chnroutes" target="_blank" rel="external">CHNRoute</a> + <a href="http://www.thekelleys.org.uk/dnsmasq/doc.html" target="_blank" rel="external">Dnsmasq</a>。</li>
+<li><a href="https://portal.shadowsocks.com/" target="_blank" rel="external"><strong>Shawdowsocks</strong></a> <sup>Ladder</sup><ul>
+<li>首选的 PC 番羽土啬方案：<br>  Shadowsocks 服务 + Mac 的 <a href="https://github.com/shadowsocks/ShadowsocksX-NG" target="_blank" rel="external"><strong>ShadowsocksX-NG</strong></a> + 浏览器的 proxy 类插件：<br>  如 FireFox 的 <a href="https://getfoxyproxy.org/" target="_blank" rel="external"><strong>FoxyProxy</strong></a>，Chrome 的 <a href="https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?hl=en" target="_blank" rel="external"><strong>SwitchyOmega</strong></a>。<ul>
+<li>ShadowsocksX、<a href="https://github.com/shadowsocks/ShadowsocksX-NG" target="_blank" rel="external">ShadowsocksX-NG</a> 等可以用更强大的 <a href="https://nssurge.com/" target="_blank" rel="external">Surge</a> 替换。</li>
 </ul>
 </li>
-<li><a href="https://www.google.com/chrome/" target="_blank" rel="external">Chrome</a> <sup>Most Usual</sup><br>  用 Inspect Element 等 Develop Tools 做 Web 的开发、调试（远胜 FireFox 的半吊子 Firebug ）。</li>
-<li><a href="http://www.firefox.com.cn/" target="_blank" rel="external">Firefox</a> <sup>Favorite</sup><br>  配合 <a href="https://github.com/akhodakivskiy/VimFx" target="_blank" rel="external">VimFX</a> 拓展，可在浏览器内 <strong>全局使用 Vim 键位</strong> 浏览网页、操作浏览器！键盘党神器。<ul>
-<li>Chrome 很好，但更耗电，影响到了 Mac 的续航；更重要的是类 VimFX 的 <a href="https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb" target="_blank" rel="external">Vimium</a>、<a href="https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh" target="_blank" rel="external">cVim</a> 等 Chrome 拓展无法在页面未加载完毕的情况下使用 Vim 键位，不够极致。</li>
-<li>不过 Firefox 冷启动较慢，界面不够 Safari、Chrome 漂亮。毕竟工具是拿来用的，最重要的是高效。<br>（可惜我使用时会碰到一些奇怪的 bug）</li>
+<li>备选方案：<a href="https://www.cup.com/staticip/?=panda" target="_blank" rel="external"><strong>VPN</strong></a> + <a href="https://github.com/fivesheep/chnroutes" target="_blank" rel="external"><strong>CHNRoute</strong></a> + <a href="http://www.thekelleys.org.uk/dnsmasq/doc.html" target="_blank" rel="external"><strong>Dnsmasq</strong></a>。</li>
+</ul>
+</li>
+<li><a href="http://www.firefox.com.cn/" target="_blank" rel="external"><strong>Firefox</strong></a> <sup>Favorite</sup><ul>
+<li>配合 <a href="https://github.com/akhodakivskiy/VimFx" target="_blank" rel="external"><strong>VimFX</strong></a> 拓展，可在浏览器内 <strong>全局使用 Vim 键位</strong> 浏览网页、操作浏览器！键盘党神器。</li>
+<li>不过 Firefox 冷启动较慢，界面不够 Safari、Chrome 漂亮，偶然会遇到一些奇怪的 bug。毕竟工具是拿来用的，最重要的是高效。</li>
+</ul>
+</li>
+<li><a href="https://www.google.com/chrome/" target="_blank" rel="external"><strong>Chrome</strong></a> <sup>Most Usual</sup><ul>
+<li>用 Inspect Element、Postman 等 Develop Tools 做 Web 开发、调试，远比 Firefox 顺手。</li>
+<li>Chrome 很好，但更耗电，影响到了 Mac 的续航；更重要的是类似 VimFX 的 <a href="https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb" target="_blank" rel="external"><strong>Vimium</strong></a>、<a href="https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh" target="_blank" rel="external"><strong>cVim</strong></a> 等 Extensions 无法在页面未加载完毕的情况下使用 Vim 键位，不够极致，所以我更倾向于使用 Firefox + VimFX。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Usual<ul>
+<li><a href="https://www.2doapp.com/" target="_blank" rel="external"><strong>2Do</strong></a> <sup>Favorite</sup><br>  GTD 类事务管理。<ul>
+<li>功能齐全、好用，用法可简可繁。快捷键完备，深得我这个键盘党的喜爱！</li>
+<li>一开始用 <a href="http://doit.im/cn/" target="_blank" rel="external"><strong>Doit.im</strong></a> 入门 GTD，虽然它的 Web 端的操作很极致高效，可是客户端做得不尽人意。然后发现自己的生活比较规律，觉得 Apple 自带的 <a href="https://support.apple.com/zh-cn/HT202835" target="_blank" rel="external"><strong>Calendar</strong></a> 够用。后来又改用免费版 <a href="https://www.wunderlist.com/zh/" target="_blank" rel="external"><strong>Wunderlist</strong></a>，捉襟见肘的功能勉强满足个人需求，胜在简洁易用。现在用 2Do。</li>
+<li>推荐使用 iCloud Reminders 的 CalDAV 同步方式（支持 2Do 绝大部分特性，足以满足我的需求）；Dropbox 的同步方式虽然可以支持 2Do 的所有特性，可是需要翻墙才能同步数据，iPhone 需要长期开着 VPN 略显麻烦。所以为了稳定和省心，选择了前一种同步方式。 </li>
+</ul>
+</li>
+<li><a href="https://www.yinxiang.com/" target="_blank" rel="external"><strong>Evernote</strong></a><br>  云笔记，第二大脑（知识管理）。<ul>
+<li>好记性不如烂笔头，而如今知识更新之快，纸笔已跟不上，于是笔记软件大放异彩。云端存储同步笔记（同时定期备份整个硬盘），有备份就不怕丢；便于检索，甚至搜索图片中的文字。总是死记硬背没有出路，不能被检索的知识毫无意义。</li>
+<li>现在觉得值得离线记录的东西不多了，用 Google 搜索更便捷，而且还能获得更新更好的资料；值得沉淀的知识不断更新记录在博客就够了。</li>
+<li>现在我主要将它作为 Read It Later 类 App 来用。使用方式：<a href="https://evernote.com/intl/zh-cn/webclipper/" target="_blank" rel="external"><strong>剪藏</strong></a>、微博 <a href="http://weibo.com/u/2859258962" target="_blank" rel="external"><strong>@我的印象笔记</strong></a>、微信分享给 <strong>我的印象笔记</strong>、<a href="https://help.evernote.com/hc/zh-cn/articles/209005347-%E5%A6%82%E4%BD%95%E4%BF%9D%E5%AD%98%E9%82%AE%E4%BB%B6%E8%87%B3Evernote" target="_blank" rel="external">邮件收藏</a> 等。<!-- - 从许多备选中选择了 Evernote，是因为它提供了最为开放的可编程 API，我可以写脚本定制进阶的笔记操作。 --></li>
+<li>Other choices: <ul>
+<li><a href="https://note.youdao.come" target="_blank" rel="external"><strong><del>有道云笔记</del></strong></a>：Evernote 迁移到其它平台比较简单，但 <a href="https://note.youdao.come" target="_blank" rel="external">有道云笔记</a> 导出的笔记格式经过加密、无法通用，很难迁移到别的平台，所以不推荐使用</li>
+<li><a href="http://www.wiz.cn/" target="_blank" rel="external"><strong>为知笔记</strong></a>、<a href="https://leanote.com/" target="_blank" rel="external"><strong>Leanote</strong></a> …</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://support.apple.com/kb/PH22609?viewlocale=en_US&amp;locale=en_JO" target="_blank" rel="external"><strong>Notes</strong></a><br>  Apple 自带的轻量级笔记应用。<ul>
+<li>用于收集灵感和想法，做书摘、读书笔记和日记。因为它启动迅速，使用便捷稳定，所以更常使用它而非 Evernote。</li>
+</ul>
+</li>
+<li><a href="https://agilebits.com/onepassword" target="_blank" rel="external"><strong>1Password</strong></a><br>  帐号密码管理，以及私人信息的加密存储。<ul>
+<li>用一（两）个主密码管理所有其它密码。可生成随机密码，可记录登录网站时用的帐号密码，可自动填写表单登录网站。</li>
+<li>以前一直用不惯，觉得用浏览器自带的自动登录和 iCloud 的 <a href="https://support.apple.com/kb/PH20093?locale=zh_CN" target="_blank" rel="external"><strong>KeyChain Access</strong></a> 来记录管理帐号和密码足矣，可是不便于保存一些私人信息。工作之后，经济独立，更加注意保护个人隐私和财产安全了，要管理的私人信息多而杂乱，所以不得不借助专用的工具。</li>
+<li>Other choices :<ul>
+<li><a href="https://support.apple.com/kb/PH20093?locale=zh_CN" target="_blank" rel="external"><strong>KeyChain Access</strong></a> : Default &amp; convenient on macOS &amp; iOS.</li>
+<li><a href="https://www.dashlane.com/" target="_blank" rel="external"><strong>Dashlane</strong></a> : Excellent but expensive!</li>
+<li><a href="https://lastpass.com/" target="_blank" rel="external"><strong>LastPass</strong></a> : Good enough &amp; free to use.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>双拼输入方案</strong> <sup>Favorite</sup><br>  高效，易学！比五笔容易掌握得多，输入效率提升显著，习得的性价比高。来试试双拼吧。<ul>
+<li>《<a href="http://sspai.com/32809" target="_blank" rel="external">做少数派中的少数派：双拼输入快速入门</a>》</li>
+<li>《<a href="http://sspai.com/33019" target="_blank" rel="external">选择输入法的哲学：兼论双拼的优缺点</a>》</li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 <h3 id="Cmd-Line"><a href="#Cmd-Line" class="headerlink" title="Cmd Line"></a>Cmd Line</h3><ul>
-<li>Project<ul>
-<li><a href="https://git-scm.com/" target="_blank" rel="external">Git</a> <sup>Essential</sup><br>  分布式代码版本管理系统。</li>
+<li>Project Mgt.<ul>
+<li><a href="https://git-scm.com/" target="_blank" rel="external"><strong>Git</strong></a> <sup>Essential</sup><br>  分布式代码版本管理系统（必学）。</li>
 </ul>
 </li>
-</ul>
-<hr>
-<ul>
 <li>Editor<ul>
-<li><a href="http://www.vim.org/" target="_blank" rel="external">Vim</a> | <a href="https://neovim.io/" target="_blank" rel="external">Neovim</a> <sup>God-like</sup><br>  编辑器之神（ Emacs 则是神的编辑器）。<ul>
-<li>服务端开发、运维经常要在远程服务器编辑文本，而 vi 是 *nix 标配，遂 vi* 自然是必备技能。</li>
+<li><a href="http://www.vim.org/" target="_blank" rel="external"><strong>Vim</strong></a> <sup>God-like</sup><br>  编辑器之神（ Emacs 则是神的编辑器 ）。<ul>
+<li>服务器通常是 <em>nix 系统，vi</em> 是标配，而 Emacs 不常有。服务端开发和运维人员经常要在远程服务器编辑文本，遂 vi* 是必备技能！</li>
+<li>大的项目还是使用专用 IDE 进行编写更便捷靠谱。IDE 装个 plugin 也能以 Vim 的方式高效地操作，Vim 通用的键位可以让你少记很多必要的 IDE 快捷键。</li>
+<li>Vim vs. Emacs! &nbsp;<a href="https://www.quora.com/Text-Editors-What-are-the-main-differences-between-Vim-and-Emacs" target="_blank" rel="external">What are the main differences between Vim and Emacs?__</a>》</li>
+<li>Others :《<a href="https://github.com/redguardtoo/mastering-emacs-in-one-year-guide/blob/master/guide-zh.org" target="_blank" rel="external">一年成为Emacs高手（像神一样使用编辑器）</a>》</li>
 </ul>
 </li>
-<li><a href="http://vim.spf13.com/" target="_blank" rel="external"><del>spf13-vim</del></a> <sup>Essential</sup><br>  一整套 Vim 配置方案。<ul>
-<li>比起漫无休止地折腾配置，不如遵从实用主义：站在巨人的肩膀上，直接使用久经考验的的配置方案。<br>（根本用不上其中的很多功能，而且高配的 <a href="#Smart">MBP</a> 用起来竟然卡！其实用熟 Vim 后，根据个人习惯在 <code>.vimrc</code> 写好的基本设置，就够用了。）</li>
+<li><a href="http://vim.spf13.com/" target="_blank" rel="external"><strong><del>spf13-vim</del></strong></a> <sup>Essential</sup><br>  一整套 Vim 配置方案。<ul>
+<li>比起漫无休止地折腾配置，不如遵从实用主义：站在巨人的肩膀上，直接使用久经考验的的配置方案。</li>
+<li>后来发现，根本用不上其中的很多功能，而且高配的 <a href="#Smart">MBP</a> 用起来竟然卡！如果只将 Vim 作为轻量的文本编辑器，其实用熟之后，根据个人习惯在 <code>.vimrc</code> 写好的基本设置就够了。</li>
 </ul>
 </li>
 </ul>
@@ -4244,17 +4651,17 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <hr>
 <ul>
 <li>Shell<ul>
-<li><a href="http://zsh.sourceforge.net/" target="_blank" rel="external">Zsh</a> <sup>Powerful</sup><br>  比 Bash 更强大、便捷、高效的 Shell！<ul>
-<li>使用 oh-my-zsh 即可解决配置较为复杂的问题。可能你的电脑用 Zsh 比较慢，赶紧换 SSD 吧。</li>
-<li><a href="https://fishshell.com/" target="_blank" rel="external">Fish</a> (a shell for the 90s 😂 ) 虽然很好，但存在兼容性问题，有些 Bash 的指令需要改写才能运行在 Fish 上。</li>
+<li><a href="http://zsh.sourceforge.net/" target="_blank" rel="external"><strong>Zsh</strong></a> <sup>Powerful</sup><br>  比 Bash 更强大、便捷、高效的 Shell！<ul>
+<li>配置 Zsh 比较复杂，可以使用 <a href="http://ohmyz.sh/" target="_blank" rel="external"><strong>oh-my-zsh</strong></a> 等成熟的配置方案。</li>
+<li><a href="https://fishshell.com/" target="_blank" rel="external"><strong>Fish</strong></a> ( a shell for the 90s 😂 ) 虽然很好，但存在兼容性问题，有些 Bash 的指令需要改写才能运行在 Fish 上。</li>
 <li>Ref : <a href="https://en.wikipedia.org/wiki/Comparison_of_command_shells" target="_blank" rel="external">Comparison of Command Shells - Wikipedia</a></li>
 </ul>
 </li>
-<li><a href="http://ohmyz.sh/" target="_blank" rel="external">oh-my-zsh</a> <sup>Efficient</sup><br>  管理 Zsh 配置的开源框架，预打包了相关的主题、插件、配置。<ul>
+<li><a href="http://ohmyz.sh/" target="_blank" rel="external"><strong>oh-my-zsh</strong></a> <sup>Efficient</sup><br>  管理 Zsh 配置的开源框架，预打包了相关的主题、插件、配置。<ul>
 <li>配置过程傻瓜化，一条安装指令就能让你畅快地享受 Zsh 的强大与高效！</li>
 </ul>
 </li>
-<li><a href="https://tmux.github.io/" target="_blank" rel="external">tmux</a> <sup>Powerful</sup><br>  终端多路复用软件，即命令行中的 「桌面」、「分屏工具」。<ul>
+<li><a href="https://tmux.github.io/" target="_blank" rel="external"><strong>tmux</strong></a> <sup>Powerful</sup><br>  终端多路复用软件，即命令行中的 「桌面」、「分屏工具」。<ul>
 <li>允许一个用户在一个终端窗口或一个远程终端会话中，使用多个终端会话。</li>
 </ul>
 </li>
@@ -4264,205 +4671,248 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <hr>
 <ul>
 <li>Package<ul>
-<li><a href="http://brew.sh/" target="_blank" rel="external">Homebrew</a> <sup>Best</sup><br>  macOS 的包管理器。就如 agt-get 之于 Ubuntu，yum 之于 RedHat、CentOS 的存在。</li>
-<li><a href="http://caskroom.io/" target="_blank" rel="external"><del>Homebrew Cask</del></a> <sup>Great</sup><br>  用命令行的方式安装、更新 Mac App，再也不用忍受 AppStore 缓慢的下载速度了！<ul>
-<li>这样就可以用脚本来安装、更新 macOS 的 Apps 了。<br>（用的机会少，其实不必安装。）</li>
+<li><a href="http://brew.sh/" target="_blank" rel="external"><strong>Homebrew</strong></a> <sup>Best</sup><br>  macOS 的包管理器。<code>brew</code> 就如 <code>agt-get</code> 之于 Ubuntu，<code>yum</code> 之于 RedHat、CentOS 的存在。</li>
+<li><a href="http://caskroom.io/" target="_blank" rel="external"><strong>Homebrew Cask</strong></a> <sup>Great</sup><br>  安装、更新 macOS Apps 的命令行工具。<ul>
+<li>用命令行的方式安装、更新 Mac Apps，其中还包括了许多第三方的 Apps。</li>
+<li>不用忍受 AppStore 缓慢的下载速度，也不必一一访问各个官网去下载第三方 Apps 了！</li>
+<li>重装 macOS 时可以用 <code>brew cask install</code> 命令组成的脚本便捷地安装必要的 Apps。</li>
 </ul>
 </li>
-<li><a href="https://dotfiles.github.io/" target="_blank" rel="external"><del>dotfiles</del></a><br>  各路大神的 dotfiles 配置。<br>  （ <a href="http://www.jianshu.com/p/7UJapk" target="_blank" rel="external">dotfiles 是什么？</a>其实并不需要那么多工具包，有需要再折腾才是正道。）</li>
-<li><a href="http://skwp.github.io/dotfiles/" target="_blank" rel="external">YADR</a><br>  Yet Another Dotfile Repo，一个便捷的命令行配置方案，包括 Vim、Zsh、tmux、Git、RubyGems 以及 Alias 等各种配置。新手可以一试。</li>
+<li><a href="https://dotfiles.github.io/" target="_blank" rel="external"><del>dotfiles</del></a><br>  各路大神的 dotfiles 配置。（<a href="http://www.jianshu.com/p/7UJapk" target="_blank" rel="external">dotfiles 是什么？</a>）<ul>
+<li>其实并不需要那么多工具包，有需要再折腾才是正道。</li>
+<li>e.g. : <a href="http://skwp.github.io/dotfiles/" target="_blank" rel="external"><strong>YADR</strong></a> - Yet Another Dotfile Repo<br>  一个便捷的命令行配置方案，包括 Vim、Zsh、tmux、Git、RubyGems 以及 Alias 等各种配置。新手可以一试。</li>
 </ul>
 </li>
 </ul>
-<h3 id="Apps"><a href="#Apps" class="headerlink" title="Apps"></a>Apps</h3><ul>
-<li>Develop<ul>
-<li><a href="https://www.iterm2.com/" target="_blank" rel="external">iTerm2</a> <sup>Best</sup><br>  macOS 下的终端仿真机，是系统默认自带的 Terminal 的最佳替代 App。</li>
-<li><a href="https://kapeli.com/dash" target="_blank" rel="external"><del>Dash</del></a> <sup>To the point</sup><br>  查阅 API 参考文档、管理代码片段的工具。功能单一却精准。<br>  （我还是习惯去官网看文档，毕竟在浏览器可以用我的 Vim 式快捷键操作。）</li>
+</li>
+</ul>
+<h3 id="Development"><a href="#Development" class="headerlink" title="Development"></a>Development</h3><ul>
+<li>Usual<ul>
+<li><a href="https://www.jetbrains.com/pycharm/" target="_blank" rel="external"><strong>PyCharm</strong></a> , <a href="https://www.jetbrains.com/phpstorm/" target="_blank" rel="external"><strong>PhpStorm</strong></a> <sup>Master Piece</sup><br>  Python、PHP 的最佳 IDE！<ul>
+<li>现阶段类型推导做得最好，稳定、少崩溃，功能完善，设置选项齐全。（我觉得）比 ZendStudio、Eclipse 之流好用多了。</li>
+<li>配合 <a href="https://plugins.jetbrains.com/plugin/164?pr=idea" target="_blank" rel="external"><strong>IdeaVim</strong></a> 插件可用 Vim 键位编辑，可以少记许多执行类似操作的 IDE 快捷键。</li>
+<li><a href="https://www.jetbrains.com/products.html" target="_blank" rel="external"><strong>JetBrains</strong></a> 出品的其它 IDE： <a href="https://www.jetbrains.com/idea/" target="_blank" rel="external"><strong>IntelliJ IDEA</strong></a>、<a href="https://www.jetbrains.com/webstorm/" target="_blank" rel="external"><strong>WebStorm</strong></a>、<a href="https://www.jetbrains.com/ruby/" target="_blank" rel="external"><strong>RubyMine</strong></a>、<a href="https://www.jetbrains.com/clion/" target="_blank" rel="external"><strong>CLion</strong></a> 等。</li>
+</ul>
+</li>
+<li><a href="https://www.iterm2.com/" target="_blank" rel="external"><strong>iTerm2</strong></a> <sup>Best</sup><br>  macOS 下的终端仿真机。是系统默认自带的 Terminal 的最佳替代 App。</li>
+<li><a href="https://kapeli.com/dash" target="_blank" rel="external"><strong><del>Dash</del></strong></a> <sup>To the point</sup><br>  查阅 API 参考文档、管理代码片段的工具。功能单一却精准。<ul>
+<li>我还是习惯去官网查看文档，毕竟在浏览器可以用我的 Vim 式快捷键进行操作。）</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 <hr>
 <ul>
-<li>IDE<ul>
-<li><a href="https://www.jetbrains.com/pycharm/" target="_blank" rel="external">PyCharm</a>, &nbsp;<a href="https://www.jetbrains.com/phpstorm/" target="_blank" rel="external">PhpStorm</a> <sup>Master Piece</sup><br>  Python、PHP 的最佳 IDE！现阶段类型推导做得最好，各方面可圈可点。配合 <a href="https://plugins.jetbrains.com/plugin/164?pr=idea" target="_blank" rel="external">IdeaVim</a> 插件可用 Vim 键位编辑，因而可少记很多相关的 IDE 快捷键。<ul>
-<li><a href="https://www.jetbrains.com/products.html" target="_blank" rel="external">JetBrains</a> 出品的其它 IDE： <a href="https://www.jetbrains.com/idea/" target="_blank" rel="external">IntelliJ IDEA</a>、<a href="https://www.jetbrains.com/webstorm/" target="_blank" rel="external">WebStorm</a>、<a href="https://www.jetbrains.com/ruby/" target="_blank" rel="external">RubyMine</a>、<a href="https://www.jetbrains.com/clion/" target="_blank" rel="external">CLion</a> 等。</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<hr>
-<ul>
-<li>Editors<br>  其实可以完全用 Vim 来编辑文本文件（在命令行中）。<ul>
-<li><a href="http://www.sublimetext.com/" target="_blank" rel="external">Sublime Text</a> <sup>Popular</sup><br>  代码编辑器，我用其替代 TextEdit 作为默认的文本编辑器。Vintage 模式，可用 Vim 键位进行操作。冷启动也快如闪电。</li>
-<li><a href="https://atom.io/" target="_blank" rel="external"><del>Atom</del></a> <sup>Modern</sup><br>  相当现代的代码编辑器，体验一流，但是冷启动慢，不如 Sublime Text。</li>
-<li><a href="https://code.visualstudio.com/" target="_blank" rel="external"><del>VS Code</del></a> <sup>潜力股</sup><br>  简洁好用，只是 Vim 插件的体验不如 Atom，所以我放弃了。</li>
-<li><a href="http://www.typora.io" target="_blank" rel="external"><del>Typora</del></a> <sup>Elegant</sup><br>  Markdown 编辑器，所见即所得。国人制作，完全免费，支持 Mac、Windows！<br>  （我很少需要预览 Markdown 内容的显示效果，所以用一般编辑器即可。）</li>
+<li>Editors<br>  其实可以完全用 Vim 来编辑文本文件（在终端中）。<ul>
+<li><a href="http://www.sublimetext.com/" target="_blank" rel="external"><strong>Sublime Text</strong></a> <sup>Popular</sup><br>  代码编辑器，我用其替代 TextEdit 作为默认的文本编辑器。Vintage 模式，可用 Vim 键位进行操作。冷启动也快如闪电。</li>
+<li><a href="https://atom.io/" target="_blank" rel="external"><strong><del>Atom</del></strong></a> <sup>Modern</sup><br>  相当现代的代码编辑器，体验一流，但是冷启动慢，不如 Sublime Text。</li>
+<li><a href="https://code.visualstudio.com/" target="_blank" rel="external"><strong><del>VS Code</del></strong></a> <sup>潜力股</sup><br>  简洁好用，只是 Vim 插件的体验不如 Atom。</li>
+<li><a href="http://www.typora.io" target="_blank" rel="external"><strong><del>Typora</del></strong></a> <sup>Elegant</sup><br>  Markdown 编辑器，所见即所得。国人制作，完全免费，支持 Mac、Windows！<br>  （除了写博文，我很少真的需要预览 Markdown 内容的实际显示效果，所以用一般编辑器即可。）</li>
 </ul>
 </li>
 </ul>
 <hr>
 <ul>
 <li>Web<ul>
-<li><a href="https://www.charlesproxy.com/" target="_blank" rel="external">Charles</a> <sup>Best</sup><br>  网络封包分析（抓包）工具。如 Fiddler 之于 Windows。主要用于「应用层」的分析。</li>
-<li><a href="https://www.wireshark.org/" target="_blank" rel="external"><del>Wireshark</del></a> <sup>Powerful</sup><br>  网络封包分析工具。比 Charles 强大得多，但是也复杂得多。主要用于「网络层」的分析。<br>  （因为工作上没有使用的必要，所以我暂时用不上）</li>
-<li><a href="http://www.getpostman.com/" target="_blank" rel="external">Postman</a> <sup>Powerful</sup><br>  APIs 开发、测试、归档的辅助工具。</li>
-<li><a href="http://www.sequelpro.com/" target="_blank" rel="external">Squel Pro</a> <sup>Free</sup><br>  管理 MySQL 数据库的 GUI 工具。</li>
-<li><a href="https://panic.com/transmit/" target="_blank" rel="external"><del>Transmit</del></a><br>  FTP 的 GUI 工具。<br>  （rsync 命令比 FTP 的效率高多了，用法也丰富。一般情况下用 netcat 命令传输文件也够用了。）</li>
+<li><a href="https://www.charlesproxy.com/" target="_blank" rel="external"><strong>Charles</strong></a> <sup>Best</sup><br>  网络封包分析（抓包）工具。如 Fiddler 之于 Windows。主要用于「应用层」的分析。</li>
+<li><a href="https://www.wireshark.org/" target="_blank" rel="external"><strong><del>Wireshark</del></strong></a> <sup>Powerful</sup><br>  网络封包分析工具。比 Charles 强大得多，但是也复杂得多。主要用于「网络层」的分析。<br>  （我的日常工作很少用得着。）</li>
+<li><a href="http://www.getpostman.com/" target="_blank" rel="external"><strong>Postman</strong></a> <sup>Powerful</sup><br>  APIs 开发、测试、归档的辅助工具。<ul>
+<li>Mac 的 HTTP 客户端。用于与 REST 服务交互，以助构建 API、HTTP 请求，检查来自服务器的响应。</li>
+<li>Others : <a href="https://luckymarmot.com/zh-hans/paw" target="_blank" rel="external"><strong><del>Paw</del></strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Data<ul>
+<li><a href="http://www.sequelpro.com/" target="_blank" rel="external"><strong>Squel Pro</strong></a> <sup>Free</sup><br>  管理 MySQL 数据库的 GUI 工具。</li>
+<li><a href="https://panic.com/transmit/" target="_blank" rel="external"><strong><del>Transmit</del></strong></a><br>  FTP 的 GUI 工具。<br>  （rsync 命令比 FTP 的效率高多了，用法也丰富。一般情况下用 netcat 命令传输文件就够了。）</li>
 </ul>
 </li>
 </ul>
 <hr>
 <ul>
-<li>Others<ul>
-<li><a href="https://get.adobe.com/cn/reader/" target="_blank" rel="external">Adobe Acrobat Reader DC</a><br>  一般情况下，不使用额外的 <strong>PDF 阅读软件</strong>，Mac 系统自带的 Preview 就够用了。<ul>
-<li>但要在商务等正式场景下的 PDF 文件有高端用法，这是还是得 Adobe 家的软件来处理，例如签证申请文件、合同、保密文件等。</li>
+<li>Office<ul>
+<li><a href="https://get.adobe.com/cn/reader/" target="_blank" rel="external"><strong>Adobe Acrobat Reader DC</strong></a><br>  一般情况下，不使用额外的 <strong>PDF 阅读软件</strong>，Mac 系统自带的 Preview 就够用了。<ul>
+<li>但在特殊情况下，需要用到 PDF 的一些高级特性，还是 Adobe 家的软件亲自处理更妥当，例如签证申请文件、合同、保密文件等。</li>
 </ul>
 </li>
-<li><a href="http://openemu.org/" target="_blank" rel="external"><del>OpenEmu</del></a><br>  游戏机模拟器！可以模拟众多的旧时代的游戏主机！怀旧党福音。<ul>
-<li>我又可以方便地玩我最喜欢的 NDS 游戏《最终幻想战略版 A2》啦！<br>（少玩为妙。）</li>
-</ul>
-</li>
-<li><a href="http://www.parallels.com/landingpage/pd/general/?src=r&amp;pd11" target="_blank" rel="external"><del>Parallel Desktop</del></a> <sup>Best</sup><br>  虚拟机软件，将 Windows、Ubuntu 等操作系统无缝贴合到 macOS 中去，使用流畅自然。<br>  （因为我不需要用 Windows 平台独占的那些软件，所以几乎用不上本软件。）</li>
+<li><a href="http://www.parallels.com/landingpage/pd/general/?src=r&amp;pd11" target="_blank" rel="external"><strong><del>Parallel Desktop</del></strong></a> <sup>Best</sup><br>  虚拟机软件。<ul>
+<li>最适合用于安装 Windows。它将 Windows、Ubuntu 跟 macOS（几乎）无缝对接，使用流畅自然。<br>  （我现在完全脱离了 Windows 平台独占的软件，包括游戏，所以几乎用不着它。还有它的软件升级定价策略很不地道，跟重新买差别不大……）</li>
+<li>Others : <a href="https://www.virtualbox.org/" target="_blank" rel="external"><strong><del>Virtual Box</del></strong></a>（适合装 Linux），<a href="http://www.vmware.com/products/fusion.html" target="_blank" rel="external"><del>VMWare Fusion</del></a>（没用过）</li>
 </ul>
 </li>
 </ul>
-<h3 id="Assistant"><a href="#Assistant" class="headerlink" title="Assistant"></a>Assistant</h3><ul>
-<li>Shortcuts &amp; Keyboard<ul>
-<li><a href="http://manico.im/" target="_blank" rel="external"><del>Manico</del></a> <sup>Shortcuts</sup><br>  为 macOS 设计快速启动、切换 App 的工具。<ul>
-<li>我是键盘党，以前用 Windows 已惯用快捷键与手势迅速打开、切换程序，因此找到了它。<br>（可用 Keyboard Maestro 代替。）</li>
+</li>
+</ul>
+<h3 id="Shortcuts"><a href="#Shortcuts" class="headerlink" title="Shortcuts"></a>Shortcuts</h3><p>About keyboard!</p>
+<ul>
+<li><a href="https://www.keyboardmaestro.com/main/" target="_blank" rel="external"><strong>Keyboard Maestro</strong></a> <sup>Geek, Best, Favorite!</sup><br>  限制你的只有你的想象力！高度自定义的效率工具，难以一语道尽玄机。<ul>
+<li>---</li>
+<li>替代用于 <strong>快速启动、切换 Apps</strong> 的 <a href="http://manico.im/" target="_blank" rel="external"><strong><del>Manico</del></strong></a> <sup>Great</sup>、<a href="https://contexts.co/" target="_blank" rel="external"><strong><del>Contexts</del></strong></a> <sup>Simple</sup>。<ul>
+<li>我是键盘党，以前用 Windows 时已经习惯用快捷键和鼠标手势迅速打开、切换程序，因此离不开这类工具。</li>
 </ul>
 </li>
-<li><a href="https://www.keyboardmaestro.com/main/" target="_blank" rel="external">Keyboard Maestro</a> <sup>Geek, Best</sup><br>  限制你的只有你的想象力！高度自定义的效率工具，难以一语道尽玄机。<ul>
-<li>可以尝试用它 <a href="https://www.zhihu.com/question/27158546/answer/70958190" target="_blank" rel="external">定制系统全局 Vim 快捷键</a>；可以 <a href="https://www.zhihu.com/question/27158546/answer/70958190" target="_blank" rel="external">配合 Keymo 用键盘控制鼠标</a>；可以替代 aText、TextExpander，用以拓展文本，提升打字效率；甚至完全替代 Manico，用以快速启动、切换 Apps，并贴合个人使用习惯为其添加进阶功能！</li>
+<li>---</li>
+<li>替代用于 <strong>Apps 分屏</strong> 的 <a href="https://manytricks.com/moom" target="_blank" rel="external"><strong><del>Moom</del></strong></a> <sup>Efficient, Best</sup>、<a href="https://www.spectacleapp.com/" target="_blank" rel="external"><strong><del>Spectacle</del></strong></a> <sup>Simple</sup>。<br>  用快捷键等触发分屏操作，按需快速摆放 App 窗口（移动、缩放）。<ul>
+<li>Moom 用久了我形成了固定的习惯，主要用全屏、左右各半、左右 3/5 和居中等少数几个布局，只需要设置几个快捷键来触发对应操作就够了。</li>
+<li>Ref : 《<a href="http://zhuanlan.zhihu.com/MacTips/20258341" target="_blank" rel="external">说说 Mac 分屏的事(2) - Moom 的10个技巧</a>》</li>
 </ul>
 </li>
-<li><a href="https://pqrs.org/osx/karabiner/index.html.en" target="_blank" rel="external">Karabiner</a> <sup>Geek, Best</sup><br>  强大、稳定的键位修改工具，预定义了大量奇巧的修改方案。键盘党神器！<ul>
-<li>可自定义快捷键去启动、切换 App，打开文件和网址，快速输入关键词跳转到网站的搜索页，甚至运行命令行！</li>
-<li>发挥想象力，配合命令行和脚本（如 AppleScript）等，还能做到更多！例如，它也可以实现 Manico 的功能，不过得费些时间。<br>（噩耗：macOS Sierra (10.12) 中关于键盘控制的代码大改，所以这代及以后的 macOS 就不能使用 Karabiner 了。除非 Karabiner 作者进行重大更新，然而工作量颇大，可用的新版本遥遥无期……）</li>
+<li>---</li>
+<li>替代用于 <strong>用缩写加速文本输入</strong> 的 <a href="https://textexpander.com/" target="_blank" rel="external"><strong><del>TextExpander</del></strong></a> <sup>Great</sup>、<a href="https://www.trankynam.com/atext/" target="_blank" rel="external"><strong><del>aText</del></strong></a> <sup>Simple</sup>。<br>  输入缩写时，会根据用户的设定模板来自动拓展输入的文本，以提升输入效率，特别是高频重复的词句。</li>
+<li>---</li>
+<li>替代用于 <strong>稳定便捷地切换同一 App 的多个子窗口</strong> 的 <a href="https://bahoom.com/hyperswitch" target="_blank" rel="external"><strong><del>HyperSwitcher</del></strong></a> <sup>Best</sup>。<ul>
+<li>这类应用的出现，是因为在某些 Apps 下，无法用系统的 <code>⌘ `</code> 来切换其下的各个子窗口。</li>
+<li>用触摸板三指下滑的手势或快捷键触发 App Expose，可以显示当前应用的所有窗口，然后点击选择其中一个进行切换，但是不够快捷。</li>
 </ul>
 </li>
-<li><a href="https://pqrs.org/osx/karabiner/seil.html.en" target="_blank" rel="external">Seil</a><br>  Karabiner 的补充，主要修改 Caps Lock、 Esc、Shift、Ctrl、Option 等按键的键位。</li>
-<li><a href="https://manytricks.com/keycodes/" target="_blank" rel="external"><del>Key Codes</del></a><br>  键盘码查询。不用查表，直接击键，即得出其键盘码。<br>  （可用于 debug 以上软件关于键位和快捷键的修改）</li>
+<li>---</li>
+<li>可以替代用于 <strong>剪贴板管理</strong> 的 <a href="http://www.clipmenu.com/" target="_blank" rel="external"><strong>ClipMenu</strong></a> <sup>Efficient</sup>、<a href="http://pasteapp.me/" target="_blank" rel="external"><strong><del>Paste</del></strong></a> <sup>Beauty</sup>。<ul>
+<li>这类应用很多，Keyboard Maestro 在这方面还是做得不够好。</li>
+<li>Paste 颜值高，可是配置选项不多，不如 ClipMenu 定制性强。ClipMenu 短小精悍，显示紧凑（可能你会觉得丑），快捷键调用方便，响应迅速。</li>
+<li>所以，剪贴板方面我还是选用了更合我口味的专用 App <strong>ClipMenu</strong>。</li>
+</ul>
+</li>
+<li>---</li>
+<li>甚至可以尝试用它 <a href="https://www.zhihu.com/question/27158546/answer/70958190" target="_blank" rel="external">定制系统全局 Vim 快捷键</a>，或者 <a href="https://www.zhihu.com/question/27158546/answer/70958190" target="_blank" rel="external">配合 Keymo 用键盘控制鼠标</a> 等。<ul>
+<li>根据个人需求，用它来自动化、加速常用的操作 —— 可以编写控制流程，调用命令行、运行脚本，判断系统状态如网路、蓝牙、电源连接等…… 喜欢 DIY 还是亲自动手试试吧，</li>
+<li>Ref :《<a href="https://sspai.com/post/28721" target="_blank" rel="external">懒的前提是要足够高效： Mac 效率工具Keyboard Maestro 详解 - 少数派</a>》。</li>
+</ul>
+</li>
+<li>---</li>
+</ul>
+</li>
+<li><a href="https://pqrs.org/osx/karabiner/index.html.en" target="_blank" rel="external"><strong>Karabiner</strong></a> <sup>Geek, Best</sup><br>  强大、稳定的键位修改功能，预定义了大量奇巧的修改方案。键盘党神器！<ul>
+<li>可自定义快捷键去启动、切换 App，打开文件和网址，快速输入关键词跳转到网站的搜索页，甚至运行命令行和脚本（AppleScript 等）。发挥想象力，还能做到更多的事。例如，它也可以实现 Manico 的功能，不过得费些时间。当然除了「键位修改」其它繁杂的功能还是交给 Keyboard Maestro 之类的 App 来定制更省心。</li>
+<li>噩耗：macOS Sierra (10.12) 中关于键盘控制的底层架构大改，所以这代以后的 macOS 就不能使用 Karabiner 了。它的作者正在开发支持新版 macOS 的 <a href="https://github.com/tekezo/Karabiner-Elements" target="_blank" rel="external"><strong>Karabiner-Elements</strong></a>，然而工作量颇大，尚需时日才能实现大部分旧版的功能…… 所以，我为了 Karabiner 只能不升级系统继续使用 OS X EI Capitan。</li>
+</ul>
+</li>
+<li><a href="https://pqrs.org/osx/karabiner/seil.html.en" target="_blank" rel="external"><strong>Seil</strong></a><br>  Karabiner 的补充，主要修改 Caps Lock、 Esc、Shift、Ctrl、Option 等按键的键位。</li>
+<li><strong>Karabiner Event-Viewer</strong><br>  键盘码查询。不用查表，直接击键，即得出对应的键盘码和按键组合等。<ul>
+<li>属于 <a href="https://github.com/tekezo/Karabiner-Elements" target="_blank" rel="external"><strong>Karabiner-Elements</strong></a> 附带的用于调试键位、快捷键组合的工具 App。</li>
+<li>Others : <a href="https://manytricks.com/keycodes/" target="_blank" rel="external"><strong><del>Key Codes</del></strong></a></li>
 </ul>
 </li>
 </ul>
 <hr>
 <ul>
 <li>Enhance<ul>
-<li><a href="https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12" target="_blank" rel="external">Amphetamine</a><br>  防止 Mac 休眠。比同类软件 <a href="https://itunes.apple.com/us/app/caffeine/id411246225?mt=12" target="_blank" rel="external">Caffine</a>、<a href="https://itunes.apple.com/us/app/owly-display-sleep-prevention/id882812218?mt=12" target="_blank" rel="external">Owly</a> 都更功能完备、好用。<ul>
+<li><a href="https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12" target="_blank" rel="external"><strong>Amphetamine</strong></a><br>  防止 Mac 休眠。<ul>
 <li>原因：Mac 每次休眠后都会重启软件，导致软件丢失部分上下文，于是我无法在完全一样的环境下持续工作，一定程度上打断了工作，降低了效率。</li>
+<li>休眠（Sleep）：硬盘休眠。<br>  屏幕休眠（Display Sleep）：即关闭屏幕，连屏幕保护程序（Screen Saver）也不运作。</li>
+<li>Others : 它比同类软件 <a href="https://itunes.apple.com/us/app/caffeine/id411246225?mt=12" target="_blank" rel="external"><del>Caffine</del></a>、<a href="https://itunes.apple.com/us/app/owly-display-sleep-prevention/id882812218?mt=12" target="_blank" rel="external"><strong><del>Owly</del></strong></a> 功能完备、好用；<a href="http://semaja2.net/projects/insomniaxinfo/" target="_blank" rel="external"><del>InsomniaX</del></a> 没用过。</li>
 </ul>
 </li>
-<li><a href="http://www.clipmenu.com/" target="_blank" rel="external">ClipMenu</a> <sup>Efficient</sup><br>  剪贴板管理工具。<ul>
+<li><a href="https://www.macbartender.com/" target="_blank" rel="external"><strong>Bartender 2</strong></a> <sup>Clean Menubar</sup><br>  收起或彻底隐藏毋需过多关注的菜单栏 App 图标。</li>
+<li><a href="https://www.mediaatelier.com/CheatSheet/" target="_blank" rel="external"><strong><del>CheatSheet</del></strong></a> <sup>Tips, for Freshman</sup><br>  快捷键快速提醒。长按 Command 键，显示当前程序的快捷键列表，方便快速入门 Mac 各处的快捷键。（新手专用。）</li>
+<li><a href="http://www.clipmenu.com/" target="_blank" rel="external"><strong>ClipMenu</strong></a> <sup>Efficient</sup><br>  剪贴板管理。<ul>
 <li>支持 URL、纯文本、RTF、图片、文件等各种格式，包括剪贴历史、排序、大小写转换、自定义文段的调出。</li>
+<li>Others : <a href="http://pasteapp.me/" target="_blank" rel="external"><strong>Paste</strong></a> 最好看！<a href="http://copiedapp.com/" target="_blank" rel="external"><del>Copied</del></a>（没用过）。</li>
 </ul>
 </li>
-<li><a href="https://manytricks.com/moom/" target="_blank" rel="external">Moom</a> <sup>Efficient, Best</sup><br>  窗口布局软件，便捷地移动、缩放窗口，更好地利用桌面空间。<ul>
-<li>有关文章：《<a href="http://zhuanlan.zhihu.com/MacTips/20258341" target="_blank" rel="external">说说 Mac 分屏的事(2) - Moom 的10个技巧</a>》</li>
-</ul>
-</li>
-<li><a href="https://www.spectacleapp.com/" target="_blank" rel="external">Spectacle</a><br>  后来我用 Moom 形成了固定的套路，主要用左右分屏和全屏等布局，更简洁的  就能满足了。</li>
-<li><a href="https://www.macbartender.com/" target="_blank" rel="external">Bartender 2</a> <sup>Clean Menubar</sup><br>  收起或彻底隐藏毋需过多关注的菜单栏 App 图标。</li>
-<li><a href="https://bahoom.com/hyperswitch" target="_blank" rel="external">HyperSwitcher</a> <sup>Best</sup><br>  窗口切换（关于 <code>⌘ ⇥</code>, <code>⌘ `</code>）增强的软件。<ul>
-<li>系统自带的窗口切换不够好用，特别是切换属于同一应用的多个窗口：<ul>
-<li>使用三指下滑的触摸板手势或快捷键 <code>^ ↓</code>，可以显示当前应用的所有窗口，然后点击选择其中一个进行切换，但是不够快捷。</li>
-<li>使用快捷键 <code>⌘ `</code> 足够快捷，但是兼容性不佳，很多应用没办法靠它来切换同一应用。</li>
-<li>HyperSwitcher 完美解决了这个问题，而且还对窗口切换的功能进行了进一步增强！例如，选择切换的窗口时，会显示各应用的缩略图。</li>
+<li><a href="https://bahoom.com/hyperswitch" target="_blank" rel="external"><strong><del>HyperSwitcher</del></strong></a> <sup>Best</sup><br>  稳定切换同一 App 下各子窗口。<ul>
+<li>HyperSwitcher 选择切换的窗口时，会显示各应用的缩略图。</li>
+<li>我用 <a href="/tools/#Shortcuts">Keyboard Maestro</a> 来替代了它，因为我倾向于用更少的工具完成尽可能多的事，好用够用就行了。不过 HyperSwitcher 仍然是最佳选择，强烈推荐！</li>
+<li>Related : <a href="https://bahoom.com/hyperdock/" target="_blank" rel="external"><del>HyperDock</del></a><br>  窗口增强工具。光标停到 Dock 的 App 图标上，能快速预览该软件的所有窗口，点击切换到不同的窗口或桌面。还有快速调整窗口布局、大小、位置等的功能。<ul>
+<li>用处还是不大，用 HyperSwitcher 切换子窗口时就能看到 App 下所有子窗口的预览图。</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="https://www.mediaatelier.com/CheatSheet/" target="_blank" rel="external"><del>CheatSheet</del></a> <sup>Tips, for Freshman</sup><br>  快捷键快速提醒工具。长按 Command 键，显示当前程序的快捷键列表，方便快速入门 Mac 各处的快捷键。<br>  （新手专用…）</li>
+<li><a href="https://github.com/sindresorhus/quick-look-plugins" target="_blank" rel="external"><strong>Quick Look plugins</strong></a><br>  增强 Finder 的文件预览（Preview）功能。<ul>
+<li>在 Finder 浏览目录和文件时，选中文件，再按空格键，即可进行简单的预览。</li>
+<li>该插件提供各种类型文件的预览功能：快速预览各种格式的图片，包括 GIF；对各种不同编程语言的代码进行着色，便于查看… 详情查看其 <a href="https://github.com/sindresorhus/quick-look-plugins" target="_blank" rel="external">GitHub 仓库 README.md</a> 的说明。</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 <hr>
 <ul>
-<li><p>Usual Tools</p>
-<ul>
-<li>Time Machine <sup>Required</sup><br>  macOS 自带的系统备份、恢复软件。<ul>
+<li>Usual Tools<ul>
+<li><strong>Time Machine</strong> <sup>Required</sup><br>  macOS 自带的系统备份、恢复软件。<ul>
 <li>要有忧患意识，不要等硬盘坏了、Mac 丢了，才追悔莫及。</li>
 </ul>
 </li>
-<li>Dictionary <sup>Great Enough</sup><br>  macOS 系统自带的字典应用。</li>
-<li><a href="http://www.eudic.net/eudic/mac_dictionary.aspx" target="_blank" rel="external">EuDic Free</a> <sup>Free, Great</sup><br>  欧路词典，Mac 上最好用的第三方词典。</li>
-<li><a href="http://macappstore.org/shadowsocksx/" target="_blank" rel="external">ShawdowsocksX</a> <sup>Ladder</sup><br>  ShadowsocksX 是在 Mac 上配合 Shadowsock 工作的软件。</li>
-<li><a href="https://lhc70000.github.io/iina/" target="_blank" rel="external">IINA Player</a><br>  视频播放软件。比 <a href="http://mplayerx.org" target="_blank" rel="external"><del>MPlayerX</del></a>、<a href="http://www.videolan.org/index.html" target="_blank" rel="external"><del>VLC</del></a> 都好用！</li>
-<li><p><a href="http://numi.io/" target="_blank" rel="external">Numi</a> <sup>Great</sup><br>  系统默认计算器的替代方案。单位换算好用啊！例如，您输入：</p>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">1 day in sec       // Print: 86,400 s</div><div class="line">547 day in year    // Print: 1 yr 6 mon. 2 day</div></pre></td></tr></table></figure>
+<li><strong>Dictionary</strong> <sup>Great Enough</sup><br>  macOS 系统自带的字典应用，足够好用。</li>
+<li><a href="http://www.eudic.net/eudic/mac_dictionary.aspx" target="_blank" rel="external"><strong>EuDic Free</strong></a> <sup>Free, Great</sup><br>  欧路词典，Mac 上最好用的第三方词典。</li>
+<li><a href="http://macappstore.org/shadowsocksx/" target="_blank" rel="external"><strong>ShawdowsocksX</strong></a> <sup>Ladder</sup><br>  ShadowsocksX 是在 Mac 上配合 Shadowsock 工作的软件。</li>
+<li><a href="http://numi.io/" target="_blank" rel="external"><strong>Numi</strong></a> <sup>Great</sup><br>  系统默认计算器的替代方案。<ul>
+<li>单位换算好用啊！例如，您输入左边的内容，就能得到右边的结果：<br>  Input <code>1 day in sec</code> , print <code>86,400 s</code> .<br>  Input <code>547 day in year</code> , print <code>1 yr 6 mon. 2 day</code> .</li>
+</ul>
 </li>
-<li><p>Ref：<a href="https://www.zhihu.com/question/27870072" target="_blank" rel="external">macOS 有哪些值得装的小软件？</a></p>
-</li>
+<li><a href="https://lhc70000.github.io/iina/" target="_blank" rel="external"><strong>IINA Player</strong></a><br>  视频播放软件。比 <a href="http://mplayerx.org" target="_blank" rel="external"><del>MPlayerX</del></a>、<a href="http://www.videolan.org/index.html" target="_blank" rel="external"><del>VLC</del></a> 都好用！</li>
+<li><a href="http://music.163.com/" target="_blank" rel="external"><strong>NeteaseMusic</strong></a> <sup>Joy</sup><br>  网易云音乐，用音乐休闲放松，看评论找共鸣。<ul>
+<li>Others : 由于音乐版权的原因，只能多下载几个 Apps，如 <a href="https://y.qq.com/" target="_blank" rel="external"><strong>QQMuscic</strong></a>、<a href="http://www.xiami.com/" target="_blank" rel="external"><strong>Xiami</strong></a> 虾米。</li>
 </ul>
 </li>
 </ul>
-<h3 id="Seldom"><a href="#Seldom" class="headerlink" title="Seldom"></a>Seldom</h3><ul>
-<li><strong>不常用 / 鸡肋</strong><br>  放在这里的有一些公认很好的 Apps，但我觉得它们不常用甚至鸡肋，且看我的理由。</li>
+</li>
+</ul>
+<h3 id="Not-Used"><a href="#Not-Used" class="headerlink" title="Not Used"></a>Not Used</h3><ul>
+<li>连提及都没有价值的 Apps 在此就不一一列举了。</li>
+<li><strong>不常用 / 鸡肋</strong><br>  放在这里的有一些公认很好的 Apps，但我不常用甚至觉得鸡肋，且看我的理由。</li>
 </ul>
 <hr>
 <ul>
 <li>Efficiency<ul>
-<li><a href="https://www.alfredapp.com/" target="_blank" rel="external">Alfred</a> <sup>键盘党的神兵利器</sup><br>  Spotlight 的增强版！关键字缩写的检索还是 Spotlight 精准；要用命令的话，也基本在终端中操作，没有 Alfred 之流的用武之地；要启动程序的话，有 Manico 的支持足矣。<ul>
+<li><a href="https://www.alfredapp.com/" target="_blank" rel="external"><strong><del>Alfred</del></strong></a> <sup>键盘党的神兵利器</sup><br>  Spotlight 的增强版！关键字缩写的检索还是 Spotlight 精准；要用命令的话，也基本在终端中操作，没有 Alfred 之流的用武之地；要启动程序的话，有 Manico 的支持足矣。<ul>
 <li>很多人把它说得神乎其神，其实我并不觉得有大用。看看操作流程：先输入一些字符，Alfred 智能检索猜出你要做的事，如打开程序、文本，或者运行脚本等；然后，选一个选项执行。</li>
-<li><strong>我更喜欢敲快捷键「一步到位」告诉 Mac 要做的事！</strong> 做好脚本或录制好一系列操作，主要用 AppleScript、Keyboard Maestro 和 Automator 等，然后用快捷键激它们，真正常用的组合操作并不会很多。</li>
+<li><strong>我更喜欢敲快捷键「一步到位」执行要做的操作！</strong> 例如，我借助 AppleScript、Python、Shell、Keyboard Maestro 和 Automator 等写好脚本、录制好一系列操作或设置控制流程，然后用快捷键激活它们就好了。真正常用的组合操作并不会很多。</li>
+<li>Others : <a href="https://www.obdev.at/products/launchbar/index.html" target="_blank" rel="external"><del>LaunchBar</del></a></li>
 </ul>
 </li>
-<li><a href="http://www.boastr.net/" target="_blank" rel="external">BetterTouchTool</a><br>  为 Mac 的触摸板定制更多手势操作。iOS 版 App 还可以用来让 iPhone、iPad 设备化身为 Mac 的触摸板。现已是收费软件，但不贵。<ul>
+<li><a href="http://www.boastr.net/" target="_blank" rel="external"><strong><del>BetterTouchTool</del></strong></a><br>  为 Mac 的触摸板定制更多手势操作。iOS 版 App 还可以用来让 iPhone、iPad 设备化身为 Mac 的触摸板。现已是收费软件，但不贵。<ul>
 <li>可是作为键盘党，自定义的快捷键足以让我驰骋 macOS，基本没机会用它。</li>
 </ul>
 </li>
-<li><a href="https://contexts.co/" target="_blank" rel="external">Contexts</a> <sup>Great</sup><br>  App 窗口切换工具。操作行云流水，切换方面比 Manico 更优秀！但不能定制用于快速启动 App 的快捷键，因而被 Manico 替代。</li>
-<li><a href="https://itunes.apple.com/us/app/ihosts/id1102004240?mt=12" target="_blank" rel="external">iHosts</a><br>  灵活管理 macOS 的 hosts 的方案。<ul>
-<li>可惜通常情况下，hosts 并不需要复杂的管理，还有很多其它手段达到同样的目的。<br>不如直接在命令行加一个简短的 alias 用于直接打开修改 hosts 文件，这样比较省事。</li>
+<li><a href="https://contexts.co/" target="_blank" rel="external"><strong><del>Contexts</del></strong></a> <sup>Great</sup><br>  App 窗口切换工具。操作行云流水，切换方面比 Manico 更优秀！但不能定制用于快速启动 App 的快捷键，因而被 Manico 替代。</li>
+<li><a href="https://itunes.apple.com/us/app/ihosts/id1102004240?mt=12" target="_blank" rel="external"><del>iHosts</del></a><br>  灵活管理 macOS 的 hosts 的方案。<ul>
+<li>可惜通常情况下，hosts 并不需要复杂的管理；而且还有很多其它手段达到同样的目的。<br>对于程序员来说，不如直接在 <code>.zshrc</code> 加上 <code>alias vh=&#39;vim hosts&#39;</code> 一句剪短的配置，然后在命令行直接打开并修改 hosts 文件更省事。</li>
 </ul>
 </li>
-<li><a href="http://macid.co/" target="_blank" rel="external"><del>MacID</del></a> <sup>不推荐</sup><br>  可用其它 Apple 设备唤醒、解锁 Mac、甚至授权「提权」操作。<ul>
+<li><a href="http://macid.co/" target="_blank" rel="external"><del>MacID</del></a> <sup>极不推荐</sup><br>  可用其它 Apple 设备唤醒、解锁 Mac、甚至授权「提权」操作。<ul>
 <li>iPhone、iPad、AppleWatch 用蓝牙链接 Mac 后，可以用 TouchID、iOS 密码、设备的靠近和远离（距离）、蓝牙连接状态或触摸板手势等，来唤醒、解锁 Mac，或锁屏、提权。当指定便携设备远离 Mac，Mac 就会自动锁屏并发出提示；重新靠近 Mac 时，Mac 自动唤醒解锁！</li>
 <li>但蓝牙不时断连后，并不总能快速重连成功，比较恼人。新一代的 macOS 也将会原生支持 Apple 设备解锁 Mac。所以弃用，其它同类型的软件也半斤八两，均不推荐使用。</li>
 <li>macOS Sierra (10.12) 之后，就可以使用 AppleWatch 解锁了；新版 MacBook Pro 也可以用指纹解锁了。所以 MacID 这类软件成了彻底的鸡肋！</li>
 </ul>
 </li>
-<li><a href="https://manytricks.com/keymo/" target="_blank" rel="external"><del>Keymo</del></a> <sup>不推荐</sup><br>  使用键盘操作鼠标，四象限定位法颇有创意！<ul>
+<li><a href="https://manytricks.com/keymo/" target="_blank" rel="external"><del>Keymo</del></a> <sup>极不推荐</sup><br>  使用键盘操作鼠标，四象限定位法颇有创意！<ul>
 <li>作为键盘党的我，真要用到鼠标的时候，还是用触控板比较舒心。我的触摸板、鼠标的触控灵敏度（移动速度）向来调到最高，操作还是很快的。</li>
 <li>这种操作方式不如直接用鼠标那样符合人的直觉，需要不少练习，所以不值得使用。</li>
 </ul>
 </li>
-<li><a href="https://shortcatapp.com/" target="_blank" rel="external"><del>Shortcat</del></a> <sup>不推荐</sup><br>  UI 上的 Spotlight，暂时难堪大用…… 不如快捷键来得直接。</li>
+<li><a href="https://shortcatapp.com/" target="_blank" rel="external"><del>Shortcat</del></a> <sup>极不推荐</sup><br>  UI 上的 Spotlight。<ul>
+<li>暂时难堪大用，直说就是鸡肋…… 不如快捷键来得迅速，甚至不如鼠标操作来得直接！</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 <hr>
 <ul>
 <li>Enhance<ul>
-<li><a href="https://github.com/sindresorhus/quick-look-plugins" target="_blank" rel="external">Quick Look plugins</a><br>  在 Finder 浏览时，选中文件，再按空格键便可以使用 macOS 提供的简单预览。<ul>
-<li>该 Github 仓库提供针对各种类型文件的更强大的预览功能的插件。是否有大用见仁见智，对我来说有点鸡肋，留着也无碍。</li>
-</ul>
-</li>
-<li><a href="http://stclairsoft.com/DefaultFolderX/" target="_blank" rel="external"><del>Default Folder X</del></a></li>
+<li><a href="http://stclairsoft.com/DefaultFolderX/" target="_blank" rel="external"><del>Default Folder X</del></a> <sup>不推荐</sup></li>
 <li><a href="http://cocoatech.com/pathfinder/" target="_blank" rel="external"><del>Path Finder</del></a> <sup>不推荐</sup><br>  用于替代、增强系统默认的文件管理器 Finder。<ul>
 <li>我通常都用终端命令行去管理文件系统，Finder 的快捷键烂熟于心，没必要再加额外的工具帮助。</li>
 </ul>
 </li>
-<li><a href="http://www.globaldelight.com/boom/index.php" target="_blank" rel="external"><del>Boom</del></a> <sup>不推荐</sup><br>  音效增强软件。可用于突破系统音量的上限，留意音量过大可能损坏 Mac 音箱。可有可无。</li>
-<li><a href="https://hazeover.com/" target="_blank" rel="external"><del>HazeOver</del></a> <sup>Focus</sup><br>  瞬间找到当前正在使用窗口。除当前激活的窗口，其它窗口都会显示阴影，让人更专注与当前窗口的工作。<ul>
+<li><a href="http://www.globaldelight.com/boom/index.php" target="_blank" rel="external"><del>Boom</del></a> <sup>极不推荐</sup><br>  音效增强软件。可用于突破系统音量的上限，留意音量过大可能损坏 Mac 音箱。可有可无。</li>
+<li><a href="https://hazeover.com/" target="_blank" rel="external"><strong><del>HazeOver</del></strong></a> <sup>Focus</sup><br>  瞬间找到当前正在使用窗口。除当前激活的窗口，其它窗口都会显示阴影，让人更专注与当前窗口的工作。<ul>
 <li>可惜经过长期使用，感觉可有可无，上述说法可能只有理论上的作用和心理安慰的作用。</li>
 </ul>
 </li>
-<li><a href="https://bahoom.com/hyperdock/" target="_blank" rel="external"><del>HyperDock</del></a><br>  窗口增强工具。光标停到 Dock 的 App 图标上，能快速预览该软件的所有窗口，点击切换到不同的窗口或桌面，还有快速调整窗口布局、大小、位置等的功能。<ul>
-<li>用处还是不大，其实只要用 HyperSwitch 去切换一个 App 各个子窗口然后直接查看就够了。</li>
-</ul>
-</li>
-<li><a href="https://bjango.com/mac/istatmenus/" target="_blank" rel="external"><del>iStat Menus</del></a><br>  支持顶部菜单栏部分自定义，显示硬件状态的监控软件。方便查看 CPU、内存、网络、硬盘及其它硬件的状态，还有日期时间栏的定制。<ul>
+<li><a href="https://bjango.com/mac/istatmenus/" target="_blank" rel="external"><strong><del>iStat Menus</del></strong></a><br>  支持顶部菜单栏部分自定义，显示硬件状态的监控软件。方便查看 CPU、内存、网络、硬盘及其它硬件的状态，还有日期时间栏的定制。<ul>
 <li>Mac 没异常时，知道这些状态并没有显著的用处，如果设备崩溃了、卡了，还不是直接重启了事。</li>
 </ul>
 </li>
-<li><a href="https://pqrs.org/osx/ShowyEdge/index.html.en" target="_blank" rel="external"><del>ShowyEdge</del></a><br>  输入法状态提示。显示一条样式可定制的色带在屏幕顶部，以提示正在使用什么输入法，在全屏使用 App 时，也能轻易区分输入法状态！<ul>
+<li><a href="https://pqrs.org/osx/ShowyEdge/index.html.en" target="_blank" rel="external"><strong><del>ShowyEdge</del></strong></a><br>  输入法状态提示。显示一条样式可定制的色带在屏幕顶部，以提示正在使用什么输入法，在全屏使用 App 时，也能轻易区分输入法状态！<ul>
 <li>我的键盘设置了一键直接切换输入法，简单粗暴。输入法状态了然于心，用不着它了。</li>
 </ul>
 </li>
 <li><a href="https://justgetflux.com/" target="_blank" rel="external"><del>f.lux</del></a> <sup>Health</sup><br>  根据所在地当时的日照，自动调整屏幕色温、亮度，减少蓝光对眼睛的刺激，以调整激素水平，保护正常睡眠节律。<ul>
-<li>然而效果相同的 Night Shift 功能已经在 10.12.4 版本整合到了 macOS 中！</li>
+<li>然而效果相同的 Night Shift 功能已经在 10.12.4 版本整合到了 macOS 中了！这个应用即将退出历史舞台。</li>
 </ul>
 </li>
 </ul>
@@ -4482,18 +4932,12 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <hr>
 <ul>
 <li>Input<ul>
-<li><a href="http://rime.im/" target="_blank" rel="external"><del>Squirrel</del></a>  <sup>Geek but 不推荐</sup><br>  鼠须管输入法，稳定、流畅、开源，个人可定制性极高。是 Rime 中州韵输入法的 Mac 发行版。<ul>
+<li><a href="http://rime.im/" target="_blank" rel="external"><strong><del>Squirrel</del></strong></a>  <sup>Geek but 不推荐</sup><br>  鼠须管输入法，稳定、流畅、开源，个人可定制性极高。是 Rime 中州韵输入法的 Mac 发行版。<ul>
 <li>折腾一番后，个人定制出来的输入法，从界面到操作细节都能很好地贴合个人习惯。</li>
 <li>但是，词句齐全的成熟本地词库不多，缺失「云输入」在线匹配新词，<strong>输入生词时诸多不便</strong>，用久了我就不想再折腾了。所以使用几个月后，回归了我惯用的 <a href="https://shurufa.baidu.com/" target="_blank" rel="external">百度输入法</a>（我手机输入法用 <a href="http://ime.voicecloud.cn/" target="_blank" rel="external">讯飞输入法</a>）。</li>
 <li>iFanr 爱范儿的推荐 《 <a href="http://www.ifanr.com/156409" target="_blank" rel="external">鼠须管，“神级”输入法</a> 》</li>
 <li>配置教程 《 <a href="http://www.jianshu.com/p/cffc0ea094a7" target="_blank" rel="external">Rime 输入法 — 鼠须管（Squirrel）词库添加及配置</a> 》</li>
 <li>我自定义的 <a href="https://github.com/IceHe/Rime" target="_blank" rel="external">Rime 配置</a>、 <a href="https://github.com/IceHe/dictionaries" target="_blank" rel="external">Dictionaries 词库</a></li>
-</ul>
-</li>
-<li><a href="https://textexpander.com/" target="_blank" rel="external"><del>TextExpander</del></a> <sup>Great</sup></li>
-<li><a href="https://www.trankynam.com/atext/" target="_blank" rel="external"><del>aText</del></a><br>  使用缩写写法，来输入重复、高频的内容，按照模板生成内容，加速你的文本输入、处理速度！<ul>
-<li>aText 等于 TextExpander 的简化版，价格便宜多了，但功能更少、不够稳定。</li>
-<li>说实话，使用 Keyboard Maestro 就能实现我所需的基本的「缩写拓展」功能，不需要更高阶的功能。</li>
 </ul>
 </li>
 </ul>
@@ -4502,35 +4946,36 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <hr>
 <ul>
 <li>Others<ul>
-<li><a href="http://www.dejal.com/timeout/" target="_blank" rel="external">Time Out</a> <sup>Health</sup><br>  定时作息提醒工具。定时遮盖桌面的应用程序，提醒你离开电脑，去休息眼睛、活动身体。<ul>
-<li>不过 Apple Watch 的自带功能可以替代它。</li>
+<li><a href="http://www.dejal.com/timeout/" target="_blank" rel="external"><strong><del>Time Out</del></strong></a> <sup>Health</sup><br>  定时作息提醒工具。定时遮盖桌面的应用程序，提醒你离开电脑，去休息眼睛、活动身体。<ul>
+<li>如人饮水，冷暖自知。自己多注意就好，要是实在不自觉，这个应用才有用武之地；其实真到了严重的程度，它也帮不到你了</li>
 </ul>
 </li>
-<li><a href="https://luckymarmot.com/zh-hans/paw" target="_blank" rel="external"><del>Paw</del></a><br>  Mac 的 HTTP 客户端。功能全面、设计美观，用于与 REST 服务交互、以助构建 API、HTTP 请求，检查来自服务器的响应，甚至可生成客户端代码。一般的需求下 <a href="http://www.getpostman.com/" target="_blank" rel="external">Postman</a> 就够用了，不需要买它。</li>
-<li><a href="http://noiz.io/" target="_blank" rel="external"><del>Nozio</del></a> &amp; etc<br>  白噪音应用。模拟大自然的声音，屏蔽其它噪音干扰，帮助保持专注，提高效率，放松睡眠。<ul>
-<li>音乐听久了也累，有时戴个 <a href="http://item.jd.com/10277731026.html" target="_blank" rel="external">3M 降噪海绵耳塞</a>（便宜），纯粹安静地工作就很专注、舒服，其实毋需白噪音。</li>
-<li>可以的话，买 Bose 的 <a href="https://www.bose.cn/zh_cn/products/headphones/noise_cancelling_headphones.html" target="_blank" rel="external">QC 系列消噪耳机</a>，效果更佳。我买的是 <a href="https://www.bose.cn/zh_cn/products/headphones/earphones/quietcomfort-20i-acoustic-noise-cancelling-headphones.html#v=qc20_apple_black" target="_blank" rel="external">QC 20</a>。<ul>
-<li>如需无线入耳式耳塞推荐 2017（才真正上市）的新品 <a href="https://www.bose.cn/zh_cn/products/headphones/earphones/quietcontrol-30.html#v=qc30_black" target="_blank" rel="external">QC 30</a>，外观捉急，人称狗圈。</li>
-</ul>
-</li>
+<li><a href="http://noiz.io/" target="_blank" rel="external"><strong><del>Nozio</del></strong></a> &amp; etc<br>  白噪音应用。模拟大自然的声音，屏蔽其它噪音干扰，帮助保持专注，提高效率，放松睡眠。<ul>
+<li>音乐听久了也累，有时戴个 <a href="http://item.jd.com/10277731026.html" target="_blank" rel="external"><strong>3M 降噪海绵耳塞</strong></a>（便宜），纯粹安静地工作就很专注、舒服，其实毋需白噪音。</li>
+<li>可以的话，买 Bose 的 <a href="https://www.bose.cn/zh_cn/products/headphones/noise_cancelling_headphones.html" target="_blank" rel="external">QC 系列消噪耳机</a>，效果更佳。我买的是 <a href="https://www.bose.cn/zh_cn/products/headphones/earphones/quietcomfort-20i-acoustic-noise-cancelling-headphones.html#v=qc20_apple_black" target="_blank" rel="external">QC 20</a>。</li>
 </ul>
 </li>
 <li><a href="http://macpaw.com/encrypto" target="_blank" rel="external"><del>Encrypto</del></a><br>  文件加密、解密软件。为文件和文件夹设置密码，输入正确方可解密访问。真的很少碰到需要使用的场合。</li>
-<li><a href="http://cleanmymac.com/" target="_blank" rel="external"><del>CleanMyMac</del></a> <sup>不推荐</sup><br>  Mac 系统清理软件。macOS 本身已经够好用、省心，毋需过多维护，它只不过锦上添花，不客气地说，是画蛇添足、无关痛痒。</li>
+<li><a href="http://cleanmymac.com/" target="_blank" rel="external"><del>CleanMyMac</del></a> <sup>不推荐</sup><br>  Mac 系统清理软件。macOS 本身已经够好用、省心，毋需过多维护，它只不过锦上添花，不客气地说，是画蛇添足、无关痛痒。<ul>
+<li>帮助卸载一些顽固的软件还是有用的。</li>
+</ul>
+</li>
+<li><a href="http://openemu.org/" target="_blank" rel="external"><strong><del>OpenEmu</del></strong></a><br>  游戏机模拟器！可以模拟众多的旧时代的游戏主机！怀旧党福音。<ul>
+<li>我又可以方便地玩我最喜欢的 NDS 游戏《最终幻想战略版 A2》啦！（还是少玩为妙。）</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 <h3 id="iOS"><a href="#iOS" class="headerlink" title="iOS"></a>iOS</h3><ul>
 <li>Usual<ul>
 <li><strong>Safari</strong> <sup>Simple</sup><br>  iOS 自带浏览器。已足够好用。</li>
-<li><a href="https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8" target="_blank" rel="external"><strong>Shadowsockrocket</strong></a> <sup>Favorite</sup><br>  iOS 上配合 Shadowsocks 使用的番羽土啬利器。</li>
-<li><a href="http://www.xunfei.cn/" target="_blank" rel="external"><strong>讯飞输入法</strong></a> <sup>Favorite</sup><br>  在使用非手写输入的键盘时，竟然可以在键盘区滑动，即可以手写方式输入！优秀的语音识别输入能力，准确率高，支持方言（我已经越来越多地使用语音进行日常输入了）。支持 3D Touch 移动光标。</li>
-<li><a href="http://shouji.sogou.com/" target="_blank" rel="external"><del>搜狗输入法</del></a> <sup>Great</sup><br>  云输入匹配词语最准的输入法（个人感受）。唯一一个拥有 OCR 识别输入功能的输入法（留着备用）。语音输入不足为奇，但它独有更进一步的「语音修改」功能，使其更易用。</li>
-<li><a href="https://qian.163.com/" target="_blank" rel="external"><strong>网易有钱</strong></a> <sup>Simple</sup><br>  简单方便的记账软件。可以自动同步银行储蓄卡、信用卡和支付宝账户的交易和余额数据，然后再给每笔收支调整分类和补充备注就行了，实在是方便。<ul>
-<li>后来，我发现自己只需要知道自己各个账户的余额，以及总体的收支情况，所以就弃用「随手记」换用它。如果注重隐私信息的安全，请注意退避该 App。</li>
+<li><a href="https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8" target="_blank" rel="external"><strong>Shadowsockrocket</strong></a> <sup>Favorite</sup><br>  iOS 上配合 Shadowsocks 使用的番羽土啬利器。<ul>
+<li>Others : <a href="https://itunes.apple.com/us/app/surge-web-developer-tool-proxy/id1040100637?mt=8" target="_blank" rel="external"><strong><del>Surge</del></strong></a> <sup>Expensive</sup></li>
 </ul>
 </li>
-<li><a href="http://www.feidee.com/money/" target="_blank" rel="external"><del>随手记专业版</del></a> <sup>One fo the best</sup><br>  我用得最顺手的记账软件。弃用理由见上文。</li>
+<li><a href="http://www.xunfei.cn/" target="_blank" rel="external"><strong>讯飞输入法</strong></a> <sup>Favorite</sup><br>  在使用非手写输入的键盘时，竟然可以在键盘区滑动，即可以手写方式输入！优秀的语音识别输入能力，准确率高，支持方言（我已经越来越多地使用语音进行日常输入了）。支持 3D Touch 移动光标。</li>
+<li><a href="http://shouji.sogou.com/" target="_blank" rel="external"><strong><del>搜狗输入法</del></strong></a> <sup>Great</sup><br>  云输入匹配词语最准的输入法（个人感受）。唯一一个拥有 OCR 识别输入功能的输入法（留着备用）。语音输入不足为奇，但它独有更进一步的「语音修改」功能，使其更易用。</li>
 </ul>
 </li>
 </ul>
@@ -4542,6 +4987,11 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <li><a href="https://itunes.apple.com/us/app/2do-reminders-personal-planner/id303656546?mt=8" target="_blank" rel="external"><strong>2Do</strong></a> <sup>Powerful</sup><br>  GTD. ( <a href="#Common">Ref Above</a> )</li>
 <li><a href="http://www.anniapp.com/blockytime/index.html" target="_blank" rel="external"><strong>BlockyTime</strong></a> <sup>Simple</sup><br>  A quicker time logger, let you never spend much time on tracking time.<br>  时间的记录统计工具，规划、督促、自省。</li>
 <li><a href="http://www.habitbull.com/" target="_blank" rel="external"><strong>HabitBull</strong></a><br>  习惯养成，记录、统计、分析养成的情况。该领域有很多 App，好用的不多…… 这个也不算最好的选择，需要自行挑选。</li>
+<li><a href="https://qian.163.com/" target="_blank" rel="external"><strong>网易有钱</strong></a> <sup>Simple</sup><br>  简单方便的记账软件。可以自动同步银行储蓄卡、信用卡和支付宝账户的交易和余额数据，然后再给每笔收支调整分类和补充备注就行了，实在是方便。<ul>
+<li>后来，我发现自己只需要知道自己各个账户的余额，以及总体的收支情况，所以就弃用「随手记」换用它。如果注重隐私信息的安全，请注意退避该 App。</li>
+</ul>
+</li>
+<li><a href="http://www.feidee.com/money/" target="_blank" rel="external"><strong><del>随手记专业版</del></strong></a> <sup>One fo the best</sup><br>  我用得最顺手的记账软件。弃用理由见上文。</li>
 </ul>
 </li>
 </ul>
@@ -4549,8 +4999,15 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <ul>
 <li>Communication<ul>
 <li><strong>Mail</strong> <sup>Simple</sup><br>  iOS 自带邮箱客户端。已足够好用。</li>
-<li><strong>WeChat</strong> <sup>Required for payment</sup><br>  微信。</li>
-<li><a href="https://office.qq.com/" target="_blank" rel="external"><strong>TIM</strong></a> <sup>Simple</sup><br>  手机上简洁版 QQ，腾讯官方出品。<br>  去除了多余的娱乐功能，保证基本的进阶功能使用，方便工作，如音频视频通话等。</li>
+<li><strong>WeChat</strong> <sup>Required for payment</sup><br>  微信，主要用于支付、社交和碎片阅读（公众号）。<ul>
+<li>能用微信小程序代替的 App 我都不下载。<br>  例如：大众点评、摩拜单车、嘀嘀出行、京东 等等。</li>
+</ul>
+</li>
+<li><a href="https://office.qq.com/" target="_blank" rel="external"><strong>TIM</strong></a> <sup>Simple</sup><br>  手机上简洁版的 QQ，腾讯官方出品。<ul>
+<li>去除了多余的娱乐功能，保证基本的进阶功能使用，方便工作，如音频视频通话等。</li>
+<li>不过还是得留着原版的 QQ，TIM 还不支持 QQ 的授权登录操作……</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -4559,8 +5016,8 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <li>Read &amp; Study<ul>
 <li><a href="https://itunes.apple.com/us/app/kindle-read-books-ebooks-magazines/id302584613?mt=8" target="_blank" rel="external"><strong>Kindle</strong></a><br>  Amazon 的电子书资源是最全面、最丰富的，喜欢读书的话，没有太多其它的选择。</li>
 <li><a href="http://www.duokan.com/" target="_blank" rel="external"><strong>多看阅读</strong></a> <sup>Best</sup><br>  阅读软件。可导入 PDF，带云存储，操作流畅，阅读体验一流。</li>
-<li><a href="http://www.shanbay.com/" target="_blank" rel="external"><strong>扇贝英语</strong> 系列 Apps</a> <sup>English</sup><br>  扇贝单词、扇贝炼句、扇贝听力、扇贝读书。工具不重要，最重要还是要坚持学习。</li>
-<li><a href="http://open.163.com/" target="_blank" rel="external"><strong>网易公开课</strong></a><br>  国内最好的公开课平台。</li>
+<li><a href="http://www.shanbay.com/" target="_blank" rel="external"><strong><del>扇贝英语</del></strong> 系列 Apps</a> <sup>English</sup><br>  扇贝单词、扇贝炼句、扇贝听力、扇贝读书。工具不重要，最重要还是要坚持学习。</li>
+<li><a href="http://open.163.com/" target="_blank" rel="external"><strong><del>网易公开课</del></strong></a><br>  国内最好的公开课平台。</li>
 </ul>
 </li>
 </ul>
@@ -4571,7 +5028,7 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <li><a href="http://supertop.co/castro/" target="_blank" rel="external"><strong>Castro 2</strong></a> <sup>Favorite</sup><br>  小巧易用，轻量级泛用型播客 App 的最佳选择！</li>
 <li><a href="http://www.apple.com/itunes/podcasts/" target="_blank" rel="external"><del>Podcasts</del></a><br>  iOS 自带泛用型播客 App，功能完备，无广告，最稳定，但是有太多用不着的功能，选择旧节目下载的操作太捉急。</li>
 <li>---</li>
-<li><a href="http://www.ximalaya.com/" target="_blank" rel="external"><strong>喜马拉雅FM</strong></a> <sup>Popular</sup><br>  使用体验与内容俱佳，许多电台自媒体的首选独播平台。当之无愧的国内第一播客平台。</li>
+<li><a href="http://www.ximalaya.com/" target="_blank" rel="external"><strong><del>喜马拉雅FM</del></strong></a> <sup>Popular</sup><br>  使用体验与内容俱佳，许多电台自媒体的首选独播平台。当之无愧的国内第一播客平台。</li>
 <li><a href="http://diantai.ifeng.com/" target="_blank" rel="external"><del>凤凰FM</del></a><br>  <del>拥有凤凰传媒的版权内容，有我最喜欢的谈话节目《锵锵三人行》。</del></li>
 <li><a href="http://fm.qq.com/" target="_blank" rel="external"><del>企鹅FM</del></a><br>  <del>腾讯出品用户体验必然好，娱乐类节目偏多。</del></li>
 </ul>
@@ -4580,11 +5037,15 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <hr>
 <ul>
 <li>Information &amp; Knowledge 资讯、知识<ul>
-<li><a href="https://itunes.apple.com/cn/app/zhi-hu-yu-shi-jie-fen-xiang/id432274380?mt=8" target="_blank" rel="external"><strong>知乎</strong></a> - 优质问答社区。</li>
-<li><strong>微博问答</strong> - 微博内置问答平台。还是能碰到不错的内容。</li>
+<li><a href="https://itunes.apple.com/cn/app/zhi-hu-yu-shi-jie-fen-xiang/id432274380?mt=8" target="_blank" rel="external"><strong><del>知乎</del></strong></a> - 优质问答社区。</li>
+<li><a href="http://weibo.com" target="_blank" rel="external"><del>微博</del></a> - 国内最大的自媒体平台。（暂时无法被替代……）<ul>
+<li><strong>微博问答</strong> - 微博内置问答平台，还是有不错的内容的。</li>
+<li>可以用 <a href="https://m.weibo.cn/beta" target="_blank" rel="external">Weibo H5 Beta 版</a>，有正常的时间序，轻度使用体验拔群！</li>
+</ul>
+</li>
 <li><a href="https://itunes.apple.com/us/app/fen-da-zhi-fu-fei-yu-yin-wen/id1114450317?mt=8" target="_blank" rel="external"><del>分答</del></a> - 音频问答平台。一分钟音频能承载的信息量还是差点意思。</li>
-<li><a href="https://www.ruguoapp.com/" target="_blank" rel="external"><strong>即刻</strong></a> - 关注感兴趣的主题，收到量身定制的更新推送。很不错。</li>
-<li><a href="https://itunes.apple.com/us/app/wan-dou-jia-yi-lan-zai-yi/id1003672393?mt=8" target="_blank" rel="external"><strong>豌豆荚一览</strong></a> - 资讯类 Apps 内容汇总。</li>
+<li><a href="https://www.ruguoapp.com/" target="_blank" rel="external"><strong><del>即刻</del></strong></a> - 关注感兴趣的主题，收到量身定制的更新推送。很不错。</li>
+<li><a href="https://itunes.apple.com/us/app/wan-dou-jia-yi-lan-zai-yi/id1003672393?mt=8" target="_blank" rel="external"><strong><del>豌豆荚一览</del></strong></a> - 资讯类 Apps 内容汇总。</li>
 </ul>
 </li>
 </ul>
@@ -4595,25 +5056,31 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <li><a href="http://music.163.com/" target="_blank" rel="external"><strong>Netease Music</strong></a> <sup>Favorite</sup><br>  网易云音乐，音乐类软件的新标杆。能找到很多好歌单，冷门好歌，最喜欢看歌曲评论，分享感动和共鸣。</li>
 <li><a href="https://itunes.apple.com/en/app/deemo/id700637744?mt=8" target="_blank" rel="external"><strong>Deemo</strong></a> <sup>Favorite, Best</sup><br>  最爱的音乐游戏！最爱曲目：Magnolia 。超喜欢这个游戏工作室：Rayark ！</li>
 <li><a href="http://www.acfun.tv/" target="_blank" rel="external"><strong>AcFun</strong></a></li>
-<li><a href="http://www.bilibili.com/" target="_blank" rel="external"><strong>Bilibili</strong></a> <sup>Favorite, Best</sup><br>  现在看视频不带弹幕，就总觉得差点意思。</li>
+<li><a href="http://www.bilibili.com/" target="_blank" rel="external"><strong>Bilibili</strong></a> <sup>Favorite, Best</sup><br>  现在看视频不带弹幕，就总觉得差点意思。<ul>
+<li>Others : <a href="http://mobile.tudou.com/" target="_blank" rel="external">土豆</a> , <a href="https://www.youtube.com/yt/devices/" target="_blank" rel="external">YouTube</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<ul>
+<li>Security<ul>
+<li><a href="https://1password.com/" target="_blank" rel="external"><strong>1Password</strong></a><br>  密码管理。</li>
+<li><a href="https://www.authy.com/" target="_blank" rel="external"><strong><del>Authy</del></strong></a>  <sup>Better Authenticator!</sup><br>  两步验证器。可以多设备云同步、备份其中的验证信息。<br>  不像其它验证器，无法便捷切换到新的设备商，而且一旦卸载了，相关信息就丢失了。</li>
+<li><a href="https://itunes.apple.com/en/app/google-authenticator/id388497605?mt=8" target="_blank" rel="external"><del>Google Authenticator</del></a> <sup>Required</sup><br>  两步验证器。提高安全意识，能开启两步验证的网络服务都开启，别嫌麻烦。</li>
+<li><a href="https://itunes.apple.com/us/app/teng-xun-shou-ji-guan-jia/id439638720?mt=8" target="_blank" rel="external"><strong><del>Tencent Security</del></strong></a> 腾讯手机管家<br>  iOS 最好的来电防骚扰助手。（实际很少收到骚扰电话，所以已卸载）</li>
 </ul>
 </li>
 </ul>
 <hr>
 <ul>
 <li>Others<ul>
-<li><a href="https://www.authy.com/" target="_blank" rel="external"><strong>Authy</strong></a>  <sup>Better Authenticator!</sup><br>  两步验证器。可以多设备云同步、备份其中的验证信息。<br>  不像其它验证器，无法便捷切换到新的设备商，而且一旦卸载了，相关信息就丢失了。</li>
-<li><a href="https://itunes.apple.com/en/app/google-authenticator/id388497605?mt=8" target="_blank" rel="external"><del>Google Authenticator</del></a> <sup>Required</sup><br>  两步验证器。提高安全意识，能开启两步验证的网络服务都开启，别嫌麻烦。</li>
-<li>---</li>
-<li><a href="https://itunes.apple.com/cn/app/%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE-%E7%B2%BE%E5%87%86%E4%B8%93%E4%B8%9A%E7%9A%84%E6%89%8B%E6%9C%BA%E5%9C%B0%E5%9B%BE-%E8%87%AA%E9%A9%BE%E5%85%AC%E4%BA%A4%E9%AA%91%E8%A1%8C%E5%AF%BC%E8%88%AA/id461703208?mt=8" target="_blank" rel="external"><strong>高德地图</strong></a><br>  各个地图 App 当中，个人觉得这个最美观、顺手。腾讯地图虽然可以完全离线，可是用起来不习惯</li>
-<li><a href="https://pim.qq.com/" target="_blank" rel="external"><strong>QQ 同步助手</strong></a><br>  我将其用于：英文版 iOS 的中文联系人排序、合并、去重、修改以及备份等。</li>
+<li><a href="https://mobile.alipay.com/index.htm" target="_blank" rel="external"><strong>支付宝</strong></a><br>  不得不装，用于交水电费、查快递、淘宝天猫亚马逊付款……</li>
+<li><a href="https://itunes.apple.com/cn/app/%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE-%E7%B2%BE%E5%87%86%E4%B8%93%E4%B8%9A%E7%9A%84%E6%89%8B%E6%9C%BA%E5%9C%B0%E5%9B%BE-%E8%87%AA%E9%A9%BE%E5%85%AC%E4%BA%A4%E9%AA%91%E8%A1%8C%E5%AF%BC%E8%88%AA/id461703208?mt=8" target="_blank" rel="external"><strong>高德地图</strong></a><br>  各个地图 App 当中，个人觉得这个最美观、顺手。腾讯地图虽然可以完全离线，可是用起来不习惯。</li>
 <li><a href="http://www.eudic.net/eudic/mac_dictionary.aspx" target="_blank" rel="external"><strong>欧路词典 Pro</strong></a><br>  英语词典。可使用在线有道词典，无广告！</li>
-<li>---</li>
-<li><strong>支付宝</strong> - 不得不装，用于交水电费、查快递、淘宝天猫亚马逊付款……</li>
-<li><strong>大众点评</strong> - 手机剩下的唯一一个 O2O 团购软件。</li>
-<li>---</li>
-<li><a href="https://itunes.apple.com/us/app/teng-xun-shou-ji-guan-jia/id439638720?mt=8" target="_blank" rel="external"><del>Tencent Security</del></a> 腾讯手机管家<br>  iOS 最好的来电防骚扰助手。（实际很少收到骚扰电话，所以已卸载）</li>
-<li><a href="https://serverauditor.com/" target="_blank" rel="external"><del>Serverauditor</del></a> <sup><em>temp</em></sup><br>  免费的移动 SSH 客户端。运维、服务端研发工程师们随时随地“救火”的利器。（只作为权宜之计使用）</li>
+<li><a href="https://pim.qq.com/" target="_blank" rel="external"><strong><del>QQ 同步助手</del></strong></a><br>  iOS 语言设置为 English 后，需要它进行中文联系人排序；还可以合并、去重、修改以及备份通讯录。</li>
+<li><a href="https://serverauditor.com/" target="_blank" rel="external"><del>Serverauditor</del></a> <sup><em>temp</em></sup><br>  免费的移动 SSH 客户端。运维、服务端研发工程师们随时随地“救火”的利器。<br>  （只能作为权宜之计，远不如笔记本电脑方便）</li>
 </ul>
 </li>
 </ul>
@@ -4637,7 +5104,7 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 </ul>
 </li>
 <li>Chrome : <a href="https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en" target="_blank" rel="external"><strong>Vimium</strong></a> <sup>Simple</sup><ul>
-<li><a href="https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh?hl=en" target="_blank" rel="external"><del>cVim</del></a> <sup>Powerful</sup> 功能更强大、丰富、可配置，但需要用类似 <code>.vimrc</code> 的文本方式进行调整功能配置，比较麻烦。</li>
+<li><a href="https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh?hl=en" target="_blank" rel="external"><strong><del>cVim</del></strong></a> <sup>Powerful</sup> 功能更强大、丰富、可配置，但需要用类似 <code>.vimrc</code> 的文本方式进行调整功能配置，比较麻烦。</li>
 </ul>
 </li>
 </ul>
@@ -4652,9 +5119,10 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <li><del><a href="https://adblockplus.org/zh_CN/" target="_blank" rel="external">Adblock Plus</a> &amp; <a href="https://adblockplus.org/zh_CN/elemhidehelper" target="_blank" rel="external">Adblock Plus Elem Hide Helper</a></del> <sup>Focus, Clean</sup><br>  老牌广告过滤器之一。防止追踪、屏蔽恶意域名，过滤横幅广告、弹窗广告以及视频广告。配合元素隐藏助手使用，可更轻松地建立元素隐藏规则。</li>
 <li><a href="http://fxthunder.com/" target="_blank" rel="external"><strong>xThunder</strong></a> <sup>Firefox</sup><br>  统一管理浏览器各下载器的调用，支持迅雷、DownThemAll 以及浏览器的自带下载器等。</li>
 <li><a href="http://jsonview.com/" target="_blank" rel="external"><strong>JSONView</strong></a> <sup>Web Development</sup><br>  清晰明了地展示页面的 JSON 格式数据。</li>
-<li><a href="downthemall.net"><del>DownThemAll!</del></a><br>  <del>批量下载工具。多线下载，速度更快，功能更强，非 P2P 下载用它代替迅雷和浏览器自带的下载器。</del><br>  （一般情况下用浏览器默认的下载器就够了）</li>
-<li><a href="http://www.greasespot.net/" target="_blank" rel="external"><del>Greasemonkey</del></a> <sup><strong>Geek</strong></sup><br>  <del>使用 JavaScript 脚本自定义网站网页的布局、外观、操作等！有提供油猴脚本的 <a href="http://wiki.greasespot.net/User_Script_Hosting" target="_blank" rel="external">网站</a>。</del><br>  （用多了，影响网页的加载速度和性能还有安全性…… 没必要这样折腾，用原版网页。）</li>
-<li><a href="https://userstyles.org/" target="_blank" rel="external"><del>Stylish</del></a> <sup>Firefox</sup><br>  <del>用户样式管理器。用自定义或别人预定义好的 CSS 定制各网页的外观。</del>（没必要折腾。）<!-- - [~~NoScript~~](https://noscript.net/) -->
+<li><a href="downthemall.net"><strong>DownThemAll!</strong></a><br>  <del>批量下载工具。多线下载，速度更快，功能更强，非 P2P 下载用它代替迅雷和浏览器自带的下载器。</del><br>  （一般情况下用浏览器默认的下载器就够了）</li>
+<li><a href="http://www.greasespot.net/" target="_blank" rel="external"><strong><del>Greasemonkey</del></strong></a> <sup><strong>Geek</strong></sup><br>  使用 JavaScript 脚本自定义网站网页的布局、外观、操作等！有提供油猴脚本的 <a href="http://wiki.greasespot.net/User_Script_Hosting" target="_blank" rel="external">网站</a>。<br>  （用多了，影响网页的加载速度和性能还有安全性…… 没必要这样折腾，用原版网页。）<!-- - [~~Stylish~~](https://userstyles.org/) <sup>Firefox</sup> -->
+  <!-- ~~用户样式管理器。用自定义或别人预定义好的 CSS 定制各网页的外观。~~（没必要折腾。） -->
+<!-- - [~~NoScript~~](https://noscript.net/) -->
   <!-- ~~根据自定义的规则，屏蔽/通过 JavaScript、Java、Flash 以及其它插件等的页面内容，降低安全风险~~。除非对隐私要求高，否则实属自找麻烦。 -->
 <!-- - [~~RequestPolicy~~](https://www.requestpolicy.com/) -->
   <!-- ~~控制允许哪些跨站点的请求，改善隐私保护，避免遭遇跨站点请求伪造（CSRF）以及其它攻击~~。除非对隐私要求高，否则实属自找麻烦。 -->
@@ -4663,30 +5131,30 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 </li>
 </ul>
 <h3 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h3><ul>
-<li><a href="https://tortoisegit.org/" target="_blank" rel="external">TortoisGit</a> - 便捷好用的 Git GUI 工具。</li>
-<li><a href="http://www.telerik.com/fiddler" target="_blank" rel="external">Fiddler</a> - <a href="http://m.open-open.com/m/lib/view/1375954572906.html" target="_blank" rel="external">抓包工具</a>。</li>
-<li><a href="https://www.editplus.com/" target="_blank" rel="external">EditPlus</a> - 功能强大的文本编辑软件。</li>
-<li><a href="http://www.strokesplus.com/" target="_blank" rel="external">StrokesPlus</a> - 强大的 <a href="http://bbs.kafan.cn/thread-1410275-1-1.html" target="_blank" rel="external">全局鼠标手势软件</a>。</li>
-<li><a href="https://www.voidtools.com/" target="_blank" rel="external">Everything</a> - 强大的 <a href="http://xbeta.info/everything-search-tool.htm" target="_blank" rel="external">全局文件检索工具</a>（ <a href="http://my.oschina.net/alphajay/blog/79431?fromerr=k12K2L1s" target="_blank" rel="external">Q &amp; A</a> ）。</li>
-<li><a href="http://www.listary.com/" target="_blank" rel="external">Listary Pro</a> - 类似于 Everything，<a href="http://www.iplaysoft.com/listary.html" target="_blank" rel="external">各有优劣</a>。</li>
-<li><a href="https://autohotkey.com/" target="_blank" rel="external">AutoHotkey</a> - <a href="http://xbeta.info/autohotkey-guide-2.htm" target="_blank" rel="external">全局快捷键设置工具</a>。</li>
-<li>Ref:《 <a href="http://wsgzao.github.io/post/windows/" target="_blank" rel="external">Windows常用软件推荐</a> 》</li>
+<li><a href="https://tortoisegit.org/" target="_blank" rel="external"><strong>TortoisGit</strong></a> - 便捷好用的 Git GUI 工具。</li>
+<li><a href="http://www.telerik.com/fiddler" target="_blank" rel="external"><strong>Fiddler</strong></a> - <a href="http://m.open-open.com/m/lib/view/1375954572906.html" target="_blank" rel="external">抓包工具</a>。</li>
+<li><a href="https://www.editplus.com/" target="_blank" rel="external"><strong>EditPlus</strong></a> - 功能强大的文本编辑软件。</li>
+<li><a href="http://www.strokesplus.com/" target="_blank" rel="external"><strong>StrokesPlus</strong></a> - 强大的 <a href="http://bbs.kafan.cn/thread-1410275-1-1.html" target="_blank" rel="external">全局鼠标手势软件</a>。</li>
+<li><a href="https://www.voidtools.com/" target="_blank" rel="external"><strong>Everything</strong></a> - 强大的 <a href="http://xbeta.info/everything-search-tool.htm" target="_blank" rel="external">全局文件检索工具</a>（ <a href="http://my.oschina.net/alphajay/blog/79431?fromerr=k12K2L1s" target="_blank" rel="external">Q &amp; A</a> ）。</li>
+<li><a href="http://www.listary.com/" target="_blank" rel="external"><strong>Listary Pro</strong></a> - 类似于 Everything，<a href="http://www.iplaysoft.com/listary.html" target="_blank" rel="external">各有优劣</a>。</li>
+<li><a href="https://autohotkey.com/" target="_blank" rel="external"><strong>AutoHotkey</strong></a> - <a href="http://xbeta.info/autohotkey-guide-2.htm" target="_blank" rel="external">全局快捷键设置工具</a>。</li>
+<li>Ref : <a href="http://wsgzao.github.io/post/windows/" target="_blank" rel="external">Windows常用软件推荐</a></li>
 </ul>
 <h2 id="Hardware"><a href="#Hardware" class="headerlink" title="Hardware"></a>Hardware</h2><p>以下附带部分个人测评（使用感受）。</p>
 <h3 id="Smart"><a href="#Smart" class="headerlink" title="Smart"></a>Smart</h3><ul>
 <li>Laptop<ul>
-<li><a href="http://www.apple.com/cn/shop/buy-mac/macbook-pro?product=MF841CH/A&amp;step=config" target="_blank" rel="external">MacBook Pro Retina 13-inch</a> <sup>Favorite</sup><br>  i7 - 3.1 GHz / Mem 16 GB / SSD 512 GB ，Mac 是软件工程师的最佳工作平台！<br>  Unix-like，稳定、省心。用好了 Windows，才了无牵挂地换了 Mac。<ul>
-<li><a href="http://www.apple.com/cn/shop/product/MLA22CH/A/magic-keyboard?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2" target="_blank" rel="external">Magic Keyboard</a> - 键盘<br>  （第二代）小巧轻便。Mac 的键盘布局紧凑合理，手用更小幅度的移动就能触及所有按键，省力。<ul>
+<li><a href="http://www.apple.com/cn/shop/buy-mac/macbook-pro?product=MF841CH/A&amp;step=config" target="_blank" rel="external"><strong>MacBook Pro Retina 13-inch</strong></a> <sup>Favorite</sup><br>  i7 - 3.1 GHz / Mem 16 GB / SSD 512 GB ，Mac 是软件工程师的最佳工作平台！<br>  Unix-like，稳定、省心。用好了 Windows，才了无牵挂地换了 Mac。<ul>
+<li><a href="http://www.apple.com/cn/shop/product/MLA22CH/A/magic-keyboard?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2" target="_blank" rel="external"><strong>Magic Keyboard</strong></a> - 键盘<br>  （第二代）小巧轻便。Mac 的键盘布局紧凑合理，手用更小幅度的移动就能触及所有按键，省力。<ul>
 <li>可能你会觉得敲起来手感「绵软」，但是作为「键盘党」的我，快捷键很多而且用得频繁，就觉得使用它很舒适、省力、安静。</li>
 <li><a href="http://baike.baidu.com/view/1748635.htm" target="_blank" rel="external">键程</a> 不会太长或太短，不需要用力按下，有舒适的反馈感（个人感觉），用久了手也不容易疲劳，特别是小指；而且敲击按键的声音小，不容易打扰到别人。</li>
 <li>使用蓝牙 4.0 无线连接，功耗低 —— 没有连接线，这点简直是洁癖和强迫症的福音；内置电池，Lightning 接口充电，一次充电能够续航三周以上，省心。</li>
 </ul>
 </li>
-<li><a href="http://www.apple.com/cn/shop/product/MJ2R2CH/A/magic-trackpad-2?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2" target="_blank" rel="external">Magic Trackpad 2</a> - 触摸板<br>  Macbook 自带触摸板的手感已经非常好了，但它还要更胜一筹！第二代比第一代触摸面积大了不少，有三段式压感反馈，手感细腻。<ul>
+<li><a href="http://www.apple.com/cn/shop/product/MJ2R2CH/A/magic-trackpad-2?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2" target="_blank" rel="external"><strong>Magic Trackpad 2</strong></a> - 触摸板<br>  Macbook 自带触摸板的手感已经非常好了，但它还要更胜一筹！第二代比第一代触摸面积大了不少，有三段式压感反馈，手感细腻。<ul>
 <li>还是嫌它大了点，因为我的 Mac 光标移动速度向来调到最快，基本一次小幅度滑动，光标就到位了，不需要太大的触控面积。</li>
 </ul>
 </li>
-<li><a href="http://www.samsung.com/cn/memory-storage/pssd-mu-pt/MU-PT500BCN/" target="_blank" rel="external">SAMSUNG Portable SSD T3 500GB</a> - 便携 SSD<br>  用这个便携固态硬盘当作备份盘确实有点奢侈……</li>
+<li><a href="http://www.samsung.com/cn/memory-storage/pssd-mu-pt/MU-PT500BCN/" target="_blank" rel="external"><strong>SAMSUNG Portable SSD T3 500GB</strong></a> - 便携 SSD<br>  用这个便携固态硬盘当作备份盘确实有点奢侈……</li>
 </ul>
 </li>
 </ul>
@@ -4695,13 +5163,13 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <hr>
 <ul>
 <li>Phone<ul>
-<li><a href="http://www.apple.com/cn/shop/buy-iphone/iphone-7" target="_blank" rel="external">iPhone 7 Black</a> <sup>Favorite</sup><br>  128GB + <a href="http://www.apple.com/cn/shop/product/MMW82FE/A/iphone-7-%E7%A1%85%E8%83%B6%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E9%BB%91%E8%89%B2?fnode=99" target="_blank" rel="external">Black Silicone Case</a> ，闪电般流畅，稳定省心；小巧称手，单手操作高效、舒适。<ul>
+<li><a href="http://www.apple.com/cn/shop/buy-iphone/iphone-7" target="_blank" rel="external"><strong>iPhone 7 Black</strong></a> <sup>Favorite</sup><br>  128GB + <a href="http://www.apple.com/cn/shop/product/MMW82FE/A/iphone-7-%E7%A1%85%E8%83%B6%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E9%BB%91%E8%89%B2?fnode=99" target="_blank" rel="external"><strong>Red Silicone Case</strong></a> ，闪电般流畅，稳定省心；小巧称手，单手操作高效、舒适。<ul>
 <li>笔记、记账、GTD、阅读、通讯… 随身的效率工具，我一定买最好的。</li>
 <li>哑光黑很 Geek！强迫症的我受不了娇贵易损的亮黑。</li>
-<li>我很喜欢 <a href="http://www.apple.com/cn/shop/product/MMW82FE/A/iphone-7-%E7%A1%85%E8%83%B6%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E9%BB%91%E8%89%B2?fnode=99" target="_blank" rel="external">Black Silicone Case</a>（官方硅胶保护壳）的轻微磨砂质感，舒适、不滑手。</li>
+<li>我很喜欢 <a href="http://www.apple.com/cn/shop/product/MMW82FE/A/iphone-7-%E7%A1%85%E8%83%B6%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E9%BB%91%E8%89%B2?fnode=99" target="_blank" rel="external">Red Silicone Case</a>（官方硅胶保护壳）的轻微磨砂质感，舒适、不滑手。</li>
 </ul>
 </li>
-<li><del>iPhone 6 Plus Gold</del> <sup><em>备用</em></sup><br>  64GB + <a href="http://www.apple.com/cn/shop/product/MM6D2FE/A/iphone-6s-plus-%E7%A1%85%E8%83%B6%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E4%BA%AE%E7%B2%89%E8%89%B2?fnode=99" target="_blank" rel="external">Turquoise Silicone Case</a> ，续航不错、屏幕尺寸合适。<ul>
+<li><strong><del>iPhone 6 Plus Gold</del></strong> <sup><em>备用</em></sup><br>  64GB + <a href="http://www.apple.com/cn/shop/product/MM6D2FE/A/iphone-6s-plus-%E7%A1%85%E8%83%B6%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E4%BA%AE%E7%B2%89%E8%89%B2?fnode=99" target="_blank" rel="external"><strong>Turquoise Silicone Case</strong></a> ，续航不错、屏幕尺寸合适。<ul>
 <li>作为iPad 的替代品和备用手机，出门就可以不带充电宝了。</li>
 <li>比小屏 iPhone 更适合阅读和看视频，又比 iPad Mini 更便携、方便单手操作，挤地铁公交的时候用也没问题，也是最适合玩手机游戏的尺寸。</li>
 <li><a href="http://www.apple.com/cn/shop/product/MM6D2FE/A/iphone-6s-plus-%E7%A1%85%E8%83%B6%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E4%BA%AE%E7%B2%89%E8%89%B2?fnode=99" target="_blank" rel="external">Turquoise Silicone Case</a>（宝石绿官方硅胶保护壳），一分钱一分货，用久了也能保持悦目的颜色。</li>
@@ -4714,7 +5182,7 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <hr>
 <ul>
 <li>Watch<ul>
-<li><a href="http://www.apple.com/cn/shop/buy-watch/apple-watch-sport/38-%E6%AF%AB%E7%B1%B3%E6%B7%B1%E7%A9%BA%E7%81%B0%E8%89%B2%E9%93%9D%E9%87%91%E5%B1%9E%E8%A1%A8%E5%A3%B3-%E9%BB%91%E8%89%B2%E8%BF%90%E5%8A%A8%E5%9E%8B%E8%A1%A8%E5%B8%A6?product=MJ2X2CH/A&amp;step=detail" target="_blank" rel="external">Apple Watch Sport</a> <sup>Favorite</sup><br>  38mm Space Gray Aluminum Case with Black Sport Band ，手机辅助工具、健康助手。<ul>
+<li><a href="http://www.apple.com/cn/shop/buy-watch/apple-watch-sport/38-%E6%AF%AB%E7%B1%B3%E6%B7%B1%E7%A9%BA%E7%81%B0%E8%89%B2%E9%93%9D%E9%87%91%E5%B1%9E%E8%A1%A8%E5%A3%B3-%E9%BB%91%E8%89%B2%E8%BF%90%E5%8A%A8%E5%9E%8B%E8%A1%A8%E5%B8%A6?product=MJ2X2CH/A&amp;step=detail" target="_blank" rel="external"><strong>Apple Watch Sport</strong></a> <sup>Favorite</sup><br>  38mm Space Gray Aluminum Case with Black Sport Band ，手机辅助工具、健康助手。<ul>
 <li>消息推送更私密，还可以使用语音识别输入内容，不用掏出手机就可以快速预览信息、回复。</li>
 <li>便于设置闹钟、计时、倒计时，倒计时可结合番茄工作法使用。</li>
 <li>可以控制手机的音频播放，不用掏出手机进行操作。</li>
@@ -4729,12 +5197,12 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <hr>
 <ul>
 <li>Tablet<ul>
-<li><a href="http://www.apple.com/cn/ipad-air-2/" target="_blank" rel="external">iPad Air</a> <!--<sup>[_闲置待转售_](https://2.taobao.com/item.htm?id=539039133369)</sup>--><br>  32GB + <a href="http://www.apple.com/cn/shop/product/MGTM2FE/A/ipad-air-smart-cover-black" target="_blank" rel="external">Red Smart Cover</a> + 言外 Involve Leather Bag，多用于阅读技术类书籍，看看动漫、电影、公开课。<ul>
+<li><a href="http://www.apple.com/cn/ipad-air-2/" target="_blank" rel="external"><strong>iPad Air</strong></a> <!--<sup>[_闲置待转售_](https://2.taobao.com/item.htm?id=539039133369)</sup>--><br>  32GB + <a href="http://www.apple.com/cn/shop/product/MGTM2FE/A/ipad-air-smart-cover-black" target="_blank" rel="external"><strong>Red Smart Cover</strong></a> + 言外 Involve Leather Bag，多用于阅读技术类书籍，看看动漫、电影、公开课。<ul>
 <li>结合 Magic Keyboard 能够满足轻度使用，不用总是携带笔记本电脑回住处。</li>
 </ul>
 </li>
-<li><del><a href="https://www.amazon.cn/Kindle-Paperwhite%E7%94%B5%E5%AD%90%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A8-300-ppi%E7%94%B5%E5%AD%90%E5%A2%A8%E6%B0%B4%E8%A7%A6%E6%8E%A7%E5%B1%8F-%E5%86%85%E7%BD%AE%E9%98%85%E8%AF%BB%E7%81%AF-%E8%B6%85%E9%95%BF%E7%BB%AD%E8%88%AA/dp/B00QJDOLIO" target="_blank" rel="external">Kindle Paperwhite</a> E-reader - 电子阅读器</del> <sup><em>Sold</em></sup><ul>
-<li><del>+ <a href="https://www.amazon.cn/%E4%BA%9A%E9%A9%AC%E9%80%8AKindle-Paperwhite%E7%9C%9F%E7%9A%AE%E4%BF%9D%E6%8A%A4%E5%A5%97/dp/B008BQH1NO" target="_blank" rel="external">Amazon Onyx Black Leather Cover</a> ，需要长时间看书时，还得用 E-Ink 屏，保护视力。</del></li>
+<li><del><a href="https://www.amazon.cn/Kindle-Paperwhite%E7%94%B5%E5%AD%90%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A8-300-ppi%E7%94%B5%E5%AD%90%E5%A2%A8%E6%B0%B4%E8%A7%A6%E6%8E%A7%E5%B1%8F-%E5%86%85%E7%BD%AE%E9%98%85%E8%AF%BB%E7%81%AF-%E8%B6%85%E9%95%BF%E7%BB%AD%E8%88%AA/dp/B00QJDOLIO" target="_blank" rel="external"><strong>Kindle Paperwhite</strong></a> E-reader - 电子阅读器</del> <sup><em>Sold</em></sup><ul>
+<li><del>+ <a href="https://www.amazon.cn/%E4%BA%9A%E9%A9%AC%E9%80%8AKindle-Paperwhite%E7%9C%9F%E7%9A%AE%E4%BF%9D%E6%8A%A4%E5%A5%97/dp/B008BQH1NO" target="_blank" rel="external"><strong>Amazon Onyx Black Leather Cover</strong></a> ，需要长时间看书时，还得用 E-Ink 屏，保护视力。</del></li>
 </ul>
 </li>
 </ul>
@@ -4742,32 +5210,21 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 </ul>
 <h3 id="Sound"><a href="#Sound" class="headerlink" title="Sound"></a>Sound</h3><ul>
 <li>Headphone<ul>
-<li><a href="https://www.bose.cn/zh_cn/products/headphones/earphones/quietcontrol-30.html#v=qc30_black" target="_blank" rel="external">Bose QC30</a> <sup><em>wish!</em></sup><br>  无线蓝牙连接，充电 &lt;3h，续航 10h；消噪程度可控，分多级。<br>  续航时间比 QC20 短，不能像 QC20 那样一键切换「消噪」和「接收外部声音」两个状态，比较麻烦。</li>
-<li><a href="http://www.bose.cn/product.aspx?cid=1418#1418" target="_blank" rel="external">Bose QC20</a> <sup>Favorite, Best</sup><br>  <a href="https://www.bose.com/en_us/products/headphones/earphones/quietcomfort-20i-acoustic-noise-cancelling-headphones.html#v=qc20_apple_white" target="_blank" rel="external">QuietComfort® 20 Acoustic Noise Cancelling® headphones — Apple devices</a><ul>
+<li><a href="https://www.bose.cn/zh_cn/products/headphones/earphones/quietcontrol-30.html#v=qc30_black" target="_blank" rel="external"><strong>Bose QC30</strong></a> <sup><em>wish!</em></sup><br>  无线蓝牙连接，充电 &lt;3h，续航 10h；消噪程度可控，分多级。<br>  续航时间比 QC20 短，不能像 QC20 那样一键切换「消噪」和「接收外部声音」两个状态，比较麻烦。</li>
+<li><a href="http://www.bose.cn/product.aspx?cid=1418#1418" target="_blank" rel="external"><strong>Bose QC20</strong></a> <sup>Favorite, Best</sup><br>  <a href="https://www.bose.com/en_us/products/headphones/earphones/quietcomfort-20i-acoustic-noise-cancelling-headphones.html#v=qc20_apple_white" target="_blank" rel="external">QuietComfort® 20 Acoustic Noise Cancelling® headphones — Apple devices</a><ul>
 <li>目前市面上我所知的最好的降噪耳塞。主动降噪，耳塞发出一种波与有规律的噪音相消。</li>
 <li>可「一键切换」是否隔绝周围环境的噪音；降噪后，可用更小的音量使用耳塞，声音更清晰。</li>
 <li>人声不能完全隔绝，但其音量会变得很小；主动降噪时，再稍微播放音乐或白噪音，即可在很大程度上隔绝外部噪音。它帮助我在嘈杂的办公室也能在静谧、专注地做事。虽然它贵，但花得值！</li>
 </ul>
 </li>
-<li><a href="http://www.sonystyle.com.cn/products/headphone/mdr_ex750bt.htm" target="_blank" rel="external">SONY MDR-EX750BT</a> <sup><em>portable</em></sup><br>  颈戴入耳式耳塞，外观亮骚，音质出众（只对比各蓝牙耳塞，且不含头戴式耳机），便于携带；续航 7.5 h，没电时，也可用外接耳机线连接其它设备继续使用。无线蓝牙耳塞中的佼佼者！</li>
-<li>Others 其它无线蓝牙入耳式耳塞<ul>
-<li><a href="http://detail.zol.com.cn/microphone/index362788.shtml" target="_blank" rel="external"><del>AKG K323XS</del></a> <sup><em>unused</em></sup><br>  <del>低级入门的入耳式耳塞，好用不贵，坏了不心疼。塞头大小适中（偏小），适合长时间佩戴。在买 QC20 前，时常用它当静音耳塞用。后悔没买带线控版，毕竟通话、控制音量、音频播放会更方便。</del></li>
-<li><a href="http://www.amazon.com/Technica-ATH-SQ505-Foldable-Dynamic-Headphones/dp/B004Y3KWX4?ie=UTF8&amp;*Version*=1&amp;*entries*=0" target="_blank" rel="external"><del>ATH SQ505</del></a> <sup><em>Sold</em></sup><br>  <del>因为头戴式容易压得耳朵疼，隔音效果也不好；能盖住耳朵隔音效果好的大耳机，一般设备推不动，音效不佳。</del></li>
-<li>Candidate List<ul>
-<li><a href="http://www.beoplay.cn/products/beoplayh5.php#at-a-glance" target="_blank" rel="external">Beoplay H5</a></li>
-<li><a href="http://www.jaybirdsport.com/x2-bluetooth-headphones/" target="_blank" rel="external">Jaybird X2</a></li>
-<li><a href="http://www.jabra.cn/music/jabra-rox-wireless" target="_blank" rel="external">Jabra ROX 无线耳塞</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<li><a href="http://www.sonystyle.com.cn/products/headphone/mdr_ex750bt.htm" target="_blank" rel="external"><strong>SONY MDR-EX750BT</strong></a> <sup><em>portable</em></sup><br>  颈戴入耳式耳塞，外观亮骚，音质出众（只对比各蓝牙耳塞，且不含头戴式耳机），便于携带；续航 7.5 h，没电时，也可用外接耳机线连接其它设备继续使用。无线蓝牙耳塞中的佼佼者！</li>
 </ul>
 </li>
 </ul>
 <hr>
 <ul>
 <li>Soundbox<ul>
-<li><a href="http://item.jd.com/10132928766.html" target="_blank" rel="external">Sony SRS-X1-V</a> <sup>Favorite</sup><br>  Bluetooth Wireless Speaker System (Purple)，不打扰别人情况下，尽量用蓝牙音箱来外放，更舒服自在。<ul>
+<li><a href="http://item.jd.com/10132928766.html" target="_blank" rel="external"><strong>Sony SRS-X1-V</strong></a> <sup>Favorite</sup><br>  Bluetooth Wireless Speaker System (Purple)，不打扰别人情况下，尽量用蓝牙音箱来外放，更舒服自在。<ul>
 <li>在安静环境下，用适度的音量外放合适的音乐或白噪声，更容易让人产生沉浸式的专注体验。戴耳塞、耳机，让音源很靠近耳朵（头部），发出的声音太容易抢占人的注意力，沉浸体验不如外放设备。</li>
 <li>而且戴耳机、耳塞，多少会压迫侧颊、耳朵、头部，耳道有异物感，始终不是最舒适的状态。长时间戴耳机、耳塞，又不注意清洁设备和耳朵，有可能导致中耳炎，请注意保护听力。</li>
 <li>音效还不错（对比类似价位的同类产品）；续航持久；无线连接迅速；防水，可以在浴室使用。还是一分钱一分货啊。</li>
@@ -4778,7 +5235,7 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 </ul>
 <h3 id="Health"><a href="#Health" class="headerlink" title="Health"></a>Health</h3><ul>
 <li>Toothbrush<ul>
-<li><a href="https://www.amazon.com/Philips-Sonicare-DiamondClean-Rechargeable-HX9332/dp/B0052JN7XG/ref=sr_1_1_a_it?ie=UTF8&amp;qid=1468933357&amp;sr=8-1&amp;keywords=hx9332" target="_blank" rel="external">Philips Sonicare DiamondClean Sonic Electric Rechargeable Toothbrush</a> <sup>Favorite</sup><br>  Model HX9331/04, White，声波式电动牙刷，确实比手动刷干净多了！（<a href="https://www.amazon.cn/Philips-%E9%A3%9E%E5%88%A9%E6%B5%A6-HX9332-04%E9%92%BB%E7%9F%B3%E4%BA%AE%E7%99%BD%E5%9E%8B%E5%A3%B0%E6%B3%A2%E9%9C%87%E5%8A%A8%E7%89%99%E5%88%B7/dp/B007ZY5GV2/ref=sr_1_6?ie=UTF8&amp;qid=1468507397&amp;sr=8-6&amp;keywords=philips+diamondclean" target="_blank" rel="external">亚马逊中国</a>）<ul>
+<li><a href="https://www.amazon.com/Philips-Sonicare-DiamondClean-Rechargeable-HX9332/dp/B0052JN7XG/ref=sr_1_1_a_it?ie=UTF8&amp;qid=1468933357&amp;sr=8-1&amp;keywords=hx9332" target="_blank" rel="external"><strong>Philips Sonicare DiamondClean Sonic Electric Rechargeable Toothbrush</strong></a> <sup>Favorite</sup><br>  Model HX9331/04, White，声波式电动牙刷，确实比手动刷干净多了！（<a href="https://www.amazon.cn/Philips-%E9%A3%9E%E5%88%A9%E6%B5%A6-HX9332-04%E9%92%BB%E7%9F%B3%E4%BA%AE%E7%99%BD%E5%9E%8B%E5%A3%B0%E6%B3%A2%E9%9C%87%E5%8A%A8%E7%89%99%E5%88%B7/dp/B007ZY5GV2/ref=sr_1_6?ie=UTF8&amp;qid=1468507397&amp;sr=8-6&amp;keywords=philips+diamondclean" target="_blank" rel="external">亚马逊中国</a>）<ul>
 <li><a href="https://www.zhihu.com/question/19825877/answer/15856166" target="_blank" rel="external">电动牙刷刷牙相比手动刷牙有什么优缺点？</a></li>
 <li>Summary：<ul>
 <li>电动比手动好，各种好（完爆）；</li>
@@ -4796,7 +5253,7 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <hr>
 <ul>
 <li>Airfloss<ul>
-<li><a href="https://www.amazon.com/Philips-Sonicare-HX8332-Airfloss-Ultra/dp/B01AVE8AAG/ref=sr_1_1_a_it?ie=UTF8&amp;qid=1468933177&amp;sr=8-1&amp;keywords=hx8332" target="_blank" rel="external">Philips Sonicare Airfloss Ultra</a> - 冲牙器（水牙线）<br>  Model HX8332/11。（<a href="http://item.jd.hk/1964052662.html" target="_blank" rel="external">京东</a>）<ul>
+<li><a href="https://www.amazon.com/Philips-Sonicare-HX8332-Airfloss-Ultra/dp/B01AVE8AAG/ref=sr_1_1_a_it?ie=UTF8&amp;qid=1468933177&amp;sr=8-1&amp;keywords=hx8332" target="_blank" rel="external"><strong>Philips Sonicare Airfloss Ultra</strong></a> - 冲牙器（水牙线）<br>  Model HX8332/11。（<a href="http://item.jd.hk/1964052662.html" target="_blank" rel="external">京东</a>）<ul>
 <li>Summary：<ul>
 <li><a href="https://www.zhihu.com/question/20842469/answer/44441538" target="_blank" rel="external">使用牙线有必要性吗？</a></li>
 <li>牙齿与牙齿间的缝隙，牙线或冲牙器，才能弄干净；</li>
@@ -4817,28 +5274,28 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 </ul>
 <h3 id="Sport"><a href="#Sport" class="headerlink" title="Sport"></a>Sport</h3><ul>
 <li>Badminton<ul>
-<li><a href="http://www.victorsport.com.cn/product_data.php?id=bVjabyTqrMjj666zMjEk67dD4xSyq" target="_blank" rel="external">Victor TK-ONIGIRI</a> - 羽球拍 <sup>Favorite</sup><br>  胜利的 Thruster K ONIGIRI 突击鬼斩。<ul>
+<li><a href="http://www.victorsport.com.cn/product_data.php?id=bVjabyTqrMjj666zMjEk67dD4xSyq" target="_blank" rel="external"><strong>Victor TK-ONIGIRI</strong></a> - 羽球拍 <sup>Favorite</sup><br>  胜利的 Thruster K ONIGIRI 突击鬼斩。<ul>
 <li>进攻型羽毛球拍，重量 4U，手柄 G5 粗细，拉 28 磅的 YONEX 80 Power 线。毕竟我喜欢暴力打球。</li>
 <li>打惯 3U 的球拍，一开始不适应，感觉它偏轻、没“手感”。挥拍扣杀时，感觉球拍不够重，惯性不够大，出力不足。但移动、挥拍、救球、回球来更快更灵活，省腕力，长时间打球省体力。</li>
 </ul>
 </li>
-<li><a href="https://item.taobao.com/item.htm?id=534360854337&amp;_u=cuv5jet2aca" target="_blank" rel="external">Mizuno WAVE SMASH LO 白</a> - 羽球鞋<ul>
-<li>旧：<a href="https://item.taobao.com/item.htm?spm=a1z09.2.0.0.H4Rwq7&amp;id=14324807794&amp;_u=euv5jet879d" target="_blank" rel="external"><del>YONEX 65FT 白 JP 版</del></a> <sup><em>已穿坏…</em></sup><br>终于买了双像样的羽球鞋，为的是运动时能更舒适、灵活地移动，保护脚趾、脚掌、脚踝、膝盖。</li>
+<li><a href="https://item.taobao.com/item.htm?id=534360854337&amp;_u=cuv5jet2aca" target="_blank" rel="external"><strong>Mizuno WAVE SMASH LO 白</strong></a> - 羽球鞋<ul>
+<li>旧：<a href="https://item.taobao.com/item.htm?spm=a1z09.2.0.0.H4Rwq7&amp;id=14324807794&amp;_u=euv5jet879d" target="_blank" rel="external"><strong><del>YONEX 65FT 白 JP 版</del></strong></a> <sup><em>已穿坏…</em></sup><br>终于买了双像样的羽球鞋，为的是运动时能更舒适、灵活地移动，保护脚趾、脚掌、脚踝、膝盖。</li>
 <li>快速移动、跳跃后，脚跟落地，能明显感受到它的抗震性很好。</li>
 </ul>
 </li>
-<li><a href="https://item.taobao.com/item.htm?spm=a1z09.2.0.0.CoCGMf&amp;id=37144559361&amp;_u=puv5jet55e6" target="_blank" rel="external">YONEX 16201 训练服</a> - 运动服<br>  VC 面料，透汗、速干；Made in Japan 原版，高性价比。纯白色 &amp; 纯黑色，各一件。</li>
+<li><a href="https://item.taobao.com/item.htm?spm=a1z09.2.0.0.CoCGMf&amp;id=37144559361&amp;_u=puv5jet55e6" target="_blank" rel="external"><strong>YONEX 16201 训练服</strong></a> - 运动服<br>  VC 面料，透汗、速干；Made in Japan 原版，高性价比。纯白色 &amp; 纯黑色，各一件。</li>
 </ul>
 </li>
 </ul>
 <hr>
 <ul>
 <li>Bicycle<ul>
-<li><a href="http://www.merida.cn/?p=82&amp;a=view&amp;r=482" target="_blank" rel="external">Merida Duke 300</a> <sup>Favorite</sup><br>  美利达公爵 300，入门级山地车，白色款，24 速 + 油碟（刹车灵敏，手感好，持久耐用）。<ul>
+<li><a href="http://www.merida.cn/?p=82&amp;a=view&amp;r=482" target="_blank" rel="external"><strong>Merida Duke 300</strong></a> <sup>Favorite</sup><br>  美利达公爵 300，入门级山地车，白色款，24 速 + 油碟（刹车灵敏，手感好，持久耐用）。<ul>
 <li>主要用于：上下班通勤，以及 方圆 20 km 内的日常出行。</li>
 <li>安全装备：头盔 + 运动臂袖（护臂&amp;防晒）+ 手套 + 车前灯。</li>
 <li>其它装备：防晒霜 + 魔术头巾 or 铁发箍。</li>
-<li><a href="http://www.qdong365.com/" target="_blank" rel="external">智芯 Z1</a> - 自行车智能硬件<ul>
+<li><a href="http://www.qdong365.com/" target="_blank" rel="external"><strong>智芯 Z1</strong></a> - 自行车智能硬件<ul>
 <li>用于 <a href="http://www.qdong365.com/web/page/product" target="_blank" rel="external">骑行数据记录</a>（定位、计时…）、车队组网互动、<a href="http://www.qdong365.com/web/page/product" target="_blank" rel="external">防盗</a>！<br>还可以进一步购买 <a href="http://www.qdong365.com/web/page/insurance" target="_blank" rel="external">自行车盗抢险</a>，更放心、充分地用车。</li>
 </ul>
 </li>
@@ -4849,29 +5306,28 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 </ul>
 <h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3><ul>
 <li>Electronic<ul>
-<li><a href="http://www.mi.com/powerstrip/" target="_blank" rel="external">小米插线板</a> - 插座<br>  小巧精致，节省空间又好看，省了不少 USB 充电器。<br>  纯白色 &amp; 纯黑色，各一个，分别放 公司工位 &amp; 北京住处床头。</li>
-<li><a href="http://www.hiwifi.com/j1s-view" target="_blank" rel="external">极路由 1S</a> - 路由器<br>  小巧便宜，设置简单，可以远程操控，满足一般的居家使用。<br>  广州家里 &amp; 北京住处，各一个。</li>
+<li><a href="http://www.mi.com/powerstrip/" target="_blank" rel="external"><strong>小米插线板</strong></a> - 插座<br>  小巧精致，节省空间又好看，省了不少 USB 充电器。<br>  纯白色 &amp; 纯黑色，各一个，分别放公司工位 &amp; 北京住处床头；出行时也带一个以备不时之需。</li>
+<li><a href="http://www.hiwifi.com/j1s-view" target="_blank" rel="external"><strong>极路由 1S</strong></a> - 路由器<br>  小巧便宜，设置简单，可以远程操控，满足一般的居家使用。<br>  广州家里 &amp; 北京住处，各一个。（坏了的话，打算换 <a href="https://www.vmall.com/list-45" target="_blank" rel="external">华为的路由器</a>。）</li>
 </ul>
 </li>
 </ul>
 <hr>
 <ul>
 <li>Umbrella<ul>
-<li><a href="https://www.taobao.com/product/benjamin%E6%9C%AC%E5%82%91%E6%98%8E%E5%82%98.htm" target="_blank" rel="external">BENJAMIN 本傑明傘</a> <sup><em>wish!</em></sup><br>  大洋之舞 or 深海鱼群。</li>
-<li><a href="https://item.taobao.com/item.htm?spm=a1z09.2.0.0.CoCGMf&amp;id=18427718268&amp;_u=puv5jetf0a2" target="_blank" rel="external">Topumbrella 渐变色折叠伞</a> <sup>蓝~紫色</sup><br>  轻便、好看，直接推拉杆上连接伞骨的圆环，不用按按钮，就可以开合。</li>
-<li><a href="https://item.taobao.com/item.htm?spm=a1z09.2.0.0.CoCGMf&amp;id=533037933646&amp;_u=puv5jet438a" target="_blank" rel="external"><del>Topumbrella 纯黑超轻迷你折叠伞</del></a> <sup><em>unused</em></sup><br>  <del>非常轻便，有防止大风吹反伞面以致折断伞骨的设计。但是伞面太小，不够实用，更适合用于遮阳。</del></li>
+<li><a href="https://www.taobao.com/product/benjamin%E6%9C%AC%E5%82%91%E6%98%8E%E5%82%98.htm" target="_blank" rel="external"><strong>BENJAMIN 本傑明傘</strong></a> <sup><em>wish!</em></sup><br>  大洋之舞 or 深海鱼群。</li>
+<li><a href="https://item.taobao.com/item.htm?spm=a1z09.2.0.0.CoCGMf&amp;id=18427718268&amp;_u=puv5jetf0a2" target="_blank" rel="external"><strong>Topumbrella 渐变色折叠伞</strong></a> <sup>蓝~紫色</sup><br>  轻便、好看，直接推拉杆上连接伞骨的圆环，不用按按钮，就可以开合。</li>
 </ul>
 </li>
 </ul>
 <hr>
 <ul>
 <li>Backpack<ul>
-<li><a href="http://www.coteetciel.com/en-CN/isar-backpack-black-melange-laptop-bag" target="_blank" rel="external">Côte &amp; Ciel Backpack</a><br>  Isar Eco Yarn / Black Melange ，就是喜欢它特别的外观设计。<ul>
+<li><a href="http://www.coteetciel.com/en-CN/isar-backpack-black-melange-laptop-bag" target="_blank" rel="external"><strong>Côte &amp; Ciel Backpack</strong></a><br>  Isar Eco Yarn / Black Melange ，就是喜欢它特别的外观设计。<ul>
 <li>即使是小号的包，也还是偏大了，适合高大的人背。而且外形奇特，不容易搭配衣着，比较“挑人”。只是个尼龙材质的包，但价格不便宜，建议先试背，询问亲朋好友的意见后，再购买。</li>
 </ul>
 </li>
-<li><a href="https://www.rains.dk/collections/backpacks/products/msn-bag?variant=16742951681" target="_blank" rel="external">Rains Msn Bag</a> <sup><em>wish</em></sup><br>  坐飞机看到旁边妹子背的这款包很好看。也在考虑 <a href="https://www.rains.dk/collections/backpacks" target="_blank" rel="external">Backpack、Backpack Mini</a>。  <!-- （[淘宝](https://world.taobao.com/item/532027551703.htm?spm=a312a.7700714.0.0.FOAJqC#detail)） --></li>
-<li><a href="https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-14623109746.39.6z07wX&amp;id=37930654463&amp;scene=taobao_shop&amp;skuId=3157441268509" target="_blank" rel="external">迪卡侬 骑行背包</a><br>  有了自行车之后，就在公司待到比较晚才回住处，因为懒得背电脑回去使用。带回去的东西少，小包更方便。<ul>
+<li><a href="https://www.rains.dk/collections/backpacks/products/msn-bag?variant=16742951681" target="_blank" rel="external"><strong>Rains Msn Bag</strong></a> <sup><em>wish</em></sup><br>  坐飞机看到旁边妹子背的这款包很好看。也在考虑 <a href="https://www.rains.dk/collections/backpacks" target="_blank" rel="external">Backpack、Backpack Mini</a>。  <!-- （[淘宝](https://world.taobao.com/item/532027551703.htm?spm=a312a.7700714.0.0.FOAJqC#detail)） --></li>
+<li><a href="https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-14623109746.39.6z07wX&amp;id=37930654463&amp;scene=taobao_shop&amp;skuId=3157441268509" target="_blank" rel="external"><strong>迪卡侬 骑行背包</strong></a><br>  有了自行车之后，就在公司待到比较晚才回住处，因为懒得背电脑回去使用。带回去的东西少，小包更方便。<ul>
 <li>而且夏天背着比较大的背包奔走、骑行，容易汗流浃背。骑行、跑步甚至日常出行，我都喜欢使用这个小巧轻便的透气户外背包。</li>
 </ul>
 </li>
@@ -5520,216 +5976,6 @@ window.onload = function () {
     
     
       <category term="whoami" scheme="http://icehe.me/tags/whoami/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>实现网站的打赏功能</title>
-    <link href="http://icehe.me/web/donate/"/>
-    <id>http://icehe.me/web/donate/</id>
-    <published>2015-04-30T16:00:00.000Z</published>
-    <updated>2016-08-17T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h1><p>据网友 HaiSheng_Zhai 在本文评论中的反映，并经笔者简单测试后确认：</p>
-<ul>
-<li>下文中，<strong>以表单提交的方式，</strong>方便地<strong>用网页版 支付宝 支付的方法，已经失效。</strong></li>
-<li>以同样方式进行网页版 <strong>PalPay 支付的方法，仍可使用</strong>。</li>
-</ul>
-<h1 id="扫码打赏"><a href="#扫码打赏" class="headerlink" title="扫码打赏"></a>扫码打赏</h1><ul>
-<li>现在，路边摊都懂得将自己的 微信或支付宝 的 付款二维码 打印出来，粘贴到某处，方便顾客自行用扫码支付。</li>
-<li>建议采用<strong>「扫描支付宝、微信的付款二维码进行支付」</strong>的方式来实现打赏，简单易行。</li>
-</ul>
-<h2 id="获得二维码"><a href="#获得二维码" class="headerlink" title="获得二维码"></a>获得二维码</h2><ul>
-<li>将自己 微信或支付宝 的付款二维码 保存下来。</li>
-<li>它们的版本持续更新后，下文中的具体流程和文案可能与实际情况有出入。</li>
-</ul>
-<h3 id="微信"><a href="#微信" class="headerlink" title="微信"></a>微信</h3><ul>
-<li>打开 微信（显示应用首屏）；</li>
-<li>点击 首屏右上角的加号 <code>+</code> ；</li>
-<li>点击 下拉菜单中的 <code>收付款</code> 选项；</li>
-<li>点击 <code>我要收款</code> 按钮；</li>
-<li>长按（iOS的方式）屏幕中央的付款二维码，下方会弹出一个菜单；<ul>
-<li>可选：点击 屏幕右上角的 <code>设置金额</code> ，定死单次打赏的金额；</li>
-</ul>
-</li>
-<li>点击 从下方弹出的菜单中的 <code>保存图片</code> 选项；<ul>
-<li>可选：使用 手机系统的截屏功能，然后再处理截屏图片。</li>
-</ul>
-</li>
-</ul>
-<h3 id="支付宝"><a href="#支付宝" class="headerlink" title="支付宝"></a>支付宝</h3><ul>
-<li>打开 支付宝（显示应用首屏）；</li>
-<li>点击 首屏右上角的加号 <code>+</code> ；</li>
-<li>点击 下拉菜单中的 <code>收款</code> 选项；<ul>
-<li>可选：点击 二维码图片 正下方的 <code>设置金额</code>，定死单次打赏的金额；</li>
-</ul>
-</li>
-<li>点击 二维码图片 右下方的 <code>下载</code> 图标按钮。</li>
-</ul>
-<h2 id="发布二维码"><a href="#发布二维码" class="headerlink" title="发布二维码"></a>发布二维码</h2><ul>
-<li>使用 <code>Photoshop</code>，或者手机 App <code>美图秀秀</code>、<code>Enlight</code> 等各种工具、方法，编辑二维码图片，打造出自己喜欢的视觉效果，或简洁，或华丽。</li>
-<li>将二维码图片存放到网络上，如 <code>图床</code> 中。<ul>
-<li><strong>方法一</strong>、注册 <a href="http://www.qiniu.com/" target="_blank" rel="external">七牛云存储</a>，把二维码图片存进去，再获得其引用地址。<ul>
-<li>以后可以将您需要在博客展示的图片，都存放到专门的<code>图床</code>（云存储）服务提供商那里，再引用；而非存放到您自己的博客服务器上，因为图床利于加快图片的加载速度。</li>
-<li>还有很多图床，可自行搜索选择。还是推荐 <code>七牛</code>，因为免费空间（10GB）大，方便易用，服务稳定。我只是其忠实用户，并没有收广告费。</li>
-</ul>
-</li>
-<li><strong>方法二</strong>、更简便的方法：把 <a href="http://weibo.com" target="_blank" rel="external">微博</a> 当图床。</li>
-<li>用一条微博将二维码图片发出去；</li>
-<li>在浏览器中，用右键点击微博中的该图片；</li>
-<li>点击右键菜单中的 <code>复制图片链接</code> 选项，就可以获得保存在新浪的二维码图片的网络地址，用于在博客引用图片。</li>
-</ul>
-</li>
-</ul>
-<h2 id="展示二维码"><a href="#展示二维码" class="headerlink" title="展示二维码"></a>展示二维码</h2><ul>
-<li>再在博客中引用，放到合适的位置上，配上合适的文案、排版，引导访客进行打赏。<ul>
-<li>带文章编辑器的博客系统，通常提供便捷的图片插入功能，可以根据具体情况自行操作。</li>
-<li>有些情况需要根据 <code>标记语言</code> 的语法自行输入，如：<ul>
-<li><strong>Markdown 语法</strong>：<code>![图片替代描述](图片的 URL &quot;图片标题&quot;)</code><ul>
-<li>图片替代描述：通常用于图片无法显示的情况，用这段文字内容来描述这张无法显示的图片。可不填。</li>
-<li>图片的 URL：上一步 <code>发布二维码</code> 时，获得的图片链接地址。</li>
-<li>图片标题：鼠标停留在这张图片上时，会悬浮显示的这段文字内容，会显示的文字内容。可不填。</li>
-<li>Markdown 进阶使用详见 <a href="http://www.appinn.com/markdown/#img" target="_blank" rel="external">Markdown 语法说明 (简体中文版)</a>。</li>
-<li>简单实例：<br>  <code>![](http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png)</code></li>
-<li>详细实例：<br>  <code>![二维码](http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png &quot;打赏&quot;)</code>  <!--![二维码](http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png height="164px" width="164px" "打赏")-->
-  <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png" height="164px" width="164px" alt="二维码" title="打赏"></li>
-</ul>
-</li>
-<li><strong>HTML 语法</strong>：<code>&lt;img src=&quot;图片的 URL&quot; alt=&quot;图片替代描述&quot; title=&quot;图片标题&quot; /&gt;</code><ul>
-<li>其中各部分元素的说明，同上一点 <code>Markdown 语法</code> 所述。</li>
-<li>进阶使用详见 <a href="http://w3school.com.cn/tags/tag_img.asp" target="_blank" rel="external">HTML &lt;img&gt; 标签</a>。</li>
-<li>简单实例：<br>  <code>&lt;img src=&quot;http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_03.png&quot;&gt;</code></li>
-<li>详细实例：<br>  <code>&lt;img src=&quot;http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_03.png&quot; alt=&quot;二维码&quot; title=&quot;打赏&quot; /&gt;</code><br>  <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_03.png" height="164px" width="164px" alt="二维码" title="打赏"></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>结尾<ul>
-<li>可以看看本博客打赏模块现在的 <a href="/reward/">做法和效果</a>。</li>
-<li>可以尝试打赏博主，看看整个完整的流程~</li>
-<li>经考虑，保留本文的上一版原文，因为以下部分仍有借鉴价值：<ul>
-<li>包含 PayPal 打赏 的实现方法。</li>
-<li>包含 打赏按钮 的实现方法。</li>
-<li><a href="/web/donate/#实际效果">实际效果见原文结尾 : )</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h1 id="上一版原文"><a href="#上一版原文" class="headerlink" title="上一版原文"></a>上一版原文</h1><ul>
-<li>原来的支付宝钱包有一个实用的功能 「<strong>一键转账</strong>」，使用便捷，且页面看起来专业、正规，令人放心。它对业务站点而言，无疑是个福音。普通博主、站长也常将其用于捐赠和打赏。但支付宝的<a href="http://www.ithome.com/html/it/83096.htm" target="_blank" rel="external"><strong>个人收款主页 停止服务</strong></a>后，支付宝已经无法实现该功能了。</li>
-</ul>
-<h2 id="曲线救国-——-新方法"><a href="#曲线救国-——-新方法" class="headerlink" title="曲线救国 —— 新方法"></a>曲线救国 —— 新方法</h2><p>可以使用一个简单的<strong>表单</strong>（form 标签），通过<strong>POST</strong>一键自动填写「<a href="https://shenghuo.alipay.com/send/payment/fill.htm" target="_blank" rel="external">支付宝转账页面</a>」的信息。方便您的访客、用户转账捐赠、打赏您。</p>
-<ul>
-<li><strong>HTML 代码</strong></li>
-</ul>
-<p><em>注意：修正其中需要您填写的部分。</em></p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"https://shenghuo.alipay.com/send/payment/fill.htm"</span></span></div><div class="line">	<span class="attr">method</span>=<span class="string">"POST"</span> <span class="attr">target</span>=<span class="string">"_blank"</span> <span class="attr">accept-charset</span>=<span class="string">"GBK"</span>&gt;</div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"optEmail"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"你的支付宝账号"</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"payAmount"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"默认的捐赠金额"</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">"title"</span> <span class="attr">name</span>=<span class="string">"title"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"默认显示的付款说明"</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"memo"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"备注"</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"pay"</span> <span class="attr">type</span>=<span class="string">"image"</span> <span class="attr">value</span>=<span class="string">"转账"</span></span></div><div class="line">		<span class="attr">src</span>=<span class="string">"https://img.alipay.com/sys/personalprod/style/mc/btn-index.png"</span> /&gt;</div><div class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></div></pre></td></tr></table></figure>
-<ul>
-<li><strong>显示效果</strong></li>
-</ul>
-<form action="https://shenghuo.alipay.com/send/payment/fill.htm" method="POST" target="_blank" accept-charset="GBK" style="margin-left: 25px; display: inline;">    <input name="optEmail" type="hidden" value="你的支付宝账号">    <input name="payAmount" type="hidden" value="默认的捐赠金额">    <input id="title" name="title" type="hidden" value="默认显示的付款说明">    <input name="memo" type="hidden" value="备注">    <input name="pay" type="image" value="转账" src="https://img.alipay.com/sys/personalprod/style/mc/btn-index.png">    </form>
-
-<ul>
-<li>Reference 参考资料<br>《<a href="http://www.zzyyss.com/archives/809" target="_blank" rel="external">博客网站支付宝打赏功能</a>》</li>
-</ul>
-<h2 id="笔者的自定义的“打赏”按钮"><a href="#笔者的自定义的“打赏”按钮" class="headerlink" title="笔者的自定义的“打赏”按钮"></a>笔者的自定义的“打赏”按钮</h2><ul>
-<li><strong>HTML 代码</strong>：</li>
-</ul>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div></pre></td><td class="code"><pre><div class="line"><span class="comment">&lt;!-- 打赏表单 --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">id</span>=<span class="string">"donate"</span> <span class="attr">action</span>=<span class="string">"https://shenghuo.alipay.com/send/payment/fill.htm"</span></span></div><div class="line">	<span class="attr">method</span>=<span class="string">"POST"</span> <span class="attr">target</span>=<span class="string">"_blank"</span> <span class="attr">accept-charset</span>=<span class="string">"GBK"</span> <span class="attr">style</span>=<span class="string">"display: none;"</span>&gt;</div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"optEmail"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"您的支付宝账号"</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"payAmount"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"默认的打赏金额"</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">"title"</span> <span class="attr">name</span>=<span class="string">"title"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"默认显示的付款说明"</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"memo"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"备注"</span> /&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- /打赏表单 --&gt;</span></div><div class="line"></div><div class="line"><span class="comment">&lt;!-- 打赏按钮的样式表 --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">"text/css"</span>&gt;</span><span class="undefined"></span></div><div class="line">	.donate_bar a.btn_donate&#123;</div><div class="line">		display: inline-block;</div><div class="line">		width: 82px;</div><div class="line">		height: 82px;</div><div class="line">		background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;</div><div class="line">		_background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;</div><div class="line">	&#125;</div><div class="line">	.donate_bar a.btn_donate:hover&#123; background-position: 0px -82px;&#125;</div><div class="line">	.donate_bar .donate_txt &#123;</div><div class="line">		display: block;</div><div class="line">		color: #9d9d9d;</div><div class="line">		font: 14px/2 "Microsoft Yahei";</div><div class="line">	&#125;</div><div class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- /打赏按钮的样式表 --&gt;</span></div><div class="line"></div><div class="line"><span class="comment">&lt;!-- 打赏按钮 --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"donate_bar"</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"btn_donate"</span> <span class="attr">href</span>=<span class="string">"javascript:;"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span></span></div><div class="line">		<span class="attr">onclick</span>=<span class="string">"document.getElementById('donate').submit()"</span>&gt;<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"donate_txt"</span>&gt;</span></div><div class="line">		&amp;uarr;<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">		If you enjoy the blog,</div><div class="line">		please feel free to donate~</div><div class="line">		Thx for your support.</div><div class="line">	<span class="tag">&lt;/<span class="name">span</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"donate_txt"</span>&gt;</span></div><div class="line">		若本文对您有帮助，求打赏~ 谢谢您的支持和鼓励。</div><div class="line">	<span class="tag">&lt;/<span class="name">span</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- /打赏按钮 --&gt;</span></div></pre></td></tr></table></figure>
-<h2 id="进阶的-“打赏”-按钮"><a href="#进阶的-“打赏”-按钮" class="headerlink" title="进阶的 “打赏” 按钮"></a>进阶的 “打赏” 按钮</h2><ul>
-<li>本博客的打赏按钮的实际代码根据需求不断进行调整，最后更新的版本如下：</li>
-</ul>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div></pre></td><td class="code"><pre><div class="line"><span class="comment">&lt;!-- Donate Module --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"donate_module"</span>&gt;</span></div><div class="line">	<span class="comment">&lt;!-- css --&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">"text/css"</span>&gt;</span><span class="xml"></span></div><div class="line">		.donate_bar a.btn_donate&#123;</div><div class="line">			display: inline-block;</div><div class="line">			width: 82px;</div><div class="line">			height: 82px;</div><div class="line">			background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;</div><div class="line">			_background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;</div><div class="line"></div><div class="line">			<span class="comment">&lt;!-- 因为本 hexo 生成的博客所用的 theme 的 a:hover 带动画效果，</span></div><div class="line">				 为了在让打赏按钮显示效果正常 而 添加了以下几行 css，</div><div class="line">				 嵌入其它博客时不一定要它们。 --&gt;</div><div class="line">			-webkit-transition: background 0s;</div><div class="line">			-moz-transition: background 0s;</div><div class="line">			-o-transition: background 0s;</div><div class="line">			-ms-transition: background 0s;</div><div class="line">			transition: background 0s;</div><div class="line">			<span class="comment">&lt;!-- /让打赏按钮的效果显示正常 而 添加的几行 css 到此结束 --&gt;</span></div><div class="line">		&#125;</div><div class="line">		.donate_bar a.btn_donate:hover&#123; background-position: 0px -82px;&#125;</div><div class="line">		.donate_bar .donate_txt &#123;</div><div class="line">			display: block;</div><div class="line">			color: #9d9d9d;</div><div class="line">			font: 14px/2 "Microsoft Yahei";</div><div class="line">		&#125;</div><div class="line">		.bold&#123; font-weight: bold; &#125;</div><div class="line">	<span class="tag">&lt;/<span class="name">style</span>&gt;</span></div><div class="line">	<span class="comment">&lt;!-- /css --&gt;</span></div><div class="line"></div><div class="line">	<span class="comment">&lt;!-- form --&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">form</span> <span class="attr">id</span>=<span class="string">"donate"</span> <span class="attr">action</span>=<span class="string">"https://shenghuo.alipay.com/send/payment/fill.htm"</span> <span class="attr">method</span>=<span class="string">"POST"</span> <span class="attr">target</span>=<span class="string">"_blank"</span> <span class="attr">accept-charset</span>=<span class="string">"GBK"</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"optEmail"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"ice_he@foxmail.com"</span> /&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"payAmount"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"1.00"</span> /&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">"title"</span> <span class="attr">name</span>=<span class="string">"title"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"打赏《&lt;%= item.title.substr(0, 16) %&gt;》"</span>/&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"memo"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"留下您的大名及联系方式(email,blog,etc)，多交流共勉共进："</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;/<span class="name">form</span>&gt;</span></div><div class="line">	<span class="comment">&lt;!-- /form --&gt;</span></div><div class="line"></div><div class="line">	<span class="comment">&lt;!-- btn_donate &amp; tips --&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"donate_board"</span> <span class="attr">class</span>=<span class="string">"donate_bar center"</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">"btn_donate"</span> <span class="attr">class</span>=<span class="string">"btn_donate"</span> <span class="attr">target</span>=<span class="string">"_self"</span> <span class="attr">href</span>=<span class="string">"javascript:;"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"donate_txt"</span>&gt;</span></div><div class="line">			&amp;uarr;<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">			If you enjoy the article, please feel free to <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"bold"</span>&gt;</span>donate~<span class="tag">&lt;/<span class="name">span</span>&gt;</span> Thx.<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">			若本文对您有帮助，<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"bold"</span>&gt;</span>求打赏~<span class="tag">&lt;/<span class="name">span</span>&gt;</span> 谢谢您的鼓励。</div><div class="line">		<span class="tag">&lt;/<span class="name">span</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">	<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">	<span class="comment">&lt;!-- /btn_donate &amp; tips --&gt;</span></div><div class="line"></div><div class="line">	<span class="comment">&lt;!-- donate guide --&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"donate_guide"</span> <span class="attr">class</span>=<span class="string">"donate_bar center hidden"</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"https://www.paypal.com/cgi-bin/webscr"</span> <span class="attr">method</span>=<span class="string">"post"</span> <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;</span></div><div class="line">			<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">name</span>=<span class="string">"cmd"</span> <span class="attr">value</span>=<span class="string">"_s-xclick"</span>&gt;</span></div><div class="line">			<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">name</span>=<span class="string">"hosted_button_id"</span> <span class="attr">value</span>=<span class="string">"3MPNAMMQA4C8Y"</span>&gt;</span>	&amp;nbsp; &amp;nbsp;</div><div class="line">			<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"image"</span> <span class="attr">width</span>=<span class="string">"auto"</span> <span class="attr">height</span>=<span class="string">"40em"</span></span></div><div class="line">				<span class="attr">src</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg"</span></div><div class="line">				<span class="attr">border</span>=<span class="string">"0"</span> <span class="attr">name</span>=<span class="string">"submit"</span> <span class="attr">alt</span>=<span class="string">"PayPal——最安全便捷的在线支付方式！"</span></div><div class="line">				<span class="attr">style</span>=<span class="string">"margin-bottom: 0.5em;"</span>&gt;</div><div class="line">		<span class="tag">&lt;/<span class="name">form</span>&gt;</span></div><div class="line"></div><div class="line">		<span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg"</span> <span class="attr">title</span>=<span class="string">"Alipay_Scan_Payment"</span> <span class="attr">class</span>=<span class="string">"fancybox"</span> <span class="attr">rel</span>=<span class="string">"article0"</span>&gt;</span></div><div class="line">			<span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span> <span class="attr">height</span>=<span class="string">"164px"</span> <span class="attr">width</span>=<span class="string">"164px"</span>/&gt;</span></div><div class="line">		<span class="tag">&lt;/<span class="name">a</span>&gt;</span> &amp;nbsp;</div><div class="line"></div><div class="line">		<span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg"</span> <span class="attr">title</span>=<span class="string">"Alipay_Scan_Payment"</span> <span class="attr">class</span>=<span class="string">"fancybox"</span> <span class="attr">rel</span>=<span class="string">"article0"</span>&gt;</span></div><div class="line">			<span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg"</span> <span class="attr">title</span>=<span class="string">"Thanks 谢谢~"</span> <span class="attr">height</span>=<span class="string">"164px"</span> <span class="attr">width</span>=<span class="string">"164px"</span>/&gt;</span></div><div class="line">		<span class="tag">&lt;/<span class="name">a</span>&gt;</span> &amp;nbsp;</div><div class="line"></div><div class="line">		<span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg"</span> <span class="attr">title</span>=<span class="string">"WeChat_Scan_Payment"</span> <span class="attr">class</span>=<span class="string">"fancybox"</span> <span class="attr">rel</span>=<span class="string">"article0"</span>&gt;</span></div><div class="line">			<span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span> <span class="attr">height</span>=<span class="string">"164px"</span> <span class="attr">width</span>=<span class="string">"auto"</span>/&gt;</span></div><div class="line">		<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line"></div><div class="line">		<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"donate_txt"</span>&gt;</span></div><div class="line">			Use App <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"bold"</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://global.alipay.com/ospay/home.htm"</span>&gt;</span>Alipay<span class="tag">&lt;/<span class="name">a</span>&gt;</span> / <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://www.wechat.com/en/"</span>&gt;</span>WeChat<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></div><div class="line">			to scan QRCode~ Thx for your support.<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line"></div><div class="line">			用手机 <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"bold"</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"https://mobile.alipay.com/index.htm"</span>&gt;</span>支付宝钱包<span class="tag">&lt;/<span class="name">a</span>&gt;</span> / <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://weixin.qq.com/"</span>&gt;</span>微信<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span>，</div><div class="line">			扫一扫即可~ 谢谢您的鼓励。<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">			<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line"></div><div class="line">			Or donate on <span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">"donate_on_web2"</span> <span class="attr">class</span>=<span class="string">"bold"</span> <span class="attr">href</span>=<span class="string">"javascript:donate_on_web();"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span>&gt;</span>Web Alipay<span class="tag">&lt;/<span class="name">a</span>&gt;</span>. /</div><div class="line"></div><div class="line">			也可用 <span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">"donate_on_web1"</span> <span class="attr">class</span>=<span class="string">"bold"</span> <span class="attr">href</span>=<span class="string">"javascript:donate_on_web();"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span>&gt;</span>网页版支付宝<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">			打赏。<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">		<span class="tag">&lt;/<span class="name">span</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">	<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">	<span class="comment">&lt;!-- /donate guide --&gt;</span></div><div class="line"></div><div class="line">	<span class="comment">&lt;!-- donate script --&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="javascript"></span></div><div class="line">		<span class="built_in">document</span>.getElementById(<span class="string">'btn_donate'</span>).onclick = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">			$(<span class="string">'#donate_board'</span>).addClass(<span class="string">'hidden'</span>);</div><div class="line">			$(<span class="string">'#donate_guide'</span>).removeClass(<span class="string">'hidden'</span>);</div><div class="line">		&#125;</div><div class="line"></div><div class="line">		<span class="function"><span class="keyword">function</span> <span class="title">donate_on_web</span>(<span class="params"></span>)</span>&#123;</div><div class="line">			$(<span class="string">'#donate'</span>).submit();</div><div class="line">		&#125;</div><div class="line">	<span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line">	<span class="comment">&lt;!-- /donate script --&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- /Donate Module --&gt;</span></div></pre></td></tr></table></figure>
-<h2 id="实际效果"><a href="#实际效果" class="headerlink" title="实际效果"></a>实际效果</h2><ul>
-<li>以下是本博客打赏按钮的<strong>显示效果</strong>，<em>点击可以打赏博主哦~</em></li>
-</ul>
-<p><br></p>
-<style type="text/css">
-    /* <donate-css> */
-    .donate_bar a.btn_donate{
-        display: inline-block;
-        width: 82px;
-        height: 82px;
-        background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
-        _background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
-
-        -webkit-transition: background 0s;
-        -moz-transition: background 0s;
-        -o-transition: background 0s;
-        -ms-transition: background 0s;
-        transition: background 0s;
-    }
-    .donate_bar a.btn_donate:hover{ background-position: 0px -82px;}
-    .donate_bar .donate_txt {
-        display: block;
-        color: #9d9d9d;
-        font: 14px/2 "Microsoft Yahei";
-    }
-    .bold{ font-weight: bold; }
-    /* </donate-css> */
-</style>
-
-<!--Donate Module--><div id="donate_module"><!--form--><form id="donate" action="https://shenghuo.alipay.com/send/payment/fill.htm" method="POST" target="_blank" accept-charset="GBK"><input name="optEmail" type="hidden" value="ice_he@foxmail.com"><input name="payAmount" type="hidden" value="1.00"><input id="title" name="title" type="hidden" value="打赏《<%= item.title.substr(0, 16) %>》"><input name="memo" type="hidden" value="留下您的大名及联系方式(email,blog,etc)，多交流共勉共进："></form><!--/form--><!--btn_donate&tips--><div id="donate_board" class="donate_bar center"><a id="btn_donate" class="btn_donate" target="_self" href="javascript:;" title="Donate 打赏"></a><span class="donate_txt">&uarr;<br>If you enjoy the article,please feel free to<span class="bold">donate~</span>Thx.<br>若本文对您有帮助，<span class="bold">求打赏~</span>谢谢您的鼓励。</span><br></div><!--/btn_donate&tips--><!--donate guide--><div id="donate_guide" class="donate_bar center hidden"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"><input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="3MPNAMMQA4C8Y">&nbsp;&nbsp;<input type="image" width="auto" height="40em" src="http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg" border="0" name="submit" alt="PayPal——最安全便捷的在线支付方式！"></form><a href="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg" title="Alipay_Scan_Payment" class="fancybox" rel="external" style="display:inline-table" target="_blank"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_03.png" title="Donate 打赏" height="164px" width="164px"></a>&nbsp;<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" title="Alipay_Scan_Payment" class="fancybox" rel="external" style="display:inline-table" target="_blank"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" title="Thanks 谢谢~" height="164px" width="164px"></a>&nbsp;<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png" title="WeChat_Scan_Payment" class="fancybox" rel="external" style="display:inline-table" target="_blank"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png" title="Donate 打赏" height="164px" width="164px"></a><br><br><span class="donate_txt">Use App<span class="bold"><a href="http://global.alipay.com/ospay/home.htm" target="_blank" rel="external">Alipay</a>/<a href="http://www.wechat.com/en/" target="_blank" rel="external">WeChat</a></span>to scan QRCode~Thx for your support.<br>用手机<span class="bold"><a href="https://mobile.alipay.com/index.htm" target="_blank" rel="external">支付宝钱包</a>/<a href="http://weixin.qq.com/" target="_blank" rel="external">微信</a></span>，扫一扫即可~谢谢您的鼓励。<br><br>Or donate on<a id="donate_on_web2" class="bold" href="javascript:donate_on_web();" title="Donate 打赏" target="_blank" rel="external">Web Alipay</a>./也可用<a id="donate_on_web1" class="bold" href="javascript:donate_on_web();" title="Donate 打赏" target="_blank" rel="external">网页版支付宝</a>打赏。<br></span></div><!--/donate guide--></div><!--/Donate Module-->
-<script type="text/javascript">
-/* <donate-script> */
-document.getElementById('btn_donate').onclick = function(){
-    $('#donate_board').addClass('hidden');
-    $('#donate_guide').removeClass('hidden');
-}
-function donate_on_web(){
-    $('#donate').submit();
-}
-/* </donate-script> */
-
-var original_window_onload = window.onload;
-window.onload = function () {
-    if (original_window_onload) {
-        original_window_onload();
-    }
-    document.getElementById('donate_board_wdg').className = 'hidden';
-}
-</script>
-]]></content>
-    
-    <summary type="html">
-    
-      可用一个简单的表单（form 标签），通过POST一键自动填写「支付宝转账页面」的信息。还有，笔者自定义的“打赏”按钮方案！
-    
-    </summary>
-    
-      <category term="Web" scheme="http://icehe.me/categories/Web/"/>
-    
-    
-      <category term="Web" scheme="http://icehe.me/tags/Web/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ASM 汇编语言 - 15</title>
-    <link href="http://icehe.me/asm/Assembly%20Language%20-%20Note%2015/"/>
-    <id>http://icehe.me/asm/Assembly Language - Note 15/</id>
-    <published>2015-04-15T16:00:00.000Z</published>
-    <updated>2016-12-25T10:14:46.000Z</updated>
-    
-    <content type="html"><![CDATA[
-<ul><li>Created on 2014-11</li></ul><br>
-
-<div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><div>教材：《汇编语言》（第二版）王爽 著 清华大学出版社</div><div><br></div><div><br></div><b>附注1 <u>Intel</u>系列<u>微处理器</u>的<u>3种工作模式</u></b><div><b><br></b></div><div>重要版本8086/8088、80386。</div><div><br></div><div>80386具备了80286对多任务系统的支持，</div><div>又对8086/8088兼容。</div><div><br></div><div>它可以在以下3个模式下工作：</div><div>（1）<b>实模式</b>：工作方式相当于一个8086</div><div>（2）<b>保护</b>模式：提供支持多任务环境的工作方式，</div><div>&nbsp; &nbsp; &nbsp;建立爆出机制（这与VAX等小型机类似）。</div><div>（3）<b>模拟8086</b>模式：可从保护模式切换至其中的一种8086工作方式。</div><div>&nbsp; &nbsp; &nbsp;这种方式的提供使用户可以方便地在保护模式下运行一个或多个原8086程序。</div><div><br></div><div>PC<b>一开机</b>，处于<b>实模式</b>。<b>DOS</b>处于实模式。</div><div><b>Windows</b>系统在加载后，会将CPU切换到<b>保护模式</b>。</div><div>在<b>Windows下</b>运行一个<b>DOS</b>下的<b>程序</b>，CPU切换至</div><div><b>模拟8086</b>模式下运行该程序。</div><div><br></div><div><br></div><div><br></div><div><b>附注2 补码</b></div><div><br></div><div>特别注意点：1000 0000b = -128</div><div><br></div><div><br></div><div><br></div><div><b>附注3 <u>汇编编译</u>器（masm.exe）对<u>jmp的相关处理</u></b></div><div><br></div><div>1. 向前转移</div><div>先读到标号，后读到jmp指令</div><div>s: &nbsp; &nbsp; ...</div><div>&nbsp; &nbsp; &nbsp; &nbsp;...</div><div>&nbsp; &nbsp; &nbsp;jmp s（jmp short s / jmp near ptr s / jmp far ptr s）</div><div><br></div><div><b>编译器</b>中<b>有</b>一个<b>地址计数器（AC）</b>，</div><div>编译过程中，每读到一字节，AC+=1。</div><div>当编译器遇到一些伪操作时，如db / dw等，</div><div>会根据实际情况使AC增加。</div><div><br></div><div>向前转移时，complier读到 <b>标号s</b> 后，</div><div>记下此时<b>AC的值</b>为 <b>as</b>（annotation start？），</div><div>在读到 <b>jmp &nbsp;... s</b> 后，记下此时AC的值为 <b>aj</b>（annotation jmp？）。</div><div>那么可以通过 <b>as - aj</b>&nbsp;算出<b>位移值 disp</b>。</div><div><br></div><div>（1）若<b>disp</b>属于<b>[-128, 127]</b>，这不管汇编指令格式是：</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; jmp s / jmp short s / jmp near ptr s / jmp far ptr s</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>都</b>会转变<b>为 jmp short s</b> 所对应的<b>机器码：</b></div><div><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EB disp</b>（占 2 Bytes）；</div><div><br></div><div>（2）若disp属于<b>[-32768, 32767]</b>，则：</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对于 <b>jmp short</b> 将产生编译<b>错误</b>；</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对于 <b>jmp s、jmp near ptr s</b>，</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;将产生<b>jmp near ptr s</b> 所对应的<b>机器码：</b></div><div><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;E9 disp</b>（占 3 Bytes）；</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对于 <b>jmp far ptr s</b>，将产生对应的机器码：</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>EA 偏移地址 段地址</b>（占 5 Bytes）。</div><div><br></div><div><br></div><div>2.向后转移：</div><div>先读到jmp指令，后读到标号</div><div>&nbsp; &nbsp; &nbsp;jmp s（jmp short s / jmp near ptr s / jmp far ptr s）</div><div>&nbsp; &nbsp; &nbsp; &nbsp;...</div><div>s: &nbsp; &nbsp; ...</div><div><br></div><div>在此情况下，complier先读到 jmp ... s 指令，</div><div>由于还没读到 标号s，所以不能确定 其位置的AC值，</div><div>即不能确定 disp 值。</div><div><br></div><div>此时，complier将 jmp ... s 都当作 jmp short s 来读取，</div><div>记下jmp指令的位置和AC的值作为 aj（annotation jmp？），</div><div>并作以下处理：</div><div><br></div><div>a. 对于 jmp <b>short</b> s，complier生成&nbsp;<b>EB</b> 和 <b>一个</b> <b>nop</b> 指令，</div><div>&nbsp; &nbsp; &nbsp;即用 nop <b>预留 1 Byte&nbsp;</b>空间，存放 <b>8 bits</b> 的<b>disp</b>。</div><div><br></div><div>b. 对于 <b>jmp s</b> 和 jmp <b>near ptr</b> s，生成&nbsp;<b>E9&nbsp;</b>和 <b>两个 nop</b> 指令，</div><div>&nbsp; &nbsp; &nbsp;即&nbsp;预留 <b>2</b> Bytes，放 <b>16</b> bits 的disp。</div><div><br></div><div>c. 对于 jmp <b>far ptr</b> s， 生成 <b>EA</b>&nbsp;和 <b>四个</b> nop 指令，</div><div>&nbsp; &nbsp; &nbsp;即 预留 <b>4 Bytes</b>，放&nbsp;<b>段地址</b> 和&nbsp;<b>段地址</b>。</div><div><br></div><div>以上处理完后，当向后读到 标号s 时，</div><div>记下此时AC的值作为 as（annotation start？），</div><div>并计算出转移的位移量：<b>disp = as - aj</b>（公式与向前转移相同）。</div><div><br></div><div>（1）若<b>disp</b>属于<b>[-128, 127]</b>，这不管汇编指令格式是：</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; jmp s / jmp short s / jmp near ptr s / jmp far ptr s</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>都</b>在前面记下的 jmp ... s 指令位置处添上</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;jmp short s对应的机器码：<b>EB disp</b></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *注意：此时，对于&nbsp;jmp s 和 jmp near ptr s 格式，</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;在机器码 EB disp 后还有 1 条 nop 指令（空着）；</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;对于jmp far ptr s，在机器码EB disp后还有3条nop指令（空着）。</div><div><br></div><div>（2）若disp属于<b>[-32768, 32767]</b>，则：</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对于&nbsp;<b>jmp short</b>&nbsp;将产生编译<b>错误</b>；</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对于&nbsp;<b>jmp s、jmp near ptr s</b>，</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;在前面记下的 jmp ... s 指令位置处添上</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;jmp near ptr s对应的机器码：<b>E9 disp</b>（占 3 Bytes）；</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对于&nbsp;<b>jmp far ptr s</b>，在前面记下的 jmp ... s 指令位置处添上</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>EA 偏移地址 段地址</b>（占 5 Bytes）。</div><div><br></div><div><br></div><div><br></div><div><b>附注4 用栈传递参数</b></div><div><br></div><div>此技术和高级语言编译器的工作原理密切相关，</div><div>结合C语言的函数调用来描述。</div><div><br></div><div>栈传递参数原理：</div><div>由调用者将需要传递给子程序的参数压入栈中，</div><div>子程序从栈中去取得参数。</div><div><br></div><div>（例）</div><div>;说明：计算(a-b)^3，a、b为字型数据</div><div>;参数：进入子程序时，栈顶存放IP，后面依次存放a、b</div><div>;结果：<b>(dx:ax)=(a-b)^3</b></div><div>dif_cube:</div><div><b>&nbsp; &nbsp; &nbsp;push bp</b></div><div>&nbsp; &nbsp; &nbsp;mov bp, sp</div><div><b>&nbsp; &nbsp; &nbsp;mov ax, [bp + 4] &nbsp; &nbsp; ;后入栈的是a</b></div><div><b>&nbsp; &nbsp; &nbsp;sub ax, [bp + 6] &nbsp; &nbsp; ;先入栈的是b</b></div><div>&nbsp; &nbsp; &nbsp;mov bp, ax</div><div>&nbsp; &nbsp; &nbsp;mul bp</div><div>&nbsp; &nbsp; &nbsp;mul bp</div><div>&nbsp; &nbsp; &nbsp;pop bp</div><div>&nbsp; &nbsp; &nbsp;ret 4</div><div><br></div><div>一个子程序结尾有：<b>ret n</b></div><div>n为整数，意思是，将<b>栈顶</b>指针修<b>改为调用前的值</b>。</div><div><b>ret n</b> 功能等于&nbsp;<b>pop ip &nbsp; &nbsp;&nbsp;add sp, n</b></div><div><br></div><div>调用dif_cube程序的代码如下：</div><div>mov ax, 1 &nbsp; &nbsp; ;b</div><div>push ax</div><div>mov ax, 3 &nbsp; &nbsp; ;a</div><div>push ax</div><div>call diff_cube &nbsp; &nbsp; ;注意参数压栈的顺序</div><div><br></div><div><br></div><div>1.语句call diff_cube后，栈的情况： &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;IP &nbsp; &nbsp; &nbsp;a &nbsp; &nbsp; &nbsp; &nbsp;b</div><div>1000:0000 &nbsp; &nbsp; 00 00&nbsp;00 00&nbsp;00 00&nbsp;00 00 |&nbsp;00 00 XX XX 03 00 01 00</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>↑ ss:sp</b></div><div>2.dif_cube执行第1句push bp后：&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;bp &nbsp; &nbsp; &nbsp;IP &nbsp; &nbsp; &nbsp; a &nbsp; &nbsp; &nbsp; b</div><div>1000:0000 &nbsp; &nbsp; 00 00&nbsp;00 00&nbsp;00 00&nbsp;00 00 | ZZ ZZ XX XX 03 00 01 00</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>↑ ss:sp</b></div><div>3.所以，dif_cube 子程序以下语句中的 <b>[bp + 4]指 a</b>，<b>[bp + 6]指 b</b>。</div><div>mov ax, [bp + 4] &nbsp; &nbsp; ;后入栈的是a</div><div>sub ax, [bp + 6] &nbsp; &nbsp; ;先入栈的是b</div><div><br></div><div><br></div><div>利用<b>C程序，</b>了解<b>栈</b>在<b>参数传递</b>中的应用：</div><div>*.注意：在<b>C</b>语言中，<b>局部变量</b>也在<b>栈中存储</b>。</div><div><br></div><div>void add(int, int, int);</div><div>main(){</div><div>&nbsp; &nbsp; &nbsp;int a = 1;</div><div>&nbsp; &nbsp; &nbsp;int b = 2;</div><div>&nbsp; &nbsp; &nbsp;int c = 0;</div><div>&nbsp; &nbsp; &nbsp;add(a, b, c);</div><div>&nbsp; &nbsp; &nbsp;c++;</div><div>}</div><div>void add(int a, int b, int c){</div><div>&nbsp; &nbsp; &nbsp;c = a + b;</div><div>}</div><div><br></div><div>编译后的汇编程序：</div><div><br></div><div>mov bp, sp &nbsp; &nbsp; ;bp = 原栈顶位置 sp</div><div><b>sub sp, 6</b> &nbsp; &nbsp; <b>;栈顶sp - 6，留出空间存放数据段？</b></div><div><br></div><div>mov word ptr [bp - 6], 0001 &nbsp; &nbsp; ;int a</div><div>mov word ptr [bp - 4], 0002 &nbsp; &nbsp; ;int b</div><div>mov word ptr [bp - 2], 0000 &nbsp; &nbsp; ;int c</div><div><br></div><div>push [bp - 2] &nbsp; &nbsp; ;push c</div><div>push [bp - 4] &nbsp; &nbsp; ;push b</div><div>push [bp - 6] &nbsp; &nbsp; ;push a</div><div>call ADDR</div><div><br></div><div><b>add sp, 6 &nbsp; &nbsp; ;sp恢复回原栈顶top的位置？</b></div><div>inc word ptr [bp - 2]</div><div><br></div><div>ADDR:</div><div>&nbsp; &nbsp; &nbsp;push bp</div><div><br></div><div>&nbsp; &nbsp; &nbsp;mov bp, sp &nbsp; &nbsp; ;这里的bp = 新栈顶位置 sp</div><div>&nbsp; &nbsp; &nbsp;mov ax, [bp + 4] &nbsp; &nbsp; ;b</div><div>&nbsp; &nbsp; &nbsp;add ax, [bp + 6] &nbsp; &nbsp; ;a? &nbsp; &nbsp;<b>（有点蒙？这里我画图理解，放的应该是c？淡忘之后再分析一次）</b></div><div>&nbsp; &nbsp; &nbsp;mov [bp + 8], ax</div><div>&nbsp; &nbsp; &nbsp;mov sp, bp</div><div>&nbsp; &nbsp; &nbsp;</div><div>&nbsp; &nbsp; &nbsp;;栈的情况：a b c | a b c</div><div>&nbsp; &nbsp; &nbsp;; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;↑top=bp</div><div>&nbsp; &nbsp; &nbsp;;左边abc是压入的参数，右边abc是其源</div><div><br></div><div>&nbsp; &nbsp; &nbsp;pop bp</div><div>&nbsp; &nbsp; &nbsp;ret</div><div><br></div><div><br></div><div><br></div><div><b>附注5 （</b><b>无溢出除法</b><b>）公式证明</b></div><div><br></div><div><b>无溢出除法</b>公式：</div><div><br></div><div>H：x的高16位</div><div>L：x的低16位</div><div>int()：取商</div><div>rem()：取余</div><div><br></div><div>H = int( x / 65536) &nbsp; &nbsp; ; 即 H = x / 0FFFFH</div><div>L = rem( x / 65536) &nbsp; &nbsp; ; 即 L = x % 0FFFFH</div><div><b><br></b></div><div><b>X / n = int(H / n) * 65536 + [rem(H / n) * 65536 + L] / n</b></div><div><b><br></b></div><div>&nbsp; &nbsp; &nbsp;;乘以65536，等于左移16位</div><div>&nbsp; &nbsp; &nbsp;;1.被除数x的高16位，除以除数n得到，x/n的商的高16位；</div><div>&nbsp; &nbsp; &nbsp;;2.被除数x的高16位，除以除数n得到的余， 加上被除数x的低16位，</div><div>&nbsp; &nbsp; &nbsp;; &nbsp; 除以除数n得到，x/n的商的低16位。</div><div><br></div><div><br></div><div><b>综合研究</b></div><div>（因为寻找适用的tc.exe无果，此部分暂且放弃）</div><div>研究实验1 <b>搭建一个精简的C语言开发环境</b></div><div>研究实验2 <b>使用寄存器</b></div><div>研究实验3&nbsp;<b>使用内存空间</b></div><div>研究实验4&nbsp;<b>不用main函数编程</b></div><div>研究实验5&nbsp;<b>函数如何接收</b></div></div>
-]]></content>
-    
-    <summary type="html">
-    
-      Intel系列微处理器的3种工作模式。汇编编译器（masm.exe）对jmp的相关处理，编译器中的地址计数器（AC），对伪操作指令的处理。用栈传递参数。无溢出除法的公式证明。
-    
-    </summary>
-    
-      <category term="ASM" scheme="http://icehe.me/categories/ASM/"/>
-    
-    
-      <category term="ASM" scheme="http://icehe.me/tags/ASM/"/>
     
   </entry>
   

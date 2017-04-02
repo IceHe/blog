@@ -702,32 +702,49 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <h3 id="Script-Editor"><a href="#Script-Editor" class="headerlink" title="Script Editor"></a>Script Editor</h3><p><code>⌘ ⇧ O</code> Open Dictionary<br><code>⌘ r</code> Run the script<br><code>⌘ .</code> Stop the script</p>
 <h2 id="IDEs"><a href="#IDEs" class="headerlink" title="IDEs"></a>IDEs</h2><h3 id="PhpStorm"><a href="#PhpStorm" class="headerlink" title="PhpStorm"></a><a href="https://www.jetbrains.com/phpstorm/" target="_blank" rel="external">PhpStorm</a></h3><ul>
 <li><p>Code</p>
-<p>  <strong><code>⌘ ⇧ ↩</code> Complete Current Statement</strong><br>  <strong><code>⌘ ⌥ l</code> Reformat Code</strong><br>  <strong><code>⌘ ⇧ V</code> Copy from History</strong></p>
-<p>  <code>^ 凵</code> Auto Complete<br>  <code>⇧ F6</code> Rename <code>$variableName</code>, <code>ClassName</code>, <code>functionName</code> ( Auto rename other related code )</p>
+<p>  <strong><code>^ 凵</code> Auto Complete</strong><br>  <strong><code>⌥ ↩</code> Show Intention Actions</strong></p>
+<p>  <strong><code>⌘ ⌥ l</code> Reformat Code</strong><br>  <strong><code>⌘ ⇧ G</code> Select All Occurrences</strong><br>  <strong><code>⌘ ⇧ ↩</code> Complete Current Statement</strong><br>  <strong><code>⌘ ⇧ V</code> Copy from History</strong></p>
+<p>  <strong><code>⌥ ↑</code> Extend Selection</strong><br>  <strong><code>⌥ ↓</code> Shrink Selection</strong></p>
+<p>  <code>⌘ /</code> Line Comment<br>  <strong><code>⌘ ⌥ /</code> Block Comment</strong></p>
+<p>  <code>^ ⌥ e</code> Rename <code>$variableName</code>, <code>ClassName</code>, <code>functionName</code> ( Auto rename other related code )<br>  <strong><code>⌥ ^ r</code> Refactor This</strong></p>
+<p>  <strong><code>^ ⌥ h</code> Toggle Parameter Name</strong></p>
 </li>
 <li><p>Debug</p>
-<p>  <strong><code>⌘ ⇧ W</code> Add to Watches</strong></p>
-<p>  <code>^ ⌥ d</code> Debug<br>  <code>^ ⇧ B</code> Toggle BreakPoint<br>  <code>^ ⌥ r</code> Rerun</p>
-<p>  <code>^ ⌥ i</code> Step Into<br>  <code>^ ⌥ o</code> Step Out</p>
-<p>  <code>^ ⌥ j</code> Step Over ( Next Line )<br>  <code>^ ⌥ n</code> Resume ( Next BreakPoint )</p>
+<p>  <code>^ ⇧ B</code> Toggle BreakPoint<br>  <strong><code>^ ⇧ E</code> Edit BreakPoint ( Break if conditional is true)</strong><br>  <code>^ ⇧ w</code> Add to Watches</p>
+<p>  <code>^ ⇧ d</code> Debug<br>  <code>^ ⇧ r</code> Rerun<br>  <code>^ ⇧ s</code> Stop</p>
+<p>  <code>^ ⇧ i</code> Step Into<br>  <code>^ ⇧ o</code> Step Out</p>
+<p>  <code>^ ⇧ n</code> Next BreakPoint ( Resume )<br>  <code>^ ⇧ j</code> Next Line ( Step Over )</p>
 </li>
 <li><p>File</p>
-<p>  <code>⌘ e</code> Recent Files<br>  <code>⌘ ⇧ E</code> Recently Edited Files</p>
-<p>  <code>⌘ ⇧ C</code> Copy Path<br>  <strong><code>⌘ ⌥ ⇧ C</code> Copy Reference ( of cur line in cur file )</strong></p>
+<p>  <strong><code>⇧ ↩</code> Open in a new Editor Window</strong><br>  <code>⌘ ⇧ C</code> Copy Path</p>
 </li>
 <li><p>Find</p>
 <p>  <code>⌘ f</code> Find<br>  <code>⌘ ⇧ F</code> Find in Paths<br>  <code>⌘ r</code> Replace<br>  <code>⌘ ⇧ R</code> Replace in Paths</p>
-<p>  <code>⌘ o</code> Find Class<br>  <code>⌘ ⇧ O</code> Find File</p>
-<p>  <code>^ g</code> Find Usage</p>
-</li>
-<li><p>Edit</p>
-<p>  <code>⌘ /</code> Line Comment<br>  <strong><code>⌘ ⌥ /</code> Block Comment</strong></p>
+<p>  <code>⌘ o</code> Find Class<br>  <code>⌘ ⇧ O</code> Find File<br>  <strong><code>⌘ ⌥ o</code> Find Symbols ( Class, Files, Methods, Functions )</strong><br>  <code>⇧, ⇧</code> Search (Everything) Everywhere</p>
+<p>  <code>^ g</code> Find Usage<br>  <code>⌘ ⇧ A</code> Find Actions</p>
 </li>
 <li><p>Navigate</p>
-<p>  <strong><code>⌘ 1~9</code> Jump to the specified Tool Window</strong><br>  <strong><code>⌘ ↑</code> | <code>⌘ ↓</code> Jump to Navigation Bar</strong><br>  <code>⌘ ⇧ A</code> Find Actions</p>
+<p>  <code>⌘ e</code> Recent Files<br>  <code>⌘ ⇧ E</code> Recently Edited Files</p>
+<p>  <strong><code>⌘ ⇧ T</code> Test Subject : Jump to Test for current file | Create Test for it</strong><br>  <strong><code>⌘ ↑</code> | <code>⌘ ↓</code> Navigation Bar</strong><br>  <strong><code>⌘ u</code> Super Class or Interface</strong></p>
 <p>  <code>F2</code> Next Highlighted Error<br>  <code>⇧ F2</code> Prev Highlighted Error</p>
+<p>  <strong><code>⌘ 1~9</code> Jump to the specified Tool Window</strong><br>  <code>⌘ 1</code> Project<br>  <code>⌘ 2</code> Favorites ( Projects, Bookmarks, Breakpoints )<br>  <code>⌘ 3</code> Find<br>  <code>⌘ 4</code> Debug<br>  <code>⌘ 6</code> Todo<br>  <code>⌘ 7</code> Structure<br>  <code>⌘ 9</code> Version Control</p>
+</li>
+<li><p>Tools</p>
+<p>  <strong><code>^ ⇧ q</code> Terminal</strong><br>  <strong><code>^ ⇧ s</code> Test RESTful Web Service</strong></p>
+<p>  <strong><code>⌘ ^ h</code> Hide All Tool Windows</strong><br>  <strong><code>⌘ ⇧ ↑↓←→</code> Extend | Shrink Tool Window</strong></p>
+</li>
+<li><p>VCS: History &amp; Compare</p>
+<p>  <strong><code>⌥ ^ l</code> Local History -&gt; Show History</strong></p>
+  <!--__`⌥ ^ r` Git -> Resolve Conflicts__-->
+<p>  <strong><code>⌥ ^ a</code> Git -&gt; Annotate</strong><br>  <strong><code>⌥ ^ s</code> Git -&gt; Compare with the Same Repository Version</strong><br>  <strong><code>⌥ ^ b</code> Git -&gt; Compare with Branch …</strong><br>  <strong><code>⌥ ^ .</code> Git -&gt; Compare with …</strong></p>
 </li>
 </ul>
+<!--
+- TODO: 
+    - Language Injection in `⌥ ↩`
+    - Code -> Inspect Code… 语法检查等
+    - Code -> Locate Duplicates
+-->
 <h4 id="AceJump"><a href="#AceJump" class="headerlink" title="AceJump"></a><a href="https://plugins.jetbrains.com/plugin/7086" target="_blank" rel="external">AceJump</a></h4><p>It is a plugin for IDEs from <a href="https://www.jetbrains.com/" target="_blank" rel="external">JetBrains</a>.</p>
 <ul>
 <li>First, Simple hit <code>^ ;</code></li>
@@ -1151,29 +1168,6 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
     <div>
       
         
-  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
-    <div><i class="fa fa-fw fa-coffee"></i> Donate</div>
-    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-      <span>赏</span>
-    </button>
-    <div id="QR" style="display: none;">
-      
-        <div id="wechat" style="display: inline-block">
-          <img id="wechat_qr" src="http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_01.png" alt="Ice He WeChat Pay"/>
-          <p>WeChat 微信</p>
-          <!--<p>微信打赏</p>-->
-        </div>
-      
-      
-        <div id="alipay" style="display: inline-block">
-          <img id="alipay_qr" src="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_04.png" alt="Ice He Alipay"/>
-          <p>Alipay 支付宝</p>
-          <!--<p>支付宝打赏</p>-->
-        </div>
-      
-    </div>
-  </div>
-
 
       
     </div>
@@ -1275,9 +1269,11 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
   <div class="comments" id="comments">
     
       <div id="disqus_switch" class="center">
-          <a href="javascript:loadDisqus();">
-            Click to load Disqus（评论需翻墙）
-          </a>
+        <a href="javascript:loadDisqus();">
+          Click to COMMENT<br/>点击加载评论
+        </a>
+        <br/>
+        <sup>（需翻墙）</sup>
       </div>
       <script type="text/javascript">
         function loadDisqus() {
@@ -1348,7 +1344,7 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">50</span>
+                <span class="site-state-item-count">52</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
