@@ -1,6 +1,6 @@
 title: Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2017-04-04
+updated: 2017-04-05
 categories: [Mac]
 tags: [Mac]
 description: 我的 macOS 快捷键列表。
@@ -20,8 +20,8 @@ description: 我的 macOS 快捷键列表。
     - All my custom ones
 - I hide all the default shortcuts that are of little use.
 - Meanings of Font Format:
-    - The item with the superscript <sup>_custom_</sup>&nbsp; implies it might `be customed by me`.
-    - The italic item is `not frequently-used`.
+    - The item with the superscript <sup>_custom_</sup>&nbsp; implies it might `be custom by me`.
+- The italic item is `not frequently-used`.
 - Ref :《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》
 
 ### Key Symbols
@@ -261,13 +261,13 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
     `⌘ w` Close
 
     `⌘ h` Hide
-    `⌘ ⌥ h` Hide All Apps But the Frontmost
+    `⌘ ⌥ h` Hide All Apps But the Front-most
     The manipulation `Hide` is much better than `Minimize` in macOS!
     So I prefer `Hide` to `Minimize`.
 
 <!--
     _`⌘ m` Minimize to Dock_
-    _`⌘ ⌥ m` Minimize All Windows of the Frontmost App_
+    _`⌘ ⌥ m` Minimize All Windows of the Front-most App_
 -->
 
 - Tab
@@ -479,7 +479,7 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
 
 - Arrange the windows
     Aka `Resize & Move` the windows. ( Frequently Used )
-    These features can be supported by [Moom](https://manytricks.com/moom/) | [Spectable](https://www.spectacleapp.com/) | [Keyboard maestro](#Keyboard-maestro).
+    These features can be supported by [Moom](https://manytricks.com/moom/) | [Spectacle](https://www.spectacleapp.com/) | [Keyboard maestro](#Keyboard-maestro).
 
     `Fn d` Lf 1/2
     `Fn f` Rg 1/2
@@ -506,7 +506,7 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
 <!--
 - Rarely Used
 
-    ~~`Fn w` Toggle Wifi~~
+    ~~`Fn w` Toggle WiFi~~
     ~~`Fn b` Toggle Bluetooth~~
 -->
 
@@ -563,8 +563,8 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
 
     - Date
 
-        Type string `|hm`, it will be reaplaced by the time string `hh:mm`
-        Type `|ymd`, reaplaced by `yy/MM/dd`
+        Type string `|hm`, it will be replaced by the time string `hh:mm`
+        Type `|ymd`, replaced by `yy/MM/dd`
         `|Ymd/` → `YYYY/MM/dd`
         `|Ymd-` → `YYYY-MM-dd`
         ( I abbreviate the similar sentences below like this. )
@@ -654,9 +654,9 @@ They can be used in WeChat as well.
 `⌘ 2` Switch to Contacts
 `⌘ 3` Switch to Applications
 
+<!--
 ## Editors
 
-<!--
 ### [Atom](https://atom.io/)
 
 - View
@@ -698,13 +698,39 @@ They can be used in WeChat as well.
     __`⌘ ⌥ .` Close Tag ( HTML )__
 -->
 
-### Script Editor
+## System Assistant
 
-`⌘ ⇧ O` Open Dictionary
-`⌘ r` Run the script
-`⌘ .` Stop the script
+### [1Password](https://1password.com/)
 
-## IDEs
+`⌘ \` Fill Login on current web page
+`⌥ \` Show 1Password Mini
+<!-- `^ ⌥ ⇧ L` Lock 1Password -->
+
+`⌘ e` Edit
+`⌘ s` Save
+
+<!--
+### [Amphetamine](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12)
+
+`⌥ F12` Mac Stays Awake
+`^ ⌥ F12` Allow Mac to Sleep
+
+### [Bartender 2](https://www.macbartender.com/)
+
+`^ ⌥ ]` Show Bartender Bar
+`⌥ ]` Show All Status Icons in Menu Bar
+
+### [CheatSheet](https://www.mediaatelier.com/CheatSheet/)
+
+`Long Press ⌘` Activate
+-->
+
+### [ClipMenu](http://www.clipmenu.com/)
+
+`⌥ v` History Menu
+`⌥ ⇧ V` Main Menu
+
+## Development
 
 ### [PhpStorm](https://www.jetbrains.com/phpstorm/)
 
@@ -761,6 +787,9 @@ They can be used in WeChat as well.
     `⌘ ⇧ F` Find in Paths
     `⌘ r` Replace
     `⌘ ⇧ R` Replace in Paths
+
+    `^ ⌥ g` Toggle Regex
+    _`^ ⌥ c` Toggle Case Sensitive_
 
     `^ g` Find Usage
     `⌘ o` Find Class
@@ -829,7 +858,7 @@ They can be used in WeChat as well.
 It is a plugin for IDEs from [JetBrains](https://www.jetbrains.com/).
 
 - First, Simple hit `^ ;`
-- Then type a charactor
+- Then type a character
 - At last, type the matching character to the specified place!
 -->
 
@@ -854,39 +883,45 @@ The shortcuts in other IDEs from JetBrains are same as PhpStorm,
 such as CLion , IntelliJ IDEA , RubyMine , PyCharm and so on.
 All the shortcuts can be modified in `Preferences` → `Keymap`!
 
-## System Assistant
+### [Sublime Text](https://www.sublimetext.com/)
 
-### [1Password](https://1password.com/)
+- Find & Replace
 
-`⌘ \` Fill Login on current web page
-`⌥ \` Show 1Password Mini
-<!-- `^ ⌥ ⇧ L` Lock 1Password -->
+    `⌘ f` Find
+    `⌥ ↩` Find All
 
-`⌘ e` Edit
-`⌘ s` Save
+    `⌘ ⌥ f` Replace
+    `⌘ ⌥ e` Replace one by one
+    `^ ⌥ ↩` Replace All
+
+    `⌘ ⌥ r` Toggle Regular Expression
+    _`⌘ ⌥ r` Toggle Case Sensitive_
+
+- Selection
+
+    `⌘ d` Expand Selection to Word
+    `^ ⇧ M` Expand Selection to Brackets
+
+<!-- _`^ l` Scroll to the Selection_ -->
+
+- Bookmarks
+
+    `⌘ F2` Toggle Bookmark
+    `F2` Next Bookmark
+    `⇧ F2` Prev Bookmark
+    `⌘ ⇧ F2` Clear All Bookmarks
+
+- Layout
+
+    `⌘ ⌥ 1~4` 1~4 Columns
+    _`⌘ ⌥ 5` Grid_
+    _`⌘ ⌥ ⇧ 2~3` 2~3 Rows_
 
 <!--
-### [Amphetamine](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12)
+- Others
 
-`⌥ F12` Mac Stays Awake
-`^ ⌥ F12` Allow Mac to Sleep
-
-### [Bartender 2](https://www.macbartender.com/)
-
-`^ ⌥ ]` Show Bartender Bar
-`⌥ ]` Show All Status Icons in Menu Bar
-
-### [CheatSheet](https://www.mediaatelier.com/CheatSheet/)
-
-`Long Press ⌘` Activate
+    _`F6` Spell Check_
 -->
-
-### [ClipMenu](http://www.clipmenu.com/)
-
-`⌥ v` History Menu
-`⌥ ⇧ V` Main Menu
-
-## Development
 
 ### [Charles](https://www.charlesproxy.com/)
 
@@ -977,6 +1012,14 @@ All the shortcuts can be modified in `Preferences` → `Keymap`!
     `⌘ ⇧ U` New from Clipboard
 -->
 
+### Script Editor
+
+`⌘ ⇧ O` Open Dictionary
+`⌘ r` Run the script
+`⌘ .` Stop the script
+
+## CLI
+
 <!--
 ### [iTerm2](https://www.iterm2.com/)
 
@@ -1005,7 +1048,7 @@ Due to the help from `tmux` and `Zsh`, I don't need much support from `iTerm` as
     `⌘ /` Find Cursor
 -->
 
-#### [tmux](https://tmux.github.io/)
+### [tmux](https://tmux.github.io/)
 
 `^ q` Prefix Key ( aka `Pf` )
 The description `Pf, *` implies that tap `Pf` at first and then tap the key `*`.
@@ -1100,23 +1143,27 @@ The description `Pf, *` implies that tap `Pf` at first and then tap the key `*`.
 
 - More details in [__Official Docs__](http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/tmux.1?query=tmux&sec=1).
 
-#### [Vim](http://www.vim.org/)
+### [Vim](http://www.vim.org/)
 
 Only list the useful keys that I’m unfamiliar with here.
 
-- I use the Vim Distribution [spf13-vim](http://vim.spf13.com/)
-
 - Mv Cursor
 
-    `^ o` Prev Cursor Pos
-    `^ i` Next Cursor Pos
+    _`^ o` | `^ i` [ Prev | Next ] Cursor Pos_
+    `{` | `}` [ Prev | Next ] Blank Line
 
-    `{` Prev Blank Line
-    `}` Next Blank Line
+    `w` | `⇧ W` Head of Next [ Word / Str ]
+    `e` | `⇧ E` Tail of Next [ Word / Str ]
+
+    `b` | `⇧ B` Head of Prev [ Word / Str ]
+    `ge` | `gE` Tail of Prev [ Word / Str ]
+
+    `;` Repeat the last manipulation about `f` `t` `⇧ F` `⇧ T`
+    `0` Head of Line
+    `^` = `⇧ 6` Head of Line ( Non-Whitespace )
+    `$` = `⇧ 4` End of Line
 
 <!--
-    _`ge` Goto Last Char of Prev Word_
-
     `"` Switch to some Register
     _`-` Head of Prev Line_
     _`⇧ +` Head of Next Line_
@@ -1133,7 +1180,7 @@ Only list the useful keys that I’m unfamiliar with here.
     3. If you input one of the keycues, then your cursor will get to the specified place.
 -->
 
-- Selcet Range
+- Select Range
 
     `ciw` Del Word
     `caw` Del Word including the Following Spaces 凵
@@ -1176,6 +1223,9 @@ Only list the useful keys that I’m unfamiliar with here.
         - Change each 'foo' to 'bar' in __each line starting with 'baz'__
     - Ref : [__Search and replace__](http://vim.wikia.com/wiki/Search_and_replace) & [__Vim 字符串替换及小技巧__](http://xstarcd.github.io/wiki/vim/vim_replace_encodeing.html)
 
+- Command
+
+    `.` Repeat Command
 
 - Cp
 
@@ -1198,13 +1248,21 @@ Only list the useful keys that I’m unfamiliar with here.
 
 - Lower or Upper Case
 
+    `⇧ ~` Toggle Case & Mv Cursor to Next char
     `u` to Lowercase
     `⇧ U` to Uppercase
 
-- Increase or Decrese Num
+- Increase or Decrease Num
 
     `^ a` Increase Num
     `^ x` Decrease Num
+
+- Macro
+
+    `q a~z|A~Z` Start Recording Macro marked as `a~z|A~Z`
+    `q` Stop Recording
+    `@ a~z|A~Z` Play Macro marked as `a~z|A~Z`
+    `@@` Repeat Macro that you last used
 
 <!--
 - Check Encoding Value
@@ -1222,15 +1280,17 @@ Only list the useful keys that I’m unfamiliar with here.
     `⇧ ZZ` Save & Quit
     `⇧ ZQ` Quit without Saving
 
-- CTags
+- CTags ( plugin )
 
     `^ ]` Find Declaration
     `^ t` Back from Declaration
 
+- I used to use the Vim Distribution [~~spf13-vim~~](http://vim.spf13.com/).
+- [Vim Cheat Sheet](http://coolshell.cn//wp-content/uploads/2011/09/vim_cheat_sheet_for_programmers_print.png) - Image
 - More details in [__Official Docs__](http://www.vim.org/docs.php).
 - TODO: I will write another article for Vim and will move the content above about Vim to it._
 
-#### [Zsh](http://zsh.sourceforge.net/)
+### [Zsh](http://zsh.sourceforge.net/)
 
 `^ v` Edit Command Line in Vim
 
@@ -1242,6 +1302,9 @@ Only list the useful keys that I’m unfamiliar with here.
     `^ w` Del Word
     `^ k` Del to End of Line
     `^ u` Del Line
+
+    _`^ p` = `↑` Prev | Up_
+    _`^ n` = `↓` Next | Dn_
 
     _`^ f` Mv Cursor Rg_ ( I use `Fn l` instead. )
     _`^ b` Mv Cursor Lf_ ( I use `Fn h` instead. )
