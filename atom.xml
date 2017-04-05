@@ -3095,88 +3095,127 @@ img.fix_height {
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
-    <updated>2017-03-17T16:00:00.000Z</updated>
+    <updated>2017-04-04T16:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Keep-it-simple"><a href="#Keep-it-simple" class="headerlink" title="Keep it simple"></a>Keep it simple</h2><p>本来还想着在放弃更新之前，再最后更新一次，发布自己最新版的快捷键方案，再去宣布不再更新这篇文章。<br>可是何苦呢？假如真的下定了决心，就不要再做这种无谓的事情了。这种事是没有尽头的。</p>
-<p>没什么不好意思承认的，写这篇文章，一开始就是想炫耀自己的「与众不同」。至少表明了自己是「键盘党」，酷爱快捷键，算是一个“有个性”、“独特”的少数派。然而做这种事真的有意义吗？</p>
-<p>一个人的「特别」并不是靠如此廉价地文字标榜出来的，或是靠外在的认可，或是靠内在的实质证明的。<br>码这种文字纯属浪费时间，太具体的东西，只能作为例子，作为固化的知识，时效性太差。<br>思想真不是那么廉价的东西，转化成思想，反而有长久的指导意义。</p>
-<p>帕累托法则（二八法则）：先只做关键部分的改进，用更少的工具完成更多的工作，符合直觉（容易学习、习惯，不容易犯错），更加明确，循序渐进。</p>
-<h2 id="Explanation"><a href="#Explanation" class="headerlink" title="Explanation"></a>Explanation</h2><ul>
-<li>《<a href="/mac/efficiency">Mac Efficiency 效率指北</a>》is about what I think of the shortcuts.</li>
+    <content type="html"><![CDATA[<h2 id="Simple"><a href="#Simple" class="headerlink" title="Simple"></a>Simple</h2><p>没什么不好意思承认的，写这篇文章的初衷就是想炫耀自己的「与众不同」—— 彰显自己是一个酷爱快捷键的「键盘党」，一个「有个性、独特」的少数派。然而做这种事真的有意义吗？</p>
+<p>帕累托法则（二八法则）：只做关键部分的改进，用更少的工具完成更多的事情。要选用符合直觉的好设计 —— 它们容易上手、容易习惯，不容易被错误地使用。</p>
+<h2 id="Explanation"><a href="#Explanation" class="headerlink" title="Explanation"></a>Explanation</h2><!-- - 《[Mac Efficiency 效率指北](/mac/efficiency)》is about what I think of the shortcuts. -->
+<ul>
 <li>Here are the Mac shortcuts:<ul>
-<li>the default ones that I use most frequently</li>
-<li>all my custom ones.</li>
+<li>The default ones that I use most frequently</li>
+<li>All my custom ones</li>
 </ul>
 </li>
-<li>Superscript (上标) :<ul>
-<li>The item with <sup><em>custom</em></sup>&nbsp; implies it might <code>be custom by me</code>.</li>
-<li>The item with <sup><em>temp</em></sup>&nbsp; implies it might <code>be removed one day</code>.</li>
+<li>I hide all the default shortcuts that are of little use.</li>
+<li>Meanings of Font Format:<ul>
+<li>The item with the superscript <sup><em>custom</em></sup>&nbsp; implies it might <code>be custom by me</code>.</li>
 </ul>
 </li>
-<li>Latest Updated:<ul>
-<li>Decrease the shortcuts about <code>^</code> control, even though they’re easy to use.</li>
-<li>Because my left little finger is often in pain after severely using keyboard for a while.</li>
+<li>The italic item is <code>not frequently-used</code>.</li>
+<li>Ref :《 <a href="https://support.apple.com/zh-cn/HT201236" target="_blank" rel="external">Mac 键盘快捷键</a> 》</li>
 </ul>
-</li>
-<li>Ref: 《 <a href="https://support.apple.com/zh-cn/HT201236" target="_blank" rel="external">Mac 键盘快捷键</a> 》</li>
-</ul>
-<h3 id="Key-Symbols"><a href="#Key-Symbols" class="headerlink" title="Key Symbols"></a>Key Symbols</h3><p><code></code> Power<br><code>⌘</code> Command ( Cmd )<br><code>⌥</code> Option | Alt ( on Windows )<br><code>^</code> Control ( Ctrl )<br><code>⇧</code> Shift ( Shf )<br><code>⇪</code> CapsLock<br><code>⇥</code> Tab<br><code>⎋</code> Escape ( Esc )<br><code>↩</code> Return ( Ret ) | Enter ( on Windows )<br><code>凵</code> Space</p>
+<h3 id="Key-Symbols"><a href="#Key-Symbols" class="headerlink" title="Key Symbols"></a>Key Symbols</h3><p><code></code> Power<br><code>⌘</code> Command ( Cmd )<br><code>⌥</code> Option | Alt<br><code>^</code> Control | Ctrl<br><code>⇧</code> Shift ( Shf )<br><code>⇪</code> CapsLock<br><code>⇥</code> Tab<br><code>⎋</code> Escape ( Esc )<br><code>↩</code> Return ( Ret ) | Enter<br><code>凵</code> Space</p>
 <p><code>↑</code> Up<br><code>↓</code> Down ( Dn )<br><code>←</code> Left ( Lf )<br><code>→</code> Right ( Rg )</p>
-<p><code>⌫</code> Delete ( Del ) | Backspace ( on Windows )</p>
-<p><code>Num</code> Digits: 0 ~ 9<br><code>Letter</code> Alphabet: a ~ z</p>
+<p><code>⌫</code> Delete ( Del ) | Backspace</p>
+<p><code>0~9</code> One of the digits 0 ~ 9<br><code>a~z</code> One of the alphabet a ~ z</p>
 <h3 id="Abbreviations"><a href="#Abbreviations" class="headerlink" title="Abbreviations"></a>Abbreviations</h3><ul>
 <li>Buttons<br>  <code>Cmd</code> Command<br>  <code>Ctrl</code> Control<br>  <code>Esc</code> Escape<br>  <code>Opt</code> Option<br>  <code>Ret</code> Return<br>  <code>Shf</code> Shift<br>  <code>Del</code> Delete</li>
 <li>Directions &amp; Positions<br>  <code>Dn</code> Down<br>  <code>Lf</code> left<br>  <code>Rg</code> Right<br>  <code>Prev</code> Previous<br>  <code>Btm</code> Bottom</li>
-<li>Words<br>  <code>App</code> Application<br>  <code>Btn</code> Button<br>  <code>Dir</code> Directory<br>  <code>Mv</code> Move<br>  <code>Rm</code> Remove<br>  <code>Str</code> String<br>  <code>Ld</code> Leader<br>  <code>Pf</code> Prefix</li>
+<li>Words<br>  <code>App</code> Application<br>  <code>Dir</code> Directory<br>  <code>Mv</code> Move<br>  <code>Rm</code> Remove<br>  <code>Str</code> String<br>  <code>Pf</code> Prefix</li>
 <li>Symbols<br>  <code>&amp;</code> And<br>  <code>|</code> Or</li>
 <li>Others<br>  <code>aka</code> Also known as</li>
 </ul>
 <h3 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h3><ul>
-<li>Meaning of Font Style<br>  <strong>Bold</strong> : I am unfamiliar with it .<br>  <em>Italic</em> : I seldom use it .<br>  <sup><em>custom</em></sup> : Added by myself .</li>
+<li>Meaning of Font Style<br>  <em>Italic</em> : I seldom use it .<br>  <sup><em>custom</em></sup> : Added | modified by myself .</li>
 <li><code>⌘ ⌥ a</code> Manipulation<br>  Press “Cmd”, “Opt” &amp; “a” at the same time to do the manipulation .</li>
 <li><code>A</code> Manipulation</li>
 <li><code>⇧ A</code> Manipulation<br>  The capital letter “A” means pressing “Shf” &amp; “a” at the same time !</li>
 <li><code>⌘ 1</code> | <code>⌘ 2</code> Manipulation<br>  Press “⌘ 1” or “⌘ 2” to do the manipulation.</li>
+<li><code>⌘ 1, ⌘ 2</code> Manipulation</li>
 <li><code>⌘ 1</code>, <code>⌘ 2</code> Manipulation<br>  Press “⌘ 1” then “⌘ 2” to do the manipulation.</li>
 </ul>
 <h2 id="macOS"><a href="#macOS" class="headerlink" title="macOS"></a>macOS</h2><p>Some are common &amp; default in operating system.<br>Some of the keys below can be modified in <code>System Preference → Keyboard</code>.<br>Some are modified by Apps <a href="#Karabiner">Karabiner</a> , <a href="#Seil">Seil</a>.</p>
 <h3 id="System"><a href="#System" class="headerlink" title="System"></a>System</h3><ul>
 <li><p>Power</p>
-<p>  <code></code> Wake Up<br>  <code>⌘ ⌥ </code> Sleep<br>  <code>^ ⇧ </code> Display Sleep<br>  <code>^ </code> Shut Down ( can choose to Sleep or Restart )</p>
-<p>  <strong><code>⌘ ^ </code> Force Restart</strong><br>  <strong><code>⌘ ^ ⌥ </code> Force Shutdown</strong></p>
-</li>
-<li><p>Accessory</p>
-<p>  <code>⌘ 凵</code> Spotlight <sup><em>custom</em></sup><br>  Lf <code>^</code> == <code>⌥ 凵</code> Switch Input Sources <sup><em>custom</em></sup><br>  <code>⌥ ⇧ F</code> Search in All Files <sup><em>custom</em></sup><br>  <code>⌥ ⇧ /</code> Show Help Menu <sup><em>custom</em></sup></p>
-</li>
-<li><p>Space</p>
-<p>  <code>^ ↑</code> Mission Control<br>  <code>^ ↓</code> App Windows<br>  <code>^ ←</code> Prev Space<br>  <code>^ →</code> Next Space</p>
-<p>  <code>^ Num</code> Switch to the num<sub> th</sub> Desktop<br>  <code>F1</code> Desktop <sup><em>custom</em></sup><br>  <code>⎋ 4</code> Launchpad <sup><em>custom</em></sup></p>
-</li>
-<li><p>Dock &amp; Menubar &amp; Sidebar</p>
-<p>  <code>F12</code> Notification Center <sup><em>custom</em></sup><br>  <code>^ F12</code> Do Not Disturb On/Off <sup><em>custom</em></sup><br>  <code>⌘ ⌥ d</code> Dock Hiding On/Off</p>
-</li>
-<li><p>Accessory</p>
-<p>  <code>⌘ ⇧ 3</code> Capture Desktop (The screenshots are saved in <code>~/Desktop</code>)</p>
+<p>  <code></code> Wake Up<br>  <code>⌘ ⌥ </code> Sleep<br>  <code>^ ⇧ </code> Display Sleep</p>
+<p>  <code>^ </code> Shut Down<br>  Then you can choose to Sleep or Restart in the prompt dialog box.</p>
 </li>
 </ul>
+<!--
+    _`⌘ ^ ` Force Restart_
+    _`⌘ ^ ⌥ ` Force Shutdown_
+-->
+<ul>
+<li><p>Accessory</p>
+<p>  <code>⌘ 凵</code> Spotlight<br>  Lf <code>^</code> = <code>⌥ 凵</code> Switch Input Sources <sup><em>custom</em></sup><br>  <code>F1</code> Desktop <sup><em>custom</em></sup></p>
+<p>  <em><code>⌥ ⇧ F</code> Search in All Files</em> <sup><em>custom</em></sup><br>  <em><code>⌥ ⇧ ?</code> Show Help Menu</em> <sup><em>custom</em></sup></p>
+</li>
+</ul>
+<!--
+- Space
+
+    `^ ↑` Mission Control
+    `^ ↓` App Windows
+    `^ ←` Prev Space
+    `^ →` Next Space
+
+    `^ 0~9` Switch to the num<sub> th</sub> Desktop
+    `⎋ 4` Launchpad <sup>_custom_</sup>
+-->
+<ul>
+<li><p>Dock &amp; Menubar &amp; Sidebar</p>
+<p>  <code>^ F12</code> Do Not Disturb On/Off <sup><em>custom</em></sup><br>  <code>⌘ ⌥ d</code> Dock Hiding On/Off</p>
+</li>
+</ul>
+<!--
+    `F12` Notification Center <sup>_custom_</sup>
+
+- Accessory
+
+    _`⌘ ⇧ 3` Capture Desktop_
+    _`⌘ ⇧ 4` Capture the selected area_
+    ( The screenshots are saved in `~/Desktop` )
+-->
 <h3 id="Finder"><a href="#Finder" class="headerlink" title="Finder"></a>Finder</h3><ul>
 <li><p>File</p>
-<p>  <strong><code>⌘ ↓</code> Open</strong></p>
+<p>  <code>⌘ ↓</code> Open</p>
 <p>  <code>⌘ d</code> Duplicate<br>  <code>⌘ e</code> Eject Disk</p>
-<p>  <code>⌘ l</code> New Alias for a file<br>  <strong><code>⌘ r</code> to Origin File of Alias</strong></p>
 </li>
+</ul>
+<!--
+    _`⌘ l` New Alias for a file_
+    _`⌘ r` to Origin File of Alias_
+-->
+<ul>
 <li><p>Folder</p>
-<p>  <code>⌘ ⇧ A</code> Application<br>  <em><code>⌘ ⇧ C</code> Computer</em><br>  <code>⌘ ⇧ D</code> Desktop<br>  <code>⌘ ⇧ F</code> All My Files<br>  <strong><code>⌘ ⇧ G</code> to Folder</strong><br>  <code>⌘ ⇧ H</code> Home<br>  <em><code>⌘ ⇧ K</code> Network</em><br>  <code>⌘ ⇧ O</code> Documents<br>  <strong><code>⌘ ⇧ R</code> AirDrop</strong><br>  <em><code>⌘ ⇧ U</code> Utilities</em><br>  <code>⌘ ⌥ l</code> Downloads</p>
-<p>  <code>⌘ ⇧ N</code> New Folder</p>
-<p>  <strong><code>⌘ ↑</code> to Parent Dir</strong><br>  <strong><code>⌘ ^ ↑</code> Open Parent Dir in New Window</strong></p>
+<p>  <code>⌘ ⇧ A</code> Application<br>  <code>⌘ ⇧ D</code> Desktop<br>  <em><code>⌘ ⇧ F</code> All My Files</em><br>  <em><code>⌘ ⇧ G</code> to Folder</em><br>  <code>⌘ ⇧ O</code> Documents<br>  <em><code>⌘ ⇧ R</code> AirDrop</em><br>  <code>⌘ ⌥ l</code> Downloads</p>
+<p>  <code>⌘ ⇧ N</code> New Folder<br>  <em><code>⌘ ↑</code> to Parent Dir</em></p>
 </li>
+</ul>
+<!--    
+    _`⌘ ^ ↑` Open Parent Dir in New Window_
+
+    _`⌘ ⇧ C` Computer_
+    _`⌘ ⇧ H` Home_
+    _`⌘ ⇧ K` Network_
+    _`⌘ ⇧ U` Utilities_
+-->
+<ul>
 <li><p>View</p>
 <p>  <code>凵</code> Quick Look<br>  <code>⌘ i</code> Get Info</p>
 <p>  <code>⌘  1</code> View the files in way of Icon<br>  <code>⌘  2</code> View as a List<br>  <code>⌘  3</code> View as columns<br>  <code>⌘  4</code> View as a cover flow</p>
-<p>  <code>⌘ ⇧ ⌫</code> Empty Trash<br>  <em><code>⌘ ⇧ ⌥ ⌫</code> Empty Trash without Confirmation</em></p>
-<p>  <strong><code>⌘ ⇧ T</code> Show | Hide Tab Bar</strong><br>  <strong><code>⌘ ⇧ P</code> Show | Hide Preview</strong><br>  <strong><code>⌘ ⌥ p</code> Show | Hide Path Bar</strong><br>  <strong><code>⌘ ⌥ s</code> Show | Hide Sidebar</strong><br>  <strong><code>⌘ ⌥ t</code> Show | Hide Tool Bar</strong><br>  <strong><code>⌘ /</code> Show | Hide Status Bar</strong></p>
+<p>  <code>⌘ ⇧ ⌫</code> Empty Trash</p>
 </li>
 </ul>
+<!--
+    _`⌘ ⇧ ⌥ ⌫` Empty Trash without Confirmation_
+
+    _`⌘ ⇧ P` Show | Hide Preview_
+    _`⌘ ⌥ p` Show | Hide Path Bar_
+    _`⌘ ⌥ s` Show | Hide Sidebar_
+    _`⌘ ⌥ t` Show | Hide Tool Bar_
+    _`⌘ /` Show | Hide Status Bar_
+-->
 <h3 id="File-amp-Edit"><a href="#File-amp-Edit" class="headerlink" title="File &amp; Edit"></a>File &amp; Edit</h3><ul>
 <li><p>File</p>
 <p>  <code>⌘ n</code> New<br>  <code>⌘ o</code> Open<br>  <code>⌘ s</code> Save<br>  <code>⌘ p</code> Print</p>
@@ -3187,139 +3226,165 @@ img.fix_height {
 <p>  <code>⌥ ←</code> Prev Word<br>  <code>⌥ →</code> Next Word</p>
 <p>  <code>⌘ a</code> Select All</p>
 <p>  <code>⌘ z</code> Undo<br>  <code>⌘ ⇧ Z</code> Redo</p>
-<p>  <code>⌘ c</code> Copy<br>  <strong><code>⌘ ⌥ c</code> Copy Path</strong></p>
+<p>  <code>⌘ c</code> Copy<br>  <em><code>⌘ ⌥ c</code> Copy Path</em></p>
 <p>  <code>⌘ v</code> Paste<br>  <code>⌘ ⌥ v</code> Move ( After <code>⌘ c</code> )</p>
 <ul>
 <li><p>After Selection, then input:</p>
-<p><code>⌘ b</code> Bold<br><code>⌘ u</code> Underline<br><code>⌘ i</code> Italic<br><code>⌘ +</code> Bigger | Zoom In<br><code>⌘ -</code> Smaller | Zoom Out</p>
+<p>  <code>⌘ b</code> Bold<br>  <code>⌘ u</code> Underline<br>  <code>⌘ i</code> Italic<br>  <code>⌘ +</code> Bigger | Zoom In<br>  <code>⌘ -</code> Smaller | Zoom Out</p>
 </li>
 </ul>
 </li>
 </ul>
 <h3 id="Window-amp-Tab"><a href="#Window-amp-Tab" class="headerlink" title="Window &amp; Tab"></a>Window &amp; Tab</h3><ul>
 <li><p>Window</p>
-<p>  <code>⌘ `</code> <strong>Switch windows of the current App</strong><br>  (Improve by the App <a href="https://bahoom.com/hyperswitch" target="_blank" rel="external">HyperSwitcher</a>)</p>
+<p>  <code>⌘ `</code> Switch windows of the current App<br>  It’s enhanced by App <a href="https://bahoom.com/hyperswitch" target="_blank" rel="external">HyperSwitcher</a> | <a href="#Keyboard-Maestro">Keyboard Maestro</a></p>
 <p>  <code>⌘ ^ f</code> Toggle Full Screen<br>  <code>⌘ ,</code> Preferences<br>  <code>⌘ q</code> Exit<br>  <code>⌘ w</code> Close</p>
-<p>  <code>⌘ h</code> Hide<br>  <code>⌘ ⌥ h</code> Hide All Apps But the Frontmost<br>  <code>⌘ m</code> Minimize to Dock<br>  <em><code>⌘ ⌥ m</code> Minimize All Windows of the Frontmost App</em></p>
+<p>  <code>⌘ h</code> Hide<br>  <code>⌘ ⌥ h</code> Hide All Apps But the Front-most<br>  The manipulation <code>Hide</code> is much better than <code>Minimize</code> in macOS!<br>  So I prefer <code>Hide</code> to <code>Minimize</code>.</p>
 </li>
+</ul>
+<!--
+    _`⌘ m` Minimize to Dock_
+    _`⌘ ⌥ m` Minimize All Windows of the Front-most App_
+-->
+<ul>
 <li><p>Tab</p>
-<p>  <code>⌘ r</code> Refresh<br>  <code>⌘ t</code> New Tab<br>  <code>⌘ Num</code> Switch Tab</p>
+<p>  <code>⌘ r</code> Refresh<br>  <code>⌘ t</code> New Tab<br>  <code>⌘ 0~9</code> Select Tab<br>  ( If there are more than 9 tabs, <code>⌘ 9</code> will select the last one. )</p>
 <p>  <code>^ ⇥</code> Next Tab<br>  <code>^ ⇧ ⇥</code> Prev Tab<br>  <code>⌘ ⇥</code> Next App<br>  <code>⌘ ⇧ ⇥</code> Prev App</p>
 <p>  <code>⌘ [</code> Backward<br>  <code>⌘ ]</code> Forward</p>
 </li>
 </ul>
-<h3 id="Emacs-Mode"><a href="#Emacs-Mode" class="headerlink" title="Emacs Mode"></a>Emacs Mode</h3><p>A few people know that it’s supported by default in macOS.</p>
+<h3 id="Emacs-Mode"><a href="#Emacs-Mode" class="headerlink" title="Emacs Mode"></a>Emacs Mode</h3><p>A few people know that it’s supported in  by default in macOS.</p>
 <p><code>^ f</code> = <code>←</code><br><code>^ b</code> = <code>→</code></p>
 <p><code>^ a</code> = <code>⌘ ←</code> Home<br><code>^ e</code> = <code>⌘ →</code> End</p>
-<p><code>^ h</code> = <code>⌫</code><br><code>^ d</code> = <code>Fn ⌫</code> Forward Del<br><code>^ k</code> Del to the End of the Line</p>
+<p><code>^ h</code> = <code>⌫</code><br><em><code>^ d</code> = <code>Fn ⌫</code> Forward Del</em><br><code>^ k</code> Del to the End of the Line</p>
 <ul>
 <li>They are also enabled in <code>iTerm2</code> :<ul>
-<li>modified by <code>.zshrc</code> in <code>Zsh</code></li>
-<li>modified by <code>.vimrc.local</code> in <code>Vim</code></li>
+<li>Modified by <code>.zshrc</code> in <code>Zsh</code> and <code>.vimrc</code> in <code>Vim</code></li>
 </ul>
 </li>
-<li>More<ul>
-<li>Modified by <code>Karabiner</code><br><code>^ w</code> Del Preceding Word<!-- - Added in `Karabiner/private.xml` -->
-<!-- `^ u` = `^ a`, `^ k` Del the whole Line <sup>_custom_</sup> -->
-</li>
+<li>Moreover<ul>
+<li>Modified by <code>Keyboard Maestro</code><br>  <code>^ w</code> = <code>⌥ ⌫</code> Del Preceding Word <sup><em>custom</em></sup><br>  <code>^ u</code> = [ <code>^ a</code>, <code>^ k</code> ] Del the Whole Line <sup><em>custom</em></sup><br>  These modifications can be supported in <code>Karabiner</code> too.</li>
 </ul>
 </li>
 </ul>
 <h3 id="Input-Sources"><a href="#Input-Sources" class="headerlink" title="Input Sources"></a>Input Sources</h3><ul>
 <li><p>Select</p>
-<p>  Left <code>^</code> | <code>⌥ 凵</code> Switch Input Source<br>  <code>⌘ ^ 凵</code> Emoji &amp; Symbols<br>  <strong><code>^ ⇧ 凵</code> Trackpad Handwriting</strong></p>
+<p>  Left <code>^</code> = <code>⌥ 凵</code> Switch Input Source<br>  <code>⌘ ^ 凵</code> Emoji &amp; Symbols</p>
 </li>
+</ul>
+<!-- _`^ ⇧ 凵` Trackpad Handwriting_ -->
+<ul>
 <li><p>Pinyin - Simplified (macOS default)</p>
-<p>  <code>[</code> Page Up<br>  <code>]</code> Page Down<br>  <code>⇥</code> Sort By<br>  <code>num</code> Select</p>
+<p>  <code>[</code> Page Up<br>  <code>]</code> Page Down<br>  <code>⇥</code> Sort By<br>  <code>0~9</code> Select</p>
 </li>
 <li><p>Baidu Input <sup><strong>Now I use</strong></sup></p>
-<p>  <code>^ t</code> [ Simple | Traditional ] Chinese Characters<br>  <strong><code>^ .</code> [ Chinese | English ] Punctuation Marks</strong><br>  <strong><code>⇧ 凵</code> [ 全角 | 半角 ] Punctuation Mark Types</strong><br>  <strong><code>^ p</code> [ 全拼 | 双拼 ] Chinese Input Modes</strong></p>
-<p>  <strong><code>⌥ ⇧ B</code> Emoji &amp; Symbols</strong><br>  <strong><code>⌥ ⇧ 凵</code> Add a space between Chinese &amp; English</strong></p>
-</li>
-<li><p>Squirrel ( Rime Input )</p>
-<p> <code>^ ⇧ 1</code> [ Half | Full ] Shape Punctuations<br> <code>^ ⇧ 2</code> [ Simple | Traditional ] Chinese Characters<br> <code>^ ⇧ 3</code> [ Chinese | English ] Punctuations</p>
+<p>  <em><code>^ t</code> [ Simple | Traditional ] Chinese Characters</em></p>
 </li>
 </ul>
-<h3 id="Calendar"><a href="#Calendar" class="headerlink" title="Calendar"></a>Calendar</h3><p><code>⌘ n</code> New Event<br><code>⌘ r</code> Refresh Calendars</p>
-<p><code>⌘ t</code> Today<br><strong><code>⌘ ⇧ T</code> Go to Date</strong></p>
-<p><code>⌘ ←</code> Prev<br><code>⌘ →</code> Next</p>
-<p><code>⌘ 1</code> By Day<br><code>⌘ 2</code> By Week<br><code>⌘ 3</code> By Month<br><code>⌘ 4</code> By Year</p>
+<!--
+    _`^ .` [ Chinese | English ] Punctuation Marks_
+    _`⇧ 凵` [ 全角 | 半角 ] Punctuation Mark Types_
+    _`^ p` [ 全拼 | 双拼 ] Chinese Input Modes_
+
+    _`⌥ ⇧ B` Emoji & Symbols_
+    _`⌥ ⇧ 凵` Add a space between Chinese & English_
+-->
+<!--
+### Calendar
+
+`⌘ r` Refresh Calendars
+
+`⌘ t` Today
+_`⌘ ⇧ T` Go to Date_
+
+`⌘ ←` Prev
+`⌘ →` Next
+
+`⌘ 1` By Day
+`⌘ 2` By Week
+`⌘ 3` By Month
+`⌘ 4` By Year
+-->
 <h3 id="Activity-Monitor"><a href="#Activity-Monitor" class="headerlink" title="Activity Monitor"></a>Activity Monitor</h3><p><code>⌘ ⌥ f</code> Filter Processes<br><code>⌘ ⌥ q</code> Quit the selected Process</p>
 <h2 id="Crazy-Remappings"><a href="#Crazy-Remappings" class="headerlink" title="Crazy Remappings"></a>Crazy Remappings</h2><ul>
-<li><p>Supported by</p>
-<ul>
-<li><strong><a href="#Keyboard-Maestro">Keyboard Maestro</a></strong></li>
-<li><strong><a href="#Karabiner">Karabiner</a></strong></li>
-<li><strong><a href="#Seil">Seil</a></strong></li>
-</ul>
-</li>
-<li><p>They are all custom to</p>
+<li><p>What are they used to:</p>
 <ul>
 <li><strong>Remap</strong> the key codes.</li>
 <li><strong>Open or Switch</strong> to the specified <strong>app or URL</strong>.</li>
 </ul>
 </li>
 </ul>
-<p><code>Functional Keys</code> = <code>F1</code> ~ <code>F12</code></p>
-<p><code>⌥ ⇥</code> <strong>Prefix Key</strong><br>e.g. If press it and then press another App shortcut, the App will launch.</p>
-<h3 id="Layout-凵"><a href="#Layout-凵" class="headerlink" title="Layout 凵"></a>Layout <code>凵</code></h3><ul>
-<li><p>1234 …</p>
-  <!-- <code>凵 \`</code> -->
-<p>  <code>凵 1</code> <a href="#1Password">1Passord</a><br>  <code>凵 2</code> <a href="#2Do">2Do</a><br>  <code>凵 3</code> <a href="#Evernote">Evernote</a><br>  <code>凵 4</code> <a href="#Chrome">Chrome</a><br>  <code>凵 5</code> <a href="#Firefox">Firefox</a><br>  <code>凵 7</code> <a href="#Keyboard-Maestro">Keyboard Maestro</a><br>  <code>凵 8</code> <a href="#Karabiner">Karabiner</a><br>  <code>凵 9</code> <a href="#Seil">Seil</a><br>  <code>凵 0</code> <a href="#iTerm2">iTerm2</a></p>
-</li>
-<li><p>asdf …</p>
-<p>  <code>凵 asdfghjkl;</code> = <code>1234567890</code></p>
-</li>
-<li><p>Symbols</p>
-<p>  <code>凵 -</code> = <code>_</code><br>  <code>凵 =</code> = <code>+</code></p>
-<p>  <code>凵 [</code> = <code>⇧ [</code> = <code>{</code><br>  <code>凵 ]</code> = <code>⇧ ]</code> = <code>}</code><br>  <code>凵 \</code> = <code>⇧ \</code> = <code>|</code></p>
-<p>  <code>凵 &#39;</code> = <code>⇧ &#39;</code> = <code>&quot;</code><br>  <code>凵 /</code> = <code>⇧ /</code> = <code>?</code></p>
+<ul>
+<li><p>Supported by</p>
+<ul>
+<li><a href="#Keyboard-Maestro"><strong>Keyboard Maestro</strong></a></li>
+<li><a href="#Karabiner"><strong>Karabiner</strong></a></li>
+<li><a href="#Seil"><strong>Seil</strong></a></li>
+</ul>
 </li>
 </ul>
-<h3 id="Layout-⌥"><a href="#Layout-⌥" class="headerlink" title="Layout ⌥ ^"></a>Layout <code>⌥</code> <code>^</code></h3><ul>
-<li><p>1234 …</p>
-  <!-- <code>⌥ \`</code>  -->
-<p>  <code>⌥ 1</code> <a href="#Script_Editor">Script Editor</a> ( for AppleScript )<br>  <code>⌥ 2</code> System Preferences<br>  <code>⌥ 3</code> Notes</p>
-</li>
-<li><p>qwer …</p>
-<p>  <code>⌥ q</code> <a href="#QQ">QQ</a><br>  <code>⌥ w</code> <a href="#WeChat">WeChat</a><br>  <code>⌥ e</code> <a href="#Mail">Mail</a><br>  <code>⌥ r</code> Preview<br>  <code>⌥ t</code> Thunder</p>
-<p>  <code>⌥ u</code> <a href="#Sublime-Text">Sublime Text</a><br>  <code>⌥ i</code> iTunes<br>  <code>⌥ o</code> OpenEmu<br>  <code>⌥ p</code> Postman<br>  <code>⌥ \</code> <a href="#1Password">1Password</a></p>
-<p>  <code>⌥ ⇧ Q</code> <a href="#Stickes">Stickes</a><br>  <code>⌥ ⇧ W</code> Word<br>  <code>⌥ ⇧ E</code> Eject the disks</p>
-<p>  <code>⌥ ⇧ I</code> Show the local IP Address<br>  <code>⌥ ⇧ P</code> PowerPoint<br>  <code>⌥ ⇧ ]</code> Show <a href="#Bartender-2">Bartender 2</a><br>  <code>⌥ ]</code> Show <a href="#Bartender-2">Bartender 2</a></p>
-<p>  <code>^ ⌥ ⇧ E</code> Excel<br>  <code>^ ⌥ ⇧ I</code> IINA Player</p>
+<p><code>Functional Keys</code> = <code>F1</code> ~ <code>F12</code></p>
+<p><code>⌥ ⇥</code> <strong>Prefix Key</strong><br>It’s used to prevent you from launching the unwanted App when pressing its shortcut by accident.<br>Only when you pressed Pf Key at first and then the App shortcut, did it launch.</p>
+<h3 id="Layout-凵"><a href="#Layout-凵" class="headerlink" title="Layout 凵"></a>Layout <code>凵</code></h3><ul>
+<li><p>0123 …</p>
+  <!-- <code>凵 \`</code> -->
+<p>  <code>凵 1</code> <a href="#1Password">1Password</a><br>  <code>凵 2</code> <a href="#2Do">2Do</a><br>  <code>凵 3</code> <a href="#Firefox">Firefox</a><br>  <code>凵 4</code> <a href="#Chrome">Chrome</a><br>  <code>凵 5</code> <a href="#Evernote">Evernote</a><br>  <code>凵 7</code> <a href="#Keyboard-Maestro">Keyboard Maestro</a><br>  <code>凵 8</code> <a href="#Karabiner">Karabiner</a><br>  <code>凵 9</code> <a href="#Seil">Seil</a><br>  <code>凵 0</code> iTerm2</p>
 </li>
 <li><p>asdf …</p>
-<p>  <code>⌥ a</code> <a href="#JetBrains">PyCharm</a><br>  <code>⌥ s</code> <a href="#PhpStorm">PhpStorm</a><br>  <code>⌥ d</code> <a href="#EuDict-Free">EuDic Free</a><br>  <code>⌥ f</code> <a href="#Finder">Finder</a><br>  <code>⌥ g</code> <a href="#Acrobat-Reader">Acrobat Reader</a> ( PDF )</p>
+<p>  <code>凵 ;asdfghjkl</code> = <code>0~9</code></p>
+</li>
+<li><p>Symbols</p>
+<p>  <code>凵 `</code> = <code>⇧ `</code> = <code>~</code><br>  <code>凵 -</code> = <code>⇧ -</code> = <code>_</code><br>  <code>凵 =</code> = <code>⇧ =</code> = <code>+</code><br>  <code>凵 [</code> = <code>⇧ [</code> = <code>{</code><br>  <code>凵 ]</code> = <code>⇧ ]</code> = <code>}</code><br>  <code>凵 \</code> = <code>⇧ \</code> = <code>|</code><br>  <code>凵 &#39;</code> = <code>⇧ &#39;</code> = <code>&quot;</code></p>
+</li>
+</ul>
+<h3 id="Layout-⌥-⇧"><a href="#Layout-⌥-⇧" class="headerlink" title="Layout ⌥ ⇧ ^"></a>Layout <code>⌥</code> <code>⇧</code> <code>^</code></h3><ul>
+<li><p>1234 …</p>
+<p>  <code>⌥ 1</code> <a href="#Script_Editor">Script Editor</a> ( AppleScript )<br>  <code>⌥ 2</code> System Preferences<br>  <code>⌥ 3</code> Notes</p>
+</li>
+<li><p>qwer …</p>
+<p>  <code>⌥ q</code> <a href="#QQ">QQ</a><br>  <code>⌥ w</code> WeChat<br>  <code>⌥ e</code> <a href="#Mail">Mail</a><br>  <code>⌥ r</code> Preview<br>  <code>⌥ t</code> Thunder</p>
+<p>  <code>⌥ u</code> <a href="#Sublime-Text">Sublime Text</a><br>  <code>⌥ i</code> iTunes<br>  <em><code>⌥ o</code> OpenEmu</em><br>  <code>⌥ p</code> Postman<br>  <code>⌥ \</code> <a href="#1Password">1Password</a> ( Mini )</p>
+<p>  <em><code>⌥ ⇧ W</code> Word</em><br>  <em><code>⌥ ⇧ P</code> PowerPoint</em><br>  <em><code>⌥ ⇧ Q</code> QQMusic</em><br>  <code>⌥ ⇧ E</code> Eject the disks<br>  <code>⌥ ⇧ I</code> Prompt the local IP address</p>
+<p>  <em><code>^ ⌥ ⇧ E</code> Excel</em></p>
+</li>
+</ul>
+<!--
+    _`⌥ ⇧ ]` Show [Bartender 2](#Bartender-2)_
+    _`⌥ ]` Show [Bartender 2](#Bartender-2)_
+-->
+<ul>
+<li><p>asdf …</p>
+<p>  <code>⌥ a</code> <a href="#JetBrains">PyCharm</a><br>  <code>⌥ s</code> <a href="#PhpStorm">PhpStorm</a><br>  <code>⌥ d</code> EuDic Free<br>  <code>⌥ f</code> <a href="#Finder">Finder</a><br>  <em><code>⌥ g</code> <a href="#Acrobat-Reader">Acrobat Reader</a> ( PDF )</em></p>
 <p>  <code>⌥ h</code> Photos<br>  <code>⌥ k</code> Numi ( Calculator )<br>  <code>⌥ ;</code> Input the symbol <code>…</code></p>
-<p>  <code>⌥ ⇧ A</code> <a href="#Activity-Monitor">Activity Monitor</a><br>  <code>⌥ ⇧ S</code> Safari<br>  <code>⌥ ⇧ D</code> <a href="#Dictionary">Dictionary</a><br>  <code>⌥ ⇧ F</code> Search in All Files<br>  <code>⌥ ⇧ G</code> Deploy the blog by Git<br>  <code>⌥ ⇧ K</code> Calculator</p>
-<p>  <code>^ ⌥ ⇧ A</code> App Store<br>  <code>^ ⌥ ⇧ K</code> Key Codes</p>
+<p>  <code>⌥ ⇧ A</code> <a href="#Activity-Monitor">Activity Monitor</a><br>  <code>⌥ ⇧ S</code> Safari<br>  <code>⌥ ⇧ D</code> Dictionary<br>  <em><code>⌥ ⇧ F</code> Search in All Files</em><br>  <em><code>⌥ ⇧ K</code> Calculator</em></p>
+<p>  <code>^ ⌥ ⇧ A</code> App Store</p>
 </li>
 <li><p>zxcv …</p>
 <p>  <code>⌥ c</code> <a href="#Charles">Charles</a><br>  <code>⌥ v</code> <a href="#ClipMenu">ClipMenu</a> ( History Menu )</p>
-<p>  <code>⌥ n</code> <a href="#Netease">Netease Music</a><br>  <code>⌥ m</code> Sequel Pro ( MySQL )<br>  <code>⌥ ,</code> Console<br>  <code>⌥ /</code> Search in Evernote</p>
-<p>  <code>⌥ ⇧ C</code> <a href="#Calendar">Calendar</a><br>  <code>⌥ ⇧ V</code> <a href="#ClipMenu">ClipMenu</a> ( Main Menu )</p>
-<p>  <code>^ ⌥ ⇧ V</code> Sina VPN</p>
+<p>  <code>⌥ n</code> <a href="#NeteaseMusic">NeteaseMusic</a><br>  <code>⌥ m</code> Sequel Pro ( MySQL )</p>
+<p>  <code>⌥ ⇧ C</code> Calendar<br>  <code>⌥ ⇧ V</code> <a href="#ClipMenu">ClipMenu</a> ( Main Menu )<br>  <code>⌥ ⇧ M</code> Send the content in Clipboard to my iPhone by Messages<br>  <code>^ ⌥ ⇧ M</code> Messages</p>
 </li>
 </ul>
 <h3 id="Layout-Fn"><a href="#Layout-Fn" class="headerlink" title="Layout Fn"></a>Layout <code>Fn</code></h3><ul>
-<li>Arrange the windows ( Frequently Used )</li>
-</ul>
-<p>Resize &amp; Move the windows as <a href="https://www.spectacleapp.com/" target="_blank" rel="external">Spectable</a> an <a href="https://manytricks.com/moom/" target="_blank" rel="external">Moom</a></p>
-<p><code>Fn d</code> Lf 1/2<br><code>Fn f</code> Rg 1/2</p>
-<p><code>Fn e</code> Lf 3/5<br><code>Fn r</code> Rg 3/5</p>
-<p><code>Fn g</code> Fit to Desktop</p>
-<p><code>Fn q</code> Top Lf 1/4<br><code>Fn w</code> Top Rg 1/4<br><code>Fn a</code> Btm Lf 1/4<br><code>Fn s</code> Btm Rg 1/4</p>
-<ul>
-<li><p>Directions</p>
-<p>  <code>Fn h</code> ←<br>  <code>Fn j</code> ↓<br>  <code>Fn k</code> ↑<br>  <code>Fn l</code> →</p>
+<li><p>Arrange the windows<br>  Aka <code>Resize &amp; Move</code> the windows. ( Frequently Used )<br>  These features can be supported by <a href="https://manytricks.com/moom/" target="_blank" rel="external">Moom</a> | <a href="https://www.spectacleapp.com/" target="_blank" rel="external">Spectacle</a> | <a href="#Keyboard-maestro">Keyboard maestro</a>.</p>
+<p>  <code>Fn d</code> Lf 1/2<br>  <code>Fn f</code> Rg 1/2</p>
+<p>  <code>Fn e</code> Lf 3/5<br>  <code>Fn r</code> Rg 3/5</p>
+<p>  <code>Fn g</code> Fit to Desktop<br>  <code>Fn t</code> Fit to Center 1/2</p>
+<p>  <code>Fn q</code> Top Lf 1/4<br>  <code>Fn w</code> Top Rg 1/4<br>  <code>Fn a</code> Btm Lf 1/4<br>  <code>Fn s</code> Btm Rg 1/4</p>
 </li>
-<li><p>Rarely Used</p>
-<p>  <del><code>Fn w</code> Toggle Wifi</del><br>  <del><code>Fn b</code> Toggle Bluetooth</del></p>
+<li><p>Direction Keys</p>
+<p>  They’re Vim-like.<br>  <code>Fn h</code> = <code>←</code> Lf<br>  <code>Fn j</code> = <code>↓</code> Dn<br>  <code>Fn k</code> = <code>↑</code> Up<br>  <code>Fn l</code> = <code>→</code> Rg</p>
 </li>
 </ul>
+<!--
+- Rarely Used
+
+    ~~`Fn w` Toggle WiFi~~
+    ~~`Fn b` Toggle Bluetooth~~
+-->
 <h3 id="Layout-⎋"><a href="#Layout-⎋" class="headerlink" title="Layout ⎋"></a>Layout <code>⎋</code></h3><ul>
 <li><p>1234 …</p>
-<p>  <code>⎋ 123456790-=</code> = <code>Functional Keys</code><br>  e.g. Functional keys control Brightness, Music, Volume, Keyboard Light …</p>
+<p>  <code>⎋ 123456790-=</code> = <code>Functional Keys</code><br>  e.g. Functional keys control Brightness, Music, Volume, Keyboard Light &amp; etc.</p>
 </li>
 <li><p>qwer …</p>
 <p>  <code>⎋ w</code> <a href="http://weibo.com" target="_blank" rel="external">Weibo</a><br>  <code>⎋ e</code> Sina ERP<br>  <code>⎋ r</code> Sina Redmine</p>
@@ -3333,122 +3398,177 @@ img.fix_height {
 <p>  <code>⎋ z</code> Sina GitLab<br>  <code>⎋ b</code> <a href="https://www.baidu.com/" target="_blank" rel="external">Baidu</a></p>
 </li>
 </ul>
-<!-- ## [Manico](http://manico.im/)
+<h3 id="Keyboard-Maestro"><a href="#Keyboard-Maestro" class="headerlink" title="Keyboard Maestro"></a><a href="https://www.keyboardmaestro.com/main/" target="_blank" rel="external">Keyboard Maestro</a></h3><!--
+- Global Macro
 
-The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-凵-⎋) and [Layout Fn ⌥](#Layout-Fn-⌥) -->
-<h3 id="Keyboard-Maestro"><a href="#Keyboard-Maestro" class="headerlink" title="Keyboard Maestro"></a><a href="https://www.keyboardmaestro.com/main/" target="_blank" rel="external">Keyboard Maestro</a></h3><ul>
-<li><p>Global Macro</p>
-<p>  <strong><code>⌘ ^ ⇧ O</code> Toggle All Micro</strong></p>
-  <!-- `⌘ ^ ⌥ ⇧ T` Trigger macro by Name -->
-  <!-- `⌥ F1` Quick Macro -->
-</li>
+    _`⌘ ^ ⇧ O` Toggle All Micro_
+-->
+<ul>
 <li><p>Search in Web</p>
 <p>  <code>⌘ ^ ⇧ A</code> Amazon<br>  <code>⌘ ^ ⇧ B</code> Baidu<br>  <code>⌘ ^ ⇧ D</code> Douban<br>  <code>⌘ ^ ⇧ G</code> Google<br>  <code>⌘ ^ ⇧ J</code> JD.com<br>  <code>⌘ ^ ⇧ M</code> Tmall<br>  <code>⌘ ^ ⇧ T</code> Taobao<br>  <code>⌘ ^ ⇧ W</code> Weibo<br>  <code>⌘ ^ ⇧ Z</code> Zhihu</p>
 </li>
 <li><p>Abbrs</p>
 <ul>
-<li><p>Auto</p>
-<p>  Type string <code>|hi</code>, it will be reaplaced by the time string <code>hh:mm</code><br>  Type <code>|ymd</code>, reaplaced by <code>yy/MM/dd</code><br>  Type <code>|Ymd</code>, reaplaced by <code>yyyy/MM/dd</code><br>  … &amp; etc.</p>
+<li><p>Date</p>
+<p>  Type string <code>|hm</code>, it will be replaced by the time string <code>hh:mm</code><br>  Type <code>|ymd</code>, replaced by <code>yy/MM/dd</code><br>  <code>|Ymd/</code> → <code>YYYY/MM/dd</code><br>  <code>|Ymd-</code> → <code>YYYY-MM-dd</code><br>  ( I abbreviate the similar sentences below like this. )</p>
 </li>
 <li><p>Symbols</p>
-<p>  Type <code>|up</code>, reaplaced by the charactor <code>↑</code><br>  Type <code>|down</code>, reaplaced by <code>↓</code><br>  Type <code>|left</code>, reaplaced by <code>←</code><br>  Type <code>|right</code>, reaplaced by <code>→</code><br>  Type <code>|escape</code>, reaplaced by <code>⎋</code><br>  Type <code>|tab</code>, reaplaced by <code>⇥</code><br>  Type <code>|caps</code>, reaplaced by <code>⇪</code><br>  Type <code>|shift</code>, reaplaced by <code>⇧</code><br>  Type <code>|option</code> or <code>|alt</code>, reaplaced by <code>⌥</code><br>  Type <code>|command</code>, reaplaced by <code>⌘</code><br>  Type <code>|space</code>, reaplaced by <code>凵</code><br>  Type <code>|delete</code>, reaplaced by <code>⌫</code><br>  Type <code>|return</code>, reaplaced by <code>↩</code><br>  Type <code>|apple</code>, reaplaced by <code></code></p>
+<p>  <code>|up</code> → <code>↑</code><br>  <code>|dn</code> → <code>↓</code><br>  <code>|lf</code> → <code>←</code><br>  <code>|rg</code> → <code>→</code><br>  <code>|esc</code> → <code>⎋</code><br>  <code>|tab</code> → <code>⇥</code><br>  <code>|cap</code> → <code>⇪</code><br>  <code>|shf</code> → <code>⇧</code><br>  <code>|opt</code> | <code>|alt</code> → <code>⌥</code><br>  <code>|cmd</code> → <code>⌘</code><br>  <code>|spa</code> → <code>凵</code><br>  <code>|del</code> → <code>⌫</code><br>  <code>|ret</code> | <code>|ent</code> → <code>↩</code><br>  <code>|app</code> → <code></code></p>
 </li>
-<li><p>Others<br>  Type <code>|[a-z]*</code>, replaced by ID card number, my phone number or etc.</p>
-</li>
-</ul>
+<li><p>Others<br>  <code>|[a-z]*</code> → ID card number, my phone number &amp; etc.</p>
 </li>
 </ul>
-<h3 id="Karabiner"><a href="#Karabiner" class="headerlink" title="Karabiner"></a><a href="https://pqrs.org/osx/karabiner/index.html.en" target="_blank" rel="external">Karabiner</a></h3><p>Not only shortcuts, but also change layout of keyboard!</p>
+</li>
+</ul>
+<h3 id="Karabiner"><a href="#Karabiner" class="headerlink" title="Karabiner"></a><a href="https://pqrs.org/osx/karabiner/index.html.en" target="_blank" rel="external">Karabiner</a></h3><p>Changes not only the shortcuts but also the keyboard key-remappings!</p>
 <ul>
 <li><p>Quit</p>
-<p>  <code>⌘ q</code>, <code>⌘ q</code> (Twice) To Send one real keystroke <code>⌘ q</code></p>
+<p>  <code>⌘ q, ⌘ q</code> Double tap <code>⌘ q</code> to send one real keystroke <code>⌘ q</code></p>
 </li>
 <li><p>Profile</p>
-<p>  <code>Fn Num</code> Switch Karabiner setting profile</p>
-</li>
-<li><p>Emacs Mode</p>
-<p>  <code>^ w</code> Del Preceding Word</p>
+<p>  <code>Fn 1</code> Switch to the <strong>default</strong> setting profile ( without all custom key-remapping )<br>  <code>Fn 2</code> Switch to the <strong>custom</strong> setting profile<br>  They’re used to toggle the custom setting profile for the guest who need to use my Mac temporarily.</p>
 </li>
 <li><p>Input Sources</p>
 <p>  Rg <code>⌥</code> = <code>⌘ 凵</code> Switch Input Source</p>
 </li>
 </ul>
 <h3 id="Seil"><a href="#Seil" class="headerlink" title="Seil"></a><a href="https://pqrs.org/osx/karabiner/seil.html.en" target="_blank" rel="external">Seil</a></h3><ul>
-<li><p>Change Key</p>
+<li><p>Change Modifier-Key-Remapping</p>
 <p>  <code>⇪</code> Caps → <code>^</code> Ctrl<br>  <code>^</code> Ctrl → <code>⌥</code> Rg Opt</p>
 <p>  <code>⌘</code> Rg Cmd → <code>⎋</code> Esc<br>  <code>⌥</code> Rg Opt → <code>⇪</code> Caps</p>
-<p>  Need to exchange <code>CapsLock</code> &amp; Lf <code>Ctrl</code> in <code>System Preferences → Keyboards → Modifier Key</code> .</p>
+<p>  It’s required to exchange <code>CapsLock</code> &amp; Lf <code>Ctrl</code> keys in the settings<br>  <code>System Preferences</code> → <code>Keyboards</code> → <code>Modifier Key</code>.</p>
 </li>
 </ul>
-<h2 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h2><h3 id="Mail"><a href="#Mail" class="headerlink" title="Mail"></a>Mail</h3><!--__`⌘ ⇧ N` Get All New Mail__ ( Default )-->
-<p><strong><code>⌘ ^ s</code> Get All New Mail</strong> <sup><em>custom</em></sup></p>
+<h2 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h2><h3 id="Mail"><a href="#Mail" class="headerlink" title="Mail"></a>Mail</h3><p><code>⌘ ⇧ N</code> Get All New Mail<br><code>⌘ ^ s</code> Get All New Mail <sup><em>custom</em></sup></p>
 <p><code>⌘ r</code> Reply<br><code>⌘  ⇧ r</code> Reply All</p>
-<p><em><code>⌘ ⇧ L</code> Red Flag</em><br><code>⌘ ⌥ f</code> Mailbox Search</p>
-<p><strong><code>⌘ 1</code> Inbox</strong><br><strong><code>⌘ 2</code> Sent</strong><br><strong><code>⌘ 3</code> Drafts</strong></p>
-<h3 id="QQ"><a href="#QQ" class="headerlink" title="QQ"></a><a href="http://im.qq.com/macqq/" target="_blank" rel="external">QQ</a></h3><p><code>⌘ ^ a</code> Capture ( Can be used without opening QQ. )<br><code>⌘ ↑</code> Select Prev Chat<br><code>⌘ ↓</code> Select Next Chat</p>
-<p><code>⌘ 1</code> Switch to Messages<br><code>⌘ 2</code> Switch to Contacts<br><code>⌘ 3</code> Switch to Applications<br><code>⌘ e</code> Switch Mode Simple/Complete<br><strong><code>⌘ d</code> Delete Chat</strong></p>
-<p><code>⌘ ^ s</code> Toggle Full Screen</p>
-<h3 id="WeChat"><a href="#WeChat" class="headerlink" title="WeChat"></a><a href="http://www.wechat.com/cgi-bin/readtemplate?t=mac&amp;lang=en_US" target="_blank" rel="external">WeChat</a></h3><p><code>⌘ ↑</code> Prev Chat<br><code>⌘ ↓</code> Next Chat</p>
-<h2 id="Editors"><a href="#Editors" class="headerlink" title="Editors"></a>Editors</h2><h3 id="Atom"><a href="#Atom" class="headerlink" title="Atom"></a><a href="https://atom.io/" target="_blank" rel="external">Atom</a></h3><ul>
-<li><p>View</p>
-<p>  <strong><code>⌘ ⇧ P</code> Toggle Command Palette</strong> ( Find shortcuts )<br>  <code>⌘ \</code> Toggle Tree View</p>
-</li>
-<li><p>File</p>
-<p>  <strong><code>^ ⇧ C</code> Copy Path</strong><br>  <strong><code>^ ⇧ L</code> Select Grammar</strong><br>  <strong><code>^ ⇧ U</code> Select Encoding</strong></p>
-<p>  <code>⌘ ⇧ O</code> Open Project Folder<br>  <code>⌘ ⇧ T</code> Reopen Last Item</p>
-</li>
-<li><p>Edit</p>
-<p>  <strong><code>⌘ ]</code> Indent</strong><br>  <strong><code>⌘ [</code> Outdent</strong></p>
-</li>
-<li><p>Find</p>
-<p>  <strong><code>⌘ F</code> Find in Buffer</strong><br>  <strong><code>⌘ ⌥ F</code> Replace in Buffer</strong></p>
-<p>  <strong><code>⌘ B</code> Find Buffer</strong><br>  <strong><code>⌘ P</code> Find File</strong><br>  <strong><code>⌘ ⇧ B</code> Find Modified File</strong></p>
-</li>
-<li><p>Select</p>
-<p>  <strong><code>⌘ D</code> Select Next</strong><br>  <strong><code>⌘ ^ G</code> Select All</strong></p>
-</li>
-<li><p>Package</p>
-<p>  <strong><code>^ ⇧ M</code> Markdown Preview</strong><br>  <strong><code>⌘ ⌥ .</code> Close Tag ( HTML )</strong></p>
+<p><code>⌘ ⌥ f</code> Mailbox Search</p>
+<!--
+_`⌘ ⇧ L` Red Flag_
+
+__`⌘ 1` Inbox__
+__`⌘ 2` Sent__
+__`⌘ 3` Drafts__
+-->
+<h3 id="QQ"><a href="#QQ" class="headerlink" title="QQ"></a><a href="http://im.qq.com/macqq/" target="_blank" rel="external">QQ</a></h3><p><code>⌘ ^ a</code> Screenshot<br><code>⌘ ^ r</code> Screen Recording<br>Two functions above can be used without opening QQ.</p>
+<p><code>⌘ ↑</code> Select Prev Chat<br><code>⌘ ↓</code> Select Next Chat<br>They can be used in WeChat as well.</p>
+<p><code>⌘ 1</code> Switch to Messages<br><code>⌘ 2</code> Switch to Contacts<br><code>⌘ 3</code> Switch to Applications</p>
+<!--
+## Editors
+
+### [Atom](https://atom.io/)
+
+- View
+
+    __`⌘ ⇧ P` Toggle Command Palette__ ( Find shortcuts )
+    `⌘ \` Toggle Tree View
+
+- File
+
+    __`^ ⇧ C` Copy Path__
+    __`^ ⇧ L` Select Grammar__
+    __`^ ⇧ U` Select Encoding__
+
+    `⌘ ⇧ O` Open Project Folder
+    `⌘ ⇧ T` Reopen Last Item
+
+- Edit
+
+    __`⌘ ]` Indent__
+    __`⌘ [` Outdent__
+
+- Find
+
+    __`⌘ F` Find in Buffer__
+    __`⌘ ⌥ F` Replace in Buffer__
+
+    __`⌘ B` Find Buffer__
+    __`⌘ P` Find File__
+    __`⌘ ⇧ B` Find Modified File__
+
+- Select
+
+    __`⌘ D` Select Next__
+    __`⌘ ^ G` Select All__
+
+- Package
+
+    __`^ ⇧ M` Markdown Preview__
+    __`⌘ ⌥ .` Close Tag ( HTML )__
+-->
+<h2 id="System-Assistant"><a href="#System-Assistant" class="headerlink" title="System Assistant"></a>System Assistant</h2><h3 id="1Password"><a href="#1Password" class="headerlink" title="1Password"></a><a href="https://1password.com/" target="_blank" rel="external">1Password</a></h3><p><code>⌘ \</code> Fill Login on current web page<br><code>⌥ \</code> Show 1Password Mini<br><!-- `^ ⌥ ⇧ L` Lock 1Password --></p>
+<p><code>⌘ e</code> Edit<br><code>⌘ s</code> Save</p>
+<!--
+### [Amphetamine](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12)
+
+`⌥ F12` Mac Stays Awake
+`^ ⌥ F12` Allow Mac to Sleep
+
+### [Bartender 2](https://www.macbartender.com/)
+
+`^ ⌥ ]` Show Bartender Bar
+`⌥ ]` Show All Status Icons in Menu Bar
+
+### [CheatSheet](https://www.mediaatelier.com/CheatSheet/)
+
+`Long Press ⌘` Activate
+-->
+<h3 id="ClipMenu"><a href="#ClipMenu" class="headerlink" title="ClipMenu"></a><a href="http://www.clipmenu.com/" target="_blank" rel="external">ClipMenu</a></h3><p><code>⌥ v</code> History Menu<br><code>⌥ ⇧ V</code> Main Menu</p>
+<h2 id="Development"><a href="#Development" class="headerlink" title="Development"></a>Development</h2><h3 id="PhpStorm"><a href="#PhpStorm" class="headerlink" title="PhpStorm"></a><a href="https://www.jetbrains.com/phpstorm/" target="_blank" rel="external">PhpStorm</a></h3><ul>
+<li><p>Code</p>
+<p>  <code>⌘ ⌥ l</code> Reformat Code<br>  The rules for reformation can be modified in :<br>  <code>Preferences</code> → <code>Editor</code> → <code>Code Style</code> → Select the programming language.</p>
+<p>  <code>⌘ /</code> Line Comment<br>  <em><code>⌘ ⌥ /</code> Block Comment</em></p>
+<p>  <em><code>^ ⌥ h</code> Toggle Parameter Name</em><br>  <em><code>⌘ ⇧ G</code> Select All Occurrences</em><br>  <em><code>⌘ ⇧ V</code> Copy from History</em></p>
+<p>  <em><code>⌥ ↑</code> Extend Selection</em><br>  <em><code>⌥ ↓</code> Shrink Selection</em></p>
+<p>  <em><code>^ 凵</code> Auto Complete</em><br>  <em><code>⌥ ↩</code> Show Intention Actions</em><br>  <em><code>⌘ ⇧ ↩</code> Complete Current Statement</em></p>
 </li>
 </ul>
-<h3 id="Script-Editor"><a href="#Script-Editor" class="headerlink" title="Script Editor"></a>Script Editor</h3><p><code>⌘ ⇧ O</code> Open Dictionary<br><code>⌘ r</code> Run the script<br><code>⌘ .</code> Stop the script</p>
-<h2 id="IDEs"><a href="#IDEs" class="headerlink" title="IDEs"></a>IDEs</h2><h3 id="PhpStorm"><a href="#PhpStorm" class="headerlink" title="PhpStorm"></a><a href="https://www.jetbrains.com/phpstorm/" target="_blank" rel="external">PhpStorm</a></h3><ul>
-<li><p>Code</p>
-<p>  <strong><code>^ 凵</code> Auto Complete</strong><br>  <strong><code>⌥ ↩</code> Show Intention Actions</strong></p>
-<p>  <strong><code>⌘ ⌥ l</code> Reformat Code</strong><br>  <strong><code>⌘ ⇧ G</code> Select All Occurrences</strong><br>  <strong><code>⌘ ⇧ ↩</code> Complete Current Statement</strong><br>  <strong><code>⌘ ⇧ V</code> Copy from History</strong></p>
-<p>  <strong><code>⌥ ↑</code> Extend Selection</strong><br>  <strong><code>⌥ ↓</code> Shrink Selection</strong></p>
-<p>  <code>⌘ /</code> Line Comment<br>  <strong><code>⌘ ⌥ /</code> Block Comment</strong></p>
-<p>  <code>^ ⌥ e</code> Rename <code>$variableName</code>, <code>ClassName</code>, <code>functionName</code> ( Auto rename other related code )<br>  <strong><code>⌥ ^ r</code> Refactor This</strong></p>
-<p>  <strong><code>^ ⌥ h</code> Toggle Parameter Name</strong></p>
-</li>
+<!--
+    `^ ⌥ e` Rename `$variableName`, `ClassName`, `functionName` ( Auto rename other related code )
+    _`^ ⌥ r` Refactor This_
+-->
+<ul>
 <li><p>Debug</p>
-<p>  <code>^ ⇧ B</code> Toggle BreakPoint<br>  <strong><code>^ ⇧ E</code> Edit BreakPoint ( Break if conditional is true)</strong><br>  <code>^ ⇧ w</code> Add to Watches</p>
-<p>  <code>^ ⇧ d</code> Debug<br>  <code>^ ⇧ r</code> Rerun<br>  <code>^ ⇧ s</code> Stop</p>
-<p>  <code>^ ⇧ i</code> Step Into<br>  <code>^ ⇧ o</code> Step Out</p>
-<p>  <code>^ ⇧ n</code> Next BreakPoint ( Resume )<br>  <code>^ ⇧ j</code> Next Line ( Step Over )</p>
+<p>  <code>^ ⇧ B</code> Toggle BreakPoint<br>  <code>^ ⇧ E</code> Edit BreakPoint ( Break if conditional is true)<br>  <code>^ ⇧ W</code> Add to Watches<br>  <code>^ ⌥ w</code> Add to Watches</p>
+<p>  <code>^ ⇧ D</code> Debug<br>  <code>^ ⇧ R</code> Rerun<br>  <code>^ ⇧ S</code> Stop</p>
+<p>  <code>^ ⇧ I</code> Step Into<br>  <code>^ ⇧ O</code> Step Out</p>
+<p>  <code>^ ⇧ N</code> Next BreakPoint ( Resume )<br>  <code>^ ⇧ J</code> Next Line ( Step Over )</p>
 </li>
 <li><p>File</p>
-<p>  <strong><code>⇧ ↩</code> Open in a new Editor Window</strong><br>  <code>⌘ ⇧ C</code> Copy Path</p>
+<p>  <code>⌘ ⇧ C</code> Copy Path<br>  <em><code>⇧ ↩</code> Open in a new Editor Window</em></p>
 </li>
 <li><p>Find</p>
 <p>  <code>⌘ f</code> Find<br>  <code>⌘ ⇧ F</code> Find in Paths<br>  <code>⌘ r</code> Replace<br>  <code>⌘ ⇧ R</code> Replace in Paths</p>
-<p>  <code>⌘ o</code> Find Class<br>  <code>⌘ ⇧ O</code> Find File<br>  <strong><code>⌘ ⌥ o</code> Find Symbols ( Class, Files, Methods, Functions )</strong><br>  <code>⇧, ⇧</code> Search (Everything) Everywhere</p>
-<p>  <code>^ g</code> Find Usage<br>  <code>⌘ ⇧ A</code> Find Actions</p>
+<p>  <code>^ ⌥ g</code> Toggle Regex<br>  <em><code>^ ⌥ c</code> Toggle Case Sensitive</em></p>
+<p>  <code>^ g</code> Find Usage<br>  <code>⌘ o</code> Find Class<br>  <code>⌘ ⇧ O</code> Find File<br>  <code>⌘ ⌥ o</code> Find Symbols ( Class, Files, Methods, Functions )<br>  <em><code>⇧, ⇧</code> Search (Everything) Everywhere</em></p>
 </li>
+</ul>
+<!-- _`⌘ ⇧ A` Find Actions_ -->
+<ul>
 <li><p>Navigate</p>
 <p>  <code>⌘ e</code> Recent Files<br>  <code>⌘ ⇧ E</code> Recently Edited Files</p>
-<p>  <strong><code>⌘ ⇧ T</code> Test Subject : Jump to Test for current file | Create Test for it</strong><br>  <strong><code>⌘ ↑</code> | <code>⌘ ↓</code> Navigation Bar</strong><br>  <strong><code>⌘ u</code> Super Class or Interface</strong></p>
+<p>  <code>⌘ ⇧ T</code> Test Subject : Jump to Test for current file | Create Test for it<br>  <em><code>⌘ ↑</code> Navigation Bar</em></p>
 <p>  <code>F2</code> Next Highlighted Error<br>  <code>⇧ F2</code> Prev Highlighted Error</p>
-<p>  <strong><code>⌘ 1~9</code> Jump to the specified Tool Window</strong><br>  <code>⌘ 1</code> Project<br>  <code>⌘ 2</code> Favorites ( Projects, Bookmarks, Breakpoints )<br>  <code>⌘ 3</code> Find<br>  <code>⌘ 4</code> Debug<br>  <code>⌘ 6</code> Todo<br>  <code>⌘ 7</code> Structure<br>  <code>⌘ 9</code> Version Control</p>
+<p>  <code>⌘ 1~9</code> Jump to the specified Tool Window | Hide it<br>  <code>⌘ 1</code> Project<br>  <em><code>⌘ 2</code> Favorites ( Projects, Bookmarks, Breakpoints )</em><br>  <code>⌘ 3</code> Find<br>  <code>⌘ 4</code> Debug<br>  …<br>  <em><code>⌘ 9</code> Version Control</em></p>
 </li>
+</ul>
+<!--
+    `⌘ 6` Todo
+    `⌘ 7` Structure
+
+    `⌘ u` Super Class or Interface
+-->
+<ul>
 <li><p>Tools</p>
-<p>  <strong><code>^ ⇧ q</code> Terminal</strong><br>  <strong><code>^ ⇧ s</code> Test RESTful Web Service</strong></p>
-<p>  <strong><code>⌘ ^ h</code> Hide All Tool Windows</strong><br>  <strong><code>⌘ ⇧ ↑↓←→</code> Extend | Shrink Tool Window</strong></p>
+<p>  <code>⌘ ^ h</code> Hide All Tool Windows<br>  <em><code>^ ⇧ q</code> Terminal</em><br>  <em><code>^ ⌥ s</code> Test RESTful Web Service</em></p>
 </li>
+</ul>
+<!-- 
+    `⌘ ⇧ ↑↓←→` Extend | Shrink Tool Window
+-->
+<ul>
 <li><p>VCS: History &amp; Compare</p>
-<p>  <strong><code>⌥ ^ l</code> Local History -&gt; Show History</strong></p>
-  <!--__`⌥ ^ r` Git -> Resolve Conflicts__-->
-<p>  <strong><code>⌥ ^ a</code> Git -&gt; Annotate</strong><br>  <strong><code>⌥ ^ s</code> Git -&gt; Compare with the Same Repository Version</strong><br>  <strong><code>⌥ ^ b</code> Git -&gt; Compare with Branch …</strong><br>  <strong><code>⌥ ^ .</code> Git -&gt; Compare with …</strong></p>
+<p>  <code>^ ⌥ l</code> Local History -&gt; Show History<br>  <code>^ ⌥ a</code> Git -&gt; Annotate<br>  <code>^ ⌥ v</code> Git -&gt; Compare with the Same Repository Version</p>
+<p>  <em><code>^ ⌥ b</code> Git -&gt; Compare with Branch …</em><br>  <em><code>^ ⌥ .</code> Git -&gt; Compare with …</em><br>  <em><code>^ ⌥ c</code> Git -&gt; Resolve Conflicts</em></p>
 </li>
 </ul>
 <!--
@@ -3457,14 +3577,16 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
     - Code -> Inspect Code… 语法检查等
     - Code -> Locate Duplicates
 -->
-<h4 id="AceJump"><a href="#AceJump" class="headerlink" title="AceJump"></a><a href="https://plugins.jetbrains.com/plugin/7086" target="_blank" rel="external">AceJump</a></h4><p>It is a plugin for IDEs from <a href="https://www.jetbrains.com/" target="_blank" rel="external">JetBrains</a>.</p>
-<ul>
-<li>First, Simple hit <code>^ ;</code></li>
-<li>Then type a charactor</li>
-<li>At last, type the matching character to the specified place!</li>
-</ul>
-<h4 id="IdeaVim"><a href="#IdeaVim" class="headerlink" title="IdeaVim"></a><a href="https://plugins.jetbrains.com/plugin/164?pr=idea" target="_blank" rel="external">IdeaVim</a></h4><p>It is a plugin for IDEs from <a href="https://www.jetbrains.com/" target="_blank" rel="external">JetBrains</a>.</p>
-<p>Most keys are same as Vim , Just list my custom keys.</p>
+<!--
+#### [AceJump](https://plugins.jetbrains.com/plugin/7086)
+
+It is a plugin for IDEs from [JetBrains](https://www.jetbrains.com/).
+
+- First, Simple hit `^ ;`
+- Then type a character
+- At last, type the matching character to the specified place!
+-->
+<h4 id="IdeaVim"><a href="#IdeaVim" class="headerlink" title="IdeaVim"></a><a href="https://plugins.jetbrains.com/plugin/164?pr=idea" target="_blank" rel="external">IdeaVim</a></h4><p>It is the best Vim-Emulator plugin for IDEs from <a href="https://www.jetbrains.com/" target="_blank" rel="external">JetBrains</a>.<br>Its most keys are the same as Vim, so I just list my custom keys.</p>
 <ul>
 <li><p>Tab</p>
 <p>  <code>H</code> Prev Tab<br>  <code>L</code> Next Tab</p>
@@ -3473,126 +3595,236 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <p>  <code>^ ]</code> Find Declaration<br>  <code>^ t</code> Back from Declaration</p>
 </li>
 </ul>
-<h3 id="JetBrains"><a href="#JetBrains" class="headerlink" title="JetBrains"></a><a href="https://www.jetbrains.com/" target="_blank" rel="external">JetBrains</a></h3><p>The shortcuts in other IDEs from JetBrains are same as PhpStorm.</p>
-<p>Such as CLion, IntelliJ IDEA, RubyMine, PyCharm and so on.</p>
-<h2 id="System-Assistant"><a href="#System-Assistant" class="headerlink" title="System Assistant"></a>System Assistant</h2><h3 id="1Password"><a href="#1Password" class="headerlink" title="1Password"></a><a href="https://1password.com/" target="_blank" rel="external">1Password</a></h3><p><code>⌘ \</code> Fill Login on current web page<br><code>⌥ \</code> Show 1Password Mini<br><code>^ ⌥ ⇧ L</code> Lock 1Password</p>
-<p><code>⌘ e</code> Edit<br><code>⌘ s</code> Save</p>
-<h3 id="Amphetamine"><a href="#Amphetamine" class="headerlink" title="Amphetamine"></a><a href="https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12" target="_blank" rel="external">Amphetamine</a></h3><p><strong><code>⌥ F12</code> Mac Stays Awake</strong><br><strong><code>^ ⌥ F12</code> Allow Mac to Sleep</strong></p>
-<h3 id="Bartender-2"><a href="#Bartender-2" class="headerlink" title="Bartender 2"></a><a href="https://www.macbartender.com/" target="_blank" rel="external">Bartender 2</a></h3><p><strong><code>^ ⌥ ]</code> Show Bartender Bar</strong><br><strong><code>⌥ ]</code> Show All Status Icons in Menu Bar</strong></p>
-<h3 id="CheatSheet"><a href="#CheatSheet" class="headerlink" title="CheatSheet"></a><a href="https://www.mediaatelier.com/CheatSheet/" target="_blank" rel="external">CheatSheet</a></h3><p><code>Long Press ⌘</code> Activate</p>
-<h3 id="ClipMenu"><a href="#ClipMenu" class="headerlink" title="ClipMenu"></a><a href="http://www.clipmenu.com/" target="_blank" rel="external">ClipMenu</a></h3><p><code>⌥ v</code> History Menu<br><code>⌥ .</code> Main Menu</p>
-<h2 id="Development"><a href="#Development" class="headerlink" title="Development"></a>Development</h2><h3 id="Charles"><a href="#Charles" class="headerlink" title="Charles"></a><a href="https://www.charlesproxy.com/" target="_blank" rel="external">Charles</a></h3><ul>
-<li><p>Proxy</p>
-<p>  <code>⌘ r</code> Start | Stop Recording<br>  <strong><code>⌘ t</code> Start | Stop Throttling</strong><br>  <strong><code>⌘ k</code> Enable | Disable Breakpoints</strong></p>
-<p>  <strong><code>⌘ ⇧ t</code> Throttle Settings</strong><br>  <strong><code>⌘ ⇧ k</code> Breakpoint Settings</strong></p>
-<p>  <strong><code>⌘ ⇧ p</code> macOS Proxy</strong><br>  <strong><code>⌘ ⇧ f</code> Mozilla Firefox Proxy</strong></p>
+<h3 id="JetBrains"><a href="#JetBrains" class="headerlink" title="JetBrains"></a><a href="https://www.jetbrains.com/" target="_blank" rel="external">JetBrains</a></h3><p>The shortcuts in other IDEs from JetBrains are same as PhpStorm,<br>such as CLion , IntelliJ IDEA , RubyMine , PyCharm and so on.<br>All the shortcuts can be modified in <code>Preferences</code> → <code>Keymap</code>!</p>
+<h3 id="Sublime-Text"><a href="#Sublime-Text" class="headerlink" title="Sublime Text"></a><a href="https://www.sublimetext.com/" target="_blank" rel="external">Sublime Text</a></h3><ul>
+<li><p>Find &amp; Replace</p>
+<p>  <code>⌘ f</code> Find<br>  <code>⌥ ↩</code> Find All</p>
+<p>  <code>⌘ ⌥ f</code> Replace<br>  <code>⌘ ⌥ e</code> Replace one by one<br>  <code>^ ⌥ ↩</code> Replace All</p>
+<p>  <code>⌘ ⌥ r</code> Toggle Regular Expression<br>  <em><code>⌘ ⌥ r</code> Toggle Case Sensitive</em></p>
 </li>
-<li><p>Session</p>
-<p>  <code>⌘ ⌫</code> Clear</p>
-<p>  <code>⌘ o</code> Open<br>  <code>⌘ n</code> New<br>  <code>⌘ s</code> Save<br>  <code>⌘ ⇧ s</code> Save As</p>
-<p>  <code>⌘ l</code> Error Log</p>
-</li>
-<li><p>View</p>
-<p>  <strong><code>⌘ 0</code> Sequence</strong><br>  <strong><code>⌘ 9</code> Structure</strong></p>
-<p>  <strong><code>⌘ 1</code> Overview</strong><br>  <strong><code>⌘ 2</code> Request</strong><br>  <strong><code>⌘ 3</code> Response</strong></p>
-<p>  <em><code>⌘ 4</code> Summary</em><br>  <em><code>⌘ 5</code> Chart</em><br>  <em><code>⌘ 6</code> Note</em></p>
-<p>  <strong><code>⌘ ⇧ H</code> Focused Hosts</strong><br>  <strong><code>⌘ ⇧ V</code> Viewer Mappings</strong></p>
-</li>
-<li><p>Tools</p>
-<p>  <strong><code>⌘ ⌥ d</code> No Caching</strong><br>  <strong><code>⌘ ⌥ c</code> Block Cookies</strong></p>
-<p>  <strong><code>⌘ ⌥ m</code> Map Remote</strong><br>  <strong><code>⌘ ⌥ l</code> Map Local</strong></p>
-<p>  <strong><code>⌘ ⌥ r</code> Rewrite</strong><br>  <strong><code>⌘ ⌥ b</code> Black List</strong><br>  <strong><code>⌘ ⌥ w</code> White List</strong><br>  <code>⌘ ⇧ D</code> DNS Spoofing Settings <sup><em>custom</em></sup></p>
-<p>  <code>⌘ ⌥ i</code> Mirror<br>  <code>⌘ ⌥ a</code> Rewrite</p>
-<p>  <strong><code>⌘ m</code> Compose ( Edit )</strong><br>  <strong><code>⌘ ⇧ M</code> Compose New</strong><br>  <strong><code>⌘ ⇧ R</code> Repeat</strong></p>
+<li><p>Selection</p>
+<p>  <code>⌘ d</code> Expand Selection to Word<br>  <code>^ ⇧ M</code> Expand Selection to Brackets</p>
 </li>
 </ul>
-<h3 id="Dash"><a href="#Dash" class="headerlink" title="Dash"></a><a href="https://kapeli.com/dash" target="_blank" rel="external">Dash</a></h3><!--- Search-->
-<!--__`^ ⌥  f` Global Search in Dash__-->
-<!--`^ ⌥  v` Search in Dash using the selected text-->
+<!-- _`^ l` Scroll to the Selection_ -->
 <ul>
-<li><p>View</p>
-<p>  <strong><code>⌘ ⇧ B</code> Open Online Page</strong><br>  <code>⌘ b</code> Open Local Page</p>
-</li>
-<li><p>Snippets</p>
-<p>  <code>⌘ n</code> New<br>  <code>⌘ ⇧ U</code> New from Clipboard</p>
-</li>
-</ul>
-<h3 id="iTerm2"><a href="#iTerm2" class="headerlink" title="iTerm2"></a><a href="https://www.iterm2.com/" target="_blank" rel="external">iTerm2</a></h3><p>Due to the help from <code>tmux</code> and <code>Zsh</code>, I don’t need much support from <code>iTerm</code> as follows.</p>
-<ul>
-<li><p>Edit</p>
-<p>  <em><code>⌘ ;</code> Autocomplete</em><br>  <em><code>⌘ ⇧ h</code> Paste History</em><br>  <em><code>⌘ ⌥ /</code> Recent Directories</em></p>
-</li>
-<li><p>Tab</p>
-<p>  <code>⌘ Num</code> Switch Tab</p>
-</li>
-<li><p>Pane</p>
-<p>  <strong><code>⌘ d</code> Split Vertically</strong><br>  <strong><code>⌘ ⇧ d</code> Split Horizontally</strong></p>
-<p>  <code>⌘ [</code> Prev Pane<br>  <code>⌘ ]</code> Next Pane</p>
-</li>
-<li><p>Others</p>
-<p>  <code>⌘ /</code> Find Cursor</p>
-</li>
-</ul>
-<h4 id="tmux"><a href="#tmux" class="headerlink" title="tmux"></a><a href="https://tmux.github.io/" target="_blank" rel="external">tmux</a></h4><p><code>^ q</code> Prefix Key (aka <code>Pf</code>)</p>
-<ul>
-<li><p>After inputing Prefix Key <code>Pf</code> , then input:</p>
-<ul>
-<li><p>Help</p>
-<p><strong><code>Pf ⇧ /</code> List Keys</strong></p>
-</li>
-<li><p>Client (Session)</p>
-<p><strong><code>Pf (</code> Prev Client</strong><br><strong><code>Pf )</code> Next Client</strong></p>
-<!--__`Pf z` Kill Client__-->
-<p><code>Pf d</code> Detach Client<br><em><code>Pf $</code> Rename Session</em></p>
-</li>
-<li><p>Window</p>
-<p><code>Pf c</code> New Window<br><strong><code>Pf &amp;</code> Kill Window</strong></p>
-<p><code>Pf w</code> Choose Window<br><strong><code>Pf p</code> Prev Window</strong><br><strong><code>Pf n</code> Next Window</strong></p>
+<li><p>Bookmarks</p>
+<p>  <code>⌘ F2</code> Toggle Bookmark<br>  <code>F2</code> Next Bookmark<br>  <code>⇧ F2</code> Prev Bookmark<br>  <code>⌘ ⇧ F2</code> Clear All Bookmarks</p>
 </li>
 <li><p>Layout</p>
-<p><code>Pf \</code> Split Window Horizontally<br><code>Pf -</code> Split Window Vertically</p>
-<p><code>Pf 凵</code> Another Layout<br><code>Pf ^ o</code> Rotate Window</p>
-<p><strong><code>Pf {</code> Swap Pane Up</strong><br><strong><code>Pf }</code> Swap Pane Dn</strong></p>
+<p>  <code>⌘ ⌥ 1~4</code> 1~4 Columns<br>  <em><code>⌘ ⌥ 5</code> Grid</em><br>  <em><code>⌘ ⌥ ⇧ 2~3</code> 2~3 Rows</em></p>
+</li>
+</ul>
+<!--
+- Others
+
+    _`F6` Spell Check_
+-->
+<h3 id="Charles"><a href="#Charles" class="headerlink" title="Charles"></a><a href="https://www.charlesproxy.com/" target="_blank" rel="external">Charles</a></h3><ul>
+<li><p>Proxy</p>
+<p>  <code>⌘ r</code> [ Start | Stop ] Recording</p>
+</li>
+</ul>
+<!--
+    _`⌘ t` Start | Stop Throttling_
+    _`⌘ k` Enable | Disable Breakpoints_
+
+    _`⌘ ⇧ t` Throttle Settings_
+    _`⌘ ⇧ k` Breakpoint Settings_
+
+    _`⌘ ⇧ p` macOS Proxy_
+    _`⌘ ⇧ f` Mozilla Firefox Proxy_
+-->
 <ul>
-<li><p>Resize</p>
-<p><code>Pf ^ h</code> Resize Pane Lf<br><code>Pf ^ j</code> Resize Pane Dn<br><code>Pf ^ k</code> Resize Pane Up<br><code>Pf ^ l</code> Resize Pane Rg</p>
+<li><p>Session</p>
+<p>  <code>⌘ ⌫</code> Clear</p>
+<p>  <em><code>⌘ o</code> Open</em><br>  <em><code>⌘ n</code> New</em><br>  <em><code>⌘ s</code> Save Request</em><br>  <em><code>⌘ ⇧ s</code> Save As …</em></p>
 </li>
 </ul>
-</li>
-<li><p>Pane</p>
-<p><code>Pf x</code> Kill Pane</p>
-<p><code>Pf h</code> Select Lf Pane<br><code>Pf j</code> Select Dn Pane<br><code>Pf k</code> Select Up Pane<br><code>Pf l</code> Select Rg Pane</p>
-<p><code>Pf ↑</code> Maximize Current Pane in New Window<br><code>Pf ↓</code> Put Current Pane back to its Parent Window</p>
-</li>
-<li><p>Copy Mode</p>
-<p><code>Pf [</code> Use Vim-like keys to copy string at Copy Mode<br><code>Pf ]</code> Paste buffer</p>
-</li>
-<li><p>Config</p>
-<p><code>Pf r</code> Reload ~/.tmux.conf</p>
-</li>
-</ul>
-</li>
-</ul>
-<p><em>Others are default as same as the description in the <a href="http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/tmux.1?query=tmux&amp;sec=1" target="_blank" rel="external">Official Docs</a></em></p>
-<h4 id="Vim"><a href="#Vim" class="headerlink" title="Vim"></a><a href="http://www.vim.org/" target="_blank" rel="external">Vim</a></h4><p>Only List the Useful Keys that I’m unfamiliar with.</p>
+<!-- `⌘ l` Error Log -->
 <ul>
-<li><p>I use the Vim Distribution <a href="http://vim.spf13.com/" target="_blank" rel="external">spf13-vim</a></p>
+<li><p>View</p>
+<p>  <code>⌘ 1</code> Overview<br>  <code>⌘ 2</code> Request<br>  <code>⌘ 3</code> Response</p>
+<p>  <em><code>⌘ 0</code> Sequence</em><br>  <em><code>⌘ 9</code> Structure</em></p>
 </li>
+</ul>
+<!--
+    _`⌘ 4` Summary_
+    _`⌘ 5` Chart_
+    _`⌘ 6` Note_
+
+    _`⌘ ⇧ H` Focused Hosts_
+    _`⌘ ⇧ V` Viewer Mappings_
+-->
+<ul>
+<li><p>Tools</p>
+<p>  <code>⌘ ⇧ R</code> Repeat</p>
+<p>  <code>⌘ ⇧ D</code> DNS Spoofing Settings <sup><em>custom</em></sup><br>  <code>⌘ ⌥ m</code> Map Remote</p>
+</li>
+</ul>
+<!--
+    _`⌘ ⌥ l` Map Local_
+
+    _`⌘ ⌥ d` No Caching_
+    _`⌘ ⌥ c` Block Cookies_
+
+    _`⌘ ⌥ r` Rewrite_
+    _`⌘ ⌥ b` Black List_
+    _`⌘ ⌥ w` White List_
+
+    _`⌘ ⌥ i` Mirror_
+    _`⌘ ⌥ a` Rewrite_
+
+    _`⌘ m` Compose ( Edit )_
+    _`⌘ ⇧ M` Compose New_
+-->
+<!--
+### [Dash](https://kapeli.com/dash)
+
+- Search
+
+`^ ⌥  f` Global Search in Dash
+`^ ⌥  v` Search in Dash using the selected text
+
+- View
+
+    `⌘ ⇧ B` Open Online Page
+    _`⌘ b` Open Local Page_
+
+- Snippets
+
+    `⌘ n` New
+    `⌘ ⇧ U` New from Clipboard
+-->
+<h3 id="Script-Editor"><a href="#Script-Editor" class="headerlink" title="Script Editor"></a>Script Editor</h3><p><code>⌘ ⇧ O</code> Open Dictionary<br><code>⌘ r</code> Run the script<br><code>⌘ .</code> Stop the script</p>
+<h2 id="CLI"><a href="#CLI" class="headerlink" title="CLI"></a>CLI</h2><!--
+### [iTerm2](https://www.iterm2.com/)
+
+Due to the help from `tmux` and `Zsh`, I don't need much support from `iTerm` as follows.
+
+- Edit
+
+    _`⌘ ;` Autocomplete_
+    _`⌘ ⇧ h` Paste History_
+    _`⌘ ⌥ /` Recent Directories_
+
+- Tab
+
+    `⌘ 0~9` Switch Tab
+
+- Pane
+
+    _`⌘ d` Split Vertically_
+    _`⌘ ⇧ d` Split Horizontally_
+
+    _`⌘ [` Prev Pane_
+    _`⌘ ]` Next Pane_
+
+- Others
+
+    `⌘ /` Find Cursor
+-->
+<h3 id="tmux"><a href="#tmux" class="headerlink" title="tmux"></a><a href="https://tmux.github.io/" target="_blank" rel="external">tmux</a></h3><p><code>^ q</code> Prefix Key ( aka <code>Pf</code> )<br>The description <code>Pf, *</code> implies that tap <code>Pf</code> at first and then tap the key <code>*</code>.</p>
+<p><code>Pf, ⇧ ?</code> List Keys</p>
+<p><code>Pf, d</code> Detach Client</p>
+<p><code>Pf, c</code> New Window</p>
+<p><code>Pf, \</code> Split Window Horizontally<br><code>Pf, -</code> Split Window Vertically</p>
+<p><code>Pf, ^ y</code> Resize Pane Lf<br><code>Pf, ^ u</code> Resize Pane Dn<br><code>Pf, ^ i</code> Resize Pane Up<br><code>Pf, ^ o</code> Resize Pane Rg</p>
+<p><code>Pf, h</code> Select Lf Pane<br><code>Pf, j</code> Select Dn Pane<br><code>Pf, k</code> Select Up Pane<br><code>Pf, l</code> Select Rg Pane</p>
+<p><code>Pf, ↑</code> Maximize Current Pane in New Window<br><code>Pf, ↓</code> Put Current Pane back to its Parent Window</p>
+<p><code>Pf, [</code> Use Vim-like keys to copy str at Copy Mode</p>
+<!--
+    - Help
+
+        `Pf ⇧ ?` List Keys
+
+    - Client (Session)
+
+        `Pf d` Detach Client
+
+        _`Pf (` Prev Client_
+        _`Pf )` Next Client_
+
+        _`Pf z` Kill Client_
+        _`Pf $` Rename Session_
+
+    - Window
+
+        `Pf c` New Window
+
+        _`Pf w` Choose Window_
+        _`Pf p` Prev Window_
+        _`Pf n` Next Window_
+        _`Pf &` Kill Window_
+
+    - Layout
+
+        `Pf \` Split Window Horizontally
+        `Pf -` Split Window Vertically
+
+        _`Pf 凵` Another Layout_
+        _`Pf ^ o` Rotate Window_
+        _`Pf {` Swap Pane Up_
+        _`Pf }` Swap Pane Dn_
+
+        - Resize
+
+            `Pf ^ y` Resize Pane Lf
+            `Pf ^ u` Resize Pane Dn
+            `Pf ^ i` Resize Pane Up
+            `Pf ^ o` Resize Pane Rg
+
+    - Pane
+
+        `Pf x` Kill Pane
+
+        `Pf h` Select Lf Pane
+        `Pf j` Select Dn Pane
+        `Pf k` Select Up Pane
+        `Pf l` Select Rg Pane
+
+        `Pf ↑` Maximize Current Pane in New Window
+        `Pf ↓` Put Current Pane back to its Parent Window
+
+    - Copy Mode
+
+        `Pf [` Use Vim-like keys to copy string at Copy Mode
+
+        _`Pf ]` Paste buffer_
+
+    - Config
+
+        `Pf r` Reload ~/.tmux.conf
+-->
+<ul>
+<li>More details in <a href="http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/tmux.1?query=tmux&amp;sec=1" target="_blank" rel="external"><strong>Official Docs</strong></a>.</li>
+</ul>
+<h3 id="Vim"><a href="#Vim" class="headerlink" title="Vim"></a><a href="http://www.vim.org/" target="_blank" rel="external">Vim</a></h3><p>Only list the useful keys that I’m unfamiliar with here.</p>
+<ul>
 <li><p>Mv Cursor</p>
-<p>  <code>^ o</code> Prev Cursor Pos<br>  <code>^ i</code> Next Cursor Pos</p>
-<p>  <code>{</code> Prev Blank Line<br>  <code>}</code> Next Blank Line</p>
-<p>  <strong><code>ge</code> Goto Last Char of Prev Word</strong></p>
-<p>  <code>&quot;</code> Switch to some Register<br>  <strong><code>-</code> Head of Prev Line</strong><br>  <strong><code>⇧ +</code> Head of Next Line</strong></p>
+<p>  <em><code>^ o</code> | <code>^ i</code> [ Prev | Next ] Cursor Pos</em><br>  <code>{</code> | <code>}</code> [ Prev | Next ] Blank Line</p>
+<p>  <code>w</code> | <code>⇧ W</code> Head of Next [ Word / Str ]<br>  <code>e</code> | <code>⇧ E</code> Tail of Next [ Word / Str ]</p>
+<p>  <code>b</code> | <code>⇧ B</code> Head of Prev [ Word / Str ]<br>  <code>ge</code> | <code>gE</code> Tail of Prev [ Word / Str ]</p>
+<p>  <code>;</code> Repeat the last manipulation about <code>f</code> <code>t</code> <code>⇧ F</code> <code>⇧ T</code><br>  <code>0</code> Head of Line<br>  <code>^</code> = <code>⇧ 6</code> Head of Line ( Non-Whitespace )<br>  <code>$</code> = <code>⇧ 4</code> End of Line</p>
 </li>
-<li><p><a href="https://github.com/easymotion/vim-easymotion" target="_blank" rel="external">EasyMotion</a></p>
-<p>  It’s a Vim plugin. <a href="http://vim.spf13.com/" target="_blank" rel="external">spf13-vim</a> makes it easier to use:</p>
-<ol>
-<li>In normal mode <code>,</code>, <code>,</code> ( Twice ) then input a cursor motion instruction,<br> such as <code>w</code>, <code>e</code>, <code>b</code>, <code>f*</code>, <code>F*</code>, <code>t*</code>, <code>T*</code> or etc.</li>
-<li>The screen will display some keycues.</li>
-<li>If you input one of the keycues, then your cursor will get to the specified place.</li>
-</ol>
-</li>
-<li><p>Selcet Range</p>
+</ul>
+<!--
+    `"` Switch to some Register
+    _`-` Head of Prev Line_
+    _`⇧ +` Head of Next Line_
+-->
+<!--
+- [EasyMotion](https://github.com/easymotion/vim-easymotion)
+
+    It's a Vim plugin. [spf13-vim](http://vim.spf13.com/) makes it easier to use:
+
+    1. In normal mode `,`, `,` ( Twice ) then input a cursor motion instruction,
+        such as `w`, `e`, `b`, `f*`, `F*`, `t*`, `T*` or etc.
+    2. The screen will display some keycues.
+    3. If you input one of the keycues, then your cursor will get to the specified place.
+-->
+<ul>
+<li><p>Select Range</p>
 <p>  <code>ciw</code> Del Word<br>  <code>caw</code> Del Word including the Following Spaces 凵</p>
 <p>  <code>dw</code> Del until Head of Next Word<br>  <code>de</code> Del to End of Cur Word</p>
 <p>  <code>ci*</code> Select &amp; Manipulate the string surrounded by <code>*</code>.<br>  <code>ca*</code> Select &amp; Manipulate the string surrounded by <code>*</code> including <code>*</code>.</p>
@@ -3605,6 +3837,8 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <li><code>⎋</code>, <code>⎋</code> ( Twice ) to apply the insertion at each line heading of the selected block area</li>
 </ol>
 </li>
+</ul>
+<ul>
 <li><p>Search &amp; Replace</p>
 <ul>
 <li><code>:%s/search_str/replace_str/gci</code><ul>
@@ -3640,48 +3874,63 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <li>Change each ‘foo’ to ‘bar’ in <strong>each line starting with ‘baz’</strong></li>
 </ul>
 </li>
-<li>Ref: <a href="http://vim.wikia.com/wiki/Search_and_replace" target="_blank" rel="external">Search and replace</a> , <a href="http://xstarcd.github.io/wiki/vim/vim_replace_encodeing.html" target="_blank" rel="external">Vim 字符串替换及小技巧</a></li>
+<li>Ref : <a href="http://vim.wikia.com/wiki/Search_and_replace" target="_blank" rel="external"><strong>Search and replace</strong></a> &amp; <a href="http://xstarcd.github.io/wiki/vim/vim_replace_encodeing.html" target="_blank" rel="external"><strong>Vim 字符串替换及小技巧</strong></a></li>
 </ul>
+</li>
+<li><p>Command</p>
+<p>  <code>.</code> Repeat Command</p>
 </li>
 <li><p>Cp</p>
 <p>  <code>⇧ Y</code> Copy from the cursor to the end of line</p>
 </li>
 <li><p>Del</p>
-<p>  <code>x</code> Del Char Forward ⌦<br>  <strong><code>⇧ X</code> Del Char Backward ⌫</strong></p>
+<p>  <code>x</code> Del Char Forward ⌦<br>  <em><code>⇧ X</code> Del Char Backward ⌫</em></p>
 <p>  <code>s</code> Del Char Forward &amp; then Insert<br>  <code>⇧ S</code> Del Current Line &amp; then Insert<br>  <code>⇧ C</code> Del to End of Line &amp; then Insert<br>  <code>⇧ D</code> Del to End of Line</p>
 </li>
 <li><p>Exchange</p>
 <p>  <code>xp</code> Exchange the Current Char and the Next Char<br>  <code>ddp</code> Exchange the Current Line and the Next Line</p>
 </li>
 <li><p>Lower or Upper Case</p>
-<p>  <code>u</code> to Lowercase<br>  <code>⇧ U</code> to Uppercase</p>
+<p>  <code>⇧ ~</code> Toggle Case &amp; Mv Cursor to Next char<br>  <code>u</code> to Lowercase<br>  <code>⇧ U</code> to Uppercase</p>
 </li>
-<li><p>Increase or Decrese Num</p>
+<li><p>Increase or Decrease Num</p>
 <p>  <code>^ a</code> Increase Num<br>  <code>^ x</code> Decrease Num</p>
 </li>
-<li><p>Check Encoding Value</p>
-<p>  <strong><code>ga</code> Show ASCII of Char</strong><br>  <strong><code>g8</code> Goto UTF-8 of Char</strong></p>
+<li><p>Macro</p>
+<p>  <code>q a~z|A~Z</code> Start Recording Macro marked as <code>a~z|A~Z</code><br>  <code>q</code> Stop Recording<br>  <code>@ a~z|A~Z</code> Play Macro marked as <code>a~z|A~Z</code><br>  <code>@@</code> Repeat Macro that you last used</p>
 </li>
-<li><p>Open Path</p>
-<p>  <strong><code>gf</code> Open Path where Cursor is</strong></p>
-</li>
+</ul>
+<!--
+- Check Encoding Value
+
+    __`ga` Show ASCII of Char__
+    __`g8` Goto UTF-8 of Char__
+
+- Open Path
+
+    __`gf` Open Path where Cursor is__
+-->
+<ul>
 <li><p>Save &amp; Quit</p>
 <p>  <code>⇧ ZZ</code> Save &amp; Quit<br>  <code>⇧ ZQ</code> Quit without Saving</p>
 </li>
-<li><p>CTags</p>
+<li><p>CTags ( plugin )</p>
 <p>  <code>^ ]</code> Find Declaration<br>  <code>^ t</code> Back from Declaration</p>
 </li>
-<li><p><em>Others are default as same as the description in the <a href="http://www.vim.org/docs.php" target="_blank" rel="external">Official Summary</a></em></p>
+<li><p>I used to use the Vim Distribution <a href="http://vim.spf13.com/" target="_blank" rel="external"><del>spf13-vim</del></a>.</p>
 </li>
-<li><p>TODO: Maybe oneday I will write another article for Vim and will move the content about Vim above to it._</p>
-</li>
+<li><a href="http://coolshell.cn//wp-content/uploads/2011/09/vim_cheat_sheet_for_programmers_print.png" target="_blank" rel="external">Vim Cheat Sheet</a> - Image</li>
+<li>More details in <a href="http://www.vim.org/docs.php" target="_blank" rel="external"><strong>Official Docs</strong></a>.</li>
+<li>TODO: I will write another article for Vim and will move the content above about Vim to it._</li>
 </ul>
-<h4 id="Zsh"><a href="#Zsh" class="headerlink" title="Zsh"></a><a href="http://zsh.sourceforge.net/" target="_blank" rel="external">Zsh</a></h4><p><code>^ v</code> Edit Command Line in Vim</p>
+<h3 id="Zsh"><a href="#Zsh" class="headerlink" title="Zsh"></a><a href="http://zsh.sourceforge.net/" target="_blank" rel="external">Zsh</a></h3><p><code>^ v</code> Edit Command Line in Vim</p>
 <ul>
 <li><p>Emacs Mode</p>
-<p>  <code>^ f</code> Mv Cursor Rg<br>  <code>^ b</code> Mv Cursor Lf<br>  <code>^ a</code> Mv Cursor to Head of Line<br>  <code>^ e</code> Mv Cursor to End of Line</p>
-<p>  <code>^ d</code> Del Forward ⌦<br>  <code>^ h</code> Del Backward ⌫</p>
+<p>  <code>^ a</code> Mv Cursor to Head of Line<br>  <code>^ e</code> Mv Cursor to End of Line</p>
 <p>  <code>^ w</code> Del Word<br>  <code>^ k</code> Del to End of Line<br>  <code>^ u</code> Del Line</p>
+<p>  <em><code>^ p</code> = <code>↑</code> Prev | Up</em><br>  <em><code>^ n</code> = <code>↓</code> Next | Dn</em></p>
+<p>  <em><code>^ f</code> Mv Cursor Rg</em> ( I use <code>Fn l</code> instead. )<br>  <em><code>^ b</code> Mv Cursor Lf</em> ( I use <code>Fn h</code> instead. )</p>
+<p>  <em><code>^ h</code> Del Backward ⌫</em> ( I used to use <code>⌫</code>. )<br>  <em><code>^ d</code> Del Forward ⌦</em> ( seldom used )</p>
 </li>
 <li><p>Aliases</p>
 <ul>
@@ -3692,113 +3941,167 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <li><a href="https://github.com/IceHe/oh-my-zsh/blob/master/plugins/vi-mode/vi-mode.plugin.zsh" target="_blank" rel="external">vi-mode</a></li>
 </ul>
 </li>
-<li><p><a href="http://ohmyz.sh/" target="_blank" rel="external"><strong>oh-my-zsh</strong></a> &nbsp;&amp;&nbsp;  <a href="https://github.com/IceHe/oh-my-zsh" target="_blank" rel="external">my fork</a></p>
-</li>
-<li><p><a href="http://zsh.sourceforge.net/Doc/" target="_blank" rel="external"><strong>Docs</strong></a></p>
-</li>
+</ul>
+<ul>
+<li><a href="http://ohmyz.sh/" target="_blank" rel="external"><strong>oh-my-zsh</strong></a> &nbsp;&amp;&nbsp; <a href="https://github.com/IceHe/oh-my-zsh" target="_blank" rel="external">my fork</a></li>
+<li>More details in <a href="http://zsh.sourceforge.net/Doc/" target="_blank" rel="external"><strong>Official Docs</strong></a>.</li>
 </ul>
 <h2 id="Other-Tools"><a href="#Other-Tools" class="headerlink" title="Other Tools"></a>Other Tools</h2><h3 id="2Do"><a href="#2Do" class="headerlink" title="2Do"></a><a href="https://www.2doapp.com/" target="_blank" rel="external">2Do</a></h3><p>I don’t want to list all its shortcuts, as there are so many…</p>
 <p><code>⌘ s</code> Sync</p>
 <ul>
 <li><p>View</p>
-<p>  <code>⌘ 0</code> Inbox<br>  <code>⌘ 1</code> All<br>  <code>⌘ 2</code> Today<br>  <code>⌘ 3</code> Starred<br>  <code>⌘ 4</code> Scheduled<br>  <code>⌘ 5</code> Done</p>
-<p>  <code>⌘ ↑</code> Prev List<br>  <code>⌘ ↓</code> Next List<br>  <code>⌘ ⌥ ↑|↓</code> Collapse | Expand All Projects<br>  <code>⌘ ⇧ ↑|↓</code> Collapse | Expand All List Groups</p>
+<p>  <code>⌘ 0</code> Inbox<br>  <em><code>⌘ 1</code> All</em><br>  <code>⌘ 2</code> Today<br>  <em><code>⌘ 3</code> Starred</em><br>  <em><code>⌘ 4</code> Scheduled</em><br>  <em><code>⌘ 5</code> Done</em></p>
+<p>  <em><code>⌘ ↑</code> Prev List</em><br>  <em><code>⌘ ↓</code> Next List</em><br>  <em><code>⌘ ⌥ ↑|↓</code> [ Collapse | Expand ] All Projects</em><br>  <em><code>⌘ ⇧ ↑|↓</code> [ Collapse | Expand ] All List Groups</em></p>
 </li>
 <li><p>Edit</p>
 <p>  <code>0 ~ 3</code> Priority : None | Low | Medium | High<br>  <code>s</code> Star<br>  <code>^ s</code> Unstar</p>
-<p>  <code>l</code> Tag<br>  <code>d</code> Due Date<br>  <code>e</code> Due Time<br>  <code>k</code> Schedule ( Start Date )</p>
+<p>  <code>d</code> Due Date<br>  <code>e</code> Due Time<br>  <code>k</code> Schedule ( Start Date )</p>
 <p>  <code>t</code> Start Today<br>  <code>^ t</code> Due Today<br>  <code>y</code> Start Yesterday</p>
-<p>  <code>⌘ /</code> Dates<br>  <code>⌘ e</code> Notes<br>  <code>⌘ r</code> Tags</p>
-<p>  <code>^ ⌥ ⌘ 1</code> Convert to a Task<br>  <code>^ ⌥ ⌘ 2</code> Convert to a Project<br>  <code>^ ⌥ ⌘ 3</code> Convert to a Checklist</p>
-<p>  <code>⌘ l</code> Move to another list<br>  <code>⌘ ;</code> Recurrence ( aka Repeat )<br>  <code>⌘ &#39;</code> Alerts</p>
-<p>  <code>⌘ .</code> Mark as Completed<br>  <code>⌥ ⌘ .</code> Mark as Not Completed</p>
-<p>  <code>^ ⌘ ↑|↓</code> Move Up | Down</p>
+<p>  <code>⌘ /</code> Dates<br>  <code>⌘ e</code> Notes</p>
+<p>  <code>⌘ ^ ⇧ 1</code> Convert to a Task<br>  <code>⌘ ^ ⇧ 2</code> Convert to a Project<br>  <code>⌘ ^ ⇧ 3</code> Convert to a Checklist</p>
+<p>  <code>⌘ l</code> Move to another list</p>
 </li>
 </ul>
-<h3 id="Dictionary"><a href="#Dictionary" class="headerlink" title="Dictionary"></a>Dictionary</h3><p><code>⌘ ⇧ D</code> Look Up in Dictionary<br><code>⌘ Num</code> Switch Dictionary</p>
-<h3 id="EuDict-Free"><a href="#EuDict-Free" class="headerlink" title="EuDict Free"></a><a href="https://www.eudic.net/eudic/mac_dictionary.aspx" target="_blank" rel="external">EuDict Free</a></h3><p><code>⌥ 凵</code> Light Peek<br><strong><code>⌘ ⇧ M</code> Look up Word that Mouse Cursor Hovers</strong><br><strong><code>⌘ ⇧ L</code> Look up Selection</strong><br><strong><code>⌘ ⇧ 2</code> Translate Selection</strong></p>
+<!-- 
+    `l` Tag
+    `⌘ r` Tags
+
+    `⌘ ;` Recurrence ( aka Repeat )
+    `⌘ '` Alerts
+
+    `⌘ .` Mark as Completed
+    `⌥ ⌘ .` Mark as Not Completed
+
+    `^ ⌘ ↑|↓` Move Up | Down
+-->
+<!--
+### Dictionary
+
+`⌘ ⇧ D` Look Up in Dictionary
+`⌘ 0~9` Switch Dictionary
+-->
+<!--
+### [EuDict Free](https://www.eudic.net/eudic/mac_dictionary.aspx)
+
+`⌥ 凵` Light Peek
+__`⌘ ⇧ M` Look up Word that Mouse Cursor Hovers__
+__`⌘ ⇧ L` Look up Selection__
+__`⌘ ⇧ 2` Translate Selection__
+-->
 <h3 id="Evernote"><a href="#Evernote" class="headerlink" title="Evernote"></a><a href="https://www.yinxiang.com/download/?offer=www_menu" target="_blank" rel="external">Evernote</a></h3><ul>
 <li><p>Note</p>
 <p>  <code>⌘ ^ s</code> Sync</p>
-<p>  <code>⌘ j</code> Search in Notes &amp; Switch to a Note or Notebook</p>
-<p>  <strong><code>⌥ [</code> Paste to Evernote</strong> <sup><em>custom</em></sup><br>  <strong><code>⌥ &#39;</code> Quick Note</strong> <sup><em>custom</em></sup><br>  <strong><code>⌥ /</code> Search in Evernote</strong> <sup><em>custom</em></sup></p>
-<p>  <code>⌘ l</code> Edit Note Title<br>  <strong><code>⌘ ^ m</code> Mv Note to the select Notebook</strong><br>  <strong><code>⌘ ⇧ I</code> Get Note Info</strong></p>
-<p>  <code>⌘ +</code> Zoom In<br>  <code>⌘ -</code> Zoom Out</p>
 </li>
+</ul>
+<!--
+    `⌘ l` Edit Note Title
+    _`⌘ ^ m` Mv Note to the select Notebook_
+    _`⌘ ⇧ I` Get Note Info_
+
+    `⌘ +` Zoom In
+    `⌘ -` Zoom Out
+-->
+<ul>
 <li><p>Edit</p>
-<p>  <code>⌘ ⇧ H</code> Insert Horizontal Rule<br>  <code>⌘ ⇧ T</code> Insert To-Do<br>  <em><code>⌘ ⇧ D</code> Insert Date</em><br>  <em><code>⌘ ⇧ ⌥ D</code> Insert Time</em><br>  <em><code>⌘ ⇧ L</code> Insert Table</em></p>
+<p>  <code>⌘ ⇧ H</code> Insert Horizontal Rule<br>  <code>⌘ ⇧ T</code> Insert To-Do</p>
 <ul>
 <li><p>After Selection, then input:</p>
-<p><code>⇥</code> Increase Indent<br><code>⇧ ⇥</code> Decrease Indent</p>
-<p><strong><code>⌘ k</code> Add Link</strong><br><strong><code>⌘ ⇧ K</code> Rm Link</strong><br><code>⌘ ⇧ F</code> Simplify ( Rm ) Formatting<br><code>⌘ ⇧ V</code> Copy and Match Style</p>
-<p><strong><code>⌘ ⇧ O</code> Toggle Numbered List ( Ordered )</strong><br><strong><code>⌘ ⇧ U</code> Toggle Bulleted List ( Unordered )</strong></p>
-<p><code>⌘ ^ k</code> Strikethrough<br><em><code>⌘ ^ -</code> Subscript</em><br><em><code>⌘ ^ h</code> Highlight</em></p>
+<p>  <code>⇥</code> Increase Indent<br>  <code>⇧ ⇥</code> Decrease Indent</p>
+<p>  <code>⌘ ^ c</code> Code Block<br>  <em><code>⌘ ^ k</code> Strikethrough</em></p>
+<p>  <em><code>⌘ k</code> Add Link</em><br>  <em><code>⌘ ⇧ K</code> Rm Link</em><br>  <em><code>⌘ ⇧ F</code> Simplify ( Rm ) Formatting</em><br>  <em><code>⌘ ⇧ V</code> Copy and Match Style</em></p>
+<p>  <em><code>⌘ ⇧ O</code> Toggle Numbered List ( Ordered )</em><br>  <em><code>⌘ ⇧ U</code> Toggle Bulleted List ( Unordered )</em></p>
 </li>
 </ul>
 </li>
+</ul>
+<!--
+    _`⌘ ⇧ D` Insert Date_
+    _`⌘ ⇧ ⌥ D` Insert Time_
+    _`⌘ ⇧ L` Insert Table_
+
+    _`⌘ ^ -` Subscript_
+    _`⌘ ^ h` Highlight_
+-->
+<ul>
 <li><p>Input</p>
-<p>  <code>*</code>, <code>凵</code> - Bulleted List<br>  <code>1.</code>, <code>凵</code> - Numbered List</p>
+<p>  <code>*</code>, <code>凵</code> → Bulleted List<br>  <code>1.</code>, <code>凵</code> → Numbered List</p>
 <p>  In a new line, input <code>-</code> 3 times, <code>↩</code>-  insert Horizontal Rule<br>  In a new line, input <code>`</code> 3 times, <code>↩</code> - insert Code Quote</p>
 </li>
 </ul>
 <h4 id="Web-Clipper"><a href="#Web-Clipper" class="headerlink" title="Web Clipper"></a><a href="https://evernote.com/intl/zh-cn/webclipper/" target="_blank" rel="external">Web Clipper</a></h4><ul>
 <li><p>Activate</p>
-<p>  <code>凵 `</code> = <code>^ `</code>  Open Clip Mode<br>  <strong><code>^ ⇧ `</code> Open Simply Clip Mode</strong><br>  <code>⎋</code> Exit</p>
-<ul>
-<li><p>After <code>^ `</code> or <code>^ ⇧ `</code> , then input:</p>
-<p><strong><code>⇧ A</code> All Main Text</strong><br><strong><code>⇧ C</code> Main Text without Advertisement</strong><br><strong><code>⇧ F</code> Full Web Page</strong><br><code>⇧ B</code> Clip as a Bookmark<br><strong><code>⇧ M</code> Capture</strong></p>
-<p><code>↑</code> Extend Selection<br><code>↓</code> Shrink Selection<br><code>↩</code> Save</p>
+<p>  <code>^ `</code> Open Clip Mode<br>  <code>⎋</code> Exit</p>
 </li>
-</ul>
+<li><p>After activation</p>
+<p>  <code>⇧ A</code> All Main Text<br>  <code>⇧ C</code> Main Text without Advertisement<br>  <code>⇧ F</code> Full Web Page<br>  <code>⇧ B</code> Clip as a Bookmark<br>  <em><code>⇧ M</code> Capture</em></p>
+<p>  <code>↑</code> Extend Selection<br>  <code>↓</code> Shrink Selection<br>  <code>↩</code> Save</p>
 </li>
 </ul>
 <h3 id="Firefox"><a href="#Firefox" class="headerlink" title="Firefox"></a><a href="http://www.firefox.com.cn/" target="_blank" rel="external">Firefox</a></h3><ul>
 <li><p>Common</p>
-<p>  <code>⌘ j</code> Downloads<br>  <code>⌘ b</code> Bookmarks ( Badly Use )<br>  <strong><code>⌘ ⇧ B</code> Manage Bookmarks</strong><br>  <strong><code>⌘ ⇧ H</code> Toggle History</strong><br>  <code>⌘ ⇧ A</code> Extensions</p>
+<p>  <code>⌘ j</code> Downloads<br>  <code>⌘ b</code> Bookmarks ( Badly Use )<br>  <em><code>⌘ ⇧ B</code> Manage Bookmarks</em><br>  <em><code>⌘ ⇧ H</code> Toggle History</em><br>  <code>⌘ ⇧ A</code> Extensions</p>
 </li>
 <li><p>Development</p>
-<p>  <code>⌘ ⌥ i</code> Inspect Elements<br>  <em><code>⌘ ⌥ c</code> Elements</em><br>  <em><code>⌘ ⌥ k</code> Console</em><br>  <em><code>⌘ ⌥ q</code> Network</em></p>
-<p>  <em><code>⌘ ⌥ m</code> Responsive Design Page View  ( for Mobile )</em><br>  <em><code>⌘ ⌥ s</code> JavaScript Debug</em><br>  <em><code>⌘ ⇧ J</code> Browser Console</em></p>
-<p>  <code>⌘ u</code> Page Source Code<br>  <em><code>⇧ F7</code> CSS</em><br>  <strong><code>⇧ F4</code> JavaScript Draft  ( for js test )</strong></p>
+<p>  <code>⌘ ⌥ i</code> Inspect Elements<br>  <code>⌘ u</code> Page Source Code</p>
 </li>
 </ul>
-<h4 id="VimFX"><a href="#VimFX" class="headerlink" title="VimFX"></a><a href="https://addons.mozilla.org/en-US/firefox/addon/vimfx/" target="_blank" rel="external">VimFX</a></h4><p>It is a Firefox Extension.</p>
+<!--
+    _`⌘ ⌥ c` Elements_
+    _`⌘ ⌥ k` Console_
+    _`⌘ ⌥ q` Network_
+
+    _`⌘ ⌥ m` Responsive Design Page View  ( for Mobile )_
+    _`⌘ ⌥ s` JavaScript Debug_
+    _`⌘ ⇧ J` Browser Console_
+
+    _`⇧ F7` CSS_
+    __`⇧ F4` JavaScript Draft  ( for js test )__
+-->
+<h4 id="VimFX"><a href="#VimFX" class="headerlink" title="VimFX"></a><a href="https://addons.mozilla.org/en-US/firefox/addon/vimfx/" target="_blank" rel="external">VimFX</a></h4><p>It is a Vim-Emulator extension in Firefox.</p>
 <ul>
 <li><p>Input</p>
 <p>  <code>c</code> Input in Address Bar<br>  <code>i</code> Input in First Input Box</p>
 </li>
 <li><p>Link</p>
-<p>  <code>f</code> Open Link in Current Tab<br>  <code>F</code> Open Link in New Tab</p>
-<p>  <strong><code>gf</code> Open Link in New Tab &amp; Switch to it</strong><br>  <strong><code>gF</code> Open Link in New Window</strong><br>  <strong><code>gm</code> Right Click Link (Open context menu)</strong></p>
-<p>  <strong><code>^ f</code> Open Links in New Tabs</strong></p>
-<p>  <strong><code>yf</code> Copy a link URL</strong><br>  <strong><code>C</code> Copy URL of Current Tab to Clipboard</strong></p>
+<p>  <code>f</code> Open Link in Current Tab<br>  <code>F</code> Open Link in New Tab<br>  <code>^ f</code> Open Links in New Tabs</p>
+<p>  <code>C</code> Copy URL of Current Tab to Clipboard</p>
 <ul>
 <li><p>Hint ( After <code>f</code> | <code>F</code> and the link )</p>
-<p><code>⌫</code> Delete the Last Hint Character<br><code>凵</code> | <code>⇧ 凵</code> Switch Hint Layout</p>
+<p>  <code>⌫</code> Delete the Last Hint Character<br>  <code>凵</code> | <code>⇧ 凵</code> Switch Hint Layout</p>
 </li>
 </ul>
 </li>
+</ul>
+<!--
+    __`gf` Open Link in New Tab & Switch to it__
+    __`gF` Open Link in New Window__
+    __`gm` Right Click Link (Open context menu)__
+
+    __`yf` Copy a link URL__
+-->
+<ul>
 <li><p>Tab</p>
 <ul>
 <li><p>Open Tab</p>
-<p><code>t</code> New at the Last of Tabs<br><code>T</code> New at the Rg of Cur Tab<br><code>S</code> Duplicate</p>
-<p><code>v</code> Open URL in Clipboard in Current Tab<br><code>V</code> Open URL in Clipboard in New Tab</p>
+<p>  <code>t</code> New at the Last of Tabs<br>  <code>T</code> New at the Rg of Cur Tab<br>  <code>S</code> Duplicate</p>
+<p>  <code>v</code> Open URL in Clipboard in Current Tab<br>  <code>V</code> Open URL in Clipboard in New Tab</p>
 </li>
 <li><p>Switch Tab</p>
-<p><code>w</code> to Prev<br><code>e</code> to Next</p>
-<p><code>0</code> | <code>!</code> | <code>1</code> | <code>)</code> to First<br><code>4</code> | <code>$</code> to Last</p>
-<p><code>^</code> (aka <code>⇧  6</code>) to First Unpined Top</p>
+<p>  <code>w</code> to Prev<br>  <code>e</code> to Next</p>
+<p>  <code>0</code> = <code>!</code> = <code>1</code> = <code>)</code> to First<br>  <code>4</code> = <code>$</code> to Last</p>
+<p>  <code>⇧ 6</code> to First Unpined Top</p>
 </li>
 <li><p>Move Tab</p>
-<p><code>W</code> to Lf<br><code>E</code> to Rg</p>
+<p>  <code>W</code> to Lf<br>  <code>E</code> to Rg</p>
 </li>
 <li><p>Close Tab</p>
-<p><code>x</code> Close Current Tab</p>
-<p><code>^ r</code> Close All Tabs on the Right<br><code>^ o</code> Close All Other Tabs</p>
+<p>  <code>x</code> Close Current Tab</p>
+  <!-- `^ r` Close All Tabs on the Right -->
+  <!-- `^ o` Close All Other Tabs -->
 </li>
 <li><p>Regret Op</p>
-<p><code>X</code> Reopen Last Closed Tab</p>
-<p><code>^ x</code> List of Last Closed Tabs of Tabs<br><code>^ i</code> Pin / Unpin</p>
+<p>  <code>X</code> Reopen Last Closed Tab</p>
+<p>  <em><code>^ x</code> List of Last Closed Tabs of Tabs</em><br>  <em><code>^ p</code> Pin / Unpin</em></p>
 </li>
 </ul>
 </li>
@@ -3807,65 +4110,96 @@ The modifications from Manico are listed as above in [Layout 凵 ⎋](#Layout-�
 <li><p>Scroll</p>
 <ul>
 <li><p>Vertical</p>
-<p><code>gg</code> to Top<br><code>G</code> | <code>ge</code> to Btm</p>
-<p><code>j</code> | <code>凵</code> Dn a Half Page<br><code>k</code> | <code>⇧ 凵</code> Up a Half Page</p>
-<p><code>d</code> Dn a Whole Page<br><code>q</code> Up a Whole Page</p>
-<p><code>^ j</code> Dn<br><code>^ k</code> Up</p>
+<p>  <code>gg</code> to Top<br>  <code>G</code> = <em><code>ge</code></em> to Btm</p>
+<p>  <code>j</code> = <code>凵</code> Dn a Half Page<br>  <code>k</code> = <code>⇧ 凵</code> Up a Half Page</p>
+<p>  <code>d</code> Dn a Whole Page<br>  <code>q</code> Up a Whole Page</p>
+  <!-- _`^ j` Dn_ -->
+  <!-- _`^ k` Up_ -->
 </li>
 <li><p>Horizontal</p>
-<p><code>h</code> Lf<br><code>l</code> Rg</p>
-<p><strong><code>gz</code> to Most Lf</strong><br><strong><code>gb</code> to Most Rg</strong></p>
+<p>  <code>h</code> Lf<br>  <code>l</code> Rg</p>
+  <!-- _`gz` to Most Lf_ -->
+  <!-- _`gb` to Most Rg_ -->
 </li>
 <li><p>Specified Pos</p>
-<p><code>m</code> + <code>Letter</code> Mark the Page Pos represented by ‘letter’<br><code>` Letter</code> | <code>&#39; Letter</code> to the Mark represented by ‘letter’</p>
+<p><code>m, a~z</code> Mark the Page Pos represented by ‘a~z’<br><code>`, a~z</code> = <code>&#39;, z~z</code> to the Mark represented by ‘a~z’</p>
 </li>
 </ul>
 </li>
 <li><p>Navigate</p>
 <p>  <code>z</code> Backward<br>  <code>b</code> Forward</p>
-<p>  <strong><code>^ l</code> Last Visited</strong><br>  __<code>gl</code> the longest unvisited</p>
-<p>  <strong><code>gu</code> Upper-level Page</strong><br>  <strong><code>gU</code> Top-level Page</strong></p>
-<p>  <code>gh</code> Home<br>  <strong><code>gH</code> Cur Tab Visit History Menu</strong></p>
 <p>  <code>[</code> Prev Page<br>  <code>]</code> Next Page</p>
+<p>  <em><code>gH</code> Cur Tab Visit History Menu</em></p>
 </li>
+</ul>
+<!--
+    _`^ l` Last Visited_
+    _`gl` the longest unvisited_
+
+    _`gu` Upper-level Page_
+    _`gU` Top-level Page_
+
+    _`gh` Home_
+-->
+<ul>
 <li><p>Load</p>
 <p>  <code>r</code> Refresh<br>  <code>R</code> Refresh ( including Cache )</p>
-<p>  <code>ar</code> Refresh All Tabs<br>  <code>aR</code> Refresh All Tabs  ( including Cache )</p>
-<p>  <code>s</code> Stop Loading<br>  <code>as</code> Stop All Loading</p>
 </li>
+</ul>
+<!-- 
+    _`ar` Refresh All Tabs_
+    _`aR` Refresh All Tabs  ( including Cache )_
+
+    _`s` Stop Loading_
+    _`as` Stop All Loading_
+-->
+<ul>
 <li><p>Find</p>
-<p>  <code>/</code> Find<br>  <code>a/</code> Find All<br>  <strong><code>g/</code> Find in Links</strong></p>
+<p>  <code>/</code> Find<br>  <code>a/</code> Find All</p>
 <p>  <code>n</code> Next Match<br>  <code>N</code> Prev Match</p>
 </li>
+</ul>
+<!--
+    _`g/` Find in Links_
+-->
+<ul>
 <li><p>Visual</p>
-<p>  <code>gi</code> Enter Visual Mode &amp; Put Cursor at Head of Element</p>
-<p>  <code>^ s</code> Enter Visual Mode &amp; Select Element Text<br>  <code>^ c</code> Copy Element Text<br>  <strong><code>^ v</code> Select Focus Point</strong></p>
+<p>  <code>^ c</code> Copy Element Text</p>
+<p>  <em><code>^ i</code> Enter Visual Mode &amp; Put Cursor at Head of Element</em><br>  <em><code>^ s</code> Enter Visual Mode &amp; Select Element Text</em><br>  <em><code>^ n</code> Exit Visual Mode</em></p>
+<p>  <em><code>^ v</code> Select Focus Point</em></p>
 <ul>
 <li><p>Visual Mode</p>
-<p><code>v</code> Start / Cancel Selection<br><code>o</code> Switch Cursor between Head and End of Selection<br><code>y</code> Copy Selection and Exit Visual Mode</p>
-<p><code>h</code> ← Lf<br><code>j</code> ↓ Dn<br><code>k</code> ↑ Up<br><code>l</code> → Rg</p>
-<p><code>w</code> Mv to Head of Next Word<br><code>b</code> Mv to Head of Prev Word<br><code>0</code> | <code>!</code> | <code>6</code> | <code>^</code> Mv to Head of Line<br><code>4</code> | <code>$</code> Mv to End of Line</p>
+<p>  <code>v</code> Start / Cancel Selection<br>  <em><code>o</code> Switch Cursor between Head and End of Selection</em><br>  <code>y</code> Copy Selection &amp; Exit Visual Mode</p>
+<p>  <code>h</code> ← Lf<br>  <code>j</code> ↓ Dn<br>  <code>k</code> ↑ Up<br>  <code>l</code> → Rg</p>
+<p>  <code>^ a</code> Mv to Head of the line<br>  <code>^ e</code> Mv to End of the Line</p>
+<p>  <code>w</code> Mv to Head of Next Word<br>  <code>b</code> Mv to Head of Prev Word</p>
 </li>
 </ul>
 </li>
-<li><p>Window</p>
-<p>  <code>gn</code> New<br>  <code>gN</code> New Private Window</p>
-</li>
+</ul>
+<!-- 
+        `0` | `!` | `6` | `^` Mv to Head of Line
+        `4` | `$` Mv to End of Line
+
+- Window
+
+    `gn` New
+    `gN` New Private Window
+-->
+<ul>
 <li><p>Others</p>
 <p>  <code>Q</code> Click Elements of Browser</p>
-<p>  <code>I</code> Enter Ignore Mode ( Ignore All VimFX Shortcuts )<br>  <code>^ n</code> Exit Ignore Mode (Back to Normal Mode)</p>
-<p>  <code>gr</code> Enter Reading Mode</p>
-<p>  <code>gB</code> Edit VimFX Blacklist</p>
+<p>  <code>I</code> Enter Ignore Mode ( Ignore All VimFX Shortcuts )<br>  <code>^ n</code> Exit Ignore Mode ( Back to Normal Mode )</p>
+<p>  <em><code>gB</code> Edit VimFX Blacklist</em></p>
 <p>  <code>?</code> Help Tips<br>  <code>⎋</code> | <code>^ [</code> Cancel</p>
 </li>
 </ul>
-<h3 id="Music"><a href="#Music" class="headerlink" title="Music"></a>Music</h3><h4 id="Netease-Music"><a href="#Netease-Music" class="headerlink" title="Netease Music"></a><a href="http://music.163.com/#/download" target="_blank" rel="external">Netease Music</a></h4><p><code>凵</code> Play | Pause</p>
-<p><code>⌘ →</code> Next<br><code>⌘ ←</code> Prev</p>
-<p><code>⌘ ↑</code> Volume Up<br><code>⌘ ↓</code> Volume Down</p>
-<p><strong><code>⌘ l</code> Dislike</strong><br><strong><code>⌘ r</code> Show | Hide Lyrics</strong></p>
-<p><strong><code>⌘ ^ m</code> Switch MiniPlayer</strong></p>
-<h4 id="QQ-Music"><a href="#QQ-Music" class="headerlink" title="QQ Music"></a><a href="http://y.qq.com/download/index.html" target="_blank" rel="external">QQ Music</a></h4><p><code>⌘ →</code> Next<br><code>⌘ ←</code> Prev</p>
-<p><code>⌘ ⌥ m</code> Switch MiniPlayer</p>
+<!-- _`gr` Enter Reading Mode_ -->
+<h3 id="NeteaseMusic"><a href="#NeteaseMusic" class="headerlink" title="NeteaseMusic"></a><a href="http://music.163.com/#/download" target="_blank" rel="external">NeteaseMusic</a></h3><p><code>凵</code> Play | Pause<br><code>⌘ →</code> Next<br><code>⌘ ←</code> Prev<br><code>⌘ ↑</code> Volume Up<br><code>⌘ ↓</code> Volume Down</p>
+<!--
+__`⌘ l` Dislike__
+__`⌘ r` Show | Hide Lyrics__
+-->
 ]]></content>
     
     <summary type="html">
