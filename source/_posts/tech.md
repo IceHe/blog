@@ -1,6 +1,6 @@
 title: Technology Bookmarks 技术书签
 date: 2016-06-14
-updated: 2017-03-15
+updated: 2017-03-29
 categories: [read]
 tags: [read]
 description: 技术类书签：工具、文档、Wiki、技术博客…
@@ -80,6 +80,7 @@ description: 技术类书签：工具、文档、Wiki、技术博客…
 
 - [Nginx 教程](http://openresty.org/download/agentzh-nginx-tutorials-zhcn.html) <sup>_todo_</sup>
 - [HTTPS 之难](http://www.infoq.com/cn/articles/https-difficult)
+- [AJAX 知识体系梳理](http://louiszhai.github.io/2016/11/02/ajax/)
 - [大公司里怎样开发和部署前端代码？](https://www.zhihu.com/question/20790576)<sup>__Best__</sup>
 - [前端工程：基础篇](https://github.com/fouber/blog/issues/10) - 分治：组件化开发与资源管理 <sup>__Best__</sup>
 - [TCP/IP 协议栈及 OSI 参考模型详解](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&mid=213726432&idx=1&sn=337e2442c23c811cb96bd8315e3d4916&scene=5&srcid=09208rmQfdovBALp0y138PM3#rd)
@@ -192,7 +193,6 @@ description: 技术类书签：工具、文档、Wiki、技术博客…
 
 - [My Git Note](/cmd/git_note)
 - [Eclipse - Shortcuts](/tech/eclipse_shortcuts.html)
-- [Firefox Stylish CSS - Square Tab](/tech/firefox_stylish_css.html)
 - <a href="/tech/php/PHP empty() 和 isset() 的区别.html">PHP empty() 和 isset() 的区别</a>
 - <a href="/tech/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var).html">PHP 的 var !== NULL 是否等价于 isset(var)</a>
 - [简历上的 精通、熟练、掌握、理解 英语怎么翻译？](/tech/resume_tips.html)
