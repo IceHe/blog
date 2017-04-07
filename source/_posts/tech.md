@@ -192,9 +192,7 @@ description: 技术类书签：工具、文档、Wiki、技术博客…
 ## My Notes
 
 - [My Git Note](/cmd/git_note)
-- [简历上的 精通、熟练、掌握、理解 英语怎么翻译？](/tech/resume_tips.html)
-- [《程序员必读的职业规划书》Note](/tech/career.html)
-- [招聘相关微博摘录](/tech/recruit.html) <sup>Great</sup>
+- [《程序员必读的职业规划书》Note & 招聘相关微博摘录](/tech/career.html) & 简历上的 精通、熟练、掌握、理解 英语怎么翻译？
 
 ## Last
 
