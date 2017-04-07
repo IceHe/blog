@@ -1,6 +1,6 @@
 title: Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2017-04-05
+updated: 2017-04-07
 categories: [Mac]
 tags: [Mac]
 description: 我的 macOS 快捷键列表。
@@ -386,7 +386,7 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
     `凵 1` [1Password](#1Password)
     `凵 2` [2Do](#2Do)
     `凵 3` [Firefox](#Firefox)
-    `凵 4` [Chrome](#Chrome)
+    `凵 4` Chrome
     `凵 5` [Evernote](#Evernote)
     `凵 7` [Keyboard Maestro](#Keyboard-Maestro)
     `凵 8` [Karabiner](#Karabiner)
@@ -1474,6 +1474,7 @@ __`⌘ ⇧ 2` Translate Selection__
 
 - Common
 
+    `⌘ l` Edit Address Bar
     `⌘ j` Downloads
     `⌘ b` Bookmarks ( Badly Use )
     _`⌘ ⇧ B` Manage Bookmarks_
