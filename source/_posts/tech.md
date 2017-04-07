@@ -192,8 +192,6 @@ description: 技术类书签：工具、文档、Wiki、技术博客…
 ## My Notes
 
 - [My Git Note](/cmd/git_note)
-- <a href="/tech/php/PHP empty() 和 isset() 的区别.html">PHP empty() 和 isset() 的区别</a>
-- <a href="/tech/php/PHP 逻辑语句 var !== NULL 是否等价于 isset(var).html">PHP 的 var !== NULL 是否等价于 isset(var)</a>
 - [简历上的 精通、熟练、掌握、理解 英语怎么翻译？](/tech/resume_tips.html)
 - [《程序员必读的职业规划书》Note](/tech/career.html)
 - [招聘相关微博摘录](/tech/recruit.html) <sup>Great</sup>
