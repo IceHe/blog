@@ -14,9 +14,9 @@ description: Exp / Edu / Oth：微博移动 - 服务端研发 - PHP，华南理�
     - <i class="fa fa-fw fa-font"></i> Less. 宁静致远。
         <sup><i class="fa fa-fw fa-heart"></i> Animate , Badminton , 毽球</sup>
     - <i class="fa fa-fw fa-weibo"></i> [Weibo](http://weibo.com/icedes) Mobile API
-        <sup><i class="fa fa-fw fa-puzzle-piece"></i> PHP Server-side Dev</sup>
+        <sup><i class="fa fa-fw fa-puzzle-piece"></i> PHP Server-side Developer</sup>
     - <i class="fa fa-fw fa-envelope-o"></i> x#icehe.me
-        <sup><i class="fa fa-fw fa-wechat"></i> IceHooo</sup>
+        <sup><i class="fa fa-fw fa-wechat"></i> [WeChat](http://7vzp68.com1.z0.glb.clouddn.com/about_original/qrcode_01.jpg) & [Zhihu](https://www.zhihu.com/people/icehe/activities)</sup>
 - __Traits__
     - <i class="fa fa-fw fa-gears"></i> [Tools](/tools/) 工具控
         <sup>Softwares & Hardwares</sup>
@@ -88,7 +88,7 @@ description: Exp / Edu / Oth：微博移动 - 服务端研发 - PHP，华南理�
 - __Langs__
     <i class="fa fa-fw fa-trophy"></i> `Mandarin` 普通话 `Cantonese` 粤语
     <i class="fa fa-fw fa-star-o"></i> `English` 英语
-    <sup>（可进行技术相关和一般内容的基本阅读写作，以及简单的听力对话）</sup>
+    <sup>技术相关内容的基本阅读写作，以及简单的听力对话</sup>
 
 ---
 
@@ -202,7 +202,7 @@ __优职英才（北京）教育科技公司 - 市场部 - 实习生__&emsp;_201
 
 ---
 
-<div class="center">: P</div><div class="center"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_05.png" class="pic_styl"/></div>
+<div class="center">:P</div><div class="center"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_03a.jpg" class="pic_styl"/></div>
 <style type="text/css">
 .post-body .fancybox img.pic_styl {
     display: inline !important;
