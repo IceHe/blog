@@ -1,6 +1,6 @@
 title: Git Note
 date: 2016-02-15
-updated: 2017-03-15
+updated: 2017-04-07
 categories: [Git]
 tags: [Git]
 description: 我的 Git 笔记，日常工作曾使用的指令组合。
@@ -80,6 +80,9 @@ description: 我的 Git 笔记，日常工作曾使用的指令组合。
 - \-\-\-
 - `git commit -m "commit_desc"` 提交修改，并添加描述。
 - `git commit -am "commit_desc"` 自动将被修改、删除的文件（不包括未加入索引的文件）加入暂存区，并提交。
+- \-\-\-
+- `git log --pretty="%H" --author="authorname" | while read commit_hash; do git show --oneline --name-only $commit_hash | tail -n+2; done | sort | uniq`
+    列出某个作者所有修改过的文件 ( [Ref](http://stackoverflow.com/questions/6349139/can-i-get-git-to-tell-me-all-the-files-one-user-has-modified) )。
 
 ### Back 反悔
 
