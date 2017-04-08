@@ -37,15 +37,10 @@ toc: false
     - 取舍：5W1H 初步评估（值不值得做）
         - All: What, Why, How, When, Where, Who
             - Sorted by Priority
-        - What
-            - 做什么
-            - 要做到什么程度
-        - Why
-            - 对应内心需求：为了什么做
-        - How
-            - 怎么做
-        - When
-            - 时刻、时长
+        - What：做什么，要做到什么程度
+        - Why：对应内心需求，为了什么做
+        - How：怎么做
+        - When：时刻、时长
     - 分解
         - 做事方式
             - 集中整块时间做一件事
@@ -63,3 +58,5 @@ toc: false
 ## Ref
 
 - [10%效率的程序员](https://github.com/ruanyf/articles/blob/master/gists/2016-01-27-01x-engineer.md)
+
+---
