@@ -14,9 +14,9 @@ description: Exp / Edu / Oth：微博移动 - 服务端研发 - PHP，华南理�
     - <i class="fa fa-fw fa-font"></i> Less. 宁静致远。
         <sup><i class="fa fa-fw fa-heart"></i> Animate , Badminton , 毽球</sup>
     - <i class="fa fa-fw fa-weibo"></i> [Weibo](http://weibo.com/icedes) Mobile API
-        <sup><i class="fa fa-fw fa-puzzle-piece"></i> PHP Server-side Developer</sup>
+        <sup><i class="fa fa-fw fa-gear"></i> PHP Server-side Developer</sup>
     - <i class="fa fa-fw fa-envelope-o"></i> x#icehe.me
-        <sup><i class="fa fa-fw fa-wechat"></i> [WeChat](http://7vzp68.com1.z0.glb.clouddn.com/about_original/qrcode_01.jpg) & [Zhihu](https://www.zhihu.com/people/icehe/activities)</sup>
+        <sup><i class="fa fa-fw fa-wechat"></i> [WeChat](http://7vzp68.com1.z0.glb.clouddn.com/about_original/qrcode_01.jpg) | [Zhihu](https://www.zhihu.com/people/icehe/activities) | [Weibo](http://weibo.com/icedes)</sup>
 - __Traits__
     - <i class="fa fa-fw fa-gears"></i> [Tools](/tools/) 工具控
         <sup>Softwares & Hardwares</sup>
@@ -38,7 +38,7 @@ description: Exp / Edu / Oth：微博移动 - 服务端研发 - PHP，华南理�
         <sup>When I was teen</sup>
 - __Friends__
     - <i class="fa fa-fw fa-street-view"></i> [Jan Fan](http://janfan.github.io/) | [Shiwey Yan](http://shiweyyan.github.io/) | [SF Zhou](http://sf-zhou.github.io/)
-        <sup>Pythoner | Game Developer | ACMer</sup>
+        <sup>Python,ML&NLP | Game Developer | ACMer</sup>
 
 ---
 
