@@ -103,7 +103,7 @@
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/git%2Fgit_merge_result_00.png">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/git%2Fgit_rebase_result_00.png">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/git%2Fgit_merge_after_rebase_00.png">
-<meta property="og:updated_time" content="2017-03-14T16:00:00.000Z">
+<meta property="og:updated_time" content="2017-04-06T16:00:00.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git Note">
 <meta name="twitter:description" content="我的 Git 笔记，日常工作曾使用的指令组合。">
@@ -315,8 +315,8 @@
                 <i class="fa fa-refresh"></i>
               </span>
               
-              <time title="Post created" itemprop="dateModified" datetime="2017-03-15T00:00:00+08:00">
-                2017 Mar
+              <time title="Post created" itemprop="dateModified" datetime="2017-04-07T00:00:00+08:00">
+                2017 Apr
               </time>
             
 
@@ -446,6 +446,8 @@
 <li>---</li>
 <li><code>git commit -m &quot;commit_desc&quot;</code> 提交修改，并添加描述。</li>
 <li><code>git commit -am &quot;commit_desc&quot;</code> 自动将被修改、删除的文件（不包括未加入索引的文件）加入暂存区，并提交。</li>
+<li>---</li>
+<li><code>git log --pretty=&quot;%H&quot; --author=&quot;authorname&quot; | while read commit_hash; do git show --oneline --name-only $commit_hash | tail -n+2; done | sort | uniq</code><br>  列出某个作者所有修改过的文件 ( <a href="http://stackoverflow.com/questions/6349139/can-i-get-git-to-tell-me-all-the-files-one-user-has-modified" target="_blank" rel="external">Ref</a> )。</li>
 </ul>
 <h3 id="Back-反悔"><a href="#Back-反悔" class="headerlink" title="Back 反悔"></a>Back 反悔</h3><ul>
 <li>File 文件<ul>
@@ -1068,10 +1070,8 @@
     
       <div id="disqus_switch" class="center">
         <a href="javascript:loadDisqus();">
-          Click to COMMENT<br/>点击加载评论
+          Show Comments<br/>显示评论，需翻墙
         </a>
-        <br/>
-        <sup>（需翻墙）</sup>
       </div>
       <script type="text/javascript">
         function loadDisqus() {
@@ -1120,6 +1120,7 @@
       
 
       <section class="site-overview sidebar-panel">
+        <a href="/about/">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png"
@@ -1129,6 +1130,7 @@
               <p class="site-description motion-element" itemprop="description">Less.</p>
           
         </div>
+        </a>
 
         <div class="hidden post-toc" style="max-height: 1220px; width: calc(100% + 0px);" id="popular-post-div">
           <div class="post-toc-content">
