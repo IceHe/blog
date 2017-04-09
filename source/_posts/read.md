@@ -1,13 +1,11 @@
 title: Reading Bookmarks 阅读书签
 date: 2016-06-17
-updated: 2017-03-15
+updated: 2017-04-09
 categories: [read]
 tags: [read]
 description: 阅读类书签：网站、博客、文章、问答、专栏、书籍、播客、微信公众号…
 ---
 
-- __Original Version__
-    - [My Bookmarks 书签](/bookmarks/)
 - __Superscript 上标__
     - The item with <sup>__Best__</sup>&nbsp; implies it is `one of the best`.
     - The item with <sup>Note</sup>&nbsp; implies it is `a link to my related note`.
@@ -20,7 +18,6 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
     - __生活本来就是一团乱麻，「完美」只是镜花水月，盲目接近它和追求它，均是徒劳，甚至可以说是一出悲剧，就如西西弗斯的滚石。__
     - 追求整洁、秩序、完满，还不如由它杂乱不堪来得省心。我就是一个典型的「强迫症、细节控」，可是不想再继续这样下去了。人生太短暂了，何不及时行乐去享受乐趣，或是好好做事追寻人生的意义。
     - 不过，我还是想留下这个博客 —— 这一片隐秘天地，让我自己一个人，能够静静地跟自己说说话。
-    - 记于 2017-03-15，生日前一天。
 
 ## Article 文章
 
@@ -50,9 +47,9 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 - [《 感谢你给我机会上场 》方励的一席演讲](http://yixi.tv/lecture/177) - 循着乐趣前行 <sup>__Best__</sup>
 - [《 潜台词 》李松蔚 的知乎专栏](http://zhuanlan.zhihu.com/lswlsw) - 洞悉人心
 - [苦难有什么价值？](https://www.zhihu.com/question/19988077)- 无谓的苦难
-- [你有什么道理后悔没有早点知道？](https://www.zhihu.com/question/23819007) <sup>_temp_</sup>
-<!--- [我们这一代人的困惑](http://mp.weixin.qq.com/s?__biz=MzA3OTQ4NDkxOA==&amp;mid=202075659&amp;idx=1&amp;sn=350db3032e8f3dca423ba6b93935e33a&amp;scene=0#rd) - 大部分人的梦想永远都实现不了-->
-<!--- [马云的缺陷是什么？](https://www.zhihu.com/question/35670576/answer/64989492) - 当年阿里巴巴的「十八罗汉」甘愿跟着马云，并不只是因为马云能打鸡血、“忽悠”……-->
+- [你有什么道理后悔没有早点知道？](https://www.zhihu.com/question/23819007)
+- [我们这一代人的困惑](http://mp.weixin.qq.com/s?__biz=MzA3OTQ4NDkxOA==&amp;mid=202075659&amp;idx=1&amp;sn=350db3032e8f3dca423ba6b93935e33a&amp;scene=0#rd) - 大部分人的梦想永远都实现不了。
+- [马云的缺陷是什么？](https://www.zhihu.com/question/35670576/answer/64989492) - 当年阿里巴巴的「十八罗汉」甘愿跟着马云，并不只是因为马云能打鸡血、“忽悠”…… 一点点启示。
 
 ### Method 方法
 
@@ -62,10 +59,9 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
     - [Sorry, You Can’t Speed Read](https://www.nytimes.com/2016/04/17/opinion/sunday/sorry-you-cant-speed-read.html)
 - [你的自控能力强么？｜研究：不快乐的人自控力更差](http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;mid=405068698&amp;idx=1&amp;sn=a401b7eba92b3bc4378cb5ec8dfd7c48&amp;scene=1&amp;srcid=04011TWvm7WC8dEBpfJRwAIP#rd) <sup>[Note](/read/self_control.html)</sup>
     吃好，睡好，保持好心情与好状态，做发自内心想做的事情
-- [自控力极差的人如何自救？](https://www.zhihu.com/question/21368231) <sup>_temp_</sup>
-- [Marc Andreessen 的个人效率指南](http://mp.weixin.qq.com/s?__biz=MjM5NjA3OTM0MA==&mid=2655709822&idx=1&sn=516c60dd587c8e7f1340c30d36009133&chksm=bd50f9fd8a2770eb534aff6d5e3687173252e47e101fcba33e0c371cb6831963742a301c5d2d&mpshare=1&scene=1&srcid=1231XJ9lLXhisaUROcjs64f7#rd) - 简单易行，有所启发 <sup>_temp_</sup>
-- [你知道吗？每个时间管理方法都只适合解决某一类问题](https://zhuanlan.zhihu.com/p/22494362) <sup>_temp_</sup>
-- [个人成长理论、工具](http://blog.hiddenwangcc.com/sharewithu) - 可供参考 <sup>_temp_</sup>
+- [自控力极差的人如何自救？](https://www.zhihu.com/question/21368231)
+- [Marc Andreessen 的个人效率指南](http://mp.weixin.qq.com/s?__biz=MjM5NjA3OTM0MA==&mid=2655709822&idx=1&sn=516c60dd587c8e7f1340c30d36009133&chksm=bd50f9fd8a2770eb534aff6d5e3687173252e47e101fcba33e0c371cb6831963742a301c5d2d&mpshare=1&scene=1&srcid=1231XJ9lLXhisaUROcjs64f7#rd) - 简单易行，有所启发
+- [你知道吗？每个时间管理方法都只适合解决某一类问题](https://zhuanlan.zhihu.com/p/22494362)
 - [刘未鹏 | Mind Hacks](http://mindhacks.cn/) -「思维改变生活」
     - [逃出你的肖申克（七）：改变的科学和科学的改变](http://mindhacks.cn/2016/12/18/escape-from-your-shawshank-part7-science-of-change/)
     - …
@@ -93,7 +89,7 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 - [女生选择和一个男生交往的第一个条件是不是看脸？](https://www.zhihu.com/question/28596258/answer/58346160) - 整体形象
 - [送礼的秘诀是什么？](https://www.zhihu.com/question/20455039)- 「送者心安，受者心欢。」
 - [中国的劝酒文化背后的逻辑是什么？](https://www.zhihu.com/question/28311266)- 服从性 & 诚意测试
-- [父母真的只是为了孩子吗？](https://zhuanlan.zhihu.com/p/22558083)- 为了“自己” <sup>_temp_</sup>
+- [父母真的只是为了孩子吗？](https://zhuanlan.zhihu.com/p/22558083)- 为了“自己”
 
 ### Think 思维
 
@@ -106,7 +102,7 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 - [科技如何劫持人们的心智——来自一位魔术师和谷歌的设计伦理学家(Design Ethicist)](http://matrix.sspai.com/p/d060ba00) <sup>__Best__</sup>
 - [人类为什么会有「 雄心壮志 」？为何有人「 小富即安 」，有人有「 鸿鹄之志 」？](https://www.zhihu.com/question/21568048/answer/18848977)- 成就动机 Achievement、亲和动机 Affiliation、影响力动机 Power
 - [普通人怎么让自己更努力？(3)](http://zhuanlan.zhihu.com/individual/19777122)- 发掘内心的真实想法…
-- [年轻人如何在独居时有效地保持自律？](https://www.zhihu.com/question/48749292/answer/130737189) - 普通人的方法 <sup>_temp_</sup>
+- [年轻人如何在独居时有效地保持自律？](https://www.zhihu.com/question/48749292/answer/130737189) - 普通人的方法
 - [Larry Smith：你为何不会成就伟业](http://open.163.com/movie/2015/6/H/4/MAPPMO5L9_MAPPP7FH4.html) - 庸人的借口 <sup>__Best__</sup>
 - [别让工作拖垮你，最实用的 25 条时间管理 TIPS](http://mp.weixin.qq.com/s?__biz=MjM5MzEzNjI2MA==&amp;mid=206759033&amp;idx=1&amp;sn=84f86dd4e6078c8bd3e84e25ab00e93e&amp;scene=1#rd) - 时间管理的目的是为了提高效率，去做更多的工作？
 - [男生有钱到底有多重要？](https://www.zhihu.com/question/22879746)- 「有时候不在于它能带给你什么，而在于它能让你不失去什么」。自立，自尊
@@ -119,19 +115,18 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 - [一部《 欢乐颂 》，一场中产阶级的自我意淫](http://fooads.com/post/572a97b96846962e0bb75504)
 - [面对未知，如何能够免于恐惧？](http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;mid=402827389&amp;idx=1&amp;sn=f6d26aacd8237df903e63a5012524b39&amp;scene=1&amp;srcid=0402ORLMG19eomT4kOhKNmEk#rd)- 比起不确定的答案，我们宁可要一个坏答案。要悦纳不确定。
 - [学术方面该如何评价哈耶克？](https://www.zhihu.com/question/20139880)- 公正的游戏规则
-- [我们不要那么高尚，好不好？](https://zhuanlan.zhihu.com/p/21731126)- 结合评论更精彩 <sup>_temp_</sup>
-- [有哪些优秀的沟通思路？](https://www.zhihu.com/question/36088643) <sup>_temp_</sup>
-- [王路：不要为填充时间找事做](https://zhuanlan.zhihu.com/p/24382582?refer=wanglu) - 玄。佛。<sup>_temp_</sup>
+- [有哪些优秀的沟通思路？](https://www.zhihu.com/question/36088643)
 - [学而时嘻之](http://www.geekonomics10000.com/) - 博客「用理工科思维理解世界」
 
 
 ### Politics 政治
 
-- [驱离的世界：社会分层与阶级固化](http://mp.weixin.qq.com/s?__biz=MjM5NzE2NTY0Ng==&mid=2650672863&idx=1&sn=abba62bbd7a4683368bff346ed6e26a4&chksm=bed481fe89a308e8fdc87d3f1e859ed6bd1fdecb9ad72b437727b22403ebb0810dce171fd276&mpshare=1&scene=1&srcid=0129QvkvhNvqPmhNcTfZI3jX#rd) - 现实 <sup>__Best__</sup>
+- [Power 錕的紙牌屋](https://www.facebook.com/professorofpower)
+- [驱离的世界：社会分层与阶级固化](http://mp.weixin.qq.com/s?__biz=MjM5NzE2NTY0Ng==&mid=2650672863&idx=1&sn=abba62bbd7a4683368bff346ed6e26a4&chksm=bed481fe89a308e8fdc87d3f1e859ed6bd1fdecb9ad72b437727b22403ebb0810dce171fd276&mpshare=1&scene=1&srcid=0129QvkvhNvqPmhNcTfZI3jX#rd) - 现实 <sup>批判学习</sup>
     - From: 微信公众号[「大浪淘沙」](http://chuansong.me/account/knowledgewealth)
 - [城堡的落成：上升通道即将关闭的中国社会](http://mp.weixin.qq.com/s?__biz=MzI0NzA3MTM5NQ==&mid=2650556875&idx=1&sn=f4ff05366f08ce9d0c57c12936efc492&chksm=f1bd7e07c6caf7119f88e5fba355ef17b94b821d144f04d8f2eed30172181b47f678dbf3f660&mpshare=1&scene=1&srcid=0217gRDhIcXQIjTPNp1PGMsq#rd) <sup>__Best__</sup>
     - From: 微信公众号[「肥肥猫的小酒馆」](http://chuansong.me/account/zhihufeifeimao)
-- [被吞噬的中产阶级](http://mp.weixin.qq.com/s?__biz=MjM5NzE2NTY0Ng==&mid=402667616&idx=1&sn=bff275d46d168f9844d1ebacc5d70ec6&mpshare=1&scene=1&srcid=0215SH6okFOOl1FPziKH2NXA#rd) - 中产？无产 <sup>__Best__</sup>
+- [被吞噬的中产阶级](http://mp.weixin.qq.com/s?__biz=MjM5NzE2NTY0Ng==&mid=402667616&idx=1&sn=bff275d46d168f9844d1ebacc5d70ec6&mpshare=1&scene=1&srcid=0215SH6okFOOl1FPziKH2NXA#rd) - 中产？无产
 - [我们，新时代的“新穷人”](http://mp.weixin.qq.com/s?__biz=MjM5NzE2NTY0Ng==&mid=2650672961&idx=1&sn=4a12793b86cecd485b90c9fbbbff2130&chksm=bed4806089a30976e36eb60c81939e28e4bd6e5e2d37519943d8dc0618f90c62edd9b260fa79&mpshare=1&scene=1&srcid=0117qPK7GvUf9PO6Wk73aBiB#rd) - 连剥削的价值也没有
 - [房地产、银行、贷款、政府、贫民、富民、泡沫、经济崩溃，他们之间是什么联系关系？](https://www.zhihu.com/question/19894997/answer/123847049?from=singlemessage&isappinstalled=0) - 房地产问题 <sup>__Best__</sup>
 - [让你信上帝未必肯，让你发财干不干？](http://media.weibo.cn/article?id=2309404063588640796878&jumpfrom=weibocom&luicode=20000174&_T_WM=2ea9d53d6c410dabd0bcf6a54bc05fd4) - 宗教的逻辑？
@@ -160,7 +155,7 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 ### English 英语
 
 - [汉语对现代文明的贡献有多大？](http://chuansong.me/n/301752741754)- Why you need to learn English !?
-- [程序员英语学习指引](http://lucida.me/blog/english-for-programmers/) <sup>_todo_</sup>
+- [程序员英语学习指引](http://www.cnblogs.com/figure9/p/english-for-programmers.html) <sup>_todo_</sup>
     「除非你阅读原版书籍和中文书籍一样顺畅，或者翻译书籍信息损失量太大，否则不需要刻意阅读原版。」
 - [单词全认识却看不懂句子怎么办？](https://www.zhihu.com/question/28640901/answer/63421701)- 一词多义、语境、词组、语法、文化背景 <sup>_todo_</sup>
 - [每天坚持英语学习为什么还是学不好？](https://www.zhihu.com/question/27702564)- 水滴石穿 VS 拼命猛进
@@ -171,7 +166,7 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 - [BBC 英式英语发音视频教程](http://www.miaopai.com/show/STmZrQy-nHwvBSpMYET7~Q__.htm) - Elegant <sup>_todo_</sup> <sup>_temp_</sup>
 - [怎么练好英语口语？](https://www.zhihu.com/question/20097263) <sup>_todo_</sup> <sup>_temp_</sup>
 - [EssayForum](http://www.essayforum.com/) - Free Writing, Editing, and Research Help for Students <sup>_todo_</sup> <sup>_temp_</sup>
-- [39 Incorrectly Used Words That Can Make You Look Bad](https://www.linkedin.com/pulse/39-incorrectly-used-words-can-make-you-look-bad-jeff-haden?trk=eml-b2_content_ecosystem_digest-recommended_articles-186-null&midToken=AQGECgCdtokxPw&fromEmail=fromEmail&ut=2gQ0szrgpahCI1) <sup>_todo_</sup> <sup>_temp_</sup>
+- [39 Incorrectly Used Words That Can Make You Look Bad](https://www.inc.com/jeff-haden/39-incorrectly-used-words-that-can-make-you-look-bad.html) <sup>_todo_</sup> <sup>_temp_</sup>
 
 ### Finance 理财
 
@@ -183,7 +178,7 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 - [如何看待「 钱不是省出来的 」这句话？](https://www.zhihu.com/question/25258679)
     「该花的钱一定要花，不该花的钱一定要省。」 然后，要有智慧分辨两者的不同
 - [为什么跳槽加薪会比内部调薪要高？](https://www.zhihu.com/question/20564224)- 瞬时市场定价
-- [傻瓜才炒股](https://zhuanlan.zhihu.com/69354?f3fb8ead20=4e370f3db81f606365ebc5b3ae1bfff6) <sup>_temp_</sup>
+- [傻瓜才炒股](https://zhuanlan.zhihu.com/69354?f3fb8ead20=4e370f3db81f606365ebc5b3ae1bfff6)
 
 ### Family 家
 
@@ -195,8 +190,8 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 
 ### Buy 买
 
-- [100 元以下有什么好伞？](https://www.zhihu.com/question/23365655) <sup>_temp_</sup>
-- [有哪些不为外行所知的好产品或好品牌？](https://www.zhihu.com/question/20228439) <sup>_temp_</sup>
+- [100 元以下有什么好伞？](https://www.zhihu.com/question/23365655) - 伞控？（南方多雨）
+- [有哪些不为外行所知的好产品或好品牌？](https://www.zhihu.com/question/20228439)
 - [一个人旅行有哪些必备神器？](https://www.zhihu.com/question/24023171)- 实用
 - [有哪些尚未普及却非常好用的东西？](https://www.zhihu.com/question/38821362)- 生活质量
 - [耳机选购大全：不败家！不白瞎！够用就好？](http://mp.weixin.qq.com/s?__biz=MjM5Njk4OTQwMQ==&amp;mid=401415614&amp;idx=1&amp;sn=16d3206bd1e3f502c4635b5348b151d1&amp;scene=1&amp;srcid=1207BJEB4qWQBFhX3Yq0zXH1#rd)- 实用，极简（好用，便携，高性价比）
@@ -205,37 +200,19 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 
 - [食べ物](https://www.zhihu.com/collection/39354991) <sup>__Best__</sup>
 - [北京有哪些深藏不露的餐馆？](https://www.zhihu.com/question/30400300)
-- [去香港一定不能错过哪些美食？](https://www.zhihu.com/question/19803431) <sup>_temp_</sup>
-- [2015年中国100最佳餐厅完全榜单](http://mp.weixin.qq.com/s?__biz=MjM5MDE4ODIzMg==&amp;mid=206234405&amp;idx=1&amp;sn=70dfa683c1db46303d18adc6fc6095a2&amp;scene=1#rd) <sup>_temp_</sup>
+- [去香港一定不能错过哪些美食？](https://www.zhihu.com/question/19803431)
 
 ### Play 乐
 
 - [如何系统地练字？](https://www.zhihu.com/question/20502275)- 手写的乐趣
 - [怎样欣赏交响乐、歌剧、古典和美声这类音乐？](https://www.zhihu.com/question/22208507)
 - [广州有什么「鲜为人知但很有意思」的景点？](https://www.zhihu.com/question/21648404)
-- [我知道你看过不少神剧，但许多都「抄袭」它](http://mp.weixin.qq.com/s?__biz=MjM5MTIwNTYwMg==&mid=402346946&idx=1&sn=8b2c0e87815358358eff466c25b0836b&scene=5&srcid=1209kGNJ89UQoUCc9M81CNEZ#rd) <sup>_temp_</sup>
-- [想要充实自己，有哪10本书和10部电影值得推荐？](https://www.zhihu.com/question/35005800/answer/61498512)<sup>_temp_</sup>
-- [有哪些电影一定要趁年轻看？](https://www.zhihu.com/question/25699277)<sup>_temp_</sup>
-- [有哪些好看的负能量电影？](https://www.zhihu.com/question/30994199/answer/51731600)- 不愿心塞，一直没看 <sup>_temp_</sup>
-
-<!--## Clothing 衣-->
-
-<!--- [男生基本款](https://www.zhihu.com/question/29347945/answer/44802155)-->
-<!--- [男生长得难看怎么办](https://www.zhihu.com/question/25485795)-->
-<!--- [25岁后男生的20条基本穿衣准则](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=216957646&amp;idx=1&amp;sn=80e3631d64b405888258ffcb86b8268e&amp;scene=1#rd)-->
-<!--- [男生如何找准自己的穿衣风格，提升衣着品味？](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=209430380&amp;idx=1&amp;sn=646eb69ae5116a1d634dfa70cdddee10&amp;scene=1#rd)-->
-<!--- [惊爆！看完后他竟不想再穿羽绒服！](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=210316708&amp;idx=1&amp;sn=e34ae6d411a82d114358f5adac598861&amp;scene=1#rd)-->
-<!--- [哪一款包可以优雅地放入MacBook、iPad和一些简单的日用品？](https://www.zhihu.com/question/30610574)-->
-<!--- [知名度不如一线，质量却很好的品牌有哪些？](https://www.zhihu.com/question/35886615)-->
-<!--- [男鞋二十二条军规](http://mp.weixin.qq.com/s?__biz=MjM5MTEwNTQxMg==&amp;mid=205293619&amp;idx=4&amp;sn=130382a4de42eb7e3099dca2fa320897&amp;scene=1#rd)-->
-<!--- [惊！只有5款男鞋值得买？](http://mp.weixin.qq.com/s?__biz=MzAxMDI4ODIyNg==&amp;mid=209636065&amp;idx=1&amp;sn=66fe275dd21dcc2c170d355a992bc580&amp;scene=1#rd)-->
-<!--- [有哪些双肩包潮牌推荐？](https://www.zhihu.com/question/20494311)-->
-<!--- [爱美之心 - 知乎收藏夹](https://www.zhihu.com/collection/20333571)-->
+- [我知道你看过不少神剧，但许多都「抄袭」它](http://mp.weixin.qq.com/s?__biz=MjM5MTIwNTYwMg==&mid=402346946&idx=1&sn=8b2c0e87815358358eff466c25b0836b&scene=5&srcid=1209kGNJ89UQoUCc9M81CNEZ#rd)
 
 ### Legal 法律
 
 - [《Legal High》呈现的是怎样的三观？](https://www.zhihu.com/question/28226028)- 法律至高 <sup>__Best__</sup>
-- [KTV不允许带酒水和零食违法不违法？](https://www.zhihu.com/question/35814611/answer/65416013)- 合法权益
+- [KTV 不允许带酒水和零食违法不违法？](https://www.zhihu.com/question/35814611/answer/65416013)- 合法权益
 
 ### Others 杂
 
@@ -267,6 +244,8 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 - [程序员的呐喊](http://book.douban.com/subject/25884108/) - _A Programmer's Rantings_
     Steve Yegge 以幽默、辛辣的口吻，表达了作为一个资深程序员的独到见解。
 - [重来](https://book.douban.com/subject/5320866/) - 《Rework》[DHH](http://david.heinemeierhansson.com/) 简洁有力的文字，独到辛辣的见解，直指人心。
+- [异类](https://book.douban.com/subject/25863621/) - 成功的随机性，与家世的积累。
+- [反脆弱](https://book.douban.com/subject/25782902/) - 脆弱性、坚韧性与 __反脆弱性__！承受小的风险和挫折，会让我们更强大。警惕毁灭性的危险。
 - [重构](http://book.douban.com/subject/4262627/) - _Refactoring : Improving the Design of Existing Code_
 - [代码大全2](http://book.douban.com/subject/1477390/) - _Code Complete : A Practical Handbook of Software Construction_
 - [设计模式](http://book.douban.com/subject/1052241/) - _Design Pattern_
@@ -335,33 +314,29 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
     各子频道：__专栏精粹__ <sup>__Best__</sup> 、TMT创业者、电商治愈系、文化媒体人、资深管理人、进击的PM、左脑时刻、营销方法论、销售行为学、知乎哲野。
 - [锵锵三人行](http://phtv.ifeng.com/program/qqsrx/#01e74c9c-c77b-404f-958a-96e513ab1e00) - 独行时也可以听到高质量的谈话，了解他人的人生与生活见解。 @凤凰FM
 - [南都之声](http://diantai.ifeng.com/index.php/public/programnavDetails?pid=83069) -「有温度的城市生活。」 @凤凰FM
-- [三联听周刊](http://diantai.ifeng.com/index.php/#!/category/1/76316) <sup>_temp_</sup> -「三联生活周刊，一本杂志和他倡导的生活。」 @喜马拉雅FM
-- [凤凰周刊有声故事](http://diantai.ifeng.com/index.php/#!/category/1/65619) <sup>_temp_</sup> -「传递影响时代的声音」政治、经济、外交、民生。 @凤凰FM
+- [三联听周刊](http://diantai.ifeng.com/index.php/#!/category/1/76316) -「三联生活周刊，一本杂志和他倡导的生活。」 @喜马拉雅FM
+- [凤凰周刊有声故事](http://diantai.ifeng.com/index.php/#!/category/1/65619) -「传递影响时代的声音」政治、经济、外交、民生。 @凤凰FM
 - [许川知乎时间](http://www.ximalaya.com/1740592/album/276787) - 听知乎（偏人生“鸡汤”类）。 @企鹅FM
-- [冬吴相对论](http://baike.baidu.com/link?url=5NbvRBuZzEb7ua9GywfrfeEVlbhPa-dnrwE7jnw0Mj9cv_2LWdqdl7_PBOW3bbROb2EKx91H4BHP7f-CJP9paZvdY7Yp3xMdK7-9SKQPC)（已停播）<sup>_temp_</sup> - 谈论时事热点、经济现象，梁冬与21世纪商业评论主编吴伯凡的谈话节目。
+- [冬吴相对论](http://baike.baidu.com/link?url=5NbvRBuZzEb7ua9GywfrfeEVlbhPa-dnrwE7jnw0Mj9cv_2LWdqdl7_PBOW3bbROb2EKx91H4BHP7f-CJP9paZvdY7Yp3xMdK7-9SKQPC)（已停播 - 谈论时事热点、经济现象，梁冬与21世纪商业评论主编吴伯凡的谈话节目。
 - 英语类 - 在 iOS 的 Podcasts 中，订阅排名靠前的英语学习类播客基本都不错。
-<!--选取社会热点为话题，用有趣的方式，对各种热点知识进行科普解说的动画脱口秀节目，风格诙谐、重口、无下限。但很碎片。 @喜马拉雅FM-->
 
 ## 微信公众号
 
-<!-- - [鹅厂网事](http://chuansong.me/account/tencent_network) -->
-<!-- - [聊聊架构](http://chuansong.me/account/archtime) -->
-- [程序人生](http://chuansong.me/account/programmer_life) <sup>_temp_</sup> - 服务端技术实践与感悟，以及杂谈。
-- [懒人在思考](http://chuansong.me/account/lazy-thought) <sup>_temp_</sup> - 网络安全入门。 @余弦
-<!-- - [道哥的黑板报](http://www1.taosay.net/) - 技术杂谈。 @道哥 <sup>_temp_</sup> -->
-- [幸福课](http://chuansong.me/account/happinessclass) <sup>__Best__</sup> - 心理学。/ 动机在杭州（陈海贤）运营。[同名知乎专栏](http://zhuanlan.zhihu.com/happy) 同步更新。
-- [李松蔚](http://chuansong.me/account/therapistlsw) <sup>__Best__</sup> - 洞悉人心。/ 知乎专栏 [《潜台词》](http://zhuanlan.zhihu.com/lswlsw) 同步更新。
+- [鹅厂网事](http://chuansong.me/account/tencent_network)
+- [聊聊架构](http://chuansong.me/account/archtime)
+- [道哥的黑板报](https://zhuanlan.zhihu.com/taosay) - 商业、创业、技术、管理，杂谈。
+- [程序人生](http://chuansong.me/account/programmer_life) <sup>_temp_</sup> - 服务端技术实践与感悟，以及杂谈。 @[陈天](https://www.zhihu.com/people/tchen/answers)
+- [幸福课](http://chuansong.me/account/happinessclass) <sup>__Best__</sup> - 心理学。作者：动机在杭州（陈海贤），[知乎专栏](http://zhuanlan.zhihu.com/happy) 同步更新。
+- [李松蔚](http://chuansong.me/account/therapistlsw) <sup>__Best__</sup> - 洞悉人心。[知乎专栏《潜台词》](http://zhuanlan.zhihu.com/lswlsw) 同步更新。
 - [有点自卑](http://chuansong.me/account/bocai_zhu) - 两性情感。
 - [爱迪生商业实验室](http://zhuanlan.zhihu.com/edisonlab) <sup>__Best__</sup> - 商业独见。
     - [《JOIN创始人鸡汤》为什么你看了那么多商业案例，还是做不好一个小生意？](http://mp.weixin.qq.com/s?__biz=MzA5MjIzMzAwNg==&mid=2663857178&idx=1&sn=c26ea9e5cc7b20bf3b3cb853ec33cbcc&chksm=8b43d05bbc34594d75b1d9a3b4ab386297e4e0bdfd906b2e722675824fbe4401390f2344a699&mpshare=1&scene=1&srcid=1231AlLnijYbzjtHLBqfsrLa#rd)
 - [TOMsInsight](http://chuansong.me/account/TOMsInsight) <sup>_temp_</sup> - 互联网数据深度分析报告。
-- [吃惑](http://www.gzhphb.com/item/16/168190.html) <sup>_temp_</sup> - 健康饮食、正确健身。
-- [大浪淘沙](http://chuansong.me/account/knowledgewealth) <sup>__Best__</sup> - 专注辟谣，有深度的财经、历史、文学、艺术、科普。
-    - [穷是因为懒、被骗因为笨、女生被性侵因为穿的少——这些“奇葩”思想的根源在哪里？](http://mp.weixin.qq.com/s?__biz=MjM5NzE2NTY0Ng==&mid=2650672679&idx=1&sn=aa72c26e937580b45df811e0efc957ee&scene=1&srcid=0703iYn1sTVmEdj8qxEMWwfd#rd) <sup>_temp_</sup>
+- [吃惑](http://www.gzhphb.com/item/16/168190.html) - 健康饮食、正确健身。
+- [大浪淘沙](http://chuansong.me/account/knowledgewealth) - 政治、历史的一些有启发的见解（可供参考，请批判）。
+    - [穷是因为懒、被骗因为笨、女生被性侵因为穿的少——这些“奇葩”思想的根源在哪里？](http://mp.weixin.qq.com/s?__biz=MjM5NzE2NTY0Ng==&mid=2650672679&idx=1&sn=aa72c26e937580b45df811e0efc957ee&scene=1&srcid=0703iYn1sTVmEdj8qxEMWwfd#rd)
 - [君临](http://chuansong.me/account/junlin_1980) - 富有价值的商业洞见！
 - [肥肥猫的小酒馆](http://chuansong.me/account/zhihufeifeimao) - 知乎高赞答主。
-<!--- PHP开发者 - 伯乐在线旗下帐号-->
-<!--- [KnowYourself](http://chuansong.me/account/knowyourself2015) - 励志心理。-->
 
 ## Extra 额外
 
@@ -374,24 +349,21 @@ description: 阅读类书签：网站、博客、文章、问答、专栏、书�
 ## Notes 笔记
 
 - [你的自控能力强么？｜研究：不快乐的人自控力更差](/read/self_control.html)
-- [若一辈子没有赚大钱，当大官，和自己爱的人在一起（哪怕一次），活着能算有意义吗？](/read/meaning.html)
-- [眼前的苟且，也正是诗和远方](/read/poet.html)
+- [若一辈子没有赚大钱，当大官，和自己爱的人在一起（哪怕一次），活着能算有意义吗？](/read/meaning.html) <sup>__Best__</sup>
+- [眼前的苟且，也正是诗和远方](/read/poet.html) <sup>__Best__</sup>
 - [为什么长大以后反而不容易快乐？](/read/why_unhappy.html)
 - [《 幸福课 》动机在杭州 的知乎专栏](/read/happiness_course.html)
 - [风尘棋客](/read/chinese_chess.html)
 - [《 论悲观主义的益处 》阿兰·德·波顿](/read/pessimist.html)
-- [Loser 应该知道的 6 个残酷人生事实](/read/cruel_reality.html)
+- [Loser 应该知道的 6 个残酷人生事实](/read/cruel_reality.html) <sup>__Best__</sup>
 - [你曾经的老师说过的哪句话印象最为深刻，对你影响较大甚至在十多年或更久之后都记在心里？](/read/teacher_said.html)
 - [论底层青年如何逆袭到中上阶层：什么是命？如何革你的命？](/read/family_accumulation.html)
 - [70 后和 80 后对于刚刚踏入社会的 90 后毕业生有什么建议？](/read/suggestions_for_the_young.html)
 - [精致的利己主义者和常青藤的绵羊](/read/excellent_sheep.html)
 - [How to Study: A Brief Guide](/read/how_to_study.html)
-- [牙齿保健](/read/tooth.html) <sup>__Best__</sup> - 刷牙、蛀牙、智齿
-
-### More
-
-Here are notes Not Mentioned Above.
-- [做事的方法](/read/how_to_do.html)
-- [毽球踩球](/read/jian_qiu.html)
-- [减肥每天需要摄入多少卡路里](/read/calorie.html)
-- [《The Power of Less》书摘](/read/power_of_less.html)
+- [牙齿保健 - 刷牙、蛀牙、智齿](/read/tooth.html) <sup>__Best__</sup>
+- Not Mentioned Above.
+    - [做事的方法](/read/how_to_do.html)
+    - [减肥每天需要摄入多少卡路里](/read/calorie.html)
+    - [《The Power of Less》书摘](/read/power_of_less.html)
+    <!-- - [毽球踏球](/read/jian_qiu.html) -->
