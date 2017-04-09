@@ -1,6 +1,5 @@
 title: Suggestions for The Young
 date: 2016-06-15
-toc: false
 ---
 
 # 70 后和 80 后对于刚刚踏入社会的 90 后毕业生有什么建议？
@@ -19,3 +18,5 @@ toc: false
     - 了解自己。
         - 了解自己的优势。
     - 了解人性。
+
+---

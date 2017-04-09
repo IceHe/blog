@@ -1,6 +1,5 @@
 title: How to Study
 date: 2016-06-24
-toc: false
 ---
 
 # Studying
@@ -151,3 +150,4 @@ toc: false
             - Try to Spend the entire night (and/or day) before the exam studying for it.
             - If you have two exams on the same day, split the time in half.
 
+---
