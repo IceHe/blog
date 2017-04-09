@@ -1,6 +1,6 @@
 title: Bulid Blog 搭建个人博客
 date: 2015-11-14
-updated: 2017-03-24
+updated: 2017-04-09
 categories: [Web]
 tags: [Web]
 description: Why 初衷、How 过程，Hexo 建站，Theme 主题，Domain Name 域名，Bed Room 图床，Google CSE 站内搜索，404 页面，Sitemap & RSS 站点地图与订阅，Site Analysis，Page View 统计…
@@ -27,7 +27,7 @@ description: Why 初衷、How 过程，Hexo 建站，Theme 主题，Domain Name 
 不如自己搭建个独一无二的。
 不但过程有意思，还能学到许多新知识。
 
-可以用来记录[自己的人生](/lifelogs)，
+可以用来记录 [自己的人生](/lifelogs)，
 放一些值得分享的技术、读书笔记和感想。
 
 # How - 过程
@@ -36,9 +36,9 @@ description: Why 初衷、How 过程，Hexo 建站，Theme 主题，Domain Name 
 网上的类似的教程多如牛毛，不差这篇。
 
 所以，我并不打算详细写，
-只简略说明过程与所用的“轮子”（工具、模块），
+只简略说明过程与所用的「轮子」（工具、模块），
 并列出本人参阅的教程文章的链接，
-其它更具体的细节自行百度/Google，
+其它更具体的细节自行百度 / Google，
 查阅其它教程与相关工具模块的官方文档。
 
 还有，折腾才能学到真东西，
@@ -47,24 +47,24 @@ description: Why 初衷、How 过程，Hexo 建站，Theme 主题，Domain Name 
 ## Intro 引子
 
 非软件、计算机专业的人，自行搭建个人博客其实不难。
-前人早已造好了各种“轮子”，只要根据网上的教程摸索一下，
+前人早已造好了各种「轮子」，只要根据网上的教程摸索一下，
 动动手指头就可以组装出自己的博客。
 
-可以用isnowfy的[静态页面生成静态博客](http://isnowfy.github.io/about-simple-cn.html)的方法，
+可以用 isnowfy 的 [静态页面生成静态博客](http://isnowfy.github.io/about-simple-cn.html) 的方法，
 对一个新手来说，那感觉真是妙极了！
 
 当时就想：不如自己写个博客生成器吧！
-那当真是一件蛮有Geek的事啊。
+那当真是一件蛮有 geek 的事啊。
 
 但吾生有崖，而知也无涯，
-没必要自己重新“造轮子”，
+没必要自己重新「造轮子」，
 阅源码解其精妙未尝不可。
 君子善假于物，省出时间，
 去做真正想做的事情岂不是更好。
 
 搭建博客的方法，除了用不同的静态博客生成器来生成外，
 还可以租用或搭建一个服务器，来运行一个动态博客，
-其中最出名的非[Wordpress](https://wordpress.com/)莫属，
+其中最出名的非 [Wordpress](https://wordpress.com/) 莫属，
 现在有更多性能优越、更便于搭建维护的博客框架，
 可另行查阅。
 
@@ -77,17 +77,17 @@ description: Why 初衷、How 过程，Hexo 建站，Theme 主题，Domain Name 
 
 广泛检索后，参阅了如下教程建站：
 - [使用 GitHub 和 Hexo 搭建免费静态 Blog](https://wsgzao.github.io/post/hexo-guide/)
-- [hexo系列教程：（二）搭建hexo博客](http://www.zipperary.com/2013/05/28/hexo-guide-2/)
-- [hexo系列教程：（三）hexo博客的配置、使用](http://www.zipperary.com/2013/05/29/hexo-guide-3/)
-- [hexo系列教程：（四）hexo博客的优化技巧](http://www.zipperary.com/2013/05/30/hexo-guide-4/)
-- [hexo系列教程：（五）hexo博客的优化技巧续](http://www.zipperary.com/2013/06/02/hexo-guide-5/)
+- [Hexo 系列教程：（二）搭建 Hexo 博客](http://www.zipperary.com/2013/05/28/hexo-guide-2/)
+- [Hexo 系列教程：（三）Hexo 博客的配置、使用](http://www.zipperary.com/2013/05/29/hexo-guide-3/)
+- [Hexo 系列教程：（四）Hexo 博客的优化技巧](http://www.zipperary.com/2013/05/30/hexo-guide-4/)
+- [Hexo 系列教程：（五）Hexo 博客的优化技巧续](http://www.zipperary.com/2013/06/02/hexo-guide-5/)
 
-其中会提到，下文涉及的“[定制点](#Custom_Points_定制点)”的内容，包含功能模块的具体配置方法。
+其中会提到，下文涉及的「[定制点](#Custom_Points_定制点)」的内容，包含功能模块的具体配置方法。
 
 可能其中涉及各工具和模块已经有新版本，
 具体操作细节最好参考它们最新的官方文档。
 
-有探索精神的直接可直接参照[Hexo官网](https://hexo.io/zh-cn/)，
+有探索精神的直接可直接参照 [Hexo官网](https://hexo.io/zh-cn/)，
 它提供中/英文的各种帮助信息，
 包括文档、API、插件、主题等，
 告诉你建站方法、基本操作、自定义部分……
@@ -112,7 +112,7 @@ __通常还会提供许多功能模块的配套支持！
 官网上有提供很多第三方主题：[Hexo Themes](https://hexo.io/themes/)
 ~~我选用的是：[WuChong](http://wuchong.me/) 的 [__Jacman__](https://github.com/wuchong/jacman)~~
 ~~该主题作者的官方教程：[如何使用 Jacman 主题](http://wuchong.me/blog/2014/11/20/how-to-use-jacman/)~~
-现在我选用的是：[IIssNan](http://iissnan.com/) 的 [__Next__](http://theme-next.iissnan.com/)（官方文档）
+现在我选用的是：[IIssNan](http://iissnan.com/) 的 [__NexT__](http://theme-next.iissnan.com/)（官方文档）
 
 __它包含了以下绝大多数的定制点，不需要自己折腾太多，也可以很快做好。__
 如果你更喜欢 DIY，想要亲手试一试第一次搭建静态微博，
@@ -141,7 +141,7 @@ Hexo官网的文档和API中有theme写法的说明，
 
 这还是借助第三方的帮助：
 它们也会提供许多方便定制选项，
-懂些HTML、CSS、JavaScript就能深度定制了。
+懂些 HTML、CSS、JavaScript 就能深度定制了。
 
 推荐：
 (1) [百度分享](http://share.baidu.com/)
@@ -151,12 +151,12 @@ Hexo官网的文档和API中有theme写法的说明，
 ### __About 关于页面__
 
 一般用于介绍博主或博客的页面，
-例如[我的“Me 我”页面](/about)。
+例如[我的「Me 我」页面](/about)。
 
 ### __404 找不到页面__
 
 当访问一个不存在于博客中的页面时，展示的提示页面。
-例如[我的“404”页面](/not_found)。
+例如[我的「404」页面](/not_found)。
 
 推荐：
 [腾讯公益404](http://www.qq.com/404/)
@@ -182,7 +182,7 @@ Hexo官网的文档和API中有theme写法的说明，
 (2) 我的选择：[DNSPod](https://www.dnspod.cn/)（国内、免费、稳定、快速、用户友好）
 
 域名解析选择国内运营商，有利于提高国内访客的访问速度。
-具体配置过程可参考： [域名和DNS](https://wsgzao.github.io/post/hexo-guide/#%E5%9F%9F%E5%90%8D%E5%92%8CDNS)
+具体配置过程可参考： [域名和 DNS](https://wsgzao.github.io/post/hexo-guide/#%E5%9F%9F%E5%90%8D%E5%92%8CDNS)
 [购买域名、设置dns](http://www.zipperary.com/2013/05/27/domain-name-and-dns/)
 
 ### __Sitemap 站点地图 & RSS 订阅__
@@ -193,7 +193,7 @@ Hexo官网的文档和API中有theme写法的说明，
 给关注你博客的朋友，提供了订阅功能。
 
 具体配置过程可参考：
-[hexo博客的优化技巧续](http://www.zipperary.com/2013/06/02/hexo-guide-5/)（推荐结合以下内容阅读）
+[ Hexo 博客的优化技巧续](http://www.zipperary.com/2013/06/02/hexo-guide-5/)（推荐结合以下内容阅读）
 
 __TODO: 待日后补全细节，暂参考 [RSS 和 sitemap](http://www.jianshu.com/p/bb35e703f9bf)__
 
@@ -210,7 +210,7 @@ Hexo自带的功能：archive 归档、category 分类、tag 标签。
 
 当然，可以直接存放到托管你静态博客代码的平台，
 但是，它们的代码仓库的空间有限，以后就可能不够用了。
-所以，你可以申请多个Github、Gitcafe等平台的账户，
+所以，你可以申请多个 Github、[Coding.net](https://coding.net) 等平台的账户，
 用新的代码仓库来放额外的图片。
 
 但是，代码托管平台的访问速度也不够快，
@@ -232,13 +232,13 @@ Hexo自带的功能：archive 归档、category 分类、tag 标签。
 
 让访客可以自行搜索博客中感兴趣的内容。
 
-百度和Google都有提供站内搜索功能，
+百度和 Google 都有提供站内搜索功能，
 但是只能是搜索到你博客中被搜索引擎收录到的那部分内容。
 
 对于一个新建的小网站来说，很可能被其收录的内容很少，
 没有对博客足够齐全的索引，搜索结果差。
 
-国内的一般访客也访问不了Google，
+国内的一般访客也访问不了 Google，
 百度站内搜索的体验也不佳。
 
 推荐：
@@ -249,21 +249,22 @@ Hexo自带的功能：archive 归档、category 分类、tag 标签。
 Google CSE 根据官方的流程一步步来即可；
 使用本博客导航栏处的搜索框，可查看其中一种显示效果。
 
-而 Swiftype 具体配置过程可参考：[利用swiftype为hexo添加站内搜索v2.0](http://www.jerryfu.net/post/search-engine-for-hexo-with-swiftype-v2.html)
+而 Swiftype 具体配置过程可参考：[利用 Swiftype 为 Hexo 添加站内搜索 v2.0](http://www.jerryfu.net/post/search-engine-for-hexo-with-swiftype-v2.html)
 
 ### __PV/UV 访问数/访客数的统计与显示__
 
 统计、显示博客每篇、每个页面的访问数。
 
 手段繁多，我参考了这个方法：
-[使用LeanCloud平台为Hexo博客添加文章浏览量统计组件](http://crescentmoon.info/2014/12/11/popular-widget/)
+[使用 LeanCloud 平台为 Hexo 博客添加文章浏览量统计组件](http://crescentmoon.info/2014/12/11/popular-widget/)
 它提供了统计、榜单显示的具体方法。
 
 但是，你可能还需要：
 在首页文章列表、文章页面上显示该文章的访问次数。
 
 具体方法，可以通过查看我博客页面的源代码了解，
-或者到我的Github查看我的[博客theme的源代码](https://github.com/IceHe/blog_theme_jacman)。
+或者到我的 [Github](https://github.com/IceHe) 查看我的博客 theme 的源代码：
+自定义过的 [Jacman](https://github.com/IceHe/blog_theme_jacman) 和 [NexT](https://github.com/IceHe/hexo-theme-next)。
 
 如果需要整个网站的页面访问量（PV）、独立访客数（UV）的统计与显示，
 则可以参看这个第三方工具：[不蒜子 - 搞定你的网站计数](http://ibruce.info/2015/04/04/busuanzi/)
@@ -271,8 +272,8 @@ Google CSE 根据官方的流程一步步来即可；
 ### __Site Analysis 网站分析服务__
 
 帮助你去统计分析网站的各类数据，
-包括且不限于查看UV、PV、IP数、来源网站、入口页面、受访页面、
-访客地区、设备、系统、忠诚度，抓取网站收录到搜索引擎，提供seo优化建议等的服务。
+包括且不限于查看 UV、PV、IP 数、来源网站、入口页面、受访页面、
+访客地区、设备、系统、忠诚度，抓取网站收录到搜索引擎，提供 SEO 优化建议等的服务。
 
 推荐：
 (1) [Google Analytics](http://www.google.com/analytics/)
@@ -284,15 +285,15 @@ Google CSE 根据官方的流程一步步来即可；
 ### __Speed Optimize 访问速度优化__
 
 手段繁多，
-除了上文提到的将图片放到CDN服务商那里的方法外，
-css文件、js脚本等也可以放到CDN那里，
-把静态网站托管到更访问速度更好的平台（也包括CDN）上，
-压缩图片到适当大小，优化theme、js脚本的代码……
+除了上文提到的将图片放到 CDN 服务商那里的方法外，
+CSS 文件、JavaScript 脚本等也可以放到 CDN 那里，
+把静态网站托管到更访问速度更好的平台（也包括 CDN）上，
+压缩图片到适当大小，优化 theme、JavaScript 脚本的代码……
 在此不赘述。
 
-~~[托管博客到gitcafe](http://www.zipperary.com/2013/11/23/hexo-to-gitcafe/)~~ 比较便捷。
+~~[托管博客到 Gitcafe](http://www.zipperary.com/2013/11/23/hexo-to-gitcafe/)~~ 比较便捷。
 
-__TODO: 待日后补全细节，暂参考 [Hexo系列教程之五：hexo博客同时托管在github和coding](http://www.jianshu.com/p/3141cffc1b1b)__
+__可参考 [Hexo 系列教程之五：Hexo 博客同时托管在 Github 和 Coding](http://www.jianshu.com/p/3141cffc1b1b)__
 
 ### __Ad 卖流量（广告）__
 
