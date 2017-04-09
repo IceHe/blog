@@ -1,7 +1,6 @@
 title: 2016 Winter
 date: 2017-03-09
 updated: 2017-04-07
-no_upd: true
 categories: [think]
 tags: [think]
 description: 十一月至次年二月，冬小记。独立思考，刻意学习，精简，成为怎样的人，迷思，碎碎念。
