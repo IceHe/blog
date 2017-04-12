@@ -1890,7 +1890,7 @@ img.fix_height {
 <li><a href="http://www.geekonomics10000.com/" target="_blank" rel="external">学而时嘻之</a> - 博客「用理工科思维理解世界」</li>
 </ul>
 <h3 id="Politics-政治"><a href="#Politics-政治" class="headerlink" title="Politics 政治"></a>Politics 政治</h3><ul>
-<li><a href="https://www.facebook.com/professorofpower" target="_blank" rel="external">Power 錕的紙牌屋</a></li>
+<li><a href="https://www.facebook.com/professorofpower" target="_blank" rel="external">Power 錕的紙牌屋</a>（<a href="https://www.youtube.com/channel/UCdFyD6_8485ajuKML_6HbiQ/featured" target="_blank" rel="external">Youtube Link</a>）</li>
 <li><a href="http://mp.weixin.qq.com/s?__biz=MjM5NzE2NTY0Ng==&amp;mid=2650672863&amp;idx=1&amp;sn=abba62bbd7a4683368bff346ed6e26a4&amp;chksm=bed481fe89a308e8fdc87d3f1e859ed6bd1fdecb9ad72b437727b22403ebb0810dce171fd276&amp;mpshare=1&amp;scene=1&amp;srcid=0129QvkvhNvqPmhNcTfZI3jX#rd" target="_blank" rel="external">驱离的世界：社会分层与阶级固化</a> - 现实 <sup>批判学习</sup><ul>
 <li>From: 微信公众号<a href="http://chuansong.me/account/knowledgewealth" target="_blank" rel="external">「大浪淘沙」</a></li>
 </ul>
@@ -4459,7 +4459,7 @@ __`⌘ r` Show | Hide Lyrics__
     <link href="http://icehe.me/tools/"/>
     <id>http://icehe.me/tools/</id>
     <published>2015-11-20T16:00:00.000Z</published>
-    <updated>2017-04-01T16:00:00.000Z</updated>
+    <updated>2017-04-12T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li>主要介绍 <strong>macOS、<a href="#iOS">iOS</a> 的 Apps</strong>（下文 Apple 指代 macOS + iOS）；只简单提及 <a href="#Windows">Windows</a>。<ul>
@@ -4759,6 +4759,15 @@ __`⌘ r` Show | Hide Lyrics__
 <li>该插件提供各种类型文件的预览功能：快速预览各种格式的图片，包括 GIF；对各种不同编程语言的代码进行着色，便于查看… 详情查看其 <a href="https://github.com/sindresorhus/quick-look-plugins" target="_blank" rel="external">GitHub 仓库 README.md</a> 的说明。</li>
 </ul>
 </li>
+<li><a href="https://pqrs.org/osx/ShowyEdge/index.html.en" target="_blank" rel="external"><strong>ShowyEdge</strong></a> <sup>Great</sup><br>  输入法状态提示。<ul>
+<li>显示一条样式可定制的色带在屏幕顶部，以提示正在使用什么输入法。在全屏使用 App 时，也能轻易区分输入法状态！</li>
+<li>就好像盲插 USB 接口可能要插三次才成功，感觉很糟糕。随时都能便捷地确认输入法所处的状态，可以减少多余的输入法切换操作和误输入后的回退操作。</li>
+<li>我输入英文只使用默认的「U.S.」input source，输入中文只使用「拼音输入法」，切换「中/英」输入只要直接切换输入法就好了。<ul>
+<li>我不想只用「拼音输入法」，然后在一种输入法下进行中英输入切换。这时中英切换通常只需要用一个键 <code>⇧</code>、<code>^</code> 或 <code>⇪</code>，看似操作很方便，但也容易「误操作」，使用大量使用快捷键时就很不便，特别是在用 Vim 的方式进行编辑时，误操作几率非常高！</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -4839,10 +4848,6 @@ __`⌘ r` Show | Hide Lyrics__
 </li>
 <li><a href="https://bjango.com/mac/istatmenus/" target="_blank" rel="external"><strong><del>iStat Menus</del></strong></a><br>  支持顶部菜单栏部分自定义，显示硬件状态的监控软件。方便查看 CPU、内存、网络、硬盘及其它硬件的状态，还有日期时间栏的定制。<ul>
 <li>Mac 没异常时，知道这些状态并没有显著的用处，如果设备崩溃了、卡了，还不是直接重启了事。</li>
-</ul>
-</li>
-<li><a href="https://pqrs.org/osx/ShowyEdge/index.html.en" target="_blank" rel="external"><strong><del>ShowyEdge</del></strong></a><br>  输入法状态提示。显示一条样式可定制的色带在屏幕顶部，以提示正在使用什么输入法，在全屏使用 App 时，也能轻易区分输入法状态！<ul>
-<li>我的键盘设置了一键直接切换输入法，简单粗暴。输入法状态了然于心，用不着它了。</li>
 </ul>
 </li>
 <li><a href="https://justgetflux.com/" target="_blank" rel="external"><del>f.lux</del></a> <sup>Health</sup><br>  根据所在地当时的日照，自动调整屏幕色温、亮度，减少蓝光对眼睛的刺激，以调整激素水平，保护正常睡眠节律。<ul>
