@@ -1,16 +1,20 @@
 title: Mac Shortcuts 快捷键
 date: 2016-01-06
-updated: 2017-04-07
+updated: 2017-04-14
 categories: [Mac]
 tags: [Mac]
 description: 我的 macOS 快捷键列表。
 ---------------------------
 
-## Simple
+## Simple & Less
 
-没什么不好意思承认的，写这篇文章的初衷就是想炫耀自己的「与众不同」—— 彰显自己是一个酷爱快捷键的「键盘党」，一个「有个性、独特」的少数派。然而做这种事真的有意义吗？
-
-帕累托法则（二八法则）：只做关键部分的改进，用更少的工具完成更多的事情。要选用符合直觉的好设计 —— 它们容易上手、容易习惯，不容易被错误地使用。
+- 没什么不好意思承认的，写这篇文章的初衷就是想炫耀自己的「与众不同」—— 彰显自己是一个酷爱快捷键的「键盘党」，一个有个性的少数派。然而这样做真的有意义吗？
+- 正确的做法：
+    - 选用符合直觉的好设计 —— 它们容易上手、容易习惯，不容易被错误地使用。
+        - 「开箱即用」，即用默认配置就能用得顺手，就是一个很高的标准。
+    - 根据「二八法则」（帕累托法则），只做关键部分的改进，用更少的工具完成更多的事情。
+        - 工具提供足够的设置选项，然后将工具配置得足够贴合个人的使用习惯。
+            例如，同时使用多个 IDE 和代码编辑器的话，尽量将快捷键配置得一样，增强快捷键的通用性，减轻记忆快捷键的负担，减少误用；尽量都使用 Vim 插件，统一以 Vim 的方式操作，就可以进一步减轻记忆负担，增加操作效率。
 
 ## Explanation
 
@@ -106,7 +110,7 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
     `⌘ ⌥ ` Sleep
     `^ ⇧ ` Display Sleep
 
-    `^ ` Shut Down 
+    `^ ` Shut Down
     Then you can choose to Sleep or Restart in the prompt dialog box.
 
 <!--
@@ -177,7 +181,7 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
     `⌘ ⇧ N` New Folder
     _`⌘ ↑` to Parent Dir_
 
-<!--    
+<!--
     _`⌘ ^ ↑` Open Parent Dir in New Window_
 
     _`⌘ ⇧ C` Computer_
@@ -375,7 +379,7 @@ _`⌘ ⇧ T` Go to Date_
 `Functional Keys` = `F1` ~ `F12`
 
 `⌥ ⇥` __Prefix Key__
-It's used to prevent you from launching the unwanted App when pressing its shortcut by accident. 
+It's used to prevent you from launching the unwanted App when pressing its shortcut by accident.
 Only when you pressed Pf Key at first and then the App shortcut, did it launch.
 
 ### Layout `凵`
@@ -383,15 +387,16 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
 - 0123 …
 
     <!-- <code>凵 \`</code> -->
-    `凵 1` [1Password](#1Password)
+    `凵 1` iTerm2
     `凵 2` [2Do](#2Do)
     `凵 3` [Firefox](#Firefox)
     `凵 4` Chrome
     `凵 5` [Evernote](#Evernote)
+    `凵 6` System Settings → General
     `凵 7` [Keyboard Maestro](#Keyboard-Maestro)
     `凵 8` [Karabiner](#Karabiner)
     `凵 9` [Seil](#Seil)
-    `凵 0` iTerm2
+    `凵 0` System Settings → Keyboard
 
 - asdf …
 
@@ -411,6 +416,7 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
 
 - 1234 …
 
+    <code>⌥ \`</code> [1Password](#1Password)
     `⌥ 1` [Script Editor](#Script_Editor) ( AppleScript )
     `⌥ 2` System Preferences
     `⌥ 3` Notes
@@ -420,7 +426,7 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
     `⌥ q` [QQ](#QQ)
     `⌥ w` WeChat
     `⌥ e` [Mail](#Mail)
-    `⌥ r` Preview
+    `⌥ r` [VS Code](#VS-Code)
     `⌥ t` Thunder
 
     `⌥ u` [Sublime Text](#Sublime-Text)
@@ -429,9 +435,10 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
     `⌥ p` Postman
     `⌥ \` [1Password](#1Password) ( Mini )
 
+    _`⌥ ⇧ Q` QQMusic_
     _`⌥ ⇧ W` Word_
     _`⌥ ⇧ P` PowerPoint_
-    _`⌥ ⇧ Q` QQMusic_
+    _`⌥ ⇧ r` Preview_
     `⌥ ⇧ E` Eject the disks
     `⌥ ⇧ I` Prompt the local IP address
 
@@ -765,7 +772,7 @@ They can be used in WeChat as well.
     `^ ⇧ E` Edit BreakPoint ( Break if conditional is true)
     `^ ⇧ W` Add to Watches
     `^ ⌥ w` Add to Watches
-    
+
     `^ ⇧ D` Debug
     `^ ⇧ R` Rerun
     `^ ⇧ S` Stop
@@ -826,12 +833,12 @@ They can be used in WeChat as well.
 -->
 
 - Tools
-    
+
     `⌘ ^ h` Hide All Tool Windows
     _`^ ⇧ q` Terminal_
     _`^ ⌥ s` Test RESTful Web Service_
 
-<!-- 
+<!--
     `⌘ ⇧ ↑↓←→` Extend | Shrink Tool Window
 -->
 
@@ -846,7 +853,7 @@ They can be used in WeChat as well.
     _`^ ⌥ c` Git -> Resolve Conflicts_
 
 <!--
-- TODO: 
+- TODO:
     - Language Injection in `⌥ ↩`
     - Code -> Inspect Code… 语法检查等
     - Code -> Locate Duplicates
@@ -883,6 +890,50 @@ The shortcuts in other IDEs from JetBrains are same as PhpStorm,
 such as CLion , IntelliJ IDEA , RubyMine , PyCharm and so on.
 All the shortcuts can be modified in `Preferences` → `Keymap`!
 
+### [VS Code](https://code.visualstudio.com/)
+
+- File & Folder
+
+    `^ r` Open Recent
+    `⌘ p` Quick Open
+    `^ ⇧ w` Close Window
+
+- View
+
+    `⌘ ⇧ E` Explorer
+    `⌘ ⇧ F` Find in Files
+    `⌘ ⇧ G` Git
+    `⌘ ⇧ D` Debug
+    `⌘ ⇧ A` Extensions
+
+    `⌘ b` Toggle Side Bar
+    `⌘ j` Toggle Panel
+    `^ ⌥ q` Toggle Terminal
+
+- Editor Group
+
+    `⌘ \` Split Editor
+    `⌘ ⌥ 1` Toggle Editor Group Layout
+    `⌘ k, 1~3` Switch to Editor Group 1~3
+
+- Vim
+
+    `H` Prev Editor
+    `L` Next Editor
+    `Y` Copy to EOL (End of Line)
+
+    `zh` Mv Editor Lf
+    `zl` Mv Editor Rg
+
+- Selection
+
+    `⌘ d` Expand Selection to Word
+    `⌘ ⇧ L` Split into Lines
+
+- Find & Replace
+
+    As same as `Sublime Text`
+
 ### [Sublime Text](https://www.sublimetext.com/)
 
 - Find & Replace
@@ -895,21 +946,24 @@ All the shortcuts can be modified in `Preferences` → `Keymap`!
     `^ ⌥ ↩` Replace All
 
     `⌘ ⌥ r` Toggle Regular Expression
-    _`⌘ ⌥ r` Toggle Case Sensitive_
+    `⌘ ⌥ r` Toggle Case Sensitive
 
 - Selection
 
     `⌘ d` Expand Selection to Word
     `^ ⇧ M` Expand Selection to Brackets
+    `⌘ ⇧ L` Split into Lines
 
 <!-- _`^ l` Scroll to the Selection_ -->
 
+<!--
 - Bookmarks
 
     `⌘ F2` Toggle Bookmark
     `F2` Next Bookmark
     `⇧ F2` Prev Bookmark
     `⌘ ⇧ F2` Clear All Bookmarks
+-->
 
 - Layout
 
@@ -1308,7 +1362,7 @@ Only list the useful keys that I’m unfamiliar with here.
 
     _`^ f` Mv Cursor Rg_ ( I use `Fn l` instead. )
     _`^ b` Mv Cursor Lf_ ( I use `Fn h` instead. )
-    
+
     _`^ h` Del Backward ⌫_ ( I used to use `⌫`. )
     _`^ d` Del Forward ⌦_ ( seldom used )
 
@@ -1369,7 +1423,7 @@ I don't want to list all its shortcuts, as there are so many…
 
     `⌘ l` Move to another list
 
-<!-- 
+<!--
     `l` Tag
     `⌘ r` Tags
 
@@ -1624,7 +1678,7 @@ It is a Vim-Emulator extension in Firefox.
     `r` Refresh
     `R` Refresh ( including Cache )
 
-<!-- 
+<!--
     _`ar` Refresh All Tabs_
     _`aR` Refresh All Tabs  ( including Cache )_
 
@@ -1671,7 +1725,7 @@ It is a Vim-Emulator extension in Firefox.
         `w` Mv to Head of Next Word
         `b` Mv to Head of Prev Word
 
-<!-- 
+<!--
         `0` | `!` | `6` | `^` Mv to Head of Line
         `4` | `$` Mv to End of Line
 
