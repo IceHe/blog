@@ -1,6 +1,6 @@
 title: Tools 利器
 date: 2015-11-21
-updated: 2017-04-13
+updated: 2017-04-14
 categories: [Mac]
 tags: [Mac]
 description: 我的 Mac Apps、电子产品推荐。
@@ -50,14 +50,14 @@ description: 我的 Mac Apps、电子产品推荐。
         GTD 类事务管理。
         - 功能齐全、好用，用法可简可繁。快捷键完备，深得我这个键盘党的喜爱！
         - 一开始用 [__Doit.im__](http://doit.im/cn/) 入门 GTD，虽然它的 Web 端的操作很极致高效，可是客户端做得不尽人意。然后发现自己的生活比较规律，觉得 Apple 自带的 [__Calendar__](https://support.apple.com/zh-cn/HT202835) 够用。后来又改用免费版 [__Wunderlist__](https://www.wunderlist.com/zh/)，捉襟见肘的功能勉强满足个人需求，胜在简洁易用。现在用 2Do。
-        - 推荐使用 iCloud Reminders 的 CalDAV 同步方式（支持 2Do 绝大部分特性，足以满足我的需求）；Dropbox 的同步方式虽然可以支持 2Do 的所有特性，可是需要翻墙才能同步数据，iPhone 需要长期开着 VPN 略显麻烦。所以为了稳定和省心，选择了前一种同步方式。 
+        - 推荐使用 iCloud Reminders 的 CalDAV 同步方式（支持 2Do 绝大部分特性，足以满足我的需求）；Dropbox 的同步方式虽然可以支持 2Do 的所有特性，可是需要翻墙才能同步数据，iPhone 需要长期开着 VPN 略显麻烦。所以为了稳定和省心，选择了前一种同步方式。
     - [__Evernote__](https://www.yinxiang.com/)
         云笔记，第二大脑（知识管理）。
         - 好记性不如烂笔头，而如今知识更新之快，纸笔已跟不上，于是笔记软件大放异彩。云端存储同步笔记（同时定期备份整个硬盘），有备份就不怕丢；便于检索，甚至搜索图片中的文字。总是死记硬背没有出路，不能被检索的知识毫无意义。
         - 现在觉得值得离线记录的东西不多了，用 Google 搜索更便捷，而且还能获得更新更好的资料；值得沉淀的知识不断更新记录在博客就够了。
         - 现在我主要将它作为 Read It Later 类 App 来用。使用方式：[__剪藏__](https://evernote.com/intl/zh-cn/webclipper/)、微博 [__@我的印象笔记__](http://weibo.com/u/2859258962)、微信分享给 __我的印象笔记__、[邮件收藏](https://help.evernote.com/hc/zh-cn/articles/209005347-%E5%A6%82%E4%BD%95%E4%BF%9D%E5%AD%98%E9%82%AE%E4%BB%B6%E8%87%B3Evernote) 等。
         <!-- - 从许多备选中选择了 Evernote，是因为它提供了最为开放的可编程 API，我可以写脚本定制进阶的笔记操作。 -->
-        - Other choices: 
+        - Other choices:
             - [__~~有道云笔记~~__](https://note.youdao.come)：Evernote 迁移到其它平台比较简单，但 [有道云笔记](https://note.youdao.come) 导出的笔记格式经过加密、无法通用，很难迁移到别的平台，所以不推荐使用
             - [__为知笔记__](http://www.wiz.cn/)、[__Leanote__](https://leanote.com/) …
     - [__Notes__](https://support.apple.com/kb/PH22609?viewlocale=en_US&locale=en_JO)
@@ -142,12 +142,15 @@ description: 我的 Mac Apps、电子产品推荐。
 
 - Editors
     其实可以完全用 Vim 来编辑文本文件（在终端中）。
-    - [__Sublime Text__](http://www.sublimetext.com/) <sup>Popular</sup>
-        代码编辑器，我用其替代 TextEdit 作为默认的文本编辑器。Vintage 模式，可用 Vim 键位进行操作。冷启动也快如闪电。
+    - [__VS Code__](https://code.visualstudio.com/) <sup>Best</sup>
+        - 发展至今，足以取代 Sublime Text 的优秀轻量级代码编辑器。
+        - 内置 Git 管理、终端、调试框架，齐全、足量的优秀插件，配置选项完备，使用稳定顺手……
+        - 开源，持续且活跃的开发，更不必说本身有微软过硬的技术实力背书。
+        - 缺点：打开大文件的稳定性、速度和冷启动速度，不如 Sublime Text。
+    - [__Sublime Text__](http://www.sublimetext.com/) <sup>Fastest</sup>
+        代码编辑器，我用其替代 TextEdit 作为默认的文本编辑器。Vintage 模式，可用 Vim 键位进行操作。冷启动快如闪电！（最大的优点）
     - [__~~Atom~~__](https://atom.io/) <sup>Modern</sup>
         相当现代的代码编辑器，体验一流，但是冷启动慢，不如 Sublime Text。
-    - [__~~VS Code~~__](https://code.visualstudio.com/) <sup>潜力股</sup>
-        简洁好用，只是 Vim 插件的体验不如 Atom。
     - [__~~Typora~~__](http://www.typora.io) <sup>Elegant</sup>
         Markdown 编辑器，所见即所得。国人制作，完全免费，支持 Mac、Windows！
         （除了写博文，我很少真的需要预览 Markdown 内容的实际显示效果，所以用一般编辑器即可。）
@@ -164,6 +167,9 @@ description: 我的 Mac Apps、电子产品推荐。
         APIs 开发、测试、归档的辅助工具。
         - Mac 的 HTTP 客户端。用于与 REST 服务交互，以助构建 API、HTTP 请求，检查来自服务器的响应。
         - Others : [__~~Paw~~__](https://luckymarmot.com/zh-hans/paw)
+    - [__LaunchRocket__](https://github.com/jimbojsb/launchrocket)
+        安装在 macOS 系统设置面板的 App，通过 `launchd` 管理各式 services。
+        - 比使用命令行，更便于启动、终止 services 以及进行 root 授权。
 - Data
     - [__Squel Pro__](http://www.sequelpro.com/) <sup>Free</sup>
         管理 MySQL 数据库的 GUI 工具。
