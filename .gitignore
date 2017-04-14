@@ -1,9 +1,10 @@
-.DS_Store
-Thumbs.db
-db.json
 *.log
-node_modules/
-public/
+.DS_Store
+db.json
+Thumbs.db
+.vscode/
 .deploy*/
 .idea/
+node_modules/
+public/
 themes/
