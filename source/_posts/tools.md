@@ -1,6 +1,6 @@
 title: Tools 利器
 date: 2015-11-21
-updated: 2017-04-14
+updated: 2017-04-15
 categories: [Mac]
 tags: [Mac]
 description: 我的 Mac Apps、电子产品推荐。
@@ -243,10 +243,11 @@ About keyboard!
     - [__Bartender 2__](https://www.macbartender.com/) <sup>Clean Menubar</sup>
         收起或彻底隐藏毋需过多关注的菜单栏 App 图标。
     - [__~~CheatSheet~~__](https://www.mediaatelier.com/CheatSheet/) <sup>Tips, for Freshman</sup>
-        快捷键快速提醒。长按 Command 键，显示当前程序的快捷键列表，方便快速入门 Mac 各处的快捷键。（新手专用。）
+        快捷键快速提醒。长按 Command 键，显示当前程序的快捷键列表，方便快速入门 Mac 各处的快捷键。（新手专用）
     - [__ClipMenu__](http://www.clipmenu.com/) <sup>Efficient</sup>
         剪贴板管理。
-        - 支持 URL、纯文本、RTF、图片、文件等各种格式，包括剪贴历史、排序、大小写转换、自定义文段的调出。
+        - 主要用于快速查询剪贴板的历史记录，并提取出需要的内容保存到当前的剪贴板中。
+        - 支持 URL、纯文本、RTF、图片、文件等各种格式，包括剪贴历史的排序、内容的大小写转换、自定义文本的调用。
         - Others : [__Paste__](http://pasteapp.me/) 最好看！[~~Copied~~](http://copiedapp.com/)（没用过）。
     - [__~~HyperSwitcher~~__](https://bahoom.com/hyperswitch) <sup>Best</sup>
         稳定切换同一 App 下各子窗口。
@@ -312,11 +313,6 @@ About keyboard!
         灵活管理 macOS 的 hosts 的方案。
         - 可惜通常情况下，hosts 并不需要复杂的管理；而且还有很多其它手段达到同样的目的。
         对于程序员来说，不如直接在 `.zshrc` 加上 `alias vh='vim hosts'` 一句剪短的配置，然后在命令行直接打开并修改 hosts 文件更省事。
-    - [~~MacID~~](http://macid.co/) <sup>极不推荐</sup>
-        可用其它 Apple 设备唤醒、解锁 Mac、甚至授权「提权」操作。
-        - iPhone、iPad、AppleWatch 用蓝牙链接 Mac 后，可以用 TouchID、iOS 密码、设备的靠近和远离（距离）、蓝牙连接状态或触摸板手势等，来唤醒、解锁 Mac，或锁屏、提权。当指定便携设备远离 Mac，Mac 就会自动锁屏并发出提示；重新靠近 Mac 时，Mac 自动唤醒解锁！
-        - 但蓝牙不时断连后，并不总能快速重连成功，比较恼人。新一代的 macOS 也将会原生支持 Apple 设备解锁 Mac。所以弃用，其它同类型的软件也半斤八两，均不推荐使用。
-        - macOS Sierra (10.12) 之后，就可以使用 AppleWatch 解锁了；新版 MacBook Pro 也可以用指纹解锁了。所以 MacID 这类软件成了彻底的鸡肋！
     - [~~Keymo~~](https://manytricks.com/keymo/) <sup>极不推荐</sup>
         使用键盘操作鼠标，四象限定位法颇有创意！
         - 作为键盘党的我，真要用到鼠标的时候，还是用触控板比较舒心。我的触摸板、鼠标的触控灵敏度（移动速度）向来调到最高，操作还是很快的。
@@ -328,10 +324,6 @@ About keyboard!
 ---
 
 - Enhance
-    - [~~Default Folder X~~](http://stclairsoft.com/DefaultFolderX/) <sup>不推荐</sup>
-    - [~~Path Finder~~](http://cocoatech.com/pathfinder/) <sup>不推荐</sup>
-        用于替代、增强系统默认的文件管理器 Finder。
-        - 我通常都用终端命令行去管理文件系统，Finder 的快捷键烂熟于心，没必要再加额外的工具帮助。
     - [~~Boom~~](http://www.globaldelight.com/boom/index.php) <sup>极不推荐</sup>
         音效增强软件。可用于突破系统音量的上限，留意音量过大可能损坏 Mac 音箱。可有可无。
     - [__~~HazeOver~~__](https://hazeover.com/) <sup>Focus</sup>
@@ -343,14 +335,6 @@ About keyboard!
     - [~~f.lux~~](https://justgetflux.com/) <sup>Health</sup>
         根据所在地当时的日照，自动调整屏幕色温、亮度，减少蓝光对眼睛的刺激，以调整激素水平，保护正常睡眠节律。
         - 然而效果相同的 Night Shift 功能已经在 10.12.4 版本整合到了 macOS 中了！这个应用即将退出历史舞台。
-
----
-
-- Editors
-    - [~~Quiver~~](http://happenapps.com/#quiver) <sup>Powerful</sup>
-        可以记录日记、笔记、摘抄、编写文档、收录代码片段，功能丰富。
-        - 支持标记语言，如 Markdown、LaTeX；可粘贴图片，文本生成流程图、时序图、状态图…
-        - 我用印象笔记足矣，不想再费力挥动这样的“牛刀”。
 
 ---
 
@@ -373,14 +357,12 @@ About keyboard!
         白噪音应用。模拟大自然的声音，屏蔽其它噪音干扰，帮助保持专注，提高效率，放松睡眠。
         - 音乐听久了也累，有时戴个 [__3M 降噪海绵耳塞__](http://item.jd.com/10277731026.html)（便宜），纯粹安静地工作就很专注、舒服，其实毋需白噪音。
         - 可以的话，买 Bose 的 [QC 系列消噪耳机](https://www.bose.cn/zh_cn/products/headphones/noise_cancelling_headphones.html)，效果更佳。我买的是 [QC 20](https://www.bose.cn/zh_cn/products/headphones/earphones/quietcomfort-20i-acoustic-noise-cancelling-headphones.html#v=qc20_apple_black)。
-    - [~~Encrypto~~](http://macpaw.com/encrypto)
-        文件加密、解密软件。为文件和文件夹设置密码，输入正确方可解密访问。真的很少碰到需要使用的场合。
     - [~~CleanMyMac~~](http://cleanmymac.com/) <sup>不推荐</sup>
         Mac 系统清理软件。macOS 本身已经够好用、省心，毋需过多维护，它只不过锦上添花，不客气地说，是画蛇添足、无关痛痒。
         - 帮助卸载一些顽固的软件还是有用的。
-    - [__~~OpenEmu~~__](http://openemu.org/)
+    - [__OpenEmu__](http://openemu.org/)
         游戏机模拟器！可以模拟众多的旧时代的游戏主机！怀旧党福音。
-        - 我又可以方便地玩我最喜欢的 NDS 游戏《最终幻想战略版 A2》啦！（还是少玩为妙。）
+        - 我又可以方便地玩我最喜欢的 NDS 游戏《最终幻想战略版 A2》啦！（还是少玩游戏为妙）
 
 ### iOS
 
