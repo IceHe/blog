@@ -26,7 +26,11 @@ description: 我的 macOS 快捷键列表。
 - Meanings of Font Format:
     - The item with the superscript <sup>_custom_</sup>&nbsp; implies it might `be custom by me`.
 - The italic item is `not frequently-used`.
-- Ref :《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》
+- Related :
+    《 [Tools 利器](/tools) 》
+    《 [Mac Efficiency 效率指北](/mac/efficiency) 》
+- Reference :
+    《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》
 
 ### Key Symbols
 

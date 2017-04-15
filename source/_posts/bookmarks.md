@@ -13,7 +13,7 @@ description: PV Top N 热榜、文章分类列表。
 ## Recent
 
 - [2016 Winter](/think/2016_winter)
-<!-- - [Mac Efficiency 效率指北](/mac/efficiency) -->
+- [Mac Efficiency 效率指北](/mac/efficiency)
 
 ## Favorite
 

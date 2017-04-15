@@ -23,6 +23,9 @@ description: 我的 Mac Apps、电子产品推荐。
     - [__macOS 有哪些值得装的小软件？__](https://www.zhihu.com/question/27870072)
     - [__MacTips__](http://zhuanlan.zhihu.com/MacTips) - Mac 使用经验和技巧。
     - …
+- __Related 相关文章__ :
+    《 [Mac Efficiency 效率指北](/mac/efficiency) 》
+    《 [Mac Shortcuts 快捷键](/mac_shortcuts) 》
 - __Meaning of Font Format 字体格式的含义__
     - ~~删除线~~ 标识的一定是我现在不用的 Apps。
     - __粗体__ 标识的通常是在用的 Apps。
