@@ -4,7 +4,7 @@ updated: 2017-04-15
 no_upd: true
 categories: [Mac]
 tags: [Mac]
-description: 「工具控、键盘党」IceHe.me 对「高效使用 Mac」的拙见。
+description: 关于「如何高效使用 Mac」的个人见解。
 ---
 
 ## 说明
