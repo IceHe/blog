@@ -271,7 +271,7 @@
       
        
         
-      Nice! 51 posts in total. Keep on posting.
+      Nice! 52 posts in total. Keep on posting.
     </span>
 
     
@@ -285,6 +285,43 @@
         <div class="collection-title">
           <h2 class="archive-year motion-element" id="archive-year-2015">2015</h2>
         </div>
+      
+      
+
+      
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h1 class="post-title">
+        
+            <a class="post-title-link" href="/asm/Assembly Language - Note 5/" itemprop="url">
+              
+                <span itemprop="name">ASM 汇编语言 - 5</span>
+              
+            </a>
+        
+      </h1>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2015-04-05T00:00:00+08:00"
+              content="2015-04-05" >
+          04-05
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+
+    
+
+      
+      
+      
+
       
       
 
@@ -540,43 +577,6 @@
 
     
 
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/batch/DOS 特殊符号 Symbol/" itemprop="url">
-              
-                <span itemprop="name">DOS Symbol 特殊符号</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2015-03-02T00:00:00+08:00"
-              content="2015-03-02" >
-          03-02
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
   </section>
 
   
@@ -637,7 +637,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">51</span>
+                <span class="site-state-item-count">52</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -865,15 +865,9 @@
   <script>AV.initialize("u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5");</script>
   <script>
     function timeDesc(time) {
-      return time / 3000 >= 1 ? '3k +' : (
-        time / 1000 >= 1 ? '1k +' : (
-          time / 600 >= 1 ? '600 +' : (
-            time / 300 >= 1 ? '300 +' : (
-              time / 100 >= 1 ? '100 +' : '99 -'
-            )
-          )
-        )
-      );
+      time /= 100;
+      return time >= 10 ? Math.floor(time) / 10 + ' k +'
+        : (time >= 1 ? Math.floor(time) + '00 +' : '99 -');
     }
 
     function showTime(Counter) {
@@ -899,13 +893,12 @@
             var item = results[i];
             var url = item.get('url');
             var time = item.get('time');
-            if (time < 300) {
-              continue;
-            }
-            var element = document.getElementById(url);
+            if (time >= 300) {
+              var element = document.getElementById(url);
 
-            $(element).find(COUNT_CONTAINER_REF).text(timeDesc(time));
-            $(element).removeClass('hidden');
+              $(element).find(COUNT_CONTAINER_REF).text(timeDesc(time));
+              $(element).removeClass('hidden');
+            }
           }
           for(var i = 0; i < entries.length; i++) {
             var url = entries[i];

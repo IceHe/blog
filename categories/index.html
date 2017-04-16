@@ -286,7 +286,7 @@
             13 categories in total
         </div>
         <div class="category-all">
-          <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/ASM/">ASM</a><span class="category-list-count">17</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/AppleScript/">AppleScript</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Batch/">Batch</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/C/">C++</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Git/">Git</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/JavaScript/">JavaScript</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Mac/">Mac</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Web/">Web</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/read/">read</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/think/">think</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/time-mgt/">time mgt</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/whoami/">whoami</a><span class="category-list-count">3</span></li></ul>
+          <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/ASM/">ASM</a><span class="category-list-count">17</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/AppleScript/">AppleScript</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Batch/">Batch</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/C/">C++</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Git/">Git</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/JavaScript/">JavaScript</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Mac/">Mac</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Web/">Web</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/read/">read</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/think/">think</a><span class="category-list-count">6</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/time-mgt/">time mgt</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/whoami/">whoami</a><span class="category-list-count">3</span></li></ul>
         </div>
       </div>
     
@@ -343,7 +343,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">51</span>
+                <span class="site-state-item-count">52</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -565,15 +565,9 @@
   <script>AV.initialize("u1mg4ase5iwhhnyqlavbmd5lkbj7mb5oy4linckob65z1axp", "fe7peybzqmpgludkwu43fk15s655i8neejt3pkoezlqtbeu5");</script>
   <script>
     function timeDesc(time) {
-      return time / 3000 >= 1 ? '3k +' : (
-        time / 1000 >= 1 ? '1k +' : (
-          time / 600 >= 1 ? '600 +' : (
-            time / 300 >= 1 ? '300 +' : (
-              time / 100 >= 1 ? '100 +' : '99 -'
-            )
-          )
-        )
-      );
+      time /= 100;
+      return time >= 10 ? Math.floor(time) / 10 + ' k +'
+        : (time >= 1 ? Math.floor(time) + '00 +' : '99 -');
     }
 
     function showTime(Counter) {
@@ -599,13 +593,12 @@
             var item = results[i];
             var url = item.get('url');
             var time = item.get('time');
-            if (time < 300) {
-              continue;
-            }
-            var element = document.getElementById(url);
+            if (time >= 300) {
+              var element = document.getElementById(url);
 
-            $(element).find(COUNT_CONTAINER_REF).text(timeDesc(time));
-            $(element).removeClass('hidden');
+              $(element).find(COUNT_CONTAINER_REF).text(timeDesc(time));
+              $(element).removeClass('hidden');
+            }
           }
           for(var i = 0; i < entries.length; i++) {
             var url = entries[i];
