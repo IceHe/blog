@@ -4,7 +4,7 @@ updated: 2017-04-16
 no_upd: true
 categories: [think]
 tags: [think]
-description: 三月至六月，夏小记。仍在持续更新中……
+description: 三月至六月，夏小记。（仍在持续更新中）
 ---
 
 ## 《Power 锟的纸牌屋》
