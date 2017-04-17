@@ -1,10 +1,10 @@
-title: 2017 1st Half
-date: 2017-04-17
-updated: 2017-04-17
+title: 2017 Spring
+date: 2017-04-16
+updated: 2017-04-16
 no_upd: true
 categories: [think]
 tags: [think]
-description: 上半年小记，持续更新中。
+description: 三月至六月，夏小记。仍在持续更新中……
 ---
 
 ## 《Power 锟的纸牌屋》
