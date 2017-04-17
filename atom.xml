@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://icehe.me/"/>
-  <updated>2017-04-14T16:00:00.000Z</updated>
+  <updated>2017-04-16T16:00:00.000Z</updated>
   <id>http://icehe.me/</id>
   
   <author>
@@ -14,6 +14,769 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python3 Easy Note</title>
+    <link href="http://icehe.me/python/easy_note/"/>
+    <id>http://icehe.me/python/easy_note/</id>
+    <published>2017-04-16T16:00:00.000Z</published>
+    <updated>2017-04-16T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul>
+<li>参考：<ul>
+<li>学习教程《<a href="http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000" target="_blank" rel="external">廖学峰的 Python 教程</a>》</li>
+</ul>
+</li>
+<li>定位：<ul>
+<li>自己忘记一些 Python3 的语法及其用法时，简单查阅一下本文就能回想起来；</li>
+<li>不会 Python3 但已经学会其它编程语言的人，阅读本文后，就能简单入门使用。</li>
+</ul>
+</li>
+<li>内容：<ul>
+<li>本文由一些简单的说明、Python3 源码及其运行结果组成。</li>
+</ul>
+</li>
+<li>工具：<ul>
+<li>笔记内容由 <a href="http://jupyter.org/" target="_blank" rel="external">Jupyter</a>（交互式的编程笔记）写就，导出为 Markdown。  </li>
+</ul>
+</li>
+</ul>
+<h1 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h1><p>Python 代码文件后缀是 <code>*.py</code> </p>
+<p>在 Python 代码文件首行的「文件编码声明」如下：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># -*- coding: utf-8 -*-</span></div></pre></td></tr></table></figure>
+<h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 单行注释</span></div></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 以下是 多行字符的写法</span></div><div class="line"></div><div class="line"><span class="string">'''多行字符串首行</span></div><div class="line">严格来说 Python 没有专用的多行注释符。</div><div class="line">不过可以利用「多行字符串」的写法，</div><div class="line">来进行「多行代码的注释」。</div><div class="line">多行字符串末尾'''</div></pre></td></tr></table></figure>
+<pre><code>&apos;多行字符串首行\n严格来说 Python 没有专用的多行注释符。\n不过可以利用「多行字符串」的写法，\n来进行「多行代码的注释」。\n多行字符串末尾&apos;
+</code></pre><h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 常量：命名全大写</span></div><div class="line">PI = <span class="number">3.1415926</span></div><div class="line">PI</div></pre></td></tr></table></figure>
+<pre><code>3.1415926
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 字符串</span></div><div class="line"><span class="string">'字符串'</span></div></pre></td></tr></table></figure>
+<pre><code>&apos;字符串&apos;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="string">"\t转义\\字符串\n"</span></div></pre></td></tr></table></figure>
+<pre><code>&apos;\t转义\\字符串\n&apos;
+</code></pre><h2 id="运算"><a href="#运算" class="headerlink" title="运算"></a>运算</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 与</span></div><div class="line"><span class="keyword">True</span> <span class="keyword">and</span> <span class="keyword">False</span></div></pre></td></tr></table></figure>
+<pre><code>False
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 或</span></div><div class="line"><span class="keyword">True</span> <span class="keyword">or</span> <span class="keyword">False</span></div></pre></td></tr></table></figure>
+<pre><code>True
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 非</span></div><div class="line"><span class="keyword">not</span> <span class="keyword">False</span></div></pre></td></tr></table></figure>
+<pre><code>True
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 除法</span></div><div class="line"><span class="number">10</span> / <span class="number">3</span></div></pre></td></tr></table></figure>
+<pre><code>3.3333333333333335
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 整除</span></div><div class="line"><span class="number">10</span> // <span class="number">3</span></div></pre></td></tr></table></figure>
+<pre><code>3
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 取余</span></div><div class="line"><span class="number">10</span> % <span class="number">3</span></div></pre></td></tr></table></figure>
+<pre><code>1
+</code></pre><h2 id="简单的-IO"><a href="#简单的-IO" class="headerlink" title="简单的 IO"></a>简单的 IO</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 输入</span></div><div class="line">name = input()</div></pre></td></tr></table></figure>
+<pre><code>test_input
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 输出</span></div><div class="line">print(name)</div></pre></td></tr></table></figure>
+<pre><code>test_input
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">lines = <span class="string">'''line0</span></div><div class="line">line1</div><div class="line">line2'''</div><div class="line">print(lines)</div></pre></td></tr></table></figure>
+<pre><code>line0
+line1
+line2
+</code></pre><h1 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 字符编码</span></div><div class="line">ord(<span class="string">'A'</span>)</div></pre></td></tr></table></figure>
+<pre><code>65
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 中文字符编码</span></div><div class="line">ord(<span class="string">'中'</span>)</div></pre></td></tr></table></figure>
+<pre><code>20013
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 转义字符串</span></div><div class="line"><span class="string">'\u4e2d\u6587'</span></div></pre></td></tr></table></figure>
+<pre><code>&apos;中文&apos;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 编码转换</span></div><div class="line"><span class="string">'ABC'</span>.encode(<span class="string">'ascii'</span>) <span class="comment"># 输出的 `b'…'` 其中的 b 代表数据类型为 bytes</span></div></pre></td></tr></table></figure>
+<pre><code>b&apos;ABC&apos;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 中文编码转换</span></div><div class="line"><span class="string">'中文'</span>.encode(<span class="string">'utf-8'</span>)</div></pre></td></tr></table></figure>
+<pre><code>b&apos;\xe4\xb8\xad\xe6\x96\x87&apos;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="string">'中文'</span>.encode(<span class="string">'GBK'</span>)</div></pre></td></tr></table></figure>
+<pre><code>b&apos;\xd6\xd0\xce\xc4&apos;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="string">'中文'</span>.encode(<span class="string">'ascii'</span>)</div></pre></td></tr></table></figure>
+<pre><code>---------------------------------------------------------------------------
+
+UnicodeEncodeError                        Traceback (most recent call last)
+
+&lt;ipython-input-56-b318511b2a75&gt; in &lt;module&gt;()
+----&gt; 1 &apos;中文&apos;.encode(&apos;ascii&apos;)
+
+
+UnicodeEncodeError: &apos;ascii&apos; codec can&apos;t encode characters in position 0-1: ordinal not in range(128)
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 解码</span></div><div class="line"><span class="string">b'ABC'</span>.decode(<span class="string">'utf-8'</span>)</div></pre></td></tr></table></figure>
+<pre><code>&apos;ABC&apos;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 中文解码</span></div><div class="line"><span class="string">b'\xd6\xd0\xce\xc4'</span>.decode(<span class="string">'gbk'</span>)</div></pre></td></tr></table></figure>
+<pre><code>&apos;中文&apos;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 字符串长度</span></div><div class="line">len(<span class="string">'ABC'</span>)</div></pre></td></tr></table></figure>
+<pre><code>3
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 中文字符串长度</span></div><div class="line">len(<span class="string">'中文'</span>)</div></pre></td></tr></table></figure>
+<pre><code>2
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 中文字符串转码后的长度</span></div><div class="line">len(<span class="string">'中文'</span>.encode(<span class="string">'utf-8'</span>))</div></pre></td></tr></table></figure>
+<pre><code>6
+</code></pre><h2 id="字符串输出格式化"><a href="#字符串输出格式化" class="headerlink" title="字符串输出格式化"></a>字符串输出格式化</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># %d 整数</span></div><div class="line"><span class="string">'%2d-%02d'</span> % (<span class="number">3</span>, <span class="number">5</span>)</div></pre></td></tr></table></figure>
+<pre><code>&apos; 3-05&apos;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># %f 浮点数</span></div><div class="line"><span class="string">'%.2f'</span> % PI</div></pre></td></tr></table></figure>
+<pre><code>&apos;3.14&apos;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># %s 字符串</span></div><div class="line"><span class="string">'Age: %s'</span> % <span class="number">25</span></div></pre></td></tr></table></figure>
+<pre><code>&apos;Age: 25&apos;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># %x 十六进制整数</span></div><div class="line"><span class="string">'%x'</span> % <span class="number">43</span></div></pre></td></tr></table></figure>
+<pre><code>&apos;2b&apos;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 输出格式为 'xx.x%'</span></div><div class="line"><span class="string">"%.1f%%"</span> % <span class="number">72</span></div></pre></td></tr></table></figure>
+<pre><code>&apos;72.0%&apos;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 字符串的单个字符替换</span></div><div class="line"><span class="string">'abcba'</span>.replace(<span class="string">'a'</span>, <span class="string">'A'</span>)</div></pre></td></tr></table></figure>
+<pre><code>&apos;AbcbA&apos;
+</code></pre><h1 id="列表-list"><a href="#列表-list" class="headerlink" title="列表 list"></a>列表 list</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 列表 list</span></div><div class="line">list1 = [<span class="string">'0'</span>, <span class="string">'a1'</span>, <span class="string">'2b'</span>, <span class="string">'3c'</span>]</div><div class="line">list1</div></pre></td></tr></table></figure>
+<pre><code>[&apos;0&apos;, &apos;a1&apos;, &apos;2b&apos;, &apos;3c&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 列表长度</span></div><div class="line">len(list1)</div></pre></td></tr></table></figure>
+<pre><code>4
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 索引（下标）访问</span></div><div class="line">list1[<span class="number">0</span>]</div></pre></td></tr></table></figure>
+<pre><code>&apos;0&apos;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">list1[<span class="number">2</span>]</div></pre></td></tr></table></figure>
+<pre><code>&apos;2b&apos;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 越界访问</span></div><div class="line">list1[<span class="number">4</span>]</div></pre></td></tr></table></figure>
+<pre><code>---------------------------------------------------------------------------
+
+IndexError                                Traceback (most recent call last)
+
+&lt;ipython-input-33-895f56fd4693&gt; in &lt;module&gt;()
+      1 ## 越界访问
+----&gt; 2 list1[4]
+
+
+IndexError: list index out of range
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 负数索引访问</span></div><div class="line">list1[<span class="number">-1</span>]</div></pre></td></tr></table></figure>
+<pre><code>&apos;3c&apos;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 追加一个元素</span></div><div class="line">list1.append(<span class="string">'last_elem'</span>)</div><div class="line">list1</div></pre></td></tr></table></figure>
+<pre><code>[&apos;0&apos;, &apos;a1&apos;, &apos;2b&apos;, &apos;3c&apos;, &apos;last_elem&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 插入一个元素</span></div><div class="line">list1.insert(<span class="number">1</span>, <span class="string">'insert_elem'</span>)</div><div class="line">list1</div></pre></td></tr></table></figure>
+<pre><code>[&apos;0&apos;, &apos;insert_elem&apos;, &apos;a1&apos;, &apos;2b&apos;, &apos;3c&apos;, &apos;last_elem&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 删除一个列表末尾的元素</span></div><div class="line">list1.pop()</div><div class="line">list1</div></pre></td></tr></table></figure>
+<pre><code>[&apos;0&apos;, &apos;insert_elem&apos;, &apos;a1&apos;, &apos;2b&apos;, &apos;3c&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 删除一个指定位置的元素</span></div><div class="line">list1.pop(<span class="number">1</span>)</div><div class="line">list1</div></pre></td></tr></table></figure>
+<pre><code>[&apos;0&apos;, &apos;a1&apos;, &apos;2b&apos;, &apos;3c&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 替换一个指定位置的元素</span></div><div class="line">list1[<span class="number">2</span>] = <span class="string">'233'</span></div><div class="line">list1</div></pre></td></tr></table></figure>
+<pre><code>[&apos;0&apos;, &apos;a1&apos;, &apos;233&apos;, &apos;3c&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 元素类型混合的列表</span></div><div class="line">mix_list = [<span class="string">'Apple'</span>, <span class="number">1.1</span>, <span class="keyword">True</span>, <span class="number">4</span>]</div><div class="line">mix_list</div></pre></td></tr></table></figure>
+<pre><code>[&apos;Apple&apos;, 1.1, True, 4]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 列表嵌套</span></div><div class="line">aList = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</div><div class="line">bList = [<span class="string">'a'</span>, aList, <span class="string">'c'</span>]</div><div class="line">bList</div></pre></td></tr></table></figure>
+<pre><code>[&apos;a&apos;, [1, 2, 3], &apos;c&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 列表排序</span></div><div class="line">l1 = [<span class="string">'c'</span>, <span class="string">'a'</span>, <span class="string">'b'</span>]</div><div class="line">l1.sort() <span class="comment"># 字典序</span></div><div class="line">l1</div></pre></td></tr></table></figure>
+<pre><code>[&apos;a&apos;, &apos;b&apos;, &apos;c&apos;]
+</code></pre><h1 id="元组-tuple"><a href="#元组-tuple" class="headerlink" title="元组 tuple"></a>元组 tuple</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 元组 tuple</span></div><div class="line">t1 = (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>)</div><div class="line">t1</div></pre></td></tr></table></figure>
+<pre><code>(1, 2, 3)
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 元组元素不可变</span></div><div class="line">t1[<span class="number">1</span>] = <span class="string">'0'</span></div></pre></td></tr></table></figure>
+<pre><code>---------------------------------------------------------------------------
+
+TypeError                                 Traceback (most recent call last)
+
+&lt;ipython-input-11-000b1c67bf12&gt; in &lt;module&gt;()
+      1 # 元组元素不可变
+----&gt; 2 t1[1] = &apos;0&apos;
+
+
+TypeError: &apos;tuple&apos; object does not support item assignment
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 单个元素的元组</span></div><div class="line">t2 = (<span class="number">2</span>) <span class="comment"># 错误的声明方式</span></div><div class="line">t2</div></pre></td></tr></table></figure>
+<pre><code>2
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">t2 = (<span class="number">1</span>,) <span class="comment"># 正确的声明方式：`,` 逗号用于消除歧义</span></div><div class="line">t2</div></pre></td></tr></table></figure>
+<pre><code>(1,)
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># “可变”的元组</span></div><div class="line">t3 = (<span class="string">'a'</span>, <span class="string">'b'</span>, [<span class="string">'A'</span>, <span class="string">'B'</span>])</div><div class="line">t3</div></pre></td></tr></table></figure>
+<pre><code>(&apos;a&apos;, &apos;b&apos;, [&apos;A&apos;, &apos;B&apos;])
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 修改“可变”的元组：实际只是修改元组中的某个（可变的）列表而已</span></div><div class="line">t3[<span class="number">2</span>][<span class="number">0</span>] = <span class="string">'X'</span></div><div class="line">t3[<span class="number">2</span>][<span class="number">1</span>] = <span class="string">'Y'</span></div><div class="line">t3</div></pre></td></tr></table></figure>
+<pre><code>(&apos;a&apos;, &apos;b&apos;, [&apos;X&apos;, &apos;Y&apos;])
+</code></pre><h1 id="语句"><a href="#语句" class="headerlink" title="语句"></a>语句</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 条件语句</span></div><div class="line"></div><div class="line">age = <span class="number">20</span></div><div class="line"></div><div class="line"><span class="keyword">if</span> age &gt;= <span class="number">18</span>: <span class="comment"># 不能忘了写冒号</span></div><div class="line">    print(<span class="string">'adult'</span>)</div><div class="line"><span class="keyword">elif</span> age&gt;= <span class="number">6</span>: <span class="comment"># 条件分支</span></div><div class="line">    print(<span class="string">'teenager'</span>)</div><div class="line"><span class="keyword">else</span>: <span class="comment"># 最后的默认分支</span></div><div class="line">    print(<span class="string">'kid'</span>)</div></pre></td></tr></table></figure>
+<pre><code>adult
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 循环语句</span></div><div class="line"></div><div class="line">names = [<span class="string">'Apple'</span>, <span class="string">'Boy'</span>, <span class="string">'Cat'</span>]</div><div class="line"></div><div class="line"><span class="keyword">for</span> name <span class="keyword">in</span> names: <span class="comment"># for 循环</span></div><div class="line">    print(name)</div></pre></td></tr></table></figure>
+<pre><code>Apple
+Boy
+Cat
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 循环求和</span></div><div class="line">sum = <span class="number">0</span></div><div class="line"></div><div class="line"><span class="keyword">for</span> x <span class="keyword">in</span> [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]:</div><div class="line">    sum += x</div><div class="line"></div><div class="line">sum</div></pre></td></tr></table></figure>
+<pre><code>6
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">sum = <span class="number">0</span></div><div class="line">n = <span class="number">99</span></div><div class="line"></div><div class="line"><span class="keyword">while</span> n &gt; <span class="number">0</span>: <span class="comment"># while 循环</span></div><div class="line">    sum += n</div><div class="line">    n = n - <span class="number">2</span></div><div class="line"></div><div class="line">sum</div></pre></td></tr></table></figure>
+<pre><code>2500
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 整数列生成：range()</span></div><div class="line">r = range(<span class="number">5</span>)</div><div class="line">r</div></pre></td></tr></table></figure>
+<pre><code>range(0, 5)
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#（将正数列）转换为列表：list()</span></div><div class="line">list(r)</div></pre></td></tr></table></figure>
+<pre><code>[0, 1, 2, 3, 4]
+</code></pre><h1 id="字典-dict"><a href="#字典-dict" class="headerlink" title="字典 dict"></a>字典 dict</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 字典 dict</span></div><div class="line">d1 = &#123;<span class="string">'Alice'</span>: <span class="number">95</span>, <span class="string">'Bob'</span>: <span class="number">75</span>, <span class="string">'Cat'</span>: <span class="number">85</span>&#125;</div><div class="line">d1</div></pre></td></tr></table></figure>
+<pre><code>{&apos;Alice&apos;: 95, &apos;Bob&apos;: 75, &apos;Cat&apos;: 85}
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 添加元素（键值对 key-value pair）到字典</span></div><div class="line">d1[<span class="string">'Ice'</span>] = <span class="number">90</span></div><div class="line">d1</div></pre></td></tr></table></figure>
+<pre><code>{&apos;Alice&apos;: 95, &apos;Bob&apos;: 75, &apos;Cat&apos;: 85, &apos;Ice&apos;: 90}
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 访问不存在的元素</span></div><div class="line">d1[<span class="string">'2B'</span>]</div></pre></td></tr></table></figure>
+<pre><code>---------------------------------------------------------------------------
+
+KeyError                                  Traceback (most recent call last)
+
+&lt;ipython-input-21-8e60e5923ffc&gt; in &lt;module&gt;()
+      1 # 访问不存在的元素
+----&gt; 2 d1[&apos;2B&apos;]
+
+
+KeyError: &apos;2B&apos;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 判断字典是否存在某个元素（键 key）</span></div><div class="line"><span class="string">'Hero'</span> <span class="keyword">in</span> d1</div></pre></td></tr></table></figure>
+<pre><code>False
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 字典某个元素不存在时，返回自定义的默认值</span></div><div class="line">d1.get(<span class="string">'Hero'</span>, <span class="number">-1</span>)</div></pre></td></tr></table></figure>
+<pre><code>-1
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 删除一个字典元素</span></div><div class="line">d1.pop(<span class="string">'Ice'</span>) <span class="comment"># 这时会返回这个元素的值</span></div></pre></td></tr></table></figure>
+<pre><code>90
+</code></pre><h1 id="集合-set"><a href="#集合-set" class="headerlink" title="集合 set"></a>集合 set</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 集合 set</span></div><div class="line"></div><div class="line"><span class="comment"># 集合是一个 key（键）的集合，不存储 value（值）</span></div><div class="line">s1 = set([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]) <span class="comment"># 传入的参数是列表，用于初始化</span></div><div class="line">s1</div></pre></td></tr></table></figure>
+<pre><code>{1, 2, 3}
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 没有重复的 key</span></div><div class="line">s1 = set([<span class="number">1</span>, <span class="number">1</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">3</span>]) <span class="comment"># 重复的 key 会被合并</span></div><div class="line">s1</div></pre></td></tr></table></figure>
+<pre><code>{1, 2, 3}
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 添加一个元素</span></div><div class="line">s1.add(<span class="number">4</span>)</div><div class="line">s1</div></pre></td></tr></table></figure>
+<pre><code>{1, 2, 3, 4}
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 无法重复添加相同的元素</span></div><div class="line">s1.add(<span class="number">4</span>)</div><div class="line">s1</div></pre></td></tr></table></figure>
+<pre><code>{1, 2, 3, 4}
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 删除一个元素</span></div><div class="line">s1.remove(<span class="number">4</span>)</div><div class="line">s1</div></pre></td></tr></table></figure>
+<pre><code>{1, 2, 3}
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 准备（集合运算）</span></div><div class="line">s2 = set([<span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>])</div><div class="line">s2</div></pre></td></tr></table></figure>
+<pre><code>{2, 3, 4}
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 集合的交集</span></div><div class="line">s1 &amp; s2</div></pre></td></tr></table></figure>
+<pre><code>{2, 3}
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 集合的并集</span></div><div class="line">s1 | s2</div></pre></td></tr></table></figure>
+<pre><code>{1, 2, 3, 4}
+</code></pre><h1 id="函数-function"><a href="#函数-function" class="headerlink" title="函数 function"></a>函数 function</h1><h2 id="内置函数-build-in"><a href="#内置函数-build-in" class="headerlink" title="内置函数 build-in"></a>内置函数 build-in</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 绝对值</span></div><div class="line">abs(<span class="number">-100</span>)</div></pre></td></tr></table></figure>
+<pre><code>100
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 最大值</span></div><div class="line">max(<span class="number">1</span>, <span class="number">3</span>, <span class="number">2</span>)</div></pre></td></tr></table></figure>
+<pre><code>3
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 类型转换</span></div><div class="line"></div><div class="line"><span class="comment">## 整数</span></div><div class="line">int(<span class="string">'123'</span>)</div></pre></td></tr></table></figure>
+<pre><code>123
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">int(<span class="number">1.23</span>)</div></pre></td></tr></table></figure>
+<pre><code>1
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">## 浮点数</span></div><div class="line">float(<span class="string">'12.3'</span>)</div></pre></td></tr></table></figure>
+<pre><code>12.3
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">## 字符串</span></div><div class="line">str(<span class="number">123</span>)</div></pre></td></tr></table></figure>
+<pre><code>&apos;123&apos;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">## 布尔</span></div><div class="line">bool(<span class="number">1</span>)</div></pre></td></tr></table></figure>
+<pre><code>True
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">bool(<span class="string">''</span>)</div></pre></td></tr></table></figure>
+<pre><code>False
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">## 非零即 True</span></div><div class="line">bool(<span class="number">-1</span>)</div></pre></td></tr></table></figure>
+<pre><code>True
+</code></pre><h2 id="自定义函数"><a href="#自定义函数" class="headerlink" title="自定义函数"></a>自定义函数</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 自定义函数</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">my_abs</span><span class="params">(x)</span>:</span></div><div class="line">    <span class="keyword">if</span> x &gt;= <span class="number">0</span>:</div><div class="line">        <span class="keyword">return</span> x</div><div class="line">    <span class="keyword">else</span>:</div><div class="line">        <span class="keyword">return</span> -x</div><div class="line">    </div><div class="line">my_abs(<span class="number">-1</span>)</div></pre></td></tr></table></figure>
+<pre><code>1
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 语句「跳过」</span></div><div class="line"><span class="keyword">pass</span></div></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">## 什么也不做的函数</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">nop</span><span class="params">()</span>:</span></div><div class="line">    <span class="keyword">pass</span></div><div class="line"></div><div class="line">nop()</div></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">## 什么也不做的分支</span></div><div class="line"><span class="keyword">if</span> age &gt;= <span class="number">1</span>:</div><div class="line">    <span class="keyword">pass</span></div><div class="line"><span class="keyword">else</span>:</div><div class="line">    <span class="comment"># 缺少了 pass 的空分支会报错</span></div></pre></td></tr></table></figure>
+<pre><code>  File &quot;&lt;ipython-input-52-597539bfdf28&gt;&quot;, line 5
+    # 缺少了 pass 的空分支会报错
+                      ^
+SyntaxError: unexpected EOF while parsing
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 函数参数的类型检查</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">my_abs</span><span class="params">(x)</span>:</span></div><div class="line">    <span class="comment">#### 类型检查的语法 isinstance(…)</span></div><div class="line">    <span class="keyword">if</span> <span class="keyword">not</span> isinstance(x, (int, float)):</div><div class="line">        <span class="comment">#### 报参数错误</span></div><div class="line">        <span class="keyword">raise</span> TypeError(<span class="string">'bad oprand type'</span>)</div><div class="line">        </div><div class="line">    <span class="keyword">if</span> x &gt;= <span class="number">0</span>:</div><div class="line">        <span class="keyword">return</span> x</div><div class="line">    <span class="keyword">else</span>:</div><div class="line">        <span class="keyword">return</span> -x</div><div class="line">    </div><div class="line">my_abs(<span class="string">'12'</span>)</div></pre></td></tr></table></figure>
+<pre><code>---------------------------------------------------------------------------
+
+TypeError                                 Traceback (most recent call last)
+
+&lt;ipython-input-53-01e3e9adef36&gt; in &lt;module&gt;()
+     11         return -x
+     12 
+---&gt; 13 my_abs(&apos;12&apos;)
+
+
+&lt;ipython-input-53-01e3e9adef36&gt; in my_abs(x)
+      4     if not isinstance(x, (int, float)):
+      5         #### 报参数错误
+----&gt; 6         raise TypeError(&apos;bad oprand type&apos;)
+      7 
+      8     if x &gt;= 0:
+
+
+TypeError: bad oprand type
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 导入编程模块</span></div><div class="line"><span class="keyword">import</span> math <span class="comment"># 导入 math 包，其中包含 `sin()` 与 `cos()` 函数</span></div></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 多个返回值</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">move</span><span class="params">(x, y, step, angle=<span class="number">0</span>)</span>:</span></div><div class="line">    nx = x + step * math.cos(angle)</div><div class="line">    ny = y = step * math.sin(angle)</div><div class="line">    <span class="keyword">return</span> nx, ny</div><div class="line"></div><div class="line">move(<span class="number">100</span>, <span class="number">100</span>, <span class="number">60</span>, math.pi / <span class="number">6</span>) <span class="comment"># 实际上返回值是元组</span></div></pre></td></tr></table></figure>
+<pre><code>(151.96152422706632, 29.999999999999996)
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># `x, y = …` 的赋值方式可以分别按序获得函数返回的元组中的各个元素</span></div><div class="line">x, y = move(<span class="number">100</span>, <span class="number">100</span>, <span class="number">60</span>, math.pi / <span class="number">6</span>)</div><div class="line">x</div></pre></td></tr></table></figure>
+<pre><code>151.96152422706632
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">y</div></pre></td></tr></table></figure>
+<pre><code>29.999999999999996
+</code></pre><h2 id="函数参数"><a href="#函数参数" class="headerlink" title="函数参数"></a>函数参数</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 函数参数</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">power</span><span class="params">(x, n)</span>:</span> <span class="comment"># 多个函数参数</span></div><div class="line">    s = <span class="number">1</span></div><div class="line">    <span class="keyword">while</span> n &gt; <span class="number">0</span>:</div><div class="line">        n -= <span class="number">1</span></div><div class="line">        s = s * x</div><div class="line">    <span class="keyword">return</span> s</div><div class="line"></div><div class="line">power(<span class="number">2</span>, <span class="number">3</span>)</div></pre></td></tr></table></figure>
+<pre><code>8
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 缺失参数报错</span></div><div class="line">power(<span class="number">2</span>)</div></pre></td></tr></table></figure>
+<pre><code>---------------------------------------------------------------------------
+
+TypeError                                 Traceback (most recent call last)
+
+&lt;ipython-input-68-c11c9f54ebfc&gt; in &lt;module&gt;()
+      1 # 缺失参数报错
+----&gt; 2 power(2)
+
+
+TypeError: power() missing 1 required positional argument: &apos;n&apos;
+</code></pre><h3 id="默认参数-default-param"><a href="#默认参数-default-param" class="headerlink" title="默认参数 default param"></a>默认参数 default param</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 默认参数 default param：也可以称为缺省参数</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">power</span><span class="params">(x, n=<span class="number">2</span>)</span>:</span> <span class="comment"># 必选参数必须在默认参数之前</span></div><div class="line">    s = <span class="number">1</span></div><div class="line">    <span class="keyword">while</span> n &gt; <span class="number">0</span>:</div><div class="line">        n -= <span class="number">1</span></div><div class="line">        s = s * x</div><div class="line">    <span class="keyword">return</span> s</div><div class="line"></div><div class="line">power(<span class="number">2</span>)</div></pre></td></tr></table></figure>
+<pre><code>4
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 注意：默认参数的一个 bug（错用）</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">add_end</span><span class="params">(L=[])</span>:</span></div><div class="line">    L.append(<span class="string">'END'</span>)</div><div class="line">    <span class="keyword">return</span> L</div><div class="line"></div><div class="line">add_end() <span class="comment"># 1st output</span></div></pre></td></tr></table></figure>
+<pre><code>[&apos;END&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">add_end() <span class="comment"># 2nd</span></div></pre></td></tr></table></figure>
+<pre><code>[&apos;END&apos;, &apos;END&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">add_end() <span class="comment"># 3rd</span></div></pre></td></tr></table></figure>
+<pre><code>[&apos;END&apos;, &apos;END&apos;, &apos;END&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 避免上述默认参数问题的方法</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">add_end</span><span class="params">(L=None)</span>:</span></div><div class="line">    <span class="keyword">if</span> L <span class="keyword">is</span> <span class="keyword">None</span>:</div><div class="line">        L = []</div><div class="line">    L.append(<span class="string">'END'</span>)</div><div class="line">    <span class="keyword">return</span> L</div><div class="line"></div><div class="line">add_end() <span class="comment"># 1st</span></div></pre></td></tr></table></figure>
+<pre><code>[&apos;END&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">add_end() <span class="comment"># 2nd 仍然正确</span></div></pre></td></tr></table></figure>
+<pre><code>[&apos;END&apos;]
+</code></pre><h3 id="可变参数"><a href="#可变参数" class="headerlink" title="可变参数"></a>可变参数</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 可变参数</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">sum</span><span class="params">(nums)</span>:</span> <span class="comment"># 一般的函参写法（函参 = 函数参数）</span></div><div class="line">    sum = <span class="number">0</span></div><div class="line">    <span class="keyword">for</span> x <span class="keyword">in</span> nums:</div><div class="line">        sum += x</div><div class="line">    <span class="keyword">return</span> sum</div><div class="line"></div><div class="line"></div><div class="line">sum([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>])<span class="comment"># 一般的函参调用方式：用列表作为函参</span></div></pre></td></tr></table></figure>
+<pre><code>6
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sum((<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>)) <span class="comment"># 用元组作为函参</span></div></pre></td></tr></table></figure>
+<pre><code>6
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 多函参的调用方式！</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">sum</span><span class="params">(*nums)</span>:</span></div><div class="line">    sum = <span class="number">0</span></div><div class="line">    <span class="keyword">for</span> x <span class="keyword">in</span> nums:</div><div class="line">        sum += x</div><div class="line">    <span class="keyword">return</span> sum</div><div class="line"></div><div class="line">sum(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>) <span class="comment"># 三个函参</span></div></pre></td></tr></table></figure>
+<pre><code>6
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sum(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>) <span class="comment"># 四个函参</span></div></pre></td></tr></table></figure>
+<pre><code>10
+</code></pre><h3 id="关键字参数"><a href="#关键字参数" class="headerlink" title="关键字参数"></a>关键字参数</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 关键字参数</span></div><div class="line"></div><div class="line"><span class="comment">## 可变参数，将传入的函参组装成元组 tuple</span></div><div class="line"><span class="comment">## 关键字参数，则将它们组装成字典 dict</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">person</span><span class="params">(name, age, **kw)</span>:</span></div><div class="line">    print(<span class="string">'name:'</span>, name, <span class="string">'age:'</span>, age, <span class="string">'others:'</span>, kw)</div><div class="line"></div><div class="line">person(<span class="string">'Ice'</span>, <span class="number">24</span>)</div></pre></td></tr></table></figure>
+<pre><code>name: Ice age: 24 others: {}
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">person(<span class="string">'IceHe'</span>, <span class="number">25</span>, city=<span class="string">'Beijing'</span>)</div></pre></td></tr></table></figure>
+<pre><code>name: IceHe age: 25 others: {&apos;city&apos;: &apos;Beijing&apos;}
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">person(<span class="string">'IceHe'</span>, <span class="number">25</span>, city=<span class="string">'Beijing'</span>, job=<span class="string">'Engineer'</span>)</div></pre></td></tr></table></figure>
+<pre><code>name: IceHe age: 25 others: {&apos;city&apos;: &apos;Beijing&apos;, &apos;job&apos;: &apos;Engineer&apos;}
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 限制关键字参数的名字</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">person</span><span class="params">(name, age, *, city, job)</span>:</span> <span class="comment"># 简化写法！</span></div><div class="line">    print(name, age, city, job)</div><div class="line"></div><div class="line">person(<span class="string">'Alice'</span>, <span class="string">'12'</span>, <span class="string">'beijing'</span>, <span class="string">'student'</span>) <span class="comment"># 错误用法</span></div></pre></td></tr></table></figure>
+<pre><code>---------------------------------------------------------------------------
+
+TypeError                                 Traceback (most recent call last)
+
+&lt;ipython-input-88-e06e0578d736&gt; in &lt;module&gt;()
+      3     print(name, age, city, job)
+      4 
+----&gt; 5 person(&apos;Alice&apos;, &apos;12&apos;, &apos;beijing&apos;, &apos;student&apos;) # Error
+
+
+TypeError: person() takes 2 positional arguments but 4 were given
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">person(<span class="string">'Alice'</span>, <span class="string">'12'</span>, city=<span class="string">'beijing'</span>, job=<span class="string">'student'</span>) <span class="comment"># 正确用法</span></div></pre></td></tr></table></figure>
+<pre><code>Alice 12 beijing student
+</code></pre><h3 id="参数组合"><a href="#参数组合" class="headerlink" title="参数组合"></a>参数组合</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 参数组合</span></div><div class="line"></div><div class="line"><span class="comment">## 参数定义的顺序必须是：必选参数、默认参数、可变参数、命名关键字参数和关键字参数。</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">f1</span><span class="params">(a, b, c=<span class="number">0</span>, *args, **kw)</span>:</span></div><div class="line">    print(<span class="string">'a ='</span>, a, <span class="string">'b ='</span>, b, <span class="string">'c ='</span>, c, <span class="string">'args ='</span>, args, <span class="string">'kw ='</span>, kw)</div><div class="line"></div><div class="line">f1(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="string">'a'</span>, <span class="string">'b'</span>, x=<span class="number">99</span>)</div></pre></td></tr></table></figure>
+<pre><code>a = 1 b = 2 c = 3 args = (&apos;a&apos;, &apos;b&apos;) kw = {&apos;x&apos;: 99}
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">f2</span><span class="params">(a, b, c=<span class="number">0</span>, *, d, **kw)</span>:</span></div><div class="line">    print(<span class="string">'a ='</span>, a, <span class="string">'b ='</span>, b, <span class="string">'c ='</span>, c, <span class="string">'d ='</span>, d, <span class="string">'kw ='</span>, kw)</div><div class="line"></div><div class="line">f2(<span class="number">1</span>, <span class="number">2</span>, d=<span class="number">99</span>, ext=<span class="keyword">None</span>)</div></pre></td></tr></table></figure>
+<pre><code>a = 1 b = 2 c = 0 d = 99 kw = {&apos;ext&apos;: None}
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 通过 tuple 和 dict 也可以调用上述函数</span></div><div class="line">args = (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>)</div><div class="line">kw = &#123;<span class="string">'d'</span>: <span class="number">88</span>, <span class="string">'x'</span>: <span class="string">'#'</span>&#125;</div><div class="line">f1(*args, **kw) <span class="comment">##### 不要漏掉 `*` 和 `**`</span></div></pre></td></tr></table></figure>
+<pre><code>a = 1 b = 2 c = 3 args = (4,) kw = {&apos;d&apos;: 88, &apos;x&apos;: &apos;#&apos;}
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">args = (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>)</div><div class="line">f2(*args, **kw)</div></pre></td></tr></table></figure>
+<pre><code>a = 1 b = 2 c = 3 d = 88 kw = {&apos;x&apos;: &apos;#&apos;}
+</code></pre><h2 id="递归函数"><a href="#递归函数" class="headerlink" title="递归函数"></a>递归函数</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 递归函数</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">factorial</span><span class="params">(n)</span>:</span></div><div class="line">    <span class="keyword">if</span> n == <span class="number">1</span>:</div><div class="line">        <span class="keyword">return</span> <span class="number">1</span></div><div class="line">    <span class="keyword">return</span> n * factorial(n - <span class="number">1</span>)</div><div class="line"></div><div class="line">factorial(<span class="number">5</span>)</div></pre></td></tr></table></figure>
+<pre><code>120
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 递归嵌套过深导致栈溢出</span></div><div class="line">factorial(<span class="number">1000</span>)</div></pre></td></tr></table></figure>
+<pre><code>---------------------------------------------------------------------------
+
+NameError                                 Traceback (most recent call last)
+
+&lt;ipython-input-95-e1ef40be0628&gt; in &lt;module&gt;()
+      1 # 递归嵌套过深导致栈溢出
+----&gt; 2 factorial(1000)
+
+
+NameError: name &apos;factorial&apos; is not defined
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 尾递归（优化内存使用）</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">factorial2</span><span class="params">(n, p=<span class="number">1</span>)</span>:</span></div><div class="line">    <span class="keyword">if</span> n == <span class="number">1</span>:</div><div class="line">        <span class="keyword">return</span> p</div><div class="line">    <span class="comment"># （尾递归的）思路：将中间结果先计算出来，再返回去！就可以减少使用的栈空间（只用一个栈帧）</span></div><div class="line">    <span class="keyword">return</span> factorial2(n - <span class="number">1</span>, n * p)</div><div class="line"></div><div class="line"><span class="comment"># 虽然已经使用了尾递归的写法，可是 Python 编译器没有做相关优化，所以还是会栈溢出</span></div><div class="line">factorial2(<span class="number">1000</span>)</div></pre></td></tr></table></figure>
+<pre><code>---------------------------------------------------------------------------
+
+RecursionError                            Traceback (most recent call last)
+
+&lt;ipython-input-98-354f146d0995&gt; in &lt;module&gt;()
+      7 
+      8 # 虽然已经使用了尾递归的写法，可是 Python 编译器没有做相关优化，所以还是会栈溢出
+----&gt; 9 factorial2(1000)
+
+
+&lt;ipython-input-98-354f146d0995&gt; in factorial2(n, p)
+      4         return p
+      5     # （尾递归的）思路：将中间结果先计算出来，再返回去！就可以减少使用的栈空间（只用一个栈帧）
+----&gt; 6     return factorial2(n - 1, n * p)
+      7 
+      8 # 虽然已经使用了尾递归的写法，可是 Python 编译器没有做相关优化，所以还是会栈溢出
+
+
+... last 1 frames repeated, from the frame below ...
+
+
+&lt;ipython-input-98-354f146d0995&gt; in factorial2(n, p)
+      4         return p
+      5     # （尾递归的）思路：将中间结果先计算出来，再返回去！就可以减少使用的栈空间（只用一个栈帧）
+----&gt; 6     return factorial2(n - 1, n * p)
+      7 
+      8 # 虽然已经使用了尾递归的写法，可是 Python 编译器没有做相关优化，所以还是会栈溢出
+
+
+RecursionError: maximum recursion depth exceeded in comparison
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 教程中原来的尾递归写法（以上是我自己的写法）</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">fact</span><span class="params">(n)</span>:</span></div><div class="line">    <span class="keyword">return</span> fact_iter(n, <span class="number">1</span>)</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">fact_iter</span><span class="params">(n, p)</span>:</span></div><div class="line">    <span class="keyword">if</span> n == <span class="number">1</span>:</div><div class="line">        <span class="keyword">return</span> p</div><div class="line">    <span class="keyword">return</span> fact_iter(n - <span class="number">1</span>, n * p)</div></pre></td></tr></table></figure>
+<h1 id="切片"><a href="#切片" class="headerlink" title="切片"></a>切片</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 准备切片素材</span></div><div class="line">L = [<span class="string">'Michael'</span>, <span class="string">'Sarah'</span>, <span class="string">'Tracy'</span>, <span class="string">'Bob'</span>, <span class="string">'Jack'</span>]</div><div class="line">L</div></pre></td></tr></table></figure>
+<pre><code>[&apos;Michael&apos;, &apos;Sarah&apos;, &apos;Tracy&apos;, &apos;Bob&apos;, &apos;Jack&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 取前 3 个元素</span></div><div class="line">[L[<span class="number">0</span>], L[<span class="number">1</span>], L[<span class="number">2</span>]] <span class="comment"># 笨拙的写法</span></div></pre></td></tr></table></figure>
+<pre><code>[&apos;Michael&apos;, &apos;Sarah&apos;, &apos;Tracy&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 快捷的写法：切片！</span></div><div class="line">L[:<span class="number">3</span>]</div></pre></td></tr></table></figure>
+<pre><code>[&apos;Michael&apos;, &apos;Sarah&apos;, &apos;Tracy&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># L[:3] 等价于以下写法</span></div><div class="line">L[<span class="number">0</span>:<span class="number">3</span>]</div></pre></td></tr></table></figure>
+<pre><code>[&apos;Michael&apos;, &apos;Sarah&apos;, &apos;Tracy&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 切片第一个参数「起始索引」！（参数由 `:` 分隔）</span></div><div class="line">L[<span class="number">1</span>:<span class="number">3</span>] <span class="comment">#  即从第几个元素开始切</span></div></pre></td></tr></table></figure>
+<pre><code>[&apos;Sarah&apos;, &apos;Tracy&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 从倒数的索引开始切片</span></div><div class="line">L[<span class="number">-2</span>:]</div></pre></td></tr></table></figure>
+<pre><code>[&apos;Bob&apos;, &apos;Jack&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 切片第二个参数「末尾索引」！</span></div><div class="line">L[<span class="number">-2</span>:<span class="number">-1</span>] <span class="comment"># 体会它与 `L[-2:]` 的区别：不包括末尾索引位置的那个元素！</span></div></pre></td></tr></table></figure>
+<pre><code>[&apos;Bob&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 切片第三个参数「索引步长」！</span></div><div class="line">L = list(range(<span class="number">10</span>)) <span class="comment"># 复习：整数列生成</span></div><div class="line">L</div></pre></td></tr></table></figure>
+<pre><code>[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">L[::<span class="number">2</span>] <span class="comment"># 每两个元素中取一个元素</span></div></pre></td></tr></table></figure>
+<pre><code>[0, 2, 4, 6, 8]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">L[::<span class="number">-2</span>] <span class="comment"># 负的步长 -&gt; 倒序取元素！</span></div></pre></td></tr></table></figure>
+<pre><code>[9, 7, 5, 3, 1]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 复制列表</span></div><div class="line">L[:]</div></pre></td></tr></table></figure>
+<pre><code>[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">L.copy() <span class="comment"># 另一种复制方法</span></div></pre></td></tr></table></figure>
+<pre><code>[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 元组切片</span></div><div class="line">tuple(range(<span class="number">10</span>))[:<span class="number">3</span>]</div></pre></td></tr></table></figure>
+<pre><code>(0, 1, 2)
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 字符串切片</span></div><div class="line"><span class="string">'ABCDEFG'</span>[:<span class="number">3</span>]</div></pre></td></tr></table></figure>
+<pre><code>&apos;ABC&apos;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="string">'ABCDEFG'</span>[::<span class="number">3</span>]</div></pre></td></tr></table></figure>
+<pre><code>&apos;ADG&apos;
+</code></pre><h1 id="迭代-iterate"><a href="#迭代-iterate" class="headerlink" title="迭代 iterate"></a>迭代 iterate</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 迭代</span></div><div class="line"></div><div class="line">d = &#123;<span class="string">'a'</span>: <span class="number">1</span>, <span class="string">'b'</span>: <span class="number">2</span>, <span class="string">'c'</span>: <span class="number">3</span>&#125;</div><div class="line"></div><div class="line"><span class="keyword">for</span> k <span class="keyword">in</span> d: <span class="comment"># 单个参数只能获取到元组的键（key）</span></div><div class="line">    print(k)</div></pre></td></tr></table></figure>
+<pre><code>a
+b
+c
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">for</span> k, v <span class="keyword">in</span> d: <span class="comment"># 两个参数也不能正确地分别获取到元组的键值对（key 和 value）</span></div><div class="line">    print(k, v)</div></pre></td></tr></table></figure>
+<pre><code>---------------------------------------------------------------------------
+
+ValueError                                Traceback (most recent call last)
+
+&lt;ipython-input-131-106ecdc04604&gt; in &lt;module&gt;()
+----&gt; 1 for k, v in d: # 两个参数也不能正确地分别获取到元组的键值对（key 和 value）
+      2     print(k, v)
+
+
+ValueError: not enough values to unpack (expected 2, got 1)
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 直接获取元组的 value 的写法：`*.values()`</span></div><div class="line"><span class="keyword">for</span> v <span class="keyword">in</span> d.values():</div><div class="line">    print(v)</div></pre></td></tr></table></figure>
+<pre><code>1
+2
+3
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 正确获取元组的 key =&gt; value 的写法：`*.items()`</span></div><div class="line"><span class="keyword">for</span> k, v <span class="keyword">in</span> d.items():</div><div class="line">    print(k, <span class="string">'=&gt;'</span>, v)</div></pre></td></tr></table></figure>
+<pre><code>a =&gt; 1
+b =&gt; 2
+c =&gt; 3
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 字符串迭代</span></div><div class="line"><span class="keyword">for</span> c <span class="keyword">in</span> <span class="string">'ABC'</span>:</div><div class="line">    print(c)</div></pre></td></tr></table></figure>
+<pre><code>A
+B
+C
+</code></pre><h2 id="对象可否迭代-Iterable"><a href="#对象可否迭代-Iterable" class="headerlink" title="对象可否迭代 Iterable"></a>对象可否迭代 Iterable</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 判断对象是否可迭代？</span></div><div class="line"><span class="keyword">from</span> collections <span class="keyword">import</span> Iterable <span class="comment"># 只导入特定包中的需要用到的特定对象</span></div><div class="line"></div><div class="line">isinstance(<span class="string">'abc'</span>, Iterable)</div></pre></td></tr></table></figure>
+<pre><code>True
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">isinstance([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>], Iterable)</div></pre></td></tr></table></figure>
+<pre><code>True
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">isinstance(<span class="number">123</span>, Iterable)</div></pre></td></tr></table></figure>
+<pre><code>False
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># `enumerate()` 函数，将列表变成 key-value pair</span></div><div class="line"><span class="keyword">for</span> i, v <span class="keyword">in</span> enumerate([<span class="string">'A'</span>, <span class="string">'B'</span>, <span class="string">'C'</span>]):</div><div class="line">    print(i, <span class="string">'=&gt;'</span>, v)</div></pre></td></tr></table></figure>
+<pre><code>0 =&gt; A
+1 =&gt; B
+2 =&gt; C
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 同时引用两个变量</span></div><div class="line"><span class="keyword">for</span> x, y <span class="keyword">in</span> [(<span class="number">1</span>, <span class="number">1</span>), (<span class="number">2</span>, <span class="number">4</span>), (<span class="number">3</span>, <span class="number">9</span>)]:</div><div class="line">    print(x, <span class="string">'=&gt;'</span>, y)</div></pre></td></tr></table></figure>
+<pre><code>1 =&gt; 1
+2 =&gt; 4
+3 =&gt; 9
+</code></pre><h1 id="列表生成式"><a href="#列表生成式" class="headerlink" title="列表生成式"></a>列表生成式</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 列表生成式</span></div><div class="line">r = range(<span class="number">1</span>, <span class="number">11</span>)</div><div class="line">r</div></pre></td></tr></table></figure>
+<pre><code>range(1, 11)
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">list(r) <span class="comment"># 然后用 `list()` 转换为真正的列表</span></div></pre></td></tr></table></figure>
+<pre><code>[0, 1, 2, 3, 4]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 如何获得列表 [1*1, 2*2, …, n*n]</span></div><div class="line"></div><div class="line"><span class="comment">## 笨拙的写法</span></div><div class="line">L = []</div><div class="line"><span class="keyword">for</span> x <span class="keyword">in</span> range(<span class="number">1</span>, <span class="number">11</span>):</div><div class="line">    L.append(x * x)</div><div class="line"></div><div class="line">L</div></pre></td></tr></table></figure>
+<pre><code>[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">## 便捷的写法：列表生成式！</span></div><div class="line">[x * x <span class="keyword">for</span> x <span class="keyword">in</span> range(<span class="number">1</span>, <span class="number">11</span>)]</div></pre></td></tr></table></figure>
+<pre><code>[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 多重循环（一般很少用到三重甚至三重以上的循环）</span></div><div class="line">[m + n <span class="keyword">for</span> m <span class="keyword">in</span> <span class="string">'ABC'</span> <span class="keyword">for</span> n <span class="keyword">in</span> <span class="string">'XYZ'</span>]</div></pre></td></tr></table></figure>
+<pre><code>[&apos;AX&apos;, &apos;AY&apos;, &apos;AZ&apos;, &apos;BX&apos;, &apos;BY&apos;, &apos;BZ&apos;, &apos;CX&apos;, &apos;CY&apos;, &apos;CZ&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[x * y <span class="keyword">for</span> x <span class="keyword">in</span> range(<span class="number">1</span>, <span class="number">4</span>) <span class="keyword">for</span> y <span class="keyword">in</span> range(<span class="number">1</span>, <span class="number">4</span>)]</div></pre></td></tr></table></figure>
+<pre><code>[1, 2, 3, 2, 4, 6, 3, 6, 9]
+</code></pre><h2 id="列表生成式的应用"><a href="#列表生成式的应用" class="headerlink" title="列表生成式的应用"></a>列表生成式的应用</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 例子：列出目录文件</span></div><div class="line"><span class="keyword">import</span> os <span class="comment"># 导入 os 包（模块），用途暂略</span></div><div class="line"></div><div class="line">[d <span class="keyword">for</span> d <span class="keyword">in</span> os.listdir(<span class="string">'.'</span>)]</div></pre></td></tr></table></figure>
+<pre><code>[&apos;.ipynb_checkpoints&apos;, &apos;Fabonacci.ipynb&apos;, &apos;python3.ipynb&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 多个参数的列表生成式</span></div><div class="line">d = &#123;<span class="string">'x'</span>: <span class="string">'A'</span>, <span class="string">'y'</span>: <span class="string">'B'</span>, <span class="string">'z'</span>: <span class="string">'C'</span>&#125;</div><div class="line"></div><div class="line">[k + <span class="string">'='</span> + v <span class="keyword">for</span> k, v <span class="keyword">in</span> d.items()]</div></pre></td></tr></table></figure>
+<pre><code>[&apos;x=A&apos;, &apos;y=B&apos;, &apos;z=C&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 例子：字符串转换为小写</span></div><div class="line">strs = [<span class="string">'Hello'</span>, <span class="string">'World'</span>, <span class="string">'IBM'</span>, <span class="string">'Apple'</span>]</div><div class="line">[s.lower() <span class="keyword">for</span> s <span class="keyword">in</span> strs]</div></pre></td></tr></table></figure>
+<pre><code>[&apos;hello&apos;, &apos;world&apos;, &apos;ibm&apos;, &apos;apple&apos;]
+</code></pre><h1 id="生成器-generator"><a href="#生成器-generator" class="headerlink" title="生成器 generator"></a>生成器 generator</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 生成器 generator</span></div><div class="line"></div><div class="line"><span class="comment">## 对比「列表生成器」</span></div><div class="line">L = [x * x <span class="keyword">for</span> x <span class="keyword">in</span> range(<span class="number">10</span>)]</div><div class="line">L</div></pre></td></tr></table></figure>
+<pre><code>[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment">## 「生成器」只在有需要时，才会计算下一个需要获取的值！</span></div><div class="line">g = (x * x <span class="keyword">for</span> x <span class="keyword">in</span> range(<span class="number">10</span>)) <span class="comment"># Lazy Calculation</span></div><div class="line">g</div></pre></td></tr></table></figure>
+<pre><code>&lt;generator object &lt;genexpr&gt; at 0x102e98360&gt;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">next(g) <span class="comment"># 1st</span></div></pre></td></tr></table></figure>
+<pre><code>0
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">next(g) <span class="comment"># 2nd</span></div></pre></td></tr></table></figure>
+<pre><code>1
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">next(g) <span class="comment"># 3rd</span></div></pre></td></tr></table></figure>
+<pre><code>4
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 用循环语句从生成器获取值（因为用 `next(generator)` 不够方便）</span></div><div class="line"><span class="keyword">for</span> n <span class="keyword">in</span> g:</div><div class="line">    print(n)</div></pre></td></tr></table></figure>
+<pre><code>9
+16
+25
+36
+49
+64
+81
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 例子：斐波拉契数列</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">fibonacci</span><span class="params">(max)</span>:</span></div><div class="line">    n, a, b = <span class="number">0</span>, <span class="number">0</span>, <span class="number">1</span></div><div class="line">    <span class="keyword">while</span> n &lt; max:</div><div class="line">        print(b)</div><div class="line">        a, b = b, a + b</div><div class="line">        n += <span class="number">1</span></div><div class="line">    <span class="keyword">return</span> <span class="string">'done'</span></div><div class="line"></div><div class="line">fibonacci(<span class="number">7</span>)</div></pre></td></tr></table></figure>
+<pre><code>1
+1
+2
+3
+5
+8
+13
+
+
+
+
+
+&apos;done&apos;
+</code></pre><ul>
+<li><p>说明：多变量赋值语句</p>
+<p>  <code>a, b = b, a + b</code></p>
+<p>  等价于</p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">t = (b , a + b)</div><div class="line">a = t[0]</div><div class="line">b = t[1]</div></pre></td></tr></table></figure>
+<h2 id="yield"><a href="#yield" class="headerlink" title="yield"></a>yield</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># yield</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">odd</span><span class="params">()</span>:</span></div><div class="line">    print(<span class="string">'step 1'</span>)</div><div class="line">    <span class="keyword">yield</span> <span class="number">1</span> <span class="comment"># yield 是相对于 return 的存在</span></div><div class="line">    print(<span class="string">'step 2'</span>)</div><div class="line">    <span class="keyword">yield</span> <span class="number">3</span></div><div class="line">    print(<span class="string">'step 3'</span>)</div><div class="line">    <span class="keyword">yield</span> <span class="number">5</span></div></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">o = odd()</div><div class="line"></div><div class="line">next(o) <span class="comment"># 1st</span></div></pre></td></tr></table></figure>
+<pre><code>step 1
+
+
+
+
+
+1
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">next(o) <span class="comment"># 2nd</span></div></pre></td></tr></table></figure>
+<pre><code>step 2
+
+
+
+
+
+3
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">next(o) <span class="comment"># 3rd</span></div></pre></td></tr></table></figure>
+<pre><code>step 3
+
+
+
+
+
+5
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">next(o) <span class="comment"># error：StopIteration</span></div></pre></td></tr></table></figure>
+<pre><code>---------------------------------------------------------------------------
+
+StopIteration                             Traceback (most recent call last)
+
+&lt;ipython-input-176-97e97a5e3d6b&gt; in &lt;module&gt;()
+----&gt; 1 next(o) # error：StopIteration
+
+
+StopIteration: 
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 对 StopIteration 的错误捕获</span></div><div class="line"></div><div class="line">g = fibonacci(<span class="number">6</span>)</div><div class="line"></div><div class="line"><span class="keyword">while</span> <span class="keyword">True</span>:</div><div class="line">    <span class="keyword">try</span>:</div><div class="line">        x = next(g)</div><div class="line">        print(<span class="string">'g:'</span>, x)</div><div class="line">    <span class="keyword">except</span> StopIteration <span class="keyword">as</span> e:</div><div class="line">        print(<span class="string">'Generator return value:'</span>, e.value)</div><div class="line">        <span class="keyword">break</span></div></pre></td></tr></table></figure>
+<pre><code>1
+1
+2
+3
+5
+8
+
+
+
+---------------------------------------------------------------------------
+
+TypeError                                 Traceback (most recent call last)
+
+&lt;ipython-input-177-1ce57457c858&gt; in &lt;module&gt;()
+      5 while True:
+      6     try:
+----&gt; 7         x = next(g)
+      8         print(&apos;g:&apos;, x)
+      9     except StopIteration as e:
+
+
+TypeError: &apos;str&apos; object is not an iterator
+</code></pre><h2 id="生成器的应用"><a href="#生成器的应用" class="headerlink" title="生成器的应用"></a>生成器的应用</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 例子：杨辉三角</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">triangles</span><span class="params">()</span>:</span></div><div class="line">    <span class="keyword">yield</span> [<span class="number">1</span>]</div><div class="line">    </div><div class="line">    L = [<span class="number">1</span>, <span class="number">1</span>]</div><div class="line">    <span class="keyword">yield</span> L</div><div class="line">    </div><div class="line">    cnt = <span class="number">2</span></div><div class="line">    <span class="keyword">while</span> <span class="keyword">True</span>:</div><div class="line">        tmpL = [<span class="number">1</span>]</div><div class="line">        i = <span class="number">1</span></div><div class="line">        <span class="keyword">while</span> i &lt; cnt:</div><div class="line">            tmpL.append(L[i - <span class="number">1</span>] + L[i])</div><div class="line">            i += <span class="number">1</span></div><div class="line">        tmpL.append(<span class="number">1</span>)</div><div class="line">        L = tmpL</div><div class="line">        cnt += <span class="number">1</span></div><div class="line">        <span class="keyword">yield</span> tmpL</div><div class="line"></div><div class="line">n = <span class="number">0</span></div><div class="line"><span class="keyword">for</span> t <span class="keyword">in</span> triangles():</div><div class="line">    print(t)</div><div class="line">    n += <span class="number">1</span></div><div class="line">    <span class="keyword">if</span> n == <span class="number">10</span>:</div><div class="line">        <span class="keyword">break</span></div></pre></td></tr></table></figure>
+<pre><code>[1]
+[1, 1]
+[1, 2, 1]
+[1, 3, 3, 1]
+[1, 4, 6, 4, 1]
+[1, 5, 10, 10, 5, 1]
+[1, 6, 15, 20, 15, 6, 1]
+[1, 7, 21, 35, 35, 21, 7, 1]
+[1, 8, 28, 56, 70, 56, 28, 8, 1]
+[1, 9, 36, 84, 126, 126, 84, 36, 9, 1]
+</code></pre><h1 id="迭代器-Iterator"><a href="#迭代器-Iterator" class="headerlink" title="迭代器 Iterator"></a>迭代器 Iterator</h1><ul>
+<li>可以用 for 遍历的数据类型<ul>
+<li>集合数据类型：list, tuple, dict, set, str</li>
+<li>generator：生成器和带 yield 的 generator function</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 判断可否迭代</span></div><div class="line"><span class="keyword">from</span> collections <span class="keyword">import</span> Iterable</div><div class="line"></div><div class="line">isinstance([], Iterable)</div></pre></td></tr></table></figure>
+<pre><code>True
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">isinstance(&#123;&#125;, Iterable)</div></pre></td></tr></table></figure>
+<pre><code>True
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">isinstance(<span class="string">'abc'</span>, Iterable)</div></pre></td></tr></table></figure>
+<pre><code>True
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">isinstance((x <span class="keyword">for</span> x <span class="keyword">in</span> range(<span class="number">10</span>)), Iterable)</div></pre></td></tr></table></figure>
+<pre><code>True
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">isinstance(<span class="number">100</span>, Iterable)</div></pre></td></tr></table></figure>
+<pre><code>False
+</code></pre><ul>
+<li>生成器可以用 <code>next()</code> 不断调用并返回下一个值，直到最后抛出 StopIteration</li>
+<li>可以被 <code>next()</code> 调用，不断返回下一个值的对象称为迭代器</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 判断是否是一个 Iterator</span></div><div class="line"><span class="keyword">from</span> collections <span class="keyword">import</span> Iterator</div><div class="line"></div><div class="line">isinstance((x <span class="keyword">for</span> x <span class="keyword">in</span> range(<span class="number">10</span>)), Iterator)</div></pre></td></tr></table></figure>
+<pre><code>True
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">isinstance([], Iterator)</div></pre></td></tr></table></figure>
+<pre><code>False
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">isinstance(&#123;&#125;, Iterator)</div></pre></td></tr></table></figure>
+<pre><code>False
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">isinstance(<span class="string">'abc'</span>, Iterator)</div></pre></td></tr></table></figure>
+<pre><code>False
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># list, dict, str 等是 Iterable 但不是 Iterator 的对象可以通过 `iter()` 获得一个对应 Iterator 的对象</span></div><div class="line"><span class="keyword">for</span> x <span class="keyword">in</span> list(range(<span class="number">1</span>, <span class="number">6</span>)):</div><div class="line">    print(x)</div></pre></td></tr></table></figure>
+<pre><code>1
+2
+3
+4
+5
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 以下代码等价于以上代码</span></div><div class="line">it = iter(list(range(<span class="number">1</span>, <span class="number">6</span>)))</div><div class="line"></div><div class="line"><span class="keyword">while</span> <span class="keyword">True</span>:</div><div class="line">    <span class="keyword">try</span>:</div><div class="line">        print(next(it))</div><div class="line">    <span class="keyword">except</span> StopIteration:</div><div class="line">        <span class="keyword">break</span></div></pre></td></tr></table></figure>
+<pre><code>1
+2
+3
+4
+5
+</code></pre><h1 id="高阶函数"><a href="#高阶函数" class="headerlink" title="高阶函数"></a>高阶函数</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 函数对象</span></div><div class="line">abs</div></pre></td></tr></table></figure>
+<pre><code>&lt;function abs&gt;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 将函数签名赋值给变量</span></div><div class="line">f = abs</div><div class="line">f</div></pre></td></tr></table></figure>
+<pre><code>&lt;function abs&gt;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 用函数签名调用函数</span></div><div class="line">f(<span class="number">-10</span>)</div></pre></td></tr></table></figure>
+<pre><code>10
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 简单的高阶函数</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">add</span><span class="params">(x, y, f)</span>:</span></div><div class="line">    <span class="keyword">return</span> f(x) + f(y)</div><div class="line"></div><div class="line">add(<span class="number">-5</span>, <span class="number">6</span>, f)</div></pre></td></tr></table></figure>
+<pre><code>11
+</code></pre><h2 id="map-amp-reduce"><a href="#map-amp-reduce" class="headerlink" title="map &amp; reduce"></a>map &amp; reduce</h2><h3 id="map"><a href="#map" class="headerlink" title="map"></a>map</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Python 内建 `map()` &amp; `reduce()`</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">f</span><span class="params">(x)</span>:</span></div><div class="line">    <span class="keyword">return</span> x * x</div><div class="line"></div><div class="line"><span class="comment"># map</span></div><div class="line">m = map(f, range(<span class="number">1</span>, <span class="number">10</span>))</div><div class="line">m</div></pre></td></tr></table></figure>
+<pre><code>&lt;map at 0x102e402e8&gt;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">list(m)</div></pre></td></tr></table></figure>
+<pre><code>[1, 4, 9, 16, 25, 36, 49, 64, 81]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 以上的 map 写法等价于以下的循环写法</span></div><div class="line">L = []</div><div class="line"></div><div class="line"><span class="keyword">for</span> x <span class="keyword">in</span> range(<span class="number">1</span>, <span class="number">10</span>):</div><div class="line">    L.append(f(x))</div><div class="line">    </div><div class="line">L</div></pre></td></tr></table></figure>
+<pre><code>[1, 4, 9, 16, 25, 36, 49, 64, 81]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">list(map(str, range(<span class="number">1</span>, <span class="number">10</span>)))</div></pre></td></tr></table></figure>
+<pre><code>[&apos;1&apos;, &apos;2&apos;, &apos;3&apos;, &apos;4&apos;, &apos;5&apos;, &apos;6&apos;, &apos;7&apos;, &apos;8&apos;, &apos;9&apos;]
+</code></pre><h3 id="reduce"><a href="#reduce" class="headerlink" title="reduce"></a>reduce</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># reduce</span></div><div class="line"><span class="keyword">from</span> functools <span class="keyword">import</span> reduce</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">add</span><span class="params">(x, y)</span>:</span></div><div class="line">    <span class="keyword">return</span> x + y</div><div class="line"></div><div class="line">reduce(add, list(range(<span class="number">1</span>, <span class="number">10</span>))[::<span class="number">2</span>]) <span class="comment"># [1, 3, 5, 7, 9]</span></div></pre></td></tr></table></figure>
+<pre><code>25
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># reduce 的应用：将字符串 str 转换为整数 int</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">fn</span><span class="params">(x, y)</span>:</span></div><div class="line">    <span class="keyword">return</span> x * <span class="number">10</span> + y</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">char2num</span><span class="params">(ch)</span>:</span></div><div class="line">    <span class="keyword">return</span> &#123;<span class="string">'0'</span>: <span class="number">0</span>, <span class="string">'1'</span>: <span class="number">1</span>, <span class="string">'2'</span>: <span class="number">2</span>, <span class="string">'3'</span>: <span class="number">3</span>, <span class="string">'4'</span>: <span class="number">4</span>, <span class="string">'5'</span>: <span class="number">5</span>, <span class="string">'6'</span>: <span class="number">6</span>, <span class="string">'7'</span>: <span class="number">7</span>, <span class="string">'8'</span>: <span class="number">8</span>, <span class="string">'9'</span>: <span class="number">9</span>&#125;[ch]</div><div class="line"></div><div class="line">reduce(fn, map(char2num, <span class="string">'13579'</span>))</div></pre></td></tr></table></figure>
+<pre><code>13579
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 以上代码可以整理起来</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">s2i</span><span class="params">(s)</span>:</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">fn</span><span class="params">(x, y)</span>:</span></div><div class="line">        <span class="keyword">return</span> x * <span class="number">10</span> + y</div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">char2num</span><span class="params">(ch)</span>:</span></div><div class="line">        <span class="keyword">return</span> &#123;<span class="string">'0'</span>: <span class="number">0</span>, <span class="string">'1'</span>: <span class="number">1</span>, <span class="string">'2'</span>: <span class="number">2</span>, <span class="string">'3'</span>: <span class="number">3</span>, <span class="string">'4'</span>: <span class="number">4</span>, <span class="string">'5'</span>: <span class="number">5</span>, <span class="string">'6'</span>: <span class="number">6</span>, <span class="string">'7'</span>: <span class="number">7</span>, <span class="string">'8'</span>: <span class="number">8</span>, <span class="string">'9'</span>: <span class="number">9</span>&#125;[ch]</div><div class="line">    <span class="keyword">return</span> reduce(fn, map(char2num, s))</div><div class="line"></div><div class="line">s2i(<span class="string">'24680'</span>)</div></pre></td></tr></table></figure>
+<pre><code>24680
+</code></pre><h3 id="组合应用"><a href="#组合应用" class="headerlink" title="组合应用"></a>组合应用</h3><ul>
+<li>利用 <code>map()</code> 函数，把用户输入的不规范的英文名字，变为首字母大写，其他小写的规范名字。<ul>
+<li>输入：[‘adam’, ‘LISA’, ‘barT’]</li>
+<li>输出：[‘Adam’, ‘Lisa’, ‘Bart’]</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div></pre></td></tr></table></figure>
+<ul>
+<li>编写一个 <code>prod()</code> 函数，可以接受一个 list 并利用 reduce() 求积<ul>
+<li>Python 提供的 <code>sum()</code> 函数可以接受一个 list 并求和 </li>
+</ul>
+</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      廖雪峰《Python 教程》的简单笔记。
+    
+    </summary>
+    
+      <category term="php" scheme="http://icehe.me/categories/php/"/>
+    
+    
+      <category term="php" scheme="http://icehe.me/tags/php/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2017 Spring</title>
+    <link href="http://icehe.me/think/2017_spring/"/>
+    <id>http://icehe.me/think/2017_spring/</id>
+    <published>2017-04-15T16:00:00.000Z</published>
+    <updated>2017-04-15T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="《Power-锟的纸牌屋》"><a href="#《Power-锟的纸牌屋》" class="headerlink" title="《Power 锟的纸牌屋》"></a>《Power 锟的纸牌屋》</h2><h3 id="假裝偉大的-POWER"><a href="#假裝偉大的-POWER" class="headerlink" title="假裝偉大的 POWER"></a>假裝偉大的 POWER</h3><p>《第二季第十五集：假裝偉大的POWER》</p>
+<p>pretension 假装，就是假装伟大（伟大这个词可以换成别的词）。即是「你的欲望，超过了你目前能用的资源」，说难听点就是「贪心」。pretension 那就是为了贪心，做出了自己能力做不到的事。</p>
+<p>「化妆、整形」就是假装漂亮。先不要说化妆好不好，应该看看那是怎样的一种心态 —— 那是一个有志气的人！因为她想要更好，她已经在玩政治了，已经开始加入 competition 竞争、面对冲突了！面对择偶的冲突（她们在上进）不是一般的禽兽的欲望（性欲），而是 Desire to Love！所以她们开始「偏激」！</p>
+<ul>
+<li>pretension 假装（pre- 准备）</li>
+<li>tension 紧张、压力</li>
+<li>intention 动机（然后开始角逐）</li>
+<li>contension 角逐（竞争、竞赛）</li>
+<li>extension 扩张！</li>
+</ul>
+<p>讲课的例子：（台湾）总是对 tension（紧张）进行回避忍让，intension（动机）很弱，对 contension（角逐）很害怕！所以，没有 extend（扩张）！害怕竞争怎么能发展！</p>
+<h3 id="哀傷的-POWER"><a href="#哀傷的-POWER" class="headerlink" title="哀傷的 POWER"></a>哀傷的 POWER</h3><p>《第二季第六集：哀傷的POWER》</p>
+<p>人类为什么哀伤？（先叉开主题）人类不要去避免哀伤，人类要 work it out（克服哀伤），而不是 wipe it out（消除哀伤）。</p>
+<p>只有你知道哀伤从哪里来，你才知道快乐何处去？这是一体两面。我们的 sorrows，就是因为 love 和 hate。<strong>因为我们恨，得不到爱，或者失去了爱。</strong>所以我们为了爱而悲伤，想要爱（快乐），但是前路却有障碍。（爱恨是一个矛盾、循环，交织在一起）</p>
+<p>sorrow 没有关系，sorrow 就是 happiness 的 beginning，所以快乐都是当初的哀伤得来的。你越哀伤，越克服这个哀伤的成就感，比你的 sorrow 更大。一点点的忧伤，得到的快乐也只有一点点大。</p>
+<p>(体验更哀伤的事，小哀伤就可以忘记。)</p>
+<h2 id="“抱怨”"><a href="#“抱怨”" class="headerlink" title="“抱怨”"></a>“抱怨”</h2><h3 id="谁叫我蠢啊"><a href="#谁叫我蠢啊" class="headerlink" title="谁叫我蠢啊"></a>谁叫我蠢啊</h3><p>我承认，自己确实是个不怎么聪明（蠢）的人，没什么不好意思的，而且还很久没有好好动过脑筋了。被大量机械式重复无趣的工作内容所束缚着、折磨着，逐渐麻木，业余生活继续放任自流，都快不记得思考的乐趣是怎样的了。</p>
+<p>今天（2017-04-16）偶然碰上一道（不难的）编程题，竟然突然回想起了当年高三备考时刷题的感觉，专注、充实而愉悦，这种「心流」的感觉真是久违了。一些知识领域，只要抓住要点去做，循序渐进（避免过度的挫折），能够不断获得智识上的乐趣。</p>
+<p>重新发现思考的乐趣，起码不用总是像个废宅那样等着动画番剧更新，不用总是像个信息焦虑症患者那样不停地刷着朋友圈、微博、Facebook 和 Twitter，用无尽的 Feed（信息流）来消磨时间。</p>
+<p>Feed，英文释义是喂养、饲料，这个词用得真是妙，庸众被无穷无尽、价值低下的碎片信息（即是饲料）所喂养着，然后成了砧板上待宰的羔羊，被各色以卖广告和用户隐私为生的媒体（特别是社交媒体）所撕扯、分食。天上不会掉馅饼，不愿意花钱买知识，「嗟来之食」通常只能是免费或廉价的垃圾信息。</p>
+<h3 id="命运石之门的选择"><a href="#命运石之门的选择" class="headerlink" title="命运石之门的选择"></a>命运石之门的选择</h3><p>有点嫉妒舍友的运势，又有机会升职加薪了。可惜啊，我不是他，我们是完全不同的人，不可能走得上同样的生活道路。</p>
+<p>所处的部门定位略尴尬，主要处理业务上的脏活，并没有多少核心的技术竞争力。这些脏活，其实只要堆人来做就好了，并不会因为缺了哪个救世主似的大牛，就进行不下去了。而且人员流动性也不强，即使偶尔有人离开，不会给留下的人增加多少机会，反而是增加更多的脏活。</p>
+<p>慨叹也没有用，抱怨更没意思，毕竟学习还是得靠自己，谁叫当年的自己不争气，好好地去修正自己的命运吧。</p>
+<p>（本节小标题的典故（梗）来自动画、游戏作品《命运石之门》）</p>
+<h3 id="鸡汤通常都是对的"><a href="#鸡汤通常都是对的" class="headerlink" title="鸡汤通常都是对的"></a>鸡汤通常都是对的</h3><blockquote>
+<p>被许多人定义为『鸡汤』的东西通常都是对的，它们之所以被这样定义，正是因为这些人做不到。</p>
+</blockquote>
+<p>当然「鸡汤」不一定都对，好的「鸡汤」也难免有特定的适用场景，在此我并不想严谨讨论上面这句话的对错，从中得到一点启示和感想就够了。</p>
+<p>有人这么描述「鸡汤」——「给汤，不给勺」。我觉得这并不是什么大问题，本来「喂鸡汤」就跟「技术分享」一样，本来就不可能短时间内得到很多干货，本来就是不可能一下子改变自己的性格、习惯、天赋，这是自欺欺人，是错误的过度的期待。</p>
+<p>「技术分享」通常是为了引起你对某种技术的兴趣，让你之后会自己找时间去深入探究；「喂鸡汤」也是类似的作用，它振奋了你的精神，提醒你要继续去做努力，命运有再多随机性，也还是有你能够把握的部分。如果花两三个小时看完一本鸡汤书、一篇鸡汤文，能换来一个庸人三天的努力向上，那怕只有一天，难道还不够吗？起码比整天刷剧、打游戏强那么一点点。</p>
+<p>即使你努力了一下下，还离鸡汤里描绘的未来图景差个十万八千里，那又何妨？没错会感觉很沮丧，会觉得「生活欺骗了你」，那不过是抱怨，生活从来就是很麻烦和沮丧，到底是什么给了你「努力一下下，生活就会美好起来」的幻觉。现实生活里的成长，比那些虚耗时间的烂游戏的经验槽涨得更慢，这么说「人生」才是真正的「烂游戏」。</p>
+<p>不过仅仅是为了生活里那一星半点、贫瘠的「乐趣」，已经足够支撑我继续活下去。只要鸡汤还能振奋我的精神，实用主义的我就还会毫不犹豫地把灌下去，至少我觉得这绝不会是「饮鸩止渴」。来壮士，干了这碗鸡汤！</p>
+<h3 id="方向"><a href="#方向" class="headerlink" title="方向"></a>方向</h3><p>整理博客里的「书签」相关博文《<a href="/tech">Technology Bookmarks 技术书签</a>》和《<a href="/read">Reading Bookmarks 阅读书签</a>》，突然觉得自己太像盲头苍蝇了，都老大不小了，还是一个各个方面都是半桶水的「杂家」，毫无方向可言。</p>
+<p>选择真的很重要，不是仅仅做个知道很多的「知道分子」就行了的。抓住一个能够不断愉悦地进步并且赚到足够多钱的方向来钻研，毕竟不是出生在殷实之家，需要深入某个方向成为专家，而不能是东一锄头西一棒槌的胡乱积累。</p>
+<p>慢慢看到了自己的一些改变，确实是已经少了许多牵挂、牵绊。生活还是不够精简，精力不够集中，要集中的方向也不够清晰和准确。要重新思考自己的方向。现在深感视野受限，谁叫我没什么见识呢。</p>
+<h3 id="做事风格"><a href="#做事风格" class="headerlink" title="做事风格"></a>做事风格</h3><p>发现现在自己的做事风格有严重的问题，目标不设得太大就是太小。</p>
+<p>太小的目标没有什么大用，而且还让时间更碎片化了，更加难以集中精力干大事了。太大的目标，没有分解为可行的步骤，反馈周期很长，持续久了人就失去了兴趣和激情显露疲态，效率每况愈下，即使最后完成了，也已经过了很久了。毕竟「一鼓作气，再而衰三而竭。」</p>
+<p>设立合适的「短跑冲刺」式的目标 —— 要稍微超出自己的舒适区，有点挑战性，能够考验智商（锻炼脑力）；其次即使目标再大，分解出的小目标必须要在短期内能够被完成，最好完成时长能在一天之内甚至两三个小时以内。</p>
+<p>工作以来，经常长时间处于麻木不仁、浑浑噩噩、无精打采的状态。现在终于想起自己也曾有过风风火火、雷厉风行的时候，不过已经是很久以前的事了。大概保持那个状态，就能一往无前地做成很多事情吧！突然我又产生了一种找回了自己的感觉「我回来了」。</p>
+<p>哈哈，鸡血又打满了，但是好的精神状态，真的可遇不可求，只能不断内外求索，才略有起色。</p>
+<h4 id="执行力"><a href="#执行力" class="headerlink" title="执行力"></a>执行力</h4><p>举个例子，当我写一篇长博文，必然会碰到写得很不顺的时候，通常非常挫折，几乎写不下去。其实就是因为目标设得太大了，牵涉的话题和内容太广了，我又非要执拗地坚持让内容面面俱到。于是，我的博客文章通常都篇幅很长。看着这些长博文，我就能回想起写的时候，我真是倍受这些文字的摧残。都是靠着持续忍耐才把它们写完，过程中的效率真是不敢恭维。</p>
+<p>当发现难以按照原来计划完成任务时，就应该及时调整目标，缩小关注的面，以期一鼓作气集中解决掉一个规模合适的问题。这样才能有不断的反馈，以催促我不断的进步！</p>
+<h2 id="恋爱"><a href="#恋爱" class="headerlink" title="恋爱"></a>恋爱</h2><h3 id="颜狗"><a href="#颜狗" class="headerlink" title="颜狗"></a>颜狗</h3><p>碰到那些公开自称是「颜狗」的人，我也不知道该持怎样的态度，不敢说「你真坦率」，我只能说「人艰不拆」。曾偶然听到一些人对那方面的八卦议论，我感到了无比的尴尬。你猜我是不是颜狗？</p>
+<p>想像一个发好人卡的场景「你是个好男生，可是我太漂亮了，你配不上。」我觉得这些话挺阴暗的，会做人的人为了避免冲突（日后好相见），一般都会说你是个「好人」，但并不说穿真实的理由（当然这个理由不一定就是这里说到的那些略显阴暗的那些）。本段文字仅仅讨论「颜狗」这一主题，完全忽略「看脸」之外的其它因素的影响。</p>
+<h3 id="自我放弃"><a href="#自我放弃" class="headerlink" title="自我放弃"></a>自我放弃</h3><p>放弃了为了潜在的恋爱对象维持正面的形象，即是自我放弃了。我已经自我放弃很久了。我想试试重拾自己的形象？笑。</p>
+<h3 id="自私的人"><a href="#自私的人" class="headerlink" title="自私的人"></a>自私的人</h3><p>跟一个刚分手的朋友吃饭聊天，联想到了一些东西。我自己是一个挺「自私」的人，承认自己没有「肉包子打狗」（舍得、不吝啬）的气派，也不想把妹，你猜是不是因为酸葡萄心理？</p>
+<p>浅尝辄止、三不主义的做法，把不到妹很正常。也可能是还没有碰到一个所谓的能让人豁出去的「真爱」？工作、休闲、财货勉强略有盈余，过好自己就很不错了，再多一个人就难说了。如果要为了不再一个人牺牲太多去勉强凑合，宁可就此作罢。没有多少人愿意忍受生活质量下降太多（虽然其实人能够适应），我会想：要是两个人一起生活没有变得更好，还在一起干嘛呢？</p>
+<p>当然这是心态问题，一旦恋过，可能那就变成了生活必需品，单着的人反而能够一直单下去。</p>
+<h3 id="爱"><a href="#爱" class="headerlink" title="爱"></a>爱</h3><p>学生时代，觉得付出一份爱，才会得到一份爱，但是不愿意付出太多。后来才发现，付出很多爱，才能得到其中一些，或者一点点。可惜我现在依然那么自私。</p>
+<p>我讨厌别人“那样”对待自己，却偶然发现自己也会以类似的方式对待他人，何其残忍。人平常会高看自己，直到看到了自己的阴暗、自私、愚蠢的行径，才发现自己如此不堪。</p>
+<p>就好像现实中的努力，说是一分耕耘一分收获，但是对于一般人来说，更通常的情况是十分耕耘，才一两分收获。没有天赋异能，没有家底、才华、外貌、身段，没有成就、影响力，就只能一直「搬砖」了。</p>
+<p>因为我真的不敢告诉你，我喜欢你。女神还是活在心中好了，不能得到才能称之为女神。</p>
+<h2 id="夏洛特烦恼"><a href="#夏洛特烦恼" class="headerlink" title="夏洛特烦恼"></a>夏洛特烦恼</h2><p>一个朋友，原来我感觉他活得并不是很明白，但看电影的时候却一下子就能看出其中的主旨所存在的三观问题。我当时倒是觉得这部作品挺好的，看得乐在其中。现在可让我深深怀疑自己是不是三观出了问题，所以没发现这部作品的扭曲。</p>
+<p>我会觉得一个喜剧足够好笑，看完能够再感动一下就很不错了，毕竟娱乐图个乐子而已，不愿意细想细节、剧情和主旨够不够合理和正派。现在想来才发现自己这么实用主义。</p>
+<p>在别人提点之后时，我才发现这部作品其中的扭曲。可能它的主创初衷是好的，可是填充其中的血肉暴露了他们的下限。低俗的笑料，刻板的印象，至少我回头看一遍也看不出有什么高级的幽默讽刺意味。看电影，难道就完全不用在意三观了吗？没错我就是不够在意三观的那部分人之一，所以我有点怀疑是不是自己变坏了，如果不是坏，那就只有蠢这个理由了……</p>
+<h2 id="吃多少才够"><a href="#吃多少才够" class="headerlink" title="吃多少才够"></a>吃多少才够</h2><p>从小形成「不浪费食物」的习惯，让我得到多少食物总会下意识吃完。绝大多数情况下，我都能够吃完分配的食物。可是我不知道适合的度在哪，我到底该吃多少，这是我最忧心。</p>
+<p>以前运动量大还好，可以消耗掉多余的热量，现在运动量小了，还吃那么多就不行了！今天我试着吃少点，吃得差点不多的时候，我确实能感觉自己饱了，可是没法判断饱腹感能够持续多久，能不能撑到下一餐。通常我感觉自己还能继续吃完，然而理智让我少吃点，情感和理智在打架……</p>
+<h3 id="零食饮料成瘾"><a href="#零食饮料成瘾" class="headerlink" title="零食饮料成瘾"></a>零食饮料成瘾</h3><p>最近终于把所有剩余的速溶咖啡和零食都消耗完了。而且这几个月来，体重比过去增重6斤了…… 自己也没有想到，春节过去了这么久也没有恢复的迹象，感觉自己玩大了。少吃多动，真是至理名言，。</p>
+<h2 id="每天都在后悔过去的蠢事"><a href="#每天都在后悔过去的蠢事" class="headerlink" title="每天都在后悔过去的蠢事"></a>每天都在后悔过去的蠢事</h2><p>不够主动。小学曾经参加过乐高机器人相关的比赛。到了初中，发现学校也有相关的活动室，但是愣是没有去找相关的老师问问，你说蠢不蠢。</p>
+<p>还因为不够主动，错过了妹子，人家当年可是喜欢我的，过了这村就没这个店了，可惜我醒悟太晚，又不是不喜欢她。作死抓脸，现在自己的颜值，也就远看能过得去。</p>
+<p>不够努力。小学毕业开始学跆拳道，初一稍微努力过一阵子，然后就荒废了，简直坑爹。高考结束，如果我当时稍微认真一点读 C 语言的入门书，暑假就能过得有意义多了，还是没跨过那道坎。</p>
+<p>太多可笑的蠢事了，想起来再补充。</p>
+<h2 id="最重要的事"><a href="#最重要的事" class="headerlink" title="最重要的事"></a>最重要的事</h2><p>是不是有无数待办事项、书单、文章？其实它们，毫无意义…… 大多数会无疾而终，可能永远都不会被打开。我不会这样，我会花很多时间去读完这些收藏的文章、资料，然后通常的结局还是「删掉」，时间太少，只能囫囵吞枣地读完就算了。这些事情永远不可能完成，只是觉得有趣，稍微还有点养料，就用它们来填充匮乏的生活，这是不可取的。</p>
+<p>为什么我倾向于高看别人，因为他们真的很厉害。我一直都以为自己有长进了，然而并没有！永远用一些次要而简单的事情填充生活，而不是去做最重要的事情。我明白了这么多道理，为什么就是做不好呢？按照一些人的说法，「不做」其实就是「不知」，如果是「真知」的话，肯定会去做。</p>
+<p>每次做这些真正重要的事情，都会很抗拒，消极懈怠，然后无疾而终。智能保持三分钟热度，永远只是一个 loser。</p>
+<p>说回来，知道道理（或者说理论）是一回事，实际做事又是另一回事。面对具体的琐碎，才是真正的抉择，早点睡还是熬夜？这个时间是去学英语还是更新博客？学数学还是去学命令行？我真是头疼，总是在一些积累经验的领域徘徊，积累年资，而不真正地突破舒适区。果然我真的是一个 Loser。</p>
+<p>还有很多东西需要考虑，如何用一个有效的奖惩（反馈）机制，实现自己的理想？怎么将那些毫无意义的事情都放弃，痛下杀手，断臂求生。</p>
+<h2 id="混乱是必然的，别过度整理"><a href="#混乱是必然的，别过度整理" class="headerlink" title="混乱是必然的，别过度整理"></a>混乱是必然的，别过度整理</h2><p>混乱是必然的，是自然规律的总体趋向，世界是总是倾向于熵增。想要恢复整洁的洁癖是需要做不少「功」的，实际上值不值得呢，真不好说啊。我现在觉得不够值得。</p>
+<h2 id="要不走老路？"><a href="#要不走老路？" class="headerlink" title="要不走老路？"></a>要不走老路？</h2><p>做得不爽了，就去做想做的事！<br>策略性拖延还靠谱一些！<br>不想写文章、工作的时候，<br>就读读书，感觉还好些！</p>
+<h2 id="迷上爱豆"><a href="#迷上爱豆" class="headerlink" title="迷上爱豆"></a>迷上爱豆</h2><p>贫瘠的生活里迷上 idol 是很正常的事！<br>不断翻爱豆过往的音乐 MV 等等，简直美不胜收啊！虽然也翻出了黑历史…… 哈哈。</p>
+<h2 id="都是虚空"><a href="#都是虚空" class="headerlink" title="都是虚空"></a>都是虚空</h2><p>一切通过自身少数经验加读过的文字得出的「生活方法论」，都是虚无缥缈、不能自证的。在有任何结果出来之前，这些理论都只不过的臆测。加上随机性的扰动，会发觉命运是无可把握的…… 好似温水煮青蛙。人都有反脆弱的能力，在危机下，反而能成长。</p>
+<h3 id="反脆弱"><a href="#反脆弱" class="headerlink" title="反脆弱"></a>反脆弱</h3><p>这个概念真的让僵化的我醍醐灌顶。早已对「舒适区、学习区、恐慌区」的概念感到麻木了。知道自己一直处于舒适区，但是贪图安逸，一直没有走出去。</p>
+<p>果然，我还是太小看人的适应能力（小看自己），这里的「适应能力」，就是现阶段我所理解的「反脆弱性」！没什么大不了的事，一切「糟糕和美好」都总会过去的。不失去，就不知道现在的美好；失去了，也没什么，花些时间，你总能适应，并不用纠结。</p>
+<p>我以前也失去过我珍视的东西，花了五六年才看开。即使是缺胳膊少腿这种严重的事故，时间长了，也会恢复平静。人是健忘的动物，是坏处也是好处呢。</p>
+<h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><h3 id="职业精神"><a href="#职业精神" class="headerlink" title="职业精神"></a>职业精神</h3><blockquote>
+<p>活干得好坏，就是人品的好坏。</p>
+</blockquote>
+<p>技术含量相对低，不需要才华、需要任劳任怨的工作 —— 可能是这句话的前提。</p>
+<h3 id="一眼看到头的生活"><a href="#一眼看到头的生活" class="headerlink" title="一眼看到头的生活"></a>一眼看到头的生活</h3><p>即使增加个几千一万，生活也是一样的过（当然内心还是希望多多益善的），会过得更开心吗？最大的可能还是维持原状。收入还没多到量变以致质变的程度。生活要自己找到目标，至少要找到乐子，不然活着还有什么意思。</p>
+<h3 id="碌碌无为"><a href="#碌碌无为" class="headerlink" title="碌碌无为"></a>碌碌无为</h3><p>为什么怀缅过去？可能是现在碌碌无为。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      三月至六月，夏小记。（仍在持续更新中）
+    
+    </summary>
+    
+      <category term="think" scheme="http://icehe.me/categories/think/"/>
+    
+    
+      <category term="think" scheme="http://icehe.me/tags/think/"/>
+    
+  </entry>
   
   <entry>
     <title>Mac Efficiency 效率指北</title>
@@ -936,7 +1699,7 @@
 <h1 id="Life-Exp-经验"><a href="#Life-Exp-经验" class="headerlink" title="Life Exp 经验"></a>Life Exp 经验</h1><h2 id="Goal-目标"><a href="#Goal-目标" class="headerlink" title="Goal 目标"></a>Goal 目标</h2><ul>
 <li>人生主题：<strong>专注</strong><br>  选中两三件事，一生沉浸其中，专注使人<strong>快乐</strong>。<br>  <sup>选择可以因时而变，但是同时只能专注两三件事</sup><ul>
 <li>事业：<strong>服务端</strong></li>
-<li>乐趣：<strong>博客</strong><br>  <sup>其次：羽毛球、动漫、美食</sup>  <!-- <sup>运动：羽毛球、毽球、健身。
+<li>乐趣：<strong>博客</strong><br>  <sup>其次：羽毛球、动漫、美食</sup>  <!-- <sup>运动：羽毛球、毽球。
    影视：动漫、电影、日剧、美剧。
    其它：音乐、美食、旅行</sup> --></li>
 <li>情感：<strong>友情</strong>  <!-- <sup>其次：爱情、亲情</sup> -->
@@ -6181,260 +6944,6 @@ Monthly
     
     
       <category term="time mgt" scheme="http://icehe.me/tags/time-mgt/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Reward Me 打赏博主</title>
-    <link href="http://icehe.me/reward/"/>
-    <id>http://icehe.me/reward/</id>
-    <published>2015-05-01T16:00:00.000Z</published>
-    <updated>2016-08-17T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><div id="thx_text" class="hidden"><div class="center"><hr><br>搭建此博客期间，想到其它网站的<strong>捐赠</strong>功能，想必其实现不会太困难，于是查阅资料、动手尝试。<br>《<a href="/web/donate/"><strong>实现博客网站的支付宝打赏功能 —— Donate 打赏博主</strong></a>》记叙了本博客<strong>打赏</strong>功能的实现。<br><br>博主水平有限，仅为好奇实现了该模块，若本博客对您有帮助，仍期待您的打赏~谢谢您的鼓励和支持。<br>If you enjoy the blog, please feel free to donate~Thx for your support.<br><br></div></div></p>
-<script type="text/javascript">    window.onload=function(){    $('#btn_donate').click();    $('#donate_board').parent().append($('#thx_text').html());    }    </script>
-
-<style type="text/css">
-    /* <donate-css> */
-    .donate_bar a.btn_donate{
-        display: inline-block;
-        width: 82px;
-        height: 82px;
-        background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
-        _background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
-
-        -webkit-transition: background 0s;
-        -moz-transition: background 0s;
-        -o-transition: background 0s;
-        -ms-transition: background 0s;
-        transition: background 0s;
-    }
-    .donate_bar a.btn_donate:hover{ background-position: 0px -82px;}
-    .donate_bar .donate_txt {
-        display: block;
-        color: #9d9d9d;
-        font: 14px/2 "Microsoft Yahei";
-    }
-    .bold{ font-weight: bold; }
-    /* </donate-css> */
-</style>
-
-<!--Donate Module--><div id="donate_module"><!--form--><form id="donate" action="https://shenghuo.alipay.com/send/payment/fill.htm" method="POST" target="_blank" accept-charset="GBK"><input name="optEmail" type="hidden" value="ice_he@foxmail.com"><input name="payAmount" type="hidden" value="1.00"><input id="title" name="title" type="hidden" value="打赏《<%= item.title.substr(0, 16) %>》"><input name="memo" type="hidden" value="留下您的大名及联系方式(email,blog,etc)，多交流共勉共进："></form><!--/form--><!--btn_donate&tips--><div id="donate_board" class="donate_bar center"><a id="btn_donate" class="btn_donate" target="_self" href="javascript:;" title="Donate 打赏"></a><span class="donate_txt">&uarr;<br>If you enjoy the article,please feel free to<span class="bold">donate~</span>Thx.<br>若本文对您有帮助，<span class="bold">求打赏~</span>谢谢您的鼓励。</span><br></div><!--/btn_donate&tips--><!--donate guide--><div id="donate_guide" class="donate_bar center hidden"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"><input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="3MPNAMMQA4C8Y">&nbsp;&nbsp;<input type="image" width="auto" height="40em" src="http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg" border="0" name="submit" alt="PayPal——最安全便捷的在线支付方式！"></form><a href="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_03.png" title="Alipay_Scan_Payment" class="fancybox" rel="external" style="display:inline-table" target="_blank"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_03.png" title="Donate 打赏" height="164px" width="164px"></a>&nbsp;<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" title="Alipay_Scan_Payment" class="fancybox" rel="external" style="display:inline-table" target="_blank"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" title="Thanks 谢谢~" height="164px" width="164px"></a>&nbsp;<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png" title="WeChat_Scan_Payment" class="fancybox" rel="external" style="display:inline-table" target="_blank"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png" title="Donate 打赏" height="164px" width="164px"></a><br><br></div><!--/donate guide--></div><!--/Donate Module-->
-<script type="text/javascript">
-/* <donate-script> */
-document.getElementById('btn_donate').onclick = function(){
-    $('#donate_board').addClass('hidden');
-    $('#donate_guide').removeClass('hidden');
-}
-function donate_on_web(){
-    $('#donate').submit();
-}
-/* </donate-script> */
-
-var original_window_onload = window.onload;
-window.onload = function () {
-    if (original_window_onload) {
-        original_window_onload();
-    }
-    document.getElementById('donate_board_wdg').className = 'hidden';
-}
-</script>
-]]></content>
-    
-    <summary type="html">
-    
-      来打赏博主吧~
-    
-    </summary>
-    
-      <category term="whoami" scheme="http://icehe.me/categories/whoami/"/>
-    
-    
-      <category term="whoami" scheme="http://icehe.me/tags/whoami/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>实现网站的打赏功能</title>
-    <link href="http://icehe.me/web/donate/"/>
-    <id>http://icehe.me/web/donate/</id>
-    <published>2015-04-30T16:00:00.000Z</published>
-    <updated>2016-08-17T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h1><p>据网友 HaiSheng_Zhai 在本文评论中的反映，并经笔者简单测试后确认：</p>
-<ul>
-<li>下文中，<strong>以表单提交的方式，</strong>方便地<strong>用网页版 支付宝 支付的方法，已经失效。</strong></li>
-<li>以同样方式进行网页版 <strong>PalPay 支付的方法，仍可使用</strong>。</li>
-</ul>
-<h1 id="扫码打赏"><a href="#扫码打赏" class="headerlink" title="扫码打赏"></a>扫码打赏</h1><ul>
-<li>现在，路边摊都懂得将自己的 微信或支付宝 的 付款二维码 打印出来，粘贴到某处，方便顾客自行用扫码支付。</li>
-<li>建议采用<strong>「扫描支付宝、微信的付款二维码进行支付」</strong>的方式来实现打赏，简单易行。</li>
-</ul>
-<h2 id="获得二维码"><a href="#获得二维码" class="headerlink" title="获得二维码"></a>获得二维码</h2><ul>
-<li>将自己 微信或支付宝 的付款二维码 保存下来。</li>
-<li>它们的版本持续更新后，下文中的具体流程和文案可能与实际情况有出入。</li>
-</ul>
-<h3 id="微信"><a href="#微信" class="headerlink" title="微信"></a>微信</h3><ul>
-<li>打开 微信（显示应用首屏）；</li>
-<li>点击 首屏右上角的加号 <code>+</code> ；</li>
-<li>点击 下拉菜单中的 <code>收付款</code> 选项；</li>
-<li>点击 <code>我要收款</code> 按钮；</li>
-<li>长按（iOS的方式）屏幕中央的付款二维码，下方会弹出一个菜单；<ul>
-<li>可选：点击 屏幕右上角的 <code>设置金额</code> ，定死单次打赏的金额；</li>
-</ul>
-</li>
-<li>点击 从下方弹出的菜单中的 <code>保存图片</code> 选项；<ul>
-<li>可选：使用 手机系统的截屏功能，然后再处理截屏图片。</li>
-</ul>
-</li>
-</ul>
-<h3 id="支付宝"><a href="#支付宝" class="headerlink" title="支付宝"></a>支付宝</h3><ul>
-<li>打开 支付宝（显示应用首屏）；</li>
-<li>点击 首屏右上角的加号 <code>+</code> ；</li>
-<li>点击 下拉菜单中的 <code>收款</code> 选项；<ul>
-<li>可选：点击 二维码图片 正下方的 <code>设置金额</code>，定死单次打赏的金额；</li>
-</ul>
-</li>
-<li>点击 二维码图片 右下方的 <code>下载</code> 图标按钮。</li>
-</ul>
-<h2 id="发布二维码"><a href="#发布二维码" class="headerlink" title="发布二维码"></a>发布二维码</h2><ul>
-<li>使用 <code>Photoshop</code>，或者手机 App <code>美图秀秀</code>、<code>Enlight</code> 等各种工具、方法，编辑二维码图片，打造出自己喜欢的视觉效果，或简洁，或华丽。</li>
-<li>将二维码图片存放到网络上，如 <code>图床</code> 中。<ul>
-<li><strong>方法一</strong>、注册 <a href="http://www.qiniu.com/" target="_blank" rel="external">七牛云存储</a>，把二维码图片存进去，再获得其引用地址。<ul>
-<li>以后可以将您需要在博客展示的图片，都存放到专门的<code>图床</code>（云存储）服务提供商那里，再引用；而非存放到您自己的博客服务器上，因为图床利于加快图片的加载速度。</li>
-<li>还有很多图床，可自行搜索选择。还是推荐 <code>七牛</code>，因为免费空间（10GB）大，方便易用，服务稳定。我只是其忠实用户，并没有收广告费。</li>
-</ul>
-</li>
-<li><strong>方法二</strong>、更简便的方法：把 <a href="http://weibo.com" target="_blank" rel="external">微博</a> 当图床。</li>
-<li>用一条微博将二维码图片发出去；</li>
-<li>在浏览器中，用右键点击微博中的该图片；</li>
-<li>点击右键菜单中的 <code>复制图片链接</code> 选项，就可以获得保存在新浪的二维码图片的网络地址，用于在博客引用图片。</li>
-</ul>
-</li>
-</ul>
-<h2 id="展示二维码"><a href="#展示二维码" class="headerlink" title="展示二维码"></a>展示二维码</h2><ul>
-<li>再在博客中引用，放到合适的位置上，配上合适的文案、排版，引导访客进行打赏。<ul>
-<li>带文章编辑器的博客系统，通常提供便捷的图片插入功能，可以根据具体情况自行操作。</li>
-<li>有些情况需要根据 <code>标记语言</code> 的语法自行输入，如：<ul>
-<li><strong>Markdown 语法</strong>：<code>![图片替代描述](图片的 URL &quot;图片标题&quot;)</code><ul>
-<li>图片替代描述：通常用于图片无法显示的情况，用这段文字内容来描述这张无法显示的图片。可不填。</li>
-<li>图片的 URL：上一步 <code>发布二维码</code> 时，获得的图片链接地址。</li>
-<li>图片标题：鼠标停留在这张图片上时，会悬浮显示的这段文字内容，会显示的文字内容。可不填。</li>
-<li>Markdown 进阶使用详见 <a href="http://www.appinn.com/markdown/#img" target="_blank" rel="external">Markdown 语法说明 (简体中文版)</a>。</li>
-<li>简单实例：<br>  <code>![](http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png)</code></li>
-<li>详细实例：<br>  <code>![二维码](http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png &quot;打赏&quot;)</code>  <!--![二维码](http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png height="164px" width="164px" "打赏")-->
-  <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png" height="164px" width="164px" alt="二维码" title="打赏"></li>
-</ul>
-</li>
-<li><strong>HTML 语法</strong>：<code>&lt;img src=&quot;图片的 URL&quot; alt=&quot;图片替代描述&quot; title=&quot;图片标题&quot; /&gt;</code><ul>
-<li>其中各部分元素的说明，同上一点 <code>Markdown 语法</code> 所述。</li>
-<li>进阶使用详见 <a href="http://w3school.com.cn/tags/tag_img.asp" target="_blank" rel="external">HTML &lt;img&gt; 标签</a>。</li>
-<li>简单实例：<br>  <code>&lt;img src=&quot;http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_03.png&quot;&gt;</code></li>
-<li>详细实例：<br>  <code>&lt;img src=&quot;http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_03.png&quot; alt=&quot;二维码&quot; title=&quot;打赏&quot; /&gt;</code><br>  <img src="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_03.png" height="164px" width="164px" alt="二维码" title="打赏"></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>结尾<ul>
-<li>可以看看本博客打赏模块现在的 <a href="/reward/">做法和效果</a>。</li>
-<li>可以尝试打赏博主，看看整个完整的流程~</li>
-<li>经考虑，保留本文的上一版原文，因为以下部分仍有借鉴价值：<ul>
-<li>包含 PayPal 打赏 的实现方法。</li>
-<li>包含 打赏按钮 的实现方法。</li>
-<li><a href="/web/donate/#实际效果">实际效果见原文结尾 : )</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h1 id="上一版原文"><a href="#上一版原文" class="headerlink" title="上一版原文"></a>上一版原文</h1><ul>
-<li>原来的支付宝钱包有一个实用的功能 「<strong>一键转账</strong>」，使用便捷，且页面看起来专业、正规，令人放心。它对业务站点而言，无疑是个福音。普通博主、站长也常将其用于捐赠和打赏。但支付宝的<a href="http://www.ithome.com/html/it/83096.htm" target="_blank" rel="external"><strong>个人收款主页 停止服务</strong></a>后，支付宝已经无法实现该功能了。</li>
-</ul>
-<h2 id="曲线救国-——-新方法"><a href="#曲线救国-——-新方法" class="headerlink" title="曲线救国 —— 新方法"></a>曲线救国 —— 新方法</h2><p>可以使用一个简单的<strong>表单</strong>（form 标签），通过<strong>POST</strong>一键自动填写「<a href="https://shenghuo.alipay.com/send/payment/fill.htm" target="_blank" rel="external">支付宝转账页面</a>」的信息。方便您的访客、用户转账捐赠、打赏您。</p>
-<ul>
-<li><strong>HTML 代码</strong></li>
-</ul>
-<p><em>注意：修正其中需要您填写的部分。</em></p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"https://shenghuo.alipay.com/send/payment/fill.htm"</span></span></div><div class="line">	<span class="attr">method</span>=<span class="string">"POST"</span> <span class="attr">target</span>=<span class="string">"_blank"</span> <span class="attr">accept-charset</span>=<span class="string">"GBK"</span>&gt;</div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"optEmail"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"你的支付宝账号"</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"payAmount"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"默认的捐赠金额"</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">"title"</span> <span class="attr">name</span>=<span class="string">"title"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"默认显示的付款说明"</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"memo"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"备注"</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"pay"</span> <span class="attr">type</span>=<span class="string">"image"</span> <span class="attr">value</span>=<span class="string">"转账"</span></span></div><div class="line">		<span class="attr">src</span>=<span class="string">"https://img.alipay.com/sys/personalprod/style/mc/btn-index.png"</span> /&gt;</div><div class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></div></pre></td></tr></table></figure>
-<ul>
-<li><strong>显示效果</strong></li>
-</ul>
-<form action="https://shenghuo.alipay.com/send/payment/fill.htm" method="POST" target="_blank" accept-charset="GBK" style="margin-left: 25px; display: inline;">    <input name="optEmail" type="hidden" value="你的支付宝账号">    <input name="payAmount" type="hidden" value="默认的捐赠金额">    <input id="title" name="title" type="hidden" value="默认显示的付款说明">    <input name="memo" type="hidden" value="备注">    <input name="pay" type="image" value="转账" src="https://img.alipay.com/sys/personalprod/style/mc/btn-index.png">    </form>
-
-<ul>
-<li>Reference 参考资料<br>《<a href="http://www.zzyyss.com/archives/809" target="_blank" rel="external">博客网站支付宝打赏功能</a>》</li>
-</ul>
-<h2 id="笔者的自定义的“打赏”按钮"><a href="#笔者的自定义的“打赏”按钮" class="headerlink" title="笔者的自定义的“打赏”按钮"></a>笔者的自定义的“打赏”按钮</h2><ul>
-<li><strong>HTML 代码</strong>：</li>
-</ul>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div></pre></td><td class="code"><pre><div class="line"><span class="comment">&lt;!-- 打赏表单 --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">id</span>=<span class="string">"donate"</span> <span class="attr">action</span>=<span class="string">"https://shenghuo.alipay.com/send/payment/fill.htm"</span></span></div><div class="line">	<span class="attr">method</span>=<span class="string">"POST"</span> <span class="attr">target</span>=<span class="string">"_blank"</span> <span class="attr">accept-charset</span>=<span class="string">"GBK"</span> <span class="attr">style</span>=<span class="string">"display: none;"</span>&gt;</div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"optEmail"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"您的支付宝账号"</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"payAmount"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"默认的打赏金额"</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">"title"</span> <span class="attr">name</span>=<span class="string">"title"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"默认显示的付款说明"</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"memo"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"备注"</span> /&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- /打赏表单 --&gt;</span></div><div class="line"></div><div class="line"><span class="comment">&lt;!-- 打赏按钮的样式表 --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">"text/css"</span>&gt;</span><span class="undefined"></span></div><div class="line">	.donate_bar a.btn_donate&#123;</div><div class="line">		display: inline-block;</div><div class="line">		width: 82px;</div><div class="line">		height: 82px;</div><div class="line">		background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;</div><div class="line">		_background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;</div><div class="line">	&#125;</div><div class="line">	.donate_bar a.btn_donate:hover&#123; background-position: 0px -82px;&#125;</div><div class="line">	.donate_bar .donate_txt &#123;</div><div class="line">		display: block;</div><div class="line">		color: #9d9d9d;</div><div class="line">		font: 14px/2 "Microsoft Yahei";</div><div class="line">	&#125;</div><div class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- /打赏按钮的样式表 --&gt;</span></div><div class="line"></div><div class="line"><span class="comment">&lt;!-- 打赏按钮 --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"donate_bar"</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"btn_donate"</span> <span class="attr">href</span>=<span class="string">"javascript:;"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span></span></div><div class="line">		<span class="attr">onclick</span>=<span class="string">"document.getElementById('donate').submit()"</span>&gt;<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"donate_txt"</span>&gt;</span></div><div class="line">		&amp;uarr;<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">		If you enjoy the blog,</div><div class="line">		please feel free to donate~</div><div class="line">		Thx for your support.</div><div class="line">	<span class="tag">&lt;/<span class="name">span</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"donate_txt"</span>&gt;</span></div><div class="line">		若本文对您有帮助，求打赏~ 谢谢您的支持和鼓励。</div><div class="line">	<span class="tag">&lt;/<span class="name">span</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- /打赏按钮 --&gt;</span></div></pre></td></tr></table></figure>
-<h2 id="进阶的-“打赏”-按钮"><a href="#进阶的-“打赏”-按钮" class="headerlink" title="进阶的 “打赏” 按钮"></a>进阶的 “打赏” 按钮</h2><ul>
-<li>本博客的打赏按钮的实际代码根据需求不断进行调整，最后更新的版本如下：</li>
-</ul>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div></pre></td><td class="code"><pre><div class="line"><span class="comment">&lt;!-- Donate Module --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"donate_module"</span>&gt;</span></div><div class="line">	<span class="comment">&lt;!-- css --&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">"text/css"</span>&gt;</span><span class="xml"></span></div><div class="line">		.donate_bar a.btn_donate&#123;</div><div class="line">			display: inline-block;</div><div class="line">			width: 82px;</div><div class="line">			height: 82px;</div><div class="line">			background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;</div><div class="line">			_background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;</div><div class="line"></div><div class="line">			<span class="comment">&lt;!-- 因为本 hexo 生成的博客所用的 theme 的 a:hover 带动画效果，</span></div><div class="line">				 为了在让打赏按钮显示效果正常 而 添加了以下几行 css，</div><div class="line">				 嵌入其它博客时不一定要它们。 --&gt;</div><div class="line">			-webkit-transition: background 0s;</div><div class="line">			-moz-transition: background 0s;</div><div class="line">			-o-transition: background 0s;</div><div class="line">			-ms-transition: background 0s;</div><div class="line">			transition: background 0s;</div><div class="line">			<span class="comment">&lt;!-- /让打赏按钮的效果显示正常 而 添加的几行 css 到此结束 --&gt;</span></div><div class="line">		&#125;</div><div class="line">		.donate_bar a.btn_donate:hover&#123; background-position: 0px -82px;&#125;</div><div class="line">		.donate_bar .donate_txt &#123;</div><div class="line">			display: block;</div><div class="line">			color: #9d9d9d;</div><div class="line">			font: 14px/2 "Microsoft Yahei";</div><div class="line">		&#125;</div><div class="line">		.bold&#123; font-weight: bold; &#125;</div><div class="line">	<span class="tag">&lt;/<span class="name">style</span>&gt;</span></div><div class="line">	<span class="comment">&lt;!-- /css --&gt;</span></div><div class="line"></div><div class="line">	<span class="comment">&lt;!-- form --&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">form</span> <span class="attr">id</span>=<span class="string">"donate"</span> <span class="attr">action</span>=<span class="string">"https://shenghuo.alipay.com/send/payment/fill.htm"</span> <span class="attr">method</span>=<span class="string">"POST"</span> <span class="attr">target</span>=<span class="string">"_blank"</span> <span class="attr">accept-charset</span>=<span class="string">"GBK"</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"optEmail"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"ice_he@foxmail.com"</span> /&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"payAmount"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"1.00"</span> /&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">"title"</span> <span class="attr">name</span>=<span class="string">"title"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"打赏《&lt;%= item.title.substr(0, 16) %&gt;》"</span>/&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">"memo"</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">value</span>=<span class="string">"留下您的大名及联系方式(email,blog,etc)，多交流共勉共进："</span> /&gt;</span></div><div class="line">	<span class="tag">&lt;/<span class="name">form</span>&gt;</span></div><div class="line">	<span class="comment">&lt;!-- /form --&gt;</span></div><div class="line"></div><div class="line">	<span class="comment">&lt;!-- btn_donate &amp; tips --&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"donate_board"</span> <span class="attr">class</span>=<span class="string">"donate_bar center"</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">"btn_donate"</span> <span class="attr">class</span>=<span class="string">"btn_donate"</span> <span class="attr">target</span>=<span class="string">"_self"</span> <span class="attr">href</span>=<span class="string">"javascript:;"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"donate_txt"</span>&gt;</span></div><div class="line">			&amp;uarr;<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">			If you enjoy the article, please feel free to <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"bold"</span>&gt;</span>donate~<span class="tag">&lt;/<span class="name">span</span>&gt;</span> Thx.<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">			若本文对您有帮助，<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"bold"</span>&gt;</span>求打赏~<span class="tag">&lt;/<span class="name">span</span>&gt;</span> 谢谢您的鼓励。</div><div class="line">		<span class="tag">&lt;/<span class="name">span</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">	<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">	<span class="comment">&lt;!-- /btn_donate &amp; tips --&gt;</span></div><div class="line"></div><div class="line">	<span class="comment">&lt;!-- donate guide --&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"donate_guide"</span> <span class="attr">class</span>=<span class="string">"donate_bar center hidden"</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"https://www.paypal.com/cgi-bin/webscr"</span> <span class="attr">method</span>=<span class="string">"post"</span> <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;</span></div><div class="line">			<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">name</span>=<span class="string">"cmd"</span> <span class="attr">value</span>=<span class="string">"_s-xclick"</span>&gt;</span></div><div class="line">			<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">name</span>=<span class="string">"hosted_button_id"</span> <span class="attr">value</span>=<span class="string">"3MPNAMMQA4C8Y"</span>&gt;</span>	&amp;nbsp; &amp;nbsp;</div><div class="line">			<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"image"</span> <span class="attr">width</span>=<span class="string">"auto"</span> <span class="attr">height</span>=<span class="string">"40em"</span></span></div><div class="line">				<span class="attr">src</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg"</span></div><div class="line">				<span class="attr">border</span>=<span class="string">"0"</span> <span class="attr">name</span>=<span class="string">"submit"</span> <span class="attr">alt</span>=<span class="string">"PayPal——最安全便捷的在线支付方式！"</span></div><div class="line">				<span class="attr">style</span>=<span class="string">"margin-bottom: 0.5em;"</span>&gt;</div><div class="line">		<span class="tag">&lt;/<span class="name">form</span>&gt;</span></div><div class="line"></div><div class="line">		<span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg"</span> <span class="attr">title</span>=<span class="string">"Alipay_Scan_Payment"</span> <span class="attr">class</span>=<span class="string">"fancybox"</span> <span class="attr">rel</span>=<span class="string">"article0"</span>&gt;</span></div><div class="line">			<span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span> <span class="attr">height</span>=<span class="string">"164px"</span> <span class="attr">width</span>=<span class="string">"164px"</span>/&gt;</span></div><div class="line">		<span class="tag">&lt;/<span class="name">a</span>&gt;</span> &amp;nbsp;</div><div class="line"></div><div class="line">		<span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg"</span> <span class="attr">title</span>=<span class="string">"Alipay_Scan_Payment"</span> <span class="attr">class</span>=<span class="string">"fancybox"</span> <span class="attr">rel</span>=<span class="string">"article0"</span>&gt;</span></div><div class="line">			<span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg"</span> <span class="attr">title</span>=<span class="string">"Thanks 谢谢~"</span> <span class="attr">height</span>=<span class="string">"164px"</span> <span class="attr">width</span>=<span class="string">"164px"</span>/&gt;</span></div><div class="line">		<span class="tag">&lt;/<span class="name">a</span>&gt;</span> &amp;nbsp;</div><div class="line"></div><div class="line">		<span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg"</span> <span class="attr">title</span>=<span class="string">"WeChat_Scan_Payment"</span> <span class="attr">class</span>=<span class="string">"fancybox"</span> <span class="attr">rel</span>=<span class="string">"article0"</span>&gt;</span></div><div class="line">			<span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"http://7vzp68.com1.z0.glb.clouddn.com/about_original/wechat_pay_01.jpg"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span> <span class="attr">height</span>=<span class="string">"164px"</span> <span class="attr">width</span>=<span class="string">"auto"</span>/&gt;</span></div><div class="line">		<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line"></div><div class="line">		<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"donate_txt"</span>&gt;</span></div><div class="line">			Use App <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"bold"</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://global.alipay.com/ospay/home.htm"</span>&gt;</span>Alipay<span class="tag">&lt;/<span class="name">a</span>&gt;</span> / <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://www.wechat.com/en/"</span>&gt;</span>WeChat<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></div><div class="line">			to scan QRCode~ Thx for your support.<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line"></div><div class="line">			用手机 <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"bold"</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"https://mobile.alipay.com/index.htm"</span>&gt;</span>支付宝钱包<span class="tag">&lt;/<span class="name">a</span>&gt;</span> / <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://weixin.qq.com/"</span>&gt;</span>微信<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span>，</div><div class="line">			扫一扫即可~ 谢谢您的鼓励。<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">			<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line"></div><div class="line">			Or donate on <span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">"donate_on_web2"</span> <span class="attr">class</span>=<span class="string">"bold"</span> <span class="attr">href</span>=<span class="string">"javascript:donate_on_web();"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span>&gt;</span>Web Alipay<span class="tag">&lt;/<span class="name">a</span>&gt;</span>. /</div><div class="line"></div><div class="line">			也可用 <span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">"donate_on_web1"</span> <span class="attr">class</span>=<span class="string">"bold"</span> <span class="attr">href</span>=<span class="string">"javascript:donate_on_web();"</span> <span class="attr">title</span>=<span class="string">"Donate 打赏"</span>&gt;</span>网页版支付宝<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">			打赏。<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">		<span class="tag">&lt;/<span class="name">span</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">	<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">	<span class="comment">&lt;!-- /donate guide --&gt;</span></div><div class="line"></div><div class="line">	<span class="comment">&lt;!-- donate script --&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="javascript"></span></div><div class="line">		<span class="built_in">document</span>.getElementById(<span class="string">'btn_donate'</span>).onclick = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">			$(<span class="string">'#donate_board'</span>).addClass(<span class="string">'hidden'</span>);</div><div class="line">			$(<span class="string">'#donate_guide'</span>).removeClass(<span class="string">'hidden'</span>);</div><div class="line">		&#125;</div><div class="line"></div><div class="line">		<span class="function"><span class="keyword">function</span> <span class="title">donate_on_web</span>(<span class="params"></span>)</span>&#123;</div><div class="line">			$(<span class="string">'#donate'</span>).submit();</div><div class="line">		&#125;</div><div class="line">	<span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line">	<span class="comment">&lt;!-- /donate script --&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- /Donate Module --&gt;</span></div></pre></td></tr></table></figure>
-<h2 id="实际效果"><a href="#实际效果" class="headerlink" title="实际效果"></a>实际效果</h2><ul>
-<li>以下是本博客打赏按钮的<strong>显示效果</strong>，<em>点击可以打赏博主哦~</em></li>
-</ul>
-<p><br></p>
-<style type="text/css">
-    /* <donate-css> */
-    .donate_bar a.btn_donate{
-        display: inline-block;
-        width: 82px;
-        height: 82px;
-        background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
-        _background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
-
-        -webkit-transition: background 0s;
-        -moz-transition: background 0s;
-        -o-transition: background 0s;
-        -ms-transition: background 0s;
-        transition: background 0s;
-    }
-    .donate_bar a.btn_donate:hover{ background-position: 0px -82px;}
-    .donate_bar .donate_txt {
-        display: block;
-        color: #9d9d9d;
-        font: 14px/2 "Microsoft Yahei";
-    }
-    .bold{ font-weight: bold; }
-    /* </donate-css> */
-</style>
-
-<!--Donate Module--><div id="donate_module"><!--form--><form id="donate" action="https://shenghuo.alipay.com/send/payment/fill.htm" method="POST" target="_blank" accept-charset="GBK"><input name="optEmail" type="hidden" value="ice_he@foxmail.com"><input name="payAmount" type="hidden" value="1.00"><input id="title" name="title" type="hidden" value="打赏《<%= item.title.substr(0, 16) %>》"><input name="memo" type="hidden" value="留下您的大名及联系方式(email,blog,etc)，多交流共勉共进："></form><!--/form--><!--btn_donate&tips--><div id="donate_board" class="donate_bar center"><a id="btn_donate" class="btn_donate" target="_self" href="javascript:;" title="Donate 打赏"></a><span class="donate_txt">&uarr;<br>If you enjoy the article,please feel free to<span class="bold">donate~</span>Thx.<br>若本文对您有帮助，<span class="bold">求打赏~</span>谢谢您的鼓励。</span><br></div><!--/btn_donate&tips--><!--donate guide--><div id="donate_guide" class="donate_bar center hidden"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"><input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="3MPNAMMQA4C8Y">&nbsp;&nbsp;<input type="image" width="auto" height="40em" src="http://7vzp68.com1.z0.glb.clouddn.com/about/palpay_donate_button_00.jpg" border="0" name="submit" alt="PayPal——最安全便捷的在线支付方式！"></form><a href="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_02.jpg" title="Alipay_Scan_Payment" class="fancybox" rel="external" style="display:inline-table" target="_blank"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/ali_pay_03.png" title="Donate 打赏" height="164px" width="164px"></a>&nbsp;<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" title="Alipay_Scan_Payment" class="fancybox" rel="external" style="display:inline-table" target="_blank"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_04.jpg" title="Thanks 谢谢~" height="164px" width="164px"></a>&nbsp;<a href="http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png" title="WeChat_Scan_Payment" class="fancybox" rel="external" style="display:inline-table" target="_blank"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/wechat_pay_00.png" title="Donate 打赏" height="164px" width="164px"></a><br><br><span class="donate_txt">Use App<span class="bold"><a href="http://global.alipay.com/ospay/home.htm" target="_blank" rel="external">Alipay</a>/<a href="http://www.wechat.com/en/" target="_blank" rel="external">WeChat</a></span>to scan QRCode~Thx for your support.<br>用手机<span class="bold"><a href="https://mobile.alipay.com/index.htm" target="_blank" rel="external">支付宝钱包</a>/<a href="http://weixin.qq.com/" target="_blank" rel="external">微信</a></span>，扫一扫即可~谢谢您的鼓励。<br><br>Or donate on<a id="donate_on_web2" class="bold" href="javascript:donate_on_web();" title="Donate 打赏" target="_blank" rel="external">Web Alipay</a>./也可用<a id="donate_on_web1" class="bold" href="javascript:donate_on_web();" title="Donate 打赏" target="_blank" rel="external">网页版支付宝</a>打赏。<br></span></div><!--/donate guide--></div><!--/Donate Module-->
-<script type="text/javascript">
-/* <donate-script> */
-document.getElementById('btn_donate').onclick = function(){
-    $('#donate_board').addClass('hidden');
-    $('#donate_guide').removeClass('hidden');
-}
-function donate_on_web(){
-    $('#donate').submit();
-}
-/* </donate-script> */
-
-var original_window_onload = window.onload;
-window.onload = function () {
-    if (original_window_onload) {
-        original_window_onload();
-    }
-    document.getElementById('donate_board_wdg').className = 'hidden';
-}
-</script>
-]]></content>
-    
-    <summary type="html">
-    
-      可用一个简单的表单（form 标签），通过POST一键自动填写「支付宝转账页面」的信息。还有，笔者自定义的“打赏”按钮方案！
-    
-    </summary>
-    
-      <category term="Web" scheme="http://icehe.me/categories/Web/"/>
-    
-    
-      <category term="Web" scheme="http://icehe.me/tags/Web/"/>
     
   </entry>
   

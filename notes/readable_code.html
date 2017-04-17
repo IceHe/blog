@@ -518,7 +518,7 @@ getMean()的实现是要遍历所有经过的数据并同时计算中值。如�
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">51</span>
+                <span class="site-state-item-count">53</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -775,7 +775,7 @@ getMean()的实现是要遍历所有经过的数据并同时计算中值。如�
             var item = results[i];
             var url = item.get('url');
             var time = item.get('time');
-            if (time >= 300) {
+            if (time >= 200) {
               var element = document.getElementById(url);
 
               $(element).find(COUNT_CONTAINER_REF).text(timeDesc(time));
