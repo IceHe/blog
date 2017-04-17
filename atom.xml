@@ -669,10 +669,10 @@ TypeError: &apos;str&apos; object is not an iterator
     
     </summary>
     
-      <category term="php" scheme="http://icehe.me/categories/php/"/>
+      <category term="python" scheme="http://icehe.me/categories/python/"/>
     
     
-      <category term="php" scheme="http://icehe.me/tags/php/"/>
+      <category term="python" scheme="http://icehe.me/tags/python/"/>
     
   </entry>
   
@@ -5418,7 +5418,7 @@ __`⌘ r` Show | Hide Lyrics__
     <link href="http://icehe.me/bookmarks/"/>
     <id>http://icehe.me/bookmarks/</id>
     <published>2015-12-19T16:00:00.000Z</published>
-    <updated>2017-03-17T16:00:00.000Z</updated>
+    <updated>2017-04-16T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Top-20"><a href="#Top-20" class="headerlink" title="Top 20"></a>Top 20</h2><div class="post-toc" style="max-height: 1220px; width: calc(100% + 0px);" id="popular-post-div2"> <div class="post-toc-content"> <ol class="nav" id="popular-list2"></ol> </div> </div>
 
@@ -5474,10 +5474,14 @@ __`⌘ r` Show | Hide Lyrics__
 <li><a href="/batch/DOS 特殊符号 Symbol/">DOS Symbols 特殊符号</a></li>
 <li><a href="/batch/DOS 环境变量 Environment Variable/">DOS Environment Variable 环境变量</a></li>
 </ul>
-<h2 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a><a href="/javascript/某次js代码优化过程">JavaScript</a></h2><ul>
+<h2 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a><a href="/categories/javascript">JavaScript</a></h2><ul>
 <li><a href="/javascript/某次js代码优化过程/">某次 JavaScript 代码优化过程</a></li>
 </ul>
+<h2 id="Python"><a href="#Python" class="headerlink" title="Python"></a><a href="/categories/python">Python</a></h2><ul>
+<li><a href="/python/easy_note">Python3 Easy Note</a></li>
+</ul>
 <h2 id="Think"><a href="#Think" class="headerlink" title="Think"></a><a href="/categories/think">Think</a></h2><ul>
+<li><a href="/think/2017_spring">2017 Spring</a></li>
 <li><a href="/think/2016_winter">2016 Winter</a></li>
 <li><a href="/think/2016_fall">2016 Fall</a></li>
 <li><a href="/think/2016_summer">2016 Summer</a></li>
