@@ -1,6 +1,6 @@
 title: Navigation 博客导航
 date: 2015-12-20
-updated: 2017-03-18
+updated: 2017-04-17
 categories: [read]
 tags: [read]
 description: PV Top N 热榜、文章分类列表。
@@ -67,12 +67,17 @@ description: PV Top N 热榜、文章分类列表。
 - [DOS Symbols 特殊符号](/batch/DOS 特殊符号 Symbol/)
 - [DOS Environment Variable 环境变量](/batch/DOS 环境变量 Environment Variable/)
 
-## [JavaScript](/javascript/某次js代码优化过程)
+## [JavaScript](/categories/javascript)
 
 - [某次 JavaScript 代码优化过程](/javascript/某次js代码优化过程/)
 
+## [Python](/categories/python)
+
+- [Python3 Easy Note](/python/easy_note)
+
 ## [Think](/categories/think)
 
+- [2017 Spring](/think/2017_spring)
 - [2016 Winter](/think/2016_winter)
 - [2016 Fall](/think/2016_fall)
 - [2016 Summer](/think/2016_summer)
