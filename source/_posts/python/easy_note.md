@@ -2,8 +2,8 @@ title: Python3 Easy Note
 date: 2017-04-17
 updated: 2017-04-17
 no_upd: true
-categories: [php]
-tags: [php]
+categories: [python]
+tags: [python]
 description: 廖雪峰《Python 教程》的简单笔记。
 ---
 
@@ -13,7 +13,7 @@ description: 廖雪峰《Python 教程》的简单笔记。
     - 自己忘记一些 Python3 的语法及其用法时，简单查阅一下本文就能回想起来；
     - 不会 Python3 但已经学会其它编程语言的人，阅读本文后，就能简单入门使用。
 - 内容：
-    - 本文由一些简单的说明、Python3 源码及其运行结果组成。
+    - 本文由一些简单的说明、Python3 代码及其运行结果组成。
 - 工具：
     - 笔记内容由 [Jupyter](http://jupyter.org/)（交互式的编程笔记）写就，导出为 Markdown。  
 
