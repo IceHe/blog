@@ -93,15 +93,15 @@
 
 <meta name="description" content="转移指令的原理。操作符offset。以不同寻址方式使用jmp指令。jcxz有条件转移，loop循环，dec等指令。编译器对转移位移的超界检测。在屏幕中间显示绿色、绿底红色、白底蓝色的字符串。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="ASM 汇编语言 - 6">
+<meta property="og:title" content="ASM 汇编语言 6">
 <meta property="og:url" content="http://icehe.me/asm/Assembly Language - Note 6/index.html">
 <meta property="og:site_name" content="Ice He">
 <meta property="og:description" content="转移指令的原理。操作符offset。以不同寻址方式使用jmp指令。jcxz有条件转移，loop循环，dec等指令。编译器对转移位移的超界检测。在屏幕中间显示绿色、绿底红色、白底蓝色的字符串。">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%206/Picture.jpeg">
 <meta property="og:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%206/Picture.jpeg">
-<meta property="og:updated_time" content="2016-12-25T10:14:17.000Z">
+<meta property="og:updated_time" content="2017-04-20T05:09:03.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="ASM 汇编语言 - 6">
+<meta name="twitter:title" content="ASM 汇编语言 6">
 <meta name="twitter:description" content="转移指令的原理。操作符offset。以不同寻址方式使用jmp指令。jcxz有条件转移，loop循环，dec等指令。编译器对转移位移的超界检测。在屏幕中间显示绿色、绿底红色、白底蓝色的字符串。">
 <meta name="twitter:image" content="http://7vzp68.com1.z0.glb.clouddn.com/Assembly%20Language%20-%20Note%206/Picture.jpeg">
 
@@ -137,7 +137,7 @@
 
 
 
-  <title> ASM 汇编语言 - 6 | Ice He </title>
+  <title> ASM 汇编语言 6 | Ice He </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -220,7 +220,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-quote-left"></i> <br />
             
-            Articles
+            文章
           </a>
         </li>
       
@@ -230,7 +230,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-bookmark"></i> <br />
             
-            Nav
+            导航
           </a>
         </li>
       
@@ -240,7 +240,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-star"></i> <br />
             
-            CV
+            简历
           </a>
         </li>
       
@@ -298,7 +298,7 @@
             
             
               
-                ASM 汇编语言 - 6
+                ASM 汇编语言 6
               
             
           </h1>
@@ -345,7 +345,7 @@
 
           
           
-            <span id="/asm/Assembly Language - Note 6/" class="hidden leancloud_visitors" data-flag-title="ASM 汇编语言 - 6">
+            <span id="/asm/Assembly Language - Note 6/" class="hidden leancloud_visitors" data-flag-title="ASM 汇编语言 6">
               <span class="post-meta-divider">|</span>
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
@@ -485,8 +485,8 @@ end start</div><div style="align: left;"><font size="2"><font face="Times New Ro
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/asm/Assembly Language - Note 5/" rel="next" title="ASM 汇编语言 - 5">
-                <i class="fa fa-chevron-left"></i> ASM 汇编语言 - 5
+              <a href="/asm/Assembly Language - Note 5/" rel="next" title="ASM 汇编语言 5">
+                <i class="fa fa-chevron-left"></i> ASM 汇编语言 5
               </a>
             
           </div>
@@ -495,8 +495,8 @@ end start</div><div style="align: left;"><font size="2"><font face="Times New Ro
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/asm/Assembly Language - Note 7/" rel="prev" title="ASM 汇编语言 - 7">
-                ASM 汇编语言 - 7 <i class="fa fa-chevron-right"></i>
+              <a href="/asm/Assembly Language - Note 7/" rel="prev" title="ASM 汇编语言 7">
+                ASM 汇编语言 7 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -624,7 +624,7 @@ end start</div><div style="align: left;"><font size="2"><font face="Times New Ro
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">53</span>
+                <span class="site-state-item-count">54</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -810,7 +810,7 @@ end start</div><div style="align: left;"><font size="2"><font face="Times New Ro
       var disqus_shortname = 'https-icehe-me';
       var disqus_identifier = 'asm/Assembly Language - Note 6/';
 
-      var disqus_title = "ASM 汇编语言 - 6";
+      var disqus_title = "ASM 汇编语言 6";
 
 
       function run_disqus_script(disqus_script) {
@@ -1043,7 +1043,8 @@ end start</div><div style="align: left;"><font size="2"><font face="Times New Ro
                         '<li class="nav-item nav-level-1"> '
                         //+ '<i class="fa fa-eye"></i> &nbsp;'
                         + '+. &nbsp; '
-                        + '<a class="nav-link" href="/bookmarks"><span class="nav-text bold">More </span></a> </li>'
+                        + '<a class="nav-link" href="/bookmarks"><span class="nav-text bold">更多 </span></a> </li>'
+                        // + '<a class="nav-link" href="/bookmarks"><span class="nav-text bold">More </span></a> </li>'
                     );
                 }
           })

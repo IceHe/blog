@@ -16,7 +16,7 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Python3 Easy Note</title>
+    <title>Python3 快速入门</title>
     <link href="http://icehe.me/python/easy_note/"/>
     <id>http://icehe.me/python/easy_note/</id>
     <published>2017-04-16T16:00:00.000Z</published>
@@ -665,7 +665,7 @@ TypeError: &apos;str&apos; object is not an iterator
     
     <summary type="html">
     
-      廖雪峰《Python 教程》的简单笔记。
+      廖雪峰《Python 教程》笔记的再整理，主要是代码样例与运行结果。
     
     </summary>
     
@@ -681,9 +681,68 @@ TypeError: &apos;str&apos; object is not an iterator
     <link href="http://icehe.me/think/2017_spring/"/>
     <id>http://icehe.me/think/2017_spring/</id>
     <published>2017-04-15T16:00:00.000Z</published>
-    <updated>2017-04-15T16:00:00.000Z</updated>
+    <updated>2017-04-18T16:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="《Power-锟的纸牌屋》"><a href="#《Power-锟的纸牌屋》" class="headerlink" title="《Power 锟的纸牌屋》"></a>《Power 锟的纸牌屋》</h2><h3 id="假裝偉大的-POWER"><a href="#假裝偉大的-POWER" class="headerlink" title="假裝偉大的 POWER"></a>假裝偉大的 POWER</h3><p>《第二季第十五集：假裝偉大的POWER》</p>
+    <content type="html"><![CDATA[<h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><h3 id="谁叫我蠢啊"><a href="#谁叫我蠢啊" class="headerlink" title="谁叫我蠢啊"></a>谁叫我蠢啊</h3><p>我承认自己确实是一个不怎么聪明的人（宛如智障），没什么不好意思的，毕竟这是事实。像个机器一样，重复着暂时 AI 还做不了却着实无趣的工作，所以这被程序员们戏称为“搬砖”。我也已经很久没有好好动过脑了，业余生活继续放任自流，都快不记得思考的乐趣是怎样的了。</p>
+<p>今天（2017-04-16）偶然碰上一道（不难的）编程题，竟然突然回想起了当年高三备考时刷题的感觉，专注、充实而愉悦，这种「心流」的感觉真是久违了。一些知识领域，只要抓住要点去做，循序渐进（避免过度的挫折），能够不断获得智识上的乐趣。</p>
+<p>重新发现思考的乐趣，起码不用总是像个废宅那样等着动画番剧更新，不用总是像个信息焦虑症患者那样不停地刷着朋友圈、微博、Facebook 和 Twitter，用无尽的 Feed（信息流）来消磨时间。</p>
+<p>Feed，英文释义是喂养、饲料，这个词用得真是妙，庸众被无穷无尽、价值低下的碎片信息（即饲料）所喂养着，然后成了砧板上待宰的羔羊，被各色以卖广告和用户隐私为生的媒体（特别是社交媒体）所撕扯分食。天上不会掉馅饼，如果不愿意花钱买知识，「嗟来之食」通常也只能是免费或廉价的垃圾信息。</p>
+<h3 id="鸡汤通常都是对的"><a href="#鸡汤通常都是对的" class="headerlink" title="鸡汤通常都是对的"></a>鸡汤通常都是对的</h3><blockquote>
+<p>许多被错误定义为『鸡汤』的东西都是对的，它们之所以被这样定义，正是因为许多人做不到。</p>
+</blockquote>
+<p>当然「鸡汤」不一定都是对的，好的「鸡汤」也难免有特定的适用场景。我并不想详细讨论上面这句话的对或错，能从中得到一点启示和感想就够了。</p>
+<p>有人这么描述「鸡汤」的原罪 —— 给汤，不给勺。我觉得这并不是什么大问题，本来「喂鸡汤」就跟「技术分享」一样，不可能短时间内让你学到许多技术干货，不可能一下子改变人的性格、习惯、天赋。鸡汤的效用被过度期待，然后又被过度贬损，只不过是人们在自欺欺人之后发泄对「自己无能」的愤怒，罪不在鸡汤。</p>
+<p>「技术分享」通常是为了引起你对某种技术的兴趣，让你在分享之后自己去找时间去深入探究；「喂鸡汤」也是类似的作用，它振奋了你的精神，提醒你继续努力。命运有再多随机性，也还是有能够把握的部分。如果花半小时看完一篇鸡汤文，能换来庸人的半天奋进，花两三个小时看完一本鸡汤书，能换来三天的努力向上，难道还不够吗？起码比整天刷剧、打游戏强那么一点点。</p>
+<p>生活本来就很麻烦且令人沮丧，到底是什么让人产生「只要努力，生活就会变得美好」的错觉？可能就是所谓的「鸡汤」和「正能量」。即使付出了不少努力，还是离鸡汤里描绘的未来图景差个十万八千里，可能会觉得「生活欺骗了你」，可是那只能算是无用的抱怨。现实生活里的成长，其实比那些虚耗时间的烂游戏的经验槽涨得还要慢，那「人生」是「烂游戏」吗？那又何妨，只要生活里还有那么一星半点、贫瘠的乐趣和美好可以去向往和期待，就已经足够支撑我继续活下去。（大敌不过是「贪心不足蛇吞象」）。</p>
+<p>只要鸡汤还能振奋我的精神，我就还会毫不犹豫地把灌下去。鸡汤虽然不是绝对有益，但也不能算是「饮鸩止渴」，它还是利大于弊的。来壮士，干了这碗鸡汤。</p>
+<h3 id="没有方向"><a href="#没有方向" class="headerlink" title="没有方向"></a>没有方向</h3><p>整理博客里的「书签」（《<a href="/tech">Technology Bookmarks 技术书签</a>》和《<a href="/read">Reading Bookmarks 阅读书签</a>》），突然觉得自己太像盲头苍蝇了 —— 老大不小了，还东一锄头西一棒槌地胡乱积累，只能算是一个各方面都半桶水的庸人。</p>
+<p>选择真的很重要，不是仅仅做个知道很多的「知道分子」就行了，毕竟不是出生在殷实之家，要抓住一个能不断愉悦地进步又能赚到足够钱的方向来钻研。这段时间慢慢看到了自己的一些改变，确实已经少了许多牵绊。可是生活还是不够精简，精力不够集中，集中的方向也不够清晰和准确。要重新思考自己的方向，现在深感目光短浅，只会人云亦云。</p>
+<h3 id="做事风格：「短跑冲刺」式的目标"><a href="#做事风格：「短跑冲刺」式的目标" class="headerlink" title="做事风格：「短跑冲刺」式的目标"></a>做事风格：「短跑冲刺」式的目标</h3><p>发现现在自己的做事风格有严重的问题，目标不是设得太大就是太小。</p>
+<p>太小的目标没有什么用，而且还让时间更碎片化了，更加难以集中精力干大事了。太大的目标，没有分解为高效可行的步骤，反馈周期很长，很久才能获得一点点成果，久了人就很容易失去了做事的兴趣和激情，疲态尽显，效率每况愈下，即使最后完成了，也踟蹰了太长太长的时间。毕竟「一鼓作气，再而衰三而竭」。</p>
+<p>设立合适的「短跑冲刺」式的目标 —— 要稍微超出自己的舒适区，有点挑战性，能够考验智商（锻炼脑力）；即使目标再大，分解出的小目标必须要在短期内能够被完成，最好完成时长能在一天之内甚至两三个小时以内。</p>
+<p>举个例子，我需要许多时间写长博文，必然会有写得很不顺的时候，通常就会想「不如不写算了」。其实就是因为目标设得太大了，博文牵涉的话题和内容太广了。我又非要执拗地把内容写得面面俱到，于是篇幅更长了，在漫长的写作过程中饱受摧残，写作效率不敢恭维。</p>
+<p>当发现难以按照原来计划完成任务时，就应该及时调整目标，缩小关注的面，以期一鼓作气集中解决掉一个规模合适的问题。这样才能有不断的反馈，以催促我不断的进步，推进完成更大的目标。</p>
+<p>工作以来，经常长时间处于麻木不仁、浑浑噩噩、无精打采的状态。现在终于想起自己也曾有过风风火火、雷厉风行的时候，不过已经是很久以前的事了。大概保持那个状态，就能一往无前地做成很多事情吧！突然我又产生了一种「我终于回来了」的感觉！</p>
+<p>（这毫无疑问是老掉牙、说烂了的道理，可惜啊，只有自己得出的道理，才是能算是真正的道理。所以人啊，总要重复犯错。）</p>
+<h2 id="恋爱"><a href="#恋爱" class="headerlink" title="恋爱"></a>恋爱</h2><h3 id="颜狗"><a href="#颜狗" class="headerlink" title="颜狗"></a>颜狗</h3><p>碰到那些公开自称是「颜狗」的人，我也不知道该持怎样的态度，不敢说「你真坦率」，我只能说「人艰不拆」。即使只是偶然听到他人对这方面的八卦议论，我也会感到无比尴尬。（你猜我是不是颜狗？）</p>
+<p>想像一个发好人卡的场景「你是个好男生，可是我太漂亮了，你配不上。」我觉得这话挺阴暗的。人一般为了避免冲突（日后好相见），都会说「你是个好人」，但并不说穿真实的理由（当然这个理由不一定就是这里说到的那些略显阴暗的理由）。本段文字仅仅讨论「颜狗」这一主题，完全忽略「看脸」之外的其它因素的影响。</p>
+<p>放弃为了潜在的恋爱对象维持正面形象的努力，即是自我放弃了。我已经自我放弃很久了，我想试试重拾自己的形象？笑。</p>
+<h3 id="自私的人"><a href="#自私的人" class="headerlink" title="自私的人"></a>自私的人</h3><p>跟一个刚分手的朋友吃饭聊天，联想到了一些东西。我自己是一个挺「自私」的人，承认自己没有「肉包子打狗」（舍得、不吝啬）的气派，也不想把妹，你猜是不是因为酸葡萄心理？</p>
+<p>浅尝辄止、三不主义的做法，把不到妹很正常。也可能是还没有碰到一个所谓的能让人豁出去的「真爱」？工作、休闲、财货勉强略有盈余，过好自己就很不错了，再多一个人就难说了。如果要为了不再一个人牺牲太多去勉强凑合，宁可就此作罢。没有多少人愿意忍受生活质量下降太多（虽然其实人能够适应），我会想：要是两个人一起生活没有变得更好，还在一起干嘛呢？</p>
+<p>当然这是心态问题，一旦恋过，可能那就变成了生活必需品，单着的人反而能够一直单下去。</p>
+<h3 id="等价交换的爱？"><a href="#等价交换的爱？" class="headerlink" title="等价交换的爱？"></a>等价交换的爱？</h3><p>学生时代，觉得付出一份爱，才会得到一份爱，但是不愿意付出太多。后来才发现，付出很多爱，才能得到一些爱的回报，甚至只有一点点。可惜我现在依然那么自私。</p>
+<p>我讨厌别人“那样”对待自己，却偶然发现自己也会以类似的方式对待他人，这何其残忍。人平常会高看自己，直到看到了自己的阴暗、自私、愚蠢的行径，才发现自己如此不堪。</p>
+<p>就好像现实中的努力，说是一分耕耘一分收获，但是对于一般人来说，更通常的情况是十分耕耘，才一两分收获。没有天赋异能，没有家底、才华、外貌、身段，没有成就、影响力，只能靠「搬砖」勉力生存。</p>
+<p>我真的不敢告诉你「我喜欢你」。女神还是活在心中好了，不能得到才能称之为女神。</p>
+<h2 id="最重要的事"><a href="#最重要的事" class="headerlink" title="最重要的事"></a>最重要的事</h2><p>是不是有无数待办事项、书单、文章？其实它们，毫无意义…… 大多数会一直沉睡在哪里，直到它们堆积如山，知道你终于意识到它们不曾被读完过甚至不曾被打开过。</p>
+<p>我有一点点不一样，会花很多时间去读完这些收藏的文章、资料，然后它们的结局还是「被删掉」。时间太少，我只能囫囵吞枣地读完就算了。这中事情永远不可能有尽头，只是觉得文章有趣、有用，头脑一热，就收藏了…… 收集癖不可取，就是不够精简。</p>
+<p>为什么我倾向于高看别人，因为他们真的很厉害。我一直都以为自己有长进了，然而并没有！永远用一些次要而简单的事情填充生活，而不是去做最重要的事情。我明白了这么多道理，为什么就是做不好呢？（按照一些人的说法，「不做」其实就是「不知」，如果是「真知」的话，肯定会去做。）</p>
+<p>每次去做那些真正重要的事情，因为它们通常都会比较困难，所以我通常都会很抗拒，消极懈怠，然后无疾而终。只要我永远只能保持三分钟的热度，就永远只是一个卢瑟。</p>
+<p>说回来，知道道理是一回事，实际做事又是另一回事。直面生活中具体的琐碎，才有真正的抉择，早点睡还是熬夜？这个时间是去学英语还是更新博客？学数学还是去学命令行？最后我还是决定做自己舒适区内的事。</p>
+<p>还有很多东西需要考虑，如何用一个有效的自我奖惩（反馈）机制，实现自己的目标？怎么将那些毫无意义的事情都放弃，痛下杀手，断臂求生。</p>
+<h2 id="反脆弱"><a href="#反脆弱" class="headerlink" title="反脆弱"></a>反脆弱</h2><p>一切通过自身少数经验加读过的文字得出的「生活方法论」，都是难以自证的。在任何能够构成有效因果关系的证据出现之前，这些理论都不过是臆测。更别说还有随机性的扰动，会让人越发认定命运是无可把握的。人都有「反脆弱」的特性，只要面临的不是毁灭性的打击，任何适当的危机和压力，都不能算是阻碍和弯路，它们会让人更快、更好地成长。</p>
+<p>「反脆弱」这个概念真的让僵化的我醍醐灌顶。早已对「舒适区、学习区、恐慌区」的概念感到麻木了。知道自己一直处于舒适区，但就是贪图安逸，走不出来。</p>
+<p>果然，我还是太小看人的适应能力（小看自己），即是「反脆弱性」。没什么大不了的事，一切「糟糕和美好」都总会过去的。不失去，就不知道现在的美好；失去了，也没什么，花些时间，你总能适应，并不用纠结；搞不好，你还能更强大。</p>
+<p>我以前也失去过我珍视的东西，花了五六年才看开。即使是缺胳膊少腿这种严重的事故，时间长了人也能够接受现实，然后恢复平静。人是健忘的动物，是坏处也是好处呢。</p>
+<h2 id="妄言"><a href="#妄言" class="headerlink" title="妄言"></a>妄言</h2><h3 id="吃多少才够"><a href="#吃多少才够" class="headerlink" title="吃多少才够"></a>吃多少才够</h3><p>从小形成「不浪费食物」的习惯，得到的食物无论多少，我都会下意识地尽量吃完。绝大多数情况下，我都能吃完，可是我现在越发搞不清楚自己合适的进食量是多少了，甚是忧心。</p>
+<p>以前运动量大还好，可以消耗掉多余的热量，现在运动量小了，还吃那么多就不行了！今天我试着吃少点，当时我也确实能感觉自己饱了，但判断不了饱腹感能持续多久，能不能撑到下一餐。我觉得自己还能继续吃，然而理智让我少吃点，情感和理智在打架……</p>
+<p>最近也终于把所有剩余的速溶咖啡和零食都消耗完了。这几个月来，已经比过去增重6斤…… 春节已经过去这么久了，体重也没有恢复的迹象，真是玩大了。少吃多动，真是至理名言。</p>
+<h3 id="每天都在后悔过去的蠢事"><a href="#每天都在后悔过去的蠢事" class="headerlink" title="每天都在后悔过去的蠢事"></a>每天都在后悔过去的蠢事</h3><p>不够主动。小学曾经参加过乐高机器人相关的比赛。到了初中，发现学校也有相关的活动室，但是愣是没有去找相关的老师问问，本来学生时代还能变得更有趣一点的……</p>
+<p>因为不够主动，错过了妹纸，人家当年可是喜欢我的。可惜过了这村就没这个店了，我醒悟太晚，当年的我又不是不喜欢她…… 肠子都青了。</p>
+<p>学生时代到现在依然经常作死抓脸（挤痘痘等），现在自己的颜值，也就只可远观。还有只恨小学的自己省去了买牛奶的钱去黑网吧打游戏……</p>
+<p>不够坚持。小学毕业开始学跆拳道，初一稍微努力过一阵子，然后就荒废了。还有我高考之后的那段时间，如果能再稍微认真读 C 语言的入门书，或许暑假就能过得更有意义，会沉迷技术不去玩社团了？</p>
+<blockquote>
+<p>混乱的必然与过度整理</p>
+</blockquote>
+<p>混乱是必然的，自然的总体趋向是「熵增」。想要整洁，少不了「做功」，过度整理的投入通常非常不值。</p>
+<blockquote>
+<p>一眼看到头的生活</p>
+</blockquote>
+<p>薪酬即使增加个几千一万（当然多多益善），生活也是照样地过，但会过得更开心吗？最大的可能，还是高兴没多久，有恢复到原来的生活状态了。收入的增量还没有达到引至质变的程度。要找到生活的目标还有乐子，不然活着还有什么意思。</p>
+<blockquote>
+<p>为什么怀缅过去？可能是现在碌碌无为。</p>
+</blockquote>
+<h2 id="《Power-锟的纸牌屋》"><a href="#《Power-锟的纸牌屋》" class="headerlink" title="《Power 锟的纸牌屋》"></a>《Power 锟的纸牌屋》</h2><h3 id="假裝偉大的-POWER"><a href="#假裝偉大的-POWER" class="headerlink" title="假裝偉大的 POWER"></a>假裝偉大的 POWER</h3><p>《第二季第十五集：假裝偉大的POWER》</p>
 <p>pretension 假装，就是假装伟大（伟大这个词可以换成别的词）。即是「你的欲望，超过了你目前能用的资源」，说难听点就是「贪心」。pretension 那就是为了贪心，做出了自己能力做不到的事。</p>
 <p>「化妆、整形」就是假装漂亮。先不要说化妆好不好，应该看看那是怎样的一种心态 —— 那是一个有志气的人！因为她想要更好，她已经在玩政治了，已经开始加入 competition 竞争、面对冲突了！面对择偶的冲突（她们在上进）不是一般的禽兽的欲望（性欲），而是 Desire to Love！所以她们开始「偏激」！</p>
 <ul>
@@ -699,75 +758,11 @@ TypeError: &apos;str&apos; object is not an iterator
 <p>只有你知道哀伤从哪里来，你才知道快乐何处去？这是一体两面。我们的 sorrows，就是因为 love 和 hate。<strong>因为我们恨，得不到爱，或者失去了爱。</strong>所以我们为了爱而悲伤，想要爱（快乐），但是前路却有障碍。（爱恨是一个矛盾、循环，交织在一起）</p>
 <p>sorrow 没有关系，sorrow 就是 happiness 的 beginning，所以快乐都是当初的哀伤得来的。你越哀伤，越克服这个哀伤的成就感，比你的 sorrow 更大。一点点的忧伤，得到的快乐也只有一点点大。</p>
 <p>(体验更哀伤的事，小哀伤就可以忘记。)</p>
-<h2 id="“抱怨”"><a href="#“抱怨”" class="headerlink" title="“抱怨”"></a>“抱怨”</h2><h3 id="谁叫我蠢啊"><a href="#谁叫我蠢啊" class="headerlink" title="谁叫我蠢啊"></a>谁叫我蠢啊</h3><p>我承认，自己确实是个不怎么聪明（蠢）的人，没什么不好意思的，而且还很久没有好好动过脑筋了。被大量机械式重复无趣的工作内容所束缚着、折磨着，逐渐麻木，业余生活继续放任自流，都快不记得思考的乐趣是怎样的了。</p>
-<p>今天（2017-04-16）偶然碰上一道（不难的）编程题，竟然突然回想起了当年高三备考时刷题的感觉，专注、充实而愉悦，这种「心流」的感觉真是久违了。一些知识领域，只要抓住要点去做，循序渐进（避免过度的挫折），能够不断获得智识上的乐趣。</p>
-<p>重新发现思考的乐趣，起码不用总是像个废宅那样等着动画番剧更新，不用总是像个信息焦虑症患者那样不停地刷着朋友圈、微博、Facebook 和 Twitter，用无尽的 Feed（信息流）来消磨时间。</p>
-<p>Feed，英文释义是喂养、饲料，这个词用得真是妙，庸众被无穷无尽、价值低下的碎片信息（即是饲料）所喂养着，然后成了砧板上待宰的羔羊，被各色以卖广告和用户隐私为生的媒体（特别是社交媒体）所撕扯、分食。天上不会掉馅饼，不愿意花钱买知识，「嗟来之食」通常只能是免费或廉价的垃圾信息。</p>
-<h3 id="命运石之门的选择"><a href="#命运石之门的选择" class="headerlink" title="命运石之门的选择"></a>命运石之门的选择</h3><p>有点嫉妒舍友的运势，又有机会升职加薪了。可惜啊，我不是他，我们是完全不同的人，不可能走得上同样的生活道路。</p>
-<p>所处的部门定位略尴尬，主要处理业务上的脏活，并没有多少核心的技术竞争力。这些脏活，其实只要堆人来做就好了，并不会因为缺了哪个救世主似的大牛，就进行不下去了。而且人员流动性也不强，即使偶尔有人离开，不会给留下的人增加多少机会，反而是增加更多的脏活。</p>
-<p>慨叹也没有用，抱怨更没意思，毕竟学习还是得靠自己，谁叫当年的自己不争气，好好地去修正自己的命运吧。</p>
-<p>（本节小标题的典故（梗）来自动画、游戏作品《命运石之门》）</p>
-<h3 id="鸡汤通常都是对的"><a href="#鸡汤通常都是对的" class="headerlink" title="鸡汤通常都是对的"></a>鸡汤通常都是对的</h3><blockquote>
-<p>被许多人定义为『鸡汤』的东西通常都是对的，它们之所以被这样定义，正是因为这些人做不到。</p>
-</blockquote>
-<p>当然「鸡汤」不一定都对，好的「鸡汤」也难免有特定的适用场景，在此我并不想严谨讨论上面这句话的对错，从中得到一点启示和感想就够了。</p>
-<p>有人这么描述「鸡汤」——「给汤，不给勺」。我觉得这并不是什么大问题，本来「喂鸡汤」就跟「技术分享」一样，本来就不可能短时间内得到很多干货，本来就是不可能一下子改变自己的性格、习惯、天赋，这是自欺欺人，是错误的过度的期待。</p>
-<p>「技术分享」通常是为了引起你对某种技术的兴趣，让你之后会自己找时间去深入探究；「喂鸡汤」也是类似的作用，它振奋了你的精神，提醒你要继续去做努力，命运有再多随机性，也还是有你能够把握的部分。如果花两三个小时看完一本鸡汤书、一篇鸡汤文，能换来一个庸人三天的努力向上，那怕只有一天，难道还不够吗？起码比整天刷剧、打游戏强那么一点点。</p>
-<p>即使你努力了一下下，还离鸡汤里描绘的未来图景差个十万八千里，那又何妨？没错会感觉很沮丧，会觉得「生活欺骗了你」，那不过是抱怨，生活从来就是很麻烦和沮丧，到底是什么给了你「努力一下下，生活就会美好起来」的幻觉。现实生活里的成长，比那些虚耗时间的烂游戏的经验槽涨得更慢，这么说「人生」才是真正的「烂游戏」。</p>
-<p>不过仅仅是为了生活里那一星半点、贫瘠的「乐趣」，已经足够支撑我继续活下去。只要鸡汤还能振奋我的精神，实用主义的我就还会毫不犹豫地把灌下去，至少我觉得这绝不会是「饮鸩止渴」。来壮士，干了这碗鸡汤！</p>
-<h3 id="方向"><a href="#方向" class="headerlink" title="方向"></a>方向</h3><p>整理博客里的「书签」相关博文《<a href="/tech">Technology Bookmarks 技术书签</a>》和《<a href="/read">Reading Bookmarks 阅读书签</a>》，突然觉得自己太像盲头苍蝇了，都老大不小了，还是一个各个方面都是半桶水的「杂家」，毫无方向可言。</p>
-<p>选择真的很重要，不是仅仅做个知道很多的「知道分子」就行了的。抓住一个能够不断愉悦地进步并且赚到足够多钱的方向来钻研，毕竟不是出生在殷实之家，需要深入某个方向成为专家，而不能是东一锄头西一棒槌的胡乱积累。</p>
-<p>慢慢看到了自己的一些改变，确实是已经少了许多牵挂、牵绊。生活还是不够精简，精力不够集中，要集中的方向也不够清晰和准确。要重新思考自己的方向。现在深感视野受限，谁叫我没什么见识呢。</p>
-<h3 id="做事风格"><a href="#做事风格" class="headerlink" title="做事风格"></a>做事风格</h3><p>发现现在自己的做事风格有严重的问题，目标不设得太大就是太小。</p>
-<p>太小的目标没有什么大用，而且还让时间更碎片化了，更加难以集中精力干大事了。太大的目标，没有分解为可行的步骤，反馈周期很长，持续久了人就失去了兴趣和激情显露疲态，效率每况愈下，即使最后完成了，也已经过了很久了。毕竟「一鼓作气，再而衰三而竭。」</p>
-<p>设立合适的「短跑冲刺」式的目标 —— 要稍微超出自己的舒适区，有点挑战性，能够考验智商（锻炼脑力）；其次即使目标再大，分解出的小目标必须要在短期内能够被完成，最好完成时长能在一天之内甚至两三个小时以内。</p>
-<p>工作以来，经常长时间处于麻木不仁、浑浑噩噩、无精打采的状态。现在终于想起自己也曾有过风风火火、雷厉风行的时候，不过已经是很久以前的事了。大概保持那个状态，就能一往无前地做成很多事情吧！突然我又产生了一种找回了自己的感觉「我回来了」。</p>
-<p>哈哈，鸡血又打满了，但是好的精神状态，真的可遇不可求，只能不断内外求索，才略有起色。</p>
-<h4 id="执行力"><a href="#执行力" class="headerlink" title="执行力"></a>执行力</h4><p>举个例子，当我写一篇长博文，必然会碰到写得很不顺的时候，通常非常挫折，几乎写不下去。其实就是因为目标设得太大了，牵涉的话题和内容太广了，我又非要执拗地坚持让内容面面俱到。于是，我的博客文章通常都篇幅很长。看着这些长博文，我就能回想起写的时候，我真是倍受这些文字的摧残。都是靠着持续忍耐才把它们写完，过程中的效率真是不敢恭维。</p>
-<p>当发现难以按照原来计划完成任务时，就应该及时调整目标，缩小关注的面，以期一鼓作气集中解决掉一个规模合适的问题。这样才能有不断的反馈，以催促我不断的进步！</p>
-<h2 id="恋爱"><a href="#恋爱" class="headerlink" title="恋爱"></a>恋爱</h2><h3 id="颜狗"><a href="#颜狗" class="headerlink" title="颜狗"></a>颜狗</h3><p>碰到那些公开自称是「颜狗」的人，我也不知道该持怎样的态度，不敢说「你真坦率」，我只能说「人艰不拆」。曾偶然听到一些人对那方面的八卦议论，我感到了无比的尴尬。你猜我是不是颜狗？</p>
-<p>想像一个发好人卡的场景「你是个好男生，可是我太漂亮了，你配不上。」我觉得这些话挺阴暗的，会做人的人为了避免冲突（日后好相见），一般都会说你是个「好人」，但并不说穿真实的理由（当然这个理由不一定就是这里说到的那些略显阴暗的那些）。本段文字仅仅讨论「颜狗」这一主题，完全忽略「看脸」之外的其它因素的影响。</p>
-<h3 id="自我放弃"><a href="#自我放弃" class="headerlink" title="自我放弃"></a>自我放弃</h3><p>放弃了为了潜在的恋爱对象维持正面的形象，即是自我放弃了。我已经自我放弃很久了。我想试试重拾自己的形象？笑。</p>
-<h3 id="自私的人"><a href="#自私的人" class="headerlink" title="自私的人"></a>自私的人</h3><p>跟一个刚分手的朋友吃饭聊天，联想到了一些东西。我自己是一个挺「自私」的人，承认自己没有「肉包子打狗」（舍得、不吝啬）的气派，也不想把妹，你猜是不是因为酸葡萄心理？</p>
-<p>浅尝辄止、三不主义的做法，把不到妹很正常。也可能是还没有碰到一个所谓的能让人豁出去的「真爱」？工作、休闲、财货勉强略有盈余，过好自己就很不错了，再多一个人就难说了。如果要为了不再一个人牺牲太多去勉强凑合，宁可就此作罢。没有多少人愿意忍受生活质量下降太多（虽然其实人能够适应），我会想：要是两个人一起生活没有变得更好，还在一起干嘛呢？</p>
-<p>当然这是心态问题，一旦恋过，可能那就变成了生活必需品，单着的人反而能够一直单下去。</p>
-<h3 id="爱"><a href="#爱" class="headerlink" title="爱"></a>爱</h3><p>学生时代，觉得付出一份爱，才会得到一份爱，但是不愿意付出太多。后来才发现，付出很多爱，才能得到其中一些，或者一点点。可惜我现在依然那么自私。</p>
-<p>我讨厌别人“那样”对待自己，却偶然发现自己也会以类似的方式对待他人，何其残忍。人平常会高看自己，直到看到了自己的阴暗、自私、愚蠢的行径，才发现自己如此不堪。</p>
-<p>就好像现实中的努力，说是一分耕耘一分收获，但是对于一般人来说，更通常的情况是十分耕耘，才一两分收获。没有天赋异能，没有家底、才华、外貌、身段，没有成就、影响力，就只能一直「搬砖」了。</p>
-<p>因为我真的不敢告诉你，我喜欢你。女神还是活在心中好了，不能得到才能称之为女神。</p>
-<h2 id="夏洛特烦恼"><a href="#夏洛特烦恼" class="headerlink" title="夏洛特烦恼"></a>夏洛特烦恼</h2><p>一个朋友，原来我感觉他活得并不是很明白，但看电影的时候却一下子就能看出其中的主旨所存在的三观问题。我当时倒是觉得这部作品挺好的，看得乐在其中。现在可让我深深怀疑自己是不是三观出了问题，所以没发现这部作品的扭曲。</p>
-<p>我会觉得一个喜剧足够好笑，看完能够再感动一下就很不错了，毕竟娱乐图个乐子而已，不愿意细想细节、剧情和主旨够不够合理和正派。现在想来才发现自己这么实用主义。</p>
-<p>在别人提点之后时，我才发现这部作品其中的扭曲。可能它的主创初衷是好的，可是填充其中的血肉暴露了他们的下限。低俗的笑料，刻板的印象，至少我回头看一遍也看不出有什么高级的幽默讽刺意味。看电影，难道就完全不用在意三观了吗？没错我就是不够在意三观的那部分人之一，所以我有点怀疑是不是自己变坏了，如果不是坏，那就只有蠢这个理由了……</p>
-<h2 id="吃多少才够"><a href="#吃多少才够" class="headerlink" title="吃多少才够"></a>吃多少才够</h2><p>从小形成「不浪费食物」的习惯，让我得到多少食物总会下意识吃完。绝大多数情况下，我都能够吃完分配的食物。可是我不知道适合的度在哪，我到底该吃多少，这是我最忧心。</p>
-<p>以前运动量大还好，可以消耗掉多余的热量，现在运动量小了，还吃那么多就不行了！今天我试着吃少点，吃得差点不多的时候，我确实能感觉自己饱了，可是没法判断饱腹感能够持续多久，能不能撑到下一餐。通常我感觉自己还能继续吃完，然而理智让我少吃点，情感和理智在打架……</p>
-<h3 id="零食饮料成瘾"><a href="#零食饮料成瘾" class="headerlink" title="零食饮料成瘾"></a>零食饮料成瘾</h3><p>最近终于把所有剩余的速溶咖啡和零食都消耗完了。而且这几个月来，体重比过去增重6斤了…… 自己也没有想到，春节过去了这么久也没有恢复的迹象，感觉自己玩大了。少吃多动，真是至理名言，。</p>
-<h2 id="每天都在后悔过去的蠢事"><a href="#每天都在后悔过去的蠢事" class="headerlink" title="每天都在后悔过去的蠢事"></a>每天都在后悔过去的蠢事</h2><p>不够主动。小学曾经参加过乐高机器人相关的比赛。到了初中，发现学校也有相关的活动室，但是愣是没有去找相关的老师问问，你说蠢不蠢。</p>
-<p>还因为不够主动，错过了妹子，人家当年可是喜欢我的，过了这村就没这个店了，可惜我醒悟太晚，又不是不喜欢她。作死抓脸，现在自己的颜值，也就远看能过得去。</p>
-<p>不够努力。小学毕业开始学跆拳道，初一稍微努力过一阵子，然后就荒废了，简直坑爹。高考结束，如果我当时稍微认真一点读 C 语言的入门书，暑假就能过得有意义多了，还是没跨过那道坎。</p>
-<p>太多可笑的蠢事了，想起来再补充。</p>
-<h2 id="最重要的事"><a href="#最重要的事" class="headerlink" title="最重要的事"></a>最重要的事</h2><p>是不是有无数待办事项、书单、文章？其实它们，毫无意义…… 大多数会无疾而终，可能永远都不会被打开。我不会这样，我会花很多时间去读完这些收藏的文章、资料，然后通常的结局还是「删掉」，时间太少，只能囫囵吞枣地读完就算了。这些事情永远不可能完成，只是觉得有趣，稍微还有点养料，就用它们来填充匮乏的生活，这是不可取的。</p>
-<p>为什么我倾向于高看别人，因为他们真的很厉害。我一直都以为自己有长进了，然而并没有！永远用一些次要而简单的事情填充生活，而不是去做最重要的事情。我明白了这么多道理，为什么就是做不好呢？按照一些人的说法，「不做」其实就是「不知」，如果是「真知」的话，肯定会去做。</p>
-<p>每次做这些真正重要的事情，都会很抗拒，消极懈怠，然后无疾而终。智能保持三分钟热度，永远只是一个 loser。</p>
-<p>说回来，知道道理（或者说理论）是一回事，实际做事又是另一回事。面对具体的琐碎，才是真正的抉择，早点睡还是熬夜？这个时间是去学英语还是更新博客？学数学还是去学命令行？我真是头疼，总是在一些积累经验的领域徘徊，积累年资，而不真正地突破舒适区。果然我真的是一个 Loser。</p>
-<p>还有很多东西需要考虑，如何用一个有效的奖惩（反馈）机制，实现自己的理想？怎么将那些毫无意义的事情都放弃，痛下杀手，断臂求生。</p>
-<h2 id="混乱是必然的，别过度整理"><a href="#混乱是必然的，别过度整理" class="headerlink" title="混乱是必然的，别过度整理"></a>混乱是必然的，别过度整理</h2><p>混乱是必然的，是自然规律的总体趋向，世界是总是倾向于熵增。想要恢复整洁的洁癖是需要做不少「功」的，实际上值不值得呢，真不好说啊。我现在觉得不够值得。</p>
-<h2 id="要不走老路？"><a href="#要不走老路？" class="headerlink" title="要不走老路？"></a>要不走老路？</h2><p>做得不爽了，就去做想做的事！<br>策略性拖延还靠谱一些！<br>不想写文章、工作的时候，<br>就读读书，感觉还好些！</p>
-<h2 id="迷上爱豆"><a href="#迷上爱豆" class="headerlink" title="迷上爱豆"></a>迷上爱豆</h2><p>贫瘠的生活里迷上 idol 是很正常的事！<br>不断翻爱豆过往的音乐 MV 等等，简直美不胜收啊！虽然也翻出了黑历史…… 哈哈。</p>
-<h2 id="都是虚空"><a href="#都是虚空" class="headerlink" title="都是虚空"></a>都是虚空</h2><p>一切通过自身少数经验加读过的文字得出的「生活方法论」，都是虚无缥缈、不能自证的。在有任何结果出来之前，这些理论都只不过的臆测。加上随机性的扰动，会发觉命运是无可把握的…… 好似温水煮青蛙。人都有反脆弱的能力，在危机下，反而能成长。</p>
-<h3 id="反脆弱"><a href="#反脆弱" class="headerlink" title="反脆弱"></a>反脆弱</h3><p>这个概念真的让僵化的我醍醐灌顶。早已对「舒适区、学习区、恐慌区」的概念感到麻木了。知道自己一直处于舒适区，但是贪图安逸，一直没有走出去。</p>
-<p>果然，我还是太小看人的适应能力（小看自己），这里的「适应能力」，就是现阶段我所理解的「反脆弱性」！没什么大不了的事，一切「糟糕和美好」都总会过去的。不失去，就不知道现在的美好；失去了，也没什么，花些时间，你总能适应，并不用纠结。</p>
-<p>我以前也失去过我珍视的东西，花了五六年才看开。即使是缺胳膊少腿这种严重的事故，时间长了，也会恢复平静。人是健忘的动物，是坏处也是好处呢。</p>
-<h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><h3 id="职业精神"><a href="#职业精神" class="headerlink" title="职业精神"></a>职业精神</h3><blockquote>
-<p>活干得好坏，就是人品的好坏。</p>
-</blockquote>
-<p>技术含量相对低，不需要才华、需要任劳任怨的工作 —— 可能是这句话的前提。</p>
-<h3 id="一眼看到头的生活"><a href="#一眼看到头的生活" class="headerlink" title="一眼看到头的生活"></a>一眼看到头的生活</h3><p>即使增加个几千一万，生活也是一样的过（当然内心还是希望多多益善的），会过得更开心吗？最大的可能还是维持原状。收入还没多到量变以致质变的程度。生活要自己找到目标，至少要找到乐子，不然活着还有什么意思。</p>
-<h3 id="碌碌无为"><a href="#碌碌无为" class="headerlink" title="碌碌无为"></a>碌碌无为</h3><p>为什么怀缅过去？可能是现在碌碌无为。</p>
 ]]></content>
     
     <summary type="html">
     
-      三月至六月，夏小记。（仍在持续更新中）
+      三月至六月，夏小记（持续更新中）。
     
     </summary>
     
@@ -779,7 +774,7 @@ TypeError: &apos;str&apos; object is not an iterator
   </entry>
   
   <entry>
-    <title>Mac Efficiency 效率指北</title>
+    <title>Mac 效率指北</title>
     <link href="http://icehe.me/mac/efficiency/"/>
     <id>http://icehe.me/mac/efficiency/</id>
     <published>2017-04-14T16:00:00.000Z</published>
@@ -940,12 +935,7 @@ TypeError: &apos;str&apos; object is not an iterator
 <li>配合 <a href="https://github.com/akhodakivskiy/VimFx" target="_blank" rel="external">VimFX</a> 拓展，可在浏览器内 <strong>全局使用 Vim 键位</strong> 浏览网页、操作浏览器！键盘党神器。</li>
 <li>只要入门其中常用的基本操作，就能感觉到效率的大大提升。能用一个指头按就不要用两个指头，指头在越靠近键盘中心区的地方按就越省力。</li>
 <li>VimFX 默认的键位排布跟 Vim 有一定关联（但不全都有）。熟悉 Vim 的话，用 VimFX 会很顺手；还在学习 Vim 的话，可以帮助你记忆 Vim 的键位。</li>
-<li>基本操作：<pre><code>`f` 在当前标签页打开链接，`⇧ F` 在新的标签页打开链接；
-`x` = `⌘ w` 关闭标签页，`⇧ X` = `⌘ ⇧ T` 重新打开最近关闭的一个标签页；
-`j` 下翻，`k` 上翻，`⇧ H` = `⌘ [` 前进，`⇧ L` = `⌘ ]` 后退；
-`⇧ J` = `^ ⇧ ⇥` 上一个标签页，`⇧ K` = `^ ⇥` 下一个；
-其它从略，可以通过 `⇧ ?` 显示、查询所有 VimFX 的快捷键。
-</code></pre></li>
+<li>基本操作：<br>  <code>f</code> 在当前标签页打开链接，<code>⇧ F</code> 在新的标签页打开链接；<br>  <code>x</code> = <code>⌘ w</code> 关闭标签页，<code>⇧ X</code> = <code>⌘ ⇧ T</code> 重新打开最近关闭的一个标签页；<br>  <code>j</code> 下翻，<code>k</code> 上翻，<code>⇧ H</code> = <code>⌘ [</code> 前进，<code>⇧ L</code> = <code>⌘ ]</code> 后退；<br>  <code>⇧ J</code> = <code>^ ⇧ ⇥</code> 上一个标签页，<code>⇧ K</code> = <code>^ ⇥</code> 下一个；<br>  其它从略，可以通过 <code>⇧ ?</code> 显示、查询所有 VimFX 的快捷键。</li>
 <li>其中进阶的操作可以慢慢熟悉，可以通过插件设置来修改键位排布，以便用得更顺手。</li>
 </ul>
 </li>
@@ -1087,7 +1077,7 @@ TypeError: &apos;str&apos; object is not an iterator
     
     <summary type="html">
     
-      关于「如何高效使用 Mac」的个人见解。
+      macOS Efficiency&amp;#58; 关于「如何高效使用 Mac」的个人见解。
     
     </summary>
     
@@ -1686,7 +1676,7 @@ TypeError: &apos;str&apos; object is not an iterator
   </entry>
   
   <entry>
-    <title>Life Exp 生活指北</title>
+    <title>生活指北</title>
     <link href="http://icehe.me/think/life_manual/"/>
     <id>http://icehe.me/think/life_manual/</id>
     <published>2016-08-06T16:00:00.000Z</published>
@@ -1696,7 +1686,7 @@ TypeError: &apos;str&apos; object is not an iterator
 <p>纸上得来终觉浅，绝知此事要躬行。</p>
 </blockquote>
 <p>听过读过的道理太多，只觉得不过尔尔。只有亲自 <strong>经历、实践</strong> 之后，才能对一些事有切身体会。当我（可能）想“明白”了这些事时，我才会总结、积累到这里，不时回顾。</p>
-<h1 id="Life-Exp-经验"><a href="#Life-Exp-经验" class="headerlink" title="Life Exp 经验"></a>Life Exp 经验</h1><h2 id="Goal-目标"><a href="#Goal-目标" class="headerlink" title="Goal 目标"></a>Goal 目标</h2><ul>
+<h1 id="生活总结"><a href="#生活总结" class="headerlink" title="生活总结"></a>生活总结</h1><h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><ul>
 <li>人生主题：<strong>专注</strong><br>  选中两三件事，一生沉浸其中，专注使人<strong>快乐</strong>。<br>  <sup>选择可以因时而变，但是同时只能专注两三件事</sup><ul>
 <li>事业：<strong>服务端</strong></li>
 <li>乐趣：<strong>博客</strong><br>  <sup>其次：羽毛球、动漫、美食</sup>  <!-- <sup>运动：羽毛球、毽球。
@@ -1720,7 +1710,7 @@ TypeError: &apos;str&apos; object is not an iterator
 </ul>
 </li>
 </ul>
-<h2 id="Core-核心"><a href="#Core-核心" class="headerlink" title="Core 核心"></a>Core 核心</h2><p>核心原则简短易记。</p>
+<h2 id="核心"><a href="#核心" class="headerlink" title="核心"></a>核心</h2><p>核心原则简短易记。</p>
 <ul>
 <li><u><strong>带着脑袋做事</strong></u><ul>
 <li><a href="#Decision-慎取舍"><strong>慎取舍</strong></a><br>  <strong>二八法则</strong><br>  <strong>实用主义</strong></li>
@@ -1729,7 +1719,7 @@ TypeError: &apos;str&apos; object is not an iterator
 </ul>
 </li>
 </ul>
-<h2 id="Self-Help-List"><a href="#Self-Help-List" class="headerlink" title="Self-Help List"></a>Self-Help List</h2><p>原则细化。</p>
+<h2 id="自助清单"><a href="#自助清单" class="headerlink" title="自助清单"></a>自助清单</h2><p>原则细化。</p>
 <ul>
 <li><u><strong>带着脑袋做事</strong></u><ul>
 <li><a href="#Decision-慎取舍"><strong>慎取舍</strong></a><ul>
@@ -1779,7 +1769,7 @@ TypeError: &apos;str&apos; object is not an iterator
 </ul>
 </li>
 </ul>
-<h1 id="Details-详述"><a href="#Details-详述" class="headerlink" title="Details 详述"></a>Details 详述</h1><h2 id="Decision-慎取舍"><a href="#Decision-慎取舍" class="headerlink" title="Decision 慎取舍"></a>Decision 慎取舍</h2><ul>
+<h1 id="详述"><a href="#详述" class="headerlink" title="详述"></a>详述</h1><h2 id="慎取舍"><a href="#慎取舍" class="headerlink" title="慎取舍"></a>慎取舍</h2><ul>
 <li><strong>二八法则</strong><ul>
 <li><strong>以终为始，要事第一</strong>  <!-- - 愿景驱动 -->
   <!-- - 重要
@@ -1825,18 +1815,18 @@ TypeError: &apos;str&apos; object is not an iterator
 </li>
 </ul>
 </li>
-<li><p><strong>实用主义</strong></p>
-<ul>
+<li><strong>实用主义</strong><ul>
 <li><strong>实用 &gt; 好看</strong><br>  例如，买了一把极轻伞，后来发现伞面太小不实用，所以不该买。<br>  例如，贴膜保护手机，日后出手时更保值，但是这样很难用手势进行右滑返回的操作，影响效率，所以不贴膜。<ul>
 <li><strong>不囿于物：工具就是买来用的</strong></li>
 </ul>
 </li>
 <li><strong>取用便捷 &gt; 杂乱 &gt; 极简</strong><br>  例如，整理工位、房间：<br>  便捷就好，效率第一（省下精力做要事）&gt; 强迫症：费力整理虽悦己，但这快感太奢侈（机会成本大），还不如由它杂乱。</li>
-<li><strong>必要就买 &gt; 节俭 &gt; 奢靡</strong><br>  果断购买显著提 <strong>高效率</strong>、让生活更 <strong>省心</strong> 的工具 &gt; 设法用时间、精力来省钱（机会成本太大）&gt; 喜欢就买，奢靡浪费。<h2 id="Methodology-讲方法"><a href="#Methodology-讲方法" class="headerlink" title="Methodology 讲方法"></a>Methodology 讲方法</h2></li>
+<li><strong>必要就买 &gt; 节俭 &gt; 奢靡</strong><br>  果断购买显著提 <strong>高效率</strong>、让生活更 <strong>省心</strong> 的工具 &gt; 设法用时间、精力来省钱（机会成本太大）&gt; 喜欢就买，奢靡浪费。</li>
 </ul>
 </li>
-<li><p>简化<br>  人脑一时间只能记住很有限的东西，所以本文自顶向下逐步细化原则，便于：</p>
-<ul>
+</ul>
+<h2 id="讲方法"><a href="#讲方法" class="headerlink" title="讲方法"></a>讲方法</h2><ul>
+<li>简化<br>  人脑一时间只能记住很有限的东西，所以本文自顶向下逐步细化原则，便于：<ul>
 <li>在状态不佳的时候，也能够把握住顶层的几条核心原则。</li>
 <li>无力深思熟虑的时候，也能够直接根据这里总结的经验来行动，简化思考。</li>
 </ul>
@@ -1959,7 +1949,7 @@ TypeError: &apos;str&apos; object is not an iterator
 </ul>
 </li>
 </ul>
-<h3 id="More-补充"><a href="#More-补充" class="headerlink" title="More 补充"></a>More 补充</h3><ul>
+<h3 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h3><ul>
 <li><strong>动疾心静</strong><ul>
 <li>问：“不知不觉就做了很多蠢事，例如看朋友打游戏太久，即使知道自己本来应该要做什么，在那一刻也忘了，怎么办？”</li>
 <li>那些时候，你已经失去对自己的省察心（失神状态），根本没有意识到自己在干什么，所以也意识不到自己该干什么。</li>
@@ -1973,7 +1963,7 @@ TypeError: &apos;str&apos; object is not an iterator
 </ul>
 </li>
 </ul>
-<h2 id="Doing-多做事"><a href="#Doing-多做事" class="headerlink" title="Doing 多做事"></a>Doing 多做事</h2><p>执行力。<br>目标：省时间，省精力（省心），高效，进步（做正事）。</p>
+<h2 id="多做事"><a href="#多做事" class="headerlink" title="多做事"></a>多做事</h2><p>执行力。<br>目标：省时间，省精力（省心），高效，进步（做正事）。</p>
 <ul>
 <li><strong>雷厉风行</strong><ul>
 <li>问：“优柔寡断，不知道该做什么，怎么办？”</li>
@@ -2025,7 +2015,7 @@ TypeError: &apos;str&apos; object is not an iterator
 </ul>
 </li>
 </ul>
-<h1 id="Contexts-情境"><a href="#Contexts-情境" class="headerlink" title="Contexts 情境"></a>Contexts 情境</h1><p>不同于「原则」的简短，「情境」覆盖全面。<br>避免重复思考：我尽可能根据本文总结的原则、经验来解决问题；遇到新的问题，在想“清楚”了答案之后，总结、记录到本博客。<br>可能情景会慢慢变多，庞杂得令人困惑、恐惧。但是当前我对此的判断是：我要习惯这种复杂性，这里是速查手册，需要全面记录我的困惑和最后想出的“最优”选择。</p>
+<h1 id="情境"><a href="#情境" class="headerlink" title="情境"></a>情境</h1><p>不同于「原则」的简短，「情境」覆盖全面。<br>避免重复思考：我尽可能根据本文总结的原则、经验来解决问题；遇到新的问题，在想“清楚”了答案之后，总结、记录到本博客。<br>可能情景会慢慢变多，庞杂得令人困惑、恐惧。但是当前我对此的判断是：我要习惯这种复杂性，这里是速查手册，需要全面记录我的困惑和最后想出的“最优”选择。</p>
 <ul>
 <li><strong>情境</strong><br>  症状<br>  目标<br>  做法<ul>
 <li>细则<br><sup>（部分条目不遵循本格式）</sup></li>
@@ -2037,14 +2027,14 @@ TypeError: &apos;str&apos; object is not an iterator
 </ul>
 </li>
 </ul>
-<h2 id="Think-思考"><a href="#Think-思考" class="headerlink" title="Think 思考"></a>Think 思考</h2><ul>
+<h2 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h2><ul>
 <li><strong>犯错</strong><br>  症状：重复犯错，懊恼自责。<br>  目标：进步，少犯错。<br>  做法：<ul>
 <li>犯错后，反省、总结，并记录到本文。</li>
 <li>想到改善的方法就去尝试，效果不好/无效，再优化/尝试，「不断试错，适时调整」，再总结更新到本博客。</li>
 </ul>
 </li>
 </ul>
-<h3 id="Hesitating-纠结"><a href="#Hesitating-纠结" class="headerlink" title="Hesitating 纠结"></a><strong>Hesitating 纠结</strong></h3><p>症状：反复思考，以致浪费时间、分神（注意力涣散）。<br>目标：果断，减少时间浪费，专注（集中注意力）。<br>做法：针对更具体的情况做处理。</p>
+<h3 id="纠结"><a href="#纠结" class="headerlink" title="纠结"></a><strong>纠结</strong></h3><p>症状：反复思考，以致浪费时间、分神（注意力涣散）。<br>目标：果断，减少时间浪费，专注（集中注意力）。<br>做法：针对更具体的情况做处理。</p>
 <ul>
 <li><strong>选择困难</strong>：<br>  症状：「布里丹的毛驴」面对两堆一样称心如意且可吃到的干草时，驴却会因思考如何决定而饿死。<br>  目标：尽量迅速、果断地作出选择！<br>  做法：<ul>
 <li>限定时间：限定在一个有限的时间段内，得出一个相对（局部）最优的选择，然后坚决地执行。</li>
@@ -2092,7 +2082,7 @@ TypeError: &apos;str&apos; object is not an iterator
 </ul>
 </li>
 </ul>
-<h3 id="Todo-待办事项"><a href="#Todo-待办事项" class="headerlink" title="Todo 待办事项"></a>Todo 待办事项</h3><p>or GTD</p>
+<h3 id="待办事项"><a href="#待办事项" class="headerlink" title="待办事项"></a>待办事项</h3><p>or GTD</p>
 <ul>
 <li>Todo 要 <strong>精简</strong>「Less」<br>  不能多，待办事项一旦堆积，只是看着它们的存在，焦虑情绪就会日渐增长。<br>  心理压力大，效率低下，进度缓慢，什么都做不完，心理压力更大，恶性循环。<ul>
 <li>只是「<strong>可能做</strong>」的事务，就 <strong>别记</strong> 下来了。<br>  可能 == 永远不会做。</li>
@@ -2108,7 +2098,7 @@ TypeError: &apos;str&apos; object is not an iterator
 </ul>
 </li>
 </ul>
-<h2 id="Do-做事"><a href="#Do-做事" class="headerlink" title="Do 做事"></a>Do 做事</h2><ul>
+<h2 id="做事"><a href="#做事" class="headerlink" title="做事"></a>做事</h2><ul>
 <li><strong>强迫症</strong><br>  症状：囿于细节，重复劳动（做无用功）–&gt; 浪费时间<br>  希望：少做无用功，节省时间、精力。<br>  做法：<ul>
 <li><strong>接受现实</strong><br>  不要追求完美。这是不可能的！强迫自己接受现实。<blockquote>
 <p>Done is better than perfect.</p>
@@ -2157,7 +2147,7 @@ TypeError: &apos;str&apos; object is not an iterator
 </ul>
 </li>
 </ul>
-<h3 id="Tools-工具"><a href="#Tools-工具" class="headerlink" title="Tools 工具"></a><strong>Tools 工具</strong></h3><ul>
+<h3 id="工具"><a href="#工具" class="headerlink" title="工具"></a><strong>工具</strong></h3><ul>
 <li><strong>使用工具</strong><br>  症状：不舍得买贵且真正高效的工具和服务；太爱惜工具而妨碍正常使用；工具和方法设置太繁多、复杂。<br>  希望：真正做到高效。<br>  做法：<ul>
 <li>去心魔：「君子善假于物也」，不囿于物，毕竟工具就是买来用的！</li>
 <li>用 <strong>尽可能少</strong>（且合适、称手）的工具，去做尽可能多的事。<ul>
@@ -2205,7 +2195,7 @@ TypeError: &apos;str&apos; object is not an iterator
 </ul>
 </li>
 </ul>
-<h3 id="House-内务"><a href="#House-内务" class="headerlink" title="House 内务"></a>House 内务</h3><ul>
+<h3 id="内务"><a href="#内务" class="headerlink" title="内务"></a>内务</h3><ul>
 <li><strong>穿衣</strong><br>  简单，减少选择。<ul>
 <li>可以参考乔布斯、扎克伯格，每天都穿一样的衣服。<br>  省出作出这些选择所需的时间和精力，去做更有意义的事。</li>
 </ul>
@@ -2245,7 +2235,7 @@ TypeError: &apos;str&apos; object is not an iterator
 </ul>
 </li>
 </ul>
-<h3 id="Others-其它"><a href="#Others-其它" class="headerlink" title="Others 其它"></a>Others 其它</h3><ul>
+<h3 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h3><ul>
 <li><strong>社交</strong><br>  减少无用社交。<ul>
 <li>勿交损友<br>  如果ta没有比我更优秀的地方，我就不交这个朋友。（三人行必有我师）</li>
 <li>忍耐寂寞，独处精进<ul>
@@ -2349,7 +2339,7 @@ TypeError: &apos;str&apos; object is not an iterator
 </ul>
 </li>
 </ul>
-<h1 id="Me-我"><a href="#Me-我" class="headerlink" title="Me 我"></a>Me 我</h1><h2 id="Character-性格"><a href="#Character-性格" class="headerlink" title="Character 性格"></a>Character 性格</h2><ul>
+<h1 id="我"><a href="#我" class="headerlink" title="我"></a>我</h1><h2 id="性格"><a href="#性格" class="headerlink" title="性格"></a>性格</h2><ul>
 <li><del>（曾经）懒于思考</del>，<strong>不会思考</strong><br>  战术上勤奋，战略上懒惰 –&gt; 净做无用功<ul>
 <li>药方：做事，然后思考，不断总结。<br>Todo：深入问到元问题。</li>
 </ul>
@@ -2407,7 +2397,7 @@ TypeError: &apos;str&apos; object is not an iterator
 </li>
 <li><strong>讨好</strong><br>  不当“老好人”，别太“乐于助人”，以致刻意讨好他人。<br>  学会表达不满/诉求，学会拒绝，关注自身需求（我就是想做自己的事，不想去吃大餐）。</li>
 </ul>
-<h2 id="Phenomenon-现象"><a href="#Phenomenon-现象" class="headerlink" title="Phenomenon 现象"></a>Phenomenon 现象</h2><p>待整理、提炼。</p>
+<h2 id="现象"><a href="#现象" class="headerlink" title="现象"></a>现象</h2><p>待整理、提炼。</p>
 <ul>
 <li>痛苦，就有解决问题的源动力。</li>
 <li>随时记录想法：有灵感无论如何先记下来<br>  其实想法很多，但是很容易忘记。只要你记下来，你会惊讶于你竟然有那么多想法和灵感，可惜以前都没有归纳总结。<br>  当然也会发现，你有很多冗余的想法，甚至一些垃圾想法。可是只有过一段时间，你才能甄别出这些智障的想法，真令人羞耻。</li>
@@ -2686,7 +2676,7 @@ TypeError: &apos;str&apos; object is not an iterator
   </entry>
   
   <entry>
-    <title>My Moments 回忆</title>
+    <title>回忆</title>
     <link href="http://icehe.me/moments/"/>
     <id>http://icehe.me/moments/</id>
     <published>2016-06-27T16:00:00.000Z</published>
@@ -2846,7 +2836,7 @@ img.fix_height {
     
     <summary type="html">
     
-      Good old days. Photos &amp; Memory：执信，华工，毽球，社团，悦读，新浪微博，小时候，未来……
+      My Moments&amp;#58; Good old days. Photos &amp; Memory：执信，华工，毽球，社团，悦读，新浪微博，小时候，未来……
     
     </summary>
     
@@ -2858,25 +2848,25 @@ img.fix_height {
   </entry>
   
   <entry>
-    <title>Reading Bookmarks 阅读书签</title>
+    <title>文字阅读收藏</title>
     <link href="http://icehe.me/read/"/>
     <id>http://icehe.me/read/</id>
     <published>2016-06-16T16:00:00.000Z</published>
     <updated>2017-04-08T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
-<li><strong>Superscript 上标</strong><ul>
+<li><strong>上标</strong><ul>
 <li>The item with <sup><strong>Best</strong></sup>&nbsp; implies it is <code>one of the best</code>.</li>
 <li>The item with <sup>Note</sup>&nbsp; implies it is <code>a link to my related note</code>.</li>
 <li>The item with <sup><em>todo</em></sup>&nbsp; implies it has <code>not been read-through</code>.</li>
 <li>The item with <sup><em>temp</em></sup>&nbsp; implies it might <code>be removed one day</code>.</li>
 </ul>
 </li>
-<li><strong>Sigh</strong><ul>
+<li><strong>叹息</strong><ul>
 <li>过去囫囵吞枣，糟蹋了许多好文章；如今我要一一记下，细细咀嚼回味。</li>
 </ul>
 </li>
-<li><strong>Sigh 后记</strong><ul>
+<li><strong>后记</strong><ul>
 <li>好内容很多，但人生太有限，不可尽揽。本来我还想着给碰到的每一篇好文章写下笔记呢……</li>
 <li><strong>生活本来就是一团乱麻，「完美」只是镜花水月，盲目接近它和追求它，均是徒劳，甚至可以说是一出悲剧，就如西西弗斯的滚石。</strong></li>
 <li>追求整洁、秩序、完满，还不如由它杂乱不堪来得省心。我就是一个典型的「强迫症、细节控」，可是不想再继续这样下去了。人生太短暂了，何不及时行乐去享受乐趣，或是好好做事追寻人生的意义。</li>
@@ -2884,11 +2874,11 @@ img.fix_height {
 </ul>
 </li>
 </ul>
-<h2 id="Article-文章"><a href="#Article-文章" class="headerlink" title="Article 文章"></a>Article 文章</h2><ul>
+<h2 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h2><ul>
 <li><a href="https://github.com/mzlogin/chinese-copywriting-guidelines" target="_blank" rel="external">中文文案排版指北</a>（ <a href="https://github.com/mzlogin/chinese-copywriting-guidelines/blob/Simplified/README.en.md" target="_blank" rel="external">EN</a> ）</li>
 <li><a href="http://zhuanlan.zhihu.com/uicircle/20506092" target="_blank" rel="external">写给大家看的中文排版指南</a></li>
 </ul>
-<h3 id="Life-人生"><a href="#Life-人生" class="headerlink" title="Life 人生"></a>Life 人生</h3><ul>
+<h3 id="人生"><a href="#人生" class="headerlink" title="人生"></a>人生</h3><ul>
 <li><a href="https://www.zhihu.com/question/24561532/answer/28240920" target="_blank" rel="external">若一辈子没有赚大钱，当大官，和自己爱的人在一起（哪怕一次），活着能算有意义吗？</a>- 灯塔 <sup><strong>Best</strong> / <a href="/read/meaning.html">Note</a></sup></li>
 <li><a href="http://zhuanlan.zhihu.com/lswlsw/19895904" target="_blank" rel="external">眼前的苟且，也正是诗和远方</a> - 迷茫 <sup><strong>Best</strong> / <a href="/read/poet.html">Note</a></sup></li>
 <li><a href="http://zhuanlan.zhihu.com/xiepanda/19582894" target="_blank" rel="external">为什么长大以后反而不容易快乐？</a>- You are not special. <sup><strong>Best</strong> / <a href="/read/why_unhappy.html">Note</a></sup></li>
@@ -2908,7 +2898,7 @@ img.fix_height {
 <li><a href="http://mp.weixin.qq.com/s?__biz=MzA3OTQ4NDkxOA==&amp;mid=202075659&amp;idx=1&amp;sn=350db3032e8f3dca423ba6b93935e33a&amp;scene=0#rd" target="_blank" rel="external">我们这一代人的困惑</a> - 大部分人的梦想永远都实现不了。</li>
 <li><a href="https://www.zhihu.com/question/35670576/answer/64989492" target="_blank" rel="external">马云的缺陷是什么？</a> - 当年阿里巴巴的「十八罗汉」甘愿跟着马云，并不只是因为马云能打鸡血、“忽悠”…… 一点点启示。</li>
 </ul>
-<h3 id="Method-方法"><a href="#Method-方法" class="headerlink" title="Method 方法"></a>Method 方法</h3><ul>
+<h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><ul>
 <li><a href="http://www.cse.buffalo.edu/~rapaport/howtostudy.html" target="_blank" rel="external">How to Study: A Brief Guide</a> - 方法论 <sup><strong>Best</strong> / <a href="/read/how_to_study.html">Note</a></sup><ul>
 <li><a href="http://www.chronicle.com/article/Stop-Telling-Students-to-Study/131622/" target="_blank" rel="external">Stop Telling Students to Study for Exams</a></li>
 <li><a href="http://www.nytimes.com/2014/07/20/opinion/sunday/how-tests-make-us-smarter.html" target="_blank" rel="external">How Tests Make Us Smarter</a></li>
@@ -2925,7 +2915,7 @@ img.fix_height {
 </ul>
 </li>
 </ul>
-<h3 id="Rel-关系"><a href="#Rel-关系" class="headerlink" title="Rel 关系"></a>Rel 关系</h3><ul>
+<h3 id="关系"><a href="#关系" class="headerlink" title="关系"></a>关系</h3><ul>
 <li><a href="http://zhuanlan.zhihu.com/xinliyushenghuo/19993302" target="_blank" rel="external">本分和情分</a> -「别人帮你，那是情分，不帮你，那是本分。容不容得下是你的气度，能不能让你容下是我的本事。」</li>
 <li><a href="http://mp.weixin.qq.com/s?__biz=MjM5MzI5NzQ1MA==&amp;mid=207716479&amp;idx=1&amp;sn=195e46c808f83f95990bb3aff09a349b&amp;scene=1#rd" target="_blank" rel="external">圈子不同，不必强融</a> -「怎么样才可以真正地做到不计较呢？强大到让别人计较你。」<sup><strong>Best</strong></sup></li>
 <li><a href="http://www.vccoo.com/v/6a28e8" target="_blank" rel="external">孤独让人成瘾（下）：依赖真实的关系</a> <sup><strong>Best</strong></sup><br>  「交一个真正的朋友是一件很累人的事，但是人生那么长，不累一累，那又该干嘛呢？」</li>
@@ -2947,7 +2937,7 @@ img.fix_height {
 <li><a href="https://www.zhihu.com/question/28311266" target="_blank" rel="external">中国的劝酒文化背后的逻辑是什么？</a>- 服从性 &amp; 诚意测试</li>
 <li><a href="https://zhuanlan.zhihu.com/p/22558083" target="_blank" rel="external">父母真的只是为了孩子吗？</a>- 为了“自己”</li>
 </ul>
-<h3 id="Think-思维"><a href="#Think-思维" class="headerlink" title="Think 思维"></a>Think 思维</h3><ul>
+<h3 id="思维"><a href="#思维" class="headerlink" title="思维"></a>思维</h3><ul>
 <li><a href="http://www.geekonomics10000.com/973" target="_blank" rel="external">想要提高效率，就得不公平</a> - 极简 <sup><strong>Best</strong></sup><br>  「衣着无比整洁，东西摆放井井有条，对什么事情都有记录存档，这样的作风并不值得学习，这种人设定了错误的优先级。达到这样的状态要花费很多时间去整理生活，这些时间完全可以用来做些更有意思的事。」</li>
 <li><a href="https://zhuanlan.zhihu.com/p/21249109" target="_blank" rel="external">如何用3个月毁掉你的室友？（大学生版）</a> - 写照 <sup><strong>Best</strong></sup></li>
 <li><a href="https://www.zhihu.com/question/27283467" target="_blank" rel="external">智商高低是因为思维习惯不同造成的吗？</a>- 思考能力 <sup><strong>Best</strong></sup></li>
@@ -2972,7 +2962,7 @@ img.fix_height {
 <li><a href="https://www.zhihu.com/question/36088643" target="_blank" rel="external">有哪些优秀的沟通思路？</a></li>
 <li><a href="http://www.geekonomics10000.com/" target="_blank" rel="external">学而时嘻之</a> - 博客「用理工科思维理解世界」</li>
 </ul>
-<h3 id="Politics-政治"><a href="#Politics-政治" class="headerlink" title="Politics 政治"></a>Politics 政治</h3><ul>
+<h3 id="政治"><a href="#政治" class="headerlink" title="政治"></a>政治</h3><ul>
 <li><a href="https://www.facebook.com/professorofpower" target="_blank" rel="external">Power 錕的紙牌屋</a>（<a href="https://www.youtube.com/channel/UCdFyD6_8485ajuKML_6HbiQ/featured" target="_blank" rel="external">Youtube Link</a>）</li>
 <li><a href="http://mp.weixin.qq.com/s?__biz=MjM5NzE2NTY0Ng==&amp;mid=2650672863&amp;idx=1&amp;sn=abba62bbd7a4683368bff346ed6e26a4&amp;chksm=bed481fe89a308e8fdc87d3f1e859ed6bd1fdecb9ad72b437727b22403ebb0810dce171fd276&amp;mpshare=1&amp;scene=1&amp;srcid=0129QvkvhNvqPmhNcTfZI3jX#rd" target="_blank" rel="external">驱离的世界：社会分层与阶级固化</a> - 现实 <sup>批判学习</sup><ul>
 <li>From: 微信公众号<a href="http://chuansong.me/account/knowledgewealth" target="_blank" rel="external">「大浪淘沙」</a></li>
@@ -2987,7 +2977,7 @@ img.fix_height {
 <li><a href="https://www.zhihu.com/question/19894997/answer/123847049?from=singlemessage&amp;isappinstalled=0" target="_blank" rel="external">房地产、银行、贷款、政府、贫民、富民、泡沫、经济崩溃，他们之间是什么联系关系？</a> - 房地产问题 <sup><strong>Best</strong></sup></li>
 <li><a href="http://media.weibo.cn/article?id=2309404063588640796878&amp;jumpfrom=weibocom&amp;luicode=20000174&amp;_T_WM=2ea9d53d6c410dabd0bcf6a54bc05fd4" target="_blank" rel="external">让你信上帝未必肯，让你发财干不干？</a> - 宗教的逻辑？</li>
 </ul>
-<h3 id="Health-健康"><a href="#Health-健康" class="headerlink" title="Health 健康"></a>Health 健康</h3><ul>
+<h3 id="健康"><a href="#健康" class="headerlink" title="健康"></a>健康</h3><ul>
 <li><a href="https://www.zhihu.com/question/24498231" target="_blank" rel="external">生命真的在于运动么？</a></li>
 <li><a href="https://www.zhihu.com/question/20687290" target="_blank" rel="external">没有锻炼基础的人，如何增肌与减脂？</a>- 汇总</li>
 <li><a href="http://zhuanlan.zhihu.com/oh-hard/19684185" target="_blank" rel="external">什么样的有氧才真让你瘦？</a>- 高强度间歇有氧，在短时间内将高强度与低强度训练结合</li>
@@ -3007,7 +2997,7 @@ img.fix_height {
 <li><a href="https://www.zhihu.com/question/20519139" target="_blank" rel="external">自慰的真正危害有哪些？</a>- 无碍</li>
 <li><a href="https://www.zhihu.com/question/20576450" target="_blank" rel="external">日常生活中有哪些所谓的性知识是错误的？</a>- 常识</li>
 </ul>
-<h3 id="English-英语"><a href="#English-英语" class="headerlink" title="English 英语"></a>English 英语</h3><ul>
+<h3 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h3><ul>
 <li><a href="http://chuansong.me/n/301752741754" target="_blank" rel="external">汉语对现代文明的贡献有多大？</a>- Why you need to learn English !?</li>
 <li><a href="http://www.cnblogs.com/figure9/p/english-for-programmers.html" target="_blank" rel="external">程序员英语学习指引</a> <sup><em>todo</em></sup><br>  「除非你阅读原版书籍和中文书籍一样顺畅，或者翻译书籍信息损失量太大，否则不需要刻意阅读原版。」</li>
 <li><a href="https://www.zhihu.com/question/28640901/answer/63421701" target="_blank" rel="external">单词全认识却看不懂句子怎么办？</a>- 一词多义、语境、词组、语法、文化背景 <sup><em>todo</em></sup></li>
@@ -3023,7 +3013,7 @@ img.fix_height {
 <li><a href="http://www.essayforum.com/" target="_blank" rel="external">EssayForum</a> - Free Writing, Editing, and Research Help for Students <sup><em>todo</em></sup> <sup><em>temp</em></sup></li>
 <li><a href="https://www.inc.com/jeff-haden/39-incorrectly-used-words-that-can-make-you-look-bad.html" target="_blank" rel="external">39 Incorrectly Used Words That Can Make You Look Bad</a> <sup><em>todo</em></sup> <sup><em>temp</em></sup></li>
 </ul>
-<h3 id="Finance-理财"><a href="#Finance-理财" class="headerlink" title="Finance 理财"></a>Finance 理财</h3><ul>
+<h3 id="理财"><a href="#理财" class="headerlink" title="理财"></a>理财</h3><ul>
 <li><strong><a href="https://www.zhihu.com/question/20603837/answer/47073613" target="_blank" rel="external">商业分析能力是怎样炼成的？</a></strong><sup><strong>Best</strong></sup></li>
 <li><a href="https://www.zhihu.com/question/22316395" target="_blank" rel="external">如何用保险保障自己的一生？</a>- 安稳人生 <sup><strong>Best</strong></sup></li>
 <li><a href="https://www.zhihu.com/question/22818974" target="_blank" rel="external">普通人如何合理的理财投资，有哪些书可以学习阅读？</a>- 必修 <sup><em>todo</em></sup></li>
@@ -3033,43 +3023,43 @@ img.fix_height {
 <li><a href="https://www.zhihu.com/question/20564224" target="_blank" rel="external">为什么跳槽加薪会比内部调薪要高？</a>- 瞬时市场定价</li>
 <li><a href="https://zhuanlan.zhihu.com/69354?f3fb8ead20=4e370f3db81f606365ebc5b3ae1bfff6" target="_blank" rel="external">傻瓜才炒股</a></li>
 </ul>
-<h3 id="Family-家"><a href="#Family-家" class="headerlink" title="Family 家"></a>Family 家</h3><ul>
+<h3 id="家"><a href="#家" class="headerlink" title="家"></a>家</h3><ul>
 <li><a href="https://www.zhihu.com/question/19621705" target="_blank" rel="external">如何对孩子的无理要求说「不」？</a></li>
 <li><a href="https://www.zhihu.com/question/21603465" target="_blank" rel="external">为什么不从小就向孩子还原社会的残酷？</a></li>
 <li><a href="https://www.zhihu.com/question/25095290/answer/30085442" target="_blank" rel="external">刚做爸爸，觉得自己的时间都被孩子剥夺，该怎么调整心态？</a></li>
 <li><a href="https://www.zhihu.com/question/24399575/answer/93873520?utm_campaign=weekly211&amp;utm_source=weekly-digest&amp;utm_medium=email" target="_blank" rel="external">有哪些价格不贵逼格又高的家装家居？</a></li>
 <li><a href="https://www.zhihu.com/question/22827881" target="_blank" rel="external">家居中有哪些设计不合理的地方？</a></li>
 </ul>
-<h3 id="Buy-买"><a href="#Buy-买" class="headerlink" title="Buy 买"></a>Buy 买</h3><ul>
+<h3 id="买"><a href="#买" class="headerlink" title="买"></a>买</h3><ul>
 <li><a href="https://www.zhihu.com/question/23365655" target="_blank" rel="external">100 元以下有什么好伞？</a> - 伞控？（南方多雨）</li>
 <li><a href="https://www.zhihu.com/question/20228439" target="_blank" rel="external">有哪些不为外行所知的好产品或好品牌？</a></li>
 <li><a href="https://www.zhihu.com/question/24023171" target="_blank" rel="external">一个人旅行有哪些必备神器？</a>- 实用</li>
 <li><a href="https://www.zhihu.com/question/38821362" target="_blank" rel="external">有哪些尚未普及却非常好用的东西？</a>- 生活质量</li>
 <li><a href="http://mp.weixin.qq.com/s?__biz=MjM5Njk4OTQwMQ==&amp;mid=401415614&amp;idx=1&amp;sn=16d3206bd1e3f502c4635b5348b151d1&amp;scene=1&amp;srcid=1207BJEB4qWQBFhX3Yq0zXH1#rd" target="_blank" rel="external">耳机选购大全：不败家！不白瞎！够用就好？</a>- 实用，极简（好用，便携，高性价比）</li>
 </ul>
-<h3 id="Eat-食"><a href="#Eat-食" class="headerlink" title="Eat 食"></a>Eat 食</h3><ul>
+<h3 id="食"><a href="#食" class="headerlink" title="食"></a>食</h3><ul>
 <li><a href="https://www.zhihu.com/collection/39354991" target="_blank" rel="external">食べ物</a> <sup><strong>Best</strong></sup></li>
 <li><a href="https://www.zhihu.com/question/30400300" target="_blank" rel="external">北京有哪些深藏不露的餐馆？</a></li>
 <li><a href="https://www.zhihu.com/question/19803431" target="_blank" rel="external">去香港一定不能错过哪些美食？</a></li>
 </ul>
-<h3 id="Play-乐"><a href="#Play-乐" class="headerlink" title="Play 乐"></a>Play 乐</h3><ul>
+<h3 id="乐"><a href="#乐" class="headerlink" title="乐"></a>乐</h3><ul>
 <li><a href="https://www.zhihu.com/question/20502275" target="_blank" rel="external">如何系统地练字？</a>- 手写的乐趣</li>
 <li><a href="https://www.zhihu.com/question/22208507" target="_blank" rel="external">怎样欣赏交响乐、歌剧、古典和美声这类音乐？</a></li>
 <li><a href="https://www.zhihu.com/question/21648404" target="_blank" rel="external">广州有什么「鲜为人知但很有意思」的景点？</a></li>
 <li><a href="http://mp.weixin.qq.com/s?__biz=MjM5MTIwNTYwMg==&amp;mid=402346946&amp;idx=1&amp;sn=8b2c0e87815358358eff466c25b0836b&amp;scene=5&amp;srcid=1209kGNJ89UQoUCc9M81CNEZ#rd" target="_blank" rel="external">我知道你看过不少神剧，但许多都「抄袭」它</a></li>
 </ul>
-<h3 id="Legal-法律"><a href="#Legal-法律" class="headerlink" title="Legal 法律"></a>Legal 法律</h3><ul>
+<h3 id="法律"><a href="#法律" class="headerlink" title="法律"></a>法律</h3><ul>
 <li><a href="https://www.zhihu.com/question/28226028" target="_blank" rel="external">《Legal High》呈现的是怎样的三观？</a>- 法律至高 <sup><strong>Best</strong></sup></li>
 <li><a href="https://www.zhihu.com/question/35814611/answer/65416013" target="_blank" rel="external">KTV 不允许带酒水和零食违法不违法？</a>- 合法权益</li>
 </ul>
-<h3 id="Others-杂"><a href="#Others-杂" class="headerlink" title="Others 杂"></a>Others 杂</h3><ul>
+<h3 id="杂"><a href="#杂" class="headerlink" title="杂"></a>杂</h3><ul>
 <li><a href="http://www.letv.com/ptv/vplay/24200614.html#vid=24200614" target="_blank" rel="external">音乐的秘密</a> - 梁欢制作的纪录片电影。向不为人知的幕后音乐人致敬 <sup><strong>Best</strong></sup></li>
 <li><a href="https://www.zhihu.com/question/20093377#answer-700224" target="_blank" rel="external">如何防止鞋带松掉？</a>- 绑鞋带</li>
 <li><a href="http://www.shanbay.com/" target="_blank" rel="external">扇贝英语</a> - 一整套学习英语的系列 App 服务</li>
 <li><a href="http://open.163.com/" target="_blank" rel="external">网易公开课</a> - 国内最好的公开课平台，包含 TED、Coursera、可汗学院的翻译视频 <sup><em>todo</em></sup></li>
 <li><a href="https://www.zhihu.com/question/32219311" target="_blank" rel="external">经济越发展，越难「寒门出贵子」吗？</a></li>
 </ul>
-<h2 id="Books-书"><a href="#Books-书" class="headerlink" title="Books 书"></a>Books 书</h2><ul>
+<h2 id="书"><a href="#书" class="headerlink" title="书"></a>书</h2><ul>
 <li><a href="http://book.douban.com/subject/1046492/" target="_blank" rel="external">国史大纲</a> - 钱穆，通史。</li>
 <li><a href="http://book.douban.com/subject/6097222/" target="_blank" rel="external">论语新解</a> - 钱穆，儒。</li>
 <li><a href="http://book.douban.com/subject/5253759/" target="_blank" rel="external">中国哲学简史</a> - 冯友兰，哲学。</li>
@@ -3102,7 +3092,7 @@ img.fix_height {
 <li>蔡志忠的漫画</li>
 <li><span class="val_pos icon-douban"> <a href="http://book.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external">读过的书</a> - 用豆瓣记录所有看过的书意义不大还麻烦，以后只在博客此处做记录。</span></li>
 </ul>
-<h2 id="FM-播客"><a href="#FM-播客" class="headerlink" title="FM 播客"></a>FM 播客</h2><p>尽量使用 <a href="http://www.apple.com/itunes/podcasts/" target="_blank" rel="external">Podcasts</a> 等泛用型播客客户端订阅为佳。</p>
+<h2 id="播客"><a href="#播客" class="headerlink" title="播客"></a>播客</h2><p>尽量使用 <a href="http://www.apple.com/itunes/podcasts/" target="_blank" rel="external">Podcasts</a> 等泛用型播客客户端订阅为佳。</p>
 <ul>
 <li><a href="https://ipn.li/yitianshijie/" target="_blank" rel="external">一天世界</a> <sup>Great</sup><br>  「用整体性的视角，观察当代社会的技术、文化以及商业风景，对抗消费主义导向的论述，强调对技术、艺术的敏锐的感受力，以及精神和肉体上的强健。」一个小众播客。</li>
 <li><a href="https://ipn.li/itgonglun/" target="_blank" rel="external">IT 公论</a> <sup>Great</sup><br>  建议不要从第一期开始听，前期的节目我觉得真的不行，中期才算渐入佳境。<br>  好节目不常有，我常把它作为平时步行、骑行、闲暇时的背景音，时有收获。<br>  （已停播，「一天世界」就是它的续集。）</li>
@@ -3184,14 +3174,14 @@ img.fix_height {
 <li><a href="http://chuansong.me/account/junlin_1980" target="_blank" rel="external">君临</a> - 富有价值的商业洞见！</li>
 <li><a href="http://chuansong.me/account/zhihufeifeimao" target="_blank" rel="external">肥肥猫的小酒馆</a> - 知乎高赞答主。</li>
 </ul>
-<h2 id="Extra-额外"><a href="#Extra-额外" class="headerlink" title="Extra 额外"></a>Extra 额外</h2><ul>
+<h2 id="额外"><a href="#额外" class="headerlink" title="额外"></a>额外</h2><ul>
 <li>最喜欢的 <a href="/favourites/#Motion-Picture-电影">电影</a></li>
 <li>最喜欢的 <a href="/favourites/#TV-Dramas-电视剧">电视剧</a></li>
 <li>最喜欢的 <a href="/favourites/#Animate-动画">动画</a></li>
 <li>最喜欢的 <a href="/favourites/#Games-游戏">游戏</a></li>
 <li>最喜欢的 <a href="/favourites/#Singers-歌手">歌手</a></li>
 </ul>
-<h2 id="Notes-笔记"><a href="#Notes-笔记" class="headerlink" title="Notes 笔记"></a>Notes 笔记</h2><ul>
+<h2 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h2><ul>
 <li><a href="/read/self_control.html">你的自控能力强么？｜研究：不快乐的人自控力更差</a></li>
 <li><a href="/read/meaning.html">若一辈子没有赚大钱，当大官，和自己爱的人在一起（哪怕一次），活着能算有意义吗？</a> <sup><strong>Best</strong></sup></li>
 <li><a href="/read/poet.html">眼前的苟且，也正是诗和远方</a> <sup><strong>Best</strong></sup></li>
@@ -3218,7 +3208,7 @@ img.fix_height {
     
     <summary type="html">
     
-      阅读类书签：网站、博客、文章、问答、专栏、书籍、播客、微信公众号…
+      Reading Bookmarks 文字阅读内容的书签：网站、博客、文章、问答、专栏、书籍、播客、微信公众号…
     
     </summary>
     
@@ -3230,7 +3220,7 @@ img.fix_height {
   </entry>
   
   <entry>
-    <title>Technology Bookmarks 技术书签</title>
+    <title>技术阅读收藏</title>
     <link href="http://icehe.me/tech/"/>
     <id>http://icehe.me/tech/</id>
     <published>2016-06-13T16:00:00.000Z</published>
@@ -3395,7 +3385,7 @@ img.fix_height {
     
     <summary type="html">
     
-      技术类书签：工具、文档、Wiki、技术博客…
+      Technology Bookmarks 技术内容的书签：工具、文档、Wiki、技术博客…
     
     </summary>
     
@@ -3488,7 +3478,7 @@ img.fix_height {
   </entry>
   
   <entry>
-    <title>AppleScript Quick Start 快速入门</title>
+    <title>AppleScript 快速入门</title>
     <link href="http://icehe.me/applescript/applescript/"/>
     <id>http://icehe.me/applescript/applescript/</id>
     <published>2016-03-10T16:00:00.000Z</published>
@@ -3528,7 +3518,7 @@ img.fix_height {
     
     <summary type="html">
     
-      在有编程基础的情况下，通过快速浏览示例代码，即可熟悉语法，快速入门 AppleScript。
+      AppleScript Quick Start&amp;#58; 在有编程基础的情况下，通过快速浏览示例代码，即可熟悉语法，快速入门 AppleScript。
     
     </summary>
     
@@ -3540,7 +3530,7 @@ img.fix_height {
   </entry>
   
   <entry>
-    <title>Git Note</title>
+    <title>Git 总结</title>
     <link href="http://icehe.me/cmd/git_note/"/>
     <id>http://icehe.me/cmd/git_note/</id>
     <published>2016-02-14T16:00:00.000Z</published>
@@ -4112,7 +4102,7 @@ img.fix_height {
     
     <summary type="html">
     
-      我的 Git 笔记，日常工作曾使用的指令组合。
+      Git Note&amp;#58; 我的 Git 笔记，日常工作曾使用的指令组合。
     
     </summary>
     
@@ -4124,7 +4114,7 @@ img.fix_height {
   </entry>
   
   <entry>
-    <title>Mac Shortcuts 快捷键</title>
+    <title>Mac 快捷键</title>
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
@@ -5277,7 +5267,7 @@ __`⌘ r` Show | Hide Lyrics__
     
     <summary type="html">
     
-      我的 macOS 快捷键列表。
+      macOS Shortcuts&amp;#58; 我的 macOS 快捷键列表。
     
     </summary>
     
@@ -5414,40 +5404,40 @@ __`⌘ r` Show | Hide Lyrics__
   </entry>
   
   <entry>
-    <title>Navigation 博客导航</title>
+    <title>博客导航</title>
     <link href="http://icehe.me/bookmarks/"/>
     <id>http://icehe.me/bookmarks/</id>
     <published>2015-12-19T16:00:00.000Z</published>
-    <updated>2017-04-16T16:00:00.000Z</updated>
+    <updated>2017-04-19T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Top-20"><a href="#Top-20" class="headerlink" title="Top 20"></a>Top 20</h2><div class="post-toc" style="max-height: 1220px; width: calc(100% + 0px);" id="popular-post-div2"> <div class="post-toc-content"> <ol class="nav" id="popular-list2"></ol> </div> </div>
 
 <h2 id="C"><a href="#C" class="headerlink" title="C++"></a><a href="/categories/C/">C++</a></h2><ul>
-<li><a href="/c++/C++ Primer 5th/"><strong>C++ Primer 5th - Note</strong></a></li>
-<li><a href="/c++/C++ Interview Book/"><strong>C++ Interview Book - Note</strong></a></li>
-<li><a href="/c++/C++ Code Standards 编码标准/">C++ Code Standards 编码规范 - Note</a></li>
-<li>Effective C++ Notes<ul>
+<li><a href="/c++/C++ Primer 5th/"><strong>C++ Primer 第五版</strong></a></li>
+<li><a href="/c++/C++ Interview Book/"><strong>C++ 面试宝典</strong></a></li>
+<li><a href="/c++/C++ Code Standards 编码标准/"><strong>C++ 编程规范</strong></a></li>
+<li>Effective C++<ul>
 <li><a href="/c++/Effective C++ - Reading Note 1">Note 1</a> , <a href="/c++/Effective C++ - Reading Note 2">Note 2</a> , <a href="/c++/Effective C++ - Reading Note 3">Note 3</a> , <a href="/c++/Effective C++ - Reading Note 4">Note 4</a></li>
 </ul>
 </li>
 </ul>
 <h2 id="Command"><a href="#Command" class="headerlink" title="Command"></a><a href="/categories/Command">Command</a></h2><ul>
-<li><strong><a href="/cmd/git_note">Git Note</a> - 常用操作</strong></li>
+<li><strong><a href="/cmd/git_note">Git 总结</a> - 常用操作</strong></li>
 </ul>
 <h2 id="Read"><a href="#Read" class="headerlink" title="Read"></a><a href="/categories/read">Read</a></h2><ul>
-<li><a href="/tech"><strong>Technology Bookmarks 技术书签</strong></a></li>
-<li><a href="/read"><strong>Reading Bookmarks 阅读书签</strong></a></li>
-<li><a href="/favourites">Favorites 喜好</a> - 影视 &amp; ACGMN <sup><a href="http://baike.baidu.com/item/ACGMN" target="_blank" rel="external">定义</a></sup></li>
-<li>Navigation 博客导航 <sup>current page</sup></li>
+<li><a href="/tech"><strong>技术阅读收藏</strong></a></li>
+<li><a href="/read"><strong>文字阅读收藏</strong></a></li>
+<li><a href="/favourites">最喜爱的</a> - 影视 &amp; ACGMN <sup><a href="http://baike.baidu.com/item/ACGMN" target="_blank" rel="external">定义</a></sup></li>
+<li>博客导航 <sup>current page</sup></li>
 </ul>
 <h2 id="Mac"><a href="#Mac" class="headerlink" title="Mac"></a><a href="/categories/Mac">Mac</a></h2><ul>
-<li><strong><a href="/tools">Tools 利器</a> - 推荐 Apps &amp; 硬件</strong></li>
-<li><a href="/mac/efficiency">Mac Efficiency 效率指北</a></li>
-<li><a href="/mac_shortcuts">Mac Shortcuts 快捷键</a></li>
+<li><strong><a href="/tools">利器 - 软硬件推荐</a></strong></li>
+<li><a href="/mac/efficiency">Mac 效率指北</a></li>
+<li><a href="/mac_shortcuts">Mac 快捷键</a></li>
 </ul>
 <h2 id="AppleScript"><a href="#AppleScript" class="headerlink" title="AppleScript"></a><a href="/categories/AppleScript">AppleScript</a></h2><ul>
 <li><a href="/applescript/evernote_osx/">用 AppleScript 操作 Evernote / macOS</a></li>
-<li><a href="/applescript/applescript/">AppleScript Quick Start 快速入门</a></li>
+<li><a href="/applescript/applescript/">AppleScript 快速入门</a></li>
 </ul>
 <h2 id="ASM-汇编"><a href="#ASM-汇编" class="headerlink" title="ASM 汇编"></a><a href="/categories/ASM">ASM 汇编</a></h2><ul>
 <li>准备：<a href="/asm/在win7 64位系统上使用debug.exe/">在win7 64位系统上使用 debug.exe</a></li>
@@ -5468,17 +5458,17 @@ __`⌘ r` Show | Hide Lyrics__
 <li>「14」 <a href="/asm/Assembly Language - Note 14/">用 BIOS 进行键盘输入和磁盘读写，及相关实验</a></li>
 <li>「15」 <a href="/asm/Assembly Language - Note 15/">附录内容：汇编编译器对jmp的处理，地址计数器（AC），处理伪操作指令，栈传递参数，无溢出除法…</a></li>
 </ul>
-<h2 id="Batch-批处理"><a href="#Batch-批处理" class="headerlink" title="Batch 批处理"></a><a href="/categories/Batch">Batch 批处理</a></h2><ul>
-<li><a href="/batch/Batch 批处理指令 Command/">Batch Command 批处理指令</a></li>
-<li><a href="/batch/DOS 常用指令 Command/">DOS Command 常用指令</a></li>
-<li><a href="/batch/DOS 特殊符号 Symbol/">DOS Symbols 特殊符号</a></li>
-<li><a href="/batch/DOS 环境变量 Environment Variable/">DOS Environment Variable 环境变量</a></li>
+<h2 id="Batch-file-批处理"><a href="#Batch-file-批处理" class="headerlink" title="Batch file - 批处理"></a><a href="/categories/Batch">Batch</a> file - 批处理</h2><ul>
+<li><a href="/batch/Batch 批处理指令 Command/">Batch 批处理指令</a></li>
+<li><a href="/batch/DOS 特殊符号 Symbol/">Batch 批处理中的特殊符号</a></li>
+<li><a href="/batch/DOS 常用指令 Command/">DOS 常用指令</a></li>
+<li><a href="/batch/DOS 环境变量 Environment Variable/">DOS 环境变量</a></li>
 </ul>
 <h2 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a><a href="/categories/javascript">JavaScript</a></h2><ul>
 <li><a href="/javascript/某次js代码优化过程/">某次 JavaScript 代码优化过程</a></li>
 </ul>
 <h2 id="Python"><a href="#Python" class="headerlink" title="Python"></a><a href="/categories/python">Python</a></h2><ul>
-<li><a href="/python/easy_note">Python3 Easy Note</a></li>
+<li><a href="/python/easy_note">Python3 快速入门</a></li>
 </ul>
 <h2 id="Think"><a href="#Think" class="headerlink" title="Think"></a><a href="/categories/think">Think</a></h2><ul>
 <li><a href="/think/2017_spring">2017 Spring</a></li>
@@ -5486,29 +5476,30 @@ __`⌘ r` Show | Hide Lyrics__
 <li><a href="/think/2016_fall">2016 Fall</a></li>
 <li><a href="/think/2016_summer">2016 Summer</a></li>
 <li><a href="/think/bye2015">Bye 2015</a></li>
-<li><a href="/think/life_manual">Life Exp 生活指北</a></li>
+<li><a href="/think/life_manual">生活指北</a></li>
 </ul>
 <h2 id="Time-Mgt"><a href="#Time-Mgt" class="headerlink" title="Time Mgt"></a><a href="/categories/time-mgt">Time Mgt</a></h2><ul>
-<li><a href="/lifelogs">Life Logs 手帐</a></li>
-<li><a href="/think/time_mgt">Time Mgt 时间管理日志</a></li>
+<li><a href="/lifelogs">时间管理日志</a></li>
+<li><a href="/think/time_mgt">时间管理日志说明</a></li>
 </ul>
 <h2 id="Web"><a href="#Web" class="headerlink" title="Web"></a><a href="/categories/Web">Web</a></h2><ul>
-<li><a href="/web/build_blog/">Build Blog 搭建个人博客</a></li>
-<li><a href="/web/donate">实现网站的支付宝打赏功能</a></li>
+<li><a href="/web/build_blog/">搭建个人博客</a></li>
+<li><a href="/web/donate">实现网站的打赏功能</a></li>
 </ul>
 <h2 id="Whoami"><a href="#Whoami" class="headerlink" title="Whoami"></a><a href="/categories/whoami">Whoami</a></h2><ul>
 <li><a href="/about/"><strong>CV 简历</strong></a></li>
-<li><a href="/moments/">My Moments 回忆</a></li>
-<li><a href="/reward">Reward Me 打赏博主</a></li>
+<li><a href="/about_en/">IceHe’s CV</a></li>
+<li><a href="/moments/">回忆</a></li>
+<li><a href="/reward">打赏博主</a></li>
 </ul>
 <hr>
 <h2 class="hidden">Others</h2>
 
-<h3 id="Default-Indices"><a href="#Default-Indices" class="headerlink" title="Default Indices"></a>Default Indices</h3><ul>
-<li><a href="/archives">Archives 归档</a> ( Sort by Time )</li>
-<li><a href="/categories">Categories 分类</a> ( Generated by the Hexo theme)</li>
+<h3 id="原默认索引"><a href="#原默认索引" class="headerlink" title="原默认索引"></a>原默认索引</h3><ul>
+<li><a href="/archives">归档</a> ( Archives - Sorted by Time )</li>
+<li><a href="/categories">分类</a> ( Categories - Generated by Hexo )</li>
 </ul>
-<h3 id="Write-What-写什么"><a href="#Write-What-写什么" class="headerlink" title="Write What 写什么"></a>Write What 写什么</h3><ul>
+<h3 id="写什么"><a href="#写什么" class="headerlink" title="写什么"></a>写什么</h3><ul>
 <li><strong>不追赶容易过时的技术</strong><ul>
 <li>软件技术日新月异，其中大多数不过昙花一现，很快就会被层出不穷的优秀后来者所取代。</li>
 <li>当然还是有许多历久弥新的技术、思想，以及软件工程师的基本功、素养，亟待掌握，它们才值得总结记录。</li>
@@ -5534,13 +5525,13 @@ __`⌘ r` Show | Hide Lyrics__
 </li>
 <li>记于 2017-01-01</li>
 </ul>
-<h3 id="Postscript-后记"><a href="#Postscript-后记" class="headerlink" title="Postscript 后记"></a>Postscript 后记</h3><ul>
+<h3 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h3><ul>
 <li><strong>生活本来就是一团乱麻，「完美」只是镜花水月，盲目接近它和追求它，均是徒劳，甚至可以说是一出悲剧，就如西西弗斯的滚石。</strong></li>
 <li>追求整洁、秩序、完满，还不如由它杂乱不堪来得省心。我就是一个典型的「强迫症、细节控」，可是不想再继续这样下去了。人生太短暂了，何不及时行乐去享受乐趣，或是好好做事追寻人生的意义。</li>
 <li>不过，我还是想留下这个博客 —— 这一片隐秘天地，让我自己一个人，能够静静地跟自己说说话。</li>
 <li>记于 2017-03-15</li>
 </ul>
-<h3 id="Thanks-感谢"><a href="#Thanks-感谢" class="headerlink" title="Thanks 感谢"></a>Thanks 感谢</h3><ul>
+<h3 id="感谢"><a href="#感谢" class="headerlink" title="感谢"></a>感谢</h3><ul>
 <li>Welcome to <a href="http://icehe.me"><strong>IceHe.me</strong></a> ~</li>
 <li>我可以用 Evernote「记录」，但是难以「分享」；用 GitHub 可以同时做到两者，但是展示效果不佳；所以做了这个博客，顺道满足了自己对审美的追求和享受。<ul>
 <li>只可惜我不懂「前端、设计」，无法更进一步，只能在他人成果的基础上修修补补，做成这个样子。</li>
@@ -5557,7 +5548,7 @@ __`⌘ r` Show | Hide Lyrics__
     
     <summary type="html">
     
-      PV Top N 热榜、文章分类列表。
+      Navigation&amp;#58; PV Top N 热榜、文章分类列表。
     
     </summary>
     
@@ -5569,7 +5560,7 @@ __`⌘ r` Show | Hide Lyrics__
   </entry>
   
   <entry>
-    <title>Tools 利器</title>
+    <title>利器 - 软硬件推荐</title>
     <link href="http://icehe.me/tools/"/>
     <id>http://icehe.me/tools/</id>
     <published>2015-11-20T16:00:00.000Z</published>
@@ -5613,8 +5604,8 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 </li>
 </ul>
-<h2 id="Software"><a href="#Software" class="headerlink" title="Software"></a>Software</h2><h3 id="Common"><a href="#Common" class="headerlink" title="Common"></a>Common</h3><ul>
-<li>Web<ul>
+<h2 id="软件"><a href="#软件" class="headerlink" title="软件"></a>软件</h2><h3 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h3><ul>
+<li>网络<ul>
 <li><a href="https://portal.shadowsocks.com/" target="_blank" rel="external"><strong>Shawdowsocks</strong></a> <sup>Ladder</sup><ul>
 <li>首选的 PC 番羽土啬方案：<br>  Shadowsocks 服务 + Mac 的 <a href="https://github.com/shadowsocks/ShadowsocksX-NG" target="_blank" rel="external"><strong>ShadowsocksX-NG</strong></a> + 浏览器的 proxy 类插件：<br>  如 FireFox 的 <a href="https://getfoxyproxy.org/" target="_blank" rel="external"><strong>FoxyProxy</strong></a>，Chrome 的 <a href="https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?hl=en" target="_blank" rel="external"><strong>SwitchyOmega</strong></a>。<ul>
 <li>ShadowsocksX、<a href="https://github.com/shadowsocks/ShadowsocksX-NG" target="_blank" rel="external">ShadowsocksX-NG</a> 等可以用更强大的 <a href="https://nssurge.com/" target="_blank" rel="external">Surge</a> 替换。</li>
@@ -5635,7 +5626,7 @@ __`⌘ r` Show | Hide Lyrics__
 </li>
 </ul>
 </li>
-<li>Usual<ul>
+<li>常用<ul>
 <li><a href="https://www.2doapp.com/" target="_blank" rel="external"><strong>2Do</strong></a> <sup>Favorite</sup><br>  GTD 类事务管理。<ul>
 <li>功能齐全、好用，用法可简可繁。快捷键完备，深得我这个键盘党的喜爱！</li>
 <li>一开始用 <a href="http://doit.im/cn/" target="_blank" rel="external"><strong>Doit.im</strong></a> 入门 GTD，虽然它的 Web 端的操作很极致高效，可是客户端做得不尽人意。然后发现自己的生活比较规律，觉得 Apple 自带的 <a href="https://support.apple.com/zh-cn/HT202835" target="_blank" rel="external"><strong>Calendar</strong></a> 够用。后来又改用免费版 <a href="https://www.wunderlist.com/zh/" target="_blank" rel="external"><strong>Wunderlist</strong></a>，捉襟见肘的功能勉强满足个人需求，胜在简洁易用。现在用 2Do。</li>
@@ -5676,12 +5667,12 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 </li>
 </ul>
-<h3 id="Cmd-Line"><a href="#Cmd-Line" class="headerlink" title="Cmd Line"></a>Cmd Line</h3><ul>
-<li>Project Mgt.<ul>
+<h3 id="命令行"><a href="#命令行" class="headerlink" title="命令行"></a>命令行</h3><ul>
+<li>代码管理<ul>
 <li><a href="https://git-scm.com/" target="_blank" rel="external"><strong>Git</strong></a> <sup>Essential</sup><br>  分布式代码版本管理系统（必学）。</li>
 </ul>
 </li>
-<li>Editor<ul>
+<li>编辑器<ul>
 <li><a href="http://www.vim.org/" target="_blank" rel="external"><strong>Vim</strong></a> <sup>God-like</sup><br>  编辑器之神（ Emacs 则是神的编辑器 ）。<ul>
 <li>服务器通常是 <em>nix 系统，vi</em> 是标配，而 Emacs 不常有。服务端开发和运维人员经常要在远程服务器编辑文本，遂 vi* 是必备技能！</li>
 <li>大的项目还是使用专用 IDE 进行编写更便捷靠谱。IDE 装个 plugin 也能以 Vim 的方式高效地操作，Vim 通用的键位可以让你少记很多必要的 IDE 快捷键。</li>
@@ -5719,7 +5710,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 <hr>
 <ul>
-<li>Package<ul>
+<li>包管理<ul>
 <li><a href="http://brew.sh/" target="_blank" rel="external"><strong>Homebrew</strong></a> <sup>Best</sup><br>  macOS 的包管理器。<code>brew</code> 就如 <code>agt-get</code> 之于 Ubuntu，<code>yum</code> 之于 RedHat、CentOS 的存在。</li>
 <li><a href="http://caskroom.io/" target="_blank" rel="external"><strong>Homebrew Cask</strong></a> <sup>Great</sup><br>  安装、更新 macOS Apps 的命令行工具。<ul>
 <li>用命令行的方式安装、更新 Mac Apps，其中还包括了许多第三方的 Apps。</li>
@@ -5735,8 +5726,8 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 </li>
 </ul>
-<h3 id="Development"><a href="#Development" class="headerlink" title="Development"></a>Development</h3><ul>
-<li>Usual<ul>
+<h3 id="软件开发"><a href="#软件开发" class="headerlink" title="软件开发"></a>软件开发</h3><ul>
+<li>常用<ul>
 <li><a href="https://www.jetbrains.com/pycharm/" target="_blank" rel="external"><strong>PyCharm</strong></a> , <a href="https://www.jetbrains.com/phpstorm/" target="_blank" rel="external"><strong>PhpStorm</strong></a> <sup>Master Piece</sup><br>  Python、PHP 的最佳 IDE！<ul>
 <li>现阶段类型推导做得最好，稳定、少崩溃，功能完善，设置选项齐全。（我觉得）比 ZendStudio、Eclipse 之流好用多了。</li>
 <li>配合 <a href="https://plugins.jetbrains.com/plugin/164?pr=idea" target="_blank" rel="external"><strong>IdeaVim</strong></a> 插件可用 Vim 键位编辑，可以少记许多执行类似操作的 IDE 快捷键。</li>
@@ -5753,7 +5744,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 <hr>
 <ul>
-<li>Editors<br>  其实可以完全用 Vim 来编辑文本文件（在终端中）。<ul>
+<li>编辑器<br>  其实可以完全用 Vim 来编辑文本文件（在终端中）。<ul>
 <li><a href="https://code.visualstudio.com/" target="_blank" rel="external"><strong>VS Code</strong></a> <sup>Best</sup><ul>
 <li>发展至今，足以取代 Sublime Text 的优秀轻量级代码编辑器。</li>
 <li>内置 Git 管理、终端、调试框架，齐全、足量的优秀插件，配置选项完备，使用稳定顺手……</li>
@@ -5769,7 +5760,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 <hr>
 <ul>
-<li>Web<ul>
+<li>网络<ul>
 <li><a href="https://www.charlesproxy.com/" target="_blank" rel="external"><strong>Charles</strong></a> <sup>Best</sup><br>  网络封包分析（抓包）工具。如 Fiddler 之于 Windows。主要用于「应用层」的分析。</li>
 <li><a href="https://www.wireshark.org/" target="_blank" rel="external"><strong><del>Wireshark</del></strong></a> <sup>Powerful</sup><br>  网络封包分析工具。比 Charles 强大得多，但是也复杂得多。主要用于「网络层」的分析。<br>  （我的日常工作很少用得着。）</li>
 <li><a href="http://www.getpostman.com/" target="_blank" rel="external"><strong>Postman</strong></a> <sup>Powerful</sup><br>  APIs 开发、测试、归档的辅助工具。<ul>
@@ -5783,7 +5774,7 @@ __`⌘ r` Show | Hide Lyrics__
 </li>
 </ul>
 </li>
-<li>Data<ul>
+<li>数据<ul>
 <li><a href="http://www.sequelpro.com/" target="_blank" rel="external"><strong>Squel Pro</strong></a> <sup>Free</sup><br>  管理 MySQL 数据库的 GUI 工具。</li>
 <li><a href="https://panic.com/transmit/" target="_blank" rel="external"><strong><del>Transmit</del></strong></a><br>  FTP 的 GUI 工具。<br>  （rsync 命令比 FTP 的效率高多了，用法也丰富。一般情况下用 netcat 命令传输文件就够了。）</li>
 </ul>
@@ -5791,7 +5782,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 <hr>
 <ul>
-<li>Office<ul>
+<li>办公<ul>
 <li><a href="https://get.adobe.com/cn/reader/" target="_blank" rel="external"><strong>Adobe Acrobat Reader DC</strong></a><br>  一般情况下，不使用额外的 <strong>PDF 阅读软件</strong>，Mac 系统自带的 Preview 就够用了。<ul>
 <li>但在特殊情况下，需要用到 PDF 的一些高级特性，还是 Adobe 家的软件亲自处理更妥当，例如签证申请文件、合同、保密文件等。</li>
 </ul>
@@ -5804,8 +5795,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 </li>
 </ul>
-<h3 id="Shortcuts"><a href="#Shortcuts" class="headerlink" title="Shortcuts"></a>Shortcuts</h3><p>About keyboard!</p>
-<ul>
+<h3 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h3><ul>
 <li><a href="https://www.keyboardmaestro.com/main/" target="_blank" rel="external"><strong>Keyboard Maestro</strong></a> <sup>Geek, Best, Favorite!</sup><br>  限制你的只有你的想象力！高度自定义的效率工具，难以一语道尽玄机。<ul>
 <li>---</li>
 <li>替代用于 <strong>快速启动、切换 Apps</strong> 的 <a href="http://manico.im/" target="_blank" rel="external"><strong><del>Manico</del></strong></a> <sup>Great</sup>、<a href="https://contexts.co/" target="_blank" rel="external"><strong><del>Contexts</del></strong></a> <sup>Simple</sup>。<ul>
@@ -5856,7 +5846,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 <hr>
 <ul>
-<li>Enhance<ul>
+<li>系统加强<ul>
 <li><a href="https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12" target="_blank" rel="external"><strong>Amphetamine</strong></a><br>  防止 Mac 休眠。<ul>
 <li>原因：Mac 每次休眠后都会重启软件，导致软件丢失部分上下文，于是我无法在完全一样的环境下持续工作，一定程度上打断了工作，降低了效率。</li>
 <li>休眠（Sleep）：硬盘休眠。<br>  屏幕休眠（Display Sleep）：即关闭屏幕，连屏幕保护程序（Screen Saver）也不运作。</li>
@@ -5899,7 +5889,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 <hr>
 <ul>
-<li>Usual Tools<ul>
+<li>常用<ul>
 <li><strong>Time Machine</strong> <sup>Required</sup><br>  macOS 自带的系统备份、恢复软件。<ul>
 <li>要有忧患意识，不要等硬盘坏了、Mac 丢了，才追悔莫及。</li>
 </ul>
@@ -5919,13 +5909,13 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 </li>
 </ul>
-<h3 id="Not-Used"><a href="#Not-Used" class="headerlink" title="Not Used"></a>Not Used</h3><ul>
+<h3 id="不常用"><a href="#不常用" class="headerlink" title="不常用"></a>不常用</h3><ul>
 <li>连提及都没有价值的 Apps 在此就不一一列举了。</li>
-<li><strong>不常用 / 鸡肋</strong><br>  放在这里的有一些公认很好的 Apps，但我不常用甚至觉得鸡肋，且看我的理由。</li>
+<li>放在这里的有一些公认很好的 Apps，但我不常用甚至觉得鸡肋，且看我的理由。</li>
 </ul>
 <hr>
 <ul>
-<li>Efficiency<ul>
+<li>效率<ul>
 <li><a href="https://www.alfredapp.com/" target="_blank" rel="external"><strong><del>Alfred</del></strong></a> <sup>键盘党的神兵利器</sup><br>  Spotlight 的增强版！关键字缩写的检索还是 Spotlight 精准；要用命令的话，也基本在终端中操作，没有 Alfred 之流的用武之地；要启动程序的话，有 Manico 的支持足矣。<ul>
 <li>很多人把它说得神乎其神，其实我并不觉得有大用。看看操作流程：先输入一些字符，Alfred 智能检索猜出你要做的事，如打开程序、文本，或者运行脚本等；然后，选一个选项执行。</li>
 <li><strong>我更喜欢敲快捷键「一步到位」执行要做的操作！</strong> 例如，我借助 AppleScript、Python、Shell、Keyboard Maestro 和 Automator 等写好脚本、录制好一系列操作或设置控制流程，然后用快捷键激活它们就好了。真正常用的组合操作并不会很多。</li>
@@ -5955,7 +5945,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 <hr>
 <ul>
-<li>Enhance<ul>
+<li>系统增强<ul>
 <li><a href="http://www.globaldelight.com/boom/index.php" target="_blank" rel="external"><del>Boom</del></a> <sup>极不推荐</sup><br>  音效增强软件。可用于突破系统音量的上限，留意音量过大可能损坏 Mac 音箱。可有可无。</li>
 <li><a href="https://hazeover.com/" target="_blank" rel="external"><strong><del>HazeOver</del></strong></a> <sup>Focus</sup><br>  瞬间找到当前正在使用窗口。除当前激活的窗口，其它窗口都会显示阴影，让人更专注与当前窗口的工作。<ul>
 <li>可惜经过长期使用，感觉可有可无，上述说法可能只有理论上的作用和心理安慰的作用。</li>
@@ -5974,7 +5964,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 <hr>
 <ul>
-<li>Input<ul>
+<li>输入法<ul>
 <li><a href="http://rime.im/" target="_blank" rel="external"><strong><del>Squirrel</del></strong></a>  <sup>Geek but 不推荐</sup><br>  鼠须管输入法，稳定、流畅、开源，个人可定制性极高。是 Rime 中州韵输入法的 Mac 发行版。<ul>
 <li>折腾一番后，个人定制出来的输入法，从界面到操作细节都能很好地贴合个人习惯。</li>
 <li>但是，词句齐全的成熟本地词库不多，缺失「云输入」在线匹配新词，<strong>输入生词时诸多不便</strong>，用久了我就不想再折腾了。所以使用几个月后，回归了我惯用的 <a href="https://shurufa.baidu.com/" target="_blank" rel="external">百度输入法</a>（我手机输入法用 <a href="http://ime.voicecloud.cn/" target="_blank" rel="external">讯飞输入法</a>）。</li>
@@ -5988,7 +5978,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 <hr>
 <ul>
-<li>Others<ul>
+<li>其它<ul>
 <li><a href="http://www.dejal.com/timeout/" target="_blank" rel="external"><strong><del>Time Out</del></strong></a> <sup>Health</sup><br>  定时作息提醒工具。定时遮盖桌面的应用程序，提醒你离开电脑，去休息眼睛、活动身体。<ul>
 <li>如人饮水，冷暖自知。自己多注意就好，要是实在不自觉，这个应用才有用武之地；其实真到了严重的程度，它也帮不到你了</li>
 </ul>
@@ -6010,7 +6000,7 @@ __`⌘ r` Show | Hide Lyrics__
 </li>
 </ul>
 <h3 id="iOS"><a href="#iOS" class="headerlink" title="iOS"></a>iOS</h3><ul>
-<li>Usual<ul>
+<li>常用<ul>
 <li><strong>Safari</strong> <sup>Simple</sup><br>  iOS 自带浏览器。已足够好用。</li>
 <li><a href="https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8" target="_blank" rel="external"><strong>Shadowsockrocket</strong></a> <sup>Favorite</sup><br>  iOS 上配合 Shadowsocks 使用的番羽土啬利器。<ul>
 <li>Others : <a href="https://itunes.apple.com/us/app/surge-web-developer-tool-proxy/id1040100637?mt=8" target="_blank" rel="external"><strong><del>Surge</del></strong></a> <sup>Expensive</sup></li>
@@ -6023,7 +6013,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 <hr>
 <ul>
-<li>Manage, Record &amp; Think<ul>
+<li>笔记、时间、财务管理<ul>
 <li><strong>Notes</strong> <sup>Simple</sup><br>  iOS &amp; macOS 自带的轻量级笔记应用，启动、编辑、同步迅速稳定，方便易用。</li>
 <li><a href="https://itunes.apple.com/us/app/evernote-stay-organized/id281796108?mt=8" target="_blank" rel="external"><strong>Evernote</strong></a> <sup>Powerful</sup><br>  Clip the awesome artcles &amp; take notes. ( <a href="#Common">Ref Above</a> )</li>
 <li><a href="https://itunes.apple.com/us/app/2do-reminders-personal-planner/id303656546?mt=8" target="_blank" rel="external"><strong>2Do</strong></a> <sup>Powerful</sup><br>  GTD. ( <a href="#Common">Ref Above</a> )</li>
@@ -6039,7 +6029,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 <hr>
 <ul>
-<li>Communication<ul>
+<li>社交<ul>
 <li><strong>Mail</strong> <sup>Simple</sup><br>  iOS 自带邮箱客户端。已足够好用。</li>
 <li><strong>WeChat</strong> <sup>Required for payment</sup><br>  微信，主要用于支付、社交和碎片阅读（公众号）。<ul>
 <li>能用微信小程序代替的 App 我都不下载。<br>  例如：大众点评、摩拜单车、嘀嘀出行、京东 等等。</li>
@@ -6055,7 +6045,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 <hr>
 <ul>
-<li>Read &amp; Study<ul>
+<li>阅读 &amp; 学习<ul>
 <li><a href="https://itunes.apple.com/us/app/kindle-read-books-ebooks-magazines/id302584613?mt=8" target="_blank" rel="external"><strong>Kindle</strong></a><br>  Amazon 的电子书资源是最全面、最丰富的，喜欢读书的话，没有太多其它的选择。</li>
 <li><a href="http://www.duokan.com/" target="_blank" rel="external"><strong>多看阅读</strong></a> <sup>Best</sup><br>  阅读软件。可导入 PDF，带云存储，操作流畅，阅读体验一流。</li>
 <li><a href="http://www.shanbay.com/" target="_blank" rel="external"><strong><del>扇贝英语</del></strong> 系列 Apps</a> <sup>English</sup><br>  扇贝单词、扇贝炼句、扇贝听力、扇贝读书。工具不重要，最重要还是要坚持学习。</li>
@@ -6065,7 +6055,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 <hr>
 <ul>
-<li>Podcasts 播客<br>  用过绝大多数 FM 类 App，唯剩它们。内容为王，通常都为了追喜欢的栏目被迫换 App 的，才发现某产品体验好，自然而然成为其用户。<ul>
+<li>播客<br>  用过绝大多数 FM 类 App，唯剩它们。内容为王，通常都为了追喜欢的栏目被迫换 App 的，才发现某产品体验好，自然而然成为其用户。<ul>
 <li><a href="https://www.igetget.com/" target="_blank" rel="external"><strong>得到</strong></a> <sup>Great</sup><br>  「罗辑思维」团队推出的主打 <strong>知识服务</strong> 的 App。</li>
 <li><a href="http://supertop.co/castro/" target="_blank" rel="external"><strong>Castro 2</strong></a> <sup>Favorite</sup><br>  小巧易用，轻量级泛用型播客 App 的最佳选择！</li>
 <li><a href="http://www.apple.com/itunes/podcasts/" target="_blank" rel="external"><del>Podcasts</del></a><br>  iOS 自带泛用型播客 App，功能完备，无广告，最稳定，但是有太多用不着的功能，选择旧节目下载的操作太捉急。</li>
@@ -6078,7 +6068,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 <hr>
 <ul>
-<li>Information &amp; Knowledge 资讯、知识<ul>
+<li>资讯 &amp; 知识<ul>
 <li><a href="https://itunes.apple.com/cn/app/zhi-hu-yu-shi-jie-fen-xiang/id432274380?mt=8" target="_blank" rel="external"><strong><del>知乎</del></strong></a> - 优质问答社区。</li>
 <li><a href="http://weibo.com" target="_blank" rel="external"><del>微博</del></a> - 国内最大的自媒体平台。（暂时无法被替代……）<ul>
 <li><strong>微博问答</strong> - 微博内置问答平台，还是有不错的内容的。</li>
@@ -6093,7 +6083,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 <hr>
 <ul>
-<li>Music &amp; Joy<ul>
+<li>音乐 &amp; 娱乐<ul>
 <li><a href="http://douban.fm/" target="_blank" rel="external"><strong>Douban FM</strong></a><br>  豆瓣FM，随便听听，或者想要发现喜欢的新歌，还是会选择它。已入 Pro 版。</li>
 <li><a href="http://music.163.com/" target="_blank" rel="external"><strong>Netease Music</strong></a> <sup>Favorite</sup><br>  网易云音乐，音乐类软件的新标杆。能找到很多好歌单，冷门好歌，最喜欢看歌曲评论，分享感动和共鸣。</li>
 <li><a href="https://itunes.apple.com/en/app/deemo/id700637744?mt=8" target="_blank" rel="external"><strong>Deemo</strong></a> <sup>Favorite, Best</sup><br>  最爱的音乐游戏！最爱曲目：Magnolia 。超喜欢这个游戏工作室：Rayark ！</li>
@@ -6107,7 +6097,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 <hr>
 <ul>
-<li>Security<ul>
+<li>安全<ul>
 <li><a href="https://1password.com/" target="_blank" rel="external"><strong>1Password</strong></a><br>  密码管理。</li>
 <li><a href="https://www.authy.com/" target="_blank" rel="external"><strong><del>Authy</del></strong></a>  <sup>Better Authenticator!</sup><br>  两步验证器。可以多设备云同步、备份其中的验证信息。<br>  不像其它验证器，无法便捷切换到新的设备商，而且一旦卸载了，相关信息就丢失了。</li>
 <li><a href="https://itunes.apple.com/en/app/google-authenticator/id388497605?mt=8" target="_blank" rel="external"><del>Google Authenticator</del></a> <sup>Required</sup><br>  两步验证器。提高安全意识，能开启两步验证的网络服务都开启，别嫌麻烦。</li>
@@ -6117,7 +6107,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 <hr>
 <ul>
-<li>Others<ul>
+<li>其它<ul>
 <li><a href="https://mobile.alipay.com/index.htm" target="_blank" rel="external"><strong>支付宝</strong></a><br>  不得不装，用于交水电费、查快递、淘宝天猫亚马逊付款……</li>
 <li><a href="https://itunes.apple.com/cn/app/%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE-%E7%B2%BE%E5%87%86%E4%B8%93%E4%B8%9A%E7%9A%84%E6%89%8B%E6%9C%BA%E5%9C%B0%E5%9B%BE-%E8%87%AA%E9%A9%BE%E5%85%AC%E4%BA%A4%E9%AA%91%E8%A1%8C%E5%AF%BC%E8%88%AA/id461703208?mt=8" target="_blank" rel="external"><strong>高德地图</strong></a><br>  各个地图 App 当中，个人觉得这个最美观、顺手。腾讯地图虽然可以完全离线，可是用起来不习惯。</li>
 <li><a href="http://www.eudic.net/eudic/mac_dictionary.aspx" target="_blank" rel="external"><strong>欧路词典 Pro</strong></a><br>  英语词典。可使用在线有道词典，无广告！</li>
@@ -6128,10 +6118,10 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 <hr>
 <p>除了 iOS 自带且不能删除的 Apps，iPhone 里就几乎只有以上的少数（没划删除线）的 Apps。</p>
-<h3 id="Browser-Add-Ons"><a href="#Browser-Add-Ons" class="headerlink" title="Browser Add-Ons"></a>Browser Add-Ons</h3><p>其有必要使用的浏览器插件并不多。</p>
+<h3 id="浏览器插件"><a href="#浏览器插件" class="headerlink" title="浏览器插件"></a>浏览器插件</h3><p>其有必要使用的浏览器插件并不多。</p>
 <p>例如，改善微博浏览体验的各种插件、油猴脚本、Stylish 样式等等，用它们还不如把微博戒了。如果要看用原版网页就够了，觉得折腾起来意义不大。</p>
 <ul>
-<li>Usual<ul>
+<li>常用<ul>
 <li><a href="https://agilebits.com/onepassword" target="_blank" rel="external"><strong>1Password</strong></a> <sup>Pwd Security</sup><br>  管理帐号密码。</li>
 <li><a href="https://evernote.com/intl/zh-cn/webclipper/" target="_blank" rel="external"><strong>Evernote Web Clipper</strong></a> <sup>Efficient, Best</sup><br>  一键收藏各类网页图文，保存到 Evernote。</li>
 <li>Web Proxy<br>  代理服务配置工具。<ul>
@@ -6156,7 +6146,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 <hr>
 <ul>
-<li>Enhance<ul>
+<li>浏览器增强<ul>
 <li><a href="https://www.ublock.org/" target="_blank" rel="external"><strong>uBlock</strong></a> <sup>Simple</sup><br>  快速轻量级的广告过滤器。</li>
 <li><del><a href="https://adblockplus.org/zh_CN/" target="_blank" rel="external">Adblock Plus</a> &amp; <a href="https://adblockplus.org/zh_CN/elemhidehelper" target="_blank" rel="external">Adblock Plus Elem Hide Helper</a></del> <sup>Focus, Clean</sup><br>  老牌广告过滤器之一。防止追踪、屏蔽恶意域名，过滤横幅广告、弹窗广告以及视频广告。配合元素隐藏助手使用，可更轻松地建立元素隐藏规则。</li>
 <li><a href="http://fxthunder.com/" target="_blank" rel="external"><strong>xThunder</strong></a> <sup>Firefox</sup><br>  统一管理浏览器各下载器的调用，支持迅雷、DownThemAll 以及浏览器的自带下载器等。</li>
@@ -6182,9 +6172,8 @@ __`⌘ r` Show | Hide Lyrics__
 <li><a href="https://autohotkey.com/" target="_blank" rel="external"><strong>AutoHotkey</strong></a> - <a href="http://xbeta.info/autohotkey-guide-2.htm" target="_blank" rel="external">全局快捷键设置工具</a>。</li>
 <li>Ref : <a href="http://wsgzao.github.io/post/windows/" target="_blank" rel="external">Windows常用软件推荐</a></li>
 </ul>
-<h2 id="Hardware"><a href="#Hardware" class="headerlink" title="Hardware"></a>Hardware</h2><p>以下附带部分个人测评（使用感受）。</p>
-<h3 id="Smart"><a href="#Smart" class="headerlink" title="Smart"></a>Smart</h3><ul>
-<li>Laptop<ul>
+<h2 id="硬件"><a href="#硬件" class="headerlink" title="硬件"></a>硬件</h2><p>以下附带部分个人测评（使用感受）。</p>
+<h3 id="笔记本电脑"><a href="#笔记本电脑" class="headerlink" title="笔记本电脑"></a>笔记本电脑</h3><ul>
 <li><a href="http://www.apple.com/cn/shop/buy-mac/macbook-pro?product=MF841CH/A&amp;step=config" target="_blank" rel="external"><strong>MacBook Pro Retina 13-inch</strong></a> <sup>Favorite</sup><br>  i7 - 3.1 GHz / Mem 16 GB / SSD 512 GB ，Mac 是软件工程师的最佳工作平台！<br>  Unix-like，稳定、省心。用好了 Windows，才了无牵挂地换了 Mac。<ul>
 <li><a href="http://www.apple.com/cn/shop/product/MLA22CH/A/magic-keyboard?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2" target="_blank" rel="external"><strong>Magic Keyboard</strong></a> - 键盘<br>  （第二代）小巧轻便。Mac 的键盘布局紧凑合理，手用更小幅度的移动就能触及所有按键，省力。<ul>
 <li>可能你会觉得敲起来手感「绵软」，但是作为「键盘党」的我，快捷键很多而且用得频繁，就觉得使用它很舒适、省力、安静。</li>
@@ -6200,11 +6189,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 </li>
 </ul>
-</li>
-</ul>
-<hr>
-<ul>
-<li>Phone<ul>
+<h3 id="手机"><a href="#手机" class="headerlink" title="手机"></a>手机</h3><ul>
 <li><a href="http://www.apple.com/cn/shop/buy-iphone/iphone-7" target="_blank" rel="external"><strong>iPhone 7 Black</strong></a> <sup>Favorite</sup><br>  128GB + <a href="http://www.apple.com/cn/shop/product/MMW82FE/A/iphone-7-%E7%A1%85%E8%83%B6%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E9%BB%91%E8%89%B2?fnode=99" target="_blank" rel="external"><strong>Red Silicone Case</strong></a> ，闪电般流畅，稳定省心；小巧称手，单手操作高效、舒适。<ul>
 <li>笔记、记账、GTD、阅读、通讯… 随身的效率工具，我一定买最好的。</li>
 <li>哑光黑很 Geek！强迫症的我受不了娇贵易损的亮黑。</li>
@@ -6219,11 +6204,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 </li>
 </ul>
-</li>
-</ul>
-<hr>
-<ul>
-<li>Watch<ul>
+<h3 id="手表"><a href="#手表" class="headerlink" title="手表"></a>手表</h3><ul>
 <li><a href="http://www.apple.com/cn/shop/buy-watch/apple-watch-sport/38-%E6%AF%AB%E7%B1%B3%E6%B7%B1%E7%A9%BA%E7%81%B0%E8%89%B2%E9%93%9D%E9%87%91%E5%B1%9E%E8%A1%A8%E5%A3%B3-%E9%BB%91%E8%89%B2%E8%BF%90%E5%8A%A8%E5%9E%8B%E8%A1%A8%E5%B8%A6?product=MJ2X2CH/A&amp;step=detail" target="_blank" rel="external"><strong>Apple Watch Sport</strong></a> <sup>Favorite</sup><br>  38mm Space Gray Aluminum Case with Black Sport Band ，手机辅助工具、健康助手。<ul>
 <li>消息推送更私密，还可以使用语音识别输入内容，不用掏出手机就可以快速预览信息、回复。</li>
 <li>便于设置闹钟、计时、倒计时，倒计时可结合番茄工作法使用。</li>
@@ -6234,11 +6215,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 </li>
 </ul>
-</li>
-</ul>
-<hr>
-<ul>
-<li>Tablet<ul>
+<h3 id="平板电脑"><a href="#平板电脑" class="headerlink" title="平板电脑"></a>平板电脑</h3><ul>
 <li><a href="http://www.apple.com/cn/ipad-air-2/" target="_blank" rel="external"><strong>iPad Air</strong></a> <!--<sup>[_闲置待转售_](https://2.taobao.com/item.htm?id=539039133369)</sup>--><br>  32GB + <a href="http://www.apple.com/cn/shop/product/MGTM2FE/A/ipad-air-smart-cover-black" target="_blank" rel="external"><strong>Red Smart Cover</strong></a> + 言外 Involve Leather Bag，多用于阅读技术类书籍，看看动漫、电影、公开课。<ul>
 <li>结合 Magic Keyboard 能够满足轻度使用，不用总是携带笔记本电脑回住处。</li>
 </ul>
@@ -6248,10 +6225,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 </li>
 </ul>
-</li>
-</ul>
-<h3 id="Sound"><a href="#Sound" class="headerlink" title="Sound"></a>Sound</h3><ul>
-<li>Headphone<ul>
+<h3 id="耳机"><a href="#耳机" class="headerlink" title="耳机"></a>耳机</h3><ul>
 <li><a href="https://www.bose.cn/zh_cn/products/headphones/earphones/quietcontrol-30.html#v=qc30_black" target="_blank" rel="external"><strong>Bose QC30</strong></a> <sup><em>wish!</em></sup><br>  无线蓝牙连接，充电 &lt;3h，续航 10h；消噪程度可控，分多级。<br>  续航时间比 QC20 短，不能像 QC20 那样一键切换「消噪」和「接收外部声音」两个状态，比较麻烦。</li>
 <li><a href="http://www.bose.cn/product.aspx?cid=1418#1418" target="_blank" rel="external"><strong>Bose QC20</strong></a> <sup>Favorite, Best</sup><br>  <a href="https://www.bose.com/en_us/products/headphones/earphones/quietcomfort-20i-acoustic-noise-cancelling-headphones.html#v=qc20_apple_white" target="_blank" rel="external">QuietComfort® 20 Acoustic Noise Cancelling® headphones — Apple devices</a><ul>
 <li>目前市面上我所知的最好的降噪耳塞。主动降噪，耳塞发出一种波与有规律的噪音相消。</li>
@@ -6261,11 +6235,7 @@ __`⌘ r` Show | Hide Lyrics__
 </li>
 <li><a href="http://www.sonystyle.com.cn/products/headphone/mdr_ex750bt.htm" target="_blank" rel="external"><strong>SONY MDR-EX750BT</strong></a> <sup><em>portable</em></sup><br>  颈戴入耳式耳塞，外观亮骚，音质出众（只对比各蓝牙耳塞，且不含头戴式耳机），便于携带；续航 7.5 h，没电时，也可用外接耳机线连接其它设备继续使用。无线蓝牙耳塞中的佼佼者！</li>
 </ul>
-</li>
-</ul>
-<hr>
-<ul>
-<li>Soundbox<ul>
+<h3 id="音箱"><a href="#音箱" class="headerlink" title="音箱"></a>音箱</h3><ul>
 <li><a href="http://item.jd.com/10132928766.html" target="_blank" rel="external"><strong>Sony SRS-X1-V</strong></a> <sup>Favorite</sup><br>  Bluetooth Wireless Speaker System (Purple)，不打扰别人情况下，尽量用蓝牙音箱来外放，更舒服自在。<ul>
 <li>在安静环境下，用适度的音量外放合适的音乐或白噪声，更容易让人产生沉浸式的专注体验。戴耳塞、耳机，让音源很靠近耳朵（头部），发出的声音太容易抢占人的注意力，沉浸体验不如外放设备。</li>
 <li>而且戴耳机、耳塞，多少会压迫侧颊、耳朵、头部，耳道有异物感，始终不是最舒适的状态。长时间戴耳机、耳塞，又不注意清洁设备和耳朵，有可能导致中耳炎，请注意保护听力。</li>
@@ -6273,10 +6243,8 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 </li>
 </ul>
-</li>
-</ul>
-<h3 id="Health"><a href="#Health" class="headerlink" title="Health"></a>Health</h3><ul>
-<li>Toothbrush<ul>
+<h3 id="健康"><a href="#健康" class="headerlink" title="健康"></a>健康</h3><ul>
+<li>牙刷<ul>
 <li><a href="https://www.amazon.com/Philips-Sonicare-DiamondClean-Rechargeable-HX9332/dp/B0052JN7XG/ref=sr_1_1_a_it?ie=UTF8&amp;qid=1468933357&amp;sr=8-1&amp;keywords=hx9332" target="_blank" rel="external"><strong>Philips Sonicare DiamondClean Sonic Electric Rechargeable Toothbrush</strong></a> <sup>Favorite</sup><br>  Model HX9331/04, White，声波式电动牙刷，确实比手动刷干净多了！（<a href="https://www.amazon.cn/Philips-%E9%A3%9E%E5%88%A9%E6%B5%A6-HX9332-04%E9%92%BB%E7%9F%B3%E4%BA%AE%E7%99%BD%E5%9E%8B%E5%A3%B0%E6%B3%A2%E9%9C%87%E5%8A%A8%E7%89%99%E5%88%B7/dp/B007ZY5GV2/ref=sr_1_6?ie=UTF8&amp;qid=1468507397&amp;sr=8-6&amp;keywords=philips+diamondclean" target="_blank" rel="external">亚马逊中国</a>）<ul>
 <li><a href="https://www.zhihu.com/question/19825877/answer/15856166" target="_blank" rel="external">电动牙刷刷牙相比手动刷牙有什么优缺点？</a></li>
 <li>Summary：<ul>
@@ -6294,7 +6262,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 <hr>
 <ul>
-<li>Airfloss<ul>
+<li>冲牙器<ul>
 <li><a href="https://www.amazon.com/Philips-Sonicare-HX8332-Airfloss-Ultra/dp/B01AVE8AAG/ref=sr_1_1_a_it?ie=UTF8&amp;qid=1468933177&amp;sr=8-1&amp;keywords=hx8332" target="_blank" rel="external"><strong>Philips Sonicare Airfloss Ultra</strong></a> - 冲牙器（水牙线）<br>  Model HX8332/11。（<a href="http://item.jd.hk/1964052662.html" target="_blank" rel="external">京东</a>）<ul>
 <li>Summary：<ul>
 <li><a href="https://www.zhihu.com/question/20842469/answer/44441538" target="_blank" rel="external">使用牙线有必要性吗？</a></li>
@@ -6314,8 +6282,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 </li>
 </ul>
-<h3 id="Sport"><a href="#Sport" class="headerlink" title="Sport"></a>Sport</h3><ul>
-<li>Badminton<ul>
+<h3 id="羽毛球"><a href="#羽毛球" class="headerlink" title="羽毛球"></a>羽毛球</h3><ul>
 <li><a href="http://www.victorsport.com.cn/product_data.php?id=bVjabyTqrMjj666zMjEk67dD4xSyq" target="_blank" rel="external"><strong>Victor TK-ONIGIRI</strong></a> - 羽球拍 <sup>Favorite</sup><br>  胜利的 Thruster K ONIGIRI 突击鬼斩。<ul>
 <li>进攻型羽毛球拍，重量 4U，手柄 G5 粗细，拉 28 磅的 YONEX 80 Power 线。毕竟我喜欢暴力打球。</li>
 <li>打惯 3U 的球拍，一开始不适应，感觉它偏轻、没“手感”。挥拍扣杀时，感觉球拍不够重，惯性不够大，出力不足。但移动、挥拍、救球、回球来更快更灵活，省腕力，长时间打球省体力。</li>
@@ -6328,11 +6295,7 @@ __`⌘ r` Show | Hide Lyrics__
 </li>
 <li><a href="https://item.taobao.com/item.htm?spm=a1z09.2.0.0.CoCGMf&amp;id=37144559361&amp;_u=puv5jet55e6" target="_blank" rel="external"><strong>YONEX 16201 训练服</strong></a> - 运动服<br>  VC 面料，透汗、速干；Made in Japan 原版，高性价比。纯白色 &amp; 纯黑色，各一件。</li>
 </ul>
-</li>
-</ul>
-<hr>
-<ul>
-<li>Bicycle<ul>
+<h3 id="骑行"><a href="#骑行" class="headerlink" title="骑行"></a>骑行</h3><ul>
 <li><a href="http://www.merida.cn/?p=82&amp;a=view&amp;r=482" target="_blank" rel="external"><strong>Merida Duke 300</strong></a> <sup>Favorite</sup><br>  美利达公爵 300，入门级山地车，白色款，24 速 + 油碟（刹车灵敏，手感好，持久耐用）。<ul>
 <li>主要用于：上下班通勤，以及 方圆 20 km 内的日常出行。</li>
 <li>安全装备：头盔 + 运动臂袖（护臂&amp;防晒）+ 手套 + 车前灯。</li>
@@ -6344,26 +6307,8 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 </li>
 </ul>
-</li>
-</ul>
-<h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3><ul>
-<li>Electronic<ul>
-<li><a href="http://www.mi.com/powerstrip/" target="_blank" rel="external"><strong>小米插线板</strong></a> - 插座<br>  小巧精致，节省空间又好看，省了不少 USB 充电器。<br>  纯白色 &amp; 纯黑色，各一个，分别放公司工位 &amp; 北京住处床头；出行时也带一个以备不时之需。</li>
-<li><a href="http://www.hiwifi.com/j1s-view" target="_blank" rel="external"><strong>极路由 1S</strong></a> - 路由器<br>  小巧便宜，设置简单，可以远程操控，满足一般的居家使用。<br>  广州家里 &amp; 北京住处，各一个。（坏了的话，打算换 <a href="https://www.vmall.com/list-45" target="_blank" rel="external">华为的路由器</a>。）</li>
-</ul>
-</li>
-</ul>
-<hr>
-<ul>
-<li>Umbrella<ul>
-<li><a href="https://www.taobao.com/product/benjamin%E6%9C%AC%E5%82%91%E6%98%8E%E5%82%98.htm" target="_blank" rel="external"><strong>BENJAMIN 本傑明傘</strong></a> <sup><em>wish!</em></sup><br>  大洋之舞 or 深海鱼群。</li>
-<li><a href="https://item.taobao.com/item.htm?spm=a1z09.2.0.0.CoCGMf&amp;id=18427718268&amp;_u=puv5jetf0a2" target="_blank" rel="external"><strong>Topumbrella 渐变色折叠伞</strong></a> <sup>蓝~紫色</sup><br>  轻便、好看，直接推拉杆上连接伞骨的圆环，不用按按钮，就可以开合。</li>
-</ul>
-</li>
-</ul>
-<hr>
-<ul>
-<li>Backpack<ul>
+<h3 id="背包"><a href="#背包" class="headerlink" title="背包"></a>背包</h3><ul>
+<li>背包<ul>
 <li><a href="http://www.coteetciel.com/en-CN/isar-backpack-black-melange-laptop-bag" target="_blank" rel="external"><strong>Côte &amp; Ciel Backpack</strong></a><br>  Isar Eco Yarn / Black Melange ，就是喜欢它特别的外观设计。<ul>
 <li>即使是小号的包，也还是偏大了，适合高大的人背。而且外形奇特，不容易搭配衣着，比较“挑人”。只是个尼龙材质的包，但价格不便宜，建议先试背，询问亲朋好友的意见后，再购买。</li>
 </ul>
@@ -6373,6 +6318,21 @@ __`⌘ r` Show | Hide Lyrics__
 <li>而且夏天背着比较大的背包奔走、骑行，容易汗流浃背。骑行、跑步甚至日常出行，我都喜欢使用这个小巧轻便的透气户外背包。</li>
 </ul>
 </li>
+</ul>
+</li>
+</ul>
+<h3 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h3><ul>
+<li>日用电子<ul>
+<li><a href="http://www.mi.com/powerstrip/" target="_blank" rel="external"><strong>小米插线板</strong></a> - 插座<br>  小巧精致，节省空间又好看，省了不少 USB 充电器。<br>  纯白色 &amp; 纯黑色，各一个，分别放公司工位 &amp; 北京住处床头；出行时也带一个以备不时之需。</li>
+<li><a href="http://www.hiwifi.com/j1s-view" target="_blank" rel="external"><strong>极路由 1S</strong></a> - 路由器<br>  小巧便宜，设置简单，可以远程操控，满足一般的居家使用。<br>  广州家里 &amp; 北京住处，各一个。（坏了的话，打算换 <a href="https://www.vmall.com/list-45" target="_blank" rel="external">华为的路由器</a>。）</li>
+</ul>
+</li>
+</ul>
+<hr>
+<ul>
+<li>伞具<ul>
+<li><a href="https://www.taobao.com/product/benjamin%E6%9C%AC%E5%82%91%E6%98%8E%E5%82%98.htm" target="_blank" rel="external"><strong>BENJAMIN 本傑明傘</strong></a> <sup><em>wish!</em></sup><br>  大洋之舞 or 深海鱼群。</li>
+<li><a href="https://item.taobao.com/item.htm?spm=a1z09.2.0.0.CoCGMf&amp;id=18427718268&amp;_u=puv5jetf0a2" target="_blank" rel="external"><strong>Topumbrella 渐变色折叠伞</strong></a> <sup>蓝~紫色</sup><br>  轻便、好看，直接推拉杆上连接伞骨的圆环，不用按按钮，就可以开合。</li>
 </ul>
 </li>
 </ul>
@@ -6389,7 +6349,7 @@ article .article-content ul li p:first-child {
     
     <summary type="html">
     
-      我的 Mac Apps、电子产品推荐。
+      Tools&amp;#58; 推荐 macOS 和 iOS 的 Apps 以及日常使用的电子产品。
     
     </summary>
     
@@ -6401,7 +6361,7 @@ article .article-content ul li p:first-child {
   </entry>
   
   <entry>
-    <title>Favorites 喜好</title>
+    <title>最喜爱的</title>
     <link href="http://icehe.me/favourites/"/>
     <id>http://icehe.me/favourites/</id>
     <published>2015-11-18T16:00:00.000Z</published>
@@ -6411,14 +6371,14 @@ article .article-content ul li p:first-child {
 <li><strong>所爱之物记录于此。</strong></li>
 <li>喜欢的东西太多了，只记录最钟爱的。</li>
 </ul>
-<h1 id="Sports-运动"><a href="#Sports-运动" class="headerlink" title="Sports 运动"></a>Sports 运动</h1><ul>
+<h1 id="运动"><a href="#运动" class="headerlink" title="运动"></a>运动</h1><ul>
 <li><strong>羽毛球</strong></li>
 <li><a href="/about/#华工毽球社-社长"><strong>毽球</strong></a></li>
 </ul>
-<h1 id="Books-书"><a href="#Books-书" class="headerlink" title="Books 书"></a>Books 书</h1><ul>
-<li><a href="/read/#Books-书"><strong>Reading Bookmarks - Books</strong></a></li>
+<h1 id="书"><a href="#书" class="headerlink" title="书"></a>书</h1><ul>
+<li><a href="/read/#书"><strong>Reading Bookmarks - Books</strong></a></li>
 </ul>
-<h1 id="Motion-Picture-电影"><a href="#Motion-Picture-电影" class="headerlink" title="Motion Picture 电影"></a>Motion Picture 电影</h1><ul>
+<h1 id="电影"><a href="#电影" class="headerlink" title="电影"></a>电影</h1><ul>
 <li><a href="https://movie.douban.com/subject/3041269/" target="_blank" rel="external"><strong>Limitless</strong></a><br>  《永无止境》，爽！</li>
 <li><a href="https://movie.douban.com/subject/25773932/" target="_blank" rel="external"><strong>Whiplash</strong></a><br>  《爆裂鼓手》，反励志 / 残酷鸡汤。</li>
 <li><a href="https://movie.douban.com/subject/2133323/" target="_blank" rel="external"><strong>The Secret Life of Walter Mitty</strong></a> <sup><strong>Best</strong></sup><br>  《白日梦想家》，让梦境照进现实。</li>
@@ -6441,14 +6401,14 @@ article .article-content ul li p:first-child {
 <li><a href="https://movie.douban.com/subject/1308807/" target="_blank" rel="external"><strong>哈尔的移动城堡</strong></a> <sup><strong>Best</strong></sup> <sup>最爱 No.2</sup><br>  绚丽。</li>
 <li><a href="https://movie.douban.com/subject/1308807/" target="_blank" rel="external"><strong>你的名字。</strong></a> <sup><strong>Best</strong></sup> <sup>最爱 No.1</sup><br>  梦。</li>
 </ul>
-<h1 id="TV-Dramas-电视剧"><a href="#TV-Dramas-电视剧" class="headerlink" title="TV Dramas 电视剧"></a>TV Dramas 电视剧</h1><ul>
+<h1 id="电视剧"><a href="#电视剧" class="headerlink" title="电视剧"></a>电视剧</h1><ul>
 <li><a href="https://movie.douban.com/subject/24697949/" target="_blank" rel="external"><strong>半泽直树</strong></a><br>  复仇，弱肉强食。</li>
 <li><a href="https://movie.douban.com/subject_search?search_text=%E6%9C%80%E5%AE%8C%E7%BE%8E%E7%9A%84%E7%A6%BB%E5%A9%9A&amp;cat=1002*" target="_blank" rel="external"><strong>最完美的离婚</strong></a><br>  生活。</li>
 <li><a href="https://movie.douban.com/subject/26663070/" target="_blank" rel="external"><strong>家族的形式</strong></a><br>  不婚族？</li>
 <li><a href="https://movie.douban.com/subject_search?search_text=Legal+High&amp;cat=1002" target="_blank" rel="external"><strong>Legal High</strong></a> <sup><strong>Best</strong></sup><br>  法律至高。</li>
 <li><a href="https://movie.douban.com/subject_search?search_text=Black+Mirror&amp;cat=1002" target="_blank" rel="external"><strong>Black Mirror</strong></a> <sup><strong>Best</strong></sup><br>  《黑镜》，警世。</li>
 </ul>
-<h1 id="Animate-动画"><a href="#Animate-动画" class="headerlink" title="Animate 动画"></a>Animate 动画</h1><ul>
+<h1 id="动画"><a href="#动画" class="headerlink" title="动画"></a>动画</h1><ul>
 <li><a href="https://www.douban.com/search?q=%E6%8E%92%E7%90%83%E5%B0%91%E5%B9%B4" target="_blank" rel="external"><strong>排球少年</strong></a> <sup><strong>Best of the Best</strong></sup><br>  新世代的灌篮！</li>
 <li><a href="https://movie.douban.com/subject/25813424/" target="_blank" rel="external"><strong>乒乓</strong></a> <sup><strong>Best of the Best</strong></sup><br>  人生，天赋与努力。</li>
 <li><a href="https://movie.douban.com/subject/1800597/" target="_blank" rel="external"><strong>虫师</strong></a><br>  恬静，幽深。</li>
@@ -6492,7 +6452,7 @@ article .article-content ul li p:first-child {
 <li><a href="http://movie.douban.com/subject/10477598/" target="_blank" rel="external"><strong>罗小黑战记</strong></a> <sup><strong>Best</strong></sup><br>  萌~</li>
 <li><span class="val_pos icon-douban"> &nbsp;<a href="http://movie.douban.com/people/IceHeGZ/collect?sort=rating&amp;start=0&amp;mode=grid&amp;tags_sort=count" target="_blank" rel="external"><strong>其它看过的片</strong></a><br>  用豆瓣记录所有看过的片意义不大还麻烦，以后只在博客此处做记录。</span></li>
 </ul>
-<h1 id="Games-游戏"><a href="#Games-游戏" class="headerlink" title="Games 游戏"></a>Games 游戏</h1><h2 id="iOS"><a href="#iOS" class="headerlink" title="iOS"></a>iOS</h2><ul>
+<h1 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h1><h2 id="iOS"><a href="#iOS" class="headerlink" title="iOS"></a>iOS</h2><ul>
 <li><a href="https://itunes.apple.com/en/app/deemo/id700637744?mt=8" target="_blank" rel="external"><strong>Deemo</strong></a> <sup><strong>Best</strong></sup><br>  最爱的音乐游戏！最喜爱的曲目： Magnolia , Walking by the sea , Living in the one.</li>
 </ul>
 <h2 id="PC"><a href="#PC" class="headerlink" title="PC"></a>PC</h2><ul>
@@ -6501,14 +6461,14 @@ article .article-content ul li p:first-child {
 <li><a href="http://heroes.blizzard.cn/landing" target="_blank" rel="external"><strong>Heroes of the Storm</strong></a><br>  《风暴英雄》，有趣易上手。最喜欢跟朋友一起并肩作战，半夜兴奋狂吼。</li>
 <li><a href="http://us.blizzard.com/en-us/games/war3/" target="_blank" rel="external"><strong>Warcraft 3</strong></a> <sup><strong>Best</strong></sup><br>  《魔兽争霸3 冰封王座》！当年多喜欢即时战略，不过这股风潮已经过去。之后崛起的 Dota、LOL 就没玩了。</li>
 </ul>
-<h2 id="Game-Boy-掌机"><a href="#Game-Boy-掌机" class="headerlink" title="Game Boy 掌机"></a>Game Boy 掌机</h2><ul>
+<h2 id="掌机"><a href="#掌机" class="headerlink" title="掌机"></a>掌机</h2><ul>
 <li><a href="http://ffta2.ffsky.cn/" target="_blank" rel="external"><strong>Final Fantasy Tactics A2</strong></a> <sup><strong>Best</strong></sup><br>  《最终幻想战略版》 A &amp; A2 ！ 我最喜欢的游戏类型就是战棋，它就是我心目中的神作！ 最喜欢的最终幻想衍生游戏分支，我重玩次数最多的游戏， 献给这个系列的两作游戏的时间远超700小时。</li>
 <li><a href="http://kingdomhearts.wikia.com/wiki/Kingdom_Hearts_Re:Chain_of_Memories" target="_blank" rel="external"><strong>Kingdom Hearts Re Chain Of Memories</strong></a><br>  《国王之心：记忆之链》</li>
 <li><a href="https://zh.wikipedia.org/wiki/%E9%80%86%E8%BD%AC%E8%A3%81%E5%88%A4%E7%B3%BB%E5%88%97" target="_blank" rel="external"><strong>逆转裁判 系列</strong></a> <sup><strong>Best</strong></sup><br>  当之无愧的神作！律师的故事，有趣的玩法，巧思妙绝、荡气回肠的剧情，让人久久不能平复！只通关一次怎能完全体会其中绝伦的精彩……</li>
 <li><a href="https://en.wikipedia.org/wiki/Dissidia_Final_Fantasy" target="_blank" rel="external"><strong>Dissidia Final Fantasy</strong></a><br>  《最终幻想：纷争》</li>
 <li><a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon" target="_blank" rel="external"><strong>Pokemon</strong></a><br>  《口袋怪物》系列，童年经典。</li>
 </ul>
-<h2 id="Play-Station-2"><a href="#Play-Station-2" class="headerlink" title="Play Station 2"></a>Play Station 2</h2><ul>
+<h2 id="PS2"><a href="#PS2" class="headerlink" title="PS2"></a>PS2</h2><ul>
 <li><a href="https://en.wikipedia.org/wiki/Gundam_Seed:_Rengou_vs._Z.A.F.T." target="_blank" rel="external"><strong>Gundom Seed &amp; Seed Destiny</strong></a><br>  当年迷高达的，所以爱屋及乌。</li>
 <li><a href="http://www.baike.com/wiki/%E3%80%8A%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85%3A%E6%9C%A8%E5%8F%B6%E8%8B%B1%E9%9843%E3%80%8B" target="_blank" rel="external"><strong>木叶的忍者英雄们 系列</strong></a><br>  我曾经最精通的格斗游戏。有很长一段时间，我曾是我那一片街区，这个游戏打得最好的！</li>
 </ul>
@@ -6522,11 +6482,11 @@ article .article-content ul li p:first-child {
 <li><a href="https://zh.wikipedia.org/wiki/%E8%99%9A%E4%B9%8B%E5%B0%91%E5%A5%B3" target="_blank" rel="external"><strong>壳之少女</strong></a><br>  超文艺，也超重口。</li>
 <li><a href="http://baike.baidu.com/view/8890991.htm" target="_blank" rel="external"><strong>鬼哭街2011重制版</strong></a> <sup><strong>Best</strong></sup><br>  我想象中的现代中式武侠打斗的文字描写范本，虚渊玄作品。</li>
 </ul>
-<h2 id="Others-其它"><a href="#Others-其它" class="headerlink" title="Others 其它"></a>Others 其它</h2><ul>
+<h2 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h2><ul>
 <li><a href="https://zh.wikipedia.org/wiki/%E9%81%8A%E6%88%B2%E7%8E%8B%E9%9B%86%E6%8F%9B%E7%B4%99%E7%89%8C%E9%81%8A%E6%88%B2" target="_blank" rel="external"><strong>游戏王</strong></a> <sup><strong>Best</strong></sup><br>  挚爱的卡牌游戏，当年几个损友一起愉快地玩了三年，花了不少钱去买正版卡牌；初三戒了，就再也没有继续下去，几个损友如今也难再聚。</li>
 <li><a href="https://zh.wikipedia.org/wiki/%E5%9B%B4%E6%A3%8B" target="_blank" rel="external"><strong>围棋</strong></a> <sup><strong>Best</strong></sup><br>  深奥幽玄。当年买了好几本大部头教材，小学中午午睡时间我不睡觉，就在被窝里钻研。</li>
 </ul>
-<h1 id="Singers-歌手"><a href="#Singers-歌手" class="headerlink" title="Singers 歌手"></a>Singers 歌手</h1><ul>
+<h1 id="歌手"><a href="#歌手" class="headerlink" title="歌手"></a>歌手</h1><ul>
 <li>Twins <sup><strong>Best</strong></sup></li>
 <li>古巨基</li>
 <li>陈奕迅 <sup><strong>Best</strong></sup></li>
@@ -6554,7 +6514,7 @@ article .article-content ul li p:first-child {
     
     <summary type="html">
     
-      我喜欢的书籍、电影、电视剧、动画、游戏…
+      Favorites&amp;#58; 我最喜欢的书籍、电影、电视剧、动画、游戏…
     
     </summary>
     
@@ -6566,7 +6526,7 @@ article .article-content ul li p:first-child {
   </entry>
   
   <entry>
-    <title>Bulid Blog 搭建个人博客</title>
+    <title>搭建个人博客</title>
     <link href="http://icehe.me/web/build_blog/"/>
     <id>http://icehe.me/web/build_blog/</id>
     <published>2015-11-13T16:00:00.000Z</published>
@@ -6592,19 +6552,19 @@ article .article-content ul li p:first-child {
 <li>算了吧，保留本文，不过不再更新了。 </li>
 <li>记于 2017-01-02</li>
 </ul>
-<h1 id="Why-初衷"><a href="#Why-初衷" class="headerlink" title="Why - 初衷"></a>Why - 初衷</h1><p>与其到各大博客平台去写博客，<br>不如自己搭建个独一无二的。<br>不但过程有意思，还能学到许多新知识。</p>
+<h1 id="初衷"><a href="#初衷" class="headerlink" title="初衷"></a>初衷</h1><p>与其到各大博客平台去写博客，<br>不如自己搭建个独一无二的。<br>不但过程有意思，还能学到许多新知识。</p>
 <p>可以用来记录 <a href="/lifelogs">自己的人生</a>，<br>放一些值得分享的技术、读书笔记和感想。</p>
-<h1 id="How-过程"><a href="#How-过程" class="headerlink" title="How - 过程"></a>How - 过程</h1><p>教程的各步骤描述得越详细，时效性往往越差。<br>网上的类似的教程多如牛毛，不差这篇。</p>
+<h1 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h1><p>教程的各步骤描述得越详细，时效性往往越差。<br>网上的类似的教程多如牛毛，不差这篇。</p>
 <p>所以，我并不打算详细写，<br>只简略说明过程与所用的「轮子」（工具、模块），<br>并列出本人参阅的教程文章的链接，<br>其它更具体的细节自行百度 / Google，<br>查阅其它教程与相关工具模块的官方文档。</p>
 <p>还有，折腾才能学到真东西，<br>下文做法、用法从略处，还请自行摸索。</p>
-<h2 id="Intro-引子"><a href="#Intro-引子" class="headerlink" title="Intro 引子"></a>Intro 引子</h2><p>非软件、计算机专业的人，自行搭建个人博客其实不难。<br>前人早已造好了各种「轮子」，只要根据网上的教程摸索一下，<br>动动手指头就可以组装出自己的博客。</p>
+<h2 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h2><p>非软件、计算机专业的人，自行搭建个人博客其实不难。<br>前人早已造好了各种「轮子」，只要根据网上的教程摸索一下，<br>动动手指头就可以组装出自己的博客。</p>
 <p>可以用 isnowfy 的 <a href="http://isnowfy.github.io/about-simple-cn.html" target="_blank" rel="external">静态页面生成静态博客</a> 的方法，<br>对一个新手来说，那感觉真是妙极了！</p>
 <p>当时就想：不如自己写个博客生成器吧！<br>那当真是一件蛮有 geek 的事啊。</p>
 <p>但吾生有崖，而知也无涯，<br>没必要自己重新「造轮子」，<br>阅源码解其精妙未尝不可。<br>君子善假于物，省出时间，<br>去做真正想做的事情岂不是更好。</p>
 <p>搭建博客的方法，除了用不同的静态博客生成器来生成外，<br>还可以租用或搭建一个服务器，来运行一个动态博客，<br>其中最出名的非 <a href="https://wordpress.com/" target="_blank" rel="external">Wordpress</a> 莫属，<br>现在有更多性能优越、更便于搭建维护的博客框架，<br>可另行查阅。</p>
 <p>为了让个人博客有足够定制空间的同时，尽可能降低维护成本，<br><u><strong>我选择了静态博客生成器：<a href="http://hexo.io/" target="_blank" rel="external">Hexo</a> !</strong></u></p>
 <p>（有空会找机会再折腾一个动态博客）</p>
-<h2 id="Hexo-Course-建站教程"><a href="#Hexo-Course-建站教程" class="headerlink" title="Hexo Course 建站教程"></a>Hexo Course 建站教程</h2><p>广泛检索后，参阅了如下教程建站：</p>
+<h2 id="Hexo-建站教程"><a href="#Hexo-建站教程" class="headerlink" title="Hexo 建站教程"></a>Hexo 建站教程</h2><p>广泛检索后，参阅了如下教程建站：</p>
 <ul>
 <li><a href="https://wsgzao.github.io/post/hexo-guide/" target="_blank" rel="external">使用 GitHub 和 Hexo 搭建免费静态 Blog</a></li>
 <li><a href="http://www.zipperary.com/2013/05/28/hexo-guide-2/" target="_blank" rel="external">Hexo 系列教程：（二）搭建 Hexo 博客</a></li>
@@ -6616,22 +6576,22 @@ article .article-content ul li p:first-child {
 <p>可能其中涉及各工具和模块已经有新版本，<br>具体操作细节最好参考它们最新的官方文档。</p>
 <p>有探索精神的直接可直接参照 <a href="https://hexo.io/zh-cn/" target="_blank" rel="external">Hexo官网</a>，<br>它提供中/英文的各种帮助信息，<br>包括文档、API、插件、主题等，<br>告诉你建站方法、基本操作、自定义部分……</p>
 <p>前人之述备矣，在此不再赘述基础部分。</p>
-<h2 id="Custom-Points-定制点"><a href="#Custom-Points-定制点" class="headerlink" title="Custom Points 定制点"></a>Custom Points 定制点</h2><p>建站很容易，如果你的需求只是写写文字博客而已，可以到此结束了。<br>但如果要完善博客到合乎自己的心意，那将是万里长征的第一步。</p>
+<h2 id="定制点"><a href="#定制点" class="headerlink" title="定制点"></a>定制点</h2><p>建站很容易，如果你的需求只是写写文字博客而已，可以到此结束了。<br>但如果要完善博客到合乎自己的心意，那将是万里长征的第一步。</p>
 <p>要获得更大的定制余地，让自己的博客更独一无二，<br>最好懂些网页技术，就可以修改别人工具模块的源代码，<br>让博客支持更多需要的模块、插件、外观效果等。</p>
-<h3 id="Theme-主题"><a href="#Theme-主题" class="headerlink" title="Theme 主题"></a><strong>Theme 主题</strong></h3><p>Theme不单只提供不同的博客外观、视觉效果，<br><strong>通常还会提供许多功能模块的配套支持！<br>一般包括但不限于：评论、分享、RSS订阅、联系方式、百度/谷歌的统计分析、标签云。</strong></p>
+<h3 id="主题"><a href="#主题" class="headerlink" title="主题"></a><strong>主题</strong></h3><p>Theme不单只提供不同的博客外观、视觉效果，<br><strong>通常还会提供许多功能模块的配套支持！<br>一般包括但不限于：评论、分享、RSS订阅、联系方式、百度/谷歌的统计分析、标签云。</strong></p>
 <p>官网上有提供很多第三方主题：<a href="https://hexo.io/themes/" target="_blank" rel="external">Hexo Themes</a><br><del>我选用的是：<a href="http://wuchong.me/" target="_blank" rel="external">WuChong</a> 的 <a href="https://github.com/wuchong/jacman" target="_blank" rel="external"><strong>Jacman</strong></a></del><br><del>该主题作者的官方教程：<a href="http://wuchong.me/blog/2014/11/20/how-to-use-jacman/" target="_blank" rel="external">如何使用 Jacman 主题</a></del><br>现在我选用的是：<a href="http://iissnan.com/" target="_blank" rel="external">IIssNan</a> 的 <a href="http://theme-next.iissnan.com/" target="_blank" rel="external"><strong>NexT</strong></a>（官方文档）</p>
 <p><strong>它包含了以下绝大多数的定制点，不需要自己折腾太多，也可以很快做好。</strong><br>如果你更喜欢 DIY，想要亲手试一试第一次搭建静态微博，<br>从中多了解学习些细节问题，当然更好。</p>
 <p>Hexo官网的文档和API中有theme写法的说明，<br>可以自己重新写一个theme。</p>
-<h3 id="Comment-评论"><a href="#Comment-评论" class="headerlink" title="Comment 评论"></a><strong>Comment 评论</strong></h3><p>利用第三方社会化评论系统，可以便捷地为博客添加评论模块。<br>这些评论系统可以让你和你的访客在你的博客下添加评论，<br>还能审核、删除、迁移（博客变更后保留评论）、自定义评论框的外观效果等，<br>它们一般都提供足够的定制空间。</p>
+<h3 id="评论"><a href="#评论" class="headerlink" title="评论"></a><strong>评论</strong></h3><p>利用第三方社会化评论系统，可以便捷地为博客添加评论模块。<br>这些评论系统可以让你和你的访客在你的博客下添加评论，<br>还能审核、删除、迁移（博客变更后保留评论）、自定义评论框的外观效果等，<br>它们一般都提供足够的定制空间。</p>
 <p>推荐：<br>(1) 国内：<a href="http://changyan.kuaizhan.com/" target="_blank" rel="external">畅言</a> （可惜需要网站备案…）<br>(2) 国外：<a href="https://disqus.com/" target="_blank" rel="external">Disqus</a><br>原来国内能用 <del><a href="http://duoshuo.com/" target="_blank" rel="external">多说</a></del> 可惜 2017 年 6 月 1 日关停了服务。</p>
 <p>具体评论系统搭建比较麻烦，有能用的，就不推荐自己折腾。</p>
-<h3 id="Share-分享"><a href="#Share-分享" class="headerlink" title="Share 分享"></a><strong>Share 分享</strong></h3><p>添加分享模块可以方便自己或他人在第三方的社交平台分享你的博客内容。</p>
+<h3 id="分享"><a href="#分享" class="headerlink" title="分享"></a><strong>分享</strong></h3><p>添加分享模块可以方便自己或他人在第三方的社交平台分享你的博客内容。</p>
 <p>这还是借助第三方的帮助：<br>它们也会提供许多方便定制选项，<br>懂些 HTML、CSS、JavaScript 就能深度定制了。</p>
 <p>推荐：<br>(1) <a href="http://share.baidu.com/" target="_blank" rel="external">百度分享</a><br>(2) <a href="http://www.jiathis.com/" target="_blank" rel="external">jiathis</a><br>(3) 自己编写（不会太难）</p>
-<h3 id="About-关于页面"><a href="#About-关于页面" class="headerlink" title="About 关于页面"></a><strong>About 关于页面</strong></h3><p>一般用于介绍博主或博客的页面，<br>例如<a href="/about">我的「Me 我」页面</a>。</p>
+<h3 id="关于页面"><a href="#关于页面" class="headerlink" title="关于页面"></a><strong>关于页面</strong></h3><p>一般用于介绍博主或博客的页面，<br>例如<a href="/about">我的「Me 我」页面</a>。</p>
 <h3 id="404-找不到页面"><a href="#404-找不到页面" class="headerlink" title="404 找不到页面"></a><strong>404 找不到页面</strong></h3><p>当访问一个不存在于博客中的页面时，展示的提示页面。<br>例如<a href="/not_found">我的「404」页面</a>。</p>
 <p>推荐：<br><a href="http://www.qq.com/404/" target="_blank" rel="external">腾讯公益404</a></p>
-<h3 id="Domain-Name-域名"><a href="#Domain-Name-域名" class="headerlink" title="Domain Name 域名"></a><strong>Domain Name 域名</strong></h3><p>有只属于自己的个性化域名，简直自豪感满满，<br>因为终于有自己的个人网站了 T_T</p>
+<h3 id="域名"><a href="#域名" class="headerlink" title="域名"></a><strong>域名</strong></h3><p>有只属于自己的个性化域名，简直自豪感满满，<br>因为终于有自己的个人网站了 T_T</p>
 <p>分两步：买域名，域名解析。</p>
 <p>域名购买推荐：<br>(1) 国内老牌：<a href="http://wanwang.aliyun.com/" target="_blank" rel="external">万网</a>（已被阿里收购）<br>(2) 国外老牌：<a href="https://www.godaddy.com/" target="_blank" rel="external">GoDaddy</a><br>(3) 我的选择：<a href="https://www.namecheap.com" target="_blank" rel="external">NameCheap</a></p>
 <p>想要最低的价格，可以参考域名比价网站<a href="https://www.domcomp.com" target="_blank" rel="external"> Domain Price Comparison</a>。<br>推荐阅读知乎问答：<a href="http://www.zhihu.com/question/19551906" target="_blank" rel="external">现在去哪里买 .com 域名最便宜？</a><br>因为买域名不能只考虑价格，还得考虑服务。</p>
@@ -6640,15 +6600,15 @@ article .article-content ul li p:first-child {
 <h3 id="Sitemap-站点地图-amp-RSS-订阅"><a href="#Sitemap-站点地图-amp-RSS-订阅" class="headerlink" title="Sitemap 站点地图 &amp; RSS 订阅"></a><strong>Sitemap 站点地图 &amp; RSS 订阅</strong></h3><p>站点地图给搜索引擎的爬虫以及网站的订阅者，<br>说明了博客里有哪些链接、文章、页面内容，<br>提高博客在搜索引擎的抓取、收录效果，<br>给关注你博客的朋友，提供了订阅功能。</p>
 <p>具体配置过程可参考：<br><a href="http://www.zipperary.com/2013/06/02/hexo-guide-5/" target="_blank" rel="external"> Hexo 博客的优化技巧续</a>（推荐结合以下内容阅读）</p>
 <p><strong>TODO: 待日后补全细节，暂参考 <a href="http://www.jianshu.com/p/bb35e703f9bf" target="_blank" rel="external">RSS 和 sitemap</a></strong></p>
-<h3 id="Widget-闲杂模块"><a href="#Widget-闲杂模块" class="headerlink" title="Widget 闲杂模块"></a><strong>Widget 闲杂模块</strong></h3><p>除了博客的基本功能模块，还有一半需要额外添加的模块。<br>Hexo自带的功能：archive 归档、category 分类、tag 标签。</p>
+<h3 id="闲杂模块"><a href="#闲杂模块" class="headerlink" title="闲杂模块"></a><strong>闲杂模块</strong></h3><p>除了博客的基本功能模块，还有一半需要额外添加的模块。<br>Hexo自带的功能：archive 归档、category 分类、tag 标签。</p>
 <p>其它的模块，如：<a href="http://jssdk.sinaapp.com/widget/weiboshow.php" target="_blank" rel="external">微博秀</a></p>
-<h3 id="Bed-Room-图床"><a href="#Bed-Room-图床" class="headerlink" title="Bed Room 图床"></a><strong>Bed Room 图床</strong></h3><p>顾名思义，存放博客图片的地方。</p>
+<h3 id="图床"><a href="#图床" class="headerlink" title="图床"></a><strong>图床</strong></h3><p>顾名思义，存放博客图片的地方。</p>
 <p>当然，可以直接存放到托管你静态博客代码的平台，<br>但是，它们的代码仓库的空间有限，以后就可能不够用了。<br>所以，你可以申请多个 Github、<a href="https://coding.net" target="_blank" rel="external">Coding.net</a> 等平台的账户，<br>用新的代码仓库来放额外的图片。</p>
 <p>但是，代码托管平台的访问速度也不够快，<br>会影响博客的加载速度，日后要迁移图片也麻烦。</p>
 <p>如果放在你的（云）服务器上，<br>动态的服务器也会出现流量和带宽有限的问题。</p>
 <p>所以，<br>博客里的图片，最好挂载到第三方CDN提供商那里，<br>提高博客网页的读取速度，提升访客体验，<br>也方便图片资源的迁移。</p>
 <p>推荐：<br>(1) 老牌：<a href="https://www.upyun.com/index.html" target="_blank" rel="external">又拍云</a>（服务好、价格高）<br>(2) 我的选择：<a href="http://www.qiniu.com/" target="_blank" rel="external">七牛云存储</a>（国内、免费、方便）</p>
-<h3 id="Internal-Site-Search-站内搜索"><a href="#Internal-Site-Search-站内搜索" class="headerlink" title="Internal Site Search 站内搜索"></a><strong>Internal Site Search 站内搜索</strong></h3><p>让访客可以自行搜索博客中感兴趣的内容。</p>
+<h3 id="站内搜索"><a href="#站内搜索" class="headerlink" title="站内搜索"></a><strong>站内搜索</strong></h3><p>让访客可以自行搜索博客中感兴趣的内容。</p>
 <p>百度和 Google 都有提供站内搜索功能，<br>但是只能是搜索到你博客中被搜索引擎收录到的那部分内容。</p>
 <p>对于一个新建的小网站来说，很可能被其收录的内容很少，<br>没有对博客足够齐全的索引，搜索结果差。</p>
 <p>国内的一般访客也访问不了 Google，<br>百度站内搜索的体验也不佳。</p>
@@ -6663,31 +6623,31 @@ article .article-content ul li p:first-child {
 <h3 id="Site-Analysis-网站分析服务"><a href="#Site-Analysis-网站分析服务" class="headerlink" title="Site Analysis 网站分析服务"></a><strong>Site Analysis 网站分析服务</strong></h3><p>帮助你去统计分析网站的各类数据，<br>包括且不限于查看 UV、PV、IP 数、来源网站、入口页面、受访页面、<br>访客地区、设备、系统、忠诚度，抓取网站收录到搜索引擎，提供 SEO 优化建议等的服务。</p>
 <p>推荐：<br>(1) <a href="http://www.google.com/analytics/" target="_blank" rel="external">Google Analytics</a><br>(2) <a href="http://tongji.baidu.com/web/welcome/login" target="_blank" rel="external">百度统计</a></p>
 <p>最好两个同时使用，还有它们的站长工具，体会其中的差异，<br>而且它们会派爬虫去抓取你的博客，其结果将会收录到搜索引擎~</p>
-<h3 id="Speed-Optimize-访问速度优化"><a href="#Speed-Optimize-访问速度优化" class="headerlink" title="Speed Optimize 访问速度优化"></a><strong>Speed Optimize 访问速度优化</strong></h3><p>手段繁多，<br>除了上文提到的将图片放到 CDN 服务商那里的方法外，<br>CSS 文件、JavaScript 脚本等也可以放到 CDN 那里，<br>把静态网站托管到更访问速度更好的平台（也包括 CDN）上，<br>压缩图片到适当大小，优化 theme、JavaScript 脚本的代码……<br>在此不赘述。</p>
+<h3 id="访问速度优化"><a href="#访问速度优化" class="headerlink" title="访问速度优化"></a><strong>访问速度优化</strong></h3><p>手段繁多，<br>除了上文提到的将图片放到 CDN 服务商那里的方法外，<br>CSS 文件、JavaScript 脚本等也可以放到 CDN 那里，<br>把静态网站托管到更访问速度更好的平台（也包括 CDN）上，<br>压缩图片到适当大小，优化 theme、JavaScript 脚本的代码……<br>在此不赘述。</p>
 <p><del><a href="http://www.zipperary.com/2013/11/23/hexo-to-gitcafe/" target="_blank" rel="external">托管博客到 Gitcafe</a></del> 比较便捷。</p>
 <p><strong>可参考 <a href="http://www.jianshu.com/p/3141cffc1b1b" target="_blank" rel="external">Hexo 系列教程之五：Hexo 博客同时托管在 Github 和 Coding</a></strong></p>
 <h3 id="Ad-卖流量（广告）"><a href="#Ad-卖流量（广告）" class="headerlink" title="Ad 卖流量（广告）"></a><strong>Ad 卖流量（广告）</strong></h3><p>当你的网站做得一级棒，流量很大（访客很多）的时候，<br>就就可以靠卖广告挣点外快了，挣回网站的维护成本，<br>甚至养活自己，发大财￥</p>
 <p>推荐：<br>(1) <a href="http://www.google.cn/intl/zh-CN/ads/ads_1.html" target="_blank" rel="external">Google AdSense</a><br>(2) <a href="http://adm.baidu.com/index.html" target="_blank" rel="external">百度广告</a></p>
 <p>还有很多其它广告平台，可自行查阅。</p>
 <p>围绕上述各点，折腾了不少时间，<br>当然也学到许多新的知识。</p>
-<h1 id="Others-其它"><a href="#Others-其它" class="headerlink" title="Others 其它"></a>Others 其它</h1><h2 id="Scource-Code-源代码"><a href="#Scource-Code-源代码" class="headerlink" title="Scource Code 源代码"></a>Scource Code 源代码</h2><ul>
+<h1 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h1><h2 id="源代码"><a href="#源代码" class="headerlink" title="源代码"></a>源代码</h2><ul>
 <li><a href="https://github.com/IceHe/icehe.github.io" target="_blank" rel="external">博客实体的代码</a></li>
 <li><a href="https://github.com/IceHe/icehe.me" target="_blank" rel="external">生成博客用的代码</a></li>
 <li><a href="https://github.com/IceHe/Jacman" target="_blank" rel="external">博客theme的代码</a></li>
 </ul>
-<h2 id="Express-Gratitude-鸣谢"><a href="#Express-Gratitude-鸣谢" class="headerlink" title="Express Gratitude 鸣谢"></a>Express Gratitude 鸣谢</h2><ul>
-<li>Hexo Author - <a href="http://zespia.tw/" target="_blank" rel="external">Tommy Chen</a></li>
-<li>Theme Author - <a href="http://wuchong.me/" target="_blank" rel="external">WuChong</a></li>
+<h2 id="鸣谢"><a href="#鸣谢" class="headerlink" title="鸣谢"></a>鸣谢</h2><ul>
+<li>Hexo 作者：<a href="http://zespia.tw/" target="_blank" rel="external">Tommy Chen</a></li>
+<li>主题作者：<a href="http://wuchong.me/" target="_blank" rel="external">WuChong</a></li>
 </ul>
-<h2 id="About-Me-关于"><a href="#About-Me-关于" class="headerlink" title="About Me 关于"></a>About Me 关于</h2><ul>
-<li>This’s my <a href="/about"><strong>brief intro</strong></a>. 这是我的<a href="/about"> <strong>简介</strong> </a>。</li>
-<li><strong>Thx for your reading. 感谢您的阅读。</strong></li>
+<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><ul>
+<li>这是我的<a href="/about"> <strong>简介</strong> </a>。</li>
+<li><strong>感谢您的阅读。</strong></li>
 </ul>
 ]]></content>
     
     <summary type="html">
     
-      Why 初衷、How 过程，Hexo 建站，Theme 主题，Domain Name 域名，Bed Room 图床，Google CSE 站内搜索，404 页面，Sitemap &amp; RSS 站点地图与订阅，Site Analysis，Page View 统计…
+      Bulid Blog&amp;#58; Why 初衷、How 过程，Hexo 建站，Theme 主题，Domain Name 域名，Bed Room 图床，Google CSE 站内搜索，404 页面，Sitemap &amp; RSS 站点地图与订阅，Site Analysis，Page View 统计…
     
     </summary>
     
@@ -6699,7 +6659,7 @@ article .article-content ul li p:first-child {
   </entry>
   
   <entry>
-    <title>Time Mgt 时间管理日志</title>
+    <title>时间管理日志说明</title>
     <link href="http://icehe.me/think/time_mgt/"/>
     <id>http://icehe.me/think/time_mgt/</id>
     <published>2015-11-12T16:00:00.000Z</published>
@@ -6720,11 +6680,11 @@ article .article-content ul li p:first-child {
 </ul>
 </li>
 </ul>
-<h1 id="Principles-原则"><a href="#Principles-原则" class="headerlink" title="Principles 原则"></a>Principles 原则</h1><ol>
+<h1 id="原则"><a href="#原则" class="headerlink" title="原则"></a>原则</h1><ol>
 <li><strong>简便</strong>：记录方式简便，只统计要用的信息，避免成为负担</li>
 <li><strong>有序</strong>：格式统一，便于数据的整理、分析</li>
 </ol>
-<h1 id="Time-Granularity-时间粒度"><a href="#Time-Granularity-时间粒度" class="headerlink" title="Time Granularity 时间粒度"></a>Time Granularity 时间粒度</h1><p><strong>时间粒度</strong>，即每个时段有多长。<br>类似于一节课有多长时间，据此规划、统计自己的时间。<br>对我而言，1、10或15min的时间粒度太小了，而 <strong>30min</strong> 就刚好，因为：</p>
+<h1 id="时间粒度"><a href="#时间粒度" class="headerlink" title="时间粒度"></a>时间粒度</h1><p><strong>时间粒度</strong>，即每个时段有多长。<br>类似于一节课有多长时间，据此规划、统计自己的时间。<br>对我而言，1、10或15min的时间粒度太小了，而 <strong>30min</strong> 就刚好，因为：</p>
 <ol>
 <li><p><strong>便于规划、统计</strong><br><u><strong>30min == 0.5hour</strong></u> 该时间粒度，就可以以每小时的整点、半点为界，等分一日的时间。</p>
 </li>
@@ -6736,7 +6696,7 @@ article .article-content ul li p:first-child {
 </li>
 </ol>
 <p>因为，生活节奏越慢，切换去做不同（类）任务的频率越低，<br>可以用更大的时间粒度来规划、统计时间，<br>当然时间使用情况的统计结果的精度会降低。</p>
-<h1 id="Transaction-Category-事务类别"><a href="#Transaction-Category-事务类别" class="headerlink" title="Transaction Category 事务类别"></a>Transaction Category 事务类别</h1><p>事务的分类见仁见智。<br>有些时间管理软件或方法，给出的分类过多过细，<br>如公交、走动、购物、娱乐、上网、看电影、喝酒等，使用不便。</p>
+<h1 id="事务类别"><a href="#事务类别" class="headerlink" title="事务类别"></a>事务类别</h1><p>事务的分类见仁见智。<br>有些时间管理软件或方法，给出的分类过多过细，<br>如公交、走动、购物、娱乐、上网、看电影、喝酒等，使用不便。</p>
 <h2 id="六类事务"><a href="#六类事务" class="headerlink" title="六类事务"></a>六类事务</h2><p>我根据个人实际实践，将生活中的事务分为六类：</p>
 <table>
 <thead>
@@ -6787,7 +6747,7 @@ article .article-content ul li p:first-child {
 </tbody>
 </table>
 <p>有些事可以同属以上多个事务类别，<br>只能再靠个人判断将其再归类。<br><em>可以简单将其归类于编号较小的类别。</em></p>
-<h1 id="Log-Example-日志实例"><a href="#Log-Example-日志实例" class="headerlink" title="Log Example 日志实例"></a>Log Example 日志实例</h1><p>Log 时间使用情况统计日志以 《 <a href="/lifelogs/2015/10/d20.html">15/10/20 stu52 spo12 was3</a> 》 为例简要解释。<br>仅解释（截止至本日志更新之日）最新的日志格式，不赘述旧格式。</p>
+<h1 id="日志实例"><a href="#日志实例" class="headerlink" title="日志实例"></a>日志实例</h1><p>Log 时间使用情况统计日志以 《 <a href="/lifelogs/2015/10/d20.html">15/10/20 stu52 spo12 was3</a> 》 为例简要解释。<br>仅解释（截止至本日志更新之日）最新的日志格式，不赘述旧格式。</p>
 <p>日志仅记录<span id="valid_time"><strong>有效生活时间</strong></span>，即</p>
 <pre><code>每日从早晨醒来到夜晚入睡的时间。 即24小时减去睡眠时间。
 </code></pre><p>凌晨00:00后才睡觉的时候，00:00后到入睡前的部分时间本属于第二天，<br>但是只要还没睡，该部分时间就统计到前一天的日志里去。</p>
@@ -6819,14 +6779,9 @@ article .article-content ul li p:first-child {
 </code></pre><p> 简要记录全天<a href="#valid_time">有效生活时间</a>内所做事务的时段、<a href="#Transaction_Category_事务类别">类别</a>。<br> <strong>格式</strong>：</p>
 <pre><code>07-10
 </code></pre><p> <strong>(a)</strong> 表示 7:00,8:00,9:00,10:00 等4个时间点，<br> 实指 08:00 ~ 11:00 这4个小时。</p>
+<pre><code>〇必，学学，读废，学学，
+</code></pre><p> <strong>(b)</strong> 以上的中文字，如 “必”、“乐”，指所处时间段内所处理事务的<a href="#Transaction_Category_事务类别">类别</a>。<br> 中文逗号 “，” 分隔两个时长 1h 的时间段。<br> 中文字符“〇”为占位符，指在该时间段记录者还没醒。</p>
 </li>
-</ol>
-<pre><code>    〇必，学学，读废，学学，
-
-**(b)** 以上的中文字，如 “必”、“乐”，指所处时间段内所处理事务的[类别](#Transaction_Category_事务类别)。
-中文逗号 “，” 分隔两个时长 1h 的时间段。
-中文字符“〇”为占位符，指在该时间段记录者还没醒。
-</code></pre><ol>
 <li><p><strong>记录细表</strong></p>
 <pre><code># Time Detail
 to_time|type|desc|duration
@@ -6917,10 +6872,10 @@ Monthly
 总516.5
 </code></pre></li>
 </ol>
-<h1 id="Schedule-Plan-日程规划"><a href="#Schedule-Plan-日程规划" class="headerlink" title="Schedule Plan 日程规划"></a>Schedule Plan 日程规划</h1><p>曾经使用过不少时间管理工具和方法，在实际使用中发现这些东西仅供参考，常常不适用于特定的个人。</p>
+<h1 id="日程规划"><a href="#日程规划" class="headerlink" title="日程规划"></a>日程规划</h1><p>曾经使用过不少时间管理工具和方法，在实际使用中发现这些东西仅供参考，常常不适用于特定的个人。</p>
 <p>例如，太详细的日程规划，对一般人来说不太现实，是谓：计划常常赶不上变化。<br>我一开始也不信邪，非要详细规划；可是在实践中，原计划只有三成左右能够如愿执行，效果不理想。<br>大概是因为日程定得过于详细，死板不够灵活，个人自控力又不足，不懂取舍和坚持，轻易打乱原计划…<br>于是提前规划日程成了心理安慰的行为 —— 规划时就产生了已经将日程完满执行的幻觉。</p>
 <p>所以，我还是循序渐进，慢慢提高自控力。</p>
-<h1 id="Automation-自动化"><a href="#Automation-自动化" class="headerlink" title="Automation 自动化"></a>Automation 自动化</h1><p>这些时间管理日志的源内容，都存在我的Evernote的笔记里面。</p>
+<h1 id="自动化"><a href="#自动化" class="headerlink" title="自动化"></a>自动化</h1><p>这些时间管理日志的源内容，都存在我的Evernote的笔记里面。</p>
 <p>上文中，除了记录细表、主要任务列表<br>其它的部分如周/月统计表、记录简表、日统计表的生成以及日志标题的修改，<br>都是通过Python和AppleScript编写的脚本完成的。</p>
 <p>这些脚本读取Evernote中的有关日志内容，根据其中的记录细表得出统计结果；<br>再根据结果补充Evernote源日志的内容。</p>
 <p>当然还有其它脚本将这些内容推送到本博客中。</p>
@@ -6935,12 +6890,14 @@ Monthly
 <ul>
 <li><a href="https://github.com/IceHe/my_scripts_on_win" target="_blank" rel="external">操作时间管理日志用的 PHP、Batch 脚本</a> <em>（已弃用）</em></li>
 </ul>
-<h1 id="About-Time-Mgt"><a href="#About-Time-Mgt" class="headerlink" title="About Time Mgt."></a>About Time Mgt.</h1><p>“我们工作是为了生活，而不是为了工作而活着。”<br>“时间管理的目的，其实还是为了更好的享受生活。”</p>
+<h1 id="关于时间管理"><a href="#关于时间管理" class="headerlink" title="关于时间管理"></a>关于时间管理</h1><blockquote>
+<p>我们工作是为了生活，而不是为了工作而活着。<br>时间管理的目的，其实还是为了更好的享受生活。</p>
+</blockquote>
 ]]></content>
     
     <summary type="html">
     
-      Log Format 时间日志格式。Principles 原则，Transaction Categories 事务类别，Time Granularity 时间粒度，Log Instance 实例，Schedule 规划。
+      Time Mgt.&amp;#58; Life Log Format 时间日志格式。Principles 原则，Transaction Categories 事务类别，Time Granularity 时间粒度，Log Instance 实例，Schedule 规划。
     
     </summary>
     
