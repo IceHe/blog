@@ -1,9 +1,9 @@
-title: Time Mgt 时间管理日志
+title: 时间管理日志说明
 date: 2015-11-13
 updated: 2016-12-05
 categories: [time mgt]
 tags: [time mgt]
-description: Log Format 时间日志格式。Principles 原则，Transaction Categories 事务类别，Time Granularity 时间粒度，Log Instance 实例，Schedule 规划。
+description: Time Mgt.&#58; Life Log Format 时间日志格式。Principles 原则，Transaction Categories 事务类别，Time Granularity 时间粒度，Log Instance 实例，Schedule 规划。
 ---
 
 - 链接：《 [我所有的时间统计日志](/lifelogs) 》
@@ -16,12 +16,12 @@ description: Log Format 时间日志格式。Principles 原则，Transaction Cat
     - 而是用 iOS 的 App —— BlockyTime（时间块），它的特点刚好非常适合我使用。
         - 以后可能还是会用脚本去自行统计 BlockyTime 其中时间记录，找出自己感兴趣的东西，深入了解自己。
 
-# Principles 原则
+# 原则
 
 1. **简便**：记录方式简便，只统计要用的信息，避免成为负担
 2. **有序**：格式统一，便于数据的整理、分析
 
-# Time Granularity 时间粒度
+# 时间粒度
 
 **时间粒度**，即每个时段有多长。
 类似于一节课有多长时间，据此规划、统计自己的时间。
@@ -53,7 +53,7 @@ _例如，某30min用了15min以上读书，
 可以用更大的时间粒度来规划、统计时间，
 当然时间使用情况的统计结果的精度会降低。
 
-# Transaction Category 事务类别
+# 事务类别
 
 事务的分类见仁见智。
 有些时间管理软件或方法，给出的分类过多过细，
@@ -76,7 +76,7 @@ _例如，某30min用了15min以上读书，
 只能再靠个人判断将其再归类。
 *可以简单将其归类于编号较小的类别。*
 
-# Log Example 日志实例
+# 日志实例
 
 Log 时间使用情况统计日志以 《 [15/10/20 stu52 spo12 was3](/lifelogs/2015/10/d20.html) 》 为例简要解释。
 仅解释（截止至本日志更新之日）最新的日志格式，不赘述旧格式。
@@ -132,7 +132,6 @@ Log 时间使用情况统计日志以 《 [15/10/20 stu52 spo12 was3](/lifelogs/
 
 	**(a)** 表示 7:00,8:00,9:00,10:00 等4个时间点，
 	实指 08:00 ~ 11:00 这4个小时。
-
 
 		〇必，学学，读废，学学，
 
@@ -268,7 +267,7 @@ Log 时间使用情况统计日志以 《 [15/10/20 stu52 spo12 was3](/lifelogs/
 		废21.5，4.2
 		总516.5
 
-# Schedule Plan 日程规划
+# 日程规划
 曾经使用过不少时间管理工具和方法，在实际使用中发现这些东西仅供参考，常常不适用于特定的个人。
 
 例如，太详细的日程规划，对一般人来说不太现实，是谓：计划常常赶不上变化。
@@ -278,7 +277,7 @@ Log 时间使用情况统计日志以 《 [15/10/20 stu52 spo12 was3](/lifelogs/
 
 所以，我还是循序渐进，慢慢提高自控力。
 
-# Automation 自动化
+# 自动化
 
 这些时间管理日志的源内容，都存在我的Evernote的笔记里面。
 
@@ -301,7 +300,7 @@ Log 时间使用情况统计日志以 《 [15/10/20 stu52 spo12 was3](/lifelogs/
 ** on Windows **
 - [操作时间管理日志用的 PHP、Batch 脚本](https://github.com/IceHe/my_scripts_on_win) *（已弃用）*
 
-# About Time Mgt.
+# 关于时间管理
 
-“我们工作是为了生活，而不是为了工作而活着。”
-“时间管理的目的，其实还是为了更好的享受生活。”
+> 我们工作是为了生活，而不是为了工作而活着。
+> 时间管理的目的，其实还是为了更好的享受生活。
