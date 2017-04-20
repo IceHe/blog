@@ -1,24 +1,24 @@
-title: Favorites 喜好
+title: 最喜爱的
 date: 2015-11-19
 updated: 2017-04-09
 categories: [read]
 tags: [read]
-description: 我喜欢的书籍、电影、电视剧、动画、游戏…
+description: Favorites&#58; 我最喜欢的书籍、电影、电视剧、动画、游戏…
 ---
 
 - __所爱之物记录于此。__
 - 喜欢的东西太多了，只记录最钟爱的。
 
-# Sports 运动
+# 运动
 
 - __羽毛球__
 - [__毽球__](/about/#华工毽球社-社长)
 
-# Books 书
+# 书
 
-- [__Reading Bookmarks - Books__](/read/#Books-书)
+- [__Reading Bookmarks - Books__](/read/#书)
 
-# Motion Picture 电影
+# 电影
 
 - [__Limitless__](https://movie.douban.com/subject/3041269/)
     《永无止境》，爽！
@@ -63,7 +63,7 @@ description: 我喜欢的书籍、电影、电视剧、动画、游戏…
 - [__你的名字。__](https://movie.douban.com/subject/1308807/) <sup>__Best__</sup> <sup>最爱 No.1</sup>
     梦。
 
-# TV Dramas 电视剧
+# 电视剧
 
 - [__半泽直树__](https://movie.douban.com/subject/24697949/)
     复仇，弱肉强食。
@@ -76,7 +76,7 @@ description: 我喜欢的书籍、电影、电视剧、动画、游戏…
 - [__Black Mirror__](https://movie.douban.com/subject_search?search_text=Black+Mirror&cat=1002) <sup>__Best__</sup>
     《黑镜》，警世。
 
-# Animate 动画
+# 动画
 
 - [__排球少年__](https://www.douban.com/search?q=%E6%8E%92%E7%90%83%E5%B0%91%E5%B9%B4) <sup>__Best of the Best__</sup>
     新世代的灌篮！
@@ -163,7 +163,7 @@ description: 我喜欢的书籍、电影、电视剧、动画、游戏…
 - <span class="val_pos icon-douban"> &nbsp;[__其它看过的片__](http://movie.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
     用豆瓣记录所有看过的片意义不大还麻烦，以后只在博客此处做记录。
 
-# Games 游戏
+# 游戏
 
 ## iOS
 
@@ -181,7 +181,7 @@ description: 我喜欢的书籍、电影、电视剧、动画、游戏…
 - [__Warcraft 3__](http://us.blizzard.com/en-us/games/war3/) <sup>__Best__</sup>
     《魔兽争霸3 冰封王座》！当年多喜欢即时战略，不过这股风潮已经过去。之后崛起的 Dota、LOL 就没玩了。
 
-## Game Boy 掌机
+## 掌机
 
 - [__Final Fantasy Tactics A2__](http://ffta2.ffsky.cn/) <sup>__Best__</sup>
     《最终幻想战略版》 A & A2 ！ 我最喜欢的游戏类型就是战棋，它就是我心目中的神作！ 最喜欢的最终幻想衍生游戏分支，我重玩次数最多的游戏， 献给这个系列的两作游戏的时间远超700小时。
@@ -194,7 +194,7 @@ description: 我喜欢的书籍、电影、电视剧、动画、游戏…
 - [__Pokemon__](https://en.wikipedia.org/wiki/Pok%C3%A9mon)
     《口袋怪物》系列，童年经典。
 
-## Play Station 2
+## PS2
 
 - [__Gundom Seed & Seed Destiny__](https://en.wikipedia.org/wiki/Gundam_Seed:_Rengou_vs._Z.A.F.T.)
     当年迷高达的，所以爱屋及乌。
@@ -219,14 +219,14 @@ description: 我喜欢的书籍、电影、电视剧、动画、游戏…
 - [__鬼哭街2011重制版__](http://baike.baidu.com/view/8890991.htm) <sup>__Best__</sup>
     我想象中的现代中式武侠打斗的文字描写范本，虚渊玄作品。
 
-## Others 其它
+## 其它
 
 - [__游戏王__](https://zh.wikipedia.org/wiki/%E9%81%8A%E6%88%B2%E7%8E%8B%E9%9B%86%E6%8F%9B%E7%B4%99%E7%89%8C%E9%81%8A%E6%88%B2) <sup>__Best__</sup>
     挚爱的卡牌游戏，当年几个损友一起愉快地玩了三年，花了不少钱去买正版卡牌；初三戒了，就再也没有继续下去，几个损友如今也难再聚。
 - [__围棋__](https://zh.wikipedia.org/wiki/%E5%9B%B4%E6%A3%8B) <sup>__Best__</sup>
     深奥幽玄。当年买了好几本大部头教材，小学中午午睡时间我不睡觉，就在被窝里钻研。
 
-# Singers 歌手
+# 歌手
 
 - Twins <sup>__Best__</sup>
 - 古巨基
