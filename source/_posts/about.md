@@ -1,62 +1,64 @@
 title: CV 简历
 date: 2015-01-20
-updated: 2016-10-17
+updated: 2017-04-20
 categories: [whoami]
 tags: [whoami]
-description: Exp / Edu / Oth：微博移动 - 服务端研发 - PHP，华南理工 - 软件工程 - 本科 …
+description: IceHe's CV&#58; 经历、技能、教育，微博移动 / 服务端开发 / PHP，华南理工 / 软件工程 / 本科 …
 ---
 
-# __Me 我__
+- [CV - English Ver.](/about_en) <sup>not complete</sup>
 
-- __I'm__
+# __简介__
+
+- __我是__
     - <i class="fa fa-fw fa-star"></i> Ice He / Hzy
-        <sup><i class="fa fa-fw fa-paper-plane"></i> A Cantonese in Beijing</sup>
+        <sup><i class="fa fa-fw fa-paper-plane"></i> 广州人在北京</sup>
     - <i class="fa fa-fw fa-font"></i> Less. 宁静致远。
-        <sup><i class="fa fa-fw fa-heart"></i> Animate , Badminton , 毽球</sup>
-    - <i class="fa fa-fw fa-weibo"></i> [Weibo](http://weibo.com/icedes) Mobile API
-        <sup><i class="fa fa-fw fa-gear"></i> PHP Server-side Developer</sup>
+        <sup><i class="fa fa-fw fa-heart"></i> ACGMN , 羽毛球 , ~~毽球~~</sup>
+    - <i class="fa fa-fw fa-weibo"></i> 微博移动应用服务
+        <sup><i class="fa fa-fw fa-gear"></i> PHP 服务端开发 - Mobile API</sup>
     - <i class="fa fa-fw fa-envelope-o"></i> x#icehe.me
-        <sup><i class="fa fa-fw fa-wechat"></i> [WeChat](http://7vzp68.com1.z0.glb.clouddn.com/about_original/qrcode_01.jpg) | [Zhihu](https://www.zhihu.com/people/icehe/activities) | [Weibo](http://weibo.com/icedes)</sup>
-- __Traits__
-    - <i class="fa fa-fw fa-gears"></i> [Tools](/tools/) 工具控
-        <sup>Softwares & Hardwares</sup>
-    - <i class="fa fa-fw fa-keyboard-o"></i> [Shortcuts](/mac_shortcuts/) 效率
-        <sup>Default & Custom</sup>
-    - <i class="fa fa-fw fa-calendar"></i> [Logs](/lifelogs) 量化
-        <sup>Time Usage Rec. & Statistics</sup>
-- __Life__
-    - <i class="fa fa-fw fa-heart"></i> [Favorites](/favourites) 喜好
-        <sup>Books , Music , Movies , Games …</sup>
-    - <i class="fa fa-fw fa-bookmark"></i>  [Reading](/read) Bookmarks
-        <sup>Q&A , Notes , Articles …</sup>
-    - <i class="fa fa-fw fa-cog"></i> [Technology](/tech) Bookmarks
-        <sup>Docs , Courses , Blogs , Articles</sup>
-- __Past__
-    - <i class="fa fa-fw fa-camera-retro"></i> [My Moments](/moments/)
+        <sup><i class="fa fa-fw fa-wechat"></i> [微信](http://7vzp68.com1.z0.glb.clouddn.com/about_original/qrcode_01.jpg) | [知乎](https://www.zhihu.com/people/icehe/activities) | [微博](http://weibo.com/icedes)</sup>
+- __特点__
+    - <i class="fa fa-fw fa-gears"></i> [我的利器](/tools/) - 工具控
+        <sup>Apps & 硬件</sup>
+    - <i class="fa fa-fw fa-keyboard-o"></i> [我的快捷键](/mac_shortcuts/) - 效率厨
+        <sup>默认 & 自定义</sup>
+    - <i class="fa fa-fw fa-calendar"></i> [时间管理日志](/lifelogs) - 自我管理
+        <sup>时间使用情况记录 & 统计</sup>
+- __人生__
+    - <i class="fa fa-fw fa-heart"></i> [最喜爱的](/favourites)
+        <sup>书、文章、音乐、电影、游戏…</sup>
+    - <i class="fa fa-fw fa-bookmark"></i>  [文字阅读收藏](/read)
+        <sup>问答、笔记、文章…</sup>
+    - <i class="fa fa-fw fa-cog"></i> [技术阅读收藏](/tech)
+        <sup>文档、教程、博客、文章</sup>
+- __回忆__
+    - <i class="fa fa-fw fa-camera-retro"></i> [回忆](/moments/)
         <sup>Good old days</sup>
-    - <i class="fa fa-fw fa-pencil"></i> [Old Articles](http://290841032.qzone.qq.com/)
-        <sup>When I was teen</sup>
-- __Friends__
+    - <i class="fa fa-fw fa-pencil"></i> [旧文](http://290841032.qzone.qq.com/)
+        <sup>青春年少</sup>
+- __朋友__
     - <i class="fa fa-fw fa-street-view"></i> [Jan Fan](http://janfan.github.io/) | [Shiwey Yan](http://shiweyyan.github.io/) | [SF Zhou](http://sf-zhou.github.io/)
-        <sup>Python,ML&NLP | Game Developer | ACMer</sup>
+        <sup>Pythoner, ML&NLP | 游戏开发 | ACMer</sup>
 
 ---
 
-# Tech 技术
+# 技术
 
-- <i class="fa fa-fw fa-cube"></i> __Blog__ : [icehe.me](http://icehe.me)
-    <sup>Web , Thoughts , C++ …</sup>
+- <i class="fa fa-fw fa-cube"></i> __博客__ : [icehe.me](http://icehe.me)
+    <sup>笔记、总结、思考、Mac、Git、C++、ASM…</sup>
 
 - <i class="fa fa-fw fa-github-alt"></i> __GitHub__ : [IceHe](https://github.com/IceHe)
-    <sup>Tools' confs , Blog src , Auto scripts</sup>
+    <sup>工具配置、博客托管、自动化脚本、作品…</sup>
 
-- __Skill Levels__
-    <i class="fa fa-fw fa-trophy"></i> Proficient
-    <i class="fa fa-fw fa-star"></i> Familiar
-    <i class="fa fa-fw fa-star-half-o"></i> Competent
-    <i class="fa fa-fw fa-star-o"></i> Know
+- __技能级别__
+    <i class="fa fa-fw fa-trophy"></i> Proficient 精通
+    <i class="fa fa-fw fa-star"></i> Familiar 熟悉
+    <i class="fa fa-fw fa-star-half-o"></i> Competent 胜任
+    <i class="fa fa-fw fa-star-o"></i> Know 理解
 
-- __Programing Langs__
+- __编程语言__
     <i class="fa fa-fw fa-star-half-o"></i> __`PHP`__ `C++`
     <i class="fa fa-fw fa-star-o"></i> `JavaScript` `Python` `Java` `C` `ASM`
 
@@ -73,7 +75,7 @@ description: Exp / Edu / Oth：微博移动 - 服务端研发 - PHP，华南理�
     <i class="fa fa-fw fa-star-half-o"></i> __`HTML` `CSS` `jQuery`__
     <i class="fa fa-fw fa-star-o"></i> `Docker` `Nginx` `Redis`
 
-- __Scripts__
+- __脚本__
     <i class="fa fa-fw fa-star-half-o"></i> __`AppleScript`__
     <i class="fa fa-fw fa-star-o"></i> `Bash` `Batch file`
 
@@ -85,17 +87,16 @@ description: Exp / Edu / Oth：微博移动 - 服务端研发 - PHP，华南理�
     <i class="fa fa-fw fa-star-half-o"></i> __`PhpStorm` `PyCharm`__
     <i class="fa fa-fw fa-star-o"></i> `Visual Studio` `Eclipse`
 
-- __Langs__
-    <i class="fa fa-fw fa-trophy"></i> `Mandarin` 普通话 `Cantonese` 粤语
-    <i class="fa fa-fw fa-star-o"></i> `English` 英语
-    <sup>技术相关内容的基本阅读写作，以及简单的听力对话</sup>
+- __语言__
+    <i class="fa fa-fw fa-trophy"></i> `普通话` `粤语`
+    <i class="fa fa-fw fa-star-o"></i> `英语` <sub>技术相关内容的基本阅读写作，以及简单的听力对话</sub>
 
 ---
 
-# Exp 经历
+# 经历
 
 ## <i class="hidden">微博移动 - 服务端开发</i>
-__<i class="fa fa-fw fa-weibo"></i> [微梦创科网络技术（中国）有限公司](https://zh.wikipedia.org/wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A) - 微博移动 - 服务端研发__&emsp;_2015.07 ~ Today_
+__<i class="fa fa-fw fa-weibo"></i> [微梦创科网络技术（中国）有限公司](https://zh.wikipedia.org/wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A) - 微博移动 - 服务端研发__&emsp;_2015.07 ~ 现在_
 
 - MAPI（移动应用服务）部门 - 职责：「[微博移动端](https://itunes.apple.com/cn/app/id350962117)」（手机、平板）的服务端 API 的开发与维护，
     - 包括 [开放平台](http://open.weibo.com/) API 、各业务方 与 微博移动端（H5、客户端）之间信息的聚合与适配对接
@@ -136,7 +137,7 @@ __华南理工 IBM 实验室 - 成员__&emsp;_2013.03 ~ 2014.05_
 
 ---
 
-# Edu 教育
+# 教育
 
 ## <i class="hidden">华南理工 - 软件工程</i>
 __[华南理工大学](https://zh.wikipedia.org/wiki/%E5%8D%8E%E5%8D%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6) - 软件学院 - 软件工程__&emsp;_2011.09 ~ 2015.07_
@@ -156,7 +157,21 @@ __[广州市执信中学](https://zh.wikipedia.org/wiki/%E5%B9%BF%E5%B7%9E%E5%B8
 
 ---
 
-# Oth 其它
+# 其它
+
+- 大学实践。
+
+## <i class="hidden">华工毽球社 - 社长</i>
+__华南理工毽球社 - 社长__&emsp;_2012.09 ~ 2014.06_
+
+- 2016.05.15 「京津冀天津毽球邀请赛」混合团体冠军（1/16）
+- 2016.03.13 「天津星五洲杯毽球邀请赛」混合团体亚军（2/16）
+- 广东省第十五届「高校杯毽球邀请赛」男子团体第七名（7/32）
+- 广东省第六届「大学生毽球精英挑战赛」男子团体 16 强（16/32)
+- 广东省第十六届「高校杯毽球邀请赛」男子团体 16 强（16/32）
+- 2011 至 2014 「大学城毽球联赛」分获亚军、季军、亚军、季军（前7）
+- 2013 至 2015 「华工双人毽球争霸赛」分获冠军、亚军、冠军（前16）
+- 2011「华工院际毽球赛」冠军
 
 ## <i class="hidden">华工职业体验协会 - 会长</i>
 __华南理工职业体验协会 - 会长__&emsp;_2013.03 ~ 2014.06_
@@ -174,18 +189,6 @@ __华南理工职业体验协会 - 会长__&emsp;_2013.03 ~ 2014.06_
 - 主讲「策划撰写、商务礼仪」2 场培训
 - 举办 会员服务活动 6 场
 - 举办 素质拓展 2 场
-
-## <i class="hidden">华工毽球社 - 社长</i>
-__华南理工毽球社 - 社长__&emsp;_2012.09 ~ 2014.06_
-
-- 2016.05.15 「京津冀天津毽球邀请赛」混合团体冠军（1/16）
-- 2016.03.13 「天津星五洲杯毽球邀请赛」混合团体亚军（2/16）
-- 广东省第十五届「高校杯毽球邀请赛」男子团体第七名（7/32）
-- 广东省第六届「大学生毽球精英挑战赛」男子团体 16 强（16/32)
-- 广东省第十六届「高校杯毽球邀请赛」男子团体 16 强（16/32）
-- 2011 至 2014 「大学城毽球联赛」分获亚军、季军、亚军、季军（前7）
-- 2013 至 2015 「华工双人毽球争霸赛」分获冠军、亚军、冠军（前16）
-- 2011「华工院际毽球赛」冠军
 
 ## <i class="hidden">华工职业发展协会 - 干事</i>
 __华工学生职业发展协会 - 综合事务部 - 干事__&emsp;_2011.09 ~ 2012.06_
