@@ -1,9 +1,9 @@
-title: Life Logs 时间日志
+tfeitle: 时间管理日志
 date: 2015-01-22
 updated: 2017-03-10
 categories: [time mgt]
 tags: [time mgt]
-description: 个人时间使用情况的记录统计日志。
+description: Life Logs&#58; 个人时间使用情况的记录统计日志。
 ---
 
 ## 新的体悟
