@@ -659,7 +659,7 @@ description: Tools&#58; 推荐 macOS 和 iOS 的 Apps 以及日常使用的电�
             - [Flossing has no proven benefits, so U.S. health department stops recommending the practice](http://www.nydailynews.com/life-style/no-floss-u-s-health-department-article-1.2735915)
         - My Related Note - [牙齿保健](/read/tooth.html)
 
-### 羽球
+### 羽毛球
 
 - [__Victor TK-ONIGIRI__](http://www.victorsport.com.cn/product_data.php?id=bVjabyTqrMjj666zMjEk67dD4xSyq) - 羽球拍 <sup>Favorite</sup>
     胜利的 Thruster K ONIGIRI 突击鬼斩。
