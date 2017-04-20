@@ -1,9 +1,9 @@
-title: Technology Bookmarks 技术书签
+title: 技术阅读收藏
 date: 2016-06-14
 updated: 2017-04-08
 categories: [read]
 tags: [read]
-description: 技术类书签：工具、文档、Wiki、技术博客…
+description: Technology Bookmarks 技术内容的书签：工具、文档、Wiki、技术博客…
 ---
 
 - 好内容很多，但人生太有限，不可尽揽。本来我还想着给碰到的每一篇好文章写下笔记呢……
