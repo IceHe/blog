@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next mist use-motion" lang="en">
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -98,8 +98,9 @@
 &amp;lt;&amp;lt;&amp;nbsp; Back 回退到上一页面 
  ^&amp;nbsp; Home 去首页 
 
+/*
     var url = window.location.href;
-    if (-1 != url.indexOf(&apos;404.html&apos;)) { // visit">
+    if (-1 != url.indexOf(&apos;404.html&apos;)) { // vis">
 <meta property="og:type" content="website">
 <meta property="og:title" content="404">
 <meta property="og:url" content="http://icehe.me/404.html">
@@ -109,9 +110,10 @@
 &amp;lt;&amp;lt;&amp;nbsp; Back 回退到上一页面 
  ^&amp;nbsp; Home 去首页 
 
+/*
     var url = window.location.href;
-    if (-1 != url.indexOf(&apos;404.html&apos;)) { // visit">
-<meta property="og:updated_time" content="2016-12-07T03:49:49.000Z">
+    if (-1 != url.indexOf(&apos;404.html&apos;)) { // vis">
+<meta property="og:updated_time" content="2017-04-20T08:10:17.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="404">
 <meta name="twitter:description" content="404 &amp;nbsp;Not Found找不到您要的页面
@@ -119,8 +121,9 @@
 &amp;lt;&amp;lt;&amp;nbsp; Back 回退到上一页面 
  ^&amp;nbsp; Home 去首页 
 
+/*
     var url = window.location.href;
-    if (-1 != url.indexOf(&apos;404.html&apos;)) { // visit">
+    if (-1 != url.indexOf(&apos;404.html&apos;)) { // vis">
 
 
 
@@ -134,7 +137,7 @@
     motion: true,
     duoshuo: {
       userId: '0',
-      author: 'Author'
+      author: '博主'
     },
     algolia: {
       applicationID: '',
@@ -163,7 +166,7 @@
 </title>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
 
@@ -253,7 +256,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-bookmark"></i> <br />
             
-            导航
+            Nav
           </a>
         </li>
       
@@ -263,7 +266,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-star"></i> <br />
             
-            简历
+            CV
           </a>
         </li>
       
@@ -306,6 +309,7 @@
 <p><center style="font-size: 1em"><a href="javascript:;" target="_top" onclick="history.go(-1);">&lt;&lt;&nbsp; Back 回退到上一页面</a> </center></p>
 <p><center style="font-size: 1em"> <a href="/" target="_top">^&nbsp; Home 去首页</a></center> <br></p>
 <script type="text/javascript">
+/*
     var url = window.location.href;
     if (-1 != url.indexOf('404.html')) { // visit 404.html directly
         document.getElementById('feedback').className = 'hidden';
@@ -354,6 +358,7 @@
         var i = 5;
         setTimeout('feedback("' + url + '")', 1000);
     }
+*/
 </script>
 
     
@@ -369,7 +374,7 @@
     
       <div id="disqus_switch" class="center">
         <a href="javascript:loadDisqus();">
-          Show Comments<br/>显示评论，需翻墙
+          显示评论，需翻墙<br/>Show Comments
         </a>
       </div>
       <script type="text/javascript">
@@ -435,7 +440,7 @@
             <div class="site-state-item site-state-posts">
               <a href="/">
                 <span class="site-state-item-count">54</span>
-                <span class="site-state-item-name">posts</span>
+                <span class="site-state-item-name">日志</span>
               </a>
             </div>
           
@@ -446,7 +451,7 @@
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
                 <span class="site-state-item-count">15</span>
-                <span class="site-state-item-name">categs</span>
+                <span class="site-state-item-name">分类</span>
               </a>
             </div>
           
@@ -457,7 +462,7 @@
             <div class="site-state-item site-state-tags">
               
                 <span class="site-state-item-count">16</span>
-                <span class="site-state-item-name">tags</span>
+                <span class="site-state-item-name">标签</span>
               
             </div>
           
@@ -849,8 +854,7 @@
                         '<li class="nav-item nav-level-1"> '
                         //+ '<i class="fa fa-eye"></i> &nbsp;'
                         + '+. &nbsp; '
-                        + '<a class="nav-link" href="/bookmarks"><span class="nav-text bold">更多 </span></a> </li>'
-                        // + '<a class="nav-link" href="/bookmarks"><span class="nav-text bold">More </span></a> </li>'
+                        + '<a class="nav-link" href="/bookmarks"><span class="nav-text bold">更多<!--More--> </span></a> </li>'
                     );
                 }
           })

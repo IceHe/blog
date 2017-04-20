@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next mist use-motion" lang="en">
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -120,7 +120,7 @@
     motion: true,
     duoshuo: {
       userId: '0',
-      author: 'Author'
+      author: '博主'
     },
     algolia: {
       applicationID: '',
@@ -143,7 +143,7 @@
   <title> 实现网站的打赏功能 | Ice He </title>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
 
@@ -233,7 +233,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-bookmark"></i> <br />
             
-            导航
+            Nav
           </a>
         </li>
       
@@ -243,7 +243,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-star"></i> <br />
             
-            简历
+            CV
           </a>
         </li>
       
@@ -314,7 +314,7 @@
                 <i class="fa fa-refresh"></i>
               </span>
               
-              <time title="Post created" itemprop="dateModified" datetime="2016-08-18T00:00:00+08:00">
+              <time title="创建于" itemprop="dateModified" datetime="2016-08-18T00:00:00+08:00">
                 2016 Aug
               </time>
             
@@ -328,7 +328,7 @@
                 <i class="fa fa-calendar-plus-o"></i>
               </span>
               
-              <time title="Post modified" itemprop="dateCreated datePublished" datetime="2015-05-01T00:00:00+08:00">
+              <time title="更新于" itemprop="dateCreated datePublished" datetime="2015-05-01T00:00:00+08:00">
                 2015 May
             
           </span>
@@ -364,7 +364,7 @@
                 <i class="fa fa-eye"></i>
               </span>
               
-              <span class="leancloud-visitors-count" title="Visitors"></span>
+              <span class="leancloud-visitors-count" title="阅读次数"></span>
             </span>
           
 
@@ -669,7 +669,7 @@ window.onload = function () {
     
       <div id="disqus_switch" class="center">
         <a href="javascript:loadDisqus();">
-          Show Comments<br/>显示评论，需翻墙
+          显示评论，需翻墙<br/>Show Comments
         </a>
       </div>
       <script type="text/javascript">
@@ -710,10 +710,10 @@ window.onload = function () {
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            Table of Contents
+            文章目录
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview">
-            Overview
+            站点概览
           </li>
         </ul>
       
@@ -744,7 +744,7 @@ window.onload = function () {
             <div class="site-state-item site-state-posts">
               <a href="/">
                 <span class="site-state-item-count">54</span>
-                <span class="site-state-item-name">posts</span>
+                <span class="site-state-item-name">日志</span>
               </a>
             </div>
           
@@ -755,7 +755,7 @@ window.onload = function () {
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
                 <span class="site-state-item-count">15</span>
-                <span class="site-state-item-name">categs</span>
+                <span class="site-state-item-name">分类</span>
               </a>
             </div>
           
@@ -766,7 +766,7 @@ window.onload = function () {
             <div class="site-state-item site-state-tags">
               
                 <span class="site-state-item-count">16</span>
-                <span class="site-state-item-name">tags</span>
+                <span class="site-state-item-name">标签</span>
               
             </div>
           
@@ -1178,8 +1178,7 @@ window.onload = function () {
                         '<li class="nav-item nav-level-1"> '
                         //+ '<i class="fa fa-eye"></i> &nbsp;'
                         + '+. &nbsp; '
-                        + '<a class="nav-link" href="/bookmarks"><span class="nav-text bold">更多 </span></a> </li>'
-                        // + '<a class="nav-link" href="/bookmarks"><span class="nav-text bold">More </span></a> </li>'
+                        + '<a class="nav-link" href="/bookmarks"><span class="nav-text bold">更多<!--More--> </span></a> </li>'
                     );
                 }
           })
