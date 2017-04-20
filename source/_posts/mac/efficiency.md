@@ -1,10 +1,10 @@
-title: Mac Efficiency 效率指北
+title: Mac 效率指北
 date: 2017-04-15
 updated: 2017-04-15
 no_upd: true
 categories: [Mac]
 tags: [Mac]
-description: 关于「如何高效使用 Mac」的个人见解。
+description: macOS Efficiency&#58; 关于「如何高效使用 Mac」的个人见解。
 ---
 
 ## 说明
