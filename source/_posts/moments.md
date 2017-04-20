@@ -1,9 +1,9 @@
-title: My Moments 回忆
+title: 回忆
 date: 2016-06-28
 updated: 2017-03-15
 categories: [whoami]
 tags: [whoami]
-description: Good old days. Photos & Memory：执信，华工，毽球，社团，悦读，新浪微博，小时候，未来……
+description: My Moments&#58; Good old days. Photos & Memory：执信，华工，毽球，社团，悦读，新浪微博，小时候，未来……
 ----------
 
 - Bye, my good old days : )
