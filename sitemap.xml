@@ -205,14 +205,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/about_en/</loc>
+    <loc>http://icehe.me/about/</loc>
     
     <lastmod>2017-04-19T16:00:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/about/</loc>
+    <loc>http://icehe.me/about_en/</loc>
     
     <lastmod>2017-04-19T16:00:00.000Z</lastmod>
     
@@ -296,14 +296,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/favourites/</loc>
+    <loc>http://icehe.me/web/build_blog/</loc>
     
     <lastmod>2017-04-08T16:00:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/web/build_blog/</loc>
+    <loc>http://icehe.me/favourites/</loc>
     
     <lastmod>2017-04-08T16:00:00.000Z</lastmod>
     
@@ -520,13 +520,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/10/index.html</loc>
-    
-    <lastmod>2016-11-01T03:33:14.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2016/10/time_stat.html</loc>
     
     <lastmod>2016-11-01T03:33:14.000Z</lastmod>
@@ -534,14 +527,21 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/10/d30.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/10/index.html</loc>
+    
+    <lastmod>2016-11-01T03:33:14.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2016/10/d31.html</loc>
     
     <lastmod>2016-11-01T03:33:13.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/10/d31.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/10/d30.html</loc>
     
     <lastmod>2016-11-01T03:33:13.000Z</lastmod>
     
@@ -569,13 +569,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/10/d25.html</loc>
-    
-    <lastmod>2016-11-01T03:33:11.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2016/10/d26.html</loc>
     
     <lastmod>2016-11-01T03:33:11.000Z</lastmod>
@@ -583,7 +576,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/10/d24.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/10/d25.html</loc>
+    
+    <lastmod>2016-11-01T03:33:11.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2016/10/d23.html</loc>
     
     <lastmod>2016-11-01T03:33:10.000Z</lastmod>
     
@@ -597,7 +597,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/10/d23.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/10/d24.html</loc>
     
     <lastmod>2016-11-01T03:33:10.000Z</lastmod>
     
@@ -618,14 +618,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/10/d19.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/10/d18.html</loc>
     
     <lastmod>2016-11-01T03:33:08.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/10/d18.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/10/d19.html</loc>
     
     <lastmod>2016-11-01T03:33:08.000Z</lastmod>
     
@@ -646,6 +646,13 @@
   </url>
   
   <url>
+    <loc>http://icehe.me/lifelogs/2016/10/d13.html</loc>
+    
+    <lastmod>2016-11-01T03:33:07.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://icehe.me/lifelogs/2016/10/d15.html</loc>
     
     <lastmod>2016-11-01T03:33:07.000Z</lastmod>
@@ -654,13 +661,6 @@
   
   <url>
     <loc>http://icehe.me/lifelogs/2016/10/d14.html</loc>
-    
-    <lastmod>2016-11-01T03:33:07.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/lifelogs/2016/10/d13.html</loc>
     
     <lastmod>2016-11-01T03:33:07.000Z</lastmod>
     
@@ -695,7 +695,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/10/d08.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/10/d07.html</loc>
     
     <lastmod>2016-11-01T03:33:05.000Z</lastmod>
     
@@ -709,16 +709,9 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/10/d07.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/10/d08.html</loc>
     
     <lastmod>2016-11-01T03:33:05.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/lifelogs/2016/10/d05.html</loc>
-    
-    <lastmod>2016-11-01T03:33:04.000Z</lastmod>
     
   </url>
   
@@ -737,14 +730,21 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/10/d02.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/10/d05.html</loc>
+    
+    <lastmod>2016-11-01T03:33:04.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2016/10/d01.html</loc>
     
     <lastmod>2016-11-01T03:33:03.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/10/d01.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/10/d02.html</loc>
     
     <lastmod>2016-11-01T03:33:03.000Z</lastmod>
     
@@ -821,6 +821,13 @@
   </url>
   
   <url>
+    <loc>http://icehe.me/lifelogs/2016/09/d29.html</loc>
+    
+    <lastmod>2016-10-02T05:21:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://icehe.me/lifelogs/2016/09/d27.html</loc>
     
     <lastmod>2016-10-02T05:21:13.000Z</lastmod>
@@ -831,20 +838,6 @@
     <loc>http://icehe.me/lifelogs/2016/09/d26.html</loc>
     
     <lastmod>2016-10-02T05:21:13.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/lifelogs/2016/09/d29.html</loc>
-    
-    <lastmod>2016-10-02T05:21:13.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/lifelogs/2016/09/d25.html</loc>
-    
-    <lastmod>2016-10-02T05:21:12.000Z</lastmod>
     
   </url>
   
@@ -863,14 +856,21 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/09/d22.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/09/d25.html</loc>
+    
+    <lastmod>2016-10-02T05:21:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2016/09/d20.html</loc>
     
     <lastmod>2016-10-02T05:21:11.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/09/d20.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/09/d22.html</loc>
     
     <lastmod>2016-10-02T05:21:11.000Z</lastmod>
     
@@ -905,13 +905,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/09/d16.html</loc>
-    
-    <lastmod>2016-10-02T05:21:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2016/09/d15.html</loc>
     
     <lastmod>2016-10-02T05:21:09.000Z</lastmod>
@@ -919,14 +912,21 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/09/d14.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/09/d16.html</loc>
+    
+    <lastmod>2016-10-02T05:21:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2016/09/d13.html</loc>
     
     <lastmod>2016-10-02T05:21:08.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/09/d13.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/09/d14.html</loc>
     
     <lastmod>2016-10-02T05:21:08.000Z</lastmod>
     
@@ -940,14 +940,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/09/d11.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/09/d10.html</loc>
     
     <lastmod>2016-10-02T05:21:07.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/09/d10.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/09/d11.html</loc>
     
     <lastmod>2016-10-02T05:21:07.000Z</lastmod>
     
@@ -989,14 +989,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/09/d05.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/09/d03.html</loc>
     
     <lastmod>2016-10-02T05:21:05.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/09/d03.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/09/d05.html</loc>
     
     <lastmod>2016-10-02T05:21:05.000Z</lastmod>
     
@@ -1038,14 +1038,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/08/time_stat.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/08/index.html</loc>
     
     <lastmod>2016-09-01T04:08:51.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/08/index.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/08/time_stat.html</loc>
     
     <lastmod>2016-09-01T04:08:51.000Z</lastmod>
     
@@ -1087,7 +1087,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/08/d26.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/08/d24.html</loc>
     
     <lastmod>2016-09-01T04:08:48.000Z</lastmod>
     
@@ -1101,21 +1101,21 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/08/d24.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/08/d26.html</loc>
     
     <lastmod>2016-09-01T04:08:48.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/08/d22.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/08/d23.html</loc>
     
     <lastmod>2016-09-01T04:08:47.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/08/d23.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/08/d22.html</loc>
     
     <lastmod>2016-09-01T04:08:47.000Z</lastmod>
     
@@ -1171,7 +1171,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/08/d14.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/08/d12.html</loc>
     
     <lastmod>2016-09-01T04:08:44.000Z</lastmod>
     
@@ -1185,7 +1185,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/08/d12.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/08/d14.html</loc>
     
     <lastmod>2016-09-01T04:08:44.000Z</lastmod>
     
@@ -1206,13 +1206,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/08/d07.html</loc>
-    
-    <lastmod>2016-09-01T04:08:42.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2016/08/d08.html</loc>
     
     <lastmod>2016-09-01T04:08:42.000Z</lastmod>
@@ -1221,6 +1214,13 @@
   
   <url>
     <loc>http://icehe.me/lifelogs/2016/08/d09.html</loc>
+    
+    <lastmod>2016-09-01T04:08:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2016/08/d07.html</loc>
     
     <lastmod>2016-09-01T04:08:42.000Z</lastmod>
     
@@ -1241,13 +1241,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/08/d02.html</loc>
-    
-    <lastmod>2016-09-01T04:08:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2016/08/d03.html</loc>
     
     <lastmod>2016-09-01T04:08:40.000Z</lastmod>
@@ -1262,6 +1255,13 @@
   </url>
   
   <url>
+    <loc>http://icehe.me/lifelogs/2016/08/d02.html</loc>
+    
+    <lastmod>2016-09-01T04:08:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://icehe.me/lifelogs/2016/08/d01.html</loc>
     
     <lastmod>2016-09-01T04:08:39.000Z</lastmod>
@@ -1269,14 +1269,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/web/donate/</loc>
+    <loc>http://icehe.me/reward/</loc>
     
     <lastmod>2016-08-17T16:00:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/reward/</loc>
+    <loc>http://icehe.me/web/donate/</loc>
     
     <lastmod>2016-08-17T16:00:00.000Z</lastmod>
     
@@ -1514,13 +1514,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/07/d01.html</loc>
-    
-    <lastmod>2016-08-01T06:05:03.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2016/07/d02.html</loc>
     
     <lastmod>2016-08-01T06:05:03.000Z</lastmod>
@@ -1528,7 +1521,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/06/index.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/07/d01.html</loc>
+    
+    <lastmod>2016-08-01T06:05:03.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2016/06/d30.html</loc>
     
     <lastmod>2016-07-04T01:41:21.000Z</lastmod>
     
@@ -1542,7 +1542,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/06/d30.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/06/index.html</loc>
     
     <lastmod>2016-07-04T01:41:21.000Z</lastmod>
     
@@ -1598,14 +1598,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/06/d22.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/06/d21.html</loc>
     
     <lastmod>2016-07-04T01:41:16.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/06/d21.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/06/d22.html</loc>
     
     <lastmod>2016-07-04T01:41:16.000Z</lastmod>
     
@@ -1626,13 +1626,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/06/d18.html</loc>
-    
-    <lastmod>2016-07-04T01:41:14.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2016/06/d17.html</loc>
     
     <lastmod>2016-07-04T01:41:14.000Z</lastmod>
@@ -1640,14 +1633,21 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/06/d16.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/06/d18.html</loc>
+    
+    <lastmod>2016-07-04T01:41:14.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2016/06/d15.html</loc>
     
     <lastmod>2016-07-04T01:41:13.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/06/d15.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/06/d16.html</loc>
     
     <lastmod>2016-07-04T01:41:13.000Z</lastmod>
     
@@ -1675,13 +1675,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/06/d10.html</loc>
-    
-    <lastmod>2016-07-04T01:41:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2016/06/d11.html</loc>
     
     <lastmod>2016-07-04T01:41:10.000Z</lastmod>
@@ -1689,14 +1682,21 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/06/d09.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/06/d10.html</loc>
+    
+    <lastmod>2016-07-04T01:41:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2016/06/d08.html</loc>
     
     <lastmod>2016-07-04T01:41:09.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/06/d08.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/06/d09.html</loc>
     
     <lastmod>2016-07-04T01:41:09.000Z</lastmod>
     
@@ -1710,14 +1710,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/06/d05.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/06/d06.html</loc>
     
     <lastmod>2016-07-04T01:41:07.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/06/d06.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/06/d05.html</loc>
     
     <lastmod>2016-07-04T01:41:07.000Z</lastmod>
     
@@ -1794,14 +1794,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/05/d28.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/05/d29.html</loc>
     
     <lastmod>2016-06-01T02:15:03.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/05/d29.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/05/d28.html</loc>
     
     <lastmod>2016-06-01T02:15:03.000Z</lastmod>
     
@@ -1822,13 +1822,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/05/d25.html</loc>
-    
-    <lastmod>2016-06-01T02:15:01.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2016/05/d24.html</loc>
     
     <lastmod>2016-06-01T02:15:01.000Z</lastmod>
@@ -1836,14 +1829,21 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/05/d23.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/05/d25.html</loc>
+    
+    <lastmod>2016-06-01T02:15:01.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2016/05/d22.html</loc>
     
     <lastmod>2016-06-01T02:15:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/05/d22.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/05/d23.html</loc>
     
     <lastmod>2016-06-01T02:15:00.000Z</lastmod>
     
@@ -1864,13 +1864,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/05/d19.html</loc>
-    
-    <lastmod>2016-06-01T02:14:58.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2016/05/d18.html</loc>
     
     <lastmod>2016-06-01T02:14:58.000Z</lastmod>
@@ -1878,9 +1871,9 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/05/d17.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/05/d19.html</loc>
     
-    <lastmod>2016-06-01T02:14:57.000Z</lastmod>
+    <lastmod>2016-06-01T02:14:58.000Z</lastmod>
     
   </url>
   
@@ -1899,14 +1892,21 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/05/d14.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/05/d17.html</loc>
+    
+    <lastmod>2016-06-01T02:14:57.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2016/05/d13.html</loc>
     
     <lastmod>2016-06-01T02:14:56.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/05/d13.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/05/d14.html</loc>
     
     <lastmod>2016-06-01T02:14:56.000Z</lastmod>
     
@@ -1927,13 +1927,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/05/d10.html</loc>
-    
-    <lastmod>2016-06-01T02:14:54.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2016/05/d09.html</loc>
     
     <lastmod>2016-06-01T02:14:54.000Z</lastmod>
@@ -1941,14 +1934,21 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/05/d07.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/05/d10.html</loc>
+    
+    <lastmod>2016-06-01T02:14:54.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2016/05/d08.html</loc>
     
     <lastmod>2016-06-01T02:14:53.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/05/d08.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/05/d07.html</loc>
     
     <lastmod>2016-06-01T02:14:53.000Z</lastmod>
     
@@ -1962,13 +1962,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/05/d04.html</loc>
-    
-    <lastmod>2016-06-01T02:14:52.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2016/05/d05.html</loc>
     
     <lastmod>2016-06-01T02:14:52.000Z</lastmod>
@@ -1976,14 +1969,21 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/05/d03.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/05/d04.html</loc>
+    
+    <lastmod>2016-06-01T02:14:52.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2016/05/d02.html</loc>
     
     <lastmod>2016-06-01T02:14:51.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/05/d02.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/05/d03.html</loc>
     
     <lastmod>2016-06-01T02:14:51.000Z</lastmod>
     
@@ -2158,14 +2158,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/04/d23.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/04/d22.html</loc>
     
     <lastmod>2016-05-03T13:18:02.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/04/d22.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/04/d23.html</loc>
     
     <lastmod>2016-05-03T13:18:02.000Z</lastmod>
     
@@ -2179,13 +2179,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/04/d20.html</loc>
-    
-    <lastmod>2016-05-03T13:18:01.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2016/04/d19.html</loc>
     
     <lastmod>2016-05-03T13:18:01.000Z</lastmod>
@@ -2193,9 +2186,9 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/04/d18.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/04/d20.html</loc>
     
-    <lastmod>2016-05-03T13:18:00.000Z</lastmod>
+    <lastmod>2016-05-03T13:18:01.000Z</lastmod>
     
   </url>
   
@@ -2207,14 +2200,21 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/04/d15.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/04/d18.html</loc>
+    
+    <lastmod>2016-05-03T13:18:00.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2016/04/d16.html</loc>
     
     <lastmod>2016-05-03T13:17:59.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/04/d16.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/04/d15.html</loc>
     
     <lastmod>2016-05-03T13:17:59.000Z</lastmod>
     
@@ -2228,13 +2228,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/04/d12.html</loc>
-    
-    <lastmod>2016-05-03T13:17:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2016/04/d13.html</loc>
     
     <lastmod>2016-05-03T13:17:57.000Z</lastmod>
@@ -2242,9 +2235,9 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/04/d11.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/04/d12.html</loc>
     
-    <lastmod>2016-05-03T13:17:56.000Z</lastmod>
+    <lastmod>2016-05-03T13:17:57.000Z</lastmod>
     
   </url>
   
@@ -2256,14 +2249,21 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/04/d08.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/04/d11.html</loc>
+    
+    <lastmod>2016-05-03T13:17:56.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2016/04/d09.html</loc>
     
     <lastmod>2016-05-03T13:17:55.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/04/d09.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/04/d08.html</loc>
     
     <lastmod>2016-05-03T13:17:55.000Z</lastmod>
     
@@ -2319,7 +2319,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d19.html</loc>
+    <loc>http://icehe.me/notes/digests.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
@@ -2327,6 +2327,27 @@
   
   <url>
     <loc>http://icehe.me/notes/think_clearly.html</loc>
+    
+    <lastmod>2016-04-23T12:31:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2016/03/d19.html</loc>
+    
+    <lastmod>2016-04-23T12:31:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2016/03/d17.html</loc>
+    
+    <lastmod>2016-04-23T12:31:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2016/03/d18.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
@@ -2354,21 +2375,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d20.html</loc>
-    
-    <lastmod>2016-04-23T12:31:42.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d18.html</loc>
-    
-    <lastmod>2016-04-23T12:31:42.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/notes/vim.html</loc>
+    
+    <lastmod>2016-04-23T12:31:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/notes/shell.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
@@ -2389,21 +2403,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d15.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/03/d16.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/notes/shell.html</loc>
-    
-    <lastmod>2016-04-23T12:31:42.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/notes/js_note.html</loc>
+    <loc>http://icehe.me/notes/startup.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
@@ -2411,13 +2418,6 @@
   
   <url>
     <loc>http://icehe.me/lifelogs/2016/03/time_stat.html</loc>
-    
-    <lastmod>2016-04-23T12:31:42.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d31.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
@@ -2432,6 +2432,13 @@
   
   <url>
     <loc>http://icehe.me/lifelogs/2016/03/index.html</loc>
+    
+    <lastmod>2016-04-23T12:31:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2016/03/d31.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
@@ -2459,14 +2466,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d26.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/03/d25.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d25.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/03/d26.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
@@ -2487,28 +2494,21 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/notes/startup.html</loc>
+    <loc>http://icehe.me/notes/js_note.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/notes/digests.html</loc>
+    <loc>http://icehe.me/notes/readable_code.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d17.html</loc>
-    
-    <lastmod>2016-04-23T12:31:42.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d16.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/03/d15.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
@@ -2529,7 +2529,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/notes/readable_code.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/03/d20.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
@@ -2557,14 +2557,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d09.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/03/d10.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d10.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/03/d09.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
@@ -2592,14 +2592,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d04.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/03/d05.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/03/d05.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/03/d04.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
@@ -2683,14 +2683,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/02/d22.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/02/d23.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/02/d23.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/02/d22.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
@@ -2732,14 +2732,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/02/d16.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/02/d15.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/02/d15.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/02/d16.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
@@ -2816,6 +2816,13 @@
   </url>
   
   <url>
+    <loc>http://icehe.me/lifelogs/2016/01/d06.html</loc>
+    
+    <lastmod>2016-04-23T12:31:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://icehe.me/lifelogs/2016/01/d05.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
@@ -2830,13 +2837,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/01/d06.html</loc>
-    
-    <lastmod>2016-04-23T12:31:42.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2016/01/d08.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
@@ -2844,14 +2844,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/01/d09.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/01/d10.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/01/d10.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/01/d09.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
@@ -2886,14 +2886,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/01/d15.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/01/d16.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/01/d16.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/01/d15.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
@@ -2942,14 +2942,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/01/d24.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/01/d23.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/01/d23.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/01/d24.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
@@ -3019,14 +3019,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/02/d01.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/02/d02.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2016/02/d02.html</loc>
+    <loc>http://icehe.me/lifelogs/2016/02/d01.html</loc>
     
     <lastmod>2016-04-23T12:31:42.000Z</lastmod>
     
@@ -3096,7 +3096,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/10/index.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/11/index.html</loc>
     
     <lastmod>2016-01-03T05:46:56.000Z</lastmod>
     
@@ -3138,7 +3138,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/11/index.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/10/index.html</loc>
     
     <lastmod>2016-01-03T05:46:56.000Z</lastmod>
     
@@ -3397,14 +3397,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/10/d28.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/10/d27.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/10/d27.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/10/d28.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
@@ -3426,6 +3426,27 @@
   
   <url>
     <loc>http://icehe.me/lifelogs/2015/10/d31.html</loc>
+    
+    <lastmod>2015-12-07T03:17:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2015/10/time_stat.html</loc>
+    
+    <lastmod>2015-12-07T03:17:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/google34949e442e488102.html</loc>
+    
+    <lastmod>2015-12-07T03:17:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2015/11/d01.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
@@ -3495,14 +3516,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/11/d11.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/11/d12.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/11/d12.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/11/d11.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
@@ -3537,14 +3558,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/11/d17.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/11/d18.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/11/d18.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/11/d17.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
@@ -3565,14 +3586,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/11/d21.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/11/d22.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/11/d22.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/11/d21.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
@@ -3600,6 +3621,13 @@
   </url>
   
   <url>
+    <loc>http://icehe.me/lifelogs/2015/11/d26.html</loc>
+    
+    <lastmod>2015-12-07T03:17:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://icehe.me/lifelogs/2015/11/d27.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
@@ -3614,13 +3642,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/11/d26.html</loc>
-    
-    <lastmod>2015-12-07T03:17:51.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2015/11/d29.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
@@ -3629,6 +3650,27 @@
   
   <url>
     <loc>http://icehe.me/lifelogs/2015/11/d30.html</loc>
+    
+    <lastmod>2015-12-07T03:17:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/old_version_posts/Why_and_how_to_build_my_blog.html</loc>
+    
+    <lastmod>2015-12-07T03:17:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/old_version_posts/time_mgt_log_format.html</loc>
+    
+    <lastmod>2015-12-07T03:17:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2015/07/d01.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
@@ -3713,20 +3755,6 @@
   
   <url>
     <loc>http://icehe.me/lifelogs/2015/07/d13.html</loc>
-    
-    <lastmod>2015-12-07T03:17:51.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/lifelogs/2015/11/d01.html</loc>
-    
-    <lastmod>2015-12-07T03:17:51.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/lifelogs/2015/10/time_stat.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
@@ -3845,34 +3873,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/07/d30.html</loc>
-    
-    <lastmod>2015-12-07T03:17:51.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/lifelogs/2015/07/d31.html</loc>
-    
-    <lastmod>2015-12-07T03:17:51.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/old_version_posts/time_mgt_log_format.html</loc>
-    
-    <lastmod>2015-12-07T03:17:51.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/lifelogs/2015/07/time_stat.html</loc>
-    
-    <lastmod>2015-12-07T03:17:51.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2015/08/d01.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
@@ -3887,7 +3887,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/08/d05.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/08/d03.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
@@ -3901,7 +3901,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/08/d03.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/08/d05.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
@@ -3915,7 +3915,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/08/d09.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/08/d07.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
@@ -3929,7 +3929,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/08/d07.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/08/d09.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
@@ -3943,14 +3943,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/08/d11.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/08/d12.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/08/d12.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/08/d11.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
@@ -3978,13 +3978,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/08/d17.html</loc>
-    
-    <lastmod>2015-12-07T03:17:51.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2015/08/d16.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
@@ -4000,6 +3993,13 @@
   
   <url>
     <loc>http://icehe.me/lifelogs/2015/08/d19.html</loc>
+    
+    <lastmod>2015-12-07T03:17:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2015/08/d17.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
@@ -4090,7 +4090,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/google34949e442e488102.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/07/d30.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
@@ -4118,14 +4118,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/09/d04.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/09/d03.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/09/d03.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/09/d04.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
@@ -4202,6 +4202,13 @@
   </url>
   
   <url>
+    <loc>http://icehe.me/lifelogs/2015/07/d31.html</loc>
+    
+    <lastmod>2015-12-07T03:17:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://icehe.me/lifelogs/2015/09/d16.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
@@ -4209,7 +4216,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/09/d15.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/09/d18.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
@@ -4217,13 +4224,6 @@
   
   <url>
     <loc>http://icehe.me/lifelogs/2015/09/d17.html</loc>
-    
-    <lastmod>2015-12-07T03:17:51.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/lifelogs/2015/09/d18.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
@@ -4272,13 +4272,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/09/d26.html</loc>
-    
-    <lastmod>2015-12-07T03:17:51.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2015/09/d25.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
@@ -4286,7 +4279,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/09/d28.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/09/d26.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
@@ -4294,6 +4287,13 @@
   
   <url>
     <loc>http://icehe.me/lifelogs/2015/09/d27.html</loc>
+    
+    <lastmod>2015-12-07T03:17:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2015/09/d28.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
@@ -4314,7 +4314,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/old_version_posts/Why_and_how_to_build_my_blog.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/09/d15.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
@@ -4426,13 +4426,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/10/d15.html</loc>
-    
-    <lastmod>2015-12-07T03:17:51.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2015/10/d16.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
@@ -4440,7 +4433,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/07/d01.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/10/d15.html</loc>
+    
+    <lastmod>2015-12-07T03:17:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2015/07/time_stat.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
@@ -4461,14 +4461,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/10/d20.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/10/d21.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/10/d21.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/10/d20.html</loc>
     
     <lastmod>2015-12-07T03:17:51.000Z</lastmod>
     
@@ -4517,13 +4517,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/06/d28.html</loc>
-    
-    <lastmod>2015-07-05T11:01:49.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2015/06/d27.html</loc>
     
     <lastmod>2015-07-05T11:01:49.000Z</lastmod>
@@ -4531,7 +4524,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/06/d25.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/06/d28.html</loc>
     
     <lastmod>2015-07-05T11:01:49.000Z</lastmod>
     
@@ -4545,7 +4538,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/06/d23.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/06/d25.html</loc>
     
     <lastmod>2015-07-05T11:01:49.000Z</lastmod>
     
@@ -4553,6 +4546,13 @@
   
   <url>
     <loc>http://icehe.me/lifelogs/2015/06/d24.html</loc>
+    
+    <lastmod>2015-07-05T11:01:49.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2015/06/d23.html</loc>
     
     <lastmod>2015-07-05T11:01:49.000Z</lastmod>
     
@@ -4587,14 +4587,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/06/d18.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/06/d17.html</loc>
     
     <lastmod>2015-07-05T11:01:49.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/06/d17.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/06/d18.html</loc>
     
     <lastmod>2015-07-05T11:01:49.000Z</lastmod>
     
@@ -4629,14 +4629,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/06/d11.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/06/d12.html</loc>
     
     <lastmod>2015-07-05T11:01:49.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/06/d12.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/06/d11.html</loc>
     
     <lastmod>2015-07-05T11:01:49.000Z</lastmod>
     
@@ -4685,14 +4685,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/06/d04.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/06/d29.html</loc>
     
     <lastmod>2015-07-05T11:01:49.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/06/d29.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/06/d04.html</loc>
     
     <lastmod>2015-07-05T11:01:49.000Z</lastmod>
     
@@ -5518,14 +5518,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2014/11/d16.html</loc>
+    <loc>http://icehe.me/lifelogs/2014/11/d13.html</loc>
     
     <lastmod>2015-02-26T07:02:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2014/11/d13.html</loc>
+    <loc>http://icehe.me/lifelogs/2014/11/d16.html</loc>
     
     <lastmod>2015-02-26T07:02:36.000Z</lastmod>
     
@@ -5560,7 +5560,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/01/d31.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/01/d30.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
@@ -5574,13 +5574,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/01/d28.html</loc>
-    
-    <lastmod>2015-02-26T06:44:17.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2015/01/d27.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
@@ -5588,7 +5581,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/01/d25.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/01/d28.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
@@ -5602,7 +5595,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/01/d23.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/01/d25.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
@@ -5616,7 +5609,28 @@
   </url>
   
   <url>
+    <loc>http://icehe.me/lifelogs/2015/01/d18.html</loc>
+    
+    <lastmod>2015-02-26T06:44:17.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2015/01/d23.html</loc>
+    
+    <lastmod>2015-02-26T06:44:17.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://icehe.me/lifelogs/2015/01/d22.html</loc>
+    
+    <lastmod>2015-02-26T06:44:17.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2015/01/d19.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
@@ -5637,13 +5651,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/01/d19.html</loc>
-    
-    <lastmod>2015-02-26T06:44:17.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2015/01/d17.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
@@ -5651,7 +5658,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/01/d18.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/01/d12.html</loc>
+    
+    <lastmod>2015-02-26T06:44:17.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2015/01/d16.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
@@ -5659,13 +5673,6 @@
   
   <url>
     <loc>http://icehe.me/lifelogs/2015/01/d15.html</loc>
-    
-    <lastmod>2015-02-26T06:44:17.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/lifelogs/2015/02/d11.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
@@ -5680,13 +5687,6 @@
   
   <url>
     <loc>http://icehe.me/lifelogs/2015/01/d13.html</loc>
-    
-    <lastmod>2015-02-26T06:44:17.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://icehe.me/lifelogs/2015/01/d12.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
@@ -5728,13 +5728,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/01/d04.html</loc>
-    
-    <lastmod>2015-02-26T06:44:17.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2015/01/d06.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
@@ -5749,6 +5742,13 @@
   </url>
   
   <url>
+    <loc>http://icehe.me/lifelogs/2015/01/d04.html</loc>
+    
+    <lastmod>2015-02-26T06:44:17.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://icehe.me/lifelogs/2015/01/d03.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
@@ -5756,14 +5756,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/01/d01.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/01/d02.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/01/d02.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/01/d01.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
@@ -5791,14 +5791,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2014/12/d28.html</loc>
+    <loc>http://icehe.me/lifelogs/2014/12/d27.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2014/12/d27.html</loc>
+    <loc>http://icehe.me/lifelogs/2014/12/d28.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
@@ -5819,14 +5819,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/02/d09.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/02/d11.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2014/12/d22.html</loc>
+    <loc>http://icehe.me/lifelogs/2014/12/d23.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
@@ -5840,14 +5840,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2014/12/d20.html</loc>
+    <loc>http://icehe.me/lifelogs/2014/12/d22.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2014/12/d23.html</loc>
+    <loc>http://icehe.me/lifelogs/2014/12/d20.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
@@ -5889,14 +5889,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2014/12/d14.html</loc>
+    <loc>http://icehe.me/lifelogs/2014/12/d13.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2014/12/d13.html</loc>
+    <loc>http://icehe.me/lifelogs/2014/12/d14.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
@@ -5924,7 +5924,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2014/12/d09.html</loc>
+    <loc>http://icehe.me/lifelogs/2014/12/d07.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
@@ -5938,7 +5938,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2014/12/d07.html</loc>
+    <loc>http://icehe.me/lifelogs/2014/12/d09.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
@@ -5959,7 +5959,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/01/d16.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/02/d09.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
@@ -6099,14 +6099,14 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/02/d05.html</loc>
+    <loc>http://icehe.me/lifelogs/2014/11/d14.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2014/11/d14.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/02/d05.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
@@ -6127,13 +6127,6 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/02/d01.html</loc>
-    
-    <lastmod>2015-02-26T06:44:17.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://icehe.me/lifelogs/2015/02/d02.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
@@ -6142,6 +6135,13 @@
   
   <url>
     <loc>http://icehe.me/lifelogs/2014/11/d09.html</loc>
+    
+    <lastmod>2015-02-26T06:44:17.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://icehe.me/lifelogs/2015/02/d01.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
@@ -6162,7 +6162,7 @@
   </url>
   
   <url>
-    <loc>http://icehe.me/lifelogs/2015/01/d30.html</loc>
+    <loc>http://icehe.me/lifelogs/2015/01/d31.html</loc>
     
     <lastmod>2015-02-26T06:44:17.000Z</lastmod>
     
