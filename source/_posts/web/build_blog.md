@@ -1,9 +1,9 @@
-title: Bulid Blog 搭建个人博客
+title: 搭建个人博客
 date: 2015-11-14
 updated: 2017-04-09
 categories: [Web]
 tags: [Web]
-description: Why 初衷、How 过程，Hexo 建站，Theme 主题，Domain Name 域名，Bed Room 图床，Google CSE 站内搜索，404 页面，Sitemap & RSS 站点地图与订阅，Site Analysis，Page View 统计…
+description: Bulid Blog&#58; Why 初衷、How 过程，Hexo 建站，Theme 主题，Domain Name 域名，Bed Room 图床，Google CSE 站内搜索，404 页面，Sitemap & RSS 站点地图与订阅，Site Analysis，Page View 统计…
 ---
 - 上一版《 [Why and How to bulid my blog? 搭建我的个人博客](/old_version_posts/Why_and_how_to_build_my_blog.html) 》
 - 失效链接已修复，如需帮助，望读者及时反馈。
@@ -21,7 +21,7 @@ description: Why 初衷、How 过程，Hexo 建站，Theme 主题，Domain Name 
 - 算了吧，保留本文，不过不再更新了。 
 - 记于 2017-01-02
 
-# Why - 初衷
+# 初衷
 
 与其到各大博客平台去写博客，
 不如自己搭建个独一无二的。
@@ -30,7 +30,7 @@ description: Why 初衷、How 过程，Hexo 建站，Theme 主题，Domain Name 
 可以用来记录 [自己的人生](/lifelogs)，
 放一些值得分享的技术、读书笔记和感想。
 
-# How - 过程
+# 过程
 
 教程的各步骤描述得越详细，时效性往往越差。
 网上的类似的教程多如牛毛，不差这篇。
@@ -44,7 +44,7 @@ description: Why 初衷、How 过程，Hexo 建站，Theme 主题，Domain Name 
 还有，折腾才能学到真东西，
 下文做法、用法从略处，还请自行摸索。
 
-## Intro 引子
+## 引子
 
 非软件、计算机专业的人，自行搭建个人博客其实不难。
 前人早已造好了各种「轮子」，只要根据网上的教程摸索一下，
@@ -73,7 +73,7 @@ description: Why 初衷、How 过程，Hexo 建站，Theme 主题，Domain Name 
 
 （有空会找机会再折腾一个动态博客）
 
-## Hexo Course 建站教程
+## Hexo 建站教程
 
 广泛检索后，参阅了如下教程建站：
 - [使用 GitHub 和 Hexo 搭建免费静态 Blog](https://wsgzao.github.io/post/hexo-guide/)
@@ -94,7 +94,7 @@ description: Why 初衷、How 过程，Hexo 建站，Theme 主题，Domain Name 
 
 前人之述备矣，在此不再赘述基础部分。
 
-## Custom Points 定制点
+## 定制点
 
 建站很容易，如果你的需求只是写写文字博客而已，可以到此结束了。
 但如果要完善博客到合乎自己的心意，那将是万里长征的第一步。
@@ -103,7 +103,7 @@ description: Why 初衷、How 过程，Hexo 建站，Theme 主题，Domain Name 
 最好懂些网页技术，就可以修改别人工具模块的源代码，
 让博客支持更多需要的模块、插件、外观效果等。
 
-### __Theme 主题__
+### __主题__
 
 Theme不单只提供不同的博客外观、视觉效果，
 __通常还会提供许多功能模块的配套支持！
@@ -121,7 +121,7 @@ __它包含了以下绝大多数的定制点，不需要自己折腾太多，也
 Hexo官网的文档和API中有theme写法的说明，
 可以自己重新写一个theme。
 
-### __Comment 评论__
+### __评论__
 
 利用第三方社会化评论系统，可以便捷地为博客添加评论模块。
 这些评论系统可以让你和你的访客在你的博客下添加评论，
@@ -135,7 +135,7 @@ Hexo官网的文档和API中有theme写法的说明，
 
 具体评论系统搭建比较麻烦，有能用的，就不推荐自己折腾。
 
-### __Share 分享__
+### __分享__
 
 添加分享模块可以方便自己或他人在第三方的社交平台分享你的博客内容。
 
@@ -148,7 +148,7 @@ Hexo官网的文档和API中有theme写法的说明，
 (2) [jiathis](http://www.jiathis.com/)
 (3) 自己编写（不会太难）
 
-### __About 关于页面__
+### __关于页面__
 
 一般用于介绍博主或博客的页面，
 例如[我的「Me 我」页面](/about)。
@@ -161,7 +161,7 @@ Hexo官网的文档和API中有theme写法的说明，
 推荐：
 [腾讯公益404](http://www.qq.com/404/)
 
-### __Domain Name 域名__
+### __域名__
 
 有只属于自己的个性化域名，简直自豪感满满，
 因为终于有自己的个人网站了 T_T
@@ -197,14 +197,14 @@ Hexo官网的文档和API中有theme写法的说明，
 
 __TODO: 待日后补全细节，暂参考 [RSS 和 sitemap](http://www.jianshu.com/p/bb35e703f9bf)__
 
-### __Widget 闲杂模块__
+### __闲杂模块__
 
 除了博客的基本功能模块，还有一半需要额外添加的模块。
 Hexo自带的功能：archive 归档、category 分类、tag 标签。
 
 其它的模块，如：[微博秀](http://jssdk.sinaapp.com/widget/weiboshow.php)
 
-### __Bed Room 图床__
+### __图床__
 
 顾名思义，存放博客图片的地方。
 
@@ -228,7 +228,7 @@ Hexo自带的功能：archive 归档、category 分类、tag 标签。
 (1) 老牌：[又拍云](https://www.upyun.com/index.html)（服务好、价格高）
 (2) 我的选择：[七牛云存储](http://www.qiniu.com/)（国内、免费、方便）
 
-### __Internal Site Search 站内搜索__
+### __站内搜索__
 
 让访客可以自行搜索博客中感兴趣的内容。
 
@@ -282,7 +282,7 @@ Google CSE 根据官方的流程一步步来即可；
 最好两个同时使用，还有它们的站长工具，体会其中的差异，
 而且它们会派爬虫去抓取你的博客，其结果将会收录到搜索引擎~
 
-### __Speed Optimize 访问速度优化__
+### __访问速度优化__
 
 手段繁多，
 除了上文提到的将图片放到 CDN 服务商那里的方法外，
@@ -310,18 +310,18 @@ __可参考 [Hexo 系列教程之五：Hexo 博客同时托管在 Github 和 Cod
 围绕上述各点，折腾了不少时间，
 当然也学到许多新的知识。
 
-# Others 其它
+# 其它
 
-## Scource Code 源代码
+## 源代码
 
 - [博客实体的代码](https://github.com/IceHe/icehe.github.io)
 - [生成博客用的代码](https://github.com/IceHe/icehe.me)
 - [博客theme的代码](https://github.com/IceHe/Jacman)
 
-## Express Gratitude 鸣谢
-- Hexo Author - [Tommy Chen](http://zespia.tw/)
-- Theme Author - [WuChong](http://wuchong.me/)
+## 鸣谢
+- Hexo 作者：[Tommy Chen](http://zespia.tw/)
+- 主题作者：[WuChong](http://wuchong.me/)
 
-## About Me 关于
-- This's my [__brief intro__](/about). 这是我的[ __简介__ ](/about)。
-- __Thx for your reading. 感谢您的阅读。__
+## 关于我
+- 这是我的[ __简介__ ](/about)。
+- __感谢您的阅读。__
