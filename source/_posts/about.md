@@ -6,8 +6,6 @@ tags: [whoami]
 description: IceHe 的经历、技能、教育 & 其它：微博移动 / 服务端开发 / PHP，华南理工 / 软件工程 / 本科 …
 ---
 
-- [CV - English Ver.](/about_en) <sup>not complete</sup>
-
 # __简介__
 
 - __我是__
@@ -204,6 +202,8 @@ __优职英才（北京）教育科技公司 - 市场部 - 实习生__&emsp;_201
 - 于广州各高校执行 15+ 场推广公司品牌的讲座、交流会、公开课
 
 ---
+
+- __TODO__ : [CV English Ver.](/about_en)
 
 <div class="center">:P</div><div class="center"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_03a.jpg" class="pic_styl"/></div>
 <style type="text/css">
