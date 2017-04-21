@@ -1612,7 +1612,7 @@ pre .javascript .function {
   border: 2px solid #333;
 }
 .site-author-name {
-  margin: 5px 0 0;
+  margin: 5px 0 20px;
   text-align: center;
   color: #f5f5f5;
   font-weight: normal;
@@ -1652,25 +1652,25 @@ pre .javascript .function {
   color: inherit;
 }
 .feed-link {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .feed-link a {
   display: inline-block;
   padding: 0 15px;
-  color: #fc6423;
-  border: 1px solid #fc6423;
+  color: #fff;
+  border: 1px solid #fff;
   border-radius: 4px;
+  font-size: 12px;
 }
 .feed-link a i {
-  color: #fc6423;
-  font-size: 14px;
+  color: #fff;
 }
 .feed-link a:hover {
-  color: #fff;
-  background: #fc6423;
+  color: #000;
+  background: #fff;
 }
 .feed-link a:hover i {
-  color: #fff;
+  color: #000;
 }
 .links-of-author {
   margin-top: 20px;
@@ -1691,7 +1691,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #671af2;
+  background: #ff6b9c;
 }
 .links-of-blogroll {
   font-size: 13px;

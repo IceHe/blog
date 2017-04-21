@@ -257,16 +257,51 @@
       
 
       
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
     </ul>
   
 
   
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocapitalize="off" autocomplete="off" autocorrect="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
 </nav>
 
 <style type="text/css">
-    .center { text-align: center; }
     .bold   { font-weight: bold; }
+    .center { text-align: center; }
     .hidden { display: none; }
+    .white { color: white; }
 </style>
 
  </div>
@@ -416,9 +451,12 @@ AutoProxy（用于Firefox）、Proxy SwitchySharp（用于Chrome）</p><p style=
           <img class="site-author-image" itemprop="image"
                src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_pretty_00.png"
                alt="Ice He" />
+
+          <!--
           <p class="site-author-name" itemprop="name">Ice He</p>
-           
-              <p class="site-description motion-element" itemprop="description">Less.</p>
+          -->
+          
+              <p class="site-description motion-element white" itemprop="description">Less.</p>
           
         </div>
         </a>
@@ -462,18 +500,16 @@ AutoProxy（用于Firefox）、Proxy SwitchySharp（用于Chrome）</p><p style=
               
             </div>
           
-
         </nav>
+        -->
 
         
           <div class="feed-link motion-element">
             <a href="/atom.xml" rel="alternate">
-              <i class="fa fa-rss"></i>
-              RSS
+              <i class="fa fa-rss"></i> RSS 订阅
             </a>
           </div>
         
-        -->
 
         <div class="links-of-author motion-element">
           
@@ -674,6 +710,132 @@ AutoProxy（用于Firefox）、Proxy SwitchySharp（用于Chrome）</p><p style=
 
   
 
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+      search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.popup').toggle();
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var matchcounts = 0;
+            var str='<ul class=\"search-result-list\">';
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            $resultContent.innerHTML = "";
+            if (this.value.trim().length > 1) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var content_index = [];
+                var data_title = data.title.trim().toLowerCase();
+                var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                var data_url = decodeURIComponent(data.url);
+                var index_title = -1;
+                var index_content = -1;
+                var first_occur = -1;
+                // only match artiles with not empty titles and contents
+                if(data_title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    index_title = data_title.indexOf(keyword);
+                    index_content = data_content.indexOf(keyword);
+                    if( index_title >= 0 || index_content >= 0 ){
+                      isMatch = true;
+                      if (i == 0) {
+                        first_occur = index_content;
+                      }
+                    }
+
+                  });
+                }
+                // show search results
+                if (isMatch) {
+                  matchcounts += 1;
+                  str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                  var content = data.content.trim().replace(/<[^>]+>/g,"");
+                  if (first_occur >= 0) {
+                    // cut out 100 characters
+                    var start = first_occur - 20;
+                    var end = first_occur + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if(start == 0){
+                      end = 50;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    var match_content = content.substring(start, end);
+                    // highlight all keywords
+                    keywords.forEach(function(keyword){
+                      var regS = new RegExp(keyword, "gi");
+                      match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                    });
+
+                    str += "<p class=\"search-result\">" + match_content +"...</p>"
+                  }
+                  str += "</li>";
+                }
+              })};
+            str += "</ul>";
+            if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+            if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+            $resultContent.innerHTML = str;
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
 
 
 
@@ -793,7 +955,6 @@ AutoProxy（用于Firefox）、Proxy SwitchySharp（用于Chrome）</p><p style=
         var is_post = (popular_list.length == 1);
         var count = is_post ? 20 : 10;
         if (!is_post) {
-            // return; // Break for Simplicity!
             popular_list = $('#popular-list');
             if (popular_list.length == 0) {
                 return;
@@ -837,9 +998,11 @@ AutoProxy（用于Firefox）、Proxy SwitchySharp（用于Chrome）</p><p style=
                         + 'border-bottom-width: 1px; '
                         + 'border-bottom-style: solid; '
                         + 'border-bottom-color: #ccc;"> '
+                        + '<a class="nav-link" href="/bookmarks">'
+                        + '<span class="nav-textwhite">'
                         + '<i class="fa fa-fire"></i> &nbsp;'
-                        + '<span class="nav-text"> PV </span> '
-                        + '</li>'
+                        + ' 热榜 '
+                        + '</span></a></li>'
                     );
                 for (var i = 0; i < results.length; ++i) {
                     var counter = results[i];
@@ -868,10 +1031,13 @@ AutoProxy（用于Firefox）、Proxy SwitchySharp（用于Chrome）</p><p style=
                 }
                 if (!is_post) {
                     popular_list.append(
-                        '<li class="nav-item nav-level-1"> '
-                        //+ '<i class="fa fa-eye"></i> &nbsp;'
-                        + '+. &nbsp; '
-                        + '<a class="nav-link" href="/bookmarks"><span class="nav-text bold">更多<!--More--> </span></a> </li>'
+                        '<li class="nav-item nav-level-1 bold"> '
+                        + '<a class="nav-link" href="/bookmarks">'
+                        + '<span class="nav-text">'
+                        + '<i class="fa fa-bookmark-o"></i> &nbsp;'
+                        + ' 导航'
+                        + '</span></a>'
+                        + '</li>'
                     );
                 }
           })
@@ -887,12 +1053,6 @@ AutoProxy（用于Firefox）、Proxy SwitchySharp（用于Chrome）</p><p style=
       } else {
         addCount(Counter);
       }
-      // 等待 Next 开源项目的人修复
-      //if ($('.leancloud_visitors').length == 1) {
-      //  addCount(Counter);
-      //} else if ($('.post-title-link').length > 1) {
-      //  showTime(Counter);
-      //}
       ranking(Counter);
     });
   </script>
