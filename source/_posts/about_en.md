@@ -3,7 +3,7 @@ date: 2015-01-22
 updated: 2017-04-20
 categories: [whoami]
 tags: [whoami]
-description: Exp , Edu & Oth&#58; Weibo / Moblie API / PHP Server Side Developer , SCUT / Software Engineering / Bachelor…
+description: IceHe's Exp , Skills , Edu & Oth&#58; Weibo / Moblie API / PHP Server Side Developer , SCUT / Software Engineering / Bachelor…
 ---
 
 - __NOT COMPLETE__ : I will finish translation if necessary.

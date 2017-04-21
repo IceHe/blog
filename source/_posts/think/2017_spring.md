@@ -4,7 +4,7 @@ updated: 2017-04-19
 no_upd: true
 categories: [think]
 tags: [think]
-description: 三月至六月，夏小记（持续更新中）。
+description: 三月至六月，夏小记：持续更新中…
 ---
 
 ## 碎碎念

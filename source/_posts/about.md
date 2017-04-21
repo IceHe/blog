@@ -3,7 +3,7 @@ date: 2015-01-20
 updated: 2017-04-20
 categories: [whoami]
 tags: [whoami]
-description: IceHe's CV&#58; 经历、技能、教育，微博移动 / 服务端开发 / PHP，华南理工 / 软件工程 / 本科 …
+description: IceHe 的经历、技能、教育 & 其它：微博移动 / 服务端开发 / PHP，华南理工 / 软件工程 / 本科 …
 ---
 
 - [CV - English Ver.](/about_en) <sup>not complete</sup>

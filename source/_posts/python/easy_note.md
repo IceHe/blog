@@ -2,8 +2,8 @@ title: Python3 快速入门
 date: 2017-04-17
 updated: 2017-04-17
 no_upd: true
-categories: [python]
-tags: [python]
+categories: [Python]
+tags: [Python]
 description: 廖雪峰《Python 教程》笔记的再整理，主要是代码样例与运行结果。
 ---
 
