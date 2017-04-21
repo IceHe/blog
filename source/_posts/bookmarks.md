@@ -82,7 +82,7 @@ description: Navigation&#58; PV Top N 热榜、文章分类列表。
 - [2017 春](/think/2017_spring)
 - [2016 冬](/think/2016_winter)
 - [2016 秋](/think/2016_fall)
-- [2016 夏](/think/2016_summer)
+- [2016 春夏](/think/2016_summer)
 - [再见 2015](/think/bye2015)
 - [生活指北](/think/life_manual)
 
