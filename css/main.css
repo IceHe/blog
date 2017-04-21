@@ -1652,7 +1652,7 @@ pre .javascript .function {
   color: inherit;
 }
 .feed-link {
-  margin-top: 30px;
+  margin-top: 35px;
 }
 .feed-link a {
   display: inline-block;
@@ -1691,7 +1691,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff6b9c;
+  background: #abffff;
 }
 .links-of-blogroll {
   font-size: 13px;
