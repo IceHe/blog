@@ -113,3 +113,10 @@ deploy:
 
 google_analytics:
     github: vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI
+
+# Search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
