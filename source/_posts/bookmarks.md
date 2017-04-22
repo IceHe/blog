@@ -80,7 +80,7 @@ description: Navigation&#58; PV Top N 热榜、文章分类列表。
 
 ## [Python](/categories/python)
 
-- [Python3 快速入门](/python/easy_note)
+- [Python3 快速入门](/python/quick_start)
 
 ## [思考](/categories/think)
 
