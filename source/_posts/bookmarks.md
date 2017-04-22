@@ -8,6 +8,11 @@ description: Navigation&#58; PV Top N 热榜、文章分类列表。
 
 ## [RSS 订阅 <i class="fa fa-rss"></i>](/atom.xml) 
 
+- 默认索引：
+    - [__归档__（ 时间序 ）](/archives)
+    - [__分类__（ Hexo 自动生成 ）](/categories)
+- 下文为自定义的索引。
+
 ## 阅读量前 20
 
 <div class="post-toc" style="max-height: 1220px; width: calc(100% + 0px);" id="popular-post-div2"> <div class="post-toc-content"> <ol class="nav" id="popular-list2"></ol> </div> </div>
@@ -106,11 +111,6 @@ description: Navigation&#58; PV Top N 热榜、文章分类列表。
 ---
 
 ## 其它
-
-### 原默认索引
-
-- [归档](/archives)（ 时间序 ）
-- [分类](/categories)（ Hexo 自动生成 ）
 
 ### 写什么
 
