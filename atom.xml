@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://icehe.me/"/>
-  <updated>2017-04-16T16:00:00.000Z</updated>
+  <updated>2017-04-22T16:00:00.000Z</updated>
   <id>http://icehe.me/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://icehe.me/python/easy_note/"/>
     <id>http://icehe.me/python/easy_note/</id>
     <published>2017-04-16T16:00:00.000Z</published>
-    <updated>2017-04-16T16:00:00.000Z</updated>
+    <updated>2017-04-22T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li>参考：<ul>
@@ -37,7 +37,7 @@
 </ul>
 </li>
 <li>工具：<ul>
-<li>笔记内容由 <a href="http://jupyter.org/" target="_blank" rel="external">Jupyter</a>（交互式的编程笔记）写就，导出为 Markdown。  </li>
+<li>笔记内容由 <a href="http://jupyter.org/" target="_blank" rel="external">Jupyter</a>（交互式的编程笔记）写就，导出为 Markdown。</li>
 </ul>
 </li>
 </ul>
@@ -73,7 +73,7 @@
 <pre><code>line0
 line1
 line2
-</code></pre><h1 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 字符编码</span></div><div class="line">ord(<span class="string">'A'</span>)</div></pre></td></tr></table></figure>
+</code></pre><h1 id="字符串-str"><a href="#字符串-str" class="headerlink" title="字符串 str"></a>字符串 str</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 字符编码</span></div><div class="line">ord(<span class="string">'A'</span>)</div></pre></td></tr></table></figure>
 <pre><code>65
 </code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 中文字符编码</span></div><div class="line">ord(<span class="string">'中'</span>)</div></pre></td></tr></table></figure>
 <pre><code>20013
@@ -457,7 +457,7 @@ C
 <pre><code>1 =&gt; 1
 2 =&gt; 4
 3 =&gt; 9
-</code></pre><h1 id="列表生成式"><a href="#列表生成式" class="headerlink" title="列表生成式"></a>列表生成式</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 列表生成式</span></div><div class="line">r = range(<span class="number">1</span>, <span class="number">11</span>)</div><div class="line">r</div></pre></td></tr></table></figure>
+</code></pre><h1 id="列表生成式-range"><a href="#列表生成式-range" class="headerlink" title="列表生成式 range"></a>列表生成式 range</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 列表生成式</span></div><div class="line">r = range(<span class="number">1</span>, <span class="number">11</span>)</div><div class="line">r</div></pre></td></tr></table></figure>
 <pre><code>range(1, 11)
 </code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">list(r) <span class="comment"># 然后用 `list()` 转换为真正的列表</span></div></pre></td></tr></table></figure>
 <pre><code>[0, 1, 2, 3, 4]
@@ -646,21 +646,261 @@ TypeError: &apos;str&apos; object is not an iterator
 <pre><code>13579
 </code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 以上代码可以整理起来</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">s2i</span><span class="params">(s)</span>:</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">fn</span><span class="params">(x, y)</span>:</span></div><div class="line">        <span class="keyword">return</span> x * <span class="number">10</span> + y</div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">char2num</span><span class="params">(ch)</span>:</span></div><div class="line">        <span class="keyword">return</span> &#123;<span class="string">'0'</span>: <span class="number">0</span>, <span class="string">'1'</span>: <span class="number">1</span>, <span class="string">'2'</span>: <span class="number">2</span>, <span class="string">'3'</span>: <span class="number">3</span>, <span class="string">'4'</span>: <span class="number">4</span>, <span class="string">'5'</span>: <span class="number">5</span>, <span class="string">'6'</span>: <span class="number">6</span>, <span class="string">'7'</span>: <span class="number">7</span>, <span class="string">'8'</span>: <span class="number">8</span>, <span class="string">'9'</span>: <span class="number">9</span>&#125;[ch]</div><div class="line">    <span class="keyword">return</span> reduce(fn, map(char2num, s))</div><div class="line"></div><div class="line">s2i(<span class="string">'24680'</span>)</div></pre></td></tr></table></figure>
 <pre><code>24680
-</code></pre><h3 id="组合应用"><a href="#组合应用" class="headerlink" title="组合应用"></a>组合应用</h3><ul>
-<li>利用 <code>map()</code> 函数，把用户输入的不规范的英文名字，变为首字母大写，其他小写的规范名字。<ul>
-<li>输入：[‘adam’, ‘LISA’, ‘barT’]</li>
-<li>输出：[‘Adam’, ‘Lisa’, ‘Bart’]</li>
+</code></pre><h3 id="组合应用"><a href="#组合应用" class="headerlink" title="组合应用"></a>组合应用</h3><p>利用 <code>map()</code> 函数，把用户输入的不规范的英文名字，变为首字母大写，其他小写的规范名字。</p>
+<p>输入：[‘adam’, ‘LISA’, ‘barT’]</p>
+<p>输出：[‘Adam’, ‘Lisa’, ‘Bart’]</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">formatStr</span><span class="params">(s)</span>:</span></div><div class="line">    <span class="keyword">return</span> s[<span class="number">0</span>].upper() +  s[<span class="number">1</span>:].lower()</div><div class="line"></div><div class="line">list(map(formatStr, [<span class="string">'adam'</span>, <span class="string">'LISA'</span>, <span class="string">'barT'</span>]))</div></pre></td></tr></table></figure>
+<pre><code>[&apos;Adam&apos;, &apos;Lisa&apos;, &apos;Bart&apos;]
+</code></pre><p>编写一个 <code>prod()</code> 函数，可以接受一个 list 并利用 reduce() 求积。</p>
+<p>（Python 提供的 <code>sum()</code> 函数可以接受一个 list 并求和）</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> functools <span class="keyword">import</span> reduce</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">prod</span><span class="params">(nums)</span>:</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">product</span><span class="params">(x, y)</span>:</span></div><div class="line">        <span class="keyword">return</span> x * y</div><div class="line">    <span class="keyword">return</span> reduce(product, nums)</div><div class="line"></div><div class="line">prod(list(range(<span class="number">1</span>, <span class="number">5</span>)))</div></pre></td></tr></table></figure>
+<pre><code>24
+</code></pre><p>编写一个 <code>str2float()</code> 函数，把字符串 ‘123.456’ 转换成浮点数 123.456。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> functools <span class="keyword">import</span> reduce</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">str2float</span><span class="params">(s)</span>:</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">char2num</span><span class="params">(ch)</span>:</span></div><div class="line">        <span class="keyword">return</span> &#123;<span class="string">'0'</span>: <span class="number">0</span>, <span class="string">'1'</span>: <span class="number">1</span>, <span class="string">'2'</span>: <span class="number">2</span>, <span class="string">'3'</span>: <span class="number">3</span>, <span class="string">'4'</span>: <span class="number">4</span>, <span class="string">'5'</span>: <span class="number">5</span>, <span class="string">'6'</span>: <span class="number">6</span>, <span class="string">'7'</span>: <span class="number">7</span>, <span class="string">'8'</span>: <span class="number">8</span>, <span class="string">'9'</span>: <span class="number">9</span>&#125;[ch]</div><div class="line">    </div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">toDecimal</span><span class="params">(s)</span>:</span></div><div class="line">        <span class="function"><span class="keyword">def</span> <span class="title">x10</span><span class="params">(x, y)</span>:</span> </div><div class="line">            <span class="keyword">return</span> x * <span class="number">10</span> + y</div><div class="line">        <span class="keyword">return</span> reduce(x10, map(char2num, s))</div><div class="line">    </div><div class="line">    result = list(map(toDecimal, s.split(<span class="string">'.'</span>)))</div><div class="line"></div><div class="line">    <span class="keyword">while</span> result[<span class="number">1</span>] &gt; <span class="number">1</span>:</div><div class="line">        result[<span class="number">1</span>] /= <span class="number">10</span></div><div class="line"></div><div class="line">    <span class="keyword">return</span> result[<span class="number">0</span>] + result[<span class="number">1</span>]</div><div class="line">    </div><div class="line">str2float(<span class="string">'123.456'</span>)</div></pre></td></tr></table></figure>
+<pre><code>123.456
+</code></pre><h2 id="filter"><a href="#filter" class="headerlink" title="filter"></a>filter</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">isOdd</span><span class="params">(n)</span>:</span></div><div class="line">    <span class="keyword">return</span> n % <span class="number">2</span> == <span class="number">1</span></div><div class="line"></div><div class="line">list(filter(isOdd, [<span class="number">1</span>, <span class="number">2</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">9</span>, <span class="number">10</span>, <span class="number">15</span>]))</div></pre></td></tr></table></figure>
+<pre><code>[1, 5, 9, 15]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">notEmpty</span><span class="params">(s)</span>:</span></div><div class="line">    <span class="keyword">return</span> s <span class="keyword">and</span> s.strip()</div><div class="line"></div><div class="line">list(filter(notEmpty, [<span class="string">'A'</span>, <span class="string">''</span>, <span class="string">'B'</span>, <span class="keyword">None</span>, <span class="string">'C'</span>, <span class="string">'  '</span>]))</div></pre></td></tr></table></figure>
+<pre><code>[&apos;A&apos;, &apos;B&apos;, &apos;C&apos;]
+</code></pre><p>用 filter 求素数</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 埃氏筛法：http://baike.baidu.com/item/%E5%9F%83%E6%8B%89%E6%89%98%E8%89%B2%E5%B0%BC%E7%AD%9B%E9%80%89%E6%B3%95</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">oddIter</span><span class="params">()</span>:</span></div><div class="line">    n = <span class="number">1</span></div><div class="line">    <span class="keyword">while</span> <span class="keyword">True</span>:</div><div class="line">        n = n + <span class="number">2</span></div><div class="line">        <span class="keyword">yield</span> n</div><div class="line">        </div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">notDivisible</span><span class="params">(n)</span>:</span></div><div class="line">    <span class="keyword">return</span> <span class="keyword">lambda</span> x: x % n &gt; <span class="number">0</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">primes</span><span class="params">()</span>:</span></div><div class="line">    <span class="keyword">yield</span> <span class="number">2</span></div><div class="line">    it = oddIter() <span class="comment"># 初始序列</span></div><div class="line">    <span class="keyword">while</span> <span class="keyword">True</span>:</div><div class="line">        n = next(it) <span class="comment"># 返回序列的第一个数</span></div><div class="line">        <span class="keyword">yield</span> n</div><div class="line">        it = filter(notDivisible(n), it)</div><div class="line">        </div><div class="line"><span class="keyword">for</span> n <span class="keyword">in</span> primes():</div><div class="line">    <span class="keyword">if</span> n &lt; <span class="number">100</span>:</div><div class="line">        print(n)</div><div class="line">    <span class="keyword">else</span>:</div><div class="line">        <span class="keyword">break</span></div></pre></td></tr></table></figure>
+<pre><code>2
+3
+5
+7
+11
+13
+17
+19
+23
+29
+31
+37
+41
+43
+47
+53
+59
+61
+67
+71
+73
+79
+83
+89
+97
+</code></pre><p>回数是指从左向右读和从右向左读都是一样的数，例如12321，909。</p>
+<p>请利用filter()滤掉非回数：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">isPalindrome</span><span class="params">(n)</span>:</span></div><div class="line">    ns = str(n) <span class="comment"># ns -&gt; num_str</span></div><div class="line">    <span class="keyword">while</span> ns <span class="keyword">is</span> <span class="keyword">not</span> <span class="string">''</span>:</div><div class="line">        <span class="keyword">if</span> ns[<span class="number">0</span>] <span class="keyword">is</span> <span class="keyword">not</span> ns[<span class="number">-1</span>]:</div><div class="line">            <span class="keyword">return</span> <span class="keyword">False</span></div><div class="line">        ns = ns[<span class="number">1</span>:<span class="number">-1</span>]</div><div class="line">    <span class="keyword">return</span> <span class="keyword">True</span></div><div class="line"></div><div class="line">list(filter(isPalindrome, range(<span class="number">1</span>, <span class="number">1000</span>)))</div></pre></td></tr></table></figure>
+<pre><code>[1,
+ 2,
+ 3,
+ 4,
+ 5,
+ 6,
+ 7,
+ 8,
+ 9,
+ 11,
+ 22,
+ 33,
+ 44,
+ 55,
+ 66,
+ 77,
+ 88,
+ 99,
+ 101,
+ 111,
+ 121,
+ 131,
+ 141,
+ 151,
+ 161,
+ 171,
+ 181,
+ 191,
+ 202,
+ 212,
+ 222,
+ 232,
+ 242,
+ 252,
+ 262,
+ 272,
+ 282,
+ 292,
+ 303,
+ 313,
+ 323,
+ 333,
+ 343,
+ 353,
+ 363,
+ 373,
+ 383,
+ 393,
+ 404,
+ 414,
+ 424,
+ 434,
+ 444,
+ 454,
+ 464,
+ 474,
+ 484,
+ 494,
+ 505,
+ 515,
+ 525,
+ 535,
+ 545,
+ 555,
+ 565,
+ 575,
+ 585,
+ 595,
+ 606,
+ 616,
+ 626,
+ 636,
+ 646,
+ 656,
+ 666,
+ 676,
+ 686,
+ 696,
+ 707,
+ 717,
+ 727,
+ 737,
+ 747,
+ 757,
+ 767,
+ 777,
+ 787,
+ 797,
+ 808,
+ 818,
+ 828,
+ 838,
+ 848,
+ 858,
+ 868,
+ 878,
+ 888,
+ 898,
+ 909,
+ 919,
+ 929,
+ 939,
+ 949,
+ 959,
+ 969,
+ 979,
+ 989,
+ 999]
+</code></pre><h2 id="sortd"><a href="#sortd" class="headerlink" title="sortd"></a>sortd</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sorted([<span class="number">36</span>, <span class="number">5</span>, <span class="number">-12</span>, <span class="number">9</span>, <span class="number">-21</span>])</div></pre></td></tr></table></figure>
+<pre><code>[-21, -12, 5, 9, 36]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sorted([<span class="number">36</span>, <span class="number">5</span>, <span class="number">-12</span>, <span class="number">9</span>, <span class="number">-21</span>], key=abs) <span class="comment"># 高阶函数，自定义排序</span></div></pre></td></tr></table></figure>
+<pre><code>[5, 9, -12, -21, 36]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sorted([<span class="string">'bob'</span>, <span class="string">'about'</span>, <span class="string">'Zoo'</span>, <span class="string">'Credit'</span>]) <span class="comment"># 字典序</span></div></pre></td></tr></table></figure>
+<pre><code>[&apos;Credit&apos;, &apos;Zoo&apos;, &apos;about&apos;, &apos;bob&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sorted([<span class="string">'bob'</span>, <span class="string">'about'</span>, <span class="string">'Zoo'</span>, <span class="string">'Credit'</span>], key=str.lower) <span class="comment"># 忽略大小写</span></div></pre></td></tr></table></figure>
+<pre><code>[&apos;about&apos;, &apos;bob&apos;, &apos;Credit&apos;, &apos;Zoo&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sorted([<span class="string">'bob'</span>, <span class="string">'about'</span>, <span class="string">'Zoo'</span>, <span class="string">'Credit'</span>], key=str.lower, reverse=<span class="keyword">True</span>) <span class="comment"># 倒序</span></div></pre></td></tr></table></figure>
+<pre><code>[&apos;Zoo&apos;, &apos;Credit&apos;, &apos;bob&apos;, &apos;about&apos;]
+</code></pre><p>假设我们用一组 tuple 表示学生名字和成绩：</p>
+<p>请用 sorted() 对其分别按名字排序：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">L = [(<span class="string">'Bob'</span>, <span class="number">75</span>), (<span class="string">'Adam'</span>, <span class="number">92</span>), (<span class="string">'Bart'</span>, <span class="number">66</span>), (<span class="string">'Lisa'</span>, <span class="number">88</span>)]</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">byName</span><span class="params">(t)</span>:</span></div><div class="line">    <span class="keyword">return</span> t[<span class="number">0</span>]</div><div class="line"></div><div class="line">sorted(L, key=byName)</div></pre></td></tr></table></figure>
+<pre><code>[(&apos;Adam&apos;, 92), (&apos;Bart&apos;, 66), (&apos;Bob&apos;, 75), (&apos;Lisa&apos;, 88)]
+</code></pre><p>再按成绩从高到低排序：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">byScore</span><span class="params">(t)</span>:</span></div><div class="line">    <span class="keyword">return</span> t[<span class="number">1</span>]</div><div class="line"></div><div class="line">sorted(L, key=byScore, reverse=<span class="keyword">True</span>)</div></pre></td></tr></table></figure>
+<pre><code>[(&apos;Adam&apos;, 92), (&apos;Lisa&apos;, 88), (&apos;Bob&apos;, 75), (&apos;Bart&apos;, 66)]
+</code></pre><h1 id="函数式编程（其它）"><a href="#函数式编程（其它）" class="headerlink" title="函数式编程（其它）"></a>函数式编程（其它）</h1><h2 id="函数作为返回值"><a href="#函数作为返回值" class="headerlink" title="函数作为返回值"></a>函数作为返回值</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">lazySum</span><span class="params">(*args)</span>:</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">sum</span><span class="params">()</span>:</span></div><div class="line">        ax = <span class="number">0</span></div><div class="line">        <span class="keyword">for</span> n <span class="keyword">in</span> args:</div><div class="line">            ax += n</div><div class="line">        <span class="keyword">return</span> ax</div><div class="line">    <span class="keyword">return</span> sum</div><div class="line"></div><div class="line">f = lazySum(<span class="number">1</span>, <span class="number">3</span>, <span class="number">5</span>, <span class="number">7</span>, <span class="number">9</span>)</div><div class="line">f</div></pre></td></tr></table></figure>
+<pre><code>&lt;function __main__.lazySum.&lt;locals&gt;.sum&gt;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">f()</div></pre></td></tr></table></figure>
+<pre><code>25
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">f1 = lazySum(<span class="number">1</span>, <span class="number">3</span>, <span class="number">5</span>, <span class="number">7</span>, <span class="number">9</span>)</div><div class="line">f2 = lazySum(<span class="number">1</span>, <span class="number">3</span>, <span class="number">5</span>, <span class="number">7</span>, <span class="number">9</span>)</div><div class="line"></div><div class="line">f1 == f2</div></pre></td></tr></table></figure>
+<pre><code>False
+</code></pre><h2 id="闭包"><a href="#闭包" class="headerlink" title="闭包"></a>闭包</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 错误示范</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">count</span><span class="params">()</span>:</span></div><div class="line">    fs = []</div><div class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">1</span>, <span class="number">4</span>):</div><div class="line">        <span class="function"><span class="keyword">def</span> <span class="title">f</span><span class="params">()</span>:</span></div><div class="line">            <span class="keyword">return</span> i * i</div><div class="line">        fs.append(f)</div><div class="line">    <span class="keyword">return</span> fs</div><div class="line"></div><div class="line">f1, f2, f3 = count()</div><div class="line"></div><div class="line">f1()</div></pre></td></tr></table></figure>
+<pre><code>9
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">f2()</div></pre></td></tr></table></figure>
+<pre><code>9
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">f3()</div></pre></td></tr></table></figure>
+<pre><code>9
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 正确用法</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">count</span><span class="params">()</span>:</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">f</span><span class="params">(j)</span>:</span></div><div class="line">        <span class="function"><span class="keyword">def</span> <span class="title">g</span><span class="params">()</span>:</span></div><div class="line">            <span class="keyword">return</span> j * j</div><div class="line">        <span class="keyword">return</span> g</div><div class="line">    fs = []</div><div class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">1</span>, <span class="number">4</span>):</div><div class="line">        fs.append(f(i))</div><div class="line">    <span class="keyword">return</span> fs</div><div class="line"></div><div class="line"><span class="comment"># 返回闭包时牢记的一点就是：返回函数不要引用任何循环变量，或者后续会发生变化的变量。如果一定要引用循环变量怎么办？</span></div><div class="line"><span class="comment"># 方法是再创建一个函数，用该函数的参数绑定循环变量当前的值，无论该循环变量后续如何更改，已绑定到函数参数的值不变。</span></div><div class="line"></div><div class="line">f1, f2, f3 = count()</div><div class="line"></div><div class="line">f1()</div></pre></td></tr></table></figure>
+<pre><code>1
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">f2()</div></pre></td></tr></table></figure>
+<pre><code>4
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">f3()</div></pre></td></tr></table></figure>
+<pre><code>9
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 正确用法</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">count</span><span class="params">()</span>:</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">f</span><span class="params">(j)</span>:</span></div><div class="line">        <span class="function"><span class="keyword">def</span> <span class="title">g</span><span class="params">()</span>:</span></div><div class="line">            <span class="keyword">return</span> j * j</div><div class="line">        <span class="keyword">return</span> g</div><div class="line">    fs = []</div><div class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">1</span>, <span class="number">4</span>):</div><div class="line">        fs.append(f(i))</div><div class="line">    <span class="keyword">return</span> fs</div><div class="line"></div><div class="line">f1, f2, f3 = count()</div><div class="line"></div><div class="line">f1()</div></pre></td></tr></table></figure>
+<pre><code>1
+</code></pre><h2 id="匿名函数"><a href="#匿名函数" class="headerlink" title="匿名函数"></a>匿名函数</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">list(map(<span class="keyword">lambda</span> x: x * x, range(<span class="number">1</span>, <span class="number">10</span>)))</div></pre></td></tr></table></figure>
+<pre><code>[1, 4, 9, 16, 25, 36, 49, 64, 81]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">f</span><span class="params">(x)</span>:</span></div><div class="line">    <span class="keyword">return</span> x * x</div><div class="line"></div><div class="line"><span class="comment"># 等价于</span></div><div class="line"></div><div class="line"><span class="keyword">lambda</span> x: x * x</div></pre></td></tr></table></figure>
+<pre><code>&lt;function __main__.&lt;lambda&gt;&gt;
+</code></pre><h2 id="装饰器"><a href="#装饰器" class="headerlink" title="装饰器"></a>装饰器</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">now</span><span class="params">()</span>:</span></div><div class="line">    print(<span class="string">'2017-04-22'</span>)</div><div class="line"></div><div class="line">f = now</div><div class="line">f()</div></pre></td></tr></table></figure>
+<pre><code>2017-04-22
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 获取函数的名字</span></div><div class="line">now.__name__</div></pre></td></tr></table></figure>
+<pre><code>&apos;now&apos;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">f.__name__</div></pre></td></tr></table></figure>
+<pre><code>&apos;now&apos;
+</code></pre><p>增强now()函数的功能，比如，在函数调用前后自动打印日志，但又不希望修改now()函数的定义，</p>
+<p>这种在代码运行期间动态增加功能的方式，称之为“装饰器”（Decorator）。</p>
+<p>本质上，decorator就是一个返回函数的高阶函数。所以，我们要定义一个能打印日志的decorator</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">log</span><span class="params">(func)</span>:</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">wrapper</span><span class="params">(*args, **kw)</span>:</span></div><div class="line">        print(<span class="string">'call %s():'</span> % func.__name__)</div><div class="line">        <span class="keyword">return</span> func(*args, **kw)</div><div class="line">    <span class="keyword">return</span> wrapper</div><div class="line"></div><div class="line"><span class="meta">@log</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">now</span><span class="params">()</span>:</span></div><div class="line">    print(<span class="string">'2017-04-22'</span>)</div><div class="line"></div><div class="line">now()</div></pre></td></tr></table></figure>
+<pre><code>call now():
+2017-04-22
+</code></pre><p>以上包装器的写法，等价于以下代码</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">now = log(now)</div></pre></td></tr></table></figure>
+<hr>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">log</span><span class="params">(text)</span>:</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">decorator</span><span class="params">(func)</span>:</span></div><div class="line">        <span class="function"><span class="keyword">def</span> <span class="title">wrapper</span><span class="params">(*args, **kw)</span>:</span></div><div class="line">            print(<span class="string">'%s %s():'</span> % (text, func.__name__))</div><div class="line">            <span class="keyword">return</span> func(*args, **kw)</div><div class="line">        <span class="keyword">return</span> wrapper</div><div class="line">    <span class="keyword">return</span> decorator</div><div class="line"></div><div class="line"><span class="meta">@log('execute')</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">now</span><span class="params">()</span>:</span></div><div class="line">    print(<span class="string">'2017-04-22'</span>)</div><div class="line">    </div><div class="line">now()</div></pre></td></tr></table></figure>
+<pre><code>execute now():
+2017-04-22
+</code></pre><p>以上包装器的写法，等价于以下代码</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">now = log(<span class="string">'execute'</span>)(now)</div></pre></td></tr></table></figure>
+<hr>
+<p>但是以上的写法有个缺点</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">now.__name__ <span class="comment"># 函数名字就成了 wrapper，而不是原来的 now</span></div></pre></td></tr></table></figure>
+<pre><code>&apos;wrapper&apos;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 用 functools.wraps(func) 来修正</span></div><div class="line"><span class="keyword">import</span> functools</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">log</span><span class="params">(func)</span>:</span></div><div class="line"><span class="meta">    @functools.wraps(func)</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">wrapper</span><span class="params">(*args, **kw)</span>:</span></div><div class="line">        print(<span class="string">'call %s():'</span> % func.__name__)</div><div class="line">        <span class="keyword">return</span> func(*args, **kw)</div><div class="line">    <span class="keyword">return</span> wrapper</div><div class="line"></div><div class="line"><span class="meta">@log</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">now</span><span class="params">()</span>:</span></div><div class="line">    print(<span class="string">'2017-04-22'</span>)</div><div class="line">    </div><div class="line">now()</div></pre></td></tr></table></figure>
+<pre><code>call now():
+2017-04-22
+</code></pre><h2 id="偏函数"><a href="#偏函数" class="headerlink" title="偏函数"></a>偏函数</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">int(<span class="string">'12345'</span>)</div></pre></td></tr></table></figure>
+<pre><code>12345
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">int(<span class="string">'12345'</span>, base=<span class="number">8</span>) <span class="comment"># 8 进制转 10 进制</span></div></pre></td></tr></table></figure>
+<pre><code>5349
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">int(<span class="string">'AE'</span>, <span class="number">16</span>) <span class="comment"># 16 进制转 10 进制</span></div></pre></td></tr></table></figure>
+<pre><code>174
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">int2</span><span class="params">(x, base=<span class="number">2</span>)</span>:</span></div><div class="line">    <span class="keyword">return</span> int(x, base)</div><div class="line"></div><div class="line">int2(<span class="string">'1000000'</span>)</div></pre></td></tr></table></figure>
+<pre><code>64
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">int2(<span class="string">'1010101'</span>)</div></pre></td></tr></table></figure>
+<pre><code>85
+</code></pre><p>以上 int2() 声明的代码与一下代码等价</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">int2 = functools.partial(int, base=<span class="number">2</span>)</div><div class="line"></div><div class="line">int2(<span class="string">'10010'</span>)</div></pre></td></tr></table></figure>
+<pre><code>18
+</code></pre><p>又相当于</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">kw = &#123;<span class="string">'base'</span>: <span class="number">2</span>&#125;</div><div class="line">int(<span class="string">'10010'</span>, **kw)</div></pre></td></tr></table></figure>
+<pre><code>18
+</code></pre><hr>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">max2 = functools.partial(max, <span class="number">10</span>)</div><div class="line"></div><div class="line">max2(<span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>)</div></pre></td></tr></table></figure>
+<pre><code>10
+</code></pre><p>以上代码相当于</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">args = (<span class="number">10</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>)</div><div class="line">max(*args)</div></pre></td></tr></table></figure>
+<pre><code>10
+</code></pre><h1 id="模块"><a href="#模块" class="headerlink" title="模块"></a>模块</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> sys</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">test</span><span class="params">()</span>:</span></div><div class="line">    args = sys.argv</div><div class="line">    <span class="keyword">if</span> len(args) == <span class="number">1</span>:</div><div class="line">        print(<span class="string">'Hello, world!'</span>)</div><div class="line">    <span class="keyword">elif</span> len(args) == <span class="number">2</span>:</div><div class="line">        print(<span class="string">'Hello, %s!'</span> % args[<span class="number">1</span>])</div><div class="line">    <span class="keyword">else</span>:</div><div class="line">        print(<span class="string">'Too many arguments!'</span>)</div><div class="line">    print(args)</div><div class="line">        </div><div class="line">test()</div></pre></td></tr></table></figure>
+<pre><code>Too many arguments!
+[&apos;/usr/local/lib/python3.6/site-packages/ipykernel/__main__.py&apos;, &apos;-f&apos;, &apos;/Users/IceHe/Library/Jupyter/runtime/kernel-f9ae0017-3106-4f62-8484-4df0beb75b9d.json&apos;]
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">__name__</div></pre></td></tr></table></figure>
+<pre><code>&apos;__main__&apos;
+</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">__doc__</div></pre></td></tr></table></figure>
+<pre><code>&apos;Automatically created module for IPython interactive environment&apos;
+</code></pre><h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><ul>
+<li>参考《<a href="http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000" target="_blank" rel="external">廖学峰的 Python 教程</a>》</li>
+<li>直接访问原教程，学习后续的部分 《<a href="http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001431845183474e20ee7e7828b47f7b7607f2dc1e90dbb000" target="_blank" rel="external">使用模块</a>》</li>
 </ul>
-</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div></pre></td></tr></table></figure>
-<ul>
-<li>编写一个 <code>prod()</code> 函数，可以接受一个 list 并利用 reduce() 求积<ul>
-<li>Python 提供的 <code>sum()</code> 函数可以接受一个 list 并求和 </li>
-</ul>
-</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div></pre></td></tr></table></figure>
 ]]></content>
     
     <summary type="html">
