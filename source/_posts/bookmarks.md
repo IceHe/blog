@@ -44,8 +44,8 @@ description: Navigation&#58; PV Top N 热榜、文章分类列表。
 
 ## [AppleScript](/categories/AppleScript)
 
-- [用 AppleScript 操作 Evernote / macOS](/applescript/evernote_osx/)
 - [AppleScript 快速入门](/applescript/applescript/)
+- [用 AppleScript 操作 Evernote / macOS](/applescript/evernote_osx/)
 
 ## [ASM 汇编](/categories/ASM)
 
