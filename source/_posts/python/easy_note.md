@@ -1,11 +1,12 @@
 title: Python3 快速入门
 date: 2017-04-17
-updated: 2017-04-17
+updated: 2017-04-23
 no_upd: true
 categories: [Python]
 tags: [Python]
 description: 廖雪峰《Python 教程》笔记的再整理，主要是代码样例与运行结果。
 ---
+
 
 - 参考：
     - 学习教程《[廖学峰的 Python 教程](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)》
@@ -15,7 +16,7 @@ description: 廖雪峰《Python 教程》笔记的再整理，主要是代码样
 - 内容：
     - 本文由一些简单的说明、Python3 代码及其运行结果组成。
 - 工具：
-    - 笔记内容由 [Jupyter](http://jupyter.org/)（交互式的编程笔记）写就，导出为 Markdown。  
+    - 笔记内容由 [Jupyter](http://jupyter.org/)（交互式的编程笔记）写就，导出为 Markdown。
 
 # 基础
 
@@ -207,7 +208,7 @@ print(lines)
     line2
 
 
-# 字符串
+# 字符串 str
 
 
 ```python
@@ -2044,7 +2045,7 @@ for x, y in [(1, 1), (2, 4), (3, 9)]:
     3 => 9
 
 
-# 列表生成式
+# 列表生成式 range
 
 
 ```python
@@ -2802,19 +2803,926 @@ s2i('24680')
 
 ### 组合应用
 
-- 利用 `map()` 函数，把用户输入的不规范的英文名字，变为首字母大写，其他小写的规范名字。
-    - 输入：['adam', 'LISA', 'barT']
-    - 输出：['Adam', 'Lisa', 'Bart']
+利用 `map()` 函数，把用户输入的不规范的英文名字，变为首字母大写，其他小写的规范名字。
+
+输入：['adam', 'LISA', 'barT']
+
+输出：['Adam', 'Lisa', 'Bart']
 
 
 ```python
+def formatStr(s):
+    return s[0].upper() +  s[1:].lower()
 
+list(map(formatStr, ['adam', 'LISA', 'barT']))
 ```
 
-- 编写一个 `prod()` 函数，可以接受一个 list 并利用 reduce() 求积
-    - Python 提供的 `sum()` 函数可以接受一个 list 并求和 
+
+
+
+    ['Adam', 'Lisa', 'Bart']
+
+
+
+编写一个 `prod()` 函数，可以接受一个 list 并利用 reduce() 求积。
+
+（Python 提供的 `sum()` 函数可以接受一个 list 并求和）
 
 
 ```python
+from functools import reduce
 
+def prod(nums):
+    def product(x, y):
+        return x * y
+    return reduce(product, nums)
+
+prod(list(range(1, 5)))
 ```
+
+
+
+
+    24
+
+
+
+编写一个 `str2float()` 函数，把字符串 '123.456' 转换成浮点数 123.456。
+
+
+```python
+from functools import reduce
+
+def str2float(s):
+    def char2num(ch):
+        return {'0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9}[ch]
+    
+    def toDecimal(s):
+        def x10(x, y): 
+            return x * 10 + y
+        return reduce(x10, map(char2num, s))
+    
+    result = list(map(toDecimal, s.split('.')))
+
+    while result[1] > 1:
+        result[1] /= 10
+
+    return result[0] + result[1]
+    
+str2float('123.456')
+```
+
+
+
+
+    123.456
+
+
+
+## filter
+
+
+```python
+def isOdd(n):
+    return n % 2 == 1
+
+list(filter(isOdd, [1, 2, 4, 5, 6, 9, 10, 15]))
+```
+
+
+
+
+    [1, 5, 9, 15]
+
+
+
+
+```python
+def notEmpty(s):
+    return s and s.strip()
+
+list(filter(notEmpty, ['A', '', 'B', None, 'C', '  ']))
+```
+
+
+
+
+    ['A', 'B', 'C']
+
+
+
+用 filter 求素数
+
+
+```python
+# 埃氏筛法：http://baike.baidu.com/item/%E5%9F%83%E6%8B%89%E6%89%98%E8%89%B2%E5%B0%BC%E7%AD%9B%E9%80%89%E6%B3%95
+
+def oddIter():
+    n = 1
+    while True:
+        n = n + 2
+        yield n
+        
+def notDivisible(n):
+    return lambda x: x % n > 0
+
+def primes():
+    yield 2
+    it = oddIter() # 初始序列
+    while True:
+        n = next(it) # 返回序列的第一个数
+        yield n
+        it = filter(notDivisible(n), it)
+        
+for n in primes():
+    if n < 100:
+        print(n)
+    else:
+        break
+```
+
+    2
+    3
+    5
+    7
+    11
+    13
+    17
+    19
+    23
+    29
+    31
+    37
+    41
+    43
+    47
+    53
+    59
+    61
+    67
+    71
+    73
+    79
+    83
+    89
+    97
+
+
+回数是指从左向右读和从右向左读都是一样的数，例如12321，909。
+
+请利用filter()滤掉非回数：
+
+
+```python
+def isPalindrome(n):
+    ns = str(n) # ns -> num_str
+    while ns is not '':
+        if ns[0] is not ns[-1]:
+            return False
+        ns = ns[1:-1]
+    return True
+
+list(filter(isPalindrome, range(1, 1000)))
+```
+
+
+
+
+    [1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     11,
+     22,
+     33,
+     44,
+     55,
+     66,
+     77,
+     88,
+     99,
+     101,
+     111,
+     121,
+     131,
+     141,
+     151,
+     161,
+     171,
+     181,
+     191,
+     202,
+     212,
+     222,
+     232,
+     242,
+     252,
+     262,
+     272,
+     282,
+     292,
+     303,
+     313,
+     323,
+     333,
+     343,
+     353,
+     363,
+     373,
+     383,
+     393,
+     404,
+     414,
+     424,
+     434,
+     444,
+     454,
+     464,
+     474,
+     484,
+     494,
+     505,
+     515,
+     525,
+     535,
+     545,
+     555,
+     565,
+     575,
+     585,
+     595,
+     606,
+     616,
+     626,
+     636,
+     646,
+     656,
+     666,
+     676,
+     686,
+     696,
+     707,
+     717,
+     727,
+     737,
+     747,
+     757,
+     767,
+     777,
+     787,
+     797,
+     808,
+     818,
+     828,
+     838,
+     848,
+     858,
+     868,
+     878,
+     888,
+     898,
+     909,
+     919,
+     929,
+     939,
+     949,
+     959,
+     969,
+     979,
+     989,
+     999]
+
+
+
+## sortd
+
+
+```python
+sorted([36, 5, -12, 9, -21])
+```
+
+
+
+
+    [-21, -12, 5, 9, 36]
+
+
+
+
+```python
+sorted([36, 5, -12, 9, -21], key=abs) # 高阶函数，自定义排序
+```
+
+
+
+
+    [5, 9, -12, -21, 36]
+
+
+
+
+```python
+sorted(['bob', 'about', 'Zoo', 'Credit']) # 字典序
+```
+
+
+
+
+    ['Credit', 'Zoo', 'about', 'bob']
+
+
+
+
+```python
+sorted(['bob', 'about', 'Zoo', 'Credit'], key=str.lower) # 忽略大小写
+```
+
+
+
+
+    ['about', 'bob', 'Credit', 'Zoo']
+
+
+
+
+```python
+sorted(['bob', 'about', 'Zoo', 'Credit'], key=str.lower, reverse=True) # 倒序
+```
+
+
+
+
+    ['Zoo', 'Credit', 'bob', 'about']
+
+
+
+假设我们用一组 tuple 表示学生名字和成绩：
+
+请用 sorted() 对其分别按名字排序：
+
+
+```python
+L = [('Bob', 75), ('Adam', 92), ('Bart', 66), ('Lisa', 88)]
+
+def byName(t):
+    return t[0]
+
+sorted(L, key=byName)
+```
+
+
+
+
+    [('Adam', 92), ('Bart', 66), ('Bob', 75), ('Lisa', 88)]
+
+
+
+再按成绩从高到低排序：
+
+
+```python
+def byScore(t):
+    return t[1]
+
+sorted(L, key=byScore, reverse=True)
+```
+
+
+
+
+    [('Adam', 92), ('Lisa', 88), ('Bob', 75), ('Bart', 66)]
+
+
+
+# 函数式编程（其它）
+
+##  函数作为返回值
+
+
+```python
+def lazySum(*args):
+    def sum():
+        ax = 0
+        for n in args:
+            ax += n
+        return ax
+    return sum
+
+f = lazySum(1, 3, 5, 7, 9)
+f
+```
+
+
+
+
+    <function __main__.lazySum.<locals>.sum>
+
+
+
+
+```python
+f()
+```
+
+
+
+
+    25
+
+
+
+
+```python
+f1 = lazySum(1, 3, 5, 7, 9)
+f2 = lazySum(1, 3, 5, 7, 9)
+
+f1 == f2
+```
+
+
+
+
+    False
+
+
+
+## 闭包
+
+
+```python
+# 错误示范
+def count():
+    fs = []
+    for i in range(1, 4):
+        def f():
+            return i * i
+        fs.append(f)
+    return fs
+
+f1, f2, f3 = count()
+
+f1()
+```
+
+
+
+
+    9
+
+
+
+
+```python
+f2()
+```
+
+
+
+
+    9
+
+
+
+
+```python
+f3()
+```
+
+
+
+
+    9
+
+
+
+
+```python
+# 正确用法
+def count():
+    def f(j):
+        def g():
+            return j * j
+        return g
+    fs = []
+    for i in range(1, 4):
+        fs.append(f(i))
+    return fs
+
+# 返回闭包时牢记的一点就是：返回函数不要引用任何循环变量，或者后续会发生变化的变量。如果一定要引用循环变量怎么办？
+# 方法是再创建一个函数，用该函数的参数绑定循环变量当前的值，无论该循环变量后续如何更改，已绑定到函数参数的值不变。
+
+f1, f2, f3 = count()
+
+f1()
+```
+
+
+
+
+    1
+
+
+
+
+```python
+f2()
+```
+
+
+
+
+    4
+
+
+
+
+```python
+f3()
+```
+
+
+
+
+    9
+
+
+
+
+```python
+# 正确用法
+def count():
+    def f(j):
+        def g():
+            return j * j
+        return g
+    fs = []
+    for i in range(1, 4):
+        fs.append(f(i))
+    return fs
+
+f1, f2, f3 = count()
+
+f1()
+```
+
+
+
+
+    1
+
+
+
+## 匿名函数
+
+
+```python
+list(map(lambda x: x * x, range(1, 10)))
+```
+
+
+
+
+    [1, 4, 9, 16, 25, 36, 49, 64, 81]
+
+
+
+
+```python
+def f(x):
+    return x * x
+
+# 等价于
+
+lambda x: x * x
+```
+
+
+
+
+    <function __main__.<lambda>>
+
+
+
+## 装饰器
+
+
+```python
+def now():
+    print('2017-04-22')
+
+f = now
+f()
+```
+
+    2017-04-22
+
+
+
+```python
+# 获取函数的名字
+now.__name__
+```
+
+
+
+
+    'now'
+
+
+
+
+```python
+f.__name__
+```
+
+
+
+
+    'now'
+
+
+
+增强now()函数的功能，比如，在函数调用前后自动打印日志，但又不希望修改now()函数的定义，
+
+这种在代码运行期间动态增加功能的方式，称之为“装饰器”（Decorator）。
+
+本质上，decorator就是一个返回函数的高阶函数。所以，我们要定义一个能打印日志的decorator
+
+
+```python
+def log(func):
+    def wrapper(*args, **kw):
+        print('call %s():' % func.__name__)
+        return func(*args, **kw)
+    return wrapper
+
+@log
+def now():
+    print('2017-04-22')
+
+now()
+```
+
+    call now():
+    2017-04-22
+
+
+以上包装器的写法，等价于以下代码
+
+
+```python
+now = log(now)
+```
+
+---
+
+
+```python
+def log(text):
+    def decorator(func):
+        def wrapper(*args, **kw):
+            print('%s %s():' % (text, func.__name__))
+            return func(*args, **kw)
+        return wrapper
+    return decorator
+
+@log('execute')
+def now():
+    print('2017-04-22')
+    
+now()
+```
+
+    execute now():
+    2017-04-22
+
+
+以上包装器的写法，等价于以下代码
+
+
+```python
+now = log('execute')(now)
+```
+
+---
+
+但是以上的写法有个缺点
+
+
+```python
+now.__name__ # 函数名字就成了 wrapper，而不是原来的 now
+```
+
+
+
+
+    'wrapper'
+
+
+
+
+```python
+# 用 functools.wraps(func) 来修正
+import functools
+
+def log(func):
+    @functools.wraps(func)
+    def wrapper(*args, **kw):
+        print('call %s():' % func.__name__)
+        return func(*args, **kw)
+    return wrapper
+
+@log
+def now():
+    print('2017-04-22')
+    
+now()
+```
+
+    call now():
+    2017-04-22
+
+
+## 偏函数
+
+
+```python
+int('12345')
+```
+
+
+
+
+    12345
+
+
+
+
+```python
+int('12345', base=8) # 8 进制转 10 进制
+```
+
+
+
+
+    5349
+
+
+
+
+```python
+int('AE', 16) # 16 进制转 10 进制
+```
+
+
+
+
+    174
+
+
+
+
+```python
+def int2(x, base=2):
+    return int(x, base)
+
+int2('1000000')
+```
+
+
+
+
+    64
+
+
+
+
+```python
+int2('1010101')
+```
+
+
+
+
+    85
+
+
+
+以上 int2() 声明的代码与一下代码等价
+
+
+```python
+int2 = functools.partial(int, base=2)
+
+int2('10010')
+```
+
+
+
+
+    18
+
+
+
+又相当于
+
+
+```python
+kw = {'base': 2}
+int('10010', **kw)
+```
+
+
+
+
+    18
+
+
+
+---
+
+
+```python
+max2 = functools.partial(max, 10)
+
+max2(5, 6, 7)
+```
+
+
+
+
+    10
+
+
+
+以上代码相当于
+
+
+```python
+args = (10, 5, 6, 7)
+max(*args)
+```
+
+
+
+
+    10
+
+
+
+# 模块
+
+
+```python
+import sys
+
+def test():
+    args = sys.argv
+    if len(args) == 1:
+        print('Hello, world!')
+    elif len(args) == 2:
+        print('Hello, %s!' % args[1])
+    else:
+        print('Too many arguments!')
+    print(args)
+        
+test()
+```
+
+    Too many arguments!
+    ['/usr/local/lib/python3.6/site-packages/ipykernel/__main__.py', '-f', '/Users/IceHe/Library/Jupyter/runtime/kernel-f9ae0017-3106-4f62-8484-4df0beb75b9d.json']
+
+
+
+```python
+__name__
+```
+
+
+
+
+    '__main__'
+
+
+
+
+```python
+__doc__
+```
+
+
+
+
+    'Automatically created module for IPython interactive environment'
+
+
+
+# 最后
+
+- 参考《[廖学峰的 Python 教程](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)》
+- 直接访问原教程，学习后续的部分 《[使用模块](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001431845183474e20ee7e7828b47f7b7607f2dc1e90dbb000)》
