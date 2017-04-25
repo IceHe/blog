@@ -8,7 +8,7 @@ description: Tools&#58; 推荐 macOS 和 iOS 的 Apps 以及日常使用的电�
 
 - 主要介绍 __macOS、[iOS](#iOS) 的 Apps__（下文 Apple 指代 macOS + iOS）；只简单提及 [Windows](#Windows)。
     - 适合自己的工具，才是最好的工具。所以本文仅供参考，自行尝试才是正道。
-- __Principles 原则__
+- __原则__
     - 「常用」的工具才值得折腾，不常用的工具凑合着用就行了。
     - 选择工具，最重要的是「实用」，「美观」次之，「价格」不要太贵就行。
         - 稳定：不能引起系统崩溃，起码提升效率的收益得超过崩溃重启的损失。
@@ -16,17 +16,17 @@ description: Tools&#58; 推荐 macOS 和 iOS 的 Apps 以及日常使用的电�
             - 参考 KISS 和 SR 原则（Keep it simple stupid & single responsibility）。
         - 设置项齐全：可以根据自身习惯调整 App，让它用起来更顺手、省心。
             - 比如，设置好 App 各常用功能的快捷键，以便调用；或设置好自动运行的条件，以后就不用再费心了。
-- __References 部分参考__
+- __部分参考__
     - [__少数派__](http://sspai.com/) - 高质量 App 推荐媒体，关于 iOS、Mac、硬件。
     - [__利器 - 创造者和他们的工具__](http://liqi.io/) 以及使用的方式和原则。
     - [__Best App__](https://github.com/hzlzh/Best-App) - List in GitHub
     - [__macOS 有哪些值得装的小软件？__](https://www.zhihu.com/question/27870072)
     - [__MacTips__](http://zhuanlan.zhihu.com/MacTips) - Mac 使用经验和技巧。
     - …
-- __Related 相关文章__ :
+- __相关文章__ :
     《 [Mac Efficiency 效率指北](/mac/efficiency) 》
     《 [Mac Shortcuts 快捷键](/mac_shortcuts) 》
-- __Meaning of Font Format 字体格式的含义__
+- __字体格式的含义__
     - ~~删除线~~ 标识的一定是我现在不用的 Apps。
     - __粗体__ 标识的通常是在用的 Apps。
     - 同时有 __~~删除线和粗体~~__ 标识的 Apps，我现在不用但值得一试。
