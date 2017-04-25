@@ -60,7 +60,7 @@ description: IceHe's Exp , Skills , Edu & Oth&#58; Weibo / Moblie API / PHP Serv
 
 - __Programing Langs__
     <i class="fa fa-fw fa-star-half-o"></i> __`PHP`__ `C++`
-    <i class="fa fa-fw fa-star-o"></i> `JavaScript` `Python` `Java` `C` `ASM`
+    <i class="fa fa-fw fa-star-o"></i> `JavaScript` `Java` `Python` `C` `ASM`
 
 - __OS__
     <i class="fa fa-fw fa-star"></i> __`macOS`__
@@ -73,8 +73,7 @@ description: IceHe's Exp , Skills , Edu & Oth&#58; Weibo / Moblie API / PHP Serv
 
 - __Web__
     <i class="fa fa-fw fa-star-half-o"></i> __`HTML` `CSS` `jQuery`__
-    <i class="fa fa-fw fa-star-o"></i> `Docker` `Nginx` `Redis`
-
+    <span class="hidden"><i class="fa fa-fw fa-star-o"></i> `Docker` `Nginx` `Redis`</span>
 - __Scripts__
     <i class="fa fa-fw fa-star-half-o"></i> __`AppleScript`__
     <i class="fa fa-fw fa-star-o"></i> `Bash` `Batch file`

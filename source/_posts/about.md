@@ -58,7 +58,7 @@ description: IceHe 的经历、技能、教育 & 其它：微博移动 / 服务�
 
 - __编程语言__
     <i class="fa fa-fw fa-star-half-o"></i> __`PHP`__ `C++`
-    <i class="fa fa-fw fa-star-o"></i> `JavaScript` `Python` `Java` `C` `ASM`
+    <i class="fa fa-fw fa-star-o"></i> `JavaScript` `Java` `Python` `C` `ASM`
 
 - __OS__
     <i class="fa fa-fw fa-star"></i> __`macOS`__
@@ -66,12 +66,12 @@ description: IceHe 的经历、技能、教育 & 其它：微博移动 / 服务�
     <i class="fa fa-fw fa-star-o"></i> `CentOS 7` `Ubuntu`
 
 - __DB__
-    <i class="fa fa-fw fa-star-half-o"></i> __`SQL` `MySQL`__
+    <i class="fa fa-fw fa-star-half-o"></i> __`MySQL`__
     <i class="fa fa-fw fa-star-o"></i> `MS SQL Server 2008` `Oracle DB`
 
 - __Web__
     <i class="fa fa-fw fa-star-half-o"></i> __`HTML` `CSS` `jQuery`__
-    <i class="fa fa-fw fa-star-o"></i> `Docker` `Nginx` `Redis`
+    <span class="hidden"><i class="fa fa-fw fa-star-o"></i> `~~Docker` `Nginx` `Redis`~~</span>
 
 - __脚本__
     <i class="fa fa-fw fa-star-half-o"></i> __`AppleScript`__
