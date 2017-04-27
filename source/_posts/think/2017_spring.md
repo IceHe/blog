@@ -1,6 +1,6 @@
 title: 2017 春
 date: 2017-04-16
-updated: 2017-04-25
+updated: 2017-04-28
 no_upd: true
 categories: [think]
 tags: [think]
@@ -235,3 +235,10 @@ pretension 假装，就是假装伟大（伟大这个词可以换成别的词）
 
 讲课的例子：（台湾）总是对 tension（紧张）进行回避忍让，intension（动机）很弱，对 contension（角逐）很害怕！所以，没有 extend（扩张）！害怕竞争怎么能发展！
 
+## 尾声
+
+对啊，人生并没有那么复杂。
+
+{% blockquote E.L. Doctorow %}
+写一部小说就像在黑夜里开车。你只能看到车灯照亮的部分，但是你却可以走完整个旅程。
+{% endblockquote %}
