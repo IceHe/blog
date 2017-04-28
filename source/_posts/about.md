@@ -58,7 +58,7 @@ description: IceHe 的经历、技能、教育 & 其它：微博移动 / 服务�
 
 - __编程语言__
     <i class="fa fa-fw fa-star-half-o"></i> __`PHP`__ `C++`
-    <i class="fa fa-fw fa-star-o"></i> `JavaScript` `Java` `Python` `C` `ASM`
+    <i class="fa fa-fw fa-star-o"></i> `Python` `Java` `JavaScript` `C` `ASM`
 
 - __OS__
     <i class="fa fa-fw fa-star"></i> __`macOS`__
