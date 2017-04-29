@@ -1,7 +1,6 @@
 title: 2017 春
 date: 2017-04-16
 updated: 2017-04-29
-no_upd: true
 categories: [think]
 tags: [think]
 description: 三月至六月，春小记「在黑夜里开车，你只能看到车灯照亮的部分，但是你却可以走完整个旅程。」
