@@ -1,6 +1,6 @@
 title: 利器 - 软硬件推荐
 date: 2015-11-21
-updated: 2017-04-15
+updated: 2017-04-29
 categories: [Mac]
 tags: [Mac]
 description: Tools&#58; 推荐 macOS 和 iOS 的 Apps 以及日常使用的电子产品。
@@ -54,6 +54,10 @@ description: Tools&#58; 推荐 macOS 和 iOS 的 Apps 以及日常使用的电�
         - 功能齐全、好用，用法可简可繁。快捷键完备，深得我这个键盘党的喜爱！
         - 一开始用 [__Doit.im__](http://doit.im/cn/) 入门 GTD，虽然它的 Web 端的操作很极致高效，可是客户端做得不尽人意。然后发现自己的生活比较规律，觉得 Apple 自带的 [__Calendar__](https://support.apple.com/zh-cn/HT202835) 够用。后来又改用免费版 [__Wunderlist__](https://www.wunderlist.com/zh/)，捉襟见肘的功能勉强满足个人需求，胜在简洁易用。现在用 2Do。
         - 推荐使用 iCloud Reminders 的 CalDAV 同步方式（支持 2Do 绝大部分特性，足以满足我的需求）；Dropbox 的同步方式虽然可以支持 2Do 的所有特性，可是需要翻墙才能同步数据，iPhone 需要长期开着 VPN 略显麻烦。所以为了稳定和省心，选择了前一种同步方式。
+    - [__MindNode__](https://mindnode.com/) <sup>Favorite</sup>
+        思维导图，归纳总结笔记。
+        - 操作简便易上手，轻巧稳定OS。
+        - 以前我也不待见思维导图。可是有一天你会终于发现：学习、归纳、总结、复习的时候，Markdown 线性的列表用起来太长了，要不断缩进以添加内容，组织内容真的远不如思维导图灵活！
     - [__Evernote__](https://www.yinxiang.com/)
         云笔记，第二大脑（知识管理）。
         - 好记性不如烂笔头，而如今知识更新之快，纸笔已跟不上，于是笔记软件大放异彩。云端存储同步笔记（同时定期备份整个硬盘），有备份就不怕丢；便于检索，甚至搜索图片中的文字。总是死记硬背没有出路，不能被检索的知识毫无意义。
@@ -383,14 +387,16 @@ description: Tools&#58; 推荐 macOS 和 iOS 的 Apps 以及日常使用的电�
     - __Notes__ <sup>Simple</sup>
         iOS & macOS 自带的轻量级笔记应用，启动、编辑、同步迅速稳定，方便易用。
     - [__Evernote__](https://itunes.apple.com/us/app/evernote-stay-organized/id281796108?mt=8) <sup>Powerful</sup>
-        Clip the awesome artcles & take notes. ( [Ref Above](#Common) )
+        剪藏好文章，离线保存，做笔记。 ( [Ref Above](#Common) )
     - [__2Do__](https://itunes.apple.com/us/app/2do-reminders-personal-planner/id303656546?mt=8) <sup>Powerful</sup>
-        GTD. ( [Ref Above](#Common) )
+        GTD 事务管理。( [Ref Above](#Common) )
     - [__BlockyTime__](http://www.anniapp.com/blockytime/index.html) <sup>Simple</sup>
-        A quicker time logger, let you never spend much time on tracking time.
         时间的记录统计工具，规划、督促、自省。
+        A quicker time logger, let you never spend much time on tracking time.
     - [__HabitBull__](http://www.habitbull.com/)
         习惯养成，记录、统计、分析养成的情况。该领域有很多 App，好用的不多…… 这个也不算最好的选择，需要自行挑选。
+    - [__MindNode__](https://mindnode.com/) <sup>Powerful</sup>
+        思维导图。( [Ref Above](#Common) )
     - [__网易有钱__](https://qian.163.com/) <sup>Simple</sup>
         简单方便的记账软件。可以自动同步银行储蓄卡、信用卡和支付宝账户的交易和余额数据，然后再给每笔收支调整分类和补充备注就行了，实在是方便。
         - 后来，我发现自己只需要知道自己各个账户的余额，以及总体的收支情况，所以就弃用「随手记」换用它。如果注重隐私信息的安全，请注意退避该 App。
