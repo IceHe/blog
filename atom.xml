@@ -4394,7 +4394,7 @@ img.fix_height {
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
-    <updated>2017-04-13T16:00:00.000Z</updated>
+    <updated>2017-04-28T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Simple-amp-Less"><a href="#Simple-amp-Less" class="headerlink" title="Simple &amp; Less"></a>Simple &amp; Less</h2><ul>
 <li>没什么不好意思承认的，写这篇文章的初衷就是想炫耀自己的「与众不同」—— 彰显自己是一个酷爱快捷键的「键盘党」，一个有个性的少数派。然而这样做真的有意义吗？</li>
@@ -5327,6 +5327,31 @@ __`⌘ ⇧ M` Look up Word that Mouse Cursor Hovers__
 __`⌘ ⇧ L` Look up Selection__
 __`⌘ ⇧ 2` Translate Selection__
 -->
+<h3 id="MindNode"><a href="#MindNode" class="headerlink" title="MindNode"></a><a href="https://mindnode.com/" target="_blank" rel="external">MindNode</a></h3><ul>
+<li><p>File</p>
+<p>  <code>⌥ ↩</code> New Mind Map<br>  <code>⌥ →</code> Next Mind Map<br>  <code>⌥ ←</code> Prev Mind Map</p>
+</li>
+<li><p>New</p>
+<p>  <code>↩</code> Append New Sibling<br>  <code>⇧ ↩</code> Prepend New Sibling</p>
+<p>  <code>⇥</code> New Child<br>  <code>⇧ ⇥</code> New Parent</p>
+</li>
+<li><p>Edit</p>
+<p>  <code>⌘ ↩</code> Edit Title ( Current )</p>
+<p>  <code>⌘ ⇧ K</code> Note Popover<br>  <code>⌘ ⇧ T</code> Add / Rm Task ( Check Box )<br>  <code>⌘ ⇧ U</code> Toggle Task</p>
+<p>  <code>⌘ k</code> Add Link<br>  <code>⌘ l</code> Add Connection ( to Another Node )</p>
+</li>
+<li><p>Move</p>
+<p>  <code>⌘ ↑</code> Move Above Sibling<br>  <code>⌘ ↓</code> Move Below Sibling<br>  <code>⌘ ⇧ D</code> Detach Node</p>
+</li>
+</ul>
+<ul>
+<li><p>Fold</p>
+<p>  <code>⌘ ⌥ ←</code> Fold Node<br>  <code>⌘ ⌥ →</code> Unfold Node<br>  <code>⌘ ⌥ ↑</code> Fold All Nodes<br>  <code>⌘ ⌥ ↓</code> Unfold All Nodes</p>
+</li>
+<li><p>Select</p>
+<p>  <code>⌘ ⌥ a</code> All Subnodes</p>
+</li>
+</ul>
 <h3 id="Evernote"><a href="#Evernote" class="headerlink" title="Evernote"></a><a href="https://www.yinxiang.com/download/?offer=www_menu" target="_blank" rel="external">Evernote</a></h3><ul>
 <li><p>Note</p>
 <p>  <code>⌘ ^ s</code> Sync</p>
@@ -5842,7 +5867,7 @@ __`⌘ r` Show | Hide Lyrics__
     <link href="http://icehe.me/tools/"/>
     <id>http://icehe.me/tools/</id>
     <published>2015-11-20T16:00:00.000Z</published>
-    <updated>2017-04-14T16:00:00.000Z</updated>
+    <updated>2017-04-28T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li>主要介绍 <strong>macOS、<a href="#iOS">iOS</a> 的 Apps</strong>（下文 Apple 指代 macOS + iOS）；只简单提及 <a href="#Windows">Windows</a>。<ul>
@@ -5909,6 +5934,11 @@ __`⌘ r` Show | Hide Lyrics__
 <li>功能齐全、好用，用法可简可繁。快捷键完备，深得我这个键盘党的喜爱！</li>
 <li>一开始用 <a href="http://doit.im/cn/" target="_blank" rel="external"><strong>Doit.im</strong></a> 入门 GTD，虽然它的 Web 端的操作很极致高效，可是客户端做得不尽人意。然后发现自己的生活比较规律，觉得 Apple 自带的 <a href="https://support.apple.com/zh-cn/HT202835" target="_blank" rel="external"><strong>Calendar</strong></a> 够用。后来又改用免费版 <a href="https://www.wunderlist.com/zh/" target="_blank" rel="external"><strong>Wunderlist</strong></a>，捉襟见肘的功能勉强满足个人需求，胜在简洁易用。现在用 2Do。</li>
 <li>推荐使用 iCloud Reminders 的 CalDAV 同步方式（支持 2Do 绝大部分特性，足以满足我的需求）；Dropbox 的同步方式虽然可以支持 2Do 的所有特性，可是需要翻墙才能同步数据，iPhone 需要长期开着 VPN 略显麻烦。所以为了稳定和省心，选择了前一种同步方式。</li>
+</ul>
+</li>
+<li><a href="https://mindnode.com/" target="_blank" rel="external"><strong>MindNode</strong></a> <sup>Favorite</sup><br>  思维导图，归纳总结笔记。<ul>
+<li>操作简便易上手，轻巧稳定OS。</li>
+<li>以前我也不待见思维导图。可是有一天你会终于发现：学习、归纳、总结、复习的时候，Markdown 线性的列表用起来太长了，要不断缩进以添加内容，组织内容真的远不如思维导图灵活！</li>
 </ul>
 </li>
 <li><a href="https://www.yinxiang.com/" target="_blank" rel="external"><strong>Evernote</strong></a><br>  云笔记，第二大脑（知识管理）。<ul>
@@ -6293,10 +6323,11 @@ __`⌘ r` Show | Hide Lyrics__
 <ul>
 <li>笔记、时间、财务管理<ul>
 <li><strong>Notes</strong> <sup>Simple</sup><br>  iOS &amp; macOS 自带的轻量级笔记应用，启动、编辑、同步迅速稳定，方便易用。</li>
-<li><a href="https://itunes.apple.com/us/app/evernote-stay-organized/id281796108?mt=8" target="_blank" rel="external"><strong>Evernote</strong></a> <sup>Powerful</sup><br>  Clip the awesome artcles &amp; take notes. ( <a href="#Common">Ref Above</a> )</li>
-<li><a href="https://itunes.apple.com/us/app/2do-reminders-personal-planner/id303656546?mt=8" target="_blank" rel="external"><strong>2Do</strong></a> <sup>Powerful</sup><br>  GTD. ( <a href="#Common">Ref Above</a> )</li>
-<li><a href="http://www.anniapp.com/blockytime/index.html" target="_blank" rel="external"><strong>BlockyTime</strong></a> <sup>Simple</sup><br>  A quicker time logger, let you never spend much time on tracking time.<br>  时间的记录统计工具，规划、督促、自省。</li>
+<li><a href="https://itunes.apple.com/us/app/evernote-stay-organized/id281796108?mt=8" target="_blank" rel="external"><strong>Evernote</strong></a> <sup>Powerful</sup><br>  剪藏好文章，离线保存，做笔记。 ( <a href="#Common">Ref Above</a> )</li>
+<li><a href="https://itunes.apple.com/us/app/2do-reminders-personal-planner/id303656546?mt=8" target="_blank" rel="external"><strong>2Do</strong></a> <sup>Powerful</sup><br>  GTD 事务管理。( <a href="#Common">Ref Above</a> )</li>
+<li><a href="http://www.anniapp.com/blockytime/index.html" target="_blank" rel="external"><strong>BlockyTime</strong></a> <sup>Simple</sup><br>  时间的记录统计工具，规划、督促、自省。<br>  A quicker time logger, let you never spend much time on tracking time.</li>
 <li><a href="http://www.habitbull.com/" target="_blank" rel="external"><strong>HabitBull</strong></a><br>  习惯养成，记录、统计、分析养成的情况。该领域有很多 App，好用的不多…… 这个也不算最好的选择，需要自行挑选。</li>
+<li><a href="https://mindnode.com/" target="_blank" rel="external"><strong>MindNode</strong></a> <sup>Powerful</sup><br>  思维导图。( <a href="#Common">Ref Above</a> )</li>
 <li><a href="https://qian.163.com/" target="_blank" rel="external"><strong>网易有钱</strong></a> <sup>Simple</sup><br>  简单方便的记账软件。可以自动同步银行储蓄卡、信用卡和支付宝账户的交易和余额数据，然后再给每笔收支调整分类和补充备注就行了，实在是方便。<ul>
 <li>后来，我发现自己只需要知道自己各个账户的余额，以及总体的收支情况，所以就弃用「随手记」换用它。如果注重隐私信息的安全，请注意退避该 App。</li>
 </ul>
