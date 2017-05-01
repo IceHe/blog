@@ -1,6 +1,6 @@
 title: 2017 春
 date: 2017-04-16
-updated: 2017-04-29
+updated: 2017-04-30
 categories: [think]
 tags: [think]
 description: 三月至六月，春小记「在黑夜里开车，你只能看到车灯照亮的部分，但是你却可以走完整个旅程。」
@@ -210,6 +210,10 @@ Feed，英文释义是喂养、饲料，这个词用得真是妙，庸众被无�
 
 希望自己能够长久记得此刻的煎熬，因为真的不想为同样的错误选择再后悔一次了。不忘耻辱，不畏将来。或许，这正是改变的开始？除非还要自证孬种。
 
+### 难
+
+才努力学习没几天，就已经开始畏难贪晌。「正是因为难，才值得去做。」每当坚持不下去了，就会这么勉励自己。
+
 ## Power 锟的纸牌屋
 
 摘自 [Power 錕的紙牌屋](https://www.facebook.com/professorofpower)（Facebook），相应 [Youtube 链接](https://www.youtube.com/channel/UCdFyD6_8485ajuKML_6HbiQ/featured)。
@@ -246,6 +250,8 @@ pretension 假装，就是假装伟大（伟大这个词可以换成别的词）
 
 对啊，人生并没有那么复杂。
 
-{% blockquote E.L. Doctorow %}
+{% cq %}
 写一部小说就像在黑夜里开车。你只能看到车灯照亮的部分，但是你却可以走完整个旅程。
-{% endblockquote %}
+
+__E.L. Doctorow__
+{% endcq %}
