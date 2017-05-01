@@ -102,7 +102,7 @@
 <meta property="og:url" content="http://icehe.me/web/build_blog/index.html">
 <meta property="og:site_name" content="Ice He">
 <meta property="og:description" content="Bulid Blog&amp;#58; Why 初衷、How 过程，Hexo 建站，Theme 主题，Domain Name 域名，Bed Room 图床，Google CSE 站内搜索，404 页面，Sitemap &amp; RSS 站点地图与订阅，Site Analysis，Page View 统计…">
-<meta property="og:updated_time" content="2017-04-08T16:00:00.000Z">
+<meta property="og:updated_time" content="2017-04-30T16:00:00.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="搭建个人博客">
 <meta name="twitter:description" content="Bulid Blog&amp;#58; Why 初衷、How 过程，Hexo 建站，Theme 主题，Domain Name 域名，Bed Room 图床，Google CSE 站内搜索，404 页面，Sitemap &amp; RSS 站点地图与订阅，Site Analysis，Page View 统计…">
@@ -349,8 +349,8 @@
                 <i class="fa fa-refresh"></i>
               </span>
               
-              <time title="创建于" itemprop="dateModified" datetime="2017-04-09T00:00:00+08:00">
-                2017 Apr 09
+              <time title="创建于" itemprop="dateModified" datetime="2017-05-01T00:00:00+08:00">
+                2017 May 01
               </time>
             
 
@@ -425,7 +425,10 @@
       
 
       
-        <ul>
+        <blockquote class="blockquote-center"><p>竹径通幽处，禅房花木深。</p>
+<p>《题破山寺后禅院》<strong>常建</strong></p>
+</blockquote>
+<ul>
 <li>上一版《 <a href="/old_version_posts/Why_and_how_to_build_my_blog.html">Why and How to bulid my blog? 搭建我的个人博客</a> 》</li>
 <li>失效链接已修复，如需帮助，望读者及时反馈。</li>
 </ul>
@@ -442,57 +445,124 @@
 <li>外观与众不同，当然可以算作是是独特的。但是真正的与众不同、特立独行，不光在表面上，更应该是思想上的，不然我觉的就没啥意思。</li>
 </ul>
 </li>
-<li>算了吧，保留本文，不过不再更新了。 </li>
+<li>算了吧，保留本文，不过不再更新了。</li>
 <li>记于 2017-01-02</li>
 </ul>
 <h1 id="初衷"><a href="#初衷" class="headerlink" title="初衷"></a>初衷</h1><p>与其到各大博客平台去写博客，<br>不如自己搭建个独一无二的。<br>不但过程有意思，还能学到许多新知识。</p>
-<p>可以用来记录 <a href="/lifelogs">自己的人生</a>，<br>放一些值得分享的技术、读书笔记和感想。</p>
+<p>可以用来记录 <a href="/lifelogs"><strong>自己的人生</strong></a>，<br>放一些值得分享的技术、读书笔记和感想。</p>
 <h1 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h1><p>教程的各步骤描述得越详细，时效性往往越差。<br>网上的类似的教程多如牛毛，不差这篇。</p>
 <p>所以，我并不打算详细写，<br>只简略说明过程与所用的「轮子」（工具、模块），<br>并列出本人参阅的教程文章的链接，<br>其它更具体的细节自行百度 / Google，<br>查阅其它教程与相关工具模块的官方文档。</p>
 <p>还有，折腾才能学到真东西，<br>下文做法、用法从略处，还请自行摸索。</p>
 <h2 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h2><p>非软件、计算机专业的人，自行搭建个人博客其实不难。<br>前人早已造好了各种「轮子」，只要根据网上的教程摸索一下，<br>动动手指头就可以组装出自己的博客。</p>
-<p>可以用 isnowfy 的 <a href="http://isnowfy.github.io/about-simple-cn.html" target="_blank" rel="external">静态页面生成静态博客</a> 的方法，<br>对一个新手来说，那感觉真是妙极了！</p>
+<p>可以用 isnowfy 的 <a href="http://isnowfy.github.io/about-simple-cn.html" target="_blank" rel="external"><strong>静态页面生成静态博客</strong></a> 的方法，<br>对一个新手来说，那感觉真是妙极了！</p>
 <p>当时就想：不如自己写个博客生成器吧！<br>那当真是一件蛮有 geek 的事啊。</p>
 <p>但吾生有崖，而知也无涯，<br>没必要自己重新「造轮子」，<br>阅源码解其精妙未尝不可。<br>君子善假于物，省出时间，<br>去做真正想做的事情岂不是更好。</p>
-<p>搭建博客的方法，除了用不同的静态博客生成器来生成外，<br>还可以租用或搭建一个服务器，来运行一个动态博客，<br>其中最出名的非 <a href="https://wordpress.com/" target="_blank" rel="external">Wordpress</a> 莫属，<br>现在有更多性能优越、更便于搭建维护的博客框架，<br>可另行查阅。</p>
-<p>为了让个人博客有足够定制空间的同时，尽可能降低维护成本，<br><u><strong>我选择了静态博客生成器：<a href="http://hexo.io/" target="_blank" rel="external">Hexo</a> !</strong></u></p>
+<p>搭建博客的方法，除了用不同的静态博客生成器来生成外，<br>还可以租用或搭建一个服务器，来运行一个动态博客，<br>其中最出名的非 <a href="https://wordpress.com/" target="_blank" rel="external"><strong>Wordpress</strong></a> 莫属，<br>现在有更多性能优越、更便于搭建维护的博客框架，<br>可另行查阅。</p>
+<p>为了让个人博客有足够定制空间的同时，尽可能降低维护成本，<br><strong>我选择了静态博客生成器：<a href="http://hexo.io/" target="_blank" rel="external">Hexo</a> !</strong></p>
 <p>（有空会找机会再折腾一个动态博客）</p>
-<h2 id="Hexo-建站教程"><a href="#Hexo-建站教程" class="headerlink" title="Hexo 建站教程"></a>Hexo 建站教程</h2><p>广泛检索后，参阅了如下教程建站：</p>
+<h2 id="Hexo-建站教程"><a href="#Hexo-建站教程" class="headerlink" title="Hexo 建站教程"></a>Hexo 建站教程</h2><p>广泛检索后，参阅他人的建站教程</p>
 <ul>
+<li>参考教程：<ul>
 <li><a href="https://wsgzao.github.io/post/hexo-guide/" target="_blank" rel="external">使用 GitHub 和 Hexo 搭建免费静态 Blog</a></li>
 <li><a href="http://www.zipperary.com/2013/05/28/hexo-guide-2/" target="_blank" rel="external">Hexo 系列教程：（二）搭建 Hexo 博客</a></li>
 <li><a href="http://www.zipperary.com/2013/05/29/hexo-guide-3/" target="_blank" rel="external">Hexo 系列教程：（三）Hexo 博客的配置、使用</a></li>
 <li><a href="http://www.zipperary.com/2013/05/30/hexo-guide-4/" target="_blank" rel="external">Hexo 系列教程：（四）Hexo 博客的优化技巧</a></li>
 <li><a href="http://www.zipperary.com/2013/06/02/hexo-guide-5/" target="_blank" rel="external">Hexo 系列教程：（五）Hexo 博客的优化技巧续</a></li>
+<li>…</li>
 </ul>
-<p>其中会提到，下文涉及的「<a href="#Custom_Points_定制点">定制点</a>」的内容，包含功能模块的具体配置方法。</p>
+</li>
+</ul>
+<p>其中会提到，下文涉及的「<a href="#Custom_Points_定制点"><strong>定制点</strong></a>」的内容，包含功能模块的具体配置方法。</p>
 <p>可能其中涉及各工具和模块已经有新版本，<br>具体操作细节最好参考它们最新的官方文档。</p>
-<p>有探索精神的直接可直接参照 <a href="https://hexo.io/zh-cn/" target="_blank" rel="external">Hexo官网</a>，<br>它提供中/英文的各种帮助信息，<br>包括文档、API、插件、主题等，<br>告诉你建站方法、基本操作、自定义部分……</p>
+<p>有探索精神的直接可直接参照 <a href="https://hexo.io/zh-cn/" target="_blank" rel="external"><strong>Hexo官网</strong></a>，<br>它提供中/英文的各种帮助信息，<br>包括文档、API、插件、主题等，<br>告诉你建站方法、基本操作、自定义部分……</p>
 <p>前人之述备矣，在此不再赘述基础部分。</p>
 <h2 id="定制点"><a href="#定制点" class="headerlink" title="定制点"></a>定制点</h2><p>建站很容易，如果你的需求只是写写文字博客而已，可以到此结束了。<br>但如果要完善博客到合乎自己的心意，那将是万里长征的第一步。</p>
 <p>要获得更大的定制余地，让自己的博客更独一无二，<br>最好懂些网页技术，就可以修改别人工具模块的源代码，<br>让博客支持更多需要的模块、插件、外观效果等。</p>
 <h3 id="主题"><a href="#主题" class="headerlink" title="主题"></a><strong>主题</strong></h3><p>Theme不单只提供不同的博客外观、视觉效果，<br><strong>通常还会提供许多功能模块的配套支持！<br>一般包括但不限于：评论、分享、RSS订阅、联系方式、百度/谷歌的统计分析、标签云。</strong></p>
-<p>官网上有提供很多第三方主题：<a href="https://hexo.io/themes/" target="_blank" rel="external">Hexo Themes</a><br><del>我选用的是：<a href="http://wuchong.me/" target="_blank" rel="external">WuChong</a> 的 <a href="https://github.com/wuchong/jacman" target="_blank" rel="external"><strong>Jacman</strong></a></del><br><del>该主题作者的官方教程：<a href="http://wuchong.me/blog/2014/11/20/how-to-use-jacman/" target="_blank" rel="external">如何使用 Jacman 主题</a></del><br>现在我选用的是：<a href="http://iissnan.com/" target="_blank" rel="external">IIssNan</a> 的 <a href="http://theme-next.iissnan.com/" target="_blank" rel="external"><strong>NexT</strong></a>（官方文档）</p>
+<ul>
+<li>官网上有提供很多第三方主题：<ul>
+<li>官方列表：<a href="https://hexo.io/themes/" target="_blank" rel="external"><strong>Hexo Themes</strong></a></li>
+<li>现在选用的是：<a href="http://iissnan.com/" target="_blank" rel="external">IIssNan</a> 的 <a href="http://theme-next.iissnan.com/" target="_blank" rel="external"><strong>NexT</strong>（官方文档）</a></li>
+<li><del>曾经选用的是：<a href="http://wuchong.me/" target="_blank" rel="external">WuChong</a> 的 <a href="https://github.com/wuchong/jacman" target="_blank" rel="external"><strong>Jacman</strong></a></del></li>
+<li><del>该主题作者的官方教程：<a href="http://wuchong.me/blog/2014/11/20/how-to-use-jacman/" target="_blank" rel="external">如何使用 Jacman 主题</a></del></li>
+</ul>
+</li>
+</ul>
 <p><strong>它包含了以下绝大多数的定制点，不需要自己折腾太多，也可以很快做好。</strong><br>如果你更喜欢 DIY，想要亲手试一试第一次搭建静态微博，<br>从中多了解学习些细节问题，当然更好。</p>
-<p>Hexo官网的文档和API中有theme写法的说明，<br>可以自己重新写一个theme。</p>
+<p>Hexo 官网的文档和 API 中有 theme 写法的说明，<br>可以自己重新写一个 theme。</p>
 <h3 id="评论"><a href="#评论" class="headerlink" title="评论"></a><strong>评论</strong></h3><p>利用第三方社会化评论系统，可以便捷地为博客添加评论模块。<br>这些评论系统可以让你和你的访客在你的博客下添加评论，<br>还能审核、删除、迁移（博客变更后保留评论）、自定义评论框的外观效果等，<br>它们一般都提供足够的定制空间。</p>
-<p>推荐：<br>(1) 国内：<a href="http://changyan.kuaizhan.com/" target="_blank" rel="external">畅言</a> （可惜需要网站备案…）<br>(2) 国外：<a href="https://disqus.com/" target="_blank" rel="external">Disqus</a><br>原来国内能用 <del><a href="http://duoshuo.com/" target="_blank" rel="external">多说</a></del> 可惜 2017 年 6 月 1 日关停了服务。</p>
+<ul>
+<li>推荐：<ul>
+<li>国内：<a href="http://changyan.kuaizhan.com/" target="_blank" rel="external"><strong>畅言</strong></a> （可惜需要网站备案…）</li>
+<li>国外：<a href="https://disqus.com/" target="_blank" rel="external"><strong>Disqus</strong></a></li>
+<li>原来国内能用 <del><a href="http://duoshuo.com/" target="_blank" rel="external"><strong>多说</strong></a></del> 可惜在 2017 年 5 月 1 日关停了服务。</li>
+</ul>
+</li>
+</ul>
 <p>具体评论系统搭建比较麻烦，有能用的，就不推荐自己折腾。</p>
 <h3 id="分享"><a href="#分享" class="headerlink" title="分享"></a><strong>分享</strong></h3><p>添加分享模块可以方便自己或他人在第三方的社交平台分享你的博客内容。</p>
 <p>这还是借助第三方的帮助：<br>它们也会提供许多方便定制选项，<br>懂些 HTML、CSS、JavaScript 就能深度定制了。</p>
-<p>推荐：<br>(1) <a href="http://share.baidu.com/" target="_blank" rel="external">百度分享</a><br>(2) <a href="http://www.jiathis.com/" target="_blank" rel="external">jiathis</a><br>(3) 自己编写（不会太难）</p>
-<h3 id="关于页面"><a href="#关于页面" class="headerlink" title="关于页面"></a><strong>关于页面</strong></h3><p>一般用于介绍博主或博客的页面，<br>例如<a href="/about">我的「Me 我」页面</a>。</p>
-<h3 id="404-找不到页面"><a href="#404-找不到页面" class="headerlink" title="404 找不到页面"></a><strong>404 找不到页面</strong></h3><p>当访问一个不存在于博客中的页面时，展示的提示页面。<br>例如<a href="/not_found">我的「404」页面</a>。</p>
-<p>推荐：<br><a href="http://www.qq.com/404/" target="_blank" rel="external">腾讯公益404</a></p>
+<ul>
+<li>推荐：<ul>
+<li><a href="http://share.baidu.com/" target="_blank" rel="external"><strong>百度分享</strong></a></li>
+<li><a href="http://www.jiathis.com/" target="_blank" rel="external"><strong>jiathis</strong></a></li>
+<li>自己编写（并不会太难）</li>
+</ul>
+</li>
+</ul>
+<h3 id="关于页面"><a href="#关于页面" class="headerlink" title="关于页面"></a><strong>关于页面</strong></h3><p>一般用于介绍博主或博客的页面。</p>
+<ul>
+<li>例如：<a href="/about"><strong>我的「Me 我」页面</strong></a>。</li>
+</ul>
+<h3 id="404-找不到页面"><a href="#404-找不到页面" class="headerlink" title="404 找不到页面"></a><strong>404 找不到页面</strong></h3><p>当访问一个不存在于博客中的页面时，展示的提示页面。</p>
+<ul>
+<li>例如：<a href="/not_found"><strong>我的 404 页面</strong></a>。</li>
+<li>推荐：<a href="http://www.qq.com/404/" target="_blank" rel="external"><strong>腾讯公益 404</strong></a></li>
+</ul>
 <h3 id="域名"><a href="#域名" class="headerlink" title="域名"></a><strong>域名</strong></h3><p>有只属于自己的个性化域名，简直自豪感满满，<br>因为终于有自己的个人网站了 T_T</p>
-<p>分两步：买域名，域名解析。</p>
-<p>域名购买推荐：<br>(1) 国内老牌：<a href="http://wanwang.aliyun.com/" target="_blank" rel="external">万网</a>（已被阿里收购）<br>(2) 国外老牌：<a href="https://www.godaddy.com/" target="_blank" rel="external">GoDaddy</a><br>(3) 我的选择：<a href="https://www.namecheap.com" target="_blank" rel="external">NameCheap</a></p>
-<p>想要最低的价格，可以参考域名比价网站<a href="https://www.domcomp.com" target="_blank" rel="external"> Domain Price Comparison</a>。<br>推荐阅读知乎问答：<a href="http://www.zhihu.com/question/19551906" target="_blank" rel="external">现在去哪里买 .com 域名最便宜？</a><br>因为买域名不能只考虑价格，还得考虑服务。</p>
-<p>域名解析推荐：<br>(1) 老牌：<a href="http://wanwang.aliyun.com/" target="_blank" rel="external">万网</a>（在万网买的域名，可以直接用它）<br>(2) 我的选择：<a href="https://www.dnspod.cn/" target="_blank" rel="external">DNSPod</a>（国内、免费、稳定、快速、用户友好）</p>
-<p>域名解析选择国内运营商，有利于提高国内访客的访问速度。<br>具体配置过程可参考： <a href="https://wsgzao.github.io/post/hexo-guide/#%E5%9F%9F%E5%90%8D%E5%92%8CDNS" target="_blank" rel="external">域名和 DNS</a><br><a href="http://www.zipperary.com/2013/05/27/domain-name-and-dns/" target="_blank" rel="external">购买域名、设置dns</a></p>
+<ul>
+<li>分两步：买域名，域名解析。<br>  域名购买推荐：<ul>
+<li>国内老牌：<a href="http://wanwang.aliyun.com/" target="_blank" rel="external"><strong>万网</strong></a>（已被阿里收购）</li>
+<li>国外老牌：<a href="https://www.godaddy.com/" target="_blank" rel="external"><strong>GoDaddy</strong></a></li>
+<li>我的选择：<a href="https://www.namecheap.com" target="_blank" rel="external"><strong>NameCheap</strong></a></li>
+</ul>
+</li>
+</ul>
+<p>想要最低的价格，可以参考域名比价网站 <a href="https://www.domcomp.com" target="_blank" rel="external"><strong>Domain Price Comparison</strong></a>。<br>推荐阅读知乎问答：<a href="http://www.zhihu.com/question/19551906" target="_blank" rel="external"><strong>现在去哪里买 .com 域名最便宜？</strong></a><br>因为买域名不能只考虑价格，还得考虑服务。</p>
+<ul>
+<li>域名解析推荐：<ul>
+<li>老牌：<a href="http://wanwang.aliyun.com/" target="_blank" rel="external"><strong>万网</strong></a>（在万网买的域名，可以直接用它）</li>
+<li>我的选择：<a href="https://www.dnspod.cn/" target="_blank" rel="external"><strong>DNSPod</strong></a>（国内、免费、稳定、快速、用户友好）</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>域名解析选择国内运营商，有利于提高国内访客的访问速度。<br>  具体配置过程可参考：<ul>
+<li><a href="https://wsgzao.github.io/post/hexo-guide/#%E5%9F%9F%E5%90%8D%E5%92%8CDNS" target="_blank" rel="external"><strong>域名和 DNS</strong></a></li>
+<li><a href="http://www.zipperary.com/2013/05/27/domain-name-and-dns/" target="_blank" rel="external"><strong>购买域名、设置dns</strong></a></li>
+</ul>
+</li>
+</ul>
 <h3 id="Sitemap-站点地图-amp-RSS-订阅"><a href="#Sitemap-站点地图-amp-RSS-订阅" class="headerlink" title="Sitemap 站点地图 &amp; RSS 订阅"></a><strong>Sitemap 站点地图 &amp; RSS 订阅</strong></h3><p>站点地图给搜索引擎的爬虫以及网站的订阅者，<br>说明了博客里有哪些链接、文章、页面内容，<br>提高博客在搜索引擎的抓取、收录效果，<br>给关注你博客的朋友，提供了订阅功能。</p>
-<p>具体配置过程可参考：<br><a href="http://www.zipperary.com/2013/06/02/hexo-guide-5/" target="_blank" rel="external"> Hexo 博客的优化技巧续</a>（推荐结合以下内容阅读）</p>
 <p><strong>TODO: 待日后补全细节，暂参考 <a href="http://www.jianshu.com/p/bb35e703f9bf" target="_blank" rel="external">RSS 和 sitemap</a></strong></p>
+<ul>
+<li>具体配置过程可参考：<ul>
+<li><a href="http://www.zipperary.com/2013/06/02/hexo-guide-5/" target="_blank" rel="external"><strong>Hexo 博客的优化技巧续</strong></a>（推荐结合以下内容阅读）</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>注意可能出现的 Bug：<br>  本博客 <a href="http://icehe.me/atom.xml"><strong>RSS Feed</strong></a> 和 <a href="http://icehe.me/search.xml"><strong>search.xml</strong></a> 曾无法正常地以 UTF-8 的编码格式被解析。<br>  （后者用于 Hexo 的 NexT 主题文档推荐的 <a href="#站内搜索"><strong>站内搜索</strong></a> 之一的 <a href="http://theme-next.iissnan.com/third-party-services.html#local-search" target="_blank" rel="external"><strong>Local Search</strong></a>）<ul>
+<li>后来我遍寻网上的相关搜索结果，在仔细研究之下，才发现这原来是因为：<br>  自己的某些博文中（不知为何）混入了一些「<a href="http://baike.baidu.com/item/%E6%8E%A7%E5%88%B6%E5%AD%97%E7%AC%A6" target="_blank" rel="external"><strong>控制字符</strong></a>」，<br>  只要将博客中不在 UTF-8 编码范围内的控制字符去掉，即可恢复正常。</li>
+<li>搜索、替换的具体操作提示：<ul>
+<li>浏览器打开这些 xml 文件时，就会告诉你哪里解析出错了，<br>  看一看第一个解析出错的编码是什么。<br>  我的是 <code>0x15</code> 即 <code>^U</code>，详见 <a href="http://www.asciitable.com/" target="_blank" rel="external"><strong>ASCII 表</strong></a>。</li>
+<li>再看一看这个控制字符来自于博客的哪一篇博文或组件，<br>  使用 Vim 编辑器打开混入了控制字符的文件，查找并删除它。<br>  （不是所有编辑器都能便捷地支持控制字符的输入和查找）<br>  Vim 替换指令请自行 Google，Vim 中输入控制字符的方式如下：<br>  例如输入 <code>^U</code>，要先按 <code>^V</code> 然后 再按 <code>^U</code> 即可。</li>
+<li>重复以上步骤直至完全解析成功为止。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <h3 id="闲杂模块"><a href="#闲杂模块" class="headerlink" title="闲杂模块"></a><strong>闲杂模块</strong></h3><p>除了博客的基本功能模块，还有一半需要额外添加的模块。<br>Hexo自带的功能：archive 归档、category 分类、tag 标签。</p>
 <p>其它的模块，如：<a href="http://jssdk.sinaapp.com/widget/weiboshow.php" target="_blank" rel="external">微博秀</a></p>
 <h3 id="图床"><a href="#图床" class="headerlink" title="图床"></a><strong>图床</strong></h3><p>顾名思义，存放博客图片的地方。</p>
@@ -505,8 +575,8 @@
 <p>百度和 Google 都有提供站内搜索功能，<br>但是只能是搜索到你博客中被搜索引擎收录到的那部分内容。</p>
 <p>对于一个新建的小网站来说，很可能被其收录的内容很少，<br>没有对博客足够齐全的索引，搜索结果差。</p>
 <p>国内的一般访客也访问不了 Google，<br>百度站内搜索的体验也不佳。</p>
-<p>推荐：<br>(1) 我的选择：<a href="https://cse.google.com/cse/" target="_blank" rel="external">Google CSE</a><br>(2) 国外：<a href="https://www.algolia.com/" target="_blank" rel="external">Algolia</a>、<a href="https://swiftype.com/" target="_blank" rel="external">Swiftype</a>（先免费试用，后收费）<br>(3) 国内：<del>tinysou 微搜索</del>（已停止运营）</p>
-<p>Google CSE 根据官方的流程一步步来即可；<br>使用本博客导航栏处的搜索框，可查看其中一种显示效果。</p>
+<p>推荐：<br>(1) 我的选择：Hexo 主题 NexT 内置的 <a href="http://theme-next.iissnan.com/third-party-services.html#local-search" target="_blank" rel="external"><strong>Local Search</strong></a><br>(2) 国外免费：<a href="https://cse.google.com/cse/" target="_blank" rel="external"><strong>Google CSE</strong></a> 需要访客能访问 Google 才行<br>(2) 国外收费：<a href="https://www.algolia.com/" target="_blank" rel="external"><strong>Algolia</strong></a> 和 <a href="https://swiftype.com/" target="_blank" rel="external"><strong>Swiftype</strong></a> 在免费试用后，需缴费才能继续使用完整功能<br>(3) 国内：暂无足够好的选项</p>
+<p><a href="http://theme-next.iissnan.com/third-party-services.html#local-search" target="_blank" rel="external"><strong>Local Search</strong></a> 和 <a href="https://cse.google.com/cse/" target="_blank" rel="external"><strong>Google CSE</strong></a> 根据官方的流程一步步来即可。</p>
 <p>而 Swiftype 具体配置过程可参考：<a href="http://www.jerryfu.net/post/search-engine-for-hexo-with-swiftype-v2.html" target="_blank" rel="external">利用 Swiftype 为 Hexo 添加站内搜索 v2.0</a></p>
 <h3 id="PV-UV-访问数-访客数的统计与显示"><a href="#PV-UV-访问数-访客数的统计与显示" class="headerlink" title="PV/UV 访问数/访客数的统计与显示"></a><strong>PV/UV 访问数/访客数的统计与显示</strong></h3><p>统计、显示博客每篇、每个页面的访问数。</p>
 <p>手段繁多，我参考了这个方法：<br><a href="http://crescentmoon.info/2014/12/11/popular-widget/" target="_blank" rel="external">使用 LeanCloud 平台为 Hexo 博客添加文章浏览量统计组件</a><br>它提供了统计、榜单显示的具体方法。</p>
@@ -740,7 +810,7 @@
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">16</span>
+                <span class="site-state-item-count">17</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -751,7 +821,7 @@
             
             <div class="site-state-item site-state-tags">
               
-                <span class="site-state-item-count">16</span>
+                <span class="site-state-item-count">17</span>
                 <span class="site-state-item-name">标签</span>
               
             </div>
