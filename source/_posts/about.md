@@ -203,9 +203,18 @@ __优职英才（北京）教育科技公司 - 市场部 - 实习生__&emsp;_201
 
 ---
 
-- __TODO__ : [CV English Ver.](/about_en)
+- _TODO_ : [_CV English Ver._](/about_en)
 
-<div class="center">:P</div><div class="center"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_03a.jpg" class="pic_styl"/></div>
+---
+
+<div class="center hidden">:P</div><div class="center"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_03a.jpg" class="pic_styl"/></div>
+
+{% cq %}
+写一部小说就像在黑夜里开车。你只能看到车灯照亮的部分，但是你却可以走完整个旅程。
+
+__E.L. Doctorow__
+{% endcq %}
+
 <style type="text/css">
 .post-body .fancybox img.pic_styl {
     display: inline !important;

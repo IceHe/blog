@@ -6,6 +6,14 @@ tags: [Mac]
 description: Tools&#58; 推荐 macOS 和 iOS 的 Apps 以及日常使用的电子产品。
 ---
 
+{% cq %}
+君子生非异也，善假于物也。
+
+__荀子__
+{% endcq %}
+
+## 说明
+
 - 主要介绍 __macOS、[iOS](#iOS) 的 Apps__（下文 Apple 指代 macOS + iOS）；只简单提及 [Windows](#Windows)。
     - 适合自己的工具，才是最好的工具。所以本文仅供参考，自行尝试才是正道。
 - __原则__

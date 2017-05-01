@@ -6,8 +6,6 @@ tags: [whoami]
 description: My Moments&#58; Photos & Memory - 执信，华工，毽球，社团，悦读，新浪微博，小时候，未来……
 ----------
 
-- Bye, my good old days : )
-
 ## 执信
 
 ![](http://7vzp68.com1.z0.glb.clouddn.com/about/memorable_00.jpg)
@@ -172,9 +170,15 @@ description: My Moments&#58; Photos & Memory - 执信，华工，毽球，社团
 
 ### 以后
 
-- 长进太慢，不知不觉，人生已过三分之一。
+- 长进太慢，不知不觉，人生已经过去了三分之一。
 - 过去的都过去了，要往前看。
-- 走得越远，过去变得模糊，却看得更清楚了。
+- 一路远行，往事越发模糊，不知为何，却看得更清楚了。
+
+{% cq %}
+Bye, my good old days : )
+
+__Ice He__
+{% endcq %}
 
 <style type="text/css">
 article .article-content h2 {
