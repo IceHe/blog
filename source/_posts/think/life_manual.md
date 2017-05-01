@@ -1,12 +1,14 @@
-title: 生活指北
+title: 生活指南
 date: 2016-08-07
 updated: 2017-03-13
 categories: [think]
 tags: [think]
-description: Life Experience & Self-Help Manual.
+description: Personal Life Experience & Self-Help Manual.
 ---
 
-> 纸上得来终觉浅，绝知此事要躬行。
+{% cq %}
+纸上得来终觉浅，绝知此事要躬行。
+{% endcq %}
 
 听过读过的道理太多，只觉得不过尔尔。只有亲自 __经历、实践__ 之后，才能对一些事有切身体会。当我（可能）想“明白”了这些事时，我才会总结、积累到这里，不时回顾。
 

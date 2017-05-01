@@ -1,4 +1,4 @@
-title: Mac 效率指北
+title: Mac 效率指南
 date: 2017-04-15
 updated: 2017-04-15
 no_upd: true

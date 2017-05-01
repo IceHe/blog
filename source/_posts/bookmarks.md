@@ -39,7 +39,7 @@ description: Navigation&#58; PV Top N 热榜、文章分类列表。
 ## [Mac](/categories/Mac)
 
 - __[利器 - 软硬件推荐](/tools)__
-- [Mac 效率指北](/mac/efficiency)
+- [Mac 效率指南](/mac/efficiency)
 - [Mac 快捷键](/mac_shortcuts)
 
 ## [AppleScript](/categories/AppleScript)
@@ -89,7 +89,7 @@ description: Navigation&#58; PV Top N 热榜、文章分类列表。
 - [2016 秋](/think/2016_fall)
 - [2016 春夏](/think/2016_summer)
 - [再见 2015](/think/bye2015)
-- [生活指北](/think/life_manual)
+- [生活指南](/think/life_manual)
 
 ## [时间管理](/categories/time-mgt)
 
