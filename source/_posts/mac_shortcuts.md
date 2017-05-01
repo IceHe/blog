@@ -1,6 +1,6 @@
 title: Mac 快捷键
 date: 2016-01-06
-updated: 2017-04-29
+updated: 2017-05-01
 categories: [Mac]
 tags: [Mac]
 description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
@@ -430,7 +430,7 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
     `⌥ q` [QQ](#QQ)
     `⌥ w` WeChat
     `⌥ e` [Mail](#Mail)
-    `⌥ r` [VS Code](#VS-Code)
+    `⌥ r` Preview
     `⌥ t` Thunder
 
     `⌥ u` [Sublime Text](#Sublime-Text)
@@ -442,7 +442,7 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
     _`⌥ ⇧ Q` QQMusic_
     _`⌥ ⇧ W` Word_
     _`⌥ ⇧ P` PowerPoint_
-    _`⌥ ⇧ r` Preview_
+    _`⌥ ⇧ R` [VS Code](#VS-Code)_
     `⌥ ⇧ E` Eject the disks
     `⌥ ⇧ I` Prompt the local IP address
 
@@ -455,14 +455,16 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
 
 - asdf …
 
-    `⌥ a` [PyCharm](#JetBrains)
+    `⌥ a` PyCharm
     `⌥ s` [PhpStorm](#PhpStorm)
     `⌥ d` EuDic Free
     `⌥ f` [Finder](#Finder)
     _`⌥ g` [Acrobat Reader](#Acrobat-Reader) ( PDF )_
 
     `⌥ h` Photos
+    `⌥ j` IntelliJ IDEA
     `⌥ k` Numi ( Calculator )
+    `⌥ l` CLion
     `⌥ ;` Input the symbol `…`
 
     `⌥ ⇧ A` [Activity Monitor](#Activity-Monitor)
@@ -470,21 +472,26 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
     `⌥ ⇧ D` Dictionary
     _`⌥ ⇧ F` Search in All Files_
     _`⌥ ⇧ K` Calculator_
+    _`⌥ ⇧ L` System Settings → Launch Rocket_
 
     `^ ⌥ ⇧ A` App Store
 
 - zxcv …
 
+    `⌥ z` [Sublime Text](#Sublime-Text)
     `⌥ c` [Charles](#Charles)
     `⌥ v` [ClipMenu](#ClipMenu) ( History Menu )
+    `⌥ b` [MindNode](#MindNode) ( `b` for Brainstorm )
 
     `⌥ n` [NeteaseMusic](#NeteaseMusic)
-    `⌥ m` Sequel Pro ( MySQL )
+    `⌥ m` Messages
 
     `⌥ ⇧ C` Calendar
     `⌥ ⇧ V` [ClipMenu](#ClipMenu) ( Main Menu )
     `⌥ ⇧ M` Send the content in Clipboard to my iPhone by Messages
-    `^ ⌥ ⇧ M` Messages
+    `⌥ ⇧ N` System Settings → Network
+
+    `^ ⌥ ⇧ M` Sequel Pro ( MySQL )
 
 ### Layout `Fn`
 
