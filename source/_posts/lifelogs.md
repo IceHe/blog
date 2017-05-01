@@ -1,6 +1,6 @@
 title: 时间管理日志
 date: 2015-01-23
-updated: 2017-03-10
+updated: 2017-05-01
 categories: [time mgt]
 tags: [time mgt]
 description: Life Logs&#58; 个人时间使用情况的记录统计日志。
@@ -58,8 +58,11 @@ description: Life Logs&#58; 个人时间使用情况的记录统计日志。
 
 ## 2017
 
-一月：重构主项目，加班赶进度；沉迷 ACGN。
-二月：春节好好休息了一番。
+- 一月：加班重构主项目；沉迷 ACGMN。
+- 二月：春节，休憩。
+- 三月：思一年之计。
+- 四月：饮恨。
+- 五月：闭关。
 
 ## 2016
 
@@ -121,3 +124,9 @@ description: Life Logs&#58; 个人时间使用情况的记录统计日志。
     <sup>Nov: struggle, travel, Yunnan, Lijiang.</sup>
 12. [十二月：实习，旅行，北京。](/lifelogs/2014/12/index.html)
     <sup>Dec: intership, travel, Beijing.</sup>
+
+{% cq %}
+ 皇皇三十载，书剑两无成。
+
+《自洛之越》__孟浩然__
+{% endcq %}
