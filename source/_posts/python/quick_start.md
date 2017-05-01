@@ -10,12 +10,12 @@ description: 廖雪峰《Python 教程》笔记的再整理，主要是代码样
 - 参考：
     - 学习教程《[廖学峰的 Python 教程](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)》
 - 定位：
-    - 自己忘记一些 Python3 的语法及其用法时，简单查阅一下本文就能回想起来；
-    - 不会 Python3 但已经学会其它编程语言的人，阅读本文后，就能简单入门使用。
+    - 查阅自己的笔记来回忆遗忘的 Python3 用法（因为我不常用 Python）；
+    - 让不会 Python3 但已经学会其它编程语言的人，在阅读本文后，可以简单上手使用它。
 - 内容：
     - 本文由一些简单的说明、Python3 代码及其运行结果组成。
 - 工具：
-    - 笔记内容由 [Jupyter](http://jupyter.org/)（交互式的编程笔记）写就，导出为 Markdown。
+    - 笔记内容由 [Jupyter](http://jupyter.org/)（交互式的编程笔记）写就，以 Markdown 格式导出，并发布为本文。
 
 # 基础
 
