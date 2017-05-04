@@ -220,7 +220,7 @@ __荀子__
     - 替代用于 __用缩写加速文本输入__ 的 [__~~TextExpander~~__](https://textexpander.com/) <sup>Great</sup>、[__~~aText~~__](https://www.trankynam.com/atext/) <sup>Simple</sup>。
         输入缩写时，会根据用户的设定模板来自动拓展输入的文本，以提升输入效率，特别是高频重复的词句。
     - \-\-\-
-    - 替代用于 __稳定便捷地切换同一 App 的多个子窗口__ 的 [__~~HyperSwitcher~~__](https://bahoom.com/hyperswitch) <sup>Best</sup>。
+    - 替代用于 __稳定便捷地切换同一 App 的多个子窗口__ 的 [__~~HyperSwitch~~__](https://bahoom.com/hyperswitch) <sup>Best</sup>。
         - 这类应用的出现，是因为在某些 Apps 下，无法用系统的 <code>⌘ \`</code> 来切换其下的各个子窗口。
         - 用触摸板三指下滑的手势或快捷键触发 App Expose，可以显示当前应用的所有窗口，然后点击选择其中一个进行切换，但是不够快捷。
     - \-\-\-
@@ -262,7 +262,7 @@ __荀子__
         - 主要用于快速查询剪贴板的历史记录，并提取出需要的内容保存到当前的剪贴板中。
         - 支持 URL、纯文本、RTF、图片、文件等各种格式，包括剪贴历史的排序、内容的大小写转换、自定义文本的调用。
         - Others : [__Paste__](http://pasteapp.me/) 最好看！[~~Copied~~](http://copiedapp.com/)（没用过）。
-    - [__~~HyperSwitcher~~__](https://bahoom.com/hyperswitch) <sup>Best</sup>
+    - [__~~HyperSwitch~~__](https://bahoom.com/hyperswitch) <sup>Best</sup>
         稳定切换同一 App 下各子窗口。
         - HyperSwitcher 选择切换的窗口时，会显示各应用的缩略图。
         - 我用 [Keyboard Maestro](/tools/#Shortcuts) 来替代了它，因为我倾向于用更少的工具完成尽可能多的事，好用够用就行了。不过 HyperSwitcher 仍然是最佳选择，强烈推荐！

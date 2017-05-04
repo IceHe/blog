@@ -274,7 +274,7 @@ __荀子__
     防止 Mac 休眠。Mac 每次休眠后都会重启软件，导致软件丢失部分上下文，于是我无法在完全一样的环境下持续工作，一定程度上打断了工作，降低了效率。
 - [__Bartender 2__](https://www.macbartender.com/)
     收起或彻底隐藏毋需过多关注的菜单栏 App 图标。
-- [__HyperSwitcher__](https://bahoom.com/hyperswitch)
+- [__HyperSwitch__](https://bahoom.com/hyperswitch)
     稳定切换同一 App 下各子窗口。
 - [__ShowyEdge__](https://pqrs.org/osx/ShowyEdge/index.html.en) <sup>Great</sup>
     输入法状态提示。显示一条样式可定制的色带在屏幕顶部，以提示正在使用什么输入法。在全屏使用 App 时，也能轻易区分输入法状态！
