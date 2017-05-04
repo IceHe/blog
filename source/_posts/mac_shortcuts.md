@@ -1,6 +1,6 @@
 title: Mac 快捷键
 date: 2016-01-06
-updated: 2017-05-01
+updated: 2017-05-04
 categories: [Mac]
 tags: [Mac]
 description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
@@ -265,7 +265,7 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
 - Window
 
     <code>⌘ \`</code> Switch windows of the current App
-    It's enhanced by App [HyperSwitcher](https://bahoom.com/hyperswitch) | [Keyboard Maestro](#Keyboard-Maestro)
+    It's enhanced by App [HyperSwitch](https://bahoom.com/hyperswitch) | [Keyboard Maestro](#Keyboard-Maestro)
 
     `⌘ ^ f` Toggle Full Screen
     `⌘ ,` Preferences
@@ -300,14 +300,20 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
 ### Emacs Mode
 
 A few people know that it's supported in  by default in macOS.
+They don't work, if you append any modifier key to them.
 
 `^ f` = `←`
 `^ b` = `→`
+`^ p` = `↑`
+`^ n` = `↓`
 
 `^ a` = `⌘ ←` Home
 `^ e` = `⌘ →` End
 
-`^ h` = `⌫`
+`^ t` Exchange the Charactors before & after the cursor
+`^ o` Insert a Blank Line `'\n'` after the cursor
+
+`^ h` = `⌫` Del
 _`^ d` = `Fn ⌫` Forward Del_
 `^ k` Del to the End of the Line
 
