@@ -1,6 +1,6 @@
 title: 最喜爱的
 date: 2015-11-19
-updated: 2017-04-09
+updated: 2017-05-04
 categories: [read]
 tags: [read]
 description: Favorites&#58; 我最喜欢的书籍、电影、电视剧、动画、游戏…
@@ -95,12 +95,14 @@ __《论语·述而》__
     人性，理性。
 - [__寄生兽__](http://baike.baidu.com/view/15161941.htm?fromtitle=%E5%AF%84%E7%94%9F%E5%85%BD%E7%94%9F%E5%91%BD%E7%9A%84%E5%87%86%E5%88%&fromid=15149279&type=syn)
     人性，自然。
-- [__剑风传奇__](http://movie.douban.com/subject_search?search_text=%E5%89%91%E9%A3%8E%E4%BC%A0%E5%A5%87&cat=1002) <sup>__Best__</sup>
-    快意。
 - [__一拳超人__](http://movie.douban.com/subject/26339248/) <sup>__Best__</sup>
     反英雄主义。
+- [__剑风传奇__](http://movie.douban.com/subject_search?search_text=%E5%89%91%E9%A3%8E%E4%BC%A0%E5%A5%87&cat=1002) <sup>__Best__</sup>
+    快意。
 - [__进击的巨人__](http://movie.douban.com/subject_search?search_text=%E7%A0%B4%E5%88%83%E4%B9%8B%E5%89%91&cat=1002)
     热血。
+- [__火星异种__](https://movie.douban.com/subject/25825458/)
+    热血。<sup>（只推荐第一季，及其漫画）</sup>
 - [__破刃之剑__](http://movie.douban.com/subject_search?search_text=%E7%A0%B4%E5%88%83%E4%B9%8B%E5%89%91&cat=1002)
     机战。
 - [__永远之久远__](http://movie.douban.com/subject_search?search_text=%E6%B0%B8%E8%BF%9C%E4%B9%8B%E4%B9%85%E8%BF%9C&cat=1002)
