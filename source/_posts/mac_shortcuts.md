@@ -324,6 +324,7 @@ _`^ d` = `Fn ⌫` Forward Del_
         `^ w` = `⌥ ⌫` Del Preceding Word <sup>_custom_</sup>
         `^ u` = [ `^ a`, `^ k` ] Del the Whole Line <sup>_custom_</sup>
         These modifications can be supported in `Karabiner` too.
+- Ref : [(Emacs) Keyboard Shortcuts for Editing Text Fields in OS X](http://jblevins.org/log/kbd)
 
 ### Input Sources
 
