@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://icehe.me/"/>
-  <updated>2017-04-22T16:00:00.000Z</updated>
+  <updated>2017-05-06T16:00:00.000Z</updated>
   <id>http://icehe.me/</id>
   
   <author>
@@ -14,6 +14,274 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C++ 宏定义与位操作</title>
+    <link href="http://icehe.me/c++/macro_and_bit_operations/"/>
+    <id>http://icehe.me/c++/macro_and_bit_operations/</id>
+    <published>2017-05-06T16:00:00.000Z</published>
+    <updated>2017-05-06T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul>
+<li>提醒：不过多赘述「宏」以及本文相关的其它 C++ 基础知识，不明之处暂请自行 Google。</li>
+</ul>
+<h2 id="宏定义"><a href="#宏定义" class="headerlink" title="宏定义"></a>宏定义</h2><p>即 <strong>Macro</strong>。</p>
+<h3 id="Print"><a href="#Print" class="headerlink" title="Print"></a>Print</h3><p>Print Expr &amp; Result<br>便捷地打印程序输出：变量或表达式，以及计算结果。</p>
+<ul>
+<li><p><strong>重复</strong> <code>cout &lt;&lt; variable &lt;&lt; endl;</code> <strong>这种用于打印程序输出的代码实在麻烦，但不得不写，</strong><br>  <strong>所以，为了更便捷地打印程序输出，写了一些辅助的「宏」。</strong></p>
+  <figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">define</span> v(x) cout <span class="meta-string">&lt;&lt; '\t' &lt;&lt; #x &lt;&lt; "  =  " &lt;&lt; (x) &lt;&lt; endl;</span></span></div></pre></td></tr></table></figure>
+<ul>
+<li>关键：用宏定义的展开，减少代码量。</li>
+<li><code>#x</code> 的语法可以获取 <code>x</code> 所代表的变量或表达式的具体内容。</li>
+<li><code>(x)</code> 中的括号不能去掉！否则可能会得出意想不到的错误结果。<ul>
+<li>提示：在程序的预处理阶段，会展开代码中「宏定义」，即对「宏名」进行简单的字符串替换，详情自行 Google。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>打印工具的宏定义</p>
+  <figure class="highlight"><figcaption><span>print_tools.h</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">// 说明："CPP_TEST" 为本 Demo 项目名</div><div class="line">#ifndef CPP_TEST_PRINT_TOOLS_H</div><div class="line">#define CPP_TEST_PRINT_TOOLS_H</div><div class="line"></div><div class="line">using std::cout;</div><div class="line">using std::endl;</div><div class="line"></div><div class="line">// 打印字符串</div><div class="line">#define l(str) cout &lt;&lt; str &lt;&lt; endl;</div><div class="line"></div><div class="line">// 打印变量或表达式，及其结果</div><div class="line">#define v(x) cout &lt;&lt; '\t' &lt;&lt; #x &lt;&lt; "  =  " &lt;&lt; (x) &lt;&lt; endl;</div><div class="line"></div><div class="line">// 打印一个空行（分隔不同的程序输出）</div><div class="line">#define el cout &lt;&lt; endl;</div><div class="line"></div><div class="line">#endif //CPP_TEST_PRINT_TOOLS_H</div></pre></td></tr></table></figure>
+<ul>
+<li>说明：这种声明是为了避免项目重复引入该头文件（即 <code>#include &quot;print_tools.h&quot;</code> ）时，重复定义其中的内容。<figure class="highlight c++"><figcaption><span>作用：防止重复定义</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">ifndef</span> CPP_TEST_PRINT_TOOLS_H</span></div><div class="line"><span class="meta">#<span class="meta-keyword">define</span> CPP_TEST_PRINT_TOOLS_H</span></div><div class="line"><span class="comment">// …</span></div><div class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">//CPP_TEST_PRINT_TOOLS_H</span></span></div></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>演示打印工具</p>
+  <figure class="highlight"><figcaption><span>main.cpp</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div></pre></td><td class="code"><pre><div class="line">#include &lt;iostream&gt;</div><div class="line">#include "print_tools.h" // 引入上述的宏</div><div class="line">//using namespace std; // 不将整个 std 引入，因为其中很多东西都用不上。</div><div class="line"></div><div class="line">/* 后文的样例中，需要额外引入的「库和对象」放这 */</div><div class="line">#include &lt;map&gt;</div><div class="line">using std::map;</div><div class="line">// …</div><div class="line"></div><div class="line">/* 宏定义 */</div><div class="line">#define MAX(a, b) ((abs((a) - (b)) == (a) - (b)) ? (a) : (b))</div><div class="line">// …</div><div class="line"></div><div class="line">/* 「函数前置声明」放这 */</div><div class="line">bool isIncr(int *ary, int count);</div><div class="line">// …</div><div class="line"></div><div class="line">int main() &#123;</div><div class="line">    /* 运行的「测试代码」放这 */</div><div class="line">    l("test")</div><div class="line">    int x = 1;</div><div class="line">    int y = -1;</div><div class="line">    v(x)</div><div class="line">    v(x &gt;&gt; 31)</div><div class="line">    v(y)</div><div class="line">    v(y &gt;&gt; 31)</div><div class="line">    el</div><div class="line"></div><div class="line">    l("MAX")</div><div class="line">    v(MAX(10, 20))</div><div class="line">    v(MAX(-10, -20))</div><div class="line">    el</div><div class="line"></div><div class="line">    l("用一个递归算法，判断一个数组中的值，是否递增？")</div><div class="line">    int ary = new int[5]&#123;1, 4, 5, 9, 7&#125;;</div><div class="line">    v(isIncr(ary, 5))</div><div class="line">    delete []ary;</div><div class="line">    ary = new int[5]&#123;1, 4, 5, 7, 9&#125;;</div><div class="line">    v(isIncr(ary, 5))</div><div class="line">    delete []ary;</div><div class="line">    el</div><div class="line"></div><div class="line">    //…</div><div class="line"></div><div class="line">    return 0;</div><div class="line">&#125;</div><div class="line"></div><div class="line">/* 「函数定义」放这 */</div><div class="line">bool isIncr(int *ary, int count); &#123;</div><div class="line">    return count == 1</div><div class="line">        || (count != 0</div><div class="line">            &amp;&amp; ary[count - 2] &lt;= ary[count - 1]</div><div class="line">            &amp;&amp; isIncr(ary, --count));</div><div class="line">&#125;</div><div class="line">// …</div></pre></td></tr></table></figure>
+  <figure class="highlight plain"><figcaption><span>输出</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">test</div><div class="line">    x  =  1</div><div class="line">    x &gt;&gt; 31  =  0</div><div class="line">    y  =  -1</div><div class="line">    y &gt;&gt; 31  =  -1</div><div class="line"></div><div class="line">MAX</div><div class="line">    MAX(10, 20)  =  20</div><div class="line">    MAX(-10, -20)  =  -10</div><div class="line"></div><div class="line">用一个递归算法，判断一个数组中的值，是否递增？</div><div class="line">    isIncr(ary, 5)  =  0</div><div class="line">    isIncr(ary, 5)  =  1</div><div class="line"></div><div class="line">…</div></pre></td></tr></table></figure>
+</li>
+<li><p>进阶可参考《<a href="https://onevcat.com/2014/01/black-magic-in-macro/" target="_blank" rel="external">宏定义的黑魔法 - 宏菜鸟起飞手册</a>》</p>
+</li>
+</ul>
+<h3 id="数值的大小关系"><a href="#数值的大小关系" class="headerlink" title="数值的大小关系"></a>数值的大小关系</h3><p>判断两个数值的大小关系。</p>
+<figure class="highlight c++"><figcaption><span>以宏定义的方式实现</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">define</span> MAX(a, b) (abs((a) - (b)) == ((a) - (b)) ? (a) : (b))</span></div></pre></td></tr></table></figure>
+<h3 id="数值的-sign"><a href="#数值的-sign" class="headerlink" title="数值的 sign"></a>数值的 sign</h3><p>判断 signed（有符号）类型的数值的 sign（正负符号）。</p>
+<figure class="highlight c++"><figcaption><span>以宏定义的方式实现</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">define</span> IS_UNSIGNED(a) (a &gt;= 0 &amp;&amp; ~a &gt;= 0)</span></div></pre></td></tr></table></figure>
+<h3 id="unsigned-数值类型"><a href="#unsigned-数值类型" class="headerlink" title="unsigned 数值类型"></a>unsigned 数值类型</h3><p>判断数值类型是否有符号（signed），即是否区分正负。</p>
+<figure class="highlight c++"><figcaption><span>以宏定义的方式实现</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">define</span> IS_UNSIGNED_TYPE(type) ((type)0 - 1 &gt; 0)</span></div></pre></td></tr></table></figure>
+<ul>
+<li>各种语言的数值类型基本都实现了正负值的区分（signed），<br>  所以只使用 <code>unsigned</code> 来标识少数无符号的数值类型，而很少出现 <code>signed</code> 这种说法。</li>
+</ul>
+<h3 id="int-变量的-bytes"><a href="#int-变量的-bytes" class="headerlink" title="int 变量的 bytes"></a>int 变量的 bytes</h3><p>当前运行环境下（与 CPU 和 OS 有关），一个 int（整型）数值类型变量所占用的 bytes（字节数）。</p>
+<figure class="highlight c++"><figcaption><span>以宏定义的方式实现</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">`<span class="meta">#<span class="meta-keyword">define</span> SIZE_OF(value) ((char*)(&amp;value + 1) - (char*)&amp;value)`</span></div></pre></td></tr></table></figure>
+<h3 id="宏定义语法"><a href="#宏定义语法" class="headerlink" title="宏定义语法 ##"></a>宏定义语法 <code>##</code></h3><p><code>##</code> 用于连接前后两段代码。<br><figure class="highlight c++"><figcaption><span>宏定义</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">define</span> CONCAT_CODE(a, b) (a##e##b)</span></div></pre></td></tr></table></figure></p>
+<figure class="highlight c++"><figcaption><span>测试代码</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">v(CONCAT_CODE(<span class="number">2</span>, <span class="number">3</span>))</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><figcaption><span>输出</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">CONCAT_CODE(2, 3)  =  2000</div></pre></td></tr></table></figure>
+<ul>
+<li>解释：<br>  因为 <code>CONCAT_CODE(2, 3)</code> 将代码 <code>2</code>、<code>e</code>、<code>3</code> 连接成 <code>2e3</code>，<br>  等于 int <code>2 * pow(10, 3)</code> = <code>2 * 1000</code> = <code>2000</code>。</li>
+</ul>
+<hr>
+<h2 id="位操作"><a href="#位操作" class="headerlink" title="位操作"></a>位操作</h2><p>即 <strong>Bit Operations</strong>，对数值（用二进制表示）的 bit（比特位）进行直接操作。</p>
+<h3 id="int-整型数值"><a href="#int-整型数值" class="headerlink" title="int 整型数值"></a>int 整型数值</h3><p><strong>整型</strong>，表示整数的数值类型。</p>
+<ul>
+<li>下文中，进行位操作的变量的类型，主要为 int 等表示整数的数值类型。<br>  暂不包括浮点数，<code>float</code>、<code>double</code>、<code>long</code>。</li>
+<li>int 可描述的数值范围：<ul>
+<li>32 位（bits）操作系统（OS）下，占用 4 bytes<br>  <code>-2^32</code> ~ <code>2^32 - 1</code>（此处 <code>2^32</code> 表示 2 的 32 次方）</li>
+<li>64 位操作系统下，占用 8 bytes<br>  <code>-2^64</code> ~ <code>2^64 - 1</code></li>
+<li><strong>下文中，默认运行环境为 32 位的操作系统</strong>。</li>
+</ul>
+</li>
+<li>数值表示方式：<ul>
+<li><code>0x4F</code> 中的 <code>0x</code> 表示该数值在以 16 进制进行展示；</li>
+<li><code>&#39;0010&#39;B</code> 中的 <code>B</code> 表示该数值在以 2 进制进行展示。</li>
+<li>注意：C / C++ 中，不支持直接以 2 进制的形式声明数值；<br>  如有需要，通常以 16 进制的形式声明和表示二进制数值（bits）。</li>
+</ul>
+</li>
+<li>以 16 进制展示数值：<ul>
+<li><code>0x 00 00 00 00</code> = int <code>0</code></li>
+<li><code>0x 00 00 00 01</code> = int <code>+1</code></li>
+<li><code>0x FF FF FF FF</code> = int <code>-1</code></li>
+</ul>
+</li>
+<li>下文默认你知晓「在底层如何以二进制比特位来储存和表示整型数值，特别是『负数』。」<ul>
+<li>负数：以二进制方式进行储存和表示时，最高位（最左）的 bit 是 1。</li>
+<li>int <code>0</code> 在物理层面使用了 <code>0x 00 00 00 00</code> 这个数值来表示，<br>  所以，int 等整数数值类型，所能描述的正数的范围被比负数范围小 1。</li>
+</ul>
+</li>
+</ul>
+<h3 id="移位求积"><a href="#移位求积" class="headerlink" title="移位求积"></a>移位求积</h3><ul>
+<li><p>快速求 int 2 的 3 次方<br>  每左移一位，数值增大 2 倍（除非溢出）</p>
+  <figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="number">2</span> &lt;&lt; <span class="number">3</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>快速求 int x 的 7 倍</p>
+  <figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">(x &lt;&lt; <span class="number">3</span>) - x</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="2-的幂"><a href="#2-的幂" class="headerlink" title="2 的幂"></a>2 的幂</h3><p>判断 int 数值是否为 2 的若干次幂（即 2 的 n 次方）。</p>
+<p>数值在计算机中通常都以 0 和 1 的二进制形式存储着，<br>其实关键在于，这个问题等价于判断一个整数的二进制形式是否「有且只有一位 bit 为 1」。</p>
+<figure class="highlight c++"><figcaption><span>测试代码</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">int</span> x = <span class="number">1024</span>;</div><div class="line">v(x)</div><div class="line">v(<span class="built_in">std</span>::<span class="built_in">bitset</span>&lt;<span class="number">12</span>&gt;(x))</div><div class="line">v(!(x &amp; (x - <span class="number">1</span>)))</div><div class="line">x = <span class="number">513</span>;</div><div class="line">v(x)</div><div class="line">v(<span class="built_in">std</span>::<span class="built_in">bitset</span>&lt;<span class="number">12</span>&gt;(x))</div><div class="line">v(!(x &amp; (x - <span class="number">1</span>)))</div></pre></td></tr></table></figure>
+<p>思路：<code>x - 1</code> 等价于「二进制表示的整数 <code>x</code>，从最后（右）一位 1 开始（包括这个 1）的所有 bit 都取反」，<br>那么 <code>x &amp; (x - 1)</code> 就是去除 <code>x</code> 二进制表示中的最后一个为 1 的 bit；<br>如果去除最后一位 1 后 <code>x</code> 变成了 0 了，它就是 2 的若干次幂。</p>
+<figure class="highlight plain"><figcaption><span>输出</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">判断一个 int 是否为 2 的若干次幂</div><div class="line">	x  =  1024</div><div class="line">	std::bitset&lt;12&gt;(x)  =  010000000000</div><div class="line">	!(x &amp; (x - 1))  =  1</div><div class="line">	x  =  513</div><div class="line">	std::bitset&lt;12&gt;(x)  =  001000000001</div><div class="line">	!(x &amp; (x - 1))  =  0</div></pre></td></tr></table></figure>
+<h3 id="求负数"><a href="#求负数" class="headerlink" title="求负数"></a>求负数</h3><p>以位操作的方式，<strong>求 int x 的负数</strong>。<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// `~` 是「按位取反」的操作符</span></div><div class="line">-x = ~x + <span class="number">1</span></div><div class="line">-x = ~(x - <span class="number">1</span>)</div></pre></td></tr></table></figure></p>
+<ul>
+<li>不详述推导过程，只提供简单的记忆方式：<ul>
+<li>假设现在的运行环境是 8 位的操作系统，<ul>
+<li><code>&#39;00 00 00 00&#39;B</code> = int <code>0</code></li>
+<li><code>&#39;00 00 00 01&#39;B</code> = int <code>+1</code></li>
+<li><code>&#39;11 11 11 11&#39;B</code> = int <code>-1</code></li>
+</ul>
+</li>
+<li>对以上三个数值进行通过简单的观察和推算，就能得出上面提供的公式。</li>
+</ul>
+</li>
+</ul>
+<h3 id="求平均值"><a href="#求平均值" class="headerlink" title="求平均值"></a>求平均值</h3><p>求两个 int 数值的平均值</p>
+<ul>
+<li><p>一般求法</p>
+  <figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">(x + y) / <span class="number">2</span></div></pre></td></tr></table></figure>
+<p>  缺点：如果 <code>x + y</code> 的数值超出 int 可描述的数值范围（即溢出），会得出错误的结果。</p>
+</li>
+<li><p>位操作的求法</p>
+  <figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">(x &amp; y) + ((x ^ y) &gt;&gt; <span class="number">1</span>)</div></pre></td></tr></table></figure>
+<p>  提示：从二进制角度来说，</p>
+<ul>
+<li><code>(x &amp; y)</code> 等于「所有为 <code>1</code> 的 bit（比特位）相加的结果除以二」；</li>
+<li><code>(x ^ y) &gt;&gt; 1</code> 等于「将 <code>x</code>、<code>y</code> 两数相加等于 <code>1</code> 的 bit（一个为 <code>0</code> 另一个为 <code>1</code>）除以二」。</li>
+</ul>
+</li>
+</ul>
+<h3 id="求绝对值"><a href="#求绝对值" class="headerlink" title="求绝对值"></a>求绝对值</h3><p>以位操作的方式，<strong>求 int x 的绝对值</strong>。<br>「求负数」的延伸。以下为思路：</p>
+<ul>
+<li>sign（符号位）的计算：<br>  x &lt; 0 时，<code>x &gt;&gt; 31</code> = <code>-1</code><br>  x &gt;= 0 时，<code>x &gt;&gt; 31</code> = <code>0</code><ul>
+<li><code>&gt;&gt;</code> 右移操作，最高位（最左）用原最高位的数值进行补位：<br>  原最高位为 1，右移后，新的最高位补 1，<br>  原最高位为 0，右移后，新的最高位补 0。</li>
+</ul>
+</li>
+<li>数值取反：<br>  <code>~x</code> = <code>-1 ^ x</code> = <code>0xFFFFFFFF ^ x</code><ul>
+<li>代入求负数的公式: <code>-x</code> = <code>~x + 1</code> = <code>(-1 ^ x) + 1</code><ul>
+<li>注意：<code>^</code> <code>&gt;&gt;</code> 等位操作符的优先级低于 <code>+</code> <code>-</code>，<br>  所以，书写时不能漏掉括号，以免算式出错。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>补充条件:<br>  <code>x</code> = <code>0 ^ x</code>（进一步观察得到的，可能需要灵感）</li>
+<li>观察规律：<br>  x &lt; 0 时，<code>abs(x)</code> = <code>-x</code> = <code>(-1 ^ x) + 1</code> = <code>(-1 ^ x) - (-1)</code><br>  x &gt;= 0 时，<code>abs(x)</code> = <code>x</code> = <code>0 ^ x</code> = <code>(0 ^ x) - (0)</code></li>
+<li>得到启示：<br>  <code>abs(x)</code> = <code>((x &gt;&gt; 31) ^ x) - (x &gt;&gt; 31)</code></li>
+<li><p>解法：</p>
+  <figure class="highlight c++"><figcaption><span>函数声明</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">myAbs</span><span class="params">(<span class="keyword">int</span> x)</span> </span>&#123;</div><div class="line">    <span class="keyword">int</span> mask = x &gt;&gt; <span class="number">31</span>;</div><div class="line">    <span class="keyword">return</span> (mask ^ x) - mask;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+  <figure class="highlight c++"><figcaption><span>测试代码</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">v(myAbs(<span class="number">0</span>))</div><div class="line">v(myAbs(<span class="number">1</span>))</div><div class="line">v(myAbs(<span class="number">-1</span>))</div><div class="line">v(myAbs(<span class="number">17</span>))</div><div class="line">v(myAbs(<span class="number">-29</span>))</div></pre></td></tr></table></figure>
+  <figure class="highlight plain"><figcaption><span>输出</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">myAbs(0)  =  0</div><div class="line">myAbs(1)  =  1</div><div class="line">myAbs(-1)  =  1</div><div class="line">myAbs(17)  =  17</div><div class="line">myAbs(-29)  =  29</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="多少个-bit-为-1"><a href="#多少个-bit-为-1" class="headerlink" title="多少个 bit 为 1"></a>多少个 bit 为 1</h3><p>数值变量的二进制表示中，<strong>有多少个 bit（比特位）为 1</strong>。</p>
+<ul>
+<li>说明：暂时想到的方法，还是需要用到循环（复杂度 <code>o(n)</code>）。</li>
+<li>提示：为 <code>1</code> 的 bit 分布稀疏时，如何快速求解（减少代码所需循环次数）！</li>
+<li><p>基础知识：将一个 int 变量（二进制表示中，从左到右数）<strong>最后一个为 <code>1</code> 的 bit 设置为 <code>0</code></strong>：</p>
+  <figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">b &amp; (b - <span class="number">1</span>)</div></pre></td></tr></table></figure>
+</li>
+<li><p>解法：</p>
+  <figure class="highlight c++"><figcaption><span>函数声明</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">countBit</span><span class="params">(<span class="keyword">int</span> x)</span> </span>&#123;</div><div class="line">    <span class="keyword">int</span> cnt = <span class="number">0</span>;</div><div class="line">    <span class="keyword">while</span> (x != <span class="number">0</span>) &#123;</div><div class="line">        ++cnt;</div><div class="line">        x &amp;= x - <span class="number">1</span>;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">return</span> cnt;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+  <figure class="highlight c++"><figcaption><span>测试代码</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">v(countBit(<span class="number">46</span>)) <span class="comment">// int 46 == '0101110'B</span></div><div class="line">v(countBit(<span class="number">21</span>)) <span class="comment">// int 37 == '0010101'B</span></div></pre></td></tr></table></figure>
+  <figure class="highlight plain"><figcaption><span>输出</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">countBit(46)  =  4</div><div class="line">countBit(21)  =  3</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="相邻-bit-不同时为-1"><a href="#相邻-bit-不同时为-1" class="headerlink" title="相邻 bit 不同时为 1"></a>相邻 bit 不同时为 1</h3><p>n 位的二进制数字串，有多少个子串不存在相邻的 bit 同时为 1。</p>
+<p>思路：<br><code>n == 1</code> 时，有 <code>0</code> 和 <code>1</code> 两种符合条件的可能情况；<br><code>n == 2</code> 时，则有 <code>00</code>、<code>01</code> 和 <code>10</code> 三种可能；<br><code>n == 3</code> 时，则有 <code>000</code>、<code>001</code>、<code>010</code>、<code>100</code>、<code>101</code> 五种可能…<br>根据归纳法，我们发现它类似于斐波那契数列。</p>
+<figure class="highlight c++"><figcaption><span>函数声明</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">separate1</span><span class="params">(<span class="keyword">unsigned</span> <span class="keyword">int</span> n)</span> </span>&#123;</div><div class="line"><span class="comment">//    switch(n) &#123;</span></div><div class="line"><span class="comment">//        case 1:</span></div><div class="line"><span class="comment">//            return 2;</span></div><div class="line"><span class="comment">//        case 2:</span></div><div class="line"><span class="comment">//            return 3;</span></div><div class="line"><span class="comment">//        default:</span></div><div class="line"><span class="comment">//            return separate1(n - 2) + separate1(n - 1);</span></div><div class="line"><span class="comment">//    &#125;</span></div><div class="line"></div><div class="line">    <span class="comment">// 压缩</span></div><div class="line">    <span class="keyword">return</span> <span class="number">1</span> == n ? <span class="number">2</span> :</div><div class="line">           <span class="number">2</span> == n ? <span class="number">3</span> :</div><div class="line">           separate1(n - <span class="number">2</span>) + separate1(n - <span class="number">1</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight c++"><figcaption><span>测试代码</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">l(<span class="string">"n 位的二进制数字串，有多少个子串不存在相邻的 bit 同时为 1"</span>)</div><div class="line">v(separate1(<span class="number">1</span>))</div><div class="line">v(separate1(<span class="number">2</span>))</div><div class="line">v(separate1(<span class="number">3</span>))</div><div class="line">v(separate1(<span class="number">4</span>))</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><figcaption><span>输出</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">n 位的二进制数字串，有多少个子串不存在相邻的 bit 同时为 1</div><div class="line">	separate1(1)  =  2</div><div class="line">	separate1(2)  =  3</div><div class="line">	separate1(3)  =  5</div><div class="line">	separate1(4)  =  8</div></pre></td></tr></table></figure>
+<h3 id="不用-的除法"><a href="#不用-的除法" class="headerlink" title="不用 / 的除法"></a>不用 <code>/</code> 的除法</h3><p>不用除号完成除法。（利用位操作和加减法，甚至乘法）</p>
+<figure class="highlight c++"><figcaption><span>函数声明：方法 1 - 除法的直式计算（这里没有用到 * 乘号）</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">div1</span><span class="params">(<span class="keyword">int</span> x, <span class="keyword">int</span> y)</span> </span>&#123;</div><div class="line">    <span class="keyword">if</span> (y == <span class="number">0</span>) &#123;</div><div class="line">        <span class="keyword">return</span> <span class="number">0</span>; <span class="comment">// should error</span></div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">if</span> (x &lt; y) &#123;</div><div class="line">        <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">int</span> c = y;</div><div class="line">    <span class="keyword">int</span> k = <span class="number">0</span>;</div><div class="line">    <span class="keyword">for</span> (; x &gt;= c; c &lt;&lt;= <span class="number">1</span>, ++k) &#123;</div><div class="line">        <span class="keyword">if</span> (x - c &lt; y) &#123;</div><div class="line">            <span class="keyword">return</span> <span class="number">1</span> &lt;&lt; k;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">return</span> div2(x - (c &gt;&gt; <span class="number">1</span>), y) + (<span class="number">1</span> &lt;&lt; (k - <span class="number">1</span>));</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>除法的直式计算，就是我们国内小学教育教的那种除法算法，即是平时用草稿手写进行的那种除法计算。<br>以上方法，并不便于进行详细解释。所以，简单地说，可以这么理解：<br>我们平时进行的是十进制的直式除法计算，这里只是在二进制下进行这一过程。</p>
+<figure class="highlight c++"><figcaption><span>函数声明：方法 2 - 稍加改进方法 1</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">div2</span><span class="params">(<span class="keyword">const</span> <span class="keyword">int</span> x, <span class="keyword">const</span> <span class="keyword">int</span> y)</span> </span>&#123;</div><div class="line">    <span class="keyword">int</span> leftNum = x;</div><div class="line">    <span class="keyword">int</span> result = <span class="number">0</span>;</div><div class="line">    <span class="keyword">while</span> (leftNum &gt;= y) &#123;</div><div class="line">        <span class="keyword">int</span> multi = <span class="number">1</span>;</div><div class="line">        <span class="keyword">while</span> (multi * y &lt;= (leftNum &gt;&gt; <span class="number">1</span>)) &#123;</div><div class="line">            multi &lt;&lt;= <span class="number">1</span>;</div><div class="line">        &#125; <span class="comment">// multi * y 大于剩余数的一半时，终止</span></div><div class="line">        result += multi;</div><div class="line">        leftNum -= multi * y;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">return</span> result;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight c++"><figcaption><span>测试代码</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">l(<span class="string">"不用除号实现除法"</span>)</div><div class="line">v(div1(<span class="number">1112</span>, <span class="number">12</span>))</div><div class="line">v(div2(<span class="number">1112</span>, <span class="number">12</span>))</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><figcaption><span>输出</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">不用除号实现除法</div><div class="line">	div1(1112, 12)  =  92</div><div class="line">	div2(1112, 12)  =  92</div></pre></td></tr></table></figure>
+<h3 id="不用-的加法"><a href="#不用-的加法" class="headerlink" title="不用 + 的加法"></a>不用 <code>+</code> 的加法</h3><p>不用加号完成加法。</p>
+<p>思路：在二进制下，对两个数的相加为 1 的 bit，用「<code>^</code> 异或」来求和；<br>对两个数相加为 0 并进位 1 的 bit，先进行「<code>&amp;</code> 按位与」操作，然后「<code>&lt;&lt; 1</code> 进位」，然后再求和。</p>
+<figure class="highlight c++"><figcaption><span>函数声明：方法 1 - 递归</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">add1</span><span class="params">(<span class="keyword">int</span> x, <span class="keyword">int</span> y)</span> </span>&#123;</div><div class="line"><span class="comment">//    if (0 == y) &#123;</span></div><div class="line"><span class="comment">//        return x;</span></div><div class="line"><span class="comment">//    &#125;</span></div><div class="line"><span class="comment">//</span></div><div class="line"><span class="comment">//    int tmpSum = x ^ y;       // 求和</span></div><div class="line"><span class="comment">//    int carry = (x &amp; y) &lt;&lt; 1; // 进位</span></div><div class="line"><span class="comment">//    return add(tmpSum, carry);</span></div><div class="line"></div><div class="line">    <span class="comment">// 缩写</span></div><div class="line">    <span class="keyword">return</span> <span class="number">0</span> == y ? x : add1(x ^ y, (x &amp; y) &lt;&lt; <span class="number">1</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight c++"><figcaption><span>函数声明：方法 2 - 迭代</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">add2</span><span class="params">(<span class="keyword">int</span> x, <span class="keyword">int</span> y)</span> </span>&#123;</div><div class="line">    <span class="keyword">int</span> sum = <span class="number">0</span>;</div><div class="line">    <span class="keyword">while</span> (y != <span class="number">0</span>) &#123;</div><div class="line">        sum = x ^ y;</div><div class="line">        y = (x &amp; y) &lt;&lt; <span class="number">1</span>;</div><div class="line">        x = sum;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">return</span> sum;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight c++"><figcaption><span>测试代码</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">l(<span class="string">"不用加号实现加法"</span>)</div><div class="line">v(add1(<span class="number">98</span>, <span class="number">103</span>))</div><div class="line">v(add1(<span class="number">10</span>, <span class="number">6</span>))</div><div class="line">v(add2(<span class="number">98</span>, <span class="number">103</span>))</div><div class="line">v(add2(<span class="number">10</span>, <span class="number">6</span>))</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><figcaption><span>输出</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">不用加号实现加法</div><div class="line">	add1(98, 103)  =  201</div><div class="line">	add1(10, 6)  =  16</div><div class="line">	add2(98, 103)  =  201</div><div class="line">	add2(10, 6)  =  16</div></pre></td></tr></table></figure>
+<h3 id="不用-的乘法"><a href="#不用-的乘法" class="headerlink" title="不用 * 的乘法"></a>不用 <code>*</code> 的乘法</h3><p>不用乘号完成乘法。</p>
+<p>思路：跟上文说的「不用 <code>/</code> 做除法」的思路类似，也是参考小学的时候学的「写草稿计算乘积」的算法。</p>
+<p>基础：顺着上文 <a href="2-的幂">「2 的幂」</a> 小节的思路，可以知道<br>得出一个 int 整数 <strong>最后一个为 <code>1</code> 的 bit 所代表的数值</strong>：<br><figure class="highlight c++"><figcaption><span>两个公式等价</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">b &amp; ~(b - <span class="number">1</span>)</div><div class="line">b &amp; (-b)</div></pre></td></tr></table></figure></p>
+<figure class="highlight c++"><figcaption><span>函数声明</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 需要额外引用的工具库</span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;map&gt;</span></span></div><div class="line"><span class="keyword">using</span> <span class="built_in">std</span>::<span class="built_in">map</span>;</div><div class="line"><span class="keyword">using</span> <span class="built_in">std</span>::<span class="built_in">string</span>;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">multiply</span><span class="params">(<span class="keyword">int</span> x, <span class="keyword">int</span> y)</span> </span>&#123;</div><div class="line">    <span class="keyword">bool</span> neg = (y &lt; <span class="number">0</span>);</div><div class="line">    <span class="keyword">if</span> (neg) &#123;</div><div class="line">        y = -y;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="built_in">map</span>&lt;<span class="keyword">int</span>, <span class="keyword">int</span>&gt; bitMap;</div><div class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">32</span>; ++i) &#123;</div><div class="line">        bitMap[<span class="number">1</span> &lt;&lt; i] = i;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">int</span> product = <span class="number">0</span>;</div><div class="line">    <span class="keyword">while</span> (y &gt; <span class="number">0</span>) &#123;</div><div class="line">        <span class="comment">// `被乘数 * 乘数` 找出乘数在二进制下的最后一位 1 在第 n 位</span></div><div class="line">        <span class="keyword">int</span> shiftBits = bitMap[y &amp; ~(y - <span class="number">1</span>)];</div><div class="line">        <span class="comment">// 叠加被乘数自身被左移 n 位的值（即乘以 2 的次方）</span></div><div class="line">        product += (x &lt;&lt; shiftBits);</div><div class="line">        <span class="comment">// 去掉乘数在二进制下的最后一位为 1 的 bit！</span></div><div class="line">        y &amp;= (y - <span class="number">1</span>);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">if</span> (neg) &#123;</div><div class="line">        product = -product;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">return</span> product;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight c++"><figcaption><span>测试代码</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">l(<span class="string">"不用乘号实现乘法"</span>)</div><div class="line">v(multiply(<span class="number">10</span>, <span class="number">6</span>))</div><div class="line">v(multiply(<span class="number">29</span>, <span class="number">7</span>))</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><figcaption><span>输出</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">不用乘号实现乘法</div><div class="line">	multiply(10, 6)  =  60</div><div class="line">	multiply(29, 7)  =  203</div></pre></td></tr></table></figure>
+<h3 id="大小端"><a href="#大小端" class="headerlink" title="大小端"></a>大小端</h3><p>判断内存以什么字节序储存数据：Big Endian or Little Endian 大小端？</p>
+<ul>
+<li>简要说明大小端的区别（字节序）：<ul>
+<li>内存 <code>0x4000</code> ~ <code>0x4003</code> 的低地址在左，高地址在右<ul>
+<li>内存地址：从低到高（从左到右）。</li>
+</ul>
+</li>
+<li>数据 <code>0x 12 34 56 78</code> 高字节在左，低字节在右！<ul>
+<li>字节高低：从高到低（从左到右）。</li>
+</ul>
+</li>
+<li><strong>大端：从左到右</strong> 存放数据（操作系统常用顺序）<ul>
+<li>高字节，从 <strong>低地址</strong> 开始放。</li>
+</ul>
+</li>
+<li><strong>小端：从右到左</strong> 存放数据（网络传输常用顺序）<ul>
+<li>高字节，从 <strong>高地址</strong> 开始放。</li>
+</ul>
+</li>
+<li>详情参考：<a href="http://blog.csdn.net/ce123_zhouwei/article/details/6971544" target="_blank" rel="external">详解大端模式和小端模式</a></li>
+</ul>
+</li>
+<li><p>解法：</p>
+  <figure class="highlight c++"><figcaption><span>函数声明</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">bool</span> <span class="title">isLittleEndian</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="keyword">unsigned</span> <span class="keyword">short</span> data = <span class="number">0x1122</span>;</div><div class="line">    <span class="keyword">return</span> <span class="number">0x22</span> == *((<span class="keyword">unsigned</span> <span class="keyword">char</span>*)&amp;data);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+  <figure class="highlight c++"><figcaption><span>测试代码</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">v(isLittleEndian()) <span class="comment">// 运行在 MBP 的 macOS 上。</span></div></pre></td></tr></table></figure>
+  <figure class="highlight plain"><figcaption><span>输出</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">isLittleEndian()  =  1</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="数值交换"><a href="#数值交换" class="headerlink" title="数值交换"></a>数值交换</h3><p>交换两个变量的数值。</p>
+<figure class="highlight c++"><figcaption><span>函数声明：方法 0 - 借助临时变量</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">void</span> <span class="title">swap0</span><span class="params">(<span class="keyword">int</span> &amp;x, <span class="keyword">int</span> &amp;y)</span> </span>&#123;</div><div class="line">    <span class="keyword">int</span> tmp = x;</div><div class="line">    x = y;</div><div class="line">    y = x;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><strong>现在要求：在不使用第三个变量的情况下，实现两个变量的数值交换。</strong></p>
+<figure class="highlight c++"><figcaption><span>函数声明：方法 1 - 加减法</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">void</span> <span class="title">swap1</span><span class="params">(<span class="keyword">int</span> &amp;x, iny &amp;y)</span> </span>&#123;</div><div class="line">    x = x + y;  <span class="comment">//  原理：</span></div><div class="line">    y = x - y;  <span class="comment">//  = (x + y) - y = x</span></div><div class="line">    x = x - y;  <span class="comment">//  = (x + y) - x = y</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>利用「加减」来交换变量的方法已经很巧妙了，<br>可是当 x + y 的值超出 int 能表示的数值范围（溢出）时，会出错。</p>
+<figure class="highlight c++"><figcaption><span>函数声明：方法 2 - 位操作</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">void</span> <span class="title">swap2</span><span class="params">(<span class="keyword">int</span> &amp;x, <span class="keyword">int</span> &amp;y)</span> </span>&#123;</div><div class="line">    <span class="comment">//  因为 x ^ x = 0，0 ^ x = x 且 x ^ y ^ z = x ^ z ^ y（交换率）</span></div><div class="line">    x = x ^ y;  <span class="comment">//  所以：</span></div><div class="line">    y = x ^ y;  <span class="comment">//  = (x ^ y) ^ y = x ^ (y ^ y) = x ^ 0 = x</span></div><div class="line">    x = x ^ y;  <span class="comment">//  = (x ^ y) ^ x = (x ^ x) ^ y = 0 ^ y = y</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>利用更精妙的「位操作」方法，可以完美解决这个问题！<br>而且还特别好记，因为每一步都是 <code>x ^ y</code>。</p>
+<figure class="highlight c++"><figcaption><span>测试代码</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">x = <span class="number">12</span>;</div><div class="line">y = <span class="number">34</span>;</div><div class="line">l(<span class="string">"initial state"</span>)</div><div class="line">v(x)</div><div class="line">v(y)</div><div class="line">swap0(x, y);</div><div class="line">l(<span class="string">"after swap0()"</span>)</div><div class="line">v(x)</div><div class="line">v(y)</div><div class="line">swap1(x, y);</div><div class="line">l(<span class="string">"after swap1()"</span>)</div><div class="line">v(x)</div><div class="line">v(y)</div><div class="line">swap2(x, y);</div><div class="line">l(<span class="string">"after swap2()"</span>)</div><div class="line">v(x)</div><div class="line">v(y)</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><figcaption><span>输出</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">initial state</div><div class="line">	x  =  12</div><div class="line">	y  =  34</div><div class="line">after swap0()</div><div class="line">	x  =  34</div><div class="line">	y  =  12</div><div class="line">after swap1()</div><div class="line">	x  =  12</div><div class="line">	y  =  34</div><div class="line">after swap2()</div><div class="line">	x  =  34</div><div class="line">	y  =  12</div></pre></td></tr></table></figure>
+<p>但是我们必须要知道：在其它语言里，有更直接的变量交换方法。</p>
+<figure class="highlight python"><figcaption><span>在 Python 中变量的方法</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">x = <span class="number">12</span></div><div class="line">y = <span class="number">34</span></div><div class="line">x, y = y, x // 一定程度上解放了脑力</div><div class="line">print(x, y)</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><figcaption><span>输出</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">34 12</div></pre></td></tr></table></figure>
+<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><ul>
+<li>程序源文件附件：<ul>
+<li><a href="http://7vzp67.com1.z0.glb.clouddn.com/cpp_macro_and_bit_op/CMakeLists.txt" target="_blank" rel="external">CMakeLists.txt</a></li>
+<li><a href="http://7vzp67.com1.z0.glb.clouddn.com/cpp_macro_and_bit_op/print_tools.h" target="_blank" rel="external">print_tools.h</a></li>
+<li><a href="http://7vzp67.com1.z0.glb.clouddn.com/cpp_macro_and_bit_op/main.cpp" target="_blank" rel="external">main.cpp</a></li>
+</ul>
+</li>
+<li>发到七牛云存储之后，才想起来用 <a href="https://gist.github.com/" target="_blank" rel="external">GitHubGist</a> 更方便:<ul>
+<li><a href="https://gist.github.com/IceHe/470075dae8b329dbfec5e226ed4b4ee8" target="_blank" rel="external">cpp_macro_and_bit_operations</a>。</li>
+</ul>
+</li>
+<li>重做这些老题目，需要不到一整天的时间；但是将这些解答输出成本文，却需要超过一天。</li>
+<li>于是，我面临这样一个纠结的问题：从个人角度来看，到底值不值得将它们写成博文？<ul>
+<li>其实，在写本文之前、思考解题的过程中，我已经写了足以让自己理解、可用于复习的相关笔记和代码。</li>
+<li>如果要写这样一篇博文，当然要以「别人也能看得懂」为标准来认真地写，写得足够条理清晰。这样一来，就比写个人笔记更费神费时得多了。</li>
+<li>当然，写作的过程中，我复习了相关的知识点，再一次理清了自己的思路，增进了理解（还给他人分享了经验）。</li>
+<li>但是，我与其付出整整一天的时间和精力去复习总结这些内容，好像还不如继续深入学习其它知识。</li>
+</ul>
+</li>
+<li>我纠结了。根据以往经验，我倾向于认为：不值得这么做。<ul>
+<li>至少不应该急着写。应该隔一段时间，遗忘曲线下行之后再写，可以更好地增进记忆效果了。</li>
+</ul>
+</li>
+<li>这次就算了。接下来，我要试着一直学下去，先不写总结归纳的文章，看学习效果是不是更好。<ul>
+<li>吐槽：这种「自学」方面的实验，本来学生时代就该做了。如果当年一早搞清楚怎样的学习方法更适合自己，然后又快又好地进步，或许现在就不会活得那么窘迫了。<br>（提醒自己：不要再埋怨了，不要埋怨，不要埋怨……）</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      Macro &amp; Bit Operations &amp;#58; 一些相关的思考题（趣题）与知识点。
+    
+    </summary>
+    
+      <category term="C++" scheme="http://icehe.me/categories/C/"/>
+    
+    
+      <category term="C++" scheme="http://icehe.me/tags/C/"/>
+    
+  </entry>
   
   <entry>
     <title>Python3 快速入门</title>
@@ -921,7 +1189,7 @@ TypeError: &apos;str&apos; object is not an iterator
     <link href="http://icehe.me/think/2017_spring/"/>
     <id>http://icehe.me/think/2017_spring/</id>
     <published>2017-04-15T16:00:00.000Z</published>
-    <updated>2017-04-29T16:00:00.000Z</updated>
+    <updated>2017-05-06T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="颜狗"><a href="#颜狗" class="headerlink" title="颜狗"></a>颜狗</h2><p>碰到那些公开自称是「颜狗」的人，我也不知道该持怎样的态度，不敢说「你真坦率」，我只能说「人艰不拆」。即使只是偶然听到他人对这方面的八卦议论，我也会感到无比尴尬。（你猜我是不是颜狗？）</p>
 <p>想像一个发好人卡的场景「你是个好男生，可是我太漂亮了，你配不上。」我觉得这话挺阴暗的。人一般为了避免冲突（日后好相见），都会说「你是个好人」，但并不说穿真实的理由（当然这个理由不一定就是这里说到的那些略显阴暗的理由）。本段文字仅仅讨论「颜狗」这一主题，完全忽略「看脸」之外的其它因素的影响。</p>
@@ -944,8 +1212,8 @@ TypeError: &apos;str&apos; object is not an iterator
 <p>重新发现思考的乐趣，起码不用总是像个废宅那样等着动画番剧更新，不用总是像个信息焦虑症患者那样不停地刷着朋友圈、微博、Facebook 和 Twitter，用无尽的 Feed（信息流）来消磨时间。</p>
 <p>Feed，英文释义是喂养、饲料，这个词用得真是妙，庸众被无穷无尽、价值低下的碎片信息（即饲料）所喂养着，然后成了砧板上待宰的羔羊，被各色以卖广告和用户隐私为生的媒体（特别是社交媒体）所撕扯分食。天上不会掉馅饼，如果不愿意花钱买知识，「嗟来之食」通常也只能是免费或廉价的垃圾信息。</p>
 <h2 id="不主动，作死，不坚持"><a href="#不主动，作死，不坚持" class="headerlink" title="不主动，作死，不坚持"></a>不主动，作死，不坚持</h2><p>不够主动。小学曾经参加过乐高机器人相关的比赛。到了初中，发现学校也有相关的活动室，但是愣是没有去找相关的老师问问，本来学生时代还能变得更有趣一点的……</p>
-<p>因为不够主动，错过了妹纸，人家当年可是喜欢我的。可惜过了这村就没这个店了，我醒悟太晚，当年的我又不是不喜欢她…… 肠子都青了。</p>
-<p>学生时代到现在依然经常作死抓脸（挤痘痘等），现在自己的颜值，也就只可远观。还有只恨小学的自己省去了买牛奶的钱去黑网吧打游戏……</p>
+<p>因为不够主动，错过了妹纸，人家当年可是喜欢我的。可惜过了这村就没这个店了，我醒悟太晚，当年的我又不是不喜欢她…… 肠子都悔青了。</p>
+<p>学生时代到现在依然经常作死抓脸（挤痘痘等），现在自己的颜值，也就只可远观。恨小学的自己省去了买牛奶的钱去黑网吧打游戏，好好买牛奶喝多好……</p>
 <p>不够坚持。小学毕业开始学跆拳道，初一稍微努力过一阵子，然后就荒废了。还有我高考之后的那段时间，如果能再稍微认真读 C 语言的入门书，或许暑假就能过得更有意义，然后可能会沉迷技术，不玩社团？</p>
 <h2 id="一眼看到头的生活"><a href="#一眼看到头的生活" class="headerlink" title="一眼看到头的生活"></a>一眼看到头的生活</h2><p>薪酬即使增加个几千一万（当然多多益善），会过得更开心吗？最大的可能还是高兴没多久，就恢复回原来的生活状态了，一切照旧。毕竟收入的增量还没有达到引至质变的程度。这时候，如果生活的连一个苟且的乐子都找不到，活着就很难受了。</p>
 <blockquote>
@@ -973,15 +1241,15 @@ TypeError: &apos;str&apos; object is not an iterator
 <p>果然，我还是太小看人的适应能力（小看自己），即是「反脆弱性」。没什么大不了的事，一切「糟糕和美好」都总会过去的。不失去，就不知道现在的美好；失去了，也没什么，花些时间，你总能适应，不用太纠结；搞不好，你还能更强大。</p>
 <p>我以前也失去过我珍视的东西，花了五六年才看开。即使是缺胳膊少腿这种严重的事故，时间长了人也能够接受现实，然后恢复平静。人是健忘的动物，是坏处也是好处呢。</p>
 <p>所以「多去承担那些并不致命的风险」是一种值得尝试的生活方式。</p>
-<h2 id="人艰不拆？"><a href="#人艰不拆？" class="headerlink" title="人艰不拆？"></a>人艰不拆？</h2><p>明明知道了许多残酷的真相，但就是习惯下意识去回避、逃避…… 拖着不去直面现实，并不能解决问题，拖得越久越是被逼在墙角，失去自救能能力，再没退路，然后悲惨地度过余生。</p>
+<h2 id="人艰不拆？"><a href="#人艰不拆？" class="headerlink" title="人艰不拆？"></a>人艰不拆？</h2><p>明明知道了许多残酷的真相，但就是习惯下意识去回避、逃避…… 拖着不去直面现实并不能解决问题，拖得越久越是被逼在墙角，失去自救能能力，再没退路，然后悲惨地度过余生。</p>
 <p>成长有时需要一种恨，有时是因为碰到自己看不惯的人，竟然过得比自己好：这个混蛋竟然也能考上xx大学，我却不能？！复读一年、两年，我也要考上！就是要这种恨（志气）。</p>
 <p>这里我说残酷现实真相的其中一种 —— 这个世界看脸。我虽然颜还勉强，但是矮啊，略等于三级残废，毕竟妹子看男生更看整体形象，说得就是能不能带出门逛街涨脸，有没底气带去「给姊妹过过眼」。显然我就非常吃亏，毕竟有些东西是天生的，几乎没有回旋的余地。可怕的是，我当然也会喜欢漂亮、聪明的女生，所以恋爱方面基本常常处于非常被动的境地。差得看不上，标准降不下，我认识的好妹子许多也是这样。</p>
 <p>大家心照不宣，都不敢轻举妄动，这样还能继续做朋友，静候机会，或许哪天备胎能成事。当然大多人都秉持着「人艰不拆」的态度，力图让人际关系和谐，世界仿佛一片祥和美好。还是举颜值方面的例子 —— 一旦聊起颜值的话题，你会发现自己的一些看起来还挺友善的朋友，竟然会非常「毒舌」（说难听点就是恶毒）地评价别人的外貌，甚至当事人在附近，也敢毫不忌讳谈论下去。（还好我的核心朋友圈不会这样）</p>
 <p>一些条件差，就得靠其它条件的优越来补了。所以人要非常努力，才能赢得一点点真正的选择权。都是丛林法则，不强大就是没人权！比如择偶，人丑就是没人权！人矮就是没人权！人穷就是没人权！</p>
 <p>为什么不去努力争取！不去恨呢！废宅的做法，就是去享受各种安娱，麻痹野性，苟且过活。这么废，为什么不去死呢？举个不恰当的例子，在当今这个时代，霓虹x军x国x主x义者即使想要打 World War III 恐怕也打不起来，因为现在的日本年轻人已经不再是昔日的「昭和男儿」，而是「平成废宅」。</p>
-<p>要恨为什么自己当年怎么这么窝囊只读得上华工软件，连中大信科都考不上？考试只得中游偏上，比不过我的同学？为什么折戟美团、腾讯三面，只能当不咋地的北漂？工作的绩效不高，比不过我的同僚？要有志气，要有恨，要竞争，要斗争。（虽然我在这里这么说，对于比我更差的人来说，听到这一番话，会觉得不太舒服；可是我这一层的人，听到那些患有「浙大病」症候群那帮人的言论，何尝不会缠上同样的一种感觉呢？）</p>
-<p>有太多亲朋好友，很容易就能得到安慰，并不见得是好事。慰藉太多、安娱太多、小确幸太多，以至于整个人丧失了独处的力量，失去了哀伤的力量，失去了恨的力量，恐怕会没有什么出息，不再沉默中爆发，就在沉默中中死亡。功利主义、实用主义对年轻人来说未尝是一件坏事（也有正面作用），树活一张皮，人争一口气。</p>
-<p>年纪轻轻就一副死气沉沉、行将就木，郁郁不得志，埋怨「都是这个体制的错、世界的错」。没错，都是世界的错，不过还是欢迎您来到黑暗丛林！</p>
+<p>要恨为什么自己当年怎么这么窝囊只读得上华工软件，连中大信科都考不上？考试只得中游偏上，比不过我的同学？为什么折戟美团、腾讯三面，只能当不咋地的北漂？工作的绩效不高，比不过我的同僚？要有志气，要有恨，要竞争，要斗争。（虽然我在这里这么说，对于比我更差的人来说，听到这一番话，会觉得不太舒服；可是我这一层的人，听到那些患有「浙大病」症候群那帮人的言论，何尝不会产生同样的一种感觉呢？）</p>
+<p>有太多亲朋好友，很容易就能得到安慰，并不见得是好事。慰藉太多、安娱太多、小确幸太多，以至于整个人丧失了独处的力量，失去了哀伤的力量，失去了恨的力量，恐怕会没有什么出息，不在沉默中爆发，就在沉默中中死亡。功利主义、实用主义对年轻人来说未尝是一件坏事（也有正面作用），树活一张皮，人争一口气。</p>
+<p>年纪轻轻就一副死气沉沉、行将就木、郁郁不得志、埋怨「都是这个体制的错、世界的错」的样子。我实在受够了！</p>
 <h3 id="补刀"><a href="#补刀" class="headerlink" title="补刀"></a>补刀</h3><p>还是再搬出这一篇《<a href="http://mp.weixin.qq.com/s?__biz=MzA5MTM0NzIwNQ==&amp;mid=2649760227&amp;idx=2&amp;sn=89fcbaf26cb56a21da2c4364fa3c9359" target="_blank" rel="external">Loser 应该知道的6个残酷人生事实</a>》好了。自个看吧，虽然它很像是标题党，可是他说得棒极了，我简直不能同意更多，比起他，我已经算是说得很客气了。</p>
 <blockquote>
 <p>“好人？关我屁事！慈父？去你妈的！回你的家和你孩子玩去！如果你想在这里工作，给我敲定手上的单子！”</p>
@@ -1013,8 +1281,10 @@ TypeError: &apos;str&apos; object is not an iterator
 <p>选项很多，然而只能择一从之。一旦做出了一个选择，其它选项便就此塌缩殆尽，徒增许多本来就不存在的遗憾。只能寄望幻想中美好的未来图景还能出现在梦里。然而无可奈何，毕竟人的一生只有皇皇数十载。作出选择，总能换回一些结果，无论好坏；不行动，更可能一无所获。</p>
 <h3 id="其它的事"><a href="#其它的事" class="headerlink" title="其它的事"></a>其它的事</h3><p>错了，就要承受后果。事实证明，我有些东西果然选错了、做错了。无论怎么痛苦、恼怒和恨，结果已经摆在了眼前。</p>
 <p>错了就是错了，事情都过去了，虽然它们会继续影响到未来，但那我又能如何呢？已决然明白，我没有必要再纠结些什么了。</p>
-<p>希望自己能够长久记得此刻的煎熬，因为真的不想为同样的错误选择再后悔一次了。不忘耻辱，不畏将来。或许，这正是改变的开始？除非还要自证孬种。</p>
-<h3 id="难"><a href="#难" class="headerlink" title="难"></a>难</h3><p>才努力学习没几天，就已经开始畏难贪晌。「正是因为难，才值得去做。」每当坚持不下去了，就会这么勉励自己。</p>
+<p>希望自己能够长久记得此刻的煎熬，因为真的不想为同样的错误选择再后悔一次了。「不忘耻辱，不畏将来」。或许，这正是改变的开始？不想再自证孬种。</p>
+<h3 id="难"><a href="#难" class="headerlink" title="难"></a>难</h3><p>五一才努力学习没几天，就已经开始畏难贪晌。「正是因为难，才值得去做。」</p>
+<p>周末跟前辈吃饭聊天，解除了我心头的一部分疑惑。越来越发现因为当年的一点点实力和运气的差别，我竟然成了同业朋友的圈子里混得比较差的一个，不但是跟那帮变态的高中同学相比，跟大学同学相比也是这样。现状如此可悲，不得不更努力。</p>
+<p>公司环境好，部门气氛好，Boss 人很好，并这不能当饭吃。人生的旅途还有很长的路要走，这只是其中的一小段风景罢了，我还想看看别处的美景。并不怕这段被 Boss 和同事看到，如果他们关注我的博客的话。</p>
 <h2 id="Power-锟的纸牌屋"><a href="#Power-锟的纸牌屋" class="headerlink" title="Power 锟的纸牌屋"></a>Power 锟的纸牌屋</h2><p>摘自 <a href="https://www.facebook.com/professorofpower" target="_blank" rel="external">Power 錕的紙牌屋</a>（Facebook），相应 <a href="https://www.youtube.com/channel/UCdFyD6_8485ajuKML_6HbiQ/featured" target="_blank" rel="external">Youtube 链接</a>。</p>
 <h3 id="哀傷的-Power"><a href="#哀傷的-Power" class="headerlink" title="哀傷的 Power"></a>哀傷的 Power</h3><p>《第二季第六集：哀傷的POWER》</p>
 <p>人类为什么哀伤？（先叉开主题）人类不要去避免哀伤，人类要 work it out（克服哀伤），而不是 wipe it out（消除哀伤）。</p>
@@ -1032,7 +1302,7 @@ TypeError: &apos;str&apos; object is not an iterator
 <li>extension 扩张！</li>
 </ul>
 <p>讲课的例子：（台湾）总是对 tension（紧张）进行回避忍让，intension（动机）很弱，对 contension（角逐）很害怕！所以，没有 extend（扩张）！害怕竞争怎么能发展！</p>
-<h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p>对啊，人生并没有那么复杂。</p>
+<h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p>对啊，人生并没有那么复杂，想做就去做。</p>
 <blockquote class="blockquote-center"><p>写一部小说就像在黑夜里开车。你只能看到车灯照亮的部分，但是你却可以走完整个旅程。</p>
 <p><strong>E.L. Doctorow</strong></p>
 </blockquote>
@@ -1342,7 +1612,7 @@ TypeError: &apos;str&apos; object is not an iterator
 </li>
 <li><a href="https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12" target="_blank" rel="external"><strong>Amphetamine</strong></a><br>  防止 Mac 休眠。Mac 每次休眠后都会重启软件，导致软件丢失部分上下文，于是我无法在完全一样的环境下持续工作，一定程度上打断了工作，降低了效率。</li>
 <li><a href="https://www.macbartender.com/" target="_blank" rel="external"><strong>Bartender 2</strong></a><br>  收起或彻底隐藏毋需过多关注的菜单栏 App 图标。</li>
-<li><a href="https://bahoom.com/hyperswitch" target="_blank" rel="external"><strong>HyperSwitcher</strong></a><br>  稳定切换同一 App 下各子窗口。</li>
+<li><a href="https://bahoom.com/hyperswitch" target="_blank" rel="external"><strong>HyperSwitch</strong></a><br>  稳定切换同一 App 下各子窗口。</li>
 <li><a href="https://pqrs.org/osx/ShowyEdge/index.html.en" target="_blank" rel="external"><strong>ShowyEdge</strong></a> <sup>Great</sup><br>  输入法状态提示。显示一条样式可定制的色带在屏幕顶部，以提示正在使用什么输入法。在全屏使用 App 时，也能轻易区分输入法状态！</li>
 <li>……</li>
 </ul>
@@ -4407,7 +4677,7 @@ img.fix_height {
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
-    <updated>2017-04-30T16:00:00.000Z</updated>
+    <updated>2017-05-03T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>天下武功，唯快不破。</p>
 </blockquote>
@@ -4564,7 +4834,7 @@ img.fix_height {
 </ul>
 <h3 id="Window-amp-Tab"><a href="#Window-amp-Tab" class="headerlink" title="Window &amp; Tab"></a>Window &amp; Tab</h3><ul>
 <li><p>Window</p>
-<p>  <code>⌘ `</code> Switch windows of the current App<br>  It’s enhanced by App <a href="https://bahoom.com/hyperswitch" target="_blank" rel="external">HyperSwitcher</a> | <a href="#Keyboard-Maestro">Keyboard Maestro</a></p>
+<p>  <code>⌘ `</code> Switch windows of the current App<br>  It’s enhanced by App <a href="https://bahoom.com/hyperswitch" target="_blank" rel="external">HyperSwitch</a> | <a href="#Keyboard-Maestro">Keyboard Maestro</a></p>
 <p>  <code>⌘ ^ f</code> Toggle Full Screen<br>  <code>⌘ ,</code> Preferences<br>  <code>⌘ q</code> Exit<br>  <code>⌘ w</code> Close</p>
 <p>  <code>⌘ h</code> Hide<br>  <code>⌘ ⌥ h</code> Hide All Apps But the Front-most<br>  The manipulation <code>Hide</code> is much better than <code>Minimize</code> in macOS!<br>  So I prefer <code>Hide</code> to <code>Minimize</code>.</p>
 </li>
@@ -4580,10 +4850,11 @@ img.fix_height {
 <p>  <code>⌘ [</code> Backward<br>  <code>⌘ ]</code> Forward</p>
 </li>
 </ul>
-<h3 id="Emacs-Mode"><a href="#Emacs-Mode" class="headerlink" title="Emacs Mode"></a>Emacs Mode</h3><p>A few people know that it’s supported in  by default in macOS.</p>
-<p><code>^ f</code> = <code>←</code><br><code>^ b</code> = <code>→</code></p>
+<h3 id="Emacs-Mode"><a href="#Emacs-Mode" class="headerlink" title="Emacs Mode"></a>Emacs Mode</h3><p>A few people know that it’s supported in  by default in macOS.<br>They don’t work, if you append any modifier key to them.</p>
+<p><code>^ f</code> = <code>←</code><br><code>^ b</code> = <code>→</code><br><code>^ p</code> = <code>↑</code><br><code>^ n</code> = <code>↓</code></p>
 <p><code>^ a</code> = <code>⌘ ←</code> Home<br><code>^ e</code> = <code>⌘ →</code> End</p>
-<p><code>^ h</code> = <code>⌫</code><br><em><code>^ d</code> = <code>Fn ⌫</code> Forward Del</em><br><code>^ k</code> Del to the End of the Line</p>
+<p><code>^ t</code> Exchange the Charactors before &amp; after the cursor<br><code>^ o</code> Insert a Blank Line <code>&#39;\n&#39;</code> after the cursor</p>
+<p><code>^ h</code> = <code>⌫</code> Del<br><em><code>^ d</code> = <code>Fn ⌫</code> Forward Del</em><br><code>^ k</code> Del to the End of the Line</p>
 <ul>
 <li>They are also enabled in <code>iTerm2</code> :<ul>
 <li>Modified by <code>.zshrc</code> in <code>Zsh</code> and <code>.vimrc</code> in <code>Vim</code></li>
@@ -4593,6 +4864,7 @@ img.fix_height {
 <li>Modified by <code>Keyboard Maestro</code><br>  <code>^ w</code> = <code>⌥ ⌫</code> Del Preceding Word <sup><em>custom</em></sup><br>  <code>^ u</code> = [ <code>^ a</code>, <code>^ k</code> ] Del the Whole Line <sup><em>custom</em></sup><br>  These modifications can be supported in <code>Karabiner</code> too.</li>
 </ul>
 </li>
+<li>Ref : <a href="http://jblevins.org/log/kbd" target="_blank" rel="external">(Emacs) Keyboard Shortcuts for Editing Text Fields in OS X</a></li>
 </ul>
 <h3 id="Input-Sources"><a href="#Input-Sources" class="headerlink" title="Input Sources"></a>Input Sources</h3><ul>
 <li><p>Select</p>
@@ -6136,7 +6408,7 @@ __`⌘ r` Show | Hide Lyrics__
 <li>---</li>
 <li>替代用于 <strong>用缩写加速文本输入</strong> 的 <a href="https://textexpander.com/" target="_blank" rel="external"><strong><del>TextExpander</del></strong></a> <sup>Great</sup>、<a href="https://www.trankynam.com/atext/" target="_blank" rel="external"><strong><del>aText</del></strong></a> <sup>Simple</sup>。<br>  输入缩写时，会根据用户的设定模板来自动拓展输入的文本，以提升输入效率，特别是高频重复的词句。</li>
 <li>---</li>
-<li>替代用于 <strong>稳定便捷地切换同一 App 的多个子窗口</strong> 的 <a href="https://bahoom.com/hyperswitch" target="_blank" rel="external"><strong><del>HyperSwitcher</del></strong></a> <sup>Best</sup>。<ul>
+<li>替代用于 <strong>稳定便捷地切换同一 App 的多个子窗口</strong> 的 <a href="https://bahoom.com/hyperswitch" target="_blank" rel="external"><strong><del>HyperSwitch</del></strong></a> <sup>Best</sup>。<ul>
 <li>这类应用的出现，是因为在某些 Apps 下，无法用系统的 <code>⌘ `</code> 来切换其下的各个子窗口。</li>
 <li>用触摸板三指下滑的手势或快捷键触发 App Expose，可以显示当前应用的所有窗口，然后点击选择其中一个进行切换，但是不够快捷。</li>
 </ul>
@@ -6186,7 +6458,7 @@ __`⌘ r` Show | Hide Lyrics__
 <li>Others : <a href="http://pasteapp.me/" target="_blank" rel="external"><strong>Paste</strong></a> 最好看！<a href="http://copiedapp.com/" target="_blank" rel="external"><del>Copied</del></a>（没用过）。</li>
 </ul>
 </li>
-<li><a href="https://bahoom.com/hyperswitch" target="_blank" rel="external"><strong><del>HyperSwitcher</del></strong></a> <sup>Best</sup><br>  稳定切换同一 App 下各子窗口。<ul>
+<li><a href="https://bahoom.com/hyperswitch" target="_blank" rel="external"><strong><del>HyperSwitch</del></strong></a> <sup>Best</sup><br>  稳定切换同一 App 下各子窗口。<ul>
 <li>HyperSwitcher 选择切换的窗口时，会显示各应用的缩略图。</li>
 <li>我用 <a href="/tools/#Shortcuts">Keyboard Maestro</a> 来替代了它，因为我倾向于用更少的工具完成尽可能多的事，好用够用就行了。不过 HyperSwitcher 仍然是最佳选择，强烈推荐！</li>
 <li>Related : <a href="https://bahoom.com/hyperdock/" target="_blank" rel="external"><del>HyperDock</del></a><br>  窗口增强工具。光标停到 Dock 的 App 图标上，能快速预览该软件的所有窗口，点击切换到不同的窗口或桌面。还有快速调整窗口布局、大小、位置等的功能。<ul>
@@ -6691,7 +6963,7 @@ article .article-content ul li p:first-child {
     <link href="http://icehe.me/favourites/"/>
     <id>http://icehe.me/favourites/</id>
     <published>2015-11-18T16:00:00.000Z</published>
-    <updated>2017-04-08T16:00:00.000Z</updated>
+    <updated>2017-05-03T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>乐以忘忧，不知老之将至。</p>
 <p><strong>《论语·述而》</strong></p>
@@ -6743,9 +7015,10 @@ article .article-content ul li p:first-child {
 <li><a href="https://movie.douban.com/subject/1474243/" target="_blank" rel="external"><strong>棋魂</strong></a><br>  围棋。</li>
 <li><a href="https://movie.douban.com/review/7794549/" target="_blank" rel="external"><strong><strong>亚人</strong></strong></a> <sup><strong>Best</strong></sup><br>  人性，理性。</li>
 <li><a href="http://baike.baidu.com/view/15161941.htm?fromtitle=%E5%AF%84%E7%94%9F%E5%85%BD%E7%94%9F%E5%91%BD%E7%9A%84%E5%87%86%E5%88%&amp;fromid=15149279&amp;type=syn" target="_blank" rel="external"><strong>寄生兽</strong></a><br>  人性，自然。</li>
-<li><a href="http://movie.douban.com/subject_search?search_text=%E5%89%91%E9%A3%8E%E4%BC%A0%E5%A5%87&amp;cat=1002" target="_blank" rel="external"><strong>剑风传奇</strong></a> <sup><strong>Best</strong></sup><br>  快意。</li>
 <li><a href="http://movie.douban.com/subject/26339248/" target="_blank" rel="external"><strong>一拳超人</strong></a> <sup><strong>Best</strong></sup><br>  反英雄主义。</li>
+<li><a href="http://movie.douban.com/subject_search?search_text=%E5%89%91%E9%A3%8E%E4%BC%A0%E5%A5%87&amp;cat=1002" target="_blank" rel="external"><strong>剑风传奇</strong></a> <sup><strong>Best</strong></sup><br>  快意。</li>
 <li><a href="http://movie.douban.com/subject_search?search_text=%E7%A0%B4%E5%88%83%E4%B9%8B%E5%89%91&amp;cat=1002" target="_blank" rel="external"><strong>进击的巨人</strong></a><br>  热血。</li>
+<li><a href="https://movie.douban.com/subject/25825458/" target="_blank" rel="external"><strong>火星异种</strong></a><br>  热血。<sup>（只推荐第一季，及其漫画）</sup></li>
 <li><a href="http://movie.douban.com/subject_search?search_text=%E7%A0%B4%E5%88%83%E4%B9%8B%E5%89%91&amp;cat=1002" target="_blank" rel="external"><strong>破刃之剑</strong></a><br>  机战。</li>
 <li><a href="http://movie.douban.com/subject_search?search_text=%E6%B0%B8%E8%BF%9C%E4%B9%8B%E4%B9%85%E8%BF%9C&amp;cat=1002" target="_blank" rel="external"><strong>永远之久远</strong></a><br>  异能。</li>
 <li><a href="http://movie.douban.com/subject_search?search_text=%E5%8F%9B%E9%80%86%E7%9A%84%E9%B2%81%E9%B2%81%E4%BF%AE&amp;cat=1002" target="_blank" rel="external"><strong>叛逆的鲁鲁修</strong></a> <sup><strong>Best of the Best</strong></sup><br>  剧情、奇幻、机战、政治…… 各元素熔于一炉的神作！</li>
@@ -7053,256 +7326,6 @@ article .article-content ul li p:first-child {
     
     
       <category term="Web" scheme="http://icehe.me/tags/Web/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>时间管理日志说明</title>
-    <link href="http://icehe.me/think/time_mgt/"/>
-    <id>http://icehe.me/think/time_mgt/</id>
-    <published>2015-11-12T16:00:00.000Z</published>
-    <updated>2016-12-04T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<ul>
-<li>链接：《 <a href="/lifelogs">我所有的时间统计日志</a> 》</li>
-<li>启发：《 <a href="https://book.douban.com/subject/1115353/" target="_blank" rel="external">奇特的一生</a> 》 <a href="https://zh.wikipedia.org/zh-hans/%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7%C2%B7%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%BE%B7%E7%BD%97%E7%BB%B4%E5%A5%87%C2%B7%E6%9F%B3%E6%AF%94%E6%AD%87%E5%A4%AB" target="_blank" rel="external">柳比歇夫</a> 的时间统计法</li>
-<li>旧版：《 <a href="/old_version_posts/time_mgt_log_format.html">Time Mgt. 时间管理 - 辅助日志的使用 及 相关思考</a> 》</li>
-<li>补充：时间管理日志格式一直根据实际使用进行调整，可能与本文描述不一致。</li>
-<li>最新：2016-12-05<ul>
-<li>本文仅供参考，各位需要自己试着摸索适合自己的方法，才是正道。</li>
-<li>现在我已经不用 Evernote 来做时间记录，以及 AppleScript 和 Python 脚本来跑统计结果了。</li>
-<li>而是用 iOS 的 App —— BlockyTime（时间块），它的特点刚好非常适合我使用。<ul>
-<li>以后可能还是会用脚本去自行统计 BlockyTime 其中时间记录，找出自己感兴趣的东西，深入了解自己。</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h1 id="原则"><a href="#原则" class="headerlink" title="原则"></a>原则</h1><ol>
-<li><strong>简便</strong>：记录方式简便，只统计要用的信息，避免成为负担</li>
-<li><strong>有序</strong>：格式统一，便于数据的整理、分析</li>
-</ol>
-<h1 id="时间粒度"><a href="#时间粒度" class="headerlink" title="时间粒度"></a>时间粒度</h1><p><strong>时间粒度</strong>，即每个时段有多长。<br>类似于一节课有多长时间，据此规划、统计自己的时间。<br>对我而言，1、10或15min的时间粒度太小了，而 <strong>30min</strong> 就刚好，因为：</p>
-<ol>
-<li><p><strong>便于规划、统计</strong><br><u><strong>30min == 0.5hour</strong></u> 该时间粒度，就可以以每小时的整点、半点为界，等分一日的时间。</p>
-</li>
-<li><p><strong>减轻压力</strong><br>适当对统计数据进行模糊处理（四舍五入），<br>让人少产生些心理压力，更利于坚持养成时间管理的习惯。<br><em>例如，某30min用了15min以上读书，<br>余下时间处理了些琐事，可将该30min归到读书时间。<br>若是过意不去，可在处理琐事的另一30min中<br>省出15min去读书，弥补回来，提高统计的准确性。</em></p>
-</li>
-<li><p><strong>鼓励集中时间专心处理一件事</strong><br>为了统计更方便，使用者会倾向于尽可能集中时间去<br>（至少 30min）处理一件事（或同一类事务）。<br>避免多任务切换（三心两意同时处理多件事）导致效率下降。<br>刚好可以配合“<strong>番茄工作法</strong>”来使用。</p>
-</li>
-<li><p><strong>循序渐进</strong>（日后慢慢将时间粒度定得更小）<br>因为人的自控力差异，不一定人人都有能力去争分夺秒地利用时间。<br>虽然现有许多可用的时间管理工具和方法，但当它们太复杂时，<br>难免会干扰正常做事，而非更好地做事，有违 “有效利用时间” 的初衷。</p>
-</li>
-</ol>
-<p>因为，生活节奏越慢，切换去做不同（类）任务的频率越低，<br>可以用更大的时间粒度来规划、统计时间，<br>当然时间使用情况的统计结果的精度会降低。</p>
-<h1 id="事务类别"><a href="#事务类别" class="headerlink" title="事务类别"></a>事务类别</h1><p>事务的分类见仁见智。<br>有些时间管理软件或方法，给出的分类过多过细，<br>如公交、走动、购物、娱乐、上网、看电影、喝酒等，使用不便。</p>
-<h2 id="六类事务"><a href="#六类事务" class="headerlink" title="六类事务"></a>六类事务</h2><p>我根据个人实际实践，将生活中的事务分为六类：</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">编号No.</th>
-<th style="text-align:left">简写Abbr.</th>
-<th style="text-align:left">全称Ful.</th>
-<th style="text-align:left">描述Desc.</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><strong>1</strong></td>
-<td style="text-align:left">学 stu</td>
-<td style="text-align:left">学习 study</td>
-<td style="text-align:left">积累新<strong>知识</strong>、新奇的体验，提升技能熟练度等</td>
-</tr>
-<tr>
-<td style="text-align:center"><strong>2</strong></td>
-<td style="text-align:left">动 spo</td>
-<td style="text-align:left">运动 sport</td>
-<td style="text-align:left"><strong>锻炼</strong>身体，有一定强度的运动，正常步速、中等距离（30min内）的走动不算</td>
-</tr>
-<tr>
-<td style="text-align:center"><strong>3</strong></td>
-<td style="text-align:left">读 rd</td>
-<td style="text-align:left">阅读 read</td>
-<td style="text-align:left"><strong>阅读</strong>/收听有益且非简单的消遣娱乐类的书籍、文章、视频等</td>
-</tr>
-<tr>
-<td style="text-align:center"><strong>4</strong></td>
-<td style="text-align:left">乐 joy</td>
-<td style="text-align:left">乐事 joy</td>
-<td style="text-align:left">令人<strong>愉悦</strong>的事，如娱乐消遣、社交等</td>
-</tr>
-<tr>
-<td style="text-align:center"><strong>5</strong></td>
-<td style="text-align:left">必 mus</td>
-<td style="text-align:left">必须 must</td>
-<td style="text-align:left"><strong>不得不</strong>去处理、又无法归到其它类别的事，如家务</td>
-</tr>
-<tr>
-<td style="text-align:center"><strong>6</strong></td>
-<td style="text-align:left">废 was</td>
-<td style="text-align:left">荒废 waste</td>
-<td style="text-align:left">并非必须处理、又无益处、且不能让人愉悦的事，就是<strong>浪费时间</strong>的</td>
-</tr>
-</tbody>
-</table>
-<p>有些事可以同属以上多个事务类别，<br>只能再靠个人判断将其再归类。<br><em>可以简单将其归类于编号较小的类别。</em></p>
-<h1 id="日志实例"><a href="#日志实例" class="headerlink" title="日志实例"></a>日志实例</h1><p>Log 时间使用情况统计日志以 《 <a href="/lifelogs/2015/10/d20.html">15/10/20 stu52 spo12 was3</a> 》 为例简要解释。<br>仅解释（截止至本日志更新之日）最新的日志格式，不赘述旧格式。</p>
-<p>日志仅记录<span id="valid_time"><strong>有效生活时间</strong></span>，即</p>
-<pre><code>每日从早晨醒来到夜晚入睡的时间。 即24小时减去睡眠时间。
-</code></pre><p>凌晨00:00后才睡觉的时候，00:00后到入睡前的部分时间本属于第二天，<br>但是只要还没睡，该部分时间就统计到前一天的日志里去。</p>
-<ol>
-<li><p><strong>日志标题</strong></p>
-<pre><code>15/10/20 stu52 spo12 was3
-</code></pre><p> <strong>格式</strong>：</p>
-<pre><code>yy/mm/dd type1 \d\d type2 \d\d …
-年/月/日 事务类别1 百分比 事务类别2 百分比
-</code></pre><p> <strong>(a)</strong> 事务类别：<a href="#Transaction_Category_事务类别">事务的类别</a>的英文简写。<br> <strong>(b)</strong> 百分比：某类事务所用的时长占全天<a href="#valid_time">有效生活时间</a>的百分比，此处仅精确到个位。</p>
-</li>
-<li><p><strong>主要任务列表</strong></p>
-<pre><code># Pri Tasks
-[y] Demand Development
-[ ] Evernote Scripts &amp; Shell
-</code></pre><p> <strong>格式</strong>：</p>
-<pre><code>[Y/N] task desc
-[完成与否] 任务的简要描述
-</code></pre><p> 行首的复选框代表任务的完成情况，框内 打勾/留空 表示该任务 已完成/未完成。</p>
-<p> 一天很短，人的精力、体力有限，最好一段时间内只专注做一事提高效率，<br> 尽可能快速进入状态，避免多任务切换，所以<strong>任务量</strong>最好限定在<strong>1~2个</strong>，最多不超过3个。</p>
-</li>
-<li><p><strong>记录简表</strong></p>
-<pre><code># Time Table
-07-10 〇必，学学，读废，学学，
-11-14 学学，动动，乐乐，学学，
-15-18 学学，学学，学学，乐乐，
-19-22 学学，必动，动必，读读，
-23-02 学必。
-</code></pre><p> 简要记录全天<a href="#valid_time">有效生活时间</a>内所做事务的时段、<a href="#Transaction_Category_事务类别">类别</a>。<br> <strong>格式</strong>：</p>
-<pre><code>07-10
-</code></pre><p> <strong>(a)</strong> 表示 7:00,8:00,9:00,10:00 等4个时间点，<br> 实指 08:00 ~ 11:00 这4个小时。</p>
-<pre><code>〇必，学学，读废，学学，
-</code></pre><p> <strong>(b)</strong> 以上的中文字，如 “必”、“乐”，指所处时间段内所处理事务的<a href="#Transaction_Category_事务类别">类别</a>。<br> 中文逗号 “，” 分隔两个时长 1h 的时间段。<br> 中文字符“〇”为占位符，指在该时间段记录者还没醒。</p>
-</li>
-<li><p><strong>记录细表</strong></p>
-<pre><code># Time Detail
-to_time|type|desc|duration
-0730起
-0800必 内务 阅读 .5
-0900学 交通 英语 读书 1
-
-...(略）
-
-2200必 休息 晚餐 内务 .5
-2300读 内务 听书 洗澡 思考 1
-2330学 写脚本 .5
-0000必 内务 .5
-0000睡
-</code></pre><p> 详细记录全天<a href="#valid_time">有效生活时间</a>内所做事务的时段、<a href="#Transaction_Category_事务类别">类别</a>、简要描述、时长。<br> <strong>格式</strong>：</p>
-<pre><code>2200
-</code></pre><p> <strong>(a)</strong> 每行行首处的4个数字，如“2200”，代表22:00（24小时制的时间），<br> 实指该行文字描述的事务结束时间。<br> 根据时间粒度的规则，它们都是整点（\d\d00）或半点（\d\d30）。</p>
-<pre><code>2200必 休息 晚餐 内务 .5
-2300读 内务 听书 洗澡 思考 1
-</code></pre><p> <strong>(b)</strong> 除整个记录细表的第一行与最后一行代表醒来和睡去时间点外，<br> 每行代表一个<strong>时间段</strong>，<br> 具体时间段从前一行起始处的4个数字代表的时间点开始，<br> 到当前行行首处的4个数字代表的时间点结束。<br> 上例的第二行代表的具体时段为：20:00~23:00。</p>
-<p> <strong>(c)</strong> 每行行首的4个数字后的第一个中文字，如“读”，<br> 代表该时段所处理事务的<a href="#Transaction_Category_事务类别"><strong>类别</strong></a>；<br> 接着用空格分隔的一个或多个文字串，除了最后一个数字字串，<br> 都是对该时段所处理事务的简要描述。</p>
-<p> <strong>(d)</strong> 每行结尾处的数字串，代表该时段的<strong>时间长度</strong>，单位是小时<br> 如“.5”（0.5的简写）、“1”，实指0.5小时、1小时。</p>
-</li>
-<li><p><strong>纪律表</strong></p>
-<pre><code># Discipline
-[y]早起 (0830前)
-[y]早餐
-
-[y]英语
-[y]运动
-[ ]反省
-
-...（略）
-</code></pre><p> <strong>格式</strong>：</p>
-<pre><code>[Y/N] discipline_desc
-[遵守与否] 纪律的简要描述
-</code></pre><p> 日常纪律在当日的遵守情况，以及其简要描述。</p>
-</li>
-<li><p><strong>日统计表</strong></p>
-<pre><code># Time Stat
-类，时，%
-学8.5，51.5
-动2，12.1
-读1.5，9.1
-乐2，12.1
-必2，12.1
-废0.5，3
-总16.5
-</code></pre><p> 各类事务的中文简写、当日各类事务的所用时长，及其占全天有效生活时间的百分比；<br> 最末行的“总16.5”，表示全天<a href="#valid_time">有效生活时间</a>的长度为16.5小时。</p>
-</li>
-<li><p><strong>随笔记录</strong></p>
-<pre><code># Diary
-0910
-唉，我好蠢啊！
-怎么办？
-...（略）
-
-2344
-今天很开心...
-</code></pre><p> 该部分位于日志的“统计表”后面，首行的4个数字“2344”表示该条记录撰写于当日23:44。<br> 第二行起，开始编写你想记录的内容，如日记、备忘、总结等任何内容。</p>
-<p> <em>本博客的LifeLogs经过编辑，缺省了源日志的该部分内容。</em></p>
-</li>
-<li><p><strong>周 / 月 统计表</strong><br> 周和月的时间使用情况统计日志以《<a href="/lifelogs/2015/10/time_stat.html">2015/10 stu40 spo9 was4</a>》为例。</p>
-<p> 统计属于当月的几个周 以及整月的时间使用情况：<br> <strong>(a)</strong> 一周从周一开始<br> <strong>(b)</strong> 月初和月末的这两周的各天并一定全是属于当月的日子，即某周的各日横跨了两个月：<br>  &nbsp; &nbsp; <strong>I.</strong> 该周有1~3天属于当月，则该周的时间统计归到上或下一个月的“周/月统计表”中<br>  &nbsp; &nbsp; <strong>II.</strong> 该周有4~6天属于当月，则属于该周的时间统计归到当月的“周/月统计表”中<br> <strong>(c)</strong> 月统计的时间范围从当月1日至当月最后一日，它不会像周统计那样可能会跨月进行统计！</p>
-<p>  <strong>类似于</strong> 上述 <strong>6.（每日）统计表</strong> 的格式。</p>
-<pre><code>（前 4 周略）……
-
-Week 5
-15/10/26 ~ 15/11/01
-类，时，%
-学55.5，46.8
-动10.0，8.4
-读16.0，13.5
-乐10.5，8.9
-必19.5，16.5
-废7.0，5.9
-总118.5
-
-Monthly
-2015/10
-类，时，%
-学206.0，39.9
-动47.0，9.1
-读73.5，14.2
-乐85.0，16.5
-必83.5，16.2
-废21.5，4.2
-总516.5
-</code></pre></li>
-</ol>
-<h1 id="日程规划"><a href="#日程规划" class="headerlink" title="日程规划"></a>日程规划</h1><p>曾经使用过不少时间管理工具和方法，在实际使用中发现这些东西仅供参考，常常不适用于特定的个人。</p>
-<p>例如，太详细的日程规划，对一般人来说不太现实，是谓：计划常常赶不上变化。<br>我一开始也不信邪，非要详细规划；可是在实践中，原计划只有三成左右能够如愿执行，效果不理想。<br>大概是因为日程定得过于详细，死板不够灵活，个人自控力又不足，不懂取舍和坚持，轻易打乱原计划…<br>于是提前规划日程成了心理安慰的行为 —— 规划时就产生了已经将日程完满执行的幻觉。</p>
-<p>所以，我还是循序渐进，慢慢提高自控力。</p>
-<h1 id="自动化"><a href="#自动化" class="headerlink" title="自动化"></a>自动化</h1><p>这些时间管理日志的源内容，都存在我的Evernote的笔记里面。</p>
-<p>上文中，除了记录细表、主要任务列表<br>其它的部分如周/月统计表、记录简表、日统计表的生成以及日志标题的修改，<br>都是通过Python和AppleScript编写的脚本完成的。</p>
-<p>这些脚本读取Evernote中的有关日志内容，根据其中的记录细表得出统计结果；<br>再根据结果补充Evernote源日志的内容。</p>
-<p>当然还有其它脚本将这些内容推送到本博客中。</p>
-<p>有关脚本详见我的<a href="https://github.com/IceHe" target="_blank" rel="external">Github</a>：</p>
-<p><strong> on macOS </strong></p>
-<ul>
-<li><a href="https://github.com/IceHe/AppleScript_for_Evernote" target="_blank" rel="external">操作 Evernote 用的 AppleScript 脚本</a></li>
-<li><a href="https://github.com/IceHe/AppleScript_for_DayLog" target="_blank" rel="external">操作时间管理日志用的 AppleScript 脚本</a></li>
-<li><a href="https://github.com/IceHe/Python_for_DayLog" target="_blank" rel="external">操作时间管理日志用的 Python 脚本</a></li>
-</ul>
-<p><strong> on Windows </strong></p>
-<ul>
-<li><a href="https://github.com/IceHe/my_scripts_on_win" target="_blank" rel="external">操作时间管理日志用的 PHP、Batch 脚本</a> <em>（已弃用）</em></li>
-</ul>
-<h1 id="关于时间管理"><a href="#关于时间管理" class="headerlink" title="关于时间管理"></a>关于时间管理</h1><blockquote>
-<p>我们工作是为了生活，而不是为了工作而活着。<br>时间管理的目的，其实还是为了更好的享受生活。</p>
-</blockquote>
-]]></content>
-    
-    <summary type="html">
-    
-      Time Mgt.&amp;#58; Life Log Format 时间日志格式。Principles 原则，Transaction Categories 事务类别，Time Granularity 时间粒度，Log Instance 实例，Schedule 规划。
-    
-    </summary>
-    
-      <category term="time mgt" scheme="http://icehe.me/categories/time-mgt/"/>
-    
-    
-      <category term="time mgt" scheme="http://icehe.me/tags/time-mgt/"/>
     
   </entry>
   
