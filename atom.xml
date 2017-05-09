@@ -272,7 +272,7 @@
     
     <summary type="html">
     
-      Macro &amp; Bit Operations &amp;#58; 一些相关的思考题（趣题）与知识点。
+      Macro &amp; Bit Operations &amp;#58; 思考题（趣题）与知识点。
     
     </summary>
     
@@ -5994,7 +5994,7 @@ __`⌘ r` Show | Hide Lyrics__
     <link href="http://icehe.me/bookmarks/"/>
     <id>http://icehe.me/bookmarks/</id>
     <published>2015-12-19T16:00:00.000Z</published>
-    <updated>2017-04-19T16:00:00.000Z</updated>
+    <updated>2017-05-08T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<div class="note success"><p>欢迎来到博客 <a href="http://icehe.me"><strong>IceHe.me</strong></a>！ </p>
 </div>
@@ -6016,6 +6016,7 @@ __`⌘ r` Show | Hide Lyrics__
 <li><a href="/c++/Effective C++ - Reading Note 1">笔记 1</a> , <a href="/c++/Effective C++ - Reading Note 2">笔记 2</a> , <a href="/c++/Effective C++ - Reading Note 3">笔记 3</a> , <a href="/c++/Effective C++ - Reading Note 4">笔记 4</a></li>
 </ul>
 </li>
+<li><a href="/c++/macro_and_bit_operations/">C++ 宏定义与位操作</a></li>
 </ul>
 <h2 id="命令行"><a href="#命令行" class="headerlink" title="命令行"></a><a href="/categories/Command">命令行</a></h2><ul>
 <li><strong><a href="/cmd/git_note">Git 总结</a> - 常用操作</strong></li>
@@ -6089,7 +6090,7 @@ __`⌘ r` Show | Hide Lyrics__
 <li><a href="/reward">打赏博主</a></li>
 </ul>
 <hr>
-<h2 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h2><h3 id="为什么写"><a href="#为什么写" class="headerlink" title="为什么写"></a>为什么写</h3><ul>
+<h2 id="无题"><a href="#无题" class="headerlink" title="无题"></a>无题</h2><h3 id="为什么写"><a href="#为什么写" class="headerlink" title="为什么写"></a>为什么写</h3><ul>
 <li>我可以用 Evernote「记录」，但是难以「分享」；用 GitHub 可以同时做到两者，但是展示效果不佳；所以做了这个博客，顺道满足了自己对审美的追求和享受。<ul>
 <li>只可惜我不懂「前端、设计」，无法更进一步，只能在他人成果的基础上修修补补，做成这个样子。</li>
 <li>比起「悦人」，这里更是<strong>「悦己」</strong>的场所。</li>
@@ -6132,6 +6133,12 @@ __`⌘ r` Show | Hide Lyrics__
 <li>追求整洁、秩序、完满，还不如由它杂乱不堪来得省心。我就是一个典型的「强迫症、细节控」，可是不想再继续这样下去了。人生太短暂了，何不及时行乐去享受乐趣，或是好好做事追寻人生的意义。</li>
 <li>不过，我还是想留下这个博客 —— 这一片隐秘天地，让我自己一个人，能够静静地跟自己说说话。</li>
 <li>记于 2017-03-15</li>
+</ul>
+<h2 id="友链"><a href="#友链" class="headerlink" title="友链"></a>友链</h2><ul>
+<li><a href="http://janfan.github.io/" target="_blank" rel="external"><strong>Jan Fan</strong></a> - Pythoner, ML &amp; NLP</li>
+<li><a href="http://sf-zhou.github.io/" target="_blank" rel="external"><strong>SF Zhou</strong></a> - ACMer</li>
+<li><a href="http://shiweyyan.github.io/" target="_blank" rel="external"><strong>Shiwey Yan</strong></a> - 游戏开发</li>
+<li><a href="http://mrzys.coding.me/" target="_blank" rel="external"><strong>Johnson</strong></a> - Pythoner, Web</li>
 </ul>
 ]]></content>
     
