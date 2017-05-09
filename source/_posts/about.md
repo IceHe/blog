@@ -36,9 +36,6 @@ description: IceHe 的经历、技能、教育 & 其它：微博移动 / 服务�
         <sup>Good old days</sup>
     - <i class="fa fa-fw fa-pencil"></i> [旧文](http://290841032.qzone.qq.com/)
         <sup>青春年少</sup>
-- __朋友__
-    - <i class="fa fa-fw fa-street-view"></i> [Jan Fan](http://janfan.github.io/) | [Shiwey Yan](http://shiweyyan.github.io/) | [SF Zhou](http://sf-zhou.github.io/)
-        <sup>Pythoner, ML&NLP | 游戏开发 | ACMer</sup>
 
 ---
 
