@@ -1,6 +1,6 @@
 title: 博客导航
 date: 2015-12-20
-updated: 2017-04-20
+updated: 2017-05-09
 categories: [read]
 tags: [read]
 description: Navigation&#58; PV Top N 热榜、文章分类列表。
@@ -26,6 +26,7 @@ description: Navigation&#58; PV Top N 热榜、文章分类列表。
 - [__C++ 编程规范__](/c++/C++ Code Standards 编码标准/)
 - Effective C++
     - [笔记 1](/c++/Effective C++ - Reading Note 1) , [笔记 2](/c++/Effective C++ - Reading Note 2) , [笔记 3](/c++/Effective C++ - Reading Note 3) , [笔记 4](/c++/Effective C++ - Reading Note 4)
+- [C++ 宏定义与位操作](/c++/macro_and_bit_operations/)
 
 ## [命令行](/categories/Command)
 
@@ -112,7 +113,7 @@ description: Navigation&#58; PV Top N 热榜、文章分类列表。
 
 ---
 
-## 其它
+## 无题
 
 ### 为什么写
 
@@ -148,3 +149,10 @@ description: Navigation&#58; PV Top N 热榜、文章分类列表。
 - 追求整洁、秩序、完满，还不如由它杂乱不堪来得省心。我就是一个典型的「强迫症、细节控」，可是不想再继续这样下去了。人生太短暂了，何不及时行乐去享受乐趣，或是好好做事追寻人生的意义。
 - 不过，我还是想留下这个博客 —— 这一片隐秘天地，让我自己一个人，能够静静地跟自己说说话。
 - 记于 2017-03-15
+
+## 友链
+
+- [__Jan Fan__](http://janfan.github.io/) - Pythoner, ML & NLP
+- [__SF Zhou__](http://sf-zhou.github.io/) - ACMer
+- [__Shiwey Yan__](http://shiweyyan.github.io/) - 游戏开发
+- [__Johnson__](http://mrzys.coding.me/) - Pythoner, Web
