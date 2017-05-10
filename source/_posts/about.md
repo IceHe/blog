@@ -30,7 +30,7 @@ description: IceHe 的经历、技能、教育 & 其它：微博移动 / 服务�
     - <i class="fa fa-fw fa-bookmark"></i>  [文字阅读收藏](/read)
         <sup>问答、笔记、文章…</sup>
     - <i class="fa fa-fw fa-cog"></i> [技术阅读收藏](/tech)
-        <sup>文档、教程、博客、文章</sup>
+        <sup>文档、教程、博客、文章…</sup>
 - __回忆__
     - <i class="fa fa-fw fa-camera-retro"></i> [回忆](/moments/)
         <sup>Good old days</sup>
