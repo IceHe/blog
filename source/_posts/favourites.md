@@ -1,6 +1,6 @@
 title: 最喜爱的
 date: 2015-11-19
-updated: 2017-05-04
+updated: 2017-05-10
 categories: [read]
 tags: [read]
 description: Favorites&#58; 我最喜欢的书籍、电影、电视剧、动画、游戏…
@@ -256,4 +256,5 @@ __《论语·述而》__
 - ClariS
 - Egoist
 - Supercell
-- 李荣浩
+- GARNiDELiA
+- LiSA
