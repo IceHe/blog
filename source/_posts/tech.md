@@ -1,6 +1,6 @@
 title: 技术阅读收藏
 date: 2016-06-14
-updated: 2017-04-08
+updated: 2017-05-10
 categories: [read]
 tags: [read]
 description: Technology Bookmarks 技术内容的书签：工具、文档、Wiki、技术博客…
@@ -24,18 +24,18 @@ __Albert Einstein__
 - [HTTP Status Codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#1xx_Informational) - 状态码
 - [TCP & UDP Port Numbers](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports) - 端口号
 
-## Docs
+## 文档
 
 最好的习惯：查阅官方网站的文档。
 
 - [My Git Note](/cmd/git_note)
 - [Vim Cheat Sheet](http://coolshell.cn//wp-content/uploads/2011/09/vim_cheat_sheet_for_programmers_print.png) - Vim 键位操作总结图
 - [PHP The Right Way](http://www.phptherightway.com/) <sup>_todo_</sup>
-- [PHP Value Comparison](http://www.blueshoes.org/en/developer/php_cheat_sheet) - PHP 变量比较结果参考
+- [PHP Types Comparison](http://www.php.net/manual/en/types.comparisons.php) - PHP 变量比较结果参考
 - [Mac Developer Library](https://developer.apple.com/library/mac/navigation/) -> [AppleScript Language Guide](https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html)
 - [Object Oriented Design](http://www.cheatography.com/david/cheat-sheets/object-oriented-design/) ( Cheat Sheet )
 
-## Algorithm
+## 算法
 
 - [Advanced Data Structures](http://courses.csail.mit.edu/6.851/) <sup>_todo_</sup>
 - [Visual Algo](http://visualgo.net/) - Visualising data structures and algorithms through animation. <sup>_todo_</sup>
@@ -44,7 +44,7 @@ __Albert Einstein__
 - [随机问题 - 洗牌算法](http://mp.weixin.qq.com/s?__biz=MzA4NjE3MDg4OQ==&amp;mid=403338527&amp;idx=1&amp;sn=0c3649ba03268f8b9605b1b75e14cb8b&amp;scene=1&amp;srcid=0406vMkKTTz3LabAOl04P8L6#rd)
 - [结构之法 算法之道](http://blog.csdn.net/v_july_v) <sup>_todo_</sup>
 
-## Coding
+## 代码技巧
 
 - [编程的智慧](http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy) - 编码习惯！
 - [一些软件设计的原则](http://coolshell.cn/articles/4535.html)
@@ -61,7 +61,7 @@ __Albert Einstein__
 - [有哪些老鸟程序员知道而新手不知道的小技巧？](https://www.zhihu.com/question/36426051)
 - [为什么文件名要小写？](http://www.ruanyifeng.com/blog/2017/02/filename-should-be-lowercase.html)
 
-## Read
+## 阅读
 
 - [GitBook](https://www.gitbook.com/explore) <sup>_todo_</sup>
     - [How to be a Programmer](https://www.gitbook.com/book/braydie/how-to-be-a-programmer/details/zh) <sup>_todo_</sup>
@@ -93,7 +93,7 @@ __Albert Einstein__
 - [为什么全栈JavaScript经常被黑，而Java却不会被黑？](https://www.zhihu.com/question/43165251/answer/95373570)- “全栈”之路 <sup>_temp_</sup>
 - [PHP-FPM 不完全指南](https://www.tooto.cc/archives/193) <sup>_todo_</sup>
 
-## Architecture
+## 架构
 
 - [架构腐化之谜](http://mp.weixin.qq.com/s?__biz=MjM5NTg2NTU0Ng==&amp;mid=210816035&amp;idx=3&amp;sn=7ad903e7be165e2c616c20fa2f148f63&amp;scene=1#rd) <sup>__Best__</sup>
 - [什么不要做？关于失败和优化](http://zhuanlan.zhihu.com/yilecoming/20587867)
@@ -122,7 +122,7 @@ __Albert Einstein__
 - [Unix 40年：昨天，今天和明天](http://coolshell.cn/articles/1023.html)
 - [Unix 现状与未来](http://blog.csdn.net/haoel/article/details/1688006)
 
-## Secure
+## 网络安全
 
 - [理解 OAuth 2.0](https://github.com/ruanyf/articles/blob/master/2014/2014-05-11-oauth-2-0.md)
 - [图解 SSL / TLS 协议](https://github.com/ruanyf/articles/blob/master/2014/2014-09-20-illustration-ssl.md)
@@ -136,7 +136,7 @@ __Albert Einstein__
 - [矛与盾：二进制漏洞攻防思想对抗](http://www.freebuf.com/articles/system/127207.html?from=groupmessage&isappinstalled=0)
 - [关于移动端的钓鱼式攻击](http://coolshell.cn/articles/17066.html)
 
-## Career
+## 职业发展
 
 - [怎样花两年时间去面试一个人](http://mindhacks.cn/2011/11/04/how-to-interview-a-person-for-two-years/)
 - [计算机行业还能火几年？](https://www.zhihu.com/question/27809894/answer/98696858)- 前景！？
@@ -151,7 +151,7 @@ __Albert Einstein__
 - [如何优雅地参加技术分享会？](https://zhuanlan.zhihu.com/p/22322885)- 听技术分享的意义 <sup>_temp_</sup>
 - [左耳朵耗子：不灌鸡汤，说真的年龄渐长，技术人的发展之路该怎么走？](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650995135&idx=1&sn=758336ff3ecbfdc239d80a11a7122344&chksm=bdbf01ec8ac888fa1c24d310bb34ca257c4ba06e3d92a1d32d05803498e10624d0c525c1cc59&mpshare=1&scene=1&srcid=1229uZN9HTY7NE6ZuPIyse2t#rd)
 
-## IT Industry
+## IT 业态
 
 - [Reddit](https://www.reddit.com/)
 - [Hacker News](https://news.ycombinator.com/)
@@ -162,6 +162,7 @@ __Albert Einstein__
 - [来信，创业和移动互联网](http://coolshell.cn/articles/5815.html)
 - [腾讯，竞争力和用户体验](http://coolshell.cn/articles/5901.html)
 - [Facebook 广告系统比谷歌先进在哪里？](https://www.zhihu.com/question/29847912/answer/101025439?utm_campaign=weekly225&utm_source=weekly-digest&utm_medium=email)
+- [从空空狐谈信用卡套利](http://mp.weixin.qq.com/s?__biz=MzI0MjA1Mjg2Ng==&mid=2649867281&idx=1&sn=62646e12000aaee315ded3a634f57f45&chksm=f1075e7cc670d76ae94ce27c16a67eb2c747bf3911fc67de36bdc9b5d57aac93f956820ecfb1&mpshare=1&scene=1&srcid=0509zSKaMDmh9SBVYn0jr9gh#rd)
 
 ## Management
 
