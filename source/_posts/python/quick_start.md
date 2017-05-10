@@ -4,7 +4,7 @@ updated: 2017-04-23
 no_upd: true
 categories: [Python]
 tags: [Python]
-description: 廖雪峰《Python 教程》笔记的再整理，主要是代码样例与运行结果。
+description: 廖雪峰《Python 教程》笔记的再整理，主要是代码样例与运行结果。目标：让有编程基础的人，通过简单参阅本文，即可快速上手使用 Python3 的基本特性。
 ---
 
 - 参考：
@@ -19,7 +19,7 @@ description: 廖雪峰《Python 教程》笔记的再整理，主要是代码样
 
 # 基础
 
-Python 代码文件后缀是 `*.py` 
+Python 代码文件后缀是 `*.py`
 
 在 Python 代码文件首行的「文件编码声明」如下：
 
@@ -125,7 +125,7 @@ True or False
 
 ```python
 # 非
-not False 
+not False
 ```
 
 
@@ -298,7 +298,7 @@ ord('中')
 
     <ipython-input-56-b318511b2a75> in <module>()
     ----> 1 '中文'.encode('ascii')
-    
+
 
     UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
 
@@ -516,7 +516,7 @@ list1[4]
     <ipython-input-33-895f56fd4693> in <module>()
           1 ## 越界访问
     ----> 2 list1[4]
-    
+
 
     IndexError: list index out of range
 
@@ -678,7 +678,7 @@ t1[1] = '0'
     <ipython-input-11-000b1c67bf12> in <module>()
           1 # 元组元素不可变
     ----> 2 t1[1] = '0'
-    
+
 
     TypeError: 'tuple' object does not support item assignment
 
@@ -881,7 +881,7 @@ d1['2B']
     <ipython-input-21-8e60e5923ffc> in <module>()
           1 # 访问不存在的元素
     ----> 2 d1['2B']
-    
+
 
     KeyError: '2B'
 
@@ -1046,7 +1046,7 @@ s1 | s2
 
 ```python
 # 绝对值
-abs(-100) 
+abs(-100)
 ```
 
 
@@ -1170,7 +1170,7 @@ def my_abs(x):
         return x
     else:
         return -x
-    
+
 my_abs(-1)
 ```
 
@@ -1221,12 +1221,12 @@ def my_abs(x):
     if not isinstance(x, (int, float)):
         #### 报参数错误
         raise TypeError('bad oprand type')
-        
+
     if x >= 0:
         return x
     else:
         return -x
-    
+
 my_abs('12')
 ```
 
@@ -1237,15 +1237,15 @@ my_abs('12')
 
     <ipython-input-53-01e3e9adef36> in <module>()
          11         return -x
-         12 
+         12
     ---> 13 my_abs('12')
-    
+
 
     <ipython-input-53-01e3e9adef36> in my_abs(x)
           4     if not isinstance(x, (int, float)):
           5         #### 报参数错误
     ----> 6         raise TypeError('bad oprand type')
-          7 
+          7
           8     if x >= 0:
 
 
@@ -1339,7 +1339,7 @@ power(2)
     <ipython-input-68-c11c9f54ebfc> in <module>()
           1 # 缺失参数报错
     ----> 2 power(2)
-    
+
 
     TypeError: power() missing 1 required positional argument: 'n'
 
@@ -1553,9 +1553,9 @@ person('Alice', '12', 'beijing', 'student') # 错误用法
 
     <ipython-input-88-e06e0578d736> in <module>()
           3     print(name, age, city, job)
-          4 
+          4
     ----> 5 person('Alice', '12', 'beijing', 'student') # Error
-    
+
 
     TypeError: person() takes 2 positional arguments but 4 were given
 
@@ -1649,7 +1649,7 @@ factorial(1000)
     <ipython-input-95-e1ef40be0628> in <module>()
           1 # 递归嵌套过深导致栈溢出
     ----> 2 factorial(1000)
-    
+
 
     NameError: name 'factorial' is not defined
 
@@ -1673,16 +1673,16 @@ factorial2(1000)
     RecursionError                            Traceback (most recent call last)
 
     <ipython-input-98-354f146d0995> in <module>()
-          7 
+          7
           8 # 虽然已经使用了尾递归的写法，可是 Python 编译器没有做相关优化，所以还是会栈溢出
     ----> 9 factorial2(1000)
-    
+
 
     <ipython-input-98-354f146d0995> in factorial2(n, p)
           4         return p
           5     # （尾递归的）思路：将中间结果先计算出来，再返回去！就可以减少使用的栈空间（只用一个栈帧）
     ----> 6     return factorial2(n - 1, n * p)
-          7 
+          7
           8 # 虽然已经使用了尾递归的写法，可是 Python 编译器没有做相关优化，所以还是会栈溢出
 
 
@@ -1693,7 +1693,7 @@ factorial2(1000)
           4         return p
           5     # （尾递归的）思路：将中间结果先计算出来，再返回去！就可以减少使用的栈空间（只用一个栈帧）
     ----> 6     return factorial2(n - 1, n * p)
-          7 
+          7
           8 # 虽然已经使用了尾递归的写法，可是 Python 编译器没有做相关优化，所以还是会栈溢出
 
 
@@ -2292,9 +2292,9 @@ fibonacci(7)
 - 说明：多变量赋值语句
 
     `a, b = b, a + b`
-    
+
     等价于
-    
+
 ```
 t = (b , a + b)
 a = t[0]
@@ -2375,9 +2375,9 @@ next(o) # error：StopIteration
 
     <ipython-input-176-97e97a5e3d6b> in <module>()
     ----> 1 next(o) # error：StopIteration
-    
 
-    StopIteration: 
+
+    StopIteration:
 
 
 
@@ -2427,10 +2427,10 @@ while True:
 
 def triangles():
     yield [1]
-    
+
     L = [1, 1]
     yield L
-    
+
     cnt = 2
     while True:
         tmpL = [1]
@@ -2718,7 +2718,7 @@ L = []
 
 for x in range(1, 10):
     L.append(f(x))
-    
+
 L
 ```
 
@@ -2855,19 +2855,19 @@ from functools import reduce
 def str2float(s):
     def char2num(ch):
         return {'0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9}[ch]
-    
+
     def toDecimal(s):
-        def x10(x, y): 
+        def x10(x, y):
             return x * 10 + y
         return reduce(x10, map(char2num, s))
-    
+
     result = list(map(toDecimal, s.split('.')))
 
     while result[1] > 1:
         result[1] /= 10
 
     return result[0] + result[1]
-    
+
 str2float('123.456')
 ```
 
@@ -2921,7 +2921,7 @@ def oddIter():
     while True:
         n = n + 2
         yield n
-        
+
 def notDivisible(n):
     return lambda x: x % n > 0
 
@@ -2932,7 +2932,7 @@ def primes():
         n = next(it) # 返回序列的第一个数
         yield n
         it = filter(notDivisible(n), it)
-        
+
 for n in primes():
     if n < 100:
         print(n)
@@ -3493,7 +3493,7 @@ def log(text):
 @log('execute')
 def now():
     print('2017-04-22')
-    
+
 now()
 ```
 
@@ -3539,7 +3539,7 @@ def log(func):
 @log
 def now():
     print('2017-04-22')
-    
+
 now()
 ```
 
@@ -3689,7 +3689,7 @@ def test():
     else:
         print('Too many arguments!')
     print(args)
-        
+
 test()
 ```
 
