@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://icehe.me/"/>
-  <updated>2017-05-06T16:00:00.000Z</updated>
+  <updated>2017-05-11T16:00:00.000Z</updated>
   <id>http://icehe.me/</id>
   
   <author>
@@ -14,6 +14,275 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PHP 编程经验</title>
+    <link href="http://icehe.me/php/exp/"/>
+    <id>http://icehe.me/php/exp/</id>
+    <published>2017-05-11T16:00:00.000Z</published>
+    <updated>2017-05-11T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h2><p>PHP 是天生用于 Web 开发的脚本语言，本文也主要讨论 PHP 在 Web 服务端的场景下的使用。</p>
+<p>工具一旦不常使用，就会容易遗忘一些需要重视的细节。所以有必要去总结、固化自己掌握的相关知识经验。即使一时忘记了也不要紧，用自己总结的材料来复习，可以快速地「重拾」这些细节。</p>
+<p>笔者水平有限，请谨慎参考本文。可以继续去 Google 搜索，甚至看源码，最好自己动手写代码，来对具体的情况进行试验，因为文字记录可能会过时失效，记忆可能会模糊出错。只有在具体的条件下，用实际的运行结果来检验代码，才足够牢靠。</p>
+<p>本文的一些内容是通用的，不一定只适用于 PHP。如发现本文的错误，烦请指正。</p>
+<h3 id="八卦：最好的语言？"><a href="#八卦：最好的语言？" class="headerlink" title="八卦：最好的语言？"></a>八卦：最好的语言？</h3><blockquote class="blockquote-center"><p>PHP 是世界上最好的（编程）语言！</p>
+<p><strong>原始出处不详</strong></p>
+</blockquote>
+<p>不少 PHP 的圈外人和新手不懂行，难免无法理解以至于误解这句流传甚广的话，甚至睥睨 PHP 并施以冷嘲热讽。</p>
+<p>（如果一个程序员对计算机的技术和文化有足够的理解，应该耻于做这种「忽视场景，牵强对比各种编程语言优劣」的事来自找优越感。除非是一些特别的情况，可能他在「钓鱼」或者…… 见下文）</p>
+<p>实际上「PHP 是世界上最好的语言」这句话已经成了一种梗，PHP 程序员经常以这种「自嘲」的方式表明身份。比如，我们也会戏称自己以「拍黄片」（Pai Huang Pian）为业。</p>
+<ul>
+<li>PHP 圈的八卦见闻：<br>  竟然有人嘲笑 PHP 的「继父」鸟哥 惠新宸（Laruence <a href="http://weibo.com/laruence" target="_blank" rel="external">@weibo</a>、<a href="https://github.com/laruence" target="_blank" rel="external">@GitHub</a>、<a href="http://www.laruence.com/" target="_blank" rel="external">@Blog</a>）竟然敢自称「亚洲第一程序员」（我真实碰过这么认为的朋友），其实这是一个以讹传讹的失实说法。鸟哥并没有这样自称，「亚一程」这只不过是中国 PHP 小圈子里的友人给他取得的一个绰号而已，是一个富于幽默感的戏称（爱称），也算是由「PHP 是最好的语言」引申出来的梗。毕竟鸟哥给 PHP 社区做出了如此巨大的贡献，旧的 PHP 项目只要换上 PHP7 的运行环境就能有惊人的性能提升（可另行搜索了解详情），然后当年的性能 KPI 就完成了…… 圈内用这样饶有趣味地方式来捧鸟哥，实在是再正常不过的事，哈哈。PHP7 出来已经挺久，现在也不常有人提起「亚一程」这个梗了。</li>
+</ul>
+<h3 id="PHP-的一些槽点"><a href="#PHP-的一些槽点" class="headerlink" title="PHP 的一些槽点"></a>PHP 的一些槽点</h3><p>但是不得不承认，PHP 在诞生之初，由于一些缺乏远见的初始设计，导致了它有着一些难以修正的缺陷，但无伤大雅。在完美主义者的眼里，PHP 确实写起来不够「优雅」。为了兼容性，即使是焕然一新的新版本 PHP7，也无法抛弃全部的历史包袱。这里提其中一些槽点：</p>
+<ol>
+<li><strong>美元符 <code>$</code></strong> 通常放在变量名前面，用于声明和使用变量，有人光是看到 <code>$</code> 美元符就会觉得特不爽。</li>
+<li>内建函数的 <strong>函数名</strong> 风格不一致、或长或短，其中一些函数明显带有 C 语言的风格特征，其实就和 C 语言的库函数同名，然而后来新增的一些内建函数的名字却又比较完整比较长……</li>
+<li>不少函数的 <strong>函数参数</strong> 的排列规律不够一致（可准确预测），如果不常用、又不去参考手册（<a href="http://php.net/" target="_blank" rel="external">php.net</a>），我会担心自己搞错它们含义、用途和排列顺序。<ul>
+<li>官方网站 <a href="http://php.net/" target="_blank" rel="external">php.net</a> 也是一个奇特的存在，它是存放参考文档的网页，也像一个论坛或问答区（官网并没有直接提供社区）。参考页面下可以盖楼「评论」，你可以对评论「顶」或「踩」，许多评论会提供相关的使用样例、测试代码和更深入的细节说明，可能比文档正文还管用……</li>
+</ul>
+</li>
+<li><strong>弱类型变量的比较</strong>。「隐式类型转换」是弱类型编程语言的特点，是优点也是缺点 —— 容易上手，但新手更容易用错。在后文的「访问变量」小节，会有更进一步的细节讨论。</li>
+<li>其它详见 <strong>知乎问答<a href="https://www.zhihu.com/question/28596521/answer/49125835" target="_blank" rel="external">「PHP既然这么烂，那它是怎么火起来的？」PHP 核心开发者惠新宸的回答</a></strong>。</li>
+</ol>
+<h2 id="访问变量"><a href="#访问变量" class="headerlink" title="访问变量"></a>访问变量</h2><h3 id="变量未定义"><a href="#变量未定义" class="headerlink" title="变量未定义"></a>变量未定义</h3><p>如果访问未定义的变量 PHP 会报错：<code>PHP Notice:  Undefined variable …</code>。</p>
+<p>有几种办法避免错误：</p>
+<ol>
+<li>「关掉相关的错误报告」<br>这种贪图方便的做法，不过是在掩耳盗铃罢了 —— 掩盖问题，假装问题并不存在。看不到错误报告会掩藏许多其它问题，日久天长，终有一天会爆发出大问题。<ul>
+<li>见过一些糟糕的项目，不关闭所有的错误报告就无法正常运行，出了 bug 难以复现和定位，更别说修复、维护和后续更新了。</li>
+</ul>
+</li>
+<li>「检查后获取」<ul>
+<li>虽然麻烦一点，但很有必要。它让代码逻辑更严密，流程更可控。</li>
+</ul>
+</li>
+</ol>
+<p>写法：</p>
+<ul>
+<li><del><strong><code>isset($_GET[&#39;key&#39;]) ? $_GET[&#39;key&#39;] : null</code></strong></del> 冗余笨拙，简直噩梦。</li>
+<li><strong><code>$_GET[&#39;key&#39;] ?? null</code></strong> 简便。<code>??</code> 是 PHP7 加入的新语法。</li>
+</ul>
+<p>简单的封装：<br><figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">ary_get</span><span class="params">($ary, $key, $default = null)</span> </span>&#123;</div><div class="line">    <span class="keyword">return</span> $ary[$key] ?? $deault; <span class="comment">// 自定义返回的默认值 $default</span></div><div class="line">&#125;</div><div class="line"></div><div class="line">$a = [<span class="string">'a'</span> =&gt; <span class="string">'apple'</span>, <span class="string">'b'</span> =&gt; <span class="string">'Boy'</span>];</div><div class="line">$c = ary_get($a, <span class="string">'c'</span>); <span class="comment">// $c 为 null</span></div></pre></td></tr></table></figure></p>
+<p>Laravel 框架就有这类工具函数 <code>array_get()</code>，还支持用 <code>.</code> 表达式访问多重数组的元素：<br><figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$a = [<span class="string">'b'</span> =&gt; [<span class="string">'c'</span> =&gt; <span class="string">'cat'</span>]];</div><div class="line">$c = array_get($a, <span class="string">'b.c'</span>); <span class="comment">// $c 为 'cat'</span></div></pre></td></tr></table></figure></p>
+<h3 id="请求参数"><a href="#请求参数" class="headerlink" title="请求参数"></a>请求参数</h3><p>PHP 可以从 <code>$_GET</code>、<code>$_POST</code> 等超全局变量中获取 HTTP Request 传来的参数。虽然这么做很便捷，但是在工程项目中，为了更 <strong>统一、安全</strong> 地获取请求参数，还是会对它们再做一层封装。</p>
+<p>例如，微博的 Mobile API（笔者所在部门的主项目）现在使用 <code>Request::get(&#39;param_name&#39;)</code> 的写法来获取单个请求参数。这里的 <code>Request</code> 是用于获取当前请求参数的全局单例类。</p>
+<ul>
+<li>统一：一般情况下，没有必要区分请求的参数来自 <code>GET</code> 还是 <code>POST</code>。</li>
+<li>安全：我们不能假定请求方一定传了所有用到的参数。<ul>
+<li>如果用 <code>$_GET[&#39;key&#39;]</code> 这种简单的方式获取请求参数，可能会访问到数组中不存在的元素，导致程序异常退出，输出不该暴露给用户的错误信息。<ul>
+<li>如果关闭所有异常报告，接口会返回空。</li>
+</ul>
+</li>
+<li>为了避免报错，可以写成：<strong><code>$_GET[&#39;key&#39;] ?? null</code></strong></li>
+<li>但是如果每次获取参数都要写 <code>?? default_value</code> 的话就太麻烦，可以将这部分写到组件里。  <figure class="highlight php"><figcaption><span>Request::get('key') 的简单实现</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">Request</span> </span>&#123;</div><div class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">get</span><span class="params">($key, $default = null)</span> </span>&#123;</div><div class="line">        <span class="keyword">return</span> $_GET[$key] ?? $_POST[$key] ?? $default;</div><div class="line">    &#125;</div><div class="line">    <span class="comment">// …</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="其它考虑"><a href="#其它考虑" class="headerlink" title="其它考虑"></a>其它考虑</h4><p>可能需要封装一些额外的功能来简化工作。</p>
+<ul>
+<li>防止修改：<br>  应该保留请求参数的一份原始值，让它们保持只读。<ul>
+<li>不严谨的开发者，可能会贪图方便直接修改 <code>$_GET</code> <code>$_POST</code> 中的参数值，这时就找不回参数的原始值了。</li>
+<li>在处理请求的代码流程中，谁都能够去修改请求参数，容易导致不同场景下的上下文不一致，运行结果难以预料。<br>  一旦运行出错，只凭借代码出错位置和以及当时的变量内容等，很可能难以迅速定位问题和优雅地解决。<br>  可能只能从请求发出开始，单步断点调试代码，以调查代码在什么时候、什么地方把请求参数修改得（面目全非）不符合预期以致出错。</li>
+</ul>
+</li>
+<li>过滤敏感参数：<br>  不能随意传递给第三方的参数。<ul>
+<li>例如，账户名、密码、手机号、认证身份的 token 等等；这些参数虽然敏感，但是正是用到了，才会被传递过来；通常传递前，都会先经过加密。</li>
+<li>毕竟当前代不是处理这些参数的最后一站，可能还要传递给第三方。使用者为了方便，可能会下意识将所有参数一股脑（如 <code>Request::all()</code>）传递出去。</li>
+<li>将敏感参数不小心传递给未被授权使用它们的第三方，违规且危险。所以，先从正常获取方式中过滤掉敏感参数，再提供其它方法去获取它们（如 <code>Request::getSesitiveInput(&#39;key&#39;)</code>），大大减少被误传的可能性。</li>
+</ul>
+</li>
+<li>修正参数错误：<ul>
+<li>客户端快速迭代开发，如果不经过严谨地测试，容易造成许多小 bug。一些用户由于各种原因没有更新客户端，市场上残留这一些有 bug 的历史版本。有些 bug 与请求参数有关，这种各样，例如：参数改名，选传参数变必传参数，参数内容格式要求变更，一个参数拆分为多个参数等。</li>
+<li>通常只保留并维护一套 API 以供外部使用，毕竟不可能为了客户端的各种历史版本或其它调用方保留多套 API 运行在线上。</li>
+<li>这时就需要在获取请求参数前做好各种兼容处理了，如果有一个组件 <code>Request</code> 封装了这种处理，就方便多了。肮脏的兼容性代码统一隐藏到了组件中，眼不见为净，就不会因到处复制粘贴而污染到正常的处理代码，使代码产生不必要冗余。</li>
+</ul>
+</li>
+<li><p>修改参数值并保留原始值：</p>
+<ul>
+<li>可能还是需要 <code>Request::set(&#39;key&#39;, $value)</code> 这类操作，但直接修改 <code>$_GET</code> 和 <code>$_POST</code> 依然不合适。为了保留原始值可以这么做：  <figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">Request</span> </span>&#123;</div><div class="line">    <span class="keyword">protected</span> $modifiedParams = [];</div><div class="line"></div><div class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">set</span><span class="params">($key, $value)</span> </span>&#123;</div><div class="line">        <span class="keyword">$this</span>-&gt;modifiedParams[$key] = $value;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">get</span><span class="params">($key, $default = null)</span> </span>&#123;</div><div class="line">        <span class="keyword">return</span> <span class="keyword">$this</span>-&gt;modifiedParams[$key]</div><div class="line">            ?? $_GET[$key] ?? $_POST[$key] ?? $default;</div><div class="line">    &#125;</div><div class="line">    <span class="comment">// …</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>其它可行的做法：</p>
+<ul>
+<li>封装对 <code>$_SERVER</code>、<code>$_COOKIE</code> 等与请求相关的超全局参数的获取与处理代码。</li>
+<li>封装那些命名唯一（不会被误操作）且业务相关的参数的通用处理。<ul>
+<li>例如：加密、解密，参数格式检验，客户端版本判断，源 IP 获取。</li>
+</ul>
+</li>
+<li>其实业界有许多可以参照的「最佳实践」（至少当前是最佳）获得启示。<ul>
+<li>例如，各种久经考验的框架、组件：Zend、Symfony、Laravel ……</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="判断变量"><a href="#判断变量" class="headerlink" title="判断变量"></a>判断变量</h2><p>起始说明：<br><code>$a</code> 表示变量（一般变量、或数组元素）<br><code>$v</code> 暗指它是一般的变量（不是数组）<br><code>$ary</code> 暗指它是数组<br><code>$ary[$k]</code> 代表通过 key 访问数组<br><code>===</code> PHP 的全等比较符<br><code>!==</code> PHP 的不全等比较符<br>=== 等价于（此处没有深灰背景色）<br>!== 不等价于（此处没有深灰背景色）</p>
+<hr>
+<p>常用的三目运算符 <code>?:</code> 的表达式的缩写方法：</p>
+<div class="note success"><p><code>$a ? $a : $b</code> === <code>$a ?: $b</code></p>
+</div>
+<p>但是 <code>$a ?: $b</code> !== <code>$a ?? $b</code>，<br>当然 <code>$ary[$k] ?: $b</code> !== <code>$ary[$k] ?? $b</code>。<br>看起来有点像，但是有着不同的含义与逻辑。<br>看起来应该不会用错，但实际使用就是可能会搞错，注意使用的场景。</p>
+<hr>
+<p><code>$v</code> 是一般变量时，以下替换才成立：</p>
+<div class="note success"><p><code>empty($v)</code> === <code>!$v</code></p>
+</div>
+<p>引申：<code>empty($a) ? $b : $a</code> === <code>!$a ? $b : $a</code> === <code>$a ? $a : $b</code> === <code>$a ?: $b</code>。<br>可以直接用来快速简化 PHP 代码，不只对三目运算符 <code>?:</code> 有用，也对 <code>if … else</code> 的分支语句有用。</p>
+<hr>
+<p>如果判断的是数组元素的话：</p>
+<div class="note success"><p><code>empty($ary[$k])</code> !== <code>!$ary[$k]</code></p>
+</div>
+<p>原因是：</p>
+<div class="note success"><p><code>empty($a)</code> 包含了 <code>isset($a)</code> 的判断；而 <code>!</code> 只是单纯的取反操作。</p>
+</div>
+<p>即 <code>isset($a) &amp;&amp; empty($a)</code> === <code>empty($a)</code>。<br>而 <code>isset($ary[$k]) &amp;&amp; !$ary[$k]</code> !== <code>!$ary[$k]</code>。</p>
+<p>所以，如果数组元素 <code>$ary[$k]</code> 不存在/未定义时，<br>使用 <code>empty($ary[$k])</code> 来判断其是否为空，PHP 不会报告错误；<br>而 <code>!$ary[$k]</code> 则会。</p>
+<hr>
+<p>当 <code>$v</code> 为 <code>0</code> <code>&#39;&#39;</code> <code>&#39;0&#39;</code> <code>[]</code> <code>null</code> <code>false</code> 等时，<br><div class="note success"><p><strong><code>false</code> === <code>empty($v)</code> === <code>!$v</code></strong></p>
+</div></p>
+<p><code>isset()</code> 与 <code>is_null()</code>（逻辑和结果）相反<br><div class="note success"><p><strong><code>isset($a)</code> === <code>!is_null($a)</code></strong></p>
+</div></p>
+<h3 id="代码实验"><a href="#代码实验" class="headerlink" title="代码实验"></a>代码实验</h3><p>可以参考官方文档 <a href="http://www.php.net/manual/en/types.comparisons.php" target="_blank" rel="external">PHP Type Comparisons</a>。<br>但是它的表格依然有错，所以还是建议用以下的代码来进行实验。</p>
+<figure class="highlight php"><figcaption><span>简洁版</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line"><span class="comment">//error_reporting(~E_ALL);</span></div><div class="line"></div><div class="line">$cases = [</div><div class="line">    <span class="comment">/* usual */</span></div><div class="line">    <span class="keyword">null</span>, <span class="string">''</span>, [], [<span class="number">0</span>],</div><div class="line">    <span class="comment">/* num */</span></div><div class="line">    <span class="number">2</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">-1</span>, <span class="string">'2'</span>, <span class="string">'1'</span>, <span class="string">'0'</span>, <span class="string">'-1'</span>,</div><div class="line">    <span class="comment">/* bool */</span></div><div class="line">    <span class="keyword">true</span>, <span class="keyword">false</span>, <span class="string">'true'</span>, <span class="string">'false'</span>, <span class="string">'str'</span>,</div><div class="line">];</div><div class="line"></div><div class="line">$exprs = [</div><div class="line">    <span class="string">'is_null'</span> =&gt; <span class="function"><span class="keyword">function</span> <span class="params">($v)</span> </span>&#123; <span class="keyword">return</span> is_null($v); &#125;,</div><div class="line">    <span class="string">'isset'</span> =&gt; <span class="function"><span class="keyword">function</span> <span class="params">($v)</span> </span>&#123; <span class="keyword">return</span> <span class="keyword">isset</span>($v); &#125;,</div><div class="line">    <span class="comment">//'!isset' =&gt; function ($v) &#123; return !isset($v); &#125;,</span></div><div class="line">    <span class="string">'empty'</span> =&gt; <span class="function"><span class="keyword">function</span> <span class="params">($v)</span> </span>&#123; <span class="keyword">return</span> <span class="keyword">empty</span>($v); &#125;,</div><div class="line">    <span class="comment">//'!empty' =&gt; function ($v) &#123; return !empty($v); &#125;,</span></div><div class="line">    <span class="string">'boolval()'</span> =&gt; <span class="function"><span class="keyword">function</span> <span class="params">($v)</span> </span>&#123; <span class="keyword">return</span> boolval($v); &#125;,</div><div class="line">    <span class="comment">// 'if' =&gt; function ($v) &#123; if ($v) &#123; return true; &#125; return false; &#125;,</span></div><div class="line">    <span class="comment">// 'if(!)' =&gt; function ($v) &#123; return !$v; &#125;,</span></div><div class="line">    <span class="comment">// 'is_array' =&gt; function ($v) &#123; return is_array($v); &#125;,</span></div><div class="line">    <span class="comment">// 'is_string' =&gt; function ($v) &#123; return is_string($v); &#125;,</span></div><div class="line">    <span class="string">'intval()'</span> =&gt; <span class="function"><span class="keyword">function</span> <span class="params">($v)</span> </span>&#123; <span class="keyword">return</span> intval($v); &#125;,</div><div class="line">    <span class="string">'==1'</span> =&gt; <span class="function"><span class="keyword">function</span> <span class="params">($v)</span> </span>&#123; <span class="keyword">return</span> ($v == <span class="number">1</span>); &#125;,</div><div class="line">    <span class="string">"=='1'"</span> =&gt; <span class="function"><span class="keyword">function</span> <span class="params">($v)</span> </span>&#123; <span class="keyword">return</span> ($v == <span class="string">'1'</span>); &#125;,</div><div class="line">    <span class="comment">// '!=1' =&gt; function ($v) &#123; return ($v != 1); &#125;,</span></div><div class="line">    <span class="comment">// 'strlen!=0' =&gt; function ($v) &#123; return strlen($v) != 0; &#125;,</span></div><div class="line">    <span class="comment">// "=='true'" =&gt; function ($v) &#123; if ($v == 'true') &#123; return true; &#125; return false; &#125;,</span></div><div class="line">];</div><div class="line"></div><div class="line">$lines = [];</div><div class="line"><span class="keyword">foreach</span> ($cases <span class="keyword">as</span> $index =&gt; $case) &#123;</div><div class="line">    <span class="comment">// 缩短展示变量的那一列的宽度</span></div><div class="line">    $title = (is_array($case) ? <span class="string">''</span> : gettype($case))</div><div class="line">        .<span class="string">' '</span>.str_replace([<span class="string">"\n"</span>, <span class="string">' '</span>], <span class="string">''</span>, var_export($case, <span class="keyword">true</span>));</div><div class="line"></div><div class="line">    <span class="comment">// 统一前两列的宽度，对齐数据以便查看</span></div><div class="line">    $line = [</div><div class="line">        str_pad(<span class="string">''</span>.$index, <span class="number">2</span>),</div><div class="line">        str_pad(trim($title), <span class="number">14</span>),</div><div class="line">    ];</div><div class="line"></div><div class="line">    <span class="keyword">foreach</span> ($exprs <span class="keyword">as</span> $desc =&gt; $expr) &#123;</div><div class="line">        $line[] = $desc.<span class="string">' '</span>.($expr($case) ? <span class="number">1</span> : <span class="number">0</span>);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    $lines[] = join(<span class="string">' | '</span>, $line);</div><div class="line">&#125;</div><div class="line"><span class="keyword">echo</span> join(<span class="string">"\n"</span>, $lines);</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><figcaption><span>输出</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">n  | cases          | is_null | isset | empty | boolval() | intval() | ==1 | ==&apos;1&apos;</div><div class="line">0  | NULL NULL      | 1       | 0     | 1     | 0         | 0        | 0   | 0</div><div class="line">1  | string &apos;&apos;      | 0       | 1     | 1     | 0         | 0        | 0   | 0</div><div class="line">2  | array()        | 0       | 1     | 1     | 0         | 0        | 0   | 0</div><div class="line">3  | array(0=&gt;0,)   | 0       | 1     | 0     | 1         | 1        | 0   | 0</div><div class="line">4  | integer 2      | 0       | 1     | 0     | 1         | 1        | 0   | 0</div><div class="line">5  | integer 1      | 0       | 1     | 0     | 1         | 1        | 1   | 1</div><div class="line">6  | integer 0      | 0       | 1     | 1     | 0         | 0        | 0   | 0</div><div class="line">7  | integer -1     | 0       | 1     | 0     | 1         | 1        | 0   | 0</div><div class="line">8  | string &apos;2&apos;     | 0       | 1     | 0     | 1         | 1        | 0   | 0</div><div class="line">9  | string &apos;1&apos;     | 0       | 1     | 0     | 1         | 1        | 1   | 1</div><div class="line">10 | string &apos;0&apos;     | 0       | 1     | 1     | 0         | 0        | 0   | 0</div><div class="line">11 | string &apos;-1&apos;    | 0       | 1     | 0     | 1         | 1        | 0   | 0</div><div class="line">12 | boolean true   | 0       | 1     | 0     | 1         | 1        | 1   | 1</div><div class="line">13 | boolean false  | 0       | 1     | 1     | 0         | 0        | 0   | 0</div><div class="line">14 | string &apos;true&apos;  | 0       | 1     | 0     | 1         | 0        | 0   | 0</div><div class="line">15 | string &apos;false&apos; | 0       | 1     | 0     | 1         | 0        | 0   | 0</div><div class="line">16 | string &apos;str&apos;   | 0       | 1     | 0     | 1         | 0        | 0   | 0</div></pre></td></tr></table></figure>
+<hr>
+<figure class="highlight php"><figcaption><span>改进版</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line"><span class="comment">//error_reporting(~E_ALL);</span></div><div class="line"></div><div class="line">$cases = [</div><div class="line">    <span class="comment">/* usual */</span></div><div class="line">    <span class="keyword">null</span>, <span class="string">''</span>, [], [<span class="number">0</span>],</div><div class="line">    <span class="comment">/* num */</span></div><div class="line">    <span class="number">2</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">-1</span>, <span class="string">'2'</span>, <span class="string">'1'</span>, <span class="string">'0'</span>, <span class="string">'-1'</span>,</div><div class="line">    <span class="comment">/* bool */</span></div><div class="line">    <span class="keyword">true</span>, <span class="keyword">false</span>, <span class="string">'true'</span>, <span class="string">'false'</span>, <span class="string">'str'</span>,</div><div class="line">];</div><div class="line"></div><div class="line">$exprs = [</div><div class="line">    <span class="string">'is_null'</span> =&gt; <span class="function"><span class="keyword">function</span> <span class="params">($v)</span> </span>&#123; <span class="keyword">return</span> is_null($v); &#125;,</div><div class="line">    <span class="string">'isset'</span> =&gt; <span class="function"><span class="keyword">function</span> <span class="params">($v)</span> </span>&#123; <span class="keyword">return</span> <span class="keyword">isset</span>($v); &#125;,</div><div class="line">    <span class="comment">//'!isset' =&gt; function ($v) &#123; return !isset($v); &#125;,</span></div><div class="line">    <span class="string">'empty'</span> =&gt; <span class="function"><span class="keyword">function</span> <span class="params">($v)</span> </span>&#123; <span class="keyword">return</span> <span class="keyword">empty</span>($v); &#125;,</div><div class="line">    <span class="comment">//'!empty' =&gt; function ($v) &#123; return !empty($v); &#125;,</span></div><div class="line">    <span class="string">'boolval()'</span> =&gt; <span class="function"><span class="keyword">function</span> <span class="params">($v)</span> </span>&#123; <span class="keyword">return</span> boolval($v); &#125;,</div><div class="line">    <span class="comment">// 'if' =&gt; function ($v) &#123; if ($v) &#123; return true; &#125; return false; &#125;,</span></div><div class="line">    <span class="comment">// 'if(!)' =&gt; function ($v) &#123; return !$v; &#125;,</span></div><div class="line">    <span class="comment">// 'is_array' =&gt; function ($v) &#123; return is_array($v); &#125;,</span></div><div class="line">    <span class="comment">// 'is_string' =&gt; function ($v) &#123; return is_string($v); &#125;,</span></div><div class="line">    <span class="string">'intval()'</span> =&gt; <span class="function"><span class="keyword">function</span> <span class="params">($v)</span> </span>&#123; <span class="keyword">return</span> intval($v); &#125;,</div><div class="line">    <span class="string">'==1'</span> =&gt; <span class="function"><span class="keyword">function</span> <span class="params">($v)</span> </span>&#123; <span class="keyword">return</span> ($v == <span class="number">1</span>); &#125;,</div><div class="line">    <span class="string">"=='1'"</span> =&gt; <span class="function"><span class="keyword">function</span> <span class="params">($v)</span> </span>&#123; <span class="keyword">return</span> ($v == <span class="string">'1'</span>); &#125;,</div><div class="line">    <span class="comment">// '!=1' =&gt; function ($v) &#123; return ($v != 1); &#125;,</span></div><div class="line">    <span class="comment">// 'strlen!=0' =&gt; function ($v) &#123; return strlen($v) != 0; &#125;,</span></div><div class="line">    <span class="comment">// "=='true'" =&gt; function ($v) &#123; if ($v == 'true') &#123; return true; &#125; return false; &#125;,</span></div><div class="line">];</div><div class="line"></div><div class="line"><span class="comment">// 设置表头</span></div><div class="line">$header = array_keys($exprs);</div><div class="line">array_unshift($header, <span class="string">'n'</span>, <span class="string">'cases'</span>);</div><div class="line"></div><div class="line">$lines = [$header];</div><div class="line">$maxTitleLen = <span class="number">0</span>;</div><div class="line"><span class="keyword">foreach</span> ($cases <span class="keyword">as</span> $index =&gt; $case) &#123;</div><div class="line">    <span class="comment">// 缩短展示变量的那一列的宽度</span></div><div class="line">    $title = trim((is_array($case) ? <span class="string">''</span> : gettype($case)).<span class="string">' '</span>.str_replace([<span class="string">"\n"</span>, <span class="string">' '</span>], <span class="string">''</span>, var_export($case, <span class="keyword">true</span>)));</div><div class="line">    $maxTitleLen = ($len = strlen($title)) &gt; $maxTitleLen ? $len : $maxTitleLen;</div><div class="line"></div><div class="line">    $line = [<span class="string">''</span>.$index, $title];</div><div class="line">    <span class="keyword">foreach</span> ($exprs <span class="keyword">as</span> $expr) &#123;</div><div class="line">        $line[] = $expr($case) ? <span class="string">'1'</span> : <span class="string">'0'</span>;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    $lines[] = $line;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">// 计算每一列的宽度</span></div><div class="line">$colLens = [strlen(<span class="string">''</span>.count($cases)), $maxTitleLen];</div><div class="line"><span class="keyword">foreach</span> (array_keys($exprs) <span class="keyword">as</span> $desc) &#123;</div><div class="line">    $colLens[] = strlen($desc);</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">foreach</span> ($lines <span class="keyword">as</span> $k =&gt; $line) &#123;</div><div class="line">    <span class="keyword">foreach</span> ($line <span class="keyword">as</span> $index =&gt; $value) &#123;</div><div class="line">        <span class="comment">// 统一每一列的宽度，对齐数据以便查看</span></div><div class="line">        $line[$index] = str_pad($value, $colLens[$index]);</div><div class="line">    &#125;</div><div class="line">    $lines[$k] = join(<span class="string">' | '</span>, $line);</div><div class="line">&#125;</div><div class="line"><span class="keyword">echo</span> join(<span class="string">"\n"</span>, $lines);</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><figcaption><span>输出</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">n  | cases          | is_null | isset | empty | boolval() | intval() | ==1 | ==&apos;1&apos;</div><div class="line">0  | NULL NULL      | 1       | 0     | 1     | 0         | 0        | 0   | 0</div><div class="line">1  | string &apos;&apos;      | 0       | 1     | 1     | 0         | 0        | 0   | 0</div><div class="line">2  | array()        | 0       | 1     | 1     | 0         | 0        | 0   | 0</div><div class="line">3  | array(0=&gt;0,)   | 0       | 1     | 0     | 1         | 1        | 0   | 0</div><div class="line">4  | integer 2      | 0       | 1     | 0     | 1         | 1        | 0   | 0</div><div class="line">5  | integer 1      | 0       | 1     | 0     | 1         | 1        | 1   | 1</div><div class="line">6  | integer 0      | 0       | 1     | 1     | 0         | 0        | 0   | 0</div><div class="line">7  | integer -1     | 0       | 1     | 0     | 1         | 1        | 0   | 0</div><div class="line">8  | string &apos;2&apos;     | 0       | 1     | 0     | 1         | 1        | 0   | 0</div><div class="line">9  | string &apos;1&apos;     | 0       | 1     | 0     | 1         | 1        | 1   | 1</div><div class="line">10 | string &apos;0&apos;     | 0       | 1     | 1     | 0         | 0        | 0   | 0</div><div class="line">11 | string &apos;-1&apos;    | 0       | 1     | 0     | 1         | 1        | 0   | 0</div><div class="line">12 | boolean true   | 0       | 1     | 0     | 1         | 1        | 1   | 1</div><div class="line">13 | boolean false  | 0       | 1     | 1     | 0         | 0        | 0   | 0</div><div class="line">14 | string &apos;true&apos;  | 0       | 1     | 0     | 1         | 0        | 0   | 0</div><div class="line">15 | string &apos;false&apos; | 0       | 1     | 0     | 1         | 0        | 0   | 0</div><div class="line">16 | string &apos;str&apos;   | 0       | 1     | 0     | 1         | 0        | 0   | 0</div></pre></td></tr></table></figure>
+<p>以上代码的 <a href="https://gist.github.com/IceHe/eb0a95647c7ed5b47fbf30ce85af34e6" target="_blank" rel="external">GitHub Gist</a> 链接。</p>
+<h2 id="常用函数"><a href="#常用函数" class="headerlink" title="常用函数"></a>常用函数</h2><p>许多实现基本功能的函数都内置到了 PHP 中。<br>然而在我看来比较常用的一些功能函数在 Python 里需要 import 相关的模块才能用，略显不便。</p>
+<h3 id="字符串操作"><a href="#字符串操作" class="headerlink" title="字符串操作"></a>字符串操作</h3><p>参考 <a href="http://php.net/" target="_blank" rel="external">php.net</a>：<a href="http://php.net/ref.strings" target="_blank" rel="external">字符串函数</a> &amp; <a href="http://php.net/manual/en/ref.pcre.php" target="_blank" rel="external">PCRE 函数</a>（Regex 正则）</p>
+<p>挑常用的说一说。这里可以很明显感受到命名的不统一。</p>
+<h4 id="字符串前缀"><a href="#字符串前缀" class="headerlink" title="字符串前缀"></a>字符串前缀</h4><p>判断一个字符串是否以另一字符串为前缀，有许多方法：<br><figure class="highlight php"><figcaption><span>strpos</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">strpos($str, $prefix) === <span class="number">0</span>;</div><div class="line"></div><div class="line"><span class="comment">// 说明：用 `===` 全等比较符而不是 `==` 等于号，原因如下。</span></div><div class="line"><span class="comment">// 如果 `strpos()` 返回 false，表示在 $str 中找不到 $prefix；</span></div><div class="line"><span class="comment">// 然而 `false == 0`，用 `==` 进行判断会造成错误。</span></div></pre></td></tr></table></figure></p>
+<figure class="highlight php"><figcaption><span>substr</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 代码长一点，但比起 `strpos` 这种 C 式的函数名，</span></div><div class="line"><span class="comment">// `substr` -&gt; `substring` 更容易理解代码的内在含义。</span></div><div class="line"></div><div class="line">substr($str, <span class="number">0</span>, strlen(<span class="string">'prefix'</span>)) == <span class="string">'prefix'</span>);</div><div class="line"></div><div class="line"><span class="comment">// 在避免代码冗余的情况下，减少出错的可能性：只修改 `'prefix'` 一处就行了。</span></div><div class="line"><span class="comment">// 如果像前文那样用「硬编码」的方式，就要同时修改两处，才能保证不出错。</span></div><div class="line"></div><div class="line">$prefix = <span class="string">'prefix'</span>;</div><div class="line">substr($str, <span class="number">0</span>, strlen($prefix)) == $prefix);</div><div class="line"></div><div class="line"><span class="comment">// 当然 `strlen($prefix)` 可以直接换成 `$prefix` 字符串长度的具体数字，</span></div><div class="line"><span class="comment">// 但是这样不好统一维护，容易改了 `$prefix` 的内容却忘记修改 `$prefixLen`。</span></div><div class="line"><span class="comment">// 好像是减少代码冗余，但是容易出错。我们应该尽可能避免这种低级错误发生的可能性。</span></div><div class="line"></div><div class="line">substr($str, <span class="number">0</span>, $prefixLen) == $prefix);</div><div class="line">substr($str, <span class="number">0</span>, <span class="number">6</span>) == <span class="string">'prefix'</span>);</div><div class="line"></div><div class="line"><span class="comment">// 讽刺的是，我们通常不是不懂这些道理，通常是懒得去做……</span></div><div class="line"><span class="comment">// 重要的不是你懂不懂，而是有没有这么做，强迫症的坚持我觉得有必要。</span></div></pre></td></tr></table></figure>
+<figure class="highlight php"><figcaption><span>preg_match</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 比起函数名 `strpos` 和 `substr` 表意更不清晰。</span></div><div class="line"><span class="comment">// 而且需要简单了解正则表达式，所以不能一瞬间看懂这段代码，而要稍作思考才行。</span></div><div class="line"><span class="comment">// 说明：`preg_match()` 匹配成功返回 1，失败则返回 0，出现异常则返回 false。</span></div><div class="line"></div><div class="line">!preg_match(<span class="string">'/^prefix/'</span>, $str);</div></pre></td></tr></table></figure>
+<p>字符串工具 ‘strpos(…) ===(!==) false’ 这种粒度太小，而且函数名不够表意，不能一言看出其中的意思。<br>strstr 找第一个出现的位置，stristr 忽略大小写<br>str_pad() 补充长度<br>substr() 子字符串，起始位置可为负数 -2<br>str_replace<br>str_split<br>strtock 字符串切分<br><code>html_entity_decode</code> 很少跟视图层打交道，毕竟渲染和服务端完全分离了。<br>sprintf 一般除非输出特殊的，真的远不如用 “{$a}dxxx” 这类型的写法<br>strtolower strtoupper<br>trim<br>strlen<br>implode explode 感觉 join 比 implode 短，通用性和理解更方便<br><code>json_decode</code> <code>json_encode</code></p>
+<p>参考 <a href="https://laravel.com/docs/master" target="_blank" rel="external">Lavarel</a>：<a href="https://laravel.com/docs/master/helpers#strings" target="_blank" rel="external">字符串工具函数</a></p>
+<p>良好的抽象，把常用的操作提取出来，变成工具函数。jo<br>许多常用的工具函数是有必要封装的。<br>starts_with($string, $prefix)<br>ends_with($string, $prefix)<br>str_contains($haystack, $needle)</p>
+<h3 id="数组操作"><a href="#数组操作" class="headerlink" title="数组操作"></a>数组操作</h3><p>参考 <a href="http://php.net/" target="_blank" rel="external">php.net</a>：<a href="http://php.net/manual/en/book.array.php" target="_blank" rel="external">数组函数</a><br>参考 <a href="https://laravel.com/docs/master" target="_blank" rel="external">Lavarel</a>：<a href="https://laravel.com/docs/master/helpers#arrays" target="_blank" rel="external">数组工具函数</a></p>
+<p>[<a href="https://laravel.com/docs/5.4/helpers#available-methods" target="_blank" rel="external">https://laravel.com/docs/5.4/helpers#available-methods</a>]</p>
+<p>引用官网地址。（再挑常用的说说）</p>
+<p>数组操作的相关操作，虽然已经封装了不少，但在我看来还是不够。<br>array_merge<br>array_search<br><code>array_map</code> <code>array_reduce</code><br>array_filter<br>array_shift<br>array_unshift<br>array_chunk<br>array_flip<br>array_keys<br>array_values<br>array_replace<br>array_slice<br>compact<br>count<br>list<br>reset<br><code>array_walk</code> 有时不如直接用循环？因为用 <code>array_map</code> 等，反而开销更大、代码更多…… 用得我蛮尴尬。<br>也内置了迭代器，可是我真的没见谁在用……</p>
+<p>上文提到的 array_get()<br>还有 array_has()<br>array_flat() 数组扁平化<br>array_concat($ary1[, $ary2[, …]]) 数组拼接，这就不用各种遍历来拼数组了<br>array_pluck 等</p>
+<h3 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h3><p>md5<br>rand</p>
+<h3 id="有用的代码封装"><a href="#有用的代码封装" class="headerlink" title="有用的代码封装"></a>有用的代码封装</h3><!--
+4. __函数的返回值__，跟 C 语言一样，它的返回值并不一致。
+    - 例如，C 语言的一些关于字符数组的库函数，它们的返回类型是 int，因为 C 不可能依靠抛出异常来表示错误，只能给 int -1 这种值额外赋予特殊的含义，即发生错误，所以表达上并不够清晰和一致。（其实这并无大碍，毕竟 C 更接近硬件的机器码，不可能也没必要封装异常这种「高级特性」）
+    - PHP 是一种弱类型的语言，虽然也有「类」和「异常」，但是使用一些内建函数也并不抛出异常。例如 `strpos()`，它会返回字符串中的某种子字符串的出现位置，这个位置由非负的整数来表示，如果找不到就会返回布尔类型的 `false`。
+    - 这时如果要判断「某个子字符串没在一个字符串里出现」就得用表达式：
+        `false !== strpos('字符串', '子字符串')`。
+        - 基础说明：`!==` 是「不全等于」的比较操作符，比较的两个变量的数值及其类型要同时不一样时，表达式的结果才是 `true`；`!=` 是「不等于」的比较操作符，只要比较的两个变量的数值相等，表达式结果就是 `true`，如果它们的数值类型不同，就会对变量进行隐式的类型转换，然后再进行比较。正是因为弱类型语言的这一「隐式类型转换」的过程，许多对编程语言不熟悉、逻辑又不严谨的程序员，写出了 bug 频出的 PHP 代码。
+        - 如果这时误用了逻辑表达式 `false != strpos('字符串', '子字符串')` 来判断可就麻烦了：
+            子字符串出现在字符串的开头，`strpos()` 会返回整数 `0`，
+            然后 `0` 会转换成 `boolean` 布尔类型，值为 `false`，最终表达式同样也会返回 `true`，然而这是错误的判断结果。它跟 C 语言中的 `strpos()` 有着「异曲同工之错」，容易被不熟练的人误用。
+-->
+<h2 id="代码风格"><a href="#代码风格" class="headerlink" title="代码风格"></a>代码风格</h2><p>PSR 链接</p>
+<h3 id="操作符"><a href="#操作符" class="headerlink" title="操作符"></a>操作符</h3><p><a href="http://php.net/manual/en/language.operators.php" target="_blank" rel="external">http://php.net/manual/en/language.operators.php</a></p>
+<p>优先级：<br>所以要加括号，简洁 VS 冗余显而易见 VS 适量</p>
+<p>结合性：<br>（暂时我只有）简单、容易理解但不严谨的解释。<br>左结合：先计算操作符左边的内容，如 <code>&gt;&gt;</code> <code>&gt;</code> <code>?</code> 等<br>右结合：先计算操作符右边的内容，如 <code>!</code> <code>=</code> <code>??</code> 等</p>
+<p>操作符的优先级<br>老生常谈，我们必须要多加括号 () 以便阅读，一眼看出问题</p>
+<h3 id="更短的代码"><a href="#更短的代码" class="headerlink" title="更短的代码"></a>更短的代码</h3><p>一行只敢一件事？<br>赋值和判断分开？<br>是不是技艺精深之后，能处理更高的复杂性，写更精简的代码就合适了？</p>
+<p>!($a = expr)<br>!! 快速强转为 boolean 变量，(bool) 和 boolval() 等写法都太长了，但 !! 会不会容易看错？！<br>?? 超高频操作<br>?: 以前不常用……<br>&amp;&amp; 与<br>|| 或<br>下标访问：封装点操作符来访问数组，给示例代码更好。</p>
+<h3 id="中间代码"><a href="#中间代码" class="headerlink" title="中间代码"></a>中间代码</h3><p>节省内存、命名空间？</p>
+<h3 id="全局变量"><a href="#全局变量" class="headerlink" title="全局变量"></a>全局变量</h3><p>过度的蔓延，用一层传一层？<br>值传递，导致中间环节某个不严谨的程序员对修改它的值</p>
+<h3 id="函数参数"><a href="#函数参数" class="headerlink" title="函数参数"></a>函数参数</h3><p>传一个数组，还是传很多参数？</p>
+<p>参数类型检查？<br>PHP7 声明函参类型，比较便捷。类型不对会抛出异常。</p>
+<p>PHP7 函参的类型说明<br>一定程度上，帮助了类型检测，不需要你自己进行类型判断 instanceof，更方便发现并抛出错误</p>
+<h3 id="报错"><a href="#报错" class="headerlink" title="报错"></a>报错</h3><p>报错全开！<br>报错全关才能正常运行，这样的项目是不合理的。</p>
+<h3 id="编程风格"><a href="#编程风格" class="headerlink" title="编程风格"></a>编程风格</h3><p>类型隐式转换<br>最严重的一个问题，造成各种逻辑错误。</p>
+<p>逻辑分支<br>if else<br>    必加尖括号 {}<br>用 expr &amp;&amp; assign 或 expr || assign 这些费解的方式写条件语句？！<br>    不利于单元测试和变量追踪</p>
+<p>全等于和等于，不等于和全不等于<br>    == != === !==<br>    布尔计算</p>
+<p>控制流<br>尽量少分支<br>优先处理错误（比较短的分支，比较快就返回、退出）<br>使用 ?: 减少 if else<br>函数出口，最好是默认的情况</p>
+<p>过度防卫<br>没有必要，有错就该退出<br>过度的兼容和检查，使代码过于冗余，难以看懂，反而造成更多错误</p>
+<h3 id="传引用或传值"><a href="#传引用或传值" class="headerlink" title="传引用或传值"></a>传引用或传值</h3><p>没必要传引用，除非不用它，实现起来很麻烦，代价很高。<br>导致不可预知的错误</p>
+<p>毕竟动态的脚本语言，就不要纠结太多性能的问题了，<br>要性能，该写 C++ 去。</p>
+<h2 id="设计模式"><a href="#设计模式" class="headerlink" title="设计模式"></a>设计模式</h2><p>设计模式<br>单例模式<br>工厂模式<br>反射的问题 __call：IDE 无法做类型推导，除非单步调试，否则无法预知会跳转到哪 -&gt; 结构性开销。<br>过度封装的学习成本</p>
+<p>方便调试<br>语意清晰</p>
+<p>单步调试<br>xdebug<br>gdb（这个不懂，但是要提。最好试着使用一下）</p>
+<h2 id="命令行"><a href="#命令行" class="headerlink" title="命令行"></a>命令行</h2><p>代码同步<br>rsync<br>nc</p>
+<h2 id="其它工具"><a href="#其它工具" class="headerlink" title="其它工具"></a>其它工具</h2><p>composer 包管理<br>phpmd 代码复杂度等高维度的问题？<br>phpcs 代码风格<br>phpunit 单元测试</p>
+<h2 id="运行环境"><a href="#运行环境" class="headerlink" title="运行环境"></a>运行环境</h2><p>service<br>重启 nginx 和 php-fpm<br>nginx 和 php-fpm 的配置文件<br>端口占用<br>php.ini<br>    php -i | grep 或 php –hi？<br>第三方组件<br>    xdebug<br>    安装<br>        pecl<br>        brew<br>    配置</p>
+<p>docker 环境打包！</p>
+<h2 id="编码环境"><a href="#编码环境" class="headerlink" title="编码环境"></a>编码环境</h2><p>IDE 的选择</p>
+<p>编程风格<br>PSR<br>数组元素的对齐方式<br>    IDE 当然有自动格式化的功能，但是要照顾一般的代码编辑器、Vim、Emacs 等，自动对齐不一定有必要，反而增加了麻烦。<br>过长的代码行<br>一行只做一件事<br>    当人可以处理更高复杂性时，真的更容易倾向于写「聪明」的代码。<br>数组最后一个元素后面带 <code>,</code><br>单引号和双引号！<br>    用 “o{$x}o” 还是 ‘o’.$x.’o’；还有写不写其中的 {}<br>    和 C++ 写法的对比！（静态语言和动态语言对字符串变量的处理）<br>变量命名问题<br>    复数 list or -s<br>    缩写问题</p>
+<p>PHP<br>本身已经能算是一种框架了，针对 Web 开发，已经拥有了相当高层级的封装，和便捷设置<br>    _SERVER _GET _POST _GLOBAL 等等全局变量<br>    require or include</p>
+<p>最佳实践！<br>入门最好最快的方法<br>毕竟只是工具，没必要自己重新走弯路，在巨人的肩膀上前进。</p>
+<p>PhpStorm 力荐，但贵<br>类型推导，功能内置<br>local history 本地历史<br>重构功能<br>正则替换</p>
+<h2 id="其它-1"><a href="#其它-1" class="headerlink" title="其它"></a>其它</h2><p>看过不少编码规范，还有相关文章和书籍等等。可是看得再多也没有用，知识要内化变成习惯，才算是自己的。所以在这里一次性地快速写出自己的见解，用以检验自己通过日常的工作，到底消化了多少知识，积累了多少经验。</p>
+<p>本文会持续更新，随时补充新的经验和感想，通过不断的记录、总结、反刍，加深理解和记忆，形成好的编程习惯，沉淀出一套适合自己、行之有效的做法。</p>
+<p>因为是快速一次写成的，可能我举的例子有点烂，不过先表达清楚我想要表达的东西就好了。</p>
+<h2 id="清晰的逻辑分支"><a href="#清晰的逻辑分支" class="headerlink" title="清晰的逻辑分支"></a>清晰的逻辑分支</h2><p>王垠的《<a href="http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy" target="_blank" rel="external">编程的智慧</a>》（第一遍写本博文，先不详细分析该文，先提印象最深的启发）让我重新思考这样的一个问题「怎样才算是逻辑清晰的代码？」</p>
+<p>先给示例代码，来说明我想讨论的具体情境。写法一：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">test</span><span class="params">(isA, isB)</span>:</span></div><div class="line">    <span class="keyword">if</span> isA:</div><div class="line">        <span class="keyword">return</span> <span class="string">'App'</span></div><div class="line"></div><div class="line">    <span class="keyword">if</span> isB:</div><div class="line">        <span class="keyword">return</span> <span class="string">'Boy'</span></div><div class="line"></div><div class="line">    <span class="keyword">return</span> false</div></pre></td></tr></table></figure>
+<p>以上代码写成完全的 if … elif … else 的方式应该是写法二：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">test</span><span class="params">(isA, isB)</span>:</span></div><div class="line">    <span class="keyword">if</span> isA:</div><div class="line">        <span class="keyword">return</span> <span class="string">'App'</span></div><div class="line">    <span class="keyword">elif</span> isB:</div><div class="line">        <span class="keyword">return</span> <span class="string">'Boy'</span></div><div class="line">    <span class="keyword">else</span>:</div><div class="line">        <span class="keyword">return</span> false</div></pre></td></tr></table></figure>
+<p>大多数人包括我，都会采用第一种讨巧的写法，因为可以少输入一些字符，然而还是可以一下子看懂。当然当函数的代码变长，分支变多，嵌套加深，就没那么好看懂了。</p>
+<p>但毫无疑问，显然第二种方式的逻辑分支之间的关系是最清晰的。对于写惯代码的人来说，第二种写法就显得有点笨了，因为他们基本都能处理更高的复杂度，一眼就能看懂低复杂度的代码。我理性倾向第二种写法，但实际写代码时却往往用第一种。那么问题来了，你觉得该用哪一种写法？</p>
+<p>看一看更复杂的例子，写法一「完全展开的分支」：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">test</span><span class="params">(isA, isB)</span>:</span></div><div class="line">    <span class="keyword">if</span> isA:</div><div class="line">        <span class="keyword">if</span> isB:</div><div class="line">            <span class="keyword">if</span> isT:</div><div class="line">                <span class="keyword">return</span> <span class="string">'Tina'</span></div><div class="line">            <span class="keyword">else</span>:</div><div class="line">                <span class="keyword">return</span> <span class="string">'ABTest'</span></div><div class="line">        <span class="keyword">else</span>:</div><div class="line">            <span class="keyword">return</span> <span class="string">'App'</span></div><div class="line">    <span class="keyword">else</span>:</div><div class="line">        <span class="keyword">if</span> isB:</div><div class="line">            <span class="keyword">if</span> isT:</div><div class="line">                <span class="keyword">return</span> <span class="string">'Tina'</span></div><div class="line">            <span class="keyword">else</span>:</div><div class="line">                <span class="keyword">return</span> <span class="string">'Boy'</span></div><div class="line">        <span class="keyword">else</span>:</div><div class="line">            <span class="keyword">return</span> false</div></pre></td></tr></table></figure>
+<p>写法二：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">test</span><span class="params">(isA, isB, isT)</span>:</span></div><div class="line">    <span class="keyword">if</span> <span class="keyword">not</span> isA <span class="keyword">and</span> <span class="keyword">not</span> isB: <span class="comment"># 守卫原则的代码写法</span></div><div class="line">        <span class="keyword">return</span> false</div><div class="line"></div><div class="line">    <span class="keyword">if</span> isT <span class="keyword">and</span> <span class="keyword">not</span> isA:</div><div class="line">        <span class="keyword">return</span> <span class="string">'Tina'</span></div><div class="line"></div><div class="line">    <span class="keyword">if</span> isA <span class="keyword">and</span> isB:</div><div class="line">        <span class="keyword">return</span> <span class="string">'ABTest'</span></div><div class="line">    <span class="keyword">elif</span> isA:</div><div class="line">        <span class="keyword">return</span> <span class="string">'App'</span></div><div class="line">    <span class="keyword">else</span>:</div><div class="line">        <span class="keyword">return</span> <span class="string">'Boy'</span></div></pre></td></tr></table></figure>
+<h2 id="清晰的逻辑"><a href="#清晰的逻辑" class="headerlink" title="清晰的逻辑"></a>清晰的逻辑</h2><h3 id="分支树、逻辑判断"><a href="#分支树、逻辑判断" class="headerlink" title="分支树、逻辑判断"></a>分支树、逻辑判断</h3><p>王垠的 if else 全写策略！</p>
+<p>不要写出过度让人费解的代码。<br>当然当你熟练之后，对一些复杂性有了深入的了解之后，就会下意识写出你能够理解的简短代码。<br>当然还是要避免过度的复杂。</p>
+<h2 id="过度防卫的原则"><a href="#过度防卫的原则" class="headerlink" title="过度防卫的原则"></a>过度防卫的原则</h2><p>（该跑出错误，反映错误，就直接退出报错，不能容忍。有些需要兼容错误才做兼容！）</p>
+<h2 id="守卫原则"><a href="#守卫原则" class="headerlink" title="守卫原则"></a>守卫原则</h2><p>清晰易懂<br>if 后也把 else 写了，控制流程更清晰！（王垠的博文）</p>
+<h2 id="命名"><a href="#命名" class="headerlink" title="命名"></a>命名</h2><p>英语太烂，还懒<br>缩写不统一</p>
+<h2 id="复制粘贴"><a href="#复制粘贴" class="headerlink" title="复制粘贴"></a>复制粘贴</h2><h2 id="中间变量"><a href="#中间变量" class="headerlink" title="中间变量"></a>中间变量</h2><h2 id="包装函数"><a href="#包装函数" class="headerlink" title="包装函数"></a>包装函数</h2><h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><h2 id="IDE"><a href="#IDE" class="headerlink" title="IDE"></a>IDE</h2><h3 id="类型推导"><a href="#类型推导" class="headerlink" title="类型推导"></a>类型推导</h3><h3 id="重构"><a href="#重构" class="headerlink" title="重构"></a>重构</h3><p>减少机械重复的操作</p>
+<h3 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h3><h3 id="Live-Template"><a href="#Live-Template" class="headerlink" title="Live Template"></a>Live Template</h3><p>就好像 Emmet 那样。<br>还有 auto complete</p>
+<h2 id="常用函数-1"><a href="#常用函数-1" class="headerlink" title="常用函数"></a>常用函数</h2><h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><h2 id="感受"><a href="#感受" class="headerlink" title="感受"></a>感受</h2><h3 id="堆代码写接口"><a href="#堆代码写接口" class="headerlink" title="堆代码写接口"></a>堆代码写接口</h3><p>「工作无价值」的迷思 —— 不要写得太烂就可以，你随便都可以被新来的人代替。</p>
+<p>大公司打工悖论，不要把自己看得太高，你就是螺丝钉，随时都能被替换掉，这样公司的风险才小，才够稳定。<br>分工也相对提高了效率。</p>
+<h3 id="底层"><a href="#底层" class="headerlink" title="底层"></a>底层</h3><p>高大上的迷思 —— 大公司、复杂业务，就没有干干净的代码。</p>
+<h3 id="没空学"><a href="#没空学" class="headerlink" title="没空学"></a>没空学</h3><p>自己作死而已。学会取舍，人生苦短，找准方向。</p>
+<p>学习是靠自己，靠学校、老师，靠公司、Boss、业务，都是天真的。</p>
+<p>自己不努力没别人能够帮助你。你也要自己努力一把，别人才会去帮助你 —— 问问题之前，请自己先 Google 一下，好好先折腾一番。</p>
+<h3 id="枯燥重复的编码"><a href="#枯燥重复的编码" class="headerlink" title="枯燥重复的编码"></a>枯燥重复的编码</h3><p>做算法题，都比这个有趣。<br>能够忍受重复无趣不是个优点，反而是累赘，让自己更加深陷其中「温水煮青蛙」。</p>
+<p>有危机意识的不甘的人，反而更早跳出陷阱。</p>
+<p>详见，后来在 Test 文件夹写出的好脚本！</p>
+<h3 id="学会很多语言？"><a href="#学会很多语言？" class="headerlink" title="学会很多语言？"></a>学会很多语言？</h3><h2 id="正则表达式"><a href="#正则表达式" class="headerlink" title="正则表达式"></a>正则表达式</h2><p>方便做重构</p>
+<h3 id="还有-Macro-宏"><a href="#还有-Macro-宏" class="headerlink" title="还有 Macro 宏"></a>还有 Macro 宏</h3><p>批量化重复的机械性操作。</p>
+<h2 id="Vim-的操作"><a href="#Vim-的操作" class="headerlink" title="Vim 的操作"></a>Vim 的操作</h2><p>少记很多 IDE 或代码编辑器的快捷键。</p>
+<p>null<br>‘’<br>‘true’<br>‘false’<br>‘null’<br>‘-1’<br>‘0’<br>‘1’<br>‘2’<br>false<br>true<br>[]<br>-1<br>0<br>1<br>2</p>
+<p>isset<br>empty<br>is_null<br>is_string<br>is_array<br>!<br>is_numeric<br>is_object<br>is_bool</p>
+<h2 id="值得参考"><a href="#值得参考" class="headerlink" title="值得参考"></a>值得参考</h2><ul>
+<li><a href="https://laravel.com/docs/master" target="_blank" rel="external">Lavarel</a><ul>
+<li><a href="">Lumen</a> 简化版 Lavarel</li>
+</ul>
+</li>
+<li><a href="">Yaf</a> 纯面向 API<ul>
+<li>工作中用</li>
+</ul>
+</li>
+<li><a href="https://symfony.com/" target="_blank" rel="external">Symfony</a><ul>
+<li>第二大流行框架</li>
+</ul>
+</li>
+<li><a href="http://www.zend.com/" target="_blank" rel="external">Zend</a><ul>
+<li>Yaf 借鉴了他</li>
+</ul>
+</li>
+<li>CodeIgniter<ul>
+<li>发展十年的框架！</li>
+</ul>
+</li>
+<li>Cake</li>
+<li><a href="http://www.yiiframework.com/" target="_blank" rel="external">Yii</a></li>
+<li>ThinkPHP</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      Determine PHP Variables &amp;#58; 是否存在，是否为空，是否相等，访问可能未定义的变量或数组元素等。
+    
+    </summary>
+    
+      <category term="PHP" scheme="http://icehe.me/categories/PHP/"/>
+    
+    
+      <category term="PHP" scheme="http://icehe.me/tags/PHP/"/>
+    
+  </entry>
   
   <entry>
     <title>C++ 宏定义与位操作</title>
@@ -4681,7 +4950,7 @@ img.fix_height {
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
-    <updated>2017-05-03T16:00:00.000Z</updated>
+    <updated>2017-05-11T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>天下武功，唯快不破。</p>
 </blockquote>
@@ -4934,7 +5203,7 @@ _`⌘ ⇧ T` Go to Date_
 <p>  <code>凵 1</code> iTerm2<br>  <code>凵 2</code> <a href="#2Do">2Do</a><br>  <code>凵 3</code> <a href="#Firefox">Firefox</a><br>  <code>凵 4</code> Chrome<br>  <code>凵 5</code> <a href="#Evernote">Evernote</a><br>  <code>凵 6</code> System Settings → General<br>  <code>凵 7</code> <a href="#Keyboard-Maestro">Keyboard Maestro</a><br>  <code>凵 8</code> <a href="#Karabiner">Karabiner</a><br>  <code>凵 9</code> <a href="#Seil">Seil</a><br>  <code>凵 0</code> System Settings → Keyboard</p>
 </li>
 <li><p>asdf …</p>
-<p>  <code>凵 ;asdfghjkl</code> = <code>0~9</code></p>
+<p>  <code>凵 o</code> = <code>\</code><br>  <code>凵 p</code> = <code>|</code> = <code>⇧ \</code><br>  <code>凵 ;asdfghjkl</code> = <code>0~9</code></p>
 </li>
 <li><p>Symbols</p>
 <p>  <code>凵 `</code> = <code>⇧ `</code> = <code>~</code><br>  <code>凵 -</code> = <code>⇧ -</code> = <code>_</code><br>  <code>凵 =</code> = <code>⇧ =</code> = <code>+</code><br>  <code>凵 [</code> = <code>⇧ [</code> = <code>{</code><br>  <code>凵 ]</code> = <code>⇧ ]</code> = <code>}</code><br>  <code>凵 \</code> = <code>⇧ \</code> = <code>|</code><br>  <code>凵 &#39;</code> = <code>⇧ &#39;</code> = <code>&quot;</code></p>
@@ -4949,13 +5218,8 @@ _`⌘ ⇧ T` Go to Date_
 <p>  <code>⌥ u</code> <a href="#Sublime-Text">Sublime Text</a><br>  <code>⌥ i</code> iTunes<br>  <em><code>⌥ o</code> OpenEmu</em><br>  <code>⌥ p</code> Postman<br>  <code>⌥ \</code> <a href="#1Password">1Password</a> ( Mini )</p>
 <p>  <em><code>⌥ ⇧ Q</code> QQMusic</em><br>  <em><code>⌥ ⇧ W</code> Word</em><br>  <em><code>⌥ ⇧ P</code> PowerPoint</em><br>  <em><code>⌥ ⇧ R</code> <a href="#VS-Code">VS Code</a></em><br>  <code>⌥ ⇧ E</code> Eject the disks<br>  <code>⌥ ⇧ I</code> Prompt the local IP address</p>
 <p>  <em><code>^ ⌥ ⇧ E</code> Excel</em></p>
+<p>  <em><code>⌥ ]</code> Show <a href="#Bartender-2">Bartender 2</a></em><br>  <em><code>⌥ ⇧ ]</code> Show <a href="#Bartender-2">Bartender 2</a></em></p>
 </li>
-</ul>
-<!--
-    _`⌥ ⇧ ]` Show [Bartender 2](#Bartender-2)_
-    _`⌥ ]` Show [Bartender 2](#Bartender-2)_
--->
-<ul>
 <li><p>asdf …</p>
 <p>  <code>⌥ a</code> PyCharm<br>  <code>⌥ s</code> <a href="#PhpStorm">PhpStorm</a><br>  <code>⌥ d</code> EuDic Free<br>  <code>⌥ f</code> <a href="#Finder">Finder</a><br>  <em><code>⌥ g</code> <a href="#Acrobat-Reader">Acrobat Reader</a> ( PDF )</em></p>
 <p>  <code>⌥ h</code> Photos<br>  <code>⌥ j</code> IntelliJ IDEA<br>  <code>⌥ k</code> Numi ( Calculator )<br>  <code>⌥ l</code> CLion<br>  <code>⌥ ;</code> Input the symbol <code>…</code></p>
@@ -4965,7 +5229,7 @@ _`⌘ ⇧ T` Go to Date_
 <li><p>zxcv …</p>
 <p>  <code>⌥ z</code> <a href="#Sublime-Text">Sublime Text</a><br>  <code>⌥ c</code> <a href="#Charles">Charles</a><br>  <code>⌥ v</code> <a href="#ClipMenu">ClipMenu</a> ( History Menu )<br>  <code>⌥ b</code> <a href="#MindNode">MindNode</a> ( <code>b</code> for Brainstorm )</p>
 <p>  <code>⌥ n</code> <a href="#NeteaseMusic">NeteaseMusic</a><br>  <code>⌥ m</code> Messages</p>
-<p>  <code>⌥ ⇧ C</code> Calendar<br>  <code>⌥ ⇧ V</code> <a href="#ClipMenu">ClipMenu</a> ( Main Menu )<br>  <code>⌥ ⇧ M</code> Send the content in Clipboard to my iPhone by Messages<br>  <code>⌥ ⇧ N</code> System Settings → Network</p>
+<p>  <code>⌥ ⇧ C</code> Calendar<br>  <code>⌥ ⇧ V</code> <a href="#ClipMenu">ClipMenu</a> ( Main Menu )<br>  <code>⌥ ⇧ B</code> System Settings → BlueTooth<br>  <code>⌥ ⇧ M</code> Send Clipboard to iPhone by Messages<br>  <code>⌥ ⇧ N</code> System Settings → Network</p>
 <p>  <code>^ ⌥ ⇧ M</code> Sequel Pro ( MySQL )</p>
 </li>
 </ul>
@@ -5030,7 +5294,7 @@ _`⌘ ⇧ T` Go to Date_
 <p>  <code>⌘ q, ⌘ q</code> Double tap <code>⌘ q</code> to send one real keystroke <code>⌘ q</code></p>
 </li>
 <li><p>Profile</p>
-<p>  <code>Fn 1</code> Switch to the <strong>default</strong> setting profile ( without all custom key-remapping )<br>  <code>Fn 2</code> Switch to the <strong>custom</strong> setting profile<br>  They’re used to toggle the custom setting profile for the guest who need to use my Mac temporarily.</p>
+<p>  <code>Fn 1</code> Switch to the <strong>default</strong> setting profile ( without all custom key-remapping )<br>  <code>Fn 2</code> Switch to the <strong>custom</strong> setting profile<br>  <code>Fn 3</code> Switch to the <strong>custom_hhkb</strong> setting profile<br>  They’re used to toggle the custom setting profile for the guest who need to use my Mac temporarily.</p>
 </li>
 <li><p>Input Sources</p>
 <p>  Rg <code>⌥</code> = <code>⌘ 凵</code> Switch Input Source</p>
@@ -5038,9 +5302,9 @@ _`⌘ ⇧ T` Go to Date_
 </ul>
 <h3 id="Seil"><a href="#Seil" class="headerlink" title="Seil"></a><a href="https://pqrs.org/osx/karabiner/seil.html.en" target="_blank" rel="external">Seil</a></h3><ul>
 <li><p>Change Modifier-Key-Remapping</p>
-<p>  <code>⇪</code> Caps → <code>^</code> Ctrl<br>  <code>^</code> Ctrl → <code>⌥</code> Rg Opt</p>
-<p>  <code>⌘</code> Rg Cmd → <code>⎋</code> Esc<br>  <code>⌥</code> Rg Opt → <code>⇪</code> Caps</p>
-<p>  It’s required to exchange <code>CapsLock</code> &amp; Lf <code>Ctrl</code> keys in the settings<br>  <code>System Preferences</code> → <code>Keyboards</code> → <code>Modifier Key</code>.</p>
+<p>  <code>`</code> → <code>⎋</code> Esc<br>  <code>⇪</code> Caps → <code>^</code> Ctrl<br>  <code>^</code> Ctrl → <code>`</code> Backquote<br>  <code>\\</code> Backslash → <code>↩</code> Return</p>
+<p>  <code>⌘</code> Rg Cmd → <code>⇧</code> Rg Shf<br>  Required:<br>  <code>System Preferences</code> → <code>Keyboards</code> → <code>Modifier Key</code> : <code>CapsLock</code> → <code>Control</code>, <code>Control</code> → <code>No Action</code><br>  App <code>Seil</code> : <code>^</code> Lf Ctrl → <code>F19</code><br>  App <code>Karabiner</code> : <code>F19</code> → <code>`</code> Backquote</p>
+<p>  <code>⇧</code> Rg Shf → Chinese Input Method<br>  <code>⇧</code> Lf Shf | <code>⌘</code> Rg Cmd | <code>⎋</code> Esc → English Input Method<br>  Required:<br>  App <code>Keyboard Maestro</code> to switch to Input Methods ( <a href="https://sspai.com/post/37962" target="_blank" rel="external">Ref</a> )<br>  App <code>Karabiner</code> set a shortcuts to trigger the operations defined in <code>Keyboard Maestro</code></p>
 </li>
 </ul>
 <h2 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h2><h3 id="Mail"><a href="#Mail" class="headerlink" title="Mail"></a>Mail</h3><p><code>⌘ ⇧ N</code> Get All New Mail<br><code>⌘ ^ s</code> Get All New Mail <sup><em>custom</em></sup></p>
@@ -5305,11 +5569,10 @@ It is a plugin for IDEs from [JetBrains](https://www.jetbrains.com/).
 
     _`⌘ ⌥ i` Mirror_
     _`⌘ ⌥ a` Rewrite_
-
-    _`⌘ m` Compose ( Edit )_
-    _`⌘ ⇧ M` Compose New_
 -->
-<!--
+<pre><code>_`⌘ m` Compose ( Edit )_
+_`⌘ ⇧ M` Compose New_
+</code></pre><!--
 ### [Dash](https://kapeli.com/dash)
 
 - Search
@@ -7138,209 +7401,6 @@ article .article-content ul li p:first-child {
     
     
       <category term="read" scheme="http://icehe.me/tags/read/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>搭建个人博客</title>
-    <link href="http://icehe.me/web/build_blog/"/>
-    <id>http://icehe.me/web/build_blog/</id>
-    <published>2015-11-13T16:00:00.000Z</published>
-    <updated>2017-04-30T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>竹径通幽处，禅房花木深。</p>
-<p>《题破山寺后禅院》<strong>常建</strong></p>
-</blockquote>
-<ul>
-<li>上一版《 <a href="/old_version_posts/Why_and_how_to_build_my_blog.html">Why and How to bulid my blog? 搭建我的个人博客</a> 》</li>
-<li>失效链接已修复，如需帮助，望读者及时反馈。</li>
-</ul>
-<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><ul>
-<li>写了不少，舍不得删掉。但是这类教程，网上已经够多了，再写价值不大。特别是知道了 Next 这个 Hexo 主题之后。</li>
-<li>这个 Hexo 主题基本包办了我想要的几乎所有博客功能，而且配置方法也很简单。</li>
-<li>但是这些便利性造成了一个问题：<ul>
-<li>做个人博客是为了彰显个人的独特个性和审美。</li>
-<li>用别人做好的博客主题，可以选择一个不热门的，但是配置起来麻烦，很可能缺少一些特别的功能支持，要自己 DIY。而我自己现在就特别讨厌没有意义的折腾。</li>
-<li>要是选择一个比较流行的博客主题，虽然功能齐全，但是会觉得不够独特，容易跟别人撞主题，感觉就跟「撞衫」一个道理。</li>
-</ul>
-</li>
-<li>但是要是再仔细想想，如果你是一个会思考有思想的人，总能提出独特的观点，无论你是用微博、CSDN、博客园还是随便哪个平台发，都是无所谓的，总会赢得别人的认同。<ul>
-<li>外观与众不同，当然可以算作是是独特的。但是真正的与众不同、特立独行，不光在表面上，更应该是思想上的，不然我觉的就没啥意思。</li>
-</ul>
-</li>
-<li>算了吧，保留本文，不过不再更新了。</li>
-<li>记于 2017-01-02</li>
-</ul>
-<h1 id="初衷"><a href="#初衷" class="headerlink" title="初衷"></a>初衷</h1><p>与其到各大博客平台去写博客，<br>不如自己搭建个独一无二的。<br>不但过程有意思，还能学到许多新知识。</p>
-<p>可以用来记录 <a href="/lifelogs"><strong>自己的人生</strong></a>，<br>放一些值得分享的技术、读书笔记和感想。</p>
-<h1 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h1><p>教程的各步骤描述得越详细，时效性往往越差。<br>网上的类似的教程多如牛毛，不差这篇。</p>
-<p>所以，我并不打算详细写，<br>只简略说明过程与所用的「轮子」（工具、模块），<br>并列出本人参阅的教程文章的链接，<br>其它更具体的细节自行百度 / Google，<br>查阅其它教程与相关工具模块的官方文档。</p>
-<p>还有，折腾才能学到真东西，<br>下文做法、用法从略处，还请自行摸索。</p>
-<h2 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h2><p>非软件、计算机专业的人，自行搭建个人博客其实不难。<br>前人早已造好了各种「轮子」，只要根据网上的教程摸索一下，<br>动动手指头就可以组装出自己的博客。</p>
-<p>可以用 isnowfy 的 <a href="http://isnowfy.github.io/about-simple-cn.html" target="_blank" rel="external"><strong>静态页面生成静态博客</strong></a> 的方法，<br>对一个新手来说，那感觉真是妙极了！</p>
-<p>当时就想：不如自己写个博客生成器吧！<br>那当真是一件蛮有 geek 的事啊。</p>
-<p>但吾生有崖，而知也无涯，<br>没必要自己重新「造轮子」，<br>阅源码解其精妙未尝不可。<br>君子善假于物，省出时间，<br>去做真正想做的事情岂不是更好。</p>
-<p>搭建博客的方法，除了用不同的静态博客生成器来生成外，<br>还可以租用或搭建一个服务器，来运行一个动态博客，<br>其中最出名的非 <a href="https://wordpress.com/" target="_blank" rel="external"><strong>Wordpress</strong></a> 莫属，<br>现在有更多性能优越、更便于搭建维护的博客框架，<br>可另行查阅。</p>
-<p>为了让个人博客有足够定制空间的同时，尽可能降低维护成本，<br><strong>我选择了静态博客生成器：<a href="http://hexo.io/" target="_blank" rel="external">Hexo</a> !</strong></p>
-<p>（有空会找机会再折腾一个动态博客）</p>
-<h2 id="Hexo-建站教程"><a href="#Hexo-建站教程" class="headerlink" title="Hexo 建站教程"></a>Hexo 建站教程</h2><p>广泛检索后，参阅他人的建站教程</p>
-<ul>
-<li>参考教程：<ul>
-<li><a href="https://wsgzao.github.io/post/hexo-guide/" target="_blank" rel="external">使用 GitHub 和 Hexo 搭建免费静态 Blog</a></li>
-<li><a href="http://www.zipperary.com/2013/05/28/hexo-guide-2/" target="_blank" rel="external">Hexo 系列教程：（二）搭建 Hexo 博客</a></li>
-<li><a href="http://www.zipperary.com/2013/05/29/hexo-guide-3/" target="_blank" rel="external">Hexo 系列教程：（三）Hexo 博客的配置、使用</a></li>
-<li><a href="http://www.zipperary.com/2013/05/30/hexo-guide-4/" target="_blank" rel="external">Hexo 系列教程：（四）Hexo 博客的优化技巧</a></li>
-<li><a href="http://www.zipperary.com/2013/06/02/hexo-guide-5/" target="_blank" rel="external">Hexo 系列教程：（五）Hexo 博客的优化技巧续</a></li>
-<li>…</li>
-</ul>
-</li>
-</ul>
-<p>其中会提到，下文涉及的「<a href="#Custom_Points_定制点"><strong>定制点</strong></a>」的内容，包含功能模块的具体配置方法。</p>
-<p>可能其中涉及各工具和模块已经有新版本，<br>具体操作细节最好参考它们最新的官方文档。</p>
-<p>有探索精神的直接可直接参照 <a href="https://hexo.io/zh-cn/" target="_blank" rel="external"><strong>Hexo官网</strong></a>，<br>它提供中/英文的各种帮助信息，<br>包括文档、API、插件、主题等，<br>告诉你建站方法、基本操作、自定义部分……</p>
-<p>前人之述备矣，在此不再赘述基础部分。</p>
-<h2 id="定制点"><a href="#定制点" class="headerlink" title="定制点"></a>定制点</h2><p>建站很容易，如果你的需求只是写写文字博客而已，可以到此结束了。<br>但如果要完善博客到合乎自己的心意，那将是万里长征的第一步。</p>
-<p>要获得更大的定制余地，让自己的博客更独一无二，<br>最好懂些网页技术，就可以修改别人工具模块的源代码，<br>让博客支持更多需要的模块、插件、外观效果等。</p>
-<h3 id="主题"><a href="#主题" class="headerlink" title="主题"></a><strong>主题</strong></h3><p>Theme不单只提供不同的博客外观、视觉效果，<br><strong>通常还会提供许多功能模块的配套支持！<br>一般包括但不限于：评论、分享、RSS订阅、联系方式、百度/谷歌的统计分析、标签云。</strong></p>
-<ul>
-<li>官网上有提供很多第三方主题：<ul>
-<li>官方列表：<a href="https://hexo.io/themes/" target="_blank" rel="external"><strong>Hexo Themes</strong></a></li>
-<li>现在选用的是：<a href="http://iissnan.com/" target="_blank" rel="external">IIssNan</a> 的 <a href="http://theme-next.iissnan.com/" target="_blank" rel="external"><strong>NexT</strong>（官方文档）</a></li>
-<li><del>曾经选用的是：<a href="http://wuchong.me/" target="_blank" rel="external">WuChong</a> 的 <a href="https://github.com/wuchong/jacman" target="_blank" rel="external"><strong>Jacman</strong></a></del></li>
-<li><del>该主题作者的官方教程：<a href="http://wuchong.me/blog/2014/11/20/how-to-use-jacman/" target="_blank" rel="external">如何使用 Jacman 主题</a></del></li>
-</ul>
-</li>
-</ul>
-<p><strong>它包含了以下绝大多数的定制点，不需要自己折腾太多，也可以很快做好。</strong><br>如果你更喜欢 DIY，想要亲手试一试第一次搭建静态微博，<br>从中多了解学习些细节问题，当然更好。</p>
-<p>Hexo 官网的文档和 API 中有 theme 写法的说明，<br>可以自己重新写一个 theme。</p>
-<h3 id="评论"><a href="#评论" class="headerlink" title="评论"></a><strong>评论</strong></h3><p>利用第三方社会化评论系统，可以便捷地为博客添加评论模块。<br>这些评论系统可以让你和你的访客在你的博客下添加评论，<br>还能审核、删除、迁移（博客变更后保留评论）、自定义评论框的外观效果等，<br>它们一般都提供足够的定制空间。</p>
-<ul>
-<li>推荐：<ul>
-<li>国内：<a href="http://changyan.kuaizhan.com/" target="_blank" rel="external"><strong>畅言</strong></a> （可惜需要网站备案…）</li>
-<li>国外：<a href="https://disqus.com/" target="_blank" rel="external"><strong>Disqus</strong></a></li>
-<li>原来国内能用 <del><a href="http://duoshuo.com/" target="_blank" rel="external"><strong>多说</strong></a></del> 可惜在 2017 年 5 月 1 日关停了服务。</li>
-</ul>
-</li>
-</ul>
-<p>具体评论系统搭建比较麻烦，有能用的，就不推荐自己折腾。</p>
-<h3 id="分享"><a href="#分享" class="headerlink" title="分享"></a><strong>分享</strong></h3><p>添加分享模块可以方便自己或他人在第三方的社交平台分享你的博客内容。</p>
-<p>这还是借助第三方的帮助：<br>它们也会提供许多方便定制选项，<br>懂些 HTML、CSS、JavaScript 就能深度定制了。</p>
-<ul>
-<li>推荐：<ul>
-<li><a href="http://share.baidu.com/" target="_blank" rel="external"><strong>百度分享</strong></a></li>
-<li><a href="http://www.jiathis.com/" target="_blank" rel="external"><strong>jiathis</strong></a></li>
-<li>自己编写（并不会太难）</li>
-</ul>
-</li>
-</ul>
-<h3 id="关于页面"><a href="#关于页面" class="headerlink" title="关于页面"></a><strong>关于页面</strong></h3><p>一般用于介绍博主或博客的页面。</p>
-<ul>
-<li>例如：<a href="/about"><strong>我的「Me 我」页面</strong></a>。</li>
-</ul>
-<h3 id="404-找不到页面"><a href="#404-找不到页面" class="headerlink" title="404 找不到页面"></a><strong>404 找不到页面</strong></h3><p>当访问一个不存在于博客中的页面时，展示的提示页面。</p>
-<ul>
-<li>例如：<a href="/not_found"><strong>我的 404 页面</strong></a>。</li>
-<li>推荐：<a href="http://www.qq.com/404/" target="_blank" rel="external"><strong>腾讯公益 404</strong></a></li>
-</ul>
-<h3 id="域名"><a href="#域名" class="headerlink" title="域名"></a><strong>域名</strong></h3><p>有只属于自己的个性化域名，简直自豪感满满，<br>因为终于有自己的个人网站了 T_T</p>
-<ul>
-<li>分两步：买域名，域名解析。<br>  域名购买推荐：<ul>
-<li>国内老牌：<a href="http://wanwang.aliyun.com/" target="_blank" rel="external"><strong>万网</strong></a>（已被阿里收购）</li>
-<li>国外老牌：<a href="https://www.godaddy.com/" target="_blank" rel="external"><strong>GoDaddy</strong></a></li>
-<li>我的选择：<a href="https://www.namecheap.com" target="_blank" rel="external"><strong>NameCheap</strong></a></li>
-</ul>
-</li>
-</ul>
-<p>想要最低的价格，可以参考域名比价网站 <a href="https://www.domcomp.com" target="_blank" rel="external"><strong>Domain Price Comparison</strong></a>。<br>推荐阅读知乎问答：<a href="http://www.zhihu.com/question/19551906" target="_blank" rel="external"><strong>现在去哪里买 .com 域名最便宜？</strong></a><br>因为买域名不能只考虑价格，还得考虑服务。</p>
-<ul>
-<li>域名解析推荐：<ul>
-<li>老牌：<a href="http://wanwang.aliyun.com/" target="_blank" rel="external"><strong>万网</strong></a>（在万网买的域名，可以直接用它）</li>
-<li>我的选择：<a href="https://www.dnspod.cn/" target="_blank" rel="external"><strong>DNSPod</strong></a>（国内、免费、稳定、快速、用户友好）</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>域名解析选择国内运营商，有利于提高国内访客的访问速度。<br>  具体配置过程可参考：<ul>
-<li><a href="https://wsgzao.github.io/post/hexo-guide/#%E5%9F%9F%E5%90%8D%E5%92%8CDNS" target="_blank" rel="external"><strong>域名和 DNS</strong></a></li>
-<li><a href="http://www.zipperary.com/2013/05/27/domain-name-and-dns/" target="_blank" rel="external"><strong>购买域名、设置dns</strong></a></li>
-</ul>
-</li>
-</ul>
-<h3 id="Sitemap-站点地图-amp-RSS-订阅"><a href="#Sitemap-站点地图-amp-RSS-订阅" class="headerlink" title="Sitemap 站点地图 &amp; RSS 订阅"></a><strong>Sitemap 站点地图 &amp; RSS 订阅</strong></h3><p>站点地图给搜索引擎的爬虫以及网站的订阅者，<br>说明了博客里有哪些链接、文章、页面内容，<br>提高博客在搜索引擎的抓取、收录效果，<br>给关注你博客的朋友，提供了订阅功能。</p>
-<p><strong>TODO: 待日后补全细节，暂参考 <a href="http://www.jianshu.com/p/bb35e703f9bf" target="_blank" rel="external">RSS 和 sitemap</a></strong></p>
-<ul>
-<li>具体配置过程可参考：<ul>
-<li><a href="http://www.zipperary.com/2013/06/02/hexo-guide-5/" target="_blank" rel="external"><strong>Hexo 博客的优化技巧续</strong></a>（推荐结合以下内容阅读）</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>注意可能出现的 Bug：<br>  本博客 <a href="http://icehe.me/atom.xml"><strong>RSS Feed</strong></a> 和 <a href="http://icehe.me/search.xml"><strong>search.xml</strong></a> 曾无法正常地以 UTF-8 的编码格式被解析。<br>  （后者用于 Hexo 的 NexT 主题文档推荐的 <a href="#站内搜索"><strong>站内搜索</strong></a> 之一的 <a href="http://theme-next.iissnan.com/third-party-services.html#local-search" target="_blank" rel="external"><strong>Local Search</strong></a>）<ul>
-<li>后来我遍寻网上的相关搜索结果，在仔细研究之下，才发现这原来是因为：<br>  自己的某些博文中（不知为何）混入了一些「<a href="http://baike.baidu.com/item/%E6%8E%A7%E5%88%B6%E5%AD%97%E7%AC%A6" target="_blank" rel="external"><strong>控制字符</strong></a>」，<br>  只要将博客中不在 UTF-8 编码范围内的控制字符去掉，即可恢复正常。</li>
-<li>搜索、替换的具体操作提示：<ul>
-<li>浏览器打开这些 xml 文件时，就会告诉你哪里解析出错了，<br>  看一看第一个解析出错的编码是什么。<br>  我的是 <code>0x15</code> 即 <code>^U</code>，详见 <a href="http://www.asciitable.com/" target="_blank" rel="external"><strong>ASCII 表</strong></a>。</li>
-<li>再看一看这个控制字符来自于博客的哪一篇博文或组件，<br>  使用 Vim 编辑器打开混入了控制字符的文件，查找并删除它。<br>  （不是所有编辑器都能便捷地支持控制字符的输入和查找）<br>  Vim 替换指令请自行 Google，Vim 中输入控制字符的方式如下：<br>  例如输入 <code>^U</code>，要先按 <code>^V</code> 然后 再按 <code>^U</code> 即可。</li>
-<li>重复以上步骤直至完全解析成功为止。</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="闲杂模块"><a href="#闲杂模块" class="headerlink" title="闲杂模块"></a><strong>闲杂模块</strong></h3><p>除了博客的基本功能模块，还有一半需要额外添加的模块。<br>Hexo自带的功能：archive 归档、category 分类、tag 标签。</p>
-<p>其它的模块，如：<a href="http://jssdk.sinaapp.com/widget/weiboshow.php" target="_blank" rel="external">微博秀</a></p>
-<h3 id="图床"><a href="#图床" class="headerlink" title="图床"></a><strong>图床</strong></h3><p>顾名思义，存放博客图片的地方。</p>
-<p>当然，可以直接存放到托管你静态博客代码的平台，<br>但是，它们的代码仓库的空间有限，以后就可能不够用了。<br>所以，你可以申请多个 Github、<a href="https://coding.net" target="_blank" rel="external">Coding.net</a> 等平台的账户，<br>用新的代码仓库来放额外的图片。</p>
-<p>但是，代码托管平台的访问速度也不够快，<br>会影响博客的加载速度，日后要迁移图片也麻烦。</p>
-<p>如果放在你的（云）服务器上，<br>动态的服务器也会出现流量和带宽有限的问题。</p>
-<p>所以，<br>博客里的图片，最好挂载到第三方CDN提供商那里，<br>提高博客网页的读取速度，提升访客体验，<br>也方便图片资源的迁移。</p>
-<p>推荐：<br>(1) 老牌：<a href="https://www.upyun.com/index.html" target="_blank" rel="external">又拍云</a>（服务好、价格高）<br>(2) 我的选择：<a href="http://www.qiniu.com/" target="_blank" rel="external">七牛云存储</a>（国内、免费、方便）</p>
-<h3 id="站内搜索"><a href="#站内搜索" class="headerlink" title="站内搜索"></a><strong>站内搜索</strong></h3><p>让访客可以自行搜索博客中感兴趣的内容。</p>
-<p>百度和 Google 都有提供站内搜索功能，<br>但是只能是搜索到你博客中被搜索引擎收录到的那部分内容。</p>
-<p>对于一个新建的小网站来说，很可能被其收录的内容很少，<br>没有对博客足够齐全的索引，搜索结果差。</p>
-<p>国内的一般访客也访问不了 Google，<br>百度站内搜索的体验也不佳。</p>
-<p>推荐：<br>(1) 我的选择：Hexo 主题 NexT 内置的 <a href="http://theme-next.iissnan.com/third-party-services.html#local-search" target="_blank" rel="external"><strong>Local Search</strong></a><br>(2) 国外免费：<a href="https://cse.google.com/cse/" target="_blank" rel="external"><strong>Google CSE</strong></a> 需要访客能访问 Google 才行<br>(2) 国外收费：<a href="https://www.algolia.com/" target="_blank" rel="external"><strong>Algolia</strong></a> 和 <a href="https://swiftype.com/" target="_blank" rel="external"><strong>Swiftype</strong></a> 在免费试用后，需缴费才能继续使用完整功能<br>(3) 国内：暂无足够好的选项</p>
-<p><a href="http://theme-next.iissnan.com/third-party-services.html#local-search" target="_blank" rel="external"><strong>Local Search</strong></a> 和 <a href="https://cse.google.com/cse/" target="_blank" rel="external"><strong>Google CSE</strong></a> 根据官方的流程一步步来即可。</p>
-<p>而 Swiftype 具体配置过程可参考：<a href="http://www.jerryfu.net/post/search-engine-for-hexo-with-swiftype-v2.html" target="_blank" rel="external">利用 Swiftype 为 Hexo 添加站内搜索 v2.0</a></p>
-<h3 id="PV-UV-访问数-访客数的统计与显示"><a href="#PV-UV-访问数-访客数的统计与显示" class="headerlink" title="PV/UV 访问数/访客数的统计与显示"></a><strong>PV/UV 访问数/访客数的统计与显示</strong></h3><p>统计、显示博客每篇、每个页面的访问数。</p>
-<p>手段繁多，我参考了这个方法：<br><a href="http://crescentmoon.info/2014/12/11/popular-widget/" target="_blank" rel="external">使用 LeanCloud 平台为 Hexo 博客添加文章浏览量统计组件</a><br>它提供了统计、榜单显示的具体方法。</p>
-<p>但是，你可能还需要：<br>在首页文章列表、文章页面上显示该文章的访问次数。</p>
-<p>具体方法，可以通过查看我博客页面的源代码了解，<br>或者到我的 <a href="https://github.com/IceHe" target="_blank" rel="external">Github</a> 查看我的博客 theme 的源代码：<br>自定义过的 <a href="https://github.com/IceHe/blog_theme_jacman" target="_blank" rel="external">Jacman</a> 和 <a href="https://github.com/IceHe/hexo-theme-next" target="_blank" rel="external">NexT</a>。</p>
-<p>如果需要整个网站的页面访问量（PV）、独立访客数（UV）的统计与显示，<br>则可以参看这个第三方工具：<a href="http://ibruce.info/2015/04/04/busuanzi/" target="_blank" rel="external">不蒜子 - 搞定你的网站计数</a></p>
-<h3 id="Site-Analysis-网站分析服务"><a href="#Site-Analysis-网站分析服务" class="headerlink" title="Site Analysis 网站分析服务"></a><strong>Site Analysis 网站分析服务</strong></h3><p>帮助你去统计分析网站的各类数据，<br>包括且不限于查看 UV、PV、IP 数、来源网站、入口页面、受访页面、<br>访客地区、设备、系统、忠诚度，抓取网站收录到搜索引擎，提供 SEO 优化建议等的服务。</p>
-<p>推荐：<br>(1) <a href="http://www.google.com/analytics/" target="_blank" rel="external">Google Analytics</a><br>(2) <a href="http://tongji.baidu.com/web/welcome/login" target="_blank" rel="external">百度统计</a></p>
-<p>最好两个同时使用，还有它们的站长工具，体会其中的差异，<br>而且它们会派爬虫去抓取你的博客，其结果将会收录到搜索引擎~</p>
-<h3 id="访问速度优化"><a href="#访问速度优化" class="headerlink" title="访问速度优化"></a><strong>访问速度优化</strong></h3><p>手段繁多，<br>除了上文提到的将图片放到 CDN 服务商那里的方法外，<br>CSS 文件、JavaScript 脚本等也可以放到 CDN 那里，<br>把静态网站托管到更访问速度更好的平台（也包括 CDN）上，<br>压缩图片到适当大小，优化 theme、JavaScript 脚本的代码……<br>在此不赘述。</p>
-<p><del><a href="http://www.zipperary.com/2013/11/23/hexo-to-gitcafe/" target="_blank" rel="external">托管博客到 Gitcafe</a></del> 比较便捷。</p>
-<p><strong>可参考 <a href="http://www.jianshu.com/p/3141cffc1b1b" target="_blank" rel="external">Hexo 系列教程之五：Hexo 博客同时托管在 Github 和 Coding</a></strong></p>
-<h3 id="Ad-卖流量（广告）"><a href="#Ad-卖流量（广告）" class="headerlink" title="Ad 卖流量（广告）"></a><strong>Ad 卖流量（广告）</strong></h3><p>当你的网站做得一级棒，流量很大（访客很多）的时候，<br>就就可以靠卖广告挣点外快了，挣回网站的维护成本，<br>甚至养活自己，发大财￥</p>
-<p>推荐：<br>(1) <a href="http://www.google.cn/intl/zh-CN/ads/ads_1.html" target="_blank" rel="external">Google AdSense</a><br>(2) <a href="http://adm.baidu.com/index.html" target="_blank" rel="external">百度广告</a></p>
-<p>还有很多其它广告平台，可自行查阅。</p>
-<p>围绕上述各点，折腾了不少时间，<br>当然也学到许多新的知识。</p>
-<h1 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h1><h2 id="源代码"><a href="#源代码" class="headerlink" title="源代码"></a>源代码</h2><ul>
-<li><a href="https://github.com/IceHe/icehe.github.io" target="_blank" rel="external">博客实体的代码</a></li>
-<li><a href="https://github.com/IceHe/icehe.me" target="_blank" rel="external">生成博客用的代码</a></li>
-<li><a href="https://github.com/IceHe/Jacman" target="_blank" rel="external">博客theme的代码</a></li>
-</ul>
-<h2 id="鸣谢"><a href="#鸣谢" class="headerlink" title="鸣谢"></a>鸣谢</h2><ul>
-<li>Hexo 作者：<a href="http://zespia.tw/" target="_blank" rel="external">Tommy Chen</a></li>
-<li>主题作者：<a href="http://wuchong.me/" target="_blank" rel="external">WuChong</a></li>
-</ul>
-<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><ul>
-<li>这是我的<a href="/about"> <strong>简介</strong> </a>。</li>
-<li><strong>感谢您的阅读。</strong></li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      Bulid Blog&amp;#58; Why 初衷、How 过程，Hexo 建站，Theme 主题，Domain Name 域名，Bed Room 图床，Google CSE 站内搜索，404 页面，Sitemap &amp; RSS 站点地图与订阅，Site Analysis，Page View 统计…
-    
-    </summary>
-    
-      <category term="Web" scheme="http://icehe.me/categories/Web/"/>
-    
-    
-      <category term="Web" scheme="http://icehe.me/tags/Web/"/>
     
   </entry>
   
