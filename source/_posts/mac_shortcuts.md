@@ -1,6 +1,6 @@
 title: Mac 快捷键
 date: 2016-01-06
-updated: 2017-05-04
+updated: 2017-05-12
 categories: [Mac]
 tags: [Mac]
 description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
@@ -415,6 +415,8 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
 
 - asdf …
 
+    `凵 o` = `\`
+    `凵 p` = `|` = `⇧ \`
     `凵 ;asdfghjkl` = `0~9`
 
 - Symbols
@@ -459,10 +461,8 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
 
     _`^ ⌥ ⇧ E` Excel_
 
-<!--
-    _`⌥ ⇧ ]` Show [Bartender 2](#Bartender-2)_
     _`⌥ ]` Show [Bartender 2](#Bartender-2)_
--->
+    _`⌥ ⇧ ]` Show [Bartender 2](#Bartender-2)_
 
 - asdf …
 
@@ -499,7 +499,8 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
 
     `⌥ ⇧ C` Calendar
     `⌥ ⇧ V` [ClipMenu](#ClipMenu) ( Main Menu )
-    `⌥ ⇧ M` Send the content in Clipboard to my iPhone by Messages
+    `⌥ ⇧ B` System Settings → BlueTooth
+    `⌥ ⇧ M` Send Clipboard to iPhone by Messages
     `⌥ ⇧ N` System Settings → Network
 
     `^ ⌥ ⇧ M` Sequel Pro ( MySQL )
@@ -630,6 +631,7 @@ Changes not only the shortcuts but also the keyboard key-remappings!
 
     `Fn 1` Switch to the __default__ setting profile ( without all custom key-remapping )
     `Fn 2` Switch to the __custom__ setting profile
+    `Fn 3` Switch to the __custom_hhkb__ setting profile
     They're used to toggle the custom setting profile for the guest who need to use my Mac temporarily.
 
 - Input Sources
@@ -640,14 +642,23 @@ Changes not only the shortcuts but also the keyboard key-remappings!
 
 - Change Modifier-Key-Remapping
 
+    <code>\`</code> → `⎋` Esc
     `⇪` Caps → `^` Ctrl
-    `^` Ctrl → `⌥` Rg Opt
+    `^` Ctrl → <code>\`</code> Backquote
+    `\\` Backslash → `↩` Return
 
-    `⌘` Rg Cmd → `⎋` Esc
-    `⌥` Rg Opt → `⇪` Caps
+    `⌘` Rg Cmd → `⇧` Rg Shf
+    Required:
+    `System Preferences` → `Keyboards` → `Modifier Key` : `CapsLock` → `Control`, `Control` → `No Action`
+    App `Seil` : `^` Lf Ctrl → `F19`
+    App `Karabiner` : `F19` → <code>\`</code> Backquote
 
-    It's required to exchange `CapsLock` & Lf `Ctrl` keys in the settings
-    `System Preferences` → `Keyboards` → `Modifier Key`.
+    `⇧` Rg Shf → Chinese Input Method
+    `⇧` Lf Shf | `⌘` Rg Cmd | `⎋` Esc → English Input Method
+    Required:
+    App `Keyboard Maestro` to switch to Input Methods ( [Ref](https://sspai.com/post/37962) )
+    App `Karabiner` set a shortcuts to trigger the operations defined in `Keyboard Maestro`
+
 
 ## Contact
 
@@ -1064,10 +1075,10 @@ All the shortcuts can be modified in `Preferences` → `Keymap`!
 
     _`⌘ ⌥ i` Mirror_
     _`⌘ ⌥ a` Rewrite_
+-->
 
     _`⌘ m` Compose ( Edit )_
     _`⌘ ⇧ M` Compose New_
--->
 
 <!--
 ### [Dash](https://kapeli.com/dash)
