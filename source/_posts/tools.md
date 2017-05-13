@@ -1,6 +1,6 @@
 title: 利器 - 软硬件推荐
 date: 2015-11-21
-updated: 2017-04-29
+updated: 2017-05-13
 categories: [Mac]
 tags: [Mac]
 description: Tools&#58; 推荐 macOS 和 iOS 的 Apps 以及日常使用的电子产品。
@@ -157,15 +157,13 @@ __荀子__
 
 - 编辑器
     其实可以完全用 Vim 来编辑文本文件（在终端中）。
+    - [__Sublime Text__](http://www.sublimetext.com/) <sup>Fastest</sup>
+        代码编辑器，我用其替代 TextEdit 作为默认的文本编辑器。Vintage 模式，可用 Vim 键位进行操作。冷启动快如闪电！
     - [__VS Code__](https://code.visualstudio.com/) <sup>Best</sup>
         - 发展至今，足以取代 Sublime Text 的优秀轻量级代码编辑器。
         - 内置 Git 管理、终端、调试框架，齐全、足量的优秀插件，配置选项完备，使用稳定顺手……
         - 开源，持续且活跃的开发，更不必说本身有微软过硬的技术实力背书。
         - 缺点：打开大文件的稳定性、速度和冷启动速度，不如 Sublime Text。
-    - [__Sublime Text__](http://www.sublimetext.com/) <sup>Fastest</sup>
-        代码编辑器，我用其替代 TextEdit 作为默认的文本编辑器。Vintage 模式，可用 Vim 键位进行操作。冷启动快如闪电！（最大的优点）
-    - [__~~Atom~~__](https://atom.io/) <sup>Modern</sup>
-        相当现代的代码编辑器，体验一流，但是冷启动慢，不如 Sublime Text。
     - [__~~Typora~~__](http://www.typora.io) <sup>Elegant</sup>
         Markdown 编辑器，所见即所得。国人制作，完全免费，支持 Mac、Windows！
         （除了写博文，我很少真的需要预览 Markdown 内容的实际显示效果，所以用一般编辑器即可。）
@@ -462,10 +460,8 @@ __荀子__
     - [~~微博~~](http://weibo.com) - 国内最大的自媒体平台。（暂时无法被替代……）
         - __微博问答__ - 微博内置问答平台，还是有不错的内容的。
         - 可以用 [Weibo H5 Beta 版](https://m.weibo.cn/beta)，有正常的时间序，轻度使用体验拔群！
-    - [~~分答~~](https://itunes.apple.com/us/app/fen-da-zhi-fu-fei-yu-yin-wen/id1114450317?mt=8) - 音频问答平台。一分钟音频能承载的信息量还是差点意思。
     - [__~~即刻~~__](https://www.ruguoapp.com/) - 关注感兴趣的主题，收到量身定制的更新推送。很不错。
-    - [__~~豌豆荚一览~~__](https://itunes.apple.com/us/app/wan-dou-jia-yi-lan-zai-yi/id1003672393?mt=8) - 资讯类 Apps 内容汇总。
-
+    - [__~~青芒阅读~~__](https://itunes.apple.com/us/app/wan-dou-jia-yi-lan-zai-yi/id1003672393?mt=8) - 资讯类 Apps 内容汇总。
 
 ---
 
@@ -575,24 +571,33 @@ __荀子__
 
 以下附带部分个人测评（使用感受）。
 
-### 笔记本电脑
+### 电脑 & 外设
 
 - [__MacBook Pro Retina 13-inch__](http://www.apple.com/cn/shop/buy-mac/macbook-pro?product=MF841CH/A&step=config) <sup>Favorite</sup>
     i7 - 3.1 GHz / Mem 16 GB / SSD 512 GB ，Mac 是软件工程师的最佳工作平台！
     Unix-like，稳定、省心。用好了 Windows，才了无牵挂地换了 Mac。
-    - [__Magic Keyboard__](http://www.apple.com/cn/shop/product/MLA22CH/A/magic-keyboard?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2) - 键盘
-        （第二代）小巧轻便。Mac 的键盘布局紧凑合理，手用更小幅度的移动就能触及所有按键，省力。
-        - 可能你会觉得敲起来手感「绵软」，但是作为「键盘党」的我，快捷键很多而且用得频繁，就觉得使用它很舒适、省力、安静。
-        - [键程](http://baike.baidu.com/view/1748635.htm) 不会太长或太短，不需要用力按下，有舒适的反馈感（个人感觉），用久了手也不容易疲劳，特别是小指；而且敲击按键的声音小，不容易打扰到别人。
-        - 使用蓝牙 4.0 无线连接，功耗低 —— 没有连接线，这点简直是洁癖和强迫症的福音；内置电池，Lightning 接口充电，一次充电能够续航三周以上，省心。
     - [__Magic Trackpad 2__](http://www.apple.com/cn/shop/product/MJ2R2CH/A/magic-trackpad-2?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2) - 触摸板
         Macbook 自带触摸板的手感已经非常好了，但它还要更胜一筹！第二代比第一代触摸面积大了不少，有三段式压感反馈，手感细腻。
-        - 还是嫌它大了点，因为我的 Mac 光标移动速度向来调到最快，基本一次小幅度滑动，光标就到位了，不需要太大的触控面积。
+        - 还是嫌它大了点，因为我的 Mac 光标移动速度向来调到最快，基本一次小幅度滑动，光标就到位了，不需要太大的触控面积。基本不玩 PC 游戏，所以完全改用触摸板。
     - [__SAMSUNG Portable SSD T3 500GB__](http://www.samsung.com/cn/memory-storage/pssd-mu-pt/MU-PT500BCN/) - 便携 SSD
         用这个便携固态硬盘当作备份盘确实有点奢侈……
 
+#### 键盘
+
+- [__Magic Keyboard__](http://www.apple.com/cn/shop/product/MLA22CH/A/magic-keyboard?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2) - 蓝牙键盘
+    （第二代）小巧轻便。Mac 的键盘布局紧凑合理，手用更小幅度的移动就能触及所有按键，省力。
+    - 可能你会觉得敲起来手感「绵软」，但是作为「键盘党」的我，快捷键很多而且用得频繁，就觉得使用它很舒适、省力、安静。
+    - [键程](http://baike.baidu.com/view/1748635.htm) 不会太长或太短，不需要用力按下，有舒适的反馈感（个人感觉），用久了手也不容易疲劳，特别是小指；而且敲击按键的声音小，不容易打扰到别人。
+    - 使用蓝牙 4.0 无线连接，功耗低 —— 没有连接线，这点简直是洁癖和强迫症的福音；内置电池，Lightning 接口充电，一次充电能够续航三周以上，省心。
+- [__PFU HHKB Professional JP__](https://www.amazon.cn/PFU-Happy-Hacking-Keyboard-Professional-JP-%E6%97%A5%E6%9C%AC%E8%AA%9E%E9%85%8D%E5%88%97-%E5%A2%A8-USB%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89-%E9%9D%99%E9%9B%BB%E5%AE%B9%E9%87%8F%E7%84%A1%E6%8E%A5%E7%82%B9-N%E3%82%AD%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%AB%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-PD-KB420B/dp/B001KWJTD6/ref=sr_1_2?ie=UTF8&qid=1494650201&sr=8-2&keywords=hhkb+jp) - 静电容键盘
+    黑色，有刻印（按键上印有键位说明），日文键盘布局。
+    - 果然还是按耐不住好奇心，买了一把机械键盘（严格来说静电容键盘不是机械键盘）来尝试。
+    - 「[HHKB Pro 2](https://www.amazon.cn/PFU-Happy-Hacking-Keyboard-Professional2-%E5%A2%A8-%E7%84%A1%E5%88%BB%E5%8D%B0-%E8%8B%B1%E8%AA%9E%E9%85%8D%E5%88%97-USB%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89-%E9%9D%99%E9%9B%BB%E5%AE%B9%E9%87%8F%E7%84%A1%E6%8E%A5%E7%82%B9-UNIX%E9%85%8D%E5%88%97-WINDOWS-MAC%E4%B8%A1%E5%AF%BE%E5%BF%9C-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-PD-KB400BN/dp/B000F8OECM/ref=sr_1_2?ie=UTF8&qid=1494650270&sr=8-2&keywords=hhkb)」系列 60 键 US 布局精简至极，看起来精致小巧、赏心悦目「逼格满满」啊！但是我这个快捷键党为了改键的需求，最终选择了按键更多、布局奇特的日本版。
+    - 为了无痛切换 HHKB JP 和 Mac 键盘而同时修改两者的布局，其键位功能基本一致，并吸收了 60% 键盘的特点：如数字键 1 左侧的 Backquote 键换成了 Esc 键等。
+
 ### 手机
 
+- __iPhone 8__ <sup>_wish!_</sup>
 - [__iPhone 7 Black__](http://www.apple.com/cn/shop/buy-iphone/iphone-7) <sup>Favorite</sup>
     128GB + [__Red Silicone Case__](http://www.apple.com/cn/shop/product/MMW82FE/A/iphone-7-%E7%A1%85%E8%83%B6%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E9%BB%91%E8%89%B2?fnode=99) ，闪电般流畅，稳定省心；小巧称手，单手操作高效、舒适。
     - 笔记、记账、GTD、阅读、通讯… 随身的效率工具，我一定买最好的。
@@ -630,7 +635,7 @@ __荀子__
     无线蓝牙连接，充电 <3h，续航 10h；消噪程度可控，分多级。
     续航时间比 QC20 短，不能像 QC20 那样一键切换「消噪」和「接收外部声音」两个状态，比较麻烦。
 - [__Bose QC20__](http://www.bose.cn/product.aspx?cid=1418#1418) <sup>Favorite, Best</sup>
-    [QuietComfort® 20 Acoustic Noise Cancelling® headphones — Apple devices](https://www.bose.com/en_us/products/headphones/earphones/quietcomfort-20i-acoustic-noise-cancelling-headphones.html#v=qc20_apple_white)
+    [QuietComfort® 20 Acoustic Noise Cancelling®headphones — Apple devices](https://www.bose.com/en_us/products/headphones/earphones/quietcomfort-20i-acoustic-noise-cancelling-headphones.html#v=qc20_apple_white)
     - 目前市面上我所知的最好的降噪耳塞。主动降噪，耳塞发出一种波与有规律的噪音相消。
     - 可「一键切换」是否隔绝周围环境的噪音；降噪后，可用更小的音量使用耳塞，声音更清晰。
     - 人声不能完全隔绝，但其音量会变得很小；主动降噪时，再稍微播放音乐或白噪音，即可在很大程度上隔绝外部噪音。它帮助我在嘈杂的办公室也能在静谧、专注地做事。虽然它贵，但花得值！
@@ -645,7 +650,7 @@ __荀子__
     - 而且戴耳机、耳塞，多少会压迫侧颊、耳朵、头部，耳道有异物感，始终不是最舒适的状态。长时间戴耳机、耳塞，又不注意清洁设备和耳朵，有可能导致中耳炎，请注意保护听力。
     - 音效还不错（对比类似价位的同类产品）；续航持久；无线连接迅速；防水，可以在浴室使用。还是一分钱一分货啊。
 
-### 健康
+### 护牙
 
 - 牙刷
     - [__Philips Sonicare DiamondClean Sonic Electric Rechargeable Toothbrush__](https://www.amazon.com/Philips-Sonicare-DiamondClean-Rechargeable-HX9332/dp/B0052JN7XG/ref=sr_1_1_a_it?ie=UTF8&qid=1468933357&sr=8-1&keywords=hx9332) <sup>Favorite</sup>
@@ -680,9 +685,10 @@ __荀子__
     - 进攻型羽毛球拍，重量 4U，手柄 G5 粗细，拉 28 磅的 YONEX 80 Power 线。毕竟我喜欢暴力打球。
     - 打惯 3U 的球拍，一开始不适应，感觉它偏轻、没“手感”。挥拍扣杀时，感觉球拍不够重，惯性不够大，出力不足。但移动、挥拍、救球、回球来更快更灵活，省腕力，长时间打球省体力。
 - [__Mizuno WAVE SMASH LO 白__](https://item.taobao.com/item.htm?id=534360854337&_u=cuv5jet2aca) - 羽球鞋
+    美津浓的鞋比尤尼克斯的更柔软舒适，特别对我这种经常跑动刹车的人来说没那么顶脚趾。
     - 旧：[__~~YONEX 65FT 白 JP 版~~__](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.H4Rwq7&id=14324807794&_u=euv5jet879d) <sup>_已穿坏…_</sup>
-    终于买了双像样的羽球鞋，为的是运动时能更舒适、灵活地移动，保护脚趾、脚掌、脚踝、膝盖。
-    - 快速移动、跳跃后，脚跟落地，能明显感受到它的抗震性很好。
+    买一双像样的羽球鞋，是为了运动时能更舒适、灵活地移动，保护脚趾、脚掌、脚踝、膝盖。
+    快速移动、跳跃后，脚跟落地，能明显感受到它的抗震性很好。
 - [__YONEX 16201 训练服__](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.CoCGMf&id=37144559361&_u=puv5jet55e6) - 运动服
     VC 面料，透汗、速干；Made in Japan 原版，高性价比。纯白色 & 纯黑色，各一件。
 
