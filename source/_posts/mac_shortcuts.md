@@ -1,6 +1,6 @@
 title: Mac 快捷键
 date: 2016-01-06
-updated: 2017-05-12
+updated: 2017-05-13
 categories: [Mac]
 tags: [Mac]
 description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
@@ -403,10 +403,10 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
 
     <!-- <code>凵 \`</code> -->
     `凵 1` iTerm2
-    `凵 2` [2Do](#2Do)
+    `凵 2` [Sublime Text](#Sublime-Text)
     `凵 3` [Firefox](#Firefox)
     `凵 4` Chrome
-    `凵 5` [Evernote](#Evernote)
+    `凵 5` [2Do](#2Do)
     `凵 6` System Settings → General
     `凵 7` [Keyboard Maestro](#Keyboard-Maestro)
     `凵 8` [Karabiner](#Karabiner)
@@ -456,7 +456,7 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
     _`⌥ ⇧ W` Word_
     _`⌥ ⇧ P` PowerPoint_
     _`⌥ ⇧ R` [VS Code](#VS-Code)_
-    `⌥ ⇧ E` Eject the disks
+    `⌥ ⇧ E` [Evernote](#Evernote)
     `⌥ ⇧ I` Prompt the local IP address
 
     _`^ ⌥ ⇧ E` Excel_
@@ -482,6 +482,7 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
     `⌥ ⇧ S` Safari
     `⌥ ⇧ D` Dictionary
     _`⌥ ⇧ F` Search in All Files_
+    `⌥ ⇧ J` Eject the disks
     _`⌥ ⇧ K` Calculator_
     _`⌥ ⇧ L` System Settings → Launch Rocket_
 
@@ -489,7 +490,7 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
 
 - zxcv …
 
-    `⌥ z` [Sublime Text](#Sublime-Text)
+    `⌥ z` [2Do](#2Do)
     `⌥ c` [Charles](#Charles)
     `⌥ v` [ClipMenu](#ClipMenu) ( History Menu )
     `⌥ b` [MindNode](#MindNode) ( `b` for Brainstorm )
