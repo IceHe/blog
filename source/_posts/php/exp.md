@@ -1,9 +1,10 @@
 title: PHP 编程经验
-date: 2017-05-13
-updated: 2017-05-13
+date: 2017-05-15
+updated: 2017-05-15
 no_upd: true
 categories: [PHP]
 tags: [PHP]
+description: PHP Coding Experience &#58; 日常工作的经验总结。
 ---
 
 ## 引子
@@ -214,7 +215,7 @@ __`isset($a)` === `!is_null($a)`__
 可以参考官方文档 [PHP Type Comparisons](http://www.php.net/manual/en/types.comparisons.php)。
 但是它的表格依然有错，所以还是建议用以下的代码来进行实验。
 
-``` php 简洁版
+``` php 简版
 <?php
 //error_reporting(~E_ALL);
 
@@ -266,25 +267,24 @@ foreach ($cases as $index => $case) {
 }
 echo join("\n", $lines);
 ```
-``` str 输出
-n  | cases          | is_null | isset | empty | boolval() | intval() | ==1 | =='1'
-0  | NULL NULL      | 1       | 0     | 1     | 0         | 0        | 0   | 0
-1  | string ''      | 0       | 1     | 1     | 0         | 0        | 0   | 0
-2  | array()        | 0       | 1     | 1     | 0         | 0        | 0   | 0
-3  | array(0=>0,)   | 0       | 1     | 0     | 1         | 1        | 0   | 0
-4  | integer 2      | 0       | 1     | 0     | 1         | 1        | 0   | 0
-5  | integer 1      | 0       | 1     | 0     | 1         | 1        | 1   | 1
-6  | integer 0      | 0       | 1     | 1     | 0         | 0        | 0   | 0
-7  | integer -1     | 0       | 1     | 0     | 1         | 1        | 0   | 0
-8  | string '2'     | 0       | 1     | 0     | 1         | 1        | 0   | 0
-9  | string '1'     | 0       | 1     | 0     | 1         | 1        | 1   | 1
-10 | string '0'     | 0       | 1     | 1     | 0         | 0        | 0   | 0
-11 | string '-1'    | 0       | 1     | 0     | 1         | 1        | 0   | 0
-12 | boolean true   | 0       | 1     | 0     | 1         | 1        | 1   | 1
-13 | boolean false  | 0       | 1     | 1     | 0         | 0        | 0   | 0
-14 | string 'true'  | 0       | 1     | 0     | 1         | 0        | 0   | 0
-15 | string 'false' | 0       | 1     | 0     | 1         | 0        | 0   | 0
-16 | string 'str'   | 0       | 1     | 0     | 1         | 0        | 0   | 0
+``` str 有冗余的输出
+0  | NULL NULL      | is_null 1 | isset 0 | empty 1 | boolval() 0 | intval() 0 | ==1 0 | =='1' 0
+1  | string ''      | is_null 0 | isset 1 | empty 1 | boolval() 0 | intval() 0 | ==1 0 | =='1' 0
+2  | array()        | is_null 0 | isset 1 | empty 1 | boolval() 0 | intval() 0 | ==1 0 | =='1' 0
+3  | array(0=>0,)   | is_null 0 | isset 1 | empty 0 | boolval() 1 | intval() 1 | ==1 0 | =='1' 0
+4  | integer 2      | is_null 0 | isset 1 | empty 0 | boolval() 1 | intval() 1 | ==1 0 | =='1' 0
+5  | integer 1      | is_null 0 | isset 1 | empty 0 | boolval() 1 | intval() 1 | ==1 1 | =='1' 1
+6  | integer 0      | is_null 0 | isset 1 | empty 1 | boolval() 0 | intval() 0 | ==1 0 | =='1' 0
+7  | integer -1     | is_null 0 | isset 1 | empty 0 | boolval() 1 | intval() 1 | ==1 0 | =='1' 0
+8  | string '2'     | is_null 0 | isset 1 | empty 0 | boolval() 1 | intval() 1 | ==1 0 | =='1' 0
+9  | string '1'     | is_null 0 | isset 1 | empty 0 | boolval() 1 | intval() 1 | ==1 1 | =='1' 1
+10 | string '0'     | is_null 0 | isset 1 | empty 1 | boolval() 0 | intval() 0 | ==1 0 | =='1' 0
+11 | string '-1'    | is_null 0 | isset 1 | empty 0 | boolval() 1 | intval() 1 | ==1 0 | =='1' 0
+12 | boolean true   | is_null 0 | isset 1 | empty 0 | boolval() 1 | intval() 1 | ==1 1 | =='1' 1
+13 | boolean false  | is_null 0 | isset 1 | empty 1 | boolval() 0 | intval() 0 | ==1 0 | =='1' 0
+14 | string 'true'  | is_null 0 | isset 1 | empty 0 | boolval() 1 | intval() 0 | ==1 0 | =='1' 0
+15 | string 'false' | is_null 0 | isset 1 | empty 0 | boolval() 1 | intval() 0 | ==1 0 | =='1' 0
+16 | string 'str'   | is_null 0 | isset 1 | empty 0 | boolval() 1 | intval() 0 | ==1 0 | =='1' 0
 ```
 
 ---
@@ -355,7 +355,7 @@ foreach ($lines as $k => $line) {
 }
 echo join("\n", $lines);
 ```
-``` str 输出
+``` str 简洁的输出
 n  | cases          | is_null | isset | empty | boolval() | intval() | ==1 | =='1'
 0  | NULL NULL      | 1       | 0     | 1     | 0         | 0        | 0   | 0
 1  | string ''      | 0       | 1     | 1     | 0         | 0        | 0   | 0
@@ -378,22 +378,20 @@ n  | cases          | is_null | isset | empty | boolval() | intval() | ==1 | =='
 
 以上代码的 [GitHub Gist](https://gist.github.com/IceHe/eb0a95647c7ed5b47fbf30ce85af34e6) 链接。
 
-## 常用函数
+## 字符串操作
 
 许多实现基本功能的函数都内置到了 PHP 中。
 然而在我看来比较常用的一些功能函数在 Python 里需要 import 相关的模块才能用，略显不便。
-
-### 字符串操作
 
 参考 [php.net](http://php.net/)：[字符串函数](http://php.net/ref.strings) & [PCRE 函数](http://php.net/manual/en/ref.pcre.php)（Regex 正则）
 
 挑常用的说一说。这里可以很明显感受到命名的不统一。
 
-#### 字符串前缀
+### 字符串前缀
 
 判断一个字符串是否以另一字符串为前缀，有许多方法。
 
-##### strpos
+#### strpos
 
 ``` php
 strpos($str, $prefix) === 0;
@@ -406,7 +404,7 @@ strpos($str, $prefix) === 0;
 `strpos` 可以用 `strstr`（在字符串中，查找第一个指定子字符串出现的位置）函数来代替。
 `stripos` 和 `stristr` 等函数都忽略大小写进行查找。
 
-##### substr
+#### substr
 
 ``` php
 substr($str, 0, strlen('prefix')) == 'prefix';
@@ -432,7 +430,7 @@ substr($str, 0, strlen($prefix)) == $prefix;
 在避免代码冗余的情况下，减少出错的可能性：只修改 `'prefix'` 一处就行了。
 如果用前文那种「硬编码」的写法，就要同时修改所有受变更影响的代码，才能避免出错。
 
-##### preg_match
+#### preg_match
 
 ``` php
 !preg_match('/^prefix/', $str);
@@ -444,7 +442,7 @@ substr($str, 0, strlen($prefix)) == $prefix;
 而且它还需要你简单了解「正则表达式」，以致需要查找资料、稍作思考才能看懂它。
 这些地方毋需复杂精巧的计算机技术和编程技巧，还是尽可能写让人一眼就能看明白的代码。
 
-#### 字符串后缀
+### 字符串后缀
 
 这个操作还是用 `substr` 比 `strpos` 方便，`preg_match` 等正则匹配方法依然不推荐。
 因为 `substr(string $str, int $start[, int $length])` 的第二个参数可以为负数，
@@ -456,7 +454,7 @@ $suffix = 'suffix';
 substr($str, -strlen($suffix)) == $suffix;
 ```
 
-#### 封装常用的字符串操作
+### 封装常用字符串操作
 
 不但是 PHP，常见的编程语言都有许多 packages 包含你需要工具函数，可以直接引用。
 建议根据项目的实际需求，将常用的工具函数进一步封装起来，以提高使用的便利性和代码可读性。
@@ -521,8 +519,7 @@ str_limit($str, $limitLength);
 
 直到这时，可能你才发现原来平时自制了许多不必要的「轮子」。
 
-
-#### 常用的内置字符串函数
+### 常用内置字符串函数
 
 之前提过的 `substr`、`strpos`、`strlen` 就不说了。
 其中很多字符串的转换操作都是跟 Web 开发相关的。
@@ -570,7 +567,7 @@ __join()__ === [__implode()__](http://php.net/manual/en/function.implode.php) �
 [__rawurlencode()__](http://php.net/manual/en/function.rawurlencode.php) ：按照 [RFC 3986](http://www.faqs.org/rfcs/rfc3986.html) 编码 URL 字符串
 [__rawurldecode()__](http://php.net/manual/en/function.rawurldecode.php) ：按照 [RFC 3986](http://www.faqs.org/rfcs/rfc3986.html) 解码已编码的 URL 字符串（如果进行了多次编码，则需多次解码）
 
-简单说明 `__url\*code()__` 和 `__rawurl\*code()__` 的区别：
+简单说明 `__urlencode()__` 和 `__rawurlencode()__`（以至 `*decode()`）的区别：
 例如，空格 `' '` 一般会转换为加号 `'+'`，按照 [RFC 3986](http://www.faqs.org/rfcs/rfc3986.html) 则转换为 `'%20'`；
 但是可是一些 URL 参数的内容也包含 `'+'`的话，这部分内容被 `urldecode()` 解码时就会被译为空格 `' '` 了……
 所以，为了避免一些原始信息在转换的过程中出错，请注意诸如此类的特殊情况。
@@ -581,7 +578,7 @@ __join()__ === [__implode()__](http://php.net/manual/en/function.implode.php) �
 [__html_entity_decode()__](http://php.net/manual/en/function.html-entity-decode.php) ：将所有 HTML 实体转换为对应字符
 
 [__htmlspecialchars()__](http://php.net/manual/en/function.htmlspecialchars.php) ：将特殊字符转换为 HTML 实体（如 `&` `"` `'` `<` `>`）
-[__htmlspecialchars_decode()__](http://php.net/manual/en/function.htmlspecialchars-decode.php) ：将特殊的 HTML 实体转换回普通字符 
+[__htmlspecialchars_decode()__](http://php.net/manual/en/function.htmlspecialchars-decode.php) ：将特殊的 HTML 实体转换回普通字符
 
 [__get_html_translation_table()__](http://php.net/manual/en/function.get-html-translation-table.php) ：返回使用 `htmlspecialchars()` 和 `htmlentities()` 后的转换表
 
@@ -596,16 +593,169 @@ __join()__ === [__implode()__](http://php.net/manual/en/function.implode.php) �
 [__addcslashes()__](http://php.net/manual/en/function.addcslashes.php) ：以 C 语言风格使用反斜线转义字符串中的字符
 [__stripcslashes()__](http://php.net/manual/en/function.stripcslashes.php) ：反引用一个使用 `addcslashes()` 转义的字符串
 
-### 数组操作
+## 数组操作
+
+毕竟 PHP 是主要用于 Web 的语言，最多的就是字符串的操作，还有数组的操作。
+虽然 PHP 已经内置了不少的数组操作，但是在我看来，依然不够用。
 
 参考 [php.net](http://php.net/)：[数组函数](http://php.net/manual/en/book.array.php)
-参考 [Lavarel](https://laravel.com/docs/master)：[数组工具函数](https://laravel.com/docs/master/helpers#arrays)
+参考 [Lavarel](https://laravel.com/docs/master)：[总览](https://laravel.com/docs/5.4/helpers#available-methods)、[数组工具函数](https://laravel.com/docs/master/helpers#arrays)
 
-[https://laravel.com/docs/5.4/helpers#available-methods]
+__array_fill*()__ 数组填充
+__array_diff*()__ 数组差集
+__array_intersect*()__ 数组交集
 
-引用官网地址。（再挑常用的说说）
+---
 
-数组操作的相关操作，虽然已经封装了不少，但在我看来还是不够。
+[__array_filter()__](http://php.net/manual/zh/function.array-filter.php) ：用回调函数过滤数组中的单元
+[__array_flip()__](http://php.net/manual/zh/function.array-flip.php) ：交换数组中的键和值
+[__array_chunk()__](http://php.net/manual/zh/function.array-chunk.php) ：将一个数组分割成多个
+有些 API 不能一次处理超过一定量的数据，这时可以用它进行分组分批的处理。
+
+### 用一列元素值作为新的键
+
+[__array_column()__](http://php.net/manual/zh/function.array-column.php) ：返回数组中指定的一列
+[__array_combine()__](http://php.net/manual/zh/function.array-combine.php) ： 创建一个数组，用一个数组的值作为其键名，另一个数组的值作为其值
+
+``` php 用数组中的某一列作为新的键值
+$ary = [
+    ['id' => 'a', 'name' => 'IceHe.me'],
+    ['id' => 'b', 'name' => 'King Kong'],
+    ['id' => 'c', 'name' => 'Bob'],
+];
+
+array_combine(array_column($ary, 'id'), $ary);
+```
+``` str 产生的新数组
+[
+    "a" => [
+        "id" => "a",
+        "name" => "IceHe.me",
+    ],
+    "b" => [
+        "id" => "b",
+        "name" => "King Kong",
+    ],
+    "c" => [
+        "id" => "c",
+        "name" => "Bob",
+    ],
+]
+```
+
+### array_key_exists 与 isset
+
+[__array_keys()__](http://php.net/manual/zh/function.array-keys.php) ：返回数组中部分的或所有的键名
+
+[__array_key_exists()__](http://php.net/manual/zh/function.array-key-exists.php) ：检查数组里是否有指定的键名或索引
+看起来 `array_key_exists('key', $ary)` 可以用 __`isset($ary['key'])`__ 这种更短的写法来替代它，但是它们是有区别的！
+
+``` php isset 和 array_key_exists 的测试代码
+$ary = [
+    'a' => 'apple',
+    'b' => null,
+];
+
+$keys = array_merge(array_keys($ary), ['c']);
+
+$fns = [
+    "isset(\$ary['{key}'])" => function ($ary, $key) {
+        return isset($ary[$key]);
+    },
+    "array_key_exists('{key}', \$ary)" => function ($ary, $key) {
+        return array_key_exists($key, $ary);
+    },
+];
+
+foreach ($fns as $desc => $fn) {
+    foreach ($keys as $key) {
+        echo str_replace('{key}', $key, $desc).' == '.($fn($ary, $key) ?: 0)."\n";
+    }
+}
+```
+``` str 输出
+isset($ary['a']) == 1
+isset($ary['b']) == 0
+isset($ary['c']) == 0
+array_key_exists('a', $ary) == 1
+array_key_exists('b', $ary) == 1
+array_key_exists('c', $ary) == 0
+```
+
+如上述的 `$ary['b']`，如果数组中，一个键对应的值是 `null`（即它是一个数组的空元素），
+这时键是存在的，`array_key_exists()` 为 `true`，但 `isset()` 则为 `false`。
+只有键也不存在时，`array_key_exists()` 和`isset()` 才同时为 `false`。
+判断一个数组元素是否完全不存在，应该用 `array_key_exists()`。
+
+#### 性能浅探
+
+但是它的性能不如 `isset()`，可以选择性能更好的 `isset() || array_key_exists()` 写法来判断。
+
+``` php 性能测试
+$ary = [
+    'a' => 'apple',
+    'b' => null,
+];
+
+$keys = array_merge(array_keys($ary), ['c']);
+
+$fns = [
+    "isset(\$ary['{key}'])" => function ($ary, $key) {
+        return isset($ary[$key]);
+    },
+    "array_key_exists('{key}', \$ary)" => function ($ary, $key) {
+        return array_key_exists($key, $ary);
+    },
+    "isset(\$ary['{key}']) || array_key_exists('{key}', \$ary)" => function ($ary, $key) {
+        return isset($ary[$key]) || array_key_exists($key, $ary);
+    },
+];
+
+$runTimes = 1000 * 1000;
+echo "Benchmark ({$runTimes} runs):\n";
+
+foreach ($fns as $desc => $fn) {
+    foreach ($keys as $key) {
+        $startTime = microtime(true);
+        for ($i = 0; $i < $runTimes; ++$i) {
+            $fn($ary, $key);
+        }
+        echo str_replace('{key}', $key, $desc).' : '.(microtime(true) - $startTime)." s\n";
+    }
+}
+```
+``` str 输出
+Benchmark (1000000 runs):
+isset($ary['a']) : 1.1532697677612 s
+isset($ary['b']) : 1.1657729148865 s
+isset($ary['c']) : 1.1589360237122 s
+array_key_exists('a', $ary) : 1.8381969928741 s
+array_key_exists('b', $ary) : 1.8328688144684 s
+array_key_exists('c', $ary) : 1.8120148181915 s
+isset($ary['a']) || array_key_exists('a', $ary) : 1.1722960472107 s
+isset($ary['b']) || array_key_exists('b', $ary) : 1.7927839756012 s
+isset($ary['c']) || array_key_exists('c', $ary) : 1.7765641212463 s
+```
+
+不过瓶颈通常在数据 IO 和网络传输方面，不在框架、函数、语言本身，特别是在 PHP7 发布后。
+所以，通常情况下用 `isset()` 就够了，严谨的话直接用 `array_key_exists()` 即可。
+
+---
+
+[__()__]() ：
+[__()__]() ：
+[__()__]() ：
+
+[__()__]() ：
+[__()__]() ：
+[__()__]() ：
+[__()__]() ：
+[__()__]() ：
+[__()__]() ：
+[__()__]() ：
+[__()__]() ：
+[__()__]() ：
+
 array_merge
 array_search
 `array_map` `array_reduce`
@@ -631,12 +781,18 @@ array_flat() 数组扁平化
 array_concat($ary1[, $ary2[, …]]) 数组拼接，这就不用各种遍历来拼数组了
 array_pluck 等
 
-### 其它
+## 其它
+
+[__microtime()__](http://php.net/manual/zh/function.microtime.php) ：返回当前 Unix 时间戳和微秒数（实际单位其实还是秒）
+`microtime(true)` 将秒和毫秒合并为一个浮点数的结果来返回，常用于性能测试
+
+`var_dump($v1, $v2, …)` 常用于测试
+`var_export(…, true)` 输出变量
+echo
+exit
 
 md5
 rand
-
-### 有用的代码封装
 
 <!--
 4. __函数的返回值__，跟 C 语言一样，它的返回值并不一致。
