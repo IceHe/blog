@@ -1,6 +1,6 @@
 title: Mac 快捷键
 date: 2016-01-06
-updated: 2017-05-13
+updated: 2017-05-14
 categories: [Mac]
 tags: [Mac]
 description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
@@ -407,11 +407,12 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
     `凵 3` [Firefox](#Firefox)
     `凵 4` Chrome
     `凵 5` [2Do](#2Do)
-    `凵 6` System Settings → General
+    `凵 6` System Settings → Keyboard
     `凵 7` [Keyboard Maestro](#Keyboard-Maestro)
     `凵 8` [Karabiner](#Karabiner)
     `凵 9` [Seil](#Seil)
-    `凵 0` System Settings → Keyboard
+
+    <!-- `凵 0` System Settings → General -->
 
 - asdf …
 
@@ -490,7 +491,7 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
 
 - zxcv …
 
-    `⌥ z` [2Do](#2Do)
+    `⌥ x` Xiami Music
     `⌥ c` [Charles](#Charles)
     `⌥ v` [ClipMenu](#ClipMenu) ( History Menu )
     `⌥ b` [MindNode](#MindNode) ( `b` for Brainstorm )
@@ -630,9 +631,9 @@ Changes not only the shortcuts but also the keyboard key-remappings!
 
 - Profile
 
-    `Fn 1` Switch to the __default__ setting profile ( without all custom key-remapping )
-    `Fn 2` Switch to the __custom__ setting profile
-    `Fn 3` Switch to the __custom_hhkb__ setting profile
+    `⌘ ⌥ ^ ⇧ 1` Switch to the __default__ setting profile ( without all custom key-remapping )
+    `⌘ ⌥ ^ ⇧ 2` Switch to the __custom_mac__ setting profile
+    `⌘ ⌥ ^ ⇧ 3` Switch to the __custom_hhkb__ setting profile
     They're used to toggle the custom setting profile for the guest who need to use my Mac temporarily.
 
 - Input Sources
@@ -643,23 +644,20 @@ Changes not only the shortcuts but also the keyboard key-remappings!
 
 - Change Modifier-Key-Remapping
 
-    <code>\`</code> → `⎋` Esc
-    `⇪` Caps → `^` Ctrl
-    `^` Ctrl → <code>\`</code> Backquote
-    `\\` Backslash → `↩` Return
+    `⇪` Caps → `^` Lf Ctrl
+    `⌘` Rg Cmd →  `⎋` Esc
 
-    `⌘` Rg Cmd → `⇧` Rg Shf
+    `^` Ctrl → to Chinese Layout ( Baidu Input Method )
     Required:
     `System Preferences` → `Keyboards` → `Modifier Key` : `CapsLock` → `Control`, `Control` → `No Action`
     App `Seil` : `^` Lf Ctrl → `F19`
-    App `Karabiner` : `F19` → <code>\`</code> Backquote
+    App `Karabiner` : `F19` → `⌘ ⌥ ^ ⇧ [`
+    App `Keyboard Maestro` : `⌘ ⌥ ^ ⇧ [` → to Chinese Layout ( [Ref](https://sspai.com/post/37962) )
 
-    `⇧` Rg Shf → Chinese Input Method
-    `⇧` Lf Shf | `⌘` Rg Cmd | `⎋` Esc → English Input Method
+    `⇧` Lf & Rg Shf | `⌘` Rg Cmd | `⎋` Esc → English Input Method
     Required:
-    App `Keyboard Maestro` to switch to Input Methods ( [Ref](https://sspai.com/post/37962) )
-    App `Karabiner` set a shortcuts to trigger the operations defined in `Keyboard Maestro`
-
+    App `Karabiner` : LR`⇧` | R`⌘` | `⎋` will trigger `⌘ ⌥ ^ ⇧ ]` as well
+    App `Keyboard Maestro` : `⌘ ⌥ ^ ⇧ ]` → to US English Layout
 
 ## Contact
 
@@ -777,45 +775,40 @@ They can be used in WeChat as well.
 
 - Code
 
+    `^ ⌥ e` Rename `$variableName`, `ClassName`, `functionName` ( Auto rename other related code )
+    `^ ⌥ t` Refactor This
+    `^ ⌥ o` Optimize Imports
+
     `⌘ ⌥ l` Reformat Code
     The rules for reformation can be modified in :
     `Preferences` → `Editor` → `Code Style` → Select the programming language.
 
+
     `⌘ /` Line Comment
     _`⌘ ⌥ /` Block Comment_
 
-    _`^ ⌥ h` Toggle Parameter Name_
-    _`⌘ ⇧ G` Select All Occurrences_
-    _`⌘ ⇧ V` Copy from History_
-
-    _`⌥ ↑` Extend Selection_
-    _`⌥ ↓` Shrink Selection_
-
     _`^ 凵` Auto Complete_
-    _`⌥ ↩` Show Intention Actions_
+    `⌥ ↩` Show Intention Actions
     _`⌘ ⇧ ↩` Complete Current Statement_
-
-<!--
-    `^ ⌥ e` Rename `$variableName`, `ClassName`, `functionName` ( Auto rename other related code )
-    _`^ ⌥ r` Refactor This_
--->
 
 - Debug
 
-    `^ ⇧ B` Toggle BreakPoint
+    `^ ⇧ B` Toggle Line BreakPoint
     `^ ⇧ E` Edit BreakPoint ( Break if conditional is true)
+    `^ ⇧ V` View BreakPoints
     `^ ⇧ W` Add to Watches
     `^ ⌥ w` Add to Watches
 
+    `^ ⇧ R` Run…
+    `^ ⇧ A` Rerun
     `^ ⇧ D` Debug
-    `^ ⇧ R` Rerun
     `^ ⇧ S` Stop
 
     `^ ⇧ I` Step Into
     `^ ⇧ O` Step Out
 
-    `^ ⇧ N` Next BreakPoint ( Resume )
-    `^ ⇧ J` Next Line ( Step Over )
+    `^ ⇧ N` Resume Program ( Next BreakPoint )
+    `^ ⇧ J` Step Over ( Next Line )
 
 - File
 
@@ -836,7 +829,7 @@ They can be used in WeChat as well.
     `⌘ o` Find Class
     `⌘ ⇧ O` Find File
     `⌘ ⌥ o` Find Symbols ( Class, Files, Methods, Functions )
-    _`⇧, ⇧` Search (Everything) Everywhere_
+    <!-- _`⇧, ⇧` Search (Everything) Everywhere_ -->
 
 <!-- _`⌘ ⇧ A` Find Actions_ -->
 
@@ -866,16 +859,6 @@ They can be used in WeChat as well.
     `⌘ u` Super Class or Interface
 -->
 
-- Tools
-
-    `⌘ ^ h` Hide All Tool Windows
-    _`^ ⇧ q` Terminal_
-    _`^ ⌥ s` Test RESTful Web Service_
-
-<!--
-    `⌘ ⇧ ↑↓←→` Extend | Shrink Tool Window
--->
-
 - VCS: History & Compare
 
     `^ ⌥ l` Local History -> Show History
@@ -886,9 +869,29 @@ They can be used in WeChat as well.
     _`^ ⌥ .` Git -> Compare with …_
     _`^ ⌥ c` Git -> Resolve Conflicts_
 
+- View
+
+    _`^ ⌥ h` Toggle Parameter Name_
+    _`^ ⌥ g` Select All Occurrences_
+    <!-- _`⌘ ⇧ V` Copy from History_ -->
+
+- Select
+
+    _`⌥ ↑` Extend Selection_
+    _`⌥ ↓` Shrink Selection_
+
+- Tools
+
+    `⌘ ^ h` Hide All Tool Windows
+    _`^ ⌥ q` Terminal_
+    _`^ ⌥ s` Test RESTful Web Service_
+
+<!--
+    `⌘ ⇧ ↑↓←→` Extend | Shrink Tool Window
+-->
+
 <!--
 - TODO:
-    - Language Injection in `⌥ ↩`
     - Code -> Inspect Code… 语法检查等
     - Code -> Locate Duplicates
 -->
@@ -917,6 +920,24 @@ Its most keys are the same as Vim, so I just list my custom keys.
 
     `^ ]` Find Declaration
     `^ t` Back from Declaration
+
+- Mimic Emacs in Insert Mode:
+
+    `^ b` = `←`
+    `^ f` = `→`
+    `^ p` = `↑`
+    `^ n` = `↓`
+
+    `^ a` = `Home`
+    `^ e` = `End`
+
+    `^ k` Del to End of Line
+    `^ u` Del to Head of Line
+    `^ t` Exchange Chars ( Before & After Cursor )
+
+- Tripple h/j/k/l to Normal Mode
+
+    `hhh` | `jjj` | `kkk` | `lll` = `⎋`
 
 ### [JetBrains](https://www.jetbrains.com/)
 
@@ -990,20 +1011,26 @@ All the shortcuts can be modified in `Preferences` → `Keymap`!
 
 <!-- _`^ l` Scroll to the Selection_ -->
 
-<!--
 - Bookmarks
 
     `⌘ F2` Toggle Bookmark
     `F2` Next Bookmark
     `⇧ F2` Prev Bookmark
     `⌘ ⇧ F2` Clear All Bookmarks
--->
 
 - Layout
 
     `⌘ ⌥ 1~4` 1~4 Columns
     _`⌘ ⌥ 5` Grid_
     _`⌘ ⌥ ⇧ 2~3` 2~3 Rows_
+
+- Command Palette…
+
+    `⌘ p` Quick Open File
+    `⌘ ⇧ P` Command Palette…
+    `⌘ ⇧ C` Copy File Path
+
+    `^ s` Trim Trailing Whitespace
 
 <!--
 - Others
@@ -1064,6 +1091,9 @@ All the shortcuts can be modified in `Preferences` → `Keymap`!
     `⌘ ⇧ D` DNS Spoofing Settings <sup>_custom_</sup>
     `⌘ ⌥ m` Map Remote
 
+    _`⌘ m` Compose ( Edit )_
+    _`⌘ ⇧ M` Compose New_
+
 <!--
     _`⌘ ⌥ l` Map Local_
 
@@ -1077,9 +1107,6 @@ All the shortcuts can be modified in `Preferences` → `Keymap`!
     _`⌘ ⌥ i` Mirror_
     _`⌘ ⌥ a` Rewrite_
 -->
-
-    _`⌘ m` Compose ( Edit )_
-    _`⌘ ⇧ M` Compose New_
 
 <!--
 ### [Dash](https://kapeli.com/dash)
@@ -1138,13 +1165,13 @@ Due to the help from `tmux` and `Zsh`, I don't need much support from `iTerm` as
 
 ### [tmux](https://tmux.github.io/)
 
+More details in [__Official Docs__](http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/tmux.1?query=tmux&sec=1).
+
 `^ q` Prefix Key ( aka `Pf` )
 The description `Pf, *` implies that tap `Pf` at first and then tap the key `*`.
 
 `Pf, ⇧ ?` List Keys
-
 `Pf, d` Detach Client
-
 `Pf, c` New Window
 
 `Pf, \` Split Window Horizontally
@@ -1164,6 +1191,11 @@ The description `Pf, *` implies that tap `Pf` at first and then tap the key `*`.
 `Pf, ↓` Put Current Pane back to its Parent Window
 
 `Pf, [` Use Vim-like keys to copy str at Copy Mode
+In Copy Mode:
+`v` Begin Selection
+`y` Copy Selection
+`u` Copy Selection & Exit Copy Mode
+`⇧ L` Copy Line ( & Exit Copy Mode )
 
 <!--
     - Help
@@ -1228,8 +1260,6 @@ The description `Pf, *` implies that tap `Pf` at first and then tap the key `*`.
 
         `Pf r` Reload ~/.tmux.conf
 -->
-
-- More details in [__Official Docs__](http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/tmux.1?query=tmux&sec=1).
 
 ### [Vim](http://www.vim.org/)
 
@@ -1342,6 +1372,7 @@ Only list the useful keys that I’m unfamiliar with here.
 
 - Increase or Decrease Num
 
+    In Normal Mode:
     `^ a` Increase Num
     `^ x` Decrease Num
 
@@ -1372,6 +1403,26 @@ Only list the useful keys that I’m unfamiliar with here.
 
     `^ ]` Find Declaration
     `^ t` Back from Declaration
+
+- Mimic Emacs in Insert Mode
+
+    `^ b` = `←`
+    `^ f` = `→`
+    `^ p` = `↑`
+    `^ n` = `↓`
+
+    `^ a` = `Home`
+    `^ e` = `End`
+
+    `^ k` Del to End of Line
+    `^ u` Del to Head of Line
+    `^ t` Exchange Chars ( Before & After Cursor )
+
+- Tripple h/j/k/l to Normal Mode
+
+    `hhh` | `jjj` | `kkk` | `lll` = `⎋`
+
+
 
 - I used to use the Vim Distribution [~~spf13-vim~~](http://vim.spf13.com/).
 - [Vim Cheat Sheet](http://coolshell.cn//wp-content/uploads/2011/09/vim_cheat_sheet_for_programmers_print.png) - Image
@@ -1840,3 +1891,8 @@ It is a Vim-Emulator extension in Firefox.
 __`⌘ l` Dislike__
 __`⌘ r` Show | Hide Lyrics__
 -->
+
+### [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG)
+
+`^ ⌥ ⇧ P` Toggle Shadowsocks On / Off
+`^ ⌥ p` Toggle Proxy Mode: Auto PAC / Global
