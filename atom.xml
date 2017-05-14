@@ -3802,10 +3802,7 @@ img.fix_height {
 <li><a href="/cmd/git_note">My Git Note</a></li>
 <li><a href="http://coolshell.cn//wp-content/uploads/2011/09/vim_cheat_sheet_for_programmers_print.png" target="_blank" rel="external">Vim Cheat Sheet</a> - Vim 键位操作总结图</li>
 <li><a href="http://www.phptherightway.com/" target="_blank" rel="external">PHP The Right Way</a> <sup><em>todo</em></sup></li>
-<li><a href="http://www.php.net/manual/en/types.comparisons.php" target="_blank" rel="external">PHP Type Comparisons</a> - PHP 变量比较结果参考<ul>
-<li>注意：官方文档的表格依然有错，建议 <a href="/php/determine_variable/#代码实验">用代码来进行实验</a>。</li>
-</ul>
-</li>
+<li><a href="http://www.php.net/manual/en/types.comparisons.php" target="_blank" rel="external">PHP Types Comparison</a> - PHP 变量比较结果参考</li>
 <li><a href="https://developer.apple.com/library/mac/navigation/" target="_blank" rel="external">Mac Developer Library</a> -&gt; <a href="https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html" target="_blank" rel="external">AppleScript Language Guide</a></li>
 <li><a href="http://www.cheatography.com/david/cheat-sheets/object-oriented-design/" target="_blank" rel="external">Object Oriented Design</a> ( Cheat Sheet )</li>
 </ul>
@@ -4681,7 +4678,7 @@ img.fix_height {
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
-    <updated>2017-05-11T16:00:00.000Z</updated>
+    <updated>2017-05-13T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>天下武功，唯快不破。</p>
 </blockquote>
@@ -4931,7 +4928,8 @@ _`⌘ ⇧ T` Go to Date_
 <h3 id="Layout-凵"><a href="#Layout-凵" class="headerlink" title="Layout 凵"></a>Layout <code>凵</code></h3><ul>
 <li><p>0123 …</p>
   <!-- <code>凵 \`</code> -->
-<p>  <code>凵 1</code> iTerm2<br>  <code>凵 2</code> <a href="#2Do">2Do</a><br>  <code>凵 3</code> <a href="#Firefox">Firefox</a><br>  <code>凵 4</code> Chrome<br>  <code>凵 5</code> <a href="#Evernote">Evernote</a><br>  <code>凵 6</code> System Settings → General<br>  <code>凵 7</code> <a href="#Keyboard-Maestro">Keyboard Maestro</a><br>  <code>凵 8</code> <a href="#Karabiner">Karabiner</a><br>  <code>凵 9</code> <a href="#Seil">Seil</a><br>  <code>凵 0</code> System Settings → Keyboard</p>
+<p>  <code>凵 1</code> iTerm2<br>  <code>凵 2</code> <a href="#Sublime-Text">Sublime Text</a><br>  <code>凵 3</code> <a href="#Firefox">Firefox</a><br>  <code>凵 4</code> Chrome<br>  <code>凵 5</code> <a href="#2Do">2Do</a><br>  <code>凵 6</code> System Settings → Keyboard<br>  <code>凵 7</code> <a href="#Keyboard-Maestro">Keyboard Maestro</a><br>  <code>凵 8</code> <a href="#Karabiner">Karabiner</a><br>  <code>凵 9</code> <a href="#Seil">Seil</a></p>
+  <!-- `凵 0` System Settings → General -->
 </li>
 <li><p>asdf …</p>
 <p>  <code>凵 o</code> = <code>\</code><br>  <code>凵 p</code> = <code>|</code> = <code>⇧ \</code><br>  <code>凵 ;asdfghjkl</code> = <code>0~9</code></p>
@@ -4947,18 +4945,18 @@ _`⌘ ⇧ T` Go to Date_
 <li><p>qwer …</p>
 <p>  <code>⌥ q</code> <a href="#QQ">QQ</a><br>  <code>⌥ w</code> WeChat<br>  <code>⌥ e</code> <a href="#Mail">Mail</a><br>  <code>⌥ r</code> Preview<br>  <code>⌥ t</code> Thunder</p>
 <p>  <code>⌥ u</code> <a href="#Sublime-Text">Sublime Text</a><br>  <code>⌥ i</code> iTunes<br>  <em><code>⌥ o</code> OpenEmu</em><br>  <code>⌥ p</code> Postman<br>  <code>⌥ \</code> <a href="#1Password">1Password</a> ( Mini )</p>
-<p>  <em><code>⌥ ⇧ Q</code> QQMusic</em><br>  <em><code>⌥ ⇧ W</code> Word</em><br>  <em><code>⌥ ⇧ P</code> PowerPoint</em><br>  <em><code>⌥ ⇧ R</code> <a href="#VS-Code">VS Code</a></em><br>  <code>⌥ ⇧ E</code> Eject the disks<br>  <code>⌥ ⇧ I</code> Prompt the local IP address</p>
+<p>  <em><code>⌥ ⇧ Q</code> QQMusic</em><br>  <em><code>⌥ ⇧ W</code> Word</em><br>  <em><code>⌥ ⇧ P</code> PowerPoint</em><br>  <em><code>⌥ ⇧ R</code> <a href="#VS-Code">VS Code</a></em><br>  <code>⌥ ⇧ E</code> <a href="#Evernote">Evernote</a><br>  <code>⌥ ⇧ I</code> Prompt the local IP address</p>
 <p>  <em><code>^ ⌥ ⇧ E</code> Excel</em></p>
 <p>  <em><code>⌥ ]</code> Show <a href="#Bartender-2">Bartender 2</a></em><br>  <em><code>⌥ ⇧ ]</code> Show <a href="#Bartender-2">Bartender 2</a></em></p>
 </li>
 <li><p>asdf …</p>
 <p>  <code>⌥ a</code> PyCharm<br>  <code>⌥ s</code> <a href="#PhpStorm">PhpStorm</a><br>  <code>⌥ d</code> EuDic Free<br>  <code>⌥ f</code> <a href="#Finder">Finder</a><br>  <em><code>⌥ g</code> <a href="#Acrobat-Reader">Acrobat Reader</a> ( PDF )</em></p>
 <p>  <code>⌥ h</code> Photos<br>  <code>⌥ j</code> IntelliJ IDEA<br>  <code>⌥ k</code> Numi ( Calculator )<br>  <code>⌥ l</code> CLion<br>  <code>⌥ ;</code> Input the symbol <code>…</code></p>
-<p>  <code>⌥ ⇧ A</code> <a href="#Activity-Monitor">Activity Monitor</a><br>  <code>⌥ ⇧ S</code> Safari<br>  <code>⌥ ⇧ D</code> Dictionary<br>  <em><code>⌥ ⇧ F</code> Search in All Files</em><br>  <em><code>⌥ ⇧ K</code> Calculator</em><br>  <em><code>⌥ ⇧ L</code> System Settings → Launch Rocket</em></p>
+<p>  <code>⌥ ⇧ A</code> <a href="#Activity-Monitor">Activity Monitor</a><br>  <code>⌥ ⇧ S</code> Safari<br>  <code>⌥ ⇧ D</code> Dictionary<br>  <em><code>⌥ ⇧ F</code> Search in All Files</em><br>  <code>⌥ ⇧ J</code> Eject the disks<br>  <em><code>⌥ ⇧ K</code> Calculator</em><br>  <em><code>⌥ ⇧ L</code> System Settings → Launch Rocket</em></p>
 <p>  <code>^ ⌥ ⇧ A</code> App Store</p>
 </li>
 <li><p>zxcv …</p>
-<p>  <code>⌥ z</code> <a href="#Sublime-Text">Sublime Text</a><br>  <code>⌥ c</code> <a href="#Charles">Charles</a><br>  <code>⌥ v</code> <a href="#ClipMenu">ClipMenu</a> ( History Menu )<br>  <code>⌥ b</code> <a href="#MindNode">MindNode</a> ( <code>b</code> for Brainstorm )</p>
+<p>  <code>⌥ x</code> Xiami Music<br>  <code>⌥ c</code> <a href="#Charles">Charles</a><br>  <code>⌥ v</code> <a href="#ClipMenu">ClipMenu</a> ( History Menu )<br>  <code>⌥ b</code> <a href="#MindNode">MindNode</a> ( <code>b</code> for Brainstorm )</p>
 <p>  <code>⌥ n</code> <a href="#NeteaseMusic">NeteaseMusic</a><br>  <code>⌥ m</code> Messages</p>
 <p>  <code>⌥ ⇧ C</code> Calendar<br>  <code>⌥ ⇧ V</code> <a href="#ClipMenu">ClipMenu</a> ( Main Menu )<br>  <code>⌥ ⇧ B</code> System Settings → BlueTooth<br>  <code>⌥ ⇧ M</code> Send Clipboard to iPhone by Messages<br>  <code>⌥ ⇧ N</code> System Settings → Network</p>
 <p>  <code>^ ⌥ ⇧ M</code> Sequel Pro ( MySQL )</p>
@@ -5025,7 +5023,7 @@ _`⌘ ⇧ T` Go to Date_
 <p>  <code>⌘ q, ⌘ q</code> Double tap <code>⌘ q</code> to send one real keystroke <code>⌘ q</code></p>
 </li>
 <li><p>Profile</p>
-<p>  <code>Fn 1</code> Switch to the <strong>default</strong> setting profile ( without all custom key-remapping )<br>  <code>Fn 2</code> Switch to the <strong>custom</strong> setting profile<br>  <code>Fn 3</code> Switch to the <strong>custom_hhkb</strong> setting profile<br>  They’re used to toggle the custom setting profile for the guest who need to use my Mac temporarily.</p>
+<p>  <code>⌘ ⌥ ^ ⇧ 1</code> Switch to the <strong>default</strong> setting profile ( without all custom key-remapping )<br>  <code>⌘ ⌥ ^ ⇧ 2</code> Switch to the <strong>custom_mac</strong> setting profile<br>  <code>⌘ ⌥ ^ ⇧ 3</code> Switch to the <strong>custom_hhkb</strong> setting profile<br>  They’re used to toggle the custom setting profile for the guest who need to use my Mac temporarily.</p>
 </li>
 <li><p>Input Sources</p>
 <p>  Rg <code>⌥</code> = <code>⌘ 凵</code> Switch Input Source</p>
@@ -5033,9 +5031,9 @@ _`⌘ ⇧ T` Go to Date_
 </ul>
 <h3 id="Seil"><a href="#Seil" class="headerlink" title="Seil"></a><a href="https://pqrs.org/osx/karabiner/seil.html.en" target="_blank" rel="external">Seil</a></h3><ul>
 <li><p>Change Modifier-Key-Remapping</p>
-<p>  <code>`</code> → <code>⎋</code> Esc<br>  <code>⇪</code> Caps → <code>^</code> Ctrl<br>  <code>^</code> Ctrl → <code>`</code> Backquote<br>  <code>\\</code> Backslash → <code>↩</code> Return</p>
-<p>  <code>⌘</code> Rg Cmd → <code>⇧</code> Rg Shf<br>  Required:<br>  <code>System Preferences</code> → <code>Keyboards</code> → <code>Modifier Key</code> : <code>CapsLock</code> → <code>Control</code>, <code>Control</code> → <code>No Action</code><br>  App <code>Seil</code> : <code>^</code> Lf Ctrl → <code>F19</code><br>  App <code>Karabiner</code> : <code>F19</code> → <code>`</code> Backquote</p>
-<p>  <code>⇧</code> Rg Shf → Chinese Input Method<br>  <code>⇧</code> Lf Shf | <code>⌘</code> Rg Cmd | <code>⎋</code> Esc → English Input Method<br>  Required:<br>  App <code>Keyboard Maestro</code> to switch to Input Methods ( <a href="https://sspai.com/post/37962" target="_blank" rel="external">Ref</a> )<br>  App <code>Karabiner</code> set a shortcuts to trigger the operations defined in <code>Keyboard Maestro</code></p>
+<p>  <code>⇪</code> Caps → <code>^</code> Lf Ctrl<br>  <code>⌘</code> Rg Cmd →  <code>⎋</code> Esc</p>
+<p>  <code>^</code> Ctrl → to Chinese Layout ( Baidu Input Method )<br>  Required:<br>  <code>System Preferences</code> → <code>Keyboards</code> → <code>Modifier Key</code> : <code>CapsLock</code> → <code>Control</code>, <code>Control</code> → <code>No Action</code><br>  App <code>Seil</code> : <code>^</code> Lf Ctrl → <code>F19</code><br>  App <code>Karabiner</code> : <code>F19</code> → <code>⌘ ⌥ ^ ⇧ [</code><br>  App <code>Keyboard Maestro</code> : <code>⌘ ⌥ ^ ⇧ [</code> → to Chinese Layout ( <a href="https://sspai.com/post/37962" target="_blank" rel="external">Ref</a> )</p>
+<p>  <code>⇧</code> Lf &amp; Rg Shf | <code>⌘</code> Rg Cmd | <code>⎋</code> Esc → English Input Method<br>  Required:<br>  App <code>Karabiner</code> : LR<code>⇧</code> | R<code>⌘</code> | <code>⎋</code> will trigger <code>⌘ ⌥ ^ ⇧ ]</code> as well<br>  App <code>Keyboard Maestro</code> : <code>⌘ ⌥ ^ ⇧ ]</code> → to US English Layout</p>
 </li>
 </ul>
 <h2 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h2><h3 id="Mail"><a href="#Mail" class="headerlink" title="Mail"></a>Mail</h3><p><code>⌘ ⇧ N</code> Get All New Mail<br><code>⌘ ^ s</code> Get All New Mail <sup><em>custom</em></sup></p>
@@ -5114,23 +5112,22 @@ __`⌘ 3` Drafts__
 <h3 id="ClipMenu"><a href="#ClipMenu" class="headerlink" title="ClipMenu"></a><a href="http://www.clipmenu.com/" target="_blank" rel="external">ClipMenu</a></h3><p><code>⌥ v</code> History Menu<br><code>⌥ ⇧ V</code> Main Menu</p>
 <h2 id="Development"><a href="#Development" class="headerlink" title="Development"></a>Development</h2><h3 id="PhpStorm"><a href="#PhpStorm" class="headerlink" title="PhpStorm"></a><a href="https://www.jetbrains.com/phpstorm/" target="_blank" rel="external">PhpStorm</a></h3><ul>
 <li><p>Code</p>
+<p>  <code>^ ⌥ e</code> Rename <code>$variableName</code>, <code>ClassName</code>, <code>functionName</code> ( Auto rename other related code )<br>  <code>^ ⌥ t</code> Refactor This<br>  <code>^ ⌥ o</code> Optimize Imports</p>
 <p>  <code>⌘ ⌥ l</code> Reformat Code<br>  The rules for reformation can be modified in :<br>  <code>Preferences</code> → <code>Editor</code> → <code>Code Style</code> → Select the programming language.</p>
-<p>  <code>⌘ /</code> Line Comment<br>  <em><code>⌘ ⌥ /</code> Block Comment</em></p>
-<p>  <em><code>^ ⌥ h</code> Toggle Parameter Name</em><br>  <em><code>⌘ ⇧ G</code> Select All Occurrences</em><br>  <em><code>⌘ ⇧ V</code> Copy from History</em></p>
-<p>  <em><code>⌥ ↑</code> Extend Selection</em><br>  <em><code>⌥ ↓</code> Shrink Selection</em></p>
-<p>  <em><code>^ 凵</code> Auto Complete</em><br>  <em><code>⌥ ↩</code> Show Intention Actions</em><br>  <em><code>⌘ ⇧ ↩</code> Complete Current Statement</em></p>
 </li>
 </ul>
-<!--
-    `^ ⌥ e` Rename `$variableName`, `ClassName`, `functionName` ( Auto rename other related code )
-    _`^ ⌥ r` Refactor This_
--->
-<ul>
+<pre><code>`⌘ /` Line Comment
+_`⌘ ⌥ /` Block Comment_
+
+_`^ 凵` Auto Complete_
+`⌥ ↩` Show Intention Actions
+_`⌘ ⇧ ↩` Complete Current Statement_
+</code></pre><ul>
 <li><p>Debug</p>
-<p>  <code>^ ⇧ B</code> Toggle BreakPoint<br>  <code>^ ⇧ E</code> Edit BreakPoint ( Break if conditional is true)<br>  <code>^ ⇧ W</code> Add to Watches<br>  <code>^ ⌥ w</code> Add to Watches</p>
-<p>  <code>^ ⇧ D</code> Debug<br>  <code>^ ⇧ R</code> Rerun<br>  <code>^ ⇧ S</code> Stop</p>
+<p>  <code>^ ⇧ B</code> Toggle Line BreakPoint<br>  <code>^ ⇧ E</code> Edit BreakPoint ( Break if conditional is true)<br>  <code>^ ⇧ V</code> View BreakPoints<br>  <code>^ ⇧ W</code> Add to Watches<br>  <code>^ ⌥ w</code> Add to Watches</p>
+<p>  <code>^ ⇧ R</code> Run…<br>  <code>^ ⇧ A</code> Rerun<br>  <code>^ ⇧ D</code> Debug<br>  <code>^ ⇧ S</code> Stop</p>
 <p>  <code>^ ⇧ I</code> Step Into<br>  <code>^ ⇧ O</code> Step Out</p>
-<p>  <code>^ ⇧ N</code> Next BreakPoint ( Resume )<br>  <code>^ ⇧ J</code> Next Line ( Step Over )</p>
+<p>  <code>^ ⇧ N</code> Resume Program ( Next BreakPoint )<br>  <code>^ ⇧ J</code> Step Over ( Next Line )</p>
 </li>
 <li><p>File</p>
 <p>  <code>⌘ ⇧ C</code> Copy Path<br>  <em><code>⇧ ↩</code> Open in a new Editor Window</em></p>
@@ -5138,7 +5135,8 @@ __`⌘ 3` Drafts__
 <li><p>Find</p>
 <p>  <code>⌘ f</code> Find<br>  <code>⌘ ⇧ F</code> Find in Paths<br>  <code>⌘ r</code> Replace<br>  <code>⌘ ⇧ R</code> Replace in Paths</p>
 <p>  <code>^ ⌥ g</code> Toggle Regex<br>  <em><code>^ ⌥ c</code> Toggle Case Sensitive</em></p>
-<p>  <code>^ g</code> Find Usage<br>  <code>⌘ o</code> Find Class<br>  <code>⌘ ⇧ O</code> Find File<br>  <code>⌘ ⌥ o</code> Find Symbols ( Class, Files, Methods, Functions )<br>  <em><code>⇧, ⇧</code> Search (Everything) Everywhere</em></p>
+<p>  <code>^ g</code> Find Usage<br>  <code>⌘ o</code> Find Class<br>  <code>⌘ ⇧ O</code> Find File<br>  <code>⌘ ⌥ o</code> Find Symbols ( Class, Files, Methods, Functions )</p>
+  <!-- _`⇧, ⇧` Search (Everything) Everywhere_ -->
 </li>
 </ul>
 <!-- _`⌘ ⇧ A` Find Actions_ -->
@@ -5157,22 +5155,26 @@ __`⌘ 3` Drafts__
     `⌘ u` Super Class or Interface
 -->
 <ul>
+<li><p>VCS: History &amp; Compare</p>
+<p>  <code>^ ⌥ l</code> Local History -&gt; Show History<br>  <code>^ ⌥ a</code> Git -&gt; Annotate<br>  <code>^ ⌥ v</code> Git -&gt; Compare with the Same Repository Version</p>
+<p>  <em><code>^ ⌥ b</code> Git -&gt; Compare with Branch …</em><br>  <em><code>^ ⌥ .</code> Git -&gt; Compare with …</em><br>  <em><code>^ ⌥ c</code> Git -&gt; Resolve Conflicts</em></p>
+</li>
+<li><p>View</p>
+<p>  <em><code>^ ⌥ h</code> Toggle Parameter Name</em><br>  <em><code>^ ⌥ g</code> Select All Occurrences</em></p>
+  <!-- _`⌘ ⇧ V` Copy from History_ -->
+</li>
+<li><p>Select</p>
+<p>  <em><code>⌥ ↑</code> Extend Selection</em><br>  <em><code>⌥ ↓</code> Shrink Selection</em></p>
+</li>
 <li><p>Tools</p>
-<p>  <code>⌘ ^ h</code> Hide All Tool Windows<br>  <em><code>^ ⇧ q</code> Terminal</em><br>  <em><code>^ ⌥ s</code> Test RESTful Web Service</em></p>
+<p>  <code>⌘ ^ h</code> Hide All Tool Windows<br>  <em><code>^ ⌥ q</code> Terminal</em><br>  <em><code>^ ⌥ s</code> Test RESTful Web Service</em></p>
 </li>
 </ul>
 <!--
     `⌘ ⇧ ↑↓←→` Extend | Shrink Tool Window
 -->
-<ul>
-<li><p>VCS: History &amp; Compare</p>
-<p>  <code>^ ⌥ l</code> Local History -&gt; Show History<br>  <code>^ ⌥ a</code> Git -&gt; Annotate<br>  <code>^ ⌥ v</code> Git -&gt; Compare with the Same Repository Version</p>
-<p>  <em><code>^ ⌥ b</code> Git -&gt; Compare with Branch …</em><br>  <em><code>^ ⌥ .</code> Git -&gt; Compare with …</em><br>  <em><code>^ ⌥ c</code> Git -&gt; Resolve Conflicts</em></p>
-</li>
-</ul>
 <!--
 - TODO:
-    - Language Injection in `⌥ ↩`
     - Code -> Inspect Code… 语法检查等
     - Code -> Locate Duplicates
 -->
@@ -5192,6 +5194,14 @@ It is a plugin for IDEs from [JetBrains](https://www.jetbrains.com/).
 </li>
 <li><p>Ctags Like</p>
 <p>  <code>^ ]</code> Find Declaration<br>  <code>^ t</code> Back from Declaration</p>
+</li>
+<li><p>Mimic Emacs in Insert Mode:</p>
+<p>  <code>^ b</code> = <code>←</code><br>  <code>^ f</code> = <code>→</code><br>  <code>^ p</code> = <code>↑</code><br>  <code>^ n</code> = <code>↓</code></p>
+<p>  <code>^ a</code> = <code>Home</code><br>  <code>^ e</code> = <code>End</code></p>
+<p>  <code>^ k</code> Del to End of Line<br>  <code>^ u</code> Del to Head of Line<br>  <code>^ t</code> Exchange Chars ( Before &amp; After Cursor )</p>
+</li>
+<li><p>Tripple h/j/k/l to Normal Mode</p>
+<p>  <code>hhh</code> | <code>jjj</code> | <code>kkk</code> | <code>lll</code> = <code>⎋</code></p>
 </li>
 </ul>
 <h3 id="JetBrains"><a href="#JetBrains" class="headerlink" title="JetBrains"></a><a href="https://www.jetbrains.com/" target="_blank" rel="external">JetBrains</a></h3><p>The shortcuts in other IDEs from JetBrains are same as PhpStorm,<br>such as CLion , IntelliJ IDEA , RubyMine , PyCharm and so on.<br>All the shortcuts can be modified in <code>Preferences</code> → <code>Keymap</code>!</p>
@@ -5228,17 +5238,16 @@ It is a plugin for IDEs from [JetBrains](https://www.jetbrains.com/).
 </li>
 </ul>
 <!-- _`^ l` Scroll to the Selection_ -->
-<!--
-- Bookmarks
-
-    `⌘ F2` Toggle Bookmark
-    `F2` Next Bookmark
-    `⇧ F2` Prev Bookmark
-    `⌘ ⇧ F2` Clear All Bookmarks
--->
 <ul>
+<li><p>Bookmarks</p>
+<p>  <code>⌘ F2</code> Toggle Bookmark<br>  <code>F2</code> Next Bookmark<br>  <code>⇧ F2</code> Prev Bookmark<br>  <code>⌘ ⇧ F2</code> Clear All Bookmarks</p>
+</li>
 <li><p>Layout</p>
 <p>  <code>⌘ ⌥ 1~4</code> 1~4 Columns<br>  <em><code>⌘ ⌥ 5</code> Grid</em><br>  <em><code>⌘ ⌥ ⇧ 2~3</code> 2~3 Rows</em></p>
+</li>
+<li><p>Command Palette…</p>
+<p>  <code>⌘ p</code> Quick Open File<br>  <code>⌘ ⇧ P</code> Command Palette…<br>  <code>⌘ ⇧ C</code> Copy File Path</p>
+<p>  <code>^ s</code> Trim Trailing Whitespace</p>
 </li>
 </ul>
 <!--
@@ -5286,6 +5295,7 @@ It is a plugin for IDEs from [JetBrains](https://www.jetbrains.com/).
 <li><p>Tools</p>
 <p>  <code>⌘ ⇧ R</code> Repeat</p>
 <p>  <code>⌘ ⇧ D</code> DNS Spoofing Settings <sup><em>custom</em></sup><br>  <code>⌘ ⌥ m</code> Map Remote</p>
+<p>  <em><code>⌘ m</code> Compose ( Edit )</em><br>  <em><code>⌘ ⇧ M</code> Compose New</em></p>
 </li>
 </ul>
 <!--
@@ -5301,9 +5311,7 @@ It is a plugin for IDEs from [JetBrains](https://www.jetbrains.com/).
     _`⌘ ⌥ i` Mirror_
     _`⌘ ⌥ a` Rewrite_
 -->
-<pre><code>_`⌘ m` Compose ( Edit )_
-_`⌘ ⇧ M` Compose New_
-</code></pre><!--
+<!--
 ### [Dash](https://kapeli.com/dash)
 
 - Search
@@ -5349,15 +5357,14 @@ Due to the help from `tmux` and `Zsh`, I don't need much support from `iTerm` as
 
     `⌘ /` Find Cursor
 -->
-<h3 id="tmux"><a href="#tmux" class="headerlink" title="tmux"></a><a href="https://tmux.github.io/" target="_blank" rel="external">tmux</a></h3><p><code>^ q</code> Prefix Key ( aka <code>Pf</code> )<br>The description <code>Pf, *</code> implies that tap <code>Pf</code> at first and then tap the key <code>*</code>.</p>
-<p><code>Pf, ⇧ ?</code> List Keys</p>
-<p><code>Pf, d</code> Detach Client</p>
-<p><code>Pf, c</code> New Window</p>
+<h3 id="tmux"><a href="#tmux" class="headerlink" title="tmux"></a><a href="https://tmux.github.io/" target="_blank" rel="external">tmux</a></h3><p>More details in <a href="http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/tmux.1?query=tmux&amp;sec=1" target="_blank" rel="external"><strong>Official Docs</strong></a>.</p>
+<p><code>^ q</code> Prefix Key ( aka <code>Pf</code> )<br>The description <code>Pf, *</code> implies that tap <code>Pf</code> at first and then tap the key <code>*</code>.</p>
+<p><code>Pf, ⇧ ?</code> List Keys<br><code>Pf, d</code> Detach Client<br><code>Pf, c</code> New Window</p>
 <p><code>Pf, \</code> Split Window Horizontally<br><code>Pf, -</code> Split Window Vertically</p>
 <p><code>Pf, ^ y</code> Resize Pane Lf<br><code>Pf, ^ u</code> Resize Pane Dn<br><code>Pf, ^ i</code> Resize Pane Up<br><code>Pf, ^ o</code> Resize Pane Rg</p>
 <p><code>Pf, h</code> Select Lf Pane<br><code>Pf, j</code> Select Dn Pane<br><code>Pf, k</code> Select Up Pane<br><code>Pf, l</code> Select Rg Pane</p>
 <p><code>Pf, ↑</code> Maximize Current Pane in New Window<br><code>Pf, ↓</code> Put Current Pane back to its Parent Window</p>
-<p><code>Pf, [</code> Use Vim-like keys to copy str at Copy Mode</p>
+<p><code>Pf, [</code> Use Vim-like keys to copy str at Copy Mode<br>In Copy Mode:<br><code>v</code> Begin Selection<br><code>y</code> Copy Selection<br><code>u</code> Copy Selection &amp; Exit Copy Mode<br><code>⇧ L</code> Copy Line ( &amp; Exit Copy Mode )</p>
 <!--
     - Help
 
@@ -5421,9 +5428,6 @@ Due to the help from `tmux` and `Zsh`, I don't need much support from `iTerm` as
 
         `Pf r` Reload ~/.tmux.conf
 -->
-<ul>
-<li>More details in <a href="http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/tmux.1?query=tmux&amp;sec=1" target="_blank" rel="external"><strong>Official Docs</strong></a>.</li>
-</ul>
 <h3 id="Vim"><a href="#Vim" class="headerlink" title="Vim"></a><a href="http://www.vim.org/" target="_blank" rel="external">Vim</a></h3><p>Only list the useful keys that I’m unfamiliar with here.</p>
 <ul>
 <li><p>Mv Cursor</p>
@@ -5519,7 +5523,7 @@ Due to the help from `tmux` and `Zsh`, I don't need much support from `iTerm` as
 <p>  <code>⇧ ~</code> Toggle Case &amp; Mv Cursor to Next char<br>  <code>u</code> to Lowercase<br>  <code>⇧ U</code> to Uppercase</p>
 </li>
 <li><p>Increase or Decrease Num</p>
-<p>  <code>^ a</code> Increase Num<br>  <code>^ x</code> Decrease Num</p>
+<p>  In Normal Mode:<br>  <code>^ a</code> Increase Num<br>  <code>^ x</code> Decrease Num</p>
 </li>
 <li><p>Macro</p>
 <p>  <code>q a~z|A~Z</code> Start Recording Macro marked as <code>a~z|A~Z</code><br>  <code>q</code> Stop Recording<br>  <code>@ a~z|A~Z</code> Play Macro marked as <code>a~z|A~Z</code><br>  <code>@@</code> Repeat Macro that you last used</p>
@@ -5542,8 +5546,17 @@ Due to the help from `tmux` and `Zsh`, I don't need much support from `iTerm` as
 <li><p>CTags ( plugin )</p>
 <p>  <code>^ ]</code> Find Declaration<br>  <code>^ t</code> Back from Declaration</p>
 </li>
-<li><p>I used to use the Vim Distribution <a href="http://vim.spf13.com/" target="_blank" rel="external"><del>spf13-vim</del></a>.</p>
+<li><p>Mimic Emacs in Insert Mode</p>
+<p>  <code>^ b</code> = <code>←</code><br>  <code>^ f</code> = <code>→</code><br>  <code>^ p</code> = <code>↑</code><br>  <code>^ n</code> = <code>↓</code></p>
+<p>  <code>^ a</code> = <code>Home</code><br>  <code>^ e</code> = <code>End</code></p>
+<p>  <code>^ k</code> Del to End of Line<br>  <code>^ u</code> Del to Head of Line<br>  <code>^ t</code> Exchange Chars ( Before &amp; After Cursor )</p>
 </li>
+<li><p>Tripple h/j/k/l to Normal Mode</p>
+<p>  <code>hhh</code> | <code>jjj</code> | <code>kkk</code> | <code>lll</code> = <code>⎋</code></p>
+</li>
+</ul>
+<ul>
+<li>I used to use the Vim Distribution <a href="http://vim.spf13.com/" target="_blank" rel="external"><del>spf13-vim</del></a>.</li>
 <li><a href="http://coolshell.cn//wp-content/uploads/2011/09/vim_cheat_sheet_for_programmers_print.png" target="_blank" rel="external">Vim Cheat Sheet</a> - Image</li>
 <li>More details in <a href="http://www.vim.org/docs.php" target="_blank" rel="external"><strong>Official Docs</strong></a>.</li>
 <li>TODO: I will write another article for Vim and will move the content above about Vim to it._</li>
@@ -5850,6 +5863,7 @@ __`⌘ ⇧ 2` Translate Selection__
 __`⌘ l` Dislike__
 __`⌘ r` Show | Hide Lyrics__
 -->
+<h3 id="ShadowsocksX-NG"><a href="#ShadowsocksX-NG" class="headerlink" title="ShadowsocksX-NG"></a><a href="https://github.com/shadowsocks/ShadowsocksX-NG" target="_blank" rel="external">ShadowsocksX-NG</a></h3><p><code>^ ⌥ ⇧ P</code> Toggle Shadowsocks On / Off<br><code>^ ⌥ p</code> Toggle Proxy Mode: Auto PAC / Global</p>
 ]]></content>
     
     <summary type="html">
@@ -6161,7 +6175,7 @@ __`⌘ r` Show | Hide Lyrics__
     <link href="http://icehe.me/tools/"/>
     <id>http://icehe.me/tools/</id>
     <published>2015-11-20T16:00:00.000Z</published>
-    <updated>2017-04-28T16:00:00.000Z</updated>
+    <updated>2017-05-12T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>君子生非异也，善假于物也。</p>
 <p><strong>荀子</strong></p>
@@ -6350,6 +6364,7 @@ __`⌘ r` Show | Hide Lyrics__
 <hr>
 <ul>
 <li>编辑器<br>  其实可以完全用 Vim 来编辑文本文件（在终端中）。<ul>
+<li><a href="http://www.sublimetext.com/" target="_blank" rel="external"><strong>Sublime Text</strong></a> <sup>Fastest</sup><br>  代码编辑器，我用其替代 TextEdit 作为默认的文本编辑器。Vintage 模式，可用 Vim 键位进行操作。冷启动快如闪电！</li>
 <li><a href="https://code.visualstudio.com/" target="_blank" rel="external"><strong>VS Code</strong></a> <sup>Best</sup><ul>
 <li>发展至今，足以取代 Sublime Text 的优秀轻量级代码编辑器。</li>
 <li>内置 Git 管理、终端、调试框架，齐全、足量的优秀插件，配置选项完备，使用稳定顺手……</li>
@@ -6357,8 +6372,6 @@ __`⌘ r` Show | Hide Lyrics__
 <li>缺点：打开大文件的稳定性、速度和冷启动速度，不如 Sublime Text。</li>
 </ul>
 </li>
-<li><a href="http://www.sublimetext.com/" target="_blank" rel="external"><strong>Sublime Text</strong></a> <sup>Fastest</sup><br>  代码编辑器，我用其替代 TextEdit 作为默认的文本编辑器。Vintage 模式，可用 Vim 键位进行操作。冷启动快如闪电！（最大的优点）</li>
-<li><a href="https://atom.io/" target="_blank" rel="external"><strong><del>Atom</del></strong></a> <sup>Modern</sup><br>  相当现代的代码编辑器，体验一流，但是冷启动慢，不如 Sublime Text。</li>
 <li><a href="http://www.typora.io" target="_blank" rel="external"><strong><del>Typora</del></strong></a> <sup>Elegant</sup><br>  Markdown 编辑器，所见即所得。国人制作，完全免费，支持 Mac、Windows！<br>  （除了写博文，我很少真的需要预览 Markdown 内容的实际显示效果，所以用一般编辑器即可。）</li>
 </ul>
 </li>
@@ -6681,9 +6694,8 @@ __`⌘ r` Show | Hide Lyrics__
 <li>可以用 <a href="https://m.weibo.cn/beta" target="_blank" rel="external">Weibo H5 Beta 版</a>，有正常的时间序，轻度使用体验拔群！</li>
 </ul>
 </li>
-<li><a href="https://itunes.apple.com/us/app/fen-da-zhi-fu-fei-yu-yin-wen/id1114450317?mt=8" target="_blank" rel="external"><del>分答</del></a> - 音频问答平台。一分钟音频能承载的信息量还是差点意思。</li>
 <li><a href="https://www.ruguoapp.com/" target="_blank" rel="external"><strong><del>即刻</del></strong></a> - 关注感兴趣的主题，收到量身定制的更新推送。很不错。</li>
-<li><a href="https://itunes.apple.com/us/app/wan-dou-jia-yi-lan-zai-yi/id1003672393?mt=8" target="_blank" rel="external"><strong><del>豌豆荚一览</del></strong></a> - 资讯类 Apps 内容汇总。</li>
+<li><a href="https://itunes.apple.com/us/app/wan-dou-jia-yi-lan-zai-yi/id1003672393?mt=8" target="_blank" rel="external"><strong><del>青芒阅读</del></strong></a> - 资讯类 Apps 内容汇总。</li>
 </ul>
 </li>
 </ul>
@@ -6779,23 +6791,32 @@ __`⌘ r` Show | Hide Lyrics__
 <li>Ref : <a href="http://wsgzao.github.io/post/windows/" target="_blank" rel="external">Windows常用软件推荐</a></li>
 </ul>
 <h2 id="硬件"><a href="#硬件" class="headerlink" title="硬件"></a>硬件</h2><p>以下附带部分个人测评（使用感受）。</p>
-<h3 id="笔记本电脑"><a href="#笔记本电脑" class="headerlink" title="笔记本电脑"></a>笔记本电脑</h3><ul>
+<h3 id="电脑-amp-外设"><a href="#电脑-amp-外设" class="headerlink" title="电脑 &amp; 外设"></a>电脑 &amp; 外设</h3><ul>
 <li><a href="http://www.apple.com/cn/shop/buy-mac/macbook-pro?product=MF841CH/A&amp;step=config" target="_blank" rel="external"><strong>MacBook Pro Retina 13-inch</strong></a> <sup>Favorite</sup><br>  i7 - 3.1 GHz / Mem 16 GB / SSD 512 GB ，Mac 是软件工程师的最佳工作平台！<br>  Unix-like，稳定、省心。用好了 Windows，才了无牵挂地换了 Mac。<ul>
-<li><a href="http://www.apple.com/cn/shop/product/MLA22CH/A/magic-keyboard?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2" target="_blank" rel="external"><strong>Magic Keyboard</strong></a> - 键盘<br>  （第二代）小巧轻便。Mac 的键盘布局紧凑合理，手用更小幅度的移动就能触及所有按键，省力。<ul>
-<li>可能你会觉得敲起来手感「绵软」，但是作为「键盘党」的我，快捷键很多而且用得频繁，就觉得使用它很舒适、省力、安静。</li>
-<li><a href="http://baike.baidu.com/view/1748635.htm" target="_blank" rel="external">键程</a> 不会太长或太短，不需要用力按下，有舒适的反馈感（个人感觉），用久了手也不容易疲劳，特别是小指；而且敲击按键的声音小，不容易打扰到别人。</li>
-<li>使用蓝牙 4.0 无线连接，功耗低 —— 没有连接线，这点简直是洁癖和强迫症的福音；内置电池，Lightning 接口充电，一次充电能够续航三周以上，省心。</li>
-</ul>
-</li>
 <li><a href="http://www.apple.com/cn/shop/product/MJ2R2CH/A/magic-trackpad-2?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2" target="_blank" rel="external"><strong>Magic Trackpad 2</strong></a> - 触摸板<br>  Macbook 自带触摸板的手感已经非常好了，但它还要更胜一筹！第二代比第一代触摸面积大了不少，有三段式压感反馈，手感细腻。<ul>
-<li>还是嫌它大了点，因为我的 Mac 光标移动速度向来调到最快，基本一次小幅度滑动，光标就到位了，不需要太大的触控面积。</li>
+<li>还是嫌它大了点，因为我的 Mac 光标移动速度向来调到最快，基本一次小幅度滑动，光标就到位了，不需要太大的触控面积。基本不玩 PC 游戏，所以完全改用触摸板。</li>
 </ul>
 </li>
 <li><a href="http://www.samsung.com/cn/memory-storage/pssd-mu-pt/MU-PT500BCN/" target="_blank" rel="external"><strong>SAMSUNG Portable SSD T3 500GB</strong></a> - 便携 SSD<br>  用这个便携固态硬盘当作备份盘确实有点奢侈……</li>
 </ul>
 </li>
 </ul>
+<h4 id="键盘"><a href="#键盘" class="headerlink" title="键盘"></a>键盘</h4><ul>
+<li><a href="http://www.apple.com/cn/shop/product/MLA22CH/A/magic-keyboard?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2" target="_blank" rel="external"><strong>Magic Keyboard</strong></a> - 蓝牙键盘<br>  （第二代）小巧轻便。Mac 的键盘布局紧凑合理，手用更小幅度的移动就能触及所有按键，省力。<ul>
+<li>可能你会觉得敲起来手感「绵软」，但是作为「键盘党」的我，快捷键很多而且用得频繁，就觉得使用它很舒适、省力、安静。</li>
+<li><a href="http://baike.baidu.com/view/1748635.htm" target="_blank" rel="external">键程</a> 不会太长或太短，不需要用力按下，有舒适的反馈感（个人感觉），用久了手也不容易疲劳，特别是小指；而且敲击按键的声音小，不容易打扰到别人。</li>
+<li>使用蓝牙 4.0 无线连接，功耗低 —— 没有连接线，这点简直是洁癖和强迫症的福音；内置电池，Lightning 接口充电，一次充电能够续航三周以上，省心。</li>
+</ul>
+</li>
+<li><a href="https://www.amazon.cn/PFU-Happy-Hacking-Keyboard-Professional-JP-%E6%97%A5%E6%9C%AC%E8%AA%9E%E9%85%8D%E5%88%97-%E5%A2%A8-USB%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89-%E9%9D%99%E9%9B%BB%E5%AE%B9%E9%87%8F%E7%84%A1%E6%8E%A5%E7%82%B9-N%E3%82%AD%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%AB%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-PD-KB420B/dp/B001KWJTD6/ref=sr_1_2?ie=UTF8&amp;qid=1494650201&amp;sr=8-2&amp;keywords=hhkb+jp" target="_blank" rel="external"><strong>PFU HHKB Professional JP</strong></a> - 静电容键盘<br>  黑色，有刻印（按键上印有键位说明），日文键盘布局。<ul>
+<li>果然还是按耐不住好奇心，买了一把机械键盘（严格来说静电容键盘不是机械键盘）来尝试。</li>
+<li>「<a href="https://www.amazon.cn/PFU-Happy-Hacking-Keyboard-Professional2-%E5%A2%A8-%E7%84%A1%E5%88%BB%E5%8D%B0-%E8%8B%B1%E8%AA%9E%E9%85%8D%E5%88%97-USB%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89-%E9%9D%99%E9%9B%BB%E5%AE%B9%E9%87%8F%E7%84%A1%E6%8E%A5%E7%82%B9-UNIX%E9%85%8D%E5%88%97-WINDOWS-MAC%E4%B8%A1%E5%AF%BE%E5%BF%9C-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-PD-KB400BN/dp/B000F8OECM/ref=sr_1_2?ie=UTF8&amp;qid=1494650270&amp;sr=8-2&amp;keywords=hhkb" target="_blank" rel="external">HHKB Pro 2</a>」系列 60 键 US 布局精简至极，看起来精致小巧、赏心悦目「逼格满满」啊！但是我这个快捷键党为了改键的需求，最终选择了按键更多、布局奇特的日本版。</li>
+<li>为了无痛切换 HHKB JP 和 Mac 键盘而同时修改两者的布局，其键位功能基本一致，并吸收了 60% 键盘的特点：如数字键 1 左侧的 Backquote 键换成了 Esc 键等。</li>
+</ul>
+</li>
+</ul>
 <h3 id="手机"><a href="#手机" class="headerlink" title="手机"></a>手机</h3><ul>
+<li><strong>iPhone 8</strong> <sup><em>wish!</em></sup></li>
 <li><a href="http://www.apple.com/cn/shop/buy-iphone/iphone-7" target="_blank" rel="external"><strong>iPhone 7 Black</strong></a> <sup>Favorite</sup><br>  128GB + <a href="http://www.apple.com/cn/shop/product/MMW82FE/A/iphone-7-%E7%A1%85%E8%83%B6%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E9%BB%91%E8%89%B2?fnode=99" target="_blank" rel="external"><strong>Red Silicone Case</strong></a> ，闪电般流畅，稳定省心；小巧称手，单手操作高效、舒适。<ul>
 <li>笔记、记账、GTD、阅读、通讯… 随身的效率工具，我一定买最好的。</li>
 <li>哑光黑很 Geek！强迫症的我受不了娇贵易损的亮黑。</li>
@@ -6833,7 +6854,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 <h3 id="耳机"><a href="#耳机" class="headerlink" title="耳机"></a>耳机</h3><ul>
 <li><a href="https://www.bose.cn/zh_cn/products/headphones/earphones/quietcontrol-30.html#v=qc30_black" target="_blank" rel="external"><strong>Bose QC30</strong></a> <sup><em>wish!</em></sup><br>  无线蓝牙连接，充电 &lt;3h，续航 10h；消噪程度可控，分多级。<br>  续航时间比 QC20 短，不能像 QC20 那样一键切换「消噪」和「接收外部声音」两个状态，比较麻烦。</li>
-<li><a href="http://www.bose.cn/product.aspx?cid=1418#1418" target="_blank" rel="external"><strong>Bose QC20</strong></a> <sup>Favorite, Best</sup><br>  <a href="https://www.bose.com/en_us/products/headphones/earphones/quietcomfort-20i-acoustic-noise-cancelling-headphones.html#v=qc20_apple_white" target="_blank" rel="external">QuietComfort® 20 Acoustic Noise Cancelling® headphones — Apple devices</a><ul>
+<li><a href="http://www.bose.cn/product.aspx?cid=1418#1418" target="_blank" rel="external"><strong>Bose QC20</strong></a> <sup>Favorite, Best</sup><br>  <a href="https://www.bose.com/en_us/products/headphones/earphones/quietcomfort-20i-acoustic-noise-cancelling-headphones.html#v=qc20_apple_white" target="_blank" rel="external">QuietComfort® 20 Acoustic Noise Cancelling®headphones — Apple devices</a><ul>
 <li>目前市面上我所知的最好的降噪耳塞。主动降噪，耳塞发出一种波与有规律的噪音相消。</li>
 <li>可「一键切换」是否隔绝周围环境的噪音；降噪后，可用更小的音量使用耳塞，声音更清晰。</li>
 <li>人声不能完全隔绝，但其音量会变得很小；主动降噪时，再稍微播放音乐或白噪音，即可在很大程度上隔绝外部噪音。它帮助我在嘈杂的办公室也能在静谧、专注地做事。虽然它贵，但花得值！</li>
@@ -6849,7 +6870,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 </li>
 </ul>
-<h3 id="健康"><a href="#健康" class="headerlink" title="健康"></a>健康</h3><ul>
+<h3 id="护牙"><a href="#护牙" class="headerlink" title="护牙"></a>护牙</h3><ul>
 <li>牙刷<ul>
 <li><a href="https://www.amazon.com/Philips-Sonicare-DiamondClean-Rechargeable-HX9332/dp/B0052JN7XG/ref=sr_1_1_a_it?ie=UTF8&amp;qid=1468933357&amp;sr=8-1&amp;keywords=hx9332" target="_blank" rel="external"><strong>Philips Sonicare DiamondClean Sonic Electric Rechargeable Toothbrush</strong></a> <sup>Favorite</sup><br>  Model HX9331/04, White，声波式电动牙刷，确实比手动刷干净多了！（<a href="https://www.amazon.cn/Philips-%E9%A3%9E%E5%88%A9%E6%B5%A6-HX9332-04%E9%92%BB%E7%9F%B3%E4%BA%AE%E7%99%BD%E5%9E%8B%E5%A3%B0%E6%B3%A2%E9%9C%87%E5%8A%A8%E7%89%99%E5%88%B7/dp/B007ZY5GV2/ref=sr_1_6?ie=UTF8&amp;qid=1468507397&amp;sr=8-6&amp;keywords=philips+diamondclean" target="_blank" rel="external">亚马逊中国</a>）<ul>
 <li><a href="https://www.zhihu.com/question/19825877/answer/15856166" target="_blank" rel="external">电动牙刷刷牙相比手动刷牙有什么优缺点？</a></li>
@@ -6894,9 +6915,8 @@ __`⌘ r` Show | Hide Lyrics__
 <li>打惯 3U 的球拍，一开始不适应，感觉它偏轻、没“手感”。挥拍扣杀时，感觉球拍不够重，惯性不够大，出力不足。但移动、挥拍、救球、回球来更快更灵活，省腕力，长时间打球省体力。</li>
 </ul>
 </li>
-<li><a href="https://item.taobao.com/item.htm?id=534360854337&amp;_u=cuv5jet2aca" target="_blank" rel="external"><strong>Mizuno WAVE SMASH LO 白</strong></a> - 羽球鞋<ul>
-<li>旧：<a href="https://item.taobao.com/item.htm?spm=a1z09.2.0.0.H4Rwq7&amp;id=14324807794&amp;_u=euv5jet879d" target="_blank" rel="external"><strong><del>YONEX 65FT 白 JP 版</del></strong></a> <sup><em>已穿坏…</em></sup><br>终于买了双像样的羽球鞋，为的是运动时能更舒适、灵活地移动，保护脚趾、脚掌、脚踝、膝盖。</li>
-<li>快速移动、跳跃后，脚跟落地，能明显感受到它的抗震性很好。</li>
+<li><a href="https://item.taobao.com/item.htm?id=534360854337&amp;_u=cuv5jet2aca" target="_blank" rel="external"><strong>Mizuno WAVE SMASH LO 白</strong></a> - 羽球鞋<br>  美津浓的鞋比尤尼克斯的更柔软舒适，特别对我这种经常跑动刹车的人来说没那么顶脚趾。<ul>
+<li>旧：<a href="https://item.taobao.com/item.htm?spm=a1z09.2.0.0.H4Rwq7&amp;id=14324807794&amp;_u=euv5jet879d" target="_blank" rel="external"><strong><del>YONEX 65FT 白 JP 版</del></strong></a> <sup><em>已穿坏…</em></sup><br>买一双像样的羽球鞋，是为了运动时能更舒适、灵活地移动，保护脚趾、脚掌、脚踝、膝盖。<br>快速移动、跳跃后，脚跟落地，能明显感受到它的抗震性很好。</li>
 </ul>
 </li>
 <li><a href="https://item.taobao.com/item.htm?spm=a1z09.2.0.0.CoCGMf&amp;id=37144559361&amp;_u=puv5jet55e6" target="_blank" rel="external"><strong>YONEX 16201 训练服</strong></a> - 运动服<br>  VC 面料，透汗、速干；Made in Japan 原版，高性价比。纯白色 &amp; 纯黑色，各一件。</li>
