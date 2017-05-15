@@ -3802,7 +3802,10 @@ img.fix_height {
 <li><a href="/cmd/git_note">My Git Note</a></li>
 <li><a href="http://coolshell.cn//wp-content/uploads/2011/09/vim_cheat_sheet_for_programmers_print.png" target="_blank" rel="external">Vim Cheat Sheet</a> - Vim 键位操作总结图</li>
 <li><a href="http://www.phptherightway.com/" target="_blank" rel="external">PHP The Right Way</a> <sup><em>todo</em></sup></li>
-<li><a href="http://www.php.net/manual/en/types.comparisons.php" target="_blank" rel="external">PHP Types Comparison</a> - PHP 变量比较结果参考</li>
+<li><a href="http://www.php.net/manual/en/types.comparisons.php" target="_blank" rel="external">PHP Type Comparisons</a> - PHP 变量比较结果参考<ul>
+<li>注意：官方文档的表格依然有错，建议 <a href="/php/determine_variable/#代码实验">用代码来进行实验</a>。</li>
+</ul>
+</li>
 <li><a href="https://developer.apple.com/library/mac/navigation/" target="_blank" rel="external">Mac Developer Library</a> -&gt; <a href="https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html" target="_blank" rel="external">AppleScript Language Guide</a></li>
 <li><a href="http://www.cheatography.com/david/cheat-sheets/object-oriented-design/" target="_blank" rel="external">Object Oriented Design</a> ( Cheat Sheet )</li>
 </ul>
@@ -4678,7 +4681,7 @@ img.fix_height {
     <link href="http://icehe.me/mac_shortcuts/"/>
     <id>http://icehe.me/mac_shortcuts/</id>
     <published>2016-01-05T16:00:00.000Z</published>
-    <updated>2017-05-13T16:00:00.000Z</updated>
+    <updated>2017-05-14T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>天下武功，唯快不破。</p>
 </blockquote>
@@ -5032,8 +5035,8 @@ _`⌘ ⇧ T` Go to Date_
 <h3 id="Seil"><a href="#Seil" class="headerlink" title="Seil"></a><a href="https://pqrs.org/osx/karabiner/seil.html.en" target="_blank" rel="external">Seil</a></h3><ul>
 <li><p>Change Modifier-Key-Remapping</p>
 <p>  <code>⇪</code> Caps → <code>^</code> Lf Ctrl<br>  <code>⌘</code> Rg Cmd →  <code>⎋</code> Esc</p>
-<p>  <code>^</code> Ctrl → to Chinese Layout ( Baidu Input Method )<br>  Required:<br>  <code>System Preferences</code> → <code>Keyboards</code> → <code>Modifier Key</code> : <code>CapsLock</code> → <code>Control</code>, <code>Control</code> → <code>No Action</code><br>  App <code>Seil</code> : <code>^</code> Lf Ctrl → <code>F19</code><br>  App <code>Karabiner</code> : <code>F19</code> → <code>⌘ ⌥ ^ ⇧ [</code><br>  App <code>Keyboard Maestro</code> : <code>⌘ ⌥ ^ ⇧ [</code> → to Chinese Layout ( <a href="https://sspai.com/post/37962" target="_blank" rel="external">Ref</a> )</p>
-<p>  <code>⇧</code> Lf &amp; Rg Shf | <code>⌘</code> Rg Cmd | <code>⎋</code> Esc → English Input Method<br>  Required:<br>  App <code>Karabiner</code> : LR<code>⇧</code> | R<code>⌘</code> | <code>⎋</code> will trigger <code>⌘ ⌥ ^ ⇧ ]</code> as well<br>  App <code>Keyboard Maestro</code> : <code>⌘ ⌥ ^ ⇧ ]</code> → to US English Layout</p>
+<p>  <code>^</code> Ctrl → to Chinese Layout ( Baidu Input Method )<br>  Required:<br>  <code>System Preferences</code> → <code>Keyboards</code> → <code>Modifier Key</code> : <code>CapsLock</code> → <code>Control</code>, <code>Control</code> → <code>No Action</code><br>  App <code>Seil</code> : <code>^</code> Lf Ctrl → <code>F19</code><br>  App <code>Karabiner</code> : <code>F19</code> → <code>F17</code><br>  App <code>Keyboard Maestro</code> : <code>F17</code> → to Chinese Layout ( <a href="https://sspai.com/post/37962" target="_blank" rel="external">Ref</a> )</p>
+<p>  <code>⇧</code> Lf &amp; Rg Shf | <code>⌘</code> Rg Cmd | <code>⎋</code> Esc → English Input Method<br>  Required:<br>  App <code>Karabiner</code> : LR<code>⇧</code> | R<code>⌘</code> | <code>⎋</code> will trigger <code>F18</code> as well<br>  App <code>Keyboard Maestro</code> : <code>F18</code> → to US English Layout</p>
 </li>
 </ul>
 <h2 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h2><h3 id="Mail"><a href="#Mail" class="headerlink" title="Mail"></a>Mail</h3><p><code>⌘ ⇧ N</code> Get All New Mail<br><code>⌘ ^ s</code> Get All New Mail <sup><em>custom</em></sup></p>
@@ -5111,18 +5114,19 @@ __`⌘ 3` Drafts__
 -->
 <h3 id="ClipMenu"><a href="#ClipMenu" class="headerlink" title="ClipMenu"></a><a href="http://www.clipmenu.com/" target="_blank" rel="external">ClipMenu</a></h3><p><code>⌥ v</code> History Menu<br><code>⌥ ⇧ V</code> Main Menu</p>
 <h2 id="Development"><a href="#Development" class="headerlink" title="Development"></a>Development</h2><h3 id="PhpStorm"><a href="#PhpStorm" class="headerlink" title="PhpStorm"></a><a href="https://www.jetbrains.com/phpstorm/" target="_blank" rel="external">PhpStorm</a></h3><ul>
-<li><p>Code</p>
-<p>  <code>^ ⌥ e</code> Rename <code>$variableName</code>, <code>ClassName</code>, <code>functionName</code> ( Auto rename other related code )<br>  <code>^ ⌥ t</code> Refactor This<br>  <code>^ ⌥ o</code> Optimize Imports</p>
-<p>  <code>⌘ ⌥ l</code> Reformat Code<br>  The rules for reformation can be modified in :<br>  <code>Preferences</code> → <code>Editor</code> → <code>Code Style</code> → Select the programming language.</p>
+<li><p>References</p>
+<p>  Quick Guide : <code>PhpStorm</code> → <code>Help</code> → <code>Keymap Reference</code><br>  Advance Settings : <code>PhpStorm</code> → <code>Preferences…</code> → <code>Keymap</code></p>
 </li>
-</ul>
-<pre><code>`⌘ /` Line Comment
-_`⌘ ⌥ /` Block Comment_
-
-_`^ 凵` Auto Complete_
-`⌥ ↩` Show Intention Actions
-_`⌘ ⇧ ↩` Complete Current Statement_
-</code></pre><ul>
+<li><p>Refactor</p>
+<p>  <code>^ ⌥ t</code> Refactor This<br>  <code>^ ⌥ o</code> Optimize Imports</p>
+<p>  <code>⌘ ⌥ l</code> Reformat Code<br>  The rules for reformation can be modified in :<br>  <code>Preferences</code> → <code>Editor</code> → <code>Code Style</code> → Select the programming language.</p>
+<p>  <code>F5</code> Copy File<br>  <code>F6</code> Move File<br>  <code>⌘ ⌥ e</code> Rename <code>$variableName</code>, <code>ClassName</code>, <code>functionName</code> ( Auto rename other related code )<br>  <code>⌘ ⌥ n</code> Inline Variable<br>  <code>⌘ ⌥ m</code> Extract Method<br>  <code>⌘ ⌥ v</code> Extract Variable<br>  <code>⌘ ⌥ F</code> Extract Field<br>  <code>⌘ ⌥ c</code> Extract Constant</p>
+</li>
+<li><p>Code</p>
+<p>  <code>⌘ /</code> Line Comment<br>  <em><code>⌘ ⌥ /</code> Block Comment</em></p>
+<p>  <code>⌘ j</code> Insert Live Template<br>  <em><code>^ 凵</code> Auto Complete</em><br>  <code>⌥ ↩</code> Show Intention Actions<br>  <em><code>⌘ ⇧ ↩</code> Complete Current Statement</em></p>
+<p>  <code>F2</code> Next Highlighted Error<br>  <code>⇧ F2</code> Prev Highlighted Error</p>
+</li>
 <li><p>Debug</p>
 <p>  <code>^ ⇧ B</code> Toggle Line BreakPoint<br>  <code>^ ⇧ E</code> Edit BreakPoint ( Break if conditional is true)<br>  <code>^ ⇧ V</code> View BreakPoints<br>  <code>^ ⇧ W</code> Add to Watches<br>  <code>^ ⌥ w</code> Add to Watches</p>
 <p>  <code>^ ⇧ R</code> Run…<br>  <code>^ ⇧ A</code> Rerun<br>  <code>^ ⇧ D</code> Debug<br>  <code>^ ⇧ S</code> Stop</p>
@@ -5133,7 +5137,7 @@ _`⌘ ⇧ ↩` Complete Current Statement_
 <p>  <code>⌘ ⇧ C</code> Copy Path<br>  <em><code>⇧ ↩</code> Open in a new Editor Window</em></p>
 </li>
 <li><p>Find</p>
-<p>  <code>⌘ f</code> Find<br>  <code>⌘ ⇧ F</code> Find in Paths<br>  <code>⌘ r</code> Replace<br>  <code>⌘ ⇧ R</code> Replace in Paths</p>
+<p>  <code>⌘ f</code> Find<br>  <code>⌘ ⇧ F</code> Find in Paths<br>  <code>⌘ r</code> Replace<br>  <code>⌘ ⇧ R</code> Replace in Paths<br>  <code>⌘ g</code> Find Next<br>  <code>⌘ ⇧ G</code> Find Prev</p>
 <p>  <code>^ ⌥ g</code> Toggle Regex<br>  <em><code>^ ⌥ c</code> Toggle Case Sensitive</em></p>
 <p>  <code>^ g</code> Find Usage<br>  <code>⌘ o</code> Find Class<br>  <code>⌘ ⇧ O</code> Find File<br>  <code>⌘ ⌥ o</code> Find Symbols ( Class, Files, Methods, Functions )</p>
   <!-- _`⇧, ⇧` Search (Everything) Everywhere_ -->
@@ -5142,9 +5146,9 @@ _`⌘ ⇧ ↩` Complete Current Statement_
 <!-- _`⌘ ⇧ A` Find Actions_ -->
 <ul>
 <li><p>Navigate</p>
+<p>  <code>⌥ F1</code> Select current file or symbol in any view</p>
 <p>  <code>⌘ e</code> Recent Files<br>  <code>⌘ ⇧ E</code> Recently Edited Files</p>
 <p>  <code>⌘ ⇧ T</code> Test Subject : Jump to Test for current file | Create Test for it<br>  <em><code>⌘ ↑</code> Navigation Bar</em></p>
-<p>  <code>F2</code> Next Highlighted Error<br>  <code>⇧ F2</code> Prev Highlighted Error</p>
 <p>  <code>⌘ 1~9</code> Jump to the specified Tool Window | Hide it<br>  <code>⌘ 1</code> Project<br>  <em><code>⌘ 2</code> Favorites ( Projects, Bookmarks, Breakpoints )</em><br>  <code>⌘ 3</code> Find<br>  <code>⌘ 4</code> Debug<br>  …<br>  <em><code>⌘ 9</code> Version Control</em></p>
 </li>
 </ul>
@@ -5156,6 +5160,7 @@ _`⌘ ⇧ ↩` Complete Current Statement_
 -->
 <ul>
 <li><p>VCS: History &amp; Compare</p>
+<p>  <code>^ v</code> ‘VCS’ Operations Quick Popup<br>  <code>⌘ k</code> Commit Project to VCS<br>  <code>⌘ t</code> Update Porject from VCS</p>
 <p>  <code>^ ⌥ l</code> Local History -&gt; Show History<br>  <code>^ ⌥ a</code> Git -&gt; Annotate<br>  <code>^ ⌥ v</code> Git -&gt; Compare with the Same Repository Version</p>
 <p>  <em><code>^ ⌥ b</code> Git -&gt; Compare with Branch …</em><br>  <em><code>^ ⌥ .</code> Git -&gt; Compare with …</em><br>  <em><code>^ ⌥ c</code> Git -&gt; Resolve Conflicts</em></p>
 </li>
@@ -5199,6 +5204,11 @@ It is a plugin for IDEs from [JetBrains](https://www.jetbrains.com/).
 <p>  <code>^ b</code> = <code>←</code><br>  <code>^ f</code> = <code>→</code><br>  <code>^ p</code> = <code>↑</code><br>  <code>^ n</code> = <code>↓</code></p>
 <p>  <code>^ a</code> = <code>Home</code><br>  <code>^ e</code> = <code>End</code></p>
 <p>  <code>^ k</code> Del to End of Line<br>  <code>^ u</code> Del to Head of Line<br>  <code>^ t</code> Exchange Chars ( Before &amp; After Cursor )</p>
+</li>
+<li><p>Vim-Surround</p>
+<p>  <code>ds*</code> Delete Surround<br>  such as <code>ds&#39;</code> <code>ds&quot;</code> <code>ds[</code> <code>ds{</code> <code>ds`</code> <code>dst</code> ( <code>t</code> for HTML Tag ) …</p>
+<p>  <code>ys**</code> Add Surround :<br>  1st <code>*</code> for Postion ( Start or Stop )<br>  2rd <code>*</code> for Surround Char (or HTML Tag)<br>  such as <code>yse&#39;</code> <code>ysW&quot;</code> <code>ysfb[</code> <code>ysTh{</code> …</p>
+<p>  <code>cs**</code> Change Surround<br>  1st <code>*</code> for Current Surround Char<br>  2rd <code>*</code> for New Surround Char<br>  such as <code>cs&#39;&quot;</code> <code>cs[{</code> <code>cst&lt;p&gt;</code>…</p>
 </li>
 <li><p>Tripple h/j/k/l to Normal Mode</p>
 <p>  <code>hhh</code> | <code>jjj</code> | <code>kkk</code> | <code>lll</code> = <code>⎋</code></p>
@@ -5568,7 +5578,15 @@ Due to the help from `tmux` and `Zsh`, I don't need much support from `iTerm` as
 <p>  <code>^ w</code> Del Word<br>  <code>^ k</code> Del to End of Line<br>  <code>^ u</code> Del Line</p>
 <p>  <em><code>^ p</code> = <code>↑</code> Prev | Up</em><br>  <em><code>^ n</code> = <code>↓</code> Next | Dn</em></p>
 <p>  <em><code>^ f</code> Mv Cursor Rg</em> ( I use <code>Fn l</code> instead. )<br>  <em><code>^ b</code> Mv Cursor Lf</em> ( I use <code>Fn h</code> instead. )</p>
-<p>  <em><code>^ h</code> Del Backward ⌫</em> ( I used to use <code>⌫</code>. )<br>  <em><code>^ d</code> Del Forward ⌦</em> ( seldom used )</p>
+<p>  <code>^ h</code> Del Backward ⌫ ( I used to use <code>⌫</code>. )<br>  <code>^ d</code> Del Forward ⌦ ( seldom used )</p>
+<p>  <code>^ l</code> Clear Screen</p>
+</li>
+<li><p>Extra</p>
+<p>  <code>^ _</code> Undo<br>  <em><code>^ y</code> Yank</em></p>
+<p>  <code>⎋</code>, <code>f</code> Forward Word<br>  <code>⎋</code>, <code>b</code> Backward Word</p>
+<p>  <code>⎋</code>, <code>h</code> Run Help for current Cmd<br>  <em><code>⎋</code>, <code>&#39;</code> Quote Line</em></p>
+<p>  <em><code>⎋</code>, <code>q</code> Push Line</em><br>  <em><code>⎋</code>, <code>g</code> Get Line</em></p>
+<p>  <code>^ x</code>, <code>a</code> Expand Alias<br>  <code>^ x</code>, <code>^ v</code> Vi Cmd Mode<br>  <code>^ x</code>, <code>^ e</code> Edit Command Line in Vim<br>  <em><code>^ x</code>, <code>^ b</code> Vi Macth Bracket</em></p>
 </li>
 <li><p>Aliases</p>
 <ul>
