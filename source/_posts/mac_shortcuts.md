@@ -1,6 +1,6 @@
 title: Mac 快捷键
 date: 2016-01-06
-updated: 2017-05-14
+updated: 2017-05-15
 categories: [Mac]
 tags: [Mac]
 description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
@@ -651,13 +651,13 @@ Changes not only the shortcuts but also the keyboard key-remappings!
     Required:
     `System Preferences` → `Keyboards` → `Modifier Key` : `CapsLock` → `Control`, `Control` → `No Action`
     App `Seil` : `^` Lf Ctrl → `F19`
-    App `Karabiner` : `F19` → `⌘ ⌥ ^ ⇧ [`
-    App `Keyboard Maestro` : `⌘ ⌥ ^ ⇧ [` → to Chinese Layout ( [Ref](https://sspai.com/post/37962) )
+    App `Karabiner` : `F19` → `F17`
+    App `Keyboard Maestro` : `F17` → to Chinese Layout ( [Ref](https://sspai.com/post/37962) )
 
     `⇧` Lf & Rg Shf | `⌘` Rg Cmd | `⎋` Esc → English Input Method
     Required:
-    App `Karabiner` : LR`⇧` | R`⌘` | `⎋` will trigger `⌘ ⌥ ^ ⇧ ]` as well
-    App `Keyboard Maestro` : `⌘ ⌥ ^ ⇧ ]` → to US English Layout
+    App `Karabiner` : LR`⇧` | R`⌘` | `⎋` will trigger `F18` as well
+    App `Keyboard Maestro` : `F18` → to US English Layout
 
 ## Contact
 
@@ -773,9 +773,13 @@ They can be used in WeChat as well.
 
 ### [PhpStorm](https://www.jetbrains.com/phpstorm/)
 
-- Code
+- References
 
-    `^ ⌥ e` Rename `$variableName`, `ClassName`, `functionName` ( Auto rename other related code )
+    Quick Guide : `PhpStorm` → `Help` → `Keymap Reference`
+    Advance Settings : `PhpStorm` → `Preferences…` → `Keymap`
+
+- Refactor
+
     `^ ⌥ t` Refactor This
     `^ ⌥ o` Optimize Imports
 
@@ -783,13 +787,27 @@ They can be used in WeChat as well.
     The rules for reformation can be modified in :
     `Preferences` → `Editor` → `Code Style` → Select the programming language.
 
+    `F5` Copy File
+    `F6` Move File
+    `⌘ ⌥ e` Rename `$variableName`, `ClassName`, `functionName` ( Auto rename other related code )
+    `⌘ ⌥ n` Inline Variable
+    `⌘ ⌥ m` Extract Method
+    `⌘ ⌥ v` Extract Variable
+    `⌘ ⌥ F` Extract Field
+    `⌘ ⌥ c` Extract Constant
+
+- Code
 
     `⌘ /` Line Comment
     _`⌘ ⌥ /` Block Comment_
 
+    `⌘ j` Insert Live Template
     _`^ 凵` Auto Complete_
     `⌥ ↩` Show Intention Actions
     _`⌘ ⇧ ↩` Complete Current Statement_
+
+    `F2` Next Highlighted Error
+    `⇧ F2` Prev Highlighted Error
 
 - Debug
 
@@ -821,6 +839,8 @@ They can be used in WeChat as well.
     `⌘ ⇧ F` Find in Paths
     `⌘ r` Replace
     `⌘ ⇧ R` Replace in Paths
+    `⌘ g` Find Next
+    `⌘ ⇧ G` Find Prev
 
     `^ ⌥ g` Toggle Regex
     _`^ ⌥ c` Toggle Case Sensitive_
@@ -829,20 +849,20 @@ They can be used in WeChat as well.
     `⌘ o` Find Class
     `⌘ ⇧ O` Find File
     `⌘ ⌥ o` Find Symbols ( Class, Files, Methods, Functions )
+
     <!-- _`⇧, ⇧` Search (Everything) Everywhere_ -->
 
 <!-- _`⌘ ⇧ A` Find Actions_ -->
 
 - Navigate
 
+    `⌥ F1` Select current file or symbol in any view
+
     `⌘ e` Recent Files
     `⌘ ⇧ E` Recently Edited Files
 
     `⌘ ⇧ T` Test Subject : Jump to Test for current file | Create Test for it
     _`⌘ ↑` Navigation Bar_
-
-    `F2` Next Highlighted Error
-    `⇧ F2` Prev Highlighted Error
 
     `⌘ 1~9` Jump to the specified Tool Window | Hide it
     `⌘ 1` Project
@@ -860,6 +880,10 @@ They can be used in WeChat as well.
 -->
 
 - VCS: History & Compare
+
+    `^ v` 'VCS' Operations Quick Popup
+    `⌘ k` Commit Project to VCS
+    `⌘ t` Update Porject from VCS
 
     `^ ⌥ l` Local History -> Show History
     `^ ⌥ a` Git -> Annotate
@@ -934,6 +958,21 @@ Its most keys are the same as Vim, so I just list my custom keys.
     `^ k` Del to End of Line
     `^ u` Del to Head of Line
     `^ t` Exchange Chars ( Before & After Cursor )
+
+- Vim-Surround
+
+    `ds*` Delete Surround
+    such as `ds'` `ds"` `ds[` `ds{` <code>ds\`</code> `dst` ( `t` for HTML Tag ) …
+
+    `ys**` Add Surround :
+    1st `*` for Postion ( Start or Stop )
+    2rd `*` for Surround Char (or HTML Tag)
+    such as `yse'` `ysW"` `ysfb[` `ysTh{` …
+
+    `cs**` Change Surround
+    1st `*` for Current Surround Char
+    2rd `*` for New Surround Char
+    such as `cs'"` `cs[{` `cst<p>`…
 
 - Tripple h/j/k/l to Normal Mode
 
@@ -1448,8 +1487,29 @@ Only list the useful keys that I’m unfamiliar with here.
     _`^ f` Mv Cursor Rg_ ( I use `Fn l` instead. )
     _`^ b` Mv Cursor Lf_ ( I use `Fn h` instead. )
 
-    _`^ h` Del Backward ⌫_ ( I used to use `⌫`. )
-    _`^ d` Del Forward ⌦_ ( seldom used )
+    `^ h` Del Backward ⌫ ( I used to use `⌫`. )
+    `^ d` Del Forward ⌦ ( seldom used )
+
+    `^ l` Clear Screen
+
+- Extra
+
+    `^ _` Undo
+    _`^ y` Yank_
+
+    `⎋`, `f` Forward Word
+    `⎋`, `b` Backward Word
+
+    `⎋`, `h` Run Help for current Cmd
+    _`⎋`, `'` Quote Line_
+
+    _`⎋`, `q` Push Line_
+    _`⎋`, `g` Get Line_
+
+    `^ x`, `a` Expand Alias
+    `^ x`, `^ v` Vi Cmd Mode
+    `^ x`, `^ e` Edit Command Line in Vim
+    _`^ x`, `^ b` Vi Macth Bracket_
 
 - Aliases
 
