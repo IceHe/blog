@@ -1,6 +1,6 @@
 title: Mac 快捷键
 date: 2016-01-06
-updated: 2017-05-15
+updated: 2017-05-16
 categories: [Mac]
 tags: [Mac]
 description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
@@ -881,9 +881,9 @@ They can be used in WeChat as well.
 
 - VCS: History & Compare
 
-    `^ v` 'VCS' Operations Quick Popup
     `⌘ k` Commit Project to VCS
     `⌘ t` Update Porject from VCS
+    `⌘ ⌥ v` 'VCS' Operations Quick Popup
 
     `^ ⌥ l` Local History -> Show History
     `^ ⌥ a` Git -> Annotate
