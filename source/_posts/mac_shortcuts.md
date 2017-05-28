@@ -1,6 +1,6 @@
 title: Mac 快捷键
 date: 2016-01-06
-updated: 2017-05-16
+updated: 2017-05-27
 categories: [Mac]
 tags: [Mac]
 description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
@@ -801,13 +801,17 @@ They can be used in WeChat as well.
     `⌘ /` Line Comment
     _`⌘ ⌥ /` Block Comment_
 
+    _`⌥ ↑` Extend Selection_
+    _`⌥ ↓` Shrink Selection_
+
     `⌘ j` Insert Live Template
     _`^ 凵` Auto Complete_
     `⌥ ↩` Show Intention Actions
     _`⌘ ⇧ ↩` Complete Current Statement_
 
-    `F2` Next Highlighted Error
-    `⇧ F2` Prev Highlighted Error
+    _`^ ⌥ h` Toggle Parameter Name_
+    _`^ ⌥ g` Select All Occurrences_
+    <!-- _`⌘ ⇧ V` Copy from History_ -->
 
 - Debug
 
@@ -831,6 +835,7 @@ They can be used in WeChat as well.
 - File
 
     `⌘ ⇧ C` Copy Path
+    `^ ⌥ r` Copy Reference ( `File:Line` | `Class::method()` )
     _`⇧ ↩` Open in a new Editor Window_
 
 - Find
@@ -858,6 +863,9 @@ They can be used in WeChat as well.
 
     `⌥ F1` Select current file or symbol in any view
 
+    `⌘ j` Next Method
+    `⌘ k` Prev Method
+
     `⌘ e` Recent Files
     `⌘ ⇧ E` Recently Edited Files
 
@@ -872,6 +880,14 @@ They can be used in WeChat as well.
     …
     _`⌘ 9` Version Control_
 
+    `F2` Next Highlighted Error
+    `⇧ F2` Prev Highlighted Error
+
+    `^ m` Toggle Bookmark
+    `^ ⌥ m` View Bookmarks
+    `^ ⌥ j` Next Bookmark
+    `^ ⌥ k` Prev Bookmark
+
 <!--
     `⌘ 6` Todo
     `⌘ 7` Structure
@@ -881,9 +897,9 @@ They can be used in WeChat as well.
 
 - VCS: History & Compare
 
-    `⌘ k` Commit Project to VCS
     `⌘ t` Update Porject from VCS
-    `⌘ ⌥ v` 'VCS' Operations Quick Popup
+    `^ ⇧ C` Commit Project to VCS
+    `⌘ ⌥ g` 'VCS' Operations Quick Popup
 
     `^ ⌥ l` Local History -> Show History
     `^ ⌥ a` Git -> Annotate
@@ -892,17 +908,6 @@ They can be used in WeChat as well.
     _`^ ⌥ b` Git -> Compare with Branch …_
     _`^ ⌥ .` Git -> Compare with …_
     _`^ ⌥ c` Git -> Resolve Conflicts_
-
-- View
-
-    _`^ ⌥ h` Toggle Parameter Name_
-    _`^ ⌥ g` Select All Occurrences_
-    <!-- _`⌘ ⇧ V` Copy from History_ -->
-
-- Select
-
-    _`⌥ ↑` Extend Selection_
-    _`⌥ ↓` Shrink Selection_
 
 - Tools
 
