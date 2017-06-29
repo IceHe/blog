@@ -13,6 +13,16 @@
 
 
 
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
 
 
 
@@ -65,7 +75,7 @@
   
     
     
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.css.network/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
   
 
 
@@ -75,7 +85,7 @@
 
 <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
   <meta name="keywords" content="Mac," />
@@ -89,7 +99,7 @@
 
 
 
-  <link rel="shortcut icon" type="image/x-icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon_h.ico?v=5.1.0" />
+  <link rel="shortcut icon" type="image/x-icon" href="http://7vzp68.com1.z0.glb.clouddn.com/common/favicon_h.ico?v=5.1.1" />
 
 
 
@@ -97,12 +107,13 @@
 
 
 <meta name="description" content="macOS Shortcuts&amp;#58; 我的 macOS 快捷键列表。">
+<meta name="keywords" content="Mac">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Mac 快捷键">
 <meta property="og:url" content="http://icehe.me/mac_shortcuts/index.html">
 <meta property="og:site_name" content="Ice He">
 <meta property="og:description" content="macOS Shortcuts&amp;#58; 我的 macOS 快捷键列表。">
-<meta property="og:updated_time" content="2017-05-14T16:00:00.000Z">
+<meta property="og:updated_time" content="2017-05-26T16:00:00.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Mac 快捷键">
 <meta name="twitter:description" content="macOS Shortcuts&amp;#58; 我的 macOS 快捷键列表。">
@@ -114,7 +125,7 @@
   var CONFIG = {
     root: '/',
     scheme: 'Mist',
-    sidebar: {"display":"always","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    sidebar: {"display":"always","offset":12,"offset_float":0,"b2t":false,"scrollpercent":true},
     fancybox: true,
     motion: true,
     duoshuo: {
@@ -139,11 +150,7 @@
 
 
 
-  <title> Mac 快捷键 | Ice He </title>
-</head>
-
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
-
+  <title>Mac 快捷键 | Ice He</title>
   
 
 
@@ -178,6 +185,10 @@
 
 
 
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
   
   
 
@@ -197,7 +208,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">More is in vain when less will serve.</p>
+        <h1 class="site-subtitle" itemprop="description">More is in vain when less will serve.</h1>
       
   </div>
 
@@ -274,7 +285,7 @@
       <i class="fa fa-times-circle"></i>
     </span>
     <div class="local-search-input-wrapper">
-      <input autocapitalize="off" autocomplete="off" autocorrect="off"
+      <input autocomplete="off"
              placeholder="搜索..." spellcheck="false"
              type="text" id="local-search-input">
     </div>
@@ -294,6 +305,7 @@
     .hidden { display: none; }
     .no_underline { border-bottom: 0; }
     .white { color: white; }
+    .pace .pace-progress { background: black; } // for Progress Bar
 </style>
 
  </div>
@@ -332,14 +344,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                Mac 快捷键
-              
-            
-          </h1>
+          <h2 class="post-title" itemprop="name headline">Mac 快捷键</h2>
         
 
         <div class="post-meta">
@@ -349,8 +354,8 @@
                 <i class="fa fa-refresh"></i>
               </span>
               
-              <time title="创建于" itemprop="dateModified" datetime="2017-05-15T00:00:00+08:00">
-                2017 May 15
+              <time title="创建于" itemprop="dateModified" datetime="2017-05-27T00:00:00+08:00">
+                2017-05-27
               </time>
             
 
@@ -364,7 +369,7 @@
               </span>
               
               <time title="更新于" itemprop="dateCreated datePublished" datetime="2016-01-06T00:00:00+08:00">
-                2016 Jan 06
+                2016-01-06
             
           </span>
 
@@ -392,6 +397,27 @@
           
 
           
+            <div class="post-wordcount">
+              
+                
+                  <span class="post-meta-divider">|</span>
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-text-o"></i>
+                </span>
+                
+                <span title="字数">
+                  3,961 字
+                </span>
+              
+
+              
+
+              
+            </div>
+          
+
+          
           
             <span id="/mac_shortcuts/" class="hidden leancloud_visitors" data-flag-title="Mac 快捷键">
               <span class="post-meta-divider">|</span>
@@ -401,8 +427,6 @@
               
               <span class="leancloud-visitors-count" title="阅读次数"></span>
             </span>
-          
-
           
 
           
@@ -866,8 +890,10 @@ __`⌘ 3` Drafts__
 </li>
 <li><p>Code</p>
 <p>  <code>⌘ /</code> Line Comment<br>  <em><code>⌘ ⌥ /</code> Block Comment</em></p>
+<p>  <em><code>⌥ ↑</code> Extend Selection</em><br>  <em><code>⌥ ↓</code> Shrink Selection</em></p>
 <p>  <code>⌘ j</code> Insert Live Template<br>  <em><code>^ 凵</code> Auto Complete</em><br>  <code>⌥ ↩</code> Show Intention Actions<br>  <em><code>⌘ ⇧ ↩</code> Complete Current Statement</em></p>
-<p>  <code>F2</code> Next Highlighted Error<br>  <code>⇧ F2</code> Prev Highlighted Error</p>
+<p>  <em><code>^ ⌥ h</code> Toggle Parameter Name</em><br>  <em><code>^ ⌥ g</code> Select All Occurrences</em></p>
+  <!-- _`⌘ ⇧ V` Copy from History_ -->
 </li>
 <li><p>Debug</p>
 <p>  <code>^ ⇧ B</code> Toggle Line BreakPoint<br>  <code>^ ⇧ E</code> Edit BreakPoint ( Break if conditional is true)<br>  <code>^ ⇧ V</code> View BreakPoints<br>  <code>^ ⇧ W</code> Add to Watches<br>  <code>^ ⌥ w</code> Add to Watches</p>
@@ -876,7 +902,7 @@ __`⌘ 3` Drafts__
 <p>  <code>^ ⇧ N</code> Resume Program ( Next BreakPoint )<br>  <code>^ ⇧ J</code> Step Over ( Next Line )</p>
 </li>
 <li><p>File</p>
-<p>  <code>⌘ ⇧ C</code> Copy Path<br>  <em><code>⇧ ↩</code> Open in a new Editor Window</em></p>
+<p>  <code>⌘ ⇧ C</code> Copy Path<br>  <code>^ ⌥ r</code> Copy Reference ( <code>File:Line</code> | <code>Class::method()</code> )<br>  <em><code>⇧ ↩</code> Open in a new Editor Window</em></p>
 </li>
 <li><p>Find</p>
 <p>  <code>⌘ f</code> Find<br>  <code>⌘ ⇧ F</code> Find in Paths<br>  <code>⌘ r</code> Replace<br>  <code>⌘ ⇧ R</code> Replace in Paths<br>  <code>⌘ g</code> Find Next<br>  <code>⌘ ⇧ G</code> Find Prev</p>
@@ -889,9 +915,12 @@ __`⌘ 3` Drafts__
 <ul>
 <li><p>Navigate</p>
 <p>  <code>⌥ F1</code> Select current file or symbol in any view</p>
+<p>  <code>⌘ j</code> Next Method<br>  <code>⌘ k</code> Prev Method</p>
 <p>  <code>⌘ e</code> Recent Files<br>  <code>⌘ ⇧ E</code> Recently Edited Files</p>
 <p>  <code>⌘ ⇧ T</code> Test Subject : Jump to Test for current file | Create Test for it<br>  <em><code>⌘ ↑</code> Navigation Bar</em></p>
 <p>  <code>⌘ 1~9</code> Jump to the specified Tool Window | Hide it<br>  <code>⌘ 1</code> Project<br>  <em><code>⌘ 2</code> Favorites ( Projects, Bookmarks, Breakpoints )</em><br>  <code>⌘ 3</code> Find<br>  <code>⌘ 4</code> Debug<br>  …<br>  <em><code>⌘ 9</code> Version Control</em></p>
+<p>  <code>F2</code> Next Highlighted Error<br>  <code>⇧ F2</code> Prev Highlighted Error</p>
+<p>  <code>^ m</code> Toggle Bookmark<br>  <code>^ ⌥ m</code> View Bookmarks<br>  <code>^ ⌥ j</code> Next Bookmark<br>  <code>^ ⌥ k</code> Prev Bookmark</p>
 </li>
 </ul>
 <!--
@@ -902,16 +931,9 @@ __`⌘ 3` Drafts__
 -->
 <ul>
 <li><p>VCS: History &amp; Compare</p>
-<p>  <code>^ v</code> ‘VCS’ Operations Quick Popup<br>  <code>⌘ k</code> Commit Project to VCS<br>  <code>⌘ t</code> Update Porject from VCS</p>
+<p>  <code>⌘ t</code> Update Porject from VCS<br>  <code>^ ⇧ C</code> Commit Project to VCS<br>  <code>⌘ ⌥ g</code> ‘VCS’ Operations Quick Popup</p>
 <p>  <code>^ ⌥ l</code> Local History -&gt; Show History<br>  <code>^ ⌥ a</code> Git -&gt; Annotate<br>  <code>^ ⌥ v</code> Git -&gt; Compare with the Same Repository Version</p>
 <p>  <em><code>^ ⌥ b</code> Git -&gt; Compare with Branch …</em><br>  <em><code>^ ⌥ .</code> Git -&gt; Compare with …</em><br>  <em><code>^ ⌥ c</code> Git -&gt; Resolve Conflicts</em></p>
-</li>
-<li><p>View</p>
-<p>  <em><code>^ ⌥ h</code> Toggle Parameter Name</em><br>  <em><code>^ ⌥ g</code> Select All Occurrences</em></p>
-  <!-- _`⌘ ⇧ V` Copy from History_ -->
-</li>
-<li><p>Select</p>
-<p>  <em><code>⌥ ↑</code> Extend Selection</em><br>  <em><code>⌥ ↓</code> Shrink Selection</em></p>
 </li>
 <li><p>Tools</p>
 <p>  <code>⌘ ^ h</code> Hide All Tool Windows<br>  <em><code>^ ⌥ q</code> Terminal</em><br>  <em><code>^ ⌥ s</code> Test RESTful Web Service</em></p>
@@ -1645,6 +1667,21 @@ __`⌘ r` Show | Hide Lyrics__
     <div>
       
         
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+      <strong>本文作者：</strong>
+      Ice He
+    </li>
+    <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="http://icehe.me/mac_shortcuts/" title="Mac 快捷键">http://icehe.me/mac_shortcuts/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong>
+      本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+
 
       
     </div>
@@ -1659,7 +1696,17 @@ __`⌘ r` Show | Hide Lyrics__
       
 
       
+      
+        <div class="post-widgets">
         
+          <div class="wp_rating">
+            <div id="wpac-rating"></div>
+          </div>
+        
+
+        
+        </div>
+      
       
 
       
@@ -1800,7 +1847,7 @@ __`⌘ r` Show | Hide Lyrics__
           <p class="site-author-name" itemprop="name">Ice He</p>
           -->
           
-              <p class="site-description motion-element white" itemprop="description">Less.</p>
+              <p class="site-description motion-element white" itemprop="description"></p>
           
         </div>
         </a>
@@ -1933,6 +1980,8 @@ __`⌘ r` Show | Hide Lyrics__
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
         
+          <span id="scrollpercent"><span>0</span>%</span>
+        
       </div>
     
 
@@ -1989,25 +2038,25 @@ __`⌘ r` Show | Hide Lyrics__
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
-
-
-
-  
-  
-
-  
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
 
 
 
   
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
 
 
 
@@ -2077,126 +2126,317 @@ __`⌘ r` Show | Hide Lyrics__
   <script type="text/javascript">
     // Popup Window;
     var isfetched = false;
+    var isXml = true;
     // Search DB path;
     var search_path = "search.xml";
-    if (search_path.length == 0) {
+    if (search_path.length === 0) {
       search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
     }
     var path = "/" + search_path;
     // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
 
     function proceedsearch() {
       $("body")
         .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
         .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
       $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
     }
+
     // search function;
     var searchFunc = function(path, search_id, content_id) {
       'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
       $.ajax({
         url: path,
-        dataType: "xml",
+        dataType: isXml ? "xml" : "json",
         async: true,
-        success: function( xmlResponse ) {
+        success: function(res) {
           // get the contents from search data
           isfetched = true;
           $('.popup').detach().appendTo('.header-inner');
-          var datas = $( "entry", xmlResponse ).map(function() {
+          var datas = isXml ? $("entry", res).map(function() {
             return {
-              title: $( "title", this ).text(),
+              title: $("title", this).text(),
               content: $("content",this).text(),
-              url: $( "url" , this).text()
+              url: $("url" , this).text()
             };
-          }).get();
-          var $input = document.getElementById(search_id);
-          var $resultContent = document.getElementById(content_id);
-          $input.addEventListener('input', function(){
-            var matchcounts = 0;
-            var str='<ul class=\"search-result-list\">';
-            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
-            $resultContent.innerHTML = "";
-            if (this.value.trim().length > 1) {
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
               // perform local searching
               datas.forEach(function(data) {
                 var isMatch = false;
-                var content_index = [];
-                var data_title = data.title.trim().toLowerCase();
-                var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
-                var data_url = decodeURIComponent(data.url);
-                var index_title = -1;
-                var index_content = -1;
-                var first_occur = -1;
-                // only match artiles with not empty titles and contents
-                if(data_title != '') {
-                  keywords.forEach(function(keyword, i) {
-                    index_title = data_title.indexOf(keyword);
-                    index_content = data_content.indexOf(keyword);
-                    if( index_title >= 0 || index_content >= 0 ){
-                      isMatch = true;
-                      if (i == 0) {
-                        first_occur = index_content;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
                       }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
                     }
 
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
                   });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
                 }
+
                 // show search results
+
                 if (isMatch) {
-                  matchcounts += 1;
-                  str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
-                  var content = data.content.trim().replace(/<[^>]+>/g,"");
-                  if (first_occur >= 0) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
                     // cut out 100 characters
-                    var start = first_occur - 20;
-                    var end = first_occur + 80;
+                    var start = position - 20;
+                    var end = position + 80;
                     if(start < 0){
                       start = 0;
                     }
-                    if(start == 0){
-                      end = 50;
+                    if (end < position + word.length) {
+                      end = position + word.length;
                     }
                     if(end > content.length){
                       end = content.length;
                     }
-                    var match_content = content.substring(start, end);
-                    // highlight all keywords
-                    keywords.forEach(function(keyword){
-                      var regS = new RegExp(keyword, "gi");
-                      match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
-                    });
-
-                    str += "<p class=\"search-result\">" + match_content +"...</p>"
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
                   }
-                  str += "</li>";
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
                 }
-              })};
-            str += "</ul>";
-            if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
-            if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
-            $resultContent.innerHTML = str;
-          });
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
           proceedsearch();
         }
-      });}
+      });
+    }
 
     // handle and trigger popup window;
     $('.popup-trigger').click(function(e) {
       e.stopPropagation();
-      if (isfetched == false) {
+      if (isfetched === false) {
         searchFunc(path, 'local-search-input', 'local-search-result');
       } else {
         proceedsearch();
       };
     });
 
-    $('.popup-btn-close').click(function(e){
-      $('.popup').hide();
-      $(".local-search-pop-overlay").remove();
-      $('body').css('overflow', '');
-    });
+    $('.popup-btn-close').click(onPopupClose);
     $('.popup').click(function(e){
       e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
     });
   </script>
 
@@ -2441,10 +2681,29 @@ __`⌘ r` Show | Hide Lyrics__
 
 
   
+  <script type="text/javascript">
+  wpac_init = window.wpac_init || [];
+  wpac_init.push({widget: 'Rating', id: 6036,
+    el: 'wpac-rating',
+    color: 'fc6423'
+  });
+  (function() {
+    if ('WIDGETPACK_LOADED' in window) return;
+    WIDGETPACK_LOADED = true;
+    var mc = document.createElement('script');
+    mc.type = 'text/javascript';
+    mc.async = true;
+    mc.src = '//embed.widgetpack.com/widget.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+  })();
+  </script>
+
 
   
-  <script type="text/javascript" src="/js/src/js.cookie.js?v=5.1.0"></script>
-  <script type="text/javascript" src="/js/src/scroll-cookie.js?v=5.1.0"></script>
+
+  
+  <script type="text/javascript" src="/js/src/js.cookie.js?v=5.1.1"></script>
+  <script type="text/javascript" src="/js/src/scroll-cookie.js?v=5.1.1"></script>
 
 
   
