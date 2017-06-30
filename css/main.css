@@ -1530,38 +1530,6 @@ pre .javascript .function {
 .post-wordcount {
   display: inline-block;
 }
-.post-widgets {
-  border-top: 1px solid #eee;
-  padding-top: 9px;
-  margin-top: 45px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-}
-.wp_rating {
-  height: 20px;
-  margin-right: 10px;
-  text-align: center;
-  line-height: 20px;
-  padding-top: 6px;
-}
-.social-like {
-  font-size: 14px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-.vk_like {
-  width: 85px;
-  height: 21px;
-  padding-top: 7px;
-  align-self: center;
-}
-.fb_like {
-  height: 30px;
-  align-self: center;
-}
 .sidebar {
   position: fixed;
   right: 0;
@@ -1719,7 +1687,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a7dd7a;
+  background: #14861b;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2260,6 +2228,13 @@ pre .javascript .function {
 .page-pv .busuanzi-value {
   margin: 0 5px;
 }
+.site-uv {
+  margin-right: 10px;
+}
+.site-uv::after {
+  content: "|";
+  padding-left: 10px;
+}
 .use-motion .post {
   opacity: 0;
 }
@@ -2709,7 +2684,7 @@ hr {
   background: #ccc;
 }
 .posts-expand .post-nav {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .post-button {
   margin-top: 20px;
