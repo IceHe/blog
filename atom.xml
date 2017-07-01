@@ -272,7 +272,7 @@
     
     <summary type="html">
     
-      Macro &amp; Bit Operations &amp;#58; 思考题与知识点。
+      Macro &amp; Bit Operations&amp;#58; 思考题与知识点。
     
     </summary>
     
@@ -291,17 +291,14 @@
     <updated>2017-04-22T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
-<li>参考：<ul>
-<li>学习教程《<a href="http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000" target="_blank" rel="external">廖学峰的 Python 教程</a>》</li>
+<li>内容：<ul>
+<li>《<a href="http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000" target="_blank" rel="external">廖学峰的 Python 教程</a>》笔记的再整理；</li>
+<li>本文由一些简单的说明、Python3 代码及其运行结果组成。</li>
 </ul>
 </li>
 <li>定位：<ul>
 <li>查阅自己的笔记来回忆遗忘的 Python3 用法（因为我不常用 Python）；</li>
 <li>让不会 Python3 但已经学会其它编程语言的人，在阅读本文后，可以简单上手使用它。</li>
-</ul>
-</li>
-<li>内容：<ul>
-<li>本文由一些简单的说明、Python3 代码及其运行结果组成。</li>
 </ul>
 </li>
 <li>工具：<ul>
@@ -1173,7 +1170,7 @@ TypeError: &apos;str&apos; object is not an iterator
     
     <summary type="html">
     
-      廖雪峰《Python 教程》笔记的再整理，主要是代码样例与运行结果。目标：让有编程基础的人，通过简单参阅本文，即可快速上手使用 Python3 的基本特性。
+      目标：让有编程基础的人，通过简单参阅本文，即可快速上手使用 Python3 的基本特性。
     
     </summary>
     
@@ -6188,7 +6185,7 @@ __`⌘ r` Show | Hide Lyrics__
     <link href="http://icehe.me/tools/"/>
     <id>http://icehe.me/tools/</id>
     <published>2015-11-20T16:00:00.000Z</published>
-    <updated>2017-05-12T16:00:00.000Z</updated>
+    <updated>2017-06-30T16:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>君子生非异也，善假于物也。</p>
 <p><strong>荀子</strong></p>
@@ -6811,6 +6808,7 @@ __`⌘ r` Show | Hide Lyrics__
 </ul>
 </li>
 <li><a href="http://www.samsung.com/cn/memory-storage/pssd-mu-pt/MU-PT500BCN/" target="_blank" rel="external"><strong>SAMSUNG Portable SSD T3 500GB</strong></a> - 便携 SSD<br>  用这个便携固态硬盘当作备份盘确实有点奢侈……</li>
+<li><a href="https://www.amazon.cn/gp/product/B013WQWCEA/ref=oh_aui_detailpage_o01_s00?ie=UTF8&amp;psc=1" target="_blank" rel="external"><strong>Sabrent USB 3 Universal Docking Station</strong></a> - 拓展邬<br>  TODO：待体验。</li>
 </ul>
 </li>
 </ul>
@@ -6825,6 +6823,7 @@ __`⌘ r` Show | Hide Lyrics__
 <li>果然还是按耐不住好奇心，买了一把机械键盘（严格来说静电容键盘不是机械键盘）来尝试。</li>
 <li>「<a href="https://www.amazon.cn/PFU-Happy-Hacking-Keyboard-Professional2-%E5%A2%A8-%E7%84%A1%E5%88%BB%E5%8D%B0-%E8%8B%B1%E8%AA%9E%E9%85%8D%E5%88%97-USB%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89-%E9%9D%99%E9%9B%BB%E5%AE%B9%E9%87%8F%E7%84%A1%E6%8E%A5%E7%82%B9-UNIX%E9%85%8D%E5%88%97-WINDOWS-MAC%E4%B8%A1%E5%AF%BE%E5%BF%9C-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-PD-KB400BN/dp/B000F8OECM/ref=sr_1_2?ie=UTF8&amp;qid=1494650270&amp;sr=8-2&amp;keywords=hhkb" target="_blank" rel="external">HHKB Pro 2</a>」系列 60 键 US 布局精简至极，看起来精致小巧、赏心悦目「逼格满满」啊！但是我这个快捷键党为了改键的需求，最终选择了按键更多、布局奇特的日本版。</li>
 <li>为了无痛切换 HHKB JP 和 Mac 键盘而同时修改两者的布局，其键位功能基本一致，并吸收了 60% 键盘的特点：如数字键 1 左侧的 Backquote 键换成了 Esc 键等。</li>
+<li>其它：觉得键盘还是该配腕托，不然每天敲键盘的时间太长很累。还有该配桌垫，不然我手臂瘦没有肉，放在桌子上特别搁到手肘。</li>
 </ul>
 </li>
 </ul>

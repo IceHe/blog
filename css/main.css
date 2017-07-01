@@ -916,7 +916,7 @@ pre .javascript .function {
   }
 }
 .comments {
-  margin: 0 20px 0;
+  margin: 35px 20px 0;
 }
 .tag-cloud {
   text-align: center;
@@ -1521,7 +1521,7 @@ pre .javascript .function {
   border: none;
 }
 .post-copyright {
-  margin: 2em 0 0;
+  margin: 5em 0 0;
   padding: 0.5em 1em;
   border-left: 3px solid #ff1700;
   background-color: #f9f9f9;
@@ -1614,7 +1614,7 @@ pre .javascript .function {
   font-weight: normal;
 }
 .site-description {
-  margin-top: 5px;
+  margin-top: 0;
   text-align: center;
   font-size: 14px;
   color: #999;
@@ -1648,8 +1648,8 @@ pre .javascript .function {
   color: inherit;
 }
 .feed-link {
-  margin-top: 0px;
-  margin-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .feed-link a {
   display: inline-block;
@@ -1670,7 +1670,8 @@ pre .javascript .function {
   color: #000;
 }
 .links-of-author {
-  margin-top: 20px;
+  margin-top: 5px;
+  margin-bottom: 25px;
 }
 .links-of-author a {
   display: inline-block;
@@ -1688,7 +1689,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #122181;
+  background: #ad57ff;
 }
 .links-of-blogroll {
   font-size: 13px;
