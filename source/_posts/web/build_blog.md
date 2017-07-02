@@ -12,8 +12,8 @@ description: Bulid Blog&#58; Why 初衷、How 过程，Hexo 建站，Theme 主�
 《题破山寺后禅院》__常建__
 {% endcq %}
 
-- 上一版《 [Why and How to bulid my blog? 搭建我的个人博客](/old_version_posts/Why_and_how_to_build_my_blog.html) 》
-- 失效链接已修复，如需帮助，望读者及时反馈。
+- __进阶文章__《 [__折腾个人博客__](/web/blog_changelog) 》
+- 本文旧版《 [Why and How to bulid my blog? 搭建我的个人博客](/old_version_posts/Why_and_how_to_build_my_blog.html) 》
 
 # 后记
 
@@ -200,7 +200,9 @@ Hexo 官网的文档和 API 中有 theme 写法的说明，
     - [__域名和 DNS__](https://wsgzao.github.io/post/hexo-guide/#%E5%9F%9F%E5%90%8D%E5%92%8CDNS)
     - [__购买域名、设置dns__](http://www.zipperary.com/2013/05/27/domain-name-and-dns/)
 
-### __Sitemap 站点地图 & RSS 订阅__
+### __Sitemap & RSS__
+
+__站点地图 & RSS 订阅__。
 
 站点地图给搜索引擎的爬虫以及网站的订阅者，
 说明了博客里有哪些链接、文章、页面内容，
@@ -285,7 +287,9 @@ Hexo自带的功能：archive 归档、category 分类、tag 标签。
 
 而 Swiftype 具体配置过程可参考：[利用 Swiftype 为 Hexo 添加站内搜索 v2.0](http://www.jerryfu.net/post/search-engine-for-hexo-with-swiftype-v2.html)
 
-### __PV/UV 访问数/访客数的统计与显示__
+### __PV/UV__
+
+__访问数/访客数的统计与显示__。
 
 统计、显示博客每篇、每个页面的访问数。
 
@@ -303,7 +307,9 @@ Hexo自带的功能：archive 归档、category 分类、tag 标签。
 如果需要整个网站的页面访问量（PV）、独立访客数（UV）的统计与显示，
 则可以参看这个第三方工具：[不蒜子 - 搞定你的网站计数](http://ibruce.info/2015/04/04/busuanzi/)
 
-### __Site Analysis 网站分析服务__
+### __Site Analysis__
+
+__网站分析服务__。
 
 帮助你去统计分析网站的各类数据，
 包括且不限于查看 UV、PV、IP 数、来源网站、入口页面、受访页面、
@@ -329,7 +335,7 @@ CSS 文件、JavaScript 脚本等也可以放到 CDN 那里，
 
 __可参考 [Hexo 系列教程之五：Hexo 博客同时托管在 Github 和 Coding](http://www.jianshu.com/p/3141cffc1b1b)__
 
-### __Ad 卖流量（广告）__
+### __卖广告__
 
 当你的网站做得一级棒，流量很大（访客很多）的时候，
 就就可以靠卖广告挣点外快了，挣回网站的维护成本，
@@ -350,7 +356,8 @@ __可参考 [Hexo 系列教程之五：Hexo 博客同时托管在 Github 和 Cod
 
 - [博客实体的代码](https://github.com/IceHe/icehe.github.io)
 - [生成博客用的代码](https://github.com/IceHe/icehe.me)
-- [博客theme的代码](https://github.com/IceHe/Jacman)
+- [~~博客 Theme: Jacman 的代码~~](https://github.com/IceHe/Jacman)（旧）
+- [博客 Theme: NexT 的代码](https://github.com/IceHe/hexo-theme-next)（新）
 
 ## 鸣谢
 - Hexo 作者：[Tommy Chen](http://zespia.tw/)
