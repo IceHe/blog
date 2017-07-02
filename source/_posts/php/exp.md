@@ -1,7 +1,7 @@
 title: PHP 编程经验
-date: 2017-05-15
-updated: 2017-05-15
-no_upd: true
+date: 2017-07-16
+updated: 2017-07-16
+noupdate: true
 categories: [PHP]
 tags: [PHP]
 description: PHP Coding Experience &#58; 日常工作的经验总结。
@@ -923,6 +923,8 @@ composer 包管理
 phpmd 代码复杂度等高维度的问题？
 phpcs 代码风格
 phpunit 单元测试
+
+gettext 多国语支持
 
 ## 运行环境
 
