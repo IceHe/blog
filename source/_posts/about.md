@@ -3,39 +3,40 @@ date: 2015-01-20
 updated: 2017-04-20
 categories: [whoami]
 tags: [whoami]
-description: IceHe 的经历、技能、教育 & 其它：微博移动 / 服务端开发 / PHP，华南理工 / 软件工程 / 本科 …
+description: IceHe 的经验、技能、教育 & 其它：微博移动应用服务 / 服务端 / PHP；华南理工 / 软件工程 / 本科 …
+nocopyright: true
 ---
 
-# __简介__
+# __介绍__
 
 - __我是__
     - <i class="fa fa-fw fa-star"></i> Ice He / Hzy
-        <sup><i class="fa fa-fw fa-paper-plane"></i> 广州人在北京</sup>
-    - <i class="fa fa-fw fa-font"></i> Less. 宁静致远。
-        <sup><i class="fa fa-fw fa-heart"></i> ACGMN , 羽毛球 , ~~毽球~~</sup>
+        <sup><i class="fa fa-fw fa-paper-plane"></i> 广州人在北京，潜心技术</sup>
     - <i class="fa fa-fw fa-weibo"></i> 微博移动应用服务
         <sup><i class="fa fa-fw fa-gear"></i> PHP 服务端开发 - Mobile API</sup>
-    - <i class="fa fa-fw fa-envelope-o"></i> x#icehe.me
-        <sup><i class="fa fa-fw fa-wechat"></i> [微信](http://7vzp68.com1.z0.glb.clouddn.com/about_original/qrcode_01.jpg) | [知乎](https://www.zhihu.com/people/icehe/activities) | [微博](http://weibo.com/icedes)</sup>
+    - <i class="fa fa-fw fa-envelope-o"></i> x#icehe.me <sup> # → @</sup>
+        <sup><i class="fa fa-fw fa-wechat"></i> [微信](http://7vzp68.com1.z0.glb.clouddn.com/about_original/qrcode_01.jpg) , [微博](http://weibo.com/icedes) , [博客](http://icehe.me) , [GitHub](https://github.com/IceHe) , [知乎](https://www.zhihu.com/people/icehe/activities) , [豆瓣](https://www.douban.com/people/IceHeGZ)</sup>
+    - <i class="fa fa-fw fa-font"></i> Less. 宁静致远。
+        <sup><i class="fa fa-fw fa-heart"></i> tech. , ACGMN , 羽毛球 , ~~毽球~~</sup>
 - __特点__
-    - <i class="fa fa-fw fa-gears"></i> [我的利器](/tools/) - 工具控
+    - <i class="fa fa-fw fa-gears"></i> 工具控 - [我的利器](/tools)
         <sup>Apps & 硬件</sup>
-    - <i class="fa fa-fw fa-keyboard-o"></i> [我的快捷键](/mac_shortcuts/) - 效率厨
+    - <i class="fa fa-fw fa-keyboard-o"></i> 效率厨 - [我的快捷键](/mac_shortcuts)
         <sup>默认 & 自定义</sup>
-    - <i class="fa fa-fw fa-calendar"></i> [时间管理日志](/lifelogs) - 自我管理
+    - <i class="fa fa-fw fa-calendar"></i> 省察 - [时间管理日志](/lifelogs)
         <sup>时间使用情况记录 & 统计</sup>
-- __人生__
+- __生活__
     - <i class="fa fa-fw fa-heart"></i> [最喜爱的](/favourites)
         <sup>书、文章、音乐、电影、游戏…</sup>
     - <i class="fa fa-fw fa-bookmark"></i>  [文字阅读收藏](/read)
         <sup>问答、笔记、文章…</sup>
     - <i class="fa fa-fw fa-cog"></i> [技术阅读收藏](/tech)
         <sup>文档、教程、博客、文章…</sup>
-- __回忆__
-    - <i class="fa fa-fw fa-camera-retro"></i> [回忆](/moments/)
+- __: P__
+    - <i class="fa fa-fw fa-camera-retro"></i> [回忆](/moments)
         <sup>Good old days</sup>
-    - <i class="fa fa-fw fa-pencil"></i> [旧文](http://290841032.qzone.qq.com/)
-        <sup>青春年少</sup>
+    - <i class="fa fa-fw fa-pencil"></i> [旧文](/think/old_blog)
+        <sup>为赋新词强说愁</sup>
 
 ---
 
@@ -68,7 +69,7 @@ description: IceHe 的经历、技能、教育 & 其它：微博移动 / 服务�
 
 - __Web__
     <i class="fa fa-fw fa-star-half-o"></i> __`HTML` `CSS` `jQuery`__
-    <span class="hidden"><i class="fa fa-fw fa-star-o"></i> `~~Docker` `Nginx` `Redis`~~</span>
+    <span><i class="fa fa-fw fa-star-o"></i> `Docker` `Nginx` <!--`Redis`--></span>
 
 - __脚本__
     <i class="fa fa-fw fa-star-half-o"></i> __`AppleScript`__
@@ -88,7 +89,7 @@ description: IceHe 的经历、技能、教育 & 其它：微博移动 / 服务�
 
 ---
 
-# 经历
+# 经验
 
 ## <i class="hidden">微博移动 - 服务端开发</i>
 __<i class="fa fa-fw fa-weibo"></i> [微梦创科网络技术（中国）有限公司](https://zh.wikipedia.org/wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A) - 微博移动 - 服务端研发__&emsp;_2015.07 ~ 现在_
