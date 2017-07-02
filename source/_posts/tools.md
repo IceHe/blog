@@ -1,6 +1,6 @@
 title: 利器 - 软硬件推荐
 date: 2015-11-21
-updated: 2017-05-13
+updated: 2017-07-01
 categories: [Mac]
 tags: [Mac]
 description: Tools&#58; 推荐 macOS 和 iOS 的 Apps 以及日常使用的电子产品。
@@ -581,6 +581,8 @@ __荀子__
         - 还是嫌它大了点，因为我的 Mac 光标移动速度向来调到最快，基本一次小幅度滑动，光标就到位了，不需要太大的触控面积。基本不玩 PC 游戏，所以完全改用触摸板。
     - [__SAMSUNG Portable SSD T3 500GB__](http://www.samsung.com/cn/memory-storage/pssd-mu-pt/MU-PT500BCN/) - 便携 SSD
         用这个便携固态硬盘当作备份盘确实有点奢侈……
+    - [__Sabrent USB 3 Universal Docking Station__](https://www.amazon.cn/gp/product/B013WQWCEA/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1) - 拓展邬
+        TODO：待体验。
 
 #### 键盘
 
@@ -594,6 +596,7 @@ __荀子__
     - 果然还是按耐不住好奇心，买了一把机械键盘（严格来说静电容键盘不是机械键盘）来尝试。
     - 「[HHKB Pro 2](https://www.amazon.cn/PFU-Happy-Hacking-Keyboard-Professional2-%E5%A2%A8-%E7%84%A1%E5%88%BB%E5%8D%B0-%E8%8B%B1%E8%AA%9E%E9%85%8D%E5%88%97-USB%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89-%E9%9D%99%E9%9B%BB%E5%AE%B9%E9%87%8F%E7%84%A1%E6%8E%A5%E7%82%B9-UNIX%E9%85%8D%E5%88%97-WINDOWS-MAC%E4%B8%A1%E5%AF%BE%E5%BF%9C-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-PD-KB400BN/dp/B000F8OECM/ref=sr_1_2?ie=UTF8&qid=1494650270&sr=8-2&keywords=hhkb)」系列 60 键 US 布局精简至极，看起来精致小巧、赏心悦目「逼格满满」啊！但是我这个快捷键党为了改键的需求，最终选择了按键更多、布局奇特的日本版。
     - 为了无痛切换 HHKB JP 和 Mac 键盘而同时修改两者的布局，其键位功能基本一致，并吸收了 60% 键盘的特点：如数字键 1 左侧的 Backquote 键换成了 Esc 键等。
+    - 其它：觉得键盘还是该配腕托，不然每天敲键盘的时间太长很累。还有该配桌垫，不然我手臂瘦没有肉，放在桌子上特别搁到手肘。
 
 ### 手机
 
