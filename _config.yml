@@ -8,10 +8,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Ice He
+title: IceHe
 subtitle: More is in vain when less will serve.
 description: Less.
-author: Ice He
+author: IceHe
 email: x@icehe.me
 language: zh-Hans
 
@@ -73,14 +73,13 @@ logger_format: dev
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-simple_date: YYYY MMM DD
 date_format: YYYY-MM-DD
 time_format: H:mm:ss
 short_date_format: YY-MM-DD
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 8
+per_page: 15
 pagination_dir: page
 
 # Disqus
@@ -108,8 +107,8 @@ exclude_generator: #它指的就是Plugins
 deploy:
     type: git
     repo:
-        github: git@github.com:IceHe/icehe.github.io.git,master
         coding: git@git.coding.net:IceHe/icehe.coding.me.git,master
+        github: git@github.com:IceHe/icehe.github.io.git,master
 
 google_analytics:
     github: vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI
