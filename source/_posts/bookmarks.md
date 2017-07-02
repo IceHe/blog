@@ -1,9 +1,10 @@
 title: 博客导航
 date: 2015-12-20
-updated: 2017-05-09
+updated: 2017-07-01
 categories: [read]
 tags: [read]
 description: Navigation&#58; PV Top N 热榜、文章分类列表。
+nocopyright: true
 ---
 
 {% note success %} 欢迎来到博客 [__IceHe.me__](http://icehe.me)！ {% endnote %}
@@ -21,18 +22,18 @@ description: Navigation&#58; PV Top N 热榜、文章分类列表。
 
 ## [C++](/categories/C/)
 
-- [__C++ Primer 第五版__](/c++/C++ Primer 5th/)
-- [__C++ 面试宝典__](/c++/C++ Interview Book/)
-- [__C++ 编程规范__](/c++/C++ Code Standards 编码标准/)
+- [C++ Primer 第五版](/c++/C++ Primer 5th/)
+- [C++ 面试宝典](/c++/C++ Interview Book/)
+- [C++ 编程规范](/c++/C++ Code Standards 编码标准/)
 - Effective C++
     - [笔记 1](/c++/Effective C++ - Reading Note 1) , [笔记 2](/c++/Effective C++ - Reading Note 2) , [笔记 3](/c++/Effective C++ - Reading Note 3) , [笔记 4](/c++/Effective C++ - Reading Note 4)
 - [C++ 宏定义与位操作](/c++/macro_and_bit_operations/)
 
-## [命令行](/categories/Command)
+## [Cmd. 命令行](/categories/Command)
 
 - __[Git 总结](/cmd/git_note) - 常用操作__
 
-## [阅读积累](/categories/read)
+## [Read 阅读积累](/categories/read)
 
 - [__技术阅读收藏__](/tech)
 - [__文字阅读收藏__](/read)
@@ -85,7 +86,12 @@ description: Navigation&#58; PV Top N 热榜、文章分类列表。
 
 - [Python3 快速入门](/python/quick_start)
 
-## [思考](/categories/think)
+## [Web](/categories/Web)
+
+- [搭建个人博客](/web/build_blog/)
+- [实现网站的打赏功能](/web/donate)
+
+## [Think 思考](/categories/think)
 
 - [2017 春](/think/2017_spring)
 - [2016 冬](/think/2016_winter)
@@ -94,46 +100,42 @@ description: Navigation&#58; PV Top N 热榜、文章分类列表。
 - [再见 2015](/think/bye2015)
 - [生活指南](/think/life_manual)
 
-## [时间管理](/categories/time-mgt)
+## [Time Mgt. 时间管理](/categories/time-mgt)
 
 - [时间管理日志](/lifelogs)
 - [时间管理日志说明](/think/time_mgt)
 
-## [Web](/categories/Web)
-
-- [搭建个人博客](/web/build_blog/)
-- [实现网站的打赏功能](/web/donate)
-
-## [我是谁](/categories/whoami)
+## [Who am I 我是谁](/categories/whoami)
 
 - [__CV 简历__](/about/)
 - [IceHe's CV](/about_en/)
 - [回忆](/moments/)
+- [旧博索引](/think/old_blog/)
 - [打赏博主](/reward)
 
 ---
 
-## 无题
+## 一些想法
 
 ### 为什么写
 
-- 我可以用 Evernote「记录」，但是难以「分享」；用 GitHub 可以同时做到两者，但是展示效果不佳；所以做了这个博客，顺道满足了自己对审美的追求和享受。
-    - 只可惜我不懂「前端、设计」，无法更进一步，只能在他人成果的基础上修修补补，做成这个样子。
+- 我可以用 Evernote「记录」，但是难以「分享」；用 GitHub 可以同时做到两者，但是展示效果不佳；所以做了这个博客。
+    - 只可惜我不够懂「前端、设计」，只能在别人完备的方案上进行自定义的修改。
     - 比起「悦人」，这里更是__「悦己」__的场所。
-- 这个博客，首先是为了__「记录、总结」__ 自己的知识和见解，其次才是「分享、展示」。
-    - 我当然希望有更多的访客，但是更在意这片小天地是否每一处都符合自己的心意（强迫症）。
-    - 所以，我常常在完善旧文章，很少发布新文章。虽然文章少，但是一般都比较长。
+- 这个博客首先是为了__「记录、总结」__ 自己的知识和见解，其次才是「分享、展示」。
+    - 当然，我希望有更多的访客，但更在意这片小天地是否每一处都符合自己的心意。
+    - 因此，我常常在完善旧文章，很少发布新文章。虽然文章少，但通常都很长。
 
 ### 写什么
 
 - __不追赶容易过时的技术__
     - 软件技术日新月异，其中大多数不过昙花一现，很快就会被层出不穷的优秀后来者所取代。
-    - 当然还是有许多历久弥新的技术、思想，以及软件工程师的基本功、素养，亟待掌握，它们才值得总结记录。
+    - 当然还是有许多历久弥新的技术、思想，以及软件工程师的基本功、素养，亟待掌握，这些才值得总结记录。
 - __少记叙技术细节__
     - 再长久的技术也终有过时的一天，不值得过多地记叙其中技术细节。
-    - 从中以小见大，看到其中蕴含的趋势、思想，得出自己的见解、启发 —— 这些才值得记叙。
+    - 从中以小见大，得到启发，产生自己的见解 —— 这些才值得记叙。
     - 例如，写短平快、不成体系的技术入门文章、笔记，就价值不大，不过是在对外宣示自己在努力“学习”（倒腾新玩意）罢了。
-        - 还在写这种文章，得狠狠吐槽一下自己。
+        （其实现在还有写这种文章，得狠狠反省）
 - __少抒情，多思考__
     - 已经过了矫情的年纪，不再是少年，没有那么多闲愁值得抒发，不要「为赋新词强说愁」。
     - 比起技术，还有更值得记叙的事情：
@@ -144,16 +146,16 @@ description: Navigation&#58; PV Top N 热榜、文章分类列表。
     - 没错「听过很多道理，依然过不好这一生」。因为每个人都是不一样的，不同的经历、性格、观念，没有亲历过的东西，就不会有深刻的体会，自然不容易明白其中的道理，更难说践行了。「纸上得来终觉浅，绝知此事要躬行」。
 - 记于 2017-01-01
 
-### 后记
+### 强迫症
 
 - __生活本来就是一团乱麻，「完美」只是镜花水月，盲目接近它和追求它，均是徒劳，甚至可以说是一出悲剧，就如西西弗斯的滚石。__
 - 追求整洁、秩序、完满，还不如由它杂乱不堪来得省心。我就是一个典型的「强迫症、细节控」，可是不想再继续这样下去了。人生太短暂了，何不及时行乐去享受乐趣，或是好好做事追寻人生的意义。
 - 不过，我还是想留下这个博客 —— 这一片隐秘天地，让我自己一个人，能够静静地跟自己说说话。
 - 记于 2017-03-15
 
-## 友链
+## 好友链接
 
-- [__Jan Fan__](http://janfan.github.io/) - Pythoner, ML & NLP
-- [__SF Zhou__](http://sf-zhou.github.io/) - ACMer
-- [__Shiwey Yan__](http://shiweyyan.github.io/) - 游戏开发
-- [__Johnson__](http://mrzys.coding.me/) - Pythoner, Web
+- [__Jan Fan__](http://janfan.github.io/) - Pythoner, ML & NLP, Tencent
+- [__SF Zhou__](http://sf-zhou.github.io/) - ACMer, Microsoft
+- [__Shiwey Yan__](http://shiweyyan.github.io/) - Game Developer, QQ 飞车, Tencent
+- [__Johnson__](http://mrzys.coding.me/) - Pythoner, Web, Sina
