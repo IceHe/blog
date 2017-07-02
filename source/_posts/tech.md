@@ -31,7 +31,8 @@ __Albert Einstein__
 - [My Git Note](/cmd/git_note)
 - [Vim Cheat Sheet](http://coolshell.cn//wp-content/uploads/2011/09/vim_cheat_sheet_for_programmers_print.png) - Vim 键位操作总结图
 - [PHP The Right Way](http://www.phptherightway.com/) <sup>_todo_</sup>
-- [PHP Types Comparison](http://www.php.net/manual/en/types.comparisons.php) - PHP 变量比较结果参考
+- [PHP Type Comparisons](http://www.php.net/manual/en/types.comparisons.php) - PHP 变量比较结果参考
+<!-- - 注意：官方文档的表格依然有错，建议 [用代码来进行实验](/php/determine_variable/#代码实验)。 -->
 - [Mac Developer Library](https://developer.apple.com/library/mac/navigation/) -> [AppleScript Language Guide](https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_fundamentals.html)
 - [Object Oriented Design](http://www.cheatography.com/david/cheat-sheets/object-oriented-design/) ( Cheat Sheet )
 
