@@ -4,6 +4,7 @@ updated: 2017-04-20
 categories: [whoami]
 tags: [whoami]
 description: IceHe's Exp , Skills , Edu & Oth&#58; Weibo / Moblie API / PHP Server Side Developer , SCUT / Software Engineering / Bachelor…
+nocopyright: true
 ---
 
 - __NOT COMPLETE__ : I will finish translation if necessary.
@@ -12,7 +13,7 @@ description: IceHe's Exp , Skills , Edu & Oth&#58; Weibo / Moblie API / PHP Serv
 
 - __I'm__
     - <i class="fa fa-fw fa-star"></i> Ice He / Hzy
-        <sup><i class="fa fa-fw fa-paper-plane"></i> A Cantonese in Beijing</sup>
+        <sup><i class="fa fa-fw fa-paper-plane"></i> A Cantonese in Beijing<span hidden>, dive into tech.</span></sup>
     - <i class="fa fa-fw fa-font"></i> Less. 宁静致远。
         <sup><i class="fa fa-fw fa-heart"></i> Animate , Badminton , 毽球</sup>
     - <i class="fa fa-fw fa-weibo"></i> [Weibo](http://weibo.com/icedes) Mobile API
