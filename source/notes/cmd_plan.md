@@ -1,6 +1,8 @@
 title: Cmd Plan
 ---
 
+``` markdown
+
 <http://www.cnblogs.com/kluan/p/4458278.html> du -m --max-depth=1
 
 <http://siberiawolf.com/free_programming/index.html#Shell>
@@ -287,3 +289,5 @@ find ./ -type f | xargs grep 'www.baidu.com'
 # pmset
 
 mac 电源管理
+
+```
