@@ -1,6 +1,6 @@
 title: 博客导航
 date: 2015-12-20
-updated: 2017-07-01
+updated: 2017-07-05
 categories: [read]
 tags: [read]
 description: Navigation&#58; PV Top N 热榜、文章分类列表。
@@ -89,6 +89,7 @@ nocopyright: true
 ## [Web](/categories/Web)
 
 - [搭建个人博客](/web/build_blog/)
+- [折腾个人博客](/web/blog_changelog/) <sup>__New__</sup>
 - [实现网站的打赏功能](/web/donate)
 
 ## [Think 思考](/categories/think)
