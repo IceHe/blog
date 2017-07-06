@@ -3,7 +3,7 @@ date: 2017-07-05
 updated: 2017-07-05
 categories: [web]
 tags: [web]
-description: Blog Changelog&#58; 博客变更日志，也是《搭建个人博客》的详细拓展。
+description: Blog Changelog&#58; 博客变更日志，以及《搭建个人博客》的详细拓展。
 noupdate: true
 ---
 
