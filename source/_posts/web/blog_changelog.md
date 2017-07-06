@@ -1,10 +1,9 @@
 title: 折腾个人博客
 date: 2017-07-05
-updated: 2017-07-05
+updated: 2017-07-06
 categories: [web]
 tags: [web]
 description: Blog Changelog&#58; 博客变更日志，以及《搭建个人博客》的详细拓展。
-noupdate: true
 ---
 
 ## 说明
@@ -34,6 +33,8 @@ noupdate: true
     - 停用 Google Fonts，改用 css.net 的字体资源
     - 使用 Hexo Plugin hexo-all-minifier
         - 压缩 页面及其引用资源的占用的存储空间大小
+    - 使用 BootCDN 的 `*.min.js` `*.min.css` 资源，替换所有相关开源包的 `*.js` `*.css` 资源
+        - 相关资源传输耗时从 100 ms+ 下降到 100 ms-
     - 点击 才去加载 Disqus 的所有相关资源
 - 简化 404 页面
     - 简化 显示的文本
@@ -51,6 +52,7 @@ noupdate: true
     - 简化 边栏「热榜」模块的显示元素
     - 添加 边栏「热榜」模块的动画效果
     - 去掉 每篇文章下的百度分享按钮
+    - 启用 博客背景的 Canvas-nest 动效
 - 优化 用于博客文章的 PV 统计的 LeanCloud 调用代码
 - 添加 《旧博客索引》（作为博客的第一篇文章）
 - 添加 博客变更记录（本文）
