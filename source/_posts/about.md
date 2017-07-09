@@ -205,7 +205,7 @@ __优职英才（北京）教育科技公司 - 市场部 - 实习生__&emsp;_201
 
 ---
 
-<div class="center hidden">:P</div><div class="center"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_03a.jpg" class="pic_styl"/></div>
+<div class="center hidden">:P</div><div class="center"><img src="http://7vzp68.com1.z0.glb.clouddn.com/about/avatar_03a.jpg" class="pic_styl" style="margin: auto;"/></div>
 
 {% cq %}
 写一部小说就像在黑夜里开车。你只能看到车灯照亮的部分，但是你却可以走完整个旅程。
