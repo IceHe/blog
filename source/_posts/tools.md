@@ -1,6 +1,6 @@
 title: 利器 - 软硬件推荐
 date: 2015-11-21
-updated: 2017-07-01
+updated: 2017-07-08
 categories: [Mac]
 tags: [Mac]
 description: Tools&#58; 推荐 macOS 和 iOS 的 Apps 以及日常使用的电子产品。
@@ -581,8 +581,24 @@ __荀子__
         - 还是嫌它大了点，因为我的 Mac 光标移动速度向来调到最快，基本一次小幅度滑动，光标就到位了，不需要太大的触控面积。基本不玩 PC 游戏，所以完全改用触摸板。
     - [__SAMSUNG Portable SSD T3 500GB__](http://www.samsung.com/cn/memory-storage/pssd-mu-pt/MU-PT500BCN/) - 便携 SSD
         用这个便携固态硬盘当作备份盘确实有点奢侈……
-    - [__Sabrent USB 3 Universal Docking Station__](https://www.amazon.cn/gp/product/B013WQWCEA/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1) - 拓展邬
-        TODO：待体验。
+
+#### 拓展邬
+
+- [__Sabrent USB 3 Universal Docking Station__](https://www.amazon.cn/gp/product/B013WQWCEA/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1) - 拓展邬 & 底座
+    - 可当底座
+        - 可以当手机、平板、笔记本电脑的底座用（我的 MBP 不开盖，外接显示屏用）。
+    - 接口够用
+        - USB 3.0 接口 x 2，USB 2.0 接口 x 2，USB 充电专用接口 x 2，全都是 Type-A 的；还有 Ethernet 接口、HDMI、音频 IO。
+        - 外接备份硬盘、机械键盘，不用带 USB 充电口的插线板了；
+        - 外接物理网口，不用 Ethernet 转 USB Type-A 的适配器了；
+            （真是浪费了之前买 [Moshi USB 3.0 - 千兆以太网转接线](https://www.amazon.cn/%E7%94%B5%E8%84%91-it-%E5%8A%9E%E5%85%AC/dp/B00SIT3QE2/ref=sr_1_fkmr0_1?ie=UTF8&qid=1499445169&sr=8-1-fkmr0&keywords=Moshi+USB+3.0+%E8%87%B3%E4%BB%A5%E5%8D%83%E5%85%86%E5%A4%AA%E7%BD%91%E8%BD%AC%E6%8D%A2%E5%99%A8) ……）
+        - 音频输出不灵，耳机还是得插在笔记本电脑的机身上；
+        - HDMI 接口连 2K 屏，帧率达不到 60 Hz 以致有卡顿（可能是传输线的带宽不够），只能用回 Thunderbolt 2 接口连外接显示屏。
+    - 方便拔线
+        - 现有的外接线头都插在笔记本电脑的左侧，电源、连显示屏的 Thunderbolt 2、连拓展邬的 USB 3.0，还有耳机插线。
+    - 略有遗憾，但足够满意
+        - 线头集中摆放，工位整洁多了；外接新设备，接口够用，接入也方便多了。
+        - 本来想买个用 Thunderbolt 2 接口接入的更好的拓展邬，但至少贵一倍，而且新款 MacBook Pro 支持的是更先进的兼容 USB Type-C 的 Thunderbolt 3 接口，所以我不想买 Thunderbolt 2 的，最后决定先买个便宜的将就着用。
 
 #### 键盘
 
@@ -596,7 +612,7 @@ __荀子__
     - 果然还是按耐不住好奇心，买了一把机械键盘（严格来说静电容键盘不是机械键盘）来尝试。
     - 「[HHKB Pro 2](https://www.amazon.cn/PFU-Happy-Hacking-Keyboard-Professional2-%E5%A2%A8-%E7%84%A1%E5%88%BB%E5%8D%B0-%E8%8B%B1%E8%AA%9E%E9%85%8D%E5%88%97-USB%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89-%E9%9D%99%E9%9B%BB%E5%AE%B9%E9%87%8F%E7%84%A1%E6%8E%A5%E7%82%B9-UNIX%E9%85%8D%E5%88%97-WINDOWS-MAC%E4%B8%A1%E5%AF%BE%E5%BF%9C-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-PD-KB400BN/dp/B000F8OECM/ref=sr_1_2?ie=UTF8&qid=1494650270&sr=8-2&keywords=hhkb)」系列 60 键 US 布局精简至极，看起来精致小巧、赏心悦目「逼格满满」啊！但是我这个快捷键党为了改键的需求，最终选择了按键更多、布局奇特的日本版。
     - 为了无痛切换 HHKB JP 和 Mac 键盘而同时修改两者的布局，其键位功能基本一致，并吸收了 60% 键盘的特点：如数字键 1 左侧的 Backquote 键换成了 Esc 键等。
-    - 其它：觉得键盘还是该配腕托，不然每天敲键盘的时间太长很累。还有该配桌垫，不然我手臂瘦没有肉，放在桌子上特别搁到手肘。
+    - 其它：觉得键盘还是该配腕托，不然每天敲键盘的时间太长很累。还有该配桌垫，不然我手臂瘦没有肉，手肘放在桌上感觉特别「搁」。
 
 ### 手机
 
@@ -724,10 +740,13 @@ __荀子__
 - 日用电子
     - [__小米插线板__](http://www.mi.com/powerstrip/) - 插座
         小巧精致，节省空间又好看，省了不少 USB 充电器。
-        纯白色 & 纯黑色，各一个，分别放公司工位 & 北京住处床头；出行时也带一个以备不时之需。
+        纯白色 & 纯黑色，各一个，分别放公司的工位 和 住处的床头；出行时也带一个以备不时之需。
     - [__极路由 1S__](http://www.hiwifi.com/j1s-view) - 路由器
         小巧便宜，设置简单，可以远程操控，满足一般的居家使用。
-        广州家里 & 北京住处，各一个。（坏了的话，打算换 [华为的路由器](https://www.vmall.com/list-45)。）
+        广州家里 & 北京住处，各一个。（坏了的话，打算换 [华为的路由器](https://www.vmall.com/list-45)）
+    - __Fidget Cube、Fidget Pad、Infinite Cube__ - 减压神器
+        用新的「手癖」—— 玩减压神器，去代替其它不良的「手癖」！例如，咬手指、敲桌子、抠鼻、抠耳朵、抠脚、抓脸、抓头发……
+        - 减压骰子、减压手柄、无限魔方，还有魔方骰子、指尖陀螺、减压笔等。（搜索关键词「减压神器」……）
 
 ---
 
