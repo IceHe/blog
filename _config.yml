@@ -107,8 +107,8 @@ exclude_generator: #它指的就是Plugins
 deploy:
     type: git
     repo:
-        coding: git@git.coding.net:IceHe/icehe.coding.me.git,master
-        github: git@github.com:IceHe/icehe.github.io.git,master
+        coding: git@git.coding.net:IceHe/IceHe.me.git,master
+        github: git@github.com:IceHe/icehe.me.git,master
 
 google_analytics:
     github: vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI
