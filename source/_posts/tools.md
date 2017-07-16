@@ -1,6 +1,6 @@
 title: 利器 - 软硬件推荐
 date: 2015-11-21
-updated: 2017-07-08
+updated: 2017-07-16
 categories: [Mac]
 tags: [Mac]
 description: Tools&#58; 推荐 macOS 和 iOS 的 Apps 以及日常使用的电子产品。
@@ -38,6 +38,8 @@ __荀子__
     - ~~删除线~~ 标识的一定是我现在不用的 Apps。
     - __粗体__ 标识的通常是在用的 Apps。
     - 同时有 __~~删除线和粗体~~__ 标识的 Apps，我现在不用但值得一试。
+
+---
 
 ## 软件
 
@@ -567,22 +569,43 @@ __荀子__
 - [__AutoHotkey__](https://autohotkey.com/) - [全局快捷键设置工具](http://xbeta.info/autohotkey-guide-2.htm)。
 - Ref : [Windows常用软件推荐](http://wsgzao.github.io/post/windows/)
 
+---
+
 ## 硬件
 
 以下附带部分个人测评（使用感受）。
 
 ### 电脑 & 外设
 
-- [__MacBook Pro Retina 13-inch__](http://www.apple.com/cn/shop/buy-mac/macbook-pro?product=MF841CH/A&step=config) <sup>Favorite</sup>
+- [__MacBook Pro Retina 13-inch__](http://www.apple.com/cn/shop/buy-mac/macbook-pro?product=MF841CH/A&step=config) - 便携电脑 <sup>Favorite</sup>
     i7 - 3.1 GHz / Mem 16 GB / SSD 512 GB ，Mac 是软件工程师的最佳工作平台！
     Unix-like，稳定、省心。用好了 Windows，才了无牵挂地换了 Mac。
-    - [__Magic Trackpad 2__](http://www.apple.com/cn/shop/product/MJ2R2CH/A/magic-trackpad-2?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2) - 触摸板
-        Macbook 自带触摸板的手感已经非常好了，但它还要更胜一筹！第二代比第一代触摸面积大了不少，有三段式压感反馈，手感细腻。
-        - 还是嫌它大了点，因为我的 Mac 光标移动速度向来调到最快，基本一次小幅度滑动，光标就到位了，不需要太大的触控面积。基本不玩 PC 游戏，所以完全改用触摸板。
-    - [__SAMSUNG Portable SSD T3 500GB__](http://www.samsung.com/cn/memory-storage/pssd-mu-pt/MU-PT500BCN/) - 便携 SSD
-        用这个便携固态硬盘当作备份盘确实有点奢侈……
 
-#### 拓展邬
+#### 显示器 & 支架
+
+- [__DELL UltraSharp U2515Hx 25-inch__](https://item.jd.com/1453819.html) - 显示器
+    2K（2560 * 1440）分辨率，窄边框，IPS 面板，LED-Lit（背光）
+- [__UP OA-7X Dual Desktop Mount for Laptop and LCD Display__](https://item.jd.com/1108822.html) - 支架
+    显示器笔记本组合桌面支架，可升降。
+
+#### 触摸板 & 键盘
+
+- [__Magic Trackpad 2__](http://www.apple.com/cn/shop/product/MJ2R2CH/A/magic-trackpad-2?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2) - 触摸板
+    Macbook 自带触摸板的手感已经非常好了，但它还要更胜一筹！第二代比第一代触摸面积大了不少，有三段式压感反馈，手感细腻。
+    - 还是嫌它大了点，因为我的 Mac 光标移动速度向来调到最快，基本一次小幅度滑动，光标就到位了，不需要太大的触控面积。基本不玩 PC 游戏，所以完全改用触摸板。
+- [__Magic Keyboard__](http://www.apple.com/cn/shop/product/MLA22CH/A/magic-keyboard?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2) - 蓝牙键盘
+    （第二代）小巧轻便。Mac 的键盘布局紧凑合理，手用更小幅度的移动就能触及所有按键，省力。
+    - 可能你会觉得敲起来手感「绵软」，但是作为「键盘党」的我，快捷键很多而且用得频繁，就觉得使用它很舒适、省力、安静。
+    - [键程](http://baike.baidu.com/view/1748635.htm) 不会太长或太短，不需要用力按下，有舒适的反馈感（个人感觉），用久了手也不容易疲劳，特别是小指；而且敲击按键的声音小，不容易打扰到别人。
+    - 使用蓝牙 4.0 无线连接，功耗低 —— 没有连接线，这点简直是洁癖和强迫症的福音；内置电池，Lightning 接口充电，一次充电能够续航三周以上，省心。
+- [__PFU HHKB Professional JP__](https://www.amazon.cn/PFU-Happy-Hacking-Keyboard-Professional-JP-%E6%97%A5%E6%9C%AC%E8%AA%9E%E9%85%8D%E5%88%97-%E5%A2%A8-USB%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89-%E9%9D%99%E9%9B%BB%E5%AE%B9%E9%87%8F%E7%84%A1%E6%8E%A5%E7%82%B9-N%E3%82%AD%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%AB%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-PD-KB420B/dp/B001KWJTD6/ref=sr_1_2?ie=UTF8&qid=1494650201&sr=8-2&keywords=hhkb+jp) - 静电容键盘
+    黑色，有刻印（按键上印有键位说明），日文键盘布局。
+    - 果然还是按耐不住好奇心，买了一把机械键盘（严格来说静电容键盘不是机械键盘）来尝试。
+    - 「[HHKB Pro 2](https://www.amazon.cn/PFU-Happy-Hacking-Keyboard-Professional2-%E5%A2%A8-%E7%84%A1%E5%88%BB%E5%8D%B0-%E8%8B%B1%E8%AA%9E%E9%85%8D%E5%88%97-USB%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89-%E9%9D%99%E9%9B%BB%E5%AE%B9%E9%87%8F%E7%84%A1%E6%8E%A5%E7%82%B9-UNIX%E9%85%8D%E5%88%97-WINDOWS-MAC%E4%B8%A1%E5%AF%BE%E5%BF%9C-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-PD-KB400BN/dp/B000F8OECM/ref=sr_1_2?ie=UTF8&qid=1494650270&sr=8-2&keywords=hhkb)」系列 60 键 US 布局精简至极，看起来精致小巧、赏心悦目「逼格满满」啊！但是我这个快捷键党为了改键的需求，最终选择了按键更多、布局奇特的日本版。
+    - 为了无痛切换 HHKB JP 和 Mac 键盘而同时修改两者的布局，其键位功能基本一致，并吸收了 60% 键盘的特点：如数字键 1 左侧的 Backquote 键换成了 Esc 键等。
+    - 其它：觉得键盘还是该配 [__木质腕托__](https://search.jd.com/Search?keyword=%E6%9C%A8%E8%85%95%E6%89%98&enc=utf-8&wq=mu%E8%85%95%E6%89%98)，不然每天敲键盘的时间太长很累。还有该配 [__桌垫__](https://item.mi.com/1172700033.html)，不然我手臂瘦没有肉，手肘放在桌上感觉特别「搁」。
+
+#### 拓展邬 & 备份硬盘
 
 - [__Sabrent USB 3 Universal Docking Station__](https://www.amazon.cn/gp/product/B013WQWCEA/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1) - 拓展邬 & 底座
     - 可当底座
@@ -599,20 +622,8 @@ __荀子__
     - 略有遗憾，但足够满意
         - 线头集中摆放，工位整洁多了；外接新设备，接口够用，接入也方便多了。
         - 本来想买个用 Thunderbolt 2 接口接入的更好的拓展邬，但至少贵一倍，而且新款 MacBook Pro 支持的是更先进的兼容 USB Type-C 的 Thunderbolt 3 接口，所以我不想买 Thunderbolt 2 的，最后决定先买个便宜的将就着用。
-
-#### 键盘
-
-- [__Magic Keyboard__](http://www.apple.com/cn/shop/product/MLA22CH/A/magic-keyboard?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2) - 蓝牙键盘
-    （第二代）小巧轻便。Mac 的键盘布局紧凑合理，手用更小幅度的移动就能触及所有按键，省力。
-    - 可能你会觉得敲起来手感「绵软」，但是作为「键盘党」的我，快捷键很多而且用得频繁，就觉得使用它很舒适、省力、安静。
-    - [键程](http://baike.baidu.com/view/1748635.htm) 不会太长或太短，不需要用力按下，有舒适的反馈感（个人感觉），用久了手也不容易疲劳，特别是小指；而且敲击按键的声音小，不容易打扰到别人。
-    - 使用蓝牙 4.0 无线连接，功耗低 —— 没有连接线，这点简直是洁癖和强迫症的福音；内置电池，Lightning 接口充电，一次充电能够续航三周以上，省心。
-- [__PFU HHKB Professional JP__](https://www.amazon.cn/PFU-Happy-Hacking-Keyboard-Professional-JP-%E6%97%A5%E6%9C%AC%E8%AA%9E%E9%85%8D%E5%88%97-%E5%A2%A8-USB%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89-%E9%9D%99%E9%9B%BB%E5%AE%B9%E9%87%8F%E7%84%A1%E6%8E%A5%E7%82%B9-N%E3%82%AD%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%AB%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-PD-KB420B/dp/B001KWJTD6/ref=sr_1_2?ie=UTF8&qid=1494650201&sr=8-2&keywords=hhkb+jp) - 静电容键盘
-    黑色，有刻印（按键上印有键位说明），日文键盘布局。
-    - 果然还是按耐不住好奇心，买了一把机械键盘（严格来说静电容键盘不是机械键盘）来尝试。
-    - 「[HHKB Pro 2](https://www.amazon.cn/PFU-Happy-Hacking-Keyboard-Professional2-%E5%A2%A8-%E7%84%A1%E5%88%BB%E5%8D%B0-%E8%8B%B1%E8%AA%9E%E9%85%8D%E5%88%97-USB%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89-%E9%9D%99%E9%9B%BB%E5%AE%B9%E9%87%8F%E7%84%A1%E6%8E%A5%E7%82%B9-UNIX%E9%85%8D%E5%88%97-WINDOWS-MAC%E4%B8%A1%E5%AF%BE%E5%BF%9C-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-PD-KB400BN/dp/B000F8OECM/ref=sr_1_2?ie=UTF8&qid=1494650270&sr=8-2&keywords=hhkb)」系列 60 键 US 布局精简至极，看起来精致小巧、赏心悦目「逼格满满」啊！但是我这个快捷键党为了改键的需求，最终选择了按键更多、布局奇特的日本版。
-    - 为了无痛切换 HHKB JP 和 Mac 键盘而同时修改两者的布局，其键位功能基本一致，并吸收了 60% 键盘的特点：如数字键 1 左侧的 Backquote 键换成了 Esc 键等。
-    - 其它：觉得键盘还是该配腕托，不然每天敲键盘的时间太长很累。还有该配桌垫，不然我手臂瘦没有肉，手肘放在桌上感觉特别「搁」。
+- [__SAMSUNG Portable SSD T3 500GB__](http://www.samsung.com/cn/memory-storage/pssd-mu-pt/MU-PT500BCN/) - 便携 SSD
+    用这个便携固态硬盘当作备份盘确实有点奢侈……
 
 ### 手机
 
@@ -744,9 +755,11 @@ __荀子__
     - [__极路由 1S__](http://www.hiwifi.com/j1s-view) - 路由器
         小巧便宜，设置简单，可以远程操控，满足一般的居家使用。
         广州家里 & 北京住处，各一个。（坏了的话，打算换 [华为的路由器](https://www.vmall.com/list-45)）
-    - __Fidget Cube、Fidget Pad、Infinite Cube__ - 减压神器
+    - __Fidget Cube、Fidget Pad、Infinite Cube、Cube Hand Spiner__ - 减压神器
         用新的「手癖」—— 玩减压神器，去代替其它不良的「手癖」！例如，咬手指、敲桌子、抠鼻、抠耳朵、抠脚、抓脸、抓头发……
         - 减压骰子、减压手柄、无限魔方，还有魔方骰子、指尖陀螺、减压笔等。（搜索关键词「减压神器」……）
+    - [__3M 子弹型耳塞__](https://item.jd.com/617192.html)、__眼罩__、褪黑素吸剂 - 睡眠
+        耳塞隔音，窗帘、床帘和眼罩遮光，褪黑素吸剂调整作息。
 
 ---
 
