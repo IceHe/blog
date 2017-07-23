@@ -1,6 +1,6 @@
 title: 利器 - 软硬件推荐
 date: 2015-11-21
-updated: 2017-07-16
+updated: 2017-07-23
 categories: [Mac]
 tags: [Mac]
 description: Tools&#58; 推荐 macOS 和 iOS 的 Apps 以及日常使用的电子产品。
@@ -575,7 +575,7 @@ __荀子__
 
 以下附带部分个人测评（使用感受）。
 
-### 电脑 & 外设
+### 电脑
 
 - [__MacBook Pro Retina 13-inch__](http://www.apple.com/cn/shop/buy-mac/macbook-pro?product=MF841CH/A&step=config) - 便携电脑 <sup>Favorite</sup>
     i7 - 3.1 GHz / Mem 16 GB / SSD 512 GB ，Mac 是软件工程师的最佳工作平台！
@@ -588,11 +588,14 @@ __荀子__
 - [__UP OA-7X Dual Desktop Mount for Laptop and LCD Display__](https://item.jd.com/1108822.html) - 支架
     显示器笔记本组合桌面支架，可升降。
 
-#### 触摸板 & 键盘
+#### 触摸板
 
 - [__Magic Trackpad 2__](http://www.apple.com/cn/shop/product/MJ2R2CH/A/magic-trackpad-2?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2) - 触摸板
     Macbook 自带触摸板的手感已经非常好了，但它还要更胜一筹！第二代比第一代触摸面积大了不少，有三段式压感反馈，手感细腻。
     - 还是嫌它大了点，因为我的 Mac 光标移动速度向来调到最快，基本一次小幅度滑动，光标就到位了，不需要太大的触控面积。基本不玩 PC 游戏，所以完全改用触摸板。
+
+#### 键盘
+
 - [__Magic Keyboard__](http://www.apple.com/cn/shop/product/MLA22CH/A/magic-keyboard?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2) - 蓝牙键盘
     （第二代）小巧轻便。Mac 的键盘布局紧凑合理，手用更小幅度的移动就能触及所有按键，省力。
     - 可能你会觉得敲起来手感「绵软」，但是作为「键盘党」的我，快捷键很多而且用得频繁，就觉得使用它很舒适、省力、安静。
@@ -605,7 +608,7 @@ __荀子__
     - 为了无痛切换 HHKB JP 和 Mac 键盘而同时修改两者的布局，其键位功能基本一致，并吸收了 60% 键盘的特点：如数字键 1 左侧的 Backquote 键换成了 Esc 键等。
     - 其它：觉得键盘还是该配 [__木质腕托__](https://search.jd.com/Search?keyword=%E6%9C%A8%E8%85%95%E6%89%98&enc=utf-8&wq=mu%E8%85%95%E6%89%98)，不然每天敲键盘的时间太长很累。还有该配 [__桌垫__](https://item.mi.com/1172700033.html)，不然我手臂瘦没有肉，手肘放在桌上感觉特别「搁」。
 
-#### 拓展邬 & 备份硬盘
+#### 拓展邬
 
 - [__Sabrent USB 3 Universal Docking Station__](https://www.amazon.cn/gp/product/B013WQWCEA/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1) - 拓展邬 & 底座
     - 可当底座
@@ -622,6 +625,9 @@ __荀子__
     - 略有遗憾，但足够满意
         - 线头集中摆放，工位整洁多了；外接新设备，接口够用，接入也方便多了。
         - 本来想买个用 Thunderbolt 2 接口接入的更好的拓展邬，但至少贵一倍，而且新款 MacBook Pro 支持的是更先进的兼容 USB Type-C 的 Thunderbolt 3 接口，所以我不想买 Thunderbolt 2 的，最后决定先买个便宜的将就着用。
+
+#### 备份硬盘
+
 - [__SAMSUNG Portable SSD T3 500GB__](http://www.samsung.com/cn/memory-storage/pssd-mu-pt/MU-PT500BCN/) - 便携 SSD
     用这个便携固态硬盘当作备份盘确实有点奢侈……
 
@@ -661,16 +667,35 @@ __荀子__
 
 ### 耳机
 
-- [__Bose QC30__](https://www.bose.cn/zh_cn/products/headphones/earphones/quietcontrol-30.html#v=qc30_black) <sup>_wish!_</sup>
-    无线蓝牙连接，充电 <3h，续航 10h；消噪程度可控，分多级。
-    续航时间比 QC20 短，不能像 QC20 那样一键切换「消噪」和「接收外部声音」两个状态，比较麻烦。
-- [__Bose QC20__](http://www.bose.cn/product.aspx?cid=1418#1418) <sup>Favorite, Best</sup>
-    [QuietComfort® 20 Acoustic Noise Cancelling®headphones — Apple devices](https://www.bose.com/en_us/products/headphones/earphones/quietcomfort-20i-acoustic-noise-cancelling-headphones.html#v=qc20_apple_white)
-    - 目前市面上我所知的最好的降噪耳塞。主动降噪，耳塞发出一种波与有规律的噪音相消。
-    - 可「一键切换」是否隔绝周围环境的噪音；降噪后，可用更小的音量使用耳塞，声音更清晰。
-    - 人声不能完全隔绝，但其音量会变得很小；主动降噪时，再稍微播放音乐或白噪音，即可在很大程度上隔绝外部噪音。它帮助我在嘈杂的办公室也能在静谧、专注地做事。虽然它贵，但花得值！
-- [__SONY MDR-EX750BT__](http://www.sonystyle.com.cn/products/headphone/mdr_ex750bt.htm) <sup>_portable_</sup>
-    颈戴入耳式耳塞，外观亮骚，音质出众（只对比各蓝牙耳塞，且不含头戴式耳机），便于携带；续航 7.5 h，没电时，也可用外接耳机线连接其它设备继续使用。无线蓝牙耳塞中的佼佼者！
+- [__Bose QC30__](https://www.bose.cn/zh_cn/products/headphones/earphones/quietcontrol-30.html#v=qc30_black) <sup>Favorite, Best</sup>
+    QuietControl 30 Wireless Headphones 无线蓝牙控噪耳机
+    - 特点和用法：
+        - Bose 是目前市面上我所知的最好的消噪耳机品牌；
+        - 主动消噪，耳塞发出一种波与有规律的噪音相消；
+        - 消噪后，自然就可以用更小的音量听清播放的音频；
+        - 人声不能完全隔绝，但其音量会变得很小，就像是在水底听水面上的声音，远了小了许多；
+        - 完全消噪时，只要低音量地播放音乐或白噪音，就可以在很大程度上隔绝外部噪音。
+        - 可以帮助我在嘈杂的办公室也能在静谧专注地做事。虽然挺贵的，但我觉得花得值！
+    - 其它优点：
+        - 无线蓝牙连接，便携易用；
+        - 消噪程度可控，可调节到「完全消噪」和「关闭消噪」间的任意水平；
+        - 可同时连接多个蓝牙音频输出设备，便捷地切换音源（我的 MBP 或 iPhone）。
+            自动切换音源：暂停当前音源的播放，然后让另一已连接的音源开始播放（或正在播放）。
+    - 一些遗憾：
+        - 续航时间 10h（官方宣称），比 QC20 的 16h 短 6h；充电时间 <3h，比 QC20 的 2h 长；
+        - 不能像 QC20 那样一键切换「完全消噪」、「停止消噪，输入外部声音」两个状态，略麻烦；
+        - 消噪能力（最高档位）比 QC20 略弱；
+        - 外观挺丑，而且还容易戴歪，人称「狗圈」。
+        - 不过为了消噪和便携我选择接受。
+- [__Bose QC20__](https://www.bose.com/en_us/products/headphones/earphones/quietcomfort-20i-acoustic-noise-cancelling-headphones.html#v=qc20_apple_white) <sup>_备用_</sup>
+    QuietComfort® 20 Acoustic Noise Cancelling®headphones — Apple devices
+    - 续航时间 16h，充电时间 2h；可「一键切换」是否隔绝周围环境的噪音；
+- [__SONY MDR-EX750BT__](http://www.sonystyle.com.cn/products/headphone/mdr_ex750bt.htm) <sup>_备用_</sup>
+    - 颈戴入耳式耳塞，外观亮骚，音质出众（只对比各蓝牙耳塞，且不含头戴式耳机），便于携带；
+    - 续航 7.5 h，没电时，也可用外接耳机线连接其它设备继续使用。
+- [__EarPods__](https://www.apple.com/cn/shop/product/MMTN2FE/A/%E9%87%87%E7%94%A8-lightning-%E6%8E%A5%E5%A4%B4%E7%9A%84-earpods?fnode=0a5f7d07daf5db58d1a087a74df215f38b1b99688e3ba4ea456e71c162208479071e07ddbe74c4bf1136dbeeb907483d470b5ce4a6bf28221d38d359cf377ca8715757f81d3a784f17164919fb44312600371d330fe97f1a5edc8a6eea27bb15d7f2bee9d1e22d95ddbb791b310300dff9abf25841d8ad6c9654123ec1958264) <sup>outdoor</sup>
+    - 需要注意周围环境声音（路况）、不需要消噪的情况，还是用挂耳式的耳塞更直接方便。
+        我基本将它用在「行走时听播客、音乐」的场景。
 
 ### 音箱
 
@@ -736,13 +761,17 @@ __荀子__
 ### 背包
 
 - 背包
+    - [__小米学院休闲双肩包__](https://item.mi.com/1171900021.html?cfrom=list)
+        - 便宜，79元购得；轻便，大小适中，不累赘。
+        - 放伞、水、纸巾等，这些不方便揣口袋、装手袋、拎手里的杂物。
     - [__Côte & Ciel Backpack__](http://www.coteetciel.com/en-CN/isar-backpack-black-melange-laptop-bag)
         Isar Eco Yarn / Black Melange ，就是喜欢它特别的外观设计。
-        - 即使是小号的包，也还是偏大了，适合高大的人背。而且外形奇特，不容易搭配衣着，比较“挑人”。只是个尼龙材质的包，但价格不便宜，建议先试背，询问亲朋好友的意见后，再购买。
+        - 即使是小号的包依然偏大，适合高大的人背；而且外形奇特，比较“挑人”，不容易搭配。
+        - 只是个尼龙材质的包，但价格不便宜，建议先试背，询问亲朋好友的意见后，再购买。
     - [__Rains Msn Bag__](https://www.rains.dk/collections/backpacks/products/msn-bag?variant=16742951681) <sup>_wish_</sup>
         坐飞机看到旁边妹子背的这款包很好看。也在考虑 [Backpack、Backpack Mini](https://www.rains.dk/collections/backpacks)。
         <!-- （[淘宝](https://world.taobao.com/item/532027551703.htm?spm=a312a.7700714.0.0.FOAJqC#detail)） -->
-    - [__迪卡侬 骑行背包__](https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-14623109746.39.6z07wX&id=37930654463&scene=taobao_shop&skuId=3157441268509)
+    - [~~__迪卡侬 骑行背包__~~](https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-14623109746.39.6z07wX&id=37930654463&scene=taobao_shop&skuId=3157441268509) <sup>_lost_</sup>
         有了自行车之后，就在公司待到比较晚才回住处，因为懒得背电脑回去使用。带回去的东西少，小包更方便。
         - 而且夏天背着比较大的背包奔走、骑行，容易汗流浃背。骑行、跑步甚至日常出行，我都喜欢使用这个小巧轻便的透气户外背包。
 
@@ -752,6 +781,9 @@ __荀子__
     - [__小米插线板__](http://www.mi.com/powerstrip/) - 插座
         小巧精致，节省空间又好看，省了不少 USB 充电器。
         纯白色 & 纯黑色，各一个，分别放公司的工位 和 住处的床头；出行时也带一个以备不时之需。
+    - [__米家随身风扇__](https://item.mi.com/1162800007.html?cfrom=list) - 小风扇
+        连上充电宝、USB 的充电插头，即可使用；可拆卸，便携。
+        一个常驻背包，一个插在放公司的小米插线板上用。
     - [__极路由 1S__](http://www.hiwifi.com/j1s-view) - 路由器
         小巧便宜，设置简单，可以远程操控，满足一般的居家使用。
         广州家里 & 北京住处，各一个。（坏了的话，打算换 [华为的路由器](https://www.vmall.com/list-45)）
