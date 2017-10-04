@@ -1,4 +1,5 @@
-*.log
+*.icloud
+*.loG
 .DS_Store
 db.json
 Thumbs.db
