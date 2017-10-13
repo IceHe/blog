@@ -1,6 +1,6 @@
 title: 博客导航
 date: 2015-12-20
-updated: 2017-07-05
+updated: 2017-08-01
 categories: [read]
 tags: [read]
 description: Navigation&#58; PV Top N 热榜、文章分类列表。
@@ -156,7 +156,8 @@ nocopyright: true
 
 ## 好友链接
 
-- [__Jan Fan__](http://janfan.github.io/) - Pythoner, ML & NLP, Tencent
+- [__Jan Fan__](http://janfan.github.io/) - Good Student, Little NLP, Tencent
 - [__SF Zhou__](http://sf-zhou.github.io/) - ACMer, Microsoft
 - [__Shiwey Yan__](http://shiweyyan.github.io/) - Game Developer, QQ 飞车, Tencent
 - [__Johnson__](http://mrzys.coding.me/) - Pythoner, Web, Sina
+- [__几步教程__](https://nsteptech.com/) - 不业余的中文技术教程
