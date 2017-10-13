@@ -17,7 +17,7 @@ language: zh-Hans
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://icehe.me
+url: https://icehe.me
 root: /
 #permalink: :year/:month/:day/:title/
 permalink: :title/
