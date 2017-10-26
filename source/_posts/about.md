@@ -10,20 +10,20 @@ nocopyright: true
 # __介绍__
 
 - __我是__
-    - <i class="fa fa-fw fa-star"></i> Ice He / Hzy
-        <sup><i class="fa fa-fw fa-paper-plane"></i> 广州人在北京，潜心技术</sup>
+    - <i class="fa fa-fw fa-star"></i> Ice He | Hzy
+        <sup><i class="fa fa-fw fa-paper-plane"></i> 广州人在北京</sup>
     - <i class="fa fa-fw fa-weibo"></i> 微博移动应用服务
         <sup><i class="fa fa-fw fa-gear"></i> PHP 服务端开发 - Mobile API</sup>
-    - <i class="fa fa-fw fa-envelope-o"></i> x#icehe.me <sup> # → @</sup>
+    - <i class="fa fa-fw fa-envelope-o"></i> x@icehe.me
         <sup><i class="fa fa-fw fa-wechat"></i> [微信](http://7vzp68.com1.z0.glb.clouddn.com/about_original/qrcode_01.jpg) , [微博](http://weibo.com/icedes) , [博客](http://icehe.me) , [GitHub](https://github.com/IceHe) , [知乎](https://www.zhihu.com/people/icehe/activities) , [豆瓣](https://www.douban.com/people/IceHeGZ)</sup>
     - <i class="fa fa-fw fa-font"></i> Less. 宁静致远。
-        <sup><i class="fa fa-fw fa-heart"></i> tech. , ACGMN , 羽毛球 , ~~毽球~~</sup>
+        <sup><i class="fa fa-fw fa-heart"></i> [ACGMN](https://baike.baidu.com/item/ACGMN) , 羽毛球 , ~~毽球~~</sup>
 - __特点__
     - <i class="fa fa-fw fa-gears"></i> 工具控 - [我的利器](/tools)
-        <sup>Apps & 硬件</sup>
+        <sup>Apps & 物件</sup>
     - <i class="fa fa-fw fa-keyboard-o"></i> 效率厨 - [我的快捷键](/mac_shortcuts)
         <sup>默认 & 自定义</sup>
-    - <i class="fa fa-fw fa-calendar"></i> 省察 - [时间管理日志](/lifelogs)
+    - <i class="fa fa-fw fa-calendar"></i> 省察 - [时间管理](/lifelogs)
         <sup>时间使用情况记录 & 统计</sup>
 - __生活__
     - <i class="fa fa-fw fa-heart"></i> [最喜爱的](/favourites)
