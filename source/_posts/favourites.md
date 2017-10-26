@@ -1,6 +1,6 @@
 title: 最喜爱的
 date: 2015-11-19
-updated: 2017-05-10
+updated: 2017-10-26
 categories: [read]
 tags: [read]
 description: Favorites&#58; 我最喜欢的书籍、电影、电视剧、动画、游戏…
@@ -12,48 +12,54 @@ description: Favorites&#58; 我最喜欢的书籍、电影、电视剧、动画�
 __《论语·述而》__
 {% endcq %}
 
-- __所爱之物记录于此。__所爱不少，所以只记录最偏爱的那一些。
+- __所爱之物记录于此。__ 所爱不少，所以只记录最偏爱的那一些。
+
+# Apps
+# 物件
+
+- [__利器推荐__](/tools)
 
 # 运动
 
 - __羽毛球__
-- [__毽球__](/about/#华工毽球社-社长)
+- [~~__毽球__~~](/about/#华工毽球社-社长)
 
 # 书
 
-- [__Reading Bookmarks - Books__](/read/#书)
+- [__阅读收藏夹__](/read/#书)
 
 # 电影
 
+大致按喜爱程度，从低到高排：
 - [__Limitless__](https://movie.douban.com/subject/3041269/)
     《永无止境》，爽！
 - [__Whiplash__](https://movie.douban.com/subject/25773932/)
     《爆裂鼓手》，反励志 / 残酷鸡汤。
-- [__The Secret Life of Walter Mitty__](https://movie.douban.com/subject/2133323/) <sup>__Best__</sup>
+- [__The Secret Life of Walter Mitty__](https://movie.douban.com/subject/2133323/)
     《白日梦想家》，让梦境照进现实。
 - [__Zootopia__](https://movie.douban.com/subject/25662329/)
     《疯狂动物城》，隐喻。
 - [__夏洛特烦恼__](https://movie.douban.com/subject/25964071/)
     凡人的梦。
+- [__The Godfather__](https://movie.douban.com/subject/1291841/)
+    《教父》系列，何为男人。
 - [__Léon__](https://movie.douban.com/subject/1295644/)
     《这个杀手不太冷》
 - [__Inception__](https://movie.douban.com/subject/3541415/)
     《盗梦空间》，精彩。
-- [__Fight Club__](http://www.imdb.com/title/tt0137523/) <sup>__Best__</sup>
+- [__Fight Club__](http://www.imdb.com/title/tt0137523/)
     《搏击俱乐部》，另一个自我！
-- [__The Godfather__](https://movie.douban.com/subject/1291841/) <sup>__Best__</sup>
-    《教父》系列，何为男人。
-- [__Forrest Gump__](https://movie.douban.com/subject/1292720/) <sup>__Best__</sup>
-    《阿甘正传》，温暖。
 - [__The Shawshank Redemption__](https://movie.douban.com/subject/1292052/)
     《肖申克的救赎》，自由。
+- [__Forrest Gump__](https://movie.douban.com/subject/1292720/)
+    《阿甘正传》，温暖。
 - [__三傻大闹宝莱坞__](https://movie.douban.com/subject/3793023/)
     教育（鸡汤）。
-- [__未麻的部屋__](https://movie.douban.com/subject/1395091/)
-    惊悚，精巧的叙事。
 - [__千与千寻__](https://movie.douban.com/subject/1291561/)
     追寻。
-- [__麦兜故事__](https://movie.douban.com/subject/1302476/) <sup>__Best__</sup>
+- [__未麻的部屋__](https://movie.douban.com/subject/1395091/)
+    惊悚，精巧的叙事。
+- [__麦兜故事__](https://movie.douban.com/subject/1302476/)
     童真。
 - [__借东西的小人艾缇莉雅__](https://movie.douban.com/subject/4202302/)
     诗意。
@@ -63,9 +69,9 @@ __《论语·述而》__
     洒脱。
 - [__夏日大作战__](https://movie.douban.com/subject/3908423/)
     夏。
-- [__哈尔的移动城堡__](https://movie.douban.com/subject/1308807/) <sup>__Best__</sup> <sup>最爱 No.2</sup>
+- [__哈尔的移动城堡__](https://movie.douban.com/subject/1308807/) <sup>最爱 No.2</sup>
     绚丽。
-- [__你的名字。__](https://movie.douban.com/subject/1308807/) <sup>__Best__</sup> <sup>最爱 No.1</sup>
+- [__你的名字。__](https://movie.douban.com/subject/1308807/) <sup>最爱 No.1</sup>
     梦。
 
 # 电视剧
@@ -79,19 +85,21 @@ __《论语·述而》__
 - [__Legal High__](https://movie.douban.com/subject_search?search_text=Legal+High&cat=1002) <sup>__Best__</sup>
     法律至高。
 - [__Black Mirror__](https://movie.douban.com/subject_search?search_text=Black+Mirror&cat=1002) <sup>__Best__</sup>
-    《黑镜》，警世。
+    《黑镜》，警世。<sup>（第一季最精彩）</sup>
 
 # 动画
 
-- [__排球少年__](https://www.douban.com/search?q=%E6%8E%92%E7%90%83%E5%B0%91%E5%B9%B4) <sup>__Best of the Best__</sup>
-    新世代的灌篮！
+- [__食梦者__](https://movie.douban.com/subject/4195628/) <sup>__Best of the Best__</sup>
+    十年！<sup>（包括 [第二季](https://movie.douban.com/subject/5407066/)、[第三季](https://movie.douban.com/subject/7161694/)）</sup>
+- [__排球少年__](https://movie.douban.com/subject/25732103/) <sup>__Best of the Best__</sup>
+    新世代的灌篮！<sup>（包括 [第二季](https://movie.douban.com/subject/26285156/)、[第三季](https://movie.douban.com/subject/26752075/)）</sup>
 - [__乒乓__](https://movie.douban.com/subject/25813424/) <sup>__Best of the Best__</sup>
     人生，天赋与努力。
+- [__棋魂__](https://movie.douban.com/subject/1474243/) <sup>__Best__</sup>
+    围棋。
 - [__虫师__](https://movie.douban.com/subject/1800597/)
     恬静，幽深。
-- [__棋魂__](https://movie.douban.com/subject/1474243/)
-    围棋。
-- [____亚人____](https://movie.douban.com/review/7794549/) <sup>__Best__</sup>
+- [__亚人__](https://movie.douban.com/review/7794549/) <sup>__Best__</sup>
     人性，理性。
 - [__寄生兽__](http://baike.baidu.com/view/15161941.htm?fromtitle=%E5%AF%84%E7%94%9F%E5%85%BD%E7%94%9F%E5%91%BD%E7%9A%84%E5%87%86%E5%88%&fromid=15149279&type=syn)
     人性，自然。
@@ -115,6 +123,8 @@ __《论语·述而》__
     轮回，执念。
 - [__魔法少女圆香__](http://movie.douban.com/subject_search?search_text=%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%86&cat=1002) <sup>__Best of the Best__</sup>
     轮回，救赎。打破常规的魔女作品，虚渊玄作品！神作！
+- [__狂赌之渊__](https://movie.douban.com/subject/26977244/)
+    极致的表现力！
 - [__ONE OUTS~ Nobody wins but I!__](http://movie.douban.com/subject/3199457/) <sup>__Best__</sup>
     《超智游戏》，渡久地东亚！智力碾压。
 - [__钢之炼金术师__](https://movie.douban.com/subject/1433342/)
@@ -174,8 +184,10 @@ __《论语·述而》__
 
 ## iOS
 
-- [__Deemo__](https://itunes.apple.com/en/app/deemo/id700637744?mt=8) <sup>__Best__</sup>
+- [__Deemo__](https://itunes.apple.com/cn/app/deemo/id700637744?mt=8) <sup>__Best__</sup>
     最爱的音乐游戏！最喜爱的曲目： Magnolia , Walking by the sea , Living in the one.
+- [__Beholder__](https://itunes.apple.com/cn/app/beholder/id1205486761?mt=8) <sup>__Best__</sup>
+    反乌托邦。只要看一看游戏开头的过场动画，就会被故事背景和设定深深吸引…… 玩起来有点累，但毫无疑问，这是一款神作！
 
 ## PC
 
@@ -223,7 +235,7 @@ __《论语·述而》__
     我的重口 Gal 入门作，虚渊玄作品。
 - [__壳之少女__](https://zh.wikipedia.org/wiki/%E8%99%9A%E4%B9%8B%E5%B0%91%E5%A5%B3)
     超文艺，也超重口。
-- [__鬼哭街2011重制版__](http://baike.baidu.com/view/8890991.htm) <sup>__Best__</sup>
+- [__鬼哭街 2011 重制版__](http://baike.baidu.com/view/8890991.htm) <sup>__Best__</sup>
     我想象中的现代中式武侠打斗的文字描写范本，虚渊玄作品。
 
 ## 其它
@@ -258,3 +270,4 @@ __《论语·述而》__
 - Supercell
 - GARNiDELiA
 - LiSA
+- Ryo（现代音乐创作家！）
