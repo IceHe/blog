@@ -31,7 +31,7 @@ nocopyright: true
 
 ## [Cmd. 命令行](/categories/Command)
 
-- __[Git 总结](/cmd/git_note) - 常用操作__
+- [__Git 总结__](/cmd/git_note) - __常用操作__
 
 ## [Read 阅读积累](/categories/read)
 
@@ -42,7 +42,7 @@ nocopyright: true
 
 ## [Mac](/categories/Mac)
 
-- __[利器 - 软硬件推荐](/tools)__
+- [__利器 - 软件、物件的推荐__](/tools)
 - [Mac 效率指南](/mac/efficiency)
 - [Mac 快捷键](/mac_shortcuts)
 
@@ -52,7 +52,6 @@ nocopyright: true
 - [用 AppleScript 操作 Evernote / macOS](/applescript/evernote_osx/)
 
 ## [ASM 汇编](/categories/ASM)
-
 - 准备：[在win7 64位系统上使用 debug.exe](/asm/在win7 64位系统上使用debug.exe/)
 - 「1」[寄存器、CS、IP、CPU、内存](/asm/Assembly Language - Note 1/)
 - 「2」[大小端、寄存器、DS、[addr]、栈](/asm/Assembly Language - Note 2/)
