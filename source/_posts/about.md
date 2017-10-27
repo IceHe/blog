@@ -12,7 +12,7 @@ nocopyright: true
 - __我是__
     - <i class="fa fa-fw fa-star"></i> Ice He | Hzy
         <sup><i class="fa fa-fw fa-paper-plane"></i> 广州人在北京</sup>
-    - <i class="fa fa-fw fa-weibo"></i> 微博移动应用服务
+    - <i class="fa fa-fw fa-weibo"></i> 微博移动服务技术部
         <sup><i class="fa fa-fw fa-gear"></i> PHP 服务端开发 - Mobile API</sup>
     - <i class="fa fa-fw fa-envelope-o"></i> x@icehe.me
         <sup><i class="fa fa-fw fa-wechat"></i> [微信](http://7vzp68.com1.z0.glb.clouddn.com/about_original/qrcode_01.jpg) , [微博](http://weibo.com/icedes) , [博客](http://icehe.me) , [GitHub](https://github.com/IceHe) , [知乎](https://www.zhihu.com/people/icehe/activities) , [豆瓣](https://www.douban.com/people/IceHeGZ)</sup>
@@ -94,7 +94,7 @@ nocopyright: true
 ## <i class="hidden">微博移动 - 服务端开发</i>
 __<i class="fa fa-fw fa-weibo"></i> [微梦创科网络技术（中国）有限公司](https://zh.wikipedia.org/wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A) - 微博移动 - 服务端研发__&emsp;_2015.07 ~ 现在_
 
-- MAPI（移动应用服务）部门 - 职责：「[微博移动端](https://itunes.apple.com/cn/app/id350962117)」（手机、平板）的服务端 API 的开发与维护，
+- MAPI（微博移动服务技术部）- 职责：「[微博移动端](https://itunes.apple.com/cn/app/id350962117)」（手机、平板）的服务端 API 的开发与维护，
     - 包括 [开放平台](http://open.weibo.com/) API 、各业务方 与 微博移动端（H5、客户端）之间信息的聚合与适配对接
     - 重构 微博移动 API v7 项目 Sora 的登录模块，以及相关接口
     - 开发维护 手机微博管理后台 v5（B/S）频道打点管理模块
