@@ -1,9 +1,9 @@
-title: 2017 夏与秋
+title: 2017 夏秋与冬
 date: 2017-10-18
 updated: 2017-10-19
 categories: [think]
 tags: [think]
-description: 五月至十月，夏秋事记。
+description: 五月至十二月，夏秋冬事记。
 ---
 
 ## 长发
