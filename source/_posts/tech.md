@@ -30,6 +30,7 @@ __Albert Einstein__
 
 - [My Git Note](/cmd/git_note)
 - [Vim Cheat Sheet](http://coolshell.cn//wp-content/uploads/2011/09/vim_cheat_sheet_for_programmers_print.png) - Vim 键位操作总结图
+- [PHP.net](http://php.net) 官方文档
 - [PHP The Right Way](http://www.phptherightway.com/) <sup>_todo_</sup>
 - [PHP Type Comparisons](http://www.php.net/manual/en/types.comparisons.php) - PHP 变量比较结果参考
 <!-- - 注意：官方文档的表格依然有错，建议 [用代码来进行实验](/php/determine_variable/#代码实验)。 -->
@@ -39,7 +40,9 @@ __Albert Einstein__
 ## 算法
 
 - [Advanced Data Structures](http://courses.csail.mit.edu/6.851/) <sup>_todo_</sup>
+- [Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms/)
 - [Visual Algo](http://visualgo.net/) - Visualising data structures and algorithms through animation. <sup>_todo_</sup>
+- [ACM Cheat Sheet](https://github.com/soulmachine/acm-cheat-sheet) - 入门范例 <sup>__Best__</sup> <sup>_todo_</sup>
 - [Consistent Hashing 五分钟理解一致性哈希算法](http://blog.csdn.net/cywosp/article/details/23397179)
 - [尾递归调用](https://github.com/ruanyf/articles/blob/master/2015/2015-04-10-tail-call.md)
 - [随机问题 - 洗牌算法](http://mp.weixin.qq.com/s?__biz=MzA4NjE3MDg4OQ==&amp;mid=403338527&amp;idx=1&amp;sn=0c3649ba03268f8b9605b1b75e14cb8b&amp;scene=1&amp;srcid=0406vMkKTTz3LabAOl04P8L6#rd)
@@ -78,10 +81,12 @@ __Albert Einstein__
 - [“字节序”是什么？](http://blog.jobbole.com/102432/)- 大端与小端，深入浅出
 - [十分钟搞清字符集和字符编码](http://blog.jobbole.com/84903/)
 - [中文编码杂谈](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&amp;mid=401458542&amp;idx=1&amp;sn=8b92d5fb274760558154eb38a7a796de&amp;scene=1&amp;srcid=0104vzltG2BqJX4KXEWMcK4N#rd)
+- [程序员小灰](http://chuansong.me/account/dreamsee321) <sup>微信公众号</sup> <sup>__Best__</sup>
 
 ## Web
 
 - [Nginx 教程](http://openresty.org/download/agentzh-nginx-tutorials-zhcn.html) <sup>_todo_</sup>
+- [一个故事讲完 HTTPS](https://mp.weixin.qq.com/s?__biz=MzAxOTc0NzExNg==&mid=2665513779&idx=1&sn=a1de58690ad4f95111e013254a026ca2) - 原理思想
 - [HTTPS 之难](http://www.infoq.com/cn/articles/https-difficult)
 - [AJAX 知识体系梳理](http://louiszhai.github.io/2016/11/02/ajax/)
 - [大公司里怎样开发和部署前端代码？](https://www.zhihu.com/question/20790576)<sup>__Best__</sup>
@@ -89,10 +94,10 @@ __Albert Einstein__
 - [TCP/IP 协议栈及 OSI 参考模型详解](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&mid=213726432&idx=1&sn=337e2442c23c811cb96bd8315e3d4916&scene=5&srcid=09208rmQfdovBALp0y138PM3#rd)
 - [TCP/IP 协议详解内容总结](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&mid=213790057&idx=2&sn=06296c4e3b67fa227b703c6d31a23b3e&scene=5&srcid=0925aDg44vjLgZvCaRNTmrKZ#rd)
 - [高扩展性网站的50条原则](http://www.cnblogs.com/xing901022/p/4425124.html)
-- [FreeRouterV2_HandBook.pdf](https://github.com/lifetyper/FreeRouter_V2/blob/master/FreeRouterV2_HandBook.pdf) <sup>_temp_</sup>
+- [FreeRouterV2_HandBook.pdf](https://github.com/lifetyper/FreeRouter_V2/blob/master/FreeRouterV2_HandBook.pdf)
 - [{json:api}](http://jsonapi.org/) - B/S 间的 JSON 格式数据的传输规范 <sup>_temp_</sup>
-- [为什么全栈JavaScript经常被黑，而Java却不会被黑？](https://www.zhihu.com/question/43165251/answer/95373570)- “全栈”之路 <sup>_temp_</sup>
-- [PHP-FPM 不完全指南](https://www.tooto.cc/archives/193) <sup>_todo_</sup>
+- [为什么全栈 JavaScript 经常被黑，而 Java 却不会被黑？](https://www.zhihu.com/question/43165251/answer/95373570)- “全栈”之路 <sup>_temp_</sup>
+- [WTF JS?](https://github.com/denysdovhan/wtfjs) - A list of funny and tricky JavaScript examples
 
 ## 架构
 
@@ -109,6 +114,8 @@ __Albert Einstein__
 - [谈谈系统设计的面试](http://zhuanlan.zhihu.com/p/20578447) - 服务端的扩容、缓存与架构升级（评论更精彩）
 - [西乔的漫画《神秘的程序员们》](http://chuansong.me/account/coderstory)- 此处推荐《[架构师成长之路](http://chuansong.me/n/802248948967)》系列：深入浅出！
 - [常见的网站服务器架构有哪些？](https://www.zhihu.com/question/20657269/answer/32678620)- 演进
+- [缓存更新的套路](https://coolshell.cn/articles/17416.html) <sup>__Best__</sup>
+- [工作线程数究竟要设置为多少](https://mp.weixin.qq.com/s/BRpngTEFHjzpGv8tkdqmPQ)
 
 ## Linux
 
@@ -139,6 +146,7 @@ __Albert Einstein__
 
 ## 职业发展
 
+- [刷题时代的困局](https://zhuanlan.zhihu.com/p/20252242?refer=baozipu)
 - [怎样花两年时间去面试一个人](http://mindhacks.cn/2011/11/04/how-to-interview-a-person-for-two-years/)
 - [计算机行业还能火几年？](https://www.zhihu.com/question/27809894/answer/98696858)- 前景！？
 - [Why I Strive to be a 0.1x Engineer](http://benjiweber.co.uk/blog/2016/01/25/why-i-strive-to-be-a-0-1x-engineer/) - 不折腾的哲学 <sup>[简译](https://github.com/ruanyf/articles/blob/master/gists/2016-01-27-01x-engineer.md)</sup>
