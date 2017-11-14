@@ -1,6 +1,6 @@
 title: 最喜爱的
 date: 2015-11-19
-updated: 2017-10-26
+updated: 2017-11-15
 categories: [read]
 tags: [read]
 description: Favorites&#58; 我最喜欢的书籍、电影、电视剧、动画、游戏…
@@ -101,6 +101,8 @@ __《论语·述而》__
     恬静，幽深。
 - [__亚人__](https://movie.douban.com/review/7794549/) <sup>__Best__</sup>
     人性，理性。
+- [__犬屋敷__](https://movie.douban.com/subject/26936271/)
+    残忍，极恶！
 - [__寄生兽__](http://baike.baidu.com/view/15161941.htm?fromtitle=%E5%AF%84%E7%94%9F%E5%85%BD%E7%94%9F%E5%91%BD%E7%9A%84%E5%87%86%E5%88%&fromid=15149279&type=syn)
     人性，自然。
 - [__一拳超人__](http://movie.douban.com/subject/26339248/) <sup>__Best__</sup>
@@ -117,8 +119,10 @@ __《论语·述而》__
     异能。
 - [__叛逆的鲁鲁修__](http://movie.douban.com/subject_search?search_text=%E5%8F%9B%E9%80%86%E7%9A%84%E9%B2%81%E9%B2%81%E4%BF%AE&cat=1002) <sup>__Best of the Best__</sup>
     剧情、奇幻、机战、政治…… 各元素熔于一炉的神作！
-- [__高达 Seed__](http://movie.douban.com/subject/1766546/) & [__Seed Destiny__](http://movie.douban.com/subject/1766551/) & [__OO__](http://mov.douban.com/subject/2309838/) & [__铁血孤儿__](http://movie.douban.com/subject/26538787/)
-    神棍偶像剧 & 铁血孤儿。
+- [__高达 OO__](http://mov.douban.com/subject/2309838/) <sup>__Best__</sup>
+    理解。和平。
+- [__高达 Seed__](http://movie.douban.com/subject/1766546/) & [__Seed Destiny__](http://movie.douban.com/subject/1766551/)& [__铁血孤儿__](http://movie.douban.com/subject/26538787/)
+    神棍偶像剧（音乐棒呆！）& 铁血孤儿。
 - [__Re：从零开始的异世界生活__](https://movie.douban.com/subject/26575153/) <sup>__Best of the Best__</sup>
     轮回，执念。
 - [__魔法少女圆香__](http://movie.douban.com/subject_search?search_text=%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%86&cat=1002) <sup>__Best of the Best__</sup>
@@ -145,6 +149,8 @@ __《论语·述而》__
     《不死者之王》，就喜欢装逼毫无违和感的满级主角。
 - [__EVA__](http://movie.douban.com/subject_search?search_text=%E6%96%B0%E4%B8%96%E7%BA%AA%E7%A6%8F%E9%9F%B3%E6%88%98%E5%A3%AB&cat=1002)
     （上一世代的）神作。
+- [__末日时在做什么？有没有空？可以来拯救吗？__](https://movie.douban.com/subject/26829746/) <sup>__Best__</sup>
+    爱情。泪目。
 - [__我的青春恋爱物语果然有问题__](http://movie.douban.com/subject_search?search_text=%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E6%81%8B%E7%8B1%E7%89%A9%E8%AF%AD%E6%9E%9C%E7%84%B6%E6%9C%89%E9%97%AE%E9%A2%98&cat=1002) <sup>__Best of the Best__</sup>
     少年心声。
 - [__我的妹妹不可能那么可爱__](http://movie.douban.com/subject_search?search_text=%E6%88%91%E7%9A%84%E5%A6%B9%E5%A6%B9%E4%B8%8D%E5%8F%AF8%83%BD%E9%82%A3%E4%B9%88%E5%8F%AF%E7%88%B1&cat=1002) <sup>__Best__</sup>
@@ -153,6 +159,8 @@ __《论语·述而》__
     恋上漫画家。
 - [__甘城光辉游乐园__](https://movie.douban.com/subject/25812280/)
     欢乐。
+- [__笨蛋测试召唤兽__](https://www.douban.com/search?cat=1002&q=%E7%AC%A8%E8%9B%8B%E6%B5%8B%E8%AF%95%E5%8F%AC%E5%94%A4%E5%85%BD)
+    秀吉！
 - [__邻座的怪同学__](http://movie.douban.com/subject/10759936/)
     女学霸和男学霸的爱情故事。
 - [__交响情人梦__](http://movie.douban.com/subject_search?search_text=%E4%BA%A4%E5%93%8D%E6%83%85%E4%BA%BA%E6%A2%A6&cat=1002)
