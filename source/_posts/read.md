@@ -1,6 +1,6 @@
 title: 文字阅读收藏
 date: 2016-06-17
-updated: 2017-04-09
+updated: 2017-11-15
 categories: [read]
 tags: [read]
 description: Reading Bookmarks 文字阅读内容的书签：网站、博客、文章、问答、专栏、书籍、播客、微信公众号…
@@ -135,6 +135,7 @@ __Albert Einstein__
 - [我们，新时代的“新穷人”](http://mp.weixin.qq.com/s?__biz=MjM5NzE2NTY0Ng==&mid=2650672961&idx=1&sn=4a12793b86cecd485b90c9fbbbff2130&chksm=bed4806089a30976e36eb60c81939e28e4bd6e5e2d37519943d8dc0618f90c62edd9b260fa79&mpshare=1&scene=1&srcid=0117qPK7GvUf9PO6Wk73aBiB#rd) - 连剥削的价值也没有
 - [房地产、银行、贷款、政府、贫民、富民、泡沫、经济崩溃，他们之间是什么联系关系？](https://www.zhihu.com/question/19894997/answer/123847049?from=singlemessage&isappinstalled=0) - 房地产问题 <sup>__Best__</sup>
 - [让你信上帝未必肯，让你发财干不干？](http://media.weibo.cn/article?id=2309404063588640796878&jumpfrom=weibocom&luicode=20000174&_T_WM=2ea9d53d6c410dabd0bcf6a54bc05fd4) - 宗教的逻辑？
+- [中国房价最终会崩盘吗？](https://www.zhihu.com/question/62145336/answer/195893425)<sup>__Best__</sup>
 
 ### 健康
 
@@ -340,8 +341,8 @@ __Albert Einstein__
 - [吃惑](http://www.gzhphb.com/item/16/168190.html) - 健康饮食、正确健身。
 - [大浪淘沙](http://chuansong.me/account/knowledgewealth) - 政治、历史的一些有启发的见解（可供参考，请批判）。
     - [穷是因为懒、被骗因为笨、女生被性侵因为穿的少——这些“奇葩”思想的根源在哪里？](http://mp.weixin.qq.com/s?__biz=MjM5NzE2NTY0Ng==&mid=2650672679&idx=1&sn=aa72c26e937580b45df811e0efc957ee&scene=1&srcid=0703iYn1sTVmEdj8qxEMWwfd#rd)
-- [君临](http://chuansong.me/account/junlin_1980) - 富有价值的商业洞见！
-- [肥肥猫的小酒馆](http://chuansong.me/account/zhihufeifeimao) - 知乎高赞答主。
+- [Kane的小K屋](http://chuansong.me/account/KRoom01) <sup>__Best__</sup> - 通俗有趣的金融、经济、社会常识！
+- [caoz的梦呓](http://chuansong.me/account/caozsay) <sup>__Best__</sup> - 创业、技术、科技
 
 ## 额外
 
