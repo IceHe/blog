@@ -1,6 +1,6 @@
 title: Mac 快捷键
 date: 2016-01-06
-updated: 2017-05-27
+updated: 2017-11-15
 categories: [Mac]
 tags: [Mac]
 description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
@@ -135,6 +135,7 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
     _`⌥ ⇧ F` Search in All Files_ <sup>_custom_</sup>
     _`⌥ ⇧ ?` Show Help Menu_ <sup>_custom_</sup>
 
+
 <!--
 - Space
 
@@ -200,6 +201,8 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
 
 
 - View
+
+    `⌘ ⇧ .` Show Hidden Files
 
     `凵` Quick Look
     `⌘ i` Get Info
