@@ -1,6 +1,6 @@
 title: CV 简历
 date: 2015-01-20
-updated: 2017-04-20
+updated: 2017-11-16
 categories: [whoami]
 tags: [whoami]
 description: IceHe 的经验、技能、教育 & 其它：微博移动应用服务 / 服务端 / PHP；华南理工 / 软件工程 / 本科 …
@@ -46,7 +46,7 @@ nocopyright: true
     <sup>笔记、总结、思考、Mac、Git、C++、ASM…</sup>
 
 - <i class="fa fa-fw fa-github-alt"></i> __GitHub__ : [IceHe](https://github.com/IceHe)
-    <sup>工具配置、博客托管、自动化脚本、作品…</sup>
+    <sup>工具配置、自动化脚本、作品…</sup>
 
 - __技能级别__
     <i class="fa fa-fw fa-trophy"></i> Proficient 精通
@@ -80,7 +80,7 @@ nocopyright: true
     <i class="fa fa-fw fa-star-o"></i> `Qt 4 / 5`
 
 - __IDE__
-    <i class="fa fa-fw fa-star-half-o"></i> __`PhpStorm` `PyCharm`__
+    <i class="fa fa-fw fa-star-half-o"></i> __`PhpStorm`__
     <i class="fa fa-fw fa-star-o"></i> `Visual Studio` `Eclipse`
 
 - __语言__
@@ -94,15 +94,39 @@ nocopyright: true
 ## <i class="hidden">微博移动 - 服务端开发</i>
 __<i class="fa fa-fw fa-weibo"></i> [微梦创科网络技术（中国）有限公司](https://zh.wikipedia.org/wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A) - 微博移动 - 服务端研发__&emsp;_2015.07 ~ 现在_
 
-- MAPI（微博移动服务技术部）- 职责：「[微博移动端](https://itunes.apple.com/cn/app/id350962117)」（手机、平板）的服务端 API 的开发与维护，
-    - 包括 [开放平台](http://open.weibo.com/) API 、各业务方 与 微博移动端（H5、客户端）之间信息的聚合与适配对接
-    - 重构 微博移动 API v7 项目 Sora 的登录模块，以及相关接口
-    - 开发维护 手机微博管理后台 v5（B/S）频道打点管理模块
+- MAPI 微博移动服务技术部：[微博移动端](https://itunes.apple.com/cn/app/id350962117)（手机、平板）的服务端 API 和 CMS 后台的开发与维护
+    - 部门职责：[微博开放平台](http://open.weibo.com/) API 、各业务方与微博移动端（H5、客户端）之间的数据整合和适配对接
+    - 重构部门主项目「微博移动服务 API」，包括登录、HTTP 请求、请求参数处理、日志记录等模块
+    - 维护开发环境的 Docker 镜像，审核代码，改进工作流程，管理迁移进度，编写相关文档
+    - 工作流程自动化（CI 持续集成、定时任务、事件任务、自动脚本命令）：
+        - 自动上线（GitLab CI, Jenkins CI）、发布日志回写（Release Note）、上线公告（Email）
+        - 提测通知（Email）、Issues 管理（Issue Board）、清理无用的仿真或正式包（Branche, Tag）
+        - 语法检查（PHPLint）、代码风格检查（PHPCS）、单元测试（PHPUnit）
+        - 生成代码覆盖率报告（PHPUnit）和 API 文档（Sami）、文档网站更新（CI, Pages, Hexo）
+        - 使用 GitLab 的 API、CI & Runner，定时任务、Bash 脚本，优化 CI 运行效率
+        - 编写项目内部定制的命令行工具（Symfony Console Command）
 - 2016.04 ~ 2016.08 参与「[微博头条](https://itunes.apple.com/cn/app/wei-bo-tou-tiao/id713957166)」的服务端 API 及其 CMS 后台的开发与维护：
-    - 完全重构 频道订阅模块，开发维护 供产品运营人员使用的 CMS 频道列表管理后台
-    - 部分重构 微博头条客户端行为日志记录模块，兼容微博客户端的行为日志格式
-    - 开发维护 微博头条频道 Feed、微博广场头条流、热门微博头条流、文章与标签分享等 API
-- _PHP 7 , Docker , Yaf , Lumen , Nginx , Redis , MySQL , CentOS 6.5 , GitLab_
+    - 重构 频道订阅模块，维护 CMS 频道列表管理后台供产品运营人员使用
+    - 重构 微博头条客户端行为日志记录模块，兼容微博客户端的行为日志格式
+- _PHP 7 , Yaf , Lavarel , Docker , CentOS , GitLab_
+
+## <i class="hidden">微博移动 - 服务端 实习</i>
+__<span class="icon-weibo">&nbsp;</span>[微梦创科网络技术（中国）有限公司](https://zh.wikipedia.org/wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A) - 手机微博 - 服务端研发 实习生__&emsp;_2014.12 ~ 2015.02_
+
+- 「手机微博管理后台」v5（B/S）- 开发「活动管理，常量管理，日程管理」等模块
+- _PHP 5.6 , HTML , CSS , JavaScript , jQuery , MySQL_
+
+## <i class="hidden">华为软件 - Web 研发 实习</i>
+__[华为软件技术（深圳）有限公司](https://zh.wikipedia.org/wiki/%E5%8D%8E%E4%B8%BA)  - 软件研发 实习__&emsp;_2014.07 ~ 2014.10_
+
+- 「广东移动电子渠道项目」即 [官网](http://www.10086.cn/gd/index_200_200.html) 建设 - 开发「移动商城」、「我的移动」模块的部分需求
+- _Java , J2EE , Spring , Struct2 , MyBatis , OracleDB , JSP , JavaScript , jQuery_
+
+## <i class="hidden">华工实验室 - PC C/S</i>
+__华南理工 IBM 实验室 - 成员__&emsp;_2013.03 ~ 2014.05_
+
+- 「华工教学云平台」Windows 客户端（C++ Qt GUI），及 Linux 服务端的部分功能
+- _C , C++ , Qt Framework , CentOS 6.5_
 
 ## <i class="hidden">毕业设计 - 进程安全测量</i>
 __毕业设计 - [基于进程安全测量的安全管理](https://github.com/IceHe/secure_mgt_by_dynamic_measuring)__&emsp;_2015.03 ~ 2015.05_
@@ -111,25 +135,7 @@ __毕业设计 - [基于进程安全测量的安全管理](https://github.com/Ic
 - 原理：用 SHA-1 分别计算进程在内存中的代码段与参数段，
     - 得出定长的信息摘要作为特征值（方便比对），去比对标准特征值，
     - 便可判断进程是否被篡改，或程序是否被替换
-- _C/C++ , Loadable Kernel Module , CentOS 7 , Qt Framework_
-
-## <i class="hidden">微博移动 - 服务端 实习</i>
-__<span class="icon-weibo">&nbsp;</span>[微梦创科网络技术（中国）有限公司](https://zh.wikipedia.org/wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A) - 手机微博 - 服务端研发 实习生__&emsp;_2014.12 ~ 2015.02_
-
-- 「手机微博管理后台」v5（B/S）- 开发「活动管理，常量管理，日程管理」等模块
-- _PHP 5.6 , Yaf , HTML , CSS , JavaScript , jQuery , MySQL_
-
-## <i class="hidden">华为软件 - Web 研发 实习</i>
-__[华为软件技术（深圳）有限公司](https://zh.wikipedia.org/wiki/%E5%8D%8E%E4%B8%BA)  - 软件研发 实习__&emsp;_2014.07 ~ 2014.10_
-
-- 「广东移动电子渠道项目」即 [官网](http://www.10086.cn/gd/index_200_200.html) 建设 - 开发「移动商城」、「我的移动」模块的部分需求
-- _JavaEE , Spring , Struct2 , MyBatis , OracleDB , JSP , JavaScript , jQuery_
-
-## <i class="hidden">华工实验室 - PC C/S</i>
-__华南理工 IBM 实验室 - 成员__&emsp;_2013.03 ~ 2014.05_
-
-- 「华工教学云平台」Windows 客户端（C++ Qt GUI），及 Linux 服务端的部分功能
-- _C , C++ , Qt Framework , CentOS 6.5_
+- _C , C++ , Loadable Kernel Module , CentOS 7 , Qt Framework_
 
 ---
 
@@ -155,7 +161,7 @@ __[广州市执信中学](https://zh.wikipedia.org/wiki/%E5%B9%BF%E5%B7%9E%E5%B8
 
 # 其它
 
-- 大学实践。
+- 大学实践
 
 ## <i class="hidden">华工毽球社 - 社长</i>
 __华南理工毽球社 - 社长__&emsp;_2012.09 ~ 2014.06_
@@ -163,7 +169,7 @@ __华南理工毽球社 - 社长__&emsp;_2012.09 ~ 2014.06_
 - 2016.05.15 「京津冀天津毽球邀请赛」混合团体冠军（1/16）
 - 2016.03.13 「天津星五洲杯毽球邀请赛」混合团体亚军（2/16）
 - 广东省第十五届「高校杯毽球邀请赛」男子团体第七名（7/32）
-- 广东省第六届「大学生毽球精英挑战赛」男子团体 16 强（16/32)
+- 广东省第六届「大学生毽球精英挑战赛」男子团体 16 强（16/32）
 - 广东省第十六届「高校杯毽球邀请赛」男子团体 16 强（16/32）
 - 2011 至 2014 「大学城毽球联赛」分获亚军、季军、亚军、季军（前7）
 - 2013 至 2015 「华工双人毽球争霸赛」分获冠军、亚军、冠军（前16）
@@ -177,14 +183,10 @@ __华南理工职业体验协会 - 会长__&emsp;_2013.03 ~ 2014.06_
     - 邀请到零点研究咨询集团董事长兼 CEO [袁岳](http://baike.baidu.com/view/801470.htm) 先生作主讲嘉宾
 - 出席 2013 年 [第三届](http://page.renren.com/600002531/note/911026751)「全球创业周中国站校园伙伴高峰论坛」（上海）
 - 参加 2013 年 第三届「梦想 Safari 素质教育论坛」（珠海）
+- 举办「一站到底」华工版、「生存挑战营」（在陌生城市挣返校费用）2 届
+- 承办「职场好声音」讲座 2 场、承办「黑苹果职业访问大赛」华工场
 - 承办「过来人托业杯职场精英挑战赛」大学城分赛区初赛
-- 举办「一站到底」华工版
-- 举办「生存挑战营」（在陌生城市挣返校费用）2 届
-- 承办「黑苹果职业访问大赛」华工场
-- 承办「职场好声音」讲座 2 场
-- 主讲「策划撰写、商务礼仪」2 场培训
-- 举办 会员服务活动 6 场
-- 举办 素质拓展 2 场
+- 主讲「策划撰写、商务礼仪」2 场培训，举办 会员服务活动 6 场、素质拓展 2 场
 
 ## <i class="hidden">华工职业发展协会 - 干事</i>
 __华工学生职业发展协会 - 综合事务部 - 干事__&emsp;_2011.09 ~ 2012.06_
