@@ -343,6 +343,7 @@ __Albert Einstein__
     - [穷是因为懒、被骗因为笨、女生被性侵因为穿的少——这些“奇葩”思想的根源在哪里？](http://mp.weixin.qq.com/s?__biz=MjM5NzE2NTY0Ng==&mid=2650672679&idx=1&sn=aa72c26e937580b45df811e0efc957ee&scene=1&srcid=0703iYn1sTVmEdj8qxEMWwfd#rd)
 - [Kane的小K屋](http://chuansong.me/account/KRoom01) <sup>__Best__</sup> - 通俗有趣的金融、经济、社会常识！
 - [caoz的梦呓](http://chuansong.me/account/caozsay) <sup>__Best__</sup> - 创业、技术、科技
+- [丁香园](http://chuansong.me/account/caozsay) <sup>__Best__</sup> - 健康、医疗的常识科普！（还推荐他的知乎问答！）
 
 ## 额外
 
