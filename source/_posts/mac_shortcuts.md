@@ -129,12 +129,12 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
 - Accessory
 
     `⌘ 凵` Spotlight
-    Lf `^` = `⌥ 凵` Switch Input Sources <sup>_custom_</sup>
+    `⇪` Switch Chinese Input Source <sup>_custom_</sup>
+    `⇧` | `⎋` Switch English Input Source, when using Chinese input source <sup>_custom_</sup>
     `F1` Desktop <sup>_custom_</sup>
 
     _`⌥ ⇧ F` Search in All Files_ <sup>_custom_</sup>
     _`⌥ ⇧ ?` Show Help Menu_ <sup>_custom_</sup>
-
 
 <!--
 - Space
@@ -183,6 +183,7 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
     `⌘ ⇧ D` Desktop
     _`⌘ ⇧ F` All My Files_
     _`⌘ ⇧ G` to Folder_
+    `⌘ ⇧ I` iCloud
     `⌘ ⇧ O` Documents
     _`⌘ ⇧ R` AirDrop_
     `⌘ ⌥ l` Downloads
@@ -1042,6 +1043,7 @@ All the shortcuts can be modified in `Preferences` → `Keymap`!
 
     `⌘ f` Find
     `⌥ ↩` Find All
+    `⌘ r` Find Files
 
     `⌘ ⌥ f` Replace
     `⌘ ⌥ e` Replace one by one
