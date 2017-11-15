@@ -31,7 +31,7 @@ description: Blog Changelog&#58; 博客变更日志，以及《搭建个人博�
 - 加速 网站访问
     - 停用 Google Analytics，只用 百度统计
     - 停用 Google Fonts，改用 css.net 的字体资源
-    - 使用 Hexo Plugin hexo-all-minifier
+    - 使用 Hexo Plugin [hexo-all-minifier](https://github.com/chenzhutian/hexo-all-minifier)
         - 压缩 页面及其引用资源的占用的存储空间大小
     - 使用 BootCDN 的 `*.min.js` `*.min.css` 资源，替换所有相关开源包的 `*.js` `*.css`
         - 相关资源传输耗时从 100 ms+ 下降到 100 ms-
