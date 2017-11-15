@@ -63,6 +63,7 @@ __Albert Einstein__
     - [Stop Telling Students to Study for Exams](http://www.chronicle.com/article/Stop-Telling-Students-to-Study/131622/)
     - [How Tests Make Us Smarter](http://www.nytimes.com/2014/07/20/opinion/sunday/how-tests-make-us-smarter.html)
     - [Sorry, You Can’t Speed Read](https://www.nytimes.com/2016/04/17/opinion/sunday/sorry-you-cant-speed-read.html)
+- [How To Ask Questions The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html)
 - [你的自控能力强么？｜研究：不快乐的人自控力更差](http://mp.weixin.qq.com/s?__biz=MzI1OTAwNDc1OA==&amp;mid=405068698&amp;idx=1&amp;sn=a401b7eba92b3bc4378cb5ec8dfd7c48&amp;scene=1&amp;srcid=04011TWvm7WC8dEBpfJRwAIP#rd) <sup>[Note](/read/self_control.html)</sup>
     吃好，睡好，保持好心情与好状态，做发自内心想做的事情
 - [自控力极差的人如何自救？](https://www.zhihu.com/question/21368231)
@@ -71,6 +72,7 @@ __Albert Einstein__
 - [刘未鹏 | Mind Hacks](http://mindhacks.cn/) -「思维改变生活」
     - [逃出你的肖申克（七）：改变的科学和科学的改变](http://mindhacks.cn/2016/12/18/escape-from-your-shawshank-part7-science-of-change/)
     - …
+- [真正的时间管理只有一句话](https://zhuanlan.zhihu.com/p/30033445) <sup>_temp_</sup>
 
 ### 关系
 
@@ -123,6 +125,7 @@ __Albert Einstein__
 - [学术方面该如何评价哈耶克？](https://www.zhihu.com/question/20139880)- 公正的游戏规则
 - [有哪些优秀的沟通思路？](https://www.zhihu.com/question/36088643)
 - [学而时嘻之](http://www.geekonomics10000.com/) - 博客「用理工科思维理解世界」
+- [成功并不难，在于少犯错误](https://m.igetget.com/share/audio/aid/NjdFyCB0wtrv9kcJjmJg) - 保持有时就行
 
 ### 政治
 
@@ -157,6 +160,7 @@ __Albert Einstein__
 - [正确坐姿](http://mp.weixin.qq.com/s?__biz=MjM5NzA1MTcyMA==&mid=204444629&idx=1&sn=cbab111041ec4302c8faac4aedf55a94&scene=0#rd) - 腰椎、颈椎
 - [自慰的真正危害有哪些？](https://www.zhihu.com/question/20519139)- 无碍
 - [日常生活中有哪些所谓的性知识是错误的？](https://www.zhihu.com/question/20576450)- 常识
+- [20岁, 有哪些良好的健康习惯需要养成？](https://www.zhihu.com/question/26455718/answer/164545284)
 
 ### 英语
 
@@ -173,6 +177,8 @@ __Albert Einstein__
 - [怎么练好英语口语？](https://www.zhihu.com/question/20097263) <sup>_todo_</sup> <sup>_temp_</sup>
 - [EssayForum](http://www.essayforum.com/) - Free Writing, Editing, and Research Help for Students <sup>_todo_</sup> <sup>_temp_</sup>
 - [39 Incorrectly Used Words That Can Make You Look Bad](https://www.inc.com/jeff-haden/39-incorrectly-used-words-that-can-make-you-look-bad.html) <sup>_todo_</sup> <sup>_temp_</sup>
+- [英语语法总结](https://mp.weixin.qq.com/s?__biz=MjM5MDgzMDYyMA==&mid=2675744299&idx=1&sn=c92585c4c869860687711c9b1a676999&chksm=bc36e7588b416e4ec47d9799cfd73f10fbe824e9118751e45a5508ffec3b492d0076f7131f99&mpshare=1&scene=1&srcid=09222IIfj78LxwdSuCCq3lPD%23rd)
+- [4个步骤带你听懂80%的英语对话](http://www.miaopai.com/show/HjFhwN5VbYS9DDvTZ3e71eXHMFd-gbhxDMUM8g__.htm)
 
 ### 理财
 
@@ -374,3 +380,12 @@ __Albert Einstein__
     - [减肥每天需要摄入多少卡路里](/read/calorie.html)
     - [《The Power of Less》书摘](/read/power_of_less.html)
     <!-- - [毽球踏球](/read/jian_qiu.html) -->
+
+## 后记
+
+- 除非发现非常好的新文章，可能以后不会更新本文了。
+- 在实物上，已经能做到比较精简了，但是在知识收集上，仍然有「松鼠病」。
+- 收集了不太可能重看，即使看了琐碎的知识也不容易回想起来应用在实践上。
+- 毕竟本站访问量少得可怜，即使在这里分享，也不能产生太多分享的价值。
+- 所以，还是花更多时间在提升自己算了。
+- 2017-11-15

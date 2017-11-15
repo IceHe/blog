@@ -17,7 +17,7 @@ __Albert Einstein__
 - 追求整洁、秩序、完满，还不如由它杂乱不堪来得省心。我就是一个典型的「强迫症、细节控」，可是不想再继续这样下去了。人生太短暂了，何不及时行乐去享受乐趣，或是好好做事追寻人生的意义。
 - 不过，我还是想留下这个博客 —— 这一片隐秘天地，让我自己一个人，能够静静地跟自己说说话。
 
-## Web
+## Tools
 
 - [BeJson](http://www.bejson.com/) - JSON 格式校验、格式化，及网络、前端、编码、转换等相关工具
 - [OSChina Online Tools](http://tool.oschina.net/) - 常用 Web 开发辅助工具、相关知识的简明手册
@@ -57,6 +57,7 @@ __Albert Einstein__
 - [你要避免的软件开发模式](http://zhuanlan.zhihu.com/p/20744178) - 歧途
 - [从面向对象的设计模式看软件设计](http://coolshell.cn/articles/8961.html)
 - [PHP PSR](https://github.com/PizzaLiu/PHP-FIG) - 代码规范
+- [PHP Clean Code](https://segmentfault.com/p/1210000011625408/read)
 - [Google Style Guides](https://github.com/google/styleguide/) - 代码风格 <sup>_todo_</sup>
 - [防卫性编程](http://blog.jobbole.com/101801/) - 小心多余的错误检查与处理
 - [技术管理者的创业工具箱](http://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=206233749&idx=1&sn=775d435c48db5eac47037f7721d426e6&scene=21#wechat_redirect)
@@ -64,18 +65,27 @@ __Albert Einstein__
 - [What are the main differences between Vim and Emacs?](https://www.quora.com/Text-Editors-What-are-the-main-differences-between-Vim-and-Emacs) - Vim VS Emacs!
 - [有哪些老鸟程序员知道而新手不知道的小技巧？](https://www.zhihu.com/question/36426051)
 - [为什么文件名要小写？](http://www.ruanyifeng.com/blog/2017/02/filename-should-be-lowercase.html)
+- [Python 3 Cookbook](http://python3-cookbook.readthedocs.io/zh_CN/latest/index.html) <sup>_temp_</sup>
+- [Python 高级编程](https://dongweiming.github.io/Expert-Python/#1) <sup>_temp_</sup>
+- [PHP7 革新与性能优化](https://www.csdn.net/article/1970-01-01/2825720)
+- [The secret of PHP7's Performance](https://www.slideshare.net/slideshow/embed_code/key/KMbqLBfzYnMN29)
+- [如何重构“箭头型”代码](https://coolshell.cn/articles/17757.html)
 
 ## 阅读
 
 - [GitBook](https://www.gitbook.com/explore) <sup>_todo_</sup>
     - [How to be a Programmer](https://www.gitbook.com/book/braydie/how-to-be-a-programmer/details/zh) <sup>_todo_</sup>
     - [The Ultimate Question of Programming, Refactoring, and Every](https://www.gitbook.com/book/alexastva/the-ultimate-question-of-programming-refactoring-/details) <sup>_todo_</sup>
+    - [未来世界的幸存者](http://survivor.ruanyifeng.com/) <sup>_temp_</sup> <sup>_todo_</sup>
 - [Free Programming Books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books-zh.md) <sup>_todo_</sup>
 - [程序员必读书单 1.0](http://lucida.me/blog/developer-reading-list/) <sup>_todo_</sup>
 - [面向对象编程的弊端是什么？](https://www.zhihu.com/question/20275578/answer/26577791)<sup>__Best__</sup>
 - [程序员博客墙](http://www.wangminli.com/blogwall/) - 优秀程序员的个人博客索引
+- [酷壳](https://coolshell.cn) - 左耳朵耗子 陈皓 的博客
+- [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
 - [王垠的博客](http://www.yinwang.org/) - 一个很有争议的人物，但是读他的文章还是让人很有启发
 - [开源许可证都有什么区别，一般开源项目用什么许可证？](https://www.zhihu.com/question/28292322)
+- [Choose License](https://www.codeproject.com/info/Licenses.aspx)
 - [History of G_F-W](http://www.chinagfw.org/2015/09/blog-post_8.html) - [功夫网与番羽_土啬](http://www.chinagfw.org/) <sup>__Best__</sup>
 - [China’s Great Cannon](https://citizenlab.org/2015/04/chinas-great-cannon/)
 - [“字节序”是什么？](http://blog.jobbole.com/102432/)- 大端与小端，深入浅出
@@ -85,12 +95,15 @@ __Albert Einstein__
 
 ## Web
 
+- [HTTP Guide](https://www.code-maze.com/http-series/)
 - [Nginx 教程](http://openresty.org/download/agentzh-nginx-tutorials-zhcn.html) <sup>_todo_</sup>
+- [Nginx 指南](https://github.com/bingbo/blog/wiki/NGINX%E6%8C%87%E5%8D%97) <sup>_temp_</sup> <sup>_todo_</sup>
 - [一个故事讲完 HTTPS](https://mp.weixin.qq.com/s?__biz=MzAxOTc0NzExNg==&mid=2665513779&idx=1&sn=a1de58690ad4f95111e013254a026ca2) - 原理思想
 - [HTTPS 之难](http://www.infoq.com/cn/articles/https-difficult)
 - [AJAX 知识体系梳理](http://louiszhai.github.io/2016/11/02/ajax/)
 - [大公司里怎样开发和部署前端代码？](https://www.zhihu.com/question/20790576)<sup>__Best__</sup>
 - [前端工程：基础篇](https://github.com/fouber/blog/issues/10) - 分治：组件化开发与资源管理 <sup>__Best__</sup>
+- [TCP 协议简介](http://www.ruanyifeng.com/blog/2017/06/tcp-protocol.html) <sup>__Best__</sup>
 - [TCP/IP 协议栈及 OSI 参考模型详解](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&mid=213726432&idx=1&sn=337e2442c23c811cb96bd8315e3d4916&scene=5&srcid=09208rmQfdovBALp0y138PM3#rd)
 - [TCP/IP 协议详解内容总结](http://mp.weixin.qq.com/s?__biz=MzAwNjMxMTA5Mw==&mid=213790057&idx=2&sn=06296c4e3b67fa227b703c6d31a23b3e&scene=5&srcid=0925aDg44vjLgZvCaRNTmrKZ#rd)
 - [高扩展性网站的50条原则](http://www.cnblogs.com/xing901022/p/4425124.html)
@@ -98,6 +111,8 @@ __Albert Einstein__
 - [{json:api}](http://jsonapi.org/) - B/S 间的 JSON 格式数据的传输规范 <sup>_temp_</sup>
 - [为什么全栈 JavaScript 经常被黑，而 Java 却不会被黑？](https://www.zhihu.com/question/43165251/answer/95373570)- “全栈”之路 <sup>_temp_</sup>
 - [WTF JS?](https://github.com/denysdovhan/wtfjs) - A list of funny and tricky JavaScript examples
+- [SEO Tips](https://backlinko.com/blog) & [Want To ﻿Build﻿ Highly Profitable Websites?](https://www.authorityhacker.com/) <sup>_temp_</sup>
+- [Chrome 开发者工具的小技巧](http://coolshell.cn/articles/17634.html)
 
 ## 架构
 
@@ -116,11 +131,17 @@ __Albert Einstein__
 - [常见的网站服务器架构有哪些？](https://www.zhihu.com/question/20657269/answer/32678620)- 演进
 - [缓存更新的套路](https://coolshell.cn/articles/17416.html) <sup>__Best__</sup>
 - [工作线程数究竟要设置为多少](https://mp.weixin.qq.com/s/BRpngTEFHjzpGv8tkdqmPQ)
+- [分布式服务化系统一致性的“最佳实干”](http://www.jianshu.com/p/1156151e20c8) <sup>_temp_</sup>
+- [从 GitLab 误删除数据库想到的](https://coolshell.cn/articles/17680.html) - 自动化运维
+- [关于高可用的系统](https://coolshell.cn/articles/17459.html)
 
 ## Linux
 
+- [Bash Guide](https://github.com/Idnan/bash-guide) - 简明入门 <sup>_temp_</sup>
+- [Linux 命令大全](http://man.linuxde.net/) - 快速上手 <sup>__Best__</sup>
 - [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line/blob/master/README.md) <sup>__Best__</sup>
 - [Linux Tools Quik Tutorial](http://linuxtools-rst.readthedocs.org/zh_CN/latest/index.html) <sup>_todo_</sup>
+- [Linux Netcat 命令——网络工具中的瑞士军刀](http://www.oschina.net/translate/linux-netcat-command) <sup>_temp_</sup>
 - [服务器操作系统的选择](https://www.zhihu.com/question/19599986)
 - [Filesystem Hierarchy Standard](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard) - 各目录用途
 - [Awesome Sysadmin](https://github.com/kahun/awesome-sysadmin) - 译文：[运维资源清单](http://blog.jobbole.com/83212/)
@@ -129,6 +150,7 @@ __Albert Einstein__
 - [Unix 传奇（上篇）](http://blog.csdn.net/haoel/article/details/1542340)、[Unix 传奇（下篇）](http://blog.csdn.net/haoel/article/details/1542353)
 - [Unix 40年：昨天，今天和明天](http://coolshell.cn/articles/1023.html)
 - [Unix 现状与未来](http://blog.csdn.net/haoel/article/details/1688006)
+- [The Biggest Myths](http://0pointer.de/blog/projects/the-biggest-myths.html) - systemd
 
 ## 网络安全
 
@@ -159,6 +181,8 @@ __Albert Einstein__
 - [精益技术简历之道——改善技术简历的47条原则](http://www.cnblogs.com/figure9/p/lean-technical-resume.html) - Google 工程师，[Lucida](http://lucida.me/)
 - [如何优雅地参加技术分享会？](https://zhuanlan.zhihu.com/p/22322885)- 听技术分享的意义 <sup>_temp_</sup>
 - [左耳朵耗子：不灌鸡汤，说真的年龄渐长，技术人的发展之路该怎么走？](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650995135&idx=1&sn=758336ff3ecbfdc239d80a11a7122344&chksm=bdbf01ec8ac888fa1c24d310bb34ca257c4ba06e3d92a1d32d05803498e10624d0c525c1cc59&mpshare=1&scene=1&srcid=1229uZN9HTY7NE6ZuPIyse2t#rd)
+- [为何公司宁愿给新人开高工资，却不愿意给知根知底的老员工涨薪？](https://www.zhihu.com/question/62260755)
+- [高级工程师的个人职业发展](http://www.ixirong.com/2016/10/28/senior-software-career-advise/index.html)
 
 ## IT 业态
 
@@ -172,8 +196,9 @@ __Albert Einstein__
 - [腾讯，竞争力和用户体验](http://coolshell.cn/articles/5901.html)
 - [Facebook 广告系统比谷歌先进在哪里？](https://www.zhihu.com/question/29847912/answer/101025439?utm_campaign=weekly225&utm_source=weekly-digest&utm_medium=email)
 - [从空空狐谈信用卡套利](http://mp.weixin.qq.com/s?__biz=MzI0MjA1Mjg2Ng==&mid=2649867281&idx=1&sn=62646e12000aaee315ded3a634f57f45&chksm=f1075e7cc670d76ae94ce27c16a67eb2c747bf3911fc67de36bdc9b5d57aac93f956820ecfb1&mpshare=1&scene=1&srcid=0509zSKaMDmh9SBVYn0jr9gh#rd)
+- [互联网阴暗前传：暗网“丝绸之路”覆灭始末](https://www.huxiu.com/article/195204.html)
 
-## Management
+## 管理
 
 - [开发团队的效率](http://coolshell.cn/articles/11656.html)
 - [产品小团队](http://www.jianshu.com/p/9bf5fe5012ed)
@@ -188,7 +213,16 @@ __Albert Einstein__
 - [从第三方服务角度看公司技术部门如何正确计算投入产出比～](http://weibo.com/ttarticle/p/show?id=2309404061670841429641)
 <!--- [成功技术领导者10条经验锤炼](http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=208891164&idx=1&sn=893d43e516f576917dcb99cfa421a226&scene=5&srcid=3vfJDE1cRf8X4ecZlk7h#rd) 初次看不明觉厉，再看没有感触，待观察。-->
 
-## Others
+## 其它
 
 - [《程序员必读的职业规划书》Note & 招聘相关微博摘录](/tech/career.html)
 	& 简历上的 精通、熟练、掌握、理解 英语怎么翻译？
+
+## 后记
+
+- 除非发现非常好的新文章，可能以后不会更新本文了。
+- 在实物上，已经能做到比较精简了，但是在知识收集上，仍然有「松鼠病」。
+- 收集了不太可能重看，即使看了琐碎的知识也不容易回想起来应用在实践上。
+- 毕竟本站访问量少得可怜，即使在这里分享，也不能产生太多分享的价值。
+- 所以，还是花更多时间在提升自己算了。
+- 2017-11-15
