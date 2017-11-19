@@ -1,6 +1,6 @@
 title: 利器 - 软硬件推荐
 date: 2015-11-21
-updated: 2017-08-01
+updated: 2017-11-19
 categories: [Mac]
 tags: [Mac]
 description: Tools&#58; 推荐 macOS 和 iOS 的 Apps 以及日常使用的电子产品。
@@ -15,15 +15,24 @@ __荀子__
 ## 说明
 
 - 主要介绍 __macOS、[iOS](#iOS) 的 Apps__（下文 Apple 指代 macOS + iOS）；只简单提及 [Windows](#Windows)。
-    - 适合自己的工具，才是最好的工具。所以本文仅供参考，自行尝试才是正道。
-- __原则__
-    - 「常用」的工具才值得折腾，不常用的工具凑合着用就行了。
-    - 选择工具，最重要的是「实用」，「美观」次之，「价格」不要太贵就行。
-        - 稳定：不能引起系统崩溃，起码提升效率的收益得超过崩溃重启的损失。
-        - 简洁易用：满足实际的需求即可，不需要花哨、多余的功能。
-            - 参考 KISS 和 SR 原则（Keep it simple stupid & single responsibility）。
-        - 设置项齐全：可以根据自身习惯调整 App，让它用起来更顺手、省心。
-            - 比如，设置好 App 各常用功能的快捷键，以便调用；或设置好自动运行的条件，以后就不用再费心了。
+    - 适合自己的工具，才是最好的工具，所以说：本文仅供参考，自行尝试才是正道。
+    - 笔者是工具控，目力之内看起来还有点用的工具都会折腾过一遍。
+        - 过程中浪费了许多时间精力在很少派上用场甚至无用的工具上。
+        - 所以笔者不使用的工具，除非强烈推荐否则不再一一列举并说出见解。
+            （以前会为了显摆这样做。）
+        - 善于发现生活中关键的效率瓶颈，再根据需求寻找或创造工具就足够了。
+        - 因为折腾工具而忘记了做成一件事的初心，实在是南辕北辙（笔者便是前车之鉴）。
+- __App 选择原则__
+    - 「常用」的工具才值得折腾，不常用的凑合着用就行了。
+    - 「实用」最重要，美观次之，价格别太贵就行。
+    - 「稳定」：不能时常引起系统崩溃，起码提升效率的收益得超过操作系统崩溃重启的损失。
+    - 「简洁易用」：满足实际的需求即可，不需要花哨、多余的功能。
+        - 「开箱即用」是工具最好的状态。
+        - 参考 KISS 和 SR 原则（keep it simple stupid & single responsibility）。
+    - 「设置项齐全」：可以根据自身习惯调整 App，让它用起来更顺手、省心。
+        - 设置项合理、足够就行，不一定非要很齐全。
+        - 开箱即用虽好，但也认同为了极致高效或完成复杂工作的工具提高复杂度，如 IDE、PS。
+        - 比如，设置好各常用功能的快捷键，以便调用；或将流程变得更自动化，以节省时间和心力。
 - __部分参考__
     - [__少数派__](http://sspai.com/) - 高质量 App 推荐媒体，关于 iOS、Mac、硬件。
     - [__利器 - 创造者和他们的工具__](http://liqi.io/) 以及使用的方式和原则。
@@ -31,9 +40,9 @@ __荀子__
     - [__macOS 有哪些值得装的小软件？__](https://www.zhihu.com/question/27870072)
     - [__MacTips__](http://zhuanlan.zhihu.com/MacTips) - Mac 使用经验和技巧。
     - …
-- __相关文章__ :
-    《 [Mac Efficiency 效率指北](/mac/efficiency) 》
-    《 [Mac Shortcuts 快捷键](/mac_shortcuts) 》
+- __相关文章__
+    - 《 [Mac Efficiency 效率指北](/mac/efficiency) 》
+    - 《 [Mac Shortcuts 快捷键](/mac_shortcuts) 》
 - __字体格式的含义__
     - ~~删除线~~ 标识的一定是我现在不用的 Apps。
     - __粗体__ 标识的通常是在用的 Apps。
@@ -47,17 +56,15 @@ __荀子__
 
 - 网络
     - [__Shawdowsocks__](https://portal.shadowsocks.com/) <sup>Ladder</sup>
-        - 首选的 PC 番羽土啬方案：
+        - 首选的科学上网（番羽土啬）方案：
             Shadowsocks 服务 + Mac 的 [__ShadowsocksX-NG__](https://github.com/shadowsocks/ShadowsocksX-NG) + 浏览器的 proxy 类插件：
-            如 FireFox 的 [__FoxyProxy__](https://getfoxyproxy.org/)，Chrome 的 [__SwitchyOmega__](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?hl=en)。
-            - ShadowsocksX、[ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG) 等可以用更强大的 [Surge](https://nssurge.com/) 替换。
+            如 Chrome 的 [__SwitchyOmega__](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?hl=en)；ShadowsocksX 及其 [NG](https://github.com/shadowsocks/ShadowsocksX-NG) 版本可以用更强大的 [Surge](https://nssurge.com/) 替换。
         - 备选方案：[__VPN__](https://www.cup.com/staticip/?=panda) + [__CHNRoute__](https://github.com/fivesheep/chnroutes) + [__Dnsmasq__](http://www.thekelleys.org.uk/dnsmasq/doc.html)。
-    - [__Firefox__](http://www.firefox.com.cn/) <sup>Favorite</sup>
-        - 配合 [__VimFX__](https://github.com/akhodakivskiy/VimFx) 拓展，可在浏览器内 __全局使用 Vim 键位__ 浏览网页、操作浏览器！键盘党神器。
-        - 不过 Firefox 冷启动较慢，界面不够 Safari、Chrome 漂亮，偶然会遇到一些奇怪的 bug。毕竟工具是拿来用的，最重要的是高效。
-    - [__Chrome__](https://www.google.com/chrome/) <sup>Most Usual</sup>
+    - [__Chrome__](https://www.google.com/chrome/) <sup>通用</sup>
+        - 配合 [__cVim__](https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh) 拓展，可在浏览器内 __使用 Vim 键位__ 浏览网页、操作浏览器！键盘党神器。
+            - 可以它无法在页面未加载完毕的情况下使用 Vim 键位，不够（Firefox + VimFX）极致。
         - 用 Inspect Element、Postman 等 Develop Tools 做 Web 开发、调试，远比 Firefox 顺手。
-        - Chrome 很好，但更耗电，影响到了 Mac 的续航；更重要的是类似 VimFX 的 [__Vimium__](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)、[__cVim__](https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh) 等 Extensions 无法在页面未加载完毕的情况下使用 Vim 键位，不够极致，所以我更倾向于使用 Firefox + VimFX。
+        - 更喜欢配合 [__VimFX__](https://github.com/akhodakivskiy/VimFx) 插件的 [__Firefox__](http://www.firefox.com.cn/)，但为了通用性、稳定性（包括插件）换用 Chrome。
 - 常用
     - [__2Do__](https://www.2doapp.com/) <sup>Favorite</sup>
         GTD 类事务管理。
@@ -116,7 +123,7 @@ __荀子__
     - [__Zsh__](http://zsh.sourceforge.net/) <sup>Powerful</sup>
         比 Bash 更强大、便捷、高效的 Shell！
         - 配置 Zsh 比较复杂，可以使用 [__oh-my-zsh__](http://ohmyz.sh/) 等成熟的配置方案。
-        - [__Fish__](https://fishshell.com/) ( a shell for the 90s 😂 ) 虽然很好，但存在兼容性问题，有些 Bash 的指令需要改写才能运行在 Fish 上。
+        - [__Fish__](https://fishshell.com/) ( a shell for the 90s 😂 ) 虽然很好，但存在兼容性问题，有些 Bash 的指令需要改写才能运行在 Fish 上。实际使用之后，还是更喜欢 Zsh。
         - Ref : [Comparison of Command Shells - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_command_shells)
     - [__oh-my-zsh__](http://ohmyz.sh/) <sup>Efficient</sup>
         管理 Zsh 配置的开源框架，预打包了相关的主题、插件、配置。
@@ -144,11 +151,11 @@ __荀子__
 ### 软件开发
 
 - 常用
-    - [__PyCharm__](https://www.jetbrains.com/pycharm/) , [__PhpStorm__](https://www.jetbrains.com/phpstorm/) <sup>Master Piece</sup>
-        Python、PHP 的最佳 IDE！
+    - [__PhpStorm__](https://www.jetbrains.com/phpstorm/) <sup>Master Piece</sup>
+        PHP 的最佳 IDE！
         - 现阶段类型推导做得最好，稳定、少崩溃，功能完善，设置选项齐全。（我觉得）比 ZendStudio、Eclipse 之流好用多了。
         - 配合 [__IdeaVim__](https://plugins.jetbrains.com/plugin/164?pr=idea) 插件可用 Vim 键位编辑，可以少记许多执行类似操作的 IDE 快捷键。
-        - [__JetBrains__](https://www.jetbrains.com/products.html) 出品的其它 IDE： [__IntelliJ IDEA__](https://www.jetbrains.com/idea/)、[__WebStorm__](https://www.jetbrains.com/webstorm/)、[__RubyMine__](https://www.jetbrains.com/ruby/)、[__CLion__](https://www.jetbrains.com/clion/) 等。
+        - [__JetBrains__](https://www.jetbrains.com/products.html) 出品的其它 IDE：[__PyCharm__](https://www.jetbrains.com/pycharm/)、[__IntelliJ IDEA__](https://www.jetbrains.com/idea/)、[__WebStorm__](https://www.jetbrains.com/webstorm/)、[__RubyMine__](https://www.jetbrains.com/ruby/)、[__CLion__](https://www.jetbrains.com/clion/) 等。
     - [__iTerm2__](https://www.iterm2.com/) <sup>Best</sup>
         macOS 下的终端仿真机。是系统默认自带的 Terminal 的最佳替代 App。
     - [__~~Dash~~__](https://kapeli.com/dash) <sup>To the point</sup>
@@ -160,24 +167,14 @@ __荀子__
 - 编辑器
     其实可以完全用 Vim 来编辑文本文件（在终端中）。
     - [__Sublime Text__](http://www.sublimetext.com/) <sup>Fastest</sup>
-        代码编辑器，我用其替代 TextEdit 作为默认的文本编辑器。Vintage 模式，可用 Vim 键位进行操作。冷启动快如闪电！
-    - [__VS Code__](https://code.visualstudio.com/) <sup>Best</sup>
-        - 发展至今，足以取代 Sublime Text 的优秀轻量级代码编辑器。
-        - 内置 Git 管理、终端、调试框架，齐全、足量的优秀插件，配置选项完备，使用稳定顺手……
-        - 开源，持续且活跃的开发，更不必说本身有微软过硬的技术实力背书。
-        - 缺点：打开大文件的稳定性、速度和冷启动速度，不如 Sublime Text。
-    - [__~~Typora~~__](http://www.typora.io) <sup>Elegant</sup>
-        Markdown 编辑器，所见即所得。国人制作，完全免费，支持 Mac、Windows！
-        （除了写博文，我很少真的需要预览 Markdown 内容的实际显示效果，所以用一般编辑器即可。）
-
----
-
+        代码编辑器，我用其替代 TextEdit 作为默认的文本编辑器。Vintage 模式，可用 Vim 键位进行操作。冷启动也快如闪电！
+        - 候选：[__VS Code__](https://code.visualstudio.com/)，开源、持续且活跃的开发，更不必说本身有微软过硬的技术实力背书。
 - 网络
     - [__Charles__](https://www.charlesproxy.com/) <sup>Best</sup>
         网络封包分析（抓包）工具。如 Fiddler 之于 Windows。主要用于「应用层」的分析。
     - [__~~Wireshark~~__](https://www.wireshark.org/) <sup>Powerful</sup>
         网络封包分析工具。比 Charles 强大得多，但是也复杂得多。主要用于「网络层」的分析。
-        （我的日常工作很少用得着。）
+        （并非运维人员，日常工作很少用得着。有益于深入理解学习计算机网络的知识。）
     - [__Postman__](http://www.getpostman.com/) <sup>Powerful</sup>
         APIs 开发、测试、归档的辅助工具。
         - Mac 的 HTTP 客户端。用于与 REST 服务交互，以助构建 API、HTTP 请求，检查来自服务器的响应。
@@ -201,7 +198,7 @@ __荀子__
     - [__~~Parallel Desktop~~__](http://www.parallels.com/landingpage/pd/general/?src=r&pd11) <sup>Best</sup>
         虚拟机软件。
         - 最适合用于安装 Windows。它将 Windows、Ubuntu 跟 macOS（几乎）无缝对接，使用流畅自然。
-            （我现在完全脱离了 Windows 平台独占的软件，包括游戏，所以几乎用不着它。还有它的软件升级定价策略很不地道，跟重新买差别不大……）
+            （我现在完全脱离了 Windows 平台独占的软件，包括游戏，所以几乎用不着它。还有它的软件升级定价策略很不地道，跟重新买差别不大…）
         - Others : [__~~Virtual Box~~__](https://www.virtualbox.org/)（适合装 Linux），[~~VMWare Fusion~~](http://www.vmware.com/products/fusion.html)（没用过）
 
 ### 快捷键
@@ -230,19 +227,16 @@ __荀子__
         - 所以，剪贴板方面我还是选用了更合我口味的专用 App __ClipMenu__。
     - \-\-\-
     - 甚至可以尝试用它 [定制系统全局 Vim 快捷键](https://www.zhihu.com/question/27158546/answer/70958190)，或者 [配合 Keymo 用键盘控制鼠标](https://www.zhihu.com/question/27158546/answer/70958190) 等。
-        - 根据个人需求，用它来自动化、加速常用的操作 —— 可以编写控制流程，调用命令行、运行脚本，判断系统状态如网路、蓝牙、电源连接等…… 喜欢 DIY 还是亲自动手试试吧，
+        - 根据个人需求，用它来自动化、加速常用的操作 —— 可以编写控制流程，调用命令行、运行脚本，判断系统状态如网路、蓝牙、电源连接等… 喜欢 DIY 还是亲自动手试试吧，
         - Ref :《[懒的前提是要足够高效： Mac 效率工具Keyboard Maestro 详解 - 少数派](https://sspai.com/post/28721)》。
     - \-\-\-
-- [__Karabiner__](https://pqrs.org/osx/karabiner/index.html.en) <sup>Geek, Best</sup>
+- [__Karabiner-Elements__](https://github.com/tekezo/Karabiner-Elements) <sup>Geek, Best</sup>
     强大、稳定的键位修改功能，预定义了大量奇巧的修改方案。键盘党神器！
     - 可自定义快捷键去启动、切换 App，打开文件和网址，快速输入关键词跳转到网站的搜索页，甚至运行命令行和脚本（AppleScript 等）。发挥想象力，还能做到更多的事。例如，它也可以实现 Manico 的功能，不过得费些时间。当然除了「键位修改」其它繁杂的功能还是交给 Keyboard Maestro 之类的 App 来定制更省心。
-    - 噩耗：macOS Sierra (10.12) 中关于键盘控制的底层架构大改，所以这代以后的 macOS 就不能使用 Karabiner 了。它的作者正在开发支持新版 macOS 的 [__Karabiner-Elements__](https://github.com/tekezo/Karabiner-Elements)，然而工作量颇大，尚需时日才能实现大部分旧版的功能…… 所以，我为了 Karabiner 只能不升级系统继续使用 OS X EI Capitan。
-- [__Seil__](https://pqrs.org/osx/karabiner/seil.html.en)
-    Karabiner 的补充，主要修改 Caps Lock、 Esc、Shift、Ctrl、Option 等按键的键位。
+    - 噩耗：macOS Sierra (10.12) 中关于键盘控制的底层架构大改，所以这代以后的 macOS 就不能使用 Karabiner 了。它的作者正在开发支持新版 macOS 的 [__Karabiner-Elements__](https://github.com/tekezo/Karabiner-Elements)，然而工作量颇大，尚需时日才能实现大部分旧版的功能… 所以，我为了 Karabiner 只能不升级系统继续使用 OS X EI Capitan。
 - __Karabiner Event-Viewer__
     键盘码查询。不用查表，直接击键，即得出对应的键盘码和按键组合等。
-    - 属于 [__Karabiner-Elements__](https://github.com/tekezo/Karabiner-Elements) 附带的用于调试键位、快捷键组合的工具 App。
-    - Others : [__~~Key Codes~~__](https://manytricks.com/keycodes/)
+    - 属于 Karabiner-Elements 附带的用于调试键位、快捷键组合的工具 App。
 
 ---
 
@@ -253,7 +247,7 @@ __荀子__
         - 休眠（Sleep）：硬盘休眠。
             屏幕休眠（Display Sleep）：即关闭屏幕，连屏幕保护程序（Screen Saver）也不运作。
         - Others : 它比同类软件 [~~Caffine~~](https://itunes.apple.com/us/app/caffeine/id411246225?mt=12)、[__~~Owly~~__](https://itunes.apple.com/us/app/owly-display-sleep-prevention/id882812218?mt=12) 功能完备、好用；[~~InsomniaX~~](http://semaja2.net/projects/insomniaxinfo/) 没用过。
-    - [__Bartender 2__](https://www.macbartender.com/) <sup>Clean Menubar</sup>
+    - [__Bartender__](https://www.macbartender.com/) <sup>Clean Menubar</sup>
         收起或彻底隐藏毋需过多关注的菜单栏 App 图标。
     - [__~~CheatSheet~~__](https://www.mediaatelier.com/CheatSheet/) <sup>Tips, for Freshman</sup>
         快捷键快速提醒。长按 Command 键，显示当前程序的快捷键列表，方便快速入门 Mac 各处的快捷键。（新手专用）
@@ -262,10 +256,10 @@ __荀子__
         - 主要用于快速查询剪贴板的历史记录，并提取出需要的内容保存到当前的剪贴板中。
         - 支持 URL、纯文本、RTF、图片、文件等各种格式，包括剪贴历史的排序、内容的大小写转换、自定义文本的调用。
         - Others : [__Paste__](http://pasteapp.me/) 最好看！[~~Copied~~](http://copiedapp.com/)（没用过）。
-    - [__~~HyperSwitch~~__](https://bahoom.com/hyperswitch) <sup>Best</sup>
+    - [__HyperSwitch__](https://bahoom.com/hyperswitch) <sup>Best</sup>
         稳定切换同一 App 下各子窗口。
         - HyperSwitcher 选择切换的窗口时，会显示各应用的缩略图。
-        - 我用 [Keyboard Maestro](/tools/#Shortcuts) 来替代了它，因为我倾向于用更少的工具完成尽可能多的事，好用够用就行了。不过 HyperSwitcher 仍然是最佳选择，强烈推荐！
+        - 可以用 [Keyboard Maestro](/tools/#Shortcuts) 来实现同样的功能以替代它。
         - Related : [~~HyperDock~~](https://bahoom.com/hyperdock/)
             窗口增强工具。光标停到 Dock 的 App 图标上，能快速预览该软件的所有窗口，点击切换到不同的窗口或桌面。还有快速调整窗口布局、大小、位置等的功能。
             - 用处还是不大，用 HyperSwitcher 切换子窗口时就能看到 App 下所有子窗口的预览图。
@@ -290,8 +284,9 @@ __荀子__
         macOS 系统自带的字典应用，足够好用。
     - [__EuDic Free__](http://www.eudic.net/eudic/mac_dictionary.aspx) <sup>Free, Great</sup>
         欧路词典，Mac 上最好用的第三方词典。
-    - [__ShawdowsocksX__](http://macappstore.org/shadowsocksx/) <sup>Ladder</sup>
-        ShadowsocksX 是在 Mac 上配合 Shadowsock 工作的软件。
+    - [__ShawdowsocksX__](http://macappstore.org/shadowsocksx/) <sup>No update</sup>
+    - [__ShawdowsocksX NG__](https://github.com/shadowsocks/ShadowsocksX-NG) <sup>Ladder</sup>
+        ShadowsocksX 是在 Mac 上配合 Shadowsock 工作的软件。NG 是其后续他人维护版本。
     - [__Numi__](http://numi.io/) <sup>Great</sup>
         系统默认计算器的替代方案。
         - 单位换算好用啊！例如，您输入左边的内容，就能得到右边的结果：
@@ -321,17 +316,10 @@ __荀子__
         - 可是作为键盘党，自定义的快捷键足以让我驰骋 macOS，基本没机会用它。
     - [__~~Contexts~~__](https://contexts.co/) <sup>Great</sup>
         App 窗口切换工具。操作行云流水，切换方面比 Manico 更优秀！但不能定制用于快速启动 App 的快捷键，因而被 Manico 替代。
-    - [~~iHosts~~](https://itunes.apple.com/us/app/ihosts/id1102004240?mt=12)
+    - [~~__iHosts__~~](https://itunes.apple.com/us/app/ihosts/id1102004240?mt=12)
         灵活管理 macOS 的 hosts 的方案。
         - 可惜通常情况下，hosts 并不需要复杂的管理；而且还有很多其它手段达到同样的目的。
         对于程序员来说，不如直接在 `.zshrc` 加上 `alias vh='vim hosts'` 一句剪短的配置，然后在命令行直接打开并修改 hosts 文件更省事。
-    - [~~Keymo~~](https://manytricks.com/keymo/) <sup>极不推荐</sup>
-        使用键盘操作鼠标，四象限定位法颇有创意！
-        - 作为键盘党的我，真要用到鼠标的时候，还是用触控板比较舒心。我的触摸板、鼠标的触控灵敏度（移动速度）向来调到最高，操作还是很快的。
-        - 这种操作方式不如直接用鼠标那样符合人的直觉，需要不少练习，所以不值得使用。
-    - [~~Shortcat~~](https://shortcatapp.com/) <sup>极不推荐</sup>
-        UI 上的 Spotlight。
-        - 暂时难堪大用，直说就是鸡肋…… 不如快捷键来得迅速，甚至不如鼠标操作来得直接！
 
 ---
 
@@ -362,7 +350,7 @@ __荀子__
 ---
 
 - 其它
-    - [__~~Time Out~~__](http://www.dejal.com/timeout/) <sup>Health</sup>
+    - [__Time Out__](http://www.dejal.com/timeout/) <sup>Health</sup>
         定时作息提醒工具。定时遮盖桌面的应用程序，提醒你离开电脑，去休息眼睛、活动身体。
         - 如人饮水，冷暖自知。自己多注意就好，要是实在不自觉，这个应用才有用武之地；其实真到了严重的程度，它也帮不到你了
     - [__~~Nozio~~__](http://noiz.io/) & etc
@@ -380,42 +368,36 @@ __荀子__
 
 - 常用
     - __Safari__ <sup>Simple</sup>
-        iOS 自带浏览器。已足够好用。
+        iOS 自带浏览器。足够好用。
     - [__Shadowsockrocket__](https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8) <sup>Favorite</sup>
-        iOS 上配合 Shadowsocks 使用的番羽土啬利器。
-        - Others : [__~~Surge~~__](https://itunes.apple.com/us/app/surge-web-developer-tool-proxy/id1040100637?mt=8) <sup>Expensive</sup>
+        iOS 上配合 Shadowsocks 使用的科学上网（番羽土啬）利器。候选: [__~~Surge~~__](https://itunes.apple.com/us/app/surge-web-developer-tool-proxy/id1040100637?mt=8) <sup>Expensive</sup>
     - [__讯飞输入法__](http://www.xunfei.cn/) <sup>Favorite</sup>
-        在使用非手写输入的键盘时，竟然可以在键盘区滑动，即可以手写方式输入！优秀的语音识别输入能力，准确率高，支持方言（我已经越来越多地使用语音进行日常输入了）。支持 3D Touch 移动光标。
-    - [__~~搜狗输入法~~__](http://shouji.sogou.com/) <sup>Great</sup>
-        云输入匹配词语最准的输入法（个人感受）。唯一一个拥有 OCR 识别输入功能的输入法（留着备用）。语音输入不足为奇，但它独有更进一步的「语音修改」功能，使其更易用。
-
----
-
-- 笔记、时间、财务管理
-    - __Notes__ <sup>Simple</sup>
-        iOS & macOS 自带的轻量级笔记应用，启动、编辑、同步迅速稳定，方便易用。
-    - [__Evernote__](https://itunes.apple.com/us/app/evernote-stay-organized/id281796108?mt=8) <sup>Powerful</sup>
-        剪藏好文章，离线保存，做笔记。 ( [Ref Above](#Common) )
+        在用非手写输入的键盘时，竟然可以在键盘区滑动，这时可用手写方式输入！优秀的语音识别输入能力，准确率高，支持方言。
+- 个人管理（事务、时间、习惯）
     - [__2Do__](https://itunes.apple.com/us/app/2do-reminders-personal-planner/id303656546?mt=8) <sup>Powerful</sup>
         GTD 事务管理。( [Ref Above](#Common) )
     - [__BlockyTime__](http://www.anniapp.com/blockytime/index.html) <sup>Simple</sup>
         时间的记录统计工具，规划、督促、自省。
         A quicker time logger, let you never spend much time on tracking time.
     - [__HabitBull__](http://www.habitbull.com/)
-        习惯养成，记录、统计、分析养成的情况。该领域有很多 App，好用的不多…… 这个也不算最好的选择，需要自行挑选。
+        习惯养成，记录、统计、分析养成的情况。该领域有很多 App，好用的不多… 这个也不算最好的选择，需要自行挑选。
+- 笔记
     - [__MindNode__](https://mindnode.com/) <sup>Powerful</sup>
         思维导图。( [Ref Above](#Common) )
+    - __Notes__ <sup>Simple</sup>
+        iOS & macOS 自带的轻量级笔记应用，启动、编辑、同步迅速稳定，方便易用。
+    - [__Evernote__](https://itunes.apple.com/us/app/evernote-stay-organized/id281796108?mt=8) <sup>Powerful</sup>
+        剪藏好文章，离线保存，做笔记。 ( [Ref Above](#Common) )
+- 财务
     - [__网易有钱__](https://qian.163.com/) <sup>Simple</sup>
         简单方便的记账软件。可以自动同步银行储蓄卡、信用卡和支付宝账户的交易和余额数据，然后再给每笔收支调整分类和补充备注就行了，实在是方便。
         - 后来，我发现自己只需要知道自己各个账户的余额，以及总体的收支情况，所以就弃用「随手记」换用它。如果注重隐私信息的安全，请注意退避该 App。
-    - [__~~随手记专业版~~__](http://www.feidee.com/money/) <sup>One fo the best</sup>
-        我用得最顺手的记账软件。弃用理由见上文。
-
----
-
+        - 备用：[__随手记专业版__](http://www.feidee.com/money/) <sup>One fo the best</sup> ，我用得最顺手的记账软件。弃用理由见上文。
 - 社交
     - __Mail__ <sup>Simple</sup>
-        iOS 自带邮箱客户端。已足够好用。
+        iOS 自带邮箱客户端，足够好用。服务于工作邮箱。
+    - __QQMail__
+        个人邮箱。
     - __WeChat__ <sup>Required for payment</sup>
         微信，主要用于支付、社交和碎片阅读（公众号）。
         - 能用微信小程序代替的 App 我都不下载。
@@ -423,11 +405,11 @@ __荀子__
     - [__TIM__](https://office.qq.com/) <sup>Simple</sup>
         手机上简洁版的 QQ，腾讯官方出品。
         - 去除了多余的娱乐功能，保证基本的进阶功能使用，方便工作，如音频视频通话等。
-        - 不过还是得留着原版的 QQ，TIM 还不支持 QQ 的授权登录操作……
-
----
-
+        - 不过还是得留着原版的 QQ，TIM 还不支持 QQ 的授权登录操作…
 - 阅读 & 学习
+    - [__得到__](https://www.igetget.com/) <sup>Great</sup>
+        「罗辑思维」团队推出的主打 __知识服务__ 的 App，在行走、饮食等琐碎时间里收听音频内容。
+    - 不安装知乎、微博之类的资讯阅读类 Apps，要看书或者文章就在 Mac 上看。
     - [__Kindle__](https://itunes.apple.com/us/app/kindle-read-books-ebooks-magazines/id302584613?mt=8)
         Amazon 的电子书资源是最全面、最丰富的，喜欢读书的话，没有太多其它的选择。
     - [__多看阅读__](http://www.duokan.com/) <sup>Best</sup>
@@ -436,127 +418,55 @@ __荀子__
         扇贝单词、扇贝炼句、扇贝听力、扇贝读书。工具不重要，最重要还是要坚持学习。
     - [__~~网易公开课~~__](http://open.163.com/)
         国内最好的公开课平台。
-
----
-
-- 播客
-    用过绝大多数 FM 类 App，唯剩它们。内容为王，通常都为了追喜欢的栏目被迫换 App 的，才发现某产品体验好，自然而然成为其用户。
-    - [__得到__](https://www.igetget.com/) <sup>Great</sup>
-        「罗辑思维」团队推出的主打 __知识服务__ 的 App。
-    - [__Castro 2__](http://supertop.co/castro/) <sup>Favorite</sup>
-        小巧易用，轻量级泛用型播客 App 的最佳选择！
-    - [~~Podcasts~~](http://www.apple.com/itunes/podcasts/)
-        iOS 自带泛用型播客 App，功能完备，无广告，最稳定，但是有太多用不着的功能，选择旧节目下载的操作太捉急。
-    - \-\-\-
-    - [__~~喜马拉雅FM~~__](http://www.ximalaya.com/) <sup>Popular</sup>
-        使用体验与内容俱佳，许多电台自媒体的首选独播平台。当之无愧的国内第一播客平台。
-    - [~~凤凰FM~~](http://diantai.ifeng.com/)
-        ~~拥有凤凰传媒的版权内容，有我最喜欢的谈话节目《锵锵三人行》。~~
-    - [~~企鹅FM~~](http://fm.qq.com/)
-        ~~腾讯出品用户体验必然好，娱乐类节目偏多。~~
-
----
-
-- 资讯 & 知识
-    - [__~~知乎~~__](https://itunes.apple.com/cn/app/zhi-hu-yu-shi-jie-fen-xiang/id432274380?mt=8) - 优质问答社区。
-    - [~~微博~~](http://weibo.com) - 国内最大的自媒体平台。（暂时无法被替代……）
-        - __微博问答__ - 微博内置问答平台，还是有不错的内容的。
-        - 可以用 [Weibo H5 Beta 版](https://m.weibo.cn/beta)，有正常的时间序，轻度使用体验拔群！
-    - [__~~即刻~~__](https://www.ruguoapp.com/) - 关注感兴趣的主题，收到量身定制的更新推送。很不错。
-    - [__~~青芒阅读~~__](https://itunes.apple.com/us/app/wan-dou-jia-yi-lan-zai-yi/id1003672393?mt=8) - 资讯类 Apps 内容汇总。
-
----
-
-- 音乐 & 娱乐
-    - [__Douban FM__](http://douban.fm/)
-        豆瓣FM，随便听听，或者想要发现喜欢的新歌，还是会选择它。已入 Pro 版。
+- 音乐 & 游戏 & 视频
     - [__Netease Music__](http://music.163.com/) <sup>Favorite</sup>
         网易云音乐，音乐类软件的新标杆。能找到很多好歌单，冷门好歌，最喜欢看歌曲评论，分享感动和共鸣。
-    - [__Deemo__](https://itunes.apple.com/en/app/deemo/id700637744?mt=8) <sup>Favorite, Best</sup>
-        最爱的音乐游戏！最爱曲目：Magnolia 。超喜欢这个游戏工作室：Rayark ！
-    - [__AcFun__](http://www.acfun.tv/)
-    - [__Bilibili__](http://www.bilibili.com/) <sup>Favorite, Best</sup>
+    - [__Bilibili__](http://www.bilibili.com/) <sup>Favorite</sup>
         现在看视频不带弹幕，就总觉得差点意思。
         - Others : [土豆](http://mobile.tudou.com/) , [YouTube](https://www.youtube.com/yt/devices/)
-
----
-
 - 安全
     - [__1Password__](https://1password.com/)
         密码管理。
-    - [__~~Authy~~__](https://www.authy.com/)  <sup>Better Authenticator!</sup>
-        两步验证器。可以多设备云同步、备份其中的验证信息。
-        不像其它验证器，无法便捷切换到新的设备商，而且一旦卸载了，相关信息就丢失了。
-    - [~~Google Authenticator~~](https://itunes.apple.com/en/app/google-authenticator/id388497605?mt=8) <sup>Required</sup>
+    - ~~[__Authy__](https://www.authy.com/)~~
         两步验证器。提高安全意识，能开启两步验证的网络服务都开启，别嫌麻烦。
-    - [__~~Tencent Security~~__](https://itunes.apple.com/us/app/teng-xun-shou-ji-guan-jia/id439638720?mt=8) 腾讯手机管家
-        iOS 最好的来电防骚扰助手。（实际很少收到骚扰电话，所以已卸载）
-
----
-
+        - Authy 对比其它验证器的主要优点：可以多设备云同步、备份其中的 token 信息！
+        - 备选：[~~Google Authenticator~~](https://itunes.apple.com/en/app/google-authenticator/id388497605?mt=8)。缺点：一旦卸载，其中的 token 信息就会丢失，需重新设置。
+    - ~~__电话、短信的防骚扰助手__~~
+        利用 iOS 提供的接口协助过滤；一般没必要安装，注意隐私就好。如有必要再装。
 - 其它
+    - ~~__联系人信息同步助手__~~
+        如 QQ 同步助手，一般没必要安装，微信等 App 也可以做到。
     - [__支付宝__](https://mobile.alipay.com/index.htm)
-        不得不装，用于交水电费、查快递、淘宝天猫亚马逊付款……
+        不得不装，用于交水电费、查快递、淘宝天猫亚马逊付款…
     - [__高德地图__](https://itunes.apple.com/cn/app/%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE-%E7%B2%BE%E5%87%86%E4%B8%93%E4%B8%9A%E7%9A%84%E6%89%8B%E6%9C%BA%E5%9C%B0%E5%9B%BE-%E8%87%AA%E9%A9%BE%E5%85%AC%E4%BA%A4%E9%AA%91%E8%A1%8C%E5%AF%BC%E8%88%AA/id461703208?mt=8)
-        各个地图 App 当中，个人觉得这个最美观、顺手。腾讯地图虽然可以完全离线，可是用起来不习惯。
+        各个地图 App 当中，个人觉得这个最美观、顺手。备用：腾讯地图，可以离线使用。
     - [__欧路词典 Pro__](http://www.eudic.net/eudic/mac_dictionary.aspx)
         英语词典。可使用在线有道词典，无广告！
-    - [__~~QQ 同步助手~~__](https://pim.qq.com/)
-        iOS 语言设置为 English 后，需要它进行中文联系人排序；还可以合并、去重、修改以及备份通讯录。
-    - [~~Serverauditor~~](https://serverauditor.com/) <sup>_temp_</sup>
-        免费的移动 SSH 客户端。运维、服务端研发工程师们随时随地“救火”的利器。
-        （只能作为权宜之计，远不如笔记本电脑方便）
 
----
+除了 iOS 自带且不能删除的 Apps，iPhone 里就几乎只有以上的少数的 Apps。
 
-除了 iOS 自带且不能删除的 Apps，iPhone 里就几乎只有以上的少数（没划删除线）的 Apps。
+### Chrome 浏览器插件
 
-### 浏览器插件
+有必要使用的浏览器插件不多。例如，[Greasemonkey](http://www.greasespot.net/)、Stylish 等就不建议折腾。
 
-其有必要使用的浏览器插件并不多。
-
-例如，改善微博浏览体验的各种插件、油猴脚本、Stylish 样式等等，用它们还不如把微博戒了。如果要看用原版网页就够了，觉得折腾起来意义不大。
-
-- 常用
-    - [__1Password__](https://agilebits.com/onepassword) <sup>Pwd Security</sup>
-        管理帐号密码。
-    - [__Evernote Web Clipper__](https://evernote.com/intl/zh-cn/webclipper/) <sup>Efficient, Best</sup>
-        一键收藏各类网页图文，保存到 Evernote。
-    - Web Proxy
-        代理服务配置工具。
-        - Firefox : [__FoxyProxy Standard__](http://getfoxyproxy.org/) <sup>Web Development</sup>
-        -  Chrome : [__SwithyOmega__](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?hl=en) <sup>Web Development</sup>
-    - Vim
-        用 Vim 的键位去浏览、导航网页，减少使用鼠标的使用，键盘党神器！
-        - Firefox : [__VimFX__](https://github.com/akhodakivskiy/VimFx) <sup>Favorite, Best</sup>
-            - [~~Vimperator~~](http://www.vimperator.org/) 拓展功能太强大，响应速度、稳定性、外观和易用性不如 VimFX。
-            - 我的 VimFX [设置](/mac_shortcuts/#VimFX)
-        - Chrome : [__Vimium__](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en) <sup>Simple</sup>
-            - [__~~cVim~~__](https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh?hl=en) <sup>Powerful</sup> 功能更强大、丰富、可配置，但需要用类似 `.vimrc` 的文本方式进行调整功能配置，比较麻烦。
-
----
-
-- 浏览器增强
-    - [__uBlock__](https://www.ublock.org/) <sup>Simple</sup>
-        快速轻量级的广告过滤器。
-    - ~~[Adblock Plus](https://adblockplus.org/zh_CN/) & [Adblock Plus Elem Hide Helper](https://adblockplus.org/zh_CN/elemhidehelper)~~ <sup>Focus, Clean</sup>
-        老牌广告过滤器之一。防止追踪、屏蔽恶意域名，过滤横幅广告、弹窗广告以及视频广告。配合元素隐藏助手使用，可更轻松地建立元素隐藏规则。
-    - [__xThunder__](http://fxthunder.com/) <sup>Firefox</sup>
-        统一管理浏览器各下载器的调用，支持迅雷、DownThemAll 以及浏览器的自带下载器等。
-    - [__JSONView__](http://jsonview.com/) <sup>Web Development</sup>
-        清晰明了地展示页面的 JSON 格式数据。
-    - [__DownThemAll!__](downthemall.net)
-        ~~批量下载工具。多线下载，速度更快，功能更强，非 P2P 下载用它代替迅雷和浏览器自带的下载器。~~
-        （一般情况下用浏览器默认的下载器就够了）
-    - [__~~Greasemonkey~~__](http://www.greasespot.net/) <sup>__Geek__</sup>
-        使用 JavaScript 脚本自定义网站网页的布局、外观、操作等！有提供油猴脚本的 [网站](http://wiki.greasespot.net/User_Script_Hosting)。
-        （用多了，影响网页的加载速度和性能还有安全性…… 没必要这样折腾，用原版网页。）
-    <!-- - [~~Stylish~~](https://userstyles.org/) <sup>Firefox</sup> -->
-        <!-- ~~用户样式管理器。用自定义或别人预定义好的 CSS 定制各网页的外观。~~（没必要折腾。） -->
-    <!-- - [~~NoScript~~](https://noscript.net/) -->
-        <!-- ~~根据自定义的规则，屏蔽/通过 JavaScript、Java、Flash 以及其它插件等的页面内容，降低安全风险~~。除非对隐私要求高，否则实属自找麻烦。 -->
-    <!-- - [~~RequestPolicy~~](https://www.requestpolicy.com/) -->
-        <!-- ~~控制允许哪些跨站点的请求，改善隐私保护，避免遭遇跨站点请求伪造（CSRF）以及其它攻击~~。除非对隐私要求高，否则实属自找麻烦。 -->
+- [__uBlock__](https://www.ublock.org/) <sup>Simple</sup>
+    快速轻量级的广告过滤器。我放弃了老牌的工具，如 ~~[Adblock Plus](https://adblockplus.org/zh_CN/) & [Adblock Plus Elem Hide Helper](https://adblockplus.org/zh_CN/elemhidehelper)~~。
+- [__Chrono Download Manager__](https://chrome.google.com/webstore/detail/chrono-download-manager/mciiogijehkdemklbdcbfkefimifhecn)
+    批量下载工具。多线下载，速度更快，功能更强，非 P2P 下载用它代替迅雷和浏览器自带的下载器。
+    （一般情况下用浏览器默认的下载器就够了）
+- [__SwithyOmega__](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?hl=en) <sup>Web Development</sup>
+    「代理服务」配置工具，用于「科学上网」。
+- [__1Password__](https://agilebits.com/onepassword) <sup>Pwd Security</sup>
+管理帐号密码。
+- [__One Tab__]()
+    TODO
+- [__Evernote Web Clipper__](https://evernote.com/intl/zh-cn/webclipper/) <sup>Offline Archived</sup>
+    一键收藏各类网页图文，保存到 Evernote。
+- [__cVim__](https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh?hl=en) <sup>Chrome, Powerful</sup>
+    用 Vim 的键位去浏览、导航网页，减少使用鼠标的使用，键盘党神器！（~~[__Vimium__](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)~~ <sup>备选</sup>）
+    功能强大丰富，通过修改类似 `.vimrc` 的配置文件来设置功能（比较麻烦）。
+- [__JSON Formmater__](https://github.com/callumlocke/json-formatter) <sup>Web Development</sup>
+    清晰明了地展示页面的 JSON 格式数据。
 
 ### Windows
 
@@ -577,31 +487,28 @@ __荀子__
 
 ### 电脑
 
-- [__MacBook Pro Retina 13-inch__](http://www.apple.com/cn/shop/buy-mac/macbook-pro?product=MF841CH/A&step=config) - 便携电脑 <sup>Favorite</sup>
-    i7 - 3.1 GHz / Mem 16 GB / SSD 512 GB ，Mac 是软件工程师的最佳工作平台！
-    Unix-like，稳定、省心。用好了 Windows，才了无牵挂地换了 Mac。
+- __便携电脑__：[MacBook Pro Retina 13-inch](http://www.apple.com/cn/shop/buy-mac/macbook-pro?product=MF841CH/A&step=config) <sup>Favorite</sup>
+    i7 - 3.1 GHz / Mem 16 GB / SSD 512 GB。Unix-like，稳定、省心。Mac 是软件工程师的最佳工作平台！
 
-#### 显示器 & 支架
+#### 显示器
 
-- [__DELL UltraSharp U2515Hx 25-inch__](https://item.jd.com/1453819.html) - 显示器
-    2K（2560 * 1440）分辨率，窄边框，IPS 面板，LED-Lit（背光）
-- [__UP OA-7X Dual Desktop Mount for Laptop and LCD Display__](https://item.jd.com/1108822.html) - 支架
-    显示器笔记本组合桌面支架，可升降。
+- __显示器__：[DELL UltraSharp U2515Hx 25-inch](https://item.jd.com/1453819.html)
+    2K（2560 * 1440）分辨率，窄边框，IPS 面板，LED-Lit（背光）。双显示器，竖屏，水平并排使用。
 
 #### 触摸板
 
-- [__Magic Trackpad 2__](http://www.apple.com/cn/shop/product/MJ2R2CH/A/magic-trackpad-2?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2) - 触摸板
+- __触摸板__：[Magic Trackpad 2](http://www.apple.com/cn/shop/product/MJ2R2CH/A/magic-trackpad-2?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2)
     Macbook 自带触摸板的手感已经非常好了，但它还要更胜一筹！第二代比第一代触摸面积大了不少，有三段式压感反馈，手感细腻。
     - 还是嫌它大了点，因为我的 Mac 光标移动速度向来调到最快，基本一次小幅度滑动，光标就到位了，不需要太大的触控面积。基本不玩 PC 游戏，所以完全改用触摸板。
 
 #### 键盘
 
-- [__Magic Keyboard__](http://www.apple.com/cn/shop/product/MLA22CH/A/magic-keyboard?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2) - 蓝牙键盘
+- __蓝牙键盘__：[Magic Keyboard](http://www.apple.com/cn/shop/product/MLA22CH/A/magic-keyboard?fnode=55ff065819d666715b20a981bb6f5f6fea4670ea0305310e909e70f9db010fd3682e64118d0243109ebfec218056294be90dcd230d2da847d0fcd4a75b19ad6c9a0d3698c7ad96b873aa34184e1581ddf746c770f885a1c8e9a62f2985f320e2) <sup>Favorite</sup>
     （第二代）小巧轻便。Mac 的键盘布局紧凑合理，手用更小幅度的移动就能触及所有按键，省力。
     - 可能你会觉得敲起来手感「绵软」，但是作为「键盘党」的我，快捷键很多而且用得频繁，就觉得使用它很舒适、省力、安静。
     - [键程](http://baike.baidu.com/view/1748635.htm) 不会太长或太短，不需要用力按下，有舒适的反馈感（个人感觉），用久了手也不容易疲劳，特别是小指；而且敲击按键的声音小，不容易打扰到别人。
     - 使用蓝牙 4.0 无线连接，功耗低 —— 没有连接线，这点简直是洁癖和强迫症的福音；内置电池，Lightning 接口充电，一次充电能够续航三周以上，省心。
-- [__PFU HHKB Professional JP__](https://www.amazon.cn/PFU-Happy-Hacking-Keyboard-Professional-JP-%E6%97%A5%E6%9C%AC%E8%AA%9E%E9%85%8D%E5%88%97-%E5%A2%A8-USB%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89-%E9%9D%99%E9%9B%BB%E5%AE%B9%E9%87%8F%E7%84%A1%E6%8E%A5%E7%82%B9-N%E3%82%AD%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%AB%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-PD-KB420B/dp/B001KWJTD6/ref=sr_1_2?ie=UTF8&qid=1494650201&sr=8-2&keywords=hhkb+jp) - 静电容键盘
+- ~~__静电容键盘__：[PFU HHKB Professional JP](https://www.amazon.cn/PFU-Happy-Hacking-Keyboard-Professional-JP-%E6%97%A5%E6%9C%AC%E8%AA%9E%E9%85%8D%E5%88%97-%E5%A2%A8-USB%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89-%E9%9D%99%E9%9B%BB%E5%AE%B9%E9%87%8F%E7%84%A1%E6%8E%A5%E7%82%B9-N%E3%82%AD%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%AB%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-PD-KB420B/dp/B001KWJTD6/ref=sr_1_2?ie=UTF8&qid=1494650201&sr=8-2&keywords=hhkb+jp)~~ <sup>Try</sup>
     黑色，有刻印（按键上印有键位说明），日文键盘布局。
     - 果然还是按耐不住好奇心，买了一把机械键盘（严格来说静电容键盘不是机械键盘）来尝试。
     - 「[HHKB Pro 2](https://www.amazon.cn/PFU-Happy-Hacking-Keyboard-Professional2-%E5%A2%A8-%E7%84%A1%E5%88%BB%E5%8D%B0-%E8%8B%B1%E8%AA%9E%E9%85%8D%E5%88%97-USB%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89-%E9%9D%99%E9%9B%BB%E5%AE%B9%E9%87%8F%E7%84%A1%E6%8E%A5%E7%82%B9-UNIX%E9%85%8D%E5%88%97-WINDOWS-MAC%E4%B8%A1%E5%AF%BE%E5%BF%9C-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-PD-KB400BN/dp/B000F8OECM/ref=sr_1_2?ie=UTF8&qid=1494650270&sr=8-2&keywords=hhkb)」系列 60 键 US 布局精简至极，看起来精致小巧、赏心悦目「逼格满满」啊！但是我这个快捷键党为了改键的需求，最终选择了按键更多、布局奇特的日本版。
@@ -610,197 +517,160 @@ __荀子__
 
 #### 拓展邬
 
-- [__Sabrent USB 3 Universal Docking Station__](https://www.amazon.cn/gp/product/B013WQWCEA/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1) - 拓展邬 & 底座
-    - 可当底座
-        - 可以当手机、平板、笔记本电脑的底座用（我的 MBP 不开盖，外接显示屏用）。
+- __拓展邬 & 底座__：[Sabrent USB 3 Universal Docking Station](https://www.amazon.cn/gp/product/B013WQWCEA/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1) - 连接、整齐
     - 接口够用
-        - USB 3.0 接口 x 2，USB 2.0 接口 x 2，USB 充电专用接口 x 2，全都是 Type-A 的；还有 Ethernet 接口、HDMI、音频 IO。
+        - USB 3.0 接口 x 2，USB 2.0 接口 x 2，大功率 USB 充电专用接口 x 2，全是 Type-A 的；还有 Ethernet 接口、HDMI、音频 IO。
         - 外接备份硬盘、机械键盘，不用带 USB 充电口的插线板了；
         - 外接物理网口，不用 Ethernet 转 USB Type-A 的适配器了；
-            （真是浪费了之前买 [Moshi USB 3.0 - 千兆以太网转接线](https://www.amazon.cn/%E7%94%B5%E8%84%91-it-%E5%8A%9E%E5%85%AC/dp/B00SIT3QE2/ref=sr_1_fkmr0_1?ie=UTF8&qid=1499445169&sr=8-1-fkmr0&keywords=Moshi+USB+3.0+%E8%87%B3%E4%BB%A5%E5%8D%83%E5%85%86%E5%A4%AA%E7%BD%91%E8%BD%AC%E6%8D%A2%E5%99%A8) ……）
+            （真是浪费了之前买 [Moshi USB 3.0 - 千兆以太网转接线](https://www.amazon.cn/%E7%94%B5%E8%84%91-it-%E5%8A%9E%E5%85%AC/dp/B00SIT3QE2/ref=sr_1_fkmr0_1?ie=UTF8&qid=1499445169&sr=8-1-fkmr0&keywords=Moshi+USB+3.0+%E8%87%B3%E4%BB%A5%E5%8D%83%E5%85%86%E5%A4%AA%E7%BD%91%E8%BD%AC%E6%8D%A2%E5%99%A8) …）
         - 音频输出不灵，耳机还是得插在笔记本电脑的机身上；
         - HDMI 接口连 2K 屏，帧率达不到 60 Hz 以致有卡顿（可能是传输线的带宽不够），只能用回 Thunderbolt 2 接口连外接显示屏。
-    - 方便拔线
+    - 便于插拔
         - 现有的外接线头都插在笔记本电脑的左侧，电源、连显示屏的 Thunderbolt 2、连拓展邬的 USB 3.0，还有耳机插线。
-    - 略有遗憾，但足够满意
         - 线头集中摆放，工位整洁多了；外接新设备，接口够用，接入也方便多了。
+    - 可作底座
+        - 可以当手机、平板、笔记本电脑的底座用（我的 MBP 不开盖，外接显示屏用）。
+    - 性价比
         - 本来想买个用 Thunderbolt 2 接口接入的更好的拓展邬，但至少贵一倍，而且新款 MacBook Pro 支持的是更先进的兼容 USB Type-C 的 Thunderbolt 3 接口，所以我不想买 Thunderbolt 2 的，最后决定先买个便宜的将就着用。
 
 #### 备份硬盘
 
-- [__SAMSUNG Portable SSD T3 500GB__](http://www.samsung.com/cn/memory-storage/pssd-mu-pt/MU-PT500BCN/) - 便携 SSD
-    用这个便携固态硬盘当作备份盘确实有点奢侈……
+- __便携 SSD__：[SAMSUNG Portable SSD T3 500GB](http://www.samsung.com/cn/memory-storage/pssd-mu-pt/MU-PT500BCN/)
+    主要作为 MacBook Pro 的备份盘，备份和系统重装镜像恢复的速度飞快，就是有点奢侈…
 
 ### 手机
 
-- __iPhone 8__ <sup>_wish!_</sup>
-- [__iPhone 7 Black__](http://www.apple.com/cn/shop/buy-iphone/iphone-7) <sup>Favorite</sup>
-    128GB + [__Red Silicone Case__](http://www.apple.com/cn/shop/product/MMW82FE/A/iphone-7-%E7%A1%85%E8%83%B6%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E9%BB%91%E8%89%B2?fnode=99) ，闪电般流畅，稳定省心；小巧称手，单手操作高效、舒适。
-    - 笔记、记账、GTD、阅读、通讯… 随身的效率工具，我一定买最好的。
-    - 哑光黑很 Geek！强迫症的我受不了娇贵易损的亮黑。
-    - 我很喜欢 [Red Silicone Case](http://www.apple.com/cn/shop/product/MMW82FE/A/iphone-7-%E7%A1%85%E8%83%B6%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E9%BB%91%E8%89%B2?fnode=99)（官方硅胶保护壳）的轻微磨砂质感，舒适、不滑手。
-- __~~iPhone 6 Plus Gold~~__ <sup>_备用_</sup>
-    64GB + [__Turquoise Silicone Case__](http://www.apple.com/cn/shop/product/MM6D2FE/A/iphone-6s-plus-%E7%A1%85%E8%83%B6%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E4%BA%AE%E7%B2%89%E8%89%B2?fnode=99) ，续航不错、屏幕尺寸合适。
-    - 作为iPad 的替代品和备用手机，出门就可以不带充电宝了。
-    - 比小屏 iPhone 更适合阅读和看视频，又比 iPad Mini 更便携、方便单手操作，挤地铁公交的时候用也没问题，也是最适合玩手机游戏的尺寸。
-    - [Turquoise Silicone Case](http://www.apple.com/cn/shop/product/MM6D2FE/A/iphone-6s-plus-%E7%A1%85%E8%83%B6%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E4%BA%AE%E7%B2%89%E8%89%B2?fnode=99)（宝石绿官方硅胶保护壳），一分钱一分货，用久了也能保持悦目的颜色。
-    - ~~[Rose Gray Leather Case](http://www.apple.com/cn/shop/product/MM362FE/A/iphone-6s-plus-%E7%9A%AE%E9%9D%A9%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E6%B5%B7%E8%93%9D%E8%89%B2?fnode=99) 官方真皮保护壳易氧化变色，显脏，所以得买深色的。~~
+- [__iPhone__](https://www.apple.com/cn/iphone/) <sup>Favorite</sup>
+    - iOS 系统安全、稳定、流畅、省心。
+    - GTD、阅读、笔记、通讯、记账… 随身的效率工具。
+    - 日常主要使用的都是 Apple 的产品，配套使用效率更高。
+    - 适应且喜欢 Apple 的软件生态（Apps），切换平台（Windows、Android）成本高，也没必要。
+    - 尽量购买存储空间较大的版本，个人日常使用至少需要 64GB。
+    - 相对于从 6 代开始的 Plus 大款 iPhone，更喜欢小款的，握持舒适、便携（如从裤袋取放）。
+        - 除了大部头的书和高清视频，一般的阅读和视频在小屏上看也没差，大不了回头在 Mac 上看。
+    - 我很喜欢 [Red Silicone Case](http://www.apple.com/cn/shop/product/MMW82FE/A/iphone-7-%E7%A1%85%E8%83%B6%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E9%BB%91%E8%89%B2?fnode=99)（官方硅胶保护壳）的轻微磨砂质感，好看、舒适、不滑手。
+    - 除非你想日后再倒卖出手，否则没必要贴膜，影响观感、手感和手势操作。
+- __~~iPhone Plus~~__ <sup>_备用_</sup>
+    - 续航不错，作为iPad 的替代品和备用手机，出门就可以不带充电宝了。
+    - 屏幕尺寸合适，比小屏 iPhone 更适合阅读和看视频，又比 iPad Mini 更便携、方便单手操作，挤地铁公交的时候用也没问题，也是最适合玩手机游戏的尺寸。
+    - [Turquoise Silicone Case](https://www.apple.com/cn/shop/product/MKXJ2FE/A/iphone-6-plus-6s-plus-%E7%A1%85%E8%83%B6%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E7%82%AD%E7%81%B0%E8%89%B2?fnode=99)（宝石绿官方硅胶保护壳），一分钱一分货，用久了也能保持悦目的颜色。
+    - ~~[Rose Gray Leather Case](https://www.apple.com/cn/shop/product/MKX92FE/A/iphone-6-plus-6s-plus-%E7%9A%AE%E9%9D%A9%E4%BF%9D%E6%8A%A4%E5%A3%B3-%E6%A3%95%E8%89%B2?fnode=99) 官方真皮保护壳易氧化变色，显脏，所以得买深色的。~~
 
 ### 手表
 
-- [__Apple Watch Sport__](http://www.apple.com/cn/shop/buy-watch/apple-watch-sport/38-%E6%AF%AB%E7%B1%B3%E6%B7%B1%E7%A9%BA%E7%81%B0%E8%89%B2%E9%93%9D%E9%87%91%E5%B1%9E%E8%A1%A8%E5%A3%B3-%E9%BB%91%E8%89%B2%E8%BF%90%E5%8A%A8%E5%9E%8B%E8%A1%A8%E5%B8%A6?product=MJ2X2CH/A&step=detail) <sup>Favorite</sup>
-    38mm Space Gray Aluminum Case with Black Sport Band ，手机辅助工具、健康助手。
+- [__Apple Watch Sport__](http://www.apple.com/cn/shop/buy-watch/apple-watch-sport/38-%E6%AF%AB%E7%B1%B3%E6%B7%B1%E7%A9%BA%E7%81%B0%E8%89%B2%E9%93%9D%E9%87%91%E5%B1%9E%E8%A1%A8%E5%A3%B3-%E9%BB%91%E8%89%B2%E8%BF%90%E5%8A%A8%E5%9E%8B%E8%A1%A8%E5%B8%A6?product=MJ2X2CH/A&step=detail)
+    38mm Space Gray Aluminum Case with Black Sport Band ，iPhone、Mac 的辅助工具，健康助手。
+    - 在 Mac 旁边，只要手上戴着手表并已解锁，唤醒 macOS 后它就会自动解锁，直接进入主界面。
     - 消息推送更私密，还可以使用语音识别输入内容，不用掏出手机就可以快速预览信息、回复。
     - 便于设置闹钟、计时、倒计时，倒计时可结合番茄工作法使用。
-    - 可以控制手机的音频播放，不用掏出手机进行操作。
     - 便于查看日期时刻、天气，例如：之后每小时的降雨概率，便于决定是否带雨伞、骑行出门。
-    - 显示每日的运动清况，激励、提醒你保持运动的习惯，促进健康；每久坐一段时间，它就会提醒您站起来休息一下。
-    - 很喜欢 watchOS 3 新增的深呼吸辅助应用，可以用来放松、冥想、帮助睡眠。
+    - 可以控制手机的音频播放，不用掏出手机进行操作（其实通常使用耳机线控）。
+    - 显示每日的运动清况，激励、提醒你保持运动的习惯（只是多走动，少坐电梯，也足够有益健康）。
+    - 每久坐一段时间，它就会提醒您站起来活动一下。
+    - 从实用性上说，运动款（Sport）就够用了，买标准款没必要。（究其原因是穷…）
 
-### 平板电脑
+### 平板
 
-- [__iPad Air__](http://www.apple.com/cn/ipad-air-2/) <!--<sup>[_闲置待转售_](https://2.taobao.com/item.htm?id=539039133369)</sup>-->
-    32GB + [__Red Smart Cover__](http://www.apple.com/cn/shop/product/MGTM2FE/A/ipad-air-smart-cover-black) + 言外 Involve Leather Bag，多用于阅读技术类书籍，看看动漫、电影、公开课。
-    - 结合 Magic Keyboard 能够满足轻度使用，不用总是携带笔记本电脑回住处。
-- ~~[__Kindle Paperwhite__](https://www.amazon.cn/Kindle-Paperwhite%E7%94%B5%E5%AD%90%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A8-300-ppi%E7%94%B5%E5%AD%90%E5%A2%A8%E6%B0%B4%E8%A7%A6%E6%8E%A7%E5%B1%8F-%E5%86%85%E7%BD%AE%E9%98%85%E8%AF%BB%E7%81%AF-%E8%B6%85%E9%95%BF%E7%BB%AD%E8%88%AA/dp/B00QJDOLIO) E-reader - 电子阅读器~~ <sup>_Sold_</sup>
-    - ~~\+ [__Amazon Onyx Black Leather Cover__](https://www.amazon.cn/%E4%BA%9A%E9%A9%AC%E9%80%8AKindle-Paperwhite%E7%9C%9F%E7%9A%AE%E4%BF%9D%E6%8A%A4%E5%A5%97/dp/B008BQH1NO) ，需要长时间看书时，还得用 E-Ink 屏，保护视力。~~
+- ~~[__iPad__](http://www.apple.com/cn/ipad)~~
+    ~~多用于阅读技术类书籍，看看动漫、电影、公开课。配合蓝牙键盘能够满足轻度使用，不用总是携带笔记本电脑回住处~~。还是因为用得少，也想身边的物品更精简，就给家里人用了（他们用大屏就不那么费眼力）。
+
+### 阅读器
+
+- ~~[__Kindle Paperwhite__](https://www.amazon.cn/Kindle-Paperwhite%E7%94%B5%E5%AD%90%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A8-300-ppi%E7%94%B5%E5%AD%90%E5%A2%A8%E6%B0%B4%E8%A7%A6%E6%8E%A7%E5%B1%8F-%E5%86%85%E7%BD%AE%E9%98%85%E8%AF%BB%E7%81%AF-%E8%B6%85%E9%95%BF%E7%BB%AD%E8%88%AA/dp/B00QJDOLIO) E-reader~~ <sup>_Sold_</sup>
+    - ~~需要长时间看书时，还得用 E-Ink 屏，保护视力~~。用惯手机阅读后，感觉这样更方便，就卖了…
 
 ### 耳机
 
-- [__Bose QC30__](https://www.bose.cn/zh_cn/products/headphones/earphones/quietcontrol-30.html#v=qc30_black) <sup>Favorite, Best</sup>
-    QuietControl 30 Wireless Headphones 无线蓝牙控噪耳机
-    - 特点和用法：
-        - Bose 是目前市面上我所知的最好的消噪耳机品牌；
-        - 主动消噪，耳塞发出一种波与有规律的噪音相消；
-        - 消噪后，自然就可以用更小的音量听清播放的音频；
-        - 人声不能完全隔绝，但其音量会变得很小，就像是在水底听水面上的声音，远了小了许多；
-        - 完全消噪时，只要低音量地播放音乐或白噪音，就可以在很大程度上隔绝外部噪音。
-        - 可以帮助我在嘈杂的办公室也能在静谧专注地做事。虽然挺贵的，但我觉得花得值！
-    - 其它优点：
-        - 无线蓝牙连接，便携易用；
-        - 消噪程度可控，可调节到「完全消噪」和「关闭消噪」间的任意水平；
-        - 可同时连接多个蓝牙音频输出设备，便捷地切换音源（我的 MBP 或 iPhone）。
-            自动切换音源：暂停当前音源的播放，然后让另一已连接的音源开始播放（或正在播放）。
-    - 一些遗憾：
-        - 续航时间 10h（官方宣称），比 QC20 的 16h 短 6h；充电时间 <3h，比 QC20 的 2h 长；
-        - 不能像 QC20 那样一键切换「完全消噪」、「停止消噪，输入外部声音」两个状态，略麻烦；
-        - 消噪能力（最高档位）比 QC20 略弱；
-        - 外观挺丑，而且还容易戴歪，人称「狗圈」。
-        - 不过为了消噪和便携我选择接受。
-- [__Bose QC20__](https://www.bose.com/en_us/products/headphones/earphones/quietcomfort-20i-acoustic-noise-cancelling-headphones.html#v=qc20_apple_white) <sup>_备用_</sup>
-    QuietComfort® 20 Acoustic Noise Cancelling®headphones — Apple devices
-    - 续航时间 16h，充电时间 2h；可「一键切换」是否隔绝周围环境的噪音；
-- [__SONY MDR-EX750BT__](http://www.sonystyle.com.cn/products/headphone/mdr_ex750bt.htm) <sup>_备用_</sup>
-    - 颈戴入耳式耳塞，外观亮骚，音质出众（只对比各蓝牙耳塞，且不含头戴式耳机），便于携带；
-    - 续航 7.5 h，没电时，也可用外接耳机线连接其它设备继续使用。
-- [__EarPods__](https://www.apple.com/cn/shop/product/MMTN2FE/A/%E9%87%87%E7%94%A8-lightning-%E6%8E%A5%E5%A4%B4%E7%9A%84-earpods?fnode=0a5f7d07daf5db58d1a087a74df215f38b1b99688e3ba4ea456e71c162208479071e07ddbe74c4bf1136dbeeb907483d470b5ce4a6bf28221d38d359cf377ca8715757f81d3a784f17164919fb44312600371d330fe97f1a5edc8a6eea27bb15d7f2bee9d1e22d95ddbb791b310300dff9abf25841d8ad6c9654123ec1958264) <sup>outdoor</sup>
-    - 需要注意周围环境声音（路况）、不需要消噪的情况，还是用挂耳式的耳塞更直接方便。
-        我基本将它用在「行走时听播客、音乐」的场景。
+- __降噪耳机__（[Bose](https://www.bose.cn/zh_cn/index.html) 目前市面上最好的消噪耳机品牌）
+    - [__Bose QC30__](https://www.bose.cn/zh_cn/products/headphones/earphones/quietcontrol-30.html#v=qc30_black) <sup>Favorite</sup>
+        QuietControl 30 Wireless Headphones 无线蓝牙控噪耳机。
+        - 特点：
+            - 主动消噪，耳塞发出一种波与有规律的噪音相消；消噪后，自然就可以用更小的音量听清播放的音频；人声不能完全隔绝，不过会像是在水底听水面上的声音，感觉距离远了，声量小了许多；消噪程度可控，可调节到「完全消噪」和「关闭消噪」间的任意水平；完全消噪时，只要低音量地播放音乐或白噪音，就可以在很大程度上隔绝外部噪音。可以帮助我在嘈杂的办公室也能在静谧专注地做事。
+            - 其它：线蓝牙连接，使用方便；颈戴式设计，便携；可同时连接多台设备，便捷地切换音源（我的 MBP 或 iPhone）：暂停当前音源的播放，然后让另一音源开始播放（或正在播放）。
+        - 一些遗憾：
+            - 续航时间 10h（官方宣称），比 QC20 的 16h 短 6h；
+            - 充电时间 &gt;3h，比 QC20 的 2h 长；
+            - 不能像 QC20 那样一键切换「完全消噪」、「输入外部声音」两个状态，略麻烦；
+            - 外观挺丑，而且还容易戴歪，人称「狗圈」。
+        - SONY 也进入了「消噪耳机」的市场，新出的产品音质很好，颈戴款的耳塞外观还行，比 Bose 的颈戴款好看，可是蓝牙不能同事连接多台设备。
+    - ~~[__Bose QC20__](https://www.bose.com/en_us/products/headphones/earphones/quietcomfort-20i-acoustic-noise-cancelling-headphones.html#v=qc20_apple_white)~~ <sup>_备用_</sup>
+        QuietComfort® 20 Acoustic Noise Cancelling®headphones — for Apple devices
+        - 续航时间 16h，充电时间 2h；可「一键切换」是否隔绝周围环境的噪音。
 
 ### 音箱
 
-- [__Sony SRS-X1-V__](http://item.jd.com/10132928766.html) <sup>Favorite</sup>
-    Bluetooth Wireless Speaker System (Purple)，不打扰别人情况下，尽量用蓝牙音箱来外放，更舒服自在。
-    - 在安静环境下，用适度的音量外放合适的音乐或白噪声，更容易让人产生沉浸式的专注体验。戴耳塞、耳机，让音源很靠近耳朵（头部），发出的声音太容易抢占人的注意力，沉浸体验不如外放设备。
+- __便携无线蓝牙音箱__：[Sony SRS-X1-V](http://item.jd.com/10132928766.html) <sup>Favorite</sup>
+    Bluetooth Wireless Speaker System (Purple)。不打扰别人情况下，尽量用蓝牙音箱来外放，更舒服自在。
+    - 在安静环境下，用适度的音量外放合适的音乐或白噪声，容易让人产生沉浸式的专注体验。耳塞、耳机的音源很靠近耳朵，发出的声音太容易抢占人的注意力，沉浸体验不如外放设备。
     - 而且戴耳机、耳塞，多少会压迫侧颊、耳朵、头部，耳道有异物感，始终不是最舒适的状态。长时间戴耳机、耳塞，又不注意清洁设备和耳朵，有可能导致中耳炎，请注意保护听力。
-    - 音效还不错（对比类似价位的同类产品）；续航持久；无线连接迅速；防水，可以在浴室使用。还是一分钱一分货啊。
+    - 音效还不错（对比类似价位的同类产品）；续航持久；无线连接迅速；防水，可以在浴室使用。
 
 ### 护牙
 
-- 牙刷
-    - [__Philips Sonicare DiamondClean Sonic Electric Rechargeable Toothbrush__](https://www.amazon.com/Philips-Sonicare-DiamondClean-Rechargeable-HX9332/dp/B0052JN7XG/ref=sr_1_1_a_it?ie=UTF8&qid=1468933357&sr=8-1&keywords=hx9332) <sup>Favorite</sup>
-        Model HX9331/04, White，声波式电动牙刷，确实比手动刷干净多了！（[亚马逊中国](https://www.amazon.cn/Philips-%E9%A3%9E%E5%88%A9%E6%B5%A6-HX9332-04%E9%92%BB%E7%9F%B3%E4%BA%AE%E7%99%BD%E5%9E%8B%E5%A3%B0%E6%B3%A2%E9%9C%87%E5%8A%A8%E7%89%99%E5%88%B7/dp/B007ZY5GV2/ref=sr_1_6?ie=UTF8&qid=1468507397&sr=8-6&keywords=philips+diamondclean)）
-        - [电动牙刷刷牙相比手动刷牙有什么优缺点？](https://www.zhihu.com/question/19825877/answer/15856166)
-        - Summary：
-            - 电动比手动好，各种好（完爆）；
-            - 旋转式的比声波式的刷得干净；
-            - 声波式的比旋转式的磨损小；
-            - 用电动牙刷的话使劲别太大。
-        - My Related Note - [牙齿保健](/read/tooth.html)
+- __电动牙刷__：[Philips Sonicare DiamondClean Sonic Electric Rechargeable Toothbrush](https://www.amazon.com/Philips-Sonicare-DiamondClean-Rechargeable-HX9332/dp/B0052JN7XG/ref=sr_1_1_a_it?ie=UTF8&qid=1468933357&sr=8-1&keywords=hx9332) <sup>Favorite</sup>
+    Model HX9331/04 (White) 声波式电动牙刷。确实比手动刷干净多了！（[亚马逊中国](https://www.amazon.cn/Philips-%E9%A3%9E%E5%88%A9%E6%B5%A6-HX9332-04%E9%92%BB%E7%9F%B3%E4%BA%AE%E7%99%BD%E5%9E%8B%E5%A3%B0%E6%B3%A2%E9%9C%87%E5%8A%A8%E7%89%99%E5%88%B7/dp/B007ZY5GV2/ref=sr_1_6?ie=UTF8&qid=1468507397&sr=8-6&keywords=philips+diamondclean)）
+    - [电动牙刷刷牙相比手动刷牙有什么优缺点？](https://www.zhihu.com/question/19825877/answer/15856166)
+    - Summary：
+        - 电动比手动好，各种好（完爆）；
+        - 旋转式的比声波式的刷得干净；
+        - 声波式的比旋转式的磨损小；
+        - 用电动牙刷的话使劲别太大。
+    - My Related Note - [牙齿保健](/read/tooth.html)
+- __冲牙器__（水牙线）：[Philips Sonicare Airfloss Ultra](https://www.amazon.com/Philips-Sonicare-HX8332-Airfloss-Ultra/dp/B01AVE8AAG/ref=sr_1_1_a_it?ie=UTF8&qid=1468933177&sr=8-1&keywords=hx8332)
+    Model HX8332/11（[京东](http://item.jd.hk/1964052662.html)）。注意：用了一年半，感觉充一次电用不了几次了。
+    - Summary：
+        - [使用牙线有必要性吗？](https://www.zhihu.com/question/20842469/answer/44441538)
+        - 牙齿与牙齿间的缝隙，牙线或冲牙器，才能弄干净；
+        - 需要牙刷 + 牙线结合使用才能全面清洁牙齿。
+        - [清理牙缝哪家强？两款水牙线的主观评测](https://zhuanlan.zhihu.com/p/20475312)
+    - Debate：
+        - [美国卫生署删除了“剔牙”“用牙线”的建议…](http://weibo.com/1878363622/E1OfvzJjo?from=page_1005051878363622_profile&wvr=6&mod=weibotime&type=comment#_rnd1471001024021)
+        - [Flossing has no proven benefits, so U.S. health department stops recommending the practice](http://www.nydailynews.com/life-style/no-floss-u-s-health-department-article-1.2735915)
+    - My Related Note - [牙齿保健](/read/tooth.html)
 
----
+### 羽球
 
-- 冲牙器
-    - [__Philips Sonicare Airfloss Ultra__](https://www.amazon.com/Philips-Sonicare-HX8332-Airfloss-Ultra/dp/B01AVE8AAG/ref=sr_1_1_a_it?ie=UTF8&qid=1468933177&sr=8-1&keywords=hx8332) - 冲牙器（水牙线）
-        Model HX8332/11。（[京东](http://item.jd.hk/1964052662.html)）
-        - Summary：
-            - [使用牙线有必要性吗？](https://www.zhihu.com/question/20842469/answer/44441538)
-            - 牙齿与牙齿间的缝隙，牙线或冲牙器，才能弄干净；
-            - 需要牙刷 + 牙线结合使用才能全面清洁牙齿。
-            - [清理牙缝哪家强？两款水牙线的主观评测](https://zhuanlan.zhihu.com/p/20475312)
-        - Debate：
-            - [美国卫生署删除了“剔牙”“用牙线”的建议…](http://weibo.com/1878363622/E1OfvzJjo?from=page_1005051878363622_profile&wvr=6&mod=weibotime&type=comment#_rnd1471001024021)
-            - [Flossing has no proven benefits, so U.S. health department stops recommending the practice](http://www.nydailynews.com/life-style/no-floss-u-s-health-department-article-1.2735915)
-        - My Related Note - [牙齿保健](/read/tooth.html)
-
-### 羽毛球
-
-- [__Victor TK-ONIGIRI__](http://www.victorsport.com.cn/product_data.php?id=bVjabyTqrMjj666zMjEk67dD4xSyq) - 羽球拍 <sup>Favorite</sup>
-    胜利的 Thruster K ONIGIRI 突击鬼斩。
-    - 进攻型羽毛球拍，重量 4U，手柄 G5 粗细，拉 28 磅的 YONEX 80 Power 线。毕竟我喜欢暴力打球。
-    - 打惯 3U 的球拍，一开始不适应，感觉它偏轻、没“手感”。挥拍扣杀时，感觉球拍不够重，惯性不够大，出力不足。但移动、挥拍、救球、回球来更快更灵活，省腕力，长时间打球省体力。
-- [__Mizuno WAVE SMASH LO 白__](https://item.taobao.com/item.htm?id=534360854337&_u=cuv5jet2aca) - 羽球鞋
-    美津浓的鞋比尤尼克斯的更柔软舒适，特别对我这种经常跑动刹车的人来说没那么顶脚趾。
+- __羽球拍__：[Victor TK-ONIGIRI](http://www.victorsport.com.cn/product_data.php?id=bVjabyTqrMjj666zMjEk67dD4xSyq)
+    - 喜欢进攻型羽毛球拍，重量 4U 比较轻便，手柄 G5 粗细刚好。
+    - 以前打惯 3U 的球拍，一开始不适应，感觉它偏轻、没“手感”。挥拍扣杀时，感觉球拍不够重，惯性不够大，出力不足。但移动、挥拍、救球、回球来更快更灵活，省腕力，长时间打球省体力。
+- __羽球鞋__：[Mizuno WAVE SMASH LO 白](https://item.taobao.com/item.htm?id=534360854337&_u=cuv5jet2aca)
+    买一双高性价比的羽球鞋，是为了运动时能更舒适、灵活地移动，抗震性好，保护脚趾、脚掌、脚踝、膝盖。
+    - 美津浓的鞋比尤尼克斯的更柔软舒适，特别对我这种经常跑动刹车的人来说没那么顶脚趾。
     - 旧：[__~~YONEX 65FT 白 JP 版~~__](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.H4Rwq7&id=14324807794&_u=euv5jet879d) <sup>_已穿坏…_</sup>
-    买一双像样的羽球鞋，是为了运动时能更舒适、灵活地移动，保护脚趾、脚掌、脚踝、膝盖。
-    快速移动、跳跃后，脚跟落地，能明显感受到它的抗震性很好。
-- [__YONEX 16201 训练服__](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.CoCGMf&id=37144559361&_u=puv5jet55e6) - 运动服
-    VC 面料，透汗、速干；Made in Japan 原版，高性价比。纯白色 & 纯黑色，各一件。
-
-### 骑行
-
-- [__Merida Duke 300__](http://www.merida.cn/?p=82&a=view&r=482) <sup>Favorite</sup>
-    美利达公爵 300，入门级山地车，白色款，24 速 + 油碟（刹车灵敏，手感好，持久耐用）。
-    - 主要用于：上下班通勤，以及 方圆 20 km 内的日常出行。
-    - 安全装备：头盔 + 运动臂袖（护臂&防晒）+ 手套 + 车前灯。
-    - 其它装备：防晒霜 + 魔术头巾 or 铁发箍。
-    - [__智芯 Z1__](http://www.qdong365.com/) - 自行车智能硬件
-        - 用于 [骑行数据记录](http://www.qdong365.com/web/page/product)（定位、计时…）、车队组网互动、[防盗](http://www.qdong365.com/web/page/product)！
-        还可以进一步购买 [自行车盗抢险](http://www.qdong365.com/web/page/insurance)，更放心、充分地用车。
+- __运动服__：[YONEX 16201 训练服](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.CoCGMf&id=37144559361&_u=puv5jet55e6) - 速干 <sup>Favorite</sup>
+    最好 VC 面料，透汗、速干，便于清洗（个人汗量较大）；美观，除了运动，平时也可以穿。Under Armour 的也不错。
 
 ### 背包
 
-- 背包
-    - [__小米学院休闲双肩包__](https://item.mi.com/1171900021.html?cfrom=list)
-        - 便宜，79元购得；轻便，大小适中，不累赘。
-        - 放伞、水、纸巾等，这些不方便揣口袋、装手袋、拎手里的杂物。
-    - [__Côte & Ciel Backpack__](http://www.coteetciel.com/en-CN/isar-backpack-black-melange-laptop-bag)
-        Isar Eco Yarn / Black Melange ，就是喜欢它特别的外观设计。
-        - 即使是小号的包依然偏大，适合高大的人背；而且外形奇特，比较“挑人”，不容易搭配。
-        - 只是个尼龙材质的包，但价格不便宜，建议先试背，询问亲朋好友的意见后，再购买。
-    - [__Rains Msn Bag__](https://www.rains.dk/collections/backpacks/products/msn-bag?variant=16742951681) <sup>_wish_</sup>
-        坐飞机看到旁边妹子背的这款包很好看。也在考虑 [Backpack、Backpack Mini](https://www.rains.dk/collections/backpacks)。
-        <!-- （[淘宝](https://world.taobao.com/item/532027551703.htm?spm=a312a.7700714.0.0.FOAJqC#detail)） -->
-    - [~~__迪卡侬 骑行背包__~~](https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-14623109746.39.6z07wX&id=37930654463&scene=taobao_shop&skuId=3157441268509) <sup>_lost_</sup>
-        有了自行车之后，就在公司待到比较晚才回住处，因为懒得背电脑回去使用。带回去的东西少，小包更方便。
-        - 而且夏天背着比较大的背包奔走、骑行，容易汗流浃背。骑行、跑步甚至日常出行，我都喜欢使用这个小巧轻便的透气户外背包。
+- __大背包__：[Côte & Ciel Backpack](http://www.coteetciel.com/en-CN/isar-backpack-black-melange-laptop-bag) - 装电脑
+    Isar Eco Yarn / Black Melange ，就是喜欢它特别的外观设计。
+    - 即使是小号的包依然偏大，适合高大的人背；而且外形奇特，比较“挑人”，不容易搭配。
+    - 只是个尼龙材质的包，但价格不便宜，建议先试背，询问亲朋好友的意见后，再购买。
+- __轻便背包__（[小米学院休闲双肩包](https://item.mi.com/1171900021.html?cfrom=list)）
+    要大小适中、便宜、轻便不累赘，用来放伞、水、纸巾这些不方便揣口袋、拎手里的杂物。
+- __骑行背包__（[迪卡侬](https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-14623109746.39.6z07wX&id=37930654463&scene=taobao_shop&skuId=3157441268509)）
+    背着大背包奔走、骑行，容易汗流浃背。骑行、跑步甚至日常出行，我都喜欢使用这个小巧轻便的透气户外背包。
+- __好看的背包__：[Rains Msn Bag](https://www.rains.dk/collections/backpacks/products/msn-bag?variant=16742951681) <sup>_wish_</sup>
+    坐飞机看到旁边妹子背的这款包很好看。也在考虑 [Backpack、Backpack Mini](https://www.rains.dk/collections/backpacks)。
+    <!-- （[淘宝](https://world.taobao.com/item/532027551703.htm?spm=a312a.7700714.0.0.FOAJqC#detail)） -->
 
 ### 日用
 
-- [__小米插线板__](http://www.mi.com/powerstrip/) - 插座
-    小巧精致，节省空间又好看，省了不少 USB 充电器。
-    纯白色 & 纯黑色，各一个，分别放公司的工位 和 住处的床头；出行时也带一个以备不时之需。
-- [__米家恒温电水壶__](https://www.mi.com/kettle/) - 保温喝温水
-    保温，温度可控；5 min 快速沸腾。为了健康，让自己能方便地多喝温水，而非凉水
-- [__米家随身风扇__](https://item.mi.com/1162800007.html?cfrom=list) - 纳凉
+- __带 USB 口的插线板__（[米家](http://www.mi.com/powerstrip/)）- 充电
+    可以少用 USB 充电器，节省插位空间。
+    配一个在公司的工位，再配一个在住处的床头，甚至出行时也随身带一个以备不时之需。
+- __随身风扇__（[米家](https://item.mi.com/1162800007.html?cfrom=list)）- 纳凉
     连上充电宝、USB 的充电插头，即可使用；可拆卸，便携。
-    一个常驻背包，一个插在放公司的小米插线板上用。
-- [__极路由 1S__](http://www.hiwifi.com/j1s-view) - 路由器
-    小巧便宜，设置简单，可以远程操控，满足一般的居家使用。
-    广州家里 & 北京住处，各一个。（坏了的话，打算换 [华为的路由器](https://www.vmall.com/list-45)）
-- __Fidget Cube、Fidget Pad、Infinite Cube、Cube Hand Spiner__ - 减压、戒手癖
-    用新的「手癖」—— 玩减压神器，去代替其它不良的「手癖」！例如，咬手指、敲桌子、抠鼻、抠耳朵、抠脚、抓脸、抓头发……
-    - 减压骰子、减压手柄、无限魔方，还有魔方骰子、指尖陀螺、减压笔等。（搜索关键词「减压神器」……）
-- [__3M 子弹型耳塞__](https://item.jd.com/617192.html)、__眼罩__、褪黑素吸剂 - 睡眠
-    耳塞隔音，窗帘、床帘和眼罩遮光，褪黑素吸剂调整作息。
-
----
-
-- 伞具
-    - [__BENJAMIN 本傑明傘__](https://www.taobao.com/product/benjamin%E6%9C%AC%E5%82%91%E6%98%8E%E5%82%98.htm) <sup>_wish!_</sup>
-        大洋之舞 or 深海鱼群。
+    一个常驻背包，用来出门是纳凉，一个插在放公司的小米插线板上用。
+- __Infinite Cube__ - 减压、手癖 <sup>Favorite</sup>
+    用新的「手癖」玩减压神器去代替其它不良手癖！例如，咬手指、敲桌子、抠鼻、抠耳朵、抠脚、抓脸、抓头发… 还有减压骰子、减压手柄、魔方骰子、指尖陀螺、减压笔等。（电商搜索关键词「减压神器）
+- [__3M 子弹型耳塞__](https://item.jd.com/617192.html)、__眼罩__ - 安眠
+    耳塞隔音，窗帘、床帘和眼罩遮光。
+- __伞具__
     - [__Topumbrella 渐变色折叠伞__](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.CoCGMf&id=18427718268&_u=puv5jetf0a2) <sup>蓝~紫色</sup>
-        轻便、好看，直接推拉杆上连接伞骨的圆环，不用按按钮，就可以开合。
+        轻便好看，直接推拉杆上连接伞骨的圆环便可开合，不用按按钮。
+    - [__BENJAMIN 本傑明傘__](https://www.taobao.com/product/benjamin%E6%9C%AC%E5%82%91%E6%98%8E%E5%82%98.htm) <sup>_wish!_</sup>
+        喜欢的款式：大洋之舞 和 深海鱼群。
 
 <!--To Buy-->
 
