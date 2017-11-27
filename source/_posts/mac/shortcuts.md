@@ -20,9 +20,9 @@ description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
         - 工具提供适当足够的设置选项，然后将工具配置得足够贴合个人的使用习惯。
             例如，尽量使用默认通用的快捷键；同时使用多个 IDE 和代码编辑器的话，尽量将快捷键配置得一样，增强快捷键的通用性，减轻记忆快捷键的负担，减少误用；建议尽量都使用 Vim 插件，统一以 Vim 方式进行操作，可以进一步减轻记忆负担，增加操作效率。
 
+
 ## Explanation
 
-<!-- - 《[Mac Efficiency 效率指北](/mac/efficiency)》is about what I think of the shortcuts. -->
 - Here are the Mac shortcuts:
     - the default ones that I use most frequently,
     - my custom ones.
@@ -100,7 +100,6 @@ description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
     The capital letter "A" means pressing "Shf" & "a" at the same time !
 - `⌘ 1` | `⌘ 2` Manipulation
     Press "⌘ 1" or "⌘ 2" to do the manipulation.
-- `⌘ 1, ⌘ 2` Manipulation
 - `⌘ 1`, `⌘ 2` Manipulation
     Press "⌘ 1" then "⌘ 2" to do the manipulation.
 
@@ -108,7 +107,7 @@ description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
 
 Some are common & default in operating system.
 Some of the keys below can be modified in `System Preference → Keyboard`.
-Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
+Some are modified by Apps [Karabiner-Elements](#Karabiner-Elements).
 
 ### System
 
@@ -116,52 +115,37 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
 
     `` Wake Up
     `⌘ ⌥ ` Sleep
-    `^ ⇧ ` Display Sleep
+    `^ ⇧ ` | `⌘ ^ ` Display Sleep
 
     `^ ` Shut Down
-    Then you can choose to Sleep or Restart in the prompt dialog box.
+    ( Then you can choose to Sleep or Restart in the prompt dialog box. )
 
-<!--
     _`⌘ ^ ` Force Restart_
     _`⌘ ^ ⌥ ` Force Shutdown_
--->
 
 - Accessory
 
     `⌘ 凵` Spotlight
     `⇪` Switch Chinese Input Source <sup>_custom_</sup>
-    `⇧` | `⎋` Switch English Input Source, when using Chinese input source <sup>_custom_</sup>
+    `⇧` | `⎋` Press Shf or Esc to Switch English Input Source, when using Chinese input source <sup>_custom_</sup>
+    ( for the convenience of the Vim users when using Chinese input methods. )
     `F1` Desktop <sup>_custom_</sup>
 
     _`⌥ ⇧ F` Search in All Files_ <sup>_custom_</sup>
     _`⌥ ⇧ ?` Show Help Menu_ <sup>_custom_</sup>
-
-<!--
-- Space
-
-    `^ ↑` Mission Control
-    `^ ↓` App Windows
-    `^ ←` Prev Space
-    `^ →` Next Space
-
-    `^ 0~9` Switch to the num<sub> th</sub> Desktop
-    `⎋ 4` Launchpad <sup>_custom_</sup>
--->
 
 - Dock & Menubar & Sidebar
 
     `^ F12` Do Not Disturb On/Off <sup>_custom_</sup>
     `⌘ ⌥ d` Dock Hiding On/Off
 
-<!--
     `F12` Notification Center <sup>_custom_</sup>
 
 - Accessory
 
     _`⌘ ⇧ 3` Capture Desktop_
     _`⌘ ⇧ 4` Capture the selected area_
-    ( The screenshots are saved in `~/Desktop` )
--->
+    ( The screenshots are saved in `~/Desktop`. )
 
 ### Finder
 
@@ -172,10 +156,8 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
     `⌘ d` Duplicate
     `⌘ e` Eject Disk
 
-<!--
     _`⌘ l` New Alias for a file_
     _`⌘ r` to Origin File of Alias_
--->
 
 - Folder
 
@@ -185,21 +167,18 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
     _`⌘ ⇧ G` to Folder_
     `⌘ ⇧ I` iCloud
     `⌘ ⇧ O` Documents
-    _`⌘ ⇧ R` AirDrop_
+    `⌘ ⇧ R` AirDrop
     `⌘ ⌥ l` Downloads
 
     `⌘ ⇧ N` New Folder
-    _`⌘ ↑` to Parent Dir_
+    `⌘ ↑` to Parent Dir
 
-<!--
     _`⌘ ^ ↑` Open Parent Dir in New Window_
 
     _`⌘ ⇧ C` Computer_
     _`⌘ ⇧ H` Home_
     _`⌘ ⇧ K` Network_
     _`⌘ ⇧ U` Utilities_
--->
-
 
 - View
 
@@ -214,8 +193,6 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
     `⌘  4` View as a cover flow
 
     `⌘ ⇧ ⌫` Empty Trash
-
-<!--
     _`⌘ ⇧ ⌥ ⌫` Empty Trash without Confirmation_
 
     _`⌘ ⇧ P` Show | Hide Preview_
@@ -223,7 +200,6 @@ Some are modified by Apps [Karabiner](#Karabiner) , [Seil](#Seil).
     _`⌘ ⌥ s` Show | Hide Sidebar_
     _`⌘ ⌥ t` Show | Hide Tool Bar_
     _`⌘ /` Show | Hide Status Bar_
--->
 
 ### File & Edit
 
@@ -325,9 +301,12 @@ _`^ d` = `Fn ⌫` Forward Del_
     - Modified by `.zshrc` in `Zsh` and `.vimrc` in `Vim`
 - Moreover
     - Modified by `Keyboard Maestro`
+        `^ p` = `⌥ ←` Move to Prev Word <sup>_custom_</sup>
+        `^ n` = `⌥ ←` Move to Next Word <sup>_custom_</sup>
         `^ w` = `⌥ ⌫` Del Preceding Word <sup>_custom_</sup>
         `^ u` = [ `^ a`, `^ k` ] Del the Whole Line <sup>_custom_</sup>
-        These modifications can be supported in `Karabiner` too.
+        `^ j` = `↩` Return <sup>_custom_</sup>
+        These modifications can be supported in `Karabiner-Elements` too.
 - Ref : [(Emacs) Keyboard Shortcuts for Editing Text Fields in OS X](http://jblevins.org/log/kbd)
 
 ### Input Sources
@@ -337,44 +316,25 @@ _`^ d` = `Fn ⌫` Forward Del_
     Left `^` = `⌥ 凵` Switch Input Source
     `⌘ ^ 凵` Emoji & Symbols
 
-<!-- _`^ ⇧ 凵` Trackpad Handwriting_ -->
-
-- Pinyin - Simplified (macOS default)
+- Pinyin - Simplified (macOS built-in)
 
     `[` Page Up
     `]` Page Down
     `⇥` Sort By
     `0~9` Select
 
+    _`^ ⇧ 凵` Trackpad Handwriting_
+
 - Baidu Input <sup>__Now I use__</sup>
 
     _`^ t` [ Simple | Traditional ] Chinese Characters_
 
-<!--
     _`^ .` [ Chinese | English ] Punctuation Marks_
     _`⇧ 凵` [ 全角 | 半角 ] Punctuation Mark Types_
     _`^ p` [ 全拼 | 双拼 ] Chinese Input Modes_
 
     _`⌥ ⇧ B` Emoji & Symbols_
     _`⌥ ⇧ 凵` Add a space between Chinese & English_
--->
-
-<!--
-### Calendar
-
-`⌘ r` Refresh Calendars
-
-`⌘ t` Today
-_`⌘ ⇧ T` Go to Date_
-
-`⌘ ←` Prev
-`⌘ →` Next
-
-`⌘ 1` By Day
-`⌘ 2` By Week
-`⌘ 3` By Month
-`⌘ 4` By Year
--->
 
 ### Activity Monitor
 
@@ -388,12 +348,10 @@ _`⌘ ⇧ T` Go to Date_
     - __Remap__ the key codes.
     - __Open or Switch__ to the specified __app or URL__.
 
-
 - Supported by
 
     - [__Keyboard Maestro__](#Keyboard-Maestro)
-    - [__Karabiner__](#Karabiner)
-    - [__Seil__](#Seil)
+    - [__Karabiner-Elements__](#Karabiner-Elements)
 
 `Functional Keys` = `F1` ~ `F12`
 
@@ -405,24 +363,17 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
 
 - 0123 …
 
-    <!-- <code>凵 \`</code> -->
     `凵 1` iTerm2
-    `凵 2` [Sublime Text](#Sublime-Text)
-    `凵 3` [Firefox](#Firefox)
+    `凵 2` [2Do](#2Do)
+    `凵 3` [Sublime Text](#Sublime-Text)
     `凵 4` Chrome
-    `凵 5` [2Do](#2Do)
-    `凵 6` System Settings → Keyboard
+    `凵 5` Safari
     `凵 7` [Keyboard Maestro](#Keyboard-Maestro)
-    `凵 8` [Karabiner](#Karabiner)
-    `凵 9` [Seil](#Seil)
-
-    <!-- `凵 0` System Settings → General -->
+    `凵 8` [Karabiner-Elements](#Karabiner-Elements)
 
 - asdf …
 
-    `凵 o` = `\`
-    `凵 p` = `|` = `⇧ \`
-    `凵 ;asdfghjkl` = `0~9`
+    `凵 asdfghjkl;` = `1234567890`
 
 - Symbols
 
@@ -451,18 +402,16 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
     `⌥ r` Preview
     `⌥ t` Thunder
 
-    `⌥ u` [Sublime Text](#Sublime-Text)
-    `⌥ i` iTunes
-    _`⌥ o` OpenEmu_
+    `⌥ i` Prompt the local IP address
     `⌥ p` Postman
     `⌥ \` [1Password](#1Password) ( Mini )
 
     _`⌥ ⇧ Q` QQMusic_
     _`⌥ ⇧ W` Word_
     _`⌥ ⇧ P` PowerPoint_
-    _`⌥ ⇧ R` [VS Code](#VS-Code)_
+    Type inseted of Paste
     `⌥ ⇧ E` [Evernote](#Evernote)
-    `⌥ ⇧ I` Prompt the local IP address
+    `⌥ ⇧ I` iTunes
 
     _`^ ⌥ ⇧ E` Excel_
 
@@ -471,7 +420,7 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
 
 - asdf …
 
-    `⌥ a` PyCharm
+    `⌥ a` [Activity Monitor](#Activity-Monitor)
     `⌥ s` [PhpStorm](#PhpStorm)
     `⌥ d` EuDic Free
     `⌥ f` [Finder](#Finder)
@@ -483,8 +432,8 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
     `⌥ l` CLion
     `⌥ ;` Input the symbol `…`
 
-    `⌥ ⇧ A` [Activity Monitor](#Activity-Monitor)
-    `⌥ ⇧ S` Safari
+    `⌥ ⇧ A` PyCharm
+    `⌥ ⇧ S` 
     `⌥ ⇧ D` Dictionary
     _`⌥ ⇧ F` Search in All Files_
     `⌥ ⇧ J` Eject the disks
@@ -625,7 +574,7 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
     - Others
         `|[a-z]*` → ID card number, my phone number & etc.
 
-### [Karabiner](https://pqrs.org/osx/karabiner/index.html.en)
+### [Karabiner-Elements](https://pqrs.org/osx/karabiner/index.html)
 
 Changes not only the shortcuts but also the keyboard key-remappings!
 
