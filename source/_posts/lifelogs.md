@@ -1,6 +1,6 @@
 title: 时间管理日志
 date: 2015-01-23
-updated: 2017-10-26
+updated: 2017-11-27
 categories: [time mgt]
 tags: [time mgt]
 description: Life Logs&#58; 个人时间使用情况的记录统计日志。已停更。
@@ -23,10 +23,12 @@ description: Life Logs&#58; 个人时间使用情况的记录统计日志。已�
 - __新工具__
     - 原有的工具链我使用了两年多，期间持续进行了非常多的修复、优化和补充，已经足够自动化和好用了。可是它的使用、维护和升级依然越发显得麻烦，因为我现在的我更倾向于更「简单、专注」的生活。
         如果折腾这样一个工具链是为了证明自己有所谓的“极客范”，那么目的已经达到了，已经没有必要再继续折腾它了。
-    - iOS App「[BlockyTime](https://itunes.apple.com/us/app/blockytime-simply-track-you/id1086617993?mt=8) 时间块」
+    - [__2Do__](https://www.2doapp.com/) <sup>iOS & macOS</sup>
+        - GTD 具体任务的备忘、管理。
+    - [__BlockyTime__](https://itunes.apple.com/us/app/blockytime-simply-track-you/id1086617993?mt=8) 时间块 <sup>iOS</sup>
         - 它的时间记录和统计的方式契合我现有的习惯，简单的点、选的操作即可完成时间记录和统计，方便省心。
         - 既然已经有了一个足够好的现成解决方案，何苦继续自己折腾呢？人生很短，还有很多更重要更美好的事等着我去做呢。
-    - iOS App「[Today](https://itunes.apple.com/us/app/today-habit-tracker/id1055295863?mt=8)」
+    - [__HabitBull__](http://www.habitbull.com/) <sup>iOS</sup>
         - 跟踪记录习惯的养成。本来自己的自制力就不是很好，需要「时时勤拂拭，勿使惹尘埃」。于是每天都用这个 “Checklist” 来提醒自己：养成好习惯，远离坏习惯。
 - __时间日志的目的__
     - 其实在我知道《 [奇特的一生](https://book.douban.com/subject/1115353/) 》这本书之前，早就开始做时间记录了。
@@ -70,6 +72,8 @@ description: Life Logs&#58; 个人时间使用情况的记录统计日志。已�
 - 八月：将工作流程中繁杂的部分简化，重复的部分脚本化、自动化。
 - 九月：持续将旧代码迁移到新项目。
 - 十月：同上，国庆节后有点低落且嗜睡。
+- 十一月：反思，持续迁移旧代码，继续优化、简化、自动化工作流程。
+- 十二月：重构项目冲刺，调整项目管理模式，优先做完难点、重点。
 
 ## 2016
 
