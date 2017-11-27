@@ -1,7 +1,7 @@
 title: Mac 快捷键
 date: 2017-11-28
 updated: 2017-11-28
-no_update: true
+noupdate: true
 categories: [Mac]
 tags: [Mac]
 description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
@@ -488,13 +488,6 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
     `Fn k` = `↑` Up
     `Fn l` = `→` Rg
 
-<!--
-- Rarely Used
-
-    ~~`Fn w` Toggle WiFi~~
-    ~~`Fn b` Toggle Bluetooth~~
--->
-
 ### Layout `⎋`
 
 - 1234 …
@@ -526,11 +519,9 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
 
 ### [Keyboard Maestro](https://www.keyboardmaestro.com/main/)
 
-<!--
 - Global Macro
 
     _`⌘ ^ ⇧ O` Toggle All Micro_
--->
 
 - Search in Web
 
@@ -545,6 +536,8 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
     `⌘ ^ ⇧ Z` Zhihu
 
 - Abbrs
+
+    For examples…
 
     - Date
 
@@ -593,8 +586,6 @@ Changes not only the shortcuts but also the keyboard key-remappings!
 
     Rg `⌥` = `⌘ 凵` Switch Input Source
 
-### [Seil](https://pqrs.org/osx/karabiner/seil.html.en)
-
 - Change Modifier-Key-Remapping
 
     `⇪` Caps → `^` Lf Ctrl
@@ -624,13 +615,11 @@ Changes not only the shortcuts but also the keyboard key-remappings!
 
 `⌘ ⌥ f` Mailbox Search
 
-<!--
 _`⌘ ⇧ L` Red Flag_
 
-__`⌘ 1` Inbox__
-__`⌘ 2` Sent__
-__`⌘ 3` Drafts__
--->
+_`⌘ 1` Inbox_
+_`⌘ 2` Sent_
+_`⌘ 3` Drafts_
 
 ### [QQ](http://im.qq.com/macqq/)
 
@@ -646,57 +635,12 @@ They can be used in WeChat as well.
 `⌘ 2` Switch to Contacts
 `⌘ 3` Switch to Applications
 
-<!--
-## Editors
-
-### [Atom](https://atom.io/)
-
-- View
-
-    __`⌘ ⇧ P` Toggle Command Palette__ ( Find shortcuts )
-    `⌘ \` Toggle Tree View
-
-- File
-
-    __`^ ⇧ C` Copy Path__
-    __`^ ⇧ L` Select Grammar__
-    __`^ ⇧ U` Select Encoding__
-
-    `⌘ ⇧ O` Open Project Folder
-    `⌘ ⇧ T` Reopen Last Item
-
-- Edit
-
-    __`⌘ ]` Indent__
-    __`⌘ [` Outdent__
-
-- Find
-
-    __`⌘ F` Find in Buffer__
-    __`⌘ ⌥ F` Replace in Buffer__
-
-    __`⌘ B` Find Buffer__
-    __`⌘ P` Find File__
-    __`⌘ ⇧ B` Find Modified File__
-
-- Select
-
-    __`⌘ D` Select Next__
-    __`⌘ ^ G` Select All__
-
-- Package
-
-    __`^ ⇧ M` Markdown Preview__
-    __`⌘ ⌥ .` Close Tag ( HTML )__
--->
-
 ## System Assistant
 
 ### [1Password](https://1password.com/)
 
 `⌘ \` Fill Login on current web page
 `⌥ \` Show 1Password Mini
-<!-- `^ ⌥ ⇧ L` Lock 1Password -->
 
 `⌘ e` Edit
 `⌘ s` Save
@@ -706,6 +650,7 @@ They can be used in WeChat as well.
 
 `⌥ F12` Mac Stays Awake
 `^ ⌥ F12` Allow Mac to Sleep
+-->
 
 ### [Bartender 2](https://www.macbartender.com/)
 
@@ -715,12 +660,12 @@ They can be used in WeChat as well.
 ### [CheatSheet](https://www.mediaatelier.com/CheatSheet/)
 
 `Long Press ⌘` Activate
--->
 
 ### [ClipMenu](http://www.clipmenu.com/)
 
-`⌥ v` History Menu
-`⌥ ⇧ V` Main Menu
+`⌥ v` History
+`⌥ ⇧ V` Snippets
+`^ ⌥ ⇧ V` Main Menu
 
 ## Development
 
@@ -878,16 +823,6 @@ They can be used in WeChat as well.
     - Code -> Locate Duplicates
 -->
 
-<!--
-#### [AceJump](https://plugins.jetbrains.com/plugin/7086)
-
-It is a plugin for IDEs from [JetBrains](https://www.jetbrains.com/).
-
-- First, Simple hit `^ ;`
-- Then type a character
-- At last, type the matching character to the specified place!
--->
-
 #### [IdeaVim](https://plugins.jetbrains.com/plugin/164?pr=idea)
 
 It is the best Vim-Emulator plugin for IDEs from [JetBrains](https://www.jetbrains.com/).
@@ -932,59 +867,11 @@ Its most keys are the same as Vim, so I just list my custom keys.
     2rd `*` for New Surround Char
     such as `cs'"` `cs[{` `cst<p>`…
 
-- Tripple h/j/k/l to Normal Mode
-
-    `hhh` | `jjj` | `kkk` | `lll` = `⎋`
-
 ### [JetBrains](https://www.jetbrains.com/)
 
 The shortcuts in other IDEs from JetBrains are same as PhpStorm,
 such as CLion , IntelliJ IDEA , RubyMine , PyCharm and so on.
 All the shortcuts can be modified in `Preferences` → `Keymap`!
-
-### [VS Code](https://code.visualstudio.com/)
-
-- File & Folder
-
-    `^ r` Open Recent
-    `⌘ p` Quick Open
-    `^ ⇧ w` Close Window
-
-- View
-
-    `⌘ ⇧ E` Explorer
-    `⌘ ⇧ F` Find in Files
-    `⌘ ⇧ G` Git
-    `⌘ ⇧ D` Debug
-    `⌘ ⇧ A` Extensions
-
-    `⌘ b` Toggle Side Bar
-    `⌘ j` Toggle Panel
-    `^ ⌥ q` Toggle Terminal
-
-- Editor Group
-
-    `⌘ \` Split Editor
-    `⌘ ⌥ 1` Toggle Editor Group Layout
-    `⌘ k, 1~3` Switch to Editor Group 1~3
-
-- Vim
-
-    `H` Prev Editor
-    `L` Next Editor
-    `Y` Copy to EOL (End of Line)
-
-    `zh` Mv Editor Lf
-    `zl` Mv Editor Rg
-
-- Selection
-
-    `⌘ d` Expand Selection to Word
-    `⌘ ⇧ L` Split into Lines
-
-- Find & Replace
-
-    As same as `Sublime Text`
 
 ### [Sublime Text](https://www.sublimetext.com/)
 
@@ -1009,12 +896,14 @@ All the shortcuts can be modified in `Preferences` → `Keymap`!
 
 <!-- _`^ l` Scroll to the Selection_ -->
 
+<!--
 - Bookmarks
 
     `⌘ F2` Toggle Bookmark
     `F2` Next Bookmark
     `⇧ F2` Prev Bookmark
     `⌘ ⇧ F2` Clear All Bookmarks
+-->
 
 - Layout
 
@@ -1030,12 +919,6 @@ All the shortcuts can be modified in `Preferences` → `Keymap`!
 
     `^ s` Trim Trailing Whitespace
 
-<!--
-- Others
-
-    _`F6` Spell Check_
--->
-
 ### [Charles](https://www.charlesproxy.com/)
 
 - Proxy
@@ -1050,7 +933,6 @@ All the shortcuts can be modified in `Preferences` → `Keymap`!
     _`⌘ ⇧ k` Breakpoint Settings_
 
     _`⌘ ⇧ p` macOS Proxy_
-    _`⌘ ⇧ f` Mozilla Firefox Proxy_
 -->
 
 - Session
@@ -1089,10 +971,9 @@ All the shortcuts can be modified in `Preferences` → `Keymap`!
     `⌘ ⇧ D` DNS Spoofing Settings <sup>_custom_</sup>
     `⌘ ⌥ m` Map Remote
 
-    _`⌘ m` Compose ( Edit )_
+    `⌘ m` Compose ( Edit )
     _`⌘ ⇧ M` Compose New_
 
-<!--
     _`⌘ ⌥ l` Map Local_
 
     _`⌘ ⌥ d` No Caching_
@@ -1104,26 +985,6 @@ All the shortcuts can be modified in `Preferences` → `Keymap`!
 
     _`⌘ ⌥ i` Mirror_
     _`⌘ ⌥ a` Rewrite_
--->
-
-<!--
-### [Dash](https://kapeli.com/dash)
-
-- Search
-
-`^ ⌥  f` Global Search in Dash
-`^ ⌥  v` Search in Dash using the selected text
-
-- View
-
-    `⌘ ⇧ B` Open Online Page
-    _`⌘ b` Open Local Page_
-
-- Snippets
-
-    `⌘ n` New
-    `⌘ ⇧ U` New from Clipboard
--->
 
 ### Script Editor
 
@@ -1133,33 +994,11 @@ All the shortcuts can be modified in `Preferences` → `Keymap`!
 
 ## CLI
 
-<!--
 ### [iTerm2](https://www.iterm2.com/)
 
 Due to the help from `tmux` and `Zsh`, I don't need much support from `iTerm` as follows.
 
-- Edit
-
-    _`⌘ ;` Autocomplete_
-    _`⌘ ⇧ h` Paste History_
-    _`⌘ ⌥ /` Recent Directories_
-
-- Tab
-
-    `⌘ 0~9` Switch Tab
-
-- Pane
-
-    _`⌘ d` Split Vertically_
-    _`⌘ ⇧ d` Split Horizontally_
-
-    _`⌘ [` Prev Pane_
-    _`⌘ ]` Next Pane_
-
-- Others
-
-    `⌘ /` Find Cursor
--->
+`⌘ 0~9` Switch Tab
 
 ### [tmux](https://tmux.github.io/)
 
@@ -1540,21 +1379,17 @@ I don't want to list all its shortcuts, as there are so many…
     `^ ⌘ ↑|↓` Move Up | Down
 -->
 
-<!--
 ### Dictionary
 
 `⌘ ⇧ D` Look Up in Dictionary
 `⌘ 0~9` Switch Dictionary
--->
 
-<!--
 ### [EuDict Free](https://www.eudic.net/eudic/mac_dictionary.aspx)
 
 `⌥ 凵` Light Peek
 __`⌘ ⇧ M` Look up Word that Mouse Cursor Hovers__
 __`⌘ ⇧ L` Look up Selection__
 __`⌘ ⇧ 2` Translate Selection__
--->
 
 ### [MindNode](https://mindnode.com/)
 
@@ -1601,79 +1436,7 @@ __`⌘ ⇧ 2` Translate Selection__
 
     `⌘ ⌥ a` All Subnodes
 
-### [Evernote](https://www.yinxiang.com/download/?offer=www_menu)
-
-- Note
-
-    `⌘ ^ s` Sync
-
-<!--
-    `⌘ l` Edit Note Title
-    _`⌘ ^ m` Mv Note to the select Notebook_
-    _`⌘ ⇧ I` Get Note Info_
-
-    `⌘ +` Zoom In
-    `⌘ -` Zoom Out
--->
-
-- Edit
-
-    `⌘ ⇧ H` Insert Horizontal Rule
-    `⌘ ⇧ T` Insert To-Do
-
-    - After Selection, then input:
-
-        `⇥` Increase Indent
-        `⇧ ⇥` Decrease Indent
-
-        `⌘ ^ c` Code Block
-        _`⌘ ^ k` Strikethrough_
-
-        _`⌘ k` Add Link_
-        _`⌘ ⇧ K` Rm Link_
-        _`⌘ ⇧ F` Simplify ( Rm ) Formatting_
-        _`⌘ ⇧ V` Copy and Match Style_
-
-        _`⌘ ⇧ O` Toggle Numbered List ( Ordered )_
-        _`⌘ ⇧ U` Toggle Bulleted List ( Unordered )_
-
-<!--
-    _`⌘ ⇧ D` Insert Date_
-    _`⌘ ⇧ ⌥ D` Insert Time_
-    _`⌘ ⇧ L` Insert Table_
-
-    _`⌘ ^ -` Subscript_
-    _`⌘ ^ h` Highlight_
--->
-
-- Input
-
-    `*`, `凵` → Bulleted List
-    `1.`, `凵` → Numbered List
-
-    In a new line, input `-` 3 times, `↩`-  insert Horizontal Rule
-    In a new line, input <code>\`</code> 3 times, `↩` - insert Code Quote
-
-#### [Web Clipper](https://evernote.com/intl/zh-cn/webclipper/)
-
-- Activate
-
-    <code>^ \`</code> Open Clip Mode
-    `⎋` Exit
-
-- After activation
-
-    `⇧ A` All Main Text
-    `⇧ C` Main Text without Advertisement
-    `⇧ F` Full Web Page
-    `⇧ B` Clip as a Bookmark
-    _`⇧ M` Capture_
-
-    `↑` Extend Selection
-    `↓` Shrink Selection
-    `↩` Save
-
-### [Firefox](http://www.firefox.com.cn/)
+### [Chrome]()
 
 - Common
 
@@ -1702,7 +1465,7 @@ __`⌘ ⇧ 2` Translate Selection__
     __`⇧ F4` JavaScript Draft  ( for js test )__
 -->
 
-#### [VimFX](https://addons.mozilla.org/en-US/firefox/addon/vimfx/)
+#### [cVim]()
 
 It is a Vim-Emulator extension in Firefox.
 
@@ -1897,21 +1660,3 @@ It is a Vim-Emulator extension in Firefox.
     `⎋` | `^ [` Cancel
 
 <!-- _`gr` Enter Reading Mode_ -->
-
-### [NeteaseMusic](http://music.163.com/#/download)
-
-`凵` Play | Pause
-`⌘ →` Next
-`⌘ ←` Prev
-`⌘ ↑` Volume Up
-`⌘ ↓` Volume Down
-
-<!--
-__`⌘ l` Dislike__
-__`⌘ r` Show | Hide Lyrics__
--->
-
-### [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG)
-
-`^ ⌥ ⇧ P` Toggle Shadowsocks On / Off
-`^ ⌥ p` Toggle Proxy Mode: Auto PAC / Global
