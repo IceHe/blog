@@ -1,4 +1,4 @@
-title: Mac 快捷键（旧）
+title: Mac 快捷键 - 旧
 date: 2016-01-06
 updated: 2017-11-28
 categories: [Mac]
