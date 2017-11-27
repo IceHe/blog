@@ -1,7 +1,6 @@
 title: Mac 效率指南
 date: 2017-04-15
-updated: 2017-04-15
-noupdate: true
+updated: 2017-11-27
 categories: [Mac]
 tags: [Mac]
 description: macOS Efficiency&#58; 关于「如何高效使用 Mac」的个人见解。
@@ -64,7 +63,7 @@ __荀子__
 - 写法说明
 
     `^ a` = Ctrl + a
-    `⌘ a | ⌘ b` = Command + a 或 Command + b
+    `⌘ a` | ` ⌘ b` = Command + a 或 Command + b
     `⎋, b` = 先按 `⎋` 再按 `b`
 
 ## macOS
@@ -105,7 +104,8 @@ __荀子__
         macOS 的文本编辑控件内置了一些 Emacs 快捷键。
         - 跳转：`^ a` = Windows 的 `Home`；`^ e` = `End`。
         - 删除：`^ k` 删除光标当前位置至行尾处的字符串。
-        - 前后：`^ b` = `←`，`^ f` = `→`。
+        - 退格：`^ h` = `⌫`
+        - 左右上下：`^ b` = `←`，`^ f` = `→`。、`^ p` = `↑`、`^ n` = `↓`。
 
 #### 文件、目录
 
@@ -118,13 +118,14 @@ __荀子__
 - __剪贴板历史__：剪切后用 __`⌘ ⌥ v` 会显示最近的剪切复制的文本历史，可以选择其中一个进行粘贴__。
 - __删除__：`⌘ ⌫`，只是进入废纸篓；完全删除需要 `⌘ ⇧ ⌫` 清空废纸篓。进阶：如需直接删除，可以用命令行执行 `rm` 删除命令。
 - __预览__：选中文件，然后按空格键 `凵` 即可便捷地预览内容，这样一般情况下就用不着专门启动一个 App 来查看文件了，除非需要修改。配合 [预览插件](https://github.com/sindresorhus/quick-look-plugins) 效果更佳。
-- __打开__：Windows 上用户会习惯用 `↩` 来打开文件、文件夹；然而 `↩` 在 macOS Finder 中用于文件、文件夹的重命名，`⌘ ↓` 才是「打开」操作。
+- __打开__：Windows 上用户会习惯用 `↩` 来打开文件、文件夹；然而 `↩` 在 macOS Finder 中用于重命名文件和文件夹，`⌘ ↓` 才是「打开」操作。
 - __向上__：即跳转到上一层目录 `⌘ ↑`。
 - __查看文件属性__：`⌘ i` 打开「文件属性」的信息窗口，此时可以 __修改这类文件默认使用什么 App 打开__（即打开方式），修改或获取该 App 的图标等。
 - 不常用/非必需：
     - __文件复制__：macOS 用 `⌘ d` 即「制作副本」，等于在同一目录下先用 `⌘ c` 再用 `⌘ v`。
     - __制作「替身」__：你可能会将一些文件复制多份，然后放在不同地方，可能是为了便于访问。但是除非为了备份，否则这么做会令你难以对其进行有效的「控制版本」。
         - 还不如用 `⌘ l` 为其制作一个「alias 替身」，将其放到其它地方，例如桌面。「替身」用程序员的话来说，就是指向源文件的「指针」或者「软连接」。打开替身等于打开了原始文件，而删除「替身」不会影响到原始文件。
+    - __显示隐藏文件和文件夹__ `⌘ ⇧ .`
 
 #### 其它常用
 
@@ -133,7 +134,7 @@ __荀子__
 - __浏览器__：`⌘ [` 前进、`⌘ ]` 后退。在 Finder 中也能使用。
 - __输入法__：`^ 凵` 切换输入法；注意系统自带输入法是用方括号 `[` 和 `]` 进行候选字前后翻页的，而非通常的 `,` 逗号和 `.` 句号。
 - __关机__：记住 `^ ` 关机就够用了；还有 `^ ⇧ ` 是屏幕睡眠、`⌘ ⌥ ` 则是（硬盘）睡眠。
-- __Spotlight__：习惯使用 `⌘ 凵` 进行系统全局搜索，就不用总是打开 Finder 和 LaunchPad 来找文件和 Apps 了。
+- __Spotlight__：习惯使用 `⌘ 凵` 进行全局搜索，就不用总是打开 Finder 和 LaunchPad 来找文件和 Apps 了。
 - __功能键__：即键盘最顶上的一排按钮（2016 年底新款 MacBook Pro 取消这排实体按键），控制「屏幕亮度、音量、音乐播放」等按键较常用，「任务控制（F3 处）、LaunchPad（F4 处）」等可以由触摸板的手势「三指上划、拇指加另外三指内划」来代替（详见 `系统设置` → `触摸板` 处）。
 - 没想起来的快捷键，一般也都不太重要，在此略过。
 
@@ -142,7 +143,7 @@ __荀子__
 - 在 `系统设置` → `键盘` → `快捷键` 中可以修改很多（不是全部）系统默认的快捷键。
     - 主要是将一些你觉得不合理的快捷键组合改得顺手，或者将用不上的快捷键去掉，以免误触。
         - 特别是对某些快捷键组合已经形成根深蒂固习惯的人，会记不住新的快捷键，以致经常按错。
-    - 其中左侧候选栏中的 `应用快捷键`，可以用来重写全部应用或指定应用的某些快捷键。
+    - 其中左侧候选栏中的 `应用快捷键`，可以用来重写所有应用或部分指定应用的其中一些快捷键。
 
 ## 浏览器
 
@@ -163,26 +164,25 @@ __荀子__
 
 ### 进阶 Vim 式插件
 
-- [Firefox](http://www.firefox.com.cn/) + [VimFX](https://github.com/akhodakivskiy/VimFx)
-    - 配合 [VimFX](https://github.com/akhodakivskiy/VimFx) 拓展，可在浏览器内 __全局使用 Vim 键位__ 浏览网页、操作浏览器！键盘党神器。
+- Chrome + [cVim](https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh) | [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
+    - 配合拓展，可在浏览器内使用 Vim 键位浏览网页、操作浏览器！
+        - 但这些拓展无法在页面未加载完毕的情况下使用，不够极致。（FireFox + [VimFX](https://github.com/akhodakivskiy/VimFx) 能够浏览器内全局随时使用，但新版 FireFox 的 VimFX 暂未恢复支持）。
     - 只要入门其中常用的基本操作，就能感觉到效率的大大提升。能用一个指头按就不要用两个指头，指头在越靠近键盘中心区的地方按就越省力。
-    - VimFX 默认的键位排布跟 Vim 有一定关联（但不全都有）。熟悉 Vim 的话，用 VimFX 会很顺手；还在学习 Vim 的话，可以帮助你记忆 Vim 的键位。
+        - 默认的键位排布跟 Vim 有一定关联，但不全有。熟悉 Vim 的话，用起来会很顺手；还在学习 Vim 的话，可以帮助你记忆 Vim 的键位。
     - 基本操作：
-        `f` 在当前标签页打开链接，`⇧ F` 在新的标签页打开链接；
-        `x` = `⌘ w` 关闭标签页，`⇧ X` = `⌘ ⇧ T` 重新打开最近关闭的一个标签页；
-        `j` 下翻，`k` 上翻，`⇧ H` = `⌘ [` 前进，`⇧ L` = `⌘ ]` 后退；
-        `⇧ J` = `^ ⇧ ⇥` 上一个标签页，`⇧ K` = `^ ⇥` 下一个；
-        其它从略，可以通过 `⇧ ?` 显示、查询所有 VimFX 的快捷键。
-    - 其中进阶的操作可以慢慢熟悉，可以通过插件设置来修改键位排布，以便用得更顺手。
-- Chrome + [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb) | [cVim](https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh)
-    - Chrome 也有类似 VimFX 的拓展，以实现同样的功能，但这些拓展无法在页面未加载完毕的情况下使用，不够极致。
-    - cVim 比 Vimium 更强大，功能更丰富，拥有更多的配置选项，但需要用类似 `.vimrc` 的文本编辑方式来进行配置，不太用户友好。
-    - Firefox 冷启动较慢，界面不如 Safari、Chrome 漂亮，也有一些 bug。可是工具是拿来用的，最重要的是高效，所以我还是倾向于使用 Firefox + VimFX。
+        - `f` 在当前标签页打开链接，`⇧ F` 在新的标签页打开链接；
+        - `x` = `⌘ w` 关闭标签页，`⇧ X` = `⌘ ⇧ T` 重新打开最近关闭的一个标签页；
+        - `j` 下翻，`k` 上翻，`⇧ H` = `⌘ [` 前进，`⇧ L` = `⌘ ]` 后退；
+        - `⇧ J` = `^ ⇧ ⇥` 上一个标签页，`⇧ K` = `^ ⇥` 下一个；
+        - 其它从略，可以通过输入 `:help` 然后回车 `↩`，查看各种操作的快捷键。
+    - cVim 比 Vimium 更强大，功能更丰富，拥有更多的配置选项，但需要编辑类似 `.vimrc` 的配置文件来进行配置，不够用户友好。
+        - 我的配置：[__.cvimrc__](https://github.com/IceHe/macos-home-conf/blob/master/.cvimrc)
 
 ### 其它插件
 
-- 广告过滤器、网络代理（用于翻墙）、下载工具管理、1Password、印象笔记剪藏等……
-    - 详见 [我的浏览器插件](/tools/#Browser-Add-Ons)
+- 详见 [我的 Chrome 插件](/tools/#Chrome-插件)
+    - 广告过滤器（uBlock）、下载工具（Chrono Download Manager）、标签页收纳管理（One Tab）、网络代理（SwithyOmega 用于科学上网）、帐号密码管理自动填充登录（1Password）、网页剪藏（Evernote Web Clipper）和稍后读（Pocket）等……
+    - 针对 Web 开发者还有 JSON Formatter、Postman（API）、颜色识别、字体识别、量尺等，不一而足。
 - 实际需要用到的插件并不多，根据需求自行选择，够用、适合自己就行，尽量保持精简。
 - 安装运行太多用处不大、用得不多的插件，不但让浏览器变得更慢，而且还更容易崩溃，得不偿失。
 
@@ -206,37 +206,40 @@ __荀子__
         - 确认：`^ h` = `↩` 确认指令。
     - __命令别名__（Aliases）
         - 通常用来给常用命令指定一个「缩写」，一遍更便捷地输入长的命令组合。作为程序员，我的手速、输入准确率都一般，就特别喜欢输入缩写命令。
-            - 例如，我让 `gs` = `git status`，`gp` = `git push` 等（见 [Git Aliases](/cmd/git_note/#Zsh-Aliases) 和我的 [.zshrc](https://github.com/IceHe/oh-my-zsh/blob/master/.zshrc) 配置）。
+            - 例如，我让 `gs` = `git status`，`gp` = `git push` 等（见 [Git Aliases](/cmd/git_note/#Zsh-Aliases) ）。
         - `alias` 命令，列出所有的 aliases。
     - Zsh 还有许多好东西，在此暂略，可以根据自己的需求，自行查阅学习。
-        - 可以简单参阅我的 [.zshrc](https://github.com/IceHe/oh-my-zsh/blob/master/.zshrc) 配置。注意以上特性并不都是 Zsh 特有的，详看 [各种 Shell 的对比](https://en.wikipedia.org/wiki/Comparison_of_command_shells)。
+        - 可以简单参阅我的 [.zshrc](https://github.com/IceHe/macos-home-conf/blob/master/.zshrc) 配置。注意以上特性并不都是 Zsh 特有的，详看 [各种 Shell 的对比](https://en.wikipedia.org/wiki/Comparison_of_command_shells)。
 - [__Vim__](http://www.vim.org/)（也可以选择 [Neovim](https://neovim.io/)）
     - 首先，通用性有保证！服务器没有 GUI 界面，可能没有 Emacs，但是基本不可能没有 Vi*，学会 Vim 保证你在几乎任何服务器环境下都能无碍地编辑文本。
     - 其次，拓展广。很多 IDE 和编辑器都有 Vim 插件，不用记太多各个 Apps 专有的快捷键，学会 Vim 就可以在其中进行绝大多数常用的文本编辑操作，减轻记忆负担，提升效率。
         - 例如，Sublime Text 系列就自带 Vintage Mode 专门支持 Vim 键位的操作。
     - 各种 Shell（命令行）除了自带 Emacs 式的快捷键，其实也有 Vim 式的快捷键，可以尝试一下，看看自己习不习惯。
+    - 我的配置 [__.vimrc__](https://github.com/IceHe/macos-home-conf/blob/master/.vimrc)
 - [__tmux__](https://tmux.github.io/)
     终端多路复用软件，即命令行中的「窗口管理」、「分屏工具」。
     - 允许一个用户在一个终端窗口或一个远程终端会话中，使用多个终端会话。
     - tmux 是由 [screen](https://www.gnu.org/software/screen/manual/screen.html) 发展而来的，其中许多命令都是共有的。screen 虽不如后来者 tmux 易用、强大、美观，但是更通用 —— 大多数服务器都有 screen 命令。
+    - 我的配置 [__.tmux.conf__](https://github.com/IceHe/macos-home-conf/blob/master/.tmux.conf)
 - [__iTerm2__](https://www.iterm2.com/)
     功能和可配置性，比系统自带的终端 Terminal 强大许多。
     - 对命令行的使用环境要求不高的话，用 Terminal 也没差，只要适合自己，够用就好。
-    - 其它选择：[__VS Code__](https://www.google.com/) 它内置的终端，就很不错。
+    - 其它选择：[__VS Code__](https://www.google.com/)，自带终端（Terminal），新一代轻量文本编辑器的佼佼者。
 
 ## 进阶
 
-- [__Karabiner__](https://pqrs.org/osx/karabiner/index.html.en) 改键
-    - 从 macOS Sierra 10.12 这个系统版本开始，Karabiner 不可用了。新一代产品 [__Karabiner-Elements__](https://github.com/tekezo/Karabiner-Elements) 在开发中。由于它能大大提升我的效率，我还是继续使用旧版本的系统 macOS EI Capitan。
+- [__Karabiner-Elements__](https://github.com/tekezo/Karabiner-Elements) 改变键盘的键位
     - 我将 `⇪` 改成 `^`，这样的话，按下由 `^`、`⌘` 组合而成的快捷键会顺手很多。
     - 原来的 `^`，用于一键触发 `^ 凵` 以便一键切换输入法。
-        - 用专用的单键 `^` 比用 `⇧` 或 `⇪` 来切换输入法，更不容易影响正常的操作。特别是用 Vim 输入中文时，因为 Vim 有太多跟 `⇧` 相关的操作。
+        - 用专用的单键 `^` 比用 `⇧` 或 `⇪` 来切换输入法，更不容易影响正常的操作。特别是用 Vim 输入中文时，因为 Vim 有太多跟 `⇧` 相关的操作。后来我为了 Vim 更进一步：只要在中文输入法状态下，按 `⎋` 或 `⇧`，就会自动切换回英文输入法。
         - 我用右手掌小鱼际（即靠近小指的部分手掌）去按原来的 `^` 键位，这样的话双手就基本不用远离键盘中心区了（参考盲打键盘的标准姿势）。
-    - 我从键盘上完全移除了 `⇪` CapsLock 的大写锁定功能（不改其它键来实现该功能）。
+    - 我从键盘上移除了专门单个键的 `⇪` CapsLock 大写锁定键（改用 `Fn + u` = `⇪`）
         - 因为很少用到，Vim 党可以先以小写写完，再用 `U` 指令全部改写为大写，大不了全用 `⇧` 来输入大写字母。
-    - 右 `⌘` 改成 `⎋`。因为左小指挪到键盘左上角的 `⎋` 略远，
-        - 这样的话，双手就基本不用远离键盘中心区了（参考盲打键盘的标准姿势）。
-        - 而且这样就可以用强健的右大拇指去代替比较弱小的左小拇指去按 `⎋`，减轻长时间敲击键盘的手指不适。
+    - 右 `⌘` 改成 `⎋`，左小指挪到键盘左上角的 `⎋` 略远
+        - 改成这样的话，双手就基本不用远离键盘中心区了（参考盲打键盘的标准姿势），
+        - 而且用强健的右大拇指去代替比较弱小的左小拇指去按 `⎋`，减轻长时间敲击键盘的手指不适。
+        - 最重要的是从 2016 款开始 MacBook Pro 由于 Touch Bar 不再带实体的 `⎋`，Vim 使用者难以适应缺乏反馈的虚拟按键。
+    - 我的配置 [__karabiner.json__](https://github.com/IceHe/macos-home-conf/blob/master/.config/karabiner/karabiner.json)
 - [__AppleScript__](https://developer.apple.com/library/content/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html)
     系统内置的可用于操作 macOS 以及 Apps 的脚本语言。能实现许多功能在此暂不赘述。
     - 其实一般情况下，用户都没必要折腾，你能想到需求通常都存在相关的 App 帮你解决。
@@ -253,6 +256,8 @@ __荀子__
     可谓 macOS 的「按键精灵」。
     - 有时候用 JS、Shell、Python、AppleScript 写脚本来实现某些功能并不方便，比如关于 GUI 的一些任务，不如直接手动做。
     - 这时需要的若只是重复性的简单鼠标键盘操作，就可以用 Automator 直接录制键盘、鼠标的操作来重复运行，以减少重复的人工劳动。
+- __Shell、CLI__
+    Bash 脚本、命令行，都是程序员的基本功，就不赘述了。
 
 ---
 
@@ -264,19 +269,18 @@ __荀子__
     macOS 自带的系统备份、恢复软件。要有忧患意识，不要等硬盘坏了、Mac 丢了，才追悔莫及。
 - [__CheatSheet__](https://www.mediaatelier.com/CheatSheet/)
     快捷键快速提醒。长按 Command 键，显示当前程序的快捷键列表，方便快速入门 Mac 各处的快捷键。（新手专用）
-- [__Seil__](https://pqrs.org/osx/karabiner/seil.html.en)
-    改键软件，是配合 Karabiner 使用的（macOS Sierra 中也不可用了）。
 - [__Keyboard Maestro__](https://www.keyboardmaestro.com/main/) <sup>__Best__</sup>
-    高度自定义的效率工具，难以一语道尽玄机。可以参考《[Keyboard Maestro 入门指南](https://sspai.com/post/36442)》
-- [__ClipMenu__](http://www.clipmenu.com/) <sup>__Great__</sup>
+    高度自定义的效率工具，加速常用操作，甚至自动化。功能强大，用途甚广，限制你的只有你的想象力。
+    - 可以参考笔者的对其用法的 [简要介绍](/tools/#快捷键) 或《[Keyboard Maestro 入门指南](https://sspai.com/post/36442)》
+- [__ClipMenu__](http://www.clipmenu.com/) <sup>__Simple__</sup>
     剪贴板管理。主要用于快速查询剪贴板的历史记录，并提取出需要的内容保存到当前的剪贴板中。
-    - Others : [__Paste__](http://pasteapp.me/) 最好看！[~~Copied~~](http://copiedapp.com/)（没用过）。
-- [__Amphetamine__](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12)
-    防止 Mac 休眠。Mac 每次休眠后都会重启软件，导致软件丢失部分上下文，于是我无法在完全一样的环境下持续工作，一定程度上打断了工作，降低了效率。
-- [__Bartender 2__](https://www.macbartender.com/)
-    收起或彻底隐藏毋需过多关注的菜单栏 App 图标。
+    （相关 Apps 层出不穷，根据自身需求进行选择，我偏爱轻便简单的 ClipMenu）
 - [__HyperSwitch__](https://bahoom.com/hyperswitch)
     稳定切换同一 App 下各子窗口。
+- [__Amphetamine__](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12)
+    防止 Mac 休眠。Mac 每次休眠后都会重启软件，导致软件丢失部分上下文，于是我无法在完全一样的环境下持续工作，一定程度上打断了工作，降低了效率。
+- [__Bartender__](https://www.macbartender.com/)
+    收起或彻底隐藏毋需过多关注的菜单栏 App 图标。
 - [__ShowyEdge__](https://pqrs.org/osx/ShowyEdge/index.html.en) <sup>Great</sup>
     输入法状态提示。显示一条样式可定制的色带在屏幕顶部，以提示正在使用什么输入法。在全屏使用 App 时，也能轻易区分输入法状态！
 - ……
