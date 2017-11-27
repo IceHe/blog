@@ -480,7 +480,10 @@ __荀子__
     - 「[HHKB Pro 2](https://www.amazon.cn/PFU-Happy-Hacking-Keyboard-Professional2-%E5%A2%A8-%E7%84%A1%E5%88%BB%E5%8D%B0-%E8%8B%B1%E8%AA%9E%E9%85%8D%E5%88%97-USB%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89-%E9%9D%99%E9%9B%BB%E5%AE%B9%E9%87%8F%E7%84%A1%E6%8E%A5%E7%82%B9-UNIX%E9%85%8D%E5%88%97-WINDOWS-MAC%E4%B8%A1%E5%AF%BE%E5%BF%9C-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-PD-KB400BN/dp/B000F8OECM/ref=sr_1_2?ie=UTF8&qid=1494650270&sr=8-2&keywords=hhkb)」系列 60 键 US 布局精简至极，看起来精致小巧、赏心悦目「逼格满满」啊！但是我这个快捷键党为了改键的需求，最终选择了按键更多、布局奇特的日本版。
     - 为了无痛切换 HHKB JP 和 Mac 键盘而同时修改两者的布局，其键位功能基本一致，并吸收了 60% 键盘的特点：如数字键 1 左侧的 Backquote 键换成了 Esc 键等。
     - 其它：觉得键盘还是该配 [__木质腕托__](https://search.jd.com/Search?keyword=%E6%9C%A8%E8%85%95%E6%89%98&enc=utf-8&wq=mu%E8%85%95%E6%89%98)，不然每天敲键盘的时间太长很累。还有该配 [__桌垫__](https://item.mi.com/1172700033.html)，不然我手臂瘦没有肉，手肘放在桌上感觉特别「搁」。
-    - 配合 App __Karabiner-Elements__ 来同时使用两副键盘，分别启用不同的两套快捷键，拓展使用场景。
+    - 配合 App __Karabiner-Elements__ 来同时使用两副键盘，分别启用不同的两套快捷键。
+
+### 外置设备
+
 - __便携 SSD__：[SAMSUNG Portable SSD T3 500GB](http://www.samsung.com/cn/memory-storage/pssd-mu-pt/MU-PT500BCN/)
     主要作为 MacBook Pro 的备份盘，备份和系统重装镜像恢复的速度飞快，就是有点奢侈…
 - __拓展邬 & 底座__：[Sabrent USB 3 Universal Docking Station](https://www.amazon.cn/gp/product/B013WQWCEA/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1) - 连接、整齐
@@ -529,7 +532,7 @@ __荀子__
 - ~~__平板电脑__：[iPad](http://www.apple.com/cn/ipad)~~
     多用于阅读技术类书籍，看看动漫、电影、公开课。配合蓝牙键盘能够满足轻度使用，不用总是携带笔记本电脑回住处。还是因为用得少，也想身边的物品更精简，就给家里人用了（他们用大屏就不那么费眼力）。
 - ~~__电子阅读器__：[Kindle Paperwhite](https://www.amazon.cn/Kindle-Paperwhite%E7%94%B5%E5%AD%90%E4%B9%A6%E9%98%85%E8%AF%BB%E5%99%A8-300-ppi%E7%94%B5%E5%AD%90%E5%A2%A8%E6%B0%B4%E8%A7%A6%E6%8E%A7%E5%B1%8F-%E5%86%85%E7%BD%AE%E9%98%85%E8%AF%BB%E7%81%AF-%E8%B6%85%E9%95%BF%E7%BB%AD%E8%88%AA/dp/B00QJDOLIO) E-reader~~ <sup>_Sold_</sup>
-    - 需要长时间看书时，还得用 E-Ink 屏，保护视力。用惯手机阅读后，感觉这样更方便，就卖了…
+    需要长时间看书时，还得用 E-Ink 屏，保护视力。用惯手机阅读后，感觉这样更方便，就卖了…
 
 ### 音频输出
 
@@ -566,7 +569,7 @@ __荀子__
         - 用电动牙刷的话使劲别太大。
     - 相关笔记 - [牙齿保健](/read/tooth.html)
 - __冲牙器__（水牙线）：[Philips Sonicare Airfloss Ultra](https://www.amazon.com/Philips-Sonicare-HX8332-Airfloss-Ultra/dp/B01AVE8AAG/ref=sr_1_1_a_it?ie=UTF8&qid=1468933177&sr=8-1&keywords=hx8332)
-    Model HX8332/11（[京东](http://item.jd.hk/1964052662.html)）。注意：用了一年半，感觉充一次电用不了几次了。
+    Model HX8332/11（[京东](http://item.jd.hk/1964052662.html)）。注意：用了一年半，感觉充一次电用不了几次就又没电了。
     - 总结：
         - [使用牙线有必要性吗？](https://www.zhihu.com/question/20842469/answer/44441538)
         - 牙齿与牙齿间的缝隙，牙线或冲牙器，才能弄干净；
@@ -599,7 +602,7 @@ __荀子__
 - __轻便背包__（[小米学院休闲双肩包](https://item.mi.com/1171900021.html?cfrom=list)）
     要大小适中、便宜、轻便不累赘，用来放伞、水、纸巾这些不方便揣口袋、拎手里的杂物。
 - __骑行背包__（[迪卡侬](https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-14623109746.39.6z07wX&id=37930654463&scene=taobao_shop&skuId=3157441268509)）
-    背着大背包奔走、骑行，容易汗流浃背。骑行、跑步甚至日常出行，我都喜欢使用这个小巧轻便的透气户外背包。
+    背着大背包出行，容易汗流浃背。骑行、跑步甚至日常出行，我都喜欢使用这个小巧轻便的透气户外背包。
 - __好看的背包__：[Rains Msn Bag](https://www.rains.dk/collections/backpacks/products/msn-bag?variant=16742951681) <sup>_wish_</sup>
     坐飞机看到旁边妹子背的这款包很好看。也在考虑 [Backpack、Backpack Mini](https://www.rains.dk/collections/backpacks)。
     <!-- （[淘宝](https://world.taobao.com/item/532027551703.htm?spm=a312a.7700714.0.0.FOAJqC#detail)） -->
