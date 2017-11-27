@@ -21,7 +21,7 @@ nocopyright: true
 - __特点__
     - <i class="fa fa-fw fa-gears"></i> 工具控 - [我的利器](/tools)
         <sup>Apps & 物件</sup>
-    - <i class="fa fa-fw fa-keyboard-o"></i> 效率厨 - [我的快捷键](/mac_shortcuts)
+    - <i class="fa fa-fw fa-keyboard-o"></i> 效率厨 - [我的快捷键](/mac/shortcuts)
         <sup>默认 & 自定义</sup>
     - <i class="fa fa-fw fa-calendar"></i> 省察 - [时间管理](/lifelogs)
         <sup>时间使用情况记录 & 统计</sup>

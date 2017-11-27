@@ -13,29 +13,28 @@ description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
 
 ## Simple & Less
 
-- 没什么不好意思承认的，写这篇文章的初衷就是想炫耀自己的「与众不同」—— 彰显自己是一个酷爱快捷键的「键盘党」，一个有个性的少数派。然而这样做真的有意义吗？
 - 正确的做法：
-    - 选用符合直觉的好设计 —— 它们容易上手、容易习惯，不容易被错误地使用。
-        - 「开箱即用」，即用默认配置就能用得顺手，就是一个很高的标准。
-    - 根据「二八法则」（帕累托法则），只做关键部分的改进，用更少的工具完成更多的事情。
-        - 工具提供足够的设置选项，然后将工具配置得足够贴合个人的使用习惯。
-            例如，同时使用多个 IDE 和代码编辑器的话，尽量将快捷键配置得一样，增强快捷键的通用性，减轻记忆快捷键的负担，减少误用；尽量都使用 Vim 插件，统一以 Vim 的方式操作，就可以进一步减轻记忆负担，增加操作效率。
+    - 选用符合直觉的好设计 —— 它们容易习惯，不容易被错误地使用。
+        - 「开箱即用」默认的配置就能用得顺手，这是一个很高的标准。
+    - 根据「二八法则」（帕累托法则）只做关键部分的改进，用更少的工具完成更多的事情。
+        - 工具提供适当足够的设置选项，然后将工具配置得足够贴合个人的使用习惯。
+            例如，尽量使用默认通用的快捷键；同时使用多个 IDE 和代码编辑器的话，尽量将快捷键配置得一样，增强快捷键的通用性，减轻记忆快捷键的负担，减少误用；建议尽量都使用 Vim 插件，统一以 Vim 方式进行操作，可以进一步减轻记忆负担，增加操作效率。
 
 ## Explanation
 
 <!-- - 《[Mac Efficiency 效率指北](/mac/efficiency)》is about what I think of the shortcuts. -->
 - Here are the Mac shortcuts:
-    - The default ones that I use most frequently
-    - All my custom ones
-- I hide all the default shortcuts that are of little use.
+    - the default ones that I use most frequently,
+    - my custom ones.
+- I hide the default shortcuts that are seldom used.
 - Meanings of Font Format:
     - The item with the superscript <sup>_custom_</sup>&nbsp; implies it might `be custom by me`.
 - The italic item is `not frequently-used`.
 - Related :
-    《 [Tools 利器](/tools) 》
-    《 [Mac Efficiency 效率指南](/mac/efficiency) 》
+    - [利器 - 软硬件推荐](/tools)
+    - [Mac Efficiency 效率指南](/mac/efficiency)
 - Reference :
-    《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》
+    - [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) ( from Apple Supprot )
 
 ### Key Symbols
 
