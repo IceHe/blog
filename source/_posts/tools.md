@@ -1,6 +1,6 @@
 title: 利器 - 软硬件推荐
 date: 2015-11-21
-updated: 2017-11-26
+updated: 2017-11-27
 categories: [Mac]
 tags: [Mac]
 description: Tools&#58; 推荐 macOS 和 iOS 的 Apps 以及日常使用的电子产品。
@@ -103,6 +103,7 @@ __荀子__
         - 在命令行之外，Sublime Text 原生支持 Vim 的基本操作，VS Code 插件支持 Vim 操作。
         - Vim vs. Emacs! &nbsp;[What are the main differences between Vim and Emacs?__](https://www.quora.com/Text-Editors-What-are-the-main-differences-between-Vim-and-Emacs)》
         - 其它：《[一年成为Emacs高手（像神一样使用编辑器）](https://github.com/redguardtoo/mastering-emacs-in-one-year-guide/blob/master/guide-zh.org)》
+        - 我的配置 [__.vimrc__](https://github.com/IceHe/macos-home-conf/blob/master/.vimrc)
     - [__~~spf13-vim~~__](http://vim.spf13.com/)
         一整套 Vim 配置方案。
         - 比起漫无休止地折腾配置，不如遵从实用主义：站在巨人的肩膀上，直接使用久经考验的的配置方案。
@@ -115,14 +116,17 @@ __荀子__
         比 Bash 更强大、便捷、高效的 Shell！
         - 配置 Zsh 比较复杂，可以使用 [__oh-my-zsh__](http://ohmyz.sh/) 等成熟的配置方案。
         - [__Fish__](https://fishshell.com/) ( a shell for the 90s 😂 ) 虽然很好，但存在兼容性问题，有些 Bash 的指令需要改写才能运行在 Fish 上。尝试使用之后，还是更喜欢 Zsh。
-        - Ref : [Comparison of Command Shells - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_command_shells)
+        - 参考：[Comparison of Command Shells - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_command_shells)
+        - 我的配置 [__.zshrc__](https://github.com/IceHe/macos-home-conf/blob/master/.zshrc)
     - [__oh-my-zsh__](http://ohmyz.sh/) <sup>Efficient</sup>
         管理 Zsh 配置的开源框架，预打包了相关的主题、插件、配置。
         - 配置过程傻瓜化，一条安装指令就能让你畅快地享受 Zsh 的强大与高效！
+        - 我的命令行提示符主题 [__.sunrise_icehe__](https://github.com/IceHe/macos-home-conf/blob/master/.config/zsh/sunrise_icehe.zsh-theme)
     - [__tmux__](https://tmux.github.io/) <sup>Powerful</sup>
         终端多路复用软件，即命令行中的 「桌面」、「分屏工具」。
         - 允许一个用户在一个终端窗口或一个远程终端会话中，使用多个终端会话。
         - [__screen__](https://www.gnu.org/software/screen/manual/screen.html) 命令的替代方案，使用方法基本相同。
+        - 我的配置 [__.tmux.conf__](https://github.com/IceHe/macos-home-conf/blob/master/.tmux.conf)
 
 ---
 
@@ -145,10 +149,21 @@ __荀子__
         - 现阶段 PHP 类型推导做得最好的 IDE，稳定、崩溃少，功能完善，设置选项齐全。（我觉得）比 ZendStudio、Eclipse 好用多了。
         - 技术支持服务靠谱，客服答复迅速、解决方案有效
         - 配合 [__IdeaVim__](https://plugins.jetbrains.com/plugin/164?pr=idea) 插件可用 Vim 的方式进行操作，可以少记许多执行相同功能的 IDE 快捷键。
+            - 我的配置 [__.ideavimrc__](https://github.com/IceHe/macos-home-conf/blob/master/.ideavimrc)
         - [__JetBrains__](https://www.jetbrains.com/products.html) 出品的其它优秀 IDE：[__PyCharm__](https://www.jetbrains.com/pycharm/)、[__IntelliJ IDEA__](https://www.jetbrains.com/idea/)、[__WebStorm__](https://www.jetbrains.com/webstorm/)、[__CLion__](https://www.jetbrains.com/clion/) …
     - [__Sublime Text__](http://www.sublimetext.com/) <sup>Fastest</sup>
         代码编辑器。Vintage 模式，可用 Vim 键位进行操作。冷启动也快如闪电！
         - 候选：[__VS Code__](https://code.visualstudio.com/)，开源、持续且活跃的开发，更不必说本身有微软过硬的技术实力背书。
+        - 我自定义的 [__keymap__](https://github.com/IceHe/macos-home-conf/blob/master/.config/sublime/Default%20(OSX).sublime-keymap)
+        - 我安装的 [__plugins__](https://github.com/IceHe/macos-home-conf/blob/master/.config/sublime/Package%20Control.sublime-settings)
+            - __Compare Side-By-Side__：文本差异对比。
+            - __CTags__：编程语言对象定位器。
+            - __Git Gutter__：Git 变更差异（Diff）提示。
+            - __HTML-CSS-JS Prettify__：HTML、CSS、JS 内容的格式化
+            - __MarkdownEditing__：支持 Markdown 语法高亮和编辑特性。
+            - __Package Control__：插件包管理器。
+            - __Pretty JSON__：JSON 格式美化、最小化、有效性检查。
+            - __TrailingSpaces__、__Trimmer__：去除多余的空格，包括每行内容后面的。
     - [__iTerm2__](https://www.iterm2.com/)
         macOS 下的终端仿真机。是系统默认自带的 Terminal 的最佳替代 App。
     - [__~~Dash~~__](https://kapeli.com/dash)
@@ -205,6 +220,7 @@ __荀子__
 - [__Karabiner-Elements__](https://github.com/tekezo/Karabiner-Elements) <sup>Geek , Best , Favorite</sup>
     强大、稳定的键位修改功能，预定义了大量奇巧的修改方案。键盘党神器！
     - 可自定义快捷键去启动、切换 App，打开文件和网址，快速输入关键词跳转到网站的搜索页，甚至运行 Shell 命令行。发挥想象力，配合上述的 Keyboard Maestro，还能做到更多的事。除了「键位修改」，其它繁杂的功能最好交给 Keyboard Maestro 或者 Shell 脚本来完成，用起来省心。
+    - 我的配置 [__karabiner.json__](https://github.com/IceHe/macos-home-conf/blob/master/.config/karabiner/karabiner.json)
 - __Karabiner Event-Viewer__
     键盘码查询。不用查表，直接击键，即得出对应的键盘码和按键组合等。
     - 是 Karabiner-Elements 附带 App，用于调试键位、快捷键组合。
@@ -413,6 +429,7 @@ __荀子__
 - [__cVim__](https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh?hl=en) <sup>Powerful</sup>
     用 Vim 的键位去浏览、导航网页，减少使用鼠标的使用，键盘党神器！（~~[__Vimium__](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)~~ <sup>备选</sup>）
     功能强大丰富，通过修改类似 `.vimrc` 的配置文件来设置功能（比较麻烦）。
+    - 我的配置 [__.cvimrc__](https://github.com/IceHe/macos-home-conf/blob/master/.cvimrc)
 - [__Chrono Download Manager__](https://chrome.google.com/webstore/detail/chrono-download-manager/mciiogijehkdemklbdcbfkefimifhecn)
     批量下载工具。多线下载，速度更快，功能更强，非 P2P 下载用它代替迅雷和浏览器自带的下载器。
     （一般情况下用浏览器默认的下载器就够了）
@@ -426,10 +443,6 @@ __荀子__
     「代理服务」配置工具，用于「科学上网」。
 - [__uBlock__](https://www.ublock.org/) <sup>Simple</sup>
     快速轻量级的广告过滤器。我放弃了老牌的工具，如 ~~[Adblock Plus](https://adblockplus.org/zh_CN/) & [Adblock Plus Elem Hide Helper](https://adblockplus.org/zh_CN/elemhidehelper)~~。
-
-### Sublime 插件
-
-TODO
 
 ### Windows
 
