@@ -32,7 +32,7 @@ description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
 - The italic item is `not frequently-used`.
 - Related :
     《 [Tools 利器](/tools) 》
-    《 [Mac Efficiency 效率指北](/mac/efficiency) 》
+    《 [Mac Efficiency 效率指南](/mac/efficiency) 》
 - Reference :
     《 [Mac 键盘快捷键](https://support.apple.com/zh-cn/HT201236) 》
 
