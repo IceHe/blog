@@ -1,12 +1,10 @@
-title: Mac 快捷键 - 旧
+title: Mac 快捷键
 date: 2016-01-06
 updated: 2017-11-28
 categories: [Mac]
 tags: [Mac]
 description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
 ---------------------------
-
-- __注意：本文不再更新，移步新简版《 [Mac 快捷键](/mac/shortcuts) 》__
 
 {% cq %}
 天下武功，唯快不破。

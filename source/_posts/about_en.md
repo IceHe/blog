@@ -23,7 +23,7 @@ nocopyright: true
 - __Traits__
     - <i class="fa fa-fw fa-gears"></i> [Tools](/tools/) - Quick
         <sup>Softwares & Hardwares</sup>
-    - <i class="fa fa-fw fa-keyboard-o"></i> [Shortcuts](/mac/shortcuts/) - Efficient
+    - <i class="fa fa-fw fa-keyboard-o"></i> [Shortcuts](/mac_shortcuts/) - Efficient
         <sup>Default & Custom</sup>
     - <i class="fa fa-fw fa-calendar"></i> [Logs](/lifelogs) - Time Mgt.
         <sup>Time Usage Rec. & Statistics</sup>

@@ -33,7 +33,7 @@ __荀子__
         - 比如，设置好各常用功能的快捷键，以便调用；或将流程变得更自动化，以节省时间和精力。
 - 笔者相关文章
     - 《 [Mac 效率指南](/mac/efficiency) 》
-    - 《 [Mac 快捷键](/mac/shortcuts) 》
+    - 《 [Mac 快捷键](/mac_shortcuts) 》
 - 参考阅读
     - [__少数派__](http://sspai.com/) - 高质量 App 推荐媒体，关于 iOS、Mac、硬件。
     - [__Best App__](https://github.com/hzlzh/Best-App) - List in GitHub
