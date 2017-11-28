@@ -1,6 +1,6 @@
 title: Mac 快捷键
-date: 2017-11-28
-updated: 2017-11-28
+date: 2016-01-06
+updated: 2017-11-29
 noupdate: true
 categories: [Mac]
 tags: [Mac]
@@ -257,10 +257,8 @@ Some are modified by Apps [Karabiner-Elements](#Karabiner-Elements).
     The manipulation `Hide` is much better than `Minimize` in macOS!
     So I prefer `Hide` to `Minimize`.
 
-<!--
     _`⌘ m` Minimize to Dock_
     _`⌘ ⌥ m` Minimize All Windows of the Front-most App_
--->
 
 - Tab
 
@@ -309,11 +307,11 @@ _`^ d` = `Fn ⌫` Forward Del_
         These modifications can be supported in `Karabiner-Elements` too.
 - Ref : [(Emacs) Keyboard Shortcuts for Editing Text Fields in OS X](http://jblevins.org/log/kbd)
 
-### Input Sources
+### Input Methods
 
 - Select
 
-    Left `^` = `⌥ 凵` Switch Input Source
+    `⌥ 凵` Switch Input Methods <sup>custom</sup>
     `⌘ ^ 凵` Emoji & Symbols
 
 - Pinyin - Simplified (macOS built-in)
@@ -340,6 +338,22 @@ _`^ d` = `Fn ⌫` Forward Del_
 
 `⌘ ⌥ f` Filter Processes
 `⌘ ⌥ q` Quit the selected Process
+
+### Mail
+
+`⌘ ⇧ N` Get All New Mail
+`⌘ ^ s` Get All New Mail <sup>_custom_</sup>
+
+`⌘ r` Reply
+`⌘  ⇧ r` Reply All
+
+`⌘ ⌥ f` Mailbox Search
+
+_`⌘ ⇧ L` Red Flag_
+
+_`⌘ 1` Inbox_
+_`⌘ 2` Sent_
+_`⌘ 3` Drafts_
 
 ## Crazy Remappings
 
@@ -406,23 +420,18 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
     `⌥ p` Postman
     `⌥ \` [1Password](#1Password) ( Mini )
 
-    _`⌥ ⇧ Q` QQMusic_
     _`⌥ ⇧ W` Word_
+    _`⌥ ⇧ T` Type String ( in clipboard ) inseted of Paste_
     _`⌥ ⇧ P` PowerPoint_
-    Type inseted of Paste
     `⌥ ⇧ E` [Evernote](#Evernote)
-    `⌥ ⇧ I` iTunes
-
     _`^ ⌥ ⇧ E` Excel_
-
-    _`⌥ ]` Show [Bartender 2](#Bartender-2)_
-    _`⌥ ⇧ ]` Show [Bartender 2](#Bartender-2)_
+    `⌥ ⇧ I` iTunes
 
 - asdf …
 
     `⌥ a` [Activity Monitor](#Activity-Monitor)
     `⌥ s` [PhpStorm](#PhpStorm)
-    `⌥ d` EuDic Free
+    `⌥ d` EuDic
     `⌥ f` [Finder](#Finder)
     _`⌥ g` [Acrobat Reader](#Acrobat-Reader) ( PDF )_
 
@@ -433,32 +442,29 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
     `⌥ ;` Input the symbol `…`
 
     `⌥ ⇧ A` PyCharm
-    `⌥ ⇧ S` 
+    `^ ⌥ ⇧ A` App Store
+    `⌥ ⇧ S` Sequel Pro ( MySQL )
     `⌥ ⇧ D` Dictionary
     _`⌥ ⇧ F` Search in All Files_
     `⌥ ⇧ J` Eject the disks
     _`⌥ ⇧ K` Calculator_
-    _`⌥ ⇧ L` System Settings → Launch Rocket_
-
-    `^ ⌥ ⇧ A` App Store
 
 - zxcv …
 
     `⌥ x` Xiami Music
     `⌥ c` [Charles](#Charles)
-    `⌥ v` [ClipMenu](#ClipMenu) ( History Menu )
+    `⌥ v` [ClipMenu](#ClipMenu) - Clipboard History
     `⌥ b` [MindNode](#MindNode) ( `b` for Brainstorm )
 
     `⌥ n` [NeteaseMusic](#NeteaseMusic)
     `⌥ m` Messages
 
     `⌥ ⇧ C` Calendar
-    `⌥ ⇧ V` [ClipMenu](#ClipMenu) ( Main Menu )
+    `⌥ ⇧ V` [ClipMenu](#ClipMenu) - Snippets
+    `^ ⌥ ⇧ V` [ClipMenu](#ClipMenu) - Main Menu
     `⌥ ⇧ B` System Settings → BlueTooth
     `⌥ ⇧ M` Send Clipboard to iPhone by Messages
     `⌥ ⇧ N` System Settings → Network
-
-    `^ ⌥ ⇧ M` Sequel Pro ( MySQL )
 
 ### Layout `Fn`
 
@@ -490,32 +496,39 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
 
 ### Layout `⎋`
 
-- 1234 …
-
-    `⎋ 123456790-=` = `Functional Keys`
-    e.g. Functional keys control Brightness, Music, Volume, Keyboard Light & etc.
-
 - qwer …
 
-    `⎋ w` [Weibo](http://weibo.com)
-    `⎋ e` Sina ERP
-    `⎋ r` Sina Redmine
+    `⎋ q` [QQMail](https://mail.qq.com/)
+    `⎋ w` [Weibo](https://weibo.com)
+    `⎋ e` Official ERP
+    `⎋ r` Redmine
+    `⎋ t` GitLab Proj Tags
 
-    `⎋ i` [IceHe.me](http://icehe.me)
+    `⎋ i` GitLab Proj Issue Board
+    `⎋ o` GitLab Proj Contributors
     `⎋ p` [PHP.net](http://php.net/)
+    `⎋ [` | `⎋ ]` GitLab Projs' Pipelines
 
 - asdf …
 
-    `⎋ a` [Apple](http://www.apple.com/cn/)
+    `⎋ a` GitLab Proj Branches
+    `⎋ s` | `⎋ v` GitLab Projs' Repositories
+    `⎋ d` | `⎋ f` GitLab Projs' Merge Requests
     `⎋ g` [Google](https://www.google.com/)
 
     `⎋ h` [GitHub](https://github.com/IceHe)
+    `⎋ j` Jenkins
+    `⎋ k` Kibana
     `⎋ l` [localhost:4000](http://127.0.0.1:4000/)
 
 - zxcv …
 
-    `⎋ z` Sina GitLab
+    `⎋ z` GitLab User Profile
+    `⎋ x` Open Link ( in clipboard ) in Safari
+    `⎋ c` Open Link ( in clipboard ) in Chrome
     `⎋ b` [Baidu](https://www.baidu.com/)
+    `⎋ n` GitLab Proj Issue List
+    `⎋ m` [IceHe.me](https://icehe.me)
 
 ### [Keyboard Maestro](https://www.keyboardmaestro.com/main/)
 
@@ -537,63 +550,67 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
 
 - Abbrs
 
-    For examples…
+    Regular : Type `|[a-zA-Z0-9]+` | `[a-zA-Z0-9]+|` → Extend | Rewrite …
+    For examples :
 
-    - Date
-
+    - Dates
         Type string `|hm`, it will be replaced by the time string `hh:mm`
         Type `|ymd`, replaced by `yy/MM/dd`
-        `|Ymd/` → `YYYY/MM/dd`
-        `|Ymd-` → `YYYY-MM-dd`
-        ( I abbreviate the similar sentences below like this. )
+        `|yymd` → `YYYY-MM-dd`
+        `|yy/md` → `YYYY/MM/dd`
+        `|yy.md` → `YYYY.MM.dd` …
 
     - Symbols
-
         `|up` → `↑`
         `|dn` → `↓`
         `|lf` → `←`
         `|rg` → `→`
-        `|esc` → `⎋`
         `|tab` → `⇥`
-        `|cap` → `⇪`
         `|shf` → `⇧`
-        `|opt` | `|alt` → `⌥`
+        `|opt` → `⌥`
         `|cmd` → `⌘`
-        `|spa` → `凵`
-        `|del` → `⌫`
-        `|ret` | `|ent` → `↩`
-        `|app` → ``
+        `|ret` → `↩` …
 
-    - Others
-        `|[a-z]*` → ID card number, my phone number & etc.
+    - Words
+        `|http` → `HTTP`
+        `|latex` → `LaTeX`
+        `|db` → `database`
+        `|rm` → `remove`
+        `desc|` → `description`
+        `env|` → `environment` …
+
+    - Commands
+        `|vh` → `sudo vim /etc/hosts`
+        `|vp` → `sudo vim /etc/php.ini`
+        `|snr` → `sudo service nginx restart`
+        `|spr` → `sudo service php-fpm restart` …
+
+    - Links
+        `|blog` → `https://icehe.me` …
+
+    - Mails
+        `|qm` → `88888888@qq.com` …
+
+    - Numbers
+        `|127` → `127.0.0.1` …
 
 ### [Karabiner-Elements](https://pqrs.org/osx/karabiner/index.html)
 
 Changes not only the shortcuts but also the keyboard key-remappings!
 
 - Quit
-
     `⌘ q, ⌘ q` Double tap `⌘ q` to send one real keystroke `⌘ q`
 
-- Profile
-
-    `⌘ ⌥ ^ ⇧ 1` Switch to the __default__ setting profile ( without all custom key-remapping )
-    `⌘ ⌥ ^ ⇧ 2` Switch to the __custom_mac__ setting profile
-    `⌘ ⌥ ^ ⇧ 3` Switch to the __custom_hhkb__ setting profile
-    They're used to toggle the custom setting profile for the guest who need to use my Mac temporarily.
-
-- Input Sources
-
-    Rg `⌥` = `⌘ 凵` Switch Input Source
+- Input Methods
+    Lf `^` = `⌥ 凵` Switch Input Methods
 
 - Change Modifier-Key-Remapping
-
     `⇪` Caps → `^` Lf Ctrl
     `⌘` Rg Cmd →  `⎋` Esc
 
     `^` Ctrl → to Chinese Layout ( Baidu Input Method )
+
     Required:
-    `System Preferences` → `Keyboards` → `Modifier Key` : `CapsLock` → `Control`, `Control` → `No Action`
     App `Seil` : `^` Lf Ctrl → `F19`
     App `Karabiner` : `F19` → `F17`
     App `Keyboard Maestro` : `F17` → to Chinese Layout ( [Ref](https://sspai.com/post/37962) )
@@ -602,38 +619,6 @@ Changes not only the shortcuts but also the keyboard key-remappings!
     Required:
     App `Karabiner` : LR`⇧` | R`⌘` | `⎋` will trigger `F18` as well
     App `Keyboard Maestro` : `F18` → to US English Layout
-
-## Contact
-
-### Mail
-
-`⌘ ⇧ N` Get All New Mail
-`⌘ ^ s` Get All New Mail <sup>_custom_</sup>
-
-`⌘ r` Reply
-`⌘  ⇧ r` Reply All
-
-`⌘ ⌥ f` Mailbox Search
-
-_`⌘ ⇧ L` Red Flag_
-
-_`⌘ 1` Inbox_
-_`⌘ 2` Sent_
-_`⌘ 3` Drafts_
-
-### [QQ](http://im.qq.com/macqq/)
-
-`⌘ ^ a` Screenshot
-`⌘ ^ r` Screen Recording
-Two functions above can be used without opening QQ.
-
-`⌘ ↑` Select Prev Chat
-`⌘ ↓` Select Next Chat
-They can be used in WeChat as well.
-
-`⌘ 1` Switch to Messages
-`⌘ 2` Switch to Contacts
-`⌘ 3` Switch to Applications
 
 ## System Assistant
 
@@ -652,11 +637,6 @@ They can be used in WeChat as well.
 `^ ⌥ F12` Allow Mac to Sleep
 -->
 
-### [Bartender 2](https://www.macbartender.com/)
-
-`^ ⌥ ]` Show Bartender Bar
-`⌥ ]` Show All Status Icons in Menu Bar
-
 ### [CheatSheet](https://www.mediaatelier.com/CheatSheet/)
 
 `Long Press ⌘` Activate
@@ -666,6 +646,11 @@ They can be used in WeChat as well.
 `⌥ v` History
 `⌥ ⇧ V` Snippets
 `^ ⌥ ⇧ V` Main Menu
+
+### [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG)
+
+`^ ⌥ ⇧ S` Toggle Shadowsocks On / Off
+`^ ⌥ p` Toggle Proxy Mode: Auto PAC / Global
 
 ## Development
 
@@ -1379,63 +1364,6 @@ I don't want to list all its shortcuts, as there are so many…
     `^ ⌘ ↑|↓` Move Up | Down
 -->
 
-### Dictionary
-
-`⌘ ⇧ D` Look Up in Dictionary
-`⌘ 0~9` Switch Dictionary
-
-### [EuDict Free](https://www.eudic.net/eudic/mac_dictionary.aspx)
-
-`⌥ 凵` Light Peek
-__`⌘ ⇧ M` Look up Word that Mouse Cursor Hovers__
-__`⌘ ⇧ L` Look up Selection__
-__`⌘ ⇧ 2` Translate Selection__
-
-### [MindNode](https://mindnode.com/)
-
-- File
-
-    `⌥ ↩` New Mind Map
-    `⌥ →` Next Mind Map
-    `⌥ ←` Prev Mind Map
-
-- New
-
-    `↩` Append New Sibling
-    `⇧ ↩` Prepend New Sibling
-
-    `⇥` New Child
-    `⇧ ⇥` New Parent
-
-- Edit
-
-    `⌘ ↩` Edit Title ( Current )
-
-    `⌘ ⇧ K` Note Popover
-    `⌘ ⇧ T` Add / Rm Task ( Check Box )
-    `⌘ ⇧ U` Toggle Task
-
-    `⌘ k` Add Link
-    `⌘ l` Add Connection ( to Another Node )
-
-- Move
-
-    `⌘ ↑` Move Above Sibling
-    `⌘ ↓` Move Below Sibling
-    `⌘ ⇧ D` Detach Node
-
-
-- Fold
-
-    `⌘ ⌥ ←` Fold Node
-    `⌘ ⌥ →` Unfold Node
-    `⌘ ⌥ ↑` Fold All Nodes
-    `⌘ ⌥ ↓` Unfold All Nodes
-
-- Select
-
-    `⌘ ⌥ a` All Subnodes
-
 ### [Chrome]()
 
 - Common
@@ -1660,3 +1588,84 @@ It is a Vim-Emulator extension in Firefox.
     `⎋` | `^ [` Cancel
 
 <!-- _`gr` Enter Reading Mode_ -->
+### Dictionary
+
+`⌘ ⇧ D` Look Up in Dictionary
+`⌘ 0~9` Switch Dictionary
+
+### [EuDict Free](https://www.eudic.net/eudic/mac_dictionary.aspx)
+
+`⌥ 凵` Light Peek
+__`⌘ ⇧ M` Look up Word that Mouse Cursor Hovers__
+__`⌘ ⇧ L` Look up Selection__
+__`⌘ ⇧ 2` Translate Selection__
+
+### [MindNode](https://mindnode.com/)
+
+- File
+
+    `⌥ ↩` New Mind Map
+    `⌥ →` Next Mind Map
+    `⌥ ←` Prev Mind Map
+
+- New
+
+    `↩` Append New Sibling
+    `⇧ ↩` Prepend New Sibling
+
+    `⇥` New Child
+    `⇧ ⇥` New Parent
+
+- Edit
+
+    `⌘ ↩` Edit Title ( Current )
+
+    `⌘ ⇧ K` Note Popover
+    `⌘ ⇧ T` Add / Rm Task ( Check Box )
+    `⌘ ⇧ U` Toggle Task
+
+    `⌘ k` Add Link
+    `⌘ l` Add Connection ( to Another Node )
+
+- Move
+
+    `⌘ ↑` Move Above Sibling
+    `⌘ ↓` Move Below Sibling
+    `⌘ ⇧ D` Detach Node
+
+
+- Fold
+
+    `⌘ ⌥ ←` Fold Node
+    `⌘ ⌥ →` Unfold Node
+    `⌘ ⌥ ↑` Fold All Nodes
+    `⌘ ⌥ ↓` Unfold All Nodes
+
+- Select
+
+    `⌘ ⌥ a` All Subnodes
+
+### [NeteaseMusic](http://music.163.com/#/download)
+
+`凵` Play | Pause
+`⌘ →` Next
+`⌘ ←` Prev
+`⌘ ↑` Volume Up
+`⌘ ↓` Volume Down
+
+__`⌘ l` Dislike__
+__`⌘ r` Show | Hide Lyrics__
+
+### [QQ](http://im.qq.com/macqq/)
+
+`⌘ ^ a` Screenshot
+`⌘ ^ r` Screen Recording
+Two functions above can be used without opening QQ.
+
+`⌘ ↑` Select Prev Chat
+`⌘ ↓` Select Next Chat
+They can be used in WeChat as well.
+
+`⌘ 1` Switch to Messages
+`⌘ 2` Switch to Contacts
+`⌘ 3` Switch to Applications
