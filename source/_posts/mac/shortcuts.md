@@ -119,27 +119,25 @@ Some are modified by Apps [Karabiner-Elements](#Karabiner-Elements).
 
     `^ ` Shut Down
     ( Then you can choose to Sleep or Restart in the prompt dialog box. )
-
     _`⌘ ^ ` Force Restart_
     _`⌘ ^ ⌥ ` Force Shutdown_
 
 - Accessory
 
+    `F1` Desktop <sup>_custom_</sup>
     `⌘ 凵` Spotlight
     `⇪` Switch Chinese Input Source <sup>_custom_</sup>
     `⇧` | `⎋` Press Shf or Esc to Switch English Input Source, when using Chinese input source <sup>_custom_</sup>
     ( for the convenience of the Vim users when using Chinese input methods. )
-    `F1` Desktop <sup>_custom_</sup>
 
     _`⌥ ⇧ F` Search in All Files_ <sup>_custom_</sup>
     _`⌥ ⇧ ?` Show Help Menu_ <sup>_custom_</sup>
 
 - Dock & Menubar & Sidebar
 
+    `F12` Open Notification Center <sup>_custom_</sup>
     `^ F12` Do Not Disturb On/Off <sup>_custom_</sup>
     `⌘ ⌥ d` Dock Hiding On/Off
-
-    `F12` Notification Center <sup>_custom_</sup>
 
 - Accessory
 
@@ -150,9 +148,7 @@ Some are modified by Apps [Karabiner-Elements](#Karabiner-Elements).
 ### Finder
 
 - File
-
     `⌘ ↓` Open
-
     `⌘ d` Duplicate
     `⌘ e` Eject Disk
 
@@ -160,7 +156,6 @@ Some are modified by Apps [Karabiner-Elements](#Karabiner-Elements).
     _`⌘ r` to Origin File of Alias_
 
 - Folder
-
     `⌘ ⇧ A` Application
     `⌘ ⇧ D` Desktop
     _`⌘ ⇧ F` All My Files_
@@ -172,7 +167,6 @@ Some are modified by Apps [Karabiner-Elements](#Karabiner-Elements).
 
     `⌘ ⇧ N` New Folder
     `⌘ ↑` to Parent Dir
-
     _`⌘ ^ ↑` Open Parent Dir in New Window_
 
     _`⌘ ⇧ C` Computer_
@@ -181,9 +175,7 @@ Some are modified by Apps [Karabiner-Elements](#Karabiner-Elements).
     _`⌘ ⇧ U` Utilities_
 
 - View
-
     `⌘ ⇧ .` Show Hidden Files
-
     `凵` Quick Look
     `⌘ i` Get Info
 
@@ -204,15 +196,22 @@ Some are modified by Apps [Karabiner-Elements](#Karabiner-Elements).
 ### File & Edit
 
 - File
-
     `⌘ n` New
     `⌘ o` Open
     `⌘ s` Save
     `⌘ p` Print
-
     `⌘ ⇧ S` Save as
 
 - Edit
+    `⌘ z` Undo
+    `⌘ ⇧ Z` Redo
+
+    `⌘ a` Select All
+    `⌘ c` Copy
+    _`⌘ ⌥ c` Copy Path_
+
+    `⌘ v` Paste
+    `⌘ ⌥ v` Move ( After `⌘ c` )
 
     `⌘ f` Search
     `⌘ g` Next Match
@@ -221,29 +220,16 @@ Some are modified by Apps [Karabiner-Elements](#Karabiner-Elements).
     `⌥ ←` Prev Word
     `⌥ →` Next Word
 
-    `⌘ a` Select All
-
-    `⌘ z` Undo
-    `⌘ ⇧ Z` Redo
-
-    `⌘ c` Copy
-    _`⌘ ⌥ c` Copy Path_
-
-    `⌘ v` Paste
-    `⌘ ⌥ v` Move ( After `⌘ c` )
-
-    - After Selection, then input:
-
-        `⌘ b` Bold
-        `⌘ u` Underline
-        `⌘ i` Italic
-        `⌘ +` Bigger | Zoom In
-        `⌘ -` Smaller | Zoom Out
+    After text selection, then input:
+    `⌘ b` Bold
+    `⌘ u` Underline
+    `⌘ i` Italic
+    `⌘ +` Bigger | Zoom In
+    `⌘ -` Smaller | Zoom Out
 
 ### Window & Tab
 
 - Window
-
     <code>⌘ \`</code> Switch windows of the current App
     It's enhanced by App [HyperSwitch](https://bahoom.com/hyperswitch) | [Keyboard Maestro](#Keyboard-Maestro)
 
@@ -261,7 +247,6 @@ Some are modified by Apps [Karabiner-Elements](#Karabiner-Elements).
     _`⌘ ⌥ m` Minimize All Windows of the Front-most App_
 
 - Tab
-
     `⌘ r` Refresh
     `⌘ t` New Tab
     `⌘ 0~9` Select Tab
@@ -310,27 +295,21 @@ _`^ d` = `Fn ⌫` Forward Del_
 ### Input Methods
 
 - Select
-
     `⌥ 凵` Switch Input Methods <sup>custom</sup>
     `⌘ ^ 凵` Emoji & Symbols
 
 - Pinyin - Simplified (macOS built-in)
-
     `[` Page Up
     `]` Page Down
     `⇥` Sort By
     `0~9` Select
-
     _`^ ⇧ 凵` Trackpad Handwriting_
 
 - Baidu Input <sup>__Now I use__</sup>
-
     _`^ t` [ Simple | Traditional ] Chinese Characters_
-
     _`^ .` [ Chinese | English ] Punctuation Marks_
     _`⇧ 凵` [ 全角 | 半角 ] Punctuation Mark Types_
     _`^ p` [ 全拼 | 双拼 ] Chinese Input Modes_
-
     _`⌥ ⇧ B` Emoji & Symbols_
     _`⌥ ⇧ 凵` Add a space between Chinese & English_
 
@@ -341,15 +320,13 @@ _`^ d` = `Fn ⌫` Forward Del_
 
 ### Mail
 
-`⌘ ⇧ N` Get All New Mail
-`⌘ ^ s` Get All New Mail <sup>_custom_</sup>
+`⌘ ^ s` <sup>_custom_</sup> | `⌘ ⇧ N` <sup>default</sup> Get All New Mail
 
 `⌘ r` Reply
-`⌘  ⇧ r` Reply All
-
+`⌘ ⇧ r` Reply All
+`⌘ ⇧ f` Forward
+`⌘ ⇧ L` Red Flag_
 `⌘ ⌥ f` Mailbox Search
-
-_`⌘ ⇧ L` Red Flag_
 
 _`⌘ 1` Inbox_
 _`⌘ 2` Sent_
@@ -358,14 +335,13 @@ _`⌘ 3` Drafts_
 ## Crazy Remappings
 
 - What are they used to:
-
     - __Remap__ the key codes.
     - __Open or Switch__ to the specified __app or URL__.
-
 - Supported by
-
     - [__Keyboard Maestro__](#Keyboard-Maestro)
     - [__Karabiner-Elements__](#Karabiner-Elements)
+
+---
 
 `Functional Keys` = `F1` ~ `F12`
 
@@ -376,7 +352,6 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
 ### Layout `凵`
 
 - 0123 …
-
     `凵 1` iTerm2
     `凵 2` [2Do](#2Do)
     `凵 3` [Sublime Text](#Sublime-Text)
@@ -386,11 +361,9 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
     `凵 8` [Karabiner-Elements](#Karabiner-Elements)
 
 - asdf …
-
     `凵 asdfghjkl;` = `1234567890`
 
 - Symbols
-
     <code>凵 \`</code> = <code>⇧ \`</code> = `~`
     `凵 -` = `⇧ -` = `_`
     `凵 =` = `⇧ =` = `+`
@@ -402,14 +375,12 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
 ### Layout `⌥` `⇧` `^`
 
 - 1234 …
-
     <code>⌥ \`</code> [1Password](#1Password)
     `⌥ 1` [Script Editor](#Script_Editor) ( AppleScript )
     `⌥ 2` System Preferences
     `⌥ 3` Notes
 
 - qwer …
-
     `⌥ q` [QQ](#QQ)
     `⌥ w` WeChat
     `⌥ e` [Mail](#Mail)
@@ -428,7 +399,6 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
     `⌥ ⇧ I` iTunes
 
 - asdf …
-
     `⌥ a` [Activity Monitor](#Activity-Monitor)
     `⌥ s` [PhpStorm](#PhpStorm)
     `⌥ d` EuDic
@@ -450,12 +420,10 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
     _`⌥ ⇧ K` Calculator_
 
 - zxcv …
-
     `⌥ x` Xiami Music
     `⌥ c` [Charles](#Charles)
     `⌥ v` [ClipMenu](#ClipMenu) - Clipboard History
     `⌥ b` [MindNode](#MindNode) ( `b` for Brainstorm )
-
     `⌥ n` [NeteaseMusic](#NeteaseMusic)
     `⌥ m` Messages
 
@@ -474,7 +442,6 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
 
     `Fn d` Lf 1/2
     `Fn f` Rg 1/2
-
     `Fn e` Lf 3/5
     `Fn r` Rg 3/5
 
@@ -487,7 +454,6 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
     `Fn s` Btm Rg 1/4
 
 - Direction Keys
-
     They're Vim-like.
     `Fn h` = `←` Lf
     `Fn j` = `↓` Dn
@@ -497,7 +463,6 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
 ### Layout `⎋`
 
 - qwer …
-
     `⎋ q` [QQMail](https://mail.qq.com/)
     `⎋ w` [Weibo](https://weibo.com)
     `⎋ e` Official ERP
@@ -510,7 +475,6 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
     `⎋ [` | `⎋ ]` GitLab Projs' Pipelines
 
 - asdf …
-
     `⎋ a` GitLab Proj Branches
     `⎋ s` | `⎋ v` GitLab Projs' Repositories
     `⎋ d` | `⎋ f` GitLab Projs' Merge Requests
@@ -522,7 +486,6 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
     `⎋ l` [localhost:4000](http://127.0.0.1:4000/)
 
 - zxcv …
-
     `⎋ z` GitLab User Profile
     `⎋ x` Open Link ( in clipboard ) in Safari
     `⎋ c` Open Link ( in clipboard ) in Chrome
@@ -533,11 +496,9 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
 ### [Keyboard Maestro](https://www.keyboardmaestro.com/main/)
 
 - Global Macro
-
     _`⌘ ^ ⇧ O` Toggle All Micro_
 
 - Search in Web
-
     `⌘ ^ ⇧ A` Amazon
     `⌘ ^ ⇧ B` Baidu
     `⌘ ^ ⇧ D` Douban
@@ -549,7 +510,6 @@ Only when you pressed Pf Key at first and then the App shortcut, did it launch.
     `⌘ ^ ⇧ Z` Zhihu
 
 - Abbrs
-
     Regular : Type `|[a-zA-Z0-9]+` | `[a-zA-Z0-9]+|` → Extend | Rewrite …
     For examples :
 
@@ -639,7 +599,7 @@ Changes not only the shortcuts but also the keyboard key-remappings!
 
 ### [CheatSheet](https://www.mediaatelier.com/CheatSheet/)
 
-`Long Press ⌘` Activate
+`Long Press ⌘` Show Tips
 
 ### [ClipMenu](http://www.clipmenu.com/)
 
@@ -649,20 +609,18 @@ Changes not only the shortcuts but also the keyboard key-remappings!
 
 ### [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG)
 
-`^ ⌥ ⇧ S` Toggle Shadowsocks On / Off
 `^ ⌥ p` Toggle Proxy Mode: Auto PAC / Global
+`^ ⌥ ⇧ S` Toggle Shadowsocks On / Off
 
 ## Development
 
 ### [PhpStorm](https://www.jetbrains.com/phpstorm/)
 
 - References
-
     Quick Guide : `PhpStorm` → `Help` → `Keymap Reference`
     Advance Settings : `PhpStorm` → `Preferences…` → `Keymap`
 
 - Refactor
-
     `^ ⌥ t` Refactor This
     `^ ⌥ o` Optimize Imports
 
@@ -680,7 +638,6 @@ Changes not only the shortcuts but also the keyboard key-remappings!
     `⌘ ⌥ c` Extract Constant
 
 - Code
-
     `⌘ /` Line Comment
     _`⌘ ⌥ /` Block Comment_
 
@@ -697,7 +654,6 @@ Changes not only the shortcuts but also the keyboard key-remappings!
     <!-- _`⌘ ⇧ V` Copy from History_ -->
 
 - Debug
-
     `^ ⇧ B` Toggle Line BreakPoint
     `^ ⇧ E` Edit BreakPoint ( Break if conditional is true)
     `^ ⇧ V` View BreakPoints
@@ -716,13 +672,11 @@ Changes not only the shortcuts but also the keyboard key-remappings!
     `^ ⇧ J` Step Over ( Next Line )
 
 - File
-
     `⌘ ⇧ C` Copy Path
     `^ ⌥ r` Copy Reference ( `File:Line` | `Class::method()` )
     _`⇧ ↩` Open in a new Editor Window_
 
 - Find
-
     `⌘ f` Find
     `⌘ ⇧ F` Find in Paths
     `⌘ r` Replace
@@ -737,13 +691,11 @@ Changes not only the shortcuts but also the keyboard key-remappings!
     `⌘ o` Find Class
     `⌘ ⇧ O` Find File
     `⌘ ⌥ o` Find Symbols ( Class, Files, Methods, Functions )
-
     <!-- _`⇧, ⇧` Search (Everything) Everywhere_ -->
 
 <!-- _`⌘ ⇧ A` Find Actions_ -->
 
 - Navigate
-
     `⌥ F1` Select current file or symbol in any view
 
     `⌘ j` Next Method
@@ -779,7 +731,6 @@ Changes not only the shortcuts but also the keyboard key-remappings!
 -->
 
 - VCS: History & Compare
-
     `⌘ t` Update Porject from VCS
     `^ ⇧ C` Commit Project to VCS
     `⌘ ⌥ g` 'VCS' Operations Quick Popup
@@ -793,7 +744,6 @@ Changes not only the shortcuts but also the keyboard key-remappings!
     _`^ ⌥ c` Git -> Resolve Conflicts_
 
 - Tools
-
     `⌘ ^ h` Hide All Tool Windows
     _`^ ⌥ q` Terminal_
     _`^ ⌥ s` Test RESTful Web Service_
@@ -814,17 +764,14 @@ It is the best Vim-Emulator plugin for IDEs from [JetBrains](https://www.jetbrai
 Its most keys are the same as Vim, so I just list my custom keys.
 
 - Tab
-
     `H` Prev Tab
     `L` Next Tab
 
 - Ctags Like
-
     `^ ]` Find Declaration
     `^ t` Back from Declaration
 
 - Mimic Emacs in Insert Mode:
-
     `^ b` = `←`
     `^ f` = `→`
     `^ p` = `↑`
@@ -838,7 +785,6 @@ Its most keys are the same as Vim, so I just list my custom keys.
     `^ t` Exchange Chars ( Before & After Cursor )
 
 - Vim-Surround
-
     `ds*` Delete Surround
     such as `ds'` `ds"` `ds[` `ds{` <code>ds\`</code> `dst` ( `t` for HTML Tag ) …
 
@@ -861,7 +807,6 @@ All the shortcuts can be modified in `Preferences` → `Keymap`!
 ### [Sublime Text](https://www.sublimetext.com/)
 
 - Find & Replace
-
     `⌘ f` Find
     `⌥ ↩` Find All
     `⌘ r` Find Files
@@ -874,7 +819,6 @@ All the shortcuts can be modified in `Preferences` → `Keymap`!
     `⌘ ⌥ r` Toggle Case Sensitive
 
 - Selection
-
     `⌘ d` Expand Selection to Word
     `^ ⇧ M` Expand Selection to Brackets
     `⌘ ⇧ L` Split into Lines
@@ -891,13 +835,11 @@ All the shortcuts can be modified in `Preferences` → `Keymap`!
 -->
 
 - Layout
-
     `⌘ ⌥ 1~4` 1~4 Columns
     _`⌘ ⌥ 5` Grid_
     _`⌘ ⌥ ⇧ 2~3` 2~3 Rows_
 
 - Command Palette…
-
     `⌘ p` Quick Open File
     `⌘ ⇧ P` Command Palette…
     `⌘ ⇧ C` Copy File Path
@@ -907,7 +849,6 @@ All the shortcuts can be modified in `Preferences` → `Keymap`!
 ### [Charles](https://www.charlesproxy.com/)
 
 - Proxy
-
     `⌘ r` [ Start | Stop ] Recording
 
 <!--
@@ -921,7 +862,6 @@ All the shortcuts can be modified in `Preferences` → `Keymap`!
 -->
 
 - Session
-
     `⌘ ⌫` Clear
 
     _`⌘ o` Open_
@@ -932,7 +872,6 @@ All the shortcuts can be modified in `Preferences` → `Keymap`!
 <!-- `⌘ l` Error Log -->
 
 - View
-
     `⌘ 1` Overview
     `⌘ 2` Request
     `⌘ 3` Response
@@ -950,7 +889,6 @@ All the shortcuts can be modified in `Preferences` → `Keymap`!
 -->
 
 - Tools
-
     `⌘ ⇧ R` Repeat
 
     `⌘ ⇧ D` DNS Spoofing Settings <sup>_custom_</sup>
@@ -982,7 +920,6 @@ All the shortcuts can be modified in `Preferences` → `Keymap`!
 ### [iTerm2](https://www.iterm2.com/)
 
 Due to the help from `tmux` and `Zsh`, I don't need much support from `iTerm` as follows.
-
 `⌘ 0~9` Switch Tab
 
 ### [tmux](https://tmux.github.io/)
@@ -1021,11 +958,9 @@ In Copy Mode:
 
 <!--
     - Help
-
         `Pf ⇧ ?` List Keys
 
     - Client (Session)
-
         `Pf d` Detach Client
 
         _`Pf (` Prev Client_
@@ -1035,7 +970,6 @@ In Copy Mode:
         _`Pf $` Rename Session_
 
     - Window
-
         `Pf c` New Window
 
         _`Pf w` Choose Window_
@@ -1044,7 +978,6 @@ In Copy Mode:
         _`Pf &` Kill Window_
 
     - Layout
-
         `Pf \` Split Window Horizontally
         `Pf -` Split Window Vertically
 
@@ -1054,14 +987,12 @@ In Copy Mode:
         _`Pf }` Swap Pane Dn_
 
         - Resize
-
             `Pf ^ y` Resize Pane Lf
             `Pf ^ u` Resize Pane Dn
             `Pf ^ i` Resize Pane Up
             `Pf ^ o` Resize Pane Rg
 
     - Pane
-
         `Pf x` Kill Pane
 
         `Pf h` Select Lf Pane
@@ -1073,13 +1004,11 @@ In Copy Mode:
         `Pf ↓` Put Current Pane back to its Parent Window
 
     - Copy Mode
-
         `Pf [` Use Vim-like keys to copy string at Copy Mode
 
         _`Pf ]` Paste buffer_
 
     - Config
-
         `Pf r` Reload ~/.tmux.conf
 -->
 
@@ -1088,7 +1017,6 @@ In Copy Mode:
 Only list the useful keys that I’m unfamiliar with here.
 
 - Mv Cursor
-
     _`^ o` | `^ i` [ Prev | Next ] Cursor Pos_
     `{` | `}` [ Prev | Next ] Blank Line
 
@@ -1121,7 +1049,6 @@ Only list the useful keys that I’m unfamiliar with here.
 -->
 
 - Select Range
-
     `ciw` Del Word
     `caw` Del Word including the Following Spaces 凵
 
@@ -1132,7 +1059,6 @@ Only list the useful keys that I’m unfamiliar with here.
     `ca*` Select & Manipulate the string surrounded by `*` including `*`.
 
 - Column Edit Mode
-
     Example:
 
     1. In normal mode `^ v` then select a block area
@@ -1141,7 +1067,6 @@ Only list the useful keys that I’m unfamiliar with here.
 
 
 - Search & Replace
-
     - `:%s/search_str/replace_str/gci`
         - `:` switch to Command Mode
         - `%` find __each occurence__ of `search_str`
@@ -1164,15 +1089,12 @@ Only list the useful keys that I’m unfamiliar with here.
     - Ref : [__Search and replace__](http://vim.wikia.com/wiki/Search_and_replace) & [__Vim 字符串替换及小技巧__](http://xstarcd.github.io/wiki/vim/vim_replace_encodeing.html)
 
 - Command
-
     `.` Repeat Command
 
 - Cp
-
     `⇧ Y` Copy from the cursor to the end of line
 
 - Del
-
     `x` Del Char Forward ⌦
     _`⇧ X` Del Char Backward ⌫_
 
@@ -1182,24 +1104,20 @@ Only list the useful keys that I’m unfamiliar with here.
     `⇧ D` Del to End of Line
 
 - Exchange
-
     `xp` Exchange the Current Char and the Next Char
     `ddp` Exchange the Current Line and the Next Line
 
 - Lower or Upper Case
-
     `⇧ ~` Toggle Case & Mv Cursor to Next char
     `u` to Lowercase
     `⇧ U` to Uppercase
 
 - Increase or Decrease Num
-
     In Normal Mode:
     `^ a` Increase Num
     `^ x` Decrease Num
 
 - Macro
-
     `q a~z|A~Z` Start Recording Macro marked as `a~z|A~Z`
     `q` Stop Recording
     `@ a~z|A~Z` Play Macro marked as `a~z|A~Z`
@@ -1207,27 +1125,22 @@ Only list the useful keys that I’m unfamiliar with here.
 
 <!--
 - Check Encoding Value
-
     __`ga` Show ASCII of Char__
     __`g8` Goto UTF-8 of Char__
 
 - Open Path
-
     __`gf` Open Path where Cursor is__
 -->
 
 - Save & Quit
-
     `⇧ ZZ` Save & Quit
     `⇧ ZQ` Quit without Saving
 
 - CTags ( plugin )
-
     `^ ]` Find Declaration
     `^ t` Back from Declaration
 
 - Mimic Emacs in Insert Mode
-
     `^ b` = `←`
     `^ f` = `→`
     `^ p` = `↑`
@@ -1241,7 +1154,6 @@ Only list the useful keys that I’m unfamiliar with here.
     `^ t` Exchange Chars ( Before & After Cursor )
 
 - Tripple h/j/k/l to Normal Mode
-
     `hhh` | `jjj` | `kkk` | `lll` = `⎋`
 
 
@@ -1256,7 +1168,6 @@ Only list the useful keys that I’m unfamiliar with here.
 `^ v` Edit Command Line in Vim
 
 - Emacs Mode
-
     `^ a` Mv Cursor to Head of Line
     `^ e` Mv Cursor to End of Line
 
@@ -1276,7 +1187,6 @@ Only list the useful keys that I’m unfamiliar with here.
     `^ l` Clear Screen
 
 - Extra
-
     `^ _` Undo
     _`^ y` Yank_
 
@@ -1295,7 +1205,6 @@ Only list the useful keys that I’m unfamiliar with here.
     _`^ x`, `^ b` Vi Macth Bracket_
 
 - Aliases
-
     - [.zshrc](https://github.com/IceHe/oh-my-zsh/blob/master/.zshrc)
     - [dir](https://github.com/IceHe/oh-my-zsh/blob/master/lib/directories.zsh)
     - [git](https://github.com/IceHe/oh-my-zsh/blob/master/plugins/git/git.plugin.zsh)
@@ -1315,7 +1224,6 @@ I don't want to list all its shortcuts, as there are so many…
 `⌘ s` Sync
 
 - View
-
     `⌘ 0` Inbox
     _`⌘ 1` All_
     `⌘ 2` Today
@@ -1329,7 +1237,6 @@ I don't want to list all its shortcuts, as there are so many…
     _`⌘ ⇧ ↑|↓` [ Collapse | Expand ] All List Groups_
 
 - Edit
-
     `0 ~ 3` Priority : None | Low | Medium | High
     `s` Star
     `^ s` Unstar
@@ -1367,7 +1274,6 @@ I don't want to list all its shortcuts, as there are so many…
 ### [Chrome]()
 
 - Common
-
     `⌘ l` Edit Address Bar
     `⌘ j` Downloads
     `⌘ b` Bookmarks ( Badly Use )
@@ -1376,7 +1282,6 @@ I don't want to list all its shortcuts, as there are so many…
     `⌘ ⇧ A` Extensions
 
 - Development
-
     `⌘ ⌥ i` Inspect Elements
     `⌘ u` Page Source Code
 
@@ -1398,12 +1303,10 @@ I don't want to list all its shortcuts, as there are so many…
 It is a Vim-Emulator extension in Firefox.
 
 - Input
-
     `c` Input in Address Bar
     `i` Input in First Input Box
 
 - Link
-
     `f` Open Link in Current Tab
     `F` Open Link in New Tab
     `^ f` Open Links in New Tabs
@@ -1424,9 +1327,7 @@ It is a Vim-Emulator extension in Firefox.
 -->
 
 - Tab
-
     - Open Tab
-
         `t` New at the Last of Tabs
         `T` New at the Rg of Cur Tab
         `S` Duplicate
@@ -1435,7 +1336,6 @@ It is a Vim-Emulator extension in Firefox.
         `V` Open URL in Clipboard in New Tab
 
     - Switch Tab
-
         `w` to Prev
         `e` to Next
 
@@ -1445,19 +1345,16 @@ It is a Vim-Emulator extension in Firefox.
         `⇧ 6` to First Unpined Top
 
     - Move Tab
-
         `W` to Lf
         `E` to Rg
 
     - Close Tab
-
         `x` Close Current Tab
 
         <!-- `^ r` Close All Tabs on the Right -->
         <!-- `^ o` Close All Other Tabs -->
 
     - Regret Op
-
         `X` Reopen Last Closed Tab
 
         _`^ x` List of Last Closed Tabs of Tabs_
@@ -1465,9 +1362,7 @@ It is a Vim-Emulator extension in Firefox.
 
 
 - Scroll
-
     - Vertical
-
         `gg` to Top
         `G` = _`ge`_ to Btm
 
@@ -1481,7 +1376,6 @@ It is a Vim-Emulator extension in Firefox.
         <!-- _`^ k` Up_ -->
 
     - Horizontal
-
         `h` Lf
         `l` Rg
 
@@ -1494,7 +1388,6 @@ It is a Vim-Emulator extension in Firefox.
     <code>\`, a~z</code> = `', z~z` to the Mark represented by 'a~z'
 
 - Navigate
-
     `z` Backward
     `b` Forward
 
@@ -1514,7 +1407,6 @@ It is a Vim-Emulator extension in Firefox.
 -->
 
 - Load
-
     `r` Refresh
     `R` Refresh ( including Cache )
 
@@ -1527,7 +1419,6 @@ It is a Vim-Emulator extension in Firefox.
 -->
 
 - Find
-
     `/` Find
     `a/` Find All
 
@@ -1539,7 +1430,6 @@ It is a Vim-Emulator extension in Firefox.
 -->
 
 - Visual
-
     `^ c` Copy Element Text
 
     _`^ i` Enter Visual Mode & Put Cursor at Head of Element_
@@ -1549,7 +1439,6 @@ It is a Vim-Emulator extension in Firefox.
     _`^ v` Select Focus Point_
 
     - Visual Mode
-
         `v` Start / Cancel Selection
         _`o` Switch Cursor between Head and End of Selection_
         `y` Copy Selection & Exit Visual Mode
@@ -1576,7 +1465,6 @@ It is a Vim-Emulator extension in Firefox.
 -->
 
 - Others
-
     `Q` Click Elements of Browser
 
     `I` Enter Ignore Mode ( Ignore All VimFX Shortcuts )
@@ -1603,13 +1491,11 @@ __`⌘ ⇧ 2` Translate Selection__
 ### [MindNode](https://mindnode.com/)
 
 - File
-
     `⌥ ↩` New Mind Map
     `⌥ →` Next Mind Map
     `⌥ ←` Prev Mind Map
 
 - New
-
     `↩` Append New Sibling
     `⇧ ↩` Prepend New Sibling
 
@@ -1617,7 +1503,6 @@ __`⌘ ⇧ 2` Translate Selection__
     `⇧ ⇥` New Parent
 
 - Edit
-
     `⌘ ↩` Edit Title ( Current )
 
     `⌘ ⇧ K` Note Popover
@@ -1628,21 +1513,18 @@ __`⌘ ⇧ 2` Translate Selection__
     `⌘ l` Add Connection ( to Another Node )
 
 - Move
-
     `⌘ ↑` Move Above Sibling
     `⌘ ↓` Move Below Sibling
     `⌘ ⇧ D` Detach Node
 
 
 - Fold
-
     `⌘ ⌥ ←` Fold Node
     `⌘ ⌥ →` Unfold Node
     `⌘ ⌥ ↑` Fold All Nodes
     `⌘ ⌥ ↓` Unfold All Nodes
 
 - Select
-
     `⌘ ⌥ a` All Subnodes
 
 ### [NeteaseMusic](http://music.163.com/#/download)
