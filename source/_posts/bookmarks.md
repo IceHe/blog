@@ -44,7 +44,7 @@ nocopyright: true
 
 - [__利器 - 软件、物件的推荐__](/tools)
 - [Mac 效率指南](/mac/efficiency)
-- [Mac 快捷键](/mac_shortcuts)
+- [Mac 快捷键](/mac/shortcuts)
 
 ## [AppleScript](/categories/AppleScript)
 

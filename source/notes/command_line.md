@@ -375,6 +375,6 @@ Add SSH key for Git
 
 # Related
 
-- [My Mac Shortcuts 快捷键列表](/mac_shortcuts)
+- 我的 [Mac 快捷键](/mac/shortcuts)
 - **CLI Note 命令行**
 
