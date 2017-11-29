@@ -1,10 +1,13 @@
 title: 命令行笔记
-date: 2017-12-01
+date: 2017-11-30
 noupdate: true
 categories: [Cmd]
 tags: [Cmd]
-description: CLI&#58; Command Line Interface , Shell Script
+description: The Art of Command Line &#58; 命令行的艺术
 -----------------
+
+Ref : [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line/blob/master/README.md)
+[中文版](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
 
 ## TODO
 
@@ -18,14 +21,21 @@ description: CLI&#58; Command Line Interface , Shell Script
 ### Process
 
 - ack
+- ag
 - awk
+- cut
+    - join
+    - paste
 - sed
+- sort
+- tar
+- uniq
 - xargs
 
 #### filter
 
 - comm
-- cut
+- diff
 - wc
 
 - grep
@@ -103,6 +113,8 @@ find [dir] -name 'file_name'
 - ps
 `ps -ef`
 `ps aux`
+- kill
+kill -HUP
 
 - python
 - php
@@ -115,12 +127,19 @@ rsync -goDp
 - su
 - source
 - strace
+- ltrace
 
 - screen
 - tmux
 
 - top
 - htop
+
+- uptime
+- uname
+- whoami
+- which
+- whereis
 
 - z
 - zsh
@@ -137,4 +156,5 @@ rsync -goDp
 ### Bash
 
 - bash
+.bashrc
 scrpit

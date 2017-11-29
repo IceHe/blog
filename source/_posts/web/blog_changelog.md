@@ -1,8 +1,8 @@
 title: 折腾个人博客
 date: 2017-07-05
 updated: 2017-07-08
-categories: [web]
-tags: [web]
+categories: [Web]
+tags: [Web]
 description: Blog Changelog&#58; 博客变更日志，以及《搭建个人博客》的详细拓展。
 ---
 
