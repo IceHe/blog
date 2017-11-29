@@ -1,6 +1,6 @@
 title: Mac 快捷键
 date: 2016-01-06
-updated: 2017-11-29
+updated: 2017-11-30
 categories: [Mac]
 tags: [Mac]
 description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
@@ -815,7 +815,7 @@ My config file [__.ideavimrc__](https://github.com/IceHe/macos-home-conf/blob/ma
 
 - Others
     `^ r` = `:redo<CR>` Redo
-    `⇧ K` Join curren line and next line without breaking
+    `⇧ K` = `Jx` Join curren line and next line without breaking concated spacing
 
 #### [JetBrains](https://www.jetbrains.com/)
 
@@ -1027,29 +1027,6 @@ My config file [__.vimrc__](https://github.com/IceHe/macos-home-conf/blob/master
     3. `⎋`, `⎋` ( Twice ) to apply the insertion at each line heading of the selected block area
 
 
-- Search & Replace
-    - `:%s/search_str/replace_str/gci`
-        - `:` switch to Command Mode
-        - `%` find __each occurence__ of `search_str`
-        - `s` replace operation
-        - `g` replace __globally__
-        - `c` ask for __confirmation__
-        - `i` __case insensitive__ , `I` case __sensitive__
-    - `:'<,'>s/foo/bar/g`
-        - `'<,'>` replace __within a visual selection__ (when compiled with +visual)
-    - `:5,12$/foo/bar/g`
-        - `5` , `12` start from line 5 to the line 12
-    - `:.,$/foo/bar/g`
-        - `.` , `$` start from the __current line__ to the __last line__
-    - `:.,+2s/foo/bar/g`
-        - `.` , `+2` start from the current line to the __next two lines__
-    - `:'a,'bs/foo/bar/g`
-        - `'a` , `'b` start from the __mark a__ to the __mark b__
-    - `:g/^baz/s/foo/bar/g`
-        - Change each 'foo' to 'bar' in __each line starting with 'baz'__
-    - Ref : [__Search and replace__](http://vim.wikia.com/wiki/Search_and_replace) & [__Vim 字符串替换及小技巧__](http://xstarcd.github.io/wiki/vim/vim_replace_encodeing.html)
-
-
 - Command
     `.` Repeat Command
 
@@ -1114,6 +1091,85 @@ My config file [__.vimrc__](https://github.com/IceHe/macos-home-conf/blob/master
     `^ k` Del to End of Line
     `^ u` Del to Head of Line
     `^ t` Exchange Chars ( Before & After Cursor )
+
+- Window
+    `^w`, `n` = `:new<CR>` New Horizontal Split ( editing new empty buffer )
+    `^w`, `s` = `:split<CR>` Split Window Horizontally ( editing current buffer )
+    `^w`, `v` = `:vsplit<CR>` Split Window Vertically ( editing current buffer )
+    `^w`, `c` = `:close<CR>` Close Window
+    `^w`, `o` = `:only<CR>` Close All Windows But only the Current
+
+    `^w`, `w` Go to Next window
+    `^w`, `p` Go to Prev window
+    `^w`, `↑` Go to window Above
+    `^w`, `↓` Go to window Below
+    `^w`, `←` Go to window on Left
+    `^w`, `→` Go to window on Right
+
+- Tab
+    `:tabedit [path/to/file]<CR>` Open Existing File in New Tab
+    `,`, `t` = `:tabedit<space>`
+    `:edit [path/to/file]<CR>` Open Existing File in Current Tab
+    `,`, `e` = `:edit<space>`
+
+    `:tabnew<CR>` Open New Empty Tab
+    `:tabc<CR>` Close Current Tab
+    `:tabo<CR>` Close all Other Tabs But only the Current
+
+    `L` = `gt` = `:tabn<CR>` Next Tab
+    `H` = `gT` = `:tabp<CR>` Prev Tab
+
+    `,`, `a` = `1gt` to Tab 1
+    `,`, `s` = `2gt` to Tab 2
+    … d f g h j k …
+    `,`, `l` = `9gt` to Tab 9
+    `,`, `;` = `10gt` to Tab 10
+    `,`, `1` = `11gt` to Tab 11
+    `,`, `2` = `12gt` to Tab 12
+    …
+    `,`, `9` = `19gt` to Tab 19
+    `,`, `0` = `20gt` to Tab 20
+
+    `,`, `W` = `:tabm<space>-1<CR>` Move Tab Left
+    `,`, `E` = `:tabm<space>+1<CR>` Move Tab Right
+
+- Comment
+    `,`, `;` = `^i;<Esc>` Comment `"`
+    `,`, `'` = `^i"<Esc>` Comment `"`
+    `,`, `#` = `^i#<Esc>` Comment `#`
+    `,`, `/` = `^i//<Esc>` Comment `//`
+    `,`, `?` = `^xx<Esc>` Revert Comment `//`
+    `,`, `!` = `^i<!-- <Esc>$a --><Esc>` Comment `<!-- … -->`
+    `,`, `>` = `^xxxxx$xxxx` Revert Comment `<!-- … -->`
+
+
+- Search & Replace
+    - `:%s/search_str/replace_str/gci`
+        - `:` switch to Command Mode
+        - `%` find __each occurence__ of `search_str`
+        - `s` replace operation
+        - `g` replace __globally__
+        - `c` ask for __confirmation__
+        - `i` __case insensitive__ , `I` case __sensitive__
+    - `:'<,'>s/foo/bar/g`
+        - `'<,'>` replace __within a visual selection__ (when compiled with +visual)
+    - `:5,12$/foo/bar/g`
+        - `5` , `12` start from line 5 to the line 12
+    - `:.,$/foo/bar/g`
+        - `.` , `$` start from the __current line__ to the __last line__
+    - `:.,+2s/foo/bar/g`
+        - `.` , `+2` start from the current line to the __next two lines__
+    - `:'a,'bs/foo/bar/g`
+        - `'a` , `'b` start from the __mark a__ to the __mark b__
+    - `:g/^baz/s/foo/bar/g`
+        - Change each 'foo' to 'bar' in __each line starting with 'baz'__
+    - Ref : [__Search and replace__](http://vim.wikia.com/wiki/Search_and_replace) & [__Vim 字符串替换及小技巧__](http://xstarcd.github.io/wiki/vim/vim_replace_encodeing.html)
+
+
+- Others
+    `,`, `h` = `:set noh<CR>` Deactivate Highlighted
+    `,`, `n` = `:set nu!<CR>` Toggle Absolute Line Number
+    `,`, `r` = `:set rnu!<CR>` Toggle Relative Line Number
 
 
 - [Vim Cheat Sheet](http://coolshell.cn//wp-content/uploads/2011/09/vim_cheat_sheet_for_programmers_print.png) - Image
