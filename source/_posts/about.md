@@ -103,6 +103,7 @@ __<i class="fa fa-fw fa-weibo"></i> [微梦创科网络技术（中国）有限�
         - 提测通知（Email）、Issues 管理（Issue Board）、清理无用的仿真或正式包（Branche, Tag）
         - 语法检查（PHPLint）、代码风格检查（PHPCS）、单元测试（PHPUnit）
         - 生成代码覆盖率报告（PHPUnit）和 API 文档（Sami）、文档网站更新（CI, Pages, Hexo）
+        - 自动重试因 Runner 'System Failed' 异常而失败的 CI Job（Event, Webhook）
         - 使用 GitLab 的 API、CI & Runner，crontab 定时任务、Bash 脚本，优化 CI 运行效率
         - 编写项目内部定制的命令行工具（Symfony Console Command）
 - 2016.04 ~ 2016.08 参与「[微博头条](https://itunes.apple.com/cn/app/wei-bo-tou-tiao/id713957166)」的服务端 API 及其 CMS 后台的开发与维护：
