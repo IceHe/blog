@@ -29,7 +29,7 @@ description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
 - I hide all the default shortcuts that are of little use.
 - Meanings of Font Format:
     - The item with the superscript <sup>_custom_</sup>&nbsp; implies it might `be custom by me`.
-- The italic item is `not frequently-used`.
+    - _The italic item is `not frequently-used`.
 - Related :
     《 [利器 - 软硬件推荐](/tools) 》
     《 [Mac 效率指南](/mac/efficiency) 》

@@ -25,11 +25,11 @@ description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
 - Here are the Mac shortcuts:
     - the default ones that I use most frequently,
     - my custom ones.
-- I hide the default shortcuts that are seldom used.
+    - I hide the default shortcuts that are seldom used.
 - Meanings of Font Format:
     - The item with the superscript <sup>_custom_</sup>&nbsp; implies it might `be custom by me`.
-- The italic item is `not frequently-used`.
-- Related :
+    - _The italic item is `not frequently-used`.
+- My Related Articles :
     - [利器 - 软硬件推荐](/tools)
     - [Mac Efficiency 效率指南](/mac/efficiency)
 - Reference :
@@ -104,9 +104,9 @@ description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
 
 ## macOS
 
-Some are common & default in operating system.
-Some of the keys below can be modified in `System Preference → Keyboard`.
-Some are modified by Apps [Karabiner-Elements](#Karabiner-Elements).
+- Some are common & default in operating system.
+- Some of the keys below can be modified in `System Preference → Keyboard`.
+- Some are modified by Apps [Karabiner-Elements](#Karabiner-Elements) & [Keyboard Maestro](#Keyboard-Maestro).
 
 ### System
 
@@ -262,34 +262,39 @@ Some are modified by Apps [Karabiner-Elements](#Karabiner-Elements).
 ### Emacs Mode
 
 A few people know that it's supported in  by default in macOS.
-They don't work, if you append any modifier key to them.
+They may work, if you append some modifier keys to them.
 
-`^ f` = `←`
-`^ b` = `→`
-`^ p` = `↑`
-`^ n` = `↓`
+- Default
 
-`^ a` = `⌘ ←` Home
-`^ e` = `⌘ →` End
+    `^ f` = `←`
+    `^ b` = `→`
+    `^ p` = `↑`
+    `^ n` = `↓`
 
-`^ t` Exchange the Charactors before & after the cursor
-`^ o` Insert a Blank Line `'\n'` after the cursor
+    `^ a` = `⌘ ←` Home
+    `^ e` = `⌘ →` End
 
-`^ h` = `⌫` Del
-_`^ d` = `Fn ⌫` Forward Del_
-`^ k` Del to the End of the Line
+    `^ t` Exchange the Charactors before & after the cursor
+    `^ o` Insert a Blank Line `'\n'` after the cursor
 
-- They are also enabled in `iTerm2` :
-    - Modified by `.zshrc` in `Zsh` and `.vimrc` in `Vim`
+    `^ h` = `⌫` Del
+    _`^ d` = `Fn ⌫` Forward Del_
+    `^ k` Del to the End of the Line
+
+    They are also enabled by `Zsh` ( in `.zshrc` ) and `Vim` ( in `.vimrc` ) in iTerm 2 ( Terminal ).
+
 - Moreover
-    - Modified by `Keyboard Maestro`
-        `^ p` = `⌥ ←` Move to Prev Word <sup>_custom_</sup>
-        `^ n` = `⌥ ←` Move to Next Word <sup>_custom_</sup>
-        `^ w` = `⌥ ⌫` Del Preceding Word <sup>_custom_</sup>
-        `^ u` = [ `^ a`, `^ k` ] Del the Whole Line <sup>_custom_</sup>
-        `^ j` = `↩` Return <sup>_custom_</sup>
-        These modifications can be supported in `Karabiner-Elements` too.
-- Ref : [(Emacs) Keyboard Shortcuts for Editing Text Fields in OS X](http://jblevins.org/log/kbd)
+
+    Modified by `Keyboard Maestro`
+    `^ p` = `⌥ ←` Move to Prev Word <sup>_custom_</sup>
+    `^ n` = `⌥ ←` Move to Next Word <sup>_custom_</sup>
+    `^ w` = `⌥ ⌫` Del Preceding Word <sup>_custom_</sup>
+    `^ u` = [ `^ a`, `^ k` ] Del the Whole Line <sup>_custom_</sup>
+    `^ j` = `↩` Return <sup>_custom_</sup>
+
+    These modifications can be supported in `Karabiner-Elements` too.
+
+- Ref : [Keyboard Shortcuts ( Emacs ) for Editing Text Fields in OS X](http://jblevins.org/log/kbd)
 
 ### Input Methods
 
@@ -559,6 +564,13 @@ Changes not only the shortcuts but also the keyboard key-remappings!
 
 - Quit
     `⌘ q, ⌘ q` Double tap `⌘ q` to send one real keystroke `⌘ q`
+
+- Profile
+
+    `⌘ ⌥ ^ ⇧ 1` Switch to the __default__ setting profile ( without all custom key-remapping )
+    `⌘ ⌥ ^ ⇧ 2` Switch to the __custom_mac__ setting profile
+    `⌘ ⌥ ^ ⇧ 3` Switch to the __custom_hhkb__ setting profile
+    They're used to toggle the custom setting profile for the guest who need to use my Mac temporarily.
 
 - Input Methods
     Lf `^` = `⌥ 凵` Switch Input Methods
