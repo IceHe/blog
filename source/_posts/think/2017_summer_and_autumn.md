@@ -1,10 +1,13 @@
-title: 2017 夏秋与冬
-date: 2018-10-18
-updated: 2017-10-19
+title: 2017 夏秋冬
+date: 2017-11-30
 categories: [think]
 tags: [think]
-description: 五月至十二月，夏秋冬事记。
+description: 五月至十二月，夏秋冬事记「譬如朝露，去日苦多」
 ---
+
+{% cq %}
+譬如朝露，去日苦多
+{% endcq %}
 
 ## 长发
 

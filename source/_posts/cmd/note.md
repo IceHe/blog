@@ -1,5 +1,5 @@
 title: 命令行笔记
-date: 2017-11-30
+date: 2018-11-30
 noupdate: true
 categories: [Cmd]
 tags: [Cmd]
