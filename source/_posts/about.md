@@ -35,7 +35,7 @@ nocopyright: true
 - __: P__
     - <i class="fa fa-fw fa-camera-retro"></i> [回忆](/moments)
         <sup>Good old days</sup>
-    - <i class="fa fa-fw fa-pencil"></i> [旧文](/think/old_blog)
+    - <i class="fa fa-fw fa-pencil"></i> [旧文](/old_blog)
         <sup>为赋新词强说愁</sup>
 
 ---
