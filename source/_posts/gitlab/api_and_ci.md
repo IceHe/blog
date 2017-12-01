@@ -30,6 +30,30 @@ description: Office Automatic &#58; 主要使用 API、CI 等。CI 即 Continuou
 
 ---
 
+### All Branches
+
+``` bash 使用
+curl --header "PRIVATE-TOKEN: [private_token]" \
+https://[gitlab_domain]/api/v4/projects/[project_id]/repository/branches
+```
+
+``` bash 实例
+curl --header "PRIVATE-TOKEN: 9koXpg98eAheJpvBs5tK" \
+https://gitlab.example.com/api/v4/projects/5/repository/branches
+```
+
+### Single Branch
+
+``` bash 使用
+curl --header "PRIVATE-TOKEN: [private_token]" \
+https://[gitlab_domain]/api/v4/projects/[project_id]/repository/branches/[branch_name]
+```
+
+``` bash 实例
+curl --header "PRIVATE-TOKEN: 9koXpg98eAheJpvBs5tK" \
+https://gitlab.example.com/api/v4/projects/5/repository/branches/master
+```
+
 ## GitLab CI
 
 <https://docs.gitlab.com/ee/ci/>
