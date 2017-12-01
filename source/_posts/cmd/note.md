@@ -158,3 +158,9 @@ rsync -goDp
 - bash
 .bashrc
 scrpit
+
+### lock
+
+chattr +i file
+chattr -i file
+lsattr 查锁
