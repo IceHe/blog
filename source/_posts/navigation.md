@@ -108,9 +108,9 @@ nocopyright: true
 ## [Who am I 我是谁](/categories/whoami)
 
 - [__CV 简历__](/about/)
-- [IceHe's CV](/about_en/)
+<!-- - [IceHe's CV](/about_en/) -->
 - [回忆](/moments/)
-- [旧博索引](/think/old_blog/)
+- [旧博索引](/old_blog/)
 - [打赏博主](/reward)
 
 ---

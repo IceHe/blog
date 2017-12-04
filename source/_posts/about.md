@@ -35,7 +35,7 @@ nocopyright: true
 - __: P__
     - <i class="fa fa-fw fa-camera-retro"></i> [回忆](/moments)
         <sup>Good old days</sup>
-    - <i class="fa fa-fw fa-pencil"></i> [旧文](/think/old_blog)
+    - <i class="fa fa-fw fa-pencil"></i> [旧文](/old_blog)
         <sup>为赋新词强说愁</sup>
 
 ---
@@ -202,9 +202,9 @@ __优职英才（北京）教育科技公司 - 市场部 - 实习生__&emsp;_201
 - 筹划执行校园推广活动，运营微博营销号，参与文案内容制作
 - 于广州各高校执行 15+ 场推广公司品牌的讲座、交流会、公开课
 
----
+<!-- --- -->
 
-- _TODO_ : [_CV English Ver._](/about_en)
+<!-- - _TODO_ : [_CV English Ver._](/about_en)-->
 
 ---
 
