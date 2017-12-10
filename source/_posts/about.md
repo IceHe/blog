@@ -1,6 +1,6 @@
 title: CV 简历
 date: 2015-01-20
-updated: 2017-11-16
+updated: 2017-12-07
 categories: [whoami]
 tags: [whoami]
 description: IceHe 的经验、技能、教育 & 其它：微博移动应用服务 / 服务端 / PHP；华南理工 / 软件工程 / 本科 …
@@ -100,10 +100,11 @@ __<i class="fa fa-fw fa-weibo"></i> [微梦创科网络技术（中国）有限�
     - 维护开发环境的 Docker 镜像，审核代码，改进工作流程，管理迁移进度，编写相关文档
     - 工作流程自动化（CI 持续集成、定时任务、事件任务、自动脚本命令）：
         - 自动上线（GitLab CI, Jenkins CI）、发布日志回写（Release Note）、上线公告（Email）
-        - 提测通知（Email）、Issues 管理（Issue Board）、清理无用的仿真或正式包（Branche, Tag）
+        - 提测通知（Email）、Issue 管理（Issue Board）、清理无用的仿真或正式包（Branch, Tag）
         - 语法检查（PHPLint）、代码风格检查（PHPCS）、单元测试（PHPUnit）
         - 生成代码覆盖率报告（PHPUnit）和 API 文档（Sami）、文档网站更新（CI, Pages, Hexo）
         - 自动重试因 Runner 'System Failed' 异常而失败的 CI Job（Event, Webhook）
+        - 按条件过滤 issues 自动生成各类的接口清单、发送提测邮件
         - 使用 GitLab 的 API、CI & Runner，crontab 定时任务、Bash 脚本，优化 CI 运行效率
         - 编写项目内部定制的命令行工具（Symfony Console Command）
 - 2016.04 ~ 2016.08 参与「[微博头条](https://itunes.apple.com/cn/app/wei-bo-tou-tiao/id713957166)」的服务端 API 及其 CMS 后台的开发与维护：
