@@ -13,7 +13,6 @@ description: Bulid Blog&#58; Why 初衷、How 过程，Hexo 建站，Theme 主�
 {% endcq %}
 
 - __进阶文章__《 [__折腾个人博客__](/web/blog_changelog) 》
-- 本文旧版《 [Why and How to bulid my blog? 搭建我的个人博客](/old_version_posts/Why_and_how_to_build_my_blog.html) 》
 
 # 后记
 
