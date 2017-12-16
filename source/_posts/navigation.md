@@ -1,6 +1,6 @@
 title: 博客导航
 date: 2015-12-20
-updated: 2017-08-01
+updated: 2017-12-16
 categories: [read]
 tags: [read]
 description: Navigation&#58; PV Top N 热榜、文章分类列表。
@@ -93,6 +93,7 @@ nocopyright: true
 
 ## [Think 思考](/categories/think)
 
+- [2017 夏秋冬](/think/2017_from_summer_to_winter)
 - [2017 春](/think/2017_spring)
 - [2016 冬](/think/2016_winter)
 - [2016 秋](/think/2016_fall)
