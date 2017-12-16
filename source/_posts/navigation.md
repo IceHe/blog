@@ -87,8 +87,8 @@ nocopyright: true
 
 ## [Web](/categories/Web)
 
+- [折腾个人博客](/web/blog_changelog/)
 - [搭建个人博客](/web/build_blog/)
-- [折腾个人博客](/web/blog_changelog/) <sup>__New__</sup>
 - [实现网站的打赏功能](/web/donate)
 
 ## [Think 思考](/categories/think)
