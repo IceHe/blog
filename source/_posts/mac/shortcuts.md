@@ -113,7 +113,8 @@ description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
 - Power
     `` Wake Up
     `⌘ ⌥ ` Sleep
-    `^ ⇧ ` | `⌘ ^ ` Display Sleep
+    `^ ⇧ ` Display Sleep
+    `⌘ ^ q` Lock Screen ( Display doesn't sleep )
 
     `^ ` Shut Down
     ( Then you can choose to Sleep or Restart in the prompt dialog box. )
