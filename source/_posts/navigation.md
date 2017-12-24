@@ -1,6 +1,6 @@
 title: 博客导航
 date: 2015-12-20
-updated: 2017-08-01
+updated: 2017-12-16
 categories: [read]
 tags: [read]
 description: Navigation&#58; PV Top N 热榜、文章分类列表。
@@ -87,18 +87,19 @@ nocopyright: true
 
 ## [Web](/categories/Web)
 
+- [折腾个人博客](/web/blog_changelog/)
 - [搭建个人博客](/web/build_blog/)
-- [折腾个人博客](/web/blog_changelog/) <sup>__New__</sup>
 - [实现网站的打赏功能](/web/donate)
 
 ## [Think 思考](/categories/think)
 
+- [2017 夏秋冬](/think/2017_from_summer_to_winter)
 - [2017 春](/think/2017_spring)
 - [2016 冬](/think/2016_winter)
 - [2016 秋](/think/2016_fall)
 - [2016 春夏](/think/2016_summer)
 - [再见 2015](/think/bye2015)
-- [生活指南](/think/life_manual)
+- [生活经验](/think/life_exp)
 
 ## [Time Mgt. 时间管理](/categories/time-mgt)
 

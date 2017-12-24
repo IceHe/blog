@@ -379,7 +379,6 @@ __Albert Einstein__
     - [做事的方法](/read/how_to_do.html)
     - [减肥每天需要摄入多少卡路里](/read/calorie.html)
     - [《The Power of Less》书摘](/read/power_of_less.html)
-    <!-- - [毽球踏球](/read/jian_qiu.html) -->
 
 ## 后记
 
