@@ -99,7 +99,7 @@ nocopyright: true
 - [2016 秋](/think/2016_fall)
 - [2016 春夏](/think/2016_summer)
 - [再见 2015](/think/bye2015)
-- [生活经验](/think/life_exp)
+- [生活指南](/think/life_manual)
 
 ## [Time Mgt. 时间管理](/categories/time-mgt)
 
