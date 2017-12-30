@@ -1,6 +1,6 @@
 title: 最喜爱的
 date: 2015-11-19
-updated: 2017-11-15
+updated: 2017-12-30
 categories: [read]
 tags: [read]
 description: Favorites&#58; 我最喜欢的书籍、电影、电视剧、动画、游戏…
@@ -187,6 +187,12 @@ __《论语·述而》__
     萌~
 - <span class="val_pos icon-douban"> &nbsp;[__其它看过的片__](http://movie.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
     用豆瓣记录所有看过的片意义不大还麻烦，以后只在博客此处做记录。
+    
+# 轻小说
+
+- __Overload__
+- __龙王的工作__
+- __为了女儿，我说不定连魔王都能干掉。__
 
 # 游戏
 
