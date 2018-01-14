@@ -1,5 +1,5 @@
 title: 如何学习
-date: 2018-12-30
+date: 2018-01-14
 updated: 2018-12-30
 noupdate: false
 categories: [read]
@@ -10,7 +10,6 @@ description: 《How to Study&#58; A Brief Guide》的译文，将在（有生之
 - 原文：How to Study: A Brief Guide
 - 链接：<https://www.cse.buffalo.edu//~rapaport/howtostudy.html>
 - 翻译始于原文 2017 年 7 月 5 日周三更新的版本。
-- 文章突然就不允许外网用户访问了…… 吐血。放弃治疗了。
 
 ---
 
@@ -20,8 +19,6 @@ description: 《How to Study&#58; A Brief Guide》的译文，将在（有生之
 - 记于 2017-12-30。
 
 ---
-
-# 如何学习
 
 - 大纲和索引：
     1\. 引言
@@ -36,7 +33,7 @@ description: 《How to Study&#58; A Brief Guide》的译文，将在（有生之
     10\. 是不是以上所有的事你都得去做？
     11\. 其它能给予学习技巧建议的网站？
 
-## 1. 引言
+# 引言
 
 每个人都声称自己有着不同的「[学习风格](http://www.ldpride.net/learning-style-test.html)」
 
@@ -45,13 +42,46 @@ description: 《How to Study&#58; A Brief Guide》的译文，将在（有生之
     - ["Learning Styles" (Wikipedia)](https://en.wikipedia.org/wiki/Learning_styles)（「学习风格」（维基百科））,
     - [Keirsey Temperament and Character Web Site](http://keirsey.com/)（性格测试网站）,
     - [William Perry's Scheme of Intellectual and Ethical Development](https://www.cse.buffalo.edu//~rapaport/perry-positions.html) （智力模板和伦理发展？）,
-    - Holland 1966,
-    - Kolb 1984,
-    - Sternberg 1999.
-    - For some online tools targeted at different learning styles, see "100 Helpful Web Tools for Every Kind of Learner".
+    - [Holland 1966](#参考资料),
+    - [Kolb 1984](#参考资料),
+    - [Sternberg 1999](#参考资料).
+    - For some online tools targeted at different learning styles, see "100 Helpful Web Tools for Every Kind of Learner".（一些配合不同学习风格的在线工具，详见《100 个对各种类型学习者有效的网页工具》）
+- 然而，并没有证据支持这些做法。主要的相关研究有 [Pashler et al. 2009](#参考资料)；也可以参考 [Glenn 2009/2010](#参考资料)。
 
+但每个人确实拥有不同的「学习风格」。
 
-## 参考资料
+__更重要的是，你现在正在使用的学习方法可能并是不最适合你的学习方法__：
+怎么知道？很简单：如果你的成绩不符合你的期望，那么你很可能需要调整你的学习方法！
+
+在我们开始之前，由一个重要的说明：
+__「学习」并不等同于「做作业」！__
+
+学习的内容可能包括做作业，但是它还包括许多其它的内容，接下来你将会了解到这些内容。
+（所以如果你说你没有作业，因此没法学习或者没必要去学习，这是错误的！）
+
+我将会在如何有效率地学习上给你一些建议。在我读高中、大学、研究所时，这些建议都是有效的。
+不单只这样，它们对我学习的人文课程（例如哲学、文学）跟科学课程（例如数学、计算机科学）同样有效。
+
+但是因为每个人的学习风格可能有所不同，所以我的一些建议可能对你没有效果，至少不针对自身情况做出一些调整的话会是这样的。
+尽管这样，我还是强烈推荐你去尝试一下我的建议。大部分成功的学习都在使用这些方法（或者只有其中一小部分……）。
+
+请将对你有效的学习建议 [用电邮发给我](mailto:rapaport@buffalo.edu)，我会试着将它们纳入本指南的后续版本里。
+
+---
+
+# 管理你的时间
+
+在校生是一个全职的工作，管理好你的时间很重要。
+
+- 如果你上课之后还有一个用来消遣（或者挣额外零花钱）的「真正的」工作，或者你参加了额外的（学校相关或者无关的）课程活动，要把你的优先级谨记在心中：
+    __你的教育（学习）应该摆在第一位！__
+- 如果你（为了收支平衡）必须工作，以应该认识到它施加在你学习时间上的限制。
+
+你应该贡献多少时间在学习上？一个最近的 [高等教育编年史的研究](https://www.cse.buffalo.edu//~rapaport/che.homework.html) 显示学生没有花足够的时间在学习上。所以，多少时间算是足够
+
+---
+
+# 参考资料
 
 - Adams, Dennis (2006), "Wireless Laptops in the Classroom (and the Sesame Street Syndrome)", Communications of the ACM 49(9; September): 25-27.
 - Belluck, Pam (2011), "Take a Test to Really Learn, Research Suggests", New York Times (21 January): A14.
