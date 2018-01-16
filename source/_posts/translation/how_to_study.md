@@ -23,7 +23,7 @@ description: 《How to Study&#58; A Brief Guide》的译文，将在（有生之
 - 大纲和索引：
     1\. 引言
     2\. 管理你的时间
-    3\. 在课堂做笔记，在家里重写笔记
+    3\. 在课堂做笔记，在家重写笔记
     4\. 先学习困难的部分，在安静的地方学习
     5\. 有意识地、缓慢地阅读内容，课前和课后
     6\. 做你的作业
@@ -98,6 +98,22 @@ __「学习」并不等同于「做作业」！__
 - …… 或者在 Google 上搜索 ["time management"（时间管理）](http://www.google.com/search?hl=en&q=time+management)来找些新方法。
 - 有一堆漂亮的可打印的网络日历、日程表等，可以在 [ePrintableCalendars.com](http://www.eprintablecalendars.com/) 和 [timeanddate.com](https://www.timeanddate.com/) 上找到。
 - Marie, Niclas (2014), ["Tips for Making & Following a Study Schedule"](https://www.timecenter.com/articles/tips-for-making-and-following-a-study-schedule/)（制订并遵守学习日程表的窍门）
+
+---
+
+# 在课堂做笔记，在家重写笔记
+
+大纲和索引
+
+1\. 做笔记
+2\. 做完整的笔记
+3\. 使用缩写
+4\. 整洁但不用太讲究（TODO：纠正）
+5\. 提问 & 做备注
+6\. 在家重写笔记
+7\. 不要在电脑上做笔记
+8\. 不要依赖老师的课程笔记
+9\. 拓展阅读
 
 ---
 
