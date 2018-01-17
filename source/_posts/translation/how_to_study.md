@@ -33,7 +33,7 @@ description: 《How to Study&#58; A Brief Guide》的译文，将在（有生之
     10\. 是不是以上所有的事你都得去做？
     11\. 其它能给予学习技巧建议的网站？
 
-# 引言
+# 1. 引言
 
 每个人都声称自己有着不同的「[学习风格](http://www.ldpride.net/learning-style-test.html)」
 
@@ -69,7 +69,7 @@ __「学习」并不等同于「做作业」！__
 
 ---
 
-# 管理你的时间
+# 2. 管理你的时间
 
 在校生是一个全职的工作，管理好你的时间很重要。
 
@@ -101,27 +101,24 @@ __「学习」并不等同于「做作业」！__
 
 ---
 
-# 在课堂做笔记，在家重写笔记
+# 3. 在课堂做笔记，在家重写笔记
 
-大纲和索引
+__大纲和索引：__
+1. 做笔记
+2. 做完整的笔记
+3. 使用缩写
+4. 不用太整洁
+5. 提问 & 备注
+6. 在家重写笔记
+7. 不要在电脑上做笔记
+8. 不要依赖老师的课程笔记
+9. 拓展阅读
 
-1\. 做笔记
-2\. 做完整的笔记
-3\. 使用缩写
-4\. 整洁但不用太讲究（TODO：纠正）
-5\. 提问 & 做备注
-6\. 在家重写笔记
-7\. 不要在电脑上做笔记
-8\. 不要依赖老师的课程笔记
-9\. 拓展阅读
-
----
-
-3.1. 做笔记
+## 3.1. 做笔记
 
 在家要获得好的学习效果，始于好的课堂笔记。正如每个人由不同的学习风格，不同的教师由不同的教学风格（还常常和学生的学习风格不一致！）：有的教师讲课，有的引导讨论，有的帮助学生独立研究（就像在实验室里那样），诸如此类。因此，不同的课堂配置就需要不同的笔记技术。不过这里的建议在大多数情况下都能通用。
 
-3.2. 做完整的笔记
+## 3.2. 做完整的笔记
 
 在课堂上记好笔记的关键点在于尽可能多地记录。有几个尽可能将笔记记完整的理由：
 
@@ -131,9 +128,60 @@ __「学习」并不等同于「做作业」！__
 
 你是应该专注于记笔记，还是应该专注于理解你正在学习的东西呢？似是而非的是，我站在「记笔记」这边，而非「先理解」那边。你可以迟些在回顾笔记的时候，想明白它们。但是如果你有的只是不完整的笔记，那就很难学习到那些没用笔记记录下来的东西。
 
-3.3. 使用缩写
+## 3.3. 使用缩写
 
 记录完整的笔记需要你写得很快，因此你需要用到缩写。这里有一些我用的缩写（许多是从我的学生和老是那里借鉴来的），对于「怎么去缩写」这个问题，希望能给你一些启发。如果你在手机上发短信，那么你应该会知道一些我接下来会说到的缩写。将它们用在做课堂笔记上！
+
+缩写 | 意思（以下采用英文原文）
+betw : between
+ccpt : concept
+cd : could
+compn : computation
+compnl : computational
+comp : complete
+dn : description
+fn : function
+h. : human
+...g (e.g., contg) : ...ing (continuing)
+...l (e.g., compnl) : ...al (computational)
+lg : language
+mn : mean
+mng : meaning
+...n (e.g., abbrvn) : ...tion (abbreviation)
+NB : note/note well/nota bene
+pn : proposition
+prop : property
+re : about (from Latin)
+reln : relation
+qn : question
+...r (e.g., compr) : ...er (computer)
+shd : should
+s.t. : something/sometimes (context should make it clear which you mean)
+stmt : statement
+thot : thought
+w/ : with
+w/o : without
+wd : would
+wh : which
+& : and
+∨ : or (this is a symbol from logic)
+¬ : not/negation sign (this is a symbol from logic)
+◇ : possible/possibly (this is a symbol from logic)
+⧠ : must/necessary/necessarily (this is a symbol from logic)
+∀ : all/for all/every (this is a symbol from logic)
+∃ : some/there is/there are/there exists (this is a symbol from logic)k
+
+一个相关的方法，基于称为「[速写](http://www.speedwriting.co.uk/)」的速记系统：曾经在纽约的地铁中有过广告，读起来就像是这样：
+
+> if u rd ths, u cn lrn spdwrtg
+
+关键的方法在于缩写，使用那些你能理解的缩写。你可以将一个未缩写的关键词记在笔记本的边缘，补充在任何新缩词出现的地方。
+
+## 3.4 不用太整洁
+
+另一个记笔记的关键点在于你的课堂笔记不必整洁；只要清晰到足够你在几小时（或者最多几天）后还能读懂就行。理由 [稍后](#copy) TODO：Link 就会说明。
+
+## 3.5 提问 & 备注
 
 ---
 
