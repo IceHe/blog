@@ -177,19 +177,189 @@ wh : which
 
 关键的方法在于缩写，使用那些你能理解的缩写。你可以将一个未缩写的关键词记在笔记本的边缘，补充在任何新缩词出现的地方。
 
-## 3.4 不用太整洁
+## 3.4. 不用太整洁
 
 另一个记笔记的关键点在于你的课堂笔记不必整洁；只要清晰到足够你在几小时（或者最多几天）后还能读懂就行。理由 [稍后](#copy) TODO：Link 就会说明。
 
-## 3.5 提问 & 备注
+## 3.5. 提问 & 备注
 
 如果你有疑问或者在记笔记的时候想到了些什么，你有两个选择：通过提问或发表评论，将它贡献到课堂讨论中。或者将它记下来，写在你的笔记上。我建议你选择做后者，但是也尽可能经常地做前者。一个理由是你将问题和批注写到笔记里，就不会忘了；你可以之后跟老师或同学一对一交流的时候，再将它们提出来。另一个理由是，如果你将它们在课堂上提出来，它们就会变成今天课堂笔记的一部分！有一个技巧能够在笔记里区分出我自己的问题或批注，那就是将它们放在笔记边缘，用大的方括号 `[` `]` 围在里头。`[像是这样。]`
 
 顺便一说，如果你有一个问题，特别是需要老师说明他说或写的内容时（可是是因为它们没法被听清楚、被看清楚的时候），就要去问！别因为尴尬或害羞而不去提问！我可以保证至少有另一个班上的同学（通常更多）感激你提出跟他们相同的疑问。因为他们太难为情了，所以不敢去问，他们会认为你很有智慧很勇敢，你的老师也会这么认为。
 
-## 3.6 在家重写笔记
+## 3.6. 在家重写笔记
 
+注意本节的标题是「在课堂做笔记，在家重写笔记」，而不是「在课堂做笔记，在家学习笔记」。当然你应该在家学习你的课堂笔记；但是不能只是重读它们，这样做就太被动了。本指南的其中一个主题是「学习必须是主动的」。只是被动地阅读实在是太简单了，会让你的思绪涣散甚至于睡着；而且笔记常常是不完整的、简略的；只是阅读这些笔记是没有帮助的。在记完笔记的几天或几个月后，它们很可能会变得难以辨认和理解。最后，如果你不主动对你的笔记做一些处理，你就得冒上笔记无法重新组织或笔记错位之类的风险。
 
+我的建议你通过重写笔记的方式来学习笔记。为每一门课分别买一本笔记本以便做笔记。我建议用正式的笔记本（composition）或螺旋笔记本（spiral notebook），别用活页笔记本（looseleaf notebook），作为你的「永久」（也就是重写的）笔记。那么，尽可能快地在课后（最好是当晚或下一晚），将它拷贝到你的永久笔记本上。
+
+重写你的「原始」课堂笔记（使它们更清晰更有组织）背后的要旨是：重写笔记的行动是一种很好的学习方式！深入学习你的课堂笔记，可以在你完成更整洁、更清晰、更有组织、更完整的（cooked，重写的）笔记之后再去做。我会在 [之后](#examstudy) TODO: Link 给你怎样做的建议。
+
+趁你的记忆还清晰的时候，去填补你的记忆之间的鸿沟。你可能会发现你有许多疑问，或许是你遗漏或者无法理解的地方，甚至是意义重大的问题。如果这样，就很好！记录下你的问题，在下一堂课上询问！
+
+利用这个机会去将你的笔记以更有逻辑、更一致的方式组织起来。如果那看起来更合适的话，你可以用大纲的形式去写你的永久笔记：你没必要去尊崇官方或正式的提纲风格（例如用 I.A.1.(a)(i) 的格式，或至少要两个子小节而不能只有一个（有时显得挺蠢的）的规则），毕竟那是你自己的笔记。对我个人来说，我喜欢用「缩进列表」（indented bullet）的样式去将要点详细列举出来（将它们分成每行一条）：
+
+> 1\. Main idea 1
+>
+> - detail 1
+> - detail 2
+>   - further detail 2.1
+> - detail 3
+>   - further detail 3.1
+>   - further detail 3.2
+>
+> ---
+> 2\. Main idea 2
+>
+> ---
+> 3\. Main idea 3
+>
+> ---
+> etc.
+
+## 3.7. 不用在电脑上记笔记
+
+顺便一说，我不推荐在课堂上用笔记本电脑记笔记。当然除非你擅长用手指进行键盘打字、文本处理和编辑程序的操作，否则你不应该这么做。（无论如何，打字都是嘈杂的，容易让你的同学分神。）
+
+而且，用打字将你的笔记录入到电脑，可能和我 [重写课堂笔记的建议](#copy) TODO: Link 相冲突；虽然在电脑上重写可能在跟踪笔记的变更上有许多优势，特别是检索内容方面。当然你可以稍后用电脑编辑，但是编辑和重写（copy）是不一样的，我建议重写是因为这是一种有效的学习方法（首先它可以逼迫你重新阅读所有笔记）。当然你可以将原始笔记重写到更整洁的电脑文件里。可能只是因个人趣味而产生的偏差，但是我发现手写比打字更能让我对自己写的内容产生更深的理解。（正如 Usama Fayyad 说过的：计算机「更擅长记账，而不擅长记录即兴的创意、想法、感觉。因此，纸张仍然是更好的选择。你可以拿着、折叠、放到口袋，一会儿方便的时候再拿出来看」（在 Swerdlow 1999: 130 被引用））此外，笔记的主要用途应该是总结知识然后作为考试时的学习指引。这种情况下，手写的笔记跟线上的笔记一样好用，特别是你想只通过剪裁、粘贴来做成一份总结时，比重写要方便。
+
+糟糕的是，你可能表面上是在用电脑做笔记，但是被诱惑去上网冲浪、查看邮件、和朋友聊天了。所以请不用这样做！（有一个关于这个话题的有趣争论，请看 [Adams 2006](#参考资料)）
+
+由于以上的原因，请在课堂上关闭你的电脑。当然还有你的智能手机等电子设备，反正是任何会使你分心的东西。理由如下：
+
+- Bugeja, Michael J. (2007), "Distractions in the Wireless Classroom"（在有无线网络的教室里分神）, Chronicle of Higher Education (26 January): C1,C4.
+- Zhu, Erping; Kaplan, Matthew; Dershimer, R. Charles; & Bergom, Inger (2011), ["Use of Laptops in the Classroom: Research and Best Practices"](http://www.crlt.umich.edu/publinks/CRLT_no30.pdf)（在教室里使用笔记本电脑：研究与最佳实践）, CRLT Occasional Papers No. 30 (University of Michigan Center for Research on Learning and Teaching).
+- Mueller, Pam A.; & Oppenheimer, Daniel M. (2014), "The Pen Is Mightier than the Keyboard: Advantages of Longhand over Laptop Note Taking"（笔比键盘更强有力：普通书写做笔记的优势超过笔记本电脑）, Psychological Science 25(6): 1159–1168; summarized at [Journalist's Resource](http://journalistsresource.org/studies/society/education/longhand-versus-laptop-note-taking).
+- Klass, Perri (2016), ["Why Handwriting Is Still Essential in the Keyboard Age"](http://well.blogs.nytimes.com/2016/06/20/why-handwriting-is-still-essential-in-the-keyboard-age/)（为什么在键盘时代手写依然至关重要）, New York Times (20 June).
+
+## 3.8. 不要依赖老师的课堂笔记
+
+有些老师会提供他们自己的课堂笔记，它们通常是网页或 PPT（或者其它格式）。它们可能有用，但是你不应该依赖它们。如果你做的只是将它们打印出来，也许会读一遍然后保存起来，那么它们是没用的，因为你只是在被动地使用它们。你需要将它当做自己的课堂笔记来对待：重写它们！更好的用法是：用老师的笔记来填补你自己重写的课堂笔记和它们之间的差距，去检查你自己笔记中的任何错误。（你可能会在老师的笔记中找到课堂上没被讨论的内容，或者课堂上讨论到但老师准备好的笔记却没提到的内容。）
+
+## 3.9. 拓展阅读
+
+- Pappano, Laura (2008), ["Strategy: Notetaking—To Survive the Lecture Course, Take Heed if the Professor Waves His Arms"](http://www.nytimes.com/2008/01/06/education/edlife/strategy.html?ref=edlife)（记笔记的策略——为了在在课堂上存活，当教授的手臂挥动时要留意）, New York Times Education Life (6 January): 6.
+- Hoffmann, Roald; & McGuire, Saundra Y. (2010), ["Learning and Teaching Strategies"](http://www.americanscientist.org/issues/pub/learning-and-teaching-strategies/1)（学习和教学的策略）, American Scientist 98(5) (September-October): 378–382.
+    - The first of their "Six Learning Strategies" [(pp. 378–379)](http://www.americanscientist.org/issues/pub/learning-and-teaching-strategies/2) "is to take notes by hand" and "rewrite your notes, by hand".（他们的六条学习策略中的第一条，就是「靠手写记笔记，然后靠手写重写笔记」）
+    
+---
+
+# 4. 先学困难的内容，在安静的地方学习
+
+__先学困难的内容__。每晚（或白天）学习或做作业的时候，先做那些需要你聚精会神的部分。然后将简单的、更有乐趣的部分放到之后做。
+
+__在安静的地方学习__，尽可能少地分心。不用听音乐、看电视：如果其中一件事是学习的话，是几乎不可能同时做好两件事的。（为什么这么做很困难的证据是 —— 同时做两件事是不可能的（称为「多任务处理」））可以看：
+
+- [Willingham, Daniel T.](http://www.danielwillingham.com/) (2010), "Have Technology and Multitasking Rewired How Students Learn?"（技术与多任务处理是否和学生的学习方式重新产生了联系？）, Ask the Cognitive Scientist（认知科学家问道）, [American Educator](http://www.aft.org/newspubs/periodicals/ae/index.cfm) (Summer): 23–28, 42. [[PDF]](http://www.aft.org/pdfs/americaneducator/summer2010/Willingham.pdf)
+
+__你应该什么时候学习和做作业__？这会诱惑你将作业拖延到最后一分钟。这里有至少两个好理由去说服你尽可能早开始做作业而非拖到太阳下山后的晚上（尽管你应该在上完课后、做作业前先修整一下）：
+
+1. 这样可以给自己留下充足的时间，更好地完成作业。如果拖延，你就可能发现一个又一个任务花费的时间比你想象的更长。如果你更早地开始，在你放松前完成，你就能有足够的时间分给那些困难的任务（尽管这意味着你没有足够时间逛 Facebook 、玩电视游戏或阅读取乐）。一条通用的规则：不要先吃甜点！
+2. 在白天或在放松之后，你会更清醒；这是说在下课大约一个小时之后，而不是在即将睡觉之前。
+
+---
+
+# 5. 在课前和课后，积极主动且慢慢地阅读
+
+__大纲和索引：__
+1. 积极主动而非消极被动地阅读
+2. 慢慢地阅读
+3. 在页边的空白标注关键内容
+4. 在页边的空白记笔记
+5. 记到一本笔记本里
+6. 第一次先快速、被动地略读
+7. 在课前和课后阅读
+
+---
+
+## 5.1. 积极主动而非消极被动地阅读
+
+从字面上看，我的意思就是，无论你读的是什么都应该这么做：可能是一本课本、一部虚构小说、一首诗、一篇随笔、一篇来自日记或杂志的文章，甚至是课堂上发的参考资料。
+
+如果你只是阅读但是不去思考，我可以保证最终你的思绪会涣散，眼光会游离，甚至睡着 —— 这只能算是自我催眠的一种形式而不是学习。所以你必须积极主动地去阅读。用计算机的术语说，你必须将处于惰性介质的纸上文本，转换成交互性介质的，在这种状态下，你才可以与文本内容进行「会话」，才有可能与作者「进行对话」。
+
+## 5.2. 慢慢地阅读
+
+「…… 一条无可辩驳的真理：对知识的追求，慢点可能更好。」
+—— Gleick, James (2011), The Information (New York: Pantheon): 404.
+
+积极主动地阅读的第一步就是「读……慢……点」。这里有一个用于阅读任何文本的算法（或者说是一套程序），无论任何学科，积极主动且慢慢地阅读：
+
+```
+    WHILE 有下一句要读，DO:
+        BEGIN { while }
+            「慢慢地」阅读它;
+            IF 你看不懂它的意思，THEN
+                BEGIN { if }
+                    「慢慢地」重读前一段内容；
+                    再「慢慢地」重读之前看不懂的句子；
+                    IF 你仍然不懂，THEN
+                        问你的同学，让他解释一下；
+                    IF 你仍然不懂，THEN
+                        问你的助教（Teaching Assistant），让他解释一下；
+                    IF 你仍然不懂，THEN
+                        问我（你的老师）；
+                    IF 你在上更高级的课程 & 你仍然不懂，THEN
+                        写一篇相关的论文（paper）！
+                END { if } 
+        END; { while }
+```
+
+只要遵守这个算法读完所有的内容，你就算是全部看懂了。
+
+对于那些不熟悉如何阅读结构化的计算机程序的人来说，我再解释一下上文是什么意思：在 `while` 语句里，如果一开始的判断条件是「否」的话，接下来的其它语句就不会被执行。所以，如果你执行到这段程序的开头或中间，看下一条语句，然后执行它就好，换句话说就是请「慢慢读阅读下一句」。不管怎样，只要你阅读完所有内容（希望你现在能够理解所有内容的意思），那么你就算完成任务了。（像是 `{ while }` 的写法，只是电脑编程用的符号标记，是帮助人理解程序用的，但是编译时会被电脑忽略。）
+
+这个算法有三个主要的优点：
+
+1. 它强迫你在阅读下一个句子之前，积极主动地思考你当前读的句子的意思。
+2. 它减慢了你的阅读速度，以避免你跳过那些你不能理解的地方。对数学、科学这些学科来说，这特别重要。
+3. 它有助于你从老师那里获取帮助，因为你明确告诉了老师你是在哪里开始迷失的。这总比粗暴地告诉老师你读不懂这一大堆材料要好。
+4. 注意：这给你提供了跟老师、同学交流的机会。
+
+怎样知道你是否理解了你读的东西？很简单：在读每个句子之后，问自己「为什么？」（Pressley & El-Dinary 1992）
+
+更多关于「慢读」的信息如下：
+
+1. Pressley, Michael, & El-Dinary, Pamela Beard (1992), "Memory Strategy Instruction that promotes Good Information Processing"（改善信息处理的记忆策略用法）, in Douglas J. Herrmann, Herbert Weingartner, Alan Searleman, & Cathy McEvoy (eds.), Memory Improvement: Implications for Memory Theory（改善记忆：记忆理论的影响）(New York: Springer-Verlag): 79-100.
+2. [Fletcher, Lancelot R.](http://www.freelance-academy.org/) (1994), ["Slow Reading Lists (and the Meaning of Slow Reading)"](http://www.freelance-academy.org/slowread.htm)（慢读清单（以及慢读的意义））
+    - 注意：如果你打开以上的链接，向下滚动到一半的位置，就能看到「What Do I Mean by "Slow Reading"?」（我指的「慢读」是什么？）这一节。
+3. Hartman, Geoffrey H. (1996), "The Fate of Reading Once More"（再读一次的命运）, PMLA (Proceedings of the Modern Language Association) 111(3) (May): 383-389; see especially p. 386.
+4. [Daly, Robert](http://wings.buffalo.edu/english/faculty/daly/) (2003), "Slow Reading: Why it Matters, How to Do It, How to Teach It"（慢读：为什么它有用，怎么去做，怎么去教）
+5. Waters, Lindsay (2007), ["Time for Reading"](http://www.cse.buffalo.edu/~rapaport/Papers/Papers.by.Others/waters07-che-time4rdg.pdf)（阅读的时间）, Chronicle of Higher Education 53(23) (9 February): B6-B8.
+6. Bauerlein, Mark (2008), ["Online Literacy Is a Lesser Kind: Slow Reading Counterbalances Web Skimming"](http://chronicle.com/free/v55/i04/04b01001.htm), Chronicle of Higher Education 54(31) (19 September): B10-B11.
+7. Blessing, Kimberly A. (2013), ["I Re-Read, therefore I Understand"](http://philosophynow.org/issues/94/I_Re-Read_Therefore_I_Understand)（重读，因此理解）, [Philosophy Now](http://philosophynow.org/) No. 94 (January/February): 17.
+    - "René Descartes' advice on reading philosophy"（René Descartes 关于阅读观的建议）
+        1. 「如果你读的是小说，快速通读全文……」
+        2. 「投入更多注意力，通读第二遍……」
+        3. 「带着第二步时提出的问题和疑问，通读第三遍……」
+        4. 「如果还有一些部分难以理解，然后第四遍读就着重读这些部分……」 
+8. 速读无效的原因，如下：
+    - Adams, Cecil (1992), ["Does Speed Reading Training Actually Work?"](http://www.straightdope.com/columns/read/1021/does-speed-reading-training-actually-work)（速读训练真的有效吗？）, [The Straight Dope](http://www.straightdope.com/) (14 February).
+    - Zacks, Jeffrey M.; & Treiman, Rebecca (2016), ["Sorry, You Can't Speed Read"](http://www.nytimes.com/2016/04/17/opinion/sunday/sorry-you-cant-speed-read.html)（抱歉，你不可以速读）, New York Times (17 April): SR9.
+    
+## 5.3. 在页边的空白标注关键内容
+
+还有一些其它的关于积极主动阅读的小技巧。第一，当然是将重要或有趣的段落着重标注出来。有几种方法可以做到，最差的方法就是用黄色的马克笔来标注（粉红色或是其它任何你喜欢的颜色）。这么做主要的问题是你会倾向于将几乎每一句话都标注为重要或有趣的话。结果，每一页都变黄（粉红或其它颜色）了。因为所有的内容都被着重标注了，所以这没有达到「着重标注」的目的，什么都标注等于什么都没有标注；而且这还让书本变潮湿、卷曲、凌乱。
+
+一个稍微没那么乱但同样没用的方法就是用钢笔或铅笔去划下划线将重要或有趣的段落标注处理出来。我可以保证最后你也会给每页的每句话加上下划线，最终还是等于什么都没有标注出来。
+
+我建议的方法看起来也容易受到上述问题的影响，但是它有个内在的手段去克服这个问题，因此你大可放心重读，然后每次着重标注出不同的段落。这个技巧就是用竖线（右中括号 `]`）在页面空白的地方去着重标注某些内容。我喜欢在页面右侧的空白边缘去画一个巨大的右方括号：`]`（可能会竖跨好几行，用以标注多行的内容）。如果你想让标注的内容更突出，也可以 __\[__ 用左方括号去标注需要着重标注的内容的起始处，用右方括号标注结束处 __\]__，就像刚才我对这本句话所做的那样，记得还要在右侧的页面空白加上一个单独的大的右竖线 `]`。用这种方法，尽管你会陷入着重标注的陷阱，给每页的每句话加上着重标注，但至少你不会破坏书页。而且当你重读的时候，你就可以用不同的方法来标注更重要的内容（例如加下划线）。有时，我会在第二轮着重标注时，用双重括号 `]]`，然后用加下划线来作为第三轮着重标注的手段。如果你还是想要做的话，在第四轮标注的时候再用黄色马克笔吧。
+
+## 5.4. 在页边的空白做笔记
+
+你应该在页边的空白处做一些笔记（如果有足够的空间，并且书本也是你自己的）。我习惯在页面空白做一些交叉引用；例如，如果一个在第 20 页的段落和第 10 页的某一段内容有关联，我就会在第 20 页边缘的空白处写上「见 P.10」，同时在第 10 页边缘的空白处写上「见 P.20」。或者我会在页边留下某个关键词，用于提醒我一些重要的想法。
+
+但是现在假设几个月（或数年）之后，你想要找到那个相关的有趣段落，那么怎么找到它？当然你可以通过不断翻阅书本，直到找到为止，不过我喜欢的做法是给书本页面边缘的备注做一个统一的目录索引；我可以加一个词目（例如：10, 20），可以加在书本身的目录上（如果它有的话），或者在书末的空白页上。
+
+## 5.5. 记到一本笔记本里
+
+「着重备注」有让你倾向于标注所有内容的缺点，「在页边空白做笔记」有空间太小不便做笔记的缺点。「积极主动阅读」的最好方法是将批注记到一本笔记本里。除了可以（取代）「着重标注」，还可以将这些内容逐字抄录到笔记本。首先确保你的笔记本有完备的文本 [引用](http://www.cse.buffalo.edu/~rapaport/howtowrite.html#citations)（citation），用于列举参考文献，同时确保记下所有你摘录的段落的所在页数。最后记下它们的细节，包括段落旁的批注。（我有时会用钢笔或铅笔来批注。）
+
+如果你需要写学期报告、课题研究，这些笔记可以作为日后讨论的材料。为了这些目的，给你的笔记加好编号是很有用的。我以下的方法很好用：给你笔记的每一页用罗马数字编号（I, II 等），给你引用的段落（或者单独的批注）用阿拉伯数字编号（1, 2 等），给每条引用段落的批注（或者单独批注的批注）用英语字母编号（a, b 等）。那么你就可以通过标识符对任何一段文字进行引用（像是 XIV-7-b，也就是第七段引用的 b 批注，在笔记本的第 15 页），通过引用你就能很快地找到它。[见下文](#makeoutline)。TODO: Link
+
+## 5.6. 第一次先快速、被动地略读
+
+[之前](#active)，我曾经说过这个积极主动慢读的方法也有一个例外。如果要读的是文学作品（一个故事、小说、喜剧、诗歌，诸如此类的），那么通常最好的做法是第一次要连贯地通读，不要停顿，只要能体会其中的乐趣就够了，好让你了解它是关于什么的、怎么欣赏这部文学作品。（）
 
 ---
 
