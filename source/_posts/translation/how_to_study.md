@@ -241,7 +241,7 @@ wh : which
 - Pappano, Laura (2008), ["Strategy: Notetaking—To Survive the Lecture Course, Take Heed if the Professor Waves His Arms"](http://www.nytimes.com/2008/01/06/education/edlife/strategy.html?ref=edlife)（记笔记的策略——为了在在课堂上存活，当教授的手臂挥动时要留意）, New York Times Education Life (6 January): 6.
 - Hoffmann, Roald; & McGuire, Saundra Y. (2010), ["Learning and Teaching Strategies"](http://www.americanscientist.org/issues/pub/learning-and-teaching-strategies/1)（学习和教学的策略）, American Scientist 98(5) (September-October): 378–382.
     - The first of their "Six Learning Strategies" [(pp. 378–379)](http://www.americanscientist.org/issues/pub/learning-and-teaching-strategies/2) "is to take notes by hand" and "rewrite your notes, by hand".（他们的六条学习策略中的第一条，就是「靠手写记笔记，然后靠手写重写笔记」）
-    
+
 ---
 
 # 4. 先学困难的内容，在安静的地方学习
@@ -301,7 +301,7 @@ __大纲和索引：__
                         问我（你的老师）；
                     IF 你在上更高级的课程 & 你仍然不懂，THEN
                         写一篇相关的论文（paper）！
-                END { if } 
+                END { if }
         END; { while }
 ```
 
@@ -332,11 +332,11 @@ __大纲和索引：__
         1. 「如果你读的是小说，快速通读全文……」
         2. 「投入更多注意力，通读第二遍……」
         3. 「带着第二步时提出的问题和疑问，通读第三遍……」
-        4. 「如果还有一些部分难以理解，然后第四遍读就着重读这些部分……」 
+        4. 「如果还有一些部分难以理解，然后第四遍读就着重读这些部分……」
 8. 速读无效的原因，如下：
     - Adams, Cecil (1992), ["Does Speed Reading Training Actually Work?"](http://www.straightdope.com/columns/read/1021/does-speed-reading-training-actually-work)（速读训练真的有效吗？）, [The Straight Dope](http://www.straightdope.com/) (14 February).
     - Zacks, Jeffrey M.; & Treiman, Rebecca (2016), ["Sorry, You Can't Speed Read"](http://www.nytimes.com/2016/04/17/opinion/sunday/sorry-you-cant-speed-read.html)（抱歉，你不可以速读）, New York Times (17 April): SR9.
-    
+
 ## 5.3. 在页边的空白标注关键内容
 
 还有一些其它的关于积极主动阅读的小技巧。第一，当然是将重要或有趣的段落着重标注出来。有几种方法可以做到，最差的方法就是用黄色的马克笔来标注（粉红色或是其它任何你喜欢的颜色）。这么做主要的问题是你会倾向于将几乎每一句话都标注为重要或有趣的话。结果，每一页都变黄（粉红或其它颜色）了。因为所有的内容都被着重标注了，所以这没有达到「着重标注」的目的，什么都标注等于什么都没有标注；而且这还让书本变潮湿、卷曲、凌乱。
@@ -390,7 +390,7 @@ __提纲：__
 4. 做一份学习提纲
 5. 编写模拟论文和模拟考题
 6. 做「记忆卡片」
-7. 在你感到自信满满时停止学习
+7. 在你有信心时停止学习
 
 ---
 
@@ -427,7 +427,7 @@ __提纲：__
 --------- | 下午 | 复习科目 #2 或 #3
 --------- | 晚上 | 复习科目 #1
 第 3 天 | 上午 | 复习科目 #1
---------- | 下午 | 考试 #1 
+--------- | 下午 | 考试 #1
 --------- | 晚上 | 复习科目 #2
 第 4 天 | 上午 | 复习科目 #3
 --------- | 下午 | 复习科目 #2
@@ -448,8 +448,28 @@ __提纲：__
 
 有一种比消极被动重读更好的学习方法就是「阅读——背诵——回顾」方法（read-recite-review, "3R"）：「阅读内容，然后将内容放到旁边，开始大声背诵记得的内容（你可以的），然后再读内容第二遍。」(McDaniel et al. 2009)
 
-更重要的是，
-  
+更重要的是，__比起反复的阅读，你更能从反复的测试中学得更好、记得更多__（无论是从课堂小测还是从在家的自测中）（Karpicke et al. 2009）。（所以当你的老师给你大量的小测，或者让你去背诵基础知识时，不要去抱怨！那是习得和记忆的最好方法。）
+
+接下来几个小节会给你一些如何做到的建议。
+
+## 7.4. 做一份学习提纲
+
+根据你重写后的课堂笔记，还有着重标记过的资料和笔记本，去做一份这些材料的提纲。尽可能将它们写到一到两页内（就像是校园书店里经常卖的小抄）。然后根据这份提纲来学习。（你甚至可以结合记忆卡片（[flash cards](#flash) TODO: Link）结合这提纲来学习。）
+
+## 7.5. 编写模拟论文和模拟考题
+
+对于那些需要写论文的科目，你可以猜老师要出的文章题目，再补充（多猜）一些可能出的文章题目，或者从别处得到了有文章题目的旧试卷。尽管你编或找到的文章题目可能并不会出现在实际的考试内容里，但是你很可能在写模拟论文来做考试准备的过程中，找到很多可以在实际考试中重用的文章素材。然后你在考试就能处在有利的位置（有备无患），考试的文章题目可能与你猜的不同，以致不得不需要重新临场考虑怎么写，但是你可以从写过的模拟论文的片段中获得一些启发。
+
+对于那些要你解答问题或写证明过程的科目，解答课本里的大量样题，或者其它的习题（[Schaum's Outline Series](http://www.mhprofessional.com/category/?cat=145) ([McGraw-Hill](http://www.mcgraw-hill.com/))在这方面，这个系列的书通常是不错的选择）。那么你如何确认你的答案是对是错呢？最好的方法是成立一个两人或以上同学构成的学习小组：解答相同的习题，然后对比答案。如果你的答案被其它人认同，那么它就很可能是对的；否则找助教或老师求助。正如「[慢读](#slow)」TODO: Link 那样，最好是你有一个具体明确的问题的时候再去寻求老师的帮助。
+
+## 7.6. 做「记忆卡片」
+
+
+
+## 7.7. 在你有信心时停止学习
+
+如何知道怎样算是学习（准备）够了呢？当然不是你对学习感到疲惫的时候！也不是你看完一次学习材料的时候！你只有在感觉自信满满，无论考卷上出现什么你都准备好了的时候，才能停止考试的复习 —— 当你急切想要去考试，看看题目是不是都被你猜到了的时候。
+
 ---
 
 # 参考资料
