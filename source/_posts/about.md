@@ -1,6 +1,6 @@
 title: CV 简历
 date: 2015-01-20
-updated: 2017-12-07
+updated: 2018-02-17
 categories: [whoami]
 tags: [whoami]
 description: IceHe 的经验、技能、教育 & 其它：微博移动应用服务 / 服务端 / PHP；华南理工 / 软件工程 / 本科 …
@@ -64,15 +64,15 @@ nocopyright: true
     <i class="fa fa-fw fa-star-o"></i> `CentOS 7` `Ubuntu`
 
 - __DB__
-    <i class="fa fa-fw fa-star-half-o"></i> __`MySQL`__
-    <i class="fa fa-fw fa-star-o"></i> `MS SQL Server 2008` `Oracle DB`
+    <i class="fa fa-fw fa-star-half-o"></i> `MySQL`
+    <i class="fa fa-fw fa-star-o"></i> `Redis` `MS SQL Server 2008` `Oracle DB`
 
 - __Web__
-    <i class="fa fa-fw fa-star-half-o"></i> __`HTML` `CSS` `jQuery`__
+    <i class="fa fa-fw fa-star-half-o"></i> `HTML` `CSS` `jQuery`
     <span><i class="fa fa-fw fa-star-o"></i> `Docker` `Nginx` <!--`Redis`--></span>
 
 - __脚本__
-    <i class="fa fa-fw fa-star-half-o"></i> __`AppleScript`__
+    <i class="fa fa-fw fa-star-half-o"></i> `AppleScript`
     <i class="fa fa-fw fa-star-o"></i> `Bash` `Batch file`
 
 - __Tools__
@@ -94,19 +94,22 @@ nocopyright: true
 ## <i class="hidden">微博移动 - 服务端开发</i>
 __<i class="fa fa-fw fa-weibo"></i> [微梦创科网络技术（中国）有限公司](https://zh.wikipedia.org/wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A) - 微博移动 - 服务端研发__&emsp;_2015.07 ~ 现在_
 
-- MAPI 微博移动服务技术部：[微博移动端](https://itunes.apple.com/cn/app/id350962117)（手机、平板）的服务端 API 和 CMS 后台的开发与维护
-    - 部门职责：[微博开放平台](http://open.weibo.com/) API 、各业务方与微博移动端（H5、客户端）之间的数据整合和适配对接
-    - 重构部门主项目「微博移动服务 API」，包括登录、HTTP 请求、请求参数处理、日志记录等模块
-    - 维护开发环境的 Docker 镜像，审核代码，改进工作流程，管理迁移进度，编写相关文档
-    - 工作流程自动化（CI 持续集成、定时任务、事件任务、自动脚本命令）：
-        - 自动上线（GitLab CI, Jenkins CI）、发布日志回写（Release Note）、上线公告（Email）
-        - 提测通知（Email）、Issue 管理（Issue Board）、清理无用的仿真或正式包（Branch, Tag）
-        - 语法检查（PHPLint）、代码风格检查（PHPCS）、单元测试（PHPUnit）
-        - 生成代码覆盖率报告（PHPUnit）和 API 文档（Sami）、文档网站更新（CI, Pages, Hexo）
-        - 自动重试因 Runner 'System Failed' 异常而失败的 CI Job（Event, Webhook）
-        - 按条件过滤 issues 自动生成各类的接口清单、发送提测邮件
-        - 使用 GitLab 的 API、CI & Runner，crontab 定时任务、Bash 脚本，优化 CI 运行效率
-        - 编写项目内部定制的命令行工具（Symfony Console Command）
+- 微博产品部 2017 年度优秀个人（MAPI 1/16，产品部 15/200+）
+- MAPI 微博移动服务技术部：开发维护移动端（主要指手机 [客户端](https://itunes.apple.com/cn/app/id350962117) 和 [H5](https://m.weibo.cn) 页）的 API 服务 及其 CMS 后台
+    - 部门职责：在 [微博平台](http://open.weibo.com/)、各业务方与移动端间，进行数据整合、适配对接、需求实现
+    - 重构部门主项目「微博移动端 API 服务」包括登录、HTTP 请求、日志记录等模块
+    - 审核代码及上线，改进工作流程，管理迁移（重构）进度，编写文档，维护开发环境的 Docker 镜像
+    - 工作流程自动化（CI 持续集成、自动任务、定时任务、固定流程一键完成）
+        - 一键上线（GitLab API & CI, Jenkins）、上线日志回写（Release Note）、上线公告（Email）
+        - 仿真环境：定时自动上线（crontab, GitLab Schedule）、定时自动通知提测（Email）、
+            Issue 管理（Issue Board）、定时自动清理代码库（Branch, Tag）
+        - 代码质量：语法检查（PHPLint）、代码风格检查（PHPCS）、单元测试（PHPUnit）
+        - 文档生成：覆盖率报告（PHPUnit）、API 文档（Sami）、自动更新文档网站（CI, Hexo）
+        - 项目工具：编写为项目定制的命令行工具（Symfony Console Command）
+        - CI 优化：调整 Runner 的配置项，定制项目专用的执行 CI Job 的 Docker 镜像，
+            禁止不必要的 Job，限制低优先级 Job 的执行频率（定时而非每次），缩短 CI 周期
+        - 异常处理：自动重试因 Runner 'System Failed' 异常而失败的 CI Job（Event, Webhook）
+        - ……
 - 2016.04 ~ 2016.08 参与「[微博头条](https://itunes.apple.com/cn/app/wei-bo-tou-tiao/id713957166)」的服务端 API 及其 CMS 后台的开发与维护：
     - 重构 频道订阅模块，维护 CMS 频道列表管理后台供产品运营人员使用
     - 重构 微博头条客户端行为日志记录模块，兼容微博客户端的行为日志格式
