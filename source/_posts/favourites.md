@@ -187,7 +187,12 @@ __《论语·述而》__
     萌~
 - <span class="val_pos icon-douban"> &nbsp;[__其它看过的片__](http://movie.douban.com/people/IceHeGZ/collect?sort=rating&start=0&mode=grid&tags_sort=count)
     用豆瓣记录所有看过的片意义不大还麻烦，以后只在博客此处做记录。
-    
+
+# 漫画
+
+- __初恋僵尸__
+- __官能先生__
+
 # 轻小说
 
 - __Overload__
