@@ -1,6 +1,6 @@
 title: 如何学习
-date: 2018-01-14
-updated: 2018-12-30
+date: 2018-12-20
+updated: 2018-02-20
 noupdate: false
 categories: [read]
 tags: [read]
