@@ -1,6 +1,6 @@
 title: 利器 - 软硬件推荐
 date: 2015-11-21
-updated: 2017-11-27
+updated: 2018-02-19
 categories: [Mac]
 tags: [Mac]
 description: Tools&#58; 推荐 macOS 和 iOS 的 Apps 以及日常使用的电子产品。
@@ -47,7 +47,7 @@ __荀子__
 ### 常用
 
 - 网络
-    - [__Shawdowsocks__](https://portal.shadowsocks.com/) <sup>Ladder</sup>
+    - [__Shawdowsocks__](https://portal.shadowsocks.to/) <sup>Ladder</sup>
         - 首选的科学上网（番羽土啬）方案：
             Shadowsocks 服务 + Mac 的 [__ShadowsocksX-NG__](https://github.com/shadowsocks/ShadowsocksX-NG) + 浏览器的 proxy 类插件：
             如 Chrome 的 [__SwitchyOmega__](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?hl=en)；可用 [__Surge__](https://nssurge.com/) 替换 ShadowsocksX-NG。
@@ -61,14 +61,18 @@ __荀子__
         GTD 事务管理。
         - 功能齐全、好用，用法可简可繁。快捷键完备！
         - 推荐使用 iCloud Reminders 的 CalDAV 同步方式（支持 2Do 绝大部分特性，足以满足我的需求）；Dropbox 的同步方式虽然可以支持 2Do 的所有特性，可是需要翻墙才能同步数据，iPhone 需要长期开着 VPN 略显麻烦。所以为了稳定和省心，选择了前一种同步方式。
-    - [__MindNode__](https://mindnode.com/)
+    - [__MindNode__](https://mindnode.com/) <sup>Flexible</sup>
         思维导图，归纳总结笔记。
         - 操作简便易上手，轻巧稳定。
         - 我原来用 Markdown 线性列表来做记录、归纳、总结，但是这样的话，内容再组织实在不灵活，不如思维导图灵巧。
-    - [__Notes__](https://support.apple.com/kb/PH22609?viewlocale=en_US&locale=en_JO)
+    - [__Notes__](https://support.apple.com/kb/PH22609?viewlocale=en_US&locale=en_JO) <sup>Simple</sup>
         Apple 自带的轻量级笔记应用。
         - 用于收集灵感和想法，做书摘、读书笔记和日记。因为它启动迅速，使用稳定便捷，所以更常使用它而非 Evernote。
-    - [__Evernote__](https://www.yinxiang.com/)
+    - [__nvALT__](http://brettterpstra.com/projects/nvalt/) <sup>Casual</sup>
+        macOS 上的草稿处理中心。随叫随到（快捷键齐备），迅速记录（操作简洁），检索便捷。
+        - 如果我用 Sublime Text 做一些随意的文字记录，要保留久一点都得保存成文件，难免在显眼的地方（例如桌面）看到一堆临时文件，过后的清理也麻烦，怕不小心删掉了别的有用的文件。
+        - 用 nvALT 的话，它会统一在暗处做文字记录的整理（除非导出文件），眼不见为净。
+    - [__Evernote__](https://www.yinxiang.com/) <sup>Rec Offline</sup>
         云笔记，第二大脑（知识管理）。
         - 好记性不如烂笔头，而如今知识更新之快，纸笔已跟不上，于是笔记软件大放异彩。云端存储同步笔记（同时定期备份整个硬盘），有备份就不怕丢；便于检索，甚至搜索图片中的文字。总是死记硬背没有出路，不能被检索的知识毫无意义。
         - 现在觉得值得离线记录的东西不多了，用 Google 搜索更便捷，而且还能获得更新更好的资料；值得沉淀的知识不断更新记录在博客就够了。
@@ -77,7 +81,7 @@ __荀子__
         - 其它选择：
             - [__~~有道云笔记~~__](https://note.youdao.come)：Evernote 迁移到其它平台比较简单，但 [有道云笔记](https://note.youdao.come) 导出的笔记格式经过加密、无法通用，很难迁移到别的平台，所以不推荐使用
             - [__为知笔记__](http://www.wiz.cn/)、[__Leanote__](https://leanote.com/)、[__Notion__](https://www.notion.so) …
-    - [__1Password__](https://agilebits.com/onepassword)
+    - [__1Password__](https://agilebits.com/onepassword) <sup>Privacy</sup>
         帐号密码管理，以及私人信息的加密存储。
         - 用一（两）个主密码管理所有其它密码。可生成随机密码，可记录登录网站时用的帐号密码，可自动填写表单登录网站。
         - 以前一直用不惯，觉得用浏览器自带的自动登录和 iCloud 的 [__KeyChain Access__](https://support.apple.com/kb/PH20093?locale=zh_CN) 来记录管理帐号和密码足矣，可是不便于保存一些私人信息。工作之后，经济独立，更加注意保护个人隐私和财产安全了，要管理的私人信息多而杂乱，所以不得不借助专用的工具。
@@ -206,10 +210,10 @@ __荀子__
         - Moom 用久了我形成了固定的习惯，主要用全屏、左右各半、左右 3/5 和居中等少数几种布局，只需要设置几个快捷键来触发对应操作就够了。
         - 参考：《[说说 Mac 分屏的事(2) - Moom 的10个技巧](http://zhuanlan.zhihu.com/MacTips/20258341)》
     - 替代用于 __用缩写加速文本输入__ 的 [__~~TextExpander~~__](https://textexpander.com/) <sup>Great</sup>、[__~~aText~~__](https://www.trankynam.com/atext/) <sup>Simple</sup>。
-        输入缩写时，会根据用户的设定模板来自动拓展输入的文本，以提升输入效率，特别是高频重复的词句。
+        输入缩写时，根据用户的设定模板来自动拓展输入的文本，提升输入效率，特别是高频使用的词句。
     - 替代用于 __稳定便捷地切换同一 App 的多个子窗口__ 的 [__HyperSwitch__](https://bahoom.com/hyperswitch) <sup>Best</sup>。
         - 这类应用的出现，是因为在某些 Apps 下，无法用系统的 <code>⌘ \`</code> 来切换其下的各个子窗口。
-        - 用触摸板三指下滑的手势或快捷键触发 App Expose，可以显示当前应用的所有窗口，然后点击选择其中一个进行切换，但是不够快捷。
+        - 当然可以用触摸板三指下滑的手势或快捷键触发 App Expose，可以显示当前应用的所有窗口，然后点击选择进行窗口切换，但是不够快捷。
     - 可以替代用于 __剪贴板管理__ 的 [__ClipMenu__](http://www.clipmenu.com/) <sup>Simply , Favorite</sup>、[__~~Paste~~__](http://pasteapp.me/) <sup>Beauty</sup>。
         - 这类应用很多，Keyboard Maestro 在这方面还是做得不够好。
         - Paste 颜值高，可是配置选项不多，不如 ClipMenu 定制性强。ClipMenu 短小精悍，显示紧凑（可能你会觉得丑），快捷键调用方便，响应迅速。
@@ -261,7 +265,7 @@ __荀子__
     - 该插件提供各种类型文件的预览功能：快速预览各种格式的图片，包括 GIF；对各种不同编程语言的代码进行着色，便于查看… 详情查看其 [GitHub 仓库 README.md](https://github.com/sindresorhus/quick-look-plugins) 的说明。
 - [__~~ShawdowsocksX~~__](http://macappstore.org/shadowsocksx/) <sup>No update</sup>
 - [__ShawdowsocksX NG__](https://github.com/shadowsocks/ShadowsocksX-NG) <sup>Ladder</sup>
-    ShadowsocksX 是在 Mac 上配合 Shadowsock 工作的软件。NG 是其后续他人维护版本。
+    ShadowsocksX 是在 Mac 上配合 Shadowsock 工作的软件。NG 是后人维护的版本。
 - [__ShowyEdge__](https://pqrs.org/osx/ShowyEdge/index.html.en) <sup>Great</sup>
     输入法状态提示。
     - 显示一条样式可定制的色带在屏幕顶部，以提示正在使用什么输入法。在全屏使用 App 时，也能轻易区分输入法状态！
@@ -315,7 +319,7 @@ __荀子__
         - 帮助卸载一些顽固的软件还是有用的。
     - [__~~f.lux~~__](https://justgetflux.com/)
         根据所在地当时的日照，自动调整屏幕色温、亮度，减少蓝光对眼睛的刺激，以调整激素水平，保护正常睡眠节律。
-        - 然而类似的功能效果已经被 macOS 和 iOS 以 Night Shift 为名整合了。
+        - 然而 macOS 和 iOS 的 Night Shift 已将其功能整合了（效果类似）。
     - [__~~HazeOver~~__](https://hazeover.com/) <sup>Focus</sup>
         便于让你瞬间定位到当前正在使用窗口。
         - 除当前激活的窗口，其它窗口都会显示阴影，让人更专注与当前窗口的工作。
@@ -414,9 +418,10 @@ __荀子__
 - 生活
     - [__高德地图__](https://itunes.apple.com/cn/app/%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE-%E7%B2%BE%E5%87%86%E4%B8%93%E4%B8%9A%E7%9A%84%E6%89%8B%E6%9C%BA%E5%9C%B0%E5%9B%BE-%E8%87%AA%E9%A9%BE%E5%85%AC%E4%BA%A4%E9%AA%91%E8%A1%8C%E5%AF%BC%E8%88%AA/id461703208?mt=8)
         各个地图 App 当中，个人觉得这个最美观、顺手。备用：腾讯地图，可以离线使用。
-    - [__支付宝__](https://mobile.alipay.com/index.htm)、[__滴滴出行__](http://www.xiaojukeji.com/index/index)、[__美团外卖__](http://waimai.meituan.com/)、[__大众点评__](https://www.dianping.com/)
+    - [__支付宝__](https://mobile.alipay.com/index.htm)、[__滴滴出行__](http://www.xiaojukeji.com/index/index)、[__美团外卖__](http://waimai.meituan.com/)、[__饿了么__](https://www.ele.me/home/)、[__大众点评__](https://www.dianping.com/)
     - ~~__联系人信息同步助手__~~
-        如 QQ 同步助手，一般没必要安装，微信等 App 也可以做到。
+        如 __QQ 同步助手__，一般没必要安装，微信等 App 也可以做到，不过它也有额外的用处。
+        例如我喜欢将 iOS 系统的语言设为英语，但联系人当然还是用中文姓名保存的，此时联系人无法按照拼音顺序排列；需要 QQ 同步助手协助，给每个中文姓名的联系人填上拼音标注，才能按序显示了。
 
 除了 iOS 自带且不能删除的 Apps，iPhone 里就几乎只有以上的少数的 Apps。
 
@@ -561,8 +566,7 @@ __荀子__
 
 - __电动牙刷__：[Philips Sonicare DiamondClean Sonic Electric Rechargeable Toothbrush](https://www.amazon.com/Philips-Sonicare-DiamondClean-Rechargeable-HX9332/dp/B0052JN7XG/ref=sr_1_1_a_it?ie=UTF8&qid=1468933357&sr=8-1&keywords=hx9332) <sup>Favorite</sup>
     Model HX9331/04 (White) 声波式电动牙刷。确实比手动刷干净多了！（[亚马逊中国](https://www.amazon.cn/Philips-%E9%A3%9E%E5%88%A9%E6%B5%A6-HX9332-04%E9%92%BB%E7%9F%B3%E4%BA%AE%E7%99%BD%E5%9E%8B%E5%A3%B0%E6%B3%A2%E9%9C%87%E5%8A%A8%E7%89%99%E5%88%B7/dp/B007ZY5GV2/ref=sr_1_6?ie=UTF8&qid=1468507397&sr=8-6&keywords=philips+diamondclean)）
-    - [电动牙刷刷牙相比手动刷牙有什么优缺点？](https://www.zhihu.com/question/19825877/answer/15856166)
-    - 总结：
+    - [电动牙刷刷牙相比手动刷牙有什么优缺点？](https://www.zhihu.com/question/19825877/answer/15856166) 总结：
         - 电动比手动好，各种好（完爆）；
         - 旋转式的比声波式的刷得干净；
         - 声波式的比旋转式的磨损小；
@@ -586,7 +590,7 @@ __荀子__
     - 喜欢进攻型羽毛球拍，重量 4U 比较轻便，手柄 G5 粗细刚好。
     - 以前打惯 3U 的球拍，一开始不适应，感觉它偏轻、没“手感”。挥拍扣杀时，感觉球拍不够重，惯性不够大，出力不足。但移动、挥拍、救球、回球来更快更灵活，省腕力，长时间打球省体力。
 - __羽球鞋__：[Mizuno WAVE SMASH LO 白](https://item.taobao.com/item.htm?id=534360854337&_u=cuv5jet2aca)
-    买一双高性价比的羽球鞋，是为了运动时能更舒适、灵活地移动，抗震性好，保护脚趾、脚掌、脚踝、膝盖。
+    买一双高性价比的羽球鞋，是为了运动时更舒适灵活地移动，抗震性好，保护脚趾、脚掌、脚踝、膝盖。
     - 美津浓的鞋比尤尼克斯的更柔软舒适，特别对我这种经常跑动刹车的人来说没那么顶脚趾。
     - 旧：[__~~YONEX 65FT 白 JP 版~~__](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.H4Rwq7&id=14324807794&_u=euv5jet879d) <sup>_已穿坏…_</sup>
 - __运动服__：[YONEX 16201 训练服](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.CoCGMf&id=37144559361&_u=puv5jet55e6) - 速干 <sup>Favorite</sup>
