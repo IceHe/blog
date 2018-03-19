@@ -1,6 +1,6 @@
 title: 利器 - 软硬件推荐
 date: 2015-11-21
-updated: 2018-02-19
+updated: 2018-03-19
 categories: [Mac]
 tags: [Mac]
 description: Tools&#58; 推荐 macOS 和 iOS 的 Apps 以及日常使用的电子产品。
@@ -272,12 +272,20 @@ __荀子__
     - 就好像盲插 USB 接口可能要插三次才成功，感觉很糟糕。随时都能便捷地确认输入法所处的状态，可以减少多余的输入法切换操作和误输入后的回退操作。
     - 我输入英文只使用默认的「U.S.」input source，输入中文只使用「拼音输入法」，切换「中/英」输入只要直接切换输入法就好了。
         - 我不想只用「拼音输入法」，然后在一种输入法下进行中英输入切换。这时中英切换通常只需要用一个键 `⇧`、`^` 或 `⇪`，看似操作很方便，但也容易「误操作」，使用大量使用快捷键时就很不便，特别是在用 Vim 的方式进行编辑时，误操作几率非常高！
+- [__TotalFinder__](https://totalfinder.binaryage.com/)
+    macOS 自带的 Finder（文件管理器）的增强版。
+    - Dual 模式：在同一个窗口显示两个 Finder 窗口，方便多窗口操作；
+    - 模仿 Chrome 的 Tabs 来管理 Finder 的子窗口；
+    - 右键点击增加「剪切、粘贴」（Cut, Paste）菜单，方便挪动文件；
+    - 颜色鲜明地显示标签（Labels）；
+    - Visor 窗口：一键唤起 Finder。
 - [__Time Machine__](https://support.apple.com/en-hk/HT201250) <sup>Required</sup>
     macOS 自带的系统备份、恢复软件。
     - 要有忧患意识，不要等硬盘坏了、Mac 丢了，才追悔莫及。
-- [__Time Out__](http://www.dejal.com/timeout/) <sup>Health , Protect Eyes!</sup>
+- [__~~Time Out~~__](http://www.dejal.com/timeout/) <sup>Health , Protect Eyes!</sup>
     定时作息提醒工具。定时遮盖桌面的应用程序，提醒你离开电脑，去休息眼睛、活动身体。
-    - 如人饮水，冷暖自知。自己多注意就好，要是实在不自觉，这个应用才有用武之地；其实真到了严重的程度，它也帮不到你了
+    - 如人饮水，冷暖自知。自己多注意就好，要是实在不自觉，这个应用才有用武之地；其实真到了严重的程度，它也帮不到你了。
+    - 其实我有一个个人的休息方式：因为我比较容易口渴，所以经常喝水；饮水量大就经常上洗手间，自然会多走动，不久坐。
 - __Dictionary__ <sup>Great</sup>
     macOS 系统自带的字典应用，足够好用。
 - [__EuDic Free__](http://www.eudic.net/eudic/mac_dictionary.aspx) <sup>Free, Great</sup>
