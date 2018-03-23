@@ -1,6 +1,6 @@
 title: Mac 快捷键
 date: 2016-01-06
-updated: 2017-11-30
+updated: 2018-03-21
 categories: [Mac]
 tags: [Mac]
 description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
@@ -625,6 +625,10 @@ Changes not only the shortcuts but also the keyboard key-remappings!
 
 `^ ⌥ p` Toggle Proxy Mode: Auto PAC / Global
 `^ ⌥ ⇧ S` Toggle Shadowsocks On / Off
+
+### [TotalFinder](https://totalfinder.binaryage.com/)
+
+TODO
 
 ## Development
 
