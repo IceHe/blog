@@ -1,6 +1,6 @@
 title: Mac 快捷键
 date: 2016-01-06
-updated: 2018-03-21
+updated: 2018-03-24
 categories: [Mac]
 tags: [Mac]
 description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
@@ -269,7 +269,11 @@ description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
     `0~9` Select
     _`^ ⇧ 凵` Trackpad Handwriting_
 
-- Baidu Input <sup>__Now I use__</sup>
+- Sogou Input <sup>__Now I use__</sup>
+    Right `⇧` Switch to Smart English Input Mode (when using Chinese Input Mode)
+    All else low-frequency shortcuts are disabled.
+
+- ~~Baidu Input~~
     _`^ t` [ Simple | Traditional ] Chinese Characters_
     _`^ .` [ Chinese | English ] Punctuation Marks_
     _`⇧ 凵` [ 全角 | 半角 ] Punctuation Mark Types_
@@ -360,9 +364,10 @@ _`⌘ 3` Drafts_
     - Dates
         Type string `|hm`, it will be replaced by the time string `hh:mm`
         Type `|ymd`, replaced by `yy/MM/dd`
-        `|yymd` → `YYYY-MM-dd`
-        `|yy/md` → `YYYY/MM/dd`
-        `|yy.md` → `YYYY.MM.dd` …
+        `|d ` → `YYYYMMdd`
+        `|d-` → `YYYY-MM-dd`
+        `|d/` → `YYYY/MM/dd`
+        `|d.` → `YYYY.MM.dd` …
 
     - Symbols
         `|up` → `↑`
@@ -377,7 +382,6 @@ _`⌘ 3` Drafts_
 
     - Words
         `|http` → `HTTP`
-        `|latex` → `LaTeX`
         `|db` → `database`
         `|rm` → `remove`
         `desc|` → `description`
@@ -476,34 +480,38 @@ Changes not only the shortcuts but also the keyboard key-remappings!
 
 - 1234 …
     <code>⌥ \`</code> [1Password](#1Password)
-    `⌥ 1` [Script Editor](#Script-Editor) ( AppleScript )
+    `⌥ 1` [Trello](#Trello)
     `⌥ 2` System Preferences
     `⌥ 3` Notes
+
+    `⌥ ⇧ 1` [Script Editor](#Script-Editor) ( AppleScript )
 
 - qwer …
     `⌥ q` [QQ](#QQ)
     `⌥ w` WeChat
     `⌥ e` [Mail](#Mail)
     `⌥ r` Preview
-    `⌥ t` Thunder
+    _`⌥ t` Timeout_
 
     `⌥ i` Prompt the local IP address
     `⌥ p` Postman
     `⌥ \` [1Password](#1Password) ( Mini )
 
     _`⌥ ⇧ W` Word_
-    _`⌥ ⇧ T` Type String ( in clipboard ) inseted of Paste_
+    _`⌥ ⇧ T` Thunder_
     _`⌥ ⇧ P` PowerPoint_
     `⌥ ⇧ E` Evernote
     _`^ ⌥ ⇧ E` Excel_
-    `⌥ ⇧ I` iTunes
+    _`⌥ ⇧ I` iTunes_
+
+    _`^ ⌥ ⇧ T` Type String ( in clipboard ) inseted of Paste_
 
 - asdf …
     `⌥ a` [Activity Monitor](#Activity-Monitor)
     `⌥ s` [PhpStorm](#PhpStorm)
     `⌥ d` EuDic
     `⌥ f` [Finder](#Finder)
-    _`⌥ g` Acrobat Reader ( PDF )_
+    `⌥ g` Acrobat Reader ( PDF )
 
     `⌥ h` Photos
     `⌥ j` IntelliJ IDEA
@@ -513,26 +521,30 @@ Changes not only the shortcuts but also the keyboard key-remappings!
 
     `⌥ ⇧ A` PyCharm
     `^ ⌥ ⇧ A` App Store
-    `⌥ ⇧ S` Sequel Pro ( MySQL )
+    _`⌥ ⇧ S` Share Safari Page to Notes_
+    _`^ ⌥ ⇧ S` Sequel Pro ( MySQL )_
     `⌥ ⇧ D` Dictionary
     _`⌥ ⇧ F` Search in All Files_
+
     `⌥ ⇧ J` Eject the disks
     _`⌥ ⇧ K` Calculator_
+    `⌥ ⇧ L` Do something when logging in
 
 - zxcv …
     `⌥ x` Xiami Music
     `⌥ c` [Charles](#Charles)
     `⌥ v` [ClipMenu](#ClipMenu) - Clipboard History
-    `⌥ b` [MindNode](#MindNode) ( `b` for Brainstorm )
     `⌥ n` [NeteaseMusic](#NeteaseMusic)
-    `⌥ m` Messages
+    `⌥ m` [MindNode](#MindNode) ( `b` for Brainstorm )
 
-    `⌥ ⇧ C` Calendar
+    _`⌥ ⇧ C` Copied_
+    _`^ ⌥ ⇧ C` Calendar_
     `⌥ ⇧ V` [ClipMenu](#ClipMenu) - Snippets
     `^ ⌥ ⇧ V` [ClipMenu](#ClipMenu) - Main Menu
-    `⌥ ⇧ B` System Settings → BlueTooth
-    `⌥ ⇧ M` Send Clipboard to iPhone by Messages
-    `⌥ ⇧ N` System Settings → Network
+
+    `⌥ ⇧ M` Messages
+    `^ ⌥ ⇧ M` Send Clipboard to iPhone by Messages
+    _`⌥ ⇧ N` Numbers_
 
 #### Layout `Fn`
 
@@ -628,7 +640,7 @@ Changes not only the shortcuts but also the keyboard key-remappings!
 
 ### [TotalFinder](https://totalfinder.binaryage.com/)
 
-TODO
+`⌘ u` Toggle Dual Mode
 
 ## Development
 
@@ -1509,7 +1521,8 @@ __`⌘ r` Show | Hide Lyrics__
 
 `⌘ ^ a` Screenshot
 `⌘ ^ r` Screen Recording
-Two functions above can be used without opening QQ.
+`⌘ ^ r` __Screen Text Recognize__ ( OCR : Optical Character Recognition )
+Two functions above can be used after opening QQ (even if you exit QQ then).
 
 `⌘ ↑` Select Prev Chat
 `⌘ ↓` Select Next Chat
@@ -1518,3 +1531,35 @@ They can be used in WeChat as well.
 `⌘ 1` Switch to Messages
 `⌘ 2` Switch to Contacts
 `⌘ 3` Switch to Applications
+
+### [Trello](https://trello.com/)
+
+`⇧ ?` Show Shortcuts Tips
+
+`↑ ↓ ← →` Navigate Cards
+`b` Select Board
+`/` Search Cards
+`f` Filter Menu
+`x` Clear All Filters
+
+`↩` Open Card
+`⌘ ↩` Save Text
+`⎋` Close Menu / Cancel Editing
+
+`n` New Card
+`c` Archive Card
+`e` Quick Edit Card
+`,` `.` `<` `>` Move Card ( to Adjacent List )
+
+`d` Due Date
+`t` Title
+`l` Label
+`;` Toggle Label Name
+
+_`凵` Assign Self_
+_`s` Subscribe_
+_`m` Add/Rm Members_
+
+_`@` Autocomplete Members_
+_`#` Autocomplete Labels_
+_`^` Autocomplete Position_
