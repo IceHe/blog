@@ -14,8 +14,8 @@ nocopyright: true
         <sup><i class="fa fa-fw fa-paper-plane"></i> 广州人在北京</sup>
     - <i class="fa fa-fw fa-weibo"></i> 微博视频平台
         <sup><i class="fa fa-fw fa-gear"></i> Java 服务端研发 - _2018.04 ~ Now_</sup>
-    - <i class="fa fa-fw fa-weibo"></i> 微博 Mobile API
-        <sup><i class="fa fa-fw fa-gear"></i> PHP 服务端研发 - _2014.12 ~ 2018.03_</sup>
+    - <i class="fa fa-fw fa-weibo"></i> ~~微博 Mobile API~~
+        <sup><i class="fa fa-fw fa-gear"></i> ~~PHP 服务端研发~~ - _2014.12 ~ 2018.03_</sup>
     - <i class="fa fa-fw fa-envelope-o"></i> x@icehe.me
         <sup><i class="fa fa-fw fa-wechat"></i> [微信](http://7vzp68.com1.z0.glb.clouddn.com/about_original/qrcode_01.jpg) , [微博](http://weibo.com/icedes) , [博客](http://icehe.me) , [GitHub](https://github.com/IceHe) , [知乎](https://www.zhihu.com/people/icehe/activities) , [豆瓣](https://www.douban.com/people/IceHeGZ)</sup>
     - <i class="fa fa-fw fa-font"></i> Less. 宁静致远。
@@ -57,8 +57,8 @@ nocopyright: true
     <i class="fa fa-fw fa-star-o"></i> Know 理解
 
 - __编程语言__
-    <i class="fa fa-fw fa-star-half-o"></i> __`PHP`__ `C++`
-    <i class="fa fa-fw fa-star-o"></i> `Python` `Java` `JavaScript` `C` `ASM`
+    <i class="fa fa-fw fa-star-half-o"></i> __`Java` `PHP`__
+    <i class="fa fa-fw fa-star-o"></i>  `C++` <i class="hidden">`C` `Go`</i> `Python` `JavaScript` `ASM`
 
 - __OS__
     <i class="fa fa-fw fa-star"></i> __`macOS`__
@@ -66,28 +66,30 @@ nocopyright: true
     <i class="fa fa-fw fa-star-o"></i> `CentOS 7` `Ubuntu`
 
 - __DB__
-    <i class="fa fa-fw fa-star-half-o"></i> `MySQL`
-    <i class="fa fa-fw fa-star-o"></i> `Redis` `MS SQL Server 2008` `Oracle DB`
+    <i class="fa fa-fw fa-star-half-o"></i> `MySQL` `Redis`
+    <i class="fa fa-fw fa-star-o"></i> `MS SQL Server 2008` `Oracle DB`
 
 - __Web__
     <i class="fa fa-fw fa-star-half-o"></i> `HTML` `CSS` `jQuery`
-    <span><i class="fa fa-fw fa-star-o"></i> `Docker` `Nginx` <!--`Redis`--></span>
+    <span><i class="fa fa-fw fa-star-o"></i> `Docker` `Nginx`</span>
+
+- __工具__
+    <i class="fa fa-fw fa-star-half-o"></i> __`Git` `Vim`__ `Zsh`
+    <i class="fa fa-fw fa-star-o"></i> `Qt 4 / 5`
 
 - __脚本__
     <i class="fa fa-fw fa-star-half-o"></i> `AppleScript`
     <i class="fa fa-fw fa-star-o"></i> `Bash` `Batch file`
 
-- __Tools__
-    <i class="fa fa-fw fa-star-half-o"></i> __`Git` `Vim` `Zsh`__
-    <i class="fa fa-fw fa-star-o"></i> `Qt 4 / 5`
-
+<div class="hidden">
 - __IDE__
-    <i class="fa fa-fw fa-star-half-o"></i> __`PhpStorm`__
+    <i class="fa fa-fw fa-star-half-o"></i> __`IntelliJ IDEA` <i class="hidden">`GoLand` `CLion`</i> `PhpStorm`__ <sub>JetBrains</sub>
     <i class="fa fa-fw fa-star-o"></i> `Visual Studio` `Eclipse`
 
 - __语言__
     <i class="fa fa-fw fa-trophy"></i> `普通话` `粤语`
     <i class="fa fa-fw fa-star-o"></i> `英语` <sub>技术相关内容的基本阅读写作，以及简单的听力对话</sub>
+</div>
 
 ---
 
