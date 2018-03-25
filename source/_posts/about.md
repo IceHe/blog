@@ -1,6 +1,6 @@
 title: CV 简历
 date: 2015-01-20
-updated: 2018-02-17
+updated: 2018-03-25
 categories: [whoami]
 tags: [whoami]
 description: IceHe 的经验、技能、教育 & 其它：微博移动应用服务 / 服务端 / PHP；华南理工 / 软件工程 / 本科 …
@@ -12,8 +12,10 @@ nocopyright: true
 - __我是__
     - <i class="fa fa-fw fa-star"></i> Ice He | Hzy
         <sup><i class="fa fa-fw fa-paper-plane"></i> 广州人在北京</sup>
-    - <i class="fa fa-fw fa-weibo"></i> 微博移动服务技术部
-        <sup><i class="fa fa-fw fa-gear"></i> PHP 服务端开发 - Mobile API</sup>
+    - <i class="fa fa-fw fa-weibo"></i> 微博视频平台
+        <sup><i class="fa fa-fw fa-gear"></i> Java 服务端研发 - _2018.04~????.??_</sup>
+    - <i class="fa fa-fw fa-weibo"></i> 微博 Mobile API
+        <sup><i class="fa fa-fw fa-gear"></i> PHP 服务端研发 - _2014.12~2018.03_</sup>
     - <i class="fa fa-fw fa-envelope-o"></i> x@icehe.me
         <sup><i class="fa fa-fw fa-wechat"></i> [微信](http://7vzp68.com1.z0.glb.clouddn.com/about_original/qrcode_01.jpg) , [微博](http://weibo.com/icedes) , [博客](http://icehe.me) , [GitHub](https://github.com/IceHe) , [知乎](https://www.zhihu.com/people/icehe/activities) , [豆瓣](https://www.douban.com/people/IceHeGZ)</sup>
     - <i class="fa fa-fw fa-font"></i> Less. 宁静致远。
@@ -91,8 +93,8 @@ nocopyright: true
 
 # 经验
 
-## <i class="hidden">微博移动 - 服务端开发</i>
-__<i class="fa fa-fw fa-weibo"></i> [微梦创科网络技术（中国）有限公司](https://zh.wikipedia.org/wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A) - 微博移动 - 服务端研发__&emsp;_2015.07 ~ 现在_
+## <i class="hidden">微博移动 - 服务端研发</i>
+__<i class="fa fa-fw fa-weibo"></i> [新浪微博](https://zh.wikipedia.org/wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A) - 微博移动 - 服务端研发__&emsp;_2015.07 ~ 2018.03_
 
 - 微博产品部 2017 年度优秀个人（MAPI 1/16，产品部 15/200+）
 - MAPI 微博移动服务技术部：开发维护移动端（主要指手机 [客户端](https://itunes.apple.com/cn/app/id350962117) 和 [H5](https://m.weibo.cn) 页）的 API 服务 及其 CMS 后台
@@ -116,7 +118,7 @@ __<i class="fa fa-fw fa-weibo"></i> [微梦创科网络技术（中国）有限�
 - _PHP 7 , Yaf , Lavarel , Docker , CentOS , GitLab_
 
 ## <i class="hidden">微博移动 - 服务端 实习</i>
-__<span class="icon-weibo">&nbsp;</span>[微梦创科网络技术（中国）有限公司](https://zh.wikipedia.org/wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A) - 手机微博 - 服务端研发 实习生__&emsp;_2014.12 ~ 2015.02_
+__<i class="fa fa-fw fa-weibo"></i> [新浪微博](https://zh.wikipedia.org/wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A) - 微博移动 - 服务端研发 实习生__&emsp;_2014.12 ~ 2015.02_
 
 - 「手机微博管理后台」v5（B/S）- 开发「活动管理，常量管理，日程管理」等模块
 - _PHP 5.6 , HTML , CSS , JavaScript , jQuery , MySQL_
