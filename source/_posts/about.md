@@ -1,6 +1,6 @@
 title: CV 简历
 date: 2015-01-20
-updated: 2018-04-01
+updated: 2018-04-02
 categories: [whoami]
 tags: [whoami]
 description: IceHe 的经验、技能、教育 & 其它：微博移动应用服务 / 服务端 / PHP；华南理工 / 软件工程 / 本科 …
@@ -96,8 +96,8 @@ nocopyright: true
 ## <i class="hidden">微博平台 - Java 服务端</i>
 __<i class="fa fa-fw fa-weibo"></i> [新浪微博](https://zh.wikipedia.org/wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A) - 视频平台 - Java 服务端研发__&emsp;_2018.04 ~ Now_
 
-- 视频编码
-- _Java , C , Go_
+- TODO<i class="hidden">视频编码</i>
+<i class="hidden">- _Java , C , Go_</i>
 
 ## <i class="hidden">微博移动 - PHP 服务端</i>
 __<i class="fa fa-fw fa-weibo"></i> [新浪微博](https://zh.wikipedia.org/wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A) - 微博移动 - PHP 服务端研发__&emsp;_2015.07 ~ 2018.03_
