@@ -1,9 +1,9 @@
 title: 利器 - 软硬件推荐
 date: 2015-11-21
-updated: 2018-03-24
-categories: [Mac]
-tags: [Mac]
-description: Tools&#58; 推荐 macOS 和 iOS 的 Apps 以及日常使用的电子产品。
+updated: 2018-03-25
+categories: [mac]
+tags: [mac]
+description: tools&#58; 推荐 macos 和 ios 的 apps 以及日常使用的电子产品。
 ---
 
 {% cq %}
@@ -164,6 +164,7 @@ __荀子__
         - 候选：[__VS Code__](https://code.visualstudio.com/)，开源、持续且活跃的开发，更不必说本身有微软过硬的技术实力背书。
         - 我自定义的 [__keymap__](https://github.com/IceHe/macos-home-conf/blob/master/.config/sublime/Default%20(OSX).sublime-keymap)
         - 我安装的 [__plugins__](https://github.com/IceHe/macos-home-conf/blob/master/.config/sublime/Package%20Control.sublime-settings)
+            - __Clickable URLs__：`⌘ ⌥ ↩` 打开光标当前位置的 URL。
             - __Compare Side-By-Side__：文本差异对比。
             - __CTags__：编程语言对象定位器。
             - __Git Gutter__：Git 变更差异（Diff）提示。
