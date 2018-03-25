@@ -1,6 +1,6 @@
 title: Mac 快捷键
 date: 2016-01-06
-updated: 2018-03-24
+updated: 2018-03-25
 categories: [Mac]
 tags: [Mac]
 description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
@@ -511,7 +511,7 @@ Changes not only the shortcuts but also the keyboard key-remappings!
     `⌥ s` [PhpStorm](#PhpStorm)
     `⌥ d` EuDic
     `⌥ f` [Finder](#Finder)
-    `⌥ g` Acrobat Reader ( PDF )
+    `⌥ g` GoLand
 
     `⌥ h` Photos
     `⌥ j` IntelliJ IDEA
@@ -525,6 +525,7 @@ Changes not only the shortcuts but also the keyboard key-remappings!
     _`^ ⌥ ⇧ S` Sequel Pro ( MySQL )_
     `⌥ ⇧ D` Dictionary
     _`⌥ ⇧ F` Search in All Files_
+    `⌥ ⇧ G` Acrobat Reader ( PDF )
 
     `⌥ ⇧ J` Eject the disks
     _`⌥ ⇧ K` Calculator_
