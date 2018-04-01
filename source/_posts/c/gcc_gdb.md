@@ -1,4 +1,4 @@
-title: C 入门调试实例
+title: C 入门 gdb 调试实例
 date: 2018-03-26
 updated: 2018-03-28
 noupdate: true
