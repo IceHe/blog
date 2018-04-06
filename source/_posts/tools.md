@@ -1,6 +1,6 @@
 title: 利器 - 软硬件推荐
 date: 2015-11-21
-updated: 2018-03-25
+updated: 2018-04-06
 categories: [mac]
 tags: [mac]
 description: tools&#58; 推荐 macos 和 ios 的 apps 以及日常使用的电子产品。
@@ -46,7 +46,7 @@ __荀子__
 
 ### 常用
 
-- 网络
+- 网络访问
     - [__Shawdowsocks__](https://portal.shadowsocks.to/) <sup>Ladder</sup>
         - 首选的科学上网（番羽土啬）方案：
             Shadowsocks 服务 + Mac 的 [__ShadowsocksX-NG__](https://github.com/shadowsocks/ShadowsocksX-NG) + 浏览器的 proxy 类插件：
@@ -57,10 +57,30 @@ __荀子__
             - 可惜它无法在页面未加载完毕的情况下使用 Vim 键位，不够（[Firefox](http://www.firefox.com.cn/) + [VimFX](https://github.com/akhodakivskiy/VimFx)）极致！
         - 用 __Inspect Element__（审查元素）配合 __Postman__ 等做 Web 开发、调试，比 Firefox 顺手。
 - 常用
-    - [__2Do__](https://www.2doapp.com/) <sup>Favorite</sup>
+    - [__Trello__](https://trello.com/) <sup>Favorite</sup>
+        基于 Board 的事务管理。
+        - 使用 board 看板、list 列表、card 卡片等，组织事务；
+        - 使用 description 描述、comment 评论、attachment 附件等，跟踪记录事务内容；
+        - 根据 事务内容、label 标签、due date 截止期限等，考虑事务的优先次序。
+        - 我在现实管理工作项目的过程中，GitLab Issue Board 的应用，给我带来了很大的帮助。虽然那段时间很忙，但我还是有条不紊地推进了我和同事间的分工协作。自此迷上了使用 Board 的方式去管理事务。
+        - 类似的产品很多，Trello 是最简洁、好用、易上手的，这是我用它的关键原因。Slack 的服务被墙，在移动端访问不便（而 Trello 没被墙）；而国内的模仿者们则做得太复杂了，可能因为他们主攻 toB 的市场，不适合我这样的个人用户来使用，所以无爱。
+    - [__2Do__](https://www.2doapp.com/) <sup>Powerful</sup>
         GTD 事务管理。
         - 功能齐全、好用，用法可简可繁。快捷键完备！
         - 推荐使用 iCloud Reminders 的 CalDAV 同步方式（支持 2Do 绝大部分特性，足以满足我的需求）；Dropbox 的同步方式虽然可以支持 2Do 的所有特性，可是需要翻墙才能同步数据，iPhone 需要长期开着 VPN 略显麻烦。所以为了稳定和省心，选择了前一种同步方式。
+    - __双拼输入方案__ <sup>Favorite</sup>
+        高效，易学！比五笔容易掌握得多，对比全拼，输入效率显著提升，十分值得学习。
+        - 《[做少数派中的少数派：双拼输入快速入门](http://sspai.com/32809)》
+        - 《[选择输入法的哲学：兼论双拼的优缺点](http://sspai.com/33019)》
+    - [__1Password__](https://agilebits.com/onepassword) <sup>Privacy</sup>
+        帐号密码管理，以及私人信息的加密存储。
+        - 用一（两）个主密码管理所有其它密码。可生成随机密码，可记录登录网站时用的帐号密码，可自动填写表单登录网站。
+        - 以前一直用不惯，觉得用浏览器自带的自动登录和 iCloud 的 [__KeyChain Access__](https://support.apple.com/kb/PH20093?locale=zh_CN) 来记录管理帐号和密码足矣，可是不便于保存一些私人信息。工作之后，经济独立，更加注意保护个人隐私和财产安全了，要管理的私人信息多而杂乱，所以不得不借助专用的工具。
+        - 其它选择：
+            - [__KeyChain Access__](https://support.apple.com/kb/PH20093?locale=zh_CN)：macOS & iOS 原生支持，方便免费。
+            - [__Dashlane__](https://www.dashlane.com/)：好用，但贵。
+            - [__LastPass__](https://lastpass.com/)：够用，免费。
+- 笔记
     - [__MindNode__](https://mindnode.com/) <sup>Flexible</sup>
         思维导图，归纳总结笔记。
         - 操作简便易上手，轻巧稳定。
@@ -72,31 +92,20 @@ __荀子__
         macOS 上的草稿处理中心。随叫随到（快捷键齐备），迅速记录（操作简洁），检索便捷。
         - 如果我用 Sublime Text 做一些随意的文字记录，要保留久一点都得保存成文件，难免在显眼的地方（例如桌面）看到一堆临时文件，过后的清理也麻烦，怕不小心删掉了别的有用的文件。
         - 用 nvALT 的话，它会统一在暗处做文字记录的整理（除非导出文件），眼不见为净。
-    - [__Evernote__](https://www.yinxiang.com/) <sup>Rec Offline</sup>
+    - [__Notion__](https://www.notion.so/) <sup>Checklist</sup>
+        用作 __checklist__（检查清单）。
+        - 我只用它来复用自己的 checklist 模板。例如，每天的早上起床、晚上回住处要做的杂务流程，以及出行的行李清单等 checklist。（虽然功能强大，但操作不够便捷，数据同步不尽如人意）
+        - 原来我用 Evernote 来复用 checklist 模板，可是在 check 勾选、uncheck 反选复选框，以及浏览 checklist 的过程中，很容易唤起键盘，可以说相当烦人，而 Notion 则不会有这样的体验。
+    - [__Evernote__](https://www.yinxiang.com/) <sup>Rec Offline, RIL</sup>
         云笔记，第二大脑（知识管理）。
         - 好记性不如烂笔头，而如今知识更新之快，纸笔已跟不上，于是笔记软件大放异彩。云端存储同步笔记（同时定期备份整个硬盘），有备份就不怕丢；便于检索，甚至搜索图片中的文字。总是死记硬背没有出路，不能被检索的知识毫无意义。
         - 现在觉得值得离线记录的东西不多了，用 Google 搜索更便捷，而且还能获得更新更好的资料；值得沉淀的知识不断更新记录在博客就够了。
-        - 现在我主要将它作为 Read It Later 类 App 来用。
+        - 现在我主要将它作为 Read It Later（RIL）类 App 来用。
             - 用法：[__剪藏__](https://evernote.com/intl/zh-cn/webclipper/)、微博 [__@我的印象笔记__](http://weibo.com/u/2859258962)、微信分享给 __我的印象笔记__、[邮件收藏](https://help.evernote.com/hc/zh-cn/articles/209005347-%E5%A6%82%E4%BD%95%E4%BF%9D%E5%AD%98%E9%82%AE%E4%BB%B6%E8%87%B3Evernote) 等。
         <!-- - 从许多备选中选择了 Evernote，是因为它提供了最为开放的可编程 API，我可以写脚本定制进阶的笔记操作。 -->
-        - 因为还没找到适合自己用于重复利用多个 Checklist 模板的合适 App，
-            所以还用 Evernote 来做 Checklist，例如行李清单、家务流程、日常工作流程等。
-            - 用法：将一个固定流程的 Checklist 做成一篇笔记，需要用时先复制一份，才开始逐条执行，然后逐项检查打勾。
         - 其它选择：
             - [__~~有道云笔记~~__](https://note.youdao.come)：Evernote 迁移到其它平台比较简单，但 [有道云笔记](https://note.youdao.come) 导出的笔记格式经过加密、无法通用，很难迁移到别的平台，所以不推荐使用
             - [__为知笔记__](http://www.wiz.cn/)、[__Leanote__](https://leanote.com/)、[__Notion__](https://www.notion.so) …
-    - [__1Password__](https://agilebits.com/onepassword) <sup>Privacy</sup>
-        帐号密码管理，以及私人信息的加密存储。
-        - 用一（两）个主密码管理所有其它密码。可生成随机密码，可记录登录网站时用的帐号密码，可自动填写表单登录网站。
-        - 以前一直用不惯，觉得用浏览器自带的自动登录和 iCloud 的 [__KeyChain Access__](https://support.apple.com/kb/PH20093?locale=zh_CN) 来记录管理帐号和密码足矣，可是不便于保存一些私人信息。工作之后，经济独立，更加注意保护个人隐私和财产安全了，要管理的私人信息多而杂乱，所以不得不借助专用的工具。
-        - 其它选择：
-            - [__KeyChain Access__](https://support.apple.com/kb/PH20093?locale=zh_CN)：macOS & iOS 原生支持，方便免费。
-            - [__Dashlane__](https://www.dashlane.com/)：好用，但贵。
-            - [__LastPass__](https://lastpass.com/)：够用，免费。
-    - __双拼输入方案__ <sup>Favorite</sup>
-        高效，易学！比五笔容易掌握得多，对比全拼，输入效率显著提升，十分值得学习。
-        - 《[做少数派中的少数派：双拼输入快速入门](http://sspai.com/32809)》
-        - 《[选择输入法的哲学：兼论双拼的优缺点](http://sspai.com/33019)》
 
 ### 命令行
 
@@ -247,11 +256,19 @@ __荀子__
 - [__Bartender__](https://www.macbartender.com/)
     收起或彻底隐藏毋需过多关注的菜单栏 App 图标。（我这个整洁癖、强迫症的福音）
     - 不推荐购买 [~~Vanilla~~](http://matthewpalmer.net/vanilla/)，使用简便，自然配置项有限，最主要因为功能的实现方法不合理以致有 bug，例如会遮蔽菜单栏的一些别的内容，又如某些图标不能符合预期地显示或隐藏。
-- [__ClipMenu__](http://www.clipmenu.com/) <sup>Simply , Favorite</sup>
+- [__~~ClipMenu~~__](http://www.clipmenu.com/) <sup>Simply</sup>
     剪贴板管理。
     - 主要用于快速查询剪贴板的历史记录，并提取出需要的内容保存到当前的剪贴板中。
     - 支持 URL、纯文本、RTF、图片、文件等各种格式，包括剪贴历史的排序、内容的大小写转换、自定义文本的调用。
-    - 其它选择：[__Paste__](http://pasteapp.me/) 最好看！[~~Copied~~](http://copiedapp.com/)（没用过）。这类 App 层出不穷…
+- [__Copied__](https://copiedapp.com/) <sup>Favorite, Searchable</sup>
+    剪贴板管理。（2018-04 开始尝试用它替代 ClipMenu）
+    - 不同于 ClipMenu 的简单，它拥有丰富完备的功能。
+    - 剪贴板历史搜索：便于迅速查找内容，最常用！
+    - 格式化模板：以纯文本、HTML 或 Markdown 格式输出，同时输出 URL 以及对应网页的标题等。
+    - 匹配规则：纯数字、URL 链接等，分别保存到不同的列表，应用不同的格式化模板。
+    - App 定制规则：来自不同 App 的内容，分别保存到不同的列表，应用不同的格式化模板。
+    - Queue（队列）：先入先出地输出内容（平时默认：后入先出）。
+    - 其它选择：[__Paste__](http://pasteapp.me/) 最好看！这类 App 层出不穷…
 - [__HyperSwitch__](https://bahoom.com/hyperswitch) <sup>Best</sup>
     稳定切换同一 App 下各子窗口。
     - HyperSwitcher 选择切换的窗口时，会显示各应用的缩略图。
@@ -363,10 +380,10 @@ __荀子__
     - [__~~f.lux~~__](https://justgetflux.com/)
         根据所在地当时的日照，自动调整屏幕色温、亮度，减少蓝光对眼睛的刺激，以调整激素水平，保护正常睡眠节律。
         - 然而 macOS 和 iOS 的 Night Shift 已将其功能整合了（效果类似）。
-    - [__~~HazeOver~~__](https://hazeover.com/) <sup>Focus</sup>
+    - [__HazeOver__](https://hazeover.com/) <sup>Focus</sup>
         便于让你瞬间定位到当前正在使用窗口。
         - 除当前激活的窗口，其它窗口都会显示阴影，让人更专注与当前窗口的工作。
-        - 可惜经过长期使用，感觉可有可无，上述说法可能只有理论上的作用，可能只是心理安慰。
+        <span class="hidden">- 可惜经过长期使用，感觉可有可无，上述说法可能只有理论上的作用，可能只是心理安慰。</span>
     - [__~~iStat Menus~~__](https://bjango.com/mac/istatmenus/)
         显示软硬件状态（CPU、内存、网络、磁盘）的监控面板，支持顶部菜单栏部分自定义。
         - Mac 没异常时，知道这些信息真的有什么用吗？浪费菜单栏的空间和计算资源还让人分神。
