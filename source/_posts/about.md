@@ -14,8 +14,8 @@ nocopyright: true
         <sup><i class="fa fa-fw fa-paper-plane"></i> 广州人在北京</sup>
     - <i class="fa fa-fw fa-weibo"></i> 微博视频平台
         <sup><i class="fa fa-fw fa-gear"></i> Java 服务端研发 - _2018.04 ~ Now_</sup>
-    - <i class="fa fa-fw fa-weibo"></i> ~~微博 Mobile API~~
-        <sup><i class="fa fa-fw fa-gear"></i> ~~PHP 服务端研发~~ - _2014.12 ~ 2018.03_</sup>
+    - <i class="fa fa-fw fa-weibo"></i> 微博 Mobile API
+        <sup><i class="fa fa-fw fa-gear"></i> PHP 服务端研发 - _2014.12 ~ 2018.04_</sup>
     - <i class="fa fa-fw fa-envelope-o"></i> x@icehe.me
         <sup><i class="fa fa-fw fa-wechat"></i> [微信](http://7vzp68.com1.z0.glb.clouddn.com/about_original/qrcode_01.jpg) , [微博](http://weibo.com/icedes) , [博客](http://icehe.me) , [GitHub](https://github.com/IceHe) , [知乎](https://www.zhihu.com/people/icehe/activities) , [豆瓣](https://www.douban.com/people/IceHeGZ)</sup>
     - <i class="fa fa-fw fa-font"></i> Less. 宁静致远。
