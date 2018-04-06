@@ -1,6 +1,6 @@
 title: 最喜爱的
 date: 2015-11-19
-updated: 2017-12-30
+updated: 2018-04-06
 categories: [read]
 tags: [read]
 description: Favorites&#58; 我最喜欢的书籍、电影、电视剧、动画、游戏…
@@ -31,6 +31,8 @@ __《论语·述而》__
 # 电影
 
 大致按喜爱程度，从低到高排：
+- [__Ready Player One__](https://movie.douban.com/subject/4920389/)
+    《头号玩家》，热爱游戏！
 - [__Limitless__](https://movie.douban.com/subject/3041269/)
     《永无止境》，爽！
 - [__Whiplash__](https://movie.douban.com/subject/25773932/)
