@@ -1,6 +1,6 @@
 title: Mac 快捷键
 date: 2016-01-06
-updated: 2018-03-25
+updated: 2018-04-17
 categories: [Mac]
 tags: [Mac]
 description: macOS Shortcuts&#58; 我的 macOS 快捷键列表。
@@ -489,7 +489,7 @@ Changes not only the shortcuts but also the keyboard key-remappings!
 - qwer …
     `⌥ q` [QQ](#QQ)
     `⌥ w` WeChat
-    `⌥ e` [Mail](#Mail)
+    `⌥ e` [Outlook](#Outlook) ~~[Mail](#Mail)~~
     `⌥ r` Preview
     _`⌥ t` Timeout_
 
@@ -1463,6 +1463,8 @@ My config file [__.cvimrc__](https://github.com/IceHe/macos-home-conf/blob/maste
 
 ### [EuDict Free](https://www.eudic.net/eudic/mac_dictionary.aspx)
 
+`⌘ R` 朗读当前单词
+
 `⌥ 凵` Light Peek
 __`⌘ ⇧ M` Look up Word that Mouse Cursor Hovers__
 __`⌘ ⇧ L` Look up Selection__
@@ -1517,6 +1519,22 @@ __`⌘ ⇧ 2` Translate Selection__
 
 __`⌘ l` Dislike__
 __`⌘ r` Show | Hide Lyrics__
+
+### [Outlook](https://outlook.live.com/owa/)
+
+`⌘ k` Send & Receive
+`⌘ r` Reply
+`⌘ ⇧ R` Reply All
+`⌘ j` Forward
+
+`⌘ ⇧ M` Move to Folder
+`⌘ ⇧ J` Mark as Junk
+`⌘ ⇧ T` Mark as Read
+`⌘ ⌥ t` Mark All as Read
+
+`⌘ y` Redo
+`⌘ ⇧ V` Paste & Indent
+`^ ⌘ k` Hyperlink…
 
 ### [QQ](http://im.qq.com/macqq/)
 
