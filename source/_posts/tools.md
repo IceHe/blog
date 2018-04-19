@@ -1,6 +1,6 @@
 title: 利器 - 软硬件推荐
 date: 2015-11-21
-updated: 2018-04-06
+updated: 2018-04-19
 categories: [mac]
 tags: [mac]
 description: tools&#58; 推荐 macos 和 ios 的 apps 以及日常使用的电子产品。
@@ -80,6 +80,13 @@ __荀子__
             - [__KeyChain Access__](https://support.apple.com/kb/PH20093?locale=zh_CN)：macOS & iOS 原生支持，方便免费。
             - [__Dashlane__](https://www.dashlane.com/)：好用，但贵。
             - [__LastPass__](https://lastpass.com/)：够用，免费。
+    - [__Outlook__](https://outlook.live.com/owa/)
+        邮箱客户端，微软出品。
+        - 方便设置在邮箱服务器生效的邮件规则（因为公司邮箱用 Outlook 的服务）。
+            自动处理，屏蔽干扰，提高邮件处理效率。
+            - 将不同类型邮件归类到不同文件夹；
+            - 将可以忽略的邮件标为已读；
+            - 自动删除无用邮件。
 - 笔记
     - [__MindNode__](https://mindnode.com/) <sup>Flexible</sup>
         思维导图，归纳总结笔记。
@@ -150,7 +157,7 @@ __荀子__
 - 包管理
     - [__Homebrew__](http://brew.sh/) <sup>Best</sup>
         macOS 的包管理器。`brew` 就如 `agt-get` 之于 Ubuntu，`yum` 之于 RedHat、CentOS 的存在。
-    - [__Homebrew Cask__](http://caskroom.io/)
+    - [__~~Homebrew Cask~~__](http://caskroom.io/)
         安装、更新 macOS Apps 的命令行工具。
         - 用命令行的方式安装、更新 Mac Apps，其中还包括了许多第三方的 Apps。
         - 可以不用忍受 AppStore 缓慢的下载速度，也不必再一一访问各个官网去下载第三方 Apps 了。
@@ -161,13 +168,14 @@ __荀子__
 ### 软件开发
 
 - 常用
-    - [__PhpStorm__](https://www.jetbrains.com/phpstorm/) <sup>Master Piece</sup>
+    - [__IntelliJ IDEA__](https://www.jetbrains.com/idea/) <sup>Master Piece</sup>
+    - [__~~PhpStorm~~__](https://www.jetbrains.com/phpstorm/)
         PHP 的最佳 IDE。
         - 现阶段 PHP 类型推导做得最好的 IDE，稳定、崩溃少，功能完善，设置选项齐全。（我觉得）比 ZendStudio、Eclipse 好用多了。
         - 技术支持服务靠谱，客服答复迅速、解决方案有效
         - 配合 [__IdeaVim__](https://plugins.jetbrains.com/plugin/164?pr=idea) 插件可用 Vim 的方式进行操作，可以少记许多执行相同功能的 IDE 快捷键。
             - 我的配置 [__.ideavimrc__](https://github.com/IceHe/macos-home-conf/blob/master/.ideavimrc)
-        - [__JetBrains__](https://www.jetbrains.com/products.html) 出品的其它优秀 IDE：[__PyCharm__](https://www.jetbrains.com/pycharm/)、[__IntelliJ IDEA__](https://www.jetbrains.com/idea/)、[__WebStorm__](https://www.jetbrains.com/webstorm/)、[__CLion__](https://www.jetbrains.com/clion/) …
+        - [__JetBrains__](https://www.jetbrains.com/products.html) 出品的其它优秀 IDE：[__PyCharm__](https://www.jetbrains.com/pycharm/)、[__WebStorm__](https://www.jetbrains.com/webstorm/)、[__CLion__](https://www.jetbrains.com/clion/)、[__GoLand__](https://www.jetbrains.com/go/) …
     - [__Sublime Text__](http://www.sublimetext.com/) <sup>Fastest</sup>
         代码编辑器。Vintage 模式，可用 Vim 键位进行操作。冷启动也快如闪电！
         - 候选：[__VS Code__](https://code.visualstudio.com/)，开源、持续且活跃的开发，更不必说本身有微软过硬的技术实力背书。
@@ -199,7 +207,7 @@ __荀子__
         安装在 macOS 系统设置面板的 App，通过 `launchd` 管理各式 services。
         - 比使用命令行，更便于启动、终止 services 以及进行 root 授权。
 - 数据
-    - [__Squel Pro__](http://www.sequelpro.com/) <sup>Free</sup>
+    - [__~~Squel Pro~~__](http://www.sequelpro.com/) <sup>Free</sup>
         管理 MySQL 数据库的 GUI 工具。
     - [__~~Transmit~~__](https://panic.com/transmit/)
         FTP 的 GUI 工具。
@@ -256,7 +264,7 @@ __荀子__
 - [__Bartender__](https://www.macbartender.com/)
     收起或彻底隐藏毋需过多关注的菜单栏 App 图标。（我这个整洁癖、强迫症的福音）
     - 不推荐购买 [~~Vanilla~~](http://matthewpalmer.net/vanilla/)，使用简便，自然配置项有限，最主要因为功能的实现方法不合理以致有 bug，例如会遮蔽菜单栏的一些别的内容，又如某些图标不能符合预期地显示或隐藏。
-- [__~~ClipMenu~~__](http://www.clipmenu.com/) <sup>Simply</sup>
+- [__~~ClipMenu~~__](http://www.clipmenu.com/) <sup>Simple</sup>
     剪贴板管理。
     - 主要用于快速查询剪贴板的历史记录，并提取出需要的内容保存到当前的剪贴板中。
     - 支持 URL、纯文本、RTF、图片、文件等各种格式，包括剪贴历史的排序、内容的大小写转换、自定义文本的调用。
@@ -269,6 +277,10 @@ __荀子__
     - App 定制规则：来自不同 App 的内容，分别保存到不同的列表，应用不同的格式化模板。
     - Queue（队列）：先入先出地输出内容（平时默认：后入先出）。
     - 其它选择：[__Paste__](http://pasteapp.me/) 最好看！这类 App 层出不穷…
+- [__PopClip__](http://pilotmoon.com/popclip/)
+    快捷工具条。
+    - 在选中文本是弹出，辅助操作的工具条，包括：搜索、查字典、剪切、复制、粘贴等。
+    - TODO
 - [__HyperSwitch__](https://bahoom.com/hyperswitch) <sup>Best</sup>
     稳定切换同一 App 下各子窗口。
     - HyperSwitcher 选择切换的窗口时，会显示各应用的缩略图。
@@ -279,7 +291,7 @@ __荀子__
 - [__KeyCastr__](https://github.com/keycastr/keycastr)
     键盘输入可视化：在显示屏上会显示你的键盘敲击动作，包括使用快捷键组合。
     - 主要用于展示你如何（用快捷键）高效地使用电脑。
-- [__Itasycal__](https://www.mowglii.com/itsycal/) <sup>Simply</sup>
+- [__Itasycal__](https://www.mowglii.com/itsycal/) <sup>Simple</sup>
     菜单栏上的日历小工具。自定义日期时间显示的格式，方便查看月历和事件！
 - [__Quick Look plugins__](https://github.com/sindresorhus/quick-look-plugins)
     增强 Finder 的文件预览（Preview）功能。
@@ -370,6 +382,7 @@ __荀子__
     - [__~~BetterTouchTool~~__](http://www.boastr.net/)
         为 Mac 的触摸板定制更多手势操作。iOS 版 App 还可以用来让 iPhone、iPad 设备化身为 Mac 的触摸板。现已是收费软件，但不贵。
         - 可是作为键盘党，自定义的快捷键足以让我驰骋 macOS，基本没机会用它。
+        - TODO
     - [__~~Boom~~__](http://www.globaldelight.com/boom/index.php) <sup>极不推荐</sup>
         音效增强软件。可用于突破系统音量的上限，留意音量过大可能损坏 Mac 音箱。可有可无。
     - [__~~Contexts~~__](https://contexts.co/) <sup>Great</sup>
@@ -380,7 +393,7 @@ __荀子__
     - [__~~f.lux~~__](https://justgetflux.com/)
         根据所在地当时的日照，自动调整屏幕色温、亮度，减少蓝光对眼睛的刺激，以调整激素水平，保护正常睡眠节律。
         - 然而 macOS 和 iOS 的 Night Shift 已将其功能整合了（效果类似）。
-    - [__HazeOver__](https://hazeover.com/) <sup>Focus</sup>
+    - [__~~HazeOver~~__](https://hazeover.com/) <sup>Focus</sup>
         便于让你瞬间定位到当前正在使用窗口。
         - 除当前激活的窗口，其它窗口都会显示阴影，让人更专注与当前窗口的工作。
         <span class="hidden">- 可惜经过长期使用，感觉可有可无，上述说法可能只有理论上的作用，可能只是心理安慰。</span>
@@ -431,9 +444,12 @@ __荀子__
         - 其它选择：[__随手记专业版__](http://www.feidee.com/money/) <sup>One fo the best</sup> ，我用得最顺手的记账软件。弃用理由见上文。
 - 社交
     - __Mail__ <sup>Simple</sup>
-        iOS 自带邮箱客户端，足够好用。服务于工作邮箱。
+        iOS 自带邮箱客户端，足够好用。
     - __QQMail__
         个人邮箱。
+    - __Outlook__
+        工作邮箱，主要用于设置邮箱服务器的邮件规则
+        （分类不同邮件，某些邮件标为已读）
     - __WeChat__ <sup>Required for payment</sup>
         微信，主要用于支付、社交和碎片阅读（公众号）。
         - 能用微信小程序代替的 App 我都不下载。
