@@ -46,7 +46,7 @@ description: Git Note&#58; 我的 Git 笔记，日常工作曾使用的指令组
 `git branch` : `-a` list all , `-d` delete | `-D` force to delete
 `git cherry-pick [commit_id]`
 
-`git remote add [name] [url]` 
+`git remote add [name] [url]`
 `git config` : `-e` edit , `--list`
 
 ### Check 检查
@@ -127,7 +127,7 @@ description: Git Note&#58; 我的 Git 笔记，日常工作曾使用的指令组
 - `git checkout <branch_name>` 切换分支。
 - \-\-\-
 - _`git merge <branch_name>` 将另一分支 <branch_name> 导入到当前分支。_
-- _`git merge --squash <branch_name>` 把另一分支的所有提交合并成一个提交，并导入到当前分支。`_
+- _`git merge --squash <branch_name>` 把另一分支的所有提交合并成一个提交，并导入到当前分支。_
 - \-\-\-
 - `git fetch -p` 删除远程不存在的分支。
 - `git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d` 删除所有已经合并到主干的本地分支 ( [Ref](http://stackoverflow.com/questions/6127328/how-can-i-delete-all-git-branches-which-have-been-merged) )
@@ -234,7 +234,7 @@ description: Git Note&#58; 我的 Git 笔记，日常工作曾使用的指令组
     - `--all` | `-a` Auto stage files that have been modified and deleted, but not untracked ones.
     - `--message=<msg>` | `-m <msg>` Use given <msg> as the commit msg.
     - `--amend` Replace tip of cur branch by creating a new commit.
-- [reset](http://git-scm.com/docs/git-reset) ` [<mode>] [<commit>]`
+- [reset](http://git-scm.com/docs/git-reset) `[<mode>] [<commit>]`
     Reset cur HEAD to the specified state.
     Modes:
     - `--soft` Does not touch the index file or the working tree at all (but resets the head to &lt;commit&gt;).
@@ -295,7 +295,7 @@ description: Git Note&#58; 我的 Git 笔记，日常工作曾使用的指令组
     - `<stash>` e.g. `stash@{<revision>}ster +10 ~0 -0 !`
     - 在这段提示的地方，你可以看到几个东西：
         master 代表目前工作目录是 master 分支，也是 Git 的预设分支名称。
-        “红色”的数字都代表 Untracked (未追踪)`
+        “红色”的数字都代表 Untracked (未追踪)
 - [tag](http://git-scm.com/docs/git-tag) `[-f] [-m <msg>] <tag_name> [<commit> | <object>]`
     Create, list, del or verify a tag obj signed with GPG
     - `--force` | `-f` Replace an existing tag with the given name (instead of failing).
