@@ -1,6 +1,6 @@
 title: Git 总结
 date: 2016-02-15
-updated: 2017-04-07
+updated: 2018-05-07
 categories: [Git]
 tags: [Git]
 description: Git Note&#58; 我的 Git 笔记，日常工作曾使用的指令组合。
@@ -298,6 +298,8 @@ description: Git Note&#58; 我的 Git 笔记，日常工作曾使用的指令组
         “红色”的数字都代表 Untracked (未追踪)
 - [tag](http://git-scm.com/docs/git-tag) `[-f] [-m <msg>] <tag_name> [<commit> | <object>]`
     Create, list, del or verify a tag obj signed with GPG
+    - `--annotated` | `-a` Annotated tag, needs a message（创建 tag）
+        - e.g.: `git tag -a v1.4 -m 'my version 1.4'`
     - `--force` | `-f` Replace an existing tag with the given name (instead of failing).
     - `--message=<msg>` | `-m <msg>` Use the given tag msg (instead of prompting).
     Add a tag reference in refs/tags/, unless `-d` and `-l` (to del or list tags).
