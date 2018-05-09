@@ -96,7 +96,7 @@ nocopyright: true
 # 经验
 
 ## <i class="hidden">微博平台 - Java 服务端</i>
-__<i class="fa fa-fw fa-weibo"></i> [新浪微博](https://zh.wikipedia.org/wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A) - 视频平台 - Java 服务端研发__&emsp;_2018.04 ~ Now_
+__<i class="fa fa-fw fa-weibo"></i> [新浪微博](https://zh.wikipedia.org/wiki/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A) <span class="hidden">- 视频及通讯平台研发</span> - 视频平台 - Java 服务端研发__&emsp;_2018.04 ~ Now_
 
 - TODO<i class="hidden">视频编码</i>
 <i class="hidden">- _Java , C , Go_</i>
