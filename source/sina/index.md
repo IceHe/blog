@@ -1,9 +1,7 @@
 title: 新浪 · 网络接入
 ---
 
-{% cq %}
-欢迎加入新浪 ~
-{% endcq %}
+> 欢迎加入新浪 ~
 
 ## 接入网络
 
@@ -39,8 +37,8 @@ title: 新浪 · 网络接入
 
 ## 下一步
 
-<todo>
+[todo]()
 
-- 网址：<https://icehe.me/sina/>
+- 网址：[icehe.me/sina/](https://icehe.me/sina/)
 - 作者：zhiyuan16#staff.weibo.com
 - 创建于 2018-06-28
