@@ -382,7 +382,6 @@ __荀子__
     - [__~~BetterTouchTool~~__](http://www.boastr.net/)
         为 Mac 的触摸板定制更多手势操作。iOS 版 App 还可以用来让 iPhone、iPad 设备化身为 Mac 的触摸板。现已是收费软件，但不贵。
         - 可是作为键盘党，自定义的快捷键足以让我驰骋 macOS，基本没机会用它。
-        - TODO
     - [__~~Boom~~__](http://www.globaldelight.com/boom/index.php) <sup>极不推荐</sup>
         音效增强软件。可用于突破系统音量的上限，留意音量过大可能损坏 Mac 音箱。可有可无。
     - [__~~Contexts~~__](https://contexts.co/) <sup>Great</sup>
