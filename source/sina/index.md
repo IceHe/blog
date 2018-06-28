@@ -29,7 +29,7 @@ title: 新浪 · 网络接入
     - 若未自动弹出认证页面，且网络访问异常，建议访问 [sina.com](http://sina.com/)
 - 通过认证后，即可正常接入网络
 
-终端免认证（跳过身份认证）
+终端免认证（ 跳过身份认证 ）
 
 - 无线网络无需手动设置免认证
     - 目前每个员工可以自动绑定 2 台终端作为免认证终端（办公电脑 + 手机）
@@ -37,7 +37,7 @@ title: 新浪 · 网络接入
 
 ## 下一步
 
-[todo]()
+接入新浪内网后，请访问 [__docs.intra.weibo.cn/get-devices__](https://docs.intra.weibo.cn/get-devices)
 
 - 网址：[icehe.me/sina/](https://icehe.me/sina/)
 - 作者：zhiyuan16#staff.weibo.com
