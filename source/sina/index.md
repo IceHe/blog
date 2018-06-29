@@ -39,6 +39,8 @@ title: 新浪 · 网络接入
 
 接入新浪内网后，请访问 [__docs.intra.weibo.cn/get-devices__](https://docs.intra.weibo.cn/get-devices)
 
+---
+
 - 网址：[icehe.me/sina/](https://icehe.me/sina/)
 - 作者：zhiyuan16#staff.weibo.com
 - 创建于 2018-06-28
