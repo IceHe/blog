@@ -1,9 +1,7 @@
-title: 新浪 · 网络接入
+title: 新浪 · 连接网络
 ---
 
-> 欢迎加入新浪 ~
-
-## 接入网络
+## 连接网络
 
 无线网络（ WiFi ）
 
@@ -37,10 +35,10 @@ title: 新浪 · 网络接入
 
 ## 下一步
 
-接入新浪内网后，请访问 [__docs.intra.weibo.cn/get-devices__](https://docs.intra.weibo.cn/get-devices)
+接入新浪内网后，请访问 [__icehe.me/sina/get-devices.html__](https://icehe.me/sina/get-devices.html)
 
 ---
 
-- 网址：[icehe.me/sina/](https://icehe.me/sina/)
+- 网址：[icehe.me/sina/connect-to-network.html](https://icehe.me/sina/connect-to-network.html)
 - 作者：zhiyuan16#staff.weibo.com
 - 创建于 2018-06-28
