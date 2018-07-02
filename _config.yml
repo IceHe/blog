@@ -109,6 +109,7 @@ deploy:
     repo:
         coding: git@git.coding.net:IceHe/IceHe.me.git,master
         github: git@github.com:IceHe/icehe.me.git,master
+        github: git@gitlab.com:IceHe/icehe.me.git,master
 
 google_analytics:
     github: vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI
