@@ -2,8 +2,7 @@
 ## Docs: http://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
-# Site
-# Hexo Configuration
+# Site Hexo Configuration
 ## Docs: http://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
@@ -109,6 +108,7 @@ deploy:
     repo:
         coding: git@git.coding.net:IceHe/IceHe.me.git,master
         github: git@github.com:IceHe/icehe.me.git,master
+        gitlab: git@gitlab.com:IceHe/icehe.me.git,master
 
 google_analytics:
     github: vTRLdAQD7TWpilyhBBr7fi2vnVujwgpT23Zox6OLrOI
