@@ -63,7 +63,7 @@ tag: 2
 ## Hexo uses Connect as a server
 ## You can customize the logger format as defined in
 ## http://www.senchalabs.org/connect/logger.html
-port: 4000
+port: 4001
 server_ip: 127.0.0.1
 logger: true
 logger_format: dev
