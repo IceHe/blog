@@ -18,7 +18,7 @@ title: 新浪 · 领取设备
     - 公司北门电梯（中区观光电梯）到二层后，右转直走，到圆形会议室东边
     - 即下图中的 __地点 4：IT 服务中心__
 
-<img src="http://git.intra.weibo.com/im/form/raw/master/_images/freshman-guide/sina-plaza-floor-2.jpeg" alt="新浪总部大厦二楼指引"  width="750px"/>
+<img src="sina-plaza-floor-2.jpeg" alt="新浪总部大厦二楼指引"  width="750px"/>
 
 办公设备
 
